@@ -10,3 +10,13 @@
 | Salmonella enterica        | Salmonella_enterica.fasta        |             |E coli            |
 
 A parte de Enviroment o professor acabou não considerando nesse primeiro momento. Provavelmente nós mesmos podemos fazer essa pesquisa e adequação.
+
+## Pipeline
+* Anotaçao
+  * Augustus
+  * getAnnot
+* Busca de ortologos
+  * orthofinder
+ 
+* Anotação
+  * BLAST   
