@@ -1,0 +1,107 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g584.t1
+
+Length=373
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG039695(gb|WP_012220895) (coxFIC1) Coxiella Dot/Icm type IVB se...  74.7    8e-15
+VFG039696(gb|NP_821048) (coxFIC1) Coxiella Dot/Icm type IVB secre...  74.7    9e-15
+
+
+>VFG039695(gb|WP_012220895) (coxFIC1) Coxiella Dot/Icm type IVB 
+secretion system translocated effector  [T4SS secreted effectors 
+(VF0696) - Effector delivery system (VFC0086)] [Coxiella 
+burnetii RSA 331]
+Length=348
+
+ Score = 74.7 bits (182),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 48/197 (24%), Positives = 94/197 (48%), Gaps = 13/197 (7%)
+
+Query  162  VHFEAPPRAGLEAQLADFLAWFESSRRDASLDPFLRAGIAHFWFVTLHPFDDGNGRLTRA  221
+            V +  PP   +   +   + W      +  + P L +GIA F  V +HPF DGNGR  R 
+Sbjct  145  VIYTPPPAYEISHLMQGLVDWL---NEEEDIHPVLVSGIAQFQLVHIHPFLDGNGRTARL  201
+
+Query  222  ITDLALAQGEQQAIRFYAMSASILDDRAGYYRILEASQKSTLDITNWLQWFLATLLNSLE  281
+            ++ L L +      + + +S     +RA YY+ +++ +++ +D+T WL++F   L   L 
+Sbjct  202  LSTLCLYRKGYDFKKLFTISEYYDRNRADYYKAIQSVRENDMDMTGWLEYFSEGLAVQLR  261
+
+Query  282  QALARIDRVLVKARFWQAHRSQTLSAEQVKVLNRLLDGGERGFEEGISAAQYQAVA-KVS  340
+            +      + + ++   + H    LS  Q   ++ +   G       +S  Q++ +  +V+
+Sbjct  262  EIKDLGKQAIKQSLLSKKHH---LSERQGLAIDYMTTEG------SLSIQQFEKMCPEVT  312
+
+Query  341  KATATRHLSDLLEKGCI  357
+            + T  R L DL+++G +
+Sbjct  313  RRTLQRELKDLIDRGLV  329
+
+
+>VFG039696(gb|NP_821048) (coxFIC1) Coxiella Dot/Icm type IVB secretion 
+system translocated effector  [T4SS secreted effectors 
+(VF0696) - Effector delivery system (VFC0086)] [Coxiella 
+burnetii RSA 493]
+Length=348
+
+ Score = 74.7 bits (182),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 48/197 (24%), Positives = 94/197 (48%), Gaps = 13/197 (7%)
+
+Query  162  VHFEAPPRAGLEAQLADFLAWFESSRRDASLDPFLRAGIAHFWFVTLHPFDDGNGRLTRA  221
+            V +  PP   +   +   + W      +  + P L +GIA F  V +HPF DGNGR  R 
+Sbjct  145  VIYTPPPAYEISHLMQGLVDWL---NEEEDIHPVLVSGIAQFQLVHIHPFLDGNGRTARL  201
+
+Query  222  ITDLALAQGEQQAIRFYAMSASILDDRAGYYRILEASQKSTLDITNWLQWFLATLLNSLE  281
+            ++ L L +      + + +S     +RA YY+ +++ +++ +D+T WL++F   L   L 
+Sbjct  202  LSTLCLYRKGYDFKKLFTISEYYDRNRADYYKAIQSVRENDMDMTGWLEYFSEGLAVQLR  261
+
+Query  282  QALARIDRVLVKARFWQAHRSQTLSAEQVKVLNRLLDGGERGFEEGISAAQYQAVA-KVS  340
+            +      + + ++   + H    LS  Q   ++ +   G       +S  Q++ +  +V+
+Sbjct  262  EIKDLGKQAIKQSLLSKKHH---LSERQGLAIDYMTTEG------SLSIQQFEKMCPEVT  312
+
+Query  341  KATATRHLSDLLEKGCI  357
+            + T  R L DL+++G +
+Sbjct  313  RRTLQRELKDLIDRGLV  329
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2830383349
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

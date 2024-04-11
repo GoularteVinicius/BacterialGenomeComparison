@@ -1,0 +1,120 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1482.t1
+
+Length=353
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG001827(gb|WP_001020414) (senB) enterotoxin [ShET2 (VF0258) - E...  114     9e-29
+VFG036084(gb|WP_001020413) (senB) enterotoxin production-related ...  114     1e-28
+
+
+>VFG001827(gb|WP_001020414) (senB) enterotoxin [ShET2 (VF0258) 
+- Exotoxin (VFC0235)] [Shigella boydii Sb227]
+Length=391
+
+ Score = 114 bits (286),  Expect = 9e-29, Method: Compositional matrix adjust.
+ Identities = 90/326 (28%), Positives = 158/326 (48%), Gaps = 31/326 (10%)
+
+Query  41   KGAYEMAWSQQENALWLATSQ--SRKLDKGGVVYRLDPVTLEITQAIHNDLKPFGATINA  98
+            +G YE+A+      ++ A +   +R+ +KG  +Y  +  +L++        + F   IN 
+Sbjct  48   EGVYELAFDNASKKVFAAVTDRVNREANKG-YLYSFNSDSLKVENKYTMPYRAFSLAINQ  106
+
+Query  99   ATQTLWFGNTINSA--VTAIDAKTGDV---KGRLVLDARKRTEEVRPLQPRELVADAATN  153
+                L+ G+T +++  ++  D  TG +     RL   A    +  R    R +V    ++
+Sbjct  107  DKHQLYIGHTQSASLRISMFDTPTGKLVRTSDRLSFKAANAADS-RFEHLRHMVYSQDSD  165
+
+Query  154  TIYIS---------GVGKESAIWVVDGETIKLKTTIENTGK-MSTGLALDSKAQRLYTTN  203
+            T+++S         G+     + ++DG T+ LK  +++  K  + GL +D K Q++Y   
+Sbjct  166  TLFVSYSNMLKTAEGMKPLHKLLMLDGTTLALKGEVKDAYKGTAYGLTMDEKTQKIYVGG  225
+
+Query  204  ADGEFITIDTASNKILSRKKLLDDGKEHF--FINLSLDTAGHRAFIT-----DSKATE--  254
+             D  +I    A N+ L R   L D +       NL++D+A  RAF+      D   T+  
+Sbjct  226  RD--YINEIDAKNQTLLRTIPLKDPRPQITSVQNLAVDSASDRAFVVVFDHDDRSGTKDG  283
+
+Query  255  VLVVDTRNGNILAKIAAPASL-AVLFNPTRNEAYVTHRQAGQVSVIDAKTYNVVKTFDTP  313
+            + + D R+G  L  +   A   AV +NP  NE YVT+  +G +SV+DA  Y++ + F+ P
+Sbjct  284  LYIFDLRDGKQLGYVHTGAGANAVKYNPKYNELYVTNFTSGTISVVDATKYSITREFNMP  343
+
+Query  314  TYPNSLALSADGKTLYVSVKQKSTRE  339
+             YPN + LS D  TLY+ +K+   R+
+Sbjct  344  VYPNQMVLSDDMDTLYIGIKEGFNRD  369
+
+
+>VFG036084(gb|WP_001020413) (senB) enterotoxin production-related 
+protein TieB [Enterotoxin SenB/TieB (VF1136) - Exotoxin 
+(VFC0235)] [Escherichia coli UTI89]
+Length=391
+
+ Score = 114 bits (286),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 90/326 (28%), Positives = 158/326 (48%), Gaps = 31/326 (10%)
+
+Query  41   KGAYEMAWSQQENALWLATSQ--SRKLDKGGVVYRLDPVTLEITQAIHNDLKPFGATINA  98
+            +G YE+A+      ++ A +   +R+ +KG  +Y  +  +L++        + F   IN 
+Sbjct  48   EGVYELAFDNASKKVFAAVTDRVNREANKG-YLYSFNSDSLKVENKYTMPYRAFSLAINQ  106
+
+Query  99   ATQTLWFGNTINSA--VTAIDAKTGDV---KGRLVLDARKRTEEVRPLQPRELVADAATN  153
+                L+ G+T +++  ++  D  TG +     RL   A    +  R    R +V    ++
+Sbjct  107  DKHQLYIGHTQSASLRISMFDTPTGKLVRTSDRLSFKAANAADS-RFEHFRHMVYSQDSD  165
+
+Query  154  TIYIS---------GVGKESAIWVVDGETIKLKTTIENTGK-MSTGLALDSKAQRLYTTN  203
+            T+++S         G+     + ++DG T+ LK  +++  K  + GL +D K Q++Y   
+Sbjct  166  TLFVSYSNMLKTAEGMKPLHKLLMLDGTTLALKGEVKDAYKGTAYGLTMDEKTQKIYVGG  225
+
+Query  204  ADGEFITIDTASNKILSRKKLLDDGKEHF--FINLSLDTAGHRAFIT-----DSKATE--  254
+             D  +I    A N+ L R   L D +       NL++D+A  RAF+      D   T+  
+Sbjct  226  RD--YINEIDAKNQTLLRTIPLKDPRPQITSVQNLAVDSASDRAFVVVFDHDDRSGTKDG  283
+
+Query  255  VLVVDTRNGNILAKIAAPASL-AVLFNPTRNEAYVTHRQAGQVSVIDAKTYNVVKTFDTP  313
+            + + D R+G  L  +   A   AV +NP  NE YVT+  +G +SV+DA  Y++ + F+ P
+Sbjct  284  LYIFDLRDGKQLGYVHTGAGANAVKYNPKYNELYVTNFTSGTISVVDATKYSITREFNMP  343
+
+Query  314  TYPNSLALSADGKTLYVSVKQKSTRE  339
+             YPN + LS D  TLY+ +K+   R+
+Sbjct  344  VYPNQMVLSDDMDTLYIGIKEGFNRD  369
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.130    0.360    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2638994652
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

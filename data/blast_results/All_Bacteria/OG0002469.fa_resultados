@@ -1,0 +1,270 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g241.t1
+
+Length=347
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000038(gb|WP_003807115) (bplA) probable oxidoreductase [LPS (V...  101     3e-24
+VFG011177(gb|WP_086935754) (bplA) probable oxidoreductase [LPS (V...  99.4    2e-23
+VFG014122(gb|WP_003150874) (PSPA7_RS30875) Gfo/Idh/MocA family ox...  78.6    3e-16
+VFG014142(gb|WP_016254248) (PA14_RS09485) bi-domain-containing ox...  48.9    3e-06
+
+
+>VFG000038(gb|WP_003807115) (bplA) probable oxidoreductase [LPS 
+(VF0033) - Immune modulation (VFC0258)] [Bordetella pertussis 
+Tohama I]
+Length=350
+
+ Score = 101 bits (252),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 93/352 (26%), Positives = 151/352 (43%), Gaps = 31/352 (9%)
+
+Query  2    DAPLRIALIGAGNMGRQHYHRL-QRIAGARLCAVAD--PQG-QAFAADTGVPWFGDHRRL  57
+            D  +R  L+G G + + H   + Q    A L  + D  P+  QA  A TG   F     +
+Sbjct  8    DRKIRFGLVGCGRISKNHIGAIAQHGDRAELVEICDTNPEALQAAEAATGARPFSSLSDM  67
+
+Query  58   LEEARPQAAIVANPNNLHVATALDCLAAGVPLLLEKPVGVQLDEVSELVAVARRSGVPLL  117
+            L +    A ++A P+ LH   A++   AG  ++ EKP+  + ++   +V     +GV L 
+Sbjct  68   LAQGNADALVLATPSGLHPWQAIEVAQAGRHVVSEKPMATRWEDGKRMVKACDEAGVRLF  127
+
+Query  118  VGHHRRHNPLVVRARQLIAEGALGRLLSVTALWQLKKPDSYFEVA-WRR--EPGAGMLLT  174
+            V    R N  +   ++ I +G  GR+  VT      +P  Y++ A WR   E   G  + 
+Sbjct  128  VVKQNRRNATLQLVKKAIEQGRFGRIYMVTVNVFWTRPQEYYDAARWRGKWEWDGGAFMN  187
+
+Query  175  NLIHDLDLLRHLCGEVREVQALAGNAIRGLPNEDNIALLLRFANGALGSLTGCDAAAAPW  234
+               H +DLL  L G V  V A      R +  ED     LR+ +GA+GS+          
+Sbjct  188  QASHYVDLLDWLVGPVESVYAYTATLARRIEAEDTGVAALRWRHGAMGSINVT-------  240
+
+Query  235  SWELAAGENPVYPRQAEQPCYLLA--GT--EGALSLPQLRRWRYAEARQGWHDPLAASEE  290
+                       YP+  E    +L   GT   G +++ ++  W++AE          A+ E
+Sbjct  241  --------MLTYPQNLEGSITILGEKGTVRVGGVAVNRIDEWKFAEPHPDDDKIREANYE  292
+
+Query  291  AVAT---GDPLQRQLEHFVRVARGEEAPLMDATDAARTLALVEAVREAARSG  339
+              +    G PL    ++ +   RG+  P  D  +  ++LAL+ A+  +AR G
+Sbjct  293  TTSVYGFGHPL--YYDNVINCLRGDCEPETDGREGLQSLALLTAIYRSARDG  342
+
+
+>VFG011177(gb|WP_086935754) (bplA) probable oxidoreductase [LPS 
+(VF0033) - Immune modulation (VFC0258)] [Bordetella avium 
+197N]
+Length=350
+
+ Score = 99.4 bits (246),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 89/353 (25%), Positives = 149/353 (42%), Gaps = 31/353 (9%)
+
+Query  1    MDAPLRIALIGAGNMGRQHYHRL----QRIAGARLCAVADPQGQAFAADTGVPWFGDHRR  56
+             D  +R AL+G G + + H   +    +R     +C       +A A  TG   +     
+Sbjct  7    FDRKIRFALVGCGRISKNHIAAIAQHHERAELVEVCDTDPAALRAAAKATGAKPYSSLSE  66
+
+Query  57   LLEEARPQAAIVANPNNLHVATALDCLAAGVPLLLEKPVGVQLDEVSELVAVARRSGVPL  116
+            +L  +   A I+A P+ LH   A++   +G  ++ EKP+  + ++   +V     +GV L
+Sbjct  67   MLAASTADAVILATPSGLHPWQAIEVAQSGRHVVSEKPMATRWEDGKRMVKACDDAGVHL  126
+
+Query  117  LVGHHRRHNPLVVRARQLIAEGALGRLLSVTALWQLKKPDSYFEVA-WR--REPGAGMLL  173
+             V    R N  +   +  + +   GR+  VT      +P  Y++ A WR   E   G  +
+Sbjct  127  FVVKQNRRNATLQLLKHAVEQNRFGRIYMVTVNVFWTRPQEYYDAARWRGKWEWDGGAFM  186
+
+Query  174  TNLIHDLDLLRHLCGEVREVQALAGNAIRGLPNEDNIALLLRFANGALGSLTGCDAAAAP  233
+                H +DLL  L G V  V A      R +  ED     +R+ +GA+GS+         
+Sbjct  187  NQASHYVDLLDWLIGPVESVYAYTATLARRIEAEDTGVAAVRWRHGAMGSINVT------  240
+
+Query  234  WSWELAAGENPVYPRQAEQPCYLLA--GTE--GALSLPQLRRWRYAEARQGWHDPLAASE  289
+                        YP+  E    +L   GT   G +++ ++  W++AE          AS 
+Sbjct  241  ---------MLTYPQNLEGSITILGEKGTVRIGGVAVNRIDEWKFAEPHPDDEKIKDASY  291
+
+Query  290  EAVAT---GDPLQRQLEHFVRVARGEEAPLMDATDAARTLALVEAVREAARSG  339
+            E  +    G PL    ++ +R  RGE +P  D  +  ++LAL+ A+  +AR G
+Sbjct  292  ETTSVYGFGHPL--YYDNVIRTLRGECSPETDGREGLQSLALLTAMYRSARDG  342
+
+
+>VFG014122(gb|WP_003150874) (PSPA7_RS30875) Gfo/Idh/MocA family 
+oxidoreductase [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PA7]
+Length=336
+
+ Score = 78.6 bits (192),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 97/359 (27%), Positives = 152/359 (42%), Gaps = 52/359 (14%)
+
+Query  9    LIGAGNMGRQHYHRLQRIAGARLCAVADPQGQAFAAD---TGVPWFGDHRRLLEEARPQA  65
+            ++G+G++ R+H   +Q              G+   ++   +GV   G     L+   P  
+Sbjct  9    IVGSGSIARRHMRNIQSTYPQAKIVCVSASGRELNSNELPSGVSALGSLHDALQ-VIPTF  67
+
+Query  66   AIVANPNNLHVATALDCLAAGVPLLLEKPVGVQLDEVSELVAVARRSGVPL-----LVGH  120
+            AI+A+P  LHV  A    ++GV +L+EKP+         LV  A + G  L     LV +
+Sbjct  68   AIIASPAPLHVEQASLLASSGVSILVEKPLS------DSLVRFASQGGASLNGKRILVAY  121
+
+Query  121  HRRHNPLVVRARQLIAEGALGRLLSVTAL-------WQLKKPDSYF--EVAWRREPGAGM  171
+            + R  P +   +Q I  G LGR+ SV+         W   +PDS +   V+ +R  G G 
+Sbjct  122  NLRFMPSIRVFKQYIDSGKLGRIHSVSCEVGQYLPDW---RPDSDYRKNVSAQRTLGGGA  178
+
+Query  172  LLTNLIHDLDLLRHLCGEVREVQALAGNAIRG---LPNEDNIALLLRFANGALGSLTGCD  228
+            LL  L H+LD L+ L G V  V  +A   I G   L  ED +  LL    G + +L    
+Sbjct  179  LL-ELSHELDYLQWLFGPVANVYCIA--RISGALELDAEDTVDALLVSQKGYVINL----  231
+
+Query  229  AAAAPWSWELAAGENPVYPRQAEQPCYLLAGTEGALSLPQLRRWRYAEARQGWHDPLAAS  288
+                               R A + C ++ G   +L    L       +  G    L + 
+Sbjct  232  -------------HMDFLQRTATRKCKVV-GEHASLEWNILDNSVVLYSSLGKKQVLYSD  277
+
+Query  289  EEAVATGDPLQRQLEHFVRVARGEEAPLMDATDAARTLALVEAVREAARSGRACAPASF  347
+            +E       +  +L HFV VA+G+ + L+       TL LVEA++ ++ SG+  +   F
+Sbjct  278  QEYDRNRMYID-ELLHFVDVAKGKSSALVTIEQGLETLKLVEALKRSSASGKVISLRDF  335
+
+
+>VFG014142(gb|WP_016254248) (PA14_RS09485) bi-domain-containing 
+oxidoreductase [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa UCBPP-PA14]
+Length=714
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 44/188 (23%), Positives = 85/188 (45%), Gaps = 36/188 (19%)
+
+Query  57   LLEEARPQAAIVANPNNLHVATALDCLAAGVPLLLEKPVGV---QLDEVSELVAVARRSG  113
+            +L E       +   ++ H    +D L  G  + +EKP+ +   +L++V  + A+  ++G
+Sbjct  448  VLNERMINTIAIVTRHDTHARLVVDALRTGKNVFVEKPLAITHAELEDVQAVHAITHQTG  507
+
+Query  114  V--PLLVGHHRRHNPLVVRARQLIAEGALGRLLSVTALWQLKKPDSYFEVA---------  162
+                L+VG +RR  P + + + L+A               +++P S+             
+Sbjct  508  GGPQLMVGFNRRFAPHIQKMKGLLAS--------------VREPKSFIMTMNAGAIPVGH  553
+
+Query  163  WRRE--PGAGMLLTNLIHDLDLLRHLCGE-VREVQAL---AGNAIRGLPNEDNIALLLRF  216
+            W ++   G G ++    H +DL+R+L G  +  VQA      NAI    +ED  ++ L F
+Sbjct  554  WTQDIAVGGGRIIGEACHFIDLMRYLAGSRIVSVQARRMGDSNAID--TSEDKASITLGF  611
+
+Query  217  ANGALGSL  224
+             +G+ G++
+Sbjct  612  EDGSFGTI  619
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2576161446
+
+
+Query= g1054.t1
+
+Length=367
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000038(gb|WP_003807115) (bplA) probable oxidoreductase [LPS (V...  62.8    7e-11
+VFG011177(gb|WP_086935754) (bplA) probable oxidoreductase [LPS (V...  57.4    4e-09
+VFG037913(gb|YP_001083150) (A1S_0053) MviM protein [Capsule (VF04...  47.0    7e-06
+
+
+>VFG000038(gb|WP_003807115) (bplA) probable oxidoreductase [LPS 
+(VF0033) - Immune modulation (VFC0258)] [Bordetella pertussis 
+Tohama I]
+Length=350
+
+ Score = 62.8 bits (151),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 58/258 (22%), Positives = 106/258 (41%), Gaps = 25/258 (10%)
+
+Query  50   ATMEALCSHPDVDCVIIASPNYLHKAPVIAAAKAGKHVFCEKPIALNYQDCKDMVDACKE  109
+            +++  + +  + D +++A+P+ LH    I  A+AG+HV  EKP+A  ++D K MV AC E
+Sbjct  62   SSLSDMLAQGNADALVLATPSGLHPWQAIEVAQAGRHVVSEKPMATRWEDGKRMVKACDE  121
+
+Query  110  AGVTFMAGHVMNFFHGVRHAKALIKAGEIGEVTQVHTKRNGF----EDVQDEISWK-KIR  164
+            AGV             ++  K  I+ G  G +  V    N F    ++  D   W+ K  
+Sbjct  122  AGVRLFVVKQNRRNATLQLVKKAIEQGRFGRIYMVTV--NVFWTRPQEYYDAARWRGKWE  179
+
+Query  165  AKSGGHLYHHIHELDCTLFIMDETPSLVSMAAGNVAHKGEKFGDEDDVVLITLEFESGRF  224
+               G  +    H +D   +++    S+ +  A  +A + E     +D  +  L +  G  
+Sbjct  180  WDGGAFMNQASHYVDLLDWLVGPVESVYAYTA-TLARRIEA----EDTGVAALRWRHGAM  234
+
+Query  225  ATLQWGSSFHYPEHY---VLIEGTTGAILIDMQNTAGYLIKAGKKTHFLVHESQAEDDDR  281
+             ++   +   YP++    + I G  G + +         +   +   +   E   +DD  
+Sbjct  235  GSIN-VTMLTYPQNLEGSITILGEKGTVRVGG-------VAVNRIDEWKFAEPHPDDDKI  286
+
+Query  282  RNGNISSEMDGAIAYGKP  299
+            R  N   E      +G P
+Sbjct  287  REANY--ETTSVYGFGHP  302
+
+
+>VFG011177(gb|WP_086935754) (bplA) probable oxidoreductase [LPS 
+(VF0033) - Immune modulation (VFC0258)] [Bordetella avium 
+197N]
+Length=350
+
+ Score = 57.4 bits (137),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 35/114 (31%), Positives = 58/114 (51%), Gaps = 5/114 (4%)
+
+Query  3    KYGVVGTGYFG----AELARFMSKVEGAKITAIYDPVNAAPIAKELNCVATATMEALCSH  58
+            ++ +VG G       A +A+   + E  ++    DP      AK       +++  + + 
+Sbjct  12   RFALVGCGRISKNHIAAIAQHHERAELVEVCDT-DPAALRAAAKATGAKPYSSLSEMLAA  70
+
+Query  59   PDVDCVIIASPNYLHKAPVIAAAKAGKHVFCEKPIALNYQDCKDMVDACKEAGV  112
+               D VI+A+P+ LH    I  A++G+HV  EKP+A  ++D K MV AC +AGV
+Sbjct  71   STADAVILATPSGLHPWQAIEVAQSGRHVVSEKPMATRWEDGKRMVKACDDAGV  124
+
+
+>VFG037913(gb|YP_001083150) (A1S_0053) MviM protein [Capsule (VF0465) 
+- Immune modulation (VFC0258)] [Acinetobacter baumannii 
+ATCC 17978]
+Length=285
+
+ Score = 47.0 bits (110),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 35/123 (28%), Positives = 51/123 (41%), Gaps = 7/123 (6%)
+
+Query  61   VDCVIIASPNYLHKAPVIAAAKAGKHVFCEKPIALNYQDCKDMVDACKEAGVTFMAGHVM  120
+            +D V I SPNYLH   +  A K G  V CEKP+ LN +D   + +  K+ G    +   +
+Sbjct  40   LDYVAICSPNYLHAPHMKYALKNGIDVICEKPLVLNSEDLNMLAEYEKQYGAKVNSILQL  99
+
+Query  121  NFFHGVRHAKALIKAGEIGEVTQVHTKRNGFEDVQDEISWKKIRAKSGG-------HLYH  173
+                 +   +  ++A    +V  V              SWK +  KSGG       H Y 
+Sbjct  100  RLHPSIIALRDKVQAAPADKVFDVDLTYLTSRGKWYLKSWKGVDNKSGGVATNIGVHFYD  159
+
+Query  174  HIH  176
+             +H
+Sbjct  160  MLH  162
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2785605466
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

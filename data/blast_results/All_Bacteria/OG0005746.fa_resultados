@@ -1,0 +1,131 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g5488.t1
+
+Length=321
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049150(gb|WP_000982270) (clbD) colibactin biosynthesis dehydro...  79.7    5e-17
+VFG043691(gb|WP_000982270) (clbD) colibactin biosynthesis dehydro...  79.7    5e-17
+VFG017683(gb|YP_005921788) (icl) Isocitrate lyase Icl (isocitrase...  58.5    2e-09
+
+
+>VFG049150(gb|WP_000982270) (clbD) colibactin biosynthesis dehydrogenase 
+ClbD [Colibactin (VF0573) - Exotoxin (VFC0235)] [Klebsiella 
+pneumoniae subsp. pneumoniae 1084]
+Length=289
+
+ Score = 79.7 bits (195),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 57/237 (24%), Positives = 103/237 (43%), Gaps = 11/237 (5%)
+
+Query  11   AALGSGVIGSGWIARALAHGLDVVAWDPAPGAEAALRA------RVANAWPALRKQGLAP  64
+            A +G+GV+G+G       +G+     D +       R       R+ N  P  +K+  + 
+Sbjct  5    AVIGAGVMGTGVAHNMAQYGISTNVVDISQSQLDKCRQMIEANLRLYNFHPQHKKKTHST  64
+
+Query  65   GAAQERLRFVASIEECVGDADFIQESAPERLDLKLDLHARISAAARPDVLIGSSTSGLLP  124
+                E +RF   +++ V + D + E+  E ++ K  L+ R++       + G +TS +  
+Sbjct  65   AEIMENIRFTTELDDIV-ECDLVIENITEDIEKKNALYTRMNTICGASTVFGVNTSAISI  123
+
+Query  125  SEFYAEASHPERCLVGHPFNPVYLLPLVEVVGGERTAAEAVRAAMRVYESLGMRPLHVRK  184
+            +       HPE  +  H  NPV L+  VE++ G  TA   +     ++  L    + V  
+Sbjct  124  TALSKLMRHPENVVGVHFMNPVPLMHTVELIRGVHTAERTLNIFHHLFAQLNKTGI-VVN  182
+
+Query  185  EVPGFIADRLLEALWREALHLVNDGVATTGEIDDAIRFGAGLRWSFMGTFLTYTLAG  241
+            + PGF+ +R +     EA+ +V + +A   +ID   +   G +   MG   T  L G
+Sbjct  183  DSPGFVTNRAMMIFVNEAIFMVQEQIARAEDIDTLFKTCFGHK---MGPLQTADLIG  236
+
+
+>VFG043691(gb|WP_000982270) (clbD) colibactin biosynthesis dehydrogenase 
+ClbD [Colibactin (VF1179) - Exotoxin (VFC0235)] [Escherichia 
+coli O18:K1:H7 str. IHE3034]
+Length=289
+
+ Score = 79.7 bits (195),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 57/237 (24%), Positives = 103/237 (43%), Gaps = 11/237 (5%)
+
+Query  11   AALGSGVIGSGWIARALAHGLDVVAWDPAPGAEAALRA------RVANAWPALRKQGLAP  64
+            A +G+GV+G+G       +G+     D +       R       R+ N  P  +K+  + 
+Sbjct  5    AVIGAGVMGTGVAHNMAQYGISTNVVDISQSQLDKCRQMIEANLRLYNFHPQHKKKTHST  64
+
+Query  65   GAAQERLRFVASIEECVGDADFIQESAPERLDLKLDLHARISAAARPDVLIGSSTSGLLP  124
+                E +RF   +++ V + D + E+  E ++ K  L+ R++       + G +TS +  
+Sbjct  65   AEIMENIRFTTELDDIV-ECDLVIENITEDIEKKNALYTRMNTICGASTVFGVNTSAISI  123
+
+Query  125  SEFYAEASHPERCLVGHPFNPVYLLPLVEVVGGERTAAEAVRAAMRVYESLGMRPLHVRK  184
+            +       HPE  +  H  NPV L+  VE++ G  TA   +     ++  L    + V  
+Sbjct  124  TALSKLMRHPENVVGVHFMNPVPLMHTVELIRGVHTAERTLNIFHHLFAQLNKTGI-VVN  182
+
+Query  185  EVPGFIADRLLEALWREALHLVNDGVATTGEIDDAIRFGAGLRWSFMGTFLTYTLAG  241
+            + PGF+ +R +     EA+ +V + +A   +ID   +   G +   MG   T  L G
+Sbjct  183  DSPGFVTNRAMMIFVNEAIFMVQEQIARAEDIDTLFKTCFGHK---MGPLQTADLIG  236
+
+
+>VFG017683(gb|YP_005921788) (icl) Isocitrate lyase Icl (isocitrase) 
+(isocitratase) [Isocitrate lyase (VF0253) - Others (VFC0346)] 
+[Mycobacterium tuberculosis RGTB423]
+Length=744
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 57/207 (28%), Positives = 94/207 (45%), Gaps = 22/207 (11%)
+
+Query  30   GLDVVAWDPAPGAEAALRARVANAWPALRKQGLAPGAAQER--------LRFVASIEECV  81
+            G++V  ++PA     A R R+  +     ++ ++ G   ER        L F   + + +
+Sbjct  486  GVEVTVFEPAEALITAGRNRIVKSL----ERAVSAGKVTERERDRALGLLTFTTDLND-L  540
+
+Query  82   GDADFIQESAPERLDLKLDLHARIS-AAARPDVLIGSSTSGLLPSEFYAEASHPERCLVG  140
+             D   + E+  E   +K ++ A +      PD ++ S+TS +   +  A    P+R L  
+Sbjct  541  SDRQLVIEAVVEDEAVKSEIFAELDRVVTDPDAVLASNTSSIPIMKVAAATKQPQRVLGL  600
+
+Query  141  HPFNPVYLLPLVEVVGGERTAAEAVRAAMRVYE----SLGMRPLHVRKEVPGFIADRLLE  196
+            H FNPV +LPLVE+V   RT      AA R  E     LG + +    +  GF+ + LL 
+Sbjct  601  HFFNPVPVLPLVELV---RTLVTDEAAAARTEEFASTVLGKQVVRC-SDRSGFVVNALLV  656
+
+Query  197  ALWREALHLVNDGVATTGEIDDAIRFG  223
+                 A+ +V  G AT  ++D A+  G
+Sbjct  657  PYLLSAIRMVEAGFATVEDVDKAVVAG  683
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2320540443
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

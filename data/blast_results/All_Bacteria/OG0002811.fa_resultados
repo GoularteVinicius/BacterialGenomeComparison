@@ -1,0 +1,1088 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3126.t1
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG012982(gb|WP_001007156) (entB) enterobactin biosynthesis bifun...  46.2    3e-06
+
+
+>VFG012982(gb|WP_001007156) (entB) enterobactin biosynthesis bifunctional 
+isochorismatase/aryl carrier protein EntB [Enterobactin 
+synthesis and transport (VF0984) - Nutritional/Metabolic 
+factor (VFC0272)] [Shigella flexneri 5 str. 8401]
+Length=285
+
+ Score = 46.2 bits (108),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 34/114 (30%), Positives = 56/114 (49%), Gaps = 8/114 (7%)
+
+Query  82   DLCGRGCAFHPD-------LKRDAVQMEVLKPRISAFYATRLEAVLRARRIERLVLAGVS  134
+            D+ G G    P+       L  DA    ++K R SAF+ + LE +L+     +L++ GV 
+Sbjct  93   DMWGPGLTRSPEQQKVVDRLTPDADDTVLVKWRYSAFHRSPLEQMLKESGRNQLIITGVY  152
+
+Query  135  TTWAVQAAARDAHDRDYQVLVLEEACAAASDEEHRRSIEVLGG-IARIVTLDQL  187
+                    A DA  RD +  ++ +A A  S +EH  S++ +GG   R+V  ++L
+Sbjct  153  AHIGCMTTATDAFMRDIKPFMVADALADFSRDEHLMSLKYVGGRSGRVVMTEEL  206
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.138    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1024135200
+
+
+Query= g1781.t1
+
+Length=188
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044368(gb|WP_013318792) (DDA3937_RS14715) isochorismatase [Chr...  74.7    3e-16
+VFG048414(gb|WP_012542485) (entB) 2,3-dihydro-2,3-dihydroxybenzoa...  70.1    1e-14
+VFG048411(gb|WP_014228361) (entB) 2,3-dihydro-2,3-dihydroxybenzoa...  67.4    1e-13
+VFG048415(gb|YP_005225748) (entB) 2,3-dihydro-2,3-dihydroxybenzoa...  67.0    1e-13
+VFG048418(gb|WP_012068427) (entB) 2,3-dihydro-2,3-dihydroxybenzoa...  67.0    1e-13
+VFG048419(gb|WP_004210873) (entB) 2,3-dihydro-2,3-dihydroxybenzoa...  67.0    2e-13
+VFG048420(gb|WP_012968725) (entB) 2,3-dihydro-2,3-dihydroxybenzoa...  67.0    2e-13
+VFG048417(gb|WP_014599080) (entB) 2,3-dihydro-2,3-dihydroxybenzoa...  66.2    3e-13
+VFG044244(gb|WP_005311738) (ASA_RS16550) cysteine hydrolase [Heme...  62.0    3e-12
+VFG044419(gb|AAR12561) (angB/G) ischorismate lyase [Anguibactin (...  60.5    4e-11
+VFG044422(gb|AAW66010) (vabB) isochorismate lyase [Anguibactin (V...  58.2    2e-10
+VFG044430(gb|CAJ45637) (vabB) 2,3-dihydro-2,3-dihydroxybenzoate s...  57.4    5e-10
+VFG050152(gb|WP_001972442) (dhbB) isochorismatase, DhbB [Bacillib...  57.4    5e-10
+VFG050028(gb|WP_001007255) (dhbB) isochorismatase, DhbB [Bacillib...  57.0    6e-10
+VFG050027(gb|WP_001007251) (dhbB) isochorismatase, DhbB [Bacillib...  57.0    6e-10
+VFG050153(gb|WP_001007245) (dhbB) isochorismatase, DhbB [Bacillib...  55.8    1e-09
+VFG050024(gb|WP_001007279) (dhbB) isochorismatase, DhbB [Bacillib...  55.8    1e-09
+VFG012983(gb|WP_001007129) (entB) enterobactin biosynthesis bifun...  55.8    2e-09
+VFG012981(gb|WP_001007128) (entB) enterobactin biosynthesis bifun...  55.8    2e-09
+VFG012979(gb|WP_001007154) (entB) enterobactin biosynthesis bifun...  55.5    2e-09
+VFG012980(gb|NP_706450) (entB) 2,3-dihydro-2,3-dihydroxybenzoate ...  55.5    2e-09
+VFG000933(gb|WP_001007140) (entB) isochorismatase [Enterobactin (...  55.5    2e-09
+VFG050032(gb|NP_391077) (dhbB) isochorismatase, DhbB [Bacillibact...  55.5    2e-09
+VFG050029(gb|WP_001007274) (dhbB) isochorismatase, DhbB [Bacillib...  55.1    3e-09
+VFG020170(gb|WP_001007130) (entB) enterobactin biosynthesis bifun...  55.1    3e-09
+VFG012982(gb|WP_001007156) (entB) enterobactin biosynthesis bifun...  55.1    3e-09
+VFG050033(gb|WP_001007276) (dhbB) isochorismatase, DhbB [Bacillib...  55.1    3e-09
+VFG050151(gb|WP_001007273) (dhbB) isochorismatase, DhbB [Bacillib...  55.1    3e-09
+VFG007196(gb|WP_000997093) (vibB) vibriobactin biosynthesis bifun...  54.7    3e-09
+VFG012984(gb|WP_001007145) (entB) enterobactin biosynthesis bifun...  54.3    5e-09
+VFG050034(gb|WP_001007278) (dhbB) isochorismatase, DhbB [Bacillib...  53.9    7e-09
+VFG007198(gb|WP_011081755) (vibB) isochorismatase family protein ...  53.1    1e-08
+VFG015513(gb|WP_003157855) (phzD1) phenazine biosynthesis protein...  49.3    2e-07
+VFG050030(gb|WP_003185954) (dhbB) isochorismatase, DhbB [Bacillib...  48.9    4e-07
+VFG015535(gb|WP_011666698) (phzD2) phenazine biosynthesis protein...  48.1    4e-07
+VFG015512(gb|NP_252902) (phzD1) phenazine biosynthesis protein Ph...  48.1    5e-07
+VFG020025(gb|WP_012613548) (phzD1) phenazine biosynthesis protein...  47.8    5e-07
+VFG019336(gb|WP_004685888) (dhbB) isochorismatase [Brucebactin (V...  44.7    1e-05
+VFG018293(gb|WP_004689940) (dhbB) isochorismatase [Brucebactin (V...  44.7    1e-05
+
+
+>VFG044368(gb|WP_013318792) (DDA3937_RS14715) isochorismatase 
+[Chrysobactin (VF1242) - Nutritional/Metabolic factor (VFC0272)] 
+[Dickeya dadantii 3937]
+Length=291
+
+ Score = 74.7 bits (182),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 56/198 (28%), Positives = 90/198 (45%), Gaps = 26/198 (13%)
+
+Query  4    LNATTTALVVIDLQEGILPFAG--GPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDD  61
+            ++ T  AL++ D+Q   L F G   P T  +++A  AR+ + CR  G PV          
+Sbjct  26   VDPTRAALLIHDMQNYFLNFWGENSPLT-EQLIANVARIRQACRQQGIPVFYT-------  77
+
+Query  62   YAEALKQPVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGT  110
+                  QP   +    AL  + W               AL     D  + K ++ AF+ +
+Sbjct  78   -----AQPNQQSDADRALLNDMWGPGLNRHPEQQQITAALTPNADDTVLVKWRYSAFHRS  132
+
+Query  111  DLELQLRRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTH  170
+            DLE +L   G D +I+CG+  +IG  +TA +A+       +  DA +  S E+H  ++ +
+Sbjct  133  DLEQRLNAAGRDQLIICGVYAHIGCLTTATDAFMRNIKPFMIADALADFSQEEHLMALRY  192
+
+Query  171  IFPRIGRVRSVEDILNAL  188
+               R GRV + E +L+AL
+Sbjct  193  TAGRCGRVLTSEQLLDAL  210
+
+
+>VFG048414(gb|WP_012542485) (entB) 2,3-dihydro-2,3-dihydroxybenzoate 
+synthetase, isochroismatase [Ent (VF0562) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae 342]
+Length=283
+
+ Score = 70.1 bits (170),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 53/194 (27%), Positives = 85/194 (44%), Gaps = 24/194 (12%)
+
+Query  4    LNATTTALVVIDLQEGILPFAG-GPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDY  62
+               +  AL++ D+QE  L F G       +VVA  A L + C+ NG PV           
+Sbjct  26   FEPSRAALLIHDMQEYFLNFWGENSAMMEKVVANIAALRDFCKQNGIPVYYT--------  77
+
+Query  63   AEALKQPVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGTD  111
+                 QP + +    AL  + W               AL   + D  + K ++ AF+ + 
+Sbjct  78   ----AQPKEQSDEDRALLNDMWGPGLTRSPEQQQVIAALAPDEDDTVLVKWRYSAFHRSP  133
+
+Query  112  LELQLRRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHI  171
+            LE  L+  G D +I+ G+  +IG  +TA +A+          DA +  S E+HQ ++ ++
+Sbjct  134  LEEMLKEAGRDQLIITGVYAHIGCMTTATDAFMRDIKPFFVADALADFSREEHQMALKYV  193
+
+Query  172  FPRIGRVRSVEDIL  185
+              R GRV   E++L
+Sbjct  194  AGRSGRVVMTEELL  207
+
+
+>VFG048411(gb|WP_014228361) (entB) 2,3-dihydro-2,3-dihydroxybenzoate 
+synthetase, isochroismatase [Ent (VF0562) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella oxytoca E718]
+Length=283
+
+ Score = 67.4 bits (163),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 53/191 (28%), Positives = 84/191 (44%), Gaps = 24/191 (13%)
+
+Query  7    TTTALVVIDLQEGILPFAG-GPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDYAEA  65
+            +  AL++ D+QE  L F G       +VVA  A L E C+ N  PV              
+Sbjct  29   SRAALLIHDMQEYFLNFWGENSAMMEKVVANIAALREFCKQNHIPVFYT-----------  77
+
+Query  66   LKQPVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGTDLEL  114
+              QP + +    AL  + W               AL   D+D  + K ++ AF+ + LE 
+Sbjct  78   -AQPKEQSDEDRALLNDMWGPGLTRSPEQQQVIAALAPDDNDTVLVKWRYSAFHRSPLEE  136
+
+Query  115  QLRRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPR  174
+             L+  G D +I+ G+  +IG  +TA +A+          DA +  S E+H  ++ ++  R
+Sbjct  137  MLKDAGRDQLIITGVYAHIGCMTTATDAFMRDIKPFFVADALADFSREEHLMALNYVAGR  196
+
+Query  175  IGRVRSVEDIL  185
+             GRV   E++L
+Sbjct  197  SGRVVMTEELL  207
+
+
+>VFG048415(gb|YP_005225748) (entB) 2,3-dihydro-2,3-dihydroxybenzoate 
+synthetase, isochroismatase [Ent (VF0562) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae HS11286]
+Length=283
+
+ Score = 67.0 bits (162),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 54/194 (28%), Positives = 86/194 (44%), Gaps = 24/194 (12%)
+
+Query  4    LNATTTALVVIDLQEGILPFAG-GPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDY  62
+               +  AL++ D+QE  L F G       +VVA  A L + C+ NG PV          Y
+Sbjct  26   FEPSRAALLIHDMQEYFLNFWGENSAMMEKVVANIAALRDFCKQNGIPV----------Y  75
+
+Query  63   AEALKQPVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGTD  111
+              A  QP + +    AL  + W               AL   + D  + K ++ AF+ + 
+Sbjct  76   YTA--QPKEQSDEDRALLNDMWGPGLTRSPEQQQVIAALAPDEDDTVLVKWRYSAFHRSP  133
+
+Query  112  LELQLRRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHI  171
+            LE  L+  G D +I+ G+  +IG  +TA +A+          DA +  S E+H  ++ ++
+Sbjct  134  LEEMLKETGRDQLIITGVYAHIGCMTTATDAFMRDIKPFFVADALADFSREEHLMALKYV  193
+
+Query  172  FPRIGRVRSVEDIL  185
+              R GRV   E++L
+Sbjct  194  AGRSGRVVMTEELL  207
+
+
+>VFG048418(gb|WP_012068427) (entB) 2,3-dihydro-2,3-dihydroxybenzoate 
+synthetase, isochroismatase [Ent (VF0562) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae MGH 78578]
+Length=283
+
+ Score = 67.0 bits (162),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 52/194 (27%), Positives = 84/194 (43%), Gaps = 24/194 (12%)
+
+Query  4    LNATTTALVVIDLQEGILPFAG-GPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDY  62
+               +  AL++ D+QE  L F G       +VVA  A L + C+ NG PV           
+Sbjct  26   FEPSRAALLIHDMQEYFLNFWGENSAMMEKVVANIAALRDFCKQNGIPVYYT--------  77
+
+Query  63   AEALKQPVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGTD  111
+                 QP + +    AL  + W               AL   + D  + K ++ AF+ + 
+Sbjct  78   ----AQPKEQSDEDRALLNDMWGPGLTRSPEQQQVIAALAPDEDDTVLVKWRYSAFHRSP  133
+
+Query  112  LELQLRRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHI  171
+            LE  L+  G D +I+ G+  +IG  +TA +A+          DA +  S E+H  ++ ++
+Sbjct  134  LEEMLKETGRDQLIITGVYAHIGCMTTATDAFMRDIKPFFVADALADFSREEHLMALKYV  193
+
+Query  172  FPRIGRVRSVEDIL  185
+              R GRV   E++L
+Sbjct  194  AGRSGRVVMTEELL  207
+
+
+>VFG048419(gb|WP_004210873) (entB) 2,3-dihydro-2,3-dihydroxybenzoate 
+synthetase, isochroismatase [Ent (VF0562) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=283
+
+ Score = 67.0 bits (162),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 52/194 (27%), Positives = 84/194 (43%), Gaps = 24/194 (12%)
+
+Query  4    LNATTTALVVIDLQEGILPFAG-GPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDY  62
+               +  AL++ D+QE  L F G       +VVA  A L + C+ NG PV           
+Sbjct  26   FEPSRAALLIHDMQEYFLNFWGENSAMMEKVVANIAALRDFCKQNGIPVYYT--------  77
+
+Query  63   AEALKQPVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGTD  111
+                 QP + +    AL  + W               AL   + D  + K ++ AF+ + 
+Sbjct  78   ----AQPKEQSDEDRALLNDMWGPGLTRSPEQQQVIAALAPDEDDTVLVKWRYSAFHRSP  133
+
+Query  112  LELQLRRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHI  171
+            LE  L+  G D +I+ G+  +IG  +TA +A+          DA +  S E+H  ++ ++
+Sbjct  134  LEEMLKETGRDQLIITGVYAHIGCMTTATDAFMRDIKPFFVADALADFSREEHLMALKYV  193
+
+Query  172  FPRIGRVRSVEDIL  185
+              R GRV   E++L
+Sbjct  194  AGRSGRVVMTEELL  207
+
+
+>VFG048420(gb|WP_012968725) (entB) 2,3-dihydro-2,3-dihydroxybenzoate 
+synthetase, isochroismatase [Ent (VF0562) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella variicola At-22]
+Length=283
+
+ Score = 67.0 bits (162),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 52/191 (27%), Positives = 84/191 (44%), Gaps = 24/191 (13%)
+
+Query  7    TTTALVVIDLQEGILPFAG-GPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDYAEA  65
+            +  AL++ D+QE  L F G       +VVA  A L + C+ NG PV              
+Sbjct  29   SRAALLIHDMQEYFLNFWGENSAMMEKVVANIAALRDFCKQNGIPVYYT-----------  77
+
+Query  66   LKQPVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGTDLEL  114
+              QP + +    AL  + W               AL   + D  + K ++ AF+ + LE 
+Sbjct  78   -AQPKEQSDEDRALLNDMWGPGLTRSPEQQQVIAALAPDEDDTVLVKWRYSAFHRSPLEE  136
+
+Query  115  QLRRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPR  174
+             L+  G D +I+ G+  +IG  +TA +A+          DA +  S E+H  ++ ++  R
+Sbjct  137  MLKEAGRDQLIITGVYAHIGCMTTATDAFMRDIKPFFVADALADFSREEHLMALKYVAGR  196
+
+Query  175  IGRVRSVEDIL  185
+             GRV   E++L
+Sbjct  197  SGRVVMTEELL  207
+
+
+>VFG048417(gb|WP_014599080) (entB) 2,3-dihydro-2,3-dihydroxybenzoate 
+synthetase, isochroismatase [Ent (VF0562) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae KCTC 2242]
+Length=283
+
+ Score = 66.2 bits (160),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 54/194 (28%), Positives = 85/194 (44%), Gaps = 24/194 (12%)
+
+Query  4    LNATTTALVVIDLQEGILPFAG-GPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDY  62
+               +  AL++ D+QE  L F G       +VVA  A L + C+ NG PV          Y
+Sbjct  26   FEPSRAALLIHDMQEYFLNFWGENSAMMEKVVANIAALRDFCKQNGIPV----------Y  75
+
+Query  63   AEALKQPVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGTD  111
+              A  QP + +    AL  + W               AL   + D  + K ++ AF+ + 
+Sbjct  76   YTA--QPKEQSDEDRALLNDMWGPGLTRSPEQQQVIAALAPDEDDTVLVKWRYSAFHRSP  133
+
+Query  112  LELQLRRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHI  171
+            LE  L+  G D +I+ G+  +IG  +TA +A+          DA +  S E+H  ++ ++
+Sbjct  134  LEEMLKETGRDQLIITGVYAHIGCMTTATDAFMHDIKPFFVADALADFSREEHLMALKYV  193
+
+Query  172  FPRIGRVRSVEDIL  185
+              R GRV   E +L
+Sbjct  194  AGRSGRVVMTEKLL  207
+
+
+>VFG044244(gb|WP_005311738) (ASA_RS16550) cysteine hydrolase [Heme 
+uptake system (VF0650) - Nutritional/Metabolic factor (VFC0272)] 
+[Aeromonas salmonicida subsp. salmonicida A449]
+Length=183
+
+ Score = 62.0 bits (149),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 45/149 (30%), Positives = 73/149 (49%), Gaps = 16/149 (11%)
+
+Query  11   LVVIDLQEGILPFAGGPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQPV  70
+            L+VID+Q+G+  FA   +   +V+A   RLA+  RAN   V+ V+     D   +  +P 
+Sbjct  4    LLVIDMQQGL--FAHPRHQDAQVIANINRLADSVRANQGRVIYVQ----HDAPGSELEPG  57
+
+Query  71   DAATPAHALPENWWTWPTALGKKDSDLEVTKRQWGAFYGTDLELQLRRRGIDTIILCGIS  130
+             AA          W     L    SD  V+K    +F  T+L   L  + +D +++CG +
+Sbjct  58   SAA----------WQLHADLIPARSDSRVSKTACDSFLDTELGFLLAEQAVDRLLICGCA  107
+
+Query  131  TNIGVESTARNAWELGFNLIIAEDACSAA  159
+            T+  V++T R+A   GF++    DA + A
+Sbjct  108  TDFCVDTTLRSAAARGFDVFAVTDAHTTA  136
+
+
+>VFG044419(gb|AAR12561) (angB/G) ischorismate lyase [Anguibactin 
+(VF1245) - Nutritional/Metabolic factor (VFC0272)] [Vibrio 
+anguillarum 775]
+Length=287
+
+ Score = 60.5 bits (145),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 46/194 (24%), Positives = 90/194 (46%), Gaps = 21/194 (11%)
+
+Query  4    LNATTTALVVIDLQEGILPFAGGPYT-ANEVVARAARLAEKCRANGSPVVMVRVGWSDDY  62
+            ++   + ++V DLQ   L F     +   E++    ++ E  R+ G PVV          
+Sbjct  26   IDPKKSVVLVHDLQAYFLNFFDKTLSPVPELLRNVNKVTESARSAGIPVVYT--------  77
+
+Query  63   AEALKQPVDAATPAHALPENWW----TWPTAL----GKKDSDLEVTKRQWGAFYGTDLEL  114
+                 QP +      AL  ++W    T  T +      +  D++ TK ++ AF  T L  
+Sbjct  78   ----AQPANQDPNERALLTDFWGVGLTQDTEIVPEVSPQPEDIQYTKWRYSAFKKTPLLE  133
+
+Query  115  QLRRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPR  174
+             ++    D +++ G+  +IG+ STA +A+ L     +  DA +  S E H +++ ++  R
+Sbjct  134  WMKEEQRDQLVIVGVYGHIGILSTALDAFMLDIKPFVIGDAIADFSKEDHMNTLKYVASR  193
+
+Query  175  IGRVRSVEDILNAL  188
+             G V+SV++ ++++
+Sbjct  194  SGSVKSVDEFIDSV  207
+
+
+>VFG044422(gb|AAW66010) (vabB) isochorismate lyase [Anguibactin 
+(VF1245) - Nutritional/Metabolic factor (VFC0272)] [Vibrio 
+anguillarum 775]
+Length=307
+
+ Score = 58.2 bits (139),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 48/190 (25%), Positives = 84/190 (44%), Gaps = 25/190 (13%)
+
+Query  4    LNATTTALVVIDLQEGILPF---AGGPYTANEVVARAARLAEKCRANGSPVVMVRVGWSD  60
+            + A    L++ D+Q+  + F   +  P    E++A  + L    R    PVV        
+Sbjct  26   VQADRAVLLIHDMQKYFINFFDHSQAP--VPELLANISELKSLARQANIPVVYT------  77
+
+Query  61   DYAEALKQPVDAATPAHALPENWW--------TWPTALGKKDSDLEVTKRQWGAFYGTDL  112
+                   QP +      AL  ++W           + L  +D D++ TK ++ AF  T L
+Sbjct  78   ------AQPPNQDPIERALLTDFWGTGLTKDTEIVSELSPEDGDIQYTKWRYSAFKKTPL  131
+
+Query  113  ELQLRRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIF  172
+              +++    D +I+ G+  +IG+ STA +A+ L     +  DA +  S E H  ++ +I 
+Sbjct  132  LERMKETQRDQLIIVGVYAHIGILSTALDAFMLDIQPFVVGDAVADFSLEDHHHTLKYIT  191
+
+Query  173  PRIGRVRSVE  182
+             R+G V S+E
+Sbjct  192  ERVGCVTSLE  201
+
+
+>VFG044430(gb|CAJ45637) (vabB) 2,3-dihydro-2,3-dihydroxybenzoate 
+synthetase [Vanchrobactin (VF1246) - Nutritional/Metabolic 
+factor (VFC0272)] [Listonella anguillarum RV22]
+Length=286
+
+ Score = 57.4 bits (137),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 47/188 (25%), Positives = 81/188 (43%), Gaps = 21/188 (11%)
+
+Query  4    LNATTTALVVIDLQEGILPFAGGPYT-ANEVVARAARLAEKCRANGSPVVMVRVGWSDDY  62
+            + A    L++ D+Q+  + F         E++A  + L    R    PVV          
+Sbjct  26   VQADRAVLLIHDMQKYFINFFDHSQAPVPELLANISELKSLARQANIPVVYT--------  77
+
+Query  63   AEALKQPVDAATPAHALPENWW--------TWPTALGKKDSDLEVTKRQWGAFYGTDLEL  114
+                 QP +      AL  ++W           + L  +D D++ TK ++ AF  T L  
+Sbjct  78   ----AQPPNQDPVERALLTDFWGTGLTKDTEIVSELSPEDGDIQYTKWRYSAFKKTPLLE  133
+
+Query  115  QLRRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPR  174
+             ++    D +I+ G+  +IG+ STA +A+ L     +  DA +  S E H  ++ +I  R
+Sbjct  134  WMKETQRDQLIIVGVYAHIGILSTALDAFMLDIQPFVVGDAVADFSLEDHHHTLKYITER  193
+
+Query  175  IGRVRSVE  182
+            +G V S+E
+Sbjct  194  VGCVTSLE  201
+
+
+>VFG050152(gb|WP_001972442) (dhbB) isochorismatase, DhbB [Bacillibactin 
+(VF0586) - Nutritional/Metabolic factor (VFC0272)] 
+[Bacillus cereus G9241]
+Length=297
+
+ Score = 57.4 bits (137),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 50/191 (26%), Positives = 80/191 (42%), Gaps = 24/191 (13%)
+
+Query  10   ALVVIDLQEGIL-PFAGGPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+             L++ D+QE  L  ++       E+++    + EKC+  G PVV               Q
+Sbjct  32   VLLIHDMQEYFLDAYSDKESPKVELISNIKMIREKCKELGIPVVYT------------AQ  79
+
+Query  69   PVDAATPAHALPENWWT--WPTALGKK---------DSDLEVTKRQWGAFYGTDLELQLR  117
+            P         L +++W    P    KK         + D+ +TK ++ AF  T+L   L 
+Sbjct  80   PGGQTLEQRGLLQDFWGDGIPAGPDKKKIVDELTPDEDDIFLTKWRYSAFKKTNLLEILN  139
+
+Query  118  RRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGR  177
+             +G D +I+CGI  +IG   TA  A+  G       DA +  S E H+ ++ +   R   
+Sbjct  140  EQGRDQLIICGIYAHIGCLLTACEAFMDGIEPFFVADAVADFSLEHHKQALEYASNRCAV  199
+
+Query  178  VRSVEDILNAL  188
+              S   +LN L
+Sbjct  200  TTSTNLLLNDL  210
+
+
+>VFG050028(gb|WP_001007255) (dhbB) isochorismatase, DhbB [Bacillibactin 
+(VF0586) - Nutritional/Metabolic factor (VFC0272)] 
+[Bacillus cereus ATCC 14579]
+Length=297
+
+ Score = 57.0 bits (136),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 50/190 (26%), Positives = 80/190 (42%), Gaps = 24/190 (13%)
+
+Query  11   LVVIDLQEGILP-FAGGPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQP  69
+            L++ D+QE  L  ++       E+++    + EKC+  G PVV               QP
+Sbjct  33   LLIHDMQEYFLDAYSDKESPKVELISNIKMIREKCKELGIPVVYT------------AQP  80
+
+Query  70   VDAATPAHALPENWWT--WPTALGKK---------DSDLEVTKRQWGAFYGTDLELQLRR  118
+                     L +++W    P    KK         + D+ +TK ++ AF  T+L   L  
+Sbjct  81   GGQTLEQRGLLQDFWGDGIPAGPDKKKIVDELTPDEDDIFLTKWRYSAFKKTNLLEILNE  140
+
+Query  119  RGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGRV  178
+            +G D +I+CGI  +IG   TA  A+  G       DA +  S E H+ ++ +   R    
+Sbjct  141  QGRDQLIICGIYAHIGCLLTACEAFMDGIEPFFVADAVADFSLEHHKQALEYASNRCAVT  200
+
+Query  179  RSVEDILNAL  188
+             S   +L AL
+Sbjct  201  TSTNLLLKAL  210
+
+
+>VFG050027(gb|WP_001007251) (dhbB) isochorismatase, DhbB [Bacillibactin 
+(VF0586) - Nutritional/Metabolic factor (VFC0272)] 
+[Bacillus cereus ATCC 10987]
+Length=297
+
+ Score = 57.0 bits (136),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 50/191 (26%), Positives = 80/191 (42%), Gaps = 24/191 (13%)
+
+Query  10   ALVVIDLQEGILP-FAGGPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+             L++ D+QE  L  ++       E+++    + EKC+  G PVV               Q
+Sbjct  32   VLLIHDMQEYFLDAYSDKESPKVELISNIKMIREKCKELGIPVVYT------------AQ  79
+
+Query  69   PVDAATPAHALPENWWT--WPTALGKK---------DSDLEVTKRQWGAFYGTDLELQLR  117
+            P         L +++W    P    KK         + D+ +TK ++ AF  T+L   L 
+Sbjct  80   PGGQTLEQRGLLQDFWGDGIPAGPDKKKIVDELTPDEDDIFLTKWRYSAFKKTNLLEILH  139
+
+Query  118  RRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGR  177
+             +G D +I+CGI  +IG   TA  A+  G       DA +  S E H+ ++ +   R   
+Sbjct  140  EQGRDQLIICGIYAHIGCLLTACEAFMDGIQPFFVADAVADFSLEYHKQALEYASNRCAV  199
+
+Query  178  VRSVEDILNAL  188
+              S   +LN L
+Sbjct  200  TTSTSLLLNDL  210
+
+
+>VFG050153(gb|WP_001007245) (dhbB) isochorismatase, DhbB [Bacillibactin 
+(VF0586) - Nutritional/Metabolic factor (VFC0272)] 
+[Bacillus cereus AH187]
+Length=295
+
+ Score = 55.8 bits (133),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 50/198 (25%), Positives = 81/198 (41%), Gaps = 24/198 (12%)
+
+Query  3    KLNATTTALVVIDLQEGILP-FAGGPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDD  61
+            K +     L++ D+QE  L  ++       E+++    + EKC+  G PVV         
+Sbjct  25   KPDPKRAVLLIHDMQEYFLDAYSDKESPKVELISNIKVIREKCKELGIPVVYT-------  77
+
+Query  62   YAEALKQPVDAATPAHALPENWWT--WPTALGKK---------DSDLEVTKRQWGAFYGT  110
+                  QP         L +++W    P    KK         + D+ +TK ++ AF  T
+Sbjct  78   -----AQPGGQTLEQRGLLQDFWGDGIPAGPDKKKIVDELTPDEDDIFLTKWRYSAFKKT  132
+
+Query  111  DLELQLRRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTH  170
+            +L   L  +G D +I+CGI  +IG   TA  A+  G       DA +  S E H+ ++ +
+Sbjct  133  NLLEILNEQGRDQLIICGIYAHIGCLLTACEAFMDGIQPFFVADAVADFSLEHHKQALEY  192
+
+Query  171  IFPRIGRVRSVEDILNAL  188
+               R     S   +L  L
+Sbjct  193  ASNRCAVTTSTNSLLTEL  210
+
+
+>VFG050024(gb|WP_001007279) (dhbB) isochorismatase, DhbB [Bacillibactin 
+(VF0586) - Nutritional/Metabolic factor (VFC0272)] 
+[Bacillus anthracis str. Ames]
+Length=295
+
+ Score = 55.8 bits (133),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 49/191 (26%), Positives = 79/191 (41%), Gaps = 24/191 (13%)
+
+Query  10   ALVVIDLQEGILP-FAGGPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+             L++ D+QE  L  ++       E+++    + EKC+  G PVV               Q
+Sbjct  32   VLLIHDMQEYFLDAYSDKESPKVELISNIKVIREKCKELGIPVVYT------------AQ  79
+
+Query  69   PVDAATPAHALPENWWT--WPTALGKK---------DSDLEVTKRQWGAFYGTDLELQLR  117
+            P         L +++W    P    KK         + D+ +TK ++ AF  T+L   L 
+Sbjct  80   PGGQTLEQRGLLQDFWGDGIPAGPDKKKIVDELTPDEDDIFLTKWRYSAFKKTNLLEILN  139
+
+Query  118  RRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGR  177
+             +G D +I+CGI  +IG   TA  A+  G       DA +  S E H+ ++ +   R   
+Sbjct  140  EQGRDQLIICGIYAHIGCLLTACEAFMDGIQPFFVADAVADFSLEHHKQALEYASNRCAV  199
+
+Query  178  VRSVEDILNAL  188
+              S   +L  L
+Sbjct  200  TTSTNSLLTEL  210
+
+
+>VFG012983(gb|WP_001007129) (entB) enterobactin biosynthesis bifunctional 
+isochorismatase/aryl carrier protein EntB [Enterobactin 
+synthesis and transport (VF0984) - Nutritional/Metabolic 
+factor (VFC0272)] [Shigella boydii Sb227]
+Length=285
+
+ Score = 55.8 bits (133),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 49/190 (26%), Positives = 84/190 (44%), Gaps = 24/190 (13%)
+
+Query  10   ALVVIDLQEGILPFAGGPYTANE-VVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+            AL++ D+Q+  + F G      E V+A  A L + C+ +  PV          Y  A  Q
+Sbjct  32   ALLIHDMQDYFVSFWGENCPMMEQVIANIAALRDYCKQHNIPV----------YYTA--Q  79
+
+Query  69   PVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGTDLELQLR  117
+            P + +    AL  + W                L     D  + K ++ AF+ + LE  L+
+Sbjct  80   PKEQSDEDRALLNDMWGPGLTRSPEQQKVVDRLTPDADDTVLVKWRYSAFHRSPLEQMLK  139
+
+Query  118  RRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGR  177
+              G + +I+ G+  +IG  +TA +A+       +  DA +  S ++H  S+ ++  R GR
+Sbjct  140  ESGRNQLIITGVYAHIGCMTTATDAFMRDIKPFMVADALADFSRDEHLMSLKYVAGRSGR  199
+
+Query  178  VRSVEDILNA  187
+            V   E++L A
+Sbjct  200  VVMTEELLPA  209
+
+
+>VFG012981(gb|WP_001007128) (entB) enterobactin biosynthesis bifunctional 
+isochorismatase/aryl carrier protein EntB [Enterobactin 
+synthesis and transport (VF0984) - Nutritional/Metabolic 
+factor (VFC0272)] [Shigella flexneri 2a str. 2457T]
+Length=285
+
+ Score = 55.8 bits (133),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 49/190 (26%), Positives = 84/190 (44%), Gaps = 24/190 (13%)
+
+Query  10   ALVVIDLQEGILPFAGGPYTANE-VVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+            AL++ D+Q+  + F G      E V+A  A L + C+ +  PV          Y  A  Q
+Sbjct  32   ALLIHDMQDYFVSFWGENCPMMEQVIANIAALRDYCKQHNIPV----------YYTA--Q  79
+
+Query  69   PVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGTDLELQLR  117
+            P + +    AL  + W                L     D  + K ++ AF+ + LE  L+
+Sbjct  80   PKEQSDEDRALLNDMWGPGLTRSPEQQKVVDRLTPDADDTVLVKWRYSAFHRSPLEQMLK  139
+
+Query  118  RRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGR  177
+              G + +I+ G+  +IG  +TA +A+       +  DA +  S ++H  S+ ++  R GR
+Sbjct  140  ESGRNQLIITGVYAHIGCMTTATDAFMRDIKPFMVADALADFSRDEHLMSLKYVAGRSGR  199
+
+Query  178  VRSVEDILNA  187
+            V   E++L A
+Sbjct  200  VVMTEELLPA  209
+
+
+>VFG012979(gb|WP_001007154) (entB) enterobactin biosynthesis bifunctional 
+isochorismatase/aryl carrier protein EntB [Enterobactin 
+synthesis and transport (VF0984) - Nutritional/Metabolic 
+factor (VFC0272)] [Shigella dysenteriae Sd197]
+Length=285
+
+ Score = 55.5 bits (132),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 49/190 (26%), Positives = 84/190 (44%), Gaps = 24/190 (13%)
+
+Query  10   ALVVIDLQEGILPFAGGPYTANE-VVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+            AL++ D+Q+  + F G      E V+A  A L + C+ +  PV          Y  A  Q
+Sbjct  32   ALLIHDMQDYFVSFWGENCPMMEQVIANIAALRDYCKQHNIPV----------YYTA--Q  79
+
+Query  69   PVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGTDLELQLR  117
+            P + +    AL  + W                L     D  + K ++ AF+ + LE  L+
+Sbjct  80   PKEQSDEDRALLNDMWGPGLTRSPEQQKVVDRLTPDADDTVLVKWRYSAFHRSPLEQMLK  139
+
+Query  118  RRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGR  177
+              G + +I+ G+  +IG  +TA +A+       +  DA +  S ++H  S+ ++  R GR
+Sbjct  140  ESGRNQLIITGVYAHIGCMTTATDAFMRDIKPFMVADALADFSRDEHLMSLKYVAGRSGR  199
+
+Query  178  VRSVEDILNA  187
+            V   E++L A
+Sbjct  200  VVMTEELLPA  209
+
+
+>VFG012980(gb|NP_706450) (entB) 2,3-dihydro-2,3-dihydroxybenzoate 
+synthetase [Enterobactin synthesis and transport (VF0984) 
+- Nutritional/Metabolic factor (VFC0272)] [Shigella flexneri 
+2a str. 301]
+Length=285
+
+ Score = 55.5 bits (132),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 49/190 (26%), Positives = 84/190 (44%), Gaps = 24/190 (13%)
+
+Query  10   ALVVIDLQEGILPFAGGPYTANE-VVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+            AL++ D+Q+  + F G      E V+A  A L + C+ +  PV          Y  A  Q
+Sbjct  32   ALLIHDMQDYFVSFWGENCPMMEQVIANIAALRDYCKQHNIPV----------YYTA--Q  79
+
+Query  69   PVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGTDLELQLR  117
+            P + +    AL  + W                L     D  + K ++ AF+ + LE  L+
+Sbjct  80   PKEQSDEDRALLNDMWGPGLTRSPEQQKVVDRLTPDADDTVLVKWRYSAFHRSPLEQMLK  139
+
+Query  118  RRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGR  177
+              G + +I+ G+  +IG  +TA +A+       +  DA +  S ++H  S+ ++  R GR
+Sbjct  140  ESGRNQLIITGVYAHIGCMTTATDAFMRDIKPFMVADALADFSRDEHLMSLKYVAGRSGR  199
+
+Query  178  VRSVEDILNA  187
+            V   E++L A
+Sbjct  200  VVMTEELLPA  209
+
+
+>VFG000933(gb|WP_001007140) (entB) isochorismatase [Enterobactin 
+(VF0228) - Nutritional/Metabolic factor (VFC0272)] [Escherichia 
+coli CFT073]
+Length=285
+
+ Score = 55.5 bits (132),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 49/190 (26%), Positives = 84/190 (44%), Gaps = 24/190 (13%)
+
+Query  10   ALVVIDLQEGILPFAGGPYTANE-VVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+            AL++ D+Q+  + F G      E V+A  A L + C+ +  PV          Y  A  Q
+Sbjct  32   ALLIHDMQDYFVSFWGENCPMMEQVIANIAALRDYCKQHNIPV----------YYTA--Q  79
+
+Query  69   PVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGTDLELQLR  117
+            P + +    AL  + W                L     D  + K ++ AF+ + LE  L+
+Sbjct  80   PKEQSDEDRALLNDMWGPGLTRSPEQQKVVDRLTPDADDTVLVKWRYSAFHRSPLEQMLK  139
+
+Query  118  RRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGR  177
+              G + +I+ G+  +IG  +TA +A+       +  DA +  S ++H  S+ ++  R GR
+Sbjct  140  ESGRNQLIITGVYAHIGCMTTATDAFMRDIKPFMVADALADFSRDEHLMSLKYVAGRSGR  199
+
+Query  178  VRSVEDILNA  187
+            V   E++L A
+Sbjct  200  VVMTEELLPA  209
+
+
+>VFG050032(gb|NP_391077) (dhbB) isochorismatase, DhbB [Bacillibactin 
+(VF0586) - Nutritional/Metabolic factor (VFC0272)] [Bacillus 
+subtilis subsp. subtilis str. 168]
+Length=312
+
+ Score = 55.5 bits (132),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 50/190 (26%), Positives = 79/190 (42%), Gaps = 24/190 (13%)
+
+Query  11   LVVIDLQEGIL-PFAGGPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQP  69
+            L++ D+Q   +  F  G     E+ A   +L  +C   G PVV               QP
+Sbjct  33   LLIHDMQNYFVDAFTAGASPVTELSANIRKLKNQCVQLGIPVVYT------------AQP  80
+
+Query  70   VDAATPAHALPENWW-----TWP------TALGKKDSDLEVTKRQWGAFYGTDLELQLRR  118
+                    AL  ++W     + P      T L  +D DL +TK ++ AF  T+L   +R+
+Sbjct  81   GSQNPDDRALLTDFWGPGLNSGPYEEKIITELAPEDDDLVLTKWRYSAFKRTNLLEMMRK  140
+
+Query  119  RGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGRV  178
+             G D +I+ GI  +IG   TA  A+          DA +  S E+HQ ++ +   R    
+Sbjct  141  EGRDQLIITGIYAHIGCLVTACEAFMEDIKAFFVGDAVADFSLEKHQMALEYAAGRCAFT  200
+
+Query  179  RSVEDILNAL  188
+               + +L+ L
+Sbjct  201  VMTDSLLDQL  210
+
+
+>VFG050029(gb|WP_001007274) (dhbB) isochorismatase, DhbB [Bacillibactin 
+(VF0586) - Nutritional/Metabolic factor (VFC0272)] 
+[Bacillus cereus E33L]
+Length=295
+
+ Score = 55.1 bits (131),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 49/191 (26%), Positives = 78/191 (41%), Gaps = 24/191 (13%)
+
+Query  10   ALVVIDLQEGILP-FAGGPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+             L++ D+QE  L  ++       E+++    + EKC   G PVV               Q
+Sbjct  32   VLLIHDMQEYFLDAYSDKESPKVELISNIKMIREKCNNLGIPVVYT------------AQ  79
+
+Query  69   PVDAATPAHALPENWWT--WPTALGKK---------DSDLEVTKRQWGAFYGTDLELQLR  117
+            P         L +++W    P    KK         + D+ +TK ++ AF  T+L   L 
+Sbjct  80   PGGQTLEQRGLLQDFWGDGIPAGPDKKKIVDELTPDEDDIFLTKWRYSAFKKTNLLEILN  139
+
+Query  118  RRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGR  177
+             +G D +I+CGI  +IG   TA  A+  G       DA +  S E H+ ++ +   R   
+Sbjct  140  EQGRDQLIICGIYAHIGCLLTACEAFMDGIQPFFVADAVADFSLEHHKQALEYASNRCAV  199
+
+Query  178  VRSVEDILNAL  188
+              S   +L  L
+Sbjct  200  TTSTNSLLTEL  210
+
+
+>VFG020170(gb|WP_001007130) (entB) enterobactin biosynthesis bifunctional 
+isochorismatase/aryl carrier protein EntB [Enterobactin 
+synthesis and transport (VF0984) - Nutritional/Metabolic 
+factor (VFC0272)] [Shigella boydii CDC 3083-94]
+Length=285
+
+ Score = 55.1 bits (131),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 47/190 (25%), Positives = 82/190 (43%), Gaps = 24/190 (13%)
+
+Query  10   ALVVIDLQEGILPFAGGPYTANE-VVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+            AL++ D+Q+  + F G      E V+A  A L + C+ +  PV                Q
+Sbjct  32   ALLIHDMQDYFVSFWGENCPMMEQVIANIAALRDYCKQHNIPVYYT------------VQ  79
+
+Query  69   PVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGTDLELQLR  117
+            P + +    AL  + W                L     D  + K ++ AF+ + LE  L+
+Sbjct  80   PKEQSDEDRALLNDMWGPGLTRSPEQQKVVDRLTPDADDTVLVKWRYSAFHRSPLEQMLK  139
+
+Query  118  RRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGR  177
+              G + +I+ G+  +IG  +TA +A+       +  DA +  S ++H  S+ ++  R GR
+Sbjct  140  ESGRNQLIITGVYAHIGCMTTATDAFMRDIKPFMVADALADFSRDEHLMSLKYVAGRSGR  199
+
+Query  178  VRSVEDILNA  187
+            V   E++L A
+Sbjct  200  VVMTEELLPA  209
+
+
+>VFG012982(gb|WP_001007156) (entB) enterobactin biosynthesis bifunctional 
+isochorismatase/aryl carrier protein EntB [Enterobactin 
+synthesis and transport (VF0984) - Nutritional/Metabolic 
+factor (VFC0272)] [Shigella flexneri 5 str. 8401]
+Length=285
+
+ Score = 55.1 bits (131),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 49/190 (26%), Positives = 84/190 (44%), Gaps = 24/190 (13%)
+
+Query  10   ALVVIDLQEGILPFAGGPYTANE-VVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+            AL++ D+Q+  + F G      E V+A  A L + C+ +  PV          Y  A  Q
+Sbjct  32   ALLIHDMQDYFVSFWGENCPMMEQVIANIAALRDYCKQHNIPV----------YYTA--Q  79
+
+Query  69   PVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGTDLELQLR  117
+            P + +    AL  + W                L     D  + K ++ AF+ + LE  L+
+Sbjct  80   PKEQSDEDRALLNDMWGPGLTRSPEQQKVVDRLTPDADDTVLVKWRYSAFHRSPLEQMLK  139
+
+Query  118  RRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGR  177
+              G + +I+ G+  +IG  +TA +A+       +  DA +  S ++H  S+ ++  R GR
+Sbjct  140  ESGRNQLIITGVYAHIGCMTTATDAFMRDIKPFMVADALADFSRDEHLMSLKYVGGRSGR  199
+
+Query  178  VRSVEDILNA  187
+            V   E++L A
+Sbjct  200  VVMTEELLPA  209
+
+
+>VFG050033(gb|WP_001007276) (dhbB) isochorismatase, DhbB [Bacillibactin 
+(VF0586) - Nutritional/Metabolic factor (VFC0272)] 
+[Bacillus thuringiensis serovar konkukian str. 97-27]
+Length=295
+
+ Score = 55.1 bits (131),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 49/191 (26%), Positives = 78/191 (41%), Gaps = 24/191 (13%)
+
+Query  10   ALVVIDLQEGILP-FAGGPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+             L++ D+QE  L  ++       E+++    + EKC   G PVV               Q
+Sbjct  32   VLLIHDMQEYFLDAYSDKESPKVELISNIKMIREKCNNLGIPVVYT------------AQ  79
+
+Query  69   PVDAATPAHALPENWWT--WPTALGKK---------DSDLEVTKRQWGAFYGTDLELQLR  117
+            P         L +++W    P    KK         + D+ +TK ++ AF  T+L   L 
+Sbjct  80   PGGQTLEQRGLLQDFWGDGIPAGPDKKKIVDELTPNEDDIFLTKWRYSAFKKTNLLEILN  139
+
+Query  118  RRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGR  177
+             +G D +I+CGI  +IG   TA  A+  G       DA +  S E H+ ++ +   R   
+Sbjct  140  EQGRDQLIICGIYAHIGCLLTACEAFMDGIQPFFVADAVADFSLEHHKQALEYASNRCAV  199
+
+Query  178  VRSVEDILNAL  188
+              S   +L  L
+Sbjct  200  TTSTNSLLTEL  210
+
+
+>VFG050151(gb|WP_001007273) (dhbB) isochorismatase, DhbB [Bacillibactin 
+(VF0586) - Nutritional/Metabolic factor (VFC0272)] 
+[Bacillus cereus biovar anthracis str. CI]
+Length=295
+
+ Score = 55.1 bits (131),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 49/191 (26%), Positives = 78/191 (41%), Gaps = 24/191 (13%)
+
+Query  10   ALVVIDLQEGILP-FAGGPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+             L++ D+QE  L  ++       E+++    + EKC   G PVV               Q
+Sbjct  32   VLLIHDMQEYFLDAYSDKESPKVELISNIKMIREKCNDLGIPVVYT------------AQ  79
+
+Query  69   PVDAATPAHALPENWWT--WPTALGKK---------DSDLEVTKRQWGAFYGTDLELQLR  117
+            P         L +++W    P    KK         + D+ +TK ++ AF  T+L   L 
+Sbjct  80   PGGQTLEQRGLLQDFWGDGIPAGPDKKKIVDELTPDEDDIFLTKWRYSAFKKTNLLEILN  139
+
+Query  118  RRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGR  177
+             +G D +I+CGI  +IG   TA  A+  G       DA +  S E H+ ++ +   R   
+Sbjct  140  EQGRDQLIICGIYAHIGCLLTACEAFMDGIQPFFVADAVADFSLEHHKQALEYASNRCAV  199
+
+Query  178  VRSVEDILNAL  188
+              S   +L  L
+Sbjct  200  TTSTNSLLTEL  210
+
+
+>VFG007196(gb|WP_000997093) (vibB) vibriobactin biosynthesis bifunctional 
+isochorismatase/aryl carrier protein VibB [Vibriobactin/Vulnibactin 
+(VF0626) - Nutritional/Metabolic factor 
+(VFC0272)] [Vibrio cholerae O1 biovar El Tor str. N16961]
+Length=293
+
+ Score = 54.7 bits (130),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 46/189 (24%), Positives = 83/189 (44%), Gaps = 21/189 (11%)
+
+Query  3    KLNATTTALVVIDLQEGILP-FAGGPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDD  61
+            +++A+   L++ D+QE  +  F         ++    +L    +  G PVV         
+Sbjct  23   RIDASRAVLLIHDMQEYFVHYFDSQAEPIPSLIKHIQQLKAHAKQAGIPVVYT-------  75
+
+Query  62   YAEALKQPVDAATPAHALPENWW----TWPTA----LGKKDSDLEVTKRQWGAFYGTDLE  113
+                  QP +      AL  ++W    +  TA    L  +  D+++TK ++ AF  + L 
+Sbjct  76   -----AQPANQDPAERALLSDFWGPGLSEETAIIAPLAPESGDVQLTKWRYSAFKKSPLL  130
+
+Query  114  LQLRRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFP  173
+              LR  G D +I+ G+  +IG+ STA +A+       +  D  +  S   H+ S+ +I  
+Sbjct  131  DWLRETGRDQLIITGVYAHIGILSTALDAFMFDIQPFVIGDGVADFSLSDHEFSLRYISG  190
+
+Query  174  RIGRVRSVE  182
+            R G V+S +
+Sbjct  191  RTGAVKSTQ  199
+
+
+>VFG012984(gb|WP_001007145) (entB) enterobactin biosynthesis bifunctional 
+isochorismatase/aryl carrier protein EntB [Enterobactin 
+synthesis and transport (VF0984) - Nutritional/Metabolic 
+factor (VFC0272)] [Shigella sonnei Ss046]
+Length=285
+
+ Score = 54.3 bits (129),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 49/190 (26%), Positives = 83/190 (44%), Gaps = 24/190 (13%)
+
+Query  10   ALVVIDLQEGILPFAGGPYTANE-VVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+            AL++ D+Q+  + F G      E V+A  A L + C+ +  PV          Y  A  Q
+Sbjct  32   ALLIHDMQDYFVSFWGENCPMMEQVIANIAALRDYCKQHNIPV----------YYTA--Q  79
+
+Query  69   PVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGTDLELQLR  117
+            P + +    AL  + W                L     D  + K ++ AF+ + LE  L+
+Sbjct  80   PKEQSDEDRALLNDMWGPGLTRSPEQQKVVDRLTPDADDTVLVKWRYSAFHRSPLEQMLK  139
+
+Query  118  RRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGR  177
+              G + +I+ G+  +IG  +TA +A+       +  DA +  S ++H  S+ ++  R GR
+Sbjct  140  ESGRNQLIITGVYAHIGCMTTATDAFMRDIKPFMVADALADFSRDEHLMSLKYVAGRSGR  199
+
+Query  178  VRSVEDILNA  187
+            V   E +L A
+Sbjct  200  VVMTEGLLPA  209
+
+
+>VFG050034(gb|WP_001007278) (dhbB) isochorismatase, DhbB [Bacillibactin 
+(VF0586) - Nutritional/Metabolic factor (VFC0272)] 
+[Bacillus thuringiensis str. Al Hakam]
+Length=297
+
+ Score = 53.9 bits (128),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 49/191 (26%), Positives = 78/191 (41%), Gaps = 24/191 (13%)
+
+Query  10   ALVVIDLQEGILP-FAGGPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+             L++ D+QE  L  ++       E+++    + EKC+  G PVV               Q
+Sbjct  32   VLLIHDMQEYFLDAYSDKESPKVELISNIKVIREKCKELGIPVVYT------------AQ  79
+
+Query  69   PVDAATPAHALPENWWT--WPTALGKK---------DSDLEVTKRQWGAFYGTDLELQLR  117
+            P         L +++W    P    KK         D D+ +TK ++ AF  T+L   L 
+Sbjct  80   PGGQTLEQRGLLQDFWGDGIPAGPDKKKIVDELSPNDDDIFLTKWRYSAFKKTNLLEILN  139
+
+Query  118  RRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGR  177
+             +G D +I+CGI  +IG   TA  A+  G       DA +  S   H+ ++ +   R   
+Sbjct  140  EQGRDQLIICGIYAHIGCLLTACEAFMDGIEPFFVADAVADFSLGHHKQALEYASSRCAV  199
+
+Query  178  VRSVEDILNAL  188
+              S   +L  L
+Sbjct  200  TTSTHLLLKDL  210
+
+
+>VFG007198(gb|WP_011081755) (vibB) isochorismatase family protein 
+[Vibriobactin/Vulnibactin (VF0626) - Nutritional/Metabolic 
+factor (VFC0272)] [Vibrio vulnificus CMCP6]
+Length=295
+
+ Score = 53.1 bits (126),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 42/195 (22%), Positives = 84/195 (43%), Gaps = 22/195 (11%)
+
+Query  4    LNATTTALVVIDLQEGILPFAGGPYT-ANEVVARAARLAEKCRANGSPVVMVRVGWSDDY  62
+            ++     L++ D+QE  + +     +   +++    RL    +  G PV+          
+Sbjct  26   IDPDQAVLLIHDMQEYFVNYYQPDSSPVVDIIQHIQRLKAAAKKAGIPVIYT--------  77
+
+Query  63   AEALKQPVDAATPAHALPENWW---------TWPTALGKKDSDLEVTKRQWGAFYGTDLE  113
+                 QP +      AL  ++W             AL  ++ D+E  K ++ AF  T L 
+Sbjct  78   ----AQPANQHPTDRALLTDFWGPGLNGDHVPIVEALSPEEGDIEYVKWRYSAFKKTPLL  133
+
+Query  114  LQLRRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFP  173
+              +R +G   +I+ GI  +IG+ ST  +A+ L     +  DA +  + E H  ++ ++  
+Sbjct  134  EFMRAQGKSQLIISGIYGHIGILSTTLDAFMLDIQPFVIGDAIADFTREDHLRTLEYVAS  193
+
+Query  174  RIGRVRSVEDILNAL  188
+            R G V+ +++ L+ +
+Sbjct  194  RSGSVKRLDEALDEI  208
+
+
+>VFG015513(gb|WP_003157855) (phzD1) phenazine biosynthesis protein 
+PhzD, isochorismatase  [Pyocyanin (VF0100) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas aeruginosa PA7]
+Length=207
+
+ Score = 49.3 bits (116),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 46/199 (23%), Positives = 84/199 (42%), Gaps = 34/199 (17%)
+
+Query  3    KLNATTTALVVIDLQEGILPFAGGPYTAN---EVVARAARLAEKCRANGSPVVMVRVGWS  59
+             L      L+V D+Q   L     P  A+   ++VA AARL   C   G     V++ ++
+Sbjct  26   NLEPARAVLLVHDMQRYFL----RPLPASLRADLVANAARLRRWCAGQG-----VQIAYT  76
+
+Query  60   DDYAEALKQPVDAATPAHALPENWWTWPTALGKKDSDLEV-------------TKRQWGA  106
+                    QP         L +++W     +    +D EV             TK ++ A
+Sbjct  77   -------AQPGSMTEEQRGLLKDFWG--PGMRASPADREVVEELAPGPDDWLLTKWRYSA  127
+
+Query  107  FYGTDLELQLRRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQS  166
+            F+ +DL  ++R  G D ++LCG+  ++GV  +  +A+       +  DA +  S   H+ 
+Sbjct  128  FFHSDLLQRMRAAGRDQLVLCGVYAHVGVLISTVDAYSNDIQPFLVADAIADFSEAHHRM  187
+
+Query  167  SMTHIFPRIGRVRSVEDIL  185
+            ++ +   R   V + +++L
+Sbjct  188  ALEYAASRCAMVVTTDEVL  206
+
+
+>VFG050030(gb|WP_003185954) (dhbB) isochorismatase, DhbB [Bacillibactin 
+(VF0586) - Nutritional/Metabolic factor (VFC0272)] 
+[Bacillus licheniformis ATCC 14580]
+Length=308
+
+ Score = 48.9 bits (115),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 44/191 (23%), Positives = 80/191 (42%), Gaps = 24/191 (13%)
+
+Query  10   ALVVIDLQEGIL-PFAGGPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+            AL++ D+Q+  L  +  G     +++A   +L ++C   G PV+               Q
+Sbjct  32   ALLIHDMQQYFLNAYRYGESPVTDLLANIKKLRKRCAELGMPVIFT------------AQ  79
+
+Query  69   PVDAATPAHALPENWW-----------TWPTALGKKDSDLEVTKRQWGAFYGTDLELQLR  117
+            P         L +++W                L   + D+ +TK ++ AF  T+L   L 
+Sbjct  80   PGAQTPEERGLLQDFWGPGIGPDPDEQKIVDELKPNEGDIVLTKWRYNAFRKTNLLGVLE  139
+
+Query  118  RRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIGR  177
+             +G D +I+ GI  +IG   TA +A+          DA +  S + H+ ++T+   R   
+Sbjct  140  EQGRDQLIITGIYAHIGCLMTACDAFMQDIETFFVGDAVADFSLKHHEMAITYAADRCSV  199
+
+Query  178  VRSVEDILNAL  188
+              + E +L+ L
+Sbjct  200  TITAEQLLSRL  210
+
+
+>VFG015535(gb|WP_011666698) (phzD2) phenazine biosynthesis protein 
+PhzD [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=207
+
+ Score = 48.1 bits (113),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 24/97 (25%), Positives = 49/97 (51%), Gaps = 0/97 (0%)
+
+Query  90   LGKKDSDLEVTKRQWGAFYGTDLELQLRRRGIDTIILCGISTNIGVESTARNAWELGFNL  149
+            L     D  +TK ++ AF+ +DL  ++R  G D ++LCG+  ++GV  +  +A+      
+Sbjct  111  LAPGPDDWLLTKWRYSAFFHSDLLQRMRAAGRDQLVLCGVYAHVGVLISTVDAYSNDIQP  170
+
+Query  150  IIAEDACSAASSEQHQSSMTHIFPRIGRVRSVEDILN  186
+             +  DA +  S   H+ ++ +   R   V + +++L 
+Sbjct  171  FLVADAIADFSEAHHRMALEYAASRCAMVVTTDEVLE  207
+
+
+>VFG015512(gb|NP_252902) (phzD1) phenazine biosynthesis protein 
+PhzD, isochorismatase  [Pyocyanin (VF0100) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas aeruginosa PAO1]
+Length=207
+
+ Score = 48.1 bits (113),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 24/97 (25%), Positives = 49/97 (51%), Gaps = 0/97 (0%)
+
+Query  90   LGKKDSDLEVTKRQWGAFYGTDLELQLRRRGIDTIILCGISTNIGVESTARNAWELGFNL  149
+            L     D  +TK ++ AF+ +DL  ++R  G D ++LCG+  ++GV  +  +A+      
+Sbjct  111  LAPGPDDWLLTKWRYSAFFHSDLLQRMRAAGRDQLVLCGVYAHVGVLISTVDAYSNDIQP  170
+
+Query  150  IIAEDACSAASSEQHQSSMTHIFPRIGRVRSVEDILN  186
+             +  DA +  S   H+ ++ +   R   V + +++L 
+Sbjct  171  FLVADAIADFSEAHHRMALEYAASRCAMVVTTDEVLE  207
+
+
+>VFG020025(gb|WP_012613548) (phzD1) phenazine biosynthesis protein 
+PhzD, isochorismatase  [Pyocyanin (VF0100) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas aeruginosa LESB58]
+Length=207
+
+ Score = 47.8 bits (112),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 24/97 (25%), Positives = 49/97 (51%), Gaps = 0/97 (0%)
+
+Query  90   LGKKDSDLEVTKRQWGAFYGTDLELQLRRRGIDTIILCGISTNIGVESTARNAWELGFNL  149
+            L     D  +TK ++ AF+ +DL  ++R  G D ++LCG+  ++GV  +  +A+      
+Sbjct  111  LAPGPDDWLLTKWRYSAFFHSDLLQRMRAAGRDQLVLCGVYAHVGVLISTVDAYSNDIQP  170
+
+Query  150  IIAEDACSAASSEQHQSSMTHIFPRIGRVRSVEDILN  186
+             +  DA +  S   H+ ++ +   R   V + +++L 
+Sbjct  171  FLVADAIADFSEAHHRMALEYAASRCAMVVTTDEVLE  207
+
+
+>VFG019336(gb|WP_004685888) (dhbB) isochorismatase [Brucebactin 
+(VF0692) - Nutritional/Metabolic factor (VFC0272)] [Brucella 
+melitensis ATCC 23457]
+Length=290
+
+ Score = 44.7 bits (104),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 45/182 (25%), Positives = 76/182 (42%), Gaps = 27/182 (15%)
+
+Query  11   LVVIDLQEGILPF--AGGPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+            L++ D+Q   L F  A GP   + ++    RL      NG PVV               Q
+Sbjct  33   LLIHDMQRYFLRFYDANGPLMGD-LIGNLVRLRNWAHENGVPVVYT------------AQ  79
+
+Query  69   PVDAATPAHALPENWWT--WPTALGKKD----------SDLEVTKRQWGAFYGTDLELQL  116
+            P +      AL  + W    P A  ++           +D  + K ++ AF  +DL  ++
+Sbjct  80   PHEQPAGYRALLNDMWGPGLPAAAPEQQLIVDKLTPGATDTVLAKWRYSAFQRSDLLQRM  139
+
+Query  117  RRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPRIG  176
+            +    D +I+ GI  +IG   TA +A+       +  DA +  S E+H+ ++ ++  R G
+Sbjct  140  KDWNRDQLIIGGIYAHIGCMVTAIDAFMNDIQPFMVGDAVADFSEEEHRLALKYVATRCG  199
+
+Query  177  RV  178
+             V
+Sbjct  200  AV  201
+
+
+>VFG018293(gb|WP_004689940) (dhbB) isochorismatase [Brucebactin 
+(VF0692) - Nutritional/Metabolic factor (VFC0272)] [Brucella 
+canis ATCC 23365]
+Length=290
+
+ Score = 44.7 bits (104),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 48/184 (26%), Positives = 79/184 (43%), Gaps = 31/184 (17%)
+
+Query  11   LVVIDLQEGILPF--AGGPYTANEVVARAARLAEKCRANGSPVVMVRVGWSDDYAEALKQ  68
+            L++ D+Q   L F  A GP   + ++    RL      NG PVV          A+  +Q
+Sbjct  33   LLIHDMQRYFLRFYDANGPLMGD-LIGNLVRLRNWAHKNGVPVVYT--------AQPHEQ  83
+
+Query  69   P--------------VDAATPAHALPENWWTWPTALGKKDSDLEVTKRQWGAFYGTDLEL  114
+            P              + AA P   L  +  T P A     +D  + K ++ AF  +DL  
+Sbjct  84   PAGDRALLNDMWGPGLPAAAPEQQLIVDKLT-PGA-----TDTVLAKWRYSAFQRSDLLQ  137
+
+Query  115  QLRRRGIDTIILCGISTNIGVESTARNAWELGFNLIIAEDACSAASSEQHQSSMTHIFPR  174
+            +++    D +I+ GI  +IG   TA +A+       +  DA +  S E+H+ ++ ++  R
+Sbjct  138  RMKDWNRDQLIIGGIYAHIGCMVTAIDAFMNDIQPFMVGDAVADFSEEEHRLALKYVATR  197
+
+Query  175  IGRV  178
+             G V
+Sbjct  198  CGAV  201
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1002799050
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

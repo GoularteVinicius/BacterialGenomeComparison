@@ -1,0 +1,1581 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g44.t1
+
+Length=338
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG031853(gb|WP_014002004) (espG1) ESX-1 secretion-associated pro...  166     3e-49
+VFG031840(gb|NP_218383) (espG1) ESX-1 secretion-associated protei...  166     4e-49
+VFG031859(gb|WP_015291788) (espG1) ESX-1 secretion-associated pro...  164     1e-48
+VFG031870(gb|YP_007959832) (espG1) ESX-1 secretion-associated pro...  162     8e-48
+VFG031865(gb|YP_007963783) (espG1) ESX-1 secretion-associated pro...  154     4e-46
+VFG031854(gb|WP_012396941) (espG1) ESX-1 secretion-associated pro...  148     2e-42
+VFG031861(gb|WP_015357687) (espG1) ESX-1 secretion-associated pro...  148     3e-42
+VFG031844(gb|WP_003891384) (espG1) ESX-1 secretion-associated pro...  134     3e-37
+VFG031846(gb|WP_011557490) (espG1) ESX-1 secretion-associated pro...  134     4e-37
+VFG031845(gb|WP_011854168) (espG1) ESX-1 secretion-associated pro...  134     4e-37
+VFG031849(gb|WP_011777395) (espG1) ESX-1 secretion-associated pro...  130     2e-35
+VFG031843(gb|WP_041799768) (espG1) ESX-1 secretion-associated pro...  119     2e-31
+VFG031856(gb|WP_013470298) (espG1) ESX-1 secretion-associated pro...  119     3e-31
+VFG031897(gb|WP_015291789) (espH) ESX-1 secretion-associated prot...  114     2e-30
+VFG031877(gb|NP_218384) (espH) ESX-1 secretion-associated protein...  112     7e-30
+VFG031908(gb|YP_007959833) (espH) ESX-1 secretion-associated prot...  107     4e-28
+VFG031892(gb|WP_012396942) (espH) ESX-1 secretion-associated prot...  94.7    4e-23
+VFG031899(gb|WP_041300756) (espH) ESX-1 secretion-associated prot...  94.0    6e-23
+VFG031886(gb|WP_011742140) (espH) ESX-1 secretion-associated prot...  85.9    8e-20
+VFG023194(gb|WP_010907713) (espD) ESX-1 type VII secretion system...  80.9    7e-18
+VFG031881(gb|WP_011726637) (espH) ESX-1 secretion-associated prot...  78.6    2e-17
+VFG017732(gb|WP_172591946) (espD) ESX-1 type VII secretion system...  77.8    6e-17
+VFG023189(gb|WP_172607302) (espD) ESX-1 type VII secretion system...  75.5    4e-16
+VFG027983(gb|WP_015294552) (espD) ESX-1 type VII secretion system...  72.8    3e-15
+VFG002392(gb|NP_218131) (espD) ESX-1 type VII secretion system Es...  72.4    5e-15
+VFG027982(gb|WP_015291584) (espD) ESX-1 type VII secretion system...  70.5    2e-14
+VFG031887(gb|WP_011777396) (espH) ESX-1 secretion-associated prot...  69.3    4e-14
+VFG031880(gb|WP_011891680) (espH) ESX-1 secretion-associated prot...  66.2    5e-13
+VFG031894(gb|WP_013470299) (espH) ESX-1 secretion-associated prot...  63.2    3e-12
+VFG031882(gb|WP_011854169) (espH) ESX-1 secretion-associated prot...  60.1    7e-11
+VFG031883(gb|WP_011557491) (espH) ESX-1 secretion-associated prot...  58.2    3e-10
+
+
+>VFG031853(gb|WP_014002004) (espG1) ESX-1 secretion-associated 
+protein EspG1 [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium canettii CIPT 140010059]
+Length=283
+
+ Score = 166 bits (419),  Expect = 3e-49, Method: Compositional matrix adjust.
+ Identities = 82/148 (55%), Positives = 108/148 (73%), Gaps = 1/148 (1%)
+
+Query  1    MLILQLMALQISQASMVTTMLDPAESANVQPLTGIAKKLAEYRTAAQLVGQGVQPSSACI  60
+            ML+LQL+A Q+  A MVT +L PAE ANV+PLTG+A +LAE  TA+QL   G+ P+SA +
+Sbjct  129  MLVLQLVAPQVGLAGMVTAVLGPAEPANVEPLTGVATELAECTTASQLTQYGIAPASARV  188
+
+Query  61   YGKFLRNPSNWLAIIVTQRPPGGTTTYTDTAVRGSRLRAGQVGVALPRRVGNELYGSFLS  120
+            Y + + NP+ W+ I+ +QR PGGTTT TD A      + G++ V+LPRRVG +LYGSFL 
+Sbjct  189  YAEIVGNPTGWVEIVASQRHPGGTTTQTDAAAGVLDSKLGRL-VSLPRRVGGDLYGSFLP  247
+
+Query  121  GIQQNLQVAFNNLMELLPAGSWLDHVYD  148
+            G QQNL+ A + L+ELLPAG+WLDH  D
+Sbjct  248  GTQQNLERALDGLLELLPAGAWLDHTSD  275
+
+
+>VFG031840(gb|NP_218383) (espG1) ESX-1 secretion-associated protein 
+EspG1 [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=283
+
+ Score = 166 bits (419),  Expect = 4e-49, Method: Compositional matrix adjust.
+ Identities = 82/148 (55%), Positives = 108/148 (73%), Gaps = 1/148 (1%)
+
+Query  1    MLILQLMALQISQASMVTTMLDPAESANVQPLTGIAKKLAEYRTAAQLVGQGVQPSSACI  60
+            ML+LQL+A Q+  A MVT +L PAE ANV+PLTG+A +LAE  TA+QL   G+ P+SA +
+Sbjct  129  MLVLQLVAPQVGLAGMVTAVLGPAEPANVEPLTGVATELAECTTASQLTQYGIAPASARV  188
+
+Query  61   YGKFLRNPSNWLAIIVTQRPPGGTTTYTDTAVRGSRLRAGQVGVALPRRVGNELYGSFLS  120
+            Y + + NP+ W+ I+ +QR PGGTTT TD A      + G++ V+LPRRVG +LYGSFL 
+Sbjct  189  YAEIVGNPTGWVEIVASQRHPGGTTTQTDAAAGVLDSKLGRL-VSLPRRVGGDLYGSFLP  247
+
+Query  121  GIQQNLQVAFNNLMELLPAGSWLDHVYD  148
+            G QQNL+ A + L+ELLPAG+WLDH  D
+Sbjct  248  GTQQNLERALDGLLELLPAGAWLDHTSD  275
+
+
+>VFG031859(gb|WP_015291788) (espG1) ESX-1 secretion-associated 
+protein EspG1 [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=283
+
+ Score = 164 bits (415),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 81/148 (55%), Positives = 108/148 (73%), Gaps = 1/148 (1%)
+
+Query  1    MLILQLMALQISQASMVTTMLDPAESANVQPLTGIAKKLAEYRTAAQLVGQGVQPSSACI  60
+            ML+LQL+A Q+  A MVT +L PAE A+V+PLTG+A +LAE  TA+QL   G+ P+SA +
+Sbjct  129  MLVLQLVAPQVGLAGMVTAVLGPAEPADVEPLTGVATELAECTTASQLTQYGIAPASARV  188
+
+Query  61   YGKFLRNPSNWLAIIVTQRPPGGTTTYTDTAVRGSRLRAGQVGVALPRRVGNELYGSFLS  120
+            Y + + NP+ W+ I+ +QR PGGTTT TD A      + G++ V+LPRRVG +LYGSFL 
+Sbjct  189  YAEIVGNPTGWVEIVASQRHPGGTTTQTDAAAGVLDSKLGRL-VSLPRRVGGDLYGSFLP  247
+
+Query  121  GIQQNLQVAFNNLMELLPAGSWLDHVYD  148
+            G QQNL+ A + L+ELLPAG+WLDH  D
+Sbjct  248  GTQQNLERALDGLLELLPAGAWLDHTSD  275
+
+
+>VFG031870(gb|YP_007959832) (espG1) ESX-1 secretion-associated 
+protein EspG1 [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=283
+
+ Score = 162 bits (410),  Expect = 8e-48, Method: Compositional matrix adjust.
+ Identities = 81/148 (55%), Positives = 105/148 (71%), Gaps = 1/148 (1%)
+
+Query  1    MLILQLMALQISQASMVTTMLDPAESANVQPLTGIAKKLAEYRTAAQLVGQGVQPSSACI  60
+            ML+LQL+A Q+  A MVT  L PAE ANV+PLTG+A  LAE  TA+QL   G+ P+SA +
+Sbjct  129  MLVLQLVAPQVGLAGMVTAXLGPAEPANVEPLTGVATXLAECTTASQLTQYGIAPASARV  188
+
+Query  61   YGKFLRNPSNWLAIIVTQRPPGGTTTYTDTAVRGSRLRAGQVGVALPRRVGNELYGSFLS  120
+            Y + + NP+ W+ I+ +QR PGGTTT TD A      + G++  +LPRRVG +LYGSFL 
+Sbjct  189  YAEIVGNPTGWVEIVASQRHPGGTTTQTDAAAGVLDSKLGRL-XSLPRRVGGDLYGSFLP  247
+
+Query  121  GIQQNLQVAFNNLMELLPAGSWLDHVYD  148
+            G QQNL+ A + L+ELLPAG+WLDH  D
+Sbjct  248  GTQQNLERALDGLLELLPAGAWLDHTSD  275
+
+
+>VFG031865(gb|YP_007963783) (espG1) ESX-1 secretion-associated 
+protein EspG1 [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium tuberculosis CAS/NITR204]
+Length=153
+
+ Score = 154 bits (388),  Expect = 4e-46, Method: Compositional matrix adjust.
+ Identities = 79/148 (53%), Positives = 105/148 (71%), Gaps = 3/148 (2%)
+
+Query  1    MLILQLMALQISQASMVTTMLDPAESANVQPLTGIAKKLAEYRTAAQLVGQGVQPSSACI  60
+            ML+LQ +   +  A MVT +L PAE ANV+PLTG+A +LAE  TA+QL   G+ P+SA +
+Sbjct  1    MLVLQPVYGWL--AGMVTAVLGPAEPANVEPLTGVATELAECTTASQLTQYGIAPASARV  58
+
+Query  61   YGKFLRNPSNWLAIIVTQRPPGGTTTYTDTAVRGSRLRAGQVGVALPRRVGNELYGSFLS  120
+            Y + + NP+ W+ I+ +QR PGGTTT TD A      + G++ V+LPRRVG +LYGSFL 
+Sbjct  59   YAEIVGNPTGWVEIVASQRHPGGTTTQTDAAAGVLDSKLGRL-VSLPRRVGGDLYGSFLP  117
+
+Query  121  GIQQNLQVAFNNLMELLPAGSWLDHVYD  148
+            G QQNL+ A + L+ELLPAG+WLDH  D
+Sbjct  118  GTQQNLERALDGLLELLPAGAWLDHTSD  145
+
+
+>VFG031854(gb|WP_012396941) (espG1) ESX-1 secretion-associated 
+protein EspG1 [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium marinum M]
+Length=279
+
+ Score = 148 bits (373),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 78/153 (51%), Positives = 107/153 (70%), Gaps = 2/153 (1%)
+
+Query  1    MLILQLMALQISQASMVTTMLDPAESANVQPLTGIAKKLAEYRTAAQLVGQGVQPSSACI  60
+            ML+LQL+A ++  A MVT +L  AE ANV+PLTGIA +L E   AAQL   G+ P++A +
+Sbjct  129  MLVLQLVAPRVGLAGMVTAVLGTAEPANVEPLTGIASELGECTNAAQLTRYGLTPTTARL  188
+
+Query  61   YGKFLRNPSNWLAIIVTQRPPGGTTTYTDTAVRGSRLRAGQVGVALPRRVGNELYGSFLS  120
+            Y + + NP +W+ I+ ++R PGGTTT+T  A        G++ V+LPR+VG ELYGSFL 
+Sbjct  189  YTEIVTNPKSWVEIVASERHPGGTTTHTKAAAGVLDSAHGRL-VSLPRQVGGELYGSFLP  247
+
+Query  121  GIQQNLQVAFNNLMELLPAGSWLDHVYDTPSRG  153
+            G +QNLQ A ++L+ELLP+GSWLD   D  +RG
+Sbjct  248  GTEQNLQRALDSLLELLPSGSWLDRA-DATARG  279
+
+
+>VFG031861(gb|WP_015357687) (espG1) ESX-1 secretion-associated 
+protein EspG1 [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium liflandii 128FXT]
+Length=279
+
+ Score = 148 bits (373),  Expect = 3e-42, Method: Compositional matrix adjust.
+ Identities = 78/153 (51%), Positives = 107/153 (70%), Gaps = 2/153 (1%)
+
+Query  1    MLILQLMALQISQASMVTTMLDPAESANVQPLTGIAKKLAEYRTAAQLVGQGVQPSSACI  60
+            ML+LQL+A ++  A MVT +L  AE ANV+PLTGIA +L E   AAQL   G+ P++A +
+Sbjct  129  MLVLQLVAPRVGLAGMVTAVLGTAEPANVEPLTGIASELGECTNAAQLTRYGLTPTTARL  188
+
+Query  61   YGKFLRNPSNWLAIIVTQRPPGGTTTYTDTAVRGSRLRAGQVGVALPRRVGNELYGSFLS  120
+            Y + + NP +W+ I+ ++R PGGTTT+T  A        G++ V+LPR+VG ELYGSFL 
+Sbjct  189  YTEIVTNPKSWVEIVASERHPGGTTTHTKAAAGVLDSVHGRL-VSLPRQVGGELYGSFLP  247
+
+Query  121  GIQQNLQVAFNNLMELLPAGSWLDHVYDTPSRG  153
+            G +QNLQ A ++L+ELLP+GSWLD   D  +RG
+Sbjct  248  GTEQNLQRALDSLLELLPSGSWLDRA-DATTRG  279
+
+
+>VFG031844(gb|WP_003891384) (espG1) ESX-1 secretion-associated 
+protein EspG1 [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=282
+
+ Score = 134 bits (338),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 66/144 (46%), Positives = 92/144 (64%), Gaps = 1/144 (1%)
+
+Query  1    MLILQLMALQISQASMVTTMLDPAESANVQPLTGIAKKLAEYRTAAQLVGQGVQPSSACI  60
+            +L+LQ +A QI  A MV T+L     ANV+PLTG+A +LA+ RTA +L G G+ P+SA  
+Sbjct  130  LLVLQRVAPQIGLAGMVMTVLGEGSPANVEPLTGVADRLAQCRTAEELTGYGIPPTSARA  189
+
+Query  61   YGKFLRNPSNWLAIIVTQRPPGGTTTYTDTAVRGSRLRAGQVGVALPRRVGNELYGSFLS  120
+            Y   +  P  W+ I+  +R PGGTT+  D A      + G++ V++PRRV  ELYGSFLS
+Sbjct  190  YASIISEPDGWVEIVANERHPGGTTSQVDVAAGVLDAKQGRI-VSIPRRVNGELYGSFLS  248
+
+Query  121  GIQQNLQVAFNNLMELLPAGSWLD  144
+            G + NL+ A   L+E LP+ +W D
+Sbjct  249  GTKDNLERALEGLVEFLPSKTWFD  272
+
+
+>VFG031846(gb|WP_011557490) (espG1) ESX-1 secretion-associated 
+protein EspG1 [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium sp. KMS]
+Length=282
+
+ Score = 134 bits (338),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 69/145 (48%), Positives = 96/145 (66%), Gaps = 1/145 (1%)
+
+Query  1    MLILQLMALQISQASMVTTMLDPAESANVQPLTGIAKKLAEYRTAAQLVGQGVQPSSACI  60
+            ML+LQ +A QI  A+MVTT+L  A  A+V+PLTG+A KLA+ RTA +L   G+  +SA  
+Sbjct  130  MLVLQRIAPQIGLANMVTTVLGTAPPADVEPLTGVAAKLAQCRTANELQAYGIALTSARA  189
+
+Query  61   YGKFLRNPSNWLAIIVTQRPPGGTTTYTDTAVRGSRLRAGQVGVALPRRVGNELYGSFLS  120
+            Y   +  P++W+ +  T+R PGGT T TD A        G++ V++PRRV  ELYGSFL 
+Sbjct  190  YADIISEPASWVELTATERHPGGTQTTTDVAAGVLDSPHGRI-VSIPRRVSGELYGSFLP  248
+
+Query  121  GIQQNLQVAFNNLMELLPAGSWLDH  145
+            G Q+NLQ A + L++ LP+ +W DH
+Sbjct  249  GTQENLQRALDGLVDFLPSKTWFDH  273
+
+
+>VFG031845(gb|WP_011854168) (espG1) ESX-1 secretion-associated 
+protein EspG1 [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium sp. JLS]
+Length=282
+
+ Score = 134 bits (337),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 69/145 (48%), Positives = 96/145 (66%), Gaps = 1/145 (1%)
+
+Query  1    MLILQLMALQISQASMVTTMLDPAESANVQPLTGIAKKLAEYRTAAQLVGQGVQPSSACI  60
+            ML+LQ +A QI  A+MVTT+L  A  A+V+PLTG+A KLA+ RTA +L   G+  +SA  
+Sbjct  130  MLVLQRIAPQIGLANMVTTVLGTAPPADVEPLTGVAAKLAQCRTANELQAYGIALTSARA  189
+
+Query  61   YGKFLRNPSNWLAIIVTQRPPGGTTTYTDTAVRGSRLRAGQVGVALPRRVGNELYGSFLS  120
+            Y   +  P++W+ +  T+R PGGT T TD A        G++ V++PRRV  ELYGSFL 
+Sbjct  190  YADIISEPASWVELTATERHPGGTQTTTDVAAGVLDSPHGRI-VSIPRRVSGELYGSFLP  248
+
+Query  121  GIQQNLQVAFNNLMELLPAGSWLDH  145
+            G Q+NLQ A + L++ LP+ +W DH
+Sbjct  249  GTQENLQRALDGLVDFLPSKTWFDH  273
+
+
+>VFG031849(gb|WP_011777395) (espG1) ESX-1 secretion-associated 
+protein EspG1 [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium vanbaalenii PYR-1]
+Length=283
+
+ Score = 130 bits (326),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 71/147 (48%), Positives = 96/147 (65%), Gaps = 5/147 (3%)
+
+Query  1    MLILQLMALQISQASMVTTMLDPAESANVQPLTGIAKKLAEYRTAAQLVGQGVQPSSACI  60
+            ML+LQ +A QI  A+MV  ++  A +A+V+PLTGIA KLAE RTA Q+   G  P SA I
+Sbjct  130  MLVLQRVAPQIGLAAMVGVVIGGAPAADVEPLTGIATKLAEARTAEQIGAYGQPPLSAKI  189
+
+Query  61   YGKFLRNPSNWLAIIVTQRPPGGTTTYTDTAVRGSRLRA--GQVGVALPRRVGNELYGSF  118
+            Y +   NP +W+ I   +R PGG  TY+   V    L +  G++ V++PR+VG ELYGSF
+Sbjct  190  YAEATANPDSWVEITAAERHPGG--TYSQAGVGAGVLDSAHGRI-VSIPRQVGGELYGSF  246
+
+Query  119  LSGIQQNLQVAFNNLMELLPAGSWLDH  145
+            L G Q+NLQ A + L+E LP+ +W DH
+Sbjct  247  LPGTQENLQRALDGLVEFLPSRAWFDH  273
+
+
+>VFG031843(gb|WP_041799768) (espG1) ESX-1 secretion-associated 
+protein EspG1 [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium gilvum PYR-GCK]
+Length=283
+
+ Score = 119 bits (299),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 65/147 (44%), Positives = 92/147 (63%), Gaps = 5/147 (3%)
+
+Query  1    MLILQLMALQISQASMVTTMLDPAESANVQPLTGIAKKLAEYRTAAQLVGQGVQPSSACI  60
+            ML+LQ +A QI  A+MV  ++     ANV+PLTG+A +LAE R+A QL   G  P SA I
+Sbjct  130  MLVLQRVAPQIGLAAMVNVVIGAGAPANVEPLTGLAAELAEARSAEQLGRYGQPPHSAKI  189
+
+Query  61   YGKFLRNPSNWLAIIVTQRPPGGTTTYTDTAVRGSRLRA--GQVGVALPRRVGNELYGSF  118
+            Y +   +P +W+ I   +R PGG  TY+   V    L +  G++ V++PRRV  +LYGSF
+Sbjct  190  YAEASASPDSWVEITANERHPGG--TYSQAGVGAGVLDSSHGRI-VSIPRRVNGDLYGSF  246
+
+Query  119  LSGIQQNLQVAFNNLMELLPAGSWLDH  145
+            L G  +NLQ A + L+E LP+ +W +H
+Sbjct  247  LPGTPENLQRALDGLIEFLPSATWFEH  273
+
+
+>VFG031856(gb|WP_013470298) (espG1) ESX-1 secretion-associated 
+protein EspG1 [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium gilvum Spyr1]
+Length=283
+
+ Score = 119 bits (297),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 64/147 (44%), Positives = 92/147 (63%), Gaps = 5/147 (3%)
+
+Query  1    MLILQLMALQISQASMVTTMLDPAESANVQPLTGIAKKLAEYRTAAQLVGQGVQPSSACI  60
+            ML+LQ +A QI  A+MV  ++     ANV+PLTG+A +LA+ R+A QL   G  P SA +
+Sbjct  130  MLVLQRVAPQIGLAAMVNVVIGAGAPANVEPLTGLATELAQARSAEQLGRYGQPPHSAKV  189
+
+Query  61   YGKFLRNPSNWLAIIVTQRPPGGTTTYTDTAVRGSRLRA--GQVGVALPRRVGNELYGSF  118
+            Y +   +P +W+ I   +R PGG  TY+   V    L +  G++ V++PRRV  ELYGSF
+Sbjct  190  YAEASASPDSWVEITANERHPGG--TYSQAGVGAGVLDSSHGRI-VSIPRRVNGELYGSF  246
+
+Query  119  LSGIQQNLQVAFNNLMELLPAGSWLDH  145
+            L G  +NLQ A + L+E LP+ +W +H
+Sbjct  247  LPGTPENLQRALDGLIEFLPSATWFEH  273
+
+
+>VFG031897(gb|WP_015291789) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=183
+
+ Score = 114 bits (284),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 73/157 (46%), Positives = 96/157 (61%), Gaps = 10/157 (6%)
+
+Query  170  VNLLGNDDDN-HLASLDFYSANRYYEESLFFDELDGYAPTTPVGIEANDLDVFQSLTEPE  228
+            V+  GNDDD+  L +LDF +A  +  E+   D LD YAP  P      DLD   +LTE +
+Sbjct  2    VDPPGNDDDHGDLDALDFSAA--HTNEASPLDALDDYAPV-PTDDAEGDLDALHALTERD  58
+
+Query  229  EELEVELLAVTNP--AKSVSALMNGRVHQVELTDQVTRIGEKKPATEAFVLASLARQKAR  286
+            EE E+EL  VTNP  + SVS LM+GR+  VELTD+ T + E + A E FV+A LARQKAR
+Sbjct  59   EEPELELFTVTNPQGSVSVSTLMDGRIQHVELTDKATSMSEAQLADEIFVIADLARQKAR  118
+
+Query  287  TSQGTCILDSL----QGGGENTTARCELVGLTLNLPT  319
+             SQ T +++++        E +    E VG+TLNLPT
+Sbjct  119  ASQYTFMVENIGELTDEDAEGSALLREFVGMTLNLPT  155
+
+
+>VFG031877(gb|NP_218384) (espH) ESX-1 secretion-associated protein 
+EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=183
+
+ Score = 112 bits (280),  Expect = 7e-30, Method: Compositional matrix adjust.
+ Identities = 73/157 (46%), Positives = 96/157 (61%), Gaps = 10/157 (6%)
+
+Query  170  VNLLGNDDDN-HLASLDFYSANRYYEESLFFDELDGYAPTTPVGIEANDLDVFQSLTEPE  228
+            V+  GNDDD+  L +LDF +A  +  E+   D LD YAP      E  DLD   +LTE +
+Sbjct  2    VDPPGNDDDHGDLDALDFSAA--HTNEASPLDALDDYAPVQTDDAEG-DLDALHALTERD  58
+
+Query  229  EELEVELLAVTNP--AKSVSALMNGRVHQVELTDQVTRIGEKKPATEAFVLASLARQKAR  286
+            EE E+EL  VTNP  + SVS LM+GR+  VELTD+ T + E + A E FV+A LARQKAR
+Sbjct  59   EEPELELFTVTNPQGSVSVSTLMDGRIQHVELTDKATSMSEAQLADEIFVIADLARQKAR  118
+
+Query  287  TSQGTCILDSL----QGGGENTTARCELVGLTLNLPT  319
+             SQ T +++++        E +    E VG+TLNLPT
+Sbjct  119  ASQYTFMVENIGELTDEDAEGSALLREFVGMTLNLPT  155
+
+
+>VFG031908(gb|YP_007959833) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=183
+
+ Score = 107 bits (268),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 71/156 (46%), Positives = 94/156 (60%), Gaps = 10/156 (6%)
+
+Query  170  VNLLGNDDDN-HLASLDFYSANRYYEESLFFDELDGYAPTTPVGIEANDLDVFQSLTEPE  228
+            V+  GND D+  L +LDF +A  +  E+   D LD YAP      E  DLD   +LTE +
+Sbjct  2    VDPPGNDXDHGDLDALDFSAA--HTNEASPLDALDDYAPVQTDDAEG-DLDALHALTERD  58
+
+Query  229  EELEVELLAVTNP--AKSVSALMNGRVHQVELTDQVTRIGEKKPATEAFVLASLARQKAR  286
+            EE E+EL  VTNP  + SVS LM+GR+  VELTD+ T + E + A E FV+A LARQKAR
+Sbjct  59   EEPELELFTVTNPQGSVSVSTLMDGRIQHVELTDKATSMSEAQLADEIFVIADLARQKAR  118
+
+Query  287  TSQGTCILDSL----QGGGENTTARCELVGLTLNLP  318
+             SQ T +++++        E +    E VG+TLNLP
+Sbjct  119  ASQYTFMVENIGELTDEDAEGSALLREFVGMTLNLP  154
+
+
+>VFG031892(gb|WP_012396942) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium marinum M]
+Length=185
+
+ Score = 94.7 bits (234),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 65/160 (41%), Positives = 86/160 (54%), Gaps = 12/160 (8%)
+
+Query  170  VNLLGNDDDNH-LASLDFYSANRYYEESLFFDELDGYAPTTPVGIE--ANDLDVFQSLTE  226
+            ++L GNDD N  L +LDF       +  L    LD YAP  P   E    DLD    LTE
+Sbjct  1    MDLPGNDDYNQDLGALDFSGGGTSEDSGL--GALDEYAPPEPQETEQAGADLDALHGLTE  58
+
+Query  227  PEEELEVELLAVTNPAKSVSA--LMNGRVHQVELTDQVTRIGEKKPATEAFVLASLARQK  284
+             E+E ++ +  VTNP  SVS   +M G V QV +TD+   + E   A E FV+A LARQK
+Sbjct  59   KEDEPDIAMFTVTNPQGSVSVTTMMGGIVQQVTVTDKAANMSESALAEEIFVIADLARQK  118
+
+Query  285  ARTSQGTCILDSLQGGGENTTAR-----CELVGLTLNLPT  319
+            AR +Q T +++++     + T        E VG+TLNLPT
+Sbjct  119  ARAAQHTFMVEAMASELSDETEEEGALLREFVGMTLNLPT  158
+
+
+>VFG031899(gb|WP_041300756) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium liflandii 128FXT]
+Length=186
+
+ Score = 94.0 bits (232),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 65/160 (41%), Positives = 86/160 (54%), Gaps = 12/160 (8%)
+
+Query  170  VNLLGNDDDNH-LASLDFYSANRYYEESLFFDELDGYAPTTPVGIE--ANDLDVFQSLTE  226
+            V+L GNDD N  L +LDF       +  L    LD YAP  P   E    DLD    LTE
+Sbjct  2    VDLPGNDDYNQDLGALDFSGGGTSEDSGL--GALDEYAPPEPQETEQAGADLDALHGLTE  59
+
+Query  227  PEEELEVELLAVTNPAKSVSA--LMNGRVHQVELTDQVTRIGEKKPATEAFVLASLARQK  284
+             E+E ++ +  VTNP  SVS   +M G V +V +TD+   + E   A E FV+A LARQK
+Sbjct  60   KEDEPDIAMFTVTNPQGSVSVTTMMGGIVQRVTVTDKAANMSESALAEEIFVIADLARQK  119
+
+Query  285  ARTSQGTCILDSLQGGGENTTAR-----CELVGLTLNLPT  319
+            AR +Q T +++++     + T        E VG+TLNLPT
+Sbjct  120  ARAAQHTFMVEAMASELSDETEEEGALLREFVGMTLNLPT  159
+
+
+>VFG031886(gb|WP_011742140) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium ulcerans Agy99]
+Length=199
+
+ Score = 85.9 bits (211),  Expect = 8e-20, Method: Compositional matrix adjust.
+ Identities = 59/147 (40%), Positives = 90/147 (61%), Gaps = 12/147 (8%)
+
+Query  199  FDELDGYAPTTPVGIEANDLDVFQSLTEPEEE---LEVELLAVTNP--AKSVSALMNGRV  253
+             D L  +APT P   E  D+D+ ++L +P ++    E +L  VTNP    SVSA++ G++
+Sbjct  28   IDALRAFAPTQP---EEADVDL-RALHKPAKDDKAEECDLFTVTNPQGTVSVSAVLGGKI  83
+
+Query  254  HQVELTDQVTRIGEKKPATEAFVLASLARQKARTSQGTCILDSLQG-GGENTTARC-ELV  311
+             +VEL+++VT + E   A E +V+A LARQKAR +Q T ++ S++    E   A+  E +
+Sbjct  84   RRVELSEEVTTMAEPNLAAEIYVIADLARQKARAAQHTLMVQSMKDIESEKHRAKLREFL  143
+
+Query  312  GLTLNLPTSEQ-AAAEAEMFSNNILRQ  337
+            G  LNLPT EQ AAA+ E+F+    R+
+Sbjct  144  GTMLNLPTPEQAAAAQKEVFATRYGRE  170
+
+
+>VFG023194(gb|WP_010907713) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium leprae Br4923]
+Length=216
+
+ Score = 80.9 bits (198),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 62/166 (37%), Positives = 89/166 (54%), Gaps = 12/166 (7%)
+
+Query  164  LERDSTVNLLGND-DDNHLASLDFYSANRYYEESLFFDELDGYAPTTPVGIEANDLDVFQ  222
+              RD  V   GND D +   ++D +        ++  D + G+A ++       D+D  +
+Sbjct  23   FRRDVVVVFPGNDFDRDDCDTVDPWGVGGAAHWTI--DPIVGFASSSAPQDRGTDVDNTR  80
+
+Query  223  SLTEPEE---ELEVELLAVTNPAK--SVSALMNGRVHQVELTDQVTRIGEKKPATEAFVL  277
+               E +E   E EV +  VTNP +  SVS LM+GR+  VEL+ +VT + E + A+E  VL
+Sbjct  81   GQAEEDEKQKEPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVL  140
+
+Query  278  ASLARQKARTSQGTCILDSLQ---GGGENTTARC-ELVGLTLNLPT  319
+            A LARQKA+++Q T ILD L     G E+  A   E VG T NLP+
+Sbjct  141  ADLARQKAQSAQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPS  186
+
+
+>VFG031881(gb|WP_011726637) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=175
+
+ Score = 78.6 bits (192),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 57/161 (35%), Positives = 90/161 (56%), Gaps = 9/161 (6%)
+
+Query  175  NDDDNHLASLDFYSANRYYEESL-FFDELDGYAPTTPVGIEANDLDVFQSLTEPEEELEV  233
+            +DD + LA+LDF   +   E SL  FD  D  AP       A   D      + E+E   
+Sbjct  12   DDDHDSLAALDFPGTDDEPESSLDVFDVFDVGAPADEPWDAATSAD-----GDGEDETPA  66
+
+Query  234  ELLAVTNPAKSVS--ALMNGRVHQVELTDQVTRIGEKKPATEAFVLASLARQKARTSQGT  291
+             +  VTNP  +V+  A ++GRVHQ+ L+ +V  + E++ A E  V+A LA ++AR++Q +
+Sbjct  67   PVFTVTNPPGTVTVAAYLDGRVHQIALSPKVVNMTERELADEIRVIADLAGEQARSAQYS  126
+
+Query  292  CILDSLQGGGENTTARCELVGLTLNLPTSEQAAA-EAEMFS  331
+             +L+ ++  G +  A  + +   LNLPT EQA A +A++FS
+Sbjct  127  FMLEGMREHGHDDAATRDFLTRDLNLPTPEQADANQAQVFS  167
+
+
+>VFG017732(gb|WP_172591946) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium leprae TN]
+Length=188
+
+ Score = 77.8 bits (190),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 54/130 (42%), Positives = 75/130 (58%), Gaps = 9/130 (7%)
+
+Query  199  FDELDGYAPTTPVGIEANDLDVFQSLTEPEE---ELEVELLAVTNPAK--SVSALMNGRV  253
+             D + G+A ++       D+D  +   E +E   E EV +  VTNP +  SVS LM+GR+
+Sbjct  29   IDPIVGFASSSAPQDRGTDVDNTRGQAEEDEKQKEPEVAIFTVTNPPRTVSVSVLMDGRI  88
+
+Query  254  HQVELTDQVTRIGEKKPATEAFVLASLARQKARTSQGTCILDSLQ---GGGENTTARC-E  309
+              VEL+ +VT + E + A+E  VLA LARQKA+++Q T ILD L     G E+  A   E
+Sbjct  89   DHVELSKRVTWMSESQVASEILVLADLARQKAQSAQYTFILDKLSQLADGDEHRVALLRE  148
+
+Query  310  LVGLTLNLPT  319
+             VG T NLP+
+Sbjct  149  SVGNTWNLPS  158
+
+
+>VFG023189(gb|WP_172607302) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium marinum M]
+Length=187
+
+ Score = 75.5 bits (184),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 55/157 (35%), Positives = 84/157 (54%), Gaps = 10/157 (6%)
+
+Query  170  VNLLGND-DDNHLASLDFYSANRYYEESLFFDELDGYAPTTPVGIEANDLDVFQSLTEPE  228
+            +NL GND D +   ++D +  +   ++    D + G+A       EA+  D      +PE
+Sbjct  1    MNLPGNDFDSDDFDAVDLWDPDG--KQRWTADPIVGFAGAGAQDSEASADDSPAPQEQPE  58
+
+Query  229  EELEVELLAVTNPAKSV--SALMNGRVHQVELTDQVTRIGEKKPATEAFVLASLARQKAR  286
+            E+ E+ +  VTNP  SV  SALM+GR   +EL+ +V R+ E + A+E  VLA LARQKA+
+Sbjct  59   ED-EIAVFTVTNPQGSVAVSALMDGRTEDIELSKKVARMSESQLASEILVLADLARQKAQ  117
+
+Query  287  TSQGTCILDSLQGGGENTTARC----ELVGLTLNLPT  319
+             +Q   IL+ L    +    R     + VG T +LP+
+Sbjct  118  AAQYAFILNKLTHAADGDQQRVQQLQDFVGNTWSLPS  154
+
+
+>VFG027983(gb|WP_015294552) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium canettii CIPT 140070017]
+Length=184
+
+ Score = 72.8 bits (177),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 58/158 (37%), Positives = 82/158 (52%), Gaps = 12/158 (8%)
+
+Query  170  VNLLGND-DDNHLASLDFYSANRYYEESLFFDELDGYAP-TTPVGIEANDLDVFQSLTEP  227
+            ++L GND D N   ++D + A+    E    D + G A   TP      DLD      E 
+Sbjct  1    MDLPGNDFDSNDFDAVDLWGADG--AEGWTADPIIGVASAVTP--DTGPDLDNAHGQAET  56
+
+Query  228  EEELEVELLAVTNPAK--SVSALMNGRVHQVELTDQVTRIGEKKPATEAFVLASLARQKA  285
+            + E E+ L  VTNP +  SVS LM+GR+  VEL+ +V  + E + A+E  V+A LARQKA
+Sbjct  57   DTEQEIALFTVTNPPRTVSVSTLMDGRIDHVELSTRVAWMSESQLASEILVIADLARQKA  116
+
+Query  286  RTSQGTCILDSLQGGGENTTARCEL----VGLTLNLPT  319
+            +++Q   ILD +    +    R  L    VG T  LP+
+Sbjct  117  QSAQYAFILDRMSQQVDADEHRVALLRKTVGETWGLPS  154
+
+
+>VFG002392(gb|NP_218131) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=184
+
+ Score = 72.4 bits (176),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 58/164 (35%), Positives = 82/164 (50%), Gaps = 24/164 (15%)
+
+Query  170  VNLLGND-DDNHLASLDFYSANRYYEESLFFDELDGYA--PTTPVGIEAN-----DLDVF  221
+            ++L GND D N   ++D + A          D  +G+   P   VG  A      DLD  
+Sbjct  1    MDLPGNDFDSNDFDAVDLWGA----------DGAEGWTADPIIGVGSAATPDTGPDLDNA  50
+
+Query  222  QSLTEPEEELEVELLAVTNPAK--SVSALMNGRVHQVELTDQVTRIGEKKPATEAFVLAS  279
+                E + E E+ L  VTNP +  SVS LM+GR+  VEL+ +V  + E + A+E  V+A 
+Sbjct  51   HGQAETDTEQEIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIAD  110
+
+Query  280  LARQKARTSQGTCILDSLQGGGENTTARCEL----VGLTLNLPT  319
+            LARQKA+++Q   ILD +    +    R  L    VG T  LP+
+Sbjct  111  LARQKAQSAQYAFILDRMSQQVDADEHRVALLRKTVGETWGLPS  154
+
+
+>VFG027982(gb|WP_015291584) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=184
+
+ Score = 70.5 bits (171),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 54/164 (33%), Positives = 82/164 (50%), Gaps = 24/164 (15%)
+
+Query  170  VNLLGND-DDNHLASLDFYSANRYYEESLFFDELDGYAPTTPVGIEAN-------DLDVF  221
+            ++L GND D +   ++D + A          D  +G+     VG+ +        D+D  
+Sbjct  1    MDLPGNDFDSDDFDAVDLWGA----------DGAEGWTADPIVGVASAATSDTRPDVDNA  50
+
+Query  222  QSLTEPEEELEVELLAVTNPAK--SVSALMNGRVHQVELTDQVTRIGEKKPATEAFVLAS  279
+                E + E E+ L  VTNP +  SVS LM+GR+  VEL+ +V  + E + A+E  V+A 
+Sbjct  51   HGQAETDTEQEIALFTVTNPPRTVSVSTLMDGRIDHVELSTRVAWMSESQLASEILVIAD  110
+
+Query  280  LARQKARTSQGTCILDSLQGGGENTTARCEL----VGLTLNLPT  319
+            LARQKA+++Q   ILD +    +    R  L    VG T  LP+
+Sbjct  111  LARQKAQSAQYAFILDRMSQQVDADEDRVALLRKTVGETWGLPS  154
+
+
+>VFG031887(gb|WP_011777396) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium vanbaalenii PYR-1]
+Length=168
+
+ Score = 69.3 bits (168),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 40/107 (37%), Positives = 63/107 (59%), Gaps = 3/107 (3%)
+
+Query  228  EEELEVELLAVTNPAKSVSA--LMNGRVHQVELTDQVTRIGEKKPATEAFVLASLARQKA  285
+            +++ E+ +  VTNP  +V+    M+GRVHQ+EL      + E   A E  V+A LA Q A
+Sbjct  55   DDDGEMPMFTVTNPPGTVTVTTYMDGRVHQIELAPSAAALPEAVLADEIVVIAGLATQDA  114
+
+Query  286  RTSQGTCILDSLQGGGENTTARCELVGLTLNLPTSEQA-AAEAEMFS  331
+            R++Q T +L+ ++  G +     + +   L+LPT EQA AA AE+F+
+Sbjct  115  RSAQYTFMLEGMREHGHDNVTTRDFLNRDLDLPTPEQARAARAELFT  161
+
+
+>VFG031880(gb|WP_011891680) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium gilvum PYR-GCK]
+Length=163
+
+ Score = 66.2 bits (160),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 42/119 (35%), Positives = 68/119 (57%), Gaps = 6/119 (5%)
+
+Query  219  DVF---QSLTEPEEELEVELLAVTNP--AKSVSALMNGRVHQVELTDQVTRIGEKKPATE  273
+            DVF    +++   ++ ++ +  VTNP    +V+  ++GRVH V L+     + E   A E
+Sbjct  38   DVFGLVDAVSAGADDGKMPMFTVTNPPGTVTVTTCLDGRVHDVALSHSAAVLSEIALADE  97
+
+Query  274  AFVLASLARQKARTSQGTCILDSLQGGGENTTARCELVGLTLNLPTSEQA-AAEAEMFS  331
+              V+A LA Q AR++Q T +LD ++  G +T    + +   L+LPT EQA AA AE+F+
+Sbjct  98   IVVIAGLATQDARSAQYTVMLDGMREHGHDTVTTRDFLTRDLHLPTPEQARAARAELFT  156
+
+
+>VFG031894(gb|WP_013470299) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium gilvum Spyr1]
+Length=145
+
+ Score = 63.2 bits (152),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 38/105 (36%), Positives = 58/105 (55%), Gaps = 3/105 (3%)
+
+Query  232  EVELLAVTNPAKSVSA--LMNGRVHQVELTDQVTRIGEKKPATEAFVLASLARQKARTSQ  289
+            E+ +  VTNP  +VS    ++GRV  V L+     + E   A E  V+A LA Q AR++Q
+Sbjct  36   EMPMFTVTNPPGTVSVTTWLDGRVRDVALSRHAAVLSEIALADEIVVIAGLATQDARSAQ  95
+
+Query  290  GTCILDSLQGGGENTTARCELVGLTLNLPTSEQA-AAEAEMFSNN  333
+             T + D ++  G +T    + +   L+LP+ EQA AA AE+F+  
+Sbjct  96   YTVMFDGMREHGHDTVTTRDFLTRDLHLPSPEQARAARAELFTTR  140
+
+
+>VFG031882(gb|WP_011854169) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium sp. JLS]
+Length=166
+
+ Score = 60.1 bits (144),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 41/122 (34%), Positives = 65/122 (53%), Gaps = 9/122 (7%)
+
+Query  218  LDVFQSL---TEPEEELEVELLAVTNPAKSVS--ALMNGRVHQVELTDQVTRIGEKKPAT  272
+            LD F       EPE E    L  VTNP  +V+  + ++GRV  ++L+ +   + E + A 
+Sbjct  42   LDAFAGYGLSDEPEPE---PLFTVTNPPGTVTVTSYLDGRVQHIDLSPRAVHMSETELAE  98
+
+Query  273  EAFVLASLARQKARTSQGTCILDSLQGGGENTTARCELVGLTLNLPTSEQAAAE-AEMFS  331
+            E  V+A LA Q A+++Q   +LD ++  G +  A  + +   L LPT E+A A  AE+F+
+Sbjct  99   EIVVIAGLAAQDAKSAQYEFMLDGMREQGHDDPATRDFLQRDLELPTPEEARAHRAEVFT  158
+
+Query  332  NN  333
+              
+Sbjct  159  TR  160
+
+
+>VFG031883(gb|WP_011557491) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium sp. KMS]
+Length=168
+
+ Score = 58.2 bits (139),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 34/102 (33%), Positives = 58/102 (57%), Gaps = 3/102 (3%)
+
+Query  235  LLAVTNPAKSVS--ALMNGRVHQVELTDQVTRIGEKKPATEAFVLASLARQKARTSQGTC  292
+            L  VTNP  +V+  + ++GRV  ++L+ +   + E + A E  V+A LA Q A+++Q   
+Sbjct  61   LFTVTNPPGTVTVTSYLDGRVQHIDLSPRAVHMSETELAEEIVVIAGLAAQDAKSAQYEF  120
+
+Query  293  ILDSLQGGGENTTARCELVGLTLNLPTSEQAAAE-AEMFSNN  333
+            +LD ++  G +  A  + +   L LPT E+A A  AE+F+  
+Sbjct  121  MLDGMREQGHDDPATRDFLQRDLELPTPEEARAHRAEVFTTR  162
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.131    0.367    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2481911637
+
+
+Query= g303.t1
+
+Length=189
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG017732(gb|WP_172591946) (espD) ESX-1 type VII secretion system...  385     3e-139
+VFG023194(gb|WP_010907713) (espD) ESX-1 type VII secretion system...  387     3e-139
+VFG027983(gb|WP_015294552) (espD) ESX-1 type VII secretion system...  252     1e-86 
+VFG002392(gb|NP_218131) (espD) ESX-1 type VII secretion system Es...  252     2e-86 
+VFG027982(gb|WP_015291584) (espD) ESX-1 type VII secretion system...  247     1e-84 
+VFG023189(gb|WP_172607302) (espD) ESX-1 type VII secretion system...  197     9e-65 
+VFG031877(gb|NP_218384) (espH) ESX-1 secretion-associated protein...  146     7e-45 
+VFG031897(gb|WP_015291789) (espH) ESX-1 secretion-associated prot...  145     1e-44 
+VFG031908(gb|YP_007959833) (espH) ESX-1 secretion-associated prot...  143     1e-43 
+VFG031899(gb|WP_041300756) (espH) ESX-1 secretion-associated prot...  127     4e-37 
+VFG031892(gb|WP_012396942) (espH) ESX-1 secretion-associated prot...  125     2e-36 
+VFG031886(gb|WP_011742140) (espH) ESX-1 secretion-associated prot...  120     2e-34 
+VFG031882(gb|WP_011854169) (espH) ESX-1 secretion-associated prot...  104     1e-28 
+VFG031881(gb|WP_011726637) (espH) ESX-1 secretion-associated prot...  101     2e-27 
+VFG031883(gb|WP_011557491) (espH) ESX-1 secretion-associated prot...  100     8e-27 
+VFG031887(gb|WP_011777396) (espH) ESX-1 secretion-associated prot...  99.4    1e-26 
+VFG031894(gb|WP_013470299) (espH) ESX-1 secretion-associated prot...  95.5    2e-25 
+VFG031880(gb|WP_011891680) (espH) ESX-1 secretion-associated prot...  95.1    5e-25 
+
+
+>VFG017732(gb|WP_172591946) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium leprae TN]
+Length=188
+
+ Score = 385 bits (990),  Expect = 3e-139, Method: Compositional matrix adjust.
+ Identities = 187/188 (99%), Positives = 188/188 (100%), Gaps = 0/188 (0%)
+
+Query  2    VVFPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDRGTDVDNTRGQAEEDEK  61
+            +VFPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDRGTDVDNTRGQAEEDEK
+Sbjct  1    MVFPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDRGTDVDNTRGQAEEDEK  60
+
+Query  62   QKEPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQKA  121
+            QKEPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQKA
+Sbjct  61   QKEPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQKA  120
+
+Query  122  QSAQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYSDYCPA  181
+            QSAQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYSDYCPA
+Sbjct  121  QSAQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYSDYCPA  180
+
+Query  182  QDTENDQW  189
+            QDTENDQW
+Sbjct  181  QDTENDQW  188
+
+
+>VFG023194(gb|WP_010907713) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium leprae Br4923]
+Length=216
+
+ Score = 387 bits (993),  Expect = 3e-139, Method: Compositional matrix adjust.
+ Identities = 188/189 (99%), Positives = 189/189 (100%), Gaps = 0/189 (0%)
+
+Query  1    MVVFPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDRGTDVDNTRGQAEEDE  60
+            +VVFPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDRGTDVDNTRGQAEEDE
+Sbjct  28   VVVFPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDRGTDVDNTRGQAEEDE  87
+
+Query  61   KQKEPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQK  120
+            KQKEPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQK
+Sbjct  88   KQKEPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQK  147
+
+Query  121  AQSAQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYSDYCP  180
+            AQSAQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYSDYCP
+Sbjct  148  AQSAQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYSDYCP  207
+
+Query  181  AQDTENDQW  189
+            AQDTENDQW
+Sbjct  208  AQDTENDQW  216
+
+
+>VFG027983(gb|WP_015294552) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium canettii CIPT 140070017]
+Length=184
+
+ Score = 252 bits (644),  Expect = 1e-86, Method: Compositional matrix adjust.
+ Identities = 134/186 (72%), Positives = 149/186 (80%), Gaps = 4/186 (2%)
+
+Query  4    FPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDRGTDVDNTRGQAEEDEKQK  63
+             PGNDFD +D D VD WG  GA  WT DPI+G AS+  P D G D+DN  GQAE D +Q 
+Sbjct  3    LPGNDFDSNDFDAVDLWGADGAEGWTADPIIGVASAVTP-DTGPDLDNAHGQAETDTEQ-  60
+
+Query  64   EPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQKAQS  123
+              E+A+FTVTNPPRTVSVS LMDGRIDHVELS RV WMSESQ+ASEILV+ADLARQKAQS
+Sbjct  61   --EIALFTVTNPPRTVSVSTLMDGRIDHVELSTRVAWMSESQLASEILVIADLARQKAQS  118
+
+Query  124  AQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYSDYCPAQD  183
+            AQY FILD++SQ  D DEHRVALLR++VG TW LPSPE+AA AEAEVFATRYSD CPA D
+Sbjct  119  AQYAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDDCPAPD  178
+
+Query  184  TENDQW  189
+             E+D W
+Sbjct  179  DESDPW  184
+
+
+>VFG002392(gb|NP_218131) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=184
+
+ Score = 252 bits (643),  Expect = 2e-86, Method: Compositional matrix adjust.
+ Identities = 133/186 (72%), Positives = 149/186 (80%), Gaps = 4/186 (2%)
+
+Query  4    FPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDRGTDVDNTRGQAEEDEKQK  63
+             PGNDFD +D D VD WG  GA  WT DPI+G  S++ P D G D+DN  GQAE D +Q 
+Sbjct  3    LPGNDFDSNDFDAVDLWGADGAEGWTADPIIGVGSAATP-DTGPDLDNAHGQAETDTEQ-  60
+
+Query  64   EPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQKAQS  123
+              E+A+FTVTNPPRTVSVS LMDGRIDHVELS RV WMSESQ+ASEILV+ADLARQKAQS
+Sbjct  61   --EIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLARQKAQS  118
+
+Query  124  AQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYSDYCPAQD  183
+            AQY FILD++SQ  D DEHRVALLR++VG TW LPSPE+AA AEAEVFATRYSD CPA D
+Sbjct  119  AQYAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDDCPAPD  178
+
+Query  184  TENDQW  189
+             E+D W
+Sbjct  179  DESDPW  184
+
+
+>VFG027982(gb|WP_015291584) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=184
+
+ Score = 247 bits (631),  Expect = 1e-84, Method: Compositional matrix adjust.
+ Identities = 135/186 (73%), Positives = 147/186 (79%), Gaps = 4/186 (2%)
+
+Query  4    FPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDRGTDVDNTRGQAEEDEKQK  63
+             PGNDFD DD D VD WG  GA  WT DPIVG AS+ A  D   DVDN  GQAE D +Q 
+Sbjct  3    LPGNDFDSDDFDAVDLWGADGAEGWTADPIVGVASA-ATSDTRPDVDNAHGQAETDTEQ-  60
+
+Query  64   EPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQKAQS  123
+              E+A+FTVTNPPRTVSVS LMDGRIDHVELS RV WMSESQ+ASEILV+ADLARQKAQS
+Sbjct  61   --EIALFTVTNPPRTVSVSTLMDGRIDHVELSTRVAWMSESQLASEILVIADLARQKAQS  118
+
+Query  124  AQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYSDYCPAQD  183
+            AQY FILD++SQ  D DE RVALLR++VG TW LPSPE+AA AEAEVFATRYSD CPA D
+Sbjct  119  AQYAFILDRMSQQVDADEDRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDDCPAPD  178
+
+Query  184  TENDQW  189
+             E+D W
+Sbjct  179  DESDPW  184
+
+
+>VFG023189(gb|WP_172607302) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium marinum M]
+Length=187
+
+ Score = 197 bits (501),  Expect = 9e-65, Method: Compositional matrix adjust.
+ Identities = 112/185 (61%), Positives = 135/185 (73%), Gaps = 4/185 (2%)
+
+Query  4    FPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDRGTDVDNTRGQAEEDEKQK  63
+             PGNDFD DD D VD W   G   WT DPIVGFA + A QD     D++    E+ E   
+Sbjct  3    LPGNDFDSDDFDAVDLWDPDGKQRWTADPIVGFAGAGA-QDSEASADDSPAPQEQPE---  58
+
+Query  64   EPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQKAQS  123
+            E E+A+FTVTNP  +V+VS LMDGR + +ELSK+V  MSESQ+ASEILVLADLARQKAQ+
+Sbjct  59   EDEIAVFTVTNPQGSVAVSALMDGRTEDIELSKKVARMSESQLASEILVLADLARQKAQA  118
+
+Query  124  AQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYSDYCPAQD  183
+            AQY FIL+KL+  ADGD+ RV  L++ VGNTW+LPSPE+AA AEAEVFATRY D   A D
+Sbjct  119  AQYAFILNKLTHAADGDQQRVQQLQDFVGNTWSLPSPEEAAAAEAEVFATRYGDDRSAHD  178
+
+Query  184  TENDQ  188
+            + ++Q
+Sbjct  179  SASEQ  183
+
+
+>VFG031877(gb|NP_218384) (espH) ESX-1 secretion-associated protein 
+EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=183
+
+ Score = 146 bits (369),  Expect = 7e-45, Method: Compositional matrix adjust.
+ Identities = 92/180 (51%), Positives = 115/180 (64%), Gaps = 5/180 (3%)
+
+Query  1    MVVFPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDRGTDVDNTRGQAEEDE  60
+            MV  PGND D  D D +D           +D +  +A        G D+D      E DE
+Sbjct  1    MVDPPGNDDDHGDLDALDFSAAHTNEASPLDALDDYAPVQTDDAEG-DLDALHALTERDE  59
+
+Query  61   KQKEPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQK  120
+               EPE+ +FTVTNP  +VSVS LMDGRI HVEL+ + T MSE+Q+A EI V+ADLARQK
+Sbjct  60   ---EPELELFTVTNPQGSVSVSTLMDGRIQHVELTDKATSMSEAQLADEIFVIADLARQK  116
+
+Query  121  AQSAQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYS-DYC  179
+            A+++QYTF+++ + +L D D    ALLRE VG T NLP+PE+AA AEAEVFATRY  DY 
+Sbjct  117  ARASQYTFMVENIGELTDEDAEGSALLREFVGMTLNLPTPEEAAAAEAEVFATRYDVDYT  176
+
+
+>VFG031897(gb|WP_015291789) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=183
+
+ Score = 145 bits (367),  Expect = 1e-44, Method: Compositional matrix adjust.
+ Identities = 92/180 (51%), Positives = 115/180 (64%), Gaps = 5/180 (3%)
+
+Query  1    MVVFPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDRGTDVDNTRGQAEEDE  60
+            MV  PGND D  D D +D           +D +  +A        G D+D      E DE
+Sbjct  1    MVDPPGNDDDHGDLDALDFSAAHTNEASPLDALDDYAPVPTDDAEG-DLDALHALTERDE  59
+
+Query  61   KQKEPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQK  120
+               EPE+ +FTVTNP  +VSVS LMDGRI HVEL+ + T MSE+Q+A EI V+ADLARQK
+Sbjct  60   ---EPELELFTVTNPQGSVSVSTLMDGRIQHVELTDKATSMSEAQLADEIFVIADLARQK  116
+
+Query  121  AQSAQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYS-DYC  179
+            A+++QYTF+++ + +L D D    ALLRE VG T NLP+PE+AA AEAEVFATRY  DY 
+Sbjct  117  ARASQYTFMVENIGELTDEDAEGSALLREFVGMTLNLPTPEEAAAAEAEVFATRYDVDYT  176
+
+
+>VFG031908(gb|YP_007959833) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=183
+
+ Score = 143 bits (361),  Expect = 1e-43, Method: Compositional matrix adjust.
+ Identities = 91/180 (51%), Positives = 112/180 (62%), Gaps = 5/180 (3%)
+
+Query  1    MVVFPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDRGTDVDNTRGQAEEDE  60
+            MV  PGND D  D D +D           +D +  +A        G D+D      E DE
+Sbjct  1    MVDPPGNDXDHGDLDALDFSAAHTNEASPLDALDDYAPVQTDDAEG-DLDALHALTERDE  59
+
+Query  61   KQKEPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQK  120
+               EPE+ +FTVTNP  +VSVS LMDGRI HVEL+ + T MSE+Q+A EI V+ADLARQK
+Sbjct  60   ---EPELELFTVTNPQGSVSVSTLMDGRIQHVELTDKATSMSEAQLADEIFVIADLARQK  116
+
+Query  121  AQSAQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYS-DYC  179
+            A+++QYTF+++ + +L D D    ALLRE VG T NLP  E AA AEAEVFATRY  DY 
+Sbjct  117  ARASQYTFMVENIGELTDEDAEGSALLREFVGMTLNLPXXEXAAAAEAEVFATRYDVDYT  176
+
+
+>VFG031899(gb|WP_041300756) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium liflandii 128FXT]
+Length=186
+
+ Score = 127 bits (318),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 83/184 (45%), Positives = 114/184 (62%), Gaps = 9/184 (5%)
+
+Query  1    MVVFPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDR---GTDVDNTRGQAE  57
+            MV  PGND    D   +D  G G +    +  +  +A    PQ+    G D+D   G  E
+Sbjct  1    MVDLPGNDDYNQDLGALDFSGGGTSEDSGLGALDEYAPPE-PQETEQAGADLDALHGLTE  59
+
+Query  58   EDEKQKEPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLA  117
+               K+ EP++A+FTVTNP  +VSV+ +M G +  V ++ +   MSES +A EI V+ADLA
+Sbjct  60   ---KEDEPDIAMFTVTNPQGSVSVTTMMGGIVQRVTVTDKAANMSESALAEEIFVIADLA  116
+
+Query  118  RQKAQSAQYTFILDKL-SQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYS  176
+            RQKA++AQ+TF+++ + S+L+D  E   ALLRE VG T NLP+PE+A   EAEVFATRY 
+Sbjct  117  RQKARAAQHTFMVEAMASELSDETEEEGALLREFVGMTLNLPTPEEAEAGEAEVFATRYE  176
+
+Query  177  -DYC  179
+             DY 
+Sbjct  177  VDYT  180
+
+
+>VFG031892(gb|WP_012396942) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium marinum M]
+Length=185
+
+ Score = 125 bits (313),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 82/181 (45%), Positives = 113/181 (62%), Gaps = 9/181 (5%)
+
+Query  4    FPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDR---GTDVDNTRGQAEEDE  60
+             PGND    D   +D  G G +    +  +  +A    PQ+    G D+D   G  E   
+Sbjct  3    LPGNDDYNQDLGALDFSGGGTSEDSGLGALDEYAPPE-PQETEQAGADLDALHGLTE---  58
+
+Query  61   KQKEPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQK  120
+            K+ EP++A+FTVTNP  +VSV+ +M G +  V ++ +   MSES +A EI V+ADLARQK
+Sbjct  59   KEDEPDIAMFTVTNPQGSVSVTTMMGGIVQQVTVTDKAANMSESALAEEIFVIADLARQK  118
+
+Query  121  AQSAQYTFILDKL-SQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYS-DY  178
+            A++AQ+TF+++ + S+L+D  E   ALLRE VG T NLP+PE+A  AEAEVFATRY  DY
+Sbjct  119  ARAAQHTFMVEAMASELSDETEEEGALLREFVGMTLNLPTPEEAEAAEAEVFATRYEVDY  178
+
+Query  179  C  179
+             
+Sbjct  179  T  179
+
+
+>VFG031886(gb|WP_011742140) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium ulcerans Agy99]
+Length=199
+
+ Score = 120 bits (301),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 69/146 (47%), Positives = 98/146 (67%), Gaps = 6/146 (4%)
+
+Query  30   IDPIVGFASSSAPQDRGTDVDNTRGQAEEDEKQKEPEVAIFTVTNPPRTVSVSVLMDGRI  89
+            ID +  FA +  P++   D+      A++D   K  E  +FTVTNP  TVSVS ++ G+I
+Sbjct  28   IDALRAFAPTQ-PEEADVDLRALHKPAKDD---KAEECDLFTVTNPQGTVSVSAVLGGKI  83
+
+Query  90   DHVELSKRVTWMSESQVASEILVLADLARQKAQSAQYTFILDKLSQLADGDEHRVALLRE  149
+              VELS+ VT M+E  +A+EI V+ADLARQKA++AQ+T ++  +  + + ++HR A LRE
+Sbjct  84   RRVELSEEVTTMAEPNLAAEIYVIADLARQKARAAQHTLMVQSMKDI-ESEKHR-AKLRE  141
+
+Query  150  SVGNTWNLPSPEQAAEAEAEVFATRY  175
+             +G   NLP+PEQAA A+ EVFATRY
+Sbjct  142  FLGTMLNLPTPEQAAAAQKEVFATRY  167
+
+
+>VFG031882(gb|WP_011854169) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium sp. JLS]
+Length=166
+
+ Score = 104 bits (259),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 56/128 (44%), Positives = 79/128 (62%), Gaps = 7/128 (5%)
+
+Query  49   VDNTRGQAEEDEKQKEPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVAS  108
+            +D   G    DE + EP   +FTVTNPP TV+V+  +DGR+ H++LS R   MSE+++A 
+Sbjct  42   LDAFAGYGLSDEPEPEP---LFTVTNPPGTVTVTSYLDGRVQHIDLSPRAVHMSETELAE  98
+
+Query  109  EILVLADLARQKAQSAQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEA  168
+            EI+V+A LA Q A+SAQY F+LD + +      H     R+ +     LP+PE+A    A
+Sbjct  99   EIVVIAGLAAQDAKSAQYEFMLDGMREQG----HDDPATRDFLQRDLELPTPEEARAHRA  154
+
+Query  169  EVFATRYS  176
+            EVF TRY+
+Sbjct  155  EVFTTRYA  162
+
+
+>VFG031881(gb|WP_011726637) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=175
+
+ Score = 101 bits (252),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 50/117 (43%), Positives = 77/117 (66%), Gaps = 4/117 (3%)
+
+Query  60   EKQKEPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQ  119
+            + + E    +FTVTNPP TV+V+  +DGR+  + LS +V  M+E ++A EI V+ADLA +
+Sbjct  59   DGEDETPAPVFTVTNPPGTVTVAAYLDGRVHQIALSPKVVNMTERELADEIRVIADLAGE  118
+
+Query  120  KAQSAQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYS  176
+            +A+SAQY+F+L+ + +      H  A  R+ +    NLP+PEQA   +A+VF+TRY 
+Sbjct  119  QARSAQYSFMLEGMREHG----HDDAATRDFLTRDLNLPTPEQADANQAQVFSTRYG  171
+
+
+>VFG031883(gb|WP_011557491) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium sp. KMS]
+Length=168
+
+ Score = 100 bits (248),  Expect = 8e-27, Method: Compositional matrix adjust.
+ Identities = 50/108 (46%), Positives = 71/108 (66%), Gaps = 4/108 (4%)
+
+Query  69   IFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQKAQSAQYTF  128
+            +FTVTNPP TV+V+  +DGR+ H++LS R   MSE+++A EI+V+A LA Q A+SAQY F
+Sbjct  61   LFTVTNPPGTVTVTSYLDGRVQHIDLSPRAVHMSETELAEEIVVIAGLAAQDAKSAQYEF  120
+
+Query  129  ILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYS  176
+            +LD + +      H     R+ +     LP+PE+A    AEVF TRY+
+Sbjct  121  MLDGMREQG----HDDPATRDFLQRDLELPTPEEARAHRAEVFTTRYA  164
+
+
+>VFG031887(gb|WP_011777396) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium vanbaalenii PYR-1]
+Length=168
+
+ Score = 99.4 bits (246),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 52/123 (42%), Positives = 77/123 (63%), Gaps = 8/123 (7%)
+
+Query  54   GQAEEDEKQKEPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVL  113
+            G A +D+     E+ +FTVTNPP TV+V+  MDGR+  +EL+     + E+ +A EI+V+
+Sbjct  51   GSASDDDG----EMPMFTVTNPPGTVTVTTYMDGRVHQIELAPSAAALPEAVLADEIVVI  106
+
+Query  114  ADLARQKAQSAQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFAT  173
+            A LA Q A+SAQYTF+L+ + +      H     R+ +    +LP+PEQA  A AE+F T
+Sbjct  107  AGLATQDARSAQYTFMLEGMREHG----HDNVTTRDFLNRDLDLPTPEQARAARAELFTT  162
+
+Query  174  RYS  176
+            RY+
+Sbjct  163  RYA  165
+
+
+>VFG031894(gb|WP_013470299) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium gilvum Spyr1]
+Length=145
+
+ Score = 95.5 bits (236),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 51/111 (46%), Positives = 70/111 (63%), Gaps = 4/111 (4%)
+
+Query  66   EVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQKAQSAQ  125
+            E+ +FTVTNPP TVSV+  +DGR+  V LS+    +SE  +A EI+V+A LA Q A+SAQ
+Sbjct  36   EMPMFTVTNPPGTVSVTTWLDGRVRDVALSRHAAVLSEIALADEIVVIAGLATQDARSAQ  95
+
+Query  126  YTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYS  176
+            YT + D + +      H     R+ +    +LPSPEQA  A AE+F TRY+
+Sbjct  96   YTVMFDGMREHG----HDTVTTRDFLTRDLHLPSPEQARAARAELFTTRYA  142
+
+
+>VFG031880(gb|WP_011891680) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium gilvum PYR-GCK]
+Length=163
+
+ Score = 95.1 bits (235),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 49/108 (45%), Positives = 68/108 (63%), Gaps = 4/108 (4%)
+
+Query  69   IFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQKAQSAQYTF  128
+            +FTVTNPP TV+V+  +DGR+  V LS     +SE  +A EI+V+A LA Q A+SAQYT 
+Sbjct  57   MFTVTNPPGTVTVTTCLDGRVHDVALSHSAAVLSEIALADEIVVIAGLATQDARSAQYTV  116
+
+Query  129  ILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYS  176
+            +LD + +      H     R+ +    +LP+PEQA  A AE+F TRY+
+Sbjct  117  MLDGMREHG----HDTVTTRDFLTRDLHLPTPEQARAARAELFTTRYA  160
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.129    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1013467125
+
+
+Query= g3560.t1
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002392(gb|NP_218131) (espD) ESX-1 type VII secretion system Es...  370     4e-133
+VFG027983(gb|WP_015294552) (espD) ESX-1 type VII secretion system...  365     5e-131
+VFG027982(gb|WP_015291584) (espD) ESX-1 type VII secretion system...  335     2e-119
+VFG017732(gb|WP_172591946) (espD) ESX-1 type VII secretion system...  253     8e-87 
+VFG023194(gb|WP_010907713) (espD) ESX-1 type VII secretion system...  253     2e-86 
+VFG023189(gb|WP_172607302) (espD) ESX-1 type VII secretion system...  203     4e-67 
+VFG031877(gb|NP_218384) (espH) ESX-1 secretion-associated protein...  154     8e-48 
+VFG031897(gb|WP_015291789) (espH) ESX-1 secretion-associated prot...  154     9e-48 
+VFG031908(gb|YP_007959833) (espH) ESX-1 secretion-associated prot...  151     1e-46 
+VFG031899(gb|WP_041300756) (espH) ESX-1 secretion-associated prot...  132     2e-39 
+VFG031892(gb|WP_012396942) (espH) ESX-1 secretion-associated prot...  131     5e-39 
+VFG031886(gb|WP_011742140) (espH) ESX-1 secretion-associated prot...  119     3e-34 
+VFG031882(gb|WP_011854169) (espH) ESX-1 secretion-associated prot...  110     8e-31 
+VFG031883(gb|WP_011557491) (espH) ESX-1 secretion-associated prot...  108     3e-30 
+VFG031887(gb|WP_011777396) (espH) ESX-1 secretion-associated prot...  105     7e-29 
+VFG031881(gb|WP_011726637) (espH) ESX-1 secretion-associated prot...  102     2e-27 
+VFG031880(gb|WP_011891680) (espH) ESX-1 secretion-associated prot...  98.6    3e-26 
+VFG031894(gb|WP_013470299) (espH) ESX-1 secretion-associated prot...  97.4    5e-26 
+
+
+>VFG002392(gb|NP_218131) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=184
+
+ Score = 370 bits (949),  Expect = 4e-133, Method: Compositional matrix adjust.
+ Identities = 183/184 (99%), Positives = 184/184 (100%), Gaps = 0/184 (0%)
+
+Query  7    VDLPGNDFDSNDFDAVDLWGADGAEGWTADPIIGVGSAATPDTGPDLDNAHGQAETDTEQ  66
+            +DLPGNDFDSNDFDAVDLWGADGAEGWTADPIIGVGSAATPDTGPDLDNAHGQAETDTEQ
+Sbjct  1    MDLPGNDFDSNDFDAVDLWGADGAEGWTADPIIGVGSAATPDTGPDLDNAHGQAETDTEQ  60
+
+Query  67   EIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLARQKAQSAQ  126
+            EIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLARQKAQSAQ
+Sbjct  61   EIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLARQKAQSAQ  120
+
+Query  127  YAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDDCPAPDDE  186
+            YAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDDCPAPDDE
+Sbjct  121  YAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDDCPAPDDE  180
+
+Query  187  SDPW  190
+            SDPW
+Sbjct  181  SDPW  184
+
+
+>VFG027983(gb|WP_015294552) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium canettii CIPT 140070017]
+Length=184
+
+ Score = 365 bits (936),  Expect = 5e-131, Method: Compositional matrix adjust.
+ Identities = 180/184 (98%), Positives = 181/184 (98%), Gaps = 0/184 (0%)
+
+Query  7    VDLPGNDFDSNDFDAVDLWGADGAEGWTADPIIGVGSAATPDTGPDLDNAHGQAETDTEQ  66
+            +DLPGNDFDSNDFDAVDLWGADGAEGWTADPIIGV SA TPDTGPDLDNAHGQAETDTEQ
+Sbjct  1    MDLPGNDFDSNDFDAVDLWGADGAEGWTADPIIGVASAVTPDTGPDLDNAHGQAETDTEQ  60
+
+Query  67   EIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLARQKAQSAQ  126
+            EIALFTVTNPPRTVSVSTLMDGRIDHVELS RVAWMSESQLASEILVIADLARQKAQSAQ
+Sbjct  61   EIALFTVTNPPRTVSVSTLMDGRIDHVELSTRVAWMSESQLASEILVIADLARQKAQSAQ  120
+
+Query  127  YAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDDCPAPDDE  186
+            YAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDDCPAPDDE
+Sbjct  121  YAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDDCPAPDDE  180
+
+Query  187  SDPW  190
+            SDPW
+Sbjct  181  SDPW  184
+
+
+>VFG027982(gb|WP_015291584) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=184
+
+ Score = 335 bits (860),  Expect = 2e-119, Method: Compositional matrix adjust.
+ Identities = 175/184 (95%), Positives = 179/184 (97%), Gaps = 0/184 (0%)
+
+Query  7    VDLPGNDFDSNDFDAVDLWGADGAEGWTADPIIGVGSAATPDTGPDLDNAHGQAETDTEQ  66
+            +DLPGNDFDS+DFDAVDLWGADGAEGWTADPI+GV SAAT DT PD+DNAHGQAETDTEQ
+Sbjct  1    MDLPGNDFDSDDFDAVDLWGADGAEGWTADPIVGVASAATSDTRPDVDNAHGQAETDTEQ  60
+
+Query  67   EIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLARQKAQSAQ  126
+            EIALFTVTNPPRTVSVSTLMDGRIDHVELS RVAWMSESQLASEILVIADLARQKAQSAQ
+Sbjct  61   EIALFTVTNPPRTVSVSTLMDGRIDHVELSTRVAWMSESQLASEILVIADLARQKAQSAQ  120
+
+Query  127  YAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDDCPAPDDE  186
+            YAFILDRMSQQVDADE RVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDDCPAPDDE
+Sbjct  121  YAFILDRMSQQVDADEDRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDDCPAPDDE  180
+
+Query  187  SDPW  190
+            SDPW
+Sbjct  181  SDPW  184
+
+
+>VFG017732(gb|WP_172591946) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium leprae TN]
+Length=188
+
+ Score = 253 bits (646),  Expect = 8e-87, Method: Compositional matrix adjust.
+ Identities = 133/186 (72%), Positives = 149/186 (80%), Gaps = 4/186 (2%)
+
+Query  9    LPGNDFDSNDFDAVDLWGADGAEGWTADPIIGVGSAATP-DTGPDLDNAHGQAETDTEQ-  66
+             PGNDFD +D D VD WG  GA  WT DPI+G  S++ P D G D+DN  GQAE D +Q 
+Sbjct  3    FPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDRGTDVDNTRGQAEEDEKQK  62
+
+Query  67   --EIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLARQKAQS  124
+              E+A+FTVTNPPRTVSVS LMDGRIDHVELS RV WMSESQ+ASEILV+ADLARQKAQS
+Sbjct  63   EPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQKAQS  122
+
+Query  125  AQYAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDDCPAPD  184
+            AQY FILD++SQ  D DEHRVALLR++VG TW LPSPE+AA AEAEVFATRYSD CPA D
+Sbjct  123  AQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYSDYCPAQD  182
+
+Query  185  DESDPW  190
+             E+D W
+Sbjct  183  TENDQW  188
+
+
+>VFG023194(gb|WP_010907713) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium leprae Br4923]
+Length=216
+
+ Score = 253 bits (646),  Expect = 2e-86, Method: Compositional matrix adjust.
+ Identities = 134/189 (71%), Positives = 150/189 (79%), Gaps = 4/189 (2%)
+
+Query  6    TVDLPGNDFDSNDFDAVDLWGADGAEGWTADPIIGVGSAATP-DTGPDLDNAHGQAETDT  64
+             V  PGNDFD +D D VD WG  GA  WT DPI+G  S++ P D G D+DN  GQAE D 
+Sbjct  28   VVVFPGNDFDRDDCDTVDPWGVGGAAHWTIDPIVGFASSSAPQDRGTDVDNTRGQAEEDE  87
+
+Query  65   EQ---EIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLARQK  121
+            +Q   E+A+FTVTNPPRTVSVS LMDGRIDHVELS RV WMSESQ+ASEILV+ADLARQK
+Sbjct  88   KQKEPEVAIFTVTNPPRTVSVSVLMDGRIDHVELSKRVTWMSESQVASEILVLADLARQK  147
+
+Query  122  AQSAQYAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDDCP  181
+            AQSAQY FILD++SQ  D DEHRVALLR++VG TW LPSPE+AA AEAEVFATRYSD CP
+Sbjct  148  AQSAQYTFILDKLSQLADGDEHRVALLRESVGNTWNLPSPEQAAEAEAEVFATRYSDYCP  207
+
+Query  182  APDDESDPW  190
+            A D E+D W
+Sbjct  208  AQDTENDQW  216
+
+
+>VFG023189(gb|WP_172607302) (espD) ESX-1 type VII secretion system 
+EspD [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium marinum M]
+Length=187
+
+ Score = 203 bits (516),  Expect = 4e-67, Method: Compositional matrix adjust.
+ Identities = 113/182 (62%), Positives = 136/182 (75%), Gaps = 0/182 (0%)
+
+Query  7    VDLPGNDFDSNDFDAVDLWGADGAEGWTADPIIGVGSAATPDTGPDLDNAHGQAETDTEQ  66
+            ++LPGNDFDS+DFDAVDLW  DG + WTADPI+G   A   D+    D++    E   E 
+Sbjct  1    MNLPGNDFDSDDFDAVDLWDPDGKQRWTADPIVGFAGAGAQDSEASADDSPAPQEQPEED  60
+
+Query  67   EIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLARQKAQSAQ  126
+            EIA+FTVTNP  +V+VS LMDGR + +ELS +VA MSESQLASEILV+ADLARQKAQ+AQ
+Sbjct  61   EIAVFTVTNPQGSVAVSALMDGRTEDIELSKKVARMSESQLASEILVLADLARQKAQAAQ  120
+
+Query  127  YAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDDCPAPDDE  186
+            YAFIL++++   D D+ RV  L+  VG TW LPSPEEAAAAEAEVFATRY DD  A D  
+Sbjct  121  YAFILNKLTHAADGDQQRVQQLQDFVGNTWSLPSPEEAAAAEAEVFATRYGDDRSAHDSA  180
+
+Query  187  SD  188
+            S+
+Sbjct  181  SE  182
+
+
+>VFG031877(gb|NP_218384) (espH) ESX-1 secretion-associated protein 
+EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=183
+
+ Score = 154 bits (388),  Expect = 8e-48, Method: Compositional matrix adjust.
+ Identities = 94/170 (55%), Positives = 111/170 (65%), Gaps = 0/170 (0%)
+
+Query  7    VDLPGNDFDSNDFDAVDLWGADGAEGWTADPIIGVGSAATPDTGPDLDNAHGQAETDTEQ  66
+            VD PGND D  D DA+D   A   E    D +       T D   DLD  H   E D E 
+Sbjct  2    VDPPGNDDDHGDLDALDFSAAHTNEASPLDALDDYAPVQTDDAEGDLDALHALTERDEEP  61
+
+Query  67   EIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLARQKAQSAQ  126
+            E+ LFTVTNP  +VSVSTLMDGRI HVEL+ +   MSE+QLA EI VIADLARQKA+++Q
+Sbjct  62   ELELFTVTNPQGSVSVSTLMDGRIQHVELTDKATSMSEAQLADEIFVIADLARQKARASQ  121
+
+Query  127  YAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRY  176
+            Y F+++ + +  D D    ALLR+ VG T  LP+PEEAAAAEAEVFATRY
+Sbjct  122  YTFMVENIGELTDEDAEGSALLREFVGMTLNLPTPEEAAAAEAEVFATRY  171
+
+
+>VFG031897(gb|WP_015291789) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=183
+
+ Score = 154 bits (388),  Expect = 9e-48, Method: Compositional matrix adjust.
+ Identities = 94/170 (55%), Positives = 111/170 (65%), Gaps = 0/170 (0%)
+
+Query  7    VDLPGNDFDSNDFDAVDLWGADGAEGWTADPIIGVGSAATPDTGPDLDNAHGQAETDTEQ  66
+            VD PGND D  D DA+D   A   E    D +       T D   DLD  H   E D E 
+Sbjct  2    VDPPGNDDDHGDLDALDFSAAHTNEASPLDALDDYAPVPTDDAEGDLDALHALTERDEEP  61
+
+Query  67   EIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLARQKAQSAQ  126
+            E+ LFTVTNP  +VSVSTLMDGRI HVEL+ +   MSE+QLA EI VIADLARQKA+++Q
+Sbjct  62   ELELFTVTNPQGSVSVSTLMDGRIQHVELTDKATSMSEAQLADEIFVIADLARQKARASQ  121
+
+Query  127  YAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRY  176
+            Y F+++ + +  D D    ALLR+ VG T  LP+PEEAAAAEAEVFATRY
+Sbjct  122  YTFMVENIGELTDEDAEGSALLREFVGMTLNLPTPEEAAAAEAEVFATRY  171
+
+
+>VFG031908(gb|YP_007959833) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=183
+
+ Score = 151 bits (381),  Expect = 1e-46, Method: Compositional matrix adjust.
+ Identities = 92/170 (54%), Positives = 108/170 (64%), Gaps = 0/170 (0%)
+
+Query  7    VDLPGNDFDSNDFDAVDLWGADGAEGWTADPIIGVGSAATPDTGPDLDNAHGQAETDTEQ  66
+            VD PGND D  D DA+D   A   E    D +       T D   DLD  H   E D E 
+Sbjct  2    VDPPGNDXDHGDLDALDFSAAHTNEASPLDALDDYAPVQTDDAEGDLDALHALTERDEEP  61
+
+Query  67   EIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLARQKAQSAQ  126
+            E+ LFTVTNP  +VSVSTLMDGRI HVEL+ +   MSE+QLA EI VIADLARQKA+++Q
+Sbjct  62   ELELFTVTNPQGSVSVSTLMDGRIQHVELTDKATSMSEAQLADEIFVIADLARQKARASQ  121
+
+Query  127  YAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRY  176
+            Y F+++ + +  D D    ALLR+ VG T  LP  E AAAAEAEVFATRY
+Sbjct  122  YTFMVENIGELTDEDAEGSALLREFVGMTLNLPXXEXAAAAEAEVFATRY  171
+
+
+>VFG031899(gb|WP_041300756) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium liflandii 128FXT]
+Length=186
+
+ Score = 132 bits (333),  Expect = 2e-39, Method: Compositional matrix adjust.
+ Identities = 87/181 (48%), Positives = 112/181 (62%), Gaps = 12/181 (7%)
+
+Query  7    VDLPGNDFDSNDFDAVDLWGADGAEGWTADPIIGVGSAATP-------DTGPDLDNAHGQ  59
+            VDLPGND  + D  A+D  G     G + D  +G      P         G DLD  HG 
+Sbjct  2    VDLPGNDDYNQDLGALDFSGG----GTSEDSGLGALDEYAPPEPQETEQAGADLDALHGL  57
+
+Query  60   AETDTEQEIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLAR  119
+             E + E +IA+FTVTNP  +VSV+T+M G +  V ++ + A MSES LA EI VIADLAR
+Sbjct  58   TEKEDEPDIAMFTVTNPQGSVSVTTMMGGIVQRVTVTDKAANMSESALAEEIFVIADLAR  117
+
+Query  120  QKAQSAQYAFILDRMSQQV-DADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSD  178
+            QKA++AQ+ F+++ M+ ++ D  E   ALLR+ VG T  LP+PEEA A EAEVFATRY  
+Sbjct  118  QKARAAQHTFMVEAMASELSDETEEEGALLREFVGMTLNLPTPEEAEAGEAEVFATRYEV  177
+
+Query  179  D  179
+            D
+Sbjct  178  D  178
+
+
+>VFG031892(gb|WP_012396942) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium marinum M]
+Length=185
+
+ Score = 131 bits (330),  Expect = 5e-39, Method: Compositional matrix adjust.
+ Identities = 87/181 (48%), Positives = 113/181 (62%), Gaps = 12/181 (7%)
+
+Query  7    VDLPGNDFDSNDFDAVDLWGADGAEGWTADPIIGVGSAATP-------DTGPDLDNAHGQ  59
+            +DLPGND  + D  A+D  G     G + D  +G      P         G DLD  HG 
+Sbjct  1    MDLPGNDDYNQDLGALDFSGG----GTSEDSGLGALDEYAPPEPQETEQAGADLDALHGL  56
+
+Query  60   AETDTEQEIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLAR  119
+             E + E +IA+FTVTNP  +VSV+T+M G +  V ++ + A MSES LA EI VIADLAR
+Sbjct  57   TEKEDEPDIAMFTVTNPQGSVSVTTMMGGIVQQVTVTDKAANMSESALAEEIFVIADLAR  116
+
+Query  120  QKAQSAQYAFILDRMSQQV-DADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSD  178
+            QKA++AQ+ F+++ M+ ++ D  E   ALLR+ VG T  LP+PEEA AAEAEVFATRY  
+Sbjct  117  QKARAAQHTFMVEAMASELSDETEEEGALLREFVGMTLNLPTPEEAEAAEAEVFATRYEV  176
+
+Query  179  D  179
+            D
+Sbjct  177  D  177
+
+
+>VFG031886(gb|WP_011742140) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium ulcerans Agy99]
+Length=199
+
+ Score = 119 bits (299),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 65/125 (52%), Positives = 88/125 (70%), Gaps = 2/125 (2%)
+
+Query  52   DLDNAHGQAETDTEQEIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEI  111
+            DL   H  A+ D  +E  LFTVTNP  TVSVS ++ G+I  VELS  V  M+E  LA+EI
+Sbjct  45   DLRALHKPAKDDKAEECDLFTVTNPQGTVSVSAVLGGKIRRVELSEEVTTMAEPNLAAEI  104
+
+Query  112  LVIADLARQKAQSAQYAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEV  171
+             VIADLARQKA++AQ+  ++  M + +++++HR A LR+ +G    LP+PE+AAAA+ EV
+Sbjct  105  YVIADLARQKARAAQHTLMVQSM-KDIESEKHR-AKLREFLGTMLNLPTPEQAAAAQKEV  162
+
+Query  172  FATRY  176
+            FATRY
+Sbjct  163  FATRY  167
+
+
+>VFG031882(gb|WP_011854169) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium sp. JLS]
+Length=166
+
+ Score = 110 bits (274),  Expect = 8e-31, Method: Compositional matrix adjust.
+ Identities = 61/125 (49%), Positives = 81/125 (65%), Gaps = 4/125 (3%)
+
+Query  53   LDNAHGQAETDTEQEIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEIL  112
+            LD   G   +D  +   LFTVTNPP TV+V++ +DGR+ H++LS R   MSE++LA EI+
+Sbjct  42   LDAFAGYGLSDEPEPEPLFTVTNPPGTVTVTSYLDGRVQHIDLSPRAVHMSETELAEEIV  101
+
+Query  113  VIADLARQKAQSAQYAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVF  172
+            VIA LA Q A+SAQY F+LD M +Q   D      L++ +     LP+PEEA A  AEVF
+Sbjct  102  VIAGLAAQDAKSAQYEFMLDGMREQGHDDPATRDFLQRDL----ELPTPEEARAHRAEVF  157
+
+Query  173  ATRYS  177
+             TRY+
+Sbjct  158  TTRYA  162
+
+
+>VFG031883(gb|WP_011557491) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium sp. KMS]
+Length=168
+
+ Score = 108 bits (270),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 58/122 (48%), Positives = 80/122 (66%), Gaps = 4/122 (3%)
+
+Query  56   AHGQAETDTEQEIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIA  115
+             +G ++    +   LFTVTNPP TV+V++ +DGR+ H++LS R   MSE++LA EI+VIA
+Sbjct  47   GYGLSDEPEPEPEPLFTVTNPPGTVTVTSYLDGRVQHIDLSPRAVHMSETELAEEIVVIA  106
+
+Query  116  DLARQKAQSAQYAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATR  175
+             LA Q A+SAQY F+LD M +Q   D      L++ +     LP+PEEA A  AEVF TR
+Sbjct  107  GLAAQDAKSAQYEFMLDGMREQGHDDPATRDFLQRDL----ELPTPEEARAHRAEVFTTR  162
+
+Query  176  YS  177
+            Y+
+Sbjct  163  YA  164
+
+
+>VFG031887(gb|WP_011777396) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium vanbaalenii PYR-1]
+Length=168
+
+ Score = 105 bits (261),  Expect = 7e-29, Method: Compositional matrix adjust.
+ Identities = 55/118 (47%), Positives = 76/118 (64%), Gaps = 4/118 (3%)
+
+Query  62   TDTEQEIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLARQK  121
+            +D + E+ +FTVTNPP TV+V+T MDGR+  +EL+   A + E+ LA EI+VIA LA Q 
+Sbjct  54   SDDDGEMPMFTVTNPPGTVTVTTYMDGRVHQIELAPSAAALPEAVLADEIVVIAGLATQD  113
+
+Query  122  AQSAQYAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDD  179
+            A+SAQY F+L+ M +      H     R  +     LP+PE+A AA AE+F TRY+ D
+Sbjct  114  ARSAQYTFMLEGMREH----GHDNVTTRDFLNRDLDLPTPEQARAARAELFTTRYAGD  167
+
+
+>VFG031881(gb|WP_011726637) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=175
+
+ Score = 102 bits (253),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 52/110 (47%), Positives = 74/110 (67%), Gaps = 4/110 (4%)
+
+Query  70   LFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLARQKAQSAQYAF  129
+            +FTVTNPP TV+V+  +DGR+  + LS +V  M+E +LA EI VIADLA ++A+SAQY+F
+Sbjct  68   VFTVTNPPGTVTVAAYLDGRVHQIALSPKVVNMTERELADEIRVIADLAGEQARSAQYSF  127
+
+Query  130  ILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYSDD  179
+            +L+ M +      H  A  R  +     LP+PE+A A +A+VF+TRY  D
+Sbjct  128  MLEGMREH----GHDDAATRDFLTRDLNLPTPEQADANQAQVFSTRYGGD  173
+
+
+>VFG031880(gb|WP_011891680) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium gilvum PYR-GCK]
+Length=163
+
+ Score = 98.6 bits (244),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 53/111 (48%), Positives = 70/111 (63%), Gaps = 4/111 (4%)
+
+Query  67   EIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLARQKAQSAQ  126
+            ++ +FTVTNPP TV+V+T +DGR+  V LS   A +SE  LA EI+VIA LA Q A+SAQ
+Sbjct  54   KMPMFTVTNPPGTVTVTTCLDGRVHDVALSHSAAVLSEIALADEIVVIAGLATQDARSAQ  113
+
+Query  127  YAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYS  177
+            Y  +LD M +      H     R  +     LP+PE+A AA AE+F TRY+
+Sbjct  114  YTVMLDGMREH----GHDTVTTRDFLTRDLHLPTPEQARAARAELFTTRYA  160
+
+
+>VFG031894(gb|WP_013470299) (espH) ESX-1 secretion-associated 
+protein EspH [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium gilvum Spyr1]
+Length=145
+
+ Score = 97.4 bits (241),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 55/111 (50%), Positives = 69/111 (62%), Gaps = 4/111 (4%)
+
+Query  67   EIALFTVTNPPRTVSVSTLMDGRIDHVELSARVAWMSESQLASEILVIADLARQKAQSAQ  126
+            E+ +FTVTNPP TVSV+T +DGR+  V LS   A +SE  LA EI+VIA LA Q A+SAQ
+Sbjct  36   EMPMFTVTNPPGTVSVTTWLDGRVRDVALSRHAAVLSEIALADEIVVIAGLATQDARSAQ  95
+
+Query  127  YAFILDRMSQQVDADEHRVALLRKTVGETWGLPSPEEAAAAEAEVFATRYS  177
+            Y  + D M +      H     R  +     LPSPE+A AA AE+F TRY+
+Sbjct  96   YTVMFDGMREH----GHDTVTTRDFLTRDLHLPSPEQARAARAELFTTRYA  142
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.128    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1024135200
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

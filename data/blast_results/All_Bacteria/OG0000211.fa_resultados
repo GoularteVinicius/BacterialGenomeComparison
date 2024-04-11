@@ -1,0 +1,417 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g313.t1
+
+Length=208
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1202330509
+
+
+Query= g1217.t1
+
+Length=205
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1170410230
+
+
+Query= g2458.t1
+
+Length=226
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG050151(gb|WP_001007273) (dhbB) isochorismatase, DhbB [Bacillib...  52.4    5e-08
+VFG050033(gb|WP_001007276) (dhbB) isochorismatase, DhbB [Bacillib...  50.8    2e-07
+VFG050024(gb|WP_001007279) (dhbB) isochorismatase, DhbB [Bacillib...  50.4    2e-07
+VFG050029(gb|WP_001007274) (dhbB) isochorismatase, DhbB [Bacillib...  50.1    2e-07
+VFG018293(gb|WP_004689940) (dhbB) isochorismatase [Brucebactin (V...  49.7    3e-07
+VFG011614(gb|WP_006191557) (dhbB) isochorismatase [Brucebactin (V...  49.7    4e-07
+VFG011611(gb|WP_002967157) (dhbB) isochorismatase [Brucebactin (V...  49.7    4e-07
+VFG019336(gb|WP_004685888) (dhbB) isochorismatase [Brucebactin (V...  49.3    5e-07
+VFG050153(gb|WP_001007245) (dhbB) isochorismatase, DhbB [Bacillib...  48.9    6e-07
+
+
+>VFG050151(gb|WP_001007273) (dhbB) isochorismatase, DhbB [Bacillibactin 
+(VF0586) - Nutritional/Metabolic factor (VFC0272)] 
+[Bacillus cereus biovar anthracis str. CI]
+Length=295
+
+ Score = 52.4 bits (124),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 59/244 (24%), Positives = 91/244 (37%), Gaps = 29/244 (12%)
+
+Query  4    PANFNGQTPKIDPANAAMLLIDHQSGLFQ--TVKDMPMTELRANATTLAKVATLAKIPVI  61
+            P N    TP  DP  A +L+ D Q       + K+ P  EL +N   + +      IPV+
+Sbjct  18   PKNKVNWTP--DPKRAVLLIHDMQEYFLDAYSDKESPKVELISNIKMIREKCNDLGIPVV  75
+
+Query  62   TTA-------------------SVPQGPNGPLIPEIHEAAPHAQYV-ARKGEINAWDNPE  101
+             TA                    +P GP+   I  + E  P    +   K   +A+    
+Sbjct  76   YTAQPGGQTLEQRGLLQDFWGDGIPAGPDKKKI--VDELTPDEDDIFLTKWRYSAFKKTN  133
+
+Query  102  FVAAVKATGKKQLIIAGTITSVCMAFPSIAAVHDGYQVFAVIDASGTYSKMAQEITLARV  161
+             +  +   G+ QLII G    +     +  A  DG Q F V DA   +S    +  L   
+Sbjct  134  LLEILNEQGRDQLIICGIYAHIGCLLTACEAFMDGIQPFFVADAVADFSLEHHKQALEYA  193
+
+Query  162  VQAGVVPMDTAAVCSEIQRTWNRDDAVQFAEAYSAVFPHYQLLIESYAKAQAVVNNHEQL  221
+                 V   T ++ +E+Q     DD +   E +  V    +  +ES    + ++N    L
+Sbjct  194  SNRCAVTTSTNSLLTELQGL-KEDDEITLREVHELVAQLLREPVESVETDEDLLNRG--L  250
+
+Query  222  DSQR  225
+            DS R
+Sbjct  251  DSVR  254
+
+
+>VFG050033(gb|WP_001007276) (dhbB) isochorismatase, DhbB [Bacillibactin 
+(VF0586) - Nutritional/Metabolic factor (VFC0272)] 
+[Bacillus thuringiensis serovar konkukian str. 97-27]
+Length=295
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 58/244 (24%), Positives = 92/244 (38%), Gaps = 29/244 (12%)
+
+Query  4    PANFNGQTPKIDPANAAMLLIDHQSGLFQ--TVKDMPMTELRANATTLAKVATLAKIPVI  61
+            P N    TP  DP  A +L+ D Q       + K+ P  EL +N   + +      IPV+
+Sbjct  18   PKNKVNWTP--DPKRAVLLIHDMQEYFLDAYSDKESPKVELISNIKMIREKCNNLGIPVV  75
+
+Query  62   TTA-------------------SVPQGPNGPLIPEIHEAAPHAQYV-ARKGEINAWDNPE  101
+             TA                    +P GP+   I  + E  P+   +   K   +A+    
+Sbjct  76   YTAQPGGQTLEQRGLLQDFWGDGIPAGPDKKKI--VDELTPNEDDIFLTKWRYSAFKKTN  133
+
+Query  102  FVAAVKATGKKQLIIAGTITSVCMAFPSIAAVHDGYQVFAVIDASGTYSKMAQEITLARV  161
+             +  +   G+ QLII G    +     +  A  DG Q F V DA   +S    +  L   
+Sbjct  134  LLEILNEQGRDQLIICGIYAHIGCLLTACEAFMDGIQPFFVADAVADFSLEHHKQALEYA  193
+
+Query  162  VQAGVVPMDTAAVCSEIQRTWNRDDAVQFAEAYSAVFPHYQLLIESYAKAQAVVNNHEQL  221
+                 V   T ++ +E+Q     DD +   + +  V    +  +ES    + ++N    L
+Sbjct  194  SNRCAVTTSTNSLLTELQGL-KDDDEITLQKVHELVAQLLREPVESVGTDEDLLNRG--L  250
+
+Query  222  DSQR  225
+            DS R
+Sbjct  251  DSVR  254
+
+
+>VFG050024(gb|WP_001007279) (dhbB) isochorismatase, DhbB [Bacillibactin 
+(VF0586) - Nutritional/Metabolic factor (VFC0272)] 
+[Bacillus anthracis str. Ames]
+Length=295
+
+ Score = 50.4 bits (119),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 58/244 (24%), Positives = 91/244 (37%), Gaps = 29/244 (12%)
+
+Query  4    PANFNGQTPKIDPANAAMLLIDHQSGLFQ--TVKDMPMTELRANATTLAKVATLAKIPVI  61
+            P N    TP  DP  A +L+ D Q       + K+ P  EL +N   + +      IPV+
+Sbjct  18   PKNKVNWTP--DPKRAVLLIHDMQEYFLDAYSDKESPKVELISNIKVIREKCKELGIPVV  75
+
+Query  62   TTA-------------------SVPQGPNGPLIPEIHEAAPHAQYV-ARKGEINAWDNPE  101
+             TA                    +P GP+   I  + E  P    +   K   +A+    
+Sbjct  76   YTAQPGGQTLEQRGLLQDFWGDGIPAGPDKKKI--VDELTPDEDDIFLTKWRYSAFKKTN  133
+
+Query  102  FVAAVKATGKKQLIIAGTITSVCMAFPSIAAVHDGYQVFAVIDASGTYSKMAQEITLARV  161
+             +  +   G+ QLII G    +     +  A  DG Q F V DA   +S    +  L   
+Sbjct  134  LLEILNEQGRDQLIICGIYAHIGCLLTACEAFMDGIQPFFVADAVADFSLEHHKQALEYA  193
+
+Query  162  VQAGVVPMDTAAVCSEIQRTWNRDDAVQFAEAYSAVFPHYQLLIESYAKAQAVVNNHEQL  221
+                 V   T ++ +E+Q     DD +   + +  V    +  +ES    + ++N    L
+Sbjct  194  SNRCAVTTSTNSLLTELQGL-KDDDEITLQKVHELVAQLLREPVESVGTDEDLLNRG--L  250
+
+Query  222  DSQR  225
+            DS R
+Sbjct  251  DSVR  254
+
+
+>VFG050029(gb|WP_001007274) (dhbB) isochorismatase, DhbB [Bacillibactin 
+(VF0586) - Nutritional/Metabolic factor (VFC0272)] 
+[Bacillus cereus E33L]
+Length=295
+
+ Score = 50.1 bits (118),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 58/244 (24%), Positives = 91/244 (37%), Gaps = 29/244 (12%)
+
+Query  4    PANFNGQTPKIDPANAAMLLIDHQSGLFQ--TVKDMPMTELRANATTLAKVATLAKIPVI  61
+            P N    TP  DP  A +L+ D Q       + K+ P  EL +N   + +      IPV+
+Sbjct  18   PKNKVNWTP--DPKRAVLLIHDMQEYFLDAYSDKESPKVELISNIKMIREKCNNLGIPVV  75
+
+Query  62   TTA-------------------SVPQGPNGPLIPEIHEAAPHAQYV-ARKGEINAWDNPE  101
+             TA                    +P GP+   I  + E  P    +   K   +A+    
+Sbjct  76   YTAQPGGQTLEQRGLLQDFWGDGIPAGPDKKKI--VDELTPDEDDIFLTKWRYSAFKKTN  133
+
+Query  102  FVAAVKATGKKQLIIAGTITSVCMAFPSIAAVHDGYQVFAVIDASGTYSKMAQEITLARV  161
+             +  +   G+ QLII G    +     +  A  DG Q F V DA   +S    +  L   
+Sbjct  134  LLEILNEQGRDQLIICGIYAHIGCLLTACEAFMDGIQPFFVADAVADFSLEHHKQALEYA  193
+
+Query  162  VQAGVVPMDTAAVCSEIQRTWNRDDAVQFAEAYSAVFPHYQLLIESYAKAQAVVNNHEQL  221
+                 V   T ++ +E+Q     DD +   + +  V    +  +ES    + ++N    L
+Sbjct  194  SNRCAVTTSTNSLLTELQGL-KDDDEITLQKVHELVAQLLREPVESVGTDEDLLNRG--L  250
+
+Query  222  DSQR  225
+            DS R
+Sbjct  251  DSVR  254
+
+
+>VFG018293(gb|WP_004689940) (dhbB) isochorismatase [Brucebactin 
+(VF0692) - Nutritional/Metabolic factor (VFC0272)] [Brucella 
+canis ATCC 23365]
+Length=290
+
+ Score = 49.7 bits (117),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 55/227 (24%), Positives = 86/227 (38%), Gaps = 27/227 (12%)
+
+Query  4    PANFNGQTPKIDPANAAMLLIDHQSGL--FQTVKDMPMTELRANATTLAKVATLAKIPVI  61
+            PAN     P  DPA A +L+ D Q     F       M +L  N   L   A    +PV+
+Sbjct  18   PANKTNWQP--DPARAVLLIHDMQRYFLRFYDANGPLMGDLIGNLVRLRNWAHKNGVPVV  75
+
+Query  62   TTASVPQGPNGPLI-------PEIHEAAPHAQYVARK------------GEINAWDNPEF  102
+             TA   + P G          P +  AAP  Q +  K               +A+   + 
+Sbjct  76   YTAQPHEQPAGDRALLNDMWGPGLPAAAPEQQLIVDKLTPGATDTVLAKWRYSAFQRSDL  135
+
+Query  103  VAAVKATGKKQLIIAGTITSVCMAFPSIAAVHDGYQVFAVIDASGTYSKMAQEITLARVV  162
+            +  +K   + QLII G    +     +I A  +  Q F V DA   +S+    + L  V 
+Sbjct  136  LQRMKDWNRDQLIIGGIYAHIGCMVTAIDAFMNDIQPFMVGDAVADFSEEEHRLALKYVA  195
+
+Query  163  QAGVVPMDTAAV----CSEIQRTWNRDDAVQFAEAYSAVFPHYQLLI  205
+                  +DTA++     +E  R W +   ++  E  + + P   L++
+Sbjct  196  TRCGAVIDTASLIRKPATETTRDWLQKRVLELIEDETELDPQENLIL  242
+
+
+>VFG011614(gb|WP_006191557) (dhbB) isochorismatase [Brucebactin 
+(VF0692) - Nutritional/Metabolic factor (VFC0272)] [Brucella 
+suis 1330]
+Length=290
+
+ Score = 49.7 bits (117),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 55/227 (24%), Positives = 86/227 (38%), Gaps = 27/227 (12%)
+
+Query  4    PANFNGQTPKIDPANAAMLLIDHQSGL--FQTVKDMPMTELRANATTLAKVATLAKIPVI  61
+            PAN     P  DPA A +L+ D Q     F       M +L  N   L   A    +PV+
+Sbjct  18   PANKTNWQP--DPARAVLLIHDMQRYFLRFYDANGPLMGDLIGNLVRLRNWAHKNGVPVV  75
+
+Query  62   TTASVPQGPNGPLI-------PEIHEAAPHAQYVARK------------GEINAWDNPEF  102
+             TA   + P G          P +  AAP  Q +  K               +A+   + 
+Sbjct  76   YTAQPHEQPAGDRALLNDMWGPGLPAAAPEQQLIVDKLTPGATDTVLAKWRYSAFQRSDL  135
+
+Query  103  VAAVKATGKKQLIIAGTITSVCMAFPSIAAVHDGYQVFAVIDASGTYSKMAQEITLARVV  162
+            +  +K   + QLII G    +     +I A  +  Q F V DA   +S+    + L  V 
+Sbjct  136  LQRMKDWNRDQLIIGGIYAHIGCMVTAIDAFMNDIQPFMVGDAVADFSEEEHRLALKYVA  195
+
+Query  163  QAGVVPMDTAAV----CSEIQRTWNRDDAVQFAEAYSAVFPHYQLLI  205
+                  +DTA++     +E  R W +   ++  E  + + P   L++
+Sbjct  196  TRCGAVIDTASLIRKPATETTRDWLQKRVLELIEDETELDPQENLIL  242
+
+
+>VFG011611(gb|WP_002967157) (dhbB) isochorismatase [Brucebactin 
+(VF0692) - Nutritional/Metabolic factor (VFC0272)] [Brucella 
+melitensis bv. 1 str. 16M]
+Length=290
+
+ Score = 49.7 bits (117),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 55/227 (24%), Positives = 86/227 (38%), Gaps = 27/227 (12%)
+
+Query  4    PANFNGQTPKIDPANAAMLLIDHQSGL--FQTVKDMPMTELRANATTLAKVATLAKIPVI  61
+            PAN     P  DPA A +L+ D Q     F       M +L  N   L   A    +PV+
+Sbjct  18   PANKTNWQP--DPARAVLLIHDMQRYFLRFYDANGPLMGDLIGNLVRLRNWAHENGVPVV  75
+
+Query  62   TTASVPQGPNGPLI-------PEIHEAAPHAQYVARK------------GEINAWDNPEF  102
+             TA   + P G          P +  AAP  Q +  K               +A+   + 
+Sbjct  76   YTAQPHEQPAGDRALLNDMWGPGLPAAAPEQQLIVDKLTPGATDTVLAKWRYSAFQRSDL  135
+
+Query  103  VAAVKATGKKQLIIAGTITSVCMAFPSIAAVHDGYQVFAVIDASGTYSKMAQEITLARVV  162
+            +  +K   + QLII G    +     +I A  +  Q F V DA   +S+    + L  V 
+Sbjct  136  LQRMKDWNRDQLIIGGIYAHIGCMVTAIDAFMNDIQPFMVGDAVADFSEEEHRLALKYVA  195
+
+Query  163  QAGVVPMDTAAV----CSEIQRTWNRDDAVQFAEAYSAVFPHYQLLI  205
+                  +DTA++     +E  R W +   ++  E  + + P   L++
+Sbjct  196  TRCGAVIDTASLIRKPATETTRDWLQKRVLELIEDETELDPQENLIL  242
+
+
+>VFG019336(gb|WP_004685888) (dhbB) isochorismatase [Brucebactin 
+(VF0692) - Nutritional/Metabolic factor (VFC0272)] [Brucella 
+melitensis ATCC 23457]
+Length=290
+
+ Score = 49.3 bits (116),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 55/227 (24%), Positives = 86/227 (38%), Gaps = 27/227 (12%)
+
+Query  4    PANFNGQTPKIDPANAAMLLIDHQSGL--FQTVKDMPMTELRANATTLAKVATLAKIPVI  61
+            PAN     P  DPA A +L+ D Q     F       M +L  N   L   A    +PV+
+Sbjct  18   PANKTNWQP--DPARAVLLIHDMQRYFLRFYDANGPLMGDLIGNLVRLRNWAHENGVPVV  75
+
+Query  62   TTASVPQGP-------NGPLIPEIHEAAPHAQYVARK------------GEINAWDNPEF  102
+             TA   + P       N    P +  AAP  Q +  K               +A+   + 
+Sbjct  76   YTAQPHEQPAGYRALLNDMWGPGLPAAAPEQQLIVDKLTPGATDTVLAKWRYSAFQRSDL  135
+
+Query  103  VAAVKATGKKQLIIAGTITSVCMAFPSIAAVHDGYQVFAVIDASGTYSKMAQEITLARVV  162
+            +  +K   + QLII G    +     +I A  +  Q F V DA   +S+    + L  V 
+Sbjct  136  LQRMKDWNRDQLIIGGIYAHIGCMVTAIDAFMNDIQPFMVGDAVADFSEEEHRLALKYVA  195
+
+Query  163  QAGVVPMDTAAV----CSEIQRTWNRDDAVQFAEAYSAVFPHYQLLI  205
+                  +DTA++     +E  R W +   ++  E  + + P   L++
+Sbjct  196  TRCGAVIDTASLIRKPATETTRDWLQKRVLELIEDETELDPQENLIL  242
+
+
+>VFG050153(gb|WP_001007245) (dhbB) isochorismatase, DhbB [Bacillibactin 
+(VF0586) - Nutritional/Metabolic factor (VFC0272)] 
+[Bacillus cereus AH187]
+Length=295
+
+ Score = 48.9 bits (115),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 55/235 (23%), Positives = 88/235 (37%), Gaps = 27/235 (11%)
+
+Query  13   KIDPANAAMLLIDHQSGLFQ--TVKDMPMTELRANATTLAKVATLAKIPVITTA------  64
+            K DP  A +L+ D Q       + K+ P  EL +N   + +      IPV+ TA      
+Sbjct  25   KPDPKRAVLLIHDMQEYFLDAYSDKESPKVELISNIKVIREKCKELGIPVVYTAQPGGQT  84
+
+Query  65   -------------SVPQGPNGPLIPEIHEAAPHAQYV-ARKGEINAWDNPEFVAAVKATG  110
+                          +P GP+   I  + E  P    +   K   +A+     +  +   G
+Sbjct  85   LEQRGLLQDFWGDGIPAGPDKKKI--VDELTPDEDDIFLTKWRYSAFKKTNLLEILNEQG  142
+
+Query  111  KKQLIIAGTITSVCMAFPSIAAVHDGYQVFAVIDASGTYSKMAQEITLARVVQAGVVPMD  170
+            + QLII G    +     +  A  DG Q F V DA   +S    +  L        V   
+Sbjct  143  RDQLIICGIYAHIGCLLTACEAFMDGIQPFFVADAVADFSLEHHKQALEYASNRCAVTTS  202
+
+Query  171  TAAVCSEIQRTWNRDDAVQFAEAYSAVFPHYQLLIESYAKAQAVVNNHEQLDSQR  225
+            T ++ +E+Q     DD +   + +  V    +  +ES    + ++N    LDS R
+Sbjct  203  TNSLLTELQGL-KDDDEITLQKVHELVAQLLREPVESVGTDEDLLNRG--LDSVR  254
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.128    0.368    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1379574430
+
+
+Query= g2741.t1
+
+Length=226
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.131    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1379574430
+
+
+Query= g3920.t1
+
+Length=180
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 917454450
+
+
+Query= g886.t1
+
+Length=225
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.129    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1368962319
+
+
+Query= g3518.t1
+
+Length=226
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.129    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1379574430
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

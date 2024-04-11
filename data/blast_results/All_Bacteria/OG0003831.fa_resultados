@@ -1,0 +1,143 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g570.t1
+
+Length=380
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG016291(gb|NP_391469) (capA) CapA, required for Poly-gamma-glut...  93.6    5e-21
+VFG000680(gb|AAF13661) (capA) CapA, required for Poly-gamma-gluta...  89.0    2e-19
+VFG016292(gb|WP_003185829) (capA) CapA, required for Poly-gamma-g...  88.6    2e-19
+
+
+>VFG016291(gb|NP_391469) (capA) CapA, required for Poly-gamma-glutamate 
+transport [Capsule (VF0141) - Immune modulation (VFC0258)] 
+[Bacillus subtilis subsp. subtilis str. 168]
+Length=380
+
+ Score = 93.6 bits (231),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 74/288 (26%), Positives = 125/288 (43%), Gaps = 48/288 (17%)
+
+Query  6    DVVTVLLGGDVMLGRGVDQILPHPGKPQLRERYMRDATGYVRLAERVNGRIPLPVDWRWP  65
+            DV++    GD+M+GR V+++    G   +     +      R ++ V G    PV ++  
+Sbjct  57   DVLSASFVGDIMMGRYVEKVTEQKGADSI----FQYVEPIFRASDYVAGNFENPVTYQKN  112
+
+Query  66   WGEALAVLENTATDVCLINLETTITADGEFADRKPVCYRMHPDNVPALTALRPHVCALAN  125
+            + +A                             K +  + + ++V  L  +   V   AN
+Sbjct  113  YKQA----------------------------DKEIHLQTNKESVKVLKDMNFTVLNSAN  144
+
+Query  126  NHILDFGYQGLTDTVAALAGAGIQSVGAGADLLAARRSALVTVGHERRVIVGSVA-AESS  184
+            NH +D+G QG+ DT+   A   +  VGAG  L  A++   ++      V + ++   + S
+Sbjct  145  NHAMDYGVQGMKDTLGEFAKQNLDIVGAGYSLSDAKKK--ISYQKVNGVTIATLGFTDVS  202
+
+Query  185  GVPESWAARRDRPGVWLIRDPAQRDVADDVAAQVLADKRPGDIAIVSMHWGSNWGYATAP  244
+            G  + +AA+++ PGV     PA  ++   + ++    K+  DI +V  HWG    Y   P
+Sbjct  203  G--KGFAAKKNTPGVL----PADPEIFIPMISEA---KKHADIVVVQSHWGQE--YDNDP  251
+
+Query  245  GD--VAFAHRLIDAGIDMVHGHSSHHPRPIEIYRGKPILYGCGDVVDD  290
+             D     A  + DAG D++ GH  H   PIE+Y G  I Y  G+ V D
+Sbjct  252  NDRQRQLARAMSDAGADIIVGHHPHVLEPIEVYNGTVIFYSLGNFVFD  299
+
+
+>VFG000680(gb|AAF13661) (capA) CapA, required for Poly-gamma-glutamate 
+transport [Capsule (VF0141) - Immune modulation (VFC0258)] 
+[Bacillus anthracis]
+Length=411
+
+ Score = 89.0 bits (219),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 74/287 (26%), Positives = 124/287 (43%), Gaps = 45/287 (16%)
+
+Query  8    VTVLLGGDVMLGRGVDQILPHPGKPQLRERYMRDATGYVRLAERVNGRIPLPVDWRWPWG  67
+            +T+ + GD+M+GR V +I+   G     +   R  + Y++ ++ V+G    PV       
+Sbjct  60   LTMTMVGDIMMGRHVKEIVNRYG----TDYVFRHVSPYLKNSDYVSGNFEHPV-------  108
+
+Query  68   EALAVLENTATDVCLINLETTITADGEFADRKPVCYRMHPDNVPALTALRPHVCALANNH  127
+                +LE+                + + AD K +      + V A+      V  LANNH
+Sbjct  109  ----LLEDKK--------------NYQKAD-KNIHLSAKEETVKAVKEAGFTVLNLANNH  149
+
+Query  128  ILDFGYQGLTDTVAALAGAGIQSVGAGADLLAARRSALVTVGHERRVIVGSVAAESSGVP  187
+            + D+G +G  DT+ A   A +  VGAG +    +      V   R   +G   A  +G  
+Sbjct  150  MTDYGAKGTKDTIKAFKEADLDYVGAGENFKDVKNIVYQNVNGVRVATLGFTDAFVAGA-  208
+
+Query  188  ESWAARRDRPGVWLIRDPAQRDVADDVAAQVLADKRP----GDIAIVSMHWGSNWGYATA  243
+                A +++PG  L  +P      D +  Q+   K P     D+ +V+ HWG  +    +
+Sbjct  209  ---IATKEQPGS-LSMNP------DVLLKQISKAKDPKKGNADLVVVNTHWGEEYDNKPS  258
+
+Query  244  PGDVAFAHRLIDAGIDMVHGHSSHHPRPIEIYRGKPILYGCGDVVDD  290
+            P   A A  ++DAG D++ GH  H  +  ++Y+   I Y  G+ V D
+Sbjct  259  PRQEALAKAMVDAGADIIVGHHPHVLQSFDVYKQGIIFYSLGNFVFD  305
+
+
+>VFG016292(gb|WP_003185829) (capA) CapA, required for Poly-gamma-glutamate 
+transport [Capsule (VF0141) - Immune modulation 
+(VFC0258)] [Bacillus licheniformis ATCC 14580]
+Length=389
+
+ Score = 88.6 bits (218),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 69/285 (24%), Positives = 120/285 (42%), Gaps = 46/285 (16%)
+
+Query  8    VTVLLGGDVMLGRGVDQILPHPGKPQLRERYMRDATGYVRLAERVNGRIPLPVDWRWPWG  67
+            +T    GD+M+GR V+++    G     E   ++   Y  +++ + G    PV     + 
+Sbjct  60   LTATFVGDIMMGRNVEKVTNLHG----SESVFKNVKPYFNVSDFITGNFENPVTNAKDYQ  115
+
+Query  68   EALAVLENTATDVCLINLETTITADGEFADRKPVCYRMHPDNVPALTALRPHVCALANNH  127
+            EA                             K +  + + ++V  L  L   V   ANNH
+Sbjct  116  EA----------------------------EKNIHLQTNQESVETLKKLNFSVLNFANNH  147
+
+Query  128  ILDFGYQGLTDTVAALAGAGIQSVGAGADLLAARRSALVTVGHERRVIVGSVAAESSGVP  187
+             +D+G  GL DT+   +   ++ VGAG +L  A++   V+  +   V + ++   +    
+Sbjct  148  AMDYGEDGLKDTLNKFSNENLELVGAGNNLEDAKQH--VSYQNVNGVKIATLGF-TDVYT  204
+
+Query  188  ESWAARRDRPGVWLIRDPAQRDVADDVAAQVLADKRPGDIAIVSMHWGSNWGYATAPGDV  247
+            +++ A+++R GV     P    +   + A+     +  D+ +V +HWG    Y   P D 
+Sbjct  205  KNFTAKKNRGGVL----PLSPKIFIPMIAEA---SKKADLVLVHVHWGQE--YDNEPNDR  255
+
+Query  248  A--FAHRLIDAGIDMVHGHSSHHPRPIEIYRGKPILYGCGDVVDD  290
+                A  + DAG D++ G   H   PIE+Y G  I Y  G+ V D
+Sbjct  256  QKDLAKAIADAGADVIIGAHPHVLEPIEVYNGTVIFYSLGNFVFD  300
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2903492882
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

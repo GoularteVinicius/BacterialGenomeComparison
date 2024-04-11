@@ -1,0 +1,193 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g138.t1
+
+Length=305
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR [Py...  50.4    4e-07
+
+
+>VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR 
+[Pyoverdine (VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=312
+
+ Score = 50.4 bits (119),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 40/134 (30%), Positives = 67/134 (50%), Gaps = 3/134 (2%)
+
+Query  8    SLGQVSDFDIRLLRIFKTIVECGSFSAAESTLGLSRSAISLHMGDLEKRLGMRLCQRGRA  67
+            +L +++  ++  L  F  + E  SF+AA   LGLS+S +S  +  LE  LG++L  R   
+Sbjct  4    ALERLNHLNLNHLYAFVAVAEHNSFTAAAEALGLSKSLLSEQLRRLEADLGIQLLTRTTR  63
+
+Query  68   GFALTDEGREVYRATQTLLAALEGFRAEVNDLHQHLRGELNIGIINNLVTLPQMRITHAL  127
+               LTD G  ++   Q +L  L+G  ++V DL     G L I    + V   +  I+   
+Sbjct  64   RMTLTDRGELLFGVAQRMLGELDGALSDVRDLQGEPSGRLRITAPQDFV---KWHISSVS  120
+
+Query  128  SALKGQGPQVRINI  141
+            +A   Q P+V++ +
+Sbjct  121  AAFIRQFPKVQVEM  134
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2152537515
+
+
+Query= g292.t1
+
+Length=320
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.141    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2310040260
+
+
+Query= g1162.t1
+
+Length=300
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.139    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2100036600
+
+
+Query= g1438.t1
+
+Length=297
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional act...  60.8    2e-10
+VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR [Py...  58.5    8e-10
+
+
+>VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional 
+activator AllS [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=307
+
+ Score = 60.8 bits (146),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 78/294 (27%), Positives = 127/294 (43%), Gaps = 46/294 (16%)
+
+Query  7    DLRLLRIFAAVVRHQGFAAAQQELNLSTSAISTYMSQLENQLGIVLCHRGRGGFSLTSKG  66
+            D   LR F +V     F+ A ++L  +T+ IS  +  LE+  G+ L       FS T++ 
+Sbjct  3    DPETLRTFVSVAETGSFSRAAEKLYKTTATISYRIKLLEDNTGVAL-------FSRTTRS  55
+
+Query  67   ELFHQETLRILGELEGFERYALALKGELRGTLNLGV-------LDSTVSDPALPLAEVIG  119
+             L     + +L +   +  +  ++ GEL+  +N GV       +++ + DP   +A ++ 
+Sbjct  56   VLLTPAGMHLLAQAREWLGWIDSMPGELQ-QINDGVERQVNIVVNNLMYDPQA-IARLLA  113
+
+Query  120  AFSREHPAVHLHLLVQSPYELQLSVLENRQDLAIGAFSSRM---NGLVYQPLYREQHWLY  176
+              ++ +P    H   Q    +  ++L +   LAIG   +     N  VY PL  E  WL+
+Sbjct  114  WLTQRYPFTQFHFSRQIYMGVWDTLLHDDFSLAIGVTGTEPLAENMAVY-PL-GEVTWLF  171
+
+Query  177  C-SDRHPLFDG---------RRIPADLI--TQQRMVGRGYW---SQAELARHGFKHSAGT  221
+              S  HPL            RR PA  I  + +R+  R  W    Q E+           
+Sbjct  172  VMSPHHPLSQQTDPLSEAQLRRYPAVNIEDSARRLTKRVAWRLPGQKEIV----------  221
+
+Query  222  VESMEAQLILILSGGYIGYLPEHYAHPWVEQGRLRALLPATFGYQAPFSLILRR  275
+            V  +E ++   L+G  IG+LPE    P + QG+L A    T    +P SL  R+
+Sbjct  222  VPDIETKVAAHLAGVGIGFLPEPLCLPLIAQGKLIARHIPTMRPPSPLSLAWRK  275
+
+
+>VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR 
+[Pyoverdine (VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=312
+
+ Score = 58.5 bits (140),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 76/274 (28%), Positives = 111/274 (41%), Gaps = 25/274 (9%)
+
+Query  7    DLRLLRIFAAVVRHQGFAAAQQELNLSTSAISTYMSQLENQLGIVLCHRGRGGFSLTSKG  66
+            +L  L  F AV  H  F AA + L LS S +S  + +LE  LGI L  R     +LT +G
+Sbjct  12   NLNHLYAFVAVAEHNSFTAAAEALGLSKSLLSEQLRRLEADLGIQLLTRTTRRMTLTDRG  71
+
+Query  67   ELFHQETLRILGELEGFERYALALKGELRGTLNLGVLDSTVSDPALPLAEVIGAFSREHP  126
+            EL      R+LGEL+G       L+GE  G L +      V      ++ V  AF R+ P
+Sbjct  72   ELLFGVAQRMLGELDGALSDVRDLQGEPSGRLRITAPQDFVK---WHISSVSAAFIRQFP  128
+
+Query  127  AVHLHLLVQSPYELQLSVLENRQDLAIGAFSSRMNGLVYQPLYREQHWL-----YCSDRH  181
+             V + +L    +     ++  R DLA+     R +GL    L   Q        Y +   
+Sbjct  129  KVQVEMLADDQFS---DLVGQRIDLAVRIGWPRDSGLHASKLCDFQQVAVATPGYLAGLP  185
+
+Query  182  PLFDGRRIPADL-----ITQQRMVGRGYWSQAELARHGFKHSAGTVESMEAQLI--LILS  234
+            P+      P DL     I   R+     W+           + G + +     +  L+L 
+Sbjct  186  PVLQ----PHDLARCEWIGHTRLSTPWTWTFERQRERATVQTRGRLLANNTLAVYRLVLD  241
+
+Query  235  GGYIGYLPEHYAHPWVEQGRLRALLPATFGYQAP  268
+            G  +  LP       + +GRL  LLP   G++ P
+Sbjct  242  GAGVSVLPSFLVAREIARGRLVRLLP---GWRLP  272
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2084576670
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

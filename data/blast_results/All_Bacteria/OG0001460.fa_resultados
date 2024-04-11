@@ -1,0 +1,625 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g112.t1
+
+Length=190
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011816(gb|WP_010404164) (gmhB) D-glycero-beta-D-manno-heptose ...  91.7    1e-23
+VFG011811(gb|WP_050458003) (gmhB) D-glycero-alpha-D-manno-heptose...  75.5    2e-17
+VFG017775(gb|WP_011989859) (JJD26997_RS02665) D-glycero-alpha-D-m...  75.9    2e-17
+VFG011825(gb|WP_002869010) (gmhB) D-glycero-alpha-D-manno-heptose...  75.5    3e-17
+VFG011823(gb|YP_002344543) (gmhB) D-glycero-alpha-D-manno-heptose...  74.3    8e-17
+VFG018023(gb|WP_002877124) (gmhB) D-glycero-alpha-D-manno-heptose...  72.4    4e-16
+VFG002552(gb|WP_004194255) (wcbN) D-glycero-d-manno-heptose 1,7-b...  72.4    4e-16
+VFG026140(gb|WP_004522169) (wcbN) D-glycero-d-manno-heptose 1,7-b...  72.4    5e-16
+
+
+>VFG011816(gb|WP_010404164) (gmhB) D-glycero-beta-D-manno-heptose 
+1,7-bisphosphate 7-phosphatase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter fetus subsp. fetus 82-40]
+Length=168
+
+ Score = 91.7 bits (226),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 54/157 (34%), Positives = 79/157 (50%), Gaps = 7/157 (4%)
+
+Query  12   LFLDRDGVINRQVVGDYVRNWRQFEWLPGAARALKKLRAWAPYIVVVTNQQGVGAGLMSA  71
+            +FLDRDGVIN+ +   YV     FE+  G   AL+        + +VTNQ G+G G  ++
+Sbjct  7    VFLDRDGVINKDL--GYVSKIDDFEFCDGIFEALRGFLKLGFALFIVTNQSGIGRGYYTS  64
+
+Query  72   VDVMVIHRHLQMQLASDGVLIDGFQVCPHHRSQRCGCRKPRPGLVLDWLGRHPDSEPLLS  131
+             D + + + +  +   + + I     CPH   + C CRKP+PG++L  L    D     S
+Sbjct  65   DDFLNLTKFMLDEFKKEDIYIKKVYYCPHSPEENCDCRKPKPGMILKALSEF-DINLKNS  123
+
+Query  132  IVVGDSLSDLELAHNVAAAAGACASVQIGGASSGGVA  168
+            I++GD  SD+ LA N   +AG      IG  SS   A
+Sbjct  124  IMIGDKNSDM-LAAN---SAGINNCYLIGETSSLKTA  156
+
+
+>VFG011811(gb|WP_050458003) (gmhB) D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 
+7-phosphatase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter jejuni RM1221]
+Length=172
+
+ Score = 75.5 bits (184),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 45/138 (33%), Positives = 64/138 (46%), Gaps = 11/138 (8%)
+
+Query  12   LFLDRDGVINRQVVGDYVRNWRQFEWLPGAARALKKLRAWAPYIVVVTNQQGVGAGLMSA  71
+            LFLDRDGVIN  +   YV     FE+  G     +   A    + + TNQ G+  G    
+Sbjct  6    LFLDRDGVIN--IDKKYVYKIEDFEFCDGIFELCRYFLAKKYLLFIATNQSGIARGYYKE  63
+
+Query  72   VDVMVIHRHLQMQLASDGVLIDGFQVCPHHRSQRCGCRKPRPGLVLDWLGRHPDSEPL--  129
+             D   +  ++  +    G+ ID    CPH     C CRKP+ G++L    +  D   L  
+Sbjct  64   SDFFKLCDYMLKEFTKQGIKIDKIYHCPHLEG--CECRKPKAGMLL----KAKDEFNLDM  117
+
+Query  130  -LSIVVGDSLSDLELAHN  146
+              SI +GD+LSD++   N
+Sbjct  118  KNSIFIGDNLSDMQAGLN  135
+
+
+>VFG017775(gb|WP_011989859) (JJD26997_RS02665) D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 
+7-phosphatase [LOS (VF0326) 
+- Immune modulation (VFC0258)] [Campylobacter jejuni subsp. 
+doylei 269.97]
+Length=185
+
+ Score = 75.9 bits (185),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 44/135 (33%), Positives = 63/135 (47%), Gaps = 5/135 (4%)
+
+Query  12   LFLDRDGVINRQVVGDYVRNWRQFEWLPGAARALKKLRAWAPYIVVVTNQQGVGAGLMSA  71
+            LFLDRDGVIN  +   YV     FE+  G     +   A    + + TNQ G+  G    
+Sbjct  20   LFLDRDGVIN--IDKKYVYKIEDFEFCDGIFELCRYFLARNYLLFIATNQSGIARGYYKE  77
+
+Query  72   VDVMVIHRHLQMQLASDGVLIDGFQVCPHHRSQRCGCRKPRPGLVLDWLGRHPDSEPLLS  131
+             D   +  ++  + A   + ID    CPH     C CRKP+ G++L       D +   S
+Sbjct  78   SDFFKLCDYMLKEFAKQDIKIDKIYYCPHLEG--CECRKPKAGMLLKAKDEF-DLDMKNS  134
+
+Query  132  IVVGDSLSDLELAHN  146
+            I +GD+LSD++   N
+Sbjct  135  IFIGDNLSDMQAGLN  149
+
+
+>VFG011825(gb|WP_002869010) (gmhB) D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 
+7-phosphatase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter jejuni subsp. jejuni 81-176]
+Length=186
+
+ Score = 75.5 bits (184),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 44/135 (33%), Positives = 65/135 (48%), Gaps = 5/135 (4%)
+
+Query  12   LFLDRDGVINRQVVGDYVRNWRQFEWLPGAARALKKLRAWAPYIVVVTNQQGVGAGLMSA  71
+            LFLDRDGVIN  +   YV     FE+  G     +   A +  + + TNQ G+  G    
+Sbjct  20   LFLDRDGVIN--IDKKYVYKIEDFEFCDGIFELCRYFLARSYLLFIATNQSGIARGYYKE  77
+
+Query  72   VDVMVIHRHLQMQLASDGVLIDGFQVCPHHRSQRCGCRKPRPGLVLDWLGRHPDSEPLLS  131
+             D   +  ++  + A   + ID    CPH   + C CRKP+ G++L       D +   S
+Sbjct  78   SDFFKLCDYMLKEFAKQDIKIDKIYHCPH--LEGCECRKPKAGMLLKAKDEF-DLDMKNS  134
+
+Query  132  IVVGDSLSDLELAHN  146
+            I +GD+LSD++   N
+Sbjct  135  IFIGDNLSDMQAGLN  149
+
+
+>VFG011823(gb|YP_002344543) (gmhB) D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 
+7-phosphatase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter jejuni subsp. jejuni NCTC 
+11168]
+Length=186
+
+ Score = 74.3 bits (181),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 44/135 (33%), Positives = 64/135 (47%), Gaps = 5/135 (4%)
+
+Query  12   LFLDRDGVINRQVVGDYVRNWRQFEWLPGAARALKKLRAWAPYIVVVTNQQGVGAGLMSA  71
+            LFLDRDGVIN  +   YV     FE+  G     +   A    + + TNQ G+  G    
+Sbjct  20   LFLDRDGVIN--IDKKYVYKIEDFEFCDGIFELCRYFLARNYLLFIATNQSGIARGYYKE  77
+
+Query  72   VDVMVIHRHLQMQLASDGVLIDGFQVCPHHRSQRCGCRKPRPGLVLDWLGRHPDSEPLLS  131
+             D   +  ++  + A   + ID    CPH   + C CRKP+ G++L       D +   S
+Sbjct  78   SDFFKLCDYMLKEFAKQDIKIDKIYHCPH--LEGCECRKPKAGMLLKAKDEF-DLDMKNS  134
+
+Query  132  IVVGDSLSDLELAHN  146
+            I +GD+LSD++   N
+Sbjct  135  IFIGDNLSDMQAGLN  149
+
+
+>VFG018023(gb|WP_002877124) (gmhB) D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 
+7-phosphatase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter jejuni subsp. jejuni 81116]
+Length=186
+
+ Score = 72.4 bits (176),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 45/135 (33%), Positives = 63/135 (47%), Gaps = 5/135 (4%)
+
+Query  12   LFLDRDGVINRQVVGDYVRNWRQFEWLPGAARALKKLRAWAPYIVVVTNQQGVGAGLMSA  71
+            LFLDRDGVIN  +   YV     FE+  G     +   A    + V TNQ G+       
+Sbjct  20   LFLDRDGVIN--IDKKYVYKIEDFEFCDGIFELCRYFLARNYLLFVATNQSGIARRYYKE  77
+
+Query  72   VDVMVIHRHLQMQLASDGVLIDGFQVCPHHRSQRCGCRKPRPGLVLDWLGRHPDSEPLLS  131
+             D + +  ++  + A   V ID    CPH     C CRKP+ G++L       D +   S
+Sbjct  78   SDFLKLCDYMLKEFAKQDVKIDKIYHCPHLEG--CECRKPKAGMLLKAKDEF-DLDMKNS  134
+
+Query  132  IVVGDSLSDLELAHN  146
+            I +GD+LSD++   N
+Sbjct  135  IFIGDNLSDMQAGLN  149
+
+
+>VFG002552(gb|WP_004194255) (wcbN) D-glycero-d-manno-heptose 1,7-bisphosphate 
+phosphatase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia pseudomallei K96243]
+Length=189
+
+ Score = 72.4 bits (176),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 50/140 (36%), Positives = 68/140 (49%), Gaps = 12/140 (9%)
+
+Query  11   CLFLDRDGVINRQVVGDYVRNWRQFEWLPGAARALKKLRAWAPYIVVVTNQQGVGAGLMS  70
+             LFLDRDGVINR     YV    +F +L G        +A     +VVTNQ G+G G  S
+Sbjct  5    ALFLDRDGVINRD--DGYVFEIEKFVFLDGIFELAGAAKALGYLSIVVTNQAGIGRGYYS  62
+
+Query  71   AVDVMVIHRHLQMQLASDGVLIDGFQVCPHHRSQRCG-------CRKPRPGLVLDWLGRH  123
+              D   +   ++   A++G  IDG   CP H     G        RKP PG++L    +H
+Sbjct  63   EDDFFRLSDWMKGVFATEGAPIDGVYFCPTHPEHGIGRYKVESRFRKPNPGMIL--AAQH  120
+
+Query  124  P-DSEPLLSIVVGDSLSDLE  142
+              D +   S++VGD  SD++
+Sbjct  121  DFDLDLGASLLVGDKESDIQ  140
+
+
+>VFG026140(gb|WP_004522169) (wcbN) D-glycero-d-manno-heptose 1,7-bisphosphate 
+phosphatase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia pseudomallei 1106a]
+Length=189
+
+ Score = 72.4 bits (176),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 50/140 (36%), Positives = 68/140 (49%), Gaps = 12/140 (9%)
+
+Query  11   CLFLDRDGVINRQVVGDYVRNWRQFEWLPGAARALKKLRAWAPYIVVVTNQQGVGAGLMS  70
+             LFLDRDGVINR     YV    +F +L G        +A     +VVTNQ G+G G  S
+Sbjct  5    ALFLDRDGVINRD--DGYVFEIEKFVFLDGIFELAGAAKALGYLSIVVTNQAGIGRGYYS  62
+
+Query  71   AVDVMVIHRHLQMQLASDGVLIDGFQVCPHHRSQRCG-------CRKPRPGLVLDWLGRH  123
+              D   +   ++   A++G  IDG   CP H     G        RKP PG++L    +H
+Sbjct  63   EDDFFRLSDWMKGVFATEGAPIDGVYFCPTHPEHGIGRYKVESRFRKPNPGMIL--AAQH  120
+
+Query  124  P-DSEPLLSIVVGDSLSDLE  142
+              D +   S++VGD  SD++
+Sbjct  121  DFDLDLGASLLVGDKESDIQ  140
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.445    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1024135200
+
+
+Query= g6.t1
+
+Length=184
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG017775(gb|WP_011989859) (JJD26997_RS02665) D-glycero-alpha-D-m...  97.8    8e-26
+VFG011811(gb|WP_050458003) (gmhB) D-glycero-alpha-D-manno-heptose...  96.7    2e-25
+VFG011823(gb|YP_002344543) (gmhB) D-glycero-alpha-D-manno-heptose...  95.5    6e-25
+VFG011816(gb|WP_010404164) (gmhB) D-glycero-beta-D-manno-heptose ...  94.7    8e-25
+VFG011825(gb|WP_002869010) (gmhB) D-glycero-alpha-D-manno-heptose...  94.7    1e-24
+VFG018023(gb|WP_002877124) (gmhB) D-glycero-alpha-D-manno-heptose...  92.8    6e-24
+VFG026140(gb|WP_004522169) (wcbN) D-glycero-d-manno-heptose 1,7-b...  75.5    3e-17
+VFG002552(gb|WP_004194255) (wcbN) D-glycero-d-manno-heptose 1,7-b...  75.5    3e-17
+
+
+>VFG017775(gb|WP_011989859) (JJD26997_RS02665) D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 
+7-phosphatase [LOS (VF0326) 
+- Immune modulation (VFC0258)] [Campylobacter jejuni subsp. 
+doylei 269.97]
+Length=185
+
+ Score = 97.8 bits (242),  Expect = 8e-26, Method: Compositional matrix adjust.
+ Identities = 49/140 (35%), Positives = 77/140 (55%), Gaps = 3/140 (2%)
+
+Query  7    MSRSLLILDRDGVINLDSDDYIKTLDEWIPIPSSIEAIARLSQAGWTVAVATNQSGIARG  66
+            M    L LDRDGVIN+D   Y+  ++++       E         + + +ATNQSGIARG
+Sbjct  15   MKTKALFLDRDGVINIDKK-YVYKIEDFEFCDGIFELCRYFLARNYLLFIATNQSGIARG  73
+
+Query  67   YYDLAVLEAMHARLRELVAEQGGEVGLIVYCPHGPDDGCDCRKPKPGMLRQIGEHYGVDL  126
+            YY  +    +   + +  A+Q  ++  I YCPH   +GC+CRKPK GML +  + + +D+
+Sbjct  74   YYKESDFFKLCDYMLKEFAKQDIKIDKIYYCPHL--EGCECRKPKAGMLLKAKDEFDLDM  131
+
+Query  127  SGIWFVGDSIGDLEAARAVD  146
+                F+GD++ D++A    D
+Sbjct  132  KNSIFIGDNLSDMQAGLNAD  151
+
+
+>VFG011811(gb|WP_050458003) (gmhB) D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 
+7-phosphatase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter jejuni RM1221]
+Length=172
+
+ Score = 96.7 bits (239),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 47/135 (35%), Positives = 76/135 (56%), Gaps = 3/135 (2%)
+
+Query  7    MSRSLLILDRDGVINLDSDDYIKTLDEWIPIPSSIEAIARLSQAGWTVAVATNQSGIARG  66
+            M    L LDRDGVIN+D   Y+  ++++       E         + + +ATNQSGIARG
+Sbjct  1    MKTKALFLDRDGVINIDKK-YVYKIEDFEFCDGIFELCRYFLAKKYLLFIATNQSGIARG  59
+
+Query  67   YYDLAVLEAMHARLRELVAEQGGEVGLIVYCPHGPDDGCDCRKPKPGMLRQIGEHYGVDL  126
+            YY  +    +   + +   +QG ++  I +CPH   +GC+CRKPK GML +  + + +D+
+Sbjct  60   YYKESDFFKLCDYMLKEFTKQGIKIDKIYHCPHL--EGCECRKPKAGMLLKAKDEFNLDM  117
+
+Query  127  SGIWFVGDSIGDLEA  141
+                F+GD++ D++A
+Sbjct  118  KNSIFIGDNLSDMQA  132
+
+
+>VFG011823(gb|YP_002344543) (gmhB) D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 
+7-phosphatase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter jejuni subsp. jejuni NCTC 
+11168]
+Length=186
+
+ Score = 95.5 bits (236),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 48/140 (34%), Positives = 77/140 (55%), Gaps = 3/140 (2%)
+
+Query  7    MSRSLLILDRDGVINLDSDDYIKTLDEWIPIPSSIEAIARLSQAGWTVAVATNQSGIARG  66
+            M    L LDRDGVIN+D   Y+  ++++       E         + + +ATNQSGIARG
+Sbjct  15   MKTKALFLDRDGVINIDKK-YVYKIEDFEFCDGIFELCRYFLARNYLLFIATNQSGIARG  73
+
+Query  67   YYDLAVLEAMHARLRELVAEQGGEVGLIVYCPHGPDDGCDCRKPKPGMLRQIGEHYGVDL  126
+            YY  +    +   + +  A+Q  ++  I +CPH   +GC+CRKPK GML +  + + +D+
+Sbjct  74   YYKESDFFKLCDYMLKEFAKQDIKIDKIYHCPHL--EGCECRKPKAGMLLKAKDEFDLDM  131
+
+Query  127  SGIWFVGDSIGDLEAARAVD  146
+                F+GD++ D++A    D
+Sbjct  132  KNSIFIGDNLSDMQAGLNAD  151
+
+
+>VFG011816(gb|WP_010404164) (gmhB) D-glycero-beta-D-manno-heptose 
+1,7-bisphosphate 7-phosphatase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter fetus subsp. fetus 82-40]
+Length=168
+
+ Score = 94.7 bits (234),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 45/133 (34%), Positives = 72/133 (54%), Gaps = 1/133 (1%)
+
+Query  12   LILDRDGVINLDSDDYIKTLDEWIPIPSSIEAIARLSQAGWTVAVATNQSGIARGYYDLA  71
+            + LDRDGVIN D   Y+  +D++       EA+    + G+ + + TNQSGI RGYY   
+Sbjct  7    VFLDRDGVINKDLG-YVSKIDDFEFCDGIFEALRGFLKLGFALFIVTNQSGIGRGYYTSD  65
+
+Query  72   VLEAMHARLRELVAEQGGEVGLIVYCPHGPDDGCDCRKPKPGMLRQIGEHYGVDLSGIWF  131
+                +   + +   ++   +  + YCPH P++ CDCRKPKPGM+ +    + ++L     
+Sbjct  66   DFLNLTKFMLDEFKKEDIYIKKVYYCPHSPEENCDCRKPKPGMILKALSEFDINLKNSIM  125
+
+Query  132  VGDSIGDLEAARA  144
+            +GD   D+ AA +
+Sbjct  126  IGDKNSDMLAANS  138
+
+
+>VFG011825(gb|WP_002869010) (gmhB) D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 
+7-phosphatase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter jejuni subsp. jejuni 81-176]
+Length=186
+
+ Score = 94.7 bits (234),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 47/135 (35%), Positives = 76/135 (56%), Gaps = 3/135 (2%)
+
+Query  7    MSRSLLILDRDGVINLDSDDYIKTLDEWIPIPSSIEAIARLSQAGWTVAVATNQSGIARG  66
+            M    L LDRDGVIN+D   Y+  ++++       E         + + +ATNQSGIARG
+Sbjct  15   MKTKALFLDRDGVINIDKK-YVYKIEDFEFCDGIFELCRYFLARSYLLFIATNQSGIARG  73
+
+Query  67   YYDLAVLEAMHARLRELVAEQGGEVGLIVYCPHGPDDGCDCRKPKPGMLRQIGEHYGVDL  126
+            YY  +    +   + +  A+Q  ++  I +CPH   +GC+CRKPK GML +  + + +D+
+Sbjct  74   YYKESDFFKLCDYMLKEFAKQDIKIDKIYHCPHL--EGCECRKPKAGMLLKAKDEFDLDM  131
+
+Query  127  SGIWFVGDSIGDLEA  141
+                F+GD++ D++A
+Sbjct  132  KNSIFIGDNLSDMQA  146
+
+
+>VFG018023(gb|WP_002877124) (gmhB) D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 
+7-phosphatase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter jejuni subsp. jejuni 81116]
+Length=186
+
+ Score = 92.8 bits (229),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 50/136 (37%), Positives = 77/136 (57%), Gaps = 5/136 (4%)
+
+Query  7    MSRSLLILDRDGVINLDSDDYIKTLDEWIPIPSSIEAIARLSQAGWTVAVATNQSGIARG  66
+            M    L LDRDGVIN+D   Y+  ++++       E         + + VATNQSGIAR 
+Sbjct  15   MKTKALFLDRDGVINIDKK-YVYKIEDFEFCDGIFELCRYFLARNYLLFVATNQSGIARR  73
+
+Query  67   YYDLA-VLEAMHARLRELVAEQGGEVGLIVYCPHGPDDGCDCRKPKPGMLRQIGEHYGVD  125
+            YY  +  L+     L+E  A+Q  ++  I +CPH   +GC+CRKPK GML +  + + +D
+Sbjct  74   YYKESDFLKLCDYMLKEF-AKQDVKIDKIYHCPHL--EGCECRKPKAGMLLKAKDEFDLD  130
+
+Query  126  LSGIWFVGDSIGDLEA  141
+            +    F+GD++ D++A
+Sbjct  131  MKNSIFIGDNLSDMQA  146
+
+
+>VFG026140(gb|WP_004522169) (wcbN) D-glycero-d-manno-heptose 1,7-bisphosphate 
+phosphatase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia pseudomallei 1106a]
+Length=189
+
+ Score = 75.5 bits (184),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 44/142 (31%), Positives = 67/142 (47%), Gaps = 8/142 (6%)
+
+Query  7    MSRSLLILDRDGVINLDSDDYIKTLDEWIPIPSSIEAIARLSQAGWTVAVATNQSGIARG  66
+            M    L LDRDGVIN D D Y+  +++++ +    E        G+   V TNQ+GI RG
+Sbjct  1    MKNRALFLDRDGVINRD-DGYVFEIEKFVFLDGIFELAGAAKALGYLSIVVTNQAGIGRG  59
+
+Query  67   YYDLAVLEAMHARLRELVAEQGGEVGLIVYCPHGPDDG-------CDCRKPKPGMLRQIG  119
+            YY       +   ++ + A +G  +  + +CP  P+ G          RKP PGM+    
+Sbjct  60   YYSEDDFFRLSDWMKGVFATEGAPIDGVYFCPTHPEHGIGRYKVESRFRKPNPGMILAAQ  119
+
+Query  120  EHYGVDLSGIWFVGDSIGDLEA  141
+              + +DL     VGD   D++A
+Sbjct  120  HDFDLDLGASLLVGDKESDIQA  141
+
+
+>VFG002552(gb|WP_004194255) (wcbN) D-glycero-d-manno-heptose 1,7-bisphosphate 
+phosphatase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia pseudomallei K96243]
+Length=189
+
+ Score = 75.5 bits (184),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 44/142 (31%), Positives = 67/142 (47%), Gaps = 8/142 (6%)
+
+Query  7    MSRSLLILDRDGVINLDSDDYIKTLDEWIPIPSSIEAIARLSQAGWTVAVATNQSGIARG  66
+            M    L LDRDGVIN D D Y+  +++++ +    E        G+   V TNQ+GI RG
+Sbjct  1    MKNRALFLDRDGVINRD-DGYVFEIEKFVFLDGIFELAGAAKALGYLSIVVTNQAGIGRG  59
+
+Query  67   YYDLAVLEAMHARLRELVAEQGGEVGLIVYCPHGPDDG-------CDCRKPKPGMLRQIG  119
+            YY       +   ++ + A +G  +  + +CP  P+ G          RKP PGM+    
+Sbjct  60   YYSEDDFFRLSDWMKGVFATEGAPIDGVYFCPTHPEHGIGRYKVESRFRKPNPGMILAAQ  119
+
+Query  120  EHYGVDLSGIWFVGDSIGDLEA  141
+              + +DL     VGD   D++A
+Sbjct  120  HDFDLDLGASLLVGDKESDIQA  141
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.139    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 960126750
+
+
+Query= g244.t1
+
+Length=188
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011816(gb|WP_010404164) (gmhB) D-glycero-beta-D-manno-heptose ...  149     6e-46
+VFG002552(gb|WP_004194255) (wcbN) D-glycero-d-manno-heptose 1,7-b...  148     2e-45
+VFG026140(gb|WP_004522169) (wcbN) D-glycero-d-manno-heptose 1,7-b...  148     2e-45
+VFG017775(gb|WP_011989859) (JJD26997_RS02665) D-glycero-alpha-D-m...  147     5e-45
+VFG011825(gb|WP_002869010) (gmhB) D-glycero-alpha-D-manno-heptose...  147     6e-45
+VFG018023(gb|WP_002877124) (gmhB) D-glycero-alpha-D-manno-heptose...  144     4e-44
+VFG011823(gb|YP_002344543) (gmhB) D-glycero-alpha-D-manno-heptose...  144     6e-44
+VFG011811(gb|WP_050458003) (gmhB) D-glycero-alpha-D-manno-heptose...  143     1e-43
+
+
+>VFG011816(gb|WP_010404164) (gmhB) D-glycero-beta-D-manno-heptose 
+1,7-bisphosphate 7-phosphatase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter fetus subsp. fetus 82-40]
+Length=168
+
+ Score = 149 bits (375),  Expect = 6e-46, Method: Compositional matrix adjust.
+ Identities = 70/153 (46%), Positives = 95/153 (62%), Gaps = 7/153 (5%)
+
+Query  3    KFVPAIFLDRDGTINVDHGYVHEIDAFEFIDGVIDAMRELKKMGYALVVVTNQSGIARGK  62
+            K + A+FLDRDG IN D GYV +ID FEF DG+ +A+R   K+G+AL +VTNQSGI RG 
+Sbjct  2    KKIKAVFLDRDGVINKDLGYVSKIDDFEFCDGIFEALRGFLKLGFALFIVTNQSGIGRGY  61
+
+Query  63   FTEAQFETLTEWMDWSLADRDVDLDGIYYCPHHPQGSIEEFRQVCDCRKPHPGMLISARD  122
+            +T   F  LT++M       D+ +  +YYCPH P+       + CDCRKP PGM++ A  
+Sbjct  62   YTSDDFLNLTKFMLDEFKKEDIYIKKVYYCPHSPE-------ENCDCRKPKPGMILKALS  114
+
+Query  123  FLHIDMAASYMVGDKLEDMQAAAAANVGTKVLV  155
+               I++  S M+GDK  DM AA +A +    L+
+Sbjct  115  EFDINLKNSIMIGDKNSDMLAANSAGINNCYLI  147
+
+
+>VFG002552(gb|WP_004194255) (wcbN) D-glycero-d-manno-heptose 1,7-bisphosphate 
+phosphatase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia pseudomallei K96243]
+Length=189
+
+ Score = 148 bits (373),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 67/149 (45%), Positives = 97/149 (65%), Gaps = 0/149 (0%)
+
+Query  7    AIFLDRDGTINVDHGYVHEIDAFEFIDGVIDAMRELKKMGYALVVVTNQSGIARGKFTEA  66
+            A+FLDRDG IN D GYV EI+ F F+DG+ +     K +GY  +VVTNQ+GI RG ++E 
+Sbjct  5    ALFLDRDGVINRDDGYVFEIEKFVFLDGIFELAGAAKALGYLSIVVTNQAGIGRGYYSED  64
+
+Query  67   QFETLTEWMDWSLADRDVDLDGIYYCPHHPQGSIEEFRQVCDCRKPHPGMLISARDFLHI  126
+             F  L++WM    A     +DG+Y+CP HP+  I  ++     RKP+PGM+++A+    +
+Sbjct  65   DFFRLSDWMKGVFATEGAPIDGVYFCPTHPEHGIGRYKVESRFRKPNPGMILAAQHDFDL  124
+
+Query  127  DMAASYMVGDKLEDMQAAAAANVGTKVLV  155
+            D+ AS +VGDK  D+QA + A VGT +L+
+Sbjct  125  DLGASLLVGDKESDIQAGSTAGVGTTLLI  153
+
+
+>VFG026140(gb|WP_004522169) (wcbN) D-glycero-d-manno-heptose 1,7-bisphosphate 
+phosphatase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia pseudomallei 1106a]
+Length=189
+
+ Score = 148 bits (373),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 67/149 (45%), Positives = 97/149 (65%), Gaps = 0/149 (0%)
+
+Query  7    AIFLDRDGTINVDHGYVHEIDAFEFIDGVIDAMRELKKMGYALVVVTNQSGIARGKFTEA  66
+            A+FLDRDG IN D GYV EI+ F F+DG+ +     K +GY  +VVTNQ+GI RG ++E 
+Sbjct  5    ALFLDRDGVINRDDGYVFEIEKFVFLDGIFELAGAAKALGYLSIVVTNQAGIGRGYYSED  64
+
+Query  67   QFETLTEWMDWSLADRDVDLDGIYYCPHHPQGSIEEFRQVCDCRKPHPGMLISARDFLHI  126
+             F  L++WM    A     +DG+Y+CP HP+  I  ++     RKP+PGM+++A+    +
+Sbjct  65   DFFRLSDWMKGVFATEGAPIDGVYFCPTHPEHGIGRYKVESRFRKPNPGMILAAQHDFDL  124
+
+Query  127  DMAASYMVGDKLEDMQAAAAANVGTKVLV  155
+            D+ AS +VGDK  D+QA + A VGT +L+
+Sbjct  125  DLGASLLVGDKESDIQAGSTAGVGTTLLI  153
+
+
+>VFG017775(gb|WP_011989859) (JJD26997_RS02665) D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 
+7-phosphatase [LOS (VF0326) 
+- Immune modulation (VFC0258)] [Campylobacter jejuni subsp. 
+doylei 269.97]
+Length=185
+
+ Score = 147 bits (370),  Expect = 5e-45, Method: Compositional matrix adjust.
+ Identities = 69/156 (44%), Positives = 93/156 (60%), Gaps = 9/156 (6%)
+
+Query  5    VPAIFLDRDGTINVDHGYVHEIDAFEFIDGVIDAMRELKKMGYALVVVTNQSGIARGKFT  64
+              A+FLDRDG IN+D  YV++I+ FEF DG+ +  R      Y L + TNQSGIARG + 
+Sbjct  17   TKALFLDRDGVINIDKKYVYKIEDFEFCDGIFELCRYFLARNYLLFIATNQSGIARGYYK  76
+
+Query  65   EAQFETLTEWMDWSLADRDVDLDGIYYCPHHPQGSIEEFRQVCDCRKPHPGMLISARDFL  124
+            E+ F  L ++M    A +D+ +D IYYCPH          + C+CRKP  GML+ A+D  
+Sbjct  77   ESDFFKLCDYMLKEFAKQDIKIDKIYYCPH---------LEGCECRKPKAGMLLKAKDEF  127
+
+Query  125  HIDMAASYMVGDKLEDMQAAAAANVGTKVLVRTGKP  160
+             +DM  S  +GD L DMQA   A++GT +LV   K 
+Sbjct  128  DLDMKNSIFIGDNLSDMQAGLNADIGTLILVNEEKK  163
+
+
+>VFG011825(gb|WP_002869010) (gmhB) D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 
+7-phosphatase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter jejuni subsp. jejuni 81-176]
+Length=186
+
+ Score = 147 bits (370),  Expect = 6e-45, Method: Compositional matrix adjust.
+ Identities = 69/156 (44%), Positives = 93/156 (60%), Gaps = 9/156 (6%)
+
+Query  5    VPAIFLDRDGTINVDHGYVHEIDAFEFIDGVIDAMRELKKMGYALVVVTNQSGIARGKFT  64
+              A+FLDRDG IN+D  YV++I+ FEF DG+ +  R      Y L + TNQSGIARG + 
+Sbjct  17   TKALFLDRDGVINIDKKYVYKIEDFEFCDGIFELCRYFLARSYLLFIATNQSGIARGYYK  76
+
+Query  65   EAQFETLTEWMDWSLADRDVDLDGIYYCPHHPQGSIEEFRQVCDCRKPHPGMLISARDFL  124
+            E+ F  L ++M    A +D+ +D IY+CPH          + C+CRKP  GML+ A+D  
+Sbjct  77   ESDFFKLCDYMLKEFAKQDIKIDKIYHCPH---------LEGCECRKPKAGMLLKAKDEF  127
+
+Query  125  HIDMAASYMVGDKLEDMQAAAAANVGTKVLVRTGKP  160
+             +DM  S  +GD L DMQA   AN+GT +LV   K 
+Sbjct  128  DLDMKNSIFIGDNLSDMQAGLNANIGTLILVNEEKK  163
+
+
+>VFG018023(gb|WP_002877124) (gmhB) D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 
+7-phosphatase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter jejuni subsp. jejuni 81116]
+Length=186
+
+ Score = 144 bits (364),  Expect = 4e-44, Method: Compositional matrix adjust.
+ Identities = 70/156 (45%), Positives = 92/156 (59%), Gaps = 9/156 (6%)
+
+Query  5    VPAIFLDRDGTINVDHGYVHEIDAFEFIDGVIDAMRELKKMGYALVVVTNQSGIARGKFT  64
+              A+FLDRDG IN+D  YV++I+ FEF DG+ +  R      Y L V TNQSGIAR  + 
+Sbjct  17   TKALFLDRDGVINIDKKYVYKIEDFEFCDGIFELCRYFLARNYLLFVATNQSGIARRYYK  76
+
+Query  65   EAQFETLTEWMDWSLADRDVDLDGIYYCPHHPQGSIEEFRQVCDCRKPHPGMLISARDFL  124
+            E+ F  L ++M    A +DV +D IY+CPH          + C+CRKP  GML+ A+D  
+Sbjct  77   ESDFLKLCDYMLKEFAKQDVKIDKIYHCPH---------LEGCECRKPKAGMLLKAKDEF  127
+
+Query  125  HIDMAASYMVGDKLEDMQAAAAANVGTKVLVRTGKP  160
+             +DM  S  +GD L DMQA   AN+GT +LV   K 
+Sbjct  128  DLDMKNSIFIGDNLSDMQAGLNANIGTLILVNEEKK  163
+
+
+>VFG011823(gb|YP_002344543) (gmhB) D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 
+7-phosphatase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter jejuni subsp. jejuni NCTC 
+11168]
+Length=186
+
+ Score = 144 bits (363),  Expect = 6e-44, Method: Compositional matrix adjust.
+ Identities = 68/156 (44%), Positives = 93/156 (60%), Gaps = 9/156 (6%)
+
+Query  5    VPAIFLDRDGTINVDHGYVHEIDAFEFIDGVIDAMRELKKMGYALVVVTNQSGIARGKFT  64
+              A+FLDRDG IN+D  YV++I+ FEF DG+ +  R      Y L + TNQSGIARG + 
+Sbjct  17   TKALFLDRDGVINIDKKYVYKIEDFEFCDGIFELCRYFLARNYLLFIATNQSGIARGYYK  76
+
+Query  65   EAQFETLTEWMDWSLADRDVDLDGIYYCPHHPQGSIEEFRQVCDCRKPHPGMLISARDFL  124
+            E+ F  L ++M    A +D+ +D IY+CPH          + C+CRKP  GML+ A+D  
+Sbjct  77   ESDFFKLCDYMLKEFAKQDIKIDKIYHCPH---------LEGCECRKPKAGMLLKAKDEF  127
+
+Query  125  HIDMAASYMVGDKLEDMQAAAAANVGTKVLVRTGKP  160
+             +DM  S  +GD L DMQA   A++GT +LV   K 
+Sbjct  128  DLDMKNSIFIGDNLSDMQAGLNADIGTLILVNEEKK  163
+
+
+>VFG011811(gb|WP_050458003) (gmhB) D-glycero-alpha-D-manno-heptose-1,7-bisphosphate 
+7-phosphatase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter jejuni RM1221]
+Length=172
+
+ Score = 143 bits (360),  Expect = 1e-43, Method: Compositional matrix adjust.
+ Identities = 68/156 (44%), Positives = 92/156 (59%), Gaps = 9/156 (6%)
+
+Query  5    VPAIFLDRDGTINVDHGYVHEIDAFEFIDGVIDAMRELKKMGYALVVVTNQSGIARGKFT  64
+              A+FLDRDG IN+D  YV++I+ FEF DG+ +  R      Y L + TNQSGIARG + 
+Sbjct  3    TKALFLDRDGVINIDKKYVYKIEDFEFCDGIFELCRYFLAKKYLLFIATNQSGIARGYYK  62
+
+Query  65   EAQFETLTEWMDWSLADRDVDLDGIYYCPHHPQGSIEEFRQVCDCRKPHPGMLISARDFL  124
+            E+ F  L ++M      + + +D IY+CPH          + C+CRKP  GML+ A+D  
+Sbjct  63   ESDFFKLCDYMLKEFTKQGIKIDKIYHCPH---------LEGCECRKPKAGMLLKAKDEF  113
+
+Query  125  HIDMAASYMVGDKLEDMQAAAAANVGTKVLVRTGKP  160
+            ++DM  S  +GD L DMQA   AN+GT VLV   K 
+Sbjct  114  NLDMKNSIFIGDNLSDMQAGLNANIGTLVLVNEEKK  149
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1002799050
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

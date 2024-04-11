@@ -1,0 +1,566 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1831.t1
+
+Length=621
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG032878(gb|NP_465743) (prsA2) post translocation chaperone PrsA...  85.1    5e-18
+VFG032883(gb|WP_003724025) (prsA2) post translocation chaperone P...  84.7    6e-18
+VFG032909(gb|WP_012986269) (prsA2) post translocation chaperone P...  84.3    9e-18
+VFG032877(gb|WP_003769842) (prsA2) post translocation chaperone P...  83.2    2e-17
+VFG032908(gb|WP_014093538) (prsA2) post translocation chaperone P...  83.2    2e-17
+VFG032881(gb|WP_003727835) (prsA2) post translocation chaperone P...  82.4    4e-17
+VFG032879(gb|WP_003726773) (prsA2) post translocation chaperone P...  82.4    4e-17
+VFG032897(gb|WP_003729617) (prsA2) post translocation chaperone P...  81.6    6e-17
+VFG032882(gb|WP_012580876) (prsA2) post translocation chaperone P...  81.6    7e-17
+VFG032880(gb|WP_011702987) (prsA2) post translocation chaperone P...  79.3    3e-16
+VFG043537(gb|YP_002344026) (PEB4) major antigenic peptide PEB-cel...  63.9    4e-11
+
+
+>VFG032878(gb|NP_465743) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria monocytogenes EGD-e]
+Length=293
+
+ Score = 85.1 bits (209),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 61/162 (38%), Positives = 89/162 (55%), Gaps = 6/162 (4%)
+
+Query  202  KSSVSDDEVKAFYEGHKSEFMTPEQVVVEYVELKKSSFFDQVKVK---QEDLEALYQKEI  258
+            K  VSD++V   +  +KS++      V+    L + SF  Q+K     Q+  EA      
+Sbjct  65   KYKVSDEDVDKKFNEYKSQYGDQFSAVLTQSGLTEKSFKSQLKYNLLVQKATEANTDTSD  124
+
+Query  259  ANLSEQRDAAHILIEVNDKVGDEQAKAKIDEIKARLAKGEDFAALAKEFSQDIGSAATGG  318
+              L +  +     I V+  +  ++ KAK  E++ +L  GE FA LAKE+S D  +   GG
+Sbjct  125  KTLKKYYETWQPDITVSHILVADENKAK--EVEQKLKDGEKFADLAKEYSTDTATKDNGG  182
+
+Query  319  DLGYAGRGVYDPAFEEALYALK-QGEVSAPVKTPYGYHLIKL  359
+             L   G G  DPAFE+A YALK +G++SAPVKT YGYH+I++
+Sbjct  183  QLAPFGPGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQM  224
+
+
+>VFG032883(gb|WP_003724025) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria monocytogenes 08-5578]
+Length=293
+
+ Score = 84.7 bits (208),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 61/162 (38%), Positives = 89/162 (55%), Gaps = 6/162 (4%)
+
+Query  202  KSSVSDDEVKAFYEGHKSEFMTPEQVVVEYVELKKSSFFDQVKVK---QEDLEALYQKEI  258
+            K  VSD++V   +  +KS++      V+    L + SF  Q+K     Q+  EA      
+Sbjct  65   KYKVSDEDVDKKFNEYKSQYGDQFSAVLAQSGLTEKSFKSQLKYNLLVQKATEANTDTSD  124
+
+Query  259  ANLSEQRDAAHILIEVNDKVGDEQAKAKIDEIKARLAKGEDFAALAKEFSQDIGSAATGG  318
+              L +  +     I V+  +  ++ KAK  E++ +L  GE FA LAKE+S D  +   GG
+Sbjct  125  KTLKKYYETWQPDITVSHILVADENKAK--EVEQKLKDGEKFADLAKEYSTDTATKDNGG  182
+
+Query  319  DLGYAGRGVYDPAFEEALYALK-QGEVSAPVKTPYGYHLIKL  359
+             L   G G  DPAFE+A YALK +G++SAPVKT YGYH+I++
+Sbjct  183  QLAPFGPGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQM  224
+
+
+>VFG032909(gb|WP_012986269) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria seeligeri serovar 1/2b str. SLCC3954]
+Length=295
+
+ Score = 84.3 bits (207),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 75/227 (33%), Positives = 112/227 (49%), Gaps = 18/227 (8%)
+
+Query  148  MQFRQMLGQEMLIGQLRAGLAGTGF---------VTDNELQSFARLEKQTRDFATLAI--  196
+            M+ + +LG  ML+        G G          VT +EL   A  +K   +F       
+Sbjct  1    MKKKMILGLVMLMAMFSLAACGGGSDVVKTDAGDVTQDELYE-AMKDKYGNEFVQQLTFE  59
+
+Query  197  KADASKSSVSDDEVKAFYEGHKSEFMTPEQVVVEYVELKKSSFFDQVKVK---QEDLEAL  253
+            K    K  V+D++V + ++ +KS++      V+    L + +F  Q+K     Q+  EA 
+Sbjct  60   KILGDKYKVTDEQVDSEFKKYKSQYGDQFDAVLAQSGLTEETFKSQLKYNMLVQKATEAN  119
+
+Query  254  YQKEIANLSEQRDAAHILIEVNDKVGDEQAKAKIDEIKARLAKGEDFAALAKEFSQDIGS  313
+                   L E        I V+  +  ++AKAK  E++ +L  GE FA LAKE+S D  +
+Sbjct  120  TDTSDKALKEYYKTWQPDITVSHILVADEAKAK--EVEQKLKDGEKFADLAKEYSTDTAT  177
+
+Query  314  AATGGDLGYAGRGVYDPAFEEALYALK-QGEVSAPVKTPYGYHLIKL  359
+               GG L   G G  DPAFE+A YALK +G++S PVKT YGYH+I++
+Sbjct  178  KDNGGKLAPFGPGKMDPAFEKAAYALKNKGDISDPVKTQYGYHIIQM  224
+
+
+>VFG032877(gb|WP_003769842) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria innocua Clip11262]
+Length=291
+
+ Score = 83.2 bits (204),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 61/162 (38%), Positives = 88/162 (54%), Gaps = 6/162 (4%)
+
+Query  202  KSSVSDDEVKAFYEGHKSEFMTPEQVVVEYVELKKSSFFDQVKVK---QEDLEALYQKEI  258
+            K  VSD++V   ++ +KS++      V+    L + SF  Q+K     Q+  EA      
+Sbjct  65   KYKVSDEDVDKKFKEYKSQYGDQFSAVLAQSGLTEKSFKSQLKYNLLVQKATEANADTSD  124
+
+Query  259  ANLSEQRDAAHILIEVNDKVGDEQAKAKIDEIKARLAKGEDFAALAKEFSQDIGSAATGG  318
+              L E        I V+  +  ++ KAK  E++ +L  G  FA LAKE+S D  +   GG
+Sbjct  125  KALKEYYKTWQPDITVSHILVADENKAK--EVEQKLKDGAKFADLAKEYSTDTATKENGG  182
+
+Query  319  DLGYAGRGVYDPAFEEALYALK-QGEVSAPVKTPYGYHLIKL  359
+             L   G G  DPAFE+A YALK +G++SAPVKT YGYH+I++
+Sbjct  183  QLAPFGSGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQM  224
+
+
+>VFG032908(gb|WP_014093538) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria ivanovii subsp. ivanovii PAM 55]
+Length=295
+
+ Score = 83.2 bits (204),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 75/227 (33%), Positives = 111/227 (49%), Gaps = 18/227 (8%)
+
+Query  148  MQFRQMLGQEMLIGQLRAGLAG---------TGFVTDNELQSFARLEKQTRDFATLAI--  196
+            M+ + +LG  ML+        G          G VT +EL   A  +K   +F       
+Sbjct  1    MKKKMILGLVMLMAMFSLAACGGGSNVVKTDAGNVTQDELYE-AMKDKYGNEFVQQLTFE  59
+
+Query  197  KADASKSSVSDDEVKAFYEGHKSEFMTPEQVVVEYVELKKSSFFDQVKVK---QEDLEAL  253
+            K    K  V+D++V +  + +KS++      V+    L + +F  Q+K     Q+  EA 
+Sbjct  60   KILGDKYKVTDEQVDSELKKYKSQYGDQFDAVLAQSGLTEETFKSQLKYNLLVQKATEAN  119
+
+Query  254  YQKEIANLSEQRDAAHILIEVNDKVGDEQAKAKIDEIKARLAKGEDFAALAKEFSQDIGS  313
+                   L E        I V+  +  ++AKAK  E++ +L  G  FA LAKE+S D  +
+Sbjct  120  TDTSDKALKEYYKTWQPDITVSHILVADEAKAK--EVEKKLKDGAKFADLAKEYSTDTAT  177
+
+Query  314  AATGGDLGYAGRGVYDPAFEEALYALK-QGEVSAPVKTPYGYHLIKL  359
+               GG L   G G  DPAFE+A YALK +G++SAPVKT YGYH+I++
+Sbjct  178  KENGGQLAPFGPGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQM  224
+
+
+>VFG032881(gb|WP_003727835) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria monocytogenes serotype 4b str. CLIP 80459]
+Length=293
+
+ Score = 82.4 bits (202),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 60/162 (37%), Positives = 88/162 (54%), Gaps = 6/162 (4%)
+
+Query  202  KSSVSDDEVKAFYEGHKSEFMTPEQVVVEYVELKKSSFFDQVKVK---QEDLEALYQKEI  258
+            K  VSD++V   +  +KS++      V+    L + SF  Q+K     Q+  EA      
+Sbjct  65   KYKVSDEDVDKKFNEYKSQYGDQFSAVLAQSGLTEKSFKSQLKYNLLVQKATEANTDTSD  124
+
+Query  259  ANLSEQRDAAHILIEVNDKVGDEQAKAKIDEIKARLAKGEDFAALAKEFSQDIGSAATGG  318
+              L +  +     I V+  +  ++ KAK  E++ +L  G  FA LAKE+S D  +   GG
+Sbjct  125  KTLKKYYETWQPDITVSHILVADENKAK--EVEQKLKDGAKFADLAKEYSTDTATKDNGG  182
+
+Query  319  DLGYAGRGVYDPAFEEALYALK-QGEVSAPVKTPYGYHLIKL  359
+             L   G G  DPAFE+A YALK +G++SAPVKT YGYH+I++
+Sbjct  183  QLAPFGPGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQM  224
+
+
+>VFG032879(gb|WP_003726773) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria monocytogenes serotype 4b str. F2365]
+Length=293
+
+ Score = 82.4 bits (202),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 60/162 (37%), Positives = 88/162 (54%), Gaps = 6/162 (4%)
+
+Query  202  KSSVSDDEVKAFYEGHKSEFMTPEQVVVEYVELKKSSFFDQVKVK---QEDLEALYQKEI  258
+            K  VSD++V   +  +KS++      V+    L + SF  Q+K     Q+  EA      
+Sbjct  65   KYKVSDEDVDKKFNEYKSQYGDQFSAVLAQSGLTEKSFKSQLKYNLLVQKATEANTDTSD  124
+
+Query  259  ANLSEQRDAAHILIEVNDKVGDEQAKAKIDEIKARLAKGEDFAALAKEFSQDIGSAATGG  318
+              L +  +     I V+  +  ++ KAK  E++ +L  G  FA LAKE+S D  +   GG
+Sbjct  125  KTLKKYYETWQPDITVSHILVADENKAK--EVEQKLKDGAKFADLAKEYSTDTATKDNGG  182
+
+Query  319  DLGYAGRGVYDPAFEEALYALK-QGEVSAPVKTPYGYHLIKL  359
+             L   G G  DPAFE+A YALK +G++SAPVKT YGYH+I++
+Sbjct  183  QLAPFGPGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQM  224
+
+
+>VFG032897(gb|WP_003729617) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria monocytogenes SLCC2376]
+Length=293
+
+ Score = 81.6 bits (200),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 64/169 (38%), Positives = 89/169 (53%), Gaps = 20/169 (12%)
+
+Query  202  KSSVSDDEVKAFYEGHKSEFMTPEQVVVEYVELKKSSFFDQVKVK---QEDLEA------  252
+            K  VSD++V   +  +KS++      V+    L + SF  Q+K     Q+  EA      
+Sbjct  65   KYKVSDEDVDKKFNEYKSQYGDQFSAVLAQSGLTEKSFKSQLKYNLLVQKATEANTDTSD  124
+
+Query  253  -LYQKEIANLSEQRDAAHILIEVNDKVGDEQAKAKIDEIKARLAKGEDFAALAKEFSQDI  311
+             + +K           +HIL      V DE  KAK  E++ +L  G  FA LAKE+S D 
+Sbjct  125  KVLKKYYETWQPDITVSHIL------VADEN-KAK--EVEQKLKDGAKFADLAKEYSTDT  175
+
+Query  312  GSAATGGDLGYAGRGVYDPAFEEALYALK-QGEVSAPVKTPYGYHLIKL  359
+             +   GG L   G G  DPAFE+A YALK +G++SAPVKT YGYH+I++
+Sbjct  176  ATKENGGQLAPFGPGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQM  224
+
+
+>VFG032882(gb|WP_012580876) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria monocytogenes HCC23]
+Length=293
+
+ Score = 81.6 bits (200),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 64/169 (38%), Positives = 89/169 (53%), Gaps = 20/169 (12%)
+
+Query  202  KSSVSDDEVKAFYEGHKSEFMTPEQVVVEYVELKKSSFFDQVKVK---QEDLEA------  252
+            K  VSD++V   +  +KS++      V+    L + SF  Q+K     Q+  EA      
+Sbjct  65   KYKVSDEDVDKKFNEYKSQYGDQFSAVLAQSGLTEKSFKSQLKYNLLVQKATEANTDTSD  124
+
+Query  253  -LYQKEIANLSEQRDAAHILIEVNDKVGDEQAKAKIDEIKARLAKGEDFAALAKEFSQDI  311
+             + +K           +HIL      V DE  KAK  E++ +L  G  FA LAKE+S D 
+Sbjct  125  KVLKKYYETWQPDITVSHIL------VADEN-KAK--EVEQKLKDGAKFADLAKEYSTDT  175
+
+Query  312  GSAATGGDLGYAGRGVYDPAFEEALYALK-QGEVSAPVKTPYGYHLIKL  359
+             +   GG L   G G  DPAFE+A YALK +G++SAPVKT YGYH+I++
+Sbjct  176  ATKENGGQLAPFGPGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQM  224
+
+
+>VFG032880(gb|WP_011702987) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria welshimeri serovar 6b str. SLCC5334]
+Length=291
+
+ Score = 79.3 bits (194),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 46/93 (49%), Positives = 61/93 (66%), Gaps = 10/93 (11%)
+
+Query  268  AHILIEVNDKVGDEQAKAKIDEIKARLAKGEDFAALAKEFSQDIGSAATGGDLGYAGRGV  327
+            +HIL      V DE+ KAK  E++ +L  G  F+ LAKE+S D  +   GG L   G G 
+Sbjct  141  SHIL------VADEK-KAK--EVEQKLKDGAKFSDLAKEYSTDTATKENGGQLAAFGPGK  191
+
+Query  328  YDPAFEEALYALK-QGEVSAPVKTPYGYHLIKL  359
+             DPAFE+A YALK +G++SAPVKT YGYH+I++
+Sbjct  192  MDPAFEKAAYALKNKGDISAPVKTQYGYHIIQM  224
+
+
+>VFG043537(gb|YP_002344026) (PEB4) major antigenic peptide PEB-cell 
+binding factor [Adherence and biofilm formation (VF0723) 
+- Biofilm (VFC0271)] [Campylobacter jejuni subsp. jejuni 
+NCTC 11168]
+Length=273
+
+ Score = 63.9 bits (154),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 61/210 (29%), Positives = 94/210 (45%), Gaps = 53/210 (25%)
+
+Query  195  AIKADASKSSVSDDEVKAFYEGHKSEFMTPEQVVVEYVELKKSSFFDQVKVKQEDLEALY  254
+             IK DA+K       VKAFY+ +K +++ P +V                           
+Sbjct  109  TIKIDAAK-------VKAFYDQNKDKYVKPARV---------------------------  134
+
+Query  255  QKEIANLSEQRDAAHILIEVNDKVGDEQAKAKIDEIKARLAKGED--FAALAKEFSQDIG  312
+                        A HIL+       +++AK  I+E+K    K  D  F+ LAKE S D G
+Sbjct  135  -----------QAKHILVAT-----EKEAKDIINELKGLKGKELDAKFSELAKEKSIDPG  178
+
+Query  313  SAATGGDLGYAGRGVYDPAFEEALYALKQGEV-SAPVKTPYGYHLIKLLGVQAPEVPSLE  371
+            S   GG+LG+  +      F +A +ALK G + + PVKT +GYH+I     QA      +
+Sbjct  179  SKNQGGELGWFDQSTMVKPFTDAAFALKNGTITTTPVKTNFGYHVILKENSQAKGQIKFD  238
+
+Query  372  SLKPKLEDELKKQMVEQRFVEATKDLESSA  401
+             +K  +E+ LK +  ++   +  +DL +SA
+Sbjct  239  EVKQGIENGLKFEEFKKVINQKGQDLLNSA  268
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.131    0.350    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5321129865
+
+
+Query= g420.t1
+
+Length=623
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043537(gb|YP_002344026) (PEB4) major antigenic peptide PEB-cel...  64.7    2e-11
+VFG032909(gb|WP_012986269) (prsA2) post translocation chaperone P...  55.8    2e-08
+VFG032878(gb|NP_465743) (prsA2) post translocation chaperone PrsA...  55.1    4e-08
+VFG032883(gb|WP_003724025) (prsA2) post translocation chaperone P...  55.1    4e-08
+VFG032877(gb|WP_003769842) (prsA2) post translocation chaperone P...  53.1    2e-07
+VFG032881(gb|WP_003727835) (prsA2) post translocation chaperone P...  52.8    2e-07
+VFG032879(gb|WP_003726773) (prsA2) post translocation chaperone P...  52.8    2e-07
+VFG032882(gb|WP_012580876) (prsA2) post translocation chaperone P...  52.4    3e-07
+VFG032897(gb|WP_003729617) (prsA2) post translocation chaperone P...  52.4    3e-07
+VFG032908(gb|WP_014093538) (prsA2) post translocation chaperone P...  52.4    4e-07
+VFG032880(gb|WP_011702987) (prsA2) post translocation chaperone P...  50.1    2e-06
+
+
+>VFG043537(gb|YP_002344026) (PEB4) major antigenic peptide PEB-cell 
+binding factor [Adherence and biofilm formation (VF0723) 
+- Biofilm (VFC0271)] [Campylobacter jejuni subsp. jejuni 
+NCTC 11168]
+Length=273
+
+ Score = 64.7 bits (156),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 48/154 (31%), Positives = 81/154 (53%), Gaps = 17/154 (11%)
+
+Query  233  VSYIKLDAATMQAPVSDADIQAYYDQHVDQFTQPERIRYSIIQTKTEDDAKAVLDALN--  290
+            ++ IK+DAA          ++A+YDQ+ D++ +P R++   I   TE +AK +++ L   
+Sbjct  107  LNTIKIDAAK---------VKAFYDQNKDKYVKPARVQAKHILVATEKEAKDIINELKGL  157
+
+Query  291  KGED----FATLAKEKSTDIISARNGGDMGWLEESATVPELKNAGLKEK-GQISGV-IKS  344
+            KG++    F+ LAKEKS D  S   GG++GW ++S  V    +A    K G I+   +K+
+Sbjct  158  KGKELDAKFSELAKEKSIDPGSKNQGGELGWFDQSTMVKPFTDAAFALKNGTITTTPVKT  217
+
+Query  345  SVGFLVARLDDIQPAKVKPLSEVRDDIAAKVKQE  378
+            + G+ V   ++ Q        EV+  I   +K E
+Sbjct  218  NFGYHVILKENSQAKGQIKFDEVKQGIENGLKFE  251
+
+
+>VFG032909(gb|WP_012986269) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria seeligeri serovar 1/2b str. SLCC3954]
+Length=295
+
+ Score = 55.8 bits (133),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 55/176 (31%), Positives = 81/176 (46%), Gaps = 28/176 (16%)
+
+Query  203  LAAKQQVTDQEVSSYYDQNKVRF------------MTPEQFRVSYIKLDAATMQAP----  246
+            L  K +VTD++V S + + K ++            +T E F+ S +K +    +A     
+Sbjct  62   LGDKYKVTDEQVDSEFKKYKSQYGDQFDAVLAQSGLTEETFK-SQLKYNMLVQKATEANT  120
+
+Query  247  -VSDADIQAYYDQHVDQFTQPERIRYSIIQTKTEDDAKAVLDALNKGEDFATLAKEKSTD  305
+              SD  ++ YY     +  QP+ I  S I    E  AK V   L  GE FA LAKE STD
+Sbjct  121  DTSDKALKEYY-----KTWQPD-ITVSHILVADEAKAKEVEQKLKDGEKFADLAKEYSTD  174
+
+Query  306  IISARNGGDMGWLEESATVPELKNA--GLKEKGQISGVIKSSVGFLVARLDDIQPA  359
+              +  NGG +         P  + A   LK KG IS  +K+  G+ + ++D  +PA
+Sbjct  175  TATKDNGGKLAPFGPGKMDPAFEKAAYALKNKGDISDPVKTQYGYHIIQMD--EPA  228
+
+
+>VFG032878(gb|NP_465743) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria monocytogenes EGD-e]
+Length=293
+
+ Score = 55.1 bits (131),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 52/176 (30%), Positives = 82/176 (47%), Gaps = 28/176 (16%)
+
+Query  203  LAAKQQVTDQEVSSYYDQNKVRF------------MTPEQFRVSYIKLDAATMQAP----  246
+            L  K +V+D++V   +++ K ++            +T + F+ S +K +    +A     
+Sbjct  62   LGDKYKVSDEDVDKKFNEYKSQYGDQFSAVLTQSGLTEKSFK-SQLKYNLLVQKATEANT  120
+
+Query  247  -VSDADIQAYYDQHVDQFTQPERIRYSIIQTKTEDDAKAVLDALNKGEDFATLAKEKSTD  305
+              SD  ++ YY+       QP+ I  S I    E+ AK V   L  GE FA LAKE STD
+Sbjct  121  DTSDKTLKKYYETW-----QPD-ITVSHILVADENKAKEVEQKLKDGEKFADLAKEYSTD  174
+
+Query  306  IISARNGGDMGWLEESATVPELKNA--GLKEKGQISGVIKSSVGFLVARLDDIQPA  359
+              +  NGG +         P  + A   LK KG IS  +K+  G+ + ++D  +PA
+Sbjct  175  TATKDNGGQLAPFGPGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQMD--KPA  228
+
+
+>VFG032883(gb|WP_003724025) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria monocytogenes 08-5578]
+Length=293
+
+ Score = 55.1 bits (131),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 52/176 (30%), Positives = 82/176 (47%), Gaps = 28/176 (16%)
+
+Query  203  LAAKQQVTDQEVSSYYDQNKVRF------------MTPEQFRVSYIKLDAATMQAP----  246
+            L  K +V+D++V   +++ K ++            +T + F+ S +K +    +A     
+Sbjct  62   LGDKYKVSDEDVDKKFNEYKSQYGDQFSAVLAQSGLTEKSFK-SQLKYNLLVQKATEANT  120
+
+Query  247  -VSDADIQAYYDQHVDQFTQPERIRYSIIQTKTEDDAKAVLDALNKGEDFATLAKEKSTD  305
+              SD  ++ YY+       QP+ I  S I    E+ AK V   L  GE FA LAKE STD
+Sbjct  121  DTSDKTLKKYYETW-----QPD-ITVSHILVADENKAKEVEQKLKDGEKFADLAKEYSTD  174
+
+Query  306  IISARNGGDMGWLEESATVPELKNA--GLKEKGQISGVIKSSVGFLVARLDDIQPA  359
+              +  NGG +         P  + A   LK KG IS  +K+  G+ + ++D  +PA
+Sbjct  175  TATKDNGGQLAPFGPGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQMD--KPA  228
+
+
+>VFG032877(gb|WP_003769842) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria innocua Clip11262]
+Length=291
+
+ Score = 53.1 bits (126),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 52/176 (30%), Positives = 80/176 (45%), Gaps = 28/176 (16%)
+
+Query  203  LAAKQQVTDQEVSSYYDQNKVRF------------MTPEQFRVSYIKLD-----AATMQA  245
+            L  K +V+D++V   + + K ++            +T + F+ S +K +     A    A
+Sbjct  62   LGDKYKVSDEDVDKKFKEYKSQYGDQFSAVLAQSGLTEKSFK-SQLKYNLLVQKATEANA  120
+
+Query  246  PVSDADIQAYYDQHVDQFTQPERIRYSIIQTKTEDDAKAVLDALNKGEDFATLAKEKSTD  305
+              SD  ++ YY     +  QP+ I  S I    E+ AK V   L  G  FA LAKE STD
+Sbjct  121  DTSDKALKEYY-----KTWQPD-ITVSHILVADENKAKEVEQKLKDGAKFADLAKEYSTD  174
+
+Query  306  IISARNGGDMGWLEESATVPELKNA--GLKEKGQISGVIKSSVGFLVARLDDIQPA  359
+              +  NGG +         P  + A   LK KG IS  +K+  G+ + ++D  +PA
+Sbjct  175  TATKENGGQLAPFGSGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQMD--KPA  228
+
+
+>VFG032881(gb|WP_003727835) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria monocytogenes serotype 4b str. CLIP 80459]
+Length=293
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 51/176 (29%), Positives = 81/176 (46%), Gaps = 28/176 (16%)
+
+Query  203  LAAKQQVTDQEVSSYYDQNKVRF------------MTPEQFRVSYIKLDAATMQAP----  246
+            L  K +V+D++V   +++ K ++            +T + F+ S +K +    +A     
+Sbjct  62   LGDKYKVSDEDVDKKFNEYKSQYGDQFSAVLAQSGLTEKSFK-SQLKYNLLVQKATEANT  120
+
+Query  247  -VSDADIQAYYDQHVDQFTQPERIRYSIIQTKTEDDAKAVLDALNKGEDFATLAKEKSTD  305
+              SD  ++ YY+       QP+ I  S I    E+ AK V   L  G  FA LAKE STD
+Sbjct  121  DTSDKTLKKYYETW-----QPD-ITVSHILVADENKAKEVEQKLKDGAKFADLAKEYSTD  174
+
+Query  306  IISARNGGDMGWLEESATVPELKNA--GLKEKGQISGVIKSSVGFLVARLDDIQPA  359
+              +  NGG +         P  + A   LK KG IS  +K+  G+ + ++D  +PA
+Sbjct  175  TATKDNGGQLAPFGPGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQMD--KPA  228
+
+
+>VFG032879(gb|WP_003726773) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria monocytogenes serotype 4b str. F2365]
+Length=293
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 51/176 (29%), Positives = 81/176 (46%), Gaps = 28/176 (16%)
+
+Query  203  LAAKQQVTDQEVSSYYDQNKVRF------------MTPEQFRVSYIKLDAATMQAP----  246
+            L  K +V+D++V   +++ K ++            +T + F+ S +K +    +A     
+Sbjct  62   LGDKYKVSDEDVDKKFNEYKSQYGDQFSAVLAQSGLTEKSFK-SQLKYNLLVQKATEANT  120
+
+Query  247  -VSDADIQAYYDQHVDQFTQPERIRYSIIQTKTEDDAKAVLDALNKGEDFATLAKEKSTD  305
+              SD  ++ YY+       QP+ I  S I    E+ AK V   L  G  FA LAKE STD
+Sbjct  121  DTSDKTLKKYYETW-----QPD-ITVSHILVADENKAKEVEQKLKDGAKFADLAKEYSTD  174
+
+Query  306  IISARNGGDMGWLEESATVPELKNA--GLKEKGQISGVIKSSVGFLVARLDDIQPA  359
+              +  NGG +         P  + A   LK KG IS  +K+  G+ + ++D  +PA
+Sbjct  175  TATKDNGGQLAPFGPGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQMD--KPA  228
+
+
+>VFG032882(gb|WP_012580876) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria monocytogenes HCC23]
+Length=293
+
+ Score = 52.4 bits (124),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 51/176 (29%), Positives = 81/176 (46%), Gaps = 28/176 (16%)
+
+Query  203  LAAKQQVTDQEVSSYYDQNKVRF------------MTPEQFRVSYIKLDAATMQAP----  246
+            L  K +V+D++V   +++ K ++            +T + F+ S +K +    +A     
+Sbjct  62   LGDKYKVSDEDVDKKFNEYKSQYGDQFSAVLAQSGLTEKSFK-SQLKYNLLVQKATEANT  120
+
+Query  247  -VSDADIQAYYDQHVDQFTQPERIRYSIIQTKTEDDAKAVLDALNKGEDFATLAKEKSTD  305
+              SD  ++ YY+       QP+ I  S I    E+ AK V   L  G  FA LAKE STD
+Sbjct  121  DTSDKVLKKYYETW-----QPD-ITVSHILVADENKAKEVEQKLKDGAKFADLAKEYSTD  174
+
+Query  306  IISARNGGDMGWLEESATVPELKNA--GLKEKGQISGVIKSSVGFLVARLDDIQPA  359
+              +  NGG +         P  + A   LK KG IS  +K+  G+ + ++D  +PA
+Sbjct  175  TATKENGGQLAPFGPGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQMD--KPA  228
+
+
+>VFG032897(gb|WP_003729617) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria monocytogenes SLCC2376]
+Length=293
+
+ Score = 52.4 bits (124),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 51/176 (29%), Positives = 81/176 (46%), Gaps = 28/176 (16%)
+
+Query  203  LAAKQQVTDQEVSSYYDQNKVRF------------MTPEQFRVSYIKLDAATMQAP----  246
+            L  K +V+D++V   +++ K ++            +T + F+ S +K +    +A     
+Sbjct  62   LGDKYKVSDEDVDKKFNEYKSQYGDQFSAVLAQSGLTEKSFK-SQLKYNLLVQKATEANT  120
+
+Query  247  -VSDADIQAYYDQHVDQFTQPERIRYSIIQTKTEDDAKAVLDALNKGEDFATLAKEKSTD  305
+              SD  ++ YY+       QP+ I  S I    E+ AK V   L  G  FA LAKE STD
+Sbjct  121  DTSDKVLKKYYETW-----QPD-ITVSHILVADENKAKEVEQKLKDGAKFADLAKEYSTD  174
+
+Query  306  IISARNGGDMGWLEESATVPELKNA--GLKEKGQISGVIKSSVGFLVARLDDIQPA  359
+              +  NGG +         P  + A   LK KG IS  +K+  G+ + ++D  +PA
+Sbjct  175  TATKENGGQLAPFGPGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQMD--KPA  228
+
+
+>VFG032908(gb|WP_014093538) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria ivanovii subsp. ivanovii PAM 55]
+Length=295
+
+ Score = 52.4 bits (124),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 54/176 (31%), Positives = 79/176 (45%), Gaps = 28/176 (16%)
+
+Query  203  LAAKQQVTDQEVSSYYDQNKVRF------------MTPEQFRVSYIKLDAATMQAP----  246
+            L  K +VTD++V S   + K ++            +T E F+ S +K +    +A     
+Sbjct  62   LGDKYKVTDEQVDSELKKYKSQYGDQFDAVLAQSGLTEETFK-SQLKYNLLVQKATEANT  120
+
+Query  247  -VSDADIQAYYDQHVDQFTQPERIRYSIIQTKTEDDAKAVLDALNKGEDFATLAKEKSTD  305
+              SD  ++ YY     +  QP+ I  S I    E  AK V   L  G  FA LAKE STD
+Sbjct  121  DTSDKALKEYY-----KTWQPD-ITVSHILVADEAKAKEVEKKLKDGAKFADLAKEYSTD  174
+
+Query  306  IISARNGGDMGWLEESATVPELKNA--GLKEKGQISGVIKSSVGFLVARLDDIQPA  359
+              +  NGG +         P  + A   LK KG IS  +K+  G+ + ++D  +PA
+Sbjct  175  TATKENGGQLAPFGPGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQMD--KPA  228
+
+
+>VFG032880(gb|WP_011702987) (prsA2) post translocation chaperone 
+PrsA2 [PrsA2 (VF0449) - Post-translational modification (VFC0315)] 
+[Listeria welshimeri serovar 6b str. SLCC5334]
+Length=291
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 50/176 (28%), Positives = 79/176 (45%), Gaps = 28/176 (16%)
+
+Query  203  LAAKQQVTDQEVSSYYDQNKVRF------------MTPEQFRVSYIKLDAATMQAP----  246
+            L  K +V+D++V   + + K ++            +T + F+ S +K +    +A     
+Sbjct  62   LGDKYKVSDEDVDKKFKEYKAQYGDQFAAVLAQSGLTEKTFK-SQLKYNLLVQKATEANT  120
+
+Query  247  -VSDADIQAYYDQHVDQFTQPERIRYSIIQTKTEDDAKAVLDALNKGEDFATLAKEKSTD  305
+              SD  ++ YY     +  QP+ I  S I    E  AK V   L  G  F+ LAKE STD
+Sbjct  121  DTSDKALKEYY-----KTWQPD-ITVSHILVADEKKAKEVEQKLKDGAKFSDLAKEYSTD  174
+
+Query  306  IISARNGGDMGWLEESATVPELKNA--GLKEKGQISGVIKSSVGFLVARLDDIQPA  359
+              +  NGG +         P  + A   LK KG IS  +K+  G+ + ++D  +PA
+Sbjct  175  TATKENGGQLAAFGPGKMDPAFEKAAYALKNKGDISAPVKTQYGYHIIQMD--EPA  228
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.129    0.346    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5341794447
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

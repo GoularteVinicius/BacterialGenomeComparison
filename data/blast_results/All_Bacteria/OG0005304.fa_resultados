@@ -1,0 +1,957 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3395.t1
+
+Length=441
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG016038(gb|NP_251090) (pvdJ) pyoverdine biosynthesis protein Pv...  66.6    2e-11
+VFG016040(gb|WP_078463717) (pvdJ) pyoverdine biosynthesis protein...  66.6    2e-11
+VFG016032(gb|WP_011666646) (pvdD) pyoverdine synthetase D [Pyover...  59.3    3e-09
+VFG000161(gb|NP_251089) (pvdD) pyoverdine synthetase D [Pyoverdin...  58.9    4e-09
+VFG016068(gb|WP_011335255) (pvdL) peptide synthase PvdL [Pyoverdi...  58.2    8e-09
+VFG020317(gb|WP_012614130) (pvdI) peptide synthase [Pyoverdine (V...  55.1    8e-08
+VFG016061(gb|WP_162839071) (pvdL) peptide synthase PvdL [Pyoverdi...  54.7    8e-08
+VFG020071(gb|WP_012723748) (pvdJ) pyoverdine biosynthesis protein...  54.7    1e-07
+VFG016045(gb|WP_011062374) (pvdI) peptide synthase [Pyoverdine (V...  53.1    3e-07
+VFG020077(gb|WP_015885148) (pvdL) peptide synthase PvdL [Pyoverdi...  52.8    4e-07
+VFG016043(gb|WP_011666644) (pvdI) peptide synthase [Pyoverdine (V...  52.0    7e-07
+VFG016037(gb|WP_011062375) (pvdD) pyoverdine synthetase D [Pyover...  51.2    1e-06
+VFG016041(gb|NP_251092) (pvdI) peptide synthase [Pyoverdine (VF00...  50.8    1e-06
+VFG016065(gb|WP_012051699) (pvdL) peptide synthase PvdL [Pyoverdi...  50.8    2e-06
+VFG016066(gb|WP_011533065) (pvdL) peptide synthase PvdL [Pyoverdi...  50.4    2e-06
+VFG015908(gb|WP_164920478) (syrE) non-ribosomal peptide synthetas...  50.4    2e-06
+VFG016064(gb|WP_010954996) (pvdL) peptide synthase PvdL [Pyoverdi...  50.1    2e-06
+VFG022707(gb|WP_013828479) (mbtF) Peptide synthetase MbtF (peptid...  50.1    3e-06
+VFG020073(gb|WP_043205221) (pvdI) peptide synthase [Pyoverdine (V...  50.1    3e-06
+VFG016063(gb|WP_166486371) (pvdL) peptide synthase PvdL [Pyoverdi...  49.7    3e-06
+VFG016035(gb|WP_011168293) (pvdD) pyoverdine synthetase D [Pyover...  49.7    3e-06
+VFG016044(gb|WP_011534374) (pvdI) peptide synthase [Pyoverdine (V...  49.3    4e-06
+VFG016042(gb|WP_161440564) (pvdI) peptide synthase [Pyoverdine (V...  49.3    5e-06
+VFG015827(gb|WP_012315395) (pvdL) peptide synthase PvdL [Pyoverdi...  48.9    6e-06
+VFG044432(gb|CAJ45639) (vabF) vanchrobactin non ribosomal peptide...  48.9    6e-06
+VFG015906(gb|WP_011267825) (sypC) syringopeptin non-ribosomal pep...  48.9    7e-06
+VFG015826(gb|WP_012273396) (pvdL) peptide synthase PvdL [Pyoverdi...  48.5    7e-06
+VFG016067(gb|WP_011062464) (pvdL) peptide synthase PvdL [Pyoverdi...  48.5    9e-06
+
+
+>VFG016038(gb|NP_251090) (pvdJ) pyoverdine biosynthesis protein 
+PvdJ [Pyoverdine (VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=2157
+
+ Score = 66.6 bits (161),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 52/152 (34%), Positives = 78/152 (51%), Gaps = 11/152 (7%)
+
+Query  7    PLSAVERWYW----LSDQFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHD  62
+            PLS  +   W    L  + SA ++ + +R+ GRL I  L+R   AL  RH  LR RI   
+Sbjct  19   PLSYAQERQWFLWQLEPESSAYHIPTALRLRGRLDIASLQRSFAALVERHESLRTRI---  75
+
+Query  63   AGLDPRWV---PCERPIPLR-EVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIATD  118
+            A +   WV     +  + L  EV+ G +EQ L E  E E+    D + GPL+R   +  D
+Sbjct  76   ARMGDEWVQVVSADVSLALEVEVQRGLDEQRLLERVEAEIARPFDLEQGPLLRVTLLEVD  135
+
+Query  119  AGAHDLLVVVPHIIADGTTVLTLAEQWLTLAA  150
+            A  H L++V  HI++DG ++  + E+ + L A
+Sbjct  136  ADEHVLVMVQHHIVSDGWSMQLMVEELVQLYA  167
+
+
+>VFG016040(gb|WP_078463717) (pvdJ) pyoverdine biosynthesis protein 
+PvdJ [Pyoverdine (VF0094) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=2157
+
+ Score = 66.6 bits (161),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 52/152 (34%), Positives = 78/152 (51%), Gaps = 11/152 (7%)
+
+Query  7    PLSAVERWYW----LSDQFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHD  62
+            PLS  +   W    L  + SA ++ + +R+ GRL I  L+R   AL  RH  LR RI   
+Sbjct  19   PLSYAQERQWFLWQLEPESSAYHIPTALRLRGRLDIASLQRSFAALVERHESLRTRI---  75
+
+Query  63   AGLDPRWV---PCERPIPLR-EVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIATD  118
+            A +   WV     +  + L  EV+ G +EQ L E  E E+    D + GPL+R   +  D
+Sbjct  76   ARMGDEWVQVVSADVSLALEVEVQRGLDEQRLLERVEAEIARPFDLEQGPLLRVTLLEVD  135
+
+Query  119  AGAHDLLVVVPHIIADGTTVLTLAEQWLTLAA  150
+            A  H L++V  HI++DG ++  + E+ + L A
+Sbjct  136  ADEHVLVMVQHHIVSDGWSMQLMVEELVQLYA  167
+
+
+>VFG016032(gb|WP_011666646) (pvdD) pyoverdine synthetase D [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa UCBPP-PA14]
+Length=2448
+
+ Score = 59.3 bits (142),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 78/273 (29%), Positives = 125/273 (46%), Gaps = 14/273 (5%)
+
+Query  13   RWY-W-LSDQFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHDAGLDPRWV  70
+            +W+ W L  + +A ++ S +R+ GRL +D L+R  D+L ARH  LR R   D     + +
+Sbjct  54   QWFLWQLEPESAAYHIPSVLRLRGRLDLDALQRSFDSLVARHETLRTRFRLDGDEARQEI  113
+
+Query  71   PCERPIPLREVR-GGGEEQWLREINERELPERIDPDSGPLIRTVAIATDAGAHDLLVVVP  129
+                 +PL  V  G  EE  L    E  +    D + GPL+R   +      H L++V  
+Sbjct  114  AASMALPLDIVALGPLEEGALARQVETTIARPFDLERGPLLRVSLLRLAEDDHVLVLVQH  173
+
+Query  130  HIIADGTTVLTLAEQWLTL-AADPAAQPWTASALP--PAEDLRPRRFTGDEGAARLAEQT  186
+            HI++DG ++  + E+ + L AA          ALP   A+    +R   + G      Q 
+Sbjct  174  HIVSDGWSMQVMVEELVQLYAAYSRGLELALPALPIQYADYALWQRSWMEAGEKE--RQL  231
+
+Query  187  AQDEALVGRHRPGRIEPSN-PVPL-EARRTRLLHRELDGAQLEQLQRRAREHGTTVHGAL  244
+            A    L+G  +P    P + P P+ ++ R      ELD    + L+R A++ G T    L
+Sbjct  232  AYWTGLLGGEQPVLELPFDRPRPVRQSHRGAQFILELDIDLSQALRRVAQQEGATAFALL  291
+
+Query  245  TAAL-AIAAGHDHQRRPSHIAIGSPIDFRDELE  276
+             A+  A+   +  Q   + I +G PI  R+ +E
+Sbjct  292  LASFQALLYRYSGQ---ADIRVGVPIANRNRVE  321
+
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 47/156 (30%), Positives = 83/156 (53%), Gaps = 8/156 (5%)
+
+Query  1     MAEIRRPLS---AVER-WY-W-LSDQFSALNVISRVRVHGRLSIDDLRRGLDALQARHPL  54
+             +A+ ++PL+   A ER W+ W L  + +A ++ S +R+ GRL +D L+R  D+L ARH  
+Sbjct  1102  LADRQQPLALSFAQERQWFLWQLEPESAAYHIPSALRLRGRLDVDALQRSFDSLVARHET  1161
+
+Query  55    LRARIEHDAGLDPRWVPCERPIPLREVRGGGEEQWLREINERELPERIDPDSGPLIRTVA  114
+             LR R   + G   + V     + +   + G  E+ L E  +  + +  D + GPL+R   
+Sbjct  1162  LRTRFRLEGGRSYQQVQPAVSVSIEREQFG--EEGLIERIQAIVVQPFDLERGPLLRVNL  1219
+
+Query  115   IATDAGAHDLLVVVPHIIADGTTVLTLAEQWLTLAA  150
+             +      H L++V  HI++DG ++  + E+ + L A
+Sbjct  1220  LQLAEDDHVLVLVQHHIVSDGWSMQVMVEELVQLYA  1255
+
+
+>VFG000161(gb|NP_251089) (pvdD) pyoverdine synthetase D [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+aeruginosa PAO1]
+Length=2448
+
+ Score = 58.9 bits (141),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 78/275 (28%), Positives = 125/275 (45%), Gaps = 18/275 (7%)
+
+Query  13   RWY-W-LSDQFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHDAGLDPRWV  70
+            +W+ W L  + +A ++ S +R+ GRL +D L+R  D+L ARH  LR R   D     + +
+Sbjct  54   QWFLWQLEPESAAYHIPSVLRLRGRLDLDALQRSFDSLVARHETLRTRFRLDGDEARQEI  113
+
+Query  71   PCERPIPLREVR-GGGEEQWLREINERELPERIDPDSGPLIRTVAIATDAGAHDLLVVVP  129
+                 +PL  V  G  EE  L    E  +    D + GPL+R   +      H L++V  
+Sbjct  114  AASMALPLDIVALGPLEEGALARQVETTIARPFDLERGPLLRVSLLRLAEDDHVLVLVQH  173
+
+Query  130  HIIADGTTVLTLAEQWLTLAADPAAQPWTASALPP-----AEDLRPRRFTGDEGAARLAE  184
+            HI++DG ++  + E+ + L A  A       ALP      A+    +R   + G      
+Sbjct  174  HIVSDGWSMQVMVEELVQLYA--AYSRGLEVALPALPIQYADYALWQRSWMEAGEKE--R  229
+
+Query  185  QTAQDEALVGRHRPGRIEPSN-PVPL-EARRTRLLHRELDGAQLEQLQRRAREHGTTVHG  242
+            Q A    L+G  +P    P + P P+ ++ R      ELD    + L+R A++ G T   
+Sbjct  230  QLAYWTGLLGGEQPVLELPFDRPRPVRQSHRGAQFILELDIDLSQALRRVAQQEGATAFA  289
+
+Query  243  ALTAAL-AIAAGHDHQRRPSHIAIGSPIDFRDELE  276
+             L A+  A+   +  Q   + I +G PI  R+ +E
+Sbjct  290  LLLASFQALLYRYSGQ---ADIRVGVPIANRNRVE  321
+
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 47/156 (30%), Positives = 83/156 (53%), Gaps = 8/156 (5%)
+
+Query  1     MAEIRRPLS---AVER-WY-W-LSDQFSALNVISRVRVHGRLSIDDLRRGLDALQARHPL  54
+             +A+ ++PL+   A ER W+ W L  + +A ++ S +R+ GRL +D L+R  D+L ARH  
+Sbjct  1102  LADRQQPLALSFAQERQWFLWQLEPESAAYHIPSALRLRGRLDVDALQRSFDSLVARHET  1161
+
+Query  55    LRARIEHDAGLDPRWVPCERPIPLREVRGGGEEQWLREINERELPERIDPDSGPLIRTVA  114
+             LR R   + G   + V     + +   + G  E+ L E  +  + +  D + GPL+R   
+Sbjct  1162  LRTRFRLEGGRSYQQVQPAVSVSIEREQFG--EEGLIERIQAIVVQPFDLERGPLLRVNL  1219
+
+Query  115   IATDAGAHDLLVVVPHIIADGTTVLTLAEQWLTLAA  150
+             +      H L++V  HI++DG ++  + E+ + L A
+Sbjct  1220  LQLAEDDHVLVLVQHHIVSDGWSMQVMVEELVQLYA  1255
+
+
+>VFG016068(gb|WP_011335255) (pvdL) peptide synthase PvdL [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+fluorescens Pf0-1]
+Length=4332
+
+ Score = 58.2 bits (139),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 46/153 (30%), Positives = 69/153 (45%), Gaps = 9/153 (6%)
+
+Query  7    PLSAVERWYWLSDQF----SALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHD  62
+            P S  +   W++ Q     SA N+   +R+ G L  D LR     L  RH  LR R    
+Sbjct  671  PQSLAQNRLWITWQLDPQSSAYNIPGALRLRGELDEDALRASFQQLIERHESLRTRFFER  730
+
+Query  63   AGLDPRWVPCE-----RPIPLREVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIAT  117
+             G+  + V        + I + ++     E   ++I E E   R D + GPL+R   +  
+Sbjct  731  DGVALQQVEAAGEFNLQLIDISDLPASEREARAQQIREDEARTRFDLEKGPLLRVTLVCL  790
+
+Query  118  DAGAHDLLVVVPHIIADGTTVLTLAEQWLTLAA  150
+            D   H LLV + HIIADG ++  L +++  L A
+Sbjct  791  DDEDHQLLVTLHHIIADGWSLNVLIDEFSRLYA  823
+
+
+>VFG020317(gb|WP_012614130) (pvdI) peptide synthase [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+aeruginosa LESB58]
+Length=3680
+
+ Score = 55.1 bits (131),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 79/291 (27%), Positives = 113/291 (39%), Gaps = 20/291 (7%)
+
+Query  1    MAEIRRPLSAVERWYW----LSDQFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLR  56
+            ++E R  LS  +R  W    L  Q +A N+   VR+ G L          +L  RH  LR
+Sbjct  45   VSEDRDELSYAQRRMWFLWQLDPQGAAYNLPMAVRLSGPLDRAAFEAAFASLVQRHETLR  104
+
+Query  57   ARIEHDAGLDPRWVPCERPIP-----LREVRGGGEEQWLREINERELPERIDPDSGPLIR  111
+                  A   PR    ERP+P     L  +     E  LRE  + E     D   GPL+R
+Sbjct  105  TVFPQRADGTPRQAALERPVPIDFEDLSLLPEAERETCLRETAQAESLRPFDLCEGPLLR  164
+
+Query  112  TVAIATDAGAHDLLVVVPHIIADGTTVLTLAEQWLTLAADPAAQPWTASALPPAEDLRPR  171
+               I      H LL+ + HI++DG ++  L E++       A    + + LPP       
+Sbjct  165  VRLIRLGEEQHVLLLTLHHIVSDGWSMNVLIEEFSRFYK--ACMDNSEAGLPPLPIQYSD  222
+
+Query  172  RFTGDEGAARLAEQTAQ----DEALVGRHRPGRIEPSNPVPLEA--RRTRLLHRELDGAQ  225
+                        EQ  Q     E L  +H    +   +P P +A  R TR    E+D A 
+Sbjct  223  YALWQRSWMEAGEQERQLAYWRERLGDQHPLLELPTDHPRPAQASYRGTR-YEFEIDPAL  281
+
+Query  226  LEQLQRRAREHGTTVHGALTAALAIAAGHDHQRRPSHIAIGSPIDFRDELE  276
+            ++ L+  AR  G T+   L     I       +  S + +G PI  R+  E
+Sbjct  282  VQALRASARSQGLTLFMLLLGGFNILLQRYSGQ--SDLRVGVPIANRNRAE  330
+
+
+>VFG016061(gb|WP_162839071) (pvdL) peptide synthase PvdL [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+syringae pv. tomato str. DC3000]
+Length=4337
+
+ Score = 54.7 bits (130),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 44/144 (31%), Positives = 65/144 (45%), Gaps = 7/144 (5%)
+
+Query  14   WY-WLSD-QFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHDAGLDPRWVP  71
+            W+ W  D Q SA N+   + + G L I+ LR     L  RH  LR R     G+  + + 
+Sbjct  690  WFLWQLDPQSSAYNIPGGLHLRGELDINALRSSFQRLIERHESLRTRFYEQDGVALQRID  749
+
+Query  72   CE-----RPIPLREVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIATDAGAHDLLV  126
+                     I + E+ G   +   R I E +     D  +GPL+R   +  D   H LLV
+Sbjct  750  AAGEFQLHSIDISELPGEERQARARAIREEQARLPFDLQNGPLLRVTLLQLDEEEHQLLV  809
+
+Query  127  VVPHIIADGTTVLTLAEQWLTLAA  150
+             + HIIADG ++  L +++  L A
+Sbjct  810  TLHHIIADGWSLNVLIDEFSRLYA  833
+
+
+>VFG020071(gb|WP_012723748) (pvdJ) pyoverdine biosynthesis protein 
+PvdJ [Pyoverdine (VF0094) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas fluorescens SBW25]
+Length=3949
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 72/278 (26%), Positives = 121/278 (44%), Gaps = 13/278 (5%)
+
+Query  7     PLSAVERWYW----LSDQFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHD  62
+             PLS  +   W    L  Q +A ++ S +R+ G+L +  L+R  D L ARH  LR  +  +
+Sbjct  1113  PLSYAQERQWFLWQLEPQSAAYHIPSALRLKGQLDLGALQRSFDTLLARHESLRTHLRQE  1172
+
+Query  63    AGLDPRWVPCERP-IPLREVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIATDAGA  121
+                  R V    P + L+      +E  L+   E E+ +  + + GPL+R   +   A  
+Sbjct  1173  ---RDRTVQIISPQLSLQIAHAEVQEAQLKARVEAEIAQPFNLEQGPLLRVSLLRIAADE  1229
+
+Query  122   HDLLVVVPHIIADGTTVLTLAEQWLTL-AADPAAQPWTASALP-PAEDLRPRRFTGDEGA  179
+             H L++V  HI++DG ++  + E+ + L AA    Q     ALP    D    +    E  
+Sbjct  1230  HVLVLVQHHIVSDGWSMQLMVEELVQLYAAYSQGQVLQWPALPIQYADYAVWQRNWMEAG  1289
+
+Query  180   ARLAEQTAQDEALVGRHRPGRIEPSNPVP-LEARRTRLLHRELDGAQLEQLQRRAREHGT  238
+              +  +     + L G      +   +P P +++ R   L  EL GA  + L+  A++   
+Sbjct  1290  EKARQLAYWRDMLGGEQSVLALPFDHPRPAVQSHRGARLAFELPGALTQGLKALAKQQDV  1349
+
+Query  239   TVHGALTAALAIAAGHDHQRRPSHIAIGSPIDFRDELE  276
+             T+   L A+      H +  +   I +G PI  R+  E
+Sbjct  1350  TLFMLLLASFQTLL-HRYSGQ-EEIRVGVPIANRNRSE  1385
+
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 81/280 (29%), Positives = 126/280 (45%), Gaps = 17/280 (6%)
+
+Query  7    PLSAVE--RWY-WLSDQFSA-LNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHD  62
+            PLS  +  +W+ W  D  SA  ++   +R+ GRL +  L+R  D+L ARH  LR R+  D
+Sbjct  51   PLSYAQERQWFLWQLDPDSATYHIPGALRLQGRLDLAALQRAFDSLLARHESLRTRLVQD  110
+
+Query  63   AGLDPRWVPCERPIPLREVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIATDAGAH  122
+                 + V  E  I + +     E Q +  I E E+    D  +GPL+R   +      H
+Sbjct  111  GERLLQNVAPEARIEIHQ-DVADEHQLMARI-EAEIARPFDLQAGPLLRVTLLQLAEDEH  168
+
+Query  123  DLLVVVPHIIADGTTVLTLAEQWLTL-AADPAAQPWTASALP--PAEDLRPRRFTGDEGA  179
+             L++V  HII+DG ++  + E+ +   AA    Q      LP   A+    +R   D G 
+Sbjct  169  VLVMVQHHIISDGWSMQVMVEELVQFYAAHSQGQEVQLPGLPIHYADYALWQRSWMDAGE  228
+
+Query  180  ARLAEQTAQDEALVGRHRPGRIEP-SNPVPL-EARRTRLLHRELDGAQLEQLQRRAREHG  237
+               A Q A  + L+G  +P    P  +P P  ++ R   L   L  A +  ++R A++ G
+Sbjct  229  K--ARQLAYWQELLGGEQPVLELPLDHPRPAQQSHRGASLQVHLPAALVAGIKRLAQQEG  286
+
+Query  238  TTVHGALTAAL-AIAAGHDHQRRPSHIAIGSPIDFRDELE  276
+             T    L A+   +   +  Q   S I IG P   R+ +E
+Sbjct  287  VTPFMLLLASFQTLLFRYSGQ---SDIRIGVPNANRNRVE  323
+
+
+>VFG016045(gb|WP_011062374) (pvdI) peptide synthase [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+fluorescens Pf-5]
+Length=4410
+
+ Score = 53.1 bits (126),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 40/144 (28%), Positives = 69/144 (48%), Gaps = 6/144 (4%)
+
+Query  13   RWY-W-LSDQFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHDAGLDPRWV  70
+            +W+ W L    +A ++ + +R+ G L +D LR   D L ARH  LR     D G   + V
+Sbjct  54   QWFLWQLEPDSTAYHITTALRLTGELDLDALRHAFDTLIARHETLRTTFSEDDGTAVQVV  113
+
+Query  71   --PCERPIPLREVRGGG--EEQWLREINERELPERIDPDSGPLIRTVAIATDAGAHDLLV  126
+              P    I + E+  GG   E  +  + + +     D  +GPL+R   +   A  H L++
+Sbjct  114  HPPAPLDIEVIELHAGGLSYEAQVHALTDSKSQPPFDLRNGPLLRAKLLRVAADEHVLVL  173
+
+Query  127  VVPHIIADGTTVLTLAEQWLTLAA  150
+               HI++DG ++  + ++ + L A
+Sbjct  174  TQHHIVSDGWSMGVMVDELIQLYA  197
+
+
+>VFG020077(gb|WP_015885148) (pvdL) peptide synthase PvdL [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+fluorescens SBW25]
+Length=4296
+
+ Score = 52.8 bits (125),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 120/454 (26%), Positives = 179/454 (39%), Gaps = 51/454 (11%)
+
+Query  7     PLSAVERWYWLSDQF----SALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHD  62
+             P S  +   W++ Q     SA  +   +R+ G L  D +R     L  RH  LR R    
+Sbjct  668   PQSLAQNRLWITWQLDPHSSAYTIPGALRLRGELDEDAVRLSFQHLVQRHEALRTRFYER  727
+
+Query  63    AGLDPRWVPCE-----RPIPLREVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIAT  117
+              G   + V  +     + I L ++     E   ++I E E   + D + GPL+    +  
+Sbjct  728   DGQAFQRVEAKADFELQVIDLSDLPTDEREARAQQIREDEARTQFDLEKGPLLWVTLVRL  787
+
+Query  118   DAGAHDLLVVVPHIIADGTTVLTLAEQWLTLAADPAAQPWTASALPPAE-------DLRP  170
+             D   H LLV + HIIADG ++  L +++  L A  AAQ  T   LPP           + 
+Sbjct  788   DDEDHQLLVTLHHIIADGWSLNILIDEFSRLYA-AAAQGQTLE-LPPLALQYADYGSWQR  845
+
+Query  171   RRFTGDEGAARLAEQTAQDEALVGRHRPGRIEPSNPVPLEARRTRLLHRELDGAQL-EQL  229
+             +     EG  +LA   AQ   L   H    +   +P     R T   H    G  L E +
+Sbjct  846   QWLAEGEGQRQLAYWKAQ---LGEEHPTLSLATDHPRSAHHRHTASRHTVRLGVSLSEAI  902
+
+Query  230   QRRAREHGTTVHGALTAAL-AIAAGHDHQRRPSHIAIGSPIDFRDELEPPVRPDEVGTYV  288
+             ++ A+ H +T    L AA  ++   +  QR   +I IG P   R   E       VG ++
+Sbjct  903   RQTAQAHESTPFMLLLAAFQSLLYRYSGQR---NIRIGVPNANRPRQE---TQGLVGFFI  956
+
+Query  289   AT--VPVVLDIARPFWEVARALTDD-LGERRRQGHHFNLVTLVASAAPRCMADARPFMAF  345
+              T  +   LD   PF E+  A     LG +  Q   F  +     A P+        + F
+Sbjct  957   NTQVMRAELDGRLPFSELLAATRQTALGAQAHQDLPFEQLL---EAFPQAREQGLFQVMF  1013
+
+Query  346   MEAEGPINLCSSNIGRYPFPERIGALRLSDAQFLTGISVNGYFVAAINSS---HGRLFWN  402
+                +  +    S + R P     G L    A  L   S +  F   ++S    +GRL  +
+Sbjct  1014  NHQQRDL----SALRRLP-----GML----ADELPWHSRDAKFDLQLHSEEDRNGRLSLS  1060
+
+Query  403   FTYIDEAVPGERAERLAEDCLGTLLSAIHAPQRS  436
+             F Y DE       +RLAE  +  L +A   PQ++
+Sbjct  1061  FDYADELFDSATVQRLAEHFINLLQAACDQPQQA  1094
+
+
+>VFG016043(gb|WP_011666644) (pvdI) peptide synthase [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+aeruginosa UCBPP-PA14]
+Length=5149
+
+ Score = 52.0 bits (123),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 96/366 (26%), Positives = 141/366 (39%), Gaps = 59/366 (16%)
+
+Query  8     LSAVERWYWLSDQFSALNVISRVRVHGR--LSIDDLRRGLDALQARHPLLRARIEHDAGL  65
+             L+ V+RW++     +  +    + +  R  L  D L R L+ LQA+H  LR R   + G 
+Sbjct  1100  LAPVQRWFFEQSIPNRQHWNQSLLLQARQPLDGDRLGRALERLQAQHDALRLRFREERGA  1159
+
+Query  66    DPRWVPCERPIPLREVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIATDAGAHDLL  125
+               +    +   PL   + G EE  L    E +    +D + GPL+R + +    G+  LL
+Sbjct  1160  WHQAYAEQAGEPLWRRQAGSEEALLALCEEAQ--RSLDLEQGPLLRALLVDMADGSQRLL  1217
+
+Query  126   VVVPHIIADGTTVLTLAEQWLTLAADPAAQPWTASALPPAEDLRPR--------RFTGDE  177
+             +V+ H+  DG +   L E    L AD  A            DL PR        R   ++
+Sbjct  1218  LVIHHLAVDGVSWRILLEDLQRLYADLDA------------DLGPRSSSYQTWSRHLHEQ  1265
+
+Query  178   GAARLAEQTAQDEALVGRHRPGRIEPSNP-VPLEARRTRLLHRELDGAQLEQLQRRA-RE  235
+               ARL E       L     P  +   NP   LE R  R L   LD  +  QL + A   
+Sbjct  1266  AGARLDELDYWQAQL--HDAPHALPCENPHGALENRHERKLVLTLDAERTRQLLQEAPAA  1323
+
+Query  236   HGTTVHGALTAALAIAA--------------GHDHQRRPSHIAIGSPIDFRDELEPPVRP  281
+             + T V+  L  ALA A               GH  +       +G  ID           
+Sbjct  1324  YRTQVNDLLLTALARATCRWSGDASVLVQLEGHGRED------LGEAIDL---------S  1368
+
+Query  282   DEVGTYVATVPVVLDIARPFWEVARALTDDLGERRRQGHHFNLVTLVAS--AAPRCMADA  339
+               VG + +  PV L  A    E  +A+ + L     +G  + L+  +A   AA R  A  
+Sbjct  1369  RTVGWFTSLFPVRLTPAADLGESLKAIKEQLRGVPDKGVGYGLLRYLAGEEAATRLAALP  1428
+
+Query  340   RPFMAF  345
+             +P + F
+Sbjct  1429  QPRITF  1434
+
+
+ Score = 50.8 bits (120),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 44/139 (32%), Positives = 64/139 (46%), Gaps = 7/139 (5%)
+
+Query  14   WY-W-LSDQFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHDAGLDPRWVP  71
+            W+ W L  Q  A N+ S VR++G L    L R   +L  RH  LR      A       P
+Sbjct  60   WFLWHLEPQSGAYNLPSAVRLNGPLDRQALERAFASLVQRHETLRTVFPRGADDSLAQAP  119
+
+Query  72   CERPIPLREVRGGG-----EEQWLREINERELPERIDPDSGPLIRTVAIATDAGAHDLLV  126
+             +RP+ +      G     +E  LRE  +RE  +  D   GPL+R   I      H LL+
+Sbjct  120  LQRPLEVAFEDCSGLPEAEQEARLREEAQRESLQPFDLCEGPLLRVRLIRLGEERHVLLL  179
+
+Query  127  VVPHIIADGTTVLTLAEQW  145
+             + HI++DG ++  L E++
+Sbjct  180  TLHHIVSDGWSMNVLIEEF  198
+
+
+>VFG016037(gb|WP_011062375) (pvdD) pyoverdine synthetase D [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas fluorescens Pf-5]
+Length=2193
+
+ Score = 51.2 bits (121),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 36/144 (25%), Positives = 69/144 (48%), Gaps = 8/144 (6%)
+
+Query  13    RWY-WLSD-QFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHDAGLDPRWV  70
+             +W+ W  D   SA ++   +R+ G L    L+   DAL ARH  LR      AG   + +
+Sbjct  1131  QWFLWQLDPDSSAYHIPMALRLRGALDSQALQSSFDALIARHESLRTHFVESAGGLTQVI  1190
+
+Query  71    PCERPIPLRE------VRGGGEEQWLREINERELPERIDPDSGPLIRTVAIATDAGAHDL  124
+               +  +P+ +      V  G  +  ++++ + ++ +  D   GPL+R   +      H L
+Sbjct  1191  AAQARLPISQQDLSLLVEAGNTDDLIKQVIDTQVRQPFDLRQGPLLRATLVRLAEDEHVL  1250
+
+Query  125   LVVVPHIIADGTTVLTLAEQWLTL  148
+             ++V  HI++DG ++  + E+ + L
+Sbjct  1251  VLVQHHIVSDGWSMQLMVEELIRL  1274
+
+
+>VFG016041(gb|NP_251092) (pvdI) peptide synthase [Pyoverdine (VF0094) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+aeruginosa PAO1]
+Length=5149
+
+ Score = 50.8 bits (120),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 44/139 (32%), Positives = 64/139 (46%), Gaps = 7/139 (5%)
+
+Query  14   WY-W-LSDQFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHDAGLDPRWVP  71
+            W+ W L  Q  A N+ S VR++G L    L R   +L  RH  LR      A       P
+Sbjct  60   WFLWHLEPQSGAYNLPSAVRLNGPLDRQALERAFASLVQRHETLRTVFPRGADDSLAQAP  119
+
+Query  72   CERPIPLREVRGGG-----EEQWLREINERELPERIDPDSGPLIRTVAIATDAGAHDLLV  126
+             +RP+ +      G     +E  LRE  +RE  +  D   GPL+R   I      H LL+
+Sbjct  120  LQRPLEVAFEDCSGLPEDEQEARLREEAQRESLQPFDLCEGPLLRVRLIRLGEERHVLLL  179
+
+Query  127  VVPHIIADGTTVLTLAEQW  145
+             + HI++DG ++  L E++
+Sbjct  180  TLHHIVSDGWSMNVLIEEF  198
+
+
+ Score = 50.4 bits (119),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 95/366 (26%), Positives = 141/366 (39%), Gaps = 59/366 (16%)
+
+Query  8     LSAVERWYWLSDQFSALNVISRVRVHGR--LSIDDLRRGLDALQARHPLLRARIEHDAGL  65
+             L+ V+RW++     +  +    + +  R  L  D L R L+ LQA+H  LR R   + G 
+Sbjct  1100  LAPVQRWFFEQSIPNRQHWNQSLLLQARQPLDGDRLGRALERLQAQHDALRLRFREERGA  1159
+
+Query  66    DPRWVPCERPIPLREVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIATDAGAHDLL  125
+               +    +   PL   + G EE  L    E +    +D + GPL+R + +    G+  LL
+Sbjct  1160  WHQAYAEQAGEPLWRRQAGSEEVLLALCEEAQ--RSLDLEQGPLLRALLVDMADGSQRLL  1217
+
+Query  126   VVVPHIIADGTTVLTLAEQWLTLAADPAAQPWTASALPPAEDLRPR--------RFTGDE  177
+             +V+ H+  DG +   L E    L AD  A            DL PR        R   ++
+Sbjct  1218  LVIHHLAVDGVSWRILLEDLQRLYADLDA------------DLGPRSSSYQAWSRHLHEQ  1265
+
+Query  178   GAARLAEQTAQDEALVGRHRPGRIEPSNP-VPLEARRTRLLHRELDGAQLEQLQRRA-RE  235
+               ARL E       L     P  +   NP   LE R  R L   LD  +  QL + A   
+Sbjct  1266  AGARLDELDYWQAQL--HDAPHALPCENPHGALENRHERKLVLTLDAERTRQLLQEAPAA  1323
+
+Query  236   HGTTVHGALTAALAIAA--------------GHDHQRRPSHIAIGSPIDFRDELEPPVRP  281
+             + T V+  L  ALA A               GH  +       +G  ID           
+Sbjct  1324  YRTQVNDLLLTALARATCRWSGDASVLVQLEGHGRED------LGEAIDL---------S  1368
+
+Query  282   DEVGTYVATVPVVLDIARPFWEVARALTDDLGERRRQGHHFNLVTLVAS--AAPRCMADA  339
+               VG + +  P+ L  A    E  +A+ + L     +G  + L+  +A   AA R  A  
+Sbjct  1369  RTVGWFTSLFPLRLTPAADLGESLKAIKEQLRGVPDKGVGYGLLRYLAGEEAATRLAALP  1428
+
+Query  340   RPFMAF  345
+             +P + F
+Sbjct  1429  QPRITF  1434
+
+
+>VFG016065(gb|WP_012051699) (pvdL) peptide synthase PvdL [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+putida F1]
+Length=4317
+
+ Score = 50.8 bits (120),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 40/138 (29%), Positives = 65/138 (47%), Gaps = 3/138 (2%)
+
+Query  15   YWLSDQFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHDAGLDPRWVPCER  74
+            + L  Q +A N+ + + + G L I+ L+    AL ARH  LR     + G   + +  ++
+Sbjct  687  WQLEPQSAAYNIPAGLHLRGELDINALQVAFQALVARHESLRTVFSEERGQALQRILPQQ  746
+
+Query  75   PIPLR--EVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIATDAGAHDLLVVVPHII  132
+            P  L   ++ G   EQ   +  E E  +  D   GPL+R   +      H L V + HI+
+Sbjct  747  PFSLHRLDLEGHSPEQVAAQ-RETEARQPFDLTQGPLLRVTLVRLGDEEHQLWVTLHHIV  805
+
+Query  133  ADGTTVLTLAEQWLTLAA  150
+            ADG ++  L E++  L A
+Sbjct  806  ADGWSLNILLEEFAKLYA  823
+
+
+>VFG016066(gb|WP_011533065) (pvdL) peptide synthase PvdL [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+entomophila L48]
+Length=4315
+
+ Score = 50.4 bits (119),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 102/464 (22%), Positives = 176/464 (38%), Gaps = 63/464 (14%)
+
+Query  7     PLSAVERWYWLSDQFS----ALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHD  62
+             PLS  ++  W   Q      A NV    R  G L +D   R L AL  RH  LR      
+Sbjct  1718  PLSYSQQRMWFLWQMEPDSPAYNVGGMARFKGVLHVDAFERALQALIVRHETLRTTFPSI  1777
+
+Query  63    AGLDPRWVPCERPIPLR---------EVRGGGEEQWLREINERELPERIDPDSGPLIRTV  113
+              G   + V  +  + L          EVR    +Q L+++ + +  +  D + GPL+R  
+Sbjct  1778  DGKPYQCVAGDSNLQLHWHDFSSDAAEVR----QQRLQQLADDQAHQPFDLERGPLLRAC  1833
+
+Query  114   AIATDAGAHDLLVVVPHIIADGTTVLTLAEQWLTLAADPAAQPWTASALPPAEDL-----  168
+              +  D   H  ++ + HI+ +G  +   A +   L      +  +  A  P + L     
+Sbjct  1834  LVKADEREHYFVLTLHHIVTEGWAMDIFARELGELYEAFVDERESPLAPLPVQYLDYSVW  1893
+
+Query  169   RPRRFTGDEGAARLAEQTAQDEALVGRHRPGRIEPSN-PVP-LEARRTRLLHRELDGAQL  226
+             + +   G EGA +LA    +    +G   P    P++ P P +++ R  L   +L  A +
+Sbjct  1894  QRQWLEGGEGARQLAYWKDR----LGDEHPVLALPADRPRPAVQSHRGELYRFDLAPALV  1949
+
+Query  227   EQLQRRAREHGTTVHGALTAALAIAAGHDHQRRPSHIAIGSPIDFRDELEPPVRPDE---  283
+             E++     + G T+   +TA LA        +R   + IG+P+  R      +RP+    
+Sbjct  1950  ERVHAFNSQRGLTLFMTMTATLAALLHRYSGQR--DLRIGAPVANR------IRPESEGL  2001
+
+Query  284   VGTYVAT------VPVVLDIARPFWEVARALTDDLGERRRQGHH-FNLVTLVASAAPRCM  336
+             +G ++ T      V   + ++    +V  A+ D       Q H       LV +  P   
+Sbjct  2002  IGAFLNTQVLRCEVDGQMSVSALLDQVRTAIIDG------QSHQDLPFEQLVEALQPPRS  2055
+
+Query  337   ADARPFMAFMEAEGPINLCSSNIGRYPFPERIGALRLSDAQFLTGISVNGY-FVAAINSS  395
+             +   P    M           N+ R+ F +    + +     +   S   +     +   
+Sbjct  2056  SAYNPLFQVM----------CNVQRWAFQQSRELVGMQVDYLVNDASATKFDLYLEVTDL  2105
+
+Query  396   HGRLFWNFTYIDEAVPGERAERLAEDCLGTLLSAIHAPQRSALE  439
+              GRL   FTY  +     R  R+AE     L++ +  P++   E
+Sbjct  2106  DGRLGCCFTYSRDLFDEPRIARMAEHWQHLLVALLDDPRQRLCE  2149
+
+
+>VFG015908(gb|WP_164920478) (syrE) non-ribosomal peptide synthetase 
+[Phytotoxin syringomycin (VF0919) - Exotoxin (VFC0235)] 
+[Pseudomonas syringae pv. syringae B728a]
+Length=9457
+
+ Score = 50.4 bits (119),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 44/158 (28%), Positives = 70/158 (44%), Gaps = 13/158 (8%)
+
+Query  5     RRPLSAVERWYWLSDQF-----SALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARI  59
+             R PLS  ++  W  D       +A ++   +R+ G L    L   LD L ARH  LR R 
+Sbjct  8626  RLPLSFSQQRLWFLDHLDHAAGAAYHLPMALRLTGSLDTAALEATLDRLVARHETLRTRF  8685
+
+Query  60    EHDAGLDP--RWVPCERPIPL-----REVRGGGEEQWLREINERELPERIDPDSGPLIRT  112
+             E   G +P  +  P +   PL     R++ G      L  +++    +  D   GP++R 
+Sbjct  8686  ELVDG-EPVQKIAPADSRFPLLKQDLRDLSGDERTSTLARLDQENATQLFDLTKGPMLRG  8744
+
+Query  113   VAIATDAGAHDLLVVVPHIIADGTTVLTLAEQWLTLAA  150
+               +      H LL+ + HI++DG +   LA++   L A
+Sbjct  8745  HLLRVADAEHVLLITLHHIVSDGWSNSVLAQEVSALYA  8782
+
+
+>VFG016064(gb|WP_010954996) (pvdL) peptide synthase PvdL [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+putida KT2440]
+Length=4317
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 39/138 (28%), Positives = 65/138 (47%), Gaps = 3/138 (2%)
+
+Query  15   YWLSDQFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHDAGLDPRWVPCER  74
+            + L  Q +A N+ + + + G L ++ L     AL ARH  LR     + G   + +  ++
+Sbjct  687  WQLEPQSAAYNIPAGLHLRGELDVNALHVAFQALVARHESLRTVFSEENGQALQRILPQQ  746
+
+Query  75   PIPLR--EVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIATDAGAHDLLVVVPHII  132
+            P+ L   ++ G   EQ   +  E E  +  D   GPL+R   +      H L V + HI+
+Sbjct  747  PLSLHRLDLEGHSPEQVAAQ-RETEARQPFDLTQGPLLRVTLVRLGDEEHQLWVTLHHIV  805
+
+Query  133  ADGTTVLTLAEQWLTLAA  150
+            ADG ++  L E++  L A
+Sbjct  806  ADGWSLNILLEEFAKLYA  823
+
+
+ Score = 48.9 bits (115),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 99/465 (21%), Positives = 164/465 (35%), Gaps = 65/465 (14%)
+
+Query  7     PLSAVERWYWLSDQFS----ALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRAR----  58
+             PLS  ++  W   Q      A NV    R+ G L +D   R L AL  RH  LR      
+Sbjct  1720  PLSYSQQRMWFLWQMEPDSPAYNVGGMARLRGTLHVDAFERALQALIVRHETLRTTFPSI  1779
+
+Query  59    -------IEHDAGLDPRWVPCERPIPLREVRGGGEEQWLREINERELPERIDPDSGPLIR  111
+                    +  D+GL   W           +     +Q L+++ + +  +  D + GPL+R
+Sbjct  1780  DGVPYQCVAEDSGLHLDWQD------FSALSDDACQQRLQQLADDQAHQPFDLERGPLLR  1833
+
+Query  112   TVAIATDAGAHDLLVVVPHIIADGTTVLTLAEQWLTLAADPAAQPWTASALPPAEDL---  168
+                +  +   H  ++ + HI+ +G  +   A +   L         +  A  P + L   
+Sbjct  1834  ACLVKANEREHFFVLTLHHIVTEGWAMDIFARELGELYEAFVDDRESPLAPLPVQYLDYS  1893
+
+Query  169   --RPRRFTGDEGAARLAEQTAQDEALVGRHRPGRIEPSNPVP-------LEARRTRLLHR  219
+               + +     EGA +LA           +HR G   P   +P       +++ R  L   
+Sbjct  1894  VWQRQWLESGEGARQLA---------YWKHRLGDEHPVLALPADRPRPAVQSHRGELYRF  1944
+
+Query  220   ELDGAQLEQLQRRAREHGTTVHGALTAALAIAAGHDHQRRPSHIAIGSPIDFRDELEPPV  279
+             ELD A + ++     + G T+   +TA LA        +R   + IG+P+  R      +
+Sbjct  1945  ELDPALVARVHAFNSQRGLTLFMTMTATLAALLHRYSGQR--DLRIGAPVANR------I  1996
+
+Query  280   RPDEVGTYVATVPV-VLDIARPFWEVARALTDDLGERRRQGHHFN---LVTLVASAAPRC  335
+             RP+  G   A +   VL         A AL + + +   +G          LV +  P  
+Sbjct  1997  RPESEGLIGAFLNTQVLRCELDGQMTASALLEQVRQAAIEGQSHQDLPFDQLVEALQPPR  2056
+
+Query  336   MADARPFMAFMEAEGPINLCSSNIGRYPFPERIGALRLSDAQFLTGISVNGY-FVAAINS  394
+              +   P    M           N+ R+ F +      +     +   S   +     +  
+Sbjct  2057  SSAYNPLFQVM----------CNVQRWAFQQSRTLAGMQVDYLVNDASATKFDLYLEVTD  2106
+
+Query  395   SHGRLFWNFTYIDEAVPGERAERLAEDCLGTLLSAIHAPQRSALE  439
+               GRL    TY  +     R  R+AE     L+  +  PQ    E
+Sbjct  2107  LDGRLGCCLTYSRDLFDAPRIARMAEHWQQLLVGLLDNPQHRLCE  2151
+
+
+>VFG022707(gb|WP_013828479) (mbtF) Peptide synthetase MbtF (peptide 
+synthase) [Mycobactin (VF0299) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. JDM601]
+Length=1472
+
+ Score = 50.1 bits (118),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 71/279 (25%), Positives = 111/279 (40%), Gaps = 16/279 (6%)
+
+Query  19   DQFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARI-EHDAGLDPRWVPCERPIP  77
+            D      V   + + G +    LRR  +A+  RH  LRA   + D     + VP +  +P
+Sbjct  42   DGVDVYTVQFVIDIVGAVDAQLLRRSAEAMLGRHANLRASFWDVDLPHPVQIVPVDVTVP  101
+
+Query  78   LREVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIATDAGAHDLLVVVPHIIADGTT  137
+             RE+     E    EI   E     D   GPL+R V   +    H L++ V H++ DG +
+Sbjct  102  WREINATPNE--FDEIARSERTTNFDLARGPLLRFVLARSAPDRHRLILTVHHLLVDGWS  159
+
+Query  138  VLTLAEQWLTLAADPAAQPWTASALPPAEDLRPRR-FTGDEGAARLAEQTAQ-DEALVGR  195
+            +    ++ +T+        + A    P    RP R + G   A  +   T +  E L   
+Sbjct  160  MAVFFDELVTI--------YRAGGTDPLPAPRPYRDYIGWLAAQDVTAATERWREYLAPL  211
+
+Query  196  HRPGRIEPSNPVPLEARRTRLLHRELDGAQLEQLQRRAREHGTTVHGALTAALAIAAGHD  255
+              P  +       L +   +     LD     +L   AR +G T++  L  A A+  G  
+Sbjct  212  TAPTILADGERTELGSVMPQTHEMALDPDDTARLTEWARRNGLTLNTVLQFAWAVLLGRL  271
+
+Query  256  HQRRPSHIAIGSPIDFRDELEPPVRPDEVGTYVATVPVV  294
+              RR   +A G+ +  R +    V    VG ++ TVPVV
+Sbjct  272  TDRR--EVAFGAVVSGRPQQLTGVE-SMVGLFINTVPVV  307
+
+
+>VFG020073(gb|WP_043205221) (pvdI) peptide synthase [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+fluorescens SBW25]
+Length=4679
+
+ Score = 50.1 bits (118),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 42/155 (27%), Positives = 71/155 (46%), Gaps = 13/155 (8%)
+
+Query  3    EIRRPLSAVERWYWLSDQF----SALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRAR  58
+            E R+ LS  ++  W   Q      A N+   VR+ G LS+D L +   +L ARH  LR  
+Sbjct  47   EDRQALSYAQQRMWFLWQLDPASGAYNLPGAVRLKGALSLDALEQAFASLVARHETLRTV  106
+
+Query  59   IEHDAGLDPRWVPCE-------RPIPLREVRGGGEEQWLREINERELPERIDPDSGPLIR  111
+             +  A  D R +            + L  +     E+ +     R+     D ++GPL+R
+Sbjct  107  FQRQA--DERLLQVAADTSLTVEQLDLSHLALAEREEAVNAAATRQSLLPFDLENGPLLR  164
+
+Query  112  TVAIATDAGAHDLLVVVPHIIADGTTVLTLAEQWL  146
+               +  DA  H LL+ + HI++DG ++  L ++++
+Sbjct  165  VQLLKLDALEHVLLLTLHHIVSDGWSMNVLIDEFI  199
+
+
+>VFG016063(gb|WP_166486371) (pvdL) peptide synthase PvdL [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+syringae pv. phaseolicola 1448A]
+Length=4337
+
+ Score = 49.7 bits (117),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 51/158 (32%), Positives = 71/158 (45%), Gaps = 8/158 (5%)
+
+Query  14   WY-WLSD-QFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARI-EHDA-GLDPRW  69
+            W+ W  D Q SA N+   + + G L    LR     L  RH  LR R  EHD   L    
+Sbjct  690  WFLWQLDPQSSAYNIPGGLYLRGELDTTALRTSFQRLIERHESLRTRFYEHDGVALQRID  749
+
+Query  70   VPCERPIPLREVRG-GGEEQWLREINERELPERI--DPDSGPLIRTVAIATDAGAHDLLV  126
+             P E      ++     +E+  R +  RE   R+  D  +GPL+R   +  D   H LLV
+Sbjct  750  APGEFHFDTLDISDLPSDERQTRALAIREEQARLPFDLQNGPLLRVTLLRLDEEEHQLLV  809
+
+Query  127  VVPHIIADGTTVLTLAEQWLTLAADPA-AQPWTASALP  163
+             + HIIADG ++  L +++  L A     QP   + LP
+Sbjct  810  TLHHIIADGWSLNVLIDEFSRLYASAVQGQPLELAPLP  847
+
+
+>VFG016035(gb|WP_011168293) (pvdD) pyoverdine synthetase D [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas syringae pv. phaseolicola 1448A]
+Length=2151
+
+ Score = 49.7 bits (117),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 62/248 (25%), Positives = 102/248 (41%), Gaps = 24/248 (10%)
+
+Query  8    LSAVERWYWLSDQF----SALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHDA  63
+            LS  ++  W+  Q     +A N+   +R+HG L ++ LRR ++ L  RH  LR   E   
+Sbjct  47   LSYAQQRQWIIWQLEPHSAAYNIPLALRLHGVLDVEALRRSVEHLIERHETLRTTFEQPG  106
+
+Query  64   GLDPRWVPCERPIPLREVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIATDAGAHD  123
+                + V    P  L   +    E   R +++ E+ +  D   GPL+R   +      H 
+Sbjct  107  DEALQVVHPASPFALDVDQLAAGETVERYVDQ-EVQQPFDLQHGPLLRVRLLKLSEQEHV  165
+
+Query  124  LLVVVPHIIADGTTVLTLAEQWLTLAADPAAQPWTASALPPAEDLRPRRFTGDEGAA---  180
+            L++   HI++DG +        + +  D   Q + A+ L    +L P      + A    
+Sbjct  166  LVLTQHHIVSDGWS--------MPIMVDELMQCYQAATLGRKAELTPLPIQYADYALWQR  217
+
+Query  181  RLAEQTAQDEALVG-RHRPGRIEPSNPVPLEARRTRL-------LHRELDGAQLEQLQRR  232
+               E   Q+  L   +   G  +P   +P +  R  L       L+ ELD A L  L+  
+Sbjct  218  NWLEMGEQERQLAYWKQHLGEQQPILELPTDRPRPALRSYDGARLNVELDAALLNDLKTL  277
+
+Query  233  AREHGTTV  240
+            AR+ G T+
+Sbjct  278  ARQQGITL  285
+
+
+>VFG016044(gb|WP_011534374) (pvdI) peptide synthase [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+entomophila L48]
+Length=3931
+
+ Score = 49.3 bits (116),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 45/146 (31%), Positives = 67/146 (46%), Gaps = 20/146 (14%)
+
+Query  5    RRPLSAVERWYWLSDQF----SALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRAR--  58
+            R PLS  +   W   Q     +A N+ + +R+ G L +  LRR   AL ARH +LR R  
+Sbjct  49   RIPLSYAQERQWFLWQLEPDSAAYNISTALRLRGELDVQALRRSFAALVARHDVLRTRFV  108
+
+Query  59   ---------IEHDAGLDPRWVPCERPIPLREVRGGGEEQWLREINERELPERIDPDSGPL  109
+                     I+HD  LD   VP +  +P   + G   + W+            D  +G L
+Sbjct  109  DQGEGLAQVIDHDTALD---VPLDL-LP-DGLAGEARDVWIENYIHEHGAALFDLAAGNL  163
+
+Query  110  IRTVAIATDAGAHDLLVVVPHIIADG  135
+            +R   +  DA  H L++V+ HI++DG
+Sbjct  164  LRVRLLRLDAQDHVLVMVLHHIVSDG  189
+
+
+>VFG016042(gb|WP_161440564) (pvdI) peptide synthase [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+aeruginosa PA7]
+Length=4989
+
+ Score = 49.3 bits (116),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 45/152 (30%), Positives = 70/152 (46%), Gaps = 8/152 (5%)
+
+Query  5    RRPLSAVE--RWY-WLSD-QFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIE  60
+            R PLS  +  +W+ W  D Q +A N+ S +R+ G L ++ L   L A+  RH  LR    
+Sbjct  47   RIPLSYAQERQWFLWQMDPQSAAYNIPSALRLRGELDVEALAASLGAIVERHQSLRTVFV  106
+
+Query  61   HDAGLD----PRWVPCERPIPLREVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIA  116
+             D  LD          + P+P+    G   +  +R   E E  +  D  +GPL+R   + 
+Sbjct  107  EDEQLDGFRQQVLASVDLPVPVTLASGDDAQAQIRAFVESETQQPFDLRNGPLLRARLLR  166
+
+Query  117  TDAGAHDLLVVVPHIIADGTTVLTLAEQWLTL  148
+              A  H L + + H  ADG ++  L E+ + L
+Sbjct  167  LAADDHVLTLTIHHAAADGWSMRVLVEELIAL  198
+
+
+>VFG015827(gb|WP_012315395) (pvdL) peptide synthase PvdL [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+putida W619]
+Length=4317
+
+ Score = 48.9 bits (115),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 99/456 (22%), Positives = 170/456 (37%), Gaps = 47/456 (10%)
+
+Query  7     PLSAVERWYWLSDQFS----ALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHD  62
+             PLS  ++  W   Q      A NV    R+ G L +D   R L AL  RH  LR      
+Sbjct  1720  PLSYSQQRMWFLWQMEPDSPAYNVGGMARLRGTLHVDAFERALQALIVRHETLRTTFPAI  1779
+
+Query  63    AGLDPRWVPCERPIPL-----REVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIAT  117
+              G+  + V  +  + L       +     EQ L+++ + +  +  D + GPL+R   +  
+Sbjct  1780  DGVPYQCVAADGAVQLDWQDFSTLPAAIREQRLQQLADAQAHQPFDLERGPLLRACLVKA  1839
+
+Query  118   DAGAHDLLVVVPHIIADGTTVLTLAEQWLTLA---ADPAAQPWTASALPPAEDLRPRR--  172
+                 H  ++ + HI+ +G  +   A +   L     D    P T   +   +    +R  
+Sbjct  1840  AEREHYFVLTLHHIVTEGWAMDIFARELGELYEAFVDERESPLTPLPVQYLDYSVWQRQW  1899
+
+Query  173   FTGDEGAARLAEQTAQDEALVGRHRPGRIEPSN-PVP-LEARRTRLLHRELDGAQLEQLQ  230
+                 EGA +LA   A+    +G   P    P++ P P ++  R  L   ELD A + ++ 
+Sbjct  1900  LESGEGARQLAYWKAR----LGDEHPVLALPADRPRPAVQTHRGELYRFELDPALVARVH  1955
+
+Query  231   RRAREHGTTVHGALTAALAIAAGHDHQRRPSHIAIGSPIDFRDELEPPVRPDE---VGTY  287
+                 + G T+   +TA LA        +R   + IG+P+  R      +RP+    +G +
+Sbjct  1956  AFNSQRGLTLFMTMTATLAALLHRYSGQR--DLRIGAPVANR------IRPESEGLIGAF  2007
+
+Query  288   VATVPVVLDIARPFWEVARALTDDLGERRRQGHHFN---LVTLVASAAPRCMADARPFMA  344
+             + T  +  ++       A AL + + +   +G          LV +  P   +   P   
+Sbjct  2008  LNTQVLRCEVDGQM--TAAALLNQVRQAAIEGQSHQDLPFEQLVEALQPPRSSAYNPLFQ  2065
+
+Query  345   FMEAEGPINLCSSNIGRYPFPERIGALRLSDAQFLTGISVNGY-FVAAINSSHGRLFWNF  403
+              M           N+ R+ F +      +     +   S   +     +    GRL    
+Sbjct  2066  VM----------CNVQRWAFQQSRELAGMQVDYLVNDASATKFDLYLEVTDLDGRLGCCL  2115
+
+Query  404   TYIDEAVPGERAERLAEDCLGTLLSAIHAPQRSALE  439
+             TY  +     R  R+AE     L+  +  PQ+   E
+Sbjct  2116  TYSRDLFDEPRIARMAEHWQQLLVGLLDNPQQRLCE  2151
+
+
+>VFG044432(gb|CAJ45639) (vabF) vanchrobactin non ribosomal peptide 
+synthetase [Vanchrobactin (VF1246) - Nutritional/Metabolic 
+factor (VFC0272)] [Listonella anguillarum RV22]
+Length=2835
+
+ Score = 48.9 bits (115),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 70/301 (23%), Positives = 120/301 (40%), Gaps = 52/301 (17%)
+
+Query  17    LSDQFSALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHD---------AGLDP  67
+             L D+ S+ N  +R+   G+LS   +   L+A+  RHP L AR +             ++P
+Sbjct  1556  LGDKNSSYNSTTRLTFQGQLSEHRVSEALNAVIRRHPQLLARFDSSILGRTVQVMTQVNP  1615
+
+Query  68    RWVPCERPIPLREVRGGGEEQWLREINERELPERIDPDSG--PLIRTVAIATDAGAHDLL  125
+              W P  R   +  + G  +   + ++ ++EL  + D +     L++   I        LL
+Sbjct  1616  SW-PLTR-YDITNMSGDEQSALIDQLEKQELSRQFDLNDSTHSLLQAQLIFHGDQQSTLL  1673
+
+Query  126   VVVPHIIADGTTVLTLAEQWLTLAADPAAQPWTASALPPAEDLRPRRFTGDEGAARLAEQ  185
+             +   H++ DG +   L   +L+  A         S LPP             G A +  Q
+Sbjct  1674  LSAHHLVVDGWSTPILLNDFLSAYAQ------GVSNLPPV----------TVGYAHVVSQ  1717
+
+Query  186   TAQDEALVGRHRPGR----IEPS---NPVPL--EARRTRLLHRELDGAQLEQLQRRAREH  236
+               Q +  V     G+    ++PS   + +PL  E    +L    L   + +QL +  R H
+Sbjct  1718  LTQRDKTVATELWGKVLADVQPSMAFDDIPLSEEVNEHQLW---LSKHKTDQLNQCLRHH  1774
+
+Query  237   G----TTVHGALTAALAIAAGHDHQRRPSHIAIGSPIDFRDELEPPVRPDEVGTYVATVP  292
+             G    T + G   + LA   G +       +  G+PI  R      +  +++G +  TVP
+Sbjct  1775  GLTMSTLMQGLWASILASMTGRE------EVVFGTPISGRFSRIAGI-DEQIGLFSNTVP  1827
+
+Query  293   V  293
+             V
+Sbjct  1828  V  1828
+
+
+>VFG015906(gb|WP_011267825) (sypC) syringopeptin non-ribosomal 
+peptide synthetase SypC [Phytotoxin syringopeptin (VF0918) 
+- Exotoxin (VFC0235)] [Pseudomonas syringae pv. syringae B728a]
+Length=13537
+
+ Score = 48.9 bits (115),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 84/315 (27%), Positives = 134/315 (43%), Gaps = 39/315 (12%)
+
+Query  7      PLSAVERWYWLSDQF----SALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHD  62
+              PLS  ++  W   Q     +A ++ + +R+ G L    L+R LD + ARH  LR     +
+Sbjct  10861  PLSFAQQRLWFLAQLDGGSAAYHIPAGLRLRGSLDQVALKRALDRIVARHEALRTTFVQE  10920
+
+Query  63     AGLDPRWVPCERP------IPLREVRGGGE-EQWLREINERELPERIDPDSGPLIRTVAI  115
+                 DP  + C  P      + L+ + G  + EQ L  I   E  E  D  +GPL+R   +
+Sbjct  10921  QDQDP--LQCIAPADIGFSLQLQVLNGQADAEQQLLAIAAEEAEEGFDLVNGPLVRGRLV  10978
+
+Query  116    ATDAGAHDLLVVVPHIIADGTTVLTLAEQWLTLAA---DPAAQPWTASALPPAEDLRPRR  172
+                    H LLV + HI++DG +   L  +   L A   + A  P  A  +  A+    +R
+Sbjct  10979  RMADDDHVLLVTMHHIVSDGWSAGVLTRELGMLYAAFSEGAEDPLPALPVQYADYALWQR  11038
+
+Query  173    --FTGDEGAARLAEQTAQDEALVGRHRPGRIEPSNPVPLEARRT-RLLHRELDGAQLEQL  229
+                 +GD       ++    + L G      +    P P +   + +LL   LD      L
+Sbjct  11039  NWLSGD---VLQQQRQYWQQTLAGAPALLTLPTDRPRPAQQDYSGQLLGLVLDADLTRGL  11095
+
+Query  230    QRRAREHGT----TVHGALTAALAIAAGHDHQRRPSHIAIGSPID--FRDELEPPVRPDE  283
+              +  ++ HG+    TV  A  A L   AG D       + IG+P+    R E+E     D 
+Sbjct  11096  KALSQRHGSSLFMTVMAAWAALLGRLAGQD------DVVIGTPVANRMRAEVE-----DL  11144
+
+Query  284    VGTYVATVPVVLDIA  298
+              +G +V T+ V +D++
+Sbjct  11145  IGFFVNTLAVRVDLS  11159
+
+
+>VFG015826(gb|WP_012273396) (pvdL) peptide synthase PvdL [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+putida GB-1]
+Length=4317
+
+ Score = 48.5 bits (114),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 41/150 (27%), Positives = 68/150 (45%), Gaps = 7/150 (5%)
+
+Query  7    PLSAVERWYWLSDQF----SALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHD  62
+            P S  +   WL  Q     +A N+ + + + G L +  L    +AL ARH  LR     +
+Sbjct  675  PQSLAQNRLWLMWQLEPQSAAYNIPAGLHLRGELDVVALEAAFEALVARHESLRTVFSEE  734
+
+Query  63   AGLDPRWVPCERPIPLR--EVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIATDAG  120
+             G   + +  ++P  L   ++ G   EQ + +  E E  +  D   GPL+R   +     
+Sbjct  735  NGQALQRIRPQQPFSLHRLDLEGHSTEQVVAQ-REAEARQPFDLTQGPLLRVTLVRLGDE  793
+
+Query  121  AHDLLVVVPHIIADGTTVLTLAEQWLTLAA  150
+             H L V + HI+ADG ++  L +++  L A
+Sbjct  794  DHQLWVTLHHIVADGWSLNILLDEFAKLYA  823
+
+
+>VFG016067(gb|WP_011062464) (pvdL) peptide synthase PvdL [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+fluorescens Pf-5]
+Length=4342
+
+ Score = 48.5 bits (114),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 44/156 (28%), Positives = 67/156 (43%), Gaps = 9/156 (6%)
+
+Query  7    PLSAVERWYWLSDQF----SALNVISRVRVHGRLSIDDLRRGLDALQARHPLLRARIEHD  62
+            P S  +   W++ Q     SA N+   +R+ G L  + LR     L  RH  LR R    
+Sbjct  677  PQSLAQNRLWITWQLDPQSSAYNIPGGLRLRGELDEEALRASFQQLIQRHEALRTRFFER  736
+
+Query  63   AGLDPRWVPCE-----RPIPLREVRGGGEEQWLREINERELPERIDPDSGPLIRTVAIAT  117
+             G   + V        + I + ++     E   R+I E E   + D + GPL     +  
+Sbjct  737  DGQALQQVDAAGEFNLQVIDISDLPPAEREARARQIREDEARTQFDLEKGPLYWATLVRL  796
+
+Query  118  DAGAHDLLVVVPHIIADGTTVLTLAEQWLTLAADPA  153
+            D   H LL+ + HIIADG ++  L +++  L A  A
+Sbjct  797  DDEEHQLLLTLHHIIADGWSLNVLIDEFSRLYAAAA  832
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3520688106
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

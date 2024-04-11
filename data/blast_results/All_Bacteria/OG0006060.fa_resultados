@@ -1,0 +1,129 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1439.t1
+
+Length=502
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015549(gb|WP_012074243) (phzS) flavin dependent hydroxylase Ph...  64.7    4e-11
+VFG000173(gb|NP_252907) (phzS) flavin dependent hydroxylase PhzS ...  61.6    4e-10
+
+
+>VFG015549(gb|WP_012074243) (phzS) flavin dependent hydroxylase 
+PhzS [Pyocyanin (VF0100) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PA7]
+Length=402
+
+ Score = 64.7 bits (156),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 100/384 (26%), Positives = 161/384 (42%), Gaps = 36/384 (9%)
+
+Query  8    DVLICGAGVTGLTLAIELARHGV-SFRLIEKRTTPFIGSRGKGIQPRTQEIFEDLGILNK  66
+            D+LI GAG+ GL+ A+ L + G+    L+E  +       G  IQP   E   +LG+   
+Sbjct  6    DILIAGAGIGGLSCALALHQAGIGKVTLLESSSEIRPLGVGINIQPAAVEALAELGLGPA  65
+
+Query  67   VVAAGGLYPRLRTYRHDGSYVDSDIAHHTKPTHAEP-YHLPLMVPQNVTETIMREQLKAW  125
+            + A       LR     G+ V S+     +  +A P Y +     Q +    +RE+L   
+Sbjct  66   LAATAIPTHELRYIDQSGATVWSE-PRGVEAGNAYPQYSIHRGELQMILLAAVRERLGQQ  124
+
+Query  126  GHRVEFGCELRHFAQTPRTVTAYVAGPAGEEVIIAHYLIGADGGGSFVRKKL-----GVS  180
+              R   G E R   +  R +     G    + + A  L+GADG  S VR  L      +S
+Sbjct  125  AVRTGLGVE-RIKERDGRVLIGARDGQGKPQALGADVLVGADGIHSKVRAHLHPDQGPLS  183
+
+Query  181  FPGRTLGIHALVADASLSGLNRDVWHHFNDGDMARMITICPLAGTQLFQIQAL-----LA  235
+              G T+       D  L G    V    ND   +R++   P++     + ++L     + 
+Sbjct  184  HGGITMWRGVTEFDRFLDGKTMIV---ANDEHWSRLVAY-PISARHAAEGKSLVNWVCMV  239
+
+Query  236  P-------DDSQNFS-----ADVLTAFLTERIGRTDVR--IHSIPWVSKYQMNARIA-EH  280
+            P       D+  +++      DVL  F    +G  D+R  +     + +Y M  R    H
+Sbjct  240  PSAAVGQLDNEADWNRDGRLEDVLPFFADWDLGWFDIRDLLTRNQLILQYPMVDRDPLPH  299
+
+Query  281  YRVGKVFLAGDAAHVHPPTGGQGLNTSIQDAYNLGWKMAASLRGAGEELLDSYEQERRPI  340
+            +  G++ L GDAAH+  P G  G + +I D   L   +A +   AG   L  YE+ RRP+
+Sbjct  300  WGRGRITLLGDAAHLMYPMGANGASQAILDGIELAAALARNADVAGA--LREYEEARRPM  357
+
+Query  341  AESLLHLSTRLLDSQKQRGIKRER  364
+            A  ++ L+ R  + ++     R +
+Sbjct  358  ANKII-LANREREKEEWAAASRPK  380
+
+
+>VFG000173(gb|NP_252907) (phzS) flavin dependent hydroxylase PhzS 
+[Pyocyanin (VF0100) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=402
+
+ Score = 61.6 bits (148),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 99/384 (26%), Positives = 159/384 (41%), Gaps = 36/384 (9%)
+
+Query  8    DVLICGAGVTGLTLAIELARHGV-SFRLIEKRTTPFIGSRGKGIQPRTQEIFEDLGILNK  66
+            D+LI GAG+ GL+ A+ L + G+    L+E  +       G  IQP   E   +LG+   
+Sbjct  6    DILIAGAGIGGLSCALALHQAGIGKVTLLESSSEIRPLGVGINIQPAAVEALAELGLGPA  65
+
+Query  67   VVAAGGLYPRLRTYRHDGSYVDSDIAHHTKPTHAEP-YHLPLMVPQNVTETIMREQLKAW  125
+            + A       LR     G+ V S+     +  +A P Y +     Q +    +RE+L   
+Sbjct  66   LAATAIPTHELRYIDQSGATVWSE-PRGVEAGNAYPQYSIHRGELQMILLAAVRERLGQQ  124
+
+Query  126  GHRVEFGCELRHFAQTPRTVTAYVAGPAGEEVIIAHYLIGADGGGSFVRKKL-----GVS  180
+              R   G E R   +  R +     G    + + A  L+GADG  S VR  L      +S
+Sbjct  125  AVRTGLGVE-RIEERDGRVLIGARDGHGKPQALGADVLVGADGIHSAVRAHLHPDQRPLS  183
+
+Query  181  FPGRTLGIHALVADASLSGLNRDVWHHFNDGDMARMITICPLAGTQLFQIQAL-----LA  235
+              G T+       D  L G    V    ND   +R++   P++     + ++L     + 
+Sbjct  184  HGGITMWRGVTEFDRFLDGKTMIV---ANDEHWSRLVAY-PISARHAAEGKSLVNWVCMV  239
+
+Query  236  P-------DDSQNFS-----ADVLTAFLTERIGRTDVR--IHSIPWVSKYQMNARIA-EH  280
+            P       D+  +++      DVL  F    +G  D+R  +     + +Y M  R    H
+Sbjct  240  PSAAVGQLDNEADWNRDGRLEDVLPFFADWDLGWFDIRDLLTRNQLILQYPMVDRDPLPH  299
+
+Query  281  YRVGKVFLAGDAAHVHPPTGGQGLNTSIQDAYNLGWKMAASLRGAGEELLDSYEQERRPI  340
+            +  G++ L GDAAH+  P G  G + +I D   L   +A +   A    L  YE+ RRP 
+Sbjct  300  WGRGRITLLGDAAHLMYPMGANGASQAILDGIELAAALARNADVAAA--LREYEEARRPT  357
+
+Query  341  AESLLHLSTRLLDSQKQRGIKRER  364
+            A  ++ L+ R  + ++     R +
+Sbjct  358  ANKII-LANREREKEEWAAASRPK  380
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4134525490
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

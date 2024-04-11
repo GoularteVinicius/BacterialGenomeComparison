@@ -1,0 +1,182 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g66.t1
+
+Length=131
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.133    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 453935370
+
+
+Query= g2812.t1
+
+Length=170
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG033611(gb|WP_000534969) (glrA) type III secretion system LEE t...  89.0    4e-23
+VFG033609(gb|WP_000444181) (glrA) type III secretion system LEE t...  88.2    8e-23
+VFG000821(gb|WP_000444180) (glrA) type III secretion system LEE t...  88.2    8e-23
+VFG041536(gb|WP_012907128) (ROD_RS14785) CaiF/GrlA family transcr...  88.2    8e-23
+VFG033604(gb|WP_000444178) (glrA) type III secretion system LEE t...  87.8    1e-22
+
+
+>VFG033611(gb|WP_000534969) (glrA) type III secretion system LEE 
+transcriptional regulator GrlA [TTSS (VF0191) - Effector 
+delivery system (VFC0086)] [Escherichia coli O26:H11 str. 11368]
+Length=137
+
+ Score = 89.0 bits (219),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 51/134 (38%), Positives = 72/134 (54%), Gaps = 4/134 (3%)
+
+Query  23   GQTNHDACF-IPVSVRQYAGEPLYIIVAHWCLLQQNWVQRNQIAEAFHITARRASYLIAY  81
+            G  N +  + IP SV+ Y GEPLYI+V+ WC LQ+ W+ RN IAEAF I  RRAS++I Y
+Sbjct  2    GSKNKNGDYVIPDSVKNYDGEPLYILVSLWCKLQEKWISRNDIAEAFGINLRRASFIITY  61
+
+Query  82   LRSKTSRVVSICRHQTLPN-KARRYEIYVIRVLDSPTPSTRREKAGPPLVSKRRVGNGDR  140
+            +  +  ++    R+ +  N   +R EI++  V     P       GP      RVGNG  
+Sbjct  62   ISRRKEKISFRVRYVSYGNLHYKRLEIFIYDVNLEAVPIESPVSTGPKR-KNYRVGNGIV  120
+
+Query  141  SMANELWNRLCSNR  154
+              +N +WN +   R
+Sbjct  121  GQSN-IWNEMIMRR  133
+
+
+>VFG033609(gb|WP_000444181) (glrA) type III secretion system LEE 
+transcriptional regulator GrlA [TTSS (VF0191) - Effector 
+delivery system (VFC0086)] [Escherichia coli O103:H2 str. 12009]
+Length=137
+
+ Score = 88.2 bits (217),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 49/124 (40%), Positives = 68/124 (55%), Gaps = 3/124 (2%)
+
+Query  32   IPVSVRQYAGEPLYIIVAHWCLLQQNWVQRNQIAEAFHITARRASYLIAYLRSKTSRVVS  91
+            IP SV+ Y GEPLYI+V+ WC LQ+ W+ RN IAEAF I  RRAS++I Y+  +  ++  
+Sbjct  12   IPDSVKNYDGEPLYILVSLWCKLQEKWISRNDIAEAFGINLRRASFIITYISRRKEKISF  71
+
+Query  92   ICRHQTLPN-KARRYEIYVIRVLDSPTPSTRREKAGPPLVSKRRVGNGDRSMANELWNRL  150
+              R+ +  N   +R EI++  V     P       GP      RVGNG    +N +WN +
+Sbjct  72   RVRYVSYGNLHYKRLEIFIYDVNLEAVPIESPVSTGPKR-KNYRVGNGIVGQSN-IWNEM  129
+
+Query  151  CSNR  154
+               R
+Sbjct  130  IMRR  133
+
+
+>VFG000821(gb|WP_000444180) (glrA) type III secretion system LEE 
+transcriptional regulator GrlA [TTSS (VF0191) - Effector 
+delivery system (VFC0086)] [Escherichia coli O157:H7 str. EDL933]
+Length=137
+
+ Score = 88.2 bits (217),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 49/124 (40%), Positives = 69/124 (56%), Gaps = 3/124 (2%)
+
+Query  32   IPVSVRQYAGEPLYIIVAHWCLLQQNWVQRNQIAEAFHITARRASYLIAYLRSKTSRVVS  91
+            IP SV+ Y GEPLYI+V+ WC LQ+ W+ RN IAEAF I  RRAS++I Y+  +  ++  
+Sbjct  12   IPDSVKNYDGEPLYILVSLWCKLQEKWISRNDIAEAFGINLRRASFIITYISRRKEKISF  71
+
+Query  92   ICRHQTLPN-KARRYEIYVIRVLDSPTPSTRREKAGPPLVSKRRVGNGDRSMANELWNRL  150
+              R+ +  N   +R EI++  V     P       GP   +  RVGNG    +N +WN +
+Sbjct  72   RVRYVSYGNLHYKRLEIFIYDVNLEAVPIESPGTTGPKRKT-YRVGNGIVGQSN-IWNEM  129
+
+Query  151  CSNR  154
+               R
+Sbjct  130  IMRR  133
+
+
+>VFG041536(gb|WP_012907128) (ROD_RS14785) CaiF/GrlA family transcriptional 
+regulator [T3SS (VF1262) - Effector delivery system 
+(VFC0086)] [Citrobacter rodentium ICC168]
+Length=135
+
+ Score = 88.2 bits (217),  Expect = 8e-23, Method: Compositional matrix adjust.
+ Identities = 48/132 (36%), Positives = 73/132 (55%), Gaps = 3/132 (2%)
+
+Query  24   QTNHDACFIPVSVRQYAGEPLYIIVAHWCLLQQNWVQRNQIAEAFHITARRASYLIAYLR  83
+            ++ +    IP SV+ Y GEPLYI+V+ WC LQ+ W+ RN IAEAF I  RRAS++I Y+ 
+Sbjct  2    ESKNSDYVIPDSVKNYNGEPLYILVSLWCKLQEKWISRNDIAEAFGINLRRASFIITYIS  61
+
+Query  84   SKTSRVVSICRHQTLPN-KARRYEIYVIRVLDSPTPSTRREKAGPPLVSKRRVGNGDRSM  142
+             +  ++    R+ +  N   +R EI++  V     P+      GP   +  RVGNG    
+Sbjct  62   RRKEKISFRVRYVSYGNLHYKRLEIFIYNVNLEAAPTESHVSTGPKRKT-LRVGNGIVGQ  120
+
+Query  143  ANELWNRLCSNR  154
+            ++ +WN +   R
+Sbjct  121  SS-IWNEMIMRR  131
+
+
+>VFG033604(gb|WP_000444178) (glrA) type III secretion system LEE 
+transcriptional regulator GrlA [TTSS (VF0172) - Effector 
+delivery system (VFC0086)] [Escherichia coli O127:H6 str. E2348/69]
+Length=137
+
+ Score = 87.8 bits (216),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 49/124 (40%), Positives = 69/124 (56%), Gaps = 3/124 (2%)
+
+Query  32   IPVSVRQYAGEPLYIIVAHWCLLQQNWVQRNQIAEAFHITARRASYLIAYLRSKTSRVVS  91
+            IP SV+ Y GEPLYI+V+ WC LQ+ W+ RN IAEAF I  RRAS++I Y+  +  ++  
+Sbjct  12   IPDSVKNYDGEPLYILVSLWCKLQEKWISRNDIAEAFGINLRRASFIITYISRRKEKISF  71
+
+Query  92   ICRHQTLPN-KARRYEIYVIRVLDSPTPSTRREKAGPPLVSKRRVGNGDRSMANELWNRL  150
+              R+ +  N   +R EI++  V     P       GP   +  RVGNG    +N +WN +
+Sbjct  72   RVRYVSYGNLHYKRLEIFIYDVNLEAVPIESPGSTGPKRKT-YRVGNGIVGQSN-IWNEM  129
+
+Query  151  CSNR  154
+               R
+Sbjct  130  ILRR  133
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.134    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 823596389
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

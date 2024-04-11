@@ -1,0 +1,473 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3798.t1
+
+Length=230
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG040771(gb|WP_011476870) (pld) phospholipase D [Pld (VF0491) - ...  81.6    6e-19
+VFG040769(gb|WP_012150121) (pld) phospholipase D [Pld (VF0491) - ...  78.2    1e-17
+VFG040770(gb|WP_014412235) (pld) phospholipase D [Pld (VF0491) - ...  77.8    1e-17
+VFG040783(gb|WP_014365051) (pld) phospholipase D [Pld (VF0491) - ...  76.6    3e-17
+VFG040800(gb|WP_014363311) (pld) phospholipase D [Pld (VF0491) - ...  76.6    4e-17
+VFG040779(gb|WP_014366122) (pld) phospholipase D [Pld (VF0491) - ...  76.3    5e-17
+VFG040780(gb|WP_012153204) (pld) phospholipase D [Pld (VF0491) - ...  76.3    6e-17
+VFG040777(gb|WP_014014845) (pld) phospholipase D [Pld (VF0491) - ...  76.3    6e-17
+VFG040778(gb|WP_014121123) (pld) phospholipase D [Pld (VF0491) - ...  75.9    6e-17
+VFG040775(gb|WP_010977832) (pld) phospholipase D [Pld (VF0491) - ...  75.9    6e-17
+VFG040782(gb|WP_012736862) (pld) phospholipase D [Pld (VF0491) - ...  75.9    7e-17
+VFG040794(gb|WP_014409112) (pld) phospholipase D [Pld (VF0491) - ...  75.9    7e-17
+VFG040781(gb|WP_014411111) (pld) phospholipase D [Pld (VF0491) - ...  75.9    7e-17
+VFG040768(gb|WP_012720066) (pld) phospholipase D [Pld (VF0491) - ...  75.5    1e-16
+VFG040776(gb|WP_011271597) (pld) phospholipase D [Pld (VF0491) - ...  74.7    2e-16
+VFG040784(gb|WP_004596866) (pld) phospholipase D [Pld (VF0491) - ...  74.7    2e-16
+VFG040795(gb|WP_012151375) (pld) phospholipase D [Pld (VF0491) - ...  74.3    3e-16
+VFG040774(gb|WP_012149162) (pld) phospholipase D [Pld (VF0491) - ...  73.6    6e-16
+VFG040773(gb|WP_014364259) (pld) phospholipase D [Pld (VF0491) - ...  73.2    7e-16
+VFG040807(gb|WP_011191236) (pld) phospholipase D [Pld (VF0491) - ...  71.2    4e-15
+
+
+>VFG040771(gb|WP_011476870) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia bellii OSU 85-389]
+Length=201
+
+ Score = 81.6 bits (200),  Expect = 6e-19, Method: Compositional matrix adjust.
+ Identities = 45/157 (29%), Positives = 81/157 (52%), Gaps = 12/157 (8%)
+
+Query  72   VVRTLEVTAAPP------------RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTI  119
+            ++   +++  PP            RS+ S  F+P   C + I +    AR+S+ +  + +
+Sbjct  33   LINQFKISHTPPPKIKHYNISQLSRSKVSTCFTPPSGCTKFIADQIDTARESIYMHAYGM  92
+
+Query  120  SDDQLSAEILACHRRGVPVRIISDDDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFAL  179
+            SD  ++A ++    RGV V+I+ D      + S +H L+ A + + ID  P   H+K  +
+Sbjct  93   SDSLITAALIDAQARGVQVKILLDRSNLKQKFSKLHELQRAKIEVGIDKVPGIAHNKVII  152
+
+Query  180  VDGAWLLNGSFNWTRSASVNNEENLLVTDDAVLIGAY  216
+            +D   ++ GSFN+T +A   N EN++V +DA L  +Y
+Sbjct  153  IDKKKVITGSFNFTAAADKRNAENVIVIEDAELADSY  189
+
+
+>VFG040769(gb|WP_012150121) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia akari str. Hartford]
+Length=200
+
+ Score = 78.2 bits (191),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 40/135 (30%), Positives = 72/135 (53%), Gaps = 0/135 (0%)
+
+Query  82   PPRSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRII  141
+            P RS+ S  F+P   C + I     +A +S+ +  + +SD  ++  ++    RGV VRI+
+Sbjct  55   PARSKVSTCFTPPAGCTKFIANQIDKAEESIYMQAYGMSDALITTALINAQMRGVKVRIL  114
+
+Query  142  SDDDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNE  201
+             D      + S +H L++A + + ID  P   H+K  ++D   ++ GSFN+T +A   N 
+Sbjct  115  LDRSNLKQKFSKLHELQQAKIDVGIDKVPGIAHNKVIIIDKKQVITGSFNFTAAADKRNA  174
+
+Query  202  ENLLVTDDAVLIGAY  216
+            EN++  +D  +  +Y
+Sbjct  175  ENVIAIEDQEVAESY  189
+
+
+>VFG040770(gb|WP_014412235) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia australis Cutlack]
+Length=200
+
+ Score = 77.8 bits (190),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 41/133 (31%), Positives = 72/133 (54%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            RS+ S  F+P   C + I     +A +S+ +  + +SD  ++  ++    RGV VRI+ D
+Sbjct  57   RSKVSTCFTPPAGCTKFIANQIDKAEKSIYMQAYGMSDALITTALINAQMRGVKVRILLD  116
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S +H L++A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  117  RSNLKQKFSKLHELQQAKIDVGIDKVPGIAHNKVIIIDKKKVITGSFNFTAAADKRNAEN  176
+
+Query  204  LLVTDDAVLIGAY  216
+            ++V +D  L  +Y
+Sbjct  177  VIVIEDQELAESY  189
+
+
+>VFG040783(gb|WP_014365051) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia philipii 364D]
+Length=200
+
+ Score = 76.6 bits (187),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 40/133 (30%), Positives = 71/133 (53%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            RS+ S  F+P   C + I     +A +S+ +  + +SD  ++  ++    RGV VRI+ D
+Sbjct  57   RSKVSTCFTPPAGCTKFIANQIDKAEESIYMQAYGMSDALITTALINAQARGVKVRILLD  116
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S +H L+ A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  117  RSNLKQQFSKLHELQRAKIDVYIDKVPGIAHNKVIIIDKKKVITGSFNFTAAADKRNAEN  176
+
+Query  204  LLVTDDAVLIGAY  216
+            +++ +D  L  +Y
+Sbjct  177  VIIIEDQELAESY  189
+
+
+>VFG040800(gb|WP_014363311) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia rickettsii Hlp#2]
+Length=200
+
+ Score = 76.6 bits (187),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 40/133 (30%), Positives = 71/133 (53%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            RS+ S  F+P   C + I     +A +S+ +  + +SD  ++  ++    RGV VRI+ D
+Sbjct  57   RSKVSTCFTPPAGCTKFIANQIDKAEESIYMQAYGMSDALITTALINAQARGVKVRILLD  116
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S +H L+ A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  117  RSNLKQKFSKLHELQRAKIDVYIDKVPGIAHNKVIIIDKKKVITGSFNFTAAADKRNAEN  176
+
+Query  204  LLVTDDAVLIGAY  216
+            +++ +D  L  +Y
+Sbjct  177  VIIIEDQELAESY  189
+
+
+>VFG040779(gb|WP_014366122) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia massiliae AZT80]
+Length=200
+
+ Score = 76.3 bits (186),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 40/133 (30%), Positives = 72/133 (54%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            RS+ S  F+P   C + I     +A +S+ +  + +SD  ++  +++   RGV VRI+ D
+Sbjct  57   RSKVSTCFTPPAGCTKFIANQIDKAEESIYMQAYGMSDALITTALISAQARGVKVRILLD  116
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S +H L+ A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  117  RSNLKQKFSKLHELQRAKIDVGIDKVPGIAHNKVIILDKKKVITGSFNFTAAADKRNAEN  176
+
+Query  204  LLVTDDAVLIGAY  216
+            +++ +D  L  +Y
+Sbjct  177  VIIIEDQELAESY  189
+
+
+>VFG040780(gb|WP_012153204) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia massiliae MTU5]
+Length=200
+
+ Score = 76.3 bits (186),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 40/133 (30%), Positives = 71/133 (53%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            RS+ S  F+P   C + I     +A +S+ +  + +SD  ++  ++    RGV VRI+ D
+Sbjct  57   RSKVSTCFTPPAGCTKFIANQIDKAEESIYMQAYGMSDALITTALINAQARGVKVRILLD  116
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S +H L+ A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  117  RSNLKQKFSKLHELQRAKIDVGIDKVPGIAHNKVIIIDKKKVITGSFNFTAAADKRNAEN  176
+
+Query  204  LLVTDDAVLIGAY  216
+            +++ +D  L  +Y
+Sbjct  177  VIIIEDQELAESY  189
+
+
+>VFG040777(gb|WP_014014845) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia heilongjiangensis 054]
+Length=199
+
+ Score = 76.3 bits (186),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 40/133 (30%), Positives = 71/133 (53%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            RS+ S  F+P   C + I     +A +S+ +  + +SD  ++  ++    RGV VRI+ D
+Sbjct  56   RSKVSTCFTPPAGCTKFIANQIDKAEESIYMQAYGMSDALITTALINAQARGVKVRILLD  115
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S +H L+ A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  116  RSNLKQKFSKLHELQRAKIDVGIDKVPGIAHNKVIIIDKKKVITGSFNFTAAADKRNAEN  175
+
+Query  204  LLVTDDAVLIGAY  216
+            +++ +D  L  +Y
+Sbjct  176  VIIIEDQELAESY  188
+
+
+>VFG040778(gb|WP_014121123) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia japonica YH]
+Length=200
+
+ Score = 75.9 bits (185),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 40/133 (30%), Positives = 71/133 (53%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            RS+ S  F+P   C + I     +A +S+ +  + +SD  ++  ++    RGV VRI+ D
+Sbjct  57   RSKVSTCFTPPAGCTKFIANQIDKAEESIYMQAYGMSDALITTALINAQARGVKVRILLD  116
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S +H L+ A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  117  RSNLKQKFSKLHELQRAKIDVGIDKVPGIAHNKVIIIDKKKVITGSFNFTAAADKRNAEN  176
+
+Query  204  LLVTDDAVLIGAY  216
+            +++ +D  L  +Y
+Sbjct  177  VIIIEDQELAESY  189
+
+
+>VFG040775(gb|WP_010977832) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia conorii str. Malish 7]
+Length=200
+
+ Score = 75.9 bits (185),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 40/133 (30%), Positives = 71/133 (53%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            RS+ S  F+P   C + I     +A +S+ +  + +SD  ++  ++    RGV VRI+ D
+Sbjct  57   RSKVSTCFTPPAGCTKFIANQIDKAEESIYMQAYGMSDALITTALINAQARGVKVRILLD  116
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S +H L+ A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  117  RSNLKQKFSKLHELQRAKIDVDIDKVPGIAHNKVIIIDKKKVITGSFNFTAAADKRNAEN  176
+
+Query  204  LLVTDDAVLIGAY  216
+            +++ +D  L  +Y
+Sbjct  177  VIIIEDQELAESY  189
+
+
+>VFG040782(gb|WP_012736862) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia peacockii str. Rustic]
+Length=200
+
+ Score = 75.9 bits (185),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 40/133 (30%), Positives = 71/133 (53%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            RS+ S  F+P   C + I     +A +S+ +  + +SD  ++  ++    RGV VRI+ D
+Sbjct  57   RSKVSTCFTPPAGCTKFIANQIDKAEESIYMQAYGMSDALITTALINAQARGVKVRILLD  116
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S +H L+ A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  117  RSHLKQKFSKLHELQRAKIDVYIDKVPGIAHNKVIIIDKKKVITGSFNFTAAADKRNAEN  176
+
+Query  204  LLVTDDAVLIGAY  216
+            +++ +D  L  +Y
+Sbjct  177  VIIIEDQELAESY  189
+
+
+>VFG040794(gb|WP_014409112) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia rhipicephali 3-7-female6-CWPP]
+Length=200
+
+ Score = 75.9 bits (185),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 40/133 (30%), Positives = 71/133 (53%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            RS+ S  F+P   C + I     +A +S+ +  + +SD  ++  ++    RGV VRI+ D
+Sbjct  57   RSKVSTCFTPPAGCTKFIANQIDKAEESIYMQAYGMSDALITTALINAQARGVKVRILLD  116
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S +H L+ A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  117  RSNLKQKFSKLHELQRAKIDVGIDKVPGIAHNKVIIIDKKKVITGSFNFTAAADKRNAEN  176
+
+Query  204  LLVTDDAVLIGAY  216
+            +++ +D  L  +Y
+Sbjct  177  VIIIEDQELAESY  189
+
+
+>VFG040781(gb|WP_014411111) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia parkeri Portsmouth]
+Length=200
+
+ Score = 75.9 bits (185),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 40/133 (30%), Positives = 71/133 (53%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            RS+ S  F+P   C + I     +A +S+ +  + +SD  ++  ++    RGV VRI+ D
+Sbjct  57   RSKVSTCFTPPAGCTKFIANQIDKAEESIYMQAYGMSDALITTALINAQARGVKVRILLD  116
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S +H L+ A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  117  RSNLKQKFSKLHELQRAKIDVDIDKVPGIAHNKVIIIDKKKVITGSFNFTAAADKRNAEN  176
+
+Query  204  LLVTDDAVLIGAY  216
+            +++ +D  L  +Y
+Sbjct  177  VIIIEDQELAESY  189
+
+
+>VFG040768(gb|WP_012720066) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia africae ESF-5]
+Length=200
+
+ Score = 75.5 bits (184),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 40/133 (30%), Positives = 71/133 (53%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            RS+ S  F+P   C + I     +A +S+ +  + +SD  ++  ++    RGV VRI+ D
+Sbjct  57   RSKVSTCFTPPAGCTKFIANQIDKAEESIYMQAYGMSDALITNALINAQARGVKVRILLD  116
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S +H L+ A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  117  RSNLKQKFSKLHELQRAKIDVDIDKVPGIAHNKVIIIDKKKVITGSFNFTAAADKRNAEN  176
+
+Query  204  LLVTDDAVLIGAY  216
+            +++ +D  L  +Y
+Sbjct  177  VIIIEDQELAESY  189
+
+
+>VFG040776(gb|WP_011271597) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia felis URRWXCal2]
+Length=200
+
+ Score = 74.7 bits (182),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 40/133 (30%), Positives = 71/133 (53%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            RS+ S  F+P   C + I     +A +S+ +  + +SD  ++  ++    RGV VRI+ D
+Sbjct  57   RSKVSTCFTPPAGCTKFIANQIDRAEESIYMQAYGMSDALITTALINAQMRGVKVRILLD  116
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S +H L+ A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  117  RSNLKQKFSKLHELQRAKIDVGIDKVPGIAHNKVIIIDRKKVITGSFNFTAAADKRNAEN  176
+
+Query  204  LLVTDDAVLIGAY  216
+            +++ +D  L  +Y
+Sbjct  177  VIIIEDRELAESY  189
+
+
+>VFG040784(gb|WP_004596866) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia prowazekii Breinl]
+Length=205
+
+ Score = 74.7 bits (182),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 40/134 (30%), Positives = 72/134 (54%), Gaps = 0/134 (0%)
+
+Query  83   PRSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIIS  142
+             RS  S  F+P   C + I +   +A +S+ +  + +SD  ++  ++    RGV VRI+ 
+Sbjct  56   SRSNVSTCFTPPAGCTKFIVQQIEKAEESIYMQAYGMSDSLITTALINAQMRGVKVRILL  115
+
+Query  143  DDDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEE  202
+            D      + S ++ L++A + + ID  P   H+K  ++D   ++ GSFN+T SA   N E
+Sbjct  116  DRSNLKQKFSKLYELQQAKIDVGIDTVPGIAHNKVIIIDKKKVITGSFNFTVSADKRNAE  175
+
+Query  203  NLLVTDDAVLIGAY  216
+            N+++ +D  L  +Y
+Sbjct  176  NVILIEDRKLAESY  189
+
+
+>VFG040795(gb|WP_012151375) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia rickettsii Arizona]
+Length=200
+
+ Score = 74.3 bits (181),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 39/133 (29%), Positives = 71/133 (53%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            RS+ S  F+P   C + I     +A +S+ +  + +SD  ++  ++    RGV VRI+ D
+Sbjct  57   RSKVSTCFTPPAGCTKFIANQIDKAEESIYMQAYGMSDALITTALINAQARGVKVRILLD  116
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S ++ L+ A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  117  RSNLKQKFSKLYELQRAKIDVYIDKVPGIAHNKVIIIDKKKVITGSFNFTAAADKRNAEN  176
+
+Query  204  LLVTDDAVLIGAY  216
+            +++ +D  L  +Y
+Sbjct  177  VIIIEDQELAESY  189
+
+
+>VFG040774(gb|WP_012149162) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia canadensis str. McKiel]
+Length=200
+
+ Score = 73.6 bits (179),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 39/133 (29%), Positives = 70/133 (53%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            RS+ S  F+P   C + I      A +S+ +  + +SD  ++  ++    RGV V+I+ D
+Sbjct  57   RSKVSTCFTPPAGCTKFIANQIDIAEESIYMQAYGMSDALITTALINAQARGVKVKILLD  116
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S +H L+ A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  117  RSNLKQKFSKLHELQRANIDVGIDKVPGIAHNKIIIIDKKRVITGSFNFTVAADKRNAEN  176
+
+Query  204  LLVTDDAVLIGAY  216
+            +++ +D  L  +Y
+Sbjct  177  IILIEDKELAESY  189
+
+
+>VFG040773(gb|WP_014364259) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia canadensis CA410]
+Length=200
+
+ Score = 73.2 bits (178),  Expect = 7e-16, Method: Compositional matrix adjust.
+ Identities = 39/133 (29%), Positives = 70/133 (53%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            RS+ S  F+P   C + I      A +S+ +  + +SD  ++  ++    RGV V+I+ D
+Sbjct  57   RSKVSTCFTPPAGCTKFIANQIDIAEESIYMQAYGMSDALITTALINAQARGVKVKILLD  116
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S +H L+ A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  117  RSNLKQKFSKLHELQRANIDVGIDKVPGIAHNKIIIIDKKRVITGSFNFTVAADKRNAEN  176
+
+Query  204  LLVTDDAVLIGAY  216
+            +++ +D  L  +Y
+Sbjct  177  IILIEDKELAESY  189
+
+
+>VFG040807(gb|WP_011191236) (pld) phospholipase D [Pld (VF0491) 
+- Exotoxin (VFC0235)] [Rickettsia typhi str. Wilmington]
+Length=204
+
+ Score = 71.2 bits (173),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 37/133 (28%), Positives = 71/133 (53%), Gaps = 0/133 (0%)
+
+Query  84   RSRASAYFSPGEECRRKIRELCRQARQSLDICVFTISDDQLSAEILACHRRGVPVRIISD  143
+            R   S  F+P   C + I +   +A +S+ +  + +SD  ++  ++    RGV V+I+ D
+Sbjct  57   RRNVSTCFTPPAGCTKFIVQQLEKAEESIYMQAYGMSDSLITTALINAQMRGVKVKILLD  116
+
+Query  144  DDKQFDEGSDIHALREAGVPLRIDDSPFHMHHKFALVDGAWLLNGSFNWTRSASVNNEEN  203
+                  + S ++ L++A + + ID  P   H+K  ++D   ++ GSFN+T +A   N EN
+Sbjct  117  RSNLKQKFSKLYELQQAKIDVGIDTVPGIAHNKVIIIDKKKVITGSFNFTVAADKRNAEN  176
+
+Query  204  LLVTDDAVLIGAY  216
+            +++ +D  L  +Y
+Sbjct  177  VILIEDQQLAESY  189
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1407689157
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

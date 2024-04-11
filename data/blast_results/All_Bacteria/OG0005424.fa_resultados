@@ -1,0 +1,89 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3916.t1
+
+Length=116
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG042140(gb|NP_252531) (spcS) chaperone for exoS [TTSS (VF0083) ...  234     6e-82
+VFG000372(gb|WP_002213403) (sycE/yerA) chaperone for YopE [TTSS (...  91.3    8e-25
+
+
+>VFG042140(gb|NP_252531) (spcS) chaperone for exoS [TTSS (VF0083) 
+- Effector delivery system (VFC0086)] [Pseudomonas aeruginosa 
+PAO1]
+Length=116
+
+ Score = 234 bits (598),  Expect = 6e-82, Method: Compositional matrix adjust.
+ Identities = 116/116 (100%), Positives = 116/116 (100%), Gaps = 0/116 (0%)
+
+Query  1    MNPLYRAAIHQLFLALDLPTPNDEESVLSLQVGPHLCHLAEHPTDHLLMFTRLEGQGDAT  60
+            MNPLYRAAIHQLFLALDLPTPNDEESVLSLQVGPHLCHLAEHPTDHLLMFTRLEGQGDAT
+Sbjct  1    MNPLYRAAIHQLFLALDLPTPNDEESVLSLQVGPHLCHLAEHPTDHLLMFTRLEGQGDAT  60
+
+Query  61   ANEQNLFSQDPCKPILGRDPESGERLLWNRQPLQLLDRAQIHHQLEQLVAAAEELR  116
+            ANEQNLFSQDPCKPILGRDPESGERLLWNRQPLQLLDRAQIHHQLEQLVAAAEELR
+Sbjct  61   ANEQNLFSQDPCKPILGRDPESGERLLWNRQPLQLLDRAQIHHQLEQLVAAAEELR  116
+
+
+>VFG000372(gb|WP_002213403) (sycE/yerA) chaperone for YopE  [TTSS 
+(VF0140) - Effector delivery system (VFC0086)] [Yersinia 
+pestis CO92]
+Length=130
+
+ Score = 91.3 bits (225),  Expect = 8e-25, Method: Compositional matrix adjust.
+ Identities = 51/115 (44%), Positives = 65/115 (57%), Gaps = 3/115 (3%)
+
+Query  5    YRAAIHQLFLALDLPTPNDEESVLSLQVGPHLCHLAEHPTDHLLMFT--RLEGQGDA-TA  61
+            +  AI QLF  L L  P+  E V+ ++VG   CH+ EHP   +LMFT   L+   +  T 
+Sbjct  4    FEQAITQLFQQLSLSIPDTIEPVIGVKVGEFACHITEHPVGQILMFTLPSLDNNDEKETL  63
+
+Query  62   NEQNLFSQDPCKPILGRDPESGERLLWNRQPLQLLDRAQIHHQLEQLVAAAEELR  116
+               N+FSQD  KPIL  D   G  +LWNRQPL  LD   ++ QLE LV  AE L+
+Sbjct  64   LSHNIFSQDILKPILSWDEVGGHPVLWNRQPLNSLDNNSLYTQLEMLVQGAERLQ  118
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 326757930
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

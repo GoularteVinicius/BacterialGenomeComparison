@@ -1,0 +1,688 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g5357.t1
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000118(gb|NP_253942) (algQ) Alginate regulatory protein AlgQ [...  327     8e-117
+VFG015027(gb|WP_003154610) (algQ) Alginate regulatory protein Alg...  320     4e-114
+VFG015037(gb|WP_003242406) (algQ) Alginate regulatory protein Alg...  238     1e-81 
+VFG015038(gb|WP_011911762) (algQ) Alginate regulatory protein Alg...  205     5e-69 
+VFG015031(gb|WP_002551368) (algQ) Alginate regulatory protein Alg...  202     1e-67 
+VFG015029(gb|WP_005738602) (algQ) Alginate regulatory protein Alg...  200     8e-67 
+VFG015030(gb|WP_003401557) (algQ) Alginate regulatory protein Alg...  199     1e-66 
+VFG015035(gb|WP_011064170) (algQ) Alginate regulatory protein Alg...  192     1e-63 
+VFG015036(gb|WP_041475458) (algQ) Alginate regulatory protein Alg...  187     5e-62 
+VFG019929(gb|WP_015886487) (algQ) Alginate regulatory protein Alg...  186     4e-61 
+VFG015779(gb|WP_012312208) (algQ) Alginate regulatory protein Alg...  184     2e-60 
+VFG015032(gb|WP_003255887) (algQ) Alginate regulatory protein Alg...  182     7e-60 
+VFG015778(gb|WP_012269999) (algQ) Alginate regulatory protein Alg...  182     1e-59 
+VFG015034(gb|WP_011531594) (algQ) Alginate regulatory protein Alg...  177     9e-58 
+
+
+>VFG000118(gb|NP_253942) (algQ) Alginate regulatory protein AlgQ 
+[Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa 
+PAO1]
+Length=160
+
+ Score = 327 bits (837),  Expect = 8e-117, Method: Compositional matrix adjust.
+ Identities = 160/160 (100%), Positives = 160/160 (100%), Gaps = 0/160 (0%)
+
+Query  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGIQAPAPNAEELQHFCQLLLDYV  60
+            MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGIQAPAPNAEELQHFCQLLLDYV
+Sbjct  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGIQAPAPNAEELQHFCQLLLDYV  60
+
+Query  61   SAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACLI  120
+            SAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACLI
+Sbjct  61   SAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACLI  120
+
+Query  121  AELKVLRQQLHERFELEDCLIEVLHNAHSQSGAEGSAVPV  160
+            AELKVLRQQLHERFELEDCLIEVLHNAHSQSGAEGSAVPV
+Sbjct  121  AELKVLRQQLHERFELEDCLIEVLHNAHSQSGAEGSAVPV  160
+
+
+>VFG015027(gb|WP_003154610) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa 
+PA7]
+Length=160
+
+ Score = 320 bits (819),  Expect = 4e-114, Method: Compositional matrix adjust.
+ Identities = 157/160 (98%), Positives = 157/160 (98%), Gaps = 0/160 (0%)
+
+Query  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGIQAPAPNAEELQHFCQLLLDYV  60
+            MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGIQAPAPNAEELQHFCQLLLDYV
+Sbjct  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGIQAPAPNAEELQHFCQLLLDYV  60
+
+Query  61   SAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACLI  120
+            SAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACLI
+Sbjct  61   SAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACLI  120
+
+Query  121  AELKVLRQQLHERFELEDCLIEVLHNAHSQSGAEGSAVPV  160
+            AELK LRQQLHERFELEDCLIEVLH AHSQS AEGSAVPV
+Sbjct  121  AELKSLRQQLHERFELEDCLIEVLHTAHSQSDAEGSAVPV  160
+
+
+>VFG015037(gb|WP_003242406) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas mendocina 
+ymp]
+Length=157
+
+ Score = 238 bits (606),  Expect = 1e-81, Method: Compositional matrix adjust.
+ Identities = 117/155 (75%), Positives = 131/155 (85%), Gaps = 1/155 (1%)
+
+Query  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALS-GIQAPAPNAEELQHFCQLLLDY  59
+            MLESC+NAQERWGGVHQLIDRWL ER++LV A+ ALS   QAPA N E LQ FC++L+DY
+Sbjct  1    MLESCQNAQERWGGVHQLIDRWLGERRELVLAYTALSKAPQAPAINGEALQGFCEILVDY  60
+
+Query  60   VSAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACL  119
+            VSAGHFEVYEQLT+E KAF D+RGLELAKQI+PR+EAITE AL FNDRCDNGDCR+   L
+Sbjct  61   VSAGHFEVYEQLTSEAKAFNDKRGLELAKQIYPRIEAITEVALAFNDRCDNGDCRDSVSL  120
+
+Query  120  IAELKVLRQQLHERFELEDCLIEVLHNAHSQSGAE  154
+            +AEL  L Q LHERFELEDCLIEVLHNAH +  AE
+Sbjct  121  VAELNRLGQLLHERFELEDCLIEVLHNAHQEQAAE  155
+
+
+>VFG015038(gb|WP_011911762) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas stutzeri 
+A1501]
+Length=153
+
+ Score = 205 bits (522),  Expect = 5e-69, Method: Compositional matrix adjust.
+ Identities = 103/153 (67%), Positives = 117/153 (76%), Gaps = 2/153 (1%)
+
+Query  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGIQAPAPNAEELQHFCQLLLDYV  60
+            MLESCRNAQERWGGVH LIDRWLHER  L+ A+D L   +  A  A  LQ FC+ L+DYV
+Sbjct  1    MLESCRNAQERWGGVHLLIDRWLHERHALINAYDRLHIERDDARQA--LQRFCEYLVDYV  58
+
+Query  61   SAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACLI  120
+            SAGHFE+YEQL AE +AFGD R +ELAKQI+PR+E IT+ AL+FNDRC+ GDC     L 
+Sbjct  59   SAGHFEIYEQLLAEAEAFGDARAIELAKQIYPRIETITQVALSFNDRCEKGDCLGSPGLA  118
+
+Query  121  AELKVLRQQLHERFELEDCLIEVLHNAHSQSGA  153
+             ELK L Q LHERFELEDCLIEVLH AH Q+ A
+Sbjct  119  DELKKLGQLLHERFELEDCLIEVLHTAHKQAAA  151
+
+
+>VFG015031(gb|WP_002551368) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+Length=157
+
+ Score = 202 bits (514),  Expect = 1e-67, Method: Compositional matrix adjust.
+ Identities = 99/154 (64%), Positives = 118/154 (77%), Gaps = 1/154 (1%)
+
+Query  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGI-QAPAPNAEELQHFCQLLLDY  59
+            MLESC+NAQERWGGV++LIDRWL  R +LV+A+DAL    QA A + E LQ+FC +L+DY
+Sbjct  1    MLESCQNAQERWGGVNKLIDRWLQSRLELVEAYDALGDTPQALAADREGLQNFCGVLVDY  60
+
+Query  60   VSAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACL  119
+            VSAGHFEVYEQL  E +AF D+RGLELA  I+PRL+ IT+ AL FNDRCD GDC +   +
+Sbjct  61   VSAGHFEVYEQLGDEARAFNDERGLELADTIYPRLDVITKFALTFNDRCDKGDCSDATVV  120
+
+Query  120  IAELKVLRQQLHERFELEDCLIEVLHNAHSQSGA  153
+              E   L Q LHERFELEDCLIEVLHN+H +  A
+Sbjct  121  AKEFNQLGQLLHERFELEDCLIEVLHNSHKEEIA  154
+
+
+>VFG015029(gb|WP_005738602) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. tomato str. DC3000]
+Length=157
+
+ Score = 200 bits (508),  Expect = 8e-67, Method: Compositional matrix adjust.
+ Identities = 97/154 (63%), Positives = 118/154 (77%), Gaps = 1/154 (1%)
+
+Query  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGI-QAPAPNAEELQHFCQLLLDY  59
+            MLESC+NAQERWGGV++LIDRWL  R +L++A+DAL    +A A + E LQ+FC +L+DY
+Sbjct  1    MLESCQNAQERWGGVNKLIDRWLQSRLELIEAYDALGDTPEALAADREGLQNFCGILVDY  60
+
+Query  60   VSAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACL  119
+            VSAGHFEVYEQL  E +AF D+RGLELA  I+PRL+ IT+ AL FNDRCD GDC + A +
+Sbjct  61   VSAGHFEVYEQLGDEARAFNDERGLELADTIYPRLDVITKFALTFNDRCDKGDCSDAAVV  120
+
+Query  120  IAELKVLRQQLHERFELEDCLIEVLHNAHSQSGA  153
+              E   L Q LHERFELEDCLIEVLH +H +  A
+Sbjct  121  AKEFNQLGQLLHERFELEDCLIEVLHTSHKEEVA  154
+
+
+>VFG015030(gb|WP_003401557) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. syringae B728a]
+Length=157
+
+ Score = 199 bits (507),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 98/154 (64%), Positives = 117/154 (76%), Gaps = 1/154 (1%)
+
+Query  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGIQAP-APNAEELQHFCQLLLDY  59
+            MLESC+NAQERWGGV++LIDRWL  R +LV+A+DAL    A  A + E LQ+FC +L+DY
+Sbjct  1    MLESCQNAQERWGGVNKLIDRWLQSRLKLVEAYDALGDTPAALAADREGLQNFCGILVDY  60
+
+Query  60   VSAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACL  119
+            VSAGHFEVYEQL  E +AF D+RGLELA  I+PRL+ IT+ AL FNDRCD GDC +   +
+Sbjct  61   VSAGHFEVYEQLGDEARAFNDKRGLELADTIYPRLDFITKFALTFNDRCDKGDCSDATAV  120
+
+Query  120  IAELKVLRQQLHERFELEDCLIEVLHNAHSQSGA  153
+              E   L Q LHERFELEDCLIEVLHN+H +  A
+Sbjct  121  AREFNQLGQLLHERFELEDCLIEVLHNSHKEEIA  154
+
+
+>VFG015035(gb|WP_011064170) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+Pf-5]
+Length=152
+
+ Score = 192 bits (487),  Expect = 1e-63, Method: Compositional matrix adjust.
+ Identities = 96/151 (64%), Positives = 115/151 (76%), Gaps = 6/151 (4%)
+
+Query  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSG-IQAPAPNAEELQHFCQLLLDY  59
+            MLESC+NAQERWGGVH LIDRWL ER +LV+A+DAL    +A + + + LQ FC +L+DY
+Sbjct  1    MLESCQNAQERWGGVHLLIDRWLQERHELVRAYDALGAEPEALSESKKPLQEFCGILVDY  60
+
+Query  60   VSAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACL  119
+            VSAGHFE+YEQLT+E KAFGD+RGLELA  ++PR++ ITE  L FND CD G      C+
+Sbjct  61   VSAGHFEIYEQLTSEAKAFGDKRGLELADTLYPRIDVITEKLLAFNDLCDAGQ-----CV  115
+
+Query  120  IAELKVLRQQLHERFELEDCLIEVLHNAHSQ  150
+              + K L   LHERFELEDCLIEVLHNAH Q
+Sbjct  116  AQKFKELGGLLHERFELEDCLIEVLHNAHKQ  146
+
+
+>VFG015036(gb|WP_041475458) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+Pf0-1]
+Length=152
+
+ Score = 187 bits (476),  Expect = 5e-62, Method: Compositional matrix adjust.
+ Identities = 94/154 (61%), Positives = 114/154 (74%), Gaps = 6/154 (4%)
+
+Query  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGI-QAPAPNAEELQHFCQLLLDY  59
+            MLESC+NAQERWGGVH LIDRWL ER++L+ A+D L    QA + + + LQ FC +L+DY
+Sbjct  1    MLESCQNAQERWGGVHLLIDRWLQEREELIAAYDRLGAKPQALSEDRKPLQEFCGVLVDY  60
+
+Query  60   VSAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACL  119
+            VSAGHFE+YEQLT E KAF D+RGLELA+ I+PR++ ITE  L FND CD     EG C+
+Sbjct  61   VSAGHFEIYEQLTGEAKAFNDKRGLELAETIYPRIDVITEKLLAFNDLCD-----EGKCV  115
+
+Query  120  IAELKVLRQQLHERFELEDCLIEVLHNAHSQSGA  153
+              + K L   LHERFELEDCLIEVLH AH +  +
+Sbjct  116  AEKFKELGGLLHERFELEDCLIEVLHTAHKEEDS  149
+
+
+>VFG019929(gb|WP_015886487) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+SBW25]
+Length=152
+
+ Score = 186 bits (471),  Expect = 4e-61, Method: Compositional matrix adjust.
+ Identities = 96/154 (62%), Positives = 113/154 (73%), Gaps = 6/154 (4%)
+
+Query  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSG-IQAPAPNAEELQHFCQLLLDY  59
+            MLESC+NAQERWGGVH+LID WL  R +LV+AFDAL    +A A N E LQ FC +L+DY
+Sbjct  1    MLESCQNAQERWGGVHKLIDSWLKARHELVRAFDALGAKPEALAQNREPLQDFCGVLVDY  60
+
+Query  60   VSAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACL  119
+            VSAGHF VYEQLT E +AF DQRGL+LA+ ++PR++AITE  L F D CD G      C+
+Sbjct  61   VSAGHFGVYEQLTKEAEAFDDQRGLKLAETLYPRIDAITEKLLAFTDLCDAGQ-----CV  115
+
+Query  120  IAELKVLRQQLHERFELEDCLIEVLHNAHSQSGA  153
+              + K L   LHERFELEDCLIEVLHNAH +  A
+Sbjct  116  AEKFKELGALLHERFELEDCLIEVLHNAHKEEPA  149
+
+
+>VFG015779(gb|WP_012312208) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas putida 
+W619]
+Length=156
+
+ Score = 184 bits (466),  Expect = 2e-60, Method: Compositional matrix adjust.
+ Identities = 89/153 (58%), Positives = 112/153 (73%), Gaps = 0/153 (0%)
+
+Query  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGIQAPAPNAEELQHFCQLLLDYV  60
+            ML+SC+NAQERWGGVH+LID WL ER++LVQAF AL   +    + ++ + FC +L+DYV
+Sbjct  1    MLDSCQNAQERWGGVHKLIDTWLKEREELVQAFGALRDAKPAFADKDKSRDFCAVLVDYV  60
+
+Query  61   SAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACLI  120
+            SA HFEV EQL  E KAFGDQ+ L+LA++I PR+  IT+ AL FND C+ GDC++     
+Sbjct  61   SAWHFEVSEQLVTEAKAFGDQKALKLAEEINPRINDITQIALAFNDHCEKGDCKDTERFA  120
+
+Query  121  AELKVLRQQLHERFELEDCLIEVLHNAHSQSGA  153
+             +L  L   LHERFELEDCLIEVLHNAH +  A
+Sbjct  121  DKLGKLGSLLHERFELEDCLIEVLHNAHKEEDA  153
+
+
+>VFG015032(gb|WP_003255887) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas putida 
+KT2440]
+Length=156
+
+ Score = 182 bits (463),  Expect = 7e-60, Method: Compositional matrix adjust.
+ Identities = 90/153 (59%), Positives = 112/153 (73%), Gaps = 0/153 (0%)
+
+Query  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGIQAPAPNAEELQHFCQLLLDYV  60
+            ML+SC+NAQERWGGVH+LIDRWL ERQ+LVQAF AL  ++    + +    FC LL+DYV
+Sbjct  1    MLDSCQNAQERWGGVHKLIDRWLEERQELVQAFRALRDVRPAFADKDTNGDFCALLVDYV  60
+
+Query  61   SAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACLI  120
+            SA HFEV EQL +E KAFGD++ L+LA++I PR+   T+ AL FND C  G+C++     
+Sbjct  61   SAWHFEVCEQLVSEAKAFGDKKALKLAEEINPRINDSTQIALAFNDHCTKGECKDTERFA  120
+
+Query  121  AELKVLRQQLHERFELEDCLIEVLHNAHSQSGA  153
+             +L  L   LHERFELEDCLIEVLHNAH + GA
+Sbjct  121  EKLAKLGGLLHERFELEDCLIEVLHNAHKEEGA  153
+
+
+>VFG015778(gb|WP_012269999) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas putida 
+GB-1]
+Length=156
+
+ Score = 182 bits (461),  Expect = 1e-59, Method: Compositional matrix adjust.
+ Identities = 90/153 (59%), Positives = 112/153 (73%), Gaps = 0/153 (0%)
+
+Query  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGIQAPAPNAEELQHFCQLLLDYV  60
+            ML+SC+NAQERWGGVH+LIDRWL ERQ+LVQAF AL  ++    + +    FC LL+DYV
+Sbjct  1    MLDSCQNAQERWGGVHKLIDRWLEERQELVQAFRALRDVKPAFADKDTNGDFCALLVDYV  60
+
+Query  61   SAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACLI  120
+            SA HFEV EQL +E KAFGD++ L+LA++I PR+   T+ AL FND C  G+C++     
+Sbjct  61   SAWHFEVCEQLASEAKAFGDEKALKLAEEINPRINDSTQIALAFNDHCAKGECKDTERFA  120
+
+Query  121  AELKVLRQQLHERFELEDCLIEVLHNAHSQSGA  153
+             +L  L   LHERFELEDCLIEVLHNAH + GA
+Sbjct  121  EKLAKLGGLLHERFELEDCLIEVLHNAHKEEGA  153
+
+
+>VFG015034(gb|WP_011531594) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas entomophila 
+L48]
+Length=156
+
+ Score = 177 bits (449),  Expect = 9e-58, Method: Compositional matrix adjust.
+ Identities = 89/153 (58%), Positives = 109/153 (71%), Gaps = 0/153 (0%)
+
+Query  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGIQAPAPNAEELQHFCQLLLDYV  60
+            ML+SC+NAQERWGGVH+LIDRWL ERQ+LVQAF AL   +    + ++ + FC LL+DYV
+Sbjct  1    MLDSCQNAQERWGGVHKLIDRWLEERQELVQAFRALRDAKPAFADKDKNRDFCALLVDYV  60
+
+Query  61   SAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCREGACLI  120
+            SA HFEV EQL +E KAFGD + LELA QI PR++  T+ AL FND C+ G+C +     
+Sbjct  61   SAWHFEVSEQLVSEAKAFGDTKALELATQINPRIDDSTQIALAFNDHCEKGECTDPERFA  120
+
+Query  121  AELKVLRQQLHERFELEDCLIEVLHNAHSQSGA  153
+             +L  L   L ERFELEDCLIEVLH AH +  A
+Sbjct  121  DKLGKLGGLLRERFELEDCLIEVLHTAHKEEDA  153
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 729234652
+
+
+Query= g3878.t1
+
+Length=162
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG019929(gb|WP_015886487) (algQ) Alginate regulatory protein Alg...  84.0    3e-21
+VFG015037(gb|WP_003242406) (algQ) Alginate regulatory protein Alg...  81.6    3e-20
+VFG015035(gb|WP_011064170) (algQ) Alginate regulatory protein Alg...  80.9    6e-20
+VFG015036(gb|WP_041475458) (algQ) Alginate regulatory protein Alg...  79.7    2e-19
+VFG000118(gb|NP_253942) (algQ) Alginate regulatory protein AlgQ [...  80.1    2e-19
+VFG015027(gb|WP_003154610) (algQ) Alginate regulatory protein Alg...  79.7    2e-19
+VFG015032(gb|WP_003255887) (algQ) Alginate regulatory protein Alg...  79.7    2e-19
+VFG015778(gb|WP_012269999) (algQ) Alginate regulatory protein Alg...  78.6    5e-19
+VFG015038(gb|WP_011911762) (algQ) Alginate regulatory protein Alg...  77.8    1e-18
+VFG015034(gb|WP_011531594) (algQ) Alginate regulatory protein Alg...  75.5    8e-18
+VFG015030(gb|WP_003401557) (algQ) Alginate regulatory protein Alg...  73.6    5e-17
+VFG015031(gb|WP_002551368) (algQ) Alginate regulatory protein Alg...  73.2    6e-17
+VFG015029(gb|WP_005738602) (algQ) Alginate regulatory protein Alg...  73.2    6e-17
+VFG015779(gb|WP_012312208) (algQ) Alginate regulatory protein Alg...  72.0    2e-16
+
+
+>VFG019929(gb|WP_015886487) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+SBW25]
+Length=152
+
+ Score = 84.0 bits (206),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 53/154 (34%), Positives = 82/154 (53%), Gaps = 14/154 (9%)
+
+Query  1    MLNQLENLTERVGGSNKLVDRWLDVRKHLLVAYYNLVGIKPGKESYMRLNEKALDDFCQS  60
+            ML   +N  ER GG +KL+D WL  R H LV  ++ +G KP     +  N + L DFC  
+Sbjct  1    MLESCQNAQERWGGVHKLIDSWLKAR-HELVRAFDALGAKP---EALAQNREPLQDFCGV  56
+
+Query  61   LVDYLSAGHFSIYERILHKLEG---NGQLLHAAKIWPLLEDNTQRIMDYYDTSLETAIDH  117
+            LVDY+SAGHF +YE++  + E       L  A  ++P ++  T++++ + D       D 
+Sbjct  57   LVDYVSAGHFGVYEQLTKEAEAFDDQRGLKLAETLYPRIDAITEKLLAFTDL-----CDA  111
+
+Query  118  DNCLEFQQALSDIGEALEARFVLEDKLIMLVFDA  151
+              C+   +   ++G  L  RF LED LI ++ +A
+Sbjct  112  GQCV--AEKFKELGALLHERFELEDCLIEVLHNA  143
+
+
+>VFG015037(gb|WP_003242406) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas mendocina 
+ymp]
+Length=157
+
+ Score = 81.6 bits (200),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 54/162 (33%), Positives = 86/162 (53%), Gaps = 15/162 (9%)
+
+Query  1    MLNQLENLTERVGGSNKLVDRWLDVRKHLLVAYYNLVGIKPGKESYMRLNEKALDDFCQS  60
+            ML   +N  ER GG ++L+DRWL  R+ L++AY  L            +N +AL  FC+ 
+Sbjct  1    MLESCQNAQERWGGVHQLIDRWLGERRELVLAYTALSKAPQAPA----INGEALQGFCEI  56
+
+Query  61   LVDYLSAGHFSIYERILHKLEG---NGQLLHAAKIWPLLEDNTQRIMDYYDTSLETAIDH  117
+            LVDY+SAGHF +YE++  + +       L  A +I+P +E  T+  + + D       D+
+Sbjct  57   LVDYVSAGHFEVYEQLTSEAKAFNDKRGLELAKQIYPRIEAITEVALAFNDRC-----DN  111
+
+Query  118  DNC---LEFQQALSDIGEALEARFVLEDKLIMLVFDAMHDGA  156
+             +C   +     L+ +G+ L  RF LED LI ++ +A  + A
+Sbjct  112  GDCRDSVSLVAELNRLGQLLHERFELEDCLIEVLHNAHQEQA  153
+
+
+>VFG015035(gb|WP_011064170) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+Pf-5]
+Length=152
+
+ Score = 80.9 bits (198),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 54/154 (35%), Positives = 84/154 (55%), Gaps = 14/154 (9%)
+
+Query  1    MLNQLENLTERVGGSNKLVDRWLDVRKHLLVAYYNLVGIKPGKESYMRLNEKALDDFCQS  60
+            ML   +N  ER GG + L+DRWL  R H LV  Y+ +G +P     +  ++K L +FC  
+Sbjct  1    MLESCQNAQERWGGVHLLIDRWLQER-HELVRAYDALGAEP---EALSESKKPLQEFCGI  56
+
+Query  61   LVDYLSAGHFSIYERILHKLEGNGQ---LLHAAKIWPLLEDNTQRIMDYYDTSLETAIDH  117
+            LVDY+SAGHF IYE++  + +  G    L  A  ++P ++  T++++ + D       D 
+Sbjct  57   LVDYVSAGHFEIYEQLTSEAKAFGDKRGLELADTLYPRIDVITEKLLAFNDLC-----DA  111
+
+Query  118  DNCLEFQQALSDIGEALEARFVLEDKLIMLVFDA  151
+              C+   Q   ++G  L  RF LED LI ++ +A
+Sbjct  112  GQCV--AQKFKELGGLLHERFELEDCLIEVLHNA  143
+
+
+>VFG015036(gb|WP_041475458) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+Pf0-1]
+Length=152
+
+ Score = 79.7 bits (195),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 56/154 (36%), Positives = 81/154 (53%), Gaps = 14/154 (9%)
+
+Query  1    MLNQLENLTERVGGSNKLVDRWLDVRKHLLVAYYNLVGIKPGKESYMRLNEKALDDFCQS  60
+            ML   +N  ER GG + L+DRWL  R+ L+ AY  L G KP   S  R   K L +FC  
+Sbjct  1    MLESCQNAQERWGGVHLLIDRWLQEREELIAAYDRL-GAKPQALSEDR---KPLQEFCGV  56
+
+Query  61   LVDYLSAGHFSIYERILHKLEG---NGQLLHAAKIWPLLEDNTQRIMDYYDTSLETAIDH  117
+            LVDY+SAGHF IYE++  + +       L  A  I+P ++  T++++ + D       D 
+Sbjct  57   LVDYVSAGHFEIYEQLTGEAKAFNDKRGLELAETIYPRIDVITEKLLAFNDLC-----DE  111
+
+Query  118  DNCLEFQQALSDIGEALEARFVLEDKLIMLVFDA  151
+              C+   +   ++G  L  RF LED LI ++  A
+Sbjct  112  GKCV--AEKFKELGGLLHERFELEDCLIEVLHTA  143
+
+
+>VFG000118(gb|NP_253942) (algQ) Alginate regulatory protein AlgQ 
+[Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa 
+PAO1]
+Length=160
+
+ Score = 80.1 bits (196),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 54/157 (34%), Positives = 85/157 (54%), Gaps = 16/157 (10%)
+
+Query  1    MLNQLENLTERVGGSNKLVDRWLDVRKHLLVAYYNLVGIKPGKESYMRLNEKALDDFCQS  60
+            ML    N  ER GG ++L+DRWL  R+ L+ A+  L GI+         N + L  FCQ 
+Sbjct  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGIQAPAP-----NAEELQHFCQL  55
+
+Query  61   LVDYLSAGHFSIYERILHKLEGNGQ---LLHAAKIWPLLEDNTQRIMDYYDTSLETAIDH  117
+            L+DY+SAGHF +YE++  + +  G    L  A +I+P LE  T+  +++ D       D+
+Sbjct  56   LLDYVSAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDR-----CDN  110
+
+Query  118  DNCLEFQQALSDIG---EALEARFVLEDKLIMLVFDA  151
+             +C E    ++++    + L  RF LED LI ++ +A
+Sbjct  111  GDCREGACLIAELKVLRQQLHERFELEDCLIEVLHNA  147
+
+
+>VFG015027(gb|WP_003154610) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa 
+PA7]
+Length=160
+
+ Score = 79.7 bits (195),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 54/154 (35%), Positives = 80/154 (52%), Gaps = 10/154 (6%)
+
+Query  1    MLNQLENLTERVGGSNKLVDRWLDVRKHLLVAYYNLVGIKPGKESYMRLNEKALDDFCQS  60
+            ML    N  ER GG ++L+DRWL  R+ L+ A+  L GI+         N + L  FCQ 
+Sbjct  1    MLESCRNAQERWGGVHQLIDRWLHERQQLVQAFDALSGIQAPAP-----NAEELQHFCQL  55
+
+Query  61   LVDYLSAGHFSIYERILHKLEGNGQ---LLHAAKIWPLLEDNTQRIMDYYDTSLETAIDH  117
+            L+DY+SAGHF +YE++  + +  G    L  A +I+P LE  T+  +++ D         
+Sbjct  56   LLDYVSAGHFEVYEQLTAEGKAFGDQRGLELAKQIFPRLEAITESALNFNDRCDNGDCRE  115
+
+Query  118  DNCLEFQQALSDIGEALEARFVLEDKLIMLVFDA  151
+              CL  +  L  + + L  RF LED LI ++  A
+Sbjct  116  GACLIAE--LKSLRQQLHERFELEDCLIEVLHTA  147
+
+
+>VFG015032(gb|WP_003255887) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas putida 
+KT2440]
+Length=156
+
+ Score = 79.7 bits (195),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 53/162 (33%), Positives = 87/162 (54%), Gaps = 10/162 (6%)
+
+Query  1    MLNQLENLTERVGGSNKLVDRWLDVRKHLLVAYYNLVGIKPGKESYMRLNEKALDDFCQS  60
+            ML+  +N  ER GG +KL+DRWL+ R+ L+ A+  L  ++P        ++    DFC  
+Sbjct  1    MLDSCQNAQERWGGVHKLIDRWLEERQELVQAFRALRDVRPA-----FADKDTNGDFCAL  55
+
+Query  61   LVDYLSAGHFSIYERILHKLEGNGQ---LLHAAKIWPLLEDNTQRIMDYYDTSLETAIDH  117
+            LVDY+SA HF + E+++ + +  G    L  A +I P + D+TQ  + + D    T  + 
+Sbjct  56   LVDYVSAWHFEVCEQLVSEAKAFGDKKALKLAEEINPRINDSTQIALAFNDHC--TKGEC  113
+
+Query  118  DNCLEFQQALSDIGEALEARFVLEDKLIMLVFDAMHDGARVK  159
+             +   F + L+ +G  L  RF LED LI ++ +A  +   V+
+Sbjct  114  KDTERFAEKLAKLGGLLHERFELEDCLIEVLHNAHKEEGAVQ  155
+
+
+>VFG015778(gb|WP_012269999) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas putida 
+GB-1]
+Length=156
+
+ Score = 78.6 bits (192),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 53/162 (33%), Positives = 84/162 (52%), Gaps = 10/162 (6%)
+
+Query  1    MLNQLENLTERVGGSNKLVDRWLDVRKHLLVAYYNLVGIKPGKESYMRLNEKALDDFCQS  60
+            ML+  +N  ER GG +KL+DRWL+ R+ L+ A+  L  +KP        ++    DFC  
+Sbjct  1    MLDSCQNAQERWGGVHKLIDRWLEERQELVQAFRALRDVKPA-----FADKDTNGDFCAL  55
+
+Query  61   LVDYLSAGHFSIYERILHKLEGNGQ---LLHAAKIWPLLEDNTQRIMDYYDTSLETAIDH  117
+            LVDY+SA HF + E++  + +  G    L  A +I P + D+TQ  + + D   +     
+Sbjct  56   LVDYVSAWHFEVCEQLASEAKAFGDEKALKLAEEINPRINDSTQIALAFNDHCAKGECKD  115
+
+Query  118  DNCLEFQQALSDIGEALEARFVLEDKLIMLVFDAMHDGARVK  159
+                 F + L+ +G  L  RF LED LI ++ +A  +   V+
+Sbjct  116  TE--RFAEKLAKLGGLLHERFELEDCLIEVLHNAHKEEGAVQ  155
+
+
+>VFG015038(gb|WP_011911762) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas stutzeri 
+A1501]
+Length=153
+
+ Score = 77.8 bits (190),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 58/162 (36%), Positives = 83/162 (51%), Gaps = 18/162 (11%)
+
+Query  1    MLNQLENLTERVGGSNKLVDRWLDVRKHLLVAYYNLVGIKPGKESYMRLNEKALDDFCQS  60
+            ML    N  ER GG + L+DRWL  R H L+  Y+ + I+           +AL  FC+ 
+Sbjct  1    MLESCRNAQERWGGVHLLIDRWLHER-HALINAYDRLHIERDD------ARQALQRFCEY  53
+
+Query  61   LVDYLSAGHFSIYERILHKLE--GNGQLLHAAK-IWPLLEDNTQRIMDYYDTSLETAIDH  117
+            LVDY+SAGHF IYE++L + E  G+ + +  AK I+P +E  TQ  + + D       + 
+Sbjct  54   LVDYVSAGHFEIYEQLLAEAEAFGDARAIELAKQIYPRIETITQVALSFNDRC-----EK  108
+
+Query  118  DNCL---EFQQALSDIGEALEARFVLEDKLIMLVFDAMHDGA  156
+             +CL        L  +G+ L  RF LED LI ++  A    A
+Sbjct  109  GDCLGSPGLADELKKLGQLLHERFELEDCLIEVLHTAHKQAA  150
+
+
+>VFG015034(gb|WP_011531594) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas entomophila 
+L48]
+Length=156
+
+ Score = 75.5 bits (184),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 53/157 (34%), Positives = 81/157 (52%), Gaps = 16/157 (10%)
+
+Query  1    MLNQLENLTERVGGSNKLVDRWLDVRKHLLVAYYNLVGIKPGKESYMRLNEKALDDFCQS  60
+            ML+  +N  ER GG +KL+DRWL+ R+ L+ A+  L   KP        ++    DFC  
+Sbjct  1    MLDSCQNAQERWGGVHKLIDRWLEERQELVQAFRALRDAKPA-----FADKDKNRDFCAL  55
+
+Query  61   LVDYLSAGHFSIYERILHKLEGNGQ---LLHAAKIWPLLEDNTQRIMDYYDTSLETAIDH  117
+            LVDY+SA HF + E+++ + +  G    L  A +I P ++D+TQ  + + D       + 
+Sbjct  56   LVDYVSAWHFEVSEQLVSEAKAFGDTKALELATQINPRIDDSTQIALAFNDH-----CEK  110
+
+Query  118  DNCLE---FQQALSDIGEALEARFVLEDKLIMLVFDA  151
+              C +   F   L  +G  L  RF LED LI ++  A
+Sbjct  111  GECTDPERFADKLGKLGGLLRERFELEDCLIEVLHTA  147
+
+
+>VFG015030(gb|WP_003401557) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. syringae B728a]
+Length=157
+
+ Score = 73.6 bits (179),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 51/154 (33%), Positives = 80/154 (52%), Gaps = 9/154 (6%)
+
+Query  1    MLNQLENLTERVGGSNKLVDRWLDVRKHLLVAYYNLVGIKPGKESYMRLNEKALDDFCQS  60
+            ML   +N  ER GG NKL+DRWL  R  L+ A Y+ +G  P   + +  + + L +FC  
+Sbjct  1    MLESCQNAQERWGGVNKLIDRWLQSRLKLVEA-YDALGDTP---AALAADREGLQNFCGI  56
+
+Query  61   LVDYLSAGHFSIYERI---LHKLEGNGQLLHAAKIWPLLEDNTQRIMDYYDTSLETAIDH  117
+            LVDY+SAGHF +YE++            L  A  I+P L+  T+  + + D   +   D 
+Sbjct  57   LVDYVSAGHFEVYEQLGDEARAFNDKRGLELADTIYPRLDFITKFALTFNDRCDKG--DC  114
+
+Query  118  DNCLEFQQALSDIGEALEARFVLEDKLIMLVFDA  151
+             +     +  + +G+ L  RF LED LI ++ ++
+Sbjct  115  SDATAVAREFNQLGQLLHERFELEDCLIEVLHNS  148
+
+
+>VFG015031(gb|WP_002551368) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+Length=157
+
+ Score = 73.2 bits (178),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 52/157 (33%), Positives = 80/157 (51%), Gaps = 15/157 (10%)
+
+Query  1    MLNQLENLTERVGGSNKLVDRWLDVRKHLLVAYYNLVGIKPGKESYMRLNEKALDDFCQS  60
+            ML   +N  ER GG NKL+DRWL  R  L+ A Y+ +G  P     +  + + L +FC  
+Sbjct  1    MLESCQNAQERWGGVNKLIDRWLQSRLELVEA-YDALGDTP---QALAADREGLQNFCGV  56
+
+Query  61   LVDYLSAGHFSIYERI---LHKLEGNGQLLHAAKIWPLLEDNTQRIMDYYDTSLETAIDH  117
+            LVDY+SAGHF +YE++            L  A  I+P L+  T+  + + D       D 
+Sbjct  57   LVDYVSAGHFEVYEQLGDEARAFNDERGLELADTIYPRLDVITKFALTFNDRC-----DK  111
+
+Query  118  DNCLE---FQQALSDIGEALEARFVLEDKLIMLVFDA  151
+             +C +     +  + +G+ L  RF LED LI ++ ++
+Sbjct  112  GDCSDATVVAKEFNQLGQLLHERFELEDCLIEVLHNS  148
+
+
+>VFG015029(gb|WP_005738602) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. tomato str. DC3000]
+Length=157
+
+ Score = 73.2 bits (178),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 52/151 (34%), Positives = 76/151 (50%), Gaps = 15/151 (10%)
+
+Query  1    MLNQLENLTERVGGSNKLVDRWLDVRKHLLVAYYNLVGIKPGKESYMRLNEKALDDFCQS  60
+            ML   +N  ER GG NKL+DRWL  R  L+ A Y+ +G  P     +  + + L +FC  
+Sbjct  1    MLESCQNAQERWGGVNKLIDRWLQSRLELIEA-YDALGDTP---EALAADREGLQNFCGI  56
+
+Query  61   LVDYLSAGHFSIYERI---LHKLEGNGQLLHAAKIWPLLEDNTQRIMDYYDTSLETAIDH  117
+            LVDY+SAGHF +YE++            L  A  I+P L+  T+  + + D       D 
+Sbjct  57   LVDYVSAGHFEVYEQLGDEARAFNDERGLELADTIYPRLDVITKFALTFNDRC-----DK  111
+
+Query  118  DNCLE---FQQALSDIGEALEARFVLEDKLI  145
+             +C +     +  + +G+ L  RF LED LI
+Sbjct  112  GDCSDAAVVAKEFNQLGQLLHERFELEDCLI  142
+
+
+>VFG015779(gb|WP_012312208) (algQ) Alginate regulatory protein 
+AlgQ [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas putida 
+W619]
+Length=156
+
+ Score = 72.0 bits (175),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 52/154 (34%), Positives = 78/154 (51%), Gaps = 10/154 (6%)
+
+Query  1    MLNQLENLTERVGGSNKLVDRWLDVRKHLLVAYYNLVGIKPGKESYMRLNEKALDDFCQS  60
+            ML+  +N  ER GG +KL+D WL  R+ L+ A+  L   KP        ++    DFC  
+Sbjct  1    MLDSCQNAQERWGGVHKLIDTWLKEREELVQAFGALRDAKPA-----FADKDKSRDFCAV  55
+
+Query  61   LVDYLSAGHFSIYERILHKLEGNGQ---LLHAAKIWPLLEDNTQRIMDYYDTSLETAIDH  117
+            LVDY+SA HF + E+++ + +  G    L  A +I P + D TQ  + + D   +   D 
+Sbjct  56   LVDYVSAWHFEVSEQLVTEAKAFGDQKALKLAEEINPRINDITQIALAFNDHCEKG--DC  113
+
+Query  118  DNCLEFQQALSDIGEALEARFVLEDKLIMLVFDA  151
+             +   F   L  +G  L  RF LED LI ++ +A
+Sbjct  114  KDTERFADKLGKLGSLLHERFELEDCLIEVLHNA  147
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 750682730
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

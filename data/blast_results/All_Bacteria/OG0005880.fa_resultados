@@ -1,0 +1,141 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g687.t1
+
+Length=142
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG018806(gb|WP_002216614) (exbD) biopolymer transporter ExbD [To...  72.8    3e-17
+VFG036660(gb|WP_003706998) (exbD) biopolymer transporter ExbD [To...  72.4    5e-17
+VFG006295(gb|WP_003693740) (exbD) biopolymer transporter ExbD [To...  72.0    6e-17
+VFG006292(gb|WP_002212592) (exbD) biopolymer transporter ExbD [To...  70.5    3e-16
+
+
+>VFG018806(gb|WP_002216614) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria meningitidis 053442]
+Length=144
+
+ Score = 72.8 bits (177),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 43/129 (33%), Positives = 72/129 (56%), Gaps = 5/129 (4%)
+
+Query  14   SEINIVPLLDVLLVLLLIFMATAPIITQSVEVDLPEANQSQAVSSNDDP--PVIIEVSGV  71
+            S+IN+ PL+DV+LVLL++FM T P++T S+ ++LP A++ Q    +  P  P+ + +   
+Sbjct  15   SDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASE-QTNKQDKQPKDPLRLTIDAN  73
+
+Query  72   GQYSVVVDKDRMDQLPSEQVIAEVKRHLQANPKTVFLIGGAKEVPYDEIIKALNLLHSAG  131
+            G Y   V  D   ++  E+V + +K   + N   +  I   K V YD + KAL     AG
+Sbjct  74   GGY--YVGGDSASKVEIEEVESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEAARQAG  131
+
+Query  132  VKSVGLMTQ  140
+            +  +G +T+
+Sbjct  132  ITKIGFVTE  140
+
+
+>VFG036660(gb|WP_003706998) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria lactamica 020-06]
+Length=144
+
+ Score = 72.4 bits (176),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 47/133 (35%), Positives = 73/133 (55%), Gaps = 13/133 (10%)
+
+Query  14   SEINIVPLLDVLLVLLLIFMATAPIITQSVEVDLPEANQSQAVSSNDDP--PVIIEVSGV  71
+            S+IN+ PL+DV+LVLL++FM T P++T S+ ++LP A++ QA   +  P  P+ + +   
+Sbjct  15   SDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASE-QANKQDKQPKDPLRLTIDAN  73
+
+Query  72   GQYSVVVDKDRMDQLPSEQVIAEVKRHLQA----NPKTVFLIGGAKEVPYDEIIKALNLL  127
+            G Y V  D        S+  I EV+  L+A    N   +  I   K V YD + KAL   
+Sbjct  74   GGYYVGGDS------ASKVEIGEVESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEAA  127
+
+Query  128  HSAGVKSVGLMTQ  140
+              AG+  +G +T+
+Sbjct  128  RQAGITKIGFVTE  140
+
+
+>VFG006295(gb|WP_003693740) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria gonorrhoeae FA 1090]
+Length=144
+
+ Score = 72.0 bits (175),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 47/133 (35%), Positives = 73/133 (55%), Gaps = 13/133 (10%)
+
+Query  14   SEINIVPLLDVLLVLLLIFMATAPIITQSVEVDLPEANQSQAVSSNDDP--PVIIEVSGV  71
+            S+IN+ PL+DV+LVLL++FM T P++T S+ ++LP A++ QA   +  P  P+ + +   
+Sbjct  15   SDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASE-QANKQDKQPKDPLRLTIDAN  73
+
+Query  72   GQYSVVVDKDRMDQLPSEQVIAEVKRHLQA----NPKTVFLIGGAKEVPYDEIIKALNLL  127
+            G Y V  D        S+  I EV+  L+A    N   +  I   K V YD + KAL   
+Sbjct  74   GGYYVGGDS------ASKVEIGEVESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEAA  127
+
+Query  128  HSAGVKSVGLMTQ  140
+              AG+  +G +T+
+Sbjct  128  RQAGITKIGFVTE  140
+
+
+>VFG006292(gb|WP_002212592) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria meningitidis Z2491]
+Length=144
+
+ Score = 70.5 bits (171),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 46/133 (35%), Positives = 72/133 (54%), Gaps = 13/133 (10%)
+
+Query  14   SEINIVPLLDVLLVLLLIFMATAPIITQSVEVDLPEANQSQAVSSNDDP--PVIIEVSGV  71
+            S+IN+ PL+DV+LVLL++FM T P++T S+ ++LP A++ Q    +  P  P+ + +   
+Sbjct  15   SDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASE-QTNKQDKQPKDPLRLTIDAN  73
+
+Query  72   GQYSVVVDKDRMDQLPSEQVIAEVKRHLQA----NPKTVFLIGGAKEVPYDEIIKALNLL  127
+            G Y V  D        S+  I EV+  L+A    N   +  I   K V YD + KAL   
+Sbjct  74   GGYYVGGDS------ASKVEIGEVESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEAA  127
+
+Query  128  HSAGVKSVGLMTQ  140
+              AG+  +G +T+
+Sbjct  128  RQAGITKIGFVTE  140
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.366    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 560560156
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

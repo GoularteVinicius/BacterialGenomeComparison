@@ -1,0 +1,3104 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g245.t1
+
+Length=151
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.134    0.414    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 645121260
+
+
+Query= g247.t1
+
+Length=304
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG030270(gb|WP_015291172) (sadH) SDR family NAD(P)-dependent oxi...  55.1    1e-08
+VFG038841(gb|WP_005318273) (flmH) short chain dehydrogenase/reduc...  55.1    1e-08
+VFG030264(gb|WP_013988971) (sadH) SDR family NAD(P)-dependent oxi...  54.7    2e-08
+VFG012976(gb|WP_000347662) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  54.3    2e-08
+VFG012977(gb|WP_000347664) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  53.9    2e-08
+VFG030266(gb|WP_014001574) (sadH) SDR family NAD(P)-dependent oxi...  54.3    2e-08
+VFG030274(gb|WP_015575276) (sadH) SDR family NAD(P)-dependent oxi...  53.1    5e-08
+VFG049997(gb|WP_003185961) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  52.8    6e-08
+VFG030269(gb|WP_015303737) (sadH) SDR family NAD(P)-dependent oxi...  52.8    6e-08
+VFG030258(gb|NP_217601) (sadH) oxidoreductase SadH [MymA operon (...  52.8    6e-08
+VFG030263(gb|WP_012054339) (sadH) SDR family NAD(P)-dependent oxi...  52.8    6e-08
+VFG030268(gb|WP_015288451) (sadH) SDR family NAD(P)-dependent oxi...  52.8    6e-08
+VFG012974(gb|NP_706451) (entA) 2,3-dihydro-2,3-dihydroxybenzoate ...  52.4    7e-08
+VFG012978(gb|WP_000347634) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  52.4    7e-08
+VFG030282(gb|YP_005361637) (sadH) short-chain type dehydrogenase/...  52.8    7e-08
+VFG000934(gb|WP_000348393) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  52.4    8e-08
+VFG038840(gb|WP_005300916) (flmH) short chain dehydrogenase/reduc...  52.0    8e-08
+VFG048407(gb|WP_024622880) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  52.0    9e-08
+VFG048405(gb|YP_005225749) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  52.0    9e-08
+VFG048409(gb|WP_086074289) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  51.6    1e-07
+VFG030279(gb|YP_007959089) (sadH) short-chain type dehydrogenase/...  51.6    1e-07
+VFG012973(gb|WP_000347670) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  50.8    2e-07
+VFG048402(gb|WP_014228362) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  48.9    1e-06
+VFG048401(gb|WP_014837779) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  48.5    2e-06
+VFG048408(gb|WP_012068428) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  47.8    3e-06
+VFG048404(gb|WP_008805588) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  47.4    4e-06
+
+
+>VFG030270(gb|WP_015291172) (sadH) SDR family NAD(P)-dependent 
+oxidoreductase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=276
+
+ Score = 55.1 bits (131),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 61/208 (29%), Positives = 89/208 (43%), Gaps = 20/208 (10%)
+
+Query  14   GRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQELD  73
+            G+VAVITGA +G+G   AL LAE  A + L+  + D   + A    A  AQ  V    LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLAEKRAKLALSDVDTDGLAETARLAQALGAQ--VKSDRLD  63
+
+Query  74   LASLESVRAAAKQLRSDYDHIDLLINNAGVMW---TPKSTTKDGFELQFGTNHLGHFAFT  130
+            +A  E+V + A  + + +  +  + NNAG+ +     KS  KD  E     +  G    T
+Sbjct  64   VAEREAVLSYADTVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  131  GLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRVAAYGQSKLANLLFTYEL  190
+               L  ++      ++ +SSL         F  +         +AY  +K A   FT  L
+Sbjct  123  KAFLPHVIASGDGHIVNISSL---------FGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  191  -QRRLATRQTTIAVAAHPGGSRTELTRT  217
+             Q  L  R        HPGG +T + R 
+Sbjct  170  RQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG038841(gb|WP_005318273) (flmH) short chain dehydrogenase/reductase 
+family oxidoreductase [Polar flagella (VF0473) - Motility 
+(VFC0204)] [Aeromonas salmonicida subsp. salmonicida 
+A449]
+Length=249
+
+ Score = 55.1 bits (131),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 60/217 (28%), Positives = 93/217 (43%), Gaps = 35/217 (16%)
+
+Query  14   GRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAAR---ITATSAQNNVALQ  70
+            G+  +ITGA  G+G   A   A  GA + L       G+D AA      A  A+  V  Q
+Sbjct  7    GKRVLITGAGRGIGLAIARQFAAQGAELWLG------GRDEAAMSQLAAALGAEFGVTCQ  60
+
+Query  71   EL--DLASLESVRAAAKQLRSDYDHIDLLINNAGVMWTPKSTTKDGFELQFGTNHLGHFA  128
+             L  D+A  ++V+ A +QL +    +D+L+NNAG++        +  +L+       H A
+Sbjct  61   PLCFDVAEPQAVKQAFQQLFAQTRQLDVLVNNAGILEEGLLGMVNQAQLE---QTFSHNA  117
+
+Query  129  FTGLLLDRLLPIVGSRVITVSSLSHRLF------ADIHFNDLQWECNYNRVAAYGQSKLA  182
+            F+              V+  S  + RL       + I+   L        +++Y  SK A
+Sbjct  118  FS--------------VVYCSQYAARLMQRSGGGSIINLASLMGRVGAAGLSSYAGSKAA  163
+
+Query  183  NLLFTYELQRRLATRQTTIAVAAHPGGSRTELTRTLP  219
+             +  T  L + LAT Q  +   A PG   TE+ R +P
+Sbjct  164  VIGITQSLAKELATSQIRVNAIA-PGFIDTEMARAIP  199
+
+
+>VFG030264(gb|WP_013988971) (sadH) SDR family NAD(P)-dependent 
+oxidoreductase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium africanum GM041182]
+Length=276
+
+ Score = 54.7 bits (130),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 61/208 (29%), Positives = 89/208 (43%), Gaps = 20/208 (10%)
+
+Query  14   GRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQELD  73
+            G+VAVITGA +G+G   AL L+E  A   LA+ ++D    A     A +    V    LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLSEKRAK--LALSDVDTDGLAKTVRLAQALGAQVKSDRLD  63
+
+Query  74   LASLESVRAAAKQLRSDYDHIDLLINNAGVMW---TPKSTTKDGFELQFGTNHLGHFAFT  130
+            +A  E+V A A  + + +  +  + NNAG+ +     KS  KD  E     +  G    T
+Sbjct  64   VAEREAVLAHADAVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  131  GLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRVAAYGQSKLANLLFTYEL  190
+               L  ++      ++ +SSL         F  +         +AY  +K A   FT  L
+Sbjct  123  KAFLPHVIASGDGHIVNISSL---------FGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  191  -QRRLATRQTTIAVAAHPGGSRTELTRT  217
+             Q  L  R       AHPGG +T + R 
+Sbjct  170  RQEMLVARHPVKVTCAHPGGIKTAVARN  197
+
+
+>VFG012976(gb|WP_000347662) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin synthesis and transport 
+(VF0984) - Nutritional/Metabolic factor (VFC0272)] [Shigella 
+flexneri 5 str. 8401]
+Length=248
+
+ Score = 54.3 bits (129),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 59/210 (28%), Positives = 92/210 (44%), Gaps = 28/210 (13%)
+
+Query  11   DQTGRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQ  70
+            D +G+   +TGA  G+GY TALA  E GA V         G D A     T  Q   A +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALAFVEAGAKVT--------GFDQA----FTQEQYPFATE  49
+
+Query  71   ELDLASLESVRAAAKQLRSDYDHIDLLINNAGV--MWTPKSTTKDGFELQFGTNHLGHFA  128
+             +D+A    V    ++L ++ + +D+LIN AG+  M      +K+ ++  F  N  G F 
+Sbjct  50   VMDVADAGQVAQVCQRLLAETERLDVLINAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  129  FTGLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRVAAYGQSKLANLLFTY  188
+                 +++     G  ++TV+S +    A I             ++AYG SK A      
+Sbjct  110  LFQQTMNQFRRQRGGAIVTVASDAAHT-ARIG------------MSAYGASKAALKSLAL  156
+
+Query  189  ELQRRLATRQTTIAVAAHPGGSRTELTRTL  218
+             +   LA       V + PG + T++ RTL
+Sbjct  157  SVGLELAGSGVRCNVVS-PGSTDTDMQRTL  185
+
+
+>VFG012977(gb|WP_000347664) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin synthesis and transport 
+(VF0984) - Nutritional/Metabolic factor (VFC0272)] [Shigella 
+boydii Sb227]
+Length=248
+
+ Score = 53.9 bits (128),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 58/212 (27%), Positives = 92/212 (43%), Gaps = 32/212 (15%)
+
+Query  11   DQTGRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQ  70
+            D +G+   +TGA  G+GY TALA  E GA V         G D A     T  Q   A +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALAFVEAGAKVT--------GFDQA----FTQEQYPFATE  49
+
+Query  71   ELDLASLESVRAAAKQLRSDYDHIDLLINNAGV--MWTPKSTTKDGFELQFGTNHLGHFA  128
+             +D+A    V    ++L ++ + +D+LIN AG+  M      +K+ ++  F  N  G F 
+Sbjct  50   VMDVADAGQVAQVCQRLLAETERLDVLINAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  129  FTGLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRV--AAYGQSKLANLLF  186
+                 +++     G  ++TV+S +                +  R+  +AYG SK A    
+Sbjct  110  LFQQTMNQFRRQRGGAIVTVASDA---------------AHTPRIGMSAYGASKAALKSL  154
+
+Query  187  TYELQRRLATRQTTIAVAAHPGGSRTELTRTL  218
+               +   LA       V + PG + T++ RTL
+Sbjct  155  ALSVGLELAGSGVRCNVVS-PGSTDTDMQRTL  185
+
+
+>VFG030266(gb|WP_014001574) (sadH) SDR family NAD(P)-dependent 
+oxidoreductase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140010059]
+Length=276
+
+ Score = 54.3 bits (129),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 61/208 (29%), Positives = 88/208 (42%), Gaps = 20/208 (10%)
+
+Query  14   GRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQELD  73
+            G+VAVITGA +G+G   AL L+E  A + L+  + D     A    A  AQ  V    LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLSEKRAKLALSDVDTDGLAKTARLAQALGAQ--VKSDRLD  63
+
+Query  74   LASLESVRAAAKQLRSDYDHIDLLINNAGVMW---TPKSTTKDGFELQFGTNHLGHFAFT  130
+            +A  E+V A A  + + +  +  + NNAG+ +     KS  KD  E     +  G    T
+Sbjct  64   VAEREAVLAHADTVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  131  GLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRVAAYGQSKLANLLFTYEL  190
+               L  ++      ++ +SSL         F  +         +AY  +K A   FT  L
+Sbjct  123  KAFLPHVIASGDGHIVNISSL---------FGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  191  -QRRLATRQTTIAVAAHPGGSRTELTRT  217
+             Q  L  R        HPGG +T + R 
+Sbjct  170  RQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG030274(gb|WP_015575276) (sadH) SDR family NAD(P)-dependent 
+oxidoreductase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis str. Beijing/NITR203]
+Length=276
+
+ Score = 53.1 bits (126),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 60/208 (29%), Positives = 88/208 (42%), Gaps = 20/208 (10%)
+
+Query  14   GRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQELD  73
+            G+VAVITGA +G+G   AL L+E  A   LA+ ++D    A     A +    V    LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLSEKRAK--LALSDVDTDGLAKTVRLAQALGAQVKSDRLD  63
+
+Query  74   LASLESVRAAAKQLRSDYDHIDLLINNAGVMW---TPKSTTKDGFELQFGTNHLGHFAFT  130
+            +A  E+V A A  + + +  +  + NNAG+ +     KS  KD  E     +  G    T
+Sbjct  64   VAEREAVLAHADAVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  131  GLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRVAAYGQSKLANLLFTYEL  190
+               L  ++      ++ +SSL         F  +         +AY  +K A   FT  L
+Sbjct  123  KAFLPHVIASGDGHIVNISSL---------FGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  191  -QRRLATRQTTIAVAAHPGGSRTELTRT  217
+             Q  L  R        HPGG +T + R 
+Sbjct  170  RQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG049997(gb|WP_003185961) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus licheniformis ATCC 14580]
+Length=256
+
+ Score = 52.8 bits (125),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 45/143 (31%), Positives = 69/143 (48%), Gaps = 12/143 (8%)
+
+Query  14   GRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQELD  73
+            G+VA++TGA+ G+G + ALALA  G  V  A    D+ +     +     Q    LQ   
+Sbjct  3    GKVALVTGASQGIGKEVALALAGRGVFVAAA----DQNRKGLLELEDELEQK--GLQGSG  56
+
+Query  74   LASLESVRAAAKQLRSDYDH----IDLLINNAGVMWTP--KSTTKDGFELQFGTNHLGHF  127
+             A+     AA  QL +D +     ID+L+N AGV+ T    S + + +E  F  N  G F
+Sbjct  57   FAADVGDSAAVDQLIADIEREIGPIDMLVNVAGVLRTGLIHSLSDEDWEKTFNVNSTGVF  116
+
+Query  128  AFTGLLLDRLLPIVGSRVITVSS  150
+              +  +  R++P     ++TV S
+Sbjct  117  NVSRAVARRMVPRRTGAIVTVGS  139
+
+
+>VFG030269(gb|WP_015303737) (sadH) SDR family NAD(P)-dependent 
+oxidoreductase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070008]
+Length=276
+
+ Score = 52.8 bits (125),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 60/208 (29%), Positives = 88/208 (42%), Gaps = 20/208 (10%)
+
+Query  14   GRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQELD  73
+            G+VAVITGA +G+G   AL L+E  A   LA+ ++D    A     A +    V    LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLSEKRAK--LALSDVDTDGLAKTVRLAQALGAQVKSDRLD  63
+
+Query  74   LASLESVRAAAKQLRSDYDHIDLLINNAGVMW---TPKSTTKDGFELQFGTNHLGHFAFT  130
+            +A  E+V A A  + + +  +  + NNAG+ +     KS  KD  E     +  G    T
+Sbjct  64   VAEREAVLAHADAVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  131  GLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRVAAYGQSKLANLLFTYEL  190
+               L  ++      ++ +SSL         F  +         +AY  +K A   FT  L
+Sbjct  123  KAFLPHVIASGDGHIVNISSL---------FGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  191  -QRRLATRQTTIAVAAHPGGSRTELTRT  217
+             Q  L  R        HPGG +T + R 
+Sbjct  170  RQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG030258(gb|NP_217601) (sadH) oxidoreductase SadH [MymA operon 
+(VF0840) - Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+H37Rv]
+Length=276
+
+ Score = 52.8 bits (125),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 60/208 (29%), Positives = 88/208 (42%), Gaps = 20/208 (10%)
+
+Query  14   GRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQELD  73
+            G+VAVITGA +G+G   AL L+E  A   LA+ ++D    A     A +    V    LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLSEKRAK--LALSDVDTDGLAKTVRLAQALGAQVKSDRLD  63
+
+Query  74   LASLESVRAAAKQLRSDYDHIDLLINNAGVMW---TPKSTTKDGFELQFGTNHLGHFAFT  130
+            +A  E+V A A  + + +  +  + NNAG+ +     KS  KD  E     +  G    T
+Sbjct  64   VAEREAVLAHADAVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  131  GLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRVAAYGQSKLANLLFTYEL  190
+               L  ++      ++ +SSL         F  +         +AY  +K A   FT  L
+Sbjct  123  KAFLPHVIASGDGHIVNISSL---------FGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  191  -QRRLATRQTTIAVAAHPGGSRTELTRT  217
+             Q  L  R        HPGG +T + R 
+Sbjct  170  RQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG030263(gb|WP_012054339) (sadH) SDR family NAD(P)-dependent 
+oxidoreductase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis F11]
+Length=276
+
+ Score = 52.8 bits (125),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 60/208 (29%), Positives = 88/208 (42%), Gaps = 20/208 (10%)
+
+Query  14   GRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQELD  73
+            G+VAVITGA +G+G   AL L+E  A   LA+ ++D    A     A +    V    LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLSEKRAK--LALSDVDTDGLAKTVRLAQALGAQVKSDRLD  63
+
+Query  74   LASLESVRAAAKQLRSDYDHIDLLINNAGVMW---TPKSTTKDGFELQFGTNHLGHFAFT  130
+            +A  E+V A A  + + +  +  + NNAG+ +     KS  KD  E     +  G    T
+Sbjct  64   VAEREAVLAHADAVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  131  GLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRVAAYGQSKLANLLFTYEL  190
+               L  ++      ++ +SSL         F  +         +AY  +K A   FT  L
+Sbjct  123  KAFLPHVIASGDGHIVNISSL---------FGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  191  -QRRLATRQTTIAVAAHPGGSRTELTRT  217
+             Q  L  R        HPGG +T + R 
+Sbjct  170  RQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG030268(gb|WP_015288451) (sadH) SDR family NAD(P)-dependent 
+oxidoreductase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140060008]
+Length=276
+
+ Score = 52.8 bits (125),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 60/208 (29%), Positives = 88/208 (42%), Gaps = 20/208 (10%)
+
+Query  14   GRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQELD  73
+            G+VAVITGA +G+G   AL L+E  A   LA+ ++D    A     A +    V    LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLSEKRAK--LALSDVDTDGLAKTVRLAQALGAQVKSDRLD  63
+
+Query  74   LASLESVRAAAKQLRSDYDHIDLLINNAGVMW---TPKSTTKDGFELQFGTNHLGHFAFT  130
+            +A  E+V A A  + + +  +  + NNAG+ +     KS  KD  E     +  G    T
+Sbjct  64   VAEREAVLAHADAVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  131  GLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRVAAYGQSKLANLLFTYEL  190
+               L  ++      ++ +SSL         F  +         +AY  +K A   FT  L
+Sbjct  123  KAFLPHVIASGDGHIVNISSL---------FGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  191  -QRRLATRQTTIAVAAHPGGSRTELTRT  217
+             Q  L  R        HPGG +T + R 
+Sbjct  170  RQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG012974(gb|NP_706451) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Enterobactin synthesis and transport (VF0984) 
+- Nutritional/Metabolic factor (VFC0272)] [Shigella flexneri 
+2a str. 301]
+Length=248
+
+ Score = 52.4 bits (124),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 58/210 (28%), Positives = 91/210 (43%), Gaps = 28/210 (13%)
+
+Query  11   DQTGRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQ  70
+            D +G+   +TGA  G+GY TAL   E GA V         G D A     T  Q   A +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALTFVEAGAKVT--------GFDQA----FTQEQYPFATE  49
+
+Query  71   ELDLASLESVRAAAKQLRSDYDHIDLLINNAGV--MWTPKSTTKDGFELQFGTNHLGHFA  128
+             +D+A    V    ++L ++ + +D+LIN AG+  M      +K+ ++  F  N  G F 
+Sbjct  50   VMDVADAGQVAQVCQRLLAETERLDVLINAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  129  FTGLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRVAAYGQSKLANLLFTY  188
+                 +++     G  ++TV+S +    A I             ++AYG SK A      
+Sbjct  110  LFQQTMNQFRRQRGGAIVTVASDAAHT-ARIG------------MSAYGASKAALKSLAL  156
+
+Query  189  ELQRRLATRQTTIAVAAHPGGSRTELTRTL  218
+             +   LA       V + PG + T++ RTL
+Sbjct  157  SVGLELAGSGVRCNVVS-PGSTDTDMQRTL  185
+
+
+>VFG012978(gb|WP_000347634) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin synthesis and transport 
+(VF0984) - Nutritional/Metabolic factor (VFC0272)] [Shigella 
+sonnei Ss046]
+Length=248
+
+ Score = 52.4 bits (124),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 56/212 (26%), Positives = 91/212 (43%), Gaps = 32/212 (15%)
+
+Query  11   DQTGRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQ  70
+            D +G+   +TGA  G+GY TALA  E GA V         G D A        Q   A +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALAFVEAGAKVT--------GFDQA----FAQEQYPFATE  49
+
+Query  71   ELDLASLESVRAAAKQLRSDYDHIDLLINNAGV--MWTPKSTTKDGFELQFGTNHLGHFA  128
+             +D+A    V    ++L ++ + +D+L+N AG+  M      +K+ ++  F  N  G F 
+Sbjct  50   VMDVADAAQVAQVCQRLLAETERLDVLVNAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  129  FTGLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRV--AAYGQSKLANLLF  186
+                 +++     G  ++TV+S +                +  R+  +AYG SK A    
+Sbjct  110  LFQQTMNQFRRQRGGAIVTVASDA---------------AHTPRIGMSAYGASKAALKSL  154
+
+Query  187  TYELQRRLATRQTTIAVAAHPGGSRTELTRTL  218
+               +   LA       V + PG + T++ RTL
+Sbjct  155  ALSVGLELAVSGVRCNVVS-PGSTDTDMQRTL  185
+
+
+>VFG030282(gb|YP_005361637) (sadH) short-chain type dehydrogenase/reductase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis RGTB327]
+Length=279
+
+ Score = 52.8 bits (125),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 60/208 (29%), Positives = 88/208 (42%), Gaps = 20/208 (10%)
+
+Query  14   GRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQELD  73
+            G+VAVITGA +G+G   AL L+E  A   LA+ ++D    A     A +    V    LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLSEKRAK--LALSDVDTDGLAKTVRLAQALGAQVKSDRLD  63
+
+Query  74   LASLESVRAAAKQLRSDYDHIDLLINNAGVMW---TPKSTTKDGFELQFGTNHLGHFAFT  130
+            +A  E+V A A  + + +  +  + NNAG+ +     KS  KD  E     +  G    T
+Sbjct  64   VAEREAVLAHADAVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  131  GLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRVAAYGQSKLANLLFTYEL  190
+               L  ++      ++ +SSL         F  +         +AY  +K A   FT  L
+Sbjct  123  KAFLPHVIASGDGHIVNISSL---------FGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  191  -QRRLATRQTTIAVAAHPGGSRTELTRT  217
+             Q  L  R        HPGG +T + R 
+Sbjct  170  RQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG000934(gb|WP_000348393) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin (VF0228) - Nutritional/Metabolic 
+factor (VFC0272)] [Escherichia coli CFT073]
+Length=248
+
+ Score = 52.4 bits (124),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 56/212 (26%), Positives = 91/212 (43%), Gaps = 32/212 (15%)
+
+Query  11   DQTGRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQ  70
+            D  G+   +TGA  G+GY TA+A  E GA V         G D A     T  Q   A +
+Sbjct  2    DFXGKNVWVTGAGKGIGYATAMAFVEAGAKVT--------GFDQA----FTQEQYPFATE  49
+
+Query  71   ELDLASLESVRAAAKQLRSDYDHIDLLINNAGV--MWTPKSTTKDGFELQFGTNHLGHFA  128
+             +D+A    V    ++L ++ + +D+L+N AG+  M      +K+ ++  F  N  G F 
+Sbjct  50   VMDVADAAQVAQVCQRLLAETERLDVLVNAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  129  FTGLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRV--AAYGQSKLANLLF  186
+                 +++     G  ++TV+S +                +  R+  +AYG SK A    
+Sbjct  110  LFQQTMNQFRHQRGGAIVTVASDA---------------AHTPRIGMSAYGASKAALKSL  154
+
+Query  187  TYELQRRLATRQTTIAVAAHPGGSRTELTRTL  218
+               +   LA       V + PG + T++ RTL
+Sbjct  155  ALSVGLELAGSGVRCNVVS-PGSTDTDMQRTL  185
+
+
+>VFG038840(gb|WP_005300916) (flmH) short chain dehydrogenase/reductase 
+family oxidoreductase [Polar flagella (VF0473) - Motility 
+(VFC0204)] [Aeromonas hydrophila ML09-119]
+Length=244
+
+ Score = 52.0 bits (123),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 54/215 (25%), Positives = 94/215 (44%), Gaps = 35/215 (16%)
+
+Query  13   TGRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQEL  72
+            T +V ++TGA+ G+G   A   A  GA VV      + G +A   I+A   +    +  L
+Sbjct  4    TDKVVLVTGASRGIGRAIAETFAARGAKVV-GTATSESGAEA---ISAYLGEQGCGMA-L  58
+
+Query  73   DLASLESVRAAAKQLRSDYDHIDLLINNAGVMWTPKSTTKDGFELQFG---------TNH  123
+            ++ S ES+ A    +++ +  ID+LINNAG+       T+D   ++           TN 
+Sbjct  59   NVTSQESIEAVFAAIKARFGDIDILINNAGI-------TRDNLLMRMKDDEWNEIIDTNL  111
+
+Query  124  LGHFAFTGLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRVAAYGQSKLAN  183
+               +  +  +L  ++     R+I++ S+   +      N             Y  +K   
+Sbjct  112  TSLYRLSKPVLRAMMKKRNGRIISIGSVVGTMGNAGQVN-------------YAAAKAGL  158
+
+Query  184  LLFTYELQRRLATRQTTIAVAAHPGGSRTELTRTL  218
+            + FT  L R +A+R  T+   A PG   T++T+ L
+Sbjct  159  VGFTKSLAREVASRGITVNAVA-PGFIETDMTKAL  192
+
+
+>VFG048407(gb|WP_024622880) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae KCTC 2242]
+Length=248
+
+ Score = 52.0 bits (123),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 57/214 (27%), Positives = 94/214 (44%), Gaps = 36/214 (17%)
+
+Query  11   DQTGRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQ  70
+            D  G+   +TGA  G+GY TALA  E GA+V       D   D  +   AT        +
+Sbjct  2    DFRGQTVWVTGAGKGIGYATALAFVEAGANVT----GFDLAFDGESYPFAT--------E  49
+
+Query  71   ELDLASLESVRAAAKQLRSDYDHIDLLINNAGV--MWTPKSTTKDGFELQFGTNHLGHFA  128
+             LD+A  + VR A  +L ++ + +D+L+N AG+  M      + + ++  F  N  G F 
+Sbjct  50   TLDVADADQVREACSRLLANTERLDVLVNAAGILRMGATDQLSAEDWQQTFAVNVGGAFN  109
+
+Query  129  FTGLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRV--AAYGQSK--LANL  184
+                 + +     G  ++TV+S +                +  R+  +AYG SK  L +L
+Sbjct  110  LFQQTMAQFRRQRGGAIVTVASDA---------------AHTPRIGMSAYGASKAALKSL  154
+
+Query  185  LFTYELQRRLATRQTTIAVAAHPGGSRTELTRTL  218
+              T  L+   +  +  +     PG + T++ RTL
+Sbjct  155  ALTVGLELAGSGVRCNL---VSPGSTDTDMQRTL  185
+
+
+>VFG048405(gb|YP_005225749) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae HS11286]
+Length=251
+
+ Score = 52.0 bits (123),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 57/214 (27%), Positives = 94/214 (44%), Gaps = 36/214 (17%)
+
+Query  11   DQTGRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQ  70
+            D  G+   +TGA  G+GY TALA  E GA+V       D   D  +   AT        +
+Sbjct  5    DFRGQTVWVTGAGKGIGYATALAFVEAGANVT----GFDLAFDGESYPFAT--------E  52
+
+Query  71   ELDLASLESVRAAAKQLRSDYDHIDLLINNAGV--MWTPKSTTKDGFELQFGTNHLGHFA  128
+             LD+A  + VR A  +L ++ + +D+L+N AG+  M      + + ++  F  N  G F 
+Sbjct  53   TLDVADADQVREACSRLLANTERLDVLVNAAGILRMGATDQLSAEDWQQTFAVNVGGAFN  112
+
+Query  129  FTGLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRV--AAYGQSK--LANL  184
+                 + +     G  ++TV+S +                +  R+  +AYG SK  L +L
+Sbjct  113  LFQQTMAQFRRQRGGAIVTVASDA---------------AHTPRIGMSAYGASKAALKSL  157
+
+Query  185  LFTYELQRRLATRQTTIAVAAHPGGSRTELTRTL  218
+              T  L+   +  +  +     PG + T++ RTL
+Sbjct  158  ALTVGLELAGSGVRCNL---VSPGSTDTDMQRTL  188
+
+
+>VFG048409(gb|WP_086074289) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=248
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 57/214 (27%), Positives = 93/214 (43%), Gaps = 36/214 (17%)
+
+Query  11   DQTGRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQ  70
+            D  G+   +TGA  G+GY TALA  E GA+V       D   D  +   AT        +
+Sbjct  2    DFHGQTVWVTGAGKGIGYATALAFVEAGANVT----GFDLAFDGESYPFAT--------E  49
+
+Query  71   ELDLASLESVRAAAKQLRSDYDHIDLLINNAGV--MWTPKSTTKDGFELQFGTNHLGHFA  128
+             LD+A  + VR A  +L ++ + +D+L+N AG+  M      + + ++  F  N  G F 
+Sbjct  50   TLDVADADQVREACSRLLANTERLDVLVNAAGILRMGATDQLSAEDWQQTFAVNVGGAFN  109
+
+Query  129  FTGLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRV--AAYGQSK--LANL  184
+                 + +     G  ++TV+S +                +  R+  +AYG SK  L +L
+Sbjct  110  LFQQTMAQFRRQRGGAIVTVASDA---------------AHTPRIGMSAYGASKAALKSL  154
+
+Query  185  LFTYELQRRLATRQTTIAVAAHPGGSRTELTRTL  218
+              T  L+      +  +     PG + T++ RTL
+Sbjct  155  ALTVGLELAGCGVRCNL---VSPGSTDTDMQRTL  185
+
+
+>VFG030279(gb|YP_007959089) (sadH) short-chain type dehydrogenase/reductase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=277
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 59/208 (28%), Positives = 87/208 (42%), Gaps = 20/208 (10%)
+
+Query  14   GRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQELD  73
+            G+VAVITGA +G+G   AL L+E  A   LA+ ++D    A     A +    V    LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLSEKXAK--LALSDVDTDGLAKTVRLAQALGAQVKSDRLD  63
+
+Query  74   LASLESVRAAAKQLRSDYDHIDLLINNAGVMW---TPKSTTKDGFELQFGTNHLGHFAFT  130
+            +A  E+V A A  + + +  +  + NNAG+ +     KS  KD  E     +  G    T
+Sbjct  64   VAEREAVLAHADAVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  131  GLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRVAAYGQSKLANLLFTYEL  190
+               L  ++      ++ + SL         F  +         +AY  +K A   FT  L
+Sbjct  123  KAFLPHVIASGDGHIVNIXSL---------FGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  191  -QRRLATRQTTIAVAAHPGGSRTELTRT  217
+             Q  L  R        HPGG +T + R 
+Sbjct  170  RQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG012973(gb|WP_000347670) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin synthesis and transport 
+(VF0984) - Nutritional/Metabolic factor (VFC0272)] [Shigella 
+dysenteriae Sd197]
+Length=248
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 56/212 (26%), Positives = 91/212 (43%), Gaps = 32/212 (15%)
+
+Query  11   DQTGRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQ  70
+            D +G+   +TGA  G+GY TALA  + GA V         G D A     T  Q   A +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALAFVKAGAKVT--------GFDQA----FTQEQYPFATE  49
+
+Query  71   ELDLASLESVRAAAKQLRSDYDHIDLLINNAGV--MWTPKSTTKDGFELQFGTNHLGHFA  128
+             +D+A    V    ++L ++ + +D L+N AG+  M      +K+ ++  F  N  G F 
+Sbjct  50   VMDVADAAQVAQVCQRLLAETERLDALVNAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  129  FTGLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRV--AAYGQSKLANLLF  186
+                 +++     G  ++TV+S +                +  R+  +AYG SK A    
+Sbjct  110  LFQQTMNQFRRQRGGAIVTVASDA---------------AHTPRIGMSAYGASKAALKSL  154
+
+Query  187  TYELQRRLATRQTTIAVAAHPGGSRTELTRTL  218
+               +   LA       V + PG + T++ RTL
+Sbjct  155  ALSVGLELAGSGVRCNVVS-PGSTDTDMQRTL  185
+
+
+>VFG048402(gb|WP_014228362) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella oxytoca KCTC 1686]
+Length=251
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 57/214 (27%), Positives = 91/214 (43%), Gaps = 36/214 (17%)
+
+Query  11   DQTGRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQ  70
+            D  GR   ITGA  G+GY TALA  E GA V       D   D  +   AT        +
+Sbjct  5    DFHGRTVWITGAGKGIGYATALAFVEAGAQVT----GFDLAFDGESYPFAT--------E  52
+
+Query  71   ELDLASLESVRAAAKQLRSDYDHIDLLINNAGV--MWTPKSTTKDGFELQFGTNHLGHFA  128
+             LD+A  + V     +L +    +D+L+N AG+  M    + +++ ++  F  N  G F 
+Sbjct  53   TLDVADAQQVAQTCGRLLAGIARLDVLVNAAGILRMGATDALSQEDWQQTFAVNVGGAFN  112
+
+Query  129  FTGLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRV--AAYGQSK--LANL  184
+                 + +     G  ++TV+S +                +  R+  +AYG SK  L +L
+Sbjct  113  LFQQTMGQFRRQKGGAIVTVASDA---------------AHTPRIGMSAYGASKAALKSL  157
+
+Query  185  LFTYELQRRLATRQTTIAVAAHPGGSRTELTRTL  218
+              T  L+   +  +  +     PG + T++ RTL
+Sbjct  158  ALTVGLELAGSGVRCNL---VSPGSTDTDMQRTL  188
+
+
+>VFG048401(gb|WP_014837779) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella oxytoca E718]
+Length=251
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 57/214 (27%), Positives = 91/214 (43%), Gaps = 36/214 (17%)
+
+Query  11   DQTGRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQ  70
+            D  GR   ITGA  G+GY TALA  E GA V       D   D  +   AT        +
+Sbjct  5    DFHGRTVWITGAGKGIGYATALAFVEAGAQVT----GFDLAFDGESYPFAT--------E  52
+
+Query  71   ELDLASLESVRAAAKQLRSDYDHIDLLINNAGV--MWTPKSTTKDGFELQFGTNHLGHFA  128
+             LD+A  + V     +L +    +D+L+N AG+  M    + +++ ++  F  N  G F 
+Sbjct  53   TLDVADAQQVAQTCGRLLAGIARLDVLVNAAGILRMGATDALSQEDWQQTFAVNVGGAFN  112
+
+Query  129  FTGLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRV--AAYGQSK--LANL  184
+                 + +     G  ++TV+S +                +  R+  +AYG SK  L +L
+Sbjct  113  LFQQTMAQFRRQKGGAIVTVASDA---------------AHTPRIGMSAYGASKAALKSL  157
+
+Query  185  LFTYELQRRLATRQTTIAVAAHPGGSRTELTRTL  218
+              T  L+   +  +  +     PG + T++ RTL
+Sbjct  158  ALTVGLELAGSGVRCNL---VSPGSTDTDMQRTL  188
+
+
+>VFG048408(gb|WP_012068428) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae MGH 78578]
+Length=251
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 56/214 (26%), Positives = 91/214 (43%), Gaps = 36/214 (17%)
+
+Query  11   DQTGRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQ  70
+            D  G+   +TGA  G+GY TALA  E GA+V       D   D      AT        +
+Sbjct  5    DFHGQTVWVTGAGKGIGYATALAFVEAGANVT----GFDLAFDGEGYPFAT--------E  52
+
+Query  71   ELDLASLESVRAAAKQLRSDYDHIDLLINNAGV--MWTPKSTTKDGFELQFGTNHLGHFA  128
+             LD+A    VR    +L ++ + +D+L+N AG+  M      + + ++  F  N  G F 
+Sbjct  53   TLDVADAGQVRDVCARLLNNIERLDVLVNAAGILRMGATDQLSAEDWQQTFAVNVGGAFN  112
+
+Query  129  FTGLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRV--AAYGQSK--LANL  184
+                 + +     G  ++TV+S +                +  R+  +AYG SK  L +L
+Sbjct  113  LFQQTMAQFRRQRGGAIVTVASDA---------------AHTPRIGMSAYGASKAALKSL  157
+
+Query  185  LFTYELQRRLATRQTTIAVAAHPGGSRTELTRTL  218
+              T  L+   +  +  +     PG + T++ RTL
+Sbjct  158  ALTVGLELAGSGVRCNL---VSPGSTDTDMQRTL  188
+
+
+>VFG048404(gb|WP_008805588) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae 342]
+Length=251
+
+ Score = 47.4 bits (111),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 56/214 (26%), Positives = 92/214 (43%), Gaps = 36/214 (17%)
+
+Query  11   DQTGRVAVITGANTGLGYQTALALAEHGAHVVLAVRNLDKGKDAAARITATSAQNNVALQ  70
+            D  G+   +TGA  G+GY TALA  E GA+V         G D    +    A    A +
+Sbjct  5    DFHGQTVWVTGAGKGIGYATALAFVEAGANVT--------GFD----LAFAGAGYPFATE  52
+
+Query  71   ELDLASLESVRAAAKQLRSDYDHIDLLINNAGV--MWTPKSTTKDGFELQFGTNHLGHFA  128
+             LD+A    VR    +L ++ + +D+L+N AG+  M      + + ++  F  N  G F 
+Sbjct  53   TLDVADAGQVRDVCARLLNNIERLDVLVNAAGILRMGATDQLSAEDWQQTFAVNVGGAFN  112
+
+Query  129  FTGLLLDRLLPIVGSRVITVSSLSHRLFADIHFNDLQWECNYNRV--AAYGQSK--LANL  184
+                 + +     G  ++TV+S +                +  R+  +AYG SK  L +L
+Sbjct  113  LFQQTMAQFRRQRGGAIVTVASDA---------------AHTPRIGMSAYGASKAALKSL  157
+
+Query  185  LFTYELQRRLATRQTTIAVAAHPGGSRTELTRTL  218
+              T  L+   +  +  +     PG + T++ RTL
+Sbjct  158  ALTVGLELAGSGVRCNL---VSPGSTDTDMQRTL  188
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2142037332
+
+
+Query= g66.t1
+
+Length=303
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG048405(gb|YP_005225749) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  53.9    2e-08
+VFG048407(gb|WP_024622880) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  53.9    3e-08
+VFG048409(gb|WP_086074289) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  53.1    4e-08
+VFG048404(gb|WP_008805588) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  52.8    6e-08
+VFG048408(gb|WP_012068428) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  52.0    9e-08
+VFG012976(gb|WP_000347662) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  50.8    2e-07
+VFG012978(gb|WP_000347634) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  50.8    2e-07
+VFG000934(gb|WP_000348393) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  50.4    3e-07
+VFG038840(gb|WP_005300916) (flmH) short chain dehydrogenase/reduc...  50.4    3e-07
+VFG012977(gb|WP_000347664) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  50.1    4e-07
+VFG012973(gb|WP_000347670) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  50.1    5e-07
+VFG011619(gb|WP_004688790) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoa...  49.7    6e-07
+VFG011617(gb|WP_002966566) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoa...  49.7    7e-07
+VFG011616(gb|WP_004681144) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoa...  49.7    7e-07
+VFG019276(gb|WP_006073147) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoa...  49.7    7e-07
+VFG049997(gb|WP_003185961) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  47.8    3e-06
+VFG038841(gb|WP_005318273) (flmH) short chain dehydrogenase/reduc...  47.0    5e-06
+
+
+>VFG048405(gb|YP_005225749) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae HS11286]
+Length=251
+
+ Score = 53.9 bits (128),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 60/213 (28%), Positives = 97/213 (46%), Gaps = 34/213 (16%)
+
+Query  11   DQTGRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAEVELQ  70
+            D  G+T  +TGA  G+G+ TA A    GA+V       D          E+ P A    +
+Sbjct  5    DFRGQTVWVTGAGKGIGYATALAFVEAGANVTGFDLAFDG---------ESYPFAT---E  52
+
+Query  71   ELDLTSLASVRAAAAQLKSDHQRIDLLINNAGV--MYTPRQTTADGFEMQFGTNHLGHFA  128
+             LD+     VR A ++L ++ +R+D+L+N AG+  M    Q +A+ ++  F  N  G F 
+Sbjct  53   TLDVADADQVREACSRLLANTERLDVLVNAAGILRMGATDQLSAEDWQQTFAVNVGGAFN  112
+
+Query  129  LTGLLIDRLLPVAGSRVVTISS-VGHRIRAAIHFDDLQWERRYRRVAAYGQAK--LANLL  185
+            L    + +     G  +VT++S   H  R  +              +AYG +K  L +L 
+Sbjct  113  LFQQTMAQFRRQRGGAIVTVASDAAHTPRIGM--------------SAYGASKAALKSLA  158
+
+Query  186  FTYELQRRLAPGGTTIAVASHPGVSNTEVVRNM  218
+             T  L+  LA  G    + S PG ++T++ R +
+Sbjct  159  LTVGLE--LAGSGVRCNLVS-PGSTDTDMQRTL  188
+
+
+>VFG048407(gb|WP_024622880) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae KCTC 2242]
+Length=248
+
+ Score = 53.9 bits (128),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 60/213 (28%), Positives = 97/213 (46%), Gaps = 34/213 (16%)
+
+Query  11   DQTGRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAEVELQ  70
+            D  G+T  +TGA  G+G+ TA A    GA+V       D          E+ P A    +
+Sbjct  2    DFRGQTVWVTGAGKGIGYATALAFVEAGANVTGFDLAFDG---------ESYPFAT---E  49
+
+Query  71   ELDLTSLASVRAAAAQLKSDHQRIDLLINNAGV--MYTPRQTTADGFEMQFGTNHLGHFA  128
+             LD+     VR A ++L ++ +R+D+L+N AG+  M    Q +A+ ++  F  N  G F 
+Sbjct  50   TLDVADADQVREACSRLLANTERLDVLVNAAGILRMGATDQLSAEDWQQTFAVNVGGAFN  109
+
+Query  129  LTGLLIDRLLPVAGSRVVTISS-VGHRIRAAIHFDDLQWERRYRRVAAYGQAK--LANLL  185
+            L    + +     G  +VT++S   H  R  +              +AYG +K  L +L 
+Sbjct  110  LFQQTMAQFRRQRGGAIVTVASDAAHTPRIGM--------------SAYGASKAALKSLA  155
+
+Query  186  FTYELQRRLAPGGTTIAVASHPGVSNTEVVRNM  218
+             T  L+  LA  G    + S PG ++T++ R +
+Sbjct  156  LTVGLE--LAGSGVRCNLVS-PGSTDTDMQRTL  185
+
+
+>VFG048409(gb|WP_086074289) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=248
+
+ Score = 53.1 bits (126),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 60/213 (28%), Positives = 97/213 (46%), Gaps = 34/213 (16%)
+
+Query  11   DQTGRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAEVELQ  70
+            D  G+T  +TGA  G+G+ TA A    GA+V       D          E+ P A    +
+Sbjct  2    DFHGQTVWVTGAGKGIGYATALAFVEAGANVTGFDLAFDG---------ESYPFAT---E  49
+
+Query  71   ELDLTSLASVRAAAAQLKSDHQRIDLLINNAGV--MYTPRQTTADGFEMQFGTNHLGHFA  128
+             LD+     VR A ++L ++ +R+D+L+N AG+  M    Q +A+ ++  F  N  G F 
+Sbjct  50   TLDVADADQVREACSRLLANTERLDVLVNAAGILRMGATDQLSAEDWQQTFAVNVGGAFN  109
+
+Query  129  LTGLLIDRLLPVAGSRVVTISS-VGHRIRAAIHFDDLQWERRYRRVAAYGQAK--LANLL  185
+            L    + +     G  +VT++S   H  R  +              +AYG +K  L +L 
+Sbjct  110  LFQQTMAQFRRQRGGAIVTVASDAAHTPRIGM--------------SAYGASKAALKSLA  155
+
+Query  186  FTYELQRRLAPGGTTIAVASHPGVSNTEVVRNM  218
+             T  L+  LA  G    + S PG ++T++ R +
+Sbjct  156  LTVGLE--LAGCGVRCNLVS-PGSTDTDMQRTL  185
+
+
+>VFG048404(gb|WP_008805588) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae 342]
+Length=251
+
+ Score = 52.8 bits (125),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 59/213 (28%), Positives = 95/213 (45%), Gaps = 34/213 (16%)
+
+Query  11   DQTGRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAEVELQ  70
+            D  G+T  +TGA  G+G+ TA A    GA+V       D        +  A  G     +
+Sbjct  5    DFHGQTVWVTGAGKGIGYATALAFVEAGANVT----GFD--------LAFAGAGYPFATE  52
+
+Query  71   ELDLTSLASVRAAAAQLKSDHQRIDLLINNAGV--MYTPRQTTADGFEMQFGTNHLGHFA  128
+             LD+     VR   A+L ++ +R+D+L+N AG+  M    Q +A+ ++  F  N  G F 
+Sbjct  53   TLDVADAGQVRDVCARLLNNIERLDVLVNAAGILRMGATDQLSAEDWQQTFAVNVGGAFN  112
+
+Query  129  LTGLLIDRLLPVAGSRVVTISS-VGHRIRAAIHFDDLQWERRYRRVAAYGQAK--LANLL  185
+            L    + +     G  +VT++S   H  R  +              +AYG +K  L +L 
+Sbjct  113  LFQQTMAQFRRQRGGAIVTVASDAAHTPRIGM--------------SAYGASKAALKSLA  158
+
+Query  186  FTYELQRRLAPGGTTIAVASHPGVSNTEVVRNM  218
+             T  L+  LA  G    + S PG ++T++ R +
+Sbjct  159  LTVGLE--LAGSGVRCNLVS-PGSTDTDMQRTL  188
+
+
+>VFG048408(gb|WP_012068428) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae MGH 78578]
+Length=251
+
+ Score = 52.0 bits (123),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 60/213 (28%), Positives = 95/213 (45%), Gaps = 34/213 (16%)
+
+Query  11   DQTGRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAEVELQ  70
+            D  G+T  +TGA  G+G+ TA A    GA+V       D          E  P A    +
+Sbjct  5    DFHGQTVWVTGAGKGIGYATALAFVEAGANVTGFDLAFDG---------EGYPFAT---E  52
+
+Query  71   ELDLTSLASVRAAAAQLKSDHQRIDLLINNAGV--MYTPRQTTADGFEMQFGTNHLGHFA  128
+             LD+     VR   A+L ++ +R+D+L+N AG+  M    Q +A+ ++  F  N  G F 
+Sbjct  53   TLDVADAGQVRDVCARLLNNIERLDVLVNAAGILRMGATDQLSAEDWQQTFAVNVGGAFN  112
+
+Query  129  LTGLLIDRLLPVAGSRVVTISS-VGHRIRAAIHFDDLQWERRYRRVAAYGQAK--LANLL  185
+            L    + +     G  +VT++S   H  R  +              +AYG +K  L +L 
+Sbjct  113  LFQQTMAQFRRQRGGAIVTVASDAAHTPRIGM--------------SAYGASKAALKSLA  158
+
+Query  186  FTYELQRRLAPGGTTIAVASHPGVSNTEVVRNM  218
+             T  L+  LA  G    + S PG ++T++ R +
+Sbjct  159  LTVGLE--LAGSGVRCNLVS-PGSTDTDMQRTL  188
+
+
+>VFG012976(gb|WP_000347662) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin synthesis and transport 
+(VF0984) - Nutritional/Metabolic factor (VFC0272)] [Shigella 
+flexneri 5 str. 8401]
+Length=248
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 55/211 (26%), Positives = 90/211 (43%), Gaps = 30/211 (14%)
+
+Query  11   DQTGRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAEVELQ  70
+            D +G+   +TGA  G+G+ TA A    GA V       D+     A   E  P A    +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALAFVEAGAKVT----GFDQ-----AFTQEQYPFAT---E  49
+
+Query  71   ELDLTSLASVRAAAAQLKSDHQRIDLLINNAGV--MYTPRQTTADGFEMQFGTNHLGHFA  128
+             +D+     V     +L ++ +R+D+LIN AG+  M    Q + + ++  F  N  G F 
+Sbjct  50   VMDVADAGQVAQVCQRLLAETERLDVLINAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  129  LTGLLIDRLLPVAGSRVVTISS-VGHRIRAAIHFDDLQWERRYRRVAAYGQAKLANLLFT  187
+            L    +++     G  +VT++S   H  R  +              +AYG +K A     
+Sbjct  110  LFQQTMNQFRRQRGGAIVTVASDAAHTARIGM--------------SAYGASKAALKSLA  155
+
+Query  188  YELQRRLAPGGTTIAVASHPGVSNTEVVRNM  218
+              +   LA  G    V S PG ++T++ R +
+Sbjct  156  LSVGLELAGSGVRCNVVS-PGSTDTDMQRTL  185
+
+
+>VFG012978(gb|WP_000347634) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin synthesis and transport 
+(VF0984) - Nutritional/Metabolic factor (VFC0272)] [Shigella 
+sonnei Ss046]
+Length=248
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 57/211 (27%), Positives = 93/211 (44%), Gaps = 30/211 (14%)
+
+Query  11   DQTGRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAEVELQ  70
+            D +G+   +TGA  G+G+ TA A    GA V       D   QA A+  E  P A    +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALAFVEAGAKVT----GFD---QAFAQ--EQYPFAT---E  49
+
+Query  71   ELDLTSLASVRAAAAQLKSDHQRIDLLINNAGV--MYTPRQTTADGFEMQFGTNHLGHFA  128
+             +D+   A V     +L ++ +R+D+L+N AG+  M    Q + + ++  F  N  G F 
+Sbjct  50   VMDVADAAQVAQVCQRLLAETERLDVLVNAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  129  LTGLLIDRLLPVAGSRVVTISS-VGHRIRAAIHFDDLQWERRYRRVAAYGQAKLANLLFT  187
+            L    +++     G  +VT++S   H  R  +              +AYG +K A     
+Sbjct  110  LFQQTMNQFRRQRGGAIVTVASDAAHTPRIGM--------------SAYGASKAALKSLA  155
+
+Query  188  YELQRRLAPGGTTIAVASHPGVSNTEVVRNM  218
+              +   LA  G    V S PG ++T++ R +
+Sbjct  156  LSVGLELAVSGVRCNVVS-PGSTDTDMQRTL  185
+
+
+>VFG000934(gb|WP_000348393) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin (VF0228) - Nutritional/Metabolic 
+factor (VFC0272)] [Escherichia coli CFT073]
+Length=248
+
+ Score = 50.4 bits (119),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 55/211 (26%), Positives = 90/211 (43%), Gaps = 30/211 (14%)
+
+Query  11   DQTGRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAEVELQ  70
+            D  G+   +TGA  G+G+ TA A    GA V       D+     A   E  P A    +
+Sbjct  2    DFXGKNVWVTGAGKGIGYATAMAFVEAGAKVT----GFDQ-----AFTQEQYPFAT---E  49
+
+Query  71   ELDLTSLASVRAAAAQLKSDHQRIDLLINNAGV--MYTPRQTTADGFEMQFGTNHLGHFA  128
+             +D+   A V     +L ++ +R+D+L+N AG+  M    Q + + ++  F  N  G F 
+Sbjct  50   VMDVADAAQVAQVCQRLLAETERLDVLVNAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  129  LTGLLIDRLLPVAGSRVVTISS-VGHRIRAAIHFDDLQWERRYRRVAAYGQAKLANLLFT  187
+            L    +++     G  +VT++S   H  R  +              +AYG +K A     
+Sbjct  110  LFQQTMNQFRHQRGGAIVTVASDAAHTPRIGM--------------SAYGASKAALKSLA  155
+
+Query  188  YELQRRLAPGGTTIAVASHPGVSNTEVVRNM  218
+              +   LA  G    V S PG ++T++ R +
+Sbjct  156  LSVGLELAGSGVRCNVVS-PGSTDTDMQRTL  185
+
+
+>VFG038840(gb|WP_005300916) (flmH) short chain dehydrogenase/reductase 
+family oxidoreductase [Polar flagella (VF0473) - Motility 
+(VFC0204)] [Aeromonas hydrophila ML09-119]
+Length=244
+
+ Score = 50.4 bits (119),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 54/206 (26%), Positives = 89/206 (43%), Gaps = 21/206 (10%)
+
+Query  13   TGRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAEVELQEL  72
+            T +  ++TGA+ G+G   A   AA GA VV    +    +  +A + E   G       L
+Sbjct  4    TDKVVLVTGASRGIGRAIAETFAARGAKVVGTATSESGAEAISAYLGEQGCG-----MAL  58
+
+Query  73   DLTSLASVRAAAAQLKSDHQRIDLLINNAGVMYTP--RQTTADGFEMQFGTNHLGHFALT  130
+            ++TS  S+ A  A +K+    ID+LINNAG+       +   D +     TN    + L+
+Sbjct  59   NVTSQESIEAVFAAIKARFGDIDILINNAGITRDNLLMRMKDDEWNEIIDTNLTSLYRLS  118
+
+Query  131  GLLIDRLLPVAGSRVVTISSVGHRIRAAIHFDDLQWERRYRRVAAYGQAKLANLLFTYEL  190
+              ++  ++     R+++I SV   +  A   +             Y  AK   + FT  L
+Sbjct  119  KPVLRAMMKKRNGRIISIGSVVGTMGNAGQVN-------------YAAAKAGLVGFTKSL  165
+
+Query  191  QRRLAPGGTTIAVASHPGVSNTEVVR  216
+             R +A  G T+  A  PG   T++ +
+Sbjct  166  AREVASRGITVN-AVAPGFIETDMTK  190
+
+
+>VFG012977(gb|WP_000347664) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin synthesis and transport 
+(VF0984) - Nutritional/Metabolic factor (VFC0272)] [Shigella 
+boydii Sb227]
+Length=248
+
+ Score = 50.1 bits (118),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 55/211 (26%), Positives = 90/211 (43%), Gaps = 30/211 (14%)
+
+Query  11   DQTGRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAEVELQ  70
+            D +G+   +TGA  G+G+ TA A    GA V       D+     A   E  P A    +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALAFVEAGAKVT----GFDQ-----AFTQEQYPFAT---E  49
+
+Query  71   ELDLTSLASVRAAAAQLKSDHQRIDLLINNAGV--MYTPRQTTADGFEMQFGTNHLGHFA  128
+             +D+     V     +L ++ +R+D+LIN AG+  M    Q + + ++  F  N  G F 
+Sbjct  50   VMDVADAGQVAQVCQRLLAETERLDVLINAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  129  LTGLLIDRLLPVAGSRVVTISS-VGHRIRAAIHFDDLQWERRYRRVAAYGQAKLANLLFT  187
+            L    +++     G  +VT++S   H  R  +              +AYG +K A     
+Sbjct  110  LFQQTMNQFRRQRGGAIVTVASDAAHTPRIGM--------------SAYGASKAALKSLA  155
+
+Query  188  YELQRRLAPGGTTIAVASHPGVSNTEVVRNM  218
+              +   LA  G    V S PG ++T++ R +
+Sbjct  156  LSVGLELAGSGVRCNVVS-PGSTDTDMQRTL  185
+
+
+>VFG012973(gb|WP_000347670) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin synthesis and transport 
+(VF0984) - Nutritional/Metabolic factor (VFC0272)] [Shigella 
+dysenteriae Sd197]
+Length=248
+
+ Score = 50.1 bits (118),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 55/211 (26%), Positives = 90/211 (43%), Gaps = 30/211 (14%)
+
+Query  11   DQTGRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAEVELQ  70
+            D +G+   +TGA  G+G+ TA A    GA V       D+     A   E  P A    +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALAFVKAGAKVT----GFDQ-----AFTQEQYPFAT---E  49
+
+Query  71   ELDLTSLASVRAAAAQLKSDHQRIDLLINNAGV--MYTPRQTTADGFEMQFGTNHLGHFA  128
+             +D+   A V     +L ++ +R+D L+N AG+  M    Q + + ++  F  N  G F 
+Sbjct  50   VMDVADAAQVAQVCQRLLAETERLDALVNAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  129  LTGLLIDRLLPVAGSRVVTISS-VGHRIRAAIHFDDLQWERRYRRVAAYGQAKLANLLFT  187
+            L    +++     G  +VT++S   H  R  +              +AYG +K A     
+Sbjct  110  LFQQTMNQFRRQRGGAIVTVASDAAHTPRIGM--------------SAYGASKAALKSLA  155
+
+Query  188  YELQRRLAPGGTTIAVASHPGVSNTEVVRNM  218
+              +   LA  G    V S PG ++T++ R +
+Sbjct  156  LSVGLELAGSGVRCNVVS-PGSTDTDMQRTL  185
+
+
+>VFG011619(gb|WP_004688790) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Brucebactin (VF0692) - Nutritional/Metabolic 
+factor (VFC0272)] [Brucella suis 1330]
+Length=258
+
+ Score = 49.7 bits (117),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 59/212 (28%), Positives = 92/212 (43%), Gaps = 38/212 (18%)
+
+Query  14   GRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAEVELQELD  73
+            G+  ++TGA  G+G   A    A GA V+     LD+    A         A   L  LD
+Sbjct  15   GKRVIVTGAAQGIGRRVAERFLAEGATVI----GLDRQAGEA--------DAPFRLIRLD  62
+
+Query  74   LTSLASVRAAAAQLKSDHQRIDLLINNAGVMY--TPRQTTADGFEMQFGTNHLGHFALTG  131
+            +T  A VRA +  LK++ + +D+L+N AGV+      + +A+ ++     N  G F    
+Sbjct  63   ITDAAEVRAVSDGLKAEGKPLDILVNVAGVLKLGNSDRLSAEDWKTCMDVNASGPFH---  119
+
+Query  132  LLIDRLLPVA-----GSRVVTISSVGHRIRAAIHFDDLQWERRYRRVAAYGQAKLANLLF  186
+             L+ + +PV      G+ V   S+  H  R                +AAY  +K A   F
+Sbjct  120  -LLSQWVPVFRDQRHGAIVNVASNAAHVPRL--------------NMAAYCASKAALASF  164
+
+Query  187  TYELQRRLAPGGTTIAVASHPGVSNTEVVRNM  218
+            ++ +   LAP G    V S PG + T ++  M
+Sbjct  165  SHCVALELAPYGVRCNVVS-PGSTRTAMLGAM  195
+
+
+>VFG011617(gb|WP_002966566) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Brucebactin (VF0692) - Nutritional/Metabolic 
+factor (VFC0272)] [Brucella melitensis biovar Abortus 
+2308]
+Length=258
+
+ Score = 49.7 bits (117),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 59/212 (28%), Positives = 92/212 (43%), Gaps = 38/212 (18%)
+
+Query  14   GRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAEVELQELD  73
+            G+  ++TGA  G+G   A    A GA V+     LD+    A         A   L  LD
+Sbjct  15   GKRVIVTGAAQGIGRRVAEHFLAEGATVI----GLDRQAGEA--------DAPFRLIRLD  62
+
+Query  74   LTSLASVRAAAAQLKSDHQRIDLLINNAGVMY--TPRQTTADGFEMQFGTNHLGHFALTG  131
+            +T  A VRA +  LK++ + +D+L+N AGV+      + +A+ ++     N  G F    
+Sbjct  63   ITDAAEVRAVSDGLKAEGKPLDILVNVAGVLKLGNSDRLSAEDWKTCMDVNASGPFH---  119
+
+Query  132  LLIDRLLPVA-----GSRVVTISSVGHRIRAAIHFDDLQWERRYRRVAAYGQAKLANLLF  186
+             L+ + +PV      G+ V   S+  H  R                +AAY  +K A   F
+Sbjct  120  -LLSQWVPVFRDQRHGAIVNVASNAAHVPRL--------------NMAAYCASKAALASF  164
+
+Query  187  TYELQRRLAPGGTTIAVASHPGVSNTEVVRNM  218
+            ++ +   LAP G    V S PG + T ++  M
+Sbjct  165  SHCVALELAPYGVRCNVVS-PGSTRTAMLGAM  195
+
+
+>VFG011616(gb|WP_004681144) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Brucebactin (VF0692) - Nutritional/Metabolic 
+factor (VFC0272)] [Brucella melitensis bv. 1 str. 16M]
+Length=258
+
+ Score = 49.7 bits (117),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 59/212 (28%), Positives = 92/212 (43%), Gaps = 38/212 (18%)
+
+Query  14   GRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAEVELQELD  73
+            G+  ++TGA  G+G   A    A GA V+     LD+    A         A   L  LD
+Sbjct  15   GKRVIVTGAAQGIGRRVAEHFLAEGATVI----GLDRQAGEA--------DAPFRLIRLD  62
+
+Query  74   LTSLASVRAAAAQLKSDHQRIDLLINNAGVMY--TPRQTTADGFEMQFGTNHLGHFALTG  131
+            +T  A VRA +  LK++ + +D+L+N AGV+      + +A+ ++     N  G F    
+Sbjct  63   ITDAAEVRAVSDGLKAEGKPLDILVNVAGVLKLGNSDRLSAEDWKTCMDVNASGPFH---  119
+
+Query  132  LLIDRLLPVA-----GSRVVTISSVGHRIRAAIHFDDLQWERRYRRVAAYGQAKLANLLF  186
+             L+ + +PV      G+ V   S+  H  R                +AAY  +K A   F
+Sbjct  120  -LLSQWVPVFRDQRHGAIVNVASNAAHVPRL--------------NMAAYCASKAALASF  164
+
+Query  187  TYELQRRLAPGGTTIAVASHPGVSNTEVVRNM  218
+            ++ +   LAP G    V S PG + T ++  M
+Sbjct  165  SHCVALELAPYGVRCNVVS-PGSTRTAMLGAM  195
+
+
+>VFG019276(gb|WP_006073147) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Brucebactin (VF0692) - Nutritional/Metabolic 
+factor (VFC0272)] [Brucella suis ATCC 23445]
+Length=258
+
+ Score = 49.7 bits (117),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 59/212 (28%), Positives = 92/212 (43%), Gaps = 38/212 (18%)
+
+Query  14   GRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAEVELQELD  73
+            G+  ++TGA  G+G   A    A GA V+     LD+    A         A   L  LD
+Sbjct  15   GKRVIVTGAAQGIGRRVAERFLAEGATVI----GLDRQAGEA--------DAPFRLIRLD  62
+
+Query  74   LTSLASVRAAAAQLKSDHQRIDLLINNAGVMY--TPRQTTADGFEMQFGTNHLGHFALTG  131
+            +T  A VRA +  LK++ + +D+L+N AGV+      + +A+ ++     N  G F    
+Sbjct  63   ITDAAEVRAVSDGLKAEGKPLDILVNVAGVLKLGNTDRLSAEDWKTCMDVNASGPFH---  119
+
+Query  132  LLIDRLLPVA-----GSRVVTISSVGHRIRAAIHFDDLQWERRYRRVAAYGQAKLANLLF  186
+             L+ + +PV      G+ V   S+  H  R                +AAY  +K A   F
+Sbjct  120  -LLSQWVPVFRDQRHGAIVNVASNAAHVPRL--------------NMAAYCASKAALASF  164
+
+Query  187  TYELQRRLAPGGTTIAVASHPGVSNTEVVRNM  218
+            ++ +   LAP G    V S PG + T ++  M
+Sbjct  165  SHCVALELAPYGVRCNVVS-PGSTRTAMLGAM  195
+
+
+>VFG049997(gb|WP_003185961) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus licheniformis ATCC 14580]
+Length=256
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 44/143 (31%), Positives = 67/143 (47%), Gaps = 12/143 (8%)
+
+Query  14   GRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAEVELQELD  73
+            G+ A++TGA+ G+G E A ALA  G  V  A +N  KG              +  LQ   
+Sbjct  3    GKVALVTGASQGIGKEVALALAGRGVFVAAADQN-RKGLLELEDEL-----EQKGLQGSG  56
+
+Query  74   LTSLASVRAAAAQLKSDHQR----IDLLINNAGVMYTP--RQTTADGFEMQFGTNHLGHF  127
+              +     AA  QL +D +R    ID+L+N AGV+ T      + + +E  F  N  G F
+Sbjct  57   FAADVGDSAAVDQLIADIEREIGPIDMLVNVAGVLRTGLIHSLSDEDWEKTFNVNSTGVF  116
+
+Query  128  ALTGLLIDRLLPVAGSRVVTISS  150
+             ++  +  R++P     +VT+ S
+Sbjct  117  NVSRAVARRMVPRRTGAIVTVGS  139
+
+
+>VFG038841(gb|WP_005318273) (flmH) short chain dehydrogenase/reductase 
+family oxidoreductase [Polar flagella (VF0473) - Motility 
+(VFC0204)] [Aeromonas salmonicida subsp. salmonicida 
+A449]
+Length=249
+
+ Score = 47.0 bits (110),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 56/212 (26%), Positives = 92/212 (43%), Gaps = 25/212 (12%)
+
+Query  14   GRTAVITGANTGLGFETAAALAAHGAHVVLAVRNLDKGKQAAARITEATPGAE--VELQE  71
+            G+  +ITGA  G+G   A   AA GA + L  R+     +AA     A  GAE  V  Q 
+Sbjct  7    GKRVLITGAGRGIGLAIARQFAAQGAELWLGGRD-----EAAMSQLAAALGAEFGVTCQP  61
+
+Query  72   L--DLTSLASVRAAAAQLKSDHQRIDLLINNAGVMYTPRQTTAD--GFEMQFGTNHLGHF  127
+            L  D+    +V+ A  QL +  +++D+L+NNAG++        +    E  F  N     
+Sbjct  62   LCFDVAEPQAVKQAFQQLFAQTRQLDVLVNNAGILEEGLLGMVNQAQLEQTFSHNAFSVV  121
+
+Query  128  ALTGLLIDRLLPVAGSRVVTISSVGHRIRAAIHFDDLQWERRYRRVAAYGQAKLANLLFT  187
+              +      +    G  ++ ++S+  R+ AA              +++Y  +K A +  T
+Sbjct  122  YCSQYAARLMQRSGGGSIINLASLMGRVGAA-------------GLSSYAGSKAAVIGIT  168
+
+Query  188  YELQRRLAPGGTTIAVASHPGVSNTEVVRNMP  219
+              L + LA     +  A  PG  +TE+ R +P
+Sbjct  169  QSLAKELATSQIRVN-AIAPGFIDTEMARAIP  199
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2131537149
+
+
+Query= g302.t1
+
+Length=302
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2121036966
+
+
+Query= g434.t1
+
+Length=311
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG038840(gb|WP_005300916) (flmH) short chain dehydrogenase/reduc...  60.5    1e-10
+VFG050144(gb|WP_001048423) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  57.4    2e-09
+VFG048405(gb|YP_005225749) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  56.2    4e-09
+VFG048407(gb|WP_024622880) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  56.2    4e-09
+VFG012974(gb|NP_706451) (entA) 2,3-dihydro-2,3-dihydroxybenzoate ...  56.2    4e-09
+VFG012976(gb|WP_000347662) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  55.8    5e-09
+VFG012977(gb|WP_000347664) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  55.8    6e-09
+VFG048409(gb|WP_086074289) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  55.5    8e-09
+VFG050142(gb|WP_001100506) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  55.1    1e-08
+VFG049994(gb|WP_001048422) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  55.1    1e-08
+VFG030264(gb|WP_013988971) (sadH) SDR family NAD(P)-dependent oxi...  55.1    1e-08
+VFG049996(gb|WP_001100500) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  53.9    2e-08
+VFG050000(gb|WP_001100501) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  53.9    2e-08
+VFG049991(gb|WP_001100504) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  53.9    2e-08
+VFG030279(gb|YP_007959089) (sadH) short-chain type dehydrogenase/...  53.9    3e-08
+VFG030282(gb|YP_005361637) (sadH) short-chain type dehydrogenase/...  53.5    4e-08
+VFG030269(gb|WP_015303737) (sadH) SDR family NAD(P)-dependent oxi...  53.5    4e-08
+VFG048404(gb|WP_008805588) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  53.1    4e-08
+VFG030263(gb|WP_012054339) (sadH) SDR family NAD(P)-dependent oxi...  53.5    4e-08
+VFG030258(gb|NP_217601) (sadH) oxidoreductase SadH [MymA operon (...  53.5    4e-08
+VFG030274(gb|WP_015575276) (sadH) SDR family NAD(P)-dependent oxi...  53.5    4e-08
+VFG030268(gb|WP_015288451) (sadH) SDR family NAD(P)-dependent oxi...  53.1    5e-08
+VFG000934(gb|WP_000348393) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  53.1    5e-08
+VFG012978(gb|WP_000347634) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  52.4    8e-08
+VFG012973(gb|WP_000347670) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  52.0    1e-07
+VFG030266(gb|WP_014001574) (sadH) SDR family NAD(P)-dependent oxi...  52.0    1e-07
+VFG048408(gb|WP_012068428) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  51.6    1e-07
+VFG030270(gb|WP_015291172) (sadH) SDR family NAD(P)-dependent oxi...  51.2    2e-07
+VFG048402(gb|WP_014228362) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  49.7    6e-07
+VFG048401(gb|WP_014837779) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  49.3    9e-07
+VFG038841(gb|WP_005318273) (flmH) short chain dehydrogenase/reduc...  48.9    1e-06
+VFG050143(gb|WP_001972439) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  48.9    1e-06
+VFG038839(gb|WP_011707832) (flmH) short chain dehydrogenase/reduc...  47.4    3e-06
+
+
+>VFG038840(gb|WP_005300916) (flmH) short chain dehydrogenase/reductase 
+family oxidoreductase [Polar flagella (VF0473) - Motility 
+(VFC0204)] [Aeromonas hydrophila ML09-119]
+Length=244
+
+ Score = 60.5 bits (145),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 61/205 (30%), Positives = 89/205 (43%), Gaps = 18/205 (9%)
+
+Query  22   RVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQQLDL  81
+            +VV+VTGA+ GIG   A  FA RGA VV      E G    A  ++A  G       L++
+Sbjct  6    KVVLVTGASRGIGRAIAETFAARGAKVV-GTATSESG----AEAISAYLGEQGCGMALNV  60
+
+Query  82   CSLDSVRAAADALRTAYPRIDVLINNAGVMWTPKQVTKDGFELQFGTNHLGHFALTGLVL  141
+             S +S+ A   A++  +  ID+LINNAG       +T+D   ++   +       T L  
+Sbjct  61   TSQESIEAVFAAIKARFGDIDILINNAG-------ITRDNLLMRMKDDEWNEIIDTNLTS  113
+
+Query  142  DHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTYELQRRL  201
+             + L  P  R +     G  I        +    + N    Y  AK   + FT  L R +
+Sbjct  114  LYRLSKPVLRAMMKKRNGRIISIGSVVGTMGNAGQVN----YAAAKAGLVGFTKSLAREV  169
+
+Query  202  GEAGKSTIAVAAHPGGSNTELTRNL  226
+               G +  AVA  PG   T++T+ L
+Sbjct  170  ASRGITVNAVA--PGFIETDMTKAL  192
+
+
+>VFG050144(gb|WP_001048423) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus cereus AH187]
+Length=256
+
+ Score = 57.4 bits (137),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 57/208 (27%), Positives = 84/208 (40%), Gaps = 24/208 (12%)
+
+Query  21   GRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQQLD  80
+            G+ V+VTGA  GIG   A +F +RGA V+   +N E  N     I       H+    LD
+Sbjct  8    GKTVLVTGAAQGIGSVVAKMFLERGATVIAVDQNEEGLNELLNEI-------HLKTFCLD  60
+
+Query  81   LCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLGHFALTG  138
+            +    +V    + +      ID+L+N AGV  M     ++ + +   F  N  G F ++ 
+Sbjct  61   VSDSTAVEQMVNDIENEIAPIDILVNVAGVLRMGAIHSLSDEDWNKTFSVNSTGVFYMSR  120
+
+Query  139  LVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTYELQ  198
+             V  HM+      +VTV S                      +AAY  +K A  +F   L 
+Sbjct  121  AVSKHMMQRKSGAIVTVGSNAANTPRM-------------EMAAYVASKAATTMFMKCLG  167
+
+Query  199  RRLGEAGKSTIAVAAHPGGSNTELTRNL  226
+              L  A  +       PG + TE+ R L
+Sbjct  168  LEL--AAYNIRCNVVSPGSTETEMQRLL  193
+
+
+>VFG048405(gb|YP_005225749) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae HS11286]
+Length=251
+
+ Score = 56.2 bits (134),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 65/214 (30%), Positives = 90/214 (42%), Gaps = 35/214 (16%)
+
+Query  18   DQSGRVVVVTGANTGIGYHTAAVFADRGAHVV---LAVRNLEKGNAARARIMAARPGAHV  74
+            D  G+ V VTGA  GIGY TA  F + GA+V    LA                + P A  
+Sbjct  5    DFRGQTVWVTGAGKGIGYATALAFVEAGANVTGFDLAFDG------------ESYPFATE  52
+
+Query  75   TLQQLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLG  132
+            T   LD+   D VR A   L     R+DVL+N AG+  M    Q++ + ++  F  N  G
+Sbjct  53   T---LDVADADQVREACSRLLANTERLDVLVNAAGILRMGATDQLSAEDWQQTFAVNVGG  109
+
+Query  133  HFALTGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLL  192
+             F L    +       G  +VTV+S       A H   +        ++AYG +K A  L
+Sbjct  110  AFNLFQQTMAQFRRQRGGAIVTVASD------AAHTPRIG-------MSAYGASKAA--L  154
+
+Query  193  FTYELQRRLGEAGKSTIAVAAHPGGSNTELTRNL  226
+             +  L   L  AG         PG ++T++ R L
+Sbjct  155  KSLALTVGLELAGSGVRCNLVSPGSTDTDMQRTL  188
+
+
+>VFG048407(gb|WP_024622880) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae KCTC 2242]
+Length=248
+
+ Score = 56.2 bits (134),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 65/214 (30%), Positives = 90/214 (42%), Gaps = 35/214 (16%)
+
+Query  18   DQSGRVVVVTGANTGIGYHTAAVFADRGAHVV---LAVRNLEKGNAARARIMAARPGAHV  74
+            D  G+ V VTGA  GIGY TA  F + GA+V    LA                + P A  
+Sbjct  2    DFRGQTVWVTGAGKGIGYATALAFVEAGANVTGFDLAFDG------------ESYPFATE  49
+
+Query  75   TLQQLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLG  132
+            T   LD+   D VR A   L     R+DVL+N AG+  M    Q++ + ++  F  N  G
+Sbjct  50   T---LDVADADQVREACSRLLANTERLDVLVNAAGILRMGATDQLSAEDWQQTFAVNVGG  106
+
+Query  133  HFALTGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLL  192
+             F L    +       G  +VTV+S       A H   +        ++AYG +K A  L
+Sbjct  107  AFNLFQQTMAQFRRQRGGAIVTVASD------AAHTPRIG-------MSAYGASKAA--L  151
+
+Query  193  FTYELQRRLGEAGKSTIAVAAHPGGSNTELTRNL  226
+             +  L   L  AG         PG ++T++ R L
+Sbjct  152  KSLALTVGLELAGSGVRCNLVSPGSTDTDMQRTL  185
+
+
+>VFG012974(gb|NP_706451) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Enterobactin synthesis and transport (VF0984) 
+- Nutritional/Metabolic factor (VFC0272)] [Shigella flexneri 
+2a str. 301]
+Length=248
+
+ Score = 56.2 bits (134),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 63/211 (30%), Positives = 88/211 (42%), Gaps = 29/211 (14%)
+
+Query  18   DQSGRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQ  77
+            D SG+ V VTGA  GIGY TA  F + GA V             +A      P A    +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALTFVEAGAKVT---------GFDQAFTQEQYPFAT---E  49
+
+Query  78   QLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLGHFA  135
+             +D+     V      L     R+DVLIN AG+  M    Q++K+ ++  F  N  G F 
+Sbjct  50   VMDVADAGQVAQVCQRLLAETERLDVLINAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  136  LTGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTY  195
+            L    ++      G  +VTV+S     H A          R   ++AYG +K A  L + 
+Sbjct  110  LFQQTMNQFRRQRGGAIVTVASDAA--HTA----------RIG-MSAYGASKAA--LKSL  154
+
+Query  196  ELQRRLGEAGKSTIAVAAHPGGSNTELTRNL  226
+             L   L  AG         PG ++T++ R L
+Sbjct  155  ALSVGLELAGSGVRCNVVSPGSTDTDMQRTL  185
+
+
+>VFG012976(gb|WP_000347662) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin synthesis and transport 
+(VF0984) - Nutritional/Metabolic factor (VFC0272)] [Shigella 
+flexneri 5 str. 8401]
+Length=248
+
+ Score = 55.8 bits (133),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 63/211 (30%), Positives = 88/211 (42%), Gaps = 29/211 (14%)
+
+Query  18   DQSGRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQ  77
+            D SG+ V VTGA  GIGY TA  F + GA V             +A      P A    +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALAFVEAGAKVT---------GFDQAFTQEQYPFAT---E  49
+
+Query  78   QLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLGHFA  135
+             +D+     V      L     R+DVLIN AG+  M    Q++K+ ++  F  N  G F 
+Sbjct  50   VMDVADAGQVAQVCQRLLAETERLDVLINAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  136  LTGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTY  195
+            L    ++      G  +VTV+S     H A          R   ++AYG +K A  L + 
+Sbjct  110  LFQQTMNQFRRQRGGAIVTVASDAA--HTA----------RIG-MSAYGASKAA--LKSL  154
+
+Query  196  ELQRRLGEAGKSTIAVAAHPGGSNTELTRNL  226
+             L   L  AG         PG ++T++ R L
+Sbjct  155  ALSVGLELAGSGVRCNVVSPGSTDTDMQRTL  185
+
+
+>VFG012977(gb|WP_000347664) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin synthesis and transport 
+(VF0984) - Nutritional/Metabolic factor (VFC0272)] [Shigella 
+boydii Sb227]
+Length=248
+
+ Score = 55.8 bits (133),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 62/211 (29%), Positives = 88/211 (42%), Gaps = 29/211 (14%)
+
+Query  18   DQSGRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQ  77
+            D SG+ V VTGA  GIGY TA  F + GA V             +A      P A    +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALAFVEAGAKVT---------GFDQAFTQEQYPFAT---E  49
+
+Query  78   QLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLGHFA  135
+             +D+     V      L     R+DVLIN AG+  M    Q++K+ ++  F  N  G F 
+Sbjct  50   VMDVADAGQVAQVCQRLLAETERLDVLINAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  136  LTGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTY  195
+            L    ++      G  +VTV+S       A H   +        ++AYG +K A  L + 
+Sbjct  110  LFQQTMNQFRRQRGGAIVTVASD------AAHTPRI-------GMSAYGASKAA--LKSL  154
+
+Query  196  ELQRRLGEAGKSTIAVAAHPGGSNTELTRNL  226
+             L   L  AG         PG ++T++ R L
+Sbjct  155  ALSVGLELAGSGVRCNVVSPGSTDTDMQRTL  185
+
+
+>VFG048409(gb|WP_086074289) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=248
+
+ Score = 55.5 bits (132),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 65/214 (30%), Positives = 90/214 (42%), Gaps = 35/214 (16%)
+
+Query  18   DQSGRVVVVTGANTGIGYHTAAVFADRGAHVV---LAVRNLEKGNAARARIMAARPGAHV  74
+            D  G+ V VTGA  GIGY TA  F + GA+V    LA                + P A  
+Sbjct  2    DFHGQTVWVTGAGKGIGYATALAFVEAGANVTGFDLAFDG------------ESYPFATE  49
+
+Query  75   TLQQLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLG  132
+            T   LD+   D VR A   L     R+DVL+N AG+  M    Q++ + ++  F  N  G
+Sbjct  50   T---LDVADADQVREACSRLLANTERLDVLVNAAGILRMGATDQLSAEDWQQTFAVNVGG  106
+
+Query  133  HFALTGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLL  192
+             F L    +       G  +VTV+S       A H   +        ++AYG +K A  L
+Sbjct  107  AFNLFQQTMAQFRRQRGGAIVTVASD------AAHTPRIG-------MSAYGASKAA--L  151
+
+Query  193  FTYELQRRLGEAGKSTIAVAAHPGGSNTELTRNL  226
+             +  L   L  AG         PG ++T++ R L
+Sbjct  152  KSLALTVGLELAGCGVRCNLVSPGSTDTDMQRTL  185
+
+
+>VFG050142(gb|WP_001100506) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus cereus biovar anthracis str. 
+CI]
+Length=258
+
+ Score = 55.1 bits (131),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 42/146 (29%), Positives = 68/146 (47%), Gaps = 7/146 (5%)
+
+Query  15   DVPDQSGRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHV  74
+            +V +  G+ VVVTGA  GIG   A +F +RGA V+   +N E  N     ++  +    +
+Sbjct  2    NVGEFDGKTVVVTGAAQGIGSVVAKMFLERGATVIAVDQNGEGLN-----VLLNQNETRM  56
+
+Query  75   TLQQLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLG  132
+             +  LD+   ++V      +      ID+L+N AGV  M     ++ + +   F  N  G
+Sbjct  57   KIFHLDVSDSNAVEDTVKRIENDIAPIDILVNVAGVLRMGAIHSLSDEDWNKTFSVNSTG  116
+
+Query  133  HFALTGLVLDHMLPVPGSRVVTVSSQ  158
+             F ++  V  HM+      +VTV S 
+Sbjct  117  VFYMSRAVSKHMMQRKSGAIVTVGSN  142
+
+
+>VFG049994(gb|WP_001048422) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus cereus ATCC 10987]
+Length=256
+
+ Score = 55.1 bits (131),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 42/140 (30%), Positives = 63/140 (45%), Gaps = 9/140 (6%)
+
+Query  21   GRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQQLD  80
+            G+ V+VTGA  GIG   A +F +RGA V+   +N E  N     I       H+    LD
+Sbjct  8    GKTVLVTGAAQGIGSVVAKMFLERGATVIAVDQNEEGLNELLNEI-------HLKTFCLD  60
+
+Query  81   LCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLGHFALTG  138
+            +    +V    + +      ID+L+N AGV  M     ++ + +   F  N  G F ++ 
+Sbjct  61   VSDSTAVEQMVNDIENEIAPIDILVNVAGVLRMGAIHSLSDEDWNKTFSVNSTGVFYMSR  120
+
+Query  139  LVLDHMLPVPGSRVVTVSSQ  158
+             V  HM+      +VTV S 
+Sbjct  121  AVSKHMMQRKSGAIVTVGSN  140
+
+
+>VFG030264(gb|WP_013988971) (sadH) SDR family NAD(P)-dependent 
+oxidoreductase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium africanum GM041182]
+Length=276
+
+ Score = 55.1 bits (131),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 58/208 (28%), Positives = 93/208 (45%), Gaps = 19/208 (9%)
+
+Query  21   GRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQQLD  80
+            G+V V+TGA +GIG   A   +++ A   LA+ +++    A+   +A   GA V   +LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLSEKRAK--LALSDVDTDGLAKTVRLAQALGAQVKSDRLD  63
+
+Query  81   LCSLDSVRAAADALRTAYPRIDVLINNAGVMW---TPKQVTKDGFELQFGTNHLGHFALT  137
+            +   ++V A ADA+   +  +  + NNAG+ +     K   KD  E     +  G    T
+Sbjct  64   VAEREAVLAHADAVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  138  GLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTYEL  197
+               L H++          S  GH ++ +  F  +    +    +AY  AK A   FT  L
+Sbjct  123  KAFLPHVIA---------SGDGHIVNISSLFGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  198  QRRLGEAGKSTIAVAAHPGGSNTELTRN  225
+            ++ +  A        AHPGG  T + RN
+Sbjct  170  RQEMLVARHPVKVTCAHPGGIKTAVARN  197
+
+
+>VFG049996(gb|WP_001100500) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus cereus E33L]
+Length=258
+
+ Score = 53.9 bits (128),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 41/146 (28%), Positives = 68/146 (47%), Gaps = 7/146 (5%)
+
+Query  15   DVPDQSGRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHV  74
+            +V +  G+ V+VTGA  GIG   A +F +RGA V+   +N E  N     ++  +    +
+Sbjct  2    NVGEFDGKTVLVTGAAQGIGSVVAKMFLERGATVIAVDQNGEGLN-----VLLNQNETRM  56
+
+Query  75   TLQQLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLG  132
+             +  LD+   ++V      +      ID+L+N AGV  M     ++ + +   F  N  G
+Sbjct  57   KIFHLDVSDSNAVEDTVKRIENDIAPIDILVNVAGVLRMGAIHSLSDEDWNKTFSVNSTG  116
+
+Query  133  HFALTGLVLDHMLPVPGSRVVTVSSQ  158
+             F ++  V  HM+      +VTV S 
+Sbjct  117  VFYMSRAVSKHMMQRKSGAIVTVGSN  142
+
+
+>VFG050000(gb|WP_001100501) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus thuringiensis serovar konkukian 
+str. 97-27]
+Length=258
+
+ Score = 53.9 bits (128),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 41/146 (28%), Positives = 68/146 (47%), Gaps = 7/146 (5%)
+
+Query  15   DVPDQSGRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHV  74
+            +V +  G+ V+VTGA  GIG   A +F +RGA V+   +N E  N     ++  +    +
+Sbjct  2    NVGEFDGKTVLVTGAAQGIGSVVAKMFLERGATVIAVDQNGEGLN-----VLLNQNETRM  56
+
+Query  75   TLQQLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLG  132
+             +  LD+   ++V      +      ID+L+N AGV  M     ++ + +   F  N  G
+Sbjct  57   KIFHLDVSDSNAVEDTVKRIENDIAPIDILVNVAGVLRMGAIHSLSDEDWNKTFSVNSTG  116
+
+Query  133  HFALTGLVLDHMLPVPGSRVVTVSSQ  158
+             F ++  V  HM+      +VTV S 
+Sbjct  117  VFYMSRAVSKHMMQRKSGAIVTVGSN  142
+
+
+>VFG049991(gb|WP_001100504) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus anthracis str. Ames]
+Length=258
+
+ Score = 53.9 bits (128),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 41/146 (28%), Positives = 68/146 (47%), Gaps = 7/146 (5%)
+
+Query  15   DVPDQSGRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHV  74
+            +V +  G+ V+VTGA  GIG   A +F +RGA V+   +N E  N     ++  +    +
+Sbjct  2    NVGEFDGKTVLVTGAAQGIGSVVAKMFLERGATVIAVDQNGEGLN-----VLLNQNETRM  56
+
+Query  75   TLQQLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLG  132
+             +  LD+   ++V      +      ID+L+N AGV  M     ++ + +   F  N  G
+Sbjct  57   KIFHLDVSDSNAVEDTVKRIENDIAPIDILVNVAGVLRMGAIHSLSDEDWNKTFSVNSTG  116
+
+Query  133  HFALTGLVLDHMLPVPGSRVVTVSSQ  158
+             F ++  V  HM+      +VTV S 
+Sbjct  117  VFYMSRAVSKHMMQRKSGAIVTVGSN  142
+
+
+>VFG030279(gb|YP_007959089) (sadH) short-chain type dehydrogenase/reductase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=277
+
+ Score = 53.9 bits (128),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 57/209 (27%), Positives = 91/209 (44%), Gaps = 19/209 (9%)
+
+Query  20   SGRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQQL  79
+             G+V V+TGA +GIG   A   +++ A   LA+ +++    A+   +A   GA V   +L
+Sbjct  5    EGKVAVITGAGSGIGRALALNLSEKXAK--LALSDVDTDGLAKTVRLAQALGAQVKSDRL  62
+
+Query  80   DLCSLDSVRAAADALRTAYPRIDVLINNAGVMW---TPKQVTKDGFELQFGTNHLGHFAL  136
+            D+   ++V A ADA+   +  +  + NNAG+ +     K   KD  E     +  G    
+Sbjct  63   DVAEREAVLAHADAVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNG  121
+
+Query  137  TGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTYE  196
+            T   L H++          S  GH ++    F  +    +    +AY  AK A   FT  
+Sbjct  122  TKAFLPHVIA---------SGDGHIVNIXSLFGLIAVPGQ----SAYNAAKFAVRGFTEA  168
+
+Query  197  LQRRLGEAGKSTIAVAAHPGGSNTELTRN  225
+            L++ +  A         HPGG  T + RN
+Sbjct  169  LRQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG030282(gb|YP_005361637) (sadH) short-chain type dehydrogenase/reductase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis RGTB327]
+Length=279
+
+ Score = 53.5 bits (127),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 57/209 (27%), Positives = 92/209 (44%), Gaps = 19/209 (9%)
+
+Query  20   SGRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQQL  79
+             G+V V+TGA +GIG   A   +++ A   LA+ +++    A+   +A   GA V   +L
+Sbjct  5    EGKVAVITGAGSGIGRALALNLSEKRAK--LALSDVDTDGLAKTVRLAQALGAQVKSDRL  62
+
+Query  80   DLCSLDSVRAAADALRTAYPRIDVLINNAGVMW---TPKQVTKDGFELQFGTNHLGHFAL  136
+            D+   ++V A ADA+   +  +  + NNAG+ +     K   KD  E     +  G    
+Sbjct  63   DVAEREAVLAHADAVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNG  121
+
+Query  137  TGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTYE  196
+            T   L H++          S  GH ++ +  F  +    +    +AY  AK A   FT  
+Sbjct  122  TKAFLPHVIA---------SGDGHIVNISSLFGLIAVPGQ----SAYNAAKFAVRGFTEA  168
+
+Query  197  LQRRLGEAGKSTIAVAAHPGGSNTELTRN  225
+            L++ +  A         HPGG  T + RN
+Sbjct  169  LRQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG030269(gb|WP_015303737) (sadH) SDR family NAD(P)-dependent 
+oxidoreductase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070008]
+Length=276
+
+ Score = 53.5 bits (127),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 57/208 (27%), Positives = 92/208 (44%), Gaps = 19/208 (9%)
+
+Query  21   GRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQQLD  80
+            G+V V+TGA +GIG   A   +++ A   LA+ +++    A+   +A   GA V   +LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLSEKRAK--LALSDVDTDGLAKTVRLAQALGAQVKSDRLD  63
+
+Query  81   LCSLDSVRAAADALRTAYPRIDVLINNAGVMW---TPKQVTKDGFELQFGTNHLGHFALT  137
+            +   ++V A ADA+   +  +  + NNAG+ +     K   KD  E     +  G    T
+Sbjct  64   VAEREAVLAHADAVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  138  GLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTYEL  197
+               L H++          S  GH ++ +  F  +    +    +AY  AK A   FT  L
+Sbjct  123  KAFLPHVIA---------SGDGHIVNISSLFGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  198  QRRLGEAGKSTIAVAAHPGGSNTELTRN  225
+            ++ +  A         HPGG  T + RN
+Sbjct  170  RQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG048404(gb|WP_008805588) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae 342]
+Length=251
+
+ Score = 53.1 bits (126),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 60/211 (28%), Positives = 86/211 (41%), Gaps = 29/211 (14%)
+
+Query  18   DQSGRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQ  77
+            D  G+ V VTGA  GIGY TA  F + GA+V                +  A  G     +
+Sbjct  5    DFHGQTVWVTGAGKGIGYATALAFVEAGANVT------------GFDLAFAGAGYPFATE  52
+
+Query  78   QLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLGHFA  135
+             LD+     VR     L     R+DVL+N AG+  M    Q++ + ++  F  N  G F 
+Sbjct  53   TLDVADAGQVRDVCARLLNNIERLDVLVNAAGILRMGATDQLSAEDWQQTFAVNVGGAFN  112
+
+Query  136  LTGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTY  195
+            L    +       G  +VTV+S       A H   +        ++AYG +K A  L + 
+Sbjct  113  LFQQTMAQFRRQRGGAIVTVASD------AAHTPRIG-------MSAYGASKAA--LKSL  157
+
+Query  196  ELQRRLGEAGKSTIAVAAHPGGSNTELTRNL  226
+             L   L  AG         PG ++T++ R L
+Sbjct  158  ALTVGLELAGSGVRCNLVSPGSTDTDMQRTL  188
+
+
+>VFG030263(gb|WP_012054339) (sadH) SDR family NAD(P)-dependent 
+oxidoreductase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis F11]
+Length=276
+
+ Score = 53.5 bits (127),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 57/208 (27%), Positives = 92/208 (44%), Gaps = 19/208 (9%)
+
+Query  21   GRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQQLD  80
+            G+V V+TGA +GIG   A   +++ A   LA+ +++    A+   +A   GA V   +LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLSEKRAK--LALSDVDTDGLAKTVRLAQALGAQVKSDRLD  63
+
+Query  81   LCSLDSVRAAADALRTAYPRIDVLINNAGVMW---TPKQVTKDGFELQFGTNHLGHFALT  137
+            +   ++V A ADA+   +  +  + NNAG+ +     K   KD  E     +  G    T
+Sbjct  64   VAEREAVLAHADAVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  138  GLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTYEL  197
+               L H++          S  GH ++ +  F  +    +    +AY  AK A   FT  L
+Sbjct  123  KAFLPHVIA---------SGDGHIVNISSLFGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  198  QRRLGEAGKSTIAVAAHPGGSNTELTRN  225
+            ++ +  A         HPGG  T + RN
+Sbjct  170  RQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG030258(gb|NP_217601) (sadH) oxidoreductase SadH [MymA operon 
+(VF0840) - Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+H37Rv]
+Length=276
+
+ Score = 53.5 bits (127),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 57/208 (27%), Positives = 92/208 (44%), Gaps = 19/208 (9%)
+
+Query  21   GRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQQLD  80
+            G+V V+TGA +GIG   A   +++ A   LA+ +++    A+   +A   GA V   +LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLSEKRAK--LALSDVDTDGLAKTVRLAQALGAQVKSDRLD  63
+
+Query  81   LCSLDSVRAAADALRTAYPRIDVLINNAGVMW---TPKQVTKDGFELQFGTNHLGHFALT  137
+            +   ++V A ADA+   +  +  + NNAG+ +     K   KD  E     +  G    T
+Sbjct  64   VAEREAVLAHADAVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  138  GLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTYEL  197
+               L H++          S  GH ++ +  F  +    +    +AY  AK A   FT  L
+Sbjct  123  KAFLPHVIA---------SGDGHIVNISSLFGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  198  QRRLGEAGKSTIAVAAHPGGSNTELTRN  225
+            ++ +  A         HPGG  T + RN
+Sbjct  170  RQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG030274(gb|WP_015575276) (sadH) SDR family NAD(P)-dependent 
+oxidoreductase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis str. Beijing/NITR203]
+Length=276
+
+ Score = 53.5 bits (127),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 57/208 (27%), Positives = 92/208 (44%), Gaps = 19/208 (9%)
+
+Query  21   GRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQQLD  80
+            G+V V+TGA +GIG   A   +++ A   LA+ +++    A+   +A   GA V   +LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLSEKRAK--LALSDVDTDGLAKTVRLAQALGAQVKSDRLD  63
+
+Query  81   LCSLDSVRAAADALRTAYPRIDVLINNAGVMW---TPKQVTKDGFELQFGTNHLGHFALT  137
+            +   ++V A ADA+   +  +  + NNAG+ +     K   KD  E     +  G    T
+Sbjct  64   VAEREAVLAHADAVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  138  GLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTYEL  197
+               L H++          S  GH ++ +  F  +    +    +AY  AK A   FT  L
+Sbjct  123  KAFLPHVIA---------SGDGHIVNISSLFGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  198  QRRLGEAGKSTIAVAAHPGGSNTELTRN  225
+            ++ +  A         HPGG  T + RN
+Sbjct  170  RQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG030268(gb|WP_015288451) (sadH) SDR family NAD(P)-dependent 
+oxidoreductase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140060008]
+Length=276
+
+ Score = 53.1 bits (126),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 57/208 (27%), Positives = 92/208 (44%), Gaps = 19/208 (9%)
+
+Query  21   GRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQQLD  80
+            G+V V+TGA +GIG   A   +++ A   LA+ +++    A+   +A   GA V   +LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLSEKRAK--LALSDVDTDGLAKTVRLAQALGAQVKSDRLD  63
+
+Query  81   LCSLDSVRAAADALRTAYPRIDVLINNAGVMW---TPKQVTKDGFELQFGTNHLGHFALT  137
+            +   ++V A ADA+   +  +  + NNAG+ +     K   KD  E     +  G    T
+Sbjct  64   VAEREAVLAHADAVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  138  GLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTYEL  197
+               L H++          S  GH ++ +  F  +    +    +AY  AK A   FT  L
+Sbjct  123  KAFLPHVIA---------SGDGHIVNISSLFGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  198  QRRLGEAGKSTIAVAAHPGGSNTELTRN  225
+            ++ +  A         HPGG  T + RN
+Sbjct  170  RQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG000934(gb|WP_000348393) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin (VF0228) - Nutritional/Metabolic 
+factor (VFC0272)] [Escherichia coli CFT073]
+Length=248
+
+ Score = 53.1 bits (126),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 60/211 (28%), Positives = 87/211 (41%), Gaps = 29/211 (14%)
+
+Query  18   DQSGRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQ  77
+            D  G+ V VTGA  GIGY TA  F + GA V             +A      P A    +
+Sbjct  2    DFXGKNVWVTGAGKGIGYATAMAFVEAGAKVT---------GFDQAFTQEQYPFAT---E  49
+
+Query  78   QLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLGHFA  135
+             +D+     V      L     R+DVL+N AG+  M    Q++K+ ++  F  N  G F 
+Sbjct  50   VMDVADAAQVAQVCQRLLAETERLDVLVNAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  136  LTGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTY  195
+            L    ++      G  +VTV+S       A H   +        ++AYG +K A  L + 
+Sbjct  110  LFQQTMNQFRHQRGGAIVTVASD------AAHTPRI-------GMSAYGASKAA--LKSL  154
+
+Query  196  ELQRRLGEAGKSTIAVAAHPGGSNTELTRNL  226
+             L   L  AG         PG ++T++ R L
+Sbjct  155  ALSVGLELAGSGVRCNVVSPGSTDTDMQRTL  185
+
+
+>VFG012978(gb|WP_000347634) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin synthesis and transport 
+(VF0984) - Nutritional/Metabolic factor (VFC0272)] [Shigella 
+sonnei Ss046]
+Length=248
+
+ Score = 52.4 bits (124),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 58/211 (27%), Positives = 88/211 (42%), Gaps = 29/211 (14%)
+
+Query  18   DQSGRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQ  77
+            D SG+ V VTGA  GIGY TA  F + GA V       ++  A      A         +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALAFVEAGAKVT----GFDQAFAQEQYPFAT--------E  49
+
+Query  78   QLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLGHFA  135
+             +D+     V      L     R+DVL+N AG+  M    Q++K+ ++  F  N  G F 
+Sbjct  50   VMDVADAAQVAQVCQRLLAETERLDVLVNAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  136  LTGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTY  195
+            L    ++      G  +VTV+S       A H   +        ++AYG +K A      
+Sbjct  110  LFQQTMNQFRRQRGGAIVTVASD------AAHTPRI-------GMSAYGASKAALKSLAL  156
+
+Query  196  ELQRRLGEAGKSTIAVAAHPGGSNTELTRNL  226
+             +   L  +G     V+  PG ++T++ R L
+Sbjct  157  SVGLELAVSGVRCNVVS--PGSTDTDMQRTL  185
+
+
+>VFG012973(gb|WP_000347670) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin synthesis and transport 
+(VF0984) - Nutritional/Metabolic factor (VFC0272)] [Shigella 
+dysenteriae Sd197]
+Length=248
+
+ Score = 52.0 bits (123),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 60/211 (28%), Positives = 86/211 (41%), Gaps = 29/211 (14%)
+
+Query  18   DQSGRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQ  77
+            D SG+ V VTGA  GIGY TA  F   GA V             +A      P A    +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALAFVKAGAKVT---------GFDQAFTQEQYPFAT---E  49
+
+Query  78   QLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLGHFA  135
+             +D+     V      L     R+D L+N AG+  M    Q++K+ ++  F  N  G F 
+Sbjct  50   VMDVADAAQVAQVCQRLLAETERLDALVNAAGILRMGATDQLSKEDWQQTFAVNVGGAFN  109
+
+Query  136  LTGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTY  195
+            L    ++      G  +VTV+S       A H   +        ++AYG +K A  L + 
+Sbjct  110  LFQQTMNQFRRQRGGAIVTVASD------AAHTPRI-------GMSAYGASKAA--LKSL  154
+
+Query  196  ELQRRLGEAGKSTIAVAAHPGGSNTELTRNL  226
+             L   L  AG         PG ++T++ R L
+Sbjct  155  ALSVGLELAGSGVRCNVVSPGSTDTDMQRTL  185
+
+
+>VFG030266(gb|WP_014001574) (sadH) SDR family NAD(P)-dependent 
+oxidoreductase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140010059]
+Length=276
+
+ Score = 52.0 bits (123),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 56/208 (27%), Positives = 91/208 (44%), Gaps = 19/208 (9%)
+
+Query  21   GRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQQLD  80
+            G+V V+TGA +GIG   A   +++ A   LA+ +++    A+   +A   GA V   +LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLSEKRAK--LALSDVDTDGLAKTARLAQALGAQVKSDRLD  63
+
+Query  81   LCSLDSVRAAADALRTAYPRIDVLINNAGVMW---TPKQVTKDGFELQFGTNHLGHFALT  137
+            +   ++V A AD +   +  +  + NNAG+ +     K   KD  E     +  G    T
+Sbjct  64   VAEREAVLAHADTVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  138  GLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTYEL  197
+               L H++          S  GH ++ +  F  +    +    +AY  AK A   FT  L
+Sbjct  123  KAFLPHVIA---------SGDGHIVNISSLFGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  198  QRRLGEAGKSTIAVAAHPGGSNTELTRN  225
+            ++ +  A         HPGG  T + RN
+Sbjct  170  RQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG048408(gb|WP_012068428) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae MGH 78578]
+Length=251
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 61/214 (29%), Positives = 86/214 (40%), Gaps = 35/214 (16%)
+
+Query  18   DQSGRVVVVTGANTGIGYHTAAVFADRGAHVV---LAVRNLEKGNAARARIMAARPGAHV  74
+            D  G+ V VTGA  GIGY TA  F + GA+V    LA                   G   
+Sbjct  5    DFHGQTVWVTGAGKGIGYATALAFVEAGANVTGFDLAFDG---------------EGYPF  49
+
+Query  75   TLQQLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLG  132
+              + LD+     VR     L     R+DVL+N AG+  M    Q++ + ++  F  N  G
+Sbjct  50   ATETLDVADAGQVRDVCARLLNNIERLDVLVNAAGILRMGATDQLSAEDWQQTFAVNVGG  109
+
+Query  133  HFALTGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLL  192
+             F L    +       G  +VTV+S       A H   +        ++AYG +K A  L
+Sbjct  110  AFNLFQQTMAQFRRQRGGAIVTVASD------AAHTPRIG-------MSAYGASKAA--L  154
+
+Query  193  FTYELQRRLGEAGKSTIAVAAHPGGSNTELTRNL  226
+             +  L   L  AG         PG ++T++ R L
+Sbjct  155  KSLALTVGLELAGSGVRCNLVSPGSTDTDMQRTL  188
+
+
+>VFG030270(gb|WP_015291172) (sadH) SDR family NAD(P)-dependent 
+oxidoreductase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=276
+
+ Score = 51.2 bits (121),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 56/208 (27%), Positives = 90/208 (43%), Gaps = 19/208 (9%)
+
+Query  21   GRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAHVTLQQLD  80
+            G+V V+TGA +GIG   A   A++ A   LA+ +++    A    +A   GA V   +LD
+Sbjct  6    GKVAVITGAGSGIGRALALNLAEKRAK--LALSDVDTDGLAETARLAQALGAQVKSDRLD  63
+
+Query  81   LCSLDSVRAAADALRTAYPRIDVLINNAGVMW---TPKQVTKDGFELQFGTNHLGHFALT  137
+            +   ++V + AD +   +  +  + NNAG+ +     K   KD  E     +  G    T
+Sbjct  64   VAEREAVLSYADTVVAHFGTVHQVYNNAGIAYNGNVDKSEFKD-IERIIDVDFWGVVNGT  122
+
+Query  138  GLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTYEL  197
+               L H++          S  GH ++ +  F  +    +    +AY  AK A   FT  L
+Sbjct  123  KAFLPHVIA---------SGDGHIVNISSLFGLIAVPGQ----SAYNAAKFAVRGFTEAL  169
+
+Query  198  QRRLGEAGKSTIAVAAHPGGSNTELTRN  225
+            ++ +  A         HPGG  T + RN
+Sbjct  170  RQEMLVARHPVKVTCVHPGGIKTAVARN  197
+
+
+>VFG048402(gb|WP_014228362) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella oxytoca KCTC 1686]
+Length=251
+
+ Score = 49.7 bits (117),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 61/214 (29%), Positives = 86/214 (40%), Gaps = 35/214 (16%)
+
+Query  18   DQSGRVVVVTGANTGIGYHTAAVFADRGAHVV---LAVRNLEKGNAARARIMAARPGAHV  74
+            D  GR V +TGA  GIGY TA  F + GA V    LA                + P A  
+Sbjct  5    DFHGRTVWITGAGKGIGYATALAFVEAGAQVTGFDLAFDG------------ESYPFATE  52
+
+Query  75   TLQQLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLG  132
+            T   LD+     V      L     R+DVL+N AG+  M     ++++ ++  F  N  G
+Sbjct  53   T---LDVADAQQVAQTCGRLLAGIARLDVLVNAAGILRMGATDALSQEDWQQTFAVNVGG  109
+
+Query  133  HFALTGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLL  192
+             F L    +       G  +VTV+S       A H   +        ++AYG +K A  L
+Sbjct  110  AFNLFQQTMGQFRRQKGGAIVTVASD------AAHTPRI-------GMSAYGASKAA--L  154
+
+Query  193  FTYELQRRLGEAGKSTIAVAAHPGGSNTELTRNL  226
+             +  L   L  AG         PG ++T++ R L
+Sbjct  155  KSLALTVGLELAGSGVRCNLVSPGSTDTDMQRTL  188
+
+
+>VFG048401(gb|WP_014837779) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella oxytoca E718]
+Length=251
+
+ Score = 49.3 bits (116),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 61/214 (29%), Positives = 86/214 (40%), Gaps = 35/214 (16%)
+
+Query  18   DQSGRVVVVTGANTGIGYHTAAVFADRGAHVV---LAVRNLEKGNAARARIMAARPGAHV  74
+            D  GR V +TGA  GIGY TA  F + GA V    LA                + P A  
+Sbjct  5    DFHGRTVWITGAGKGIGYATALAFVEAGAQVTGFDLAFDG------------ESYPFATE  52
+
+Query  75   TLQQLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHLG  132
+            T   LD+     V      L     R+DVL+N AG+  M     ++++ ++  F  N  G
+Sbjct  53   T---LDVADAQQVAQTCGRLLAGIARLDVLVNAAGILRMGATDALSQEDWQQTFAVNVGG  109
+
+Query  133  HFALTGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLL  192
+             F L    +       G  +VTV+S       A H   +        ++AYG +K A  L
+Sbjct  110  AFNLFQQTMAQFRRQKGGAIVTVASD------AAHTPRI-------GMSAYGASKAA--L  154
+
+Query  193  FTYELQRRLGEAGKSTIAVAAHPGGSNTELTRNL  226
+             +  L   L  AG         PG ++T++ R L
+Sbjct  155  KSLALTVGLELAGSGVRCNLVSPGSTDTDMQRTL  188
+
+
+>VFG038841(gb|WP_005318273) (flmH) short chain dehydrogenase/reductase 
+family oxidoreductase [Polar flagella (VF0473) - Motility 
+(VFC0204)] [Aeromonas salmonicida subsp. salmonicida 
+A449]
+Length=249
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 68/259 (26%), Positives = 112/259 (43%), Gaps = 28/259 (11%)
+
+Query  21   GRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARIMAARPGAH--VTLQQ  78
+            G+ V++TGA  GIG   A  FA +GA + L  R+     AA ++ +AA  GA   VT Q 
+Sbjct  7    GKRVLITGAGRGIGLAIARQFAAQGAELWLGGRD----EAAMSQ-LAAALGAEFGVTCQP  61
+
+Query  79   L--DLCSLDSVRAAADALRTAYPRIDVLINNAGVMWTP--KQVTKDGFELQFGTNHLGHF  134
+            L  D+    +V+ A   L     ++DVL+NNAG++       V +   E  F  N     
+Sbjct  62   LCFDVAEPQAVKQAFQQLFAQTRQLDVLVNNAGILEEGLLGMVNQAQLEQTFSHNAFSVV  121
+
+Query  135  ALTGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFT  194
+              +      M    G  ++ ++S   R+ AA              +++Y  +K A +  T
+Sbjct  122  YCSQYAARLMQRSGGGSIINLASLMGRVGAA-------------GLSSYAGSKAAVIGIT  168
+
+Query  195  YELQRRLGEAGKSTIAVAAHPGGSNTELTRNLP--RLIRPVATVLGPLLFQSPEMGALPT  252
+              L + L  +     A+A  PG  +TE+ R +P  +    +A++    +    E+  +  
+Sbjct  169  QSLAKELATSQIRVNAIA--PGFIDTEMARAIPDQKFAERLASIAMGRIGTPDEVAKVAL  226
+
+Query  253  LRAATDPTTQGGQYYGPDG  271
+              A+   +   GQ  G DG
+Sbjct  227  FLASDLSSYVTGQVIGVDG  245
+
+
+>VFG050143(gb|WP_001972439) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus cereus G9241]
+Length=261
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 41/147 (28%), Positives = 65/147 (44%), Gaps = 18/147 (12%)
+
+Query  21   GRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRN-------LEKGNAARARIMAARPGAH  73
+            G+ V+VTGA  GIG   A +F +RGA V+   +N       L++    + R+   R    
+Sbjct  8    GKTVLVTGAAQGIGSVVAKMFLERGATVIAVDQNEEGLQVLLKQNELNKTRMKTFR----  63
+
+Query  74   VTLQQLDLCSLDSVRAAADALRTAYPRIDVLINNAGV--MWTPKQVTKDGFELQFGTNHL  131
+                 LD+    +V    + +      ID+L+N AGV  M     ++ + +   F  N  
+Sbjct  64   -----LDVSDSAAVEDMINHIANEIAPIDILVNVAGVLRMGAIHSLSDEDWNKTFSVNST  118
+
+Query  132  GHFALTGLVLDHMLPVPGSRVVTVSSQ  158
+            G F ++  V  HM+      +VTV S 
+Sbjct  119  GVFYMSRAVSKHMMQRKSGAIVTVGSN  145
+
+
+>VFG038839(gb|WP_011707832) (flmH) short chain dehydrogenase/reductase 
+family oxidoreductase [Polar flagella (VF0473) - Motility 
+(VFC0204)] [Aeromonas hydrophila subsp. hydrophila ATCC 
+7966]
+Length=249
+
+ Score = 47.4 bits (111),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 63/258 (24%), Positives = 108/258 (42%), Gaps = 26/258 (10%)
+
+Query  21   GRVVVVTGANTGIGYHTAAVFADRGAHVVLAVRNLEKGNAARARI---MAARPGAHVTLQ  77
+            G+ V++TGA  GIG   A +FA +GA + LA R+     AA +R+   + A  G      
+Sbjct  7    GKRVLITGAGRGIGLAIARLFAAQGAELWLAGRD----EAALSRLADELGAEFGVPCHYL  62
+
+Query  78   QLDLCSLDSVRAAADALRTAYPRIDVLINNAGVMWTP--KQVTKDGFELQFGTNHLGHFA  135
+             +D+    +V+ A   L     ++DVL+NNAG++       V +   E  F  N      
+Sbjct  63   CVDVAQPQAVKQAFQQLFAQTRQLDVLVNNAGILEEGLLGMVNQAQLEQTFSHNTFSVVY  122
+
+Query  136  LTGLVLDHMLPVPGSRVVTVSSQGHRIHAAIHFDDLQWERRYNRVAAYGQAKLANLLFTY  195
+             +      M    G  ++ ++S   R+ AA              + +Y  +K A +  T 
+Sbjct  123  CSQYTARLMQRSGGGSIINLASLMGRVGAA-------------GLCSYAGSKAAVIGITQ  169
+
+Query  196  ELQRRLGEAGKSTIAVAAHPGGSNTELTRNLP--RLIRPVATVLGPLLFQSPEMGALPTL  253
+             L + L  +     A+A  PG  +TE+   +P  +    +A++    +    E+  +   
+Sbjct  170  SLAKELAASRIRVNAIA--PGFIDTEMAHAIPDDKFAERLASIAMGRIGTPDEVAKVALF  227
+
+Query  254  RAATDPTTQGGQYYGPDG  271
+             A+   +   GQ  G DG
+Sbjct  228  LASDLASYVTGQVIGVDG  245
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2215538613
+
+
+Query= g2236.t1
+
+Length=317
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011619(gb|WP_004688790) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoa...  72.8    1e-14
+VFG019276(gb|WP_006073147) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoa...  72.8    1e-14
+VFG011616(gb|WP_004681144) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoa...  70.5    5e-14
+VFG011617(gb|WP_002966566) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoa...  70.5    6e-14
+VFG012974(gb|NP_706451) (entA) 2,3-dihydro-2,3-dihydroxybenzoate ...  61.6    5e-11
+VFG044369(gb|WP_013318793) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoa...  61.6    6e-11
+VFG012976(gb|WP_000347662) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  61.6    7e-11
+VFG012977(gb|WP_000347664) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  60.5    2e-10
+VFG000934(gb|WP_000348393) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  60.1    2e-10
+VFG012973(gb|WP_000347670) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  59.7    2e-10
+VFG038839(gb|WP_011707832) (flmH) short chain dehydrogenase/reduc...  58.9    5e-10
+VFG038841(gb|WP_005318273) (flmH) short chain dehydrogenase/reduc...  57.4    2e-09
+VFG012978(gb|WP_000347634) (entA) 2,3-dihydro-2,3-dihydroxybenzoa...  57.4    2e-09
+VFG050144(gb|WP_001048423) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  55.5    7e-09
+VFG005765(gb|WP_000861303) (cylG) 3-ketoacyl-ACP-reductase CylG [...  53.9    2e-08
+VFG048409(gb|WP_086074289) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  52.8    6e-08
+VFG048407(gb|WP_024622880) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  51.6    1e-07
+VFG048405(gb|YP_005225749) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  51.2    2e-07
+VFG038840(gb|WP_005300916) (flmH) short chain dehydrogenase/reduc...  50.8    2e-07
+VFG007210(gb|WP_011081751) (vibA) 2,3-dihydro-2,3-dihydroxybenzoa...  50.4    3e-07
+VFG048408(gb|WP_012068428) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  50.1    5e-07
+VFG048401(gb|WP_014837779) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  49.7    7e-07
+VFG048402(gb|WP_014228362) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  49.3    8e-07
+VFG048404(gb|WP_008805588) (entA) 2,3-dihydroxybenzoate-2,3-dehyd...  49.3    8e-07
+VFG026114(gb|WP_082194386) (wcbP) capsular polysaccharide biosynt...  49.3    9e-07
+VFG049999(gb|NP_391080) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrog...  48.5    2e-06
+VFG050142(gb|WP_001100506) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  46.6    7e-06
+VFG049994(gb|WP_001048422) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  46.2    1e-05
+
+
+>VFG011619(gb|WP_004688790) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Brucebactin (VF0692) - Nutritional/Metabolic 
+factor (VFC0272)] [Brucella suis 1330]
+Length=258
+
+ Score = 72.8 bits (177),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 63/206 (31%), Positives = 101/206 (49%), Gaps = 29/206 (14%)
+
+Query  12   LSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIKA  71
+             +GK  I+TGA  G+G  +A R  A GA VI    +R  GEA          DA   +  
+Sbjct  13   FAGKRVIVTGAAQGIGRRVAERFLAEGATVIGL--DRQAGEA----------DAPFRLIR  60
+
+Query  72   LDLSSLASVAALGEQLMADGRPIDLLINNAGVMT--PPERVTTADGFELQFGSNHLGHFA  129
+            LD++  A V A+ + L A+G+P+D+L+N AGV+     +R++  D ++     N  G F 
+Sbjct  61   LDITDAAEVRAVSDGLKAEGKPLDILVNVAGVLKLGNSDRLSAED-WKTCMDVNASGPFH  119
+
+Query  130  LTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFARE  189
+            L +  +P+ R  +   +V+++S AA   R++            M AY  SK A+  F+  
+Sbjct  120  LLSQWVPVFRDQRHGAIVNVASNAAHVPRLN------------MAAYCASKAALASFSHC  167
+
+Query  190  LDRRSRAAGWGIISNAAHPGLTKTNL  215
+            +      A +G+  N   PG T+T +
+Sbjct  168  V--ALELAPYGVRCNVVSPGSTRTAM  191
+
+
+>VFG019276(gb|WP_006073147) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Brucebactin (VF0692) - Nutritional/Metabolic 
+factor (VFC0272)] [Brucella suis ATCC 23445]
+Length=258
+
+ Score = 72.8 bits (177),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 63/206 (31%), Positives = 101/206 (49%), Gaps = 29/206 (14%)
+
+Query  12   LSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIKA  71
+             +GK  I+TGA  G+G  +A R  A GA VI    +R  GEA          DA   +  
+Sbjct  13   FAGKRVIVTGAAQGIGRRVAERFLAEGATVIGL--DRQAGEA----------DAPFRLIR  60
+
+Query  72   LDLSSLASVAALGEQLMADGRPIDLLINNAGVMT--PPERVTTADGFELQFGSNHLGHFA  129
+            LD++  A V A+ + L A+G+P+D+L+N AGV+     +R++  D ++     N  G F 
+Sbjct  61   LDITDAAEVRAVSDGLKAEGKPLDILVNVAGVLKLGNTDRLSAED-WKTCMDVNASGPFH  119
+
+Query  130  LTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFARE  189
+            L +  +P+ R  +   +V+++S AA   R++            M AY  SK A+  F+  
+Sbjct  120  LLSQWVPVFRDQRHGAIVNVASNAAHVPRLN------------MAAYCASKAALASFSHC  167
+
+Query  190  LDRRSRAAGWGIISNAAHPGLTKTNL  215
+            +      A +G+  N   PG T+T +
+Sbjct  168  V--ALELAPYGVRCNVVSPGSTRTAM  191
+
+
+>VFG011616(gb|WP_004681144) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Brucebactin (VF0692) - Nutritional/Metabolic 
+factor (VFC0272)] [Brucella melitensis bv. 1 str. 16M]
+Length=258
+
+ Score = 70.5 bits (171),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 62/206 (30%), Positives = 100/206 (49%), Gaps = 29/206 (14%)
+
+Query  12   LSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIKA  71
+             +GK  I+TGA  G+G  +A    A GA VI    +R  GEA          DA   +  
+Sbjct  13   FAGKRVIVTGAAQGIGRRVAEHFLAEGATVIGL--DRQAGEA----------DAPFRLIR  60
+
+Query  72   LDLSSLASVAALGEQLMADGRPIDLLINNAGVMT--PPERVTTADGFELQFGSNHLGHFA  129
+            LD++  A V A+ + L A+G+P+D+L+N AGV+     +R++  D ++     N  G F 
+Sbjct  61   LDITDAAEVRAVSDGLKAEGKPLDILVNVAGVLKLGNSDRLSAED-WKTCMDVNASGPFH  119
+
+Query  130  LTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFARE  189
+            L +  +P+ R  +   +V+++S AA   R++            M AY  SK A+  F+  
+Sbjct  120  LLSQWVPVFRDQRHGAIVNVASNAAHVPRLN------------MAAYCASKAALASFSHC  167
+
+Query  190  LDRRSRAAGWGIISNAAHPGLTKTNL  215
+            +      A +G+  N   PG T+T +
+Sbjct  168  V--ALELAPYGVRCNVVSPGSTRTAM  191
+
+
+>VFG011617(gb|WP_002966566) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Brucebactin (VF0692) - Nutritional/Metabolic 
+factor (VFC0272)] [Brucella melitensis biovar Abortus 
+2308]
+Length=258
+
+ Score = 70.5 bits (171),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 62/206 (30%), Positives = 100/206 (49%), Gaps = 29/206 (14%)
+
+Query  12   LSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIKA  71
+             +GK  I+TGA  G+G  +A    A GA VI    +R  GEA          DA   +  
+Sbjct  13   FAGKRVIVTGAAQGIGRRVAEHFLAEGATVIGL--DRQAGEA----------DAPFRLIR  60
+
+Query  72   LDLSSLASVAALGEQLMADGRPIDLLINNAGVMT--PPERVTTADGFELQFGSNHLGHFA  129
+            LD++  A V A+ + L A+G+P+D+L+N AGV+     +R++  D ++     N  G F 
+Sbjct  61   LDITDAAEVRAVSDGLKAEGKPLDILVNVAGVLKLGNSDRLSAED-WKTCMDVNASGPFH  119
+
+Query  130  LTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFARE  189
+            L +  +P+ R  +   +V+++S AA   R++            M AY  SK A+  F+  
+Sbjct  120  LLSQWVPVFRDQRHGAIVNVASNAAHVPRLN------------MAAYCASKAALASFSHC  167
+
+Query  190  LDRRSRAAGWGIISNAAHPGLTKTNL  215
+            +      A +G+  N   PG T+T +
+Sbjct  168  V--ALELAPYGVRCNVVSPGSTRTAM  191
+
+
+>VFG012974(gb|NP_706451) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Enterobactin synthesis and transport (VF0984) 
+- Nutritional/Metabolic factor (VFC0272)] [Shigella flexneri 
+2a str. 301]
+Length=248
+
+ Score = 61.6 bits (148),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 59/208 (28%), Positives = 93/208 (45%), Gaps = 29/208 (14%)
+
+Query  11   DLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIK  70
+            D SGK   +TGA  G+G+  A     AGA V          +A  +E            +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALTFVEAGAKVT------GFDQAFTQE------QYPFATE  49
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGV--MTPPERVTTADGFELQFGSNHLGHF  128
+             +D++    VA + ++L+A+   +D+LIN AG+  M   ++++  D ++  F  N  G F
+Sbjct  50   VMDVADAGQVAQVCQRLLAETERLDVLINAAGILRMGATDQLSKED-WQQTFAVNVGGAF  108
+
+Query  129  ALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFAR  188
+             L    +   R  +   +V+++S AA   RI             M+AYG SK A+   A 
+Sbjct  109  NLFQQTMNQFRRQRGGAIVTVASDAAHTARI------------GMSAYGASKAALKSLA-  155
+
+Query  189  ELDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+             L      AG G+  N   PG T T++Q
+Sbjct  156  -LSVGLELAGSGVRCNVVSPGSTDTDMQ  182
+
+
+>VFG044369(gb|WP_013318793) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Chrysobactin (VF1242) - Nutritional/Metabolic 
+factor (VFC0272)] [Dickeya dadantii 3937]
+Length=252
+
+ Score = 61.6 bits (148),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 63/212 (30%), Positives = 89/212 (42%), Gaps = 37/212 (17%)
+
+Query  11   DLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIK  70
+            D SGK   +TGA  G+G+ +A R S AGA V    R  + GE     +            
+Sbjct  6    DFSGKQVWVTGAGRGIGYDIACRFSEAGATVTGFDRAFSDGEPPFRAVE-----------  54
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGV--MTPPERVTTADGFELQFGSNHLGHF  128
+             LD+   A+VA +   L+A    +D+L+N AG+  M   E ++  D  +     N  G F
+Sbjct  55   -LDIGDHAAVADVCATLLAKTPRLDVLVNGAGILRMGQTETLSQQDWLDC-LTVNAGGAF  112
+
+Query  129  ALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLA----VL  184
+             L   L+P  +  +   +VS+ S AA   R+             M AY  SK A     L
+Sbjct  113  HLFQALIPQFQQQRSGAIVSIGSNAAHVPRVG------------MAAYCASKAALRSLCL  160
+
+Query  185  MFARELDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+                EL      A +G+  N   PG T T +Q
+Sbjct  161  TVGLEL------APYGVRCNMVSPGSTDTPMQ  186
+
+
+>VFG012976(gb|WP_000347662) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin synthesis and transport 
+(VF0984) - Nutritional/Metabolic factor (VFC0272)] [Shigella 
+flexneri 5 str. 8401]
+Length=248
+
+ Score = 61.6 bits (148),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 59/208 (28%), Positives = 93/208 (45%), Gaps = 29/208 (14%)
+
+Query  11   DLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIK  70
+            D SGK   +TGA  G+G+  A     AGA V          +A  +E            +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALAFVEAGAKVT------GFDQAFTQE------QYPFATE  49
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGV--MTPPERVTTADGFELQFGSNHLGHF  128
+             +D++    VA + ++L+A+   +D+LIN AG+  M   ++++  D ++  F  N  G F
+Sbjct  50   VMDVADAGQVAQVCQRLLAETERLDVLINAAGILRMGATDQLSKED-WQQTFAVNVGGAF  108
+
+Query  129  ALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFAR  188
+             L    +   R  +   +V+++S AA   RI             M+AYG SK A+   A 
+Sbjct  109  NLFQQTMNQFRRQRGGAIVTVASDAAHTARI------------GMSAYGASKAALKSLA-  155
+
+Query  189  ELDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+             L      AG G+  N   PG T T++Q
+Sbjct  156  -LSVGLELAGSGVRCNVVSPGSTDTDMQ  182
+
+
+>VFG012977(gb|WP_000347664) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin synthesis and transport 
+(VF0984) - Nutritional/Metabolic factor (VFC0272)] [Shigella 
+boydii Sb227]
+Length=248
+
+ Score = 60.5 bits (145),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 59/208 (28%), Positives = 93/208 (45%), Gaps = 29/208 (14%)
+
+Query  11   DLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIK  70
+            D SGK   +TGA  G+G+  A     AGA V          +A  +E            +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALAFVEAGAKVT------GFDQAFTQE------QYPFATE  49
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGV--MTPPERVTTADGFELQFGSNHLGHF  128
+             +D++    VA + ++L+A+   +D+LIN AG+  M   ++++  D ++  F  N  G F
+Sbjct  50   VMDVADAGQVAQVCQRLLAETERLDVLINAAGILRMGATDQLSKED-WQQTFAVNVGGAF  108
+
+Query  129  ALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFAR  188
+             L    +   R  +   +V+++S AA   RI             M+AYG SK A+   A 
+Sbjct  109  NLFQQTMNQFRRQRGGAIVTVASDAAHTPRI------------GMSAYGASKAALKSLA-  155
+
+Query  189  ELDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+             L      AG G+  N   PG T T++Q
+Sbjct  156  -LSVGLELAGSGVRCNVVSPGSTDTDMQ  182
+
+
+>VFG000934(gb|WP_000348393) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin (VF0228) - Nutritional/Metabolic 
+factor (VFC0272)] [Escherichia coli CFT073]
+Length=248
+
+ Score = 60.1 bits (144),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 58/208 (28%), Positives = 93/208 (45%), Gaps = 29/208 (14%)
+
+Query  11   DLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIK  70
+            D  GK   +TGA  G+G+  A     AGA V          +A  +E            +
+Sbjct  2    DFXGKNVWVTGAGKGIGYATAMAFVEAGAKVT------GFDQAFTQE------QYPFATE  49
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGV--MTPPERVTTADGFELQFGSNHLGHF  128
+             +D++  A VA + ++L+A+   +D+L+N AG+  M   ++++  D ++  F  N  G F
+Sbjct  50   VMDVADAAQVAQVCQRLLAETERLDVLVNAAGILRMGATDQLSKED-WQQTFAVNVGGAF  108
+
+Query  129  ALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFAR  188
+             L    +   R  +   +V+++S AA   RI             M+AYG SK A+   A 
+Sbjct  109  NLFQQTMNQFRHQRGGAIVTVASDAAHTPRI------------GMSAYGASKAALKSLA-  155
+
+Query  189  ELDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+             L      AG G+  N   PG T T++Q
+Sbjct  156  -LSVGLELAGSGVRCNVVSPGSTDTDMQ  182
+
+
+>VFG012973(gb|WP_000347670) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin synthesis and transport 
+(VF0984) - Nutritional/Metabolic factor (VFC0272)] [Shigella 
+dysenteriae Sd197]
+Length=248
+
+ Score = 59.7 bits (143),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 59/208 (28%), Positives = 93/208 (45%), Gaps = 29/208 (14%)
+
+Query  11   DLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIK  70
+            D SGK   +TGA  G+G+  A     AGA V          +A  +E            +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALAFVKAGAKVT------GFDQAFTQE------QYPFATE  49
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGV--MTPPERVTTADGFELQFGSNHLGHF  128
+             +D++  A VA + ++L+A+   +D L+N AG+  M   ++++  D ++  F  N  G F
+Sbjct  50   VMDVADAAQVAQVCQRLLAETERLDALVNAAGILRMGATDQLSKED-WQQTFAVNVGGAF  108
+
+Query  129  ALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFAR  188
+             L    +   R  +   +V+++S AA   RI             M+AYG SK A+   A 
+Sbjct  109  NLFQQTMNQFRRQRGGAIVTVASDAAHTPRI------------GMSAYGASKAALKSLA-  155
+
+Query  189  ELDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+             L      AG G+  N   PG T T++Q
+Sbjct  156  -LSVGLELAGSGVRCNVVSPGSTDTDMQ  182
+
+
+>VFG038839(gb|WP_011707832) (flmH) short chain dehydrogenase/reductase 
+family oxidoreductase [Polar flagella (VF0473) - Motility 
+(VFC0204)] [Aeromonas hydrophila subsp. hydrophila ATCC 
+7966]
+Length=249
+
+ Score = 58.9 bits (141),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 66/226 (29%), Positives = 102/226 (45%), Gaps = 27/226 (12%)
+
+Query  12   LSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEI--RTAVPDAKLTI  69
+            L GK  +ITGA  G+G  +AR  +A GA++ +A R+ A      +E+     VP   L +
+Sbjct  5    LQGKRVLITGAGRGIGLAIARLFAAQGAELWLAGRDEAALSRLADELGAEFGVPCHYLCV  64
+
+Query  70   KALDLSSLASVAALGEQLMADGRPIDLLINNAGVMTPP--ERVTTADGFELQFGSNHLGH  127
+               D++   +V    +QL A  R +D+L+NNAG++       V  A   E  F  N    
+Sbjct  65   ---DVAQPQAVKQAFQQLFAQTRQLDVLVNNAGILEEGLLGMVNQAQ-LEQTFSHNTFSV  120
+
+Query  128  FALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFA  187
+               + +   L++ +    +++L+SL  R G             A + +Y  SK AV+   
+Sbjct  121  VYCSQYTARLMQRSGGGSIINLASLMGRVGA------------AGLCSYAGSKAAVIGIT  168
+
+Query  188  RELDRRSRAAGWGIISNAAHPGLTKTNLQIAGPSHGRDKPALMERL  233
+            + L +   A+   I  NA  PG   T +  A P    DK A  ERL
+Sbjct  169  QSLAKELAAS--RIRVNAIAPGFIDTEMAHAIPD---DKFA--ERL  207
+
+
+>VFG038841(gb|WP_005318273) (flmH) short chain dehydrogenase/reductase 
+family oxidoreductase [Polar flagella (VF0473) - Motility 
+(VFC0204)] [Aeromonas salmonicida subsp. salmonicida 
+A449]
+Length=249
+
+ Score = 57.4 bits (137),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 60/216 (28%), Positives = 101/216 (47%), Gaps = 24/216 (11%)
+
+Query  12   LSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAV-PDAKLTIK  70
+            L GK  +ITGA  G+G  +AR+ +A GA++ +  R+    EAA+ ++  A+  +  +T +
+Sbjct  5    LQGKRVLITGAGRGIGLAIARQFAAQGAELWLGGRD----EAAMSQLAAALGAEFGVTCQ  60
+
+Query  71   AL--DLSSLASVAALGEQLMADGRPIDLLINNAGVMTPP--ERVTTADGFELQFGSNHLG  126
+             L  D++   +V    +QL A  R +D+L+NNAG++       V  A   E  F  N   
+Sbjct  61   PLCFDVAEPQAVKQAFQQLFAQTRQLDVLVNNAGILEEGLLGMVNQAQ-LEQTFSHNAFS  119
+
+Query  127  HFALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMF  186
+                + +   L++ +    +++L+SL  R G             A +++Y  SK AV+  
+Sbjct  120  VVYCSQYAARLMQRSGGGSIINLASLMGRVGA------------AGLSSYAGSKAAVIGI  167
+
+Query  187  ARELDRRSRAAGWGIISNAAHPGLTKTNLQIAGPSH  222
+             + L +    A   I  NA  PG   T +  A P  
+Sbjct  168  TQSLAK--ELATSQIRVNAIAPGFIDTEMARAIPDQ  201
+
+
+>VFG012978(gb|WP_000347634) (entA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase EntA [Enterobactin synthesis and transport 
+(VF0984) - Nutritional/Metabolic factor (VFC0272)] [Shigella 
+sonnei Ss046]
+Length=248
+
+ Score = 57.4 bits (137),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 58/208 (28%), Positives = 93/208 (45%), Gaps = 29/208 (14%)
+
+Query  11   DLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIK  70
+            D SGK   +TGA  G+G+  A     AGA V          +A  +E            +
+Sbjct  2    DFSGKNVWVTGAGKGIGYATALAFVEAGAKVT------GFDQAFAQE------QYPFATE  49
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGV--MTPPERVTTADGFELQFGSNHLGHF  128
+             +D++  A VA + ++L+A+   +D+L+N AG+  M   ++++  D ++  F  N  G F
+Sbjct  50   VMDVADAAQVAQVCQRLLAETERLDVLVNAAGILRMGATDQLSKED-WQQTFAVNVGGAF  108
+
+Query  129  ALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFAR  188
+             L    +   R  +   +V+++S AA   RI             M+AYG SK A+   A 
+Sbjct  109  NLFQQTMNQFRRQRGGAIVTVASDAAHTPRI------------GMSAYGASKAALKSLA-  155
+
+Query  189  ELDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+             L      A  G+  N   PG T T++Q
+Sbjct  156  -LSVGLELAVSGVRCNVVSPGSTDTDMQ  182
+
+
+>VFG050144(gb|WP_001048423) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus cereus AH187]
+Length=256
+
+ Score = 55.5 bits (132),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 54/207 (26%), Positives = 88/207 (43%), Gaps = 22/207 (11%)
+
+Query  11   DLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIK  70
+            +  GK  ++TGA  G+G  +A+     GA VI   +N        E +   + +  L   
+Sbjct  5    EFDGKTVLVTGAAQGIGSVVAKMFLERGATVIAVDQNE-------EGLNELLNEIHLKTF  57
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGVMTPPERVTTAD-GFELQFGSNHLGHFA  129
+             LD+S   +V  +   +  +  PID+L+N AGV+      + +D  +   F  N  G F 
+Sbjct  58   CLDVSDSTAVEQMVNDIENEIAPIDILVNVAGVLRMGAIHSLSDEDWNKTFSVNSTGVFY  117
+
+Query  130  LTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFARE  189
+            ++  +   +   +   +V++ S AA   R+             M AY  SK A  MF + 
+Sbjct  118  MSRAVSKHMMQRKSGAIVTVGSNAANTPRME------------MAAYVASKAATTMFMKC  165
+
+Query  190  LDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+            L      A + I  N   PG T+T +Q
+Sbjct  166  LGL--ELAAYNIRCNVVSPGSTETEMQ  190
+
+
+>VFG005765(gb|WP_000861303) (cylG) 3-ketoacyl-ACP-reductase CylG 
+[-haemolysin/cytolysin (VF0279) - Exotoxin (VFC0235)] [Streptococcus 
+agalactiae A909]
+Length=240
+
+ Score = 53.9 bits (128),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 57/230 (25%), Positives = 99/230 (43%), Gaps = 43/230 (19%)
+
+Query  15   KLAIITGANSGLGFGLARRLSAAGADVIMAIR-NRAKGEAAVEEIRTAVPDAKLTIKALD  73
+            K+AI+TG   G+G  + + L   G  VI     N AK  A  EE+       KL +   +
+Sbjct  2    KVAIVTGGTRGIGRAITKELYKEGYKVIAIYNSNDAKARALQEEL------PKLDVYKCN  55
+
+Query  74   LSSLASVAALGEQLMADGRPIDLLINNAGVMTPPERVTTADGFELQFGS---------NH  124
+            +S   +V  L  ++  +   ID L+NNAG++         DGF L             N 
+Sbjct  56   ISDAKAVQKLVTKIFREYGGIDCLVNNAGIVR--------DGFFLMMSKEKWMDVININI  107
+
+Query  125  LGHFALTAHLLPLLRAAQ-RARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAV  183
+            +G   ++  +L +++A + + +V+++SS +   G+I                Y  +K A+
+Sbjct  108  MGLVNMSKAVLKIMKAKRIQGKVINISSTSGIAGQI------------GQANYSATKGAI  155
+
+Query  184  LMFARELDRRSRAAGWGIISNAAHPGLTKTNLQIAGPSHGRDKPALMERL  233
+            +   + L +    A  GI  N   PG  +T++     +  ++K  L E L
+Sbjct  156  ISITKTLAK--EFASDGITINCVSPGFIETDM----TNELQNKEELKEHL  199
+
+
+>VFG048409(gb|WP_086074289) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=248
+
+ Score = 52.8 bits (125),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 59/208 (28%), Positives = 91/208 (44%), Gaps = 29/208 (14%)
+
+Query  11   DLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIK  70
+            D  G+   +TGA  G+G+  A     AGA+V         GE        + P A  T  
+Sbjct  2    DFHGQTVWVTGAGKGIGYATALAFVEAGANV-TGFDLAFDGE--------SYPFATET--  50
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGV--MTPPERVTTADGFELQFGSNHLGHF  128
+             LD++    V     +L+A+   +D+L+N AG+  M   ++++  D ++  F  N  G F
+Sbjct  51   -LDVADADQVREACSRLLANTERLDVLVNAAGILRMGATDQLSAED-WQQTFAVNVGGAF  108
+
+Query  129  ALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFAR  188
+             L    +   R  +   +V+++S AA   RI             M+AYG SK A+   A 
+Sbjct  109  NLFQQTMAQFRRQRGGAIVTVASDAAHTPRI------------GMSAYGASKAALKSLA-  155
+
+Query  189  ELDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+             L      AG G+  N   PG T T++Q
+Sbjct  156  -LTVGLELAGCGVRCNLVSPGSTDTDMQ  182
+
+
+>VFG048407(gb|WP_024622880) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae KCTC 2242]
+Length=248
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 59/208 (28%), Positives = 91/208 (44%), Gaps = 29/208 (14%)
+
+Query  11   DLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIK  70
+            D  G+   +TGA  G+G+  A     AGA+V         GE        + P A  T  
+Sbjct  2    DFRGQTVWVTGAGKGIGYATALAFVEAGANV-TGFDLAFDGE--------SYPFATET--  50
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGV--MTPPERVTTADGFELQFGSNHLGHF  128
+             LD++    V     +L+A+   +D+L+N AG+  M   ++++  D ++  F  N  G F
+Sbjct  51   -LDVADADQVREACSRLLANTERLDVLVNAAGILRMGATDQLSAED-WQQTFAVNVGGAF  108
+
+Query  129  ALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFAR  188
+             L    +   R  +   +V+++S AA   RI             M+AYG SK A+   A 
+Sbjct  109  NLFQQTMAQFRRQRGGAIVTVASDAAHTPRI------------GMSAYGASKAALKSLA-  155
+
+Query  189  ELDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+             L      AG G+  N   PG T T++Q
+Sbjct  156  -LTVGLELAGSGVRCNLVSPGSTDTDMQ  182
+
+
+>VFG048405(gb|YP_005225749) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae HS11286]
+Length=251
+
+ Score = 51.2 bits (121),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 59/208 (28%), Positives = 91/208 (44%), Gaps = 29/208 (14%)
+
+Query  11   DLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIK  70
+            D  G+   +TGA  G+G+  A     AGA+V         GE        + P A  T  
+Sbjct  5    DFRGQTVWVTGAGKGIGYATALAFVEAGANV-TGFDLAFDGE--------SYPFATET--  53
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGV--MTPPERVTTADGFELQFGSNHLGHF  128
+             LD++    V     +L+A+   +D+L+N AG+  M   ++++  D ++  F  N  G F
+Sbjct  54   -LDVADADQVREACSRLLANTERLDVLVNAAGILRMGATDQLSAED-WQQTFAVNVGGAF  111
+
+Query  129  ALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFAR  188
+             L    +   R  +   +V+++S AA   RI             M+AYG SK A+   A 
+Sbjct  112  NLFQQTMAQFRRQRGGAIVTVASDAAHTPRI------------GMSAYGASKAALKSLA-  158
+
+Query  189  ELDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+             L      AG G+  N   PG T T++Q
+Sbjct  159  -LTVGLELAGSGVRCNLVSPGSTDTDMQ  185
+
+
+>VFG038840(gb|WP_005300916) (flmH) short chain dehydrogenase/reductase 
+family oxidoreductase [Polar flagella (VF0473) - Motility 
+(VFC0204)] [Aeromonas hydrophila ML09-119]
+Length=244
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 51/205 (25%), Positives = 91/205 (44%), Gaps = 20/205 (10%)
+
+Query  12   LSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIKA  71
+             + K+ ++TGA+ G+G  +A   +A GA V+      A  E+  E I   + +    + A
+Sbjct  3    FTDKVVLVTGASRGIGRAIAETFAARGAKVV----GTATSESGAEAISAYLGEQGCGM-A  57
+
+Query  72   LDLSSLASVAALGEQLMADGRPIDLLINNAGVMTPPERVTTADG-FELQFGSNHLGHFAL  130
+            L+++S  S+ A+   + A    ID+LINNAG+      +   D  +     +N    + L
+Sbjct  58   LNVTSQESIEAVFAAIKARFGDIDILINNAGITRDNLLMRMKDDEWNEIIDTNLTSLYRL  117
+
+Query  131  TAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFAREL  190
+            +  +L  +   +  R++S+ S+    G             A    Y  +K  ++ F + L
+Sbjct  118  SKPVLRAMMKKRNGRIISIGSVVGTMGN------------AGQVNYAAAKAGLVGFTKSL  165
+
+Query  191  DRRSRAAGWGIISNAAHPGLTKTNL  215
+             R    A  GI  NA  PG  +T++
+Sbjct  166  AR--EVASRGITVNAVAPGFIETDM  188
+
+
+>VFG007210(gb|WP_011081751) (vibA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Vibriobactin/Vulnibactin (VF0626) - Nutritional/Metabolic 
+factor (VFC0272)] [Vibrio vulnificus CMCP6]
+Length=262
+
+ Score = 50.4 bits (119),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 57/211 (27%), Positives = 87/211 (41%), Gaps = 24/211 (11%)
+
+Query  12   LSGKLAIITGANSGLGFGLARRLSAAGADVIMA----IRNRAKGEAAVEEIRTAVPDAKL  67
+            L  +   +TGA  G+GF + + L  AGA V+      +R +   +A     R      +L
+Sbjct  6    LEKQTVFLTGAAKGIGFSVMQHLLEAGARVVATDIDEVRLKTDSDALKNRYRE-----QL  60
+
+Query  68   TIKALDLSSLASVAALGEQLMADGRPIDLLINNAGVMTPPERVTT-ADGFELQFGSNHLG  126
+                LDLS   SVA    Q++      D L+  AGV+      +      E  F  N  G
+Sbjct  61   FCYHLDLSQPESVARRVAQMIEQHGQFDHLVCCAGVLHLGSITSMPLAQIEHTFNVNTFG  120
+
+Query  127  HFALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMF  186
+              A+   L   ++A +   +V + S AA   R              M AYG SK A+ M 
+Sbjct  121  TLAVMQALAEGMKARRSGSMVIVGSNAANTPR------------PNMGAYGASKAALHML  168
+
+Query  187  ARELDRRSRAAGWGIISNAAHPGLTKTNLQI  217
+             + +      A +G+  N   PG T+T++Q+
+Sbjct  169  VKSMGM--ELAEYGVRCNIVSPGSTRTDMQM  197
+
+
+>VFG048408(gb|WP_012068428) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae MGH 78578]
+Length=251
+
+ Score = 50.1 bits (118),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 58/208 (28%), Positives = 89/208 (43%), Gaps = 29/208 (14%)
+
+Query  11   DLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIK  70
+            D  G+   +TGA  G+G+  A     AGA+V         GE          P A  T+ 
+Sbjct  5    DFHGQTVWVTGAGKGIGYATALAFVEAGANV-TGFDLAFDGE--------GYPFATETLD  55
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGV--MTPPERVTTADGFELQFGSNHLGHF  128
+              D   +  V A   +L+ +   +D+L+N AG+  M   ++++  D ++  F  N  G F
+Sbjct  56   VADAGQVRDVCA---RLLNNIERLDVLVNAAGILRMGATDQLSAED-WQQTFAVNVGGAF  111
+
+Query  129  ALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFAR  188
+             L    +   R  +   +V+++S AA   RI             M+AYG SK A+   A 
+Sbjct  112  NLFQQTMAQFRRQRGGAIVTVASDAAHTPRI------------GMSAYGASKAALKSLA-  158
+
+Query  189  ELDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+             L      AG G+  N   PG T T++Q
+Sbjct  159  -LTVGLELAGSGVRCNLVSPGSTDTDMQ  185
+
+
+>VFG048401(gb|WP_014837779) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella oxytoca E718]
+Length=251
+
+ Score = 49.7 bits (117),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 61/208 (29%), Positives = 89/208 (43%), Gaps = 29/208 (14%)
+
+Query  11   DLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIK  70
+            D  G+   ITGA  G+G+  A     AGA V         GE        + P A  T  
+Sbjct  5    DFHGRTVWITGAGKGIGYATALAFVEAGAQV-TGFDLAFDGE--------SYPFATET--  53
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGV--MTPPERVTTADGFELQFGSNHLGHF  128
+             LD++    VA    +L+A    +D+L+N AG+  M   + ++  D ++  F  N  G F
+Sbjct  54   -LDVADAQQVAQTCGRLLAGIARLDVLVNAAGILRMGATDALSQED-WQQTFAVNVGGAF  111
+
+Query  129  ALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFAR  188
+             L    +   R  +   +V+++S AA   RI             M+AYG SK A+   A 
+Sbjct  112  NLFQQTMAQFRRQKGGAIVTVASDAAHTPRI------------GMSAYGASKAALKSLA-  158
+
+Query  189  ELDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+             L      AG G+  N   PG T T++Q
+Sbjct  159  -LTVGLELAGSGVRCNLVSPGSTDTDMQ  185
+
+
+>VFG048402(gb|WP_014228362) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella oxytoca KCTC 1686]
+Length=251
+
+ Score = 49.3 bits (116),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 61/208 (29%), Positives = 89/208 (43%), Gaps = 29/208 (14%)
+
+Query  11   DLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIK  70
+            D  G+   ITGA  G+G+  A     AGA V         GE        + P A  T  
+Sbjct  5    DFHGRTVWITGAGKGIGYATALAFVEAGAQV-TGFDLAFDGE--------SYPFATET--  53
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGV--MTPPERVTTADGFELQFGSNHLGHF  128
+             LD++    VA    +L+A    +D+L+N AG+  M   + ++  D ++  F  N  G F
+Sbjct  54   -LDVADAQQVAQTCGRLLAGIARLDVLVNAAGILRMGATDALSQED-WQQTFAVNVGGAF  111
+
+Query  129  ALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFAR  188
+             L    +   R  +   +V+++S AA   RI             M+AYG SK A+   A 
+Sbjct  112  NLFQQTMGQFRRQKGGAIVTVASDAAHTPRI------------GMSAYGASKAALKSLA-  158
+
+Query  189  ELDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+             L      AG G+  N   PG T T++Q
+Sbjct  159  -LTVGLELAGSGVRCNLVSPGSTDTDMQ  185
+
+
+>VFG048404(gb|WP_008805588) (entA) 2,3-dihydroxybenzoate-2,3-dehydrogenase 
+[Ent (VF0562) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae 342]
+Length=251
+
+ Score = 49.3 bits (116),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 54/208 (26%), Positives = 89/208 (43%), Gaps = 29/208 (14%)
+
+Query  11   DLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIK  70
+            D  G+   +TGA  G+G+  A     AGA+V               ++  A        +
+Sbjct  5    DFHGQTVWVTGAGKGIGYATALAFVEAGANVTGF------------DLAFAGAGYPFATE  52
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGV--MTPPERVTTADGFELQFGSNHLGHF  128
+             LD++    V  +  +L+ +   +D+L+N AG+  M   ++++  D ++  F  N  G F
+Sbjct  53   TLDVADAGQVRDVCARLLNNIERLDVLVNAAGILRMGATDQLSAED-WQQTFAVNVGGAF  111
+
+Query  129  ALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFAR  188
+             L    +   R  +   +V+++S AA   RI             M+AYG SK A+   A 
+Sbjct  112  NLFQQTMAQFRRQRGGAIVTVASDAAHTPRI------------GMSAYGASKAALKSLA-  158
+
+Query  189  ELDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+             L      AG G+  N   PG T T++Q
+Sbjct  159  -LTVGLELAGSGVRCNLVSPGSTDTDMQ  185
+
+
+>VFG026114(gb|WP_082194386) (wcbP) capsular polysaccharide biosynthesis 
+dehydrogenase/reductase [Capsule I (VF0436) - Immune 
+modulation (VFC0258)] [Burkholderia cenocepacia HI2424]
+Length=261
+
+ Score = 49.3 bits (116),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 61/217 (28%), Positives = 93/217 (43%), Gaps = 31/217 (14%)
+
+Query  18   IITGANSGLGFGLARRLSAAGADVIMAIRNRAK---GEAAVEEIRTAVPDAKLTIK-ALD  73
+            I+TGA+SG+G  LA   +A G  + +  R+ A+    EAA  E    V   ++ ++ AL 
+Sbjct  10   IVTGASSGIGLALALEYAAPGVVLGLVARDEARLNACEAACRERGATVVAGRIDVRNALQ  69
+
+Query  74   LSSLASVAALGEQLMADGRPIDLLINNAGVMTPPERVTTADGFELQFGSNHLGHFALTAH  133
+            L +             D  PIDLLI NAG  +     +  +  +     N    +     
+Sbjct  70   LEAWL-------HRFDDVYPIDLLIANAGAASTLASSSDWEALDRTVIVNDTNFYGTLHA  122
+
+Query  134  LLPL---LRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFAREL  190
+            +LP+   +R     ++  +SS+AA RG        +  S A + AYG S   +L  ARE 
+Sbjct  123  VLPVVERMRVRGYGQIAMVSSIAALRG--MAISPAYCASKAAIKAYGDSVRPLL--ARE-  177
+
+Query  191  DRRSRAAGWGIISNAAHPGLTKTNLQIAGPSHGRDKP  227
+                     GI+ +   PG  KT++    P    DKP
+Sbjct  178  ---------GIVLSVVLPGFVKTSMSDVFPG---DKP  202
+
+
+>VFG049999(gb|NP_391080) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus subtilis subsp. subtilis str. 
+168]
+Length=261
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 60/207 (29%), Positives = 94/207 (45%), Gaps = 19/207 (9%)
+
+Query  12   LSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAK-LTIK  70
+            + GK+A ITGA  G+G  +AR L++ GA +     N  K E  V  ++     A+     
+Sbjct  6    IEGKIAFITGAAQGIGEAVARTLASQGAHIAAVDYNPEKLEKVVSSLKAEGRHAEAFPAD  65
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGVMTPPERVTTAD-GFELQFGSNHLGHFA  129
+              D +++  + A  E+ M    PID+L+N AGV+ P    + +D  +E  F  N  G F 
+Sbjct  66   VRDSAAIDEITARIEREMG---PIDILVNVAGVLRPGLIHSLSDEEWEATFSVNSTGVFN  122
+
+Query  130  LTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFARE  189
+             +  +   +   +   +V++ S AA   R              M AY  SK A +MF + 
+Sbjct  123  ASRSVSKYMMDRRSGSIVTVGSNAAGVPR------------TSMAAYASSKAAAVMFTKC  170
+
+Query  190  LDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+            L      A + I  N   PG T+T++Q
+Sbjct  171  LGL--ELAEYNIRCNIVSPGSTETDMQ  195
+
+
+>VFG050142(gb|WP_001100506) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus cereus biovar anthracis str. 
+CI]
+Length=258
+
+ Score = 46.6 bits (109),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 57/210 (27%), Positives = 92/210 (44%), Gaps = 20/210 (10%)
+
+Query  8    TVPDLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKL  67
+             V +  GK  ++TGA  G+G  +A+     GA VI   +N   GE     +     + ++
+Sbjct  2    NVGEFDGKTVVVTGAAQGIGSVVAKMFLERGATVIAVDQN---GEGL--NVLLNQNETRM  56
+
+Query  68   TIKALDLSSLASVAALGEQLMADGRPIDLLINNAGVMTPPERVTTAD-GFELQFGSNHLG  126
+             I  LD+S   +V    +++  D  PID+L+N AGV+      + +D  +   F  N  G
+Sbjct  57   KIFHLDVSDSNAVEDTVKRIENDIAPIDILVNVAGVLRMGAIHSLSDEDWNKTFSVNSTG  116
+
+Query  127  HFALTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMF  186
+             F ++  +   +   +   +V++ S AA   R+             M AY  SK A  MF
+Sbjct  117  VFYMSRAVSKHMMQRKSGAIVTVGSNAANTPRVE------------MAAYAASKAATTMF  164
+
+Query  187  ARELDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+             + L      A + I  N   PG T+T +Q
+Sbjct  165  MKCLGL--ELAAYNIRCNLVSPGSTETEMQ  192
+
+
+>VFG049994(gb|WP_001048422) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus cereus ATCC 10987]
+Length=256
+
+ Score = 46.2 bits (108),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 54/207 (26%), Positives = 88/207 (43%), Gaps = 22/207 (11%)
+
+Query  11   DLSGKLAIITGANSGLGFGLARRLSAAGADVIMAIRNRAKGEAAVEEIRTAVPDAKLTIK  70
+            +  GK  ++TGA  G+G  +A+     GA VI   +N        E +   + +  L   
+Sbjct  5    EFDGKTVLVTGAAQGIGSVVAKMFLERGATVIAVDQNE-------EGLNELLNEIHLKTF  57
+
+Query  71   ALDLSSLASVAALGEQLMADGRPIDLLINNAGVMTPPERVTTAD-GFELQFGSNHLGHFA  129
+             LD+S   +V  +   +  +  PID+L+N AGV+      + +D  +   F  N  G F 
+Sbjct  58   CLDVSDSTAVEQMVNDIENEIAPIDILVNVAGVLRMGAIHSLSDEDWNKTFSVNSTGVFY  117
+
+Query  130  LTAHLLPLLRAAQRARVVSLSSLAARRGRIHFDDLQFERSYAPMTAYGQSKLAVLMFARE  189
+            ++  +   +   +   +V++ S AA   R+             M AY  SK A  MF + 
+Sbjct  118  MSRAVSKHMMQRKSGAIVTVGSNAANTPRME------------MAAYAASKAATTMFMKC  165
+
+Query  190  LDRRSRAAGWGIISNAAHPGLTKTNLQ  216
+            L      A + I  N   PG T+T +Q
+Sbjct  166  LGL--ELAAYNIRCNVVSPGSTETEMQ  190
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2278539711
+
+
+Query= g5126.t1
+
+Length=339
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG038840(gb|WP_005300916) (flmH) short chain dehydrogenase/reduc...  58.9    5e-10
+VFG019276(gb|WP_006073147) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoa...  48.9    1e-06
+VFG011616(gb|WP_004681144) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoa...  48.9    1e-06
+VFG011617(gb|WP_002966566) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoa...  48.9    1e-06
+VFG011619(gb|WP_004688790) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoa...  48.9    1e-06
+VFG050143(gb|WP_001972439) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  48.9    1e-06
+VFG049999(gb|NP_391080) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrog...  48.9    1e-06
+VFG049991(gb|WP_001100504) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  47.4    4e-06
+VFG050000(gb|WP_001100501) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  47.4    4e-06
+VFG049996(gb|WP_001100500) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  47.4    4e-06
+VFG050142(gb|WP_001100506) (dhbA) 2,3-dihydroxybenzoate-2,3-dehyd...  46.6    9e-06
+
+
+>VFG038840(gb|WP_005300916) (flmH) short chain dehydrogenase/reductase 
+family oxidoreductase [Polar flagella (VF0473) - Motility 
+(VFC0204)] [Aeromonas hydrophila ML09-119]
+Length=244
+
+ Score = 58.9 bits (141),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 59/204 (29%), Positives = 89/204 (44%), Gaps = 19/204 (9%)
+
+Query  45   RLALVTGANSGLGWQAARTLAGKGATVVMACRNREQAERARRAILDEYPQARLELADLDL  104
+            ++ LVTGA+ G+G   A T A +GA VV    +   AE A  A L E          L++
+Sbjct  6    KVVLVTGASRGIGRAIAETFAARGAKVVGTATSESGAE-AISAYLGEQGCGMA----LNV  60
+
+Query  105  ADLASIRACAAGFRQRHARLDLLFNNAGVMFLPLRRTRDGFEMQMGTNHLGHFALTGLLL  164
+                SI A  A  + R   +D+L NNAG+       TRD   M+M  +       T L  
+Sbjct  61   TSQESIEAVFAAIKARFGDIDILINNAGI-------TRDNLLMRMKDDEWNEIIDTNLT-  112
+
+Query  165  DSLLAAPRPRVVGMTSGFNQFGR-LPLDDLNAERGYNRYLAYCHSKQANLLFSLELQRRA  223
+             SL    +P +  M    N  GR + +  +    G    + Y  +K   + F+  L R  
+Sbjct  113  -SLYRLSKPVLRAMMKKRN--GRIISIGSVVGTMGNAGQVNYAAAKAGLVGFTKSLAREV  169
+
+Query  224  GQRGVLLQSLAAHPGYAATNLQYA  247
+              RG+ + ++A  PG+  T++  A
+Sbjct  170  ASRGITVNAVA--PGFIETDMTKA  191
+
+
+>VFG019276(gb|WP_006073147) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Brucebactin (VF0692) - Nutritional/Metabolic 
+factor (VFC0272)] [Brucella suis ATCC 23445]
+Length=258
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 50/178 (28%), Positives = 73/178 (41%), Gaps = 26/178 (15%)
+
+Query  41   QLAGRLALVTGANSGLGWQAARTLAGKGATVVMACRNREQAERARRAILDEYPQARLELA  100
+            + AG+  +VTGA  G+G + A     +GATV+   R   +A+            A   L 
+Sbjct  12   RFAGKRVIVTGAAQGIGRRVAERFLAEGATVIGLDRQAGEAD------------APFRLI  59
+
+Query  101  DLDLADLASIRACAAGFRQRHARLDLLFNNAGVMFL--PLRRTRDGFEMQMGTNHLGHFA  158
+             LD+ D A +RA + G +     LD+L N AGV+ L    R + + ++  M  N  G F 
+Sbjct  60   RLDITDAAEVRAVSDGLKAEGKPLDILVNVAGVLKLGNTDRLSAEDWKTCMDVNASGPFH  119
+
+Query  159  LTGLLLDSLLAAPRPRVVGMTSGFNQFGRLPLDDLNAERGYNRYLAYCHSKQANLLFS  216
+            L    +          +V + S      RL +             AYC SK A   FS
+Sbjct  120  LLSQWVPVFRDQRHGAIVNVASNAAHVPRLNM------------AAYCASKAALASFS  165
+
+
+>VFG011616(gb|WP_004681144) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Brucebactin (VF0692) - Nutritional/Metabolic 
+factor (VFC0272)] [Brucella melitensis bv. 1 str. 16M]
+Length=258
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 50/178 (28%), Positives = 73/178 (41%), Gaps = 26/178 (15%)
+
+Query  41   QLAGRLALVTGANSGLGWQAARTLAGKGATVVMACRNREQAERARRAILDEYPQARLELA  100
+            + AG+  +VTGA  G+G + A     +GATV+   R   +A+            A   L 
+Sbjct  12   RFAGKRVIVTGAAQGIGRRVAEHFLAEGATVIGLDRQAGEAD------------APFRLI  59
+
+Query  101  DLDLADLASIRACAAGFRQRHARLDLLFNNAGVMFL--PLRRTRDGFEMQMGTNHLGHFA  158
+             LD+ D A +RA + G +     LD+L N AGV+ L    R + + ++  M  N  G F 
+Sbjct  60   RLDITDAAEVRAVSDGLKAEGKPLDILVNVAGVLKLGNSDRLSAEDWKTCMDVNASGPFH  119
+
+Query  159  LTGLLLDSLLAAPRPRVVGMTSGFNQFGRLPLDDLNAERGYNRYLAYCHSKQANLLFS  216
+            L    +          +V + S      RL +             AYC SK A   FS
+Sbjct  120  LLSQWVPVFRDQRHGAIVNVASNAAHVPRLNM------------AAYCASKAALASFS  165
+
+
+>VFG011617(gb|WP_002966566) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Brucebactin (VF0692) - Nutritional/Metabolic 
+factor (VFC0272)] [Brucella melitensis biovar Abortus 
+2308]
+Length=258
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 50/178 (28%), Positives = 73/178 (41%), Gaps = 26/178 (15%)
+
+Query  41   QLAGRLALVTGANSGLGWQAARTLAGKGATVVMACRNREQAERARRAILDEYPQARLELA  100
+            + AG+  +VTGA  G+G + A     +GATV+   R   +A+            A   L 
+Sbjct  12   RFAGKRVIVTGAAQGIGRRVAEHFLAEGATVIGLDRQAGEAD------------APFRLI  59
+
+Query  101  DLDLADLASIRACAAGFRQRHARLDLLFNNAGVMFL--PLRRTRDGFEMQMGTNHLGHFA  158
+             LD+ D A +RA + G +     LD+L N AGV+ L    R + + ++  M  N  G F 
+Sbjct  60   RLDITDAAEVRAVSDGLKAEGKPLDILVNVAGVLKLGNSDRLSAEDWKTCMDVNASGPFH  119
+
+Query  159  LTGLLLDSLLAAPRPRVVGMTSGFNQFGRLPLDDLNAERGYNRYLAYCHSKQANLLFS  216
+            L    +          +V + S      RL +             AYC SK A   FS
+Sbjct  120  LLSQWVPVFRDQRHGAIVNVASNAAHVPRLNM------------AAYCASKAALASFS  165
+
+
+>VFG011619(gb|WP_004688790) (dhbA) 2,3-dihydro-2,3-dihydroxybenzoate 
+dehydrogenase [Brucebactin (VF0692) - Nutritional/Metabolic 
+factor (VFC0272)] [Brucella suis 1330]
+Length=258
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 50/178 (28%), Positives = 73/178 (41%), Gaps = 26/178 (15%)
+
+Query  41   QLAGRLALVTGANSGLGWQAARTLAGKGATVVMACRNREQAERARRAILDEYPQARLELA  100
+            + AG+  +VTGA  G+G + A     +GATV+   R   +A+            A   L 
+Sbjct  12   RFAGKRVIVTGAAQGIGRRVAERFLAEGATVIGLDRQAGEAD------------APFRLI  59
+
+Query  101  DLDLADLASIRACAAGFRQRHARLDLLFNNAGVMFL--PLRRTRDGFEMQMGTNHLGHFA  158
+             LD+ D A +RA + G +     LD+L N AGV+ L    R + + ++  M  N  G F 
+Sbjct  60   RLDITDAAEVRAVSDGLKAEGKPLDILVNVAGVLKLGNSDRLSAEDWKTCMDVNASGPFH  119
+
+Query  159  LTGLLLDSLLAAPRPRVVGMTSGFNQFGRLPLDDLNAERGYNRYLAYCHSKQANLLFS  216
+            L    +          +V + S      RL +             AYC SK A   FS
+Sbjct  120  LLSQWVPVFRDQRHGAIVNVASNAAHVPRLNM------------AAYCASKAALASFS  165
+
+
+>VFG050143(gb|WP_001972439) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus cereus G9241]
+Length=261
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 29/97 (30%), Positives = 50/97 (52%), Gaps = 2/97 (2%)
+
+Query  38   NIPQLAGRLALVTGANSGLGWQAARTLAGKGATVVMACRNREQAERARRAILDEYPQARL  97
+            N+ +  G+  LVTGA  G+G   A+    +GATV+   +N E  +   +   +E  + R+
+Sbjct  2    NLGEFDGKTVLVTGAAQGIGSVVAKMFLERGATVIAVDQNEEGLQVLLKQ--NELNKTRM  59
+
+Query  98   ELADLDLADLASIRACAAGFRQRHARLDLLFNNAGVM  134
+            +   LD++D A++           A +D+L N AGV+
+Sbjct  60   KTFRLDVSDSAAVEDMINHIANEIAPIDILVNVAGVL  96
+
+
+>VFG049999(gb|NP_391080) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus subtilis subsp. subtilis str. 
+168]
+Length=261
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 32/97 (33%), Positives = 49/97 (51%), Gaps = 2/97 (2%)
+
+Query  38   NIPQLAGRLALVTGANSGLGWQAARTLAGKGATVVMACRNREQAERARRAILDEYPQARL  97
+            N   + G++A +TGA  G+G   ARTLA +GA +     N E+ E+   ++  E   A  
+Sbjct  2    NAKGIEGKIAFITGAAQGIGEAVARTLASQGAHIAAVDYNPEKLEKVVSSLKAEGRHA--  59
+
+Query  98   ELADLDLADLASIRACAAGFRQRHARLDLLFNNAGVM  134
+            E    D+ D A+I    A   +    +D+L N AGV+
+Sbjct  60   EAFPADVRDSAAIDEITARIEREMGPIDILVNVAGVL  96
+
+
+>VFG049991(gb|WP_001100504) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus anthracis str. Ames]
+Length=258
+
+ Score = 47.4 bits (111),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 28/97 (29%), Positives = 48/97 (49%), Gaps = 5/97 (5%)
+
+Query  38   NIPQLAGRLALVTGANSGLGWQAARTLAGKGATVVMACRNREQAERARRAILDEYPQARL  97
+            N+ +  G+  LVTGA  G+G   A+    +GATV+   +N E        +L    + R+
+Sbjct  2    NVGEFDGKTVLVTGAAQGIGSVVAKMFLERGATVIAVDQNGEGLN-----VLLNQNETRM  56
+
+Query  98   ELADLDLADLASIRACAAGFRQRHARLDLLFNNAGVM  134
+            ++  LD++D  ++           A +D+L N AGV+
+Sbjct  57   KIFHLDVSDSNAVEDTVKRIENDIAPIDILVNVAGVL  93
+
+
+>VFG050000(gb|WP_001100501) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus thuringiensis serovar konkukian 
+str. 97-27]
+Length=258
+
+ Score = 47.4 bits (111),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 28/97 (29%), Positives = 48/97 (49%), Gaps = 5/97 (5%)
+
+Query  38   NIPQLAGRLALVTGANSGLGWQAARTLAGKGATVVMACRNREQAERARRAILDEYPQARL  97
+            N+ +  G+  LVTGA  G+G   A+    +GATV+   +N E        +L    + R+
+Sbjct  2    NVGEFDGKTVLVTGAAQGIGSVVAKMFLERGATVIAVDQNGEGLN-----VLLNQNETRM  56
+
+Query  98   ELADLDLADLASIRACAAGFRQRHARLDLLFNNAGVM  134
+            ++  LD++D  ++           A +D+L N AGV+
+Sbjct  57   KIFHLDVSDSNAVEDTVKRIENDIAPIDILVNVAGVL  93
+
+
+>VFG049996(gb|WP_001100500) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus cereus E33L]
+Length=258
+
+ Score = 47.4 bits (111),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 28/97 (29%), Positives = 48/97 (49%), Gaps = 5/97 (5%)
+
+Query  38   NIPQLAGRLALVTGANSGLGWQAARTLAGKGATVVMACRNREQAERARRAILDEYPQARL  97
+            N+ +  G+  LVTGA  G+G   A+    +GATV+   +N E        +L    + R+
+Sbjct  2    NVGEFDGKTVLVTGAAQGIGSVVAKMFLERGATVIAVDQNGEGLN-----VLLNQNETRM  56
+
+Query  98   ELADLDLADLASIRACAAGFRQRHARLDLLFNNAGVM  134
+            ++  LD++D  ++           A +D+L N AGV+
+Sbjct  57   KIFHLDVSDSNAVEDTVKRIENDIAPIDILVNVAGVL  93
+
+
+>VFG050142(gb|WP_001100506) (dhbA) 2,3-dihydroxybenzoate-2,3-dehydrogenase, 
+DhbA [Bacillibactin (VF0586) - Nutritional/Metabolic 
+factor (VFC0272)] [Bacillus cereus biovar anthracis str. 
+CI]
+Length=258
+
+ Score = 46.6 bits (109),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 27/97 (28%), Positives = 48/97 (49%), Gaps = 5/97 (5%)
+
+Query  38   NIPQLAGRLALVTGANSGLGWQAARTLAGKGATVVMACRNREQAERARRAILDEYPQARL  97
+            N+ +  G+  +VTGA  G+G   A+    +GATV+   +N E        +L    + R+
+Sbjct  2    NVGEFDGKTVVVTGAAQGIGSVVAKMFLERGATVIAVDQNGEGLN-----VLLNQNETRM  56
+
+Query  98   ELADLDLADLASIRACAAGFRQRHARLDLLFNNAGVM  134
+            ++  LD++D  ++           A +D+L N AGV+
+Sbjct  57   KIFHLDVSDSNAVEDTVKRIENDIAPIDILVNVAGVL  93
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.135    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2492383838
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

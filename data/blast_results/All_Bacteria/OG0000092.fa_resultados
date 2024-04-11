@@ -1,0 +1,1698 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1398.t1
+
+Length=1100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG024199(gb|WP_013471927) (devR/dosR) response regulator transcr...  54.7    5e-08
+VFG009893(gb|WP_011894699) (devR/dosR) response regulator transcr...  54.7    5e-08
+VFG024201(gb|WP_008259378) (devR/dosR) response regulator transcr...  53.9    9e-08
+VFG027273(gb|YP_005361686) (devR/dosR) two component transcriptio...  50.8    2e-07
+VFG009892(gb|WP_003896645) (devR/dosR) two-component system respo...  52.4    3e-07
+VFG002044(gb|WP_010930609) (bvgA) virulence factors two-component...  52.0    4e-07
+VFG009889(gb|WP_003874670) (devR/dosR) response regulator transcr...  52.0    4e-07
+VFG009890(gb|WP_009978588) (devR/dosR) response regulator transcr...  52.0    5e-07
+VFG027270(gb|YP_007959134) (devR/dosR) Two component transcriptio...  51.6    6e-07
+VFG001824(gb|NP_217649) (devR/dosR) two component transcriptional...  51.6    6e-07
+VFG027258(gb|WP_015291223) (devR/dosR) two-component system respo...  51.2    7e-07
+VFG027265(gb|YP_007963009) (devR/dosR) two component transcriptio...  51.2    8e-07
+VFG011120(gb|WP_012417544) (bvgA) response regulator transcriptio...  50.1    2e-06
+VFG009896(gb|WP_011768347) (devR/dosR) response regulator transcr...  50.1    2e-06
+VFG009891(gb|WP_011740390) (devR/dosR) response regulator transcr...  49.7    2e-06
+VFG042685(gb|CAD56976) (fimZ gene) putative regulatory protein [T...  48.5    5e-06
+VFG004099(gb|WP_024131262) (fimZ) fimbria biosynthesis transcript...  48.5    6e-06
+VFG000449(gb|NP_459544) (fimZ) DNA-binding response regulator [Ty...  48.5    6e-06
+VFG021188(gb|WP_000801272) (fimZ) fimbria biosynthesis transcript...  48.1    9e-06
+VFG004096(gb|WP_000801270) (fimZ) fimbria biosynthesis transcript...  48.1    9e-06
+
+
+>VFG024199(gb|WP_013471927) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+gilvum Spyr1]
+Length=216
+
+ Score = 54.7 bits (130),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 28/71 (39%), Positives = 43/71 (61%), Gaps = 3/71 (4%)
+
+Query  1021  AITYAQRGRGNRKRPTTGWESLTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRI  1080
+             A+    RG G R  P +G   LT  E  ++ L+ EGL  K IAAR+F++ +TV  +++R+
+Sbjct  132   ALMAKLRGEGERTDPLSG---LTDQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRL  188
+
+Query  1081  YSKLGLTSRVQ  1091
+              +KLG+  R Q
+Sbjct  189   LAKLGMERRTQ  199
+
+
+>VFG009893(gb|WP_011894699) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+gilvum PYR-GCK]
+Length=216
+
+ Score = 54.7 bits (130),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 28/71 (39%), Positives = 43/71 (61%), Gaps = 3/71 (4%)
+
+Query  1021  AITYAQRGRGNRKRPTTGWESLTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRI  1080
+             A+    RG G R  P +G   LT  E  ++ L+ EGL  K IAAR+F++ +TV  +++R+
+Sbjct  132   ALMAKLRGEGERTDPLSG---LTDQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRL  188
+
+Query  1081  YSKLGLTSRVQ  1091
+              +KLG+  R Q
+Sbjct  189   LAKLGMERRTQ  199
+
+
+>VFG024201(gb|WP_008259378) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+intracellulare str. MOTT36Y]
+Length=216
+
+ Score = 53.9 bits (128),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 28/71 (39%), Positives = 43/71 (61%), Gaps = 3/71 (4%)
+
+Query  1021  AITYAQRGRGNRKRPTTGWESLTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRI  1080
+             A+    RG   R+ P +G   LT  E  ++ L+SEGL  K IA R+F++ +TV  +++R+
+Sbjct  132   ALMAKLRGGAEREDPLSG---LTDQERKLLALLSEGLTNKQIADRMFLAEKTVKNYVSRL  188
+
+Query  1081  YSKLGLTSRVQ  1091
+              SKLG+  R Q
+Sbjct  189   LSKLGMERRTQ  199
+
+
+>VFG027273(gb|YP_005361686) (devR/dosR) two component transcriptional 
+regulator [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+tuberculosis RGTB327]
+Length=109
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 25/65 (38%), Positives = 41/65 (63%), Gaps = 3/65 (5%)
+
+Query  1027  RGRGNRKRPTTGWESLTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRIYSKLGL  1086
+             RG   ++ P +G   LT  E  ++ L+SEGL  K IA R+F++ +TV  +++R+ +KLG+
+Sbjct  30    RGAAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  86
+
+Query  1087  TSRVQ  1091
+               R Q
+Sbjct  87    ERRTQ  91
+
+
+>VFG009892(gb|WP_003896645) (devR/dosR) two-component system response 
+regulator DevR [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=211
+
+ Score = 52.4 bits (124),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 27/71 (38%), Positives = 42/71 (59%), Gaps = 3/71 (4%)
+
+Query  1021  AITYAQRGRGNRKRPTTGWESLTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRI  1080
+             A+    RG   R  P +G   LT  E  ++ L+ EGL  K IAAR+F++ +TV  +++R+
+Sbjct  132   ALMSKLRGDAERSDPLSG---LTQQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRL  188
+
+Query  1081  YSKLGLTSRVQ  1091
+              +KLG+  R Q
+Sbjct  189   LAKLGMERRTQ  199
+
+
+>VFG002044(gb|WP_010930609) (bvgA) virulence factors two-component 
+system response regulator BvgA [BvgAS (VF0336) - Regulation 
+(VFC0301)] [Bordetella pertussis Tohama I]
+Length=209
+
+ Score = 52.0 bits (123),  Expect = 4e-07, Method: Composition-based stats.
+ Identities = 28/70 (40%), Positives = 44/70 (63%), Gaps = 0/70 (0%)
+
+Query  1031  NRKRPTTGWESLTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRIYSKLGLTSRV  1090
+             N K  +T    L+  E  V++L+++G+  KDIA  +F+S +TV T+ TR+  KL  TS V
+Sbjct  138   NAKSDSTLISVLSNRELTVLQLLAQGMSNKDIADSMFLSNKTVSTYKTRLLQKLNATSLV  197
+
+Query  1091  QLVQEAARHN  1100
+             +L+  A R+N
+Sbjct  198   ELIDLAKRNN  207
+
+
+>VFG009889(gb|WP_003874670) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+avium subsp. paratuberculosis K-10]
+Length=222
+
+ Score = 52.0 bits (123),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 28/80 (35%), Positives = 47/80 (59%), Gaps = 3/80 (4%)
+
+Query  1021  AITYAQRGRGNRKRPTTGWESLTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRI  1080
+             A+    RG   +  P +G   LT  E  ++ L+SEGL  + IAAR+F++ +TV  +++R+
+Sbjct  132   ALMAKLRGSAAQADPLSG---LTEQERTLLGLLSEGLTNRQIAARMFLAEKTVKNYVSRL  188
+
+Query  1081  YSKLGLTSRVQLVQEAARHN  1100
+              +KLG+  R Q    A++ N
+Sbjct  189   LAKLGMERRTQAAVFASKLN  208
+
+
+>VFG009890(gb|WP_009978588) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+avium 104]
+Length=222
+
+ Score = 52.0 bits (123),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 28/80 (35%), Positives = 47/80 (59%), Gaps = 3/80 (4%)
+
+Query  1021  AITYAQRGRGNRKRPTTGWESLTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRI  1080
+             A+    RG   +  P +G   LT  E  ++ L+SEGL  + IAAR+F++ +TV  +++R+
+Sbjct  132   ALMAKLRGSAAQADPLSG---LTEQERTLLGLLSEGLTNRQIAARMFLAEKTVKNYVSRL  188
+
+Query  1081  YSKLGLTSRVQLVQEAARHN  1100
+              +KLG+  R Q    A++ N
+Sbjct  189   LAKLGMERRTQAAVFASKLN  208
+
+
+>VFG027270(gb|YP_007959134) (devR/dosR) Two component transcriptional 
+regulatory protein DevR [DevRS (VF0317) - Regulation 
+(VFC0301)] [Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=214
+
+ Score = 51.6 bits (122),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 26/71 (37%), Positives = 43/71 (61%), Gaps = 3/71 (4%)
+
+Query  1021  AITYAQRGRGNRKRPTTGWESLTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRI  1080
+             A+    RG   ++ P +G   LT  E  ++ L+SEGL  K IA R+F++ +TV  +++R+
+Sbjct  132   ALMAKLRGAAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRL  188
+
+Query  1081  YSKLGLTSRVQ  1091
+              +KLG+  R Q
+Sbjct  189   LAKLGMERRTQ  199
+
+
+>VFG001824(gb|NP_217649) (devR/dosR) two component transcriptional 
+regulator DevR [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=217
+
+ Score = 51.6 bits (122),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 26/71 (37%), Positives = 43/71 (61%), Gaps = 3/71 (4%)
+
+Query  1021  AITYAQRGRGNRKRPTTGWESLTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRI  1080
+             A+    RG   ++ P +G   LT  E  ++ L+SEGL  K IA R+F++ +TV  +++R+
+Sbjct  132   ALMAKLRGAAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRL  188
+
+Query  1081  YSKLGLTSRVQ  1091
+              +KLG+  R Q
+Sbjct  189   LAKLGMERRTQ  199
+
+
+>VFG027258(gb|WP_015291223) (devR/dosR) two-component system response 
+regulator DevR [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=217
+
+ Score = 51.2 bits (121),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 26/71 (37%), Positives = 43/71 (61%), Gaps = 3/71 (4%)
+
+Query  1021  AITYAQRGRGNRKRPTTGWESLTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRI  1080
+             A+    RG   ++ P +G   LT  E  ++ L+SEGL  K IA R+F++ +TV  +++R+
+Sbjct  132   ALMAKLRGAAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRL  188
+
+Query  1081  YSKLGLTSRVQ  1091
+              +KLG+  R Q
+Sbjct  189   LAKLGMERRTQ  199
+
+
+>VFG027265(gb|YP_007963009) (devR/dosR) two component transcriptional 
+regulatoryprotein [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium tuberculosis CAS/NITR204]
+Length=217
+
+ Score = 51.2 bits (121),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 26/71 (37%), Positives = 43/71 (61%), Gaps = 3/71 (4%)
+
+Query  1021  AITYAQRGRGNRKRPTTGWESLTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRI  1080
+             A+    RG   ++ P +G   LT  E  ++ L+SEGL  K IA R+F++ +TV  +++R+
+Sbjct  132   ALMAKLRGGAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRL  188
+
+Query  1081  YSKLGLTSRVQ  1091
+              +KLG+  R Q
+Sbjct  189   LAKLGMERRTQ  199
+
+
+>VFG011120(gb|WP_012417544) (bvgA) response regulator transcription 
+factor [BvgAS (VF0336) - Regulation (VFC0301)] [Bordetella 
+avium 197N]
+Length=207
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 25/60 (42%), Positives = 41/60 (68%), Gaps = 0/60 (0%)
+
+Query  1041  SLTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRIYSKLGLTSRVQLVQEAARHN  1100
+             SL+  E  V++L+++GL  KDIA  +F+S +T+ T+ TR+  KL  T+ V+L+  A R+N
+Sbjct  146   SLSNRELAVLQLLAQGLTNKDIADSMFLSNKTISTYKTRLLQKLNATTLVELIDMAKRNN  205
+
+
+>VFG009896(gb|WP_011768347) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+sp. JLS]
+Length=215
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 26/71 (37%), Positives = 42/71 (59%), Gaps = 3/71 (4%)
+
+Query  1021  AITYAQRGRGNRKRPTTGWESLTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRI  1080
+             A+    RG   R  P +G   L+  E  ++ L+ EGL  K IAAR+F++ +TV  +++R+
+Sbjct  132   ALMSKLRGDVERSDPLSG---LSAQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRL  188
+
+Query  1081  YSKLGLTSRVQ  1091
+              +KLG+  R Q
+Sbjct  189   LAKLGMERRTQ  199
+
+
+>VFG009891(gb|WP_011740390) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+ulcerans Agy99]
+Length=216
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 26/65 (40%), Positives = 40/65 (62%), Gaps = 3/65 (5%)
+
+Query  1027  RGRGNRKRPTTGWESLTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRIYSKLGL  1086
+             RG   R  P +G   LT  E  ++ L+SEGL  K IA R+F++ +TV  +++R+ +KLG+
+Sbjct  138   RGVVERPDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  1087  TSRVQ  1091
+               R Q
+Sbjct  195   ERRTQ  199
+
+
+>VFG042685(gb|CAD56976) (fimZ gene) putative regulatory protein 
+[Type 1 fimbriae (VF1211) - Adherence (VFC0001)] [Citrobacter 
+freundii str. 3009]
+Length=210
+
+ Score = 48.5 bits (114),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 24/58 (41%), Positives = 36/58 (62%), Gaps = 0/58 (0%)
+
+Query  1042  LTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRIYSKLGLTSRVQLVQEAARH  1099
+             L+  E  V+R ++ GL  K+IA +L +S +T+  H   IYSKLGL + V+L+  A  H
+Sbjct  150   LSNREVTVLRYLANGLSNKEIAEQLLLSNKTISAHKANIYSKLGLHTIVELIDYAKMH  207
+
+
+>VFG004099(gb|WP_024131262) (fimZ) fimbria biosynthesis transcriptional 
+regulator FimZ [Type 1 fimbriae (VF0102) - Adherence 
+(VFC0001)] [Salmonella enterica subsp. enterica serovar Choleraesuis 
+str. SC-B67]
+Length=210
+
+ Score = 48.5 bits (114),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 26/71 (37%), Positives = 40/71 (56%), Gaps = 2/71 (3%)
+
+Query  1031  NRKRPTTGWES--LTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRIYSKLGLTS  1088
+             N + P  G     L+  E  V+R ++ G+  K+IA +L +S +T+  H   I+SKLGL S
+Sbjct  137   NTRTPKGGHHDMPLSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHS  196
+
+Query  1089  RVQLVQEAARH  1099
+              V+L+  A  H
+Sbjct  197   IVELIDYAKSH  207
+
+
+>VFG000449(gb|NP_459544) (fimZ) DNA-binding response regulator 
+[Type 1 fimbriae (VF0102) - Adherence (VFC0001)] [Salmonella 
+enterica subsp. enterica serovar Typhimurium str. LT2]
+Length=210
+
+ Score = 48.5 bits (114),  Expect = 6e-06, Method: Composition-based stats.
+ Identities = 26/71 (37%), Positives = 40/71 (56%), Gaps = 2/71 (3%)
+
+Query  1031  NRKRPTTGWES--LTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRIYSKLGLTS  1088
+             N + P  G     L+  E  V+R ++ G+  K+IA +L +S +T+  H   I+SKLGL S
+Sbjct  137   NTRTPKGGHHDMPLSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHS  196
+
+Query  1089  RVQLVQEAARH  1099
+              V+L+  A  H
+Sbjct  197   IVELIDYAKSH  207
+
+
+>VFG021188(gb|WP_000801272) (fimZ) fimbria biosynthesis transcriptional 
+regulator FimZ [Type 1 fimbriae (VF0102) - Adherence 
+(VFC0001)] [Salmonella enterica subsp. enterica serovar Heidelberg 
+str. SL476]
+Length=210
+
+ Score = 48.1 bits (113),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 26/71 (37%), Positives = 40/71 (56%), Gaps = 2/71 (3%)
+
+Query  1031  NRKRPTTGWES--LTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRIYSKLGLTS  1088
+             N + P  G     L+  E  V+R ++ G+  K+IA +L +S +T+  H   I+SKLGL S
+Sbjct  137   NTRPPKGGHHDMPLSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHS  196
+
+Query  1089  RVQLVQEAARH  1099
+              V+L+  A  H
+Sbjct  197   IVELIDYAKSH  207
+
+
+>VFG004096(gb|WP_000801270) (fimZ) fimbria biosynthesis transcriptional 
+regulator FimZ [Type 1 fimbriae (VF0102) - Adherence 
+(VFC0001)] [Salmonella enterica subsp. enterica serovar Typhi 
+str. CT18]
+Length=210
+
+ Score = 48.1 bits (113),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 26/71 (37%), Positives = 40/71 (56%), Gaps = 2/71 (3%)
+
+Query  1031  NRKRPTTGWES--LTPAEHNVIRLVSEGLDTKDIAARLFVSVRTVHTHLTRIYSKLGLTS  1088
+             N + P  G     L+  E  V+R ++ G+  K+IA +L +S +T+  H   I+SKLGL S
+Sbjct  137   NTRPPKGGHHDMPLSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHS  196
+
+Query  1089  RVQLVQEAARH  1099
+              V+L+  A  H
+Sbjct  197   IVELIDYAKSH  207
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10080264809
+
+
+Query= g382.t1
+
+Length=1085
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG009892(gb|WP_003896645) (devR/dosR) two-component system respo...  52.8    2e-07
+VFG024199(gb|WP_013471927) (devR/dosR) response regulator transcr...  51.2    6e-07
+VFG009893(gb|WP_011894699) (devR/dosR) response regulator transcr...  51.2    6e-07
+VFG024201(gb|WP_008259378) (devR/dosR) response regulator transcr...  51.2    7e-07
+VFG027273(gb|YP_005361686) (devR/dosR) two component transcriptio...  48.1    1e-06
+VFG009896(gb|WP_011768347) (devR/dosR) response regulator transcr...  49.7    2e-06
+VFG027255(gb|WP_005061475) (devR/dosR) response regulator transcr...  48.9    4e-06
+VFG009891(gb|WP_011740390) (devR/dosR) response regulator transcr...  48.5    6e-06
+VFG027265(gb|YP_007963009) (devR/dosR) two component transcriptio...  48.5    6e-06
+VFG022951(gb|YP_001704619) (devR/dosR) Probable transcriptional r...  48.5    6e-06
+VFG001824(gb|NP_217649) (devR/dosR) two component transcriptional...  48.5    6e-06
+VFG027258(gb|WP_015291223) (devR/dosR) two-component system respo...  48.5    6e-06
+
+
+>VFG009892(gb|WP_003896645) (devR/dosR) two-component system response 
+regulator DevR [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=211
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 28/72 (39%), Positives = 44/72 (61%), Gaps = 3/72 (4%)
+
+Query  1012  RGHSWRKRPATGWESLTPTEIDVVRLVGEGLANKDIATRLFVSPRTVQTHLTHVYTKLGF  1071
+             RG + R  P +G   LT  E  ++ L+GEGL NK IA R+F++ +TV+ +++ +  KLG 
+Sbjct  138   RGDAERSDPLSG---LTQQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  1072  TSRLQLAQAAAR  1083
+               R Q A  A++
+Sbjct  195   ERRTQAAVFASK  206
+
+
+>VFG024199(gb|WP_013471927) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+gilvum Spyr1]
+Length=216
+
+ Score = 51.2 bits (121),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 27/67 (40%), Positives = 40/67 (60%), Gaps = 3/67 (4%)
+
+Query  1012  RGHSWRKRPATGWESLTPTEIDVVRLVGEGLANKDIATRLFVSPRTVQTHLTHVYTKLGF  1071
+             RG   R  P +G   LT  E  ++ L+GEGL NK IA R+F++ +TV+ +++ +  KLG 
+Sbjct  138   RGEGERTDPLSG---LTDQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  1072  TSRLQLA  1078
+               R Q A
+Sbjct  195   ERRTQAA  201
+
+
+>VFG009893(gb|WP_011894699) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+gilvum PYR-GCK]
+Length=216
+
+ Score = 51.2 bits (121),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 27/67 (40%), Positives = 40/67 (60%), Gaps = 3/67 (4%)
+
+Query  1012  RGHSWRKRPATGWESLTPTEIDVVRLVGEGLANKDIATRLFVSPRTVQTHLTHVYTKLGF  1071
+             RG   R  P +G   LT  E  ++ L+GEGL NK IA R+F++ +TV+ +++ +  KLG 
+Sbjct  138   RGEGERTDPLSG---LTDQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  1072  TSRLQLA  1078
+               R Q A
+Sbjct  195   ERRTQAA  201
+
+
+>VFG024201(gb|WP_008259378) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+intracellulare str. MOTT36Y]
+Length=216
+
+ Score = 51.2 bits (121),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 26/67 (39%), Positives = 42/67 (63%), Gaps = 3/67 (4%)
+
+Query  1012  RGHSWRKRPATGWESLTPTEIDVVRLVGEGLANKDIATRLFVSPRTVQTHLTHVYTKLGF  1071
+             RG + R+ P +G   LT  E  ++ L+ EGL NK IA R+F++ +TV+ +++ + +KLG 
+Sbjct  138   RGGAEREDPLSG---LTDQERKLLALLSEGLTNKQIADRMFLAEKTVKNYVSRLLSKLGM  194
+
+Query  1072  TSRLQLA  1078
+               R Q A
+Sbjct  195   ERRTQAA  201
+
+
+>VFG027273(gb|YP_005361686) (devR/dosR) two component transcriptional 
+regulator [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+tuberculosis RGTB327]
+Length=109
+
+ Score = 48.1 bits (113),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 25/67 (37%), Positives = 41/67 (61%), Gaps = 3/67 (4%)
+
+Query  1012  RGHSWRKRPATGWESLTPTEIDVVRLVGEGLANKDIATRLFVSPRTVQTHLTHVYTKLGF  1071
+             RG + ++ P +G   LT  E  ++ L+ EGL NK IA R+F++ +TV+ +++ +  KLG 
+Sbjct  30    RGAAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  86
+
+Query  1072  TSRLQLA  1078
+               R Q A
+Sbjct  87    ERRTQAA  93
+
+
+>VFG009896(gb|WP_011768347) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+sp. JLS]
+Length=215
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 26/67 (39%), Positives = 40/67 (60%), Gaps = 3/67 (4%)
+
+Query  1012  RGHSWRKRPATGWESLTPTEIDVVRLVGEGLANKDIATRLFVSPRTVQTHLTHVYTKLGF  1071
+             RG   R  P +G   L+  E  ++ L+GEGL NK IA R+F++ +TV+ +++ +  KLG 
+Sbjct  138   RGDVERSDPLSG---LSAQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  1072  TSRLQLA  1078
+               R Q A
+Sbjct  195   ERRTQAA  201
+
+
+>VFG027255(gb|WP_005061475) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+abscessus subsp. bolletii 50594]
+Length=216
+
+ Score = 48.9 bits (115),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 33/107 (31%), Positives = 54/107 (50%), Gaps = 8/107 (7%)
+
+Query  982   LRDAMGEKDFDAAWAEGAALSIKETIAYAQRGHSWR-----KRPATGWESLTPTEIDVVR  1036
+             ++D  G +   A    GA  S+ +  A A   +  R       P  G   LT  E  ++ 
+Sbjct  103   IKDIKGMELISAVRTVGAGRSLLDNRAAAALMNKLRAAADNPSPLAG---LTAQERTLLE  159
+
+Query  1037  LVGEGLANKDIATRLFVSPRTVQTHLTHVYTKLGFTSRLQLAQAAAR  1083
+             L+GEGL N+ IA R+F++ +TV+ +++ + TKL    R Q+A  A +
+Sbjct  160   LIGEGLTNRQIAERMFLAEKTVKNYVSRLLTKLDLERRTQVAVLATK  206
+
+
+>VFG009891(gb|WP_011740390) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+ulcerans Agy99]
+Length=216
+
+ Score = 48.5 bits (114),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 28/71 (39%), Positives = 41/71 (58%), Gaps = 3/71 (4%)
+
+Query  1012  RGHSWRKRPATGWESLTPTEIDVVRLVGEGLANKDIATRLFVSPRTVQTHLTHVYTKLGF  1071
+             RG   R  P +G   LT  E  ++ L+ EGL NK IA R+F++ +TV+ +++ +  KLG 
+Sbjct  138   RGVVERPDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  1072  TSRLQLAQAAA  1082
+               R Q A  AA
+Sbjct  195   ERRTQAAVFAA  205
+
+
+>VFG027265(gb|YP_007963009) (devR/dosR) two component transcriptional 
+regulatoryprotein [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium tuberculosis CAS/NITR204]
+Length=217
+
+ Score = 48.5 bits (114),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 25/67 (37%), Positives = 41/67 (61%), Gaps = 3/67 (4%)
+
+Query  1012  RGHSWRKRPATGWESLTPTEIDVVRLVGEGLANKDIATRLFVSPRTVQTHLTHVYTKLGF  1071
+             RG + ++ P +G   LT  E  ++ L+ EGL NK IA R+F++ +TV+ +++ +  KLG 
+Sbjct  138   RGGAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  1072  TSRLQLA  1078
+               R Q A
+Sbjct  195   ERRTQAA  201
+
+
+>VFG022951(gb|YP_001704619) (devR/dosR) Probable transcriptional 
+regulator, LuxR family [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium abscessus ATCC 19977]
+Length=216
+
+ Score = 48.5 bits (114),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 33/107 (31%), Positives = 54/107 (50%), Gaps = 8/107 (7%)
+
+Query  982   LRDAMGEKDFDAAWAEGAALSIKETIAYAQRGHSWR-----KRPATGWESLTPTEIDVVR  1036
+             ++D  G +   A    GA  S+ +  A A   +  R       P  G   LT  E  ++ 
+Sbjct  103   IKDIKGMELISAVRTVGAGRSLLDNRAAAALMNRLRAAADNPSPLAG---LTAQERTLLE  159
+
+Query  1037  LVGEGLANKDIATRLFVSPRTVQTHLTHVYTKLGFTSRLQLAQAAAR  1083
+             L+GEGL N+ IA R+F++ +TV+ +++ + TKL    R Q+A  A +
+Sbjct  160   LIGEGLTNRQIAERMFLAEKTVKNYVSRLLTKLDLERRTQVAVLATK  206
+
+
+>VFG001824(gb|NP_217649) (devR/dosR) two component transcriptional 
+regulator DevR [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=217
+
+ Score = 48.5 bits (114),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 25/67 (37%), Positives = 41/67 (61%), Gaps = 3/67 (4%)
+
+Query  1012  RGHSWRKRPATGWESLTPTEIDVVRLVGEGLANKDIATRLFVSPRTVQTHLTHVYTKLGF  1071
+             RG + ++ P +G   LT  E  ++ L+ EGL NK IA R+F++ +TV+ +++ +  KLG 
+Sbjct  138   RGAAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  1072  TSRLQLA  1078
+               R Q A
+Sbjct  195   ERRTQAA  201
+
+
+>VFG027258(gb|WP_015291223) (devR/dosR) two-component system response 
+regulator DevR [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=217
+
+ Score = 48.5 bits (114),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 25/67 (37%), Positives = 41/67 (61%), Gaps = 3/67 (4%)
+
+Query  1012  RGHSWRKRPATGWESLTPTEIDVVRLVGEGLANKDIATRLFVSPRTVQTHLTHVYTKLGF  1071
+             RG + ++ P +G   LT  E  ++ L+ EGL NK IA R+F++ +TV+ +++ +  KLG 
+Sbjct  138   RGAAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  1072  TSRLQLA  1078
+               R Q A
+Sbjct  195   ERRTQAA  201
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.133    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 9927379094
+
+
+Query= g878.t1
+
+Length=878
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG027273(gb|YP_005361686) (devR/dosR) two component transcriptio...  56.2    1e-09
+VFG009893(gb|WP_011894699) (devR/dosR) response regulator transcr...  58.5    2e-09
+VFG024199(gb|WP_013471927) (devR/dosR) response regulator transcr...  58.5    2e-09
+VFG024201(gb|WP_008259378) (devR/dosR) response regulator transcr...  57.4    4e-09
+VFG027270(gb|YP_007959134) (devR/dosR) Two component transcriptio...  57.4    5e-09
+VFG001824(gb|NP_217649) (devR/dosR) two component transcriptional...  56.6    9e-09
+VFG027258(gb|WP_015291223) (devR/dosR) two-component system respo...  56.2    1e-08
+VFG027265(gb|YP_007963009) (devR/dosR) two component transcriptio...  56.2    1e-08
+VFG009892(gb|WP_003896645) (devR/dosR) two-component system respo...  55.8    1e-08
+VFG009891(gb|WP_011740390) (devR/dosR) response regulator transcr...  55.8    1e-08
+VFG009896(gb|WP_011768347) (devR/dosR) response regulator transcr...  53.5    1e-07
+VFG042685(gb|CAD56976) (fimZ gene) putative regulatory protein [T...  52.8    2e-07
+VFG021188(gb|WP_000801272) (fimZ) fimbria biosynthesis transcript...  52.0    3e-07
+VFG004096(gb|WP_000801270) (fimZ) fimbria biosynthesis transcript...  52.0    3e-07
+VFG004099(gb|WP_024131262) (fimZ) fimbria biosynthesis transcript...  51.2    5e-07
+VFG000449(gb|NP_459544) (fimZ) DNA-binding response regulator [Ty...  51.2    5e-07
+VFG022956(gb|WP_013829907) (devR/dosR) response regulator transcr...  51.2    6e-07
+VFG009889(gb|WP_003874670) (devR/dosR) response regulator transcr...  51.2    7e-07
+VFG009895(gb|WP_011778690) (devR/dosR) response regulator transcr...  50.8    7e-07
+VFG009890(gb|WP_009978588) (devR/dosR) response regulator transcr...  51.2    7e-07
+VFG002044(gb|WP_010930609) (bvgA) virulence factors two-component...  50.1    1e-06
+VFG011120(gb|WP_012417544) (bvgA) response regulator transcriptio...  50.1    1e-06
+VFG022951(gb|YP_001704619) (devR/dosR) Probable transcriptional r...  48.9    4e-06
+VFG027255(gb|WP_005061475) (devR/dosR) response regulator transcr...  48.5    4e-06
+
+
+>VFG027273(gb|YP_005361686) (devR/dosR) two component transcriptional 
+regulator [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+tuberculosis RGTB327]
+Length=109
+
+ Score = 56.2 bits (134),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 28/65 (43%), Positives = 44/65 (68%), Gaps = 3/65 (5%)
+
+Query  802  RGRGERKRPARGWGSLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGL  861
+            RG  E++ P  G   LT  ER ++ L+SEGL+NK IA R+F++ +TV+ +++ + AKLG+
+Sbjct  30   RGAAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  86
+
+Query  862  PSRVQ  866
+              R Q
+Sbjct  87   ERRTQ  91
+
+
+>VFG009893(gb|WP_011894699) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+gilvum PYR-GCK]
+Length=216
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 30/71 (42%), Positives = 45/71 (63%), Gaps = 3/71 (4%)
+
+Query  796  AIAYAQRGRGERKRPARGWGSLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHV  855
+            A+    RG GER  P  G   LT  ER ++ L+ EGL+NK IA R+F++ +TV+ +++ +
+Sbjct  132  ALMAKLRGEGERTDPLSG---LTDQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRL  188
+
+Query  856  YAKLGLPSRVQ  866
+             AKLG+  R Q
+Sbjct  189  LAKLGMERRTQ  199
+
+
+>VFG024199(gb|WP_013471927) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+gilvum Spyr1]
+Length=216
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 30/71 (42%), Positives = 45/71 (63%), Gaps = 3/71 (4%)
+
+Query  796  AIAYAQRGRGERKRPARGWGSLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHV  855
+            A+    RG GER  P  G   LT  ER ++ L+ EGL+NK IA R+F++ +TV+ +++ +
+Sbjct  132  ALMAKLRGEGERTDPLSG---LTDQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRL  188
+
+Query  856  YAKLGLPSRVQ  866
+             AKLG+  R Q
+Sbjct  189  LAKLGMERRTQ  199
+
+
+>VFG024201(gb|WP_008259378) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+intracellulare str. MOTT36Y]
+Length=216
+
+ Score = 57.4 bits (137),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 28/65 (43%), Positives = 44/65 (68%), Gaps = 3/65 (5%)
+
+Query  802  RGRGERKRPARGWGSLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGL  861
+            RG  ER+ P  G   LT  ER ++ L+SEGL+NK IA R+F++ +TV+ +++ + +KLG+
+Sbjct  138  RGGAEREDPLSG---LTDQERKLLALLSEGLTNKQIADRMFLAEKTVKNYVSRLLSKLGM  194
+
+Query  862  PSRVQ  866
+              R Q
+Sbjct  195  ERRTQ  199
+
+
+>VFG027270(gb|YP_007959134) (devR/dosR) Two component transcriptional 
+regulatory protein DevR [DevRS (VF0317) - Regulation 
+(VFC0301)] [Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=214
+
+ Score = 57.4 bits (137),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 28/65 (43%), Positives = 44/65 (68%), Gaps = 3/65 (5%)
+
+Query  802  RGRGERKRPARGWGSLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGL  861
+            RG  E++ P  G   LT  ER ++ L+SEGL+NK IA R+F++ +TV+ +++ + AKLG+
+Sbjct  138  RGAAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  862  PSRVQ  866
+              R Q
+Sbjct  195  ERRTQ  199
+
+
+>VFG001824(gb|NP_217649) (devR/dosR) two component transcriptional 
+regulator DevR [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=217
+
+ Score = 56.6 bits (135),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 28/65 (43%), Positives = 44/65 (68%), Gaps = 3/65 (5%)
+
+Query  802  RGRGERKRPARGWGSLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGL  861
+            RG  E++ P  G   LT  ER ++ L+SEGL+NK IA R+F++ +TV+ +++ + AKLG+
+Sbjct  138  RGAAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  862  PSRVQ  866
+              R Q
+Sbjct  195  ERRTQ  199
+
+
+>VFG027258(gb|WP_015291223) (devR/dosR) two-component system response 
+regulator DevR [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=217
+
+ Score = 56.2 bits (134),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 28/65 (43%), Positives = 44/65 (68%), Gaps = 3/65 (5%)
+
+Query  802  RGRGERKRPARGWGSLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGL  861
+            RG  E++ P  G   LT  ER ++ L+SEGL+NK IA R+F++ +TV+ +++ + AKLG+
+Sbjct  138  RGAAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  862  PSRVQ  866
+              R Q
+Sbjct  195  ERRTQ  199
+
+
+>VFG027265(gb|YP_007963009) (devR/dosR) two component transcriptional 
+regulatoryprotein [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium tuberculosis CAS/NITR204]
+Length=217
+
+ Score = 56.2 bits (134),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 28/65 (43%), Positives = 44/65 (68%), Gaps = 3/65 (5%)
+
+Query  802  RGRGERKRPARGWGSLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGL  861
+            RG  E++ P  G   LT  ER ++ L+SEGL+NK IA R+F++ +TV+ +++ + AKLG+
+Sbjct  138  RGGAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  862  PSRVQ  866
+              R Q
+Sbjct  195  ERRTQ  199
+
+
+>VFG009892(gb|WP_003896645) (devR/dosR) two-component system response 
+regulator DevR [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=211
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 29/71 (41%), Positives = 44/71 (62%), Gaps = 3/71 (4%)
+
+Query  796  AIAYAQRGRGERKRPARGWGSLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHV  855
+            A+    RG  ER  P  G   LT  ER ++ L+ EGL+NK IA R+F++ +TV+ +++ +
+Sbjct  132  ALMSKLRGDAERSDPLSG---LTQQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRL  188
+
+Query  856  YAKLGLPSRVQ  866
+             AKLG+  R Q
+Sbjct  189  LAKLGMERRTQ  199
+
+
+>VFG009891(gb|WP_011740390) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+ulcerans Agy99]
+Length=216
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 29/65 (45%), Positives = 43/65 (66%), Gaps = 3/65 (5%)
+
+Query  802  RGRGERKRPARGWGSLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGL  861
+            RG  ER  P  G   LT  ER ++ L+SEGL+NK IA R+F++ +TV+ +++ + AKLG+
+Sbjct  138  RGVVERPDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  862  PSRVQ  866
+              R Q
+Sbjct  195  ERRTQ  199
+
+
+>VFG009896(gb|WP_011768347) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+sp. JLS]
+Length=215
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 28/71 (39%), Positives = 44/71 (62%), Gaps = 3/71 (4%)
+
+Query  796  AIAYAQRGRGERKRPARGWGSLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHV  855
+            A+    RG  ER  P  G   L+  ER ++ L+ EGL+NK IA R+F++ +TV+ +++ +
+Sbjct  132  ALMSKLRGDVERSDPLSG---LSAQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRL  188
+
+Query  856  YAKLGLPSRVQ  866
+             AKLG+  R Q
+Sbjct  189  LAKLGMERRTQ  199
+
+
+>VFG042685(gb|CAD56976) (fimZ gene) putative regulatory protein 
+[Type 1 fimbriae (VF1211) - Adherence (VFC0001)] [Citrobacter 
+freundii str. 3009]
+Length=210
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 24/55 (44%), Positives = 40/55 (73%), Gaps = 0/55 (0%)
+
+Query  817  LTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGLPSRVQLVDEA  871
+            L+  E  V+R ++ GLSNK+IA++L +S +T+  H  ++Y+KLGL + V+L+D A
+Sbjct  150  LSNREVTVLRYLANGLSNKEIAEQLLLSNKTISAHKANIYSKLGLHTIVELIDYA  204
+
+
+>VFG021188(gb|WP_000801272) (fimZ) fimbria biosynthesis transcriptional 
+regulator FimZ [Type 1 fimbriae (VF0102) - Adherence 
+(VFC0001)] [Salmonella enterica subsp. enterica serovar Heidelberg 
+str. SL476]
+Length=210
+
+ Score = 52.0 bits (123),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 26/66 (39%), Positives = 44/66 (67%), Gaps = 3/66 (5%)
+
+Query  809  RPARGWG---SLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGLPSRV  865
+            RP +G      L+  E  V+R ++ G+SNK+IA++L +S +T+  H  ++++KLGL S V
+Sbjct  139  RPPKGGHHDMPLSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHSIV  198
+
+Query  866  QLVDEA  871
+            +L+D A
+Sbjct  199  ELIDYA  204
+
+
+>VFG004096(gb|WP_000801270) (fimZ) fimbria biosynthesis transcriptional 
+regulator FimZ [Type 1 fimbriae (VF0102) - Adherence 
+(VFC0001)] [Salmonella enterica subsp. enterica serovar Typhi 
+str. CT18]
+Length=210
+
+ Score = 52.0 bits (123),  Expect = 3e-07, Method: Composition-based stats.
+ Identities = 26/66 (39%), Positives = 44/66 (67%), Gaps = 3/66 (5%)
+
+Query  809  RPARGWG---SLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGLPSRV  865
+            RP +G      L+  E  V+R ++ G+SNK+IA++L +S +T+  H  ++++KLGL S V
+Sbjct  139  RPPKGGHHDMPLSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHSIV  198
+
+Query  866  QLVDEA  871
+            +L+D A
+Sbjct  199  ELIDYA  204
+
+
+>VFG004099(gb|WP_024131262) (fimZ) fimbria biosynthesis transcriptional 
+regulator FimZ [Type 1 fimbriae (VF0102) - Adherence 
+(VFC0001)] [Salmonella enterica subsp. enterica serovar Choleraesuis 
+str. SC-B67]
+Length=210
+
+ Score = 51.2 bits (121),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 23/55 (42%), Positives = 40/55 (73%), Gaps = 0/55 (0%)
+
+Query  817  LTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGLPSRVQLVDEA  871
+            L+  E  V+R ++ G+SNK+IA++L +S +T+  H  ++++KLGL S V+L+D A
+Sbjct  150  LSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHSIVELIDYA  204
+
+
+>VFG000449(gb|NP_459544) (fimZ) DNA-binding response regulator 
+[Type 1 fimbriae (VF0102) - Adherence (VFC0001)] [Salmonella 
+enterica subsp. enterica serovar Typhimurium str. LT2]
+Length=210
+
+ Score = 51.2 bits (121),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 23/55 (42%), Positives = 40/55 (73%), Gaps = 0/55 (0%)
+
+Query  817  LTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGLPSRVQLVDEA  871
+            L+  E  V+R ++ G+SNK+IA++L +S +T+  H  ++++KLGL S V+L+D A
+Sbjct  150  LSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHSIVELIDYA  204
+
+
+>VFG022956(gb|WP_013829907) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+sp. JDM601]
+Length=213
+
+ Score = 51.2 bits (121),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 27/71 (38%), Positives = 45/71 (63%), Gaps = 1/71 (1%)
+
+Query  796  AIAYAQRGRGERKRPARGWGSLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHV  855
+            A A   + RG   +P    G L+  ER ++ L++EGL+NK IA R+F++ +TV+ +++ +
+Sbjct  130  AAALMAKLRGATAKPDPLSG-LSEQERTLLSLLAEGLTNKQIADRMFLAEKTVKNYVSRL  188
+
+Query  856  YAKLGLPSRVQ  866
+             AKLG+  R Q
+Sbjct  189  LAKLGMERRTQ  199
+
+
+>VFG009889(gb|WP_003874670) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+avium subsp. paratuberculosis K-10]
+Length=222
+
+ Score = 51.2 bits (121),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 26/65 (40%), Positives = 42/65 (65%), Gaps = 3/65 (5%)
+
+Query  802  RGRGERKRPARGWGSLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGL  861
+            RG   +  P  G   LT  ER ++ L+SEGL+N+ IA R+F++ +TV+ +++ + AKLG+
+Sbjct  138  RGSAAQADPLSG---LTEQERTLLGLLSEGLTNRQIAARMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  862  PSRVQ  866
+              R Q
+Sbjct  195  ERRTQ  199
+
+
+>VFG009895(gb|WP_011778690) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+vanbaalenii PYR-1]
+Length=212
+
+ Score = 50.8 bits (120),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 26/65 (40%), Positives = 41/65 (63%), Gaps = 3/65 (5%)
+
+Query  802  RGRGERKRPARGWGSLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGL  861
+            R   ER  P  G   L+  ER ++ L+ EGL+NK IA R+F++ +TV+ +++ + AKLG+
+Sbjct  138  RDTAERADPLLG---LSSQERVLLDLLGEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  862  PSRVQ  866
+              R Q
+Sbjct  195  ERRTQ  199
+
+
+>VFG009890(gb|WP_009978588) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+avium 104]
+Length=222
+
+ Score = 51.2 bits (121),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 26/65 (40%), Positives = 42/65 (65%), Gaps = 3/65 (5%)
+
+Query  802  RGRGERKRPARGWGSLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGL  861
+            RG   +  P  G   LT  ER ++ L+SEGL+N+ IA R+F++ +TV+ +++ + AKLG+
+Sbjct  138  RGSAAQADPLSG---LTEQERTLLGLLSEGLTNRQIAARMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  862  PSRVQ  866
+              R Q
+Sbjct  195  ERRTQ  199
+
+
+>VFG002044(gb|WP_010930609) (bvgA) virulence factors two-component 
+system response regulator BvgA [BvgAS (VF0336) - Regulation 
+(VFC0301)] [Bordetella pertussis Tohama I]
+Length=209
+
+ Score = 50.1 bits (118),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 25/57 (44%), Positives = 39/57 (68%), Gaps = 0/57 (0%)
+
+Query  817  LTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGLPSRVQLVDEAAR  873
+            L+  E  V++L+++G+SNKDIA  +F+S +TV T+ T +  KL   S V+L+D A R
+Sbjct  149  LSNRELTVLQLLAQGMSNKDIADSMFLSNKTVSTYKTRLLQKLNATSLVELIDLAKR  205
+
+
+>VFG011120(gb|WP_012417544) (bvgA) response regulator transcription 
+factor [BvgAS (VF0336) - Regulation (VFC0301)] [Bordetella 
+avium 197N]
+Length=207
+
+ Score = 50.1 bits (118),  Expect = 1e-06, Method: Composition-based stats.
+ Identities = 24/58 (41%), Positives = 40/58 (69%), Gaps = 0/58 (0%)
+
+Query  816  SLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGLPSRVQLVDEAAR  873
+            SL+  E  V++L+++GL+NKDIA  +F+S +T+ T+ T +  KL   + V+L+D A R
+Sbjct  146  SLSNRELAVLQLLAQGLTNKDIADSMFLSNKTISTYKTRLLQKLNATTLVELIDMAKR  203
+
+
+>VFG022951(gb|YP_001704619) (devR/dosR) Probable transcriptional 
+regulator, LuxR family [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium abscessus ATCC 19977]
+Length=216
+
+ Score = 48.9 bits (115),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 26/72 (36%), Positives = 43/72 (60%), Gaps = 1/72 (1%)
+
+Query  796  AIAYAQRGRGERKRPARGWGSLTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHV  855
+            A A   R R     P+   G LT  ER ++ L+ EGL+N+ IA+R+F++ +TV+ +++ +
+Sbjct  130  AAALMNRLRAAADNPSPLAG-LTAQERTLLELIGEGLTNRQIAERMFLAEKTVKNYVSRL  188
+
+Query  856  YAKLGLPSRVQL  867
+              KL L  R Q+
+Sbjct  189  LTKLDLERRTQV  200
+
+
+>VFG027255(gb|WP_005061475) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+abscessus subsp. bolletii 50594]
+Length=216
+
+ Score = 48.5 bits (114),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 20/51 (39%), Positives = 36/51 (71%), Gaps = 0/51 (0%)
+
+Query  817  LTPTERDVVRLVSEGLSNKDIAKRLFVSPRTVQTHLTHVYAKLGLPSRVQL  867
+            LT  ER ++ L+ EGL+N+ IA+R+F++ +TV+ +++ +  KL L  R Q+
+Sbjct  150  LTAQERTLLELIGEGLTNRQIAERMFLAEKTVKNYVSRLLTKLDLERRTQV  200
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.132    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7880977305
+
+
+Query= g879.t1
+
+Length=163
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 761406769
+
+
+Query= g882.t1
+
+Length=369
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2788606473
+
+
+Query= g1105.t1
+
+Length=164
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 772130808
+
+
+Query= g1346.t1
+
+Length=1124
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG003357(gb|WP_011191565) (YPTB_RS01850) two component system re...  52.8    2e-07
+VFG009893(gb|WP_011894699) (devR/dosR) response regulator transcr...  51.6    5e-07
+VFG024199(gb|WP_013471927) (devR/dosR) response regulator transcr...  51.6    5e-07
+VFG024201(gb|WP_008259378) (devR/dosR) response regulator transcr...  51.6    5e-07
+VFG022951(gb|YP_001704619) (devR/dosR) Probable transcriptional r...  50.8    1e-06
+VFG017283(gb|WP_012105859) (YPSIP31758_RS20530) two component sys...  49.7    2e-06
+VFG001746(gb|WP_002209034) (YPO_RS02280) two component system res...  49.7    2e-06
+VFG027255(gb|WP_005061475) (devR/dosR) response regulator transcr...  49.7    3e-06
+VFG009892(gb|WP_003896645) (devR/dosR) two-component system respo...  48.9    4e-06
+VFG027273(gb|YP_005361686) (devR/dosR) two component transcriptio...  46.6    4e-06
+VFG023572(gb|WP_005156725) (YE105_RS01705) two component system r...  48.1    7e-06
+
+
+>VFG003357(gb|WP_011191565) (YPTB_RS01850) two component system 
+response regulator [TTSS (chromosomally encoded) (VF1023) 
+- Effector delivery system (VFC0086)] [Yersinia pseudotuberculosis 
+IP 32953]
+Length=210
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 26/60 (43%), Positives = 39/60 (65%), Gaps = 0/60 (0%)
+
+Query  1058  PSNGWDALTPAEHKIVKLVTEGLVTKDIAARLFVSPRTVQTHLTHIYTKLDVTSRVQLVQ  1117
+             P+N    LTP E +I+KL+TEG   + IAA+L +S +TV+TH  ++  KLDV    +L+ 
+Sbjct  142   PANTPTVLTPRERQILKLITEGSCNRVIAAQLSISQKTVETHRLNMMKKLDVHKVAELIH  201
+
+
+>VFG009893(gb|WP_011894699) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+gilvum PYR-GCK]
+Length=216
+
+ Score = 51.6 bits (122),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 27/71 (38%), Positives = 42/71 (59%), Gaps = 3/71 (4%)
+
+Query  1044  AIAYAQRGRGERKRPSNGWDALTPAEHKIVKLVTEGLVTKDIAARLFVSPRTVQTHLTHI  1103
+             A+    RG GER  P +G   LT  E  ++ L+ EGL  K IAAR+F++ +TV+ +++ +
+Sbjct  132   ALMAKLRGEGERTDPLSG---LTDQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRL  188
+
+Query  1104  YTKLDVTSRVQ  1114
+               KL +  R Q
+Sbjct  189   LAKLGMERRTQ  199
+
+
+>VFG024199(gb|WP_013471927) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+gilvum Spyr1]
+Length=216
+
+ Score = 51.6 bits (122),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 27/71 (38%), Positives = 42/71 (59%), Gaps = 3/71 (4%)
+
+Query  1044  AIAYAQRGRGERKRPSNGWDALTPAEHKIVKLVTEGLVTKDIAARLFVSPRTVQTHLTHI  1103
+             A+    RG GER  P +G   LT  E  ++ L+ EGL  K IAAR+F++ +TV+ +++ +
+Sbjct  132   ALMAKLRGEGERTDPLSG---LTDQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRL  188
+
+Query  1104  YTKLDVTSRVQ  1114
+               KL +  R Q
+Sbjct  189   LAKLGMERRTQ  199
+
+
+>VFG024201(gb|WP_008259378) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+intracellulare str. MOTT36Y]
+Length=216
+
+ Score = 51.6 bits (122),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 25/65 (38%), Positives = 42/65 (65%), Gaps = 3/65 (5%)
+
+Query  1050  RGRGERKRPSNGWDALTPAEHKIVKLVTEGLVTKDIAARLFVSPRTVQTHLTHIYTKLDV  1109
+             RG  ER+ P +G   LT  E K++ L++EGL  K IA R+F++ +TV+ +++ + +KL +
+Sbjct  138   RGGAEREDPLSG---LTDQERKLLALLSEGLTNKQIADRMFLAEKTVKNYVSRLLSKLGM  194
+
+Query  1110  TSRVQ  1114
+               R Q
+Sbjct  195   ERRTQ  199
+
+
+>VFG022951(gb|YP_001704619) (devR/dosR) Probable transcriptional 
+regulator, LuxR family [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium abscessus ATCC 19977]
+Length=216
+
+ Score = 50.8 bits (120),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 36/114 (32%), Positives = 57/114 (50%), Gaps = 5/114 (4%)
+
+Query  1006  HKIWDAGYEAATA-ALRDAMGDEDFTAAWAEGAAAPLDE---AIAYAQRGRGERKRPSNG  1061
+             H + DA    A    ++D  G E  +A    GA   L +   A A   R R     PS  
+Sbjct  88    HAMLDAIMAGAGGYVIKDIKGMELISAVRTVGAGRSLLDNRAAAALMNRLRAAADNPSP-  146
+
+Query  1062  WDALTPAEHKIVKLVTEGLVTKDIAARLFVSPRTVQTHLTHIYTKLDVTSRVQL  1115
+                LT  E  +++L+ EGL  + IA R+F++ +TV+ +++ + TKLD+  R Q+
+Sbjct  147   LAGLTAQERTLLELIGEGLTNRQIAERMFLAEKTVKNYVSRLLTKLDLERRTQV  200
+
+
+>VFG017283(gb|WP_012105859) (YPSIP31758_RS20530) two component 
+system response regulator [TTSS (chromosomally encoded) (VF1023) 
+- Effector delivery system (VFC0086)] [Yersinia pseudotuberculosis 
+IP 31758]
+Length=210
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 24/53 (45%), Positives = 36/53 (68%), Gaps = 0/53 (0%)
+
+Query  1065  LTPAEHKIVKLVTEGLVTKDIAARLFVSPRTVQTHLTHIYTKLDVTSRVQLVQ  1117
+             LTP E +I+KL+TEG   + IAA+L +S +TV+TH  ++  KLDV    +L+ 
+Sbjct  149   LTPRERQILKLITEGSCNRVIAAQLSISQKTVETHRLNMMKKLDVHKVAELIH  201
+
+
+>VFG001746(gb|WP_002209034) (YPO_RS02280) two component system 
+response regulator [TTSS (chromosomally encoded) (VF1023) - 
+Effector delivery system (VFC0086)] [Yersinia pestis CO92]
+Length=210
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 24/53 (45%), Positives = 36/53 (68%), Gaps = 0/53 (0%)
+
+Query  1065  LTPAEHKIVKLVTEGLVTKDIAARLFVSPRTVQTHLTHIYTKLDVTSRVQLVQ  1117
+             LTP E +I+KL+TEG   + IAA+L +S +TV+TH  ++  KLDV    +L+ 
+Sbjct  149   LTPRERQILKLITEGSCNRVIAAQLSISQKTVETHRLNMMKKLDVHKVAELIH  201
+
+
+>VFG027255(gb|WP_005061475) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+abscessus subsp. bolletii 50594]
+Length=216
+
+ Score = 49.7 bits (117),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 35/114 (31%), Positives = 57/114 (50%), Gaps = 5/114 (4%)
+
+Query  1006  HKIWDAGYEAATA-ALRDAMGDEDFTAAWAEGAAAPLDE---AIAYAQRGRGERKRPSNG  1061
+             H + DA    A    ++D  G E  +A    GA   L +   A A   + R     PS  
+Sbjct  88    HAMLDAIMAGAGGYVIKDIKGMELISAVRTVGAGRSLLDNRAAAALMNKLRAAADNPS-P  146
+
+Query  1062  WDALTPAEHKIVKLVTEGLVTKDIAARLFVSPRTVQTHLTHIYTKLDVTSRVQL  1115
+                LT  E  +++L+ EGL  + IA R+F++ +TV+ +++ + TKLD+  R Q+
+Sbjct  147   LAGLTAQERTLLELIGEGLTNRQIAERMFLAEKTVKNYVSRLLTKLDLERRTQV  200
+
+
+>VFG009892(gb|WP_003896645) (devR/dosR) two-component system response 
+regulator DevR [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=211
+
+ Score = 48.9 bits (115),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 26/71 (37%), Positives = 41/71 (58%), Gaps = 3/71 (4%)
+
+Query  1044  AIAYAQRGRGERKRPSNGWDALTPAEHKIVKLVTEGLVTKDIAARLFVSPRTVQTHLTHI  1103
+             A+    RG  ER  P +G   LT  E  ++ L+ EGL  K IAAR+F++ +TV+ +++ +
+Sbjct  132   ALMSKLRGDAERSDPLSG---LTQQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRL  188
+
+Query  1104  YTKLDVTSRVQ  1114
+               KL +  R Q
+Sbjct  189   LAKLGMERRTQ  199
+
+
+>VFG027273(gb|YP_005361686) (devR/dosR) two component transcriptional 
+regulator [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+tuberculosis RGTB327]
+Length=109
+
+ Score = 46.6 bits (109),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 23/65 (35%), Positives = 40/65 (62%), Gaps = 3/65 (5%)
+
+Query  1050  RGRGERKRPSNGWDALTPAEHKIVKLVTEGLVTKDIAARLFVSPRTVQTHLTHIYTKLDV  1109
+             RG  E++ P +G   LT  E  ++ L++EGL  K IA R+F++ +TV+ +++ +  KL +
+Sbjct  30    RGAAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  86
+
+Query  1110  TSRVQ  1114
+               R Q
+Sbjct  87    ERRTQ  91
+
+
+>VFG023572(gb|WP_005156725) (YE105_RS01705) two component system 
+response regulator [TTSS (chromosomally encoded) (VF1023) 
+- Effector delivery system (VFC0086)] [Yersinia enterocolitica 
+subsp. palearctica 105.5R(r)]
+Length=210
+
+ Score = 48.1 bits (113),  Expect = 7e-06, Method: Composition-based stats.
+ Identities = 23/53 (43%), Positives = 36/53 (68%), Gaps = 0/53 (0%)
+
+Query  1065  LTPAEHKIVKLVTEGLVTKDIAARLFVSPRTVQTHLTHIYTKLDVTSRVQLVQ  1117
+             LTP E +I+KL+TEG   + IA++L +S +TV+TH  ++  KLDV    +L+ 
+Sbjct  149   LTPRERQILKLITEGSCNRIIASQLSISQKTVETHRLNMMKKLDVHKVAELIH  201
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.132    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10324881953
+
+
+Query= g1347.t1
+
+Length=201
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1127849858
+
+
+Query= g1880.t1
+
+Length=445
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3562353054
+
+
+Query= g2453.t1
+
+Length=1109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG009893(gb|WP_011894699) (devR/dosR) response regulator transcr...  54.3    8e-08
+VFG024199(gb|WP_013471927) (devR/dosR) response regulator transcr...  53.9    9e-08
+VFG009892(gb|WP_003896645) (devR/dosR) two-component system respo...  52.8    2e-07
+VFG022951(gb|YP_001704619) (devR/dosR) Probable transcriptional r...  52.4    4e-07
+VFG024201(gb|WP_008259378) (devR/dosR) response regulator transcr...  51.6    6e-07
+VFG027255(gb|WP_005061475) (devR/dosR) response regulator transcr...  51.2    8e-07
+VFG009896(gb|WP_011768347) (devR/dosR) response regulator transcr...  51.2    8e-07
+VFG009890(gb|WP_009978588) (devR/dosR) response regulator transcr...  50.8    1e-06
+VFG009889(gb|WP_003874670) (devR/dosR) response regulator transcr...  50.8    1e-06
+VFG009891(gb|WP_011740390) (devR/dosR) response regulator transcr...  50.1    2e-06
+VFG027273(gb|YP_005361686) (devR/dosR) two component transcriptio...  47.4    2e-06
+VFG027258(gb|WP_015291223) (devR/dosR) two-component system respo...  48.9    5e-06
+VFG001824(gb|NP_217649) (devR/dosR) two component transcriptional...  48.5    7e-06
+VFG027270(gb|YP_007959134) (devR/dosR) Two component transcriptio...  48.1    8e-06
+VFG022956(gb|WP_013829907) (devR/dosR) response regulator transcr...  48.1    8e-06
+VFG027265(gb|YP_007963009) (devR/dosR) two component transcriptio...  48.1    9e-06
+
+
+>VFG009893(gb|WP_011894699) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+gilvum PYR-GCK]
+Length=216
+
+ Score = 54.3 bits (129),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 29/73 (40%), Positives = 44/73 (60%), Gaps = 3/73 (4%)
+
+Query  1021  AIAYAQRGRGARKRPTSGWGALTPTELEVALLVGEGLSNKEIGVRLFISPRTVHSHLTHV  1080
+             A+    RG G R  P SG   LT  E  +  L+GEGL+NK+I  R+F++ +TV ++++ +
+Sbjct  132   ALMAKLRGEGERTDPLSG---LTDQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRL  188
+
+Query  1081  YTKLGLSSRLQLA  1093
+               KLG+  R Q A
+Sbjct  189   LAKLGMERRTQAA  201
+
+
+>VFG024199(gb|WP_013471927) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+gilvum Spyr1]
+Length=216
+
+ Score = 53.9 bits (128),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 29/73 (40%), Positives = 44/73 (60%), Gaps = 3/73 (4%)
+
+Query  1021  AIAYAQRGRGARKRPTSGWGALTPTELEVALLVGEGLSNKEIGVRLFISPRTVHSHLTHV  1080
+             A+    RG G R  P SG   LT  E  +  L+GEGL+NK+I  R+F++ +TV ++++ +
+Sbjct  132   ALMAKLRGEGERTDPLSG---LTDQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRL  188
+
+Query  1081  YTKLGLSSRLQLA  1093
+               KLG+  R Q A
+Sbjct  189   LAKLGMERRTQAA  201
+
+
+>VFG009892(gb|WP_003896645) (devR/dosR) two-component system response 
+regulator DevR [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=211
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 29/78 (37%), Positives = 46/78 (59%), Gaps = 3/78 (4%)
+
+Query  1021  AIAYAQRGRGARKRPTSGWGALTPTELEVALLVGEGLSNKEIGVRLFISPRTVHSHLTHV  1080
+             A+    RG   R  P SG   LT  E  +  L+GEGL+NK+I  R+F++ +TV ++++ +
+Sbjct  132   ALMSKLRGDAERSDPLSG---LTQQERVLLDLLGEGLTNKQIAARMFLAEKTVKNYVSRL  188
+
+Query  1081  YTKLGLSSRLQLAQQAAR  1098
+               KLG+  R Q A  A++
+Sbjct  189   LAKLGMERRTQAAVFASK  206
+
+
+>VFG022951(gb|YP_001704619) (devR/dosR) Probable transcriptional 
+regulator, LuxR family [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium abscessus ATCC 19977]
+Length=216
+
+ Score = 52.4 bits (124),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 30/85 (35%), Positives = 47/85 (55%), Gaps = 1/85 (1%)
+
+Query  1021  AIAYAQRGRGARKRPTSGWGALTPTELEVALLVGEGLSNKEIGVRLFISPRTVHSHLTHV  1080
+             A A   R R A   P S    LT  E  +  L+GEGL+N++I  R+F++ +TV ++++ +
+Sbjct  130   AAALMNRLRAAADNP-SPLAGLTAQERTLLELIGEGLTNRQIAERMFLAEKTVKNYVSRL  188
+
+Query  1081  YTKLGLSSRLQLAQQAARRGESERG  1105
+              TKL L  R Q+A  A +     +G
+Sbjct  189   LTKLDLERRTQVAVLATKLARENQG  213
+
+
+>VFG024201(gb|WP_008259378) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+intracellulare str. MOTT36Y]
+Length=216
+
+ Score = 51.6 bits (122),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 27/73 (37%), Positives = 45/73 (62%), Gaps = 3/73 (4%)
+
+Query  1021  AIAYAQRGRGARKRPTSGWGALTPTELEVALLVGEGLSNKEIGVRLFISPRTVHSHLTHV  1080
+             A+    RG   R+ P SG   LT  E ++  L+ EGL+NK+I  R+F++ +TV ++++ +
+Sbjct  132   ALMAKLRGGAEREDPLSG---LTDQERKLLALLSEGLTNKQIADRMFLAEKTVKNYVSRL  188
+
+Query  1081  YTKLGLSSRLQLA  1093
+              +KLG+  R Q A
+Sbjct  189   LSKLGMERRTQAA  201
+
+
+>VFG027255(gb|WP_005061475) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+abscessus subsp. bolletii 50594]
+Length=216
+
+ Score = 51.2 bits (121),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 29/85 (34%), Positives = 47/85 (55%), Gaps = 1/85 (1%)
+
+Query  1021  AIAYAQRGRGARKRPTSGWGALTPTELEVALLVGEGLSNKEIGVRLFISPRTVHSHLTHV  1080
+             A A   + R A   P S    LT  E  +  L+GEGL+N++I  R+F++ +TV ++++ +
+Sbjct  130   AAALMNKLRAAADNP-SPLAGLTAQERTLLELIGEGLTNRQIAERMFLAEKTVKNYVSRL  188
+
+Query  1081  YTKLGLSSRLQLAQQAARRGESERG  1105
+              TKL L  R Q+A  A +     +G
+Sbjct  189   LTKLDLERRTQVAVLATKLARDNQG  213
+
+
+>VFG009896(gb|WP_011768347) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+sp. JLS]
+Length=215
+
+ Score = 51.2 bits (121),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 27/73 (37%), Positives = 42/73 (58%), Gaps = 3/73 (4%)
+
+Query  1021  AIAYAQRGRGARKRPTSGWGALTPTELEVALLVGEGLSNKEIGVRLFISPRTVHSHLTHV  1080
+             A+    RG   R  P SG  A     L+   L+GEGL+NK+I  R+F++ +TV ++++ +
+Sbjct  132   ALMSKLRGDVERSDPLSGLSAQERVLLD---LLGEGLTNKQIAARMFLAEKTVKNYVSRL  188
+
+Query  1081  YTKLGLSSRLQLA  1093
+               KLG+  R Q A
+Sbjct  189   LAKLGMERRTQAA  201
+
+
+>VFG009890(gb|WP_009978588) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+avium 104]
+Length=222
+
+ Score = 50.8 bits (120),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 29/89 (33%), Positives = 49/89 (55%), Gaps = 3/89 (3%)
+
+Query  1021  AIAYAQRGRGARKRPTSGWGALTPTELEVALLVGEGLSNKEIGVRLFISPRTVHSHLTHV  1080
+             A+    RG  A+  P SG   LT  E  +  L+ EGL+N++I  R+F++ +TV ++++ +
+Sbjct  132   ALMAKLRGSAAQADPLSG---LTEQERTLLGLLSEGLTNRQIAARMFLAEKTVKNYVSRL  188
+
+Query  1081  YTKLGLSSRLQLAQQAARRGESERGPSRP  1109
+               KLG+  R Q A  A++  +    P  P
+Sbjct  189   LAKLGMERRTQAAVFASKLNQQAGRPPTP  217
+
+
+>VFG009889(gb|WP_003874670) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+avium subsp. paratuberculosis K-10]
+Length=222
+
+ Score = 50.8 bits (120),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 29/89 (33%), Positives = 49/89 (55%), Gaps = 3/89 (3%)
+
+Query  1021  AIAYAQRGRGARKRPTSGWGALTPTELEVALLVGEGLSNKEIGVRLFISPRTVHSHLTHV  1080
+             A+    RG  A+  P SG   LT  E  +  L+ EGL+N++I  R+F++ +TV ++++ +
+Sbjct  132   ALMAKLRGSAAQADPLSG---LTEQERTLLGLLSEGLTNRQIAARMFLAEKTVKNYVSRL  188
+
+Query  1081  YTKLGLSSRLQLAQQAARRGESERGPSRP  1109
+               KLG+  R Q A  A++  +    P  P
+Sbjct  189   LAKLGMERRTQAAVFASKLNQQAGRPPTP  217
+
+
+>VFG009891(gb|WP_011740390) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+ulcerans Agy99]
+Length=216
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 30/77 (39%), Positives = 45/77 (58%), Gaps = 1/77 (1%)
+
+Query  1021  AIAYAQRGRGARKRPTSGWGALTPTELEVALLVGEGLSNKEIGVRLFISPRTVHSHLTHV  1080
+             A A   R RG  +RP    G LT  E  +  L+ EGL+NK+I  R+F++ +TV ++++ +
+Sbjct  130   AAALMSRLRGVVERPDPLSG-LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRL  188
+
+Query  1081  YTKLGLSSRLQLAQQAA  1097
+               KLG+  R Q A  AA
+Sbjct  189   LAKLGMERRTQAAVFAA  205
+
+
+>VFG027273(gb|YP_005361686) (devR/dosR) two component transcriptional 
+regulator [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+tuberculosis RGTB327]
+Length=109
+
+ Score = 47.4 bits (111),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 25/67 (37%), Positives = 41/67 (61%), Gaps = 3/67 (4%)
+
+Query  1027  RGRGARKRPTSGWGALTPTELEVALLVGEGLSNKEIGVRLFISPRTVHSHLTHVYTKLGL  1086
+             RG   ++ P SG   LT  E  +  L+ EGL+NK+I  R+F++ +TV ++++ +  KLG+
+Sbjct  30    RGAAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  86
+
+Query  1087  SSRLQLA  1093
+               R Q A
+Sbjct  87    ERRTQAA  93
+
+
+>VFG027258(gb|WP_015291223) (devR/dosR) two-component system response 
+regulator DevR [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=217
+
+ Score = 48.9 bits (115),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 30/89 (34%), Positives = 47/89 (53%), Gaps = 3/89 (3%)
+
+Query  1021  AIAYAQRGRGARKRPTSGWGALTPTELEVALLVGEGLSNKEIGVRLFISPRTVHSHLTHV  1080
+             A+    RG   ++ P SG   LT  E  +  L+ EGL+NK+I  R+F++ +TV ++++ +
+Sbjct  132   ALMAKLRGAAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRL  188
+
+Query  1081  YTKLGLSSRLQLAQQAARRGESERGPSRP  1109
+               KLG+  R Q A  A     S     RP
+Sbjct  189   LAKLGMERRTQAAVFATELKRSRPPGERP  217
+
+
+>VFG001824(gb|NP_217649) (devR/dosR) two component transcriptional 
+regulator DevR [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=217
+
+ Score = 48.5 bits (114),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 31/89 (35%), Positives = 49/89 (55%), Gaps = 8/89 (9%)
+
+Query  1021  AIAYAQRGRGARKRPTSGWGALTPTELEVALLVGEGLSNKEIGVRLFISPRTVHSHLTHV  1080
+             A+    RG   ++ P SG   LT  E  +  L+ EGL+NK+I  R+F++ +TV ++++ +
+Sbjct  132   ALMAKLRGAAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRL  188
+
+Query  1081  YTKLGLSSRLQLAQQAARRGESERGPSRP  1109
+               KLG+  R Q A  A     +E   SRP
+Sbjct  189   LAKLGMERRTQAAVFA-----TELKRSRP  212
+
+
+>VFG027270(gb|YP_007959134) (devR/dosR) Two component transcriptional 
+regulatory protein DevR [DevRS (VF0317) - Regulation 
+(VFC0301)] [Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=214
+
+ Score = 48.1 bits (113),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 24/65 (37%), Positives = 40/65 (62%), Gaps = 3/65 (5%)
+
+Query  1027  RGRGARKRPTSGWGALTPTELEVALLVGEGLSNKEIGVRLFISPRTVHSHLTHVYTKLGL  1086
+             RG   ++ P SG   LT  E  +  L+ EGL+NK+I  R+F++ +TV ++++ +  KLG+
+Sbjct  138   RGAAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRLLAKLGM  194
+
+Query  1087  SSRLQ  1091
+               R Q
+Sbjct  195   ERRTQ  199
+
+
+>VFG022956(gb|WP_013829907) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+sp. JDM601]
+Length=213
+
+ Score = 48.1 bits (113),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 27/78 (35%), Positives = 45/78 (58%), Gaps = 3/78 (4%)
+
+Query  1021  AIAYAQRGRGARKRPTSGWGALTPTELEVALLVGEGLSNKEIGVRLFISPRTVHSHLTHV  1080
+             A+    RG  A+  P SG   L+  E  +  L+ EGL+NK+I  R+F++ +TV ++++ +
+Sbjct  132   ALMAKLRGATAKPDPLSG---LSEQERTLLSLLAEGLTNKQIADRMFLAEKTVKNYVSRL  188
+
+Query  1081  YTKLGLSSRLQLAQQAAR  1098
+               KLG+  R Q A  A +
+Sbjct  189   LAKLGMERRTQAAVFATK  206
+
+
+>VFG027265(gb|YP_007963009) (devR/dosR) two component transcriptional 
+regulatoryprotein [DevRS (VF0317) - Regulation (VFC0301)] 
+[Mycobacterium tuberculosis CAS/NITR204]
+Length=217
+
+ Score = 48.1 bits (113),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 31/89 (35%), Positives = 49/89 (55%), Gaps = 8/89 (9%)
+
+Query  1021  AIAYAQRGRGARKRPTSGWGALTPTELEVALLVGEGLSNKEIGVRLFISPRTVHSHLTHV  1080
+             A+    RG   ++ P SG   LT  E  +  L+ EGL+NK+I  R+F++ +TV ++++ +
+Sbjct  132   ALMAKLRGGAEKQDPLSG---LTDQERTLLGLLSEGLTNKQIADRMFLAEKTVKNYVSRL  188
+
+Query  1081  YTKLGLSSRLQLAQQAARRGESERGPSRP  1109
+               KLG+  R Q A  A     +E   SRP
+Sbjct  189   LAKLGMERRTQAAVFA-----TELKRSRP  212
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.134    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10171996238
+
+
+Query= g2455.t1
+
+Length=68
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.133    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 328080267
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

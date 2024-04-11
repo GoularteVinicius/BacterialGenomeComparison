@@ -1,0 +1,2317 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1010.t1
+
+Length=262
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG018546(gb|WP_000432694) (hilD) transcriptional regulator HilD ...  69.3    1e-13
+VFG003674(gb|WP_000432695) (hilD) transcriptional regulator HilD ...  68.9    2e-13
+VFG020417(gb|WP_000432700) (hilD) transcriptional regulator HilD ...  68.2    3e-13
+VFG000537(gb|NP_461796) (hilD) AraC family transcriptional regula...  68.2    3e-13
+VFG020414(gb|WP_000432698) (hilD) transcriptional regulator HilD ...  67.4    5e-13
+VFG003671(gb|WP_000432696) (hilD) transcriptional regulator HilD ...  67.0    7e-13
+VFG042756(gb|ABU50037) (lngS) LngS [Adhesive fimbriae (VF0213) - ...  65.1    3e-12
+VFG018562(gb|WP_000244003) (hilC) invasion transcriptional regula...  64.7    4e-12
+VFG003631(gb|WP_000243995) (hilC) invasion transcriptional regula...  64.3    7e-12
+VFG000531(gb|NP_461788) (hilC) AraC family transcriptional regula...  64.3    7e-12
+VFG003633(gb|WP_000243998) (hilC) invasion transcriptional regula...  63.9    7e-12
+VFG000763(gb|BAA84859) (bfpT) BfpT [Per (VF0190) - Regulation (VF...  59.7    2e-10
+VFG013075(gb|NP_858179) (virF) transcriptional activator VirF [Vi...  59.3    2e-10
+VFG042771(gb|BAB62895) (cofS) CofS [Adhesive fimbriae (VF0213) - ...  57.8    1e-09
+VFG036090(gb|WP_000769456) (aggR) aggregative adherence transcrip...  57.4    1e-09
+VFG036086(gb|WP_000769457) (aggR) aggregative adherence transcrip...  55.8    4e-09
+VFG038332(gb|WP_192914500) (exsA) Type III secretion system trans...  49.7    5e-07
+VFG024949(gb|WP_011204592) (bprC) AraC family transcriptional reg...  48.5    1e-06
+VFG002438(gb|WP_011205635) (bprC) AraC family transcriptional reg...  48.5    1e-06
+VFG041884(gb|WP_080509009) (CV_RS12640) AraC family transcription...  47.4    3e-06
+VFG024954(gb|WP_011853448) (bprC) AraC family transcriptional reg...  47.4    4e-06
+VFG000208(gb|NP_250404) (exsA) type III secretion system regulato...  46.6    5e-06
+VFG042280(gb|AAS91825) (exsA) ExsA [T3SS (VF0479) - Effector deli...  46.6    6e-06
+VFG000399(gb|WP_002212931) (virF/lcrF) virulence regulon transcri...  46.2    6e-06
+VFG023737(gb|WP_013749464) (virF/lcrF) virulence regulon transcri...  46.2    7e-06
+VFG003476(gb|WP_005176447) (virF/lcrF) virulence regulon transcri...  46.2    7e-06
+
+
+>VFG018546(gb|WP_000432694) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-- 
+str. RSK2980]
+Length=309
+
+ Score = 69.3 bits (168),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 35/96 (36%), Positives = 52/96 (54%), Gaps = 0/96 (0%)
+
+Query  164  TLTEQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRRRLQRESQSYRQIVEEVRMSCALSQ  223
+            TL E+V  +I  SP + W   +IA  + M TSTL+R+L  E  S+  I    RM+ A   
+Sbjct  206  TLKERVYNIISSSPGRQWKLPDIADNIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKL  265
+
+Query  224  LQSTTLPIGEIALRCGYLSGSRFTARFRQHYGCLPS  259
+            L+     +  +AL+CGY S S F   F++++   PS
+Sbjct  266  LRIGNHNVNSVALKCGYDSTSYFIQCFKKYFKTTPS  301
+
+
+>VFG003674(gb|WP_000432695) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar Choleraesuis 
+str. SC-B67]
+Length=309
+
+ Score = 68.9 bits (167),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 35/103 (34%), Positives = 56/103 (54%), Gaps = 0/103 (0%)
+
+Query  157  LLIERRYTLTEQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRRRLQRESQSYRQIVEEVR  216
+            +L   + TL E+V  +I  SP++ W   ++A  + M TSTL+R+L  E  S+  I    R
+Sbjct  199  ILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSAR  258
+
+Query  217  MSCALSQLQSTTLPIGEIALRCGYLSGSRFTARFRQHYGCLPS  259
+            M+ A   L+     +  +AL+CGY S S F   F++++   PS
+Sbjct  259  MNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTPS  301
+
+
+>VFG020417(gb|WP_000432700) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar Heidelberg 
+str. SL476]
+Length=309
+
+ Score = 68.2 bits (165),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 35/103 (34%), Positives = 56/103 (54%), Gaps = 0/103 (0%)
+
+Query  157  LLIERRYTLTEQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRRRLQRESQSYRQIVEEVR  216
+            +L   + TL E+V  +I  SP++ W   ++A  + M TSTL+R+L  E  S+  I    R
+Sbjct  199  ILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSAR  258
+
+Query  217  MSCALSQLQSTTLPIGEIALRCGYLSGSRFTARFRQHYGCLPS  259
+            M+ A   L+     +  +AL+CGY S S F   F++++   PS
+Sbjct  259  MNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTPS  301
+
+
+>VFG000537(gb|NP_461796) (hilD) AraC family transcriptional regulator 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar 
+Typhimurium str. LT2]
+Length=309
+
+ Score = 68.2 bits (165),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 34/96 (35%), Positives = 53/96 (55%), Gaps = 0/96 (0%)
+
+Query  164  TLTEQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRRRLQRESQSYRQIVEEVRMSCALSQ  223
+            TL E+V  +I  SP++ W   ++A  + M TSTL+R+L  E  S+  I    RM+ A   
+Sbjct  206  TLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKL  265
+
+Query  224  LQSTTLPIGEIALRCGYLSGSRFTARFRQHYGCLPS  259
+            L+     +  +AL+CGY S S F   F++++   PS
+Sbjct  266  LRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTPS  301
+
+
+>VFG020414(gb|WP_000432698) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar Dublin 
+str. CT_02021853]
+Length=309
+
+ Score = 67.4 bits (163),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 33/96 (34%), Positives = 53/96 (55%), Gaps = 0/96 (0%)
+
+Query  164  TLTEQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRRRLQRESQSYRQIVEEVRMSCALSQ  223
+            TL E+V  +I  SP++ W   ++A  + M TSTL+R+L  E  ++  I    RM+ A   
+Sbjct  206  TLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLKRKLAEEGTNFSDIYLSARMNQAAKL  265
+
+Query  224  LQSTTLPIGEIALRCGYLSGSRFTARFRQHYGCLPS  259
+            L+     +  +AL+CGY S S F   F++++   PS
+Sbjct  266  LRIGNHNVNSVALKCGYDSTSYFIQCFKKYFKTTPS  301
+
+
+>VFG003671(gb|WP_000432696) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar Typhi 
+str. CT18]
+Length=309
+
+ Score = 67.0 bits (162),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 34/103 (33%), Positives = 56/103 (54%), Gaps = 0/103 (0%)
+
+Query  157  LLIERRYTLTEQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRRRLQRESQSYRQIVEEVR  216
+            +L   + TL ++V  +I  SP++ W   ++A  + M TSTL+R+L  E  S+  I    R
+Sbjct  199  ILSSAQITLKKRVYNIISSSPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSAR  258
+
+Query  217  MSCALSQLQSTTLPIGEIALRCGYLSGSRFTARFRQHYGCLPS  259
+            M+ A   L+     +  +AL+CGY S S F   F++++   PS
+Sbjct  259  MNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTPS  301
+
+
+>VFG042756(gb|ABU50037) (lngS) LngS [Adhesive fimbriae (VF0213) 
+- Adherence (VFC0001)] [Escherichia coli O8:H9 str. E9034A]
+Length=298
+
+ Score = 65.1 bits (157),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 34/117 (29%), Positives = 60/117 (51%), Gaps = 1/117 (1%)
+
+Query  144  LLLALLHDGA-AGPLLIERRYTLTEQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRRRLQ  202
+            LL   +HD A AG +    + ++  +V  L+   P K W   +++  + M  STL+R+L 
+Sbjct  174  LLSGFIHDTAFAGIISRSAKLSVKYKVYNLLYTEPDKQWKLDDVSSAIFMSASTLKRKLA  233
+
+Query  203  RESQSYRQIVEEVRMSCALSQLQSTTLPIGEIALRCGYLSGSRFTARFRQHYGCLPS  259
+             E  ++ ++    RM+ A   L++    +  +A+ CGY S S F A F++ +   PS
+Sbjct  234  TEGTTFSELYITARMNLASKLLRTGKYSVTNVAVLCGYDSVSYFIACFKRQFNITPS  290
+
+
+>VFG018562(gb|WP_000244003) (hilC) invasion transcriptional regulator 
+HilC [TTSS (SPI-1 encode) (VF0116) - Effector delivery 
+system (VFC0086)] [Salmonella enterica subsp. arizonae serovar 
+62:z4,z23:-- str. RSK2980]
+Length=295
+
+ Score = 64.7 bits (156),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 40/147 (27%), Positives = 75/147 (51%), Gaps = 9/147 (6%)
+
+Query  121  WENVLDAV---RQGLPVGLQEHQ----AMGLLLALLHDGAAGPLLIER--RYTLTEQVRQ  171
+            ++++L+ V   R    V + +H     ++  L++       G   +ER  + T  E+V  
+Sbjct  140  FDSILNGVTCPRVCSNVSIDDHDYSYYSLMYLISAFVRKPGGFDFLERAIKITTKEKVYN  199
+
+Query  172  LIMLSPAKLWTAQEIARRLAMGTSTLRRRLQRESQSYRQIVEEVRMSCALSQLQSTTLPI  231
+            +I+    + W+  E+A +L M  S+L+R+L  E  S+ +I  + RM+ A+  L+     I
+Sbjct  200  IIISDITRKWSQAEVAGKLFMSVSSLKRKLAAEDVSFSKIYLDARMNQAIKLLRMGAGNI  259
+
+Query  232  GEIALRCGYLSGSRFTARFRQHYGCLP  258
+             ++A  CGY + S F A F++H+   P
+Sbjct  260  SQVATMCGYDTPSYFIAIFKRHFKITP  286
+
+
+>VFG003631(gb|WP_000243995) (hilC) invasion transcriptional regulator 
+HilC [TTSS (SPI-1 encode) (VF0116) - Effector delivery 
+system (VFC0086)] [Salmonella enterica subsp. enterica serovar 
+Typhi str. CT18]
+Length=295
+
+ Score = 64.3 bits (155),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 34/107 (32%), Positives = 58/107 (54%), Gaps = 2/107 (2%)
+
+Query  154  AGPLLIER--RYTLTEQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRRRLQRESQSYRQI  211
+             G   +ER  + T  E+V  +I+    + W+  E+A +L M  S+L+R+L  E  S+ +I
+Sbjct  180  GGFDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKI  239
+
+Query  212  VEEVRMSCALSQLQSTTLPIGEIALRCGYLSGSRFTARFRQHYGCLP  258
+              + RM+ A+  L+     I ++A  CGY + S F A F++H+   P
+Sbjct  240  YLDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITP  286
+
+
+>VFG000531(gb|NP_461788) (hilC) AraC family transcriptional regulator 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar 
+Typhimurium str. LT2]
+Length=295
+
+ Score = 64.3 bits (155),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 39/149 (26%), Positives = 73/149 (49%), Gaps = 13/149 (9%)
+
+Query  123  NVLDAVRQGLP-------VGLQEHQ----AMGLLLALLHDGAAGPLLIER--RYTLTEQV  169
+            +  D++  G+        V + +H     ++  L++       G   +ER  + T  E+V
+Sbjct  138  DTFDSILHGVACPRVCSNVSIDDHDYSYFSLMYLISAFVRKPGGFDFLERAIKITTKEKV  197
+
+Query  170  RQLIMLSPAKLWTAQEIARRLAMGTSTLRRRLQRESQSYRQIVEEVRMSCALSQLQSTTL  229
+              +I+    + W+  E+A +L M  S+L+R+L  E  S+ +I  + RM+ A+  L+    
+Sbjct  198  YNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRMGAG  257
+
+Query  230  PIGEIALRCGYLSGSRFTARFRQHYGCLP  258
+             I ++A  CGY + S F A F++H+   P
+Sbjct  258  NISQVATMCGYDTPSYFIAIFKRHFKITP  286
+
+
+>VFG003633(gb|WP_000243998) (hilC) invasion transcriptional regulator 
+HilC [TTSS (SPI-1 encode) (VF0116) - Effector delivery 
+system (VFC0086)] [Salmonella enterica subsp. enterica serovar 
+Paratyphi A str. ATCC 9150]
+Length=295
+
+ Score = 63.9 bits (154),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 39/149 (26%), Positives = 73/149 (49%), Gaps = 13/149 (9%)
+
+Query  123  NVLDAVRQGLP-------VGLQEHQ----AMGLLLALLHDGAAGPLLIER--RYTLTEQV  169
+            +  D++  G+        V + +H     ++  L++       G   +ER  + T  E+V
+Sbjct  138  DTFDSILHGVACPRVCSNVSIDDHDYSYFSLMYLISAFVRKPGGFDFLERAIKITTKEKV  197
+
+Query  170  RQLIMLSPAKLWTAQEIARRLAMGTSTLRRRLQRESQSYRQIVEEVRMSCALSQLQSTTL  229
+              +I+    + W+  E+A +L M  S+L+R+L  E  S+ +I  + RM+ A+  L+    
+Sbjct  198  YNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRMGAG  257
+
+Query  230  PIGEIALRCGYLSGSRFTARFRQHYGCLP  258
+             I ++A  CGY + S F A F++H+   P
+Sbjct  258  NISQVATMCGYDTPSYFIAIFKRHFKITP  286
+
+
+>VFG000763(gb|BAA84859) (bfpT) BfpT [Per (VF0190) - Regulation 
+(VFC0301)] [Escherichia coli B171]
+Length=274
+
+ Score = 59.7 bits (143),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 30/118 (25%), Positives = 63/118 (53%), Gaps = 2/118 (2%)
+
+Query  145  LLALLHD--GAAGPLLIERRYTLTEQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRRRLQ  202
+            LL+   D       +L     ++ ++V ++I L  +K W   +++  + M  S LR++L 
+Sbjct  144  LLSFFDDYNDIVNVILSASSKSIVDRVIKVIELDISKNWKLGDVSSSMFMSDSCLRKQLN  203
+
+Query  203  RESQSYRQIVEEVRMSCALSQLQSTTLPIGEIALRCGYLSGSRFTARFRQHYGCLPSQ  260
+            +E+ ++++I+ +++M  A   L++T   I EI+   G+ S S F   F+++Y   P +
+Sbjct  204  KENLTFKKIMLDIKMKHASLFLRTTDKNIDEISCLVGFNSTSYFIKVFKEYYNTTPKK  261
+
+
+>VFG013075(gb|NP_858179) (virF) transcriptional activator VirF 
+[VirF (VF0979) - Regulation (VFC0301)] [Shigella flexneri 2a 
+str. 301]
+Length=262
+
+ Score = 59.3 bits (142),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 32/133 (24%), Positives = 70/133 (53%), Gaps = 2/133 (2%)
+
+Query  130  QGLPVGLQEHQAMGLLLALLHDGAA--GPLLIERRYTLTEQVRQLIMLSPAKLWTAQEIA  187
+            + +P G ++  ++  LL+ + D  A    + I    + ++Q+R+++  +  K W   +I+
+Sbjct  122  KEMPFGKRKIYSLACLLSAVSDEEALYTSISIASSLSFSDQIRKIVEKNIEKRWRLSDIS  181
+
+Query  188  RRLAMGTSTLRRRLQRESQSYRQIVEEVRMSCALSQLQSTTLPIGEIALRCGYLSGSRFT  247
+              L +    +R+RL+ E  +++QI+ ++RM  A   L ++   I +++   G  S S F 
+Sbjct  182  NNLNLSEIAVRKRLESEKLTFQQILLDIRMHHAAKLLLNSQSYINDVSRLIGISSPSYFI  241
+
+Query  248  ARFRQHYGCLPSQ  260
+             +F ++YG  P +
+Sbjct  242  RKFNEYYGITPKK  254
+
+
+>VFG042771(gb|BAB62895) (cofS) CofS [Adhesive fimbriae (VF0213) 
+- Adherence (VFC0001)] [Escherichia coli str. 260-1]
+Length=283
+
+ Score = 57.8 bits (138),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 29/107 (27%), Positives = 54/107 (50%), Gaps = 2/107 (2%)
+
+Query  154  AGPLLIER--RYTLTEQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRRRLQRESQSYRQI  211
+            A P +I R  +  +  +V  L+   P + W   +++  + M  STL+R+L  E  ++ ++
+Sbjct  168  AFPGIIRRSVKLNVKYKVYNLLYTEPDRQWKLNDVSSAIFMSASTLKRKLASEGTTFSEL  227
+
+Query  212  VEEVRMSCALSQLQSTTLPIGEIALRCGYLSGSRFTARFRQHYGCLP  258
+                RM+ A   L++    +  +A+ CGY S S F A F++ +   P
+Sbjct  228  YITARMNLASKLLRTGKYSVSNVAVLCGYDSVSYFIACFKRQFSITP  274
+
+
+>VFG036090(gb|WP_000769456) (aggR) aggregative adherence transcriptional 
+regulator AggR [AggR (VF1137) - Regulation (VFC0301)] 
+[Escherichia coli O44:H18 042]
+Length=265
+
+ Score = 57.4 bits (137),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 36/121 (30%), Positives = 58/121 (48%), Gaps = 5/121 (4%)
+
+Query  145  LLALLHDGAAGPLLIERRYT-----LTEQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRR  199
+            L+ L+        +IE  Y       +++VR +I    +K WT   IA    +   T+R+
+Sbjct  137  LIYLISKIENNKKIIESIYISAVSFFSDKVRNIIEKDLSKRWTLAIIADEFNVSEITIRK  196
+
+Query  200  RLQRESQSYRQIVEEVRMSCALSQLQSTTLPIGEIALRCGYLSGSRFTARFRQHYGCLPS  259
+            RL+ E  ++ QI+ + RMS A   L   +  I +I+   G+ S S F   F +H+G  P 
+Sbjct  197  RLESEYITFNQILMQSRMSKAALLLLDNSYQISQISNMIGFSSTSYFIRLFVKHFGITPK  256
+
+Query  260  Q  260
+            Q
+Sbjct  257  Q  257
+
+
+>VFG036086(gb|WP_000769457) (aggR) aggregative adherence transcriptional 
+regulator AggR [AggR (VF1137) - Regulation (VFC0301)] 
+[Escherichia coli O104:H4 str. 2009EL-2050]
+Length=265
+
+ Score = 55.8 bits (133),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 31/96 (32%), Positives = 49/96 (51%), Gaps = 0/96 (0%)
+
+Query  165  LTEQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRRRLQRESQSYRQIVEEVRMSCALSQL  224
+             +++VR  I    +K WT   IA    +   T+R+RL+ E  ++ QI+ + RMS A   L
+Sbjct  162  FSDKVRNTIEKDLSKRWTLAIIADEFNVSEITIRKRLESEYITFNQILMQSRMSKAALLL  221
+
+Query  225  QSTTLPIGEIALRCGYLSGSRFTARFRQHYGCLPSQ  260
+               +  I +I+   G+ S S F   F +H+G  P Q
+Sbjct  222  LDNSYQISQISNMIGFSSTSYFIRLFVKHFGITPKQ  257
+
+
+>VFG038332(gb|WP_192914500) (exsA) Type III secretion system transcriptional 
+regulator [T3SS (VF0479) - Effector delivery 
+system (VFC0086)] [Aeromonas salmonicida subsp. salmonicida 
+A449]
+Length=260
+
+ Score = 49.7 bits (117),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 37/123 (30%), Positives = 58/123 (47%), Gaps = 5/123 (4%)
+
+Query  145  LLALLHDGAAGPLLIERRYTLT----EQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRRR  200
+            LL LL  G  GP L+     L+    E+++Q +       W   E A+   MG +T +  
+Sbjct  134  LLFLLAFGEQGPQLMSILRQLSNRQVERLQQFMEKHYLMEWKLSEFAKEFGMGLTTFKEL  193
+
+Query  201  LQR-ESQSYRQIVEEVRMSCALSQLQSTTLPIGEIALRCGYLSGSRFTARFRQHYGCLPS  259
+                   S R  + E R+  A   L ++ + I +IA+  G+ S S FT  +R+ +GC PS
+Sbjct  194  FGSIYGVSPRAWISERRILFAHQLLLNSEMSIVDIAMEAGFSSQSYFTQSYRRRFGCTPS  253
+
+Query  260  QVR  262
+            + R
+Sbjct  254  RAR  256
+
+
+>VFG024949(gb|WP_011204592) (bprC) AraC family transcriptional 
+regulator, regulates basal T6SS1 expression [Bsa T3SS (VF0428) 
+- Effector delivery system (VFC0086)] [Burkholderia mallei 
+ATCC 23344]
+Length=353
+
+ Score = 48.5 bits (114),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 34/102 (33%), Positives = 51/102 (50%), Gaps = 8/102 (8%)
+
+Query  163  YTLTEQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRRRLQRESQSYRQIVEEVRMSCALS  222
+            Y   EQ   L  L+P ++  A   +R      + L R  + ESQ+ +  + E R++ +L 
+Sbjct  250  YRYIEQHLHLPTLTPERIADAIHCSR------TQLYRLFRHESQTVKAALREARLNRSLG  303
+
+Query  223  QLQ--STTLPIGEIALRCGYLSGSRFTARFRQHYGCLPSQVR  262
+             L+    TL IGEIA  CG+   S F   FR+ +G  P +VR
+Sbjct  304  YLEQPEVTLSIGEIAHACGFPDQSTFGKLFRRRFGRTPGEVR  345
+
+
+>VFG002438(gb|WP_011205635) (bprC) AraC family transcriptional 
+regulator, regulates basal T6SS1 expression [Bsa T3SS (VF0428) 
+- Effector delivery system (VFC0086)] [Burkholderia pseudomallei 
+K96243]
+Length=353
+
+ Score = 48.5 bits (114),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 34/102 (33%), Positives = 51/102 (50%), Gaps = 8/102 (8%)
+
+Query  163  YTLTEQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRRRLQRESQSYRQIVEEVRMSCALS  222
+            Y   EQ   L  L+P ++  A   +R      + L R  + ESQ+ +  + E R++ +L 
+Sbjct  250  YRYIEQHLHLPTLTPERIADAIHCSR------TQLYRLFRHESQTVKAALREARLNRSLG  303
+
+Query  223  QLQ--STTLPIGEIALRCGYLSGSRFTARFRQHYGCLPSQVR  262
+             L+    TL IGEIA  CG+   S F   FR+ +G  P +VR
+Sbjct  304  YLEQPEVTLSIGEIAHACGFPDQSTFGKLFRRRFGRTPGEVR  345
+
+
+>VFG041884(gb|WP_080509009) (CV_RS12640) AraC family transcriptional 
+regulator [Cpi-2 encoded T3SS (SPI-2 like) (VF1260) - 
+Effector delivery system (VFC0086)] [Chromobacterium violaceum 
+ATCC 12472]
+Length=284
+
+ Score = 47.4 bits (111),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 26/86 (30%), Positives = 47/86 (55%), Gaps = 7/86 (8%)
+
+Query  181  WTAQEIARRLAMGTSTLRRRLQRESQSY----RQIVEEVRMSCALSQLQSTTLPIGEIAL  236
+            W+   +A R  M    LR+  Q   ++Y    ++ + E R++ A   L +T++ + ++AL
+Sbjct  190  WSISTLADRFGM---PLRKFNQLFQEAYGKPAKRWILEHRLTHAKKLLLTTSMRVLDVAL  246
+
+Query  237  RCGYLSGSRFTARFRQHYGCLPSQVR  262
+             CG+ + + FT  FR+H+ C P Q R
+Sbjct  247  ECGFSNHAHFTDSFRRHFQCNPKQFR  272
+
+
+>VFG024954(gb|WP_011853448) (bprC) AraC family transcriptional 
+regulator, regulates basal T6SS1 expression [Bsa T3SS (VF0428) 
+- Effector delivery system (VFC0086)] [Burkholderia pseudomallei 
+668]
+Length=351
+
+ Score = 47.4 bits (111),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 33/102 (32%), Positives = 51/102 (50%), Gaps = 8/102 (8%)
+
+Query  163  YTLTEQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRRRLQRESQSYRQIVEEVRMSCALS  222
+            Y   EQ   L  L+P ++  A   +R      + L R  + ESQ+ +  + + R++ +L 
+Sbjct  227  YRYIEQHLHLPTLTPERIADAIHCSR------TQLYRLFRHESQTVKAALRDARLNRSLG  280
+
+Query  223  QLQ--STTLPIGEIALRCGYLSGSRFTARFRQHYGCLPSQVR  262
+             L+    TL IGEIA  CG+   S F   FR+ +G  P +VR
+Sbjct  281  YLEQPEVTLSIGEIAHACGFPDQSTFGKLFRRRFGRTPGEVR  322
+
+
+>VFG000208(gb|NP_250404) (exsA) type III secretion system regulatory 
+protein ExsA [TTSS (VF0083) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa PAO1]
+Length=278
+
+ Score = 46.6 bits (109),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 57/237 (24%), Positives = 101/237 (43%), Gaps = 22/237 (9%)
+
+Query  41   SKVIIQD-DSRLVAGPGELIIIPANTPLEIINQPAQNGFRSDLLLLSPEIIARFKTMYVQ  99
+             ++ +QD DS     PGEL+ +   +   +++   +     D  +L   + A+F   +VQ
+Sbjct  38   GELTVQDIDSTFCLAPGELLFVRRGS--YVVSTKGK-----DSRILWIPLSAQFLQGFVQ  90
+
+Query  100  DYPP--ANLTSLCTPMSRSLTFMWENVLDAVRQGLP-VGLQEHQAM------GLLLALLH  150
+             +    + +     P+   + F    +L    +GL  + + EH  M        LL L  
+Sbjct  91   RFGALLSEVERCDEPVPGIIAFAATPLLAGCVKGLKELLVHEHPPMLACLKIEELLMLFA  150
+
+Query  151  DGAAGPLLIERRYTLTEQVRQLIMLSPAK----LWTAQEIARRLAMGTSTLRRRLQR-ES  205
+                GPLL+     L+ +  + + L   K     W   + +R   MG +T +        
+Sbjct  151  FSPQGPLLMSVLRQLSNRHVERLQLFMEKHYLNEWKLSDFSREFGMGLTTFKELFGSVYG  210
+
+Query  206  QSYRQIVEEVRMSCALSQLQSTTLPIGEIALRCGYLSGSRFTARFRQHYGCLPSQVR  262
+             S R  + E R+  A   L ++ + I +IA+  G+ S S FT  +R+ +GC PS+ R
+Sbjct  211  VSPRAWISERRILYAHQLLLNSDMSIVDIAMEAGFSSQSYFTQSYRRRFGCTPSRSR  267
+
+
+>VFG042280(gb|AAS91825) (exsA) ExsA [T3SS (VF0479) - Effector 
+delivery system (VFC0086)] [Aeromonas hydrophila str. AH3]
+Length=271
+
+ Score = 46.6 bits (109),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 36/123 (29%), Positives = 57/123 (46%), Gaps = 5/123 (4%)
+
+Query  145  LLALLHDGAAGPLLIERRYTLT----EQVRQLIMLSPAKLWTAQEIARRLAMGTSTLRRR  200
+            LL LL  G  GP L+     L+    E+++Q +       W   E ++   MG +T +  
+Sbjct  145  LLFLLAFGEQGPQLMSILRQLSNRQVERLQQFMEKHYLMEWKLSEFSKEFGMGLTTFKEL  204
+
+Query  201  LQR-ESQSYRQIVEEVRMSCALSQLQSTTLPIGEIALRCGYLSGSRFTARFRQHYGCLPS  259
+                   S R  + E R+  A   L ++   I +IA+  G+ S S FT  +R+ +GC PS
+Sbjct  205  FGSIYGVSPRAWISERRILFAHQLLLNSPSSIVDIAMEAGFSSQSYFTQSYRRRFGCTPS  264
+
+Query  260  QVR  262
+            + R
+Sbjct  265  RAR  267
+
+
+>VFG000399(gb|WP_002212931) (virF/lcrF) virulence regulon transcriptional 
+activator VirF [TTSS (VF0140) - Effector delivery 
+system (VFC0086)] [Yersinia pestis CO92]
+Length=271
+
+ Score = 46.2 bits (108),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 27/83 (33%), Positives = 40/83 (48%), Gaps = 1/83 (1%)
+
+Query  181  WTAQEIARRLAMGTSTLRRRLQR-ESQSYRQIVEEVRMSCALSQLQSTTLPIGEIALRCG  239
+            W   + AR   MG +T +         S R  + E R+  A   L +  + I +IA+  G
+Sbjct  181  WKLSKFAREFGMGLTTFKELFGTVYGISPRAWISERRILYAHQLLLNGKMSIVDIAMEAG  240
+
+Query  240  YLSGSRFTARFRQHYGCLPSQVR  262
+            + S S FT  +R+ +GC PSQ R
+Sbjct  241  FSSQSYFTQSYRRRFGCTPSQAR  263
+
+
+>VFG023737(gb|WP_013749464) (virF/lcrF) virulence regulon transcriptional 
+activator VirF [TTSS (VF0140) - Effector delivery 
+system (VFC0086)] [Yersinia enterocolitica subsp. palearctica 
+105.5R(r)]
+Length=271
+
+ Score = 46.2 bits (108),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 27/83 (33%), Positives = 40/83 (48%), Gaps = 1/83 (1%)
+
+Query  181  WTAQEIARRLAMGTSTLRRRLQR-ESQSYRQIVEEVRMSCALSQLQSTTLPIGEIALRCG  239
+            W   + AR   MG +T +         S R  + E R+  A   L +  + I +IA+  G
+Sbjct  181  WKLSKFAREFGMGLTTFKELFGTVYGISPRAWISERRILYAHQLLLNGKMSIVDIAMEAG  240
+
+Query  240  YLSGSRFTARFRQHYGCLPSQVR  262
+            + S S FT  +R+ +GC PSQ R
+Sbjct  241  FSSQSYFTQSYRRRFGCTPSQAR  263
+
+
+>VFG003476(gb|WP_005176447) (virF/lcrF) virulence regulon transcriptional 
+activator VirF [TTSS (VF0140) - Effector delivery 
+system (VFC0086)] [Yersinia enterocolitica subsp. enterocolitica 
+8081]
+Length=271
+
+ Score = 46.2 bits (108),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 27/83 (33%), Positives = 40/83 (48%), Gaps = 1/83 (1%)
+
+Query  181  WTAQEIARRLAMGTSTLRRRLQR-ESQSYRQIVEEVRMSCALSQLQSTTLPIGEIALRCG  239
+            W   + AR   MG +T +         S R  + E R+  A   L +  + I +IA+  G
+Sbjct  181  WKLSKFAREFGMGLTTFKELFGTVYGISPRAWISERRILYAHQLLLNCKMSIVDIAMEAG  240
+
+Query  240  YLSGSRFTARFRQHYGCLPSQVR  262
+            + S S FT  +R+ +GC PSQ R
+Sbjct  241  FSSQSYFTQSYRRRFGCTPSQAR  263
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.135    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1731208108
+
+
+Query= g2661.t1
+
+Length=295
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000531(gb|NP_461788) (hilC) AraC family transcriptional regula...  613     0.0  
+VFG003633(gb|WP_000243998) (hilC) invasion transcriptional regula...  612     0.0  
+VFG003631(gb|WP_000243995) (hilC) invasion transcriptional regula...  608     0.0  
+VFG018562(gb|WP_000244003) (hilC) invasion transcriptional regula...  572     0.0  
+VFG042771(gb|BAB62895) (cofS) CofS [Adhesive fimbriae (VF0213) - ...  170     2e-51
+VFG000537(gb|NP_461796) (hilD) AraC family transcriptional regula...  168     2e-50
+VFG003674(gb|WP_000432695) (hilD) transcriptional regulator HilD ...  168     3e-50
+VFG020414(gb|WP_000432698) (hilD) transcriptional regulator HilD ...  167     6e-50
+VFG042756(gb|ABU50037) (lngS) LngS [Adhesive fimbriae (VF0213) - ...  166     9e-50
+VFG003671(gb|WP_000432696) (hilD) transcriptional regulator HilD ...  166     1e-49
+VFG020417(gb|WP_000432700) (hilD) transcriptional regulator HilD ...  166     2e-49
+VFG018546(gb|WP_000432694) (hilD) transcriptional regulator HilD ...  161     1e-47
+VFG036090(gb|WP_000769456) (aggR) aggregative adherence transcrip...  81.3    7e-18
+VFG000763(gb|BAA84859) (bfpT) BfpT [Per (VF0190) - Regulation (VF...  79.0    5e-17
+VFG036086(gb|WP_000769457) (aggR) aggregative adherence transcrip...  77.8    1e-16
+VFG013075(gb|NP_858179) (virF) transcriptional activator VirF [Vi...  70.5    5e-14
+VFG042607(gb|WP_000914537) (SEN_RS22090) AraC family transcriptio...  61.6    7e-11
+VFG000101(gb|WP_000579582) (tcpN/toxT) TCP pilus virulence regula...  60.8    1e-10
+VFG000364(gb|WP_000140406) (ybtA) transcriptional regulator YbtA ...  48.5    2e-06
+VFG044327(gb|WP_000140406) (ybtA) yersiniabactin transcriptional ...  48.5    2e-06
+VFG034084(gb|WP_000140406) (ybtA) yersiniabactin transcriptional ...  48.5    2e-06
+VFG048575(gb|YP_005227765) (ybtA) yersiniabactin transcriptional ...  48.5    2e-06
+VFG003505(gb|WP_005168685) (ybtA) transcriptional regulator YbtA ...  48.1    2e-06
+VFG034090(gb|WP_000970687) (ybtA) yersiniabactin transcriptional ...  48.1    2e-06
+VFG012543(gb|WP_000970688) (ybtA) yersiniabactin transcriptional ...  48.1    2e-06
+VFG012545(gb|WP_000140405) (ybtA) yersiniabactin transcriptional ...  48.1    2e-06
+VFG034083(gb|WP_000140402) (ybtA) yersiniabactin transcriptional ...  47.8    3e-06
+
+
+>VFG000531(gb|NP_461788) (hilC) AraC family transcriptional regulator 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar 
+Typhimurium str. LT2]
+Length=295
+
+ Score = 613 bits (1581),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 295/295 (100%), Positives = 295/295 (100%), Gaps = 0/295 (0%)
+
+Query  1    MVLPSMNKSVEAISNNHLQQPNKFPLINGLADVRDYYVANCLLFKLNKGSLRIENEFGEF  60
+            MVLPSMNKSVEAISNNHLQQPNKFPLINGLADVRDYYVANCLLFKLNKGSLRIENEFGEF
+Sbjct  1    MVLPSMNKSVEAISNNHLQQPNKFPLINGLADVRDYYVANCLLFKLNKGSLRIENEFGEF  60
+
+Query  61   IERSAPCLFLLEKDQTITLSMSEIEGHIDFSSLEVSYDLMQKFYKVFYSTRNYNDRELSL  120
+            IERSAPCLFLLEKDQTITLSMSEIEGHIDFSSLEVSYDLMQKFYKVFYSTRNYNDRELSL
+Sbjct  61   IERSAPCLFLLEKDQTITLSMSEIEGHIDFSSLEVSYDLMQKFYKVFYSTRNYNDRELSL  120
+
+Query  121  KTKPKYFFHADLLPGMSDTFDSILHGVACPRVCSNVSIDDHDYSYFSLMYLISAFVRKPG  180
+            KTKPKYFFHADLLPGMSDTFDSILHGVACPRVCSNVSIDDHDYSYFSLMYLISAFVRKPG
+Sbjct  121  KTKPKYFFHADLLPGMSDTFDSILHGVACPRVCSNVSIDDHDYSYFSLMYLISAFVRKPG  180
+
+Query  181  GFDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIY  240
+            GFDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIY
+Sbjct  181  GFDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIY  240
+
+Query  241  LDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+            LDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH
+Sbjct  241  LDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+
+
+>VFG003633(gb|WP_000243998) (hilC) invasion transcriptional regulator 
+HilC [TTSS (SPI-1 encode) (VF0116) - Effector delivery 
+system (VFC0086)] [Salmonella enterica subsp. enterica serovar 
+Paratyphi A str. ATCC 9150]
+Length=295
+
+ Score = 612 bits (1577),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 294/295 (99%), Positives = 295/295 (100%), Gaps = 0/295 (0%)
+
+Query  1    MVLPSMNKSVEAISNNHLQQPNKFPLINGLADVRDYYVANCLLFKLNKGSLRIENEFGEF  60
+            MVLPSMNKSVEAISNNHLQQPNKFPLINGLADVRDYYVANCLLFKLNKGSLRIENEFGEF
+Sbjct  1    MVLPSMNKSVEAISNNHLQQPNKFPLINGLADVRDYYVANCLLFKLNKGSLRIENEFGEF  60
+
+Query  61   IERSAPCLFLLEKDQTITLSMSEIEGHIDFSSLEVSYDLMQKFYKVFYSTRNYNDRELSL  120
+            IE+SAPCLFLLEKDQTITLSMSEIEGHIDFSSLEVSYDLMQKFYKVFYSTRNYNDRELSL
+Sbjct  61   IEQSAPCLFLLEKDQTITLSMSEIEGHIDFSSLEVSYDLMQKFYKVFYSTRNYNDRELSL  120
+
+Query  121  KTKPKYFFHADLLPGMSDTFDSILHGVACPRVCSNVSIDDHDYSYFSLMYLISAFVRKPG  180
+            KTKPKYFFHADLLPGMSDTFDSILHGVACPRVCSNVSIDDHDYSYFSLMYLISAFVRKPG
+Sbjct  121  KTKPKYFFHADLLPGMSDTFDSILHGVACPRVCSNVSIDDHDYSYFSLMYLISAFVRKPG  180
+
+Query  181  GFDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIY  240
+            GFDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIY
+Sbjct  181  GFDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIY  240
+
+Query  241  LDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+            LDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH
+Sbjct  241  LDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+
+
+>VFG003631(gb|WP_000243995) (hilC) invasion transcriptional regulator 
+HilC [TTSS (SPI-1 encode) (VF0116) - Effector delivery 
+system (VFC0086)] [Salmonella enterica subsp. enterica serovar 
+Typhi str. CT18]
+Length=295
+
+ Score = 608 bits (1567),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 293/295 (99%), Positives = 294/295 (99%), Gaps = 0/295 (0%)
+
+Query  1    MVLPSMNKSVEAISNNHLQQPNKFPLINGLADVRDYYVANCLLFKLNKGSLRIENEFGEF  60
+            MVLPSMNKSVEAISNNHLQQPNKFPLINGLADVRDYYVANCLLFKLNKGSLRIENEFGEF
+Sbjct  1    MVLPSMNKSVEAISNNHLQQPNKFPLINGLADVRDYYVANCLLFKLNKGSLRIENEFGEF  60
+
+Query  61   IERSAPCLFLLEKDQTITLSMSEIEGHIDFSSLEVSYDLMQKFYKVFYSTRNYNDRELSL  120
+            IE+SA CLFLLEKDQTITLSMSEIEGHIDFSSLEVSYDLMQKFYKVFYSTRNYNDRELSL
+Sbjct  61   IEQSALCLFLLEKDQTITLSMSEIEGHIDFSSLEVSYDLMQKFYKVFYSTRNYNDRELSL  120
+
+Query  121  KTKPKYFFHADLLPGMSDTFDSILHGVACPRVCSNVSIDDHDYSYFSLMYLISAFVRKPG  180
+            KTKPKYFFHADLLPGMSDTFDSILHGVACPRVCSNVSIDDHDYSYFSLMYLISAFVRKPG
+Sbjct  121  KTKPKYFFHADLLPGMSDTFDSILHGVACPRVCSNVSIDDHDYSYFSLMYLISAFVRKPG  180
+
+Query  181  GFDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIY  240
+            GFDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIY
+Sbjct  181  GFDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIY  240
+
+Query  241  LDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+            LDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH
+Sbjct  241  LDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+
+
+>VFG018562(gb|WP_000244003) (hilC) invasion transcriptional regulator 
+HilC [TTSS (SPI-1 encode) (VF0116) - Effector delivery 
+system (VFC0086)] [Salmonella enterica subsp. arizonae serovar 
+62:z4,z23:-- str. RSK2980]
+Length=295
+
+ Score = 572 bits (1474),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 276/295 (94%), Positives = 286/295 (97%), Gaps = 0/295 (0%)
+
+Query  1    MVLPSMNKSVEAISNNHLQQPNKFPLINGLADVRDYYVANCLLFKLNKGSLRIENEFGEF  60
+            MVLPSMNKSV AISNN+LQQ +K  LINGLADVR YYVANCLL KLNKGSLRIENEFGEF
+Sbjct  1    MVLPSMNKSVGAISNNYLQQSSKASLINGLADVRGYYVANCLLIKLNKGSLRIENEFGEF  60
+
+Query  61   IERSAPCLFLLEKDQTITLSMSEIEGHIDFSSLEVSYDLMQKFYKVFYSTRNYNDRELSL  120
+            IE+SAPCLFLLEKDQTIT SMSEIEGHIDFSSLEVSYDLMQKFYKVFYST NYNDRELSL
+Sbjct  61   IEQSAPCLFLLEKDQTITFSMSEIEGHIDFSSLEVSYDLMQKFYKVFYSTINYNDRELSL  120
+
+Query  121  KTKPKYFFHADLLPGMSDTFDSILHGVACPRVCSNVSIDDHDYSYFSLMYLISAFVRKPG  180
+            KTKPK+FFHA+LLPGMSDTFDSIL+GV CPRVCSNVSIDDHDYSY+SLMYLISAFVRKPG
+Sbjct  121  KTKPKHFFHAELLPGMSDTFDSILNGVTCPRVCSNVSIDDHDYSYYSLMYLISAFVRKPG  180
+
+Query  181  GFDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIY  240
+            GFDFLERAIKITTKEKVYNIIISD+TRKWSQAEVAGKLFMSVSSLKRKLAAE+VSFSKIY
+Sbjct  181  GFDFLERAIKITTKEKVYNIIISDITRKWSQAEVAGKLFMSVSSLKRKLAAEDVSFSKIY  240
+
+Query  241  LDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+            LDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRT+NH
+Sbjct  241  LDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTINH  295
+
+
+>VFG042771(gb|BAB62895) (cofS) CofS [Adhesive fimbriae (VF0213) 
+- Adherence (VFC0001)] [Escherichia coli str. 260-1]
+Length=283
+
+ Score = 170 bits (430),  Expect = 2e-51, Method: Compositional matrix adjust.
+ Identities = 100/285 (35%), Positives = 159/285 (56%), Gaps = 7/285 (2%)
+
+Query  15   NNHLQQPNKFPLING----LADVRDYYVANCLLFKLNKGSLRIENEFGEFIERSAPCLFL  70
+            NN+L   N   L  G      +V + YVA+  L  L  G + + +E G      AP + +
+Sbjct  2    NNYLNNHNLPRLCEGGILECVNVSNVYVASFTLVYLRHGCVTVTDERGRVSHCVAPGIMV  61
+
+Query  71   LEKDQTITLSMSEIEGHIDFSSLEVSYDLMQKFYKVFYSTRNYNDRELSLKTKPKYFFHA  130
+             E+DQ+I + M E++GH+ F  +EV + L+   ++V          E      P    + 
+Sbjct  62   FERDQSINIVMQEVDGHLSFDVVEVPHHLLTVAHEVL--IEKIPQTEYPTIEHPLRIVYT  119
+
+Query  131  DLLPGMSDTFDSILHGVACPRVCSNVSIDDHDYSYFSLMYLISAFVRKPGGFDFLERAIK  190
+               P   + F+ +L  +      S  +  + + + FSL+ L+S F+ +P     + R++K
+Sbjct  120  GDFPAGEEVFE-LLKNMLSENRMSIKNEGEINIATFSLLLLLSGFIHEPAFPGIIRRSVK  178
+
+Query  191  ITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIK  250
+            +  K KVYN++ ++  R+W   +V+  +FMS S+LKRKLA+E  +FS++Y+ ARMN A K
+Sbjct  179  LNVKYKVYNLLYTEPDRQWKLNDVSSAIFMSASTLKRKLASEGTTFSELYITARMNLASK  238
+
+Query  251  LLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+            LLR G  ++S VA +CGYD+ SYFIA FKR F ITP +FM+++NH
+Sbjct  239  LLRTGKYSVSNVAVLCGYDSVSYFIACFKRQFSITPFAFMKSVNH  283
+
+
+>VFG000537(gb|NP_461796) (hilD) AraC family transcriptional regulator 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar 
+Typhimurium str. LT2]
+Length=309
+
+ Score = 168 bits (426),  Expect = 2e-50, Method: Compositional matrix adjust.
+ Identities = 99/272 (36%), Positives = 159/272 (58%), Gaps = 13/272 (5%)
+
+Query  33   VRDYYVANCLLFKLNKGSLRIENEFGEFIERSAPCLFLLEKDQTITLSMSEIEGHIDFSS  92
+            +++ YV++  L     G L I N   + I    P + +L+K+Q + +++ E+ GH+DF  
+Sbjct  42   IKNLYVSSFTLVCFRSGKLTISNNH-DTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDI  100
+
+Query  93   LEVSYDLMQKFYKVFYSTRNYNDRELSLKT-KPKYFFHADLLPGMSDTFDSILHGVACPR  151
+            LE+    +   Y +     N    ++++ T K +  F+    P   + F+ +    +C +
+Sbjct  101  LEIPTQRLGALYALI---PNEQQTKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTK  157
+
+Query  152  ----VCSNVS----IDDHDYSYFSLMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIIS  203
+                 CSN +    I++ +   + L++L++AF+R P  ++ +  + +IT KE+VYNII S
+Sbjct  158  DTSKGCSNCNNKSCIENEELIPYFLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISS  217
+
+Query  204  DLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRMGAGNISQVA  263
+              +R+W   +VA  +FMS S+LKRKLA E  SFS IYL ARMNQA KLLR+G  N++ VA
+Sbjct  218  SPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVA  277
+
+Query  264  TMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+              CGYD+ SYFI  FK++FK TP +F++  NH
+Sbjct  278  LKCGYDSTSYFIQCFKKYFKTTPSTFIKMANH  309
+
+
+>VFG003674(gb|WP_000432695) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar Choleraesuis 
+str. SC-B67]
+Length=309
+
+ Score = 168 bits (425),  Expect = 3e-50, Method: Compositional matrix adjust.
+ Identities = 99/272 (36%), Positives = 159/272 (58%), Gaps = 13/272 (5%)
+
+Query  33   VRDYYVANCLLFKLNKGSLRIENEFGEFIERSAPCLFLLEKDQTITLSMSEIEGHIDFSS  92
+            +++ YV++  L     G L I N   + I    P + +L+K+Q + +++ E+ GH+DF  
+Sbjct  42   IKNLYVSSFTLVCFRSGKLTISNNH-DTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDI  100
+
+Query  93   LEVSYDLMQKFYKVFYSTRNYNDRELSLKT-KPKYFFHADLLPGMSDTFDSILHGVACPR  151
+            LE+    +   Y +     N    ++++ T K +  F+    P   + F+ +    +C +
+Sbjct  101  LEIPTQRLGALYALI---PNEQQTKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTK  157
+
+Query  152  ----VCSNVS----IDDHDYSYFSLMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIIS  203
+                 CSN +    I++ +   + L++L++AF+R P  ++ +  + +IT KE+VYNII S
+Sbjct  158  DTSKGCSNCNNKSCIENEELIPYFLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISS  217
+
+Query  204  DLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRMGAGNISQVA  263
+              +R+W   +VA  +FMS S+LKRKLA E  SFS IYL ARMNQA KLLR+G  N++ VA
+Sbjct  218  SPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVA  277
+
+Query  264  TMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+              CGYD+ SYFI  FK++FK TP +F++  NH
+Sbjct  278  LKCGYDSTSYFIQCFKKYFKTTPSTFIKMANH  309
+
+
+>VFG020414(gb|WP_000432698) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar Dublin 
+str. CT_02021853]
+Length=309
+
+ Score = 167 bits (423),  Expect = 6e-50, Method: Compositional matrix adjust.
+ Identities = 98/272 (36%), Positives = 159/272 (58%), Gaps = 13/272 (5%)
+
+Query  33   VRDYYVANCLLFKLNKGSLRIENEFGEFIERSAPCLFLLEKDQTITLSMSEIEGHIDFSS  92
+            +++ YV++  L     G L I N   + I    P + +L+K+Q + +++ E+ GH+DF  
+Sbjct  42   IKNLYVSSFTLVCFRSGKLTISNNH-DTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDI  100
+
+Query  93   LEVSYDLMQKFYKVFYSTRNYNDRELSLKT-KPKYFFHADLLPGMSDTFDSILHGVACPR  151
+            LE+    +   Y +     N    ++++ T K +  F+    P   + F+ +    +C +
+Sbjct  101  LEIPTQRLGALYALI---PNEQQTKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTK  157
+
+Query  152  ----VCSNVS----IDDHDYSYFSLMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIIS  203
+                 CSN +    I++ +   + L++L++AF+R P  ++ +  + +IT KE+VYNII S
+Sbjct  158  DTSKGCSNCNNKSCIENEELIPYFLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISS  217
+
+Query  204  DLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRMGAGNISQVA  263
+              +R+W   +VA  +FMS S+LKRKLA E  +FS IYL ARMNQA KLLR+G  N++ VA
+Sbjct  218  SPSRQWKLTDVADHIFMSTSTLKRKLAEEGTNFSDIYLSARMNQAAKLLRIGNHNVNSVA  277
+
+Query  264  TMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+              CGYD+ SYFI  FK++FK TP +F++  NH
+Sbjct  278  LKCGYDSTSYFIQCFKKYFKTTPSTFIKMANH  309
+
+
+>VFG042756(gb|ABU50037) (lngS) LngS [Adhesive fimbriae (VF0213) 
+- Adherence (VFC0001)] [Escherichia coli O8:H9 str. E9034A]
+Length=298
+
+ Score = 166 bits (421),  Expect = 9e-50, Method: Compositional matrix adjust.
+ Identities = 88/264 (33%), Positives = 153/264 (58%), Gaps = 3/264 (1%)
+
+Query  32   DVRDYYVANCLLFKLNKGSLRIENEFGEFIERSAPCLFLLEKDQTITLSMSEIEGHIDFS  91
+            +V + YVA   L  L+ G + I +E G  I   AP L +LE++Q I ++M E++GH+ F 
+Sbjct  38   NVSNVYVAAFTLVCLHHGHVTITDERGRTIHCVAPGLMVLERNQLINITMQEVDGHLSFD  97
+
+Query  92   SLEVSYDLMQKFYKVFYSTRNYNDRELSLKTKPKYFFHADLLPGMSDTFDSILHGVACPR  151
+             L++ ++L+   +++          E      P    +++      + FD +   ++  +
+Sbjct  98   VLDIPHELLTIAHELLIEKLQ---TEHQPGEHPFRIVYSNDFAARKEVFDLLRFTLSQEK  154
+
+Query  152  VCSNVSIDDHDYSYFSLMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIISDLTRKWSQ  211
+                 + +  + + ++L+ L+S F+        + R+ K++ K KVYN++ ++  ++W  
+Sbjct  155  KGIFENEEKENIATYALLLLLSGFIHDTAFAGIISRSAKLSVKYKVYNLLYTEPDKQWKL  214
+
+Query  212  AEVAGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRMGAGNISQVATMCGYDTP  271
+             +V+  +FMS S+LKRKLA E  +FS++Y+ ARMN A KLLR G  +++ VA +CGYD+ 
+Sbjct  215  DDVSSAIFMSASTLKRKLATEGTTFSELYITARMNLASKLLRTGKYSVTNVAVLCGYDSV  274
+
+Query  272  SYFIAIFKRHFKITPLSFMRTMNH  295
+            SYFIA FKR F ITP +FM+++NH
+Sbjct  275  SYFIACFKRQFNITPSAFMKSVNH  298
+
+
+>VFG003671(gb|WP_000432696) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar Typhi 
+str. CT18]
+Length=309
+
+ Score = 166 bits (420),  Expect = 1e-49, Method: Compositional matrix adjust.
+ Identities = 98/272 (36%), Positives = 159/272 (58%), Gaps = 13/272 (5%)
+
+Query  33   VRDYYVANCLLFKLNKGSLRIENEFGEFIERSAPCLFLLEKDQTITLSMSEIEGHIDFSS  92
+            +++ YV++  L     G L I N   + I    P + +L+K+Q + +++ E+ GH+DF  
+Sbjct  42   IKNLYVSSFTLVCFRSGKLTISNNH-DTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDI  100
+
+Query  93   LEVSYDLMQKFYKVFYSTRNYNDRELSLKT-KPKYFFHADLLPGMSDTFDSILHGVACPR  151
+            LE+    +   Y +     N    ++++ T K +  F+    P   + F+ +    +C +
+Sbjct  101  LEIPTQRLGALYALI---PNEQQTKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTK  157
+
+Query  152  ----VCSNVS----IDDHDYSYFSLMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIIS  203
+                 CSN +    I++ +   + L++L++AF+R P  ++ +  + +IT K++VYNII S
+Sbjct  158  DTSKGCSNCNNKSCIENEELIPYFLLFLLTAFLRLPESYEIILSSAQITLKKRVYNIISS  217
+
+Query  204  DLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRMGAGNISQVA  263
+              +R+W   +VA  +FMS S+LKRKLA E  SFS IYL ARMNQA KLLR+G  N++ VA
+Sbjct  218  SPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVA  277
+
+Query  264  TMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+              CGYD+ SYFI  FK++FK TP +F++  NH
+Sbjct  278  LKCGYDSTSYFIQCFKKYFKTTPSTFIKMANH  309
+
+
+>VFG020417(gb|WP_000432700) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar Heidelberg 
+str. SL476]
+Length=309
+
+ Score = 166 bits (420),  Expect = 2e-49, Method: Compositional matrix adjust.
+ Identities = 98/272 (36%), Positives = 158/272 (58%), Gaps = 13/272 (5%)
+
+Query  33   VRDYYVANCLLFKLNKGSLRIENEFGEFIERSAPCLFLLEKDQTITLSMSEIEGHIDFSS  92
+            +++ YV++  L     G L I N   + I    P + +L+K+Q + +++ E+ GH+DF  
+Sbjct  42   IKNLYVSSFTLVCFRSGKLTISNNH-DTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDI  100
+
+Query  93   LEVSYDLMQKFYKVFYSTRNYNDRELSLKT-KPKYFFHADLLPGMSDTFDSILHGVACPR  151
+            LE+    +   Y +     N    ++++ T K +   +    P   + F+ +    +C +
+Sbjct  101  LEIPTQRLGALYALI---PNEQQTKMAVPTEKAQKIIYTPDFPARREVFEHLKTAFSCTK  157
+
+Query  152  ----VCSNVS----IDDHDYSYFSLMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIIS  203
+                 CSN +    I++ +   + L++L++AF+R P  ++ +  + +IT KE+VYNII S
+Sbjct  158  DTSKGCSNCNNKSCIENEELIPYFLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISS  217
+
+Query  204  DLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRMGAGNISQVA  263
+              +R+W   +VA  +FMS S+LKRKLA E  SFS IYL ARMNQA KLLR+G  N++ VA
+Sbjct  218  SPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVA  277
+
+Query  264  TMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+              CGYD+ SYFI  FK++FK TP +F++  NH
+Sbjct  278  LKCGYDSTSYFIQCFKKYFKTTPSTFIKMANH  309
+
+
+>VFG018546(gb|WP_000432694) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-- 
+str. RSK2980]
+Length=309
+
+ Score = 161 bits (408),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 99/276 (36%), Positives = 158/276 (57%), Gaps = 21/276 (8%)
+
+Query  33   VRDYYVANCLLFKLNKGSLRIENEFGEFIERSAPCLFLLEKDQTITLSMSEIEGHIDFSS  92
+            +++ YV++  L     G + I N   + I    P + +L+K+Q + +++ E+ GH+DF  
+Sbjct  42   IKNLYVSSFTLVCFRSGKVTISNNH-DTIYCEEPGMLVLKKEQVVNVTLEEVNGHMDFDI  100
+
+Query  93   LEVSYDLMQKFYKVFYSTRNYNDRELSLKTKP-----KYFFHADLLPGMSDTFDSILHGV  147
+            LE+    +   Y +       N+++  +  KP     K F+  D  P   + F+ +    
+Sbjct  101  LEIPTQRLGDLYALIP-----NEQQTKM-VKPVEKVQKIFYTPDF-PARREVFEHLKTAF  153
+
+Query  148  ACP-------RVCSNVS-IDDHDYSYFSLMYLISAFVRKPGGFDFLERAIKITTKEKVYN  199
+            +C          C+N S I++ +   + L++L++AF+R P  ++ +  + +IT KE+VYN
+Sbjct  154  SCTMDTNKSCNSCNNQSCIENEELIPYFLLFLLTAFLRLPESYEIILSSAQITLKERVYN  213
+
+Query  200  IIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRMGAGNI  259
+            II S   R+W   ++A  +FMS S+LKRKLA E  SFS IYL ARMNQA KLLR+G  N+
+Sbjct  214  IISSSPGRQWKLPDIADNIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNV  273
+
+Query  260  SQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+            + VA  CGYD+ SYFI  FK++FK TP +F++  NH
+Sbjct  274  NSVALKCGYDSTSYFIQCFKKYFKTTPSTFIKMANH  309
+
+
+>VFG036090(gb|WP_000769456) (aggR) aggregative adherence transcriptional 
+regulator AggR [AggR (VF1137) - Regulation (VFC0301)] 
+[Escherichia coli O44:H18 042]
+Length=265
+
+ Score = 81.3 bits (199),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 46/136 (34%), Positives = 83/136 (61%), Gaps = 2/136 (1%)
+
+Query  157  SIDDHDYSYFS--LMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIISDLTRKWSQAEV  214
+            SID++D S  +  L+YLIS         + +  +      +KV NII  DL+++W+ A +
+Sbjct  124  SIDNNDDSRITSDLIYLISKIENNKKIIESIYISAVSFFSDKVRNIIEKDLSKRWTLAII  183
+
+Query  215  AGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRMGAGNISQVATMCGYDTPSYF  274
+            A +  +S  +++++L +E ++F++I + +RM++A  LL   +  ISQ++ M G+ + SYF
+Sbjct  184  ADEFNVSEITIRKRLESEYITFNQILMQSRMSKAALLLLDNSYQISQISNMIGFSSTSYF  243
+
+Query  275  IAIFKRHFKITPLSFM  290
+            I +F +HF ITP  F+
+Sbjct  244  IRLFVKHFGITPKQFL  259
+
+
+>VFG000763(gb|BAA84859) (bfpT) BfpT [Per (VF0190) - Regulation 
+(VFC0301)] [Escherichia coli B171]
+Length=274
+
+ Score = 79.0 bits (193),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 44/140 (31%), Positives = 77/140 (55%), Gaps = 6/140 (4%)
+
+Query  152  VCSNVSIDDHDYS-----YFSLMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIISDLT  206
+            + SN+ I D  YS      F ++YL+S F       + +  A   +  ++V  +I  D++
+Sbjct  121  IVSNI-ITDIKYSGNNKKTFKILYLLSFFDDYNDIVNVILSASSKSIVDRVIKVIELDIS  179
+
+Query  207  RKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRMGAGNISQVATMC  266
+            + W   +V+  +FMS S L+++L  E ++F KI LD +M  A   LR    NI +++ + 
+Sbjct  180  KNWKLGDVSSSMFMSDSCLRKQLNKENLTFKKIMLDIKMKHASLFLRTTDKNIDEISCLV  239
+
+Query  267  GYDTPSYFIAIFKRHFKITP  286
+            G+++ SYFI +FK ++  TP
+Sbjct  240  GFNSTSYFIKVFKEYYNTTP  259
+
+
+>VFG036086(gb|WP_000769457) (aggR) aggregative adherence transcriptional 
+regulator AggR [AggR (VF1137) - Regulation (VFC0301)] 
+[Escherichia coli O104:H4 str. 2009EL-2050]
+Length=265
+
+ Score = 77.8 bits (190),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 45/136 (33%), Positives = 81/136 (60%), Gaps = 2/136 (1%)
+
+Query  157  SIDDHDYSYFS--LMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIISDLTRKWSQAEV  214
+            SID +D S  +  L+YLIS         + +  +      +KV N I  DL+++W+ A +
+Sbjct  124  SIDHNDDSRITSDLIYLISKIENNRKIIESIYISAVSFFSDKVRNTIEKDLSKRWTLAII  183
+
+Query  215  AGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRMGAGNISQVATMCGYDTPSYF  274
+            A +  +S  +++++L +E ++F++I + +RM++A  LL   +  ISQ++ M G+ + SYF
+Sbjct  184  ADEFNVSEITIRKRLESEYITFNQILMQSRMSKAALLLLDNSYQISQISNMIGFSSTSYF  243
+
+Query  275  IAIFKRHFKITPLSFM  290
+            I +F +HF ITP  F+
+Sbjct  244  IRLFVKHFGITPKQFL  259
+
+
+>VFG013075(gb|NP_858179) (virF) transcriptional activator VirF 
+[VirF (VF0979) - Regulation (VFC0301)] [Shigella flexneri 2a 
+str. 301]
+Length=262
+
+ Score = 70.5 bits (171),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 35/124 (28%), Positives = 72/124 (58%), Gaps = 0/124 (0%)
+
+Query  166  FSLMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSL  225
+            +SL  L+SA   +   +  +  A  ++  +++  I+  ++ ++W  ++++  L +S  ++
+Sbjct  132  YSLACLLSAVSDEEALYTSISIASSLSFSDQIRKIVEKNIEKRWRLSDISNNLNLSEIAV  191
+
+Query  226  KRKLAAEEVSFSKIYLDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKIT  285
+            +++L +E+++F +I LD RM+ A KLL      I+ V+ + G  +PSYFI  F  ++ IT
+Sbjct  192  RKRLESEKLTFQQILLDIRMHHAAKLLLNSQSYINDVSRLIGISSPSYFIRKFNEYYGIT  251
+
+Query  286  PLSF  289
+            P  F
+Sbjct  252  PKKF  255
+
+
+>VFG042607(gb|WP_000914537) (SEN_RS22090) AraC family transcriptional 
+regulator [Sef (VF0952) - Adherence (VFC0001)] [Salmonella 
+enterica subsp. enterica serovar Enteritidis str. P125109]
+Length=271
+
+ Score = 61.6 bits (148),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 32/99 (32%), Positives = 56/99 (57%), Gaps = 0/99 (0%)
+
+Query  197  VYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRMGA  256
+            V   I +D++ KW    ++ KL +S  ++++KL  E  +F +I LDARM +A +L+    
+Sbjct  160  VRKTIDNDISTKWRLKTLSEKLNLSEVTIRKKLENENTNFYRILLDARMQKAARLVLDSD  219
+
+Query  257  GNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+             +I++V+   G  + SYFI +F  ++ +TP  F     H
+Sbjct  220  THINKVSYAVGMSSVSYFIKLFSDYYGLTPKQFHLKYKH  258
+
+
+>VFG000101(gb|WP_000579582) (tcpN/toxT) TCP pilus virulence regulatory 
+protein [TCP (VF0126) - Adherence (VFC0001)] [Vibrio 
+cholerae O1 biovar El Tor str. N16961]
+Length=276
+
+ Score = 60.8 bits (146),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 29/96 (30%), Positives = 54/96 (56%), Gaps = 0/96 (0%)
+
+Query  195  EKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRM  254
+            EK+  ++ SD+TR W  A++ G+L  +   LK++L +  V F ++    R++ +I L++ 
+Sbjct  172  EKISCLVKSDITRNWRWADICGELRTNRMILKKELESRGVKFRELINSIRISYSISLMKT  231
+
+Query  255  GAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFM  290
+            G   I Q+A   G+ + SYF  +FK    + P  ++
+Sbjct  232  GEFKIKQIAYQSGFASVSYFSTVFKSTMNVAPSEYL  267
+
+
+>VFG000364(gb|WP_000140406) (ybtA) transcriptional regulator YbtA 
+[Yersiniabactin (VF0136) - Nutritional/Metabolic factor 
+(VFC0272)] [Yersinia pestis CO92]
+Length=319
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 35/116 (30%), Positives = 60/116 (52%), Gaps = 11/116 (9%)
+
+Query  182  FDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSK---  238
+            F+ +ER   +  K+    ++++DLT+    AE+A +  +SV  +KR      V F+    
+Sbjct  211  FNPMERQKLLRAKD----LLLADLTQAPGVAELARESGLSVLKIKRGF---RVLFNNSVY  263
+
+Query  239  -IYLDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTM  293
+             ++   RM +A + L  G  ++  VA   GY   S+F A F++ F +TP +F R M
+Sbjct  264  GLFQAERMQEARRRLANGNTSVMTVAADLGYANASHFSAAFQKQFGVTPSTFKRVM  319
+
+
+>VFG044327(gb|WP_000140406) (ybtA) yersiniabactin transcriptional 
+regulator YbtA [Ybt (VF0564) - Nutritional/Metabolic factor 
+(VFC0272)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=319
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 35/116 (30%), Positives = 60/116 (52%), Gaps = 11/116 (9%)
+
+Query  182  FDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSK---  238
+            F+ +ER   +  K+    ++++DLT+    AE+A +  +SV  +KR      V F+    
+Sbjct  211  FNPMERQKLLRAKD----LLLADLTQAPGVAELARESGLSVLKIKRGF---RVLFNNSVY  263
+
+Query  239  -IYLDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTM  293
+             ++   RM +A + L  G  ++  VA   GY   S+F A F++ F +TP +F R M
+Sbjct  264  GLFQAERMQEARRRLANGNTSVMTVAADLGYANASHFSAAFQKQFGVTPSTFKRVM  319
+
+
+>VFG034084(gb|WP_000140406) (ybtA) yersiniabactin transcriptional 
+regulator YbtA [Yersiniabactin siderophore (VF1115) - Nutritional/Metabolic 
+factor (VFC0272)] [Escherichia coli O17:K52:H18 
+str. UMN026]
+Length=319
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 35/116 (30%), Positives = 60/116 (52%), Gaps = 11/116 (9%)
+
+Query  182  FDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSK---  238
+            F+ +ER   +  K+    ++++DLT+    AE+A +  +SV  +KR      V F+    
+Sbjct  211  FNPMERQKLLRAKD----LLLADLTQAPGVAELARESGLSVLKIKRGF---RVLFNNSVY  263
+
+Query  239  -IYLDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTM  293
+             ++   RM +A + L  G  ++  VA   GY   S+F A F++ F +TP +F R M
+Sbjct  264  GLFQAERMQEARRRLANGNTSVMTVAADLGYANASHFSAAFQKQFGVTPSTFKRVM  319
+
+
+>VFG048575(gb|YP_005227765) (ybtA) yersiniabactin transcriptional 
+regulator YbtA [Ybt (VF0564) - Nutritional/Metabolic factor 
+(VFC0272)] [Klebsiella pneumoniae subsp. pneumoniae HS11286]
+Length=319
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 35/116 (30%), Positives = 60/116 (52%), Gaps = 11/116 (9%)
+
+Query  182  FDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSK---  238
+            F+ +ER   +  K+    ++++DLT+    AE+A +  +SV  +KR      V F+    
+Sbjct  211  FNPMERQKLLRAKD----LLLADLTQAPGVAELARESGLSVLKIKRGF---RVLFNNSVY  263
+
+Query  239  -IYLDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTM  293
+             ++   RM +A + L  G  ++  VA   GY   S+F A F++ F +TP +F R M
+Sbjct  264  GLFQAERMQEARRRLANGNTSVMTVAADLGYANASHFSAAFQKQFGVTPSTFKRVM  319
+
+
+>VFG003505(gb|WP_005168685) (ybtA) transcriptional regulator YbtA 
+[Yersiniabactin (VF0136) - Nutritional/Metabolic factor 
+(VFC0272)] [Yersinia enterocolitica subsp. enterocolitica 8081]
+Length=319
+
+ Score = 48.1 bits (113),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 34/113 (30%), Positives = 58/113 (51%), Gaps = 5/113 (4%)
+
+Query  182  FDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAE-EVSFSKIY  240
+            F+ +ER   +  K+    ++++DLT+    AE+A +  +SV  +KR        S   ++
+Sbjct  211  FNPMERQKLLRAKD----LLLADLTQAPGVAELARESGLSVLKIKRGFRVLFNNSVYGLF  266
+
+Query  241  LDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTM  293
+               RM +A + L  G  ++  VA   GY   S+F A F++ F +TP +F R M
+Sbjct  267  QAERMQEARRRLANGNTSVMTVAADLGYANASHFSAAFQKQFGVTPSTFKRVM  319
+
+
+>VFG034090(gb|WP_000970687) (ybtA) yersiniabactin transcriptional 
+regulator YbtA [Yersiniabactin siderophore (VF1115) - Nutritional/Metabolic 
+factor (VFC0272)] [Escherichia coli O83:H1 
+str. LF82]
+Length=319
+
+ Score = 48.1 bits (113),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 34/113 (30%), Positives = 58/113 (51%), Gaps = 5/113 (4%)
+
+Query  182  FDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAE-EVSFSKIY  240
+            F+ +ER   +  K+    ++++DLT+    AE+A +  +SV  +KR        S   ++
+Sbjct  211  FNPMERQKLLRAKD----LLLADLTQAPGVAELARESGLSVLKIKRGFRVLFNNSVYGLF  266
+
+Query  241  LDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTM  293
+               RM +A + L  G  ++  VA   GY   S+F A F++ F +TP +F R M
+Sbjct  267  QAERMQEARRRLANGNTSVMTVAADLGYANASHFSAAFQKQFGVTPSTFKRGM  319
+
+
+>VFG012543(gb|WP_000970688) (ybtA) yersiniabactin transcriptional 
+regulator YbtA [Yersiniabactin siderophore (VF1115) - Nutritional/Metabolic 
+factor (VFC0272)] [Escherichia coli CFT073]
+Length=319
+
+ Score = 48.1 bits (113),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 34/113 (30%), Positives = 58/113 (51%), Gaps = 5/113 (4%)
+
+Query  182  FDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAE-EVSFSKIY  240
+            F+ +ER   +  K+    ++++DLT+    AE+A +  +SV  +KR        S   ++
+Sbjct  211  FNPMERQKLLRAKD----LLLADLTQAPGVAELARESGLSVLKIKRGFRVLFNNSVYGLF  266
+
+Query  241  LDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTM  293
+               RM +A + L  G  ++  VA   GY   S+F A F++ F +TP +F R M
+Sbjct  267  QAERMQEARRRLANGNTSVMTVAADLGYANASHFSAAFQKQFGVTPSTFKRGM  319
+
+
+>VFG012545(gb|WP_000140405) (ybtA) yersiniabactin transcriptional 
+regulator YbtA [Yersiniabactin siderophore (VF1115) - Nutritional/Metabolic 
+factor (VFC0272)] [Escherichia coli UTI89]
+Length=319
+
+ Score = 48.1 bits (113),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 35/116 (30%), Positives = 60/116 (52%), Gaps = 11/116 (9%)
+
+Query  182  FDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSK---  238
+            F+ +ER   +  K+    ++++DLT+    AE+A +  +SV  +KR      V F+    
+Sbjct  211  FNPMERQKLLRAKD----LLLADLTQAPGVAELARESGLSVLKIKRGF---RVLFNNSVY  263
+
+Query  239  -IYLDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTM  293
+             ++   RM +A + L  G  ++  VA   GY   S+F A F++ F +TP +F R M
+Sbjct  264  GLFQAERMQEARRRLANGNTSVMTVAADLGYANASHFSAAFQKQFGVTPSTFKRGM  319
+
+
+>VFG034083(gb|WP_000140402) (ybtA) yersiniabactin transcriptional 
+regulator YbtA [Yersiniabactin siderophore (VF1115) - Nutritional/Metabolic 
+factor (VFC0272)] [Escherichia coli NA114]
+Length=319
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 31/102 (30%), Positives = 54/102 (53%), Gaps = 7/102 (7%)
+
+Query  196  KVYNIIISDLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSK----IYLDARMNQAIKL  251
+            +  +++++DLT+    AE+A +  +SV  +KR      V F+     ++   RM +A + 
+Sbjct  221  RAKDLLLADLTQAPGVAELARESGLSVLKIKRGF---RVLFNNSVYGLFQAERMQEARRR  277
+
+Query  252  LRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPLSFMRTM  293
+            L  G  ++  VA   GY   S+F A F++ F +TP +F R M
+Sbjct  278  LANGNTSVMTVAADLGYANASHFSAAFQKQFGVTPSTFKRGM  319
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2063520340
+
+
+Query= g2668.t1
+
+Length=309
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000537(gb|NP_461796) (hilD) AraC family transcriptional regula...  644     0.0  
+VFG020417(gb|WP_000432700) (hilD) transcriptional regulator HilD ...  642     0.0  
+VFG003674(gb|WP_000432695) (hilD) transcriptional regulator HilD ...  642     0.0  
+VFG020414(gb|WP_000432698) (hilD) transcriptional regulator HilD ...  641     0.0  
+VFG003671(gb|WP_000432696) (hilD) transcriptional regulator HilD ...  640     0.0  
+VFG018546(gb|WP_000432694) (hilD) transcriptional regulator HilD ...  554     0.0  
+VFG042756(gb|ABU50037) (lngS) LngS [Adhesive fimbriae (VF0213) - ...  250     4e-82
+VFG042771(gb|BAB62895) (cofS) CofS [Adhesive fimbriae (VF0213) - ...  223     7e-72
+VFG018562(gb|WP_000244003) (hilC) invasion transcriptional regula...  186     3e-57
+VFG003633(gb|WP_000243998) (hilC) invasion transcriptional regula...  182     6e-56
+VFG000531(gb|NP_461788) (hilC) AraC family transcriptional regula...  182     7e-56
+VFG003631(gb|WP_000243995) (hilC) invasion transcriptional regula...  178     3e-54
+VFG000763(gb|BAA84859) (bfpT) BfpT [Per (VF0190) - Regulation (VF...  94.0    3e-22
+VFG013075(gb|NP_858179) (virF) transcriptional activator VirF [Vi...  74.3    2e-15
+VFG036090(gb|WP_000769456) (aggR) aggregative adherence transcrip...  73.6    4e-15
+VFG042607(gb|WP_000914537) (SEN_RS22090) AraC family transcriptio...  72.0    2e-14
+VFG036086(gb|WP_000769457) (aggR) aggregative adherence transcrip...  70.9    5e-14
+VFG000101(gb|WP_000579582) (tcpN/toxT) TCP pilus virulence regula...  57.8    1e-09
+VFG016191(gb|WP_004665553) (ybtA) AraC family transcriptional reg...  53.1    7e-08
+VFG041884(gb|WP_080509009) (CV_RS12640) AraC family transcription...  52.8    7e-08
+VFG007177(gb|WP_005464548) (exsA) transcriptional regulator ExsA ...  51.6    2e-07
+VFG016190(gb|WP_005762820) (ybtA) AraC family transcriptional reg...  51.6    2e-07
+
+
+>VFG000537(gb|NP_461796) (hilD) AraC family transcriptional regulator 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar 
+Typhimurium str. LT2]
+Length=309
+
+ Score = 644 bits (1661),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 309/309 (100%), Positives = 309/309 (100%), Gaps = 0/309 (0%)
+
+Query  1    MENVTFVSNSHQRPAADNLQKLKSLLTNTRQQIKSQTQQVTIKNLYVSSFTLVCFRSGKL  60
+            MENVTFVSNSHQRPAADNLQKLKSLLTNTRQQIKSQTQQVTIKNLYVSSFTLVCFRSGKL
+Sbjct  1    MENVTFVSNSHQRPAADNLQKLKSLLTNTRQQIKSQTQQVTIKNLYVSSFTLVCFRSGKL  60
+
+Query  61   TISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQ  120
+            TISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQ
+Sbjct  61   TISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQ  120
+
+Query  121  TKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPY  180
+            TKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPY
+Sbjct  121  TKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPY  180
+
+Query  181  FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLK  240
+            FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLK
+Sbjct  181  FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLK  240
+
+Query  241  RKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTP  300
+            RKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTP
+Sbjct  241  RKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTP  300
+
+Query  301  STFIKMANH  309
+            STFIKMANH
+Sbjct  301  STFIKMANH  309
+
+
+>VFG020417(gb|WP_000432700) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar Heidelberg 
+str. SL476]
+Length=309
+
+ Score = 642 bits (1657),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 308/309 (99%), Positives = 308/309 (99%), Gaps = 0/309 (0%)
+
+Query  1    MENVTFVSNSHQRPAADNLQKLKSLLTNTRQQIKSQTQQVTIKNLYVSSFTLVCFRSGKL  60
+            MENVTFVSNSHQRPAADNLQKLKSLLTNTRQQIKSQTQQVTIKNLYVSSFTLVCFRSGKL
+Sbjct  1    MENVTFVSNSHQRPAADNLQKLKSLLTNTRQQIKSQTQQVTIKNLYVSSFTLVCFRSGKL  60
+
+Query  61   TISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQ  120
+            TISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQ
+Sbjct  61   TISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQ  120
+
+Query  121  TKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPY  180
+            TKMAVPTEKAQKI YTPDFPARREVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPY
+Sbjct  121  TKMAVPTEKAQKIIYTPDFPARREVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPY  180
+
+Query  181  FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLK  240
+            FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLK
+Sbjct  181  FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLK  240
+
+Query  241  RKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTP  300
+            RKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTP
+Sbjct  241  RKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTP  300
+
+Query  301  STFIKMANH  309
+            STFIKMANH
+Sbjct  301  STFIKMANH  309
+
+
+>VFG003674(gb|WP_000432695) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar Choleraesuis 
+str. SC-B67]
+Length=309
+
+ Score = 642 bits (1657),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 308/309 (99%), Positives = 309/309 (100%), Gaps = 0/309 (0%)
+
+Query  1    MENVTFVSNSHQRPAADNLQKLKSLLTNTRQQIKSQTQQVTIKNLYVSSFTLVCFRSGKL  60
+            MENVTFVSNSHQRPAADNLQKLKSLLTNT+QQIKSQTQQVTIKNLYVSSFTLVCFRSGKL
+Sbjct  1    MENVTFVSNSHQRPAADNLQKLKSLLTNTQQQIKSQTQQVTIKNLYVSSFTLVCFRSGKL  60
+
+Query  61   TISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQ  120
+            TISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQ
+Sbjct  61   TISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQ  120
+
+Query  121  TKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPY  180
+            TKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPY
+Sbjct  121  TKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPY  180
+
+Query  181  FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLK  240
+            FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLK
+Sbjct  181  FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLK  240
+
+Query  241  RKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTP  300
+            RKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTP
+Sbjct  241  RKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTP  300
+
+Query  301  STFIKMANH  309
+            STFIKMANH
+Sbjct  301  STFIKMANH  309
+
+
+>VFG020414(gb|WP_000432698) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar Dublin 
+str. CT_02021853]
+Length=309
+
+ Score = 641 bits (1654),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 307/309 (99%), Positives = 309/309 (100%), Gaps = 0/309 (0%)
+
+Query  1    MENVTFVSNSHQRPAADNLQKLKSLLTNTRQQIKSQTQQVTIKNLYVSSFTLVCFRSGKL  60
+            MENVTFVSNSHQRPAADNLQKLKSLLTNTRQQIKSQTQQVTIKNLYVSSFTLVCFRSGKL
+Sbjct  1    MENVTFVSNSHQRPAADNLQKLKSLLTNTRQQIKSQTQQVTIKNLYVSSFTLVCFRSGKL  60
+
+Query  61   TISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQ  120
+            TISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQ
+Sbjct  61   TISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQ  120
+
+Query  121  TKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPY  180
+            TKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPY
+Sbjct  121  TKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPY  180
+
+Query  181  FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLK  240
+            FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLK
+Sbjct  181  FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLK  240
+
+Query  241  RKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTP  300
+            RKLAEEGT+FSDIYLSARMNQAAKLLRIGNHNVN+VALKCGYDSTSYFIQCFKKYFKTTP
+Sbjct  241  RKLAEEGTNFSDIYLSARMNQAAKLLRIGNHNVNSVALKCGYDSTSYFIQCFKKYFKTTP  300
+
+Query  301  STFIKMANH  309
+            STFIKMANH
+Sbjct  301  STFIKMANH  309
+
+
+>VFG003671(gb|WP_000432696) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar Typhi 
+str. CT18]
+Length=309
+
+ Score = 640 bits (1652),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 307/309 (99%), Positives = 309/309 (100%), Gaps = 0/309 (0%)
+
+Query  1    MENVTFVSNSHQRPAADNLQKLKSLLTNTRQQIKSQTQQVTIKNLYVSSFTLVCFRSGKL  60
+            MENVTFVSNSHQRPAADNLQKLKSLLTNT+QQIKSQTQQVTIKNLYVSSFTLVCFRSGKL
+Sbjct  1    MENVTFVSNSHQRPAADNLQKLKSLLTNTQQQIKSQTQQVTIKNLYVSSFTLVCFRSGKL  60
+
+Query  61   TISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQ  120
+            TISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQ
+Sbjct  61   TISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQ  120
+
+Query  121  TKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPY  180
+            TKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPY
+Sbjct  121  TKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPY  180
+
+Query  181  FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLK  240
+            FLLFLLTAFLRLPESYEIILSSAQITLK+RVYNIISSSPSRQWKLTDVADHIFMSTSTLK
+Sbjct  181  FLLFLLTAFLRLPESYEIILSSAQITLKKRVYNIISSSPSRQWKLTDVADHIFMSTSTLK  240
+
+Query  241  RKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTP  300
+            RKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTP
+Sbjct  241  RKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTP  300
+
+Query  301  STFIKMANH  309
+            STFIKMANH
+Sbjct  301  STFIKMANH  309
+
+
+>VFG018546(gb|WP_000432694) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-- 
+str. RSK2980]
+Length=309
+
+ Score = 554 bits (1428),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 289/309 (94%), Positives = 300/309 (97%), Gaps = 0/309 (0%)
+
+Query  1    MENVTFVSNSHQRPAADNLQKLKSLLTNTRQQIKSQTQQVTIKNLYVSSFTLVCFRSGKL  60
+            MENVTFVSNSHQRPAADNLQKLKSLLTNT+QQIKSQTQQ+TIKNLYVSSFTLVCFRSGK+
+Sbjct  1    MENVTFVSNSHQRPAADNLQKLKSLLTNTQQQIKSQTQQITIKNLYVSSFTLVCFRSGKV  60
+
+Query  61   TISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQ  120
+            TISNNHDTIYC+EPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLG LYALIPNEQQ
+Sbjct  61   TISNNHDTIYCEEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGDLYALIPNEQQ  120
+
+Query  121  TKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPY  180
+            TKM  P EK QKIFYTPDFPARREVFEHLKTAFSCT DT+K C++CNN+SCIENEELIPY
+Sbjct  121  TKMVKPVEKVQKIFYTPDFPARREVFEHLKTAFSCTMDTNKSCNSCNNQSCIENEELIPY  180
+
+Query  181  FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLK  240
+            FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSP RQWKL D+AD+IFMSTSTLK
+Sbjct  181  FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPGRQWKLPDIADNIFMSTSTLK  240
+
+Query  241  RKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTP  300
+            RKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVN+VALKCGYDSTSYFIQCFKKYFKTTP
+Sbjct  241  RKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNSVALKCGYDSTSYFIQCFKKYFKTTP  300
+
+Query  301  STFIKMANH  309
+            STFIKMANH
+Sbjct  301  STFIKMANH  309
+
+
+>VFG042756(gb|ABU50037) (lngS) LngS [Adhesive fimbriae (VF0213) 
+- Adherence (VFC0001)] [Escherichia coli O8:H9 str. E9034A]
+Length=298
+
+ Score = 250 bits (638),  Expect = 4e-82, Method: Compositional matrix adjust.
+ Identities = 126/276 (46%), Positives = 182/276 (66%), Gaps = 16/276 (6%)
+
+Query  38   QQVTIKNLYVSSFTLVCFRSGKLTISNNHD-TIYCDEPGMLVLKKEQVVNVTLEEVNGHM  96
+            + V + N+YV++FTLVC   G +TI++    TI+C  PG++VL++ Q++N+T++EV+GH+
+Sbjct  35   EDVNVSNVYVAAFTLVCLHHGHVTITDERGRTIHCVAPGLMVLERNQLINITMQEVDGHL  94
+
+Query  97   DFDILEIPTQRLGALYALIPNEQQTKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCT  156
+             FD+L+IP + L   + L+  + QT+   P E   +I Y+ DF AR+EVF+ L+   S  
+Sbjct  95   SFDVLDIPHELLTIAHELLIEKLQTEHQ-PGEHPFRIVYSNDFAARKEVFDLLRFTLSQE  153
+
+Query  157  KDTSKGCSNCNNKSCIENEE---LIPYFLLFLLTAFLRLPESYEIILSSAQITLKERVYN  213
+            K           K   ENEE   +  Y LL LL+ F+       II  SA++++K +VYN
+Sbjct  154  K-----------KGIFENEEKENIATYALLLLLSGFIHDTAFAGIISRSAKLSVKYKVYN  202
+
+Query  214  IISSSPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNV  273
+            ++ + P +QWKL DV+  IFMS STLKRKLA EGT+FS++Y++ARMN A+KLLR G ++V
+Sbjct  203  LLYTEPDKQWKLDDVSSAIFMSASTLKRKLATEGTTFSELYITARMNLASKLLRTGKYSV  262
+
+Query  274  NAVALKCGYDSTSYFIQCFKKYFKTTPSTFIKMANH  309
+              VA+ CGYDS SYFI CFK+ F  TPS F+K  NH
+Sbjct  263  TNVAVLCGYDSVSYFIACFKRQFNITPSAFMKSVNH  298
+
+
+>VFG042771(gb|BAB62895) (cofS) CofS [Adhesive fimbriae (VF0213) 
+- Adherence (VFC0001)] [Escherichia coli str. 260-1]
+Length=283
+
+ Score = 223 bits (568),  Expect = 7e-72, Method: Compositional matrix adjust.
+ Identities = 124/276 (45%), Positives = 175/276 (63%), Gaps = 20/276 (7%)
+
+Query  40   VTIKNLYVSSFTLVCFRSGKLTISNNHDTI-YCDEPGMLVLKKEQVVNVTLEEVNGHMDF  98
+            V + N+YV+SFTLV  R G +T+++    + +C  PG++V +++Q +N+ ++EV+GH+ F
+Sbjct  22   VNVSNVYVASFTLVYLRHGCVTVTDERGRVSHCVAPGIMVFERDQSINIVMQEVDGHLSF  81
+
+Query  99   DILEIPTQRLGALY-ALIPNEQQTKMAVPT-EKAQKIFYTPDFPARREVFEHLKTAFSCT  156
+            D++E+P   L   +  LI    QT+   PT E   +I YT DFPA  EVFE LK   S  
+Sbjct  82   DVVEVPHHLLTVAHEVLIEKIPQTEY--PTIEHPLRIVYTGDFPAGEEVFELLKNMLS--  137
+
+Query  157  KDTSKGCSNCNNKSCIENEELI---PYFLLFLLTAFLRLPESYEIILSSAQITLKERVYN  213
+                       N+  I+NE  I    + LL LL+ F+  P    II  S ++ +K +VYN
+Sbjct  138  ----------ENRMSIKNEGEINIATFSLLLLLSGFIHEPAFPGIIRRSVKLNVKYKVYN  187
+
+Query  214  IISSSPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNV  273
+            ++ + P RQWKL DV+  IFMS STLKRKLA EGT+FS++Y++ARMN A+KLLR G ++V
+Sbjct  188  LLYTEPDRQWKLNDVSSAIFMSASTLKRKLASEGTTFSELYITARMNLASKLLRTGKYSV  247
+
+Query  274  NAVALKCGYDSTSYFIQCFKKYFKTTPSTFIKMANH  309
+            + VA+ CGYDS SYFI CFK+ F  TP  F+K  NH
+Sbjct  248  SNVAVLCGYDSVSYFIACFKRQFSITPFAFMKSVNH  283
+
+
+>VFG018562(gb|WP_000244003) (hilC) invasion transcriptional regulator 
+HilC [TTSS (SPI-1 encode) (VF0116) - Effector delivery 
+system (VFC0086)] [Salmonella enterica subsp. arizonae serovar 
+62:z4,z23:-- str. RSK2980]
+Length=295
+
+ Score = 186 bits (472),  Expect = 3e-57, Method: Compositional matrix adjust.
+ Identities = 100/272 (37%), Positives = 158/272 (58%), Gaps = 13/272 (5%)
+
+Query  42   IKNLYVSSFTLVCFRSGKLTISNNH-DTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDI  100
+            ++  YV++  L+    G L I N   + I    P + +L+K+Q +  ++ E+ GH+DF  
+Sbjct  33   VRGYYVANCLLIKLNKGSLRIENEFGEFIEQSAPCLFLLEKDQTITFSMSEIEGHIDFSS  92
+
+Query  101  LEIPTQRLGALYALI---PNEQQTKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTK  157
+            LE+    +   Y +     N    ++++ T K +  F+    P   + F+ +    +C +
+Sbjct  93   LEVSYDLMQKFYKVFYSTINYNDRELSLKT-KPKHFFHAELLPGMSDTFDSILNGVTCPR  151
+
+Query  158  DTSKGCSNCNNKSCIENEELIPYFLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISS  217
+                 CSN +    I++ +   Y L++L++AF+R P  ++ +  + +IT KE+VYNII S
+Sbjct  152  ----VCSNVS----IDDHDYSYYSLMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIIS  203
+
+Query  218  SPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVA  277
+              +R+W   +VA  +FMS S+LKRKLA E  SFS IYL ARMNQA KLLR+G  N++ VA
+Sbjct  204  DITRKWSQAEVAGKLFMSVSSLKRKLAAEDVSFSKIYLDARMNQAIKLLRMGAGNISQVA  263
+
+Query  278  LKCGYDSTSYFIQCFKKYFKTTPSTFIKMANH  309
+              CGYD+ SYFI  FK++FK TP +F++  NH
+Sbjct  264  TMCGYDTPSYFIAIFKRHFKITPLSFMRTINH  295
+
+
+>VFG003633(gb|WP_000243998) (hilC) invasion transcriptional regulator 
+HilC [TTSS (SPI-1 encode) (VF0116) - Effector delivery 
+system (VFC0086)] [Salmonella enterica subsp. enterica serovar 
+Paratyphi A str. ATCC 9150]
+Length=295
+
+ Score = 182 bits (463),  Expect = 6e-56, Method: Compositional matrix adjust.
+ Identities = 99/272 (36%), Positives = 159/272 (58%), Gaps = 13/272 (5%)
+
+Query  42   IKNLYVSSFTLVCFRSGKLTISNNH-DTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDI  100
+            +++ YV++  L     G L I N   + I    P + +L+K+Q + +++ E+ GH+DF  
+Sbjct  33   VRDYYVANCLLFKLNKGSLRIENEFGEFIEQSAPCLFLLEKDQTITLSMSEIEGHIDFSS  92
+
+Query  101  LEIPTQRLGALYALI---PNEQQTKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTK  157
+            LE+    +   Y +     N    ++++ T K +  F+    P   + F+ +    +C +
+Sbjct  93   LEVSYDLMQKFYKVFYSTRNYNDRELSLKT-KPKYFFHADLLPGMSDTFDSILHGVACPR  151
+
+Query  158  DTSKGCSNCNNKSCIENEELIPYFLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISS  217
+                 CSN +    I++ +   + L++L++AF+R P  ++ +  + +IT KE+VYNII S
+Sbjct  152  ----VCSNVS----IDDHDYSYFSLMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIIS  203
+
+Query  218  SPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVA  277
+              +R+W   +VA  +FMS S+LKRKLA E  SFS IYL ARMNQA KLLR+G  N++ VA
+Sbjct  204  DLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRMGAGNISQVA  263
+
+Query  278  LKCGYDSTSYFIQCFKKYFKTTPSTFIKMANH  309
+              CGYD+ SYFI  FK++FK TP +F++  NH
+Sbjct  264  TMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+
+
+>VFG000531(gb|NP_461788) (hilC) AraC family transcriptional regulator 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar 
+Typhimurium str. LT2]
+Length=295
+
+ Score = 182 bits (463),  Expect = 7e-56, Method: Compositional matrix adjust.
+ Identities = 99/272 (36%), Positives = 159/272 (58%), Gaps = 13/272 (5%)
+
+Query  42   IKNLYVSSFTLVCFRSGKLTISNNH-DTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDI  100
+            +++ YV++  L     G L I N   + I    P + +L+K+Q + +++ E+ GH+DF  
+Sbjct  33   VRDYYVANCLLFKLNKGSLRIENEFGEFIERSAPCLFLLEKDQTITLSMSEIEGHIDFSS  92
+
+Query  101  LEIPTQRLGALYALI---PNEQQTKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTK  157
+            LE+    +   Y +     N    ++++ T K +  F+    P   + F+ +    +C +
+Sbjct  93   LEVSYDLMQKFYKVFYSTRNYNDRELSLKT-KPKYFFHADLLPGMSDTFDSILHGVACPR  151
+
+Query  158  DTSKGCSNCNNKSCIENEELIPYFLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISS  217
+                 CSN +    I++ +   + L++L++AF+R P  ++ +  + +IT KE+VYNII S
+Sbjct  152  ----VCSNVS----IDDHDYSYFSLMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIIS  203
+
+Query  218  SPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVA  277
+              +R+W   +VA  +FMS S+LKRKLA E  SFS IYL ARMNQA KLLR+G  N++ VA
+Sbjct  204  DLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRMGAGNISQVA  263
+
+Query  278  LKCGYDSTSYFIQCFKKYFKTTPSTFIKMANH  309
+              CGYD+ SYFI  FK++FK TP +F++  NH
+Sbjct  264  TMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+
+
+>VFG003631(gb|WP_000243995) (hilC) invasion transcriptional regulator 
+HilC [TTSS (SPI-1 encode) (VF0116) - Effector delivery 
+system (VFC0086)] [Salmonella enterica subsp. enterica serovar 
+Typhi str. CT18]
+Length=295
+
+ Score = 178 bits (452),  Expect = 3e-54, Method: Compositional matrix adjust.
+ Identities = 98/272 (36%), Positives = 158/272 (58%), Gaps = 13/272 (5%)
+
+Query  42   IKNLYVSSFTLVCFRSGKLTISNNH-DTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDI  100
+            +++ YV++  L     G L I N   + I      + +L+K+Q + +++ E+ GH+DF  
+Sbjct  33   VRDYYVANCLLFKLNKGSLRIENEFGEFIEQSALCLFLLEKDQTITLSMSEIEGHIDFSS  92
+
+Query  101  LEIPTQRLGALYALI---PNEQQTKMAVPTEKAQKIFYTPDFPARREVFEHLKTAFSCTK  157
+            LE+    +   Y +     N    ++++ T K +  F+    P   + F+ +    +C +
+Sbjct  93   LEVSYDLMQKFYKVFYSTRNYNDRELSLKT-KPKYFFHADLLPGMSDTFDSILHGVACPR  151
+
+Query  158  DTSKGCSNCNNKSCIENEELIPYFLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISS  217
+                 CSN +    I++ +   + L++L++AF+R P  ++ +  + +IT KE+VYNII S
+Sbjct  152  ----VCSNVS----IDDHDYSYFSLMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIIS  203
+
+Query  218  SPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVA  277
+              +R+W   +VA  +FMS S+LKRKLA E  SFS IYL ARMNQA KLLR+G  N++ VA
+Sbjct  204  DLTRKWSQAEVAGKLFMSVSSLKRKLAAEEVSFSKIYLDARMNQAIKLLRMGAGNISQVA  263
+
+Query  278  LKCGYDSTSYFIQCFKKYFKTTPSTFIKMANH  309
+              CGYD+ SYFI  FK++FK TP +F++  NH
+Sbjct  264  TMCGYDTPSYFIAIFKRHFKITPLSFMRTMNH  295
+
+
+>VFG000763(gb|BAA84859) (bfpT) BfpT [Per (VF0190) - Regulation 
+(VFC0301)] [Escherichia coli B171]
+Length=274
+
+ Score = 94.0 bits (232),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 44/122 (36%), Positives = 76/122 (62%), Gaps = 0/122 (0%)
+
+Query  182  LLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLKR  241
+            +L+LL+ F    +   +ILS++  ++ +RV  +I    S+ WKL DV+  +FMS S L++
+Sbjct  141  ILYLLSFFDDYNDIVNVILSASSKSIVDRVIKVIELDISKNWKLGDVSSSMFMSDSCLRK  200
+
+Query  242  KLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTPS  301
+            +L +E  +F  I L  +M  A+  LR  + N++ ++   G++STSYFI+ FK+Y+ TTP 
+Sbjct  201  QLNKENLTFKKIMLDIKMKHASLFLRTTDKNIDEISCLVGFNSTSYFIKVFKEYYNTTPK  260
+
+Query  302  TF  303
+             +
+Sbjct  261  KY  262
+
+
+>VFG013075(gb|NP_858179) (virF) transcriptional activator VirF 
+[VirF (VF0979) - Regulation (VFC0301)] [Shigella flexneri 2a 
+str. 301]
+Length=262
+
+ Score = 74.3 bits (181),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 56/248 (23%), Positives = 120/248 (48%), Gaps = 25/248 (10%)
+
+Query  60   LTISNNHDTIYCDEPGMLVLKKEQVVNVTLEEVNGHMDFDILEIPTQRLGALYALIPNEQ  119
+            +T+S+ ++T+  DE  +  +++   +NV++++ +    F+I+ +    L ++  ++    
+Sbjct  29   MTVSSGNETLTIDEGQIAFIERNIQINVSIKKSDSINPFEIISLDRNLLLSIIRIMEPIY  88
+
+Query  120  QTKMAVPTEKA---QKIFYTPDFPARREVFEHLKTA-FSCTKDTSKGCSNCNNKSCIENE  175
+              + +   EK    +KIF   +     ++F+ +K   F   K  S  C      S + +E
+Sbjct  89   SFQHSYSEEKRGLNKKIFLLSEEEVSIDLFKSIKEMPFGKRKIYSLACL----LSAVSDE  144
+
+Query  176  ELIPYFLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMS  235
+            E +                 Y  I  ++ ++  +++  I+  +  ++W+L+D+++++ +S
+Sbjct  145  EAL-----------------YTSISIASSLSFSDQIRKIVEKNIEKRWRLSDISNNLNLS  187
+
+Query  236  TSTLKRKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKY  295
+               ++++L  E  +F  I L  RM+ AAKLL      +N V+   G  S SYFI+ F +Y
+Sbjct  188  EIAVRKRLESEKLTFQQILLDIRMHHAAKLLLNSQSYINDVSRLIGISSPSYFIRKFNEY  247
+
+Query  296  FKTTPSTF  303
+            +  TP  F
+Sbjct  248  YGITPKKF  255
+
+
+>VFG036090(gb|WP_000769456) (aggR) aggregative adherence transcriptional 
+regulator AggR [AggR (VF1137) - Regulation (VFC0301)] 
+[Escherichia coli O44:H18 042]
+Length=265
+
+ Score = 73.6 bits (179),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 47/147 (32%), Positives = 81/147 (55%), Gaps = 7/147 (5%)
+
+Query  158  DTSKGCSNCNNKSCIENEELIPYFLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISS  217
+            DT K   N N+ S I ++      L++L++      +  E I  SA     ++V NII  
+Sbjct  120  DTFKSIDN-NDDSRITSD------LIYLISKIENNKKIIESIYISAVSFFSDKVRNIIEK  172
+
+Query  218  SPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVA  277
+              S++W L  +AD   +S  T++++L  E  +F+ I + +RM++AA LL   ++ ++ ++
+Sbjct  173  DLSKRWTLAIIADEFNVSEITIRKRLESEYITFNQILMQSRMSKAALLLLDNSYQISQIS  232
+
+Query  278  LKCGYDSTSYFIQCFKKYFKTTPSTFI  304
+               G+ STSYFI+ F K+F  TP  F+
+Sbjct  233  NMIGFSSTSYFIRLFVKHFGITPKQFL  259
+
+
+>VFG042607(gb|WP_000914537) (SEN_RS22090) AraC family transcriptional 
+regulator [Sef (VF0952) - Adherence (VFC0001)] [Salmonella 
+enterica subsp. enterica serovar Enteritidis str. P125109]
+Length=271
+
+ Score = 72.0 bits (175),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 56/220 (25%), Positives = 97/220 (44%), Gaps = 23/220 (10%)
+
+Query  87   VTLEEVNGHMDFDILEIPTQRLGALYALIPNEQQTKMAVPTEK---AQKIFYTPDFPARR  143
+            V +E ++    FDI+ +P + L  +  L      ++   P      + K+F   D     
+Sbjct  53   VEIEYMDDIESFDIITLPDELLSRVLCLFEASNCSESLSPIRYRTFSDKVFIITDNGING  112
+
+Query  144  EVFEHLKTAFSCTKDTSKGCSNCNNKSCIENEELIPYFLLFLLTAFLRLPESYEIILSSA  203
+             +FE+LK              N NN           Y +  L +    + + Y  +  S 
+Sbjct  113  ILFEYLKKR-----------KNNNND---------IYEIACLFSKVNNIEQLYTSLCISV  152
+
+Query  204  QITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAA  263
+              +  + V   I +  S +W+L  +++ + +S  T+++KL  E T+F  I L ARM +AA
+Sbjct  153  SRSFSDIVRKTIDNDISTKWRLKTLSEKLNLSEVTIRKKLENENTNFYRILLDARMQKAA  212
+
+Query  264  KLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTPSTF  303
+            +L+   + ++N V+   G  S SYFI+ F  Y+  TP  F
+Sbjct  213  RLVLDSDTHINKVSYAVGMSSVSYFIKLFSDYYGLTPKQF  252
+
+
+>VFG036086(gb|WP_000769457) (aggR) aggregative adherence transcriptional 
+regulator AggR [AggR (VF1137) - Regulation (VFC0301)] 
+[Escherichia coli O104:H4 str. 2009EL-2050]
+Length=265
+
+ Score = 70.9 bits (172),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 39/123 (32%), Positives = 70/123 (57%), Gaps = 0/123 (0%)
+
+Query  182  LLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLKR  241
+            L++L++      +  E I  SA     ++V N I    S++W L  +AD   +S  T+++
+Sbjct  137  LIYLISKIENNRKIIESIYISAVSFFSDKVRNTIEKDLSKRWTLAIIADEFNVSEITIRK  196
+
+Query  242  KLAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTPS  301
+            +L  E  +F+ I + +RM++AA LL   ++ ++ ++   G+ STSYFI+ F K+F  TP 
+Sbjct  197  RLESEYITFNQILMQSRMSKAALLLLDNSYQISQISNMIGFSSTSYFIRLFVKHFGITPK  256
+
+Query  302  TFI  304
+             F+
+Sbjct  257  QFL  259
+
+
+>VFG000101(gb|WP_000579582) (tcpN/toxT) TCP pilus virulence regulatory 
+protein [TCP (VF0126) - Adherence (VFC0001)] [Vibrio 
+cholerae O1 biovar El Tor str. N16961]
+Length=276
+
+ Score = 57.8 bits (138),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 29/124 (23%), Positives = 59/124 (48%), Gaps = 0/124 (0%)
+
+Query  183  LFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSRQWKLTDVADHIFMSTSTLKRK  242
+            +F    F ++ + Y  I  +  +   E++  ++ S  +R W+  D+   +  +   LK++
+Sbjct  146  VFFSGFFSKVEKKYNSIFITDDLDAMEKISCLVKSDITRNWRWADICGELRTNRMILKKE  205
+
+Query  243  LAEEGTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTPST  302
+            L   G  F ++  S R++ +  L++ G   +  +A + G+ S SYF   FK      PS 
+Sbjct  206  LESRGVKFRELINSIRISYSISLMKTGEFKIKQIAYQSGFASVSYFSTVFKSTMNVAPSE  265
+
+Query  303  FIKM  306
+            ++ M
+Sbjct  266  YLFM  269
+
+
+>VFG016191(gb|WP_004665553) (ybtA) AraC family transcriptional 
+regulator [Yersiniabactin (VF0923) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas syringae pv. phaseolicola 1448A]
+Length=315
+
+ Score = 53.1 bits (126),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 36/130 (28%), Positives = 65/130 (50%), Gaps = 3/130 (2%)
+
+Query  180  YFLLFLLTAFLRLPESYEIILSSAQITLK-ERVYNIISSSPSRQWKLTDVADHIFMSTST  238
+            Y +L  LTA ++    +  + +  +  ++ ER   ++ + P + W +  +A  + ++T  
+Sbjct  170  YEMLGQLTAHIQDLAHFTGLNAGGRDLMRVERARKLLEAHPEQDWTIESLAQSVELNTKK  229
+
+Query  239  LKRKLAEEGTSFSDIYLS-ARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFK  297
+            LK+   +   S    YL   R+ +AA+LLR     V+ VA   GY S S+F + F++Y+ 
+Sbjct  230  LKQGFRQSYDSGVYGYLQKVRIERAAQLLRQ-QGAVSEVAAAVGYSSASHFAKVFRRYYG  288
+
+Query  298  TTPSTFIKMA  307
+              P  F  MA
+Sbjct  289  INPLHFSAMA  298
+
+
+>VFG041884(gb|WP_080509009) (CV_RS12640) AraC family transcriptional 
+regulator [Cpi-2 encoded T3SS (SPI-2 like) (VF1260) - 
+Effector delivery system (VFC0086)] [Chromobacterium violaceum 
+ATCC 12472]
+Length=284
+
+ Score = 52.8 bits (125),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 39/147 (27%), Positives = 65/147 (44%), Gaps = 3/147 (2%)
+
+Query  164  SNCNNKSCIEN-EELIPY-FLLFLLTAFLRLPESYEIILSSAQITLKERVYNIISSSPSR  221
+            ++CN    + +  +L P  FL F     L L  +Y   L  + I   +  Y  I  +  +
+Sbjct  129  TDCNATEVLASLSQLAPSSFLYFAYLYCLNLDRAYFSALLRSCIAGNKDFYEFIEKNALQ  188
+
+Query  222  QWKLTDVADHIFMSTSTLKRKLAEE-GTSFSDIYLSARMNQAAKLLRIGNHNVNAVALKC  280
+            QW ++ +AD   M      +   E  G       L  R+  A KLL   +  V  VAL+C
+Sbjct  189  QWSISTLADRFGMPLRKFNQLFQEAYGKPAKRWILEHRLTHAKKLLLTTSMRVLDVALEC  248
+
+Query  281  GYDSTSYFIQCFKKYFKTTPSTFIKMA  307
+            G+ + ++F   F+++F+  P  F + A
+Sbjct  249  GFSNHAHFTDSFRRHFQCNPKQFRQQA  275
+
+
+>VFG007177(gb|WP_005464548) (exsA) transcriptional regulator ExsA 
+[T3SS1 (VF0408) - Effector delivery system (VFC0086)] [Vibrio 
+parahaemolyticus RIMD 2210633]
+Length=286
+
+ Score = 51.6 bits (122),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 30/82 (37%), Positives = 42/82 (51%), Gaps = 1/82 (1%)
+
+Query  221  RQWKLTDVADHIFMSTSTLKRKLAEE-GTSFSDIYLSARMNQAAKLLRIGNHNVNAVALK  279
+            ++WKLTD A     S +T K    E  G S        R+  A KLL     ++  VA++
+Sbjct  192  KEWKLTDYAQEFGASLTTFKELFNEHYGISPRAWISERRLLHAHKLLLTSKMSIVDVAME  251
+
+Query  280  CGYDSTSYFIQCFKKYFKTTPS  301
+             G+ S SYF Q +++ F TTPS
+Sbjct  252  AGFSSQSYFTQSYRRRFGTTPS  273
+
+
+>VFG016190(gb|WP_005762820) (ybtA) AraC family transcriptional 
+regulator [Yersiniabactin (VF0923) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas syringae pv. tomato str. DC3000]
+Length=312
+
+ Score = 51.6 bits (122),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 35/130 (27%), Positives = 65/130 (50%), Gaps = 3/130 (2%)
+
+Query  180  YFLLFLLTAFLRLPESYEIILSSAQITLK-ERVYNIISSSPSRQWKLTDVADHIFMSTST  238
+            Y +L  LTA ++    +  + +  +  ++ ER   ++ + P + W +  +A  + ++T  
+Sbjct  170  YEMLGQLTAHIQDLAHFTGLNAGGRDLMRVERARKLLEAHPEQDWTIESLAQSVELNTKK  229
+
+Query  239  LKRKLAEEGTSFSDIYLS-ARMNQAAKLLRIGNHNVNAVALKCGYDSTSYFIQCFKKYFK  297
+            LK+   +   S    YL   R+ +AA+LL+     V+ VA   GY S S+F + F++Y+ 
+Sbjct  230  LKQGFRQSYDSGVYGYLQKVRIERAAQLLKQ-QGAVSEVAAAVGYSSASHFAKVFRRYYG  288
+
+Query  298  TTPSTFIKMA  307
+              P  F  MA
+Sbjct  289  INPLHFSAMA  298
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.131    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2194538247
+
+
+Query= g3998.t1
+
+Length=253
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000763(gb|BAA84859) (bfpT) BfpT [Per (VF0190) - Regulation (VF...  92.8    2e-22
+VFG018562(gb|WP_000244003) (hilC) invasion transcriptional regula...  90.9    1e-21
+VFG000531(gb|NP_461788) (hilC) AraC family transcriptional regula...  89.7    5e-21
+VFG003633(gb|WP_000243998) (hilC) invasion transcriptional regula...  89.4    5e-21
+VFG003631(gb|WP_000243995) (hilC) invasion transcriptional regula...  89.4    6e-21
+VFG042756(gb|ABU50037) (lngS) LngS [Adhesive fimbriae (VF0213) - ...  81.3    5e-18
+VFG036090(gb|WP_000769456) (aggR) aggregative adherence transcrip...  79.7    1e-17
+VFG042771(gb|BAB62895) (cofS) CofS [Adhesive fimbriae (VF0213) - ...  79.7    2e-17
+VFG000537(gb|NP_461796) (hilD) AraC family transcriptional regula...  79.3    3e-17
+VFG020417(gb|WP_000432700) (hilD) transcriptional regulator HilD ...  79.3    3e-17
+VFG003674(gb|WP_000432695) (hilD) transcriptional regulator HilD ...  79.3    3e-17
+VFG003671(gb|WP_000432696) (hilD) transcriptional regulator HilD ...  78.6    5e-17
+VFG018546(gb|WP_000432694) (hilD) transcriptional regulator HilD ...  78.2    7e-17
+VFG020414(gb|WP_000432698) (hilD) transcriptional regulator HilD ...  78.2    8e-17
+VFG042607(gb|WP_000914537) (SEN_RS22090) AraC family transcriptio...  77.0    1e-16
+VFG013075(gb|NP_858179) (virF) transcriptional activator VirF [Vi...  76.6    2e-16
+VFG036086(gb|WP_000769457) (aggR) aggregative adherence transcrip...  76.3    2e-16
+VFG000101(gb|WP_000579582) (tcpN/toxT) TCP pilus virulence regula...  53.9    1e-08
+VFG016190(gb|WP_005762820) (ybtA) AraC family transcriptional reg...  53.1    4e-08
+VFG016191(gb|WP_004665553) (ybtA) AraC family transcriptional reg...  53.1    4e-08
+
+
+>VFG000763(gb|BAA84859) (bfpT) BfpT [Per (VF0190) - Regulation 
+(VFC0301)] [Escherichia coli B171]
+Length=274
+
+ Score = 92.8 bits (229),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 49/129 (38%), Positives = 80/129 (62%), Gaps = 1/129 (1%)
+
+Query  115  SERTRALLFTVLSRFLDHKKFISLLMHMLRSRISDSVYHIIQSDIHKDWNLSAVASCLCL  174
+            +++T  +L+ +LS F D+   +++++      I D V  +I+ DI K+W L  V+S + +
+Sbjct  135  NKKTFKILY-LLSFFDDYNDIVNVILSASSKSIVDRVIKVIELDISKNWKLGDVSSSMFM  193
+
+Query  175  SPSLLKKKLKNENTSYSQIITTCRMRYAVNQLLMDGKNISQVSQLCGYNSTSYFISVFKE  234
+            S S L+K+L  EN ++ +I+   +M++A   L    KNI ++S L G+NSTSYFI VFKE
+Sbjct  194  SDSCLRKQLNKENLTFKKIMLDIKMKHASLFLRTTDKNIDEISCLVGFNSTSYFIKVFKE  253
+
+Query  235  FYGMTPLHY  243
+            +Y  TP  Y
+Sbjct  254  YYNTTPKKY  262
+
+
+>VFG018562(gb|WP_000244003) (hilC) invasion transcriptional regulator 
+HilC [TTSS (SPI-1 encode) (VF0116) - Effector delivery 
+system (VFC0086)] [Salmonella enterica subsp. arizonae serovar 
+62:z4,z23:-- str. RSK2980]
+Length=295
+
+ Score = 90.9 bits (224),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 47/123 (38%), Positives = 73/123 (59%), Gaps = 0/123 (0%)
+
+Query  122  LFTVLSRFLDHKKFISLLMHMLRSRISDSVYHIIQSDIHKDWNLSAVASCLCLSPSLLKK  181
+            L  ++S F+        L   ++    + VY+II SDI + W+ + VA  L +S S LK+
+Sbjct  168  LMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIISDITRKWSQAEVAGKLFMSVSSLKR  227
+
+Query  182  KLKNENTSYSQIITTCRMRYAVNQLLMDGKNISQVSQLCGYNSTSYFISVFKEFYGMTPL  241
+            KL  E+ S+S+I    RM  A+  L M   NISQV+ +CGY++ SYFI++FK  + +TPL
+Sbjct  228  KLAAEDVSFSKIYLDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPL  287
+
+Query  242  HYV  244
+             ++
+Sbjct  288  SFM  290
+
+
+>VFG000531(gb|NP_461788) (hilC) AraC family transcriptional regulator 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar 
+Typhimurium str. LT2]
+Length=295
+
+ Score = 89.7 bits (221),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 46/123 (37%), Positives = 72/123 (59%), Gaps = 0/123 (0%)
+
+Query  122  LFTVLSRFLDHKKFISLLMHMLRSRISDSVYHIIQSDIHKDWNLSAVASCLCLSPSLLKK  181
+            L  ++S F+        L   ++    + VY+II SD+ + W+ + VA  L +S S LK+
+Sbjct  168  LMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKR  227
+
+Query  182  KLKNENTSYSQIITTCRMRYAVNQLLMDGKNISQVSQLCGYNSTSYFISVFKEFYGMTPL  241
+            KL  E  S+S+I    RM  A+  L M   NISQV+ +CGY++ SYFI++FK  + +TPL
+Sbjct  228  KLAAEEVSFSKIYLDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPL  287
+
+Query  242  HYV  244
+             ++
+Sbjct  288  SFM  290
+
+
+>VFG003633(gb|WP_000243998) (hilC) invasion transcriptional regulator 
+HilC [TTSS (SPI-1 encode) (VF0116) - Effector delivery 
+system (VFC0086)] [Salmonella enterica subsp. enterica serovar 
+Paratyphi A str. ATCC 9150]
+Length=295
+
+ Score = 89.4 bits (220),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 46/123 (37%), Positives = 72/123 (59%), Gaps = 0/123 (0%)
+
+Query  122  LFTVLSRFLDHKKFISLLMHMLRSRISDSVYHIIQSDIHKDWNLSAVASCLCLSPSLLKK  181
+            L  ++S F+        L   ++    + VY+II SD+ + W+ + VA  L +S S LK+
+Sbjct  168  LMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKR  227
+
+Query  182  KLKNENTSYSQIITTCRMRYAVNQLLMDGKNISQVSQLCGYNSTSYFISVFKEFYGMTPL  241
+            KL  E  S+S+I    RM  A+  L M   NISQV+ +CGY++ SYFI++FK  + +TPL
+Sbjct  228  KLAAEEVSFSKIYLDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPL  287
+
+Query  242  HYV  244
+             ++
+Sbjct  288  SFM  290
+
+
+>VFG003631(gb|WP_000243995) (hilC) invasion transcriptional regulator 
+HilC [TTSS (SPI-1 encode) (VF0116) - Effector delivery 
+system (VFC0086)] [Salmonella enterica subsp. enterica serovar 
+Typhi str. CT18]
+Length=295
+
+ Score = 89.4 bits (220),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 46/123 (37%), Positives = 72/123 (59%), Gaps = 0/123 (0%)
+
+Query  122  LFTVLSRFLDHKKFISLLMHMLRSRISDSVYHIIQSDIHKDWNLSAVASCLCLSPSLLKK  181
+            L  ++S F+        L   ++    + VY+II SD+ + W+ + VA  L +S S LK+
+Sbjct  168  LMYLISAFVRKPGGFDFLERAIKITTKEKVYNIIISDLTRKWSQAEVAGKLFMSVSSLKR  227
+
+Query  182  KLKNENTSYSQIITTCRMRYAVNQLLMDGKNISQVSQLCGYNSTSYFISVFKEFYGMTPL  241
+            KL  E  S+S+I    RM  A+  L M   NISQV+ +CGY++ SYFI++FK  + +TPL
+Sbjct  228  KLAAEEVSFSKIYLDARMNQAIKLLRMGAGNISQVATMCGYDTPSYFIAIFKRHFKITPL  287
+
+Query  242  HYV  244
+             ++
+Sbjct  288  SFM  290
+
+
+>VFG042756(gb|ABU50037) (lngS) LngS [Adhesive fimbriae (VF0213) 
+- Adherence (VFC0001)] [Escherichia coli O8:H9 str. E9034A]
+Length=298
+
+ Score = 81.3 bits (199),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 46/124 (37%), Positives = 75/124 (60%), Gaps = 3/124 (2%)
+
+Query  118  TRALLFTVLSRFLDHKKFISLLMHMLRSRISDSVYHIIQSDIHKDWNLSAVASCLCLSPS  177
+            T ALL  +LS F+    F  ++    +  +   VY+++ ++  K W L  V+S + +S S
+Sbjct  168  TYALLL-LLSGFIHDTAFAGIISRSAKLSVKYKVYNLLYTEPDKQWKLDDVSSAIFMSAS  226
+
+Query  178  LLKKKLKNENTSYSQIITTCRMRYAVNQLLMDGK-NISQVSQLCGYNSTSYFISVFKEFY  236
+             LK+KL  E T++S++  T RM  A ++LL  GK +++ V+ LCGY+S SYFI+ FK  +
+Sbjct  227  TLKRKLATEGTTFSELYITARMNLA-SKLLRTGKYSVTNVAVLCGYDSVSYFIACFKRQF  285
+
+Query  237  GMTP  240
+             +TP
+Sbjct  286  NITP  289
+
+
+>VFG036090(gb|WP_000769456) (aggR) aggregative adherence transcriptional 
+regulator AggR [AggR (VF1137) - Regulation (VFC0301)] 
+[Escherichia coli O44:H18 042]
+Length=265
+
+ Score = 79.7 bits (195),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 43/134 (32%), Positives = 79/134 (59%), Gaps = 0/134 (0%)
+
+Query  117  RTRALLFTVLSRFLDHKKFISLLMHMLRSRISDSVYHIIQSDIHKDWNLSAVASCLCLSP  176
+            R  + L  ++S+  ++KK I  +     S  SD V +II+ D+ K W L+ +A    +S 
+Sbjct  132  RITSDLIYLISKIENNKKIIESIYISAVSFFSDKVRNIIEKDLSKRWTLAIIADEFNVSE  191
+
+Query  177  SLLKKKLKNENTSYSQIITTCRMRYAVNQLLMDGKNISQVSQLCGYNSTSYFISVFKEFY  236
+              ++K+L++E  +++QI+   RM  A   LL +   ISQ+S + G++STSYFI +F + +
+Sbjct  192  ITIRKRLESEYITFNQILMQSRMSKAALLLLDNSYQISQISNMIGFSSTSYFIRLFVKHF  251
+
+Query  237  GMTPLHYVSQHRER  250
+            G+TP  +++  + +
+Sbjct  252  GITPKQFLTYFKSQ  265
+
+
+>VFG042771(gb|BAB62895) (cofS) CofS [Adhesive fimbriae (VF0213) 
+- Adherence (VFC0001)] [Escherichia coli str. 260-1]
+Length=283
+
+ Score = 79.7 bits (195),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 40/117 (34%), Positives = 73/117 (62%), Gaps = 2/117 (2%)
+
+Query  129  FLDHKKFISLLMHMLRSRISDSVYHIIQSDIHKDWNLSAVASCLCLSPSLLKKKLKNENT  188
+            F+    F  ++   ++  +   VY+++ ++  + W L+ V+S + +S S LK+KL +E T
+Sbjct  163  FIHEPAFPGIIRRSVKLNVKYKVYNLLYTEPDRQWKLNDVSSAIFMSASTLKRKLASEGT  222
+
+Query  189  SYSQIITTCRMRYAVNQLLMDGK-NISQVSQLCGYNSTSYFISVFKEFYGMTPLHYV  244
+            ++S++  T RM  A ++LL  GK ++S V+ LCGY+S SYFI+ FK  + +TP  ++
+Sbjct  223  TFSELYITARMNLA-SKLLRTGKYSVSNVAVLCGYDSVSYFIACFKRQFSITPFAFM  278
+
+
+>VFG000537(gb|NP_461796) (hilD) AraC family transcriptional regulator 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar 
+Typhimurium str. LT2]
+Length=309
+
+ Score = 79.3 bits (194),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 39/98 (40%), Positives = 59/98 (60%), Gaps = 0/98 (0%)
+
+Query  147  ISDSVYHIIQSDIHKDWNLSAVASCLCLSPSLLKKKLKNENTSYSQIITTCRMRYAVNQL  206
+            + + VY+II S   + W L+ VA  + +S S LK+KL  E TS+S I  + RM  A   L
+Sbjct  207  LKERVYNIISSSPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLL  266
+
+Query  207  LMDGKNISQVSQLCGYNSTSYFISVFKEFYGMTPLHYV  244
+             +   N++ V+  CGY+STSYFI  FK+++  TP  ++
+Sbjct  267  RIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTPSTFI  304
+
+
+>VFG020417(gb|WP_000432700) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar Heidelberg 
+str. SL476]
+Length=309
+
+ Score = 79.3 bits (194),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 39/98 (40%), Positives = 59/98 (60%), Gaps = 0/98 (0%)
+
+Query  147  ISDSVYHIIQSDIHKDWNLSAVASCLCLSPSLLKKKLKNENTSYSQIITTCRMRYAVNQL  206
+            + + VY+II S   + W L+ VA  + +S S LK+KL  E TS+S I  + RM  A   L
+Sbjct  207  LKERVYNIISSSPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLL  266
+
+Query  207  LMDGKNISQVSQLCGYNSTSYFISVFKEFYGMTPLHYV  244
+             +   N++ V+  CGY+STSYFI  FK+++  TP  ++
+Sbjct  267  RIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTPSTFI  304
+
+
+>VFG003674(gb|WP_000432695) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar Choleraesuis 
+str. SC-B67]
+Length=309
+
+ Score = 79.3 bits (194),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 39/98 (40%), Positives = 59/98 (60%), Gaps = 0/98 (0%)
+
+Query  147  ISDSVYHIIQSDIHKDWNLSAVASCLCLSPSLLKKKLKNENTSYSQIITTCRMRYAVNQL  206
+            + + VY+II S   + W L+ VA  + +S S LK+KL  E TS+S I  + RM  A   L
+Sbjct  207  LKERVYNIISSSPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLL  266
+
+Query  207  LMDGKNISQVSQLCGYNSTSYFISVFKEFYGMTPLHYV  244
+             +   N++ V+  CGY+STSYFI  FK+++  TP  ++
+Sbjct  267  RIGNHNVNAVALKCGYDSTSYFIQCFKKYFKTTPSTFI  304
+
+
+>VFG003671(gb|WP_000432696) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar Typhi 
+str. CT18]
+Length=309
+
+ Score = 78.6 bits (192),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 39/94 (41%), Positives = 57/94 (61%), Gaps = 0/94 (0%)
+
+Query  151  VYHIIQSDIHKDWNLSAVASCLCLSPSLLKKKLKNENTSYSQIITTCRMRYAVNQLLMDG  210
+            VY+II S   + W L+ VA  + +S S LK+KL  E TS+S I  + RM  A   L +  
+Sbjct  211  VYNIISSSPSRQWKLTDVADHIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLLRIGN  270
+
+Query  211  KNISQVSQLCGYNSTSYFISVFKEFYGMTPLHYV  244
+             N++ V+  CGY+STSYFI  FK+++  TP  ++
+Sbjct  271  HNVNAVALKCGYDSTSYFIQCFKKYFKTTPSTFI  304
+
+
+>VFG018546(gb|WP_000432694) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-- 
+str. RSK2980]
+Length=309
+
+ Score = 78.2 bits (191),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 38/98 (39%), Positives = 58/98 (59%), Gaps = 0/98 (0%)
+
+Query  147  ISDSVYHIIQSDIHKDWNLSAVASCLCLSPSLLKKKLKNENTSYSQIITTCRMRYAVNQL  206
+            + + VY+II S   + W L  +A  + +S S LK+KL  E TS+S I  + RM  A   L
+Sbjct  207  LKERVYNIISSSPGRQWKLPDIADNIFMSTSTLKRKLAEEGTSFSDIYLSARMNQAAKLL  266
+
+Query  207  LMDGKNISQVSQLCGYNSTSYFISVFKEFYGMTPLHYV  244
+             +   N++ V+  CGY+STSYFI  FK+++  TP  ++
+Sbjct  267  RIGNHNVNSVALKCGYDSTSYFIQCFKKYFKTTPSTFI  304
+
+
+>VFG020414(gb|WP_000432698) (hilD) transcriptional regulator HilD 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system 
+(VFC0086)] [Salmonella enterica subsp. enterica serovar Dublin 
+str. CT_02021853]
+Length=309
+
+ Score = 78.2 bits (191),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 38/98 (39%), Positives = 59/98 (60%), Gaps = 0/98 (0%)
+
+Query  147  ISDSVYHIIQSDIHKDWNLSAVASCLCLSPSLLKKKLKNENTSYSQIITTCRMRYAVNQL  206
+            + + VY+II S   + W L+ VA  + +S S LK+KL  E T++S I  + RM  A   L
+Sbjct  207  LKERVYNIISSSPSRQWKLTDVADHIFMSTSTLKRKLAEEGTNFSDIYLSARMNQAAKLL  266
+
+Query  207  LMDGKNISQVSQLCGYNSTSYFISVFKEFYGMTPLHYV  244
+             +   N++ V+  CGY+STSYFI  FK+++  TP  ++
+Sbjct  267  RIGNHNVNSVALKCGYDSTSYFIQCFKKYFKTTPSTFI  304
+
+
+>VFG042607(gb|WP_000914537) (SEN_RS22090) AraC family transcriptional 
+regulator [Sef (VF0952) - Adherence (VFC0001)] [Salmonella 
+enterica subsp. enterica serovar Enteritidis str. P125109]
+Length=271
+
+ Score = 77.0 bits (188),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 42/119 (35%), Positives = 70/119 (59%), Gaps = 1/119 (1%)
+
+Query  135  FISLLMHMLRSRISDSVYHIIQSDIHKDWNLSAVASCLCLSPSLLKKKLKNENTSYSQII  194
+            + SL + + RS  SD V   I +DI   W L  ++  L LS   ++KKL+NENT++ +I+
+Sbjct  145  YTSLCISVSRS-FSDIVRKTIDNDISTKWRLKTLSEKLNLSEVTIRKKLENENTNFYRIL  203
+
+Query  195  TTCRMRYAVNQLLMDGKNISQVSQLCGYNSTSYFISVFKEFYGMTPLHYVSQHRERSAA  253
+               RM+ A   +L    +I++VS   G +S SYFI +F ++YG+TP  +  +++ R+  
+Sbjct  204  LDARMQKAARLVLDSDTHINKVSYAVGMSSVSYFIKLFSDYYGLTPKQFHLKYKHRNTG  262
+
+
+>VFG013075(gb|NP_858179) (virF) transcriptional activator VirF 
+[VirF (VF0979) - Regulation (VFC0301)] [Shigella flexneri 2a 
+str. 301]
+Length=262
+
+ Score = 76.6 bits (187),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 38/102 (37%), Positives = 62/102 (61%), Gaps = 0/102 (0%)
+
+Query  148  SDSVYHIIQSDIHKDWNLSAVASCLCLSPSLLKKKLKNENTSYSQIITTCRMRYAVNQLL  207
+            SD +  I++ +I K W LS +++ L LS   ++K+L++E  ++ QI+   RM +A   LL
+Sbjct  160  SDQIRKIVEKNIEKRWRLSDISNNLNLSEIAVRKRLESEKLTFQQILLDIRMHHAAKLLL  219
+
+Query  208  MDGKNISQVSQLCGYNSTSYFISVFKEFYGMTPLHYVSQHRE  249
+                 I+ VS+L G +S SYFI  F E+YG+TP  +   H++
+Sbjct  220  NSQSYINDVSRLIGISSPSYFIRKFNEYYGITPKKFYLYHKK  261
+
+
+>VFG036086(gb|WP_000769457) (aggR) aggregative adherence transcriptional 
+regulator AggR [AggR (VF1137) - Regulation (VFC0301)] 
+[Escherichia coli O104:H4 str. 2009EL-2050]
+Length=265
+
+ Score = 76.3 bits (186),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 41/134 (31%), Positives = 78/134 (58%), Gaps = 0/134 (0%)
+
+Query  117  RTRALLFTVLSRFLDHKKFISLLMHMLRSRISDSVYHIIQSDIHKDWNLSAVASCLCLSP  176
+            R  + L  ++S+  +++K I  +     S  SD V + I+ D+ K W L+ +A    +S 
+Sbjct  132  RITSDLIYLISKIENNRKIIESIYISAVSFFSDKVRNTIEKDLSKRWTLAIIADEFNVSE  191
+
+Query  177  SLLKKKLKNENTSYSQIITTCRMRYAVNQLLMDGKNISQVSQLCGYNSTSYFISVFKEFY  236
+              ++K+L++E  +++QI+   RM  A   LL +   ISQ+S + G++STSYFI +F + +
+Sbjct  192  ITIRKRLESEYITFNQILMQSRMSKAALLLLDNSYQISQISNMIGFSSTSYFIRLFVKHF  251
+
+Query  237  GMTPLHYVSQHRER  250
+            G+TP  +++  + +
+Sbjct  252  GITPKQFLTYFKSQ  265
+
+
+>VFG000101(gb|WP_000579582) (tcpN/toxT) TCP pilus virulence regulatory 
+protein [TCP (VF0126) - Adherence (VFC0001)] [Vibrio 
+cholerae O1 biovar El Tor str. N16961]
+Length=276
+
+ Score = 53.9 bits (128),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 53/227 (23%), Positives = 103/227 (45%), Gaps = 18/227 (8%)
+
+Query  28   ISLKANHMAILACENNVIDISSLNS-------VLVIQVSRNNIKDYLQFLNKDLSHLPVW  80
+            +S + N  +I+  + N I   SL S       V VI +S + I+    ++  DL    ++
+Sbjct  49   VSYEINSSSIILLKKNSIQRFSLTSLSDENINVSVITISDSFIRSLKSYILGDLMIRNLY  108
+
+Query  81   QRNADPLLTANCLTPDIF---RVAARYSAMEAPDEIVSERTRALLFTVLSRFLDHKKFIS  137
+              N D LL  NC   DI     V   +  +   DE +          V  ++  +  FI+
+Sbjct  109  SENKD-LLLWNCEHNDIAVLSEVVNGFREINYSDEFLKVFFSGFFSKVEKKY--NSIFIT  165
+
+Query  138  LLMHMLRSRISDSVYHIIQSDIHKDWNLSAVASCLCLSPSLLKKKLKNENTSYSQIITTC  197
+              +  +     + +  +++SDI ++W  + +   L  +  +LKK+L++    + ++I + 
+Sbjct  166  DDLDAM-----EKISCLVKSDITRNWRWADICGELRTNRMILKKELESRGVKFRELINSI  220
+
+Query  198  RMRYAVNQLLMDGKNISQVSQLCGYNSTSYFISVFKEFYGMTPLHYV  244
+            R+ Y+++ +      I Q++   G+ S SYF +VFK    + P  Y+
+Sbjct  221  RISYSISLMKTGEFKIKQIAYQSGFASVSYFSTVFKSTMNVAPSEYL  267
+
+
+>VFG016190(gb|WP_005762820) (ybtA) AraC family transcriptional 
+regulator [Yersiniabactin (VF0923) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas syringae pv. tomato str. DC3000]
+Length=312
+
+ Score = 53.1 bits (126),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 36/149 (24%), Positives = 71/149 (48%), Gaps = 14/149 (9%)
+
+Query  109  APDEIVSERTRALLFTVLSRFLDHKKFISL------LMHMLRSRISDSVYHIIQSDIHKD  162
+            A D ++  +   +L  + +   D   F  L      LM + R+R       ++++   +D
+Sbjct  160  ARDLLLRGKAYEMLGQLTAHIQDLAHFTGLNAGGRDLMRVERAR------KLLEAHPEQD  213
+
+Query  163  WNLSAVASCLCLSPSLLKKKLKNE-NTSYSQIITTCRMRYAVNQLLMDGKNISQVSQLCG  221
+            W + ++A  + L+   LK+  +   ++     +   R+  A  QLL     +S+V+   G
+Sbjct  214  WTIESLAQSVELNTKKLKQGFRQSYDSGVYGYLQKVRIERAA-QLLKQQGAVSEVAAAVG  272
+
+Query  222  YNSTSYFISVFKEFYGMTPLHYVSQHRER  250
+            Y+S S+F  VF+ +YG+ PLH+ +   E+
+Sbjct  273  YSSASHFAKVFRRYYGINPLHFSAMAAEQ  301
+
+
+>VFG016191(gb|WP_004665553) (ybtA) AraC family transcriptional 
+regulator [Yersiniabactin (VF0923) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas syringae pv. phaseolicola 1448A]
+Length=315
+
+ Score = 53.1 bits (126),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 35/142 (25%), Positives = 68/142 (48%), Gaps = 14/142 (10%)
+
+Query  109  APDEIVSERTRALLFTVLSRFLDHKKFISL------LMHMLRSRISDSVYHIIQSDIHKD  162
+            A D ++  +   +L  + +   D   F  L      LM + R+R       ++++   +D
+Sbjct  160  ARDLLLRGKAYEMLGQLTAHIQDLAHFTGLNAGGRDLMRVERAR------KLLEAHPEQD  213
+
+Query  163  WNLSAVASCLCLSPSLLKKKLKNE-NTSYSQIITTCRMRYAVNQLLMDGKNISQVSQLCG  221
+            W + ++A  + L+   LK+  +   ++     +   R+  A  QLL     +S+V+   G
+Sbjct  214  WTIESLAQSVELNTKKLKQGFRQSYDSGVYGYLQKVRIERAA-QLLRQQGAVSEVAAAVG  272
+
+Query  222  YNSTSYFISVFKEFYGMTPLHY  243
+            Y+S S+F  VF+ +YG+ PLH+
+Sbjct  273  YSSASHFAKVFRRYYGINPLHF  294
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.133    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1636202785
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

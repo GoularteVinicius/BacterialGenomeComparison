@@ -1,0 +1,650 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g323.t1
+
+Length=310
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG033711(gb|WP_000823904) (rorf1) YjiK family protein [TTSS (VF0...  86.3    2e-19
+VFG000834(gb|WP_000823897) (rorf1) SdiA-regulated domain-containi...  85.9    2e-19
+VFG033719(gb|WP_000821600) (rorf1) SdiA-regulated domain-containi...  85.1    4e-19
+VFG033717(gb|WP_000830675) (rorf1) SdiA-regulated domain-containi...  84.7    5e-19
+VFG033718(gb|WP_000823907) (rorf1) SdiA-regulated domain-containi...  84.3    8e-19
+
+
+>VFG033711(gb|WP_000823904) (rorf1) YjiK family protein [TTSS 
+(VF0191) - Effector delivery system (VFC0086)] [Escherichia 
+coli O127:H6 str. E2348/69]
+Length=272
+
+ Score = 86.3 bits (212),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 63/225 (28%), Positives = 113/225 (50%), Gaps = 11/225 (5%)
+
+Query  76   SDLAYNPATRTLFTVTGKRPLLVELSLTGDVLRTIPLLGLSNPEGVAVLENGNVAVTDER  135
+            S L YN     L+        L++++ +GD++   PL  +S+ E +  ++    A  DE+
+Sbjct  51   SSLTYNKEDDFLYATQNSPAQLLKITKSGDIMDRAPLPFISDAETIEHIQGNIFAAVDEK  110
+
+Query  136  RNTLTIFHVDPQTAELSTKSLAEFPLGNIGKKNKGFEGIAWDPRQQRLLLSKERDPMTLF  195
+             + L  F V   T ++      +  L    KKN+GFEG+AW    + L ++KER P  +F
+Sbjct  111  TSELFFFTV---TKDMHISFRNKIQLEKFNKKNRGFEGLAWKADDRMLFVAKERRPSKIF  167
+
+Query  196  SWK-SDGGPSLSGAMTALPSDDLYMRNVSALSVDPRTGHTLVLSAESHLLLELDEKGEPV  254
+             ++ S    S+  A      +D+ + ++S L+ +  +   ++LS ES  LL+ +     +
+Sbjct  168  IYQLSSDLLSVKQATIPEALNDIRVNDISGLAFNNES--LMILSDESRKLLKFN--LTEM  223
+
+Query  255  SFISLL---GGFNGLDSKIPRAEGVAIDDEGTIYMVSEPNLFYVF  296
+            SFI +L    G + L S +P+ EG+    + +IY+ SEP++   F
+Sbjct  224  SFIEMLDLTKGNHSLTSDLPQPEGIVTLPDESIYVASEPDILAKF  268
+
+
+>VFG000834(gb|WP_000823897) (rorf1) SdiA-regulated domain-containing 
+protein [TTSS (VF0191) - Effector delivery system (VFC0086)] 
+[Escherichia coli O157:H7 str. EDL933]
+Length=272
+
+ Score = 85.9 bits (211),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 63/225 (28%), Positives = 113/225 (50%), Gaps = 11/225 (5%)
+
+Query  76   SDLAYNPATRTLFTVTGKRPLLVELSLTGDVLRTIPLLGLSNPEGVAVLENGNVAVTDER  135
+            S L YN     L+        L++++ +GD++   PL  +S+ E +  ++    A  DE+
+Sbjct  51   SSLTYNKEDDFLYATQNSPAQLLKITKSGDIMDRAPLPFISDAETIEHIQGNIFAAVDEK  110
+
+Query  136  RNTLTIFHVDPQTAELSTKSLAEFPLGNIGKKNKGFEGIAWDPRQQRLLLSKERDPMTLF  195
+             + L  F V   T ++      +  L    KKN+GFEG+AW    + L ++KER P  +F
+Sbjct  111  TSELFFFTV---TKDMHISFRNKIQLEKFNKKNRGFEGLAWKADDRMLFVAKERRPSKIF  167
+
+Query  196  SWK-SDGGPSLSGAMTALPSDDLYMRNVSALSVDPRTGHTLVLSAESHLLLELDEKGEPV  254
+             ++ S    S+  A      +D+ + ++S L+ +  +   ++LS ES  LL+ +     +
+Sbjct  168  IYQLSPDLLSVKQATIPEALNDIRVNDISGLAFNNES--LMILSDESRKLLKFNLTE--M  223
+
+Query  255  SFISLL---GGFNGLDSKIPRAEGVAIDDEGTIYMVSEPNLFYVF  296
+            SFI +L    G + L S +P+ EG+    + +IY+ SEP++   F
+Sbjct  224  SFIEMLDLTKGNHSLTSDLPQPEGIVTLPDESIYVASEPDILAKF  268
+
+
+>VFG033719(gb|WP_000821600) (rorf1) SdiA-regulated domain-containing 
+protein [TTSS (VF0191) - Effector delivery system (VFC0086)] 
+[Escherichia coli O26:H11 str. 11368]
+Length=272
+
+ Score = 85.1 bits (209),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 62/225 (28%), Positives = 112/225 (50%), Gaps = 11/225 (5%)
+
+Query  76   SDLAYNPATRTLFTVTGKRPLLVELSLTGDVLRTIPLLGLSNPEGVAVLENGNVAVTDER  135
+            S L YN     L+        L++++ +GD++   PL  +S+ E +  ++    A  DE+
+Sbjct  51   SSLTYNKEDDFLYATQNSPAQLLKIARSGDIIGRAPLPFISDAETIEHIQGNIFAAVDEK  110
+
+Query  136  RNTLTIFHVDPQTAELSTKSLAEFPLGNIGKKNKGFEGIAWDPRQQRLLLSKERDPMTLF  195
+             + L  F V   T ++      +  L    KKN+GFEG+AW    + L ++KER P  +F
+Sbjct  111  TSELFFFTV---TKDMHISLRNKIQLEKFNKKNRGFEGLAWKAEGRMLFVAKERRPTGMF  167
+
+Query  196  SWKSDGGPS-LSGAMTALPS--DDLYMRNVSALSVDPRTGHTLVLSAESHLLLELD-EKG  251
+            +++    P  LS     +P   +D++++++S L  D      ++LS ES  LL+ +  + 
+Sbjct  168  AYQL--SPDLLSAKQVTIPEELNDIHVKDISGL--DFNNESLMILSDESRKLLKFNLTEM  223
+
+Query  252  EPVSFISLLGGFNGLDSKIPRAEGVAIDDEGTIYMVSEPNLFYVF  296
+              V  + L  G + L S + + EG+    + +IY+ SEP++   F
+Sbjct  224  SFVEMMDLTKGNHSLTSDLLQPEGIVTLSDESIYVASEPDILAKF  268
+
+
+>VFG033717(gb|WP_000830675) (rorf1) SdiA-regulated domain-containing 
+protein [TTSS (VF0191) - Effector delivery system (VFC0086)] 
+[Escherichia coli O103:H2 str. 12009]
+Length=272
+
+ Score = 84.7 bits (208),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 62/225 (28%), Positives = 112/225 (50%), Gaps = 11/225 (5%)
+
+Query  76   SDLAYNPATRTLFTVTGKRPLLVELSLTGDVLRTIPLLGLSNPEGVAVLENGNVAVTDER  135
+            S L YN     L+        L++++ +GD++   PL  +S+ E +  ++    A  DE+
+Sbjct  51   SSLTYNKEDDFLYATQNSPAQLLKIARSGDIIGRAPLPFISDAETIEHIQGNIFAAVDEK  110
+
+Query  136  RNTLTIFHVDPQTAELSTKSLAEFPLGNIGKKNKGFEGIAWDPRQQRLLLSKERDPMTLF  195
+             + L  F V   T ++      +  L    KKN+GFEG+AW    + L ++KER P  +F
+Sbjct  111  TSELFFFTV---TKDMHISLRNKIQLEKFNKKNRGFEGLAWKAEGRMLFVAKERRPTGMF  167
+
+Query  196  SWKSDGGPS-LSGAMTALPS--DDLYMRNVSALSVDPRTGHTLVLSAESHLLLELD-EKG  251
+            +++    P  LS     +P   +D++++++S L  D      ++LS ES  LL+ +  + 
+Sbjct  168  AYQL--SPDLLSAKQVTIPEELNDIHVKDISGL--DFNNESLMILSDESRKLLKFNLTEM  223
+
+Query  252  EPVSFISLLGGFNGLDSKIPRAEGVAIDDEGTIYMVSEPNLFYVF  296
+              V  + L  G + L S + + EG+    + +IY+ SEP++   F
+Sbjct  224  SFVEMMDLTKGNHSLTSDLLQPEGIVTLPDESIYVASEPDILAKF  268
+
+
+>VFG033718(gb|WP_000823907) (rorf1) SdiA-regulated domain-containing 
+protein [TTSS (VF0191) - Effector delivery system (VFC0086)] 
+[Escherichia coli O111:H- str. 11128]
+Length=272
+
+ Score = 84.3 bits (207),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 63/225 (28%), Positives = 111/225 (49%), Gaps = 11/225 (5%)
+
+Query  76   SDLAYNPATRTLFTVTGKRPLLVELSLTGDVLRTIPLLGLSNPEGVAVLENGNVAVTDER  135
+            S L YN     L+        L +++ +GD++   PL  +S+ E +  ++    A  DE 
+Sbjct  51   SSLTYNKEDDFLYATQNSPAQLFKITKSGDIMDRAPLPFISDAETIEHIQGNIFAAVDEN  110
+
+Query  136  RNTLTIFHVDPQTAELSTKSLAEFPLGNIGKKNKGFEGIAWDPRQQRLLLSKERDPMTLF  195
+             + L  F V   T ++      +  L    KKN+GFEG+AW    + L ++KER P  +F
+Sbjct  111  TSELFFFTV---TKDMHISFRNKIQLEKFNKKNRGFEGLAWKADDRMLFVAKERRPSKIF  167
+
+Query  196  SWK-SDGGPSLSGAMTALPSDDLYMRNVSALSVDPRTGHTLVLSAESHLLLELDEKGEPV  254
+             ++ S    S+  A      +D+ + ++S L+ +  +   ++LS ES  LL+ +     +
+Sbjct  168  IYQLSPDLLSVKQATIPEELNDIRINDISGLAFNNES--LMILSDESRNLLKFN--LTEM  223
+
+Query  255  SFISLL---GGFNGLDSKIPRAEGVAIDDEGTIYMVSEPNLFYVF  296
+            SFI +L    G + L S +P+ EG+    + +IY+ SEP++   F
+Sbjct  224  SFIEMLDLTKGNHSLTSDLPQPEGIVTLSDESIYVASEPDILAKF  268
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.135    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2205038430
+
+
+Query= g331.t1
+
+Length=321
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG033719(gb|WP_000821600) (rorf1) SdiA-regulated domain-containi...  107     3e-27
+VFG033717(gb|WP_000830675) (rorf1) SdiA-regulated domain-containi...  106     7e-27
+VFG000834(gb|WP_000823897) (rorf1) SdiA-regulated domain-containi...  106     9e-27
+VFG033711(gb|WP_000823904) (rorf1) YjiK family protein [TTSS (VF0...  105     1e-26
+VFG033718(gb|WP_000823907) (rorf1) SdiA-regulated domain-containi...  105     3e-26
+
+
+>VFG033719(gb|WP_000821600) (rorf1) SdiA-regulated domain-containing 
+protein [TTSS (VF0191) - Effector delivery system (VFC0086)] 
+[Escherichia coli O26:H11 str. 11368]
+Length=272
+
+ Score = 107 bits (267),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 69/230 (30%), Positives = 118/230 (51%), Gaps = 11/230 (5%)
+
+Query  85   DVSALTFDPDRRTLFTVTNQPAQIIELSLQGKVLRTIPLTGFGDAEAIEYISRGVYVITD  144
+            ++S+LT++ +   L+   N PAQ+++++  G ++   PL    DAE IE+I   ++   D
+Sbjct  49   NLSSLTYNKEDDFLYATQNSPAQLLKIARSGDIIGRAPLPFISDAETIEHIQGNIFAAVD  108
+
+Query  145  ERQQRLVKVRLEDDTRFIDAADAQQLSLGIGLNGNKGFEGLAYDAEGKRLFVAKERDPVR  204
+            E+   L    +  D   +  +   ++ L      N+GFEGLA+ AEG+ LFVAKER P  
+Sbjct  109  EKTSELFFFTVTKD---MHISLRNKIQLEKFNKKNRGFEGLAWKAEGRMLFVAKERRPTG  165
+
+Query  205  IYEIHGFPHTQADKPFAVHVVDDPGRDKRLFVRDLSSLQFDEGTGHLLALSDESRLVVEL  264
+            ++     P   + K   +     P     + V+D+S L F+  +  L+ LSDESR +++ 
+Sbjct  166  MFAYQLSPDLLSAKQVTI-----PEELNDIHVKDISGLDFNNES--LMILSDESRKLLKF  218
+
+Query  265  D-TDGEPVSTLSLLRGMHGLKRSVPQAEGVAMDDRGVLYLVSEPNLFYVF  313
+            + T+   V  + L +G H L   + Q EG+       +Y+ SEP++   F
+Sbjct  219  NLTEMSFVEMMDLTKGNHSLTSDLLQPEGIVTLSDESIYVASEPDILAKF  268
+
+
+>VFG033717(gb|WP_000830675) (rorf1) SdiA-regulated domain-containing 
+protein [TTSS (VF0191) - Effector delivery system (VFC0086)] 
+[Escherichia coli O103:H2 str. 12009]
+Length=272
+
+ Score = 106 bits (265),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 69/230 (30%), Positives = 118/230 (51%), Gaps = 11/230 (5%)
+
+Query  85   DVSALTFDPDRRTLFTVTNQPAQIIELSLQGKVLRTIPLTGFGDAEAIEYISRGVYVITD  144
+            ++S+LT++ +   L+   N PAQ+++++  G ++   PL    DAE IE+I   ++   D
+Sbjct  49   NLSSLTYNKEDDFLYATQNSPAQLLKIARSGDIIGRAPLPFISDAETIEHIQGNIFAAVD  108
+
+Query  145  ERQQRLVKVRLEDDTRFIDAADAQQLSLGIGLNGNKGFEGLAYDAEGKRLFVAKERDPVR  204
+            E+   L    +  D   +  +   ++ L      N+GFEGLA+ AEG+ LFVAKER P  
+Sbjct  109  EKTSELFFFTVTKD---MHISLRNKIQLEKFNKKNRGFEGLAWKAEGRMLFVAKERRPTG  165
+
+Query  205  IYEIHGFPHTQADKPFAVHVVDDPGRDKRLFVRDLSSLQFDEGTGHLLALSDESRLVVEL  264
+            ++     P   + K   +     P     + V+D+S L F+  +  L+ LSDESR +++ 
+Sbjct  166  MFAYQLSPDLLSAKQVTI-----PEELNDIHVKDISGLDFNNES--LMILSDESRKLLKF  218
+
+Query  265  D-TDGEPVSTLSLLRGMHGLKRSVPQAEGVAMDDRGVLYLVSEPNLFYVF  313
+            + T+   V  + L +G H L   + Q EG+       +Y+ SEP++   F
+Sbjct  219  NLTEMSFVEMMDLTKGNHSLTSDLLQPEGIVTLPDESIYVASEPDILAKF  268
+
+
+>VFG000834(gb|WP_000823897) (rorf1) SdiA-regulated domain-containing 
+protein [TTSS (VF0191) - Effector delivery system (VFC0086)] 
+[Escherichia coli O157:H7 str. EDL933]
+Length=272
+
+ Score = 106 bits (264),  Expect = 9e-27, Method: Compositional matrix adjust.
+ Identities = 73/234 (31%), Positives = 121/234 (52%), Gaps = 19/234 (8%)
+
+Query  85   DVSALTFDPDRRTLFTVTNQPAQIIELSLQGKVLRTIPLTGFGDAEAIEYISRGVYVITD  144
+            ++S+LT++ +   L+   N PAQ+++++  G ++   PL    DAE IE+I   ++   D
+Sbjct  49   NLSSLTYNKEDDFLYATQNSPAQLLKITKSGDIMDRAPLPFISDAETIEHIQGNIFAAVD  108
+
+Query  145  ERQQRLVKVRLEDDTRFIDAADAQQLSLGIGLNGNKGFEGLAYDAEGKRLFVAKERDPVR  204
+            E+   L    +  D   +  +   ++ L      N+GFEGLA+ A+ + LFVAKER P +
+Sbjct  109  EKTSELFFFTVTKD---MHISFRNKIQLEKFNKKNRGFEGLAWKADDRMLFVAKERRPSK  165
+
+Query  205  IYEIHGFPH----TQADKPFAVHVVDDPGRDKRLFVRDLSSLQFDEGTGHLLALSDESRL  260
+            I+     P      QA  P A++       D R  V D+S L F+  +  L+ LSDESR 
+Sbjct  166  IFIYQLSPDLLSVKQATIPEALN-------DIR--VNDISGLAFNNES--LMILSDESRK  214
+
+Query  261  VVELD-TDGEPVSTLSLLRGMHGLKRSVPQAEGVAMDDRGVLYLVSEPNLFYVF  313
+            +++ + T+   +  L L +G H L   +PQ EG+       +Y+ SEP++   F
+Sbjct  215  LLKFNLTEMSFIEMLDLTKGNHSLTSDLPQPEGIVTLPDESIYVASEPDILAKF  268
+
+
+>VFG033711(gb|WP_000823904) (rorf1) YjiK family protein [TTSS 
+(VF0191) - Effector delivery system (VFC0086)] [Escherichia 
+coli O127:H6 str. E2348/69]
+Length=272
+
+ Score = 105 bits (263),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 69/230 (30%), Positives = 118/230 (51%), Gaps = 11/230 (5%)
+
+Query  85   DVSALTFDPDRRTLFTVTNQPAQIIELSLQGKVLRTIPLTGFGDAEAIEYISRGVYVITD  144
+            ++S+LT++ +   L+   N PAQ+++++  G ++   PL    DAE IE+I   ++   D
+Sbjct  49   NLSSLTYNKEDDFLYATQNSPAQLLKITKSGDIMDRAPLPFISDAETIEHIQGNIFAAVD  108
+
+Query  145  ERQQRLVKVRLEDDTRFIDAADAQQLSLGIGLNGNKGFEGLAYDAEGKRLFVAKERDPVR  204
+            E+   L    +  D   +  +   ++ L      N+GFEGLA+ A+ + LFVAKER P +
+Sbjct  109  EKTSELFFFTVTKD---MHISFRNKIQLEKFNKKNRGFEGLAWKADDRMLFVAKERRPSK  165
+
+Query  205  IYEIHGFPHTQADKPFAVHVVDDPGRDKRLFVRDLSSLQFDEGTGHLLALSDESRLVVEL  264
+            I     F +  +    +V     P     + V D+S L F+  +  L+ LSDESR +++ 
+Sbjct  166  I-----FIYQLSSDLLSVKQATIPEALNDIRVNDISGLAFNNES--LMILSDESRKLLKF  218
+
+Query  265  D-TDGEPVSTLSLLRGMHGLKRSVPQAEGVAMDDRGVLYLVSEPNLFYVF  313
+            + T+   +  L L +G H L   +PQ EG+       +Y+ SEP++   F
+Sbjct  219  NLTEMSFIEMLDLTKGNHSLTSDLPQPEGIVTLPDESIYVASEPDILAKF  268
+
+
+>VFG033718(gb|WP_000823907) (rorf1) SdiA-regulated domain-containing 
+protein [TTSS (VF0191) - Effector delivery system (VFC0086)] 
+[Escherichia coli O111:H- str. 11128]
+Length=272
+
+ Score = 105 bits (261),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 68/230 (30%), Positives = 116/230 (50%), Gaps = 11/230 (5%)
+
+Query  85   DVSALTFDPDRRTLFTVTNQPAQIIELSLQGKVLRTIPLTGFGDAEAIEYISRGVYVITD  144
+            ++S+LT++ +   L+   N PAQ+ +++  G ++   PL    DAE IE+I   ++   D
+Sbjct  49   NLSSLTYNKEDDFLYATQNSPAQLFKITKSGDIMDRAPLPFISDAETIEHIQGNIFAAVD  108
+
+Query  145  ERQQRLVKVRLEDDTRFIDAADAQQLSLGIGLNGNKGFEGLAYDAEGKRLFVAKERDPVR  204
+            E    L    +  D   +  +   ++ L      N+GFEGLA+ A+ + LFVAKER P +
+Sbjct  109  ENTSELFFFTVTKD---MHISFRNKIQLEKFNKKNRGFEGLAWKADDRMLFVAKERRPSK  165
+
+Query  205  IYEIHGFPHTQADKPFAVHVVDDPGRDKRLFVRDLSSLQFDEGTGHLLALSDESRLVVEL  264
+            I+     P   + K   +     P     + + D+S L F+  +  L+ LSDESR +++ 
+Sbjct  166  IFIYQLSPDLLSVKQATI-----PEELNDIRINDISGLAFNNES--LMILSDESRNLLKF  218
+
+Query  265  D-TDGEPVSTLSLLRGMHGLKRSVPQAEGVAMDDRGVLYLVSEPNLFYVF  313
+            + T+   +  L L +G H L   +PQ EG+       +Y+ SEP++   F
+Sbjct  219  NLTEMSFIEMLDLTKGNHSLTSDLPQPEGIVTLSDESIYVASEPDILAKF  268
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2320540443
+
+
+Query= g2050.t1
+
+Length=309
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG033711(gb|WP_000823904) (rorf1) YjiK family protein [TTSS (VF0...  107     2e-27
+VFG000834(gb|WP_000823897) (rorf1) SdiA-regulated domain-containi...  106     7e-27
+VFG033718(gb|WP_000823907) (rorf1) SdiA-regulated domain-containi...  105     2e-26
+VFG033719(gb|WP_000821600) (rorf1) SdiA-regulated domain-containi...  102     2e-25
+VFG033717(gb|WP_000830675) (rorf1) SdiA-regulated domain-containi...  101     4e-25
+
+
+>VFG033711(gb|WP_000823904) (rorf1) YjiK family protein [TTSS 
+(VF0191) - Effector delivery system (VFC0086)] [Escherichia 
+coli O127:H6 str. E2348/69]
+Length=272
+
+ Score = 107 bits (267),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 71/232 (31%), Positives = 117/232 (50%), Gaps = 13/232 (6%)
+
+Query  71   NVSALSFDPSRRSLVSVTNQDPHFLELSLDGELLRRIPLRGFQDPEAIEYIRPGVYVVAE  130
+            N+S+L+++     L +  N     L+++  G+++ R PL    D E IE+I+  ++   +
+Sbjct  49   NLSSLTYNKEDDFLYATQNSPAQLLKITKSGDIMDRAPLPFISDAETIEHIQGNIFAAVD  108
+
+Query  131  ERRQRLVEIHVDADTRVIDIDDPRNARKFSLGSANKRNKGFEGLAYDPLRERLFVAREKA  190
+            E+   L    V  D  +      RN  K  L   NK+N+GFEGLA+      LFVA+E+ 
+Sbjct  109  EKTSELFFFTVTKDMHI----SFRN--KIQLEKFNKKNRGFEGLAWKADDRMLFVAKERR  162
+
+Query  191  PVGIIEVNGFFNDRGEALDLSVGGDPQRDRGLFLTDLSSLYYDKASDHLLVLSDESRVVI  250
+            P  I      +    + L +     P+    + + D+S L ++  S  L++LSDESR ++
+Sbjct  163  PSKIF----IYQLSSDLLSVKQATIPEALNDIRVNDISGLAFNNES--LMILSDESRKLL  216
+
+Query  251  ELDRAG-DPLGSLTLRGGNHGLTDDVPQAEGLAMDDRGSLYVVSEPNLFYRF  301
+            + +      +  L L  GNH LT D+PQ EG+      S+YV SEP++  +F
+Sbjct  217  KFNLTEMSFIEMLDLTKGNHSLTSDLPQPEGIVTLPDESIYVASEPDILAKF  268
+
+
+>VFG000834(gb|WP_000823897) (rorf1) SdiA-regulated domain-containing 
+protein [TTSS (VF0191) - Effector delivery system (VFC0086)] 
+[Escherichia coli O157:H7 str. EDL933]
+Length=272
+
+ Score = 106 bits (264),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 71/232 (31%), Positives = 117/232 (50%), Gaps = 13/232 (6%)
+
+Query  71   NVSALSFDPSRRSLVSVTNQDPHFLELSLDGELLRRIPLRGFQDPEAIEYIRPGVYVVAE  130
+            N+S+L+++     L +  N     L+++  G+++ R PL    D E IE+I+  ++   +
+Sbjct  49   NLSSLTYNKEDDFLYATQNSPAQLLKITKSGDIMDRAPLPFISDAETIEHIQGNIFAAVD  108
+
+Query  131  ERRQRLVEIHVDADTRVIDIDDPRNARKFSLGSANKRNKGFEGLAYDPLRERLFVAREKA  190
+            E+   L    V  D  +      RN  K  L   NK+N+GFEGLA+      LFVA+E+ 
+Sbjct  109  EKTSELFFFTVTKDMHI----SFRN--KIQLEKFNKKNRGFEGLAWKADDRMLFVAKERR  162
+
+Query  191  PVGIIEVNGFFNDRGEALDLSVGGDPQRDRGLFLTDLSSLYYDKASDHLLVLSDESRVVI  250
+            P  I      +    + L +     P+    + + D+S L ++  S  L++LSDESR ++
+Sbjct  163  PSKIF----IYQLSPDLLSVKQATIPEALNDIRVNDISGLAFNNES--LMILSDESRKLL  216
+
+Query  251  ELDRAG-DPLGSLTLRGGNHGLTDDVPQAEGLAMDDRGSLYVVSEPNLFYRF  301
+            + +      +  L L  GNH LT D+PQ EG+      S+YV SEP++  +F
+Sbjct  217  KFNLTEMSFIEMLDLTKGNHSLTSDLPQPEGIVTLPDESIYVASEPDILAKF  268
+
+
+>VFG033718(gb|WP_000823907) (rorf1) SdiA-regulated domain-containing 
+protein [TTSS (VF0191) - Effector delivery system (VFC0086)] 
+[Escherichia coli O111:H- str. 11128]
+Length=272
+
+ Score = 105 bits (262),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 70/232 (30%), Positives = 115/232 (50%), Gaps = 13/232 (6%)
+
+Query  71   NVSALSFDPSRRSLVSVTNQDPHFLELSLDGELLRRIPLRGFQDPEAIEYIRPGVYVVAE  130
+            N+S+L+++     L +  N      +++  G+++ R PL    D E IE+I+  ++   +
+Sbjct  49   NLSSLTYNKEDDFLYATQNSPAQLFKITKSGDIMDRAPLPFISDAETIEHIQGNIFAAVD  108
+
+Query  131  ERRQRLVEIHVDADTRVIDIDDPRNARKFSLGSANKRNKGFEGLAYDPLRERLFVAREKA  190
+            E    L    V  D  +      RN  K  L   NK+N+GFEGLA+      LFVA+E+ 
+Sbjct  109  ENTSELFFFTVTKDMHI----SFRN--KIQLEKFNKKNRGFEGLAWKADDRMLFVAKERR  162
+
+Query  191  PVGIIEVNGFFNDRGEALDLSVGGDPQRDRGLFLTDLSSLYYDKASDHLLVLSDESRVVI  250
+            P  I      +    + L +     P+    + + D+S L ++  S  L++LSDESR ++
+Sbjct  163  PSKIF----IYQLSPDLLSVKQATIPEELNDIRINDISGLAFNNES--LMILSDESRNLL  216
+
+Query  251  ELDRAG-DPLGSLTLRGGNHGLTDDVPQAEGLAMDDRGSLYVVSEPNLFYRF  301
+            + +      +  L L  GNH LT D+PQ EG+      S+YV SEP++  +F
+Sbjct  217  KFNLTEMSFIEMLDLTKGNHSLTSDLPQPEGIVTLSDESIYVASEPDILAKF  268
+
+
+>VFG033719(gb|WP_000821600) (rorf1) SdiA-regulated domain-containing 
+protein [TTSS (VF0191) - Effector delivery system (VFC0086)] 
+[Escherichia coli O26:H11 str. 11368]
+Length=272
+
+ Score = 102 bits (254),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 69/232 (30%), Positives = 115/232 (50%), Gaps = 13/232 (6%)
+
+Query  71   NVSALSFDPSRRSLVSVTNQDPHFLELSLDGELLRRIPLRGFQDPEAIEYIRPGVYVVAE  130
+            N+S+L+++     L +  N     L+++  G+++ R PL    D E IE+I+  ++   +
+Sbjct  49   NLSSLTYNKEDDFLYATQNSPAQLLKIARSGDIIGRAPLPFISDAETIEHIQGNIFAAVD  108
+
+Query  131  ERRQRLVEIHVDADTRVIDIDDPRNARKFSLGSANKRNKGFEGLAYDPLRERLFVAREKA  190
+            E+   L    V  D  +      RN  K  L   NK+N+GFEGLA+      LFVA+E+ 
+Sbjct  109  EKTSELFFFTVTKDMHI----SLRN--KIQLEKFNKKNRGFEGLAWKAEGRMLFVAKERR  162
+
+Query  191  PVGIIEVNGFFNDRGEALDLSVGGDPQRDRGLFLTDLSSLYYDKASDHLLVLSDESRVVI  250
+            P G+      +    + L       P+    + + D+S L ++  S  L++LSDESR ++
+Sbjct  163  PTGMFA----YQLSPDLLSAKQVTIPEELNDIHVKDISGLDFNNES--LMILSDESRKLL  216
+
+Query  251  ELDRAGDPLGSLT-LRGGNHGLTDDVPQAEGLAMDDRGSLYVVSEPNLFYRF  301
+            + +        +  L  GNH LT D+ Q EG+      S+YV SEP++  +F
+Sbjct  217  KFNLTEMSFVEMMDLTKGNHSLTSDLLQPEGIVTLSDESIYVASEPDILAKF  268
+
+
+>VFG033717(gb|WP_000830675) (rorf1) SdiA-regulated domain-containing 
+protein [TTSS (VF0191) - Effector delivery system (VFC0086)] 
+[Escherichia coli O103:H2 str. 12009]
+Length=272
+
+ Score = 101 bits (252),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 69/232 (30%), Positives = 115/232 (50%), Gaps = 13/232 (6%)
+
+Query  71   NVSALSFDPSRRSLVSVTNQDPHFLELSLDGELLRRIPLRGFQDPEAIEYIRPGVYVVAE  130
+            N+S+L+++     L +  N     L+++  G+++ R PL    D E IE+I+  ++   +
+Sbjct  49   NLSSLTYNKEDDFLYATQNSPAQLLKIARSGDIIGRAPLPFISDAETIEHIQGNIFAAVD  108
+
+Query  131  ERRQRLVEIHVDADTRVIDIDDPRNARKFSLGSANKRNKGFEGLAYDPLRERLFVAREKA  190
+            E+   L    V  D  +      RN  K  L   NK+N+GFEGLA+      LFVA+E+ 
+Sbjct  109  EKTSELFFFTVTKDMHI----SLRN--KIQLEKFNKKNRGFEGLAWKAEGRMLFVAKERR  162
+
+Query  191  PVGIIEVNGFFNDRGEALDLSVGGDPQRDRGLFLTDLSSLYYDKASDHLLVLSDESRVVI  250
+            P G+      +    + L       P+    + + D+S L ++  S  L++LSDESR ++
+Sbjct  163  PTGMFA----YQLSPDLLSAKQVTIPEELNDIHVKDISGLDFNNES--LMILSDESRKLL  216
+
+Query  251  ELDRAGDPLGSLT-LRGGNHGLTDDVPQAEGLAMDDRGSLYVVSEPNLFYRF  301
+            + +        +  L  GNH LT D+ Q EG+      S+YV SEP++  +F
+Sbjct  217  KFNLTEMSFVEMMDLTKGNHSLTSDLLQPEGIVTLPDESIYVASEPDILAKF  268
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.140    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2194538247
+
+
+Query= g4012.t1
+
+Length=286
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG033711(gb|WP_000823904) (rorf1) YjiK family protein [TTSS (VF0...  131     1e-36
+VFG000834(gb|WP_000823897) (rorf1) SdiA-regulated domain-containi...  130     3e-36
+VFG033718(gb|WP_000823907) (rorf1) SdiA-regulated domain-containi...  126     9e-35
+VFG033719(gb|WP_000821600) (rorf1) SdiA-regulated domain-containi...  126     1e-34
+VFG033717(gb|WP_000830675) (rorf1) SdiA-regulated domain-containi...  124     6e-34
+
+
+>VFG033711(gb|WP_000823904) (rorf1) YjiK family protein [TTSS 
+(VF0191) - Effector delivery system (VFC0086)] [Escherichia 
+coli O127:H6 str. E2348/69]
+Length=272
+
+ Score = 131 bits (329),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 92/281 (33%), Positives = 149/281 (53%), Gaps = 18/281 (6%)
+
+Query  4    LKRVIVVVLLGVILFMVRDDIRYVYQLILKYGDKPSALALSSYKAVIQQKPVAGVKSNLS  63
+            +KR  ++     I  M+   I  ++     Y   P   +LS     I+Q P      NLS
+Sbjct  1    MKRKPLIAFFIAIFIMLT--ILILFPFNCTYKKSPQEHSLS----FIKQLPNT---VNLS  51
+
+Query  64   GLTYSAEDRMLFAVINNPPELVWLTTEGQLVGRMPLQGIHDPESIAWSGGNQFQIGSEKD  123
+             LTY+ ED  L+A  N+P +L+ +T  G ++ R PL  I D E+I    GN F    EK 
+Sbjct  52   SLTYNKEDDFLYATQNSPAQLLKITKSGDIMDRAPLPFISDAETIEHIQGNIFAAVDEKT  111
+
+Query  124  GAVYKTQVDIQRGTMQIISMVKLEGYDKAKNKGLEGTAWDAKNERLYAAKERKPIMIKEV  183
+              ++   V  +   +   + ++LE ++K KN+G EG AW A +  L+ AKER+P  I   
+Sbjct  112  SELFFFTV-TKDMHISFRNKIQLEKFNK-KNRGFEGLAWKADDRMLFVAKERRPSKIFIY  169
+
+Query  184  EMSKNGIT---RALPSAIT-ASVSDVSGLEYHAPTDSLLVLSDESKMILEVS-SEWRVRD  238
+            ++S + ++     +P A+    V+D+SGL ++   +SL++LSDES+ +L+ + +E    +
+Sbjct  170  QLSSDLLSVKQATIPEALNDIRVNDISGLAFN--NESLMILSDESRKLLKFNLTEMSFIE  227
+
+Query  239  RLFLTAEWSGLRDDIPQPEGIAMDNENNLYIVSEPNLFYKF  279
+             L LT     L  D+PQPEGI    + ++Y+ SEP++  KF
+Sbjct  228  MLDLTKGNHSLTSDLPQPEGIVTLPDESIYVASEPDILAKF  268
+
+
+>VFG000834(gb|WP_000823897) (rorf1) SdiA-regulated domain-containing 
+protein [TTSS (VF0191) - Effector delivery system (VFC0086)] 
+[Escherichia coli O157:H7 str. EDL933]
+Length=272
+
+ Score = 130 bits (327),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 84/246 (34%), Positives = 138/246 (56%), Gaps = 14/246 (6%)
+
+Query  44   SSYKAVIQQKPVAGVKS-----NLSGLTYSAEDRMLFAVINNPPELVWLTTEGQLVGRMP  98
+             +YK   Q+  ++ +K      NLS LTY+ ED  L+A  N+P +L+ +T  G ++ R P
+Sbjct  27   CTYKKSPQEHSLSFIKQLPNTVNLSSLTYNKEDDFLYATQNSPAQLLKITKSGDIMDRAP  86
+
+Query  99   LQGIHDPESIAWSGGNQFQIGSEKDGAVYKTQVDIQRGTMQIISMVKLEGYDKAKNKGLE  158
+            L  I D E+I    GN F    EK   ++   V  +   +   + ++LE ++K KN+G E
+Sbjct  87   LPFISDAETIEHIQGNIFAAVDEKTSELFFFTV-TKDMHISFRNKIQLEKFNK-KNRGFE  144
+
+Query  159  GTAWDAKNERLYAAKERKPIMIKEVEMSKNGIT---RALPSAIT-ASVSDVSGLEYHAPT  214
+            G AW A +  L+ AKER+P  I   ++S + ++     +P A+    V+D+SGL ++   
+Sbjct  145  GLAWKADDRMLFVAKERRPSKIFIYQLSPDLLSVKQATIPEALNDIRVNDISGLAFN--N  202
+
+Query  215  DSLLVLSDESKMILEVS-SEWRVRDRLFLTAEWSGLRDDIPQPEGIAMDNENNLYIVSEP  273
+            +SL++LSDES+ +L+ + +E    + L LT     L  D+PQPEGI    + ++Y+ SEP
+Sbjct  203  ESLMILSDESRKLLKFNLTEMSFIEMLDLTKGNHSLTSDLPQPEGIVTLPDESIYVASEP  262
+
+Query  274  NLFYKF  279
+            ++  KF
+Sbjct  263  DILAKF  268
+
+
+>VFG033718(gb|WP_000823907) (rorf1) SdiA-regulated domain-containing 
+protein [TTSS (VF0191) - Effector delivery system (VFC0086)] 
+[Escherichia coli O111:H- str. 11128]
+Length=272
+
+ Score = 126 bits (317),  Expect = 9e-35, Method: Compositional matrix adjust.
+ Identities = 81/246 (33%), Positives = 136/246 (55%), Gaps = 14/246 (6%)
+
+Query  44   SSYKAVIQQKPVAGVKS-----NLSGLTYSAEDRMLFAVINNPPELVWLTTEGQLVGRMP  98
+             +YK   Q+  ++ +K      NLS LTY+ ED  L+A  N+P +L  +T  G ++ R P
+Sbjct  27   CTYKKSPQEHSLSFIKQLPNTVNLSSLTYNKEDDFLYATQNSPAQLFKITKSGDIMDRAP  86
+
+Query  99   LQGIHDPESIAWSGGNQFQIGSEKDGAVYKTQVDIQRGTMQIISMVKLEGYDKAKNKGLE  158
+            L  I D E+I    GN F    E    ++   V  +   +   + ++LE ++K KN+G E
+Sbjct  87   LPFISDAETIEHIQGNIFAAVDENTSELFFFTV-TKDMHISFRNKIQLEKFNK-KNRGFE  144
+
+Query  159  GTAWDAKNERLYAAKERKPIMIKEVEMSKNGIT---RALPSAIT-ASVSDVSGLEYHAPT  214
+            G AW A +  L+ AKER+P  I   ++S + ++     +P  +    ++D+SGL ++   
+Sbjct  145  GLAWKADDRMLFVAKERRPSKIFIYQLSPDLLSVKQATIPEELNDIRINDISGLAFN--N  202
+
+Query  215  DSLLVLSDESKMILEVS-SEWRVRDRLFLTAEWSGLRDDIPQPEGIAMDNENNLYIVSEP  273
+            +SL++LSDES+ +L+ + +E    + L LT     L  D+PQPEGI   ++ ++Y+ SEP
+Sbjct  203  ESLMILSDESRNLLKFNLTEMSFIEMLDLTKGNHSLTSDLPQPEGIVTLSDESIYVASEP  262
+
+Query  274  NLFYKF  279
+            ++  KF
+Sbjct  263  DILAKF  268
+
+
+>VFG033719(gb|WP_000821600) (rorf1) SdiA-regulated domain-containing 
+protein [TTSS (VF0191) - Effector delivery system (VFC0086)] 
+[Escherichia coli O26:H11 str. 11368]
+Length=272
+
+ Score = 126 bits (316),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 87/281 (31%), Positives = 149/281 (53%), Gaps = 18/281 (6%)
+
+Query  4    LKRVIVVVLLGVILFMVRDDIRYVYQLILKYGDKPSALALSSYKAVIQQKPVAGVKSNLS  63
+            +KR++ +     +       I +V+     Y   P   +LS     I+Q P      NLS
+Sbjct  1    MKRILFIAFFIAMFVTPIALILFVFDY--GYKKSPQEYSLS----FIKQLPNT---VNLS  51
+
+Query  64   GLTYSAEDRMLFAVINNPPELVWLTTEGQLVGRMPLQGIHDPESIAWSGGNQFQIGSEKD  123
+             LTY+ ED  L+A  N+P +L+ +   G ++GR PL  I D E+I    GN F    EK 
+Sbjct  52   SLTYNKEDDFLYATQNSPAQLLKIARSGDIIGRAPLPFISDAETIEHIQGNIFAAVDEKT  111
+
+Query  124  GAVYKTQVDIQRGTMQIISMVKLEGYDKAKNKGLEGTAWDAKNERLYAAKERKPIMIKEV  183
+              ++   V  +   + + + ++LE ++K KN+G EG AW A+   L+ AKER+P  +   
+Sbjct  112  SELFFFTV-TKDMHISLRNKIQLEKFNK-KNRGFEGLAWKAEGRMLFVAKERRPTGMFAY  169
+
+Query  184  EMSKNGITR---ALPSAIT-ASVSDVSGLEYHAPTDSLLVLSDESKMILEVS-SEWRVRD  238
+            ++S + ++     +P  +    V D+SGL+++   +SL++LSDES+ +L+ + +E    +
+Sbjct  170  QLSPDLLSAKQVTIPEELNDIHVKDISGLDFN--NESLMILSDESRKLLKFNLTEMSFVE  227
+
+Query  239  RLFLTAEWSGLRDDIPQPEGIAMDNENNLYIVSEPNLFYKF  279
+             + LT     L  D+ QPEGI   ++ ++Y+ SEP++  KF
+Sbjct  228  MMDLTKGNHSLTSDLLQPEGIVTLSDESIYVASEPDILAKF  268
+
+
+>VFG033717(gb|WP_000830675) (rorf1) SdiA-regulated domain-containing 
+protein [TTSS (VF0191) - Effector delivery system (VFC0086)] 
+[Escherichia coli O103:H2 str. 12009]
+Length=272
+
+ Score = 124 bits (311),  Expect = 6e-34, Method: Compositional matrix adjust.
+ Identities = 85/257 (33%), Positives = 140/257 (54%), Gaps = 18/257 (7%)
+
+Query  30   LILKYGDK--PSALALSSYKAVIQQKPVAGVKSNLSGLTYSAEDRMLFAVINNPPELVWL  87
+             +  YG K  P   +LS     I+Q P      NLS LTY+ ED  L+A  N+P +L+ +
+Sbjct  23   FVFDYGYKKSPQEYSLS----FIKQLPNT---VNLSSLTYNKEDDFLYATQNSPAQLLKI  75
+
+Query  88   TTEGQLVGRMPLQGIHDPESIAWSGGNQFQIGSEKDGAVYKTQVDIQRGTMQIISMVKLE  147
+               G ++GR PL  I D E+I    GN F    EK   ++   V  +   + + + ++LE
+Sbjct  76   ARSGDIIGRAPLPFISDAETIEHIQGNIFAAVDEKTSELFFFTV-TKDMHISLRNKIQLE  134
+
+Query  148  GYDKAKNKGLEGTAWDAKNERLYAAKERKPIMIKEVEMSKNGITR---ALPSAIT-ASVS  203
+             ++K KN+G EG AW A+   L+ AKER+P  +   ++S + ++     +P  +    V 
+Sbjct  135  KFNK-KNRGFEGLAWKAEGRMLFVAKERRPTGMFAYQLSPDLLSAKQVTIPEELNDIHVK  193
+
+Query  204  DVSGLEYHAPTDSLLVLSDESKMILEVS-SEWRVRDRLFLTAEWSGLRDDIPQPEGIAMD  262
+            D+SGL+++   +SL++LSDES+ +L+ + +E    + + LT     L  D+ QPEGI   
+Sbjct  194  DISGLDFN--NESLMILSDESRKLLKFNLTEMSFVEMMDLTKGNHSLTSDLLQPEGIVTL  251
+
+Query  263  NENNLYIVSEPNLFYKF  279
+             + ++Y+ SEP++  KF
+Sbjct  252  PDESIYVASEPDILAKF  268
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.134    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1968766855
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

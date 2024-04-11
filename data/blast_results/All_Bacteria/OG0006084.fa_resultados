@@ -1,0 +1,235 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1509.t1
+
+Length=210
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG046612(gb|WP_014548584) (rpe) ribulose-phosphate 3-epimerase [...  99.4    1e-25
+VFG046604(gb|WP_012280804) (rpe) ribulose-phosphate 3-epimerase [...  99.0    1e-25
+VFG046607(gb|WP_011648739) (rpe) ribulose-phosphate 3-epimerase [...  97.8    3e-25
+VFG046603(gb|WP_003016724) (rpe) ribulose-phosphate 3-epimerase [...  97.4    5e-25
+VFG046610(gb|WP_003020688) (rpe) ribulose-phosphate 3-epimerase [...  96.3    2e-24
+VFG046620(gb|WP_013922870) (rpe) ribulose-phosphate 3-epimerase [...  95.9    2e-24
+VFG046619(gb|WP_041257519) (rpe) ribulose-phosphate 3-epimerase [...  93.6    2e-23
+
+
+>VFG046612(gb|WP_014548584) (rpe) ribulose-phosphate 3-epimerase 
+ [Capsule (VF0543) - Immune modulation (VFC0258)] [Francisella 
+cf. tularensis subsp. novicida 3523]
+Length=222
+
+ Score = 99.4 bits (246),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 62/210 (30%), Positives = 103/210 (49%), Gaps = 5/210 (2%)
+
+Query  3    LHPSLASADPLRYAEALTALHDAPLGSLHLDIEDTSFINNITFGMKTIQAVAQY-TRHPL  61
+            ++PS+ SAD  R  + + A+  A   ++H D+ D  ++ N+TFG   ++A+  Y     +
+Sbjct  6    INPSILSADLARLGDDVKAVLAAGADNIHFDVMDNHYVPNLTFGPMVLKALRDYGITAGM  65
+
+Query  62   SFHLMVSSPQRWLPWLAAIRPGWIFIHAESVQNPPEILADIRAIGAKAGLALNPATPLLP  121
+              HLMV      +   A      I  H E+ ++    L  I++ G KAGLALNPAT +  
+Sbjct  66   DVHLMVKPVDNLIESFAKAGATSIVFHPEASEHIDRSLQLIKSFGIKAGLALNPATGIDC  125
+
+Query  122  YRYLALQLDALMIMTSEPDGRGQQFIAAMCEKVSQGREHFPAAE----CWADGGITLRAA  177
+             +Y+   +D ++IM+  P   GQ+FI AM +K  +  +   +         DGG+     
+Sbjct  126  LKYVESHIDRVLIMSVNPGFGGQKFIPAMLDKAKEVSQWIKSTARDILLEIDGGVNPHNI  185
+
+Query  178  RLLAAAGAQHLVIGRALFTTANYDVTLSQF  207
+              +AA G    V G A+F + +Y  T+ + 
+Sbjct  186  AEIAACGVNAFVAGSAIFNSDSYKQTIDKM  215
+
+
+>VFG046604(gb|WP_012280804) (rpe) ribulose-phosphate 3-epimerase 
+ [Capsule (VF0543) - Immune modulation (VFC0258)] [Francisella 
+philomiragia subsp. philomiragia ATCC 25017]
+Length=222
+
+ Score = 99.0 bits (245),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 66/213 (31%), Positives = 106/213 (50%), Gaps = 13/213 (6%)
+
+Query  3    LHPSLASADPLRYAEALTALHDAPLGSLHLDIEDTSFINNITFGMKTIQAVAQY-TRHPL  61
+            ++PS+ SAD  R  + + A+ +A   ++H D+ D  ++ N+TFG   ++A+  Y     +
+Sbjct  6    INPSILSADLARLGDDVQAVLEAGADNVHFDVMDNHYVPNLTFGPMVLKALRDYGISAGM  65
+
+Query  62   SFHLMVSSPQRWLPWLAAIRPGWIFIHAESVQNPPEILADIRAIGAKAGLALNPATPLLP  121
+              HLMV      +   A      I  H E+ ++    L  I++ G  AGLALNPAT +  
+Sbjct  66   DVHLMVKPVDALIESFAKAGASSIVFHPEASEHIDRSLQLIKSFGIDAGLALNPATGIDC  125
+
+Query  122  YRYLALQLDALMIMTSEPDGRGQQFIAAMCEK---VSQ-----GREHFPAAECWADGGIT  173
+             +Y+   +D ++IM+  P   GQ+FI AM +K   VSQ     GR+         DGG+ 
+Sbjct  126  LKYVESHIDRVLIMSVNPGFGGQKFIPAMLDKAKEVSQWIKSTGRDIL----LEIDGGVN  181
+
+Query  174  LRAARLLAAAGAQHLVIGRALFTTANYDVTLSQ  206
+                  +AA G    V G A+F + +Y  T+ +
+Sbjct  182  PNNIAEIAACGVDAFVAGSAIFNSDSYKQTIDK  214
+
+
+>VFG046607(gb|WP_011648739) (rpe) ribulose-phosphate 3-epimerase 
+ [Capsule (VF0543) - Immune modulation (VFC0258)] [Francisella 
+tularensis subsp. holarctica OSU18]
+Length=222
+
+ Score = 97.8 bits (242),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 61/210 (29%), Positives = 104/210 (50%), Gaps = 5/210 (2%)
+
+Query  3    LHPSLASADPLRYAEALTALHDAPLGSLHLDIEDTSFINNITFGMKTIQAVAQY-TRHPL  61
+            ++PS+ SAD  R  + + A+  A   ++H D+ D  ++ N+TFG   ++A+  Y     +
+Sbjct  6    INPSILSADLARLGDDVKAVLAAGADNIHFDVMDNHYVPNLTFGPMVLKALRDYGITAGM  65
+
+Query  62   SFHLMVSSPQRWLPWLAAIRPGWIFIHAESVQNPPEILADIRAIGAKAGLALNPATPLLP  121
+              HLMV      +   A      I  H E+ ++    L  I++ G +AGLALNPAT +  
+Sbjct  66   DVHLMVKPVDALIESFAKAGATSIVFHPEASEHIDRSLQLIKSFGIQAGLALNPATDIDC  125
+
+Query  122  YRYLALQLDALMIMTSEPDGRGQQFIAAMCEKVSQGREHFPAAE----CWADGGITLRAA  177
+             +Y+   +D ++IM+  P   GQ+FI AM +K  +  +   + +       DGG+     
+Sbjct  126  LKYVESNIDRVLIMSVNPGFGGQKFIPAMLDKAKEISKWISSTDRDILLEIDGGVNPYNI  185
+
+Query  178  RLLAAAGAQHLVIGRALFTTANYDVTLSQF  207
+              +AA G    V G A+F + +Y  T+ + 
+Sbjct  186  AEIAACGVNAFVAGSAIFNSDSYKQTIDKM  215
+
+
+>VFG046603(gb|WP_003016724) (rpe) ribulose-phosphate 3-epimerase 
+ [Capsule (VF0543) - Immune modulation (VFC0258)] [Francisella 
+novicida U112]
+Length=222
+
+ Score = 97.4 bits (241),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 61/210 (29%), Positives = 104/210 (50%), Gaps = 5/210 (2%)
+
+Query  3    LHPSLASADPLRYAEALTALHDAPLGSLHLDIEDTSFINNITFGMKTIQAVAQY-TRHPL  61
+            ++PS+ SAD  R  + + A+  A   ++H D+ D  ++ N+TFG   ++A+  Y     +
+Sbjct  6    INPSILSADLARLGDDVKAVLAAGADNIHFDVMDNHYVPNLTFGPMVLKALRDYGITAGM  65
+
+Query  62   SFHLMVSSPQRWLPWLAAIRPGWIFIHAESVQNPPEILADIRAIGAKAGLALNPATPLLP  121
+              HLMV      +   A      I  H E+ ++    L  I++ G +AGLALNPAT +  
+Sbjct  66   DVHLMVKPVDALIESFAKAGATSIVFHPEASEHIDRSLQLIKSFGIQAGLALNPATGIDC  125
+
+Query  122  YRYLALQLDALMIMTSEPDGRGQQFIAAMCEKVSQGREHFPAAE----CWADGGITLRAA  177
+             +Y+   +D ++IM+  P   GQ+FI AM +K  +  +   + +       DGG+     
+Sbjct  126  LKYVESNIDRVLIMSVNPGFGGQKFIPAMLDKAKEISKWISSTDRDILLEIDGGVNPYNI  185
+
+Query  178  RLLAAAGAQHLVIGRALFTTANYDVTLSQF  207
+              +AA G    V G A+F + +Y  T+ + 
+Sbjct  186  AEIAACGVNAFVAGSAIFNSDSYKQTIDKM  215
+
+
+>VFG046610(gb|WP_003020688) (rpe) ribulose-phosphate 3-epimerase 
+ [Capsule (VF0543) - Immune modulation (VFC0258)] [Francisella 
+tularensis subsp. tularensis SCHU S4]
+Length=222
+
+ Score = 96.3 bits (238),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 60/210 (29%), Positives = 103/210 (49%), Gaps = 5/210 (2%)
+
+Query  3    LHPSLASADPLRYAEALTALHDAPLGSLHLDIEDTSFINNITFGMKTIQAVAQY-TRHPL  61
+            ++PS+ SAD  R  + + A+  A   ++H D+ D  ++ N+TFG   ++A+  Y     +
+Sbjct  6    INPSILSADLARLGDDVKAVLAAGADNIHFDVMDNHYVPNLTFGPMVLKALRDYGITAGM  65
+
+Query  62   SFHLMVSSPQRWLPWLAAIRPGWIFIHAESVQNPPEILADIRAIGAKAGLALNPATPLLP  121
+              HLMV      +   A      I  H E+ ++    L  I++ G +AGLALNPAT +  
+Sbjct  66   DVHLMVKPVDALIESFAKAGATSIVFHPEASEHIDRSLQLIKSFGIQAGLALNPATGIDC  125
+
+Query  122  YRYLALQLDALMIMTSEPDGRGQQFIAAMCEKVSQGREHFPAAE----CWADGGITLRAA  177
+             +Y+   +D ++IM+  P   GQ+FI AM +K  +  +   + +       DGG+     
+Sbjct  126  LKYVESNIDRVLIMSVNPGFGGQKFIPAMLDKAKEISKWISSTDRDILLEIDGGVNPYNI  185
+
+Query  178  RLLAAAGAQHLVIGRALFTTANYDVTLSQF  207
+              +A  G    V G A+F + +Y  T+ + 
+Sbjct  186  AEIAVCGVNAFVAGSAIFNSDSYKQTIDKM  215
+
+
+>VFG046620(gb|WP_013922870) (rpe) ribulose-phosphate 3-epimerase 
+ [Capsule (VF0543) - Immune modulation (VFC0258)] [Francisella 
+sp. TX077308]
+Length=222
+
+ Score = 95.9 bits (237),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 64/213 (30%), Positives = 104/213 (49%), Gaps = 13/213 (6%)
+
+Query  3    LHPSLASADPLRYAEALTALHDAPLGSLHLDIEDTSFINNITFGMKTIQAVAQY-TRHPL  61
+            ++PS+ SAD  R  + +  + +A   ++H D+ D  ++ N+TFG   ++A+  Y     +
+Sbjct  6    VNPSILSADLARLGDNVKTVLEAGADNIHFDVMDNHYVPNLTFGPMVLKALRDYGITAGM  65
+
+Query  62   SFHLMVSSPQRWLPWLAAIRPGWIFIHAESVQNPPEILADIRAIGAKAGLALNPATPLLP  121
+              HLMV      +   A      I  H E+ ++    L  I++    AGLALNPAT +  
+Sbjct  66   DVHLMVKPVDSLIESFAKAGASSIVFHPEASEHIDRSLQLIKSFDIDAGLALNPATGIDC  125
+
+Query  122  YRYLALQLDALMIMTSEPDGRGQQFIAAMCEK---VSQ-----GREHFPAAECWADGGIT  173
+             +Y+   +D ++IM+  P   GQ+FI AM +K   VSQ     GR+         DGG+ 
+Sbjct  126  LKYVESHIDRILIMSVNPGFGGQKFIPAMLDKAKEVSQWIKSTGRDIL----LEIDGGVN  181
+
+Query  174  LRAARLLAAAGAQHLVIGRALFTTANYDVTLSQ  206
+                  +AA G    V G A+F + +Y  T+ +
+Sbjct  182  PNNIAEIAACGVDAFVAGSAIFNSDSYKQTIDK  214
+
+
+>VFG046619(gb|WP_041257519) (rpe) ribulose-phosphate 3-epimerase 
+ [Capsule (VF0543) - Immune modulation (VFC0258)] [Francisella 
+noatunensis subsp. orientalis str. Toba 04]
+Length=222
+
+ Score = 93.6 bits (231),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 60/210 (29%), Positives = 101/210 (48%), Gaps = 5/210 (2%)
+
+Query  3    LHPSLASADPLRYAEALTALHDAPLGSLHLDIEDTSFINNITFGMKTIQAVAQY-TRHPL  61
+            ++PS+ SAD  R  + + A+ +A   ++H D+ D  ++ N+TFG   ++A+  Y      
+Sbjct  6    INPSILSADLARLGDDVQAVLEAGADNVHFDVMDNHYVPNLTFGPMVLKALRDYGISAGT  65
+
+Query  62   SFHLMVSSPQRWLPWLAAIRPGWIFIHAESVQNPPEILADIRAIGAKAGLALNPATPLLP  121
+              HLMV      +   A      I  H E+ ++    L  I++ G  AGLAL+PAT +  
+Sbjct  66   DVHLMVKPVDALIESFAKAGASSIVFHPEASKHIDRSLQLIKSFGIDAGLALSPATGIDC  125
+
+Query  122  YRYLALQLDALMIMTSEPDGRGQQFIAAMCEKVSQGREHFPAAE----CWADGGITLRAA  177
+             +Y+   +D ++IM+  P   GQ+FI AM +K  +  E   +         DGG+     
+Sbjct  126  LKYVESHIDRVLIMSVNPGFGGQKFIPAMLDKAKEVSEWIKSTGRDILLEIDGGVNPNNI  185
+
+Query  178  RLLAAAGAQHLVIGRALFTTANYDVTLSQF  207
+              +AA G    V G A+  + +Y  T+ + 
+Sbjct  186  AEIAACGVDAFVAGSAILNSNSYKQTIDKM  215
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.135    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1209780654
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

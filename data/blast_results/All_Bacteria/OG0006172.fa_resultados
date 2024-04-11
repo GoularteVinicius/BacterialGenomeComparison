@@ -1,0 +1,142 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1827.t1
+
+Length=173
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043048(gb|NP_460908) (fliZ) flagellar regulatory protein FliZ ...  363     1e-130
+VFG043100(gb|WP_001302103) (fliZ) flagella biosynthesis regulator...  281     3e-98 
+VFG002318(gb|WP_005160338) (fliZ) alternative sigma factor regula...  184     5e-60 
+VFG002650(gb|WP_002211154) (fliZ) alternative sigma factor regula...  177     1e-57 
+
+
+>VFG043048(gb|NP_460908) (fliZ) flagellar regulatory protein FliZ 
+[Peritrichous flagella (VF0967) - Motility (VFC0204)] [Salmonella 
+enterica subsp. enterica serovar Typhimurium str. 
+LT2]
+Length=183
+
+ Score = 363 bits (931),  Expect = 1e-130, Method: Compositional matrix adjust.
+ Identities = 172/173 (99%), Positives = 173/173 (100%), Gaps = 0/173 (0%)
+
+Query  1    MSRYLKDFKHSQTHCAHCHKLLDRITLVRRGKIVNKIAISQLDMLLDDAAWQREQKEWVA  60
+            +SRYLKDFKHSQTHCAHCHKLLDRITLVRRGKIVNKIAISQLDMLLDDAAWQREQKEWVA
+Sbjct  11   LSRYLKDFKHSQTHCAHCHKLLDRITLVRRGKIVNKIAISQLDMLLDDAAWQREQKEWVA  70
+
+Query  61   LCRFCGDLHCKKQSDFFDIIGFKQYLFEQTEMSHGTVREYVVRLRRLGNYLSEQNISHDL  120
+            LCRFCGDLHCKKQSDFFDIIGFKQYLFEQTEMSHGTVREYVVRLRRLGNYLSEQNISHDL
+Sbjct  71   LCRFCGDLHCKKQSDFFDIIGFKQYLFEQTEMSHGTVREYVVRLRRLGNYLSEQNISHDL  130
+
+Query  121  LQDGFLDESLAPWLPETSTNNYRIALRKYQQYKAHQQIAPRQKSPFTASSDIY  173
+            LQDGFLDESLAPWLPETSTNNYRIALRKYQQYKAHQQIAPRQKSPFTASSDIY
+Sbjct  131  LQDGFLDESLAPWLPETSTNNYRIALRKYQQYKAHQQIAPRQKSPFTASSDIY  183
+
+
+>VFG043100(gb|WP_001302103) (fliZ) flagella biosynthesis regulatory 
+protein FliZ [Peritrichous flagella (VF1154) - Motility 
+(VFC0204)] [Escherichia coli O157:H7 str. EDL933]
+Length=183
+
+ Score = 281 bits (718),  Expect = 3e-98, Method: Compositional matrix adjust.
+ Identities = 137/173 (79%), Positives = 144/173 (83%), Gaps = 0/173 (0%)
+
+Query  1    MSRYLKDFKHSQTHCAHCHKLLDRITLVRRGKIVNKIAISQLDMLLDDAAWQREQKEWVA  60
+            +SRYLKDFKHSQTHCAHC KLLDRITLVR GKIVNKI IS+LD LLD+  WQ EQK W A
+Sbjct  11   LSRYLKDFKHSQTHCAHCRKLLDRITLVRDGKIVNKIEISRLDTLLDENGWQTEQKSWAA  70
+
+Query  61   LCRFCGDLHCKKQSDFFDIIGFKQYLFEQTEMSHGTVREYVVRLRRLGNYLSEQNISHDL  120
+            LCRFCGDLHCK QSDFFDIIGFKQ+LFEQTEMS GTVREYVVRLRRLGN+L EQNIS D 
+Sbjct  71   LCRFCGDLHCKTQSDFFDIIGFKQFLFEQTEMSPGTVREYVVRLRRLGNHLHEQNISLDQ  130
+
+Query  121  LQDGFLDESLAPWLPETSTNNYRIALRKYQQYKAHQQIAPRQKSPFTASSDIY  173
+            LQDGFLDE LAPWLP TSTNNYRIALRKYQ Y+        QKS    +SDIY
+Sbjct  131  LQDGFLDEILAPWLPTTSTNNYRIALRKYQHYQRQTCTGLVQKSSSLPASDIY  183
+
+
+>VFG002318(gb|WP_005160338) (fliZ) alternative sigma factor regulatory 
+protein [Flagella (VF0394) - Motility (VFC0204)] [Yersinia 
+enterocolitica subsp. enterocolitica 8081]
+Length=169
+
+ Score = 184 bits (466),  Expect = 5e-60, Method: Compositional matrix adjust.
+ Identities = 87/157 (55%), Positives = 108/157 (69%), Gaps = 0/157 (0%)
+
+Query  1    MSRYLKDFKHSQTHCAHCHKLLDRITLVRRGKIVNKIAISQLDMLLDDAAWQREQKEWVA  60
+            +SRYLKD+KH QTHC+HCHK LDR+ LV RG+I+NK AI+ +D  +DD  W + Q E  A
+Sbjct  11   LSRYLKDYKHGQTHCSHCHKQLDRMALVFRGQIINKEAIAGMDQPIDDQVWSKLQHELTA  70
+
+Query  61   LCRFCGDLHCKKQSDFFDIIGFKQYLFEQTEMSHGTVREYVVRLRRLGNYLSEQNISHDL  120
+            LCRFC +++C     +FDI+ FKQYLFEQTEMSH TVREYVVRLRRL   L   N   + 
+Sbjct  71   LCRFCSEIYCNSTPGYFDIMAFKQYLFEQTEMSHSTVREYVVRLRRLDEMLVATNYPAEK  130
+
+Query  121  LQDGFLDESLAPWLPETSTNNYRIALRKYQQYKAHQQ  157
+                 + + +   LP  + NNYRIALRKY QY A Q+
+Sbjct  131  FASETMHQRIIDELPNAAHNNYRIALRKYDQYLAWQK  167
+
+
+>VFG002650(gb|WP_002211154) (fliZ) alternative sigma factor regulatory 
+protein [Flagella (VF0394) - Motility (VFC0204)] [Yersinia 
+pestis CO92]
+Length=169
+
+ Score = 177 bits (450),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 86/157 (55%), Positives = 108/157 (69%), Gaps = 0/157 (0%)
+
+Query  1    MSRYLKDFKHSQTHCAHCHKLLDRITLVRRGKIVNKIAISQLDMLLDDAAWQREQKEWVA  60
+            +SRYLKD+KHSQTHC+HC K LDR+ LV RG+I+NK  I+ +D  +DD  W + Q+E  A
+Sbjct  11   LSRYLKDYKHSQTHCSHCQKQLDRMVLVFRGQIINKETIAGMDQPIDDPLWLKLQEELTA  70
+
+Query  61   LCRFCGDLHCKKQSDFFDIIGFKQYLFEQTEMSHGTVREYVVRLRRLGNYLSEQNISHDL  120
+            LCRFC +++C     +FDI+ FKQYLFEQTEMSH TVREYVVRLRRL   L   N   + 
+Sbjct  71   LCRFCSEIYCNNSLGYFDIMPFKQYLFEQTEMSHSTVREYVVRLRRLDEMLVATNYPAEK  130
+
+Query  121  LQDGFLDESLAPWLPETSTNNYRIALRKYQQYKAHQQ  157
+                 L + +   +P  + NNYRIALRKY QY A Q+
+Sbjct  131  FATEALYQRIIDDIPNAAHNNYRIALRKYDQYLAWQK  167
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.136    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 855684560
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

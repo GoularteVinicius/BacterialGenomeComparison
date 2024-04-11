@@ -1,0 +1,385 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g300.t1
+
+Length=345
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049314(gb|WP_012541334) (KPK_RS09880) sugar ABC transporter su...  78.6    2e-16
+VFG049313(gb|WP_002910453) (A79E_RS10215) sugar ABC transporter s...  72.4    3e-14
+
+
+>VFG049314(gb|WP_012541334) (KPK_RS09880) sugar ABC transporter 
+substrate-binding protein [T6SS-III (VF0784) - Effector delivery 
+system (VFC0086)] [Klebsiella pneumoniae 342]
+Length=304
+
+ Score = 78.6 bits (192),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 78/299 (26%), Positives = 135/299 (45%), Gaps = 31/299 (10%)
+
+Query  9    LRVASIMLILGLLPAILPACGFSESHHKLTIGVSYPTANSPFWNAYTRFIDEGSHQLGVY  68
+            ++   I+L++GLL     AC  S    K  IGVS    +  F     + I++ +    V 
+Sbjct  1    MKHCKIILLVGLL-----ACSASALAEK--IGVSMAYFDQNFLTIIRQSIEKEAQARHVD  53
+
+Query  69   INAVSAEEDEQKQLSDVETLINQGIDGLIVTPQSTSIAPTLLRIATQANIPVVVVDRYPG  128
+            +    A  D  +Q   V++ I  G+D +IV P  ++  P L ++A QA +P+V V+R PG
+Sbjct  54   VQFEDARGDTGRQADQVQSFIASGVDAIIVDPVDSASTPQLTKMAQQAKMPLVYVNRTPG  113
+
+Query  129  ---YAPGQNKNADYVAFLGPNNEKAGSGIAEALMAGG---GSKFLALGGMPGNSVAQGRK  182
+                 PG       V F+G +  ++G+   EAL       G+  + +G +      Q  K
+Sbjct  114  DKTLPPG-------VVFVGSDERESGTLQMEALAKLANYKGNVAIMIGNLTDAGALQRTK  166
+
+Query  183  AGLESALTAVGHRLVQFQYAGDSEDKGLAAAENMLQAHPAGDANAIWCF---NDKLCQGA  239
+               +        ++VQ Q A  S  +G+   +N       G+  AI      ND++  GA
+Sbjct  167  DVEQVVAKYPAMKVVQKQPANYSRSEGMDLMQNW-----TGNGEAIDIVAANNDEMAIGA  221
+
+Query  240  IKAVYNANREKEFIFGGMDLTPQAIAAIENGLYTVSLGAHWL-EGGFGLAILYRKIHGQ  297
+              A+  +  +K+ + GG+D TP  + A+ +    V++    + +G   LA+  + I G+
+Sbjct  222  AMALEKS--QKKLLIGGIDATPDGLKALASDKIQVTVFQDAVGQGKTALAVALKLIKGE  278
+
+
+>VFG049313(gb|WP_002910453) (A79E_RS10215) sugar ABC transporter 
+substrate-binding protein [T6SS-III (VF0784) - Effector delivery 
+system (VFC0086)] [Klebsiella pneumoniae subsp. pneumoniae 
+1084]
+Length=304
+
+ Score = 72.4 bits (176),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 69/269 (26%), Positives = 121/269 (45%), Gaps = 24/269 (9%)
+
+Query  39   IGVSYPTANSPFWNAYTRFIDEGSHQLGVYINAVSAEEDEQKQLSDVETLINQGIDGLIV  98
+            IGVS    +  F     + I++ +    V +    A  D  +Q   V++ I  G+D +IV
+Sbjct  24   IGVSMAYFDQNFLTIIRQSIEKEAQARHVDVQFEDARGDTGRQADQVQSFIASGVDAIIV  83
+
+Query  99   TPQSTSIAPTLLRIATQANIPVVVVDRYPG---YAPGQNKNADYVAFLGPNNEKAGSGIA  155
+             P  ++  P L ++A QA +P+V V+R PG     PG       V F+G +  ++G+   
+Sbjct  84   DPVDSASTPQLTKMAQQAKMPLVYVNRTPGDKTLPPG-------VVFVGSDERESGTLQM  136
+
+Query  156  EALMAGG---GSKFLALGGMPGNSVAQGRKAGLESALTAVGHRLVQFQYAGDSEDKGLAA  212
+            EAL       G+  + +G +      Q  K   +        ++VQ Q A  S  +G+  
+Sbjct  137  EALAKLANYKGNVAIMIGNLTDAGALQRTKDVEQVVAKYPAMKVVQKQPANYSRSEGMDL  196
+
+Query  213  AENMLQAHPAGDANAIWCF---NDKLCQGAIKAVYNANREKEFIFGGMDLTPQAIAAIEN  269
+             +N       G+  AI      ND++  GA  A+  +  +K+ + GG+D TP  + A+ +
+Sbjct  197  MQNW-----TGNGEAIDIVAANNDEMAIGAAMALEKS--QKKLLIGGIDATPDGLKALAS  249
+
+Query  270  GLYTVSLGAHWL-EGGFGLAILYRKIHGQ  297
+                V++    + +G   LA+  + I G+
+Sbjct  250  DKIQVTVFQDAVGQGKTALAVALKLIKGE  278
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.134    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2555217044
+
+
+Query= g1979.t1
+
+Length=319
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049314(gb|WP_012541334) (KPK_RS09880) sugar ABC transporter su...  70.1    1e-13
+VFG049313(gb|WP_002910453) (A79E_RS10215) sugar ABC transporter s...  69.7    2e-13
+
+
+>VFG049314(gb|WP_012541334) (KPK_RS09880) sugar ABC transporter 
+substrate-binding protein [T6SS-III (VF0784) - Effector delivery 
+system (VFC0086)] [Klebsiella pneumoniae 342]
+Length=304
+
+ Score = 70.1 bits (170),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 80/276 (29%), Positives = 118/276 (43%), Gaps = 19/276 (7%)
+
+Query  46   NEFFLTM--EDGAKAYQKEHAD-RFELVSNGIKDETDTSSQIRIVEQMIVSGVDALVIAP  102
+            ++ FLT+  +   K  Q  H D +FE          DT  Q   V+  I SGVDA+++ P
+Sbjct  32   DQNFLTIIRQSIEKEAQARHVDVQFE------DARGDTGRQADQVQSFIASGVDAIIVDP  85
+
+Query  103  ADSKALVPVVKKALDAGIVVVNIDNRFDPQVLQAKKIGVPFVGPDNRKGARLVGEYLAKR  162
+             DS +   + K A  A + +V ++     + L     GV FVG D R+   L  E LAK 
+Sbjct  86   VDSASTPQLTKMAQQAKMPLVYVNRTPGDKTLPP---GVVFVGSDERESGTLQMEALAKL  142
+
+Query  163  LKVGDEVGIIEGVSTTTNAQQRTAGFKDAM-DAAGMKIVSLQSGNWEIEKGNAVASAMLN  221
+                  V I+ G  T   A QRT   +  +     MK+V  Q  N+   +G  +      
+Sbjct  143  ANYKGNVAIMIGNLTDAGALQRTKDVEQVVAKYPAMKVVQKQPANYSRSEGMDLMQNWTG  202
+
+Query  222  EHPDLKALLAGNDSMALGAVSAVRAAGRAGQVKVVGYDNIQAIKPMLKDGRVLATADQFA  281
+                +  + A ND MA+GA  A+  + +  ++ + G D        L   ++  T  Q A
+Sbjct  203  NGEAIDIVAANNDEMAIGAAMALEKSQK--KLLIGGIDATPDGLKALASDKIQVTVFQDA  260
+
+Query  282  AKQAVFGIQTALKLLAGQTPEHEKDGVVETPVELVT  317
+              Q    +  ALKL+ G+  E      V  P ELVT
+Sbjct  261  VGQGKTALAVALKLIKGEKVESH----VWIPFELVT  292
+
+
+>VFG049313(gb|WP_002910453) (A79E_RS10215) sugar ABC transporter 
+substrate-binding protein [T6SS-III (VF0784) - Effector delivery 
+system (VFC0086)] [Klebsiella pneumoniae subsp. pneumoniae 
+1084]
+Length=304
+
+ Score = 69.7 bits (169),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 80/276 (29%), Positives = 118/276 (43%), Gaps = 19/276 (7%)
+
+Query  46   NEFFLTM--EDGAKAYQKEHAD-RFELVSNGIKDETDTSSQIRIVEQMIVSGVDALVIAP  102
+            ++ FLT+  +   K  Q  H D +FE          DT  Q   V+  I SGVDA+++ P
+Sbjct  32   DQNFLTIIRQSIEKEAQARHVDVQFEDARG------DTGRQADQVQSFIASGVDAIIVDP  85
+
+Query  103  ADSKALVPVVKKALDAGIVVVNIDNRFDPQVLQAKKIGVPFVGPDNRKGARLVGEYLAKR  162
+             DS +   + K A  A + +V ++     + L     GV FVG D R+   L  E LAK 
+Sbjct  86   VDSASTPQLTKMAQQAKMPLVYVNRTPGDKTLPP---GVVFVGSDERESGTLQMEALAKL  142
+
+Query  163  LKVGDEVGIIEGVSTTTNAQQRTAGFKDAM-DAAGMKIVSLQSGNWEIEKGNAVASAMLN  221
+                  V I+ G  T   A QRT   +  +     MK+V  Q  N+   +G  +      
+Sbjct  143  ANYKGNVAIMIGNLTDAGALQRTKDVEQVVAKYPAMKVVQKQPANYSRSEGMDLMQNWTG  202
+
+Query  222  EHPDLKALLAGNDSMALGAVSAVRAAGRAGQVKVVGYDNIQAIKPMLKDGRVLATADQFA  281
+                +  + A ND MA+GA  A+  + +  ++ + G D        L   ++  T  Q A
+Sbjct  203  NGEAIDIVAANNDEMAIGAAMALEKSQK--KLLIGGIDATPDGLKALASDKIQVTVFQDA  260
+
+Query  282  AKQAVFGIQTALKLLAGQTPEHEKDGVVETPVELVT  317
+              Q    +  ALKL+ G+  E      V  P ELVT
+Sbjct  261  VGQGKTALAVALKLIKGEKVESH----VWIPFELVT  292
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.131    0.358    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2299540077
+
+
+Query= g2048.t1
+
+Length=332
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049314(gb|WP_012541334) (KPK_RS09880) sugar ABC transporter su...  119     4e-31
+VFG049313(gb|WP_002910453) (A79E_RS10215) sugar ABC transporter s...  115     8e-30
+
+
+>VFG049314(gb|WP_012541334) (KPK_RS09880) sugar ABC transporter 
+substrate-binding protein [T6SS-III (VF0784) - Effector delivery 
+system (VFC0086)] [Klebsiella pneumoniae 342]
+Length=304
+
+ Score = 119 bits (297),  Expect = 4e-31, Method: Compositional matrix adjust.
+ Identities = 92/317 (29%), Positives = 159/317 (50%), Gaps = 26/317 (8%)
+
+Query  16   LFGAHAHAADTRIGVTIYKYDDNFMSVVRKAIEKDGKSAPDVQLLMNDSQNDQSKQNDQI  75
+            L    A A   +IGV++  +D NF++++R++IEK+ + A  V +   D++ D  +Q DQ+
+Sbjct  12   LLACSASALAEKIGVSMAYFDQNFLTIIRQSIEKEAQ-ARHVDVQFEDARGDTGRQADQV  70
+
+Query  76   DVLLAKGVKALAINLVDPAAAGTVIEKARGQNVPVVFFNKEPSRKALDSYDKAYYVGTDS  135
+               +A GV A+ ++ VD A+   + + A+   +P+V+ N+ P  K L       +VG+D 
+Sbjct  71   QSFIASGVDAIIVDPVDSASTPQLTKMAQQAKMPLVYVNRTPGDKTLPP--GVVFVGSDE  128
+
+Query  136  KESGVIQGDLIAKHWQANQGWDLNKDGKIQYVLLKGEPGHPDAEARTTYVVKELNDKGIQ  195
+            +ESG +Q + +AK          N  G +   ++ G      A  RT   V+++  K   
+Sbjct  129  RESGTLQMEALAKLA--------NYKGNV--AIMIGNLTDAGALQRTKD-VEQVVAKYPA  177
+
+Query  196  TEQLALDTAMWDTAQAKDKMDAWLSGPNANKIEVVIANNDAMAMGAVEALKAHNKSSIPV  255
+             + +    A +  ++  D M  W    N   I++V ANND MA+GA  AL+   K  + +
+Sbjct  178  MKVVQKQPANYSRSEGMDLMQNWTG--NGEAIDIVAANNDEMAIGAAMALEKSQKKLL-I  234
+
+Query  256  FGVDALPEALALVKSGAMAGTVLNDANNQAKATFDLAKNLAEGKGAADGTSWKIENKIVR  315
+             G+DA P+ L  + S  +  TV  DA  Q K    +A  L +G+        K+E+  V 
+Sbjct  235  GGIDATPDGLKALASDKIQVTVFQDAVGQGKTALAVALKLIKGE--------KVESH-VW  285
+
+Query  316  VPYVGVDKDNLSEFTQK  332
+            +P+  V K+N+  + +K
+Sbjct  286  IPFELVTKENMQTYVEK  302
+
+
+>VFG049313(gb|WP_002910453) (A79E_RS10215) sugar ABC transporter 
+substrate-binding protein [T6SS-III (VF0784) - Effector delivery 
+system (VFC0086)] [Klebsiella pneumoniae subsp. pneumoniae 
+1084]
+Length=304
+
+ Score = 115 bits (288),  Expect = 8e-30, Method: Compositional matrix adjust.
+ Identities = 89/306 (29%), Positives = 156/306 (51%), Gaps = 26/306 (8%)
+
+Query  27   RIGVTIYKYDDNFMSVVRKAIEKDGKSAPDVQLLMNDSQNDQSKQNDQIDVLLAKGVKAL  86
+            +IGV++  +D NF++++R++IEK+ + A  V +   D++ D  +Q DQ+   +A GV A+
+Sbjct  23   KIGVSMAYFDQNFLTIIRQSIEKEAQ-ARHVDVQFEDARGDTGRQADQVQSFIASGVDAI  81
+
+Query  87   AINLVDPAAAGTVIEKARGQNVPVVFFNKEPSRKALDSYDKAYYVGTDSKESGVIQGDLI  146
+             ++ VD A+   + + A+   +P+V+ N+ P  K L       +VG+D +ESG +Q + +
+Sbjct  82   IVDPVDSASTPQLTKMAQQAKMPLVYVNRTPGDKTLPP--GVVFVGSDERESGTLQMEAL  139
+
+Query  147  AKHWQANQGWDLNKDGKIQYVLLKGEPGHPDAEARTTYVVKELNDKGIQTEQLALDTAMW  206
+            AK          N  G +   ++ G      A  RT   V+++  K    + +    A +
+Sbjct  140  AKL--------ANYKGNV--AIMIGNLTDAGALQRTKD-VEQVVAKYPAMKVVQKQPANY  188
+
+Query  207  DTAQAKDKMDAWLSGPNANKIEVVIANNDAMAMGAVEALKAHNKSSIPVFGVDALPEALA  266
+              ++  D M  W    N   I++V ANND MA+GA  AL+   K  + + G+DA P+ L 
+Sbjct  189  SRSEGMDLMQNWTG--NGEAIDIVAANNDEMAIGAAMALEKSQKKLL-IGGIDATPDGLK  245
+
+Query  267  LVKSGAMAGTVLNDANNQAKATFDLAKNLAEGKGAADGTSWKIENKIVRVPYVGVDKDNL  326
+             + S  +  TV  DA  Q K    +A  L +G+        K+E+  V +P+  V K+N+
+Sbjct  246  ALASDKIQVTVFQDAVGQGKTALAVALKLIKGE--------KVESH-VWIPFELVTKENM  296
+
+Query  327  SEFTQK  332
+              + +K
+Sbjct  297  QTYVEK  302
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.129    0.362    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2419078431
+
+
+Query= g3582.t1
+
+Length=346
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.134    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2565689245
+
+
+Query= g3640.t1
+
+Length=296
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049314(gb|WP_012541334) (KPK_RS09880) sugar ABC transporter su...  119     1e-31
+VFG049313(gb|WP_002910453) (A79E_RS10215) sugar ABC transporter s...  115     5e-30
+
+
+>VFG049314(gb|WP_012541334) (KPK_RS09880) sugar ABC transporter 
+substrate-binding protein [T6SS-III (VF0784) - Effector delivery 
+system (VFC0086)] [Klebsiella pneumoniae 342]
+Length=304
+
+ Score = 119 bits (298),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 89/302 (29%), Positives = 153/302 (51%), Gaps = 14/302 (5%)
+
+Query  1    MNMKKLATLVSAVALSATVSANAMAKDTIALVISTLNNPFFVSLKDGAQKEADKLGYNLV  60
+            M   K+  LV  +A SA+  A     + I + ++  +  F   ++   +KEA     ++ 
+Sbjct  1    MKHCKIILLVGLLACSASALA-----EKIGVSMAYFDQNFLTIIRQSIEKEAQARHVDVQ  55
+
+Query  61   VLDSQNNPAKELANVQDLTVRGTKILLINPTDSDAVGNAVKMANQAKIPVITLDRQATKG  120
+              D++ +  ++   VQ     G   ++++P DS +     KMA QAK+P++ ++R  T G
+Sbjct  56   FEDARGDTGRQADQVQSFIASGVDAIIVDPVDSASTPQLTKMAQQAKMPLVYVNR--TPG  113
+
+Query  121  DV-----VSHIASDNVLGGKIAGDYIAKKAGEGAKVIELQGIAGTSAARERGEGFQQAVA  175
+            D      V  + SD    G +  + +AK A     V  + G    + A +R +  +Q VA
+Sbjct  114  DKTLPPGVVFVGSDERESGTLQMEALAKLANYKGNVAIMIGNLTDAGALQRTKDVEQVVA  173
+
+Query  176  AHK-FNVLASQPADFDRTKGLNVMQNLLTAHPDVQAVFAQNDEMALGALRALQTAGKADV  234
+             +    V+  QPA++ R++G+++MQN       +  V A NDEMA+GA  AL+ + K  +
+Sbjct  174  KYPAMKVVQKQPANYSRSEGMDLMQNWTGNGEAIDIVAANNDEMAIGAAMALEKSQK-KL  232
+
+Query  235  MVVGFDGTPDGEKAVKDGKLAATIAQLPDQIGAKGVEVADKVLKGEKVQAKYPVDLKLVI  294
+            ++ G D TPDG KA+   K+  T+ Q     G   + VA K++KGEKV++   +  +LV 
+Sbjct  233  LIGGIDATPDGLKALASDKIQVTVFQDAVGQGKTALAVALKLIKGEKVESHVWIPFELVT  292
+
+Query  295  KQ  296
+            K+
+Sbjct  293  KE  294
+
+
+>VFG049313(gb|WP_002910453) (A79E_RS10215) sugar ABC transporter 
+substrate-binding protein [T6SS-III (VF0784) - Effector delivery 
+system (VFC0086)] [Klebsiella pneumoniae subsp. pneumoniae 
+1084]
+Length=304
+
+ Score = 115 bits (287),  Expect = 5e-30, Method: Compositional matrix adjust.
+ Identities = 81/276 (29%), Positives = 142/276 (51%), Gaps = 9/276 (3%)
+
+Query  27   DTIALVISTLNNPFFVSLKDGAQKEADKLGYNLVVLDSQNNPAKELANVQDLTVRGTKIL  86
+            + I + ++  +  F   ++   +KEA     ++   D++ +  ++   VQ     G   +
+Sbjct  22   EKIGVSMAYFDQNFLTIIRQSIEKEAQARHVDVQFEDARGDTGRQADQVQSFIASGVDAI  81
+
+Query  87   LINPTDSDAVGNAVKMANQAKIPVITLDRQATKGDV-----VSHIASDNVLGGKIAGDYI  141
+            +++P DS +     KMA QAK+P++ ++R  T GD      V  + SD    G +  + +
+Sbjct  82   IVDPVDSASTPQLTKMAQQAKMPLVYVNR--TPGDKTLPPGVVFVGSDERESGTLQMEAL  139
+
+Query  142  AKKAGEGAKVIELQGIAGTSAARERGEGFQQAVAAHK-FNVLASQPADFDRTKGLNVMQN  200
+            AK A     V  + G    + A +R +  +Q VA +    V+  QPA++ R++G+++MQN
+Sbjct  140  AKLANYKGNVAIMIGNLTDAGALQRTKDVEQVVAKYPAMKVVQKQPANYSRSEGMDLMQN  199
+
+Query  201  LLTAHPDVQAVFAQNDEMALGALRALQTAGKADVMVVGFDGTPDGEKAVKDGKLAATIAQ  260
+                   +  V A NDEMA+GA  AL+ + K  +++ G D TPDG KA+   K+  T+ Q
+Sbjct  200  WTGNGEAIDIVAANNDEMAIGAAMALEKSQK-KLLIGGIDATPDGLKALASDKIQVTVFQ  258
+
+Query  261  LPDQIGAKGVEVADKVLKGEKVQAKYPVDLKLVIKQ  296
+                 G   + VA K++KGEKV++   +  +LV K+
+Sbjct  259  DAVGQGKTALAVALKLIKGEKVESHVWIPFELVTKE  294
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.130    0.346    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2074048505
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

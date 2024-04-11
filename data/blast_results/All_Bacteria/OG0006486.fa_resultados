@@ -1,0 +1,107 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3300.t1
+
+Length=658
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG050222(gb|NP_219545) (glgX) glycogen hydrolase [TTSS secreted ...  329     1e-103
+
+
+>VFG050222(gb|NP_219545) (glgX) glycogen hydrolase [TTSS secreted 
+effectors (VF0711) - Effector delivery system (VFC0086)] 
+[Chlamydia trachomatis D/UW-3/CX]
+Length=666
+
+ Score = 329 bits (843),  Expect = 1e-103, Method: Compositional matrix adjust.
+ Identities = 228/624 (37%), Positives = 315/624 (50%), Gaps = 53/624 (8%)
+
+Query  23   FTLFSAHAERVELCVFDSRGNERRYDLPG---RRGDVWHGYLAGARPGLRYGYRVHGPWQ  79
+            F+LFS+ A++V L + D         L     R G +WH  +AG      Y Y++ G   
+Sbjct  26   FSLFSSQAQQVTLVLLDPLSEIHEIPLSSTDHRTGAIWHIEIAGISSEWSYAYKLRGTDL  85
+
+Query  80   PAQGHRFNPAKLLLDPYARRVEGELKDHPLLHGG-HDEPDYRDNAAVAPKSVVISDHYDW  138
+             +Q  +F     + DPY++ +       P L G    E DY         S +  + +DW
+Sbjct  86   SSQ--KFATDSYIADPYSKNIYS-----PQLFGSPKQEKDY-------AFSYLKHEDFDW  131
+
+Query  139  EDDAAPRTPWGKTVIYEAHVKGLTYLHPELPQEIRGTYKALGHPVMVAYFKQLGITALEL  198
+            E D     P     IYE HV+  T   P       GT+  LG    + + KQLG+ A+EL
+Sbjct  132  EGDTPLHLPKENYFIYEMHVRSFT-RDPSSQVSHPGTF--LGIIEKIDHLKQLGVHAVEL  188
+
+Query  199  LPVAQFASEPRLQRMG----LTNYWGYNPMAMF--ALHPAWASSPETALDEFRDAVKALH  252
+            LP+ +F       +      L NYWGY+ +  F  +    + + P     EF+  VKALH
+Sbjct  189  LPIFEFDETVHPFKNQDFPHLCNYWGYSSVNFFCPSRRYTYGADPCAPAREFKTLVKALH  248
+
+Query  253  RAGIEVILDIVLNHSAELDLDGPTFSLRGIDNRSYYWIRDDGDYHNWTGCGNTLNLSHPG  312
+            RAGIEVILD+V NH+     +G +  L  ID  SYY + D GD  N++GCGNT+N + P 
+Sbjct  249  RAGIEVILDVVFNHTG---FEGTSCPLPWIDLESYYMVNDHGDLMNFSGCGNTVNTNTPT  305
+
+Query  313  VVEYACECLRYWVETCHVDGFRFDLASVMGRTPTFRQDAPL-----FAAIKACPVLSTVK  367
+             +++  + LRYWV+  HVDGFRFDLASV  R P   Q  PL       AI +  +LS  K
+Sbjct  306  TLKWILDALRYWVQEMHVDGFRFDLASVFSRDP---QGVPLPLTPILQAISSDSILSETK  362
+
+Query  368  LIAEPWDIGEGGYQVGNFPPP---FAEWNDHFRDAARRFWLPRNLTTGEFACRFAASSDV  424
+            LIAEPWD G G YQ+G+FP     ++EWN  +RD  + F          FA R + S D+
+Sbjct  363  LIAEPWDAG-GLYQLGHFPSISTRWSEWNGCYRDHVKAFLNGDAHQVSSFASRISGSHDI  421
+
+Query  425  FKRNGRAPGASVNLLTAHDGFTLRDCVCFNQKHNEANGEENRDGTNSNYSDNHGKEGLGG  484
+            +  NG+ P  S+N + +HDGFTL D V +N KHNE NGE NRDGT++NYS N G EG   
+Sbjct  422  YP-NGK-PTNSINYICSHDGFTLYDTVAYNDKHNEENGEYNRDGTSANYSYNFGCEGETT  479
+
+Query  485  PLDLMERRRDSIHALLATLLLSQGTPMLLAGDEHGHSQHGNNNAYCQDNALTWLDWQQ--  542
+               +   R   +      L LSQG PM+ +GDE+GH+ +GNNN +C D  + +  W +  
+Sbjct  480  DPTICALRERQMKNFFLALFLSQGIPMIQSGDEYGHTAYGNNNHWCLDTKINYFLWDRLA  539
+
+Query  543  ANRGLTTFTAALIRLRQQIPALTGNSWWEEGDGNVRWLNKNAQPLSADEWQNGPKLMQIL  602
+              + L +F   +I LR+    L   S+  E    + WLN    P    EW     L   L
+Sbjct  540  ERKELFSFLCQVIALRKAYTELFNTSFLSE--DTITWLNTKGSP---REWGADHYLAFEL  594
+
+Query  603  --LSDRFLIAINATLEVTDIVLPE  624
+              L+    +A  +  E  +I LP+
+Sbjct  595  KHLNYSLFVAFYSGNERIEISLPK  618
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5677674259
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

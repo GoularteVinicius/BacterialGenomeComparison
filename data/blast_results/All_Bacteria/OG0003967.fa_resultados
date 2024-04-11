@@ -1,0 +1,87 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1353.t1
+
+Length=653
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG042072(gb|WP_010930809) (BP_RS11150) SpoIIE family protein pho...  70.5    2e-12
+
+
+>VFG042072(gb|WP_010930809) (BP_RS11150) SpoIIE family protein 
+phosphatase [TTSS (VF0035) - Effector delivery system (VFC0086)] 
+[Bordetella pertussis Tohama I]
+Length=673
+
+ Score = 70.5 bits (171),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 82/301 (27%), Positives = 125/301 (42%), Gaps = 38/301 (13%)
+
+Query  112  PRRRAD--GSI-EGVQLIVDDVTSRVRARQAAEARVEELSERYRNVRDSATVMQQALLAA  168
+            PRRR D  G + E    + + +   VRA  A  +  E L       R     +Q  LL  
+Sbjct  394  PRRRRDEVGQLAESFLFMNEQLHHNVRALMAQISNRERLESELSIARS----IQLGLLPQ  449
+
+Query  169  SVP--VVPGADIAAEYLVAAEDTAAGGDWFDALALGD-RLVLVVGDVVGHGVEAAAVMSQ  225
+             +P     G+ + A    A E    GGD++D   L D RL   +GDV G GV AA  M+ 
+Sbjct  450  PLPDAATRGSQLRAVMYPARE---VGGDFYDYFVLADGRLCFAIGDVSGKGVPAALFMAI  506
+
+Query  226  LRTALRMQISAGYTVVE--------ALEAVDRFHKQVPGSKSATMCVGSLDFTSGEFQYC  277
+            +RT +R       +V E        A +   R  +  P     T+ +G     +G   + 
+Sbjct  507  VRTLIR-------SVAEEEHDPGAIATKVNHRLAENNPKLMFVTLLIGVFTPETGALAWV  559
+
+Query  278  TAGHPPPLLVTADASARYVEPTGAGPLG--SGTGFPVRSEVLNIGDAILFYTDGLIERPG  335
+             AGHPPPLL+      R ++ +     G      +   S  L  G +++ +TDG+ E   
+Sbjct  560  NAGHPPPLLIDERGEVRLLQGSSGAACGVLDNEAYSTLSTTLPNGTSLVAFTDGVTE---  616
+
+Query  336  RPLEASTAEFADLAASIASGSGGFVLDAPARPIDRLCSDTLELLLRSTGYNDDVTLLAMQ  395
+              +    A++  L   +A   G     A A  I+ +  D  E    S   +DD+T++A+ 
+Sbjct  617  -AIHGGCAQYG-LPRLVALMQGA--PHAAAELIEHILHDLREFAADSE-QSDDLTIIAIH  671
+
+Query  396  R  396
+            R
+Sbjct  672  R  672
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5626152714
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

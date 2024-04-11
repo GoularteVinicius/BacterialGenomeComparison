@@ -1,0 +1,105 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1256.t1
+
+Length=186
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional regu...  47.8    4e-07
+
+
+>VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus epidermidis RP62A]
+Length=185
+
+ Score = 47.8 bits (112),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 19/52 (37%), Positives = 31/52 (60%), Gaps = 0/52 (0%)
+
+Query  8   RDELLQRCAGTFRRYGYHGTTMEMLSSACGLTKASFYHHYPNKEALLRDVLE  59
+           +D+++      F   GY GTT++ +S +  + KAS Y+HY NKE + R  +E
+Sbjct  2   KDKIIDNAITLFSEKGYDGTTLDDISKSVNIKKASLYYHYDNKEEIYRKSVE  53
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 981462900
+
+
+Query= g3094.t1
+
+Length=185
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.133    0.368    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 970794825
+
+
+Query= g4020.t1
+
+Length=191
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.135    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1034803275
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

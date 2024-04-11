@@ -1,0 +1,107 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3509.t1
+
+Length=112
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015295(gb|WP_005733208) (hopJ1) HopJ type III effector protein...  150     1e-48
+VFG015293(gb|WP_005768752) (hopJ1) HopJ type III effector protein...  147     2e-47
+VFG015294(gb|WP_004406855) (hopJ1) HopJ type III effector protein...  145     2e-46
+
+
+>VFG015295(gb|WP_005733208) (hopJ1) HopJ type III effector protein 
+[P. syringae TTSS effectors (VF0911) - Effector delivery 
+system (VFC0086)] [Pseudomonas syringae pv. phaseolicola 1448A]
+Length=113
+
+ Score = 150 bits (379),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 73/109 (67%), Positives = 81/109 (74%), Gaps = 0/109 (0%)
+
+Query  3    LTDFRARLRSEHHLFTDTLAFIAEHYSYTPSAFDNGSVSNPAGQNEGSCKTLGFAILEGL  62
+            L   R  LRS  H+F DTLAFIAE Y Y P  F NG+V N AGQNEGSCKTLG A+LEGL
+Sbjct  4    LNSLRTSLRSGEHVFADTLAFIAEGYDYQPQPFRNGAVDNAAGQNEGSCKTLGLALLEGL  63
+
+Query  63   SLEETLLAFGEHYRAVRDNPEGDDHANIRALQQTGLAGVHFERQPLSRR  111
+            S EE LLAFGEHYR+V+  PEG DH NIRAL + GLAGV FE +PL R+
+Sbjct  64   SDEEALLAFGEHYRSVQATPEGSDHGNIRALIEYGLAGVKFEGEPLKRK  112
+
+
+>VFG015293(gb|WP_005768752) (hopJ1) HopJ type III effector protein 
+[P. syringae TTSS effectors (VF0911) - Effector delivery 
+system (VFC0086)] [Pseudomonas syringae pv. tomato str. DC3000]
+Length=113
+
+ Score = 147 bits (371),  Expect = 2e-47, Method: Compositional matrix adjust.
+ Identities = 72/109 (66%), Positives = 80/109 (73%), Gaps = 0/109 (0%)
+
+Query  3    LTDFRARLRSEHHLFTDTLAFIAEHYSYTPSAFDNGSVSNPAGQNEGSCKTLGFAILEGL  62
+            +   R RLRS  H F DTLAFIA+ Y Y P  F NG V N AGQNEGSCKTLG A+LEGL
+Sbjct  4    INSLRTRLRSGEHAFADTLAFIADGYDYQPQPFRNGDVDNAAGQNEGSCKTLGLALLEGL  63
+
+Query  63   SLEETLLAFGEHYRAVRDNPEGDDHANIRALQQTGLAGVHFERQPLSRR  111
+            S EE LLAFGEHYR+V+  PEG DH NIRAL + GLAGV FE +PL R+
+Sbjct  64   SDEEALLAFGEHYRSVQATPEGSDHGNIRALIKHGLAGVTFEGEPLKRK  112
+
+
+>VFG015294(gb|WP_004406855) (hopJ1) HopJ type III effector protein 
+[P. syringae TTSS effectors (VF0911) - Effector delivery 
+system (VFC0086)] [Pseudomonas syringae pv. syringae B728a]
+Length=113
+
+ Score = 145 bits (365),  Expect = 2e-46, Method: Compositional matrix adjust.
+ Identities = 70/109 (64%), Positives = 77/109 (71%), Gaps = 0/109 (0%)
+
+Query  3    LTDFRARLRSEHHLFTDTLAFIAEHYSYTPSAFDNGSVSNPAGQNEGSCKTLGFAILEGL  62
+            L   R  L S  H F DTLAFIA+ Y Y P AF NG V N AGQNEGSCKTLG A+LEGL
+Sbjct  4    LNSLRTSLSSGEHAFADTLAFIADGYDYQPQAFRNGDVDNAAGQNEGSCKTLGLALLEGL  63
+
+Query  63   SLEETLLAFGEHYRAVRDNPEGDDHANIRALQQTGLAGVHFERQPLSRR  111
+            + EE LLAFGEHYR+V+  PEG DH NIRAL   GLAGV F  +PL R+
+Sbjct  64   TDEEALLAFGEHYRSVQATPEGSDHGNIRALMANGLAGVKFAGEPLKRK  112
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 330115770
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

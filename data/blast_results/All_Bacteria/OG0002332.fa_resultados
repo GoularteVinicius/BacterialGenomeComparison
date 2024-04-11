@@ -1,0 +1,256 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g875.t1
+
+Length=152
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG039369(gb|WP_011996765) (phnB) Coxiella Dot/Icm type IVB secre...  125     2e-37
+VFG039368(gb|WP_005768971) (phnB) Coxiella Dot/Icm type IVB secre...  122     4e-36
+VFG039367(gb|WP_012570166) (phnB) Coxiella Dot/Icm type IVB secre...  121     7e-36
+VFG039371(gb|NP_819795) (phnB) Coxiella Dot/Icm type IVB secretio...  120     1e-35
+
+
+>VFG039369(gb|WP_011996765) (phnB) Coxiella Dot/Icm type IVB secretion 
+system translocated effector  [T4SS secreted effectors 
+(VF0696) - Effector delivery system (VFC0086)] [Coxiella 
+burnetii Dugway 5J108-111]
+Length=156
+
+ Score = 125 bits (313),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 60/136 (44%), Positives = 91/136 (67%), Gaps = 3/136 (2%)
+
+Query  8    ALSPHLVVDDAASAIDFYVKAFDAVELGRVPGPDGKLIHAALRINGFTVMLNDDVPQMCG  67
+            +++P+L V++A  AI++Y KAF A E  R+  P GK+ HA L+I    +ML D+ P+M G
+Sbjct  14   SITPYLFVNEATKAIEYYKKAFGAEEEMRMEMPGGKIGHAELKIGDSKIMLADEFPEM-G  72
+
+Query  68   GKSMTPTSLGGTPVTIHLTVTDVDAKFQRALNAGATVVTALEDQLWGDRYGVVADPFGHH  127
+             +S  P + GG+PVTIHL V DVD   QRA+NAG  +   +E+Q +GDR G + DPFGH 
+Sbjct  73   ARS--PRTYGGSPVTIHLYVEDVDKTAQRAVNAGGKLKGKVENQFYGDRSGTLEDPFGHT  130
+
+Query  128  WSLGQPVREVNMDEIQ  143
+            W++   + +++ +EI+
+Sbjct  131  WNISTHIEDLSDEEIR  146
+
+
+>VFG039368(gb|WP_005768971) (phnB) Coxiella Dot/Icm type IVB secretion 
+system translocated effector  [T4SS secreted effectors 
+(VF0696) - Effector delivery system (VFC0086)] [Coxiella 
+burnetii CbuK_Q154]
+Length=156
+
+ Score = 122 bits (305),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 56/136 (41%), Positives = 89/136 (65%), Gaps = 3/136 (2%)
+
+Query  8    ALSPHLVVDDAASAIDFYVKAFDAVELGRVPGPDGKLIHAALRINGFTVMLNDDVPQMCG  67
+            +++P+L V++A  AI++Y KAF A E  R+  P GK+ HA L+I    +ML D+ P+M  
+Sbjct  14   SITPYLFVNEATKAIEYYKKAFGAEEEMRMEMPGGKIGHAELKIGDSKIMLADEFPEMG-  72
+
+Query  68   GKSMTPTSLGGTPVTIHLTVTDVDAKFQRALNAGATVVTALEDQLWGDRYGVVADPFGHH  127
+              + +P + GG+PVTIH  V DVD   Q+A+NAG  +   +E+Q +GDR G + DPFGH 
+Sbjct  73   --ARSPRTYGGSPVTIHFYVEDVDKTAQQAVNAGGKLKGKVENQFYGDRSGTLEDPFGHT  130
+
+Query  128  WSLGQPVREVNMDEIQ  143
+            W++   + +++ +EI+
+Sbjct  131  WNISTHIEDLSDEEIR  146
+
+
+>VFG039367(gb|WP_012570166) (phnB) Coxiella Dot/Icm type IVB secretion 
+system translocated effector  [T4SS secreted effectors 
+(VF0696) - Effector delivery system (VFC0086)] [Coxiella 
+burnetii CbuG_Q212]
+Length=156
+
+ Score = 121 bits (303),  Expect = 7e-36, Method: Compositional matrix adjust.
+ Identities = 58/136 (43%), Positives = 90/136 (66%), Gaps = 3/136 (2%)
+
+Query  8    ALSPHLVVDDAASAIDFYVKAFDAVELGRVPGPDGKLIHAALRINGFTVMLNDDVPQMCG  67
+            +++P+L V++A   I++Y KAF A E  R+  P GK+ HA L+I    +ML D+ P+M G
+Sbjct  14   SITPYLFVNEATKVIEYYKKAFGAEEEMRMEMPGGKIGHAELKIGDSKIMLADEFPEM-G  72
+
+Query  68   GKSMTPTSLGGTPVTIHLTVTDVDAKFQRALNAGATVVTALEDQLWGDRYGVVADPFGHH  127
+             +S  P + GG+PVTIHL V DVD   Q+A+NAG  +   +E+Q +GDR G + DPFGH 
+Sbjct  73   ARS--PRTYGGSPVTIHLYVEDVDKTAQQAVNAGGKLKGKVENQFYGDRSGTLEDPFGHT  130
+
+Query  128  WSLGQPVREVNMDEIQ  143
+            W++   + +++ +EI+
+Sbjct  131  WNISTHIEDLSDEEIR  146
+
+
+>VFG039371(gb|NP_819795) (phnB) Coxiella Dot/Icm type IVB secretion 
+system translocated effector  [T4SS secreted effectors 
+(VF0696) - Effector delivery system (VFC0086)] [Coxiella burnetii 
+RSA 493]
+Length=156
+
+ Score = 120 bits (302),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 58/136 (43%), Positives = 90/136 (66%), Gaps = 3/136 (2%)
+
+Query  8    ALSPHLVVDDAASAIDFYVKAFDAVELGRVPGPDGKLIHAALRINGFTVMLNDDVPQMCG  67
+            +++P+L V++A  AI++Y KAF A E  R+  P GK+ HA L+I    +ML D+ P+M G
+Sbjct  14   SITPYLFVNEATKAIEYYKKAFGAEEEMRMEMPGGKIGHAELKIGDSKIMLADEFPEM-G  72
+
+Query  68   GKSMTPTSLGGTPVTIHLTVTDVDAKFQRALNAGATVVTALEDQLWGDRYGVVADPFGHH  127
+             +S  P + GG+PVTIHL V DVD   Q+A+NAG  +   +E+Q +GDR G + DPF H 
+Sbjct  73   ARS--PRTYGGSPVTIHLYVEDVDKTAQQAVNAGGKLKGKVENQFYGDRSGTLEDPFAHT  130
+
+Query  128  WSLGQPVREVNMDEIQ  143
+            W++   + +++ +EI+
+Sbjct  131  WNISTHIEDLSDEEIR  146
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 655873281
+
+
+Query= g815.t1
+
+Length=146
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG039369(gb|WP_011996765) (phnB) Coxiella Dot/Icm type IVB secre...  52.8    2e-09
+VFG039368(gb|WP_005768971) (phnB) Coxiella Dot/Icm type IVB secre...  52.0    4e-09
+VFG039367(gb|WP_012570166) (phnB) Coxiella Dot/Icm type IVB secre...  51.6    5e-09
+VFG039371(gb|NP_819795) (phnB) Coxiella Dot/Icm type IVB secretio...  51.2    9e-09
+
+
+>VFG039369(gb|WP_011996765) (phnB) Coxiella Dot/Icm type IVB secretion 
+system translocated effector  [T4SS secreted effectors 
+(VF0696) - Effector delivery system (VFC0086)] [Coxiella 
+burnetii Dugway 5J108-111]
+Length=156
+
+ Score = 52.8 bits (125),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 34/132 (26%), Positives = 62/132 (47%), Gaps = 9/132 (7%)
+
+Query  11   SVIPCLRYRDAPAAIDWLCRTFGFQRKLVVPGEDGQVLHAELTYASPNGANGMLMLGSSV  70
+            S+ P L   +A  AI++  + FG + ++ +    G++ HAEL        +  +ML    
+Sbjct  14   SITPYLFVNEATKAIEYYKKAFGAEEEMRMEMPGGKIGHAELKIG-----DSKIMLADEF  68
+
+Query  71   RDNAYGRLMRHVDEAGGNTQSLYLVVADPDALFRSAQAAGAEIVIDIKDEDYGGRGFTCR  130
+             +       R     GG+  +++L V D D   + A  AG ++   ++++ YG R  T  
+Sbjct  69   PEMG----ARSPRTYGGSPVTIHLYVEDVDKTAQRAVNAGGKLKGKVENQFYGDRSGTLE  124
+
+Query  131  DPEGHVWSFGSY  142
+            DP GH W+  ++
+Sbjct  125  DPFGHTWNISTH  136
+
+
+>VFG039368(gb|WP_005768971) (phnB) Coxiella Dot/Icm type IVB secretion 
+system translocated effector  [T4SS secreted effectors 
+(VF0696) - Effector delivery system (VFC0086)] [Coxiella 
+burnetii CbuK_Q154]
+Length=156
+
+ Score = 52.0 bits (123),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 33/132 (25%), Positives = 61/132 (46%), Gaps = 9/132 (7%)
+
+Query  11   SVIPCLRYRDAPAAIDWLCRTFGFQRKLVVPGEDGQVLHAELTYASPNGANGMLMLGSSV  70
+            S+ P L   +A  AI++  + FG + ++ +    G++ HAEL        +  +ML    
+Sbjct  14   SITPYLFVNEATKAIEYYKKAFGAEEEMRMEMPGGKIGHAELKIG-----DSKIMLADEF  68
+
+Query  71   RDNAYGRLMRHVDEAGGNTQSLYLVVADPDALFRSAQAAGAEIVIDIKDEDYGGRGFTCR  130
+             +       R     GG+  +++  V D D   + A  AG ++   ++++ YG R  T  
+Sbjct  69   PEMG----ARSPRTYGGSPVTIHFYVEDVDKTAQQAVNAGGKLKGKVENQFYGDRSGTLE  124
+
+Query  131  DPEGHVWSFGSY  142
+            DP GH W+  ++
+Sbjct  125  DPFGHTWNISTH  136
+
+
+>VFG039367(gb|WP_012570166) (phnB) Coxiella Dot/Icm type IVB secretion 
+system translocated effector  [T4SS secreted effectors 
+(VF0696) - Effector delivery system (VFC0086)] [Coxiella 
+burnetii CbuG_Q212]
+Length=156
+
+ Score = 51.6 bits (122),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 33/132 (25%), Positives = 61/132 (46%), Gaps = 9/132 (7%)
+
+Query  11   SVIPCLRYRDAPAAIDWLCRTFGFQRKLVVPGEDGQVLHAELTYASPNGANGMLMLGSSV  70
+            S+ P L   +A   I++  + FG + ++ +    G++ HAEL        +  +ML    
+Sbjct  14   SITPYLFVNEATKVIEYYKKAFGAEEEMRMEMPGGKIGHAELKIG-----DSKIMLADEF  68
+
+Query  71   RDNAYGRLMRHVDEAGGNTQSLYLVVADPDALFRSAQAAGAEIVIDIKDEDYGGRGFTCR  130
+             +       R     GG+  +++L V D D   + A  AG ++   ++++ YG R  T  
+Sbjct  69   PEMG----ARSPRTYGGSPVTIHLYVEDVDKTAQQAVNAGGKLKGKVENQFYGDRSGTLE  124
+
+Query  131  DPEGHVWSFGSY  142
+            DP GH W+  ++
+Sbjct  125  DPFGHTWNISTH  136
+
+
+>VFG039371(gb|NP_819795) (phnB) Coxiella Dot/Icm type IVB secretion 
+system translocated effector  [T4SS secreted effectors 
+(VF0696) - Effector delivery system (VFC0086)] [Coxiella burnetii 
+RSA 493]
+Length=156
+
+ Score = 51.2 bits (121),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 33/132 (25%), Positives = 61/132 (46%), Gaps = 9/132 (7%)
+
+Query  11   SVIPCLRYRDAPAAIDWLCRTFGFQRKLVVPGEDGQVLHAELTYASPNGANGMLMLGSSV  70
+            S+ P L   +A  AI++  + FG + ++ +    G++ HAEL        +  +ML    
+Sbjct  14   SITPYLFVNEATKAIEYYKKAFGAEEEMRMEMPGGKIGHAELKIG-----DSKIMLADEF  68
+
+Query  71   RDNAYGRLMRHVDEAGGNTQSLYLVVADPDALFRSAQAAGAEIVIDIKDEDYGGRGFTCR  130
+             +       R     GG+  +++L V D D   + A  AG ++   ++++ YG R  T  
+Sbjct  69   PEMG----ARSPRTYGGSPVTIHLYVEDVDKTAQQAVNAGGKLKGKVENQFYGDRSGTLE  124
+
+Query  131  DPEGHVWSFGSY  142
+            DP  H W+  ++
+Sbjct  125  DPFAHTWNISTH  136
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 591361155
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

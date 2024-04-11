@@ -1,0 +1,397 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g351.t1
+
+Length=343
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015290(gb|WP_005763320) (hopI1) DnaJ domain-containing protein...  47.8    6e-06
+
+
+>VFG015290(gb|WP_005763320) (hopI1) DnaJ domain-containing protein 
+[P. syringae TTSS effectors (VF0911) - Effector delivery 
+system (VFC0086)] [Pseudomonas syringae pv. tomato str. DC3000]
+Length=488
+
+ Score = 47.8 bits (112),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 25/40 (63%), Positives = 28/40 (70%), Gaps = 1/40 (3%)
+
+Query  2    AMKYHPDRNPDN-AEAEEKFKEASEAYEILSDSEKRSMYD  40
+            AMK HPD+N  N AEA E+FK  S AY+ILSD E R  YD
+Sbjct  438  AMKNHPDKNRGNEAEAAERFKVISNAYKILSDPELRKAYD  477
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.137    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2534272642
+
+
+Query= g472.t1
+
+Length=378
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015292(gb|WP_011169533) (hopI1) J domain-containing protein [P...  48.9    2e-06
+VFG015290(gb|WP_005763320) (hopI1) DnaJ domain-containing protein...  48.9    3e-06
+
+
+>VFG015292(gb|WP_011169533) (hopI1) J domain-containing protein 
+[P. syringae TTSS effectors (VF0911) - Effector delivery system 
+(VFC0086)] [Pseudomonas syringae pv. phaseolicola 1448A]
+Length=336
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 29/65 (45%), Positives = 41/65 (63%), Gaps = 3/65 (5%)
+
+Query  6    YGLLGVSRNASD-ADIKRAYRKLARELHPDINPDEAAQA--KFKEISMAYEVLSDPEKRR  62
+            Y  LG+S   +D + +K AY+K A + HPD N    A+A  +FK IS A+++LSDPE R+
+Sbjct  261  YEHLGLSDMTADLSAVKTAYKKAALKNHPDKNAGNVAEATERFKVISNAFKILSDPELRK  320
+
+Query  63   IVDLG  67
+              D G
+Sbjct  321  KYDNG  325
+
+
+>VFG015290(gb|WP_005763320) (hopI1) DnaJ domain-containing protein 
+[P. syringae TTSS effectors (VF0911) - Effector delivery 
+system (VFC0086)] [Pseudomonas syringae pv. tomato str. DC3000]
+Length=488
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 29/65 (45%), Positives = 41/65 (63%), Gaps = 3/65 (5%)
+
+Query  6    YGLLGVSRNASD-ADIKRAYRKLARELHPDINPDEAAQA--KFKEISMAYEVLSDPEKRR  62
+            Y  LG++  + D + +K+AYR  A + HPD N    A+A  +FK IS AY++LSDPE R+
+Sbjct  415  YEHLGLTDMSVDLSAVKKAYRDAAMKNHPDKNRGNEAEAAERFKVISNAYKILSDPELRK  474
+
+Query  63   IVDLG  67
+              D G
+Sbjct  475  AYDNG  479
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.138    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2882604444
+
+
+Query= g349.t1
+
+Length=395
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015292(gb|WP_011169533) (hopI1) J domain-containing protein [P...  58.5    2e-09
+VFG015290(gb|WP_005763320) (hopI1) DnaJ domain-containing protein...  58.2    4e-09
+
+
+>VFG015292(gb|WP_011169533) (hopI1) J domain-containing protein 
+[P. syringae TTSS effectors (VF0911) - Effector delivery system 
+(VFC0086)] [Pseudomonas syringae pv. phaseolicola 1448A]
+Length=336
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 33/66 (50%), Positives = 40/66 (61%), Gaps = 2/66 (3%)
+
+Query  9    KDFYQELGVSS-DASPEEIKRAYRKLARDLHPDANPGNPA-AGERFKAVSEAHNVLSDPA  66
+            K  Y+ LG+S   A    +K AY+K A   HPD N GN A A ERFK +S A  +LSDP 
+Sbjct  258  KPLYEHLGLSDMTADLSAVKTAYKKAALKNHPDKNAGNVAEATERFKVISNAFKILSDPE  317
+
+Query  67   KRKEYD  72
+             RK+YD
+Sbjct  318  LRKKYD  323
+
+
+>VFG015290(gb|WP_005763320) (hopI1) DnaJ domain-containing protein 
+[P. syringae TTSS effectors (VF0911) - Effector delivery 
+system (VFC0086)] [Pseudomonas syringae pv. tomato str. DC3000]
+Length=488
+
+ Score = 58.2 bits (139),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 37/77 (48%), Positives = 44/77 (57%), Gaps = 6/77 (8%)
+
+Query  9    KDFYQELG---VSSDASPEEIKRAYRKLARDLHPDANPGNPA-AGERFKAVSEAHNVLSD  64
+            K  Y+ LG   +S D S   +K+AYR  A   HPD N GN A A ERFK +S A+ +LSD
+Sbjct  412  KPLYEHLGLTDMSVDLS--AVKKAYRDAAMKNHPDKNRGNEAEAAERFKVISNAYKILSD  469
+
+Query  65   PAKRKEYDETRRLFAGG  81
+            P  RK YD  R   AG 
+Sbjct  470  PELRKAYDNGRINEAGN  486
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.138    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3060156167
+
+
+Query= g2341.t1
+
+Length=382
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015292(gb|WP_011169533) (hopI1) J domain-containing protein [P...  47.4    7e-06
+VFG015290(gb|WP_005763320) (hopI1) DnaJ domain-containing protein...  47.8    7e-06
+
+
+>VFG015292(gb|WP_011169533) (hopI1) J domain-containing protein 
+[P. syringae TTSS effectors (VF0911) - Effector delivery system 
+(VFC0086)] [Pseudomonas syringae pv. phaseolicola 1448A]
+Length=336
+
+ Score = 47.4 bits (111),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 28/65 (43%), Positives = 41/65 (63%), Gaps = 3/65 (5%)
+
+Query  6    YGLLGVSKNASD-ADIKRAYRKLARELHPDVNPDEAAQA--KFKEISVAYEVLSDPDKRR  62
+            Y  LG+S   +D + +K AY+K A + HPD N    A+A  +FK IS A+++LSDP+ R+
+Sbjct  261  YEHLGLSDMTADLSAVKTAYKKAALKNHPDKNAGNVAEATERFKVISNAFKILSDPELRK  320
+
+Query  63   IVDLG  67
+              D G
+Sbjct  321  KYDNG  325
+
+
+>VFG015290(gb|WP_005763320) (hopI1) DnaJ domain-containing protein 
+[P. syringae TTSS effectors (VF0911) - Effector delivery 
+system (VFC0086)] [Pseudomonas syringae pv. tomato str. DC3000]
+Length=488
+
+ Score = 47.8 bits (112),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 28/65 (43%), Positives = 41/65 (63%), Gaps = 3/65 (5%)
+
+Query  6    YGLLGVSKNASD-ADIKRAYRKLARELHPDVNPDEAAQA--KFKEISVAYEVLSDPDKRR  62
+            Y  LG++  + D + +K+AYR  A + HPD N    A+A  +FK IS AY++LSDP+ R+
+Sbjct  415  YEHLGLTDMSVDLSAVKKAYRDAAMKNHPDKNRGNEAEAAERFKVISNAYKILSDPELRK  474
+
+Query  63   IVDLG  67
+              D G
+Sbjct  475  AYDNG  479
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.140    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2924381320
+
+
+Query= g4851.t1
+
+Length=377
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015290(gb|WP_005763320) (hopI1) DnaJ domain-containing protein...  55.1    4e-08
+VFG015292(gb|WP_011169533) (hopI1) J domain-containing protein [P...  50.1    1e-06
+
+
+>VFG015290(gb|WP_005763320) (hopI1) DnaJ domain-containing protein 
+[P. syringae TTSS effectors (VF0911) - Effector delivery 
+system (VFC0086)] [Pseudomonas syringae pv. tomato str. DC3000]
+Length=488
+
+ Score = 55.1 bits (131),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 30/66 (45%), Positives = 43/66 (65%), Gaps = 2/66 (3%)
+
+Query  4    RDFYEVLGV-ERGASEADLKKAYRRLAMKYHPDRNPGDK-EAEDKFKEANEAYEVLSDAS  61
+            +  YE LG+ +     + +KKAYR  AMK HPD+N G++ EA ++FK  + AY++LSD  
+Sbjct  412  KPLYEHLGLTDMSVDLSAVKKAYRDAAMKNHPDKNRGNEAEAAERFKVISNAYKILSDPE  471
+
+Query  62   KRAAYD  67
+             R AYD
+Sbjct  472  LRKAYD  477
+
+
+>VFG015292(gb|WP_011169533) (hopI1) J domain-containing protein 
+[P. syringae TTSS effectors (VF0911) - Effector delivery system 
+(VFC0086)] [Pseudomonas syringae pv. phaseolicola 1448A]
+Length=336
+
+ Score = 50.1 bits (118),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 26/67 (39%), Positives = 42/67 (63%), Gaps = 2/67 (3%)
+
+Query  4    RDFYEVLGV-ERGASEADLKKAYRRLAMKYHPDRNPGD-KEAEDKFKEANEAYEVLSDAS  61
+            +  YE LG+ +  A  + +K AY++ A+K HPD+N G+  EA ++FK  + A+++LSD  
+Sbjct  258  KPLYEHLGLSDMTADLSAVKTAYKKAALKNHPDKNAGNVAEATERFKVISNAFKILSDPE  317
+
+Query  62   KRAAYDQ  68
+             R  YD 
+Sbjct  318  LRKKYDN  324
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.138    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2872160225
+
+
+Query= g12.t1
+
+Length=379
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015290(gb|WP_005763320) (hopI1) DnaJ domain-containing protein...  57.8    4e-09
+VFG015292(gb|WP_011169533) (hopI1) J domain-containing protein [P...  56.6    7e-09
+
+
+>VFG015290(gb|WP_005763320) (hopI1) DnaJ domain-containing protein 
+[P. syringae TTSS effectors (VF0911) - Effector delivery 
+system (VFC0086)] [Pseudomonas syringae pv. tomato str. DC3000]
+Length=488
+
+ Score = 57.8 bits (138),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 29/66 (44%), Positives = 45/66 (68%), Gaps = 2/66 (3%)
+
+Query  4    RDYYEILGVSK-TAEEREIKKAYKRLAMKYHPDRNQGDK-EAEAKFKEIKEAYEVLTDAQ  61
+            +  YE LG++  + +   +KKAY+  AMK HPD+N+G++ EA  +FK I  AY++L+D +
+Sbjct  412  KPLYEHLGLTDMSVDLSAVKKAYRDAAMKNHPDKNRGNEAEAAERFKVISNAYKILSDPE  471
+
+Query  62   KRAAYD  67
+             R AYD
+Sbjct  472  LRKAYD  477
+
+
+>VFG015292(gb|WP_011169533) (hopI1) J domain-containing protein 
+[P. syringae TTSS effectors (VF0911) - Effector delivery system 
+(VFC0086)] [Pseudomonas syringae pv. phaseolicola 1448A]
+Length=336
+
+ Score = 56.6 bits (135),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 29/67 (43%), Positives = 43/67 (64%), Gaps = 2/67 (3%)
+
+Query  4    RDYYEILGVSK-TAEEREIKKAYKRLAMKYHPDRNQGD-KEAEAKFKEIKEAYEVLTDAQ  61
+            +  YE LG+S  TA+   +K AYK+ A+K HPD+N G+  EA  +FK I  A+++L+D +
+Sbjct  258  KPLYEHLGLSDMTADLSAVKTAYKKAALKNHPDKNAGNVAEATERFKVISNAFKILSDPE  317
+
+Query  62   KRAAYDQ  68
+             R  YD 
+Sbjct  318  LRKKYDN  324
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2893048663
+
+
+Query= g1034.t1
+
+Length=306
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015292(gb|WP_011169533) (hopI1) J domain-containing protein [P...  48.9    1e-06
+VFG015290(gb|WP_005763320) (hopI1) DnaJ domain-containing protein...  47.4    6e-06
+
+
+>VFG015292(gb|WP_011169533) (hopI1) J domain-containing protein 
+[P. syringae TTSS effectors (VF0911) - Effector delivery system 
+(VFC0086)] [Pseudomonas syringae pv. phaseolicola 1448A]
+Length=336
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 28/68 (41%), Positives = 42/68 (62%), Gaps = 3/68 (4%)
+
+Query  3    LKDYYAIMGVKP-TDDLKTIKTAYRRLARKYHPDVSKEPDAEA--RFKEVAEAWEVLSDE  59
+            +K  Y  +G+   T DL  +KTAY++ A K HPD +    AEA  RFK ++ A+++LSD 
+Sbjct  257  VKPLYEHLGLSDMTADLSAVKTAYKKAALKNHPDKNAGNVAEATERFKVISNAFKILSDP  316
+
+Query  60   QRRAEYDQ  67
+            + R +YD 
+Sbjct  317  ELRKKYDN  324
+
+
+>VFG015290(gb|WP_005763320) (hopI1) DnaJ domain-containing protein 
+[P. syringae TTSS effectors (VF0911) - Effector delivery 
+system (VFC0086)] [Pseudomonas syringae pv. tomato str. DC3000]
+Length=488
+
+ Score = 47.4 bits (111),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 29/69 (42%), Positives = 42/69 (61%), Gaps = 7/69 (10%)
+
+Query  3    LKDYYAIMGVKPTD---DLKTIKTAYRRLARKYHPDVSKEPDAEA--RFKEVAEAWEVLS  57
+            +K  Y  +G+  TD   DL  +K AYR  A K HPD ++  +AEA  RFK ++ A+++LS
+Sbjct  411  VKPLYEHLGL--TDMSVDLSAVKKAYRDAAMKNHPDKNRGNEAEAAERFKVISNAYKILS  468
+
+Query  58   DEQRRAEYD  66
+            D + R  YD
+Sbjct  469  DPELRKAYD  477
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2163037698
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,113 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g477.t1
+
+Length=369
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2788606473
+
+
+Query= g3036.t1
+
+Length=339
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002184(gb|WP_002359685) (cpsG) MurB family protein [Capsule (V...  64.3    3e-11
+
+
+>VFG002184(gb|WP_002359685) (cpsG) MurB family protein [Capsule 
+(VF0361) - Immune modulation (VFC0258)] [Enterococcus faecalis 
+V583]
+Length=817
+
+ Score = 64.3 bits (155),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 51/179 (28%), Positives = 88/179 (49%), Gaps = 10/179 (6%)
+
+Query  11   LKPYNTFGIDVRARLLAHARDEADVREALALARERGLPLLVIGGGSNLLLTRD--VEALV  68
+            LK Y +  +   A LL   +   +V   +  A+   +PL VIG GSN+L+ RD  +  + 
+Sbjct  533  LKEYASNFVGGPADLLIFPKTIEEVALIVKYAKNNQIPLTVIGKGSNILV-RDGGIRGIT  591
+
+Query  69   LRMASQGRRIVSDAADSVLVEAEAGEAWDPFVQWSLERGLAGLENLSLIPGTVGAAPMQN  128
+            L M +   R ++    +V     AG +      + LE    GLE    IPGT+G A   N
+Sbjct  592  LNMTALNYRKITGNVLTV----SAGASLIETSYYLLEHLKCGLEWADNIPGTIGGAVYMN  647
+
+Query  129  IGAYGVELKDVFDSLTALDRQDGTLREFDRQACRFGYRDSLFKQEPDRWLILRVRLRLT  187
+             G    ++  +F   T +D ++G ++  +++  +F +R S F   P+ W+IL  +L+++
+Sbjct  648  AGTVK-DINSMFLEATIVD-ENGEIKVLNKEDVQFSHRYSSFMDHPE-WIILETKLQIS  703
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2492383838
+
+
+Query= g3860.t1
+
+Length=342
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2523800441
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

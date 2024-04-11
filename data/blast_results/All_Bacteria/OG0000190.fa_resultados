@@ -1,0 +1,1514 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g828.t1
+
+Length=294
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional act...  55.5    8e-09
+VFG037476(gb|WP_001105546) (ABD1_RS04515) LysR family transcripti...  53.9    3e-08
+VFG037468(gb|WP_001105542) (AB57_RS05095) LysR family transcripti...  53.9    3e-08
+VFG037470(gb|WP_001105554) (ACICU_RS04565) LysR family transcript...  53.9    3e-08
+VFG037474(gb|WP_001105562) (BJAB0715_RS05225) LysR family transcr...  53.5    4e-08
+VFG037478(gb|WP_001105560) (ABZJ_RS11145) LysR family transcripti...  52.8    7e-08
+VFG037471(gb|YP_001083951) (A1S_0917) transcriptional regulator [...  52.4    8e-08
+VFG037467(gb|WP_001105559) (ABK1_RS04735) LysR family transcripti...  52.4    1e-07
+VFG006042(gb|WP_001222601) (SAK_RS06335) LysR family transcriptio...  52.0    1e-07
+VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR [Py...  48.9    1e-06
+
+
+>VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional 
+activator AllS [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=307
+
+ Score = 55.5 bits (132),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 29/73 (40%), Positives = 42/73 (58%), Gaps = 0/73 (0%)
+
+Query  5   LRTLVAVARRGSFAAAGEQVGLTQSAVSAQIRALERSVGVELFKRTPRAAHLNKAGRQAV  64
+           LRT V+VA  GSF+ A E++  T + +S +I+ LE + GV LF RT R+  L  AG   +
+Sbjct  7   LRTFVSVAETGSFSRAAEKLYKTTATISYRIKLLEDNTGVALFSRTTRSVLLTPAGMHLL  66
+
+Query  65  RTAEQILALFDGI  77
+             A + L   D +
+Sbjct  67  AQAREWLGWIDSM  79
+
+
+>VFG037476(gb|WP_001105546) (ABD1_RS04515) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii D1279779]
+Length=296
+
+ Score = 53.9 bits (128),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 41/137 (30%), Positives = 60/137 (44%), Gaps = 7/137 (5%)
+
+Query  15   GSFAAAGEQVGLTQSAVSAQIRALERSVGVELFKRTPRAAHLNKAGRQAVRTAEQILALF  74
+            GS +         Q  +S Q+  LE   G  LF RT R   L   G+  +      L + 
+Sbjct  16   GSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDLGQHLLPKIRSWLNVT  75
+
+Query  75   DGIGQ-----GDSPRGRLRIGAVNTAQTGLLPEVLKRLAEQAPHIEPQVVPGVSLHLLDQ  129
+            D +        D+P G +RI ++ +    LL  + K L E+ P I+  V  G  +HL   
+Sbjct  76   DQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLIKLSVREGQGVHLEKW  135
+
+Query  130  VDAAELDLAILIRPPFN  146
+            ++   +DLAIL R  FN
+Sbjct  136  LEDGSVDLAILYR--FN  150
+
+
+>VFG037468(gb|WP_001105542) (AB57_RS05095) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii AB0057]
+Length=296
+
+ Score = 53.9 bits (128),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 41/137 (30%), Positives = 60/137 (44%), Gaps = 7/137 (5%)
+
+Query  15   GSFAAAGEQVGLTQSAVSAQIRALERSVGVELFKRTPRAAHLNKAGRQAVRTAEQILALF  74
+            GS +         Q  +S Q+  LE   G  LF RT R   L   G+  +      L + 
+Sbjct  16   GSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDLGQHLLPKIRSWLNVT  75
+
+Query  75   DGIGQ-----GDSPRGRLRIGAVNTAQTGLLPEVLKRLAEQAPHIEPQVVPGVSLHLLDQ  129
+            D +        D+P G +RI ++ +    LL  + K L E+ P I+  V  G  +HL   
+Sbjct  76   DQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLIKLSVREGQGVHLEKW  135
+
+Query  130  VDAAELDLAILIRPPFN  146
+            ++   +DLAIL R  FN
+Sbjct  136  LEDGSVDLAILYR--FN  150
+
+
+>VFG037470(gb|WP_001105554) (ACICU_RS04565) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii ACICU]
+Length=296
+
+ Score = 53.9 bits (128),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 41/137 (30%), Positives = 60/137 (44%), Gaps = 7/137 (5%)
+
+Query  15   GSFAAAGEQVGLTQSAVSAQIRALERSVGVELFKRTPRAAHLNKAGRQAVRTAEQILALF  74
+            GS +         Q  +S Q+  LE   G  LF RT R   L   G+  +      L + 
+Sbjct  16   GSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDLGQHLLPKIRSWLNVT  75
+
+Query  75   DGIGQ-----GDSPRGRLRIGAVNTAQTGLLPEVLKRLAEQAPHIEPQVVPGVSLHLLDQ  129
+            D +        D+P G +RI ++ +    LL  + K L E+ P I+  V  G  +HL   
+Sbjct  76   DQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLIKLSVREGQGVHLEKW  135
+
+Query  130  VDAAELDLAILIRPPFN  146
+            ++   +DLAIL R  FN
+Sbjct  136  LEDGSVDLAILYR--FN  150
+
+
+>VFG037474(gb|WP_001105562) (BJAB0715_RS05225) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii BJAB0715]
+Length=296
+
+ Score = 53.5 bits (127),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 41/137 (30%), Positives = 60/137 (44%), Gaps = 7/137 (5%)
+
+Query  15   GSFAAAGEQVGLTQSAVSAQIRALERSVGVELFKRTPRAAHLNKAGRQAVRTAEQILALF  74
+            GS +         Q  +S Q+  LE   G  LF RT R   L   G+  +      L + 
+Sbjct  16   GSLSKVAMLHNTNQPQISRQMSELEAQCGGRLFNRTGRGVELTDLGQHLLPKIRSWLNVT  75
+
+Query  75   DGIGQ-----GDSPRGRLRIGAVNTAQTGLLPEVLKRLAEQAPHIEPQVVPGVSLHLLDQ  129
+            D +        D+P G +RI ++ +    LL  + K L E+ P I+  V  G  +HL   
+Sbjct  76   DQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLIKLSVREGQGVHLEKW  135
+
+Query  130  VDAAELDLAILIRPPFN  146
+            ++   +DLAIL R  FN
+Sbjct  136  LEDGSVDLAILYR--FN  150
+
+
+>VFG037478(gb|WP_001105560) (ABZJ_RS11145) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii MDR-ZJ06]
+Length=296
+
+ Score = 52.8 bits (125),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 40/137 (29%), Positives = 60/137 (44%), Gaps = 7/137 (5%)
+
+Query  15   GSFAAAGEQVGLTQSAVSAQIRALERSVGVELFKRTPRAAHLNKAGRQAVRTAEQILALF  74
+            GS +         Q  +S Q+  LE   G  LF RT R   L   G+  +      L + 
+Sbjct  16   GSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDLGQHLLPKTRSWLNVT  75
+
+Query  75   DGIGQ-----GDSPRGRLRIGAVNTAQTGLLPEVLKRLAEQAPHIEPQVVPGVSLHLLDQ  129
+            D +        D+P G +RI ++ +    LL  + K L ++ P I+  V  G  +HL   
+Sbjct  76   DQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQQKYPLIKLSVREGQGVHLEKW  135
+
+Query  130  VDAAELDLAILIRPPFN  146
+            ++   +DLAIL R  FN
+Sbjct  136  LEDGSVDLAILYR--FN  150
+
+
+>VFG037471(gb|YP_001083951) (A1S_0917) transcriptional regulator 
+[HemO cluster (VF0636) - Nutritional/Metabolic factor (VFC0272)] 
+[Acinetobacter baumannii ATCC 17978]
+Length=274
+
+ Score = 52.4 bits (124),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 39/125 (31%), Positives = 57/125 (46%), Gaps = 7/125 (6%)
+
+Query  27   TQSAVSAQIRALERSVGVELFKRTPRAAHLNKAGRQAVRTAEQILALFDGIGQ-----GD  81
+             Q  +S Q+  LE   G  LF RT R   L   G+  +      L + D +        D
+Sbjct  6    NQPQISRQMNELEAQCGGRLFNRTGRGVELTDLGQHLLPKIRSWLNVTDQLNNEILHSTD  65
+
+Query  82   SPRGRLRIGAVNTAQTGLLPEVLKRLAEQAPHIEPQVVPGVSLHLLDQVDAAELDLAILI  141
+            +P G +RI ++ +    LL  + K L E+ P I+  V  G  +HL   ++   +DLAIL 
+Sbjct  66   TPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLIKLSVREGQGVHLEKWLEDGSVDLAILY  125
+
+Query  142  RPPFN  146
+            R  FN
+Sbjct  126  R--FN  128
+
+
+>VFG037467(gb|WP_001105559) (ABK1_RS04735) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii 1656-2]
+Length=296
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 40/137 (29%), Positives = 60/137 (44%), Gaps = 7/137 (5%)
+
+Query  15   GSFAAAGEQVGLTQSAVSAQIRALERSVGVELFKRTPRAAHLNKAGRQAVRTAEQILALF  74
+            GS +         Q  +S Q+  LE   G  LF RT R   L   G+  +      L + 
+Sbjct  16   GSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDLGQHLLPKIRSWLNVT  75
+
+Query  75   DGIGQ-----GDSPRGRLRIGAVNTAQTGLLPEVLKRLAEQAPHIEPQVVPGVSLHLLDQ  129
+            D +        D+P G +RI ++ +    LL  + K L ++ P I+  V  G  +HL   
+Sbjct  76   DQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQQKYPLIKLSVREGQGVHLEKW  135
+
+Query  130  VDAAELDLAILIRPPFN  146
+            ++   +DLAIL R  FN
+Sbjct  136  LEDGSVDLAILYR--FN  150
+
+
+>VFG006042(gb|WP_001222601) (SAK_RS06335) LysR family transcriptional 
+regulator [Capsule (VF0274) - Immune modulation (VFC0258)] 
+[Streptococcus agalactiae A909]
+Length=307
+
+ Score = 52.0 bits (123),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 27/84 (32%), Positives = 49/84 (58%), Gaps = 3/84 (4%)
+
+Query  2   IRELRTLVAVARRGSFAAAGEQVGLTQSAVSAQIRALERSVGVELFKRTPRAAHLNKAGR  61
+           I++L+ ++ +   GS   A +Q+ +TQ ++S  +R LE  +G+++F R P+   L K G 
+Sbjct  3   IQQLQYVIKIVETGSMNEAAKQLYITQPSLSNAVRNLETEMGIQIFIRNPKGITLTKDGM  62
+
+Query  62  QAVRTAEQIL---ALFDGIGQGDS  82
+           + +  A QIL   AL +   +GD+
+Sbjct  63  EFLSYARQILEQTALLEERYKGDN  86
+
+
+>VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR 
+[Pyoverdine (VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=312
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 74/261 (28%), Positives = 115/261 (44%), Gaps = 20/261 (8%)
+
+Query  2    IRELRTLVAVARRGSFAAAGEQVGLTQSAVSAQIRALERSVGVELFKRTPRAAHLNKAGR  61
+            +  L   VAVA   SF AA E +GL++S +S Q+R LE  +G++L  RT R   L   G 
+Sbjct  13   LNHLYAFVAVAEHNSFTAAAEALGLSKSLLSEQLRRLEADLGIQLLTRTTRRMTLTDRGE  72
+
+Query  62   QAVRTAEQILALFDGI------GQGDSPRGRLRIGAVNTAQTGLLPEVLKRLAEQAPHIE  115
+                 A+++L   DG        QG+ P GRLRI A        +  V      Q P ++
+Sbjct  73   LLFGVAQRMLGELDGALSDVRDLQGE-PSGRLRITAPQDFVKWHISSVSAAFIRQFPKVQ  131
+
+Query  116  PQVVPGVSLHLLDQVDAAELDLAILIRPPFNLPRGLSAQRVERQPFVLIAPPQCTATDAL  175
+             +++          +    +DLA+ I  P +   GL A ++     V +A P   A    
+Sbjct  132  VEMLADDQ---FSDLVGQRIDLAVRIGWPRD--SGLHASKLCDFQQVAVATPGYLAGLP-  185
+
+Query  176  ELLRTQPFIRYD---HVSFGGRLVGDF---LEAQQLRPRQVMELDEIDAIARMVENGLGV  229
+             +L+     R +   H          F    E   ++ R  +  +   A+ R+V +G GV
+Sbjct  186  PVLQPHDLARCEWIGHTRLSTPWTWTFERQRERATVQTRGRLLANNTLAVYRLVLDGAGV  245
+
+Query  230  ALLPRAGLWLREPARVRVIEL  250
+            ++LP + L  RE AR R++ L
+Sbjct  246  SVLP-SFLVAREIARGRLVRL  265
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2052992175
+
+
+Query= g1158.t1
+
+Length=300
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional act...  62.4    5e-11
+VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR [Py...  57.8    2e-09
+VFG037474(gb|WP_001105562) (BJAB0715_RS05225) LysR family transcr...  57.4    2e-09
+VFG037478(gb|WP_001105560) (ABZJ_RS11145) LysR family transcripti...  56.2    4e-09
+VFG037467(gb|WP_001105559) (ABK1_RS04735) LysR family transcripti...  56.2    5e-09
+VFG037470(gb|WP_001105554) (ACICU_RS04565) LysR family transcript...  56.2    5e-09
+VFG037468(gb|WP_001105542) (AB57_RS05095) LysR family transcripti...  55.8    7e-09
+VFG037476(gb|WP_001105546) (ABD1_RS04515) LysR family transcripti...  55.8    7e-09
+VFG037471(gb|YP_001083951) (A1S_0917) transcriptional regulator [...  50.8    3e-07
+
+
+>VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional 
+activator AllS [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=307
+
+ Score = 62.4 bits (150),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 43/127 (34%), Positives = 63/127 (50%), Gaps = 3/127 (2%)
+
+Query  11   LFDLDLLRAIVTVADCGSFTTAAARLHSTQSTVSQKVRRLEEMAGHRLLERGNRDVLPTD  70
+            + D + LR  V+VA+ GSF+ AA +L+ T +T+S +++ LE+  G  L  R  R VL T 
+Sbjct  1    MLDPETLRTFVSVAETGSFSRAAEKLYKTTATISYRIKLLEDNTGVALFSRTTRSVLLTP  60
+
+Query  71   AGDTLLGYARRLLALNDELAEALSGAT--VALTVRIGVPDDFAAGRTTERLAAF-NRRYP  127
+            AG  LL  AR  L   D +   L      V   V I V +     +   RL A+  +RYP
+Sbjct  61   AGMHLLAQAREWLGWIDSMPGELQQINDGVERQVNIVVNNLMYDPQAIARLLAWLTQRYP  120
+
+Query  128  QVKLEVT  134
+              +   +
+Sbjct  121  FTQFHFS  127
+
+
+>VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR 
+[Pyoverdine (VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=312
+
+ Score = 57.8 bits (138),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 48/127 (38%), Positives = 71/127 (56%), Gaps = 8/127 (6%)
+
+Query  12   FDLDLLRAIVTVADCGSFTTAAARLHSTQSTVSQKVRRLEEMAGHRLLERGNRDVLPTDA  71
+             +L+ L A V VA+  SFT AA  L  ++S +S+++RRLE   G +LL R  R +  TD 
+Sbjct  11   LNLNHLYAFVAVAEHNSFTAAAEALGLSKSLLSEQLRRLEADLGIQLLTRTTRRMTLTDR  70
+
+Query  72   GDTLLGYARRLLALNDELAEALS-----GATVALTVRIGVPDDFAAGRTTERLAAFNRRY  126
+            G+ L G A+R+L    EL  ALS         +  +RI  P DF     +   AAF R++
+Sbjct  71   GELLFGVAQRMLG---ELDGALSDVRDLQGEPSGRLRITAPQDFVKWHISSVSAAFIRQF  127
+
+Query  127  PQVKLEV  133
+            P+V++E+
+Sbjct  128  PKVQVEM  134
+
+
+>VFG037474(gb|WP_001105562) (BJAB0715_RS05225) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii BJAB0715]
+Length=296
+
+ Score = 57.4 bits (137),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 58/227 (26%), Positives = 90/227 (40%), Gaps = 16/227 (7%)
+
+Query  12   FDLDLLRAIVTVADCGSFTTAAARLHSTQSTVSQKVRRLEEMAGHRLLERGNRDVLPTDA  71
+             + +L +  +   + GS +  A   ++ Q  +S+++  LE   G RL  R  R V  TD 
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMSELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  72   GDTLLGYARRLLALNDELAEAL--SGATVALTVRIGVPDDFAAGRTTERLAAFNRRYPQV  129
+            G  LL   R  L + D+L   +  S  T   TVRI      A    +        +YP +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLI  120
+
+Query  130  KLEVTSGMSRDLSASYDRGELDLVLL-------KQ-----RRASREALACWPEKTCWVDS  177
+            KL V  G    L    + G +DL +L       KQ       A    + C  E      +
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAILYRFNPTPKQGDVYLTEADTYLVGC--EGDVLTQA  178
+
+Query  178  ARNPCIDLDPLPIVTFPPRGVYRDEMIAALEAVGRRWHISFTSSSLS  224
+            +     D+  LP+VTF     +R+ +       G   +I F + S+S
+Sbjct  179  SEVDFKDVSQLPLVTFCRPSNWRNFLDHMAYENGVELNIVFEADSIS  225
+
+
+>VFG037478(gb|WP_001105560) (ABZJ_RS11145) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii MDR-ZJ06]
+Length=296
+
+ Score = 56.2 bits (134),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 41/146 (28%), Positives = 63/146 (43%), Gaps = 2/146 (1%)
+
+Query  12   FDLDLLRAIVTVADCGSFTTAAARLHSTQSTVSQKVRRLEEMAGHRLLERGNRDVLPTDA  71
+             + +L +  +   + GS +  A   ++ Q  +S+++  LE   G RL  R  R V  TD 
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  72   GDTLLGYARRLLALNDELAEAL--SGATVALTVRIGVPDDFAAGRTTERLAAFNRRYPQV  129
+            G  LL   R  L + D+L   +  S  T   TVRI      A    +       ++YP +
+Sbjct  61   GQHLLPKTRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQQKYPLI  120
+
+Query  130  KLEVTSGMSRDLSASYDRGELDLVLL  155
+            KL V  G    L    + G +DL +L
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAIL  146
+
+
+>VFG037467(gb|WP_001105559) (ABK1_RS04735) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii 1656-2]
+Length=296
+
+ Score = 56.2 bits (134),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 41/146 (28%), Positives = 63/146 (43%), Gaps = 2/146 (1%)
+
+Query  12   FDLDLLRAIVTVADCGSFTTAAARLHSTQSTVSQKVRRLEEMAGHRLLERGNRDVLPTDA  71
+             + +L +  +   + GS +  A   ++ Q  +S+++  LE   G RL  R  R V  TD 
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  72   GDTLLGYARRLLALNDELAEAL--SGATVALTVRIGVPDDFAAGRTTERLAAFNRRYPQV  129
+            G  LL   R  L + D+L   +  S  T   TVRI      A    +       ++YP +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQQKYPLI  120
+
+Query  130  KLEVTSGMSRDLSASYDRGELDLVLL  155
+            KL V  G    L    + G +DL +L
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAIL  146
+
+
+>VFG037470(gb|WP_001105554) (ACICU_RS04565) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii ACICU]
+Length=296
+
+ Score = 56.2 bits (134),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 57/227 (25%), Positives = 90/227 (40%), Gaps = 16/227 (7%)
+
+Query  12   FDLDLLRAIVTVADCGSFTTAAARLHSTQSTVSQKVRRLEEMAGHRLLERGNRDVLPTDA  71
+             + +L +  +   + GS +  A   ++ Q  +S+++  LE   G RL  R  R V  TD 
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  72   GDTLLGYARRLLALNDELAEAL--SGATVALTVRIGVPDDFAAGRTTERLAAFNRRYPQV  129
+            G  LL   R  L + D+L   +  S  T   TVRI      A    +        +YP +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLI  120
+
+Query  130  KLEVTSGMSRDLSASYDRGELDLVLL-------KQ-----RRASREALACWPEKTCWVDS  177
+            KL V  G    L    + G +DL +L       KQ      +A    + C  E      +
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAILYRFNPTPKQGDVYLTQADTYLVGC--EGDALTQA  178
+
+Query  178  ARNPCIDLDPLPIVTFPPRGVYRDEMIAALEAVGRRWHISFTSSSLS  224
+                   ++ LP+VTF     +R+ +       G   +I F + S+S
+Sbjct  179  NEVDFKSINQLPLVTFCRPSNWRNFLDHMAYENGVELNIVFEADSIS  225
+
+
+>VFG037468(gb|WP_001105542) (AB57_RS05095) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii AB0057]
+Length=296
+
+ Score = 55.8 bits (133),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 57/227 (25%), Positives = 90/227 (40%), Gaps = 16/227 (7%)
+
+Query  12   FDLDLLRAIVTVADCGSFTTAAARLHSTQSTVSQKVRRLEEMAGHRLLERGNRDVLPTDA  71
+             + +L +  +   + GS +  A   ++ Q  +S+++  LE   G RL  R  R V  TD 
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  72   GDTLLGYARRLLALNDELAEAL--SGATVALTVRIGVPDDFAAGRTTERLAAFNRRYPQV  129
+            G  LL   R  L + D+L   +  S  T   TVRI      A    +        +YP +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLI  120
+
+Query  130  KLEVTSGMSRDLSASYDRGELDLVLL-------KQ-----RRASREALACWPEKTCWVDS  177
+            KL V  G    L    + G +DL +L       KQ      +A    + C  E      +
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAILYRFNPTPKQGDIYLTQADTYLVGC--EGDTLTQA  178
+
+Query  178  ARNPCIDLDPLPIVTFPPRGVYRDEMIAALEAVGRRWHISFTSSSLS  224
+                  ++  LP+VTF     +R+ +       G   +I F + S+S
+Sbjct  179  NEVEFKEVSQLPLVTFCRPSNWRNFLDHMAYENGVELNIVFEADSIS  225
+
+
+>VFG037476(gb|WP_001105546) (ABD1_RS04515) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii D1279779]
+Length=296
+
+ Score = 55.8 bits (133),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 41/146 (28%), Positives = 62/146 (42%), Gaps = 2/146 (1%)
+
+Query  12   FDLDLLRAIVTVADCGSFTTAAARLHSTQSTVSQKVRRLEEMAGHRLLERGNRDVLPTDA  71
+             + +L +  +   + GS +  A   ++ Q  +S+++  LE   G RL  R  R V  TD 
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  72   GDTLLGYARRLLALNDELAEAL--SGATVALTVRIGVPDDFAAGRTTERLAAFNRRYPQV  129
+            G  LL   R  L + D+L   +  S  T   TVRI      A    +        +YP +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLI  120
+
+Query  130  KLEVTSGMSRDLSASYDRGELDLVLL  155
+            KL V  G    L    + G +DL +L
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAIL  146
+
+
+>VFG037471(gb|YP_001083951) (A1S_0917) transcriptional regulator 
+[HemO cluster (VF0636) - Nutritional/Metabolic factor (VFC0272)] 
+[Acinetobacter baumannii ATCC 17978]
+Length=274
+
+ Score = 50.8 bits (120),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 56/204 (27%), Positives = 83/204 (41%), Gaps = 17/204 (8%)
+
+Query  36   LHST-QSTVSQKVRRLEEMAGHRLLERGNRDVLPTDAGDTLLGYARRLLALNDELAEAL-  93
+            LH+T Q  +S+++  LE   G RL  R  R V  TD G  LL   R  L + D+L   + 
+Sbjct  2    LHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDLGQHLLPKIRSWLNVTDQLNNEIL  61
+
+Query  94   -SGATVALTVRIGVPDDFAAGRTTERLAAFNRRYPQVKLEVTSGMSRDLSASYDRGELDL  152
+             S  T   TVRI      A    +        +YP +KL V  G    L    + G +DL
+Sbjct  62   HSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLIKLSVREGQGVHLEKWLEDGSVDL  121
+
+Query  153  VLL-------KQ-----RRASREALACWPEKTCWVDSARNPCIDLDPLPIVTFPPRGVYR  200
+             +L       KQ      +A    + C  E      ++      ++ LP+VTF     +R
+Sbjct  122  AILYRFNPTPKQGDIYLTQADTYLVGC--EGDALTQASEVDFKAINQLPLVTFCRPSNWR  179
+
+Query  201  DEMIAALEAVGRRWHISFTSSSLS  224
+            + +       G   +I F + S+S
+Sbjct  180  NFLDHMAYENGVELNIVFEADSIS  203
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.134    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2100036600
+
+
+Query= g1280.t1
+
+Length=288
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG037478(gb|WP_001105560) (ABZJ_RS11145) LysR family transcripti...  49.7    6e-07
+VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional act...  49.7    7e-07
+VFG037467(gb|WP_001105559) (ABK1_RS04735) LysR family transcripti...  47.8    3e-06
+VFG037476(gb|WP_001105546) (ABD1_RS04515) LysR family transcripti...  47.8    3e-06
+VFG037470(gb|WP_001105554) (ACICU_RS04565) LysR family transcript...  47.8    3e-06
+VFG037468(gb|WP_001105542) (AB57_RS05095) LysR family transcripti...  47.8    3e-06
+VFG037474(gb|WP_001105562) (BJAB0715_RS05225) LysR family transcr...  47.4    4e-06
+
+
+>VFG037478(gb|WP_001105560) (ABZJ_RS11145) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii MDR-ZJ06]
+Length=296
+
+ Score = 49.7 bits (117),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 46/157 (29%), Positives = 66/157 (42%), Gaps = 3/157 (2%)
+
+Query  5    LDIELLRTFHAILRFGRFLAAASHLNRSPSAVSTHVRRLEELAGGRLFERDNQSVRLTPL  64
+            ++ EL + F   +  G     A   N +   +S  +  LE   GGRLF R  + V LT L
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  65   GQRFQRQTAELLETHDRVLAG-LRRREEPL-RVRFGISEEYAGKLLGRLLPRLGAELPAL  122
+            GQ    +T   L   D++    L   + P+  VR       A  LL  L   L  + P +
+Sbjct  61   GQHLLPKTRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQQKYPLI  120
+
+Query  123  ELEVLTDASGRLAGRLRRGQLDLALLVQAQDETPYDG  159
+            +L V       L   L  G +DLA+L +  + TP  G
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAILYRF-NPTPKQG  156
+
+
+>VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional 
+activator AllS [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=307
+
+ Score = 49.7 bits (117),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 37/119 (31%), Positives = 55/119 (46%), Gaps = 3/119 (3%)
+
+Query  5    LDIELLRTFHAILRFGRFLAAASHLNRSPSAVSTHVRRLEELAGGRLFERDNQSVRLTPL  64
+            LD E LRTF ++   G F  AA  L ++ + +S  ++ LE+  G  LF R  +SV LTP 
+Sbjct  2    LDPETLRTFVSVAETGSFSRAAEKLYKTTATISYRIKLLEDNTGVALFSRTTRSVLLTPA  61
+
+Query  65   GQRFQRQTAELLETHDRVLAGLRRREEPLRVRFGISEE---YAGKLLGRLLPRLGAELP  120
+            G     Q  E L   D +   L++  + +  +  I      Y  + + RLL  L    P
+Sbjct  62   GMHLLAQAREWLGWIDSMPGELQQINDGVERQVNIVVNNLMYDPQAIARLLAWLTQRYP  120
+
+
+>VFG037467(gb|WP_001105559) (ABK1_RS04735) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii 1656-2]
+Length=296
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 45/157 (29%), Positives = 65/157 (41%), Gaps = 3/157 (2%)
+
+Query  5    LDIELLRTFHAILRFGRFLAAASHLNRSPSAVSTHVRRLEELAGGRLFERDNQSVRLTPL  64
+            ++ EL + F   +  G     A   N +   +S  +  LE   GGRLF R  + V LT L
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  65   GQRFQRQTAELLETHDRVLAG-LRRREEPL-RVRFGISEEYAGKLLGRLLPRLGAELPAL  122
+            GQ    +    L   D++    L   + P+  VR       A  LL  L   L  + P +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQQKYPLI  120
+
+Query  123  ELEVLTDASGRLAGRLRRGQLDLALLVQAQDETPYDG  159
+            +L V       L   L  G +DLA+L +  + TP  G
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAILYRF-NPTPKQG  156
+
+
+>VFG037476(gb|WP_001105546) (ABD1_RS04515) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii D1279779]
+Length=296
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 45/157 (29%), Positives = 65/157 (41%), Gaps = 3/157 (2%)
+
+Query  5    LDIELLRTFHAILRFGRFLAAASHLNRSPSAVSTHVRRLEELAGGRLFERDNQSVRLTPL  64
+            ++ EL + F   +  G     A   N +   +S  +  LE   GGRLF R  + V LT L
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  65   GQRFQRQTAELLETHDRVLAG-LRRREEPL-RVRFGISEEYAGKLLGRLLPRLGAELPAL  122
+            GQ    +    L   D++    L   + P+  VR       A  LL  L   L  + P +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLI  120
+
+Query  123  ELEVLTDASGRLAGRLRRGQLDLALLVQAQDETPYDG  159
+            +L V       L   L  G +DLA+L +  + TP  G
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAILYRF-NPTPKQG  156
+
+
+>VFG037470(gb|WP_001105554) (ACICU_RS04565) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii ACICU]
+Length=296
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 45/157 (29%), Positives = 65/157 (41%), Gaps = 3/157 (2%)
+
+Query  5    LDIELLRTFHAILRFGRFLAAASHLNRSPSAVSTHVRRLEELAGGRLFERDNQSVRLTPL  64
+            ++ EL + F   +  G     A   N +   +S  +  LE   GGRLF R  + V LT L
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  65   GQRFQRQTAELLETHDRVLAG-LRRREEPL-RVRFGISEEYAGKLLGRLLPRLGAELPAL  122
+            GQ    +    L   D++    L   + P+  VR       A  LL  L   L  + P +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLI  120
+
+Query  123  ELEVLTDASGRLAGRLRRGQLDLALLVQAQDETPYDG  159
+            +L V       L   L  G +DLA+L +  + TP  G
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAILYRF-NPTPKQG  156
+
+
+>VFG037468(gb|WP_001105542) (AB57_RS05095) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii AB0057]
+Length=296
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 45/157 (29%), Positives = 65/157 (41%), Gaps = 3/157 (2%)
+
+Query  5    LDIELLRTFHAILRFGRFLAAASHLNRSPSAVSTHVRRLEELAGGRLFERDNQSVRLTPL  64
+            ++ EL + F   +  G     A   N +   +S  +  LE   GGRLF R  + V LT L
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  65   GQRFQRQTAELLETHDRVLAG-LRRREEPL-RVRFGISEEYAGKLLGRLLPRLGAELPAL  122
+            GQ    +    L   D++    L   + P+  VR       A  LL  L   L  + P +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLI  120
+
+Query  123  ELEVLTDASGRLAGRLRRGQLDLALLVQAQDETPYDG  159
+            +L V       L   L  G +DLA+L +  + TP  G
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAILYRF-NPTPKQG  156
+
+
+>VFG037474(gb|WP_001105562) (BJAB0715_RS05225) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii BJAB0715]
+Length=296
+
+ Score = 47.4 bits (111),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 45/157 (29%), Positives = 65/157 (41%), Gaps = 3/157 (2%)
+
+Query  5    LDIELLRTFHAILRFGRFLAAASHLNRSPSAVSTHVRRLEELAGGRLFERDNQSVRLTPL  64
+            ++ EL + F   +  G     A   N +   +S  +  LE   GGRLF R  + V LT L
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMSELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  65   GQRFQRQTAELLETHDRVLAG-LRRREEPL-RVRFGISEEYAGKLLGRLLPRLGAELPAL  122
+            GQ    +    L   D++    L   + P+  VR       A  LL  L   L  + P +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLI  120
+
+Query  123  ELEVLTDASGRLAGRLRRGQLDLALLVQAQDETPYDG  159
+            +L V       L   L  G +DLA+L +  + TP  G
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAILYRF-NPTPKQG  156
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.140    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1989823185
+
+
+Query= g2150.t1
+
+Length=317
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional act...  70.5    1e-13
+VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR [Py...  66.6    2e-12
+VFG006042(gb|WP_001222601) (SAK_RS06335) LysR family transcriptio...  53.5    4e-08
+VFG037474(gb|WP_001105562) (BJAB0715_RS05225) LysR family transcr...  53.1    5e-08
+VFG037470(gb|WP_001105554) (ACICU_RS04565) LysR family transcript...  52.8    9e-08
+VFG037468(gb|WP_001105542) (AB57_RS05095) LysR family transcripti...  52.4    1e-07
+VFG037476(gb|WP_001105546) (ABD1_RS04515) LysR family transcripti...  52.4    1e-07
+VFG037478(gb|WP_001105560) (ABZJ_RS11145) LysR family transcripti...  51.6    2e-07
+VFG037467(gb|WP_001105559) (ABK1_RS04735) LysR family transcripti...  51.2    3e-07
+VFG037471(gb|YP_001083951) (A1S_0917) transcriptional regulator [...  48.5    2e-06
+
+
+>VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional 
+activator AllS [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=307
+
+ Score = 70.5 bits (171),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 82/297 (28%), Positives = 121/297 (41%), Gaps = 32/297 (11%)
+
+Query  6    LETFVWVARLKSFRLTAEKLFSTQASISSRIAVLEDELGVKLFVRDSRGVTLTPEGDKVL  65
+            L TFV VA   SF   AEKL+ T A+IS RI +LED  GV LF R +R V LTP G  +L
+Sbjct  7    LRTFVSVAETGSFSRAAEKLYKTTATISYRIKLLEDNTGVALFSRTTRSVLLTPAGMHLL  66
+
+Query  66   AYAERMM---DTMHALKQSLDTGASTQGRIRIGAMDTVIHTWLSPLVARVTETFPAVEIE  122
+            A A   +   D+M    Q ++ G   Q  I +  +       ++ L+A +T+ +P  +  
+Sbjct  67   AQAREWLGWIDSMPGELQQINDGVERQVNIVVNNLMYDPQA-IARLLAWLTQRYPFTQF-  124
+
+Query  123  LMADTARNLSEQLQKGYLDLIFQTDSLRHESVLNLE-----LGSYPL---RWIVSTGSIY  174
+                   + S Q+  G  D +   D      V   E     +  YPL    W+      +
+Sbjct  125  -------HFSRQIYMGVWDTLLHDDFSLAIGVTGTEPLAENMAVYPLGEVTWLFVMSPHH  177
+
+Query  175  ----HRDYASLADLARERVVTFSKHSR--PHQDVLGLLHANGVAAPRLNCVNSVAAMTRL  228
+                  D  S A L R   V     +R    +    L     +  P +     VAA    
+Sbjct  178  PLSQQTDPLSEAQLRRYPAVNIEDSARRLTKRVAWRLPGQKEIVVPDIET--KVAAHLA-  234
+
+Query  229  LRDGFGVGALPPALVSQELERGELTLLRLGPPPPNLPVVVSWRGGTGLELVDEVVEL  285
+               G G+G LP  L    + +G+L    +    P  P+ ++WR     + V ++  L
+Sbjct  235  ---GVGIGFLPEPLCLPLIAQGKLIARHIPTMRPPSPLSLAWRKDHHGKAVQDIASL  288
+
+
+>VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR 
+[Pyoverdine (VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=312
+
+ Score = 66.6 bits (161),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 75/263 (29%), Positives = 119/263 (45%), Gaps = 16/263 (6%)
+
+Query  1    MNLKFLETFVWVARLKSFRLTAEKLFSTQASISSRIAVLEDELGVKLFVRDSRGVTLTPE  60
+            +NL  L  FV VA   SF   AE L  +++ +S ++  LE +LG++L  R +R +TLT  
+Sbjct  11   LNLNHLYAFVAVAEHNSFTAAAEALGLSKSLLSEQLRRLEADLGIQLLTRTTRRMTLTDR  70
+
+Query  61   GDKVLAYAERMMDTMH-ALKQSLDTGASTQGRIRIGAMDTVIHTWLSPLVARVTETFPAV  119
+            G+ +   A+RM+  +  AL    D      GR+RI A    +   +S + A     FP V
+Sbjct  71   GELLFGVAQRMLGELDGALSDVRDLQGEPSGRLRITAPQDFVKWHISSVSAAFIRQFPKV  130
+
+Query  120  EIELMADTARNLSEQLQKGYLDLIFQTDSLRHESVLNLELGSYPLRWIVSTGSIYHRDYA  179
+            ++E++AD   +    L    +DL  +    R   +   +L  +    + + G +     A
+Sbjct  131  QVEMLAD---DQFSDLVGQRIDLAVRIGWPRDSGLHASKLCDFQQVAVATPGYL-----A  182
+
+Query  180  SLA------DLARERVVTFSKHSRPHQDVLGLLHANGVAAPRLNCV-NSVAAMTRLLRDG  232
+             L       DLAR   +  ++ S P                R   + N+  A+ RL+ DG
+Sbjct  183  GLPPVLQPHDLARCEWIGHTRLSTPWTWTFERQRERATVQTRGRLLANNTLAVYRLVLDG  242
+
+Query  233  FGVGALPPALVSQELERGELTLL  255
+             GV  LP  LV++E+ RG L  L
+Sbjct  243  AGVSVLPSFLVAREIARGRLVRL  265
+
+
+>VFG006042(gb|WP_001222601) (SAK_RS06335) LysR family transcriptional 
+regulator [Capsule (VF0274) - Immune modulation (VFC0258)] 
+[Streptococcus agalactiae A909]
+Length=307
+
+ Score = 53.5 bits (127),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 24/80 (30%), Positives = 52/80 (65%), Gaps = 0/80 (0%)
+
+Query  1   MNLKFLETFVWVARLKSFRLTAEKLFSTQASISSRIAVLEDELGVKLFVRDSRGVTLTPE  60
+           M ++ L+  + +    S    A++L+ TQ S+S+ +  LE E+G+++F+R+ +G+TLT +
+Sbjct  1   MRIQQLQYVIKIVETGSMNEAAKQLYITQPSLSNAVRNLETEMGIQIFIRNPKGITLTKD  60
+
+Query  61  GDKVLAYAERMMDTMHALKQ  80
+           G + L+YA ++++    L++
+Sbjct  61  GMEFLSYARQILEQTALLEE  80
+
+
+>VFG037474(gb|WP_001105562) (BJAB0715_RS05225) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii BJAB0715]
+Length=296
+
+ Score = 53.1 bits (126),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 38/143 (27%), Positives = 65/143 (45%), Gaps = 1/143 (1%)
+
+Query  1    MNLKFLETFVWVARLKSFRLTAEKLFSTQASISSRIAVLEDELGVKLFVRDSRGVTLTPE  60
+            MN +  + F+    L S    A    + Q  IS +++ LE + G +LF R  RGV LT  
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMSELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  61   GDKVLAYAERMMDTMHALKQSLDTGASTQ-GRIRIGAMDTVIHTWLSPLVARVTETFPAV  119
+            G  +L      ++    L   +     T  G +RI ++ +  H  LS L   + E +P +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLI  120
+
+Query  120  EIELMADTARNLSEQLQKGYLDL  142
+            ++ +      +L + L+ G +DL
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDL  143
+
+
+>VFG037470(gb|WP_001105554) (ACICU_RS04565) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii ACICU]
+Length=296
+
+ Score = 52.8 bits (125),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 38/143 (27%), Positives = 64/143 (45%), Gaps = 1/143 (1%)
+
+Query  1    MNLKFLETFVWVARLKSFRLTAEKLFSTQASISSRIAVLEDELGVKLFVRDSRGVTLTPE  60
+            MN +  + F+    L S    A    + Q  IS ++  LE + G +LF R  RGV LT  
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  61   GDKVLAYAERMMDTMHALKQSLDTGASTQ-GRIRIGAMDTVIHTWLSPLVARVTETFPAV  119
+            G  +L      ++    L   +     T  G +RI ++ +  H  LS L   + E +P +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLI  120
+
+Query  120  EIELMADTARNLSEQLQKGYLDL  142
+            ++ +      +L + L+ G +DL
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDL  143
+
+
+>VFG037468(gb|WP_001105542) (AB57_RS05095) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii AB0057]
+Length=296
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 38/143 (27%), Positives = 64/143 (45%), Gaps = 1/143 (1%)
+
+Query  1    MNLKFLETFVWVARLKSFRLTAEKLFSTQASISSRIAVLEDELGVKLFVRDSRGVTLTPE  60
+            MN +  + F+    L S    A    + Q  IS ++  LE + G +LF R  RGV LT  
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  61   GDKVLAYAERMMDTMHALKQSLDTGASTQ-GRIRIGAMDTVIHTWLSPLVARVTETFPAV  119
+            G  +L      ++    L   +     T  G +RI ++ +  H  LS L   + E +P +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLI  120
+
+Query  120  EIELMADTARNLSEQLQKGYLDL  142
+            ++ +      +L + L+ G +DL
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDL  143
+
+
+>VFG037476(gb|WP_001105546) (ABD1_RS04515) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii D1279779]
+Length=296
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 38/143 (27%), Positives = 64/143 (45%), Gaps = 1/143 (1%)
+
+Query  1    MNLKFLETFVWVARLKSFRLTAEKLFSTQASISSRIAVLEDELGVKLFVRDSRGVTLTPE  60
+            MN +  + F+    L S    A    + Q  IS ++  LE + G +LF R  RGV LT  
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  61   GDKVLAYAERMMDTMHALKQSLDTGASTQ-GRIRIGAMDTVIHTWLSPLVARVTETFPAV  119
+            G  +L      ++    L   +     T  G +RI ++ +  H  LS L   + E +P +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLI  120
+
+Query  120  EIELMADTARNLSEQLQKGYLDL  142
+            ++ +      +L + L+ G +DL
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDL  143
+
+
+>VFG037478(gb|WP_001105560) (ABZJ_RS11145) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii MDR-ZJ06]
+Length=296
+
+ Score = 51.6 bits (122),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 37/143 (26%), Positives = 64/143 (45%), Gaps = 1/143 (1%)
+
+Query  1    MNLKFLETFVWVARLKSFRLTAEKLFSTQASISSRIAVLEDELGVKLFVRDSRGVTLTPE  60
+            MN +  + F+    L S    A    + Q  IS ++  LE + G +LF R  RGV LT  
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  61   GDKVLAYAERMMDTMHALKQSLDTGASTQ-GRIRIGAMDTVIHTWLSPLVARVTETFPAV  119
+            G  +L      ++    L   +     T  G +RI ++ +  H  LS L   + + +P +
+Sbjct  61   GQHLLPKTRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQQKYPLI  120
+
+Query  120  EIELMADTARNLSEQLQKGYLDL  142
+            ++ +      +L + L+ G +DL
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDL  143
+
+
+>VFG037467(gb|WP_001105559) (ABK1_RS04735) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii 1656-2]
+Length=296
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 37/143 (26%), Positives = 64/143 (45%), Gaps = 1/143 (1%)
+
+Query  1    MNLKFLETFVWVARLKSFRLTAEKLFSTQASISSRIAVLEDELGVKLFVRDSRGVTLTPE  60
+            MN +  + F+    L S    A    + Q  IS ++  LE + G +LF R  RGV LT  
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  61   GDKVLAYAERMMDTMHALKQSLDTGASTQ-GRIRIGAMDTVIHTWLSPLVARVTETFPAV  119
+            G  +L      ++    L   +     T  G +RI ++ +  H  LS L   + + +P +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQQKYPLI  120
+
+Query  120  EIELMADTARNLSEQLQKGYLDL  142
+            ++ +      +L + L+ G +DL
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDL  143
+
+
+>VFG037471(gb|YP_001083951) (A1S_0917) transcriptional regulator 
+[HemO cluster (VF0636) - Nutritional/Metabolic factor (VFC0272)] 
+[Acinetobacter baumannii ATCC 17978]
+Length=274
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 32/117 (27%), Positives = 55/117 (47%), Gaps = 1/117 (1%)
+
+Query  27   STQASISSRIAVLEDELGVKLFVRDSRGVTLTPEGDKVLAYAERMMDTMHALKQSLDTGA  86
+            + Q  IS ++  LE + G +LF R  RGV LT  G  +L      ++    L   +    
+Sbjct  5    TNQPQISRQMNELEAQCGGRLFNRTGRGVELTDLGQHLLPKIRSWLNVTDQLNNEILHST  64
+
+Query  87   STQ-GRIRIGAMDTVIHTWLSPLVARVTETFPAVEIELMADTARNLSEQLQKGYLDL  142
+             T  G +RI ++ +  H  LS L   + E +P +++ +      +L + L+ G +DL
+Sbjct  65   DTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLIKLSVREGQGVHLEKWLEDGSVDL  121
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2278539711
+
+
+Query= g2534.t1
+
+Length=292
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional act...  66.2    2e-12
+VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR [Py...  59.3    5e-10
+VFG044084(gb|NP_251073) (PA2383) transcriptional regulator [Pyove...  48.5    2e-06
+VFG006042(gb|WP_001222601) (SAK_RS06335) LysR family transcriptio...  47.4    4e-06
+
+
+>VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional 
+activator AllS [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=307
+
+ Score = 66.2 bits (160),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 42/93 (45%), Positives = 52/93 (56%), Gaps = 1/93 (1%)
+
+Query  1   MLDLVLLRTFVSVVDTGNFTRAGEHLHLTQSTVSQQVIRLEQNLGCRLLDRSQRQVLPTE  60
+           MLD   LRTFVSV +TG+F+RA E L+ T +T+S ++  LE N G  L  R+ R VL T 
+Sbjct  1   MLDPETLRTFVSVAETGSFSRAAEKLYKTTATISYRIKLLEDNTGVALFSRTTRSVLLTP  60
+
+Query  61  EGERLLGYARRLLRLSDEASEALSPAHGDGVLR  93
+            G  LL  AR  L   D     L   + DGV R
+Sbjct  61  AGMHLLAQAREWLGWIDSMPGELQQIN-DGVER  92
+
+
+>VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR 
+[Pyoverdine (VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=312
+
+ Score = 59.3 bits (142),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 52/157 (33%), Positives = 83/157 (53%), Gaps = 5/157 (3%)
+
+Query  2    LDLVLLRTFVSVVDTGNFTRAGEHLHLTQSTVSQQVIRLEQNLGCRLLDRSQRQVLPTEE  61
+            L+L  L  FV+V +  +FT A E L L++S +S+Q+ RLE +LG +LL R+ R++  T+ 
+Sbjct  11   LNLNHLYAFVAVAEHNSFTAAAEALGLSKSLLSEQLRRLEADLGIQLLTRTTRRMTLTDR  70
+
+Query  62   GERLLGYARRLLRLSDEASEALSPAHGD--GVLRLGVPEDLAGEVLMPVLTRFTEERPRL  119
+            GE L G A+R+L   D A   +    G+  G LR+  P+D     +  V   F  + P++
+Sbjct  71   GELLFGVAQRMLGELDGALSDVRDLQGEPSGRLRITAPQDFVKWHISSVSAAFIRQFPKV  130
+
+Query  120  RLEVESGLSHHLLRLYRSGELDLLLVKQWGADSDCHA  156
+            ++E+   L+           +DL +   W  DS  HA
+Sbjct  131  QVEM---LADDQFSDLVGQRIDLAVRIGWPRDSGLHA  164
+
+
+>VFG044084(gb|NP_251073) (PA2383) transcriptional regulator [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=306
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 41/122 (34%), Positives = 53/122 (43%), Gaps = 10/122 (8%)
+
+Query  7    LRTFVSVVDTGNFTRAGEHLHLTQSTVSQQVIRLEQNLGCRLLDRSQRQVLPTEEGERLL  66
+            L+ F +    G F RA E L +T S  S++V  LE  LG  LL R  R +  T  G   L
+Sbjct  15   LQAFEAAARLGTFERAAELLSITGSAASKRVSGLEGMLGVSLLQRDGRSLALTSHGREYL  74
+
+Query  67   GYARRLLRLSDEASEALSPAHGDGV-----LRLGVPEDLAGEVLMPVLTRFTEERPRLRL  121
+                 +L     A  A  P H   V     L L  P   A ++L+P L  F E  P + L
+Sbjct  75   EQIAPIL-----AQLAAVPLHRRQVQRQQRLTLRTPPTFARQILIPRLASFAEACPEIEL  129
+
+Query  122  EV  123
+            E+
+Sbjct  130  EI  131
+
+
+>VFG006042(gb|WP_001222601) (SAK_RS06335) LysR family transcriptional 
+regulator [Capsule (VF0274) - Immune modulation (VFC0258)] 
+[Streptococcus agalactiae A909]
+Length=307
+
+ Score = 47.4 bits (111),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 21/67 (31%), Positives = 41/67 (61%), Gaps = 0/67 (0%)
+
+Query  7   LRTFVSVVDTGNFTRAGEHLHLTQSTVSQQVIRLEQNLGCRLLDRSQRQVLPTEEGERLL  66
+           L+  + +V+TG+   A + L++TQ ++S  V  LE  +G ++  R+ + +  T++G   L
+Sbjct  6   LQYVIKIVETGSMNEAAKQLYITQPSLSNAVRNLETEMGIQIFIRNPKGITLTKDGMEFL  65
+
+Query  67  GYARRLL  73
+            YAR++L
+Sbjct  66  SYARQIL  72
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.140    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2031935845
+
+
+Query= g2904.t1
+
+Length=284
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR [Py...  66.2    2e-12
+VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional act...  58.5    8e-10
+VFG037470(gb|WP_001105554) (ACICU_RS04565) LysR family transcript...  58.2    1e-09
+VFG037476(gb|WP_001105546) (ABD1_RS04515) LysR family transcripti...  57.8    1e-09
+VFG037468(gb|WP_001105542) (AB57_RS05095) LysR family transcripti...  57.8    1e-09
+VFG037474(gb|WP_001105562) (BJAB0715_RS05225) LysR family transcr...  57.4    2e-09
+VFG044084(gb|NP_251073) (PA2383) transcriptional regulator [Pyove...  57.4    2e-09
+VFG037471(gb|YP_001083951) (A1S_0917) transcriptional regulator [...  48.1    2e-06
+
+
+>VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR 
+[Pyoverdine (VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=312
+
+ Score = 66.2 bits (160),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 50/138 (36%), Positives = 76/138 (55%), Gaps = 3/138 (2%)
+
+Query  12   LRTFVAIAEHGGFTRAAEALNRTQSAVSMQMKRLEEDVLQRSLFERDGRQTRLTAEGQVL  71
+            L  FVA+AEH  FT AAEAL  ++S +S Q++RLE D L   L  R  R+  LT  G++L
+Sbjct  16   LYAFVAVAEHNSFTAAAEALGLSKSLLSEQLRRLEAD-LGIQLLTRTTRRMTLTDRGELL  74
+
+Query  72   LGYARRILKLHGEVFNTLR--RPHMVGSVRIGTPDDYVMRFLPAILSRFAEAYPLVQVEV  129
+             G A+R+L       + +R  +    G +RI  P D+V   + ++ + F   +P VQVE+
+Sbjct  75   FGVAQRMLGELDGALSDVRDLQGEPSGRLRITAPQDFVKWHISSVSAAFIRQFPKVQVEM  134
+
+Query  130  HCDTSLNLLARNDLDLSI  147
+              D   + L    +DL++
+Sbjct  135  LADDQFSDLVGQRIDLAV  152
+
+
+>VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional 
+activator AllS [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=307
+
+ Score = 58.5 bits (140),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 33/73 (45%), Positives = 45/73 (62%), Gaps = 1/73 (1%)
+
+Query  7   IDTELLRTFVAIAEHGGFTRAAEALNRTQSAVSMQMKRLEEDVLQRSLFERDGRQTRLTA  66
+           +D E LRTFV++AE G F+RAAE L +T + +S ++K LE++    +LF R  R   LT 
+Sbjct  2   LDPETLRTFVSVAETGSFSRAAEKLYKTTATISYRIKLLEDNT-GVALFSRTTRSVLLTP  60
+
+Query  67  EGQVLLGYARRIL  79
+            G  LL  AR  L
+Sbjct  61  AGMHLLAQAREWL  73
+
+
+>VFG037470(gb|WP_001105554) (ACICU_RS04565) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii ACICU]
+Length=296
+
+ Score = 58.2 bits (139),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 56/199 (28%), Positives = 84/199 (42%), Gaps = 15/199 (8%)
+
+Query  7    IDTELLRTFVAIAEHGGFTRAAEALNRTQSAVSMQMKRLEEDVLQRSLFERDGRQTRLTA  66
+            ++ EL + F+   E G  ++ A   N  Q  +S QM  LE     R LF R GR   LT 
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGR-LFNRTGRGVELTD  59
+
+Query  67   EGQVLLGYARRIL----KLHGEVFNTLRRPHMVGSVRIGTPDDYVMRFLPAILSRFAEAY  122
+             GQ LL   R  L    +L+ E+ ++   P  +G+VRI +        L  +     E Y
+Sbjct  60   LGQHLLPKIRSWLNVTDQLNNEILHSTDTP--IGTVRIASLPSTAHPLLSTLYKVLQEKY  117
+
+Query  123  PLVQVEVHCDTSLNL---LARNDLDLSIVTR-EPGTEIGQL-LRQEPFVWMAAEGFCPHD  177
+            PL+++ V     ++L   L    +DL+I+ R  P  + G + L Q     +  EG     
+Sbjct  118  PLIKLSVREGQGVHLEKWLEDGSVDLAILYRFNPTPKQGDVYLTQADTYLVGCEGDALTQ  177
+
+Query  178  QRPIPLAMFNT---TCFCR  193
+               +     N      FCR
+Sbjct  178  ANEVDFKSINQLPLVTFCR  196
+
+
+>VFG037476(gb|WP_001105546) (ABD1_RS04515) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii D1279779]
+Length=296
+
+ Score = 57.8 bits (138),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 46/151 (30%), Positives = 70/151 (46%), Gaps = 10/151 (7%)
+
+Query  7    IDTELLRTFVAIAEHGGFTRAAEALNRTQSAVSMQMKRLEEDVLQRSLFERDGRQTRLTA  66
+            ++ EL + F+   E G  ++ A   N  Q  +S QM  LE     R LF R GR   LT 
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGR-LFNRTGRGVELTD  59
+
+Query  67   EGQVLLGYARRIL----KLHGEVFNTLRRPHMVGSVRIGTPDDYVMRFLPAILSRFAEAY  122
+             GQ LL   R  L    +L+ E+ ++   P  +G+VRI +        L  +     E Y
+Sbjct  60   LGQHLLPKIRSWLNVTDQLNNEILHSTDTP--IGTVRIASLPSTAHPLLSTLYKVLQEKY  117
+
+Query  123  PLVQVEVHCDTSLNL---LARNDLDLSIVTR  150
+            PL+++ V     ++L   L    +DL+I+ R
+Sbjct  118  PLIKLSVREGQGVHLEKWLEDGSVDLAILYR  148
+
+
+>VFG037468(gb|WP_001105542) (AB57_RS05095) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii AB0057]
+Length=296
+
+ Score = 57.8 bits (138),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 46/151 (30%), Positives = 70/151 (46%), Gaps = 10/151 (7%)
+
+Query  7    IDTELLRTFVAIAEHGGFTRAAEALNRTQSAVSMQMKRLEEDVLQRSLFERDGRQTRLTA  66
+            ++ EL + F+   E G  ++ A   N  Q  +S QM  LE     R LF R GR   LT 
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGR-LFNRTGRGVELTD  59
+
+Query  67   EGQVLLGYARRIL----KLHGEVFNTLRRPHMVGSVRIGTPDDYVMRFLPAILSRFAEAY  122
+             GQ LL   R  L    +L+ E+ ++   P  +G+VRI +        L  +     E Y
+Sbjct  60   LGQHLLPKIRSWLNVTDQLNNEILHSTDTP--IGTVRIASLPSTAHPLLSTLYKVLQEKY  117
+
+Query  123  PLVQVEVHCDTSLNL---LARNDLDLSIVTR  150
+            PL+++ V     ++L   L    +DL+I+ R
+Sbjct  118  PLIKLSVREGQGVHLEKWLEDGSVDLAILYR  148
+
+
+>VFG037474(gb|WP_001105562) (BJAB0715_RS05225) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii BJAB0715]
+Length=296
+
+ Score = 57.4 bits (137),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 46/151 (30%), Positives = 70/151 (46%), Gaps = 10/151 (7%)
+
+Query  7    IDTELLRTFVAIAEHGGFTRAAEALNRTQSAVSMQMKRLEEDVLQRSLFERDGRQTRLTA  66
+            ++ EL + F+   E G  ++ A   N  Q  +S QM  LE     R LF R GR   LT 
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMSELEAQCGGR-LFNRTGRGVELTD  59
+
+Query  67   EGQVLLGYARRIL----KLHGEVFNTLRRPHMVGSVRIGTPDDYVMRFLPAILSRFAEAY  122
+             GQ LL   R  L    +L+ E+ ++   P  +G+VRI +        L  +     E Y
+Sbjct  60   LGQHLLPKIRSWLNVTDQLNNEILHSTDTP--IGTVRIASLPSTAHPLLSTLYKVLQEKY  117
+
+Query  123  PLVQVEVHCDTSLNL---LARNDLDLSIVTR  150
+            PL+++ V     ++L   L    +DL+I+ R
+Sbjct  118  PLIKLSVREGQGVHLEKWLEDGSVDLAILYR  148
+
+
+>VFG044084(gb|NP_251073) (PA2383) transcriptional regulator [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=306
+
+ Score = 57.4 bits (137),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 61/201 (30%), Positives = 90/201 (45%), Gaps = 5/201 (2%)
+
+Query  10   ELLRTFVAIAEHGGFTRAAEALNRTQSAVSMQMKRLEEDVLQRSLFERDGRQTRLTAEGQ  69
+            E L+ F A A  G F RAAE L+ T SA S ++  LE  +L  SL +RDGR   LT+ G+
+Sbjct  13   EALQAFEAAARLGTFERAAELLSITGSAASKRVSGLE-GMLGVSLLQRDGRSLALTSHGR  71
+
+Query  70   VLLGYARRILKLHGEVFNTLRRPHMVGSVRIGTPDDYVMRFLPAILSRFAEAYPLVQVEV  129
+              L     IL     V    R+      + + TP  +  + L   L+ FAEA P +++E+
+Sbjct  72   EYLEQIAPILAQLAAVPLHRRQVQRQQRLTLRTPPTFARQILIPRLASFAEACPEIELEI  131
+
+Query  130  HCDTSLNLLARNDLDLSIVTREPGTEIGQLLRQEPFVWMAAEGFCPHDQRPIPLAMFNTT  189
+               +  +       D+ +     G   G+ L +E  + MAA G      RP   AM    
+Sbjct  132  LLSSPSDGQDLPLADVEVRGDSHGVAAGERLLEERVLPMAAPGLLLGLPRPWTPAMLAGL  191
+
+Query  190  CFCRAWACNALEAAELDYRIA  210
+               R    + LE  +  +R+A
+Sbjct  192  PLLR----SPLEPWQPWFRVA  208
+
+
+>VFG037471(gb|YP_001083951) (A1S_0917) transcriptional regulator 
+[HemO cluster (VF0636) - Nutritional/Metabolic factor (VFC0272)] 
+[Acinetobacter baumannii ATCC 17978]
+Length=274
+
+ Score = 48.1 bits (113),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 50/174 (29%), Positives = 72/174 (41%), Gaps = 15/174 (9%)
+
+Query  32   NRTQSAVSMQMKRLEEDVLQRSLFERDGRQTRLTAEGQVLLGYARRIL----KLHGEVFN  87
+            N  Q  +S QM  LE     R LF R GR   LT  GQ LL   R  L    +L+ E+ +
+Sbjct  4    NTNQPQISRQMNELEAQCGGR-LFNRTGRGVELTDLGQHLLPKIRSWLNVTDQLNNEILH  62
+
+Query  88   TLRRPHMVGSVRIGTPDDYVMRFLPAILSRFAEAYPLVQVEVHCDTSLNL---LARNDLD  144
+            +   P  +G+VRI +        L  +     E YPL+++ V     ++L   L    +D
+Sbjct  63   STDTP--IGTVRIASLPSTAHPLLSTLYKVLQEKYPLIKLSVREGQGVHLEKWLEDGSVD  120
+
+Query  145  LSIVTR-EPGTEIGQL-LRQEPFVWMAAEGFCPHDQRPIPLAMFNT---TCFCR  193
+            L+I+ R  P  + G + L Q     +  EG        +     N      FCR
+Sbjct  121  LAILYRFNPTPKQGDIYLTQADTYLVGCEGDALTQASEVDFKAINQLPLVTFCR  174
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1947710525
+
+
+Query= g4073.t1
+
+Length=297
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional act...  58.2    1e-09
+
+
+>VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional 
+activator AllS [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=307
+
+ Score = 58.2 bits (139),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 34/69 (49%), Positives = 43/69 (62%), Gaps = 0/69 (0%)
+
+Query  11  LDIVLLRTFLEVVDSGGFALAADNLALTPSAVSGHIKRLEQTAGVSLLSRTTRRLELTQA  70
+           LD   LRTF+ V ++G F+ AA+ L  T + +S  IK LE   GV+L SRTTR + LT A
+Sbjct  2   LDPETLRTFVSVAETGSFSRAAEKLYKTTATISYRIKLLEDNTGVALFSRTTRSVLLTPA  61
+
+Query  71  GETLYAYAR  79
+           G  L A AR
+Sbjct  62  GMHLLAQAR  70
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.134    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2084576670
+
+
+Query= g2173.t1
+
+Length=312
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional act...  57.4    3e-09
+VFG037470(gb|WP_001105554) (ACICU_RS04565) LysR family transcript...  55.8    6e-09
+VFG037468(gb|WP_001105542) (AB57_RS05095) LysR family transcripti...  55.8    7e-09
+VFG037476(gb|WP_001105546) (ABD1_RS04515) LysR family transcripti...  55.8    8e-09
+VFG037474(gb|WP_001105562) (BJAB0715_RS05225) LysR family transcr...  55.5    1e-08
+VFG037478(gb|WP_001105560) (ABZJ_RS11145) LysR family transcripti...  55.1    1e-08
+VFG037467(gb|WP_001105559) (ABK1_RS04735) LysR family transcripti...  54.3    2e-08
+VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR [Py...  49.7    9e-07
+VFG037471(gb|YP_001083951) (A1S_0917) transcriptional regulator [...  49.3    1e-06
+
+
+>VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional 
+activator AllS [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=307
+
+ Score = 57.4 bits (137),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 33/86 (38%), Positives = 50/86 (58%), Gaps = 0/86 (0%)
+
+Query  11  LDLDLLRTFVAVADLNTFAAAAAAVCRTQSAVSQQMQRLEQLVGKELFARHGRNKLLTEH  70
+           LD + LRTFV+VA+  +F+ AA  + +T + +S +++ LE   G  LF+R  R+ LLT  
+Sbjct  2   LDPETLRTFVSVAETGSFSRAAEKLYKTTATISYRIKLLEDNTGVALFSRTTRSVLLTPA  61
+
+Query  71  GIQLLGYARKILRFNDEACSSLMFSN  96
+           G+ LL  AR+ L + D     L   N
+Sbjct  62  GMHLLAQAREWLGWIDSMPGELQQIN  87
+
+
+>VFG037470(gb|WP_001105554) (ACICU_RS04565) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii ACICU]
+Length=296
+
+ Score = 55.8 bits (133),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 55/247 (22%), Positives = 99/247 (40%), Gaps = 17/247 (7%)
+
+Query  11   LDLDLLRTFVAVADLNTFAAAAAAVCRTQSAVSQQMQRLEQLVGKELFARHGRNKLLTEH  70
+            ++ +L + F+   +L + +  A      Q  +S+QM  LE   G  LF R GR   LT+ 
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  71   GIQLLGYARKILRFNDEACSSLMFSNLQ--GVLTIGASDESADTILPFLLSRISSVYPKL  128
+            G  LL   R  L   D+  + ++ S     G + I +   +A  +L  L   +   YP +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLI  120
+
+Query  129  ALDVRVKRNAYMVDMVKSQEVDLVVTTN---QPHSLDCLNLRTSPTHWYCAAEYVLQRGE  185
+             L VR  +  ++   ++   VDL +       P   D    +       C  + + Q  E
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAILYRFNPTPKQGDVYLTQADTYLVGCEGDALTQANE  180
+
+Query  186  -------PVPLVLLDDPSPFRDMVLETLNAAGIPWRLAYVASTLPAVRAAVKAGLGVTAR  238
+                    +PLV    PS +R+ +       G+   + + A ++     +++  L   +R
+Sbjct  181  VDFKSINQLPLVTFCRPSNWRNFLDHMAYENGVELNIVFEADSI-----SLQTHLVSESR  235
+
+Query  239  PVEMMSP  245
+               M+ P
+Sbjct  236  MYTMLGP  242
+
+
+>VFG037468(gb|WP_001105542) (AB57_RS05095) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii AB0057]
+Length=296
+
+ Score = 55.8 bits (133),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 55/247 (22%), Positives = 99/247 (40%), Gaps = 17/247 (7%)
+
+Query  11   LDLDLLRTFVAVADLNTFAAAAAAVCRTQSAVSQQMQRLEQLVGKELFARHGRNKLLTEH  70
+            ++ +L + F+   +L + +  A      Q  +S+QM  LE   G  LF R GR   LT+ 
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  71   GIQLLGYARKILRFNDEACSSLMFSNLQ--GVLTIGASDESADTILPFLLSRISSVYPKL  128
+            G  LL   R  L   D+  + ++ S     G + I +   +A  +L  L   +   YP +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLI  120
+
+Query  129  ALDVRVKRNAYMVDMVKSQEVDLVVTTN---QPHSLDCLNLRTSPTHWYCAAEYVLQRGE  185
+             L VR  +  ++   ++   VDL +       P   D    +       C  + + Q  E
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAILYRFNPTPKQGDIYLTQADTYLVGCEGDTLTQANE  180
+
+Query  186  -------PVPLVLLDDPSPFRDMVLETLNAAGIPWRLAYVASTLPAVRAAVKAGLGVTAR  238
+                    +PLV    PS +R+ +       G+   + + A ++     +++  L   +R
+Sbjct  181  VEFKEVSQLPLVTFCRPSNWRNFLDHMAYENGVELNIVFEADSI-----SLQTHLVSESR  235
+
+Query  239  PVEMMSP  245
+               M+ P
+Sbjct  236  MYTMLGP  242
+
+
+>VFG037476(gb|WP_001105546) (ABD1_RS04515) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii D1279779]
+Length=296
+
+ Score = 55.8 bits (133),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 55/247 (22%), Positives = 98/247 (40%), Gaps = 17/247 (7%)
+
+Query  11   LDLDLLRTFVAVADLNTFAAAAAAVCRTQSAVSQQMQRLEQLVGKELFARHGRNKLLTEH  70
+            ++ +L + F+   +L + +  A      Q  +S+QM  LE   G  LF R GR   LT+ 
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  71   GIQLLGYARKILRFNDEACSSLMFSNLQ--GVLTIGASDESADTILPFLLSRISSVYPKL  128
+            G  LL   R  L   D+  + ++ S     G + I +   +A  +L  L   +   YP +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLI  120
+
+Query  129  ALDVRVKRNAYMVDMVKSQEVDLVVTTN---QPHSLDCLNLRTSPTHWYCAAEYVLQRGE  185
+             L VR  +  ++   ++   VDL +       P   D            C  + + Q  E
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAILYRFNPTPKQGDVYLTEADTYLVGCEGDALTQANE  180
+
+Query  186  -------PVPLVLLDDPSPFRDMVLETLNAAGIPWRLAYVASTLPAVRAAVKAGLGVTAR  238
+                    +PLV    PS +R+ +       G+   + + A ++     +++  L   +R
+Sbjct  181  VDFKAVSELPLVTFCRPSNWRNFLDHMAYENGVELNIVFEADSI-----SLQTHLVSESR  235
+
+Query  239  PVEMMSP  245
+               M+ P
+Sbjct  236  MYTMLGP  242
+
+
+>VFG037474(gb|WP_001105562) (BJAB0715_RS05225) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii BJAB0715]
+Length=296
+
+ Score = 55.5 bits (132),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 55/247 (22%), Positives = 98/247 (40%), Gaps = 17/247 (7%)
+
+Query  11   LDLDLLRTFVAVADLNTFAAAAAAVCRTQSAVSQQMQRLEQLVGKELFARHGRNKLLTEH  70
+            ++ +L + F+   +L + +  A      Q  +S+QM  LE   G  LF R GR   LT+ 
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMSELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  71   GIQLLGYARKILRFNDEACSSLMFSNLQ--GVLTIGASDESADTILPFLLSRISSVYPKL  128
+            G  LL   R  L   D+  + ++ S     G + I +   +A  +L  L   +   YP +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQEKYPLI  120
+
+Query  129  ALDVRVKRNAYMVDMVKSQEVDLVVTTN---QPHSLDCLNLRTSPTHWYCAAEYVLQRGE  185
+             L VR  +  ++   ++   VDL +       P   D            C  + + Q  E
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAILYRFNPTPKQGDVYLTEADTYLVGCEGDVLTQASE  180
+
+Query  186  -------PVPLVLLDDPSPFRDMVLETLNAAGIPWRLAYVASTLPAVRAAVKAGLGVTAR  238
+                    +PLV    PS +R+ +       G+   + + A ++     +++  L   +R
+Sbjct  181  VDFKDVSQLPLVTFCRPSNWRNFLDHMAYENGVELNIVFEADSI-----SLQTHLVSESR  235
+
+Query  239  PVEMMSP  245
+               M+ P
+Sbjct  236  MYTMLGP  242
+
+
+>VFG037478(gb|WP_001105560) (ABZJ_RS11145) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii MDR-ZJ06]
+Length=296
+
+ Score = 55.1 bits (131),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 38/145 (26%), Positives = 65/145 (45%), Gaps = 2/145 (1%)
+
+Query  11   LDLDLLRTFVAVADLNTFAAAAAAVCRTQSAVSQQMQRLEQLVGKELFARHGRNKLLTEH  70
+            ++ +L + F+   +L + +  A      Q  +S+QM  LE   G  LF R GR   LT+ 
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  71   GIQLLGYARKILRFNDEACSSLMFSNLQ--GVLTIGASDESADTILPFLLSRISSVYPKL  128
+            G  LL   R  L   D+  + ++ S     G + I +   +A  +L  L   +   YP +
+Sbjct  61   GQHLLPKTRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQQKYPLI  120
+
+Query  129  ALDVRVKRNAYMVDMVKSQEVDLVV  153
+             L VR  +  ++   ++   VDL +
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAI  145
+
+
+>VFG037467(gb|WP_001105559) (ABK1_RS04735) LysR family transcriptional 
+regulator [HemO cluster (VF0636) - Nutritional/Metabolic 
+factor (VFC0272)] [Acinetobacter baumannii 1656-2]
+Length=296
+
+ Score = 54.3 bits (129),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 38/145 (26%), Positives = 65/145 (45%), Gaps = 2/145 (1%)
+
+Query  11   LDLDLLRTFVAVADLNTFAAAAAAVCRTQSAVSQQMQRLEQLVGKELFARHGRNKLLTEH  70
+            ++ +L + F+   +L + +  A      Q  +S+QM  LE   G  LF R GR   LT+ 
+Sbjct  1    MNYELWKIFLDAVELGSLSKVAMLHNTNQPQISRQMNELEAQCGGRLFNRTGRGVELTDL  60
+
+Query  71   GIQLLGYARKILRFNDEACSSLMFSNLQ--GVLTIGASDESADTILPFLLSRISSVYPKL  128
+            G  LL   R  L   D+  + ++ S     G + I +   +A  +L  L   +   YP +
+Sbjct  61   GQHLLPKIRSWLNVTDQLNNEILHSTDTPIGTVRIASLPSTAHPLLSTLYKVLQQKYPLI  120
+
+Query  129  ALDVRVKRNAYMVDMVKSQEVDLVV  153
+             L VR  +  ++   ++   VDL +
+Sbjct  121  KLSVREGQGVHLEKWLEDGSVDLAI  145
+
+
+>VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR 
+[Pyoverdine (VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=312
+
+ Score = 49.7 bits (117),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 49/151 (32%), Positives = 82/151 (54%), Gaps = 5/151 (3%)
+
+Query  10   NLDLDLLRTFVAVADLNTFAAAAAAVCRTQSAVSQQMQRLEQLVGKELFARHGRNKLLTE  69
+            +L+L+ L  FVAVA+ N+F AAA A+  ++S +S+Q++RLE  +G +L  R  R   LT+
+Sbjct  10   HLNLNHLYAFVAVAEHNSFTAAAEALGLSKSLLSEQLRRLEADLGIQLLTRTTRRMTLTD  69
+
+Query  70   HGIQLLGYARKILRFNDEACSSLMFSNLQGVLTIGASDESADTILPFLLSRISSVYPKLA  129
+             G  L G A+++L   D A S +   +LQG  +      +    + + +S +S+ + +  
+Sbjct  70   RGELLFGVAQRMLGELDGALSDV--RDLQGEPSGRLRITAPQDFVKWHISSVSAAFIRQF  127
+
+Query  130  LDVRVKRNA--YMVDMVKSQEVDLVVTTNQP  158
+              V+V+  A     D+V  Q +DL V    P
+Sbjct  128  PKVQVEMLADDQFSDLV-GQRIDLAVRIGWP  157
+
+
+>VFG037471(gb|YP_001083951) (A1S_0917) transcriptional regulator 
+[HemO cluster (VF0636) - Nutritional/Metabolic factor (VFC0272)] 
+[Acinetobacter baumannii ATCC 17978]
+Length=274
+
+ Score = 49.3 bits (116),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 51/219 (23%), Positives = 87/219 (40%), Gaps = 17/219 (8%)
+
+Query  39   QSAVSQQMQRLEQLVGKELFARHGRNKLLTEHGIQLLGYARKILRFNDEACSSLMFSNLQ  98
+            Q  +S+QM  LE   G  LF R GR   LT+ G  LL   R  L   D+  + ++ S   
+Sbjct  7    QPQISRQMNELEAQCGGRLFNRTGRGVELTDLGQHLLPKIRSWLNVTDQLNNEILHSTDT  66
+
+Query  99   --GVLTIGASDESADTILPFLLSRISSVYPKLALDVRVKRNAYMVDMVKSQEVDLVVTTN  156
+              G + I +   +A  +L  L   +   YP + L VR  +  ++   ++   VDL +   
+Sbjct  67   PIGTVRIASLPSTAHPLLSTLYKVLQEKYPLIKLSVREGQGVHLEKWLEDGSVDLAILYR  126
+
+Query  157  ---QPHSLDCLNLRTSPTHWYCAAEYVLQRGE-------PVPLVLLDDPSPFRDMVLETL  206
+                P   D    +       C  + + Q  E        +PLV    PS +R+ +    
+Sbjct  127  FNPTPKQGDIYLTQADTYLVGCEGDALTQASEVDFKAINQLPLVTFCRPSNWRNFLDHMA  186
+
+Query  207  NAAGIPWRLAYVASTLPAVRAAVKAGLGVTARPVEMMSP  245
+               G+   + + A ++     +++  L   +R   M+ P
+Sbjct  187  YENGVELNIVFEADSI-----SLQTHLVSESRMYTMLGP  220
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2226038796
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

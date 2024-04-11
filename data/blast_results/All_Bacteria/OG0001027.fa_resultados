@@ -1,0 +1,136 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1551.t1
+
+Length=312
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2226038796
+
+
+Query= g1079.t1
+
+Length=312
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2226038796
+
+
+Query= g1983.t1
+
+Length=213
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011675(gb|WP_002867275) (CJE_RS07975) HAD-IA family hydrolase ...  49.3    5e-07
+
+
+>VFG011675(gb|WP_002867275) (CJE_RS07975) HAD-IA family hydrolase 
+[Capsule (VF0323) - Immune modulation (VFC0258)] [Campylobacter 
+jejuni RM1221]
+Length=433
+
+ Score = 49.3 bits (116),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 105/214 (49%), Gaps = 35/214 (16%)
+
+Query  6    HQC--VIIGIAGASASGKSLIASTL---YRELREQVGDEHIGVIPEDSYYKDQSHLSMEE  60
+            + C  ++I I+G S SGK+ +++ +   Y+            +I  D Y+K + H  M E
+Sbjct  201  YNCSKLLISISGKSGSGKTTLSNAIDEIYKSF----------IISTDGYHKYERHSKMWE  250
+
+Query  61   RVKTNYDHPN-------AMDHSLLFQHLQALKRGSAIELPVYSYVEHTRMQ-ETVRVEPK  112
+            RV T+Y+ P        AMD   ++Q +     G+ + +P+Y +     ++ + + ++  
+Sbjct  251  RV-THYN-PKANNLIQLAMDIKHIYQDI-----GNKLYIPIYDHKNGVIVKSDEIEIKDL  303
+
+Query  113  KVIILEGILLLTDARLREEMNFSIFVDTPLDICLMRRIKRDVNERGRSMDSVMAQYQKTV  172
+             ++I+EG+  L    + + +   I++D+  D    ++I RD  ER  S   ++   QK  
+Sbjct  304  DIVIIEGLHTLYQEVIGDFVKIKIYIDS--DEADQQKINRDSKERNYSHSKIIDTIQKRE  361
+
+Query  173  RPMFLQFIEPSKQYAD-IIVPRGGKNRIAI-DIL  204
+               + +++E  K  A+ +I+ R G  +I + DIL
+Sbjct  362  ED-YKKYLEKQKDNANFLILVRDGIFKIYLKDIL  394
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1241616987
+
+
+Query= g3862.t1
+
+Length=316
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2268039528
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

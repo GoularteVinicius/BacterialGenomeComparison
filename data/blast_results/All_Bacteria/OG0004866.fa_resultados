@@ -1,0 +1,252 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1727.t1
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000199(gb|NP_250395) (pcrR) type III secretion system regulato...  288     5e-102
+VFG041827(gb|WP_011147901) (PLU_RS18670) LcrR family type III sec...  174     5e-57 
+VFG041650(gb|WP_012777233) (PAU_RS05190) LcrR family type III sec...  171     8e-56 
+VFG000383(gb|WP_002220918) (lcrR) low calcium response protein R ...  146     6e-46 
+VFG042272(gb|AAS91817) (acrR) AcrR [T3SS (VF0479) - Effector deli...  145     2e-45 
+VFG023707(gb|WP_010891212) (lcrR) low calcium response protein R ...  144     3e-45 
+VFG003460(gb|WP_005176740) (lcrR) low calcium response protein R ...  142     2e-44 
+VFG038341(gb|WP_005320772) (acrR) Type III secretion system regul...  137     2e-42 
+VFG007151(gb|WP_005464560) (vcrR) type III secretion system prote...  75.1    5e-18 
+
+
+>VFG000199(gb|NP_250395) (pcrR) type III secretion system regulatory 
+protein PcrR [TTSS (VF0083) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa PAO1]
+Length=144
+
+ Score = 288 bits (736),  Expect = 5e-102, Method: Compositional matrix adjust.
+ Identities = 144/144 (100%), Positives = 144/144 (100%), Gaps = 0/144 (0%)
+
+Query  1    MSADPLIPWFLARGLAVRPHCLRDTSIALGWQVLAHGCELAWRCDGERVWIVMLRRRQAR  60
+            MSADPLIPWFLARGLAVRPHCLRDTSIALGWQVLAHGCELAWRCDGERVWIVMLRRRQAR
+Sbjct  1    MSADPLIPWFLARGLAVRPHCLRDTSIALGWQVLAHGCELAWRCDGERVWIVMLRRRQAR  60
+
+Query  61   SGLANPFAALYLLAEATLDTLGPRQRLYGKVLALAGSPLPGERMARFYRRWTGAAEPADG  120
+            SGLANPFAALYLLAEATLDTLGPRQRLYGKVLALAGSPLPGERMARFYRRWTGAAEPADG
+Sbjct  61   SGLANPFAALYLLAEATLDTLGPRQRLYGKVLALAGSPLPGERMARFYRRWTGAAEPADG  120
+
+Query  121  WFELEAGRVVTQRSLRKRQKPDRA  144
+            WFELEAGRVVTQRSLRKRQKPDRA
+Sbjct  121  WFELEAGRVVTQRSLRKRQKPDRA  144
+
+
+>VFG041827(gb|WP_011147901) (PLU_RS18670) LcrR family type III 
+secretion system chaperone [T3SS (VF1288) - Effector delivery 
+system (VFC0086)] [Photorhabdus luminescens subsp. laumondii 
+TTO1]
+Length=144
+
+ Score = 174 bits (441),  Expect = 5e-57, Method: Compositional matrix adjust.
+ Identities = 84/140 (60%), Positives = 101/140 (72%), Gaps = 0/140 (0%)
+
+Query  1    MSADPLIPWFLARGLAVRPHCLRDTSIALGWQVLAHGCELAWRCDGERVWIVMLRRRQAR  60
+            M+ DPL PWF  +G +V+PHC+ ++ I LGW+V   GCE+AWR D  RVWIVMLRR + R
+Sbjct  1    MNRDPLTPWFEEQGYSVQPHCMGNSPIPLGWRVWYEGCEIAWRYDAPRVWIVMLRRTRQR  60
+
+Query  61   SGLANPFAALYLLAEATLDTLGPRQRLYGKVLALAGSPLPGERMARFYRRWTGAAEPADG  120
+             GLANPFA LYLLA AT+  LGP  RLYG+V  L  SPL  ER+ARFY RWTGA E   G
+Sbjct  61   RGLANPFAPLYLLATATMAMLGPGSRLYGQVNTLVDSPLNDERLARFYHRWTGANEVVPG  120
+
+Query  121  WFELEAGRVVTQRSLRKRQK  140
+            WFELEA  V++   +RK+QK
+Sbjct  121  WFELEASCVISLHQMRKQQK  140
+
+
+>VFG041650(gb|WP_012777233) (PAU_RS05190) LcrR family type III 
+secretion system chaperone [T3SS-1 (VF1286) - Effector delivery 
+system (VFC0086)] [Photorhabdus asymbiotica subsp. asymbiotica 
+ATCC 43949]
+Length=142
+
+ Score = 171 bits (433),  Expect = 8e-56, Method: Compositional matrix adjust.
+ Identities = 83/140 (59%), Positives = 98/140 (70%), Gaps = 0/140 (0%)
+
+Query  1    MSADPLIPWFLARGLAVRPHCLRDTSIALGWQVLAHGCELAWRCDGERVWIVMLRRRQAR  60
+            M+ DPL  WF  RG  V+ HC+  +SI LGW+V   GCE+AWR D  RVWI+MLRR Q R
+Sbjct  1    MNHDPLTSWFEERGYPVQLHCMGSSSIPLGWRVWCEGCEIAWRYDAPRVWIIMLRRTQQR  60
+
+Query  61   SGLANPFAALYLLAEATLDTLGPRQRLYGKVLALAGSPLPGERMARFYRRWTGAAEPADG  120
+             GLANPFA LYLLA A +  LGP  RLYG+V  L  SPL  ER+ RFY RWTGA+E A G
+Sbjct  61   RGLANPFAPLYLLATAAMTVLGPGSRLYGQVNTLVDSPLNDERLTRFYHRWTGASEVAPG  120
+
+Query  121  WFELEAGRVVTQRSLRKRQK  140
+            WFELEA  V++   +RK+QK
+Sbjct  121  WFELEASCVISLHQMRKQQK  140
+
+
+>VFG000383(gb|WP_002220918) (lcrR) low calcium response protein 
+R [TTSS (VF0140) - Effector delivery system (VFC0086)] [Yersinia 
+pestis CO92]
+Length=146
+
+ Score = 146 bits (368),  Expect = 6e-46, Method: Compositional matrix adjust.
+ Identities = 74/142 (52%), Positives = 91/142 (64%), Gaps = 2/142 (1%)
+
+Query  1    MSADPLIPWFLARGLAVRPHCLRDTSIALGWQVLAHGCELAWRCDGE--RVWIVMLRRRQ  58
+            M ADPLIPW    GL   PH L  T I+LG      G +LAWR + E  RVWIV+++R +
+Sbjct  1    MMADPLIPWLTEHGLVCHPHTLSGTPISLGSAFQLAGLKLAWRVEIEQRRVWIVLIQRVE  60
+
+Query  59   ARSGLANPFAALYLLAEATLDTLGPRQRLYGKVLALAGSPLPGERMARFYRRWTGAAEPA  118
+             R GL NPFAALY+LA A    LGP   LYG V  LAGS L  +R+A FYRRWTGA E +
+Sbjct  61   QRRGLKNPFAALYMLANAARAVLGPDYYLYGNVDVLAGSSLSTQRLAHFYRRWTGAKELS  120
+
+Query  119  DGWFELEAGRVVTQRSLRKRQK  140
+             GWF L+  +V+T  +++KRQ 
+Sbjct  121  TGWFSLKVSQVITLSNMKKRQN  142
+
+
+>VFG042272(gb|AAS91817) (acrR) AcrR [T3SS (VF0479) - Effector 
+delivery system (VFC0086)] [Aeromonas hydrophila str. AH3]
+Length=151
+
+ Score = 145 bits (366),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 78/142 (55%), Positives = 93/142 (65%), Gaps = 2/142 (1%)
+
+Query  1    MSADPLIPWFLARGLAVRPHCLRDTSIALGWQVLAHGCELAWRCD--GERVWIVMLRRRQ  58
+            ++ DPLIPW  ARGL V P+ L +T I LG         LAWR D    RVWI+++RR+ 
+Sbjct  6    LTCDPLIPWLQARGLDVTPYHLGNTPIQLGHGFCYRHIYLAWRVDLATRRVWILLVRRQG  65
+
+Query  59   ARSGLANPFAALYLLAEATLDTLGPRQRLYGKVLALAGSPLPGERMARFYRRWTGAAEPA  118
+             ++GL NPFAALYLLAEAT   LGP   LYG V    GS L GER+ RFY RWTGA+EP 
+Sbjct  66   EQAGLVNPFAALYLLAEATQAVLGPGHALYGNVDVFRGSSLSGERLGRFYLRWTGASEPE  125
+
+Query  119  DGWFELEAGRVVTQRSLRKRQK  140
+             GWF L A +V + R +RKRQK
+Sbjct  126  PGWFLLAAEQVCSLRDMRKRQK  147
+
+
+>VFG023707(gb|WP_010891212) (lcrR) low calcium response protein 
+R [TTSS (VF0140) - Effector delivery system (VFC0086)] [Yersinia 
+enterocolitica subsp. palearctica 105.5R(r)]
+Length=146
+
+ Score = 144 bits (364),  Expect = 3e-45, Method: Compositional matrix adjust.
+ Identities = 73/142 (51%), Positives = 90/142 (63%), Gaps = 2/142 (1%)
+
+Query  1    MSADPLIPWFLARGLAVRPHCLRDTSIALGWQVLAHGCELAWRCDGE--RVWIVMLRRRQ  58
+            M  DPLIPW    GL   PH L  T I+LG      G +LAWR + E  RVWIV+++R +
+Sbjct  1    MMEDPLIPWLTEHGLVCHPHTLSGTPISLGSAFQLAGLKLAWRVEIEQRRVWIVLIQRVE  60
+
+Query  59   ARSGLANPFAALYLLAEATLDTLGPRQRLYGKVLALAGSPLPGERMARFYRRWTGAAEPA  118
+             R GL NPFAALY+LA A    LGP   LYG V  LAGS L  +R+A FYRRWTGA E +
+Sbjct  61   QRRGLKNPFAALYMLANAARAVLGPDYYLYGNVDVLAGSSLSTQRLAHFYRRWTGAKELS  120
+
+Query  119  DGWFELEAGRVVTQRSLRKRQK  140
+             GWF L+  +V+T  +++KRQ 
+Sbjct  121  TGWFSLKVSQVITLSNMKKRQN  142
+
+
+>VFG003460(gb|WP_005176740) (lcrR) low calcium response protein 
+R [TTSS (VF0140) - Effector delivery system (VFC0086)] [Yersinia 
+enterocolitica subsp. enterocolitica 8081]
+Length=146
+
+ Score = 142 bits (358),  Expect = 2e-44, Method: Compositional matrix adjust.
+ Identities = 72/142 (51%), Positives = 89/142 (63%), Gaps = 2/142 (1%)
+
+Query  1    MSADPLIPWFLARGLAVRPHCLRDTSIALGWQVLAHGCELAWRCDGE--RVWIVMLRRRQ  58
+            M  DPLIPW    GL   PH L    I+LG      G +LAWR + E  RVWIV+++R +
+Sbjct  1    MMEDPLIPWLTEHGLVCHPHTLSGAPISLGSAFQLAGLKLAWRVEIEQRRVWIVLIQRVE  60
+
+Query  59   ARSGLANPFAALYLLAEATLDTLGPRQRLYGKVLALAGSPLPGERMARFYRRWTGAAEPA  118
+             R GL NPFAALY+LA A    LGP   LYG V  LAGS L  +R+A FYRRWTGA E +
+Sbjct  61   QRRGLKNPFAALYMLANAARAVLGPDYYLYGNVDVLAGSSLSTQRLAHFYRRWTGAKELS  120
+
+Query  119  DGWFELEAGRVVTQRSLRKRQK  140
+             GWF L+  +V+T  +++KRQ 
+Sbjct  121  TGWFSLKVSQVITLSNMKKRQN  142
+
+
+>VFG038341(gb|WP_005320772) (acrR) Type III secretion system regulator, 
+LcrR-like [T3SS (VF0479) - Effector delivery system 
+(VFC0086)] [Aeromonas salmonicida subsp. salmonicida A449]
+Length=151
+
+ Score = 137 bits (345),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 77/142 (54%), Positives = 91/142 (64%), Gaps = 2/142 (1%)
+
+Query  1    MSADPLIPWFLARGLAVRPHCLRDTSIALGWQVLAHGCELAWRCD--GERVWIVMLRRRQ  58
+            +++DPLIPW  A+G+AV  H L  T I LG         LAWR D    RVWI+++RR  
+Sbjct  6    LTSDPLIPWLQAKGVAVASHYLGATPIQLGHAFCYRQIYLAWRVDPTTRRVWIMLVRREG  65
+
+Query  59   ARSGLANPFAALYLLAEATLDTLGPRQRLYGKVLALAGSPLPGERMARFYRRWTGAAEPA  118
+             R+GLANPFAALYLLAEATL  LGP   LYG V     S L  ER+ RFY RWTGA+EP 
+Sbjct  66   ERAGLANPFAALYLLAEATLAVLGPGHFLYGNVDVFRSSSLSSERLGRFYLRWTGASEPE  125
+
+Query  119  DGWFELEAGRVVTQRSLRKRQK  140
+             GWF L   +V + R +RKRQK
+Sbjct  126  PGWFMLATEQVCSLRDMRKRQK  147
+
+
+>VFG007151(gb|WP_005464560) (vcrR) type III secretion system protein 
+VcrR [T3SS1 (VF0408) - Effector delivery system (VFC0086)] 
+[Vibrio parahaemolyticus RIMD 2210633]
+Length=137
+
+ Score = 75.1 bits (183),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 45/135 (33%), Positives = 73/135 (54%), Gaps = 4/135 (3%)
+
+Query  6    LIPWFLARGLAVRPHCLRDTSIALGWQVLAHGCELAWRCDGERVWIVMLRRRQARSGLAN  65
+            L+  F   G+ V P+  + ++I LG+++   G EL +R +   + IV+L+R     GL+N
+Sbjct  5    LVQSFEQTGIEVTPYFWQKSAIQLGYRMEVDGMELVFRVEEGEIIIVLLKRVSPNLGLSN  64
+
+Query  66   PFAALYLLAEATLDTLGPRQRLYGKVLALAGSPLPGERMARFYRRWTGAAEPADG-WFEL  124
+            PF+ L+LLAE  +        + G V  L GS +  +R+A+FY R  GA+      W+ L
+Sbjct  65   PFSCLFLLAEHAIPLFPSDWVIRGNVDVLRGSNMSSQRLAQFYLRACGASHDQQADWYFL  124
+
+Query  125  EAGRVVTQRSLRKRQ  139
+               R+   R L+KR+
+Sbjct  125  ---RLADYRPLKKRK  136
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.139    0.459    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 582120162
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,161 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g4382.t1
+
+Length=303
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG042747(gb|NP_252990) (tadC) type II secretion system protein T...  591     0.0  
+VFG042811(gb|AAN75213) (tadC) TadC [Fimbrial low-molecular-weight...  60.8    1e-10
+VFG013231(gb|WP_041603497) (tadC) type II secretion system F fami...  58.9    6e-10
+VFG043636(gb|WP_011081078) (VV1_RS15620) type II secretion system...  53.1    6e-08
+
+
+>VFG042747(gb|NP_252990) (tadC) type II secretion system protein 
+TadC [Type IV pili (VF0928) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa PAO1]
+Length=303
+
+ Score = 591 bits (1524),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 303/303 (100%), Positives = 303/303 (100%), Gaps = 0/303 (0%)
+
+Query  1    MQAQWLIFAALLMAVGGALLLLLQARNGSREQRLIERRLGALANPGGSTRWLAGMTERMD  60
+            MQAQWLIFAALLMAVGGALLLLLQARNGSREQRLIERRLGALANPGGSTRWLAGMTERMD
+Sbjct  1    MQAQWLIFAALLMAVGGALLLLLQARNGSREQRLIERRLGALANPGGSTRWLAGMTERMD  60
+
+Query  61   DSFWVRRLQLMDSEARQLLQQAGWHESRYRTLYLISVFLTPLLFVLLVLLVKLLRAESEA  120
+            DSFWVRRLQLMDSEARQLLQQAGWHESRYRTLYLISVFLTPLLFVLLVLLVKLLRAESEA
+Sbjct  61   DSFWVRRLQLMDSEARQLLQQAGWHESRYRTLYLISVFLTPLLFVLLVLLVKLLRAESEA  120
+
+Query  121  SYAVPLLFAAGIGFLLPKQVLKHFAKARRALIADEMILFVQLIRILFDAGLTVEQTLRVV  180
+            SYAVPLLFAAGIGFLLPKQVLKHFAKARRALIADEMILFVQLIRILFDAGLTVEQTLRVV
+Sbjct  121  SYAVPLLFAAGIGFLLPKQVLKHFAKARRALIADEMILFVQLIRILFDAGLTVEQTLRVV  180
+
+Query  181  CLEGRGITPQLARELDLALTRADNGIDLAEELEALARRLQVDPLNDCCGVLRQMLRQGGS  240
+            CLEGRGITPQLARELDLALTRADNGIDLAEELEALARRLQVDPLNDCCGVLRQMLRQGGS
+Sbjct  181  CLEGRGITPQLARELDLALTRADNGIDLAEELEALARRLQVDPLNDCCGVLRQMLRQGGS  240
+
+Query  241  ARSTLLTLKQLFEDRRLTTLQERIGKLSAKMSLVMMVLLFPALLIVLAGPGVIAITKALG  300
+            ARSTLLTLKQLFEDRRLTTLQERIGKLSAKMSLVMMVLLFPALLIVLAGPGVIAITKALG
+Sbjct  241  ARSTLLTLKQLFEDRRLTTLQERIGKLSAKMSLVMMVLLFPALLIVLAGPGVIAITKALG  300
+
+Query  301  GLG  303
+            GLG
+Sbjct  301  GLG  303
+
+
+>VFG042811(gb|AAN75213) (tadC) TadC [Fimbrial low-molecular-weight 
+protein (Flp) pili (VF1202) - Adherence (VFC0001)] [Aggregatibacter 
+actinomycetemcomitans str. CU1000]
+Length=288
+
+ Score = 60.8 bits (146),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 40/151 (26%), Positives = 82/151 (54%), Gaps = 3/151 (2%)
+
+Query  146  KARRALIADEMILFVQLIRILFDAGLTVEQTLRVVCLEGRGITPQLARELDLALTRADNG  205
+            KA+   I +++  F+ L+ +    G+++E  L+ V  + + + P L   + L + R    
+Sbjct  135  KAKIKKIMNDLAGFIDLVAVNVQTGISIEAALKQVATDFKTLNPDLTYVM-LRIIRKSEI  193
+
+Query  206  IDLAEELEALARRLQVDPLNDCCGVLRQMLRQGGSARSTLLTLKQLFEDRRLTTLQERIG  265
+              +++ L+ L+  L    +   C V++Q L  G S    L+ L     + +L  ++E++G
+Sbjct  194  TGMSQALQDLSVSLPTTEIRMFCTVMQQSLNFGSSIYHQLIQLSTDIREIQLLAIEEKLG  253
+
+Query  266  KLSAKMSL-VMMVLLFPALLIVLAGPGVIAI  295
+             LSAKMS+ +++ ++FP +++ LA PGV+ +
+Sbjct  254  TLSAKMSIPLILFIMFPIIILTLA-PGVMKV  283
+
+
+>VFG013231(gb|WP_041603497) (tadC) type II secretion system F 
+family protein [The tad locus (VF0754) - Adherence (VFC0001)] 
+[Haemophilus ducreyi 35000HP]
+Length=281
+
+ Score = 58.9 bits (141),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 39/161 (24%), Positives = 81/161 (50%), Gaps = 3/161 (2%)
+
+Query  132  IGFLLPKQVLKHFAKARRALIADEMILFVQLIRILFDAGLTVEQTLRVVCLEGRGITPQL  191
+            +  +LP  ++    K++   I  ++  F+ L+ +    G+++E   + V ++   + P L
+Sbjct  114  VAIMLPSMIVNMIIKSKIKRIMSDLPGFIDLVAVNVQTGISIEAAFKQVSMDFERLNPDL  173
+
+Query  192  ARELDLALTRAD-NGIDLAEELEALARRLQVDPLNDCCGVLRQMLRQGGSARSTLLTLKQ  250
+               L   + RA+   +++A  L+ LA  L    +   C V++Q L  G S    L  L  
+Sbjct  174  TYVLLRIIRRAELTSLNVA--LQDLAISLPTKEIRMFCTVMQQSLNFGSSVYDNLTMLSA  231
+
+Query  251  LFEDRRLTTLQERIGKLSAKMSLVMMVLLFPALLIVLAGPG  291
+               D +L  ++E++G L+AKMS+ +++ +   ++I++  PG
+Sbjct  232  DIRDMQLLVMEEKLGTLAAKMSVPLILFVMFPIIILIVAPG  272
+
+
+>VFG043636(gb|WP_011081078) (VV1_RS15620) type II secretion system 
+F family protein [Flp pili (VF0612) - Adherence (VFC0001)] 
+[Vibrio vulnificus CMCP6]
+Length=292
+
+ Score = 53.1 bits (126),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 61/241 (25%), Positives = 104/241 (43%), Gaps = 16/241 (7%)
+
+Query  48   STRWLAGMTE---RMDDSF--WVRRLQLMDSEARQLLQQAGWHES----RYRTLYLISVF  98
+            S R + G T+   + DD F  + +R      E ++ L  AG +       Y    +I +F
+Sbjct  37   SVRKIIGSTKEQKKRDDLFLSFFKRFSFNKDETKKKLVAAGVYSDFIAQTYYLFKIIPLF  96
+
+Query  99   LTPLLFVLLVLLVKLLRAESEASYAVPL-LFAAGIGFLLPKQVLKHFAKARRALIADEMI  157
+            LT L+ V L+ +  L   E   + A+ + +F  G     P   +   A +    I+  + 
+Sbjct  97   LTILISVYLMSIKVLDTNELILTIALGMVIFVVG-----PDMYISSRANSITRHISSRLP  151
+
+Query  158  LFVQLIRILFDAGLTVEQTLRVVCLEGRGITPQLARELDLALTRADNGIDLAEELEALAR  217
+              + L+ +    G+T+E TL  +  E + +   LA  +++ + R+   I + + LE    
+Sbjct  152  FLLDLMNVCVHTGMTIEATLEYLAKELQTVDKYLAFTVNVTVQRS-KVIGINKALEEFYE  210
+
+Query  218  RLQVDPLNDCCGVLRQMLRQGGSARSTLLTLKQLFEDRRLTTLQERIGKLSAKMSLVMMV  277
+             +           L Q L+ G S    L TL        +  L+E+IGKL AKMS+ M+V
+Sbjct  211  MVPSSEAQSFVMTLIQSLQFGSSVGQVLGTLATDIRQINMMELEEKIGKLGAKMSIPMIV  270
+
+Query  278  L  278
+             
+Sbjct  271  F  271
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.141    0.404    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2131537149
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

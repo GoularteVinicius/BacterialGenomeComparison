@@ -1,0 +1,548 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1365.t1
+
+Length=230
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG004099(gb|WP_024131262) (fimZ) fimbria biosynthesis transcript...  45.8    5e-06
+VFG021188(gb|WP_000801272) (fimZ) fimbria biosynthesis transcript...  45.8    5e-06
+VFG004096(gb|WP_000801270) (fimZ) fimbria biosynthesis transcript...  45.8    6e-06
+VFG000449(gb|NP_459544) (fimZ) DNA-binding response regulator [Ty...  45.8    6e-06
+VFG042685(gb|CAD56976) (fimZ gene) putative regulatory protein [T...  45.4    8e-06
+
+
+>VFG004099(gb|WP_024131262) (fimZ) fimbria biosynthesis transcriptional 
+regulator FimZ [Type 1 fimbriae (VF0102) - Adherence 
+(VFC0001)] [Salmonella enterica subsp. enterica serovar Choleraesuis 
+str. SC-B67]
+Length=210
+
+ Score = 45.8 bits (107),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 31/48 (65%), Gaps = 0/48 (0%)
+
+Query  154  FTSREWDVIYLLLSGLSEKEIAEQISRSLSTVKFHKSNIFQKVGCSCI  201
+             ++RE  V+  L +G+S KEIAEQ+  S  T+  HK+NIF K+G   I
+Sbjct  150  LSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHSI  197
+
+
+>VFG021188(gb|WP_000801272) (fimZ) fimbria biosynthesis transcriptional 
+regulator FimZ [Type 1 fimbriae (VF0102) - Adherence 
+(VFC0001)] [Salmonella enterica subsp. enterica serovar Heidelberg 
+str. SL476]
+Length=210
+
+ Score = 45.8 bits (107),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 31/48 (65%), Gaps = 0/48 (0%)
+
+Query  154  FTSREWDVIYLLLSGLSEKEIAEQISRSLSTVKFHKSNIFQKVGCSCI  201
+             ++RE  V+  L +G+S KEIAEQ+  S  T+  HK+NIF K+G   I
+Sbjct  150  LSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHSI  197
+
+
+>VFG004096(gb|WP_000801270) (fimZ) fimbria biosynthesis transcriptional 
+regulator FimZ [Type 1 fimbriae (VF0102) - Adherence 
+(VFC0001)] [Salmonella enterica subsp. enterica serovar Typhi 
+str. CT18]
+Length=210
+
+ Score = 45.8 bits (107),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 31/48 (65%), Gaps = 0/48 (0%)
+
+Query  154  FTSREWDVIYLLLSGLSEKEIAEQISRSLSTVKFHKSNIFQKVGCSCI  201
+             ++RE  V+  L +G+S KEIAEQ+  S  T+  HK+NIF K+G   I
+Sbjct  150  LSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHSI  197
+
+
+>VFG000449(gb|NP_459544) (fimZ) DNA-binding response regulator 
+[Type 1 fimbriae (VF0102) - Adherence (VFC0001)] [Salmonella 
+enterica subsp. enterica serovar Typhimurium str. LT2]
+Length=210
+
+ Score = 45.8 bits (107),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 31/48 (65%), Gaps = 0/48 (0%)
+
+Query  154  FTSREWDVIYLLLSGLSEKEIAEQISRSLSTVKFHKSNIFQKVGCSCI  201
+             ++RE  V+  L +G+S KEIAEQ+  S  T+  HK+NIF K+G   I
+Sbjct  150  LSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHSI  197
+
+
+>VFG042685(gb|CAD56976) (fimZ gene) putative regulatory protein 
+[Type 1 fimbriae (VF1211) - Adherence (VFC0001)] [Citrobacter 
+freundii str. 3009]
+Length=210
+
+ Score = 45.4 bits (106),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 22/48 (46%), Positives = 31/48 (65%), Gaps = 0/48 (0%)
+
+Query  154  FTSREWDVIYLLLSGLSEKEIAEQISRSLSTVKFHKSNIFQKVGCSCI  201
+             ++RE  V+  L +GLS KEIAEQ+  S  T+  HK+NI+ K+G   I
+Sbjct  150  LSNREVTVLRYLANGLSNKEIAEQLLLSNKTISAHKANIYSKLGLHTI  197
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1407689157
+
+
+Query= g1500.t1
+
+Length=268
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015080(gb|NP_251276) (gacA) response regulator GacA [GacS/GacA...  45.8    7e-06
+VFG015084(gb|WP_002553344) (gacA) UvrY/SirA/GacA family response ...  45.4    1e-05
+VFG015083(gb|WP_005737926) (gacA) UvrY/SirA/GacA family response ...  45.4    1e-05
+
+
+>VFG015080(gb|NP_251276) (gacA) response regulator GacA [GacS/GacA 
+two-component system (VF0908) - Regulation (VFC0301)] [Pseudomonas 
+aeruginosa PAO1]
+Length=214
+
+ Score = 45.8 bits (107),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 20/57 (35%), Positives = 39/57 (68%), Gaps = 0/57 (0%)
+
+Query  203  LSERELEIARLILRGYSSKAMAERLAISPETIKVHRRHLYAKLDISSQPELFSLFIQ  259
+            LSERE++IA +I   +  ++++++L +SP+T+  +R  ++ KL I+S  EL  L ++
+Sbjct  150  LSEREIQIALMIANCHKVQSISDKLCLSPKTVNTYRYRIFEKLSITSDVELALLAVR  206
+
+
+>VFG015084(gb|WP_002553344) (gacA) UvrY/SirA/GacA family response 
+regulator transcription factor [GacS/GacA two-component 
+system (VF0908) - Regulation (VFC0301)] [Pseudomonas syringae 
+pv. syringae B728a]
+Length=214
+
+ Score = 45.4 bits (106),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 21/58 (36%), Positives = 39/58 (67%), Gaps = 0/58 (0%)
+
+Query  202  VLSERELEIARLILRGYSSKAMAERLAISPETIKVHRRHLYAKLDISSQPELFSLFIQ  259
+            +LSERE++IA +I+     + ++++L +SP+T+  +R  ++ KL ISS  EL  L ++
+Sbjct  149  LLSEREIQIALMIVGCQKVQTISDKLCLSPKTVNTYRYRIFEKLSISSDVELALLAVR  206
+
+
+>VFG015083(gb|WP_005737926) (gacA) UvrY/SirA/GacA family response 
+regulator transcription factor [GacS/GacA two-component 
+system (VF0908) - Regulation (VFC0301)] [Pseudomonas syringae 
+pv. tomato str. DC3000]
+Length=214
+
+ Score = 45.4 bits (106),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 21/58 (36%), Positives = 39/58 (67%), Gaps = 0/58 (0%)
+
+Query  202  VLSERELEIARLILRGYSSKAMAERLAISPETIKVHRRHLYAKLDISSQPELFSLFIQ  259
+            +LSERE++IA +I+     + ++++L +SP+T+  +R  ++ KL ISS  EL  L ++
+Sbjct  149  LLSEREIQIALMIVGCQKVQTISDKLCLSPKTVNTYRYRIFEKLSISSDVELALLAVR  206
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1794544990
+
+
+Query= g2632.t1
+
+Length=268
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG024972(gb|WP_011401051) (bprB) two-component response regulato...  50.4    2e-07
+VFG042685(gb|CAD56976) (fimZ gene) putative regulatory protein [T...  50.1    3e-07
+VFG042095(gb|NP_311739) (ECs_3712) transcriptional regulator [ETT...  49.7    3e-07
+VFG002440(gb|WP_011204593) (bprB) two-component response regulato...  49.7    4e-07
+VFG021188(gb|WP_000801272) (fimZ) fimbria biosynthesis transcript...  48.5    8e-07
+VFG004096(gb|WP_000801270) (fimZ) fimbria biosynthesis transcript...  48.5    8e-07
+VFG000449(gb|NP_459544) (fimZ) DNA-binding response regulator [Ty...  48.5    9e-07
+VFG004099(gb|WP_024131262) (fimZ) fimbria biosynthesis transcript...  48.5    9e-07
+VFG042013(gb|WP_011004149) (RS_RS21200) LuxR family transcription...  46.2    3e-06
+VFG003539(gb|WP_011817144) (ysrR) response regulator transcriptio...  47.0    3e-06
+VFG024200(gb|WP_008262428) (devR/dosR) response regulator transcr...  45.8    6e-06
+
+
+>VFG024972(gb|WP_011401051) (bprB) two-component response regulator 
+[Bsa T3SS (VF0428) - Effector delivery system (VFC0086)] 
+[Burkholderia thailandensis E264]
+Length=223
+
+ Score = 50.4 bits (119),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 41/126 (33%), Positives = 64/126 (51%), Gaps = 21/126 (17%)
+
+Query  142  SLGSESR------FGAEQIALFELLRPWVIA-----LMKKRIHFEDAVREEAKPIAAAEV  190
+            +LGSE+R      FGA    L +   P  I      +M  R+H + ++ +EA+  +AA  
+Sbjct  89   ALGSEARAAEAIRFGASGY-LLKWCSPDGIVQAIRRVMAGRVHIDPSL-DEARVASAAG-  145
+
+Query  191  EVQPWRGLISP---LTARESDVIRLMLDGYSNKEIADRLTLSIATIKVHRRHIYAKLNVK  247
+                 R L SP   LT RE  V++L+ DG  N+EIA  L +S  T+  HR+ +  KL  +
+Sbjct  146  ----GRALASPVDELTRREKQVLKLIADGMRNREIASLLNISPKTVDCHRQRLMQKLGAR  201
+
+Query  248  SHSEIF  253
+            + + + 
+Sbjct  202  NVANVI  207
+
+
+>VFG042685(gb|CAD56976) (fimZ gene) putative regulatory protein 
+[Type 1 fimbriae (VF1211) - Adherence (VFC0001)] [Citrobacter 
+freundii str. 3009]
+Length=210
+
+ Score = 50.1 bits (118),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 25/65 (38%), Positives = 42/65 (65%), Gaps = 2/65 (3%)
+
+Query  191  EVQPWRGLIS--PLTARESDVIRLMLDGYSNKEIADRLTLSIATIKVHRRHIYAKLNVKS  248
+             +   +G+++  PL+ RE  V+R + +G SNKEIA++L LS  TI  H+ +IY+KL + +
+Sbjct  137  NINAQKGVLNDMPLSNREVTVLRYLANGLSNKEIAEQLLLSNKTISAHKANIYSKLGLHT  196
+
+Query  249  HSEIF  253
+              E+ 
+Sbjct  197  IVELI  201
+
+
+>VFG042095(gb|NP_311739) (ECs_3712) transcriptional regulator 
+[ETT2 (VF1161) - Effector delivery system (VFC0086)] [Escherichia 
+coli O157:H7 str. Sakai]
+Length=210
+
+ Score = 49.7 bits (117),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 25/54 (46%), Positives = 38/54 (70%), Gaps = 0/54 (0%)
+
+Query  200  SPLTARESDVIRLMLDGYSNKEIADRLTLSIATIKVHRRHIYAKLNVKSHSEIF  253
+            + LT RES++++L+ DG +NKEIA+ L LS  T++ HR +I  KL+V S  E+ 
+Sbjct  146  NQLTNRESEILQLIADGKTNKEIANFLQLSRKTVETHRLNIMKKLDVHSGIELI  199
+
+
+>VFG002440(gb|WP_011204593) (bprB) two-component response regulator 
+[Bsa T3SS (VF0428) - Effector delivery system (VFC0086)] 
+[Burkholderia pseudomallei K96243]
+Length=223
+
+ Score = 49.7 bits (117),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 41/126 (33%), Positives = 64/126 (51%), Gaps = 21/126 (17%)
+
+Query  142  SLGSESR------FGAEQIALFELLRPWVIA-----LMKKRIHFEDAVREEAKPIAAAEV  190
+            +LGSE+R      FGA    L +   P  I      +M  R+H + ++ +EA+  +AA  
+Sbjct  89   ALGSEARAADAIRFGASGY-LLKWCSPDGIVQAIRRVMAGRVHIDPSL-DEARVASAAG-  145
+
+Query  191  EVQPWRGLISP---LTARESDVIRLMLDGYSNKEIADRLTLSIATIKVHRRHIYAKLNVK  247
+                 R L SP   LT RE  V++L+ DG  N+EIA  L +S  T+  HR+ +  KL  +
+Sbjct  146  ----GRTLASPVDELTRREKQVLKLIADGMRNREIASLLNISPKTVDCHRQRLMQKLGAR  201
+
+Query  248  SHSEIF  253
+            + + + 
+Sbjct  202  NVATVI  207
+
+
+>VFG021188(gb|WP_000801272) (fimZ) fimbria biosynthesis transcriptional 
+regulator FimZ [Type 1 fimbriae (VF0102) - Adherence 
+(VFC0001)] [Salmonella enterica subsp. enterica serovar Heidelberg 
+str. SL476]
+Length=210
+
+ Score = 48.5 bits (114),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 24/53 (45%), Positives = 36/53 (68%), Gaps = 0/53 (0%)
+
+Query  201  PLTARESDVIRLMLDGYSNKEIADRLTLSIATIKVHRRHIYAKLNVKSHSEIF  253
+            PL+ RE  V+R + +G SNKEIA++L LS  TI  H+ +I++KL + S  E+ 
+Sbjct  149  PLSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHSIVELI  201
+
+
+>VFG004096(gb|WP_000801270) (fimZ) fimbria biosynthesis transcriptional 
+regulator FimZ [Type 1 fimbriae (VF0102) - Adherence 
+(VFC0001)] [Salmonella enterica subsp. enterica serovar Typhi 
+str. CT18]
+Length=210
+
+ Score = 48.5 bits (114),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 24/53 (45%), Positives = 36/53 (68%), Gaps = 0/53 (0%)
+
+Query  201  PLTARESDVIRLMLDGYSNKEIADRLTLSIATIKVHRRHIYAKLNVKSHSEIF  253
+            PL+ RE  V+R + +G SNKEIA++L LS  TI  H+ +I++KL + S  E+ 
+Sbjct  149  PLSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHSIVELI  201
+
+
+>VFG000449(gb|NP_459544) (fimZ) DNA-binding response regulator 
+[Type 1 fimbriae (VF0102) - Adherence (VFC0001)] [Salmonella 
+enterica subsp. enterica serovar Typhimurium str. LT2]
+Length=210
+
+ Score = 48.5 bits (114),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 24/53 (45%), Positives = 36/53 (68%), Gaps = 0/53 (0%)
+
+Query  201  PLTARESDVIRLMLDGYSNKEIADRLTLSIATIKVHRRHIYAKLNVKSHSEIF  253
+            PL+ RE  V+R + +G SNKEIA++L LS  TI  H+ +I++KL + S  E+ 
+Sbjct  149  PLSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHSIVELI  201
+
+
+>VFG004099(gb|WP_024131262) (fimZ) fimbria biosynthesis transcriptional 
+regulator FimZ [Type 1 fimbriae (VF0102) - Adherence 
+(VFC0001)] [Salmonella enterica subsp. enterica serovar Choleraesuis 
+str. SC-B67]
+Length=210
+
+ Score = 48.5 bits (114),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 24/53 (45%), Positives = 36/53 (68%), Gaps = 0/53 (0%)
+
+Query  201  PLTARESDVIRLMLDGYSNKEIADRLTLSIATIKVHRRHIYAKLNVKSHSEIF  253
+            PL+ RE  V+R + +G SNKEIA++L LS  TI  H+ +I++KL + S  E+ 
+Sbjct  149  PLSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHSIVELI  201
+
+
+>VFG042013(gb|WP_011004149) (RS_RS21200) LuxR family transcriptional 
+regulator [T3SS (VF1295) - Effector delivery system (VFC0086)] 
+[Ralstonia solanacearum GMI1000]
+Length=174
+
+ Score = 46.2 bits (108),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 22/57 (39%), Positives = 36/57 (63%), Gaps = 0/57 (0%)
+
+Query  199  ISPLTARESDVIRLMLDGYSNKEIADRLTLSIATIKVHRRHIYAKLNVKSHSEIFAL  255
+            +S LT R+ D++R    G SN EIA  L +S+ T+K H R I  +L+ ++ +E+ A+
+Sbjct  104  LSALTPRQHDILREAAHGKSNVEIAQTLHISVETVKSHVRQILMRLDARNRTELAAI  160
+
+
+>VFG003539(gb|WP_011817144) (ysrR) response regulator transcription 
+factor [Ysa TTSS (VF1025) - Effector delivery system (VFC0086)] 
+[Yersinia enterocolitica subsp. enterocolitica 8081]
+Length=236
+
+ Score = 47.0 bits (110),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 22/70 (31%), Positives = 39/70 (56%), Gaps = 0/70 (0%)
+
+Query  184  PIAAAEVEVQPWRGLISPLTARESDVIRLMLDGYSNKEIADRLTLSIATIKVHRRHIYAK  243
+            PI  A +     +     LT RE++V+R++L+G   KEI+ RL +S  T+   +   + K
+Sbjct  159  PIELASLSQSAQKNTHHTLTGRETEVLRMLLNGLKQKEISVRLNISFKTVSNTKTRAFKK  218
+
+Query  244  LNVKSHSEIF  253
+            L + S+++ F
+Sbjct  219  LGLTSNTDFF  228
+
+
+>VFG024200(gb|WP_008262428) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+indicus pranii MTCC 9506]
+Length=218
+
+ Score = 45.8 bits (107),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 23/57 (40%), Positives = 34/57 (60%), Gaps = 0/57 (0%)
+
+Query  194  PWRGLISPLTARESDVIRLMLDGYSNKEIADRLTLSIATIKVHRRHIYAKLNVKSHS  250
+            P    I+ LT RE DV+ L+  G SN EIA +L +S  T+K H   I+ KL+++  +
+Sbjct  147  PRGAAIAELTTRELDVLTLIGQGLSNTEIAGKLCISGVTVKSHIGRIFGKLDLRDRA  203
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1794544990
+
+
+Query= g3671.t1
+
+Length=261
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG042685(gb|CAD56976) (fimZ gene) putative regulatory protein [T...  49.7    4e-07
+VFG004096(gb|WP_000801270) (fimZ) fimbria biosynthesis transcript...  48.9    5e-07
+VFG021188(gb|WP_000801272) (fimZ) fimbria biosynthesis transcript...  48.9    5e-07
+VFG000449(gb|NP_459544) (fimZ) DNA-binding response regulator [Ty...  48.5    9e-07
+VFG004099(gb|WP_024131262) (fimZ) fimbria biosynthesis transcript...  48.1    1e-06
+VFG048331(gb|WP_038422996) (mrkI) LuxR family regulatory protein ...  45.8    5e-06
+VFG024200(gb|WP_008262428) (devR/dosR) response regulator transcr...  45.8    7e-06
+
+
+>VFG042685(gb|CAD56976) (fimZ gene) putative regulatory protein 
+[Type 1 fimbriae (VF1211) - Adherence (VFC0001)] [Citrobacter 
+freundii str. 3009]
+Length=210
+
+ Score = 49.7 bits (117),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 22/53 (42%), Positives = 36/53 (68%), Gaps = 0/53 (0%)
+
+Query  201  PLTARELEVGRLMLSGCSSKEIARKLAISAETVKVHRKHMYGKLGIKSQSELF  253
+            PL+ RE+ V R + +G S+KEIA +L +S +T+  H+ ++Y KLG+ +  EL 
+Sbjct  149  PLSNREVTVLRYLANGLSNKEIAEQLLLSNKTISAHKANIYSKLGLHTIVELI  201
+
+
+>VFG004096(gb|WP_000801270) (fimZ) fimbria biosynthesis transcriptional 
+regulator FimZ [Type 1 fimbriae (VF0102) - Adherence 
+(VFC0001)] [Salmonella enterica subsp. enterica serovar Typhi 
+str. CT18]
+Length=210
+
+ Score = 48.9 bits (115),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 28/82 (34%), Positives = 43/82 (52%), Gaps = 7/82 (9%)
+
+Query  172  FEDEVLNSPAAPEPGWQGSLEKVAEQMGTPLTARELEVGRLMLSGCSSKEIARKLAISAE  231
+            F  E LN  +   P   G           PL+ RE+ V R + +G S+KEIA +L +S +
+Sbjct  127  FPSETLNFISNTRPPKGG-------HHDMPLSNREVTVLRYLANGMSNKEIAEQLLLSNK  179
+
+Query  232  TVKVHRKHMYGKLGIKSQSELF  253
+            T+  H+ +++ KLG+ S  EL 
+Sbjct  180  TISAHKANIFSKLGLHSIVELI  201
+
+
+>VFG021188(gb|WP_000801272) (fimZ) fimbria biosynthesis transcriptional 
+regulator FimZ [Type 1 fimbriae (VF0102) - Adherence 
+(VFC0001)] [Salmonella enterica subsp. enterica serovar Heidelberg 
+str. SL476]
+Length=210
+
+ Score = 48.9 bits (115),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 28/82 (34%), Positives = 43/82 (52%), Gaps = 7/82 (9%)
+
+Query  172  FEDEVLNSPAAPEPGWQGSLEKVAEQMGTPLTARELEVGRLMLSGCSSKEIARKLAISAE  231
+            F  E LN  +   P   G           PL+ RE+ V R + +G S+KEIA +L +S +
+Sbjct  127  FPSETLNFISNTRPPKGG-------HHDMPLSNREVTVLRYLANGMSNKEIAEQLLLSNK  179
+
+Query  232  TVKVHRKHMYGKLGIKSQSELF  253
+            T+  H+ +++ KLG+ S  EL 
+Sbjct  180  TISAHKANIFSKLGLHSIVELI  201
+
+
+>VFG000449(gb|NP_459544) (fimZ) DNA-binding response regulator 
+[Type 1 fimbriae (VF0102) - Adherence (VFC0001)] [Salmonella 
+enterica subsp. enterica serovar Typhimurium str. LT2]
+Length=210
+
+ Score = 48.5 bits (114),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 22/53 (42%), Positives = 36/53 (68%), Gaps = 0/53 (0%)
+
+Query  201  PLTARELEVGRLMLSGCSSKEIARKLAISAETVKVHRKHMYGKLGIKSQSELF  253
+            PL+ RE+ V R + +G S+KEIA +L +S +T+  H+ +++ KLG+ S  EL 
+Sbjct  149  PLSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHSIVELI  201
+
+
+>VFG004099(gb|WP_024131262) (fimZ) fimbria biosynthesis transcriptional 
+regulator FimZ [Type 1 fimbriae (VF0102) - Adherence 
+(VFC0001)] [Salmonella enterica subsp. enterica serovar Choleraesuis 
+str. SC-B67]
+Length=210
+
+ Score = 48.1 bits (113),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 22/53 (42%), Positives = 36/53 (68%), Gaps = 0/53 (0%)
+
+Query  201  PLTARELEVGRLMLSGCSSKEIARKLAISAETVKVHRKHMYGKLGIKSQSELF  253
+            PL+ RE+ V R + +G S+KEIA +L +S +T+  H+ +++ KLG+ S  EL 
+Sbjct  149  PLSNREVTVLRYLANGMSNKEIAEQLLLSNKTISAHKANIFSKLGLHSIVELI  201
+
+
+>VFG048331(gb|WP_038422996) (mrkI) LuxR family regulatory protein 
+[Type 3 fimbriae (VF0567) - Biofilm (VFC0271)] [Klebsiella 
+oxytoca KCTC 1686]
+Length=194
+
+ Score = 45.8 bits (107),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 41/136 (30%), Positives = 65/136 (48%), Gaps = 22/136 (16%)
+
+Query  127  INVQLSGERTLCLSLGSRRRFTPEQLAVLGLVRPWVAGLMRQ--------------RLAF  172
+            I+  +S   T+ L    R+R T   L VL +V+  ++ L R+               LA 
+Sbjct  53   IHKDISAATTVALLNTLRKRLTHCALLVL-IVKSELSSLFRELLDLENLLILTEKSSLAD  111
+
+Query  173  EDEVLNSPAAPEPGWQGSLEKVAEQMGTPLTARELEVGRLMLSGCSSKEIARKLAISAET  232
+               +++ P+  E G QG   +        LTAREL+V  L+++  +SK IA  L I  +T
+Sbjct  112  YSAIISRPSTAE-GCQGLCTR------RKLTARELQVLELIIACNNSKRIAVLLDIDHKT  164
+
+Query  233  VKVHRKHMYGKLGIKS  248
+            V  H+ H+  KLG+ +
+Sbjct  165  VHSHKVHIMKKLGMNN  180
+
+
+>VFG024200(gb|WP_008262428) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+indicus pranii MTCC 9506]
+Length=218
+
+ Score = 45.8 bits (107),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 31/80 (39%), Positives = 44/80 (55%), Gaps = 7/80 (9%)
+
+Query  171  AFEDEVLNSPAAPEPGWQGSLEKVAEQMGTPLTARELEVGRLMLSGCSSKEIARKLAISA  230
+            A    VL +     PG +G+   +AE     LT REL+V  L+  G S+ EIA KL IS 
+Sbjct  131  AVTSRVLTTYRKAAPGPRGA--AIAE-----LTTRELDVLTLIGQGLSNTEIAGKLCISG  183
+
+Query  231  ETVKVHRKHMYGKLGIKSQS  250
+             TVK H   ++GKL ++ ++
+Sbjct  184  VTVKSHIGRIFGKLDLRDRA  203
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1720651961
+
+
+Query= g4898.t1
+
+Length=272
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1821372545
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

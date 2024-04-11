@@ -1,0 +1,233 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1758.t1
+
+Length=32
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.143    0.448    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 327562725
+
+
+Query= g516.t1
+
+Length=285
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG012508(gb|WP_000933675) (iroD) esterase [Salmochelin sideropho...  47.8    4e-06
+VFG012507(gb|WP_000933672) (iroD) esterase [Salmochelin sideropho...  47.8    4e-06
+VFG012970(gb|WP_000933674) (iroD) catecholate siderophore esteras...  47.4    4e-06
+VFG012506(gb|WP_000933676) (iroD) esterase [Salmochelin sideropho...  47.0    6e-06
+VFG012505(gb|WP_000933673) (iroD) esterase [Salmochelin sideropho...  47.0    6e-06
+
+
+>VFG012508(gb|WP_000933675) (iroD) esterase [Salmochelin siderophore 
+(VF0230) - Nutritional/Metabolic factor (VFC0272)] [Escherichia 
+coli APEC O1]
+Length=409
+
+ Score = 47.8 bits (112),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 53/186 (28%), Positives = 80/186 (43%), Gaps = 22/186 (12%)
+
+Query  105  LGVEQGLARLVKEGKPA-FAVVGVDGGNTYWHRRSSGGDSGAM--VLDELLPMLTSMG--  159
+            LGV   +   +  G+    AV+G+D  N +      GG S  +  +   LLPM+ +    
+Sbjct  217  LGVCAAIDAAINNGRIVPVAVLGIDNINEHERTEILGGRSKLIKDIAGHLLPMIRAEQPQ  276
+
+Query  160  ---MDTSRVGFLGWSMGGYGALLLGARLGPARTAGICAISPALF-TSFTGSTPGAFDSYD  215
+                D SR    G S+GG  AL+ GAR  P     + + SP+++ T    S PG F   D
+Sbjct  277  RQWADRSRTVLAGQSLGGISALM-GARYAPETFGLVLSHSPSMWWTPERTSRPGLFSETD  335
+
+Query  216  -DYVQHSVLGLPALNSIPLRVDCGTSDRFYFATRQFVNQLHQ-------PPAGSFSPGGH  267
+              +V   +L  P    + + +  G+      +T   V QLHQ           +   GGH
+Sbjct  336  TSWVSEHLLSAPP-QGVRISLCVGS---LEGSTVPHVQQLHQRLITAGVESHCAIYTGGH  391
+
+Query  268  DASYWR  273
+            D ++WR
+Sbjct  392  DYAWWR  397
+
+
+>VFG012507(gb|WP_000933672) (iroD) esterase [Salmochelin siderophore 
+(VF0230) - Nutritional/Metabolic factor (VFC0272)] [Escherichia 
+coli UTI89]
+Length=409
+
+ Score = 47.8 bits (112),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 53/186 (28%), Positives = 80/186 (43%), Gaps = 22/186 (12%)
+
+Query  105  LGVEQGLARLVKEGKPA-FAVVGVDGGNTYWHRRSSGGDSGAM--VLDELLPMLTSMG--  159
+            LGV   +   +  G+    AV+G+D  N +      GG S  +  +   LLPM+ +    
+Sbjct  217  LGVCAAIDAAINNGRIVPVAVLGIDNINEHERTEILGGRSKLIKDIAGHLLPMIRAEQPQ  276
+
+Query  160  ---MDTSRVGFLGWSMGGYGALLLGARLGPARTAGICAISPALF-TSFTGSTPGAFDSYD  215
+                D SR    G S+GG  AL+ GAR  P     + + SP+++ T    S PG F   D
+Sbjct  277  RQWADRSRTVLAGQSLGGISALM-GARYAPETFGLVLSHSPSMWWTPERTSRPGLFSETD  335
+
+Query  216  -DYVQHSVLGLPALNSIPLRVDCGTSDRFYFATRQFVNQLHQ-------PPAGSFSPGGH  267
+              +V   +L  P    + + +  G+      +T   V QLHQ           +   GGH
+Sbjct  336  TSWVSEHLLSAPP-QGVRISLCVGS---LEGSTVPHVQQLHQRLITAGVESHCAIYTGGH  391
+
+Query  268  DASYWR  273
+            D ++WR
+Sbjct  392  DYAWWR  397
+
+
+>VFG012970(gb|WP_000933674) (iroD) catecholate siderophore esterase 
+IroD [Salmochelin synthesis and transport (VF0983) - Nutritional/Metabolic 
+factor (VFC0272)] [Shigella dysenteriae 
+Sd197]
+Length=409
+
+ Score = 47.4 bits (111),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 52/186 (28%), Positives = 80/186 (43%), Gaps = 22/186 (12%)
+
+Query  105  LGVEQGLARLVKEGKPA-FAVVGVDGGNTYWHRRSSGGDSGAM--VLDELLPMLTSMG--  159
+            LGV   +   +  G+    AV+G+D  N +      GG S  +  + + LLPM+ +    
+Sbjct  217  LGVCAAIDAAINNGRIVPVAVLGIDNINEHERTEILGGRSKLIKDIAEHLLPMIRAEQPQ  276
+
+Query  160  ---MDTSRVGFLGWSMGGYGALLLGARLGPARTAGICAISPALF-TSFTGSTPGAFDSYD  215
+                D SR    G S+GG  AL+ GAR  P     + + SP+++ T    S P  F   D
+Sbjct  277  RQWADRSRTVLAGQSLGGISALM-GARYAPETFGLVLSHSPSMWWTPERTSRPSLFSETD  335
+
+Query  216  -DYVQHSVLGLPALNSIPLRVDCGTSDRFYFATRQFVNQLHQ-------PPAGSFSPGGH  267
+              +V   +L  P    + + +  G+      +T   V QLHQ           +   GGH
+Sbjct  336  TSWVSEHLLSAPP-QGVRISLCVGS---LEGSTVPHVQQLHQRLITAGVESHCAIYTGGH  391
+
+Query  268  DASYWR  273
+            D ++WR
+Sbjct  392  DYAWWR  397
+
+
+>VFG012506(gb|WP_000933676) (iroD) esterase [Salmochelin siderophore 
+(VF0230) - Nutritional/Metabolic factor (VFC0272)] [Escherichia 
+coli 536]
+Length=409
+
+ Score = 47.0 bits (110),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 49/168 (29%), Positives = 73/168 (43%), Gaps = 21/168 (13%)
+
+Query  122  FAVVGVDGGNTYWHRRSSGGDSGAM--VLDELLPMLTSMG-----MDTSRVGFLGWSMGG  174
+             AV+G+D  N +      GG S  +  +   LLPM+ +        D SR    G S+GG
+Sbjct  235  VAVLGIDNINEHERTEILGGRSKLIKDIAGHLLPMIRAEQPQRQWADRSRTVLAGQSLGG  294
+
+Query  175  YGALLLGARLGPARTAGICAISPALF-TSFTGSTPGAFDSYD-DYVQHSVLGLPALNSIP  232
+              AL+ GAR  P     + + SP+++ T    S PG F   D  +V   +L  P    + 
+Sbjct  295  ISALM-GARYAPETFGLVLSHSPSMWWTPERTSRPGLFSETDTSWVSEHLLSAPP-QGVR  352
+
+Query  233  LRVDCGTSDRFYFATRQFVNQLHQ-------PPAGSFSPGGHDASYWR  273
+            + +  G+      +T   V QLHQ           +   GGHD ++WR
+Sbjct  353  ISLCVGS---LEGSTVPHVQQLHQRLITAGVESHCAIYTGGHDYAWWR  397
+
+
+>VFG012505(gb|WP_000933673) (iroD) esterase [Salmochelin siderophore 
+(VF0230) - Nutritional/Metabolic factor (VFC0272)] [Escherichia 
+coli CFT073]
+Length=409
+
+ Score = 47.0 bits (110),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 49/168 (29%), Positives = 73/168 (43%), Gaps = 21/168 (13%)
+
+Query  122  FAVVGVDGGNTYWHRRSSGGDSGAM--VLDELLPMLTSMG-----MDTSRVGFLGWSMGG  174
+             AV+G+D  N +      GG S  +  +   LLPM+ +        D SR    G S+GG
+Sbjct  235  VAVLGIDNINEHERTEILGGRSKLIKDIAGHLLPMIRAEQPQRQWADRSRTVLAGQSLGG  294
+
+Query  175  YGALLLGARLGPARTAGICAISPALF-TSFTGSTPGAFDSYD-DYVQHSVLGLPALNSIP  232
+              AL+ GAR  P     + + SP+++ T    S PG F   D  +V   +L  P    + 
+Sbjct  295  ISALM-GARYAPETFGLVLSHSPSMWWTPERTSRPGLFSETDTSWVSEHLLSAPP-QGVR  352
+
+Query  233  LRVDCGTSDRFYFATRQFVNQLHQ-------PPAGSFSPGGHDASYWR  273
+            + +  G+      +T   V QLHQ           +   GGHD ++WR
+Sbjct  353  ISLCVGS---LEGSTVPHVQQLHQRLITAGVESHCAIYTGGHDYAWWR  397
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1958238690
+
+
+Query= g762.t1
+
+Length=303
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2131537149
+
+
+Query= g1226.t1
+
+Length=211
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.433    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1220392765
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

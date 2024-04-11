@@ -1,0 +1,1437 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g5182.t1
+
+Length=273
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG010519(gb|WP_010947086) (LPG_RS06795) SEL1-like repeat protein...  59.3    5e-10
+VFG010522(gb|WP_011946383) (LPC_RS07090) SEL1-like repeat protein...  58.9    6e-10
+VFG010520(gb|WP_011213655) (LPP_RS06580) SEL1-like repeat protein...  58.9    6e-10
+VFG010521(gb|WP_011215382) (LPL_RS06565) SEL1-like repeat protein...  56.6    3e-09
+VFG010524(gb|WP_021436906) (LPP_RS10995) Dot/Icm type IV secretio...  55.8    7e-09
+VFG041321(gb|WP_010947931) (lpnE) Dot/Icm type IV secretion syste...  55.8    7e-09
+VFG010512(gb|WP_015961720) (enhC) enhanced entry protein EnhC [En...  53.5    6e-08
+VFG010514(gb|WP_011947556) (enhC) enhanced entry protein EnhC [En...  52.8    1e-07
+VFG001883(gb|WP_010948339) (enhC) enhanced entry protein EnhC [En...  52.4    1e-07
+VFG010513(gb|WP_011216512) (enhC) enhanced entry protein EnhC [En...  52.4    1e-07
+VFG045712(gb|WP_003635457) (enhC) enhanced entry protein EnhC [En...  51.6    2e-07
+VFG045713(gb|WP_003631795) (LLO_RS07390) SEL1-like repeat protein...  50.4    4e-07
+VFG010517(gb|WP_041173746) (lidL) Dot/Icm type IV secretion syste...  50.4    5e-07
+VFG010516(gb|WP_072363922) (lidL) Dot/Icm type IV secretion syste...  47.8    3e-06
+VFG010518(gb|WP_077383904) (lidL) Dot/Icm type IV secretion syste...  47.8    3e-06
+VFG010515(gb|WP_010946906) (lidL) Dot/Icm type IV secretion syste...  47.4    5e-06
+
+
+>VFG010519(gb|WP_010947086) (LPG_RS06795) SEL1-like repeat protein 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=376
+
+ Score = 59.3 bits (142),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 51/184 (28%), Positives = 82/184 (45%), Gaps = 12/184 (7%)
+
+Query  31   ATLAKPDTLRPWPRIVGLYSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKM  90
+            A     D    +P ++    +AA+ G+ +AM+ L  +Y+ G+  GV  + ++A + YQK 
+Sbjct  25   AAFENGDYTTAYPHLM----QAAKEGNEEAMYLLGRMYQYGY--GVTTNYEEARNWYQKA  78
+
+Query  91   IDLDVPQGFYDMGAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGKFYIY---VAK  147
+             D +       +G M     GV    T+   +  KAA  GNP A   +G  Y     VA 
+Sbjct  79   ADKNNALAQLSLGFMYDTGKGVSQDFTEAFKWYMKAAEQGNPIAQRNIGLMYATGDGVAA  138
+
+Query  148  KKDLGLAYTHCAASQGYAPASYELGAYYKIVE---HNFPKALVYYQVSVSQGGKSAAFFL  204
+              D    +   AA QGY+ A   LG  Y + +    +  KA  +YQ +  QG +   + L
+Sbjct  139  SDDKAFNWFKKAAEQGYSKAQVNLGYQYMMGKGTPKDVKKAFEWYQKAAEQGDEKGEYSL  198
+
+Query  205  SRVF  208
+              ++
+Sbjct  199  GLLY  202
+
+
+>VFG010522(gb|WP_011946383) (LPC_RS07090) SEL1-like repeat protein 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Corby]
+Length=376
+
+ Score = 58.9 bits (141),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 52/193 (27%), Positives = 84/193 (44%), Gaps = 12/193 (6%)
+
+Query  31   ATLAKPDTLRPWPRIVGLYSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKM  90
+            A     D    +P ++    +AA+ G+ +AM+ L  +Y+ G+  GV  + ++A + YQK 
+Sbjct  25   AAFENGDYTTAYPHLM----QAAKEGNEEAMYLLGRMYQYGY--GVTTNYEEARNWYQKA  78
+
+Query  91   IDLDVPQGFYDMGAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGKFYIY---VAK  147
+             D +       +G M     GV     +   +  KAA  GNP A   +G  Y     VA 
+Sbjct  79   ADKNNALAQLSLGFMYDTGKGVSQDFAEAFKWYMKAAEQGNPIAQRNIGLMYATGDGVAA  138
+
+Query  148  KKDLGLAYTHCAASQGYAPASYELGAYYKIVE---HNFPKALVYYQVSVSQGGKSAAFFL  204
+              D    +   AA QGY+ A   LG  Y + +    +  KA  +YQ +  QG +   + L
+Sbjct  139  SDDKAFTWFKKAAEQGYSKAQVNLGYQYMMGKGTPKDVKKAFEWYQKAAEQGDEKGEYSL  198
+
+Query  205  SRVFGSETPPASA  217
+              ++  +    SA
+Sbjct  199  GLLYTGQEGGISA  211
+
+
+>VFG010520(gb|WP_011213655) (LPP_RS06580) SEL1-like repeat protein 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Paris]
+Length=376
+
+ Score = 58.9 bits (141),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 52/193 (27%), Positives = 84/193 (44%), Gaps = 12/193 (6%)
+
+Query  31   ATLAKPDTLRPWPRIVGLYSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKM  90
+            A     D    +P ++    +AA+ G+ +AM+ L  +Y+ G+  GV  + ++A + YQK 
+Sbjct  25   AAFENGDYTTAYPHLM----QAAKEGNEEAMYLLGRMYQYGY--GVTTNYEEARNWYQKA  78
+
+Query  91   IDLDVPQGFYDMGAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGKFYIY---VAK  147
+             D +       +G M     GV     +   +  KAA  GNP A   +G  Y     VA 
+Sbjct  79   ADKNNALAQLSLGFMYDTGKGVSQDFAEAFKWYMKAAEQGNPIAQRNIGLMYATGDGVAA  138
+
+Query  148  KKDLGLAYTHCAASQGYAPASYELGAYYKIVE---HNFPKALVYYQVSVSQGGKSAAFFL  204
+              D    +   AA QGY+ A   LG  Y + +    +  KA  +YQ +  QG +   + L
+Sbjct  139  SDDKAFTWFKKAAEQGYSKAQVNLGYQYMMGKGTPKDVKKAFEWYQKAAEQGDEKGEYSL  198
+
+Query  205  SRVFGSETPPASA  217
+              ++  +    SA
+Sbjct  199  GLLYTGQEGGISA  211
+
+
+>VFG010521(gb|WP_011215382) (LPL_RS06565) SEL1-like repeat protein 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Lens]
+Length=376
+
+ Score = 56.6 bits (135),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 51/193 (26%), Positives = 83/193 (43%), Gaps = 12/193 (6%)
+
+Query  31   ATLAKPDTLRPWPRIVGLYSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKM  90
+            A     D    +P ++    +AA+ G+ +AM+ L  +Y+ G+  GV  + ++A + YQK 
+Sbjct  25   AAFENGDYTTAYPHLM----QAAKDGNEEAMYLLGRMYQYGY--GVTTNYEEARNWYQKA  78
+
+Query  91   IDLDVPQGFYDMGAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGKFYIY---VAK  147
+             D +       +G M     GV     +   +  KAA  GNP A   +G  Y     V  
+Sbjct  79   ADKNDALAQLSLGFMYDTGKGVSQDFAEAFKWYMKAAEQGNPIAQRNIGLMYATGDGVTA  138
+
+Query  148  KKDLGLAYTHCAASQGYAPASYELGAYYKIVE---HNFPKALVYYQVSVSQGGKSAAFFL  204
+              D    +   AA QGY+ A   LG  Y + +    +  KA  +YQ +  QG +   + L
+Sbjct  139  SDDKAFTWFKKAAEQGYSKAQVNLGYQYMMGKGTPKDVKKAFEWYQKAAEQGDEKGEYSL  198
+
+Query  205  SRVFGSETPPASA  217
+              ++  +    SA
+Sbjct  199  GLLYTGQEGGISA  211
+
+
+>VFG010524(gb|WP_021436906) (LPP_RS10995) Dot/Icm type IV secretion 
+system effector LpnE [Enh loci (VF0163) - Others (VFC0346)] 
+[Legionella pneumophila str. Paris]
+Length=375
+
+ Score = 55.8 bits (133),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 51/166 (31%), Positives = 75/166 (45%), Gaps = 8/166 (5%)
+
+Query  49   YSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKMIDLDVPQGFYDMGAMIGN  108
+            Y KAA++ +    + L  +Y TG   GV +++  A+  Y+K  +         +G     
+Sbjct  114  YQKAADQNNADGQYGLGYMYDTG--TGVPQNSDTAMVWYKKAAEQGNSNAALAIGYNYDT  171
+
+Query  109  RAGVKNPATDGLTFLDKAASLGNPPALTELGKFYIY---VAKKKDLGLAYTHCAASQGYA  165
+              GVK   T  L +  KAA LGN  A   LG  Y     V K       Y   AA+QG+A
+Sbjct  172  GTGVKKDKTQALNWYAKAADLGNASAQYNLGLMYEQGDGVPKDYQKAAEYFEKAANQGHA  231
+
+Query  166  PASYELGAYY---KIVEHNFPKALVYYQVSVSQGGKSAAFFLSRVF  208
+             +  ELG  Y   K+ + +  KA  +YQ S   G  +A F L+ ++
+Sbjct  232  KSQLELGYLYDSGKLGKSDLQKAAFWYQKSADLGNANAQFNLADMY  277
+
+
+ Score = 52.8 bits (125),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 47/178 (26%), Positives = 76/178 (43%), Gaps = 19/178 (11%)
+
+Query  16   LPPLDPQADAWYREAATLAKPDTL--------------RPWPRIVGLYSKAAERGHWKAM  61
+            +P     A  WY++AA     +                +   + +  Y+KAA+ G+  A 
+Sbjct  139  VPQNSDTAMVWYKKAAEQGNSNAALAIGYNYDTGTGVKKDKTQALNWYAKAADLGNASAQ  198
+
+Query  62   HNLANLYRTGWPGGVEKDTQKALDLYQKMIDLDVPQGFYDMGAMIGNRAGVKNPATDGLT  121
+            +NL  +Y  G   GV KD QKA + ++K  +    +   ++G +  +    K+       
+Sbjct  199  YNLGLMYEQG--DGVPKDYQKAAEYFEKAANQGHAKSQLELGYLYDSGKLGKSDLQKAAF  256
+
+Query  122  FLDKAASLGNPPALTELGKFYIY---VAKKKDLGLAYTHCAASQGYAPASYELGAYYK  176
+            +  K+A LGN  A   L   Y Y   V K  +  + +   AA QGY  A  +LG YY+
+Sbjct  257  WYQKSADLGNANAQFNLADMYFYGDGVGKSLEQSVYWMQKAAEQGYGKAQNQLGIYYR  314
+
+
+ Score = 49.3 bits (116),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 53/189 (28%), Positives = 77/189 (41%), Gaps = 14/189 (7%)
+
+Query  52   AAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKMIDLDVPQGFYDMGAMIGNRAG  111
+            +A +G+  A   LA  Y   W     +  +KA + YQK  D +   G Y +G M     G
+Sbjct  82   SANQGNVDAQVLLAGFY---WYLNTPEGYKKAFEWYQKAADQNNADGQYGLGYMYDTGTG  138
+
+Query  112  VKNPATDGLTFLDKAASLGNPPALTELGKFY---IYVAKKKDLGLAYTHCAASQGYAPAS  168
+            V   +   + +  KAA  GN  A   +G  Y     V K K   L +   AA  G A A 
+Sbjct  139  VPQNSDTAMVWYKKAAEQGNSNAALAIGYNYDTGTGVKKDKTQALNWYAKAADLGNASAQ  198
+
+Query  169  YELGAYYKI---VEHNFPKALVYYQVSVSQGGKSAAFFLSRVF-----GSETPPASAMWY  220
+            Y LG  Y+    V  ++ KA  Y++ + +QG   +   L  ++     G      +A WY
+Sbjct  199  YNLGLMYEQGDGVPKDYQKAAEYFEKAANQGHAKSQLELGYLYDSGKLGKSDLQKAAFWY  258
+
+Query  221  APDEKLREA  229
+                 L  A
+Sbjct  259  QKSADLGNA  267
+
+
+>VFG041321(gb|WP_010947931) (lpnE) Dot/Icm type IV secretion system 
+effector LpnE [Dot/Icm T4SS secreted effectors (VF0798) 
+- Effector delivery system (VFC0086)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=375
+
+ Score = 55.8 bits (133),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 51/166 (31%), Positives = 75/166 (45%), Gaps = 8/166 (5%)
+
+Query  49   YSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKMIDLDVPQGFYDMGAMIGN  108
+            Y KAA++ +    + L  +Y TG   GV +++  A+  Y+K  +         +G     
+Sbjct  114  YQKAADQNNADGQYGLGYMYDTG--TGVPQNSDTAMVWYKKAAEQGNSNAALAIGYNYDT  171
+
+Query  109  RAGVKNPATDGLTFLDKAASLGNPPALTELGKFYIY---VAKKKDLGLAYTHCAASQGYA  165
+              GVK   T  L +  KAA LGN  A   LG  Y     V K       Y   AA+QG+A
+Sbjct  172  GTGVKKDKTQALNWYAKAADLGNASAQYNLGLMYEQGDGVPKDYQKAAEYFEKAANQGHA  231
+
+Query  166  PASYELGAYY---KIVEHNFPKALVYYQVSVSQGGKSAAFFLSRVF  208
+             +  ELG  Y   K+ + +  KA  +YQ S   G  +A F L+ ++
+Sbjct  232  KSQLELGYLYDSGKLGKSDLQKAAFWYQKSADLGNANAQFNLADMY  277
+
+
+ Score = 52.4 bits (124),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 47/178 (26%), Positives = 76/178 (43%), Gaps = 19/178 (11%)
+
+Query  16   LPPLDPQADAWYREAATLAKPDTL--------------RPWPRIVGLYSKAAERGHWKAM  61
+            +P     A  WY++AA     +                +   + +  Y+KAA+ G+  A 
+Sbjct  139  VPQNSDTAMVWYKKAAEQGNSNAALAIGYNYDTGTGVKKDKTQALNWYAKAADLGNASAQ  198
+
+Query  62   HNLANLYRTGWPGGVEKDTQKALDLYQKMIDLDVPQGFYDMGAMIGNRAGVKNPATDGLT  121
+            +NL  +Y  G   GV KD QKA + ++K  +    +   ++G +  +    K+       
+Sbjct  199  YNLGLMYEQG--DGVPKDYQKAAEYFEKAANQGHAKSQLELGYLYDSGKLGKSDLQKAAF  256
+
+Query  122  FLDKAASLGNPPALTELGKFYIY---VAKKKDLGLAYTHCAASQGYAPASYELGAYYK  176
+            +  K+A LGN  A   L   Y Y   V K  +  + +   AA QGY  A  +LG YY+
+Sbjct  257  WYQKSADLGNANAQFNLADMYFYGDGVGKSLEQSVYWMQKAAEQGYGKAQNQLGIYYR  314
+
+
+ Score = 49.3 bits (116),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 53/189 (28%), Positives = 77/189 (41%), Gaps = 14/189 (7%)
+
+Query  52   AAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKMIDLDVPQGFYDMGAMIGNRAG  111
+            +A +G+  A   LA  Y   W     +  +KA + YQK  D +   G Y +G M     G
+Sbjct  82   SANQGNVDAQVLLAGFY---WYLNTPEGYKKAFEWYQKAADQNNADGQYGLGYMYDTGTG  138
+
+Query  112  VKNPATDGLTFLDKAASLGNPPALTELGKFY---IYVAKKKDLGLAYTHCAASQGYAPAS  168
+            V   +   + +  KAA  GN  A   +G  Y     V K K   L +   AA  G A A 
+Sbjct  139  VPQNSDTAMVWYKKAAEQGNSNAALAIGYNYDTGTGVKKDKTQALNWYAKAADLGNASAQ  198
+
+Query  169  YELGAYYKI---VEHNFPKALVYYQVSVSQGGKSAAFFLSRVF-----GSETPPASAMWY  220
+            Y LG  Y+    V  ++ KA  Y++ + +QG   +   L  ++     G      +A WY
+Sbjct  199  YNLGLMYEQGDGVPKDYQKAAEYFEKAANQGHAKSQLELGYLYDSGKLGKSDLQKAAFWY  258
+
+Query  221  APDEKLREA  229
+                 L  A
+Sbjct  259  QKSADLGNA  267
+
+
+>VFG010512(gb|WP_015961720) (enhC) enhanced entry protein EnhC 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Paris]
+Length=1200
+
+ Score = 53.5 bits (127),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 34/99 (34%), Positives = 56/99 (57%), Gaps = 5/99 (5%)
+
+Query  119  GLTFLDKAASLGNPPALTELGKFYI---YVAKKKDLGLAYTHCAASQGYAPASYELGAYY  175
+            G+ +L+KAA  G+P ALTELG+FY+    VAK    G+   + AAS+ YAPA  ELG   
+Sbjct  175  GIIWLNKAAENGDPKALTELGRFYVAGQMVAKDTSKGVELLNKAASEQYAPAMLELGK-L  233
+
+Query  176  KIVEHNFPKALVYYQVSVSQGGKSAAFFLSRVFGSETPP  214
+             ++++ + +A+ +   +  Q    A   L+ ++  +  P
+Sbjct  234  ALMQNQYDEAIQWLNKAAKQ-STEATLELAHIYLQDKSP  271
+
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 41/137 (30%), Positives = 63/137 (46%), Gaps = 5/137 (4%)
+
+Query  42    WPRIVGLYSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKMIDLDVPQGFYD  101
+             + + + L+ +A+E+G  +AM  LA +Y  G   G  ++ Q+AL  Y+K   L      Y 
+Sbjct  951   YSKALSLFKEASEKGAPEAMSQLAGMYFYGL--GQPRNEQQALVWYKKAASLGNGNALYA  1008
+
+Query  102   MGAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGKFYIY---VAKKKDLGLAYTHC  158
+             +G +     GVK    D L +   A+  GN  A+  L + Y Y   V K      +    
+Sbjct  1009  LGLLSETGVGVKLDFPDALRYYQDASDKGNEKAMLALARMYHYGLGVEKDHKRSASIYQK  1068
+
+Query  159   AASQGYAPASYELGAYY  175
+              A +  A A Y+LG YY
+Sbjct  1069  LAQKQNAYAQYQLGTYY  1085
+
+
+ Score = 47.8 bits (112),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 54/198 (27%), Positives = 83/198 (42%), Gaps = 40/198 (20%)
+
+Query  49    YSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQK----MIDLDVPQGF-----  99
+             Y+ +AE+G+ +A + L   Y+ G  G  E D   A   YQK    +   DV  GF     
+Sbjct  854   YTASAEQGNPEAQYLLGQFYQLGETG--EPDYNLAKHWYQKAAKHLSKADVALGFIYETV  911
+
+Query  100   ----------YDMGAMIGNRAGVKNPA-------------TDGLTFLDKAASLGNPPALT  136
+                       Y+  A  G+  G  N A             +  L+   +A+  G P A++
+Sbjct  912   DDNYAQALKAYENAAAKGDMLGAYNLALMYEYGKGVPVNYSKALSLFKEASEKGAPEAMS  971
+
+Query  137   ELGKFYIYVA---KKKDLGLAYTHCAASQGYAPASYELGAYYKI---VEHNFPKALVYYQ  190
+             +L   Y Y     + +   L +   AAS G   A Y LG   +    V+ +FP AL YYQ
+Sbjct  972   QLAGMYFYGLGQPRNEQQALVWYKKAASLGNGNALYALGLLSETGVGVKLDFPDALRYYQ  1031
+
+Query  191   VSVSQGGKSAAFFLSRVF  208
+              +  +G + A   L+R++
+Sbjct  1032  DASDKGNEKAMLALARMY  1049
+
+
+>VFG010514(gb|WP_011947556) (enhC) enhanced entry protein EnhC 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Corby]
+Length=1200
+
+ Score = 52.8 bits (125),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 34/99 (34%), Positives = 56/99 (57%), Gaps = 5/99 (5%)
+
+Query  119  GLTFLDKAASLGNPPALTELGKFYI---YVAKKKDLGLAYTHCAASQGYAPASYELGAYY  175
+            G+ +L+KAA  G+P ALTELG+FY+    VAK    G+   + AAS+ YAPA  ELG   
+Sbjct  175  GIIWLNKAAENGDPKALTELGRFYVAGQMVAKDTAKGVELLNKAASEQYAPAMLELGK-L  233
+
+Query  176  KIVEHNFPKALVYYQVSVSQGGKSAAFFLSRVFGSETPP  214
+             ++++ + +A+ +   +  Q    A   L+ ++  +  P
+Sbjct  234  ALMQNQYDEAIQWLNKAAKQ-STEATLELAHIYLQDKSP  271
+
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 41/137 (30%), Positives = 63/137 (46%), Gaps = 5/137 (4%)
+
+Query  42    WPRIVGLYSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKMIDLDVPQGFYD  101
+             + + + L+ +A+E+G  +AM  LA +Y  G   G  ++ Q+AL  Y+K   L      Y 
+Sbjct  951   YSKALSLFKEASEKGAPEAMSQLAGMYFYGL--GQPRNEQQALVWYKKAASLGNGNALYA  1008
+
+Query  102   MGAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGKFYIY---VAKKKDLGLAYTHC  158
+             +G +     GVK    D L +   A+  GN  A+  L + Y Y   V K      +    
+Sbjct  1009  LGLLSETGVGVKLDFPDALRYYQDASDKGNEKAMLALARMYHYGLGVEKDHKRSASIYQK  1068
+
+Query  159   AASQGYAPASYELGAYY  175
+              A +  A A Y+LG YY
+Sbjct  1069  LAQKQNAYAQYQLGTYY  1085
+
+
+ Score = 47.4 bits (111),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 54/198 (27%), Positives = 83/198 (42%), Gaps = 40/198 (20%)
+
+Query  49    YSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQK----MIDLDVPQGF-----  99
+             Y+ +AE+G+ +A + L   Y+ G  G  E D   A   YQK    +   DV  GF     
+Sbjct  854   YTASAEQGNPEAQYLLGQFYQLGETG--EPDYNLAKHWYQKAAKHLSKADVALGFIYETV  911
+
+Query  100   ----------YDMGAMIGNRAGVKNPA-------------TDGLTFLDKAASLGNPPALT  136
+                       Y+  A  G+  G  N A             +  L+   +A+  G P A++
+Sbjct  912   DDNYAQALKAYENAAAKGDMLGAYNLALMYEYGKGVPVNYSKALSLFKEASEKGAPEAMS  971
+
+Query  137   ELGKFYIYVA---KKKDLGLAYTHCAASQGYAPASYELGAYYKI---VEHNFPKALVYYQ  190
+             +L   Y Y     + +   L +   AAS G   A Y LG   +    V+ +FP AL YYQ
+Sbjct  972   QLAGMYFYGLGQPRNEQQALVWYKKAASLGNGNALYALGLLSETGVGVKLDFPDALRYYQ  1031
+
+Query  191   VSVSQGGKSAAFFLSRVF  208
+              +  +G + A   L+R++
+Sbjct  1032  DASDKGNEKAMLALARMY  1049
+
+
+>VFG001883(gb|WP_010948339) (enhC) enhanced entry protein EnhC 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=1200
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 41/137 (30%), Positives = 63/137 (46%), Gaps = 5/137 (4%)
+
+Query  42    WPRIVGLYSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKMIDLDVPQGFYD  101
+             + + + L+ +A+E+G  +AM  LA +Y  G   G  ++ Q+AL  Y+K   L      Y 
+Sbjct  951   YSKALSLFKEASEKGAPEAMSQLAGMYFYGL--GQPRNEQQALVWYKKAASLGNGNALYA  1008
+
+Query  102   MGAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGKFYIY---VAKKKDLGLAYTHC  158
+             +G +     GVK    D L +   A+  GN  A+  L + Y Y   V K      +    
+Sbjct  1009  LGLLSETGVGVKLDFPDALRYYQDASDKGNEKAMLALARMYHYGLGVEKDHKRSASIYQK  1068
+
+Query  159   AASQGYAPASYELGAYY  175
+              A +  A A Y+LG YY
+Sbjct  1069  LAQKQNAYAQYQLGTYY  1085
+
+
+ Score = 51.2 bits (121),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 33/99 (33%), Positives = 55/99 (56%), Gaps = 5/99 (5%)
+
+Query  119  GLTFLDKAASLGNPPALTELGKFYI---YVAKKKDLGLAYTHCAASQGYAPASYELGAYY  175
+            G+ +L+KAA  G+P ALTELG+FY+    V K    G+   + AAS+ YAPA  ELG   
+Sbjct  175  GIIWLNKAAENGDPKALTELGRFYVAGQMVTKDTAKGVELLNKAASEQYAPAMLELGK-L  233
+
+Query  176  KIVEHNFPKALVYYQVSVSQGGKSAAFFLSRVFGSETPP  214
+             ++++ + +A+ +   +  Q    A   L+ ++  +  P
+Sbjct  234  ALMQNQYDEAIQWLNKAAKQ-STEATLELAHIYLQDKSP  271
+
+
+>VFG010513(gb|WP_011216512) (enhC) enhanced entry protein EnhC 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Lens]
+Length=1200
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 41/137 (30%), Positives = 63/137 (46%), Gaps = 5/137 (4%)
+
+Query  42    WPRIVGLYSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKMIDLDVPQGFYD  101
+             + + + L+ +A+E+G  +AM  LA +Y  G   G  ++ Q+AL  Y+K   L      Y 
+Sbjct  951   YSKALSLFKEASEKGAPEAMSQLAGMYFYGL--GQPRNEQQALVWYKKAASLGNGNALYA  1008
+
+Query  102   MGAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGKFYIY---VAKKKDLGLAYTHC  158
+             +G +     GVK    D L +   A+  GN  A+  L + Y Y   V K      +    
+Sbjct  1009  LGLLSETGVGVKLDFPDALRYYQDASDKGNEKAMLALARMYHYGLGVEKDHKRSASIYQK  1068
+
+Query  159   AASQGYAPASYELGAYY  175
+              A +  A A Y+LG YY
+Sbjct  1069  LAQKQNAYAQYQLGTYY  1085
+
+
+ Score = 50.4 bits (119),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 33/99 (33%), Positives = 55/99 (56%), Gaps = 5/99 (5%)
+
+Query  119  GLTFLDKAASLGNPPALTELGKFYI---YVAKKKDLGLAYTHCAASQGYAPASYELGAYY  175
+            G+ +L+KAA  G+P ALTELG+FY+    VAK    G+   + AAS+ Y PA  ELG   
+Sbjct  175  GIIWLNKAAENGDPKALTELGRFYVAGQMVAKDTAKGVELLNKAASEQYTPAMLELGK-L  233
+
+Query  176  KIVEHNFPKALVYYQVSVSQGGKSAAFFLSRVFGSETPP  214
+             ++++ + +A+ +   +  Q    A   L+ ++  +  P
+Sbjct  234  ALMQNQYDEAIQWLNKAEEQ-STEATLELAHIYLQDKSP  271
+
+
+>VFG045712(gb|WP_003635457) (enhC) enhanced entry protein EnhC 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella longbeachae 
+NSW150]
+Length=1201
+
+ Score = 51.6 bits (122),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 38/131 (29%), Positives = 61/131 (47%), Gaps = 5/131 (4%)
+
+Query  48    LYSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKMIDLDVPQGFYDMGAMIG  107
+              +++AA +G  +AM+ L  +Y  G   G  +DTQ+AL  Y+K  +       Y +G +  
+Sbjct  958   FFAEAANQGVHEAMNQLGTIYFYGL--GQARDTQQALAWYKKAAEAGNANALYQLGLLSE  1015
+
+Query  108   NRAGVKNPATDGLTFLDKAASLGNPPALTELGKFYIY---VAKKKDLGLAYTHCAASQGY  164
+                  K    D L +  ++A  GN  A+  L + Y Y   V K   +  ++    A +  
+Sbjct  1016  TGVITKLDFNDALKYYQQSADKGNEKAMLALARMYHYGLGVEKDPKMAASFYQKLALRQN  1075
+
+Query  165   APASYELGAYY  175
+             A A Y+LG YY
+Sbjct  1076  AYAQYQLGTYY  1086
+
+
+ Score = 50.4 bits (119),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 59/228 (26%), Positives = 89/228 (39%), Gaps = 48/228 (21%)
+
+Query  23    ADAWYREAATLAKPDTLRP-----------WPRIVGLYSKAAERGHWKAMHNLANLYRTG  71
+             A  WY++AAT A P+ L             +P+ +  Y KAA +G     ++L  +Y  G
+Sbjct  887   AQEWYQKAAT-ALPEALVALGFMHETIDDNYPKALKEYEKAAVKGDALGTYDLGLMYLYG  945
+
+Query  72    WPGGVEKDTQKALDLYQKMIDLDVPQGFYDMGAMIGNRAGVKNPATDGLTFLDKAASLGN  131
+                G+  D QKA D + +  +  V +    +G +     G        L +  KAA  GN
+Sbjct  946   --KGIPVDYQKARDFFAEAANQGVHEAMNQLGTIYFYGLGQARDTQQALAWYKKAAEAGN  1003
+
+Query  132   PPALTELGKFYIYVAKKKDLGLAYTHCAASQGYAPASYELGAYYKIVEHNFPKALVYYQV  191
+               AL +LG                              E G    I + +F  AL YYQ 
+Sbjct  1004  ANALYQLGLL---------------------------SETGV---ITKLDFNDALKYYQQ  1033
+
+Query  192   SVSQGGKSAAFFLSRVF----GSETPPASAMWYAPDEKLREAYYSIYK  235
+             S  +G + A   L+R++    G E  P  A  +     LR+  Y+ Y+
+Sbjct  1034  SADKGNEKAMLALARMYHYGLGVEKDPKMAASFYQKLALRQNAYAQYQ  1081
+
+
+ Score = 50.1 bits (118),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 34/94 (36%), Positives = 51/94 (54%), Gaps = 6/94 (6%)
+
+Query  119  GLTFLDKAASLGNPPALTELGKFYI---YVAKKKDLGLAYTHCAASQGYAPASYELGAYY  175
+            GL +L+K+ +  NP ALTELG  YI    V K ++ G+   + A SQG+APA   LG   
+Sbjct  174  GLIWLNKSVANNNPQALTELGNLYIEGKLVDKDENKGIELLNRAVSQGFAPAMVALGEL-  232
+
+Query  176  KIVEHNF-PKALVYYQVSVSQGGKSAAFFLSRVF  208
+              +EHN   +AL ++  +  Q    A   L+ ++
+Sbjct  233  -ALEHNQKEQALEWFNKASKQQNDQAYLDLAHIY  265
+
+
+>VFG045713(gb|WP_003631795) (LLO_RS07390) SEL1-like repeat protein 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella longbeachae 
+NSW150]
+Length=376
+
+ Score = 50.4 bits (119),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 46/169 (27%), Positives = 75/169 (44%), Gaps = 8/169 (5%)
+
+Query  51   KAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKMIDLDVPQGFYDMGAMIGNRA  110
+            +AA  G+ +AM+ L  +++ G   GV K+ ++AL  YQK  + + P     +G M     
+Sbjct  41   QAARDGNIEAMYLLGRMFQYG--QGVSKNHEEALKWYQKSAEKNYPLAQLSLGFMYDLGE  98
+
+Query  111  GVKNPATDGLTFLDKAASLGNPPALTELGKFYIY---VAKKKDLGLAYTHCAASQGYAPA  167
+            GVK    +   +  K+A  GN  A   +   Y     V   K +   +   +A QGY+ A
+Sbjct  99   GVKQNFPEAFKWYMKSAQQGNAIAQRNIALMYSTGDGVQANKKMAFDWFEKSAKQGYSKA  158
+
+Query  168  SYELGAYYKIVE---HNFPKALVYYQVSVSQGGKSAAFFLSRVFGSETP  213
+               L   Y + E    +  KA  +YQ +  QG   A + L  ++  + P
+Sbjct  159  QVNLAYDYIMGEGTKKDVNKAFYWYQKAAEQGDAKAEYSLGLLYTGQQP  207
+
+
+>VFG010517(gb|WP_041173746) (lidL) Dot/Icm type IV secretion system 
+effector LidL [Enh loci (VF0163) - Others (VFC0346)] [Legionella 
+pneumophila str. Lens]
+Length=489
+
+ Score = 50.4 bits (119),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 46/172 (27%), Positives = 77/172 (45%), Gaps = 8/172 (5%)
+
+Query  49   YSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKMIDLDVPQGFYDMGAMIGN  108
+            Y KAA++G  +A +NL  LY  G   GV +++Q+A+  ++K  +  +  G  ++G +  N
+Sbjct  71   YQKAADQGQAEAQNNLGVLYLKG--EGVSQNSQQAMHWFKKASEQGLAIGQNNIGILYEN  128
+
+Query  109  RAGVKNPATDGLTFLDKAASLGNPPALTELGKFYIY---VAKKKDLGLAYTHCAASQGYA  165
+              GVK        +  KAA  GN      L   Y+Y   + K     + +   AA QG  
+Sbjct  129  GLGVKKDLGQAFIWYQKAAEGGNSDGQYNLAVMYMYGNGIPKDIKKAIHWYIKAAEQGDL  188
+
+Query  166  PASYELGAYYKIVEH---NFPKALVYYQVSVSQGGKSAAFFLSRVFGSETPP  214
+             A   LG  Y+  E    +   A+ +Y  + ++G   A   L  ++ +  P 
+Sbjct  189  DAQNNLGVLYERGEEVPRDLKAAISWYTRAANEGSLIAQTNLGVLYMTGDPS  240
+
+
+>VFG010516(gb|WP_072363922) (lidL) Dot/Icm type IV secretion system 
+effector LidL [Enh loci (VF0163) - Others (VFC0346)] [Legionella 
+pneumophila str. Paris]
+Length=494
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 46/172 (27%), Positives = 77/172 (45%), Gaps = 8/172 (5%)
+
+Query  49   YSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKMIDLDVPQGFYDMGAMIGN  108
+            Y KAA++G  +A +NL  LY  G   GV +++Q+A+  ++K  +  +  G  ++G +  N
+Sbjct  76   YQKAADQGQAEAQNNLGVLYLKG--EGVPQNSQQAMYWFKKASEQGLAIGQNNIGILYEN  133
+
+Query  109  RAGVKNPATDGLTFLDKAASLGNPPALTELGKFYIY---VAKKKDLGLAYTHCAASQGYA  165
+              GVK        +  KAA  GN      L   Y+Y   + K     + +   AA QG  
+Sbjct  134  GLGVKKDLGQAFIWYQKAAEGGNSDGQYNLAVMYMYGNGIPKDIKKAIHWYIKAAEQGDL  193
+
+Query  166  PASYELGAYYKIVEH---NFPKALVYYQVSVSQGGKSAAFFLSRVFGSETPP  214
+             A   LG  Y+  E    +   A+ +Y  + ++G   A   L  ++ +  P 
+Sbjct  194  DAQNNLGVLYERGEEVPRDLKAAISWYTRAANEGSLIAQTNLGVLYMTGDPS  245
+
+
+>VFG010518(gb|WP_077383904) (lidL) Dot/Icm type IV secretion system 
+effector LidL [Enh loci (VF0163) - Others (VFC0346)] [Legionella 
+pneumophila str. Corby]
+Length=494
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 46/172 (27%), Positives = 77/172 (45%), Gaps = 8/172 (5%)
+
+Query  49   YSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKMIDLDVPQGFYDMGAMIGN  108
+            Y KAA++G  +A +NL  LY  G   GV +++Q+A+  ++K  +  +  G  ++G +  N
+Sbjct  76   YQKAADQGQAEAQNNLGVLYLKG--EGVPQNSQQAMYWFKKASEQGLAIGQNNIGILYEN  133
+
+Query  109  RAGVKNPATDGLTFLDKAASLGNPPALTELGKFYIY---VAKKKDLGLAYTHCAASQGYA  165
+              GVK        +  KAA  GN      L   Y+Y   + K     + +   AA QG  
+Sbjct  134  GLGVKKDLGQAFIWYQKAAEGGNSDGQYNLAVMYMYGNGIPKDIKKAIHWYIKAAEQGDL  193
+
+Query  166  PASYELGAYYKIVEH---NFPKALVYYQVSVSQGGKSAAFFLSRVFGSETPP  214
+             A   LG  Y+  E    +   A+ +Y  + ++G   A   L  ++ +  P 
+Sbjct  194  DAQNNLGVLYERGEEVPRDLKAAISWYTRAANEGSLIAQTNLGVLYMTGDPS  245
+
+
+>VFG010515(gb|WP_010946906) (lidL) Dot/Icm type IV secretion system 
+effector LidL [Dot/Icm T4SS secreted effectors (VF0798) 
+- Effector delivery system (VFC0086)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=495
+
+ Score = 47.4 bits (111),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 46/172 (27%), Positives = 77/172 (45%), Gaps = 8/172 (5%)
+
+Query  49   YSKAAERGHWKAMHNLANLYRTGWPGGVEKDTQKALDLYQKMIDLDVPQGFYDMGAMIGN  108
+            Y KAA++G  +A +NL  LY  G   GV +++Q+A+  ++K  +  +  G  ++G +  N
+Sbjct  76   YQKAADQGQAEAQNNLGVLYLKG--EGVPQNSQQAMYWFKKASEQGLAIGQNNIGILYEN  133
+
+Query  109  RAGVKNPATDGLTFLDKAASLGNPPALTELGKFYIY---VAKKKDLGLAYTHCAASQGYA  165
+              GVK        +  KAA  GN      L   Y+Y   + K     + +   AA QG  
+Sbjct  134  GLGVKKDPGQAFIWYQKAAEGGNSDGQYNLAVMYMYGNGIPKDIKKAIHWYIKAAEQGDL  193
+
+Query  166  PASYELGAYYKIVEH---NFPKALVYYQVSVSQGGKSAAFFLSRVFGSETPP  214
+             A   LG  Y+  E    +   A+ +Y  + ++G   A   L  ++ +  P 
+Sbjct  194  DAQNNLGVLYERGEEVPRDLKAAISWYTRAANEGSLIAQTNLGVLYMTGDPS  245
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.136    0.430    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1831900710
+
+
+Query= g5183.t1
+
+Length=273
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG010519(gb|WP_010947086) (LPG_RS06795) SEL1-like repeat protein...  55.1    1e-08
+VFG010522(gb|WP_011946383) (LPC_RS07090) SEL1-like repeat protein...  54.3    2e-08
+VFG041321(gb|WP_010947931) (lpnE) Dot/Icm type IV secretion syste...  53.9    3e-08
+VFG010512(gb|WP_015961720) (enhC) enhanced entry protein EnhC [En...  54.7    3e-08
+VFG010524(gb|WP_021436906) (LPP_RS10995) Dot/Icm type IV secretio...  53.9    3e-08
+VFG010520(gb|WP_011213655) (LPP_RS06580) SEL1-like repeat protein...  53.9    3e-08
+VFG010514(gb|WP_011947556) (enhC) enhanced entry protein EnhC [En...  54.3    4e-08
+VFG001883(gb|WP_010948339) (enhC) enhanced entry protein EnhC [En...  52.8    1e-07
+VFG010513(gb|WP_011216512) (enhC) enhanced entry protein EnhC [En...  52.4    1e-07
+VFG010521(gb|WP_011215382) (LPL_RS06565) SEL1-like repeat protein...  51.6    2e-07
+VFG045712(gb|WP_003635457) (enhC) enhanced entry protein EnhC [En...  52.4    2e-07
+VFG010517(gb|WP_041173746) (lidL) Dot/Icm type IV secretion syste...  51.2    3e-07
+VFG010518(gb|WP_077383904) (lidL) Dot/Icm type IV secretion syste...  48.5    2e-06
+VFG010516(gb|WP_072363922) (lidL) Dot/Icm type IV secretion syste...  48.5    2e-06
+VFG045713(gb|WP_003631795) (LLO_RS07390) SEL1-like repeat protein...  48.1    2e-06
+VFG010515(gb|WP_010946906) (lidL) Dot/Icm type IV secretion syste...  48.1    3e-06
+
+
+>VFG010519(gb|WP_010947086) (LPG_RS06795) SEL1-like repeat protein 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=376
+
+ Score = 55.1 bits (131),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 45/164 (27%), Positives = 75/164 (46%), Gaps = 8/164 (5%)
+
+Query  51   KAVERGHWKAMHNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYDMGAMIGNRA  110
+            +A + G+ +AM+ L  +Y+ G+  GV  + ++A + YQK  D +       +G M     
+Sbjct  41   QAAKEGNEEAMYLLGRMYQYGY--GVTTNYEEARNWYQKAADKNNALAQLSLGFMYDTGK  98
+
+Query  111  GVKNPATDGLTFLDKAASLGNPPALTELGKLYIY---VAKEKELGLAYASCASSQGYAPA  167
+            GV    T+   +  KAA  GNP A   +G +Y     VA   +    +   A+ QGY+ A
+Sbjct  99   GVSQDFTEAFKWYMKAAEQGNPIAQRNIGLMYATGDGVAASDDKAFNWFKKAAEQGYSKA  158
+
+Query  168  SYELGSYYELVEN---NYPKALSYYQVSVSQGGRSAAFFLSRVF  208
+               LG  Y + +    +  KA  +YQ +  QG     + L  ++
+Sbjct  159  QVNLGYQYMMGKGTPKDVKKAFEWYQKAAEQGDEKGEYSLGLLY  202
+
+
+>VFG010522(gb|WP_011946383) (LPC_RS07090) SEL1-like repeat protein 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Corby]
+Length=376
+
+ Score = 54.3 bits (129),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 49/188 (26%), Positives = 84/188 (45%), Gaps = 13/188 (7%)
+
+Query  51   KAVERGHWKAMHNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYDMGAMIGNRA  110
+            +A + G+ +AM+ L  +Y+ G+  GV  + ++A + YQK  D +       +G M     
+Sbjct  41   QAAKEGNEEAMYLLGRMYQYGY--GVTTNYEEARNWYQKAADKNNALAQLSLGFMYDTGK  98
+
+Query  111  GVKNPATDGLTFLDKAASLGNPPALTELGKLYIY---VAKEKELGLAYASCASSQGYAPA  167
+            GV     +   +  KAA  GNP A   +G +Y     VA   +    +   A+ QGY+ A
+Sbjct  99   GVSQDFAEAFKWYMKAAEQGNPIAQRNIGLMYATGDGVAASDDKAFTWFKKAAEQGYSKA  158
+
+Query  168  SYELGSYYELVEN---NYPKALSYYQVSVSQGGRSAAFFLSRVFGKRTPPSSAMWYTPDE  224
+               LG  Y + +    +  KA  +YQ +  QG     + L  ++  +    SA     D+
+Sbjct  159  QVNLGYQYMMGKGTPKDVKKAFEWYQKAAEQGDEKGEYSLGLLYTGQEGGISA-----DD  213
+
+Query  225  KLEKFYYS  232
+            K   +++S
+Sbjct  214  KAAFYWFS  221
+
+
+>VFG041321(gb|WP_010947931) (lpnE) Dot/Icm type IV secretion system 
+effector LpnE [Dot/Icm T4SS secreted effectors (VF0798) 
+- Effector delivery system (VFC0086)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=375
+
+ Score = 53.9 bits (128),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 47/157 (30%), Positives = 68/157 (43%), Gaps = 11/157 (7%)
+
+Query  81   QKALDLYQKMIDLDVPQGFYDMGAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGK  140
+            +KA + YQK  D +   G Y +G M     GV   +   + +  KAA  GN  A   +G 
+Sbjct  108  KKAFEWYQKAADQNNADGQYGLGYMYDTGTGVPQNSDTAMVWYKKAAEQGNSNAALAIGY  167
+
+Query  141  LY---IYVAKEKELGLAYASCASSQGYAPASYELGSYYEL---VENNYPKALSYYQVSVS  194
+             Y     V K+K   L + + A+  G A A Y LG  YE    V  +Y KA  Y++ + +
+Sbjct  168  NYDTGTGVKKDKTQALNWYAKAADLGNASAQYNLGLMYEQGDGVPKDYQKAAEYFEKAAN  227
+
+Query  195  QGGRSAAFFLSRVF-----GKRTPPSSAMWYTPDEKL  226
+            QG   +   L  ++     GK     +A WY     L
+Sbjct  228  QGHAKSQLELGYLYDSGKLGKSDLQKAAFWYQKSADL  264
+
+
+ Score = 50.8 bits (120),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 47/177 (27%), Positives = 75/177 (42%), Gaps = 19/177 (11%)
+
+Query  16   LPPLDPQADAWYREAAALAKPDTLRPWG--------------RIVEIYSKAVERGHWKAM  61
+            +P     A  WY++AA     +     G              + +  Y+KA + G+  A 
+Sbjct  139  VPQNSDTAMVWYKKAAEQGNSNAALAIGYNYDTGTGVKKDKTQALNWYAKAADLGNASAQ  198
+
+Query  62   HNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYDMGAMIGNRAGVKNPATDGLT  121
+            +NL  +Y  G   GV KD QKA + ++K  +    +   ++G +  +    K+       
+Sbjct  199  YNLGLMYEQG--DGVPKDYQKAAEYFEKAANQGHAKSQLELGYLYDSGKLGKSDLQKAAF  256
+
+Query  122  FLDKAASLGNPPALTELGKLYIY---VAKEKELGLAYASCASSQGYAPASYELGSYY  175
+            +  K+A LGN  A   L  +Y Y   V K  E  + +   A+ QGY  A  +LG YY
+Sbjct  257  WYQKSADLGNANAQFNLADMYFYGDGVGKSLEQSVYWMQKAAEQGYGKAQNQLGIYY  313
+
+
+>VFG010512(gb|WP_015961720) (enhC) enhanced entry protein EnhC 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Paris]
+Length=1200
+
+ Score = 54.7 bits (130),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 35/99 (35%), Positives = 56/99 (57%), Gaps = 5/99 (5%)
+
+Query  119  GLTFLDKAASLGNPPALTELGKLYI---YVAKEKELGLAYASCASSQGYAPASYELGSYY  175
+            G+ +L+KAA  G+P ALTELG+ Y+    VAK+   G+   + A+S+ YAPA  ELG   
+Sbjct  175  GIIWLNKAAENGDPKALTELGRFYVAGQMVAKDTSKGVELLNKAASEQYAPAMLELGK-L  233
+
+Query  176  ELVENNYPKALSYYQVSVSQGGRSAAFFLSRVFGKRTPP  214
+             L++N Y +A+ +   +  Q    A   L+ ++ +   P
+Sbjct  234  ALMQNQYDEAIQWLNKAAKQ-STEATLELAHIYLQDKSP  271
+
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 43/138 (31%), Positives = 66/138 (48%), Gaps = 7/138 (5%)
+
+Query  42    WGRIVEIYSKAVERGHWKAMHNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYD  101
+             + + + ++ +A E+G  +AM  LA +Y  G   G  ++ Q+AL  Y+K   L      Y 
+Sbjct  951   YSKALSLFKEASEKGAPEAMSQLAGMYFYGL--GQPRNEQQALVWYKKAASLGNGNALYA  1008
+
+Query  102   MGAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGKLYIY---VAKE-KELGLAYAS  157
+             +G +     GVK    D L +   A+  GN  A+  L ++Y Y   V K+ K     Y  
+Sbjct  1009  LGLLSETGVGVKLDFPDALRYYQDASDKGNEKAMLALARMYHYGLGVEKDHKRSASIYQK  1068
+
+Query  158   CASSQGYAPASYELGSYY  175
+              A  Q  A A Y+LG+YY
+Sbjct  1069  LAQKQN-AYAQYQLGTYY  1085
+
+
+>VFG010524(gb|WP_021436906) (LPP_RS10995) Dot/Icm type IV secretion 
+system effector LpnE [Enh loci (VF0163) - Others (VFC0346)] 
+[Legionella pneumophila str. Paris]
+Length=375
+
+ Score = 53.9 bits (128),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 47/157 (30%), Positives = 68/157 (43%), Gaps = 11/157 (7%)
+
+Query  81   QKALDLYQKMIDLDVPQGFYDMGAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGK  140
+            +KA + YQK  D +   G Y +G M     GV   +   + +  KAA  GN  A   +G 
+Sbjct  108  KKAFEWYQKAADQNNADGQYGLGYMYDTGTGVPQNSDTAMVWYKKAAEQGNSNAALAIGY  167
+
+Query  141  LY---IYVAKEKELGLAYASCASSQGYAPASYELGSYYEL---VENNYPKALSYYQVSVS  194
+             Y     V K+K   L + + A+  G A A Y LG  YE    V  +Y KA  Y++ + +
+Sbjct  168  NYDTGTGVKKDKTQALNWYAKAADLGNASAQYNLGLMYEQGDGVPKDYQKAAEYFEKAAN  227
+
+Query  195  QGGRSAAFFLSRVF-----GKRTPPSSAMWYTPDEKL  226
+            QG   +   L  ++     GK     +A WY     L
+Sbjct  228  QGHAKSQLELGYLYDSGKLGKSDLQKAAFWYQKSADL  264
+
+
+ Score = 50.8 bits (120),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 47/177 (27%), Positives = 75/177 (42%), Gaps = 19/177 (11%)
+
+Query  16   LPPLDPQADAWYREAAALAKPDTLRPWG--------------RIVEIYSKAVERGHWKAM  61
+            +P     A  WY++AA     +     G              + +  Y+KA + G+  A 
+Sbjct  139  VPQNSDTAMVWYKKAAEQGNSNAALAIGYNYDTGTGVKKDKTQALNWYAKAADLGNASAQ  198
+
+Query  62   HNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYDMGAMIGNRAGVKNPATDGLT  121
+            +NL  +Y  G   GV KD QKA + ++K  +    +   ++G +  +    K+       
+Sbjct  199  YNLGLMYEQG--DGVPKDYQKAAEYFEKAANQGHAKSQLELGYLYDSGKLGKSDLQKAAF  256
+
+Query  122  FLDKAASLGNPPALTELGKLYIY---VAKEKELGLAYASCASSQGYAPASYELGSYY  175
+            +  K+A LGN  A   L  +Y Y   V K  E  + +   A+ QGY  A  +LG YY
+Sbjct  257  WYQKSADLGNANAQFNLADMYFYGDGVGKSLEQSVYWMQKAAEQGYGKAQNQLGIYY  313
+
+
+>VFG010520(gb|WP_011213655) (LPP_RS06580) SEL1-like repeat protein 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Paris]
+Length=376
+
+ Score = 53.9 bits (128),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 46/173 (27%), Positives = 77/173 (45%), Gaps = 8/173 (5%)
+
+Query  51   KAVERGHWKAMHNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYDMGAMIGNRA  110
+            +A + G+ +AM+ L  +Y+ G+  GV  + ++A + YQK  D +       +G M     
+Sbjct  41   QAAKEGNEEAMYLLGRMYQYGY--GVTTNYEEARNWYQKAADKNNALAQLSLGFMYDTGK  98
+
+Query  111  GVKNPATDGLTFLDKAASLGNPPALTELGKLYIY---VAKEKELGLAYASCASSQGYAPA  167
+            GV     +   +  KAA  GNP A   +G +Y     VA   +    +   A+ QGY+ A
+Sbjct  99   GVSQDFAEAFKWYMKAAEQGNPIAQRNIGLMYATGDGVAASDDKAFTWFKKAAEQGYSKA  158
+
+Query  168  SYELGSYYELVEN---NYPKALSYYQVSVSQGGRSAAFFLSRVFGKRTPPSSA  217
+               LG  Y + +    +  KA  +YQ +  QG     + L  ++  +    SA
+Sbjct  159  QVNLGYQYMMGKGTPKDVKKAFEWYQKAAEQGDEKGEYSLGLLYTGQEGGISA  211
+
+
+>VFG010514(gb|WP_011947556) (enhC) enhanced entry protein EnhC 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Corby]
+Length=1200
+
+ Score = 54.3 bits (129),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 35/99 (35%), Positives = 56/99 (57%), Gaps = 5/99 (5%)
+
+Query  119  GLTFLDKAASLGNPPALTELGKLYI---YVAKEKELGLAYASCASSQGYAPASYELGSYY  175
+            G+ +L+KAA  G+P ALTELG+ Y+    VAK+   G+   + A+S+ YAPA  ELG   
+Sbjct  175  GIIWLNKAAENGDPKALTELGRFYVAGQMVAKDTAKGVELLNKAASEQYAPAMLELGK-L  233
+
+Query  176  ELVENNYPKALSYYQVSVSQGGRSAAFFLSRVFGKRTPP  214
+             L++N Y +A+ +   +  Q    A   L+ ++ +   P
+Sbjct  234  ALMQNQYDEAIQWLNKAAKQ-STEATLELAHIYLQDKSP  271
+
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 43/138 (31%), Positives = 66/138 (48%), Gaps = 7/138 (5%)
+
+Query  42    WGRIVEIYSKAVERGHWKAMHNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYD  101
+             + + + ++ +A E+G  +AM  LA +Y  G   G  ++ Q+AL  Y+K   L      Y 
+Sbjct  951   YSKALSLFKEASEKGAPEAMSQLAGMYFYGL--GQPRNEQQALVWYKKAASLGNGNALYA  1008
+
+Query  102   MGAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGKLYIY---VAKE-KELGLAYAS  157
+             +G +     GVK    D L +   A+  GN  A+  L ++Y Y   V K+ K     Y  
+Sbjct  1009  LGLLSETGVGVKLDFPDALRYYQDASDKGNEKAMLALARMYHYGLGVEKDHKRSASIYQK  1068
+
+Query  158   CASSQGYAPASYELGSYY  175
+              A  Q  A A Y+LG+YY
+Sbjct  1069  LAQKQN-AYAQYQLGTYY  1085
+
+
+>VFG001883(gb|WP_010948339) (enhC) enhanced entry protein EnhC 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=1200
+
+ Score = 52.8 bits (125),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 34/99 (34%), Positives = 55/99 (56%), Gaps = 5/99 (5%)
+
+Query  119  GLTFLDKAASLGNPPALTELGKLYI---YVAKEKELGLAYASCASSQGYAPASYELGSYY  175
+            G+ +L+KAA  G+P ALTELG+ Y+    V K+   G+   + A+S+ YAPA  ELG   
+Sbjct  175  GIIWLNKAAENGDPKALTELGRFYVAGQMVTKDTAKGVELLNKAASEQYAPAMLELGK-L  233
+
+Query  176  ELVENNYPKALSYYQVSVSQGGRSAAFFLSRVFGKRTPP  214
+             L++N Y +A+ +   +  Q    A   L+ ++ +   P
+Sbjct  234  ALMQNQYDEAIQWLNKAAKQ-STEATLELAHIYLQDKSP  271
+
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 43/138 (31%), Positives = 66/138 (48%), Gaps = 7/138 (5%)
+
+Query  42    WGRIVEIYSKAVERGHWKAMHNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYD  101
+             + + + ++ +A E+G  +AM  LA +Y  G   G  ++ Q+AL  Y+K   L      Y 
+Sbjct  951   YSKALSLFKEASEKGAPEAMSQLAGMYFYGL--GQPRNEQQALVWYKKAASLGNGNALYA  1008
+
+Query  102   MGAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGKLYIY---VAKE-KELGLAYAS  157
+             +G +     GVK    D L +   A+  GN  A+  L ++Y Y   V K+ K     Y  
+Sbjct  1009  LGLLSETGVGVKLDFPDALRYYQDASDKGNEKAMLALARMYHYGLGVEKDHKRSASIYQK  1068
+
+Query  158   CASSQGYAPASYELGSYY  175
+              A  Q  A A Y+LG+YY
+Sbjct  1069  LAQKQN-AYAQYQLGTYY  1085
+
+
+>VFG010513(gb|WP_011216512) (enhC) enhanced entry protein EnhC 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Lens]
+Length=1200
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 43/138 (31%), Positives = 66/138 (48%), Gaps = 7/138 (5%)
+
+Query  42    WGRIVEIYSKAVERGHWKAMHNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYD  101
+             + + + ++ +A E+G  +AM  LA +Y  G   G  ++ Q+AL  Y+K   L      Y 
+Sbjct  951   YSKALSLFKEASEKGAPEAMSQLAGMYFYGL--GQPRNEQQALVWYKKAASLGNGNALYA  1008
+
+Query  102   MGAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGKLYIY---VAKE-KELGLAYAS  157
+             +G +     GVK    D L +   A+  GN  A+  L ++Y Y   V K+ K     Y  
+Sbjct  1009  LGLLSETGVGVKLDFPDALRYYQDASDKGNEKAMLALARMYHYGLGVEKDHKRSASIYQK  1068
+
+Query  158   CASSQGYAPASYELGSYY  175
+              A  Q  A A Y+LG+YY
+Sbjct  1069  LAQKQN-AYAQYQLGTYY  1085
+
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 34/99 (34%), Positives = 55/99 (56%), Gaps = 5/99 (5%)
+
+Query  119  GLTFLDKAASLGNPPALTELGKLYI---YVAKEKELGLAYASCASSQGYAPASYELGSYY  175
+            G+ +L+KAA  G+P ALTELG+ Y+    VAK+   G+   + A+S+ Y PA  ELG   
+Sbjct  175  GIIWLNKAAENGDPKALTELGRFYVAGQMVAKDTAKGVELLNKAASEQYTPAMLELGK-L  233
+
+Query  176  ELVENNYPKALSYYQVSVSQGGRSAAFFLSRVFGKRTPP  214
+             L++N Y +A+ +   +  Q    A   L+ ++ +   P
+Sbjct  234  ALMQNQYDEAIQWLNKAEEQ-STEATLELAHIYLQDKSP  271
+
+
+>VFG010521(gb|WP_011215382) (LPL_RS06565) SEL1-like repeat protein 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Lens]
+Length=376
+
+ Score = 51.6 bits (122),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 45/173 (26%), Positives = 76/173 (44%), Gaps = 8/173 (5%)
+
+Query  51   KAVERGHWKAMHNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYDMGAMIGNRA  110
+            +A + G+ +AM+ L  +Y+ G+  GV  + ++A + YQK  D +       +G M     
+Sbjct  41   QAAKDGNEEAMYLLGRMYQYGY--GVTTNYEEARNWYQKAADKNDALAQLSLGFMYDTGK  98
+
+Query  111  GVKNPATDGLTFLDKAASLGNPPALTELGKLYIY---VAKEKELGLAYASCASSQGYAPA  167
+            GV     +   +  KAA  GNP A   +G +Y     V    +    +   A+ QGY+ A
+Sbjct  99   GVSQDFAEAFKWYMKAAEQGNPIAQRNIGLMYATGDGVTASDDKAFTWFKKAAEQGYSKA  158
+
+Query  168  SYELGSYYELVEN---NYPKALSYYQVSVSQGGRSAAFFLSRVFGKRTPPSSA  217
+               LG  Y + +    +  KA  +YQ +  QG     + L  ++  +    SA
+Sbjct  159  QVNLGYQYMMGKGTPKDVKKAFEWYQKAAEQGDEKGEYSLGLLYTGQEGGISA  211
+
+
+>VFG045712(gb|WP_003635457) (enhC) enhanced entry protein EnhC 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella longbeachae 
+NSW150]
+Length=1201
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 37/109 (34%), Positives = 56/109 (51%), Gaps = 9/109 (8%)
+
+Query  119  GLTFLDKAASLGNPPALTELGKLYI---YVAKEKELGLAYASCASSQGYAPASYELGSYY  175
+            GL +L+K+ +  NP ALTELG LYI    V K++  G+   + A SQG+APA   LG   
+Sbjct  174  GLIWLNKSVANNNPQALTELGNLYIEGKLVDKDENKGIELLNRAVSQGFAPAMVALGE-L  232
+
+Query  176  ELVENNYPKALSYYQVSVSQGGRSAAFFLSRVFGK-----RTPPSSAMW  219
+             L  N   +AL ++  +  Q    A   L+ ++ +       P ++ MW
+Sbjct  233  ALEHNQKEQALEWFNKASKQQNDQAYLDLAHIYLQPKSPLYDPKTAFMW  281
+
+
+ Score = 50.1 bits (118),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 35/132 (27%), Positives = 64/132 (48%), Gaps = 5/132 (4%)
+
+Query  47    EIYSKAVERGHWKAMHNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYDMGAMI  106
+             + +++A  +G  +AM+ L  +Y  G   G  +D Q+AL  Y+K  +       Y +G + 
+Sbjct  957   DFFAEAANQGVHEAMNQLGTIYFYGL--GQARDTQQALAWYKKAAEAGNANALYQLGLLS  1014
+
+Query  107   GNRAGVKNPATDGLTFLDKAASLGNPPALTELGKLYIY---VAKEKELGLAYASCASSQG  163
+                   K    D L +  ++A  GN  A+  L ++Y Y   V K+ ++  ++    + + 
+Sbjct  1015  ETGVITKLDFNDALKYYQQSADKGNEKAMLALARMYHYGLGVEKDPKMAASFYQKLALRQ  1074
+
+Query  164   YAPASYELGSYY  175
+              A A Y+LG+YY
+Sbjct  1075  NAYAQYQLGTYY  1086
+
+
+>VFG010517(gb|WP_041173746) (lidL) Dot/Icm type IV secretion system 
+effector LidL [Enh loci (VF0163) - Others (VFC0346)] [Legionella 
+pneumophila str. Lens]
+Length=489
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 46/172 (27%), Positives = 78/172 (45%), Gaps = 8/172 (5%)
+
+Query  49   YSKAVERGHWKAMHNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYDMGAMIGN  108
+            Y KA ++G  +A +NL  LY  G   GV ++ Q+A+  ++K  +  +  G  ++G +  N
+Sbjct  71   YQKAADQGQAEAQNNLGVLYLKG--EGVSQNSQQAMHWFKKASEQGLAIGQNNIGILYEN  128
+
+Query  109  RAGVKNPATDGLTFLDKAASLGNPPALTELGKLYIY---VAKEKELGLAYASCASSQGYA  165
+              GVK        +  KAA  GN      L  +Y+Y   + K+ +  + +   A+ QG  
+Sbjct  129  GLGVKKDLGQAFIWYQKAAEGGNSDGQYNLAVMYMYGNGIPKDIKKAIHWYIKAAEQGDL  188
+
+Query  166  PASYELGSYYELVEN---NYPKALSYYQVSVSQGGRSAAFFLSRVFGKRTPP  214
+             A   LG  YE  E    +   A+S+Y  + ++G   A   L  ++    P 
+Sbjct  189  DAQNNLGVLYERGEEVPRDLKAAISWYTRAANEGSLIAQTNLGVLYMTGDPS  240
+
+
+>VFG010518(gb|WP_077383904) (lidL) Dot/Icm type IV secretion system 
+effector LidL [Enh loci (VF0163) - Others (VFC0346)] [Legionella 
+pneumophila str. Corby]
+Length=494
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 46/172 (27%), Positives = 78/172 (45%), Gaps = 8/172 (5%)
+
+Query  49   YSKAVERGHWKAMHNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYDMGAMIGN  108
+            Y KA ++G  +A +NL  LY  G   GV ++ Q+A+  ++K  +  +  G  ++G +  N
+Sbjct  76   YQKAADQGQAEAQNNLGVLYLKG--EGVPQNSQQAMYWFKKASEQGLAIGQNNIGILYEN  133
+
+Query  109  RAGVKNPATDGLTFLDKAASLGNPPALTELGKLYIY---VAKEKELGLAYASCASSQGYA  165
+              GVK        +  KAA  GN      L  +Y+Y   + K+ +  + +   A+ QG  
+Sbjct  134  GLGVKKDLGQAFIWYQKAAEGGNSDGQYNLAVMYMYGNGIPKDIKKAIHWYIKAAEQGDL  193
+
+Query  166  PASYELGSYYELVEN---NYPKALSYYQVSVSQGGRSAAFFLSRVFGKRTPP  214
+             A   LG  YE  E    +   A+S+Y  + ++G   A   L  ++    P 
+Sbjct  194  DAQNNLGVLYERGEEVPRDLKAAISWYTRAANEGSLIAQTNLGVLYMTGDPS  245
+
+
+>VFG010516(gb|WP_072363922) (lidL) Dot/Icm type IV secretion system 
+effector LidL [Enh loci (VF0163) - Others (VFC0346)] [Legionella 
+pneumophila str. Paris]
+Length=494
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 46/172 (27%), Positives = 78/172 (45%), Gaps = 8/172 (5%)
+
+Query  49   YSKAVERGHWKAMHNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYDMGAMIGN  108
+            Y KA ++G  +A +NL  LY  G   GV ++ Q+A+  ++K  +  +  G  ++G +  N
+Sbjct  76   YQKAADQGQAEAQNNLGVLYLKG--EGVPQNSQQAMYWFKKASEQGLAIGQNNIGILYEN  133
+
+Query  109  RAGVKNPATDGLTFLDKAASLGNPPALTELGKLYIY---VAKEKELGLAYASCASSQGYA  165
+              GVK        +  KAA  GN      L  +Y+Y   + K+ +  + +   A+ QG  
+Sbjct  134  GLGVKKDLGQAFIWYQKAAEGGNSDGQYNLAVMYMYGNGIPKDIKKAIHWYIKAAEQGDL  193
+
+Query  166  PASYELGSYYELVEN---NYPKALSYYQVSVSQGGRSAAFFLSRVFGKRTPP  214
+             A   LG  YE  E    +   A+S+Y  + ++G   A   L  ++    P 
+Sbjct  194  DAQNNLGVLYERGEEVPRDLKAAISWYTRAANEGSLIAQTNLGVLYMTGDPS  245
+
+
+>VFG045713(gb|WP_003631795) (LLO_RS07390) SEL1-like repeat protein 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella longbeachae 
+NSW150]
+Length=376
+
+ Score = 48.1 bits (113),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 44/169 (26%), Positives = 76/169 (45%), Gaps = 8/169 (5%)
+
+Query  51   KAVERGHWKAMHNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYDMGAMIGNRA  110
+            +A   G+ +AM+ L  +++ G   GV K+ ++AL  YQK  + + P     +G M     
+Sbjct  41   QAARDGNIEAMYLLGRMFQYG--QGVSKNHEEALKWYQKSAEKNYPLAQLSLGFMYDLGE  98
+
+Query  111  GVKNPATDGLTFLDKAASLGNPPALTELGKLYIY---VAKEKELGLAYASCASSQGYAPA  167
+            GVK    +   +  K+A  GN  A   +  +Y     V   K++   +   ++ QGY+ A
+Sbjct  99   GVKQNFPEAFKWYMKSAQQGNAIAQRNIALMYSTGDGVQANKKMAFDWFEKSAKQGYSKA  158
+
+Query  168  SYELGSYY---ELVENNYPKALSYYQVSVSQGGRSAAFFLSRVFGKRTP  213
+               L   Y   E  + +  KA  +YQ +  QG   A + L  ++  + P
+Sbjct  159  QVNLAYDYIMGEGTKKDVNKAFYWYQKAAEQGDAKAEYSLGLLYTGQQP  207
+
+
+>VFG010515(gb|WP_010946906) (lidL) Dot/Icm type IV secretion system 
+effector LidL [Dot/Icm T4SS secreted effectors (VF0798) 
+- Effector delivery system (VFC0086)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=495
+
+ Score = 48.1 bits (113),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 46/172 (27%), Positives = 78/172 (45%), Gaps = 8/172 (5%)
+
+Query  49   YSKAVERGHWKAMHNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYDMGAMIGN  108
+            Y KA ++G  +A +NL  LY  G   GV ++ Q+A+  ++K  +  +  G  ++G +  N
+Sbjct  76   YQKAADQGQAEAQNNLGVLYLKG--EGVPQNSQQAMYWFKKASEQGLAIGQNNIGILYEN  133
+
+Query  109  RAGVKNPATDGLTFLDKAASLGNPPALTELGKLYIY---VAKEKELGLAYASCASSQGYA  165
+              GVK        +  KAA  GN      L  +Y+Y   + K+ +  + +   A+ QG  
+Sbjct  134  GLGVKKDPGQAFIWYQKAAEGGNSDGQYNLAVMYMYGNGIPKDIKKAIHWYIKAAEQGDL  193
+
+Query  166  PASYELGSYYELVEN---NYPKALSYYQVSVSQGGRSAAFFLSRVFGKRTPP  214
+             A   LG  YE  E    +   A+S+Y  + ++G   A   L  ++    P 
+Sbjct  194  DAQNNLGVLYERGEEVPRDLKAAISWYTRAANEGSLIAQTNLGVLYMTGDPS  245
+
+
+ Score = 48.1 bits (113),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 45/166 (27%), Positives = 77/166 (46%), Gaps = 8/166 (5%)
+
+Query  49   YSKAVERGHWKAMHNLANLYRTGWPGGVEKDPQKALDLYQKMIDLDVPQGFYDMGAMIGN  108
+            + KA E+G     +N+  LY  G   GV+KDP +A   YQK  +     G Y++  M   
+Sbjct  112  FKKASEQGLAIGQNNIGILYENGL--GVKKDPGQAFIWYQKAAEGGNSDGQYNLAVMYMY  169
+
+Query  109  RAGVKNPATDGLTFLDKAASLGNPPALTELGKLYIY---VAKEKELGLAYASCASSQGYA  165
+              G+       + +  KAA  G+  A   LG LY     V ++ +  +++ + A+++G  
+Sbjct  170  GNGIPKDIKKAIHWYIKAAEQGDLDAQNNLGVLYERGEEVPRDLKAAISWYTRAANEGSL  229
+
+Query  166  PASYELGSYYELVE---NNYPKALSYYQVSVSQGGRSAAFFLSRVF  208
+             A   LG  Y   +    +  KA+ +Y+ + +QGG  A   L  ++
+Sbjct  230  IAQTNLGVLYMTGDPSIQDGKKAIYWYEKAAAQGGEKAQNNLGYIY  275
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.135    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1831900710
+
+
+Query= g5184.t1
+
+Length=274
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG010519(gb|WP_010947086) (LPG_RS06795) SEL1-like repeat protein...  52.0    1e-07
+VFG010522(gb|WP_011946383) (LPC_RS07090) SEL1-like repeat protein...  50.1    6e-07
+VFG010520(gb|WP_011213655) (LPP_RS06580) SEL1-like repeat protein...  49.7    7e-07
+VFG045712(gb|WP_003635457) (enhC) enhanced entry protein EnhC [En...  48.9    2e-06
+VFG010512(gb|WP_015961720) (enhC) enhanced entry protein EnhC [En...  48.9    2e-06
+VFG010527(gb|WP_010946797) (LPG_RS05280) SEL1-like repeat protein...  48.1    2e-06
+VFG010514(gb|WP_011947556) (enhC) enhanced entry protein EnhC [En...  48.5    3e-06
+VFG001883(gb|WP_010948339) (enhC) enhanced entry protein EnhC [En...  48.1    4e-06
+VFG010513(gb|WP_011216512) (enhC) enhanced entry protein EnhC [En...  47.8    4e-06
+VFG010521(gb|WP_011215382) (LPL_RS06565) SEL1-like repeat protein...  47.4    5e-06
+VFG010528(gb|WP_011215169) (LPL_RS05310) SEL1-like repeat protein...  46.6    6e-06
+
+
+>VFG010519(gb|WP_010947086) (LPG_RS06795) SEL1-like repeat protein 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=376
+
+ Score = 52.0 bits (123),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 45/160 (28%), Positives = 72/160 (45%), Gaps = 8/160 (5%)
+
+Query  52   KAVERGHWKAMHNLASLYRTGWPGGVEKDTQKALDLYQKMIDLKVPQGFYDMAAMIGNRA  111
+            +A + G+ +AM+ L  +Y+ G+  GV  + ++A + YQK  D         +  M     
+Sbjct  41   QAAKEGNEEAMYLLGRMYQYGY--GVTTNYEEARNWYQKAADKNNALAQLSLGFMYDTGK  98
+
+Query  112  GVKNPATDGLTFLDKAASLGNPPALTELGRLYIY---VAGQDELGLKYTNCAAGQGYAPA  168
+            GV    T+   +  KAA  GNP A   +G +Y     VA  D+    +   AA QGY+ A
+Sbjct  99   GVSQDFTEAFKWYMKAAEQGNPIAQRNIGLMYATGDGVAASDDKAFNWFKKAAEQGYSKA  158
+
+Query  169  NYELAMYYRL---VAHNYPKAAGYYLLAASQGNDDAAFFM  205
+               L   Y +      +  KA  +Y  AA QG++   + +
+Sbjct  159  QVNLGYQYMMGKGTPKDVKKAFEWYQKAAEQGDEKGEYSL  198
+
+
+>VFG010522(gb|WP_011946383) (LPC_RS07090) SEL1-like repeat protein 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Corby]
+Length=376
+
+ Score = 50.1 bits (118),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 44/160 (28%), Positives = 71/160 (44%), Gaps = 8/160 (5%)
+
+Query  52   KAVERGHWKAMHNLASLYRTGWPGGVEKDTQKALDLYQKMIDLKVPQGFYDMAAMIGNRA  111
+            +A + G+ +AM+ L  +Y+ G+  GV  + ++A + YQK  D         +  M     
+Sbjct  41   QAAKEGNEEAMYLLGRMYQYGY--GVTTNYEEARNWYQKAADKNNALAQLSLGFMYDTGK  98
+
+Query  112  GVKNPATDGLTFLDKAASLGNPPALTELGRLYIY---VAGQDELGLKYTNCAAGQGYAPA  168
+            GV     +   +  KAA  GNP A   +G +Y     VA  D+    +   AA QGY+ A
+Sbjct  99   GVSQDFAEAFKWYMKAAEQGNPIAQRNIGLMYATGDGVAASDDKAFTWFKKAAEQGYSKA  158
+
+Query  169  NYELAMYYRL---VAHNYPKAAGYYLLAASQGNDDAAFFM  205
+               L   Y +      +  KA  +Y  AA QG++   + +
+Sbjct  159  QVNLGYQYMMGKGTPKDVKKAFEWYQKAAEQGDEKGEYSL  198
+
+
+>VFG010520(gb|WP_011213655) (LPP_RS06580) SEL1-like repeat protein 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Paris]
+Length=376
+
+ Score = 49.7 bits (117),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 44/158 (28%), Positives = 70/158 (44%), Gaps = 8/158 (5%)
+
+Query  52   KAVERGHWKAMHNLASLYRTGWPGGVEKDTQKALDLYQKMIDLKVPQGFYDMAAMIGNRA  111
+            +A + G+ +AM+ L  +Y+ G+  GV  + ++A + YQK  D         +  M     
+Sbjct  41   QAAKEGNEEAMYLLGRMYQYGY--GVTTNYEEARNWYQKAADKNNALAQLSLGFMYDTGK  98
+
+Query  112  GVKNPATDGLTFLDKAASLGNPPALTELGRLYIY---VAGQDELGLKYTNCAAGQGYAPA  168
+            GV     +   +  KAA  GNP A   +G +Y     VA  D+    +   AA QGY+ A
+Sbjct  99   GVSQDFAEAFKWYMKAAEQGNPIAQRNIGLMYATGDGVAASDDKAFTWFKKAAEQGYSKA  158
+
+Query  169  NYELAMYYRL---VAHNYPKAAGYYLLAASQGNDDAAF  203
+               L   Y +      +  KA  +Y  AA QG++   +
+Sbjct  159  QVNLGYQYMMGKGTPKDVKKAFEWYQKAAEQGDEKGEY  196
+
+
+>VFG045712(gb|WP_003635457) (enhC) enhanced entry protein EnhC 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella longbeachae 
+NSW150]
+Length=1201
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 36/137 (26%), Positives = 63/137 (46%), Gaps = 5/137 (4%)
+
+Query  43    WDRIVDLYSKAVERGHWKAMHNLASLYRTGWPGGVEKDTQKALDLYQKMIDLKVPQGFYD  102
+             + +  D +++A  +G  +AM+ L ++Y  G   G  +DTQ+AL  Y+K  +       Y 
+Sbjct  952   YQKARDFFAEAANQGVHEAMNQLGTIYFYGL--GQARDTQQALAWYKKAAEAGNANALYQ  1009
+
+Query  103   MAAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGRLYIYVAGQD---ELGLKYTNC  159
+             +  +       K    D L +  ++A  GN  A+  L R+Y Y  G +   ++   +   
+Sbjct  1010  LGLLSETGVITKLDFNDALKYYQQSADKGNEKAMLALARMYHYGLGVEKDPKMAASFYQK  1069
+
+Query  160   AAGQGYAPANYELAMYY  176
+              A +  A A Y+L  YY
+Sbjct  1070  LALRQNAYAQYQLGTYY  1086
+
+
+>VFG010512(gb|WP_015961720) (enhC) enhanced entry protein EnhC 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Paris]
+Length=1200
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 58/198 (29%), Positives = 84/198 (42%), Gaps = 16/198 (8%)
+
+Query  5    LRPFICVNEKDHLPSLDPQADAWYREAVALAKPDTLRPWDRIVDLYSKAVERGHWKAMHN  64
+            +R F    EK +LP++   A       +    P+    W      + +A   G   A   
+Sbjct  72   MRYFTKSAEKGYLPAVLLMAK---YSLLHEKNPEEAARW------FKQAAAVGDVSAQMF  122
+
+Query  65   LASLYRTGWPGGVEKDTQKALDLYQKMIDLKVPQGFYDMAAMIGNRAGVKNPATDGLTFL  124
+            +A+ Y  G   GV+K+T  A   Y        P   Y +A          N    G+ +L
+Sbjct  123  MAAAYLYGV--GVKKNTDIARRYYIDAAKNGNPIAQYTLAEYFLESKHAGNKKL-GIIWL  179
+
+Query  125  DKAASLGNPPALTELGRLYI---YVAGQDELGLKYTNCAAGQGYAPANYELAMYYRLVAH  181
+            +KAA  G+P ALTELGR Y+    VA     G++  N AA + YAPA  EL     L+ +
+Sbjct  180  NKAAENGDPKALTELGRFYVAGQMVAKDTSKGVELLNKAASEQYAPAMLELGK-LALMQN  238
+
+Query  182  NYPKAAGYYLLAASQGND  199
+             Y +A  +   AA Q  +
+Sbjct  239  QYDEAIQWLNKAAKQSTE  256
+
+
+ Score = 47.8 bits (112),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 41/138 (30%), Positives = 63/138 (46%), Gaps = 7/138 (5%)
+
+Query  43    WDRIVDLYSKAVERGHWKAMHNLASLYRTGWPGGVEKDTQKALDLYQKMIDLKVPQGFYD  102
+             + + + L+ +A E+G  +AM  LA +Y  G   G  ++ Q+AL  Y+K   L      Y 
+Sbjct  951   YSKALSLFKEASEKGAPEAMSQLAGMYFYGL--GQPRNEQQALVWYKKAASLGNGNALYA  1008
+
+Query  103   MAAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGRLYIYVAGQDELGLK----YTN  158
+             +  +     GVK    D L +   A+  GN  A+  L R+Y Y  G ++   +    Y  
+Sbjct  1009  LGLLSETGVGVKLDFPDALRYYQDASDKGNEKAMLALARMYHYGLGVEKDHKRSASIYQK  1068
+
+Query  159   CAAGQGYAPANYELAMYY  176
+              A  Q  A A Y+L  YY
+Sbjct  1069  LAQKQN-AYAQYQLGTYY  1085
+
+
+>VFG010527(gb|WP_010946797) (LPG_RS05280) SEL1-like repeat protein 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=342
+
+ Score = 48.1 bits (113),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 46/164 (28%), Positives = 76/164 (46%), Gaps = 8/164 (5%)
+
+Query  52   KAVERGHWKAMHNLASLYRTGWPGGVEKDTQKALDLYQKMIDLKVPQGFYDMAAMIGNRA  111
+            KA  +G  +A  +L  LY T   G  +++  +A     K  + +     Y++A M     
+Sbjct  142  KAAAQGFPEAERSLGILYSTAENG--QQNYVEAFKWLHKAAEKEDAIAQYNLAVMYVTGK  199
+
+Query  112  GVKNPATDGLTFLDKAASLGNPPALTELGRLYIY---VAGQDELGLKYTNCAAGQGYAPA  168
+            GV+   T+ + +  KA   G+  A   LG +Y     V   D   +K+   AA QG A A
+Sbjct  200  GVRQNDTEAVKWFRKAGKHGDLMAQRTLGLMYATGSNVQQDDFQAMKWFRLAAKQGDAVA  259
+
+Query  169  NYELAMYY---RLVAHNYPKAAGYYLLAASQGNDDAAFFMSGVF  209
+             Y + M +   + V  N+ KA  ++ LAASQG   A + ++ ++
+Sbjct  260  QYNIGMGFLNGKGVIRNHTKALKWFHLAASQGLPQAQYVLAALY  303
+
+
+>VFG010514(gb|WP_011947556) (enhC) enhanced entry protein EnhC 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Corby]
+Length=1200
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 58/198 (29%), Positives = 84/198 (42%), Gaps = 16/198 (8%)
+
+Query  5    LRPFICVNEKDHLPSLDPQADAWYREAVALAKPDTLRPWDRIVDLYSKAVERGHWKAMHN  64
+            +R F    EK +LP++   A       +    P+    W      + +A   G   A   
+Sbjct  72   MRYFTKSAEKGYLPAVLLMAK---YSLLHEKNPEEAARW------FKQAAAVGDVSAQMF  122
+
+Query  65   LASLYRTGWPGGVEKDTQKALDLYQKMIDLKVPQGFYDMAAMIGNRAGVKNPATDGLTFL  124
+            +A+ Y  G   GV+K+T  A   Y        P   Y +A          N    G+ +L
+Sbjct  123  MAAAYLYGV--GVKKNTDIARRYYIDAAKNGNPIAQYTLAEYFLESKHAGNKKL-GIIWL  179
+
+Query  125  DKAASLGNPPALTELGRLYI---YVAGQDELGLKYTNCAAGQGYAPANYELAMYYRLVAH  181
+            +KAA  G+P ALTELGR Y+    VA     G++  N AA + YAPA  EL     L+ +
+Sbjct  180  NKAAENGDPKALTELGRFYVAGQMVAKDTAKGVELLNKAASEQYAPAMLELGK-LALMQN  238
+
+Query  182  NYPKAAGYYLLAASQGND  199
+             Y +A  +   AA Q  +
+Sbjct  239  QYDEAIQWLNKAAKQSTE  256
+
+
+ Score = 48.1 bits (113),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 41/138 (30%), Positives = 63/138 (46%), Gaps = 7/138 (5%)
+
+Query  43    WDRIVDLYSKAVERGHWKAMHNLASLYRTGWPGGVEKDTQKALDLYQKMIDLKVPQGFYD  102
+             + + + L+ +A E+G  +AM  LA +Y  G   G  ++ Q+AL  Y+K   L      Y 
+Sbjct  951   YSKALSLFKEASEKGAPEAMSQLAGMYFYGL--GQPRNEQQALVWYKKAASLGNGNALYA  1008
+
+Query  103   MAAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGRLYIYVAGQDELGLK----YTN  158
+             +  +     GVK    D L +   A+  GN  A+  L R+Y Y  G ++   +    Y  
+Sbjct  1009  LGLLSETGVGVKLDFPDALRYYQDASDKGNEKAMLALARMYHYGLGVEKDHKRSASIYQK  1068
+
+Query  159   CAAGQGYAPANYELAMYY  176
+              A  Q  A A Y+L  YY
+Sbjct  1069  LAQKQN-AYAQYQLGTYY  1085
+
+
+>VFG001883(gb|WP_010948339) (enhC) enhanced entry protein EnhC 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=1200
+
+ Score = 48.1 bits (113),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 41/138 (30%), Positives = 62/138 (45%), Gaps = 7/138 (5%)
+
+Query  43    WDRIVDLYSKAVERGHWKAMHNLASLYRTGWPGGVEKDTQKALDLYQKMIDLKVPQGFYD  102
+             + + + L+ +A E+G  +AM  LA +Y  G   G  ++ Q+AL  Y+K   L      Y 
+Sbjct  951   YSKALSLFKEASEKGAPEAMSQLAGMYFYGL--GQPRNEQQALVWYKKAASLGNGNALYA  1008
+
+Query  103   MAAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGRLYIYVAGQDE----LGLKYTN  158
+             +  +     GVK    D L +   A+  GN  A+  L R+Y Y  G ++        Y  
+Sbjct  1009  LGLLSETGVGVKLDFPDALRYYQDASDKGNEKAMLALARMYHYGLGVEKDHKRSASIYQK  1068
+
+Query  159   CAAGQGYAPANYELAMYY  176
+              A  Q  A A Y+L  YY
+Sbjct  1069  LAQKQN-AYAQYQLGTYY  1085
+
+
+ Score = 48.1 bits (113),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 60/200 (30%), Positives = 85/200 (43%), Gaps = 20/200 (10%)
+
+Query  5    LRPFICVNEKDHLPSLDPQADAWYREAVALAKPDTLRPWDRIVDLYSKAVERGHWKAMHN  64
+            +R F    EK +LP++   A       +    P+    W      + +A   G   A   
+Sbjct  72   MRYFTKSAEKGYLPAVLLMAK---YSLLHEKNPEEAARW------FKQAAAVGDMSAQMF  122
+
+Query  65   LASLYRTGWPGGVEKDTQKALDLYQKMIDLKVPQGFYDMAAMIGNRAGVKNPATDGLTFL  124
+            +A+ Y  G   GV+K+T  A   Y        P   Y +A          N    G+ +L
+Sbjct  123  MAAAYLYGV--GVKKNTDIARRYYIDAAKNGNPIAQYTLAKYFLESKHAGNKKL-GIIWL  179
+
+Query  125  DKAASLGNPPALTELGRLYIYVAGQ-----DELGLKYTNCAAGQGYAPANYELAMYYRLV  179
+            +KAA  G+P ALTELGR   YVAGQ        G++  N AA + YAPA  EL     L+
+Sbjct  180  NKAAENGDPKALTELGRF--YVAGQMVTKDTAKGVELLNKAASEQYAPAMLELGK-LALM  236
+
+Query  180  AHNYPKAAGYYLLAASQGND  199
+             + Y +A  +   AA Q  +
+Sbjct  237  QNQYDEAIQWLNKAAKQSTE  256
+
+
+>VFG010513(gb|WP_011216512) (enhC) enhanced entry protein EnhC 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Lens]
+Length=1200
+
+ Score = 47.8 bits (112),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 41/138 (30%), Positives = 63/138 (46%), Gaps = 7/138 (5%)
+
+Query  43    WDRIVDLYSKAVERGHWKAMHNLASLYRTGWPGGVEKDTQKALDLYQKMIDLKVPQGFYD  102
+             + + + L+ +A E+G  +AM  LA +Y  G   G  ++ Q+AL  Y+K   L      Y 
+Sbjct  951   YSKALSLFKEASEKGAPEAMSQLAGMYFYGL--GQPRNEQQALVWYKKAASLGNGNALYA  1008
+
+Query  103   MAAMIGNRAGVKNPATDGLTFLDKAASLGNPPALTELGRLYIYVAGQDELGLK----YTN  158
+             +  +     GVK    D L +   A+  GN  A+  L R+Y Y  G ++   +    Y  
+Sbjct  1009  LGLLSETGVGVKLDFPDALRYYQDASDKGNEKAMLALARMYHYGLGVEKDHKRSASIYQK  1068
+
+Query  159   CAAGQGYAPANYELAMYY  176
+              A  Q  A A Y+L  YY
+Sbjct  1069  LAQKQN-AYAQYQLGTYY  1085
+
+
+ Score = 46.6 bits (109),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 51/171 (30%), Positives = 72/171 (42%), Gaps = 15/171 (9%)
+
+Query  5    LRPFICVNEKDHLPSLDPQADAWYREAVALAKPDTLRPWDRIVDLYSKAVERGHWKAMHN  64
+            +R F    EK +LP++   A       +    P+    W      + +A   G   A   
+Sbjct  72   MRYFTKSAEKGYLPAVLLMAK---YSLLHEKNPEEAARW------FKQAAAVGDVSAQMY  122
+
+Query  65   LASLYRTGWPGGVEKDTQKALDLYQKMIDLKVPQGFYDMAAMIGNRAGVKNPATDGLTFL  124
+            +A+ Y  G   GV+K+T  A   Y        P   Y +A          N    G+ +L
+Sbjct  123  MAAAYLYGV--GVKKNTDIARRYYIDAAKNGNPIAQYTLAEYFLESKHAANKKL-GIIWL  179
+
+Query  125  DKAASLGNPPALTELGRLYI---YVAGQDELGLKYTNCAAGQGYAPANYEL  172
+            +KAA  G+P ALTELGR Y+    VA     G++  N AA + Y PA  EL
+Sbjct  180  NKAAENGDPKALTELGRFYVAGQMVAKDTAKGVELLNKAASEQYTPAMLEL  230
+
+
+>VFG010521(gb|WP_011215382) (LPL_RS06565) SEL1-like repeat protein 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Lens]
+Length=376
+
+ Score = 47.4 bits (111),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 43/160 (27%), Positives = 70/160 (44%), Gaps = 8/160 (5%)
+
+Query  52   KAVERGHWKAMHNLASLYRTGWPGGVEKDTQKALDLYQKMIDLKVPQGFYDMAAMIGNRA  111
+            +A + G+ +AM+ L  +Y+ G+  GV  + ++A + YQK  D         +  M     
+Sbjct  41   QAAKDGNEEAMYLLGRMYQYGY--GVTTNYEEARNWYQKAADKNDALAQLSLGFMYDTGK  98
+
+Query  112  GVKNPATDGLTFLDKAASLGNPPALTELGRLYIY---VAGQDELGLKYTNCAAGQGYAPA  168
+            GV     +   +  KAA  GNP A   +G +Y     V   D+    +   AA QGY+ A
+Sbjct  99   GVSQDFAEAFKWYMKAAEQGNPIAQRNIGLMYATGDGVTASDDKAFTWFKKAAEQGYSKA  158
+
+Query  169  NYELAMYYRL---VAHNYPKAAGYYLLAASQGNDDAAFFM  205
+               L   Y +      +  KA  +Y  AA QG++   + +
+Sbjct  159  QVNLGYQYMMGKGTPKDVKKAFEWYQKAAEQGDEKGEYSL  198
+
+
+>VFG010528(gb|WP_011215169) (LPL_RS05310) SEL1-like repeat protein 
+[Enh loci (VF0163) - Others (VFC0346)] [Legionella pneumophila 
+str. Lens]
+Length=342
+
+ Score = 46.6 bits (109),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 45/164 (27%), Positives = 76/164 (46%), Gaps = 8/164 (5%)
+
+Query  52   KAVERGHWKAMHNLASLYRTGWPGGVEKDTQKALDLYQKMIDLKVPQGFYDMAAMIGNRA  111
+            KA  +G  +A  +L  LY T   G  +++  +A     K  + +     Y++A M     
+Sbjct  142  KAAAQGFPEAERSLGILYSTAENG--QQNYVEAFKWLHKAAEKEDAIAQYNLAVMYVTGK  199
+
+Query  112  GVKNPATDGLTFLDKAASLGNPPALTELGRLYIY---VAGQDELGLKYTNCAAGQGYAPA  168
+            GV+   T+ + +  KA   G+  A   LG +Y     V   D   +K+   AA QG A A
+Sbjct  200  GVRQNDTEAVKWFRKAGKHGDLMAQRTLGLMYATGSNVQQDDFQAMKWFRLAAKQGDAVA  259
+
+Query  169  NYELAMYY---RLVAHNYPKAAGYYLLAASQGNDDAAFFMSGVF  209
+             Y + + +   + V  N+ KA  ++ LAASQG   A + ++ ++
+Sbjct  260  QYNIGIGFLNGKGVIRNHTKALKWFHLAASQGLPQAQYVLAALY  303
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.436    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1842428875
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

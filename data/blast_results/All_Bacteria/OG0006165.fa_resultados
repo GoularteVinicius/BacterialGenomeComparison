@@ -1,0 +1,180 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1804.t1
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043046(gb|NP_460882) (flhD) regulator of flagellar biosynthesi...  231     2e-80
+VFG043098(gb|WP_001302091) (flhD) flagellar transcriptional regul...  207     7e-71
+VFG003452(gb|WP_011192574) (flhD) flagellar transcriptional activ...  159     3e-52
+VFG002359(gb|WP_005164498) (flhD) flagellar transcriptional activ...  159     4e-52
+VFG011240(gb|WP_012417339) (flhD) flagellar transcriptional regul...  97.1    2e-27
+VFG011238(gb|WP_003811931) (flhD) flagellar transcriptional regul...  95.9    5e-27
+VFG011237(gb|WP_010930143) (flhD) flagellar transcriptional regul...  95.5    7e-27
+
+
+>VFG043046(gb|NP_460882) (flhD) regulator of flagellar biosynthesis 
+[Peritrichous flagella (VF0967) - Motility (VFC0204)] 
+[Salmonella enterica subsp. enterica serovar Typhimurium str. 
+LT2]
+Length=116
+
+ Score = 231 bits (588),  Expect = 2e-80, Method: Compositional matrix adjust.
+ Identities = 113/113 (100%), Positives = 113/113 (100%), Gaps = 0/113 (0%)
+
+Query  1    MHTSELLKHIYDINLSYLLLAQRLIVQDKASAMFRLGINEEMANTLGALTLPQMVKLAET  60
+            MHTSELLKHIYDINLSYLLLAQRLIVQDKASAMFRLGINEEMANTLGALTLPQMVKLAET
+Sbjct  4    MHTSELLKHIYDINLSYLLLAQRLIVQDKASAMFRLGINEEMANTLGALTLPQMVKLAET  63
+
+Query  61   NQLVCHFRFDDHQTITRLTQDSRVDDLQQIHTGIMLSTRLLNEVDDTARKKRA  113
+            NQLVCHFRFDDHQTITRLTQDSRVDDLQQIHTGIMLSTRLLNEVDDTARKKRA
+Sbjct  64   NQLVCHFRFDDHQTITRLTQDSRVDDLQQIHTGIMLSTRLLNEVDDTARKKRA  116
+
+
+>VFG043098(gb|WP_001302091) (flhD) flagellar transcriptional regulator 
+FlhD [Peritrichous flagella (VF1154) - Motility (VFC0204)] 
+[Escherichia coli O157:H7 str. EDL933]
+Length=116
+
+ Score = 207 bits (526),  Expect = 7e-71, Method: Compositional matrix adjust.
+ Identities = 104/116 (90%), Positives = 107/116 (92%), Gaps = 3/116 (3%)
+
+Query  1    MHTSELLKHIYDINLSYLLLAQRLIVQDKASAMFRLGINEEMANTLGALTLPQMVKLAET  60
+            MHTSELLKHIYDINLSYLLLAQRLIVQDKASAMFRLGINEEMA TL ALTLPQMVKLAET
+Sbjct  1    MHTSELLKHIYDINLSYLLLAQRLIVQDKASAMFRLGINEEMATTLAALTLPQMVKLAET  60
+
+Query  61   NQLVCHFRFDDHQTITRLTQDSRVDDLQQIHTGIMLSTRLLNEV---DDTARKKRA  113
+            NQLVCHFRFD HQTIT LTQDSRVDDLQQIHTGIMLSTRLLN+V   ++  RKKRA
+Sbjct  61   NQLVCHFRFDSHQTITLLTQDSRVDDLQQIHTGIMLSTRLLNDVNQPEEALRKKRA  116
+
+
+>VFG003452(gb|WP_011192574) (flhD) flagellar transcriptional activator 
+FlhD [Flagella (VF0394) - Motility (VFC0204)] [Yersinia 
+pseudotuberculosis IP 32953]
+Length=116
+
+ Score = 159 bits (403),  Expect = 3e-52, Method: Compositional matrix adjust.
+ Identities = 88/116 (76%), Positives = 98/116 (84%), Gaps = 3/116 (3%)
+
+Query  1    MHTSELLKHIYDINLSYLLLAQRLIVQDKASAMFRLGINEEMANTLGALTLPQMVKLAET  60
+            M TSELLKHIYDINLSYLLLAQRLI  +KASAMFRLGI + MA+ L  LTLPQMVKLAET
+Sbjct  1    MSTSELLKHIYDINLSYLLLAQRLINDEKASAMFRLGITDTMADALSQLTLPQMVKLAET  60
+
+Query  61   NQLVCHFRFDDHQTITRLTQDSRVDDLQQIHTGIMLSTRLLNEV---DDTARKKRA  113
+            NQLVCHFRF DH TI  LT++SRVDDLQQIHTGI+LS+ LL+E+   DD+  KKRA
+Sbjct  61   NQLVCHFRFSDHNTIHHLTKESRVDDLQQIHTGILLSSHLLHELSLKDDSTPKKRA  116
+
+
+>VFG002359(gb|WP_005164498) (flhD) flagellar transcriptional activator 
+FlhD [Flagella (VF0394) - Motility (VFC0204)] [Yersinia 
+enterocolitica subsp. enterocolitica 8081]
+Length=116
+
+ Score = 159 bits (403),  Expect = 4e-52, Method: Compositional matrix adjust.
+ Identities = 88/116 (76%), Positives = 98/116 (84%), Gaps = 3/116 (3%)
+
+Query  1    MHTSELLKHIYDINLSYLLLAQRLIVQDKASAMFRLGINEEMANTLGALTLPQMVKLAET  60
+            M TSELLKHIYDINLSYLLLAQRLI  +KASAMFRLGI + MA+ L  LTLPQMVKLAET
+Sbjct  1    MSTSELLKHIYDINLSYLLLAQRLINDEKASAMFRLGITDTMADALSQLTLPQMVKLAET  60
+
+Query  61   NQLVCHFRFDDHQTITRLTQDSRVDDLQQIHTGIMLSTRLLNEV---DDTARKKRA  113
+            NQLVCHFRF DH TI  LT++SRVDDLQQIHTGI+LS+ LL+E+   D +A KKRA
+Sbjct  61   NQLVCHFRFSDHNTIHHLTKESRVDDLQQIHTGILLSSHLLHELSLKDGSASKKRA  116
+
+
+>VFG011240(gb|WP_012417339) (flhD) flagellar transcriptional regulator 
+FlhD [Flagella (VF0685) - Motility (VFC0204)] [Bordetella 
+avium 197N]
+Length=107
+
+ Score = 97.1 bits (240),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 48/101 (48%), Positives = 71/101 (70%), Gaps = 0/101 (0%)
+
+Query  4    SELLKHIYDINLSYLLLAQRLIVQDKASAMFRLGINEEMANTLGALTLPQMVKLAETNQL  63
+            S LL  I ++NLSYLLLAQR++ QD A++MFRLG + E+A+ L  L+  Q+VKLA ++ +
+Sbjct  6    SSLLADIREVNLSYLLLAQRMLRQDHAASMFRLGFSTEVADILMRLSPAQLVKLASSSSV  65
+
+Query  64   VCHFRFDDHQTITRLTQDSRVDDLQQIHTGIMLSTRLLNEV  104
+            +C FRFDD+  ++ LTQD     LQQ H  I+L+ + + E+
+Sbjct  66   LCRFRFDDYGLLSALTQDVLGGALQQAHATILLAKQPVEEI  106
+
+
+>VFG011238(gb|WP_003811931) (flhD) flagellar transcriptional regulator 
+FlhD [Flagella (VF0685) - Motility (VFC0204)] [Bordetella 
+parapertussis 12822]
+Length=107
+
+ Score = 95.9 bits (237),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 48/101 (48%), Positives = 70/101 (69%), Gaps = 0/101 (0%)
+
+Query  4    SELLKHIYDINLSYLLLAQRLIVQDKASAMFRLGINEEMANTLGALTLPQMVKLAETNQL  63
+            S LL  I ++NLSYLLLAQR++  D A++MFRLG + E+A+ L  L+  Q+VKLA ++ L
+Sbjct  6    SSLLADIREVNLSYLLLAQRMLRDDYAASMFRLGFSNEVADILMRLSPAQLVKLASSSSL  65
+
+Query  64   VCHFRFDDHQTITRLTQDSRVDDLQQIHTGIMLSTRLLNEV  104
+            +C FRFDD+  ++ LTQD     LQQ H  I+L+ + + E+
+Sbjct  66   LCRFRFDDYSLLSALTQDVLGGALQQAHATILLARQPVEEL  106
+
+
+>VFG011237(gb|WP_010930143) (flhD) flagellar transcriptional regulator 
+FlhD [Flagella (VF0685) - Motility (VFC0204)] [Bordetella 
+pertussis Tohama I]
+Length=107
+
+ Score = 95.5 bits (236),  Expect = 7e-27, Method: Compositional matrix adjust.
+ Identities = 48/101 (48%), Positives = 70/101 (69%), Gaps = 0/101 (0%)
+
+Query  4    SELLKHIYDINLSYLLLAQRLIVQDKASAMFRLGINEEMANTLGALTLPQMVKLAETNQL  63
+            S LL  I ++NLSYLLLAQR++  D A++MFRLG + E+A+ L  L+  Q+VKLA ++ L
+Sbjct  6    SSLLADIREVNLSYLLLAQRMLRDDYAASMFRLGFSNEVADILMRLSPAQLVKLANSSSL  65
+
+Query  64   VCHFRFDDHQTITRLTQDSRVDDLQQIHTGIMLSTRLLNEV  104
+            +C FRFDD+  ++ LTQD     LQQ H  I+L+ + + E+
+Sbjct  66   LCRFRFDDYSLLSALTQDVLGGALQQAHATILLARQPVEEL  106
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.134    0.369    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 329276310
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

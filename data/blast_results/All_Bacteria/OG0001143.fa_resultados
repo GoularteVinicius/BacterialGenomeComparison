@@ -1,0 +1,132 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g711.t1
+
+Length=438
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.142    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3489439395
+
+
+Query= g4425.t1
+
+Length=439
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.143    0.438    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3499855632
+
+
+Query= g5472.t1
+
+Length=438
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.142    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3489439395
+
+
+Query= g640.t1
+
+Length=434
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) - ...  53.1    2e-07
+
+
+>VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=447
+
+ Score = 53.1 bits (126),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 39/132 (30%), Positives = 61/132 (46%), Gaps = 14/132 (11%)
+
+Query  24   NFLEQFDFFLFGFYATYIARTFFPAESEFASLMLTFAVFGSGFLMRPVGAIVLGAYIDRI  83
+             F E FD  L  F    + + +    ++         + GSG     +GA+  GA  DR+
+Sbjct  34   TFFEAFDLLLISFTLPLLKQQWQLDPTQVG------LIVGSGTFGMLLGALCAGALADRV  87
+
+Query  84   GRRKGLMVTLAIMGCGTLLIALVPGYQTIGLAAPALVLLGRLLQGFSAGVELGGVSVYLS  143
+            GR+  L+  + + G  + LIA    +Q +        L+GRLLQG   G E+   ++YLS
+Sbjct  88   GRKPVLLAAMLLTGLFSALIACASDWQGL--------LVGRLLQGLGIGAEVPIAALYLS  139
+
+Query  144  EIATPGNKGFYT  155
+            EI T   +G + 
+Sbjct  140  EIITSKVRGRFV  151
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.140    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3447774447
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

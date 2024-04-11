@@ -1,0 +1,201 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1833.t1
+
+Length=122
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043054(gb|NP_460915) (fliT) flagellar biosynthesis protein Fli...  242     1e-84
+VFG023632(gb|WP_005160355) (fliT) flagellar protein FliT [Flagell...  79.0    4e-20
+VFG043105(gb|WP_001015033) (fliT) flagella biosynthesis regulator...  71.6    3e-17
+VFG003414(gb|WP_011192185) (fliT) flagellar protein FliT [Flagell...  70.5    9e-17
+VFG003280(gb|WP_011906243) (fliT) flagellar protein FliT [Flagell...  69.3    2e-16
+VFG002655(gb|WP_002211148) (fliT) flagellar protein FliT [Flagell...  69.3    2e-16
+VFG002326(gb|WP_011816593) (fliT) flagellar protein FliT [Flagell...  64.7    2e-14
+VFG011373(gb|WP_010930343) (fliT) flagellar protein FliT [Flagell...  42.0    6e-06
+
+
+>VFG043054(gb|NP_460915) (fliT) flagellar biosynthesis protein 
+FliT [Peritrichous flagella (VF0967) - Motility (VFC0204)] 
+[Salmonella enterica subsp. enterica serovar Typhimurium str. 
+LT2]
+Length=122
+
+ Score = 242 bits (618),  Expect = 1e-84, Method: Compositional matrix adjust.
+ Identities = 122/122 (100%), Positives = 122/122 (100%), Gaps = 0/122 (0%)
+
+Query  1    MTSTVEFINRWQRIALLSQSLLELAQRGEWDLLLQQEVSYLQSIETVMEKQTPPGITRSI  60
+            MTSTVEFINRWQRIALLSQSLLELAQRGEWDLLLQQEVSYLQSIETVMEKQTPPGITRSI
+Sbjct  1    MTSTVEFINRWQRIALLSQSLLELAQRGEWDLLLQQEVSYLQSIETVMEKQTPPGITRSI  60
+
+Query  61   QDMVAGYIKQTLDNEQLLKGLLQQRLDELSSLIGQSTRQKSLNNAYGRLSGMLLVPDAPG  120
+            QDMVAGYIKQTLDNEQLLKGLLQQRLDELSSLIGQSTRQKSLNNAYGRLSGMLLVPDAPG
+Sbjct  61   QDMVAGYIKQTLDNEQLLKGLLQQRLDELSSLIGQSTRQKSLNNAYGRLSGMLLVPDAPG  120
+
+Query  121  AS  122
+            AS
+Sbjct  121  AS  122
+
+
+>VFG023632(gb|WP_005160355) (fliT) flagellar protein FliT [Flagella 
+(VF0394) - Motility (VFC0204)] [Yersinia enterocolitica 
+subsp. palearctica 105.5R(r)]
+Length=120
+
+ Score = 79.0 bits (193),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 40/104 (38%), Positives = 66/104 (63%), Gaps = 0/104 (0%)
+
+Query  6    EFINRWQRIALLSQSLLELAQRGEWDLLLQQEVSYLQSIETVMEKQTPPGITRSIQDMVA  65
+              ++ +Q+I  LS+ +L LA  G WD L+  E++YL+++E+          +  +QD++ 
+Sbjct  6    HLLSEYQQILTLSEQMLVLATEGNWDALVDLEMTYLKAVESTANITISSCSSLMLQDLLR  65
+
+Query  66   GYIKQTLDNEQLLKGLLQQRLDELSSLIGQSTRQKSLNNAYGRL  109
+              ++  LDNE  +K LLQ RLD LS L+GQST+Q+++NN YG+ 
+Sbjct  66   EKLRAILDNEIEIKRLLQLRLDTLSDLVGQSTKQQAVNNTYGQF  109
+
+
+>VFG043105(gb|WP_001015033) (fliT) flagella biosynthesis regulatory 
+protein FliT [Peritrichous flagella (VF1154) - Motility 
+(VFC0204)] [Escherichia coli O157:H7 str. EDL933]
+Length=121
+
+ Score = 71.6 bits (174),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 38/106 (36%), Positives = 65/106 (61%), Gaps = 0/106 (0%)
+
+Query  11   WQRIALLSQSLLELAQRGEWDLLLQQEVSYLQSIETVMEKQTPPGITRSIQDMVAGYIKQ  70
+            WQ++   SQ +L LA   +WD L+  E++Y+ +++ +         + ++Q+ +   ++ 
+Sbjct  11   WQQLVEKSQLMLRLATEEQWDELIASEMAYVNAVQEIAHLTEEVDPSTTMQEQLRPMLRL  70
+
+Query  71   TLDNEQLLKGLLQQRLDELSSLIGQSTRQKSLNNAYGRLSGMLLVP  116
+             LDNE  +K LLQ R+DEL+ L+GQS+ QKS+ +AYG   G +L P
+Sbjct  71   ILDNESKVKQLLQIRMDELAKLVGQSSVQKSVLSAYGDQGGFVLAP  116
+
+
+>VFG003414(gb|WP_011192185) (fliT) flagellar protein FliT [Flagella 
+(VF0394) - Motility (VFC0204)] [Yersinia pseudotuberculosis 
+IP 32953]
+Length=120
+
+ Score = 70.5 bits (171),  Expect = 9e-17, Method: Compositional matrix adjust.
+ Identities = 37/104 (36%), Positives = 65/104 (63%), Gaps = 0/104 (0%)
+
+Query  6    EFINRWQRIALLSQSLLELAQRGEWDLLLQQEVSYLQSIETVMEKQTPPGITRSIQDMVA  65
+              ++ +Q+I  LS+ +L LA    WD L+  E++YL+++E           +  +Q+++ 
+Sbjct  6    HLLSEYQQILTLSEQMLMLATVENWDALVDLEMAYLKAVENTANITISSCSSPVLQELLR  65
+
+Query  66   GYIKQTLDNEQLLKGLLQQRLDELSSLIGQSTRQKSLNNAYGRL  109
+              ++  L+NE  +K LLQ+RLD+LS L+GQSTRQ+++N  YG+ 
+Sbjct  66   QKLRSILENEIEIKRLLQRRLDKLSELVGQSTRQQAVNRTYGQF  109
+
+
+>VFG003280(gb|WP_011906243) (fliT) flagellar protein FliT [Flagella 
+(VF0394) - Motility (VFC0204)] [Yersinia pestis Pestoides 
+F]
+Length=120
+
+ Score = 69.3 bits (168),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 36/104 (35%), Positives = 65/104 (63%), Gaps = 0/104 (0%)
+
+Query  6    EFINRWQRIALLSQSLLELAQRGEWDLLLQQEVSYLQSIETVMEKQTPPGITRSIQDMVA  65
+              ++ +Q+I  LS+ +L LA    W+ L+  E++YL+++E           +  +Q+++ 
+Sbjct  6    HLLSEYQQILTLSEQMLMLATVENWNTLVDLEMTYLKAVENTANITISSCTSPVLQELLR  65
+
+Query  66   GYIKQTLDNEQLLKGLLQQRLDELSSLIGQSTRQKSLNNAYGRL  109
+              ++  L+NE  +K LLQ+RLD+LS L+GQSTRQ+++N  YG+ 
+Sbjct  66   QKLRSILENEIEIKRLLQRRLDKLSELVGQSTRQQAVNRTYGQF  109
+
+
+>VFG002655(gb|WP_002211148) (fliT) flagellar protein FliT [Flagella 
+(VF0394) - Motility (VFC0204)] [Yersinia pestis CO92]
+Length=120
+
+ Score = 69.3 bits (168),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 36/104 (35%), Positives = 65/104 (63%), Gaps = 0/104 (0%)
+
+Query  6    EFINRWQRIALLSQSLLELAQRGEWDLLLQQEVSYLQSIETVMEKQTPPGITRSIQDMVA  65
+              ++ +Q+I  LS+ +L LA    W+ L+  E++YL+++E           +  +Q+++ 
+Sbjct  6    HLLSEYQQILTLSEQMLMLATVENWNALVDLEMTYLKAVENTANITISSCTSPVLQELLR  65
+
+Query  66   GYIKQTLDNEQLLKGLLQQRLDELSSLIGQSTRQKSLNNAYGRL  109
+              ++  L+NE  +K LLQ+RLD+LS L+GQSTRQ+++N  YG+ 
+Sbjct  66   QKLRSILENEIEIKRLLQRRLDKLSELVGQSTRQQAVNRTYGQF  109
+
+
+>VFG002326(gb|WP_011816593) (fliT) flagellar protein FliT [Flagella 
+(VF0394) - Motility (VFC0204)] [Yersinia enterocolitica 
+subsp. enterocolitica 8081]
+Length=120
+
+ Score = 64.7 bits (156),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 40/104 (38%), Positives = 66/104 (63%), Gaps = 0/104 (0%)
+
+Query  6    EFINRWQRIALLSQSLLELAQRGEWDLLLQQEVSYLQSIETVMEKQTPPGITRSIQDMVA  65
+              ++ +Q+I  LS+ +L LA  G WD L+  E++YL+++E+          +  +QD++ 
+Sbjct  6    HLLSEYQQILTLSEQMLVLATEGNWDALVDLEMTYLKAVESTANITISSCSSLMLQDLLR  65
+
+Query  66   GYIKQTLDNEQLLKGLLQQRLDELSSLIGQSTRQKSLNNAYGRL  109
+              ++  LDNE  +K LLQ RLD LS L+GQST+Q+++NN YG+ 
+Sbjct  66   EKLRAILDNEIEIKRLLQLRLDRLSDLVGQSTKQQAVNNTYGQF  109
+
+
+>VFG011373(gb|WP_010930343) (fliT) flagellar protein FliT [Flagella 
+(VF0685) - Motility (VFC0204)] [Bordetella pertussis Tohama 
+I]
+Length=116
+
+ Score = 42.0 bits (97),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 30/112 (27%), Positives = 55/112 (49%), Gaps = 1/112 (1%)
+
+Query  1    MTSTVEFINRWQRIALLSQSLLELAQRGEWDLLLQQEVSYLQSIETVMEKQTPPGITRSI  60
+            +T     +  +Q IA L+  +L  A    WDL+L     Y+  +E + E +    +  + 
+Sbjct  4    LTQHAPVLEIYQDIANLTSRMLAAANASNWDLVLNHGQEYVCLVERLRELEPGEPLDEAA  63
+
+Query  61   QDMVAGYIKQTLDNEQLLKGLLQQRLDELSSLIGQSTRQKSLNNAY-GRLSG  111
+            + M    + + L+N+  ++ L   +L  LS L+G+  RQ+SL   Y G+ +G
+Sbjct  64   RGMKFDLLVRILENDAAVRDLALPQLARLSDLLGRMKRQQSLLATYSGKANG  115
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.131    0.356    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 380238215
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,487 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g4637.t1
+
+Length=169
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG001207(gb|NP_253241) (pilV) type IV pilus biogenesis protein P...  348     5e-125
+VFG013919(gb|WP_012077309) (pilV) type IV pilus biogenesis protei...  327     2e-116
+VFG013921(gb|WP_011921051) (pilV) type IV pilus biogenesis protei...  165     1e-52 
+VFG013922(gb|WP_011912161) (pilV) type IV pilus biogenesis protei...  129     3e-38 
+VFG036856(gb|WP_002222656) (pilI) pilin-like protein may involvin...  48.5    2e-07 
+VFG036861(gb|WP_041423359) (pilI) pilin-like protein may involvin...  48.5    3e-07 
+VFG036864(gb|WP_013449152) (pilI) pilin-like protein may involvin...  47.4    5e-07 
+VFG036852(gb|WP_012503479) (pilI) pilin-like protein may involvin...  47.4    6e-07 
+VFG036849(gb|WP_010951045) (pilI) pilin-like protein may involvin...  47.0    9e-07 
+VFG036847(gb|WP_010981160) (pilI) pilin-like protein may involvin...  46.6    1e-06 
+VFG013920(gb|WP_011336000) (pilV) type IV pilus biogenesis protei...  45.4    1e-06 
+VFG050526(gb|WP_000546629.1) (pilV) type IV pilus modification pr...  45.8    2e-06 
+VFG050527(gb|WP_002194578.1) (pilV) type IV pilus modification pr...  45.8    2e-06 
+VFG036851(gb|WP_025462077) (pilI) pilin-like protein may involvin...  45.4    2e-06 
+VFG050524(gb|WP_085916952.1) (pilV) type IV pilus modification pr...  44.7    4e-06 
+VFG050535(gb|YP_005800456.1) (pilV) type IV pilus modification pr...  44.7    4e-06 
+VFG036858(gb|WP_014581127) (pilI) pilin-like protein may involvin...  44.7    5e-06 
+VFG036850(gb|WP_002247807) (pilI) pilin-like protein may involvin...  44.7    6e-06 
+VFG036848(gb|WP_061706010) (pilI) pilin-like protein may involvin...  43.9    9e-06 
+
+
+>VFG001207(gb|NP_253241) (pilV) type IV pilus biogenesis protein 
+PilV [Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa PAO1]
+Length=185
+
+ Score = 348 bits (894),  Expect = 5e-125, Method: Compositional matrix adjust.
+ Identities = 169/169 (100%), Positives = 169/169 (100%), Gaps = 0/169 (0%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK
+Sbjct  17   MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  76
+
+Query  61   DQMATQSDFFKAKGSAFPTAPSSCTPLPDAIKDRLGCWAEQVKNELPGAGDLLKSDYYIC  120
+            DQMATQSDFFKAKGSAFPTAPSSCTPLPDAIKDRLGCWAEQVKNELPGAGDLLKSDYYIC
+Sbjct  77   DQMATQSDFFKAKGSAFPTAPSSCTPLPDAIKDRLGCWAEQVKNELPGAGDLLKSDYYIC  136
+
+Query  121  RSSKPGDCDGKGSMLEIRLAWRGKQGACVNAADSSADTSLCYYTLRVEP  169
+            RSSKPGDCDGKGSMLEIRLAWRGKQGACVNAADSSADTSLCYYTLRVEP
+Sbjct  137  RSSKPGDCDGKGSMLEIRLAWRGKQGACVNAADSSADTSLCYYTLRVEP  185
+
+
+>VFG013919(gb|WP_012077309) (pilV) type IV pilus biogenesis protein 
+PilV [Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa PA7]
+Length=185
+
+ Score = 327 bits (838),  Expect = 2e-116, Method: Compositional matrix adjust.
+ Identities = 156/169 (92%), Positives = 162/169 (96%), Gaps = 0/169 (0%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            +IEVLVALLL+SIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK
+Sbjct  17   LIEVLVALLLVSIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  76
+
+Query  61   DQMATQSDFFKAKGSAFPTAPSSCTPLPDAIKDRLGCWAEQVKNELPGAGDLLKSDYYIC  120
+            DQMATQSDFFKAKGSAFPTAPSSCTPLPD +KDRLGCWAEQVK ELPGA DLL S++YIC
+Sbjct  77   DQMATQSDFFKAKGSAFPTAPSSCTPLPDTVKDRLGCWAEQVKKELPGAADLLNSEFYIC  136
+
+Query  121  RSSKPGDCDGKGSMLEIRLAWRGKQGACVNAADSSADTSLCYYTLRVEP  169
+            RSSKPGDCDGKGSMLEIRLAWRGKQGACVN ADS AD SLC+YTLRVEP
+Sbjct  137  RSSKPGDCDGKGSMLEIRLAWRGKQGACVNPADSGADNSLCHYTLRVEP  185
+
+
+>VFG013921(gb|WP_011921051) (pilV) type IV pilus biogenesis protein 
+PilV [Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+mendocina ymp]
+Length=186
+
+ Score = 165 bits (418),  Expect = 1e-52, Method: Compositional matrix adjust.
+ Identities = 82/180 (46%), Positives = 122/180 (68%), Gaps = 13/180 (7%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYD--  58
+            +IEVL+ALLL ++GVLGM+A+QG++IQYT D+V+RN A  L ++L+E +RA+P+ +++  
+Sbjct  9    LIEVLMALLLTTVGVLGMVALQGRSIQYTQDAVQRNTAVELANDLIEIVRANPQQMFNNV  68
+
+Query  59   -----VKDQMATQSDFFKAKGSAFPTAPS---SCTPLPDAIKDRLGCWAEQVKNELPGAG  110
+                 +   M   S F+KAK   F        S + L    +++  CWAE+V+N LPG  
+Sbjct  69   PPTFPMNSGMRNSSAFYKAKNEDFSNREDCVVSASELAKTAQEQRDCWAERVENLLPGGS  128
+
+Query  111  DLLKSDYYICRSSKPGDCD-GKGSMLEIRLAWRGKQGACVNAADSSADTSLCYYTLRVEP  169
+            +L  SD YICRS+ PG+C   +GSMLEIRLAW+ + GAC++A+D  A  ++C YT+RV+P
+Sbjct  129  ELFTSDMYICRSATPGECTANQGSMLEIRLAWQVRAGACLDASDPQA--TVCTYTVRVQP  186
+
+
+>VFG013922(gb|WP_011912161) (pilV) type IV pilus biogenesis protein 
+PilV [Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+stutzeri A1501]
+Length=193
+
+ Score = 129 bits (324),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 70/184 (38%), Positives = 106/184 (58%), Gaps = 17/184 (9%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            +IEVLVA+++ISIG+LG++AMQG+TIQYT DS +RN A+ML  +L+E +R++   +    
+Sbjct  12   LIEVLVAIVIISIGILGLVAMQGRTIQYTQDSAQRNTASMLADDLIELIRSNRDGVVASN  71
+
+Query  61   DQMATQSDFFKAKGSAFPTA-------PSSCTPLPDAIKDRLGCWAEQVKNELPGAGDLL  113
+              +   S+++KA  ++FP +        S CTP  D   D L  WA+QV+N LP     L
+Sbjct  72   GLLRGTSNYYKAASASFPASGVADCRTASGCTP-DDMATDHLNLWAQQVRNSLPVDNSTL  130
+
+Query  114  KSDYYICRSSKPGD--CDGKGSMLEIRLAWRGKQGA------CVNAADSSADTSLCYYTL  165
+             +++ ICR S P    CD  GS ++I++AW  +         C NA +     S  +Y +
+Sbjct  131  -AEFVICRDSTPNSAACDNLGSAIKIQIAWLSRNSECAPNTPCTNAGEVDNANSREFYRI  189
+
+Query  166  RVEP  169
+              EP
+Sbjct  190  SFEP  193
+
+
+>VFG036856(gb|WP_002222656) (pilI) pilin-like protein may involving 
+in pseudopilus formation [Type IV pili (VF0075) - Adherence 
+(VFC0001)] [Neisseria meningitidis alpha710]
+Length=204
+
+ Score = 48.5 bits (114),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 36/128 (28%), Positives = 60/128 (47%), Gaps = 11/128 (9%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            +IEVLVA+L+++IG+L ++++Q +T+    ++  +   + +  NL+E M  +P    D  
+Sbjct  18   LIEVLVAMLVLTIGILALLSVQLRTVASVREAETQTIVSQITQNLMEGMLMNPTIDSDSN  77
+
+Query  61   DQ-----MATQSDFFKAKGSAFPTAPSSCTPLPDAIKDRLGCWAEQVKNELPGAGDLLKS  115
+             +     M          G     A  S   L  A  DR G    ++KN LP A  +   
+Sbjct  78   KKNYNLYMGNHHTLSAVDGDFAVDAVKSKKDLAKAQLDRFGY---ELKNALPDAAAIY--  132
+
+Query  116  DYYICRSS  123
+             Y IC+ S
+Sbjct  133  -YAICKDS  139
+
+
+>VFG036861(gb|WP_041423359) (pilI) pilin-like protein may involving 
+in pseudopilus formation [Type IV pili (VF0075) - Adherence 
+(VFC0001)] [Neisseria meningitidis M01-240355]
+Length=203
+
+ Score = 48.5 bits (114),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 47/185 (25%), Positives = 83/185 (45%), Gaps = 34/185 (18%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            +IEVLVA+L+++IG+L ++++Q +T+    ++  +   + +  NL+E M  +P    D  
+Sbjct  18   LIEVLVAMLVLTIGILALLSVQLRTVASVREAETQTIVSQITQNLMEGMLMNPTIDSDSN  77
+
+Query  61   DQ-----MATQSDFFKAKGSAFPTAPSSCTPLPDAIKDRLGCWAEQVKNELPGAGDLLKS  115
+             +     M          G     A  + T L +A   +L  ++ ++KN LP A  +   
+Sbjct  78   KKNYNLYMGNHHTLSAVDGDFQVDAIKTKTQLAEA---QLKRFSYELKNALPDAAAI---  131
+
+Query  116  DYYICRSSK-----------PGDCDGK--GSMLEIRLAWRGKQGACVNAADSSADTSLCY  162
+             Y +C+ S              +CD K  G  L I++ W       VN  DS+ D+ +  
+Sbjct  132  HYAVCKDSSGNAPTFSGNAFSSNCDNKANGDTL-IKVLW-------VN--DSAGDSDISR  181
+
+Query  163  YTLRV  167
+              L V
+Sbjct  182  TNLEV  186
+
+
+>VFG036864(gb|WP_013449152) (pilI) pilin-like protein may involving 
+in pseudopilus formation [Type IV pili (VF0075) - Adherence 
+(VFC0001)] [Neisseria lactamica 020-06]
+Length=203
+
+ Score = 47.4 bits (111),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 33/129 (26%), Positives = 64/129 (50%), Gaps = 14/129 (11%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            +IEVLVA+L+++IG+L ++++Q +T+    ++  +   + +  NL+E M  +P       
+Sbjct  18   LIEVLVAMLVLTIGILALLSVQLRTVASVREAETQTIVSQITQNLMEGMLMNPTI-----  72
+
+Query  61   DQMATQSDFFKAKGSAFPTAPSSCTPL------PDAIKDRLGCWAEQVKNELPGAGDLLK  114
+            D  + + ++    GS  P +      L       D  K +L  +  ++KN LP A  +  
+Sbjct  73   DSDSNKKNYNLYTGSYTPASSDGDFTLNNLKTKKDLAKAQLDRFGYELKNALPDAAAI--  130
+
+Query  115  SDYYICRSS  123
+              Y +C+ S
+Sbjct  131  -HYAVCKDS  138
+
+
+>VFG036852(gb|WP_012503479) (pilI) pilin-like protein may involving 
+in pseudopilus formation [Type IV pili (VF0075) - Adherence 
+(VFC0001)] [Neisseria gonorrhoeae NCCP11945]
+Length=204
+
+ Score = 47.4 bits (111),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 44/183 (24%), Positives = 81/183 (44%), Gaps = 29/183 (16%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            +IEVLVA+L+++IG+L ++++Q +T+    ++  +   + +  NL+E M  +P    D  
+Sbjct  18   LIEVLVAMLVLTIGILALLSVQLRTVASVREAETQTIVSQITQNLMEGMLMNPTIDSDSN  77
+
+Query  61   DQ---MATQSDFFKAKGSAFPTAPSSCTPLPDAIKDRLGCWAEQVKNELPGAGDLLKSDY  117
+             +   + T        G  F    ++     D  K +L  +  +++N LP   D +   Y
+Sbjct  78   KKNYNLYTGPYTPTPSGGDFKLNNNNLISKKDLAKAQLDRFDYELRNALP---DAVAIHY  134
+
+Query  118  YICRSSKPG-----------DCDGK--GSMLEIRLAWRGKQGACVNAADSSADTSLCYYT  164
+             +C+ S  G           +CD K  G  L I++ W           DS+ D+ +    
+Sbjct  135  AVCKDSSGGAPTLSGGTFSPNCDNKANGDTL-IKVLW---------VNDSAGDSDISRTN  184
+
+Query  165  LRV  167
+            L V
+Sbjct  185  LEV  187
+
+
+>VFG036849(gb|WP_010951045) (pilI) pilin-like protein may involving 
+in pseudopilus formation [Type IV pili (VF0075) - Adherence 
+(VFC0001)] [Neisseria gonorrhoeae FA 1090]
+Length=203
+
+ Score = 47.0 bits (110),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 47/186 (25%), Positives = 84/186 (45%), Gaps = 36/186 (19%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            +IEVLVA+L+++IG+L ++++Q +T+    ++  +   + +  NL+E M  +P    D  
+Sbjct  18   LIEVLVAMLVLTIGILALLSVQLRTVASVREAETQTIVSQITQNLMEGMLMNPTIDLDSN  77
+
+Query  61   DQ-----MATQSDFFKAKGSAFPTAPSSCTPLPDAIKDRLGCWAEQVKNELPGAGDLLKS  115
+             +     M  Q+      G     A  S   L +   ++L  ++ ++KN LP   D +  
+Sbjct  78   KKNYSLYMGKQT-LSAVDGEFMLDAEKSKAQLAE---EQLKRFSHELKNALP---DAVAI  130
+
+Query  116  DYYICRSSK------------PGDCDGK--GSMLEIRLAWRGKQGACVNAADSSADTSLC  161
+             Y +C+ S               +CD K  G  L I++ W       VN  DS+ D+ + 
+Sbjct  131  HYAVCKDSSGDAPTLSDSGAFSSNCDNKANGDTL-IKVLW-------VN--DSAGDSDIS  180
+
+Query  162  YYTLRV  167
+               L V
+Sbjct  181  RTNLEV  186
+
+
+>VFG036847(gb|WP_010981160) (pilI) pilin-like protein may involving 
+in pseudopilus formation [Type IV pili (VF0075) - Adherence 
+(VFC0001)] [Neisseria meningitidis Z2491]
+Length=204
+
+ Score = 46.6 bits (109),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 40/160 (25%), Positives = 73/160 (46%), Gaps = 26/160 (16%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            +IEVLVA+L+++IG+L ++++Q +T+    ++  +   + +  NL+E M  +P    D  
+Sbjct  18   LIEVLVAMLVLTIGILALLSVQLRTVASVREAETQTIVSQITQNLMEGMLMNPTIDSDSN  77
+
+Query  61   DQ-----MATQSDFFKAKGSAFPTAPSSCTPLPDAIKDRLGCWAEQVKNELPGAGDLLKS  115
+             +     M          G     A  + T L +A   +L  ++ ++KN LP A  +   
+Sbjct  78   KKNYNLYMGNHHALSVVDGDFQVDAIKTKTQLAEA---QLKRFSYELKNALPDAAAI---  131
+
+Query  116  DYYICRSSK------------PGDCDG--KGSMLEIRLAW  141
+             Y +C+ S               +CDG   G  L I++ W
+Sbjct  132  HYAVCKDSSGVAPTLSAGSTFSSNCDGSANGDTL-IKVLW  170
+
+
+>VFG013920(gb|WP_011336000) (pilV) type IV pilus biogenesis protein 
+PilV [Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+fluorescens Pf0-1]
+Length=149
+
+ Score = 45.4 bits (106),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 22/59 (37%), Positives = 41/59 (69%), Gaps = 0/59 (0%)
+
+Query  1   MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDV  59
+           +IEVLVALL++++G+LG  A+Q   ++YT  S   ++A+ +  ++++ +RA+  A Y V
+Sbjct  14  LIEVLVALLILTVGLLGAAAVQLNALKYTDSSRMTSQASFIAYDMMDRIRANSGADYTV  72
+
+
+>VFG050526(gb|WP_000546629.1) (pilV) type IV pilus modification 
+protein PilV [TFP (VF1334) - Adherence (VFC0001)] [Acinetobacter 
+baumannii AB307-0294]
+Length=184
+
+ Score = 45.8 bits (107),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 42/165 (25%), Positives = 79/165 (48%), Gaps = 17/165 (10%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            ++EVLVAL+L++IGVLG +A+Q + +  +++++ +++A ++   L E++R          
+Sbjct  14   LLEVLVALILLAIGVLGYVALQLRAMDASSEALSKSQAILVMRGLAENIR--------TN  65
+
+Query  61   DQMATQSDFFKAKGSAFPTAPSSCTPLPDAIKDRLGCWAEQVK--NELPGAGDLLKSDYY  118
+               A+Q   F    S +    +S TP P +  + L C A Q+   +    A +  +    
+Sbjct  66   STQASQYPTFVRSYSNY----TSDTPAPTSCFNSL-CTASQLAQFDAYQAARNANQLGMR  120
+
+Query  119  ICRSSKPGDCDGKGSMLEIRLAWRGKQGACV--NAADSSADTSLC  161
+            I  S+ PG  +      +    + GK    +  N  ++S D S C
+Sbjct  121  ITMSNCPGVTNTMVQQRQCLFVFWGKTAPVITTNGTNTSVDVSSC  165
+
+
+>VFG050527(gb|WP_002194578.1) (pilV) type IV pilus modification 
+protein PilV [TFP (VF1334) - Adherence (VFC0001)] [Acinetobacter 
+baumannii ACICU]
+Length=186
+
+ Score = 45.8 bits (107),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 42/165 (25%), Positives = 80/165 (48%), Gaps = 17/165 (10%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            ++EVLVAL+L++IGVLG +A+Q + +  +++++ +++A ++   L E++R +        
+Sbjct  16   LLEVLVALILLAIGVLGYVALQLRAMDASSEALSKSQAILVMRGLAENIRTNST------  69
+
+Query  61   DQMATQSDFFKAKGSAFPTAPSSCTPLPDAIKDRLGCWAEQVK--NELPGAGDLLKSDYY  118
+               A+Q   F    S +    +S TP P +  + L C A Q+   +    A +  +    
+Sbjct  70   --QASQYPTFVRSYSNY----TSDTPAPTSCFNSL-CTASQLAQFDAYQAARNANQLGMR  122
+
+Query  119  ICRSSKPGDCDGKGSMLEIRLAWRGKQGACV--NAADSSADTSLC  161
+            I  S+ PG  +      +    + GK    +  N  ++S D S C
+Sbjct  123  ITMSNCPGVTNTMVQQRQCLFVFWGKTAPVITTNGTNTSVDVSSC  167
+
+
+>VFG036851(gb|WP_025462077) (pilI) pilin-like protein may involving 
+in pseudopilus formation [Type IV pili (VF0075) - Adherence 
+(VFC0001)] [Neisseria meningitidis 053442]
+Length=202
+
+ Score = 45.4 bits (106),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 47/184 (26%), Positives = 86/184 (47%), Gaps = 33/184 (18%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            +IEVLVA+L+++IG+L ++++Q +T+    ++  +   + +  NL+E M  +P    D  
+Sbjct  18   LIEVLVAMLVLTIGILALLSVQLRTVASVREAETQTIVSQITQNLMEGMLMNPTIDSDSN  77
+
+Query  61   DQ---MATQSDFFKAKGSAFPT-APSSCTPLPDAIKDRLGCWAEQVKNELPGAGDLLKSD  116
+             +   +   ++   A    F   A  + T L +A   +L  ++ ++KN LP A  +    
+Sbjct  78   KKNYNLYMGNNTLSAVDGEFAIDAIKTKTQLAEA---QLKRFSYELKNALPDAAAI---H  131
+
+Query  117  YYICRSSK-----------PGDCDGK--GSMLEIRLAWRGKQGACVNAADSSADTSLCYY  163
+            Y +C+ S              +CD K  G  L I++ W       VN  DS+ D+ +   
+Sbjct  132  YAVCKDSSGNAPTLSGNAFSSNCDNKANGDTL-IKVLW-------VN--DSAGDSDISRT  181
+
+Query  164  TLRV  167
+             L V
+Sbjct  182  NLEV  185
+
+
+>VFG050524(gb|WP_085916952.1) (pilV) type IV pilus modification 
+protein PilV [TFP (VF1334) - Adherence (VFC0001)] [Acinetobacter 
+baumannii 1656-2]
+Length=186
+
+ Score = 44.7 bits (104),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 41/165 (25%), Positives = 80/165 (48%), Gaps = 17/165 (10%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            ++EVLVAL+L++IGVLG +A+Q + +  +++++ +++A ++   L E++R +        
+Sbjct  16   LLEVLVALILLAIGVLGYVALQLRAMDASSEALSKSQAILVMRGLAENIRTNST------  69
+
+Query  61   DQMATQSDFFKAKGSAFPTAPSSCTPLPDAIKDRLGCWAEQVK--NELPGAGDLLKSDYY  118
+               A+Q   F    S +    +S TP P +  + L C A Q+   +    A +  +    
+Sbjct  70   --QASQYPTFVRSYSNY----TSDTPAPTSCFNSL-CTASQLAQFDAYQAARNANQLGMR  122
+
+Query  119  ICRSSKPGDCDGKGSMLEIRLAWRGKQGACV--NAADSSADTSLC  161
+            I  S+ PG  +      +    + G+    +  N  ++S D S C
+Sbjct  123  ITMSNCPGVTNTMVQQRQCLFVFWGRTAPVITTNGTNTSVDVSSC  167
+
+
+>VFG050535(gb|YP_005800456.1) (pilV) type IV pilus modification 
+protein PilV [TFP (VF1334) - Adherence (VFC0001)] [Acinetobacter 
+baumannii TCDC-AB0715]
+Length=184
+
+ Score = 44.7 bits (104),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 41/165 (25%), Positives = 79/165 (48%), Gaps = 17/165 (10%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            ++EVLVAL+L++IGVLG +A+Q + +  +++++ +++A ++   L E++R          
+Sbjct  14   LLEVLVALILLAIGVLGYVALQLRAMDASSEALSKSQAILVMRGLAENIR--------TN  65
+
+Query  61   DQMATQSDFFKAKGSAFPTAPSSCTPLPDAIKDRLGCWAEQVK--NELPGAGDLLKSDYY  118
+               A+Q   F    S +    +S TP P +  + L C A Q+   +    A +  +    
+Sbjct  66   STQASQYPTFVRSYSNY----TSDTPAPTSCFNSL-CTASQLAQFDAYQAARNANQLGMR  120
+
+Query  119  ICRSSKPGDCDGKGSMLEIRLAWRGKQGACV--NAADSSADTSLC  161
+            I  S+ PG  +      +    + G+    +  N  ++S D S C
+Sbjct  121  ITMSNCPGVTNTMVQQRQCLFVFWGRTAPVITTNGTNTSVDVSSC  165
+
+
+>VFG036858(gb|WP_014581127) (pilI) pilin-like protein may involving 
+in pseudopilus formation [Type IV pili (VF0075) - Adherence 
+(VFC0001)] [Neisseria meningitidis M01-240149]
+Length=204
+
+ Score = 44.7 bits (104),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 41/160 (26%), Positives = 69/160 (43%), Gaps = 26/160 (16%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            +IEVLVA+L+++IG+L ++++Q +T+    ++  +   + +  NL+E M  +P    D  
+Sbjct  18   LIEVLVAMLVLTIGILALLSVQLRTVASVREAETQTIVSQITQNLMEGMLMNPTIDSDSN  77
+
+Query  61   DQ-----MATQSDFFKAKGSAFPTAPSSCTPLPDAIKDRLGCWAEQVKNELPGAGDLLKS  115
+             +     M          G     A  S   L  A  DR G    ++KN L  A  +   
+Sbjct  78   KKNYNLYMGNHHTLSAVDGDFAVDAVKSKKDLAKAQLDRFGY---ELKNALQDAAAIY--  132
+
+Query  116  DYYICRSSK------------PGDCDGK--GSMLEIRLAW  141
+             Y +C+ S               +CD K  G  L I++ W
+Sbjct  133  -YAVCKDSSGAAPTLSAGSTFSSNCDNKANGDTL-IKVLW  170
+
+
+>VFG036850(gb|WP_002247807) (pilI) pilin-like protein may involving 
+in pseudopilus formation [Type IV pili (VF0075) - Adherence 
+(VFC0001)] [Neisseria meningitidis FAM18]
+Length=203
+
+ Score = 44.7 bits (104),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 33/130 (25%), Positives = 68/130 (52%), Gaps = 16/130 (12%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            +IEVLVA+L+++IG+L ++++Q +T+    ++  +   + +  NL+E M  +P       
+Sbjct  18   LIEVLVAMLVLTIGILALLSVQLRTVASVREAETQTIVSQITQNLMEGMLMNPTI-----  72
+
+Query  61   DQMATQSDFFKAKGSAFPTAPSSCTPLPDAIK-------DRLGCWAEQVKNELPGAGDLL  113
+            D  + + ++    G+   +A      + DAIK       ++L  ++ ++KN LP A  + 
+Sbjct  73   DSDSNKKNYNLYMGNHTLSAVDGDFAI-DAIKTKAQLAEEQLKRFSYELKNALPDAAAI-  130
+
+Query  114  KSDYYICRSS  123
+               Y +C+ S
+Sbjct  131  --HYAVCKDS  138
+
+
+>VFG036848(gb|WP_061706010) (pilI) pilin-like protein may involving 
+in pseudopilus formation [Type IV pili (VF0075) - Adherence 
+(VFC0001)] [Neisseria meningitidis MC58]
+Length=202
+
+ Score = 43.9 bits (102),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 46/187 (25%), Positives = 87/187 (47%), Gaps = 39/187 (21%)
+
+Query  1    MIEVLVALLLISIGVLGMIAMQGKTIQYTADSVERNKAAMLGSNLLESMRASPKALYDVK  60
+            +IEVLVA+L+++IG+L ++++Q +T+    ++  +   + +  NL+E M  +P       
+Sbjct  18   LIEVLVAMLVLTIGILALLSVQLRTVASVREAETQTIVSQITQNLMEGMLMNPTI-----  72
+
+Query  61   DQMATQSDFFKAKGSAFPTAPSSCTPLPDAIKDR-------LGCWAEQVKNELPGAGDLL  113
+            D  + + ++    G+   +A      + DA+K +       L  ++ ++KN LP A  + 
+Sbjct  73   DSDSNKKNYNLYMGNHTLSAVDGDFAI-DAMKTKGQLAEAQLKRFSYELKNALPDAAAI-  130
+
+Query  114  KSDYYICRSSK-----------PGDCDGK--GSMLEIRLAWRGKQGACVNAADSSADTSL  160
+               Y +C+ S              +CD K  G  L I++ W       VN  DS+ D+ +
+Sbjct  131  --HYAVCKDSSGNAPTLSGNAFSSNCDNKANGDTL-IKVLW-------VN--DSAGDSDI  178
+
+Query  161  CYYTLRV  167
+                L V
+Sbjct  179  SRTNLEV  185
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.132    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 812900332
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

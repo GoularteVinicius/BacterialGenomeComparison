@@ -1,0 +1,246 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1505.t1
+
+Length=469
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015928(gb|WP_011666673) (hcnC) cyanide-forming glycine dehydro...  55.8    2e-08
+VFG015926(gb|NP_250885) (hcnC) hydrogen cyanide synthase subunit ...  54.7    7e-08
+VFG015927(gb|WP_012075860) (hcnC) cyanide-forming glycine dehydro...  53.9    1e-07
+VFG015929(gb|WP_011536481) (hcnC) cyanide-forming glycine dehydro...  53.5    1e-07
+VFG015930(gb|WP_011060875) (hcnC) cyanide-forming glycine dehydro...  52.8    3e-07
+
+
+>VFG015928(gb|WP_011666673) (hcnC) cyanide-forming glycine dehydrogenase 
+subunit HcnC [Hydrogen cyanide production (VF0920) 
+- Antimicrobial activity/Competitive advantage (VFC0325)] 
+[Pseudomonas aeruginosa UCBPP-PA14]
+Length=417
+
+ Score = 55.8 bits (133),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 73/275 (27%), Positives = 110/275 (40%), Gaps = 35/275 (13%)
+
+Query  65   PPGSIELACMQ-----EGYREYRDIHARLNLPLLETGALVAAWSDED-------LARLPA  112
+            PP   +LA        E +RE  + H  ++     TG       DED       +A++P 
+Sbjct  93   PPAFFDLALQSNALYPELHRELIERHG-MDFKFERTGLKYVIQDDEDRQYAEHIVAQIPH  151
+
+Query  113  IVEQAHGNGVDDVRQVGRDEVLALEPQLAGNVLGAVRVPGEHLVDPWSAPLAYLQQALAH  172
+            + EQ        VR + R+E+   EP ++    GA+    +H V P+    AYL+ A  +
+Sbjct  152  LAEQ--------VRWLDREELRRAEPAVSHAAHGALEFLCDHQVSPFRLADAYLEAARQN  203
+
+Query  173  GAEACFDVEVLDGAFDGGEWLLHTRR---GDLRASQVINCAGLFGDQLEQRLLGAASFAI  229
+            G E      V  G    G  +   R    G L    +IN AG +  +L + L       +
+Sbjct  204  GVELLLGTNV-TGVLRQGRRISGVRTDNAGVLHCRTLINAAGAWAAELSE-LATGRRIPV  261
+
+Query  230  HPRKGQFVVFDKAAAALLRHILLPVPNERTKGVVFTRTVFGNLLAGPTAEEQDDREQARV  289
+             P KGQ V+ ++    LL   L       T      +   G +L G T E  D       
+Sbjct  262  KPVKGQIVLTER-MPRLLNGCLT------TSDCYMAQKDNGEILIGSTTE--DKGFDVSN  312
+
+Query  290  DSDTLQRLIDAAVERIPGLRGMPVTATYAGLRPAS  324
+                +  L+  AV  +P L+ + +  T+AGLRP S
+Sbjct  313  TFPEIAGLVQGAVRCVPELQQVNLKRTWAGLRPGS  347
+
+
+>VFG015926(gb|NP_250885) (hcnC) hydrogen cyanide synthase subunit 
+HcnC [Hydrogen cyanide production (VF0920) - Antimicrobial 
+activity/Competitive advantage (VFC0325)] [Pseudomonas aeruginosa 
+PAO1]
+Length=417
+
+ Score = 54.7 bits (130),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 73/275 (27%), Positives = 110/275 (40%), Gaps = 35/275 (13%)
+
+Query  65   PPGSIELACMQ-----EGYREYRDIHARLNLPLLETGALVAAWSDED-------LARLPA  112
+            PP   +LA        E +RE  + H  ++     TG       DED       +A++P 
+Sbjct  93   PPAFFDLALQSNALYPELHRELIERHG-MDFKFERTGLKYVIQDDEDRQYAEHIVAQIPH  151
+
+Query  113  IVEQAHGNGVDDVRQVGRDEVLALEPQLAGNVLGAVRVPGEHLVDPWSAPLAYLQQALAH  172
+            + EQ        VR + R+E+   EP ++    GA+    +H V P+    AYL+ A  +
+Sbjct  152  LAEQ--------VRWLDREELRRAEPAVSHAAHGALEFLCDHQVSPFRLADAYLEAARQN  203
+
+Query  173  GAEACFDVEVLDGAFDGGEWLLHTRR---GDLRASQVINCAGLFGDQLEQRLLGAASFAI  229
+            G E      V  G    G  +   R    G L    +IN AG +  +L +   G     +
+Sbjct  204  GVELLPGTNV-TGVLRQGRRISGVRTDNAGVLHCRTLINAAGAWAAELSEMATG-RRIPV  261
+
+Query  230  HPRKGQFVVFDKAAAALLRHILLPVPNERTKGVVFTRTVFGNLLAGPTAEEQDDREQARV  289
+             P KGQ V+ ++    LL   L       T      +   G +L G T E  D       
+Sbjct  262  KPVKGQIVLTER-MPRLLNGCLT------TSDCYMAQKDNGEILIGSTTE--DKGFDVSN  312
+
+Query  290  DSDTLQRLIDAAVERIPGLRGMPVTATYAGLRPAS  324
+                +  L+  AV  +P L+ + +  T+AGLRP S
+Sbjct  313  TFPEIAGLVQGAVRCVPELQQVNLKRTWAGLRPGS  347
+
+
+>VFG015927(gb|WP_012075860) (hcnC) cyanide-forming glycine dehydrogenase 
+subunit HcnC [Hydrogen cyanide production (VF0920) 
+- Antimicrobial activity/Competitive advantage (VFC0325)] 
+[Pseudomonas aeruginosa PA7]
+Length=417
+
+ Score = 53.9 bits (128),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 71/268 (26%), Positives = 106/268 (40%), Gaps = 21/268 (8%)
+
+Query  65   PPGSIELACMQ-----EGYREYRDIHARLNLPLLETGALVAAWSDEDLARLPAIVEQAHG  119
+            PP   + A        E +RE  + H  ++     TG       DED      IV Q   
+Sbjct  93   PPAFFDFALQSNALYPELHRELIERHG-MDFKFERTGLKYVIQDDEDRQYAEHIVAQIP-  150
+
+Query  120  NGVDDVRQVGRDEVLALEPQLAGNVLGAVRVPGEHLVDPWSAPLAYLQQALAHGAEACFD  179
+            +  D VR + RD++   EP ++    GA+    +H V P+    AYL+ A  +G E    
+Sbjct  151  HLADQVRWLDRDDLRRAEPAVSQAAHGALEFLCDHQVSPFRLADAYLEGARQNGVELLLG  210
+
+Query  180  VEVLDGAFDGGEWLLHTRR---GDLRASQVINCAGLFGDQLEQRLLGAASFAIHPRKGQF  236
+              V  G    G  +   R    G L    +IN AG +  +L + +       + P KGQ 
+Sbjct  211  SNV-TGVLRQGRRISGVRTDNAGVLHCQTLINAAGAWAAELSE-MASGRRIPVKPVKGQI  268
+
+Query  237  VVFDKAAAALLRHILLPVPNERTKGVVFTRTVFGNLLAGPTAEEQDDREQARVDSDTLQR  296
+            V+ ++    LL   L       T      +   G +L G T E  D           +  
+Sbjct  269  VLTER-MPRLLNGCLT------TSDCYMAQKDNGEILIGSTTE--DKGFDVGNTFPEIAG  319
+
+Query  297  LIDAAVERIPGLRGMPVTATYAGLRPAS  324
+            L+  AV  +P L+ + +  T+AGLRP S
+Sbjct  320  LVQGAVRCVPQLQEVNLKRTWAGLRPGS  347
+
+
+>VFG015929(gb|WP_011536481) (hcnC) cyanide-forming glycine dehydrogenase 
+subunit HcnC [Hydrogen cyanide production (VF0920) 
+- Antimicrobial activity/Competitive advantage (VFC0325)] 
+[Pseudomonas entomophila L48]
+Length=416
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 67/272 (25%), Positives = 112/272 (41%), Gaps = 17/272 (6%)
+
+Query  88   LNLPLLETGALVAAWSDEDLARLPAIVEQAHGNGVDDVRQVGRDEVLALEPQLAGNVLGA  147
+            ++     TG       +ED      IV+Q   +  D VR + RD +   EP +     GA
+Sbjct  120  MDFKFERTGLKYIIQDEEDQLYAEHIVKQI-PHLADQVRWLDRDALRTSEPAVTLKATGA  178
+
+Query  148  VRVPGEHLVDPWSAPLAYLQQALAHGAEACFDVEVLDGAFDGGEWLLHTRR---GDLRAS  204
+            +    +H V P+    A+++ A  +G +   +V +  G    G  +   R    G+    
+Sbjct  179  LEFLCDHQVSPFRLGDAFMEAARQNGVDLYPNVNI-TGVLHEGSRIKGVRTAEAGEFHCG  237
+
+Query  205  QVINCAGLFGDQLEQRLLGAASFAIHPRKGQFVVFDKAAAALLRHILLPVPNERTKGVVF  264
+             +IN AG +  +L +   G  S  + P KGQ V+ ++    LL   L       T     
+Sbjct  238  TLINAAGAWAAELSEWATG-ESIPVKPVKGQIVLTER-LPKLLDGCL------TTSDCYM  289
+
+Query  265  TRTVFGNLLAGPTAEEQDDREQARVDSDTLQRLIDAAVERIPGLRGMPVTATYAGLRPAS  324
+             +   G +L G T EE+            +  L+  A+  +P L  + +  T+AGLRP S
+Sbjct  290  AQKDNGEILIGSTTEEKGFDVSNTFPE--INGLVQGAIRCVPQLAQVNLKRTWAGLRPGS  347
+
+Query  325  EKKEYRIRQVDGRN--WISVGGIRSTGLTAAL  354
+              +   +  VD     + + G  R+  LT+A+
+Sbjct  348  PDELPILGPVDNVQGYFNACGHFRTGILTSAI  379
+
+
+>VFG015930(gb|WP_011060875) (hcnC) cyanide-forming glycine dehydrogenase 
+subunit HcnC [Hydrogen cyanide production (VF0920) 
+- Antimicrobial activity/Competitive advantage (VFC0325)] 
+[Pseudomonas fluorescens Pf-5]
+Length=417
+
+ Score = 52.8 bits (125),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 69/282 (24%), Positives = 118/282 (42%), Gaps = 18/282 (6%)
+
+Query  78   YREYRDIHARLNLPLLETGALVAAWSDEDLARLPAIVEQAHGNGVDDVRQVGRDEVLALE  137
+            +RE   +H  ++    +TG     + +ED      IV     +  D VR + +  + A E
+Sbjct  111  HRELMGLH-NMDFKFEQTGLKFVIYDEEDRLYAEHIV-GCIPHLSDQVRWLDQAALRASE  168
+
+Query  138  PQLAGNVLGAVRVPGEHLVDPWSAPLAYLQQALAHGAEACFDVEVLDGAFDGGEWLLHTR  197
+            P ++    GA+    +H V+P+    AY + A  +G +  F+  V  G    G  +   +
+Sbjct  169  PNVSHEAQGALEFLCDHQVNPFRLTDAYTEGARQNGVDVYFNTNV-TGVLHQGNRVSGVK  227
+
+Query  198  R---GDLRASQVINCAGLFGDQLEQRLLGAASFAIHPRKGQFVVFDKAAAALLRHILLPV  254
+                G  R + +IN AG +  +L  +  G     + P KGQ ++ ++    LL   L   
+Sbjct  228  TDVAGLFRCTTLINAAGAWAAELSLQATG-IEIPVKPVKGQILLTER-MPKLLNGCL---  282
+
+Query  255  PNERTKGVVFTRTVFGNLLAGPTAEEQDDREQARVDSDTLQRLIDAAVERIPGLRGMPVT  314
+                T      +   G +L G T E  D           +  L+  AV  +P L  + + 
+Sbjct  283  ---TTSDCYMAQKDNGEILIGSTTE--DKGFDVTTTYPEINGLVQGAVRCVPELAHVNLK  337
+
+Query  315  ATYAGLRPASEKKEYRIRQVDG-RNWISVGGIRSTG-LTAAL  354
+              +AGLRP S  +   +  +DG   +++  G   TG LT+A+
+Sbjct  338  RCWAGLRPGSPDELPILGPMDGVEGYLNACGHFRTGILTSAI  379
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3791713075
+
+
+Query= g5243.t1
+
+Length=368
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2778162254
+
+
+Query= g2589.t1
+
+Length=422
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3322779603
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

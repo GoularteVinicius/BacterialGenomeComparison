@@ -1,0 +1,280 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g522.t1
+
+Length=80
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.134    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 331612932
+
+
+Query= g3290.t1
+
+Length=502
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) - ...  85.1    1e-17
+
+
+>VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=447
+
+ Score = 85.1 bits (209),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 76/297 (26%), Positives = 138/297 (46%), Gaps = 10/297 (3%)
+
+Query  67   YDLSAIAGALLSLSEEFELTTREQELLTTTAVLGQIAGALGGGILANAIGRKKSVVLIVA  126
+            +DL  I+  L  L ++++L   +  L+  +   G + GAL  G LA+ +GRK  ++  + 
+Sbjct  39   FDLLLISFTLPLLKQQWQLDPTQVGLIVGSGTFGMLLGALCAGALADRVGRKPVLLAAML  98
+
+Query  127  GYAVFALLGATSVSVPMLVVARLLLGVTIGLSVVVVPVYVAESAPAAVRGSLVTAYQLAT  186
+               +F+ L A +     L+V RLL G+ IG  V +  +Y++E   + VRG  V  Y+L+ 
+Sbjct  99   LTGLFSALIACASDWQGLLVGRLLQGLGIGAEVPIAALYLSEIITSKVRGRFVLLYELSF  158
+
+Query  187  LSGIVVGYLVGYLLAGSHGWRAMFGLAAAPATLLLPLLWRMPDTARWYLLKGRIADARSA  246
+              G++   +         GWR ++ L + P  L + +   +P++ARW   +G++  A++ 
+Sbjct  159  PCGLMFAGVACTWALPVMGWRPLYWLGSVPMVLAVAVYLYVPESARWLAARGQLRRAQAC  218
+
+Query  247  LRRIQPEAD--IDAELADMAAAVDERGGGIGEMVRRPYLR----ATLFVIALGFLVQITG  300
+            +  ++  +   +   L   A     R  G    +  P LR    +   +  LG+LV    
+Sbjct  219  MAYMERASGHAVATPLLTEAPVARPRDSGRWRQLFDPVLRHASGSVGLLWFLGYLVNF--  276
+
+Query  301  INAIIYYSPRLFAAMGFAGYFAMLALPAMVQVAGLAAVCASLFLVDRLGRRPILLSG  357
+              A++ + P L+  +        L       +AGL    A+ + VDR+GR  +L  G
+Sbjct  277  --ALLIWLPSLYVEVFSTSLAQALNFTLWSNIAGLGGCMAAAWCVDRIGRVRLLFGG  331
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.140    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4134525490
+
+
+Query= g2802.t1
+
+Length=472
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) - ...  84.3    2e-17
+VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux M...  52.0    5e-07
+VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein req...  50.8    9e-07
+
+
+>VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=447
+
+ Score = 84.3 bits (207),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 79/293 (27%), Positives = 135/293 (46%), Gaps = 16/293 (5%)
+
+Query  39   DIGVIAGALPFITDHFVLTSRLQEWVVSSMMLGAAIGALFNGWLSFRLGRKYSLMAGAIL  98
+            D+ +I+  LP +   + L       +V S   G  +GAL  G L+ R+GRK  L+A  +L
+Sbjct  40   DLLLISFTLPLLKQQWQLDPTQVGLIVGSGTFGMLLGALCAGALADRVGRKPVLLAAMLL  99
+
+Query  99   FVLGSLGSAFASSVEVLIGARVILGVAVGIASYTAPLYLSEMASENVRGKMISMYQLMVT  158
+              L S   A AS  + L+  R++ G+ +G     A LYLSE+ +  VRG+ + +Y+L   
+Sbjct  100  TGLFSALIACASDWQGLLVGRLLQGLGIGAEVPIAALYLSEIITSKVRGRFVLLYELSFP  159
+
+Query  159  LGIVLAFLSDTAFSYSGNWRAMLGVLALPAVLLIILVVFLPNSPRWLAQKGRHIEAEEVL  218
+             G++ A ++ T       WR +  + ++P VL + + +++P S RWLA +G+   A+  +
+Sbjct  160  CGLMFAGVACTWALPVMGWRPLYWLGSVPMVLAVAVYLYVPESARWLAARGQLRRAQACM  219
+
+Query  219  RMLRDTSEK--ARDELNEIRESLKLKQGGW------ALFKANRNVRRAVFLGMLLQAMQQ  270
+              +   S    A   L E   +     G W       L  A+ +V    FLG L+     
+Sbjct  220  AYMERASGHAVATPLLTEAPVARPRDSGRWRQLFDPVLRHASGSVGLLWFLGYLVN----  275
+
+Query  271  FTGMNIIMYYAPRIFKMAGFTTTEQQMIATLVVGLTFMFATFIAVFTVDKAGR  323
+                  ++ + P ++     T+  Q +  TL   +  +     A + VD+ GR
+Sbjct  276  ----FALLIWLPSLYVEVFSTSLAQALNFTLWSNIAGLGGCMAAAWCVDRIGR  324
+
+
+>VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux 
+MFS transporter permease subunit [Achromobactin (VF1243) 
+- Nutritional/Metabolic factor (VFC0272)] [Dickeya dadantii 
+3937]
+Length=482
+
+ Score = 52.0 bits (123),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 48/161 (30%), Positives = 79/161 (49%), Gaps = 9/161 (6%)
+
+Query  46   ALPFITDHFVLTSRLQEWVVSSMMLGAAIGALFNGWLSFRLGRKYSLMAGAILFVLGSLG  105
+            ALP   + F +   L  W+V++ M+   +     G+L  RLG K   + G  LF+ GSL 
+Sbjct  32   ALPAFIEVFHIGPLLATWIVAAFMVSMGMTMPLTGYLGHRLGNKPLYLLGVALFISGSLL  91
+
+Query  106  SAFASSVEVLIGARVILGVAVGIASYTAPLYLSEMAS---ENVRGKMISMYQLMVTLGIV  162
+               A S+  +I AR + G+A G+     PL L+ + S   +  RG +  ++  +V L   
+Sbjct  92   GMLADSISQVIAARTVQGIASGL---MIPLSLTLIFSVYPKQERGGITGIWGAIVMLAPA  148
+
+Query  163  LAFLSDTAFSYSGNWRAMLGVLALP--AVLLIILVVFLPNS  201
+            L  L         +WRA+  V+ +P  A+ L++ +V LP +
+Sbjct  149  LGPLCGGILLEWFSWRALF-VMNIPIGALALLMGLVVLPKT  188
+
+
+>VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein 
+required for import of Legiobactin [Legiobactin (VF0291) - 
+Nutritional/Metabolic factor (VFC0272)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=386
+
+ Score = 50.8 bits (120),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 29/91 (32%), Positives = 48/91 (53%), Gaps = 0/91 (0%)
+
+Query  37   GLDIGVIAGALPFITDHFVLTSRLQEWVVSSMMLGAAIGALFNGWLSFRLGRKYSLMAGA  96
+             +DI  +  ALP + D+F +T    +  +S  +LG A+  +  G LS R GRK   + G 
+Sbjct  17   NMDIHFLTPALPSLVDYFSVTPNTVQLTISLFLLGKALSMILWGLLSERYGRKPIFIGGL  76
+
+Query  97   ILFVLGSLGSAFASSVEVLIGARVILGVAVG  127
+            +LF+L +   A   S+   +  R + G++VG
+Sbjct  77   LLFILSNFLIALNHSILPFLVCRFLQGISVG  107
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.138    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3822877840
+
+
+Query= g2872.t1
+
+Length=464
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) - ...  84.0    3e-17
+VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux M...  49.7    2e-06
+VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein req...  48.9    4e-06
+
+
+>VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=447
+
+ Score = 84.0 bits (206),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 55/190 (29%), Positives = 98/190 (52%), Gaps = 0/190 (0%)
+
+Query  32   DIGVIAGALPFITDEFQITAHTQEWVVSSMMFGAAVGAVGSGWLSFKLGRKKSLMIGAIL  91
+            D+ +I+  LP +  ++Q+       +V S  FG  +GA+ +G L+ ++GRK  L+   +L
+Sbjct  40   DLLLISFTLPLLKQQWQLDPTQVGLIVGSGTFGMLLGALCAGALADRVGRKPVLLAAMLL  99
+
+Query  92   FVAGSLFSAAAPNVEVLIISRVLLGLAVGVASYTAPLYLSEIAPEKIRGSMISMYQLMIT  151
+                S   A A + + L++ R+L GL +G     A LYLSEI   K+RG  + +Y+L   
+Sbjct  100  TGLFSALIACASDWQGLLVGRLLQGLGIGAEVPIAALYLSEIITSKVRGRFVLLYELSFP  159
+
+Query  152  IGILGAYLSDTAFSYSGAWRWMLGVIIIPAILLLIGVFFLPDSPRWFAAKRRFHDAERVL  211
+             G++ A ++ T       WR +  +  +P +L +    ++P+S RW AA+ +   A+  +
+Sbjct  160  CGLMFAGVACTWALPVMGWRPLYWLGSVPMVLAVAVYLYVPESARWLAARGQLRRAQACM  219
+
+Query  212  LRLRDTSAEA  221
+              +   S  A
+Sbjct  220  AYMERASGHA  229
+
+
+>VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux 
+MFS transporter permease subunit [Achromobactin (VF1243) 
+- Nutritional/Metabolic factor (VFC0272)] [Dickeya dadantii 
+3937]
+Length=482
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 41/159 (26%), Positives = 79/159 (50%), Gaps = 5/159 (3%)
+
+Query  39   ALPFITDEFQITAHTQEWVVSSMMFGAAVGAVGSGWLSFKLGRKKSLMIGAILFVAGSLF  98
+            ALP   + F I      W+V++ M    +    +G+L  +LG K   ++G  LF++GSL 
+Sbjct  32   ALPAFIEVFHIGPLLATWIVAAFMVSMGMTMPLTGYLGHRLGNKPLYLLGVALFISGSLL  91
+
+Query  99   SAAAPNVEVLIISRVLLGLAVGVASYTAPLYLSEIAPEKIRGSMISMYQLMITIG-ILGA  157
+               A ++  +I +R + G+A G+    +   +  + P++ RG +  ++  ++ +   LG 
+Sbjct  92   GMLADSISQVIAARTVQGIASGLMIPLSLTLIFSVYPKQERGGITGIWGAIVMLAPALGP  151
+
+Query  158  YLSDTAFSYSGAWRWMLGVIIIP--AILLLIGVFFLPDS  194
+                    +  +WR +  V+ IP  A+ LL+G+  LP +
+Sbjct  152  LCGGILLEWF-SWRALF-VMNIPIGALALLMGLVVLPKT  188
+
+
+>VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein 
+required for import of Legiobactin [Legiobactin (VF0291) - 
+Nutritional/Metabolic factor (VFC0272)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=386
+
+ Score = 48.9 bits (115),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 27/91 (30%), Positives = 48/91 (53%), Gaps = 0/91 (0%)
+
+Query  30   GLDIGVIAGALPFITDEFQITAHTQEWVVSSMMFGAAVGAVGSGWLSFKLGRKKSLMIGA  89
+             +DI  +  ALP + D F +T +T +  +S  + G A+  +  G LS + GRK   + G 
+Sbjct  17   NMDIHFLTPALPSLVDYFSVTPNTVQLTISLFLLGKALSMILWGLLSERYGRKPIFIGGL  76
+
+Query  90   ILFVAGSLFSAAAPNVEVLIISRVLLGLAVG  120
+            +LF+  +   A   ++   ++ R L G++VG
+Sbjct  77   LLFILSNFLIALNHSILPFLVCRFLQGISVG  107
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.140    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3739771800
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

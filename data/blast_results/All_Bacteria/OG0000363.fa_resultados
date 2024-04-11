@@ -1,0 +1,3557 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1377.t1
+
+Length=346
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG030307(gb|WP_015303738) (adhD) NDMA-dependent alcohol dehydrog...  104     3e-25
+VFG030300(gb|WP_014001575) (adhD) NDMA-dependent alcohol dehydrog...  104     4e-25
+VFG030286(gb|NP_217602) (adhD) alcohol dehydrogenase D [MymA oper...  103     5e-25
+VFG030323(gb|WP_015345151) (adhD) NDMA-dependent alcohol dehydrog...  103     9e-25
+VFG030308(gb|WP_015291173) (adhD) NDMA-dependent alcohol dehydrog...  103     9e-25
+VFG030302(gb|WP_041318085) (adhD) NDMA-dependent alcohol dehydrog...  101     3e-24
+VFG030318(gb|YP_007959090) (adhD) zinc-type alcohol dehydrogenase...  100     7e-24
+VFG030295(gb|WP_011742363) (adhD) Zn-dependent alcohol dehydrogen...  97.8    1e-22
+VFG030314(gb|YP_007962958) (adhD) Putative zinc-type alcohol dehy...  93.6    3e-21
+VFG030301(gb|WP_012392129) (adhD) NDMA-dependent alcohol dehydrog...  90.9    2e-20
+VFG030290(gb|WP_003894835) (adhD) NDMA-dependent alcohol dehydrog...  90.1    5e-20
+VFG030305(gb|WP_016343680) (adhD) NDMA-dependent alcohol dehydrog...  88.2    2e-19
+VFG030291(gb|WP_011857132) (adhD) NDMA-dependent alcohol dehydrog...  85.1    2e-18
+VFG030293(gb|WP_011562028) (adhD) NDMA-dependent alcohol dehydrog...  85.1    2e-18
+VFG015871(gb|WP_011105123) (cfa8) crotonyl-CoA carboxylase/reduct...  80.5    1e-16
+VFG030304(gb|WP_011560572) (adhD) NDMA-dependent alcohol dehydrog...  77.8    6e-16
+VFG030297(gb|YP_001702819) (adhD) Probable zinc-type alcohol dehy...  77.4    8e-16
+VFG008556(gb|WP_005116844) (pks2) type I polyketide synthase [Sul...  51.2    8e-07
+VFG008791(gb|WP_015294046) (mas) mycocerosate synthase [PDIM (VF0...  48.1    7e-06
+
+
+>VFG030307(gb|WP_015303738) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070008]
+Length=368
+
+ Score = 104 bits (259),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 72/224 (32%), Positives = 112/224 (50%), Gaps = 16/224 (7%)
+
+Query  12   ATEPLTKVTINRRAPGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTA  71
+            A +P   + ++   PGP +V ++   AG+CHSD+H    +   P +P+V GHE +GV+  
+Sbjct  11   AGKPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDL-PPRFPIVGGHEGSGVIEE  69
+
+Query  72   VGTEVTKHKVGDRVGVGCMVGSCGECSSCLAGIEQYCKRGAT----------FTYNSIGT  121
+            VG  VT+ K GD V V   + +CG C  C  G +  C  GAT          F ++S GT
+Sbjct  70   VGAGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGT  128
+
+Query  122  D--GQSTQGGYSQAIVVDENFVVHIPDALPLDAAAPLLCAGITLY-SPLRHWNAKPGTRL  178
+            D       G +++   V ++ VV + D LPL+ A  + C   + + + +   N + G   
+Sbjct  129  DFGAMCMLGTFAERATVSQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTA  188
+
+Query  179  AIIGLGGLGHMGVKLGRKMGCE-VTVLSQSLKKMEDGLQLGASN  221
+             I G+GGLG   V+     GC+ V V+     K E  L+ GA++
+Sbjct  189  VIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATH  232
+
+
+>VFG030300(gb|WP_014001575) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140010059]
+Length=368
+
+ Score = 104 bits (259),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 72/224 (32%), Positives = 112/224 (50%), Gaps = 16/224 (7%)
+
+Query  12   ATEPLTKVTINRRAPGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTA  71
+            A +P   + ++   PGP +V ++   AG+CHSD+H    +   P +P+V GHE +GV+  
+Sbjct  11   AGKPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDL-PPRFPIVGGHEGSGVIEE  69
+
+Query  72   VGTEVTKHKVGDRVGVGCMVGSCGECSSCLAGIEQYCKRGAT----------FTYNSIGT  121
+            VG  VT+ K GD V V   + +CG C  C  G +  C  GAT          F ++S GT
+Sbjct  70   VGAGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGT  128
+
+Query  122  D--GQSTQGGYSQAIVVDENFVVHIPDALPLDAAAPLLCAGITLY-SPLRHWNAKPGTRL  178
+            D       G +++   V ++ VV + D LPL+ A  + C   + + + +   N + G   
+Sbjct  129  DFGAMCMLGTFAERATVSQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTA  188
+
+Query  179  AIIGLGGLGHMGVKLGRKMGCE-VTVLSQSLKKMEDGLQLGASN  221
+             I G+GGLG   V+     GC+ V V+     K E  L+ GA++
+Sbjct  189  VIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATH  232
+
+
+>VFG030286(gb|NP_217602) (adhD) alcohol dehydrogenase D [MymA 
+operon (VF0840) - Immune modulation (VFC0258)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=368
+
+ Score = 103 bits (258),  Expect = 5e-25, Method: Compositional matrix adjust.
+ Identities = 72/224 (32%), Positives = 112/224 (50%), Gaps = 16/224 (7%)
+
+Query  12   ATEPLTKVTINRRAPGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTA  71
+            A +P   + ++   PGP +V ++   AG+CHSD+H    +   P +P+V GHE +GV+  
+Sbjct  11   AGKPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDL-PPRFPIVGGHEGSGVIEE  69
+
+Query  72   VGTEVTKHKVGDRVGVGCMVGSCGECSSCLAGIEQYCKRGAT----------FTYNSIGT  121
+            VG  VT+ K GD V V   + +CG C  C  G +  C  GAT          F ++S GT
+Sbjct  70   VGAGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGT  128
+
+Query  122  D--GQSTQGGYSQAIVVDENFVVHIPDALPLDAAAPLLCAGITLY-SPLRHWNAKPGTRL  178
+            D       G +++   V ++ VV + D LPL+ A  + C   + + + +   N + G   
+Sbjct  129  DFGAMCMLGTFAERATVSQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTA  188
+
+Query  179  AIIGLGGLGHMGVKLGRKMGCE-VTVLSQSLKKMEDGLQLGASN  221
+             I G+GGLG   V+     GC+ V V+     K E  L+ GA++
+Sbjct  189  VIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATH  232
+
+
+>VFG030323(gb|WP_015345151) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis 7199-99]
+Length=368
+
+ Score = 103 bits (256),  Expect = 9e-25, Method: Compositional matrix adjust.
+ Identities = 71/222 (32%), Positives = 111/222 (50%), Gaps = 16/222 (7%)
+
+Query  14   EPLTKVTINRRAPGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTAVG  73
+            +P   + ++   PGP +V ++   AG+CHSD+H    +   P +P+V GHE +GV+  VG
+Sbjct  13   KPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDL-PPRFPIVGGHEGSGVIEEVG  71
+
+Query  74   TEVTKHKVGDRVGVGCMVGSCGECSSCLAGIEQYCKRGAT----------FTYNSIGTD-  122
+              VT+ K GD V V   + +CG C  C  G +  C  GAT          F ++S GTD 
+Sbjct  72   AGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGTDF  130
+
+Query  123  -GQSTQGGYSQAIVVDENFVVHIPDALPLDAAAPLLCAGITLY-SPLRHWNAKPGTRLAI  180
+                  G +++   V ++ VV + D LPL+ A  + C   + + + +   N + G    I
+Sbjct  131  GAMCMLGTFAERATVSQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTAVI  190
+
+Query  181  IGLGGLGHMGVKLGRKMGCE-VTVLSQSLKKMEDGLQLGASN  221
+             G+GGLG   V+     GC+ V V+     K E  L+ GA++
+Sbjct  191  YGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATH  232
+
+
+>VFG030308(gb|WP_015291173) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=368
+
+ Score = 103 bits (256),  Expect = 9e-25, Method: Compositional matrix adjust.
+ Identities = 72/224 (32%), Positives = 111/224 (50%), Gaps = 16/224 (7%)
+
+Query  12   ATEPLTKVTINRRAPGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTA  71
+            A +P   + ++   PGP +V ++   AG+CHSD+H    +   P +P+V GHE +GV+  
+Sbjct  11   AGKPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDL-PPRFPIVGGHEGSGVIEE  69
+
+Query  72   VGTEVTKHKVGDRVGVGCMVGSCGECSSCLAGIEQYCKRGAT----------FTYNSIGT  121
+            VG  VT+ K GD V V   + +CG C  C  G +  C  GAT          F ++S GT
+Sbjct  70   VGAGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGT  128
+
+Query  122  D--GQSTQGGYSQAIVVDENFVVHIPDALPLDAAAPLLCAGITLY-SPLRHWNAKPGTRL  178
+            D       G +++   V  + VV + D LPL+ A  + C   + + + +   N + G   
+Sbjct  129  DFGAMCMLGTFAERATVSHHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTA  188
+
+Query  179  AIIGLGGLGHMGVKLGRKMGCE-VTVLSQSLKKMEDGLQLGASN  221
+             I G+GGLG   V+     GC+ V V+     K E  L+ GA++
+Sbjct  189  VIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATH  232
+
+
+>VFG030302(gb|WP_041318085) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. JDM601]
+Length=369
+
+ Score = 101 bits (252),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 79/251 (31%), Positives = 117/251 (47%), Gaps = 37/251 (15%)
+
+Query  1    MTTVSAYAATSATEPLTKVTINRRAPGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVV  60
+            M T++A  A +  +P   + ++   PGP +V I+   AG+CHSD+H    +W    +P+V
+Sbjct  1    MKTIAA-VAHAPNQPFEIMELDLDGPGPGEVLIKFTAAGLCHSDLHLADGDW-PARFPIV  58
+
+Query  61   PGHEIAGVVTAVGTEVTKHKVGDRVGVGCMVGSCGECSSCLAGIEQYCKRGA--------  112
+             GHE +G++  VG  VTK   GD V V C + SCG C  C  G +  C  GA        
+Sbjct  59   GGHEGSGIIEDVGPGVTKVAPGDHV-VCCFIPSCGTCRYCSTGRQNLCDMGATILEGCMP  117
+
+Query  113  --TFTYNSIGTD--GQSTQGGYSQAIVVDENFVVHIPDALPLDAAAPLLCAGITLYSPLR  168
+              TF ++S GTD  G    G +++   V ++ VV + D LPL  A  + C   T ++   
+Sbjct  118  DGTFRFHSGGTDYGGFCMLGTFAERATVSQHSVVKVDDWLPLQTAVLVGCGVPTGWASA-  176
+
+Query  169  HWNAKPGTR------------LAIIGLGGLGHMGVKLGRKMGCEVTVLSQSLKKMEDGLQ  216
+              N   G R            + I  + G  H G K        V  +     K E  L+
+Sbjct  177  --NYDGGVRAGDTVVVYGVGGVGINAVQGAAHAGAKY-------VVAVDPVEFKRETALK  227
+
+Query  217  LGASNYYATAD  227
+            LGA++ +ATA+
+Sbjct  228  LGATHAFATAE  238
+
+
+>VFG030318(gb|YP_007959090) (adhD) zinc-type alcohol dehydrogenase 
+AdhD [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=351
+
+ Score = 100 bits (249),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 70/215 (33%), Positives = 108/215 (50%), Gaps = 16/215 (7%)
+
+Query  21   INRRAPGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTAVGTEVTKHK  80
+            ++   PGP +V ++   AG+CHSD+H    +   P +P+V GHE +GV+  VG  VT+ K
+Sbjct  3    LDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDL-PPRFPIVGGHEGSGVIEEVGAGVTRVK  61
+
+Query  81   VGDRVGVGCMVGSCGECSSCLAGIEQYCKRGAT----------FTYNSIGTD--GQSTQG  128
+             GD V V   + +CG C  C  G +  C  GAT          F ++S GTD       G
+Sbjct  62   PGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGTDFGAMCMLG  120
+
+Query  129  GYSQAIVVDENFVVHIPDALPLDAAAPLLCAGITLY-SPLRHWNAKPGTRLAIIGLGGLG  187
+             +++   V ++ VV + D LPL+ A  + C   + + + +   N + G    I G+GGLG
+Sbjct  121  TFAERAXVSQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTAVIYGVGGLG  180
+
+Query  188  HMGVKLGRKMGCE-VTVLSQSLKKMEDGLQLGASN  221
+               V+     GC+ V V+     K E  L+ GA++
+Sbjct  181  INAVQGATAAGCKYVVVVDPVAFKRETALKFGATH  215
+
+
+>VFG030295(gb|WP_011742363) (adhD) Zn-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium ulcerans Agy99]
+Length=385
+
+ Score = 97.8 bits (242),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 103/375 (27%), Positives = 160/375 (43%), Gaps = 48/375 (13%)
+
+Query  14   EPLTKVTINRRAPGPHDVAIQIKFAGICHSDIHTVKAEWGQPN-----------YPVVPG  62
+             P T        P   +V +Q+   G+CHSD H  +     P             P + G
+Sbjct  13   HPWTVEEFELDPPRAGEVLLQLSATGLCHSDEHIRRGNLAPPPETLRSFGLPTMSPTIGG  72
+
+Query  63   HEIAGVVTAVGTEVTKHKVGDRVGVGCMVGSCGECSSCLAGIEQYCKRG-----------  111
+            HE +GVV  VG  VT+   GD V V   +  CG+C  C  G+E  C  G           
+Sbjct  73   HEGSGVVLEVGEGVTRFAPGDHV-VTSFIAVCGQCRWCATGMEYLCDTGYGTLAPGMPTD  131
+
+Query  112  ATFTYNSIGTDGQ-----STQGGYSQAIVVDENFVVHIPDALPLDAAAPLLCAGITLY-S  165
+             TF ++S+  DG+     S  G +++  VV  + +V I    PL  AA L CA  T Y S
+Sbjct  132  GTFRHHSL--DGRDLGHVSKIGPFAEHTVVSADSLVKIDQTFPLVPAALLACAIPTRYGS  189
+
+Query  166  PLRHWNAKPGTRLAIIGLGGLGHMGVKLGRKMGCEVTVLSQSLK-KMEDGLQLGASNYYA  224
+              R    + G    +IG GG+G   ++  R  G    +    ++ + +  L  GA++  A
+Sbjct  190  AARRAQVRGGDIAVVIGAGGIGTAAIQGARIQGATRIIAVDPVEFERKSALTFGATHTAA  249
+
+Query  225  TADP--DTFRKL-RGSFDLILNTVSANL---DLGKYLNLLDVNGTLVELGIPE---HPML  275
+            T D   +T R+L RG    ++    A +   D+   L+L    GT V  G+P+   H + 
+Sbjct  250  TTDEAVETVRELTRGVMADVVVVSPATIGPADVAAALSLTRKGGTCVLTGLPDPAMHSIA  309
+
+Query  276  VPAFALALMRRSLAGSNIGGITETQEMMNFSAEHSVTPEI--ELIEPDY----INEAYER  329
+            V      LM ++L G+  G      ++   +  +     +   +I   Y    IN+AY  
+Sbjct  310  VGLQDFVLMNKTLCGTVFGSCNPKSDIPLLATMYQSGQLLLDAMITKRYSLHSINDAYAD  369
+
+Query  330  VLASDVRYRFVINIS  344
+            ++A ++  R VI+ S
+Sbjct  370  LVAGEL-IRGVIDFS  383
+
+
+>VFG030314(gb|YP_007962958) (adhD) Putative zinc-type alcohol 
+dehydrogenase AdhD (aldehyde reductase) [MymA operon (VF0840) 
+- Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+CAS/NITR204]
+Length=380
+
+ Score = 93.6 bits (231),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 62/189 (33%), Positives = 96/189 (51%), Gaps = 15/189 (8%)
+
+Query  12   ATEPLTKVTINRRAPGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTA  71
+            A +P   + ++   PGP +V ++   AG+CHSD+H    +   P +P+V GHE +GV+  
+Sbjct  11   AGKPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDL-PPRFPIVGGHEGSGVIEE  69
+
+Query  72   VGTEVTKHKVGDRVGVGCMVGSCGECSSCLAGIEQYCKRGAT----------FTYNSIGT  121
+            VG  VT+ K GD V V   + +CG C  C  G +  C  GAT          F ++S GT
+Sbjct  70   VGAGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGT  128
+
+Query  122  D--GQSTQGGYSQAIVVDENFVVHIPDALPLDAAAPLLCAGITLY-SPLRHWNAKPGTRL  178
+            D       G +++   V ++ VV + D LPL+ A  + C   + + + +   N + G   
+Sbjct  129  DFGAMCMLGTFAERATVSQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTA  188
+
+Query  179  AIIGLGGLG  187
+             I G+GGLG
+Sbjct  189  VIYGVGGLG  197
+
+
+>VFG030301(gb|WP_012392129) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium marinum M]
+Length=369
+
+ Score = 90.9 bits (224),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 72/237 (30%), Positives = 108/237 (46%), Gaps = 24/237 (10%)
+
+Query  5    SAYAATSATEPLTKVTINRRAPGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVVPGHE  64
+            +A     A +P   + +    P   +V I+   AG+CHSD+H    +   P YP+V GHE
+Sbjct  4    TAAVLLEAGKPFEIMELELDGPRVGEVLIKYTAAGLCHSDLHLTDGDL-PPRYPIVGGHE  62
+
+Query  65   IAGVVTAVGTEVTKHKVGDRVGVGCMVGSCGECSSCLAGIEQYCKRGAT----------F  114
+             +GV+  VG  V+K K GD V V   + +CG C  C  G +  C  GAT          F
+Sbjct  63   GSGVIEEVGPGVSKVKPGDHV-VCSFIPNCGTCRYCSTGRQNLCDMGATILEGCMSDGSF  121
+
+Query  115  TYNSIGTD--GQSTQGGYSQAIVVDENFVVHIPDALPLDAAAPLLCA-----GITLYSPL  167
+             ++  G D       G +S+   + ++ VV I D LPL  A  + C      G ++Y+  
+Sbjct  122  RFHRKGVDFGAMCMLGTFSERATISQHSVVKIDDWLPLTTAVLVGCGVPTGWGTSVYAG-  180
+
+Query  168  RHWNAKPGTRLAIIGLGGLGHMGVKLGRKMGCE-VTVLSQSLKKMEDGLQLGASNYY  223
+                 +PG    I G GGLG   V+     G + V V+     K +  L+ GA++ +
+Sbjct  181  ---GVRPGDTTVIYGAGGLGINAVQGAVSAGAKHVVVVDPVAFKRDTALKFGATHAF  234
+
+
+>VFG030290(gb|WP_003894835) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=372
+
+ Score = 90.1 bits (222),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 68/237 (29%), Positives = 108/237 (46%), Gaps = 16/237 (7%)
+
+Query  5    SAYAATSATEPLTKVTINRRAPGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVVPGHE  64
+             A  +     P   + +    P   +V ++   AG+CHSD+H    +   P YP+V GHE
+Sbjct  4    KAAVSLGVNRPFEIMELELDGPKEGEVLLKNVAAGLCHSDLHLTDGDM-PPRYPIVGGHE  62
+
+Query  65   IAGVVTAVGTEVTKHKVGDRVGVGCMVGSCGECSSCLAGIEQYCKRGA----------TF  114
+             + +V  VG  VTK K GD V V   + +CG C  C  G    C  GA          TF
+Sbjct  63   GSAIVEDVGPGVTKVKPGDHV-VCSYIPNCGTCRYCATGRSNLCDMGATILDGRFPDGTF  121
+
+Query  115  TYNSIGTDGQS--TQGGYSQAIVVDENFVVHIPDALPLDAAAPLLCAGITLY-SPLRHWN  171
+             ++  G D  S    G +++   V ++ VV + + +PL+ A  + C     +  P+ +  
+Sbjct  122  RFHKDGVDYGSLCLLGSFAERTTVSQHSVVKVDEWIPLETAVLVGCGVPAGWGGPVYNNG  181
+
+Query  172  AKPGTRLAIIGLGGLGHMGVKLGRKMGCEVTVLSQSLKKMED-GLQLGASNYYATAD  227
+             +PG    I G+GGLG   ++     G    V    ++   D  L+ GA++ +ATA+
+Sbjct  182  IRPGDTAVIYGIGGLGINAIQGAVMAGARYVVAVDPVEFKRDMALKFGATHAFATAE  238
+
+
+>VFG030305(gb|WP_016343680) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium abscessus subsp. bolletii 50594]
+Length=368
+
+ Score = 88.2 bits (217),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 58/166 (35%), Positives = 82/166 (49%), Gaps = 14/166 (8%)
+
+Query  5    SAYAATSATEPLTKVTINRRAPGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVVPGHE  64
+            +A     A +P   + ++   P   +V +    AG+CHSD+H    +   P YP++ GHE
+Sbjct  4    TAAVLLEAGKPFELIELDLDGPAEGEVLVNYTVAGLCHSDLHLTDGDL-PPRYPIIGGHE  62
+
+Query  65   IAGVVTAVGTEVTKHKVGDRVGVGCMVGSCGECSSCLAGIEQYCKRGA----------TF  114
+             AGV+  VG  VTK K GD V V   + SCG C  C  G +  C  GA          TF
+Sbjct  63   GAGVIEDVGPGVTKVKPGDHV-VCSFIPSCGYCRYCSTGRQSLCDMGATILEGCMPDGTF  121
+
+Query  115  TYNSIGTD-GQSTQ-GGYSQAIVVDENFVVHIPDALPLDAAAPLLC  158
+             ++S G D GQ    G ++Q   V ++ VV I D +PL+ A  + C
+Sbjct  122  RFHSAGIDFGQMCMLGTFAQKATVSQHSVVKIDDWIPLETAVLVGC  167
+
+
+>VFG030291(gb|WP_011857132) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. JLS]
+Length=368
+
+ Score = 85.1 bits (209),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 101/339 (30%), Positives = 153/339 (45%), Gaps = 35/339 (10%)
+
+Query  21   INRRAPGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTAVGTEVTKHK  80
+            ++  AP   +V +++  +G+CHSD H V  +    N PVV GHE AGVV  VG  VT+ +
+Sbjct  20   LDLDAPKAQEVLVKLTASGLCHSDDHLVTGDMPM-NLPVVGGHEGAGVVAEVGPGVTEVE  78
+
+Query  81   VGDRVGVGCMVGSCGECSSCLAGIEQYCKRGA----------TFTYNSIGTD-GQ-STQG  128
+            VGD V V   + +CG C+ C  G    C  GA          T+ ++S G D GQ    G
+Sbjct  79   VGDHV-VLSFIPACGRCTECARGRSNLCVYGAAIVAGPQLDGTYRFHSGGQDVGQMCVLG  137
+
+Query  129  GYSQAIVVDENFVVHIPDALPLDAAAPLLCAGITLY-SPLRHWNAKPGTRLAIIGLGGLG  187
+             +S+  VV    VV +   +PLD AA + C   T Y + +R   A+ G  + ++G+GGLG
+Sbjct  138  TFSEYTVVPIASVVKVDKDIPLDKAALVGCGVTTGYGAAVRTGEARDGDTVVVMGVGGLG  197
+
+Query  188  HMGVKLGRKMGCE-VTVLSQSLKKMEDGLQLGASNYYATADP------DTFRKLRGSFDL  240
+               V+  R  G   V  L     K E   + GA++  AT +       D  R       +
+Sbjct  198  INAVQGARLAGARYVIALDPVAYKRERSFEFGATHAAATVEEAQALITDLTRGTMADVCV  257
+
+Query  241  ILNTVSANLDLGKYLNLLDVNGTLVELGIPEHP----MLVPAFALALMRRSLAGSNIGGI  296
+            +    +    + + L+L+   G +V   IP HP    + +  F L L  + + G   G  
+Sbjct  258  VTTDSAEGAYVAQGLSLVGKRGRVVMTAIP-HPTDTTVDMSLFDLTLYEKQVRGCLFGSS  316
+
+Query  297  T---ETQEMMNFSAEHSVTPEIELIEPDY----INEAYE  328
+                +   M+       +  + ELI  +Y    IN+ YE
+Sbjct  317  NPRLDIPRMLELYGSGRLMLD-ELITREYTLDEINQGYE  354
+
+
+>VFG030293(gb|WP_011562028) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. MCS]
+Length=368
+
+ Score = 85.1 bits (209),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 101/339 (30%), Positives = 153/339 (45%), Gaps = 35/339 (10%)
+
+Query  21   INRRAPGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTAVGTEVTKHK  80
+            ++  AP   +V +++  +G+CHSD H V  +    N PVV GHE AGVV  VG  VT+ +
+Sbjct  20   LDLDAPKAQEVLVKLTASGLCHSDDHLVTGDMPM-NLPVVGGHEGAGVVAEVGPGVTEVE  78
+
+Query  81   VGDRVGVGCMVGSCGECSSCLAGIEQYCKRGA----------TFTYNSIGTD-GQ-STQG  128
+            VGD V V   + +CG C+ C  G    C  GA          T+ ++S G D GQ    G
+Sbjct  79   VGDHV-VLSFIPACGRCTECARGRSNLCVYGAAIVAGPQLDGTYRFHSGGQDVGQMCVLG  137
+
+Query  129  GYSQAIVVDENFVVHIPDALPLDAAAPLLCAGITLY-SPLRHWNAKPGTRLAIIGLGGLG  187
+             +S+  VV    VV +   +PLD AA + C   T Y + +R   A+ G  + ++G+GGLG
+Sbjct  138  TFSEYTVVPIASVVKVDKDIPLDKAALVGCGVTTGYGAAVRTGEARDGDTVVVMGVGGLG  197
+
+Query  188  HMGVKLGRKMGCE-VTVLSQSLKKMEDGLQLGASNYYATADP------DTFRKLRGSFDL  240
+               V+  R  G   V  L     K E   + GA++  AT +       D  R       +
+Sbjct  198  INAVQGARLAGARYVVALDPVAYKRERSFEFGATHAAATVEEAQALITDLTRGTMADVCV  257
+
+Query  241  ILNTVSANLDLGKYLNLLDVNGTLVELGIPEHP----MLVPAFALALMRRSLAGSNIGGI  296
+            +    +    + + L+L+   G +V   IP HP    + +  F L L  + + G   G  
+Sbjct  258  VTTDSAEGAYVAQGLSLVGKRGRVVMTAIP-HPTDTTVDMSLFDLTLYEKQVRGCLFGSS  316
+
+Query  297  T---ETQEMMNFSAEHSVTPEIELIEPDY----INEAYE  328
+                +   M+       +  + ELI  +Y    IN+ YE
+Sbjct  317  NPRLDIPRMLELFGSGRLMLD-ELITREYTLDEINQGYE  354
+
+
+>VFG015871(gb|WP_011105123) (cfa8) crotonyl-CoA carboxylase/reductase 
+[Phytotoxin coronatine (VF0916) - Exotoxin (VFC0235)] 
+[Pseudomonas syringae pv. tomato str. DC3000]
+Length=401
+
+ Score = 80.5 bits (197),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 88/356 (25%), Positives = 141/356 (40%), Gaps = 57/356 (16%)
+
+Query  27   GPHDVAIQIKFAGICHSDIHTVKAEWGQP----------NYPVVPGH----EIAGVVTAV  72
+            GPH V I++  AG+ ++++   +   G+P          N    P H    E +G V AV
+Sbjct  37   GPHQVLIEVMAAGLNYNNVWAAQ---GKPVDIIAARRKRNRDAEPFHIGGSEASGYVKAV  93
+
+Query  73   GTEVTKHKVGDRVGVGCMVGSCGECSSCLAGIEQYCKRGATFTYNSIGTDGQSTQGGYSQ  132
+            G  VT  KVGD V V C V       S +A    +C     + Y       +++ G +++
+Sbjct  94   GDAVTHVKVGDTVVVSCSVYDATAIESRVAPDPMFCSNQEIYGY-------ETSYGSFAE  146
+
+Query  133  AIVVDENFVVHIPDALPLDAAAPLLCAGITLYSPLRHW---NAKPGTRLAIIG-LGGLGH  188
+              +V++      P  L  + +A L+  G T Y  L HW     KPG  + I G  GGLG 
+Sbjct  147  YTLVEDYQCFPKPKFLSWEESATLMLNGPTAYKQLTHWAPNTVKPGDAVLIWGAAGGLGS  206
+
+Query  189  MGVKLGRKMGCEVTVLSQSLKKMEDGLQLGASNYYATAD-------PD-----------T  230
+            M ++L R +G     +  S  +     +LGA  Y    D       PD           +
+Sbjct  207  MSIQLTRALGGLPVAVVSSPDRGRYACELGAVGYLLRTDYPHLGRLPDLNSDAHSAWTKS  266
+
+Query  231  FRKLRGSFDLILNTV---------SANLDLGKYLNLLDVNGTLVEL-GIPEHPMLVPAFA  280
+            F   R  F + L            S        L + D +G +V + G   +        
+Sbjct  267  FASFRRDFFMTLGKKELPKVVIEHSGQATFPTSLQICDRSGMVVIVGGTSGYNCDFDVRH  326
+
+Query  281  LALMRRSLAGSNIGGITETQEMMNFSAEHSVTPEIE-LIEPDYINEAYERVLASDV  335
+            L + ++ + GS+   I E QE +    +  V P +  L   +    A++ +L+ +V
+Sbjct  327  LWMHQKRIQGSHYANIRECQEFLQLVEQRRVVPTLNTLYRFEETPRAHQALLSGEV  382
+
+
+>VFG030304(gb|WP_011560572) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium intracellulare MOTT-02]
+Length=368
+
+ Score = 77.8 bits (190),  Expect = 6e-16, Method: Compositional matrix adjust.
+ Identities = 59/163 (36%), Positives = 81/163 (50%), Gaps = 15/163 (9%)
+
+Query  26   PGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTAVGTEVTKHKVGDRV  85
+            PGP +V +++   G+CHSD H V  +   P  PVV GHE AG V   G  V +   GD V
+Sbjct  25   PGPGEVLVRLAATGLCHSDEHLVTGDLPIP-LPVVGGHEGAGTVVECGEGVEELSEGDSV  83
+
+Query  86   GVGCMVGSCGECSSCLAGIEQYCKRGA----------TFTYNSIGTD-GQ-STQGGYSQA  133
+             +   + SCG CS C  G+   C+ GA          T+ +++ G D GQ    G +S+ 
+Sbjct  84   -ILTFLPSCGRCSYCARGMGNLCELGAALMMGPQIDGTYRFHARGEDVGQMCLLGTFSEY  142
+
+Query  134  IVVDENFVVHIPDALPLDAAAPLLCAGITLY-SPLRHWNAKPG  175
+             VV +  VV I   +PLD AA + C   T Y S +R    + G
+Sbjct  143  TVVPQASVVKIDGGIPLDRAALIGCGVTTGYGSAVRTGEVRAG  185
+
+
+>VFG030297(gb|YP_001702819) (adhD) Probable zinc-type alcohol 
+dehydrogenase AdhD [MymA operon (VF0840) - Immune modulation 
+(VFC0258)] [Mycobacterium abscessus ATCC 19977]
+Length=368
+
+ Score = 77.4 bits (189),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 59/163 (36%), Positives = 80/163 (49%), Gaps = 15/163 (9%)
+
+Query  26   PGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTAVGTEVTKHKVGDRV  85
+            PGP +V +++   G+CHSD H V  +   P  PVV GHE AG V   G  V     GD V
+Sbjct  25   PGPGEVLVRLAATGLCHSDEHLVTGDLPIP-LPVVGGHEGAGTVVECGEGVEDLSEGDSV  83
+
+Query  86   GVGCMVGSCGECSSCLAGIEQYCKRGA----------TFTYNSIGTD-GQ-STQGGYSQA  133
+             +   + SCG CS C  G+   C+ GA          T+ +++ G D GQ    G +S+ 
+Sbjct  84   -ILTFLPSCGRCSYCARGMGNLCELGAALMMGPQIDGTYRFHARGEDVGQMCLLGTFSEY  142
+
+Query  134  IVVDENFVVHIPDALPLDAAAPLLCAGITLY-SPLRHWNAKPG  175
+             VV +  VV I   +PLD AA + C   T Y S +R    + G
+Sbjct  143  TVVPQASVVKIDGGIPLDRAALIGCGVTTGYGSAVRTGEVRAG  185
+
+
+>VFG008556(gb|WP_005116844) (pks2) type I polyketide synthase 
+[Sulfolipid-1 biosynthesis and transport (VF0803) - Immune modulation 
+(VFC0258)] [Mycobacterium abscessus subsp. bolletii 
+str. GO 06]
+Length=2093
+
+ Score = 51.2 bits (121),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 63/262 (24%), Positives = 102/262 (39%), Gaps = 44/262 (17%)
+
+Query  14    EPLTKVTINRRAPGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTAVG  73
+             + L  V  +R APGP  + + +    I  +D+  V   +         G + AGVVTAVG
+Sbjct  1418  QSLGFVAFDRVAPGPGQIEVSVTATSINFADVLNVYGRYSSFEGRQELGVDFAGVVTAVG  1477
+
+Query  74    TEVTKHKVGDRVGVGCMVGSCGECSSCLAGIEQYCKRGATFTYNSIGTDGQSTQGGYSQA  133
+               VT+H+VGDRVG                                    G +  G +   
+Sbjct  1478  EGVTQHQVGDRVG------------------------------------GMTPTGAWRSF  1501
+
+Query  134   IVVDENFVVHIPDALPLDAAAPLLCAGITLYSPLRHW-NAKPGTRLAI-IGLGGLGHMGV  191
+             +VVD N    +P  +P   AA +  A +T +  L        G ++ I  G GG+G   +
+Sbjct  1502  VVVDANLAATLPAEVPDREAAAVPGAHVTAWYGLHELARISAGDKVLIHSGTGGVGQAAI  1561
+
+Query  192   KLGRKMGCEVTVLSQSLKKMEDGLQLGASNYYATADPDTFRKLRGS-----FDLILNTVS  246
+              + R  G E+   + S ++ +     G    Y +   D    +R        D++LN+++
+Sbjct  1562  AIARAAGAEIYATAGSPERRDLLRSWGIKYVYDSRSTDFAELIRRDTDGYGVDIVLNSLT  1621
+
+Query  247   ANLDLGKYLNLLDVNGTLVELG  268
+                     + LL   G  +E+G
+Sbjct  1622  GAAQRAG-VELLTFGGRFIEIG  1642
+
+
+>VFG008791(gb|WP_015294046) (mas) mycocerosate synthase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium canettii 
+CIPT 140070017]
+Length=2111
+
+ Score = 48.1 bits (113),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 62/268 (23%), Positives = 100/268 (37%), Gaps = 55/268 (21%)
+
+Query  14    EPLTKVTINRRAPGPHDVAIQIKFAGICHSDIHTVKAEWGQPNYPVVP------GHEIAG  67
+             + L  V  +R APGP  + + +  + I  +D+           +P++       G +  G
+Sbjct  1432  QTLEFVASDRVAPGPGQLEVAVSMSSINFADVLIAFG-----RFPIIDDREPQLGMDFVG  1486
+
+Query  68    VVTAVGTEVTKHKVGDRVGVGCMVGSCGECSSCLAGIEQYCKRGATFTYNSIGTDGQSTQ  127
+             VVTAVG  VT H+VGDRVG                                    G S  
+Sbjct  1487  VVTAVGEGVTGHQVGDRVG------------------------------------GFSEG  1510
+
+Query  128   GGYSQAIVVDENFVVHIPDALPLDAAAPLLCAGITLYSPLRHW-NAKPGTRLAI-IGLGG  185
+             G +   +  D N  V +P  L  + A     A  T +  L      K G ++ I    GG
+Sbjct  1511  GCWRTFLTCDANLAVTLPPGLTDEQAITAATAHATAWYGLNDLAQIKAGDKVLIHSATGG  1570
+
+Query  186   LGHMGVKLGRKMGCEVTVLSQSLKKMEDGLQLGASNYYATADPDTFRKLRGS-----FDL  240
+             +G   + + R  G E+   + +  K      +G  + Y +   +   ++R        D+
+Sbjct  1571  VGQAAISIARAKGAEIFATAGNPAKRAMLRDMGVEHVYDSRSVEFAEQIRRDTDGYGVDI  1630
+
+Query  241   ILNTVSANLDLGKYLNLLDVNGTLVELG  268
+             +LN+++        L LL   G  VE+G
+Sbjct  1631  VLNSLTGAAQRAG-LELLAFGGRFVEIG  1657
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2565689245
+
+
+Query= g1613.t1
+
+Length=335
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG030308(gb|WP_015291173) (adhD) NDMA-dependent alcohol dehydrog...  75.5    3e-15
+VFG030290(gb|WP_003894835) (adhD) NDMA-dependent alcohol dehydrog...  73.9    1e-14
+VFG030307(gb|WP_015303738) (adhD) NDMA-dependent alcohol dehydrog...  73.2    2e-14
+VFG030300(gb|WP_014001575) (adhD) NDMA-dependent alcohol dehydrog...  72.8    3e-14
+VFG030286(gb|NP_217602) (adhD) alcohol dehydrogenase D [MymA oper...  72.8    3e-14
+VFG030323(gb|WP_015345151) (adhD) NDMA-dependent alcohol dehydrog...  72.4    4e-14
+VFG030301(gb|WP_012392129) (adhD) NDMA-dependent alcohol dehydrog...  69.7    3e-13
+VFG030318(gb|YP_007959090) (adhD) zinc-type alcohol dehydrogenase...  65.5    8e-12
+VFG030302(gb|WP_041318085) (adhD) NDMA-dependent alcohol dehydrog...  63.9    3e-11
+VFG030291(gb|WP_011857132) (adhD) NDMA-dependent alcohol dehydrog...  63.2    5e-11
+VFG030293(gb|WP_011562028) (adhD) NDMA-dependent alcohol dehydrog...  62.8    6e-11
+VFG030304(gb|WP_011560572) (adhD) NDMA-dependent alcohol dehydrog...  62.8    7e-11
+VFG030297(gb|YP_001702819) (adhD) Probable zinc-type alcohol dehy...  62.8    7e-11
+VFG030314(gb|YP_007962958) (adhD) Putative zinc-type alcohol dehy...  61.2    2e-10
+VFG030305(gb|WP_016343680) (adhD) NDMA-dependent alcohol dehydrog...  52.0    2e-07
+VFG030295(gb|WP_011742363) (adhD) Zn-dependent alcohol dehydrogen...  48.1    4e-06
+VFG008791(gb|WP_015294046) (mas) mycocerosate synthase [PDIM (VF0...  48.1    6e-06
+
+
+>VFG030308(gb|WP_015291173) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=368
+
+ Score = 75.5 bits (184),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 105/359 (29%), Positives = 150/359 (42%), Gaps = 58/359 (16%)
+
+Query  15   SPLEWVTTEVPCPEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTPGHEVVGEVLGVG  74
+             P E +  ++  P P E+LV   A G+C +DLH+ +GDLP  R  +  GHE  G +  VG
+Sbjct  13   KPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLP-PRFPIVGGHEGSGVIEEVG  71
+
+Query  75   SDVDAAAGFDVGDRVGIAWLRYTCGVCNYCRSGTENLCVQS-------------RYTGWD  121
+            + V        GD V  +++   CG C YC +G +NLC                R+    
+Sbjct  72   AGVTRVK---PGDHVVCSFIP-NCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQG  127
+
+Query  122  VD-------GGYAEFTTVPAAFAHHLPSGYSD---CELAPLLCAGI-IGYRSLLRS-ELP  169
+             D       G +AE  TV    +HH      D    E A L+  G+  G+ + + +  L 
+Sbjct  128  TDFGAMCMLGTFAERATV----SHHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLR  183
+
+Query  170  PGGRLGIYGFGGSAHIAAQVALVQGAE-VHVMTRGARAQELALELGAASAQGVADLPPVP  228
+             G    IYG GG    A Q A   G + V V+   A  +E AL+ GA  A   A      
+Sbjct  184  AGDTAVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAK  243
+
+Query  229  LD----------AAIVFAPVGDLVLPACEA-LNRGGTLAIAGIHLSDIPQLNYQRH----  273
+            +D          A I+   V D V+ A  A + +GGT+ I G  L+D  +L         
+Sbjct  244  VDELTWGQGADAALILVGTVDDEVVSAATAVIGKGGTVVITG--LADPAKLTVHVSGTDL  301
+
+Query  274  LFQERQIRSV---TSNTRADARAFLDF--AAQHHI-AVTTPEYPLEQADQALTDLSVGR  326
+               E+ I+     + N + D    L    A Q  +  + T  Y LEQ +Q   DL  G+
+Sbjct  302  TLHEKTIKGSLFGSCNPQYDIVRLLRLYDAGQLMLDELVTTTYTLEQVNQGYQDLRDGK  360
+
+
+>VFG030290(gb|WP_003894835) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=372
+
+ Score = 73.9 bits (180),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 99/363 (27%), Positives = 147/363 (40%), Gaps = 70/363 (19%)
+
+Query  16   PLEWVTTEVPCPEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTPGHEVVGEVLGVGS  75
+            P E +  E+  P+  E+L+   A G+C +DLH+ +GD+P  R  +  GHE    V  VG 
+Sbjct  14   PFEIMELELDGPKEGEVLLKNVAAGLCHSDLHLTDGDMP-PRYPIVGGHEGSAIVEDVGP  72
+
+Query  76   DVDAAAGFDVGDRVGIAWLRYTCGVCNYCRSGTENLCVQS-------------RYTGWDV  122
+             V        GD V  +++   CG C YC +G  NLC                R+    V
+Sbjct  73   GVTKVK---PGDHVVCSYIP-NCGTCRYCATGRSNLCDMGATILDGRFPDGTFRFHKDGV  128
+
+Query  123  D-------GGYAEFTTVPAAFAHHLPSGYSDCELAPLLCAGIIG-----------YRSLL  164
+            D       G +AE TTV    + H  S     E  PL  A ++G           Y + +
+Sbjct  129  DYGSLCLLGSFAERTTV----SQH--SVVKVDEWIPLETAVLVGCGVPAGWGGPVYNNGI  182
+
+Query  165  RSELPPGGRLGIYGFGGSAHIAAQVALVQGAEVHVMTRGAR-AQELALELGAASAQGVAD  223
+            R    PG    IYG GG    A Q A++ GA   V        +++AL+ GA  A   A+
+Sbjct  183  R----PGDTAVIYGIGGLGINAIQGAVMAGARYVVAVDPVEFKRDMALKFGATHAFATAE  238
+
+Query  224  LPPVPL---------DAAIVF--APVGDLVLPACEALNRGGTLAIAGIHLSDIPQLNYQ-  271
+                 +         D A++F   P   +V  A   + +GGT+++A   L+D  +L    
+Sbjct  239  EAHEAVREITWGQMADGALIFVGTPDEKVVSDAFNVIGKGGTVSLA--SLADPAKLTVHV  296
+
+Query  272  ---RHLFQERQIRSV---TSNTRADARAFLDFAAQHHIA---VTTPEYPLEQADQALTDL  322
+                    E+ I+     +SN + D    L    +  +    + T  Y LE  +Q   DL
+Sbjct  297  SGMEMTLMEKTIKGCLFGSSNPQYDIVRLLRLYDEGKLKLDELITTRYRLEDINQGYDDL  356
+
+Query  323  SVG  325
+              G
+Sbjct  357  RAG  359
+
+
+>VFG030307(gb|WP_015303738) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070008]
+Length=368
+
+ Score = 73.2 bits (178),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 104/359 (29%), Positives = 150/359 (42%), Gaps = 58/359 (16%)
+
+Query  15   SPLEWVTTEVPCPEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTPGHEVVGEVLGVG  74
+             P E +  ++  P P E+LV   A G+C +DLH+ +GDLP  R  +  GHE  G +  VG
+Sbjct  13   KPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLP-PRFPIVGGHEGSGVIEEVG  71
+
+Query  75   SDVDAAAGFDVGDRVGIAWLRYTCGVCNYCRSGTENLCVQS-------------RYTGWD  121
+            + V        GD V  +++   CG C YC +G +NLC                R+    
+Sbjct  72   AGVTRVK---PGDHVVCSFIP-NCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQG  127
+
+Query  122  VD-------GGYAEFTTVPAAFAHHLPSGYSD---CELAPLLCAGI-IGYRSLLRS-ELP  169
+             D       G +AE  TV    + H      D    E A L+  G+  G+ + + +  L 
+Sbjct  128  TDFGAMCMLGTFAERATV----SQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLR  183
+
+Query  170  PGGRLGIYGFGGSAHIAAQVALVQGAE-VHVMTRGARAQELALELGAASAQGVADLPPVP  228
+             G    IYG GG    A Q A   G + V V+   A  +E AL+ GA  A   A      
+Sbjct  184  AGDTAVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAK  243
+
+Query  229  LD----------AAIVFAPVGDLVLPACEA-LNRGGTLAIAGIHLSDIPQLNYQRH----  273
+            +D          A I+   V D V+ A  A + +GGT+ I G  L+D  +L  +      
+Sbjct  244  VDELTWGQGADAALILVGTVDDEVVSAATAVIGKGGTVVITG--LADPAKLTVRISGTDL  301
+
+Query  274  LFQERQIRSV---TSNTRADARAFLDF--AAQHHI-AVTTPEYPLEQADQALTDLSVGR  326
+               E+ I+     + N + D    L    A Q  +  + T  Y LEQ +Q   DL  G+
+Sbjct  302  TLHEKTIKGSLFGSCNPQYDIVRLLRLYDAGQLMLDELVTTTYTLEQVNQGYQDLRDGK  360
+
+
+>VFG030300(gb|WP_014001575) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140010059]
+Length=368
+
+ Score = 72.8 bits (177),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 104/359 (29%), Positives = 149/359 (42%), Gaps = 58/359 (16%)
+
+Query  15   SPLEWVTTEVPCPEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTPGHEVVGEVLGVG  74
+             P E +  ++  P P E+LV   A G+C +DLH+ +GDLP  R  +  GHE  G +  VG
+Sbjct  13   KPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLP-PRFPIVGGHEGSGVIEEVG  71
+
+Query  75   SDVDAAAGFDVGDRVGIAWLRYTCGVCNYCRSGTENLCVQS-------------RYTGWD  121
+            + V        GD V  +++   CG C YC +G +NLC                R+    
+Sbjct  72   AGVTRVK---PGDHVVCSFIP-NCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQG  127
+
+Query  122  VD-------GGYAEFTTVPAAFAHHLPSGYSD---CELAPLLCAGI-IGYRSLLRS-ELP  169
+             D       G +AE  TV    + H      D    E A L+  G+  G+ + + +  L 
+Sbjct  128  TDFGAMCMLGTFAERATV----SQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLR  183
+
+Query  170  PGGRLGIYGFGGSAHIAAQVALVQGAE-VHVMTRGARAQELALELGAASAQGVADLPPVP  228
+             G    IYG GG    A Q A   G + V V+   A  +E AL+ GA  A   A      
+Sbjct  184  AGDTAVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAK  243
+
+Query  229  LD----------AAIVFAPVGDLVLPACEA-LNRGGTLAIAGIHLSDIPQLNYQRH----  273
+            +D          A I+   V D V+ A  A + +GGT+ I G  L+D  +L         
+Sbjct  244  VDELTWGQGADAALILVGTVDDEVVSAATAVIGKGGTVVITG--LADPAKLTVHVSGTDL  301
+
+Query  274  LFQERQIRSV---TSNTRADARAFLDF--AAQHHI-AVTTPEYPLEQADQALTDLSVGR  326
+               E+ I+     + N + D    L    A Q  +  + T  Y LEQ +Q   DL  G+
+Sbjct  302  TLHEKTIKGSLFGSCNPQYDIVRLLRLYDAGQLMLDELVTTTYTLEQVNQGYQDLRDGK  360
+
+
+>VFG030286(gb|NP_217602) (adhD) alcohol dehydrogenase D [MymA 
+operon (VF0840) - Immune modulation (VFC0258)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=368
+
+ Score = 72.8 bits (177),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 104/359 (29%), Positives = 149/359 (42%), Gaps = 58/359 (16%)
+
+Query  15   SPLEWVTTEVPCPEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTPGHEVVGEVLGVG  74
+             P E +  ++  P P E+LV   A G+C +DLH+ +GDLP  R  +  GHE  G +  VG
+Sbjct  13   KPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLP-PRFPIVGGHEGSGVIEEVG  71
+
+Query  75   SDVDAAAGFDVGDRVGIAWLRYTCGVCNYCRSGTENLCVQS-------------RYTGWD  121
+            + V        GD V  +++   CG C YC +G +NLC                R+    
+Sbjct  72   AGVTRVK---PGDHVVCSFIP-NCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQG  127
+
+Query  122  VD-------GGYAEFTTVPAAFAHHLPSGYSD---CELAPLLCAGI-IGYRSLLRS-ELP  169
+             D       G +AE  TV    + H      D    E A L+  G+  G+ + + +  L 
+Sbjct  128  TDFGAMCMLGTFAERATV----SQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLR  183
+
+Query  170  PGGRLGIYGFGGSAHIAAQVALVQGAE-VHVMTRGARAQELALELGAASAQGVADLPPVP  228
+             G    IYG GG    A Q A   G + V V+   A  +E AL+ GA  A   A      
+Sbjct  184  AGDTAVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAK  243
+
+Query  229  LD----------AAIVFAPVGDLVLPACEA-LNRGGTLAIAGIHLSDIPQLNYQRH----  273
+            +D          A I+   V D V+ A  A + +GGT+ I G  L+D  +L         
+Sbjct  244  VDELTWGQGADAALILVGTVDDEVVSAATAVIGKGGTVVITG--LADPAKLTVHVSGTDL  301
+
+Query  274  LFQERQIRSV---TSNTRADARAFLDF--AAQHHI-AVTTPEYPLEQADQALTDLSVGR  326
+               E+ I+     + N + D    L    A Q  +  + T  Y LEQ +Q   DL  G+
+Sbjct  302  TLHEKTIKGSLFGSCNPQYDIVRLLRLYDAGQLMLDELVTTTYNLEQVNQGYQDLRDGK  360
+
+
+>VFG030323(gb|WP_015345151) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis 7199-99]
+Length=368
+
+ Score = 72.4 bits (176),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 104/359 (29%), Positives = 149/359 (42%), Gaps = 58/359 (16%)
+
+Query  15   SPLEWVTTEVPCPEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTPGHEVVGEVLGVG  74
+             P E +  ++  P P E+LV   A G+C +DLH+ +GDLP  R  +  GHE  G +  VG
+Sbjct  13   KPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLP-PRFPIVGGHEGSGVIEEVG  71
+
+Query  75   SDVDAAAGFDVGDRVGIAWLRYTCGVCNYCRSGTENLCVQS-------------RYTGWD  121
+            + V        GD V  +++   CG C YC +G +NLC                R+    
+Sbjct  72   AGVTRVK---PGDHVVCSFIP-NCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQG  127
+
+Query  122  VD-------GGYAEFTTVPAAFAHHLPSGYSD---CELAPLLCAGI-IGYRSLLRS-ELP  169
+             D       G +AE  TV    + H      D    E A L+  G+  G+ + + +  L 
+Sbjct  128  TDFGAMCMLGTFAERATV----SQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLR  183
+
+Query  170  PGGRLGIYGFGGSAHIAAQVALVQGAE-VHVMTRGARAQELALELGAASAQGVADLPPVP  228
+             G    IYG GG    A Q A   G + V V+   A  +E AL+ GA  A   A      
+Sbjct  184  AGDTAVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAK  243
+
+Query  229  LD----------AAIVFAPVGDLVLPACEA-LNRGGTLAIAGIHLSDIPQLNYQRH----  273
+            +D          A I+   V D V+ A  A + +GGT+ I G  L+D  +L         
+Sbjct  244  VDELTWGQGADAALILVGTVDDEVVSAATAVIGKGGTVVITG--LADPAKLTVHVSGTDL  301
+
+Query  274  LFQERQIRSV---TSNTRADARAFLDF--AAQHHI-AVTTPEYPLEQADQALTDLSVGR  326
+               E+ I+     + N + D    L    A Q  +  + T  Y LEQ +Q   DL  G+
+Sbjct  302  TLHEKTIKGSLFGSCNPQYDIVRLLRLYDAGQLMLDELVTTTYNLEQVNQGYQDLRDGK  360
+
+
+>VFG030301(gb|WP_012392129) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium marinum M]
+Length=369
+
+ Score = 69.7 bits (169),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 97/359 (27%), Positives = 147/359 (41%), Gaps = 58/359 (16%)
+
+Query  15   SPLEWVTTEVPCPEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTPGHEVVGEVLGVG  74
+             P E +  E+  P   E+L+   A G+C +DLH+ +GDLP  R  +  GHE  G +  VG
+Sbjct  13   KPFEIMELELDGPRVGEVLIKYTAAGLCHSDLHLTDGDLP-PRYPIVGGHEGSGVIEEVG  71
+
+Query  75   SDVDAAAGFDVGDRVGIAWLRYTCGVCNYCRSGTENLCVQS-------------RYTGWD  121
+              V        GD V  +++   CG C YC +G +NLC                R+    
+Sbjct  72   PGVSKVK---PGDHVVCSFIP-NCGTCRYCSTGRQNLCDMGATILEGCMSDGSFRFHRKG  127
+
+Query  122  VD-------GGYAEFTTVPAAFAHHLPSGYSDCELAPLLCAGIIGY-------RSLLRSE  167
+            VD       G ++E  T+    + H      D    PL  A ++G         S+    
+Sbjct  128  VDFGAMCMLGTFSERATI----SQHSVVKIDD--WLPLTTAVLVGCGVPTGWGTSVYAGG  181
+
+Query  168  LPPGGRLGIYGFGGSAHIAAQVALVQGAE-VHVMTRGARAQELALELGAASAQGVADLPP  226
+            + PG    IYG GG    A Q A+  GA+ V V+   A  ++ AL+ GA  A   A    
+Sbjct  182  VRPGDTTVIYGAGGLGINAVQGAVSAGAKHVVVVDPVAFKRDTALKFGATHAFPDAASAA  241
+
+Query  227  VPL---------DAAIVFAPVGD--LVLPACEALNRGGTLAIAGIHLSD--IPQLNYQRH  273
+              +         D A++     D  +V  A   + +GGT+ I G+   +    QL+    
+Sbjct  242  AKVNEITWGQGADQALILVGTVDTEVVSAAAAVIGKGGTVVITGLANPEKLTVQLSGLDL  301
+
+Query  274  LFQERQIRSV---TSNTRADARAFLDF--AAQHHI-AVTTPEYPLEQADQALTDLSVGR  326
+               E+ I+     ++N + D    L    A Q  +  + T +Y LE  +Q   DL  G+
+Sbjct  302  TLNEKTIKGTLFGSANPQYDIVRLLRLYDAGQLKLDELITTQYRLEDVNQGYQDLRDGK  360
+
+
+>VFG030318(gb|YP_007959090) (adhD) zinc-type alcohol dehydrogenase 
+AdhD [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=351
+
+ Score = 65.5 bits (158),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 101/347 (29%), Positives = 142/347 (41%), Gaps = 58/347 (17%)
+
+Query  27   PEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTPGHEVVGEVLGVGSDVDAAAGFDVG  86
+            P P E+LV   A G+C +DLH+ +GDLP  R  +  GHE  G +  VG+ V        G
+Sbjct  8    PGPGEVLVKYTAAGLCHSDLHLTDGDLP-PRFPIVGGHEGSGVIEEVGAGVTRVK---PG  63
+
+Query  87   DRVGIAWLRYTCGVCNYCRSGTENLCVQS-------------RYTGWDVD-------GGY  126
+            D V  +++   CG C YC +G +NLC                R+     D       G +
+Sbjct  64   DHVVCSFIP-NCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGTDFGAMCMLGTF  122
+
+Query  127  AEFTTVPAAFAHHLPSGYSD---CELAPLLCAGI-IGYRSLLRS-ELPPGGRLGIYGFGG  181
+            AE     A  + H      D    E A L+  G+  G+ + + +  L  G    IYG GG
+Sbjct  123  AE----RAXVSQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTAVIYGVGG  178
+
+Query  182  SAHIAAQVALVQGAE-VHVMTRGARAQELALELGAASAQGVADLPPVPLD----------  230
+                A Q A   G + V V+   A  +E AL+ GA  A   A      +D          
+Sbjct  179  LGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAKVDELTWGQGADA  238
+
+Query  231  AAIVFAPVGDLVLPACEA-LNRGGTLAIAGIHLSDIPQLNYQRH----LFQERQIRSV--  283
+            A I+   V D V+ A  A +  GGT+ I G  L+D  +L            E+ I+    
+Sbjct  239  ALILVGTVDDEVVSAATAVIGXGGTVVITG--LADPAKLTVHVSGTDLTLHEKTIKGSLF  296
+
+Query  284  -TSNTRADARAFLDF--AAQHHI-AVTTPEYPLEQADQALTDLSVGR  326
+             + N + D    L    A Q  +  + T  Y LEQ +Q   DL  G+
+Sbjct  297  GSCNPQYDIVRLLRLYDAGQLMLDELVTTTYNLEQVNQGYQDLRDGK  343
+
+
+>VFG030302(gb|WP_041318085) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. JDM601]
+Length=369
+
+ Score = 63.9 bits (154),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 37/99 (37%), Positives = 53/99 (54%), Gaps = 5/99 (5%)
+
+Query  14   TSPLEWVTTEVPCPEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTPGHEVVGEVLGV  73
+              P E +  ++  P P E+L+   A G+C +DLH+A+GD P  R  +  GHE  G +  V
+Sbjct  12   NQPFEIMELDLDGPGPGEVLIKFTAAGLCHSDLHLADGDWPA-RFPIVGGHEGSGIIEDV  70
+
+Query  74   GSDVDAAAGFDVGDRVGIAWLRYTCGVCNYCRSGTENLC  112
+            G  V   A    GD V   ++  +CG C YC +G +NLC
+Sbjct  71   GPGVTKVA---PGDHVVCCFIP-SCGTCRYCSTGRQNLC  105
+
+
+>VFG030291(gb|WP_011857132) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. JLS]
+Length=368
+
+ Score = 63.2 bits (152),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 93/357 (26%), Positives = 144/357 (40%), Gaps = 58/357 (16%)
+
+Query  18   EWVTTEVP--CPEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTPGHEVVGEVLGVGS  75
+            +W  TE+    P+  E+LV + A G+C +D H+  GD+P++   V  GHE  G V  VG 
+Sbjct  14   KWEVTELDLDAPKAQEVLVKLTASGLCHSDDHLVTGDMPMNLP-VVGGHEGAGVVAEVGP  72
+
+Query  76   DVDAAAGFDVGDRVGIAWLRYTCGVCNYCRSGTENLCV---------------QSRYTGW  120
+             V      +VGD V ++++   CG C  C  G  NLCV               +    G 
+Sbjct  73   GVTE---VEVGDHVVLSFIP-ACGRCTECARGRSNLCVYGAAIVAGPQLDGTYRFHSGGQ  128
+
+Query  121  DVD-----GGYAEFTTVPAAFAHHLPSGYSDCELAPLLCAGIIGYRSLLRSELPPGGRLG  175
+            DV      G ++E+T VP A    +       + A + C    GY + +R+     G   
+Sbjct  129  DVGQMCVLGTFSEYTVVPIASVVKVDKDIPLDKAALVGCGVTTGYGAAVRTGEARDGDTV  188
+
+Query  176  IYGFGGSAHI-AAQVALVQGAE-VHVMTRGARAQELALELGAASAQG-------------  220
+            +    G   I A Q A + GA  V  +   A  +E + E GA  A               
+Sbjct  189  VVMGVGGLGINAVQGARLAGARYVIALDPVAYKRERSFEFGATHAAATVEEAQALITDLT  248
+
+Query  221  ---VADLPPVPLDAAIVFAPVGDLVLPACEALNRGGTLAIAGI-HLSDIP-QLNYQRHLF  275
+               +AD+  V  D+A      G  V      + + G + +  I H +D    ++      
+Sbjct  249  RGTMADVCVVTTDSA-----EGAYVAQGLSLVGKRGRVVMTAIPHPTDTTVDMSLFDLTL  303
+
+Query  276  QERQIRSV---TSNTRADARAFLDFAAQHHIA---VTTPEYPLEQADQALTDLSVGR  326
+             E+Q+R     +SN R D    L+      +    + T EY L++ +Q   D+  GR
+Sbjct  304  YEKQVRGCLFGSSNPRLDIPRMLELYGSGRLMLDELITREYTLDEINQGYEDMHDGR  360
+
+
+>VFG030293(gb|WP_011562028) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. MCS]
+Length=368
+
+ Score = 62.8 bits (151),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 95/357 (27%), Positives = 147/357 (41%), Gaps = 58/357 (16%)
+
+Query  18   EWVTTEVP--CPEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTPGHEVVGEVLGVGS  75
+            +W  TE+    P+  E+LV + A G+C +D H+  GD+P++   V  GHE  G V  VG 
+Sbjct  14   KWEVTELDLDAPKAQEVLVKLTASGLCHSDDHLVTGDMPMNLP-VVGGHEGAGVVAEVGP  72
+
+Query  76   DVDAAAGFDVGDRVGIAWLRYTCGVCNYCRSGTENLCV---------------QSRYTGW  120
+             V      +VGD V ++++   CG C  C  G  NLCV               +    G 
+Sbjct  73   GVTEV---EVGDHVVLSFIP-ACGRCTECARGRSNLCVYGAAIVAGPQLDGTYRFHSGGQ  128
+
+Query  121  DVD-----GGYAEFTTVPAAFAHHLPSGYSDCELAPLLCAGIIGYRSLLRS-ELPPGGRL  174
+            DV      G ++E+T VP A    +       + A + C    GY + +R+ E   G  +
+Sbjct  129  DVGQMCVLGTFSEYTVVPIASVVKVDKDIPLDKAALVGCGVTTGYGAAVRTGEARDGDTV  188
+
+Query  175  GIYGFGGSAHIAAQVALVQGAE-VHVMTRGARAQELALELGAASAQG-------------  220
+             + G GG    A Q A + GA  V  +   A  +E + E GA  A               
+Sbjct  189  VVMGVGGLGINAVQGARLAGARYVVALDPVAYKRERSFEFGATHAAATVEEAQALITDLT  248
+
+Query  221  ---VADLPPVPLDAAIVFAPVGDLVLPACEALNRGGTLAIAGI-HLSDIP-QLNYQRHLF  275
+               +AD+  V  D+A      G  V      + + G + +  I H +D    ++      
+Sbjct  249  RGTMADVCVVTTDSA-----EGAYVAQGLSLVGKRGRVVMTAIPHPTDTTVDMSLFDLTL  303
+
+Query  276  QERQIRSV---TSNTRADARAFLDFAAQHHIA---VTTPEYPLEQADQALTDLSVGR  326
+             E+Q+R     +SN R D    L+      +    + T EY L++ +Q   D+  GR
+Sbjct  304  YEKQVRGCLFGSSNPRLDIPRMLELFGSGRLMLDELITREYTLDEINQGYEDMHDGR  360
+
+
+>VFG030304(gb|WP_011560572) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium intracellulare MOTT-02]
+Length=368
+
+ Score = 62.8 bits (151),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 55/171 (32%), Positives = 76/171 (44%), Gaps = 27/171 (16%)
+
+Query  18   EWVTTEVPC--PEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTPGHEVVGEVLGVGS  75
+            +W   EV    P P E+LV + A G+C +D H+  GDLP+    V  GHE  G V+  G 
+Sbjct  14   KWEVEEVDLDPPGPGEVLVRLAATGLCHSDEHLVTGDLPIPLP-VVGGHEGAGTVVECGE  72
+
+Query  76   DVDAAAGFDVGDRVGIAWLRYTCGVCNYCRSGTENLC-----------VQSRY----TGW  120
+             V+       GD V + +L  +CG C+YC  G  NLC           +   Y     G 
+Sbjct  73   GVEE---LSEGDSVILTFLP-SCGRCSYCARGMGNLCELGAALMMGPQIDGTYRFHARGE  128
+
+Query  121  DVD-----GGYAEFTTVPAAFAHHLPSGYSDCELAPLLCAGIIGYRSLLRS  166
+            DV      G ++E+T VP A    +  G      A + C    GY S +R+
+Sbjct  129  DVGQMCLLGTFSEYTVVPQASVVKIDGGIPLDRAALIGCGVTTGYGSAVRT  179
+
+
+>VFG030297(gb|YP_001702819) (adhD) Probable zinc-type alcohol 
+dehydrogenase AdhD [MymA operon (VF0840) - Immune modulation 
+(VFC0258)] [Mycobacterium abscessus ATCC 19977]
+Length=368
+
+ Score = 62.8 bits (151),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 96/352 (27%), Positives = 142/352 (40%), Gaps = 48/352 (14%)
+
+Query  18   EWVTTEVPC--PEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTPGHEVVGEVLGVGS  75
+            +W   EV    P P E+LV + A G+C +D H+  GDLP+    V  GHE  G V+  G 
+Sbjct  14   KWEVEEVDLDPPGPGEVLVRLAATGLCHSDEHLVTGDLPIPLP-VVGGHEGAGTVVECGE  72
+
+Query  76   DVDAAAGFDVGDRVGIAWLRYTCGVCNYCRSGTENLC-----------VQSRY----TGW  120
+             V+       GD V + +L  +CG C+YC  G  NLC           +   Y     G 
+Sbjct  73   GVED---LSEGDSVILTFLP-SCGRCSYCARGMGNLCELGAALMMGPQIDGTYRFHARGE  128
+
+Query  121  DVD-----GGYAEFTTVPAAFAHHLPSGYSDCELAPLLCAGIIGYRSLLRS-ELPPGGRL  174
+            DV      G ++E+T VP A    +  G      A + C    GY S +R+ E+  G  +
+Sbjct  129  DVGQMCLLGTFSEYTVVPQASVVKIDGGIPLDRAALIGCGVTTGYGSAVRTGEVRAGDTV  188
+
+Query  175  GIYGFGGSAHIAAQVALVQGAEVHVMTRGAR-AQELALELGAASAQG--------VADLP  225
+             + G GG    A Q A + GA   V        +E A   GA             V+D+ 
+Sbjct  189  VVVGAGGIGMNAIQGARIAGALAIVAVDPVNFKREQASGFGATHTAASMDEAWSLVSDMT  248
+
+Query  226  PVPL-DAAIVFAPV--GDLVLPACEALNRGGTLAIAGIHLSDIPQL--NYQRHLFQERQI  280
+               L D  I+   V  G     A   + + G + +  I   D   +  +       E+QI
+Sbjct  249  RGKLADVCILTTDVAEGSYTAEALALVGKRGRVVVTAIGHPDESSISGSLLEMTLYEKQI  308
+
+Query  281  RSV---TSNTRADARAFLDFAAQHHIA---VTTPEYPLEQADQALTDLSVGR  326
+            R     +SN   D    ++  +   +    + T EY L+Q ++   D+  GR
+Sbjct  309  RGALYGSSNAPHDIPRLVELYSAGLLKLDELVTREYSLDQINEGYQDMRSGR  360
+
+
+>VFG030314(gb|YP_007962958) (adhD) Putative zinc-type alcohol 
+dehydrogenase AdhD (aldehyde reductase) [MymA operon (VF0840) 
+- Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+CAS/NITR204]
+Length=380
+
+ Score = 61.2 bits (147),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 37/98 (38%), Positives = 53/98 (54%), Gaps = 5/98 (5%)
+
+Query  15   SPLEWVTTEVPCPEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTPGHEVVGEVLGVG  74
+             P E +  ++  P P E+LV   A G+C +DLH+ +GDLP  R  +  GHE  G +  VG
+Sbjct  13   KPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLPP-RFPIVGGHEGSGVIEEVG  71
+
+Query  75   SDVDAAAGFDVGDRVGIAWLRYTCGVCNYCRSGTENLC  112
+            + V        GD V  +++   CG C YC +G +NLC
+Sbjct  72   AGVTRV---KPGDHVVCSFI-PNCGTCRYCCTGRQNLC  105
+
+
+>VFG030305(gb|WP_016343680) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium abscessus subsp. bolletii 50594]
+Length=368
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 91/357 (25%), Positives = 149/357 (42%), Gaps = 54/357 (15%)
+
+Query  15   SPLEWVTTEVPCPEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTPGHEVVGEVLGVG  74
+             P E +  ++  P   E+LV     G+C +DLH+ +GDLP  R  +  GHE  G +  VG
+Sbjct  13   KPFELIELDLDGPAEGEVLVNYTVAGLCHSDLHLTDGDLP-PRYPIIGGHEGAGVIEDVG  71
+
+Query  75   SDVDAAAGFDVGDRVGIAWLRYTCGVCNYCRSGTENLCVQS-------------RYTGWD  121
+              V        GD V  +++  +CG C YC +G ++LC                R+    
+Sbjct  72   PGVTKVK---PGDHVVCSFIP-SCGYCRYCSTGRQSLCDMGATILEGCMPDGTFRFHSAG  127
+
+Query  122  VD-------GGYAEFTTVPAAFAHHLPSGYSDCELAPLLCAGI-IGY-RSLLRSELPPGG  172
+            +D       G +A+  TV       +   +   E A L+  G+  G+  S    ++ PG 
+Sbjct  128  IDFGQMCMLGTFAQKATVSQHSVVKIDD-WIPLETAVLVGCGVPTGWGSSTYAGDVRPGD  186
+
+Query  173  RLGIYGFGGSAHIAAQVALVQGAEVHVMTRGA-RAQELALELGAASAQGVADLPPVPL--  229
+               +YG GG    A Q A   GA+  V        +++A + GA  A   A+     L  
+Sbjct  187  ITIVYGIGGIGINAVQGAAQAGAKYIVAVDPVPFKRDMASKFGATHAFTTAEEAAEKLNE  246
+
+Query  230  -------DAAIVFAPVGD--LVLPACEALNRGGTLAIAG--------IHLSDIPQLNYQR  272
+                   D AI+   V D  +V  A  A+ +GGT+ + G        +H+S +  + + +
+Sbjct  247  LSWGQGADQAIITVGVVDEEVVTAAFNAVGKGGTVVVTGLADPAKLTVHVSGMEMVLFGK  306
+
+Query  273  HLFQERQIRSVTSNTRADARAFLDF--AAQHHI-AVTTPEYPLEQADQALTDLSVGR  326
+             +   +     ++N + D    L    A Q  +  + T +Y LE+ +Q   DL  G+
+Sbjct  307  TI---KGTLFGSANPQYDIVRLLRLYDAGQLQLDELVTTKYHLEEINQGYQDLRDGK  360
+
+
+>VFG030295(gb|WP_011742363) (adhD) Zn-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium ulcerans Agy99]
+Length=385
+
+ Score = 48.1 bits (113),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 60/207 (29%), Positives = 80/207 (39%), Gaps = 38/207 (18%)
+
+Query  23   EVPCPEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTP-----------GHEVVGEVL  71
+            E+  P   E+L+ + A G+C +D H+  G+L    E +             GHE  G VL
+Sbjct  21   ELDPPRAGEVLLQLSATGLCHSDEHIRRGNLAPPPETLRSFGLPTMSPTIGGHEGSGVVL  80
+
+Query  72   GVGSDVDAAAGFDVGDRVGIAWLRYTCGVCNYCRSGTENLCVQSRYT---GWDVDGG---  125
+             VG  V     F  GD V  +++   CG C +C +G E LC     T   G   DG    
+Sbjct  81   EVGEGVTR---FAPGDHVVTSFIA-VCGQCRWCATGMEYLCDTGYGTLAPGMPTDGTFRH  136
+
+Query  126  ----------------YAEFTTVPAAFAHHLPSGYSDCELAPLLCAGIIGYRSLLRSELP  169
+                            +AE T V A     +   +     A L CA    Y S  R    
+Sbjct  137  HSLDGRDLGHVSKIGPFAEHTVVSADSLVKIDQTFPLVPAALLACAIPTRYGSAARRAQV  196
+
+Query  170  PGGRLG-IYGFGGSAHIAAQVALVQGA  195
+             GG +  + G GG    A Q A +QGA
+Sbjct  197  RGGDIAVVIGAGGIGTAAIQGARIQGA  223
+
+
+>VFG008791(gb|WP_015294046) (mas) mycocerosate synthase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium canettii 
+CIPT 140070017]
+Length=2111
+
+ Score = 48.1 bits (113),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 55/196 (28%), Positives = 81/196 (41%), Gaps = 36/196 (18%)
+
+Query  5     RVRRPGPIQTSPLEWVTTEVPCPEPSELLVAVRACGVCRTDLHVAEGDLPVHREHVTP-G  63
+             +VRRPG +QT  LE+V ++   P P +L VAV    +   D+ +A G  P+  +     G
+Sbjct  1424  QVRRPGDLQT--LEFVASDRVAPGPGQLEVAVSMSSINFADVLIAFGRFPIIDDREPQLG  1481
+
+Query  64    HEVVGEVLGVGSDVDAAAGFDVGDRVGIAWLRYTCGVCNYCRSGTENLCVQSRYTGWDVD  123
+              + VG V  VG  V    G  VGDRVG                            G+   
+Sbjct  1482  MDFVGVVTAVGEGV---TGHQVGDRVG----------------------------GFSEG  1510
+
+Query  124   GGYAEFTTVPAAFAHHLPSGYSDCELAPLLCAGIIGYRSLLR-SELPPGGRLGIY-GFGG  181
+             G +  F T  A  A  LP G +D +      A    +  L   +++  G ++ I+   GG
+Sbjct  1511  GCWRTFLTCDANLAVTLPPGLTDEQAITAATAHATAWYGLNDLAQIKAGDKVLIHSATGG  1570
+
+Query  182   SAHIAAQVALVQGAEV  197
+                 A  +A  +GAE+
+Sbjct  1571  VGQAAISIARAKGAEI  1586
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2450495034
+
+
+Query= g1842.t1
+
+Length=346
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG030308(gb|WP_015291173) (adhD) NDMA-dependent alcohol dehydrog...  76.3    2e-15
+VFG030307(gb|WP_015303738) (adhD) NDMA-dependent alcohol dehydrog...  73.6    2e-14
+VFG030300(gb|WP_014001575) (adhD) NDMA-dependent alcohol dehydrog...  73.6    2e-14
+VFG030286(gb|NP_217602) (adhD) alcohol dehydrogenase D [MymA oper...  73.6    2e-14
+VFG030304(gb|WP_011560572) (adhD) NDMA-dependent alcohol dehydrog...  73.6    2e-14
+VFG030323(gb|WP_015345151) (adhD) NDMA-dependent alcohol dehydrog...  73.6    2e-14
+VFG030297(gb|YP_001702819) (adhD) Probable zinc-type alcohol dehy...  72.0    5e-14
+VFG030290(gb|WP_003894835) (adhD) NDMA-dependent alcohol dehydrog...  70.1    3e-13
+VFG030301(gb|WP_012392129) (adhD) NDMA-dependent alcohol dehydrog...  69.7    4e-13
+VFG030318(gb|YP_007959090) (adhD) zinc-type alcohol dehydrogenase...  68.2    1e-12
+VFG030314(gb|YP_007962958) (adhD) Putative zinc-type alcohol dehy...  67.0    3e-12
+VFG030293(gb|WP_011562028) (adhD) NDMA-dependent alcohol dehydrog...  66.6    3e-12
+VFG030291(gb|WP_011857132) (adhD) NDMA-dependent alcohol dehydrog...  66.6    4e-12
+VFG030302(gb|WP_041318085) (adhD) NDMA-dependent alcohol dehydrog...  64.7    2e-11
+VFG030305(gb|WP_016343680) (adhD) NDMA-dependent alcohol dehydrog...  64.3    2e-11
+VFG030295(gb|WP_011742363) (adhD) Zn-dependent alcohol dehydrogen...  48.9    2e-06
+
+
+>VFG030308(gb|WP_015291173) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=368
+
+ Score = 76.3 bits (186),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 102/360 (28%), Positives = 147/360 (41%), Gaps = 60/360 (17%)
+
+Query  25   PLERVTTRVPRPAPSELLVAVHACGVCRTDLHVTEGDLPVHRERVIPGHEVVGEVIEVGS  84
+            P E +   +  P P E+LV   A G+C +DLH+T+GDLP  R  ++ GHE  G + EVG+
+Sbjct  14   PFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLP-PRFPIVGGHEGSGVIEEVGA  72
+
+Query  85   AVGAAAGGEFDRGDRVGIAWLRHTCGVCKYCRRGSENLCPQS-------------RYTGW  131
+             V          GD V  +++ + CG C+YC  G +NLC                R+   
+Sbjct  73   GV-----TRVKPGDHVVCSFIPN-CGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQ  126
+
+Query  132  DAD-------GGYAEFTTVPAAFAHHLPSGYSDS---ELAPLLCAGI-IGYRSLLRT-EL  179
+              D       G +AE  TV    +HH      D    E A L+  G+  G+ + +    L
+Sbjct  127  GTDFGAMCMLGTFAERATV----SHHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNL  182
+
+Query  180  PPGGRLGLYGFGGSAHITAQVALAQGAE-IHVMTRGARARKLALQLGAASAQDAADRPPV  238
+              G    +YG GG      Q A A G + + V+   A  R+ AL+ GA  A   A     
+Sbjct  183  RAGDTAVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAA  242
+
+Query  239  PLD----------AAILFAPVGDLVLPALEA-LDRGGILAIAGIHLTDIPDLNYQ----Q  283
+             +D          A IL   V D V+ A  A + +GG + I G  L D   L        
+Sbjct  243  KVDELTWGQGADAALILVGTVDDEVVSAATAVIGKGGTVVITG--LADPAKLTVHVSGTD  300
+
+Query  284  HLFQERQIRSV---TSNTRADA---RAFFDFAAQHHIEVTTPEYPLGQADRALGDLSAGR  337
+                E+ I+     + N + D       +D       E+ T  Y L Q ++   DL  G+
+Sbjct  301  LTLHEKTIKGSLFGSCNPQYDIVRLLRLYDAGQLMLDELVTTTYTLEQVNQGYQDLRDGK  360
+
+
+>VFG030307(gb|WP_015303738) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070008]
+Length=368
+
+ Score = 73.6 bits (179),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 101/360 (28%), Positives = 147/360 (41%), Gaps = 60/360 (17%)
+
+Query  25   PLERVTTRVPRPAPSELLVAVHACGVCRTDLHVTEGDLPVHRERVIPGHEVVGEVIEVGS  84
+            P E +   +  P P E+LV   A G+C +DLH+T+GDLP  R  ++ GHE  G + EVG+
+Sbjct  14   PFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLP-PRFPIVGGHEGSGVIEEVGA  72
+
+Query  85   AVGAAAGGEFDRGDRVGIAWLRHTCGVCKYCRRGSENLCPQS-------------RYTGW  131
+             V          GD V  +++ + CG C+YC  G +NLC                R+   
+Sbjct  73   GV-----TRVKPGDHVVCSFIPN-CGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQ  126
+
+Query  132  DAD-------GGYAEFTTVPAAFAHHLPSGYSDS---ELAPLLCAGI-IGYRSLLRT-EL  179
+              D       G +AE  TV    + H      D    E A L+  G+  G+ + +    L
+Sbjct  127  GTDFGAMCMLGTFAERATV----SQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNL  182
+
+Query  180  PPGGRLGLYGFGGSAHITAQVALAQGAE-IHVMTRGARARKLALQLGAASAQDAADRPPV  238
+              G    +YG GG      Q A A G + + V+   A  R+ AL+ GA  A   A     
+Sbjct  183  RAGDTAVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAA  242
+
+Query  239  PLD----------AAILFAPVGDLVLPALEA-LDRGGILAIAGIHLTDIPDLNYQ----Q  283
+             +D          A IL   V D V+ A  A + +GG + I G  L D   L  +     
+Sbjct  243  KVDELTWGQGADAALILVGTVDDEVVSAATAVIGKGGTVVITG--LADPAKLTVRISGTD  300
+
+Query  284  HLFQERQIRSV---TSNTRADA---RAFFDFAAQHHIEVTTPEYPLGQADRALGDLSAGR  337
+                E+ I+     + N + D       +D       E+ T  Y L Q ++   DL  G+
+Sbjct  301  LTLHEKTIKGSLFGSCNPQYDIVRLLRLYDAGQLMLDELVTTTYTLEQVNQGYQDLRDGK  360
+
+
+>VFG030300(gb|WP_014001575) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140010059]
+Length=368
+
+ Score = 73.6 bits (179),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 101/360 (28%), Positives = 146/360 (41%), Gaps = 60/360 (17%)
+
+Query  25   PLERVTTRVPRPAPSELLVAVHACGVCRTDLHVTEGDLPVHRERVIPGHEVVGEVIEVGS  84
+            P E +   +  P P E+LV   A G+C +DLH+T+GDLP  R  ++ GHE  G + EVG+
+Sbjct  14   PFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLP-PRFPIVGGHEGSGVIEEVGA  72
+
+Query  85   AVGAAAGGEFDRGDRVGIAWLRHTCGVCKYCRRGSENLCPQS-------------RYTGW  131
+             V          GD V  +++ + CG C+YC  G +NLC                R+   
+Sbjct  73   GV-----TRVKPGDHVVCSFIPN-CGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQ  126
+
+Query  132  DAD-------GGYAEFTTVPAAFAHHLPSGYSDS---ELAPLLCAGI-IGYRSLLRT-EL  179
+              D       G +AE  TV    + H      D    E A L+  G+  G+ + +    L
+Sbjct  127  GTDFGAMCMLGTFAERATV----SQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNL  182
+
+Query  180  PPGGRLGLYGFGGSAHITAQVALAQGAE-IHVMTRGARARKLALQLGAASAQDAADRPPV  238
+              G    +YG GG      Q A A G + + V+   A  R+ AL+ GA  A   A     
+Sbjct  183  RAGDTAVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAA  242
+
+Query  239  PLD----------AAILFAPVGDLVLPALEA-LDRGGILAIAGIHLTDIPDLNYQ----Q  283
+             +D          A IL   V D V+ A  A + +GG + I G  L D   L        
+Sbjct  243  KVDELTWGQGADAALILVGTVDDEVVSAATAVIGKGGTVVITG--LADPAKLTVHVSGTD  300
+
+Query  284  HLFQERQIRSV---TSNTRADA---RAFFDFAAQHHIEVTTPEYPLGQADRALGDLSAGR  337
+                E+ I+     + N + D       +D       E+ T  Y L Q ++   DL  G+
+Sbjct  301  LTLHEKTIKGSLFGSCNPQYDIVRLLRLYDAGQLMLDELVTTTYTLEQVNQGYQDLRDGK  360
+
+
+>VFG030286(gb|NP_217602) (adhD) alcohol dehydrogenase D [MymA 
+operon (VF0840) - Immune modulation (VFC0258)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=368
+
+ Score = 73.6 bits (179),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 101/360 (28%), Positives = 146/360 (41%), Gaps = 60/360 (17%)
+
+Query  25   PLERVTTRVPRPAPSELLVAVHACGVCRTDLHVTEGDLPVHRERVIPGHEVVGEVIEVGS  84
+            P E +   +  P P E+LV   A G+C +DLH+T+GDLP  R  ++ GHE  G + EVG+
+Sbjct  14   PFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLP-PRFPIVGGHEGSGVIEEVGA  72
+
+Query  85   AVGAAAGGEFDRGDRVGIAWLRHTCGVCKYCRRGSENLCPQS-------------RYTGW  131
+             V          GD V  +++ + CG C+YC  G +NLC                R+   
+Sbjct  73   GV-----TRVKPGDHVVCSFIPN-CGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQ  126
+
+Query  132  DAD-------GGYAEFTTVPAAFAHHLPSGYSDS---ELAPLLCAGI-IGYRSLLRT-EL  179
+              D       G +AE  TV    + H      D    E A L+  G+  G+ + +    L
+Sbjct  127  GTDFGAMCMLGTFAERATV----SQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNL  182
+
+Query  180  PPGGRLGLYGFGGSAHITAQVALAQGAE-IHVMTRGARARKLALQLGAASAQDAADRPPV  238
+              G    +YG GG      Q A A G + + V+   A  R+ AL+ GA  A   A     
+Sbjct  183  RAGDTAVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAA  242
+
+Query  239  PLD----------AAILFAPVGDLVLPALEA-LDRGGILAIAGIHLTDIPDLNYQ----Q  283
+             +D          A IL   V D V+ A  A + +GG + I G  L D   L        
+Sbjct  243  KVDELTWGQGADAALILVGTVDDEVVSAATAVIGKGGTVVITG--LADPAKLTVHVSGTD  300
+
+Query  284  HLFQERQIRSV---TSNTRADA---RAFFDFAAQHHIEVTTPEYPLGQADRALGDLSAGR  337
+                E+ I+     + N + D       +D       E+ T  Y L Q ++   DL  G+
+Sbjct  301  LTLHEKTIKGSLFGSCNPQYDIVRLLRLYDAGQLMLDELVTTTYNLEQVNQGYQDLRDGK  360
+
+
+>VFG030304(gb|WP_011560572) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium intracellulare MOTT-02]
+Length=368
+
+ Score = 73.6 bits (179),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 56/162 (35%), Positives = 74/162 (46%), Gaps = 27/162 (17%)
+
+Query  36   PAPSELLVAVHACGVCRTDLHVTEGDLPVHRERVIPGHEVVGEVIEVGSAVGAAAGGEFD  95
+            P P E+LV + A G+C +D H+  GDLP+    V+ GHE  G V+E G  V      E  
+Sbjct  25   PGPGEVLVRLAATGLCHSDEHLVTGDLPIPLP-VVGGHEGAGTVVECGEGV-----EELS  78
+
+Query  96   RGDRVGIAWLRHTCGVCKYCRRGSENLC---------PQ----SRYTGWDAD-------G  135
+             GD V + +L  +CG C YC RG  NLC         PQ     R+     D       G
+Sbjct  79   EGDSVILTFL-PSCGRCSYCARGMGNLCELGAALMMGPQIDGTYRFHARGEDVGQMCLLG  137
+
+Query  136  GYAEFTTVPAAFAHHLPSGYSDSELAPLLCAGIIGYRSLLRT  177
+             ++E+T VP A    +  G      A + C    GY S +RT
+Sbjct  138  TFSEYTVVPQASVVKIDGGIPLDRAALIGCGVTTGYGSAVRT  179
+
+
+>VFG030323(gb|WP_015345151) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis 7199-99]
+Length=368
+
+ Score = 73.6 bits (179),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 101/360 (28%), Positives = 146/360 (41%), Gaps = 60/360 (17%)
+
+Query  25   PLERVTTRVPRPAPSELLVAVHACGVCRTDLHVTEGDLPVHRERVIPGHEVVGEVIEVGS  84
+            P E +   +  P P E+LV   A G+C +DLH+T+GDLP  R  ++ GHE  G + EVG+
+Sbjct  14   PFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLP-PRFPIVGGHEGSGVIEEVGA  72
+
+Query  85   AVGAAAGGEFDRGDRVGIAWLRHTCGVCKYCRRGSENLCPQS-------------RYTGW  131
+             V          GD V  +++ + CG C+YC  G +NLC                R+   
+Sbjct  73   GV-----TRVKPGDHVVCSFIPN-CGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQ  126
+
+Query  132  DAD-------GGYAEFTTVPAAFAHHLPSGYSDS---ELAPLLCAGI-IGYRSLLRT-EL  179
+              D       G +AE  TV    + H      D    E A L+  G+  G+ + +    L
+Sbjct  127  GTDFGAMCMLGTFAERATV----SQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNL  182
+
+Query  180  PPGGRLGLYGFGGSAHITAQVALAQGAE-IHVMTRGARARKLALQLGAASAQDAADRPPV  238
+              G    +YG GG      Q A A G + + V+   A  R+ AL+ GA  A   A     
+Sbjct  183  RAGDTAVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAA  242
+
+Query  239  PLD----------AAILFAPVGDLVLPALEA-LDRGGILAIAGIHLTDIPDLNYQ----Q  283
+             +D          A IL   V D V+ A  A + +GG + I G  L D   L        
+Sbjct  243  KVDELTWGQGADAALILVGTVDDEVVSAATAVIGKGGTVVITG--LADPAKLTVHVSGTD  300
+
+Query  284  HLFQERQIRSV---TSNTRADA---RAFFDFAAQHHIEVTTPEYPLGQADRALGDLSAGR  337
+                E+ I+     + N + D       +D       E+ T  Y L Q ++   DL  G+
+Sbjct  301  LTLHEKTIKGSLFGSCNPQYDIVRLLRLYDAGQLMLDELVTTTYNLEQVNQGYQDLRDGK  360
+
+
+>VFG030297(gb|YP_001702819) (adhD) Probable zinc-type alcohol 
+dehydrogenase AdhD [MymA operon (VF0840) - Immune modulation 
+(VFC0258)] [Mycobacterium abscessus ATCC 19977]
+Length=368
+
+ Score = 72.0 bits (175),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 55/162 (34%), Positives = 74/162 (46%), Gaps = 27/162 (17%)
+
+Query  36   PAPSELLVAVHACGVCRTDLHVTEGDLPVHRERVIPGHEVVGEVIEVGSAVGAAAGGEFD  95
+            P P E+LV + A G+C +D H+  GDLP+    V+ GHE  G V+E G  V      +  
+Sbjct  25   PGPGEVLVRLAATGLCHSDEHLVTGDLPIPLP-VVGGHEGAGTVVECGEGV-----EDLS  78
+
+Query  96   RGDRVGIAWLRHTCGVCKYCRRGSENLC---------PQ----SRYTGWDAD-------G  135
+             GD V + +L  +CG C YC RG  NLC         PQ     R+     D       G
+Sbjct  79   EGDSVILTFL-PSCGRCSYCARGMGNLCELGAALMMGPQIDGTYRFHARGEDVGQMCLLG  137
+
+Query  136  GYAEFTTVPAAFAHHLPSGYSDSELAPLLCAGIIGYRSLLRT  177
+             ++E+T VP A    +  G      A + C    GY S +RT
+Sbjct  138  TFSEYTVVPQASVVKIDGGIPLDRAALIGCGVTTGYGSAVRT  179
+
+
+>VFG030290(gb|WP_003894835) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=372
+
+ Score = 70.1 bits (170),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 96/365 (26%), Positives = 144/365 (39%), Gaps = 72/365 (20%)
+
+Query  25   PLERVTTRVPRPAPSELLVAVHACGVCRTDLHVTEGDLPVHRERVIPGHEVVGEVIEVGS  84
+            P E +   +  P   E+L+   A G+C +DLH+T+GD+P  R  ++ GHE    V +VG 
+Sbjct  14   PFEIMELELDGPKEGEVLLKNVAAGLCHSDLHLTDGDMP-PRYPIVGGHEGSAIVEDVGP  72
+
+Query  85   AVGAAAGGEFDRGDRVGIAWLRHTCGVCKYCRRGSENLCPQS-------------RYTGW  131
+             V      +   GD V  +++ + CG C+YC  G  NLC                R+   
+Sbjct  73   GV-----TKVKPGDHVVCSYIPN-CGTCRYCATGRSNLCDMGATILDGRFPDGTFRFHKD  126
+
+Query  132  DAD-------GGYAEFTTVPAAFAHHLPSGYSDSELAPLLCAGIIG-----------YRS  173
+              D       G +AE TTV    + H  S     E  PL  A ++G           Y +
+Sbjct  127  GVDYGSLCLLGSFAERTTV----SQH--SVVKVDEWIPLETAVLVGCGVPAGWGGPVYNN  180
+
+Query  174  LLRTELPPGGRLGLYGFGGSAHITAQVALAQGAEIHVMTRGAR-ARKLALQLGAASAQDA  232
+             +R    PG    +YG GG      Q A+  GA   V        R +AL+ GA  A   
+Sbjct  181  GIR----PGDTAVIYGIGGLGINAIQGAVMAGARYVVAVDPVEFKRDMALKFGATHAFAT  236
+
+Query  233  ADRPPVPL---------DAAILF--APVGDLVLPALEALDRGGILAIAGIHLTDIPDLNY  281
+            A+     +         D A++F   P   +V  A   + +GG +++A   L D   L  
+Sbjct  237  AEEAHEAVREITWGQMADGALIFVGTPDEKVVSDAFNVIGKGGTVSLA--SLADPAKLTV  294
+
+Query  282  Q----QHLFQERQIRSV---TSNTRADA---RAFFDFAAQHHIEVTTPEYPLGQADRALG  331
+                 +    E+ I+     +SN + D       +D       E+ T  Y L   ++   
+Sbjct  295  HVSGMEMTLMEKTIKGCLFGSSNPQYDIVRLLRLYDEGKLKLDELITTRYRLEDINQGYD  354
+
+Query  332  DLSAG  336
+            DL AG
+Sbjct  355  DLRAG  359
+
+
+>VFG030301(gb|WP_012392129) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium marinum M]
+Length=369
+
+ Score = 69.7 bits (169),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 94/358 (26%), Positives = 148/358 (41%), Gaps = 56/358 (16%)
+
+Query  25   PLERVTTRVPRPAPSELLVAVHACGVCRTDLHVTEGDLPVHRERVIPGHEVVGEVIEVGS  84
+            P E +   +  P   E+L+   A G+C +DLH+T+GDLP  R  ++ GHE  G + EVG 
+Sbjct  14   PFEIMELELDGPRVGEVLIKYTAAGLCHSDLHLTDGDLP-PRYPIVGGHEGSGVIEEVGP  72
+
+Query  85   AVGAAAGGEFDRGDRVGIAWLRHTCGVCKYCRRGSENLCPQ--SRYTGWDADGGY-----  137
+             V      +   GD V  +++ + CG C+YC  G +NLC    +   G  +DG +     
+Sbjct  73   GV-----SKVKPGDHVVCSFIPN-CGTCRYCSTGRQNLCDMGATILEGCMSDGSFRFHRK  126
+
+Query  138  -AEFTTVP--------AAFAHHLPSGYSDSELAPLLCAGIIGY-------RSLLRTELPP  181
+              +F  +         A  + H  S     +  PL  A ++G         S+    + P
+Sbjct  127  GVDFGAMCMLGTFSERATISQH--SVVKIDDWLPLTTAVLVGCGVPTGWGTSVYAGGVRP  184
+
+Query  182  GGRLGLYGFGGSAHITAQVALAQGAE-IHVMTRGARARKLALQLGAASAQDAADRPPVPL  240
+            G    +YG GG      Q A++ GA+ + V+   A  R  AL+ GA  A   A      +
+Sbjct  185  GDTTVIYGAGGLGINAVQGAVSAGAKHVVVVDPVAFKRDTALKFGATHAFPDAASAAAKV  244
+
+Query  241  D----------AAILFAPVGDLVLPALEA-LDRGGILAIAGIHLTDIPDLNYQ----QHL  285
+            +          A IL   V   V+ A  A + +GG + I G  L +   L  Q       
+Sbjct  245  NEITWGQGADQALILVGTVDTEVVSAAAAVIGKGGTVVITG--LANPEKLTVQLSGLDLT  302
+
+Query  286  FQERQIRSV---TSNTRADA---RAFFDFAAQHHIEVTTPEYPLGQADRALGDLSAGR  337
+              E+ I+     ++N + D       +D       E+ T +Y L   ++   DL  G+
+Sbjct  303  LNEKTIKGTLFGSANPQYDIVRLLRLYDAGQLKLDELITTQYRLEDVNQGYQDLRDGK  360
+
+
+>VFG030318(gb|YP_007959090) (adhD) zinc-type alcohol dehydrogenase 
+AdhD [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=351
+
+ Score = 68.2 bits (165),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 96/346 (28%), Positives = 142/346 (41%), Gaps = 54/346 (16%)
+
+Query  36   PAPSELLVAVHACGVCRTDLHVTEGDLPVHRERVIPGHEVVGEVIEVGSAVGAAAGGEFD  95
+            P P E+LV   A G+C +DLH+T+GDLP  R  ++ GHE  G + EVG+ V         
+Sbjct  8    PGPGEVLVKYTAAGLCHSDLHLTDGDLP-PRFPIVGGHEGSGVIEEVGAGV-----TRVK  61
+
+Query  96   RGDRVGIAWLRHTCGVCKYCRRGSENLCPQ--SRYTGWDADGGY------AEFTTVP---  144
+             GD V  +++ + CG C+YC  G +NLC    +   G   DG +       +F  +    
+Sbjct  62   PGDHVVCSFIPN-CGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGTDFGAMCMLG  120
+
+Query  145  -----AAFAHHLPSGYSDS---ELAPLLCAGI-IGYRSLLRT-ELPPGGRLGLYGFGGSA  194
+                 A  + H      D    E A L+  G+  G+ + +    L  G    +YG GG  
+Sbjct  121  TFAERAXVSQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTAVIYGVGGLG  180
+
+Query  195  HITAQVALAQGAE-IHVMTRGARARKLALQLGAASAQDAADRPPVPLD----------AA  243
+                Q A A G + + V+   A  R+ AL+ GA  A   A      +D          A 
+Sbjct  181  INAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAKVDELTWGQGADAAL  240
+
+Query  244  ILFAPVGDLVLPALEA-LDRGGILAIAG--------IHLTDIPDLNYQQHLFQERQIRSV  294
+            IL   V D V+ A  A +  GG + I G        +H++   DL   +   +     S 
+Sbjct  241  ILVGTVDDEVVSAATAVIGXGGTVVITGLADPAKLTVHVSG-TDLTLHEKTIKGSLFGS-  298
+
+Query  295  TSNTRADA---RAFFDFAAQHHIEVTTPEYPLGQADRALGDLSAGR  337
+              N + D       +D       E+ T  Y L Q ++   DL  G+
+Sbjct  299  -CNPQYDIVRLLRLYDAGQLMLDELVTTTYNLEQVNQGYQDLRDGK  343
+
+
+>VFG030314(gb|YP_007962958) (adhD) Putative zinc-type alcohol 
+dehydrogenase AdhD (aldehyde reductase) [MymA operon (VF0840) 
+- Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+CAS/NITR204]
+Length=380
+
+ Score = 67.0 bits (162),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 39/99 (39%), Positives = 56/99 (57%), Gaps = 7/99 (7%)
+
+Query  25   PLERVTTRVPRPAPSELLVAVHACGVCRTDLHVTEGDLPVHRERVIPGHEVVGEVIEVGS  84
+            P E +   +  P P E+LV   A G+C +DLH+T+GDLP  R  ++ GHE  G + EVG+
+Sbjct  14   PFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLPP-RFPIVGGHEGSGVIEEVGA  72
+
+Query  85   AVGAAAGGEFDRGDRVGIAWLRHTCGVCKYCRRGSENLC  123
+             V          GD V  +++ + CG C+YC  G +NLC
+Sbjct  73   GV-----TRVKPGDHVVCSFIPN-CGTCRYCCTGRQNLC  105
+
+
+>VFG030293(gb|WP_011562028) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. MCS]
+Length=368
+
+ Score = 66.6 bits (161),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 95/348 (27%), Positives = 143/348 (41%), Gaps = 58/348 (17%)
+
+Query  36   PAPSELLVAVHACGVCRTDLHVTEGDLPVHRERVIPGHEVVGEVIEVGSAVGAAAGGEFD  95
+            P   E+LV + A G+C +D H+  GD+P++   V+ GHE  G V EVG  V      E +
+Sbjct  25   PKAQEVLVKLTASGLCHSDDHLVTGDMPMNLP-VVGGHEGAGVVAEVGPGV-----TEVE  78
+
+Query  96   RGDRVGIAWLRHTCGVCKYCRRGSENLC---------PQ----SRYTGWDAD-------G  135
+             GD V ++++   CG C  C RG  NLC         PQ     R+     D       G
+Sbjct  79   VGDHVVLSFI-PACGRCTECARGRSNLCVYGAAIVAGPQLDGTYRFHSGGQDVGQMCVLG  137
+
+Query  136  GYAEFTTVPAAFAHHLPSGYSDSELAPLLCAGIIGYRSLLRTELPPGGRLGLYGFGGSAH  195
+             ++E+T VP A    +       + A + C    GY + +RT     G   +    G   
+Sbjct  138  TFSEYTVVPIASVVKVDKDIPLDKAALVGCGVTTGYGAAVRTGEARDGDTVVVMGVGGLG  197
+
+Query  196  ITA-QVALAQGAEIHV-MTRGARARKLALQLG----AASAQDA------------ADRPP  237
+            I A Q A   GA   V +   A  R+ + + G    AA+ ++A            AD   
+Sbjct  198  INAVQGARLAGARYVVALDPVAYKRERSFEFGATHAAATVEEAQALITDLTRGTMADVCV  257
+
+Query  238  VPLDAAILFAPVGDLVLPALEALDRGGILAIAGI-HLTDIP-DLNYQQHLFQERQIRSV-  294
+            V  D+A      G  V   L  + + G + +  I H TD   D++       E+Q+R   
+Sbjct  258  VTTDSA-----EGAYVAQGLSLVGKRGRVVMTAIPHPTDTTVDMSLFDLTLYEKQVRGCL  312
+
+Query  295  --TSNTRADARAFFDFAAQHHI---EVTTPEYPLGQADRALGDLSAGR  337
+              +SN R D     +      +   E+ T EY L + ++   D+  GR
+Sbjct  313  FGSSNPRLDIPRMLELFGSGRLMLDELITREYTLDEINQGYEDMHDGR  360
+
+
+>VFG030291(gb|WP_011857132) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. JLS]
+Length=368
+
+ Score = 66.6 bits (161),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 94/348 (27%), Positives = 143/348 (41%), Gaps = 58/348 (17%)
+
+Query  36   PAPSELLVAVHACGVCRTDLHVTEGDLPVHRERVIPGHEVVGEVIEVGSAVGAAAGGEFD  95
+            P   E+LV + A G+C +D H+  GD+P++   V+ GHE  G V EVG  V      E +
+Sbjct  25   PKAQEVLVKLTASGLCHSDDHLVTGDMPMNLP-VVGGHEGAGVVAEVGPGV-----TEVE  78
+
+Query  96   RGDRVGIAWLRHTCGVCKYCRRGSENLC---------PQ----SRYTGWDAD-------G  135
+             GD V ++++   CG C  C RG  NLC         PQ     R+     D       G
+Sbjct  79   VGDHVVLSFI-PACGRCTECARGRSNLCVYGAAIVAGPQLDGTYRFHSGGQDVGQMCVLG  137
+
+Query  136  GYAEFTTVPAAFAHHLPSGYSDSELAPLLCAGIIGYRSLLRTELPPGGRLGLYGFGGSAH  195
+             ++E+T VP A    +       + A + C    GY + +RT     G   +    G   
+Sbjct  138  TFSEYTVVPIASVVKVDKDIPLDKAALVGCGVTTGYGAAVRTGEARDGDTVVVMGVGGLG  197
+
+Query  196  ITA-QVALAQGAE-IHVMTRGARARKLALQLG----AASAQDA------------ADRPP  237
+            I A Q A   GA  +  +   A  R+ + + G    AA+ ++A            AD   
+Sbjct  198  INAVQGARLAGARYVIALDPVAYKRERSFEFGATHAAATVEEAQALITDLTRGTMADVCV  257
+
+Query  238  VPLDAAILFAPVGDLVLPALEALDRGGILAIAGI-HLTDIP-DLNYQQHLFQERQIRSV-  294
+            V  D+A      G  V   L  + + G + +  I H TD   D++       E+Q+R   
+Sbjct  258  VTTDSA-----EGAYVAQGLSLVGKRGRVVMTAIPHPTDTTVDMSLFDLTLYEKQVRGCL  312
+
+Query  295  --TSNTRADARAFFDFAAQHHI---EVTTPEYPLGQADRALGDLSAGR  337
+              +SN R D     +      +   E+ T EY L + ++   D+  GR
+Sbjct  313  FGSSNPRLDIPRMLELYGSGRLMLDELITREYTLDEINQGYEDMHDGR  360
+
+
+>VFG030302(gb|WP_041318085) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. JDM601]
+Length=369
+
+ Score = 64.7 bits (156),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 36/99 (36%), Positives = 52/99 (53%), Gaps = 7/99 (7%)
+
+Query  25   PLERVTTRVPRPAPSELLVAVHACGVCRTDLHVTEGDLPVHRERVIPGHEVVGEVIEVGS  84
+            P E +   +  P P E+L+   A G+C +DLH+ +GD P  R  ++ GHE  G + +VG 
+Sbjct  14   PFEIMELDLDGPGPGEVLIKFTAAGLCHSDLHLADGDWPA-RFPIVGGHEGSGIIEDVGP  72
+
+Query  85   AVGAAAGGEFDRGDRVGIAWLRHTCGVCKYCRRGSENLC  123
+             V   A      GD V +     +CG C+YC  G +NLC
+Sbjct  73   GVTKVA-----PGDHV-VCCFIPSCGTCRYCSTGRQNLC  105
+
+
+>VFG030305(gb|WP_016343680) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium abscessus subsp. bolletii 50594]
+Length=368
+
+ Score = 64.3 bits (155),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 37/99 (37%), Positives = 55/99 (56%), Gaps = 7/99 (7%)
+
+Query  25   PLERVTTRVPRPAPSELLVAVHACGVCRTDLHVTEGDLPVHRERVIPGHEVVGEVIEVGS  84
+            P E +   +  PA  E+LV     G+C +DLH+T+GDLP  R  +I GHE  G + +VG 
+Sbjct  14   PFELIELDLDGPAEGEVLVNYTVAGLCHSDLHLTDGDLP-PRYPIIGGHEGAGVIEDVGP  72
+
+Query  85   AVGAAAGGEFDRGDRVGIAWLRHTCGVCKYCRRGSENLC  123
+             V      +   GD V  +++  +CG C+YC  G ++LC
+Sbjct  73   GV-----TKVKPGDHVVCSFIP-SCGYCRYCSTGRQSLC  105
+
+
+>VFG030295(gb|WP_011742363) (adhD) Zn-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium ulcerans Agy99]
+Length=385
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 67/235 (29%), Positives = 87/235 (37%), Gaps = 41/235 (17%)
+
+Query  36   PAPSELLVAVHACGVCRTDLHVTEGDLPVHRERV-----------IPGHEVVGEVIEVGS  84
+            P   E+L+ + A G+C +D H+  G+L    E +           I GHE  G V+EVG 
+Sbjct  25   PRAGEVLLQLSATGLCHSDEHIRRGNLAPPPETLRSFGLPTMSPTIGGHEGSGVVLEVGE  84
+
+Query  85   AVGAAAGGEFDRGDRVGIAWLRHTCGVCKYCRRGSENLCPQSRYT---GWDADGG-----  136
+             V       F  GD V  +++   CG C++C  G E LC     T   G   DG      
+Sbjct  85   GV-----TRFAPGDHVVTSFIA-VCGQCRWCATGMEYLCDTGYGTLAPGMPTDGTFRHHS  138
+
+Query  137  --------------YAEFTTVPAAFAHHLPSGYSDSELAPLLCAGIIGYRSLLRTELPPG  182
+                          +AE T V A     +   +     A L CA    Y S  R     G
+Sbjct  139  LDGRDLGHVSKIGPFAEHTVVSADSLVKIDQTFPLVPAALLACAIPTRYGSAARRAQVRG  198
+
+Query  183  GRLG-LYGFGGSAHITAQVALAQGA-EIHVMTRGARARKLALQLGAASAQDAADR  235
+            G +  + G GG      Q A  QGA  I  +      RK AL  GA       D 
+Sbjct  199  GDIAVVIGAGGIGTAAIQGARIQGATRIIAVDPVEFERKSALTFGATHTAATTDE  253
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2565689245
+
+
+Query= g2995.t1
+
+Length=346
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG030302(gb|WP_041318085) (adhD) NDMA-dependent alcohol dehydrog...  98.6    5e-23
+VFG030307(gb|WP_015303738) (adhD) NDMA-dependent alcohol dehydrog...  96.3    3e-22
+VFG030286(gb|NP_217602) (adhD) alcohol dehydrogenase D [MymA oper...  96.3    3e-22
+VFG030300(gb|WP_014001575) (adhD) NDMA-dependent alcohol dehydrog...  96.3    3e-22
+VFG030295(gb|WP_011742363) (adhD) Zn-dependent alcohol dehydrogen...  95.5    5e-22
+VFG030308(gb|WP_015291173) (adhD) NDMA-dependent alcohol dehydrog...  95.5    5e-22
+VFG030323(gb|WP_015345151) (adhD) NDMA-dependent alcohol dehydrog...  94.4    1e-21
+VFG030318(gb|YP_007959090) (adhD) zinc-type alcohol dehydrogenase...  92.8    3e-21
+VFG030314(gb|YP_007962958) (adhD) Putative zinc-type alcohol dehy...  87.8    3e-19
+VFG030305(gb|WP_016343680) (adhD) NDMA-dependent alcohol dehydrog...  85.9    1e-18
+VFG030301(gb|WP_012392129) (adhD) NDMA-dependent alcohol dehydrog...  85.1    2e-18
+VFG030290(gb|WP_003894835) (adhD) NDMA-dependent alcohol dehydrog...  80.5    7e-17
+VFG030304(gb|WP_011560572) (adhD) NDMA-dependent alcohol dehydrog...  79.7    1e-16
+VFG030297(gb|YP_001702819) (adhD) Probable zinc-type alcohol dehy...  79.0    2e-16
+VFG030293(gb|WP_011562028) (adhD) NDMA-dependent alcohol dehydrog...  77.0    1e-15
+VFG030291(gb|WP_011857132) (adhD) NDMA-dependent alcohol dehydrog...  76.6    2e-15
+VFG015871(gb|WP_011105123) (cfa8) crotonyl-CoA carboxylase/reduct...  68.2    1e-12
+
+
+>VFG030302(gb|WP_041318085) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. JDM601]
+Length=369
+
+ Score = 98.6 bits (244),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 77/249 (31%), Positives = 113/249 (45%), Gaps = 33/249 (13%)
+
+Query  1    MSTVAAYAAMSATEPLTKTTITRRDPGPHDVAIDIKFAGICHSDIHTVKAEWGQPNYPVV  60
+            M T+AA  A +  +P     +    PGP +V I    AG+CHSD+H    +W    +P+V
+Sbjct  1    MKTIAA-VAHAPNQPFEIMELDLDGPGPGEVLIKFTAAGLCHSDLHLADGDW-PARFPIV  58
+
+Query  61   PGHEIAGVVTAVGSEVTKYRQGDRVGVGCFVDSCRECNSCTRGIEQYCKPGA--------  112
+             GHE +G++  VG  VTK   GD V V CF+ SC  C  C+ G +  C  GA        
+Sbjct  59   GGHEGSGIIEDVGPGVTKVAPGDHV-VCCFIPSCGTCRYCSTGRQNLCDMGATILEGCMP  117
+
+Query  113  --NFTYNSIGKD--GQPTQGGYSEAIVVDENYVLRIPDVLPLDVAAPLLCAGITLYSPLR  168
+               F ++S G D  G    G ++E   V ++ V+++ D LPL  A  + C   T ++   
+Sbjct  118  DGTFRFHSGGTDYGGFCMLGTFAERATVSQHSVVKVDDWLPLQTAVLVGCGVPTGWAS-A  176
+
+Query  169  HWNAGANT----------RVAIIGLGGLGHMGVKLGAAMGADVTVLSQSLKKMEDGLRLG  218
+            +++ G              V I  + G  H G K        V  +     K E  L+LG
+Sbjct  177  NYDGGVRAGDTVVVYGVGGVGINAVQGAAHAGAKY-------VVAVDPVEFKRETALKLG  229
+
+Query  219  AKSYYATAD  227
+            A   +ATA+
+Sbjct  230  ATHAFATAE  238
+
+
+>VFG030307(gb|WP_015303738) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070008]
+Length=368
+
+ Score = 96.3 bits (238),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 73/233 (31%), Positives = 110/233 (47%), Gaps = 17/233 (7%)
+
+Query  1    MSTVAAYAAMSATEPLTKTTITRRDPGPHDVAIDIKFAGICHSDIHTVKAEWGQPNYPVV  60
+            M T AA     A +P     +    PGP +V +    AG+CHSD+H    +   P +P+V
+Sbjct  1    MKTTAA-VLFEAGKPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDL-PPRFPIV  58
+
+Query  61   PGHEIAGVVTAVGSEVTKYRQGDRVGVGCFVDSCRECNSCTRG----------IEQYCKP  110
+             GHE +GV+  VG+ VT+ + GD V V  F+ +C  C  C  G          I + C P
+Sbjct  59   GGHEGSGVIEEVGAGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMP  117
+
+Query  111  GANFTYNSIGKD--GQPTQGGYSEAIVVDENYVLRIPDVLPLDVAAPLLCAGITLY-SPL  167
+              +F ++S G D       G ++E   V ++ V+++ D LPL+ A  + C   + + + +
+Sbjct  118  DGSFRFHSQGTDFGAMCMLGTFAERATVSQHSVVKVDDWLPLETAVLVGCGVPSGWGTAV  177
+
+Query  168  RHWNAGANTRVAIIGLGGLGHMGVKLGAAMGAD-VTVLSQSLKKMEDGLRLGA  219
+               N  A     I G+GGLG   V+   A G   V V+     K E  L+ GA
+Sbjct  178  NAGNLRAGDTAVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGA  230
+
+
+>VFG030286(gb|NP_217602) (adhD) alcohol dehydrogenase D [MymA 
+operon (VF0840) - Immune modulation (VFC0258)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=368
+
+ Score = 96.3 bits (238),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 73/233 (31%), Positives = 110/233 (47%), Gaps = 17/233 (7%)
+
+Query  1    MSTVAAYAAMSATEPLTKTTITRRDPGPHDVAIDIKFAGICHSDIHTVKAEWGQPNYPVV  60
+            M T AA     A +P     +    PGP +V +    AG+CHSD+H    +   P +P+V
+Sbjct  1    MKTTAA-VLFEAGKPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDL-PPRFPIV  58
+
+Query  61   PGHEIAGVVTAVGSEVTKYRQGDRVGVGCFVDSCRECNSCTRG----------IEQYCKP  110
+             GHE +GV+  VG+ VT+ + GD V V  F+ +C  C  C  G          I + C P
+Sbjct  59   GGHEGSGVIEEVGAGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMP  117
+
+Query  111  GANFTYNSIGKD--GQPTQGGYSEAIVVDENYVLRIPDVLPLDVAAPLLCAGITLY-SPL  167
+              +F ++S G D       G ++E   V ++ V+++ D LPL+ A  + C   + + + +
+Sbjct  118  DGSFRFHSQGTDFGAMCMLGTFAERATVSQHSVVKVDDWLPLETAVLVGCGVPSGWGTAV  177
+
+Query  168  RHWNAGANTRVAIIGLGGLGHMGVKLGAAMGAD-VTVLSQSLKKMEDGLRLGA  219
+               N  A     I G+GGLG   V+   A G   V V+     K E  L+ GA
+Sbjct  178  NAGNLRAGDTAVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGA  230
+
+
+>VFG030300(gb|WP_014001575) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140010059]
+Length=368
+
+ Score = 96.3 bits (238),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 73/233 (31%), Positives = 110/233 (47%), Gaps = 17/233 (7%)
+
+Query  1    MSTVAAYAAMSATEPLTKTTITRRDPGPHDVAIDIKFAGICHSDIHTVKAEWGQPNYPVV  60
+            M T AA     A +P     +    PGP +V +    AG+CHSD+H    +   P +P+V
+Sbjct  1    MKTTAA-VLFEAGKPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDL-PPRFPIV  58
+
+Query  61   PGHEIAGVVTAVGSEVTKYRQGDRVGVGCFVDSCRECNSCTRG----------IEQYCKP  110
+             GHE +GV+  VG+ VT+ + GD V V  F+ +C  C  C  G          I + C P
+Sbjct  59   GGHEGSGVIEEVGAGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMP  117
+
+Query  111  GANFTYNSIGKD--GQPTQGGYSEAIVVDENYVLRIPDVLPLDVAAPLLCAGITLY-SPL  167
+              +F ++S G D       G ++E   V ++ V+++ D LPL+ A  + C   + + + +
+Sbjct  118  DGSFRFHSQGTDFGAMCMLGTFAERATVSQHSVVKVDDWLPLETAVLVGCGVPSGWGTAV  177
+
+Query  168  RHWNAGANTRVAIIGLGGLGHMGVKLGAAMGAD-VTVLSQSLKKMEDGLRLGA  219
+               N  A     I G+GGLG   V+   A G   V V+     K E  L+ GA
+Sbjct  178  NAGNLRAGDTAVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGA  230
+
+
+>VFG030295(gb|WP_011742363) (adhD) Zn-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium ulcerans Agy99]
+Length=385
+
+ Score = 95.5 bits (236),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 106/373 (28%), Positives = 159/373 (43%), Gaps = 44/373 (12%)
+
+Query  14   EPLTKTTITRRDPGPHDVAIDIKFAGICHSDIHTVKA----------EWGQPNY-PVVPG  62
+             P T        P   +V + +   G+CHSD H  +            +G P   P + G
+Sbjct  13   HPWTVEEFELDPPRAGEVLLQLSATGLCHSDEHIRRGNLAPPPETLRSFGLPTMSPTIGG  72
+
+Query  63   HEIAGVVTAVGSEVTKYRQGDRVGVGCFVDSCRECNSCTRGIEQYCKPG-----------  111
+            HE +GVV  VG  VT++  GD V V  F+  C +C  C  G+E  C  G           
+Sbjct  73   HEGSGVVLEVGEGVTRFAPGDHV-VTSFIAVCGQCRWCATGMEYLCDTGYGTLAPGMPTD  131
+
+Query  112  ANFTYNSI-GKD-GQPTQ-GGYSEAIVVDENYVLRIPDVLPLDVAAPLLCAGITLY-SPL  167
+              F ++S+ G+D G  ++ G ++E  VV  + +++I    PL  AA L CA  T Y S  
+Sbjct  132  GTFRHHSLDGRDLGHVSKIGPFAEHTVVSADSLVKIDQTFPLVPAALLACAIPTRYGSAA  191
+
+Query  168  RHWNAGANTRVAIIGLGGLGHMGVKLGAAMGADVTVLSQSLK-KMEDGLRLGAKSYYATA  226
+            R           +IG GG+G   ++     GA   +    ++ + +  L  GA    AT 
+Sbjct  192  RRAQVRGGDIAVVIGAGGIGTAAIQGARIQGATRIIAVDPVEFERKSALTFGATHTAATT  251
+
+Query  227  DP--DTFRKLRGGFDLILNTVS----ANLDLGQYLNLLDVDGTLVELGIPE---HPMAVP  277
+            D   +T R+L  G    +  VS       D+   L+L    GT V  G+P+   H +AV 
+Sbjct  252  DEAVETVRELTRGVMADVVVVSPATIGPADVAAALSLTRKGGTCVLTGLPDPAMHSIAVG  311
+
+Query  278  AFALALMRRSLAGSNIGGIAETQE--MLNFCAEHGVTPEIELIEPDY----INDAYERVL  331
+                 LM ++L G+  G      +  +L    + G      +I   Y    INDAY  ++
+Sbjct  312  LQDFVLMNKTLCGTVFGSCNPKSDIPLLATMYQSGQLLLDAMITKRYSLHSINDAYADLV  371
+
+Query  332  ASDVRYRFVIDIS  344
+            A ++  R VID S
+Sbjct  372  AGEL-IRGVIDFS  383
+
+
+>VFG030308(gb|WP_015291173) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=368
+
+ Score = 95.5 bits (236),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 73/233 (31%), Positives = 109/233 (47%), Gaps = 17/233 (7%)
+
+Query  1    MSTVAAYAAMSATEPLTKTTITRRDPGPHDVAIDIKFAGICHSDIHTVKAEWGQPNYPVV  60
+            M T AA     A +P     +    PGP +V +    AG+CHSD+H    +   P +P+V
+Sbjct  1    MKTTAA-VLFEAGKPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDL-PPRFPIV  58
+
+Query  61   PGHEIAGVVTAVGSEVTKYRQGDRVGVGCFVDSCRECNSCTRG----------IEQYCKP  110
+             GHE +GV+  VG+ VT+ + GD V V  F+ +C  C  C  G          I + C P
+Sbjct  59   GGHEGSGVIEEVGAGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMP  117
+
+Query  111  GANFTYNSIGKD--GQPTQGGYSEAIVVDENYVLRIPDVLPLDVAAPLLCAGITLY-SPL  167
+              +F ++S G D       G ++E   V  + V+++ D LPL+ A  + C   + + + +
+Sbjct  118  DGSFRFHSQGTDFGAMCMLGTFAERATVSHHSVVKVDDWLPLETAVLVGCGVPSGWGTAV  177
+
+Query  168  RHWNAGANTRVAIIGLGGLGHMGVKLGAAMGAD-VTVLSQSLKKMEDGLRLGA  219
+               N  A     I G+GGLG   V+   A G   V V+     K E  L+ GA
+Sbjct  178  NAGNLRAGDTAVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGA  230
+
+
+>VFG030323(gb|WP_015345151) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis 7199-99]
+Length=368
+
+ Score = 94.4 bits (233),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 72/233 (31%), Positives = 109/233 (47%), Gaps = 17/233 (7%)
+
+Query  1    MSTVAAYAAMSATEPLTKTTITRRDPGPHDVAIDIKFAGICHSDIHTVKAEWGQPNYPVV  60
+            M T AA       +P     +    PGP +V +    AG+CHSD+H    +   P +P+V
+Sbjct  1    MKTTAA-VLFEPGKPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDL-PPRFPIV  58
+
+Query  61   PGHEIAGVVTAVGSEVTKYRQGDRVGVGCFVDSCRECNSCTRG----------IEQYCKP  110
+             GHE +GV+  VG+ VT+ + GD V V  F+ +C  C  C  G          I + C P
+Sbjct  59   GGHEGSGVIEEVGAGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMP  117
+
+Query  111  GANFTYNSIGKD--GQPTQGGYSEAIVVDENYVLRIPDVLPLDVAAPLLCAGITLY-SPL  167
+              +F ++S G D       G ++E   V ++ V+++ D LPL+ A  + C   + + + +
+Sbjct  118  DGSFRFHSQGTDFGAMCMLGTFAERATVSQHSVVKVDDWLPLETAVLVGCGVPSGWGTAV  177
+
+Query  168  RHWNAGANTRVAIIGLGGLGHMGVKLGAAMGAD-VTVLSQSLKKMEDGLRLGA  219
+               N  A     I G+GGLG   V+   A G   V V+     K E  L+ GA
+Sbjct  178  NAGNLRAGDTAVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGA  230
+
+
+>VFG030318(gb|YP_007959090) (adhD) zinc-type alcohol dehydrogenase 
+AdhD [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=351
+
+ Score = 92.8 bits (229),  Expect = 3e-21, Method: Compositional matrix adjust.
+ Identities = 67/208 (32%), Positives = 102/208 (49%), Gaps = 16/208 (8%)
+
+Query  26   PGPHDVAIDIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTAVGSEVTKYRQGDRV  85
+            PGP +V +    AG+CHSD+H    +   P +P+V GHE +GV+  VG+ VT+ + GD V
+Sbjct  8    PGPGEVLVKYTAAGLCHSDLHLTDGDL-PPRFPIVGGHEGSGVIEEVGAGVTRVKPGDHV  66
+
+Query  86   GVGCFVDSCRECNSCTRG----------IEQYCKPGANFTYNSIGKD--GQPTQGGYSEA  133
+             V  F+ +C  C  C  G          I + C P  +F ++S G D       G ++E 
+Sbjct  67   -VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGTDFGAMCMLGTFAER  125
+
+Query  134  IVVDENYVLRIPDVLPLDVAAPLLCAGITLY-SPLRHWNAGANTRVAIIGLGGLGHMGVK  192
+              V ++ V+++ D LPL+ A  + C   + + + +   N  A     I G+GGLG   V+
+Sbjct  126  AXVSQHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTAVIYGVGGLGINAVQ  185
+
+Query  193  LGAAMGAD-VTVLSQSLKKMEDGLRLGA  219
+               A G   V V+     K E  L+ GA
+Sbjct  186  GATAAGCKYVVVVDPVAFKRETALKFGA  213
+
+
+>VFG030314(gb|YP_007962958) (adhD) Putative zinc-type alcohol 
+dehydrogenase AdhD (aldehyde reductase) [MymA operon (VF0840) 
+- Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+CAS/NITR204]
+Length=380
+
+ Score = 87.8 bits (216),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 63/200 (32%), Positives = 97/200 (49%), Gaps = 16/200 (8%)
+
+Query  1    MSTVAAYAAMSATEPLTKTTITRRDPGPHDVAIDIKFAGICHSDIHTVKAEWGQPNYPVV  60
+            M T AA     A +P     +    PGP +V +    AG+CHSD+H    +   P +P+V
+Sbjct  1    MKTTAA-VLFEAGKPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDL-PPRFPIV  58
+
+Query  61   PGHEIAGVVTAVGSEVTKYRQGDRVGVGCFVDSCRECNSCTRG----------IEQYCKP  110
+             GHE +GV+  VG+ VT+ + GD V V  F+ +C  C  C  G          I + C P
+Sbjct  59   GGHEGSGVIEEVGAGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMP  117
+
+Query  111  GANFTYNSIGKD--GQPTQGGYSEAIVVDENYVLRIPDVLPLDVAAPLLCAGITLY-SPL  167
+              +F ++S G D       G ++E   V ++ V+++ D LPL+ A  + C   + + + +
+Sbjct  118  DGSFRFHSQGTDFGAMCMLGTFAERATVSQHSVVKVDDWLPLETAVLVGCGVPSGWGTAV  177
+
+Query  168  RHWNAGANTRVAIIGLGGLG  187
+               N  A     I G+GGLG
+Sbjct  178  NAGNLRAGDTAVIYGVGGLG  197
+
+
+>VFG030305(gb|WP_016343680) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium abscessus subsp. bolletii 50594]
+Length=368
+
+ Score = 85.9 bits (211),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 57/170 (34%), Positives = 85/170 (50%), Gaps = 15/170 (9%)
+
+Query  1    MSTVAAYAAMSATEPLTKTTITRRDPGPHDVAIDIKFAGICHSDIHTVKAEWGQPNYPVV  60
+            M T AA   + A +P     +    P   +V ++   AG+CHSD+H    +   P YP++
+Sbjct  1    MKTTAA-VLLEAGKPFELIELDLDGPAEGEVLVNYTVAGLCHSDLHLTDGDL-PPRYPII  58
+
+Query  61   PGHEIAGVVTAVGSEVTKYRQGDRVGVGCFVDSCRECNSCTRG----------IEQYCKP  110
+             GHE AGV+  VG  VTK + GD V V  F+ SC  C  C+ G          I + C P
+Sbjct  59   GGHEGAGVIEDVGPGVTKVKPGDHV-VCSFIPSCGYCRYCSTGRQSLCDMGATILEGCMP  117
+
+Query  111  GANFTYNSIGKD-GQPTQ-GGYSEAIVVDENYVLRIPDVLPLDVAAPLLC  158
+               F ++S G D GQ    G +++   V ++ V++I D +PL+ A  + C
+Sbjct  118  DGTFRFHSAGIDFGQMCMLGTFAQKATVSQHSVVKIDDWIPLETAVLVGC  167
+
+
+>VFG030301(gb|WP_012392129) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium marinum M]
+Length=369
+
+ Score = 85.1 bits (209),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 72/241 (30%), Positives = 107/241 (44%), Gaps = 25/241 (10%)
+
+Query  1    MSTVAAYAAMSATEPLTKTTITRRDPGPHDVAIDIKFAGICHSDIHTVKAEWGQPNYPVV  60
+            M T AA   + A +P     +    P   +V I    AG+CHSD+H    +   P YP+V
+Sbjct  1    MKTTAA-VLLEAGKPFEIMELELDGPRVGEVLIKYTAAGLCHSDLHLTDGDL-PPRYPIV  58
+
+Query  61   PGHEIAGVVTAVGSEVTKYRQGDRVGVGCFVDSCRECNSCTRGIEQYCKPGA--------  112
+             GHE +GV+  VG  V+K + GD V V  F+ +C  C  C+ G +  C  GA        
+Sbjct  59   GGHEGSGVIEEVGPGVSKVKPGDHV-VCSFIPNCGTCRYCSTGRQNLCDMGATILEGCMS  117
+
+Query  113  --NFTYNSIGKD--GQPTQGGYSEAIVVDENYVLRIPDVLPLDVAAPLLCA-----GITL  163
+              +F ++  G D       G +SE   + ++ V++I D LPL  A  + C      G ++
+Sbjct  118  DGSFRFHRKGVDFGAMCMLGTFSERATISQHSVVKIDDWLPLTTAVLVGCGVPTGWGTSV  177
+
+Query  164  YSPLRHWNAGANTRVAIIGLGGLGHMGVKLGAAMGAD-VTVLSQSLKKMEDGLRLGAKSY  222
+            Y+              I G GGLG   V+   + GA  V V+     K +  L+ GA   
+Sbjct  178  YAG----GVRPGDTTVIYGAGGLGINAVQGAVSAGAKHVVVVDPVAFKRDTALKFGATHA  233
+
+Query  223  Y  223
+            +
+Sbjct  234  F  234
+
+
+>VFG030290(gb|WP_003894835) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=372
+
+ Score = 80.5 bits (197),  Expect = 7e-17, Method: Compositional matrix adjust.
+ Identities = 76/293 (26%), Positives = 122/293 (42%), Gaps = 35/293 (12%)
+
+Query  1    MSTVAAYAAMSATEPLTKTTITRRDPGPHDVAIDIKFAGICHSDIHTVKAEWGQPNYPVV  60
+            M T AA  ++    P     +    P   +V +    AG+CHSD+H    +   P YP+V
+Sbjct  1    MKTKAA-VSLGVNRPFEIMELELDGPKEGEVLLKNVAAGLCHSDLHLTDGDM-PPRYPIV  58
+
+Query  61   PGHEIAGVVTAVGSEVTKYRQGDRVGVGCFVDSCRECNSCTRGIEQYCKPGA--------  112
+             GHE + +V  VG  VTK + GD V V  ++ +C  C  C  G    C  GA        
+Sbjct  59   GGHEGSAIVEDVGPGVTKVKPGDHV-VCSYIPNCGTCRYCATGRSNLCDMGATILDGRFP  117
+
+Query  113  --NFTYNSIGKD--GQPTQGGYSEAIVVDENYVLRIPDVLPLDVAAPLLCAGITLY-SPL  167
+               F ++  G D       G ++E   V ++ V+++ + +PL+ A  + C     +  P+
+Sbjct  118  DGTFRFHKDGVDYGSLCLLGSFAERTTVSQHSVVKVDEWIPLETAVLVGCGVPAGWGGPV  177
+
+Query  168  RHWNAGANTRVAIIGLGGLGHMGVKLGAAMGADVTVLSQSLKKMED-GLRLGAKSYYATA  226
+             +          I G+GGLG   ++     GA   V    ++   D  L+ GA   +ATA
+Sbjct  178  YNNGIRPGDTAVIYGIGGLGINAIQGAVMAGARYVVAVDPVEFKRDMALKFGATHAFATA  237
+
+Query  227  DPDTFRKLRGGFDLILNTVSANLDLGQYLNLLDVDGTLVELGIPEHPMAVPAF  279
+            + +    +R             +  GQ       DG L+ +G P+  +   AF
+Sbjct  238  E-EAHEAVR------------EITWGQM-----ADGALIFVGTPDEKVVSDAF  272
+
+
+>VFG030304(gb|WP_011560572) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium intracellulare MOTT-02]
+Length=368
+
+ Score = 79.7 bits (195),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 55/151 (36%), Positives = 78/151 (52%), Gaps = 14/151 (9%)
+
+Query  26   PGPHDVAIDIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTAVGSEVTKYRQGDRV  85
+            PGP +V + +   G+CHSD H V  +   P  PVV GHE AG V   G  V +  +GD V
+Sbjct  25   PGPGEVLVRLAATGLCHSDEHLVTGDLPIP-LPVVGGHEGAGTVVECGEGVEELSEGDSV  83
+
+Query  86   GVGCFVDSCRECNSCTRGIEQYCKPGA----------NFTYNSIGKD-GQPT-QGGYSEA  133
+             +  F+ SC  C+ C RG+   C+ GA           + +++ G+D GQ    G +SE 
+Sbjct  84   -ILTFLPSCGRCSYCARGMGNLCELGAALMMGPQIDGTYRFHARGEDVGQMCLLGTFSEY  142
+
+Query  134  IVVDENYVLRIPDVLPLDVAAPLLCAGITLY  164
+             VV +  V++I   +PLD AA + C   T Y
+Sbjct  143  TVVPQASVVKIDGGIPLDRAALIGCGVTTGY  173
+
+
+>VFG030297(gb|YP_001702819) (adhD) Probable zinc-type alcohol 
+dehydrogenase AdhD [MymA operon (VF0840) - Immune modulation 
+(VFC0258)] [Mycobacterium abscessus ATCC 19977]
+Length=368
+
+ Score = 79.0 bits (193),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 55/151 (36%), Positives = 77/151 (51%), Gaps = 14/151 (9%)
+
+Query  26   PGPHDVAIDIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTAVGSEVTKYRQGDRV  85
+            PGP +V + +   G+CHSD H V  +   P  PVV GHE AG V   G  V    +GD V
+Sbjct  25   PGPGEVLVRLAATGLCHSDEHLVTGDLPIP-LPVVGGHEGAGTVVECGEGVEDLSEGDSV  83
+
+Query  86   GVGCFVDSCRECNSCTRGIEQYCKPGA----------NFTYNSIGKD-GQPT-QGGYSEA  133
+             +  F+ SC  C+ C RG+   C+ GA           + +++ G+D GQ    G +SE 
+Sbjct  84   -ILTFLPSCGRCSYCARGMGNLCELGAALMMGPQIDGTYRFHARGEDVGQMCLLGTFSEY  142
+
+Query  134  IVVDENYVLRIPDVLPLDVAAPLLCAGITLY  164
+             VV +  V++I   +PLD AA + C   T Y
+Sbjct  143  TVVPQASVVKIDGGIPLDRAALIGCGVTTGY  173
+
+
+>VFG030293(gb|WP_011562028) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. MCS]
+Length=368
+
+ Score = 77.0 bits (188),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 56/151 (37%), Positives = 75/151 (50%), Gaps = 14/151 (9%)
+
+Query  26   PGPHDVAIDIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTAVGSEVTKYRQGDRV  85
+            P   +V + +  +G+CHSD H V  +    N PVV GHE AGVV  VG  VT+   GD V
+Sbjct  25   PKAQEVLVKLTASGLCHSDDHLVTGDMPM-NLPVVGGHEGAGVVAEVGPGVTEVEVGDHV  83
+
+Query  86   GVGCFVDSCRECNSCTRGIEQYCKPGA----------NFTYNSIGKD-GQP-TQGGYSEA  133
+             V  F+ +C  C  C RG    C  GA           + ++S G+D GQ    G +SE 
+Sbjct  84   -VLSFIPACGRCTECARGRSNLCVYGAAIVAGPQLDGTYRFHSGGQDVGQMCVLGTFSEY  142
+
+Query  134  IVVDENYVLRIPDVLPLDVAAPLLCAGITLY  164
+             VV    V+++   +PLD AA + C   T Y
+Sbjct  143  TVVPIASVVKVDKDIPLDKAALVGCGVTTGY  173
+
+
+>VFG030291(gb|WP_011857132) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. JLS]
+Length=368
+
+ Score = 76.6 bits (187),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 56/151 (37%), Positives = 75/151 (50%), Gaps = 14/151 (9%)
+
+Query  26   PGPHDVAIDIKFAGICHSDIHTVKAEWGQPNYPVVPGHEIAGVVTAVGSEVTKYRQGDRV  85
+            P   +V + +  +G+CHSD H V  +    N PVV GHE AGVV  VG  VT+   GD V
+Sbjct  25   PKAQEVLVKLTASGLCHSDDHLVTGDMPM-NLPVVGGHEGAGVVAEVGPGVTEVEVGDHV  83
+
+Query  86   GVGCFVDSCRECNSCTRGIEQYCKPGA----------NFTYNSIGKD-GQP-TQGGYSEA  133
+             V  F+ +C  C  C RG    C  GA           + ++S G+D GQ    G +SE 
+Sbjct  84   -VLSFIPACGRCTECARGRSNLCVYGAAIVAGPQLDGTYRFHSGGQDVGQMCVLGTFSEY  142
+
+Query  134  IVVDENYVLRIPDVLPLDVAAPLLCAGITLY  164
+             VV    V+++   +PLD AA + C   T Y
+Sbjct  143  TVVPIASVVKVDKDIPLDKAALVGCGVTTGY  173
+
+
+>VFG015871(gb|WP_011105123) (cfa8) crotonyl-CoA carboxylase/reductase 
+[Phytotoxin coronatine (VF0916) - Exotoxin (VFC0235)] 
+[Pseudomonas syringae pv. tomato str. DC3000]
+Length=401
+
+ Score = 68.2 bits (165),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 86/359 (24%), Positives = 130/359 (36%), Gaps = 63/359 (18%)
+
+Query  27   GPHDVAIDIKFAGICHSDIHTVKAEWGQPNYPV-----------------VPGHEIAGVV  69
+            GPH V I++  AG+ ++++      W     PV                 + G E +G V
+Sbjct  37   GPHQVLIEVMAAGLNYNNV------WAAQGKPVDIIAARRKRNRDAEPFHIGGSEASGYV  90
+
+Query  70   TAVGSEVTKYRQGDRVGVGCFVDSCRECNSCTRGIEQYCKPGANFTYNSIGKDGQPTQGG  129
+             AVG  VT  + GD V V C V            IE    P   F  N      + + G 
+Sbjct  91   KAVGDAVTHVKVGDTVVVSCSVYDA-------TAIESRVAPDPMFCSNQEIYGYETSYGS  143
+
+Query  130  YSEAIVVDENYVLRIPDVLPLDVAAPLLCAGITLYSPLRHW---NAGANTRVAIIG-LGG  185
+            ++E  +V++      P  L  + +A L+  G T Y  L HW          V I G  GG
+Sbjct  144  FAEYTLVEDYQCFPKPKFLSWEESATLMLNGPTAYKQLTHWAPNTVKPGDAVLIWGAAGG  203
+
+Query  186  LGHMGVKLGAAMGADVTVLSQSLKKMEDGLRLGAKSYYATAD-------PD---------  229
+            LG M ++L  A+G     +  S  +      LGA  Y    D       PD         
+Sbjct  204  LGSMSIQLTRALGGLPVAVVSSPDRGRYACELGAVGYLLRTDYPHLGRLPDLNSDAHSAW  263
+
+Query  230  --TFRKLRGGFDLILNTV---------SANLDLGQYLNLLDVDGTLVEL-GIPEHPMAVP  277
+              +F   R  F + L            S        L + D  G +V + G   +     
+Sbjct  264  TKSFASFRRDFFMTLGKKELPKVVIEHSGQATFPTSLQICDRSGMVVIVGGTSGYNCDFD  323
+
+Query  278  AFALALMRRSLAGSNIGGIAETQEMLNFCAEHGVTPEIE-LIEPDYINDAYERVLASDV  335
+               L + ++ + GS+   I E QE L    +  V P +  L   +    A++ +L+ +V
+Sbjct  324  VRHLWMHQKRIQGSHYANIRECQEFLQLVEQRRVVPTLNTLYRFEETPRAHQALLSGEV  382
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.138    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2565689245
+
+
+Query= g2314.t1
+
+Length=353
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG030295(gb|WP_011742363) (adhD) Zn-dependent alcohol dehydrogen...  90.1    5e-20
+VFG030302(gb|WP_041318085) (adhD) NDMA-dependent alcohol dehydrog...  81.6    3e-17
+VFG030301(gb|WP_012392129) (adhD) NDMA-dependent alcohol dehydrog...  75.9    3e-15
+VFG030290(gb|WP_003894835) (adhD) NDMA-dependent alcohol dehydrog...  75.1    5e-15
+VFG015871(gb|WP_011105123) (cfa8) crotonyl-CoA carboxylase/reduct...  70.9    2e-13
+VFG030286(gb|NP_217602) (adhD) alcohol dehydrogenase D [MymA oper...  69.3    5e-13
+VFG030300(gb|WP_014001575) (adhD) NDMA-dependent alcohol dehydrog...  68.9    6e-13
+VFG030308(gb|WP_015291173) (adhD) NDMA-dependent alcohol dehydrog...  68.2    1e-12
+VFG030323(gb|WP_015345151) (adhD) NDMA-dependent alcohol dehydrog...  68.2    1e-12
+VFG030307(gb|WP_015303738) (adhD) NDMA-dependent alcohol dehydrog...  66.2    5e-12
+VFG030318(gb|YP_007959090) (adhD) zinc-type alcohol dehydrogenase...  64.3    2e-11
+VFG030305(gb|WP_016343680) (adhD) NDMA-dependent alcohol dehydrog...  57.0    5e-09
+VFG030293(gb|WP_011562028) (adhD) NDMA-dependent alcohol dehydrog...  56.6    8e-09
+VFG030291(gb|WP_011857132) (adhD) NDMA-dependent alcohol dehydrog...  56.6    8e-09
+VFG030297(gb|YP_001702819) (adhD) Probable zinc-type alcohol dehy...  55.8    1e-08
+VFG030304(gb|WP_011560572) (adhD) NDMA-dependent alcohol dehydrog...  54.7    3e-08
+VFG030314(gb|YP_007962958) (adhD) Putative zinc-type alcohol dehy...  48.1    4e-06
+
+
+>VFG030295(gb|WP_011742363) (adhD) Zn-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium ulcerans Agy99]
+Length=385
+
+ Score = 90.1 bits (222),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 100/373 (27%), Positives = 152/373 (41%), Gaps = 44/373 (12%)
+
+Query  16   PLTAHRFERRAPRADDLVIDILYCGVCHSDLHQARNEWH-----------NSLYPLVPGH  64
+            P T   FE   PRA ++++ +   G+CHSD H  R                ++ P + GH
+Sbjct  14   PWTVEEFELDPPRAGEVLLQLSATGLCHSDEHIRRGNLAPPPETLRSFGLPTMSPTIGGH  73
+
+Query  65   EIIGRVASVGEAVSGFAVGELVGVGCMVDSCRHCAACSEGLEQYCAE-----YPTLTYNG  119
+            E  G V  VGE V+ FA G+ V V   +  C  C  C+ G+E  C        P +  +G
+Sbjct  74   EGSGVVLEVGEGVTRFAPGDHV-VTSFIAVCGQCRWCATGMEYLCDTGYGTLAPGMPTDG  132
+
+Query  120  RDRHDGL--------PTFGGYSERIVVSARFVLRIPQGLDPKAAAPLLCAGITSY-SPLR  170
+              RH  L           G ++E  VVSA  +++I Q      AA L CA  T Y S  R
+Sbjct  133  TFRHHSLDGRDLGHVSKIGPFAEHTVVSADSLVKIDQTFPLVPAALLACAIPTRYGSAAR  192
+
+Query  171  HWKVGPGSRVAVVGLGGLGHMGLKFARALGAEVALFTRSPGKEE--EARRLGADQVILST  228
+              +V  G    V+G GG+G   ++ AR  GA   +    P + E   A   GA     +T
+Sbjct  193  RAQVRGGDIAVVIGAGGIGTAAIQGARIQGA-TRIIAVDPVEFERKSALTFGATHTAATT  251
+
+Query  229  DP------QRMAAVAGRFDLILDTVPHQHDLNPYLATLKRDGTLVLVGLLEPL--EPAVH  280
+            D       +    V     ++        D+   L+  ++ GT VL GL +P     AV 
+Sbjct  252  DEAVETVRELTRGVMADVVVVSPATIGPADVAAALSLTRKGGTCVLTGLPDPAMHSIAVG  311
+
+Query  281  GAQLVMGRRSIAGSAIGGIAETQEMLDFCAAHGI------ACDIEMIEIQQINQAYERML  334
+                V+  +++ G+  G      ++      +        A   +   +  IN AY  ++
+Sbjct  312  LQDFVLMNKTLCGTVFGSCNPKSDIPLLATMYQSGQLLLDAMITKRYSLHSINDAYADLV  371
+
+Query  335  ASDVKYRFVIDMA  347
+            A ++  R VID +
+Sbjct  372  AGEL-IRGVIDFS  383
+
+
+>VFG030302(gb|WP_041318085) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. JDM601]
+Length=369
+
+ Score = 81.6 bits (200),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 92/360 (26%), Positives = 154/360 (43%), Gaps = 47/360 (13%)
+
+Query  10   AQSASTPLTAHRFERRAPRADDLVIDILYCGVCHSDLHQARNEWHNSLYPLVPGHEIIGR  69
+            A + + P      +   P   +++I     G+CHSDLH A  +W  + +P+V GHE  G 
+Sbjct  8    AHAPNQPFEIMELDLDGPGPGEVLIKFTAAGLCHSDLHLADGDW-PARFPIVGGHEGSGI  66
+
+Query  70   VASVGEAVSGFAVGELVGVGCMVDSCRHCAACSEGLEQYCAEYPTLT-----------YN  118
+            +  VG  V+  A G+ V V C + SC  C  CS G +  C    T+            ++
+Sbjct  67   IEDVGPGVTKVAPGDHV-VCCFIPSCGTCRYCSTGRQNLCDMGATILEGCMPDGTFRFHS  125
+
+Query  119  GRDRHDGLPTFGGYSERIVVSARFVLRIPQGLDPKAAAPLLCAGITSYSPLRH-------  171
+            G   + G    G ++ER  VS   V+++   L  + A  + C   T ++   +       
+Sbjct  126  GGTDYGGFCMLGTFAERATVSQHSVVKVDDWLPLQTAVLVGCGVPTGWASANYDGGVRAG  185
+
+Query  172  --WKVGPGSRVAVVGLGGLGHMGLKFARALGAEVALFTRSPGKEEEARRLGADQVILSTD  229
+                V     V +  + G  H G K+  A+  +   F R     E A +LGA     +T 
+Sbjct  186  DTVVVYGVGGVGINAVQGAAHAGAKYVVAV--DPVEFKR-----ETALKLGATHA-FATA  237
+
+Query  230  PQRMAAVA----GRF-DLILDTVPHQHD--LNPYLATLKRDGTLVLVGL--LEPLEPAVH  280
+             + M  VA    G+  D  L TV    +        T+ + GT+V+  L  LE L+  + 
+Sbjct  238  EEAMVTVAELTWGQMADQALITVGDLDEAVTTAAFNTIGKGGTVVIAALAKLESLDVHIS  297
+
+Query  281  GAQLVMGRRSIAGSAIGGIA---ETQEMLDFCAAHGIACDIEMI----EIQQINQAYERM  333
+            G+QL +  ++I G+  GG     +   +L    A  +  D E++     ++Q+N+ Y+ +
+Sbjct  298  GSQLALFGKTIKGTLFGGANPQYDIVRLLRLYDAGKLKLD-ELVTRRYTLEQVNEGYQDL  356
+
+
+>VFG030301(gb|WP_012392129) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium marinum M]
+Length=369
+
+ Score = 75.9 bits (185),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 90/349 (26%), Positives = 140/349 (40%), Gaps = 31/349 (9%)
+
+Query  13   ASTPLTAHRFERRAPRADDLVIDILYCGVCHSDLHQARNEWHNSLYPLVPGHEIIGRVAS  72
+            A  P      E   PR  +++I     G+CHSDLH    +     YP+V GHE  G +  
+Sbjct  11   AGKPFEIMELELDGPRVGEVLIKYTAAGLCHSDLHLTDGDLPPR-YPIVGGHEGSGVIEE  69
+
+Query  73   VGEAVSGFAVGELVGVGCMVDSCRHCAACSEGLEQYCAEYPTL----TYNGRDR------  122
+            VG  VS    G+ V V   + +C  C  CS G +  C    T+      +G  R      
+Sbjct  70   VGPGVSKVKPGDHV-VCSFIPNCGTCRYCSTGRQNLCDMGATILEGCMSDGSFRFHRKGV  128
+
+Query  123  -HDGLPTFGGYSERIVVSARFVLRIPQGLDPKAAAPLLCAGITSY-SPLRHWKVGPGSRV  180
+                +   G +SER  +S   V++I   L    A  + C   T + + +    V PG   
+Sbjct  129  DFGAMCMLGTFSERATISQHSVVKIDDWLPLTTAVLVGCGVPTGWGTSVYAGGVRPGDTT  188
+
+Query  181  AVVGLGGLGHMGLKFARALGAE-VALFTRSPGKEEEARRLGA-----DQVILSTDPQRMA  234
+             + G GGLG   ++ A + GA+ V +      K + A + GA     D    +     + 
+Sbjct  189  VIYGAGGLGINAVQGAVSAGAKHVVVVDPVAFKRDTALKFGATHAFPDAASAAAKVNEIT  248
+
+Query  235  AVAGRFD-LILDTVPHQHDLNPYLATLKRDGTLVLVGLLEP--LEPAVHGAQLVMGRRSI  291
+               G    LIL        ++   A + + GT+V+ GL  P  L   + G  L +  ++I
+Sbjct  249  WGQGADQALILVGTVDTEVVSAAAAVIGKGGTVVITGLANPEKLTVQLSGLDLTLNEKTI  308
+
+Query  292  AGSAIGGIA---ETQEMLDFCAAHGIACDIEMIEIQ----QINQAYERM  333
+             G+  G      +   +L    A  +  D E+I  Q     +NQ Y+ +
+Sbjct  309  KGTLFGSANPQYDIVRLLRLYDAGQLKLD-ELITTQYRLEDVNQGYQDL  356
+
+
+>VFG030290(gb|WP_003894835) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=372
+
+ Score = 75.1 bits (183),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 88/372 (24%), Positives = 153/372 (41%), Gaps = 36/372 (10%)
+
+Query  3    LQIRGYAAQSASTPLTAHRFERRAPRADDLVIDILYCGVCHSDLHQARNEWHNSLYPLVP  62
+            ++ +   +   + P      E   P+  ++++  +  G+CHSDLH    +     YP+V 
+Sbjct  1    MKTKAAVSLGVNRPFEIMELELDGPKEGEVLLKNVAAGLCHSDLHLTDGDMPPR-YPIVG  59
+
+Query  63   GHEIIGRVASVGEAVSGFAVGELVGVGCMVDSCRHCAACSEGLEQYC--------AEYPT  114
+            GHE    V  VG  V+    G+ V V   + +C  C  C+ G    C          +P 
+Sbjct  60   GHEGSAIVEDVGPGVTKVKPGDHV-VCSYIPNCGTCRYCATGRSNLCDMGATILDGRFPD  118
+
+Query  115  LTYNGRDRHDG-----LPTFGGYSERIVVSARFVLRIPQGLDPKAAAPLLCAGITS--YS  167
+             T+  R   DG     L   G ++ER  VS   V+++ + + P   A L+  G+ +    
+Sbjct  119  GTF--RFHKDGVDYGSLCLLGSFAERTTVSQHSVVKVDEWI-PLETAVLVGCGVPAGWGG  175
+
+Query  168  PLRHWKVGPGSRVAVVGLGGLGHMGLKFARALGAE-VALFTRSPGKEEEARRLGADQVIL  226
+            P+ +  + PG    + G+GGLG   ++ A   GA  V        K + A + GA     
+Sbjct  176  PVYNNGIRPGDTAVIYGIGGLGINAIQGAVMAGARYVVAVDPVEFKRDMALKFGATHAFA  235
+
+Query  227  STDPQRMAA---VAGRF---DLILDTVPHQHDLNPYLATLKRDGTLVLVGLLEPLEPAVH  280
+            + +    A      G+     LI    P +  ++     + + GT+ L  L +P +  VH
+Sbjct  236  TAEEAHEAVREITWGQMADGALIFVGTPDEKVVSDAFNVIGKGGTVSLASLADPAKLTVH  295
+
+Query  281  --GAQLVMGRRSIAGSAIGGIAETQEMLDFCAAH--GIACDIEMI----EIQQINQAYER  332
+              G ++ +  ++I G   G      +++     +  G     E+I     ++ INQ Y+ 
+Sbjct  296  VSGMEMTLMEKTIKGCLFGSSNPQYDIVRLLRLYDEGKLKLDELITTRYRLEDINQGYDD  355
+
+Query  333  MLASDVKYRFVI  344
+            + A  V  R VI
+Sbjct  356  LRAG-VNIRGVI  366
+
+
+>VFG015871(gb|WP_011105123) (cfa8) crotonyl-CoA carboxylase/reductase 
+[Phytotoxin coronatine (VF0916) - Exotoxin (VFC0235)] 
+[Pseudomonas syringae pv. tomato str. DC3000]
+Length=401
+
+ Score = 70.9 bits (172),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 81/327 (25%), Positives = 129/327 (39%), Gaps = 41/327 (13%)
+
+Query  45   DLHQARNEWHNSLYPL-VPGHEIIGRVASVGEAVSGFAVGELVGVGCMVDSCRHCAACSE  103
+            D+  AR + +    P  + G E  G V +VG+AV+   VG+ V V C V         + 
+Sbjct  64   DIIAARRKRNRDAEPFHIGGSEASGYVKAVGDAVTHVKVGDTVVVSCSVYD-------AT  116
+
+Query  104  GLEQYCAEYPTLTYNGRDRHDGLPTFGGYSERIVVSARFVLRIPQGLDPKAAAPLLCAGI  163
+             +E   A  P    N ++ +    ++G ++E  +V        P+ L  + +A L+  G 
+Sbjct  117  AIESRVAPDPMFCSN-QEIYGYETSYGSFAEYTLVEDYQCFPKPKFLSWEESATLMLNGP  175
+
+Query  164  TSYSPLRHW---KVGPGSRVAVVGL-GGLGHMGLKFARALGAEVALFTRSPGKEEEARRL  219
+            T+Y  L HW    V PG  V + G  GGLG M ++  RALG        SP +   A  L
+Sbjct  176  TAYKQLTHWAPNTVKPGDAVLIWGAAGGLGSMSIQLTRALGGLPVAVVSSPDRGRYACEL  235
+
+Query  220  GADQVILSTDPQRMAAVA-------------------------GRFDLILDTVPH--QHD  252
+            GA   +L TD   +  +                          G+ +L    + H  Q  
+Sbjct  236  GAVGYLLRTDYPHLGRLPDLNSDAHSAWTKSFASFRRDFFMTLGKKELPKVVIEHSGQAT  295
+
+Query  253  LNPYLATLKRDGTLVLVGLLEPLEPAVHGAQLVMGRRSIAGSAIGGIAETQEMLDFCAAH  312
+                L    R G +V+VG             L M ++ I GS    I E QE L      
+Sbjct  296  FPTSLQICDRSGMVVIVGGTSGYNCDFDVRHLWMHQKRIQGSHYANIRECQEFLQLVEQR  355
+
+Query  313  GIACDIEMI-EIQQINQAYERMLASDV  338
+             +   +  +   ++  +A++ +L+ +V
+Sbjct  356  RVVPTLNTLYRFEETPRAHQALLSGEV  382
+
+
+>VFG030286(gb|NP_217602) (adhD) alcohol dehydrogenase D [MymA 
+operon (VF0840) - Immune modulation (VFC0258)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=368
+
+ Score = 69.3 bits (168),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 84/350 (24%), Positives = 141/350 (40%), Gaps = 33/350 (9%)
+
+Query  13   ASTPLTAHRFERRAPRADDLVIDILYCGVCHSDLHQARNEWHNSLYPLVPGHEIIGRVAS  72
+            A  P      +   P   ++++     G+CHSDLH    +     +P+V GHE  G +  
+Sbjct  11   AGKPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLPPR-FPIVGGHEGSGVIEE  69
+
+Query  73   VGEAVSGFAVGELVGVGCMVDSCRHCAACSEGLEQYCAEYPTLTY----NGRDRHDGLPT  128
+            VG  V+    G+ V V   + +C  C  C  G +  C    T+      +G  R     T
+Sbjct  70   VGAGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGT  128
+
+Query  129  -------FGGYSERIVVSARFVLRIPQGLDPKAAAPLLCAGITS--YSPLRHWKVGPGSR  179
+                    G ++ER  VS   V+++   L P   A L+  G+ S   + +    +  G  
+Sbjct  129  DFGAMCMLGTFAERATVSQHSVVKVDDWL-PLETAVLVGCGVPSGWGTAVNAGNLRAGDT  187
+
+Query  180  VAVVGLGGLGHMGLKFARALGAE-VALFTRSPGKEEEARRLGADQ-------VILSTDPQ  231
+              + G+GGLG   ++ A A G + V +      K E A + GA              D  
+Sbjct  188  AVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAKVDEL  247
+
+Query  232  RMAAVAGRFDLILDTVPHQHDLNPYLATLKRDGTLVLVGLLEPLEPAVH--GAQLVMGRR  289
+                 A    +++ TV  +  ++   A + + GT+V+ GL +P +  VH  G  L +  +
+Sbjct  248  TWGQGADAALILVGTVDDEV-VSAATAVIGKGGTVVITGLADPAKLTVHVSGTDLTLHEK  306
+
+Query  290  SIAGSAIGGIA---ETQEMLDFCAAHGIACD---IEMIEIQQINQAYERM  333
+            +I GS  G      +   +L    A  +  D        ++Q+NQ Y+ +
+Sbjct  307  TIKGSLFGSCNPQYDIVRLLRLYDAGQLMLDELVTTTYNLEQVNQGYQDL  356
+
+
+>VFG030300(gb|WP_014001575) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140010059]
+Length=368
+
+ Score = 68.9 bits (167),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 84/350 (24%), Positives = 141/350 (40%), Gaps = 33/350 (9%)
+
+Query  13   ASTPLTAHRFERRAPRADDLVIDILYCGVCHSDLHQARNEWHNSLYPLVPGHEIIGRVAS  72
+            A  P      +   P   ++++     G+CHSDLH    +     +P+V GHE  G +  
+Sbjct  11   AGKPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLPPR-FPIVGGHEGSGVIEE  69
+
+Query  73   VGEAVSGFAVGELVGVGCMVDSCRHCAACSEGLEQYCAEYPTLTY----NGRDRHDGLPT  128
+            VG  V+    G+ V V   + +C  C  C  G +  C    T+      +G  R     T
+Sbjct  70   VGAGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGT  128
+
+Query  129  -------FGGYSERIVVSARFVLRIPQGLDPKAAAPLLCAGITS--YSPLRHWKVGPGSR  179
+                    G ++ER  VS   V+++   L P   A L+  G+ S   + +    +  G  
+Sbjct  129  DFGAMCMLGTFAERATVSQHSVVKVDDWL-PLETAVLVGCGVPSGWGTAVNAGNLRAGDT  187
+
+Query  180  VAVVGLGGLGHMGLKFARALGAE-VALFTRSPGKEEEARRLGADQ-------VILSTDPQ  231
+              + G+GGLG   ++ A A G + V +      K E A + GA              D  
+Sbjct  188  AVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAKVDEL  247
+
+Query  232  RMAAVAGRFDLILDTVPHQHDLNPYLATLKRDGTLVLVGLLEPLEPAVH--GAQLVMGRR  289
+                 A    +++ TV  +  ++   A + + GT+V+ GL +P +  VH  G  L +  +
+Sbjct  248  TWGQGADAALILVGTVDDEV-VSAATAVIGKGGTVVITGLADPAKLTVHVSGTDLTLHEK  306
+
+Query  290  SIAGSAIGGIA---ETQEMLDFCAAHGIACD---IEMIEIQQINQAYERM  333
+            +I GS  G      +   +L    A  +  D        ++Q+NQ Y+ +
+Sbjct  307  TIKGSLFGSCNPQYDIVRLLRLYDAGQLMLDELVTTTYTLEQVNQGYQDL  356
+
+
+>VFG030308(gb|WP_015291173) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=368
+
+ Score = 68.2 bits (165),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 84/350 (24%), Positives = 141/350 (40%), Gaps = 33/350 (9%)
+
+Query  13   ASTPLTAHRFERRAPRADDLVIDILYCGVCHSDLHQARNEWHNSLYPLVPGHEIIGRVAS  72
+            A  P      +   P   ++++     G+CHSDLH    +     +P+V GHE  G +  
+Sbjct  11   AGKPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLPPR-FPIVGGHEGSGVIEE  69
+
+Query  73   VGEAVSGFAVGELVGVGCMVDSCRHCAACSEGLEQYCAEYPTLTY----NGRDRHDGLPT  128
+            VG  V+    G+ V V   + +C  C  C  G +  C    T+      +G  R     T
+Sbjct  70   VGAGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGT  128
+
+Query  129  -------FGGYSERIVVSARFVLRIPQGLDPKAAAPLLCAGITS--YSPLRHWKVGPGSR  179
+                    G ++ER  VS   V+++   L P   A L+  G+ S   + +    +  G  
+Sbjct  129  DFGAMCMLGTFAERATVSHHSVVKVDDWL-PLETAVLVGCGVPSGWGTAVNAGNLRAGDT  187
+
+Query  180  VAVVGLGGLGHMGLKFARALGAE-VALFTRSPGKEEEARRLGADQ-------VILSTDPQ  231
+              + G+GGLG   ++ A A G + V +      K E A + GA              D  
+Sbjct  188  AVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAKVDEL  247
+
+Query  232  RMAAVAGRFDLILDTVPHQHDLNPYLATLKRDGTLVLVGLLEPLEPAVH--GAQLVMGRR  289
+                 A    +++ TV  +  ++   A + + GT+V+ GL +P +  VH  G  L +  +
+Sbjct  248  TWGQGADAALILVGTVDDEV-VSAATAVIGKGGTVVITGLADPAKLTVHVSGTDLTLHEK  306
+
+Query  290  SIAGSAIGGIA---ETQEMLDFCAAHGIACD---IEMIEIQQINQAYERM  333
+            +I GS  G      +   +L    A  +  D        ++Q+NQ Y+ +
+Sbjct  307  TIKGSLFGSCNPQYDIVRLLRLYDAGQLMLDELVTTTYTLEQVNQGYQDL  356
+
+
+>VFG030323(gb|WP_015345151) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis 7199-99]
+Length=368
+
+ Score = 68.2 bits (165),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 83/347 (24%), Positives = 140/347 (40%), Gaps = 33/347 (10%)
+
+Query  16   PLTAHRFERRAPRADDLVIDILYCGVCHSDLHQARNEWHNSLYPLVPGHEIIGRVASVGE  75
+            P      +   P   ++++     G+CHSDLH    +     +P+V GHE  G +  VG 
+Sbjct  14   PFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLPPR-FPIVGGHEGSGVIEEVGA  72
+
+Query  76   AVSGFAVGELVGVGCMVDSCRHCAACSEGLEQYCAEYPTLTY----NGRDRHDGLPT---  128
+             V+    G+ V V   + +C  C  C  G +  C    T+      +G  R     T   
+Sbjct  73   GVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGTDFG  131
+
+Query  129  ----FGGYSERIVVSARFVLRIPQGLDPKAAAPLLCAGITS--YSPLRHWKVGPGSRVAV  182
+                 G ++ER  VS   V+++   L P   A L+  G+ S   + +    +  G    +
+Sbjct  132  AMCMLGTFAERATVSQHSVVKVDDWL-PLETAVLVGCGVPSGWGTAVNAGNLRAGDTAVI  190
+
+Query  183  VGLGGLGHMGLKFARALGAE-VALFTRSPGKEEEARRLGADQ-------VILSTDPQRMA  234
+             G+GGLG   ++ A A G + V +      K E A + GA              D     
+Sbjct  191  YGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAKVDELTWG  250
+
+Query  235  AVAGRFDLILDTVPHQHDLNPYLATLKRDGTLVLVGLLEPLEPAVH--GAQLVMGRRSIA  292
+              A    +++ TV  +  ++   A + + GT+V+ GL +P +  VH  G  L +  ++I 
+Sbjct  251  QGADAALILVGTVDDEV-VSAATAVIGKGGTVVITGLADPAKLTVHVSGTDLTLHEKTIK  309
+
+Query  293  GSAIGGIA---ETQEMLDFCAAHGIACD---IEMIEIQQINQAYERM  333
+            GS  G      +   +L    A  +  D        ++Q+NQ Y+ +
+Sbjct  310  GSLFGSCNPQYDIVRLLRLYDAGQLMLDELVTTTYNLEQVNQGYQDL  356
+
+
+>VFG030307(gb|WP_015303738) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070008]
+Length=368
+
+ Score = 66.2 bits (160),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 83/350 (24%), Positives = 140/350 (40%), Gaps = 33/350 (9%)
+
+Query  13   ASTPLTAHRFERRAPRADDLVIDILYCGVCHSDLHQARNEWHNSLYPLVPGHEIIGRVAS  72
+            A  P      +   P   ++++     G+CHSDLH    +     +P+V GHE  G +  
+Sbjct  11   AGKPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLPPR-FPIVGGHEGSGVIEE  69
+
+Query  73   VGEAVSGFAVGELVGVGCMVDSCRHCAACSEGLEQYCAEYPTLTY----NGRDRHDGLPT  128
+            VG  V+    G+ V V   + +C  C  C  G +  C    T+      +G  R     T
+Sbjct  70   VGAGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGT  128
+
+Query  129  -------FGGYSERIVVSARFVLRIPQGLDPKAAAPLLCAGITS--YSPLRHWKVGPGSR  179
+                    G ++ER  VS   V+++   L P   A L+  G+ S   + +    +  G  
+Sbjct  129  DFGAMCMLGTFAERATVSQHSVVKVDDWL-PLETAVLVGCGVPSGWGTAVNAGNLRAGDT  187
+
+Query  180  VAVVGLGGLGHMGLKFARALGAE-VALFTRSPGKEEEARRLGADQ-------VILSTDPQ  231
+              + G+GGLG   ++ A A G + V +      K E A + GA              D  
+Sbjct  188  AVIYGVGGLGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAKVDEL  247
+
+Query  232  RMAAVAGRFDLILDTVPHQHDLNPYLATLKRDGTLVLVGLLEP--LEPAVHGAQLVMGRR  289
+                 A    +++ TV  +  ++   A + + GT+V+ GL +P  L   + G  L +  +
+Sbjct  248  TWGQGADAALILVGTVDDEV-VSAATAVIGKGGTVVITGLADPAKLTVRISGTDLTLHEK  306
+
+Query  290  SIAGSAIGGIA---ETQEMLDFCAAHGIACD---IEMIEIQQINQAYERM  333
+            +I GS  G      +   +L    A  +  D        ++Q+NQ Y+ +
+Sbjct  307  TIKGSLFGSCNPQYDIVRLLRLYDAGQLMLDELVTTTYTLEQVNQGYQDL  356
+
+
+>VFG030318(gb|YP_007959090) (adhD) zinc-type alcohol dehydrogenase 
+AdhD [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=351
+
+ Score = 64.3 bits (155),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 82/342 (24%), Positives = 138/342 (40%), Gaps = 33/342 (10%)
+
+Query  21   RFERRAPRADDLVIDILYCGVCHSDLHQARNEWHNSLYPLVPGHEIIGRVASVGEAVSGF  80
+              +   P   ++++     G+CHSDLH    +     +P+V GHE  G +  VG  V+  
+Sbjct  2    ELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDLPPR-FPIVGGHEGSGVIEEVGAGVTRV  60
+
+Query  81   AVGELVGVGCMVDSCRHCAACSEGLEQYCAEYPTLTY----NGRDRHDGLPT-------F  129
+              G+ V V   + +C  C  C  G +  C    T+      +G  R     T        
+Sbjct  61   KPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGTDFGAMCML  119
+
+Query  130  GGYSERIVVSARFVLRIPQGLDPKAAAPLLCAGITS--YSPLRHWKVGPGSRVAVVGLGG  187
+            G ++ER  VS   V+++   L P   A L+  G+ S   + +    +  G    + G+GG
+Sbjct  120  GTFAERAXVSQHSVVKVDDWL-PLETAVLVGCGVPSGWGTAVNAGNLRAGDTAVIYGVGG  178
+
+Query  188  LGHMGLKFARALGAE-VALFTRSPGKEEEARRLGADQ-------VILSTDPQRMAAVAGR  239
+            LG   ++ A A G + V +      K E A + GA              D       A  
+Sbjct  179  LGINAVQGATAAGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAKVDELTWGQGADA  238
+
+Query  240  FDLILDTVPHQHDLNPYLATLKRDGTLVLVGLLEPLEPAVH--GAQLVMGRRSIAGSAIG  297
+              +++ TV  +  ++   A +   GT+V+ GL +P +  VH  G  L +  ++I GS  G
+Sbjct  239  ALILVGTVDDEV-VSAATAVIGXGGTVVITGLADPAKLTVHVSGTDLTLHEKTIKGSLFG  297
+
+Query  298  GIA---ETQEMLDFCAAHGIACD---IEMIEIQQINQAYERM  333
+                  +   +L    A  +  D        ++Q+NQ Y+ +
+Sbjct  298  SCNPQYDIVRLLRLYDAGQLMLDELVTTTYNLEQVNQGYQDL  339
+
+
+>VFG030305(gb|WP_016343680) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium abscessus subsp. bolletii 50594]
+Length=368
+
+ Score = 57.0 bits (136),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 81/366 (22%), Positives = 144/366 (39%), Gaps = 65/366 (18%)
+
+Query  13   ASTPLTAHRFERRAPRADDLVIDILYCGVCHSDLHQARNEWHNSLYPLVPGHEIIGRVAS  72
+            A  P      +   P   +++++    G+CHSDLH    +     YP++ GHE  G +  
+Sbjct  11   AGKPFELIELDLDGPAEGEVLVNYTVAGLCHSDLHLTDGDLPPR-YPIIGGHEGAGVIED  69
+
+Query  73   VGEAVSGFAVGELVGVGCMVDSCRHCAACSEGLEQYCAEYPTLTY----NGRDRHDG---  125
+            VG  V+    G+ V V   + SC +C  CS G +  C    T+      +G  R      
+Sbjct  70   VGPGVTKVKPGDHV-VCSFIPSCGYCRYCSTGRQSLCDMGATILEGCMPDGTFRFHSAGI  128
+
+Query  126  ----LPTFGGYSERIVVSARFVLRIPQGLDPKAAAPLLCAGITSY-SPLRHWKVGPGSRV  180
+                +   G ++++  VS   V++I   +  + A  + C   T + S      V PG   
+Sbjct  129  DFGQMCMLGTFAQKATVSQHSVVKIDDWIPLETAVLVGCGVPTGWGSSTYAGDVRPGDIT  188
+
+Query  181  AVVGLGGLGHMG-----------------LKFARALGAEVALFTRSPGKEEEARRL----  219
+             V G+GG+G                    + F R + ++          EE A +L    
+Sbjct  189  IVYGIGGIGINAVQGAAQAGAKYIVAVDPVPFKRDMASKFGATHAFTTAEEAAEKLNELS  248
+
+Query  220  ---GADQVILSTDPQRMAAVAGRFDLILDTVPHQHDLNPYLATLKRDGTLVLVGLLEPLE  276
+               GADQ I++        V   F+ +                  + GT+V+ GL +P +
+Sbjct  249  WGQGADQAIITVGVVDEEVVTAAFNAV-----------------GKGGTVVVTGLADPAK  291
+
+Query  277  PAVH--GAQLVMGRRSIAGSAIGGIAETQEMLDFCAAHGIACDIEMIE-------IQQIN  327
+              VH  G ++V+  ++I G+  G      +++     +  A  +++ E       +++IN
+Sbjct  292  LTVHVSGMEMVLFGKTIKGTLFGSANPQYDIVRLLRLYD-AGQLQLDELVTTKYHLEEIN  350
+
+Query  328  QAYERM  333
+            Q Y+ +
+Sbjct  351  QGYQDL  356
+
+
+>VFG030293(gb|WP_011562028) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. MCS]
+Length=368
+
+ Score = 56.6 bits (135),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 45/152 (30%), Positives = 70/152 (46%), Gaps = 13/152 (9%)
+
+Query  26   APRADDLVIDILYCGVCHSDLHQARNEWHNSLYPLVPGHEIIGRVASVGEAVSGFAVGEL  85
+            AP+A ++++ +   G+CHSD H    +   +L P+V GHE  G VA VG  V+   VG+ 
+Sbjct  24   APKAQEVLVKLTASGLCHSDDHLVTGDMPMNL-PVVGGHEGAGVVAEVGPGVTEVEVGDH  82
+
+Query  86   VGVGCMVDSCRHCAACSEGLEQYCAEYPTLT----YNGRDR-HDG------LPTFGGYSE  134
+            V V   + +C  C  C+ G    C     +      +G  R H G      +   G +SE
+Sbjct  83   V-VLSFIPACGRCTECARGRSNLCVYGAAIVAGPQLDGTYRFHSGGQDVGQMCVLGTFSE  141
+
+Query  135  RIVVSARFVLRIPQGLDPKAAAPLLCAGITSY  166
+              VV    V+++ + +    AA + C   T Y
+Sbjct  142  YTVVPIASVVKVDKDIPLDKAALVGCGVTTGY  173
+
+
+>VFG030291(gb|WP_011857132) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. JLS]
+Length=368
+
+ Score = 56.6 bits (135),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 45/152 (30%), Positives = 70/152 (46%), Gaps = 13/152 (9%)
+
+Query  26   APRADDLVIDILYCGVCHSDLHQARNEWHNSLYPLVPGHEIIGRVASVGEAVSGFAVGEL  85
+            AP+A ++++ +   G+CHSD H    +   +L P+V GHE  G VA VG  V+   VG+ 
+Sbjct  24   APKAQEVLVKLTASGLCHSDDHLVTGDMPMNL-PVVGGHEGAGVVAEVGPGVTEVEVGDH  82
+
+Query  86   VGVGCMVDSCRHCAACSEGLEQYCAEYPTLT----YNGRDR-HDG------LPTFGGYSE  134
+            V V   + +C  C  C+ G    C     +      +G  R H G      +   G +SE
+Sbjct  83   V-VLSFIPACGRCTECARGRSNLCVYGAAIVAGPQLDGTYRFHSGGQDVGQMCVLGTFSE  141
+
+Query  135  RIVVSARFVLRIPQGLDPKAAAPLLCAGITSY  166
+              VV    V+++ + +    AA + C   T Y
+Sbjct  142  YTVVPIASVVKVDKDIPLDKAALVGCGVTTGY  173
+
+
+>VFG030297(gb|YP_001702819) (adhD) Probable zinc-type alcohol 
+dehydrogenase AdhD [MymA operon (VF0840) - Immune modulation 
+(VFC0258)] [Mycobacterium abscessus ATCC 19977]
+Length=368
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 93/336 (28%), Positives = 146/336 (43%), Gaps = 33/336 (10%)
+
+Query  27   PRADDLVIDILYCGVCHSDLHQARNEWHNSLYPLVPGHEIIGRVASVGEAVSGFAVGELV  86
+            P   ++++ +   G+CHSD H    +    L P+V GHE  G V   GE V   + G+ V
+Sbjct  25   PGPGEVLVRLAATGLCHSDEHLVTGDLPIPL-PVVGGHEGAGTVVECGEGVEDLSEGDSV  83
+
+Query  87   GVGCMVDSCRHCAACSEGLEQYCAEYPTL--------TYNGRDRHDGLPT---FGGYSER  135
+             +   + SC  C+ C+ G+   C     L        TY    R + +      G +SE 
+Sbjct  84   -ILTFLPSCGRCSYCARGMGNLCELGAALMMGPQIDGTYRFHARGEDVGQMCLLGTFSEY  142
+
+Query  136  IVVSARFVLRIPQGLDPKAAAPLLCAGITSY-SPLRHWKVGPGSRVAVVGLGGLGHMGLK  194
+             VV    V++I  G+    AA + C   T Y S +R  +V  G  V VVG GG+G   ++
+Sbjct  143  TVVPQASVVKIDGGIPLDRAALIGCGVTTGYGSAVRTGEVRAGDTVVVVGAGGIGMNAIQ  202
+
+Query  195  FARALGAEVALFTRSP--GKEEEARRLGADQVILSTDPQ-RMAAVAGRFDL----ILDT-  246
+             AR  GA +A+    P   K E+A   GA     S D    + +   R  L    IL T 
+Sbjct  203  GARIAGA-LAIVAVDPVNFKREQASGFGATHTAASMDEAWSLVSDMTRGKLADVCILTTD  261
+
+Query  247  VPHQHDLNPYLATLKRDGTLVLVGLLEPLEPAVHGAQLVMG--RRSIAGSAIGGIAETQE  304
+            V         LA + + G +V+  +  P E ++ G+ L M    + I G+  G      +
+Sbjct  262  VAEGSYTAEALALVGKRGRVVVTAIGHPDESSISGSLLEMTLYEKQIRGALYGSSNAPHD  321
+
+Query  305  ---MLDFCAAHGIACDIEMI----EIQQINQAYERM  333
+               +++  +A  +  D E++     + QIN+ Y+ M
+Sbjct  322  IPRLVELYSAGLLKLD-ELVTREYSLDQINEGYQDM  356
+
+
+>VFG030304(gb|WP_011560572) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium intracellulare MOTT-02]
+Length=368
+
+ Score = 54.7 bits (130),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 89/337 (26%), Positives = 144/337 (43%), Gaps = 35/337 (10%)
+
+Query  27   PRADDLVIDILYCGVCHSDLHQARNEWHNSLYPLVPGHEIIGRVASVGEAVSGFAVGELV  86
+            P   ++++ +   G+CHSD H    +    L P+V GHE  G V   GE V   + G+ V
+Sbjct  25   PGPGEVLVRLAATGLCHSDEHLVTGDLPIPL-PVVGGHEGAGTVVECGEGVEELSEGDSV  83
+
+Query  87   GVGCMVDSCRHCAACSEGLEQYCAEYPTL--------TYNGRDRHDGLPT---FGGYSER  135
+             +   + SC  C+ C+ G+   C     L        TY    R + +      G +SE 
+Sbjct  84   -ILTFLPSCGRCSYCARGMGNLCELGAALMMGPQIDGTYRFHARGEDVGQMCLLGTFSEY  142
+
+Query  136  IVVSARFVLRIPQGLDPKAAAPLLCAGITSY-SPLRHWKVGPGSRVAVVGLGGLGHMGLK  194
+             VV    V++I  G+    AA + C   T Y S +R  +V  G  V VVG GG+G   ++
+Sbjct  143  TVVPQASVVKIDGGIPLDRAALIGCGVTTGYGSAVRTGEVRAGDTVVVVGAGGIGMNAIQ  202
+
+Query  195  FARALGAEVALFTRSP--GKEEEARRLGADQVILSTDP-------QRMAAVAGRFDLILD  245
+             AR  GA +A+    P   K E+A   GA     S D          +  +A    L  D
+Sbjct  203  GARIAGA-LAIVAVDPVKFKREQASGFGATHTAASMDEAWSLVSDMTLGKLADVCILTTD  261
+
+Query  246  TVPHQHDLNPYLATLKRDGTLVLVGLLEPLEPAVHGAQLVMG--RRSIAGSAIGGIAETQ  303
+                 +     LA + + G +V+  +  P + ++ G+ L M    + I G+  G      
+Sbjct  262  VAEASYTAEA-LALVGKRGRVVVTAIGHPDDSSISGSLLEMTLYEKQIRGALYGSSNAPH  320
+
+Query  304  E---MLDFCAAHGIACDIEMI----EIQQINQAYERM  333
+            +   +++  +A  +  D E++     + QIN+ Y+ M
+Sbjct  321  DIPRLVELYSAGLLKLD-ELVTREYSLDQINEGYQDM  356
+
+
+>VFG030314(gb|YP_007962958) (adhD) Putative zinc-type alcohol 
+dehydrogenase AdhD (aldehyde reductase) [MymA operon (VF0840) 
+- Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+CAS/NITR204]
+Length=380
+
+ Score = 48.1 bits (113),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 49/190 (26%), Positives = 78/190 (41%), Gaps = 16/190 (8%)
+
+Query  13   ASTPLTAHRFERRAPRADDLVIDILYCGVCHSDLHQARNEWHNSLYPLVPGHEIIGRVAS  72
+            A  P      +   P   ++++     G+CHSDLH    +     +P+V GHE  G +  
+Sbjct  11   AGKPFELMELDLDGPGPGEVLVKYTAAGLCHSDLHLTDGDL-PPRFPIVGGHEGSGVIEE  69
+
+Query  73   VGEAVSGFAVGELVGVGCMVDSCRHCAACSEGLEQYCAEYPTLTY----NGRDRHDGLPT  128
+            VG  V+    G+ V V   + +C  C  C  G +  C    T+      +G  R     T
+Sbjct  70   VGAGVTRVKPGDHV-VCSFIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGT  128
+
+Query  129  -------FGGYSERIVVSARFVLRIPQGLDPKAAAPLLCAGITS--YSPLRHWKVGPGSR  179
+                    G ++ER  VS   V+++   L P   A L+  G+ S   + +    +  G  
+Sbjct  129  DFGAMCMLGTFAERATVSQHSVVKVDDWL-PLETAVLVGCGVPSGWGTAVNAGNLRAGDT  187
+
+Query  180  VAVVGLGGLG  189
+              + G+GGLG
+Sbjct  188  AVIYGVGGLG  197
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2638994652
+
+
+Query= g1462.t1
+
+Length=336
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG030295(gb|WP_011742363) (adhD) Zn-dependent alcohol dehydrogen...  125     5e-33
+VFG030301(gb|WP_012392129) (adhD) NDMA-dependent alcohol dehydrog...  118     2e-30
+VFG030290(gb|WP_003894835) (adhD) NDMA-dependent alcohol dehydrog...  111     1e-27
+VFG030305(gb|WP_016343680) (adhD) NDMA-dependent alcohol dehydrog...  108     8e-27
+VFG030307(gb|WP_015303738) (adhD) NDMA-dependent alcohol dehydrog...  106     6e-26
+VFG030300(gb|WP_014001575) (adhD) NDMA-dependent alcohol dehydrog...  105     9e-26
+VFG030318(gb|YP_007959090) (adhD) zinc-type alcohol dehydrogenase...  105     1e-25
+VFG030308(gb|WP_015291173) (adhD) NDMA-dependent alcohol dehydrog...  105     1e-25
+VFG030323(gb|WP_015345151) (adhD) NDMA-dependent alcohol dehydrog...  105     1e-25
+VFG030286(gb|NP_217602) (adhD) alcohol dehydrogenase D [MymA oper...  105     1e-25
+VFG030302(gb|WP_041318085) (adhD) NDMA-dependent alcohol dehydrog...  99.0    3e-23
+VFG030291(gb|WP_011857132) (adhD) NDMA-dependent alcohol dehydrog...  91.3    1e-20
+VFG030314(gb|YP_007962958) (adhD) Putative zinc-type alcohol dehy...  90.5    2e-20
+VFG030293(gb|WP_011562028) (adhD) NDMA-dependent alcohol dehydrog...  90.5    3e-20
+VFG030297(gb|YP_001702819) (adhD) Probable zinc-type alcohol dehy...  87.4    3e-19
+VFG030304(gb|WP_011560572) (adhD) NDMA-dependent alcohol dehydrog...  86.3    7e-19
+VFG029833(gb|WP_014379696) (pks) type I polyketide synthase [GPL ...  63.5    8e-11
+VFG029831(gb|WP_014711138) (pks) type I polyketide synthase [GPL ...  63.5    8e-11
+VFG014142(gb|WP_016254248) (PA14_RS09485) bi-domain-containing ox...  58.9    2e-09
+VFG029832(gb|WP_014382190) (pks) type I polyketide synthase [GPL ...  58.9    2e-09
+VFG029828(gb|YP_001701685) (pks) Probable polyketide synthase [GP...  55.8    2e-08
+VFG029823(gb|WP_011726922) (pks) type I polyketide synthase [GPL ...  54.3    7e-08
+VFG029835(gb|WP_016341938) (pks) type I polyketide synthase [GPL ...  53.9    8e-08
+VFG029827(gb|WP_011777591) (pks) type I polyketide synthase [GPL ...  51.6    4e-07
+VFG007855(gb|WP_162292826) (ppsC) type I polyketide synthase [PDI...  48.5    4e-06
+VFG008878(gb|WP_162143265) (ppsC) type I polyketide synthase [PDI...  48.5    4e-06
+VFG022413(gb|WP_181013047) (ppsC) type I polyketide synthase [PDI...  48.5    5e-06
+
+
+>VFG030295(gb|WP_011742363) (adhD) Zn-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium ulcerans Agy99]
+Length=385
+
+ Score = 125 bits (315),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 116/374 (31%), Positives = 167/374 (45%), Gaps = 53/374 (14%)
+
+Query  10   HQVDVTEKTLRPLRHGEALLKMECCGVCHTDLHVKNGD----------FGDKT--GVILG  57
+            H   V E  L P R GE LL++   G+CH+D H++ G+          FG  T    I G
+Sbjct  13   HPWTVEEFELDPPRAGEVLLQLSATGLCHSDEHIRRGNLAPPPETLRSFGLPTMSPTIGG  72
+
+Query  58   HEGIGVVAEVGPGVTSLKPGDRASVAWFYEGCGHCEYCNTGNETLCRN---VKNAGYTVD  114
+            HEG GVV EVG GVT   PGD   V  F   CG C +C TG E LC         G   D
+Sbjct  73   HEGSGVVLEVGEGVTRFAPGDHV-VTSFIAVCGQCRWCATGMEYLCDTGYGTLAPGMPTD  131
+
+Query  115  -------------------GGMAEECIVVADYAVKVPEGLDSAAASSITCAGVTTY-KAV  154
+                               G  AE  +V AD  VK+ +      A+ + CA  T Y  A 
+Sbjct  132  GTFRHHSLDGRDLGHVSKIGPFAEHTVVSADSLVKIDQTFPLVPAALLACAIPTRYGSAA  191
+
+Query  155  KISHIKPGQWIAIYGLGGLGNLALQYAKNVFNAKVIAIDVNDGQLKLAEEMGADLTINSR  214
+            + + ++ G    + G GG+G  A+Q A+     ++IA+D  + + K A   GA  T  + 
+Sbjct  192  RRAQVRGGDIAVVIGAGGIGTAAIQGARIQGATRIIAVDPVEFERKSALTFGATHT-AAT  250
+
+Query  215  TEDAAKIVQEKTGGAHAAVVT----AVAKAAFNSAVDAVRAGGRVVAVGLPPEAMN---L  267
+            T++A + V+E T G  A VV      +  A   +A+   R GG  V  GLP  AM+   +
+Sbjct  251  TDEAVETVRELTRGVMADVVVVSPATIGPADVAAALSLTRKGGTCVLTGLPDPAMHSIAV  310
+
+Query  268  DIPRLVLDGIQVVGSLVGT---RQDLTEAFQFAAEGKVVPKVALR---PLEDINVIFKEM  321
+             +   VL    + G++ G+   + D+         G+++    +     L  IN  + ++
+Sbjct  311  GLQDFVLMNKTLCGTVFGSCNPKSDIPLLATMYQSGQLLLDAMITKRYSLHSINDAYADL  370
+
+Query  322  EQGQ-IRGRMVIDF  334
+              G+ IRG  VIDF
+Sbjct  371  VAGELIRG--VIDF  382
+
+
+>VFG030301(gb|WP_012392129) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium marinum M]
+Length=369
+
+ Score = 118 bits (295),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 104/355 (29%), Positives = 162/355 (46%), Gaps = 35/355 (10%)
+
+Query  13   DVTEKTLRPLRHGEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVGPGVT  72
+            ++ E  L   R GE L+K    G+CH+DLH+ +GD   +  ++ GHEG GV+ EVGPGV+
+Sbjct  16   EIMELELDGPRVGEVLIKYTAAGLCHSDLHLTDGDLPPRYPIVGGHEGSGVIEEVGPGVS  75
+
+Query  73   SLKPGDRASVAWFYEGCGHCEYCNTGNETLC--------------------RNVKNAGYT  112
+             +KPGD   V  F   CG C YC+TG + LC                    + V      
+Sbjct  76   KVKPGDHV-VCSFIPNCGTCRYCSTGRQNLCDMGATILEGCMSDGSFRFHRKGVDFGAMC  134
+
+Query  113  VDGGMAEECIVVADYAVKVPEGLDSAAASSITCAGVTTY-KAVKISHIKPGQWIAIYGLG  171
+            + G  +E   +     VK+ + L    A  + C   T +  +V    ++PG    IYG G
+Sbjct  135  MLGTFSERATISQHSVVKIDDWLPLTTAVLVGCGVPTGWGTSVYAGGVRPGDTTVIYGAG  194
+
+Query  172  GLGNLALQYAKNVFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTG-GAH  230
+            GLG  A+Q A +     V+ +D    +   A + GA          AAK+ +   G GA 
+Sbjct  195  GLGINAVQGAVSAGAKHVVVVDPVAFKRDTALKFGATHAFPDAASAAAKVNEITWGQGAD  254
+
+Query  231  AA--VVTAVAKAAFNSAVDAVRAGGRVVAVGLP-PEAMNLDIP--RLVLDGIQVVGSLVG  285
+             A  +V  V     ++A   +  GG VV  GL  PE + + +    L L+   + G+L G
+Sbjct  255  QALILVGTVDTEVVSAAAAVIGKGGTVVITGLANPEKLTVQLSGLDLTLNEKTIKGTLFG  314
+
+Query  286  T---RQDLTEAFQFAAEGKVVPKVALRP---LEDINVIFKEMEQGQ-IRGRMVID  333
+            +   + D+    +    G++     +     LED+N  ++++  G+ IRG +V D
+Sbjct  315  SANPQYDIVRLLRLYDAGQLKLDELITTQYRLEDVNQGYQDLRDGKNIRGVIVHD  369
+
+
+>VFG030290(gb|WP_003894835) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=372
+
+ Score = 111 bits (277),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 106/368 (29%), Positives = 163/368 (44%), Gaps = 38/368 (10%)
+
+Query  2    KAAV-VTQDHQVDVTEKTLRPLRHGEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEG  60
+            KAAV +  +   ++ E  L   + GE LLK    G+CH+DLH+ +GD   +  ++ GHEG
+Sbjct  4    KAAVSLGVNRPFEIMELELDGPKEGEVLLKNVAAGLCHSDLHLTDGDMPPRYPIVGGHEG  63
+
+Query  61   IGVVAEVGPGVTSLKPGDRASVAWFYEGCGHCEYCNTGNETLC-----------------  103
+              +V +VGPGVT +KPGD   V  +   CG C YC TG   LC                 
+Sbjct  64   SAIVEDVGPGVTKVKPGDHV-VCSYIPNCGTCRYCATGRSNLCDMGATILDGRFPDGTFR  122
+
+Query  104  ---RNVKNAGYTVDGGMAEECIVVADYAVKVPEGLDSAAASSITCAGVTTYKA-VKISHI  159
+                 V      + G  AE   V     VKV E +    A  + C     +   V  + I
+Sbjct  123  FHKDGVDYGSLCLLGSFAERTTVSQHSVVKVDEWIPLETAVLVGCGVPAGWGGPVYNNGI  182
+
+Query  160  KPGQWIAIYGLGGLGNLALQYAKNVFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAA  219
+            +PG    IYG+GGLG  A+Q A       V+A+D  + +  +A + GA     +  E+A 
+Sbjct  183  RPGDTAVIYGIGGLGINAIQGAVMAGARYVVAVDPVEFKRDMALKFGATHAF-ATAEEAH  241
+
+Query  220  KIVQEKTGGAHA----AVVTAVAKAAFNSAVDAVRAGGRVVAVGLP-PEAMNLDIPRLVL  274
+            + V+E T G  A      V    +   + A + +  GG V    L  P  + + +  + +
+Sbjct  242  EAVREITWGQMADGALIFVGTPDEKVVSDAFNVIGKGGTVSLASLADPAKLTVHVSGMEM  301
+
+Query  275  DGIQ--VVGSLVGT---RQDLTEAFQFAAEGKVVPKVALRP---LEDINVIFKEMEQG-Q  325
+              ++  + G L G+   + D+    +   EGK+     +     LEDIN  + ++  G  
+Sbjct  302  TLMEKTIKGCLFGSSNPQYDIVRLLRLYDEGKLKLDELITTRYRLEDINQGYDDLRAGVN  361
+
+Query  326  IRGRMVID  333
+            IRG ++ D
+Sbjct  362  IRGVIIHD  369
+
+
+>VFG030305(gb|WP_016343680) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium abscessus subsp. bolletii 50594]
+Length=368
+
+ Score = 108 bits (270),  Expect = 8e-27, Method: Compositional matrix adjust.
+ Identities = 102/344 (30%), Positives = 162/344 (47%), Gaps = 41/344 (12%)
+
+Query  25   GEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVGPGVTSLKPGDRASVAW  84
+            GE L+     G+CH+DLH+ +GD   +  +I GHEG GV+ +VGPGVT +KPGD   V  
+Sbjct  28   GEVLVNYTVAGLCHSDLHLTDGDLPPRYPIIGGHEGAGVIEDVGPGVTKVKPGDHV-VCS  86
+
+Query  85   FYEGCGHCEYCNTGNETLCR---------------NVKNAGYTVD-----GGMAEECIVV  124
+            F   CG+C YC+TG ++LC                   +AG         G  A++  V 
+Sbjct  87   FIPSCGYCRYCSTGRQSLCDMGATILEGCMPDGTFRFHSAGIDFGQMCMLGTFAQKATVS  146
+
+Query  125  ADYAVKVPEGLDSAAASSITCAGVTTY-KAVKISHIKPGQWIAIYGLGGLGNLALQYAKN  183
+                VK+ + +    A  + C   T +  +     ++PG    +YG+GG+G  A+Q A  
+Sbjct  147  QHSVVKIDDWIPLETAVLVGCGVPTGWGSSTYAGDVRPGDITIVYGIGGIGINAVQGAAQ  206
+
+Query  184  VFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTG-GAHAAVVT--AVAKA  240
+                 ++A+D    +  +A + GA     +  E A K+ +   G GA  A++T   V + 
+Sbjct  207  AGAKYIVAVDPVPFKRDMASKFGATHAFTTAEEAAEKLNELSWGQGADQAIITVGVVDEE  266
+
+Query  241  AFNSAVDAVRAGGRVVAVGLP-PEAMNLDIP--RLVLDGIQVVGSLVGTRQD--------  289
+               +A +AV  GG VV  GL  P  + + +    +VL G  + G+L G+           
+Sbjct  267  VVTAAFNAVGKGGTVVVTGLADPAKLTVHVSGMEMVLFGKTIKGTLFGSANPQYDIVRLL  326
+
+Query  290  -LTEAFQFAAEGKVVPKVALRPLEDINVIFKEMEQGQ-IRGRMV  331
+             L +A Q   +  V  K     LE+IN  ++++  G+ IRG ++
+Sbjct  327  RLYDAGQLQLDELVTTKYH---LEEINQGYQDLRDGKNIRGVII  367
+
+
+>VFG030307(gb|WP_015303738) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070008]
+Length=368
+
+ Score = 106 bits (264),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 102/341 (30%), Positives = 152/341 (45%), Gaps = 35/341 (10%)
+
+Query  25   GEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVGPGVTSLKPGDRASVAW  84
+            GE L+K    G+CH+DLH+ +GD   +  ++ GHEG GV+ EVG GVT +KPGD   V  
+Sbjct  28   GEVLVKYTAAGLCHSDLHLTDGDLPPRFPIVGGHEGSGVIEEVGAGVTRVKPGDHV-VCS  86
+
+Query  85   FYEGCGHCEYCNTGNETLC--------------------RNVKNAGYTVDGGMAEECIVV  124
+            F   CG C YC TG + LC                    +        + G  AE   V 
+Sbjct  87   FIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGTDFGAMCMLGTFAERATVS  146
+
+Query  125  ADYAVKVPEGLDSAAASSITCAGVTTY-KAVKISHIKPGQWIAIYGLGGLGNLALQYAKN  183
+                VKV + L    A  + C   + +  AV   +++ G    IYG+GGLG  A+Q A  
+Sbjct  147  QHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTAVIYGVGGLGINAVQGATA  206
+
+Query  184  VFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTG-GAHAA--VVTAVAKA  240
+                 V+ +D    + + A + GA          AAK+ +   G GA AA  +V  V   
+Sbjct  207  AGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAKVDELTWGQGADAALILVGTVDDE  266
+
+Query  241  AFNSAVDAVRAGGRVVAVGLP-PEAMNLDIP--RLVLDGIQVVGSLVGT---RQDLTEAF  294
+              ++A   +  GG VV  GL  P  + + I    L L    + GSL G+   + D+    
+Sbjct  267  VVSAATAVIGKGGTVVITGLADPAKLTVRISGTDLTLHEKTIKGSLFGSCNPQYDIVRLL  326
+
+Query  295  QFAAEGKVVPK---VALRPLEDINVIFKEMEQGQ-IRGRMV  331
+            +    G+++          LE +N  ++++  G+ IRG +V
+Sbjct  327  RLYDAGQLMLDELVTTTYTLEQVNQGYQDLRDGKNIRGVIV  367
+
+
+>VFG030300(gb|WP_014001575) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140010059]
+Length=368
+
+ Score = 105 bits (263),  Expect = 9e-26, Method: Compositional matrix adjust.
+ Identities = 101/341 (30%), Positives = 152/341 (45%), Gaps = 35/341 (10%)
+
+Query  25   GEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVGPGVTSLKPGDRASVAW  84
+            GE L+K    G+CH+DLH+ +GD   +  ++ GHEG GV+ EVG GVT +KPGD   V  
+Sbjct  28   GEVLVKYTAAGLCHSDLHLTDGDLPPRFPIVGGHEGSGVIEEVGAGVTRVKPGDHV-VCS  86
+
+Query  85   FYEGCGHCEYCNTGNETLC--------------------RNVKNAGYTVDGGMAEECIVV  124
+            F   CG C YC TG + LC                    +        + G  AE   V 
+Sbjct  87   FIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGTDFGAMCMLGTFAERATVS  146
+
+Query  125  ADYAVKVPEGLDSAAASSITCAGVTTY-KAVKISHIKPGQWIAIYGLGGLGNLALQYAKN  183
+                VKV + L    A  + C   + +  AV   +++ G    IYG+GGLG  A+Q A  
+Sbjct  147  QHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTAVIYGVGGLGINAVQGATA  206
+
+Query  184  VFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTG-GAHAA--VVTAVAKA  240
+                 V+ +D    + + A + GA          AAK+ +   G GA AA  +V  V   
+Sbjct  207  AGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAKVDELTWGQGADAALILVGTVDDE  266
+
+Query  241  AFNSAVDAVRAGGRVVAVGLP-PEAMNLDIP--RLVLDGIQVVGSLVGT---RQDLTEAF  294
+              ++A   +  GG VV  GL  P  + + +    L L    + GSL G+   + D+    
+Sbjct  267  VVSAATAVIGKGGTVVITGLADPAKLTVHVSGTDLTLHEKTIKGSLFGSCNPQYDIVRLL  326
+
+Query  295  QFAAEGKVVPK---VALRPLEDINVIFKEMEQGQ-IRGRMV  331
+            +    G+++          LE +N  ++++  G+ IRG +V
+Sbjct  327  RLYDAGQLMLDELVTTTYTLEQVNQGYQDLRDGKNIRGVIV  367
+
+
+>VFG030318(gb|YP_007959090) (adhD) zinc-type alcohol dehydrogenase 
+AdhD [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=351
+
+ Score = 105 bits (262),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 101/341 (30%), Positives = 152/341 (45%), Gaps = 35/341 (10%)
+
+Query  25   GEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVGPGVTSLKPGDRASVAW  84
+            GE L+K    G+CH+DLH+ +GD   +  ++ GHEG GV+ EVG GVT +KPGD   V  
+Sbjct  11   GEVLVKYTAAGLCHSDLHLTDGDLPPRFPIVGGHEGSGVIEEVGAGVTRVKPGDHV-VCS  69
+
+Query  85   FYEGCGHCEYCNTGNETLC--------------------RNVKNAGYTVDGGMAEECIVV  124
+            F   CG C YC TG + LC                    +        + G  AE   V 
+Sbjct  70   FIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGTDFGAMCMLGTFAERAXVS  129
+
+Query  125  ADYAVKVPEGLDSAAASSITCAGVTTY-KAVKISHIKPGQWIAIYGLGGLGNLALQYAKN  183
+                VKV + L    A  + C   + +  AV   +++ G    IYG+GGLG  A+Q A  
+Sbjct  130  QHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTAVIYGVGGLGINAVQGATA  189
+
+Query  184  VFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTG-GAHAA--VVTAVAKA  240
+                 V+ +D    + + A + GA          AAK+ +   G GA AA  +V  V   
+Sbjct  190  AGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAKVDELTWGQGADAALILVGTVDDE  249
+
+Query  241  AFNSAVDAVRAGGRVVAVGLP-PEAMNLDIP--RLVLDGIQVVGSLVGT---RQDLTEAF  294
+              ++A   +  GG VV  GL  P  + + +    L L    + GSL G+   + D+    
+Sbjct  250  VVSAATAVIGXGGTVVITGLADPAKLTVHVSGTDLTLHEKTIKGSLFGSCNPQYDIVRLL  309
+
+Query  295  QFAAEGKVVPK---VALRPLEDINVIFKEMEQGQ-IRGRMV  331
+            +    G+++          LE +N  ++++  G+ IRG +V
+Sbjct  310  RLYDAGQLMLDELVTTTYNLEQVNQGYQDLRDGKNIRGVIV  350
+
+
+>VFG030308(gb|WP_015291173) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=368
+
+ Score = 105 bits (262),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 101/341 (30%), Positives = 152/341 (45%), Gaps = 35/341 (10%)
+
+Query  25   GEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVGPGVTSLKPGDRASVAW  84
+            GE L+K    G+CH+DLH+ +GD   +  ++ GHEG GV+ EVG GVT +KPGD   V  
+Sbjct  28   GEVLVKYTAAGLCHSDLHLTDGDLPPRFPIVGGHEGSGVIEEVGAGVTRVKPGDHV-VCS  86
+
+Query  85   FYEGCGHCEYCNTGNETLC--------------------RNVKNAGYTVDGGMAEECIVV  124
+            F   CG C YC TG + LC                    +        + G  AE   V 
+Sbjct  87   FIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGTDFGAMCMLGTFAERATVS  146
+
+Query  125  ADYAVKVPEGLDSAAASSITCAGVTTY-KAVKISHIKPGQWIAIYGLGGLGNLALQYAKN  183
+                VKV + L    A  + C   + +  AV   +++ G    IYG+GGLG  A+Q A  
+Sbjct  147  HHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTAVIYGVGGLGINAVQGATA  206
+
+Query  184  VFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTG-GAHAA--VVTAVAKA  240
+                 V+ +D    + + A + GA          AAK+ +   G GA AA  +V  V   
+Sbjct  207  AGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAKVDELTWGQGADAALILVGTVDDE  266
+
+Query  241  AFNSAVDAVRAGGRVVAVGLP-PEAMNLDIP--RLVLDGIQVVGSLVGT---RQDLTEAF  294
+              ++A   +  GG VV  GL  P  + + +    L L    + GSL G+   + D+    
+Sbjct  267  VVSAATAVIGKGGTVVITGLADPAKLTVHVSGTDLTLHEKTIKGSLFGSCNPQYDIVRLL  326
+
+Query  295  QFAAEGKVVPK---VALRPLEDINVIFKEMEQGQ-IRGRMV  331
+            +    G+++          LE +N  ++++  G+ IRG +V
+Sbjct  327  RLYDAGQLMLDELVTTTYTLEQVNQGYQDLRDGKNIRGVIV  367
+
+
+>VFG030323(gb|WP_015345151) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis 7199-99]
+Length=368
+
+ Score = 105 bits (262),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 101/341 (30%), Positives = 152/341 (45%), Gaps = 35/341 (10%)
+
+Query  25   GEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVGPGVTSLKPGDRASVAW  84
+            GE L+K    G+CH+DLH+ +GD   +  ++ GHEG GV+ EVG GVT +KPGD   V  
+Sbjct  28   GEVLVKYTAAGLCHSDLHLTDGDLPPRFPIVGGHEGSGVIEEVGAGVTRVKPGDHV-VCS  86
+
+Query  85   FYEGCGHCEYCNTGNETLC--------------------RNVKNAGYTVDGGMAEECIVV  124
+            F   CG C YC TG + LC                    +        + G  AE   V 
+Sbjct  87   FIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGTDFGAMCMLGTFAERATVS  146
+
+Query  125  ADYAVKVPEGLDSAAASSITCAGVTTY-KAVKISHIKPGQWIAIYGLGGLGNLALQYAKN  183
+                VKV + L    A  + C   + +  AV   +++ G    IYG+GGLG  A+Q A  
+Sbjct  147  QHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTAVIYGVGGLGINAVQGATA  206
+
+Query  184  VFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTG-GAHAA--VVTAVAKA  240
+                 V+ +D    + + A + GA          AAK+ +   G GA AA  +V  V   
+Sbjct  207  AGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAKVDELTWGQGADAALILVGTVDDE  266
+
+Query  241  AFNSAVDAVRAGGRVVAVGLP-PEAMNLDIP--RLVLDGIQVVGSLVGT---RQDLTEAF  294
+              ++A   +  GG VV  GL  P  + + +    L L    + GSL G+   + D+    
+Sbjct  267  VVSAATAVIGKGGTVVITGLADPAKLTVHVSGTDLTLHEKTIKGSLFGSCNPQYDIVRLL  326
+
+Query  295  QFAAEGKVVPK---VALRPLEDINVIFKEMEQGQ-IRGRMV  331
+            +    G+++          LE +N  ++++  G+ IRG +V
+Sbjct  327  RLYDAGQLMLDELVTTTYNLEQVNQGYQDLRDGKNIRGVIV  367
+
+
+>VFG030286(gb|NP_217602) (adhD) alcohol dehydrogenase D [MymA 
+operon (VF0840) - Immune modulation (VFC0258)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=368
+
+ Score = 105 bits (262),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 101/341 (30%), Positives = 152/341 (45%), Gaps = 35/341 (10%)
+
+Query  25   GEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVGPGVTSLKPGDRASVAW  84
+            GE L+K    G+CH+DLH+ +GD   +  ++ GHEG GV+ EVG GVT +KPGD   V  
+Sbjct  28   GEVLVKYTAAGLCHSDLHLTDGDLPPRFPIVGGHEGSGVIEEVGAGVTRVKPGDHV-VCS  86
+
+Query  85   FYEGCGHCEYCNTGNETLC--------------------RNVKNAGYTVDGGMAEECIVV  124
+            F   CG C YC TG + LC                    +        + G  AE   V 
+Sbjct  87   FIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGTDFGAMCMLGTFAERATVS  146
+
+Query  125  ADYAVKVPEGLDSAAASSITCAGVTTY-KAVKISHIKPGQWIAIYGLGGLGNLALQYAKN  183
+                VKV + L    A  + C   + +  AV   +++ G    IYG+GGLG  A+Q A  
+Sbjct  147  QHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTAVIYGVGGLGINAVQGATA  206
+
+Query  184  VFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTG-GAHAA--VVTAVAKA  240
+                 V+ +D    + + A + GA          AAK+ +   G GA AA  +V  V   
+Sbjct  207  AGCKYVVVVDPVAFKRETALKFGATHAFADAASAAAKVDELTWGQGADAALILVGTVDDE  266
+
+Query  241  AFNSAVDAVRAGGRVVAVGLP-PEAMNLDIP--RLVLDGIQVVGSLVGT---RQDLTEAF  294
+              ++A   +  GG VV  GL  P  + + +    L L    + GSL G+   + D+    
+Sbjct  267  VVSAATAVIGKGGTVVITGLADPAKLTVHVSGTDLTLHEKTIKGSLFGSCNPQYDIVRLL  326
+
+Query  295  QFAAEGKVVPK---VALRPLEDINVIFKEMEQGQ-IRGRMV  331
+            +    G+++          LE +N  ++++  G+ IRG +V
+Sbjct  327  RLYDAGQLMLDELVTTTYNLEQVNQGYQDLRDGKNIRGVIV  367
+
+
+>VFG030302(gb|WP_041318085) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. JDM601]
+Length=369
+
+ Score = 99.0 bits (245),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 104/346 (30%), Positives = 167/346 (48%), Gaps = 45/346 (13%)
+
+Query  25   GEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVGPGVTSLKPGDRASVAW  84
+            GE L+K    G+CH+DLH+ +GD+  +  ++ GHEG G++ +VGPGVT + PGD   V  
+Sbjct  28   GEVLIKFTAAGLCHSDLHLADGDWPARFPIVGGHEGSGIIEDVGPGVTKVAPGDHV-VCC  86
+
+Query  85   FYEGCGHCEYCNTGNETLCR--------------------NVKNAGYTVDGGMAEECIVV  124
+            F   CG C YC+TG + LC                          G+ + G  AE   V 
+Sbjct  87   FIPSCGTCRYCSTGRQNLCDMGATILEGCMPDGTFRFHSGGTDYGGFCMLGTFAERATVS  146
+
+Query  125  ADYAVKVPEGLDSAAASSITCAGVTTYKAVKIS-HIKPGQWIAIYGLGGLGNLALQYAKN  183
+                VKV + L    A  + C   T + +      ++ G  + +YG+GG+G  A+Q A +
+Sbjct  147  QHSVVKVDDWLPLQTAVLVGCGVPTGWASANYDGGVRAGDTVVVYGVGGVGINAVQGAAH  206
+
+Query  184  VFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTGG--AHAAVVT------  235
+                 V+A+D  + + + A ++GA     +  E+A   V E T G  A  A++T      
+Sbjct  207  AGAKYVVAVDPVEFKRETALKLGATHAF-ATAEEAMVTVAELTWGQMADQALITVGDLDE  265
+
+Query  236  AVAKAAFNSAVDAVRAGGRVVAVGLPP-EAMNLDI--PRLVLDGIQVVGSLVG---TRQD  289
+            AV  AAFN+    +  GG VV   L   E++++ I   +L L G  + G+L G    + D
+Sbjct  266  AVTTAAFNT----IGKGGTVVIAALAKLESLDVHISGSQLALFGKTIKGTLFGGANPQYD  321
+
+Query  290  LTEAFQFAAEGKV-VPKVALR--PLEDINVIFKEMEQGQ-IRGRMV  331
+            +    +    GK+ + ++  R   LE +N  ++++  G+ IRG +V
+Sbjct  322  IVRLLRLYDAGKLKLDELVTRRYTLEQVNEGYQDLRDGKNIRGVIV  367
+
+
+>VFG030291(gb|WP_011857132) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. JLS]
+Length=368
+
+ Score = 91.3 bits (225),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 110/363 (30%), Positives = 166/363 (46%), Gaps = 38/363 (10%)
+
+Query  2    KAAVVTQDHQ-VDVTEKTLRPLRHGEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEG  60
+            KAAV+   HQ  +VTE  L   +  E L+K+   G+CH+D H+  GD      V+ GHEG
+Sbjct  4    KAAVLWGLHQKWEVTELDLDAPKAQEVLVKLTASGLCHSDDHLVTGDMPMNLPVVGGHEG  63
+
+Query  61   IGVVAEVGPGVTSLKPGDRASVAWFYEGCGHCEYCNTGNETLC---------------RN  105
+             GVVAEVGPGVT ++ GD   ++ F   CG C  C  G   LC                 
+Sbjct  64   AGVVAEVGPGVTEVEVGDHVVLS-FIPACGRCTECARGRSNLCVYGAAIVAGPQLDGTYR  122
+
+Query  106  VKNAGYTVD-----GGMAEECIVVADYAVKVPEGLDSAAASSITCAGVTTY-KAVKISHI  159
+              + G  V      G  +E  +V     VKV + +    A+ + C   T Y  AV+    
+Sbjct  123  FHSGGQDVGQMCVLGTFSEYTVVPIASVVKVDKDIPLDKAALVGCGVTTGYGAAVRTGEA  182
+
+Query  160  KPGQWIAIYGLGGLGNLALQYAKNVFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAA  219
+            + G  + + G+GGLG  A+Q A+      VIA+D    + + + E GA     +  E+A 
+Sbjct  183  RDGDTVVVMGVGGLGINAVQGARLAGARYVIALDPVAYKRERSFEFGATHAAAT-VEEAQ  241
+
+Query  220  KIVQEKTGGAHA---AVVTAVAKAAF-NSAVDAVRAGGRVVAVGLP-PEAMNLDIP--RL  272
+             ++ + T G  A    V T  A+ A+    +  V   GRVV   +P P    +D+    L
+Sbjct  242  ALITDLTRGTMADVCVVTTDSAEGAYVAQGLSLVGKRGRVVMTAIPHPTDTTVDMSLFDL  301
+
+Query  273  VLDGIQVVGSLVGT---RQDLTEAFQFAAEGKVVPKVALR---PLEDINVIFKEMEQGQ-  325
+             L   QV G L G+   R D+    +    G+++    +     L++IN  +++M  G+ 
+Sbjct  302  TLYEKQVRGCLFGSSNPRLDIPRMLELYGSGRLMLDELITREYTLDEINQGYEDMHDGRN  361
+
+Query  326  IRG  328
+            +RG
+Sbjct  362  LRG  364
+
+
+>VFG030314(gb|YP_007962958) (adhD) Putative zinc-type alcohol 
+dehydrogenase AdhD (aldehyde reductase) [MymA operon (VF0840) 
+- Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+CAS/NITR204]
+Length=380
+
+ Score = 90.5 bits (223),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 59/171 (35%), Positives = 80/171 (47%), Gaps = 22/171 (13%)
+
+Query  25   GEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVGPGVTSLKPGDRASVAW  84
+            GE L+K    G+CH+DLH+ +GD   +  ++ GHEG GV+ EVG GVT +KPGD   V  
+Sbjct  28   GEVLVKYTAAGLCHSDLHLTDGDLPPRFPIVGGHEGSGVIEEVGAGVTRVKPGDHV-VCS  86
+
+Query  85   FYEGCGHCEYCNTGNETLC--------------------RNVKNAGYTVDGGMAEECIVV  124
+            F   CG C YC TG + LC                    +        + G  AE   V 
+Sbjct  87   FIPNCGTCRYCCTGRQNLCDMGATILEGCMPDGSFRFHSQGTDFGAMCMLGTFAERATVS  146
+
+Query  125  ADYAVKVPEGLDSAAASSITCAGVTTY-KAVKISHIKPGQWIAIYGLGGLG  174
+                VKV + L    A  + C   + +  AV   +++ G    IYG+GGLG
+Sbjct  147  QHSVVKVDDWLPLETAVLVGCGVPSGWGTAVNAGNLRAGDTAVIYGVGGLG  197
+
+
+>VFG030293(gb|WP_011562028) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. MCS]
+Length=368
+
+ Score = 90.5 bits (223),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 109/363 (30%), Positives = 166/363 (46%), Gaps = 38/363 (10%)
+
+Query  2    KAAVVTQDHQ-VDVTEKTLRPLRHGEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEG  60
+            KAAV+   HQ  +VTE  L   +  E L+K+   G+CH+D H+  GD      V+ GHEG
+Sbjct  4    KAAVLWGLHQKWEVTELDLDAPKAQEVLVKLTASGLCHSDDHLVTGDMPMNLPVVGGHEG  63
+
+Query  61   IGVVAEVGPGVTSLKPGDRASVAWFYEGCGHCEYCNTGNETLC---------------RN  105
+             GVVAEVGPGVT ++ GD   ++ F   CG C  C  G   LC                 
+Sbjct  64   AGVVAEVGPGVTEVEVGDHVVLS-FIPACGRCTECARGRSNLCVYGAAIVAGPQLDGTYR  122
+
+Query  106  VKNAGYTVD-----GGMAEECIVVADYAVKVPEGLDSAAASSITCAGVTTY-KAVKISHI  159
+              + G  V      G  +E  +V     VKV + +    A+ + C   T Y  AV+    
+Sbjct  123  FHSGGQDVGQMCVLGTFSEYTVVPIASVVKVDKDIPLDKAALVGCGVTTGYGAAVRTGEA  182
+
+Query  160  KPGQWIAIYGLGGLGNLALQYAKNVFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAA  219
+            + G  + + G+GGLG  A+Q A+      V+A+D    + + + E GA     +  E+A 
+Sbjct  183  RDGDTVVVMGVGGLGINAVQGARLAGARYVVALDPVAYKRERSFEFGATHAAAT-VEEAQ  241
+
+Query  220  KIVQEKTGGAHA---AVVTAVAKAAF-NSAVDAVRAGGRVVAVGLP-PEAMNLDIP--RL  272
+             ++ + T G  A    V T  A+ A+    +  V   GRVV   +P P    +D+    L
+Sbjct  242  ALITDLTRGTMADVCVVTTDSAEGAYVAQGLSLVGKRGRVVMTAIPHPTDTTVDMSLFDL  301
+
+Query  273  VLDGIQVVGSLVGT---RQDLTEAFQFAAEGKVVPKVALR---PLEDINVIFKEMEQGQ-  325
+             L   QV G L G+   R D+    +    G+++    +     L++IN  +++M  G+ 
+Sbjct  302  TLYEKQVRGCLFGSSNPRLDIPRMLELFGSGRLMLDELITREYTLDEINQGYEDMHDGRN  361
+
+Query  326  IRG  328
+            +RG
+Sbjct  362  LRG  364
+
+
+>VFG030297(gb|YP_001702819) (adhD) Probable zinc-type alcohol 
+dehydrogenase AdhD [MymA operon (VF0840) - Immune modulation 
+(VFC0258)] [Mycobacterium abscessus ATCC 19977]
+Length=368
+
+ Score = 87.4 bits (215),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 103/355 (29%), Positives = 163/355 (46%), Gaps = 37/355 (10%)
+
+Query  9    DHQVDVTEKTLRPLRHGEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVG  68
+            + + +V E  L P   GE L+++   G+CH+D H+  GD      V+ GHEG G V E G
+Sbjct  12   EQKWEVEEVDLDPPGPGEVLVRLAATGLCHSDEHLVTGDLPIPLPVVGGHEGAGTVVECG  71
+
+Query  69   PGVTSLKPGDRASVAWFYEGCGHCEYCNTGNETLCR--NVKNAGYTVD------------  114
+             GV  L  GD + +  F   CG C YC  G   LC        G  +D            
+Sbjct  72   EGVEDLSEGD-SVILTFLPSCGRCSYCARGMGNLCELGAALMMGPQIDGTYRFHARGEDV  130
+
+Query  115  ------GGMAEECIVVADYAVKVPEGLDSAAASSITCAGVTTY-KAVKISHIKPGQWIAI  167
+                  G  +E  +V     VK+  G+    A+ I C   T Y  AV+   ++ G  + +
+Sbjct  131  GQMCLLGTFSEYTVVPQASVVKIDGGIPLDRAALIGCGVTTGYGSAVRTGEVRAGDTVVV  190
+
+Query  168  YGLGGLGNLALQYAKNVFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTG  227
+             G GG+G  A+Q A+      ++A+D  + + + A   GA  T  S  E A  +V + T 
+Sbjct  191  VGAGGIGMNAIQGARIAGALAIVAVDPVNFKREQASGFGATHTAASMDE-AWSLVSDMTR  249
+
+Query  228  GAHAAV---VTAVAKAAFNS-AVDAVRAGGRVV--AVGLPPE-AMNLDIPRLVLDGIQVV  280
+            G  A V    T VA+ ++ + A+  V   GRVV  A+G P E +++  +  + L   Q+ 
+Sbjct  250  GKLADVCILTTDVAEGSYTAEALALVGKRGRVVVTAIGHPDESSISGSLLEMTLYEKQIR  309
+
+Query  281  GSLVGTR---QDLTEAFQFAAEGKV-VPKVALR--PLEDINVIFKEMEQGQ-IRG  328
+            G+L G+     D+    +  + G + + ++  R   L+ IN  +++M  G+ IRG
+Sbjct  310  GALYGSSNAPHDIPRLVELYSAGLLKLDELVTREYSLDQINEGYQDMRSGRNIRG  364
+
+
+>VFG030304(gb|WP_011560572) (adhD) NDMA-dependent alcohol dehydrogenase 
+[MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium intracellulare MOTT-02]
+Length=368
+
+ Score = 86.3 bits (212),  Expect = 7e-19, Method: Compositional matrix adjust.
+ Identities = 103/355 (29%), Positives = 163/355 (46%), Gaps = 37/355 (10%)
+
+Query  9    DHQVDVTEKTLRPLRHGEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVG  68
+            + + +V E  L P   GE L+++   G+CH+D H+  GD      V+ GHEG G V E G
+Sbjct  12   EQKWEVEEVDLDPPGPGEVLVRLAATGLCHSDEHLVTGDLPIPLPVVGGHEGAGTVVECG  71
+
+Query  69   PGVTSLKPGDRASVAWFYEGCGHCEYCNTGNETLCR--NVKNAGYTVD------------  114
+             GV  L  GD + +  F   CG C YC  G   LC        G  +D            
+Sbjct  72   EGVEELSEGD-SVILTFLPSCGRCSYCARGMGNLCELGAALMMGPQIDGTYRFHARGEDV  130
+
+Query  115  ------GGMAEECIVVADYAVKVPEGLDSAAASSITCAGVTTY-KAVKISHIKPGQWIAI  167
+                  G  +E  +V     VK+  G+    A+ I C   T Y  AV+   ++ G  + +
+Sbjct  131  GQMCLLGTFSEYTVVPQASVVKIDGGIPLDRAALIGCGVTTGYGSAVRTGEVRAGDTVVV  190
+
+Query  168  YGLGGLGNLALQYAKNVFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTG  227
+             G GG+G  A+Q A+      ++A+D    + + A   GA  T  S  E A  +V + T 
+Sbjct  191  VGAGGIGMNAIQGARIAGALAIVAVDPVKFKREQASGFGATHTAASMDE-AWSLVSDMTL  249
+
+Query  228  GAHAAV---VTAVAKAAFNS-AVDAVRAGGRVV--AVGLPPE-AMNLDIPRLVLDGIQVV  280
+            G  A V    T VA+A++ + A+  V   GRVV  A+G P + +++  +  + L   Q+ 
+Sbjct  250  GKLADVCILTTDVAEASYTAEALALVGKRGRVVVTAIGHPDDSSISGSLLEMTLYEKQIR  309
+
+Query  281  GSLVGTR---QDLTEAFQFAAEGKV-VPKVALR--PLEDINVIFKEMEQGQ-IRG  328
+            G+L G+     D+    +  + G + + ++  R   L+ IN  +++M  G+ IRG
+Sbjct  310  GALYGSSNAPHDIPRLVELYSAGLLKLDELVTREYSLDQINEGYQDMRSGKNIRG  364
+
+
+>VFG029833(gb|WP_014379696) (pks) type I polyketide synthase [GPL 
+locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+intracellulare MOTT-64]
+Length=3674
+
+ Score = 63.5 bits (153),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 81/333 (24%), Positives = 141/333 (42%), Gaps = 48/333 (14%)
+
+Query  14    VTEKTLRPLRHGEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVGPGVTS  73
+             +TE  +     G   +++E  G+   D+    G +    G I G +  GVV ++G GVT 
+Sbjct  3004  LTEAEVPAPDEGYVQVRVEAAGLNFRDVLNVLGLYPGDPGPI-GGDFAGVVTQLGAGVTG  3062
+
+Query  74    LKPGDRASVAWFYEGCGHCEYCNTGNETLCRNVKNAGY-TVDGGMAEECIVVADYAVKVP  132
+             ++ G R                               Y ++ G  +    V A +   +P
+Sbjct  3063  VEVGQRV------------------------------YGSMQGAFSSRFNVPAQFLAPIP  3092
+
+Query  133   EGLDSAAASSITCAGVTTYKAVKISHIKPGQWIAIYGL-GGLGNLALQYAKNVFNAKVIA  191
+             +G+ +  A++I  A +T   +   + +KPG  + I+   GG+G  A+Q A+  F A+V A
+Sbjct  3093  DGVSAVEAATIPAAALTVRLSFDWAQLKPGDKVLIHAASGGVGLAAVQMAQR-FGAEVFA  3151
+
+Query  192   IDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTGGAHAAVV--TAVAKAAFNSAVDAV  249
+                   +  L  ++G     +SRT D A  +   TGGA   VV  +  ++    + + A 
+Sbjct  3152  TASTFKRATL-RKLGVKRVYDSRTTDFADQILADTGGAGVDVVLNSLTSEGFIEATLKAT  3210
+
+Query  250   RAGGRVVAVG----LPPEAMNLDIPRLVLDGIQVVGSLVGTRQD-----LTEAFQFAAEG  300
+                GR   +       PE M    P +  + I  + +++ T  D     LTE  Q  A+G
+Sbjct  3211  AQNGRFAEIAKRDIWTPEQMAEARPDIAYE-IVALDTVMFTEPDRIRDLLTEVSQGLADG  3269
+
+Query  301   KVVPKVA-LRPLEDINVIFKEMEQGQIRGRMVI  332
+             +  P  A + PL +    F+ M+Q +  G++V+
+Sbjct  3270  EWTPLPAEIYPLTEARAAFRRMQQARHIGKIVV  3302
+
+
+>VFG029831(gb|WP_014711138) (pks) type I polyketide synthase [GPL 
+locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+intracellulare str. MOTT36Y]
+Length=3674
+
+ Score = 63.5 bits (153),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 81/333 (24%), Positives = 141/333 (42%), Gaps = 48/333 (14%)
+
+Query  14    VTEKTLRPLRHGEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVGPGVTS  73
+             +TE  +     G   +++E  G+   D+    G +    G I G +  GVV ++G GVT 
+Sbjct  3004  LTEAEVPAPDEGYVQVRVEAAGLNFRDVLNVLGLYPGDPGPI-GGDFAGVVTQLGAGVTG  3062
+
+Query  74    LKPGDRASVAWFYEGCGHCEYCNTGNETLCRNVKNAGY-TVDGGMAEECIVVADYAVKVP  132
+             ++ G R                               Y ++ G  +    V A +   +P
+Sbjct  3063  VEVGQRV------------------------------YGSMQGAFSSRFNVPAQFLAPIP  3092
+
+Query  133   EGLDSAAASSITCAGVTTYKAVKISHIKPGQWIAIYGL-GGLGNLALQYAKNVFNAKVIA  191
+             +G+ +  A++I  A +T   +   + +KPG  + I+   GG+G  A+Q A+  F A+V A
+Sbjct  3093  DGVSAVEAATIPAAALTVRLSFDWAQLKPGDKVLIHAASGGVGLAAVQMAQR-FGAEVFA  3151
+
+Query  192   IDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTGGAHAAVV--TAVAKAAFNSAVDAV  249
+                   +  L  ++G     +SRT D A  +   TGGA   VV  +  ++    + + A 
+Sbjct  3152  TASTFKRATL-RKLGVKRVYDSRTTDFADQILADTGGAGVDVVLNSLTSEGFIEATLKAT  3210
+
+Query  250   RAGGRVVAVG----LPPEAMNLDIPRLVLDGIQVVGSLVGTRQD-----LTEAFQFAAEG  300
+                GR   +       PE M    P +  + I  + +++ T  D     LTE  Q  A+G
+Sbjct  3211  AQNGRFAEIAKRDIWTPEQMAEARPDIAYE-IVALDTVMFTEPDRIRDLLTEVSQGLADG  3269
+
+Query  301   KVVPKVA-LRPLEDINVIFKEMEQGQIRGRMVI  332
+             +  P  A + PL +    F+ M+Q +  G++V+
+Sbjct  3270  EWTPLPAEIYPLTEARAAFRRMQQARHIGKIVV  3302
+
+
+>VFG014142(gb|WP_016254248) (PA14_RS09485) bi-domain-containing 
+oxidoreductase [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa UCBPP-PA14]
+Length=714
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 52/209 (25%), Positives = 93/209 (44%), Gaps = 37/209 (18%)
+
+Query  56   LGHEGIGVVAEVGPGVTSLKPGDRASVAWFYEGCGHCEYCNTGNETLCRNVKNAGYTVDG  115
+            LG+  +GVV+E+G GV   K GDR                                  +G
+Sbjct  93   LGYCNVGVVSEIGSGVEGFKVGDRV-------------------------------VSNG  121
+
+Query  116  GMAEECIVVADYAVKVPEGLDSAAASSITCAGVTTYKAVKISHIKPGQWIAIYGLGGLGN  175
+              A+   V  +   ++P+G+D  +A+ +  A +   + ++++    G+   + G+G +G 
+Sbjct  122  PHADLVKVSKNLCARIPDGVDDESAAFVVVASI-GLQGIRLAQPTLGECFVVTGVGLIGL  180
+
+Query  176  LALQYAKNVFNAKVIAIDVNDGQLKLAEEMGADLTINSRTED--AAKIVQEKTGGAHAAV  233
+            L +Q  +     +V+AID +D +L+LA + GA      + ED  AA +   +  G    +
+Sbjct  181  LTVQLLR-AHGCRVLAIDFDDSKLELARQYGAQTCNPGKGEDPVAAGMAFSRGKGVDGVI  239
+
+Query  234  VTAVAKAA--FNSAVDAVRAGGRVVAVGL  260
+            +TA  K++     A    R  GR+V VG+
+Sbjct  240  ITASTKSSDPVTQAARMSRKRGRIVLVGV  268
+
+
+>VFG029832(gb|WP_014382190) (pks) type I polyketide synthase [GPL 
+locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+intracellulare MOTT-02]
+Length=3674
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 79/333 (24%), Positives = 140/333 (42%), Gaps = 48/333 (14%)
+
+Query  14    VTEKTLRPLRHGEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVGPGVTS  73
+             +TE  +     G   +++E  G+   D+    G +    G I G +  GVV ++G GVT 
+Sbjct  3004  LTEAEVPAPDEGYVQVRVEAAGLNFRDVLNVLGLYPGDPGPI-GGDFAGVVTQLGAGVTG  3062
+
+Query  74    LKPGDRASVAWFYEGCGHCEYCNTGNETLCRNVKNAGY-TVDGGMAEECIVVADYAVKVP  132
+             ++ G R                               Y ++ G  +    V A +   +P
+Sbjct  3063  VEVGQRV------------------------------YGSMQGAFSSRFNVPAQFLAPIP  3092
+
+Query  133   EGLDSAAASSITCAGVTTYKAVKISHIKPGQWIAIYGL-GGLGNLALQYAKNVFNAKVIA  191
+             +G+ +  A++I  A +T   +   + +KPG  + I+   GG+G  A+Q A+  F A+V A
+Sbjct  3093  DGVSAVEAATIPAAALTVRLSFDWAQLKPGDKVLIHAASGGVGLAAVQMAQR-FGAEVFA  3151
+
+Query  192   IDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTGGAHAAVV--TAVAKAAFNSAVDAV  249
+                   +  L  ++G     +SRT D A  +   T GA   VV  +  ++    + + A 
+Sbjct  3152  TASTFKRATL-RKLGVKHVYDSRTTDFADQILADTDGAGVDVVLNSLTSEGFIEATLKAT  3210
+
+Query  250   RAGGRVVAVG----LPPEAMNLDIPRLVLDGIQVVGSLVGTRQD-----LTEAFQFAAEG  300
+                GR   +       PE M    P +  + I  + +++ T  D     LTE  +  A+G
+Sbjct  3211  AQNGRFAEIAKRDIWTPEQMAEARPDIAYE-IVALDTVMFTEPDRIRDLLTEVSKGLADG  3269
+
+Query  301   KVVPKVA-LRPLEDINVIFKEMEQGQIRGRMVI  332
+             +  P  A + PL +    F+ M+Q +  G++V+
+Sbjct  3270  EWTPLPAEIYPLTEARAAFRRMQQARHVGKIVV  3302
+
+
+>VFG029828(gb|YP_001701685) (pks) Probable polyketide synthase 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+abscessus ATCC 19977]
+Length=3697
+
+ Score = 55.8 bits (133),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 77/331 (23%), Positives = 136/331 (41%), Gaps = 46/331 (14%)
+
+Query  14    VTEKTLRPLRHGEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVGPGVTS  73
+             +TEK +     G   +++E  G+   D+    G +    G I G +  G+V ++G GVT 
+Sbjct  3002  ITEKEVPAPDEGYVQVRVEAAGLNFRDVLNVLGLYPGDPGPI-GGDFAGIVTQLGEGVTG  3060
+
+Query  74    LKPGDRASVAWFYEGCGHCEYCNTGNETLCRNVKNAGYTVDGGMAEECIVVADYAVKVPE  133
+             ++ G R              Y                 ++ G       V A +   +P+
+Sbjct  3061  VEVGQRV-------------YG----------------SMQGAFGSRFNVPAQFLAPIPD  3091
+
+Query  134   GLDSAAASSITCAGVTTYKAVKISHIKPGQWIAIYGL-GGLGNLALQYAKNVFNAKVIAI  192
+             G+    A++I  A +T   +   + +KPG  + I+   GG+G  A+Q A+  F A+V A 
+Sbjct  3092  GISGVEAATIPAAALTVRLSFDWAQLKPGDKVLIHAASGGVGLAAIQMAQQ-FGAEVFAT  3150
+
+Query  193   DVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTGGAHAAVV--TAVAKAAFNSAVDAVR  250
+                  +  L  ++G     +SRT D A  +   T GA   VV  +  ++    + + A  
+Sbjct  3151  ASTFKRATL-RKLGVKYVYDSRTTDFADQILADTDGAGVDVVLNSLTSEGFIEATLRATA  3209
+
+Query  251   AGGRVVAVG----LPPEAMNLDIPRLVLDGIQVVGSLVGTRQD-----LTEAFQFAAEGK  301
+               GR   +        E M    P +  + I  + +++    D     LTE  +  A+G+
+Sbjct  3210  KNGRFAEIAKRDIWTTEQMAQSRPDIAYE-IVALDTVMFQEPDRIRVLLTEVSEGLAKGE  3268
+
+Query  302   VVPKVA-LRPLEDINVIFKEMEQGQIRGRMV  331
+               P  A + PL +    F+ M+Q +  G++V
+Sbjct  3269  WTPLPAEIYPLTEARTAFRRMQQARHIGKIV  3299
+
+
+>VFG029823(gb|WP_011726922) (pks) type I polyketide synthase [GPL 
+locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+smegmatis str. MC2 155]
+Length=3652
+
+ Score = 54.3 bits (129),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 61/234 (26%), Positives = 104/234 (44%), Gaps = 16/234 (7%)
+
+Query  112   TVDGGMAEECIVVADYAVKVPEGLDSAAASSITCAGVTTYKAVKISHIKPGQWIAIYGL-  170
+             ++ G  A    V A +   +P+G+ +  A++I  A +T   A   + +KPG  + I+   
+Sbjct  3053  SMQGAFASRFNVPAQFLAPIPDGIGAVEAATIPAAALTVRLAFDWAQLKPGDKVLIHAAS  3112
+
+Query  171   GGLGNLALQYAKNVFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTGGAH  230
+             GG+G  A+Q A+    A+V A      +  L   +G     +SRT D A  +   T GA 
+Sbjct  3113  GGVGLAAIQMAQQS-GAEVFATASTFKRSTL-RRLGVKYVYDSRTTDFADQILADTNGAG  3170
+
+Query  231   AAVV-TAVAKAAF-NSAVDAVRAGGRVVAVG----LPPEAMNLDIPRLVLDGIQVVGSLV  284
+               VV  ++  A F  + + A   GGR   +        E M    P +  + I  + +++
+Sbjct  3171  VDVVLNSLTSAGFVEATLKATAQGGRFAEIAKRDIWSHEQMAEARPDIAYE-IVALDTVM  3229
+
+Query  285   GTRQD-----LTEAFQFAAEGKVVPKVA-LRPLEDINVIFKEMEQGQIRGRMVI  332
+              T  D     LTE     A G+  P  A + P+ +    F+ M+Q +  G++V+
+Sbjct  3230  FTEPDRIRDLLTEVSDGMARGEWTPLPAEIYPITEARSAFRRMQQARHIGKIVL  3283
+
+
+>VFG029835(gb|WP_016341938) (pks) type I polyketide synthase [GPL 
+locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+abscessus subsp. bolletii 50594]
+Length=3699
+
+ Score = 53.9 bits (128),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 77/331 (23%), Positives = 136/331 (41%), Gaps = 46/331 (14%)
+
+Query  14    VTEKTLRPLRHGEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVGPGVTS  73
+             +TEK +     G   +++E  G+   D+    G +    G I G +  G+V ++G GVT 
+Sbjct  3004  ITEKEVPAPDEGYVQVRVEAAGLNFRDVLNVLGLYPGDPGPI-GGDFAGIVTQLGEGVTG  3062
+
+Query  74    LKPGDRASVAWFYEGCGHCEYCNTGNETLCRNVKNAGYTVDGGMAEECIVVADYAVKVPE  133
+             ++ G R              Y                 ++ G       V A +   +P+
+Sbjct  3063  VEVGQRV-------------YG----------------SMQGAFGSRFNVPAQFLAPIPD  3093
+
+Query  134   GLDSAAASSITCAGVTTYKAVKISHIKPGQWIAIYGL-GGLGNLALQYAKNVFNAKVIAI  192
+             G+    A++I  A +T   +   + +KPG  + I+   GG+G  A+Q A+  F A+V A 
+Sbjct  3094  GISGVEAATIPAAALTVRLSFDWAQLKPGDKVLIHAASGGVGLAAIQMAQQ-FGAEVFAT  3152
+
+Query  193   DVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTGGAHAAVV--TAVAKAAFNSAVDAVR  250
+                  +  L  ++G     +SRT D A  +   T GA   VV  +  ++    + + A  
+Sbjct  3153  ASTFKRATL-RKLGVKYVYDSRTTDFADQILADTDGAGVDVVLNSLTSEGFIEATLRATA  3211
+
+Query  251   AGGRVVAVG----LPPEAMNLDIPRLVLDGIQVVGSLVGTRQD-----LTEAFQFAAEGK  301
+               GR   +        E M    P +  + I  + +++    D     LTE  +  A+G+
+Sbjct  3212  KNGRFAEIAKRDIWSTEQMAQARPDIAYE-IVALDTVMFQEPDRIRVLLTEVSEGLAKGE  3270
+
+Query  302   VVPKVA-LRPLEDINVIFKEMEQGQIRGRMV  331
+               P  A + PL +    F+ M+Q +  G++V
+Sbjct  3271  WRPLPAEIYPLTEARTAFRRMQQARHIGKIV  3301
+
+
+>VFG029827(gb|WP_011777591) (pks) type I polyketide synthase [GPL 
+locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+vanbaalenii PYR-1]
+Length=3676
+
+ Score = 51.6 bits (122),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 77/337 (23%), Positives = 136/337 (40%), Gaps = 50/337 (15%)
+
+Query  14    VTEKTLRPLRHGEALLKMECCGVCHTDLHVKNGDFGDKTGVILGHEGIGVVAEVGPGVTS  73
+             +TE  + P   G   +++E  G+   D+    G +    G I G +  G V ++G GVT 
+Sbjct  2981  LTETDVAPPAEGYVQVRVEAAGLNFRDVLNVLGLYPGDPGPI-GGDFAGTVTQLGSGVTG  3039
+
+Query  74    LKPGDRASVAWFYEGCGHCEYCNTGNETLCRNVKNAGYTVDGGMAEECIVVADYAVKVPE  133
+             L+ G R                              G+ + G  A    V A     +P+
+Sbjct  3040  LEVGQRVY----------------------------GF-MQGAFASRFNVPAQLLAPIPD  3070
+
+Query  134   GLDSAAASSITCAGVTTYKAVKISHIKPGQWIAIYGL-GGLGNLALQYAKNVFNAKVIAI  192
+             G+ +  A++I  A +T   A   + +KPG  + I+   GG+G  A+Q A+   +  V+  
+Sbjct  3071  GIGAVDAATIPAAALTARLAFDWAQLKPGDRVLIHAASGGVGLAAIQMAQQ--HGAVVFA  3128
+
+Query  193   DVNDGQLKLAEEMGADLTINSR-TEDAAKIVQEKTGGAHAAVVTAVAKAAF-NSAVDAVR  250
+               +  +     ++G D   +SR TE A +I+ +  G     V+ ++    F  + V A  
+Sbjct  3129  TASTYKRATLRKLGVDHVYDSRTTEFADQILADTDGEGVDVVLNSLTNEGFIEATVRATA  3188
+
+Query  251   AGGRVVAVG----LPPEAMNLDIPRL-----VLDGIQV-----VGSLVGTRQDLTEAFQF  296
+               GR   +       PE M    P +      LD + +     +  L+G   D       
+Sbjct  3189  QNGRFAEIAKRDIWTPEQMAAARPDIAYEIVALDTVTLLEPERIRGLLGEVSDGLGKADG  3248
+
+Query  297   AAEGKVVPKVA-LRPLEDINVIFKEMEQGQIRGRMVI  332
+             ++  + VP  A + PL +    F+ M+Q +  G++V+
+Sbjct  3249  SSRAEWVPLPAEIYPLTEARAAFRRMQQARHVGKIVL  3285
+
+
+>VFG007855(gb|WP_162292826) (ppsC) type I polyketide synthase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+ulcerans Agy99]
+Length=2202
+
+ Score = 48.5 bits (114),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 37/140 (26%), Positives = 70/140 (50%), Gaps = 4/140 (3%)
+
+Query  123   VVADYAVKVPEGLDSAAASSITCAGVTTYKAV-KISHIKPGQWIAIYG-LGGLGNLALQY  180
+              +AD  V +P+ L    A++   A +T + ++ ++  + PG+ + I+   GG+G  A+  
+Sbjct  1570  TIADLVVPIPDTLPDNEAATFGIAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSI  1629
+
+Query  181   AKNVFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTGGAHAAVV-TAVAK  239
+             AK +  A++     +D + ++   +G D   +SRT D A  + E T G    +V  ++A 
+Sbjct  1630  AK-MIGARIYTTAGSDAKREMLSSLGVDYVGDSRTVDFADEILELTDGYGVDIVLNSLAG  1688
+
+Query  240   AAFNSAVDAVRAGGRVVAVG  259
+              A    V  +  GGR + +G
+Sbjct  1689  EAIQRGVQILAPGGRFIELG  1708
+
+
+>VFG008878(gb|WP_162143265) (ppsC) type I polyketide synthase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+liflandii 128FXT]
+Length=2202
+
+ Score = 48.5 bits (114),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 37/140 (26%), Positives = 70/140 (50%), Gaps = 4/140 (3%)
+
+Query  123   VVADYAVKVPEGLDSAAASSITCAGVTTYKAV-KISHIKPGQWIAIYG-LGGLGNLALQY  180
+              +AD  V +P+ L    A++   A +T + ++ ++  + PG+ + I+   GG+G  A+  
+Sbjct  1570  TIADLVVPIPDTLPDNEAATFGIAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSI  1629
+
+Query  181   AKNVFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTGGAHAAVV-TAVAK  239
+             AK +  A++     +D + ++   +G D   +SRT D A  + E T G    +V  ++A 
+Sbjct  1630  AK-MIGARIYTTAGSDAKREMLSSLGVDYVGDSRTVDFADEILELTDGYGVDIVLNSLAG  1688
+
+Query  240   AAFNSAVDAVRAGGRVVAVG  259
+              A    V  +  GGR + +G
+Sbjct  1689  EAIQRGVQILAPGGRFIELG  1708
+
+
+>VFG022413(gb|WP_181013047) (ppsC) type I polyketide synthase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+marinum M]
+Length=2202
+
+ Score = 48.5 bits (114),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 37/140 (26%), Positives = 70/140 (50%), Gaps = 4/140 (3%)
+
+Query  123   VVADYAVKVPEGLDSAAASSITCAGVTTYKAV-KISHIKPGQWIAIYG-LGGLGNLALQY  180
+              +AD  V +P+ L    A++   A +T + ++ ++  + PG+ + I+   GG+G  A+  
+Sbjct  1570  TIADLVVPIPDTLPDNEAATFGIAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSI  1629
+
+Query  181   AKNVFNAKVIAIDVNDGQLKLAEEMGADLTINSRTEDAAKIVQEKTGGAHAAVV-TAVAK  239
+             AK +  A++     +D + ++   +G D   +SRT D A  + E T G    +V  ++A 
+Sbjct  1630  AK-MIGARIYTTAGSDAKREMLSSLGVDYVGDSRTVDFADEILELTDGYGVDIVLNSLAG  1688
+
+Query  240   AAFNSAVDAVRAGGRVVAVG  259
+              A    V  +  GGR + +G
+Sbjct  1689  EAIQRGVQILAPGGRFIELG  1708
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2460967235
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

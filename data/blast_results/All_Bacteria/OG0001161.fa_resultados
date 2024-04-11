@@ -1,0 +1,246 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1267.t1
+
+Length=334
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049124(gb|WP_012737540) (allD) ureidoglycolate dehydrogenase [...  110     1e-27
+
+
+>VFG049124(gb|WP_012737540) (allD) ureidoglycolate dehydrogenase 
+[Allantion utilization (VF0572) - Nutritional/Metabolic factor 
+(VFC0272)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=349
+
+ Score = 110 bits (275),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 94/339 (28%), Positives = 146/339 (43%), Gaps = 15/339 (4%)
+
+Query  2    IRMTLDEVRELAVRILRRHAFSEAHVQAVADTLVAGERDECASHGIWRLLGCIATLKAGK  61
+            ++++ + + +L    L     +  H   +AD LV  +     SHG  R+      +  G 
+Sbjct  1    MKVSRETLHQLIANKLNAAGLTHNHADIIADVLVYADARGIHSHGAVRVEYYAERISKGG  60
+
+Query  62   VSADAEPELHDIAP--GLLRVDAHGGFSQCAFRLGLPHLLEKARSQGIAAMAVNRCVHFS  119
+             +           P  G+L  D   G  Q A ++G+ H +E AR  GIA + + R  H  
+Sbjct  61   TNRHPTFSFEKTGPCSGILHADNAAG--QVAAKMGMEHAIEIARQNGIAVVGIRRMGHSG  118
+
+Query  120  ALWVEVEALTEAGLVALATTPSHAWVAPAGGRKPIFGTNPIAFGWPRPDGPPFVFDFATS  179
+            A+    +    AGL+ L+   S   V P GG +  +GTNP+AF  P        FD AT+
+Sbjct  119  AISYFTQQAARAGLIGLSLCQSDPMVVPFGGAEIYYGTNPLAFAAPGEGDDIITFDMATT  178
+
+Query  180  AVARGEIQLHERAGKPIPLGWGVDEQGEPTTDASAALRGAMLTFGGHKGSALAAMVELLA  239
+              A G+I       + IP  W VD+ G PTTD  A    A+L   G KG  L  M+++L+
+Sbjct  179  VQAWGKILDARSRHESIPDSWAVDKNGAPTTDPFAV--HALLPAAGPKGYGLMMMIDVLS  236
+
+Query  240  GPLIG-DLTSAESLAYDEGSRSSPYGGELLIAIDPRRMLGASA--EEHLARAETLFEGIV  296
+            G L+        S  YD  S+     G+L I I+P     +SA   +H++        I 
+Sbjct  237  GILLNLPFGRQVSSMYDNLSQGREL-GQLHIVINP-DFFSSSALFRQHISDTMRELSAIT  294
+
+Query  297  E----QGARLPSQRRFEARERSARDGVTIPEALHRELLA  331
+                      P Q      + SA +G+ I + ++  L++
+Sbjct  295  PAPGFSQVYYPGQNLDINEKNSAVNGIEIVDEIYDYLVS  333
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2440022833
+
+
+Query= g493.t1
+
+Length=349
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049124(gb|WP_012737540) (allD) ureidoglycolate dehydrogenase [...  609     0.0  
+
+
+>VFG049124(gb|WP_012737540) (allD) ureidoglycolate dehydrogenase 
+[Allantion utilization (VF0572) - Nutritional/Metabolic factor 
+(VFC0272)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=349
+
+ Score = 609 bits (1570),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 287/349 (82%), Positives = 317/349 (91%), Gaps = 0/349 (0%)
+
+Query  1    MKISRETLHQLIENKLYKAGLKREHAAIVADVLVYADARGIHSHGAVRVEYYAERISKGG  60
+            MK+SRETLHQLI NKL  AGL   HA I+ADVLVYADARGIHSHGAVRVEYYAERISKGG
+Sbjct  1    MKVSRETLHQLIANKLNAAGLTHNHADIIADVLVYADARGIHSHGAVRVEYYAERISKGG  60
+
+Query  61   TNREPTFRIENTGPCTAILHADNAAGQVAAKMGMEHAIEIAKKNGVAVVGISRMGHSGAI  120
+            TNR PTF  E TGPC+ ILHADNAAGQVAAKMGMEHAIEIA++NG+AVVGI RMGHSGAI
+Sbjct  61   TNRHPTFSFEKTGPCSGILHADNAAGQVAAKMGMEHAIEIARQNGIAVVGIRRMGHSGAI  120
+
+Query  121  SYFVRQAAREGLIGLSICQSDPMVVPFGGADIYYGTNPLAFAAPGEGDDIITFDMATTVQ  180
+            SYF +QAAR GLIGLS+CQSDPMVVPFGGA+IYYGTNPLAFAAPGEGDDIITFDMATTVQ
+Sbjct  121  SYFTQQAARAGLIGLSLCQSDPMVVPFGGAEIYYGTNPLAFAAPGEGDDIITFDMATTVQ  180
+
+Query  181  AWGKVLDARSRNESIPESWAVDKNGAPTHDPFAVNALLPAAGPKGYGLMMMIDILSGILL  240
+            AWGK+LDARSR+ESIP+SWAVDKNGAPT DPFAV+ALLPAAGPKGYGLMMMID+LSGILL
+Sbjct  181  AWGKILDARSRHESIPDSWAVDKNGAPTTDPFAVHALLPAAGPKGYGLMMMIDVLSGILL  240
+
+Query  241  GLPFGRQVSSMYEDLHAGRNLGQLHLVINPAFFSSCELFRKHISQTMQELNAVKPAPGFK  300
+             LPFGRQVSSMY++L  GR LGQLH+VINP FFSS  LFR+HIS TM+EL+A+ PAPGF 
+Sbjct  241  NLPFGRQVSSMYDNLSQGRELGQLHIVINPDFFSSSALFRQHISDTMRELSAITPAPGFS  300
+
+Query  301  QVYYPGQDQDIKQKNADMNGIDIVDDIYQYLISDALYLKSYETKNPFAQ  349
+            QVYYPGQ+ DI +KN+ +NGI+IVD+IY YL+SDALY +SYET +PFAQ
+Sbjct  301  QVYYPGQNLDINEKNSAVNGIEIVDEIYDYLVSDALYNRSYETNSPFAQ  349
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2597105848
+
+
+Query= g2865.t1
+
+Length=335
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049124(gb|WP_012737540) (allD) ureidoglycolate dehydrogenase [...  243     2e-78
+
+
+>VFG049124(gb|WP_012737540) (allD) ureidoglycolate dehydrogenase 
+[Allantion utilization (VF0572) - Nutritional/Metabolic factor 
+(VFC0272)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=349
+
+ Score = 243 bits (620),  Expect = 2e-78, Method: Compositional matrix adjust.
+ Identities = 127/330 (38%), Positives = 184/330 (56%), Gaps = 1/330 (0%)
+
+Query  6    VKENELKALAFNKLTQAGLDAQTAQQVADVLVHADITGVHSHGVIRVEHYCTRLNAGGLN  65
+            V    L  L  NKL  AGL    A  +ADVLV+AD  G+HSHG +RVE+Y  R++ GG N
+Sbjct  3    VSRETLHQLIANKLNAAGLTHNHADIIADVLVYADARGIHSHGAVRVEYYAERISKGGTN  62
+
+Query  66   PKATFSIEQISPSVAILDSDDGMGHCALIKATDHAISLARETGLGFVSVKNTSHCGALSW  125
+               TFS E+  P   IL +D+  G  A     +HAI +AR+ G+  V ++   H GA+S+
+Sbjct  63   RHPTFSFEKTGPCSGILHADNAAGQVAAKMGMEHAIEIARQNGIAVVGIRRMGHSGAISY  122
+
+Query  126  FIEQATSQGMVAIAMTRTDTCVAPYGGAERFLGTNPIAFGFPVKDSHPMIVDMATSAIAF  185
+            F +QA   G++ +++ ++D  V P+GGAE + GTNP+AF  P +    +  DMAT+  A+
+Sbjct  123  FTQQAARAGLIGLSLCQSDPMVVPFGGAEIYYGTNPLAFAAPGEGDDIITFDMATTVQAW  182
+
+Query  186  GKILHAKETGKPIGHGLALDKEGHITTDPHKIENLLPFGGHKGSGIALAIDALTGVLMGA  245
+            GKIL A+   + I    A+DK G  TTDP  +  LLP  G KG G+ + ID L+G+L+  
+Sbjct  183  GKILDARSRHESIPDSWAVDKNGAPTTDPFAVHALLPAAGPKGYGLMMMIDVLSGILLNL  242
+
+Query  246  NFSNHIVRMYGDYDKMRKLASLVIVIDPQMLGNP-LFSSIMSTMVNELRAVKPMPGVDKV  304
+             F   +  MY +  + R+L  L IVI+P    +  LF   +S  + EL A+ P PG  +V
+Sbjct  243  PFGRQVSSMYDNLSQGRELGQLHIVINPDFFSSSALFRQHISDTMRELSAITPAPGFSQV  302
+
+Query  305  LAPNDPQIAYKEKCLKEGIPVAEGIYQYLI  334
+              P       ++     GI + + IY YL+
+Sbjct  303  YYPGQNLDINEKNSAVNGIEIVDEIYDYLV  332
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2450495034
+
+
+Query= g3427.t1
+
+Length=332
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049124(gb|WP_012737540) (allD) ureidoglycolate dehydrogenase [...  99.0    2e-23
+
+
+>VFG049124(gb|WP_012737540) (allD) ureidoglycolate dehydrogenase 
+[Allantion utilization (VF0572) - Nutritional/Metabolic factor 
+(VFC0272)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=349
+
+ Score = 99.0 bits (245),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 85/333 (26%), Positives = 141/333 (42%), Gaps = 12/333 (4%)
+
+Query  1    MKVTFEELKGAFYRVLRSRNIAEDTADECAEMFARTTESGVYSHGVNRFPRFIQQLDNG-  59
+            MKV+ E L       L +  +  + AD  A++       G++SHG  R   + +++  G 
+Sbjct  1    MKVSRETLHQLIANKLNAAGLTHNHADIIADVLVYADARGIHSHGAVRVEYYAERISKGG  60
+
+Query  60   -DIIPDAKPQRVTSLGAIEQWDAQRAIGNLTAKKMMDRAIELASDHGIGLVALRNANHWM  118
+             +  P    ++      I   D   A G + AK  M+ AIE+A  +GI +V +R   H  
+Sbjct  61   TNRHPTFSFEKTGPCSGILHAD--NAAGQVAAKMGMEHAIEIARQNGIAVVGIRRMGHSG  118
+
+Query  119  RGGSYGWQAAEKGYIGICWTNSIAVMPPWGAKECRIGTNPLIVAIPST--PITMVDMSMS  176
+                +  QAA  G IG+    S  ++ P+G  E   GTNPL  A P     I   DM+ +
+Sbjct  119  AISYFTQQAARAGLIGLSLCQSDPMVVPFGGAEIYYGTNPLAFAAPGEGDDIITFDMATT  178
+
+Query  177  MFSYGMLEVNRLAGRELPVDGGFDDNGQLTKEPGVIEKNRRILPMGYWKGSGLSIVLDMI  236
+            + ++G +   R     +P     D NG  T +P  +     +LP    KG GL +++D++
+Sbjct  179  VQAWGKILDARSRHESIPDSWAVDKNGAPTTDPFAVHA---LLPAAGPKGYGLMMMIDVL  235
+
+Query  237  ATLLSN---GSSVAEVTQENSDEYGVSQIFIAIEVDKLIDGATRDAKLQRIMDFITTAER  293
+            + +L N   G  V+ +    S    + Q+ I I  D     A     +   M  ++    
+Sbjct  236  SGILLNLPFGRQVSSMYDNLSQGRELGQLHIVINPDFFSSSALFRQHISDTMRELSAITP  295
+
+Query  294  ADDNVAIRLPGHEFTKLLDDNRRHGITIDDSVW  326
+            A     +  PG        ++  +GI I D ++
+Sbjct  296  APGFSQVYYPGQNLDINEKNSAVNGIEIVDEIY  328
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2419078431
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

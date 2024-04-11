@@ -1,0 +1,2658 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1123.t1
+
+Length=385
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044123(gb|WP_010930940) (bcr) alcaligin siderophore export MFS...  74.3    2e-14
+VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein req...  68.9    8e-13
+VFG047356(gb|WP_014549027) (fslD) MFS transporter, inner membrane...  53.5    1e-07
+VFG047350(gb|WP_003017404) (fslD) MFS transporter, inner membrane...  47.8    7e-06
+
+
+>VFG044123(gb|WP_010930940) (bcr) alcaligin siderophore export 
+MFS transporter Bcr [Alcaligin (VF0688) - Nutritional/Metabolic 
+factor (VFC0272)] [Bordetella pertussis Tohama I]
+Length=407
+
+ Score = 74.3 bits (181),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 96/347 (28%), Positives = 141/347 (41%), Gaps = 10/347 (3%)
+
+Query  28   PALPALASHWRLDDATSQWTMALFFVGFAPGIWLWGWLADRLGRRPALLGGLGLAALATF  87
+            PA  AL   + +   T Q T+ ++   +A  + L G L+D LGRR  +LG LG       
+Sbjct  33   PAFGALQREFGVPQETVQLTLGVYMFCYAAMLLLHGTLSDSLGRRRVVLGALGFYVWGAL  92
+
+Query  88   GAWASTDYSYLLACRLVQGLGLATCSVTVQASLRDVLQGPALMSYFVTLGAVLAWSPAVG  147
+             A A+  + +LLA R +QGL      V  QA +RD  QG A       L  V   SPA+ 
+Sbjct  93   LATAAPGFGWLLAARALQGLSAGAGVVVGQAIIRDCYQGAAAQRSMSYLILVFNLSPALA  152
+
+Query  148  PLGGQWLADLGGHPAVFATLAVLLASLAALVVPAW--PET-RPLLAGTPEPATLAI-FRR  203
+            P+ G  LA   G  ++F  L +L A+  AL + AW  PET  P    T     LA  +R 
+Sbjct  153  PVIGGQLAVHHGWRSIFFMLGLLAAT--ALTLCAWRLPETLAPAKRQTLSLRGLAAGYRE  210
+
+Query  204  VLADRPLQTRALLVAVLNVLVFSFYAAGPFMVG---DLPGLGFGWIGLAIAIAGSLGALL  260
+            VL +       L  +++         A P  +    DLP   F ++ + +      GA +
+Sbjct  211  VLRNGNFTAPGLAFSLVFAAQGLLIGAAPDFIANVLDLPETNFAYLFVPLVAGAMTGAAI  270
+
+Query  261  NRRLPRTWNSARRVRLGLALAAAGATAQTLLAAVGYAEGLYWA-LPALPIFIGFGVAIPN  319
+              R    W   R + L   L      A  +      +  L WA LP      G  +++P 
+Sbjct  271  AARHAGRWRDTRIIGLAYLLMNGSCLAYAIYFWTALSPALPWAVLPPALFTCGLAMSVPA  330
+
+Query  320  LLGPALHAYDDCRGRAGALFGLAYYLLIGLGLGASTLLPFDRPWPLA  366
+            +    L +     G   ++ G    L   +  G    L + +P  LA
+Sbjct  331  MTLHILESVPALSGTGASVLGFMQMLAFSIASGWGVPLTYGQPSVLA  377
+
+
+>VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein 
+required for import of Legiobactin [Legiobactin (VF0291) - 
+Nutritional/Metabolic factor (VFC0272)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=386
+
+ Score = 68.9 bits (167),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 85/339 (25%), Positives = 146/339 (43%), Gaps = 52/339 (15%)
+
+Query  5    PRPPLLLVLALLALPQVAETILSPALPALASHWRLDDATSQWTMALFFVGFAPGIWLWGW  64
+             +  LL+VL    L  +    L+PALP+L  ++ +   T Q T++LF +G A  + LWG 
+Sbjct  2    KKNALLIVLLTWFLGNMDIHFLTPALPSLVDYFSVTPNTVQLTISLFLLGKALSMILWGL  61
+
+Query  65   LADRLGRRPALLGGLGLAALATFGAWASTDYSYL--LACRLVQGLGLATCSVTVQASLRD  122
+            L++R GR+P  +GGL L  L+ F    + ++S L  L CR +QG+ +    +  +A + D
+Sbjct  62   LSERYGRKPIFIGGLLLFILSNF--LIALNHSILPFLVCRFLQGISVGATLLMGRAMIND  119
+
+Query  123  VLQGPALMSYFVTLGAVLAWSPAVGPLGGQWLADLGGHPAVFATLAVLLAS-----LAAL  177
+                     YF       AW   +  L   +L   GG          L+ S     +A+L
+Sbjct  120  THNEQNATKYF-------AWLFTLAGLFICFLPFFGG----------LINSYWNWQIASL  162
+
+Query  178  VVPAW-----------PETRPLLAGTPE--PATLAIFRRVLADRPLQTRALLVAVLNVLV  224
+            ++ A+            ET+P     P    + + +F     + PL    LL++ L +  
+Sbjct  163  IIAAYGLLLLPLCRGLKETKPHYVKFPRLGHSIMVVF-----NHPLFVSYLLISALMMAG  217
+
+Query  225  FS-FYAAGPFMV---GDLPGLGFGWIGLAIAIAGSLGALLNRRLPRTWNSARRVRLGLAL  280
+             S F  +  F++    +     +G I   +AI   LG      + + ++S +  +LG+  
+Sbjct  218  ESAFNTSASFILIKGENFTSAQYGTIKTTMAIMHLLGTACCGLIAKYYHSIQLTKLGVRF  277
+
+Query  281  AAAGATAQTLLAAVGYAEGLY--WALPALPIFIGFGVAI  317
+                A    L   V  AE +Y  + +P +  + G G  +
+Sbjct  278  FIFAAFLMWLF--VFSAENIYLTFIVPMVIYYFGTGFIV  314
+
+
+>VFG047356(gb|WP_014549027) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella cf. tularensis subsp. novicida 3523]
+Length=396
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 51/178 (29%), Positives = 82/178 (46%), Gaps = 0/178 (0%)
+
+Query  10   LLVLALLALPQVAETILSPALPALASHWRLDDATSQWTMALFFVGFAPGIWLWGWLADRL  69
+            LLVL    L  +    L P LP L+ +       +Q+ +A F  G A G+ ++G L++  
+Sbjct  13   LLVLLTWFLGNMGVHFLLPLLPILSKNLDASVKLTQYVIAFFLAGKALGMIVYGPLSEIY  72
+
+Query  70   GRRPALLGGLGLAALATFGAWASTDYSYLLACRLVQGLGLATCSVTVQASLRDVLQGPAL  129
+            GRR  +L GL L   ++     +TD  +L+  R VQGLG++   +  +  + D       
+Sbjct  73   GRRKFMLLGLILYMSSSLLCMLTTDIYWLIFWRFVQGLGVSGTILMGRVIINDSYPNDKA  132
+
+Query  130  MSYFVTLGAVLAWSPAVGPLGGQWLADLGGHPAVFATLAVLLASLAALVVPAWPETRP  187
+             + F  L AV A   A  P  G  +A        FAT+ V  + +  +++   PET+ 
+Sbjct  133  ANIFGYLFAVAAVIIACLPTLGGIIAIFNNWQLAFATMLVYSSLIFIIMLKYLPETQS  190
+
+
+>VFG047350(gb|WP_003017404) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella tularensis subsp. holarctica FTNF002-00]
+Length=396
+
+ Score = 47.8 bits (112),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 40/144 (28%), Positives = 69/144 (48%), Gaps = 0/144 (0%)
+
+Query  44   SQWTMALFFVGFAPGIWLWGWLADRLGRRPALLGGLGLAALATFGAWASTDYSYLLACRL  103
+            +Q+ MA F  G A G+ ++G L++  GRR  +L GL L   ++     +TD  +L+  R 
+Sbjct  47   TQYVMAFFLAGKALGMIVYGPLSEIYGRRKFMLFGLILYMSSSLLCMLTTDIYWLIFWRF  106
+
+Query  104  VQGLGLATCSVTVQASLRDVLQGPALMSYFVTLGAVLAWSPAVGPLGGQWLADLGGHPAV  163
+            VQGLG++   +  +  + D        + F  L A+ A   A  P  G  +A        
+Sbjct  107  VQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIAIFKNWQLA  166
+
+Query  164  FATLAVLLASLAALVVPAWPETRP  187
+            FAT+ +  + +  +++   PET+ 
+Sbjct  167  FATMMIYSSLIFVIMLKFLPETQS  190
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.142    0.460    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2955713977
+
+
+Query= g3645.t1
+
+Length=392
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044123(gb|WP_010930940) (bcr) alcaligin siderophore export MFS...  137     1e-36
+VFG047356(gb|WP_014549027) (fslD) MFS transporter, inner membrane...  123     1e-31
+VFG047349(gb|WP_003041328) (fslD) MFS transporter, inner membrane...  113     5e-28
+VFG047359(gb|WP_014550287) (fslD) MFS transporter, inner membrane...  112     1e-27
+VFG047350(gb|WP_003017404) (fslD) MFS transporter, inner membrane...  108     5e-26
+VFG044196(gb|WP_003022879) (fslD) MFS transporter, inner membrane...  107     6e-26
+VFG047353(gb|WP_012429068) (fslD) MFS transporter, inner membrane...  105     4e-25
+VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein req...  88.2    4e-19
+VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux M...  56.6    1e-08
+
+
+>VFG044123(gb|WP_010930940) (bcr) alcaligin siderophore export 
+MFS transporter Bcr [Alcaligin (VF0688) - Nutritional/Metabolic 
+factor (VFC0272)] [Bordetella pertussis Tohama I]
+Length=407
+
+ Score = 137 bits (346),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 118/357 (33%), Positives = 176/357 (49%), Gaps = 17/357 (5%)
+
+Query  5    ILLILGALSAFGPLAIDFYLPSFPTLAKAFATDVEHVQLSLAAYFAGLSIGQLLYGPVAD  64
+            ++++LG LS   P +ID YLP+F  L + F    E VQL+L  Y    +   LL+G ++D
+Sbjct  13   MMVMLGLLSCVAPASIDAYLPAFGALQREFGVPQETVQLTLGVYMFCYAAMLLLHGTLSD  72
+
+Query  65   RYGRRLPLLVGVSIFTLASAACALAPSLEWLIAARFVQALGGCAGMVISRAVVRDLCDPI  124
+              GRR  +L  +  +   +     AP   WL+AAR +Q L   AG+V+ +A++RD     
+Sbjct  73   SLGRRRVVLGALGFYVWGALLATAAPGFGWLLAARALQGLSAGAGVVVGQAIIRDCYQGA  132
+
+Query  125  GAAKAFSQLMLVMGLAPILAPVAGGLLLDWQGWQSIFVCLTLFAALAGLGVALWLPETI-  183
+             A ++ S L+LV  L+P LAPV GG L    GW+SIF  L L AA A    A  LPET+ 
+Sbjct  133  AAQRSMSYLILVFNLSPALAPVIGGQLAVHHGWRSIFFMLGLLAATALTLCAWRLPETLA  192
+
+Query  184  PADGERPPLSGALGQYRRLFADRLFLAYGLSGGVAMAGMFAYIAGSPYVFIQLYGIPAEH  243
+            PA  +   L G    YR +  +  F A GL+  +  A     I  +P     +  +P  +
+Sbjct  193  PAKRQTLSLRGLAAGYREVLRNGNFTAPGLAFSLVFAAQGLLIGAAPDFIANVLDLPETN  252
+
+Query  244  YGWLFGSNAAGFIVMAQVNARLL-RYRGPAFWLRRIIWGYLACGLALLGIA-----SLQP  297
+            + +LF    AG +  A + AR   R+R      R I   YL    + L  A     +L P
+Sbjct  253  FAYLFVPLVAGAMTGAAIAARHAGRWRDT----RIIGLAYLLMNGSCLAYAIYFWTALSP  308
+
+Query  298  ATLWPLLVP-LFGCVASLGCIIPNASACAMAGQGQHAGSASALMGSLQ---FSVAAG  350
+            A  W +L P LF C   L   +P  +   +      +G+ ++++G +Q   FS+A+G
+Sbjct  309  ALPWAVLPPALFTC--GLAMSVPAMTLHILESVPALSGTGASVLGFMQMLAFSIASG  363
+
+
+>VFG047356(gb|WP_014549027) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella cf. tularensis subsp. novicida 3523]
+Length=396
+
+ Score = 123 bits (309),  Expect = 1e-31, Method: Compositional matrix adjust.
+ Identities = 98/381 (26%), Positives = 182/381 (48%), Gaps = 18/381 (5%)
+
+Query  2    NLRILLILGALSAF-GPLAIDFYLPSFPTLAKAFATDVEHVQLSLAAYFAGLSIGQLLYG  60
+            NL+ + +L  L+ F G + + F LP  P L+K     V+  Q  +A + AG ++G ++YG
+Sbjct  7    NLKYIPLLVLLTWFLGNMGVHFLLPLLPILSKNLDASVKLTQYVIAFFLAGKALGMIVYG  66
+
+Query  61   PVADRYGRRLPLLVGVSIFTLASAACALAPSLEWLIAARFVQALGGCAGMVISRAVVRDL  120
+            P+++ YGRR  +L+G+ ++  +S  C L   + WLI  RFVQ LG    +++ R ++ D 
+Sbjct  67   PLSEIYGRRKFMLLGLILYMSSSLLCMLTTDIYWLIFWRFVQGLGVSGTILMGRVIINDS  126
+
+Query  121  CDPIGAAKAFSQLMLVMGLAPILAPVAGGLLLDWQGWQSIFVCLTLFAALAGLGVALWLP  180
+                 AA  F  L  V  +     P  GG++  +  WQ  F  + ++++L  + +  +LP
+Sbjct  127  YPNDKAANIFGYLFAVAAVIIACLPTLGGIIAIFNNWQLAFATMLVYSSLIFIIMLKYLP  186
+
+Query  181  ETIPADGERP-PLSGALGQYRRLFADRLFLAYGLSGGVAMAGMFAYIAGSPYVFIQLYGI  239
+            ET     ++P  L G L  Y  +  +R+F  Y +   + +AG  A+   + ++ I+ Y +
+Sbjct  187  ETQSEKLQKPFSLLGVLKDYSSILRNRVFFGYLMCTSLMVAGESAFNTNAAFLMIKTYAV  246
+
+Query  240  PAEHYGWLFGSNAAGFIVMAQVNARLLRYRGPAFWLRRIIWGYLACGLALLGIAS--LQP  297
+              + +G +  S     ++ A +  R        + L+R I      G  +L +A+  L  
+Sbjct  247  SPKTFGMMMSSLLIAHLLGAAICGR--------YVLKRGISNLTGVGALILVLAAVFLSA  298
+
+Query  298  ATLWPLLVPLFGCVASL------GCIIPNASACAMAGQGQHAGSASALMGSLQFSVAAGA  351
+             ++     P     A        G I+  A+   ++   +  G+A A   SL+F ++A +
+Sbjct  299  TSILKFDGPYLTITAMFIYFLGTGFIMTTAAVGVVSPFPKMIGTAMAFALSLEFLLSALS  358
+
+Query  352  SALVGVLHDGTAIPMTLVIAV  372
+            S +   L   +  P+T++I +
+Sbjct  359  SFITSHLSISSLFPITVLITL  379
+
+
+>VFG047349(gb|WP_003041328) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella novicida U112]
+Length=396
+
+ Score = 113 bits (283),  Expect = 5e-28, Method: Compositional matrix adjust.
+ Identities = 98/380 (26%), Positives = 187/380 (49%), Gaps = 16/380 (4%)
+
+Query  2    NLRILLILGALSAF-GPLAIDFYLPSFPTLAKAFATDVEHVQLSLAAYFAGLSIGQLLYG  60
+            NL+ + +L  L+ F G + + F LP  P L+K     V+  Q  +A + AG ++G ++YG
+Sbjct  7    NLKFIPLLVLLTWFLGNMGVHFLLPLLPLLSKNLDASVKLTQYVIAFFLAGKALGMIVYG  66
+
+Query  61   PVADRYGRRLPLLVGVSIFTLASAACALAPSLEWLIAARFVQALGGCAGMVISRAVVRDL  120
+            P+++ YGRR  +L+G+ ++  +S  C L  ++ WLI  RFVQ LG    +++ R ++ D 
+Sbjct  67   PLSEIYGRRKFMLLGLILYMSSSLLCMLTTNIYWLIFWRFVQGLGVSGTILMGRVIINDS  126
+
+Query  121  CDPIGAAKAFSQLMLVMGLAPILAPVAGGLLLDWQGWQSIFVCLTLFAALAGLGVALWLP  180
+                 AA  F  L  +  +     P  GG++  ++ WQ  F  + ++++L  + +  +LP
+Sbjct  127  YPNDKAANIFGYLFALAAVIIACLPTLGGIIAIFKNWQLAFATMMIYSSLIFVIMLKYLP  186
+
+Query  181  ETIPADGERP-PLSGALGQYRRLFADRLFLAYGLSGGVAMAGMFAYIAGSPYVFIQLYGI  239
+            ET     ++   L G +  Y  +  +R+FL Y +   + +AG  A+   + ++ I+ YG+
+Sbjct  187  ETQSEQFQKSFSLIGIIKDYSNILRNRVFLGYLMCTSLMVAGESAFNTNAAFLMIKTYGV  246
+
+Query  240  PAEHYGWLFGSNAAGFIVMAQVNARLLRYRGPAFWLRRIIWGYLACGLA--LLGIASLQP  297
+              + +G +  S     ++ A +  R +  RG +   +    G L   LA   L + S+  
+Sbjct  247  SPKIFGMMMSSLLIAHLLGAAICGRYVVKRGIS---KLTGVGALILVLAAMFLSVTSILK  303
+
+Query  298  -----ATLWPLLVPLFGCVASLGCIIPNASACAMAGQGQHAGSASALMGSLQFSVAAGAS  352
+                  T+  + +   G     G I+  A+   ++   +  G+A A   SL+F ++A +S
+Sbjct  304  FDGPYLTITAMFIYFLGT----GFIMTTAAVGVVSPFPKMIGTAMAFALSLEFLLSALSS  359
+
+Query  353  ALVGVLHDGTAIPMTLVIAV  372
+             +   L   +  P+T++I +
+Sbjct  360  FITSHLSISSLFPITVLITL  379
+
+
+>VFG047359(gb|WP_014550287) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella cf. novicida Fx1]
+Length=396
+
+ Score = 112 bits (281),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 98/380 (26%), Positives = 186/380 (49%), Gaps = 16/380 (4%)
+
+Query  2    NLRILLILGALSAF-GPLAIDFYLPSFPTLAKAFATDVEHVQLSLAAYFAGLSIGQLLYG  60
+            NL+ + +L  L+ F G + + F LP  P L+K     V+  Q  +A + AG ++G ++YG
+Sbjct  7    NLKYIPLLVLLTWFLGNMGVHFLLPLLPLLSKNLDASVKLTQYVIAFFLAGKALGMIVYG  66
+
+Query  61   PVADRYGRRLPLLVGVSIFTLASAACALAPSLEWLIAARFVQALGGCAGMVISRAVVRDL  120
+            P+++ YGRR  +L+G+ ++  +S  C L   + WLI  RFVQ LG    +++ R ++ D 
+Sbjct  67   PLSEIYGRRKFMLLGLILYMSSSLLCMLTTDIYWLIFWRFVQGLGVSGTILMGRVIINDS  126
+
+Query  121  CDPIGAAKAFSQLMLVMGLAPILAPVAGGLLLDWQGWQSIFVCLTLFAALAGLGVALWLP  180
+                 AA  F  L  +  +     P  GG++  ++ WQ  F  + ++++L  + +  +LP
+Sbjct  127  YPNDKAANIFGYLFALAAVIIACLPTLGGIIAIFKNWQLAFATMMIYSSLIFVIMLKYLP  186
+
+Query  181  ETIPADGERP-PLSGALGQYRRLFADRLFLAYGLSGGVAMAGMFAYIAGSPYVFIQLYGI  239
+            ET     ++   L G +  Y  +  +R+FL Y +   + +AG  A+   + ++ I+ YG+
+Sbjct  187  ETQSEQFQKSFSLIGIIKDYSNILRNRVFLGYLMCTSLMVAGESAFNTNAAFLMIKTYGV  246
+
+Query  240  PAEHYGWLFGSNAAGFIVMAQVNARLLRYRGPAFWLRRIIWGYLACGLA--LLGIASLQP  297
+              + +G +  S     ++ A +  R +  RG +   +    G L   LA   L + S+  
+Sbjct  247  SPKIFGMMMSSLLIAHLLGAAICGRYVVKRGIS---KLTGVGALILVLAAMFLSVTSILK  303
+
+Query  298  -----ATLWPLLVPLFGCVASLGCIIPNASACAMAGQGQHAGSASALMGSLQFSVAAGAS  352
+                  T+  + +   G     G I+  A+   ++   +  G+A A   SL+F ++A +S
+Sbjct  304  FDGPYLTITAMFIYFLGT----GFIMTTAAVGVVSPFPKMIGTAMAFALSLEFLLSALSS  359
+
+Query  353  ALVGVLHDGTAIPMTLVIAV  372
+             +   L   +  P+T++I +
+Sbjct  360  FITSHLSISSLFPITVLITL  379
+
+
+>VFG047350(gb|WP_003017404) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella tularensis subsp. holarctica FTNF002-00]
+Length=396
+
+ Score = 108 bits (269),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 86/344 (25%), Positives = 166/344 (48%), Gaps = 15/344 (4%)
+
+Query  37   DVEHVQLSLAAYFAGLSIGQLLYGPVADRYGRRLPLLVGVSIFTLASAACALAPSLEWLI  96
+             V+  Q  +A + AG ++G ++YGP+++ YGRR  +L G+ ++  +S  C L   + WLI
+Sbjct  43   SVKLTQYVMAFFLAGKALGMIVYGPLSEIYGRRKFMLFGLILYMSSSLLCMLTTDIYWLI  102
+
+Query  97   AARFVQALGGCAGMVISRAVVRDLCDPIGAAKAFSQLMLVMGLAPILAPVAGGLLLDWQG  156
+              RFVQ LG    +++ R ++ D      AA  F  L  +  +     P  GG++  ++ 
+Sbjct  103  FWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIAIFKN  162
+
+Query  157  WQSIFVCLTLFAALAGLGVALWLPETIPADGERP-PLSGALGQYRRLFADRLFLAYGLSG  215
+            WQ  F  + ++++L  + +  +LPET     ++   L G +  Y  +  +R+FL Y +  
+Sbjct  163  WQLAFATMMIYSSLIFVIMLKFLPETQSEQFQKSFSLIGIIKDYSNILRNRVFLGYLMCT  222
+
+Query  216  GVAMAGMFAYIAGSPYVFIQLYGIPAEHYGWLFGSNAAGFIVMAQVNARLLRYRGPAFWL  275
+             + +AG  A+   + ++ I+ YG+  + +G +  S     ++ A +  R +  RG +   
+Sbjct  223  SLMVAGESAFNTNAAFLMIKTYGVSPKIFGMMMSSLLIAHLLGAAICGRYVVKRGIS---  279
+
+Query  276  RRIIWGYLACGLA--LLGIASLQP-----ATLWPLLVPLFGCVASLGCIIPNASACAMAG  328
+            +    G L   LA   L + S+        T+  + +   G     G I+  A+   ++ 
+Sbjct  280  KLTGVGVLILVLAAMFLSVTSILKFDGPYLTITAMFIYFLGT----GFIMTTAAVGVVSP  335
+
+Query  329  QGQHAGSASALMGSLQFSVAAGASALVGVLHDGTAIPMTLVIAV  372
+              +  G+A A   SL+F ++A +S +   L   +  P+T++I +
+Sbjct  336  FPKMIGTAMAFALSLEFLLSALSSFITSHLSISSLFPITVLITL  379
+
+
+>VFG044196(gb|WP_003022879) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella tularensis subsp. tularensis SCHU 
+S4]
+Length=396
+
+ Score = 107 bits (268),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 97/380 (26%), Positives = 184/380 (48%), Gaps = 16/380 (4%)
+
+Query  2    NLRILLILGALSAF-GPLAIDFYLPSFPTLAKAFATDVEHVQLSLAAYFAGLSIGQLLYG  60
+            NL+ + +L  L+ F G + + F LP  P L+      V+  Q  +A + AG ++G ++YG
+Sbjct  7    NLKYIPLLVLLTWFLGNMGVHFLLPLLPLLSNNLDASVKLTQYVIAFFLAGKALGMIVYG  66
+
+Query  61   PVADRYGRRLPLLVGVSIFTLASAACALAPSLEWLIAARFVQALGGCAGMVISRAVVRDL  120
+            P+++ YGRR  +L G+ ++  +S  C L   + WLI  RFVQ LG    +++ R ++ D 
+Sbjct  67   PLSEIYGRRKFMLFGLILYMSSSLLCMLTTDIYWLIFWRFVQGLGVSGTILMGRVIINDS  126
+
+Query  121  CDPIGAAKAFSQLMLVMGLAPILAPVAGGLLLDWQGWQSIFVCLTLFAALAGLGVALWLP  180
+                 AA  F  L  +  +     P  GG++  ++ WQ  F  + ++++L  + +  +LP
+Sbjct  127  YPNDKAANIFGYLFALAAVIIACLPTLGGIIAIFKNWQLAFATMMIYSSLIFVIMLKFLP  186
+
+Query  181  ETIPADGERP-PLSGALGQYRRLFADRLFLAYGLSGGVAMAGMFAYIAGSPYVFIQLYGI  239
+            ET     ++   L G +  Y  +  +R+FL Y +   + +AG  A+   + ++ I+ YG+
+Sbjct  187  ETQSEQFQKSFSLIGIIKDYSNILRNRVFLGYLMCTSLMVAGESAFNTNAAFLMIKTYGV  246
+
+Query  240  PAEHYGWLFGSNAAGFIVMAQVNARLLRYRGPAFWLRRIIWGYLACGLA--LLGIASLQP  297
+              + +G +  S     ++ A +  R +  RG +   +    G L   LA   L + S+  
+Sbjct  247  SPKIFGMMMSSLLIAHLLGAAICGRYVVKRGIS---KLTGVGALILVLAAMFLSVTSILK  303
+
+Query  298  -----ATLWPLLVPLFGCVASLGCIIPNASACAMAGQGQHAGSASALMGSLQFSVAAGAS  352
+                  T+  + +   G     G I+  A+   ++   +  G+A A   SL+F ++A +S
+Sbjct  304  FDGPYLTITAMFIYFLGT----GFIMTTAAVGVVSPFPKMIGTAMAFALSLEFLLSALSS  359
+
+Query  353  ALVGVLHDGTAIPMTLVIAV  372
+             +   L   +  P+T++I +
+Sbjct  360  FITSHLSISSLFPITVLITL  379
+
+
+>VFG047353(gb|WP_012429068) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella tularensis subsp. mediasiatica FSC147]
+Length=396
+
+ Score = 105 bits (262),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 96/376 (26%), Positives = 183/376 (49%), Gaps = 8/376 (2%)
+
+Query  2    NLRILLILGALSAF-GPLAIDFYLPSFPTLAKAFATDVEHVQLSLAAYFAGLSIGQLLYG  60
+            NL+ + +L  L+ F G + + F LP  P L+      V+  Q  +A + AG ++G ++YG
+Sbjct  7    NLKYIPLLVLLTWFLGNMGVHFLLPLLPLLSNNLDASVKLTQYVIAFFLAGKALGMIVYG  66
+
+Query  61   PVADRYGRRLPLLVGVSIFTLASAACALAPSLEWLIAARFVQALGGCAGMVISRAVVRDL  120
+            P+++ YGRR  +L G+ ++  +S  C L   + WLI  RFVQ LG    +++ R ++ D 
+Sbjct  67   PLSEIYGRRKFMLFGLILYMSSSLLCMLTTDIYWLIFWRFVQGLGVSGTILMGRVIINDS  126
+
+Query  121  CDPIGAAKAFSQLMLVMGLAPILAPVAGGLLLDWQGWQSIFVCLTLFAALAGLGVALWLP  180
+                 AA  F  L  +  +     P  GG++  ++ WQ  F  + ++++L  + +  +LP
+Sbjct  127  YPNDKAANIFGYLFALAAVIIACLPTLGGIIAIFKNWQLAFATMMIYSSLIFVIMLKFLP  186
+
+Query  181  ETIPADGERP-PLSGALGQYRRLFADRLFLAYGLSGGVAMAGMFAYIAGSPYVFIQLYGI  239
+            ET     ++   L G +  Y  +  +R+FL Y +   + +AG  A+   + ++ I+ YG+
+Sbjct  187  ETQSEQFQKSFSLIGIIKDYSNILRNRVFLGYLMCTSLMVAGESAFNTNAAFLMIKTYGV  246
+
+Query  240  PAEHYGWLFGSNAAGFIVMAQVNARLLRYRGPAFWLRRIIWGYLACGLA--LLGIAS-LQ  296
+              + +G +  S     ++ A +    +  RG +   +    G L   LA   L + S L+
+Sbjct  247  SPKIFGMMMSSLLIAHLLGAAICGHYVVKRGIS---KLTGVGALILVLAAMFLSVTSILK  303
+
+Query  297  PATLWPLLVPLFGCVASLGCIIPNASACAMAGQGQHAGSASALMGSLQFSVAAGASALVG  356
+                +  +  +F      G I+  A+   ++   +  G+A A   SL+F ++A +S +  
+Sbjct  304  FDGPYLTITAMFIYFLGTGFIMTTAAVGVVSPFPKMIGTAMAFALSLEFLLSALSSFITS  363
+
+Query  357  VLHDGTAIPMTLVIAV  372
+             L   +  P+T++I +
+Sbjct  364  HLSISSLFPITVLITL  379
+
+
+>VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein 
+required for import of Legiobactin [Legiobactin (VF0291) - 
+Nutritional/Metabolic factor (VFC0272)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=386
+
+ Score = 88.2 bits (217),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 92/395 (23%), Positives = 176/395 (45%), Gaps = 48/395 (12%)
+
+Query  16   GPLAIDFYLPSFPTLAKAFATDVEHVQLSLAAYFAGLSIGQLLYGPVADRYGRRLPLLVG  75
+            G + I F  P+ P+L   F+     VQL+++ +  G ++  +L+G +++RYGR+   + G
+Sbjct  16   GNMDIHFLTPALPSLVDYFSVTPNTVQLTISLFLLGKALSMILWGLLSERYGRKPIFIGG  75
+
+Query  76   VSIFTLASAACALAPSLEWLIAARFVQALGGCAGMVISRAVVRDLCDPIGAAKAFSQLML  135
+            + +F L++   AL  S+   +  RF+Q +   A +++ RA++ D  +   A K F+ L  
+Sbjct  76   LLLFILSNFLIALNHSILPFLVCRFLQGISVGATLLMGRAMINDTHNEQNATKYFAWLFT  135
+
+Query  136  VMGLAPILAPVAGGLLLDWQGWQSIFVCLTLFAALAGLGVALW----------LPETIPA  185
+            + GL     P  GGL+  +  WQ           +A L +A +          L ET P 
+Sbjct  136  LAGLFICFLPFFGGLINSYWNWQ-----------IASLIIAAYGLLLLPLCRGLKETKPH  184
+
+Query  186  DGERPPLSGALGQYRRLFADRLFLAYGLSGGVAMAGMFAYIAGSPYVFIQLYGIPAEHYG  245
+              + P L  ++     +F   LF++Y L   + MAG  A+   + ++ I+     +  YG
+Sbjct  185  YVKFPRLGHSI---MVVFNHPLFVSYLLISALMMAGESAFNTSASFILIKGENFTSAQYG  241
+
+Query  246  ---------WLFGSNAAGFIVMAQVNARLLRYRGPAFWLRRIIWGYLACGLALLGIASLQ  296
+                      L G+   G I     + +L +       +R  I+      L +    ++ 
+Sbjct  242  TIKTTMAIMHLLGTACCGLIAKYYHSIQLTKLG-----VRFFIFAAFLMWLFVFSAENIY  296
+
+Query  297  PATLWPLLVPLFGCVASLGCIIPNASACAMAGQGQHAGSASALMGSLQFSVAAGAS---A  353
+               + P+++  FG     G I+ +A+A A+    Q    A A+    QF+ +A  S   +
+Sbjct  297  LTFIVPMVIYYFGT----GFIVASATASAVRPFPQQMALALAITLFCQFNCSAFFSFITS  352
+
+Query  354  LVGVLHDGTAIPMTLVIAVCGAVATLLAWQTGRLE  388
+            ++G+    T + +  ++++   +A L   +  R+E
+Sbjct  353  MIGIQQVETFMFLLSLVSILSFLALL---KLQRME  384
+
+
+>VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux 
+MFS transporter permease subunit [Achromobactin (VF1243) 
+- Nutritional/Metabolic factor (VFC0272)] [Dickeya dadantii 
+3937]
+Length=482
+
+ Score = 56.6 bits (135),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 49/169 (29%), Positives = 78/169 (46%), Gaps = 2/169 (1%)
+
+Query  25   PSFPTLAKAFATDVEHVQLSLAAYFAGLSIGQLLYGPVADRYGRRLPLLVGVSIFTLASA  84
+            P+ P   + F          +AA+   + +   L G +  R G +   L+GV++F   S 
+Sbjct  31   PALPAFIEVFHIGPLLATWIVAAFMVSMGMTMPLTGYLGHRLGNKPLYLLGVALFISGSL  90
+
+Query  85   ACALAPSLEWLIAARFVQALGGCAGMVISRAVVRDLCDPIGAAKAFSQLMLVMGLAPILA  144
+               LA S+  +IAAR VQ +     + +S  ++  +               ++ LAP L 
+Sbjct  91   LGMLADSISQVIAARTVQGIASGLMIPLSLTLIFSVYPKQERGGITGIWGAIVMLAPALG  150
+
+Query  145  PVAGGLLLDWQGWQSIFVCLTLFAALAGLGVALWLPETIPADGERPPLS  193
+            P+ GG+LL+W  W+++FV      ALA L   + LP+T P  GER P  
+Sbjct  151  PLCGGILLEWFSWRALFVMNIPIGALALLMGLVVLPKTAP--GERKPFD  197
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.141    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3028823510
+
+
+Query= g3790.t1
+
+Length=413
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux M...  52.8    2e-07
+
+
+>VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux 
+MFS transporter permease subunit [Achromobactin (VF1243) 
+- Nutritional/Metabolic factor (VFC0272)] [Dickeya dadantii 
+3937]
+Length=482
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 52/190 (27%), Positives = 89/190 (47%), Gaps = 9/190 (5%)
+
+Query  13   QASPRWLAVANVIFAGIAAALHVGKATIALPSLQRSFG-GDLAALSWIMSAFPFVGVFGG  71
+             A PRWL V NV+      +L+      ALP+    F  G L A +WI++AF        
+Sbjct  4    NAVPRWLVVVNVLLGTTTVSLNNSTLNPALPAFIEVFHIGPLLA-TWIVAAFMVSMGMTM  62
+
+Query  72   IAAGLLVRRWGDRRLLTGGLAILGGASLLGASMQDFTWLLATRFVEGLGFLIVVVAAPAV  131
+               G L  R G++ L   G+A+    SLLG      + ++A R V+G+   +++  +  +
+Sbjct  63   PLTGYLGHRLGNKPLYLLGVALFISGSLLGMLADSISQVIAARTVQGIASGLMIPLSLTL  122
+
+Query  132  LHRITSETRRSVVFGLWSTFMAGGIALSMLFGPLLAD---WRA----DWQLSALLVLVAA  184
+            +  +  +  R  + G+W   +    AL  L G +L +   WRA    +  + AL +L+  
+Sbjct  123  IFSVYPKQERGGITGIWGAIVMLAPALGPLCGGILLEWFSWRALFVMNIPIGALALLMGL  182
+
+Query  185  LLLPLSVPAD  194
+            ++LP + P +
+Sbjct  183  VVLPKTAPGE  192
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.141    0.430    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3229033470
+
+
+Query= g4218.t1
+
+Length=402
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG047356(gb|WP_014549027) (fslD) MFS transporter, inner membrane...  145     2e-39
+VFG047349(gb|WP_003041328) (fslD) MFS transporter, inner membrane...  140     1e-37
+VFG047359(gb|WP_014550287) (fslD) MFS transporter, inner membrane...  139     2e-37
+VFG044196(gb|WP_003022879) (fslD) MFS transporter, inner membrane...  134     2e-35
+VFG047353(gb|WP_012429068) (fslD) MFS transporter, inner membrane...  132     1e-34
+VFG047350(gb|WP_003017404) (fslD) MFS transporter, inner membrane...  132     1e-34
+VFG044123(gb|WP_010930940) (bcr) alcaligin siderophore export MFS...  110     6e-27
+VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein req...  101     8e-24
+VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux M...  78.6    1e-15
+VFG036963(gb|WP_015815889) (farB) fatty acid efflux system protei...  61.2    4e-10
+VFG036957(gb|WP_010951322) (farB) fatty acid efflux system protei...  60.8    5e-10
+VFG036955(gb|WP_002236670) (farB) fatty acid efflux system protei...  60.8    5e-10
+VFG036964(gb|WP_002218710) (farB) fatty acid efflux system protei...  60.8    5e-10
+VFG036962(gb|WP_014573759) (farB) fatty acid efflux system protei...  60.8    5e-10
+VFG036960(gb|WP_003703449) (farB) fatty acid efflux system protei...  60.8    6e-10
+VFG036958(gb|WP_002247957) (farB) fatty acid efflux system protei...  60.8    6e-10
+VFG036956(gb|WP_002224867) (farB) fatty acid efflux system protei...  60.8    6e-10
+VFG036966(gb|WP_014581242) (farB) fatty acid efflux system protei...  60.8    6e-10
+VFG036972(gb|WP_042508130) (farB) fatty acid efflux system protei...  60.5    8e-10
+VFG036965(gb|WP_002226030) (farB) fatty acid efflux system protei...  60.1    1e-09
+VFG036959(gb|WP_012222039) (farB) fatty acid efflux system protei...  58.9    2e-09
+
+
+>VFG047356(gb|WP_014549027) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella cf. tularensis subsp. novicida 3523]
+Length=396
+
+ Score = 145 bits (365),  Expect = 2e-39, Method: Compositional matrix adjust.
+ Identities = 103/389 (26%), Positives = 185/389 (48%), Gaps = 12/389 (3%)
+
+Query  8    IQVGSGERRLLLLLSALVAF-GPLSIDMYLPSLPAIAADLGASDAQVQRSISGFLVGFCV  66
+            +Q+ +   + + LL  L  F G + +   LP LP ++ +L AS    Q  I+ FL G  +
+Sbjct  1    MQIDTKNLKYIPLLVLLTWFLGNMGVHFLLPLLPILSKNLDASVKLTQYVIAFFLAGKAL  60
+
+Query  67   GMLFYGPLSDRFGRRPVLLAGIALYLFSSLACALADSAGQLVLLRVLQALGGGAASVLAR  126
+            GM+ YGPLS+ +GRR  +L G+ LY+ SSL C L      L+  R +Q LG     ++ R
+Sbjct  61   GMIVYGPLSEIYGRRKFMLLGLILYMSSSLLCMLTTDIYWLIFWRFVQGLGVSGTILMGR  120
+
+Query  127  AMVRDLYPLGEAARMLALMHMVTMLAPLAAPLLGGYLMLWAGWRALFVVLALFAGLCLLA  186
+             ++ D YP  +AA +   +  V  +     P LGG + ++  W+  F  + +++ L  + 
+Sbjct  121  VIINDSYPNDKAANIFGYLFAVAAVIIACLPTLGGIIAIFNNWQLAFATMLVYSSLIFII  180
+
+Query  187  VWRVAESHPPERRGGSLAQAF------LAYGRLLGDRRALGYVLCMGLAFAGMFAYISAA  240
+            + +    + PE +   L + F        Y  +L +R   GY++C  L  AG  A+ + A
+Sbjct  181  MLK----YLPETQSEKLQKPFSLLGVLKDYSSILRNRVFFGYLMCTSLMVAGESAFNTNA  236
+
+Query  241  PFVFIEHFGVRAERFGWFFGLNILGVMLATWCSARLVRRHGPRPLLRAGSLLACVSGLFL  300
+             F+ I+ + V  + FG      ++  +L      R V + G   L   G+L+  ++ +FL
+Sbjct  237  AFLMIKTYAVSPKTFGMMMSSLLIAHLLGAAICGRYVLKRGISNLTGVGALILVLAAVFL  296
+
+Query  301  LGYAALGERGGLWALVPGLLCFVSVTGLLGANCIASLLALYPGQAGAASAVAVSGQFGLG  360
+               + L   G    +    + F+  TG +       +++ +P   G A A A+S +F L 
+Sbjct  297  SATSILKFDGPYLTITAMFIYFLG-TGFIMTTAAVGVVSPFPKMIGTAMAFALSLEFLLS  355
+
+Query  361  CLASLAVGWLALPGVLPMALVMAVCGVGS  389
+             L+S     L++  + P+ +++ +  + S
+Sbjct  356  ALSSFITSHLSISSLFPITVLITLLSLSS  384
+
+
+>VFG047349(gb|WP_003041328) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella novicida U112]
+Length=396
+
+ Score = 140 bits (353),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 102/390 (26%), Positives = 190/390 (49%), Gaps = 12/390 (3%)
+
+Query  8    IQVGSGERRLLLLLSALVAF-GPLSIDMYLPSLPAIAADLGASDAQVQRSISGFLVGFCV  66
+            +Q+ +   + + LL  L  F G + +   LP LP ++ +L AS    Q  I+ FL G  +
+Sbjct  1    MQIDTKNLKFIPLLVLLTWFLGNMGVHFLLPLLPLLSKNLDASVKLTQYVIAFFLAGKAL  60
+
+Query  67   GMLFYGPLSDRFGRRPVLLAGIALYLFSSLACALADSAGQLVLLRVLQALGGGAASVLAR  126
+            GM+ YGPLS+ +GRR  +L G+ LY+ SSL C L  +   L+  R +Q LG     ++ R
+Sbjct  61   GMIVYGPLSEIYGRRKFMLLGLILYMSSSLLCMLTTNIYWLIFWRFVQGLGVSGTILMGR  120
+
+Query  127  AMVRDLYPLGEAARMLALMHMVTMLAPLAAPLLGGYLMLWAGWRALFVVLALFAGLCLLA  186
+             ++ D YP  +AA +   +  +  +     P LGG + ++  W+  F  + +++ L    
+Sbjct  121  VIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIAIFKNWQLAFATMMIYSSL----  176
+
+Query  187  VWRVAESHPPERRGGSLAQAF------LAYGRLLGDRRALGYVLCMGLAFAGMFAYISAA  240
+            ++ +   + PE +     ++F        Y  +L +R  LGY++C  L  AG  A+ + A
+Sbjct  177  IFVIMLKYLPETQSEQFQKSFSLIGIIKDYSNILRNRVFLGYLMCTSLMVAGESAFNTNA  236
+
+Query  241  PFVFIEHFGVRAERFGWFFGLNILGVMLATWCSARLVRRHGPRPLLRAGSLLACVSGLFL  300
+             F+ I+ +GV  + FG      ++  +L      R V + G   L   G+L+  ++ +F 
+Sbjct  237  AFLMIKTYGVSPKIFGMMMSSLLIAHLLGAAICGRYVVKRGISKLTGVGALILVLAAMF-  295
+
+Query  301  LGYAALGERGGLWALVPGLLCFVSVTGLLGANCIASLLALYPGQAGAASAVAVSGQFGLG  360
+            L   ++ +  G +  +  +  +   TG +       +++ +P   G A A A+S +F L 
+Sbjct  296  LSVTSILKFDGPYLTITAMFIYFLGTGFIMTTAAVGVVSPFPKMIGTAMAFALSLEFLLS  355
+
+Query  361  CLASLAVGWLALPGVLPMALVMAVCGVGSL  390
+             L+S     L++  + P+ +++ +  +GS 
+Sbjct  356  ALSSFITSHLSISSLFPITVLITLLSLGSF  385
+
+
+>VFG047359(gb|WP_014550287) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella cf. novicida Fx1]
+Length=396
+
+ Score = 139 bits (351),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 102/390 (26%), Positives = 189/390 (48%), Gaps = 12/390 (3%)
+
+Query  8    IQVGSGERRLLLLLSALVAF-GPLSIDMYLPSLPAIAADLGASDAQVQRSISGFLVGFCV  66
+            +Q+ +   + + LL  L  F G + +   LP LP ++ +L AS    Q  I+ FL G  +
+Sbjct  1    MQIDNKNLKYIPLLVLLTWFLGNMGVHFLLPLLPLLSKNLDASVKLTQYVIAFFLAGKAL  60
+
+Query  67   GMLFYGPLSDRFGRRPVLLAGIALYLFSSLACALADSAGQLVLLRVLQALGGGAASVLAR  126
+            GM+ YGPLS+ +GRR  +L G+ LY+ SSL C L      L+  R +Q LG     ++ R
+Sbjct  61   GMIVYGPLSEIYGRRKFMLLGLILYMSSSLLCMLTTDIYWLIFWRFVQGLGVSGTILMGR  120
+
+Query  127  AMVRDLYPLGEAARMLALMHMVTMLAPLAAPLLGGYLMLWAGWRALFVVLALFAGLCLLA  186
+             ++ D YP  +AA +   +  +  +     P LGG + ++  W+  F  + +++ L    
+Sbjct  121  VIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIAIFKNWQLAFATMMIYSSL----  176
+
+Query  187  VWRVAESHPPERRGGSLAQAF------LAYGRLLGDRRALGYVLCMGLAFAGMFAYISAA  240
+            ++ +   + PE +     ++F        Y  +L +R  LGY++C  L  AG  A+ + A
+Sbjct  177  IFVIMLKYLPETQSEQFQKSFSLIGIIKDYSNILRNRVFLGYLMCTSLMVAGESAFNTNA  236
+
+Query  241  PFVFIEHFGVRAERFGWFFGLNILGVMLATWCSARLVRRHGPRPLLRAGSLLACVSGLFL  300
+             F+ I+ +GV  + FG      ++  +L      R V + G   L   G+L+  ++ +F 
+Sbjct  237  AFLMIKTYGVSPKIFGMMMSSLLIAHLLGAAICGRYVVKRGISKLTGVGALILVLAAMF-  295
+
+Query  301  LGYAALGERGGLWALVPGLLCFVSVTGLLGANCIASLLALYPGQAGAASAVAVSGQFGLG  360
+            L   ++ +  G +  +  +  +   TG +       +++ +P   G A A A+S +F L 
+Sbjct  296  LSVTSILKFDGPYLTITAMFIYFLGTGFIMTTAAVGVVSPFPKMIGTAMAFALSLEFLLS  355
+
+Query  361  CLASLAVGWLALPGVLPMALVMAVCGVGSL  390
+             L+S     L++  + P+ +++ +  +GS 
+Sbjct  356  ALSSFITSHLSISSLFPITVLITLLSLGSF  385
+
+
+>VFG044196(gb|WP_003022879) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella tularensis subsp. tularensis SCHU 
+S4]
+Length=396
+
+ Score = 134 bits (337),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 91/346 (26%), Positives = 166/346 (48%), Gaps = 3/346 (1%)
+
+Query  47   GASDAQVQRSISGFLVGFCVGMLFYGPLSDRFGRRPVLLAGIALYLFSSLACALADSAGQ  106
+             AS    Q  I+ FL G  +GM+ YGPLS+ +GRR  +L G+ LY+ SSL C L      
+Sbjct  41   DASVKLTQYVIAFFLAGKALGMIVYGPLSEIYGRRKFMLFGLILYMSSSLLCMLTTDIYW  100
+
+Query  107  LVLLRVLQALGGGAASVLARAMVRDLYPLGEAARMLALMHMVTMLAPLAAPLLGGYLMLW  166
+            L+  R +Q LG     ++ R ++ D YP  +AA +   +  +  +     P LGG + ++
+Sbjct  101  LIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIAIF  160
+
+Query  167  AGWRALFVVLALFAGLCLLAVWRVAESHPPE--RRGGSLAQAFLAYGRLLGDRRALGYVL  224
+              W+  F  + +++ L  + + +       E  ++  SL      Y  +L +R  LGY++
+Sbjct  161  KNWQLAFATMMIYSSLIFVIMLKFLPETQSEQFQKSFSLIGIIKDYSNILRNRVFLGYLM  220
+
+Query  225  CMGLAFAGMFAYISAAPFVFIEHFGVRAERFGWFFGLNILGVMLATWCSARLVRRHGPRP  284
+            C  L  AG  A+ + A F+ I+ +GV  + FG      ++  +L      R V + G   
+Sbjct  221  CTSLMVAGESAFNTNAAFLMIKTYGVSPKIFGMMMSSLLIAHLLGAAICGRYVVKRGISK  280
+
+Query  285  LLRAGSLLACVSGLFLLGYAALGERGGLWALVPGLLCFVSVTGLLGANCIASLLALYPGQ  344
+            L   G+L+  ++ +F L   ++ +  G +  +  +  +   TG +       +++ +P  
+Sbjct  281  LTGVGALILVLAAMF-LSVTSILKFDGPYLTITAMFIYFLGTGFIMTTAAVGVVSPFPKM  339
+
+Query  345  AGAASAVAVSGQFGLGCLASLAVGWLALPGVLPMALVMAVCGVGSL  390
+             G A A A+S +F L  L+S     L++  + P+ +++ +  +GS 
+Sbjct  340  IGTAMAFALSLEFLLSALSSFITSHLSISSLFPITVLITLLSLGSF  385
+
+
+>VFG047353(gb|WP_012429068) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella tularensis subsp. mediasiatica FSC147]
+Length=396
+
+ Score = 132 bits (331),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 104/387 (27%), Positives = 190/387 (49%), Gaps = 6/387 (2%)
+
+Query  8    IQVGSGERRLLLLLSALVAF-GPLSIDMYLPSLPAIAADLGASDAQVQRSISGFLVGFCV  66
+            +Q+ +   + + LL  L  F G + +   LP LP ++ +L AS    Q  I+ FL G  +
+Sbjct  1    MQIDNKNLKYIPLLVLLTWFLGNMGVHFLLPLLPLLSNNLDASVKLTQYVIAFFLAGKAL  60
+
+Query  67   GMLFYGPLSDRFGRRPVLLAGIALYLFSSLACALADSAGQLVLLRVLQALGGGAASVLAR  126
+            GM+ YGPLS+ +GRR  +L G+ LY+ SSL C L      L+  R +Q LG     ++ R
+Sbjct  61   GMIVYGPLSEIYGRRKFMLFGLILYMSSSLLCMLTTDIYWLIFWRFVQGLGVSGTILMGR  120
+
+Query  127  AMVRDLYPLGEAARMLALMHMVTMLAPLAAPLLGGYLMLWAGWRALFVVLALFAGLCLLA  186
+             ++ D YP  +AA +   +  +  +     P LGG + ++  W+  F  + +++ L  + 
+Sbjct  121  VIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIAIFKNWQLAFATMMIYSSLIFVI  180
+
+Query  187  VWRVAESHPPE--RRGGSLAQAFLAYGRLLGDRRALGYVLCMGLAFAGMFAYISAAPFVF  244
+            + +       E  ++  SL      Y  +L +R  LGY++C  L  AG  A+ + A F+ 
+Sbjct  181  MLKFLPETQSEQFQKSFSLIGIIKDYSNILRNRVFLGYLMCTSLMVAGESAFNTNAAFLM  240
+
+Query  245  IEHFGVRAERFGWFFGLNILGVML-ATWCSARLVRRHGPRPLLRAGSLLACVSGLFLLGY  303
+            I+ +GV  + FG      ++  +L A  C   +V+R G   L   G+L+  ++ +F L  
+Sbjct  241  IKTYGVSPKIFGMMMSSLLIAHLLGAAICGHYVVKR-GISKLTGVGALILVLAAMF-LSV  298
+
+Query  304  AALGERGGLWALVPGLLCFVSVTGLLGANCIASLLALYPGQAGAASAVAVSGQFGLGCLA  363
+             ++ +  G +  +  +  +   TG +       +++ +P   G A A A+S +F L  L+
+Sbjct  299  TSILKFDGPYLTITAMFIYFLGTGFIMTTAAVGVVSPFPKMIGTAMAFALSLEFLLSALS  358
+
+Query  364  SLAVGWLALPGVLPMALVMAVCGVGSL  390
+            S     L++  + P+ +++ +  +GS 
+Sbjct  359  SFITSHLSISSLFPITVLITLLSLGSF  385
+
+
+>VFG047350(gb|WP_003017404) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella tularensis subsp. holarctica FTNF002-00]
+Length=396
+
+ Score = 132 bits (331),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 90/346 (26%), Positives = 165/346 (48%), Gaps = 3/346 (1%)
+
+Query  47   GASDAQVQRSISGFLVGFCVGMLFYGPLSDRFGRRPVLLAGIALYLFSSLACALADSAGQ  106
+             AS    Q  ++ FL G  +GM+ YGPLS+ +GRR  +L G+ LY+ SSL C L      
+Sbjct  41   DASVKLTQYVMAFFLAGKALGMIVYGPLSEIYGRRKFMLFGLILYMSSSLLCMLTTDIYW  100
+
+Query  107  LVLLRVLQALGGGAASVLARAMVRDLYPLGEAARMLALMHMVTMLAPLAAPLLGGYLMLW  166
+            L+  R +Q LG     ++ R ++ D YP  +AA +   +  +  +     P LGG + ++
+Sbjct  101  LIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIAIF  160
+
+Query  167  AGWRALFVVLALFAGLCLLAVWRVAESHPPE--RRGGSLAQAFLAYGRLLGDRRALGYVL  224
+              W+  F  + +++ L  + + +       E  ++  SL      Y  +L +R  LGY++
+Sbjct  161  KNWQLAFATMMIYSSLIFVIMLKFLPETQSEQFQKSFSLIGIIKDYSNILRNRVFLGYLM  220
+
+Query  225  CMGLAFAGMFAYISAAPFVFIEHFGVRAERFGWFFGLNILGVMLATWCSARLVRRHGPRP  284
+            C  L  AG  A+ + A F+ I+ +GV  + FG      ++  +L      R V + G   
+Sbjct  221  CTSLMVAGESAFNTNAAFLMIKTYGVSPKIFGMMMSSLLIAHLLGAAICGRYVVKRGISK  280
+
+Query  285  LLRAGSLLACVSGLFLLGYAALGERGGLWALVPGLLCFVSVTGLLGANCIASLLALYPGQ  344
+            L   G L+  ++ +F L   ++ +  G +  +  +  +   TG +       +++ +P  
+Sbjct  281  LTGVGVLILVLAAMF-LSVTSILKFDGPYLTITAMFIYFLGTGFIMTTAAVGVVSPFPKM  339
+
+Query  345  AGAASAVAVSGQFGLGCLASLAVGWLALPGVLPMALVMAVCGVGSL  390
+             G A A A+S +F L  L+S     L++  + P+ +++ +  +GS 
+Sbjct  340  IGTAMAFALSLEFLLSALSSFITSHLSISSLFPITVLITLLSLGSF  385
+
+
+>VFG044123(gb|WP_010930940) (bcr) alcaligin siderophore export 
+MFS transporter Bcr [Alcaligin (VF0688) - Nutritional/Metabolic 
+factor (VFC0272)] [Bordetella pertussis Tohama I]
+Length=407
+
+ Score = 110 bits (276),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 88/281 (31%), Positives = 132/281 (47%), Gaps = 12/281 (4%)
+
+Query  6    SRIQVGSGERRLLLLLSALVAFGPLSIDMYLPSLPAIAADLGASDAQVQRSISGFLVGFC  65
+            SR         ++++L  L    P SID YLP+  A+  + G     VQ ++  ++  + 
+Sbjct  2    SRAASAPSYSLMMVMLGLLSCVAPASIDAYLPAFGALQREFGVPQETVQLTLGVYMFCYA  61
+
+Query  66   VGMLFYGPLSDRFGRRPVLLAGIALYLFSSLACALADSAGQLVLLRVLQALGGGAASVLA  125
+              +L +G LSD  GRR V+L  +  Y++ +L    A   G L+  R LQ L  GA  V+ 
+Sbjct  62   AMLLLHGTLSDSLGRRRVVLGALGFYVWGALLATAAPGFGWLLAARALQGLSAGAGVVVG  121
+
+Query  126  RAMVRDLYPLGEAARMLALMHMVTMLAPLAAPLLGGYLMLWAGWRALFVVLALFAGLCL-  184
+            +A++RD Y    A R ++ + +V  L+P  AP++GG L +  GWR++F +L L A   L 
+Sbjct  122  QAIIRDCYQGAAAQRSMSYLILVFNLSPALAPVIGGQLAVHHGWRSIFFMLGLLAATALT  181
+
+Query  185  LAVWRVAESHPPERRGGSLAQAFLAYGRLLGDRRAL--GYVLCMGLAFAGMFA----YIS  238
+            L  WR+ E+  P +R     Q     G   G R  L  G     GLAF+ +FA     I 
+Sbjct  182  LCAWRLPETLAPAKR-----QTLSLRGLAAGYREVLRNGNFTAPGLAFSLVFAAQGLLIG  236
+
+Query  239  AAPFVFIEHFGVRAERFGWFFGLNILGVMLATWCSARLVRR  279
+            AAP        +    F + F   + G M     +AR   R
+Sbjct  237  AAPDFIANVLDLPETNFAYLFVPLVAGAMTGAAIAARHAGR  277
+
+
+>VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein 
+required for import of Legiobactin [Legiobactin (VF0291) - 
+Nutritional/Metabolic factor (VFC0272)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=386
+
+ Score = 101 bits (252),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 84/366 (23%), Positives = 162/366 (44%), Gaps = 4/366 (1%)
+
+Query  28   GPLSIDMYLPSLPAIAADLGASDAQVQRSISGFLVGFCVGMLFYGPLSDRFGRRPVLLAG  87
+            G + I    P+LP++      +   VQ +IS FL+G  + M+ +G LS+R+GR+P+ + G
+Sbjct  16   GNMDIHFLTPALPSLVDYFSVTPNTVQLTISLFLLGKALSMILWGLLSERYGRKPIFIGG  75
+
+Query  88   IALYLFSSLACALADSAGQLVLLRVLQALGGGAASVLARAMVRDLYPLGEAARMLALMHM  147
+            + L++ S+   AL  S    ++ R LQ +  GA  ++ RAM+ D +    A +  A +  
+Sbjct  76   LLLFILSNFLIALNHSILPFLVCRFLQGISVGATLLMGRAMINDTHNEQNATKYFAWLFT  135
+
+Query  148  VTMLAPLAAPLLGGYLMLWAGWRALFVVLALFAGLCLLAVWRVAESHPPERRGGSLAQAF  207
+            +  L     P  GG +  +  W+   +++A +  L L     + E+ P   +   L  + 
+Sbjct  136  LAGLFICFLPFFGGLINSYWNWQIASLIIAAYGLLLLPLCRGLKETKPHYVKFPRLGHSI  195
+
+Query  208  LAYGRLLGDRRALGYVLCMGLAFAGMFAYISAAPFVFIEHFGVRAERFGWFFGLNILGVM  267
+            +    +      + Y+L   L  AG  A+ ++A F+ I+     + ++G       +  +
+Sbjct  196  MV---VFNHPLFVSYLLISALMMAGESAFNTSASFILIKGENFTSAQYGTIKTTMAIMHL  252
+
+Query  268  LATWCSARLVRRHGPRPLLRAGSLLACVSGLFLLGYAALGERGGLWALVPGLLCFVSVTG  327
+            L T C   + + +    L + G      +   +  +    E   L  +VP ++ +   TG
+Sbjct  253  LGTACCGLIAKYYHSIQLTKLGVRFFIFAAFLMWLFVFSAENIYLTFIVPMVIYYFG-TG  311
+
+Query  328  LLGANCIASLLALYPGQAGAASAVAVSGQFGLGCLASLAVGWLALPGVLPMALVMAVCGV  387
+             + A+  AS +  +P Q   A A+ +  QF      S     + +  V     ++++  +
+Sbjct  312  FIVASATASAVRPFPQQMALALAITLFCQFNCSAFFSFITSMIGIQQVETFMFLLSLVSI  371
+
+Query  388  GSLLAL  393
+             S LAL
+Sbjct  372  LSFLAL  377
+
+
+>VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux 
+MFS transporter permease subunit [Achromobactin (VF1243) 
+- Nutritional/Metabolic factor (VFC0272)] [Dickeya dadantii 
+3937]
+Length=482
+
+ Score = 78.6 bits (192),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 61/199 (31%), Positives = 94/199 (47%), Gaps = 8/199 (4%)
+
+Query  16   RLLLLLSALVAFGPLSIDMYL--PSLPAIAADLGASDAQVQRSISGFLVGFCVGMLFYGP  73
+            R L++++ L+    +S++     P+LPA               ++ F+V   + M   G 
+Sbjct  8    RWLVVVNVLLGTTTVSLNNSTLNPALPAFIEVFHIGPLLATWIVAAFMVSMGMTMPLTGY  67
+
+Query  74   LSDRFGRRPVLLAGIALYLFSSLACALADSAGQLVLLRVLQALGGGAASVLARAMVRDLY  133
+            L  R G +P+ L G+AL++  SL   LADS  Q++  R +Q +  G    L+  ++  +Y
+Sbjct  68   LGHRLGNKPLYLLGVALFISGSLLGMLADSISQVIAARTVQGIASGLMIPLSLTLIFSVY  127
+
+Query  134  PLGEAARMLALMHMVTMLAPLAAPLLGGYLMLWAGWRALFVV------LALFAGLCLLAV  187
+            P  E   +  +   + MLAP   PL GG L+ W  WRALFV+      LAL  GL +L  
+Sbjct  128  PKQERGGITGIWGAIVMLAPALGPLCGGILLEWFSWRALFVMNIPIGALALLMGLVVLPK  187
+
+Query  188  WRVAESHPPERRGGSLAQA  206
+                E  P +  G  L  A
+Sbjct  188  TAPGERKPFDMTGYVLVSA  206
+
+
+>VFG036963(gb|WP_015815889) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis alpha14]
+Length=508
+
+ Score = 61.2 bits (147),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 38/126 (30%), Positives = 65/126 (52%), Gaps = 0/126 (0%)
+
+Query  38   SLPAIAADLGASDAQVQRSISGFLVGFCVGMLFYGPLSDRFGRRPVLLAGIALYLFSSLA  97
+            ++P IA +LGA+  Q    I+ F V   V +   G L+ R G   +  A    ++ +S  
+Sbjct  35   AVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSWL  94
+
+Query  98   CALADSAGQLVLLRVLQALGGGAASVLARAMVRDLYPLGEAARMLALMHMVTMLAPLAAP  157
+            C +A +   LV+ R+LQ    G    L+++++   YP  +    LAL  M  ++AP+  P
+Sbjct  95   CGIAPNLQSLVIFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLGP  154
+
+Query  158  LLGGYL  163
+            +LGG++
+Sbjct  155  ILGGWI  160
+
+
+>VFG036957(gb|WP_010951322) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria gonorrhoeae FA 1090]
+Length=507
+
+ Score = 60.8 bits (146),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 39/126 (31%), Positives = 66/126 (52%), Gaps = 0/126 (0%)
+
+Query  38   SLPAIAADLGASDAQVQRSISGFLVGFCVGMLFYGPLSDRFGRRPVLLAGIALYLFSSLA  97
+            ++P IA +LGA+  Q    I+ F V   V +   G L+ R G   +  A  A ++ +S  
+Sbjct  35   AVPVIAGNLGAATTQGTWVITSFSVANAVSVPLTGFLAKRIGEVKLFTAAAAGFVIASWL  94
+
+Query  98   CALADSAGQLVLLRVLQALGGGAASVLARAMVRDLYPLGEAARMLALMHMVTMLAPLAAP  157
+            C +A +   LV+ R+LQ    G    L+++++   YP  +    LAL  M  ++AP+  P
+Sbjct  95   CGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRMLALALWAMTVVVAPVLGP  154
+
+Query  158  LLGGYL  163
+            +LGG++
+Sbjct  155  ILGGWI  160
+
+
+>VFG036955(gb|WP_002236670) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis Z2491]
+Length=508
+
+ Score = 60.8 bits (146),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 38/126 (30%), Positives = 65/126 (52%), Gaps = 0/126 (0%)
+
+Query  38   SLPAIAADLGASDAQVQRSISGFLVGFCVGMLFYGPLSDRFGRRPVLLAGIALYLFSSLA  97
+            ++P IA +LGA+  Q    I+ F V   V +   G L+ R G   +  A    ++ +S  
+Sbjct  35   AVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSWL  94
+
+Query  98   CALADSAGQLVLLRVLQALGGGAASVLARAMVRDLYPLGEAARMLALMHMVTMLAPLAAP  157
+            C +A +   LV+ R+LQ    G    L+++++   YP  +    LAL  M  ++AP+  P
+Sbjct  95   CGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLGP  154
+
+Query  158  LLGGYL  163
+            +LGG++
+Sbjct  155  ILGGWI  160
+
+
+>VFG036964(gb|WP_002218710) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis alpha710]
+Length=508
+
+ Score = 60.8 bits (146),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 38/126 (30%), Positives = 65/126 (52%), Gaps = 0/126 (0%)
+
+Query  38   SLPAIAADLGASDAQVQRSISGFLVGFCVGMLFYGPLSDRFGRRPVLLAGIALYLFSSLA  97
+            ++P IA +LGA+  Q    I+ F V   V +   G L+ R G   +  A    ++ +S  
+Sbjct  35   AVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSWL  94
+
+Query  98   CALADSAGQLVLLRVLQALGGGAASVLARAMVRDLYPLGEAARMLALMHMVTMLAPLAAP  157
+            C +A +   LV+ R+LQ    G    L+++++   YP  +    LAL  M  ++AP+  P
+Sbjct  95   CGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLGP  154
+
+Query  158  LLGGYL  163
+            +LGG++
+Sbjct  155  ILGGWI  160
+
+
+>VFG036962(gb|WP_014573759) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis 8013]
+Length=508
+
+ Score = 60.8 bits (146),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 38/126 (30%), Positives = 65/126 (52%), Gaps = 0/126 (0%)
+
+Query  38   SLPAIAADLGASDAQVQRSISGFLVGFCVGMLFYGPLSDRFGRRPVLLAGIALYLFSSLA  97
+            ++P IA +LGA+  Q    I+ F V   V +   G L+ R G   +  A    ++ +S  
+Sbjct  35   AVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSWL  94
+
+Query  98   CALADSAGQLVLLRVLQALGGGAASVLARAMVRDLYPLGEAARMLALMHMVTMLAPLAAP  157
+            C +A +   LV+ R+LQ    G    L+++++   YP  +    LAL  M  ++AP+  P
+Sbjct  95   CGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLGP  154
+
+Query  158  LLGGYL  163
+            +LGG++
+Sbjct  155  ILGGWI  160
+
+
+>VFG036960(gb|WP_003703449) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria gonorrhoeae NCCP11945]
+Length=507
+
+ Score = 60.8 bits (146),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 39/126 (31%), Positives = 66/126 (52%), Gaps = 0/126 (0%)
+
+Query  38   SLPAIAADLGASDAQVQRSISGFLVGFCVGMLFYGPLSDRFGRRPVLLAGIALYLFSSLA  97
+            ++P IA +LGA+  Q    I+ F V   V +   G L+ R G   +  A  A ++ +S  
+Sbjct  35   AVPVIAGNLGAATTQGTWVITSFSVANAVSVPLTGFLAKRIGEVKLFTAAAAGFVIASWL  94
+
+Query  98   CALADSAGQLVLLRVLQALGGGAASVLARAMVRDLYPLGEAARMLALMHMVTMLAPLAAP  157
+            C +A +   LV+ R+LQ    G    L+++++   YP  +    LAL  M  ++AP+  P
+Sbjct  95   CGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRMLALALWAMTVVVAPVLGP  154
+
+Query  158  LLGGYL  163
+            +LGG++
+Sbjct  155  ILGGWI  160
+
+
+>VFG036958(gb|WP_002247957) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis FAM18]
+Length=508
+
+ Score = 60.8 bits (146),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 38/126 (30%), Positives = 65/126 (52%), Gaps = 0/126 (0%)
+
+Query  38   SLPAIAADLGASDAQVQRSISGFLVGFCVGMLFYGPLSDRFGRRPVLLAGIALYLFSSLA  97
+            ++P IA +LGA+  Q    I+ F V   V +   G L+ R G   +  A    ++ +S  
+Sbjct  35   AVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSWL  94
+
+Query  98   CALADSAGQLVLLRVLQALGGGAASVLARAMVRDLYPLGEAARMLALMHMVTMLAPLAAP  157
+            C +A +   LV+ R+LQ    G    L+++++   YP  +    LAL  M  ++AP+  P
+Sbjct  95   CGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLGP  154
+
+Query  158  LLGGYL  163
+            +LGG++
+Sbjct  155  ILGGWI  160
+
+
+>VFG036956(gb|WP_002224867) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis MC58]
+Length=508
+
+ Score = 60.8 bits (146),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 38/126 (30%), Positives = 65/126 (52%), Gaps = 0/126 (0%)
+
+Query  38   SLPAIAADLGASDAQVQRSISGFLVGFCVGMLFYGPLSDRFGRRPVLLAGIALYLFSSLA  97
+            ++P IA +LGA+  Q    I+ F V   V +   G L+ R G   +  A    ++ +S  
+Sbjct  35   AVPVIAGNLGAATTQGTWVITSFSVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSWL  94
+
+Query  98   CALADSAGQLVLLRVLQALGGGAASVLARAMVRDLYPLGEAARMLALMHMVTMLAPLAAP  157
+            C +A +   LV+ R+LQ    G    L+++++   YP  +    LAL  M  ++AP+  P
+Sbjct  95   CGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLGP  154
+
+Query  158  LLGGYL  163
+            +LGG++
+Sbjct  155  ILGGWI  160
+
+
+>VFG036966(gb|WP_014581242) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis M01-240149]
+Length=508
+
+ Score = 60.8 bits (146),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 38/126 (30%), Positives = 65/126 (52%), Gaps = 0/126 (0%)
+
+Query  38   SLPAIAADLGASDAQVQRSISGFLVGFCVGMLFYGPLSDRFGRRPVLLAGIALYLFSSLA  97
+            ++P IA +LGA+  Q    I+ F V   V +   G L+ R G   +  A    ++ +S  
+Sbjct  35   AVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSWL  94
+
+Query  98   CALADSAGQLVLLRVLQALGGGAASVLARAMVRDLYPLGEAARMLALMHMVTMLAPLAAP  157
+            C +A +   LV+ R+LQ    G    L+++++   YP  +    LAL  M  ++AP+  P
+Sbjct  95   CGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLGP  154
+
+Query  158  LLGGYL  163
+            +LGG++
+Sbjct  155  ILGGWI  160
+
+
+>VFG036972(gb|WP_042508130) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria lactamica 020-06]
+Length=508
+
+ Score = 60.5 bits (145),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 38/126 (30%), Positives = 65/126 (52%), Gaps = 0/126 (0%)
+
+Query  38   SLPAIAADLGASDAQVQRSISGFLVGFCVGMLFYGPLSDRFGRRPVLLAGIALYLFSSLA  97
+            ++P IA +LGA+  Q    I+ F V   V +   G L+ R G   +  A    ++ +S  
+Sbjct  35   AVPVIAGNLGAATTQGTWVITSFSVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSWL  94
+
+Query  98   CALADSAGQLVLLRVLQALGGGAASVLARAMVRDLYPLGEAARMLALMHMVTMLAPLAAP  157
+            C +A +   LV+ R+LQ    G    L+++++   YP  +    LAL  M  ++AP+  P
+Sbjct  95   CGIAPNLQALVIFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLGP  154
+
+Query  158  LLGGYL  163
+            +LGG++
+Sbjct  155  ILGGWI  160
+
+
+>VFG036965(gb|WP_002226030) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis G2136]
+Length=508
+
+ Score = 60.1 bits (144),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 38/126 (30%), Positives = 64/126 (51%), Gaps = 0/126 (0%)
+
+Query  38   SLPAIAADLGASDAQVQRSISGFLVGFCVGMLFYGPLSDRFGRRPVLLAGIALYLFSSLA  97
+            ++P IA +LGA+  Q    I+ F V   V +   G L+ R G   +  A    ++ +S  
+Sbjct  35   AVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSWL  94
+
+Query  98   CALADSAGQLVLLRVLQALGGGAASVLARAMVRDLYPLGEAARMLALMHMVTMLAPLAAP  157
+            C +A +   LV  R+LQ    G    L+++++   YP  +    LAL  M  ++AP+  P
+Sbjct  95   CGIAPNLQALVFFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLGP  154
+
+Query  158  LLGGYL  163
+            +LGG++
+Sbjct  155  ILGGWI  160
+
+
+>VFG036959(gb|WP_012222039) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis 053442]
+Length=508
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 37/126 (29%), Positives = 63/126 (50%), Gaps = 0/126 (0%)
+
+Query  38   SLPAIAADLGASDAQVQRSISGFLVGFCVGMLFYGPLSDRFGRRPVLLAGIALYLFSSLA  97
+            ++P IA +LGA+  Q    I+ F V   V +   G L+ R G   +  A    ++ +S  
+Sbjct  35   AVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSWL  94
+
+Query  98   CALADSAGQLVLLRVLQALGGGAASVLARAMVRDLYPLGEAARMLALMHMVTMLAPLAAP  157
+            C +A +   LV  R+LQ    G    L+++++   YP  +    LAL  M  ++AP+  P
+Sbjct  95   CGIAPNLQALVFFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLGP  154
+
+Query  158  LLGGYL  163
+            + GG++
+Sbjct  155  IFGGWI  160
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.144    0.449    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3133265700
+
+
+Query= g1325.t1
+
+Length=401
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG047356(gb|WP_014549027) (fslD) MFS transporter, inner membrane...  98.2    1e-22
+VFG047349(gb|WP_003041328) (fslD) MFS transporter, inner membrane...  98.2    2e-22
+VFG047359(gb|WP_014550287) (fslD) MFS transporter, inner membrane...  97.8    2e-22
+VFG047350(gb|WP_003017404) (fslD) MFS transporter, inner membrane...  97.8    2e-22
+VFG047353(gb|WP_012429068) (fslD) MFS transporter, inner membrane...  97.4    3e-22
+VFG044196(gb|WP_003022879) (fslD) MFS transporter, inner membrane...  97.1    4e-22
+VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein req...  89.7    1e-19
+VFG044123(gb|WP_010930940) (bcr) alcaligin siderophore export MFS...  80.9    1e-16
+VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux M...  58.9    2e-09
+
+
+>VFG047356(gb|WP_014549027) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella cf. tularensis subsp. novicida 3523]
+Length=396
+
+ Score = 98.2 bits (243),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 92/354 (26%), Positives = 160/354 (45%), Gaps = 25/354 (7%)
+
+Query  17   LGFLATDMYLPAFAAIQADLQTPAAAVSASLSLFLAGFAVAQLLWGPLSDRYGRKPILLL  76
+            LG +     LP    +  +L          ++ FLAG A+  +++GPLS+ YGR+  +LL
+Sbjct  21   LGNMGVHFLLPLLPILSKNLDASVKLTQYVIAFFLAGKALGMIVYGPLSEIYGRRKFMLL  80
+
+Query  77   GLSIFALGSLGMLWVESAAALLTLRFVQAVGVCAATVIWQALVTDYYPSQKINRIFATIM  136
+            GL ++   SL  +       L+  RFVQ +GV    ++ + ++ D YP+ K   IF  + 
+Sbjct  81   GLILYMSSSLLCMLTTDIYWLIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLF  140
+
+Query  137  PLVGLSPALAPLLGSWILTHFSWQAIFATLFVITLLLMLPALRLKPSGKARTEGQDK---  193
+             +  +  A  P LG  I    +WQ  FAT+ V + L+ +  L+  P  + ++E   K   
+Sbjct  141  AVAAVIIACLPTLGGIIAIFNNWQLAFATMLVYSSLIFIIMLKYLP--ETQSEKLQKPFS  198
+
+Query  194  -----LTFATLLRSKTYRGNVLIYAACSASFFAWLTGSPFIL-SAMGYSPAVIGLSYVPQ  247
+                   ++++LR++ + G ++  +   A   A+ T + F++      SP   G+     
+Sbjct  199  LLGVLKDYSSILRNRVFFGYLMCTSLMVAGESAFNTNAAFLMIKTYAVSPKTFGMMMSSL  258
+
+Query  248  TIAFLIGGYGC-RAALQKWQGYQLLPWLLGLYALSVIATWGAGLLNNASLVEILIPFCVM  306
+             IA L+G   C R  L++      +  L G+ AL  I    A  L+  S+++   P+  +
+Sbjct  259  LIAHLLGAAICGRYVLKRG-----ISNLTGVGAL--ILVLAAVFLSATSILKFDGPYLTI  311
+
+Query  307  A------IANGAIYPIVVAQALRPFPQATGRAAALQNTLQLGLCFLASLVVSWL  354
+                   +  G I        + PFP+  G A A   +L+  L  L+S + S L
+Sbjct  312  TAMFIYFLGTGFIMTTAAVGVVSPFPKMIGTAMAFALSLEFLLSALSSFITSHL  365
+
+
+>VFG047349(gb|WP_003041328) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella novicida U112]
+Length=396
+
+ Score = 98.2 bits (243),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 90/345 (26%), Positives = 159/345 (46%), Gaps = 21/345 (6%)
+
+Query  33   QADLQTPAAAVSASLSLFLAGFAVAQLLWGPLSDRYGRKPILLLGLSIFALGSLGMLWVE  92
+              +L          ++ FLAG A+  +++GPLS+ YGR+  +LLGL ++   SL  +   
+Sbjct  37   SKNLDASVKLTQYVIAFFLAGKALGMIVYGPLSEIYGRRKFMLLGLILYMSSSLLCMLTT  96
+
+Query  93   SAAALLTLRFVQAVGVCAATVIWQALVTDYYPSQKINRIFATIMPLVGLSPALAPLLGSW  152
+            +   L+  RFVQ +GV    ++ + ++ D YP+ K   IF  +  L  +  A  P LG  
+Sbjct  97   NIYWLIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGI  156
+
+Query  153  ILTHFSWQAIFATLFVITLLLMLPALRLKPSGKARTEGQDKLT-------FATLLRSKTY  205
+            I    +WQ  FAT+ + + L+ +  L+  P  ++  + Q   +       ++ +LR++ +
+Sbjct  157  IAIFKNWQLAFATMMIYSSLIFVIMLKYLPETQSE-QFQKSFSLIGIIKDYSNILRNRVF  215
+
+Query  206  RGNVLIYAACSASFFAWLTGSPFIL-SAMGYSPAVIGLSYVPQTIAFLIGGYGCRAALQK  264
+             G ++  +   A   A+ T + F++    G SP + G+      IA L+G   C   + K
+Sbjct  216  LGYLMCTSLMVAGESAFNTNAAFLMIKTYGVSPKIFGMMMSSLLIAHLLGAAICGRYVVK  275
+
+Query  265  WQGYQLLPWLLGLYALSVIATWGAGLLNNASLVEILIPFCVMA------IANGAIYPIVV  318
+             +G   +  L G+ AL  I    A  L+  S+++   P+  +       +  G I     
+Sbjct  276  -RG---ISKLTGVGAL--ILVLAAMFLSVTSILKFDGPYLTITAMFIYFLGTGFIMTTAA  329
+
+Query  319  AQALRPFPQATGRAAALQNTLQLGLCFLASLVVSWLISTPLLTTT  363
+               + PFP+  G A A   +L+  L  L+S + S L  + L   T
+Sbjct  330  VGVVSPFPKMIGTAMAFALSLEFLLSALSSFITSHLSISSLFPIT  374
+
+
+>VFG047359(gb|WP_014550287) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella cf. novicida Fx1]
+Length=396
+
+ Score = 97.8 bits (242),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 90/345 (26%), Positives = 158/345 (46%), Gaps = 21/345 (6%)
+
+Query  33   QADLQTPAAAVSASLSLFLAGFAVAQLLWGPLSDRYGRKPILLLGLSIFALGSLGMLWVE  92
+              +L          ++ FLAG A+  +++GPLS+ YGR+  +LLGL ++   SL  +   
+Sbjct  37   SKNLDASVKLTQYVIAFFLAGKALGMIVYGPLSEIYGRRKFMLLGLILYMSSSLLCMLTT  96
+
+Query  93   SAAALLTLRFVQAVGVCAATVIWQALVTDYYPSQKINRIFATIMPLVGLSPALAPLLGSW  152
+                L+  RFVQ +GV    ++ + ++ D YP+ K   IF  +  L  +  A  P LG  
+Sbjct  97   DIYWLIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGI  156
+
+Query  153  ILTHFSWQAIFATLFVITLLLMLPALRLKPSGKARTEGQDKLT-------FATLLRSKTY  205
+            I    +WQ  FAT+ + + L+ +  L+  P  ++  + Q   +       ++ +LR++ +
+Sbjct  157  IAIFKNWQLAFATMMIYSSLIFVIMLKYLPETQSE-QFQKSFSLIGIIKDYSNILRNRVF  215
+
+Query  206  RGNVLIYAACSASFFAWLTGSPFIL-SAMGYSPAVIGLSYVPQTIAFLIGGYGCRAALQK  264
+             G ++  +   A   A+ T + F++    G SP + G+      IA L+G   C   + K
+Sbjct  216  LGYLMCTSLMVAGESAFNTNAAFLMIKTYGVSPKIFGMMMSSLLIAHLLGAAICGRYVVK  275
+
+Query  265  WQGYQLLPWLLGLYALSVIATWGAGLLNNASLVEILIPFCVMA------IANGAIYPIVV  318
+             +G   +  L G+ AL  I    A  L+  S+++   P+  +       +  G I     
+Sbjct  276  -RG---ISKLTGVGAL--ILVLAAMFLSVTSILKFDGPYLTITAMFIYFLGTGFIMTTAA  329
+
+Query  319  AQALRPFPQATGRAAALQNTLQLGLCFLASLVVSWLISTPLLTTT  363
+               + PFP+  G A A   +L+  L  L+S + S L  + L   T
+Sbjct  330  VGVVSPFPKMIGTAMAFALSLEFLLSALSSFITSHLSISSLFPIT  374
+
+
+>VFG047350(gb|WP_003017404) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella tularensis subsp. holarctica FTNF002-00]
+Length=396
+
+ Score = 97.8 bits (242),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 87/330 (26%), Positives = 152/330 (46%), Gaps = 19/330 (6%)
+
+Query  47   LSLFLAGFAVAQLLWGPLSDRYGRKPILLLGLSIFALGSLGMLWVESAAALLTLRFVQAV  106
+            ++ FLAG A+  +++GPLS+ YGR+  +L GL ++   SL  +       L+  RFVQ +
+Sbjct  51   MAFFLAGKALGMIVYGPLSEIYGRRKFMLFGLILYMSSSLLCMLTTDIYWLIFWRFVQGL  110
+
+Query  107  GVCAATVIWQALVTDYYPSQKINRIFATIMPLVGLSPALAPLLGSWILTHFSWQAIFATL  166
+            GV    ++ + ++ D YP+ K   IF  +  L  +  A  P LG  I    +WQ  FAT+
+Sbjct  111  GVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIAIFKNWQLAFATM  170
+
+Query  167  FVITLLLMLPALRLKPSGKARTEGQDKLT-------FATLLRSKTYRGNVLIYAACSASF  219
+             + + L+ +  L+  P  ++  + Q   +       ++ +LR++ + G ++  +   A  
+Sbjct  171  MIYSSLIFVIMLKFLPETQSE-QFQKSFSLIGIIKDYSNILRNRVFLGYLMCTSLMVAGE  229
+
+Query  220  FAWLTGSPFIL-SAMGYSPAVIGLSYVPQTIAFLIGG-----YGCRAALQKWQGYQLLPW  273
+             A+ T + F++    G SP + G+      IA L+G      Y  +  + K  G  +L  
+Sbjct  230  SAFNTNAAFLMIKTYGVSPKIFGMMMSSLLIAHLLGAAICGRYVVKRGISKLTGVGVLIL  289
+
+Query  274  LLGLYALSVIATWGAGLLNNASLVEILIPFCVMAIANGAIYPIVVAQALRPFPQATGRAA  333
+            +L    LSV +     L  +   + I   F +  +  G I        + PFP+  G A 
+Sbjct  290  VLAAMFLSVTSI----LKFDGPYLTITAMF-IYFLGTGFIMTTAAVGVVSPFPKMIGTAM  344
+
+Query  334  ALQNTLQLGLCFLASLVVSWLISTPLLTTT  363
+            A   +L+  L  L+S + S L  + L   T
+Sbjct  345  AFALSLEFLLSALSSFITSHLSISSLFPIT  374
+
+
+>VFG047353(gb|WP_012429068) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella tularensis subsp. mediasiatica FSC147]
+Length=396
+
+ Score = 97.4 bits (241),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 87/331 (26%), Positives = 154/331 (47%), Gaps = 21/331 (6%)
+
+Query  47   LSLFLAGFAVAQLLWGPLSDRYGRKPILLLGLSIFALGSLGMLWVESAAALLTLRFVQAV  106
+            ++ FLAG A+  +++GPLS+ YGR+  +L GL ++   SL  +       L+  RFVQ +
+Sbjct  51   IAFFLAGKALGMIVYGPLSEIYGRRKFMLFGLILYMSSSLLCMLTTDIYWLIFWRFVQGL  110
+
+Query  107  GVCAATVIWQALVTDYYPSQKINRIFATIMPLVGLSPALAPLLGSWILTHFSWQAIFATL  166
+            GV    ++ + ++ D YP+ K   IF  +  L  +  A  P LG  I    +WQ  FAT+
+Sbjct  111  GVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIAIFKNWQLAFATM  170
+
+Query  167  FVITLLLMLPALRLKPSGKARTEGQDKLT-------FATLLRSKTYRGNVLIYAACSASF  219
+             + + L+ +  L+  P  ++  + Q   +       ++ +LR++ + G ++  +   A  
+Sbjct  171  MIYSSLIFVIMLKFLPETQSE-QFQKSFSLIGIIKDYSNILRNRVFLGYLMCTSLMVAGE  229
+
+Query  220  FAWLTGSPFIL-SAMGYSPAVIGLSYVPQTIAFLIGGYGCRAALQKWQGYQLLPWLLGLY  278
+             A+ T + F++    G SP + G+      IA L+G   C   + K    + +  L G+ 
+Sbjct  230  SAFNTNAAFLMIKTYGVSPKIFGMMMSSLLIAHLLGAAICGHYVVK----RGISKLTGVG  285
+
+Query  279  ALSVIATWGAGLLNNASLVEILIPFCVMA------IANGAIYPIVVAQALRPFPQATGRA  332
+            AL  I    A  L+  S+++   P+  +       +  G I        + PFP+  G A
+Sbjct  286  AL--ILVLAAMFLSVTSILKFDGPYLTITAMFIYFLGTGFIMTTAAVGVVSPFPKMIGTA  343
+
+Query  333  AALQNTLQLGLCFLASLVVSWLISTPLLTTT  363
+             A   +L+  L  L+S + S L  + L   T
+Sbjct  344  MAFALSLEFLLSALSSFITSHLSISSLFPIT  374
+
+
+>VFG044196(gb|WP_003022879) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella tularensis subsp. tularensis SCHU 
+S4]
+Length=396
+
+ Score = 97.1 bits (240),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 87/331 (26%), Positives = 154/331 (47%), Gaps = 21/331 (6%)
+
+Query  47   LSLFLAGFAVAQLLWGPLSDRYGRKPILLLGLSIFALGSLGMLWVESAAALLTLRFVQAV  106
+            ++ FLAG A+  +++GPLS+ YGR+  +L GL ++   SL  +       L+  RFVQ +
+Sbjct  51   IAFFLAGKALGMIVYGPLSEIYGRRKFMLFGLILYMSSSLLCMLTTDIYWLIFWRFVQGL  110
+
+Query  107  GVCAATVIWQALVTDYYPSQKINRIFATIMPLVGLSPALAPLLGSWILTHFSWQAIFATL  166
+            GV    ++ + ++ D YP+ K   IF  +  L  +  A  P LG  I    +WQ  FAT+
+Sbjct  111  GVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIAIFKNWQLAFATM  170
+
+Query  167  FVITLLLMLPALRLKPSGKARTEGQDKLT-------FATLLRSKTYRGNVLIYAACSASF  219
+             + + L+ +  L+  P  ++  + Q   +       ++ +LR++ + G ++  +   A  
+Sbjct  171  MIYSSLIFVIMLKFLPETQSE-QFQKSFSLIGIIKDYSNILRNRVFLGYLMCTSLMVAGE  229
+
+Query  220  FAWLTGSPFIL-SAMGYSPAVIGLSYVPQTIAFLIGGYGCRAALQKWQGYQLLPWLLGLY  278
+             A+ T + F++    G SP + G+      IA L+G   C   + K    + +  L G+ 
+Sbjct  230  SAFNTNAAFLMIKTYGVSPKIFGMMMSSLLIAHLLGAAICGRYVVK----RGISKLTGVG  285
+
+Query  279  ALSVIATWGAGLLNNASLVEILIPFCVMA------IANGAIYPIVVAQALRPFPQATGRA  332
+            AL  I    A  L+  S+++   P+  +       +  G I        + PFP+  G A
+Sbjct  286  AL--ILVLAAMFLSVTSILKFDGPYLTITAMFIYFLGTGFIMTTAAVGVVSPFPKMIGTA  343
+
+Query  333  AALQNTLQLGLCFLASLVVSWLISTPLLTTT  363
+             A   +L+  L  L+S + S L  + L   T
+Sbjct  344  MAFALSLEFLLSALSSFITSHLSISSLFPIT  374
+
+
+>VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein 
+required for import of Legiobactin [Legiobactin (VF0291) - 
+Nutritional/Metabolic factor (VFC0272)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=386
+
+ Score = 89.7 bits (221),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 102/384 (27%), Positives = 160/384 (42%), Gaps = 14/384 (4%)
+
+Query  8    LVWLAGLSVLGFLATDMYLPAFAAIQADLQTPAAAVSASLSLFLAGFAVAQLLWGPLSDR  67
+            L W  G   + FL      PA  ++          V  ++SLFL G A++ +LWG LS+R
+Sbjct  11   LTWFLGNMDIHFLT-----PALPSLVDYFSVTPNTVQLTISLFLLGKALSMILWGLLSER  65
+
+Query  68   YGRKPILLLGLSIFALGSLGMLWVESAAALLTLRFVQAVGVCAATVIWQALVTDYYPSQK  127
+            YGRKPI + GL +F L +  +    S    L  RF+Q + V A  ++ +A++ D +  Q 
+Sbjct  66   YGRKPIFIGGLLLFILSNFLIALNHSILPFLVCRFLQGISVGATLLMGRAMINDTHNEQN  125
+
+Query  128  INRIFATIMPLVGLSPALAPLLGSWILTHFSWQAIFATLFVITL-LLMLPALRLKPSGKA  186
+              + FA +  L GL     P  G  I ++++WQ   A+L +    LL+LP  R     K 
+Sbjct  126  ATKYFAWLFTLAGLFICFLPFFGGLINSYWNWQI--ASLIIAAYGLLLLPLCRGLKETKP  183
+
+Query  187  RTEGQDKL--TFATLLRSKTYRGNVLIYAACSASFFAWLTGSPFIL-SAMGYSPAVIGLS  243
+                  +L  +   +     +   +LI A   A   A+ T + FIL     ++ A  G  
+Sbjct  184  HYVKFPRLGHSIMVVFNHPLFVSYLLISALMMAGESAFNTSASFILIKGENFTSAQYGTI  243
+
+Query  244  YVPQTIAFLIGGYGCRAALQKWQGYQLLPWLLGLYALSVIATWGAGLLNNASLVEILIPF  303
+                 I  L+G   C    + +   QL    +  +  +    W          +  ++P 
+Sbjct  244  KTTMAIMHLLGTACCGLIAKYYHSIQLTKLGVRFFIFAAFLMWLFVFSAENIYLTFIVPM  303
+
+Query  304  CVMAIANGAIYPIVVAQALRPFPQATGRAAALQNTLQLGLCFLASLVVSWLISTPLLTTT  363
+             +     G I     A A+RPFPQ    A A+    Q       S + S +I    + T 
+Sbjct  304  VIYYFGTGFIVASATASAVRPFPQQMALALAITLFCQFNCSAFFSFITS-MIGIQQVETF  362
+
+Query  364  SVMLSTV-VLAALG-YKMQSHADC  385
+              +LS V +L+ L   K+Q    C
+Sbjct  363  MFLLSLVSILSFLALLKLQRMEPC  386
+
+
+>VFG044123(gb|WP_010930940) (bcr) alcaligin siderophore export 
+MFS transporter Bcr [Alcaligin (VF0688) - Nutritional/Metabolic 
+factor (VFC0272)] [Bordetella pertussis Tohama I]
+Length=407
+
+ Score = 80.9 bits (198),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 51/156 (33%), Positives = 80/156 (51%), Gaps = 0/156 (0%)
+
+Query  8    LVWLAGLSVLGFLATDMYLPAFAAIQADLQTPAAAVSASLSLFLAGFAVAQLLWGPLSDR  67
+            +V L  LS +   + D YLPAF A+Q +   P   V  +L +++  +A   LL G LSD 
+Sbjct  14   MVMLGLLSCVAPASIDAYLPAFGALQREFGVPQETVQLTLGVYMFCYAAMLLLHGTLSDS  73
+
+Query  68   YGRKPILLLGLSIFALGSLGMLWVESAAALLTLRFVQAVGVCAATVIWQALVTDYYPSQK  127
+             GR+ ++L  L  +  G+L          LL  R +Q +   A  V+ QA++ D Y    
+Sbjct  74   LGRRRVVLGALGFYVWGALLATAAPGFGWLLAARALQGLSAGAGVVVGQAIIRDCYQGAA  133
+
+Query  128  INRIFATIMPLVGLSPALAPLLGSWILTHFSWQAIF  163
+              R  + ++ +  LSPALAP++G  +  H  W++IF
+Sbjct  134  AQRSMSYLILVFNLSPALAPVIGGQLAVHHGWRSIF  169
+
+
+>VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux 
+MFS transporter permease subunit [Achromobactin (VF1243) 
+- Nutritional/Metabolic factor (VFC0272)] [Dickeya dadantii 
+3937]
+Length=482
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 43/134 (32%), Positives = 65/134 (49%), Gaps = 0/134 (0%)
+
+Query  50   FLAGFAVAQLLWGPLSDRYGRKPILLLGLSIFALGSLGMLWVESAAALLTLRFVQAVGVC  109
+            F+    +   L G L  R G KP+ LLG+++F  GSL  +  +S + ++  R VQ +   
+Sbjct  54   FMVSMGMTMPLTGYLGHRLGNKPLYLLGVALFISGSLLGMLADSISQVIAARTVQGIASG  113
+
+Query  110  AATVIWQALVTDYYPSQKINRIFATIMPLVGLSPALAPLLGSWILTHFSWQAIFATLFVI  169
+                +   L+   YP Q+   I      +V L+PAL PL G  +L  FSW+A+F     I
+Sbjct  114  LMIPLSLTLIFSVYPKQERGGITGIWGAIVMLAPALGPLCGGILLEWFSWRALFVMNIPI  173
+
+Query  170  TLLLMLPALRLKPS  183
+              L +L  L + P 
+Sbjct  174  GALALLMGLVVLPK  187
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.138    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3122821481
+
+
+Query= g2077.t1
+
+Length=396
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044123(gb|WP_010930940) (bcr) alcaligin siderophore export MFS...  137     1e-36
+VFG047356(gb|WP_014549027) (fslD) MFS transporter, inner membrane...  117     3e-29
+VFG047350(gb|WP_003017404) (fslD) MFS transporter, inner membrane...  102     7e-24
+VFG047349(gb|WP_003041328) (fslD) MFS transporter, inner membrane...  102     7e-24
+VFG047359(gb|WP_014550287) (fslD) MFS transporter, inner membrane...  101     8e-24
+VFG044196(gb|WP_003022879) (fslD) MFS transporter, inner membrane...  100     2e-23
+VFG047353(gb|WP_012429068) (fslD) MFS transporter, inner membrane...  98.6    1e-22
+VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein req...  85.5    4e-18
+VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux M...  65.9    1e-11
+VFG036957(gb|WP_010951322) (farB) fatty acid efflux system protei...  54.7    5e-08
+VFG036960(gb|WP_003703449) (farB) fatty acid efflux system protei...  54.7    6e-08
+VFG036962(gb|WP_014573759) (farB) fatty acid efflux system protei...  54.3    6e-08
+VFG036963(gb|WP_015815889) (farB) fatty acid efflux system protei...  54.3    7e-08
+VFG036964(gb|WP_002218710) (farB) fatty acid efflux system protei...  53.9    9e-08
+VFG036955(gb|WP_002236670) (farB) fatty acid efflux system protei...  53.9    9e-08
+VFG036958(gb|WP_002247957) (farB) fatty acid efflux system protei...  53.9    1e-07
+VFG036966(gb|WP_014581242) (farB) fatty acid efflux system protei...  53.5    1e-07
+VFG036956(gb|WP_002224867) (farB) fatty acid efflux system protei...  53.1    2e-07
+VFG036972(gb|WP_042508130) (farB) fatty acid efflux system protei...  52.4    2e-07
+VFG036965(gb|WP_002226030) (farB) fatty acid efflux system protei...  52.0    4e-07
+VFG036959(gb|WP_012222039) (farB) fatty acid efflux system protei...  50.4    1e-06
+VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) - ...  50.1    1e-06
+
+
+>VFG044123(gb|WP_010930940) (bcr) alcaligin siderophore export 
+MFS transporter Bcr [Alcaligin (VF0688) - Nutritional/Metabolic 
+factor (VFC0272)] [Bordetella pertussis Tohama I]
+Length=407
+
+ Score = 137 bits (346),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 101/344 (29%), Positives = 165/344 (48%), Gaps = 12/344 (3%)
+
+Query  11   IVFILGLLAMLMPLSIDMYLPALPVISAQFGVPAGSAQMTLSTYILGFALGQLIYGPMAD  70
+            ++ +LGLL+ + P SID YLPA   +  +FGVP  + Q+TL  Y+  +A   L++G ++D
+Sbjct  13   MMVMLGLLSCVAPASIDAYLPAFGALQREFGVPQETVQLTLGVYMFCYAAMLLLHGTLSD  72
+
+Query  71   SLGRKPVILGGTLVFAAAAVACALAQTIDQLIVMRFFHGLAAAAASVVINALMRDIYPKE  130
+            SLGR+ V+LG    +   A+    A     L+  R   GL+A A  VV  A++RD Y   
+Sbjct  73   SLGRRRVVLGALGFYVWGALLATAAPGFGWLLAARALQGLSAGAGVVVGQAIIRDCYQGA  132
+
+Query  131  EFSRMMSFVMLVTTIAPLMAPIVGGWVLVWLSWHYIFWILAIAAILASVMIFALIKETLP  190
+               R MS+++LV  ++P +AP++GG + V   W  IF++L + A  A  +    + ETL 
+Sbjct  133  AAQRSMSYLILVFNLSPALAPVIGGQLAVHHGWRSIFFMLGLLAATALTLCAWRLPETLA  192
+
+Query  191  VERRQPFHIRTTIGNFAALFRHKRVLSYMLASGFSFAGMFSFLSAGPFVYIEINHVPPQD  250
+              +RQ   +R     +  + R+    +  LA    FA     + A P     +  +P  +
+Sbjct  193  PAKRQTLSLRGLAAGYREVLRNGNFTAPGLAFSLVFAAQGLLIGAAPDFIANVLDLPETN  252
+
+Query  251  FGYYFALNIVFLFVMTIINSRFVRR------VGALNMFRAGLWIQFAMAVWMVFSALMGI  304
+            F Y F   +        I +R   R      +G   +   G  + +A+  W   S  +  
+Sbjct  253  FAYLFVPLVAGAMTGAAIAARHAGRWRDTRIIGLAYLLMNGSCLAYAIYFWTALSPALP-  311
+
+Query  305  GFWALVVGVAAFVGCVSMVSSNAMAV-ILDEFPHMAGTASSLAG  347
+              WA++    A   C   +S  AM + IL+  P ++GT +S+ G
+Sbjct  312  --WAVL--PPALFTCGLAMSVPAMTLHILESVPALSGTGASVLG  351
+
+
+>VFG047356(gb|WP_014549027) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella cf. tularensis subsp. novicida 3523]
+Length=396
+
+ Score = 117 bits (293),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 82/368 (22%), Positives = 181/368 (49%), Gaps = 4/368 (1%)
+
+Query  30   LPALPVISAQFGVPAGSAQMTLSTYILGFALGQLIYGPMADSLGRKPVILGGTLVFAAAA  89
+            LP LP++S          Q  ++ ++ G ALG ++YGP+++  GR+  +L G +++ +++
+Sbjct  30   LPLLPILSKNLDASVKLTQYVIAFFLAGKALGMIVYGPLSEIYGRRKFMLLGLILYMSSS  89
+
+Query  90   VACALAQTIDQLIVMRFFHGLAAAAASVVINALMRDIYPKEEFSRMMSFVMLVTTIAPLM  149
+            + C L   I  LI  RF  GL  +   ++   ++ D YP ++ + +  ++  V  +    
+Sbjct  90   LLCMLTTDIYWLIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFAVAAVIIAC  149
+
+Query  150  APIVGGWVLVWLSWHYIFWILAIAAILASVMIFALIKETLPVERRQPFHIRTTIGNFAAL  209
+             P +GG + ++ +W   F  + + + L  +++   + ET   + ++PF +   + +++++
+Sbjct  150  LPTLGGIIAIFNNWQLAFATMLVYSSLIFIIMLKYLPETQSEKLQKPFSLLGVLKDYSSI  209
+
+Query  210  FRHKRVLSYMLASGFSFAGMFSFLSAGPFVYIEINHVPPQDFGYYFALNIVFLFVMTIIN  269
+             R++    Y++ +    AG  +F +   F+ I+   V P+ FG   +  ++   +   I 
+Sbjct  210  LRNRVFFGYLMCTSLMVAGESAFNTNAAFLMIKTYAVSPKTFGMMMSSLLIAHLLGAAIC  269
+
+Query  270  SRFVRRVGALNMFRAGLWIQFAMAVWMVFSALMGIG--FWALVVGVAAFVGCVSMVSSNA  327
+             R+V + G  N+   G  I    AV++  ++++     +  +      F+G   ++++ A
+Sbjct  270  GRYVLKRGISNLTGVGALILVLAAVFLSATSILKFDGPYLTITAMFIYFLGTGFIMTTAA  329
+
+Query  328  MAVILDEFPHMAGTASSLAGTFRFGIGAIVGALLSLATFNSAWPMIWSIALCAACSI-LF  386
+            + V+   FP M GTA + A +  F + A+   + S  + +S +P+   I L +  S  ++
+Sbjct  330  VGVV-SPFPKMIGTAMAFALSLEFLLSALSSFITSHLSISSLFPITVLITLLSLSSFAMW  388
+
+Query  387  YLYASRPK  394
+            + Y  R K
+Sbjct  389  FFYIRRDK  396
+
+
+>VFG047350(gb|WP_003017404) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella tularensis subsp. holarctica FTNF002-00]
+Length=396
+
+ Score = 102 bits (253),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 77/357 (22%), Positives = 173/357 (48%), Gaps = 8/357 (2%)
+
+Query  46   SAQMTLSTYILGF-----ALGQLIYGPMADSLGRKPVILGGTLVFAAAAVACALAQTIDQ  100
+             A + L+ Y++ F     ALG ++YGP+++  GR+  +L G +++ ++++ C L   I  
+Sbjct  41   DASVKLTQYVMAFFLAGKALGMIVYGPLSEIYGRRKFMLFGLILYMSSSLLCMLTTDIYW  100
+
+Query  101  LIVMRFFHGLAAAAASVVINALMRDIYPKEEFSRMMSFVMLVTTIAPLMAPIVGGWVLVW  160
+            LI  RF  GL  +   ++   ++ D YP ++ + +  ++  +  +     P +GG + ++
+Sbjct  101  LIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIAIF  160
+
+Query  161  LSWHYIFWILAIAAILASVMIFALIKETLPVERRQPFHIRTTIGNFAALFRHKRVLSYML  220
+             +W   F  + I + L  V++   + ET   + ++ F +   I +++ + R++  L Y++
+Sbjct  161  KNWQLAFATMMIYSSLIFVIMLKFLPETQSEQFQKSFSLIGIIKDYSNILRNRVFLGYLM  220
+
+Query  221  ASGFSFAGMFSFLSAGPFVYIEINHVPPQDFGYYFALNIVFLFVMTIINSRFVRRVGALN  280
+             +    AG  +F +   F+ I+   V P+ FG   +  ++   +   I  R+V + G   
+Sbjct  221  CTSLMVAGESAFNTNAAFLMIKTYGVSPKIFGMMMSSLLIAHLLGAAICGRYVVKRGISK  280
+
+Query  281  MFRAGLWIQFAMAVWMVFSALMGIG--FWALVVGVAAFVGCVSMVSSNAMAVILDEFPHM  338
+            +   G+ I    A+++  ++++     +  +      F+G   ++++ A+ V+   FP M
+Sbjct  281  LTGVGVLILVLAAMFLSVTSILKFDGPYLTITAMFIYFLGTGFIMTTAAVGVV-SPFPKM  339
+
+Query  339  AGTASSLAGTFRFGIGAIVGALLSLATFNSAWPMIWSIALCAACSILFYLYASRPKK  395
+             GTA + A +  F + A+   + S  + +S +P+   I L +  S   + +  +  K
+Sbjct  340  IGTAMAFALSLEFLLSALSSFITSHLSISSLFPITVLITLLSLGSFAMWFFCIKRDK  396
+
+
+>VFG047349(gb|WP_003041328) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella novicida U112]
+Length=396
+
+ Score = 102 bits (253),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 79/357 (22%), Positives = 174/357 (49%), Gaps = 9/357 (3%)
+
+Query  46   SAQMTLSTYILGF-----ALGQLIYGPMADSLGRKPVILGGTLVFAAAAVACALAQTIDQ  100
+             A + L+ Y++ F     ALG ++YGP+++  GR+  +L G +++ ++++ C L   I  
+Sbjct  41   DASVKLTQYVIAFFLAGKALGMIVYGPLSEIYGRRKFMLLGLILYMSSSLLCMLTTNIYW  100
+
+Query  101  LIVMRFFHGLAAAAASVVINALMRDIYPKEEFSRMMSFVMLVTTIAPLMAPIVGGWVLVW  160
+            LI  RF  GL  +   ++   ++ D YP ++ + +  ++  +  +     P +GG + ++
+Sbjct  101  LIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIAIF  160
+
+Query  161  LSWHYIFWILAIAAILASVMIFALIKETLPVERRQPFHIRTTIGNFAALFRHKRVLSYML  220
+             +W   F  + I + L  V++   + ET   + ++ F +   I +++ + R++  L Y++
+Sbjct  161  KNWQLAFATMMIYSSLIFVIMLKYLPETQSEQFQKSFSLIGIIKDYSNILRNRVFLGYLM  220
+
+Query  221  ASGFSFAGMFSFLSAGPFVYIEINHVPPQDFGYYFALNIVFLFVMTIINSRFVRRVGALN  280
+             +    AG  +F +   F+ I+   V P+ FG   +  ++   +   I  R+V + G   
+Sbjct  221  CTSLMVAGESAFNTNAAFLMIKTYGVSPKIFGMMMSSLLIAHLLGAAICGRYVVKRGISK  280
+
+Query  281  MFRAGLWIQFAMAVWMVFSALMGIG--FWALVVGVAAFVGCVSMVSSNAMAVILDEFPHM  338
+            +   G  I    A+++  ++++     +  +      F+G   ++++ A+ V+   FP M
+Sbjct  281  LTGVGALILVLAAMFLSVTSILKFDGPYLTITAMFIYFLGTGFIMTTAAVGVV-SPFPKM  339
+
+Query  339  AGTASSLAGTFRFGIGAIVGALLSLATFNSAWPMIWSIALCAACSI-LFYLYASRPK  394
+             GTA + A +  F + A+   + S  + +S +P+   I L +  S  +++ Y  R K
+Sbjct  340  IGTAMAFALSLEFLLSALSSFITSHLSISSLFPITVLITLLSLGSFAMWFFYIKRDK  396
+
+
+>VFG047359(gb|WP_014550287) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella cf. novicida Fx1]
+Length=396
+
+ Score = 101 bits (252),  Expect = 8e-24, Method: Compositional matrix adjust.
+ Identities = 79/357 (22%), Positives = 174/357 (49%), Gaps = 9/357 (3%)
+
+Query  46   SAQMTLSTYILGF-----ALGQLIYGPMADSLGRKPVILGGTLVFAAAAVACALAQTIDQ  100
+             A + L+ Y++ F     ALG ++YGP+++  GR+  +L G +++ ++++ C L   I  
+Sbjct  41   DASVKLTQYVIAFFLAGKALGMIVYGPLSEIYGRRKFMLLGLILYMSSSLLCMLTTDIYW  100
+
+Query  101  LIVMRFFHGLAAAAASVVINALMRDIYPKEEFSRMMSFVMLVTTIAPLMAPIVGGWVLVW  160
+            LI  RF  GL  +   ++   ++ D YP ++ + +  ++  +  +     P +GG + ++
+Sbjct  101  LIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIAIF  160
+
+Query  161  LSWHYIFWILAIAAILASVMIFALIKETLPVERRQPFHIRTTIGNFAALFRHKRVLSYML  220
+             +W   F  + I + L  V++   + ET   + ++ F +   I +++ + R++  L Y++
+Sbjct  161  KNWQLAFATMMIYSSLIFVIMLKYLPETQSEQFQKSFSLIGIIKDYSNILRNRVFLGYLM  220
+
+Query  221  ASGFSFAGMFSFLSAGPFVYIEINHVPPQDFGYYFALNIVFLFVMTIINSRFVRRVGALN  280
+             +    AG  +F +   F+ I+   V P+ FG   +  ++   +   I  R+V + G   
+Sbjct  221  CTSLMVAGESAFNTNAAFLMIKTYGVSPKIFGMMMSSLLIAHLLGAAICGRYVVKRGISK  280
+
+Query  281  MFRAGLWIQFAMAVWMVFSALMGIG--FWALVVGVAAFVGCVSMVSSNAMAVILDEFPHM  338
+            +   G  I    A+++  ++++     +  +      F+G   ++++ A+ V+   FP M
+Sbjct  281  LTGVGALILVLAAMFLSVTSILKFDGPYLTITAMFIYFLGTGFIMTTAAVGVV-SPFPKM  339
+
+Query  339  AGTASSLAGTFRFGIGAIVGALLSLATFNSAWPMIWSIALCAACSI-LFYLYASRPK  394
+             GTA + A +  F + A+   + S  + +S +P+   I L +  S  +++ Y  R K
+Sbjct  340  IGTAMAFALSLEFLLSALSSFITSHLSISSLFPITVLITLLSLGSFAMWFFYIKRDK  396
+
+
+>VFG044196(gb|WP_003022879) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella tularensis subsp. tularensis SCHU 
+S4]
+Length=396
+
+ Score = 100 bits (250),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 77/357 (22%), Positives = 172/357 (48%), Gaps = 8/357 (2%)
+
+Query  46   SAQMTLSTYILGF-----ALGQLIYGPMADSLGRKPVILGGTLVFAAAAVACALAQTIDQ  100
+             A + L+ Y++ F     ALG ++YGP+++  GR+  +L G +++ ++++ C L   I  
+Sbjct  41   DASVKLTQYVIAFFLAGKALGMIVYGPLSEIYGRRKFMLFGLILYMSSSLLCMLTTDIYW  100
+
+Query  101  LIVMRFFHGLAAAAASVVINALMRDIYPKEEFSRMMSFVMLVTTIAPLMAPIVGGWVLVW  160
+            LI  RF  GL  +   ++   ++ D YP ++ + +  ++  +  +     P +GG + ++
+Sbjct  101  LIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIAIF  160
+
+Query  161  LSWHYIFWILAIAAILASVMIFALIKETLPVERRQPFHIRTTIGNFAALFRHKRVLSYML  220
+             +W   F  + I + L  V++   + ET   + ++ F +   I +++ + R++  L Y++
+Sbjct  161  KNWQLAFATMMIYSSLIFVIMLKFLPETQSEQFQKSFSLIGIIKDYSNILRNRVFLGYLM  220
+
+Query  221  ASGFSFAGMFSFLSAGPFVYIEINHVPPQDFGYYFALNIVFLFVMTIINSRFVRRVGALN  280
+             +    AG  +F +   F+ I+   V P+ FG   +  ++   +   I  R+V + G   
+Sbjct  221  CTSLMVAGESAFNTNAAFLMIKTYGVSPKIFGMMMSSLLIAHLLGAAICGRYVVKRGISK  280
+
+Query  281  MFRAGLWIQFAMAVWMVFSALMGIG--FWALVVGVAAFVGCVSMVSSNAMAVILDEFPHM  338
+            +   G  I    A+++  ++++     +  +      F+G   ++++ A+ V+   FP M
+Sbjct  281  LTGVGALILVLAAMFLSVTSILKFDGPYLTITAMFIYFLGTGFIMTTAAVGVV-SPFPKM  339
+
+Query  339  AGTASSLAGTFRFGIGAIVGALLSLATFNSAWPMIWSIALCAACSILFYLYASRPKK  395
+             GTA + A +  F + A+   + S  + +S +P+   I L +  S   + +  +  K
+Sbjct  340  IGTAMAFALSLEFLLSALSSFITSHLSISSLFPITVLITLLSLGSFAMWFFCIKRDK  396
+
+
+>VFG047353(gb|WP_012429068) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella tularensis subsp. mediasiatica FSC147]
+Length=396
+
+ Score = 98.6 bits (244),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 76/357 (21%), Positives = 171/357 (48%), Gaps = 8/357 (2%)
+
+Query  46   SAQMTLSTYILGF-----ALGQLIYGPMADSLGRKPVILGGTLVFAAAAVACALAQTIDQ  100
+             A + L+ Y++ F     ALG ++YGP+++  GR+  +L G +++ ++++ C L   I  
+Sbjct  41   DASVKLTQYVIAFFLAGKALGMIVYGPLSEIYGRRKFMLFGLILYMSSSLLCMLTTDIYW  100
+
+Query  101  LIVMRFFHGLAAAAASVVINALMRDIYPKEEFSRMMSFVMLVTTIAPLMAPIVGGWVLVW  160
+            LI  RF  GL  +   ++   ++ D YP ++ + +  ++  +  +     P +GG + ++
+Sbjct  101  LIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIAIF  160
+
+Query  161  LSWHYIFWILAIAAILASVMIFALIKETLPVERRQPFHIRTTIGNFAALFRHKRVLSYML  220
+             +W   F  + I + L  V++   + ET   + ++ F +   I +++ + R++  L Y++
+Sbjct  161  KNWQLAFATMMIYSSLIFVIMLKFLPETQSEQFQKSFSLIGIIKDYSNILRNRVFLGYLM  220
+
+Query  221  ASGFSFAGMFSFLSAGPFVYIEINHVPPQDFGYYFALNIVFLFVMTIINSRFVRRVGALN  280
+             +    AG  +F +   F+ I+   V P+ FG   +  ++   +   I   +V + G   
+Sbjct  221  CTSLMVAGESAFNTNAAFLMIKTYGVSPKIFGMMMSSLLIAHLLGAAICGHYVVKRGISK  280
+
+Query  281  MFRAGLWIQFAMAVWMVFSALMGIG--FWALVVGVAAFVGCVSMVSSNAMAVILDEFPHM  338
+            +   G  I    A+++  ++++     +  +      F+G   ++++ A+ V+   FP M
+Sbjct  281  LTGVGALILVLAAMFLSVTSILKFDGPYLTITAMFIYFLGTGFIMTTAAVGVV-SPFPKM  339
+
+Query  339  AGTASSLAGTFRFGIGAIVGALLSLATFNSAWPMIWSIALCAACSILFYLYASRPKK  395
+             GTA + A +  F + A+   + S  + +S +P+   I L +  S   + +  +  K
+Sbjct  340  IGTAMAFALSLEFLLSALSSFITSHLSISSLFPITVLITLLSLGSFAMWFFCIKRDK  396
+
+
+>VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein 
+required for import of Legiobactin [Legiobactin (VF0291) - 
+Nutritional/Metabolic factor (VFC0272)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=386
+
+ Score = 85.5 bits (210),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 59/230 (26%), Positives = 113/230 (49%), Gaps = 7/230 (3%)
+
+Query  24   LSIDMYLPALPVISAQFGVPAGSAQMTLSTYILGFALGQLIYGPMADSLGRKPVILGGTL  83
+            + I    PALP +   F V   + Q+T+S ++LG AL  +++G +++  GRKP+ +GG L
+Sbjct  18   MDIHFLTPALPSLVDYFSVTPNTVQLTISLFLLGKALSMILWGLLSERYGRKPIFIGGLL  77
+
+Query  84   VFAAAAVACALAQTIDQLIVMRFFHGLAAAAASVVINALMRDIYPKEEFSRMMSFVMLVT  143
+            +F  +    AL  +I   +V RF  G++  A  ++  A++ D + ++  ++  +++  + 
+Sbjct  78   LFILSNFLIALNHSILPFLVCRFLQGISVGATLLMGRAMINDTHNEQNATKYFAWLFTLA  137
+
+Query  144  TIAPLMAPIVGGWVLVWLSWHYIFWILAIAAILASVMIFALIKETLPVERRQPFHIRTTI  203
+             +     P  GG +  + +W     I+A   +L   +   L KET P   + P      +
+Sbjct  138  GLFICFLPFFGGLINSYWNWQIASLIIAAYGLLLLPLCRGL-KETKPHYVKFP-----RL  191
+
+Query  204  GN-FAALFRHKRVLSYMLASGFSFAGMFSFLSAGPFVYIEINHVPPQDFG  252
+            G+    +F H   +SY+L S    AG  +F ++  F+ I+  +     +G
+Sbjct  192  GHSIMVVFNHPLFVSYLLISALMMAGESAFNTSASFILIKGENFTSAQYG  241
+
+
+>VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux 
+MFS transporter permease subunit [Achromobactin (VF1243) 
+- Nutritional/Metabolic factor (VFC0272)] [Dickeya dadantii 
+3937]
+Length=482
+
+ Score = 65.9 bits (159),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 46/169 (27%), Positives = 82/169 (49%), Gaps = 1/169 (1%)
+
+Query  31   PALPVISAQFGVPAGSAQMTLSTYILGFALGQLIYGPMADSLGRKPVILGGTLVFAAAAV  90
+            PALP     F +    A   ++ +++   +   + G +   LG KP+ L G  +F + ++
+Sbjct  31   PALPAFIEVFHIGPLLATWIVAAFMVSMGMTMPLTGYLGHRLGNKPLYLLGVALFISGSL  90
+
+Query  91   ACALAQTIDQLIVMRFFHGLAAAAASVVINALMRDIYPKEEFSRMMSFVMLVTTIAPLMA  150
+               LA +I Q+I  R   G+A+     +   L+  +YPK+E   +      +  +AP + 
+Sbjct  91   LGMLADSISQVIAARTVQGIASGLMIPLSLTLIFSVYPKQERGGITGIWGAIVMLAPALG  150
+
+Query  151  PIVGGWVLVWLSWHYIFWILAIAAILASVMIFALIKETLPVERRQPFHI  199
+            P+ GG +L W SW  +F +      LA +M   ++ +T P ER+ PF +
+Sbjct  151  PLCGGILLEWFSWRALFVMNIPIGALALLMGLVVLPKTAPGERK-PFDM  198
+
+
+>VFG036957(gb|WP_010951322) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria gonorrhoeae FA 1090]
+Length=507
+
+ Score = 54.7 bits (130),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 43/184 (23%), Positives = 81/184 (44%), Gaps = 4/184 (2%)
+
+Query  15   LGLLAMLMPLSIDMYLPALPVISAQFGVPAGSAQMTLSTYILGFALGQLIYGPMADSLGR  74
+            LGL   +  L   +   A+PVI+   G         ++++ +  A+   + G +A  +G 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLGAATTQGTWVITSFSVANAVSVPLTGFLAKRIGE  77
+
+Query  75   KPVILGGTLVFAAAAVACALAQTIDQLIVMRFFHGLAAAAASVVINALMRDIYPKEEFSR  134
+              +       F  A+  C +A  +  L+V R   G  A     +  +L+   YP  +  R
+Sbjct  78   VKLFTAAAAGFVIASWLCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAK--R  135
+
+Query  135  MMSFVMLVTTI--APLMAPIVGGWVLVWLSWHYIFWILAIAAILASVMIFALIKETLPVE  192
+            M++  +   T+  AP++ PI+GGW+     W +IF+I     I+++ + +  +K      
+Sbjct  136  MLALALWAMTVVVAPVLGPILGGWISGNWHWGWIFFINIPIGIISAWITWKHLKHRETAT  195
+
+Query  193  RRQP  196
+             R P
+Sbjct  196  VRTP  199
+
+
+>VFG036960(gb|WP_003703449) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria gonorrhoeae NCCP11945]
+Length=507
+
+ Score = 54.7 bits (130),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 43/184 (23%), Positives = 81/184 (44%), Gaps = 4/184 (2%)
+
+Query  15   LGLLAMLMPLSIDMYLPALPVISAQFGVPAGSAQMTLSTYILGFALGQLIYGPMADSLGR  74
+            LGL   +  L   +   A+PVI+   G         ++++ +  A+   + G +A  +G 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLGAATTQGTWVITSFSVANAVSVPLTGFLAKRIGE  77
+
+Query  75   KPVILGGTLVFAAAAVACALAQTIDQLIVMRFFHGLAAAAASVVINALMRDIYPKEEFSR  134
+              +       F  A+  C +A  +  L+V R   G  A     +  +L+   YP  +  R
+Sbjct  78   VKLFTAAAAGFVIASWLCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAK--R  135
+
+Query  135  MMSFVMLVTTI--APLMAPIVGGWVLVWLSWHYIFWILAIAAILASVMIFALIKETLPVE  192
+            M++  +   T+  AP++ PI+GGW+     W +IF+I     I+++ + +  +K      
+Sbjct  136  MLALALWAMTVVVAPVLGPILGGWISGNWHWGWIFFINIPIGIISAWITWKHLKHRETAT  195
+
+Query  193  RRQP  196
+             R P
+Sbjct  196  VRTP  199
+
+
+>VFG036962(gb|WP_014573759) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis 8013]
+Length=508
+
+ Score = 54.3 bits (129),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 49/192 (26%), Positives = 88/192 (46%), Gaps = 18/192 (9%)
+
+Query  11   IVFILGLLAMLMPLSIDMYLPALPVISAQFGVPAGSAQMTLSTYIL-GFALGQLIYGPMA  69
+            I   LGL   +  L   +   A+PVI+   G     A  T  T+++  FA+   +  P+ 
+Sbjct  14   ITLSLGLAVFMEVLDTTIANVAVPVIAGNLG-----AATTQGTWVITSFAVANAVSVPLT  68
+
+Query  70   DSLGRKPVILGGTLVFAAAAVA-------CALAQTIDQLIVMRFFHGLAAAAASVVINAL  122
+              L ++   +G   +F AAAV        C +A  +  L+V R   G  A     +  +L
+Sbjct  69   GFLAKR---IGEVKLFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIAGPLIPLSQSL  125
+
+Query  123  MRDIYPKEEFSRMMSFVMLVTTIAPLMAPIVGGWVLVWLSWHYIFWILAIAAILASVMIF  182
+            +   YP  + +  ++   +   +AP++ PI+GGW+     W +IF+I     I+++ + +
+Sbjct  126  LMASYPPAKRTLALALWAMTVVVAPVLGPILGGWISGNWHWGWIFFINIPIGIISAWITW  185
+
+Query  183  ALIK--ETLPVE  192
+              +K  ET  V+
+Sbjct  186  KHLKCRETETVK  197
+
+
+>VFG036963(gb|WP_015815889) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis alpha14]
+Length=508
+
+ Score = 54.3 bits (129),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 46/194 (24%), Positives = 86/194 (44%), Gaps = 16/194 (8%)
+
+Query  11   IVFILGLLAMLMPLSIDMYLPALPVISAQFGVPAGSAQMTLSTYIL-GFALGQLIYGPMA  69
+            I   LGL   +  L   +   A+PVI+   G     A  T  T+++  FA+   +  P+ 
+Sbjct  14   ITLSLGLAVFMEVLDTTIANVAVPVIAGNLG-----AATTQGTWVITSFAVANAVSVPLT  68
+
+Query  70   DSLGRKPVILGGTLVFAAAAVA-------CALAQTIDQLIVMRFFHGLAAAAASVVINAL  122
+              L ++   +G   +F AAAV        C +A  +  L++ R   G  A     +  +L
+Sbjct  69   GFLAKR---IGEVKLFTAAAVGFVITSWLCGIAPNLQSLVIFRILQGFIAGPLIPLSQSL  125
+
+Query  123  MRDIYPKEEFSRMMSFVMLVTTIAPLMAPIVGGWVLVWLSWHYIFWILAIAAILASVMIF  182
+            +   YP  + +  ++   +   +AP++ PI+GGW+     W +IF+I     I+++ + +
+Sbjct  126  LMASYPPAKRTLALALWAMTVVVAPVLGPILGGWISGNWHWGWIFFINIPIGIISAWITW  185
+
+Query  183  ALIKETLPVERRQP  196
+              +K       + P
+Sbjct  186  KHLKHRETETVKMP  199
+
+
+>VFG036964(gb|WP_002218710) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis alpha710]
+Length=508
+
+ Score = 53.9 bits (128),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 48/188 (26%), Positives = 87/188 (46%), Gaps = 18/188 (10%)
+
+Query  15   LGLLAMLMPLSIDMYLPALPVISAQFGVPAGSAQMTLSTYIL-GFALGQLIYGPMADSLG  73
+            LGL   +  L   +   A+PVI+   G     A  T  T+++  FA+   +  P+   L 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLG-----AATTQGTWVITSFAVANAVSVPLTGFLA  72
+
+Query  74   RKPVILGGTLVFAAAAVA-------CALAQTIDQLIVMRFFHGLAAAAASVVINALMRDI  126
+            ++   +G   +F AAAV        C +A  +  L+V R   G  A     +  +L+   
+Sbjct  73   KR---IGEVKLFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMAS  129
+
+Query  127  YPKEEFSRMMSFVMLVTTIAPLMAPIVGGWVLVWLSWHYIFWILAIAAILASVMIFALIK  186
+            YP  + +  ++   +   +AP++ PI+GGW+     W +IF+I     I+++ + +  +K
+Sbjct  130  YPPAKRTLALALWAMTVVVAPVLGPILGGWISGNWHWGWIFFINIPIGIISAWITWKHLK  189
+
+Query  187  --ETLPVE  192
+              ET  V+
+Sbjct  190  CRETETVK  197
+
+
+>VFG036955(gb|WP_002236670) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis Z2491]
+Length=508
+
+ Score = 53.9 bits (128),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 48/188 (26%), Positives = 87/188 (46%), Gaps = 18/188 (10%)
+
+Query  15   LGLLAMLMPLSIDMYLPALPVISAQFGVPAGSAQMTLSTYIL-GFALGQLIYGPMADSLG  73
+            LGL   +  L   +   A+PVI+   G     A  T  T+++  FA+   +  P+   L 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLG-----AATTQGTWVITSFAVANAVSVPLTGFLA  72
+
+Query  74   RKPVILGGTLVFAAAAVA-------CALAQTIDQLIVMRFFHGLAAAAASVVINALMRDI  126
+            ++   +G   +F AAAV        C +A  +  L+V R   G  A     +  +L+   
+Sbjct  73   KR---IGEVKLFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMAS  129
+
+Query  127  YPKEEFSRMMSFVMLVTTIAPLMAPIVGGWVLVWLSWHYIFWILAIAAILASVMIFALIK  186
+            YP  + +  ++   +   +AP++ PI+GGW+     W +IF+I     I+++ + +  +K
+Sbjct  130  YPPAKRTLALALWAMTVVVAPVLGPILGGWISGNWHWGWIFFINIPIGIISAWITWKHLK  189
+
+Query  187  --ETLPVE  192
+              ET  V+
+Sbjct  190  CRETETVK  197
+
+
+>VFG036958(gb|WP_002247957) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis FAM18]
+Length=508
+
+ Score = 53.9 bits (128),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 48/188 (26%), Positives = 87/188 (46%), Gaps = 18/188 (10%)
+
+Query  15   LGLLAMLMPLSIDMYLPALPVISAQFGVPAGSAQMTLSTYIL-GFALGQLIYGPMADSLG  73
+            LGL   +  L   +   A+PVI+   G     A  T  T+++  FA+   +  P+   L 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLG-----AATTQGTWVITSFAVANAVSVPLTGFLA  72
+
+Query  74   RKPVILGGTLVFAAAAVA-------CALAQTIDQLIVMRFFHGLAAAAASVVINALMRDI  126
+            ++   +G   +F AAAV        C +A  +  L+V R   G  A     +  +L+   
+Sbjct  73   KR---IGEVKLFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMAS  129
+
+Query  127  YPKEEFSRMMSFVMLVTTIAPLMAPIVGGWVLVWLSWHYIFWILAIAAILASVMIFALIK  186
+            YP  + +  ++   +   +AP++ PI+GGW+     W +IF+I     I+++ + +  +K
+Sbjct  130  YPPAKRTLALALWAMTVVVAPVLGPILGGWISGNWHWGWIFFINIPIGIISAWITWKHLK  189
+
+Query  187  --ETLPVE  192
+              ET  V+
+Sbjct  190  YRETETVK  197
+
+
+>VFG036966(gb|WP_014581242) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis M01-240149]
+Length=508
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 48/188 (26%), Positives = 87/188 (46%), Gaps = 18/188 (10%)
+
+Query  15   LGLLAMLMPLSIDMYLPALPVISAQFGVPAGSAQMTLSTYIL-GFALGQLIYGPMADSLG  73
+            LGL   +  L   +   A+PVI+   G     A  T  T+++  FA+   +  P+   L 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLG-----AATTQGTWVITSFAVANAVSVPLTGFLA  72
+
+Query  74   RKPVILGGTLVFAAAAVA-------CALAQTIDQLIVMRFFHGLAAAAASVVINALMRDI  126
+            ++   +G   +F AAAV        C +A  +  L+V R   G  A     +  +L+   
+Sbjct  73   KR---IGEVKLFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMAS  129
+
+Query  127  YPKEEFSRMMSFVMLVTTIAPLMAPIVGGWVLVWLSWHYIFWILAIAAILASVMIFALIK  186
+            YP  + +  ++   +   +AP++ PI+GGW+     W +IF+I     I+++ + +  +K
+Sbjct  130  YPPAKRTLALALWAMTVVVAPVLGPILGGWISGNWHWGWIFFINIPIGIISAWITWKHLK  189
+
+Query  187  --ETLPVE  192
+              ET  V+
+Sbjct  190  YRETETVK  197
+
+
+>VFG036956(gb|WP_002224867) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis MC58]
+Length=508
+
+ Score = 53.1 bits (126),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 40/180 (22%), Positives = 81/180 (45%), Gaps = 2/180 (1%)
+
+Query  15   LGLLAMLMPLSIDMYLPALPVISAQFGVPAGSAQMTLSTYILGFALGQLIYGPMADSLGR  74
+            LGL   +  L   +   A+PVI+   G         ++++ +  A+   + G +A  +G 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLGAATTQGTWVITSFSVANAVSVPLTGFLAKRIGE  77
+
+Query  75   KPVILGGTLVFAAAAVACALAQTIDQLIVMRFFHGLAAAAASVVINALMRDIYPKEEFSR  134
+              +     + F   +  C +A  +  L+V R   G  A     +  +L+   YP  + + 
+Sbjct  78   VKLFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTL  137
+
+Query  135  MMSFVMLVTTIAPLMAPIVGGWVLVWLSWHYIFWILAIAAILASVMIFALIK--ETLPVE  192
+             ++   +   +AP++ PI+GGW+     W +IF+I     I+++ + +  +K  ET  V+
+Sbjct  138  ALALWAMTVVVAPVLGPILGGWISGNWHWGWIFFINIPIGIISAWITWKHLKYRETETVK  197
+
+
+>VFG036972(gb|WP_042508130) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria lactamica 020-06]
+Length=508
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 37/182 (20%), Positives = 79/182 (43%), Gaps = 0/182 (0%)
+
+Query  15   LGLLAMLMPLSIDMYLPALPVISAQFGVPAGSAQMTLSTYILGFALGQLIYGPMADSLGR  74
+            LGL   +  L   +   A+PVI+   G         ++++ +  A+   + G +A  +G 
+Sbjct  18   LGLAVFMEILDTTIANVAVPVIAGNLGAATTQGTWVITSFSVANAVSVPLTGFLAKRIGE  77
+
+Query  75   KPVILGGTLVFAAAAVACALAQTIDQLIVMRFFHGLAAAAASVVINALMRDIYPKEEFSR  134
+              +     + F   +  C +A  +  L++ R   G  A     +  +L+   YP  + + 
+Sbjct  78   VKLFTAAAVGFVITSWLCGIAPNLQALVIFRILQGFIAGPLIPLSQSLLMASYPPAKRTL  137
+
+Query  135  MMSFVMLVTTIAPLMAPIVGGWVLVWLSWHYIFWILAIAAILASVMIFALIKETLPVERR  194
+             ++   +   +AP++ PI+GGW+     W +IF+I     I+++ + +  +K       +
+Sbjct  138  ALALWAMTVVVAPVLGPILGGWISGNWHWGWIFFINIPIGIISARITWKHLKHRETETVK  197
+
+Query  195  QP  196
+             P
+Sbjct  198  MP  199
+
+
+>VFG036965(gb|WP_002226030) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis G2136]
+Length=508
+
+ Score = 52.0 bits (123),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 48/192 (25%), Positives = 87/192 (45%), Gaps = 18/192 (9%)
+
+Query  11   IVFILGLLAMLMPLSIDMYLPALPVISAQFGVPAGSAQMTLSTYIL-GFALGQLIYGPMA  69
+            I   LGL   +  L   +   A+PVI+   G     A  T  T+++  FA+   +  P+ 
+Sbjct  14   ITLSLGLAVFMEVLDTTIANVAVPVIAGNLG-----AATTQGTWVITSFAVANAVSVPLT  68
+
+Query  70   DSLGRKPVILGGTLVFAAAAVA-------CALAQTIDQLIVMRFFHGLAAAAASVVINAL  122
+              L ++   +G   +F AAAV        C +A  +  L+  R   G  A     +  +L
+Sbjct  69   GFLAKR---IGEVKLFTAAAVGFVITSWLCGIAPNLQALVFFRILQGFIAGPLIPLSQSL  125
+
+Query  123  MRDIYPKEEFSRMMSFVMLVTTIAPLMAPIVGGWVLVWLSWHYIFWILAIAAILASVMIF  182
+            +   YP  + +  ++   +   +AP++ PI+GGW+     W +IF+I     I+++ + +
+Sbjct  126  LMASYPPAKRTLALALWAMTVVVAPVLGPILGGWISGNWHWGWIFFINIPIGIISAWITW  185
+
+Query  183  ALIK--ETLPVE  192
+              +K  ET  V+
+Sbjct  186  KHLKYRETETVK  197
+
+
+>VFG036959(gb|WP_012222039) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis 053442]
+Length=508
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 47/188 (25%), Positives = 85/188 (45%), Gaps = 18/188 (10%)
+
+Query  15   LGLLAMLMPLSIDMYLPALPVISAQFGVPAGSAQMTLSTYIL-GFALGQLIYGPMADSLG  73
+            LGL   +  L   +   A+PVI+   G     A  T  T+++  FA+   +  P+   L 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLG-----AATTQGTWVITSFAVANAVSVPLTGFLA  72
+
+Query  74   RKPVILGGTLVFAAAAVA-------CALAQTIDQLIVMRFFHGLAAAAASVVINALMRDI  126
+            ++   +G   +F AAAV        C +A  +  L+  R   G  A     +  +L+   
+Sbjct  73   KR---IGEVKLFTAAAVGFVITSWLCGIAPNLQALVFFRILQGFIAGPLIPLSQSLLMAS  129
+
+Query  127  YPKEEFSRMMSFVMLVTTIAPLMAPIVGGWVLVWLSWHYIFWILAIAAILASVMIFALIK  186
+            YP  + +  ++   +   +AP++ PI GGW+     W +IF+I     I+++ + +  +K
+Sbjct  130  YPPAKRTLALALWAMTVVVAPVLGPIFGGWISGNWHWGWIFFINIPIGIISAWITWKHLK  189
+
+Query  187  --ETLPVE  192
+              ET  V+
+Sbjct  190  YRETETVK  197
+
+
+>VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=447
+
+ Score = 50.1 bits (118),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 37/156 (24%), Positives = 68/156 (44%), Gaps = 1/156 (1%)
+
+Query  33   LPVISAQFGVPAGSAQMTLSTYILGFALGQLIYGPMADSLGRKPVILGGTLVFAAAAVAC  92
+            LP++  Q+ +      + + +   G  LG L  G +AD +GRKPV+L   L+    +   
+Sbjct  48   LPLLKQQWQLDPTQVGLIVGSGTFGMLLGALCAGALADRVGRKPVLLAAMLLTGLFSALI  107
+
+Query  93   ALAQTIDQLIVMRFFHGLAAAAASVVINALMRDIYPKEEFSRMMSFVMLVTTIAPLMAPI  152
+            A A     L+V R   GL   A   +    + +I   +   R +    L      + A +
+Sbjct  108  ACASDWQGLLVGRLLQGLGIGAEVPIAALYLSEIITSKVRGRFVLLYELSFPCGLMFAGV  167
+
+Query  153  VGGWVLVWLSWHYIFWILAIAAILASVMIFALIKET  188
+               W L  + W  ++W+ ++  +LA V ++  + E+
+Sbjct  168  ACTWALPVMGWRPLYWLGSVPMVLA-VAVYLYVPES  202
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.141    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3070600386
+
+
+Query= g3603.t1
+
+Length=395
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG047356(gb|WP_014549027) (fslD) MFS transporter, inner membrane...  77.0    3e-15
+VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein req...  72.4    8e-14
+VFG047359(gb|WP_014550287) (fslD) MFS transporter, inner membrane...  70.5    3e-13
+VFG044123(gb|WP_010930940) (bcr) alcaligin siderophore export MFS...  70.1    5e-13
+VFG047349(gb|WP_003041328) (fslD) MFS transporter, inner membrane...  69.7    6e-13
+VFG044196(gb|WP_003022879) (fslD) MFS transporter, inner membrane...  69.3    8e-13
+VFG047353(gb|WP_012429068) (fslD) MFS transporter, inner membrane...  69.3    8e-13
+VFG047350(gb|WP_003017404) (fslD) MFS transporter, inner membrane...  67.8    2e-12
+VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux M...  61.2    4e-10
+VFG036955(gb|WP_002236670) (farB) fatty acid efflux system protei...  53.9    9e-08
+VFG036965(gb|WP_002226030) (farB) fatty acid efflux system protei...  53.5    1e-07
+VFG036964(gb|WP_002218710) (farB) fatty acid efflux system protei...  53.5    1e-07
+VFG036966(gb|WP_014581242) (farB) fatty acid efflux system protei...  53.5    1e-07
+VFG036962(gb|WP_014573759) (farB) fatty acid efflux system protei...  53.5    1e-07
+VFG036958(gb|WP_002247957) (farB) fatty acid efflux system protei...  53.5    1e-07
+VFG036963(gb|WP_015815889) (farB) fatty acid efflux system protei...  53.5    1e-07
+VFG036956(gb|WP_002224867) (farB) fatty acid efflux system protei...  53.1    1e-07
+VFG036959(gb|WP_012222039) (farB) fatty acid efflux system protei...  53.1    1e-07
+VFG036960(gb|WP_003703449) (farB) fatty acid efflux system protei...  52.8    2e-07
+VFG036957(gb|WP_010951322) (farB) fatty acid efflux system protei...  52.8    2e-07
+VFG036972(gb|WP_042508130) (farB) fatty acid efflux system protei...  52.4    3e-07
+
+
+>VFG047356(gb|WP_014549027) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella cf. tularensis subsp. novicida 3523]
+Length=396
+
+ Score = 77.0 bits (188),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 58/232 (25%), Positives = 110/232 (47%), Gaps = 2/232 (1%)
+
+Query  18   GIDMYLVGLPRIAADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALV  77
+            G+   L  LP ++ +L+AS        + +LAG A  M+  G +++  GR+   ++G ++
+Sbjct  25   GVHFLLPLLPILSKNLDASVKLTQYVIAFFLAGKALGMIVYGPLSEIYGRRKFMLLGLIL  84
+
+Query  78   FMMASLLCSRASEGSLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITC  137
+            +M +SLLC   ++    +  RF+QG+G  G  ++   I+ D+    + A +   L  +  
+Sbjct  85   YMSSSLLCMLTTDIYWLIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFAVAA  144
+
+Query  138  IVPVLAPVVGHLIMLRFPWQSLFYTMSAMGIIVGLLSLFILRETRPVRL-APRDLSRSSP  196
+            ++    P +G +I +   WQ  F TM     ++ ++ L  L ET+  +L  P  L     
+Sbjct  145  VIIACLPTLGGIIAIFNNWQLAFATMLVYSSLIFIIMLKYLPETQSEKLQKPFSLLGVLK  204
+
+Query  197  AAESLI-NRFFVSRLAITTLSVSVILTFVNASPVLLMEVMGFSRGDYAITMA  247
+               S++ NR F   L  T+L V+    F   +  L+++    S   + + M+
+Sbjct  205  DYSSILRNRVFFGYLMCTSLMVAGESAFNTNAAFLMIKTYAVSPKTFGMMMS  256
+
+
+>VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein 
+required for import of Legiobactin [Legiobactin (VF0291) - 
+Nutritional/Metabolic factor (VFC0272)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=386
+
+ Score = 72.4 bits (176),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 84/358 (23%), Positives = 161/358 (45%), Gaps = 18/358 (5%)
+
+Query  25   GLPRIAADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASLL  84
+             LP +    + +   + +  S++L G A +M+  G ++++ GRKP+ I G L+F++++ L
+Sbjct  26   ALPSLVDYFSVTPNTVQLTISLFLLGKALSMILWGLLSERYGRKPIFIGGLLLFILSNFL  85
+
+Query  85   CSRASEGSLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLAP  144
+             +       FL  RFLQG+  G   ++  A++ DT +E    K  + L  +  +     P
+Sbjct  86   IALNHSILPFLVCRFLQGISVGATLLMGRAMINDTHNEQNATKYFAWLFTLAGLFICFLP  145
+
+Query  145  VVGHLIMLRFPWQSLFYTMSAMGIIVGLLSLFILRETRPVRLAPRDLSRSSPAAESLINR  204
+              G LI   + WQ     ++A G+++  L    L+ET+P  +    L  S     +  + 
+Sbjct  146  FFGGLINSYWNWQIASLIIAAYGLLLLPLCR-GLKETKPHYVKFPRLGHSIMVVFN--HP  202
+
+Query  205  FFVSRLAITTLSVSVILTFVNASPVLLMEVMGFSRGDY---AITMAL-----TAGVSMVV  256
+             FVS L I+ L ++    F  ++  +L++   F+   Y     TMA+     TA   ++ 
+Sbjct  203  LFVSYLLISALMMAGESAFNTSASFILIKGENFTSAQYGTIKTTMAIMHLLGTACCGLIA  262
+
+Query  257  SFSTPFALGLFKPRTLMLVSQGLFLTAGVTLSLAHTNTVTLFGLTLICAGFSVGFGV--A  314
+             +     L     R  +  +  ++L        +  N    F + ++   F  GF V  A
+Sbjct  263  KYYHSIQLTKLGVRFFIFAAFLMWL-----FVFSAENIYLTFIVPMVIYYFGTGFIVASA  317
+
+Query  315  MSQALGPFSLRAGVASSTLGIAQVCGSSLWIWLAAILGISAMNMLIGILIGCSIVSIL  372
+             + A+ PF  +  +A +     Q   S+ + ++ +++GI  +   + +L   SI+S L
+Sbjct  318  TASAVRPFPQQMALALAITLFCQFNCSAFFSFITSMIGIQQVETFMFLLSLVSILSFL  375
+
+
+>VFG047359(gb|WP_014550287) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella cf. novicida Fx1]
+Length=396
+
+ Score = 70.5 bits (171),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 54/226 (24%), Positives = 104/226 (46%), Gaps = 14/226 (6%)
+
+Query  30   AADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASLLCSRAS  89
+            + +L+AS        + +LAG A  M+  G +++  GR+   ++G +++M +SLLC   +
+Sbjct  37   SKNLDASVKLTQYVIAFFLAGKALGMIVYGPLSEIYGRRKFMLLGLILYMSSSLLCMLTT  96
+
+Query  90   EGSLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLAPVVGHL  149
+            +    +  RF+QG+G  G  ++   I+ D+    + A +   L  +  ++    P +G +
+Sbjct  97   DIYWLIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGI  156
+
+Query  150  IMLRFPWQSLFYTMSAMGIIVGLLSLFILRETRPVRLAP--------RDLSRSSPAAESL  201
+            I +   WQ  F TM     ++ ++ L  L ET+  +           +D S        L
+Sbjct  157  IAIFKNWQLAFATMMIYSSLIFVIMLKYLPETQSEQFQKSFSLIGIIKDYS------NIL  210
+
+Query  202  INRFFVSRLAITTLSVSVILTFVNASPVLLMEVMGFSRGDYAITMA  247
+             NR F+  L  T+L V+    F   +  L+++  G S   + + M+
+Sbjct  211  RNRVFLGYLMCTSLMVAGESAFNTNAAFLMIKTYGVSPKIFGMMMS  256
+
+
+>VFG044123(gb|WP_010930940) (bcr) alcaligin siderophore export 
+MFS transporter Bcr [Alcaligin (VF0688) - Nutritional/Metabolic 
+factor (VFC0272)] [Bordetella pertussis Tohama I]
+Length=407
+
+ Score = 70.1 bits (170),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 66/235 (28%), Positives = 107/235 (46%), Gaps = 12/235 (5%)
+
+Query  16   PAGIDMYLVGLPRIAADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGA  75
+            PA ID YL     +  +    +  + +   VY+   A  +L  G ++D  GR+ V ++GA
+Sbjct  25   PASIDAYLPAFGALQREFGVPQETVQLTLGVYMFCYAAMLLLHGTLSDSLGRRRV-VLGA  83
+
+Query  76   LVFMMASLLCSRASEG-SLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNG  134
+            L F +   L + A+ G    L+ R LQG+ AG   VV  AI+RD        + +S L  
+Sbjct  84   LGFYVWGALLATAAPGFGWLLAARALQGLSAGAGVVVGQAIIRDCYQGAAAQRSMSYLIL  143
+
+Query  135  ITCIVPVLAPVVGHLIMLRFPWQSLFYTMSAMGIIVGLLSLFILRETRPVRLAP---RDL  191
+            +  + P LAPV+G  + +   W+S+F+ +  +      L  + L ET    LAP   + L
+Sbjct  144  VFNLSPALAPVIGGQLAVHHGWRSIFFMLGLLAATALTLCAWRLPET----LAPAKRQTL  199
+
+Query  192  SRSSPAA---ESLINRFFVSRLAITTLSVSVILTFVNASPVLLMEVMGFSRGDYA  243
+            S    AA   E L N  F +     +L  +     + A+P  +  V+     ++A
+Sbjct  200  SLRGLAAGYREVLRNGNFTAPGLAFSLVFAAQGLLIGAAPDFIANVLDLPETNFA  254
+
+
+>VFG047349(gb|WP_003041328) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella novicida U112]
+Length=396
+
+ Score = 69.7 bits (169),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 54/226 (24%), Positives = 103/226 (46%), Gaps = 14/226 (6%)
+
+Query  30   AADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASLLCSRAS  89
+            + +L+AS        + +LAG A  M+  G +++  GR+   ++G +++M +SLLC   +
+Sbjct  37   SKNLDASVKLTQYVIAFFLAGKALGMIVYGPLSEIYGRRKFMLLGLILYMSSSLLCMLTT  96
+
+Query  90   EGSLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLAPVVGHL  149
+                 +  RF+QG+G  G  ++   I+ D+    + A +   L  +  ++    P +G +
+Sbjct  97   NIYWLIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGI  156
+
+Query  150  IMLRFPWQSLFYTMSAMGIIVGLLSLFILRETRPVRLAP--------RDLSRSSPAAESL  201
+            I +   WQ  F TM     ++ ++ L  L ET+  +           +D S        L
+Sbjct  157  IAIFKNWQLAFATMMIYSSLIFVIMLKYLPETQSEQFQKSFSLIGIIKDYS------NIL  210
+
+Query  202  INRFFVSRLAITTLSVSVILTFVNASPVLLMEVMGFSRGDYAITMA  247
+             NR F+  L  T+L V+    F   +  L+++  G S   + + M+
+Sbjct  211  RNRVFLGYLMCTSLMVAGESAFNTNAAFLMIKTYGVSPKIFGMMMS  256
+
+
+>VFG044196(gb|WP_003022879) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella tularensis subsp. tularensis SCHU 
+S4]
+Length=396
+
+ Score = 69.3 bits (168),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 56/224 (25%), Positives = 102/224 (46%), Gaps = 16/224 (7%)
+
+Query  32   DLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASLLCSRASEG  91
+            D +    Q  IAF  +LAG A  M+  G +++  GR+   + G +++M +SLLC   ++ 
+Sbjct  41   DASVKLTQYVIAF--FLAGKALGMIVYGPLSEIYGRRKFMLFGLILYMSSSLLCMLTTDI  98
+
+Query  92   SLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLAPVVGHLIM  151
+               +  RF+QG+G  G  ++   I+ D+    + A +   L  +  ++    P +G +I 
+Sbjct  99   YWLIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIA  158
+
+Query  152  LRFPWQSLFYTMSAMGIIVGLLSLFILRETRPVRLAP--------RDLSRSSPAAESLIN  203
+            +   WQ  F TM     ++ ++ L  L ET+  +           +D S        L N
+Sbjct  159  IFKNWQLAFATMMIYSSLIFVIMLKFLPETQSEQFQKSFSLIGIIKDYS------NILRN  212
+
+Query  204  RFFVSRLAITTLSVSVILTFVNASPVLLMEVMGFSRGDYAITMA  247
+            R F+  L  T+L V+    F   +  L+++  G S   + + M+
+Sbjct  213  RVFLGYLMCTSLMVAGESAFNTNAAFLMIKTYGVSPKIFGMMMS  256
+
+
+>VFG047353(gb|WP_012429068) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella tularensis subsp. mediasiatica FSC147]
+Length=396
+
+ Score = 69.3 bits (168),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 54/218 (25%), Positives = 101/218 (46%), Gaps = 4/218 (2%)
+
+Query  32   DLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASLLCSRASEG  91
+            D +    Q  IAF  +LAG A  M+  G +++  GR+   + G +++M +SLLC   ++ 
+Sbjct  41   DASVKLTQYVIAF--FLAGKALGMIVYGPLSEIYGRRKFMLFGLILYMSSSLLCMLTTDI  98
+
+Query  92   SLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLAPVVGHLIM  151
+               +  RF+QG+G  G  ++   I+ D+    + A +   L  +  ++    P +G +I 
+Sbjct  99   YWLIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIA  158
+
+Query  152  LRFPWQSLFYTMSAMGIIVGLLSLFILRETRPVRLAPRD--LSRSSPAAESLINRFFVSR  209
+            +   WQ  F TM     ++ ++ L  L ET+  +       +      +  L NR F+  
+Sbjct  159  IFKNWQLAFATMMIYSSLIFVIMLKFLPETQSEQFQKSFSLIGIIKDYSNILRNRVFLGY  218
+
+Query  210  LAITTLSVSVILTFVNASPVLLMEVMGFSRGDYAITMA  247
+            L  T+L V+    F   +  L+++  G S   + + M+
+Sbjct  219  LMCTSLMVAGESAFNTNAAFLMIKTYGVSPKIFGMMMS  256
+
+
+>VFG047350(gb|WP_003017404) (fslD) MFS transporter, inner membrane 
+protein responsible for uptake of the ferric-siderophore 
+complex [Rhizoferrin (VF0551) - Nutritional/Metabolic factor 
+(VFC0272)] [Francisella tularensis subsp. holarctica FTNF002-00]
+Length=396
+
+ Score = 67.8 bits (164),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 53/218 (24%), Positives = 101/218 (46%), Gaps = 4/218 (2%)
+
+Query  32   DLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASLLCSRASEG  91
+            D +    Q  +AF  +LAG A  M+  G +++  GR+   + G +++M +SLLC   ++ 
+Sbjct  41   DASVKLTQYVMAF--FLAGKALGMIVYGPLSEIYGRRKFMLFGLILYMSSSLLCMLTTDI  98
+
+Query  92   SLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLAPVVGHLIM  151
+               +  RF+QG+G  G  ++   I+ D+    + A +   L  +  ++    P +G +I 
+Sbjct  99   YWLIFWRFVQGLGVSGTILMGRVIINDSYPNDKAANIFGYLFALAAVIIACLPTLGGIIA  158
+
+Query  152  LRFPWQSLFYTMSAMGIIVGLLSLFILRETRPVRLAPRD--LSRSSPAAESLINRFFVSR  209
+            +   WQ  F TM     ++ ++ L  L ET+  +       +      +  L NR F+  
+Sbjct  159  IFKNWQLAFATMMIYSSLIFVIMLKFLPETQSEQFQKSFSLIGIIKDYSNILRNRVFLGY  218
+
+Query  210  LAITTLSVSVILTFVNASPVLLMEVMGFSRGDYAITMA  247
+            L  T+L V+    F   +  L+++  G S   + + M+
+Sbjct  219  LMCTSLMVAGESAFNTNAAFLMIKTYGVSPKIFGMMMS  256
+
+
+>VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux 
+MFS transporter permease subunit [Achromobactin (VF1243) 
+- Nutritional/Metabolic factor (VFC0272)] [Dickeya dadantii 
+3937]
+Length=482
+
+ Score = 61.2 bits (147),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 35/148 (24%), Positives = 71/148 (48%), Gaps = 0/148 (0%)
+
+Query  45   SVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASLLCSRASEGSLFLSGRFLQGVG  104
+            + ++  M   M   G +  + G KP+ ++G  +F+  SLL   A   S  ++ R +QG+ 
+Sbjct  52   AAFMVSMGMTMPLTGYLGHRLGNKPLYLLGVALFISGSLLGMLADSISQVIAARTVQGIA  111
+
+Query  105  AGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLAPVVGHLIMLRFPWQSLFYTMS  164
+            +G    ++  ++     +  R  +  +   I  + P L P+ G +++  F W++LF    
+Sbjct  112  SGLMIPLSLTLIFSVYPKQERGGITGIWGAIVMLAPALGPLCGGILLEWFSWRALFVMNI  171
+
+Query  165  AMGIIVGLLSLFILRETRPVRLAPRDLS  192
+             +G +  L+ L +L +T P    P D++
+Sbjct  172  PIGALALLMGLVVLPKTAPGERKPFDMT  199
+
+
+>VFG036955(gb|WP_002236670) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis Z2491]
+Length=508
+
+ Score = 53.9 bits (128),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 45/169 (27%), Positives = 77/169 (46%), Gaps = 3/169 (2%)
+
+Query  24   VGLPRIAADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASL  83
+            V +P IA +L A+  Q     + +    A ++   G +A + G   +    A+ F++ S 
+Sbjct  34   VAVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSW  93
+
+Query  84   LCSRASEGSLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLA  143
+            LC  A      +  R LQG  AG    ++ ++L  +    +R   L+L      + PVL 
+Sbjct  94   LCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLG  153
+
+Query  144  PVVGHLIMLRFPWQSLFYTMSAMGIIVGLLSLFIL--RETRPVRLAPRD  190
+            P++G  I   + W  +F+    +GII   ++   L  RET  V++ P D
+Sbjct  154  PILGGWISGNWHWGWIFFINIPIGIISAWITWKHLKCRETETVKM-PTD  201
+
+
+>VFG036965(gb|WP_002226030) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis G2136]
+Length=508
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 45/169 (27%), Positives = 77/169 (46%), Gaps = 3/169 (2%)
+
+Query  24   VGLPRIAADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASL  83
+            V +P IA +L A+  Q     + +    A ++   G +A + G   +    A+ F++ S 
+Sbjct  34   VAVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSW  93
+
+Query  84   LCSRASEGSLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLA  143
+            LC  A      +  R LQG  AG    ++ ++L  +    +R   L+L      + PVL 
+Sbjct  94   LCGIAPNLQALVFFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLG  153
+
+Query  144  PVVGHLIMLRFPWQSLFYTMSAMGIIVGLLSLFIL--RETRPVRLAPRD  190
+            P++G  I   + W  +F+    +GII   ++   L  RET  V++ P D
+Sbjct  154  PILGGWISGNWHWGWIFFINIPIGIISAWITWKHLKYRETETVKM-PTD  201
+
+
+>VFG036964(gb|WP_002218710) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis alpha710]
+Length=508
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 45/169 (27%), Positives = 77/169 (46%), Gaps = 3/169 (2%)
+
+Query  24   VGLPRIAADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASL  83
+            V +P IA +L A+  Q     + +    A ++   G +A + G   +    A+ F++ S 
+Sbjct  34   VAVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSW  93
+
+Query  84   LCSRASEGSLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLA  143
+            LC  A      +  R LQG  AG    ++ ++L  +    +R   L+L      + PVL 
+Sbjct  94   LCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLG  153
+
+Query  144  PVVGHLIMLRFPWQSLFYTMSAMGIIVGLLSLFIL--RETRPVRLAPRD  190
+            P++G  I   + W  +F+    +GII   ++   L  RET  V++ P D
+Sbjct  154  PILGGWISGNWHWGWIFFINIPIGIISAWITWKHLKCRETETVKM-PTD  201
+
+
+>VFG036966(gb|WP_014581242) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis M01-240149]
+Length=508
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 45/169 (27%), Positives = 77/169 (46%), Gaps = 3/169 (2%)
+
+Query  24   VGLPRIAADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASL  83
+            V +P IA +L A+  Q     + +    A ++   G +A + G   +    A+ F++ S 
+Sbjct  34   VAVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSW  93
+
+Query  84   LCSRASEGSLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLA  143
+            LC  A      +  R LQG  AG    ++ ++L  +    +R   L+L      + PVL 
+Sbjct  94   LCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLG  153
+
+Query  144  PVVGHLIMLRFPWQSLFYTMSAMGIIVGLLSLFIL--RETRPVRLAPRD  190
+            P++G  I   + W  +F+    +GII   ++   L  RET  V++ P D
+Sbjct  154  PILGGWISGNWHWGWIFFINIPIGIISAWITWKHLKYRETETVKM-PTD  201
+
+
+>VFG036962(gb|WP_014573759) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis 8013]
+Length=508
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 45/169 (27%), Positives = 77/169 (46%), Gaps = 3/169 (2%)
+
+Query  24   VGLPRIAADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASL  83
+            V +P IA +L A+  Q     + +    A ++   G +A + G   +    A+ F++ S 
+Sbjct  34   VAVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSW  93
+
+Query  84   LCSRASEGSLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLA  143
+            LC  A      +  R LQG  AG    ++ ++L  +    +R   L+L      + PVL 
+Sbjct  94   LCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLG  153
+
+Query  144  PVVGHLIMLRFPWQSLFYTMSAMGIIVGLLSLFIL--RETRPVRLAPRD  190
+            P++G  I   + W  +F+    +GII   ++   L  RET  V++ P D
+Sbjct  154  PILGGWISGNWHWGWIFFINIPIGIISAWITWKHLKCRETETVKM-PTD  201
+
+
+>VFG036958(gb|WP_002247957) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis FAM18]
+Length=508
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 45/169 (27%), Positives = 77/169 (46%), Gaps = 3/169 (2%)
+
+Query  24   VGLPRIAADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASL  83
+            V +P IA +L A+  Q     + +    A ++   G +A + G   +    A+ F++ S 
+Sbjct  34   VAVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSW  93
+
+Query  84   LCSRASEGSLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLA  143
+            LC  A      +  R LQG  AG    ++ ++L  +    +R   L+L      + PVL 
+Sbjct  94   LCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLG  153
+
+Query  144  PVVGHLIMLRFPWQSLFYTMSAMGIIVGLLSLFIL--RETRPVRLAPRD  190
+            P++G  I   + W  +F+    +GII   ++   L  RET  V++ P D
+Sbjct  154  PILGGWISGNWHWGWIFFINIPIGIISAWITWKHLKYRETETVKM-PTD  201
+
+
+>VFG036963(gb|WP_015815889) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis alpha14]
+Length=508
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 45/169 (27%), Positives = 77/169 (46%), Gaps = 3/169 (2%)
+
+Query  24   VGLPRIAADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASL  83
+            V +P IA +L A+  Q     + +    A ++   G +A + G   +    A+ F++ S 
+Sbjct  34   VAVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSW  93
+
+Query  84   LCSRASEGSLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLA  143
+            LC  A      +  R LQG  AG    ++ ++L  +    +R   L+L      + PVL 
+Sbjct  94   LCGIAPNLQSLVIFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLG  153
+
+Query  144  PVVGHLIMLRFPWQSLFYTMSAMGIIVGLLSLFIL--RETRPVRLAPRD  190
+            P++G  I   + W  +F+    +GII   ++   L  RET  V++ P D
+Sbjct  154  PILGGWISGNWHWGWIFFINIPIGIISAWITWKHLKHRETETVKM-PTD  201
+
+
+>VFG036956(gb|WP_002224867) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis MC58]
+Length=508
+
+ Score = 53.1 bits (126),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 45/169 (27%), Positives = 77/169 (46%), Gaps = 3/169 (2%)
+
+Query  24   VGLPRIAADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASL  83
+            V +P IA +L A+  Q     + +    A ++   G +A + G   +    A+ F++ S 
+Sbjct  34   VAVPVIAGNLGAATTQGTWVITSFSVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSW  93
+
+Query  84   LCSRASEGSLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLA  143
+            LC  A      +  R LQG  AG    ++ ++L  +    +R   L+L      + PVL 
+Sbjct  94   LCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLG  153
+
+Query  144  PVVGHLIMLRFPWQSLFYTMSAMGIIVGLLSLFIL--RETRPVRLAPRD  190
+            P++G  I   + W  +F+    +GII   ++   L  RET  V++ P D
+Sbjct  154  PILGGWISGNWHWGWIFFINIPIGIISAWITWKHLKYRETETVKM-PTD  201
+
+
+>VFG036959(gb|WP_012222039) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis 053442]
+Length=508
+
+ Score = 53.1 bits (126),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 45/169 (27%), Positives = 76/169 (45%), Gaps = 3/169 (2%)
+
+Query  24   VGLPRIAADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASL  83
+            V +P IA +L A+  Q     + +    A ++   G +A + G   +    A+ F++ S 
+Sbjct  34   VAVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSW  93
+
+Query  84   LCSRASEGSLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLA  143
+            LC  A      +  R LQG  AG    ++ ++L  +    +R   L+L      + PVL 
+Sbjct  94   LCGIAPNLQALVFFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLG  153
+
+Query  144  PVVGHLIMLRFPWQSLFYTMSAMGIIVGLLSLFIL--RETRPVRLAPRD  190
+            P+ G  I   + W  +F+    +GII   ++   L  RET  V++ P D
+Sbjct  154  PIFGGWISGNWHWGWIFFINIPIGIISAWITWKHLKYRETETVKM-PTD  201
+
+
+>VFG036960(gb|WP_003703449) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria gonorrhoeae NCCP11945]
+Length=507
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 47/169 (28%), Positives = 76/169 (45%), Gaps = 3/169 (2%)
+
+Query  24   VGLPRIAADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASL  83
+            V +P IA +L A+  Q     + +    A ++   G +A + G   +    A  F++AS 
+Sbjct  34   VAVPVIAGNLGAATTQGTWVITSFSVANAVSVPLTGFLAKRIGEVKLFTAAAAGFVIASW  93
+
+Query  84   LCSRASEGSLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLA  143
+            LC  A      +  R LQG  AG    ++ ++L  +    +R   L+L      + PVL 
+Sbjct  94   LCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRMLALALWAMTVVVAPVLG  153
+
+Query  144  PVVGHLIMLRFPWQSLFYTMSAMGIIVGLLSLFIL--RETRPVRLAPRD  190
+            P++G  I   + W  +F+    +GII   ++   L  RET  VR  P D
+Sbjct  154  PILGGWISGNWHWGWIFFINIPIGIISAWITWKHLKHRETATVR-TPTD  201
+
+
+>VFG036957(gb|WP_010951322) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria gonorrhoeae FA 1090]
+Length=507
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 47/169 (28%), Positives = 76/169 (45%), Gaps = 3/169 (2%)
+
+Query  24   VGLPRIAADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASL  83
+            V +P IA +L A+  Q     + +    A ++   G +A + G   +    A  F++AS 
+Sbjct  34   VAVPVIAGNLGAATTQGTWVITSFSVANAVSVPLTGFLAKRIGEVKLFTAAAAGFVIASW  93
+
+Query  84   LCSRASEGSLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLA  143
+            LC  A      +  R LQG  AG    ++ ++L  +    +R   L+L      + PVL 
+Sbjct  94   LCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRMLALALWAMTVVVAPVLG  153
+
+Query  144  PVVGHLIMLRFPWQSLFYTMSAMGIIVGLLSLFIL--RETRPVRLAPRD  190
+            P++G  I   + W  +F+    +GII   ++   L  RET  VR  P D
+Sbjct  154  PILGGWISGNWHWGWIFFINIPIGIISAWITWKHLKHRETATVR-TPTD  201
+
+
+>VFG036972(gb|WP_042508130) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria lactamica 020-06]
+Length=508
+
+ Score = 52.4 bits (124),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 45/169 (27%), Positives = 77/169 (46%), Gaps = 3/169 (2%)
+
+Query  24   VGLPRIAADLNASEAQLHIAFSVYLAGMATAMLFAGKIADQSGRKPVAIVGALVFMMASL  83
+            V +P IA +L A+  Q     + +    A ++   G +A + G   +    A+ F++ S 
+Sbjct  34   VAVPVIAGNLGAATTQGTWVITSFSVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSW  93
+
+Query  84   LCSRASEGSLFLSGRFLQGVGAGGCYVVAFAILRDTLDEHRRAKVLSLLNGITCIVPVLA  143
+            LC  A      +  R LQG  AG    ++ ++L  +    +R   L+L      + PVL 
+Sbjct  94   LCGIAPNLQALVIFRILQGFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLG  153
+
+Query  144  PVVGHLIMLRFPWQSLFYTMSAMGIIVGLLSLFIL--RETRPVRLAPRD  190
+            P++G  I   + W  +F+    +GII   ++   L  RET  V++ P D
+Sbjct  154  PILGGWISGNWHWGWIFFINIPIGIISARITWKHLKHRETETVKM-PTD  201
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.140    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3060156167
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

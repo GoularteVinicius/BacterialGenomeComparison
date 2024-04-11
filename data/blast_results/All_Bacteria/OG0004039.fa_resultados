@@ -1,0 +1,139 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1698.t1
+
+Length=304
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049150(gb|WP_000982270) (clbD) colibactin biosynthesis dehydro...  130     7e-36
+VFG043691(gb|WP_000982270) (clbD) colibactin biosynthesis dehydro...  130     7e-36
+VFG017683(gb|YP_005921788) (icl) Isocitrate lyase Icl (isocitrase...  113     8e-28
+
+
+>VFG049150(gb|WP_000982270) (clbD) colibactin biosynthesis dehydrogenase 
+ClbD [Colibactin (VF0573) - Exotoxin (VFC0235)] [Klebsiella 
+pneumoniae subsp. pneumoniae 1084]
+Length=289
+
+ Score = 130 bits (327),  Expect = 7e-36, Method: Compositional matrix adjust.
+ Identities = 87/288 (30%), Positives = 136/288 (47%), Gaps = 21/288 (7%)
+
+Query  11   AVVGAGLMGRRIAGVLASAGLDVAITDTNAEILHAA--AVEA----ARVAGAGRGSVAAA  64
+            AV+GAG+MG  +A  +A  G+   + D +   L      +EA           +    + 
+Sbjct  5    AVIGAGVMGTGVAHNMAQYGISTNVVDISQSQLDKCRQMIEANLRLYNFHPQHKKKTHST  64
+
+Query  65   ADLAAAIP---------DADLVIEAVVENLAVKQELFERLATLA-PDAVLATNTSVLPIG  114
+            A++   I          + DLVIE + E++  K  L+ R+ T+     V   NTS + I 
+Sbjct  65   AEIMENIRFTTELDDIVECDLVIENITEDIEKKNALYTRMNTICGASTVFGVNTSAISIT  124
+
+Query  115  AVTERVEDGSRVIGTHFWNPPDLIPVVEVVPSARTAPDTADRVVALLTQVGKLPVRVGRD  174
+            A+++ +     V+G HF NP  L+  VE++    TA  T +    L  Q+ K  + V  D
+Sbjct  125  ALSKLMRHPENVVGVHFMNPVPLMHTVELIRGVHTAERTLNIFHHLFAQLNKTGIVVN-D  183
+
+Query  175  VPGFIGNRLQHALWREAIALVAEGVCDPKTVDLVVRNTIGLRLATLGPLENADYIGLDLT  234
+             PGF+ NR       EAI +V E +   + +D + +   G +   +GPL+ AD IGLD  
+Sbjct  184  SPGFVTNRAMMIFVNEAIFMVQEQIARAEDIDTLFKTCFGHK---MGPLQTADLIGLDTI  240
+
+Query  235  LAIHDAVIPSLNHDPH-PSPLLRELVAAGQLGARTGHGFLDWPAGARE  281
+            L     +  S N D + PS LL+++V AG LG ++G GF  +     E
+Sbjct  241  LQSLQVLYESFNDDKYRPSFLLKKMVDAGYLGVKSGQGFYRYQQTYAE  288
+
+
+>VFG043691(gb|WP_000982270) (clbD) colibactin biosynthesis dehydrogenase 
+ClbD [Colibactin (VF1179) - Exotoxin (VFC0235)] [Escherichia 
+coli O18:K1:H7 str. IHE3034]
+Length=289
+
+ Score = 130 bits (327),  Expect = 7e-36, Method: Compositional matrix adjust.
+ Identities = 87/288 (30%), Positives = 136/288 (47%), Gaps = 21/288 (7%)
+
+Query  11   AVVGAGLMGRRIAGVLASAGLDVAITDTNAEILHAA--AVEA----ARVAGAGRGSVAAA  64
+            AV+GAG+MG  +A  +A  G+   + D +   L      +EA           +    + 
+Sbjct  5    AVIGAGVMGTGVAHNMAQYGISTNVVDISQSQLDKCRQMIEANLRLYNFHPQHKKKTHST  64
+
+Query  65   ADLAAAIP---------DADLVIEAVVENLAVKQELFERLATLA-PDAVLATNTSVLPIG  114
+            A++   I          + DLVIE + E++  K  L+ R+ T+     V   NTS + I 
+Sbjct  65   AEIMENIRFTTELDDIVECDLVIENITEDIEKKNALYTRMNTICGASTVFGVNTSAISIT  124
+
+Query  115  AVTERVEDGSRVIGTHFWNPPDLIPVVEVVPSARTAPDTADRVVALLTQVGKLPVRVGRD  174
+            A+++ +     V+G HF NP  L+  VE++    TA  T +    L  Q+ K  + V  D
+Sbjct  125  ALSKLMRHPENVVGVHFMNPVPLMHTVELIRGVHTAERTLNIFHHLFAQLNKTGIVVN-D  183
+
+Query  175  VPGFIGNRLQHALWREAIALVAEGVCDPKTVDLVVRNTIGLRLATLGPLENADYIGLDLT  234
+             PGF+ NR       EAI +V E +   + +D + +   G +   +GPL+ AD IGLD  
+Sbjct  184  SPGFVTNRAMMIFVNEAIFMVQEQIARAEDIDTLFKTCFGHK---MGPLQTADLIGLDTI  240
+
+Query  235  LAIHDAVIPSLNHDPH-PSPLLRELVAAGQLGARTGHGFLDWPAGARE  281
+            L     +  S N D + PS LL+++V AG LG ++G GF  +     E
+Sbjct  241  LQSLQVLYESFNDDKYRPSFLLKKMVDAGYLGVKSGQGFYRYQQTYAE  288
+
+
+>VFG017683(gb|YP_005921788) (icl) Isocitrate lyase Icl (isocitrase) 
+(isocitratase) [Isocitrate lyase (VF0253) - Others (VFC0346)] 
+[Mycobacterium tuberculosis RGTB423]
+Length=744
+
+ Score = 113 bits (282),  Expect = 8e-28, Method: Compositional matrix adjust.
+ Identities = 84/210 (40%), Positives = 111/210 (53%), Gaps = 10/210 (5%)
+
+Query  71   IPDADLVIEAVVENLAVKQELFERLATLA--PDAVLATNTSVLPIGAVTERVEDGSRVIG  128
+            + D  LVIEAVVE+ AVK E+F  L  +   PDAVLA+NTS +PI  V    +   RV+G
+Sbjct  540  LSDRQLVIEAVVEDEAVKSEIFAELDRVVTDPDAVLASNTSSIPIMKVAAATKQPQRVLG  599
+
+Query  129  THFWNPPDLIPVVEVVPSARTAPDTADRVVALLTQV-GKLPVRVGRDVPGFIGNRLQHAL  187
+             HF+NP  ++P+VE+V +  T    A R     + V GK  VR   D  GF+ N L    
+Sbjct  600  LHFFNPVPVLPLVELVRTLVTDEAAAARTEEFASTVLGKQVVRCS-DRSGFVVNALLVPY  658
+
+Query  188  WREAIALVAEGVCDPKTVDLVVRNTIGLRLATLGPLENADYIGLDLTLAIHDAVIPSLNH  247
+               AI +V  G    + VD  V    GL    +GPL  +D +GLD    I D +      
+Sbjct  659  LLSAIRMVEAGFATVEDVDKAV--VAGLS-HPMGPLRLSDLVGLDTLKLIADKMFEEFK-  714
+
+Query  248  DPH--PSPLLRELVAAGQLGARTGHGFLDW  275
+            +PH  P PLL  +V AGQLG ++G GF  +
+Sbjct  715  EPHYGPPPLLLRMVEAGQLGKKSGRGFYTY  744
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2142037332
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

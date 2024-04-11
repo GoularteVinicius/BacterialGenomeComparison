@@ -1,0 +1,504 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1062.t1
+
+Length=269
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG016509(gb|WP_011206055) (hlyA) TlyA family RNA methyltransfera...  140     1e-40
+VFG016510(gb|WP_011290050) (hlyA) TlyA family RNA methyltransfera...  139     3e-40
+VFG016511(gb|WP_011283957) (hlyA) TlyA family RNA methyltransfera...  138     7e-40
+VFG016514(gb|WP_011076977) (hlyA) TlyA family RNA methyltransfera...  137     3e-39
+VFG016515(gb|WP_010924975) (hlyA) TlyA family RNA methyltransfera...  135     1e-38
+VFG016512(gb|WP_011264600) (hlyA) TlyA family RNA methyltransfera...  127     1e-35
+VFG016516(gb|WP_011386956) (hlyA) TlyA family RNA methyltransfera...  117     2e-31
+VFG016513(gb|NP_975109) (hlyA) hemolysin A [Hemolysin (VF0879) - ...  86.3    6e-21
+
+
+>VFG016509(gb|WP_011206055) (hlyA) TlyA family RNA methyltransferase 
+[Hemolysin (VF0879) - Exotoxin (VFC0235)] [Mycoplasma 
+hyopneumoniae 232]
+Length=237
+
+ Score = 140 bits (352),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 75/241 (31%), Positives = 124/241 (51%), Gaps = 9/241 (4%)
+
+Query  11   LVRRGLARSRQQAAKLISAGKVSIDGLPAVKPSTAVAITTVLTVADDGERSWVSRGAHKL  70
+            L+ + L    ++A  LI  G V ++      P   ++    + + +  ++ +VSRGA KL
+Sbjct  3    LLEKVLKMGFEKAESLIRTGYVKLNNQTCYFPGQKISNLDSINIKE--KQKYVSRGALKL  60
+
+Query  71   MGALDTFGIPVAGRCCLDAGASTGGFTEVLLDRGAAEVVAVDVGYGQLAWSVRCDPRVIV  130
+              A D F +    +  LD GAS GGFT+  L++GA +V A+D G  QL +S+R +P+V V
+Sbjct  61   QAAYDYFKLNFQDKIILDIGASKGGFTQFCLEKGAKKVYALDSGTNQLDYSLRINPKVCV  120
+
+Query  131  VERTNVHDLSPELIGGPVDLVVADLSFISLATVLSALAGCALPSADIVPMVKPQFEVGKG  190
+             E+TN+  +        +DL+V D+SFISL  +L+ +        + + ++KPQFE    
+Sbjct  121  KEKTNIKFVDKSFFNDEIDLIVCDVSFISLKKILAVVKNLLTQGKNFITLLKPQFEANSK  180
+
+Query  191  QVGPGGVVRDL--RLRADSVLAVARRATELGWRTMDVTASSLPGL-SGNVEYFLWLRAQT  247
+             V  GG+V  L  +   + ++  A+ + E     ++   S + G  S N EYFL    + 
+Sbjct  181  YVQKGGIVPKLYHKFLINRIIEFAKPSFEF----LNFFESPIKGQKSKNTEYFLHFIRKN  236
+
+Query  248  D  248
+            D
+Sbjct  237  D  237
+
+
+>VFG016510(gb|WP_011290050) (hlyA) TlyA family RNA methyltransferase 
+[Hemolysin (VF0879) - Exotoxin (VFC0235)] [Mycoplasma 
+hyopneumoniae 7448]
+Length=237
+
+ Score = 139 bits (350),  Expect = 3e-40, Method: Compositional matrix adjust.
+ Identities = 76/241 (32%), Positives = 124/241 (51%), Gaps = 9/241 (4%)
+
+Query  11   LVRRGLARSRQQAAKLISAGKVSIDGLPAVKPSTAVAITTVLTVADDGERSWVSRGAHKL  70
+            L+ + L    ++A  LI  G V ++      P   ++    + + +  ++ +VSRGA KL
+Sbjct  3    LLEKVLKMGFEKAESLIRTGYVKLNNQTCYFPGQKISNLDSINIKE--KQKYVSRGALKL  60
+
+Query  71   MGALDTFGIPVAGRCCLDAGASTGGFTEVLLDRGAAEVVAVDVGYGQLAWSVRCDPRVIV  130
+              A D F +    +  LD GAS GGFT+  L++GA +V A+D G  QL +S+R +P+V V
+Sbjct  61   QAAYDYFKLNFQDKIILDIGASKGGFTQFCLEKGAKKVYALDSGTNQLDYSLRINPKVCV  120
+
+Query  131  VERTNVHDLSPELIGGPVDLVVADLSFISLATVLSALAGCALPSADIVPMVKPQFEVGKG  190
+             E+TN+  +        +DL+V D+SFISL  VL+ +        + + ++KPQFE    
+Sbjct  121  KEKTNIKFVDKSFFNDEIDLIVCDVSFISLKKVLAVVKNLLTQGKNCITLLKPQFEANSK  180
+
+Query  191  QVGPGGVVRDL--RLRADSVLAVARRATELGWRTMDVTASSLPG-LSGNVEYFLWLRAQT  247
+             V  GG+V  L  +   + ++  A+ + E     ++   S + G  S N EYFL    + 
+Sbjct  181  YVQKGGIVPKLYHKFLINRIIEFAKPSFEF----LNFFESPIKGRKSKNTEYFLHFIRKN  236
+
+Query  248  D  248
+            D
+Sbjct  237  D  237
+
+
+>VFG016511(gb|WP_011283957) (hlyA) TlyA family RNA methyltransferase 
+[Hemolysin (VF0879) - Exotoxin (VFC0235)] [Mycoplasma 
+hyopneumoniae J]
+Length=237
+
+ Score = 138 bits (347),  Expect = 7e-40, Method: Compositional matrix adjust.
+ Identities = 76/241 (32%), Positives = 123/241 (51%), Gaps = 9/241 (4%)
+
+Query  11   LVRRGLARSRQQAAKLISAGKVSIDGLPAVKPSTAVAITTVLTVADDGERSWVSRGAHKL  70
+            L+ + L    ++A  LI  G V ++      P   ++    + + +  ++ +VSRGA KL
+Sbjct  3    LLEKVLKMGFEKAESLIRTGYVKLNNQTCYFPGQKISNLDSINIKE--KQKYVSRGALKL  60
+
+Query  71   MGALDTFGIPVAGRCCLDAGASTGGFTEVLLDRGAAEVVAVDVGYGQLAWSVRCDPRVIV  130
+              A D F +    +  LD GAS GGFT+  L++GA +V A+D G  QL +S+R +P+V V
+Sbjct  61   QAAYDYFKLNFQDKIILDIGASKGGFTQFCLEKGAKKVYALDSGTNQLDYSLRINPKVCV  120
+
+Query  131  VERTNVHDLSPELIGGPVDLVVADLSFISLATVLSALAGCALPSADIVPMVKPQFEVGKG  190
+             E+TN+  +        +DL+V D+SFISL  VL  +        + + ++KPQFE    
+Sbjct  121  KEKTNIKFVDKSFFNDEIDLIVCDVSFISLKKVLVVVKNLLTQGKNCITLLKPQFEANSK  180
+
+Query  191  QVGPGGVVRDL--RLRADSVLAVARRATELGWRTMDVTASSLPGL-SGNVEYFLWLRAQT  247
+             V  GG+V  L  +   + ++  A+ + E     ++   S + G  S N EYFL    + 
+Sbjct  181  YVQKGGIVPKLYHKFLINRIIEFAKPSFEF----LNFFESPIKGQKSKNTEYFLHFIRKN  236
+
+Query  248  D  248
+            D
+Sbjct  237  D  237
+
+
+>VFG016514(gb|WP_011076977) (hlyA) TlyA family RNA methyltransferase 
+[Hemolysin (VF0879) - Exotoxin (VFC0235)] [Mycoplasma 
+penetrans HF-2]
+Length=246
+
+ Score = 137 bits (344),  Expect = 3e-39, Method: Compositional matrix adjust.
+ Identities = 65/187 (35%), Positives = 109/187 (58%), Gaps = 2/187 (1%)
+
+Query  3    RRVRVDVELVRRGLARSRQQAAKLISAGKVSIDGLPAVKPSTAVAITTVLTVADDGERSW  62
+            +++R+D+ LV    ARSR  A  LI+  KV I+G    K +T V     + + +  E  +
+Sbjct  2    QKIRLDIYLVNENYARSRGVAQDLITNSKVVINGQIISKSNTLVNELDKVEILE--EEKY  59
+
+Query  63   VSRGAHKLMGALDTFGIPVAGRCCLDAGASTGGFTEVLLDRGAAEVVAVDVGYGQLAWSV  122
+            VSR A+KL  A++ F I +  +  +D G+STGGFT+VLL+    +V ++DVG  QL   +
+Sbjct  60   VSRAAYKLKAAIEHFNIDLNNKIAIDIGSSTGGFTQVLLENNVKKVYSIDVGTNQLNEQL  119
+
+Query  123  RCDPRVIVVERTNVHDLSPELIGGPVDLVVADLSFISLATVLSALAGCALPSADIVPMVK  182
+            + + +VI +E+TN  ++   LI   +D +  D+SFIS+  + + +      +   + ++K
+Sbjct  120  KKNNKVISLEQTNFREIESSLIKDKIDFITIDVSFISINLIFNKIKELKWNNWKSIALLK  179
+
+Query  183  PQFEVGK  189
+            PQFE+GK
+Sbjct  180  PQFELGK  186
+
+
+>VFG016515(gb|WP_010924975) (hlyA) TlyA family RNA methyltransferase 
+[Hemolysin (VF0879) - Exotoxin (VFC0235)] [Mycoplasma 
+pulmonis UAB CTIP]
+Length=238
+
+ Score = 135 bits (339),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 73/231 (32%), Positives = 123/231 (53%), Gaps = 4/231 (2%)
+
+Query  15   GLARSRQQAAKLISAGKVSIDGLPAVKPSTAVAITTVLTVADDGERSWVSRGAHKLMGAL  74
+             L ++ ++A  LI + KV ++    + PS  V    ++ + +  E  +VSRGA+KL+ A+
+Sbjct  9    SLDKNEKEAVGLILSSKVKVNDEFVLLPSYLVKQNDIIEIVNVKE--YVSRGAYKLLQAI  66
+
+Query  75   DTFGIPVAGRCCLDAGASTGGFTEVLLDRGAAEVVAVDVGYGQLAWSVRCDPRVIVVERT  134
+            + F +    +  LD G+STGGF++V L  GA +V A+D G  QL + +R    V+V E T
+Sbjct  67   EDFKLDFKDKIVLDIGSSTGGFSQVALINGAKKVYALDSGTNQLDYKLRILDNVVVYENT  126
+
+Query  135  NVHDLSPELIGGPVDLVVADLSFISLATVLSALAGCALPSADIVPMVKPQFEVGKGQVGP  194
+            N+ +++P++    +D+ V D+SFISL  V   L      +  ++ ++KPQFE  K  V  
+Sbjct  127  NLKNINPKMFEEQLDICVCDVSFISLKEVFKVLQSVLKKNKSLMALIKPQFEAPKNLVEK  186
+
+Query  195  GGVVRDLRLRADSVLAVARRATELGWRTMDVTASSLPGLSG-NVEYFLWLR  244
+            GG V +++   + +  V   A +  +  +    S  PG    N+EY    R
+Sbjct  187  GGYV-NVKYHEEIINKVINFAHDYEFELVQFFPSKTPGKKAKNIEYISLFR  236
+
+
+>VFG016512(gb|WP_011264600) (hlyA) TlyA family RNA methyltransferase 
+[Hemolysin (VF0879) - Exotoxin (VFC0235)] [Mycoplasma 
+mobile 163K]
+Length=241
+
+ Score = 127 bits (319),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 70/198 (35%), Positives = 105/198 (53%), Gaps = 11/198 (6%)
+
+Query  50   TVLTVADD-----GERSWVSRGAHKLMGALDTFGIP--VAGRCCLDAGASTGGFTEVLLD  102
+              LT+ DD      ++ +VSRGA+KL+ A++ F +   +  +  LD G+STGGF EVLL 
+Sbjct  40   NFLTIKDDEILLNNKKEYVSRGAYKLLDAIEEFNLKKEIKNKIVLDIGSSTGGFIEVLLK  99
+
+Query  103  RGAAEVVAVDVGYGQLAWSVRCDPRVIVVERTNVHDLSPELIGGPVDLVVADLSFISLAT  162
+             GA +V A+DVG  QL +S+R +P+VI  E TN+  +S  L    ++LV  D+SFIS   
+Sbjct  100  YGAEKVFALDVGTNQLDYSLRINPKVISKENTNLKQISKNLFSEKIELVTCDVSFISSKE  159
+
+Query  163  VLSALAGCALPSADIVPMVKPQFEVGKGQVGPGGVVRDLRLRADSVLAVARRATELGWRT  222
+            V   L        +++ ++KPQFE     V  GG+V    +  D +  V    +E  +  
+Sbjct  160  VFKVLNFLD-KGVNLILLIKPQFEANSSDVLTGGIVNK-EIHNDIINKVINYGSE-SFLL  216
+
+Query  223  MDVTASSLPG-LSGNVEY  239
+              +    + G  S N EY
+Sbjct  217  KSIKECKIKGKKSKNTEY  234
+
+
+>VFG016516(gb|WP_011386956) (hlyA) TlyA family RNA methyltransferase 
+[Hemolysin (VF0879) - Exotoxin (VFC0235)] [Mycoplasma 
+capricolum subsp. capricolum ATCC 27343]
+Length=269
+
+ Score = 117 bits (293),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 75/249 (30%), Positives = 124/249 (50%), Gaps = 18/249 (7%)
+
+Query  4    RVRVDVELVRRGLARSRQQAAKLISAGK-VSIDGLPAVKPSTAVAITTVLTVADDGERSW  62
+            ++R+D  + +  L +SR +A + I+  K V ++ +  +KPS  V    V+ +    +  +
+Sbjct  2    KLRLDEYIYKINLTQSRSKAKEHITNKKDVYVNNINIIKPSFLVDNNDVIEIRS-TKLKY  60
+
+Query  63   VSRGAHKLMGALDTFGIPVAGRCCLDAGASTGGFTEVLLDRGAAEVVAVDVGYGQLAWSV  122
+            VSR   KL  A++ + I +  + CLD GASTGGFT+  LD  A  V AVDVG  QL  S+
+Sbjct  61   VSRAYEKLEKAINKWNIDLTNKVCLDIGASTGGFTQCCLDNNAKLVYAVDVGTDQLHSSL  120
+
+Query  123  RCDPRVIVVERTNVHDLSPELIGGPVDLVVADLSFISLATVLSALAGCALPSADIVP---  179
+              + +VI + + N  +   +     +D V  D+SFISL  +        LP  DIV    
+Sbjct  121  LNNLKVINMSQCNFRNAKKQDFLKNIDFVCCDVSFISLEKIF-------LPLKDIVEFNT  173
+
+Query  180  ----MVKPQFEVGKGQVGPGGVVRDLRLRADSVLAVARRATELGWRTMDVTASSLPG-LS  234
+                ++KPQFE+    +  G +   L  +  ++L V   A    +  +++  S + G   
+Sbjct  174  SGVFLIKPQFELQPKNIKNGRINSKLDHKQ-AILKVINYANSNSFDVINLDYSPILGNKK  232
+
+Query  235  GNVEYFLWL  243
+             N+EY  ++
+Sbjct  233  QNIEYLAYI  241
+
+
+>VFG016513(gb|NP_975109) (hlyA) hemolysin A [Hemolysin (VF0879) 
+- Exotoxin (VFC0235)] [Mycoplasma mycoides subsp. mycoides 
+SC str. PG1]
+Length=149
+
+ Score = 86.3 bits (212),  Expect = 6e-21, Method: Compositional matrix adjust.
+ Identities = 46/145 (32%), Positives = 78/145 (54%), Gaps = 2/145 (1%)
+
+Query  4    RVRVDVELVRRGLARSRQQAAKLISAGKVSIDGLPAVKPSTAVAITTVLTVADDGERSWV  63
+            ++R+D  + +  L +SR +A + I   +V ++ +  +KPS  V    ++ +    +  +V
+Sbjct  2    KLRLDEYIYKNNLTQSRNKAKEHILNKEVYVNNIAIMKPSFLVDSNDLIEIRS-TKLEYV  60
+
+Query  64   SRGAHKLMGALDTFGIPVAGRCCLDAGASTGGFTEVLLDRGAAEVVAVDVGYGQLAWSVR  123
+            SR   KL  A++ + I +  + CLD GASTGGFT+  LD  A  V AVDVG  QL  S+ 
+Sbjct  61   SRAYEKLKKAINKWNIDLTNKICLDIGASTGGFTQCCLDNNANLVYAVDVGTDQLHQSLL  120
+
+Query  124  CDPRVIVVERTNVHDLSPE-LIGGP  147
+             + +VI + + N  +   +  +  P
+Sbjct  121  NNLKVINMSQYNFRNAKKQDFLKNP  145
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1805101137
+
+
+Query= g1677.t1
+
+Length=268
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG016509(gb|WP_011206055) (hlyA) TlyA family RNA methyltransfera...  144     4e-42
+VFG016510(gb|WP_011290050) (hlyA) TlyA family RNA methyltransfera...  144     5e-42
+VFG016511(gb|WP_011283957) (hlyA) TlyA family RNA methyltransfera...  143     8e-42
+VFG016514(gb|WP_011076977) (hlyA) TlyA family RNA methyltransfera...  143     9e-42
+VFG016515(gb|WP_010924975) (hlyA) TlyA family RNA methyltransfera...  136     3e-39
+VFG016516(gb|WP_011386956) (hlyA) TlyA family RNA methyltransfera...  130     2e-36
+VFG016512(gb|WP_011264600) (hlyA) TlyA family RNA methyltransfera...  124     1e-34
+VFG016513(gb|NP_975109) (hlyA) hemolysin A [Hemolysin (VF0879) - ...  94.7    4e-24
+
+
+>VFG016509(gb|WP_011206055) (hlyA) TlyA family RNA methyltransferase 
+[Hemolysin (VF0879) - Exotoxin (VFC0235)] [Mycoplasma 
+hyopneumoniae 232]
+Length=237
+
+ Score = 144 bits (363),  Expect = 4e-42, Method: Compositional matrix adjust.
+ Identities = 77/239 (32%), Positives = 124/239 (52%), Gaps = 5/239 (2%)
+
+Query  11   LVRRGLARSRQQAAELIGAGKVRIDGLPAVKPATAVSDTTALTVVTDSERAWVSRGAHKL  70
+            L+ + L    ++A  LI  G V+++      P   +S+  ++ +    ++ +VSRGA KL
+Sbjct  3    LLEKVLKMGFEKAESLIRTGYVKLNNQTCYFPGQKISNLDSINI--KEKQKYVSRGALKL  60
+
+Query  71   VGALEAFAIAVAGRRCLDAGASTGGFTEVLLDRGAAHVVAADVGYGQLAWSLRNDPRVVV  130
+              A + F +    +  LD GAS GGFT+  L++GA  V A D G  QL +SLR +P+V V
+Sbjct  61   QAAYDYFKLNFQDKIILDIGASKGGFTQFCLEKGAKKVYALDSGTNQLDYSLRINPKVCV  120
+
+Query  131  LERTNARGLTPEAIGGRVDLVVADLSFISLATVLPALVGCASRDADIVPLVKPQFEVGKG  190
+             E+TN + +        +DL+V D+SFISL  +L  +    ++  + + L+KPQFE    
+Sbjct  121  KEKTNIKFVDKSFFNDEIDLIVCDVSFISLKKILAVVKNLLTQGKNFITLLKPQFEANSK  180
+
+Query  191  QVGPGGVVHDPQLRARSVLAVARRAQELGWHSVGVKASPLPG-PSGNVEYFLWLRTQTD  248
+             V  GG+V  P+L  + ++       +  +  +    SP+ G  S N EYFL    + D
+Sbjct  181  YVQKGGIV--PKLYHKFLINRIIEFAKPSFEFLNFFESPIKGQKSKNTEYFLHFIRKND  237
+
+
+>VFG016510(gb|WP_011290050) (hlyA) TlyA family RNA methyltransferase 
+[Hemolysin (VF0879) - Exotoxin (VFC0235)] [Mycoplasma 
+hyopneumoniae 7448]
+Length=237
+
+ Score = 144 bits (362),  Expect = 5e-42, Method: Compositional matrix adjust.
+ Identities = 78/239 (33%), Positives = 124/239 (52%), Gaps = 5/239 (2%)
+
+Query  11   LVRRGLARSRQQAAELIGAGKVRIDGLPAVKPATAVSDTTALTVVTDSERAWVSRGAHKL  70
+            L+ + L    ++A  LI  G V+++      P   +S+  ++ +    ++ +VSRGA KL
+Sbjct  3    LLEKVLKMGFEKAESLIRTGYVKLNNQTCYFPGQKISNLDSINI--KEKQKYVSRGALKL  60
+
+Query  71   VGALEAFAIAVAGRRCLDAGASTGGFTEVLLDRGAAHVVAADVGYGQLAWSLRNDPRVVV  130
+              A + F +    +  LD GAS GGFT+  L++GA  V A D G  QL +SLR +P+V V
+Sbjct  61   QAAYDYFKLNFQDKIILDIGASKGGFTQFCLEKGAKKVYALDSGTNQLDYSLRINPKVCV  120
+
+Query  131  LERTNARGLTPEAIGGRVDLVVADLSFISLATVLPALVGCASRDADIVPLVKPQFEVGKG  190
+             E+TN + +        +DL+V D+SFISL  VL  +    ++  + + L+KPQFE    
+Sbjct  121  KEKTNIKFVDKSFFNDEIDLIVCDVSFISLKKVLAVVKNLLTQGKNCITLLKPQFEANSK  180
+
+Query  191  QVGPGGVVHDPQLRARSVLAVARRAQELGWHSVGVKASPLPG-PSGNVEYFLWLRTQTD  248
+             V  GG+V  P+L  + ++       +  +  +    SP+ G  S N EYFL    + D
+Sbjct  181  YVQKGGIV--PKLYHKFLINRIIEFAKPSFEFLNFFESPIKGRKSKNTEYFLHFIRKND  237
+
+
+>VFG016511(gb|WP_011283957) (hlyA) TlyA family RNA methyltransferase 
+[Hemolysin (VF0879) - Exotoxin (VFC0235)] [Mycoplasma 
+hyopneumoniae J]
+Length=237
+
+ Score = 143 bits (360),  Expect = 8e-42, Method: Compositional matrix adjust.
+ Identities = 78/239 (33%), Positives = 124/239 (52%), Gaps = 5/239 (2%)
+
+Query  11   LVRRGLARSRQQAAELIGAGKVRIDGLPAVKPATAVSDTTALTVVTDSERAWVSRGAHKL  70
+            L+ + L    ++A  LI  G V+++      P   +S+  ++ +    ++ +VSRGA KL
+Sbjct  3    LLEKVLKMGFEKAESLIRTGYVKLNNQTCYFPGQKISNLDSINI--KEKQKYVSRGALKL  60
+
+Query  71   VGALEAFAIAVAGRRCLDAGASTGGFTEVLLDRGAAHVVAADVGYGQLAWSLRNDPRVVV  130
+              A + F +    +  LD GAS GGFT+  L++GA  V A D G  QL +SLR +P+V V
+Sbjct  61   QAAYDYFKLNFQDKIILDIGASKGGFTQFCLEKGAKKVYALDSGTNQLDYSLRINPKVCV  120
+
+Query  131  LERTNARGLTPEAIGGRVDLVVADLSFISLATVLPALVGCASRDADIVPLVKPQFEVGKG  190
+             E+TN + +        +DL+V D+SFISL  VL  +    ++  + + L+KPQFE    
+Sbjct  121  KEKTNIKFVDKSFFNDEIDLIVCDVSFISLKKVLVVVKNLLTQGKNCITLLKPQFEANSK  180
+
+Query  191  QVGPGGVVHDPQLRARSVLAVARRAQELGWHSVGVKASPLPG-PSGNVEYFLWLRTQTD  248
+             V  GG+V  P+L  + ++       +  +  +    SP+ G  S N EYFL    + D
+Sbjct  181  YVQKGGIV--PKLYHKFLINRIIEFAKPSFEFLNFFESPIKGQKSKNTEYFLHFIRKND  237
+
+
+>VFG016514(gb|WP_011076977) (hlyA) TlyA family RNA methyltransferase 
+[Hemolysin (VF0879) - Exotoxin (VFC0235)] [Mycoplasma 
+penetrans HF-2]
+Length=246
+
+ Score = 143 bits (361),  Expect = 9e-42, Method: Compositional matrix adjust.
+ Identities = 78/248 (31%), Positives = 127/248 (51%), Gaps = 4/248 (2%)
+
+Query  3    RRARVDAELVRRGLARSRQQAAELIGAGKVRIDGLPAVKPATAVSDTTALTVVTDSERAW  62
+            ++ R+D  LV    ARSR  A +LI   KV I+G    K  T V++   + ++   E  +
+Sbjct  2    QKIRLDIYLVNENYARSRGVAQDLITNSKVVINGQIISKSNTLVNELDKVEIL--EEEKY  59
+
+Query  63   VSRGAHKLVGALEAFAIAVAGRRCLDAGASTGGFTEVLLDRGAAHVVAADVGYGQLAWSL  122
+            VSR A+KL  A+E F I +  +  +D G+STGGFT+VLL+     V + DVG  QL   L
+Sbjct  60   VSRAAYKLKAAIEHFNIDLNNKIAIDIGSSTGGFTQVLLENNVKKVYSIDVGTNQLNEQL  119
+
+Query  123  RNDPRVVVLERTNARGLTPEAIGGRVDLVVADLSFISLATVLPALVGCASRDADIVPLVK  182
+            + + +V+ LE+TN R +    I  ++D +  D+SFIS+  +   +      +   + L+K
+Sbjct  120  KKNNKVISLEQTNFREIESSLIKDKIDFITIDVSFISINLIFNKIKELKWNNWKSIALLK  179
+
+Query  183  PQFEVGKGQVGPGGVVHDPQLRARSVLAVARRAQELGWHSVGVKASPLPG-PSGNVEYFL  241
+            PQFE+GK ++G        +   + +         L   ++G   SP+ G    N EY  
+Sbjct  180  PQFELGK-KIGTTKGFAKTEDHKKIINNFIEFLSILNIKNLGYIVSPIKGAKKENTEYLF  238
+
+Query  242  WLRTQTDR  249
+            +L  + ++
+Sbjct  239  YLEYKNEK  246
+
+
+>VFG016515(gb|WP_010924975) (hlyA) TlyA family RNA methyltransferase 
+[Hemolysin (VF0879) - Exotoxin (VFC0235)] [Mycoplasma 
+pulmonis UAB CTIP]
+Length=238
+
+ Score = 136 bits (343),  Expect = 3e-39, Method: Compositional matrix adjust.
+ Identities = 78/231 (34%), Positives = 118/231 (51%), Gaps = 4/231 (2%)
+
+Query  15   GLARSRQQAAELIGAGKVRIDGLPAVKPATAVSDTTALTVVTDSERAWVSRGAHKLVGAL  74
+             L ++ ++A  LI + KV+++    + P+  V     + +V   E  +VSRGA+KL+ A+
+Sbjct  9    SLDKNEKEAVGLILSSKVKVNDEFVLLPSYLVKQNDIIEIVNVKE--YVSRGAYKLLQAI  66
+
+Query  75   EAFAIAVAGRRCLDAGASTGGFTEVLLDRGAAHVVAADVGYGQLAWSLRNDPRVVVLERT  134
+            E F +    +  LD G+STGGF++V L  GA  V A D G  QL + LR    VVV E T
+Sbjct  67   EDFKLDFKDKIVLDIGSSTGGFSQVALINGAKKVYALDSGTNQLDYKLRILDNVVVYENT  126
+
+Query  135  NARGLTPEAIGGRVDLVVADLSFISLATVLPALVGCASRDADIVPLVKPQFEVGKGQVGP  194
+            N + + P+    ++D+ V D+SFISL  V   L     ++  ++ L+KPQFE  K  V  
+Sbjct  127  NLKNINPKMFEEQLDICVCDVSFISLKEVFKVLQSVLKKNKSLMALIKPQFEAPKNLVEK  186
+
+Query  195  GGVVHDPQLRARSVLAVARRAQELGWHSVGVKASPLPGPSG-NVEYFLWLR  244
+            GG V + +     +  V   A +  +  V    S  PG    N+EY    R
+Sbjct  187  GGYV-NVKYHEEIINKVINFAHDYEFELVQFFPSKTPGKKAKNIEYISLFR  236
+
+
+>VFG016516(gb|WP_011386956) (hlyA) TlyA family RNA methyltransferase 
+[Hemolysin (VF0879) - Exotoxin (VFC0235)] [Mycoplasma 
+capricolum subsp. capricolum ATCC 27343]
+Length=269
+
+ Score = 130 bits (327),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 75/243 (31%), Positives = 122/243 (50%), Gaps = 6/243 (2%)
+
+Query  4    RARVDAELVRRGLARSRQQAAELIGAGK-VRIDGLPAVKPATAVSDTTALTVVTDSERAW  62
+            + R+D  + +  L +SR +A E I   K V ++ +  +KP+  V D   +  +  ++  +
+Sbjct  2    KLRLDEYIYKINLTQSRSKAKEHITNKKDVYVNNINIIKPSFLV-DNNDVIEIRSTKLKY  60
+
+Query  63   VSRGAHKLVGALEAFAIAVAGRRCLDAGASTGGFTEVLLDRGAAHVVAADVGYGQLAWSL  122
+            VSR   KL  A+  + I +  + CLD GASTGGFT+  LD  A  V A DVG  QL  SL
+Sbjct  61   VSRAYEKLEKAINKWNIDLTNKVCLDIGASTGGFTQCCLDNNAKLVYAVDVGTDQLHSSL  120
+
+Query  123  RNDPRVVVLERTNARGLTPEAIGGRVDLVVADLSFISLATVLPALVGCASRDADIVPLVK  182
+             N+ +V+ + + N R    +     +D V  D+SFISL  +   L      +   V L+K
+Sbjct  121  LNNLKVINMSQCNFRNAKKQDFLKNIDFVCCDVSFISLEKIFLPLKDIVEFNTSGVFLIK  180
+
+Query  183  PQFEVGKGQVGPGGVVHDPQL-RARSVLAVARRAQELGWHSVGVKASPLPG-PSGNVEYF  240
+            PQFE+    +  G +  + +L   +++L V   A    +  + +  SP+ G    N+EY 
+Sbjct  181  PQFELQPKNIKNGRI--NSKLDHKQAILKVINYANSNSFDVINLDYSPILGNKKQNIEYL  238
+
+Query  241  LWL  243
+             ++
+Sbjct  239  AYI  241
+
+
+>VFG016512(gb|WP_011264600) (hlyA) TlyA family RNA methyltransferase 
+[Hemolysin (VF0879) - Exotoxin (VFC0235)] [Mycoplasma 
+mobile 163K]
+Length=241
+
+ Score = 124 bits (312),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 70/202 (35%), Positives = 108/202 (53%), Gaps = 11/202 (5%)
+
+Query  46   VSDTTALTVVTD-----SERAWVSRGAHKLVGALEAFAIA--VAGRRCLDAGASTGGFTE  98
+            ++D   LT+  D     +++ +VSRGA+KL+ A+E F +   +  +  LD G+STGGF E
+Sbjct  36   IADPNFLTIKDDEILLNNKKEYVSRGAYKLLDAIEEFNLKKEIKNKIVLDIGSSTGGFIE  95
+
+Query  99   VLLDRGAAHVVAADVGYGQLAWSLRNDPRVVVLERTNARGLTPEAIGGRVDLVVADLSFI  158
+            VLL  GA  V A DVG  QL +SLR +P+V+  E TN + ++      +++LV  D+SFI
+Sbjct  96   VLLKYGAEKVFALDVGTNQLDYSLRINPKVISKENTNLKQISKNLFSEKIELVTCDVSFI  155
+
+Query  159  SLATVLPALVGCASRDADIVPLVKPQFEVGKGQVGPGGVVHDPQLRARSVLAVARRAQEL  218
+            S   V   L     +  +++ L+KPQFE     V  GG+V+  ++    +  V     E 
+Sbjct  156  SSKEVFKVL-NFLDKGVNLILLIKPQFEANSSDVLTGGIVN-KEIHNDIINKVINYGSE-  212
+
+Query  219  GWHSVGVKASPLPG-PSGNVEY  239
+             +    +K   + G  S N EY
+Sbjct  213  SFLLKSIKECKIKGKKSKNTEY  234
+
+
+>VFG016513(gb|NP_975109) (hlyA) hemolysin A [Hemolysin (VF0879) 
+- Exotoxin (VFC0235)] [Mycoplasma mycoides subsp. mycoides 
+SC str. PG1]
+Length=149
+
+ Score = 94.7 bits (234),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 48/135 (36%), Positives = 75/135 (56%), Gaps = 1/135 (1%)
+
+Query  4    RARVDAELVRRGLARSRQQAAELIGAGKVRIDGLPAVKPATAVSDTTALTVVTDSERAWV  63
+            + R+D  + +  L +SR +A E I   +V ++ +  +KP+  V D+  L  +  ++  +V
+Sbjct  2    KLRLDEYIYKNNLTQSRNKAKEHILNKEVYVNNIAIMKPSFLV-DSNDLIEIRSTKLEYV  60
+
+Query  64   SRGAHKLVGALEAFAIAVAGRRCLDAGASTGGFTEVLLDRGAAHVVAADVGYGQLAWSLR  123
+            SR   KL  A+  + I +  + CLD GASTGGFT+  LD  A  V A DVG  QL  SL 
+Sbjct  61   SRAYEKLKKAINKWNIDLTNKICLDIGASTGGFTQCCLDNNANLVYAVDVGTDQLHQSLL  120
+
+Query  124  NDPRVVVLERTNARG  138
+            N+ +V+ + + N R 
+Sbjct  121  NNLKVINMSQYNFRN  135
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1794544990
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

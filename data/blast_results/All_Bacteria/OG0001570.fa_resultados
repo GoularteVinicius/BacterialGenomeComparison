@@ -1,0 +1,131 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2912.t1
+
+Length=310
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2205038430
+
+
+Query= g4396.t1
+
+Length=283
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG021856(gb|WP_029104465) (fxbA) methionyl-tRNA formyltransferas...  49.7    7e-07
+
+
+>VFG021856(gb|WP_029104465) (fxbA) methionyl-tRNA formyltransferase 
+[Exochelin (smegmatis) (VF0819) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium smegmatis str. MC2 155]
+Length=319
+
+ Score = 49.7 bits (117),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 31/103 (30%), Positives = 47/103 (46%), Gaps = 1/103 (1%)
+
+Query  147  KQPAFDEVSRLIDEHGADCIVLARYMQILPPDLCRKYAHQVINIHHSFLPSFIGAKPYHQ  206
+            K+P  + V R + E   D  V   +   LP +L     +  +N+H S LP F G  P   
+Sbjct  62   KRPTPELVER-VRELAPDVGVANNWRTRLPRELFSIPKYGTVNLHDSLLPKFTGFSPVIW  120
+
+Query  207  ASKRGVKLIGATSHYVTEELDAGPIIEQDVVRVTHRDNVEDMV  249
+            +   G    G T+H++ +ELD G I+ Q  V +T       +V
+Sbjct  121  SLISGAGQTGLTAHFMDDELDTGDILLQRSVEITPTSTGTSLV  163
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.140    0.442    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1937182360
+
+
+Query= g1642.t1
+
+Length=280
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG021856(gb|WP_029104465) (fxbA) methionyl-tRNA formyltransferas...  52.0    1e-07
+
+
+>VFG021856(gb|WP_029104465) (fxbA) methionyl-tRNA formyltransferase 
+[Exochelin (smegmatis) (VF0819) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium smegmatis str. MC2 155]
+Length=319
+
+ Score = 52.0 bits (123),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 38/125 (30%), Positives = 56/125 (45%), Gaps = 13/125 (10%)
+
+Query  161  PDYVVLAKYMRVLTPGFVARFPN-KIINIHHSFLPAFIGARPYHQAYERGVKIIGATAHY  219
+            PD V +A   R   P  +   P    +N+H S LP F G  P   +   G    G TAH+
+Sbjct  77   PD-VGVANNWRTRLPRELFSIPKYGTVNLHDSLLPKFTGFSPVIWSLISGAGQTGLTAHF  135
+
+Query  220  VNDNLDEGPIIMQDVIHVDHTYTAEDMMRAGRDVEKNVLSRAL-----------YQVLAQ  268
+            ++D LD G I++Q  + +  T T   ++    D+  +VL  AL            Q L+Q
+Sbjct  136  MDDELDTGDILLQRSVEITPTSTGTSLVYDTLDLIPDVLEDALDAIENGTATPVPQDLSQ  195
+
+Query  269  RVFVY  273
+            R F +
+Sbjct  196  RTFFH  200
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.140    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1905597865
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

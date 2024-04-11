@@ -1,0 +1,307 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1231.t1
+
+Length=248
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.138    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1583422050
+
+
+Query= g2721.t1
+
+Length=250
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011674(gb|YP_002344802) (Cj1419c) methyltransferase [Capsule (...  57.0    1e-09
+
+
+>VFG011674(gb|YP_002344802) (Cj1419c) methyltransferase [Capsule 
+(VF0323) - Immune modulation (VFC0258)] [Campylobacter jejuni 
+subsp. jejuni NCTC 11168]
+Length=253
+
+ Score = 57.0 bits (136),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 48/225 (21%), Positives = 97/225 (43%), Gaps = 19/225 (8%)
+
+Query  11   TGSANYAAHRPTYPAQLVDELAALCPGTRLAL-DCGCGTGQLTVLLAERFERVVGTDASA  69
+            T  A + ++RP Y  + +D L +L     + + D G GTG L+++L ER  +VV  + + 
+Sbjct  12   TKHAKFYSYRPNYAPKTIDMLISLVGKKDIKVADIGAGTGNLSIMLLERGCKVVSVEPND  71
+
+Query  70   AQIDKAQAR---ERVEYRVALAEDSGLAAASADLVTVAQAAHWLDLPRFYEEVRRVARAD  126
+            A  +    R   +++++  A   +S L  +  D VT   + + +D     EE  R+ +++
+Sbjct  72   AMREIGIERTKDQKIDWVRATGLNSTLQNSEFDWVTFGSSFNVMDRNEALEEAHRLLKSE  131
+
+Query  127  AILALVTYGVLHVDGPMEPLVQHFYHQVVGPYWPAERRHVEEGYRNLPFPFEERRLPDLA  186
+               + + +    ++ P++ + +    + V  Y    RR  +        P  E R  DL 
+Sbjct  132  GYFSCM-WNHRDLNDPVQKIAEDTIVEFVPNYTRGTRREDQR-------PIIESR-KDLF  182
+
+Query  187  IEVAWTLDELL------GYVGTWSAVKEAGKALGQDPGAAFVDEL  225
+              + +  ++         Y+  W +VK     L  D G    +++
+Sbjct  183  DNIVYIEEDFYFHQSIENYINAWKSVKNPYWDLETDEGNELFNKI  227
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1604534344
+
+
+Query= g3957.t1
+
+Length=249
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG029666(gb|YP_001704830) (fmt) Probable methyltransferase [GPL ...  50.4    2e-07
+VFG029668(gb|WP_005062147) (fmt) class I SAM-dependent methyltran...  48.9    7e-07
+VFG007972(gb|WP_011740355) (MUL_RS12530) class I SAM-dependent me...  48.5    1e-06
+VFG029669(gb|WP_003407670) (fmt) class I SAM-dependent methyltran...  47.8    3e-06
+VFG008634(gb|WP_041312794) (MYCSM_RS28285) class I SAM-dependent ...  47.4    3e-06
+VFG008614(gb|WP_014001503) (BN44_RS15470) phthiotriol/phenolphthi...  45.8    7e-06
+VFG008627(gb|YP_007958954) (I917_20730) methyltransferase (methyl...  45.8    8e-06
+VFG008615(gb|WP_015303657) (BN43_RS15560) phthiotriol/phenolphthi...  45.8    8e-06
+VFG007965(gb|NP_217468) (Rv2952) phthiotriol/phenolphthiotriol di...  45.8    8e-06
+VFG008616(gb|WP_015291073) (BN42_RS15750) phthiotriol/phenolphthi...  45.8    8e-06
+VFG008617(gb|WP_015294053) (BN45_RS15645) phthiotriol/phenolphthi...  45.8    9e-06
+
+
+>VFG029666(gb|YP_001704830) (fmt) Probable methyltransferase [GPL 
+locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+abscessus ATCC 19977]
+Length=267
+
+ Score = 50.4 bits (119),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 47/128 (37%), Positives = 58/128 (45%), Gaps = 12/128 (9%)
+
+Query  10   GSAAYASARP-RYPDALYRHLA---GLCGQRRRAWDCATGTGQA----ALGLAQYFGEVL  61
+            G    AS  P RY   LY   A    L GQR     C  G G +    AL  A Y G  L
+Sbjct  51   GVPLSASDEPDRYSIQLYHSTATQADLGGQRVLEVGCGHGGGASYLVRALQPASYTGLDL  110
+
+Query  62   ASD-TSTQQIEHAVVHPGIRYSVQDAEATDYPDAAFDLVCVAQAWHWFDH-SRFNRELLR  119
+              D  S  +  H +  PG+ +   DAE   +PD +FD V   ++ H + H   F  E+ R
+Sbjct  111  NPDGISFCRRRHDL--PGLEFVQGDAEDLPFPDESFDAVINVESSHLYPHFPVFLTEVAR  168
+
+Query  120  VLRPGGVF  127
+            VLRPGG F
+Sbjct  169  VLRPGGNF  176
+
+
+>VFG029668(gb|WP_005062147) (fmt) class I SAM-dependent methyltransferase 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] 
+[Mycobacterium abscessus subsp. bolletii str. GO 06]
+Length=259
+
+ Score = 48.9 bits (115),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 46/128 (36%), Positives = 58/128 (45%), Gaps = 12/128 (9%)
+
+Query  10   GSAAYASARP-RYPDALYRHLA---GLCGQRRRAWDCATGTGQA----ALGLAQYFGEVL  61
+            G    AS  P RY   LY   A    L GQR     C  G G +    AL  A Y G  L
+Sbjct  43   GVPLSASDEPDRYSIQLYHSTATQADLGGQRVLEVGCGHGGGASYLMRALQPASYTGLDL  102
+
+Query  62   ASD-TSTQQIEHAVVHPGIRYSVQDAEATDYPDAAFDLVCVAQAWHWFDH-SRFNRELLR  119
+              D  S  +  H +  PG+ +   DA+   +PD +FD V   ++ H + H   F  E+ R
+Sbjct  103  NPDGISFCRRRHDL--PGLEFVQGDAQDLPFPDESFDAVINVESSHLYPHFPVFLTEVAR  160
+
+Query  120  VLRPGGVF  127
+            VLRPGG F
+Sbjct  161  VLRPGGNF  168
+
+
+>VFG007972(gb|WP_011740355) (MUL_RS12530) class I SAM-dependent 
+methyltransferase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium ulcerans Agy99]
+Length=271
+
+ Score = 48.5 bits (114),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 35/100 (35%), Positives = 50/100 (50%), Gaps = 8/100 (8%)
+
+Query  32   LCGQRRRAWDCATGTGQA----ALGLAQYFG-EVLASDTSTQQIEHAVVHPGIRYSVQDA  86
+            L G+R     C  G G +     L  A Y G ++  +     Q  H +  PG+ +   DA
+Sbjct  79   LSGKRVLEVSCGHGGGASYLTRTLHPASYTGLDLNRAGIKLCQRRHNL--PGLDFVRGDA  136
+
+Query  87   EATDYPDAAFDLVCVAQAWHWFDH-SRFNRELLRVLRPGG  125
+            E   + D +FD+V   +A H + H SRF  E++RVLRPGG
+Sbjct  137  ENLPFEDESFDVVLKVEASHCYPHFSRFLAEVVRVLRPGG  176
+
+
+>VFG029669(gb|WP_003407670) (fmt) class I SAM-dependent methyltransferase 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis str. Beijing/NITR203]
+Length=347
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 44/143 (31%), Positives = 66/143 (46%), Gaps = 11/143 (8%)
+
+Query  20   RYPDALYRHLAG---LCGQRRRAWDCATGTGQA----ALGLAQYFG-EVLASDTSTQQIE  71
+            RY   LY   A    L G+      C  G G +     LG A Y G ++  +     + +
+Sbjct  144  RYCIQLYHQTASQVDLTGKEVLEVSCGAGGGASYIARNLGPASYTGLDLNPASIDLCRAK  203
+
+Query  72   HAVVHPGIRYSVQDAEATDYPDAAFDLVCVAQAWHWF-DHSRFNRELLRVLRPGGVFAAW  130
+            H +  PG+++   DA+   +PD +FD V   +A H + D   F  E+ RVLRPGG F   
+Sbjct  204  HRL--PGLQFVQGDAQNLPFPDESFDAVVNVEASHQYPDFRGFLAEVARVLRPGGHFLYT  261
+
+Query  131  GYGWFSIDAQIDAAIDEEYLRPI  153
+                  + A+ +AA+ +  LR I
+Sbjct  262  DSRRNPVVAEWEAALADAPLRTI  284
+
+
+>VFG008634(gb|WP_041312794) (MYCSM_RS28285) class I SAM-dependent 
+methyltransferase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium smegmatis JS623]
+Length=271
+
+ Score = 47.4 bits (111),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 33/100 (33%), Positives = 47/100 (47%), Gaps = 4/100 (4%)
+
+Query  32   LCGQRRRAWDCATGTGQAALGLAQYFGEVLASDTSTQQIEHAVVH---PGIRYSVQDAEA  88
+            + G R     C  G G + L  +       A D +   I +       PG+ +   DAEA
+Sbjct  80   ISGTRVLEVSCGHGGGASYLVRSLQPASYTALDFNPDGIAYCRKRHDLPGLEFVHGDAEA  139
+
+Query  89   TDYPDAAFDLVCVAQAWHWFDH-SRFNRELLRVLRPGGVF  127
+              +PD ++D+V   +A H +   SRF  E+ RVLRPGG F
+Sbjct  140  LPFPDDSYDVVINVEASHAYPRFSRFLAEVARVLRPGGQF  179
+
+
+>VFG008614(gb|WP_014001503) (BN44_RS15470) phthiotriol/phenolphthiotriol 
+dimycocerosates methyltransferase [PDIM (VF0309) 
+- Immune modulation (VFC0258)] [Mycobacterium canettii CIPT 
+140060008]
+Length=270
+
+ Score = 45.8 bits (107),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 23/52 (44%), Positives = 32/52 (62%), Gaps = 1/52 (2%)
+
+Query  77   PGIRYSVQDAEATDYPDAAFDLVCVAQAWHWFDH-SRFNRELLRVLRPGGVF  127
+            PG+ +   DAE   + D +FD+V   +A H + H  RF  E++RVLRPGG F
+Sbjct  127  PGLDFVRGDAENLPFDDESFDVVLNVEASHCYPHFRRFLAEVVRVLRPGGYF  178
+
+
+>VFG008627(gb|YP_007958954) (I917_20730) methyltransferase (methylase) 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+tuberculosis str. Haarlem/NITR202]
+Length=270
+
+ Score = 45.8 bits (107),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 23/52 (44%), Positives = 32/52 (62%), Gaps = 1/52 (2%)
+
+Query  77   PGIRYSVQDAEATDYPDAAFDLVCVAQAWHWFDH-SRFNRELLRVLRPGGVF  127
+            PG+ +   DAE   + D +FD+V   +A H + H  RF  E++RVLRPGG F
+Sbjct  127  PGLDFVRGDAENLPFDDESFDVVLNVEASHCYPHFRRFLAEVVRVLRPGGYF  178
+
+
+>VFG008615(gb|WP_015303657) (BN43_RS15560) phthiotriol/phenolphthiotriol 
+dimycocerosates methyltransferase [PDIM (VF0309) 
+- Immune modulation (VFC0258)] [Mycobacterium canettii CIPT 
+140070008]
+Length=270
+
+ Score = 45.8 bits (107),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 23/52 (44%), Positives = 32/52 (62%), Gaps = 1/52 (2%)
+
+Query  77   PGIRYSVQDAEATDYPDAAFDLVCVAQAWHWFDH-SRFNRELLRVLRPGGVF  127
+            PG+ +   DAE   + D +FD+V   +A H + H  RF  E++RVLRPGG F
+Sbjct  127  PGLDFVRGDAENLPFDDESFDVVLNVEASHCYPHFRRFLAEVVRVLRPGGYF  178
+
+
+>VFG007965(gb|NP_217468) (Rv2952) phthiotriol/phenolphthiotriol 
+dimycocerosates methyltransferase [PDIM (VF0309) - Immune 
+modulation (VFC0258)] [Mycobacterium tuberculosis H37Rv]
+Length=270
+
+ Score = 45.8 bits (107),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 23/52 (44%), Positives = 32/52 (62%), Gaps = 1/52 (2%)
+
+Query  77   PGIRYSVQDAEATDYPDAAFDLVCVAQAWHWFDH-SRFNRELLRVLRPGGVF  127
+            PG+ +   DAE   + D +FD+V   +A H + H  RF  E++RVLRPGG F
+Sbjct  127  PGLDFVRGDAENLPFDDESFDVVLNVEASHCYPHFRRFLAEVVRVLRPGGYF  178
+
+
+>VFG008616(gb|WP_015291073) (BN42_RS15750) phthiotriol/phenolphthiotriol 
+dimycocerosates methyltransferase [PDIM (VF0309) 
+- Immune modulation (VFC0258)] [Mycobacterium canettii CIPT 
+140070010]
+Length=270
+
+ Score = 45.8 bits (107),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 23/52 (44%), Positives = 32/52 (62%), Gaps = 1/52 (2%)
+
+Query  77   PGIRYSVQDAEATDYPDAAFDLVCVAQAWHWFDH-SRFNRELLRVLRPGGVF  127
+            PG+ +   DAE   + D +FD+V   +A H + H  RF  E++RVLRPGG F
+Sbjct  127  PGLDFVRGDAENLPFDDESFDVVLNVEASHCYPHFRRFLAEVVRVLRPGGYF  178
+
+
+>VFG008617(gb|WP_015294053) (BN45_RS15645) phthiotriol/phenolphthiotriol 
+dimycocerosates methyltransferase [PDIM (VF0309) 
+- Immune modulation (VFC0258)] [Mycobacterium canettii CIPT 
+140070017]
+Length=270
+
+ Score = 45.8 bits (107),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 23/52 (44%), Positives = 32/52 (62%), Gaps = 1/52 (2%)
+
+Query  77   PGIRYSVQDAEATDYPDAAFDLVCVAQAWHWFDH-SRFNRELLRVLRPGGVF  127
+            PG+ +   DAE   + D +FD+V   +A H + H  RF  E++RVLRPGG F
+Sbjct  127  PGLDFVRGDAENLPFDDESFDVVLNVEASHCYPHFRRFLAEVVRVLRPGGYF  178
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.135    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1593978197
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

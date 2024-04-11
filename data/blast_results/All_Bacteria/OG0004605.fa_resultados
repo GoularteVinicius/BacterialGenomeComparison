@@ -1,0 +1,111 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g684.t1
+
+Length=135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG040870(gb|NP_249369) (PA0678) HxcU pseudopilin [Hxc (VF0945) -...  265     4e-93
+VFG040924(gb|WP_004535320) (BPS_RS00060) GspH/FimT family pseudop...  75.5    9e-18
+VFG040980(gb|WP_011002998) (RS_RS15605) GspH/FimT family pseudopi...  47.4    2e-07
+
+
+>VFG040870(gb|NP_249369) (PA0678) HxcU pseudopilin [Hxc (VF0945) 
+- Effector delivery system (VFC0086)] [Pseudomonas aeruginosa 
+PAO1]
+Length=149
+
+ Score = 265 bits (677),  Expect = 4e-93, Method: Compositional matrix adjust.
+ Identities = 135/135 (100%), Positives = 135/135 (100%), Gaps = 0/135 (0%)
+
+Query  1    MVVLVIVGIATAAISLSARPDPTGLLRQDAARLARLLEIAQGEARVRGTPILWQPSAKGY  60
+            MVVLVIVGIATAAISLSARPDPTGLLRQDAARLARLLEIAQGEARVRGTPILWQPSAKGY
+Sbjct  15   MVVLVIVGIATAAISLSARPDPTGLLRQDAARLARLLEIAQGEARVRGTPILWQPSAKGY  74
+
+Query  61   RFSPQAYRGKTDAFAADTELRARDWQAAPLRVSVRPPRPVLLDAEWIGAPLRITLSDGQH  120
+            RFSPQAYRGKTDAFAADTELRARDWQAAPLRVSVRPPRPVLLDAEWIGAPLRITLSDGQH
+Sbjct  75   RFSPQAYRGKTDAFAADTELRARDWQAAPLRVSVRPPRPVLLDAEWIGAPLRITLSDGQH  134
+
+Query  121  SVTVLREANGHVRVR  135
+            SVTVLREANGHVRVR
+Sbjct  135  SVTVLREANGHVRVR  149
+
+
+>VFG040924(gb|WP_004535320) (BPS_RS00060) GspH/FimT family pseudopilin 
+[Gsp (VF0705) - Effector delivery system (VFC0086)] 
+[Burkholderia pseudomallei K96243]
+Length=199
+
+ Score = 75.5 bits (184),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 51/141 (36%), Positives = 70/141 (50%), Gaps = 8/141 (6%)
+
+Query  1    MVVLVIVGIATAAISLSARPDPTGLLRQDAARLARLLEIAQGEARVRGTPILWQPSAKGY  60
+            +VVLVI GI  +  SL+ R +P   LR++A R+A L E A  EA+VR  PI W+ +  G+
+Sbjct  61   LVVLVIAGILVSVASLTLRRNPRTDLREEAQRIALLFETAGDEAQVRARPIAWRATEHGF  120
+
+Query  61   RFSPQAYRGKTDAFAADTELRARDWQAAPLRVSVRPP------RPVLLDAEWIGAPLRIT  114
+            RF  +   G       D  LRARDW       ++  P        V+   E I  P+R+T
+Sbjct  121  RFDIRTGDGWRP--LRDDVLRARDWDGGVTGAAIDYPGSDTHTDAVVFGTESIDVPVRVT  178
+
+Query  115  LSDGQHSVTVLREANGHVRVR  135
+            L     S T++   NG   VR
+Sbjct  179  LYSAVGSATIVGTGNGRYEVR  199
+
+
+>VFG040980(gb|WP_011002998) (RS_RS15605) GspH/FimT family pseudopilin 
+[Gsp (VF1296) - Effector delivery system (VFC0086)] 
+[Ralstonia solanacearum GMI1000]
+Length=165
+
+ Score = 47.4 bits (111),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 24/60 (40%), Positives = 39/60 (65%), Gaps = 3/60 (5%)
+
+Query  15  SLSARPDPTGLLRQDAARLARLLEIAQGEARVRGTPILWQPSAKGYRF---SPQAYRGKT  71
+           +++A P+P   L  DA +LARL+E+AQ EA++   P+ W+  A+G+RF   +P  +R  T
+Sbjct  37  AVNATPNPRSQLADDAQKLARLIELAQEEAQLTARPVAWEGDAQGWRFLESTPGGWRVMT  96
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.135    0.404    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 497167310
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

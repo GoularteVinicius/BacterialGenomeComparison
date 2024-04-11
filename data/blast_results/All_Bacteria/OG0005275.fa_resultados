@@ -1,0 +1,659 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3276.t1
+
+Length=312
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG024351(gb|WP_009951820) (mce7B) MCE family protein [Mce7 (VF08...  66.2    3e-12
+VFG010340(gb|WP_010948961) (mce7B) MCE family protein [Mce7 (VF08...  65.1    7e-12
+VFG027839(gb|WP_015356600) (mce5B) MCE family protein [Mce5 (VF08...  56.2    7e-09
+VFG023108(gb|WP_012395464) (mce5B) MCE family protein [Mce5 (VF08...  55.5    1e-08
+VFG010298(gb|WP_011741503) (mce5B) MCE family protein [Mce5 (VF08...  55.1    2e-08
+VFG027623(gb|WP_020787344) (mce3C) virulence factor Mce family pr...  52.4    1e-07
+VFG023047(gb|WP_012394583) (mce3C) virulence factor Mce family pr...  52.4    1e-07
+VFG022985(gb|WP_013827067) (mce1B) MCE family protein [Mce1 (VF08...  52.4    1e-07
+VFG024289(gb|WP_014383776) (mce4C) virulence factor Mce family pr...  51.6    2e-07
+VFG027764(gb|WP_041320776) (mce4C) virulence factor Mce family pr...  51.2    3e-07
+VFG024286(gb|WP_014381763) (mce4C) virulence factor Mce family pr...  51.2    3e-07
+VFG010401(gb|WP_011780068) (mce8C) MCE family protein [Mce8 (VF08...  50.4    5e-07
+VFG024356(gb|WP_013471283) (mce7C) MCE family protein [Mce7 (VF08...  50.4    6e-07
+VFG010240(gb|WP_170924195) (mce4C) virulence factor Mce family pr...  49.7    9e-07
+VFG010342(gb|WP_011730088) (mce7B) MCE family protein [Mce7 (VF08...  48.9    1e-06
+VFG010395(gb|WP_011557703) (mce8B) MCE family protein [Mce8 (VF08...  48.9    2e-06
+VFG010130(gb|WP_011781754) (mce3C) MCE family protein [Mce3 (VF08...  49.3    2e-06
+VFG027873(gb|WP_007168630) (mce7B) MCE family protein [Mce7 (VF08...  48.1    3e-06
+VFG010352(gb|WP_011893390) (mce7C) MCE family protein [Mce7 (VF08...  47.8    5e-06
+
+
+>VFG024351(gb|WP_009951820) (mce7B) MCE family protein [Mce7 (VF0830) 
+- Others (VFC0346)] [Mycobacterium indicus pranii MTCC 
+9506]
+Length=340
+
+ Score = 66.2 bits (160),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 83/330 (25%), Positives = 139/330 (42%), Gaps = 67/330 (20%)
+
+Query  1    METRAHHVLIGLFSVI--VIGAALLFGLWLAKSGSEGKFNYYDIVFNEAVSGLSQGSSVQ  58
+            M TRA  +    F+V+  V+ A L F     ++G+      Y  VFN+ VS L  G SV+
+Sbjct  1    MRTRATLIKFATFAVVMAVLTAFLFFIFGQYRTGAT---TGYSAVFND-VSRLKPGESVR  56
+
+Query  59   YSGIKVGDVAFLRLDPKDPRKVWARIRVVASAPIKQDTTAKLALTGITGTSIIQLSSGTP  118
+             +GI+VG V  + L P   +KV  +     +  + + + A +    + G   ++L  G P
+Sbjct  57   VAGIRVGTVDSVSLRPD--KKVVVKFDADRNVVLTEGSRAAVRYLNLVGDRYLELLDG-P  113
+
+Query  119  ASPMLEGKDGKIPVIVATPS-----------PLTQLLSNGEDLM--------------GN  153
+             SP      G+IPV    P+           P+TQ L N  D+               G 
+Sbjct  114  GSPKRLPAGGQIPVSRTAPALDLDLLLGGLKPVTQGL-NPHDVNALTAGLLQVFQGQGGT  172
+
+Query  154  INQLIAR---FSNLLSEENTARISRTLDHLDQATGALSAERENVSAVMQQLAQASRQANA  210
+            I  L  +   FSN L++ N   + + +D+L+   G ++ + +  S  + +L Q       
+Sbjct  173  IESLFTKTTSFSNALAD-NDQTVQQLIDNLNTVIGTIAKDGKQFSGAIDRLEQL------  225
+
+Query  211  ALAQASELMRSANGLLNEQGKGMLENANKTMASLERTSATLDQLISENRHSLDGGIQGLA  270
+                        +GL N++     +     + +L+R +A+L  L++E R  L G I  L 
+Sbjct  226  -----------VSGLSNDR-----DTIGSAIDALDRGTASLADLLAEARPPLSGTIAQLN  269
+
+Query  271  ELGPAVSELRDTLAALRGISRRLEENPANY  300
+             L P +   +D       I   +++ P NY
+Sbjct  270  RLAPILDNDKDR------IDTAIQKAPRNY  293
+
+
+>VFG010340(gb|WP_010948961) (mce7B) MCE family protein [Mce7 (VF0830) 
+- Others (VFC0346)] [Mycobacterium avium subsp. paratuberculosis 
+K-10]
+Length=340
+
+ Score = 65.1 bits (157),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 83/330 (25%), Positives = 140/330 (42%), Gaps = 67/330 (20%)
+
+Query  1    METRAHHVLIGLFSVIV--IGAALLFGLWLAKSGSEGKFNYYDIVFNEAVSGLSQGSSVQ  58
+            M TRA  +   +F+V++  + A L F     ++G+    N Y  VF + VS L  G SV+
+Sbjct  1    MRTRATLIKFAIFAVVMAMLTAFLFFIFGQYRTGAT---NGYSAVFTD-VSRLKPGQSVR  56
+
+Query  59   YSGIKVGDVAFLRLDPKDPRKVWARIRVVASAPIKQDTTAKLALTGITGTSIIQLSSGTP  118
+             +GI+VG V  + L P   +KV  +     +  + + T A +    + G   ++L  G P
+Sbjct  57   VAGIRVGTVNSVSLQPD--KKVVVKFDADRNIVLTEGTRAAVRYLNLVGDRYLELVDG-P  113
+
+Query  119  ASPMLEGKDGKIPVIVATPS-----------PLTQLLSNGEDLM--------------GN  153
+             SP      G+IPV    P+           P+TQ L N  D+               G 
+Sbjct  114  GSPKRLPAGGQIPVSRTAPALDLDLLLGGLKPVTQGL-NARDVNALTSGLLQVFQGQGGT  172
+
+Query  154  INQLIAR---FSNLLSEENTARISRTLDHLDQATGALSAERENVSAVMQQLAQASRQANA  210
+            ++ L  +   FSN L++ N   + + +D+L+   G +S + +  S  + +L         
+Sbjct  173  LDSLFTKATSFSNALAD-NDQTVQQLIDNLNIVIGTISKDGKQFSGAVDRLE--------  223
+
+Query  211  ALAQASELMRSANGLLNEQGKGMLENANKTMASLERTSATLDQLISENRHSLDGGIQGLA  270
+                     R  +GL +++           + +L+R +A+L  L+++ R  L G I  L 
+Sbjct  224  ---------RLVSGLSDDR-----NTIGSAIDALDRGTASLADLLAQARPPLTGTIDQLN  269
+
+Query  271  ELGPAVSELRDTLAALRGISRRLEENPANY  300
+             L P +   +D L A  G      + P NY
+Sbjct  270  RLAPILDNDKDRLDAAIG------KAPKNY  293
+
+
+>VFG027839(gb|WP_015356600) (mce5B) MCE family protein [Mce5 (VF0828) 
+- Others (VFC0346)] [Mycobacterium liflandii 128FXT]
+Length=351
+
+ Score = 56.2 bits (134),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 76/307 (25%), Positives = 136/307 (44%), Gaps = 39/307 (13%)
+
+Query  9    LIGLFSVIVIGAALLFGLWLA-KSGSEGKFNYYDIVFNEAVSGLSQGSSVQYSGIKVGDV  67
+            LIGL   +V+  AL + ++++ +    GK   Y  VF + V GL +G  V+ +G++VG V
+Sbjct  7    LIGLSLFMVVAVALTWMVYVSLRREVAGKTVAYAAVFTD-VYGLCEGDDVRMAGVRVGRV  65
+
+Query  68   AFLRLDPKDPRKVWARIRVVASAP--IKQDTTAKLALTGITGTSIIQLSSGTPASPMLEG  125
+              + L+ K      A++R V      +  +T A +    I G   + LS G   SP    
+Sbjct  66   EKIDLEGK-----LAKVRFVVQNEQRLFGNTVASVTYQNIVGQRYLGLSLGKKGSPDQLA  120
+
+Query  126  KDGKIPVIVATPS-PLTQLLSNGEDLMGNINQL----------------IARFSNLLSEE  168
+                IPV    PS  +T LL+  E L   +N                   A  + L+S+ 
+Sbjct  121  PGSVIPVQRTEPSFDVTALLNGYEPLFSLLNPRDADNLTKGIIESLQGDTASLATLVSQT  180
+
+Query  169  NTARISRTLDHLDQATGALSAERENVSAVMQQLAQASRQANAALAQASELMRSANGLLNE  228
+            +T  ++ T    DQA G +     N++ V+  LAQ +   +  +    E++ +    L++
+Sbjct  181  ST--LTETFAGRDQALGDVIT---NLNKVIYNLAQQNDNLDGVITDTREVVST----LDQ  231
+
+Query  229  QGKGMLENANKTMASLERTSATLDQLISENRHSLD---GGIQGLAELGPAVSELRDTLA-  284
+            +   ++ +       LER SA+ + +  + R  +D   G  + +  + P V+   D +  
+Sbjct  232  RRPELVSSIGSLARVLERLSASANDVYPQLREFIDRQPGATRHILSVEPQVAFFGDNIPL  291
+
+Query  285  ALRGISR  291
+             L+G++R
+Sbjct  292  LLKGLTR  298
+
+
+>VFG023108(gb|WP_012395464) (mce5B) MCE family protein [Mce5 (VF0828) 
+- Others (VFC0346)] [Mycobacterium marinum M]
+Length=351
+
+ Score = 55.5 bits (132),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 78/307 (25%), Positives = 137/307 (45%), Gaps = 39/307 (13%)
+
+Query  9    LIGLFSVIVIGAALLFGLWLA-KSGSEGKFNYYDIVFNEAVSGLSQGSSVQYSGIKVGDV  67
+            LIGL   +V+  AL + ++++ +    GK   Y  VF + V GL +G  V+ +G++VG V
+Sbjct  7    LIGLSLFMVVAVALTWMVYVSLRREVAGKTVAYAAVFTD-VYGLREGDDVRMAGVRVGRV  65
+
+Query  68   AFLRLDPKDPRKVWARIRVVASAP--IKQDTTAKLALTGITGTSIIQLSSGTPASPMLEG  125
+              + L+ K      A++R V      +  +T A +    I G   + LS G   SP    
+Sbjct  66   EKIDLEGK-----LAKVRFVVQNEQRLFGNTVASVTYQNIVGQRYLGLSLGKKGSPDQLA  120
+
+Query  126  KDGKIPVIVATPS-PLTQLLSNGEDLM-------------GNINQL---IARFSNLLSEE  168
+                IPV    PS  +T LL+  E L              G I  L    A  + L+S+ 
+Sbjct  121  PGSVIPVQRTEPSFDVTALLNGYEPLFSLLNPRDADNLTKGIIESLQGDTASLATLVSQT  180
+
+Query  169  NTARISRTLDHLDQATGALSAERENVSAVMQQLAQASRQANAALAQASELMRSANGLLNE  228
+            +T  ++ T    DQA G +     N++ V+  LAQ +   +  +    E++ +    L++
+Sbjct  181  ST--LTETFAGRDQALGDVIT---NLNKVIYNLAQQNDNLDGVITDTREVVST----LDQ  231
+
+Query  229  QGKGMLENANKTMASLERTSATLDQLISENRHSLD---GGIQGLAELGPAVSELRDTLA-  284
+            +   ++ +       LER SA+ + +  + R  +D   G  + +  + P V+   D +  
+Sbjct  232  RRPELVSSIGSLARVLERLSASANDVYPQLREFIDRQPGATRHILSVEPQVAFFGDNIPL  291
+
+Query  285  ALRGISR  291
+             L+G++R
+Sbjct  292  LLKGLTR  298
+
+
+>VFG010298(gb|WP_011741503) (mce5B) MCE family protein [Mce5 (VF0828) 
+- Others (VFC0346)] [Mycobacterium ulcerans Agy99]
+Length=351
+
+ Score = 55.1 bits (131),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 76/307 (25%), Positives = 136/307 (44%), Gaps = 39/307 (13%)
+
+Query  9    LIGLFSVIVIGAALLFGLWLA-KSGSEGKFNYYDIVFNEAVSGLSQGSSVQYSGIKVGDV  67
+            LIGL   +V+  AL + ++++ +    GK   Y  VF + V GL +G  V+ +G++VG V
+Sbjct  7    LIGLSLFMVVAVALTWMVYVSLRREVAGKTVAYAAVFTD-VYGLREGDGVRMAGVRVGRV  65
+
+Query  68   AFLRLDPKDPRKVWARIRVVASAP--IKQDTTAKLALTGITGTSIIQLSSGTPASPMLEG  125
+              + L+ K      A++R V      +  +T A +    I G   + LS G   SP    
+Sbjct  66   EKIDLEGK-----LAKVRFVVQNEQRLFGNTVASVTYQNIVGQRYLGLSLGKKGSPDQLA  120
+
+Query  126  KDGKIPVIVATPS-PLTQLLSNGEDLMGNINQL----------------IARFSNLLSEE  168
+                IPV    PS  +T LL+  E L   +N                   A  + L+S+ 
+Sbjct  121  PGSVIPVQRTEPSFDVTALLNGYEPLFSLLNPRDADNLTKGIIESLQGDTASLATLVSQT  180
+
+Query  169  NTARISRTLDHLDQATGALSAERENVSAVMQQLAQASRQANAALAQASELMRSANGLLNE  228
+            +T  ++ T    DQA G +     N++ V+  LAQ +   +  +    E++ +    L++
+Sbjct  181  ST--LTETFAGRDQALGDVIT---NLNKVIYNLAQQNDNLDGVITDTREVVST----LDQ  231
+
+Query  229  QGKGMLENANKTMASLERTSATLDQLISENRHSLD---GGIQGLAELGPAVSELRDTLA-  284
+            +   ++ +       LER SA+ + +  + R  +D   G  + +  + P V+   D +  
+Sbjct  232  RRPELVSSIGSLARVLERLSASANDVYPQLREFIDRQPGATRHILSVEPQVAFFGDNIPL  291
+
+Query  285  ALRGISR  291
+             L+G++R
+Sbjct  292  LLKGLTR  298
+
+
+>VFG027623(gb|WP_020787344) (mce3C) virulence factor Mce family 
+protein [Mce3 (VF0826) - Immune modulation (VFC0258)] [Mycobacterium 
+liflandii 128FXT]
+Length=427
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 84/311 (27%), Positives = 135/311 (43%), Gaps = 45/311 (14%)
+
+Query  1    METRAHHVLIGLFSVIVIGAALLFGLWLAKSGSEGKFNYYD-----IVFNEAVSGLSQGS  55
+            M++ A   L+ + +V ++ AA + G  L       K  ++D       +   V GL  G+
+Sbjct  1    MKSFAERNLLLVGTVGILTAAGVVGGALQYQ----KLPFFDQGTSVCAYFADVGGLRTGN  56
+
+Query  56   SVQYSGIKVGDVAFLRLDPKDPR---KVWARIRVVASAPIKQDTTAKLALTGITGTSIIQ  112
+            +V+ SG  VG V+ + LD    R   KV   IR      + + T A +   G+ G+  ++
+Sbjct  57   TVEVSGYPVGKVSSIELDEPGARVTFKVDKNIR------LGERTEAAIKTKGLLGSKFVE  110
+
+Query  113  LSSGTPASPMLEGK-DGKIPVIVATPSPLTQLLSNGEDLMGNINQLIARFSNLLSEENTA  171
+            +       P  EG   G IPV   T SP  QL     D +G++       ++ +S  NT 
+Sbjct  111  VM------PRGEGHLTGPIPV-ERTMSPY-QL----PDALGDL-------ASTISGLNTG  151
+
+Query  172  RISRTLDHLDQATGALSAERENVSAVMQQLAQASRQANAALAQASELMRSANGLL---NE  228
+            ++S +LD L Q      A+  N    + +LA+   Q +  L    +    A G+L    +
+Sbjct  152  QLSESLDTLAQTFADTPADFRNAVQGVARLARTLNQRDVQLRSLLDNAARATGVLANRTD  211
+
+Query  229  QGKGMLENANKTMASLERTSATLDQL---ISENRHSLDGGI-QGLAELGPAVSELRDTLA  284
+            Q  G++ + N  +  L   SA LDQ+   IS     L G I     EL PA+ +L   L 
+Sbjct  212  QIAGLVRDTNALLVQLRTQSAALDQIWANISAVARQLKGFIADNRQELRPALDKLNGVLD  271
+
+Query  285  ALRGISRRLEE  295
+             +     RL++
+Sbjct  272  IVESRKERLQQ  282
+
+
+>VFG023047(gb|WP_012394583) (mce3C) virulence factor Mce family 
+protein [Mce3 (VF0826) - Immune modulation (VFC0258)] [Mycobacterium 
+marinum M]
+Length=427
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 76/276 (28%), Positives = 119/276 (43%), Gaps = 41/276 (15%)
+
+Query  36   KFNYYD-----IVFNEAVSGLSQGSSVQYSGIKVGDVAFLRLDPKDPR---KVWARIRVV  87
+            K  ++D       +   V GL  G++V+ SG  VG V+ + LD    R   KV   IR  
+Sbjct  32   KLPFFDQGTSVCAYFADVGGLRTGNTVEVSGYPVGKVSSIELDEPGARVTFKVDKNIR--  89
+
+Query  88   ASAPIKQDTTAKLALTGITGTSIIQLSSGTPASPMLEGK-DGKIPVIVATPSPLTQLLSN  146
+                + + T A +   G+ G+  +++       P  EG   G IPV   T SP  QL   
+Sbjct  90   ----LGERTEAAIKTKGLLGSKFVEVI------PRGEGHLTGPIPV-ERTMSPY-QL---  134
+
+Query  147  GEDLMGNINQLIARFSNLLSEENTARISRTLDHLDQATGALSAERENVSAVMQQLAQASR  206
+              D +G++       ++ +S  NT ++S +LD L Q      A+  N    + +LA+   
+Sbjct  135  -PDALGDL-------ASTISGLNTGQLSESLDTLAQTFADTPADFRNAVQGVARLARTLN  186
+
+Query  207  QANAALAQASELMRSANGLL---NEQGKGMLENANKTMASLERTSATLDQL---ISENRH  260
+            Q +  L    +    A G+L    +Q  G++ + N  +  L   SA LDQ+   IS    
+Sbjct  187  QRDVQLRSLLDNAARATGVLANRTDQIAGLVRDTNALLVQLRTQSAALDQIWANISAVAR  246
+
+Query  261  SLDGGI-QGLAELGPAVSELRDTLAALRGISRRLEE  295
+             L G I     EL PA+ +L   L  +     RL++
+Sbjct  247  QLKGFIADNRQELRPALDKLNGVLDIVEARKERLQQ  282
+
+
+>VFG022985(gb|WP_013827067) (mce1B) MCE family protein [Mce1 (VF0824) 
+- Nutritional/Metabolic factor (VFC0272)] [Mycobacterium 
+sp. JDM601]
+Length=342
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 68/275 (25%), Positives = 115/275 (42%), Gaps = 29/275 (11%)
+
+Query  17   VIGAALL-FGLWLAKSGSEGKFNY---YDIVFNEAVSGLSQGSSVQYSGIKVGDVAFLRL  72
+            V+G+ LL F + L     + +F+    Y   F  A SGL QG  V+ SG+++G V  + L
+Sbjct  12   VVGSVLLLFTIGLVVVFGQIRFDRTSRYSAEFTNA-SGLRQGQFVRASGVEIGKVKNVHL  70
+
+Query  73   DPKDPRKVWARIRVVASAPIKQDTTAKLALTGITGTSIIQLSSGTPASPMLEGKDGKIPV  132
+                 R+V     V  S P+ Q TTA++    + G   ++L  G       EG D ++P 
+Sbjct  71   -VDGGRRVVVDFDVDRSLPLYQSTTAQIRYDDLIGNRYLELKRGDG-----EGADQRLPA  124
+
+Query  133  IVATPSPLTQLLSNGEDLMGNINQLIARFSNLLSEENTARISRTLDHLDQATGALSAERE  192
+                P+  T+   + + L+G    +       L  +    I+ ++  + Q  G       
+Sbjct  125  GGFIPASRTEPALDLDALIGGFKPVF----RALDPDKINTIASSIVTVFQGQGG------  174
+
+Query  193  NVSAVMQQLAQASRQANAALAQASELMRSANGLLNEQGKGMLENANKTMASLERTSATLD  252
+             ++ ++QQ AQ +       A   E++++ N         +L+ A +   + + T    D
+Sbjct  175  TINDILQQTAQLTAHIADRDAAIGEVVKNLN--------TVLDTAVRHRQTFDETVDNFD  226
+
+Query  253  QLISENRHSLDGGIQGLAELGPAVSELRDTLAALR  287
+            +L+        G   G AE G A   L D LA  R
+Sbjct  227  KLVKGLNDHRTGLAFGTAEFGNAAGNLADLLADNR  261
+
+
+>VFG024289(gb|WP_014383776) (mce4C) virulence factor Mce family 
+protein [Mce4 (VF0827) - Immune modulation (VFC0258)] [Mycobacterium 
+intracellulare MOTT-64]
+Length=354
+
+ Score = 51.6 bits (122),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 70/265 (26%), Positives = 119/265 (45%), Gaps = 52/265 (20%)
+
+Query  40   YDIVFNEAVSGLSQGSSVQYSGIKVGDVAFLRLDPKDPRKVWARIRVVASAPIKQDTTAK  99
+            YD  F++A  G++ G++V  SG KVG V  + L     +  ++  R VA   +   + A 
+Sbjct  44   YDAYFSDA-GGINPGNAVYVSGFKVGKVTSVGLAGDSAKISFSVDRHVA---VGDQSLAA  99
+
+Query  100  LALTGITGTSIIQLSSGTPASPMLEGKDGKIPVI-VATPSPLTQLLSNGEDLMGNINQL-  157
+            +    I G   I +   TPA     GK   IP+    TP  L   L   EDL  N + L 
+Sbjct  100  IRTDTILGERSISV---TPAG---GGKATTIPLSRTTTPYTLAGAL---EDLGSNASNLN  150
+
+Query  158  ---IARFSNLLSE-------------ENTARISRTLDHLDQATGALSAERENVSAVMQQL  201
+                 +  N+L++             +    +SRTLD  D+A  +L A  ++V+ V+ Q 
+Sbjct  151  KPQFEKALNVLTDTLHDATLELRGALDGVTSLSRTLDRRDEALQSLLAHAKSVTGVLSQR  210
+
+Query  202  AQASRQANAALAQASELMRSANGLLNEQGKGMLENANKTMASLERTSATLDQLISENRHS  261
+            A+   Q N  +   +EL  +    L+E+ + +     + ++ ++  SA +   +++NR  
+Sbjct  211  AE---QVNKLVDDGNELFAA----LDERHRAL----GQLISGIQELSAQISGFVADNRR-  258
+
+Query  262  LDGGIQGLAELGPAVSELRDTLAAL  286
+                     E GPA+++L D L+ L
+Sbjct  259  ---------EFGPALNKLNDVLSNL  274
+
+
+>VFG027764(gb|WP_041320776) (mce4C) virulence factor Mce family 
+protein [Mce4 (VF0827) - Immune modulation (VFC0258)] [Mycobacterium 
+yongonense 05-1390]
+Length=354
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 70/265 (26%), Positives = 119/265 (45%), Gaps = 52/265 (20%)
+
+Query  40   YDIVFNEAVSGLSQGSSVQYSGIKVGDVAFLRLDPKDPRKVWARIRVVASAPIKQDTTAK  99
+            YD  F++A  G++ G++V  SG KVG V  + L     +  ++  R VA   +   + A 
+Sbjct  44   YDAYFSDA-GGINPGNAVYVSGFKVGKVTSVGLAGDSAKISFSVDRHVA---VGDQSLAA  99
+
+Query  100  LALTGITGTSIIQLSSGTPASPMLEGKDGKIPVI-VATPSPLTQLLSNGEDLMGNINQL-  157
+            +    I G   I +   TPA     GK   IP+    TP  L   L   EDL  N + L 
+Sbjct  100  IRTDTILGERSISV---TPAG---GGKATTIPLSRTTTPYTLAGAL---EDLGSNASNLN  150
+
+Query  158  ---IARFSNLLSE-------------ENTARISRTLDHLDQATGALSAERENVSAVMQQL  201
+                 +  N+L++             +    +SRTLD  D+A  +L A  ++V+ V+ Q 
+Sbjct  151  TPQFEKALNVLTDTLHDATPELRGALDGVTSLSRTLDRRDEALQSLLAHAKSVTGVLSQR  210
+
+Query  202  AQASRQANAALAQASELMRSANGLLNEQGKGMLENANKTMASLERTSATLDQLISENRHS  261
+            A+   Q N  +   +EL  +    L+E+ + +     + ++ ++  SA +   +++NR  
+Sbjct  211  AE---QVNKLVDDGNELFAA----LDERHRAL----GQLISGIQELSAQISGFVADNRR-  258
+
+Query  262  LDGGIQGLAELGPAVSELRDTLAAL  286
+                     E GPA+++L D L+ L
+Sbjct  259  ---------EFGPALNKLNDVLSNL  274
+
+
+>VFG024286(gb|WP_014381763) (mce4C) virulence factor Mce family 
+protein [Mce4 (VF0827) - Immune modulation (VFC0258)] [Mycobacterium 
+indicus pranii MTCC 9506]
+Length=354
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 70/265 (26%), Positives = 119/265 (45%), Gaps = 52/265 (20%)
+
+Query  40   YDIVFNEAVSGLSQGSSVQYSGIKVGDVAFLRLDPKDPRKVWARIRVVASAPIKQDTTAK  99
+            YD  F++A  G++ G++V  SG KVG V  + L     +  ++  R VA   +   + A 
+Sbjct  44   YDAYFSDA-GGINPGNAVYVSGFKVGKVTSVGLAGDSAKISFSVDRHVA---VGDQSLAA  99
+
+Query  100  LALTGITGTSIIQLSSGTPASPMLEGKDGKIPVI-VATPSPLTQLLSNGEDLMGNINQL-  157
+            +    I G   I +   TPA     GK   IP+    TP  L   L   EDL  N + L 
+Sbjct  100  IRTDTILGERSISV---TPAG---GGKATTIPLSRTTTPYTLAGAL---EDLGSNASNLN  150
+
+Query  158  ---IARFSNLLSE-------------ENTARISRTLDHLDQATGALSAERENVSAVMQQL  201
+                 +  N+L++             +    +SRTLD  D+A  +L A  ++V+ V+ Q 
+Sbjct  151  KPQFEKALNVLTDTLHDATPELRGALDGVTSLSRTLDRRDEALQSLLAHAKSVTGVLSQR  210
+
+Query  202  AQASRQANAALAQASELMRSANGLLNEQGKGMLENANKTMASLERTSATLDQLISENRHS  261
+            A+   Q N  +   +EL  +    L+E+ + +     + ++ ++  SA +   +++NR  
+Sbjct  211  AE---QVNKLVDDGNELFAA----LDERHRAL----GQLISGIQELSAQISGFVADNRR-  258
+
+Query  262  LDGGIQGLAELGPAVSELRDTLAAL  286
+                     E GPA+++L D L+ L
+Sbjct  259  ---------EFGPALNKLNDVLSNL  274
+
+
+>VFG010401(gb|WP_011780068) (mce8C) MCE family protein [Mce8 (VF0831) 
+- Others (VFC0346)] [Mycobacterium vanbaalenii PYR-1]
+Length=360
+
+ Score = 50.4 bits (119),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 77/330 (23%), Positives = 145/330 (44%), Gaps = 39/330 (12%)
+
+Query  8    VLIGLFSVIVIGAALLFGLWLAKSGSEGKFNYYDIVFNEAVSGLSQGSSVQYSGIKVGDV  67
+            V  G    ++I   ++ GL   +  S      Y  VF E+  GL+ G++V+ SG+ VG V
+Sbjct  10   VRAGFIGAVLIALVIVVGLQPQQLWSMATSVRYQAVFAES-GGLAAGNNVKVSGVTVGSV  68
+
+Query  68   AFLRLDPKDPRKVWARIRVVASAPIKQDTTAKLALTGITGTSIIQLSSGTPASPMLEGKD  127
+            + + LD       ++   V  + P+  DTTA + +  + G  ++ L    PA     G  
+Sbjct  69   SDVELDRGTAVVTFS---VAGAVPLGGDTTASIGIATVLGERVLVLR---PAGRESLGAM  122
+
+Query  128  GKIPVI-VATPSPLT----QLLSNGEDL-MGNINQLIARFSNLLSEENTARISRTLDHLD  181
+            G IP+    +P  LT    +  SN E      INQ +   S+ + E    +++ T D + 
+Sbjct  123  GVIPLSRTGSPYSLTDAIGEFTSNTEQTDTAAINQSLDTLSDTI-ERIAPQLAPTFDGVT  181
+
+Query  182  QATGALSAERENVSAVMQQ-------LAQASRQANAALAQASE----LMRSANGLLN---  227
+            + + +L++  E++S +++        L++ S Q N+ L  A++    L +    ++N   
+Sbjct  182  RLSKSLNSRNESLSGLLEAASDVTGVLSERSAQVNSLLLNANDLLAVLQQRRYAIVNLLA  241
+
+Query  228  ------EQGKGMLENANKTMASLERTSATLDQLISENRHSLDGGIQGLAELGPAVSELRD  281
+                  +Q  GM+ +  + +A       T+ +++  NR ++   ++GLA+      E  +
+Sbjct  242  STTAVAQQLSGMVADNERELAPTLEKLNTVAEMLERNRDNITASLKGLAKYQVTQGEAVN  301
+
+Query  282  TLAALRGISRRLEENPA-----NYLLGREK  306
+                  G +  L   PA     +Y LG  +
+Sbjct  302  NGFFYNGFASNLLPGPAIQPFLDYALGYRR  331
+
+
+>VFG024356(gb|WP_013471283) (mce7C) MCE family protein [Mce7 (VF0830) 
+- Others (VFC0346)] [Mycobacterium gilvum Spyr1]
+Length=367
+
+ Score = 50.4 bits (119),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 77/300 (26%), Positives = 130/300 (43%), Gaps = 42/300 (14%)
+
+Query  11   GLFSVIVIGAALLFGLWLAKSGSEGKFNYYDIVFNEAVSGLSQGSSVQYSGIKVGDVAFL  70
+            G   V++I   +  GL   +  S      Y  +F EA  GL+ G+ V  SGIKVG V+ +
+Sbjct  13   GFIGVVLIILVIAVGLQPERLLSWATAIRYQAMFTEA-GGLTVGNDVTVSGIKVGSVSSI  71
+
+Query  71   RLDPKDPRKVWARIRVVASAPIKQDTTAKLALTGITGTSIIQLSSGTPASPMLEGKDGKI  130
+             LD  D         +     +  DTTA +    + G  ++ L S    S  L+ +    
+Sbjct  72   ELDNGD---ALVGFTIDGKYALGSDTTAHIRTGTLLGERVLALDS--EGSGTLDPQQVIP  126
+
+Query  131  PVIVATPSPLTQLLSNGEDLMGNINQLIARFSNLLSEENTARISRTLDHLDQATGALSAE  190
+                ++P  LT  +S   DL  N             + +T  ++++LD L Q    ++ +
+Sbjct  127  TTRTSSPYSLTDAVS---DLTSNTR-----------DTDTEALNQSLDTLSQTLDQIAPQ  172
+
+Query  191  RENVSAVMQQLAQASRQANAALAQASELMRSA---NGLLNEQGK---GMLENANKTMASL  244
+                   + +L+Q+    N +LA   EL+R+A    G+ +E+ K    ++ N+N  +A L
+Sbjct  173  LGPTFDGLSRLSQSLNSRNDSLA---ELLRTAGEVTGIFSERSKQVNTLILNSNDLLAVL  229
+
+Query  245  ERTSATLDQLISENRHSLDGGIQGL-----AELGPAVSELRDTLAALRGISRRLEENPAN  299
+                  +  L+S N  ++   + GL     AEL PA+  L +       ++R LE+N  N
+Sbjct  230  NERRYAITSLLS-NISAVSQQLSGLVADNEAELAPALERLNN-------VTRMLEKNRDN  281
+
+
+>VFG010240(gb|WP_170924195) (mce4C) virulence factor Mce family 
+protein [Mce4 (VF0827) - Immune modulation (VFC0258)] [Mycobacterium 
+avium subsp. paratuberculosis K-10]
+Length=362
+
+ Score = 49.7 bits (117),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 75/277 (27%), Positives = 114/277 (41%), Gaps = 76/277 (27%)
+
+Query  40   YDIVFNEAVSGLSQGSSVQYSGIKVGDVAFLRLDPKDPRKVWARIRVVASAPIKQDTTAK  99
+            YD  F +A  G++ G++V  SG+KVG V  + L     +  ++  R VA   +   + A 
+Sbjct  52   YDAYFTDA-GGINPGNAVYVSGLKVGKVTDVGLAGDSAKISFSVDRHVA---VGDQSLAA  107
+
+Query  100  LALTGITGTSIIQLSSGTPASPMLEGKDGKIPVI-VATPSPLTQLLSNGEDLMGN-----  153
+            +    I G   I +   TPA     GK   IP+    TP  L   L   EDL  N     
+Sbjct  108  IRTDTILGERSIAV---TPAG---GGKATTIPLSRTTTPYTLAGAL---EDLGSNASNLN  158
+
+Query  154  ---INQLIARFSNLLSE---------ENTARISRTLDHLDQATGALSAERENVSAVMQQL  201
+                 Q +   ++ L +         +    +SRTLD  D+A  +L A  ++V+ V+ Q 
+Sbjct  159  KPQFEQALHVLTDTLHDATPELRGALDGVTSLSRTLDRRDEALQSLLAHAKSVTGVLSQR  218
+
+Query  202  AQASRQANAALAQASELMRSANGLLNEQGKGMLENANKTMASLERTSATLDQLISENRHS  261
+            A                         EQ   ++++ N+  A+L+   A L +LIS     
+Sbjct  219  A-------------------------EQVNKLVDDGNELFAALDERRAALGRLIS-----  248
+
+Query  262  LDGGIQGLA------------ELGPAVSELRDTLAAL  286
+               GIQGL+            E GPA+++L D LA L
+Sbjct  249  ---GIQGLSAQISGFVADNRKEFGPALNKLNDVLANL  282
+
+
+>VFG010342(gb|WP_011730088) (mce7B) MCE family protein [Mce7 (VF0830) 
+- Others (VFC0346)] [Mycobacterium smegmatis str. MC2 
+155]
+Length=341
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 78/318 (25%), Positives = 141/318 (44%), Gaps = 47/318 (15%)
+
+Query  4    RAHHVLI--GLFSVIV-IGAALLFGLWLAKSGSEGKFNYYDIVFNEAVSGLSQGSSVQYS  60
+            RA   L+  G+F+V++ +  A LF  +    G  G +  Y  VF++A S L  G SV+ +
+Sbjct  3    RASSTLVKFGVFAVVMAVLTAFLFMTFSEYRG--GSYAGYSAVFDDA-SRLESGDSVRVA  59
+
+Query  61   GIKVGDVAFLRLDPKDPRKVWARIRVVASAPIKQDTTAKLALTGITGTSIIQLSSGTPAS  120
+            G++VG V  + L P   R V        +  +   T A +    + G   ++L   +P S
+Sbjct  60   GVRVGTVKNVSLQPD--RTVLVDFDTERNIALTTGTKAAVRYLNLVGDRYLELID-SPGS  116
+
+Query  121  PMLEGKDGKIP-----------VIVATPSPLTQLLSNGEDLMGNINQLIARF-------S  162
+              L     +IP           +++    P+ Q L + +D+    + LI  F       S
+Sbjct  117  TRLLPAGSQIPKERTASALDLDLLLGGLKPVIQGL-DPQDVNALTSSLIQIFQGQGDTLS  175
+
+Query  163  NLLSEENTARISRTLDHLDQATGALSAERENVSAVMQQLAQASRQANAALAQASELMRSA  222
+            +L+S+  T+  S TL   DQ  G L    EN+  V+  L +   + +A + +  +L+   
+Sbjct  176  SLMSK--TSSFSNTLADNDQVIGQLI---ENLDTVVDTLNRDGGKFSATVDRLEQLI---  227
+
+Query  223  NGLLNEQGKGMLENANKTMASLERTSATLDQLISENRHSLDGGIQGLAELGPAVSELRDT  282
+            +GL  ++     +     +  L+  +A++  L+++ R  LD  +  L  + P + + +  
+Sbjct  228  SGLSQDR-----DPIGTAVTQLDNGTASIATLLTQARPPLDATVDQLNRMAPLLDDHKVV  282
+
+Query  283  LAALRGISRRLEENPANY  300
+            L       R L++ PANY
+Sbjct  283  L------DRGLQKAPANY  294
+
+
+>VFG010395(gb|WP_011557703) (mce8B) MCE family protein [Mce8 (VF0831) 
+- Others (VFC0346)] [Mycobacterium sp. JLS]
+Length=341
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 82/327 (25%), Positives = 145/327 (44%), Gaps = 75/327 (23%)
+
+Query  8    VLIGLFSVIVI--GAAL--LFGLWLAKSGSEGKFNYYDIVFNEAVSGLSQGSSVQYSGIK  63
+            V  G+F+V+++   AAL  +FG + A S +E     Y  VF +A S +  G SV+ +GI+
+Sbjct  9    VKFGVFAVVMVLFTAALVAIFGQYRAGSANE-----YSAVFGDA-SSVKSGDSVRIAGIR  62
+
+Query  64   VGDVAFLRLDPKDPRKV--WARIRVVASAPIKQDTTAKLALTGITGTSIIQLSSGTPASP  121
+            VG V  + L P +   V   AR  VV    +   T   +    + G   ++L  G P + 
+Sbjct  63   VGTVNGVSLQPDNTVVVDFDARTDVV----LTTGTRVAVRYLNLVGDRYLELVDG-PGAT  117
+
+Query  122  MLEGKDGKIPVIVATPS-----------PLTQLLSNGEDL--------------MGNINQ  156
+             ++    +IP     P+           P+ + L N ED+               G+I  
+Sbjct  118  QIQPAGSRIPKDRTEPALDLDLLLGGLKPVIRGL-NPEDVNALTHSLIQILQGQSGDIES  176
+
+Query  157  LIAR---FSNLLSEENTARISRTLDHLDQATGALSAERENVSAVMQQLAQASRQANAALA  213
+            L AR   F+N ++  N   + + +DHL+               V++ +++   + + A+A
+Sbjct  177  LFARTSSFTNSIA-ANGETVRQMIDHLN--------------TVVETMSRDGDKFSGAVA  221
+
+Query  214  QASELMRSANGLLNEQGKGMLENANKTMASLERTSATLDQLISENRHSLDGGIQGLAELG  273
+            +  EL+    GL  ++     +     + SL++ +A+L  L++E R  L G I  L  + 
+Sbjct  222  RLEELV---TGLAQDR-----DPIGAAIESLDKGTASLADLMTEARPPLAGSIDQLNRVA  273
+
+Query  274  PAVSELRDTLAALRGISRRLEENPANY  300
+            P + + ++ L     IS  L++ P NY
+Sbjct  274  PLLEKDKELL----DIS--LQKAPGNY  294
+
+
+>VFG010130(gb|WP_011781754) (mce3C) MCE family protein [Mce3 (VF0826) 
+- Immune modulation (VFC0258)] [Mycobacterium vanbaalenii 
+PYR-1]
+Length=450
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 86/317 (27%), Positives = 130/317 (41%), Gaps = 77/317 (24%)
+
+Query  13   FSVIVIGAALLFGLWLAKSGSEGKFNY----------YDIVFNEAVSGLSQGSSVQYSGI  62
+            F V ++G AL  G+ L         NY          Y   F EA  GL  G  VQ SG 
+Sbjct  10   FVVGIVGLALTIGIVLVS------LNYDRLPFLQGKEYKAYFAEA-GGLKTGEDVQVSGF  62
+
+Query  63   KVGDVAFLRLDPKDPRKVWARIRVVASAPIK--QDTTAKLALTGITGTSIIQLSSGTPAS  120
+             VGDV  + LD        A +    +  I+  + T A +   G+ GT +++++S     
+Sbjct  63   TVGDVKSIELD-----GSLALVTFTVARDIRLGERTEAAIKTRGLLGTKMLEITSRG---  114
+
+Query  121  PMLEGK-DGKIPVIVAT-PSPLTQLLS---------NGEDLMGNINQLIARFSNL-----  164
+               EG+ DG IP+   T P  L   L          N + L  ++  L A F++      
+Sbjct  115  ---EGQLDGPIPLERTTSPYQLPDALGDLAMTISGLNTDQLSESLRVLSATFADTPPQLR  171
+
+Query  165  LSEENTARISRTLDHLDQATGALSAERENVSAVMQQLAQASRQANAALAQASELMRSANG  224
+            ++ E  AR S TL+  D              A ++ L   + +A   LA+ S  + S   
+Sbjct  172  VAVEGVARFSETLNERD--------------AELRSLLGNADKATTVLAERSNQVVS---  214
+
+Query  225  LLNEQGKGMLENANKTMASLERTSATLDQLISENRHSLDGGIQG-LAE----LGPAVSEL  279
+                    ++ N+N  +  LE  SA LDQ IS N  +L   + G +AE    L PA+ +L
+Sbjct  215  --------LIANSNALLIELENQSAALDQ-ISGNISALSDQLVGFIAENRETLKPALDKL  265
+
+Query  280  RDTLAALRGISRRLEEN  296
+               L  +     RL+++
+Sbjct  266  NGVLTIIDNRKERLQKS  282
+
+
+>VFG027873(gb|WP_007168630) (mce7B) MCE family protein [Mce7 (VF0830) 
+- Others (VFC0346)] [Mycobacterium yongonense 05-1390]
+Length=350
+
+ Score = 48.1 bits (113),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 74/312 (24%), Positives = 126/312 (40%), Gaps = 35/312 (11%)
+
+Query  3    TRAHHVLIGLFSVIVIGAALLFGLWLAKSGSEGKFNYYDIVFNEAVSGLSQGSSVQYSGI  62
+            +RA  V  G F+ ++I    +F  ++      G  N Y  +F +A S L  G +V+ +GI
+Sbjct  4    SRAMIVKFGAFAAVMI-LLTVFLFFIFGQYRTGSTNGYSALFTDA-SRLKPGETVRVAGI  61
+
+Query  63   KVGDVAFLRLDPKDPRKVWARIRVVASAPIKQDTTAKLALTGITGTSIIQLSSGTPASPM  122
+            +VG V  + L  +  +KV  +     +  +   T A +    + G   ++L  G  ++ +
+Sbjct  62   RVGTVNSVAL--RSDKKVLVKFDTDRNVVLTTGTRAVVRYLNLVGDRYLELVDGPGSTKV  119
+
+Query  123  LEGKDGKIPVIVATPS-----------PLTQLLSNGEDLMGNINQLIARFSNLLSEENTA  171
+            L+    +IP+    P+           P+   L N  D    +N+L      +   E   
+Sbjct  120  LQAG-AEIPIDRTAPALDLDLLLGGLKPVITGL-NPHD----VNELTTALVQIFQGEGG-  172
+
+Query  172  RISRTLDHLDQATGALSAERENVSAVMQQLAQASRQANAALAQASELMRSANGLLNEQGK  231
+                TL  L   T + S    + +  +QQL    +     LA   +    A   L     
+Sbjct  173  ----TLQSLLSETSSFSNTLADNNQTVQQLIDNLKTVVGTLADDGDKFSGALDRLQRLIS  228
+
+Query  232  GMLENANKTMA---SLERTSATLDQLISENRHSLDGGIQGLAELGPAVSELRDTLAALRG  288
+            G  ++ N   A   SL++ +A+L  L+S  R  L G +  L  L P + + +D       
+Sbjct  229  GFSQDRNTIGAAIDSLDKGTASLADLLSNARRPLAGTVDQLNRLAPLLDQDKDR------  282
+
+Query  289  ISRRLEENPANY  300
+            I   L+  PANY
+Sbjct  283  IDVALQRAPANY  294
+
+
+>VFG010352(gb|WP_011893390) (mce7C) MCE family protein [Mce7 (VF0830) 
+- Others (VFC0346)] [Mycobacterium gilvum PYR-GCK]
+Length=367
+
+ Score = 47.8 bits (112),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 70/271 (26%), Positives = 121/271 (45%), Gaps = 42/271 (15%)
+
+Query  40   YDIVFNEAVSGLSQGSSVQYSGIKVGDVAFLRLDPKDPRKVWARIRVVASAPIKQDTTAK  99
+            Y  +F EA  GL+ G+ V  SGIKVG V+ ++LD  D         +     +  DTTA 
+Sbjct  42   YQALFTEA-GGLTVGNDVTVSGIKVGSVSSIKLDNGD---ALVGFTIDGKYALGSDTTAH  97
+
+Query  100  LALTGITGTSIIQLSSGTPASPMLEGKDGKIPVIVATPSPLTQLLSNGEDLMGNINQLIA  159
+            +    + G  ++ L S    S  L+ +        ++P  LT  +S   +L  N      
+Sbjct  98   IRTGTLLGERVLALDS--EGSGTLDPQQVIPTTRTSSPYSLTDAVS---ELTSNTR----  148
+
+Query  160  RFSNLLSEENTARISRTLDHLDQATGALSAERENVSAVMQQLAQASRQANAALAQASELM  219
+                   + +T  ++++LD L Q    ++ +       + +L+Q+    N +LA   EL+
+Sbjct  149  -------DTDTEALNQSLDTLSQTLDQIAPQLGPTFDGLSRLSQSLNSRNDSLA---ELL  198
+
+Query  220  RSA---NGLLNEQGK---GMLENANKTMASLERTSATLDQLISENRHSLDGGIQGL----  269
+            R+A    G+ +E+ K    ++ N+N  +A L      +  L+S N  ++   + GL    
+Sbjct  199  RTAGEVTGIFSERSKQVNTLILNSNDLLAVLNERRYAITSLLS-NISAVSQQLSGLVADN  257
+
+Query  270  -AELGPAVSELRDTLAALRGISRRLEENPAN  299
+             AEL PA+  L +       ++R LE+N  N
+Sbjct  258  EAELAPALERLNN-------VTRMLEKNRDN  281
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.130    0.351    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2226038796
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

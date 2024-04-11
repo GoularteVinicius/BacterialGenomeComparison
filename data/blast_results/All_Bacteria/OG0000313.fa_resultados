@@ -1,0 +1,642 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g309.t1
+
+Length=252
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045297(gb|WP_011213307) (wbuZ) glycosyl amidation-associated p...  233     4e-77
+VFG014128(gb|WP_012075033) (hisF) AglZ/HisF2 family acetamidino m...  163     1e-49
+VFG014107(gb|NP_251841) (hisF2) imidazole glycerol phosphate synt...  155     2e-46
+
+
+>VFG045297(gb|WP_011213307) (wbuZ) glycosyl amidation-associated 
+protein WbuZ [LPS (VF0171) - Immune modulation (VFC0258)] 
+[Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+Length=253
+
+ Score = 233 bits (595),  Expect = 4e-77, Method: Compositional matrix adjust.
+ Identities = 104/248 (42%), Positives = 169/248 (68%), Gaps = 0/248 (0%)
+
+Query  5    RIIPCLDVDNGRVVKGVQFLDIRDAGDPVEVARRYNEQGADEITFLDITATHHGRDTTYR  64
+            R+I  LD+    ++KGV    +R  G+P E A  Y  QGADE+ ++D  A+ +GR+    
+Sbjct  5    RLIARLDIKGPNLIKGVHLEGLRVVGNPNEYAMAYYAQGADELIYMDTVASLYGRNNLSE  64
+
+Query  65   TVERMAETVFVPLTVGGGVRKVEDIRALLNAGADKVSINSAAVFNPEFVQEASQHFGAQC  124
+             V+  AE VF+P+TVGGG+R V+D + LL  GADKV+IN+AA  NP  + + ++ FG+QC
+Sbjct  65   IVKTTAENVFIPITVGGGIRSVDDAKQLLRCGADKVAINTAATKNPTLISDIARRFGSQC  124
+
+Query  125  IVVAIDAKKTGDNKWEIFTHGGRKPTGIDAIEWAVKMADYGAGELLITSMDADGTKAGYD  184
+            +V++I+AK+T + +WE+ T  GR+ TG+D ++WA    ++GAGE+L+TS+D +GT+ G+D
+Sbjct  125  VVLSIEAKRTVNGRWEVMTDNGREHTGMDVVDWARNGEEFGAGEILLTSIDQEGTRKGFD  184
+
+Query  185  IALMRAINDRVTIPTIASGGVGNLQHLADGILQGGADAVLAASIFHFGQYTIPEAKQYLA  244
+            + L++ ++  V+IP IASGG+G L+ L + + +  ADAV  A + H+ +  +PE ++Y  
+Sbjct  185  LELVKQVSSMVSIPVIASGGMGKLEDLTEVVCESKADAVAMADVLHYKRIGLPEIRKYAL  244
+
+Query  245  EQGIEMRL  252
+            + GI +R+
+Sbjct  245  DNGIHVRV  252
+
+
+>VFG014128(gb|WP_012075033) (hisF) AglZ/HisF2 family acetamidino 
+modification protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PA7]
+Length=260
+
+ Score = 163 bits (413),  Expect = 1e-49, Method: Compositional matrix adjust.
+ Identities = 90/236 (38%), Positives = 139/236 (59%), Gaps = 2/236 (1%)
+
+Query  1    MLAKRIIPCLDVDNGRVVKGVQFLDIRDAGDPVEVARRYNEQGADEITFLDITATHHGRD  60
+            ML  RIIPCL + +G +VK V+F D R  GDP+   + +NE+ ADE+  LDI AT  GR+
+Sbjct  1    MLKPRIIPCLLMQDGGLVKTVRFKDPRYIGDPINAVKIFNEKEADELIILDIDATSQGRE  60
+
+Query  61   TTYRTVERMAETVFVPLTVGGGVRKVEDIRALLNAGADKVSINSAAVFNPEFVQEASQHF  120
+              Y+ +  +A    +PL  GGG+RK E  R +++ G +KV+I++AA+ +   + E ++  
+Sbjct  61   PDYKKIANLAAECRMPLCYGGGIRKPEQARLIISLGVEKVAISAAAIEDVNLISEVAEEI  120
+
+Query  121  GAQCIVVAIDAKKTGDNKW-EIFTHGGRKPTGIDAIEWAVKMADYGAGELLITSMDADGT  179
+            G Q +VV +D K+   +K  +++TH G   T  + I+ A +M D GAGE+++ S+D DG 
+Sbjct  121  GRQSVVVVLDHKQRLLSKQHDVWTHNGTHNTKRNVIDVAKQMEDAGAGEIVLNSIDNDGR  180
+
+Query  180  KAGYDIALMRAINDRVTIPTIASGGVGNLQHLADGILQGGADAVLAASIFHF-GQY  234
+              GY+IAL   + + V +P    GG G+L+ +   I   G     A S+F F G Y
+Sbjct  181  MCGYEIALAVRLREAVNVPVTILGGAGSLKDMGSLIAACGVVGAAAGSLFVFKGSY  236
+
+
+>VFG014107(gb|NP_251841) (hisF2) imidazole glycerol phosphate 
+synthase subunit HisF [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PAO1]
+Length=251
+
+ Score = 155 bits (391),  Expect = 2e-46, Method: Compositional matrix adjust.
+ Identities = 77/231 (33%), Positives = 130/231 (56%), Gaps = 0/231 (0%)
+
+Query  1    MLAKRIIPCLDVDNGRVVKGVQFLDIRDAGDPVEVARRYNEQGADEITFLDITATHHGRD  60
+            M+ +R+IPCL + +  +VK V+F + +  GDP+   R +NE+  DE+  LDI A+   ++
+Sbjct  1    MVRRRVIPCLLLKDRGLVKTVKFKEPKYVGDPINAIRIFNEKEVDELILLDIDASRLNQE  60
+
+Query  61   TTYRTVERMAETVFVPLTVGGGVRKVEDIRALLNAGADKVSINSAAVFNPEFVQEASQHF  120
+              Y  +  +A   F+P+  GGG++ +E    + + G +KVSIN+AA+ +   ++  +  F
+Sbjct  61   PNYELIAEVAGECFMPICYGGGIKTLEHAEKIFSLGVEKVSINTAALMDLSLIRRIADKF  120
+
+Query  121  GAQCIVVAIDAKKTGDNKWEIFTHGGRKPTGIDAIEWAVKMADYGAGELLITSMDADGTK  180
+            G+Q +V +ID +K       +F+  G +      +EWA  + + G GE+ + S+D DG +
+Sbjct  121  GSQSVVGSIDCRKGFWGGHSVFSENGTRDMKRSPLEWAQALEEAGVGEIFLNSIDRDGVQ  180
+
+Query  181  AGYDIALMRAINDRVTIPTIASGGVGNLQHLADGILQGGADAVLAASIFHF  231
+             G+D AL+  I   V +P IA GG G++  L D   +    AV A S+F F
+Sbjct  181  KGFDNALVENIASNVHVPVIACGGAGSIADLIDLFERTCVSAVAAGSLFVF  231
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1625646638
+
+
+Query= g988.t1
+
+Length=261
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045297(gb|WP_011213307) (wbuZ) glycosyl amidation-associated p...  228     6e-75
+VFG014107(gb|NP_251841) (hisF2) imidazole glycerol phosphate synt...  137     1e-39
+VFG014128(gb|WP_012075033) (hisF) AglZ/HisF2 family acetamidino m...  128     9e-36
+
+
+>VFG045297(gb|WP_011213307) (wbuZ) glycosyl amidation-associated 
+protein WbuZ [LPS (VF0171) - Immune modulation (VFC0258)] 
+[Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+Length=253
+
+ Score = 228 bits (581),  Expect = 6e-75, Method: Compositional matrix adjust.
+ Identities = 119/255 (47%), Positives = 166/255 (65%), Gaps = 9/255 (4%)
+
+Query  9    VRVIPCLDVYCGRVVKGVNFKNLRDAGDLVELAAAYDAEGADELAFLDVTASSSGRATML  68
+            VR+I  LD+    ++KGV+ + LR  G+  E A AY A+GADEL ++D  AS  GR  + 
+Sbjct  4    VRLIARLDIKGPNLIKGVHLEGLRVVGNPNEYAMAYYAQGADELIYMDTVASLYGRNNLS  63
+
+Query  69   EVVRCTAEQVFIPLMVGGGVRTVADVDVLLRAGADKVAVNTAAIARPELLADMAGQFGSQ  128
+            E+V+ TAE VFIP+ VGGG+R+V D   LLR GADKVA+NTAA   P L++D+A +FGSQ
+Sbjct  64   EIVKTTAENVFIPITVGGGIRSVDDAKQLLRCGADKVAINTAATKNPTLISDIARRFGSQ  123
+
+Query  129  CIVLSVDARTVPTGSARTPSG-WEATTHGGYRGTGIDAVEWAARGADLGVGEILLNSMDA  187
+            C+VLS++A+       RT +G WE  T  G   TG+D V+WA  G + G GEILL S+D 
+Sbjct  124  CVVLSIEAK-------RTVNGRWEVMTDNGREHTGMDVVDWARNGEEFGAGEILLTSIDQ  176
+
+Query  188  DGTKAGFDLAMLRAVRAAVTVPVIASGGAGAIEHFVPAV-TAGADAVLAASVFHFRELTI  246
+            +GT+ GFDL +++ V + V++PVIASGG G +E     V  + ADAV  A V H++ + +
+Sbjct  177  EGTRKGFDLELVKQVSSMVSIPVIASGGMGKLEDLTEVVCESKADAVAMADVLHYKRIGL  236
+
+Query  247  GQVKDAMAAAGIAVR  261
+             +++      GI VR
+Sbjct  237  PEIRKYALDNGIHVR  251
+
+
+>VFG014107(gb|NP_251841) (hisF2) imidazole glycerol phosphate 
+synthase subunit HisF [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PAO1]
+Length=251
+
+ Score = 137 bits (346),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 84/234 (36%), Positives = 124/234 (53%), Gaps = 7/234 (3%)
+
+Query  10   RVIPCLDVYCGRVVKGVNFKNLRDAGDLVELAAAYDAEGADELAFLDVTASSSGRATMLE  69
+            RVIPCL +    +VK V FK  +  GD +     ++ +  DEL  LD+ AS   +    E
+Sbjct  5    RVIPCLLLKDRGLVKTVKFKEPKYVGDPINAIRIFNEKEVDELILLDIDASRLNQEPNYE  64
+
+Query  70   VVRCTAEQVFIPLMVGGGVRTVADVDVLLRAGADKVAVNTAAIARPELLADMAGQFGSQC  129
+            ++   A + F+P+  GGG++T+   + +   G +KV++NTAA+    L+  +A +FGSQ 
+Sbjct  65   LIAEVAGECFMPICYGGGIKTLEHAEKIFSLGVEKVSINTAALMDLSLIRRIADKFGSQS  124
+
+Query  130  IVLSVDARTVPTGSARTPSGWEATTHGGYRGTGIDAVEWAARGADLGVGEILLNSMDADG  189
+            +V S+D R    G      G    +  G R      +EWA    + GVGEI LNS+D DG
+Sbjct  125  VVGSIDCRKGFWG------GHSVFSENGTRDMKRSPLEWAQALEEAGVGEIFLNSIDRDG  178
+
+Query  190  TKAGFDLAMLRAVRAAVTVPVIASGGAGAIEHFVPAVT-AGADAVLAASVFHFR  242
+             + GFD A++  + + V VPVIA GGAG+I   +         AV A S+F F 
+Sbjct  179  VQKGFDNALVENIASNVHVPVIACGGAGSIADLIDLFERTCVSAVAAGSLFVFH  232
+
+
+>VFG014128(gb|WP_012075033) (hisF) AglZ/HisF2 family acetamidino 
+modification protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PA7]
+Length=260
+
+ Score = 128 bits (321),  Expect = 9e-36, Method: Compositional matrix adjust.
+ Identities = 74/214 (35%), Positives = 120/214 (56%), Gaps = 5/214 (2%)
+
+Query  7    LAVRVIPCLDVYCGRVVKGVNFKNLRDAGDLVELAAAYDAEGADELAFLDVTASSSGRAT  66
+            L  R+IPCL +  G +VK V FK+ R  GD +     ++ + ADEL  LD+ A+S GR  
+Sbjct  2    LKPRIIPCLLMQDGGLVKTVRFKDPRYIGDPINAVKIFNEKEADELIILDIDATSQGREP  61
+
+Query  67   MLEVVRCTAEQVFIPLMVGGGVRTVADVDVLLRAGADKVAVNTAAIARPELLADMAGQFG  126
+              + +   A +  +PL  GGG+R      +++  G +KVA++ AAI    L++++A + G
+Sbjct  62   DYKKIANLAAECRMPLCYGGGIRKPEQARLIISLGVEKVAISAAAIEDVNLISEVAEEIG  121
+
+Query  127  SQCIVLSVDARTVPTGSARTPSGWEATTHGGYRGTGIDAVEWAARGADLGVGEILLNSMD  186
+             Q +V+ +D +      ++    W   TH G   T  + ++ A +  D G GEI+LNS+D
+Sbjct  122  RQSVVVVLDHKQ--RLLSKQHDVW---THNGTHNTKRNVIDVAKQMEDAGAGEIVLNSID  176
+
+Query  187  ADGTKAGFDLAMLRAVRAAVTVPVIASGGAGAIE  220
+             DG   G+++A+   +R AV VPV   GGAG+++
+Sbjct  177  NDGRMCGYEIALAVRLREAVNVPVTILGGAGSLK  210
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1720651961
+
+
+Query= g1589.t1
+
+Length=267
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045297(gb|WP_011213307) (wbuZ) glycosyl amidation-associated p...  243     6e-81
+VFG014107(gb|NP_251841) (hisF2) imidazole glycerol phosphate synt...  147     2e-43
+VFG014128(gb|WP_012075033) (hisF) AglZ/HisF2 family acetamidino m...  138     1e-39
+
+
+>VFG045297(gb|WP_011213307) (wbuZ) glycosyl amidation-associated 
+protein WbuZ [LPS (VF0171) - Immune modulation (VFC0258)] 
+[Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+Length=253
+
+ Score = 243 bits (621),  Expect = 6e-81, Method: Compositional matrix adjust.
+ Identities = 124/254 (49%), Positives = 166/254 (65%), Gaps = 7/254 (3%)
+
+Query  15   VRVIPCLDVDDGRVVKGVNFENLRDAGDPVELAAVYDAEGADELTFLDVTASSSGRATML  74
+            VR+I  LD+    ++KGV+ E LR  G+P E A  Y A+GADEL ++D  AS  GR  + 
+Sbjct  4    VRLIARLDIKGPNLIKGVHLEGLRVVGNPNEYAMAYYAQGADELIYMDTVASLYGRNNLS  63
+
+Query  75   EVVRRTAEQVFIPLTVGGGVRTVADVDSLLRAGADKVAVNTAAIACPDLLADMARQFGSQ  134
+            E+V+ TAE VFIP+TVGGG+R+V D   LLR GADKVA+NTAA   P L++D+AR+FGSQ
+Sbjct  64   EIVKTTAENVFIPITVGGGIRSVDDAKQLLRCGADKVAINTAATKNPTLISDIARRFGSQ  123
+
+Query  135  CIVLSVDARTVPVGSAPTPSGWEVTTHGGRRGTGMDAVQWAARGADLGVGEILLNSMDAD  194
+            C+VLS++A+    G       WEV T  GR  TGMD V WA  G + G GEILL S+D +
+Sbjct  124  CVVLSIEAKRTVNGR------WEVMTDNGREHTGMDVVDWARNGEEFGAGEILLTSIDQE  177
+
+Query  195  GTKAGFDLALLRAVRAAVTVPVIASGGAGAVEHFAPAVA-AGADAVLAASVFHFRELTIG  253
+            GT+ GFDL L++ V + V++PVIASGG G +E     V  + ADAV  A V H++ + + 
+Sbjct  178  GTRKGFDLELVKQVSSMVSIPVIASGGMGKLEDLTEVVCESKADAVAMADVLHYKRIGLP  237
+
+Query  254  QVKAALAAEGITVR  267
+            +++      GI VR
+Sbjct  238  EIRKYALDNGIHVR  251
+
+
+>VFG014107(gb|NP_251841) (hisF2) imidazole glycerol phosphate 
+synthase subunit HisF [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PAO1]
+Length=251
+
+ Score = 147 bits (372),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 85/234 (36%), Positives = 127/234 (54%), Gaps = 7/234 (3%)
+
+Query  16   RVIPCLDVDDGRVVKGVNFENLRDAGDPVELAAVYDAEGADELTFLDVTASSSGRATMLE  75
+            RVIPCL + D  +VK V F+  +  GDP+    +++ +  DEL  LD+ AS   +    E
+Sbjct  5    RVIPCLLLKDRGLVKTVKFKEPKYVGDPINAIRIFNEKEVDELILLDIDASRLNQEPNYE  64
+
+Query  76   VVRRTAEQVFIPLTVGGGVRTVADVDSLLRAGADKVAVNTAAIACPDLLADMARQFGSQC  135
+            ++   A + F+P+  GGG++T+   + +   G +KV++NTAA+    L+  +A +FGSQ 
+Sbjct  65   LIAEVAGECFMPICYGGGIKTLEHAEKIFSLGVEKVSINTAALMDLSLIRRIADKFGSQS  124
+
+Query  136  IVLSVDARTVPVGSAPTPSGWEVTTHGGRRGTGMDAVQWAARGADLGVGEILLNSMDADG  195
+            +V S+D R    G      G  V +  G R      ++WA    + GVGEI LNS+D DG
+Sbjct  125  VVGSIDCRKGFWG------GHSVFSENGTRDMKRSPLEWAQALEEAGVGEIFLNSIDRDG  178
+
+Query  196  TKAGFDLALLRAVRAAVTVPVIASGGAGAVEHFAPAVA-AGADAVLAASVFHFR  248
+             + GFD AL+  + + V VPVIA GGAG++             AV A S+F F 
+Sbjct  179  VQKGFDNALVENIASNVHVPVIACGGAGSIADLIDLFERTCVSAVAAGSLFVFH  232
+
+
+>VFG014128(gb|WP_012075033) (hisF) AglZ/HisF2 family acetamidino 
+modification protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PA7]
+Length=260
+
+ Score = 138 bits (348),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 76/214 (36%), Positives = 122/214 (57%), Gaps = 5/214 (2%)
+
+Query  13   LAVRVIPCLDVDDGRVVKGVNFENLRDAGDPVELAAVYDAEGADELTFLDVTASSSGRAT  72
+            L  R+IPCL + DG +VK V F++ R  GDP+    +++ + ADEL  LD+ A+S GR  
+Sbjct  2    LKPRIIPCLLMQDGGLVKTVRFKDPRYIGDPINAVKIFNEKEADELIILDIDATSQGREP  61
+
+Query  73   MLEVVRRTAEQVFIPLTVGGGVRTVADVDSLLRAGADKVAVNTAAIACPDLLADMARQFG  132
+              + +   A +  +PL  GGG+R       ++  G +KVA++ AAI   +L++++A + G
+Sbjct  62   DYKKIANLAAECRMPLCYGGGIRKPEQARLIISLGVEKVAISAAAIEDVNLISEVAEEIG  121
+
+Query  133  SQCIVLSVDARTVPVGSAPTPSGWEVTTHGGRRGTGMDAVQWAARGADLGVGEILLNSMD  192
+             Q +V+ +D +   +         +V TH G   T  + +  A +  D G GEI+LNS+D
+Sbjct  122  RQSVVVVLDHKQRLLSKQ-----HDVWTHNGTHNTKRNVIDVAKQMEDAGAGEIVLNSID  176
+
+Query  193  ADGTKAGFDLALLRAVRAAVTVPVIASGGAGAVE  226
+             DG   G+++AL   +R AV VPV   GGAG+++
+Sbjct  177  NDGRMCGYEIALAVRLREAVNVPVTILGGAGSLK  210
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1783988843
+
+
+Query= g3212.t1
+
+Length=234
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG014107(gb|NP_251841) (hisF2) imidazole glycerol phosphate synt...  475     6e-173
+VFG014128(gb|WP_012075033) (hisF) AglZ/HisF2 family acetamidino m...  230     5e-76 
+VFG045297(gb|WP_011213307) (wbuZ) glycosyl amidation-associated p...  143     4e-42 
+
+
+>VFG014107(gb|NP_251841) (hisF2) imidazole glycerol phosphate 
+synthase subunit HisF [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PAO1]
+Length=251
+
+ Score = 475 bits (1222),  Expect = 6e-173, Method: Compositional matrix adjust.
+ Identities = 233/234 (99%), Positives = 234/234 (100%), Gaps = 0/234 (0%)
+
+Query  1    MKTVKFKEPKYVGDPINAIRIFNEKEVDELILLDIDASRLNQEPNYELIAEVAGECFMPI  60
+            +KTVKFKEPKYVGDPINAIRIFNEKEVDELILLDIDASRLNQEPNYELIAEVAGECFMPI
+Sbjct  18   VKTVKFKEPKYVGDPINAIRIFNEKEVDELILLDIDASRLNQEPNYELIAEVAGECFMPI  77
+
+Query  61   CYGGGIKTLEHAEKIFSLGVEKVSINTAALMDLSLIRRIADKFGSQSVVGSIDCRKGFWG  120
+            CYGGGIKTLEHAEKIFSLGVEKVSINTAALMDLSLIRRIADKFGSQSVVGSIDCRKGFWG
+Sbjct  78   CYGGGIKTLEHAEKIFSLGVEKVSINTAALMDLSLIRRIADKFGSQSVVGSIDCRKGFWG  137
+
+Query  121  GHSVFSENGTRDMKRSPLEWAQALEEAGVGEIFLNSIDRDGVQKGFDNALVENIASNVHV  180
+            GHSVFSENGTRDMKRSPLEWAQALEEAGVGEIFLNSIDRDGVQKGFDNALVENIASNVHV
+Sbjct  138  GHSVFSENGTRDMKRSPLEWAQALEEAGVGEIFLNSIDRDGVQKGFDNALVENIASNVHV  197
+
+Query  181  PVIACGGAGSIADLIDLFERTCVSAVAAGSLFVFHGKHRAVLISYPDVNKLDVG  234
+            PVIACGGAGSIADLIDLFERTCVSAVAAGSLFVFHGKHRAVLISYPDVNKLDVG
+Sbjct  198  PVIACGGAGSIADLIDLFERTCVSAVAAGSLFVFHGKHRAVLISYPDVNKLDVG  251
+
+
+>VFG014128(gb|WP_012075033) (hisF) AglZ/HisF2 family acetamidino 
+modification protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PA7]
+Length=260
+
+ Score = 230 bits (586),  Expect = 5e-76, Method: Compositional matrix adjust.
+ Identities = 119/227 (52%), Positives = 162/227 (71%), Gaps = 1/227 (0%)
+
+Query  1    MKTVKFKEPKYVGDPINAIRIFNEKEVDELILLDIDASRLNQEPNYELIAEVAGECFMPI  60
+            +KTV+FK+P+Y+GDPINA++IFNEKE DELI+LDIDA+   +EP+Y+ IA +A EC MP+
+Sbjct  18   VKTVRFKDPRYIGDPINAVKIFNEKEADELIILDIDATSQGREPDYKKIANLAAECRMPL  77
+
+Query  61   CYGGGIKTLEHAEKIFSLGVEKVSINTAALMDLSLIRRIADKFGSQSVVGSIDCRKGFWG  120
+            CYGGGI+  E A  I SLGVEKV+I+ AA+ D++LI  +A++ G QSVV  +D ++    
+Sbjct  78   CYGGGIRKPEQARLIISLGVEKVAISAAAIEDVNLISEVAEEIGRQSVVVVLDHKQRLLS  137
+
+Query  121  G-HSVFSENGTRDMKRSPLEWAQALEEAGVGEIFLNSIDRDGVQKGFDNALVENIASNVH  179
+              H V++ NGT + KR+ ++ A+ +E+AG GEI LNSID DG   G++ AL   +   V+
+Sbjct  138  KQHDVWTHNGTHNTKRNVIDVAKQMEDAGAGEIVLNSIDNDGRMCGYEIALAVRLREAVN  197
+
+Query  180  VPVIACGGAGSIADLIDLFERTCVSAVAAGSLFVFHGKHRAVLISYP  226
+            VPV   GGAGS+ D+  L     V   AAGSLFVF G +RAVLI+YP
+Sbjct  198  VPVTILGGAGSLKDMGSLIAACGVVGAAAGSLFVFKGSYRAVLINYP  244
+
+
+>VFG045297(gb|WP_011213307) (wbuZ) glycosyl amidation-associated 
+protein WbuZ [LPS (VF0171) - Immune modulation (VFC0258)] 
+[Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+Length=253
+
+ Score = 143 bits (361),  Expect = 4e-42, Method: Compositional matrix adjust.
+ Identities = 85/230 (37%), Positives = 129/230 (56%), Gaps = 6/230 (3%)
+
+Query  1    MKTVKFKEPKYVGDPINAIRIFNEKEVDELILLDIDASRLNQEPNYELIAEVAGECFMPI  60
+            +K V  +  + VG+P      +  +  DELI +D  AS   +    E++   A   F+PI
+Sbjct  18   IKGVHLEGLRVVGNPNEYAMAYYAQGADELIYMDTVASLYGRNNLSEIVKTTAENVFIPI  77
+
+Query  61   CYGGGIKTLEHAEKIFSLGVEKVSINTAALMDLSLIRRIADKFGSQSVVGSIDCRKGFWG  120
+              GGGI++++ A+++   G +KV+INTAA  + +LI  IA +FGSQ VV SI+ ++   G
+Sbjct  78   TVGGGIRSVDDAKQLLRCGADKVAINTAATKNPTLISDIARRFGSQCVVLSIEAKRTVNG  137
+
+Query  121  GHSVFSENGTRDMKRSPLEWAQALEEAGVGEIFLNSIDRDGVQKGFDNALVENIASNVHV  180
+               V ++NG        ++WA+  EE G GEI L SID++G +KGFD  LV+ ++S V +
+Sbjct  138  RWEVMTDNGREHTGMDVVDWARNGEEFGAGEILLTSIDQEGTRKGFDLELVKQVSSMVSI  197
+
+Query  181  PVIACGGAGSIADLIDLFERTCVSAVAAGSLFVFHGKHRAVLISYPDVNK  230
+            PVIA GG G + DL ++   +   AVA     V H K     I  P++ K
+Sbjct  198  PVIASGGMGKLEDLTEVVCESKADAVAMAD--VLHYKR----IGLPEIRK  241
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.139    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1450025673
+
+
+Query= g5236.t1
+
+Length=256
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045297(gb|WP_011213307) (wbuZ) glycosyl amidation-associated p...  240     9e-80
+VFG014128(gb|WP_012075033) (hisF) AglZ/HisF2 family acetamidino m...  158     1e-47
+VFG014107(gb|NP_251841) (hisF2) imidazole glycerol phosphate synt...  155     1e-46
+
+
+>VFG045297(gb|WP_011213307) (wbuZ) glycosyl amidation-associated 
+protein WbuZ [LPS (VF0171) - Immune modulation (VFC0258)] 
+[Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+Length=253
+
+ Score = 240 bits (613),  Expect = 9e-80, Method: Compositional matrix adjust.
+ Identities = 121/251 (48%), Positives = 165/251 (66%), Gaps = 4/251 (2%)
+
+Query  6    RIIPCLDVDNGRVVKGVKFENIRDAGDPVEIARRYDEQGADEITFLDITASVDGRDTTLH  65
+            R+I  LD+    ++KGV  E +R  G+P E A  Y  QGADE+ ++D  AS+ GR+    
+Sbjct  5    RLIARLDIKGPNLIKGVHLEGLRVVGNPNEYAMAYYAQGADELIYMDTVASLYGRNNLSE  64
+
+Query  66   TVERMASQVFIPLTVGGGVRSVQDIRNLLNAGADKVSINTAAVFNPEFVGEAADRFGSQC  125
+             V+  A  VFIP+TVGGG+RSV D + LL  GADKV+INTAA  NP  + + A RFGSQC
+Sbjct  65   IVKTTAENVFIPITVGGGIRSVDDAKQLLRCGADKVAINTAATKNPTLISDIARRFGSQC  124
+
+Query  126  IVVAIDAKKVSAPGEAPRWEIFTHGGRKPTGLDAVLWAKKMEDLGAGEILLTSMDQDGVK  185
+            +V++I+AK+ +  G   RWE+ T  GR+ TG+D V WA+  E+ GAGEILLTS+DQ+G +
+Sbjct  125  VVLSIEAKR-TVNG---RWEVMTDNGREHTGMDVVDWARNGEEFGAGEILLTSIDQEGTR  180
+
+Query  186  SGYDLGVTRAISEAVNVPVIASGGVGNLEHLAAGILEGKADAVLAASIFHFGEYTVPEAK  245
+             G+DL + + +S  V++PVIASGG+G LE L   + E KADAV  A + H+    +PE +
+Sbjct  181  KGFDLELVKQVSSMVSIPVIASGGMGKLEDLTEVVCESKADAVAMADVLHYKRIGLPEIR  240
+
+Query  246  AYLASRGIVVR  256
+             Y    GI VR
+Sbjct  241  KYALDNGIHVR  251
+
+
+>VFG014128(gb|WP_012075033) (hisF) AglZ/HisF2 family acetamidino 
+modification protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PA7]
+Length=260
+
+ Score = 158 bits (400),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 88/238 (37%), Positives = 137/238 (58%), Gaps = 4/238 (2%)
+
+Query  3    LAKRIIPCLDVDNGRVVKGVKFENIRDAGDPVEIARRYDEQGADEITFLDITASVDGRDT  62
+            L  RIIPCL + +G +VK V+F++ R  GDP+   + ++E+ ADE+  LDI A+  GR+ 
+Sbjct  2    LKPRIIPCLLMQDGGLVKTVRFKDPRYIGDPINAVKIFNEKEADELIILDIDATSQGREP  61
+
+Query  63   TLHTVERMASQVFIPLTVGGGVRSVQDIRNLLNAGADKVSINTAAVFNPEFVGEAADRFG  122
+                +  +A++  +PL  GGG+R  +  R +++ G +KV+I+ AA+ +   + E A+  G
+Sbjct  62   DYKKIANLAAECRMPLCYGGGIRKPEQARLIISLGVEKVAISAAAIEDVNLISEVAEEIG  121
+
+Query  123  SQCIVVAIDAKKVSAPGEAPRWEIFTHGGRKPTGLDAVLWAKKMEDLGAGEILLTSMDQD  182
+             Q +VV +D K+     +   W   TH G   T  + +  AK+MED GAGEI+L S+D D
+Sbjct  122  RQSVVVVLDHKQRLLSKQHDVW---THNGTHNTKRNVIDVAKQMEDAGAGEIVLNSIDND  178
+
+Query  183  GVKSGYDLGVTRAISEAVNVPVIASGGVGNLEHLAAGILEGKADAVLAASIFHF-GEY  239
+            G   GY++ +   + EAVNVPV   GG G+L+ + + I         A S+F F G Y
+Sbjct  179  GRMCGYEIALAVRLREAVNVPVTILGGAGSLKDMGSLIAACGVVGAAAGSLFVFKGSY  236
+
+
+>VFG014107(gb|NP_251841) (hisF2) imidazole glycerol phosphate 
+synthase subunit HisF [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PAO1]
+Length=251
+
+ Score = 155 bits (392),  Expect = 1e-46, Method: Compositional matrix adjust.
+ Identities = 82/232 (35%), Positives = 134/232 (58%), Gaps = 4/232 (2%)
+
+Query  5    KRIIPCLDVDNGRVVKGVKFENIRDAGDPVEIARRYDEQGADEITFLDITASVDGRDTTL  64
+            +R+IPCL + +  +VK VKF+  +  GDP+   R ++E+  DE+  LDI AS   ++   
+Sbjct  4    RRVIPCLLLKDRGLVKTVKFKEPKYVGDPINAIRIFNEKEVDELILLDIDASRLNQEPNY  63
+
+Query  65   HTVERMASQVFIPLTVGGGVRSVQDIRNLLNAGADKVSINTAAVFNPEFVGEAADRFGSQ  124
+              +  +A + F+P+  GGG+++++    + + G +KVSINTAA+ +   +   AD+FGSQ
+Sbjct  64   ELIAEVAGECFMPICYGGGIKTLEHAEKIFSLGVEKVSINTAALMDLSLIRRIADKFGSQ  123
+
+Query  125  CIVVAIDAKKVSAPGEAPRWEIFTHGGRKPTGLDAVLWAKKMEDLGAGEILLTSMDQDGV  184
+             +V +ID +K    G +    +F+  G +      + WA+ +E+ G GEI L S+D+DGV
+Sbjct  124  SVVGSIDCRKGFWGGHS----VFSENGTRDMKRSPLEWAQALEEAGVGEIFLNSIDRDGV  179
+
+Query  185  KSGYDLGVTRAISEAVNVPVIASGGVGNLEHLAAGILEGKADAVLAASIFHF  236
+            + G+D  +   I+  V+VPVIA GG G++  L          AV A S+F F
+Sbjct  180  QKGFDNALVENIASNVHVPVIACGGAGSIADLIDLFERTCVSAVAAGSLFVF  231
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1667871226
+
+
+Query= g1941.t1
+
+Length=258
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045297(gb|WP_011213307) (wbuZ) glycosyl amidation-associated p...  172     3e-53
+VFG014107(gb|NP_251841) (hisF2) imidazole glycerol phosphate synt...  152     3e-45
+VFG014128(gb|WP_012075033) (hisF) AglZ/HisF2 family acetamidino m...  139     3e-40
+
+
+>VFG045297(gb|WP_011213307) (wbuZ) glycosyl amidation-associated 
+protein WbuZ [LPS (VF0171) - Immune modulation (VFC0258)] 
+[Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+Length=253
+
+ Score = 172 bits (437),  Expect = 3e-53, Method: Compositional matrix adjust.
+ Identities = 93/253 (37%), Positives = 145/253 (57%), Gaps = 5/253 (2%)
+
+Query  5    RIIPCLDVRDGQVVKGVQFRNHEIIGDIVPLAKRYADEGADELVFYDITASSDGRVVDKS  64
+            R+I  LD++   ++KGV      ++G+    A  Y  +GADEL++ D  AS  GR     
+Sbjct  5    RLIARLDIKGPNLIKGVHLEGLRVVGNPNEYAMAYYAQGADELIYMDTVASLYGRNNLSE  64
+
+Query  65   WVARVAEVIDIPFCVAGGIRSIDDAAKILSFGADKISINSPALADPTLITRLADRFGVQC  124
+             V   AE + IP  V GGIRS+DDA ++L  GADK++IN+ A  +PTLI+ +A RFG QC
+Sbjct  65   IVKTTAENVFIPITVGGGIRSVDDAKQLLRCGADKVAINTAATKNPTLISDIARRFGSQC  124
+
+Query  125  IVVGIDTWFDDATGKYHVNQYTGDENRTRVTQWETLDWVQEVQQRGAGEIVLNMMNQDGV  184
+            +V+ I+       G++ V    G E+    T  + +DW +  ++ GAGEI+L  ++Q+G 
+Sbjct  125  VVLSIEAK-RTVNGRWEVMTDNGREH----TGMDVVDWARNGEEFGAGEILLTSIDQEGT  179
+
+Query  185  RNGYDLTQLKKVRDVCRVPLIASGGAGTMEHFLEAFRDADVDGALAASVFHKQIINIGEL  244
+            R G+DL  +K+V  +  +P+IASGG G +E   E   ++  D    A V H + I + E+
+Sbjct  180  RKGFDLELVKQVSSMVSIPVIASGGMGKLEDLTEVVCESKADAVAMADVLHYKRIGLPEI  239
+
+Query  245  KAYLAGQGVEIRI  257
+            + Y    G+ +R+
+Sbjct  240  RKYALDNGIHVRV  252
+
+
+>VFG014107(gb|NP_251841) (hisF2) imidazole glycerol phosphate 
+synthase subunit HisF [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PAO1]
+Length=251
+
+ Score = 152 bits (384),  Expect = 3e-45, Method: Compositional matrix adjust.
+ Identities = 82/234 (35%), Positives = 133/234 (57%), Gaps = 5/234 (2%)
+
+Query  1    MLAKRIIPCLDVRDGQVVKGVQFRNHEIIGDIVPLAKRYADEGADELVFYDITASSDGRV  60
+            M+ +R+IPCL ++D  +VK V+F+  + +GD +   + + ++  DEL+  DI AS   + 
+Sbjct  1    MVRRRVIPCLLLKDRGLVKTVKFKEPKYVGDPINAIRIFNEKEVDELILLDIDASRLNQE  60
+
+Query  61   VDKSWVARVAEVIDIPFCVAGGIRSIDDAAKILSFGADKISINSPALADPTLITRLADRF  120
+             +   +A VA    +P C  GGI++++ A KI S G +K+SIN+ AL D +LI R+AD+F
+Sbjct  61   PNYELIAEVAGECFMPICYGGGIKTLEHAEKIFSLGVEKVSINTAALMDLSLIRRIADKF  120
+
+Query  121  GVQCIVVGIDTWFDDATGKYHVNQYTGDENRTRVTQWETLDWVQEVQQRGAGEIVLNMMN  180
+            G Q +V  I     D    +        EN TR  +   L+W Q +++ G GEI LN ++
+Sbjct  121  GSQSVVGSI-----DCRKGFWGGHSVFSENGTRDMKRSPLEWAQALEEAGVGEIFLNSID  175
+
+Query  181  QDGVRNGYDLTQLKKVRDVCRVPLIASGGAGTMEHFLEAFRDADVDGALAASVF  234
+            +DGV+ G+D   ++ +     VP+IA GGAG++   ++ F    V    A S+F
+Sbjct  176  RDGVQKGFDNALVENIASNVHVPVIACGGAGSIADLIDLFERTCVSAVAAGSLF  229
+
+
+>VFG014128(gb|WP_012075033) (hisF) AglZ/HisF2 family acetamidino 
+modification protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PA7]
+Length=260
+
+ Score = 139 bits (351),  Expect = 3e-40, Method: Compositional matrix adjust.
+ Identities = 77/214 (36%), Positives = 126/214 (59%), Gaps = 4/214 (2%)
+
+Query  1    MLAKRIIPCLDVRDGQVVKGVQFRNHEIIGDIVPLAKRYADEGADELVFYDITASSDGRV  60
+            ML  RIIPCL ++DG +VK V+F++   IGD +   K + ++ ADEL+  DI A+S GR 
+Sbjct  1    MLKPRIIPCLLMQDGGLVKTVRFKDPRYIGDPINAVKIFNEKEADELIILDIDATSQGRE  60
+
+Query  61   VDKSWVARVAEVIDIPFCVAGGIRSIDDAAKILSFGADKISINSPALADPTLITRLADRF  120
+             D   +A +A    +P C  GGIR  + A  I+S G +K++I++ A+ D  LI+ +A+  
+Sbjct  61   PDYKKIANLAAECRMPLCYGGGIRKPEQARLIISLGVEKVAISAAAIEDVNLISEVAEEI  120
+
+Query  121  GVQCIVVGIDTWFDDATGKYHVNQYTGDENRTRVTQWETLDWVQEVQQRGAGEIVLNMMN  180
+            G Q +VV +D      + ++ V  + G  N    T+   +D  ++++  GAGEIVLN ++
+Sbjct  121  GRQSVVVVLDHKQRLLSKQHDVWTHNGTHN----TKRNVIDVAKQMEDAGAGEIVLNSID  176
+
+Query  181  QDGVRNGYDLTQLKKVRDVCRVPLIASGGAGTME  214
+             DG   GY++    ++R+   VP+   GGAG+++
+Sbjct  177  NDGRMCGYEIALAVRLREAVNVPVTILGGAGSLK  210
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1688983520
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

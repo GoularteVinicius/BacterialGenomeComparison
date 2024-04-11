@@ -1,0 +1,203 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1142.t1
+
+Length=644
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5558772558
+
+
+Query= g2026.t1
+
+Length=929
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011221(gb|WP_012415790) (BAV_RS00455) glycosyltransferase fami...  79.3    8e-16
+VFG006027(gb|WP_002916998) (SSA_RS07420) glycosyltransferase fami...  67.4    3e-12
+VFG006079(gb|WP_011681442) (STER_RS07085) glycosyltransferase fam...  66.6    6e-12
+
+
+>VFG011221(gb|WP_012415790) (BAV_RS00455) glycosyltransferase 
+family 2 protein [LPS (VF0033) - Immune modulation (VFC0258)] 
+[Bordetella avium 197N]
+Length=316
+
+ Score = 79.3 bits (194),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 66/230 (29%), Positives = 103/230 (45%), Gaps = 9/230 (4%)
+
+Query  664  SQRVLVIIPTFNERENLPVIHRRLTQACPAVHVLVVDDSSPDGTGQLADELAQADPGRTH  723
+            + R+ V++P +NE   +  +   LT       +++VDD SPD T ++ +   +  P R  
+Sbjct  4    NNRISVVVPAYNEETQISRVI--LTMPDFVDDIVIVDDCSPDKTCEVIESYQREHP-RVV  60
+
+Query  724  VMHRTAKNGLGAAYLAGFAWGLSREYSVLVEMDADGSHAPEQLQRLLDAVDAG-ADLAIG  782
+            ++      G+G A   G+ W       + V M  DG   P  L  LLD V  G AD   G
+Sbjct  61   LLRHKKNQGVGGAIATGYEWARDNGTDIAVVMAGDGQMNPADLPGLLDPVVEGVADYTKG  120
+
+Query  783  SRYVAGGTVRNWPWRRLVLSKTANTYSRLALGI-GIHDITAGYRAYRREALEAIDLDGVD  841
+            +R V+G   R  P  R   +   +  +++A G   + D   GY A  R AL AID   + 
+Sbjct  121  NRLVSGDAFRKIPKIRYFGNAALSLLTKIASGYWKVADSQTGYTAINRAALTAIDWQTM-  179
+
+Query  842  SKGYCFQIDLTWRTVSNGFVVTEVPITFTERELGVSKMSGSNIREALVKV  891
+             K Y    DL  +    GF V +VP+   E    + + SG  +R+ +  +
+Sbjct  180  YKRYGQPNDLLVKLNVFGFRVKDVPV---EPVYNIGEKSGIRVRKVIFTI  226
+
+
+>VFG006027(gb|WP_002916998) (SSA_RS07420) glycosyltransferase 
+family 2 protein [Capsule (VF0144) - Immune modulation (VFC0258)] 
+[Streptococcus sanguinis SK36]
+Length=238
+
+ Score = 67.4 bits (163),  Expect = 3e-12, Method: Composition-based stats.
+ Identities = 49/172 (28%), Positives = 82/172 (48%), Gaps = 16/172 (9%)
+
+Query  666  RVLVIIPTFNEREN-----LPVIHRRLTQACPAVHVLVVDDSSPDGTGQLADELAQADPG  720
+            +VL+IIP +NE E+     + ++  R  +    +  +V++D S D T  + D        
+Sbjct  2    KVLMIIPAYNEEESILNTVMSIVEYR-KKVDFDLDYVVINDGSVDRTKDILDS------H  54
+
+Query  721  RTHVMHRTAKNGLGAAYLAGFAWGLSREYSVLVEMDADGSHAPEQLQRLLDAV-DAGADL  779
+              + +H     G+G A   G+ + L ++Y V V+ D DG H  E L  LL+ +    ADL
+Sbjct  55   HLNAIHLVMNLGIGGAVQTGYKYALEKDYDVAVQFDGDGQHDIESLDALLEPIRRQQADL  114
+
+Query  780  AIGSRYVA--GGTVRNWPWRRLVLSKTANTYSRLALGIGIHDITAGYRAYRR  829
+             +GSR++       +    RR  ++   + + +L  G  I D T+GYR   R
+Sbjct  115  VVGSRFIGDKSSEFQTTFMRRFGIT-IISAFIKLTTGKRILDTTSGYRLANR  165
+
+
+>VFG006079(gb|WP_011681442) (STER_RS07085) glycosyltransferase 
+family 2 protein [Capsule (VF0144) - Immune modulation (VFC0258)] 
+[Streptococcus thermophilus LMD-9]
+Length=238
+
+ Score = 66.6 bits (161),  Expect = 6e-12, Method: Composition-based stats.
+ Identities = 60/226 (27%), Positives = 101/226 (45%), Gaps = 25/226 (11%)
+
+Query  666  RVLVIIPTFNERENL-----PVIHRRLTQACPAVHVLVVDDSSPDGTGQLADELAQADPG  720
+            RVL+IIP +NE E++      ++  R  +    +  +V++D S D T Q+ ++       
+Sbjct  2    RVLMIIPAYNEEESIFDTVTSILSYR-KKVDFDLDYVVINDGSTDKTKQILED------N  54
+
+Query  721  RTHVMHRTAKNGLGAAYLAGFAWGLSREYSVLVEMDADGSHAPEQLQRLLDAVDAG-ADL  779
+              + ++     G+G A   G+ + L  +Y V V+ D DG H  E L  LL+ +    ADL
+Sbjct  55   HFNAVNLVMNLGIGGAVQTGYKYALEHDYDVAVQFDGDGQHDIESLSDLLEPIRKNEADL  114
+
+Query  780  AIGSRYVAG--GTVRNWPWRRLVLSKTANTYSRLALGIGIHDITAGYRAYRREALEAIDL  837
+             IGSR+V       +    RR  +S  +N   +   G  + D T+GYR   +  ++    
+Sbjct  115  VIGSRFVGDVKSEFQTTFMRRFGISVISNLI-KWTTGQRVLDTTSGYRLADKAVIKQF--  171
+
+Query  838  DGVDSKGYCFQI---DLTWRTVSNGFVVTEVPITFTERELGVSKMS  880
+                +K Y  +    +     +   + V E P    ER  GVS ++
+Sbjct  172  ----AKRYPIKYPEPETIVHILKRKYRVVERPANMFERTGGVSSIT  213
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 8403642900
+
+
+Query= g2235.t1
+
+Length=390
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.440    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3007935072
+
+
+Query= g4062.t1
+
+Length=511
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.142    0.464    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4228019785
+
+
+Query= g624.t1
+
+Length=512
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.140    0.442    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4238408040
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

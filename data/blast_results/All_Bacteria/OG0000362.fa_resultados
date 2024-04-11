@@ -1,0 +1,904 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1368.t1
+
+Length=245
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG005938(gb|WP_041827041) (STR_RS05225) acyltransferase [Capsule...  60.1    3e-11
+VFG005951(gb|WP_148148905) (STU_RS19955) acyltransferase [Capsule...  54.7    1e-09
+
+
+>VFG005938(gb|WP_041827041) (STR_RS05225) acyltransferase [Capsule 
+(VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus CNRZ1066]
+Length=159
+
+ Score = 60.1 bits (144),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 27/105 (26%), Positives = 54/105 (51%), Gaps = 0/105 (0%)
+
+Query  103  EGSLRFGDKVVLGRDNVINCYLDIELGSSALMADWCYVCDFDHRMDDINIPIKDQGIVKS  162
+             G +  G+ V       IN  L + +G   +  +   + D +H   + + PI  QG   +
+Sbjct  46   SGKVIIGNHVFFNNFCSINAMLSVTIGDDCIFGENVKIYDHNHCYQNKSQPISKQGFSTA  105
+
+Query  163  PVRIGPDTWMAAKVTVLRGTSVGRGCVLGAHAVVRGVIPDYSVAV  207
+             ++IG + W+ ++VT+L+G ++G   ++GA  VV   +P+ S+ +
+Sbjct  106  AIQIGRNCWIGSQVTILKGVTIGDNSIIGAGVVVYQDVPENSIVL  150
+
+
+>VFG005951(gb|WP_148148905) (STU_RS19955) acyltransferase [Capsule 
+(VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus LMG 18311]
+Length=112
+
+ Score = 54.7 bits (130),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 29/105 (28%), Positives = 55/105 (52%), Gaps = 2/105 (2%)
+
+Query  110  DKVVLGRDNVINCYLDIELGSSALMADWCYVCDFDHRMD-DINIPIKD-QGIVKSPVRIG  167
+            + V +  ++++    +I +GS+ L+     + D DH  + D N   K+ +  V  P+RI 
+Sbjct  3    ENVFINSNSIVVALDNIHIGSNTLIGPGVLIFDHDHDFEKDKNSGTKNGRHFVTKPIRIE  62
+
+Query  168  PDTWMAAKVTVLRGTSVGRGCVLGAHAVVRGVIPDYSVAVGAPAK  212
+             D W+     +L+G ++G+G V+ A ++V   +  Y +  G PAK
+Sbjct  63   SDVWIGGNSVILKGVTIGKGAVIAAGSIVLKDVEPYCLYAGNPAK  107
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.138    0.445    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1566451092
+
+
+Query= g2984.t1
+
+Length=300
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG005938(gb|WP_041827041) (STR_RS05225) acyltransferase [Capsule...  66.2    3e-13
+VFG005951(gb|WP_148148905) (STU_RS19955) acyltransferase [Capsule...  54.3    2e-09
+VFG048896(gb|WP_015875024) (KP1_RS29180) acyltransferase [Capsule...  48.5    6e-07
+VFG045340(gb|WP_002964382) (ricA) type IV secretion system effect...  45.8    5e-06
+
+
+>VFG005938(gb|WP_041827041) (STR_RS05225) acyltransferase [Capsule 
+(VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus CNRZ1066]
+Length=159
+
+ Score = 66.2 bits (160),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 33/105 (31%), Positives = 55/105 (52%), Gaps = 0/105 (0%)
+
+Query  158  EGSLRFGDKVVLGRDNVINTYLDIEIGDSVLMADWCYICDFDHRMDDITLPIKDQGIIKS  217
+             G +  G+ V       IN  L + IGD  +  +   I D +H   + + PI  QG   +
+Sbjct  46   SGKVIIGNHVFFNNFCSINAMLSVTIGDDCIFGENVKIYDHNHCYQNKSQPISKQGFSTA  105
+
+Query  218  PVRIGPDTWIGVKVSVLRGTTIGRGCVLGSHAVVRGAIPDYSIAV  262
+             ++IG + WIG +V++L+G TIG   ++G+  VV   +P+ SI +
+Sbjct  106  AIQIGRNCWIGSQVTILKGVTIGDNSIIGAGVVVYQDVPENSIVL  150
+
+
+>VFG005951(gb|WP_148148905) (STU_RS19955) acyltransferase [Capsule 
+(VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus LMG 18311]
+Length=112
+
+ Score = 54.3 bits (129),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 30/108 (28%), Positives = 53/108 (49%), Gaps = 2/108 (2%)
+
+Query  165  DKVVLGRDNVINTYLDIEIGDSVLMADWCYICDFDHRMDDITLPIKDQG--IIKSPVRIG  222
+            + V +  ++++    +I IG + L+     I D DH  +         G   +  P+RI 
+Sbjct  3    ENVFINSNSIVVALDNIHIGSNTLIGPGVLIFDHDHDFEKDKNSGTKNGRHFVTKPIRIE  62
+
+Query  223  PDTWIGVKVSVLRGTTIGRGCVLGSHAVVRGAIPDYSIAVGAPAKVVK  270
+             D WIG    +L+G TIG+G V+ + ++V   +  Y +  G PAK ++
+Sbjct  63   SDVWIGGNSVILKGVTIGKGAVIAAGSIVLKDVEPYCLYAGNPAKKIR  110
+
+
+>VFG048896(gb|WP_015875024) (KP1_RS29180) acyltransferase [Capsule 
+(VF0560) - Immune modulation (VFC0258)] [Klebsiella pneumoniae 
+subsp. pneumoniae NTUH-K2044]
+Length=170
+
+ Score = 48.5 bits (114),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 40/174 (23%), Positives = 75/174 (43%), Gaps = 28/174 (16%)
+
+Query  101  LVRYWRLLRFKLANPHIITRGM-VFLGKGVEIHATPELAQLEIGRWVHIGDKNTIRAHEG  159
+             +R WR    +  N   I+RG   ++G G  ++  P   ++                   
+Sbjct  22   FIRNWRFQLIRFKNRGKISRGKNAYVGPGANVY-IPNFVKM-------------------  61
+
+Query  160  SLRFGDKVVLGRDNVINTYLDIEIGDSVLMADWCYICDFDHRMDDITLPIKDQGIIK-SP  218
+                GD V +G D +  + +++ IG+  L++        DH + + +      G  K + 
+Sbjct  62   ----GDNVSIGADFI--SQVNLTIGNDSLISSRVSFIGNDHDLFNESSSAYFSGRNKPAT  115
+
+Query  219  VRIGPDTWIGVKVSVLRGTTIGRGCVLGSHAVVRGAIPDYSIAVGAPAKVVKNR  272
+            + +  D +IG    +L   TIG+G ++ + + V   +P  S+  G PAKV++NR
+Sbjct  116  IVLEGDNFIGFGSVILGNVTIGKGAIVAACSFVNKDVPPNSVVGGVPAKVLRNR  169
+
+
+>VFG045340(gb|WP_002964382) (ricA) type IV secretion system effector 
+RicA, Rab2 interacting conserved protein A [T4SS secreted 
+effectors (VF0695) - Effector delivery system (VFC0086)] 
+[Brucella melitensis bv. 1 str. 16M]
+Length=175
+
+ Score = 45.8 bits (107),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 27/66 (41%), Positives = 40/66 (61%), Gaps = 4/66 (6%)
+
+Query  221  IGPDTWIGVKVSVLRGTTIGRGCVLGSHAVVRGA--IPDYSIAVGAPAKVVKNRQLSWEA  278
+            IG +T IG+   VL G  +G+ C++G+  +V+    IPD S+ VG+PA+V+  RQL   A
+Sbjct  93   IGENTLIGMGAIVLNGAKVGKNCLIGAGTLVKEGMEIPDNSLVVGSPARVL--RQLDDAA  150
+
+Query  279  SAAQRA  284
+                RA
+Sbjct  151  VEKLRA  156
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2100036600
+
+
+Query= g714.t1
+
+Length=212
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG005041(gb|WP_001216898) (SAUSA300_RS00840) CatB-related O-acet...  83.2    1e-19
+VFG005951(gb|WP_148148905) (STU_RS19955) acyltransferase [Capsule...  55.5    3e-10
+VFG050279(gb|WP_000266826) (vpsG) exopolysaccharide biosynthesis ...  50.4    4e-08
+VFG005069(gb|WP_000636151) (cap8J) type 8 capsular polysaccharide...  49.3    2e-07
+VFG001306(gb|WP_000636149) (cap8J) type 8 capsular polysaccharide...  48.9    3e-07
+VFG045302(gb|WP_010946491) (LPG_RS03740) acetyltransferase [LPS (...  45.8    3e-06
+VFG048896(gb|WP_015875024) (KP1_RS29180) acyltransferase [Capsule...  45.1    5e-06
+
+
+>VFG005041(gb|WP_001216898) (SAUSA300_RS00840) CatB-related O-acetyltransferase 
+[Capsule (VF0003) - Immune modulation (VFC0258)] 
+[Staphylococcus aureus subsp. aureus USA300_FPR3757]
+Length=208
+
+ Score = 83.2 bits (204),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 45/139 (32%), Positives = 69/139 (50%), Gaps = 23/139 (17%)
+
+Query  53   DVDKLVIGSFCSIGSGAAFIMAGNQGHRAEWASTFPFHFMHEEPVFAGAVNGY-------  105
+            D + + +G +CSI S     +  +           P HF    P+F    N +       
+Sbjct  63   DFNNVEVGRYCSISSDVKIGLGKH-----------PTHFFSSSPIFYSNNNPFNIKQKFI  111
+
+Query  106  ----QPAGDTLIGHDVWIGTEAMFMPGVRVGHGAIIGSRALVTGDVEPYAIVGGNPARTI  161
+                QP+  T I +DVWIG   + M G+ +  GA+I + ++VT +V  Y +VGG PA+ I
+Sbjct  112  DFNDQPS-RTTIKNDVWIGANVIIMDGLTINTGAVIAAGSVVTKNVGAYEVVGGVPAKVI  170
+
+Query  162  RKRFSDGDIQNLLEMAWWD  180
+            +KRF +  I+ LLE  WW+
+Sbjct  171  KKRFDNKTIEKLLESKWWE  189
+
+
+>VFG005951(gb|WP_148148905) (STU_RS19955) acyltransferase [Capsule 
+(VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus LMG 18311]
+Length=112
+
+ Score = 55.5 bits (132),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 24/50 (48%), Positives = 34/50 (68%), Gaps = 0/50 (0%)
+
+Query  113  IGHDVWIGTEAMFMPGVRVGHGAIIGSRALVTGDVEPYAIVGGNPARTIR  162
+            I  DVWIG  ++ + GV +G GA+I + ++V  DVEPY +  GNPA+ IR
+Sbjct  61   IESDVWIGGNSVILKGVTIGKGAVIAAGSIVLKDVEPYCLYAGNPAKKIR  110
+
+
+>VFG050279(gb|WP_000266826) (vpsG) exopolysaccharide biosynthesis 
+acetyltransferase VpsG [VPS (VF0615) - Biofilm (VFC0271)] 
+[Vibrio cholerae O1 biovar El Tor str. N16961]
+Length=143
+
+ Score = 50.4 bits (119),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 25/58 (43%), Positives = 38/58 (66%), Gaps = 0/58 (0%)
+
+Query  112  LIGHDVWIGTEAMFMPGVRVGHGAIIGSRALVTGDVEPYAIVGGNPARTIRKRFSDGD  169
+            +IG+ V+I T A  +  +RVG GA+IG+ A+V  DV PY++V G PA+ I+   +  D
+Sbjct  84   VIGNYVYIATGAKVLGDIRVGDGAVIGANAVVLEDVPPYSVVVGMPAKVIKTNINPKD  141
+
+
+>VFG005069(gb|WP_000636151) (cap8J) type 8 capsular polysaccharide 
+synthesis protein Cap8J [Capsule (VF0003) - Immune modulation 
+(VFC0258)] [Staphylococcus aureus subsp. aureus MRSA252]
+Length=185
+
+ Score = 49.3 bits (116),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 23/63 (37%), Positives = 38/63 (60%), Gaps = 1/63 (2%)
+
+Query  102  VNGYQPAGDTLIGHDVWIGTEAMFMPGVRVGHGAIIGSRALVTGDV-EPYAIVGGNPART  160
+            +  + P  D  IG+  WIG  ++ +PGV +G   I+G+ ++VT    E   ++GGNPA+ 
+Sbjct  122  LKSHAPGEDVKIGNYSWIGMNSVILPGVELGEHTIVGAGSVVTKSFPEGNVVIGGNPAKV  181
+
+Query  161  IRK  163
+            I+K
+Sbjct  182  IKK  184
+
+
+>VFG001306(gb|WP_000636149) (cap8J) type 8 capsular polysaccharide 
+synthesis protein Cap8J [Capsule (VF0003) - Immune modulation 
+(VFC0258)] [Staphylococcus aureus subsp. aureus MW2]
+Length=185
+
+ Score = 48.9 bits (115),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 23/63 (37%), Positives = 38/63 (60%), Gaps = 1/63 (2%)
+
+Query  102  VNGYQPAGDTLIGHDVWIGTEAMFMPGVRVGHGAIIGSRALVTGDV-EPYAIVGGNPART  160
+            +  + P  D  IG+  WIG  ++ +PGV +G   I+G+ ++VT    E   ++GGNPA+ 
+Sbjct  122  LKSHAPGEDVKIGNYSWIGMNSVILPGVELGEHTIVGAGSVVTKSFPEGNVVIGGNPAKI  181
+
+Query  161  IRK  163
+            I+K
+Sbjct  182  IKK  184
+
+
+>VFG045302(gb|WP_010946491) (LPG_RS03740) acetyltransferase [LPS 
+(VF0171) - Immune modulation (VFC0258)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=202
+
+ Score = 45.8 bits (107),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 24/50 (48%), Positives = 32/50 (64%), Gaps = 0/50 (0%)
+
+Query  109  GDTLIGHDVWIGTEAMFMPGVRVGHGAIIGSRALVTGDVEPYAIVGGNPA  158
+            G   IG  V IG  A+ +PGV +G GAIIG+ ++V  DV+  A+V G PA
+Sbjct  152  GRVKIGERVLIGAGAVVLPGVTIGDGAIIGAGSVVVKDVKENAVVKGVPA  201
+
+
+>VFG048896(gb|WP_015875024) (KP1_RS29180) acyltransferase [Capsule 
+(VF0560) - Immune modulation (VFC0258)] [Klebsiella pneumoniae 
+subsp. pneumoniae NTUH-K2044]
+Length=170
+
+ Score = 45.1 bits (105),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 23/60 (38%), Positives = 37/60 (62%), Gaps = 1/60 (2%)
+
+Query  106  QPAGDTLIGHDVWIGTEAMFMPGVRVGHGAIIGSRALVTGDVEPYAIVGGNPARTIRKRF  165
+            +PA   L G D +IG  ++ +  V +G GAI+ + + V  DV P ++VGG PA+ +R R+
+Sbjct  112  KPATIVLEG-DNFIGFGSVILGNVTIGKGAIVAACSFVNKDVPPNSVVGGVPAKVLRNRY  170
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.140    0.460    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1231004876
+
+
+Query= g3927.t1
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG005041(gb|WP_001216898) (SAUSA300_RS00840) CatB-related O-acet...  114     2e-31
+VFG048896(gb|WP_015875024) (KP1_RS29180) acyltransferase [Capsule...  58.5    1e-10
+VFG050279(gb|WP_000266826) (vpsG) exopolysaccharide biosynthesis ...  57.8    1e-10
+VFG005951(gb|WP_148148905) (STU_RS19955) acyltransferase [Capsule...  56.6    1e-10
+VFG005938(gb|WP_041827041) (STR_RS05225) acyltransferase [Capsule...  49.7    1e-07
+VFG050275(gb|WP_000098186) (vpsC) exopolysaccharide biosynthesis ...  47.4    1e-06
+VFG045302(gb|WP_010946491) (LPG_RS03740) acetyltransferase [LPS (...  47.4    1e-06
+VFG050167(gb|WP_000038461) (neuD) NeuD protein involved in sialic...  45.8    5e-06
+
+
+>VFG005041(gb|WP_001216898) (SAUSA300_RS00840) CatB-related O-acetyltransferase 
+[Capsule (VF0003) - Immune modulation (VFC0258)] 
+[Staphylococcus aureus subsp. aureus USA300_FPR3757]
+Length=208
+
+ Score = 114 bits (284),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 60/151 (40%), Positives = 89/151 (59%), Gaps = 7/151 (5%)
+
+Query  53   IGAYSYVRSGTDLSLVASIGRFCSIGSDCFIGQEKH-TH-----PSDWVSSHPFQHTGTA  106
+            IG YSY+  G+D + V  +GR+CSI SD  IG  KH TH     P  + +++PF      
+Sbjct  52   IGEYSYIGFGSDFNNV-EVGRYCSISSDVKIGLGKHPTHFFSSSPIFYSNNNPFNIKQKF  110
+
+Query  107  LRYEPALSYAEIGHDVWIGHSAMVMEGVKVGTGAIIATRAVVTRDVPPYAIVAGTPAQVI  166
+            + +    S   I +DVWIG + ++M+G+ + TGA+IA  +VVT++V  Y +V G PA+VI
+Sbjct  111  IDFNDQPSRTTIKNDVWIGANVIIMDGLTINTGAVIAAGSVVTKNVGAYEVVGGVPAKVI  170
+
+Query  167  RYRHPPEIIEGLLASRWWELDSAFLTGLPLD  197
+            + R   + IE LL S+WWE     L G  ++
+Sbjct  171  KKRFDNKTIEKLLESKWWEKTPDKLKGFSVE  201
+
+
+>VFG048896(gb|WP_015875024) (KP1_RS29180) acyltransferase [Capsule 
+(VF0560) - Immune modulation (VFC0258)] [Klebsiella pneumoniae 
+subsp. pneumoniae NTUH-K2044]
+Length=170
+
+ Score = 58.5 bits (140),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 42/136 (31%), Positives = 69/136 (51%), Gaps = 18/136 (13%)
+
+Query  50   RLEIGAYSYVRSGTDLSL--VASIGRFCSIGSDCFIGQEKHTHPSDWVSS----------  97
+            ++  G  +YV  G ++ +     +G   SIG+D FI Q   T  +D + S          
+Sbjct  38   KISRGKNAYVGPGANVYIPNFVKMGDNVSIGAD-FISQVNLTIGNDSLISSRVSFIGNDH  96
+
+Query  98   HPFQHTGTAL---RYEPALSYAEIGHDVWIGHSAMVMEGVKVGTGAIIATRAVVTRDVPP  154
+              F  + +A    R +PA    E   D +IG  ++++  V +G GAI+A  + V +DVPP
+Sbjct  97   DLFNESSSAYFSGRNKPATIVLE--GDNFIGFGSVILGNVTIGKGAIVAACSFVNKDVPP  154
+
+Query  155  YAIVAGTPAQVIRYRH  170
+             ++V G PA+V+R R+
+Sbjct  155  NSVVGGVPAKVLRNRY  170
+
+
+>VFG050279(gb|WP_000266826) (vpsG) exopolysaccharide biosynthesis 
+acetyltransferase VpsG [VPS (VF0615) - Biofilm (VFC0271)] 
+[Vibrio cholerae O1 biovar El Tor str. N16961]
+Length=143
+
+ Score = 57.8 bits (138),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 35/103 (34%), Positives = 50/103 (49%), Gaps = 23/103 (22%)
+
+Query  71   IGRFCSIGSDCFIGQEKHTHPSDWVSSHPFQHTGTALRYEPALSYAEIGHDVWIGHSAMV  130
+            IG+ C IGS+  IG    +H                       +   IG+ V+I   A V
+Sbjct  61   IGKECVIGSNVTIGGRSRSH-----------------------NVPVIGNYVYIATGAKV  97
+
+Query  131  MEGVKVGTGAIIATRAVVTRDVPPYAIVAGTPAQVIRYRHPPE  173
+            +  ++VG GA+I   AVV  DVPPY++V G PA+VI+    P+
+Sbjct  98   LGDIRVGDGAVIGANAVVLEDVPPYSVVVGMPAKVIKTNINPK  140
+
+
+>VFG005951(gb|WP_148148905) (STU_RS19955) acyltransferase [Capsule 
+(VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus LMG 18311]
+Length=112
+
+ Score = 56.6 bits (135),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 33/97 (34%), Positives = 49/97 (51%), Gaps = 7/97 (7%)
+
+Query  71   IGRFCSIGSDCFIGQEKHTHPSDWVSSHPFQHTGTALRYEPALSYAEIGHDVWIGHSAMV  130
+            IG    IG    I    H    D       +++GT            I  DVWIG ++++
+Sbjct  21   IGSNTLIGPGVLIFDHDHDFEKD-------KNSGTKNGRHFVTKPIRIESDVWIGGNSVI  73
+
+Query  131  MEGVKVGTGAIIATRAVVTRDVPPYAIVAGTPAQVIR  167
+            ++GV +G GA+IA  ++V +DV PY + AG PA+ IR
+Sbjct  74   LKGVTIGKGAVIAAGSIVLKDVEPYCLYAGNPAKKIR  110
+
+
+>VFG005938(gb|WP_041827041) (STR_RS05225) acyltransferase [Capsule 
+(VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus CNRZ1066]
+Length=159
+
+ Score = 49.7 bits (117),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 28/110 (25%), Positives = 55/110 (50%), Gaps = 9/110 (8%)
+
+Query  50   RLEIGAYSYVRSGTDLSLVASIGRFCSIGSDCFIGQEKHTHPSDWVSSHPFQHTGTALRY  109
+            ++ IG + +  +   ++ + S+    +IG DC  G+    +  +    H +Q+    +  
+Sbjct  48   KVIIGNHVFFNNFCSINAMLSV----TIGDDCIFGENVKIYDHN----HCYQNKSQPISK  99
+
+Query  110  EPALSYA-EIGHDVWIGHSAMVMEGVKVGTGAIIATRAVVTRDVPPYAIV  158
+            +   + A +IG + WIG    +++GV +G  +II    VV +DVP  +IV
+Sbjct  100  QGFSTAAIQIGRNCWIGSQVTILKGVTIGDNSIIGAGVVVYQDVPENSIV  149
+
+
+>VFG050275(gb|WP_000098186) (vpsC) exopolysaccharide biosynthesis 
+acetyltransferase VpsC [VPS (VF0615) - Biofilm (VFC0271)] 
+[Vibrio cholerae O1 biovar El Tor str. N16961]
+Length=184
+
+ Score = 47.4 bits (111),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 21/51 (41%), Positives = 33/51 (65%), Gaps = 0/51 (0%)
+
+Query  116  AEIGHDVWIGHSAMVMEGVKVGTGAIIATRAVVTRDVPPYAIVAGTPAQVI  166
+            A +G  V+IG    ++E + +G G+II   +VV RDVPP ++V G P +V+
+Sbjct  115  ATVGDCVYIGPHVSIVEDITIGDGSIIGAGSVVIRDVPPNSVVVGNPGRVL  165
+
+
+>VFG045302(gb|WP_010946491) (LPG_RS03740) acetyltransferase [LPS 
+(VF0171) - Immune modulation (VFC0258)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=202
+
+ Score = 47.4 bits (111),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 37/123 (30%), Positives = 55/123 (45%), Gaps = 11/123 (9%)
+
+Query  44   LRIVPPRLEIGAYSYVRSGTDLSLVASIGRFCSIGSDCFIGQEKHTHPSDWVSSHPFQHT  103
+              I+ P   I   + + +G+ ++  A +G  C +G  C I           V  H     
+Sbjct  87   FTIIHPAAIIAKSARLGAGSFIAAQAILGPECQVGEGCIINHS-------AVVDHEVI-V  138
+
+Query  104  GTALRYEPALSYA---EIGHDVWIGHSAMVMEGVKVGTGAIIATRAVVTRDVPPYAIVAG  160
+            G+     P  +     +IG  V IG  A+V+ GV +G GAII   +VV +DV   A+V G
+Sbjct  139  GSCSHIAPNSTLGGRVKIGERVLIGAGAVVLPGVTIGDGAIIGAGSVVVKDVKENAVVKG  198
+
+Query  161  TPA  163
+             PA
+Sbjct  199  VPA  201
+
+
+>VFG050167(gb|WP_000038461) (neuD) NeuD protein involved in sialic 
+acid synthesis [K1 capsule (VF0239) - Invasion (VFC0083)] 
+[Escherichia coli O45:K1:H7 str. S88]
+Length=207
+
+ Score = 45.8 bits (107),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 24/98 (24%), Positives = 49/98 (50%), Gaps = 7/98 (7%)
+
+Query  77   IGSDCFIGQEKHTHPSDWVSSHPFQHTGTALRYEPALSY-------AEIGHDVWIGHSAM  129
+            IG  C + ++   H +  +++      G  +     +S          +G + ++G   +
+Sbjct  107  IGKMCILNRDTRIHDAVVINTRSLIEHGNEIGCCSNISTNVVLNGDVSVGEETFVGSCTV  166
+
+Query  130  VMEGVKVGTGAIIATRAVVTRDVPPYAIVAGTPAQVIR  167
+            V   +K+G+ +II + +VV R++P   +VAGTP ++IR
+Sbjct  167  VNGQLKLGSKSIIGSGSVVIRNIPSNVVVAGTPTRLIR  204
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.445    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1397105028
+
+
+Query= g438.t1
+
+Length=183
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG005951(gb|WP_148148905) (STU_RS19955) acyltransferase [Capsule...  79.0    2e-19
+VFG001306(gb|WP_000636149) (cap8J) type 8 capsular polysaccharide...  74.3    6e-17
+VFG005069(gb|WP_000636151) (cap8J) type 8 capsular polysaccharide...  73.6    1e-16
+VFG037973(gb|YP_001083154) (A1S_0057) capsular polysaccharide syn...  65.9    5e-14
+VFG005938(gb|WP_041827041) (STR_RS05225) acyltransferase [Capsule...  62.4    1e-12
+VFG050275(gb|WP_000098186) (vpsC) exopolysaccharide biosynthesis ...  54.3    2e-09
+VFG005041(gb|WP_001216898) (SAUSA300_RS00840) CatB-related O-acet...  54.3    3e-09
+VFG045302(gb|WP_010946491) (LPG_RS03740) acetyltransferase [LPS (...  51.6    2e-08
+VFG050167(gb|WP_000038461) (neuD) NeuD protein involved in sialic...  49.7    1e-07
+VFG016409(gb|WP_001103738) (BT9727_RS25815) serine O-acetyltransf...  47.8    3e-07
+VFG048896(gb|WP_015875024) (KP1_RS29180) acyltransferase [Capsule...  47.4    5e-07
+VFG038035(gb|WP_000177816) (BJAB07104_RS00520) acetyltransferase ...  46.6    2e-06
+VFG037941(gb|WP_000177817) (ABBFA_RS17130) acetyltransferase [Cap...  46.2    2e-06
+
+
+>VFG005951(gb|WP_148148905) (STU_RS19955) acyltransferase [Capsule 
+(VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus LMG 18311]
+Length=112
+
+ Score = 79.0 bits (193),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 41/111 (37%), Positives = 70/111 (63%), Gaps = 6/111 (5%)
+
+Query  76   LGHSFYANFDCVMLDVCPIHIGDNCMLAPGVHIYTATHPLDAVERNSGRELG-----KPV  130
+            +  + + N + +++ +  IHIG N ++ PGV I+   H  +  ++NSG + G     KP+
+Sbjct  1    MAENVFINSNSIVVALDNIHIGSNTLIGPGVLIFDHDHDFEK-DKNSGTKNGRHFVTKPI  59
+
+Query  131  TIGNNVWIGGRAVVNPGVTIGDNVVVASGAVVIKNVPPDVVVGGNPARIIK  181
+             I ++VWIGG +V+  GVTIG   V+A+G++V+K+V P  +  GNPA+ I+
+Sbjct  60   RIESDVWIGGNSVILKGVTIGKGAVIAAGSIVLKDVEPYCLYAGNPAKKIR  110
+
+
+>VFG001306(gb|WP_000636149) (cap8J) type 8 capsular polysaccharide 
+synthesis protein Cap8J [Capsule (VF0003) - Immune modulation 
+(VFC0258)] [Staphylococcus aureus subsp. aureus MW2]
+Length=185
+
+ Score = 74.3 bits (181),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 43/106 (41%), Positives = 67/106 (63%), Gaps = 10/106 (9%)
+
+Query  79   SFYANFDCVMLDVCPIHIGDNCMLAPGVHIYTATHPLDAVERNSGRELGKPVTIGNNVWI  138
+            +++ NF  V      I+IG    +AP V I TA H +  ++ ++    G+ V IGN  WI
+Sbjct  89   TYFNNFSAV------IYIGRGVYIAPNVGIITANHNIKNLKSHAP---GEDVKIGNYSWI  139
+
+Query  139  GGRAVVNPGVTIGDNVVVASGAVVIKNVPP-DVVVGGNPARIIKKL  183
+            G  +V+ PGV +G++ +V +G+VV K+ P  +VV+GGNPA+IIKK+
+Sbjct  140  GMNSVILPGVELGEHTIVGAGSVVTKSFPEGNVVIGGNPAKIIKKI  185
+
+
+>VFG005069(gb|WP_000636151) (cap8J) type 8 capsular polysaccharide 
+synthesis protein Cap8J [Capsule (VF0003) - Immune modulation 
+(VFC0258)] [Staphylococcus aureus subsp. aureus MRSA252]
+Length=185
+
+ Score = 73.6 bits (179),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 42/106 (40%), Positives = 67/106 (63%), Gaps = 10/106 (9%)
+
+Query  79   SFYANFDCVMLDVCPIHIGDNCMLAPGVHIYTATHPLDAVERNSGRELGKPVTIGNNVWI  138
+            +++ NF  V      I+IG    +AP V I TA H +  ++ ++    G+ V IGN  WI
+Sbjct  89   TYFNNFSAV------IYIGRGVYIAPNVGIITANHNIKNLKSHAP---GEDVKIGNYSWI  139
+
+Query  139  GGRAVVNPGVTIGDNVVVASGAVVIKNVPP-DVVVGGNPARIIKKL  183
+            G  +V+ PGV +G++ +V +G+VV K+ P  +VV+GGNPA++IKK+
+Sbjct  140  GMNSVILPGVELGEHTIVGAGSVVTKSFPEGNVVIGGNPAKVIKKI  185
+
+
+>VFG037973(gb|YP_001083154) (A1S_0057) capsular polysaccharide 
+synthesis enzyme [Capsule (VF0465) - Immune modulation (VFC0258)] 
+[Acinetobacter baumannii ATCC 17978]
+Length=139
+
+ Score = 65.9 bits (159),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 40/106 (38%), Positives = 63/106 (59%), Gaps = 10/106 (9%)
+
+Query  79   SFYANFDCVMLDVCPIHIGDNCMLAPGVHIYTATHPLDAVERNSGRELGKPVTIGNNVWI  138
+            +++ NF         I+IG    +AP V I T+ H L  +E ++    GK V IG+  WI
+Sbjct  42   TYFQNFSA------HIYIGKGSYIAPNVGIITSNHDLADLESHTE---GKDVVIGDKCWI  92
+
+Query  139  GGRAVVNPGVTIGDNVVVASGAVVIKNVPP-DVVVGGNPARIIKKL  183
+            G  +V+ PGV +G+  +VA+GAVV K+    ++V+ G PA+IIK++
+Sbjct  93   GMNSVILPGVVLGNGTIVAAGAVVTKSFKQGNIVIAGVPAKIIKEI  138
+
+
+>VFG005938(gb|WP_041827041) (STR_RS05225) acyltransferase [Capsule 
+(VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus CNRZ1066]
+Length=159
+
+ Score = 62.4 bits (150),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 35/104 (34%), Positives = 54/104 (52%), Gaps = 11/104 (11%)
+
+Query  78   HSFYANFDCVMLDVCPIHIGDNCMLAPGVHIYTATHPLDAVERNSGRELGK------PVT  131
+            H F+ NF C +  +  + IGD+C+    V IY   H      +N  + + K       + 
+Sbjct  54   HVFFNNF-CSINAMLSVTIGDDCIFGENVKIYDHNH----CYQNKSQPISKQGFSTAAIQ  108
+
+Query  132  IGNNVWIGGRAVVNPGVTIGDNVVVASGAVVIKNVPPDVVVGGN  175
+            IG N WIG +  +  GVTIGDN ++ +G VV ++VP + +V  N
+Sbjct  109  IGRNCWIGSQVTILKGVTIGDNSIIGAGVVVYQDVPENSIVLSN  152
+
+
+>VFG050275(gb|WP_000098186) (vpsC) exopolysaccharide biosynthesis 
+acetyltransferase VpsC [VPS (VF0615) - Biofilm (VFC0271)] 
+[Vibrio cholerae O1 biovar El Tor str. N16961]
+Length=184
+
+ Score = 54.3 bits (129),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 31/87 (36%), Positives = 48/87 (55%), Gaps = 14/87 (16%)
+
+Query  96   IGDNCMLAPGVHIYTATHPLDAVERNSGRELGKPVTIGNNVWIGGRAVVNPGVTIGDNVV  155
+            IG NC L+P   I              G   G+  T+G+ V+IG    +   +TIGD  +
+Sbjct  95   IGANCNLSPFTVI--------------GSNQGQAATVGDCVYIGPHVSIVEDITIGDGSI  140
+
+Query  156  VASGAVVIKNVPPDVVVGGNPARIIKK  182
+            + +G+VVI++VPP+ VV GNP R++ +
+Sbjct  141  IGAGSVVIRDVPPNSVVVGNPGRVLTR  167
+
+
+>VFG005041(gb|WP_001216898) (SAUSA300_RS00840) CatB-related O-acetyltransferase 
+[Capsule (VF0003) - Immune modulation (VFC0258)] 
+[Staphylococcus aureus subsp. aureus USA300_FPR3757]
+Length=208
+
+ Score = 54.3 bits (129),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 27/53 (51%), Positives = 36/53 (68%), Gaps = 0/53 (0%)
+
+Query  130  VTIGNNVWIGGRAVVNPGVTIGDNVVVASGAVVIKNVPPDVVVGGNPARIIKK  182
+             TI N+VWIG   ++  G+TI    V+A+G+VV KNV    VVGG PA++IKK
+Sbjct  120  TTIKNDVWIGANVIIMDGLTINTGAVIAAGSVVTKNVGAYEVVGGVPAKVIKK  172
+
+
+>VFG045302(gb|WP_010946491) (LPG_RS03740) acetyltransferase [LPS 
+(VF0171) - Immune modulation (VFC0258)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=202
+
+ Score = 51.6 bits (122),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 28/52 (54%), Positives = 35/52 (67%), Gaps = 0/52 (0%)
+
+Query  126  LGKPVTIGNNVWIGGRAVVNPGVTIGDNVVVASGAVVIKNVPPDVVVGGNPA  177
+            LG  V IG  V IG  AVV PGVTIGD  ++ +G+VV+K+V  + VV G PA
+Sbjct  150  LGGRVKIGERVLIGAGAVVLPGVTIGDGAIIGAGSVVVKDVKENAVVKGVPA  201
+
+
+>VFG050167(gb|WP_000038461) (neuD) NeuD protein involved in sialic 
+acid synthesis [K1 capsule (VF0239) - Invasion (VFC0083)] 
+[Escherichia coli O45:K1:H7 str. S88]
+Length=207
+
+ Score = 49.7 bits (117),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 22/56 (39%), Positives = 36/56 (64%), Gaps = 0/56 (0%)
+
+Query  126  LGKPVTIGNNVWIGGRAVVNPGVTIGDNVVVASGAVVIKNVPPDVVVGGNPARIIK  181
+            L   V++G   ++G   VVN  + +G   ++ SG+VVI+N+P +VVV G P R+I+
+Sbjct  149  LNGDVSVGEETFVGSCTVVNGQLKLGSKSIIGSGSVVIRNIPSNVVVAGTPTRLIR  204
+
+
+>VFG016409(gb|WP_001103738) (BT9727_RS25815) serine O-acetyltransferase 
+[Polysaccharide capsule (VF0659) - Immune modulation 
+(VFC0258)] [Bacillus thuringiensis serovar konkukian str. 
+97-27]
+Length=146
+
+ Score = 47.8 bits (112),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 32/86 (37%), Positives = 53/86 (62%), Gaps = 12/86 (14%)
+
+Query  96   IGDNCMLAPGVHIYTATHPLDAVERNSGRELGKPVTIGNNVWIGGRAVVNPGVTIGDNVV  155
+            IGDNC++  GV I   +      ++N+  +LG  V +G      G  ++ P V+IG+NVV
+Sbjct  64   IGDNCIINAGVTIGGTS------KKNNVPKLGDKVYVGT-----GAKILGP-VSIGNNVV  111
+
+Query  156  VASGAVVIKNVPPDVVVGGNPARIIK  181
+            + + AVV+K++P + +V G PA+I+K
+Sbjct  112  IGANAVVLKDIPDNCMVVGIPAKIVK  137
+
+
+>VFG048896(gb|WP_015875024) (KP1_RS29180) acyltransferase [Capsule 
+(VF0560) - Immune modulation (VFC0258)] [Klebsiella pneumoniae 
+subsp. pneumoniae NTUH-K2044]
+Length=170
+
+ Score = 47.4 bits (111),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 43/143 (30%), Positives = 71/143 (50%), Gaps = 23/143 (16%)
+
+Query  51   RDLLGRCEDAYIEPSFRC------DYGYNIFLGHSFYANFDCVMLDVCPIHIGDNCMLAP  104
+            R  + R ++AY+ P            G N+ +G  F +  +        + IG++ +++ 
+Sbjct  36   RGKISRGKNAYVGPGANVYIPNFVKMGDNVSIGADFISQVN--------LTIGNDSLISS  87
+
+Query  105  GVHIYTATHPL---DAVERNSGRELGKPVTI---GNNVWIGGRAVVNPGVTIGDNVVVAS  158
+             V      H L    +    SGR   KP TI   G+N +IG  +V+   VTIG   +VA+
+Sbjct  88   RVSFIGNDHDLFNESSSAYFSGRN--KPATIVLEGDN-FIGFGSVILGNVTIGKGAIVAA  144
+
+Query  159  GAVVIKNVPPDVVVGGNPARIIK  181
+             + V K+VPP+ VVGG PA++++
+Sbjct  145  CSFVNKDVPPNSVVGGVPAKVLR  167
+
+
+>VFG038035(gb|WP_000177816) (BJAB07104_RS00520) acetyltransferase 
+[Capsule (VF0465) - Immune modulation (VFC0258)] [Acinetobacter 
+baumannii BJAB07104]
+Length=216
+
+ Score = 46.6 bits (109),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 41/128 (32%), Positives = 55/128 (43%), Gaps = 28/128 (22%)
+
+Query  63   EPSFRCDYG---YNIFLGHSFYANFDCVMLDVCPIHIGDNCMLAPGVHIYTATHPLDAVE  119
+            E S  C +     NI +G  F+AN    +   C I  GD    APG       H      
+Sbjct  108  EGSLLCPFTCLTSNIKIGKFFHANIYSYVAHDCVI--GDYVTFAPGAKCNGNIH------  159
+
+Query  120  RNSGRELGKPVTIGNNVWIGGRAVVNPG-----VTIGDNVVVASGAVVIKNVPPDVVVGG  174
+                        I ++ +IG  AV+  G     + IG   +V  GAVV K+VP  V V G
+Sbjct  160  ------------IEDHAYIGTGAVIKQGTPDKPLVIGKGAIVGMGAVVTKSVPAGVTVVG  207
+
+Query  175  NPARIIKK  182
+            NPARI+++
+Sbjct  208  NPARILER  215
+
+
+>VFG037941(gb|WP_000177817) (ABBFA_RS17130) acetyltransferase 
+[Capsule (VF0465) - Immune modulation (VFC0258)] [Acinetobacter 
+baumannii AB307-0294]
+Length=216
+
+ Score = 46.2 bits (108),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 41/128 (32%), Positives = 55/128 (43%), Gaps = 28/128 (22%)
+
+Query  63   EPSFRCDYG---YNIFLGHSFYANFDCVMLDVCPIHIGDNCMLAPGVHIYTATHPLDAVE  119
+            E S  C +     NI +G  F+AN    +   C I  GD    APG       H      
+Sbjct  108  EGSLLCPFTCLTSNIKIGKFFHANIYSYVAHDCVI--GDYVTFAPGAKCNGNIH------  159
+
+Query  120  RNSGRELGKPVTIGNNVWIGGRAVVNPG-----VTIGDNVVVASGAVVIKNVPPDVVVGG  174
+                        I ++ +IG  AV+  G     + IG   +V  GAVV K+VP  V V G
+Sbjct  160  ------------IEDHAYIGTGAVIKQGTPDKPLIIGKGAIVGMGAVVTKSVPAGVTVVG  207
+
+Query  175  NPARIIKK  182
+            NPARI+++
+Sbjct  208  NPARILER  215
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.141    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 949458675
+
+
+Query= g1971.t1
+
+Length=184
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG048896(gb|WP_015875024) (KP1_RS29180) acyltransferase [Capsule...  53.5    4e-09
+VFG005938(gb|WP_041827041) (STR_RS05225) acyltransferase [Capsule...  52.8    5e-09
+VFG037973(gb|YP_001083154) (A1S_0057) capsular polysaccharide syn...  51.6    1e-08
+VFG005069(gb|WP_000636151) (cap8J) type 8 capsular polysaccharide...  46.2    2e-06
+VFG001306(gb|WP_000636149) (cap8J) type 8 capsular polysaccharide...  45.8    2e-06
+VFG045302(gb|WP_010946491) (LPG_RS03740) acetyltransferase [LPS (...  45.8    3e-06
+VFG005975(gb|WP_011226040) (STU_RS14610) serine acetyltransferase...  45.1    3e-06
+
+
+>VFG048896(gb|WP_015875024) (KP1_RS29180) acyltransferase [Capsule 
+(VF0560) - Immune modulation (VFC0258)] [Klebsiella pneumoniae 
+subsp. pneumoniae NTUH-K2044]
+Length=170
+
+ Score = 53.5 bits (127),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 45/149 (30%), Positives = 67/149 (45%), Gaps = 11/149 (7%)
+
+Query  39   LYRWRAFLLRLFG-AKI--GKNVVIRPSVKITYPWKLTVGDYAWVGDDAVLYTLGEINIG  95
+            +  WR  L+R     KI  GKN  + P   +  P  + +GD   +G D +      + IG
+Sbjct  23   IRNWRFQLIRFKNRGKISRGKNAYVGPGANVYIPNFVKMGDNVSIGADFISQV--NLTIG  80
+
+Query  96   AHAVISQKGYLCTGSHDY----TSAHFDINAAP--IVIGEKCWLATDVFVAPGVTIGHGT  149
+              ++IS +       HD     +SA+F     P  IV+    ++     +   VTIG G 
+Sbjct  81   NDSLISSRVSFIGNDHDLFNESSSAYFSGRNKPATIVLEGDNFIGFGSVILGNVTIGKGA  140
+
+Query  150  VVGARSSVFKSLPANAICRGNPAVVTRQR  178
+            +V A S V K +P N++  G PA V R R
+Sbjct  141  IVAACSFVNKDVPPNSVVGGVPAKVLRNR  169
+
+
+>VFG005938(gb|WP_041827041) (STR_RS05225) acyltransferase [Capsule 
+(VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus CNRZ1066]
+Length=159
+
+ Score = 52.8 bits (125),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 32/123 (26%), Positives = 53/123 (43%), Gaps = 15/123 (12%)
+
+Query  54   IGKNVVIRPSVKITYPWKLTVGDYAWVGDDAVLYTLGEINIGAHAVISQKGYLCTGSHDY  113
+            IG +V       I     +T+GD    G++  +Y            IS++G+        
+Sbjct  51   IGNHVFFNNFCSINAMLSVTIGDDCIFGENVKIYDHNHCYQNKSQPISKQGF--------  102
+
+Query  114  TSAHFDINAAPIVIGEKCWLATDVFVAPGVTIGHGTVVGARSSVFKSLPANAICRGNPAV  173
+                   + A I IG  CW+ + V +  GVTIG  +++GA   V++ +P N+I   N  +
+Sbjct  103  -------STAAIQIGRNCWIGSQVTILKGVTIGDNSIIGAGVVVYQDVPENSIVLSNGEI  155
+
+Query  174  VTR  176
+              R
+Sbjct  156  RKR  158
+
+
+>VFG037973(gb|YP_001083154) (A1S_0057) capsular polysaccharide 
+synthesis enzyme [Capsule (VF0465) - Immune modulation (VFC0258)] 
+[Acinetobacter baumannii ATCC 17978]
+Length=139
+
+ Score = 51.6 bits (122),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 29/92 (32%), Positives = 45/92 (49%), Gaps = 7/92 (8%)
+
+Query  93   NIGAHAVISQKGYLC------TGSHDYTSAHFDINAAPIVIGEKCWLATDVFVAPGVTIG  146
+            N  AH  I +  Y+       T +HD            +VIG+KCW+  +  + PGV +G
+Sbjct  46   NFSAHIYIGKGSYIAPNVGIITSNHDLADLESHTEGKDVVIGDKCWIGMNSVILPGVVLG  105
+
+Query  147  HGTVVGARSSVFKSLP-ANAICRGNPAVVTRQ  177
+            +GT+V A + V KS    N +  G PA + ++
+Sbjct  106  NGTIVAAGAVVTKSFKQGNIVIAGVPAKIIKE  137
+
+
+>VFG005069(gb|WP_000636151) (cap8J) type 8 capsular polysaccharide 
+synthesis protein Cap8J [Capsule (VF0003) - Immune modulation 
+(VFC0258)] [Staphylococcus aureus subsp. aureus MRSA252]
+Length=185
+
+ Score = 46.2 bits (108),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 28/87 (32%), Positives = 42/87 (48%), Gaps = 1/87 (1%)
+
+Query  92   INIGAHAVISQKGYLCTGSHDYTSAHFDINAAPIVIGEKCWLATDVFVAPGVTIGHGTVV  151
+            I IG    I+    + T +H+  +         + IG   W+  +  + PGV +G  T+V
+Sbjct  98   IYIGRGVYIAPNVGIITANHNIKNLKSHAPGEDVKIGNYSWIGMNSVILPGVELGEHTIV  157
+
+Query  152  GARSSVFKSLP-ANAICRGNPAVVTRQ  177
+            GA S V KS P  N +  GNPA V ++
+Sbjct  158  GAGSVVTKSFPEGNVVIGGNPAKVIKK  184
+
+
+>VFG001306(gb|WP_000636149) (cap8J) type 8 capsular polysaccharide 
+synthesis protein Cap8J [Capsule (VF0003) - Immune modulation 
+(VFC0258)] [Staphylococcus aureus subsp. aureus MW2]
+Length=185
+
+ Score = 45.8 bits (107),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 27/87 (31%), Positives = 42/87 (48%), Gaps = 1/87 (1%)
+
+Query  92   INIGAHAVISQKGYLCTGSHDYTSAHFDINAAPIVIGEKCWLATDVFVAPGVTIGHGTVV  151
+            I IG    I+    + T +H+  +         + IG   W+  +  + PGV +G  T+V
+Sbjct  98   IYIGRGVYIAPNVGIITANHNIKNLKSHAPGEDVKIGNYSWIGMNSVILPGVELGEHTIV  157
+
+Query  152  GARSSVFKSLP-ANAICRGNPAVVTRQ  177
+            GA S V KS P  N +  GNPA + ++
+Sbjct  158  GAGSVVTKSFPEGNVVIGGNPAKIIKK  184
+
+
+>VFG045302(gb|WP_010946491) (LPG_RS03740) acetyltransferase [LPS 
+(VF0171) - Immune modulation (VFC0258)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=202
+
+ Score = 45.8 bits (107),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 37/139 (27%), Positives = 64/139 (46%), Gaps = 13/139 (9%)
+
+Query  41   RWRAFLLRLFGAKIGKNVVIRPSVKITYPWKLTVGDYAWVGDDAVLYTLGEINIGAHAVI  100
+            + R  ++ L  +      +I P+  I    +L  G  +++   A+L    E  +G   +I
+Sbjct  71   QARKNVIDLMNSNANLFTIIHPAAIIAKSARLGAG--SFIAAQAILGP--ECQVGEGCII  126
+
+Query  101  SQKGYLCTGSHDY---TSAHFDINA---APIVIGEKCWLATDVFVAPGVTIGHGTVVGAR  154
+            +    +    H+    + +H   N+     + IGE+  +     V PGVTIG G ++GA 
+Sbjct  127  NHSAVV---DHEVIVGSCSHIAPNSTLGGRVKIGERVLIGAGAVVLPGVTIGDGAIIGAG  183
+
+Query  155  SSVFKSLPANAICRGNPAV  173
+            S V K +  NA+ +G PAV
+Sbjct  184  SVVVKDVKENAVVKGVPAV  202
+
+
+>VFG005975(gb|WP_011226040) (STU_RS14610) serine acetyltransferase 
+[Capsule (VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus LMG 18311]
+Length=159
+
+ Score = 45.1 bits (105),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 35/128 (27%), Positives = 59/128 (46%), Gaps = 20/128 (16%)
+
+Query  45   FLLRLFGAKIGKNVVIRPSVKITYPWKLTVGDYAWVGDDAVLYTLGEINIGAHAVISQKG  104
+            F++  FG ++  +  I  ++ + +P+ + V   A +GD+ V+             I  KG
+Sbjct  42   FVIGFFGTELQASQSISNNIILFHPYGIVVSGEATLGDEVVIRQ--------QVTIGNKG  93
+
+Query  105  YLCTGSHDYTSAHFDINAAPIVIGEKCWLATDVFVAPGVTIGHGTVVGARSSVFKSLPAN  164
+                G+ D           PI IG++  +     +  G+TIG  + +GA + V KS PAN
+Sbjct  94   -TGEGADD----------CPI-IGDRVDIGAGAKIIGGITIGENSKIGANAVVTKSFPAN  141
+
+Query  165  AICRGNPA  172
+            +I  G PA
+Sbjct  142  SILVGVPA  149
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 960126750
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,97 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3731.t1
+
+Length=402
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044377(gb|AAL65284) (qbsB) QbsB [Thioquinolobactin (VF0937) - ...  51.6    4e-07
+VFG001965(gb|YP_002344820) (Cj1437c) aminotransferase [Capsule (V...  50.8    7e-07
+
+
+>VFG044377(gb|AAL65284) (qbsB) QbsB [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=363
+
+ Score = 51.6 bits (122),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 51/156 (33%), Positives = 75/156 (48%), Gaps = 20/156 (13%)
+
+Query  119  GEAPGLVVSPNPFYQIYEGAALLAGAVPHYLPCREENGFN-PDFDAVDEATWQRCQILFL  177
+            G    LVV+  P Y I E AA  AGA  H +P R++   +     AV++A      +++L
+Sbjct  102  GPGRSLVVA-TPGYPICELAARRAGADVHKVPLRKDGAHDLARMCAVEDAG-----LIYL  155
+
+Query  178  CSPGNPTGALVPLETLKKLIALADR-YDFVIAADECYSELYFDENAPPPGLLNACAELGR  236
+            C+P NPTG + P   +  L ALA +  D V+  DE Y + + DE    P +L    +  R
+Sbjct  156  CNPNNPTGTITPHNAI--LQALAQKPGDAVLLVDEAYLQ-FCDE----PSMLPWIEQ--R  206
+
+Query  237  TDFSRCVVFHSLSKRSNLPGLRSGFVAGDAEILKKF  272
+             D    +V  + SK   L GLR G      + L++ 
+Sbjct  207  ADL---IVLRTFSKIYGLAGLRIGMAMAQPQTLQRI  239
+
+
+>VFG001965(gb|YP_002344820) (Cj1437c) aminotransferase [Capsule 
+(VF0323) - Immune modulation (VFC0258)] [Campylobacter jejuni 
+subsp. jejuni NCTC 11168]
+Length=367
+
+ Score = 50.8 bits (120),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 39/150 (26%), Positives = 73/150 (49%), Gaps = 16/150 (11%)
+
+Query  154  ENGFNPDFDAVDEATWQ-RCQILFLCSPGNPTGALVPLETLKKLIALADRYDFVIAADEC  212
+            ++ FN DFD+++    + R ++L+LC+P NPTG    ++ +K LI       F+I  DE 
+Sbjct  135  DDNFNLDFDSLEYFIHEKRIKLLYLCNPNNPTGKSYNIQKIKSLIINNPNVMFII--DEA  192
+
+Query  213  YSELYFDENAPPPGLLNACAELGRTDFSRCVVFHSLSKRSNLPGLRSGFVAGDAEILKKF  272
+            Y E     +     L+  C  L        ++  + SK   L   R G++    E ++  
+Sbjct  193  YYEF---TSQSVCDLVEQCNNL--------IITRTFSKAFALASFRIGYIISHPENIES-  240
+
+Query  273  LLYRTYHGCAMPVQTQLASIAAWNDEVHVR  302
+             + +  +  ++P+ +Q+A+ AA  D  ++R
+Sbjct  241  -INKLRNPKSVPMLSQIAANAALEDLQYMR  269
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3133265700
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

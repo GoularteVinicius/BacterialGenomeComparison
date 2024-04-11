@@ -1,0 +1,860 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g37.t1
+
+Length=95
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG023221(gb|WP_012634408) (esxA) 6 kDa early secretory antigenic...  194     1e-66
+VFG008204(gb|WP_010907487) (esxA) 6 kDa early secretory antigenic...  191     3e-65
+VFG008205(gb|WP_003891394) (esxA) 6 kDa early secretory antigenic...  84.0    9e-23
+VFG008208(gb|WP_011557499) (esxA) 6 kDa early secretory antigenic...  80.9    2e-21
+VFG002378(gb|YP_178023) (esxA) 6 kDa early secretory antigenic ta...  76.3    9e-20
+VFG023217(gb|WP_012396949) (esxA) 6 kDa early secretory antigenic...  70.9    1e-17
+VFG008505(gb|WP_015357697) (esxA) 6 kDa early secretory antigenic...  70.5    2e-17
+VFG008513(gb|YP_005362396) (esxA) 6 kDa early secretory antigenic...  62.8    2e-14
+VFG008207(gb|WP_036368692) (esxA) 6 kDa early secretory antigenic...  62.8    2e-14
+
+
+>VFG023221(gb|WP_012634408) (esxA) 6 kDa early secretory antigenic 
+target EsxA (ESAT-6) [ESAT-6/CFP-10 (VF0310) - Effector 
+delivery system (VFC0086)] [Mycobacterium leprae Br4923]
+Length=95
+
+ Score = 194 bits (494),  Expect = 1e-66, Method: Compositional matrix adjust.
+ Identities = 95/95 (100%), Positives = 95/95 (100%), Gaps = 0/95 (0%)
+
+Query  1   MIQAWHFPALQGAVNELQGSQSRIDALLEQCQESLTKLQSSWHGSGNESYSSVQQRFNQN  60
+           MIQAWHFPALQGAVNELQGSQSRIDALLEQCQESLTKLQSSWHGSGNESYSSVQQRFNQN
+Sbjct  1   MIQAWHFPALQGAVNELQGSQSRIDALLEQCQESLTKLQSSWHGSGNESYSSVQQRFNQN  60
+
+Query  61  TEGINHALGDLVQAINHSAETMQQTEAGVTSMFTG  95
+           TEGINHALGDLVQAINHSAETMQQTEAGVTSMFTG
+Sbjct  61  TEGINHALGDLVQAINHSAETMQQTEAGVTSMFTG  95
+
+
+>VFG008204(gb|WP_010907487) (esxA) 6 kDa early secretory antigenic 
+target EsxA (ESAT-6) [ESAT-6/CFP-10 (VF0310) - Effector 
+delivery system (VFC0086)] [Mycobacterium leprae TN]
+Length=95
+
+ Score = 191 bits (485),  Expect = 3e-65, Method: Compositional matrix adjust.
+ Identities = 93/95 (98%), Positives = 94/95 (99%), Gaps = 0/95 (0%)
+
+Query  1   MIQAWHFPALQGAVNELQGSQSRIDALLEQCQESLTKLQSSWHGSGNESYSSVQQRFNQN  60
+           MIQAWHFPALQGAVNELQGSQSRIDALLEQCQESLTKLQSSWHGSGNESYSSVQ+RFNQN
+Sbjct  1   MIQAWHFPALQGAVNELQGSQSRIDALLEQCQESLTKLQSSWHGSGNESYSSVQRRFNQN  60
+
+Query  61  TEGINHALGDLVQAINHSAETMQQTEAGVTSMFTG  95
+           TEGINHALGDLVQAINHSAETMQQTEAGV SMFTG
+Sbjct  61  TEGINHALGDLVQAINHSAETMQQTEAGVMSMFTG  95
+
+
+>VFG008205(gb|WP_003891394) (esxA) 6 kDa early secretory antigenic 
+target EsxA (ESAT-6) [ESAT-6/CFP-10 (VF0310) - Effector 
+delivery system (VFC0086)] [Mycobacterium smegmatis str. MC2 
+155]
+Length=95
+
+ Score = 84.0 bits (206),  Expect = 9e-23, Method: Compositional matrix adjust.
+ Identities = 39/91 (43%), Positives = 61/91 (67%), Gaps = 0/91 (0%)
+
+Query  3   QAWHFPALQGAVNELQGSQSRIDALLEQCQESLTKLQSSWHGSGNESYSSVQQRFNQNTE  62
+           Q W+F  ++G  +E+ G+ S    LL++ + SLT L S+W G+G+E+Y +VQ R++  + 
+Sbjct  4   QVWNFAGIEGGASEIHGAVSTTAGLLDEGKASLTTLASAWGGTGSEAYQAVQARWDSTSN  63
+
+Query  63  GINHALGDLVQAINHSAETMQQTEAGVTSMF  93
+            +N AL +L Q I+ + +TM QTEAGVT MF
+Sbjct  64  ELNLALQNLAQTISEAGQTMAQTEAGVTGMF  94
+
+
+>VFG008208(gb|WP_011557499) (esxA) 6 kDa early secretory antigenic 
+target EsxA (ESAT-6) [ESAT-6/CFP-10 (VF0310) - Effector 
+delivery system (VFC0086)] [Mycobacterium sp. JLS]
+Length=95
+
+ Score = 80.9 bits (198),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 38/91 (42%), Positives = 57/91 (63%), Gaps = 0/91 (0%)
+
+Query  3   QAWHFPALQGAVNELQGSQSRIDALLEQCQESLTKLQSSWHGSGNESYSSVQQRFNQNTE  62
+           Q W+F  ++G   E+ G+ S    LL++ + SL  L + W GSG+E+Y +VQ R++  + 
+Sbjct  4   QVWNFAGIEGGAGEINGAVSTTQGLLDEGKASLGALAAVWGGSGSEAYQAVQARWDNTSA  63
+
+Query  63  GINHALGDLVQAINHSAETMQQTEAGVTSMF  93
+            +N AL +L Q I+ +  TM QTEAGVT MF
+Sbjct  64  ELNAALQNLAQTISEAGSTMAQTEAGVTGMF  94
+
+
+>VFG002378(gb|YP_178023) (esxA) 6 kDa early secretory antigenic 
+target EsxA (ESAT-6) [ESAT-6/CFP-10 (VF0310) - Effector delivery 
+system (VFC0086)] [Mycobacterium tuberculosis H37Rv]
+Length=95
+
+ Score = 76.3 bits (186),  Expect = 9e-20, Method: Compositional matrix adjust.
+ Identities = 35/91 (38%), Positives = 61/91 (67%), Gaps = 0/91 (0%)
+
+Query  3   QAWHFPALQGAVNELQGSQSRIDALLEQCQESLTKLQSSWHGSGNESYSSVQQRFNQNTE  62
+           Q W+F  ++ A + +QG+ + I +LL++ ++SLTKL ++W GSG+E+Y  VQQ+++    
+Sbjct  4   QQWNFAGIEAAASAIQGNVTSIHSLLDEGKQSLTKLAAAWGGSGSEAYQGVQQKWDATAT  63
+
+Query  63  GINHALGDLVQAINHSAETMQQTEAGVTSMF  93
+            +N+AL +L + I+ + + M  TE  VT MF
+Sbjct  64  ELNNALQNLARTISEAGQAMASTEGNVTGMF  94
+
+
+>VFG023217(gb|WP_012396949) (esxA) 6 kDa early secretory antigenic 
+target EsxA (ESAT-6) [ESAT-6/CFP-10 (VF0310) - Effector 
+delivery system (VFC0086)] [Mycobacterium marinum M]
+Length=95
+
+ Score = 70.9 bits (172),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 33/91 (36%), Positives = 60/91 (66%), Gaps = 0/91 (0%)
+
+Query  3   QAWHFPALQGAVNELQGSQSRIDALLEQCQESLTKLQSSWHGSGNESYSSVQQRFNQNTE  62
+           Q W+F  ++ A + +QG+ + I +LL++ ++SL KL ++W GSG+E+Y  VQQ ++   +
+Sbjct  4   QQWNFAGIEAASSAIQGNVTSIHSLLDEGKQSLHKLAAAWGGSGSEAYRGVQQNWDSTAQ  63
+
+Query  63  GINHALGDLVQAINHSAETMQQTEAGVTSMF  93
+            +N++L +L + I+ + + M  TE  VT MF
+Sbjct  64  ELNNSLQNLARTISEAGQAMSSTEGNVTGMF  94
+
+
+>VFG008505(gb|WP_015357697) (esxA) 6 kDa early secretory antigenic 
+target EsxA (ESAT-6) [ESAT-6/CFP-10 (VF0310) - Effector 
+delivery system (VFC0086)] [Mycobacterium liflandii 128FXT]
+Length=95
+
+ Score = 70.5 bits (171),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 33/91 (36%), Positives = 59/91 (65%), Gaps = 0/91 (0%)
+
+Query  3   QAWHFPALQGAVNELQGSQSRIDALLEQCQESLTKLQSSWHGSGNESYSSVQQRFNQNTE  62
+           Q W+F  ++ A + + G+   I +LL++ ++SL KL ++W GSG+E+Y  VQQ+++   +
+Sbjct  4   QQWNFAGIEAASSSIGGNVGSIHSLLDEGKQSLHKLAAAWGGSGSEAYQGVQQKWDSTAQ  63
+
+Query  63  GINHALGDLVQAINHSAETMQQTEAGVTSMF  93
+            +N+AL +L + I+ + + M  TE  VT MF
+Sbjct  64  ELNNALQNLARTISEAGQAMSSTEGNVTGMF  94
+
+
+>VFG008513(gb|YP_005362396) (esxA) 6 kDa early secretory antigenic 
+target EsxA (ESAT-6) [ESAT-6/CFP-10 (VF0310) - Effector 
+delivery system (VFC0086)] [Mycobacterium tuberculosis RGTB327]
+Length=91
+
+ Score = 62.8 bits (151),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 29/70 (41%), Positives = 48/70 (69%), Gaps = 0/70 (0%)
+
+Query  24  IDALLEQCQESLTKLQSSWHGSGNESYSSVQQRFNQNTEGINHALGDLVQAINHSAETMQ  83
+           I +LL++ ++SLTKL ++W GSG+E+Y  VQQ+++     +N+AL +L + I+ + + M 
+Sbjct  21  IHSLLDEGKQSLTKLAAAWGGSGSEAYQGVQQKWDATATELNNALQNLARTISEAGQAMA  80
+
+Query  84  QTEAGVTSMF  93
+            TE  VT MF
+Sbjct  81  STEGNVTGMF  90
+
+
+>VFG008207(gb|WP_036368692) (esxA) 6 kDa early secretory antigenic 
+target EsxA (ESAT-6) [ESAT-6/CFP-10 (VF0310) - Effector 
+delivery system (VFC0086)] [Mycobacterium vanbaalenii PYR-1]
+Length=98
+
+ Score = 62.8 bits (151),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 31/90 (34%), Positives = 51/90 (57%), Gaps = 0/90 (0%)
+
+Query  5   WHFPALQGAVNELQGSQSRIDALLEQCQESLTKLQSSWHGSGNESYSSVQQRFNQNTEGI  64
+           ++F  ++    E+ G   ++  LL +   +LT+LQ+ W G G  +Y +VQ R+NQN+E +
+Sbjct  9   YNFAGIESDAGEISGQVGKVAGLLAEGHGALTRLQAVWTGDGQMAYDAVQNRWNQNSEEL  68
+
+Query  65  NHALGDLVQAINHSAETMQQTEAGVTSMFT  94
+           N AL  L +A++ S   M   + GV   FT
+Sbjct  69  NLALQSLSEALSRSGGDMFGADQGVAGQFT  98
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.123    0.351    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 332095559
+
+
+Query= g288.t1
+
+Length=96
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG022098(gb|NP_214802) (esxH) Type VII secretion system protein ...  192     2e-65
+VFG023360(gb|WP_003910092) (esxH) Type VII secretion system prote...  191     4e-65
+VFG028724(gb|WP_015345019) (esxH) Type VII secretion system prote...  191     5e-65
+VFG028710(gb|WP_015288927) (esxH) Type VII secretion system prote...  190     6e-65
+VFG023358(gb|WP_012392512) (esxH) Type VII secretion system prote...  171     2e-57
+VFG022106(gb|WP_011739407) (esxH) Type VII secretion system prote...  170     7e-57
+VFG023365(gb|WP_041316779) (esxH) Type VII secretion system prote...  160     4e-53
+VFG024528(gb|WP_008261663) (esxH) Type VII secretion system prote...  160     6e-53
+VFG022103(gb|WP_003879185) (esxH) Type VII secretion system prote...  159     1e-52
+VFG022108(gb|WP_011891324) (esxH) Type VII secretion system prote...  153     3e-50
+VFG022109(gb|WP_011777738) (esxH) Type VII secretion system prote...  147     6e-48
+VFG022107(gb|WP_003892041) (esxH) Type VII secretion system prote...  146     1e-47
+VFG022110(gb|WP_011557803) (esxH) Type VII secretion system prote...  145     3e-47
+VFG022105(gb|WP_010908945) (esxH) Type VII secretion system prote...  145     3e-47
+VFG023359(gb|YP_001702963) (esxH) Type VII secretion system prote...  117     4e-36
+VFG008207(gb|WP_036368692) (esxA) 6 kDa early secretory antigenic...  44.7    2e-07
+
+
+>VFG022098(gb|NP_214802) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [EsxG-EsxH 
+(VF1196) - Effector delivery system (VFC0086)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=96
+
+ Score = 192 bits (487),  Expect = 2e-65, Method: Compositional matrix adjust.
+ Identities = 96/96 (100%), Positives = 96/96 (100%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+           MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ
+Sbjct  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+
+Query  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG  96
+           AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG
+Sbjct  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG  96
+
+
+>VFG023360(gb|WP_003910092) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+africanum GM041182]
+Length=96
+
+ Score = 191 bits (484),  Expect = 4e-65, Method: Compositional matrix adjust.
+ Identities = 95/96 (99%), Positives = 96/96 (100%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+           MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ
+Sbjct  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+
+Query  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG  96
+           AMEDLVRAYH+MSSTHEANTMAMMARDTAEAAKWGG
+Sbjct  61  AMEDLVRAYHSMSSTHEANTMAMMARDTAEAAKWGG  96
+
+
+>VFG028724(gb|WP_015345019) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+tuberculosis 7199-99]
+Length=96
+
+ Score = 191 bits (484),  Expect = 5e-65, Method: Compositional matrix adjust.
+ Identities = 95/96 (99%), Positives = 95/96 (99%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+           MSQIMYNYPAM GHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ
+Sbjct  1   MSQIMYNYPAMFGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+
+Query  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG  96
+           AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG
+Sbjct  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG  96
+
+
+>VFG028710(gb|WP_015288927) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+canettii CIPT 140070010]
+Length=96
+
+ Score = 190 bits (483),  Expect = 6e-65, Method: Compositional matrix adjust.
+ Identities = 95/96 (99%), Positives = 96/96 (100%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+           MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ
+Sbjct  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+
+Query  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG  96
+           AM+DLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG
+Sbjct  61  AMDDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG  96
+
+
+>VFG023358(gb|WP_012392512) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+marinum M]
+Length=96
+
+ Score = 171 bits (434),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 82/96 (85%), Positives = 90/96 (94%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+           MSQIMYNYPAML HAGDM+GYAGT+Q LGA+I+ EQAAL SAWQGDTG+TYQAWQAQWNQ
+Sbjct  1   MSQIMYNYPAMLAHAGDMSGYAGTMQGLGADISAEQAALSSAWQGDTGVTYQAWQAQWNQ  60
+
+Query  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG  96
+           AMEDLVRAY +MS THEANTMAM+ARDT+EAAKWGG
+Sbjct  61  AMEDLVRAYQSMSGTHEANTMAMLARDTSEAAKWGG  96
+
+
+>VFG022106(gb|WP_011739407) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+ulcerans Agy99]
+Length=96
+
+ Score = 170 bits (430),  Expect = 7e-57, Method: Compositional matrix adjust.
+ Identities = 81/96 (84%), Positives = 89/96 (93%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+           MSQIMYNYPAML HAGDM+GYAGT+Q LGA+I+ EQAAL SAWQGDTG+TYQAWQAQWNQ
+Sbjct  1   MSQIMYNYPAMLAHAGDMSGYAGTMQGLGADISAEQAALSSAWQGDTGVTYQAWQAQWNQ  60
+
+Query  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG  96
+           AMEDLVRAY +MS THEANTMAM+ARDT+EA KWGG
+Sbjct  61  AMEDLVRAYQSMSGTHEANTMAMLARDTSEATKWGG  96
+
+
+>VFG023365(gb|WP_041316779) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+sp. JDM601]
+Length=95
+
+ Score = 160 bits (406),  Expect = 4e-53, Method: Compositional matrix adjust.
+ Identities = 78/95 (82%), Positives = 87/95 (92%), Gaps = 0/95 (0%)
+
+Query  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+           MSQIMYNYPAML HAG+M GYAGTLQ++GA+IA EQAALQ+AWQGDTG+TYQAWQ QWNQ
+Sbjct  1   MSQIMYNYPAMLAHAGEMNGYAGTLQAVGADIASEQAALQAAWQGDTGMTYQAWQVQWNQ  60
+
+Query  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWG  95
+           AME+LVRAYHAM+ THE NT+ M ARDTAEAAKWG
+Sbjct  61  AMEELVRAYHAMAMTHETNTLMMNARDTAEAAKWG  95
+
+
+>VFG024528(gb|WP_008261663) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+indicus pranii MTCC 9506]
+Length=96
+
+ Score = 160 bits (405),  Expect = 6e-53, Method: Compositional matrix adjust.
+ Identities = 76/96 (79%), Positives = 86/96 (90%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+           MSQIMYNYPAML HA DM+GYAGT+Q LGA+I+ EQA L +AWQGDTG+TYQ WQAQWNQ
+Sbjct  1   MSQIMYNYPAMLSHAADMSGYAGTMQGLGADISAEQATLSNAWQGDTGMTYQVWQAQWNQ  60
+
+Query  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG  96
+           AME LVRAY +M+STHEANTM+M+ARD AEAAKWGG
+Sbjct  61  AMESLVRAYQSMASTHEANTMSMLARDQAEAAKWGG  96
+
+
+>VFG022103(gb|WP_003879185) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+avium subsp. paratuberculosis K-10]
+Length=96
+
+ Score = 159 bits (403),  Expect = 1e-52, Method: Compositional matrix adjust.
+ Identities = 76/96 (79%), Positives = 86/96 (90%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+           MSQIMYNYPAML HA DM+GYAGT+Q LGA+IA EQA L +AWQGDTG+TYQ WQAQWN+
+Sbjct  1   MSQIMYNYPAMLSHAADMSGYAGTMQGLGADIASEQATLSNAWQGDTGMTYQVWQAQWNE  60
+
+Query  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG  96
+           AME LVRAY +M+STHEANTM+M+ARD AEAAKWGG
+Sbjct  61  AMESLVRAYQSMASTHEANTMSMLARDQAEAAKWGG  96
+
+
+>VFG022108(gb|WP_011891324) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+gilvum PYR-GCK]
+Length=95
+
+ Score = 153 bits (387),  Expect = 3e-50, Method: Compositional matrix adjust.
+ Identities = 73/95 (77%), Positives = 84/95 (88%), Gaps = 0/95 (0%)
+
+Query  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+           MSQIM+NYPAML HAG+M+ YAG LQ++GA+IA EQAAL+SAWQGDTG+TYQAWQAQWN 
+Sbjct  1   MSQIMFNYPAMLNHAGEMSSYAGALQAIGADIAAEQAALKSAWQGDTGVTYQAWQAQWNT  60
+
+Query  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWG  95
+           AME+LVRAY AM+STHE NT +M ARD AE AKWG
+Sbjct  61  AMEELVRAYRAMASTHEMNTTSMAARDQAEGAKWG  95
+
+
+>VFG022109(gb|WP_011777738) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+vanbaalenii PYR-1]
+Length=95
+
+ Score = 147 bits (372),  Expect = 6e-48, Method: Compositional matrix adjust.
+ Identities = 72/95 (76%), Positives = 81/95 (85%), Gaps = 0/95 (0%)
+
+Query  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+           MSQIMYNYPAML HAG+M  YAG L ++GA+IA EQ ALQSAWQGDTG+TYQAWQAQWN 
+Sbjct  1   MSQIMYNYPAMLAHAGEMNSYAGALHAVGADIAAEQTALQSAWQGDTGLTYQAWQAQWNG  60
+
+Query  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWG  95
+           AME+LVRAY AM++THE NT +M ARD AE AKWG
+Sbjct  61  AMEELVRAYRAMAATHEMNTTSMAARDQAEGAKWG  95
+
+
+>VFG022107(gb|WP_003892041) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+smegmatis str. MC2 155]
+Length=95
+
+ Score = 146 bits (369),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 72/95 (76%), Positives = 81/95 (85%), Gaps = 0/95 (0%)
+
+Query  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+           MSQIMYNYPAML HA +M  Y+G L ++GA+IA EQ AL SAWQGDTG+TYQAWQAQWNQ
+Sbjct  1   MSQIMYNYPAMLAHAAEMNTYSGALHAVGADIAAEQHALASAWQGDTGMTYQAWQAQWNQ  60
+
+Query  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWG  95
+           AME+LVRAY AM++THE NTMAM ARD AE AKWG
+Sbjct  61  AMEELVRAYRAMATTHEQNTMAMSARDQAEGAKWG  95
+
+
+>VFG022110(gb|WP_011557803) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+sp. JLS]
+Length=95
+
+ Score = 145 bits (367),  Expect = 3e-47, Method: Compositional matrix adjust.
+ Identities = 70/95 (74%), Positives = 82/95 (86%), Gaps = 0/95 (0%)
+
+Query  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+           MSQIMYNYPAML HAG+M+ YAG + ++GA+IA EQAAL  AWQGDTG+TYQAWQAQWN 
+Sbjct  1   MSQIMYNYPAMLAHAGEMSSYAGAMHAVGADIASEQAALAGAWQGDTGMTYQAWQAQWNA  60
+
+Query  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWG  95
+           ++E+LVRAY AM+STHE NTM+M ARD AE AKWG
+Sbjct  61  SLEELVRAYRAMASTHEMNTMSMSARDQAEGAKWG  95
+
+
+>VFG022105(gb|WP_010908945) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+leprae TN]
+Length=96
+
+ Score = 145 bits (367),  Expect = 3e-47, Method: Compositional matrix adjust.
+ Identities = 68/96 (71%), Positives = 82/96 (85%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+           M+QIMYNYPAML HAG+M+  AG LQ +G +IA EQAALQ+ W GDTGI+YQAWQ QWNQ
+Sbjct  1   MTQIMYNYPAMLDHAGNMSACAGALQGVGIDIAAEQAALQACWGGDTGISYQAWQVQWNQ  60
+
+Query  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG  96
+           A E++VRAYHAM++TH+ NT+AM+ RD AEAAKWGG
+Sbjct  61  ATEEMVRAYHAMANTHQNNTLAMLTRDQAEAAKWGG  96
+
+
+>VFG023359(gb|YP_001702963) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+abscessus ATCC 19977]
+Length=96
+
+ Score = 117 bits (294),  Expect = 4e-36, Method: Compositional matrix adjust.
+ Identities = 62/95 (65%), Positives = 77/95 (81%), Gaps = 0/95 (0%)
+
+Query  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+           MSQI +NYPAML HAG+M  Y+G L +LGA++A +QA+LQ+AW GDT ++  AWQAQWN 
+Sbjct  1   MSQITFNYPAMLAHAGEMNTYSGVLTALGADLAAQQASLQAAWHGDTSMSQAAWQAQWNT  60
+
+Query  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWG  95
+           AME+L+RAY AM STHE NT++M ARD AE AKWG
+Sbjct  61  AMEELIRAYRAMGSTHETNTLSMNARDMAEGAKWG  95
+
+
+>VFG008207(gb|WP_036368692) (esxA) 6 kDa early secretory antigenic 
+target EsxA (ESAT-6) [ESAT-6/CFP-10 (VF0310) - Effector 
+delivery system (VFC0086)] [Mycobacterium vanbaalenii PYR-1]
+Length=98
+
+ Score = 44.7 bits (104),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 28/91 (31%), Positives = 43/91 (47%), Gaps = 0/91 (0%)
+
+Query  4   IMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQAME  63
+           I YN+  +   AG+++G  G +  L AE       LQ+ W GD  + Y A Q +WNQ  E
+Sbjct  7   ITYNFAGIESDAGEISGQVGKVAGLLAEGHGALTRLQAVWTGDGQMAYDAVQNRWNQNSE  66
+
+Query  64  DLVRAYHAMSSTHEANTMAMMARDTAEAAKW  94
+           +L  A  ++S     +   M   D   A ++
+Sbjct  67  ELNLALQSLSEALSRSGGDMFGADQGVAGQF  97
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.122    0.372    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 331284081
+
+
+Query= g2968.t1
+
+Length=96
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG023358(gb|WP_012392512) (esxH) Type VII secretion system prote...  172     7e-58
+VFG022106(gb|WP_011739407) (esxH) Type VII secretion system prote...  171     3e-57
+VFG023360(gb|WP_003910092) (esxH) Type VII secretion system prote...  169     2e-56
+VFG022098(gb|NP_214802) (esxH) Type VII secretion system protein ...  167     6e-56
+VFG028724(gb|WP_015345019) (esxH) Type VII secretion system prote...  167     1e-55
+VFG028710(gb|WP_015288927) (esxH) Type VII secretion system prote...  166     3e-55
+VFG022103(gb|WP_003879185) (esxH) Type VII secretion system prote...  162     9e-54
+VFG024528(gb|WP_008261663) (esxH) Type VII secretion system prote...  161     3e-53
+VFG023365(gb|WP_041316779) (esxH) Type VII secretion system prote...  154     1e-50
+VFG022108(gb|WP_011891324) (esxH) Type VII secretion system prote...  146     2e-47
+VFG022110(gb|WP_011557803) (esxH) Type VII secretion system prote...  145     3e-47
+VFG022107(gb|WP_003892041) (esxH) Type VII secretion system prote...  145     6e-47
+VFG022109(gb|WP_011777738) (esxH) Type VII secretion system prote...  142     6e-46
+VFG022105(gb|WP_010908945) (esxH) Type VII secretion system prote...  139     8e-45
+VFG023359(gb|YP_001702963) (esxH) Type VII secretion system prote...  114     2e-34
+VFG008207(gb|WP_036368692) (esxA) 6 kDa early secretory antigenic...  43.5    6e-07
+
+
+>VFG023358(gb|WP_012392512) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+marinum M]
+Length=96
+
+ Score = 172 bits (437),  Expect = 7e-58, Method: Compositional matrix adjust.
+ Identities = 82/96 (85%), Positives = 91/96 (95%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMMAHAGDMAGYAGTLQSLGADIASEQAVLSSAWQGDTGITYQGWQTQWNQ  60
+           MSQIMYNYPAM+AHAGDM+GYAGT+Q LGADI++EQA LSSAWQGDTG+TYQ WQ QWNQ
+Sbjct  1   MSQIMYNYPAMLAHAGDMSGYAGTMQGLGADISAEQAALSSAWQGDTGVTYQAWQAQWNQ  60
+
+Query  61  ALEDLVRAYQSMSGTHESNTMAMLARDGAEAAKWGG  96
+           A+EDLVRAYQSMSGTHE+NTMAMLARD +EAAKWGG
+Sbjct  61  AMEDLVRAYQSMSGTHEANTMAMLARDTSEAAKWGG  96
+
+
+>VFG022106(gb|WP_011739407) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+ulcerans Agy99]
+Length=96
+
+ Score = 171 bits (433),  Expect = 3e-57, Method: Compositional matrix adjust.
+ Identities = 81/96 (84%), Positives = 90/96 (94%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMMAHAGDMAGYAGTLQSLGADIASEQAVLSSAWQGDTGITYQGWQTQWNQ  60
+           MSQIMYNYPAM+AHAGDM+GYAGT+Q LGADI++EQA LSSAWQGDTG+TYQ WQ QWNQ
+Sbjct  1   MSQIMYNYPAMLAHAGDMSGYAGTMQGLGADISAEQAALSSAWQGDTGVTYQAWQAQWNQ  60
+
+Query  61  ALEDLVRAYQSMSGTHESNTMAMLARDGAEAAKWGG  96
+           A+EDLVRAYQSMSGTHE+NTMAMLARD +EA KWGG
+Sbjct  61  AMEDLVRAYQSMSGTHEANTMAMLARDTSEATKWGG  96
+
+
+>VFG023360(gb|WP_003910092) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+africanum GM041182]
+Length=96
+
+ Score = 169 bits (427),  Expect = 2e-56, Method: Compositional matrix adjust.
+ Identities = 82/96 (85%), Positives = 87/96 (91%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMMAHAGDMAGYAGTLQSLGADIASEQAVLSSAWQGDTGITYQGWQTQWNQ  60
+           MSQIMYNYPAM+ HAGDMAGYAGTLQSLGA+IA EQA L SAWQGDTGITYQ WQ QWNQ
+Sbjct  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+
+Query  61  ALEDLVRAYQSMSGTHESNTMAMLARDGAEAAKWGG  96
+           A+EDLVRAY SMS THE+NTMAM+ARD AEAAKWGG
+Sbjct  61  AMEDLVRAYHSMSSTHEANTMAMMARDTAEAAKWGG  96
+
+
+>VFG022098(gb|NP_214802) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [EsxG-EsxH 
+(VF1196) - Effector delivery system (VFC0086)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=96
+
+ Score = 167 bits (424),  Expect = 6e-56, Method: Compositional matrix adjust.
+ Identities = 81/96 (84%), Positives = 87/96 (91%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMMAHAGDMAGYAGTLQSLGADIASEQAVLSSAWQGDTGITYQGWQTQWNQ  60
+           MSQIMYNYPAM+ HAGDMAGYAGTLQSLGA+IA EQA L SAWQGDTGITYQ WQ QWNQ
+Sbjct  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+
+Query  61  ALEDLVRAYQSMSGTHESNTMAMLARDGAEAAKWGG  96
+           A+EDLVRAY +MS THE+NTMAM+ARD AEAAKWGG
+Sbjct  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG  96
+
+
+>VFG028724(gb|WP_015345019) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+tuberculosis 7199-99]
+Length=96
+
+ Score = 167 bits (422),  Expect = 1e-55, Method: Compositional matrix adjust.
+ Identities = 81/96 (84%), Positives = 86/96 (90%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMMAHAGDMAGYAGTLQSLGADIASEQAVLSSAWQGDTGITYQGWQTQWNQ  60
+           MSQIMYNYPAM  HAGDMAGYAGTLQSLGA+IA EQA L SAWQGDTGITYQ WQ QWNQ
+Sbjct  1   MSQIMYNYPAMFGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+
+Query  61  ALEDLVRAYQSMSGTHESNTMAMLARDGAEAAKWGG  96
+           A+EDLVRAY +MS THE+NTMAM+ARD AEAAKWGG
+Sbjct  61  AMEDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG  96
+
+
+>VFG028710(gb|WP_015288927) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+canettii CIPT 140070010]
+Length=96
+
+ Score = 166 bits (419),  Expect = 3e-55, Method: Compositional matrix adjust.
+ Identities = 80/96 (83%), Positives = 87/96 (91%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMMAHAGDMAGYAGTLQSLGADIASEQAVLSSAWQGDTGITYQGWQTQWNQ  60
+           MSQIMYNYPAM+ HAGDMAGYAGTLQSLGA+IA EQA L SAWQGDTGITYQ WQ QWNQ
+Sbjct  1   MSQIMYNYPAMLGHAGDMAGYAGTLQSLGAEIAVEQAALQSAWQGDTGITYQAWQAQWNQ  60
+
+Query  61  ALEDLVRAYQSMSGTHESNTMAMLARDGAEAAKWGG  96
+           A++DLVRAY +MS THE+NTMAM+ARD AEAAKWGG
+Sbjct  61  AMDDLVRAYHAMSSTHEANTMAMMARDTAEAAKWGG  96
+
+
+>VFG022103(gb|WP_003879185) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+avium subsp. paratuberculosis K-10]
+Length=96
+
+ Score = 162 bits (410),  Expect = 9e-54, Method: Compositional matrix adjust.
+ Identities = 77/96 (80%), Positives = 88/96 (92%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMMAHAGDMAGYAGTLQSLGADIASEQAVLSSAWQGDTGITYQGWQTQWNQ  60
+           MSQIMYNYPAM++HA DM+GYAGT+Q LGADIASEQA LS+AWQGDTG+TYQ WQ QWN+
+Sbjct  1   MSQIMYNYPAMLSHAADMSGYAGTMQGLGADIASEQATLSNAWQGDTGMTYQVWQAQWNE  60
+
+Query  61  ALEDLVRAYQSMSGTHESNTMAMLARDGAEAAKWGG  96
+           A+E LVRAYQSM+ THE+NTM+MLARD AEAAKWGG
+Sbjct  61  AMESLVRAYQSMASTHEANTMSMLARDQAEAAKWGG  96
+
+
+>VFG024528(gb|WP_008261663) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+indicus pranii MTCC 9506]
+Length=96
+
+ Score = 161 bits (407),  Expect = 3e-53, Method: Compositional matrix adjust.
+ Identities = 76/96 (79%), Positives = 88/96 (92%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMMAHAGDMAGYAGTLQSLGADIASEQAVLSSAWQGDTGITYQGWQTQWNQ  60
+           MSQIMYNYPAM++HA DM+GYAGT+Q LGADI++EQA LS+AWQGDTG+TYQ WQ QWNQ
+Sbjct  1   MSQIMYNYPAMLSHAADMSGYAGTMQGLGADISAEQATLSNAWQGDTGMTYQVWQAQWNQ  60
+
+Query  61  ALEDLVRAYQSMSGTHESNTMAMLARDGAEAAKWGG  96
+           A+E LVRAYQSM+ THE+NTM+MLARD AEAAKWGG
+Sbjct  61  AMESLVRAYQSMASTHEANTMSMLARDQAEAAKWGG  96
+
+
+>VFG023365(gb|WP_041316779) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+sp. JDM601]
+Length=95
+
+ Score = 154 bits (390),  Expect = 1e-50, Method: Compositional matrix adjust.
+ Identities = 73/95 (77%), Positives = 85/95 (89%), Gaps = 0/95 (0%)
+
+Query  1   MSQIMYNYPAMMAHAGDMAGYAGTLQSLGADIASEQAVLSSAWQGDTGITYQGWQTQWNQ  60
+           MSQIMYNYPAM+AHAG+M GYAGTLQ++GADIASEQA L +AWQGDTG+TYQ WQ QWNQ
+Sbjct  1   MSQIMYNYPAMLAHAGEMNGYAGTLQAVGADIASEQAALQAAWQGDTGMTYQAWQVQWNQ  60
+
+Query  61  ALEDLVRAYQSMSGTHESNTMAMLARDGAEAAKWG  95
+           A+E+LVRAY +M+ THE+NT+ M ARD AEAAKWG
+Sbjct  61  AMEELVRAYHAMAMTHETNTLMMNARDTAEAAKWG  95
+
+
+>VFG022108(gb|WP_011891324) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+gilvum PYR-GCK]
+Length=95
+
+ Score = 146 bits (368),  Expect = 2e-47, Method: Compositional matrix adjust.
+ Identities = 67/95 (71%), Positives = 81/95 (85%), Gaps = 0/95 (0%)
+
+Query  1   MSQIMYNYPAMMAHAGDMAGYAGTLQSLGADIASEQAVLSSAWQGDTGITYQGWQTQWNQ  60
+           MSQIM+NYPAM+ HAG+M+ YAG LQ++GADIA+EQA L SAWQGDTG+TYQ WQ QWN 
+Sbjct  1   MSQIMFNYPAMLNHAGEMSSYAGALQAIGADIAAEQAALKSAWQGDTGVTYQAWQAQWNT  60
+
+Query  61  ALEDLVRAYQSMSGTHESNTMAMLARDGAEAAKWG  95
+           A+E+LVRAY++M+ THE NT +M ARD AE AKWG
+Sbjct  61  AMEELVRAYRAMASTHEMNTTSMAARDQAEGAKWG  95
+
+
+>VFG022110(gb|WP_011557803) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+sp. JLS]
+Length=95
+
+ Score = 145 bits (367),  Expect = 3e-47, Method: Compositional matrix adjust.
+ Identities = 68/95 (72%), Positives = 82/95 (86%), Gaps = 0/95 (0%)
+
+Query  1   MSQIMYNYPAMMAHAGDMAGYAGTLQSLGADIASEQAVLSSAWQGDTGITYQGWQTQWNQ  60
+           MSQIMYNYPAM+AHAG+M+ YAG + ++GADIASEQA L+ AWQGDTG+TYQ WQ QWN 
+Sbjct  1   MSQIMYNYPAMLAHAGEMSSYAGAMHAVGADIASEQAALAGAWQGDTGMTYQAWQAQWNA  60
+
+Query  61  ALEDLVRAYQSMSGTHESNTMAMLARDGAEAAKWG  95
+           +LE+LVRAY++M+ THE NTM+M ARD AE AKWG
+Sbjct  61  SLEELVRAYRAMASTHEMNTMSMSARDQAEGAKWG  95
+
+
+>VFG022107(gb|WP_003892041) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+smegmatis str. MC2 155]
+Length=95
+
+ Score = 145 bits (365),  Expect = 6e-47, Method: Compositional matrix adjust.
+ Identities = 68/95 (72%), Positives = 81/95 (85%), Gaps = 0/95 (0%)
+
+Query  1   MSQIMYNYPAMMAHAGDMAGYAGTLQSLGADIASEQAVLSSAWQGDTGITYQGWQTQWNQ  60
+           MSQIMYNYPAM+AHA +M  Y+G L ++GADIA+EQ  L+SAWQGDTG+TYQ WQ QWNQ
+Sbjct  1   MSQIMYNYPAMLAHAAEMNTYSGALHAVGADIAAEQHALASAWQGDTGMTYQAWQAQWNQ  60
+
+Query  61  ALEDLVRAYQSMSGTHESNTMAMLARDGAEAAKWG  95
+           A+E+LVRAY++M+ THE NTMAM ARD AE AKWG
+Sbjct  61  AMEELVRAYRAMATTHEQNTMAMSARDQAEGAKWG  95
+
+
+>VFG022109(gb|WP_011777738) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+vanbaalenii PYR-1]
+Length=95
+
+ Score = 142 bits (359),  Expect = 6e-46, Method: Compositional matrix adjust.
+ Identities = 67/95 (71%), Positives = 79/95 (83%), Gaps = 0/95 (0%)
+
+Query  1   MSQIMYNYPAMMAHAGDMAGYAGTLQSLGADIASEQAVLSSAWQGDTGITYQGWQTQWNQ  60
+           MSQIMYNYPAM+AHAG+M  YAG L ++GADIA+EQ  L SAWQGDTG+TYQ WQ QWN 
+Sbjct  1   MSQIMYNYPAMLAHAGEMNSYAGALHAVGADIAAEQTALQSAWQGDTGLTYQAWQAQWNG  60
+
+Query  61  ALEDLVRAYQSMSGTHESNTMAMLARDGAEAAKWG  95
+           A+E+LVRAY++M+ THE NT +M ARD AE AKWG
+Sbjct  61  AMEELVRAYRAMAATHEMNTTSMAARDQAEGAKWG  95
+
+
+>VFG022105(gb|WP_010908945) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+leprae TN]
+Length=96
+
+ Score = 139 bits (351),  Expect = 8e-45, Method: Compositional matrix adjust.
+ Identities = 64/96 (67%), Positives = 79/96 (82%), Gaps = 0/96 (0%)
+
+Query  1   MSQIMYNYPAMMAHAGDMAGYAGTLQSLGADIASEQAVLSSAWQGDTGITYQGWQTQWNQ  60
+           M+QIMYNYPAM+ HAG+M+  AG LQ +G DIA+EQA L + W GDTGI+YQ WQ QWNQ
+Sbjct  1   MTQIMYNYPAMLDHAGNMSACAGALQGVGIDIAAEQAALQACWGGDTGISYQAWQVQWNQ  60
+
+Query  61  ALEDLVRAYQSMSGTHESNTMAMLARDGAEAAKWGG  96
+           A E++VRAY +M+ TH++NT+AML RD AEAAKWGG
+Sbjct  61  ATEEMVRAYHAMANTHQNNTLAMLTRDQAEAAKWGG  96
+
+
+>VFG023359(gb|YP_001702963) (esxH) Type VII secretion system protein 
+ESXH (10 kDa antigen) (CFP-7) (protein TB10.4) [ESX-3 
+(VF0521) - Effector delivery system (VFC0086)] [Mycobacterium 
+abscessus ATCC 19977]
+Length=96
+
+ Score = 114 bits (284),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 57/95 (60%), Positives = 76/95 (80%), Gaps = 0/95 (0%)
+
+Query  1   MSQIMYNYPAMMAHAGDMAGYAGTLQSLGADIASEQAVLSSAWQGDTGITYQGWQTQWNQ  60
+           MSQI +NYPAM+AHAG+M  Y+G L +LGAD+A++QA L +AW GDT ++   WQ QWN 
+Sbjct  1   MSQITFNYPAMLAHAGEMNTYSGVLTALGADLAAQQASLQAAWHGDTSMSQAAWQAQWNT  60
+
+Query  61  ALEDLVRAYQSMSGTHESNTMAMLARDGAEAAKWG  95
+           A+E+L+RAY++M  THE+NT++M ARD AE AKWG
+Sbjct  61  AMEELIRAYRAMGSTHETNTLSMNARDMAEGAKWG  95
+
+
+>VFG008207(gb|WP_036368692) (esxA) 6 kDa early secretory antigenic 
+target EsxA (ESAT-6) [ESAT-6/CFP-10 (VF0310) - Effector 
+delivery system (VFC0086)] [Mycobacterium vanbaalenii PYR-1]
+Length=98
+
+ Score = 43.5 bits (101),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 24/70 (34%), Positives = 37/70 (53%), Gaps = 0/70 (0%)
+
+Query  4   IMYNYPAMMAHAGDMAGYAGTLQSLGADIASEQAVLSSAWQGDTGITYQGWQTQWNQALE  63
+           I YN+  + + AG+++G  G +  L A+       L + W GD  + Y   Q +WNQ  E
+Sbjct  7   ITYNFAGIESDAGEISGQVGKVAGLLAEGHGALTRLQAVWTGDGQMAYDAVQNRWNQNSE  66
+
+Query  64  DLVRAYQSMS  73
+           +L  A QS+S
+Sbjct  67  ELNLALQSLS  76
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.123    0.374    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 331284081
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

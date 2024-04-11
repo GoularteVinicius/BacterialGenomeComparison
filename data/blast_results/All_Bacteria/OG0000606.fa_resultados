@@ -1,0 +1,185 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g670.t1
+
+Length=367
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG005784(gb|WP_001092618) (cylF) putative aminomethyltransferase...  61.2    2e-10
+
+
+>VFG005784(gb|WP_001092618) (cylF) putative aminomethyltransferase 
+CylF [Beta-haemolysin/cytolysin (VF0279) - Exotoxin (VFC0235)] 
+[Streptococcus agalactiae NEM316]
+Length=317
+
+ Score = 61.2 bits (147),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 48/190 (25%), Positives = 87/190 (46%), Gaps = 15/190 (8%)
+
+Query  89   YTLCCSESGGVIDDLIAYYVDDDEIFLVSNAANTAAVVDALQAVVPAGLTIINQHRSHAV  148
+            YT   +E G V DD + +Y  DD+ +L S+ A     +D+    +    T+ +    + +
+Sbjct  51   YTFLLNEDGTVYDD-VTFYKFDDKYWLASHKA-----LDSYLDNINFDYTVTDISDEYKM  104
+
+Query  149  LAVQGPRSTDV---LGELGLPTGIDYMGYVDASYAGVPVRVCRTGYTGEQGYELLPPWES  205
+            L ++G  S ++     E  + T +++   ++ +Y G    + R G++GE GY+   P   
+Sbjct  105  LQIEGRYSGEIAQSFYEYDIST-LNFRTLIEMTYKGEKGYLARFGFSGEFGYQFFLP---  160
+
+Query  206  ADVVFDALVAAVVDARGEPAGLGARDTLRTEMGYPLYGHELSLDISPLQARCGWAIGWKK  265
+               +F   V+ V +   E      R  LR E+G P+       + S  +    W + + K
+Sbjct  161  -SSIFATFVSDVCEGIAEYGDELDR-YLRFEVGQPITDIYQQEEYSLYEIGYSWNLDFTK  218
+
+Query  266  DAFLGRDALL  275
+            + F GRD+LL
+Sbjct  219  EEFRGRDSLL  228
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2785605466
+
+
+Query= g2184.t1
+
+Length=367
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.138    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2785605466
+
+
+Query= g2482.t1
+
+Length=373
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2830383349
+
+
+Query= g5315.t1
+
+Length=360
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2712300059
+
+
+Query= g2839.t1
+
+Length=364
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG005784(gb|WP_001092618) (cylF) putative aminomethyltransferase...  50.1    8e-07
+
+
+>VFG005784(gb|WP_001092618) (cylF) putative aminomethyltransferase 
+CylF [Beta-haemolysin/cytolysin (VF0279) - Exotoxin (VFC0235)] 
+[Streptococcus agalactiae NEM316]
+Length=317
+
+ Score = 50.1 bits (118),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 63/271 (23%), Positives = 112/271 (41%), Gaps = 23/271 (8%)
+
+Query  37   HHAVRTDAGMFDVSHMTIVDLHGSRTREFLRYLLANDVAKLTKTGKALYSGMLNASGGVI  96
+            ++ +RTD G + V    + ++ G    E L  ++  ++     T    Y+ +LN  G V 
+Sbjct  5    YNTLRTDKG-YKVYEGYLYEITGEECEEALDLVIPKNIV-FADTDTCGYTFLLNEDGTVY  62
+
+Query  97   DDLIVYYFTEDFFRLVVNSATREKDLSWITQHAEPYAIDITVRDDLSLIAVQGPNAQEKA  156
+            DD+  Y F +D + L  + A      S++      Y +   + D+  ++ ++G  + E A
+Sbjct  63   DDVTFYKF-DDKYWLASHKALD----SYLDNINFDYTV-TDISDEYKMLQIEGRYSGEIA  116
+
+Query  157  ATLF-----TDQQRHAVEGMKPFFGVQAGDLFIATTGYTGEAGYEIAMPNEKAADFWRAL  211
+             + +     T   R  +E     +  + G  ++A  G++GE GY+  +P+   A F   +
+Sbjct  117  QSFYEYDISTLNFRTLIEMT---YKGEKG--YLARFGFSGEFGYQFFLPSSIFATFVSDV  171
+
+Query  212  VEAGVKPCGLGARDTLRLEAGMNLYGQEMDEGISPLAANMGWTIAWEPADRDFIGREALE  271
+             E G+   G      LR E G  +      E  S       W + +     +F GR++L 
+Sbjct  172  CE-GIAEYGDELDRYLRFEVGQPITDIYQQEEYSLYEIGYSWNLDF--TKEEFRGRDSLL  228
+
+Query  272  MQREKGHEQLVGLVMTEKGVLRNELPVRFTD  302
+                    + VG    EK  L +  PV F D
+Sbjct  229  EHIRSATVKSVGFSTKEK--LASGTPVLFDD  257
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2754188863
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,349 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g55.t1
+
+Length=132
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG021915(gb|WP_010907502) (espR) ESX-1 transcriptional regulator...  273     2e-96
+VFG021920(gb|WP_011562422) (espR) ESX-1 transcriptional regulator...  241     9e-84
+VFG021916(gb|WP_011742487) (espR) ESX-1 transcriptional regulator...  239     4e-83
+VFG021913(gb|WP_003872292) (espR) ESX-1 transcriptional regulator...  238     2e-82
+VFG021918(gb|WP_011782790) (espR) ESX-1 transcriptional regulator...  238     2e-82
+VFG021917(gb|WP_003897840) (espR) ESX-1 transcriptional regulator...  238     2e-82
+VFG024433(gb|WP_008262950) (espR) ESX-1 transcriptional regulator...  236     5e-82
+VFG028335(gb|WP_015291776) (espR) ESX-1 transcriptional regulator...  234     4e-81
+VFG023243(gb|YP_001700869) (espR) ESX-1 transcriptional regulator...  233     2e-80
+VFG021908(gb|NP_218366) (espR) ESX-1 transcriptional regulator Es...  232     2e-80
+VFG021910(gb|WP_010924725) (espR) ESX-1 transcriptional regulator...  230     1e-79
+VFG023249(gb|WP_013831082) (espR) ESX-1 transcriptional regulator...  221     4e-76
+VFG028347(gb|YP_007959815) (espR) ESX-1 transcriptional regulator...  73.2    3e-18
+VFG028350(gb|YP_005362376) (espR) ESX-1 transcriptional regulator...  62.0    4e-14
+
+
+>VFG021915(gb|WP_010907502) (espR) ESX-1 transcriptional regulator 
+EspR [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium leprae TN]
+Length=132
+
+ Score = 273 bits (697),  Expect = 2e-96, Method: Compositional matrix adjust.
+ Identities = 132/132 (100%), Positives = 132/132 (100%), Gaps = 0/132 (0%)
+
+Query  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT  60
+            MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT
+Sbjct  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT  60
+
+Query  61   ISALANFFRIKPAYFTNDEYYEKLDQELAWLATMRDEGVRRIAMRTIGLSAQAQQDIVDR  120
+            ISALANFFRIKPAYFTNDEYYEKLDQELAWLATMRDEGVRRIAMRTIGLSAQAQQDIVDR
+Sbjct  61   ISALANFFRIKPAYFTNDEYYEKLDQELAWLATMRDEGVRRIAMRTIGLSAQAQQDIVDR  120
+
+Query  121  VDELRRAEHLDV  132
+            VDELRRAEHLDV
+Sbjct  121  VDELRRAEHLDV  132
+
+
+>VFG021920(gb|WP_011562422) (espR) ESX-1 transcriptional regulator 
+EspR [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium sp. JLS]
+Length=132
+
+ Score = 241 bits (614),  Expect = 9e-84, Method: Compositional matrix adjust.
+ Identities = 114/131 (87%), Positives = 122/131 (93%), Gaps = 0/131 (0%)
+
+Query  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT  60
+            MS TFAARLNRLFDTVYPPGRGPHTSAEVI ALKAEGITMSAPYLSQLRSGNRTNPS AT
+Sbjct  1    MSKTFAARLNRLFDTVYPPGRGPHTSAEVIGALKAEGITMSAPYLSQLRSGNRTNPSQAT  60
+
+Query  61   ISALANFFRIKPAYFTNDEYYEKLDQELAWLATMRDEGVRRIAMRTIGLSAQAQQDIVDR  120
+            ++ALANFFRIKPAYFT+DEYYEKLD+EL WLA MRDEGVRRIA RT+GLS +AQQDIV +
+Sbjct  61   MAALANFFRIKPAYFTDDEYYEKLDKELTWLANMRDEGVRRIAARTVGLSPEAQQDIVAK  120
+
+Query  121  VDELRRAEHLD  131
+            VDELRR E+LD
+Sbjct  121  VDELRRKENLD  131
+
+
+>VFG021916(gb|WP_011742487) (espR) ESX-1 transcriptional regulator 
+EspR [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium ulcerans Agy99]
+Length=132
+
+ Score = 239 bits (610),  Expect = 4e-83, Method: Compositional matrix adjust.
+ Identities = 113/131 (86%), Positives = 124/131 (95%), Gaps = 0/131 (0%)
+
+Query  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT  60
+            MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPS+AT
+Sbjct  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSTAT  60
+
+Query  61   ISALANFFRIKPAYFTNDEYYEKLDQELAWLATMRDEGVRRIAMRTIGLSAQAQQDIVDR  120
+            ++ALANFFRIK AYFT+DEYYE LDQEL WLATMRD+GVRRIA+R+ GLS QAQQ+IV+R
+Sbjct  61   MAALANFFRIKSAYFTDDEYYENLDQELQWLATMRDDGVRRIAVRSQGLSTQAQQEIVER  120
+
+Query  121  VDELRRAEHLD  131
+            ++ELRR E LD
+Sbjct  121  IEELRRTERLD  131
+
+
+>VFG021913(gb|WP_003872292) (espR) ESX-1 transcriptional regulator 
+EspR [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium avium subsp. paratuberculosis K-10]
+Length=132
+
+ Score = 238 bits (606),  Expect = 2e-82, Method: Compositional matrix adjust.
+ Identities = 113/131 (86%), Positives = 124/131 (95%), Gaps = 0/131 (0%)
+
+Query  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT  60
+            MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT
+Sbjct  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT  60
+
+Query  61   ISALANFFRIKPAYFTNDEYYEKLDQELAWLATMRDEGVRRIAMRTIGLSAQAQQDIVDR  120
+            ++ALANFFRIKPAYFT+DEYYEKLD EL+WLA  RD+ VRRIAMRT  LS +AQ++++DR
+Sbjct  61   MAALANFFRIKPAYFTDDEYYEKLDAELSWLAMSRDDNVRRIAMRTAELSPEAQREVMDR  120
+
+Query  121  VDELRRAEHLD  131
+            V+ELRRAEHLD
+Sbjct  121  VNELRRAEHLD  131
+
+
+>VFG021918(gb|WP_011782790) (espR) ESX-1 transcriptional regulator 
+EspR [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium gilvum PYR-GCK]
+Length=132
+
+ Score = 238 bits (606),  Expect = 2e-82, Method: Compositional matrix adjust.
+ Identities = 113/131 (86%), Positives = 123/131 (94%), Gaps = 0/131 (0%)
+
+Query  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT  60
+            MS TFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEG+TMSAPYLSQLRSGNRTNPS AT
+Sbjct  1    MSNTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGVTMSAPYLSQLRSGNRTNPSVAT  60
+
+Query  61   ISALANFFRIKPAYFTNDEYYEKLDQELAWLATMRDEGVRRIAMRTIGLSAQAQQDIVDR  120
+            ++ALANFFRIKPAYFT+DEYYEKLD+EL  LA MRDEGVRRIA RT+GLSA+A+QDIV +
+Sbjct  61   MAALANFFRIKPAYFTDDEYYEKLDKELTLLAGMRDEGVRRIAARTVGLSAEAKQDIVQK  120
+
+Query  121  VDELRRAEHLD  131
+            VDELRR E+LD
+Sbjct  121  VDELRRRENLD  131
+
+
+>VFG021917(gb|WP_003897840) (espR) ESX-1 transcriptional regulator 
+EspR [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=134
+
+ Score = 238 bits (606),  Expect = 2e-82, Method: Compositional matrix adjust.
+ Identities = 111/131 (85%), Positives = 122/131 (93%), Gaps = 0/131 (0%)
+
+Query  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT  60
+            MS TFAARLNRLFDTVYPPGRGPHTSAEVIAALK+EGITMSAPYLSQLRSGNRTNPS+AT
+Sbjct  1    MSKTFAARLNRLFDTVYPPGRGPHTSAEVIAALKSEGITMSAPYLSQLRSGNRTNPSAAT  60
+
+Query  61   ISALANFFRIKPAYFTNDEYYEKLDQELAWLATMRDEGVRRIAMRTIGLSAQAQQDIVDR  120
+            ++ALANFFRIKPAYFT+DEYYEKLD+EL WLA MRDEGVRRIA RT+GLS +AQQD+V +
+Sbjct  61   MAALANFFRIKPAYFTDDEYYEKLDKELTWLANMRDEGVRRIAARTVGLSPEAQQDLVQK  120
+
+Query  121  VDELRRAEHLD  131
+             +ELRR E LD
+Sbjct  121  AEELRRREQLD  131
+
+
+>VFG024433(gb|WP_008262950) (espR) ESX-1 transcriptional regulator 
+EspR [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium indicus pranii MTCC 9506]
+Length=132
+
+ Score = 236 bits (602),  Expect = 5e-82, Method: Compositional matrix adjust.
+ Identities = 112/131 (85%), Positives = 125/131 (95%), Gaps = 0/131 (0%)
+
+Query  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT  60
+            MSTTFAARLNRLFDTVYPPGRG HTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT
+Sbjct  1    MSTTFAARLNRLFDTVYPPGRGAHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT  60
+
+Query  61   ISALANFFRIKPAYFTNDEYYEKLDQELAWLATMRDEGVRRIAMRTIGLSAQAQQDIVDR  120
+            ++ALANFFRIKPAYFT+DEYYEKLD+EL+WLAT RD+ VRRIAMRT  LS +AQ+++++R
+Sbjct  61   MAALANFFRIKPAYFTDDEYYEKLDKELSWLATARDDNVRRIAMRTAELSPEAQREVMER  120
+
+Query  121  VDELRRAEHLD  131
+            V+ELRRAEHLD
+Sbjct  121  VNELRRAEHLD  131
+
+
+>VFG028335(gb|WP_015291776) (espR) ESX-1 transcriptional regulator 
+EspR [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=132
+
+ Score = 234 bits (597),  Expect = 4e-81, Method: Compositional matrix adjust.
+ Identities = 111/132 (84%), Positives = 122/132 (92%), Gaps = 0/132 (0%)
+
+Query  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT  60
+            MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPS AT
+Sbjct  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSGAT  60
+
+Query  61   ISALANFFRIKPAYFTNDEYYEKLDQELAWLATMRDEGVRRIAMRTIGLSAQAQQDIVDR  120
+            ++ALANFFRIK AYFT+DEYYEKLD+EL WL+TMRD+GVRRIA R  GL + AQQ ++DR
+Sbjct  61   MAALANFFRIKAAYFTDDEYYEKLDKELQWLSTMRDDGVRRIAQRAHGLPSAAQQKVLDR  120
+
+Query  121  VDELRRAEHLDV  132
+            +DELRRAE +DV
+Sbjct  121  IDELRRAEGIDV  132
+
+
+>VFG023243(gb|YP_001700869) (espR) ESX-1 transcriptional regulator 
+EspR [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium abscessus ATCC 19977]
+Length=132
+
+ Score = 233 bits (593),  Expect = 2e-80, Method: Compositional matrix adjust.
+ Identities = 111/131 (85%), Positives = 117/131 (89%), Gaps = 0/131 (0%)
+
+Query  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT  60
+            MSTTF ARLNRLFDTVYPPGRGPHTSAEVIAAL++EGITMSAPYLSQLRSGNRTNPSSAT
+Sbjct  1    MSTTFTARLNRLFDTVYPPGRGPHTSAEVIAALRSEGITMSAPYLSQLRSGNRTNPSSAT  60
+
+Query  61   ISALANFFRIKPAYFTNDEYYEKLDQELAWLATMRDEGVRRIAMRTIGLSAQAQQDIVDR  120
+            + ALANFFRIKPAYFT+DEYYEKLDQEL WLA MRDEGVRRIA RT+GLS +AQ  I   
+Sbjct  61   MKALANFFRIKPAYFTDDEYYEKLDQELTWLANMRDEGVRRIAARTVGLSVEAQDRITQT  120
+
+Query  121  VDELRRAEHLD  131
+            VDE RR E LD
+Sbjct  121  VDEYRRKEGLD  131
+
+
+>VFG021908(gb|NP_218366) (espR) ESX-1 transcriptional regulator 
+EspR [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=132
+
+ Score = 232 bits (592),  Expect = 2e-80, Method: Compositional matrix adjust.
+ Identities = 110/131 (84%), Positives = 120/131 (92%), Gaps = 0/131 (0%)
+
+Query  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT  60
+            MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPS AT
+Sbjct  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSGAT  60
+
+Query  61   ISALANFFRIKPAYFTNDEYYEKLDQELAWLATMRDEGVRRIAMRTIGLSAQAQQDIVDR  120
+            ++ALANFFRIK AYFT+DEYYEKLD+EL WL TMRD+GVRRIA R  GL + AQQ ++DR
+Sbjct  61   MAALANFFRIKAAYFTDDEYYEKLDKELQWLCTMRDDGVRRIAQRAHGLPSAAQQKVLDR  120
+
+Query  121  VDELRRAEHLD  131
+            +DELRRAE +D
+Sbjct  121  IDELRRAEGID  131
+
+
+>VFG021910(gb|WP_010924725) (espR) ESX-1 transcriptional regulator 
+EspR [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium tuberculosis CDC1551]
+Length=132
+
+ Score = 230 bits (587),  Expect = 1e-79, Method: Compositional matrix adjust.
+ Identities = 109/131 (83%), Positives = 119/131 (91%), Gaps = 0/131 (0%)
+
+Query  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT  60
+            MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQ RSGNRTNPS AT
+Sbjct  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQXRSGNRTNPSGAT  60
+
+Query  61   ISALANFFRIKPAYFTNDEYYEKLDQELAWLATMRDEGVRRIAMRTIGLSAQAQQDIVDR  120
+            ++ALANFFRIK AYFT+DEYYEKLD+EL WL TMRD+GVRRIA R  GL + AQQ ++DR
+Sbjct  61   MAALANFFRIKAAYFTDDEYYEKLDKELQWLCTMRDDGVRRIAQRAHGLPSAAQQKVLDR  120
+
+Query  121  VDELRRAEHLD  131
+            +DELRRAE +D
+Sbjct  121  IDELRRAEGID  131
+
+
+>VFG023249(gb|WP_013831082) (espR) ESX-1 transcriptional regulator 
+EspR [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium sp. JDM601]
+Length=132
+
+ Score = 221 bits (564),  Expect = 4e-76, Method: Compositional matrix adjust.
+ Identities = 102/130 (78%), Positives = 116/130 (89%), Gaps = 0/130 (0%)
+
+Query  1    MSTTFAARLNRLFDTVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSSAT  60
+            MS TFA RLNRLFD VYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPS AT
+Sbjct  1    MSATFAVRLNRLFDVVYPPGRGPHTSAEVIAALKAEGITMSAPYLSQLRSGNRTNPSVAT  60
+
+Query  61   ISALANFFRIKPAYFTNDEYYEKLDQELAWLATMRDEGVRRIAMRTIGLSAQAQQDIVDR  120
+            ++ALANFFRIKPA+FT+D+YY KLD EL WL ++RD+GVRRIA   +GLS +AQ+D++ R
+Sbjct  61   MAALANFFRIKPAFFTDDDYYAKLDAELTWLDSLRDDGVRRIATHAVGLSPEAQEDVLAR  120
+
+Query  121  VDELRRAEHL  130
+            +DELRR EHL
+Sbjct  121  IDELRRKEHL  130
+
+
+>VFG028347(gb|YP_007959815) (espR) ESX-1 transcriptional regulator 
+EspR [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=75
+
+ Score = 73.2 bits (178),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 37/62 (60%), Positives = 44/62 (71%), Gaps = 2/62 (3%)
+
+Query  61   ISALANFFRIKPAYFTNDEYYEKLDQELAWLATMRDEGV--RRIAMRTIGLSAQAQQDIV  118
+            ++ALANFFRIK AYFT+DEYYEKLD+EL WL TMRD+GV   R A   + L   A+    
+Sbjct  1    MAALANFFRIKAAYFTDDEYYEKLDKELQWLCTMRDDGVPPDRAAGPRVALRGAAEGVGP  60
+
+Query  119  DR  120
+            DR
+Sbjct  61   DR  62
+
+
+>VFG028350(gb|YP_005362376) (espR) ESX-1 transcriptional regulator 
+EspR [ESX-1 (VF0315) - Effector delivery system (VFC0086)] 
+[Mycobacterium tuberculosis RGTB327]
+Length=45
+
+ Score = 62.0 bits (149),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 28/44 (64%), Positives = 35/44 (80%), Gaps = 0/44 (0%)
+
+Query  88   LAWLATMRDEGVRRIAMRTIGLSAQAQQDIVDRVDELRRAEHLD  131
+            + WL TMRD+GVRRIA R  GL + AQQ ++DR+DELRRAE +D
+Sbjct  1    MQWLCTMRDDGVRRIAQRAHGLPSAAQQKVLDRIDELRRAEGID  44
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.131    0.372    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 464743355
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

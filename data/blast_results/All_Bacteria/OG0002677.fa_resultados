@@ -1,0 +1,170 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1808.t1
+
+Length=192
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG032760(gb|WP_003746076) (cheY) response regulator [CheA/CheY (...  48.1    1e-07
+VFG006846(gb|NP_464218) (cheY) chemotaxis response regulator CheY...  48.1    1e-07
+VFG014974(gb|WP_003242397) (algR) alginate biosynthesis regulator...  45.4    6e-06
+VFG009894(gb|WP_011779768) (devR/dosR) response regulator transcr...  45.1    6e-06
+VFG014967(gb|WP_003401565) (algR) alginate biosynthesis regulator...  44.7    9e-06
+
+
+>VFG032760(gb|WP_003746076) (cheY) response regulator [CheA/CheY 
+(VF0794) - Regulation (VFC0301)] [Listeria ivanovii subsp. 
+ivanovii PAM 55]
+Length=119
+
+ Score = 48.1 bits (113),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 28/110 (25%), Positives = 61/110 (55%), Gaps = 1/110 (1%)
+
+Query  1    MLRILLIDDTPKKVGRLRAALLESGFEVVDESGLTIDLPARVEALRPDVILIDTESPGRD  60
+            ML++L++DD       ++  + +S FEVV E+   ++   + + ++PD++ +D   P  D
+Sbjct  1    MLKLLIVDDAMFMRTMIKNIVKDSDFEVVAEAENGLEAVKKYDEVKPDIVTLDITMPEMD  60
+
+Query  61   VMEQVC-LVSRDQPRPIVMFTDEHDPGVMRRAIQSGVSAYIVEGIQASRL  109
+             +E +  ++++D    ++M +     G++  AI+ G   +IV+  QA R+
+Sbjct  61   GLEALAQIMAKDPSAKVIMCSAMGQQGMVVDAIKKGAKDFIVKPFQADRV  110
+
+
+>VFG006846(gb|NP_464218) (cheY) chemotaxis response regulator 
+CheY [CheA/CheY (VF0794) - Regulation (VFC0301)] [Listeria monocytogenes 
+EGD-e]
+Length=119
+
+ Score = 48.1 bits (113),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 28/110 (25%), Positives = 61/110 (55%), Gaps = 1/110 (1%)
+
+Query  1    MLRILLIDDTPKKVGRLRAALLESGFEVVDESGLTIDLPARVEALRPDVILIDTESPGRD  60
+            ML++L++DD       ++  + +S FEVV E+   ++   + + ++PD++ +D   P  D
+Sbjct  1    MLKLLIVDDAMFMRTMIKNIVKDSDFEVVAEAENGLEAVKKYDEVKPDIVTLDITMPEMD  60
+
+Query  61   VMEQVC-LVSRDQPRPIVMFTDEHDPGVMRRAIQSGVSAYIVEGIQASRL  109
+             +E +  ++++D    ++M +     G++  AI+ G   +IV+  QA R+
+Sbjct  61   GLEALAQIMAKDPSAKVIMCSAMGQQGMVVDAIKKGAKDFIVKPFQADRV  110
+
+
+>VFG014974(gb|WP_003242397) (algR) alginate biosynthesis regulatory 
+protein AlgR [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas 
+mendocina ymp]
+Length=248
+
+ Score = 45.4 bits (106),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 37/123 (30%), Positives = 61/123 (50%), Gaps = 15/123 (12%)
+
+Query  2    LRILLIDDTPKKVGRLRAALLE-SGFEVVD------ESGLTIDLPARVEALRPDVILIDT  54
+            + +L++DD P    RL   + E  G+ V++      E  LT+     +++L+PDV+L+D 
+Sbjct  1    MNVLIVDDEPLARERLSRMVGELEGYRVLEPAASNGEEALTL-----IDSLKPDVVLLDI  55
+
+Query  55   ESPGRDVMEQVC-LVSRDQPRPIVMFTDEHDPGVMRRAIQSGVSAYIVEGIQASRLQPIL  113
+              PG D ++    L  R+ P P V+F   HD   +  A Q     Y+V+ ++A  L   L
+Sbjct  56   RMPGLDGLQVAARLCEREAP-PAVIFCTAHDEFAL-EAFQVSAVGYLVKPVRAENLSEAL  113
+
+Query  114  DVA  116
+              A
+Sbjct  114  KKA  116
+
+
+>VFG009894(gb|WP_011779768) (devR/dosR) response regulator transcription 
+factor [DevRS (VF0317) - Regulation (VFC0301)] [Mycobacterium 
+vanbaalenii PYR-1]
+Length=216
+
+ Score = 45.1 bits (105),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 43/124 (35%), Positives = 64/124 (52%), Gaps = 7/124 (6%)
+
+Query  1    MLRILLIDDTPKKVGRLRAALLESG--FEVVDESGLTIDLPARVEALRPDVILIDTESPG  58
+            M+++ L+DD  + V R    LL S    +VV E+G   +  AR+ AL+PDV ++D   P 
+Sbjct  1    MVKVFLVDDH-EVVRRGLIDLLSSDPELDVVGEAGSVAEALARIPALQPDVAVLDVRLPD  59
+
+Query  59   RDVMEQVC--LVSRDQPRPIVMFTDEHDPGVMRRAIQSGVSAYIVEGIQASRL-QPILDV  115
+             + +E +C  L+SR      +M T       M  AI +G S Y+V+ I+   L Q I DV
+Sbjct  60   GNGIE-LCRDLLSRLPDLRCLMLTSFTSDEAMLDAILAGASGYVVKDIKGMELAQAIKDV  118
+
+Query  116  AMAR  119
+               R
+Sbjct  119  GSGR  122
+
+
+>VFG014967(gb|WP_003401565) (algR) alginate biosynthesis regulatory 
+protein AlgR [Alginate (VF0091) - Biofilm (VFC0271)] [Pseudomonas 
+syringae pv. syringae B728a]
+Length=248
+
+ Score = 44.7 bits (104),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 34/111 (31%), Positives = 57/111 (51%), Gaps = 5/111 (5%)
+
+Query  2    LRILLIDDTPKKVGRLRAALLE-SGFEVVDESGLTIDLP-ARVEALRPDVILIDTESPGR  59
+            + +L++DD P    RL   + E  G+ V++ S    +   A +EA +PDV+L+D   PG 
+Sbjct  1    MNVLIVDDEPLARERLSRMVNEIEGYRVLEPSASNGEEALALIEAHKPDVVLLDIRMPGL  60
+
+Query  60   DVMEQVC-LVSRDQPRPIVMFTDEHDPGVMRRAIQSGVSAYIVEGIQASRL  109
+            D ++    L  R+ P P V+F   HD   +  A Q     Y+V+ +++  L
+Sbjct  61   DGLQVAARLCEREAP-PAVVFCTAHDEFAL-EAFQVSAVGYLVKPVRSEHL  109
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.374    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1045471350
+
+
+Query= g3429.t1
+
+Length=196
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1074649393
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

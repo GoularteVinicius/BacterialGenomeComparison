@@ -1,0 +1,189 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g422.t1
+
+Length=291
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.451    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2021407680
+
+
+Query= g2583.t1
+
+Length=270
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1815657284
+
+
+Query= g4254.t1
+
+Length=266
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG042739(gb|NP_254019) (crc) catabolite repression control prote...  76.6    2e-16
+
+
+>VFG042739(gb|NP_254019) (crc) catabolite repression control protein 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa PAO1]
+Length=259
+
+ Score = 76.6 bits (187),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 67/250 (27%), Positives = 114/250 (46%), Gaps = 8/250 (3%)
+
+Query  4    LKIATFNVNGIQTRLA-ALLAWLEREAPDIVCLQELKTP--DARFPAAALEKAGYGAIWQ  60
+            ++I + NVNGIQ      LL+WL+ +  D++CLQ+ +    D   P+  L+     A   
+Sbjct  1    MRIISVNVNGIQAAAERGLLSWLQAQNADVICLQDTRASAFDLDDPSFQLDGYFLYACDA  60
+
+Query  61   GQSAWNGVAILARDSQPLEVRRGLPGNASDPHSRYLEAAVDGLLVASLYLPNGNPQPGPK  120
+                  GVA+ +R  QP  V  GL    +D + RYL+A  D + +A+L LP+G  Q G +
+Sbjct  61   ELPEQGGVALYSR-LQPKAVISGLGFETADRYGRYLQADFDKVSIATLLLPSG--QSGDE  117
+
+Query  121  -FDYKLAWFEHLIRHAAELMESGHPVVLAGDFNVVPSDFDIYDTRSWKK-DALLQPESRE  178
+              + K  + +    + ++        +  G   V     D+ + R  ++    L PE   
+Sbjct  118  SLNQKFKFMDDFTHYLSKQRRKRREYIYCGSLYVAHQKMDVKNWRECQQMPGFLAPERAW  177
+
+Query  179  CFERLLRQGWVDALRQRFPDRRLYTFWDYFRQHWQRDAGLRIDHLLLSASLADHLEDAGV  238
+              E     G+ DALR+   +   +++W    Q    + G R D+ +L+  L   + +A +
+Sbjct  178  LDEVFGNLGYADALREVSREGDQFSWWPDSEQAEMLNLGWRFDYQVLTPGLRRFVRNAKL  237
+
+Query  239  DRWVRGEEHA  248
+             R  R  +HA
+Sbjct  238  PRQPRFSQHA  247
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.442    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1773432696
+
+
+Query= g5434.t1
+
+Length=259
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG042739(gb|NP_254019) (crc) catabolite repression control prote...  535     0.0  
+
+
+>VFG042739(gb|NP_254019) (crc) catabolite repression control protein 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa PAO1]
+Length=259
+
+ Score = 535 bits (1378),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 259/259 (100%), Positives = 259/259 (100%), Gaps = 0/259 (0%)
+
+Query  1    MRIISVNVNGIQAAAERGLLSWLQAQNADVICLQDTRASAFDLDDPSFQLDGYFLYACDA  60
+            MRIISVNVNGIQAAAERGLLSWLQAQNADVICLQDTRASAFDLDDPSFQLDGYFLYACDA
+Sbjct  1    MRIISVNVNGIQAAAERGLLSWLQAQNADVICLQDTRASAFDLDDPSFQLDGYFLYACDA  60
+
+Query  61   ELPEQGGVALYSRLQPKAVISGLGFETADRYGRYLQADFDKVSIATLLLPSGQSGDESLN  120
+            ELPEQGGVALYSRLQPKAVISGLGFETADRYGRYLQADFDKVSIATLLLPSGQSGDESLN
+Sbjct  61   ELPEQGGVALYSRLQPKAVISGLGFETADRYGRYLQADFDKVSIATLLLPSGQSGDESLN  120
+
+Query  121  QKFKFMDDFTHYLSKQRRKRREYIYCGSLYVAHQKMDVKNWRECQQMPGFLAPERAWLDE  180
+            QKFKFMDDFTHYLSKQRRKRREYIYCGSLYVAHQKMDVKNWRECQQMPGFLAPERAWLDE
+Sbjct  121  QKFKFMDDFTHYLSKQRRKRREYIYCGSLYVAHQKMDVKNWRECQQMPGFLAPERAWLDE  180
+
+Query  181  VFGNLGYADALREVSREGDQFSWWPDSEQAEMLNLGWRFDYQVLTPGLRRFVRNAKLPRQ  240
+            VFGNLGYADALREVSREGDQFSWWPDSEQAEMLNLGWRFDYQVLTPGLRRFVRNAKLPRQ
+Sbjct  181  VFGNLGYADALREVSREGDQFSWWPDSEQAEMLNLGWRFDYQVLTPGLRRFVRNAKLPRQ  240
+
+Query  241  PRFSQHAPLIVDYDWQLSI  259
+            PRFSQHAPLIVDYDWQLSI
+Sbjct  241  PRFSQHAPLIVDYDWQLSI  259
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1699539667
+
+
+Query= g1209.t1
+
+Length=268
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1794544990
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

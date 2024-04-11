@@ -1,0 +1,141 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g586.t1
+
+Length=172
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011228(gb|WP_082011711) (pagP) lipid IV(A) palmitoyltransferas...  129     3e-38
+VFG011227(gb|WP_003814556) (pagP) lipid IV(A) palmitoyltransferas...  123     6e-36
+VFG011226(gb|WP_010929221) (pagP) lipid IV(A) palmitoyltransferas...  123     6e-36
+VFG011225(gb|WP_010931248) (pagP) lipid IV(A) palmitoyltransferas...  122     7e-36
+
+
+>VFG011228(gb|WP_082011711) (pagP) lipid IV(A) palmitoyltransferase 
+PagP [LPS-modifying enzyme (VF0684) - Immune modulation 
+(VFC0258)] [Bordetella avium 197N]
+Length=194
+
+ Score = 129 bits (325),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 73/173 (42%), Positives = 100/173 (58%), Gaps = 7/173 (4%)
+
+Query  4    LAIPSVSAADKGG---FNTFTDNVAETWRQPEHYDLYVPAITWHARFAYDKEKTDRYNER  60
+            L +P++S A +       +  + + + W +  + DLYV   +WH R  Y   K   +NE+
+Sbjct  25   LCLPTLSYACESLPSWAQSACNRIDQIWTEGGN-DLYVTGYSWHNRSMYSASKIRSFNEK  83
+
+Query  61   PWGVGFGQSRWDDKGNWHGLYMMAFKDSFNKWEPIGGYGWEKTWRPLEDDNFRLGLGFTA  120
+             WG G+G+S +D+ G+W GLY MAF DS +K EPI GYG+ K  +  E  NFRLG G+T 
+Sbjct  84   AWGGGWGRSLYDEDGDWQGLYAMAFLDSHSKVEPIAGYGFLKIGKVSE--NFRLGAGYTV  141
+
+Query  121  GVTAR-DNWNYIPIPVLLPLASIGYGPATFQMTYIPGSYNNGNVYFAWMRFQF  172
+             +TAR D  +Y+P P +LPL   GY  A    TYIPG   NGNV F + R  F
+Sbjct  142  FLTARQDIMSYVPFPGILPLVGAGYKDAMLYATYIPGGRGNGNVLFLFGRMHF  194
+
+
+>VFG011227(gb|WP_003814556) (pagP) lipid IV(A) palmitoyltransferase 
+PagP [LPS-modifying enzyme (VF0684) - Immune modulation 
+(VFC0258)] [Bordetella bronchiseptica RB50]
+Length=182
+
+ Score = 123 bits (308),  Expect = 6e-36, Method: Compositional matrix adjust.
+ Identities = 67/153 (44%), Positives = 91/153 (59%), Gaps = 4/153 (3%)
+
+Query  21   TDNVAETWRQPEHYDLYVPAITWHARFAYDKEKTDRYNERPWGVGFGQSRWDDKGNWHGL  80
+               V + W +  + DLY+   +WH R  Y  +K   +NE  WG G G+S +D+ G+W GL
+Sbjct  33   CQRVDQIWNEGGN-DLYLTGYSWHNRAMYSSDKIRSFNELAWGGGLGKSIYDEDGDWQGL  91
+
+Query  81   YMMAFKDSFNKWEPIGGYGWEKTWRPLEDDNFRLGLGFTAGVTAR-DNWNYIPIPVLLPL  139
+            Y MAF DS +  EPI GYG++K  R   D   RLG+G+T  +T+R D  + +P P +LPL
+Sbjct  92   YAMAFLDSHSDIEPIAGYGFQKIGRIGADT--RLGIGYTVFLTSRSDIMSRVPFPGILPL  149
+
+Query  140  ASIGYGPATFQMTYIPGSYNNGNVYFAWMRFQF  172
+             S GY  AT   TYIPG   NGNV F + R++F
+Sbjct  150  VSAGYRDATLYATYIPGGKGNGNVLFMFGRWEF  182
+
+
+>VFG011226(gb|WP_010929221) (pagP) lipid IV(A) palmitoyltransferase 
+PagP [LPS-modifying enzyme (VF0684) - Immune modulation 
+(VFC0258)] [Bordetella parapertussis 12822]
+Length=182
+
+ Score = 123 bits (308),  Expect = 6e-36, Method: Compositional matrix adjust.
+ Identities = 67/153 (44%), Positives = 91/153 (59%), Gaps = 4/153 (3%)
+
+Query  21   TDNVAETWRQPEHYDLYVPAITWHARFAYDKEKTDRYNERPWGVGFGQSRWDDKGNWHGL  80
+               V + W +  + DLY+   +WH R  Y  +K   +NE  WG G G+S +D+ G+W GL
+Sbjct  33   CQRVDQIWNEGGN-DLYLTGYSWHNRAMYSSDKIRSFNELAWGGGLGKSIYDEDGDWQGL  91
+
+Query  81   YMMAFKDSFNKWEPIGGYGWEKTWRPLEDDNFRLGLGFTAGVTAR-DNWNYIPIPVLLPL  139
+            Y MAF DS +  EPI GYG++K  R   D   RLG+G+T  +T+R D  + +P P +LPL
+Sbjct  92   YAMAFLDSHSDIEPIAGYGFQKIGRIGADT--RLGIGYTVFLTSRSDIMSRVPFPGILPL  149
+
+Query  140  ASIGYGPATFQMTYIPGSYNNGNVYFAWMRFQF  172
+             S GY  AT   TYIPG   NGNV F + R++F
+Sbjct  150  VSAGYRDATLYATYIPGGKGNGNVLFMFGRWEF  182
+
+
+>VFG011225(gb|WP_010931248) (pagP) lipid IV(A) palmitoyltransferase 
+PagP [LPS-modifying enzyme (VF0684) - Immune modulation 
+(VFC0258)] [Bordetella pertussis Tohama I]
+Length=182
+
+ Score = 122 bits (307),  Expect = 7e-36, Method: Compositional matrix adjust.
+ Identities = 67/153 (44%), Positives = 91/153 (59%), Gaps = 4/153 (3%)
+
+Query  21   TDNVAETWRQPEHYDLYVPAITWHARFAYDKEKTDRYNERPWGVGFGQSRWDDKGNWHGL  80
+               V + W +  + DLY+   +WH R  Y  +K   +NE  WG G G+S +D+ G+W GL
+Sbjct  33   CQRVDQIWNEGGN-DLYLTGYSWHNRAMYSSDKIRSFNELAWGGGLGKSIYDEDGDWQGL  91
+
+Query  81   YMMAFKDSFNKWEPIGGYGWEKTWRPLEDDNFRLGLGFTAGVTAR-DNWNYIPIPVLLPL  139
+            Y MAF DS +  EPI GYG++K  R   D   RLG+G+T  +T+R D  + +P P +LPL
+Sbjct  92   YAMAFLDSHSDIEPIAGYGFQKIGRIGADT--RLGIGYTVFLTSRSDIMSRVPFPGILPL  149
+
+Query  140  ASIGYGPATFQMTYIPGSYNNGNVYFAWMRFQF  172
+             S GY  AT   TYIPG   NGNV F + R++F
+Sbjct  150  VSAGYRDATLYATYIPGGKGNGNVLFMFGRWEF  182
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.140    0.497    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 844988503
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

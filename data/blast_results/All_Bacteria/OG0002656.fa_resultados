@@ -1,0 +1,116 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1630.t1
+
+Length=171
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011400(gb|WP_002964280) (fabZ) (3R)-hydroxymyristoyl ACP dehyd...  46.2    1e-06
+VFG011399(gb|WP_004683864) (fabZ) (3R)-hydroxymyristoyl ACP dehyd...  46.2    1e-06
+
+
+>VFG011400(gb|WP_002964280) (fabZ) (3R)-hydroxymyristoyl ACP dehydratase 
+[LPS (VF0367) - Immune modulation (VFC0258)] [Brucella 
+melitensis biovar Abortus 2308]
+Length=157
+
+ Score = 46.2 bits (108),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 42/129 (33%), Positives = 57/129 (44%), Gaps = 15/129 (12%)
+
+Query  34   LMIDRIVHIS-DVGGKYGKGELVAELDINPDLWFFACHFEGDPVMPGCLGLDAMWQLVGF  92
+            L+IDRIV I  DV     K   + E         F  HF  +P+MPG L ++AM Q  G 
+Sbjct  28   LLIDRIVDIDGDVSATGIKNVTINE-------PHFTGHFPENPIMPGVLIVEAMAQTAGA  80
+
+Query  93   YLGWQ---GNPGRGRALGSGEVKFFGQVLPTAKKVTYNIHIKRTINRSLVLAIADGTVSV  149
+                Q   G PG    +     KF   V+P  + + Y   IK+  N S    +A+    V
+Sbjct  81   ISLLQRKTGRPGVVYFMTIDNAKFRRPVVPGDRLLLYVKKIKQRANISKYECVAE----V  136
+
+Query  150  DGREIYSAE  158
+            DG ++  AE
+Sbjct  137  DGVKVAEAE  145
+
+
+>VFG011399(gb|WP_004683864) (fabZ) (3R)-hydroxymyristoyl ACP dehydratase 
+[LPS (VF0367) - Immune modulation (VFC0258)] [Brucella 
+melitensis bv. 1 str. 16M]
+Length=157
+
+ Score = 46.2 bits (108),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 42/129 (33%), Positives = 57/129 (44%), Gaps = 15/129 (12%)
+
+Query  34   LMIDRIVHIS-DVGGKYGKGELVAELDINPDLWFFACHFEGDPVMPGCLGLDAMWQLVGF  92
+            L+IDRIV I  DV     K   + E         F  HF  +P+MPG L ++AM Q  G 
+Sbjct  28   LLIDRIVDIDGDVSATGIKNVTINE-------PHFTGHFPENPIMPGVLIVEAMAQTAGA  80
+
+Query  93   YLGWQ---GNPGRGRALGSGEVKFFGQVLPTAKKVTYNIHIKRTINRSLVLAIADGTVSV  149
+                Q   G PG    +     KF   V+P  + + Y   IK+  N S    +A+    V
+Sbjct  81   ISLLQRKTGRPGVVYFMTIDSAKFRRPVVPGDRLLLYVKKIKQRANISKYECVAE----V  136
+
+Query  150  DGREIYSAE  158
+            DG ++  AE
+Sbjct  137  DGVKVAEAE  145
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.143    0.448    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 834292446
+
+
+Query= g995.t1
+
+Length=172
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.145    0.453    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 844988503
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

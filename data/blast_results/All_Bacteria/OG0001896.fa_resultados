@@ -1,0 +1,684 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g287.t1
+
+Length=102
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG009788(gb|WP_010907698) (whiB3) WhiB family transcriptional re...  210     1e-72
+VFG022896(gb|WP_012393017) (whiB3) redox-responsive transcription...  193     6e-66
+VFG027089(gb|WP_015354740) (whiB3) WhiB family transcriptional re...  192     2e-65
+VFG009789(gb|WP_011739147) (whiB3) WhiB family transcriptional re...  191     3e-65
+VFG009786(gb|WP_003874400) (whiB3) WhiB family transcriptional re...  188     6e-64
+VFG001414(gb|NP_217933) (whiB3) redox-responsive transcriptional ...  187     1e-63
+VFG027098(gb|YP_007959398) (whiB3) transcriptional regulatory pro...  187     2e-63
+VFG024159(gb|WP_008260171) (whiB3) WhiB family transcriptional re...  185     1e-62
+VFG024158(gb|WP_009952496) (whiB3) WhiB family transcriptional re...  184     2e-62
+VFG027105(gb|WP_020823504) (whiB3) WhiB family transcriptional re...  182     1e-61
+VFG009792(gb|WP_011778763) (whiB3) WhiB family transcriptional re...  169     3e-56
+VFG009791(gb|WP_011895745) (whiB3) WhiB family transcriptional re...  166     2e-55
+VFG009793(gb|WP_011558573) (whiB3) WhiB family transcriptional re...  166     3e-55
+VFG009790(gb|WP_003893002) (whiB3) WhiB family transcriptional re...  166     5e-55
+VFG027107(gb|WP_015305128) (whiB3) WhiB family transcriptional re...  164     1e-54
+VFG022897(gb|YP_001704454) (whiB3) Putative transcriptional regul...  157     9e-52
+VFG022903(gb|WP_041318590) (whiB3) WhiB family transcriptional re...  140     8e-45
+
+
+>VFG009788(gb|WP_010907698) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+leprae TN]
+Length=102
+
+ Score = 210 bits (535),  Expect = 1e-72, Method: Compositional matrix adjust.
+ Identities = 102/102 (100%), Positives = 102/102 (100%), Gaps = 0/102 (0%)
+
+Query  1    MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+            MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE
+Sbjct  1    MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+
+Query  61   ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARSRSIPRSA  102
+            ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARSRSIPRSA
+Sbjct  61   ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARSRSIPRSA  102
+
+
+>VFG022896(gb|WP_012393017) (whiB3) redox-responsive transcriptional 
+regulator WhiB3 [WhiB3 (VF0288) - Regulation (VFC0301)] 
+[Mycobacterium marinum M]
+Length=102
+
+ Score = 193 bits (491),  Expect = 6e-66, Method: Compositional matrix adjust.
+ Identities = 92/102 (90%), Positives = 97/102 (95%), Gaps = 0/102 (0%)
+
+Query  1    MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+            MPQP+QLPGPNA IWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE
+Sbjct  1    MPQPEQLPGPNADIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+
+Query  61   ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARSRSIPRSA  102
+            ECR+HALDVGEPYGVWGGLSESERDLLLKG + R+R I R+A
+Sbjct  61   ECRSHALDVGEPYGVWGGLSESERDLLLKGGIGRTRGIRRTA  102
+
+
+>VFG027089(gb|WP_015354740) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+liflandii 128FXT]
+Length=102
+
+ Score = 192 bits (488),  Expect = 2e-65, Method: Compositional matrix adjust.
+ Identities = 91/102 (89%), Positives = 96/102 (94%), Gaps = 0/102 (0%)
+
+Query  1    MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+            MPQP+QLPGPN  IWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE
+Sbjct  1    MPQPEQLPGPNTDIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+
+Query  61   ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARSRSIPRSA  102
+            ECR+HALDVGEPYGVWGGLSESERDLLLKG + R+R I R+A
+Sbjct  61   ECRSHALDVGEPYGVWGGLSESERDLLLKGGIGRTRGIRRTA  102
+
+
+>VFG009789(gb|WP_011739147) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+ulcerans Agy99]
+Length=102
+
+ Score = 191 bits (486),  Expect = 3e-65, Method: Compositional matrix adjust.
+ Identities = 91/102 (89%), Positives = 97/102 (95%), Gaps = 0/102 (0%)
+
+Query  1    MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+            MPQP+QLPGPNA IWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE
+Sbjct  1    MPQPEQLPGPNADIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+
+Query  61   ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARSRSIPRSA  102
+            ECR+HALDVGEP+GVWGGLSESERDLLLKG + R+R I R+A
+Sbjct  61   ECRSHALDVGEPHGVWGGLSESERDLLLKGGIGRTRGIRRTA  102
+
+
+>VFG009786(gb|WP_003874400) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+avium subsp. paratuberculosis K-10]
+Length=102
+
+ Score = 188 bits (478),  Expect = 6e-64, Method: Compositional matrix adjust.
+ Identities = 89/102 (87%), Positives = 96/102 (94%), Gaps = 0/102 (0%)
+
+Query  1    MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+            MPQP+QLPGPNA IWNWQL GLCRGVDSSMFFHPDGERGRARMQREQRAKEMCR+CPVI+
+Sbjct  1    MPQPEQLPGPNADIWNWQLHGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRQCPVIQ  60
+
+Query  61   ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARSRSIPRSA  102
+            ECR+HAL+VGEPYGVWGGLSESERDLLLKG++ R R I RSA
+Sbjct  61   ECRSHALEVGEPYGVWGGLSESERDLLLKGEIGRGRGIRRSA  102
+
+
+>VFG001414(gb|NP_217933) (whiB3) redox-responsive transcriptional 
+regulator WhiB3 [WhiB3 (VF0288) - Regulation (VFC0301)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=102
+
+ Score = 187 bits (476),  Expect = 1e-63, Method: Compositional matrix adjust.
+ Identities = 88/102 (86%), Positives = 95/102 (93%), Gaps = 0/102 (0%)
+
+Query  1    MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+            MPQP+QLPGPNA IWNWQLQGLCRG+DSSMFFHPDGERGRAR QREQRAKEMCRRCPVIE
+Sbjct  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+
+Query  61   ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARSRSIPRSA  102
+             CR+HAL+VGEPYGVWGGLSESERDLLLKG + R+R I R+A
+Sbjct  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+
+
+>VFG027098(gb|YP_007959398) (whiB3) transcriptional regulatory 
+protein WHIB-like WHIB3 [WhiB3 (VF0288) - Regulation (VFC0301)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=102
+
+ Score = 187 bits (474),  Expect = 2e-63, Method: Compositional matrix adjust.
+ Identities = 88/102 (86%), Positives = 95/102 (93%), Gaps = 0/102 (0%)
+
+Query  1    MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+            MPQP+QLPGPNA IWNWQLQGLCRG+DSSMFFHPDGERGRAR QREQRAKEMCRRCPVIE
+Sbjct  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+
+Query  61   ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARSRSIPRSA  102
+             CR+HAL+VGEPYGVWGGLSESERDLLLKG + R+R I R+A
+Sbjct  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGXMGRTRGIRRTA  102
+
+
+>VFG024159(gb|WP_008260171) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+intracellulare str. MOTT36Y]
+Length=100
+
+ Score = 185 bits (469),  Expect = 1e-62, Method: Compositional matrix adjust.
+ Identities = 90/102 (88%), Positives = 96/102 (94%), Gaps = 2/102 (2%)
+
+Query  1    MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+            MPQP+QLPGPNA IWNWQLQGLCRGVDS+MFFHPDGERGRARMQREQRAKEMCR+CPVI+
+Sbjct  1    MPQPEQLPGPNADIWNWQLQGLCRGVDSAMFFHPDGERGRARMQREQRAKEMCRQCPVIQ  60
+
+Query  61   ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARSRSIPRSA  102
+            ECR+HAL+VGEPYGVWGGLSESERDLLLKGDL   R I RSA
+Sbjct  61   ECRSHALEVGEPYGVWGGLSESERDLLLKGDLG--RGIRRSA  100
+
+
+>VFG024158(gb|WP_009952496) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+indicus pranii MTCC 9506]
+Length=100
+
+ Score = 184 bits (467),  Expect = 2e-62, Method: Compositional matrix adjust.
+ Identities = 89/102 (87%), Positives = 96/102 (94%), Gaps = 2/102 (2%)
+
+Query  1    MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+            MPQP+QLPGPNA IWNWQLQGLCRGVDS+MFFHPDGERGRARMQREQRAKEMCR+CPVI+
+Sbjct  1    MPQPEQLPGPNADIWNWQLQGLCRGVDSAMFFHPDGERGRARMQREQRAKEMCRQCPVIQ  60
+
+Query  61   ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARSRSIPRSA  102
+            ECR+HAL+VGEPYGVWGGLSESERDLLLKGD+   R I RSA
+Sbjct  61   ECRSHALEVGEPYGVWGGLSESERDLLLKGDIG--RGIRRSA  100
+
+
+>VFG027105(gb|WP_020823504) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+yongonense 05-1390]
+Length=100
+
+ Score = 182 bits (463),  Expect = 1e-61, Method: Compositional matrix adjust.
+ Identities = 88/102 (86%), Positives = 96/102 (94%), Gaps = 2/102 (2%)
+
+Query  1    MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+            MPQP+QLPGPNA IWNWQLQGLCRGVDS++FFHPDGERGRARMQREQRAKEMCR+CPVI+
+Sbjct  1    MPQPEQLPGPNADIWNWQLQGLCRGVDSAVFFHPDGERGRARMQREQRAKEMCRQCPVIQ  60
+
+Query  61   ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARSRSIPRSA  102
+            ECR+HAL+VGEPYGVWGGLSESERDLLLKGD+   R I RSA
+Sbjct  61   ECRSHALEVGEPYGVWGGLSESERDLLLKGDIG--RGIRRSA  100
+
+
+>VFG009792(gb|WP_011778763) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+vanbaalenii PYR-1]
+Length=96
+
+ Score = 169 bits (427),  Expect = 3e-56, Method: Compositional matrix adjust.
+ Identities = 78/95 (82%), Positives = 87/95 (92%), Gaps = 0/95 (0%)
+
+Query  1   MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+           MPQP+QLPGPNA IW+WQ+QG+CRGVDSSMFFHPDGERGRAR QRE RAKEMCRRCPVI 
+Sbjct  1   MPQPQQLPGPNADIWDWQIQGVCRGVDSSMFFHPDGERGRARAQREMRAKEMCRRCPVIT  60
+
+Query  61  ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARS  95
+           +CR+HAL VGEPYG+WGGLSESER+LLLK  + RS
+Sbjct  61  QCRSHALAVGEPYGIWGGLSESERELLLKRGIRRS  95
+
+
+>VFG009791(gb|WP_011895745) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+gilvum PYR-GCK]
+Length=96
+
+ Score = 166 bits (421),  Expect = 2e-55, Method: Compositional matrix adjust.
+ Identities = 76/95 (80%), Positives = 87/95 (92%), Gaps = 0/95 (0%)
+
+Query  1   MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+           MPQP+QLPGPNA IW+WQ+QG+CRGVDS+MFFHPDGERGRAR QRE RAKEMCRRCPVI 
+Sbjct  1   MPQPQQLPGPNADIWDWQMQGVCRGVDSAMFFHPDGERGRARAQREMRAKEMCRRCPVIA  60
+
+Query  61  ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARS  95
+           +CR+HAL VGEPYG+WGGLSESER+LLLK  + R+
+Sbjct  61  QCRSHALAVGEPYGIWGGLSESERELLLKRGIRRT  95
+
+
+>VFG009793(gb|WP_011558573) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+sp. JLS]
+Length=96
+
+ Score = 166 bits (420),  Expect = 3e-55, Method: Compositional matrix adjust.
+ Identities = 76/95 (80%), Positives = 86/95 (91%), Gaps = 0/95 (0%)
+
+Query  1   MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+           MPQP+QLPGPNA IW+WQ+ GLCRGVDSSMFFHPDGERGRAR QRE RAKEMCRRCPVI 
+Sbjct  1   MPQPQQLPGPNADIWDWQMHGLCRGVDSSMFFHPDGERGRARAQREMRAKEMCRRCPVIA  60
+
+Query  61  ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARS  95
+           +CR+HAL VGEPYG+WGGLSESER++LLK  + R+
+Sbjct  61  QCRSHALAVGEPYGIWGGLSESEREMLLKRGIRRT  95
+
+
+>VFG009790(gb|WP_003893002) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+smegmatis str. MC2 155]
+Length=96
+
+ Score = 166 bits (419),  Expect = 5e-55, Method: Compositional matrix adjust.
+ Identities = 77/95 (81%), Positives = 86/95 (91%), Gaps = 0/95 (0%)
+
+Query  1   MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+           MPQP+QLPGPNA IW+WQ++GLCRGVDSSMFFHPDGERGRAR QRE RAKEMCR CPVI 
+Sbjct  1   MPQPQQLPGPNADIWDWQMRGLCRGVDSSMFFHPDGERGRARAQREMRAKEMCRSCPVIA  60
+
+Query  61  ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARS  95
+           +CR+HAL VGEPYG+WGGLSESER+LLLK  + RS
+Sbjct  61  QCRSHALAVGEPYGIWGGLSESERELLLKRGIRRS  95
+
+
+>VFG027107(gb|WP_015305128) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+smegmatis JS623]
+Length=96
+
+ Score = 164 bits (416),  Expect = 1e-54, Method: Compositional matrix adjust.
+ Identities = 75/95 (79%), Positives = 86/95 (91%), Gaps = 0/95 (0%)
+
+Query  1   MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+           MPQP+QLPGPNA IW+WQ+ GLCRGVDS+MFFHPDGERGRAR QRE RAKEMCR+CPV+ 
+Sbjct  1   MPQPQQLPGPNADIWDWQMSGLCRGVDSAMFFHPDGERGRARAQREMRAKEMCRQCPVVA  60
+
+Query  61  ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARS  95
+           +CRAHAL VGEPYG+WGGLSESER+LLLK  + R+
+Sbjct  61  QCRAHALAVGEPYGIWGGLSESERELLLKRGIRRA  95
+
+
+>VFG022897(gb|YP_001704454) (whiB3) Putative transcriptional regulator, 
+WhiB family [WhiB3 (VF0288) - Regulation (VFC0301)] 
+[Mycobacterium abscessus ATCC 19977]
+Length=96
+
+ Score = 157 bits (397),  Expect = 9e-52, Method: Compositional matrix adjust.
+ Identities = 70/95 (74%), Positives = 85/95 (89%), Gaps = 0/95 (0%)
+
+Query  1   MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+           MPQP+QLPGPNA IW+WQ++G+CRGVDSS+FFHPDGERGRAR QRE +AKEMCR CPV+ 
+Sbjct  1   MPQPQQLPGPNADIWDWQMKGVCRGVDSSVFFHPDGERGRARAQREMKAKEMCRACPVLV  60
+
+Query  61  ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARS  95
+           +CRAHAL V EPYG+WGGLSESER+L+L+  + R+
+Sbjct  61  QCRAHALAVAEPYGIWGGLSESERELILRRGVRRT  95
+
+
+>VFG022903(gb|WP_041318590) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+sp. JDM601]
+Length=95
+
+ Score = 140 bits (352),  Expect = 8e-45, Method: Compositional matrix adjust.
+ Identities = 65/89 (73%), Positives = 75/89 (84%), Gaps = 0/89 (0%)
+
+Query  1   MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+           MPQ +QLPG NA +W+WQL+G CRGVDSS+FF PDGERGRAR QREQ AK  CR CPV+E
+Sbjct  1   MPQVEQLPGRNADVWDWQLRGACRGVDSSVFFPPDGERGRARAQREQNAKRWCRSCPVLE  60
+
+Query  61  ECRAHALDVGEPYGVWGGLSESERDLLLK  89
+           +CRAHAL VGEPYG+WGG+SESER   L+
+Sbjct  61  QCRAHALAVGEPYGIWGGMSESERHAALR  89
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.449    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 326415213
+
+
+Query= g3372.t1
+
+Length=102
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG001414(gb|NP_217933) (whiB3) redox-responsive transcriptional ...  211     7e-73
+VFG027098(gb|YP_007959398) (whiB3) transcriptional regulatory pro...  208     6e-72
+VFG022896(gb|WP_012393017) (whiB3) redox-responsive transcription...  199     2e-68
+VFG027089(gb|WP_015354740) (whiB3) WhiB family transcriptional re...  198     8e-68
+VFG009789(gb|WP_011739147) (whiB3) WhiB family transcriptional re...  197     1e-67
+VFG009786(gb|WP_003874400) (whiB3) WhiB family transcriptional re...  193     7e-66
+VFG024159(gb|WP_008260171) (whiB3) WhiB family transcriptional re...  188     7e-64
+VFG024158(gb|WP_009952496) (whiB3) WhiB family transcriptional re...  188     7e-64
+VFG009788(gb|WP_010907698) (whiB3) WhiB family transcriptional re...  187     1e-63
+VFG027105(gb|WP_020823504) (whiB3) WhiB family transcriptional re...  186     3e-63
+VFG009791(gb|WP_011895745) (whiB3) WhiB family transcriptional re...  174     3e-58
+VFG009792(gb|WP_011778763) (whiB3) WhiB family transcriptional re...  174     3e-58
+VFG009793(gb|WP_011558573) (whiB3) WhiB family transcriptional re...  173     6e-58
+VFG009790(gb|WP_003893002) (whiB3) WhiB family transcriptional re...  171     5e-57
+VFG027107(gb|WP_015305128) (whiB3) WhiB family transcriptional re...  167     1e-55
+VFG022897(gb|YP_001704454) (whiB3) Putative transcriptional regul...  162     8e-54
+VFG022903(gb|WP_041318590) (whiB3) WhiB family transcriptional re...  141     2e-45
+
+
+>VFG001414(gb|NP_217933) (whiB3) redox-responsive transcriptional 
+regulator WhiB3 [WhiB3 (VF0288) - Regulation (VFC0301)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=102
+
+ Score = 211 bits (536),  Expect = 7e-73, Method: Compositional matrix adjust.
+ Identities = 102/102 (100%), Positives = 102/102 (100%), Gaps = 0/102 (0%)
+
+Query  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+            MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE
+Sbjct  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+
+Query  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+            ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA
+Sbjct  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+
+
+>VFG027098(gb|YP_007959398) (whiB3) transcriptional regulatory 
+protein WHIB-like WHIB3 [WhiB3 (VF0288) - Regulation (VFC0301)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=102
+
+ Score = 208 bits (530),  Expect = 6e-72, Method: Compositional matrix adjust.
+ Identities = 101/102 (99%), Positives = 101/102 (99%), Gaps = 0/102 (0%)
+
+Query  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+            MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE
+Sbjct  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+
+Query  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+            ACRSHALEVGEPYGVWGGLSESERDLLLKG MGRTRGIRRTA
+Sbjct  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGXMGRTRGIRRTA  102
+
+
+>VFG022896(gb|WP_012393017) (whiB3) redox-responsive transcriptional 
+regulator WhiB3 [WhiB3 (VF0288) - Regulation (VFC0301)] 
+[Mycobacterium marinum M]
+Length=102
+
+ Score = 199 bits (507),  Expect = 2e-68, Method: Compositional matrix adjust.
+ Identities = 96/102 (94%), Positives = 99/102 (97%), Gaps = 0/102 (0%)
+
+Query  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+            MPQPEQLPGPNADIWNWQLQGLCRG+DSSMFFHPDGERGRAR QREQRAKEMCRRCPVIE
+Sbjct  1    MPQPEQLPGPNADIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+
+Query  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+             CRSHAL+VGEPYGVWGGLSESERDLLLKG +GRTRGIRRTA
+Sbjct  61   ECRSHALDVGEPYGVWGGLSESERDLLLKGGIGRTRGIRRTA  102
+
+
+>VFG027089(gb|WP_015354740) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+liflandii 128FXT]
+Length=102
+
+ Score = 198 bits (503),  Expect = 8e-68, Method: Compositional matrix adjust.
+ Identities = 95/102 (93%), Positives = 98/102 (96%), Gaps = 0/102 (0%)
+
+Query  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+            MPQPEQLPGPN DIWNWQLQGLCRG+DSSMFFHPDGERGRAR QREQRAKEMCRRCPVIE
+Sbjct  1    MPQPEQLPGPNTDIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+
+Query  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+             CRSHAL+VGEPYGVWGGLSESERDLLLKG +GRTRGIRRTA
+Sbjct  61   ECRSHALDVGEPYGVWGGLSESERDLLLKGGIGRTRGIRRTA  102
+
+
+>VFG009789(gb|WP_011739147) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+ulcerans Agy99]
+Length=102
+
+ Score = 197 bits (502),  Expect = 1e-67, Method: Compositional matrix adjust.
+ Identities = 95/102 (93%), Positives = 99/102 (97%), Gaps = 0/102 (0%)
+
+Query  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+            MPQPEQLPGPNADIWNWQLQGLCRG+DSSMFFHPDGERGRAR QREQRAKEMCRRCPVIE
+Sbjct  1    MPQPEQLPGPNADIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+
+Query  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+             CRSHAL+VGEP+GVWGGLSESERDLLLKG +GRTRGIRRTA
+Sbjct  61   ECRSHALDVGEPHGVWGGLSESERDLLLKGGIGRTRGIRRTA  102
+
+
+>VFG009786(gb|WP_003874400) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+avium subsp. paratuberculosis K-10]
+Length=102
+
+ Score = 193 bits (491),  Expect = 7e-66, Method: Compositional matrix adjust.
+ Identities = 92/102 (90%), Positives = 97/102 (95%), Gaps = 0/102 (0%)
+
+Query  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+            MPQPEQLPGPNADIWNWQL GLCRG+DSSMFFHPDGERGRAR QREQRAKEMCR+CPVI+
+Sbjct  1    MPQPEQLPGPNADIWNWQLHGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRQCPVIQ  60
+
+Query  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+             CRSHALEVGEPYGVWGGLSESERDLLLKG +GR RGIRR+A
+Sbjct  61   ECRSHALEVGEPYGVWGGLSESERDLLLKGEIGRGRGIRRSA  102
+
+
+>VFG024159(gb|WP_008260171) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+intracellulare str. MOTT36Y]
+Length=100
+
+ Score = 188 bits (477),  Expect = 7e-64, Method: Compositional matrix adjust.
+ Identities = 91/102 (89%), Positives = 97/102 (95%), Gaps = 2/102 (2%)
+
+Query  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+            MPQPEQLPGPNADIWNWQLQGLCRG+DS+MFFHPDGERGRAR QREQRAKEMCR+CPVI+
+Sbjct  1    MPQPEQLPGPNADIWNWQLQGLCRGVDSAMFFHPDGERGRARMQREQRAKEMCRQCPVIQ  60
+
+Query  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+             CRSHALEVGEPYGVWGGLSESERDLLLKG +G  RGIRR+A
+Sbjct  61   ECRSHALEVGEPYGVWGGLSESERDLLLKGDLG--RGIRRSA  100
+
+
+>VFG024158(gb|WP_009952496) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+indicus pranii MTCC 9506]
+Length=100
+
+ Score = 188 bits (477),  Expect = 7e-64, Method: Compositional matrix adjust.
+ Identities = 91/102 (89%), Positives = 97/102 (95%), Gaps = 2/102 (2%)
+
+Query  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+            MPQPEQLPGPNADIWNWQLQGLCRG+DS+MFFHPDGERGRAR QREQRAKEMCR+CPVI+
+Sbjct  1    MPQPEQLPGPNADIWNWQLQGLCRGVDSAMFFHPDGERGRARMQREQRAKEMCRQCPVIQ  60
+
+Query  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+             CRSHALEVGEPYGVWGGLSESERDLLLKG +G  RGIRR+A
+Sbjct  61   ECRSHALEVGEPYGVWGGLSESERDLLLKGDIG--RGIRRSA  100
+
+
+>VFG009788(gb|WP_010907698) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+leprae TN]
+Length=102
+
+ Score = 187 bits (476),  Expect = 1e-63, Method: Compositional matrix adjust.
+ Identities = 88/102 (86%), Positives = 95/102 (93%), Gaps = 0/102 (0%)
+
+Query  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+            MPQP+QLPGPNA IWNWQLQGLCRG+DSSMFFHPDGERGRAR QREQRAKEMCRRCPVIE
+Sbjct  1    MPQPKQLPGPNATIWNWQLQGLCRGVDSSMFFHPDGERGRARMQREQRAKEMCRRCPVIE  60
+
+Query  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+             CR+HAL+VGEPYGVWGGLSESERDLLLKG + R+R I R+A
+Sbjct  61   ECRAHALDVGEPYGVWGGLSESERDLLLKGDLARSRSIPRSA  102
+
+
+>VFG027105(gb|WP_020823504) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+yongonense 05-1390]
+Length=100
+
+ Score = 186 bits (473),  Expect = 3e-63, Method: Compositional matrix adjust.
+ Identities = 90/102 (88%), Positives = 97/102 (95%), Gaps = 2/102 (2%)
+
+Query  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+            MPQPEQLPGPNADIWNWQLQGLCRG+DS++FFHPDGERGRAR QREQRAKEMCR+CPVI+
+Sbjct  1    MPQPEQLPGPNADIWNWQLQGLCRGVDSAVFFHPDGERGRARMQREQRAKEMCRQCPVIQ  60
+
+Query  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+             CRSHALEVGEPYGVWGGLSESERDLLLKG +G  RGIRR+A
+Sbjct  61   ECRSHALEVGEPYGVWGGLSESERDLLLKGDIG--RGIRRSA  100
+
+
+>VFG009791(gb|WP_011895745) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+gilvum PYR-GCK]
+Length=96
+
+ Score = 174 bits (440),  Expect = 3e-58, Method: Compositional matrix adjust.
+ Identities = 83/102 (81%), Positives = 91/102 (89%), Gaps = 6/102 (6%)
+
+Query  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+            MPQP+QLPGPNADIW+WQ+QG+CRG+DS+MFFHPDGERGRAR QRE RAKEMCRRCPVI 
+Sbjct  1    MPQPQQLPGPNADIWDWQMQGVCRGVDSAMFFHPDGERGRARAQREMRAKEMCRRCPVIA  60
+
+Query  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+             CRSHAL VGEPYG+WGGLSESER+LLLK      RGIRRTA
+Sbjct  61   QCRSHALAVGEPYGIWGGLSESERELLLK------RGIRRTA  96
+
+
+>VFG009792(gb|WP_011778763) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+vanbaalenii PYR-1]
+Length=96
+
+ Score = 174 bits (440),  Expect = 3e-58, Method: Compositional matrix adjust.
+ Identities = 83/102 (81%), Positives = 91/102 (89%), Gaps = 6/102 (6%)
+
+Query  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+            MPQP+QLPGPNADIW+WQ+QG+CRG+DSSMFFHPDGERGRAR QRE RAKEMCRRCPVI 
+Sbjct  1    MPQPQQLPGPNADIWDWQIQGVCRGVDSSMFFHPDGERGRARAQREMRAKEMCRRCPVIT  60
+
+Query  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+             CRSHAL VGEPYG+WGGLSESER+LLLK      RGIRR+A
+Sbjct  61   QCRSHALAVGEPYGIWGGLSESERELLLK------RGIRRSA  96
+
+
+>VFG009793(gb|WP_011558573) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+sp. JLS]
+Length=96
+
+ Score = 173 bits (438),  Expect = 6e-58, Method: Compositional matrix adjust.
+ Identities = 83/102 (81%), Positives = 90/102 (88%), Gaps = 6/102 (6%)
+
+Query  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+            MPQP+QLPGPNADIW+WQ+ GLCRG+DSSMFFHPDGERGRAR QRE RAKEMCRRCPVI 
+Sbjct  1    MPQPQQLPGPNADIWDWQMHGLCRGVDSSMFFHPDGERGRARAQREMRAKEMCRRCPVIA  60
+
+Query  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+             CRSHAL VGEPYG+WGGLSESER++LLK      RGIRRTA
+Sbjct  61   QCRSHALAVGEPYGIWGGLSESEREMLLK------RGIRRTA  96
+
+
+>VFG009790(gb|WP_003893002) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+smegmatis str. MC2 155]
+Length=96
+
+ Score = 171 bits (432),  Expect = 5e-57, Method: Compositional matrix adjust.
+ Identities = 82/102 (80%), Positives = 90/102 (88%), Gaps = 6/102 (6%)
+
+Query  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+            MPQP+QLPGPNADIW+WQ++GLCRG+DSSMFFHPDGERGRAR QRE RAKEMCR CPVI 
+Sbjct  1    MPQPQQLPGPNADIWDWQMRGLCRGVDSSMFFHPDGERGRARAQREMRAKEMCRSCPVIA  60
+
+Query  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+             CRSHAL VGEPYG+WGGLSESER+LLLK      RGIRR+A
+Sbjct  61   QCRSHALAVGEPYGIWGGLSESERELLLK------RGIRRSA  96
+
+
+>VFG027107(gb|WP_015305128) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+smegmatis JS623]
+Length=96
+
+ Score = 167 bits (423),  Expect = 1e-55, Method: Compositional matrix adjust.
+ Identities = 78/102 (76%), Positives = 89/102 (87%), Gaps = 6/102 (6%)
+
+Query  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+            MPQP+QLPGPNADIW+WQ+ GLCRG+DS+MFFHPDGERGRAR QRE RAKEMCR+CPV+ 
+Sbjct  1    MPQPQQLPGPNADIWDWQMSGLCRGVDSAMFFHPDGERGRARAQREMRAKEMCRQCPVVA  60
+
+Query  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+             CR+HAL VGEPYG+WGGLSESER+LLLK      RGIRR +
+Sbjct  61   QCRAHALAVGEPYGIWGGLSESERELLLK------RGIRRAS  96
+
+
+>VFG022897(gb|YP_001704454) (whiB3) Putative transcriptional regulator, 
+WhiB family [WhiB3 (VF0288) - Regulation (VFC0301)] 
+[Mycobacterium abscessus ATCC 19977]
+Length=96
+
+ Score = 162 bits (411),  Expect = 8e-54, Method: Compositional matrix adjust.
+ Identities = 74/102 (73%), Positives = 89/102 (87%), Gaps = 6/102 (6%)
+
+Query  1    MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+            MPQP+QLPGPNADIW+WQ++G+CRG+DSS+FFHPDGERGRAR QRE +AKEMCR CPV+ 
+Sbjct  1    MPQPQQLPGPNADIWDWQMKGVCRGVDSSVFFHPDGERGRARAQREMKAKEMCRACPVLV  60
+
+Query  61   ACRSHALEVGEPYGVWGGLSESERDLLLKGTMGRTRGIRRTA  102
+             CR+HAL V EPYG+WGGLSESER+L+L+      RG+RRTA
+Sbjct  61   QCRAHALAVAEPYGIWGGLSESERELILR------RGVRRTA  96
+
+
+>VFG022903(gb|WP_041318590) (whiB3) WhiB family transcriptional 
+regulator [WhiB3 (VF0288) - Regulation (VFC0301)] [Mycobacterium 
+sp. JDM601]
+Length=95
+
+ Score = 141 bits (355),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 65/89 (73%), Positives = 75/89 (84%), Gaps = 0/89 (0%)
+
+Query  1   MPQPEQLPGPNADIWNWQLQGLCRGMDSSMFFHPDGERGRARTQREQRAKEMCRRCPVIE  60
+           MPQ EQLPG NAD+W+WQL+G CRG+DSS+FF PDGERGRAR QREQ AK  CR CPV+E
+Sbjct  1   MPQVEQLPGRNADVWDWQLRGACRGVDSSVFFPPDGERGRARAQREQNAKRWCRSCPVLE  60
+
+Query  61  ACRSHALEVGEPYGVWGGLSESERDLLLK  89
+            CR+HAL VGEPYG+WGG+SESER   L+
+Sbjct  61  QCRAHALAVGEPYGIWGGMSESERHAALR  89
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 326415213
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

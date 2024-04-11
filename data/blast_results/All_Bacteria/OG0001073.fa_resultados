@@ -1,0 +1,129 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g591.t1
+
+Length=411
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG039365(gb|WP_010957720) (cvpA) Coxiella Dot/Icm type IVB secre...  60.1    5e-11
+
+
+>VFG039365(gb|WP_010957720) (cvpA) Coxiella Dot/Icm type IVB secretion 
+system translocated effector, Coxiella vacuolar protein 
+A [T4SS secreted effectors (VF0696) - Effector delivery 
+system (VFC0086)] [Coxiella burnetii RSA 331]
+Length=136
+
+ Score = 60.1 bits (144),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 41/118 (35%), Positives = 56/118 (47%), Gaps = 12/118 (10%)
+
+Query  28   RQVGKTTLVARLDYPGSSEVVSLDDVANRDAARDDPRAFVSRPVDTLVIDEAQLEPGLFR  87
+            RQVGKT+L   LDY G+ ++V  DD+  R  A  +P  F  +    L++DEA L P +F 
+Sbjct  2    RQVGKTSL---LDYLGTHQLVLFDDLGVRQLANSNPELFFGQFRGPLILDEATLAPEIFP  58
+
+Query  88   AIKAEVDRDRRPGR---------FLLTGSARLLSAPDMADALVGRVEIIELWPFSQGE  136
+             IK  VD  RR  R           +T S + L    + ++L GR     L   S  E
+Sbjct  59   EIKKRVDEQRRLSRAQNTPITLDLWITASNQTLLHRSVRESLAGRAHYFTLNTLSLHE  116
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3208200996
+
+
+Query= g1983.t1
+
+Length=389
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2997490853
+
+
+Query= g3131.t1
+
+Length=454
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3656099187
+
+
+Query= g3252.t1
+
+Length=249
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1593978197
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

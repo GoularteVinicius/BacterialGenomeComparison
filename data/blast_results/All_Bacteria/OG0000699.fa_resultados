@@ -1,0 +1,569 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g203.t1
+
+Length=133
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG018806(gb|WP_002216614) (exbD) biopolymer transporter ExbD [To...  105     3e-30
+VFG036660(gb|WP_003706998) (exbD) biopolymer transporter ExbD [To...  104     9e-30
+VFG006295(gb|WP_003693740) (exbD) biopolymer transporter ExbD [To...  104     1e-29
+VFG006292(gb|WP_002212592) (exbD) biopolymer transporter ExbD [To...  103     3e-29
+
+
+>VFG018806(gb|WP_002216614) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria meningitidis 053442]
+Length=144
+
+ Score = 105 bits (263),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 64/140 (46%), Positives = 92/140 (66%), Gaps = 10/140 (7%)
+
+Query  1    MAFSTQDS--DEVLSEINVTPLVDVMLVLLVVFIVTAPLLTNSIPINLPKTESVAPPEQ-  57
+            MAF + +S  D  +S+INVTPLVDVMLVLL+VF++T P+LT+SIP+ LP T S    +Q 
+Sbjct  1    MAFGSMNSGDDSPMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELP-TASEQTNKQD  59
+
+Query  58   ---KDPLVVSIDGAGKLFVNKD---EIQPELLESNLAAAKAKDAEVRVQLQADEGVNYGQ  111
+               KDPL ++ID  G  +V  D   +++ E +ES L AAK ++  V V + AD+ V Y  
+Sbjct  60   KQPKDPLRLTIDANGGYYVGGDSASKVEIEEVESRLKAAKEQNENVIVAIAADKAVEYDY  119
+
+Query  112  VAKAMASIERAGITRLAVIT  131
+            V KA+ +  +AGIT++  +T
+Sbjct  120  VNKALEAARQAGITKIGFVT  139
+
+
+>VFG036660(gb|WP_003706998) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria lactamica 020-06]
+Length=144
+
+ Score = 104 bits (260),  Expect = 9e-30, Method: Compositional matrix adjust.
+ Identities = 61/139 (44%), Positives = 89/139 (64%), Gaps = 8/139 (6%)
+
+Query  1    MAFSTQDS--DEVLSEINVTPLVDVMLVLLVVFIVTAPLLTNSIPINLPKTESVAPPEQ-  57
+            MAF + +S  D  +S+INVTPLVDVMLVLL+VF++T P+LT+SIP+ LP     A  +  
+Sbjct  1    MAFGSMNSGDDSPMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASEQANKQDK  60
+
+Query  58   --KDPLVVSIDGAGKLFVNKD---EIQPELLESNLAAAKAKDAEVRVQLQADEGVNYGQV  112
+              KDPL ++ID  G  +V  D   +++   +ES L AAK ++  V V + AD+ V Y  V
+Sbjct  61   QPKDPLRLTIDANGGYYVGGDSASKVEIGEVESRLKAAKEQNENVIVAIAADKAVEYDYV  120
+
+Query  113  AKAMASIERAGITRLAVIT  131
+             KA+ +  +AGIT++  +T
+Sbjct  121  NKALEAARQAGITKIGFVT  139
+
+
+>VFG006295(gb|WP_003693740) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria gonorrhoeae FA 1090]
+Length=144
+
+ Score = 104 bits (260),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 61/139 (44%), Positives = 89/139 (64%), Gaps = 8/139 (6%)
+
+Query  1    MAFSTQDS--DEVLSEINVTPLVDVMLVLLVVFIVTAPLLTNSIPINLPKTESVAPPEQ-  57
+            MAF + +S  D  +S+INVTPLVDVMLVLL+VF++T P+LT+SIP+ LP     A  +  
+Sbjct  1    MAFGSMNSSDDSPMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASEQANKQDK  60
+
+Query  58   --KDPLVVSIDGAGKLFVNKD---EIQPELLESNLAAAKAKDAEVRVQLQADEGVNYGQV  112
+              KDPL ++ID  G  +V  D   +++   +ES L AAK ++  V V + AD+ V Y  V
+Sbjct  61   QPKDPLRLTIDANGGYYVGGDSASKVEIGEVESRLKAAKEQNENVIVAIAADKAVEYDYV  120
+
+Query  113  AKAMASIERAGITRLAVIT  131
+             KA+ +  +AGIT++  +T
+Sbjct  121  NKALEAARQAGITKIGFVT  139
+
+
+>VFG006292(gb|WP_002212592) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria meningitidis Z2491]
+Length=144
+
+ Score = 103 bits (257),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 63/140 (45%), Positives = 91/140 (65%), Gaps = 10/140 (7%)
+
+Query  1    MAFSTQDS--DEVLSEINVTPLVDVMLVLLVVFIVTAPLLTNSIPINLPKTESVAPPEQ-  57
+            MAF + +S  D  +S+INVTPLVDVMLVLL+VF++T P+LT+SIP+ LP T S    +Q 
+Sbjct  1    MAFGSMNSGDDSPMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELP-TASEQTNKQD  59
+
+Query  58   ---KDPLVVSIDGAGKLFVNKD---EIQPELLESNLAAAKAKDAEVRVQLQADEGVNYGQ  111
+               KDPL ++ID  G  +V  D   +++   +ES L AAK ++  V V + AD+ V Y  
+Sbjct  60   KQPKDPLRLTIDANGGYYVGGDSASKVEIGEVESRLKAAKEQNENVIVAIAADKAVEYDY  119
+
+Query  112  VAKAMASIERAGITRLAVIT  131
+            V KA+ +  +AGIT++  +T
+Sbjct  120  VNKALEAARQAGITKIGFVT  139
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.131    0.343    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 475551340
+
+
+Query= g701.t1
+
+Length=139
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG006295(gb|WP_003693740) (exbD) biopolymer transporter ExbD [To...  66.6    8e-15
+VFG036660(gb|WP_003706998) (exbD) biopolymer transporter ExbD [To...  65.5    2e-14
+VFG018806(gb|WP_002216614) (exbD) biopolymer transporter ExbD [To...  64.7    4e-14
+VFG006292(gb|WP_002212592) (exbD) biopolymer transporter ExbD [To...  64.7    5e-14
+
+
+>VFG006295(gb|WP_003693740) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria gonorrhoeae FA 1090]
+Length=144
+
+ Score = 66.6 bits (161),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 46/141 (33%), Positives = 76/141 (54%), Gaps = 10/141 (7%)
+
+Query  1    MASVNSSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKAS--ATVA  58
+              S+NSS    DD  +  IN+TPLVDV++V+L++F++T       I + LP AS  A   
+Sbjct  3    FGSMNSS----DDSPMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASEQANKQ  58
+
+Query  59   LSQPKTK-AISVNDAGQVFL---DAYPVTLPELEDRLRTEKALNPDFPVVVRGDATVQYQ  114
+              QPK    ++++  G  ++    A  V + E+E RL+  K  N +  V +  D  V+Y 
+Sbjct  59   DKQPKDPLRLTIDANGGYYVGGDSASKVEIGEVESRLKAAKEQNENVIVAIAADKAVEYD  118
+
+Query  115  KVIEVLDLLRRLELSQVGLVT  135
+             V + L+  R+  ++++G VT
+Sbjct  119  YVNKALEAARQAGITKIGFVT  139
+
+
+>VFG036660(gb|WP_003706998) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria lactamica 020-06]
+Length=144
+
+ Score = 65.5 bits (158),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 43/136 (32%), Positives = 73/136 (54%), Gaps = 6/136 (4%)
+
+Query  6    SSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKAS--ATVALSQPK  63
+             S +  DD  +  IN+TPLVDV++V+L++F++T       I + LP AS  A     QPK
+Sbjct  4    GSMNSGDDSPMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASEQANKQDKQPK  63
+
+Query  64   TK-AISVNDAGQVFL---DAYPVTLPELEDRLRTEKALNPDFPVVVRGDATVQYQKVIEV  119
+                ++++  G  ++    A  V + E+E RL+  K  N +  V +  D  V+Y  V + 
+Sbjct  64   DPLRLTIDANGGYYVGGDSASKVEIGEVESRLKAAKEQNENVIVAIAADKAVEYDYVNKA  123
+
+Query  120  LDLLRRLELSQVGLVT  135
+            L+  R+  ++++G VT
+Sbjct  124  LEAARQAGITKIGFVT  139
+
+
+>VFG018806(gb|WP_002216614) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria meningitidis 053442]
+Length=144
+
+ Score = 64.7 bits (156),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 42/136 (31%), Positives = 72/136 (53%), Gaps = 6/136 (4%)
+
+Query  6    SSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKASATVAL--SQPK  63
+             S +  DD  +  IN+TPLVDV++V+L++F++T       I + LP AS        QPK
+Sbjct  4    GSMNSGDDSPMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASEQTNKQDKQPK  63
+
+Query  64   TK-AISVNDAGQVFL---DAYPVTLPELEDRLRTEKALNPDFPVVVRGDATVQYQKVIEV  119
+                ++++  G  ++    A  V + E+E RL+  K  N +  V +  D  V+Y  V + 
+Sbjct  64   DPLRLTIDANGGYYVGGDSASKVEIEEVESRLKAAKEQNENVIVAIAADKAVEYDYVNKA  123
+
+Query  120  LDLLRRLELSQVGLVT  135
+            L+  R+  ++++G VT
+Sbjct  124  LEAARQAGITKIGFVT  139
+
+
+>VFG006292(gb|WP_002212592) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria meningitidis Z2491]
+Length=144
+
+ Score = 64.7 bits (156),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 42/136 (31%), Positives = 72/136 (53%), Gaps = 6/136 (4%)
+
+Query  6    SSHDDDDDGAVDSINITPLVDVLMVVLVMFILTATAQVAGIQINLPKASATVAL--SQPK  63
+             S +  DD  +  IN+TPLVDV++V+L++F++T       I + LP AS        QPK
+Sbjct  4    GSMNSGDDSPMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASEQTNKQDKQPK  63
+
+Query  64   TK-AISVNDAGQVFL---DAYPVTLPELEDRLRTEKALNPDFPVVVRGDATVQYQKVIEV  119
+                ++++  G  ++    A  V + E+E RL+  K  N +  V +  D  V+Y  V + 
+Sbjct  64   DPLRLTIDANGGYYVGGDSASKVEIGEVESRLKAAKEQNENVIVAIAADKAVEYDYVNKA  123
+
+Query  120  LDLLRRLELSQVGLVT  135
+            L+  R+  ++++G VT
+Sbjct  124  LEAARQAGITKIGFVT  139
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.134    0.361    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 528220147
+
+
+Query= g985.t1
+
+Length=146
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG018806(gb|WP_002216614) (exbD) biopolymer transporter ExbD [To...  84.3    2e-21
+VFG006295(gb|WP_003693740) (exbD) biopolymer transporter ExbD [To...  84.0    2e-21
+VFG036660(gb|WP_003706998) (exbD) biopolymer transporter ExbD [To...  84.0    2e-21
+VFG006292(gb|WP_002212592) (exbD) biopolymer transporter ExbD [To...  82.4    8e-21
+
+
+>VFG018806(gb|WP_002216614) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria meningitidis 053442]
+Length=144
+
+ Score = 84.3 bits (207),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 49/136 (36%), Positives = 77/136 (57%), Gaps = 9/136 (7%)
+
+Query  10   PVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNN-KQVLTLSVKA  68
+            P++++NV P +DVMLVLL++FM+T P+L   + ++LP  S +   QD   K  L L++ A
+Sbjct  13   PMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASEQTNKQDKQPKDPLRLTIDA  72
+
+Query  69   DGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQVFIRGDKAVNYGAVVGAM  128
+            +G YY  VG +      + S V +E++   +        +  V I  DKAV Y  V  A+
+Sbjct  73   NGGYY--VGGD------SASKVEIEEVESRLKAAKEQNENVIVAIAADKAVEYDYVNKAL  124
+
+Query  129  GALQQAGVPNVGLITE  144
+             A +QAG+  +G +TE
+Sbjct  125  EAARQAGITKIGFVTE  140
+
+
+>VFG006295(gb|WP_003693740) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria gonorrhoeae FA 1090]
+Length=144
+
+ Score = 84.0 bits (206),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 52/139 (37%), Positives = 82/139 (59%), Gaps = 15/139 (11%)
+
+Query  10   PVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNN-KQVLTLSVKA  68
+            P++++NV P +DVMLVLL++FM+T P+L   + ++LP  S +A  QD   K  L L++ A
+Sbjct  13   PMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASEQANKQDKQPKDPLRLTIDA  72
+
+Query  69   DGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQ---VFIRGDKAVNYGAVV  125
+            +G YY  VG         DSA  +E + +  +++ +A+   +   V I  DKAV Y  V 
+Sbjct  73   NGGYY--VGG--------DSASKVE-IGEVESRLKAAKEQNENVIVAIAADKAVEYDYVN  121
+
+Query  126  GAMGALQQAGVPNVGLITE  144
+             A+ A +QAG+  +G +TE
+Sbjct  122  KALEAARQAGITKIGFVTE  140
+
+
+>VFG036660(gb|WP_003706998) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria lactamica 020-06]
+Length=144
+
+ Score = 84.0 bits (206),  Expect = 2e-21, Method: Compositional matrix adjust.
+ Identities = 52/139 (37%), Positives = 82/139 (59%), Gaps = 15/139 (11%)
+
+Query  10   PVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNN-KQVLTLSVKA  68
+            P++++NV P +DVMLVLL++FM+T P+L   + ++LP  S +A  QD   K  L L++ A
+Sbjct  13   PMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASEQANKQDKQPKDPLRLTIDA  72
+
+Query  69   DGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQ---VFIRGDKAVNYGAVV  125
+            +G YY  VG         DSA  +E + +  +++ +A+   +   V I  DKAV Y  V 
+Sbjct  73   NGGYY--VGG--------DSASKVE-IGEVESRLKAAKEQNENVIVAIAADKAVEYDYVN  121
+
+Query  126  GAMGALQQAGVPNVGLITE  144
+             A+ A +QAG+  +G +TE
+Sbjct  122  KALEAARQAGITKIGFVTE  140
+
+
+>VFG006292(gb|WP_002212592) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria meningitidis Z2491]
+Length=144
+
+ Score = 82.4 bits (202),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 51/139 (37%), Positives = 81/139 (58%), Gaps = 15/139 (11%)
+
+Query  10   PVAEMNVVPYIDVMLVLLVIFMVTAPMLNQGVKVDLPKVSSEALPQDNN-KQVLTLSVKA  68
+            P++++NV P +DVMLVLL++FM+T P+L   + ++LP  S +   QD   K  L L++ A
+Sbjct  13   PMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASEQTNKQDKQPKDPLRLTIDA  72
+
+Query  69   DGSYYWNVGSEVDTEKQTDSAVSLEQMTDAVTKIMSARPDTQ---VFIRGDKAVNYGAVV  125
+            +G YY  VG         DSA  +E + +  +++ +A+   +   V I  DKAV Y  V 
+Sbjct  73   NGGYY--VGG--------DSASKVE-IGEVESRLKAAKEQNENVIVAIAADKAVEYDYVN  121
+
+Query  126  GAMGALQQAGVPNVGLITE  144
+             A+ A +QAG+  +G +TE
+Sbjct  122  KALEAARQAGITKIGFVTE  140
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.130    0.361    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 591361155
+
+
+Query= g3041.t1
+
+Length=146
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG036660(gb|WP_003706998) (exbD) biopolymer transporter ExbD [To...  54.3    5e-10
+VFG006295(gb|WP_003693740) (exbD) biopolymer transporter ExbD [To...  54.3    5e-10
+VFG006292(gb|WP_002212592) (exbD) biopolymer transporter ExbD [To...  52.8    2e-09
+VFG018806(gb|WP_002216614) (exbD) biopolymer transporter ExbD [To...  52.4    3e-09
+
+
+>VFG036660(gb|WP_003706998) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria lactamica 020-06]
+Length=144
+
+ Score = 54.3 bits (129),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 41/141 (29%), Positives = 71/141 (50%), Gaps = 12/141 (9%)
+
+Query  1    MKFRRRRAGAAREDVFINLASLIDVIFVLLLFFVVSTTFTRPEQLNIELPSAESGETAGT  60
+            M F    +G       IN+  L+DV+ VLL+ F+++        + +ELP+A   E A  
+Sbjct  1    MAFGSMNSGDDSPMSDINVTPLVDVMLVLLIVFMITMPVLT-HSIPLELPTA--SEQANK  57
+
+Query  61   EQKQ----LELSVDAEGHYALNGQALAKSDLATLMAAMQRESAGDNNLPVVISADAKSTH  116
+            + KQ    L L++DA G Y + G + +K ++  + + ++     + N+ V I+AD    +
+Sbjct  58   QDKQPKDPLRLTIDANGGYYVGGDSASKVEIGEVESRLKAAKEQNENVIVAIAADKAVEY  117
+
+Query  117  QSVVTAMDAA-----GKLGFV  132
+              V  A++AA      K+GFV
+Sbjct  118  DYVNKALEAARQAGITKIGFV  138
+
+
+>VFG006295(gb|WP_003693740) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria gonorrhoeae FA 1090]
+Length=144
+
+ Score = 54.3 bits (129),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 38/125 (30%), Positives = 67/125 (54%), Gaps = 12/125 (10%)
+
+Query  17   INLASLIDVIFVLLLFFVVSTTFTRPEQLNIELPSAESGETAGTEQKQ----LELSVDAE  72
+            IN+  L+DV+ VLL+ F+++        + +ELP+A   E A  + KQ    L L++DA 
+Sbjct  17   INVTPLVDVMLVLLIVFMITMPVLT-HSIPLELPTA--SEQANKQDKQPKDPLRLTIDAN  73
+
+Query  73   GHYALNGQALAKSDLATLMAAMQRESAGDNNLPVVISADAKSTHQSVVTAMDAA-----G  127
+            G Y + G + +K ++  + + ++     + N+ V I+AD    +  V  A++AA      
+Sbjct  74   GGYYVGGDSASKVEIGEVESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEAARQAGIT  133
+
+Query  128  KLGFV  132
+            K+GFV
+Sbjct  134  KIGFV  138
+
+
+>VFG006292(gb|WP_002212592) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria meningitidis Z2491]
+Length=144
+
+ Score = 52.8 bits (125),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 40/141 (28%), Positives = 70/141 (50%), Gaps = 12/141 (9%)
+
+Query  1    MKFRRRRAGAAREDVFINLASLIDVIFVLLLFFVVSTTFTRPEQLNIELPSAESGETAGT  60
+            M F    +G       IN+  L+DV+ VLL+ F+++        + +ELP+A   E    
+Sbjct  1    MAFGSMNSGDDSPMSDINVTPLVDVMLVLLIVFMITMPVLT-HSIPLELPTA--SEQTNK  57
+
+Query  61   EQKQ----LELSVDAEGHYALNGQALAKSDLATLMAAMQRESAGDNNLPVVISADAKSTH  116
+            + KQ    L L++DA G Y + G + +K ++  + + ++     + N+ V I+AD    +
+Sbjct  58   QDKQPKDPLRLTIDANGGYYVGGDSASKVEIGEVESRLKAAKEQNENVIVAIAADKAVEY  117
+
+Query  117  QSVVTAMDAA-----GKLGFV  132
+              V  A++AA      K+GFV
+Sbjct  118  DYVNKALEAARQAGITKIGFV  138
+
+
+>VFG018806(gb|WP_002216614) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria meningitidis 053442]
+Length=144
+
+ Score = 52.4 bits (124),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 37/125 (30%), Positives = 66/125 (53%), Gaps = 12/125 (10%)
+
+Query  17   INLASLIDVIFVLLLFFVVSTTFTRPEQLNIELPSAESGETAGTEQKQ----LELSVDAE  72
+            IN+  L+DV+ VLL+ F+++        + +ELP+A   E    + KQ    L L++DA 
+Sbjct  17   INVTPLVDVMLVLLIVFMITMPVLT-HSIPLELPTA--SEQTNKQDKQPKDPLRLTIDAN  73
+
+Query  73   GHYALNGQALAKSDLATLMAAMQRESAGDNNLPVVISADAKSTHQSVVTAMDAA-----G  127
+            G Y + G + +K ++  + + ++     + N+ V I+AD    +  V  A++AA      
+Sbjct  74   GGYYVGGDSASKVEIEEVESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEAARQAGIT  133
+
+Query  128  KLGFV  132
+            K+GFV
+Sbjct  134  KIGFV  138
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.129    0.344    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 591361155
+
+
+Query= g2936.t1
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG018806(gb|WP_002216614) (exbD) biopolymer transporter ExbD [To...  86.7    1e-22
+VFG006292(gb|WP_002212592) (exbD) biopolymer transporter ExbD [To...  85.9    3e-22
+VFG006295(gb|WP_003693740) (exbD) biopolymer transporter ExbD [To...  85.1    5e-22
+VFG036660(gb|WP_003706998) (exbD) biopolymer transporter ExbD [To...  85.1    7e-22
+
+
+>VFG018806(gb|WP_002216614) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria meningitidis 053442]
+Length=144
+
+ Score = 86.7 bits (213),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 48/138 (35%), Positives = 78/138 (57%), Gaps = 6/138 (4%)
+
+Query  8    NLDDNGEMHEINVTPFIDVMLVLLIIFMVAAPLATVDVKVNLPAS---TSTPQPRPEKPV  64
+            N  D+  M +INVTP +DVMLVLLI+FM+  P+ T  + + LP +   T+    +P+ P+
+Sbjct  7    NSGDDSPMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASEQTNKQDKQPKDPL  66
+
+Query  65   YLSVKADNTMFIGNDPVTD---DTMIAELTALTEGKKDTTIFFRADKTVEYETLMKVMDM  121
+             L++ A+   ++G D  +    + + + L A  E  ++  +   ADK VEY+ + K ++ 
+Sbjct  67   RLTIDANGGYYVGGDSASKVEIEEVESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEA  126
+
+Query  122  LHQAGYLKIGLVGEETAK  139
+              QAG  KIG V E  A+
+Sbjct  127  ARQAGITKIGFVTETKAQ  144
+
+
+>VFG006292(gb|WP_002212592) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria meningitidis Z2491]
+Length=144
+
+ Score = 85.9 bits (211),  Expect = 3e-22, Method: Compositional matrix adjust.
+ Identities = 48/138 (35%), Positives = 77/138 (56%), Gaps = 6/138 (4%)
+
+Query  8    NLDDNGEMHEINVTPFIDVMLVLLIIFMVAAPLATVDVKVNLPAS---TSTPQPRPEKPV  64
+            N  D+  M +INVTP +DVMLVLLI+FM+  P+ T  + + LP +   T+    +P+ P+
+Sbjct  7    NSGDDSPMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASEQTNKQDKQPKDPL  66
+
+Query  65   YLSVKADNTMFIGNDPVTD---DTMIAELTALTEGKKDTTIFFRADKTVEYETLMKVMDM  121
+             L++ A+   ++G D  +      + + L A  E  ++  +   ADK VEY+ + K ++ 
+Sbjct  67   RLTIDANGGYYVGGDSASKVEIGEVESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEA  126
+
+Query  122  LHQAGYLKIGLVGEETAK  139
+              QAG  KIG V E  A+
+Sbjct  127  ARQAGITKIGFVTETKAQ  144
+
+
+>VFG006295(gb|WP_003693740) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria gonorrhoeae FA 1090]
+Length=144
+
+ Score = 85.1 bits (209),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 47/138 (34%), Positives = 76/138 (55%), Gaps = 6/138 (4%)
+
+Query  8    NLDDNGEMHEINVTPFIDVMLVLLIIFMVAAPLATVDVKVNLPASTSTPQ---PRPEKPV  64
+            N  D+  M +INVTP +DVMLVLLI+FM+  P+ T  + + LP ++        +P+ P+
+Sbjct  7    NSSDDSPMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASEQANKQDKQPKDPL  66
+
+Query  65   YLSVKADNTMFIGNDPVTD---DTMIAELTALTEGKKDTTIFFRADKTVEYETLMKVMDM  121
+             L++ A+   ++G D  +      + + L A  E  ++  +   ADK VEY+ + K ++ 
+Sbjct  67   RLTIDANGGYYVGGDSASKVEIGEVESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEA  126
+
+Query  122  LHQAGYLKIGLVGEETAK  139
+              QAG  KIG V E  A+
+Sbjct  127  ARQAGITKIGFVTETKAQ  144
+
+
+>VFG036660(gb|WP_003706998) (exbD) biopolymer transporter ExbD 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria lactamica 020-06]
+Length=144
+
+ Score = 85.1 bits (209),  Expect = 7e-22, Method: Compositional matrix adjust.
+ Identities = 47/138 (34%), Positives = 76/138 (55%), Gaps = 6/138 (4%)
+
+Query  8    NLDDNGEMHEINVTPFIDVMLVLLIIFMVAAPLATVDVKVNLPASTSTPQ---PRPEKPV  64
+            N  D+  M +INVTP +DVMLVLLI+FM+  P+ T  + + LP ++        +P+ P+
+Sbjct  7    NSGDDSPMSDINVTPLVDVMLVLLIVFMITMPVLTHSIPLELPTASEQANKQDKQPKDPL  66
+
+Query  65   YLSVKADNTMFIGNDPVTD---DTMIAELTALTEGKKDTTIFFRADKTVEYETLMKVMDM  121
+             L++ A+   ++G D  +      + + L A  E  ++  +   ADK VEY+ + K ++ 
+Sbjct  67   RLTIDANGGYYVGGDSASKVEIGEVESRLKAAKEQNENVIVAIAADKAVEYDYVNKALEA  126
+
+Query  122  LHQAGYLKIGLVGEETAK  139
+              QAG  KIG V E  A+
+Sbjct  127  ARQAGITKIGFVTETKAQ  144
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.369    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 549780153
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

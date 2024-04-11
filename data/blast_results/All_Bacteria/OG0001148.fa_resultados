@@ -1,0 +1,282 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g836.t1
+
+Length=172
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG035394(gb|WP_001390299) (aaiI) PAAR domain-containing protein ...  55.5    1e-10
+VFG041187(gb|WP_012849267) (ETAE_RS11285) PAAR domain-containing ...  55.5    1e-10
+VFG035228(gb|WP_000033410) (EC55989_RS17100) PAAR domain-containi...  51.6    3e-09
+
+
+>VFG035394(gb|WP_001390299) (aaiI) PAAR domain-containing protein 
+[AAI/SCI-II T6SS (VF1121) - Effector delivery system (VFC0086)] 
+[Escherichia coli O104:H4 str. 2009EL-2050]
+Length=99
+
+ Score = 55.5 bits (132),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 42/97 (43%), Positives = 52/97 (54%), Gaps = 10/97 (10%)
+
+Query  4   KPAARVTDPTTCPV--PG-----HGSNPIVQ-GSPDVVFDGLPAARQGDASACGSPMISA  55
+           +PAARVTD   CP+  PG     H   P++  GSP V   GLPAA  G  + C  P+   
+Sbjct  3   QPAARVTDMHVCPMVTPGLPPVPHVGGPLLPPGSPSVFIGGLPAATLGTLALCSGPVDVV  62
+
+Query  56  V--SSTVLINGLPAVTLGSIGAHGNVVIGGSGTVLIG  90
+           +  S  VLI G PA  +G I AHG  ++ G   VLIG
+Sbjct  63  IMGSVKVLICGKPAARMGDICAHGGTIVSGYPQVLIG  99
+
+
+>VFG041187(gb|WP_012849267) (ETAE_RS11285) PAAR domain-containing 
+protein [EVP (E. tarda virulent protein) (VF1268) - Effector 
+delivery system (VFC0086)] [Edwardsiella tarda EIB202]
+Length=100
+
+ Score = 55.5 bits (132),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 44/98 (45%), Positives = 53/98 (54%), Gaps = 10/98 (10%)
+
+Query  3   GKPAARVTDPTTCPV--PG-----HGSNPIV-QGSPDVVFDGLPAARQGDASACGSP--M  52
+           G+PAAR+TD   CP+  PG     H   P++  G P V+  GLPAA  GD   C  P   
+Sbjct  2   GQPAARLTDMHVCPMQTPGVPPVPHVGGPVIGPGVPTVLIGGLPAAVLGDMLTCVGPPDT  61
+
+Query  53  ISAVSSTVLINGLPAVTLGSIGAHGNVVIGGSGTVLIG  90
+           I   S+TVLI G PA  +G   AHG  +  G  TVLIG
+Sbjct  62  IIKGSATVLIGGKPAARMGDSTAHGGTITLGCPTVLIG  99
+
+
+>VFG035228(gb|WP_000033410) (EC55989_RS17100) PAAR domain-containing 
+protein [SCI-I T6SS (VF1120) - Effector delivery system 
+(VFC0086)] [Escherichia coli 55989]
+Length=88
+
+ Score = 51.6 bits (122),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 25/53 (47%), Positives = 32/53 (60%), Gaps = 0/53 (0%)
+
+Query  3   GKPAARVTDPTTCPVPGHGSNPIVQGSPDVVFDGLPAARQGDASACGSPMISA  55
+           GK  A V D  +CPV GHG+NPIV+GSP+ + DG      G    CG  +IS+
+Sbjct  29  GKKVALVGDMVSCPVSGHGTNPIVEGSPEWISDGRAVVIDGCKCLCGCKVISS  81
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 844988503
+
+
+Query= g1524.t1
+
+Length=86
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG035228(gb|WP_000033410) (EC55989_RS17100) PAAR domain-containi...  57.0    2e-12
+VFG035226(gb|WP_001443095) (C_RS16115) PAAR domain-containing pro...  53.1    6e-11
+VFG035227(gb|WP_001117814) (UTI89_RS15585) PAAR domain-containing...  50.4    8e-10
+VFG048740(gb|YP_005226612) (KPHS_23120) PaaR repeat-containing pr...  48.1    6e-09
+
+
+>VFG035228(gb|WP_000033410) (EC55989_RS17100) PAAR domain-containing 
+protein [SCI-I T6SS (VF1120) - Effector delivery system 
+(VFC0086)] [Escherichia coli 55989]
+Length=88
+
+ Score = 57.0 bits (136),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 34/79 (43%), Positives = 44/79 (56%), Gaps = 1/79 (1%)
+
+Query  3   IIRLGDTTSHGGTVIEAFGQTDLNGKPMAGVGHQVVCPLC-KGTFPITEGSALLDVNGVP  61
+            + LGD T+HGG VI A     ++GK +A VG  V CP+   GT PI EGS     +G  
+Sbjct  5   FVLLGDNTTHGGKVISASSTMIVDGKKVALVGDMVSCPVSGHGTNPIVEGSPEWISDGRA  64
+
+Query  62  VALHGMKTACGASLIASGP  80
+           V + G K  CG  +I+S P
+Sbjct  65  VVIDGCKCLCGCKVISSAP  83
+
+
+>VFG035226(gb|WP_001443095) (C_RS16115) PAAR domain-containing 
+protein [SCI-I T6SS (VF1120) - Effector delivery system (VFC0086)] 
+[Escherichia coli CFT073]
+Length=86
+
+ Score = 53.1 bits (126),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 31/79 (39%), Positives = 42/79 (53%), Gaps = 1/79 (1%)
+
+Query  2   DIIRLGDTTSHGGTVIEAFGQTDLNGKPMAGVGHQVVCPLCKGTFPITEGSALLDVNGVP  61
+           +++ L D TSHGG V  A    D+ GK  A +   V CP   GT PI E     +  G  
+Sbjct  4   NVVVLNDATSHGGKVSSASSTFDIQGKKAALLNDTVTCPK-HGTNPIVECDTSYEEGGRG  62
+
+Query  62  VALHGMKTACGASLIASGP  80
+           + +HG K+ACG+ + AS P
+Sbjct  63  IVVHGCKSACGSVVYASLP  81
+
+
+>VFG035227(gb|WP_001117814) (UTI89_RS15585) PAAR domain-containing 
+protein [SCI-I T6SS (VF1120) - Effector delivery system 
+(VFC0086)] [Escherichia coli UTI89]
+Length=86
+
+ Score = 50.4 bits (119),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 33/84 (39%), Positives = 44/84 (52%), Gaps = 1/84 (1%)
+
+Query  3   IIRLGDTTSHGGTVIEAFGQTDLNGKPMAGVGHQVVCPLCKGTFPITEGSALLDVNGVPV  62
+           I+ LGD T+HGG VI A     +NG  +A VG  V CP   G  PI EG       G  V
+Sbjct  4   IVCLGDATTHGGKVITATSTLFINGIQVALVGDLVSCPK-HGVNPIQEGDPTATEKGRNV  62
+
+Query  63  ALHGMKTACGASLIASGPLGAAEN  86
+            ++  + ACG  +I+S P  + E+
+Sbjct  63  VVNHCQCACGCRVISSQPENSIES  86
+
+
+>VFG048740(gb|YP_005226612) (KPHS_23120) PaaR repeat-containing 
+protein [T6SS (VF0569) - Effector delivery system (VFC0086)] 
+[Klebsiella pneumoniae subsp. pneumoniae HS11286]
+Length=85
+
+ Score = 48.1 bits (113),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 33/79 (42%), Positives = 42/79 (53%), Gaps = 4/79 (5%)
+
+Query  3   IIRLGDT-TSHGGTVIEAFGQTDLNGKPMAGVGHQVVCPLCKGTFPITEGSALLDVNGVP  61
+           +IR GDT   +GG V+   G     G   A  G  V C    G   I EGSA   ++G P
+Sbjct  4   VIRKGDTLREYGGRVL--MGHYQCFGLGFACKGDPVKCNK-HGMTTIAEGSARTTIDGQP  60
+
+Query  62  VALHGMKTACGASLIASGP  80
+           VALHG + ACG +L++S P
+Sbjct  61  VALHGHRCACGCTLVSSNP  79
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 326911956
+
+
+Query= g1681.t1
+
+Length=107
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.128    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 334313070
+
+
+Query= g3981.t1
+
+Length=131
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG035394(gb|WP_001390299) (aaiI) PAAR domain-containing protein ...  48.9    1e-08
+VFG041187(gb|WP_012849267) (ETAE_RS11285) PAAR domain-containing ...  46.6    1e-07
+VFG035228(gb|WP_000033410) (EC55989_RS17100) PAAR domain-containi...  45.1    3e-07
+
+
+>VFG035394(gb|WP_001390299) (aaiI) PAAR domain-containing protein 
+[AAI/SCI-II T6SS (VF1121) - Effector delivery system (VFC0086)] 
+[Escherichia coli O104:H4 str. 2009EL-2050]
+Length=99
+
+ Score = 48.9 bits (115),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 38/97 (39%), Positives = 47/97 (48%), Gaps = 10/97 (10%)
+
+Query  4   KPAARLGDPTACPL--PGHGSNPIVGG------SPDVFFDHLSAARQGDATACGATLSAN  55
+           +PAAR+ D   CP+  PG    P VGG      SP VF   L AA  G    C   +   
+Sbjct  3   QPAARVTDMHVCPMVTPGLPPVPHVGGPLLPPGSPSVFIGGLPAATLGTLALCSGPVDVV  62
+
+Query  56  VI--ANVLINGKPATVVGSVGTHGNLVVGGAGTVLIG  90
+           ++    VLI GKPA  +G +  HG  +V G   VLIG
+Sbjct  63  IMGSVKVLICGKPAARMGDICAHGGTIVSGYPQVLIG  99
+
+
+>VFG041187(gb|WP_012849267) (ETAE_RS11285) PAAR domain-containing 
+protein [EVP (E. tarda virulent protein) (VF1268) - Effector 
+delivery system (VFC0086)] [Edwardsiella tarda EIB202]
+Length=100
+
+ Score = 46.6 bits (109),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 40/98 (41%), Positives = 47/98 (48%), Gaps = 10/98 (10%)
+
+Query  3   GKPAARLGDPTACPL--PG-----HGSNPIVG-GSPDVFFDHLSAARQGDATACGATLSA  54
+           G+PAARL D   CP+  PG     H   P++G G P V    L AA  GD   C      
+Sbjct  2   GQPAARLTDMHVCPMQTPGVPPVPHVGGPVIGPGVPTVLIGGLPAAVLGDMLTCVGPPDT  61
+
+Query  55  NVI--ANVLINGKPATVVGSVGTHGNLVVGGAGTVLIG  90
+            +   A VLI GKPA  +G    HG  +  G  TVLIG
+Sbjct  62  IIKGSATVLIGGKPAARMGDSTAHGGTITLGCPTVLIG  99
+
+
+>VFG035228(gb|WP_000033410) (EC55989_RS17100) PAAR domain-containing 
+protein [SCI-I T6SS (VF1120) - Effector delivery system 
+(VFC0086)] [Escherichia coli 55989]
+Length=88
+
+ Score = 45.1 bits (105),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 21/52 (40%), Positives = 29/52 (56%), Gaps = 0/52 (0%)
+
+Query  1   MSGKPAARLGDPTACPLPGHGSNPIVGGSPDVFFDHLSAARQGDATACGATL  52
+           + GK  A +GD  +CP+ GHG+NPIV GSP+   D  +    G    CG  +
+Sbjct  27  VDGKKVALVGDMVSCPVSGHGTNPIVEGSPEWISDGRAVVIDGCKCLCGCKV  78
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.137    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 453935370
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

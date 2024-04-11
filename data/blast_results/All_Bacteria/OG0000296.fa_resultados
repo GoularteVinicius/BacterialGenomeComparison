@@ -1,0 +1,238 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g163.t1
+
+Length=405
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015816(gb|WP_012273375) (pvdN) pyoverdine biosynthesis protein...  48.9    3e-06
+VFG016002(gb|WP_011534367) (pvdN) pyoverdine biosynthesis protein...  47.8    7e-06
+
+
+>VFG015816(gb|WP_012273375) (pvdN) pyoverdine biosynthesis protein 
+PvdN [Pyoverdine (VF0094) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas putida GB-1]
+Length=430
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 73/303 (24%), Positives = 114/303 (38%), Gaps = 42/303 (14%)
+
+Query  17   PQVAERMMECLTFDGTFGNAASRSHAYGWQAEEKVEYA-REQVANLIKADPREIVWTSGA  75
+            P+     +E L     F    +R   +  Q+E K E A RE  A  ++  PR+I  T   
+Sbjct  68   PRPVREAIEALR--AQFDRQPARMVDWDSQSEWKHEAAVREWAARYLEVTPRQIALTGST  125
+
+Query  76   TESDNLALKGVAQFYASKGKHIITSKIEHKAVL-----------DPCRELEEQGFEITYL  124
+            TE   L   G+     + G+ I+T+  EH A              P R L        + 
+Sbjct  126  TEGLGLIYGGLK---IAPGQEILTTVHEHSAARHTMGFRTTRDGTPVRRLR------LFE  176
+
+Query  125  EPEPQTGLITPEMVKAALRPDTILVSLMMVNNEIGTVTDVAAIGELTRA--------NKT  176
+            +P   +       + AA+ P T ++ +  V++  G    V  IG+L R         ++ 
+Sbjct  177  DPAKVSTDQVLTTISAAIGPKTRVLGMTWVHSGSGVKLPVGEIGKLVREVNRQRDENDQI  236
+
+Query  177  FFHVDAAQAAGKVDIDLSTMKIDLMSFSAHK-IYGPKGIGALYVRRSPRVRLKAQIHGGG  235
+             + +D     G  D+  +    D      HK ++GP+G G +    +   +L   I    
+Sbjct  237  IYVIDGVHGFGVEDVRFADFNCDYFIAGTHKWMFGPRGTGIICAASTELKQLTPTIASFS  296
+
+Query  236  HERGMRS-----GTLATHQIVGMGEAFEL---AGKTMHAEQERIRKLRDKLWNGLQDLEQ  287
+                  +     G  A      +G+AFEL    GK   A Q RI  L D L   L+ L  
+Sbjct  297  ENEDFATIMTPGGYHAFEHRWALGKAFELHLQLGKA--AVQARIHGLNDFLKQRLEALPG  354
+
+Query  288  VFL  290
+            + L
+Sbjct  355  IEL  357
+
+
+>VFG016002(gb|WP_011534367) (pvdN) pyoverdine biosynthesis protein 
+PvdN [Pyoverdine (VF0094) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas entomophila L48]
+Length=425
+
+ Score = 47.8 bits (112),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 62/269 (23%), Positives = 109/269 (41%), Gaps = 32/269 (12%)
+
+Query  43   YGWQAEEKVEYAREQVANLIKADPREIVWTSGATESDNLALKGVAQFYASKGKHIITSKI  102
+            Y W+ E +V   R+  A  ++  PR+I  T   TE   L   G+        + I+T+  
+Sbjct  93   YEWKREGEV---RDWAARYLEVGPRQIALTGSTTEGLALIYGGLQ---VRPDQEILTTVH  146
+
+Query  103  EHKAVLDPCRELE----EQGFEITYLEPEPQTGLITPEMVKAAL----RPDTILVSLMMV  154
+            EH +     + LE     QG ++  +    +   I+ + + + +    RP+T ++ +  V
+Sbjct  147  EHYST---HKTLEFRNRRQGTQVRKIRLFDKPWEISTDQILSTIDQNIRPETRVLGMTWV  203
+
+Query  155  NNEIGTVTDVAAIGELTR--------ANKTFFHVDAAQAAGKVDIDLSTMKIDLMSFSAH  206
+            ++  G    V  IGEL R        A++  + VD     G  +   +    D      H
+Sbjct  204  HSSSGAKLPVGEIGELVRKHNHERSEADRILYVVDGVHGFGVENARFADFNCDYFIAGGH  263
+
+Query  207  K-IYGPKGIGALYVRRSPRVRLKAQIHGGGHERGMRS-----GTLATHQIVGMGEAFELA  260
+            K ++GP+G G +    +    L   +     E    +     G  A      +GEAF+L 
+Sbjct  264  KWLFGPRGTGIICAASTTMDNLTPSVASFSQEEDFATIMTPGGYHAFEYRWSLGEAFKLH  323
+
+Query  261  GKTMHAE-QERIRKLRDKLWNGLQDLEQV  288
+             +   A+ Q RI +L   L + L +  Q+
+Sbjct  324  LQLGKADVQARIHQLNSLLKDRLAEHRQI  352
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.132    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3164598357
+
+
+Query= g1359.t1
+
+Length=396
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3070600386
+
+
+Query= g2974.t1
+
+Length=393
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.131    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3039267729
+
+
+Query= g2096.t1
+
+Length=393
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.131    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3039267729
+
+
+Query= g3887.t1
+
+Length=404
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3154154138
+
+
+Query= g2373.t1
+
+Length=404
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG016003(gb|WP_011062369) (pvdN) pyoverdine biosynthesis protein...  48.1    6e-06
+
+
+>VFG016003(gb|WP_011062369) (pvdN) pyoverdine biosynthesis protein 
+PvdN [Pyoverdine (VF0094) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas fluorescens Pf-5]
+Length=431
+
+ Score = 48.1 bits (113),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 46/193 (24%), Positives = 84/193 (44%), Gaps = 21/193 (11%)
+
+Query  42   RFGWQAEEAVDIARNQIAELVGADPREIVFTSGATESDNLAIKGAANFYQKKGKHIITSK  101
+            ++ W+ E  V   R  +   +   P ++  T   TE   L   G    + + G+ I+T+ 
+Sbjct  92   QYTWKREAQV---RESVGRYLQIKPGQVALTGSTTEGLALMYGG---IHVRPGQEILTTV  145
+
+Query  102  TEHKAVLDTCR-QLEREGFEVT----YLAPQRNGIID-LNELEAAMRDDTILVSIMHVNN  155
+             EH +  +  + + +R+G +V     + +P R    + L  ++  +R +T ++ +  V +
+Sbjct  146  HEHYSTRNALKYRTQRDGTQVRTIELFKSPHRMSTDEVLGNIDRNIRANTRVLGMTWVQS  205
+
+Query  156  EIGVVQDIATIGEMC----RARG----IIYHVDATQSVGKLPIDLSQLKVDLMSFSGHK-  206
+              GV   I  IG++     R R     I+Y VD    +G   I  + L  D      HK 
+Sbjct  206  GSGVKLPIGEIGKLVDQHNRNRDEHERILYCVDGVHGLGVEDITFADLNCDFFVAGTHKW  265
+
+Query  207  IYGPKGIGALYVR  219
+            ++GP+G G    R
+Sbjct  266  MFGPRGTGIFCSR  278
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3154154138
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

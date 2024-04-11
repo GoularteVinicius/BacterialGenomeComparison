@@ -1,0 +1,1993 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1669.t1
+
+Length=334
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG008795(gb|WP_003901497) (mas) mycocerosate synthase [PDIM (VF0...  60.1    8e-10
+VFG008788(gb|WP_014001497) (mas) mycocerosate synthase [PDIM (VF0...  60.1    8e-10
+VFG007893(gb|WP_010950802) (mas) mycocerosate synthase [PDIM (VF0...  60.1    8e-10
+VFG001408(gb|NP_217456) (mas) multifunctional mycocerosic acid sy...  60.1    8e-10
+VFG008791(gb|WP_015294046) (mas) mycocerosate synthase [PDIM (VF0...  60.1    1e-09
+VFG007855(gb|WP_162292826) (ppsC) type I polyketide synthase [PDI...  60.1    1e-09
+VFG008878(gb|WP_162143265) (ppsC) type I polyketide synthase [PDI...  60.1    1e-09
+VFG008790(gb|WP_015291064) (mas) mycocerosate synthase [PDIM (VF0...  59.7    1e-09
+VFG022413(gb|WP_181013047) (ppsC) type I polyketide synthase [PDI...  59.7    1e-09
+VFG008789(gb|WP_015303649) (mas) mycocerosate synthase [PDIM (VF0...  58.9    2e-09
+VFG022442(gb|WP_003910676) (mas) mycocerosate synthase [PDIM (VF0...  58.5    3e-09
+VFG007849(gb|NP_217449) (ppsC) phthiocerol synthesis polyketide s...  57.8    6e-09
+VFG008884(gb|WP_009938592) (ppsC) phthiocerol type I polyketide s...  57.8    6e-09
+VFG008874(gb|WP_015288408) (ppsC) phthiocerol type I polyketide s...  57.8    6e-09
+VFG007851(gb|WP_003899548) (ppsC) phthiocerol type I polyketide s...  57.8    6e-09
+VFG022415(gb|WP_014001494) (ppsC) phthiocerol type I polyketide s...  57.8    6e-09
+VFG008876(gb|WP_015291057) (ppsC) phthiocerol type I polyketide s...  57.4    7e-09
+VFG008875(gb|WP_015303644) (ppsC) phthiocerol type I polyketide s...  57.4    7e-09
+VFG008877(gb|WP_015294040) (ppsC) phthiocerol type I polyketide s...  57.4    7e-09
+VFG007895(gb|WP_010907558) (mas) type I polyketide synthase [PDIM...  57.0    9e-09
+VFG007854(gb|WP_010908854) (ppsC) type I polyketide synthase [PDI...  57.0    9e-09
+VFG026099(gb|WP_011402028) (wcbR) capsular polysaccharide biosynt...  53.9    1e-07
+VFG049148(gb|WP_041168941) (clbB) colibactin hybrid non-ribosomal...  52.8    2e-07
+VFG043693(gb|WP_001518711) (clbB) colibactin hybrid non-ribosomal...  52.8    2e-07
+
+
+>VFG008795(gb|WP_003901497) (mas) mycocerosate synthase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+str. Beijing/NITR203]
+Length=2111
+
+ Score = 60.1 bits (144),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 54/206 (26%), Positives = 89/206 (43%), Gaps = 16/206 (8%)
+
+Query  136   YFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCRVVGIAGGAEKCRFLVEELGFD  195
+             ++ L D+ Q K G+ V+I  A G VG  A  IAR KG  +   AG   K R ++ ++G +
+Sbjct  1547  WYGLNDLAQIKAGDKVLIHSATGGVGQAAISIARAKGAEIFATAGNPAK-RAMLRDMGVE  1605
+
+Query  196   GAIDYKNEDLAAGLKRECP-KGIDVFFDNVGGEILDTVLTRIAFKARIVLCGAISQYNNK  254
+                D ++ + A  ++R+    G+D+  +++ G      L  +AF  R V  G    Y N 
+Sbjct  1606  HVYDSRSVEFAEQIRRDTDGYGVDIVLNSLTGAAQRAGLELLAFGGRFVEIGKADVYGNT  1665
+
+Query  255   EAVRGPAN------YLSLLVNRARMEGMVVMDYAQRFPEGLKEMATWLAEGKLQSREDIV  308
+                  P        YL L         ++ +    R  E L  +    A+G L + +   
+Sbjct  1666  RLGLFPFRRGLTFYYLDL--------ALMSVTQPDRVRELLATVFKLTADGVLTAPQCTH  1717
+
+Query  309   EGLETFPETLLKLFSGENFGKLVLKV  334
+               L    + +  + + E+ GKLVL V
+Sbjct  1718  YPLAEAADAIRAMSNAEHTGKLVLDV  1743
+
+
+>VFG008788(gb|WP_014001497) (mas) mycocerosate synthase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium canettii 
+CIPT 140060008]
+Length=2111
+
+ Score = 60.1 bits (144),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 54/206 (26%), Positives = 89/206 (43%), Gaps = 16/206 (8%)
+
+Query  136   YFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCRVVGIAGGAEKCRFLVEELGFD  195
+             ++ L D+ Q K G+ V+I  A G VG  A  IAR KG  +   AG   K R ++ ++G +
+Sbjct  1547  WYGLNDLAQIKAGDKVLIHSATGGVGQAAISIARAKGAEIFATAGNPAK-RAMLRDMGVE  1605
+
+Query  196   GAIDYKNEDLAAGLKRECP-KGIDVFFDNVGGEILDTVLTRIAFKARIVLCGAISQYNNK  254
+                D ++ + A  ++R+    G+D+  +++ G      L  +AF  R V  G    Y N 
+Sbjct  1606  HVYDSRSVEFAEQIRRDTDGYGVDIVLNSLTGAAQRAGLELLAFGGRFVEIGKADVYGNT  1665
+
+Query  255   EAVRGPAN------YLSLLVNRARMEGMVVMDYAQRFPEGLKEMATWLAEGKLQSREDIV  308
+                  P        YL L         ++ +    R  E L  +    A+G L + +   
+Sbjct  1666  RLGLFPFRRGLTFYYLDL--------ALMSVTQPDRVRELLATVFKLTADGVLTAPQCTH  1717
+
+Query  309   EGLETFPETLLKLFSGENFGKLVLKV  334
+               L    + +  + + E+ GKLVL V
+Sbjct  1718  YPLAEAADAIRAMSNAEHTGKLVLDV  1743
+
+
+>VFG007893(gb|WP_010950802) (mas) mycocerosate synthase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium bovis 
+AF2122/97]
+Length=2111
+
+ Score = 60.1 bits (144),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 54/206 (26%), Positives = 89/206 (43%), Gaps = 16/206 (8%)
+
+Query  136   YFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCRVVGIAGGAEKCRFLVEELGFD  195
+             ++ L D+ Q K G+ V+I  A G VG  A  IAR KG  +   AG   K R ++ ++G +
+Sbjct  1547  WYGLNDLAQIKAGDKVLIHSATGGVGQAAISIARAKGAEIFATAGNPAK-RAMLRDMGVE  1605
+
+Query  196   GAIDYKNEDLAAGLKRECP-KGIDVFFDNVGGEILDTVLTRIAFKARIVLCGAISQYNNK  254
+                D ++ + A  ++R+    G+D+  +++ G      L  +AF  R V  G    Y N 
+Sbjct  1606  HVYDSRSVEFAEQIRRDTDGYGVDIVLNSLTGAAQRAGLELLAFGGRFVEIGKADVYGNT  1665
+
+Query  255   EAVRGPAN------YLSLLVNRARMEGMVVMDYAQRFPEGLKEMATWLAEGKLQSREDIV  308
+                  P        YL L         ++ +    R  E L  +    A+G L + +   
+Sbjct  1666  RLGLFPFRRGLTFYYLDL--------ALMSVTQPDRVRELLATVFKLTADGVLTAPQCTH  1717
+
+Query  309   EGLETFPETLLKLFSGENFGKLVLKV  334
+               L    + +  + + E+ GKLVL V
+Sbjct  1718  YPLAEAADAIRAMSNAEHTGKLVLDV  1743
+
+
+>VFG001408(gb|NP_217456) (mas) multifunctional mycocerosic acid 
+synthase [PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=2111
+
+ Score = 60.1 bits (144),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 54/206 (26%), Positives = 89/206 (43%), Gaps = 16/206 (8%)
+
+Query  136   YFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCRVVGIAGGAEKCRFLVEELGFD  195
+             ++ L D+ Q K G+ V+I  A G VG  A  IAR KG  +   AG   K R ++ ++G +
+Sbjct  1547  WYGLNDLAQIKAGDKVLIHSATGGVGQAAISIARAKGAEIFATAGNPAK-RAMLRDMGVE  1605
+
+Query  196   GAIDYKNEDLAAGLKRECP-KGIDVFFDNVGGEILDTVLTRIAFKARIVLCGAISQYNNK  254
+                D ++ + A  ++R+    G+D+  +++ G      L  +AF  R V  G    Y N 
+Sbjct  1606  HVYDSRSVEFAEQIRRDTDGYGVDIVLNSLTGAAQRAGLELLAFGGRFVEIGKADVYGNT  1665
+
+Query  255   EAVRGPAN------YLSLLVNRARMEGMVVMDYAQRFPEGLKEMATWLAEGKLQSREDIV  308
+                  P        YL L         ++ +    R  E L  +    A+G L + +   
+Sbjct  1666  RLGLFPFRRGLTFYYLDL--------ALMSVTQPDRVRELLATVFKLTADGVLTAPQCTH  1717
+
+Query  309   EGLETFPETLLKLFSGENFGKLVLKV  334
+               L    + +  + + E+ GKLVL V
+Sbjct  1718  YPLAEAADAIRAMSNAEHTGKLVLDV  1743
+
+
+>VFG008791(gb|WP_015294046) (mas) mycocerosate synthase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium canettii 
+CIPT 140070017]
+Length=2111
+
+ Score = 60.1 bits (144),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 54/206 (26%), Positives = 89/206 (43%), Gaps = 16/206 (8%)
+
+Query  136   YFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCRVVGIAGGAEKCRFLVEELGFD  195
+             ++ L D+ Q K G+ V+I  A G VG  A  IAR KG  +   AG   K R ++ ++G +
+Sbjct  1547  WYGLNDLAQIKAGDKVLIHSATGGVGQAAISIARAKGAEIFATAGNPAK-RAMLRDMGVE  1605
+
+Query  196   GAIDYKNEDLAAGLKRECP-KGIDVFFDNVGGEILDTVLTRIAFKARIVLCGAISQYNNK  254
+                D ++ + A  ++R+    G+D+  +++ G      L  +AF  R V  G    Y N 
+Sbjct  1606  HVYDSRSVEFAEQIRRDTDGYGVDIVLNSLTGAAQRAGLELLAFGGRFVEIGKADVYGNT  1665
+
+Query  255   EAVRGPAN------YLSLLVNRARMEGMVVMDYAQRFPEGLKEMATWLAEGKLQSREDIV  308
+                  P        YL L         ++ +    R  E L  +    A+G L + +   
+Sbjct  1666  RLGLFPFRRGLTFYYLDL--------ALMSVTQPDRVRELLATVFKLTADGVLTAPQCTH  1717
+
+Query  309   EGLETFPETLLKLFSGENFGKLVLKV  334
+               L    + +  + + E+ GKLVL V
+Sbjct  1718  YPLAEAADAIRAMSNAEHTGKLVLDV  1743
+
+
+>VFG007855(gb|WP_162292826) (ppsC) type I polyketide synthase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+ulcerans Agy99]
+Length=2202
+
+ Score = 60.1 bits (144),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 62/227 (27%), Positives = 105/227 (46%), Gaps = 21/227 (9%)
+
+Query  120   PLPRYL-----SALGMTGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCR  174
+             P+P  L     +  G+  +TA+ +L +VG+   GE V+I  A G VG  A  IA++ G R
+Sbjct  1577  PIPDTLPDNEAATFGIAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGAR  1636
+
+Query  175   VVGIAGGAEKCRFLVEELGFDGAIDYKNEDLAAG-LKRECPKGIDVFFDNVGGEILDTVL  233
+             +   AG   K R ++  LG D   D +  D A   L+     G+D+  +++ GE +   +
+Sbjct  1637  IYTTAGSDAK-REMLSSLGVDYVGDSRTVDFADEILELTDGYGVDIVLNSLAGEAIQRGV  1695
+
+Query  234   TRIAFKARIVLCGAISQYNNKEAVRGPANY-LSLLVNRARMEGMVVMDY-----AQRFPE  287
+               +A   R +  G       K+ V   AN  L+ L   A    +V +D        ++ E
+Sbjct  1696  QILAPGGRFIELG-------KKDVHANANLGLAALAKSASFS-VVDLDLNLKLQPAKYRE  1747
+
+Query  288   GLKEMATWLAEGKLQSREDIVEGLETFPETLLKLFSGENFGKLVLKV  334
+              L+E+   +A+G L+       GL    +    + SG++ GK+V+ +
+Sbjct  1748  LLQEILEHVADGTLEVLPVTEFGLRDAADGFRLMASGKHTGKIVISI  1794
+
+
+>VFG008878(gb|WP_162143265) (ppsC) type I polyketide synthase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+liflandii 128FXT]
+Length=2202
+
+ Score = 60.1 bits (144),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 62/227 (27%), Positives = 105/227 (46%), Gaps = 21/227 (9%)
+
+Query  120   PLPRYL-----SALGMTGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCR  174
+             P+P  L     +  G+  +TA+ +L +VG+   GE V+I  A G VG  A  IA++ G R
+Sbjct  1577  PIPDTLPDNEAATFGIAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGAR  1636
+
+Query  175   VVGIAGGAEKCRFLVEELGFDGAIDYKNEDLAAG-LKRECPKGIDVFFDNVGGEILDTVL  233
+             +   AG   K R ++  LG D   D +  D A   L+     G+D+  +++ GE +   +
+Sbjct  1637  IYTTAGSDAK-REMLSSLGVDYVGDSRTVDFADEILELTDGYGVDIVLNSLAGEAIQRGV  1695
+
+Query  234   TRIAFKARIVLCGAISQYNNKEAVRGPANY-LSLLVNRARMEGMVVMDY-----AQRFPE  287
+               +A   R +  G       K+ V   AN  L+ L   A    +V +D        ++ E
+Sbjct  1696  QILAPGGRFIELG-------KKDVHANANLGLAALAKSASFS-VVDLDLNLKLQPAKYRE  1747
+
+Query  288   GLKEMATWLAEGKLQSREDIVEGLETFPETLLKLFSGENFGKLVLKV  334
+              L+E+   +A+G L+       GL    +    + SG++ GK+V+ +
+Sbjct  1748  LLQEILEHVADGTLEVLPVTEFGLRDAADGFRLMASGKHTGKIVISI  1794
+
+
+>VFG008790(gb|WP_015291064) (mas) mycocerosate synthase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium canettii 
+CIPT 140070010]
+Length=2111
+
+ Score = 59.7 bits (143),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 54/206 (26%), Positives = 89/206 (43%), Gaps = 16/206 (8%)
+
+Query  136   YFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCRVVGIAGGAEKCRFLVEELGFD  195
+             ++ L D+ Q K G+ V+I  A G VG  A  IAR KG  +   AG   K R ++ ++G +
+Sbjct  1547  WYGLNDLAQIKAGDKVLIHSATGGVGQAAISIARAKGAEIFATAGNPAK-RAMLRDMGVE  1605
+
+Query  196   GAIDYKNEDLAAGLKRECP-KGIDVFFDNVGGEILDTVLTRIAFKARIVLCGAISQYNNK  254
+                D ++ + A  ++R+    G+D+  +++ G      L  +AF  R V  G    Y N 
+Sbjct  1606  HVYDSRSVEFAEQIRRDTDGYGVDIVLNSLTGAAQRAGLELLAFGGRFVEIGKADVYGNT  1665
+
+Query  255   EAVRGPAN------YLSLLVNRARMEGMVVMDYAQRFPEGLKEMATWLAEGKLQSREDIV  308
+                  P        YL L         ++ +    R  E L  +    A+G L + +   
+Sbjct  1666  RLGLFPFRRGLTFYYLDL--------ALMSVTQPDRVRELLATVFKLTADGVLTAPQCTH  1717
+
+Query  309   EGLETFPETLLKLFSGENFGKLVLKV  334
+               L    + +  + + E+ GKLVL V
+Sbjct  1718  YPLAEAADAIRAMSNAEHTGKLVLDV  1743
+
+
+>VFG022413(gb|WP_181013047) (ppsC) type I polyketide synthase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+marinum M]
+Length=2202
+
+ Score = 59.7 bits (143),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 62/227 (27%), Positives = 105/227 (46%), Gaps = 21/227 (9%)
+
+Query  120   PLPRYL-----SALGMTGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCR  174
+             P+P  L     +  G+  +TA+ +L +VG+   GE V+I  A G VG  A  IA++ G R
+Sbjct  1577  PIPDTLPDNEAATFGIAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGAR  1636
+
+Query  175   VVGIAGGAEKCRFLVEELGFDGAIDYKNEDLAAG-LKRECPKGIDVFFDNVGGEILDTVL  233
+             +   AG   K R ++  LG D   D +  D A   L+     G+D+  +++ GE +   +
+Sbjct  1637  IYTTAGSDAK-REMLSSLGVDYVGDSRTVDFADEILELTDGYGVDIVLNSLAGEAIQRGV  1695
+
+Query  234   TRIAFKARIVLCGAISQYNNKEAVRGPANY-LSLLVNRARMEGMVVMDY-----AQRFPE  287
+               +A   R +  G       K+ V   AN  L+ L   A    +V +D        ++ E
+Sbjct  1696  QILAPGGRFIELG-------KKDVHANANLGLAALAKSASFS-VVDLDLNLKLQPAKYRE  1747
+
+Query  288   GLKEMATWLAEGKLQSREDIVEGLETFPETLLKLFSGENFGKLVLKV  334
+              L+E+   +A+G L+       GL    +    + SG++ GK+V+ +
+Sbjct  1748  LLQEILEHVADGALEVLPVTEFGLRDAADGFRLMASGKHTGKIVISI  1794
+
+
+>VFG008789(gb|WP_015303649) (mas) mycocerosate synthase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium canettii 
+CIPT 140070008]
+Length=2111
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 55/206 (27%), Positives = 88/206 (43%), Gaps = 16/206 (8%)
+
+Query  136   YFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCRVVGIAGGAEKCRFLVEELGFD  195
+             ++ L D+ Q K G+ V+I  A G VG  A  IAR KG  +   AG   K R ++ ++G +
+Sbjct  1547  WYGLNDLAQIKAGDKVLIHSATGGVGQAAISIARAKGAEIFATAGNPAK-RAMLRDMGVE  1605
+
+Query  196   GAIDYKNEDLAAGLKRECP-KGIDVFFDNVGGEILDTVLTRIAFKARIVLCGAISQYNNK  254
+                D ++ + A  ++R+    G+D+  +++ G      L  +AF  R V  G    Y N 
+Sbjct  1606  HVYDSRSVEFAEQIRRDTDGYGVDIVLNSLTGAAQRAGLELLAFGGRFVEIGKADVYGNT  1665
+
+Query  255   EAVRGPAN------YLSLLVNRARMEGMVVMDYAQRFPEGLKEMATWLAEGKLQSREDIV  308
+                  P        YL L +      G        R  E L  +    A+G L + +   
+Sbjct  1666  RLGLFPFRRGLTFYYLDLALMSVTQPG--------RVRELLATVFKLTADGVLTAPQCTH  1717
+
+Query  309   EGLETFPETLLKLFSGENFGKLVLKV  334
+               L    + +  + + E+ GKLVL V
+Sbjct  1718  YPLVEAADAIRAMSNAEHTGKLVLDV  1743
+
+
+>VFG022442(gb|WP_003910676) (mas) mycocerosate synthase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium africanum 
+GM041182]
+Length=2111
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 53/206 (26%), Positives = 88/206 (43%), Gaps = 16/206 (8%)
+
+Query  136   YFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCRVVGIAGGAEKCRFLVEELGFD  195
+             ++ L D+ Q K G+ V+I  A G VG  A  IAR KG  +   AG   K R ++ ++G +
+Sbjct  1547  WYGLNDLAQIKAGDKVLIHSATGGVGQAAISIARAKGAEIFATAGNPAK-RAMLRDMGVE  1605
+
+Query  196   GAIDYKNEDLAAGLKRECP-KGIDVFFDNVGGEILDTVLTRIAFKARIVLCGAISQYNNK  254
+                D ++ + A  ++R+    G+D+  +++ G      L  +AF  R V  G    Y N 
+Sbjct  1606  HVYDSRSVEFAEQIRRDTDGYGVDIVLNSLTGAAQRAGLELLAFGGRFVEIGKADVYGNT  1665
+
+Query  255   EAVRGPAN------YLSLLVNRARMEGMVVMDYAQRFPEGLKEMATWLAEGKLQSREDIV  308
+                  P        YL L         ++ +    R  E L  +     +G L + +   
+Sbjct  1666  RLGLFPFRRGLTFYYLDL--------ALMSVTQPDRVRELLATVFKLTGDGVLTAPQCTH  1717
+
+Query  309   EGLETFPETLLKLFSGENFGKLVLKV  334
+               L    + +  + + E+ GKLVL V
+Sbjct  1718  YPLAEAADAIRAMSNAEHTGKLVLDV  1743
+
+
+>VFG007849(gb|NP_217449) (ppsC) phthiocerol synthesis polyketide 
+synthase type I PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=2188
+
+ Score = 57.8 bits (138),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 60/234 (26%), Positives = 103/234 (44%), Gaps = 35/234 (15%)
+
+Query  120   PLPRYLS-----ALGMTGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCR  174
+             P+P  L+       G+  +TA+ +L +VG+   GE V+I  A G VG  A  IA++ G R
+Sbjct  1563  PIPDTLADNEAATFGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGAR  1622
+
+Query  175   VVGIAGGAEK----CRFLVEELGFDGAIDYKNE--DLAAGLKRECPKGIDVFFDNVGGEI  228
+             +   AG   K     R  VE +G   ++D+ +E  +L  G       G+DV  +++ GE 
+Sbjct  1623  IYTTAGSDAKREMLSRLGVEYVGDSRSVDFADEILELTDGY------GVDVVLNSLAGEA  1676
+
+Query  229   LDTVLTRIAFKARIVLCGAISQYNNKEAVRGPANYLSL-LVNRARMEGMVVMDY------  281
+             +   +  +A   R +  G    Y +           SL L   A+     V+D       
+Sbjct  1677  IQRGVQILAPGGRFIELGKKDVYADA----------SLGLAALAKSASFSVVDLDLNLKL  1726
+
+Query  282   -AQRFPEGLKEMATWLAEGKLQSREDIVEGLETFPETLLKLFSGENFGKLVLKV  334
+                R+ + L+ +   +A+GKL+        L    +    + SG++ GK+V+ +
+Sbjct  1727  QPARYRQLLQHILQHVADGKLEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG008884(gb|WP_009938592) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis CTRI-2]
+Length=2188
+
+ Score = 57.8 bits (138),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 60/234 (26%), Positives = 103/234 (44%), Gaps = 35/234 (15%)
+
+Query  120   PLPRYLS-----ALGMTGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCR  174
+             P+P  L+       G+  +TA+ +L +VG+   GE V+I  A G VG  A  IA++ G R
+Sbjct  1563  PIPDTLADNEAATFGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGAR  1622
+
+Query  175   VVGIAGGAEK----CRFLVEELGFDGAIDYKNE--DLAAGLKRECPKGIDVFFDNVGGEI  228
+             +   AG   K     R  VE +G   ++D+ +E  +L  G       G+DV  +++ GE 
+Sbjct  1623  IYTTAGSDAKREMLSRLGVEYVGDSRSVDFADEILELTDGY------GVDVVLNSLAGEA  1676
+
+Query  229   LDTVLTRIAFKARIVLCGAISQYNNKEAVRGPANYLSL-LVNRARMEGMVVMDY------  281
+             +   +  +A   R +  G    Y +           SL L   A+     V+D       
+Sbjct  1677  IQRGVQILAPGGRFIELGKKDVYADA----------SLGLAALAKSASFSVVDLDLNLKL  1726
+
+Query  282   -AQRFPEGLKEMATWLAEGKLQSREDIVEGLETFPETLLKLFSGENFGKLVLKV  334
+                R+ + L+ +   +A+GKL+        L    +    + SG++ GK+V+ +
+Sbjct  1727  QPARYRQLLQHILQHVADGKLEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG008874(gb|WP_015288408) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140060008]
+Length=2188
+
+ Score = 57.8 bits (138),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 60/234 (26%), Positives = 103/234 (44%), Gaps = 35/234 (15%)
+
+Query  120   PLPRYLS-----ALGMTGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCR  174
+             P+P  L+       G+  +TA+ +L +VG+   GE V+I  A G VG  A  IA++ G R
+Sbjct  1563  PIPDTLADNEAATFGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGAR  1622
+
+Query  175   VVGIAGGAEK----CRFLVEELGFDGAIDYKNE--DLAAGLKRECPKGIDVFFDNVGGEI  228
+             +   AG   K     R  VE +G   ++D+ +E  +L  G       G+DV  +++ GE 
+Sbjct  1623  IYTTAGSDAKREMLSRLGVEYVGDSRSVDFADEILELTDGY------GVDVVLNSLAGEA  1676
+
+Query  229   LDTVLTRIAFKARIVLCGAISQYNNKEAVRGPANYLSL-LVNRARMEGMVVMDY------  281
+             +   +  +A   R +  G    Y +           SL L   A+     V+D       
+Sbjct  1677  IQRGVQILAPGGRFIELGKKDVYADA----------SLGLAALAKSASFSVVDLDLNLKL  1726
+
+Query  282   -AQRFPEGLKEMATWLAEGKLQSREDIVEGLETFPETLLKLFSGENFGKLVLKV  334
+                R+ + L+ +   +A+GKL+        L    +    + SG++ GK+V+ +
+Sbjct  1727  QPARYRQLLQHILQHVADGKLEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG007851(gb|WP_003899548) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis CDC1551]
+Length=2188
+
+ Score = 57.8 bits (138),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 60/234 (26%), Positives = 103/234 (44%), Gaps = 35/234 (15%)
+
+Query  120   PLPRYLS-----ALGMTGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCR  174
+             P+P  L+       G+  +TA+ +L +VG+   GE V+I  A G VG  A  IA++ G R
+Sbjct  1563  PIPDTLADNEAATFGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGAR  1622
+
+Query  175   VVGIAGGAEK----CRFLVEELGFDGAIDYKNE--DLAAGLKRECPKGIDVFFDNVGGEI  228
+             +   AG   K     R  VE +G   ++D+ +E  +L  G       G+DV  +++ GE 
+Sbjct  1623  IYTTAGSDAKREMLSRLGVEYVGDSRSVDFADEILELTDGY------GVDVVLNSLAGEA  1676
+
+Query  229   LDTVLTRIAFKARIVLCGAISQYNNKEAVRGPANYLSL-LVNRARMEGMVVMDY------  281
+             +   +  +A   R +  G    Y +           SL L   A+     V+D       
+Sbjct  1677  IQRGVQILAPGGRFIELGKKDVYADA----------SLGLAALAKSASFSVVDLDLNLKL  1726
+
+Query  282   -AQRFPEGLKEMATWLAEGKLQSREDIVEGLETFPETLLKLFSGENFGKLVLKV  334
+                R+ + L+ +   +A+GKL+        L    +    + SG++ GK+V+ +
+Sbjct  1727  QPARYRQLLQHILQHVADGKLEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG022415(gb|WP_014001494) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140010059]
+Length=2188
+
+ Score = 57.8 bits (138),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 60/234 (26%), Positives = 103/234 (44%), Gaps = 35/234 (15%)
+
+Query  120   PLPRYLS-----ALGMTGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCR  174
+             P+P  L+       G+  +TA+ +L +VG+   GE V+I  A G VG  A  IA++ G R
+Sbjct  1563  PIPDTLADNEAATFGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGAR  1622
+
+Query  175   VVGIAGGAEK----CRFLVEELGFDGAIDYKNE--DLAAGLKRECPKGIDVFFDNVGGEI  228
+             +   AG   K     R  VE +G   ++D+ +E  +L  G       G+DV  +++ GE 
+Sbjct  1623  IYTTAGSDAKREMLSRLGVEYVGDSRSVDFADEILELTDGY------GVDVVLNSLAGEA  1676
+
+Query  229   LDTVLTRIAFKARIVLCGAISQYNNKEAVRGPANYLSL-LVNRARMEGMVVMDY------  281
+             +   +  +A   R +  G    Y +           SL L   A+     V+D       
+Sbjct  1677  IQRGVQILAPGGRFIELGKKDVYADA----------SLGLAALAKSASFSVVDLDLNLKL  1726
+
+Query  282   -AQRFPEGLKEMATWLAEGKLQSREDIVEGLETFPETLLKLFSGENFGKLVLKV  334
+                R+ + L+ +   +A+GKL+        L    +    + SG++ GK+V+ +
+Sbjct  1727  QPARYRQLLQHILQHVADGKLEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG008876(gb|WP_015291057) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=2188
+
+ Score = 57.4 bits (137),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 60/234 (26%), Positives = 103/234 (44%), Gaps = 35/234 (15%)
+
+Query  120   PLPRYLS-----ALGMTGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCR  174
+             P+P  L+       G+  +TA+ +L +VG+   GE V+I  A G VG  A  IA++ G R
+Sbjct  1563  PIPDTLADNEAATFGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGAR  1622
+
+Query  175   VVGIAGGAEKCRFL----VEELGFDGAIDYKNE--DLAAGLKRECPKGIDVFFDNVGGEI  228
+             +   AG   K   L    VE +G   ++D+ +E  +L  G       G+DV  +++ GE 
+Sbjct  1623  IYTTAGSDAKREMLSGLGVEYVGDSRSVDFADEILELTDGY------GVDVVLNSLAGEA  1676
+
+Query  229   LDTVLTRIAFKARIVLCGAISQYNNKEAVRGPANYLSL-LVNRARMEGMVVMDY------  281
+             +   +  +A   R +  G    Y +           SL L   A+     V+D       
+Sbjct  1677  IQRGVQILAPGGRFIELGKKDVYADA----------SLGLAALAKSASFSVVDLDLNLKL  1726
+
+Query  282   -AQRFPEGLKEMATWLAEGKLQSREDIVEGLETFPETLLKLFSGENFGKLVLKV  334
+                R+ + L+ +   +A+GKL+        L    +    + SG++ GK+V+ +
+Sbjct  1727  QPARYRQLLQHILQHVADGKLEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG008875(gb|WP_015303644) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070008]
+Length=2188
+
+ Score = 57.4 bits (137),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 60/234 (26%), Positives = 103/234 (44%), Gaps = 35/234 (15%)
+
+Query  120   PLPRYLS-----ALGMTGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCR  174
+             P+P  L+       G+  +TA+ +L +VG+   GE V+I  A G VG  A  IA++ G R
+Sbjct  1563  PIPDTLADNEAATFGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGAR  1622
+
+Query  175   VVGIAGGAEKCRFL----VEELGFDGAIDYKNE--DLAAGLKRECPKGIDVFFDNVGGEI  228
+             +   AG   K   L    VE +G   ++D+ +E  +L  G       G+DV  +++ GE 
+Sbjct  1623  IYTTAGSDAKREMLSGLGVEYVGDSRSVDFADEILELTDGY------GVDVVLNSLAGEA  1676
+
+Query  229   LDTVLTRIAFKARIVLCGAISQYNNKEAVRGPANYLSL-LVNRARMEGMVVMDY------  281
+             +   +  +A   R +  G    Y +           SL L   A+     V+D       
+Sbjct  1677  IQRGVQILAPGGRFIELGKKDVYADA----------SLGLAALAKSASFSVVDLDLNLKL  1726
+
+Query  282   -AQRFPEGLKEMATWLAEGKLQSREDIVEGLETFPETLLKLFSGENFGKLVLKV  334
+                R+ + L+ +   +A+GKL+        L    +    + SG++ GK+V+ +
+Sbjct  1727  QPARYRQLLQHILQHVADGKLEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG008877(gb|WP_015294040) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070017]
+Length=2188
+
+ Score = 57.4 bits (137),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 60/234 (26%), Positives = 103/234 (44%), Gaps = 35/234 (15%)
+
+Query  120   PLPRYLS-----ALGMTGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCR  174
+             P+P  L+       G+  +TA+ +L +VG+   GE V+I  A G VG  A  IA++ G R
+Sbjct  1563  PIPDTLADNEAATFGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGAR  1622
+
+Query  175   VVGIAGGAEKCRFL----VEELGFDGAIDYKNE--DLAAGLKRECPKGIDVFFDNVGGEI  228
+             +   AG   K   L    VE +G   ++D+ +E  +L  G       G+DV  +++ GE 
+Sbjct  1623  IYTTAGSDAKREMLSGLGVEYVGDSRSVDFADEILELTDGY------GVDVVLNSLAGEA  1676
+
+Query  229   LDTVLTRIAFKARIVLCGAISQYNNKEAVRGPANYLSL-LVNRARMEGMVVMDY------  281
+             +   +  +A   R +  G    Y +           SL L   A+     V+D       
+Sbjct  1677  IQRGVQILAPGGRFIELGKKDVYADA----------SLGLAALAKSASFSVVDLDLNLKL  1726
+
+Query  282   -AQRFPEGLKEMATWLAEGKLQSREDIVEGLETFPETLLKLFSGENFGKLVLKV  334
+                R+ + L+ +   +A+GKL+        L    +    + SG++ GK+V+ +
+Sbjct  1727  QPARYRQLLQHILQHVADGKLEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG007895(gb|WP_010907558) (mas) type I polyketide synthase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+leprae TN]
+Length=2116
+
+ Score = 57.0 bits (136),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 53/206 (26%), Positives = 86/206 (42%), Gaps = 16/206 (8%)
+
+Query  136   YFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCRVVGIAGGAEKCRFLVEELGFD  195
+             ++ L D+   K G+ V+I  A G VG  A  IAR KG  +   AG   K R ++ +LG +
+Sbjct  1545  WYGLNDLAGIKVGDKVLIHSATGGVGQAAISIARAKGAEIFATAGNPTK-RAMLHDLGIE  1603
+
+Query  196   GAIDYKNEDLAAGLKRECP-KGIDVFFDNVGGEILDTVLTRIAFKARIVLCGAISQYNNK  254
+                D ++ + A  ++R+    G+D+  +++ G      L  + F  R V  G    Y N 
+Sbjct  1604  HVYDSRSVEFAEQIRRDTDGYGVDIVLNSLTGAAQRAGLELLTFGGRFVEIGKADVYGNT  1663
+
+Query  255   EAVRGPAN------YLSLLVNRARMEGMVVMDYAQRFPEGLKEMATWLAEGKLQSREDIV  308
+                  P        YL L         ++ +    R  E L  +    A+G L + E   
+Sbjct  1664  RLGLFPFRRGLTFYYLDL--------ALMSVTQPDRVRELLATVFNLTADGVLTAPECTH  1715
+
+Query  309   EGLETFPETLLKLFSGENFGKLVLKV  334
+               L      +  + + E+ GKLVL +
+Sbjct  1716  YPLTDAANAIRAMSNAEHTGKLVLDI  1741
+
+
+>VFG007854(gb|WP_010908854) (ppsC) type I polyketide synthase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+leprae TN]
+Length=2201
+
+ Score = 57.0 bits (136),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 58/227 (26%), Positives = 104/227 (46%), Gaps = 21/227 (9%)
+
+Query  120   PLPRYLS-----ALGMTGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCR  174
+             P+P  LS       G+  +TA+  L +VG+   GE V+I  A G VG  A  IA++ G R
+Sbjct  1576  PIPDTLSDHEAATFGVAYLTAWHCLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMLGAR  1635
+
+Query  175   VVGIAGGAEKCRFLVEELGFDGAIDYKNEDLAAG-LKRECPKGIDVFFDNVGGEILDTVL  233
+             +   AG   K R ++ ELG +   D ++ D A   L+     G+D+  +++  + +   +
+Sbjct  1636  IYTTAGSDAK-RQMLSELGVEYVGDSRSVDFADEILELTHGYGVDIILNSLADKAIQRGV  1694
+
+Query  234   TRIAFKARIVLCGAISQYNNKEAVRGPANY-LSLLVNRARMEGMVVMD-----YAQRFPE  287
+               +A   R +  G    Y++       AN  L+ L   A    +V +D     +  R+ +
+Sbjct  1695  QILAPGGRFIEIGKKDVYDD-------ANLGLAALAKSASFS-VVDLDLNLKLHPARYRQ  1746
+
+Query  288   GLKEMATWLAEGKLQSREDIVEGLETFPETLLKLFSGENFGKLVLKV  334
+              L+ +   +A+G+L         L    +    + SG++ GK+V+ +
+Sbjct  1747  LLQHILAHVADGRLPVLPVTEFSLHNAADAFRLMASGKHTGKIVISI  1793
+
+
+>VFG026099(gb|WP_011402028) (wcbR) capsular polysaccharide biosynthesis 
+fatty acid synthase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia thailandensis E264]
+Length=2543
+
+ Score = 53.9 bits (128),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 35/100 (35%), Positives = 54/100 (54%), Gaps = 2/100 (2%)
+
+Query  131   TGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCRVVGIAGGAEKCRFLVE  190
+             T  TAY+AL ++ + + GE V++ GAAG VG    Q+AR  G  V   AG  EK  F V 
+Sbjct  1909  TFFTAYYALAELARLRRGERVLVHGAAGGVGIATVQLARHFGAEVFATAGSDEKREF-VR  1967
+
+Query  191   ELGFDGAIDYKNEDLAAG-LKRECPKGIDVFFDNVGGEIL  229
+              +G D  +D ++   A   L     +G+D+  +++ GE +
+Sbjct  1968  LIGADHVLDSRSLSFADEILALTNGEGVDIVLNSLAGEAM  2007
+
+
+>VFG049148(gb|WP_041168941) (clbB) colibactin hybrid non-ribosomal 
+peptide synthetase/type I polyketide synthase ClbB [Colibactin 
+(VF0573) - Exotoxin (VFC0235)] [Klebsiella pneumoniae 
+subsp. pneumoniae 1084]
+Length=3206
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 35/102 (34%), Positives = 54/102 (53%), Gaps = 2/102 (2%)
+
+Query  126   SALGMTGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCRVVGIAGGAEKC  185
+             +AL +  +TAY+AL+     + GE V+I  AAG VG  A  IA+  G ++   AG  +K 
+Sbjct  2796  AALPIAYLTAYYALVVRANLQPGERVLIHSAAGGVGLAALHIAKRCGAQIFATAGSEQKR  2855
+
+Query  186   RFLVEELGFDGAIDYKNEDLAAGLKRECP-KGIDVFFDNVGG  226
+              +L+  LG     D  +E  AA L      +G+DV  +++ G
+Sbjct  2856  DYLL-SLGVHAVADSHDEQFAATLLTASDGQGMDVILNSLTG  2896
+
+
+>VFG043693(gb|WP_001518711) (clbB) colibactin hybrid non-ribosomal 
+peptide synthetase/type I polyketide synthase ClbB [Colibactin 
+(VF1179) - Exotoxin (VFC0235)] [Escherichia coli O18:K1:H7 
+str. IHE3034]
+Length=3206
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 35/102 (34%), Positives = 54/102 (53%), Gaps = 2/102 (2%)
+
+Query  126   SALGMTGMTAYFALLDVGQPKNGETVVISGAAGAVGSVAGQIARLKGCRVVGIAGGAEKC  185
+             +AL +  +TAY+AL+     + GE V+I  AAG VG  A  IA+  G ++   AG  +K 
+Sbjct  2796  AALPIAYLTAYYALVVRANLQPGERVLIHSAAGGVGLAALHIAKRCGAQIFATAGSEQKR  2855
+
+Query  186   RFLVEELGFDGAIDYKNEDLAAGLKRECP-KGIDVFFDNVGG  226
+              +L+  LG     D  +E  AA L      +G+DV  +++ G
+Sbjct  2856  DYLL-SLGVHAVADSHDEQFAATLLTASDGQGMDVILNSLTG  2896
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.140    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2440022833
+
+
+Query= g2240.t1
+
+Length=345
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG007855(gb|WP_162292826) (ppsC) type I polyketide synthase [PDI...  60.8    5e-10
+VFG008878(gb|WP_162143265) (ppsC) type I polyketide synthase [PDI...  60.8    5e-10
+VFG022413(gb|WP_181013047) (ppsC) type I polyketide synthase [PDI...  60.8    6e-10
+VFG008874(gb|WP_015288408) (ppsC) phthiocerol type I polyketide s...  60.5    7e-10
+VFG022415(gb|WP_014001494) (ppsC) phthiocerol type I polyketide s...  60.5    7e-10
+VFG007851(gb|WP_003899548) (ppsC) phthiocerol type I polyketide s...  60.5    7e-10
+VFG007849(gb|NP_217449) (ppsC) phthiocerol synthesis polyketide s...  60.5    7e-10
+VFG008884(gb|WP_009938592) (ppsC) phthiocerol type I polyketide s...  60.5    7e-10
+VFG008875(gb|WP_015303644) (ppsC) phthiocerol type I polyketide s...  60.1    1e-09
+VFG008876(gb|WP_015291057) (ppsC) phthiocerol type I polyketide s...  60.1    1e-09
+VFG008877(gb|WP_015294040) (ppsC) phthiocerol type I polyketide s...  60.1    1e-09
+VFG007854(gb|WP_010908854) (ppsC) type I polyketide synthase [PDI...  59.3    2e-09
+VFG026097(gb|WP_011852139) (wcbR) capsular polysaccharide biosynt...  50.8    9e-07
+VFG026095(gb|WP_004535489) (wcbR) capsular polysaccharide biosynt...  50.8    9e-07
+VFG026096(gb|WP_004527662) (wcbR) capsular polysaccharide biosynt...  50.8    1e-06
+VFG026092(gb|WP_004202217) (wcbR) capsular polysaccharide biosynt...  50.4    1e-06
+VFG026091(gb|WP_004194140) (wcbR) capsular polysaccharide biosynt...  50.4    1e-06
+VFG026090(gb|WP_012327964) (wcbR) capsular polysaccharide biosynt...  48.9    3e-06
+VFG026088(gb|WP_011694168) (wcbR) capsular polysaccharide biosynt...  48.9    4e-06
+VFG026087(gb|WP_011544664) (wcbR) capsular polysaccharide biosynt...  48.9    4e-06
+VFG008790(gb|WP_015291064) (mas) mycocerosate synthase [PDIM (VF0...  48.5    4e-06
+VFG008795(gb|WP_003901497) (mas) mycocerosate synthase [PDIM (VF0...  48.5    5e-06
+VFG008791(gb|WP_015294046) (mas) mycocerosate synthase [PDIM (VF0...  48.5    5e-06
+VFG001408(gb|NP_217456) (mas) multifunctional mycocerosic acid sy...  48.5    5e-06
+VFG008788(gb|WP_014001497) (mas) mycocerosate synthase [PDIM (VF0...  48.5    5e-06
+VFG007893(gb|WP_010950802) (mas) mycocerosate synthase [PDIM (VF0...  48.5    5e-06
+VFG026089(gb|WP_006484972) (wcbR) capsular polysaccharide biosynt...  48.5    5e-06
+VFG002548(gb|WP_004550042) (wcbR) capsular polysaccharide biosynt...  47.8    8e-06
+
+
+>VFG007855(gb|WP_162292826) (ppsC) type I polyketide synthase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+ulcerans Agy99]
+Length=2202
+
+ Score = 60.8 bits (146),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 54/221 (24%), Positives = 93/221 (42%), Gaps = 11/221 (5%)
+
+Query  123   PSYALGLLGMPGFTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAG  182
+             P       G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG
+Sbjct  1583  PDNEAATFGIAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAG  1642
+
+Query  183   GAEKCRHAVQVLGFDACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAK  241
+                K R  +  LG D   D    DFA+ + E     G+DI   ++ G+       +L   
+Sbjct  1643  SDAK-REMLSSLGVDYVGDSRTVDFADEILELTDGYGVDIVLNSLAGEAIQRGVQILAPG  1701
+
+Query  242   ARIPVCGIVAHYNDTELPPGPDRLPALMGTI-LRKRIKVQGFIIFDDYGHRYDEFQRDMS  300
+              R    G    + +  L        A    + L   +K+Q          +Y E  +++ 
+Sbjct  1702  GRFIELGKKDVHANANLGLAALAKSASFSVVDLDLNLKLQ--------PAKYRELLQEIL  1753
+
+Query  301   KWFADGLIQYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+             +  ADG ++       GL +A + F  +  G++ GK+V+ +
+Sbjct  1754  EHVADGTLEVLPVTEFGLRDAADGFRLMASGKHTGKIVISI  1794
+
+
+>VFG008878(gb|WP_162143265) (ppsC) type I polyketide synthase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+liflandii 128FXT]
+Length=2202
+
+ Score = 60.8 bits (146),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 54/221 (24%), Positives = 93/221 (42%), Gaps = 11/221 (5%)
+
+Query  123   PSYALGLLGMPGFTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAG  182
+             P       G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG
+Sbjct  1583  PDNEAATFGIAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAG  1642
+
+Query  183   GAEKCRHAVQVLGFDACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAK  241
+                K R  +  LG D   D    DFA+ + E     G+DI   ++ G+       +L   
+Sbjct  1643  SDAK-REMLSSLGVDYVGDSRTVDFADEILELTDGYGVDIVLNSLAGEAIQRGVQILAPG  1701
+
+Query  242   ARIPVCGIVAHYNDTELPPGPDRLPALMGTI-LRKRIKVQGFIIFDDYGHRYDEFQRDMS  300
+              R    G    + +  L        A    + L   +K+Q          +Y E  +++ 
+Sbjct  1702  GRFIELGKKDVHANANLGLAALAKSASFSVVDLDLNLKLQ--------PAKYRELLQEIL  1753
+
+Query  301   KWFADGLIQYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+             +  ADG ++       GL +A + F  +  G++ GK+V+ +
+Sbjct  1754  EHVADGTLEVLPVTEFGLRDAADGFRLMASGKHTGKIVISI  1794
+
+
+>VFG022413(gb|WP_181013047) (ppsC) type I polyketide synthase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+marinum M]
+Length=2202
+
+ Score = 60.8 bits (146),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 54/221 (24%), Positives = 93/221 (42%), Gaps = 11/221 (5%)
+
+Query  123   PSYALGLLGMPGFTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAG  182
+             P       G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG
+Sbjct  1583  PDNEAATFGIAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAG  1642
+
+Query  183   GAEKCRHAVQVLGFDACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAK  241
+                K R  +  LG D   D    DFA+ + E     G+DI   ++ G+       +L   
+Sbjct  1643  SDAK-REMLSSLGVDYVGDSRTVDFADEILELTDGYGVDIVLNSLAGEAIQRGVQILAPG  1701
+
+Query  242   ARIPVCGIVAHYNDTELPPGPDRLPALMGTI-LRKRIKVQGFIIFDDYGHRYDEFQRDMS  300
+              R    G    + +  L        A    + L   +K+Q          +Y E  +++ 
+Sbjct  1702  GRFIELGKKDVHANANLGLAALAKSASFSVVDLDLNLKLQ--------PAKYRELLQEIL  1753
+
+Query  301   KWFADGLIQYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+             +  ADG ++       GL +A + F  +  G++ GK+V+ +
+Sbjct  1754  EHVADGALEVLPVTEFGLRDAADGFRLMASGKHTGKIVISI  1794
+
+
+>VFG008874(gb|WP_015288408) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140060008]
+Length=2188
+
+ Score = 60.5 bits (145),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 11/214 (5%)
+
+Query  130   LGMPGFTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1576  FGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAGSDAK-RE  1634
+
+Query  190   AVQVLGFDACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAKARIPVCG  248
+              +  LG +   D  + DFA+ + E     G+D+   ++ G+       +L    R    G
+Sbjct  1635  MLSRLGVEYVGDSRSVDFADEILELTDGYGVDVVLNSLAGEAIQRGVQILAPGGRFIELG  1694
+
+Query  249   IVAHYNDTELPPGPDRLPALMGTI-LRKRIKVQGFIIFDDYGHRYDEFQRDMSKWFADGL  307
+                 Y D  L        A    + L   +K+Q          RY +  + + +  ADG 
+Sbjct  1695  KKDVYADASLGLAALAKSASFSVVDLDLNLKLQ--------PARYRQLLQHILQHVADGK  1746
+
+Query  308   IQYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+             ++        L +A +AF  +  G++ GK+V+ +
+Sbjct  1747  LEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG022415(gb|WP_014001494) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140010059]
+Length=2188
+
+ Score = 60.5 bits (145),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 11/214 (5%)
+
+Query  130   LGMPGFTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1576  FGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAGSDAK-RE  1634
+
+Query  190   AVQVLGFDACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAKARIPVCG  248
+              +  LG +   D  + DFA+ + E     G+D+   ++ G+       +L    R    G
+Sbjct  1635  MLSRLGVEYVGDSRSVDFADEILELTDGYGVDVVLNSLAGEAIQRGVQILAPGGRFIELG  1694
+
+Query  249   IVAHYNDTELPPGPDRLPALMGTI-LRKRIKVQGFIIFDDYGHRYDEFQRDMSKWFADGL  307
+                 Y D  L        A    + L   +K+Q          RY +  + + +  ADG 
+Sbjct  1695  KKDVYADASLGLAALAKSASFSVVDLDLNLKLQ--------PARYRQLLQHILQHVADGK  1746
+
+Query  308   IQYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+             ++        L +A +AF  +  G++ GK+V+ +
+Sbjct  1747  LEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG007851(gb|WP_003899548) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis CDC1551]
+Length=2188
+
+ Score = 60.5 bits (145),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 11/214 (5%)
+
+Query  130   LGMPGFTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1576  FGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAGSDAK-RE  1634
+
+Query  190   AVQVLGFDACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAKARIPVCG  248
+              +  LG +   D  + DFA+ + E     G+D+   ++ G+       +L    R    G
+Sbjct  1635  MLSRLGVEYVGDSRSVDFADEILELTDGYGVDVVLNSLAGEAIQRGVQILAPGGRFIELG  1694
+
+Query  249   IVAHYNDTELPPGPDRLPALMGTI-LRKRIKVQGFIIFDDYGHRYDEFQRDMSKWFADGL  307
+                 Y D  L        A    + L   +K+Q          RY +  + + +  ADG 
+Sbjct  1695  KKDVYADASLGLAALAKSASFSVVDLDLNLKLQ--------PARYRQLLQHILQHVADGK  1746
+
+Query  308   IQYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+             ++        L +A +AF  +  G++ GK+V+ +
+Sbjct  1747  LEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG007849(gb|NP_217449) (ppsC) phthiocerol synthesis polyketide 
+synthase type I PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=2188
+
+ Score = 60.5 bits (145),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 11/214 (5%)
+
+Query  130   LGMPGFTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1576  FGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAGSDAK-RE  1634
+
+Query  190   AVQVLGFDACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAKARIPVCG  248
+              +  LG +   D  + DFA+ + E     G+D+   ++ G+       +L    R    G
+Sbjct  1635  MLSRLGVEYVGDSRSVDFADEILELTDGYGVDVVLNSLAGEAIQRGVQILAPGGRFIELG  1694
+
+Query  249   IVAHYNDTELPPGPDRLPALMGTI-LRKRIKVQGFIIFDDYGHRYDEFQRDMSKWFADGL  307
+                 Y D  L        A    + L   +K+Q          RY +  + + +  ADG 
+Sbjct  1695  KKDVYADASLGLAALAKSASFSVVDLDLNLKLQ--------PARYRQLLQHILQHVADGK  1746
+
+Query  308   IQYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+             ++        L +A +AF  +  G++ GK+V+ +
+Sbjct  1747  LEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG008884(gb|WP_009938592) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis CTRI-2]
+Length=2188
+
+ Score = 60.5 bits (145),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 11/214 (5%)
+
+Query  130   LGMPGFTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1576  FGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAGSDAK-RE  1634
+
+Query  190   AVQVLGFDACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAKARIPVCG  248
+              +  LG +   D  + DFA+ + E     G+D+   ++ G+       +L    R    G
+Sbjct  1635  MLSRLGVEYVGDSRSVDFADEILELTDGYGVDVVLNSLAGEAIQRGVQILAPGGRFIELG  1694
+
+Query  249   IVAHYNDTELPPGPDRLPALMGTI-LRKRIKVQGFIIFDDYGHRYDEFQRDMSKWFADGL  307
+                 Y D  L        A    + L   +K+Q          RY +  + + +  ADG 
+Sbjct  1695  KKDVYADASLGLAALAKSASFSVVDLDLNLKLQ--------PARYRQLLQHILQHVADGK  1746
+
+Query  308   IQYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+             ++        L +A +AF  +  G++ GK+V+ +
+Sbjct  1747  LEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG008875(gb|WP_015303644) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070008]
+Length=2188
+
+ Score = 60.1 bits (144),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 11/214 (5%)
+
+Query  130   LGMPGFTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1576  FGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAGSDAK-RE  1634
+
+Query  190   AVQVLGFDACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAKARIPVCG  248
+              +  LG +   D  + DFA+ + E     G+D+   ++ G+       +L    R    G
+Sbjct  1635  MLSGLGVEYVGDSRSVDFADEILELTDGYGVDVVLNSLAGEAIQRGVQILAPGGRFIELG  1694
+
+Query  249   IVAHYNDTELPPGPDRLPALMGTI-LRKRIKVQGFIIFDDYGHRYDEFQRDMSKWFADGL  307
+                 Y D  L        A    + L   +K+Q          RY +  + + +  ADG 
+Sbjct  1695  KKDVYADASLGLAALAKSASFSVVDLDLNLKLQ--------PARYRQLLQHILQHVADGK  1746
+
+Query  308   IQYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+             ++        L +A +AF  +  G++ GK+V+ +
+Sbjct  1747  LEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG008876(gb|WP_015291057) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=2188
+
+ Score = 60.1 bits (144),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 11/214 (5%)
+
+Query  130   LGMPGFTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1576  FGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAGSDAK-RE  1634
+
+Query  190   AVQVLGFDACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAKARIPVCG  248
+              +  LG +   D  + DFA+ + E     G+D+   ++ G+       +L    R    G
+Sbjct  1635  MLSGLGVEYVGDSRSVDFADEILELTDGYGVDVVLNSLAGEAIQRGVQILAPGGRFIELG  1694
+
+Query  249   IVAHYNDTELPPGPDRLPALMGTI-LRKRIKVQGFIIFDDYGHRYDEFQRDMSKWFADGL  307
+                 Y D  L        A    + L   +K+Q          RY +  + + +  ADG 
+Sbjct  1695  KKDVYADASLGLAALAKSASFSVVDLDLNLKLQ--------PARYRQLLQHILQHVADGK  1746
+
+Query  308   IQYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+             ++        L +A +AF  +  G++ GK+V+ +
+Sbjct  1747  LEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG008877(gb|WP_015294040) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070017]
+Length=2188
+
+ Score = 60.1 bits (144),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 11/214 (5%)
+
+Query  130   LGMPGFTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1576  FGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAGSDAK-RE  1634
+
+Query  190   AVQVLGFDACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAKARIPVCG  248
+              +  LG +   D  + DFA+ + E     G+D+   ++ G+       +L    R    G
+Sbjct  1635  MLSGLGVEYVGDSRSVDFADEILELTDGYGVDVVLNSLAGEAIQRGVQILAPGGRFIELG  1694
+
+Query  249   IVAHYNDTELPPGPDRLPALMGTI-LRKRIKVQGFIIFDDYGHRYDEFQRDMSKWFADGL  307
+                 Y D  L        A    + L   +K+Q          RY +  + + +  ADG 
+Sbjct  1695  KKDVYADASLGLAALAKSASFSVVDLDLNLKLQ--------PARYRQLLQHILQHVADGK  1746
+
+Query  308   IQYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+             ++        L +A +AF  +  G++ GK+V+ +
+Sbjct  1747  LEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG007854(gb|WP_010908854) (ppsC) type I polyketide synthase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+leprae TN]
+Length=2201
+
+ Score = 59.3 bits (142),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 54/213 (25%), Positives = 91/213 (43%), Gaps = 9/213 (4%)
+
+Query  130   LGMPGFTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1589  FGVAYLTAWHCLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMLGARIYTTAGSDAK-RQ  1647
+
+Query  190   AVQVLGFDACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAKARIPVCG  248
+              +  LG +   D  + DFA+ + E     G+DI   ++  K       +L    R    G
+Sbjct  1648  MLSELGVEYVGDSRSVDFADEILELTHGYGVDIILNSLADKAIQRGVQILAPGGRFIEIG  1707
+
+Query  249   IVAHYNDTELPPGPDRLPALMGTILRKRIKVQGFIIFDDYGHRYDEFQRDMSKWFADGLI  308
+                 Y+D  L      L AL  +     + +   +    +  RY +  + +    ADG +
+Sbjct  1708  KKDVYDDANLG-----LAALAKSASFSVVDLD--LNLKLHPARYRQLLQHILAHVADGRL  1760
+
+Query  309   QYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+                      L NA +AF  +  G++ GK+V+ +
+Sbjct  1761  PVLPVTEFSLHNAADAFRLMASGKHTGKIVISI  1793
+
+
+>VFG026097(gb|WP_011852139) (wcbR) capsular polysaccharide biosynthesis 
+fatty acid synthase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia pseudomallei 668]
+Length=2546
+
+ Score = 50.8 bits (120),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 57/209 (27%), Positives = 86/209 (41%), Gaps = 15/209 (7%)
+
+Query  135   FTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRHAVQVL  194
+             FTAY  L+++ + + GE ++V    G VG    Q+ +  G  V   AG  EK R  V++L
+Sbjct  1917  FTAYYALVELARLRRGERVLVHGGAGGVGIAAIQLARYFGAEVFATAGSDEK-REFVRLL  1975
+
+Query  195   GFDACLDHHAADFAERL-AEACPDGIDIYYENVGGKVFDAVFPLLNAKARIPVCGIVAHY  253
+             G D  LD  +  FA+ + A    +GIDI   ++ G+        L    R    G    Y
+Sbjct  1976  GADHVLDSRSLAFADEIRAMTGGEGIDIVLNSLAGEAMVRSIDTLRPFGRFLELGKRDFY  2035
+
+Query  254   NDTELPPGPDRLPALMGTILRKRIKVQGFIIFDDYGHRYDEFQR---DMSKWFADGLIQY  310
+              ++ +   P           R  I   G       G   +   R   D+   FA G++  
+Sbjct  2036  ENSHIGLRP----------FRNNISYFGIDADQLMGALPELTARLFGDVMGLFAAGVLHP  2085
+
+Query  311   REERVDGLENAPEAFFGLLQGRNFGKLVV  339
+                R    E A +AF  + Q R  GK++V
+Sbjct  2086  LPYRAFPAERAEDAFRYMQQARQIGKVLV  2114
+
+
+>VFG026095(gb|WP_004535489) (wcbR) capsular polysaccharide biosynthesis 
+fatty acid synthase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia pseudomallei 1106a]
+Length=2546
+
+ Score = 50.8 bits (120),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 57/209 (27%), Positives = 86/209 (41%), Gaps = 15/209 (7%)
+
+Query  135   FTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRHAVQVL  194
+             FTAY  L+++ + + GE ++V    G VG    Q+ +  G  V   AG  EK R  V++L
+Sbjct  1917  FTAYYALVELARLRRGERVLVHGGAGGVGIAAIQLARYFGAEVFATAGSDEK-REFVRLL  1975
+
+Query  195   GFDACLDHHAADFAERL-AEACPDGIDIYYENVGGKVFDAVFPLLNAKARIPVCGIVAHY  253
+             G D  LD  +  FA+ + A    +GIDI   ++ G+        L    R    G    Y
+Sbjct  1976  GADHVLDSRSLAFADEIRAMTGGEGIDIVLNSLAGEAMVRSIDTLRPFGRFLELGKRDFY  2035
+
+Query  254   NDTELPPGPDRLPALMGTILRKRIKVQGFIIFDDYGHRYDEFQR---DMSKWFADGLIQY  310
+              ++ +   P           R  I   G       G   +   R   D+   FA G++  
+Sbjct  2036  ENSHIGLRP----------FRNNISYFGIDADQLMGALPELTARLFGDVMGLFAAGVLHP  2085
+
+Query  311   REERVDGLENAPEAFFGLLQGRNFGKLVV  339
+                R    E A +AF  + Q R  GK++V
+Sbjct  2086  LPYRAFPAERAEDAFRYMQQARQIGKVLV  2114
+
+
+>VFG026096(gb|WP_004527662) (wcbR) capsular polysaccharide biosynthesis 
+fatty acid synthase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia pseudomallei 1710b]
+Length=2546
+
+ Score = 50.8 bits (120),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 57/209 (27%), Positives = 86/209 (41%), Gaps = 15/209 (7%)
+
+Query  135   FTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRHAVQVL  194
+             FTAY  L+++ + + GE ++V    G VG    Q+ +  G  V   AG  EK R  V++L
+Sbjct  1917  FTAYYALVELARLRRGERVLVHGGAGGVGIAAIQLARYFGAEVFATAGSDEK-REFVRLL  1975
+
+Query  195   GFDACLDHHAADFAERL-AEACPDGIDIYYENVGGKVFDAVFPLLNAKARIPVCGIVAHY  253
+             G D  LD  +  FA+ + A    +GIDI   ++ G+        L    R    G    Y
+Sbjct  1976  GADHVLDSRSLAFADEIRAMTGGEGIDIVLNSLAGEAMVRSIDTLRPFGRFLELGKRDFY  2035
+
+Query  254   NDTELPPGPDRLPALMGTILRKRIKVQGFIIFDDYGHRYDEFQR---DMSKWFADGLIQY  310
+              ++ +   P           R  I   G       G   +   R   D+   FA G++  
+Sbjct  2036  ENSHIGLRP----------FRNNISYFGIDADQLMGALPELTARLFGDVMGLFAAGVLHP  2085
+
+Query  311   REERVDGLENAPEAFFGLLQGRNFGKLVV  339
+                R    E A +AF  + Q R  GK++V
+Sbjct  2086  LPYRAFPAERAEDAFRYMQQARQIGKVLV  2114
+
+
+>VFG026092(gb|WP_004202217) (wcbR) capsular polysaccharide biosynthesis 
+fatty acid synthase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia mallei NCTC 10229]
+Length=2546
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 57/209 (27%), Positives = 86/209 (41%), Gaps = 15/209 (7%)
+
+Query  135   FTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRHAVQVL  194
+             FTAY  L+++ + + GE ++V    G VG    Q+ +  G  V   AG  EK R  V++L
+Sbjct  1917  FTAYYALVELARLRRGERVLVHGGAGGVGIAAIQLARYFGAEVFATAGSDEK-REFVRLL  1975
+
+Query  195   GFDACLDHHAADFAERL-AEACPDGIDIYYENVGGKVFDAVFPLLNAKARIPVCGIVAHY  253
+             G D  LD  +  FA+ + A    +GIDI   ++ G+        L    R    G    Y
+Sbjct  1976  GADHVLDSRSLAFADEIRAMTGGEGIDIVLNSLAGEAMVRSIDTLRPFGRFLELGKRDFY  2035
+
+Query  254   NDTELPPGPDRLPALMGTILRKRIKVQGFIIFDDYGHRYDEFQR---DMSKWFADGLIQY  310
+              ++ +   P           R  I   G       G   +   R   D+   FA G++  
+Sbjct  2036  ENSHIGLRP----------FRNNISYFGIDADQLMGALPELTARLFGDVMGLFAAGVLHP  2085
+
+Query  311   REERVDGLENAPEAFFGLLQGRNFGKLVV  339
+                R    E A +AF  + Q R  GK++V
+Sbjct  2086  LPYRAFPAERAEDAFRYMQQARQIGKVLV  2114
+
+
+>VFG026091(gb|WP_004194140) (wcbR) capsular polysaccharide biosynthesis 
+fatty acid synthase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia mallei ATCC 23344]
+Length=2546
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 57/209 (27%), Positives = 86/209 (41%), Gaps = 15/209 (7%)
+
+Query  135   FTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRHAVQVL  194
+             FTAY  L+++ + + GE ++V    G VG    Q+ +  G  V   AG  EK R  V++L
+Sbjct  1917  FTAYYALVELARLRRGERVLVHGGAGGVGIAAIQLARYFGAEVFATAGSDEK-REFVRLL  1975
+
+Query  195   GFDACLDHHAADFAERL-AEACPDGIDIYYENVGGKVFDAVFPLLNAKARIPVCGIVAHY  253
+             G D  LD  +  FA+ + A    +GIDI   ++ G+        L    R    G    Y
+Sbjct  1976  GADHVLDSRSLAFADEIRAMTGGEGIDIVLNSLAGEAMVRSIDTLRPFGRFLELGKRDFY  2035
+
+Query  254   NDTELPPGPDRLPALMGTILRKRIKVQGFIIFDDYGHRYDEFQR---DMSKWFADGLIQY  310
+              ++ +   P           R  I   G       G   +   R   D+   FA G++  
+Sbjct  2036  ENSHIGLRP----------FRNNISYFGIDADQLMGALPELTARLFGDVMGLFAAGVLHP  2085
+
+Query  311   REERVDGLENAPEAFFGLLQGRNFGKLVV  339
+                R    E A +AF  + Q R  GK++V
+Sbjct  2086  LPYRAFPAERAEDAFRYMQQARQIGKVLV  2114
+
+
+>VFG026090(gb|WP_012327964) (wcbR) capsular polysaccharide biosynthesis 
+fatty acid synthase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia cenocepacia MC0-3]
+Length=2545
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 56/209 (27%), Positives = 86/209 (41%), Gaps = 15/209 (7%)
+
+Query  135   FTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRHAVQVL  194
+             FTAY  L+++ + + GE ++V    G VG    Q+ +  G  V   AG  EK R  V++L
+Sbjct  1914  FTAYYALVELARLRRGERVLVHGGAGGVGIAAIQLARHFGAEVFATAGSDEK-REFVRLL  1972
+
+Query  195   GFDACLDHHAADFAERL-AEACPDGIDIYYENVGGKVFDAVFPLLNAKARIPVCGIVAHY  253
+             G D  LD  +  FA+ + A    +GIDI   ++ G+        L    R    G    Y
+Sbjct  1973  GADHVLDSRSLAFADEIRAMTGGEGIDIVLNSLAGEAMVRSIDTLRPFGRFLELGKRDFY  2032
+
+Query  254   NDTELPPGPDRLPALMGTILRKRIKVQGFIIFDDYGHRYDEFQR---DMSKWFADGLIQY  310
+              ++ +   P           R  I   G       G   +   R   ++   FA G++  
+Sbjct  2033  ENSHIGLRP----------FRNNISYFGIDADQLMGALPELTARLFGEVMALFAAGVLHP  2082
+
+Query  311   REERVDGLENAPEAFFGLLQGRNFGKLVV  339
+                R    E A +AF  + Q R  GK++V
+Sbjct  2083  LPYRAFPAERAEDAFRYMQQARQIGKVLV  2111
+
+
+>VFG026088(gb|WP_011694168) (wcbR) capsular polysaccharide biosynthesis 
+fatty acid synthase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia cenocepacia HI2424]
+Length=2544
+
+ Score = 48.9 bits (115),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 56/209 (27%), Positives = 86/209 (41%), Gaps = 15/209 (7%)
+
+Query  135   FTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRHAVQVL  194
+             FTAY  L+++ + + GE ++V    G VG    Q+ +  G  V   AG  EK R  V++L
+Sbjct  1913  FTAYYALVELARLRRGERVLVHGGAGGVGIAAIQLARHFGAEVFATAGSDEK-REFVRLL  1971
+
+Query  195   GFDACLDHHAADFAERL-AEACPDGIDIYYENVGGKVFDAVFPLLNAKARIPVCGIVAHY  253
+             G D  LD  +  FA+ + A    +GIDI   ++ G+        L    R    G    Y
+Sbjct  1972  GADHVLDSRSLAFADEIRAMTGGEGIDIVLNSLAGEAMVRSIDTLRPFGRFLELGKRDFY  2031
+
+Query  254   NDTELPPGPDRLPALMGTILRKRIKVQGFIIFDDYGHRYDEFQR---DMSKWFADGLIQY  310
+              ++ +   P           R  I   G       G   +   R   ++   FA G++  
+Sbjct  2032  ENSHIGLRP----------FRNNISYFGIDADQLMGALPELTARLFGEVMALFAAGVLHP  2081
+
+Query  311   REERVDGLENAPEAFFGLLQGRNFGKLVV  339
+                R    E A +AF  + Q R  GK++V
+Sbjct  2082  LPYRAFPAERAEDAFRYMQQARQIGKVLV  2110
+
+
+>VFG026087(gb|WP_011544664) (wcbR) capsular polysaccharide biosynthesis 
+fatty acid synthase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia cenocepacia AU 1054]
+Length=2544
+
+ Score = 48.9 bits (115),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 56/209 (27%), Positives = 86/209 (41%), Gaps = 15/209 (7%)
+
+Query  135   FTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRHAVQVL  194
+             FTAY  L+++ + + GE ++V    G VG    Q+ +  G  V   AG  EK R  V++L
+Sbjct  1913  FTAYYALVELARLRRGERVLVHGGAGGVGIAAIQLARHFGAEVFATAGSDEK-REFVRLL  1971
+
+Query  195   GFDACLDHHAADFAERL-AEACPDGIDIYYENVGGKVFDAVFPLLNAKARIPVCGIVAHY  253
+             G D  LD  +  FA+ + A    +GIDI   ++ G+        L    R    G    Y
+Sbjct  1972  GADHVLDSRSLAFADEIRAMTGGEGIDIVLNSLAGEAMVRSIDTLRPFGRFLELGKRDFY  2031
+
+Query  254   NDTELPPGPDRLPALMGTILRKRIKVQGFIIFDDYGHRYDEFQR---DMSKWFADGLIQY  310
+              ++ +   P           R  I   G       G   +   R   ++   FA G++  
+Sbjct  2032  ENSHIGLRP----------FRNNISYFGIDADQLMGALPELTARLFGEVMALFAAGVLHP  2081
+
+Query  311   REERVDGLENAPEAFFGLLQGRNFGKLVV  339
+                R    E A +AF  + Q R  GK++V
+Sbjct  2082  LPYRAFPAERAEDAFRYMQQARQIGKVLV  2110
+
+
+>VFG008790(gb|WP_015291064) (mas) mycocerosate synthase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium canettii 
+CIPT 140070010]
+Length=2111
+
+ Score = 48.5 bits (114),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 53/213 (25%), Positives = 86/213 (40%), Gaps = 25/213 (12%)
+
+Query  138   YMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRHAVQVLGFD  197
+             + GL D+ + +AG+ +++ +ATG VG     I + KG  +   AG   K R  ++ +G +
+Sbjct  1547  WYGLNDLAQIKAGDKVLIHSATGGVGQAAISIARAKGAEIFATAGNPAK-RAMLRDMGVE  1605
+
+Query  198   ACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAKARIPVCGIVAHYNDT  256
+                D  + +FAE++       G+DI   ++ G    A   LL    R    G    Y +T
+Sbjct  1606  HVYDSRSVEFAEQIRRDTDGYGVDIVLNSLTGAAQRAGLELLAFGGRFVEIGKADVYGNT  1665
+
+Query  257   ELPPGPDRLP--------ALMGTILRKRIKVQGFIIFDDYGHRYDEFQRDMSKWFADGLI  308
+              L   P R          ALM      R++               E    + K  ADG++
+Sbjct  1666  RLGLFPFRRGLTFYYLDLALMSVTQPDRVR---------------ELLATVFKLTADGVL  1710
+
+Query  309   QYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+                +     L  A +A   +    + GKLV+ V
+Sbjct  1711  TAPQCTHYPLAEAADAIRAMSNAEHTGKLVLDV  1743
+
+
+>VFG008795(gb|WP_003901497) (mas) mycocerosate synthase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+str. Beijing/NITR203]
+Length=2111
+
+ Score = 48.5 bits (114),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 53/213 (25%), Positives = 86/213 (40%), Gaps = 25/213 (12%)
+
+Query  138   YMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRHAVQVLGFD  197
+             + GL D+ + +AG+ +++ +ATG VG     I + KG  +   AG   K R  ++ +G +
+Sbjct  1547  WYGLNDLAQIKAGDKVLIHSATGGVGQAAISIARAKGAEIFATAGNPAK-RAMLRDMGVE  1605
+
+Query  198   ACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAKARIPVCGIVAHYNDT  256
+                D  + +FAE++       G+DI   ++ G    A   LL    R    G    Y +T
+Sbjct  1606  HVYDSRSVEFAEQIRRDTDGYGVDIVLNSLTGAAQRAGLELLAFGGRFVEIGKADVYGNT  1665
+
+Query  257   ELPPGPDRLP--------ALMGTILRKRIKVQGFIIFDDYGHRYDEFQRDMSKWFADGLI  308
+              L   P R          ALM      R++     +F               K  ADG++
+Sbjct  1666  RLGLFPFRRGLTFYYLDLALMSVTQPDRVRELLATVF---------------KLTADGVL  1710
+
+Query  309   QYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+                +     L  A +A   +    + GKLV+ V
+Sbjct  1711  TAPQCTHYPLAEAADAIRAMSNAEHTGKLVLDV  1743
+
+
+>VFG008791(gb|WP_015294046) (mas) mycocerosate synthase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium canettii 
+CIPT 140070017]
+Length=2111
+
+ Score = 48.5 bits (114),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 53/213 (25%), Positives = 86/213 (40%), Gaps = 25/213 (12%)
+
+Query  138   YMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRHAVQVLGFD  197
+             + GL D+ + +AG+ +++ +ATG VG     I + KG  +   AG   K R  ++ +G +
+Sbjct  1547  WYGLNDLAQIKAGDKVLIHSATGGVGQAAISIARAKGAEIFATAGNPAK-RAMLRDMGVE  1605
+
+Query  198   ACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAKARIPVCGIVAHYNDT  256
+                D  + +FAE++       G+DI   ++ G    A   LL    R    G    Y +T
+Sbjct  1606  HVYDSRSVEFAEQIRRDTDGYGVDIVLNSLTGAAQRAGLELLAFGGRFVEIGKADVYGNT  1665
+
+Query  257   ELPPGPDRLP--------ALMGTILRKRIKVQGFIIFDDYGHRYDEFQRDMSKWFADGLI  308
+              L   P R          ALM      R++     +F               K  ADG++
+Sbjct  1666  RLGLFPFRRGLTFYYLDLALMSVTQPDRVRELLATVF---------------KLTADGVL  1710
+
+Query  309   QYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+                +     L  A +A   +    + GKLV+ V
+Sbjct  1711  TAPQCTHYPLAEAADAIRAMSNAEHTGKLVLDV  1743
+
+
+>VFG001408(gb|NP_217456) (mas) multifunctional mycocerosic acid 
+synthase [PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=2111
+
+ Score = 48.5 bits (114),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 53/213 (25%), Positives = 86/213 (40%), Gaps = 25/213 (12%)
+
+Query  138   YMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRHAVQVLGFD  197
+             + GL D+ + +AG+ +++ +ATG VG     I + KG  +   AG   K R  ++ +G +
+Sbjct  1547  WYGLNDLAQIKAGDKVLIHSATGGVGQAAISIARAKGAEIFATAGNPAK-RAMLRDMGVE  1605
+
+Query  198   ACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAKARIPVCGIVAHYNDT  256
+                D  + +FAE++       G+DI   ++ G    A   LL    R    G    Y +T
+Sbjct  1606  HVYDSRSVEFAEQIRRDTDGYGVDIVLNSLTGAAQRAGLELLAFGGRFVEIGKADVYGNT  1665
+
+Query  257   ELPPGPDRLP--------ALMGTILRKRIKVQGFIIFDDYGHRYDEFQRDMSKWFADGLI  308
+              L   P R          ALM      R++     +F               K  ADG++
+Sbjct  1666  RLGLFPFRRGLTFYYLDLALMSVTQPDRVRELLATVF---------------KLTADGVL  1710
+
+Query  309   QYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+                +     L  A +A   +    + GKLV+ V
+Sbjct  1711  TAPQCTHYPLAEAADAIRAMSNAEHTGKLVLDV  1743
+
+
+>VFG008788(gb|WP_014001497) (mas) mycocerosate synthase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium canettii 
+CIPT 140060008]
+Length=2111
+
+ Score = 48.5 bits (114),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 53/213 (25%), Positives = 86/213 (40%), Gaps = 25/213 (12%)
+
+Query  138   YMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRHAVQVLGFD  197
+             + GL D+ + +AG+ +++ +ATG VG     I + KG  +   AG   K R  ++ +G +
+Sbjct  1547  WYGLNDLAQIKAGDKVLIHSATGGVGQAAISIARAKGAEIFATAGNPAK-RAMLRDMGVE  1605
+
+Query  198   ACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAKARIPVCGIVAHYNDT  256
+                D  + +FAE++       G+DI   ++ G    A   LL    R    G    Y +T
+Sbjct  1606  HVYDSRSVEFAEQIRRDTDGYGVDIVLNSLTGAAQRAGLELLAFGGRFVEIGKADVYGNT  1665
+
+Query  257   ELPPGPDRLP--------ALMGTILRKRIKVQGFIIFDDYGHRYDEFQRDMSKWFADGLI  308
+              L   P R          ALM      R++     +F               K  ADG++
+Sbjct  1666  RLGLFPFRRGLTFYYLDLALMSVTQPDRVRELLATVF---------------KLTADGVL  1710
+
+Query  309   QYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+                +     L  A +A   +    + GKLV+ V
+Sbjct  1711  TAPQCTHYPLAEAADAIRAMSNAEHTGKLVLDV  1743
+
+
+>VFG007893(gb|WP_010950802) (mas) mycocerosate synthase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium bovis 
+AF2122/97]
+Length=2111
+
+ Score = 48.5 bits (114),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 53/213 (25%), Positives = 86/213 (40%), Gaps = 25/213 (12%)
+
+Query  138   YMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRHAVQVLGFD  197
+             + GL D+ + +AG+ +++ +ATG VG     I + KG  +   AG   K R  ++ +G +
+Sbjct  1547  WYGLNDLAQIKAGDKVLIHSATGGVGQAAISIARAKGAEIFATAGNPAK-RAMLRDMGVE  1605
+
+Query  198   ACLDHHAADFAERLAEACPD-GIDIYYENVGGKVFDAVFPLLNAKARIPVCGIVAHYNDT  256
+                D  + +FAE++       G+DI   ++ G    A   LL    R    G    Y +T
+Sbjct  1606  HVYDSRSVEFAEQIRRDTDGYGVDIVLNSLTGAAQRAGLELLAFGGRFVEIGKADVYGNT  1665
+
+Query  257   ELPPGPDRLP--------ALMGTILRKRIKVQGFIIFDDYGHRYDEFQRDMSKWFADGLI  308
+              L   P R          ALM      R++     +F               K  ADG++
+Sbjct  1666  RLGLFPFRRGLTFYYLDLALMSVTQPDRVRELLATVF---------------KLTADGVL  1710
+
+Query  309   QYREERVDGLENAPEAFFGLLQGRNFGKLVVRV  341
+                +     L  A +A   +    + GKLV+ V
+Sbjct  1711  TAPQCTHYPLAEAADAIRAMSNAEHTGKLVLDV  1743
+
+
+>VFG026089(gb|WP_006484972) (wcbR) capsular polysaccharide biosynthesis 
+fatty acid synthase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia cenocepacia J2315]
+Length=2549
+
+ Score = 48.5 bits (114),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 55/209 (26%), Positives = 87/209 (42%), Gaps = 15/209 (7%)
+
+Query  135   FTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRHAVQVL  194
+             FTAY  L+++ + + GE ++V    G VG    Q+ +  G  V   AG  EK R  V++L
+Sbjct  1916  FTAYYALVELARLRRGERVLVHGGAGGVGIAAIQLARHFGAEVFATAGSDEK-REFVRLL  1974
+
+Query  195   GFDACLDHHAADFAERL-AEACPDGIDIYYENVGGKVFDAVFPLLNAKARIPVCGIVAHY  253
+             G D  LD  +  FA+++ A    +GIDI   ++ G+        L    R    G    Y
+Sbjct  1975  GADHVLDSRSLAFADQIRAMTGGEGIDIVLNSLAGEAMVRSIDTLRPFGRFLELGKRDFY  2034
+
+Query  254   NDTELPPGPDRLPALMGTILRKRIKVQGFIIFDDYGHRYDEFQR---DMSKWFADGLIQY  310
+              ++ +   P           R  I   G       G   +   R   ++   F+ G++  
+Sbjct  2035  ENSHIGLRP----------FRNNISYFGIDADQLMGALPELTARLFGEVMALFSAGVLHP  2084
+
+Query  311   REERVDGLENAPEAFFGLLQGRNFGKLVV  339
+                R    E A +AF  + Q R  GK++V
+Sbjct  2085  LPYRAFPAERAEDAFRYMQQARQIGKVLV  2113
+
+
+>VFG002548(gb|WP_004550042) (wcbR) capsular polysaccharide biosynthesis 
+fatty acid synthase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia pseudomallei K96243]
+Length=2546
+
+ Score = 47.8 bits (112),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 56/209 (27%), Positives = 85/209 (41%), Gaps = 15/209 (7%)
+
+Query  135   FTAYMGLLDIGKPQAGETLVVAAATGPVGATVGQIGKLKGCRVVGVAGGAEKCRHAVQVL  194
+             FTAY  L+++ + + GE ++V    G VG     + +  G  V   AG  EK R  V++L
+Sbjct  1917  FTAYYALVELARLRRGERVLVHGGAGGVGIAAILLARYFGAEVFATAGSDEK-REFVRLL  1975
+
+Query  195   GFDACLDHHAADFAERL-AEACPDGIDIYYENVGGKVFDAVFPLLNAKARIPVCGIVAHY  253
+             G D  LD  +  FA+ + A    +GIDI   ++ G+        L    R    G    Y
+Sbjct  1976  GADHVLDSRSLAFADEIRAMTGGEGIDIVLNSLAGEAMVRSIDTLRPFGRFLELGKRDFY  2035
+
+Query  254   NDTELPPGPDRLPALMGTILRKRIKVQGFIIFDDYGHRYDEFQR---DMSKWFADGLIQY  310
+              ++ +   P           R  I   G       G   +   R   D+   FA G++  
+Sbjct  2036  ENSHIGLRP----------FRNNISYFGIDADQLMGALPELTARLFGDVMGLFAAGVLHP  2085
+
+Query  311   REERVDGLENAPEAFFGLLQGRNFGKLVV  339
+                R    E A +AF  + Q R  GK++V
+Sbjct  2086  LPYRAFPAERAEDAFRYMQQARQIGKVLV  2114
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.141    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2555217044
+
+
+Query= g1485.t1
+
+Length=345
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG007855(gb|WP_162292826) (ppsC) type I polyketide synthase [PDI...  56.2    2e-08
+VFG008878(gb|WP_162143265) (ppsC) type I polyketide synthase [PDI...  56.2    2e-08
+VFG022413(gb|WP_181013047) (ppsC) type I polyketide synthase [PDI...  55.8    2e-08
+VFG007854(gb|WP_010908854) (ppsC) type I polyketide synthase [PDI...  54.3    7e-08
+VFG008874(gb|WP_015288408) (ppsC) phthiocerol type I polyketide s...  53.9    9e-08
+VFG022415(gb|WP_014001494) (ppsC) phthiocerol type I polyketide s...  53.9    9e-08
+VFG007851(gb|WP_003899548) (ppsC) phthiocerol type I polyketide s...  53.9    9e-08
+VFG007849(gb|NP_217449) (ppsC) phthiocerol synthesis polyketide s...  53.9    9e-08
+VFG008884(gb|WP_009938592) (ppsC) phthiocerol type I polyketide s...  53.9    1e-07
+VFG008877(gb|WP_015294040) (ppsC) phthiocerol type I polyketide s...  53.5    1e-07
+VFG008875(gb|WP_015303644) (ppsC) phthiocerol type I polyketide s...  53.5    1e-07
+VFG008876(gb|WP_015291057) (ppsC) phthiocerol type I polyketide s...  53.5    1e-07
+VFG024721(gb|WP_041180293) (pks15/1) SDR family NAD(P)-dependent ...  50.1    1e-06
+VFG029279(gb|WP_041180907) (pks15/1) SDR family NAD(P)-dependent ...  50.1    1e-06
+VFG029277(gb|WP_041179942) (pks15/1) SDR family NAD(P)-dependent ...  50.1    2e-06
+VFG024736(gb|WP_044501805) (pks15/1) SDR family NAD(P)-dependent ...  50.1    2e-06
+VFG024733(gb|WP_039847076) (pks15/1) SDR family NAD(P)-dependent ...  50.1    2e-06
+VFG029278(gb|WP_041181569) (pks15/1) SDR family NAD(P)-dependent ...  50.1    2e-06
+VFG029273(gb|YP_005924086) (pks1) polyketide synthase pks1 [PDIM ...  49.7    2e-06
+VFG029283(gb|WP_151223887) (pks15/1) type I polyketide synthase [...  49.7    2e-06
+VFG024730(gb|NP_217462) (pks1) polyketide synthase [PDIM (VF0309)...  49.7    2e-06
+VFG026099(gb|WP_011402028) (wcbR) capsular polysaccharide biosynt...  49.3    3e-06
+
+
+>VFG007855(gb|WP_162292826) (ppsC) type I polyketide synthase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+ulcerans Agy99]
+Length=2202
+
+ Score = 56.2 bits (134),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 55/228 (24%), Positives = 94/228 (41%), Gaps = 21/228 (9%)
+
+Query  123   PSWSLGILGMPGFTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIAG  182
+             P       G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG
+Sbjct  1583  PDNEAATFGIAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAG  1642
+
+Query  183   GAEKCRHATDVLGFDLCLDHHADNFPQQLAQACP-QGIDIYYENVGGKVFDAVLPLLNTS  241
+                K R     LG D   D    +F  ++ +     G+DI   ++ G+     + +L   
+Sbjct  1643  SDAK-REMLSSLGVDYVGDSRTVDFADEILELTDGYGVDIVLNSLAGEAIQRGVQILAPG  1701
+
+Query  242   ARIPLCGLVSGY-NATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYGHRIH-----EF  295
+              R    G    + NA           L +A L K        +++ D   ++      E 
+Sbjct  1702  GRFIELGKKDVHANAN----------LGLAALAKSA---SFSVVDLDLNLKLQPAKYREL  1748
+
+Query  296   QQEMGRWIKEGKIHYREQITDGLENAPEAFMGLLAGKNFGKVVIRLAD  343
+              QE+   + +G +        GL +A + F  + +GK+ GK+VI + D
+Sbjct  1749  LQEILEHVADGTLEVLPVTEFGLRDAADGFRLMASGKHTGKIVISIPD  1796
+
+
+>VFG008878(gb|WP_162143265) (ppsC) type I polyketide synthase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+liflandii 128FXT]
+Length=2202
+
+ Score = 56.2 bits (134),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 55/228 (24%), Positives = 94/228 (41%), Gaps = 21/228 (9%)
+
+Query  123   PSWSLGILGMPGFTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIAG  182
+             P       G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG
+Sbjct  1583  PDNEAATFGIAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAG  1642
+
+Query  183   GAEKCRHATDVLGFDLCLDHHADNFPQQLAQACP-QGIDIYYENVGGKVFDAVLPLLNTS  241
+                K R     LG D   D    +F  ++ +     G+DI   ++ G+     + +L   
+Sbjct  1643  SDAK-REMLSSLGVDYVGDSRTVDFADEILELTDGYGVDIVLNSLAGEAIQRGVQILAPG  1701
+
+Query  242   ARIPLCGLVSGY-NATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYGHRIH-----EF  295
+              R    G    + NA           L +A L K        +++ D   ++      E 
+Sbjct  1702  GRFIELGKKDVHANAN----------LGLAALAKSA---SFSVVDLDLNLKLQPAKYREL  1748
+
+Query  296   QQEMGRWIKEGKIHYREQITDGLENAPEAFMGLLAGKNFGKVVIRLAD  343
+              QE+   + +G +        GL +A + F  + +GK+ GK+VI + D
+Sbjct  1749  LQEILEHVADGTLEVLPVTEFGLRDAADGFRLMASGKHTGKIVISIPD  1796
+
+
+>VFG022413(gb|WP_181013047) (ppsC) type I polyketide synthase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+marinum M]
+Length=2202
+
+ Score = 55.8 bits (133),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 55/228 (24%), Positives = 94/228 (41%), Gaps = 21/228 (9%)
+
+Query  123   PSWSLGILGMPGFTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIAG  182
+             P       G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG
+Sbjct  1583  PDNEAATFGIAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAG  1642
+
+Query  183   GAEKCRHATDVLGFDLCLDHHADNFPQQLAQACP-QGIDIYYENVGGKVFDAVLPLLNTS  241
+                K R     LG D   D    +F  ++ +     G+DI   ++ G+     + +L   
+Sbjct  1643  SDAK-REMLSSLGVDYVGDSRTVDFADEILELTDGYGVDIVLNSLAGEAIQRGVQILAPG  1701
+
+Query  242   ARIPLCGLVSGY-NATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYGHRIH-----EF  295
+              R    G    + NA           L +A L K        +++ D   ++      E 
+Sbjct  1702  GRFIELGKKDVHANAN----------LGLAALAKSA---SFSVVDLDLNLKLQPAKYREL  1748
+
+Query  296   QQEMGRWIKEGKIHYREQITDGLENAPEAFMGLLAGKNFGKVVIRLAD  343
+              QE+   + +G +        GL +A + F  + +GK+ GK+VI + D
+Sbjct  1749  LQEILEHVADGALEVLPVTEFGLRDAADGFRLMASGKHTGKIVISIPD  1796
+
+
+>VFG007854(gb|WP_010908854) (ppsC) type I polyketide synthase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+leprae TN]
+Length=2201
+
+ Score = 54.3 bits (129),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 52/218 (24%), Positives = 92/218 (42%), Gaps = 19/218 (9%)
+
+Query  130   LGMPGFTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1589  FGVAYLTAWHCLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMLGARIYTTAGSDAK-RQ  1647
+
+Query  190   ATDVLGFDLCLDHHADNFPQQLAQACP-QGIDIYYENVGGKVFDAVLPLLNTSARIPLCG  248
+                 LG +   D  + +F  ++ +     G+DI   ++  K     + +L    R    G
+Sbjct  1648  MLSELGVEYVGDSRSVDFADEILELTHGYGVDIILNSLADKAIQRGVQILAPGGRFIEIG  1707
+
+Query  249   LVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYGHRIH-----EFQQEMGRWI  303
+                 Y         D   L +A L K        +++ D   ++H     +  Q +   +
+Sbjct  1708  KKDVY---------DDANLGLAALAKSA---SFSVVDLDLNLKLHPARYRQLLQHILAHV  1755
+
+Query  304   KEGKIHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+              +G++         L NA +AF  + +GK+ GK+VI +
+Sbjct  1756  ADGRLPVLPVTEFSLHNAADAFRLMASGKHTGKIVISI  1793
+
+
+>VFG008874(gb|WP_015288408) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140060008]
+Length=2188
+
+ Score = 53.9 bits (128),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 50/218 (23%), Positives = 92/218 (42%), Gaps = 19/218 (9%)
+
+Query  130   LGMPGFTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1576  FGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAGSDAK-RE  1634
+
+Query  190   ATDVLGFDLCLDHHADNFPQQLAQACP-QGIDIYYENVGGKVFDAVLPLLNTSARIPLCG  248
+                 LG +   D  + +F  ++ +     G+D+   ++ G+     + +L    R    G
+Sbjct  1635  MLSRLGVEYVGDSRSVDFADEILELTDGYGVDVVLNSLAGEAIQRGVQILAPGGRFIELG  1694
+
+Query  249   LVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYG-----HRIHEFQQEMGRWI  303
+                 Y   +L          +A L K        +++ D        R  +  Q + + +
+Sbjct  1695  KKDVYADASLG---------LAALAKS---ASFSVVDLDLNLKLQPARYRQLLQHILQHV  1742
+
+Query  304   KEGKIHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+              +GK+         L +A +AF  + +GK+ GK+VI +
+Sbjct  1743  ADGKLEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG022415(gb|WP_014001494) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140010059]
+Length=2188
+
+ Score = 53.9 bits (128),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 50/218 (23%), Positives = 92/218 (42%), Gaps = 19/218 (9%)
+
+Query  130   LGMPGFTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1576  FGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAGSDAK-RE  1634
+
+Query  190   ATDVLGFDLCLDHHADNFPQQLAQACP-QGIDIYYENVGGKVFDAVLPLLNTSARIPLCG  248
+                 LG +   D  + +F  ++ +     G+D+   ++ G+     + +L    R    G
+Sbjct  1635  MLSRLGVEYVGDSRSVDFADEILELTDGYGVDVVLNSLAGEAIQRGVQILAPGGRFIELG  1694
+
+Query  249   LVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYG-----HRIHEFQQEMGRWI  303
+                 Y   +L          +A L K        +++ D        R  +  Q + + +
+Sbjct  1695  KKDVYADASLG---------LAALAKS---ASFSVVDLDLNLKLQPARYRQLLQHILQHV  1742
+
+Query  304   KEGKIHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+              +GK+         L +A +AF  + +GK+ GK+VI +
+Sbjct  1743  ADGKLEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG007851(gb|WP_003899548) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis CDC1551]
+Length=2188
+
+ Score = 53.9 bits (128),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 50/218 (23%), Positives = 92/218 (42%), Gaps = 19/218 (9%)
+
+Query  130   LGMPGFTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1576  FGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAGSDAK-RE  1634
+
+Query  190   ATDVLGFDLCLDHHADNFPQQLAQACP-QGIDIYYENVGGKVFDAVLPLLNTSARIPLCG  248
+                 LG +   D  + +F  ++ +     G+D+   ++ G+     + +L    R    G
+Sbjct  1635  MLSRLGVEYVGDSRSVDFADEILELTDGYGVDVVLNSLAGEAIQRGVQILAPGGRFIELG  1694
+
+Query  249   LVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYG-----HRIHEFQQEMGRWI  303
+                 Y   +L          +A L K        +++ D        R  +  Q + + +
+Sbjct  1695  KKDVYADASLG---------LAALAKS---ASFSVVDLDLNLKLQPARYRQLLQHILQHV  1742
+
+Query  304   KEGKIHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+              +GK+         L +A +AF  + +GK+ GK+VI +
+Sbjct  1743  ADGKLEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG007849(gb|NP_217449) (ppsC) phthiocerol synthesis polyketide 
+synthase type I PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=2188
+
+ Score = 53.9 bits (128),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 50/218 (23%), Positives = 92/218 (42%), Gaps = 19/218 (9%)
+
+Query  130   LGMPGFTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1576  FGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAGSDAK-RE  1634
+
+Query  190   ATDVLGFDLCLDHHADNFPQQLAQACP-QGIDIYYENVGGKVFDAVLPLLNTSARIPLCG  248
+                 LG +   D  + +F  ++ +     G+D+   ++ G+     + +L    R    G
+Sbjct  1635  MLSRLGVEYVGDSRSVDFADEILELTDGYGVDVVLNSLAGEAIQRGVQILAPGGRFIELG  1694
+
+Query  249   LVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYG-----HRIHEFQQEMGRWI  303
+                 Y   +L          +A L K        +++ D        R  +  Q + + +
+Sbjct  1695  KKDVYADASLG---------LAALAKS---ASFSVVDLDLNLKLQPARYRQLLQHILQHV  1742
+
+Query  304   KEGKIHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+              +GK+         L +A +AF  + +GK+ GK+VI +
+Sbjct  1743  ADGKLEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG008884(gb|WP_009938592) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis CTRI-2]
+Length=2188
+
+ Score = 53.9 bits (128),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 50/218 (23%), Positives = 92/218 (42%), Gaps = 19/218 (9%)
+
+Query  130   LGMPGFTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1576  FGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAGSDAK-RE  1634
+
+Query  190   ATDVLGFDLCLDHHADNFPQQLAQACP-QGIDIYYENVGGKVFDAVLPLLNTSARIPLCG  248
+                 LG +   D  + +F  ++ +     G+D+   ++ G+     + +L    R    G
+Sbjct  1635  MLSRLGVEYVGDSRSVDFADEILELTDGYGVDVVLNSLAGEAIQRGVQILAPGGRFIELG  1694
+
+Query  249   LVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYG-----HRIHEFQQEMGRWI  303
+                 Y   +L          +A L K        +++ D        R  +  Q + + +
+Sbjct  1695  KKDVYADASLG---------LAALAKS---ASFSVVDLDLNLKLQPARYRQLLQHILQHV  1742
+
+Query  304   KEGKIHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+              +GK+         L +A +AF  + +GK+ GK+VI +
+Sbjct  1743  ADGKLEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG008877(gb|WP_015294040) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070017]
+Length=2188
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 50/218 (23%), Positives = 92/218 (42%), Gaps = 19/218 (9%)
+
+Query  130   LGMPGFTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1576  FGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAGSDAK-RE  1634
+
+Query  190   ATDVLGFDLCLDHHADNFPQQLAQACP-QGIDIYYENVGGKVFDAVLPLLNTSARIPLCG  248
+                 LG +   D  + +F  ++ +     G+D+   ++ G+     + +L    R    G
+Sbjct  1635  MLSGLGVEYVGDSRSVDFADEILELTDGYGVDVVLNSLAGEAIQRGVQILAPGGRFIELG  1694
+
+Query  249   LVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYG-----HRIHEFQQEMGRWI  303
+                 Y   +L          +A L K        +++ D        R  +  Q + + +
+Sbjct  1695  KKDVYADASLG---------LAALAKS---ASFSVVDLDLNLKLQPARYRQLLQHILQHV  1742
+
+Query  304   KEGKIHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+              +GK+         L +A +AF  + +GK+ GK+VI +
+Sbjct  1743  ADGKLEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG008875(gb|WP_015303644) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070008]
+Length=2188
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 50/218 (23%), Positives = 92/218 (42%), Gaps = 19/218 (9%)
+
+Query  130   LGMPGFTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1576  FGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAGSDAK-RE  1634
+
+Query  190   ATDVLGFDLCLDHHADNFPQQLAQACP-QGIDIYYENVGGKVFDAVLPLLNTSARIPLCG  248
+                 LG +   D  + +F  ++ +     G+D+   ++ G+     + +L    R    G
+Sbjct  1635  MLSGLGVEYVGDSRSVDFADEILELTDGYGVDVVLNSLAGEAIQRGVQILAPGGRFIELG  1694
+
+Query  249   LVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYG-----HRIHEFQQEMGRWI  303
+                 Y   +L          +A L K        +++ D        R  +  Q + + +
+Sbjct  1695  KKDVYADASLG---------LAALAKS---ASFSVVDLDLNLKLQPARYRQLLQHILQHV  1742
+
+Query  304   KEGKIHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+              +GK+         L +A +AF  + +GK+ GK+VI +
+Sbjct  1743  ADGKLEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG008876(gb|WP_015291057) (ppsC) phthiocerol type I polyketide 
+synthase PpsC [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=2188
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 50/218 (23%), Positives = 92/218 (42%), Gaps = 19/218 (9%)
+
+Query  130   LGMPGFTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIAGGAEKCRH  189
+              G+   TA+  L ++G+   GE +++ +ATG VG     I K+ G R+   AG   K R 
+Sbjct  1576  FGVAYLTAWHSLCEVGRLSPGERVLIHSATGGVGMAAVSIAKMIGARIYTTAGSDAK-RE  1634
+
+Query  190   ATDVLGFDLCLDHHADNFPQQLAQACP-QGIDIYYENVGGKVFDAVLPLLNTSARIPLCG  248
+                 LG +   D  + +F  ++ +     G+D+   ++ G+     + +L    R    G
+Sbjct  1635  MLSGLGVEYVGDSRSVDFADEILELTDGYGVDVVLNSLAGEAIQRGVQILAPGGRFIELG  1694
+
+Query  249   LVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYG-----HRIHEFQQEMGRWI  303
+                 Y   +L          +A L K        +++ D        R  +  Q + + +
+Sbjct  1695  KKDVYADASLG---------LAALAKS---ASFSVVDLDLNLKLQPARYRQLLQHILQHV  1742
+
+Query  304   KEGKIHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+              +GK+         L +A +AF  + +GK+ GK+VI +
+Sbjct  1743  ADGKLEVLPVTAFSLHDAADAFRLMASGKHTGKIVISI  1780
+
+
+>VFG024721(gb|WP_041180293) (pks15/1) SDR family NAD(P)-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140010059]
+Length=2107
+
+ Score = 50.1 bits (118),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 25/214 (12%)
+
+Query  135   FTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIA--GGAEKCRHATD  192
+              TA+ GL D+ + K GE++++ A TG VG    Q+ +  G  V   A  G  +  R    
+Sbjct  1513  LTAWYGLADLAEIKAGESVLIHAGTGGVGMAAVQLARQWGVEVFVTASRGKWDTLR----  1568
+
+Query  193   VLGFDLCLDHHADN----FPQQ-LAQACPQGIDIYYENVGGKVFDAVLPLLNTSARIPLC  247
+              +GFD   DH  D+    F ++ LA    +G+D+  +++ G+  DA L LL    R    
+Sbjct  1569  AMGFD--DDHIGDSRTCEFEEKFLAVTEGRGVDVVLDSLAGEFVDASLRLLVRGGRFLEM  1626
+
+Query  248   GLVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYGHRIHEFQQEMGRWIKEGK  307
+             G     +A  +                  ++ + F +++    R+ E   E+       +
+Sbjct  1627  GKTDIRDAQEIAAN------------YPGVQYRAFDLSEAGPARMQEMLAEVRELFDTQE  1674
+
+Query  308   IHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+             +H     T  +  AP AF  +   ++ GKVV+ +
+Sbjct  1675  LHRLPVTTWDVRCAPAAFRFMSQARHIGKVVLTM  1708
+
+
+>VFG029279(gb|WP_041180907) (pks15/1) SDR family NAD(P)-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070017]
+Length=2107
+
+ Score = 50.1 bits (118),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 25/214 (12%)
+
+Query  135   FTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIA--GGAEKCRHATD  192
+              TA+ GL D+ + K GE++++ A TG VG    Q+ +  G  V   A  G  +  R    
+Sbjct  1513  LTAWYGLADLAEIKAGESVLIHAGTGGVGMAAVQLARQWGVEVFVTASRGKWDTLR----  1568
+
+Query  193   VLGFDLCLDHHADN----FPQQ-LAQACPQGIDIYYENVGGKVFDAVLPLLNTSARIPLC  247
+              +GFD   DH  D+    F ++ LA    +G+D+  +++ G+  DA L LL    R    
+Sbjct  1569  AMGFD--DDHIGDSRTCEFEEKFLAVTEGRGVDVVLDSLAGEFVDASLRLLVRGGRFLEM  1626
+
+Query  248   GLVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYGHRIHEFQQEMGRWIKEGK  307
+             G     +A  +                  ++ + F +++    R+ E   E+       +
+Sbjct  1627  GKTDIRDAQEIAAN------------YPGVQYRAFDLSEAGPARMQEMLAEVRELFDTQE  1674
+
+Query  308   IHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+             +H     T  +  AP AF  +   ++ GKVV+ +
+Sbjct  1675  LHRLPVTTWDVRCAPAAFRFMSQARHIGKVVLTM  1708
+
+
+>VFG029277(gb|WP_041179942) (pks15/1) SDR family NAD(P)-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070008]
+Length=2107
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 25/214 (12%)
+
+Query  135   FTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIA--GGAEKCRHATD  192
+              TA+ GL D+ + K GE++++ A TG VG    Q+ +  G  V   A  G  +  R    
+Sbjct  1513  LTAWYGLADLAEIKAGESVLIHAGTGGVGMAAVQLARQWGVEVFVTASRGKWDTLR----  1568
+
+Query  193   VLGFDLCLDHHADN----FPQQ-LAQACPQGIDIYYENVGGKVFDAVLPLLNTSARIPLC  247
+              +GFD   DH  D+    F ++ LA    +G+D+  +++ G+  DA L LL    R    
+Sbjct  1569  AMGFD--DDHIGDSRTCEFEEKFLAVTEGRGVDVVLDSLAGEFVDASLRLLVRGGRFLEM  1626
+
+Query  248   GLVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYGHRIHEFQQEMGRWIKEGK  307
+             G     +A  +                  ++ + F +++    R+ E   E+       +
+Sbjct  1627  GKTDIRDAQEIAAN------------YPGVQYRAFDLSEAGPARMQEMLAEVRELFDTQE  1674
+
+Query  308   IHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+             +H     T  +  AP AF  +   ++ GKVV+ +
+Sbjct  1675  LHRLPVTTWDVRCAPAAFRFMSQARHIGKVVLTM  1708
+
+
+>VFG024736(gb|WP_044501805) (pks15/1) SDR family NAD(P)-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium africanum GM041182]
+Length=2105
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 25/214 (12%)
+
+Query  135   FTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIA--GGAEKCRHATD  192
+              TA+ GL D+ + K GE++++ A TG VG    Q+ +  G  V   A  G  +  R    
+Sbjct  1511  LTAWYGLADLAEIKAGESVLIHAGTGGVGMAAVQLARQWGVEVFVTASRGKWDTLR----  1566
+
+Query  193   VLGFDLCLDHHADN----FPQQ-LAQACPQGIDIYYENVGGKVFDAVLPLLNTSARIPLC  247
+              +GFD   DH  D+    F ++ LA    +G+D+  +++ G+  DA L LL    R    
+Sbjct  1567  AMGFD--DDHIGDSRTCEFEEKFLAVTEGRGVDVVLDSLAGEFVDASLRLLVRGGRFLEM  1624
+
+Query  248   GLVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYGHRIHEFQQEMGRWIKEGK  307
+             G     +A  +                  ++ + F +++    R+ E   E+       +
+Sbjct  1625  GKTDIRDAQEIAAN------------YPGVQYRAFDLSEAGPARMQEMLAEVRELFDTRE  1672
+
+Query  308   IHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+             +H     T  +  AP AF  +   ++ GKVV+ +
+Sbjct  1673  LHRLPVTTWDVRCAPAAFRFMSQARHIGKVVLTM  1706
+
+
+>VFG024733(gb|WP_039847076) (pks15/1) SDR family NAD(P)-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium bovis AF2122/97]
+Length=2105
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 25/214 (12%)
+
+Query  135   FTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIA--GGAEKCRHATD  192
+              TA+ GL D+ + K GE++++ A TG VG    Q+ +  G  V   A  G  +  R    
+Sbjct  1511  LTAWYGLADLAEIKAGESVLIHAGTGGVGMAAVQLARQWGVEVFVTASRGKWDTLR----  1566
+
+Query  193   VLGFDLCLDHHADN----FPQQ-LAQACPQGIDIYYENVGGKVFDAVLPLLNTSARIPLC  247
+              +GFD   DH  D+    F ++ LA    +G+D+  +++ G+  DA L LL    R    
+Sbjct  1567  AMGFD--DDHIGDSRTCEFEEKFLAVTEGRGVDVVLDSLAGEFVDASLRLLVRGGRFLEM  1624
+
+Query  248   GLVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYGHRIHEFQQEMGRWIKEGK  307
+             G     +A  +                  ++ + F +++    R+ E   E+       +
+Sbjct  1625  GKTDIRDAQEIAAN------------YPGVQYRAFDLSEAGPARMQEMLAEVRELFDTRE  1672
+
+Query  308   IHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+             +H     T  +  AP AF  +   ++ GKVV+ +
+Sbjct  1673  LHRLPVTTWDVRCAPAAFRFMSQARHIGKVVLTM  1706
+
+
+>VFG029278(gb|WP_041181569) (pks15/1) SDR family NAD(P)-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=2107
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 25/214 (12%)
+
+Query  135   FTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIA--GGAEKCRHATD  192
+              TA+ GL D+ + K GE++++ A TG VG    Q+ +  G  V   A  G  +  R    
+Sbjct  1513  LTAWYGLADLAEIKAGESVLIHAGTGGVGMAAVQLARQWGVEVFVTASRGKWDTLR----  1568
+
+Query  193   VLGFDLCLDHHADN----FPQQ-LAQACPQGIDIYYENVGGKVFDAVLPLLNTSARIPLC  247
+              +GFD   DH  D+    F ++ LA    +G+D+  +++ G+  DA L LL    R    
+Sbjct  1569  AMGFD--DDHIGDSRTCEFEEKFLAVTEGRGVDVVLDSLAGEFVDASLRLLVRGGRFLEM  1626
+
+Query  248   GLVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYGHRIHEFQQEMGRWIKEGK  307
+             G     +A  +                  ++ + F +++    R+ E   E+       +
+Sbjct  1627  GKTDIRDAQEIAAN------------YPGVQYRAFDLSEAGPARMQEMLAEVRELFDAQE  1674
+
+Query  308   IHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+             +H     T  +  AP AF  +   ++ GKVV+ +
+Sbjct  1675  LHRLPVTTWDVRCAPAAFRFMSQARHIGKVVLTM  1708
+
+
+>VFG029273(gb|YP_005924086) (pks1) polyketide synthase pks1 [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+RGTB423]
+Length=1566
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 25/214 (12%)
+
+Query  135   FTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIA--GGAEKCRHATD  192
+              TA+ GL D+ + K GE++++ A TG VG    Q+ +  G  V   A  G  +  R    
+Sbjct  1022  LTAWYGLADLAEIKAGESVLIHAGTGGVGMAAVQLARQWGVEVFVTASRGKWDTLR----  1077
+
+Query  193   VLGFDLCLDHHADN----FPQQ-LAQACPQGIDIYYENVGGKVFDAVLPLLNTSARIPLC  247
+              +GFD   DH  D+    F ++ LA    +G+D+  +++ G+  DA L LL    R    
+Sbjct  1078  AMGFD--DDHIGDSRTCEFEEKFLAVTEGRGVDVVLDSLAGEFVDASLRLLVRGGRFLEM  1135
+
+Query  248   GLVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYGHRIHEFQQEMGRWIKEGK  307
+             G     +A  +                  ++ + F +++    R+ E   E+       +
+Sbjct  1136  GKTDIRDAQEIAAN------------YPGVQYRAFDLSEAGPARMQEMLAEVRELFDTRE  1183
+
+Query  308   IHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+             +H     T  +  AP AF  +   ++ GKVV+ +
+Sbjct  1184  LHRLPVTTWDVRCAPAAFRFMSQARHIGKVVLTM  1217
+
+
+>VFG029283(gb|WP_151223887) (pks15/1) type I polyketide synthase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+tuberculosis CCDC5079]
+Length=1616
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 25/214 (12%)
+
+Query  135   FTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIA--GGAEKCRHATD  192
+              TA+ GL D+ + K GE++++ A TG VG    Q+ +  G  V   A  G  +  R    
+Sbjct  1022  LTAWYGLADLAEIKAGESVLIHAGTGGVGMAAVQLARQWGVEVFVTASRGKWDTLR----  1077
+
+Query  193   VLGFDLCLDHHADN----FPQQ-LAQACPQGIDIYYENVGGKVFDAVLPLLNTSARIPLC  247
+              +GFD   DH  D+    F ++ LA    +G+D+  +++ G+  DA L LL    R    
+Sbjct  1078  AMGFD--DDHIGDSRTCEFEEKFLAVTEGRGVDVVLDSLAGEFVDASLRLLVRGGRFLEM  1135
+
+Query  248   GLVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYGHRIHEFQQEMGRWIKEGK  307
+             G     +A  +                  ++ + F +++    R+ E   E+       +
+Sbjct  1136  GKTDIRDAQEIAAN------------YPGVQYRAFDLSEAGPARMQEMLAEVRELFDTRE  1183
+
+Query  308   IHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+             +H     T  +  AP AF  +   ++ GKVV+ +
+Sbjct  1184  LHRLPVTTWDVRCAPAAFRFMSQARHIGKVVLTM  1217
+
+
+>VFG024730(gb|NP_217462) (pks1) polyketide synthase [PDIM (VF0309) 
+- Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+H37Rv]
+Length=1616
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 53/214 (25%), Positives = 92/214 (43%), Gaps = 25/214 (12%)
+
+Query  135   FTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIA--GGAEKCRHATD  192
+              TA+ GL D+ + K GE++++ A TG VG    Q+ +  G  V   A  G  +  R    
+Sbjct  1022  LTAWYGLADLAEIKAGESVLIHAGTGGVGMAAVQLARQWGVEVFVTASRGKWDTLR----  1077
+
+Query  193   VLGFDLCLDHHADN----FPQQ-LAQACPQGIDIYYENVGGKVFDAVLPLLNTSARIPLC  247
+              +GFD   DH  D+    F ++ LA    +G+D+  +++ G+  DA L LL    R    
+Sbjct  1078  AMGFD--DDHIGDSRTCEFEEKFLAVTEGRGVDVVLDSLAGEFVDASLRLLVRGGRFLEM  1135
+
+Query  248   GLVSGYNATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYGHRIHEFQQEMGRWIKEGK  307
+             G     +A  +                  ++ + F +++    R+ E   E+       +
+Sbjct  1136  GKTDIRDAQEIAAN------------YPGVQYRAFDLSEAGPARMQEMLAEVRELFDTRE  1183
+
+Query  308   IHYREQITDGLENAPEAFMGLLAGKNFGKVVIRL  341
+             +H     T  +  AP AF  +   ++ GKVV+ +
+Sbjct  1184  LHRLPVTTWDVRCAPAAFRFMSQARHIGKVVLTM  1217
+
+
+>VFG026099(gb|WP_011402028) (wcbR) capsular polysaccharide biosynthesis 
+fatty acid synthase [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia thailandensis E264]
+Length=2543
+
+ Score = 49.3 bits (116),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 54/212 (25%), Positives = 85/212 (40%), Gaps = 21/212 (10%)
+
+Query  135   FTAYMGLLDIGQPKEGETLVVAAATGPVGATVGQIGKLKGCRVVGIAGGAEKCRHATDVL  194
+             FTAY  L ++ + + GE ++V  A G VG    Q+ +  G  V   AG  EK R    ++
+Sbjct  1911  FTAYYALAELARLRRGERVLVHGAAGGVGIATVQLARHFGAEVFATAGSDEK-REFVRLI  1969
+
+Query  195   GFDLCLDHHADNFPQQ-LAQACPQGIDIYYENVGGKVFDAVLPLLNTSARIPLCGLVSGY  253
+             G D  LD  + +F  + LA    +G+DI   ++ G+     +  L    R    G    Y
+Sbjct  1970  GADHVLDSRSLSFADEILALTNGEGVDIVLNSLAGEAMVRSIDTLRPFGRFLELGKRDFY  2029
+
+Query  254   NATALPDGPDRLPLLMATLLKKRIRLQGFIINQDYGHRIHEFQQEMGRWI---KEGKIH-  309
+               + +   P           +  I   G   +Q  G R     +  G  I    EG +H 
+Sbjct  2030  ENSYIGLRP----------FRNNISYFGIDADQLMGVRADLTARLFGDVIALFAEGALHP  2079
+
+Query  310   --YREQITDGLENAPEAFMGLLAGKNFGKVVI  339
+               YR      +E+   AF  +   +  GKV++
+Sbjct  2080  LPYRAFAAARVED---AFRCMQQARQIGKVLV  2108
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.140    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2555217044
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

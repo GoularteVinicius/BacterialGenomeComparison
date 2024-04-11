@@ -1,0 +1,2305 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g245.t1
+
+Length=441
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG009650(gb|WP_011730343) (narK2) NarK/NasA family nitrate trans...  48.1    6e-06
+
+
+>VFG009650(gb|WP_011730343) (narK2) NarK/NasA family nitrate transporter 
+[Nitrate/nitrite transporter (VF0821) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium smegmatis str. 
+MC2 155]
+Length=409
+
+ Score = 48.1 bits (113),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 86/348 (25%), Positives = 136/348 (39%), Gaps = 53/348 (15%)
+
+Query  84   AIGFILQGRFIDKVGVKRAFFLAVLLWS----LATGAHGLATSAAGFMVCRFILGLTEAA  139
+            ++G I+ G   D+ G  R  F+AV + S    LA GA G A S    +VC F LG+    
+Sbjct  62   SLGRIVIGSLTDRFG-GRTMFIAVTVASILPVLAVGAAGSAGSYPLLLVCGFFLGV-AGT  119
+
+Query  140  NYPACVKTTRLWFPAGERAVATGIFNAGTNVGAMVTPALLPLILGVWGWQAAFLCMS---  196
+             +   +  +  W+    R  ATG+F  G  VG  ++    P  +  +G     L ++   
+Sbjct  120  IFAVGIPFSNNWYDVSRRGFATGVFGMGM-VGTALSAFFTPRFVNWFGLFTTHLIVAIAL  178
+
+Query  197  ALGLVWLVFWWRN--YYNPEEHPRVKQSELEYIQQQEEPPATRVPFSQILRRRGTWAFAL  254
+            AL  V  V   R+   + P   P V + +           A ++P         TW  + 
+Sbjct  179  ALTAVLCVVMMRDAPSFRPNTDPVVPKLKA----------AAKLPV--------TWEMSF  220
+
+Query  255  AYSITAPVFWFYLYWLPPFLNQQYGLGISVTQMGIPLILIWLTADFGSVGGGILSSWLIG  314
+             Y++    F  +  +LP ++   Y    S  + G       + A      GG LS     
+Sbjct  221  LYAVVFGGFVAFSNYLPTYIKTIYDF--SAVEAGSRTAGFAVAAVLARPVGGALSD----  274
+
+Query  315  RGMPAIRARLLSMLLFACTIVGVVFAA---NASGLWIAV----LAIALAVGAHQAWTANI  367
+                 I  + + +  FA T + + F A       +W A     LAI L VG     T  +
+Sbjct  275  ----RIPPKYVVLASFAGTAL-LAFVAVFQPPPDVWSATTFITLAIFLGVG-----TGGV  324
+
+Query  368  WSLVMDYTPKHLMSTVFGFGGMCAALGGMFMTQIVGGVLTATNNNYAV  415
+            ++ V   +P   + +V G       LGG F   ++G    A +N+Y V
+Sbjct  325  FAWVARRSPAQSVGSVTGIVAAAGGLGGYFPPLVMGATYDADDNDYTV  372
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.139    0.460    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3520688106
+
+
+Query= g2253.t1
+
+Length=441
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002097(gb|WP_010946287) (phtA) major facilitator family transp...  57.8    5e-09
+VFG047612(gb|WP_012280362) (ileP) major facilitator transporter [...  55.1    4e-08
+VFG047628(gb|WP_013922326) (ileP) major facilitator transporter [...  53.5    1e-07
+VFG047627(gb|WP_014714614) (ileP) major facilitator transporter [...  52.8    2e-07
+VFG047616(gb|WP_012429084) (ileP) major facilitator transporter [...  52.4    3e-07
+VFG047611(gb|WP_003035149) (ileP) major facilitator transporter [...  52.4    3e-07
+VFG047613(gb|WP_003017348) (ileP) major facilitator transporter [...  52.0    3e-07
+VFG047619(gb|WP_003024596) (ileP) major facilitator transporter [...  52.0    4e-07
+VFG047620(gb|WP_044247513) (ileP) major facilitator transporter [...  51.6    5e-07
+VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) - ...  50.4    1e-06
+VFG047646(gb|WP_013922399) (ansP) major facilitator transporter [...  48.1    6e-06
+VFG047618(gb|WP_003019748) (ileP) major facilitator transporter [...  48.1    7e-06
+
+
+>VFG002097(gb|WP_010946287) (phtA) major facilitator family transporter, 
+phagosomal transporter [Pht (VF0337) - Nutritional/Metabolic 
+factor (VFC0272)] [Legionella pneumophila subsp. 
+pneumophila str. Philadelphia 1]
+Length=427
+
+ Score = 57.8 bits (138),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 72/327 (22%), Positives = 142/327 (43%), Gaps = 27/327 (8%)
+
+Query  28   WRIFAIVFALTVINLVDRVSLSIAMPTIAGEFQLTPSMQGLILSSFFWAYALLQIPGGWL  87
+            W ++ +  A    + + RV+  +    +  +F +  +  G++ +SF+  Y L+QIP G  
+Sbjct  19   WLVWGLAAAFYFSDYLARVAPGVMHRYLQMDFGINEAGFGILTASFYVPYILMQIPVGLT  78
+
+Query  88   IDRYGPRRVIGWSTGLWGAFQTLAAFASGGLSLMFARVALGAAEAPLFPSGGKLNSLWLG  147
+            +DR   R ++   + +      +   A G L+    R+ +G + A  F    +L + W  
+Sbjct  79   VDRLSIRWLLTIMSLVTAFGCCVFGLADGLLTASIGRMLIGFSAAFAFICSLRLATSWFP  138
+
+Query  148  SSERSRGAVLMDCGGPLGVALGGLVIAYLIAVLGSWRSAFFIAGIATLAMAWLAWHYLRD  207
+             +     + L    G LG A G   +++L++ +G WR +  I     +A++ L + +++D
+Sbjct  139  PTMLGLLSGLTQALGMLGAAAGEAPVSFLVSNVG-WRHSMLIIAFLFIALSGLLYQFVQD  197
+
+Query  208  DPAEHPGVNAAELDRINADRTTPLAEADCQAGGRLGIAGRSLVG--IVLGRASWAMVFFG  265
+             P EH       ++RI+   +  +  ++ Q       AG  L G   V+G A        
+Sbjct  198  KPGEHRN-EIRSVNRISILDSLKIILSNKQTWLNAMYAG-FLFGPTAVIGEAI-------  248
+
+Query  266  LLTWGPSYLAQARGFDIKGIGAATFVIFLCGAVGSLVGGFLCDLLIRKGVRRGLAAKGLL  325
+                GP+YL   RG        AT +IF+   +   + G++ D + R+        K L+
+Sbjct  249  ----GPAYLQFGRGLGAHAAAFATGLIFIGWGISGPLSGWISDKMGRR--------KPLM  296
+
+Query  326  TVSGLAALV---AFLLLPSLEDAYAAV  349
+             +S +  ++    F+ +P +    A +
+Sbjct  297  IISAVCGVILSSLFVFIPEMSQTTAYI  323
+
+
+>VFG047612(gb|WP_012280362) (ileP) major facilitator transporter 
+[IleP (VF0556) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella philomiragia subsp. philomiragia ATCC 25017]
+Length=434
+
+ Score = 55.1 bits (131),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 71/312 (23%), Positives = 128/312 (41%), Gaps = 39/312 (13%)
+
+Query  22   KPSNVR---WRIFAIVFALTVINLVDRVSLSIAMPTIAGEFQLTPSMQGLILSSFFWAYA  78
+            K  N+R   W I  +   L     + +V  S+    +   F    +  G + S+FFW+  
+Sbjct  4    KIHNIRGYAWIIIILSSFLLFDKYIMQVFPSLITDDMMSSFHTNATQTGALGSAFFWSII  63
+
+Query  79   LLQI-PGGWLIDRYGPRRV--IGWSTGLWGAFQTLAAFASGGLSLMF-ARVALGAAEAPL  134
+            + Q+   G +ID++G R +  I  +    G    + A   G LS+ + AR+  G   +  
+Sbjct  64   ICQLFLAGPIIDKFGFRLISPISITISAMGVILFVVACNLGSLSMAYIARIITGMGVSFA  123
+
+Query  135  FPSGGKLNSLWLGSSERSRGAVLMDCGGPLGVALGGLVIAYLIAVLGSWRSAFFIAGIAT  194
+              S  K  S+W    + +  A  +     +G       +AYLI + G W+ A  +  +A+
+Sbjct  124  TISYLKAVSVWFEPRKFAFAASFLATAAMIGALCAQAPLAYLITLCGDWKMAMLLFAVAS  183
+
+Query  195  LAMAWLAWHYLRDDPAEHPGVNAAELDRINADRTTPLAEADCQAGGRLGIAGRSLVGIVL  254
+            L +  L +  +RD   + P  ++      N  +T                   +L  +V 
+Sbjct  184  LLIGVLYYIVVRDFNPKQPEASSPS----NQLKTL-----------------EALKEVVK  222
+
+Query  255  GRASWAMVFFGLLT----------WGPSYLAQARGFDIKGIGAATFVIFLCGAVGSLVGG  304
+             + +W + F+  L+          WG +Y  +A     +   +   +IF+  A+GS + G
+Sbjct  223  NKNNWLLTFYVGLSFTAVDAFAGFWGNAYFREAYHLSREEAASIISMIFIGMAIGSPIIG  282
+
+Query  305  FLCDLL-IRKGV  315
+             L ++L  RKGV
+Sbjct  283  KLSEILDSRKGV  294
+
+
+>VFG047628(gb|WP_013922326) (ileP) major facilitator transporter 
+[IleP (VF0556) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella sp. TX077308]
+Length=434
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 71/312 (23%), Positives = 128/312 (41%), Gaps = 39/312 (13%)
+
+Query  22   KPSNVR---WRIFAIVFALTVINLVDRVSLSIAMPTIAGEFQLTPSMQGLILSSFFWAYA  78
+            K  N+R   W I  +   L     + +V  S+    +   F    +  G + S+FFW+  
+Sbjct  4    KIHNIRGYAWIIIVLSSFLLFDKYIMQVFPSLITDDMMSSFHTNATQTGALGSAFFWSII  63
+
+Query  79   LLQI-PGGWLIDRYGPRRV--IGWSTGLWGAFQTLAAFASGGLSLMF-ARVALGAAEAPL  134
+            + Q+   G +ID++G R +  I  +    G    + A   G LS+ + AR+  G   +  
+Sbjct  64   ICQLFLAGPIIDKFGFRLISPISITISAIGVILFVVASNLGSLSMAYIARIITGLGVSFA  123
+
+Query  135  FPSGGKLNSLWLGSSERSRGAVLMDCGGPLGVALGGLVIAYLIAVLGSWRSAFFIAGIAT  194
+              S  K  S+W    + +  A  +     +G       +AYLI + G W+ A  +  +A+
+Sbjct  124  TISYLKAVSVWFEPRKFAFAASFLATAAMIGALCAQAPLAYLITLCGDWKMAMLLFAVAS  183
+
+Query  195  LAMAWLAWHYLRDDPAEHPGVNAAELDRINADRTTPLAEADCQAGGRLGIAGRSLVGIVL  254
+            L +  L +  +RD   + P  ++          +  L   D            +L  +V 
+Sbjct  184  LFIGVLYYIVVRDFNPKQPEASSP---------SNQLKTLD------------ALKEVVK  222
+
+Query  255  GRASWAMVFFGLLT----------WGPSYLAQARGFDIKGIGAATFVIFLCGAVGSLVGG  304
+             + +W + F+  L+          WG +Y  +A     +   +   +IF+  A+GS + G
+Sbjct  223  NKNNWLLTFYVGLSFTAVDAFAGFWGNAYFREAYHISREEAASIISMIFIGMAIGSPIIG  282
+
+Query  305  FLCDLL-IRKGV  315
+             L ++L  RKGV
+Sbjct  283  KLSEILDSRKGV  294
+
+
+>VFG047627(gb|WP_014714614) (ileP) major facilitator transporter 
+[IleP (VF0556) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella noatunensis subsp. orientalis str. Toba 04]
+Length=434
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 71/314 (23%), Positives = 129/314 (41%), Gaps = 43/314 (14%)
+
+Query  22   KPSNVR---WRIFAIVFALTVINLVDRVSLSIAMPTIAGEFQLTPSMQGLILSSFFWAYA  78
+            K  N+R   W I  +   L     + +V  S+    +   F    +  G + S+FFW+  
+Sbjct  4    KIHNIRGYAWIIIILSSFLLFDKYIMQVFPSLITDDMMSSFHTNATQTGALGSAFFWSII  63
+
+Query  79   LLQI-PGGWLIDRYGPRRV--IGWSTGLWGAFQTLAAFASGGLSLMF-ARVALGAAEAPL  134
+            + Q+   G +ID++G R +  I  +    G    + A   G LS+ + AR+  G   +  
+Sbjct  64   ICQLFLAGPIIDKFGFRLISPISITISAMGVILFVIACNLGSLSMAYIARIITGWGVSFA  123
+
+Query  135  FPSGGKLNSLWLGSSERSRGAVLMDCGGPLGVALGGLVIAYLIAVLGSWRSAFFIAGIAT  194
+              S  K  S+W    + +  A  +     +G       +AYLI + G W+ A  +  +A+
+Sbjct  124  TISYLKAVSVWFEPRKFAFAASFLATAAMIGALCAQAPLAYLITLCGDWKMAMLLFAVAS  183
+
+Query  195  LAMAWLAWHYLRDDPAEHPGVN--AAELDRINADRTTPLAEADCQAGGRLGIAGRSLVGI  252
+            L +  L +  +RD   + P  +  + +L  I+A                       L  +
+Sbjct  184  LLIGVLYYIVVRDFNPKQPEASSPSNQLKTIDA-----------------------LKEV  220
+
+Query  253  VLGRASWAMVFFGLLT----------WGPSYLAQARGFDIKGIGAATFVIFLCGAVGSLV  302
+            +  + +W + F+  L+          WG +Y  +A     +   +   +IF+  A+GS +
+Sbjct  221  IKNKNNWLLTFYVGLSFTAVDAFAGFWGNAYFREAYHLSHEEAASIISMIFIGMAIGSPI  280
+
+Query  303  GGFLCDLL-IRKGV  315
+             G L ++L  RKGV
+Sbjct  281  IGKLSEILDSRKGV  294
+
+
+>VFG047616(gb|WP_012429084) (ileP) major facilitator transporter 
+[IleP (VF0556) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella tularensis subsp. mediasiatica FSC147]
+Length=434
+
+ Score = 52.4 bits (124),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 77/346 (22%), Positives = 140/346 (40%), Gaps = 46/346 (13%)
+
+Query  25   NVR---WRIFAIVFALTVINLVDRVSLSIAMPTIAGEFQLTPSMQGLILSSFFWAYALLQ  81
+            N+R   W I  +   L     V +V  S+    +   F    +  G + S+FFW+  + Q
+Sbjct  7    NIRGYAWIIIILSSFLLFDKYVMQVFPSLITDDMMSNFGTNATQTGALGSAFFWSIIICQ  66
+
+Query  82   I-PGGWLIDRYGPRRV--IGWSTGLWGAFQTLAAFASGGLSLMF-ARVALGAAEAPLFPS  137
+            +   G +ID++G R +  I  +    G    + A   G LS+ + AR+  G   +    S
+Sbjct  67   LFLAGPIIDKFGFRLISPISITISATGVILFVVAANLGSLSMAYIARITTGLGVSFATIS  126
+
+Query  138  GGKLNSLWLGSSERSRGAVLMDCGGPLGVALGGLVIAYLIAVLGSWRSAFFIAGIATLAM  197
+              K  S+W    + +  A  +     +G       +AYLI + G W+ A  +  +A+L +
+Sbjct  127  YLKAVSVWFEPRKFAFAASFLATAAMIGALCAQAPLAYLITICGDWKMAMLLFSVASLLI  186
+
+Query  198  AWLAWHYLRDDPAEHPGVNAAELDRINADRTTPLAEADCQAGGRLGIAGRSLVGIVLGRA  257
+            A + +  +RD   + P  ++      N  +T  +                 L  ++  + 
+Sbjct  187  AVVYYIVVRDFNPKQPEASSPN----NQLKTLDV-----------------LKEVIKNKN  225
+
+Query  258  SWAMVFFGLLT----------WGPSYLAQARGFDIKGIGAATFVIFLCGAVGSLVGGFLC  307
+            +W + F+  L+          WG +Y  +A     +   +   +IF+  A+GS + G L 
+Sbjct  226  NWLLTFYVGLSFTAVDAFAGFWGNAYFREAYHISREEAASIISMIFIGMAIGSPIIGKLS  285
+
+Query  308  DLL-IRKGVRRGLAAKGLLTVSGLAALVAFLLLPSLEDAYAAVTLL  352
+            ++L  RKGV       G + +S       F+LL       +A+ L 
+Sbjct  286  EILDSRKGVMIFFHIIGTIALS-------FVLLTKTSSTISAILLF  324
+
+
+>VFG047611(gb|WP_003035149) (ileP) major facilitator transporter 
+[IleP (VF0556) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella novicida U112]
+Length=434
+
+ Score = 52.4 bits (124),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 77/346 (22%), Positives = 140/346 (40%), Gaps = 46/346 (13%)
+
+Query  25   NVR---WRIFAIVFALTVINLVDRVSLSIAMPTIAGEFQLTPSMQGLILSSFFWAYALLQ  81
+            N+R   W I  +   L     V +V  S+    +   F    +  G + S+FFW+  + Q
+Sbjct  7    NIRGYAWIIIILSSFLLFDKYVMQVFPSLITDDMMSNFGTNATQTGALGSAFFWSIIICQ  66
+
+Query  82   I-PGGWLIDRYGPRRV--IGWSTGLWGAFQTLAAFASGGLSLMF-ARVALGAAEAPLFPS  137
+            +   G +ID++G R +  I  +    G    + A   G LS+ + AR+  G   +    S
+Sbjct  67   LFLAGPIIDKFGFRLISPISITISATGVILFVVAANLGSLSMAYIARITTGLGVSFATIS  126
+
+Query  138  GGKLNSLWLGSSERSRGAVLMDCGGPLGVALGGLVIAYLIAVLGSWRSAFFIAGIATLAM  197
+              K  S+W    + +  A  +     +G       +AYLI + G W+ A  +  +A+L +
+Sbjct  127  YLKAVSVWFEPRKFAFAASFLATAAMIGALCAQAPLAYLITICGDWKMAMLLFSVASLLI  186
+
+Query  198  AWLAWHYLRDDPAEHPGVNAAELDRINADRTTPLAEADCQAGGRLGIAGRSLVGIVLGRA  257
+            A + +  +RD   + P  ++      N  +T                   +L  ++  + 
+Sbjct  187  AVVYYIVVRDFNPKQPEASSPN----NQLKTLD-----------------ALKEVIKNKN  225
+
+Query  258  SWAMVFFGLLT----------WGPSYLAQARGFDIKGIGAATFVIFLCGAVGSLVGGFLC  307
+            +W + F+  L+          WG +Y  +A     +   +   +IF+  A+GS + G L 
+Sbjct  226  NWLLTFYVGLSFTAVDAFAGFWGNAYFREAYHISREEAASIISMIFIGMAIGSPIIGKLS  285
+
+Query  308  DLL-IRKGVRRGLAAKGLLTVSGLAALVAFLLLPSLEDAYAAVTLL  352
+            ++L  RKGV       G + +S       F+LL       +A+ L 
+Sbjct  286  EILDSRKGVMIFFHIIGTIALS-------FVLLTKTSSTISAILLF  324
+
+
+>VFG047613(gb|WP_003017348) (ileP) major facilitator transporter 
+[IleP (VF0556) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella tularensis subsp. holarctica FTNF002-00]
+Length=434
+
+ Score = 52.0 bits (123),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 72/325 (22%), Positives = 133/325 (41%), Gaps = 43/325 (13%)
+
+Query  43   VDRVSLSIAMPTIAGEFQLTPSMQGLILSSFFWAYALLQI-PGGWLIDRYGPRRV--IGW  99
+            V +V  S+    +   F    +  G + S+FFW+  + Q+   G +ID++G R +  I  
+Sbjct  28   VMQVFPSLITDDMMSNFGTNATQTGALGSAFFWSIIICQLFLAGPIIDKFGFRLISPISI  87
+
+Query  100  STGLWGAFQTLAAFASGGLSLMF-ARVALGAAEAPLFPSGGKLNSLWLGSSERSRGAVLM  158
+            +    G    + A   G LS+ + AR+  G   +    S  K  S+W    + +  A  +
+Sbjct  88   TISATGVILFVVAANLGSLSMAYIARITTGLGVSFATISYLKAVSVWFEPRKFAFAASFL  147
+
+Query  159  DCGGPLGVALGGLVIAYLIAVLGSWRSAFFIAGIATLAMAWLAWHYLRDDPAEHPGVNAA  218
+                 +G       +AYLI + G W+ A  +  +A+L +A + +  +RD   + P  ++ 
+Sbjct  148  ATAAMIGALCAQAPLAYLITICGDWKMAMLLFSVASLLIAVVYYIVVRDFNPKQPEASSP  207
+
+Query  219  ELDRINADRTTPLAEADCQAGGRLGIAGRSLVGIVLGRASWAMVFFGLLT----------  268
+                 N  +T  +                 L  ++  + +W + F+  L+          
+Sbjct  208  N----NQLKTLDV-----------------LKEVIKNKNNWLLTFYVGLSFTAVDAFAGF  246
+
+Query  269  WGPSYLAQARGFDIKGIGAATFVIFLCGAVGSLVGGFLCDLL-IRKGVRRGLAAKGLLTV  327
+            WG +Y  +A     +   +   +IF+  A+GS + G L ++L  RKGV       G + +
+Sbjct  247  WGNAYFREAYHISREEAASIISMIFIGMAIGSPIIGKLSEILDSRKGVMIFFHIIGTIAL  306
+
+Query  328  SGLAALVAFLLLPSLEDAYAAVTLL  352
+            S       F+LL       +A+ L 
+Sbjct  307  S-------FVLLTKTSSTISAILLF  324
+
+
+>VFG047619(gb|WP_003024596) (ileP) major facilitator transporter 
+[IleP (VF0556) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella tularensis subsp. tularensis WY96-3418]
+Length=434
+
+ Score = 52.0 bits (123),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 70/309 (23%), Positives = 128/309 (41%), Gaps = 39/309 (13%)
+
+Query  25   NVR---WRIFAIVFALTVINLVDRVSLSIAMPTIAGEFQLTPSMQGLILSSFFWAYALLQ  81
+            N+R   W I  +   L     V +V  S+    +   F    +  G + S+FFW+  + Q
+Sbjct  7    NIRGYAWIIIILSSFLLFDKYVMQVFPSLITDDMMSNFGTNATQTGALGSAFFWSIIICQ  66
+
+Query  82   I-PGGWLIDRYGPRRV--IGWSTGLWGAFQTLAAFASGGLSLMF-ARVALGAAEAPLFPS  137
+            +   G +ID++G R +  I  +    G    + A   G LS+ + AR+  G   +    S
+Sbjct  67   LFLAGPIIDKFGFRLISPISITISATGVILFVVAANLGSLSMAYIARITTGLGVSFATIS  126
+
+Query  138  GGKLNSLWLGSSERSRGAVLMDCGGPLGVALGGLVIAYLIAVLGSWRSAFFIAGIATLAM  197
+              K  S+W    + +  A  +     +G       +AYLI + G W+ A  +  +A+L +
+Sbjct  127  YLKAVSVWFEPRKFAFAASFLATAAMIGALCAQAPLAYLITICGDWKMAMLLFSVASLLI  186
+
+Query  198  AWLAWHYLRDDPAEHPGVNAAELDRINADRTTPLAEADCQAGGRLGIAGRSLVGIVLGRA  257
+            A + +  +RD   + P  ++      N  +T  +                 L  ++  + 
+Sbjct  187  AVVYYIVVRDFNPKQPEASSPN----NQLKTLDV-----------------LKEVIKNKN  225
+
+Query  258  SWAMVFFGLLT----------WGPSYLAQARGFDIKGIGAATFVIFLCGAVGSLVGGFLC  307
+            +W + F+  L+          WG +Y  +A     +   +   +IF+  A+GS + G L 
+Sbjct  226  NWLLTFYVGLSFTAVDAFAGFWGNAYFREAYHISREEAASIISMIFIGMAIGSPIIGKLS  285
+
+Query  308  DLL-IRKGV  315
+            ++L  RKGV
+Sbjct  286  EILDSRKGV  294
+
+
+>VFG047620(gb|WP_044247513) (ileP) major facilitator transporter 
+[IleP (VF0556) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella cf. tularensis subsp. novicida 3523]
+Length=434
+
+ Score = 51.6 bits (122),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 72/322 (22%), Positives = 133/322 (41%), Gaps = 39/322 (12%)
+
+Query  25   NVR---WRIFAIVFALTVINLVDRVSLSIAMPTIAGEFQLTPSMQGLILSSFFWAYALLQ  81
+            N+R   W I  +   L     V +V  S+    +   F    +  G + S+FFW+  + Q
+Sbjct  7    NIRGYAWIIIILSSFLLFDKYVMQVFPSLITDDMMSNFGTNATQTGALGSAFFWSIIICQ  66
+
+Query  82   I-PGGWLIDRYGPRRV--IGWSTGLWGAFQTLAAFASGGLSLMF-ARVALGAAEAPLFPS  137
+            +   G +ID++G R +  I  +    G    + A   G LS+ + AR+  G   +    S
+Sbjct  67   LFLAGPIIDKFGFRLISPISITISATGVILFVVAANLGSLSMAYIARITTGLGVSFATIS  126
+
+Query  138  GGKLNSLWLGSSERSRGAVLMDCGGPLGVALGGLVIAYLIAVLGSWRSAFFIAGIATLAM  197
+              K  S+W    + +  A  +     +G       +AYLI + G W+ A  +  +A+L +
+Sbjct  127  YLKAVSVWFEPRKFAFAASFLATAAMIGALCAQAPLAYLITLCGDWKMAMLLFSVASLLI  186
+
+Query  198  AWLAWHYLRDDPAEHPGVNAAELDRINADRTTPLAEADCQAGGRLGIAGRSLVGIVLGRA  257
+            A + +  +RD   + P  ++      N  +T                   +L  ++  + 
+Sbjct  187  AVVYYIVVRDFNPKQPEASSPN----NQLKTLD-----------------ALKEVIKNKN  225
+
+Query  258  SWAMVFFGLLT----------WGPSYLAQARGFDIKGIGAATFVIFLCGAVGSLVGGFLC  307
+            +W + F+  L+          WG +Y  +A     +   +   +IF+  A+GS + G L 
+Sbjct  226  NWLLTFYVGLSFTAVDAFAGFWGNAYFREAYHISREEAASIISMIFIGMAIGSPIIGKLS  285
+
+Query  308  DLL-IRKGVRRGLAAKGLLTVS  328
+            ++L  RKGV       G +++S
+Sbjct  286  EILDSRKGVMIFFHIIGTISLS  307
+
+
+>VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=447
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 91/343 (27%), Positives = 141/343 (41%), Gaps = 35/343 (10%)
+
+Query  29   RIFAIVFALTVINLVDRVSLSIAMPTIAGEFQLTPSMQGLILSSFFWAYALLQIPGGWLI  88
+            R+  ++  +T     D + +S  +P +  ++QL P+  GLI+ S  +   L  +  G L 
+Sbjct  25   RVRLLLGVITFFEAFDLLLISFTLPLLKQQWQLDPTQVGLIVGSGTFGMLLGALCAGALA  84
+
+Query  89   DRYGPRRVIGWSTGLWGAFQTLAAFASGGLSLMFARVALGAAEAPLFPSGGKLNSLWLGS  148
+            DR G + V+  +  L G F  L A AS    L+  R+  G       P      S  + S
+Sbjct  85   DRVGRKPVLLAAMLLTGLFSALIACASDWQGLLVGRLLQGLGIGAEVPIAALYLSEIITS  144
+
+Query  149  SERSRGAVLMDCGGPLGVALGGLVIAYLIAVLGSWRSAFFIAGIATLAMAWLAWHYLRDD  208
+              R R  +L +   P G+   G+   + + V+G WR  +++ G   + +A   + Y+ + 
+Sbjct  145  KVRGRFVLLYELSFPCGLMFAGVACTWALPVMG-WRPLYWL-GSVPMVLAVAVYLYVPES  202
+
+Query  209  PA--------EHPGVNAAELDRINADRT-TPLAEADCQAGGRLGIAGRSLVGIVLGRAS-  258
+                             A ++R +     TPL      A  R     R L   VL  AS 
+Sbjct  203  ARWLAARGQLRRAQACMAYMERASGHAVATPLLTEAPVARPRDSGRWRQLFDPVLRHASG  262
+
+Query  259  -----W---AMVFFGLLTWGPSY--------LAQARGF----DIKGIG---AATFVIFLC  295
+                 W    +V F LL W PS         LAQA  F    +I G+G   AA + +   
+Sbjct  263  SVGLLWFLGYLVNFALLIWLPSLYVEVFSTSLAQALNFTLWSNIAGLGGCMAAAWCVDRI  322
+
+Query  296  GAVGSLVGGFLCDLLIRKGVRRGLAAKGLLTVSGLAALVAFLL  338
+            G V  L GG+L   L    +   +A + +L V+ LAA  +F L
+Sbjct  323  GRVRLLFGGYLGAGLSLLLIALTVAWQQVLLVALLAASCSFFL  365
+
+
+>VFG047646(gb|WP_013922399) (ansP) major facilitator transporter 
+[AnsP (VF0554) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella sp. TX077308]
+Length=407
+
+ Score = 48.1 bits (113),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 37/119 (31%), Positives = 57/119 (48%), Gaps = 2/119 (2%)
+
+Query  28   WRIFAIVFALTVINLVDRVSLSIAMPTIAGEFQLTPSMQGLILSSFFWAYALLQIPGGWL  87
+            W I A  +AL  I      SL     T    + LTP    ++ S+F+WAY   Q+P G L
+Sbjct  12   WFICAFFYALEFIIRASGNSLYNDFST--APYNLTPEQISVLSSAFYWAYVASQLPAGIL  69
+
+Query  88   IDRYGPRRVIGWSTGLWGAFQTLAAFASGGLSLMFARVALGAAEAPLFPSGGKLNSLWL  146
+            +D++G +R++  ST ++     +A  A+    L+  RV  G      F S  K  ++WL
+Sbjct  70   LDKFGVKRIMAVSTFIFSIGVFIATRATSPEYLILYRVLAGIGGGFAFLSALKAIAIWL  128
+
+
+>VFG047618(gb|WP_003019748) (ileP) major facilitator transporter 
+[IleP (VF0556) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella tularensis subsp. tularensis SCHU S4]
+Length=434
+
+ Score = 48.1 bits (113),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 70/309 (23%), Positives = 128/309 (41%), Gaps = 39/309 (13%)
+
+Query  25   NVR---WRIFAIVFALTVINLVDRVSLSIAMPTIAGEFQLTPSMQGLILSSFFWAYALLQ  81
+            N+R   W I  +   L     V +V  S+    +   F    +  G + S+FFW+  + Q
+Sbjct  7    NIRGYAWIIIILSSFLLFDKYVMQVFPSLITDDMMSNFGTNATQTGALGSAFFWSIIICQ  66
+
+Query  82   I-PGGWLIDRYGPRRVIGWSTGLW--GAFQTLAAFASGGLSLMF-ARVALGAAEAPLFPS  137
+            +   G +ID++G R +   S  +   G    + A   G LS+ + AR+  G   +    S
+Sbjct  67   LFLAGPIIDKFGFRLISPISIIISATGVILFVVAANLGSLSMAYIARITTGLGVSFATIS  126
+
+Query  138  GGKLNSLWLGSSERSRGAVLMDCGGPLGVALGGLVIAYLIAVLGSWRSAFFIAGIATLAM  197
+              K  S+W    + +  A  +     +G       +AYLI + G W+ A  +  +A+L +
+Sbjct  127  YLKAVSVWFEPRKFAFAASFLATAAMIGALCAQAPLAYLITICGDWKMAMLLFSVASLLI  186
+
+Query  198  AWLAWHYLRDDPAEHPGVNAAELDRINADRTTPLAEADCQAGGRLGIAGRSLVGIVLGRA  257
+            A + +  +RD   + P  ++      N  +T  +                 L  ++  + 
+Sbjct  187  AVVYYIVVRDFNPKQPEASSPN----NQLKTLDV-----------------LKEVIKNKN  225
+
+Query  258  SWAMVFFGLLT----------WGPSYLAQARGFDIKGIGAATFVIFLCGAVGSLVGGFLC  307
+            +W + F+  L+          WG +Y  +A     +   +   +IF+  A+GS + G L 
+Sbjct  226  NWLLTFYVGLSFTAVDAFAGFWGNAYFREAYHISREEAASIISMIFIGMAIGSPIIGKLS  285
+
+Query  308  DLL-IRKGV  315
+            ++L  RKGV
+Sbjct  286  EILDSRKGV  294
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.140    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3520688106
+
+
+Query= g4175.t1
+
+Length=419
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG036963(gb|WP_015815889) (farB) fatty acid efflux system protei...  66.6    8e-12
+VFG036955(gb|WP_002236670) (farB) fatty acid efflux system protei...  66.2    1e-11
+VFG036962(gb|WP_014573759) (farB) fatty acid efflux system protei...  65.9    1e-11
+VFG036966(gb|WP_014581242) (farB) fatty acid efflux system protei...  65.9    1e-11
+VFG036958(gb|WP_002247957) (farB) fatty acid efflux system protei...  65.9    1e-11
+VFG036964(gb|WP_002218710) (farB) fatty acid efflux system protei...  65.9    1e-11
+VFG036956(gb|WP_002224867) (farB) fatty acid efflux system protei...  65.1    3e-11
+VFG036965(gb|WP_002226030) (farB) fatty acid efflux system protei...  63.5    8e-11
+VFG036960(gb|WP_003703449) (farB) fatty acid efflux system protei...  63.2    1e-10
+VFG036959(gb|WP_012222039) (farB) fatty acid efflux system protei...  62.4    2e-10
+VFG036957(gb|WP_010951322) (farB) fatty acid efflux system protei...  62.4    2e-10
+VFG002097(gb|WP_010946287) (phtA) major facilitator family transp...  58.5    3e-09
+VFG036972(gb|WP_042508130) (farB) fatty acid efflux system protei...  58.5    3e-09
+VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) - ...  50.8    9e-07
+
+
+>VFG036963(gb|WP_015815889) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis alpha14]
+Length=508
+
+ Score = 66.6 bits (161),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 55/196 (28%), Positives = 97/196 (49%), Gaps = 18/196 (9%)
+
+Query  57   LALAWAVSGALVGAWSDRRGQRKPLLIVAVILFSLCSALSGLVGGFLSLLLFRGIMGLAE  116
+             A+A AVS  L G  + R G+ K L   A + F + S L G+     SL++FR + G   
+Sbjct  57   FAVANAVSVPLTGFLAKRIGEVK-LFTAAAVGFVITSWLCGIAPNLQSLVIFRILQGFIA  115
+
+Query  117  GPILPLSQSLMVEASSPHRRGLNMGLLQGSAAGLLGAVIGPPLLVALAEALGWRHAFIVS  176
+            GP++PLSQSL++ +  P +R L + L   +   ++  V+GP L   ++    W   F ++
+Sbjct  116  GPLIPLSQSLLMASYPPAKRTLALALWAMTV--VVAPVLGPILGGWISGNWHWGWIFFIN  173
+
+Query  177  LLPGLLIAWLIWRHVRP-DPPRAQRP--------------APRAEEAKGKRLALLKSRNI  221
+            +  G++ AW+ W+H++  +    + P              A +    +GK L    S  I
+Sbjct  174  IPIGIISAWITWKHLKHRETETVKMPTDYVGLTLMVVGIGALQMMLDRGKELDWFASGEI  233
+
+Query  222  LLCTLISCVFVTWFIV  237
+            +   +++ V +++FIV
+Sbjct  234  ITLGVVALVCLSYFIV  249
+
+
+>VFG036955(gb|WP_002236670) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis Z2491]
+Length=508
+
+ Score = 66.2 bits (160),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 55/196 (28%), Positives = 97/196 (49%), Gaps = 18/196 (9%)
+
+Query  57   LALAWAVSGALVGAWSDRRGQRKPLLIVAVILFSLCSALSGLVGGFLSLLLFRGIMGLAE  116
+             A+A AVS  L G  + R G+ K L   A + F + S L G+     SL++FR + G   
+Sbjct  57   FAVANAVSVPLTGFLAKRIGEVK-LFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIA  115
+
+Query  117  GPILPLSQSLMVEASSPHRRGLNMGLLQGSAAGLLGAVIGPPLLVALAEALGWRHAFIVS  176
+            GP++PLSQSL++ +  P +R L + L   +   ++  V+GP L   ++    W   F ++
+Sbjct  116  GPLIPLSQSLLMASYPPAKRTLALALWAMTV--VVAPVLGPILGGWISGNWHWGWIFFIN  173
+
+Query  177  LLPGLLIAWLIWRHVR-PDPPRAQRP--------------APRAEEAKGKRLALLKSRNI  221
+            +  G++ AW+ W+H++  +    + P              A +    +GK L    S  I
+Sbjct  174  IPIGIISAWITWKHLKCRETETVKMPTDYVGLTLMVVGIGALQMMLDRGKELDWFASGEI  233
+
+Query  222  LLCTLISCVFVTWFIV  237
+            +   +++ V +++FIV
+Sbjct  234  ITLGVVALVCLSYFIV  249
+
+
+>VFG036962(gb|WP_014573759) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis 8013]
+Length=508
+
+ Score = 65.9 bits (159),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 55/196 (28%), Positives = 97/196 (49%), Gaps = 18/196 (9%)
+
+Query  57   LALAWAVSGALVGAWSDRRGQRKPLLIVAVILFSLCSALSGLVGGFLSLLLFRGIMGLAE  116
+             A+A AVS  L G  + R G+ K L   A + F + S L G+     SL++FR + G   
+Sbjct  57   FAVANAVSVPLTGFLAKRIGEVK-LFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIA  115
+
+Query  117  GPILPLSQSLMVEASSPHRRGLNMGLLQGSAAGLLGAVIGPPLLVALAEALGWRHAFIVS  176
+            GP++PLSQSL++ +  P +R L + L   +   ++  V+GP L   ++    W   F ++
+Sbjct  116  GPLIPLSQSLLMASYPPAKRTLALALWAMTV--VVAPVLGPILGGWISGNWHWGWIFFIN  173
+
+Query  177  LLPGLLIAWLIWRHVR-PDPPRAQRP--------------APRAEEAKGKRLALLKSRNI  221
+            +  G++ AW+ W+H++  +    + P              A +    +GK L    S  I
+Sbjct  174  IPIGIISAWITWKHLKCRETETVKMPTDYVGLTLMVVGIGALQMMLDRGKELDWFASGEI  233
+
+Query  222  LLCTLISCVFVTWFIV  237
+            +   +++ V +++FIV
+Sbjct  234  ITLGVVALVCLSYFIV  249
+
+
+>VFG036966(gb|WP_014581242) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis M01-240149]
+Length=508
+
+ Score = 65.9 bits (159),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 55/196 (28%), Positives = 97/196 (49%), Gaps = 18/196 (9%)
+
+Query  57   LALAWAVSGALVGAWSDRRGQRKPLLIVAVILFSLCSALSGLVGGFLSLLLFRGIMGLAE  116
+             A+A AVS  L G  + R G+ K L   A + F + S L G+     SL++FR + G   
+Sbjct  57   FAVANAVSVPLTGFLAKRIGEVK-LFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIA  115
+
+Query  117  GPILPLSQSLMVEASSPHRRGLNMGLLQGSAAGLLGAVIGPPLLVALAEALGWRHAFIVS  176
+            GP++PLSQSL++ +  P +R L + L   +   ++  V+GP L   ++    W   F ++
+Sbjct  116  GPLIPLSQSLLMASYPPAKRTLALALWAMTV--VVAPVLGPILGGWISGNWHWGWIFFIN  173
+
+Query  177  LLPGLLIAWLIWRHVRP-DPPRAQRP--------------APRAEEAKGKRLALLKSRNI  221
+            +  G++ AW+ W+H++  +    + P              A +    +GK L    S  I
+Sbjct  174  IPIGIISAWITWKHLKYRETETVKMPTDYVGLTLMVVGIGALQMMLDRGKELDWFASGEI  233
+
+Query  222  LLCTLISCVFVTWFIV  237
+            +   +++ V +++FIV
+Sbjct  234  ITLGVVALVCLSYFIV  249
+
+
+>VFG036958(gb|WP_002247957) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis FAM18]
+Length=508
+
+ Score = 65.9 bits (159),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 55/196 (28%), Positives = 97/196 (49%), Gaps = 18/196 (9%)
+
+Query  57   LALAWAVSGALVGAWSDRRGQRKPLLIVAVILFSLCSALSGLVGGFLSLLLFRGIMGLAE  116
+             A+A AVS  L G  + R G+ K L   A + F + S L G+     SL++FR + G   
+Sbjct  57   FAVANAVSVPLTGFLAKRIGEVK-LFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIA  115
+
+Query  117  GPILPLSQSLMVEASSPHRRGLNMGLLQGSAAGLLGAVIGPPLLVALAEALGWRHAFIVS  176
+            GP++PLSQSL++ +  P +R L + L   +   ++  V+GP L   ++    W   F ++
+Sbjct  116  GPLIPLSQSLLMASYPPAKRTLALALWAMTV--VVAPVLGPILGGWISGNWHWGWIFFIN  173
+
+Query  177  LLPGLLIAWLIWRHVRP-DPPRAQRP--------------APRAEEAKGKRLALLKSRNI  221
+            +  G++ AW+ W+H++  +    + P              A +    +GK L    S  I
+Sbjct  174  IPIGIISAWITWKHLKYRETETVKMPTDYVGLTLMVVGIGALQMMLDRGKELDWFASGEI  233
+
+Query  222  LLCTLISCVFVTWFIV  237
+            +   +++ V +++FIV
+Sbjct  234  ITLGVVALVCLSYFIV  249
+
+
+>VFG036964(gb|WP_002218710) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis alpha710]
+Length=508
+
+ Score = 65.9 bits (159),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 55/196 (28%), Positives = 97/196 (49%), Gaps = 18/196 (9%)
+
+Query  57   LALAWAVSGALVGAWSDRRGQRKPLLIVAVILFSLCSALSGLVGGFLSLLLFRGIMGLAE  116
+             A+A AVS  L G  + R G+ K L   A + F + S L G+     SL++FR + G   
+Sbjct  57   FAVANAVSVPLTGFLAKRIGEVK-LFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIA  115
+
+Query  117  GPILPLSQSLMVEASSPHRRGLNMGLLQGSAAGLLGAVIGPPLLVALAEALGWRHAFIVS  176
+            GP++PLSQSL++ +  P +R L + L   +   ++  V+GP L   ++    W   F ++
+Sbjct  116  GPLIPLSQSLLMASYPPAKRTLALALWAMTV--VVAPVLGPILGGWISGNWHWGWIFFIN  173
+
+Query  177  LLPGLLIAWLIWRHVR-PDPPRAQRP--------------APRAEEAKGKRLALLKSRNI  221
+            +  G++ AW+ W+H++  +    + P              A +    +GK L    S  I
+Sbjct  174  IPIGIISAWITWKHLKCRETETVKMPTDYVGLTLMVVGIGALQMMLDRGKELDWFASGEI  233
+
+Query  222  LLCTLISCVFVTWFIV  237
+            +   +++ V +++FIV
+Sbjct  234  ITLGVVALVCLSYFIV  249
+
+
+>VFG036956(gb|WP_002224867) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis MC58]
+Length=508
+
+ Score = 65.1 bits (157),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 54/196 (28%), Positives = 97/196 (49%), Gaps = 18/196 (9%)
+
+Query  57   LALAWAVSGALVGAWSDRRGQRKPLLIVAVILFSLCSALSGLVGGFLSLLLFRGIMGLAE  116
+             ++A AVS  L G  + R G+ K L   A + F + S L G+     SL++FR + G   
+Sbjct  57   FSVANAVSVPLTGFLAKRIGEVK-LFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIA  115
+
+Query  117  GPILPLSQSLMVEASSPHRRGLNMGLLQGSAAGLLGAVIGPPLLVALAEALGWRHAFIVS  176
+            GP++PLSQSL++ +  P +R L + L   +   ++  V+GP L   ++    W   F ++
+Sbjct  116  GPLIPLSQSLLMASYPPAKRTLALALWAMTV--VVAPVLGPILGGWISGNWHWGWIFFIN  173
+
+Query  177  LLPGLLIAWLIWRHVRP-DPPRAQRP--------------APRAEEAKGKRLALLKSRNI  221
+            +  G++ AW+ W+H++  +    + P              A +    +GK L    S  I
+Sbjct  174  IPIGIISAWITWKHLKYRETETVKMPTDYVGLTLMVVGIGALQMMLDRGKELDWFASGEI  233
+
+Query  222  LLCTLISCVFVTWFIV  237
+            +   +++ V +++FIV
+Sbjct  234  ITLGVVALVCLSYFIV  249
+
+
+>VFG036965(gb|WP_002226030) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis G2136]
+Length=508
+
+ Score = 63.5 bits (153),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 54/196 (28%), Positives = 95/196 (48%), Gaps = 18/196 (9%)
+
+Query  57   LALAWAVSGALVGAWSDRRGQRKPLLIVAVILFSLCSALSGLVGGFLSLLLFRGIMGLAE  116
+             A+A AVS  L G  + R G+ K L   A + F + S L G+     +L+ FR + G   
+Sbjct  57   FAVANAVSVPLTGFLAKRIGEVK-LFTAAAVGFVITSWLCGIAPNLQALVFFRILQGFIA  115
+
+Query  117  GPILPLSQSLMVEASSPHRRGLNMGLLQGSAAGLLGAVIGPPLLVALAEALGWRHAFIVS  176
+            GP++PLSQSL++ +  P +R L + L   +   ++  V+GP L   ++    W   F ++
+Sbjct  116  GPLIPLSQSLLMASYPPAKRTLALALWAMTV--VVAPVLGPILGGWISGNWHWGWIFFIN  173
+
+Query  177  LLPGLLIAWLIWRHVRP-DPPRAQRP--------------APRAEEAKGKRLALLKSRNI  221
+            +  G++ AW+ W+H++  +    + P              A +    +GK L    S  I
+Sbjct  174  IPIGIISAWITWKHLKYRETETVKMPTDYVGLTLMVVGIGALQMMLDRGKELDWFASGEI  233
+
+Query  222  LLCTLISCVFVTWFIV  237
+            +   + + V +++FIV
+Sbjct  234  ITLGVTALVCLSYFIV  249
+
+
+>VFG036960(gb|WP_003703449) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria gonorrhoeae NCCP11945]
+Length=507
+
+ Score = 63.2 bits (152),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 54/196 (28%), Positives = 94/196 (48%), Gaps = 18/196 (9%)
+
+Query  57   LALAWAVSGALVGAWSDRRGQRKPLLIVAVILFSLCSALSGLVGGFLSLLLFRGIMGLAE  116
+             ++A AVS  L G  + R G+ K L   A   F + S L G+     SL++FR + G   
+Sbjct  57   FSVANAVSVPLTGFLAKRIGEVK-LFTAAAAGFVIASWLCGIAPNLQSLVVFRILQGFIA  115
+
+Query  117  GPILPLSQSLMVEASSPHRRGLNMGLLQGSAAGLLGAVIGPPLLVALAEALGWRHAFIVS  176
+            GP++PLSQSL++ +  P +R L + L   +   ++  V+GP L   ++    W   F ++
+Sbjct  116  GPLIPLSQSLLMASYPPAKRMLALALWAMTV--VVAPVLGPILGGWISGNWHWGWIFFIN  173
+
+Query  177  LLPGLLIAWLIWRHVRPDPPRAQRP---------------APRAEEAKGKRLALLKSRNI  221
+            +  G++ AW+ W+H++       R                A +    +GK L    S  I
+Sbjct  174  IPIGIISAWITWKHLKHRETATVRTPTDYVGLTLMMVGIGALQMMLDRGKELDWFASGEI  233
+
+Query  222  LLCTLISCVFVTWFIV  237
+            +   +++ V +++FIV
+Sbjct  234  ITLGVVALVCLSYFIV  249
+
+
+>VFG036959(gb|WP_012222039) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis 053442]
+Length=508
+
+ Score = 62.4 bits (150),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 53/196 (27%), Positives = 94/196 (48%), Gaps = 18/196 (9%)
+
+Query  57   LALAWAVSGALVGAWSDRRGQRKPLLIVAVILFSLCSALSGLVGGFLSLLLFRGIMGLAE  116
+             A+A AVS  L G  + R G+ K L   A + F + S L G+     +L+ FR + G   
+Sbjct  57   FAVANAVSVPLTGFLAKRIGEVK-LFTAAAVGFVITSWLCGIAPNLQALVFFRILQGFIA  115
+
+Query  117  GPILPLSQSLMVEASSPHRRGLNMGLLQGSAAGLLGAVIGPPLLVALAEALGWRHAFIVS  176
+            GP++PLSQSL++ +  P +R L + L   +   ++  V+GP     ++    W   F ++
+Sbjct  116  GPLIPLSQSLLMASYPPAKRTLALALWAMTV--VVAPVLGPIFGGWISGNWHWGWIFFIN  173
+
+Query  177  LLPGLLIAWLIWRHVRP-DPPRAQRP--------------APRAEEAKGKRLALLKSRNI  221
+            +  G++ AW+ W+H++  +    + P              A +    +GK L    S  I
+Sbjct  174  IPIGIISAWITWKHLKYRETETVKMPTDYVGLTLMVVGIGALQMMLDRGKELDWFASGEI  233
+
+Query  222  LLCTLISCVFVTWFIV  237
+            +   + + V +++FIV
+Sbjct  234  ITLGVTALVCLSYFIV  249
+
+
+>VFG036957(gb|WP_010951322) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria gonorrhoeae FA 1090]
+Length=507
+
+ Score = 62.4 bits (150),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 54/196 (28%), Positives = 93/196 (47%), Gaps = 18/196 (9%)
+
+Query  57   LALAWAVSGALVGAWSDRRGQRKPLLIVAVILFSLCSALSGLVGGFLSLLLFRGIMGLAE  116
+             ++A AVS  L G  + R G+ K L   A   F + S L G+     SL++FR + G   
+Sbjct  57   FSVANAVSVPLTGFLAKRIGEVK-LFTAAAAGFVIASWLCGIAPNLQSLVVFRILQGFIA  115
+
+Query  117  GPILPLSQSLMVEASSPHRRGLNMGLLQGSAAGLLGAVIGPPLLVALAEALGWRHAFIVS  176
+            GP++PLSQSL++ +  P +R L + L   +   ++  V+GP L   ++    W   F ++
+Sbjct  116  GPLIPLSQSLLMASYPPAKRMLALALWAMTV--VVAPVLGPILGGWISGNWHWGWIFFIN  173
+
+Query  177  LLPGLLIAWLIWRHVRPDPPRAQRP---------------APRAEEAKGKRLALLKSRNI  221
+            +  G++ AW+ W+H++       R                A +    +GK L    S  I
+Sbjct  174  IPIGIISAWITWKHLKHRETATVRTPTDYVGLTLMMVGIGALQMMLDRGKELDWFASGEI  233
+
+Query  222  LLCTLISCVFVTWFIV  237
+            +   + + V +++FIV
+Sbjct  234  ITLGITALVCLSYFIV  249
+
+
+>VFG002097(gb|WP_010946287) (phtA) major facilitator family transporter, 
+phagosomal transporter [Pht (VF0337) - Nutritional/Metabolic 
+factor (VFC0272)] [Legionella pneumophila subsp. 
+pneumophila str. Philadelphia 1]
+Length=427
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 89/367 (24%), Positives = 158/367 (43%), Gaps = 47/367 (13%)
+
+Query  24   FVFFD---RLALSFLFPFMEQELQLSNSHLGMLSSVLALAWAVSGALVGAWSDRRGQRKP  80
+            F F D   R+A   +  +++ +  ++ +  G+L++   + + +    VG   DR   R  
+Sbjct  28   FYFSDYLARVAPGVMHRYLQMDFGINEAGFGILTASFYVPYILMQIPVGLTVDRLSIRWL  87
+
+Query  81   LLIVAVIL-FSLCSALSGLVGGFLSLLLFRGIMGLAEGPILPLSQSLMVEASSPHRRGLN  139
+            L I++++  F  C  + GL  G L+  + R ++G +       S  L      P   GL 
+Sbjct  88   LTIMSLVTAFGCC--VFGLADGLLTASIGRMLIGFSAAFAFICSLRLATSWFPPTMLGLL  145
+
+Query  140  MGLLQGSAAGLLGAVIGPPLLVALAEALGWRHAFIVSLLPGLLIAWLIWRHVRPDPPRAQ  199
+             GL Q  A G+LGA  G   +  L   +GWRH+ ++     + ++ L+++ V+ D P   
+Sbjct  146  SGLTQ--ALGMLGAAAGEAPVSFLVSNVGWRHSMLIIAFLFIALSGLLYQFVQ-DKPGEH  202
+
+Query  200  RPAPRAEEAKGKRLALLKSRNILLCTLISCVFVTWFIVLIS---FTPTFLV-NARGFSPA  255
+            R   R+      R+++L S  I+L         TW   + +   F PT ++  A G +  
+Sbjct  203  RNEIRSV----NRISILDSLKIILSNK-----QTWLNAMYAGFLFGPTAVIGEAIGPAYL  253
+
+Query  256  TMGRLMS------CLGVAWVVWGFAVPA---ISDRIGRRPTLVAFSLLAACCPLAL----  302
+              GR +         G+ ++ WG + P    ISD++GRR  L+   +++A C + L    
+Sbjct  254  QFGRGLGAHAAAFATGLIFIGWGISGPLSGWISDKMGRRKPLM---IISAVCGVILSSLF  310
+
+Query  303  LYAPNATSLGLLLL-----LTYTGLGCFTLFMATIPAETVSRGVIATALGLIMGLGELVG  357
+            ++ P  +     +L     LT TG+         +  E   R V+ T++         VG
+Sbjct  311  VFIPEMSQTTAYILFFVFGLTNTGVAI----SYAVSTEIHDRSVVGTSIAFTNMTSIFVG  366
+
+Query  358  GFLAPTV  364
+                P V
+Sbjct  367  ALFQPLV  373
+
+
+>VFG036972(gb|WP_042508130) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria lactamica 020-06]
+Length=508
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 52/196 (27%), Positives = 96/196 (49%), Gaps = 18/196 (9%)
+
+Query  57   LALAWAVSGALVGAWSDRRGQRKPLLIVAVILFSLCSALSGLVGGFLSLLLFRGIMGLAE  116
+             ++A AVS  L G  + R G+ K L   A + F + S L G+     +L++FR + G   
+Sbjct  57   FSVANAVSVPLTGFLAKRIGEVK-LFTAAAVGFVITSWLCGIAPNLQALVIFRILQGFIA  115
+
+Query  117  GPILPLSQSLMVEASSPHRRGLNMGLLQGSAAGLLGAVIGPPLLVALAEALGWRHAFIVS  176
+            GP++PLSQSL++ +  P +R L + L   +   ++  V+GP L   ++    W   F ++
+Sbjct  116  GPLIPLSQSLLMASYPPAKRTLALALWAMTV--VVAPVLGPILGGWISGNWHWGWIFFIN  173
+
+Query  177  LLPGLLIAWLIWRHVRP-DPPRAQRP--------------APRAEEAKGKRLALLKSRNI  221
+            +  G++ A + W+H++  +    + P              A +    +GK L    S  I
+Sbjct  174  IPIGIISARITWKHLKHRETETVKMPTDYVGLTLMVVGVGALQMMLDRGKELDWFASGEI  233
+
+Query  222  LLCTLISCVFVTWFIV  237
+            +   +++ V +++FIV
+Sbjct  234  ITLGVVALVCLSYFIV  249
+
+
+>VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=447
+
+ Score = 50.8 bits (120),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 38/118 (32%), Positives = 61/118 (52%), Gaps = 2/118 (2%)
+
+Query  20   LTFGFVFFDRLALSFLFPFMEQELQLSNSHLGMLSSVLALAWAVSGALVGAWSDRRGQRK  79
+            +TF F  FD L +SF  P ++Q+ QL  + +G++         +     GA +DR G RK
+Sbjct  33   ITF-FEAFDLLLISFTLPLLKQQWQLDPTQVGLIVGSGTFGMLLGALCAGALADRVG-RK  90
+
+Query  80   PLLIVAVILFSLCSALSGLVGGFLSLLLFRGIMGLAEGPILPLSQSLMVEASSPHRRG  137
+            P+L+ A++L  L SAL      +  LL+ R + GL  G  +P++   + E  +   RG
+Sbjct  91   PVLLAAMLLTGLFSALIACASDWQGLLVGRLLQGLGIGAEVPIAALYLSEIITSKVRG  148
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.141    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3291530892
+
+
+Query= g486.t1
+
+Length=415
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG047636(gb|WP_003027757) (ansP) major facilitator transporter [...  58.9    2e-09
+VFG047641(gb|WP_014550222) (ansP) major facilitator transporter [...  58.5    3e-09
+VFG047634(gb|WP_082264100) (ansP) major facilitator transporter [...  58.5    3e-09
+VFG047631(gb|WP_010031864) (ansP) major facilitator transporter [...  58.5    3e-09
+VFG047644(gb|WP_041941976) (ansP) major facilitator transporter [...  58.2    3e-09
+VFG047638(gb|WP_014548928) (ansP) major facilitator transporter [...  57.8    5e-09
+VFG047646(gb|WP_013922399) (ansP) major facilitator transporter [...  53.9    7e-08
+VFG047645(gb|WP_014714670) (ansP) major facilitator transporter [...  53.1    1e-07
+VFG047630(gb|WP_041268173) (ansP) major facilitator transporter [...  53.1    1e-07
+
+
+>VFG047636(gb|WP_003027757) (ansP) major facilitator transporter 
+[AnsP (VF0554) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella tularensis subsp. tularensis SCHU S4]
+Length=407
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 66/276 (24%), Positives = 118/276 (43%), Gaps = 23/276 (8%)
+
+Query  1    MSETKKSGIDYWKQIVVVMSLGWVAIWIYRTVLTPIYPEIQASLDNVSNAEIGAIASFYF  60
+            M +  K+G   W     + +  +   +I R     +Y +   +  N+S  +I  ++S ++
+Sbjct  1    MQKVTKAGFIIW----FICAFFYALEFIIRASGNSLYNDFSIAPYNLSPEQISVLSSAFY  56
+
+Query  61   FAYCSMQIPCGILVDKFGQKIMLMAGFTLFIIGTLCIAKANGLTMIYIGSLMAGGGCASF  120
+            +AY + Q+P GIL+DKFG K +++    LF +G     +A     + +  ++AG G    
+Sbjct  57   WAYVASQLPAGILIDKFGVKKIMLVSTLLFSVGVFIATRATSQEYLILYRVLAGVGGGFA  116
+
+Query  121  FSSAYSLSSANVPQARRAL---ANAIINSGSAIGMGIGLIGSSILVKNMSMAWQNVLYIV  177
+            F SA    +  +P+    L   A  ++  G+    G+ L+   IL  + S+     + +V
+Sbjct  117  FLSALKSIAIWLPKRTFPLFTGATQMLMYGAGTLTGLPLV---ILANHFSIQVIMSVILV  173
+
+Query  178  AAILVIMLCVFTLIIRGKAKSDSAQAEKQTQTVTED-----EKRAPLFSGLLCSVYFLYF  232
+             +IL+ +  VF +                T T  ED     + +  L +G  C       
+Sbjct  174  VSILLFLSVVFFIPTVEPHNQKDTDELADTHTKIEDIPIVFKIKQILLNGFFC-------  226
+
+Query  233  CTCYGYYLIVTWLPSY-LQTERGFDGGAIGLASALV  267
+             T YG   I   L SY   +  G+     GLAS+++
+Sbjct  227  FTIYGTTAIFADLWSYRFLSLDGYSVHYAGLASSMI  262
+
+
+>VFG047641(gb|WP_014550222) (ansP) major facilitator transporter 
+[AnsP (VF0554) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella cf. novicida Fx1]
+Length=407
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 66/278 (24%), Positives = 119/278 (43%), Gaps = 23/278 (8%)
+
+Query  1    MSETKKSGIDYWKQIVVVMSLGWVAIWIYRTVLTPIYPEIQASLDNVSNAEIGAIASFYF  60
+            M +  K+G   W     + +  +   +I R     +Y +   +  N+S  +I  ++S ++
+Sbjct  1    MQKVTKAGFIIW----FICAFFYALEFIIRASGNSLYNDFSIAPYNLSPEQISVLSSAFY  56
+
+Query  61   FAYCSMQIPCGILVDKFGQKIMLMAGFTLFIIGTLCIAKANGLTMIYIGSLMAGGGCASF  120
+            +AY + Q+P GIL+DKFG K +++    LF +G     +A     + +  ++AG G    
+Sbjct  57   WAYVASQLPAGILIDKFGVKKIMLVSTLLFSVGVFIATRATSQEYLILYRVLAGVGGGFA  116
+
+Query  121  FSSAYSLSSANVPQARRAL---ANAIINSGSAIGMGIGLIGSSILVKNMSMAWQNVLYIV  177
+            F SA    +  +P+    L   A  ++  G+    G+ L+   IL  + S+     + +V
+Sbjct  117  FLSALKSIAIWLPKRTFPLFTGATQMLMYGAGTLTGLPLV---ILANHFSIQVIMSVILV  173
+
+Query  178  AAILVIMLCVFTLIIRGKAKSDSAQAEKQTQTVTED-----EKRAPLFSGLLCSVYFLYF  232
+             +IL+ +  VF +                T T  ED     + +  L +G  C       
+Sbjct  174  VSILLFLSVVFFIPTVEPHNQKDTDELADTHTKIEDIPIVFKIKQILLNGFFC-------  226
+
+Query  233  CTCYGYYLIVTWLPSY-LQTERGFDGGAIGLASALVAV  269
+             T YG   I   L SY   +  G+     GLAS+++ +
+Sbjct  227  FTIYGTTAIFADLWSYRFLSLDGYSVHYAGLASSMIFI  264
+
+
+>VFG047634(gb|WP_082264100) (ansP) major facilitator transporter 
+[AnsP (VF0554) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella tularensis subsp. mediasiatica FSC147]
+Length=422
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 66/278 (24%), Positives = 119/278 (43%), Gaps = 23/278 (8%)
+
+Query  1    MSETKKSGIDYWKQIVVVMSLGWVAIWIYRTVLTPIYPEIQASLDNVSNAEIGAIASFYF  60
+            M +  K+G   W     + +  +   +I R     +Y +   +  N+S  +I  ++S ++
+Sbjct  16   MQKVTKAGFIIW----FICAFFYALEFIIRASGNSLYNDFSIAPYNLSPEQISVLSSAFY  71
+
+Query  61   FAYCSMQIPCGILVDKFGQKIMLMAGFTLFIIGTLCIAKANGLTMIYIGSLMAGGGCASF  120
+            +AY + Q+P GIL+DKFG K +++    LF +G     +A     + +  ++AG G    
+Sbjct  72   WAYVASQLPAGILIDKFGVKKIMLVSTLLFSVGVFIATRATSQEYLILYRVLAGVGGGFA  131
+
+Query  121  FSSAYSLSSANVPQARRAL---ANAIINSGSAIGMGIGLIGSSILVKNMSMAWQNVLYIV  177
+            F SA    +  +P+    L   A  ++  G+    G+ L+   IL  + S+     + +V
+Sbjct  132  FLSALKSIAIWLPKRTFPLFTGATQMLMYGAGTLTGLPLV---ILANHFSIQVIMSVILV  188
+
+Query  178  AAILVIMLCVFTLIIRGKAKSDSAQAEKQTQTVTED-----EKRAPLFSGLLCSVYFLYF  232
+             +IL+ +  VF +                T T  ED     + +  L +G  C       
+Sbjct  189  VSILLFLSVVFFIPTVEPHNQKDTDELADTHTKIEDIPIVFKIKQILLNGFFC-------  241
+
+Query  233  CTCYGYYLIVTWLPSY-LQTERGFDGGAIGLASALVAV  269
+             T YG   I   L SY   +  G+     GLAS+++ +
+Sbjct  242  FTIYGTTAIFADLWSYRFLSLDGYSVHYAGLASSMIFI  279
+
+
+>VFG047631(gb|WP_010031864) (ansP) major facilitator transporter 
+[AnsP (VF0554) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella tularensis subsp. holarctica FTNF002-00]
+Length=403
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 66/278 (24%), Positives = 119/278 (43%), Gaps = 23/278 (8%)
+
+Query  1    MSETKKSGIDYWKQIVVVMSLGWVAIWIYRTVLTPIYPEIQASLDNVSNAEIGAIASFYF  60
+            M +  K+G   W     + +  +   +I R     +Y +   +  N+S  +I  ++S ++
+Sbjct  1    MQKVTKAGFIIW----FICAFFYALEFIIRASGNSLYNDFSIAPYNLSPEQISVLSSAFY  56
+
+Query  61   FAYCSMQIPCGILVDKFGQKIMLMAGFTLFIIGTLCIAKANGLTMIYIGSLMAGGGCASF  120
+            +AY + Q+P GIL+DKFG K +++    LF +G     +A     + +  ++AG G    
+Sbjct  57   WAYVASQLPAGILIDKFGVKKIMLVSTLLFSVGVFIATRATSQEYLILYRVLAGVGGGFA  116
+
+Query  121  FSSAYSLSSANVPQARRAL---ANAIINSGSAIGMGIGLIGSSILVKNMSMAWQNVLYIV  177
+            F SA    +  +P+    L   A  ++  G+    G+ L+   IL  + S+     + +V
+Sbjct  117  FLSALKSIAIWLPKRTFPLFTGATQMLMYGAGTLTGLPLV---ILANHFSIQVIMSVILV  173
+
+Query  178  AAILVIMLCVFTLIIRGKAKSDSAQAEKQTQTVTED-----EKRAPLFSGLLCSVYFLYF  232
+             +IL+ +  VF +                T T  ED     + +  L +G  C       
+Sbjct  174  VSILLFLSVVFFIPTVEPHNQKDTDELADTHTKIEDIPIVFKIKQILLNGFFC-------  226
+
+Query  233  CTCYGYYLIVTWLPSY-LQTERGFDGGAIGLASALVAV  269
+             T YG   I   L SY   +  G+     GLAS+++ +
+Sbjct  227  FTIYGTTAIFADLWSYRFLSLDGYSVHYAGLASSMIFI  264
+
+
+>VFG047644(gb|WP_041941976) (ansP) major facilitator transporter 
+[AnsP (VF0554) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella tularensis subsp. tularensis TIGB03]
+Length=407
+
+ Score = 58.2 bits (139),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 63/278 (23%), Positives = 123/278 (44%), Gaps = 27/278 (10%)
+
+Query  1    MSETKKSGIDYWKQIVVVMSLGWVAIWIYRTVLTPIYPEIQASLDNVSNAEIGAIASFYF  60
+            M +  K+G   W     + +  +   +I R     +Y +   +  N+S  +I  ++S ++
+Sbjct  1    MQKVTKAGFIIW----FICAFFYALEFIIRASGNSLYNDFSIAPYNLSPEQISVLSSAFY  56
+
+Query  61   FAYCSMQIPCGILVDKFGQKIMLMAGFTLFIIGTLCIAKANGLTMIYIGSLMAG-GGCAS  119
+            +AY + Q+P GIL+DKFG K +++    LF +G     +A     + +  ++AG GG  +
+Sbjct  57   WAYVASQLPAGILIDKFGVKKIMLVSTLLFSVGVFIATRATSQEYLILYRVLAGVGGDFA  116
+
+Query  120  FFSSAYS----LSSANVPQARRALANAIINSGSAIGMGIGLIGSSILVKNMSMAWQNVLY  175
+            F S+  S    L     P    A    +  +G+  G+ + ++ +   ++ +     +V+ 
+Sbjct  117  FLSALKSIAIWLPKRTFPLFTGATQMLMYGAGTLTGLPLVILANHFSIQVI----MSVIL  172
+
+Query  176  IVAAILVIMLCVFTLIIRGKAKSDSAQAEKQTQTVTED-----EKRAPLFSGLLCSVYFL  230
+            +V+ +L + +  F   +    + D+ +    T T  ED     + +  L +G  C     
+Sbjct  173  VVSILLFLSVVFFIPTVEPHNQKDTDELA-DTHTKIEDIPIVFKIKQILLNGFFC-----  226
+
+Query  231  YFCTCYGYYLIVTWLPSY-LQTERGFDGGAIGLASALV  267
+               T YG   I   L SY   +  G+     GLAS+++
+Sbjct  227  --FTIYGTTAIFADLWSYRFLSLDGYSVHYAGLASSMI  262
+
+
+>VFG047638(gb|WP_014548928) (ansP) major facilitator transporter 
+[AnsP (VF0554) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella cf. tularensis subsp. novicida 3523]
+Length=407
+
+ Score = 57.8 bits (138),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 67/276 (24%), Positives = 118/276 (43%), Gaps = 23/276 (8%)
+
+Query  1    MSETKKSGIDYWKQIVVVMSLGWVAIWIYRTVLTPIYPEIQASLDNVSNAEIGAIASFYF  60
+            M +  K+G   W     + +  +   +I R     +Y +   +  N+S  +I  ++S ++
+Sbjct  1    MQKVTKAGFIIW----FICAFFYALEFIIRASGNSLYNDFSIAPYNLSPEQISVLSSAFY  56
+
+Query  61   FAYCSMQIPCGILVDKFGQKIMLMAGFTLFIIGTLCIAKANGLTMIYIGSLMAGGGCASF  120
+            +AY + Q+P GIL+DKFG K +++    LF IG     +A     + +  ++AG G    
+Sbjct  57   WAYVASQLPAGILIDKFGVKKIMLVSTLLFSIGVFIATRAISQEYLILYRVLAGVGGGFA  116
+
+Query  121  FSSAYSLSSANVPQARRAL---ANAIINSGSAIGMGIGLIGSSILVKNMSMAWQNVLYIV  177
+            F SA    +  +P+    L   A  ++  G+    G+ L+   IL  + S+     + +V
+Sbjct  117  FLSALKSIAIWLPKRTFPLFTGATQMLMYGAGTLTGLPLV---ILANHFSIQVIMSVILV  173
+
+Query  178  AAILVIMLCVFTLIIRGKAKSDSAQAEKQTQTVTED-----EKRAPLFSGLLCSVYFLYF  232
+             +IL+ +  VF +                T T  ED     + +  L +G  C       
+Sbjct  174  VSILLFLSVVFFIPTVEPHNQKDTDELADTHTKIEDIPIVFKIKQILLNGFFC-------  226
+
+Query  233  CTCYGYYLIVTWLPSY-LQTERGFDGGAIGLASALV  267
+             T YG   I   L SY   +  G+     GLAS+++
+Sbjct  227  FTIYGTTAIFADLWSYRFLSLDGYSVHYAGLASSMI  262
+
+
+>VFG047646(gb|WP_013922399) (ansP) major facilitator transporter 
+[AnsP (VF0554) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella sp. TX077308]
+Length=407
+
+ Score = 53.9 bits (128),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 60/244 (25%), Positives = 110/244 (45%), Gaps = 21/244 (9%)
+
+Query  36   IYPEIQASLDNVSNAEIGAIASFYFFAYCSMQIPCGILVDKFGQKIMLMAGFTLFIIGTL  95
+            +Y +   +  N++  +I  ++S +++AY + Q+P GIL+DKFG K ++     +F IG  
+Sbjct  32   LYNDFSTAPYNLTPEQISVLSSAFYWAYVASQLPAGILLDKFGVKRIMAVSTFIFSIGVF  91
+
+Query  96   CIAKANGLTMIYIGSLMAGGGCASFFSSAYSLSSANVPQARRAL---ANAIINSGSAIGM  152
+               +A     + +  ++AG G    F SA    +  +P+    L   A  ++  G+    
+Sbjct  92   IATRATSPEYLILYRVLAGIGGGFAFLSALKAIAIWLPKRTFPLFTGATQMLMYGAGTLT  151
+
+Query  153  GIGLIGSSILVKNMSM-AWQNVLYIVAAILVIMLCVFTLIIRGKAKSDSAQAEKQTQTVT  211
+            G+ L+   IL  N S+    + + IV+ +L + +  F        ++D+ +    T T  
+Sbjct  152  GLPLV---ILANNFSIQVIMSGILIVSVVLFLSVLFFIPFKEPHNQTDTDEL-ADTHTKI  207
+
+Query  212  ED-----EKRAPLFSGLLCSVYFLYFCTCYGYYLIVTWLPSY-LQTERGFDGGAIGLASA  265
+            ED     + +  L +G  C        T YG   I   L SY   +  G+     GLAS+
+Sbjct  208  EDIPIVFKIKQILLNGFFC-------FTIYGTTAIFADLWSYRFLSLDGYPEHYAGLASS  260
+
+Query  266  LVAV  269
+            ++ +
+Sbjct  261  MIFI  264
+
+
+>VFG047645(gb|WP_014714670) (ansP) major facilitator transporter 
+[AnsP (VF0554) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella noatunensis subsp. orientalis str. Toba 04]
+Length=407
+
+ Score = 53.1 bits (126),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 65/280 (23%), Positives = 120/280 (43%), Gaps = 27/280 (10%)
+
+Query  1    MSETKKSGIDYWKQIVVVMSLGWVAIWIYRTVLTPIYPEIQASLDNVSNAEIGAIASFYF  60
+            M +  ++G   W     + +  +   +I R     +Y +   +  N++  +I  ++S ++
+Sbjct  1    MQKITRAGFTIW----FICAFFYALEFIIRASGNSLYNDFSTTPYNLTAEQISVLSSAFY  56
+
+Query  61   FAYCSMQIPCGILVDKFGQKIMLMAGFTLFIIGTLCIAKANGLTMIYIGSLMAGGGCASF  120
+            +AY + Q+P GIL+DKFG K ++     +F IG L    A     + +  ++AG G    
+Sbjct  57   WAYVASQLPAGILLDKFGVKKIMAISTLIFSIGVLIATMATSPEYLILYRVLAGIGGGFA  116
+
+Query  121  FSSAYSLSSANVPQARRAL---ANAIINSGSAIGMGIGLIGSSILVKNMSMAWQNVLYIV  177
+            F SA    +  +P+    L   A  ++  G+    G+ L+   IL  + S+  Q ++  +
+Sbjct  117  FLSALKAIAIWLPKRTFPLFTGATQMLMYGAGALTGLPLV---ILTNHFSI--QVIMSGI  171
+
+Query  178  AAILVIMLCVFTLIIRGKAKSDSAQAEK--QTQTVTED-----EKRAPLFSGLLCSVYFL  230
+              + +IM       I  K   +    ++   T T  ED     + +  L +G  C     
+Sbjct  172  LVVSIIMFLSVLFFIPFKEPHNQTDTDELADTHTKIEDIPIVFKIKQILLNGFFC-----  226
+
+Query  231  YFCTCYGYYLIVTWLPSY-LQTERGFDGGAIGLASALVAV  269
+               T YG   I   L SY   +  G+     GLAS+++ +
+Sbjct  227  --FTIYGTTAIFADLWSYRFLSLDGYPEHYAGLASSMIFI  264
+
+
+>VFG047630(gb|WP_041268173) (ansP) major facilitator transporter 
+[AnsP (VF0554) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella philomiragia subsp. philomiragia ATCC 25017]
+Length=407
+
+ Score = 53.1 bits (126),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 86/383 (22%), Positives = 158/383 (41%), Gaps = 38/383 (10%)
+
+Query  1    MSETKKSGIDYWKQIVVVMSLGWVAIWIYRTVLTPIYPEIQASLDNVSNAEIGAIASFYF  60
+            M +  ++G   W     + +  +   +I R     +Y +      N++  +I  ++S ++
+Sbjct  1    MQKITRAGFTIW----FICAFFYALEFIIRASGNSLYNDFSTDPYNLTAEQISVLSSAFY  56
+
+Query  61   FAYCSMQIPCGILVDKFGQKIMLMAGFTLFIIGTLCIAKANGLTMIYIGSLMAGGGCASF  120
+            +AY + Q+P GIL+DKFG K ++     +F IG L    A     + +  ++AG G    
+Sbjct  57   WAYVASQLPAGILLDKFGVKKIMAISTLIFSIGVLIATMATSPEYLILYRVLAGIGGGFA  116
+
+Query  121  FSSAYSLSSANVPQARRAL---ANAIINSGSAIGMGIGLIGSSILVKNMSMAWQNVLYIV  177
+            F SA    +  +P+    L   A  ++  G+    G+ L+   IL  + S+  Q ++  +
+Sbjct  117  FLSALKAIAIWLPKRTFPLFTGATQMLMYGAGTLTGLPLV---ILANHFSI--QVIMSGI  171
+
+Query  178  AAILVIMLCVFTLIIRGKAKSDSAQAEK--QTQTVTED-----EKRAPLFSGLLCSVYFL  230
+              + +IM       I  K   +    ++   T T  ED     + +  L +G  C     
+Sbjct  172  LVVSIIMFLSVLFFIPFKEPHNQTDTDELADTHTKIEDIPIVFKIKQILLNGFFC-----  226
+
+Query  231  YFCTCYGYYLIVTWLPSY-LQTERGFDGGAIGLASALVAVVGVPGALFFSHLSDKFRNSK  289
+               T YG   I   L SY   +  G+     GLAS+++ +     +L +  ++      K
+Sbjct  227  --FTIYGTTAIFADLWSYRFLSLDGYPEHYAGLASSMIFIGIAIFSLLWGVIATLLNKQK  284
+
+Query  290  VKV----ILGLEIVAAAMLAFTVLSPNTTMLMVSLTLYGLLGKMAVDPILISFVSEQASA  345
+              +    I GL IV    +A   L  N  ++ +   L+G  G  A   +  + + +  S 
+Sbjct  285  ALLTWASIFGLFIV----IAVVYLHVNPIIMCILCVLWG--GMQAAHVLNFTILRQHISP  338
+
+Query  346  KSLGRAFSLFNFF-GMSSAVVAP  367
+              +    +  N F  +S AV+ P
+Sbjct  339  MYIATGIAAVNLFIPLSGAVLQP  361
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.137    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3249865944
+
+
+Query= g1436.t1
+
+Length=428
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002097(gb|WP_010946287) (phtA) major facilitator family transp...  63.5    7e-11
+
+
+>VFG002097(gb|WP_010946287) (phtA) major facilitator family transporter, 
+phagosomal transporter [Pht (VF0337) - Nutritional/Metabolic 
+factor (VFC0272)] [Legionella pneumophila subsp. 
+pneumophila str. Philadelphia 1]
+Length=427
+
+ Score = 63.5 bits (153),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 59/217 (27%), Positives = 96/217 (44%), Gaps = 6/217 (3%)
+
+Query  2    KRKT---MGWLIVFLLFIVYMLNYMDRSALSITAPLIEKELGFNAAEMGMIFSAFFIGYA  58
+            KRK      WL+  L    Y  +Y+ R A  +    ++ + G N A  G++ ++F++ Y 
+Sbjct  10   KRKNYLGFAWLVWGLAAAFYFSDYLARVAPGVMHRYLQMDFGINEAGFGILTASFYVPYI  69
+
+Query  59   LFNFIGGWASDKVGPKTVFLIAALLWSVFCGLTGLVTGLWTMLIVRVLFGMAEGPVSAAG  118
+            L     G   D++  + +  I +L+ +  C + GL  GL T  I R+L G +        
+Sbjct  70   LMQIPVGLTVDRLSIRWLLTIMSLVTAFGCCVFGLADGLLTASIGRMLIGFSAAFAFICS  129
+
+Query  119  NKIINNWISRKESATAIGIFSAGSPLGGAVSGPIVGLLALSLGWRPAFGII-FLFGLVWV  177
+             ++  +W          G+  A   LG A     V  L  ++GWR +  II FLF  +  
+Sbjct  130  LRLATSWFPPTMLGLLSGLTQALGMLGAAAGEAPVSFLVSNVGWRHSMLIIAFLFIALSG  189
+
+Query  178  LLWYFIVSDKPTMSK-RLAPEERIDFENHEDVILSDD  213
+            LL+ F V DKP   +  +    RI   +   +ILS+ 
+Sbjct  190  LLYQF-VQDKPGEHRNEIRSVNRISILDSLKIILSNK  225
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.142    0.445    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3385277025
+
+
+Query= g2752.t1
+
+Length=452
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002097(gb|WP_010946287) (phtA) major facilitator family transp...  67.0    7e-12
+VFG047646(gb|WP_013922399) (ansP) major facilitator transporter [...  50.1    1e-06
+VFG047630(gb|WP_041268173) (ansP) major facilitator transporter [...  49.3    2e-06
+
+
+>VFG002097(gb|WP_010946287) (phtA) major facilitator family transporter, 
+phagosomal transporter [Pht (VF0337) - Nutritional/Metabolic 
+factor (VFC0272)] [Legionella pneumophila subsp. 
+pneumophila str. Philadelphia 1]
+Length=427
+
+ Score = 67.0 bits (162),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 96/432 (22%), Positives = 165/432 (38%), Gaps = 54/432 (13%)
+
+Query  32   NYGDRATLSIAGSEMAKDIGLDPVGMGYVFSAFSWAYVIGQIPGGWLLDRFGSKRVYFWS  91
+            +Y  R    +    +  D G++  G G + ++F   Y++ QIP G  +DR   +    W 
+Sbjct  32   DYLARVAPGVMHRYLQMDFGINEAGFGILTASFYVPYILMQIPVGLTVDRLSIR----WL  87
+
+Query  92   IFIWSVFTLLQGFVDIFSGFGIIVALFTL---RFLVGLAESPSFPGNSRIVAAWFPAQER  148
+            + I S+ T     V     FG+   L T    R L+G + + +F  + R+  +WFP    
+Sbjct  88   LTIMSLVTAFGCCV-----FGLADGLLTASIGRMLIGFSAAFAFICSLRLATSWFPPTML  142
+
+Query  149  GTAVAIFNSAQYFATVIFAPIMGWLTHEVGWSHVFFFMGGLGIIISFIWLKVIHEPNNHP  208
+            G    +  +            + +L   VGW H    +  L I +S +  + + +    P
+Sbjct  143  GLLSGLTQALGMLGAAAGEAPVSFLVSNVGWRHSMLIIAFLFIALSGLLYQFVQD---KP  199
+
+Query  209  GVNKKELEYIAEGGALINMDQKDTKAKVPFSVKWGQIKQLLGSRMMIGVYIGQYCINALT  268
+            G ++ E+  +     L ++    +  +   +  +     L G   +IG  IG        
+Sbjct  200  GEHRNEIRSVNRISILDSLKIILSNKQTWLNAMYAGF--LFGPTAVIGEAIG--------  249
+
+Query  269  YFFITWFPVYLVQARGMSILKAGFVASVPAVCGFIGGVLGGIISDWLMRRTGSLNIARKT  328
+                   P YL   RG+    A F   +  +   I G L G ISD + RR   + I+   
+Sbjct  250  -------PAYLQFGRGLGAHAAAFATGLIFIGWGISGPLSGWISDKMGRRKPLMIISA--  300
+
+Query  329  PIVLGMLLSMVMVFCNYVNVEWMIIGFMALAFFGKGIGALGWAVMADTAPKEISGLSGGL  388
+              V G++LS + VF   ++     I F        G+ A+ +AV  +   + + G S   
+Sbjct  301  --VCGVILSSLFVFIPEMSQTTAYILFFVFGLTNTGV-AISYAVSTEIHDRSVVGTSIAF  357
+
+Query  389  FNMFGNISGIVTPIAIGYIVGTT-------------GSFNGALIYVGVHALVAIISYLVL  435
+             NM     G +    +G I+                  F   L  + + +LVA    L+L
+Sbjct  358  TNMTSIFVGALFQPLVGRIIDMVSGPRAYNVETLLLSDFQAGLKLLPLCSLVA----LIL  413
+
+Query  436  VGDIKRIELKPV  447
+               +K    KP+
+Sbjct  414  AFTVKETYCKPI  425
+
+
+>VFG047646(gb|WP_013922399) (ansP) major facilitator transporter 
+[AnsP (VF0554) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella sp. TX077308]
+Length=407
+
+ Score = 50.1 bits (118),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 27/75 (36%), Positives = 40/75 (53%), Gaps = 5/75 (7%)
+
+Query  28  VTSFNYGDRATLSIAGSEMAKDI-----GLDPVGMGYVFSAFSWAYVIGQIPGGWLLDRF  82
+           + +F Y     +  +G+ +  D       L P  +  + SAF WAYV  Q+P G LLD+F
+Sbjct  14  ICAFFYALEFIIRASGNSLYNDFSTAPYNLTPEQISVLSSAFYWAYVASQLPAGILLDKF  73
+
+Query  83  GSKRVYFWSIFIWSV  97
+           G KR+   S FI+S+
+Sbjct  74  GVKRIMAVSTFIFSI  88
+
+
+>VFG047630(gb|WP_041268173) (ansP) major facilitator transporter 
+[AnsP (VF0554) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella philomiragia subsp. philomiragia ATCC 25017]
+Length=407
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 35/132 (27%), Positives = 57/132 (43%), Gaps = 27/132 (20%)
+
+Query  28   VTSFNYGDRATLSIAGSEMAKDIGLDPVGM-----GYVFSAFSWAYVIGQIPGGWLLDRF  82
+            + +F Y     +  +G+ +  D   DP  +       + SAF WAYV  Q+P G LLD+F
+Sbjct  14   ICAFFYALEFIIRASGNSLYNDFSTDPYNLTAEQISVLSSAFYWAYVASQLPAGILLDKF  73
+
+Query  83   GSKRVYFWSIFIWSVFTLLQGFVDIFSGFGIIVA--------LFTLRFLVGLAESPSFPG  134
+            G K++   S  I+S+              G+++A        L   R L G+    +F  
+Sbjct  74   GVKKIMAISTLIFSI--------------GVLIATMATSPEYLILYRVLAGIGGGFAFLS  119
+
+Query  135  NSRIVAAWFPAQ  146
+              + +A W P +
+Sbjct  120  ALKAIAIWLPKR  131
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.143    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3635266713
+
+
+Query= g2912.t1
+
+Length=434
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG032174(gb|WP_012985162) (hpt) hexose phosphate transport prote...  62.0    3e-10
+VFG032167(gb|WP_014601830) (hpt) hexose phosphate transport prote...  61.2    4e-10
+VFG032151(gb|WP_003721403) (hpt) hexose phosphate transport prote...  61.2    5e-10
+VFG032154(gb|WP_014931278) (hpt) hexose phosphate transport prote...  60.5    9e-10
+VFG001089(gb|NP_464364) (hpt) hexose phosphate transport protein ...  58.5    3e-09
+VFG019359(gb|WP_003724769) (hpt) hexose phosphate transport prote...  57.0    9e-09
+VFG032162(gb|WP_003729463) (hpt) hexose phosphate transport prote...  57.0    1e-08
+VFG019360(gb|WP_012581691) (hpt) hexose phosphate transport prote...  57.0    1e-08
+VFG006773(gb|WP_003734276) (hpt) hexose phosphate transport prote...  57.0    1e-08
+VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux M...  52.0    4e-07
+VFG032173(gb|WP_014092267) (hpt) hexose phosphate transport prote...  48.5    5e-06
+
+
+>VFG032174(gb|WP_012985162) (hpt) hexose phosphate transport protein 
+[Hpt (VF0264) - Nutritional/Metabolic factor (VFC0272)] 
+[Listeria seeligeri serovar 1/2b str. SLCC3954]
+Length=461
+
+ Score = 62.0 bits (149),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 87/388 (22%), Positives = 154/388 (40%), Gaps = 32/388 (8%)
+
+Query  13   LVCVGTIVNYLSRSSLSVAAPAMMKELHFDEQQYSWVVSAFQLCYTIAQPITGYLMDVIG  72
+             VC  T+  YL R++   A   ++++ +    Q   +  AF + Y I + I GY++D   
+Sbjct  34   FVCYLTV--YLLRNNFKAAQVLLIEQNNLSTTQLGMIGLAFSVAYGIGKTILGYVIDGRN  91
+
+Query  73   LK--------IGFFIFALLWSLINMAHALAGGWISLAFLRGLMGLTEASAIPAGIKASAE  124
+             K        I   I  ++  L+    A AG    L  L G  G  ++   PA       
+Sbjct  92   AKKIMSFLLGISAIISLVIGILLVTKQATAG---ILFILWGANGFVQSPGGPASYSTITR  148
+
+Query  125  WFPTKERGIAGGLFNIGTSIGAMLAPPLVVWAMLTFADSGIGTEMAFVITGGIGVLFAIT  184
+            W P  +RG   G +N   +IG  LA  +  W   TF + G+G  M  V      ++    
+Sbjct  149  WTPKMKRGKWLGFWNASHNIGGALAGIVAFWGATTFFNGGVGG-MFIVPAIIAFIIAIFC  207
+
+Query  185  WFLIYNSPNKHPWITHKEL--RYIEDGQESYLQDDNKKPAVKEIVKKRNFWALAITRFLA  242
+            + + ++ P +  W +  E+     E G+E        +   + ++K    W L +     
+Sbjct  208  FSVGHDEPEELGWNSAPEIFEEPDEQGEEKTKDLSRFQILCQFVIKNPWVWTLCVINIFI  267
+
+Query  243  DPAWGTLSFWMPLYLINVM----HLPLKEIAMFAWLPFLAADFGCVAGGFLAKFFMEKMH  298
+                  +  W P+Y I  +    H  +  I+ F       A  G ++ G+L+     +  
+Sbjct  268  YIVRIGIDNWAPVYCIQALGWNTHDAILTISFFE----TGALLGSLSWGWLSDIMKGRRM  323
+
+Query  299  MTTINARRCSFTIGAVLMISIGFVSITTNPYVAIALMSIGGFAHQTLSTVVITMSADLFK  358
+            + +I A    F     ++I+   V+   + Y  + ++    F  Q L  V +    +   
+Sbjct  324  LCSIIAVAIEF----FMLIAYSQVTSIYSMYTVLFILGFLVFGPQLLIGVSVI---EFVP  376
+
+Query  359  KNEVATVAGLAGSAAWMGQLSF-NLFMG  385
+            KN +A   GL G+ A++   SF  +F+G
+Sbjct  377  KNALAVTNGLTGTCAYLFGDSFAKVFLG  404
+
+
+>VFG032167(gb|WP_014601830) (hpt) hexose phosphate transport protein 
+[Hpt (VF0264) - Nutritional/Metabolic factor (VFC0272)] 
+[Listeria monocytogenes Finland 1998]
+Length=461
+
+ Score = 61.2 bits (147),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 85/382 (22%), Positives = 158/382 (41%), Gaps = 20/382 (5%)
+
+Query  13   LVCVGTIVNYLSRSSLSVAAPAMMKELHFDEQQYSWVVSAFQLCYTIAQPITGYLMDVIG  72
+             +C  T+  YL R++   A   ++++ HF   +   +  AF + Y I + I GY +D   
+Sbjct  34   FICYLTV--YLLRNNFKAAQTLLIEQNHFSTTELGMIGLAFSVMYGIGKTILGYAVDGRN  91
+
+Query  73   LK--IGFFIFALLWSLINMAHALAGGWISLAFLR---GLMGLTEASAIPAGIKASAEWFP  127
+             K  + F +       I +   L     ++  L    G  G  ++   PA       W P
+Sbjct  92   AKKIMSFLLGVSAIISIIIGILLVTKQATVGILFILWGANGFVQSPGGPASYSTITRWTP  151
+
+Query  128  TKERGIAGGLFNIGTSIGAMLAPPLVVWAMLTFADSGIGTEMAFVITGGIGVLFAITWFL  187
+              +RG   G +N   +IG  LA  +  W   TF + G G    F++ G I ++ AI  F 
+Sbjct  152  KLKRGRWLGFWNASHNIGGALAGIVAFWGATTFFNGGAGG--MFIVPGIIAIIIAIICFS  209
+
+Query  188  I-YNSPNKHPWITHKEL-RYIEDGQESYLQDDNK-KPAVKEIVKKRNFWALAITRFLADP  244
+            + ++ P +  W +  E+    E+  +S  +D ++ +   + ++     W L +       
+Sbjct  210  VGHDEPEELGWNSAAEIFEEREEQGDSETKDLSRFQIFCRFVINNPWVWTLCVINIFIYI  269
+
+Query  245  AWGTLSFWMPLYLINVMHLPLKEIAMFAWLPFLAADFGCVAGGFLAKFFMEKMHMTTINA  304
+                +  W P+Y I  +    K+  M      + A  G ++ G+L+     +  + +I A
+Sbjct  270  VRIGIDNWAPVYCIQALGWSTKDAIMTISFFEIGALLGSLSWGWLSDIMKGRRMLCSIIA  329
+
+Query  305  RRCSFTIGAVLMISIGFVSITTNPYVAIALMSIGGFAHQTLSTVVITMSADLFKKNEVAT  364
+                F     ++IS   V+   + Y  + ++    F  Q L  V +    +   +N +A 
+Sbjct  330  VVIEF----FMLISYSQVTSVYSMYTVLFILGFLVFGPQLLIGVSVI---EFVPRNALAV  382
+
+Query  365  VAGLAGSAAWMGQLSF-NLFMG  385
+              GL G+ A++   SF  +F+G
+Sbjct  383  TNGLTGTFAYLFGDSFAKVFLG  404
+
+
+>VFG032151(gb|WP_003721403) (hpt) hexose phosphate transport protein 
+[Hpt (VF0264) - Nutritional/Metabolic factor (VFC0272)] 
+[Listeria monocytogenes SLCC5850]
+Length=461
+
+ Score = 61.2 bits (147),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 85/382 (22%), Positives = 158/382 (41%), Gaps = 20/382 (5%)
+
+Query  13   LVCVGTIVNYLSRSSLSVAAPAMMKELHFDEQQYSWVVSAFQLCYTIAQPITGYLMDVIG  72
+             +C  T+  YL R++   A   ++++ HF   +   +  AF + Y I + I GY +D   
+Sbjct  34   FICYLTV--YLLRNNFKAAQTLLIEQNHFSTTELGMIGLAFSVMYGIGKTILGYAVDGRN  91
+
+Query  73   LK--IGFFIFALLWSLINMAHALAGGWISLAFLR---GLMGLTEASAIPAGIKASAEWFP  127
+             K  + F +       I +   L     ++  L    G  G  ++   PA       W P
+Sbjct  92   AKKIMSFLLGVSAIISIIIGILLVTKQATVGILFILWGANGFVQSPGGPASYSTITRWTP  151
+
+Query  128  TKERGIAGGLFNIGTSIGAMLAPPLVVWAMLTFADSGIGTEMAFVITGGIGVLFAITWFL  187
+              +RG   G +N   +IG  LA  +  W   TF + G G    F++ G I ++ AI  F 
+Sbjct  152  KLKRGRWLGFWNASHNIGGALAGIVAFWGATTFFNGGAGG--MFIVPGIIAIIIAIICFS  209
+
+Query  188  I-YNSPNKHPWITHKEL-RYIEDGQESYLQDDNK-KPAVKEIVKKRNFWALAITRFLADP  244
+            + ++ P +  W +  E+    E+  +S  +D ++ +   + ++     W L +       
+Sbjct  210  VGHDEPEELGWNSAAEIFEEREEQGDSETKDLSRFQIFCRFVINNPWVWTLCVINIFIYI  269
+
+Query  245  AWGTLSFWMPLYLINVMHLPLKEIAMFAWLPFLAADFGCVAGGFLAKFFMEKMHMTTINA  304
+                +  W P+Y I  +    K+  M      + A  G ++ G+L+     +  + +I A
+Sbjct  270  VRIGIDNWAPVYCIQALGWSTKDAIMTISFFEIGALLGSLSWGWLSDIMKGRRMLCSIIA  329
+
+Query  305  RRCSFTIGAVLMISIGFVSITTNPYVAIALMSIGGFAHQTLSTVVITMSADLFKKNEVAT  364
+                F     ++IS   V+   + Y  + ++    F  Q L  V +    +   +N +A 
+Sbjct  330  VVIEF----FMLISYSQVTSVYSMYTVLFILGFLVFGPQLLIGVSVI---EFVPRNALAV  382
+
+Query  365  VAGLAGSAAWMGQLSF-NLFMG  385
+              GL G+ A++   SF  +F+G
+Sbjct  383  TNGLTGTFAYLFGDSFAKVFLG  404
+
+
+>VFG032154(gb|WP_014931278) (hpt) hexose phosphate transport protein 
+[Hpt (VF0264) - Nutritional/Metabolic factor (VFC0272)] 
+[Listeria monocytogenes SLCC7179]
+Length=461
+
+ Score = 60.5 bits (145),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 85/382 (22%), Positives = 157/382 (41%), Gaps = 20/382 (5%)
+
+Query  13   LVCVGTIVNYLSRSSLSVAAPAMMKELHFDEQQYSWVVSAFQLCYTIAQPITGYLMDVIG  72
+             +C  T+  YL R++   A   ++++ HF   +   +  AF + Y I + I GY +D   
+Sbjct  34   FICYLTV--YLLRNNFKAAQTLLIEQNHFSTTELGMIGLAFSVMYGIGKTILGYAVDGRN  91
+
+Query  73   LK--IGFFIFALLWSLINMAHALAGGWISLAFLR---GLMGLTEASAIPAGIKASAEWFP  127
+             K  + F +       I +   L     ++  L    G  G  ++   PA       W P
+Sbjct  92   AKKIMSFLLGVSAIISIIIGILLVTKQATVGILFILWGANGFVQSPGGPASYSTITRWTP  151
+
+Query  128  TKERGIAGGLFNIGTSIGAMLAPPLVVWAMLTFADSGIGTEMAFVITGGIGVLFAITWFL  187
+              +RG   G +N   +IG  LA  +  W   TF + G G    F++ G I ++ AI  F 
+Sbjct  152  KLKRGRWLGFWNASHNIGGALAGIVAFWGATTFFNGGAGG--MFIVPGIIAIIIAIICFS  209
+
+Query  188  I-YNSPNKHPWITHKEL-RYIEDGQESYLQDDNK-KPAVKEIVKKRNFWALAITRFLADP  244
+            + ++ P +  W +  E+    E+  +S  +D ++ +   + ++     W L +       
+Sbjct  210  VGHDEPEELGWNSAAEIFEEREEQGDSETKDLSRFQIFCRFVINNPWVWTLCVINIFIYI  269
+
+Query  245  AWGTLSFWMPLYLINVMHLPLKEIAMFAWLPFLAADFGCVAGGFLAKFFMEKMHMTTINA  304
+                +  W P+Y I  +    K+  M      + A  G ++ G+L+     +    +I A
+Sbjct  270  VRIGIDNWAPVYCIQALGWSTKDAIMTISFFEIGALLGSLSWGWLSDIMKGRRMFCSIIA  329
+
+Query  305  RRCSFTIGAVLMISIGFVSITTNPYVAIALMSIGGFAHQTLSTVVITMSADLFKKNEVAT  364
+                F     ++IS   V+   + Y  + ++    F  Q L  V +    +   +N +A 
+Sbjct  330  VVIEF----FMLISYSQVTSVYSMYTVLFILGFLVFGPQLLIGVSVI---EFVPRNALAV  382
+
+Query  365  VAGLAGSAAWMGQLSF-NLFMG  385
+              GL G+ A++   SF  +F+G
+Sbjct  383  TNGLTGTFAYLFGDSFAKVFLG  404
+
+
+>VFG001089(gb|NP_464364) (hpt) hexose phosphate transport protein 
+[Hpt (VF0264) - Nutritional/Metabolic factor (VFC0272)] 
+[Listeria monocytogenes EGD-e]
+Length=461
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 84/382 (22%), Positives = 155/382 (41%), Gaps = 20/382 (5%)
+
+Query  13   LVCVGTIVNYLSRSSLSVAAPAMMKELHFDEQQYSWVVSAFQLCYTIAQPITGYLMDVIG  72
+             +C  T+  YL R++   A   ++++ HF   +   +  AF + Y I + I GY++D   
+Sbjct  34   FICYLTV--YLLRNNFKAAQTLLIEQNHFSTTELGMIGLAFSVMYGIGKTILGYVVDGRN  91
+
+Query  73   LK--IGFFIFALLWSLINMAHALAGGWISLAFLR---GLMGLTEASAIPAGIKASAEWFP  127
+             K  + F +       I +   L     ++  L    G  G  ++   PA       W P
+Sbjct  92   AKKIMSFLLGISAIISIIIGILLVAKQATVGILFILWGANGFVQSPGGPASYSTITRWTP  151
+
+Query  128  TKERGIAGGLFNIGTSIGAMLAPPLVVWAMLTFADSGIGTEMAFVITGGIGVLFAITWFL  187
+              +RG   G +N   +IG  LA  +  W   TF + G G    F++ G I ++ AI  F 
+Sbjct  152  KLKRGRWLGFWNASHNIGGALAGIVAFWGATTFFNGGAGG--MFIVPGIIAIIIAIICFS  209
+
+Query  188  I-YNSPNKHPWITHKELRYIEDGQESYLQDDNKKPAV--KEIVKKRNFWALAITRFLADP  244
+            + ++ P +  W +  E+    + Q      D  +  +  + ++     W L +       
+Sbjct  210  VGHDEPEELGWNSAAEIFEEREEQGESETKDLSRFQILCRFVINNPWVWTLCVINIFIYI  269
+
+Query  245  AWGTLSFWMPLYLINVMHLPLKEIAMFAWLPFLAADFGCVAGGFLAKFFMEKMHMTTINA  304
+                +  W P+Y I  +    K+  M      + A  G ++ G+L+     +  + +I A
+Sbjct  270  VRIGIDNWAPVYCIQALGWSTKDAIMTISFFEIGALLGSLSWGWLSDIMKGRRMLCSIIA  329
+
+Query  305  RRCSFTIGAVLMISIGFVSITTNPYVAIALMSIGGFAHQTLSTVVITMSADLFKKNEVAT  364
+                F     ++IS   V+   + Y  + ++    F  Q L  V +    +   +N +A 
+Sbjct  330  VVIEF----FMLISYSQVTSVYSMYTVLFILGFLVFGPQLLIGVSVI---EFVPRNALAV  382
+
+Query  365  VAGLAGSAAWMGQLSF-NLFMG  385
+              GL G+ A++   SF  +F+G
+Sbjct  383  TNGLTGTFAYLFGDSFAKVFLG  404
+
+
+>VFG019359(gb|WP_003724769) (hpt) hexose phosphate transport protein 
+[Hpt (VF0264) - Nutritional/Metabolic factor (VFC0272)] 
+[Listeria monocytogenes serotype 4b str. CLIP 80459]
+Length=461
+
+ Score = 57.0 bits (136),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 84/382 (22%), Positives = 154/382 (40%), Gaps = 20/382 (5%)
+
+Query  13   LVCVGTIVNYLSRSSLSVAAPAMMKELHFDEQQYSWVVSAFQLCYTIAQPITGYLMDVIG  72
+             +C  T+  YL R++   A   ++++ HF   +   +  AF + Y I + I GY +D   
+Sbjct  34   FICYLTV--YLLRNNFKAAQTLLIEQNHFSTTELGMIGLAFSVMYGIGKTILGYAVDGRN  91
+
+Query  73   LK--IGFFIFALLWSLINMAHALAGGWISLAFLR---GLMGLTEASAIPAGIKASAEWFP  127
+             K  + F +       I +   L     ++  L    G  G  ++   PA       W P
+Sbjct  92   AKKIMSFLLGISAIISIIIGILLVTKQATVGILFILWGANGFVQSPGGPASYSTITRWTP  151
+
+Query  128  TKERGIAGGLFNIGTSIGAMLAPPLVVWAMLTFADSGIGTEMAFVITGGIGVLFAITWFL  187
+              +RG   G +N   +IG  LA  +  W   TF + G G    F++ G I ++ AI  F 
+Sbjct  152  KLKRGRWLGFWNASHNIGGALAGIVAFWGATTFFNGGAGG--MFIVPGIIAIIIAIICFS  209
+
+Query  188  I-YNSPNKHPWITHKELRYIEDGQESYLQDDNKKPAV--KEIVKKRNFWALAITRFLADP  244
+            + ++ P +  W +  E+    + Q      D  +  +  + ++     W L +       
+Sbjct  210  VGHDEPEELGWNSAAEIFEEREEQGESETKDLSRFQILCRFVINNPWVWTLCVINIFIYI  269
+
+Query  245  AWGTLSFWMPLYLINVMHLPLKEIAMFAWLPFLAADFGCVAGGFLAKFFMEKMHMTTINA  304
+                +  W P+Y I  +    K+  M      + A  G ++ G+L+     +  + +I A
+Sbjct  270  VRIGIDNWAPVYCIQALGWSTKDAIMTISFFEIGALLGSLSWGWLSDIMKGRRMLCSIIA  329
+
+Query  305  RRCSFTIGAVLMISIGFVSITTNPYVAIALMSIGGFAHQTLSTVVITMSADLFKKNEVAT  364
+                F     ++IS   V+   + Y  + ++    F  Q L  V +    +   +N +A 
+Sbjct  330  VVIEF----FMLISYSQVTSVYSMYTVLFILGFLVFGPQLLIGVSVI---EFVPRNALAV  382
+
+Query  365  VAGLAGSAAWMGQLSF-NLFMG  385
+              GL G+ A++   SF  +F+G
+Sbjct  383  TNGLTGTFAYLFGDSFAKVFLG  404
+
+
+>VFG032162(gb|WP_003729463) (hpt) hexose phosphate transport protein 
+[Hpt (VF0264) - Nutritional/Metabolic factor (VFC0272)] 
+[Listeria monocytogenes SLCC2376]
+Length=461
+
+ Score = 57.0 bits (136),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 84/382 (22%), Positives = 154/382 (40%), Gaps = 20/382 (5%)
+
+Query  13   LVCVGTIVNYLSRSSLSVAAPAMMKELHFDEQQYSWVVSAFQLCYTIAQPITGYLMDVIG  72
+             +C  T+  YL R++   A   ++++ HF   +   +  AF + Y I + I GY +D   
+Sbjct  34   FICYLTV--YLLRNNFKAAQTLLIEQNHFSTTELGMIGLAFSVMYGIGKTILGYAVDGRN  91
+
+Query  73   LK--IGFFIFALLWSLINMAHALAGGWISLAFLR---GLMGLTEASAIPAGIKASAEWFP  127
+             K  + F +       I +   L     ++  L    G  G  ++   PA       W P
+Sbjct  92   AKKIMSFLLGISAIISIIIGILLVTKQATVGILFILWGANGFVQSPGGPASYSTITRWTP  151
+
+Query  128  TKERGIAGGLFNIGTSIGAMLAPPLVVWAMLTFADSGIGTEMAFVITGGIGVLFAITWFL  187
+              +RG   G +N   +IG  LA  +  W   TF + G G    F++ G I ++ AI  F 
+Sbjct  152  KLKRGRWLGFWNASHNIGGALAGIVAFWGATTFFNGGAGG--MFIVPGIIAIIIAIICFS  209
+
+Query  188  I-YNSPNKHPWITHKELRYIEDGQESYLQDDNKKPAV--KEIVKKRNFWALAITRFLADP  244
+            + ++ P +  W +  E+    + Q      D  +  +  + ++     W L +       
+Sbjct  210  VGHDEPEELGWNSAAEIFEEREEQGESETKDLSRFQILCRFVINNPWVWTLCVINIFIYI  269
+
+Query  245  AWGTLSFWMPLYLINVMHLPLKEIAMFAWLPFLAADFGCVAGGFLAKFFMEKMHMTTINA  304
+                +  W P+Y I  +    K+  M      + A  G ++ G+L+     +  + +I A
+Sbjct  270  VRIGIDNWAPVYCIQALGWSTKDAIMTISFFEIGALLGSLSWGWLSDIMKGRRMLCSIIA  329
+
+Query  305  RRCSFTIGAVLMISIGFVSITTNPYVAIALMSIGGFAHQTLSTVVITMSADLFKKNEVAT  364
+                F     ++IS   V+   + Y  + ++    F  Q L  V +    +   +N +A 
+Sbjct  330  VVIEF----FMLISYSQVTSVYSMYTVLFILGFLVFGPQLLIGVSVI---EFVPRNALAV  382
+
+Query  365  VAGLAGSAAWMGQLSF-NLFMG  385
+              GL G+ A++   SF  +F+G
+Sbjct  383  TNGLTGTFAYLFGDSFAKVFLG  404
+
+
+>VFG019360(gb|WP_012581691) (hpt) hexose phosphate transport protein 
+[Hpt (VF0264) - Nutritional/Metabolic factor (VFC0272)] 
+[Listeria monocytogenes HCC23]
+Length=461
+
+ Score = 57.0 bits (136),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 86/385 (22%), Positives = 155/385 (40%), Gaps = 26/385 (7%)
+
+Query  13   LVCVGTIVNYLSRSSLSVAAPAMMKELHFDEQQYSWVVSAFQLCYTIAQPITGYLMD-VI  71
+             +C  T+  YL R++   A   ++++ HF   +   +  AF + Y I + I GY +D   
+Sbjct  34   FICYLTV--YLLRNNFKAAQTLLIEQNHFSTTELGMIGLAFSVMYGIGKTILGYAVDGRN  91
+
+Query  72   GLKIGFFIFALLWSLINM-------AHALAGGWISLAFLRGLMGLTEASAIPAGIKASAE  124
+              KI  F+  +   +  +         A  G    L  L G  G  ++   PA       
+Sbjct  92   AKKIMSFLLGISAIISIIIGILLVTKQATVG---VLFILWGANGFVQSPGGPASYSTITR  148
+
+Query  125  WFPTKERGIAGGLFNIGTSIGAMLAPPLVVWAMLTFADSGIGTEMAFVITGGIGVLFAIT  184
+            W P  +RG   G +N   +IG  LA  +  W   TF + G G    F++ G I ++ AI 
+Sbjct  149  WTPKLKRGRWLGFWNASHNIGGALAGIVAFWGATTFFNGGAGG--MFIVPGIIAIIIAII  206
+
+Query  185  WFLI-YNSPNKHPWITHKELRYIEDGQESYLQDDNKKPAV--KEIVKKRNFWALAITRFL  241
+             F + ++ P +  W +  E+    + Q      D  +  +  + ++     W L +    
+Sbjct  207  CFSVGHDEPEELGWNSAAEIFEEREEQGESETKDLSRFQILCRFVINNPWVWTLCVINIF  266
+
+Query  242  ADPAWGTLSFWMPLYLINVMHLPLKEIAMFAWLPFLAADFGCVAGGFLAKFFMEKMHMTT  301
+                   +  W P+Y I  +    K+  M      + A  G ++ G+L+     +  + +
+Sbjct  267  IYIVRIGIDNWAPVYCIQALGWSTKDAIMTISFFEIGALLGSLSWGWLSDIMKGRRMLCS  326
+
+Query  302  INARRCSFTIGAVLMISIGFVSITTNPYVAIALMSIGGFAHQTLSTVVITMSADLFKKNE  361
+            I A    F     ++IS   V+   + Y  + ++    F  Q L  V +    +   +N 
+Sbjct  327  IIAVVIEF----FMLISYSQVTSVYSMYTVLFILGFLVFGPQLLIGVSVI---EFVPRNA  379
+
+Query  362  VATVAGLAGSAAWMGQLSF-NLFMG  385
+            +A   GL G+ A++   SF  +F+G
+Sbjct  380  LAVTNGLTGTFAYLFGDSFAKVFLG  404
+
+
+>VFG006773(gb|WP_003734276) (hpt) hexose phosphate transport protein 
+[Hpt (VF0264) - Nutritional/Metabolic factor (VFC0272)] 
+[Listeria monocytogenes serotype 4b str. F2365]
+Length=461
+
+ Score = 57.0 bits (136),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 84/382 (22%), Positives = 154/382 (40%), Gaps = 20/382 (5%)
+
+Query  13   LVCVGTIVNYLSRSSLSVAAPAMMKELHFDEQQYSWVVSAFQLCYTIAQPITGYLMDVIG  72
+             +C  T+  YL R++   A   ++++ HF   +   +  AF + Y I + I GY +D   
+Sbjct  34   FICYLTV--YLLRNNFKAAQTLLIEQNHFSTTELGMIGLAFSVMYGIGKTILGYAVDGRN  91
+
+Query  73   LK--IGFFIFALLWSLINMAHALAGGWISLAFLR---GLMGLTEASAIPAGIKASAEWFP  127
+             K  + F +       I +   L     ++  L    G  G  ++   PA       W P
+Sbjct  92   AKKIMSFLLGISAIISIIIGILLVTKQATVGILFILWGANGFVQSPGGPASYSTITRWTP  151
+
+Query  128  TKERGIAGGLFNIGTSIGAMLAPPLVVWAMLTFADSGIGTEMAFVITGGIGVLFAITWFL  187
+              +RG   G +N   +IG  LA  +  W   TF + G G    F++ G I ++ AI  F 
+Sbjct  152  KLKRGRWLGFWNASHNIGGALAGIVAFWGATTFFNGGAGG--MFIVPGIIAIIIAIICFS  209
+
+Query  188  I-YNSPNKHPWITHKELRYIEDGQESYLQDDNKKPAV--KEIVKKRNFWALAITRFLADP  244
+            + ++ P +  W +  E+    + Q      D  +  +  + ++     W L +       
+Sbjct  210  VGHDEPEELGWNSAAEIFEEREEQGESETKDLSRFQILCRFVINNPWVWTLCVINIFIYI  269
+
+Query  245  AWGTLSFWMPLYLINVMHLPLKEIAMFAWLPFLAADFGCVAGGFLAKFFMEKMHMTTINA  304
+                +  W P+Y I  +    K+  M      + A  G ++ G+L+     +  + +I A
+Sbjct  270  VRIGIDNWAPVYCIQALGWSTKDAIMTISFFEIGALLGSLSWGWLSDIMKGRRMLCSIIA  329
+
+Query  305  RRCSFTIGAVLMISIGFVSITTNPYVAIALMSIGGFAHQTLSTVVITMSADLFKKNEVAT  364
+                F     ++IS   V+   + Y  + ++    F  Q L  V +    +   +N +A 
+Sbjct  330  VVIEF----FMLISYSQVTSVYSMYTVLFILGFLVFGPQLLIGVSVI---EFVPRNALAV  382
+
+Query  365  VAGLAGSAAWMGQLSF-NLFMG  385
+              GL G+ A++   SF  +F+G
+Sbjct  383  TNGLTGTFAYLFGDSFAKVFLG  404
+
+
+>VFG044351(gb|WP_033111749) (DDA3937_RS07730) DHA2 family efflux 
+MFS transporter permease subunit [Achromobactin (VF1243) 
+- Nutritional/Metabolic factor (VFC0272)] [Dickeya dadantii 
+3937]
+Length=482
+
+ Score = 52.0 bits (123),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 42/146 (29%), Positives = 70/146 (48%), Gaps = 4/146 (3%)
+
+Query  7    RWWIIGLVCVGTIVNYLSRSSLSVAAPAMMKELHFDEQQYSWVVSAFQLCYTIAQPITGY  66
+            RW ++  V +GT    L+ S+L+ A PA ++  H      +W+V+AF +   +  P+TGY
+Sbjct  8    RWLVVVNVLLGTTTVSLNNSTLNPALPAFIEVFHIGPLLATWIVAAFMVSMGMTMPLTGY  67
+
+Query  67   LMDVIGLKIGFFIFALLWSLINMAHALAGGWISLAFLRGLMGLTEASAIPAGIKASAEWF  126
+            L   +G K  + +   L+   ++   LA     +   R + G+     IP  +      +
+Sbjct  68   LGHRLGNKPLYLLGVALFISGSLLGMLADSISQVIAARTVQGIASGLMIPLSLTLIFSVY  127
+
+Query  127  PTKERGIAGGLFNIGTSIGAMLAPPL  152
+            P +ER   GG+  I  +I  MLAP L
+Sbjct  128  PKQER---GGITGIWGAI-VMLAPAL  149
+
+
+>VFG032173(gb|WP_014092267) (hpt) hexose phosphate transport protein 
+[Hpt (VF0264) - Nutritional/Metabolic factor (VFC0272)] 
+[Listeria ivanovii subsp. ivanovii PAM 55]
+Length=457
+
+ Score = 48.5 bits (114),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 81/383 (21%), Positives = 153/383 (40%), Gaps = 22/383 (6%)
+
+Query  13   LVCVGTIVNYLSRSSLSVAAPAMMKELHFDEQQYSWVVSAFQLCYTIAQPITGYLMD---  69
+             VC  T+  YL R++   A   ++++ +F   +   +  AF + Y I + I GY +D   
+Sbjct  34   FVCYLTV--YLLRNNFKAAQTLLIEQNNFSTTELGMIGLAFSVAYGIGKTILGYGIDGRN  91
+
+Query  70   ---VIGLKIGFFIFALLWSLINMAHALAGGWISLAFLRGLMGLTEASAIPAGIKASAEWF  126
+               ++   +G      +   I +    A   I L  L G  G  ++   PA       W 
+Sbjct  92   AKKIMSFLLGVSAIISIIIGILLITKQATTGI-LFILWGANGFVQSPGGPASYSTITRWT  150
+
+Query  127  PTKERGIAGGLFNIGTSIGAMLAPPLVVWAMLTFADSGIGTEMAFVITGGIGVLFAITWF  186
+            P  +RG   G +N   +IG  LA  +  W   TF + G+G    F++   I ++ AI  F
+Sbjct  151  PKLKRGKWLGFWNASHNIGGALAGIVAFWGATTFFNGGVGG--MFIVPAIIALIIAIICF  208
+
+Query  187  LI-YNSPNKHPWITHKELRYIEDGQESYLQDDNKKPAV--KEIVKKRNFWALAITRFLAD  243
+             I ++ P +  W +  E+    +        D  +  +  + ++     W L +      
+Sbjct  209  SIGHDEPEELGWNSAPEIFEEPEEHGESETKDLTRFQILRQFVINNPWVWTLCVINIFIY  268
+
+Query  244  PAWGTLSFWMPLYLINVMHLPLKEIAMFAWLPFLAADFGCVAGGFLAKFFMEKMHMTTIN  303
+                 +  W P+Y I  +    K+  +      + A  G ++ G+L+     +  + +I 
+Sbjct  269  IVRIGIDNWAPVYCIQALGWDTKDAILTISFFEIGALLGSLSWGWLSDIMKGRRMLCSII  328
+
+Query  304  ARRCSFTIGAVLMISIGFVSITTNPYVAIALMSIGGFAHQTLSTVVITMSADLFKKNEVA  363
+            A    F     ++I+   V+     +  + ++    F  Q L  V +    +   K+ +A
+Sbjct  329  AVAIEF----FMLIAYSQVTSVYGMFTVLFILGFLVFGPQLLIGVSVI---EFVPKSALA  381
+
+Query  364  TVAGLAGSAAWMGQLSF-NLFMG  385
+               GL G+ A++   SF  +F+G
+Sbjct  382  VTNGLTGTFAYLFGDSFAKVFLG  404
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.140    0.446    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3447774447
+
+
+Query= g3457.t1
+
+Length=436
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002097(gb|WP_010946287) (phtA) major facilitator family transp...  67.0    6e-12
+
+
+>VFG002097(gb|WP_010946287) (phtA) major facilitator family transporter, 
+phagosomal transporter [Pht (VF0337) - Nutritional/Metabolic 
+factor (VFC0272)] [Legionella pneumophila subsp. 
+pneumophila str. Philadelphia 1]
+Length=427
+
+ Score = 67.0 bits (162),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 95/384 (25%), Positives = 154/384 (40%), Gaps = 47/384 (12%)
+
+Query  20   LATVFNYAD---RATLSVVAPIMSKELGFDPEAMGLAFSSFGIAYVIMQLPGGWLLDRYG  76
+            LA  F ++D   R    V+   +  + G +    G+  +SF + Y++MQ+P G  +DR  
+Sbjct  24   LAAAFYFSDYLARVAPGVMHRYLQMDFGINEAGFGILTASFYVPYILMQIPVGLTVDRLS  83
+
+Query  77   SRLVYGCALIGWSLVTMFQGTIYLYGSPLIVLVILRLLMGAIEAPAFPANSRLSVQWFPN  136
+             R +    L   SLVT F   ++     L+   I R+L+G   A AF  + RL+  WFP 
+Sbjct  84   IRWL----LTIMSLVTAFGCCVFGLADGLLTASIGRMLIGFSAAFAFICSLRLATSWFPP  139
+
+Query  137  NERGFVTSVYQAAQYISLGIITPLMTIILHNLSWHFVFYYIGAIGVMLGIFWLMKVKDPM  196
+               G ++ + QA   +        ++ ++ N+ W      I  + + L       V+D  
+Sbjct  140  TMLGLLSGLTQALGMLGAAAGEAPVSFLVSNVGWRHSMLIIAFLFIALSGLLYQFVQD--  197
+
+Query  197  HHPKVNQAEIDYIRSGGGEPSLGCKKEPQKITFAQIKTVCVNRMMIGVYIGQFCVTSITW  256
+              P  ++ EI  +       SL       KI  +  K   +N M  G   G   V     
+Sbjct  198  -KPGEHRNEIRSVNRISILDSL-------KIILSN-KQTWLNAMYAGFLFGPTAVIG---  245
+
+Query  257  FFLTWFPTYLYQAKGMSILKVGFVASIPAIAGFIGGLLGGVFSDWLLKRGYSLTVARKLP  316
+                  P YL   +G+      F   +  I   I G L G  SD + +R   + ++    
+Sbjct  246  --EAIGPAYLQFGRGLGAHAAAFATGLIFIGWGISGPLSGWISDKMGRRKPLMIIS----  299
+
+Query  317  VICGMLLSCVIVIANYTSSEFVVIAAMS-----LAFFAKGFGNLG----WCVLSDTSPKE  367
+             +CG++L          SS FV I  MS     + FF  G  N G    + V ++   + 
+Sbjct  300  AVCGVIL----------SSLFVFIPEMSQTTAYILFFVFGLTNTGVAISYAVSTEIHDRS  349
+
+Query  368  VLGIAGGVFNMCG-NMASIVTPLV  390
+            V+G +    NM    + ++  PLV
+Sbjct  350  VVGTSIAFTNMTSIFVGALFQPLV  373
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.143    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3468606921
+
+
+Query= g3584.t1
+
+Length=430
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002097(gb|WP_010946287) (phtA) major facilitator family transp...  60.5    8e-10
+
+
+>VFG002097(gb|WP_010946287) (phtA) major facilitator family transporter, 
+phagosomal transporter [Pht (VF0337) - Nutritional/Metabolic 
+factor (VFC0272)] [Legionella pneumophila subsp. 
+pneumophila str. Philadelphia 1]
+Length=427
+
+ Score = 60.5 bits (145),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 79/310 (25%), Positives = 121/310 (39%), Gaps = 46/310 (15%)
+
+Query  29   YVDRANLAVASMHIQKEFGITKAEMGYVFSAFAWLYTLCQIPGGWFLDRIGSRLTYFIAI  88
+            Y+ R    V   ++Q +FGI +A  G + ++F   Y L QIP G  +DR+  R    I  
+Sbjct  33   YLARVAPGVMHRYLQMDFGINEAGFGILTASFYVPYILMQIPVGLTVDRLSIRWLLTIMS  92
+
+Query  89   FGWSVATLLQGFATGLLSLIGLRAITGIFEAPAFPANNRMVTSWFPEHERASAVGFYTSG  148
+               +    + G A GLL+    R + G   A AF  + R+ TSWFP        G   + 
+Sbjct  93   LVTAFGCCVFGLADGLLTASIGRMLIGFSAAFAFICSLRLATSWFPPTMLGLLSGLTQAL  152
+
+Query  149  QFVGLA-------FLTPLLIWIQEMLSWHWVFIVTGGIGIIWSLVWFKVYQPPRLTKSLS  201
+              +G A       FL   + W   ML   ++FI   G+     L  F   +P      + 
+Sbjct  153  GMLGAAAGEAPVSFLVSNVGWRHSMLIIAFLFIALSGL-----LYQFVQDKPGEHRNEIR  207
+
+Query  202  QAELEYIRDGGGLVDGDAPAKKEARQPLTKADWKLVFHRKLVGVYLGQFAVNSTLWFFLT  261
+                  I D   ++  +            K  W       L  +Y G F    T      
+Sbjct  208  SVNRISILDSLKIILSN------------KQTW-------LNAMYAG-FLFGPTAVIGEA  247
+
+Query  262  WFPNYLTQEKGITALKAGFMTTVPFLAAFFGVLLSGWLADKLVKKGFSLGVARKTPI---  318
+              P YL   +G+ A  A F T + F+       LSGW++DK+          R+ P+   
+Sbjct  248  IGPAYLQFGRGLGAHAAAFATGLIFIGWGISGPLSGWISDKM---------GRRKPLMII  298
+
+Query  319  --ICGLLIST  326
+              +CG+++S+
+Sbjct  299  SAVCGVILSS  308
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.143    0.458    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3406109499
+
+
+Query= g3590.t1
+
+Length=420
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG009654(gb|WP_208856679) (narK2) NarK/NasA family nitrate trans...  54.3    6e-08
+VFG009655(gb|WP_011558675) (narK2) NarK/NasA family nitrate trans...  54.3    6e-08
+VFG009653(gb|WP_011854955) (narK2) NarK/NasA family nitrate trans...  53.5    1e-07
+VFG036963(gb|WP_015815889) (farB) fatty acid efflux system protei...  50.1    2e-06
+VFG036959(gb|WP_012222039) (farB) fatty acid efflux system protei...  49.3    3e-06
+VFG036957(gb|WP_010951322) (farB) fatty acid efflux system protei...  48.5    5e-06
+VFG036960(gb|WP_003703449) (farB) fatty acid efflux system protei...  48.5    5e-06
+VFG036962(gb|WP_014573759) (farB) fatty acid efflux system protei...  48.1    7e-06
+VFG002097(gb|WP_010946287) (phtA) major facilitator family transp...  47.8    8e-06
+VFG036966(gb|WP_014581242) (farB) fatty acid efflux system protei...  47.8    9e-06
+VFG036958(gb|WP_002247957) (farB) fatty acid efflux system protei...  47.8    9e-06
+VFG036964(gb|WP_002218710) (farB) fatty acid efflux system protei...  47.8    9e-06
+
+
+>VFG009654(gb|WP_208856679) (narK2) NarK/NasA family nitrate transporter 
+[Nitrate/nitrite transporter (VF0821) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. KMS]
+Length=392
+
+ Score = 54.3 bits (129),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 84/366 (23%), Positives = 157/366 (43%), Gaps = 42/366 (11%)
+
+Query  55   QIGMMMTVFLAAYGIANVVLSPLGDYLGPRK---AMMLCILIWTIALMIGGVATSFALII  111
+            Q  M++   +    +  +V+  L D  G R    A+ L  +I  +A+   G A S+ L++
+Sbjct  37   QASMLVATPILVGSLGRIVVGSLTDRFGGRVMFIAISLASIIPVLAVGAAGTAGSYPLLL  96
+
+Query  112  ICRILLGIGEGFYYPLQSVFIKNWFPKQERGRANAAW---IVGQSVAPAIAMPFFTWWIG  168
+            +    LGI  G  + +   F  +W+    RG A   +   +VG +++ A   P F  W G
+Sbjct  97   VFGFFLGI-AGTVFAVGIPFANHWYEASRRGFATGVFGMGMVGTALS-AFFTPRFVNWFG  154
+
+Query  169  THGWRSNFFLCAALGLIPLWLLWRYVADKPEQHKSISEQELAYIKAGQETESAGSSESFM  228
+               + ++  +  AL L  +  L   +A +   H S +                  +++ +
+Sbjct  155  L--FTTHLVIAIALALTAVLCL---LAMRDSPHFSPN------------------TDAVL  191
+
+Query  229  LRVKPVITNYSYWLLVLWYLCLQCLYWGMITWLPTYLKSARGFSWAEMGWLASLPFVLSI  288
+             ++K        W +   Y  +   +     +LPTY+K+  GFS  + G   +   + ++
+Sbjct  192  PKLKAAAKLGVTWEMSFLYAVVFGGFVAFSNYLPTYIKTIYGFSAVDAGARTAGFALAAV  251
+
+Query  289  FAKAAAGVFVDKIGRSAPILMVLMFFAGV-SIYFGTITE---HKYMSAVLLSFAVAFCTM  344
+             A+   G   D+I    P  +VL  FAG  ++ F  + +     + +A  ++ AV F  +
+Sbjct  252  LARPVGGALADRI---PPKYVVLTSFAGTAALAFVAVFQPPPDLWSAATFITLAV-FLGV  307
+
+Query  345  GTPVAWTLLQGMIPGKSISAASGVMNGVANGLSSLSPVFI--GLFISITGTYTGGLLCLV  402
+            GT   +  +    P +S+ + +G++   A GL    P  +  G + ++   YT GLL LV
+Sbjct  308  GTGGVFAWVARRSPAQSVGSITGIV-AAAGGLGGYFPPLVMGGTYDAVDNDYTVGLLLLV  366
+
+Query  403  FISAIA  408
+              + IA
+Sbjct  367  ATALIA  372
+
+
+>VFG009655(gb|WP_011558675) (narK2) NarK/NasA family nitrate transporter 
+[Nitrate/nitrite transporter (VF0821) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. MCS]
+Length=406
+
+ Score = 54.3 bits (129),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 84/366 (23%), Positives = 157/366 (43%), Gaps = 42/366 (11%)
+
+Query  55   QIGMMMTVFLAAYGIANVVLSPLGDYLGPRK---AMMLCILIWTIALMIGGVATSFALII  111
+            Q  M++   +    +  +V+  L D  G R    A+ L  +I  +A+   G A S+ L++
+Sbjct  51   QASMLVATPILVGSLGRIVVGSLTDRFGGRVMFIAISLASIIPVLAVGAAGTAGSYPLLL  110
+
+Query  112  ICRILLGIGEGFYYPLQSVFIKNWFPKQERGRANAAW---IVGQSVAPAIAMPFFTWWIG  168
+            +    LGI  G  + +   F  +W+    RG A   +   +VG +++ A   P F  W G
+Sbjct  111  VFGFFLGI-AGTVFAVGIPFANHWYEASRRGFATGVFGMGMVGTALS-AFFTPRFVNWFG  168
+
+Query  169  THGWRSNFFLCAALGLIPLWLLWRYVADKPEQHKSISEQELAYIKAGQETESAGSSESFM  228
+               + ++  +  AL L  +  L   +A +   H S +                  +++ +
+Sbjct  169  L--FTTHLVIAIALALTAVLCL---LAMRDSPHFSPN------------------TDAVL  205
+
+Query  229  LRVKPVITNYSYWLLVLWYLCLQCLYWGMITWLPTYLKSARGFSWAEMGWLASLPFVLSI  288
+             ++K        W +   Y  +   +     +LPTY+K+  GFS  + G   +   + ++
+Sbjct  206  PKLKAAAKLGVTWEMSFLYAVVFGGFVAFSNYLPTYIKTIYGFSAVDAGARTAGFALAAV  265
+
+Query  289  FAKAAAGVFVDKIGRSAPILMVLMFFAGV-SIYFGTITEHK---YMSAVLLSFAVAFCTM  344
+             A+   G   D+I    P  +VL  FAG  ++ F  + +     + +A  ++ AV F  +
+Sbjct  266  LARPVGGALADRI---PPKYVVLTSFAGTAALAFVAVFQPPPDLWSAATFITLAV-FLGV  321
+
+Query  345  GTPVAWTLLQGMIPGKSISAASGVMNGVANGLSSLSPVFI--GLFISITGTYTGGLLCLV  402
+            GT   +  +    P +S+ + +G++   A GL    P  +  G + ++   YT GLL LV
+Sbjct  322  GTGGVFAWVARRSPAQSVGSITGIV-AAAGGLGGYFPPLVMGGTYDAVDNDYTVGLLLLV  380
+
+Query  403  FISAIA  408
+              + IA
+Sbjct  381  ATALIA  386
+
+
+>VFG009653(gb|WP_011854955) (narK2) NarK/NasA family nitrate transporter 
+[Nitrate/nitrite transporter (VF0821) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. JLS]
+Length=406
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 84/366 (23%), Positives = 157/366 (43%), Gaps = 42/366 (11%)
+
+Query  55   QIGMMMTVFLAAYGIANVVLSPLGDYLGPRK---AMMLCILIWTIALMIGGVATSFALII  111
+            Q  M++   +    +  +V+  L D  G R    A+ L  +I  +A+   G A S+ L++
+Sbjct  51   QASMLVATPILVGSLGRIVVGSLTDRFGGRVMFIAISLASIIPVLAVGAAGTAGSYPLLL  110
+
+Query  112  ICRILLGIGEGFYYPLQSVFIKNWFPKQERGRANAAW---IVGQSVAPAIAMPFFTWWIG  168
+            +    LGI  G  + +   F  +W+    RG A   +   +VG +++ A   P F  W G
+Sbjct  111  VFGFFLGI-AGTVFAVGIPFANHWYEASRRGFATGVFGMGMVGTALS-AFFTPRFVNWFG  168
+
+Query  169  THGWRSNFFLCAALGLIPLWLLWRYVADKPEQHKSISEQELAYIKAGQETESAGSSESFM  228
+               + ++  +  AL L  +  L   +A +   H S +                  +++ +
+Sbjct  169  L--FTTHLVVAIALALTAVLCL---LAMRDSPHFSPN------------------TDAVL  205
+
+Query  229  LRVKPVITNYSYWLLVLWYLCLQCLYWGMITWLPTYLKSARGFSWAEMGWLASLPFVLSI  288
+             ++K        W +   Y  +   +     +LPTY+K+  GFS  + G   +   + ++
+Sbjct  206  PKLKAAAKLGVTWEMSFLYAVVFGGFVAFSNYLPTYIKTIYGFSAVDAGARTAGFALAAV  265
+
+Query  289  FAKAAAGVFVDKIGRSAPILMVLMFFAGV-SIYFGTITEHK---YMSAVLLSFAVAFCTM  344
+             A+   G   D+I    P  +VL  FAG  ++ F  + +     + +A  ++ AV F  +
+Sbjct  266  LARPLGGALADRI---PPKYVVLTSFAGTAALAFVAVFQPPPDLWSAATFITLAV-FLGV  321
+
+Query  345  GTPVAWTLLQGMIPGKSISAASGVMNGVANGLSSLSPVFI--GLFISITGTYTGGLLCLV  402
+            GT   +  +    P +S+ + +G++   A GL    P  +  G + ++   YT GLL LV
+Sbjct  322  GTGGVFAWVARRSPAQSVGSITGIV-AAAGGLGGYFPPLVMGGTYDAVDNDYTVGLLLLV  380
+
+Query  403  FISAIA  408
+              + IA
+Sbjct  381  ATALIA  386
+
+
+>VFG036963(gb|WP_015815889) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis alpha14]
+Length=508
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 52/203 (26%), Positives = 84/203 (41%), Gaps = 22/203 (11%)
+
+Query  8    PPTRKRFL--IVACLFIGIFIAYLD----RVNVSVLAANEPFLAYMGIEGMPLQIGMMMT  61
+            PP +   L  I   L + +F+  LD     V V V+A N   L     +G         T
+Sbjct  4    PPLKGAALAWITLSLGLAVFMEVLDTTIANVAVPVIAGN---LGAATTQG---------T  51
+
+Query  62   VFLAAYGIANVVLSPLGDYLGPR----KAMMLCILIWTIALMIGGVATSFALIIICRILL  117
+              + ++ +AN V  PL  +L  R    K      + + I   + G+A +   ++I RIL 
+Sbjct  52   WVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSWLCGIAPNLQSLVIFRILQ  111
+
+Query  118  GIGEGFYYPLQSVFIKNWFPKQERGRANAAWIVGQSVAPAIAMPFFTWWIGTHGWRSNFF  177
+            G   G   PL    +   +P  +R  A A W +   VAP +      W  G   W   FF
+Sbjct  112  GFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLGPILGGWISGNWHWGWIFF  171
+
+Query  178  LCAALGLIPLWLLWRYVADKPEQ  200
+            +   +G+I  W+ W+++  +  +
+Sbjct  172  INIPIGIISAWITWKHLKHRETE  194
+
+
+>VFG036959(gb|WP_012222039) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis 053442]
+Length=508
+
+ Score = 49.3 bits (116),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 76/339 (22%), Positives = 128/339 (38%), Gaps = 57/339 (17%)
+
+Query  8    PPTRKRFLIVACLFIG--IFIAYLD----RVNVSVLAANEPFLAYMGIEGMPLQIGMMMT  61
+            PP +   L    L +G  +F+  LD     V V V+A N   L     +G         T
+Sbjct  4    PPLKGAALAWVTLSLGLAVFMEVLDTTIANVAVPVIAGN---LGAATTQG---------T  51
+
+Query  62   VFLAAYGIANVVLSPLGDYLGPR----KAMMLCILIWTIALMIGGVATSFALIIICRILL  117
+              + ++ +AN V  PL  +L  R    K      + + I   + G+A +   ++  RIL 
+Sbjct  52   WVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSWLCGIAPNLQALVFFRILQ  111
+
+Query  118  GIGEGFYYPLQSVFIKNWFPKQERGRANAAWIVGQSVAPAIAMPFFTWWIGTHGWRSNFF  177
+            G   G   PL    +   +P  +R  A A W +   VAP +   F  W  G   W   FF
+Sbjct  112  GFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLGPIFGGWISGNWHWGWIFF  171
+
+Query  178  LCAALGLIPLWLLWRYVADKPEQHKSISEQELAY-------------IKAGQETESAGSS  224
+            +   +G+I  W+ W+++  +  +   +    +               +  G+E +   S 
+Sbjct  172  INIPIGIISAWITWKHLKYRETETVKMPTDYVGLTLMVVGIGALQMMLDRGKELDWFASG  231
+
+Query  225  ESFMLRVKPVI--TNYSYWLLVLWYLCLQC--------------------LYWGMITWLP  262
+            E   L V  ++  + +  W L   Y  +                      +Y G +T LP
+Sbjct  232  EIITLGVTALVCLSYFIVWELGEKYPIVDLSLFKDRNFTVGIIATSLGFMVYMGTLTLLP  291
+
+Query  263  TYLKSARGFSWAEMGWLASLPFVLSIFAKAAAGVFVDKI  301
+              L++  G++    G  A+   +L +F     G F +KI
+Sbjct  292  LVLQTNLGYTSTWAGLAAAPVGILPVFLSPLIGRFGNKI  330
+
+
+>VFG036957(gb|WP_010951322) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria gonorrhoeae FA 1090]
+Length=507
+
+ Score = 48.5 bits (114),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 76/339 (22%), Positives = 131/339 (39%), Gaps = 57/339 (17%)
+
+Query  8    PPTRKRFL--IVACLFIGIFIAYLD----RVNVSVLAANEPFLAYMGIEGMPLQIGMMMT  61
+            PP +   L  +   L + +F+  LD     V V V+A N   L     +G         T
+Sbjct  4    PPLKGAALAWVTLSLGLAVFMEVLDTTIANVAVPVIAGN---LGAATTQG---------T  51
+
+Query  62   VFLAAYGIANVVLSPLGDYLGPR----KAMMLCILIWTIALMIGGVATSFALIIICRILL  117
+              + ++ +AN V  PL  +L  R    K        + IA  + G+A +   +++ RIL 
+Sbjct  52   WVITSFSVANAVSVPLTGFLAKRIGEVKLFTAAAAGFVIASWLCGIAPNLQSLVVFRILQ  111
+
+Query  118  GIGEGFYYPLQSVFIKNWFPKQERGRANAAWIVGQSVAPAIAMPFFTWWIGTHGWRSNFF  177
+            G   G   PL    +   +P  +R  A A W +   VAP +      W  G   W   FF
+Sbjct  112  GFIAGPLIPLSQSLLMASYPPAKRMLALALWAMTVVVAPVLGPILGGWISGNWHWGWIFF  171
+
+Query  178  LCAALGLIPLWLLWRYVADK-------PEQHKSISEQELA------YIKAGQETESAGSS  224
+            +   +G+I  W+ W+++  +       P  +  ++   +        +  G+E +   S 
+Sbjct  172  INIPIGIISAWITWKHLKHRETATVRTPTDYVGLTLMMVGIGALQMMLDRGKELDWFASG  231
+
+Query  225  ESFMLRVKPVI--TNYSYWLLVLWYLCLQC--------------------LYWGMITWLP  262
+            E   L +  ++  + +  W L   Y  +                      +Y G +T LP
+Sbjct  232  EIITLGITALVCLSYFIVWELGEKYPIVDLSLFKDRNFTVGVIATSLGFMVYMGTLTLLP  291
+
+Query  263  TYLKSARGFSWAEMGWLASLPFVLSIFAKAAAGVFVDKI  301
+              L++  G++ A  G  A+   +L +F     G F +KI
+Sbjct  292  LVLQTNLGYTSAWAGLAAAPVGILPVFLSPLIGRFGNKI  330
+
+
+>VFG036960(gb|WP_003703449) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria gonorrhoeae NCCP11945]
+Length=507
+
+ Score = 48.5 bits (114),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 77/339 (23%), Positives = 131/339 (39%), Gaps = 57/339 (17%)
+
+Query  8    PPTRKRFL--IVACLFIGIFIAYLD----RVNVSVLAANEPFLAYMGIEGMPLQIGMMMT  61
+            PP +   L  +   L + +F+  LD     V V V+A N   L     +G         T
+Sbjct  4    PPLKGAALAWVTLSLGLAVFMEVLDTTIANVAVPVIAGN---LGAATTQG---------T  51
+
+Query  62   VFLAAYGIANVVLSPLGDYLGPR----KAMMLCILIWTIALMIGGVATSFALIIICRILL  117
+              + ++ +AN V  PL  +L  R    K        + IA  + G+A +   +++ RIL 
+Sbjct  52   WVITSFSVANAVSVPLTGFLAKRIGEVKLFTAAAAGFVIASWLCGIAPNLQSLVVFRILQ  111
+
+Query  118  GIGEGFYYPLQSVFIKNWFPKQERGRANAAWIVGQSVAPAIAMPFFTWWIGTHGWRSNFF  177
+            G   G   PL    +   +P  +R  A A W +   VAP +      W  G   W   FF
+Sbjct  112  GFIAGPLIPLSQSLLMASYPPAKRMLALALWAMTVVVAPVLGPILGGWISGNWHWGWIFF  171
+
+Query  178  LCAALGLIPLWLLWRYVADK-------PEQHKSISEQELA------YIKAGQETESAGSS  224
+            +   +G+I  W+ W+++  +       P  +  ++   +        +  G+E +   S 
+Sbjct  172  INIPIGIISAWITWKHLKHRETATVRTPTDYVGLTLMMVGIGALQMMLDRGKELDWFASG  231
+
+Query  225  ESFMLRVKPVI--TNYSYWLLVLWYLCLQC--------------------LYWGMITWLP  262
+            E   L V  ++  + +  W L   Y  +                      +Y G +T LP
+Sbjct  232  EIITLGVVALVCLSYFIVWELGEKYPIVDLSLFKDRNFTVGVIATSLGFMVYMGTLTLLP  291
+
+Query  263  TYLKSARGFSWAEMGWLASLPFVLSIFAKAAAGVFVDKI  301
+              L++  G++ A  G  A+   +L +F     G F +KI
+Sbjct  292  LVLQTNLGYTSAWAGLAAAPVGILPVFLSPLIGRFGNKI  330
+
+
+>VFG036962(gb|WP_014573759) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis 8013]
+Length=508
+
+ Score = 48.1 bits (113),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 51/203 (25%), Positives = 84/203 (41%), Gaps = 22/203 (11%)
+
+Query  8    PPTRKRFL--IVACLFIGIFIAYLD----RVNVSVLAANEPFLAYMGIEGMPLQIGMMMT  61
+            PP +   L  I   L + +F+  LD     V V V+A N   L     +G         T
+Sbjct  4    PPLKGAALAWITLSLGLAVFMEVLDTTIANVAVPVIAGN---LGAATTQG---------T  51
+
+Query  62   VFLAAYGIANVVLSPLGDYLGPR----KAMMLCILIWTIALMIGGVATSFALIIICRILL  117
+              + ++ +AN V  PL  +L  R    K      + + I   + G+A +   +++ RIL 
+Sbjct  52   WVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSWLCGIAPNLQSLVVFRILQ  111
+
+Query  118  GIGEGFYYPLQSVFIKNWFPKQERGRANAAWIVGQSVAPAIAMPFFTWWIGTHGWRSNFF  177
+            G   G   PL    +   +P  +R  A A W +   VAP +      W  G   W   FF
+Sbjct  112  GFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLGPILGGWISGNWHWGWIFF  171
+
+Query  178  LCAALGLIPLWLLWRYVADKPEQ  200
+            +   +G+I  W+ W+++  +  +
+Sbjct  172  INIPIGIISAWITWKHLKCRETE  194
+
+
+>VFG002097(gb|WP_010946287) (phtA) major facilitator family transporter, 
+phagosomal transporter [Pht (VF0337) - Nutritional/Metabolic 
+factor (VFC0272)] [Legionella pneumophila subsp. 
+pneumophila str. Philadelphia 1]
+Length=427
+
+ Score = 47.8 bits (112),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 73/341 (21%), Positives = 132/341 (39%), Gaps = 44/341 (13%)
+
+Query  57   GMMMTVFLAAYGIANVVLSPLGDYLGPRKAMMLCILIWTIALMIGGVATSFALIIICRIL  116
+            G++   F   Y +  + +    D L  R  + +  L+      + G+A       I R+L
+Sbjct  58   GILTASFYVPYILMQIPVGLTVDRLSIRWLLTIMSLVTAFGCCVFGLADGLLTASIGRML  117
+
+Query  117  LGIGEGFYYPLQSVFIKNWFPKQERGRANA-AWIVGQSVAPAIAMPFFTWWIGTHGWRSN  175
+            +G    F +        +WFP    G  +     +G   A A   P  ++ +   GWR +
+Sbjct  118  IGFSAAFAFICSLRLATSWFPPTMLGLLSGLTQALGMLGAAAGEAPV-SFLVSNVGWRHS  176
+
+Query  176  FFLCAALGLIPLWLLWRYVADKPEQHKSISEQELAYIKAGQETESAGSSESFMLRVKPVI  235
+              + A L +    LL+++V DKP +H++             E  S  +  S +  +K ++
+Sbjct  177  MLIIAFLFIALSGLLYQFVQDKPGEHRN-------------EIRSV-NRISILDSLKIIL  222
+
+Query  236  TNYSYWLLVLWYLCLQCLYWGMI---------TWLPTYLKSARGFSWAEMGWLASLPFVL  286
+            +N   W        L  +Y G +            P YL+  RG       +   L F+ 
+Sbjct  223  SNKQTW--------LNAMYAGFLFGPTAVIGEAIGPAYLQFGRGLGAHAAAFATGLIFIG  274
+
+Query  287  SIFAKAAAGVFVDKIGRSAPILMVLMFFAGV--SIYFGTITEHKYMSAVLLSFAVAFCTM  344
+               +   +G   DK+GR  P LM++    GV  S  F  I E    +A +L F       
+Sbjct  275  WGISGPLSGWISDKMGRRKP-LMIISAVCGVILSSLFVFIPEMSQTTAYILFFVFGLTNT  333
+
+Query  345  GTPVAWTLLQGMIPGKSISAASGVMNGVANGLSSLSPVFIG  385
+            G  +++  +   I  +S+        G +   ++++ +F+G
+Sbjct  334  GVAISYA-VSTEIHDRSVV-------GTSIAFTNMTSIFVG  366
+
+
+>VFG036966(gb|WP_014581242) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis M01-240149]
+Length=508
+
+ Score = 47.8 bits (112),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 50/203 (25%), Positives = 84/203 (41%), Gaps = 22/203 (11%)
+
+Query  8    PPTRKRFL--IVACLFIGIFIAYLD----RVNVSVLAANEPFLAYMGIEGMPLQIGMMMT  61
+            PP +   L  +   L + +F+  LD     V V V+A N   L     +G         T
+Sbjct  4    PPLKGAALAWVTLSLGLAVFMEVLDTTIANVAVPVIAGN---LGAATTQG---------T  51
+
+Query  62   VFLAAYGIANVVLSPLGDYLGPR----KAMMLCILIWTIALMIGGVATSFALIIICRILL  117
+              + ++ +AN V  PL  +L  R    K      + + I   + G+A +   +++ RIL 
+Sbjct  52   WVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSWLCGIAPNLQSLVVFRILQ  111
+
+Query  118  GIGEGFYYPLQSVFIKNWFPKQERGRANAAWIVGQSVAPAIAMPFFTWWIGTHGWRSNFF  177
+            G   G   PL    +   +P  +R  A A W +   VAP +      W  G   W   FF
+Sbjct  112  GFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLGPILGGWISGNWHWGWIFF  171
+
+Query  178  LCAALGLIPLWLLWRYVADKPEQ  200
+            +   +G+I  W+ W+++  +  +
+Sbjct  172  INIPIGIISAWITWKHLKYRETE  194
+
+
+>VFG036958(gb|WP_002247957) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis FAM18]
+Length=508
+
+ Score = 47.8 bits (112),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 50/203 (25%), Positives = 84/203 (41%), Gaps = 22/203 (11%)
+
+Query  8    PPTRKRFL--IVACLFIGIFIAYLD----RVNVSVLAANEPFLAYMGIEGMPLQIGMMMT  61
+            PP +   L  +   L + +F+  LD     V V V+A N   L     +G         T
+Sbjct  4    PPLKGAALAWVTLSLGLAVFMEVLDTTIANVAVPVIAGN---LGAATTQG---------T  51
+
+Query  62   VFLAAYGIANVVLSPLGDYLGPR----KAMMLCILIWTIALMIGGVATSFALIIICRILL  117
+              + ++ +AN V  PL  +L  R    K      + + I   + G+A +   +++ RIL 
+Sbjct  52   WVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSWLCGIAPNLQSLVVFRILQ  111
+
+Query  118  GIGEGFYYPLQSVFIKNWFPKQERGRANAAWIVGQSVAPAIAMPFFTWWIGTHGWRSNFF  177
+            G   G   PL    +   +P  +R  A A W +   VAP +      W  G   W   FF
+Sbjct  112  GFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLGPILGGWISGNWHWGWIFF  171
+
+Query  178  LCAALGLIPLWLLWRYVADKPEQ  200
+            +   +G+I  W+ W+++  +  +
+Sbjct  172  INIPIGIISAWITWKHLKYRETE  194
+
+
+>VFG036964(gb|WP_002218710) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis alpha710]
+Length=508
+
+ Score = 47.8 bits (112),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 50/203 (25%), Positives = 84/203 (41%), Gaps = 22/203 (11%)
+
+Query  8    PPTRKRFL--IVACLFIGIFIAYLD----RVNVSVLAANEPFLAYMGIEGMPLQIGMMMT  61
+            PP +   L  +   L + +F+  LD     V V V+A N   L     +G         T
+Sbjct  4    PPLKGAALAWVTLSLGLAVFMEVLDTTIANVAVPVIAGN---LGAATTQG---------T  51
+
+Query  62   VFLAAYGIANVVLSPLGDYLGPR----KAMMLCILIWTIALMIGGVATSFALIIICRILL  117
+              + ++ +AN V  PL  +L  R    K      + + I   + G+A +   +++ RIL 
+Sbjct  52   WVITSFAVANAVSVPLTGFLAKRIGEVKLFTAAAVGFVITSWLCGIAPNLQSLVVFRILQ  111
+
+Query  118  GIGEGFYYPLQSVFIKNWFPKQERGRANAAWIVGQSVAPAIAMPFFTWWIGTHGWRSNFF  177
+            G   G   PL    +   +P  +R  A A W +   VAP +      W  G   W   FF
+Sbjct  112  GFIAGPLIPLSQSLLMASYPPAKRTLALALWAMTVVVAPVLGPILGGWISGNWHWGWIFF  171
+
+Query  178  LCAALGLIPLWLLWRYVADKPEQ  200
+            +   +G+I  W+ W+++  +  +
+Sbjct  172  INIPIGIISAWITWKHLKCRETE  194
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.141    0.453    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3301947129
+
+
+Query= g4104.t1
+
+Length=402
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein req...  49.3    2e-06
+
+
+>VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein 
+required for import of Legiobactin [Legiobactin (VF0291) - 
+Nutritional/Metabolic factor (VFC0272)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=386
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 28/115 (24%), Positives = 58/115 (50%), Gaps = 0/115 (0%)
+
+Query  19   FVAYLDRSNLSVTLPTITHDLNIDGATASIVLTIFLIGYAFSNIFGGVFTQRYDPKKIVI  78
+            F+  +D   L+  LP++    ++   T  + +++FL+G A S I  G+ ++RY  K I I
+Sbjct  14   FLGNMDIHFLTPALPSLVDYFSVTPNTVQLTISLFLLGKALSMILWGLLSERYGRKPIFI  73
+
+Query  79   LMVLIWSIATVFVGFTSSVYVILICRLVLGITEGIYWPQQSRFASDWFSDKERTQ  133
+              +L++ ++   +    S+   L+CR + GI+ G          +D  +++  T+
+Sbjct  74   GGLLLFILSNFLIALNHSILPFLVCRFLQGISVGATLLMGRAMINDTHNEQNATK  128
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.144    0.442    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3133265700
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,292 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g777.t1
+
+Length=151
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000136(gb|NP_249456) (mucC) negative regulator for alginate bi...  293     8e-104
+VFG014947(gb|WP_003140935) (mucC) negative regulator for alginate...  291     2e-103
+VFG014946(gb|WP_003150212) (mucC) negative regulator for alginate...  253     7e-88 
+VFG014948(gb|WP_012018037) (mucC) negative regulator for alginate...  160     2e-51 
+VFG014949(gb|WP_011912407) (mucC) negative regulator for alginate...  147     4e-46 
+
+
+>VFG000136(gb|NP_249456) (mucC) negative regulator for alginate 
+biosynthesis MucB [Alginate (VF0091) - Biofilm (VFC0271)] 
+[Pseudomonas aeruginosa PAO1]
+Length=151
+
+ Score = 293 bits (749),  Expect = 8e-104, Method: Compositional matrix adjust.
+ Identities = 151/151 (100%), Positives = 151/151 (100%), Gaps = 0/151 (0%)
+
+Query  1    MIEEQGRVVATEPGAVWVETVRRSTCSSCSANAGCGQGLMQRLGVGAGRARVRALSDLSL  60
+            MIEEQGRVVATEPGAVWVETVRRSTCSSCSANAGCGQGLMQRLGVGAGRARVRALSDLSL
+Sbjct  1    MIEEQGRVVATEPGAVWVETVRRSTCSSCSANAGCGQGLMQRLGVGAGRARVRALSDLSL  60
+
+Query  61   RVGDAVVLGIHEDLLLRASVLFYLFPLLGFFVAALLATRAGLVEPLIIVSGLAGLLAAWL  120
+            RVGDAVVLGIHEDLLLRASVLFYLFPLLGFFVAALLATRAGLVEPLIIVSGLAGLLAAWL
+Sbjct  61   RVGDAVVLGIHEDLLLRASVLFYLFPLLGFFVAALLATRAGLVEPLIIVSGLAGLLAAWL  120
+
+Query  121  LVRRHARRHADDPASQPVVLRALISGPSDSA  151
+            LVRRHARRHADDPASQPVVLRALISGPSDSA
+Sbjct  121  LVRRHARRHADDPASQPVVLRALISGPSDSA  151
+
+
+>VFG014947(gb|WP_003140935) (mucC) negative regulator for alginate 
+biosynthesis MucB [Alginate (VF0091) - Biofilm (VFC0271)] 
+[Pseudomonas aeruginosa UCBPP-PA14]
+Length=151
+
+ Score = 291 bits (746),  Expect = 2e-103, Method: Compositional matrix adjust.
+ Identities = 150/151 (99%), Positives = 150/151 (99%), Gaps = 0/151 (0%)
+
+Query  1    MIEEQGRVVATEPGAVWVETVRRSTCSSCSANAGCGQGLMQRLGVGAGRARVRALSDLSL  60
+            MIEEQGRVVATEPGAVWVETVRRSTCSSCSANAGCGQGLMQRLGVGAGRARVRALSDLSL
+Sbjct  1    MIEEQGRVVATEPGAVWVETVRRSTCSSCSANAGCGQGLMQRLGVGAGRARVRALSDLSL  60
+
+Query  61   RVGDAVVLGIHEDLLLRASVLFYLFPLLGFFVAALLATRAGLVEPLIIVSGLAGLLAAWL  120
+            RVGDAVVLGIHEDLLLRASV FYLFPLLGFFVAALLATRAGLVEPLIIVSGLAGLLAAWL
+Sbjct  61   RVGDAVVLGIHEDLLLRASVFFYLFPLLGFFVAALLATRAGLVEPLIIVSGLAGLLAAWL  120
+
+Query  121  LVRRHARRHADDPASQPVVLRALISGPSDSA  151
+            LVRRHARRHADDPASQPVVLRALISGPSDSA
+Sbjct  121  LVRRHARRHADDPASQPVVLRALISGPSDSA  151
+
+
+>VFG014946(gb|WP_003150212) (mucC) negative regulator for alginate 
+biosynthesis MucB [Alginate (VF0091) - Biofilm (VFC0271)] 
+[Pseudomonas aeruginosa PA7]
+Length=151
+
+ Score = 253 bits (645),  Expect = 7e-88, Method: Compositional matrix adjust.
+ Identities = 140/151 (93%), Positives = 145/151 (96%), Gaps = 0/151 (0%)
+
+Query  1    MIEEQGRVVATEPGAVWVETVRRSTCSSCSANAGCGQGLMQRLGVGAGRARVRALSDLSL  60
+            MIEEQGRVVATEPGAVWVET RRSTCSSCS NAGCGQGL+QRLGVG GRARVRAL DLSL
+Sbjct  1    MIEEQGRVVATEPGAVWVETARRSTCSSCSVNAGCGQGLLQRLGVGEGRARVRALCDLSL  60
+
+Query  61   RVGDAVVLGIHEDLLLRASVLFYLFPLLGFFVAALLATRAGLVEPLIIVSGLAGLLAAWL  120
+            RVGD V+LGI EDLLLRAS+LFYLFPLLGFFVAALLA+RAGLVEPL+IVSGLAGLLAAWL
+Sbjct  61   RVGDGVILGIREDLLLRASILFYLFPLLGFFVAALLASRAGLVEPLVIVSGLAGLLAAWL  120
+
+Query  121  LVRRHARRHADDPASQPVVLRALISGPSDSA  151
+            LVRRHARRHADDPASQPVVLRALISGPSDSA
+Sbjct  121  LVRRHARRHADDPASQPVVLRALISGPSDSA  151
+
+
+>VFG014948(gb|WP_012018037) (mucC) negative regulator for alginate 
+biosynthesis MucB [Alginate (VF0091) - Biofilm (VFC0271)] 
+[Pseudomonas mendocina ymp]
+Length=151
+
+ Score = 160 bits (406),  Expect = 2e-51, Method: Compositional matrix adjust.
+ Identities = 99/144 (69%), Positives = 112/144 (78%), Gaps = 0/144 (0%)
+
+Query  1    MIEEQGRVVATEPGAVWVETVRRSTCSSCSANAGCGQGLMQRLGVGAGRARVRALSDLSL  60
+            MIEEQGRVVA EPGAVWVET+R+STCSSCSANA CGQGLM RLGVG  R  VRALSD  L
+Sbjct  1    MIEEQGRVVALEPGAVWVETLRKSTCSSCSANAACGQGLMDRLGVGRQRGYVRALSDSPL  60
+
+Query  61   RVGDAVVLGIHEDLLLRASVLFYLFPLLGFFVAALLATRAGLVEPLIIVSGLAGLLAAWL  120
+             VGD VV+G+ EDLL+R+S+L YL PLLG   AAL A   GL EPL+I++GL GL   WL
+Sbjct  61   SVGDTVVIGVREDLLVRSSLLVYLLPLLGLLAAALAADGLGLSEPLVILAGLLGLFFTWL  120
+
+Query  121  LVRRHARRHADDPASQPVVLRALI  144
+            LVR  A R A++PA QPVVLR L+
+Sbjct  121  LVRWRASRVAENPALQPVVLRTLL  144
+
+
+>VFG014949(gb|WP_011912407) (mucC) negative regulator for alginate 
+biosynthesis MucB [Alginate (VF0091) - Biofilm (VFC0271)] 
+[Pseudomonas stutzeri A1501]
+Length=150
+
+ Score = 147 bits (370),  Expect = 4e-46, Method: Compositional matrix adjust.
+ Identities = 87/148 (59%), Positives = 106/148 (72%), Gaps = 0/148 (0%)
+
+Query  1    MIEEQGRVVATEPGAVWVETVRRSTCSSCSANAGCGQGLMQRLGVGAGRARVRALSDLSL  60
+            MIEE GRVVA + GAVWVET R+STCS CSA  GCGQGLM  LGV   R  +RALSDL L
+Sbjct  1    MIEEPGRVVALDDGAVWVETRRKSTCSGCSAKNGCGQGLMDTLGVREQRGLIRALSDLQL  60
+
+Query  61   RVGDAVVLGIHEDLLLRASVLFYLFPLLGFFVAALLATRAGLVEPLIIVSGLAGLLAAWL  120
+            +VGD+V++G+ ED+LLR +VL YL PLL    AA LA +    EPL+I++G  G   AWL
+Sbjct  61   QVGDSVIVGVREDVLLRGAVLVYLLPLLMLMAAATLAAKFSAHEPLVILAGFGGFFVAWL  120
+
+Query  121  LVRRHARRHADDPASQPVVLRALISGPS  148
+             VR  +R  A DP  QPVVLRA+++GP+
+Sbjct  121  FVRMRSRTVASDPNLQPVVLRAMLAGPA  148
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.138    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 645121260
+
+
+Query= g2460.t1
+
+Length=159
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000136(gb|NP_249456) (mucC) negative regulator for alginate bi...  57.8    3e-11
+VFG014946(gb|WP_003150212) (mucC) negative regulator for alginate...  57.8    4e-11
+VFG014947(gb|WP_003140935) (mucC) negative regulator for alginate...  56.6    9e-11
+VFG014948(gb|WP_012018037) (mucC) negative regulator for alginate...  49.7    3e-08
+VFG014949(gb|WP_011912407) (mucC) negative regulator for alginate...  44.7    3e-06
+
+
+>VFG000136(gb|NP_249456) (mucC) negative regulator for alginate 
+biosynthesis MucB [Alginate (VF0091) - Biofilm (VFC0271)] 
+[Pseudomonas aeruginosa PAO1]
+Length=151
+
+ Score = 57.8 bits (138),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 45/141 (32%), Positives = 74/141 (52%), Gaps = 1/141 (1%)
+
+Query  1    MIKEWATVVSWQNGQAVVSCDVKASCSSCASRAGCGSRVLNKLGPQTTHTIVVPSAE-PL  59
+            MI+E   VV+ + G   V    +++CSSC++ AGCG  ++ +LG       V   ++  L
+Sbjct  1    MIEEQGRVVATEPGAVWVETVRRSTCSSCSANAGCGQGLMQRLGVGAGRARVRALSDLSL  60
+
+Query  60   APGQKVELGIAEKSLLGSALLVYMSPLAGLFLCAALFQMLFGSDLAALSGAVLGGVGGFL  119
+              G  V LGI E  LL +++L Y+ PL G F+ A L       +   +   + G +  +L
+Sbjct  61   RVGDAVVLGIHEDLLLRASVLFYLFPLLGFFVAALLATRAGLVEPLIIVSGLAGLLAAWL  120
+
+Query  120  VARGYSRKLAERDAWQPVILN  140
+            + R ++R+ A+  A QPV+L 
+Sbjct  121  LVRRHARRHADDPASQPVVLR  141
+
+
+>VFG014946(gb|WP_003150212) (mucC) negative regulator for alginate 
+biosynthesis MucB [Alginate (VF0091) - Biofilm (VFC0271)] 
+[Pseudomonas aeruginosa PA7]
+Length=151
+
+ Score = 57.8 bits (138),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 46/141 (33%), Positives = 72/141 (51%), Gaps = 1/141 (1%)
+
+Query  1    MIKEWATVVSWQNGQAVVSCDVKASCSSCASRAGCGSRVLNKLGPQTTHTIVVPSAE-PL  59
+            MI+E   VV+ + G   V    +++CSSC+  AGCG  +L +LG       V    +  L
+Sbjct  1    MIEEQGRVVATEPGAVWVETARRSTCSSCSVNAGCGQGLLQRLGVGEGRARVRALCDLSL  60
+
+Query  60   APGQKVELGIAEKSLLGSALLVYMSPLAGLFLCAALFQMLFGSDLAALSGAVLGGVGGFL  119
+              G  V LGI E  LL +++L Y+ PL G F+ A L       +   +   + G +  +L
+Sbjct  61   RVGDGVILGIREDLLLRASILFYLFPLLGFFVAALLASRAGLVEPLVIVSGLAGLLAAWL  120
+
+Query  120  VARGYSRKLAERDAWQPVILN  140
+            + R ++R+ A+  A QPV+L 
+Sbjct  121  LVRRHARRHADDPASQPVVLR  141
+
+
+>VFG014947(gb|WP_003140935) (mucC) negative regulator for alginate 
+biosynthesis MucB [Alginate (VF0091) - Biofilm (VFC0271)] 
+[Pseudomonas aeruginosa UCBPP-PA14]
+Length=151
+
+ Score = 56.6 bits (135),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 44/141 (31%), Positives = 73/141 (52%), Gaps = 1/141 (1%)
+
+Query  1    MIKEWATVVSWQNGQAVVSCDVKASCSSCASRAGCGSRVLNKLGPQTTHTIVVPSAE-PL  59
+            MI+E   VV+ + G   V    +++CSSC++ AGCG  ++ +LG       V   ++  L
+Sbjct  1    MIEEQGRVVATEPGAVWVETVRRSTCSSCSANAGCGQGLMQRLGVGAGRARVRALSDLSL  60
+
+Query  60   APGQKVELGIAEKSLLGSALLVYMSPLAGLFLCAALFQMLFGSDLAALSGAVLGGVGGFL  119
+              G  V LGI E  LL +++  Y+ PL G F+ A L       +   +   + G +  +L
+Sbjct  61   RVGDAVVLGIHEDLLLRASVFFYLFPLLGFFVAALLATRAGLVEPLIIVSGLAGLLAAWL  120
+
+Query  120  VARGYSRKLAERDAWQPVILN  140
+            + R ++R+ A+  A QPV+L 
+Sbjct  121  LVRRHARRHADDPASQPVVLR  141
+
+
+>VFG014948(gb|WP_012018037) (mucC) negative regulator for alginate 
+biosynthesis MucB [Alginate (VF0091) - Biofilm (VFC0271)] 
+[Pseudomonas mendocina ymp]
+Length=151
+
+ Score = 49.7 bits (117),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 50/144 (35%), Positives = 76/144 (53%), Gaps = 1/144 (1%)
+
+Query  1    MIKEWATVVSWQNGQAVVSCDVKASCSSCASRAGCGSRVLNKLGPQTTHTIVVP-SAEPL  59
+            MI+E   VV+ + G   V    K++CSSC++ A CG  ++++LG       V   S  PL
+Sbjct  1    MIEEQGRVVALEPGAVWVETLRKSTCSSCSANAACGQGLMDRLGVGRQRGYVRALSDSPL  60
+
+Query  60   APGQKVELGIAEKSLLGSALLVYMSPLAGLFLCAALFQMLFGSDLAALSGAVLGGVGGFL  119
+            + G  V +G+ E  L+ S+LLVY+ PL GL   A     L  S+   +   +LG    +L
+Sbjct  61   SVGDTVVIGVREDLLVRSSLLVYLLPLLGLLAAALAADGLGLSEPLVILAGLLGLFFTWL  120
+
+Query  120  VARGYSRKLAERDAWQPVILNVAL  143
+            + R  + ++AE  A QPV+L   L
+Sbjct  121  LVRWRASRVAENPALQPVVLRTLL  144
+
+
+>VFG014949(gb|WP_011912407) (mucC) negative regulator for alginate 
+biosynthesis MucB [Alginate (VF0091) - Biofilm (VFC0271)] 
+[Pseudomonas stutzeri A1501]
+Length=150
+
+ Score = 44.7 bits (104),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 48/148 (32%), Positives = 72/148 (49%), Gaps = 9/148 (6%)
+
+Query  1    MIKEWATVVSWQNGQAVVSCDVKASCSSCASRAGCGSRVLNKLGPQTTHTIVVPSAE-PL  59
+            MI+E   VV+  +G   V    K++CS C+++ GCG  +++ LG +    ++   ++  L
+Sbjct  1    MIEEPGRVVALDDGAVWVETRRKSTCSGCSAKNGCGQGLMDTLGVREQRGLIRALSDLQL  60
+
+Query  60   APGQKVELGIAEKSLLGSALLVYMSPLAGLFLCAALFQMLFGSDLAALSGAVLGGVGGFL  119
+              G  V +G+ E  LL  A+LVY+ PL  L   A L       +       +L G GGF 
+Sbjct  61   QVGDSVIVGVREDVLLRGAVLVYLLPLLMLMAAATLAAKFSAHEPL----VILAGFGGFF  116
+
+Query  120  VA----RGYSRKLAERDAWQPVILNVAL  143
+            VA    R  SR +A     QPV+L   L
+Sbjct  117  VAWLFVRMRSRTVASDPNLQPVVLRAML  144
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 718510613
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

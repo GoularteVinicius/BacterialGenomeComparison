@@ -1,0 +1,114 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2139.t1
+
+Length=305
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044254(gb|WP_000570808) (sbnA) 2,3-diaminopropionate biosynthe...  124     4e-33
+VFG044286(gb|WP_012367521) (PMI_RS01140) cysteine synthase family...  104     9e-26
+
+
+>VFG044254(gb|WP_000570808) (sbnA) 2,3-diaminopropionate biosynthesis 
+protein SbnA [Staphyloferrin B (VF1014) - Nutritional/Metabolic 
+factor (VFC0272)] [Staphylococcus aureus subsp. 
+aureus str. Newman]
+Length=326
+
+ Score = 124 bits (311),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 83/304 (27%), Positives = 153/304 (50%), Gaps = 10/304 (3%)
+
+Query  3    YDSLLDLIGGTPVIRLSKLSARLGVSVFAKLESFNPGGSHKARIALWMILDAERKGILVR  62
+            +DSLLD +G TP+++L +L  +    VFAKLE  NPGGS K R A ++I    + G++  
+Sbjct  9    HDSLLDSVGQTPMVQLHQLFPKH--EVFAKLEYMNPGGSMKDRPAKYIIEHGIKHGLIT-  65
+
+Query  63   GKGQTILEPSGGNTGIGLAMAGNILGYRVSLVVPDNYSPDKRQLLELYGAHVVLSDSRKG  122
+             +   ++E + GN GI LAM   I G +++ VV    SP   ++++ YGA+V + +    
+Sbjct  66   -ENTHLIESTSGNLGIALAMIAKIKGLKLTCVVDPKISPTNLKIIKSYGANVEMVEEPDA  124
+
+Query  123  NNSHGELAI----QILLEHPEFVMLNQQRNPANPQAHREATALEILRDFAGQPPPDFFFA  178
+            +  +    I    ++L    +   +NQ  N  N Q+H      EI+     + P D+F A
+Sbjct  125  HGGYLMTRIAKVQELLATIDDAYWINQYANELNWQSHYHGAGTEIVETI--KQPIDYFVA  182
+
+Query  179  GIGTGGHITGVGEVLRNHWPDMAIYGVQPEQCDLLDDRHASHEIQGLSIGIVPEVCNLGI  238
+             + T G I G+   ++   P+  I  V  +   +  D+  + E+ G+    VPE+ N   
+Sbjct  183  PVSTTGSIMGMSRKIKEVHPNAQIVAVDAKGSVIFGDKPINRELPGIGASRVPEILNRSE  242
+
+Query  239  VTGMVGVSKSACLSMIREVLQNDSVSMGLSSAANLVAVLNMASAMPSGARVLTMIYDGVE  298
+            +  ++ V         R+++  + +  G S+ + + A+  + +++  GA ++T++ D  +
+Sbjct  243  INQVIHVDDYQSALGCRKLIDYEGIFAGGSTGSIIAAIEQLITSIEEGATIVTILPDRGD  302
+
+Query  299  SYMD  302
+             Y+D
+Sbjct  303  RYLD  306
+
+
+>VFG044286(gb|WP_012367521) (PMI_RS01140) cysteine synthase family 
+protein [Proteobactin (VF1252) - Nutritional/Metabolic 
+factor (VFC0272)] [Proteus mirabilis HI4320]
+Length=338
+
+ Score = 104 bits (260),  Expect = 9e-26, Method: Compositional matrix adjust.
+ Identities = 72/214 (34%), Positives = 109/214 (51%), Gaps = 15/214 (7%)
+
+Query  1    MIYDSLLDLIGGTPVIRLSKLSARLGVSVFAKLESFNPGGSHKARIALWMILDAERKGIL  60
+            M++  + DLIG TP+I+L  L +     ++ K+E  NPGGS K R+A  M++ A + G +
+Sbjct  1    MVFSKVTDLIGNTPIIQLPLLQSD--TRLYIKVEKNNPGGSMKDRMARNMVVAALKSGKI  58
+
+Query  61   VRGKGQTILEPSGGNTGIGLAMAGNILGYRVSLVVPDNYSPDKRQLLELYGAHVVLSDSR  120
+                G TI+E S GNTGIGLA+A    G R   VV  + + DK  ++   GA +      
+Sbjct  59   --KPGSTIVESSSGNTGIGLAIAAIEFGLRFIAVVDHHAAQDKIAIMRALGAEIRYVKGD  116
+
+Query  121  KGNN-----SHGELAIQILLEHPEFVMLNQQRNPANPQAHREATALEILRDFAGQ-PPPD  174
+             G N         +A +I  E P  + +NQ  N AN   +      +++R+   Q    D
+Sbjct  117  YGENEVAVVERQRMAAEIANEIPGAIFMNQSDNAANAGGY-----ADLVRELISQIGKID  171
+
+Query  175  FFFAGIGTGGHITGVGEVLRNHWPDMAIYGVQPE  208
+             +   +GTGG +TG+   LR H P++    V+PE
+Sbjct  172  AWVGCVGTGGSMTGIAHGLRVHNPELVTIAVEPE  205
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2152537515
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

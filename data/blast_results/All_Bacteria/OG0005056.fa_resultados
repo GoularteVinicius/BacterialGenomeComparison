@@ -1,0 +1,97 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2404.t1
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG041036(gb|NP_251054) (PA2364) hypothetical protein [HSI-3 (VF0...  324     5e-116
+VFG041215(gb|WP_012907477) (ROD_RS16825) hypothetical protein [CT...  111     7e-32 
+
+
+>VFG041036(gb|NP_251054) (PA2364) hypothetical protein [HSI-3 
+(VF0944) - Effector delivery system (VFC0086)] [Pseudomonas 
+aeruginosa PAO1]
+Length=158
+
+ Score = 324 bits (831),  Expect = 5e-116, Method: Compositional matrix adjust.
+ Identities = 158/158 (100%), Positives = 158/158 (100%), Gaps = 0/158 (0%)
+
+Query  1    MKHGCFTICRKFSLALAILALAGCSYFFAPRVELQRLTLDVAARANDDSPIAVDFVAVKD  60
+            MKHGCFTICRKFSLALAILALAGCSYFFAPRVELQRLTLDVAARANDDSPIAVDFVAVKD
+Sbjct  1    MKHGCFTICRKFSLALAILALAGCSYFFAPRVELQRLTLDVAARANDDSPIAVDFVAVKD  60
+
+Query  61   AELFKELAGLPASQWFANREQYRRDYRQQFAVWSLELVPGQFIESESFPLRGDRATGLLV  120
+            AELFKELAGLPASQWFANREQYRRDYRQQFAVWSLELVPGQFIESESFPLRGDRATGLLV
+Sbjct  61   AELFKELAGLPASQWFANREQYRRDYRQQFAVWSLELVPGQFIESESFPLRGDRATGLLV  120
+
+Query  121  FAGYNTPGAHRLRLDQQQRVWLRLDTREMRLVNDPATR  158
+            FAGYNTPGAHRLRLDQQQRVWLRLDTREMRLVNDPATR
+Sbjct  121  FAGYNTPGAHRLRLDQQQRVWLRLDTREMRLVNDPATR  158
+
+
+>VFG041215(gb|WP_012907477) (ROD_RS16825) hypothetical protein 
+[CTS2 (VF1264) - Effector delivery system (VFC0086)] [Citrobacter 
+rodentium ICC168]
+Length=156
+
+ Score = 111 bits (278),  Expect = 7e-32, Method: Compositional matrix adjust.
+ Identities = 67/151 (44%), Positives = 84/151 (56%), Gaps = 7/151 (5%)
+
+Query  1    MKHGCFTICRKFSLALAIL---ALAGCSYFFAPRVELQRLTLDVAARANDDSPIAVDFVA  57
+            M H   +I R   L L IL      GC+ F+  RVEL  + +D A  AND++P+AVD VA
+Sbjct  1    MSH---SISRSIYLILLILFCMQTGGCA-FWQKRVELNAVQIDTAPDANDNAPVAVDIVA  56
+
+Query  58   VKDAELFKELAGLPASQWFANREQYRRDYRQQFAVWSLELVPGQFIESESFPLRGDRATG  117
+            + DA L   +  LPA+QWF  + Q  RD      VWSLELVPG    SE  PLR   A  
+Sbjct  57   IADAALVPTVQSLPAAQWFNAKSQLLRDAPDGLRVWSLELVPGSRYISEENPLRDAPAEA  116
+
+Query  118  LLVFAGYNTPGAHRLRLDQQQRVWLRLDTRE  148
+            +++FA Y + G HRLRLD    + L L T E
+Sbjct  117  IVLFARYRSAGDHRLRLDNLDSLHLLLMTDE  147
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.139    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 707786574
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

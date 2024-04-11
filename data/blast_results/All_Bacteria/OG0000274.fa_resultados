@@ -1,0 +1,724 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2364.t1
+
+Length=419
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG029172(gb|WP_005060526) (mbtN) Acyl-CoA dehydrogenase MbtN [My...  65.5    1e-11
+VFG049152(gb|WP_000337350) (clbF) colibactin biosynthesis dehydro...  51.2    6e-07
+VFG043689(gb|WP_000337350) (clbF) colibactin biosynthesis dehydro...  51.2    6e-07
+
+
+>VFG029172(gb|WP_005060526) (mbtN) Acyl-CoA dehydrogenase MbtN 
+[Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium abscessus subsp. bolletii str. GO 06]
+Length=379
+
+ Score = 65.5 bits (158),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 93/336 (28%), Positives = 139/336 (41%), Gaps = 33/336 (10%)
+
+Query  12   TSLSEGADYELLAQRFRPIFARIAEGAVERERQRELP-HEAIAWLKQAGFGAVRVPREHG  70
+            T  SE  D+    +R+  I  +I     E ER++ +P HE IA + + GF  +    E+G
+Sbjct  2    TFSSEHDDFRRTIRRY--IEEKINPRVDEWEREQMMPLHEVIADMAKLGFVGLEYDPEYG  59
+
+Query  71   GAGASLPQLVQLLIELAEAD-SNITQALRGHFAFVEDRLNAEPGPGRDRWLRRFVEGDLV  129
+            G GA     + L  EL   D  +   A   H A     L+     G D   R F+   L 
+Sbjct  60   GQGADHLFTLVLAEELGRVDHGSFPMAFGVHVAMATPSLHKH---GSDELKREFLAPALR  116
+
+Query  130  G-----CAWTE--VGSVRLGEVLTRVSRKDDGRWVVNGSKYYSTGSLFSDWIDLYAQRDD  182
+            G      A TE   GS   G  +   +R+D   WV+NGSK + T S+ +DW+ + A+  D
+Sbjct  117  GEQIAAIAVTEPDAGSDVAG--IKTHARRDGDDWVINGSKMFITNSVQADWLCVLARTSD  174
+
+Query  183  TG-----ADVIAAIRTDQPGVRQSDDWDGFGQRTTGSGTSLFEDAEVEEENLIDFASRFK  237
+             G     + +I   +T    VR+    D  G   + +G   F+D  V   N I    R  
+Sbjct  175  EGGYAGMSQIIVPTKTPGYEVRK---LDKLGMHASDTGLITFDDVRVPVSNTIGEIGR-G  230
+
+Query  238  YQTAFYQLVLLAVLAGTGRAALRDVAAEVRGRTRIYSHGNAPRVSQDPQVQQVVGRIAAR  297
+            +Q    Q V+  +    G  A  + A +   RT+ Y+   A +V   P  +    +  A 
+Sbjct  231  FQQQMSQFVMERMFGAYGIPASVNRALQ---RTKEYAL--ARQVFGKPLTKN---QHLAY  282
+
+Query  298  VYAAEAATLCAAEAAQRAYLARFVGDPQAEKEANIA  333
+             YA  AA     E   R   AR++      ++  IA
+Sbjct  283  QYAGLAARADMLEVYNRDIAARYMAGENVTRKVTIA  318
+
+
+>VFG049152(gb|WP_000337350) (clbF) colibactin biosynthesis dehydrogenase 
+ClbF [Colibactin (VF0573) - Exotoxin (VFC0235)] [Klebsiella 
+pneumoniae subsp. pneumoniae 1084]
+Length=376
+
+ Score = 51.2 bits (121),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 74/281 (26%), Positives = 125/281 (44%), Gaps = 37/281 (13%)
+
+Query  19   DYELLAQRFRPIFAR--IAEGAVERERQRELPHEAIAWLKQAGFGAVRVPREHGGAGASL  76
+            +YEL AQ+   +FA+  +A  A   ERQ+ +  + I+ + QAG+    +P+++GG G   
+Sbjct  5    NYEL-AQQEAVLFAKQHLALAAQNIERQQFIVPDIISCVAQAGYLGASIPQKYGGRGYDS  63
+
+Query  77   PQLVQLLIELAEADSNITQAL--RGHFAFVEDRLNAEPGPGRDRWLRRFVEGDLVG-CAW  133
+             QL  L   +A    ++   +   G  + +  R+ +     +  +L +   G+L+G  A 
+Sbjct  64   YQLCALHEVMAGVHGSLENLITVTGMVSTLLQRVGS--AAQKAHYLPKLATGELIGAIAL  121
+
+Query  134  TE--VGSVRLGEVLTRVSRKDDGRWVVNGSKYYSTGSLFSDWIDLYAQRDDTGADVIAAI  191
+            TE  +GS  L  V T + +  DG W +NG K + T    +D+  +     +  A V+   
+Sbjct  122  TEPNIGS-DLVNVETELQQDGDG-WRLNGKKKWITLGQIADFFIVLIHCGNQLATVLIDR  179
+
+Query  192  RTDQPGVRQSDDWDGFGQRTTGSGTSLFEDAEVEEENL-----------IDFA-SRFKYQ  239
+             TD  G   +   D  G R        F D  ++E+ L           ++FA +  ++ 
+Sbjct  180  NTD--GFTITPLNDMLGLRGNMLAELHFNDCRLKEDALLGPLTPGVPLAVNFALNEGRFT  237
+
+Query  240  TAFYQLVLLAVLAGTGRAALRDVAAEVRGRT----RIYSHG  276
+            TA   L       G  RAA+   A  +R R     R++SHG
+Sbjct  238  TACGSL-------GLCRAAVDVAARYIRQRKQFKRRLFSHG  271
+
+
+>VFG043689(gb|WP_000337350) (clbF) colibactin biosynthesis dehydrogenase 
+ClbF [Colibactin (VF1179) - Exotoxin (VFC0235)] [Escherichia 
+coli O18:K1:H7 str. IHE3034]
+Length=376
+
+ Score = 51.2 bits (121),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 74/281 (26%), Positives = 125/281 (44%), Gaps = 37/281 (13%)
+
+Query  19   DYELLAQRFRPIFAR--IAEGAVERERQRELPHEAIAWLKQAGFGAVRVPREHGGAGASL  76
+            +YEL AQ+   +FA+  +A  A   ERQ+ +  + I+ + QAG+    +P+++GG G   
+Sbjct  5    NYEL-AQQEAVLFAKQHLALAAQNIERQQFIVPDIISCVAQAGYLGASIPQKYGGRGYDS  63
+
+Query  77   PQLVQLLIELAEADSNITQAL--RGHFAFVEDRLNAEPGPGRDRWLRRFVEGDLVG-CAW  133
+             QL  L   +A    ++   +   G  + +  R+ +     +  +L +   G+L+G  A 
+Sbjct  64   YQLCALHEVMAGVHGSLENLITVTGMVSTLLQRVGS--AAQKAHYLPKLATGELIGAIAL  121
+
+Query  134  TE--VGSVRLGEVLTRVSRKDDGRWVVNGSKYYSTGSLFSDWIDLYAQRDDTGADVIAAI  191
+            TE  +GS  L  V T + +  DG W +NG K + T    +D+  +     +  A V+   
+Sbjct  122  TEPNIGS-DLVNVETELQQDGDG-WRLNGKKKWITLGQIADFFIVLIHCGNQLATVLIDR  179
+
+Query  192  RTDQPGVRQSDDWDGFGQRTTGSGTSLFEDAEVEEENL-----------IDFA-SRFKYQ  239
+             TD  G   +   D  G R        F D  ++E+ L           ++FA +  ++ 
+Sbjct  180  NTD--GFTITPLNDMLGLRGNMLAELHFNDCRLKEDALLGPLTPGVPLAVNFALNEGRFT  237
+
+Query  240  TAFYQLVLLAVLAGTGRAALRDVAAEVRGRT----RIYSHG  276
+            TA   L       G  RAA+   A  +R R     R++SHG
+Sbjct  238  TACGSL-------GLCRAAVDVAARYIRQRKQFKRRLFSHG  271
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3291530892
+
+
+Query= g2365.t1
+
+Length=411
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.134    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3208200996
+
+
+Query= g2386.t1
+
+Length=411
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3208200996
+
+
+Query= g2387.t1
+
+Length=405
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049152(gb|WP_000337350) (clbF) colibactin biosynthesis dehydro...  67.8    2e-12
+VFG043689(gb|WP_000337350) (clbF) colibactin biosynthesis dehydro...  67.8    2e-12
+VFG031003(gb|WP_013830615) (fadE29) acyl-CoA dehydrogenase family...  53.9    8e-08
+VFG031015(gb|WP_015294487) (fadE29) acyl-CoA dehydrogenase family...  52.8    2e-07
+VFG031026(gb|YP_007959529) (fadE29) acyl-CoA dehydrogenase [FadE2...  52.4    3e-07
+VFG030991(gb|WP_011857155) (fadE29) acyl-CoA dehydrogenase family...  52.0    3e-07
+VFG030992(gb|WP_011562052) (fadE29) acyl-CoA dehydrogenase family...  52.0    3e-07
+VFG031014(gb|WP_015291531) (fadE29) acyl-CoA dehydrogenase family...  52.0    3e-07
+VFG030983(gb|NP_218060) (fadE29) acyl-CoA dehydrogenase FadE29 [F...  51.6    4e-07
+VFG030984(gb|WP_003917816) (fadE29) acyl-CoA dehydrogenase family...  51.6    4e-07
+VFG030989(gb|WP_011892407) (fadE29) acyl-CoA dehydrogenase family...  50.8    8e-07
+VFG030998(gb|YP_001701367) (fadE29) Putative acyl-CoA dehydrogena...  50.1    1e-06
+VFG031016(gb|WP_015357393) (fadE29) acyl-CoA dehydrogenase family...  49.7    1e-06
+VFG031002(gb|WP_012396554) (fadE29) acyl-CoA dehydrogenase family...  49.7    2e-06
+VFG030995(gb|WP_011741754) (fadE29) acyl-CoA dehydrogenase family...  49.7    2e-06
+VFG030986(gb|WP_003875682) (fadE29) acyl-CoA dehydrogenase family...  48.9    3e-06
+
+
+>VFG049152(gb|WP_000337350) (clbF) colibactin biosynthesis dehydrogenase 
+ClbF [Colibactin (VF0573) - Exotoxin (VFC0235)] [Klebsiella 
+pneumoniae subsp. pneumoniae 1084]
+Length=376
+
+ Score = 67.8 bits (164),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 90/372 (24%), Positives = 156/372 (42%), Gaps = 43/372 (12%)
+
+Query  23   EALETARELAALFARESI-----QRDRERRLPLEELELFSRSGLWGIAVPREYGGAGVSR  77
+            E  E A++ A LFA++ +       +R++ +  + +   +++G  G ++P++YGG G   
+Sbjct  4    ENYELAQQEAVLFAKQHLALAAQNIERQQFIVPDIISCVAQAGYLGASIPQKYGGRGYDS  63
+
+Query  78   VTLAKVVAIVSAADSSLGQIPQNHFYALEVLRVNGSPAQKGRLFGAALAGERFGN-ALAE  136
+              L  +  +++    SL  +         +L+  GS AQK         GE  G  AL E
+Sbjct  64   YQLCALHEVMAGVHGSLENLITVTGMVSTLLQRVGSAAQKAHYLPKLATGELIGAIALTE  123
+
+Query  137  --IGTRTASERRTRLRADGDGYRLDGRKFYCTGALYAQRVPTLAVDDEGRQQLA--FVPR  192
+              IG+   +   T L+ DGDG+RL+G+K + T     Q      V      QLA   + R
+Sbjct  124  PNIGSDLVN-VETELQQDGDGWRLNGKKKWIT---LGQIADFFIVLIHCGNQLATVLIDR  179
+
+Query  193  DSAGLEIVDDWSGFGQRTTGSGSALFDRVAVAAEDVVSFQDAFERPTTVG-PLA------  245
+            ++ G  I       G R        F+       D    +DA   P T G PLA      
+Sbjct  180  NTDGFTITPLNDMLGLRGNMLAELHFN-------DCRLKEDALLGPLTPGVPLAVNFALN  232
+
+Query  246  --QILHAAIDAGIARGAFEDTLRFVRERARPWVDSGVDKASDDPLTIHEIGRLAIRLHAA  303
+              +   A    G+ R A +   R++R+R          K     L  H I +    L A 
+Sbjct  233  EGRFTTACGSLGLCRAAVDVAARYIRQR----------KQFKRRLFSHGIVQ---HLFAT  279
+
+Query  304  EALLERAGRVLDRATAEPDAESVAAASIAVAEARALTTEVALLAGSKLIELGGSRACLAE  363
+                 R+ +++  + AE       A    +  A+ + ++ A+    K ++L G+  C A+
+Sbjct  280  MLTQTRSAQLMCFSAAEYRETLHPAMINQILMAKYVASKAAVDVAGKAVQLLGANGCHAD  339
+
+Query  364  LGLDRHWRNARV  375
+              ++R++R+A++
+Sbjct  340  YAVERYYRDAKI  351
+
+
+>VFG043689(gb|WP_000337350) (clbF) colibactin biosynthesis dehydrogenase 
+ClbF [Colibactin (VF1179) - Exotoxin (VFC0235)] [Escherichia 
+coli O18:K1:H7 str. IHE3034]
+Length=376
+
+ Score = 67.8 bits (164),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 90/372 (24%), Positives = 156/372 (42%), Gaps = 43/372 (12%)
+
+Query  23   EALETARELAALFARESI-----QRDRERRLPLEELELFSRSGLWGIAVPREYGGAGVSR  77
+            E  E A++ A LFA++ +       +R++ +  + +   +++G  G ++P++YGG G   
+Sbjct  4    ENYELAQQEAVLFAKQHLALAAQNIERQQFIVPDIISCVAQAGYLGASIPQKYGGRGYDS  63
+
+Query  78   VTLAKVVAIVSAADSSLGQIPQNHFYALEVLRVNGSPAQKGRLFGAALAGERFGN-ALAE  136
+              L  +  +++    SL  +         +L+  GS AQK         GE  G  AL E
+Sbjct  64   YQLCALHEVMAGVHGSLENLITVTGMVSTLLQRVGSAAQKAHYLPKLATGELIGAIALTE  123
+
+Query  137  --IGTRTASERRTRLRADGDGYRLDGRKFYCTGALYAQRVPTLAVDDEGRQQLA--FVPR  192
+              IG+   +   T L+ DGDG+RL+G+K + T     Q      V      QLA   + R
+Sbjct  124  PNIGSDLVN-VETELQQDGDGWRLNGKKKWIT---LGQIADFFIVLIHCGNQLATVLIDR  179
+
+Query  193  DSAGLEIVDDWSGFGQRTTGSGSALFDRVAVAAEDVVSFQDAFERPTTVG-PLA------  245
+            ++ G  I       G R        F+       D    +DA   P T G PLA      
+Sbjct  180  NTDGFTITPLNDMLGLRGNMLAELHFN-------DCRLKEDALLGPLTPGVPLAVNFALN  232
+
+Query  246  --QILHAAIDAGIARGAFEDTLRFVRERARPWVDSGVDKASDDPLTIHEIGRLAIRLHAA  303
+              +   A    G+ R A +   R++R+R          K     L  H I +    L A 
+Sbjct  233  EGRFTTACGSLGLCRAAVDVAARYIRQR----------KQFKRRLFSHGIVQ---HLFAT  279
+
+Query  304  EALLERAGRVLDRATAEPDAESVAAASIAVAEARALTTEVALLAGSKLIELGGSRACLAE  363
+                 R+ +++  + AE       A    +  A+ + ++ A+    K ++L G+  C A+
+Sbjct  280  MLTQTRSAQLMCFSAAEYRETLHPAMINQILMAKYVASKAAVDVAGKAVQLLGANGCHAD  339
+
+Query  364  LGLDRHWRNARV  375
+              ++R++R+A++
+Sbjct  340  YAVERYYRDAKI  351
+
+
+>VFG031003(gb|WP_013830615) (fadE29) acyl-CoA dehydrogenase family 
+protein [FadE29 (VF0845) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium sp. JDM601]
+Length=387
+
+ Score = 53.9 bits (128),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 43/134 (32%), Positives = 62/134 (46%), Gaps = 6/134 (4%)
+
+Query  38   ESIQRDRERRLPLEELELFSRSGLWGIAVPREYGGAGVSRVTLAKVVAIVSAADSSLGQI  97
+            +++  DR  +   + +    R G  G+  P+E+GG G   +     V     AD  L  +
+Sbjct  30   KAMASDRHNQAYRDVIRRMGRDGKLGVGWPKEFGGLGFGPIEQQIFVNEAQRADIPLPAV  89
+
+Query  98   PQNHFYALEVLRVNGSPAQKGRLFGAALAGE---RFGNALAEIGTRTASERRTRLRADGD  154
+                      L+V G+ AQK +   A LAGE     G    E GT  AS R T +R DGD
+Sbjct  90   TLQTVGP--TLQVYGNEAQKKKFLPAILAGEVHFAIGYTEPEAGTDLASLRTTAVR-DGD  146
+
+Query  155  GYRLDGRKFYCTGA  168
+             Y ++G+K + TGA
+Sbjct  147  HYIVNGQKVFTTGA  160
+
+
+>VFG031015(gb|WP_015294487) (fadE29) acyl-CoA dehydrogenase family 
+protein [FadE29 (VF0845) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium canettii CIPT 140070017]
+Length=387
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 43/135 (32%), Positives = 61/135 (45%), Gaps = 6/135 (4%)
+
+Query  37   RESIQRDRERRLPLEELELFSRSGLWGIAVPREYGGAGVSRVTLAKVVAIVSAADSSLGQ  96
+            R+ +++DR        +    R G  G+  P+E+GG G   +     V     AD  L  
+Sbjct  29   RKEMEKDRHGPAYRAVIRRMGRDGRLGVGWPKEFGGLGFGPIEQQIFVNEAHRADVPLPA  88
+
+Query  97   IPQNHFYALEVLRVNGSPAQKGRLFGAALAGE---RFGNALAEIGTRTASERRTRLRADG  153
+            +          L++ GS  QK +   A LAGE     G    E GT  AS R T +R DG
+Sbjct  89   VTLQTVGP--TLQMYGSELQKKKFLPAILAGEVHFAIGYTEPEAGTDLASLRTTAVR-DG  145
+
+Query  154  DGYRLDGRKFYCTGA  168
+            D Y ++G+K + TGA
+Sbjct  146  DHYIVNGQKIFTTGA  160
+
+
+>VFG031026(gb|YP_007959529) (fadE29) acyl-CoA dehydrogenase [FadE29 
+(VF0845) - Nutritional/Metabolic factor (VFC0272)] [Mycobacterium 
+tuberculosis str. Haarlem/NITR202]
+Length=387
+
+ Score = 52.4 bits (124),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 43/135 (32%), Positives = 60/135 (44%), Gaps = 6/135 (4%)
+
+Query  37   RESIQRDRERRLPLEELELFSRSGLWGIAVPREYGGAGVSRVTLAKVVAIVSAADSSLGQ  96
+            R  +++DR        +    R G  G+  P+E+GG G   +     V     AD  L  
+Sbjct  29   RTEMEKDRHGPAYRAVIRRMGRDGRLGVGWPKEFGGLGFGPIEQQIFVNEAHRADVPLPA  88
+
+Query  97   IPQNHFYALEVLRVNGSPAQKGRLFGAALAGE---RFGNALAEIGTRTASERRTRLRADG  153
+            +          L+ +GS  QK +   A LAGE     G    E GT  AS R T +R DG
+Sbjct  89   VTLQTVGP--TLQAHGSELQKKKFLPAILAGEAHFAIGYTEPEAGTXLASLRTTAVR-DG  145
+
+Query  154  DGYRLDGRKFYCTGA  168
+            D Y ++G+K + TGA
+Sbjct  146  DHYIVNGQKVFTTGA  160
+
+
+>VFG030991(gb|WP_011857155) (fadE29) acyl-CoA dehydrogenase family 
+protein [FadE29 (VF0845) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium sp. JLS]
+Length=387
+
+ Score = 52.0 bits (123),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 42/135 (31%), Positives = 64/135 (47%), Gaps = 6/135 (4%)
+
+Query  37   RESIQRDRERRLPLEELELFSRSGLWGIAVPREYGGAGVSRVTLAKVVAIVSAADSSLGQ  96
+            R++++ DR        ++     G  G+  P+E+GG G   V  +  V   + AD  L  
+Sbjct  29   RDAMETDRHNEAYRAVIKRMGADGKLGVGWPKEFGGLGFGPVEQSIFVNEAARADVPLPA  88
+
+Query  97   IPQNHFYALEVLRVNGSPAQKGRLFGAALAGE---RFGNALAEIGTRTASERRTRLRADG  153
+            +          L+V G+ AQK +   A LAGE     G +  E GT  AS R + +R  G
+Sbjct  89   VTLQTVGP--TLQVYGTEAQKKKFLPAILAGEVHFAIGYSEPEAGTDLASLRTSAVR-HG  145
+
+Query  154  DGYRLDGRKFYCTGA  168
+            D Y ++G+K + TGA
+Sbjct  146  DEYIVNGQKMWTTGA  160
+
+
+>VFG030992(gb|WP_011562052) (fadE29) acyl-CoA dehydrogenase family 
+protein [FadE29 (VF0845) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium sp. KMS]
+Length=387
+
+ Score = 52.0 bits (123),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 42/135 (31%), Positives = 64/135 (47%), Gaps = 6/135 (4%)
+
+Query  37   RESIQRDRERRLPLEELELFSRSGLWGIAVPREYGGAGVSRVTLAKVVAIVSAADSSLGQ  96
+            R++++ DR        ++     G  G+  P+E+GG G   V  +  V   + AD  L  
+Sbjct  29   RDAMETDRHNEAYRAVIKRMGADGKLGVGWPKEFGGLGFGPVEQSIFVNEAARADVPLPA  88
+
+Query  97   IPQNHFYALEVLRVNGSPAQKGRLFGAALAGE---RFGNALAEIGTRTASERRTRLRADG  153
+            +          L+V G+ AQK +   A LAGE     G +  E GT  AS R + +R  G
+Sbjct  89   VTLQTVGP--TLQVYGTEAQKKKFLPAILAGEVHFAIGYSEPEAGTDLASLRTSAVR-HG  145
+
+Query  154  DGYRLDGRKFYCTGA  168
+            D Y ++G+K + TGA
+Sbjct  146  DEYIVNGQKMWTTGA  160
+
+
+>VFG031014(gb|WP_015291531) (fadE29) acyl-CoA dehydrogenase family 
+protein [FadE29 (VF0845) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium canettii CIPT 140070010]
+Length=387
+
+ Score = 52.0 bits (123),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 43/135 (32%), Positives = 60/135 (44%), Gaps = 6/135 (4%)
+
+Query  37   RESIQRDRERRLPLEELELFSRSGLWGIAVPREYGGAGVSRVTLAKVVAIVSAADSSLGQ  96
+            R  +++DR        +    R G  G+  P+E+GG G   +     V     AD  L  
+Sbjct  29   RTEMEKDRHGPAYRAVIRRMGRDGRLGVGWPKEFGGLGFGPIEQQIFVNEAHRADVPLPA  88
+
+Query  97   IPQNHFYALEVLRVNGSPAQKGRLFGAALAGE---RFGNALAEIGTRTASERRTRLRADG  153
+            +          L+ +GS  QK +   A LAGE     G    E GT  AS R T +R DG
+Sbjct  89   VTLQTVGP--TLQAHGSELQKKKFLPAILAGEAHFAIGYTEPEAGTDLASLRTTAVR-DG  145
+
+Query  154  DGYRLDGRKFYCTGA  168
+            D Y ++G+K + TGA
+Sbjct  146  DHYIVNGQKVFTTGA  160
+
+
+>VFG030983(gb|NP_218060) (fadE29) acyl-CoA dehydrogenase FadE29 
+[FadE29 (VF0845) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=387
+
+ Score = 51.6 bits (122),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 43/135 (32%), Positives = 60/135 (44%), Gaps = 6/135 (4%)
+
+Query  37   RESIQRDRERRLPLEELELFSRSGLWGIAVPREYGGAGVSRVTLAKVVAIVSAADSSLGQ  96
+            R  +++DR        +    R G  G+  P+E+GG G   +     V     AD  L  
+Sbjct  29   RTEMEKDRHGPAYRAVIRRMGRDGRLGVGWPKEFGGLGFGPIEQQIFVNEAHRADVPLPA  88
+
+Query  97   IPQNHFYALEVLRVNGSPAQKGRLFGAALAGE---RFGNALAEIGTRTASERRTRLRADG  153
+            +          L+ +GS  QK +   A LAGE     G    E GT  AS R T +R DG
+Sbjct  89   VTLQTVGP--TLQAHGSELQKKKFLPAILAGEAHFAIGYTEPEAGTDLASLRTTAVR-DG  145
+
+Query  154  DGYRLDGRKFYCTGA  168
+            D Y ++G+K + TGA
+Sbjct  146  DHYIVNGQKVFTTGA  160
+
+
+>VFG030984(gb|WP_003917816) (fadE29) acyl-CoA dehydrogenase family 
+protein [FadE29 (VF0845) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium tuberculosis CDC1551]
+Length=387
+
+ Score = 51.6 bits (122),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 43/135 (32%), Positives = 60/135 (44%), Gaps = 6/135 (4%)
+
+Query  37   RESIQRDRERRLPLEELELFSRSGLWGIAVPREYGGAGVSRVTLAKVVAIVSAADSSLGQ  96
+            R  +++DR        +    R G  G+  P+E+GG G   +     V     AD  L  
+Sbjct  29   RTEMEKDRHGPAYRAVIRRMGRDGRLGVGWPKEFGGLGFGPIEQQIFVNEAHRADVPLPA  88
+
+Query  97   IPQNHFYALEVLRVNGSPAQKGRLFGAALAGE---RFGNALAEIGTRTASERRTRLRADG  153
+            +          L+ +GS  QK +   A LAGE     G    E GT  AS R T +R DG
+Sbjct  89   VTLQTVGP--TLQAHGSELQKKKFLPAILAGEAHFAIGYTEPEAGTDLASLRTTAVR-DG  145
+
+Query  154  DGYRLDGRKFYCTGA  168
+            D Y ++G+K + TGA
+Sbjct  146  DHYIVNGQKVFTTGA  160
+
+
+>VFG030989(gb|WP_011892407) (fadE29) acyl-CoA dehydrogenase family 
+protein [FadE29 (VF0845) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium gilvum PYR-GCK]
+Length=387
+
+ Score = 50.8 bits (120),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 40/134 (30%), Positives = 61/134 (46%), Gaps = 6/134 (4%)
+
+Query  38   ESIQRDRERRLPLEELELFSRSGLWGIAVPREYGGAGVSRVTLAKVVAIVSAADSSLGQI  97
+            E+++ DR        ++     G  G+  P+EYGG G   +     V   + AD  L  +
+Sbjct  30   EAMKSDRHNEAYRAVIKRMGSDGKLGVGWPKEYGGLGFGPIEQQIFVNEANRADVPLPMV  89
+
+Query  98   PQNHFYALEVLRVNGSPAQKGRLFGAALAGE---RFGNALAEIGTRTASERRTRLRADGD  154
+                      L+V+G+  QK +     L+GE     G +  E GT  AS R T +R  GD
+Sbjct  90   TLQTVGP--TLQVHGTEEQKKKFLPGILSGEVHFAIGYSEPEAGTDLASLRTTAVR-HGD  146
+
+Query  155  GYRLDGRKFYCTGA  168
+             Y ++G+K + TGA
+Sbjct  147  EYVVNGQKMWTTGA  160
+
+
+>VFG030998(gb|YP_001701367) (fadE29) Putative acyl-CoA dehydrogenase 
+[FadE29 (VF0845) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium abscessus ATCC 19977]
+Length=387
+
+ Score = 50.1 bits (118),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 39/122 (32%), Positives = 55/122 (45%), Gaps = 6/122 (5%)
+
+Query  56   FSRSGLWGIAVPREYGGAGVSRVTLAKVVAIVSAADSSLGQIPQNHFYALEVLRVNGSPA  115
+              + G  G+  P+EYGG G   +     +  V  AD  +  +          L+  G+  
+Sbjct  48   MGQDGWLGVGWPKEYGGHGFGPLEQQIFMNEVMRADVPMPLVTLQTVGP--TLQKYGTEE  105
+
+Query  116  QKGRLFGAALAGE---RFGNALAEIGTRTASERRTRLRADGDGYRLDGRKFYCTGALYAQ  172
+            QK +     LAGE     G    E GT  AS R T +R DGD Y ++G+K + TGA  AQ
+Sbjct  106  QKKKFLPGILAGEIHFAIGYTEPEAGTDLASLRTTAVR-DGDHYVVNGQKIFTTGAHQAQ  164
+
+Query  173  RV  174
+             +
+Sbjct  165  YI  166
+
+
+>VFG031016(gb|WP_015357393) (fadE29) acyl-CoA dehydrogenase family 
+protein [FadE29 (VF0845) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium liflandii 128FXT]
+Length=387
+
+ Score = 49.7 bits (117),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 41/134 (31%), Positives = 60/134 (45%), Gaps = 6/134 (4%)
+
+Query  38   ESIQRDRERRLPLEELELFSRSGLWGIAVPREYGGAGVSRVTLAKVVAIVSAADSSLGQI  97
+            +++++DR        +    + G  G+  P+E+GG G   +     V     AD  L  +
+Sbjct  30   KAMEKDRHNAAYRAVIRRMGKDGKLGVGWPKEFGGLGFGPIEQQIFVNEAHRADVPLPAV  89
+
+Query  98   PQNHFYALEVLRVNGSPAQKGRLFGAALAGE---RFGNALAEIGTRTASERRTRLRADGD  154
+                      L+  GS AQK +   A LAGE     G    E GT  AS R T +R  GD
+Sbjct  90   TLQTVGP--TLQAYGSDAQKKKFLPAILAGEVHFAIGYTEPEAGTDLASLRTTAVR-QGD  146
+
+Query  155  GYRLDGRKFYCTGA  168
+             Y ++G+K + TGA
+Sbjct  147  EYIVNGQKIFTTGA  160
+
+
+>VFG031002(gb|WP_012396554) (fadE29) acyl-CoA dehydrogenase family 
+protein [FadE29 (VF0845) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium marinum M]
+Length=387
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 41/134 (31%), Positives = 60/134 (45%), Gaps = 6/134 (4%)
+
+Query  38   ESIQRDRERRLPLEELELFSRSGLWGIAVPREYGGAGVSRVTLAKVVAIVSAADSSLGQI  97
+            +++++DR        +    + G  G+  P+E+GG G   +     V     AD  L  +
+Sbjct  30   KAMEKDRHNAAYRAVIRRMGKDGKLGVGWPKEFGGLGFGPIEQQIFVNEAHRADVPLPAV  89
+
+Query  98   PQNHFYALEVLRVNGSPAQKGRLFGAALAGE---RFGNALAEIGTRTASERRTRLRADGD  154
+                      L+  GS AQK +   A LAGE     G    E GT  AS R T +R  GD
+Sbjct  90   TLQTVGP--TLQAYGSDAQKKKFLPAILAGEVHFAIGYTEPEAGTDLASLRTTAVR-QGD  146
+
+Query  155  GYRLDGRKFYCTGA  168
+             Y ++G+K + TGA
+Sbjct  147  EYIVNGQKIFTTGA  160
+
+
+>VFG030995(gb|WP_011741754) (fadE29) acyl-CoA dehydrogenase family 
+protein [FadE29 (VF0845) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium ulcerans Agy99]
+Length=387
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 41/134 (31%), Positives = 60/134 (45%), Gaps = 6/134 (4%)
+
+Query  38   ESIQRDRERRLPLEELELFSRSGLWGIAVPREYGGAGVSRVTLAKVVAIVSAADSSLGQI  97
+            +++++DR        +    + G  G+  P+E+GG G   +     V     AD  L  +
+Sbjct  30   KAMEKDRHNAAYRAVIRRMGKDGKLGVGWPKEFGGLGFGPIEQQIFVNEAHRADVPLPAV  89
+
+Query  98   PQNHFYALEVLRVNGSPAQKGRLFGAALAGE---RFGNALAEIGTRTASERRTRLRADGD  154
+                      L+  GS AQK +   A LAGE     G    E GT  AS R T +R  GD
+Sbjct  90   TLQTVGP--TLQAYGSDAQKKKFLPAILAGEVHFAIGYTEPEAGTDLASLRTTAVR-QGD  146
+
+Query  155  GYRLDGRKFYCTGA  168
+             Y ++G+K + TGA
+Sbjct  147  EYIVNGQKIFTTGA  160
+
+
+>VFG030986(gb|WP_003875682) (fadE29) acyl-CoA dehydrogenase family 
+protein [FadE29 (VF0845) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium avium subsp. paratuberculosis K-10]
+Length=387
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 41/134 (31%), Positives = 60/134 (45%), Gaps = 6/134 (4%)
+
+Query  38   ESIQRDRERRLPLEELELFSRSGLWGIAVPREYGGAGVSRVTLAKVVAIVSAADSSLGQI  97
+            +++++DR        +    R G  G+  P+E+GG G   +  +  V     AD  L  +
+Sbjct  30   KAMEQDRHNEAYRAVIRRMGRDGKLGVGWPKEFGGLGFGPIEQSIFVNEAHRADVPLPAV  89
+
+Query  98   PQNHFYALEVLRVNGSPAQKGRLFGAALAGE---RFGNALAEIGTRTASERRTRLRADGD  154
+                      L+  GS  QK +   A LAGE     G    E GT  AS R T +R  GD
+Sbjct  90   TLQTVGP--TLQQFGSEMQKKKFLPAILAGEVHFAIGYTEPEAGTDLASLRTTAVR-QGD  146
+
+Query  155  GYRLDGRKFYCTGA  168
+             Y ++G+K + TGA
+Sbjct  147  EYIVNGQKIFTTGA  160
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3164598357
+
+
+Query= g2395.t1
+
+Length=394
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.134    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3049711948
+
+
+Query= g2638.t1
+
+Length=383
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044398(gb|AAF33139) (pdtorfO) putative acyl-CoA dehydrogenase ...  70.5    4e-13
+VFG029181(gb|YP_007957115) (mbtN) Acyl-CoA dehydrogenase MbtN [My...  64.7    2e-11
+VFG029172(gb|WP_005060526) (mbtN) Acyl-CoA dehydrogenase MbtN [My...  56.6    9e-09
+
+
+>VFG044398(gb|AAF33139) (pdtorfO) putative acyl-CoA dehydrogenase 
+[Pyridine-2,6-dithiocarboxylic acid (PDTC) (VF0938) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas stutzeri 
+KC]
+Length=513
+
+ Score = 70.5 bits (171),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 78/336 (23%), Positives = 138/336 (41%), Gaps = 41/336 (12%)
+
+Query  44   RHHGLLALALPPALGGPGAS----------LGELRRVIGAVARGEPSTALVLCMQYLHLR  93
+            R  GL A+ +P  +GG G S          +G  + V+   A G   + LV C       
+Sbjct  182  RELGLWAMHMPQEVGGGGLSAVEFCLVNEQIGRTKDVLARRAFGHVPSILVHC-------  234
+
+Query  94   RLADNPDWPGALKRRVAREVLEQGALINSLRVEPELGSPSRGGLPGTLARRVGDGWQLSG  153
+                     G  + +     +     ++    EPE GS + G    T  +R G  W L+G
+Sbjct  235  --------TGEQREKYLHAAMRGDIHVSVAMSEPEAGSDANG--IRTAVKRDGCEWILNG  284
+
+Query  154  HKLYTTGIPGLTWLAVWARSDEPIPRVGTWLVRRDSPGIRIVESWDHLGMRASGSHEVLF  213
+             K + +     +   V ARS+E I     +LV RD+PG+ +    + +G R +  H + F
+Sbjct  285  SKHFISDADIASAYIVTARSEEGI---SCFLVDRDTPGLELGPIQEMMGHRGTHQHGLFF  341
+
+Query  214  EEVAVPLENAIGLHPHDQPPAPDQAVLRDFAQASAVLLGALYDGIAGSAREWLAGWLRER  273
+             +  +  +  +G     +P      VL     A    +GA   G+A    E    + ++R
+Sbjct  342  TDCRIAPQQLLG-----EPGRGMSLVLGHLNVARLAYVGARAVGMASKLLEMSVDFAKQR  396
+
+Query  274  VPASLGAPLASLPRMQEALGEIDGLLLQNRLLLDAAC----CGQLPASDSGLLKVAVIDN  329
+              +  GAP+ S   +Q+ L ++   +   R++L  A      G+       ++K+   + 
+Sbjct  397  --SQFGAPIGSFQMVQKMLADMQCEIYGARMMLLNAAWEIDQGRDVREKVSMVKLFASEM  454
+
+Query  330  ALAVVEKALELSGNHGLSRHNPLQRHYRDVLCGRVH  365
+               V + A+++ G  G     P++R+YRD    R++
+Sbjct  455  LGRVADSAVQIFGGMGYCTELPIERYYRDARVFRLY  490
+
+
+>VFG029181(gb|YP_007957115) (mbtN) Acyl-CoA dehydrogenase MbtN 
+[Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=382
+
+ Score = 64.7 bits (156),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 57/226 (25%), Positives = 92/226 (41%), Gaps = 14/226 (6%)
+
+Query  140  TLARRVGDGWQLSGHKLYTTGIPGLTWLAVWARSDEP-IPRVGTWLVRRDSPGIRIVESW  198
+            T A R GD + ++G K Y T      ++    R+  P    V   +V +D+PG  +    
+Sbjct  140  TSAVRDGDHYVINGAKTYITSGVRADYVVTAVRTGGPGAAGVSLLVVEKDTPGFEVTRKL  199
+
+Query  199  DHLGMRASGSHEVLFEEVAVPLENAIGLHPHDQPPAPDQAVLRDFAQASAVLLGALYDGI  258
+            D +G R+S + E+ + +VAVP  N +G        +    + R F      L    Y   
+Sbjct  200  DKMGWRSSDTAELCYTDVAVPATNLVGAE-----NSGFTQIARAFVSERIGLAAQAYSS-  253
+
+Query  259  AGSAREWLAGWLRERVPASLGAPLASLPRMQEALGEIDGLLLQNRLLLDAACCGQLPASD  318
+            A    +  A W R+R   + G PL S   +Q  L E+   +   R+        QL    
+Sbjct  254  AQRCLDLTAQWCRDR--ETFGRPLISRQSVQNTLAEMARRIDVARVYAHHVVERQLAGET  311
+
+Query  319  SGLLKVAVIDNALA-----VVEKALELSGNHGLSRHNPLQRHYRDV  359
+              + +V    N        V  +A++L G  G    + ++R YRD+
+Sbjct  312  DLIAQVCFAKNTAVQAGEWVANQAVQLFGGMGYMAESEVERQYRDM  357
+
+
+>VFG029172(gb|WP_005060526) (mbtN) Acyl-CoA dehydrogenase MbtN 
+[Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium abscessus subsp. bolletii str. GO 06]
+Length=379
+
+ Score = 56.6 bits (135),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 38/103 (37%), Positives = 52/103 (50%), Gaps = 5/103 (5%)
+
+Query  125  VEPELGSPSRGGLPGTLARRVGDGWQLSGHKLYTTGIPGLTWLAVWARSDEPIPRVGT--  182
+             EP+ GS   G    T ARR GD W ++G K++ T      WL V AR+ +     G   
+Sbjct  126  TEPDAGSDVAG--IKTHARRDGDDWVINGSKMFITNSVQADWLCVLARTSDEGGYAGMSQ  183
+
+Query  183  WLVRRDSPGIRIVESWDHLGMRASGSHEVLFEEVAVPLENAIG  225
+             +V   +PG   V   D LGM AS +  + F++V VP+ N IG
+Sbjct  184  IIVPTKTPGYE-VRKLDKLGMHASDTGLITFDDVRVPVSNTIG  225
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2934825539
+
+
+Query= g4016.t1
+
+Length=290
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2010879515
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

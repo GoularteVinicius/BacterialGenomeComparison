@@ -1,0 +1,413 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1485.t1
+
+Length=100
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.137    0.464    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 328038169
+
+
+Query= g686.t1
+
+Length=470
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG004543(gb|WP_001159430) (icaA) N-acetylglucosaminyltransferase...  58.2    5e-09
+VFG001285(gb|WP_001159427) (icaA) N-acetylglucosaminyltransferase...  58.2    5e-09
+VFG004544(gb|WP_011382409) (icaA) N-acetylglucosaminyltransferase...  55.8    2e-08
+VFG013356(gb|WP_041174820) (kfiC) lipopolysaccharide biosynthesis...  53.9    5e-08
+VFG013354(gb|WP_005648226) (kfiC) lipopolysaccharide biosynthesis...  53.9    5e-08
+VFG026307(gb|WP_011544653) (BCEN2424_RS34720) glycosyltransferase...  54.3    1e-07
+VFG046734(gb|WP_015083854) (F92_RS07260) glycosyltransferase fami...  51.6    4e-07
+VFG005868(gb|WP_011681166) (STER_RS05260) glycosyltransferase [Ca...  51.6    4e-07
+VFG001342(gb|WP_000420465) (SAG_RS08550) glycosyltransferase [Cap...  51.2    6e-07
+VFG049025(gb|YP_005227844) (KPHS_35440) glycosyl transferase fami...  51.2    7e-07
+VFG037679(gb|YP_001085189) (pgaC) poly-beta-1,6 N-acetyl-D-glucos...  50.8    9e-07
+VFG005942(gb|WP_000660895) (GBS_RS06570) glycosyltransferase [Cap...  50.4    1e-06
+VFG037676(gb|WP_000866245) (pgaC) poly-beta-1,6 N-acetyl-D-glucos...  49.3    3e-06
+VFG037682(gb|WP_000866236) (pgaC) poly-beta-1,6 N-acetyl-D-glucos...  49.3    3e-06
+VFG037678(gb|WP_000866237) (pgaC) poly-beta-1,6 N-acetyl-D-glucos...  49.3    3e-06
+
+
+>VFG004543(gb|WP_001159430) (icaA) N-acetylglucosaminyltransferase, 
+involved in polysaccharide intercellular adhesin(PIA) 
+synthesis [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus subsp. aureus USA300_FPR3757]
+Length=412
+
+ Score = 58.2 bits (139),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 52/213 (24%), Positives = 101/213 (47%), Gaps = 31/213 (15%)
+
+Query  84   VTVVIPVRNNASGLRRLVTSLRGLR-----VIVVDDGSACPV--------ESDDFVGAHC  130
+            +T ++   N +  +   ++++  L+     +I+++DGS+           E++DF+    
+Sbjct  49   ITFLLACYNESETIEDTLSNVLALKYEKKEIIIINDGSSDNTAELIYKIKENNDFI--FV  106
+
+Query  131  DIEVLHHPHSKGPAAARNTGLAACTTDFVAFLDSDVTPRRGWLESLLGHFC-DPTVALVA  189
+            D++      ++G A A N G+   + D+V  LD+D    +     ++ +F  DP +  V 
+Sbjct  107  DLQ-----ENRGKANALNQGIKQASYDYVMCLDADTIVDQDAPYYMIENFKHDPKLGAVT  161
+
+Query  190  --PRI--VSLVEGENPVARYEALHSSLDLGQREAPVLPHSTVSYVPSAAIVCRSSAIRDV  245
+              PRI   S + G+     Y +L   +   Q  A       V+ +     + + SA+ DV
+Sbjct  162  GNPRIRNKSSILGKIQTIEYASLIGCIKRSQTLA-----GAVNTISGVFTLFKKSAVVDV  216
+
+Query  246  GGFDETMHSGEDVDLCWRLIEAGARLRYEPIAL  278
+            G +D  M + ED+ + W+L   G R++YEP+A+
+Sbjct  217  GYWDTDMIT-EDIAVSWKLHLRGYRIKYEPLAM  248
+
+
+>VFG001285(gb|WP_001159427) (icaA) N-acetylglucosaminyltransferase, 
+involved in polysaccharide intercellular adhesin(PIA) 
+synthesis [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus subsp. aureus MW2]
+Length=412
+
+ Score = 58.2 bits (139),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 52/213 (24%), Positives = 101/213 (47%), Gaps = 31/213 (15%)
+
+Query  84   VTVVIPVRNNASGLRRLVTSLRGLR-----VIVVDDGSACPV--------ESDDFVGAHC  130
+            +T ++   N +  +   ++++  L+     +I+++DGS+           E++DF+    
+Sbjct  49   ITFLLACYNESDTIEDTLSNVLALKYEKKEIIIINDGSSDNTAELIYKIKENNDFI--FV  106
+
+Query  131  DIEVLHHPHSKGPAAARNTGLAACTTDFVAFLDSDVTPRRGWLESLLGHFC-DPTVALVA  189
+            D++      ++G A A N G+   + D+V  LD+D    +     ++ +F  DP +  V 
+Sbjct  107  DLQ-----ENRGKANALNQGIKQASYDYVMCLDADTIVDQDAPYYMIENFKHDPKLGAVT  161
+
+Query  190  --PRI--VSLVEGENPVARYEALHSSLDLGQREAPVLPHSTVSYVPSAAIVCRSSAIRDV  245
+              PRI   S + G+     Y +L   +   Q  A       V+ +     + + SA+ DV
+Sbjct  162  GNPRIRNKSSILGKIQTIEYASLIGCIKRSQTLA-----GAVNTISGVFTLFKKSAVVDV  216
+
+Query  246  GGFDETMHSGEDVDLCWRLIEAGARLRYEPIAL  278
+            G +D  M + ED+ + W+L   G R++YEP+A+
+Sbjct  217  GYWDTDMIT-EDIAVSWKLHLRGYRIKYEPLAM  248
+
+
+>VFG004544(gb|WP_011382409) (icaA) N-acetylglucosaminyltransferase, 
+involved in polysaccharide intercellular adhesin(PIA) 
+synthesis [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus RF122]
+Length=412
+
+ Score = 55.8 bits (133),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 51/213 (24%), Positives = 100/213 (47%), Gaps = 31/213 (15%)
+
+Query  84   VTVVIPVRNNASGLRRLVTSLRGLR-----VIVVDDGSACPV--------ESDDFVGAHC  130
+            +T ++   N +  +   ++++  L+     +I+++DGS+           E++DF+    
+Sbjct  49   ITFLLACYNESETIEDTLSNVLALKYEKKEIIIINDGSSDNTAELIYKIKENNDFI--FV  106
+
+Query  131  DIEVLHHPHSKGPAAARNTGLAACTTDFVAFLDSDVTPRRGWLESLLGHFC-DPTVALVA  189
+            D++      ++G A A N G+   + D+V  LD+D    +     ++ +F  DP +  V 
+Sbjct  107  DLQ-----ENRGKANALNQGIKQASYDYVMCLDADTIVDQDAPYYMIENFKHDPKLGAVT  161
+
+Query  190  --PRI--VSLVEGENPVARYEALHSSLDLGQREAPVLPHSTVSYVPSAAIVCRSSAIRDV  245
+              PRI   S + G+     Y +L   +      A       V+ +     + + SA+ DV
+Sbjct  162  GNPRIRNKSSILGKIQTIEYASLIGCIKRSHTLA-----GAVNTISGVFTLFKKSAVVDV  216
+
+Query  246  GGFDETMHSGEDVDLCWRLIEAGARLRYEPIAL  278
+            G +D  M + ED+ + W+L   G R++YEP+A+
+Sbjct  217  GYWDTDMIT-EDIAVSWKLHLRGYRIKYEPLAM  248
+
+
+>VFG013356(gb|WP_041174820) (kfiC) lipopolysaccharide biosynthesis 
+protein [LOS (VF0044) - Immune modulation (VFC0258)] [Haemophilus 
+influenzae PittGG]
+Length=250
+
+ Score = 53.9 bits (128),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 32/102 (31%), Positives = 53/102 (52%), Gaps = 7/102 (7%)
+
+Query  84   VTVVIPVRN-----NASGLRRLVTSLRGLRVIVVDDGSA-CPVES-DDFVGAHCDIEVLH  136
+            +++++PV N     N   L  L  S + + +I++DDGS    +E  ++ +     +++  
+Sbjct  6    ISIIMPVYNAECYLNQGILSCLNQSYQNIELILIDDGSTDKSIEIINNIIDKDKRVKLFF  65
+
+Query  137  HPHSKGPAAARNTGLAACTTDFVAFLDSDVTPRRGWLESLLG  178
+             P ++GPAAARN GL     D++ FLDSD       LE  L 
+Sbjct  66   TPTNQGPAAARNIGLEKAQGDYITFLDSDDFIANDKLEKQLN  107
+
+
+>VFG013354(gb|WP_005648226) (kfiC) lipopolysaccharide biosynthesis 
+protein [LOS (VF0044) - Immune modulation (VFC0258)] [Haemophilus 
+influenzae Rd KW20]
+Length=250
+
+ Score = 53.9 bits (128),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 32/102 (31%), Positives = 53/102 (52%), Gaps = 7/102 (7%)
+
+Query  84   VTVVIPVRN-----NASGLRRLVTSLRGLRVIVVDDGSA-CPVES-DDFVGAHCDIEVLH  136
+            +++++PV N     N   L  L  S + + +I++DDGS    +E  ++ +     +++  
+Sbjct  6    ISIIMPVYNAECYLNQGILSCLNQSYQNIELILIDDGSTDKSIEIINNIIDKDKRVKLFF  65
+
+Query  137  HPHSKGPAAARNTGLAACTTDFVAFLDSDVTPRRGWLESLLG  178
+             P ++GPAAARN GL     D++ FLDSD       LE  L 
+Sbjct  66   TPTNQGPAAARNIGLEKAQGDYITFLDSDDFIANDKLEKQLN  107
+
+
+>VFG026307(gb|WP_011544653) (BCEN2424_RS34720) glycosyltransferase 
+family 2 protein [Capsule I (VF0436) - Immune modulation 
+(VFC0258)] [Burkholderia cenocepacia HI2424]
+Length=709
+
+ Score = 54.3 bits (129),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 55/236 (23%), Positives = 106/236 (45%), Gaps = 31/236 (13%)
+
+Query  70   VAHPRPPSGPSHRDVTVVIPVRNNASGLRRLV------TSLRGLRVIVVDDGSACPVESD  123
+            V +P P + P    V+++IP R+  S L+R +      TS R   +IV+++ S C +E+ 
+Sbjct  411  VIYPIPETQPH---VSLLIPTRDGRSILKRCIKSILQKTSYRNFEIIVINNQSTC-LETI  466
+
+Query  124  DF---VGAHCDIEVLHHPHSKGPAAARNTGLAACTTDFVAFLDSDV---TPRRGWLESLL  177
+            ++   +  +  + V+ +      +A  N      + + +  L+ DV   +P   WL  ++
+Sbjct  467  NYLKQISEYDQVRVIDYDAPFNYSAINNFAEKHASGEIIGLLNDDVEVVSPE--WLTEMV  524
+
+Query  178  GHFCDPTVALVAPRIV---------SLVEGENPVARY-EALHSSLDLGQREAPVLPHSTV  227
+             H   P + +V  +++          +V G    A +   LH  +  G      L  +  
+Sbjct  525  SHALRPEIGVVGAKLLYPDGFIQHAGVVIGIGGFAGHAHRLHPGMHPGYAGRAALTQN-F  583
+
+Query  228  SYVPSAAIVCRSSAIRDVGGFDET--MHSGEDVDLCWRLIEAGARLRYEPIALVAH  281
+            S V +A ++ R S  +++GG +E     +  D+D C R   AG  + + P A++ H
+Sbjct  584  SAVTAACLIVRRSVYQELGGLNEQDLKVAFNDIDFCLRAGAAGYYVTWTPHAVLYH  639
+
+
+>VFG046734(gb|WP_015083854) (F92_RS07260) glycosyltransferase 
+family 2 protein [Capsule (VF0543) - Immune modulation (VFC0258)] 
+[Francisella tularensis subsp. holarctica F92]
+Length=318
+
+ Score = 51.6 bits (122),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 43/161 (27%), Positives = 71/161 (44%), Gaps = 29/161 (18%)
+
+Query  84   VTVVIPVRNNASGLRRLVTSL-----RGLRVIVVDDGSA------CPVESDDFVGAHCDI  132
+            +T+VIP+ N  + L R + S+     + L +I+V+DGS       C  ES     A  D 
+Sbjct  7    ITLVIPIYNIENYLGRCLDSVINQTYKDLEIILVNDGSTDNSLEIC--ES----YAKEDS  60
+
+Query  133  EVLHHPHSKGPAAARNTGLAACTTDFVAFLDSDVTPRRGWLESLLGHFCDPTVALVAPRI  192
+             ++ + ++ G ++ARN GL AC  D+V F+DSD      ++E L  +  D    +     
+Sbjct  61   RIIINKNNGGLSSARNVGLDACKGDYVTFIDSDDWVSLDYIEILYKNIIDNNADISIINA  120
+
+Query  193  VSLVEGENPVARYEALHSSLDLGQREAPVLPHSTVSYVPSA  233
+            + +    N            D   +E   L H+  S +  A
+Sbjct  121  IKVKSQNN------------DFTLKEQKNLLHTYFSSIEFA  149
+
+
+>VFG005868(gb|WP_011681166) (STER_RS05260) glycosyltransferase 
+[Capsule (VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus LMD-9]
+Length=326
+
+ Score = 51.6 bits (122),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 30/101 (30%), Positives = 53/101 (52%), Gaps = 8/101 (8%)
+
+Query  83   DVTVVIPVRNNASGLRRLVTSL-----RGLRVIVVDDGSA--CPVESDDFVGAHCDIEVL  135
+            ++++V+PV N    L   + S+     +   +I+VDDGS     +  D +  +   I+V+
+Sbjct  6    EISIVLPVYNVIDYLNECIKSILRQSNKNFELIIVDDGSTDGSQILCDRYSESDSRIKVI  65
+
+Query  136  HHPHSKGPAAARNTGLAACTTDFVAFLDSDVTPRRGWLESL  176
+            H  ++ G +AARNTGL      ++ F+DSD      ++E L
+Sbjct  66   HQKNA-GLSAARNTGLNHAKGKYITFIDSDDFVGEKYIEVL  105
+
+
+>VFG001342(gb|WP_000420465) (SAG_RS08550) glycosyltransferase 
+[Capsule (VF0274) - Immune modulation (VFC0258)] [Streptococcus 
+agalactiae 2603V/R]
+Length=327
+
+ Score = 51.2 bits (121),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 29/94 (31%), Positives = 50/94 (53%), Gaps = 18/94 (19%)
+
+Query  84   VTVVIPVRNNASGLRRLVTSL-----RGLRVIVVDDGSACPVESDDFVGAHCDIEVLH--  136
+            +++++PV N    + R + S+     + L +I++DDGS+      D  G  C+   L   
+Sbjct  4    ISIIVPVYNGEIYIGRCLDSILEQTYQNLEIIIIDDGSS------DRTGDICEKYFLEDR  57
+
+Query  137  -----HPHSKGPAAARNTGLAACTTDFVAFLDSD  165
+                 +  ++G + ARN G+  CT D++AFLDSD
+Sbjct  58   RIKYFYQENRGQSVARNNGVLRCTGDWIAFLDSD  91
+
+
+>VFG049025(gb|YP_005227844) (KPHS_35440) glycosyl transferase 
+family protein [LPS (VF0561) - Immune modulation (VFC0258)] 
+[Klebsiella pneumoniae subsp. pneumoniae HS11286]
+Length=438
+
+ Score = 51.2 bits (121),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 32/103 (31%), Positives = 50/103 (49%), Gaps = 7/103 (7%)
+
+Query  84   VTVVIPVRNNASGLRR-----LVTSLRGLRVIVVDDGSACPVES--DDFVGAHCDIEVLH  136
+            V+VVIPV + A  +       L  SL+ + VI++DD SA         F      I +L+
+Sbjct  10   VSVVIPVHDAAEYISDTLSSILSQSLQEIEVIIIDDNSADDTLKLLQSFAANDSRIRLLN  69
+
+Query  137  HPHSKGPAAARNTGLAACTTDFVAFLDSDVTPRRGWLESLLGH  179
+            +  + G  A+RN GL   + +++ FLD D  P    L+ +  H
+Sbjct  70   NSQNIGAGASRNMGLKIASGEYIIFLDDDDYPDANMLKRMYDH  112
+
+
+>VFG037679(gb|YP_001085189) (pgaC) poly-beta-1,6 N-acetyl-D-glucosamine 
+synthase [PNAG (VF0472) - Biofilm (VFC0271)] [Acinetobacter 
+baumannii ATCC 17978]
+Length=392
+
+ Score = 50.8 bits (120),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 50/219 (23%), Positives = 94/219 (43%), Gaps = 18/219 (8%)
+
+Query  72   HPRPPSGPSHRDVTVVIPVRNNASGLRR-----LVTSLRGLRVIVVDDGSACPVES--DD  124
+            H +    PS    +++IP  N  + +R+     L T      VI V+DGS+       D+
+Sbjct  14   HEQQLPEPSSEGCSIIIPCFNEEAQVRQTIRYALQTKYPNFEVIAVNDGSSDSTAEILDE  73
+
+Query  125  FVGAHCDIEVLHHPHSKGPAAARNTGLAACTTDFVAFLDSDVTPRRGWLESLLGHFCD-P  183
+                   + V+H   ++G A A  +G+     +++  +D D       +  L+  F + P
+Sbjct  74   LAAQDARLRVVHLAENQGKAVALRSGVLVSKYEYLVCIDGDALLHPHAVLWLMQPFLNFP  133
+
+Query  184  TVALVA--PRIV--SLVEGENPVARYEALHSSLDLGQREAPVLPHSTVSYVPSAAIVCRS  239
+             +  V   PRI+  S + G+  V  + ++   +   QR      +  +  V    +  R 
+Sbjct  134  RIGAVTGNPRILNRSSILGKLQVGEFSSIIGLIKRAQRT-----YGRIFTVSGVIVAFRK  188
+
+Query  240  SAIRDVGGFDETMHSGEDVDLCWRLIEAGARLRYEPIAL  278
+            +A+  VG + +   + ED+D+ W+L      ++Y P AL
+Sbjct  189  TALVRVGFWSDDKIT-EDIDISWKLQMDHWDIQYIPQAL  226
+
+
+>VFG005942(gb|WP_000660895) (GBS_RS06570) glycosyltransferase 
+[Capsule (VF0274) - Immune modulation (VFC0258)] [Streptococcus 
+agalactiae NEM316]
+Length=322
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 34/95 (36%), Positives = 49/95 (52%), Gaps = 20/95 (21%)
+
+Query  84   VTVVIPVRNNASGLRRLVTSLRG-----LRVIVVDDGSACPVESDDFVGAHCD-------  131
+            VTV+IP+ N+ + L+  V S+       + VI++DDGS       D  G  CD       
+Sbjct  5    VTVIIPIYNSEAYLKECVQSVLQQTHPLIEVILIDDGST------DNSGGICDNLSQEDN  58
+
+Query  132  -IEVLHHPHSKGPAAARNTGLAACTTDFVAFLDSD  165
+             I V H  +  G ++ARN GL   T +F+ F+DSD
+Sbjct  59   RILVFHKKNG-GVSSARNLGLDKSTGEFITFVDSD  92
+
+
+>VFG037676(gb|WP_000866245) (pgaC) poly-beta-1,6 N-acetyl-D-glucosamine 
+synthase [PNAG (VF0472) - Biofilm (VFC0271)] [Acinetobacter 
+baumannii AB0057]
+Length=415
+
+ Score = 49.3 bits (116),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 50/219 (23%), Positives = 93/219 (42%), Gaps = 18/219 (8%)
+
+Query  72   HPRPPSGPSHRDVTVVIPVRNNASGLRR-----LVTSLRGLRVIVVDDGSACPVES--DD  124
+            H +    PS    +++IP  N  + +R+     L T      VI V+DGS+       D+
+Sbjct  37   HEQQLPEPSSEGCSIIIPCFNEVAQVRQTIRYALQTKYPNFEVIAVNDGSSDSTAEILDE  96
+
+Query  125  FVGAHCDIEVLHHPHSKGPAAARNTGLAACTTDFVAFLDSDVTPRRGWLESLLGHFCD-P  183
+                   + V+H   ++G A A  +G+     +++  +D D       +  L+  F + P
+Sbjct  97   LAAQDARLRVVHLAENQGKAVALRSGVLVSKYEYLVCIDGDALLHPHAVLWLMQPFLNFP  156
+
+Query  184  TVALVA--PRIV--SLVEGENPVARYEALHSSLDLGQREAPVLPHSTVSYVPSAAIVCRS  239
+             +  V   PRI+  S + G+  V  + ++   +   QR      +  +  V       R 
+Sbjct  157  RIGAVTGNPRILNRSSILGKLQVGEFSSIIGLIKRAQRT-----YGRIFTVSGVIAAFRK  211
+
+Query  240  SAIRDVGGFDETMHSGEDVDLCWRLIEAGARLRYEPIAL  278
+            +A+  VG + +   + ED+D+ W+L      ++Y P AL
+Sbjct  212  TALVRVGFWSDDKIT-EDIDISWKLQMDHWDIQYIPQAL  249
+
+
+>VFG037682(gb|WP_000866236) (pgaC) poly-beta-1,6 N-acetyl-D-glucosamine 
+synthase [PNAG (VF0472) - Biofilm (VFC0271)] [Acinetobacter 
+baumannii BJAB0715]
+Length=415
+
+ Score = 49.3 bits (116),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 50/219 (23%), Positives = 93/219 (42%), Gaps = 18/219 (8%)
+
+Query  72   HPRPPSGPSHRDVTVVIPVRNNASGLRR-----LVTSLRGLRVIVVDDGSACPVES--DD  124
+            H +    PS    +++IP  N  + +R+     L T      VI V+DGS+       D+
+Sbjct  37   HEQQLPEPSSEGCSIIIPCFNEEAQVRQTIRYALQTKYPNFEVIAVNDGSSDSTAEILDE  96
+
+Query  125  FVGAHCDIEVLHHPHSKGPAAARNTGLAACTTDFVAFLDSDVTPRRGWLESLLGHFCD-P  183
+                   + V+H   ++G A A  +G+     +++  +D D       +  L+  F + P
+Sbjct  97   LAAQDARLRVVHLAENQGKAVALRSGVLVSKYEYLVCIDGDALLHPHAVLWLMQPFLNFP  156
+
+Query  184  TVALVA--PRIV--SLVEGENPVARYEALHSSLDLGQREAPVLPHSTVSYVPSAAIVCRS  239
+             +  V   PRI+  S + G+  V  + ++   +   QR      +  +  V       R 
+Sbjct  157  RIGAVTGNPRILNRSSILGKLQVGEFSSIIGLIKRAQRT-----YGRIFTVSGVIAAFRK  211
+
+Query  240  SAIRDVGGFDETMHSGEDVDLCWRLIEAGARLRYEPIAL  278
+            +A+  VG + +   + ED+D+ W+L      ++Y P AL
+Sbjct  212  TALVRVGFWSDDKIT-EDIDISWKLQMDHWDIQYIPQAL  249
+
+
+>VFG037678(gb|WP_000866237) (pgaC) poly-beta-1,6 N-acetyl-D-glucosamine 
+synthase [PNAG (VF0472) - Biofilm (VFC0271)] [Acinetobacter 
+baumannii ACICU]
+Length=415
+
+ Score = 49.3 bits (116),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 50/219 (23%), Positives = 93/219 (42%), Gaps = 18/219 (8%)
+
+Query  72   HPRPPSGPSHRDVTVVIPVRNNASGLRR-----LVTSLRGLRVIVVDDGSACPVES--DD  124
+            H +    PS    +++IP  N  + +R+     L T      VI V+DGS+       D+
+Sbjct  37   HEQQLPEPSSEGCSIIIPCFNEEAQVRQTIRYALQTKYPNFEVIAVNDGSSDSTAEILDE  96
+
+Query  125  FVGAHCDIEVLHHPHSKGPAAARNTGLAACTTDFVAFLDSDVTPRRGWLESLLGHFCD-P  183
+                   + V+H   ++G A A  +G+     +++  +D D       +  L+  F + P
+Sbjct  97   LAAQDARLRVVHLAENQGKAVALRSGVLVSKYEYLVCIDGDALLHPHAVLWLMQPFLNFP  156
+
+Query  184  TVALVA--PRIV--SLVEGENPVARYEALHSSLDLGQREAPVLPHSTVSYVPSAAIVCRS  239
+             +  V   PRI+  S + G+  V  + ++   +   QR      +  +  V       R 
+Sbjct  157  RIGAVTGNPRILNRSSILGKLQVGEFSSIIGLIKRAQRT-----YGRIFTVSGVIAAFRK  211
+
+Query  240  SAIRDVGGFDETMHSGEDVDLCWRLIEAGARLRYEPIAL  278
+            +A+  VG + +   + ED+D+ W+L      ++Y P AL
+Sbjct  212  TALVRVGFWSDDKIT-EDIDISWKLQMDHWDIQYIPQAL  249
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.138    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3802101330
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

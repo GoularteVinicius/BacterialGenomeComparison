@@ -1,0 +1,125 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g318.t1
+
+Length=247
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG025218(gb|WP_011401039) (bprP) regulatory protein [Bsa T3SS (V...  70.5    4e-14
+VFG003537(gb|WP_005173798) (YE_RS17835) hypothetical protein [Ysa...  65.5    3e-13
+VFG002471(gb|WP_004533443) (bprP) regulatory protein [Bsa T3SS (V...  64.3    6e-12
+VFG025211(gb|WP_004188818) (bprP) regulatory protein [Bsa T3SS (V...  63.9    7e-12
+
+
+>VFG025218(gb|WP_011401039) (bprP) regulatory protein [Bsa T3SS 
+(VF0428) - Effector delivery system (VFC0086)] [Burkholderia 
+thailandensis E264]
+Length=310
+
+ Score = 70.5 bits (171),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 39/111 (35%), Positives = 59/111 (53%), Gaps = 1/111 (1%)
+
+Query  4    NNYLIDKRVILDCERMTLSCAGESITISESERSLLIAFYEGLFKKDDLINYVWGRKGVVV  63
+            + Y ID  V+ D + MTLS      T++ +E  LL    +G   K  +I  +W  KG+ V
+Sbjct  21   SKYQIDGSVVFDSQAMTLSRGDIVTTLTANETELLCILMQGTASKQAVIEQIWESKGLFV  80
+
+Query  64   SDASYYKLINQLRGSFDKIGLKGASVVTRPRVGVLLSVSIEPLSDEAQNTP  114
+            ++ SY++L+  LR   D+ G+    V T PR+G+      EPL DEA  +P
+Sbjct  81   TEGSYHQLVRALRVKLDEQGIPPTQVKTLPRLGLRFLGFAEPL-DEAPPSP  130
+
+
+>VFG003537(gb|WP_005173798) (YE_RS17835) hypothetical protein 
+[Ysa TTSS (VF1025) - Effector delivery system (VFC0086)] [Yersinia 
+enterocolitica subsp. enterocolitica 8081]
+Length=161
+
+ Score = 65.5 bits (158),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 33/101 (33%), Positives = 59/101 (58%), Gaps = 0/101 (0%)
+
+Query  12   VILDCERMTLSCAGESITISESERSLLIAFYEGLFKKDDLINYVWGRKGVVVSDASYYKL  71
+            VI +  + TL+     + +SESE  LL    +    K +++  +W ++GV+V+++SYYKL
+Sbjct  17   VIFNSWKRTLTQQETVVVLSESESCLLKMLLDKTCSKREVMYAIWEKRGVIVTESSYYKL  76
+
+Query  72   INQLRGSFDKIGLKGASVVTRPRVGVLLSVSIEPLSDEAQN  112
+            + QLR SF K  L    + T PR+G+  + + + L+ E+ +
+Sbjct  77   VRQLRCSFKKANLDETLIATLPRIGISYTGTKKALTAESTS  117
+
+
+>VFG002471(gb|WP_004533443) (bprP) regulatory protein [Bsa T3SS 
+(VF0428) - Effector delivery system (VFC0086)] [Burkholderia 
+pseudomallei K96243]
+Length=323
+
+ Score = 64.3 bits (155),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 32/94 (34%), Positives = 51/94 (54%), Gaps = 0/94 (0%)
+
+Query  4    NNYLIDKRVILDCERMTLSCAGESITISESERSLLIAFYEGLFKKDDLINYVWGRKGVVV  63
+            + Y ID  V+ D + MTLS      T++ +E  LL    +G   K  +I  +W  KG+ V
+Sbjct  21   SKYQIDGSVVFDSQAMTLSRGDIVTTLTANETELLCILMQGTASKQAVIEQIWESKGLFV  80
+
+Query  64   SDASYYKLINQLRGSFDKIGLKGASVVTRPRVGV  97
+            ++ SY++L+  LR   D+ G+    V T PR+G+
+Sbjct  81   TEGSYHQLVRALRVKLDEQGIPPTQVKTLPRLGL  114
+
+
+>VFG025211(gb|WP_004188818) (bprP) regulatory protein [Bsa T3SS 
+(VF0428) - Effector delivery system (VFC0086)] [Burkholderia 
+mallei ATCC 23344]
+Length=323
+
+ Score = 63.9 bits (154),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 32/94 (34%), Positives = 51/94 (54%), Gaps = 0/94 (0%)
+
+Query  4    NNYLIDKRVILDCERMTLSCAGESITISESERSLLIAFYEGLFKKDDLINYVWGRKGVVV  63
+            + Y ID  V+ D + MTLS      T++ +E  LL    +G   K  +I  +W  KG+ V
+Sbjct  21   SKYQIDGSVVFDSQAMTLSRGDIVTTLTANETELLCILMQGTASKQAVIEQIWESKGLFV  80
+
+Query  64   SDASYYKLINQLRGSFDKIGLKGASVVTRPRVGV  97
+            ++ SY++L+  LR   D+ G+    V T PR+G+
+Sbjct  81   TEGSYHQLVRALRVKLDEQGIPPTQVKTLPRLGL  114
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1587619350
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

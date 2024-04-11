@@ -1,0 +1,123 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1478.t1
+
+Length=296
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG038729(gb|WP_005353662) (cheW) chemotaxis protein CheW [Polar ...  124     1e-33
+VFG038728(gb|WP_011898512) (cheW) chemotaxis protein CheW [Polar ...  120     4e-32
+VFG038727(gb|WP_011705295) (cheW) chemotaxis protein CheW [Polar ...  117     4e-31
+
+
+>VFG038729(gb|WP_005353662) (cheW) chemotaxis protein CheW [Polar 
+flagella (VF0473) - Motility (VFC0204)] [Aeromonas veronii 
+B565]
+Length=290
+
+ Score = 124 bits (312),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 75/177 (42%), Positives = 102/177 (58%), Gaps = 14/177 (8%)
+
+Query  105  LPVEPR-PHEVIELRVPSAPASVGEPPLLDLPLLDDGRP-AW----AAEPFECLLFDVAG  158
+            LPVEP  P EV+   V     ++     L++  ++   P AW      + F+ L F+VAG
+Sbjct  100  LPVEPEWPEEVLLPEVAEPHTTILTETALEVAPVEASEPVAWENIDTGKEFQALFFEVAG  159
+
+Query  159  LTLAVPLVCLGSIYPLENQELTPLFGQPDWFLGILPSQAGNLKVLDTARWVMPERY--RD  216
+            +T AVPL  LG I+ L   E+T LFGQP W+ GI+ S+   + V+DTA+WVMP ++   D
+Sbjct  160  VTFAVPLTELGGIHQL--GEITSLFGQPGWYKGIMTSREQKMNVVDTAQWVMPGQHLEMD  217
+
+Query  217  DYRDGLKYVISVQGYEWGLAVHQVSRSIRLDPAEVKWRSQRSQRPWLAGTVIEHMCA  273
+            DY    KY+I +    WGLA H +  +  L   +VKWR Q  +RPWLAG V E MCA
+Sbjct  218  DY----KYLIMLGESPWGLACHHLKGTELLHRDQVKWRHQEGKRPWLAGMVKEKMCA  270
+
+
+>VFG038728(gb|WP_011898512) (cheW) chemotaxis protein CheW [Polar 
+flagella (VF0473) - Motility (VFC0204)] [Aeromonas salmonicida 
+subsp. salmonicida A449]
+Length=290
+
+ Score = 120 bits (300),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 77/188 (41%), Positives = 105/188 (56%), Gaps = 32/188 (17%)
+
+Query  90   PAPAALLDEPTTL--RELPVEPRPHEVIELRVPSAPASVGEPPLLDLPLLDDGRPAWAAE  147
+            PAPA +  EP+TL   E  VE  P E +    PS   ++           D G+      
+Sbjct  111  PAPAVV--EPSTLVMTETTVELTPQEEV---APSIWENI-----------DTGKE-----  149
+
+Query  148  PFECLLFDVAGLTLAVPLVCLGSIYPLENQELTPLFGQPDWFLGILPSQAGNLKVLDTAR  207
+             F+ L F+VAG+T AVPL  LG I+ +   E++ LFGQPDW+ GI+ S+   + V+DTA+
+Sbjct  150  -FQALFFEVAGVTFAVPLTELGGIHQM--GEVSSLFGQPDWYRGIMTSREQKMNVVDTAQ  206
+
+Query  208  WVMPERYRD--DYRDGLKYVISVQGYEWGLAVHQVSRSIRLDPAEVKWRSQRSQRPWLAG  265
+            WVMP ++ +  DY    KY+I +    WGLA H +  +  L   +VKWR Q  +RPWLAG
+Sbjct  207  WVMPGQHLEIPDY----KYLIMLGESPWGLACHHLKGTELLHRDQVKWRHQEGKRPWLAG  262
+
+Query  266  TVIEHMCA  273
+             V E MCA
+Sbjct  263  MVKEKMCA  270
+
+
+>VFG038727(gb|WP_011705295) (cheW) chemotaxis protein CheW [Polar 
+flagella (VF0473) - Motility (VFC0204)] [Aeromonas hydrophila 
+ML09-119]
+Length=290
+
+ Score = 117 bits (293),  Expect = 4e-31, Method: Compositional matrix adjust.
+ Identities = 60/131 (46%), Positives = 81/131 (62%), Gaps = 8/131 (6%)
+
+Query  145  AAEPFECLLFDVAGLTLAVPLVCLGSIYPLENQELTPLFGQPDWFLGILPSQAGNLKVLD  204
+              + F+ L F+VAG+T AVPL  LG I+ L   E+  LFGQP W+ GI+ S+   + V+D
+Sbjct  146  TGKEFQALFFEVAGVTFAVPLTELGGIHQL--GEVNTLFGQPGWYKGIMTSREQKMNVVD  203
+
+Query  205  TARWVMPERYRD--DYRDGLKYVISVQGYEWGLAVHQVSRSIRLDPAEVKWRSQRSQRPW  262
+            TA+WVMP ++ +  DY    KY+I +    WGLA H +  +  L   +VKWR Q  +RPW
+Sbjct  204  TAQWVMPGQHLEVPDY----KYLIMLGESPWGLACHHLKGTELLHRDQVKWRHQEGKRPW  259
+
+Query  263  LAGTVIEHMCA  273
+            LAG V E MCA
+Sbjct  260  LAGMVKEKMCA  270
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2074048505
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

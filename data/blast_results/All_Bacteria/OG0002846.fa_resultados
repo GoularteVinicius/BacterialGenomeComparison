@@ -1,0 +1,203 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3407.t1
+
+Length=144
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG001713(gb|WP_001298062) (papX) PapX protein regulates flagellu...  48.5    1e-07
+VFG012208(gb|WP_001447126) (papX) PapX protein regulates flagellu...  46.6    5e-07
+VFG012207(gb|WP_011478335) (papX) PapX protein regulates flagellu...  46.2    7e-07
+VFG033079(gb|WP_001774069) (papX) PapX protein regulates flagellu...  46.2    8e-07
+VFG042569(gb|WP_001445604) (sfaX) HTH-type transcriptional regula...  45.8    1e-06
+VFG042390(gb|WP_011478152) (sfaX) regulatory protein SfaX [S fimb...  45.4    1e-06
+
+
+>VFG001713(gb|WP_001298062) (papX) PapX protein regulates flagellum 
+synthesis to repress motility [P fimbriae (VF0220) - Adherence 
+(VFC0001)] [Escherichia coli CFT073]
+Length=183
+
+ Score = 48.5 bits (114),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 36/141 (26%), Positives = 68/141 (48%), Gaps = 5/141 (4%)
+
+Query  6    KHYFGTLLAQTSRAWRAELDRRLSHLGLSQARWLVLLHL---ARHRDSPTQRELAQSVGV  62
+            +H    L  +T++  +  +   L   G++ + ++VL  L     H  SP+  E++Q +  
+Sbjct  42   EHLLMQLCIRTNKRMQDNISEFLGVYGINHSVYMVLTTLFAAESHCLSPS--EISQKLQF  99
+
+Query  63   EGPTLARLLDGLESQGLVRRLAVAEDRRAKHIVLTPKADVLIADIEAIAASVRNDVLTGI  122
+                + R+ D LE  G V+R+   EDRRAK I LT +    I  +    +    ++   +
+Sbjct  100  TRTNITRITDFLEKAGYVKRMDSREDRRAKKISLTSEGMFFIQRLTLAQSMYLKEIWGYL  159
+
+Query  123  DESEQALCQQVLLRILANLEN  143
+               EQ L + +  ++LA+L++
+Sbjct  160  THDEQELFEVINKKLLAHLDD  180
+
+
+>VFG012208(gb|WP_001447126) (papX) PapX protein regulates flagellum 
+synthesis to repress motility [P fimbriae (VF0220) - Adherence 
+(VFC0001)] [Escherichia coli APEC O1]
+Length=183
+
+ Score = 46.6 bits (109),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 35/141 (25%), Positives = 65/141 (46%), Gaps = 5/141 (4%)
+
+Query  6    KHYFGTLLAQTSRAWRAELDRRLSHLGLSQARWLVLLHL---ARHRDSPTQRELAQSVGV  62
+            +H    L  +T++  +  +   L   G++ + ++VL  L     H  SP+  E++Q +  
+Sbjct  42   EHLLMQLCIRTNKRMQDNISEFLGAYGINHSAYMVLTTLFAAENHCLSPS--EISQKLQF  99
+
+Query  63   EGPTLARLLDGLESQGLVRRLAVAEDRRAKHIVLTPKADVLIADIEAIAASVRNDVLTGI  122
+                + R+ D LE  G V+R    EDRRAK I LT +    I  +    +    ++   +
+Sbjct  100  TRTNITRITDFLEKAGYVKRTDSREDRRAKKISLTSEGMFFIQRLTLAQSMYLKEIWDYL  159
+
+Query  123  DESEQALCQQVLLRILANLEN  143
+               EQ L + +  ++LA+  +
+Sbjct  160  THDEQELFEVINKKLLAHFSD  180
+
+
+>VFG012207(gb|WP_011478335) (papX) PapX protein regulates flagellum 
+synthesis to repress motility [P fimbriae (VF0220) - Adherence 
+(VFC0001)] [Escherichia coli UTI89]
+Length=183
+
+ Score = 46.2 bits (108),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 35/141 (25%), Positives = 65/141 (46%), Gaps = 5/141 (4%)
+
+Query  6    KHYFGTLLAQTSRAWRAELDRRLSHLGLSQARWLVLLHL---ARHRDSPTQRELAQSVGV  62
+            +H    L  +T++  +  +   L   G++ + ++VL  L     H  SP+  E++Q +  
+Sbjct  42   EHLLMQLCIRTNKRMQDNISEFLGAYGINHSAYMVLTTLFAAESHCLSPS--EISQKLQF  99
+
+Query  63   EGPTLARLLDGLESQGLVRRLAVAEDRRAKHIVLTPKADVLIADIEAIAASVRNDVLTGI  122
+                + R+ D LE  G V+R    EDRRAK I LT +    I  +    +    ++   +
+Sbjct  100  TRTNITRITDFLEKAGYVKRTDSREDRRAKKISLTSEGMFFIQRLTLAQSMYLKEIWDYL  159
+
+Query  123  DESEQALCQQVLLRILANLEN  143
+               EQ L + +  ++LA+  +
+Sbjct  160  THDEQELFEVINKKLLAHFSD  180
+
+
+>VFG033079(gb|WP_001774069) (papX) PapX protein regulates flagellum 
+synthesis to repress motility [P fimbriae (VF0220) - Adherence 
+(VFC0001)] [Escherichia coli ABU 83972]
+Length=183
+
+ Score = 46.2 bits (108),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 35/141 (25%), Positives = 65/141 (46%), Gaps = 5/141 (4%)
+
+Query  6    KHYFGTLLAQTSRAWRAELDRRLSHLGLSQARWLVLLHL---ARHRDSPTQRELAQSVGV  62
+            +H    L  +T++  +  +   L   G++ + ++VL  L     H  SP+  E++Q +  
+Sbjct  42   EHLLMQLCIRTNKRMQDNISEFLGVYGINHSAYMVLTTLFAAENHCLSPS--EISQKLQF  99
+
+Query  63   EGPTLARLLDGLESQGLVRRLAVAEDRRAKHIVLTPKADVLIADIEAIAASVRNDVLTGI  122
+                + R+ D LE  G V+R    EDRRAK I LT +    I  +    +    ++   +
+Sbjct  100  TRTNITRITDFLEKAGYVKRTDSREDRRAKKISLTSEGMFFIQRLTLAQSMYLKEIWDYL  159
+
+Query  123  DESEQALCQQVLLRILANLEN  143
+               EQ L + +  ++LA+  +
+Sbjct  160  THDEQELFEVINKKLLAHFSD  180
+
+
+>VFG042569(gb|WP_001445604) (sfaX) HTH-type transcriptional regulator 
+SfaX [F1C fimbriae (VF0224) - Adherence (VFC0001)] [Escherichia 
+coli CFT073]
+Length=183
+
+ Score = 45.8 bits (107),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 35/141 (25%), Positives = 66/141 (47%), Gaps = 5/141 (4%)
+
+Query  6    KHYFGTLLAQTSRAWRAELDRRLSHLGLSQARWLVLLHL---ARHRDSPTQRELAQSVGV  62
+            +H    L  + ++  +  +   L   G++ + ++VL  L     H  SP+  E++Q +  
+Sbjct  42   EHLLMQLCIRANKRMQDNISEFLGAYGINHSVYMVLTTLFTAESHCLSPS--EISQKLQF  99
+
+Query  63   EGPTLARLLDGLESQGLVRRLAVAEDRRAKHIVLTPKADVLIADIEAIAASVRNDVLTGI  122
+                + R+ D LE  G V+R    EDRRAK I LT +    I  +    +    ++   +
+Sbjct  100  TRTNITRITDFLEKTGYVKRTDSREDRRAKKISLTSEGMFFIQRLTLAQSMYLKEIWGYL  159
+
+Query  123  DESEQALCQQVLLRILANLEN  143
+               EQ L + +  ++LA+L++
+Sbjct  160  THDEQELFEVINKKLLAHLDD  180
+
+
+>VFG042390(gb|WP_011478152) (sfaX) regulatory protein SfaX [S 
+fimbriae (VF0222) - Adherence (VFC0001)] [Escherichia coli UTI89]
+Length=183
+
+ Score = 45.4 bits (106),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 35/141 (25%), Positives = 66/141 (47%), Gaps = 5/141 (4%)
+
+Query  6    KHYFGTLLAQTSRAWRAELDRRLSHLGLSQARWLVLLHL---ARHRDSPTQRELAQSVGV  62
+            +H    L  + ++  +  +   L   G++ + ++VL  L     H  SP+  E++Q +  
+Sbjct  42   EHLLMQLCIRANKRMQDNISEFLGAYGINHSVYMVLTTLFTAESHCLSPS--EISQKLQF  99
+
+Query  63   EGPTLARLLDGLESQGLVRRLAVAEDRRAKHIVLTPKADVLIADIEAIAASVRNDVLTGI  122
+                + R+ D LE  G V+R    EDRRAK I LT +    I  +    +    ++   +
+Sbjct  100  TRTNITRITDFLEKTGYVKRTDSREDRRAKKISLTSEGMFFIQRLTLAQSMYLKEIWGYL  159
+
+Query  123  DESEQALCQQVLLRILANLEN  143
+               EQ L + +  ++LA+L++
+Sbjct  160  THDEQELFEVINKKLLAHLDD  180
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.133    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 582120162
+
+
+Query= g1340.t1
+
+Length=144
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 582120162
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

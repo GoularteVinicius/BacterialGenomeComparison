@@ -1,0 +1,179 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1722.t1
+
+Length=92
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000194(gb|NP_250390) (pcr1) type III secretion system protein ...  185     7e-63
+VFG041819(gb|WP_011147906) (PLU_RS18695) TyeA family type III sec...  121     1e-37
+VFG038346(gb|WP_005320760) (acr1) Type III secretion system gatek...  103     2e-30
+VFG042267(gb|AAS91812) (acr1) Acr1 [T3SS (VF0479) - Effector deli...  100     3e-29
+VFG007156(gb|WP_005464474) (tyeA/vcr1) type III secretion system ...  92.4    4e-26
+VFG000388(gb|WP_002212965) (tyeA) chaperone for YopN [TTSS (VF014...  85.9    1e-23
+VFG041798(gb|WP_011176684) (sctW) type III secretion system gatek...  44.7    1e-06
+
+
+>VFG000194(gb|NP_250390) (pcr1) type III secretion system protein 
+Pcr1 [TTSS (VF0083) - Effector delivery system (VFC0086)] 
+[Pseudomonas aeruginosa PAO1]
+Length=92
+
+ Score = 185 bits (469),  Expect = 7e-63, Method: Compositional matrix adjust.
+ Identities = 92/92 (100%), Positives = 92/92 (100%), Gaps = 0/92 (0%)
+
+Query  1   MAYGPSELTGAVIALLEKRWVGVAEVQALLEPLPLADVARQIHFFRELKRLYRLLPVEVF  60
+           MAYGPSELTGAVIALLEKRWVGVAEVQALLEPLPLADVARQIHFFRELKRLYRLLPVEVF
+Sbjct  1   MAYGPSELTGAVIALLEKRWVGVAEVQALLEPLPLADVARQIHFFRELKRLYRLLPVEVF  60
+
+Query  61  GDDEQRQNLLNACQMALDLAIEREEEQQHGLG  92
+           GDDEQRQNLLNACQMALDLAIEREEEQQHGLG
+Sbjct  61  GDDEQRQNLLNACQMALDLAIEREEEQQHGLG  92
+
+
+>VFG041819(gb|WP_011147906) (PLU_RS18695) TyeA family type III 
+secretion system gatekeeper subunit [T3SS (VF1288) - Effector 
+delivery system (VFC0086)] [Photorhabdus luminescens subsp. 
+laumondii TTO1]
+Length=95
+
+ Score = 121 bits (303),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 58/87 (67%), Positives = 70/87 (80%), Gaps = 0/87 (0%)
+
+Query  1   MAYGPSELTGAVIALLEKRWVGVAEVQALLEPLPLADVARQIHFFRELKRLYRLLPVEVF  60
+           MAYGPS+L G V++L+EKRW  V +V+ L   L L D   QIHF+RELKRL RL+PVEVF
+Sbjct  1   MAYGPSDLMGDVVSLVEKRWANVRDVEILGHALGLQDSQTQIHFYRELKRLIRLIPVEVF  60
+
+Query  61  GDDEQRQNLLNACQMALDLAIEREEEQ  87
+            D+EQRQNLLNACQ+ALD AIEREE++
+Sbjct  61  SDEEQRQNLLNACQLALDAAIEREEDE  87
+
+
+>VFG038346(gb|WP_005320760) (acr1) Type III secretion system gatekeeper 
+subunit  [T3SS (VF0479) - Effector delivery system 
+(VFC0086)] [Aeromonas salmonicida subsp. salmonicida A449]
+Length=93
+
+ Score = 103 bits (256),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 51/90 (57%), Positives = 67/90 (74%), Gaps = 0/90 (0%)
+
+Query  1   MAYGPSELTGAVIALLEKRWVGVAEVQALLEPLPLADVARQIHFFRELKRLYRLLPVEVF  60
+           M YGPS+L G +IAL+EKRW  V +V+ +   L L+D  +Q+  ++ELKRL RLLPVE+F
+Sbjct  1   MVYGPSDLMGDLIALVEKRWASVRDVEQVGVALELSDCRQQVLLYQELKRLIRLLPVELF  60
+
+Query  61  GDDEQRQNLLNACQMALDLAIEREEEQQHG  90
+            ++EQRQNLL  CQ ALD AIEREE++  G
+Sbjct  61  SEEEQRQNLLQCCQGALDNAIEREEDELSG  90
+
+
+>VFG042267(gb|AAS91812) (acr1) Acr1 [T3SS (VF0479) - Effector 
+delivery system (VFC0086)] [Aeromonas hydrophila str. AH3]
+Length=93
+
+ Score = 100 bits (249),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 50/90 (56%), Positives = 68/90 (76%), Gaps = 0/90 (0%)
+
+Query  1   MAYGPSELTGAVIALLEKRWVGVAEVQALLEPLPLADVARQIHFFRELKRLYRLLPVEVF  60
+           MAYGPS+L G +IAL+EKRW  V +V+ +   L L++  +Q+  ++ELKRL RLLPVE+F
+Sbjct  1   MAYGPSDLMGDLIALVEKRWASVRDVEQVGAALELSESRQQVLLYQELKRLIRLLPVELF  60
+
+Query  61  GDDEQRQNLLNACQMALDLAIEREEEQQHG  90
+            +++QRQNLL  CQ ALD AIEREE++  G
+Sbjct  61  SEEDQRQNLLLCCQGALDNAIEREEDELSG  90
+
+
+>VFG007156(gb|WP_005464474) (tyeA/vcr1) type III secretion system 
+regulatory protein [T3SS1 (VF0408) - Effector delivery system 
+(VFC0086)] [Vibrio parahaemolyticus RIMD 2210633]
+Length=94
+
+ Score = 92.4 bits (228),  Expect = 4e-26, Method: Compositional matrix adjust.
+ Identities = 45/87 (52%), Positives = 60/87 (69%), Gaps = 0/87 (0%)
+
+Query  1   MAYGPSELTGAVIALLEKRWVGVAEVQALLEPLPLADVARQIHFFRELKRLYRLLPVEVF  60
+           MAY  S+L   VIAL+E+RWV   E+  +   + L  + ++I FFREL +L R +PV+VF
+Sbjct  1   MAYQASDLMADVIALVEQRWVSSEEIWKIATSMELVAIEQKIDFFRELHKLIRHIPVDVF  60
+
+Query  61  GDDEQRQNLLNACQMALDLAIEREEEQ  87
+            DDEQRQNL+ A Q ALD AI+ EEE+
+Sbjct  61  ADDEQRQNLIQAAQKALDEAIDLEEEE  87
+
+
+>VFG000388(gb|WP_002212965) (tyeA) chaperone for YopN [TTSS (VF0140) 
+- Effector delivery system (VFC0086)] [Yersinia pestis 
+CO92]
+Length=92
+
+ Score = 85.9 bits (211),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 37/81 (46%), Positives = 56/81 (69%), Gaps = 0/81 (0%)
+
+Query  1   MAYGPSELTGAVIALLEKRWVGVAEVQALLEPLPLADVARQIHFFRELKRLYRLLPVEVF  60
+           MAY  SE  G ++AL++KRW G+ +++ L     L     ++ F+++LKR++RL P+ VF
+Sbjct  1   MAYDLSEFMGDIVALVDKRWAGIHDIEHLANAFSLPTPEIKVRFYQDLKRMFRLFPLGVF  60
+
+Query  61  GDDEQRQNLLNACQMALDLAI  81
+            D+EQRQNLL  CQ A+D+AI
+Sbjct  61  SDEEQRQNLLQMCQNAIDMAI  81
+
+
+>VFG041798(gb|WP_011176684) (sctW) type III secretion system gatekeeper 
+subunit SctW [T3SS (VF1265) - Effector delivery system 
+(VFC0086)] [Desulfovibrio vulgaris str. Hildenborough]
+Length=374
+
+ Score = 44.7 bits (104),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 23/74 (31%), Positives = 41/74 (55%), Gaps = 0/74 (0%)
+
+Query  12   VIALLEKRWVGVAEVQALLEPLPLADVARQIHFFRELKRLYRLLPVEVFGDDEQRQNLLN  71
+            V+AL  + ++G   +  +       D+  ++ F +EL R+ R +P ++F     R  LL+
+Sbjct  293  VVALRSENFLGALHIDRIAAQAKAPDIEHEVLFLQELLRMTRNVPAQLFDGTAGRMKLLD  352
+
+Query  72   ACQMALDLAIEREE  85
+            A Q A+D AI+RE+
+Sbjct  353  AVQDAVDRAIDRED  366
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 334529993
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

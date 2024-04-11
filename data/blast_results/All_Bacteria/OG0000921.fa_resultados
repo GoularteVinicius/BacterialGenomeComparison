@@ -1,0 +1,838 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g917.t1
+
+Length=220
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG013265(gb|WP_005694045) (orfM) deoxyribonucleotide triphosphat...  128     4e-37
+VFG013268(gb|WP_012054924) (orfM) deoxyribonucleotide triphosphat...  127     5e-37
+VFG013266(gb|WP_011271949) (orfM) deoxyribonucleotide triphosphat...  126     2e-36
+VFG013267(gb|WP_005656195) (orfM) deoxyribonucleotide triphosphat...  126     2e-36
+VFG013269(gb|WP_010945211) (orfM) deoxyribonucleotide triphosphat...  124     1e-35
+VFG013270(gb|WP_011608277) (orfM) deoxyribonucleotide triphosphat...  112     1e-30
+VFG013151(gb|WP_012341066) (orfM) deoxyribonucleotide triphosphat...  110     3e-30
+
+
+>VFG013265(gb|WP_005694045) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus influenzae Rd KW20]
+Length=195
+
+ Score = 128 bits (321),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 78/202 (39%), Positives = 109/202 (54%), Gaps = 10/202 (5%)
+
+Query  15   LVTKLLVASRNWKKLAELRRVLDNAGLSGLTLVSLNDVVPFDEAPEAGATFEDNALAKAR  74
+            +  K+++A+ N  K+ E+  VL + G   +    L    P     E G TF +NAL KAR
+Sbjct  1    MKQKIVLATGNKGKVKEMADVLSDFGFEVIAQTDLGIESP----EETGLTFVENALLKAR  56
+
+Query  75   DAFAATGLASVADDSGLEAAALGGMPGVLSARWSGSYGDDAGNTALLLAQLCDVPDERRS  134
+             A   +GL ++ADDSGL  +AL G PG+ SAR++G  G+DA N   LLA+L  +  E+R 
+Sbjct  57   YASEKSGLPAIADDSGLVVSALNGAPGLYSARYAGEEGNDAKNREKLLAELAHIAQEQRQ  116
+
+Query  135  AAFVSACALVSESDE---VVVRGVWPGTIAREPRGYGGFGYDSIFIPDGPGLGGRTVAQL  191
+            A FVS    +    +   ++  G   G I  E +G  GFGYDS+F     G    T A+L
+Sbjct  117  AKFVSCIVFLQHPTDPSPIIAEGECCGVIGFEEKGENGFGYDSLFFSPEQGC---TFAEL  173
+
+Query  192  RPAEKDAFSHRFRALTLLMPAL  213
+              AEK   SHR +AL++L   L
+Sbjct  174  ETAEKKKISHRAKALSVLKSKL  195
+
+
+>VFG013268(gb|WP_012054924) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus influenzae PittGG]
+Length=195
+
+ Score = 127 bits (320),  Expect = 5e-37, Method: Compositional matrix adjust.
+ Identities = 78/202 (39%), Positives = 109/202 (54%), Gaps = 10/202 (5%)
+
+Query  15   LVTKLLVASRNWKKLAELRRVLDNAGLSGLTLVSLNDVVPFDEAPEAGATFEDNALAKAR  74
+            +  K+++A+ N  K+ E+  VL + G   +    L    P     E G TF +NAL KAR
+Sbjct  1    MKQKIVLATGNKGKVKEMADVLSDFGFEVIAQTDLGIESP----EETGLTFVENALLKAR  56
+
+Query  75   DAFAATGLASVADDSGLEAAALGGMPGVLSARWSGSYGDDAGNTALLLAQLCDVPDERRS  134
+             A   +GL ++ADDSGL  +AL G PG+ SAR++G  G+DA N   LLA+L  +  E+R 
+Sbjct  57   YASEKSGLPAIADDSGLVVSALNGAPGLYSARYAGEEGNDAKNREKLLAELAHIAQEQRQ  116
+
+Query  135  AAFVSACALVSESDE---VVVRGVWPGTIAREPRGYGGFGYDSIFIPDGPGLGGRTVAQL  191
+            A FVS    +    +   ++  G   G I  E +G  GFGYDS+F     G    T A+L
+Sbjct  117  AKFVSCIVFLQHPTDPSPIIAEGECCGVIGFEEKGENGFGYDSLFFSPEQGC---TFAEL  173
+
+Query  192  RPAEKDAFSHRFRALTLLMPAL  213
+              AEK   SHR +AL++L   L
+Sbjct  174  ETAEKKKISHRAKALSVLKNKL  195
+
+
+>VFG013266(gb|WP_011271949) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus influenzae 86-028NP]
+Length=195
+
+ Score = 126 bits (317),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 78/202 (39%), Positives = 108/202 (53%), Gaps = 10/202 (5%)
+
+Query  15   LVTKLLVASRNWKKLAELRRVLDNAGLSGLTLVSLNDVVPFDEAPEAGATFEDNALAKAR  74
+            +  K+++A+ N  K+ E+  VL + G   +    L    P     E G TF +NAL KAR
+Sbjct  1    MKQKIVLATGNKGKVKEMADVLSDFGFEVIAQTDLGIESP----EETGLTFVENALLKAR  56
+
+Query  75   DAFAATGLASVADDSGLEAAALGGMPGVLSARWSGSYGDDAGNTALLLAQLCDVPDERRS  134
+             A   +GL ++ADDSGL  +AL G PG+ SAR++G  G+DA N   LLA+L  V  ++R 
+Sbjct  57   YASEKSGLPAIADDSGLVVSALNGAPGLYSARYAGEEGNDAKNREKLLAELAHVAKDQRQ  116
+
+Query  135  AAFVSACALVSESDE---VVVRGVWPGTIAREPRGYGGFGYDSIFIPDGPGLGGRTVAQL  191
+            A FVS    +    +   ++  G   G I  E +G  GFGYDS+F     G    T A+L
+Sbjct  117  AKFVSCIVFLQHPTDPSPIIAEGECCGVIGFEEKGENGFGYDSLFFSPEQGC---TFAEL  173
+
+Query  192  RPAEKDAFSHRFRALTLLMPAL  213
+              AEK   SHR +AL +L   L
+Sbjct  174  ETAEKKKISHRAKALNILKNKL  195
+
+
+>VFG013267(gb|WP_005656195) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus influenzae PittEE]
+Length=195
+
+ Score = 126 bits (316),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 77/202 (38%), Positives = 109/202 (54%), Gaps = 10/202 (5%)
+
+Query  15   LVTKLLVASRNWKKLAELRRVLDNAGLSGLTLVSLNDVVPFDEAPEAGATFEDNALAKAR  74
+            +  K+++A+ N  K+ E+  VL + G   +    L    P     E G TF +NAL KAR
+Sbjct  1    MKQKIVLATGNKGKVKEMADVLSDFGFEVIAQTDLGIESP----EETGLTFVENALLKAR  56
+
+Query  75   DAFAATGLASVADDSGLEAAALGGMPGVLSARWSGSYGDDAGNTALLLAQLCDVPDERRS  134
+             A   +GL ++ADDSGL  +AL G PG+ SAR++G  G+DA N   LLA+L  +  ++R 
+Sbjct  57   YASEKSGLPAIADDSGLVVSALNGAPGLYSARYAGEEGNDAKNREKLLAELAHIAQDQRQ  116
+
+Query  135  AAFVSACALVSESDE---VVVRGVWPGTIAREPRGYGGFGYDSIFIPDGPGLGGRTVAQL  191
+            A FVS    +    +   ++  G   G I  E +G  GFGYDS+F     G    T A+L
+Sbjct  117  AKFVSCIVFLQHPTDPSPIIAEGECCGVIGFEEKGENGFGYDSLFFSPEQGC---TFAEL  173
+
+Query  192  RPAEKDAFSHRFRALTLLMPAL  213
+              AEK   SHR +AL++L   L
+Sbjct  174  ETAEKKKISHRAKALSVLKNKL  195
+
+
+>VFG013269(gb|WP_010945211) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus ducreyi 35000HP]
+Length=196
+
+ Score = 124 bits (312),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 82/200 (41%), Positives = 107/200 (54%), Gaps = 10/200 (5%)
+
+Query  17   TKLLVASRNWKKLAELRRVLDNAGLSGLTLVSLNDVVPFDEAPEAGATFEDNALAKARDA  76
+            TK+++A+ N  K+ E+  VL   G   +       V P    PE G TF +NAL KAR A
+Sbjct  4    TKIVLATSNKGKVKEMADVLSAFGFEVIAQSEFGLVSP----PETGLTFVENALLKARYA  59
+
+Query  77   FAATGLASVADDSGLEAAALGGMPGVLSARWSGSYGDDAGNTALLLAQLCDVPDERRSAA  136
+               TGL ++ADDSGL   AL G PG+ SAR++G   DD  N   LLA++ +VPD +R+A 
+Sbjct  60   SKMTGLPAIADDSGLAVDALAGAPGLYSARYAGIEDDDTANRRKLLAEMQNVPDGQRAAK  119
+
+Query  137  FVSACALVS-ESDEV--VVRGVWPGTIAREPRGYGGFGYDSIFIPDGPGLGGRTVAQLRP  193
+            FVS   ++  E+D    +  G   G I RE RG  GFGYD++F          T A+L  
+Sbjct  120  FVSCIVMLKHETDPTPKIAFGECFGEILREERGQNGFGYDALFFYPAKQC---TFAELDS  176
+
+Query  194  AEKDAFSHRFRALTLLMPAL  213
+             EK   SHR  AL  L   L
+Sbjct  177  TEKKQISHRALALVALQKQL  196
+
+
+>VFG013270(gb|WP_011608277) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus somnus 129PT]
+Length=198
+
+ Score = 112 bits (279),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 77/206 (37%), Positives = 109/206 (53%), Gaps = 14/206 (7%)
+
+Query  15   LVTKLLVASRNWKKLAELRRVLDNAGLSGLTLVSLNDVVPFDEAPEAGATFEDNALAKAR  74
+            +  K+++A+ N  K+ E+  VL   G     +V+  D+   D   E G TF +NAL KAR
+Sbjct  1    MKQKIVLATANPGKVKEMADVLSEFGFD---VVAQKDL-GIDSPEETGLTFVENALLKAR  56
+
+Query  75   DAFAATGLASVADDSGLEAAALGGMPGVLSARWSGSYGDDA--GNTALLLAQLCDVPDER  132
+             A   +GL ++ADDSGL    L G PG+ SAR++G  G +A   N   LLA+L +VP   
+Sbjct  57   YAAKMSGLPAIADDSGLVVPVLNGAPGLYSARYAGVEGKEAEQKNREKLLAELANVPVNE  116
+
+Query  133  RSAAFVSACALVSESDE---VVVRGVWPGTIAREPRGYGGFGYDSIFI-PDGPGLGGRTV  188
+            R A FVS   ++    +   ++  G   G IA    G  GF YDS+F  P+     G T 
+Sbjct  117  RHAKFVSCIVMLQHDTDPSPIIAEGECHGIIAFSESGSNGFAYDSLFFYPE----TGCTF  172
+
+Query  189  AQLRPAEKDAFSHRFRALTLLMPALR  214
+            A+L  +EK   SHR +AL +L   L+
+Sbjct  173  AELETSEKKKISHRAKALAVLKERLK  198
+
+
+>VFG013151(gb|WP_012341066) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus somnus 2336]
+Length=198
+
+ Score = 110 bits (276),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 77/206 (37%), Positives = 108/206 (52%), Gaps = 14/206 (7%)
+
+Query  15   LVTKLLVASRNWKKLAELRRVLDNAGLSGLTLVSLNDVVPFDEAPEAGATFEDNALAKAR  74
+            +  K+++A+ N  K+ E+  VL   G     +V+  D+   D   E G TF +NAL KAR
+Sbjct  1    MKQKIVLATANPGKVKEMADVLSEFGFD---VVAQKDL-GIDSPEETGLTFVENALLKAR  56
+
+Query  75   DAFAATGLASVADDSGLEAAALGGMPGVLSARWSGSYGDDA--GNTALLLAQLCDVPDER  132
+             A   +GL ++ADDSGL    L G PG+ SAR++G    DA   N   LLA+L +VP   
+Sbjct  57   YAAKMSGLPAIADDSGLVVPVLNGAPGLYSARYAGVEDKDAEQKNREKLLAELANVPVNE  116
+
+Query  133  RSAAFVSACALVSESDE---VVVRGVWPGTIAREPRGYGGFGYDSIFI-PDGPGLGGRTV  188
+            R A FVS   ++    +   ++  G   G IA    G  GF YDS+F  P+     G T 
+Sbjct  117  RHAKFVSCIVMLQHDTDPSPIIAEGECHGIIAFSESGSNGFAYDSLFFYPE----TGCTF  172
+
+Query  189  AQLRPAEKDAFSHRFRALTLLMPALR  214
+            A+L  +EK   SHR +AL +L   L+
+Sbjct  173  AELETSEKKKISHRAKALAVLKERLK  198
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1315901764
+
+
+Query= g1331.t1
+
+Length=201
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG013269(gb|WP_010945211) (orfM) deoxyribonucleotide triphosphat...  144     1e-43
+VFG013265(gb|WP_005694045) (orfM) deoxyribonucleotide triphosphat...  140     3e-42
+VFG013268(gb|WP_012054924) (orfM) deoxyribonucleotide triphosphat...  140     3e-42
+VFG013267(gb|WP_005656195) (orfM) deoxyribonucleotide triphosphat...  139     2e-41
+VFG013266(gb|WP_011271949) (orfM) deoxyribonucleotide triphosphat...  139     2e-41
+VFG013270(gb|WP_011608277) (orfM) deoxyribonucleotide triphosphat...  122     6e-35
+VFG013151(gb|WP_012341066) (orfM) deoxyribonucleotide triphosphat...  121     2e-34
+
+
+>VFG013269(gb|WP_010945211) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus ducreyi 35000HP]
+Length=196
+
+ Score = 144 bits (364),  Expect = 1e-43, Method: Compositional matrix adjust.
+ Identities = 86/197 (44%), Positives = 112/197 (57%), Gaps = 7/197 (4%)
+
+Query  2    TKLLVASRNRKKLAELRRVLDGAGLSGLTLLSLGDVSPLPETPETGVTFEDNALAKARDA  61
+            TK+++A+ N+ K+ E+  VL   G   +     G VSP    PETG+TF +NAL KAR A
+Sbjct  4    TKIVLATSNKGKVKEMADVLSAFGFEVIAQSEFGLVSP----PETGLTFVENALLKARYA  59
+
+Query  62   FSATGLASVADDSGLEVAALGGMPGVLSARWSGRYGDDAANTALLLAQLCDVPDERRGAA  121
+               TGL ++ADDSGL V AL G PG+ SAR++G   DD AN   LLA++ +VPD +R A 
+Sbjct  60   SKMTGLPAIADDSGLAVDALAGAPGLYSARYAGIEDDDTANRRKLLAEMQNVPDGQRAAK  119
+
+Query  122  FVSACALVSGSGE---VVVRGEWPGTIAREPRGDGGFGYDPVFVPYGDDRTAAQLSPAEK  178
+            FVS   ++    +    +  GE  G I RE RG  GFGYD +F       T A+L   EK
+Sbjct  120  FVSCIVMLKHETDPTPKIAFGECFGEILREERGQNGFGYDALFFYPAKQCTFAELDSTEK  179
+
+Query  179  DAVSHRGRALALLLPAL  195
+              +SHR  AL  L   L
+Sbjct  180  KQISHRALALVALQKQL  196
+
+
+>VFG013265(gb|WP_005694045) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus influenzae Rd KW20]
+Length=195
+
+ Score = 140 bits (354),  Expect = 3e-42, Method: Compositional matrix adjust.
+ Identities = 81/196 (41%), Positives = 114/196 (58%), Gaps = 7/196 (4%)
+
+Query  3    KLLVASRNRKKLAELRRVLDGAGLSGLTLLSLGDVSPLPETPETGVTFEDNALAKARDAF  62
+            K+++A+ N+ K+ E+  VL   G   +    LG  SP     ETG+TF +NAL KAR A 
+Sbjct  4    KIVLATGNKGKVKEMADVLSDFGFEVIAQTDLGIESP----EETGLTFVENALLKARYAS  59
+
+Query  63   SATGLASVADDSGLEVAALGGMPGVLSARWSGRYGDDAANTALLLAQLCDVPDERRGAAF  122
+              +GL ++ADDSGL V+AL G PG+ SAR++G  G+DA N   LLA+L  +  E+R A F
+Sbjct  60   EKSGLPAIADDSGLVVSALNGAPGLYSARYAGEEGNDAKNREKLLAELAHIAQEQRQAKF  119
+
+Query  123  VSACALVSGSGE---VVVRGEWPGTIAREPRGDGGFGYDPVFVPYGDDRTAAQLSPAEKD  179
+            VS    +    +   ++  GE  G I  E +G+ GFGYD +F       T A+L  AEK 
+Sbjct  120  VSCIVFLQHPTDPSPIIAEGECCGVIGFEEKGENGFGYDSLFFSPEQGCTFAELETAEKK  179
+
+Query  180  AVSHRGRALALLLPAL  195
+             +SHR +AL++L   L
+Sbjct  180  KISHRAKALSVLKSKL  195
+
+
+>VFG013268(gb|WP_012054924) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus influenzae PittGG]
+Length=195
+
+ Score = 140 bits (354),  Expect = 3e-42, Method: Compositional matrix adjust.
+ Identities = 80/192 (42%), Positives = 113/192 (59%), Gaps = 7/192 (4%)
+
+Query  3    KLLVASRNRKKLAELRRVLDGAGLSGLTLLSLGDVSPLPETPETGVTFEDNALAKARDAF  62
+            K+++A+ N+ K+ E+  VL   G   +    LG  SP     ETG+TF +NAL KAR A 
+Sbjct  4    KIVLATGNKGKVKEMADVLSDFGFEVIAQTDLGIESP----EETGLTFVENALLKARYAS  59
+
+Query  63   SATGLASVADDSGLEVAALGGMPGVLSARWSGRYGDDAANTALLLAQLCDVPDERRGAAF  122
+              +GL ++ADDSGL V+AL G PG+ SAR++G  G+DA N   LLA+L  +  E+R A F
+Sbjct  60   EKSGLPAIADDSGLVVSALNGAPGLYSARYAGEEGNDAKNREKLLAELAHIAQEQRQAKF  119
+
+Query  123  VSACALVSGSGE---VVVRGEWPGTIAREPRGDGGFGYDPVFVPYGDDRTAAQLSPAEKD  179
+            VS    +    +   ++  GE  G I  E +G+ GFGYD +F       T A+L  AEK 
+Sbjct  120  VSCIVFLQHPTDPSPIIAEGECCGVIGFEEKGENGFGYDSLFFSPEQGCTFAELETAEKK  179
+
+Query  180  AVSHRGRALALL  191
+             +SHR +AL++L
+Sbjct  180  KISHRAKALSVL  191
+
+
+>VFG013267(gb|WP_005656195) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus influenzae PittEE]
+Length=195
+
+ Score = 139 bits (349),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 79/192 (41%), Positives = 113/192 (59%), Gaps = 7/192 (4%)
+
+Query  3    KLLVASRNRKKLAELRRVLDGAGLSGLTLLSLGDVSPLPETPETGVTFEDNALAKARDAF  62
+            K+++A+ N+ K+ E+  VL   G   +    LG  SP     ETG+TF +NAL KAR A 
+Sbjct  4    KIVLATGNKGKVKEMADVLSDFGFEVIAQTDLGIESP----EETGLTFVENALLKARYAS  59
+
+Query  63   SATGLASVADDSGLEVAALGGMPGVLSARWSGRYGDDAANTALLLAQLCDVPDERRGAAF  122
+              +GL ++ADDSGL V+AL G PG+ SAR++G  G+DA N   LLA+L  +  ++R A F
+Sbjct  60   EKSGLPAIADDSGLVVSALNGAPGLYSARYAGEEGNDAKNREKLLAELAHIAQDQRQAKF  119
+
+Query  123  VSACALVSGSGE---VVVRGEWPGTIAREPRGDGGFGYDPVFVPYGDDRTAAQLSPAEKD  179
+            VS    +    +   ++  GE  G I  E +G+ GFGYD +F       T A+L  AEK 
+Sbjct  120  VSCIVFLQHPTDPSPIIAEGECCGVIGFEEKGENGFGYDSLFFSPEQGCTFAELETAEKK  179
+
+Query  180  AVSHRGRALALL  191
+             +SHR +AL++L
+Sbjct  180  KISHRAKALSVL  191
+
+
+>VFG013266(gb|WP_011271949) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus influenzae 86-028NP]
+Length=195
+
+ Score = 139 bits (349),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 81/196 (41%), Positives = 113/196 (58%), Gaps = 7/196 (4%)
+
+Query  3    KLLVASRNRKKLAELRRVLDGAGLSGLTLLSLGDVSPLPETPETGVTFEDNALAKARDAF  62
+            K+++A+ N+ K+ E+  VL   G   +    LG  SP     ETG+TF +NAL KAR A 
+Sbjct  4    KIVLATGNKGKVKEMADVLSDFGFEVIAQTDLGIESP----EETGLTFVENALLKARYAS  59
+
+Query  63   SATGLASVADDSGLEVAALGGMPGVLSARWSGRYGDDAANTALLLAQLCDVPDERRGAAF  122
+              +GL ++ADDSGL V+AL G PG+ SAR++G  G+DA N   LLA+L  V  ++R A F
+Sbjct  60   EKSGLPAIADDSGLVVSALNGAPGLYSARYAGEEGNDAKNREKLLAELAHVAKDQRQAKF  119
+
+Query  123  VSACALVSGSGE---VVVRGEWPGTIAREPRGDGGFGYDPVFVPYGDDRTAAQLSPAEKD  179
+            VS    +    +   ++  GE  G I  E +G+ GFGYD +F       T A+L  AEK 
+Sbjct  120  VSCIVFLQHPTDPSPIIAEGECCGVIGFEEKGENGFGYDSLFFSPEQGCTFAELETAEKK  179
+
+Query  180  AVSHRGRALALLLPAL  195
+             +SHR +AL +L   L
+Sbjct  180  KISHRAKALNILKNKL  195
+
+
+>VFG013270(gb|WP_011608277) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus somnus 129PT]
+Length=198
+
+ Score = 122 bits (305),  Expect = 6e-35, Method: Compositional matrix adjust.
+ Identities = 79/199 (40%), Positives = 109/199 (55%), Gaps = 9/199 (5%)
+
+Query  3    KLLVASRNRKKLAELRRVLDGAGLSGLTLLSLGDVSPLPETPETGVTFEDNALAKARDAF  62
+            K+++A+ N  K+ E+  VL   G   +    LG  SP     ETG+TF +NAL KAR A 
+Sbjct  4    KIVLATANPGKVKEMADVLSEFGFDVVAQKDLGIDSP----EETGLTFVENALLKARYAA  59
+
+Query  63   SATGLASVADDSGLEVAALGGMPGVLSARWSGRYGDDA--ANTALLLAQLCDVPDERRGA  120
+              +GL ++ADDSGL V  L G PG+ SAR++G  G +A   N   LLA+L +VP   R A
+Sbjct  60   KMSGLPAIADDSGLVVPVLNGAPGLYSARYAGVEGKEAEQKNREKLLAELANVPVNERHA  119
+
+Query  121  AFVSACALVSGSGE---VVVRGEWPGTIAREPRGDGGFGYDPVFVPYGDDRTAAQLSPAE  177
+             FVS   ++    +   ++  GE  G IA    G  GF YD +F       T A+L  +E
+Sbjct  120  KFVSCIVMLQHDTDPSPIIAEGECHGIIAFSESGSNGFAYDSLFFYPETGCTFAELETSE  179
+
+Query  178  KDAVSHRGRALALLLPALR  196
+            K  +SHR +ALA+L   L+
+Sbjct  180  KKKISHRAKALAVLKERLK  198
+
+
+>VFG013151(gb|WP_012341066) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus somnus 2336]
+Length=198
+
+ Score = 121 bits (303),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 79/199 (40%), Positives = 108/199 (54%), Gaps = 9/199 (5%)
+
+Query  3    KLLVASRNRKKLAELRRVLDGAGLSGLTLLSLGDVSPLPETPETGVTFEDNALAKARDAF  62
+            K+++A+ N  K+ E+  VL   G   +    LG  SP     ETG+TF +NAL KAR A 
+Sbjct  4    KIVLATANPGKVKEMADVLSEFGFDVVAQKDLGIDSP----EETGLTFVENALLKARYAA  59
+
+Query  63   SATGLASVADDSGLEVAALGGMPGVLSARWSGRYGDDA--ANTALLLAQLCDVPDERRGA  120
+              +GL ++ADDSGL V  L G PG+ SAR++G    DA   N   LLA+L +VP   R A
+Sbjct  60   KMSGLPAIADDSGLVVPVLNGAPGLYSARYAGVEDKDAEQKNREKLLAELANVPVNERHA  119
+
+Query  121  AFVSACALVSGSGE---VVVRGEWPGTIAREPRGDGGFGYDPVFVPYGDDRTAAQLSPAE  177
+             FVS   ++    +   ++  GE  G IA    G  GF YD +F       T A+L  +E
+Sbjct  120  KFVSCIVMLQHDTDPSPIIAEGECHGIIAFSESGSNGFAYDSLFFYPETGCTFAELETSE  179
+
+Query  178  KDAVSHRGRALALLLPALR  196
+            K  +SHR +ALA+L   L+
+Sbjct  180  KKKISHRAKALAVLKERLK  198
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1127849858
+
+
+Query= g393.t1
+
+Length=197
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG013269(gb|WP_010945211) (orfM) deoxyribonucleotide triphosphat...  198     8e-65
+VFG013270(gb|WP_011608277) (orfM) deoxyribonucleotide triphosphat...  184     1e-59
+VFG013151(gb|WP_012341066) (orfM) deoxyribonucleotide triphosphat...  184     1e-59
+VFG013265(gb|WP_005694045) (orfM) deoxyribonucleotide triphosphat...  180     1e-57
+VFG013268(gb|WP_012054924) (orfM) deoxyribonucleotide triphosphat...  180     1e-57
+VFG013267(gb|WP_005656195) (orfM) deoxyribonucleotide triphosphat...  179     2e-57
+VFG013266(gb|WP_011271949) (orfM) deoxyribonucleotide triphosphat...  179     3e-57
+
+
+>VFG013269(gb|WP_010945211) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus ducreyi 35000HP]
+Length=196
+
+ Score = 198 bits (503),  Expect = 8e-65, Method: Compositional matrix adjust.
+ Identities = 101/192 (53%), Positives = 136/192 (71%), Gaps = 2/192 (1%)
+
+Query  6    QLVLASHNAGKLKELQAMLGA-SVKVRSIGEFSQVEPEETGLSFVENAILKARNAARLSG  64
+            ++VLA+ N GK+KE+  +L A   +V +  EF  V P ETGL+FVENA+LKAR A++++G
+Sbjct  5    KIVLATSNKGKVKEMADVLSAFGFEVIAQSEFGLVSPPETGLTFVENALLKARYASKMTG  64
+
+Query  65   LPALADDSGLAVDFLGGAPGIYSARYADGRGD-AANNAKLLEAMKDVPDAERGAQFVSVL  123
+            LPA+ADDSGLAVD L GAPG+YSARYA    D  AN  KLL  M++VPD +R A+FVS +
+Sbjct  65   LPAIADDSGLAVDALAGAPGLYSARYAGIEDDDTANRRKLLAEMQNVPDGQRAAKFVSCI  124
+
+Query  124  ALVRHADDPLPILCEGIWEGRILREARGAHGFGYDPLFWVPERDCSSAELAPEEKNRLSH  183
+             +++H  DP P +  G   G ILRE RG +GFGYD LF+ P + C+ AEL   EK ++SH
+Sbjct  125  VMLKHETDPTPKIAFGECFGEILREERGQNGFGYDALFFYPAKQCTFAELDSTEKKQISH  184
+
+Query  184  RARAMALLKQRL  195
+            RA A+  L+++L
+Sbjct  185  RALALVALQKQL  196
+
+
+>VFG013270(gb|WP_011608277) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus somnus 129PT]
+Length=198
+
+ Score = 184 bits (468),  Expect = 1e-59, Method: Compositional matrix adjust.
+ Identities = 98/195 (50%), Positives = 131/195 (67%), Gaps = 4/195 (2%)
+
+Query  5    EQLVLASHNAGKLKELQAMLGA-SVKVRSIGEFSQVEPEETGLSFVENAILKARNAARLS  63
+            +++VLA+ N GK+KE+  +L      V +  +     PEETGL+FVENA+LKAR AA++S
+Sbjct  3    QKIVLATANPGKVKEMADVLSEFGFDVVAQKDLGIDSPEETGLTFVENALLKARYAAKMS  62
+
+Query  64   GLPALADDSGLAVDFLGGAPGIYSARYADGRGDAA---NNAKLLEAMKDVPDAERGAQFV  120
+            GLPA+ADDSGL V  L GAPG+YSARYA   G  A   N  KLL  + +VP  ER A+FV
+Sbjct  63   GLPAIADDSGLVVPVLNGAPGLYSARYAGVEGKEAEQKNREKLLAELANVPVNERHAKFV  122
+
+Query  121  SVLALVRHADDPLPILCEGIWEGRILREARGAHGFGYDPLFWVPERDCSSAELAPEEKNR  180
+            S + +++H  DP PI+ EG   G I     G++GF YD LF+ PE  C+ AEL   EK +
+Sbjct  123  SCIVMLQHDTDPSPIIAEGECHGIIAFSESGSNGFAYDSLFFYPETGCTFAELETSEKKK  182
+
+Query  181  LSHRARAMALLKQRL  195
+            +SHRA+A+A+LK+RL
+Sbjct  183  ISHRAKALAVLKERL  197
+
+
+>VFG013151(gb|WP_012341066) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus somnus 2336]
+Length=198
+
+ Score = 184 bits (468),  Expect = 1e-59, Method: Compositional matrix adjust.
+ Identities = 97/195 (50%), Positives = 131/195 (67%), Gaps = 4/195 (2%)
+
+Query  5    EQLVLASHNAGKLKELQAMLGA-SVKVRSIGEFSQVEPEETGLSFVENAILKARNAARLS  63
+            +++VLA+ N GK+KE+  +L      V +  +     PEETGL+FVENA+LKAR AA++S
+Sbjct  3    QKIVLATANPGKVKEMADVLSEFGFDVVAQKDLGIDSPEETGLTFVENALLKARYAAKMS  62
+
+Query  64   GLPALADDSGLAVDFLGGAPGIYSARYA---DGRGDAANNAKLLEAMKDVPDAERGAQFV  120
+            GLPA+ADDSGL V  L GAPG+YSARYA   D   +  N  KLL  + +VP  ER A+FV
+Sbjct  63   GLPAIADDSGLVVPVLNGAPGLYSARYAGVEDKDAEQKNREKLLAELANVPVNERHAKFV  122
+
+Query  121  SVLALVRHADDPLPILCEGIWEGRILREARGAHGFGYDPLFWVPERDCSSAELAPEEKNR  180
+            S + +++H  DP PI+ EG   G I     G++GF YD LF+ PE  C+ AEL   EK +
+Sbjct  123  SCIVMLQHDTDPSPIIAEGECHGIIAFSESGSNGFAYDSLFFYPETGCTFAELETSEKKK  182
+
+Query  181  LSHRARAMALLKQRL  195
+            +SHRA+A+A+LK+RL
+Sbjct  183  ISHRAKALAVLKERL  197
+
+
+>VFG013265(gb|WP_005694045) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus influenzae Rd KW20]
+Length=195
+
+ Score = 180 bits (456),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 95/193 (49%), Positives = 130/193 (67%), Gaps = 2/193 (1%)
+
+Query  5    EQLVLASHNAGKLKELQAMLG-ASVKVRSIGEFSQVEPEETGLSFVENAILKARNAARLS  63
+            +++VLA+ N GK+KE+  +L     +V +  +     PEETGL+FVENA+LKAR A+  S
+Sbjct  3    QKIVLATGNKGKVKEMADVLSDFGFEVIAQTDLGIESPEETGLTFVENALLKARYASEKS  62
+
+Query  64   GLPALADDSGLAVDFLGGAPGIYSARYADGRG-DAANNAKLLEAMKDVPDAERGAQFVSV  122
+            GLPA+ADDSGL V  L GAPG+YSARYA   G DA N  KLL  +  +   +R A+FVS 
+Sbjct  63   GLPAIADDSGLVVSALNGAPGLYSARYAGEEGNDAKNREKLLAELAHIAQEQRQAKFVSC  122
+
+Query  123  LALVRHADDPLPILCEGIWEGRILREARGAHGFGYDPLFWVPERDCSSAELAPEEKNRLS  182
+            +  ++H  DP PI+ EG   G I  E +G +GFGYD LF+ PE+ C+ AEL   EK ++S
+Sbjct  123  IVFLQHPTDPSPIIAEGECCGVIGFEEKGENGFGYDSLFFSPEQGCTFAELETAEKKKIS  182
+
+Query  183  HRARAMALLKQRL  195
+            HRA+A+++LK +L
+Sbjct  183  HRAKALSVLKSKL  195
+
+
+>VFG013268(gb|WP_012054924) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus influenzae PittGG]
+Length=195
+
+ Score = 180 bits (456),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 95/193 (49%), Positives = 130/193 (67%), Gaps = 2/193 (1%)
+
+Query  5    EQLVLASHNAGKLKELQAMLG-ASVKVRSIGEFSQVEPEETGLSFVENAILKARNAARLS  63
+            +++VLA+ N GK+KE+  +L     +V +  +     PEETGL+FVENA+LKAR A+  S
+Sbjct  3    QKIVLATGNKGKVKEMADVLSDFGFEVIAQTDLGIESPEETGLTFVENALLKARYASEKS  62
+
+Query  64   GLPALADDSGLAVDFLGGAPGIYSARYADGRG-DAANNAKLLEAMKDVPDAERGAQFVSV  122
+            GLPA+ADDSGL V  L GAPG+YSARYA   G DA N  KLL  +  +   +R A+FVS 
+Sbjct  63   GLPAIADDSGLVVSALNGAPGLYSARYAGEEGNDAKNREKLLAELAHIAQEQRQAKFVSC  122
+
+Query  123  LALVRHADDPLPILCEGIWEGRILREARGAHGFGYDPLFWVPERDCSSAELAPEEKNRLS  182
+            +  ++H  DP PI+ EG   G I  E +G +GFGYD LF+ PE+ C+ AEL   EK ++S
+Sbjct  123  IVFLQHPTDPSPIIAEGECCGVIGFEEKGENGFGYDSLFFSPEQGCTFAELETAEKKKIS  182
+
+Query  183  HRARAMALLKQRL  195
+            HRA+A+++LK +L
+Sbjct  183  HRAKALSVLKNKL  195
+
+
+>VFG013267(gb|WP_005656195) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus influenzae PittEE]
+Length=195
+
+ Score = 179 bits (454),  Expect = 2e-57, Method: Compositional matrix adjust.
+ Identities = 95/193 (49%), Positives = 130/193 (67%), Gaps = 2/193 (1%)
+
+Query  5    EQLVLASHNAGKLKELQAMLGA-SVKVRSIGEFSQVEPEETGLSFVENAILKARNAARLS  63
+            +++VLA+ N GK+KE+  +L     +V +  +     PEETGL+FVENA+LKAR A+  S
+Sbjct  3    QKIVLATGNKGKVKEMADVLSDFGFEVIAQTDLGIESPEETGLTFVENALLKARYASEKS  62
+
+Query  64   GLPALADDSGLAVDFLGGAPGIYSARYADGRG-DAANNAKLLEAMKDVPDAERGAQFVSV  122
+            GLPA+ADDSGL V  L GAPG+YSARYA   G DA N  KLL  +  +   +R A+FVS 
+Sbjct  63   GLPAIADDSGLVVSALNGAPGLYSARYAGEEGNDAKNREKLLAELAHIAQDQRQAKFVSC  122
+
+Query  123  LALVRHADDPLPILCEGIWEGRILREARGAHGFGYDPLFWVPERDCSSAELAPEEKNRLS  182
+            +  ++H  DP PI+ EG   G I  E +G +GFGYD LF+ PE+ C+ AEL   EK ++S
+Sbjct  123  IVFLQHPTDPSPIIAEGECCGVIGFEEKGENGFGYDSLFFSPEQGCTFAELETAEKKKIS  182
+
+Query  183  HRARAMALLKQRL  195
+            HRA+A+++LK +L
+Sbjct  183  HRAKALSVLKNKL  195
+
+
+>VFG013266(gb|WP_011271949) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus influenzae 86-028NP]
+Length=195
+
+ Score = 179 bits (453),  Expect = 3e-57, Method: Compositional matrix adjust.
+ Identities = 96/193 (50%), Positives = 129/193 (67%), Gaps = 2/193 (1%)
+
+Query  5    EQLVLASHNAGKLKELQAMLGA-SVKVRSIGEFSQVEPEETGLSFVENAILKARNAARLS  63
+            +++VLA+ N GK+KE+  +L     +V +  +     PEETGL+FVENA+LKAR A+  S
+Sbjct  3    QKIVLATGNKGKVKEMADVLSDFGFEVIAQTDLGIESPEETGLTFVENALLKARYASEKS  62
+
+Query  64   GLPALADDSGLAVDFLGGAPGIYSARYADGRG-DAANNAKLLEAMKDVPDAERGAQFVSV  122
+            GLPA+ADDSGL V  L GAPG+YSARYA   G DA N  KLL  +  V   +R A+FVS 
+Sbjct  63   GLPAIADDSGLVVSALNGAPGLYSARYAGEEGNDAKNREKLLAELAHVAKDQRQAKFVSC  122
+
+Query  123  LALVRHADDPLPILCEGIWEGRILREARGAHGFGYDPLFWVPERDCSSAELAPEEKNRLS  182
+            +  ++H  DP PI+ EG   G I  E +G +GFGYD LF+ PE+ C+ AEL   EK ++S
+Sbjct  123  IVFLQHPTDPSPIIAEGECCGVIGFEEKGENGFGYDSLFFSPEQGCTFAELETAEKKKIS  182
+
+Query  183  HRARAMALLKQRL  195
+            HRA+A+ +LK +L
+Sbjct  183  HRAKALNILKNKL  195
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1085289486
+
+
+Query= g2884.t1
+
+Length=197
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG013266(gb|WP_011271949) (orfM) deoxyribonucleotide triphosphat...  235     2e-79
+VFG013267(gb|WP_005656195) (orfM) deoxyribonucleotide triphosphat...  234     3e-79
+VFG013268(gb|WP_012054924) (orfM) deoxyribonucleotide triphosphat...  233     1e-78
+VFG013265(gb|WP_005694045) (orfM) deoxyribonucleotide triphosphat...  232     2e-78
+VFG013151(gb|WP_012341066) (orfM) deoxyribonucleotide triphosphat...  228     7e-77
+VFG013270(gb|WP_011608277) (orfM) deoxyribonucleotide triphosphat...  227     2e-76
+VFG013269(gb|WP_010945211) (orfM) deoxyribonucleotide triphosphat...  215     1e-71
+
+
+>VFG013266(gb|WP_011271949) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus influenzae 86-028NP]
+Length=195
+
+ Score = 235 bits (599),  Expect = 2e-79, Method: Compositional matrix adjust.
+ Identities = 112/193 (58%), Positives = 143/193 (74%), Gaps = 0/193 (0%)
+
+Query  2    QKVVLATGNAGKVRELASLLSDFGLDVVAQTELGVDSAEETGLTFIENAILKARHAAKMT  61
+            QK+VLATGN GKV+E+A +LSDFG +V+AQT+LG++S EETGLTF+ENA+LKAR+A++ +
+Sbjct  3    QKIVLATGNKGKVKEMADVLSDFGFEVIAQTDLGIESPEETGLTFVENALLKARYASEKS  62
+
+Query  62   GLPAIADDSGLAVDVLGGAPGIYSARYSGENATDQQNLEKLLHTLRDVPDDKRQARFHCV  121
+            GLPAIADDSGL V  L GAPG+YSARY+GE   D +N EKLL  L  V  D+RQA+F   
+Sbjct  63   GLPAIADDSGLVVSALNGAPGLYSARYAGEEGNDAKNREKLLAELAHVAKDQRQAKFVSC  122
+
+Query  122  LVYLRHAEDPTPIVCHGSWPGVITRQAAGNGGFGYDPIFFVPSEGKTAAELTREEKSAIS  181
+            +V+L+H  DP+PI+  G   GVI  +  G  GFGYD +FF P +G T AEL   EK  IS
+Sbjct  123  IVFLQHPTDPSPIIAEGECCGVIGFEEKGENGFGYDSLFFSPEQGCTFAELETAEKKKIS  182
+
+Query  182  HRGQALKLLLDAL  194
+            HR +AL +L + L
+Sbjct  183  HRAKALNILKNKL  195
+
+
+>VFG013267(gb|WP_005656195) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus influenzae PittEE]
+Length=195
+
+ Score = 234 bits (597),  Expect = 3e-79, Method: Compositional matrix adjust.
+ Identities = 111/193 (58%), Positives = 143/193 (74%), Gaps = 0/193 (0%)
+
+Query  2    QKVVLATGNAGKVRELASLLSDFGLDVVAQTELGVDSAEETGLTFIENAILKARHAAKMT  61
+            QK+VLATGN GKV+E+A +LSDFG +V+AQT+LG++S EETGLTF+ENA+LKAR+A++ +
+Sbjct  3    QKIVLATGNKGKVKEMADVLSDFGFEVIAQTDLGIESPEETGLTFVENALLKARYASEKS  62
+
+Query  62   GLPAIADDSGLAVDVLGGAPGIYSARYSGENATDQQNLEKLLHTLRDVPDDKRQARFHCV  121
+            GLPAIADDSGL V  L GAPG+YSARY+GE   D +N EKLL  L  +  D+RQA+F   
+Sbjct  63   GLPAIADDSGLVVSALNGAPGLYSARYAGEEGNDAKNREKLLAELAHIAQDQRQAKFVSC  122
+
+Query  122  LVYLRHAEDPTPIVCHGSWPGVITRQAAGNGGFGYDPIFFVPSEGKTAAELTREEKSAIS  181
+            +V+L+H  DP+PI+  G   GVI  +  G  GFGYD +FF P +G T AEL   EK  IS
+Sbjct  123  IVFLQHPTDPSPIIAEGECCGVIGFEEKGENGFGYDSLFFSPEQGCTFAELETAEKKKIS  182
+
+Query  182  HRGQALKLLLDAL  194
+            HR +AL +L + L
+Sbjct  183  HRAKALSVLKNKL  195
+
+
+>VFG013268(gb|WP_012054924) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus influenzae PittGG]
+Length=195
+
+ Score = 233 bits (594),  Expect = 1e-78, Method: Compositional matrix adjust.
+ Identities = 110/193 (57%), Positives = 143/193 (74%), Gaps = 0/193 (0%)
+
+Query  2    QKVVLATGNAGKVRELASLLSDFGLDVVAQTELGVDSAEETGLTFIENAILKARHAAKMT  61
+            QK+VLATGN GKV+E+A +LSDFG +V+AQT+LG++S EETGLTF+ENA+LKAR+A++ +
+Sbjct  3    QKIVLATGNKGKVKEMADVLSDFGFEVIAQTDLGIESPEETGLTFVENALLKARYASEKS  62
+
+Query  62   GLPAIADDSGLAVDVLGGAPGIYSARYSGENATDQQNLEKLLHTLRDVPDDKRQARFHCV  121
+            GLPAIADDSGL V  L GAPG+YSARY+GE   D +N EKLL  L  +  ++RQA+F   
+Sbjct  63   GLPAIADDSGLVVSALNGAPGLYSARYAGEEGNDAKNREKLLAELAHIAQEQRQAKFVSC  122
+
+Query  122  LVYLRHAEDPTPIVCHGSWPGVITRQAAGNGGFGYDPIFFVPSEGKTAAELTREEKSAIS  181
+            +V+L+H  DP+PI+  G   GVI  +  G  GFGYD +FF P +G T AEL   EK  IS
+Sbjct  123  IVFLQHPTDPSPIIAEGECCGVIGFEEKGENGFGYDSLFFSPEQGCTFAELETAEKKKIS  182
+
+Query  182  HRGQALKLLLDAL  194
+            HR +AL +L + L
+Sbjct  183  HRAKALSVLKNKL  195
+
+
+>VFG013265(gb|WP_005694045) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus influenzae Rd KW20]
+Length=195
+
+ Score = 232 bits (592),  Expect = 2e-78, Method: Compositional matrix adjust.
+ Identities = 110/193 (57%), Positives = 142/193 (74%), Gaps = 0/193 (0%)
+
+Query  2    QKVVLATGNAGKVRELASLLSDFGLDVVAQTELGVDSAEETGLTFIENAILKARHAAKMT  61
+            QK+VLATGN GKV+E+A +LSDFG +V+AQT+LG++S EETGLTF+ENA+LKAR+A++ +
+Sbjct  3    QKIVLATGNKGKVKEMADVLSDFGFEVIAQTDLGIESPEETGLTFVENALLKARYASEKS  62
+
+Query  62   GLPAIADDSGLAVDVLGGAPGIYSARYSGENATDQQNLEKLLHTLRDVPDDKRQARFHCV  121
+            GLPAIADDSGL V  L GAPG+YSARY+GE   D +N EKLL  L  +  ++RQA+F   
+Sbjct  63   GLPAIADDSGLVVSALNGAPGLYSARYAGEEGNDAKNREKLLAELAHIAQEQRQAKFVSC  122
+
+Query  122  LVYLRHAEDPTPIVCHGSWPGVITRQAAGNGGFGYDPIFFVPSEGKTAAELTREEKSAIS  181
+            +V+L+H  DP+PI+  G   GVI  +  G  GFGYD +FF P +G T AEL   EK  IS
+Sbjct  123  IVFLQHPTDPSPIIAEGECCGVIGFEEKGENGFGYDSLFFSPEQGCTFAELETAEKKKIS  182
+
+Query  182  HRGQALKLLLDAL  194
+            HR +AL +L   L
+Sbjct  183  HRAKALSVLKSKL  195
+
+
+>VFG013151(gb|WP_012341066) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus somnus 2336]
+Length=198
+
+ Score = 228 bits (582),  Expect = 7e-77, Method: Compositional matrix adjust.
+ Identities = 113/196 (58%), Positives = 143/196 (73%), Gaps = 2/196 (1%)
+
+Query  2    QKVVLATGNAGKVRELASLLSDFGLDVVAQTELGVDSAEETGLTFIENAILKARHAAKMT  61
+            QK+VLAT N GKV+E+A +LS+FG DVVAQ +LG+DS EETGLTF+ENA+LKAR+AAKM+
+Sbjct  3    QKIVLATANPGKVKEMADVLSEFGFDVVAQKDLGIDSPEETGLTFVENALLKARYAAKMS  62
+
+Query  62   GLPAIADDSGLAVDVLGGAPGIYSARYSGENATD--QQNLEKLLHTLRDVPDDKRQARFH  119
+            GLPAIADDSGL V VL GAPG+YSARY+G    D  Q+N EKLL  L +VP ++R A+F 
+Sbjct  63   GLPAIADDSGLVVPVLNGAPGLYSARYAGVEDKDAEQKNREKLLAELANVPVNERHAKFV  122
+
+Query  120  CVLVYLRHAEDPTPIVCHGSWPGVITRQAAGNGGFGYDPIFFVPSEGKTAAELTREEKSA  179
+              +V L+H  DP+PI+  G   G+I    +G+ GF YD +FF P  G T AEL   EK  
+Sbjct  123  SCIVMLQHDTDPSPIIAEGECHGIIAFSESGSNGFAYDSLFFYPETGCTFAELETSEKKK  182
+
+Query  180  ISHRGQALKLLLDALR  195
+            ISHR +AL +L + L+
+Sbjct  183  ISHRAKALAVLKERLK  198
+
+
+>VFG013270(gb|WP_011608277) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus somnus 129PT]
+Length=198
+
+ Score = 227 bits (579),  Expect = 2e-76, Method: Compositional matrix adjust.
+ Identities = 112/196 (57%), Positives = 143/196 (73%), Gaps = 2/196 (1%)
+
+Query  2    QKVVLATGNAGKVRELASLLSDFGLDVVAQTELGVDSAEETGLTFIENAILKARHAAKMT  61
+            QK+VLAT N GKV+E+A +LS+FG DVVAQ +LG+DS EETGLTF+ENA+LKAR+AAKM+
+Sbjct  3    QKIVLATANPGKVKEMADVLSEFGFDVVAQKDLGIDSPEETGLTFVENALLKARYAAKMS  62
+
+Query  62   GLPAIADDSGLAVDVLGGAPGIYSARYSGENA--TDQQNLEKLLHTLRDVPDDKRQARFH  119
+            GLPAIADDSGL V VL GAPG+YSARY+G      +Q+N EKLL  L +VP ++R A+F 
+Sbjct  63   GLPAIADDSGLVVPVLNGAPGLYSARYAGVEGKEAEQKNREKLLAELANVPVNERHAKFV  122
+
+Query  120  CVLVYLRHAEDPTPIVCHGSWPGVITRQAAGNGGFGYDPIFFVPSEGKTAAELTREEKSA  179
+              +V L+H  DP+PI+  G   G+I    +G+ GF YD +FF P  G T AEL   EK  
+Sbjct  123  SCIVMLQHDTDPSPIIAEGECHGIIAFSESGSNGFAYDSLFFYPETGCTFAELETSEKKK  182
+
+Query  180  ISHRGQALKLLLDALR  195
+            ISHR +AL +L + L+
+Sbjct  183  ISHRAKALAVLKERLK  198
+
+
+>VFG013269(gb|WP_010945211) (orfM) deoxyribonucleotide triphosphate 
+pyrophosphatase [LOS (VF0044) - Immune modulation (VFC0258)] 
+[Haemophilus ducreyi 35000HP]
+Length=196
+
+ Score = 215 bits (548),  Expect = 1e-71, Method: Compositional matrix adjust.
+ Identities = 106/185 (57%), Positives = 132/185 (71%), Gaps = 0/185 (0%)
+
+Query  3    KVVLATGNAGKVRELASLLSDFGLDVVAQTELGVDSAEETGLTFIENAILKARHAAKMTG  62
+            K+VLAT N GKV+E+A +LS FG +V+AQ+E G+ S  ETGLTF+ENA+LKAR+A+KMTG
+Sbjct  5    KIVLATSNKGKVKEMADVLSAFGFEVIAQSEFGLVSPPETGLTFVENALLKARYASKMTG  64
+
+Query  63   LPAIADDSGLAVDVLGGAPGIYSARYSGENATDQQNLEKLLHTLRDVPDDKRQARFHCVL  122
+            LPAIADDSGLAVD L GAPG+YSARY+G    D  N  KLL  +++VPD +R A+F   +
+Sbjct  65   LPAIADDSGLAVDALAGAPGLYSARYAGIEDDDTANRRKLLAEMQNVPDGQRAAKFVSCI  124
+
+Query  123  VYLRHAEDPTPIVCHGSWPGVITRQAAGNGGFGYDPIFFVPSEGKTAAELTREEKSAISH  182
+            V L+H  DPTP +  G   G I R+  G  GFGYD +FF P++  T AEL   EK  ISH
+Sbjct  125  VMLKHETDPTPKIAFGECFGEILREERGQNGFGYDALFFYPAKQCTFAELDSTEKKQISH  184
+
+Query  183  RGQAL  187
+            R  AL
+Sbjct  185  RALAL  189
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1085289486
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,304 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1275.t1
+
+Length=159
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011941(gb|WP_002849697) (CFF8240_RS05385) Rrf2 family transcri...  46.2    6e-07
+
+
+>VFG011941(gb|WP_002849697) (CFF8240_RS05385) Rrf2 family transcriptional 
+regulator [Flagella (VF0114) - Motility (VFC0204)] 
+[Campylobacter fetus subsp. fetus 82-40]
+Length=134
+
+ Score = 46.2 bits (108),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 30/106 (28%), Positives = 50/106 (47%), Gaps = 3/106 (3%)
+
+Query  26   TDDLAAAQGIPPQFLVDILTNLRTDRLVRSHRGREGGYELARPGTEISIADVLRCIDGPL  85
+             D ++   GI   FL  IL NL  + ++ S +G  GG+ LA     ISI  +L   +   
+Sbjct  26   VDTMSTELGISKSFLAKILQNLAKEGILNSFKGANGGFILANKPANISIKKILESAEKRK  85
+
+Query  86   ASVRDIGLG--DLPYS-GPTTALTDVWRALRASMRSVLEETTLADV  128
+            ASV +      D P + G    +  ++ +L+  +   L+  +LAD+
+Sbjct  86   ASVFECSNARSDCPSNKGDICKMWPMFNSLQLKVDDFLDNISLADI  131
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.132    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 718510613
+
+
+Query= g2735.t1
+
+Length=174
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011938(gb|YP_002344283) (Cj0883c) transcriptional regulator [F...  62.0    1e-12
+VFG011941(gb|WP_002849697) (CFF8240_RS05385) Rrf2 family transcri...  54.7    5e-10
+
+
+>VFG011938(gb|YP_002344283) (Cj0883c) transcriptional regulator 
+[Flagella (VF0114) - Motility (VFC0204)] [Campylobacter jejuni 
+subsp. jejuni NCTC 11168]
+Length=136
+
+ Score = 62.0 bits (149),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 37/147 (25%), Positives = 77/147 (52%), Gaps = 14/147 (10%)
+
+Query  3    LYSAGVEYGIHCLLFLADEKGDSRESSVRTLAELQGVPPELLAKVFTRLAKAGLVAATEG  62
+            L++   EY +  L++++ ++       V +LA    +P   LAK+   LAK GL+ + +G
+Sbjct  2    LFTKASEYALLSLIYISQKE---TPQDVDSLALELDIPKSFLAKILQTLAKDGLLKSFKG  58
+
+Query  63   VRGGFRLARPANEISVLDVVRAID-GDKSIFECREVRERCAIFEGNPPSWATRNTCSIHA  121
+             +GGF L +  ++ ++ ++V + +  D S+FEC           G  P+    N C++  
+Sbjct  59   AKGGFVLIKEPSQYTIKEIVNSAEKKDISVFECS---------GGTCPNNKEEN-CTLMP  108
+
+Query  122  VMLTAQKRMEEALAQQTILDLVRRVGR  148
+            +++  Q +++E L   T+ D+++  G+
+Sbjct  109  MLVNLQNKVDEFLDSITLEDIMKNNGK  135
+
+
+>VFG011941(gb|WP_002849697) (CFF8240_RS05385) Rrf2 family transcriptional 
+regulator [Flagella (VF0114) - Motility (VFC0204)] 
+[Campylobacter fetus subsp. fetus 82-40]
+Length=134
+
+ Score = 54.7 bits (130),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 33/118 (28%), Positives = 63/118 (53%), Gaps = 11/118 (9%)
+
+Query  30   VRTLAELQGVPPELLAKVFTRLAKAGLVAATEGVRGGFRLA-RPANEISVLDVVRAIDGD  88
+            V T++   G+    LAK+   LAK G++ + +G  GGF LA +PAN IS+  ++ + +  
+Sbjct  26   VDTMSTELGISKSFLAKILQNLAKEGILNSFKGANGGFILANKPAN-ISIKKILESAEKR  84
+
+Query  89   K-SIFECREVRERCAIFEGNPPSWATRNTCSIHAVMLTAQKRMEEALAQQTILDLVRR  145
+            K S+FEC   R  C   +G        + C +  +  + Q ++++ L   ++ D++++
+Sbjct  85   KASVFECSNARSDCPSNKG--------DICKMWPMFNSLQLKVDDFLDNISLADIIKK  134
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 866380617
+
+
+Query= g3888.t1
+
+Length=163
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011941(gb|WP_002849697) (CFF8240_RS05385) Rrf2 family transcri...  58.5    1e-11
+VFG011938(gb|YP_002344283) (Cj0883c) transcriptional regulator [F...  47.8    1e-07
+
+
+>VFG011941(gb|WP_002849697) (CFF8240_RS05385) Rrf2 family transcriptional 
+regulator [Flagella (VF0114) - Motility (VFC0204)] 
+[Campylobacter fetus subsp. fetus 82-40]
+Length=134
+
+ Score = 58.5 bits (140),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 30/112 (27%), Positives = 58/112 (52%), Gaps = 4/112 (4%)
+
+Query  25   PVSLADISERQGISLSYLEQLFAKLRRGNLVTSVRGPGGGYQLSRHMSGIHVAQVIDAVN  84
+            P  +  +S   GIS S+L ++   L +  ++ S +G  GG+ L+   + I + +++++  
+Sbjct  23   PKDVDTMSTELGISKSFLAKILQNLAKEGILNSFKGANGGFILANKPANISIKKILESAE  82
+
+Query  85   E-SVDATRC-QGQGDCHS--GDTCLTHHLWCDLSLQIHEFLSGISLADLVSR  132
+            +       C   + DC S  GD C    ++  L L++ +FL  ISLAD++ +
+Sbjct  83   KRKASVFECSNARSDCPSNKGDICKMWPMFNSLQLKVDDFLDNISLADIIKK  134
+
+
+>VFG011938(gb|YP_002344283) (Cj0883c) transcriptional regulator 
+[Flagella (VF0114) - Motility (VFC0204)] [Campylobacter jejuni 
+subsp. jejuni NCTC 11168]
+Length=136
+
+ Score = 47.8 bits (112),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 29/136 (21%), Positives = 63/136 (46%), Gaps = 6/136 (4%)
+
+Query  1    MRLTTKGRYAVTAMLDLALHAQQGPVSLADISERQGISLSYLEQLFAKLRRGNLVTSVRG  60
+            M  T    YA+ +++   +  ++ P  +  ++    I  S+L ++   L +  L+ S +G
+Sbjct  1    MLFTKASEYALLSLI--YISQKETPQDVDSLALELDIPKSFLAKILQTLAKDGLLKSFKG  58
+
+Query  61   PGGGYQLSRHMSGIHVAQVID-AVNESVDATRCQGQGDCHSG--DTCLTHHLWCDLSLQI  117
+              GG+ L +  S   + ++++ A  + +    C G G C +   + C    +  +L  ++
+Sbjct  59   AKGGFVLIKEPSQYTIKEIVNSAEKKDISVFECSG-GTCPNNKEENCTLMPMLVNLQNKV  117
+
+Query  118  HEFLSGISLADLVSRQ  133
+             EFL  I+L D++   
+Sbjct  118  DEFLDSITLEDIMKNN  133
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.134    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 761406769
+
+
+Query= g4251.t1
+
+Length=133
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 475551340
+
+
+Query= g2374.t1
+
+Length=164
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011938(gb|YP_002344283) (Cj0883c) transcriptional regulator [F...  56.6    9e-11
+VFG011941(gb|WP_002849697) (CFF8240_RS05385) Rrf2 family transcri...  53.5    1e-09
+
+
+>VFG011938(gb|YP_002344283) (Cj0883c) transcriptional regulator 
+[Flagella (VF0114) - Motility (VFC0204)] [Campylobacter jejuni 
+subsp. jejuni NCTC 11168]
+Length=136
+
+ Score = 56.6 bits (135),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 33/135 (24%), Positives = 68/135 (50%), Gaps = 6/135 (4%)
+
+Query  1    MRLTSKGRYAVTAMLDVALNSEAGPVPLADISERQGISLSYLEQLFSRLRKNGLVSSVRG  60
+            M  T    YA+ ++  + ++ +  P  +  ++    I  S+L ++   L K+GL+ S +G
+Sbjct  1    MLFTKASEYALLSL--IYISQKETPQDVDSLALELDIPKSFLAKILQTLAKDGLLKSFKG  58
+
+Query  61   PGGGYLLGKDAGSIAVGEVI-SAVDESVDATRCQGKGGCQGG--DKCLTHALWRDLSDRL  117
+              GG++L K+     + E++ SA  + +    C G G C     + C    +  +L +++
+Sbjct  59   AKGGFVLIKEPSQYTIKEIVNSAEKKDISVFECSG-GTCPNNKEENCTLMPMLVNLQNKV  117
+
+Query  118  TGFLNNITLGELVNN  132
+              FL++ITL +++ N
+Sbjct  118  DEFLDSITLEDIMKN  132
+
+
+>VFG011941(gb|WP_002849697) (CFF8240_RS05385) Rrf2 family transcriptional 
+regulator [Flagella (VF0114) - Motility (VFC0204)] 
+[Campylobacter fetus subsp. fetus 82-40]
+Length=134
+
+ Score = 53.5 bits (127),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 29/110 (26%), Positives = 56/110 (51%), Gaps = 4/110 (4%)
+
+Query  25   PVPLADISERQGISLSYLEQLFSRLRKNGLVSSVRGPGGGYLLGKDAGSIAVGEVI-SAV  83
+            P  +  +S   GIS S+L ++   L K G+++S +G  GG++L     +I++ +++ SA 
+Sbjct  23   PKDVDTMSTELGISKSFLAKILQNLAKEGILNSFKGANGGFILANKPANISIKKILESAE  82
+
+Query  84   DESVDATRC-QGKGGC--QGGDKCLTHALWRDLSDRLTGFLNNITLGELV  130
+                    C   +  C    GD C    ++  L  ++  FL+NI+L +++
+Sbjct  83   KRKASVFECSNARSDCPSNKGDICKMWPMFNSLQLKVDDFLDNISLADII  132
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.135    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 772130808
+
+
+Query= g4061.t1
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011941(gb|WP_002849697) (CFF8240_RS05385) Rrf2 family transcri...  43.5    4e-06
+
+
+>VFG011941(gb|WP_002849697) (CFF8240_RS05385) Rrf2 family transcriptional 
+regulator [Flagella (VF0114) - Motility (VFC0204)] 
+[Campylobacter fetus subsp. fetus 82-40]
+Length=134
+
+ Score = 43.5 bits (101),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 32/108 (30%), Positives = 55/108 (51%), Gaps = 20/108 (19%)
+
+Query  36   GVSRNHMVKIINQLSRAGFVTAVRGKNGGIRLG-KPANTICIGDVVRELE--PLSLVNCS  92
+            G+S++ + KI+  L++ G + + +G NGG  L  KPAN I I  ++   E    S+  CS
+Sbjct  34   GISKSFLAKILQNLAKEGILNSFKGANGGFILANKPAN-ISIKKILESAEKRKASVFECS  92
+
+Query  93   S----------EFCHITPACRLKQALSKAVQSFLKELDNYTLADLVEE  130
+            +          + C + P   +  +L   V  F   LDN +LAD++++
+Sbjct  93   NARSDCPSNKGDICKMWP---MFNSLQLKVDDF---LDNISLADIIKK  134
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 549780153
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

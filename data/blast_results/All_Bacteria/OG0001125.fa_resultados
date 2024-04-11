@@ -1,0 +1,262 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g276.t1
+
+Length=404
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044371(gb|AAL65278) (qbsM) QbsM [Thioquinolobactin (VF0937) - ...  132     2e-34
+
+
+>VFG044371(gb|AAL65278) (qbsM) QbsM [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=415
+
+ Score = 132 bits (331),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 127/369 (34%), Positives = 187/369 (51%), Gaps = 23/369 (6%)
+
+Query  8    GRTLWLMAAIVLVGLNLRLSMAAVGPLLNAMRGEIALSFGDVSLLTALPMLTLGLGMFFG  67
+            G  LWL+   ++V LNLR++ A VGP+L    GE+ LS    +L+ +LP + L L    G
+Sbjct  29   GGELWLLLGFIVVTLNLRIAFAGVGPIL----GELHLSTIQATLVASLPPICLSLFALVG  84
+
+Query  68   LGIARRVGEWRSVALALLLIGAASALRLGSRGLPDLLGSAMLAGLGIALIQALMPALIKA  127
+            + + +R GE R++  ALL++     +R  + G+  L    +LAG+GIA++  ++PAL++ 
+Sbjct  85   VRLRQRFGEERTLFAALLVLAVGCGVR--ALGVGGLFAGTLLAGVGIAVMNVVVPALVRK  142
+
+Query  128  RFGARTP-LCMGLYVTAIMAGAALSASAAPTLAEHAGWR-----LGLGAWAALAALALLA  181
+            RF  R     MG++   +  GA L+A     + +  G       L LGAWA  A +AL+ 
+Sbjct  143  RFQPRQIGHMMGVFSLMLGGGAVLTAGLTVPIYQGLGANVDAAYLTLGAWAIPAVVALVF  202
+
+Query  182  WWLQPGTRLRLPDAQPGRSLLRYPRT------WLLVLFFGLGTACYTCVLAWLAPYYLEQ  235
+            W  Q G    L  A    S  R PR       W + LFFG        +LAWL   Y+E+
+Sbjct  203  WIPQLGHGQPLAAAPTALSAAR-PRVLGNRTAWSITLFFGFQALNLYALLAWLPSIYIER  261
+
+Query  236  GWSAQESGLLLGFLTAMEVLSGLLAPALASRSRDRRPVLVGLTALMLAGFLGLAWAPASL  295
+            G +  E+ L L       VL G  AP LA+R +D+R  +     L LAG LGL + P SL
+Sbjct  262  GATVAEAALYLAVSQVGLVLGGYFAPVLAARVKDQRGYIAATVGLCLAGCLGLLYGPLSL  321
+
+Query  296  PLLWALCLGLGIGGLFPMGLIVCLDHFDAPQRAGQLAALVQGAGYLIAGVSPWIAGLLRD  355
+              L  L LG+G G    +  ++ +      Q   QL+A+ QG G++IA + P   GLL  
+Sbjct  322  AWLAMLVLGIGQGAGPALSALLFVLRSPDQQVTTQLSAMAQGFGFMIAVLGPLGMGLLHQ  381
+
+Query  356  SLGSFTGAW  364
+                ++G W
+Sbjct  382  ----YSGGW  386
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.141    0.446    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3154154138
+
+
+Query= g1646.t1
+
+Length=424
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044371(gb|AAL65278) (qbsM) QbsM [Thioquinolobactin (VF0937) - ...  213     9e-65
+
+
+>VFG044371(gb|AAL65278) (qbsM) QbsM [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=415
+
+ Score = 213 bits (542),  Expect = 9e-65, Method: Compositional matrix adjust.
+ Identities = 147/362 (41%), Positives = 212/362 (59%), Gaps = 20/362 (6%)
+
+Query  42   LLLGLVLVALNLRPALSSLAPLLNQVRDDTGLSAAAAGLLTTAPVLCLGLFAPLAPRLAR  101
+            LLLG ++V LNLR A + + P+L ++     LS   A L+ + P +CL LFA +  RL +
+Sbjct  34   LLLGFIVVTLNLRIAFAGVGPILGELH----LSTIQATLVASLPPICLSLFALVGVRLRQ  89
+
+Query  102  RIGAERSVLLILFCLAGGIVLRSLFPVFGLFAGSVLAGASIGIIGVLLPGIVKRDF-PRQ  160
+            R G ER++   L  LA G  +R+L  V GLFAG++LAG  I ++ V++P +V++ F PRQ
+Sbjct  90   RFGEERTLFAALLVLAVGCGVRAL-GVGGLFAGTLLAGVGIAVMNVVVPALVRKRFQPRQ  148
+
+Query  161  AGVMTGVYTMALCLGAALAAGATAPLEKLFG-NWE---LALAFWSLPAILAAAFWLPQTR  216
+             G M GV+++ L  GA L AG T P+ +  G N +   L L  W++PA++A  FW+PQ  
+Sbjct  149  IGHMMGVFSLMLGGGAVLTAGLTVPIYQGLGANVDAAYLTLGAWAIPAVVALVFWIPQLG  208
+
+Query  217  QGQHAHRQAF-------RVIGLWRDPLAWQVTLYMGLQSSLAYIVFGWLPSILIDRGMTA  269
+             GQ              RV+G   +  AW +TL+ G Q+   Y +  WLPSI I+RG T 
+Sbjct  209  HGQPLAAAPTALSAARPRVLG---NRTAWSITLFFGFQALNLYALLAWLPSIYIERGATV  265
+
+Query  270  VEAGLVLSGSVMLQLITALLAPWLAARARDQRLAVVLVMATTLAGLLGFLYAPLQTIWGW  329
+             EA L L+ S +  ++    AP LAAR +DQR  +   +   LAG LG LY PL   W  
+Sbjct  266  AEAALYLAVSQVGLVLGGYFAPVLAARVKDQRGYIAATVGLCLAGCLGLLYGPLSLAWLA  325
+
+Query  330  AVLLGLGQGGTFSIALALIVLRSRDAHVASHLSGMAQGVGYTLAAMGPFMVGVVHDLTGG  389
+             ++LG+GQG   +++  L VLRS D  V + LS MAQG G+ +A +GP  +G++H  +GG
+Sbjct  326  MLVLGIGQGAGPALSALLFVLRSPDQQVTTQLSAMAQGFGFMIAVLGPLGMGLLHQYSGG  385
+
+Query  390  WN  391
+            W+
+Sbjct  386  WD  387
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.141    0.440    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3343612077
+
+
+Query= g2537.t1
+
+Length=414
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044371(gb|AAL65278) (qbsM) QbsM [Thioquinolobactin (VF0937) - ...  118     2e-29
+
+
+>VFG044371(gb|AAL65278) (qbsM) QbsM [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=415
+
+ Score = 118 bits (296),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 130/414 (31%), Positives = 200/414 (48%), Gaps = 30/414 (7%)
+
+Query  2    AATPGMSARIPSGGQAATGVGAAEVSWVGLLVIFCLGINLRPILTGIGPLLEEITAGTGL  61
+            +AT G+  R  +GG+           W+ LL    + +NLR    G+GP+L E+   T  
+Sbjct  17   SATSGLRPRAAAGGEL----------WL-LLGFIVVTLNLRIAFAGVGPILGELHLST--  63
+
+Query  62   GFQGASLLTVLPVLCMGLVALLLPWLGRWLAEHRGIVCGLLAIAAACLWRLELDSGLALI  121
+                A+L+  LP +C+ L AL+   L +   E R +   LL +A  C  R  L  G  L 
+Sbjct  64   --IQATLVASLPPICLSLFALVGVRLRQRFGEERTLFAALLVLAVGCGVR-ALGVG-GLF  119
+
+Query  122  ASAALAGSGVAIIQALVPGVV-KRWFPRRVPAAMGLYSASLMAGGG---TAAVLSPRIAE  177
+            A   LAG G+A++  +VP +V KR+ PR++   MG++S  LM GGG   TA +  P    
+Sbjct  120  AGTLLAGVGIAVMNVVVPALVRKRFQPRQIGHMMGVFS--LMLGGGAVLTAGLTVPIYQG  177
+
+Query  178  HFSNWQAG---LGAWAVPALLALLLWM----FARPREVLPSAGEGPVRHFFGNRRGWLLA  230
+              +N  A    LGAWA+PA++AL+ W+      +P    P+A         GNR  W + 
+Sbjct  178  LGANVDAAYLTLGAWAIPAVVALVFWIPQLGHGQPLAAAPTALSAARPRVLGNRTAWSIT  237
+
+Query  231  VYFGLINGGYTSMVAWLPVYYRQLGWSAQDSGGLVGIMTIFQVLAALSVPLLIRRRLDRR  290
+            ++FG       +++AWLP  Y + G +  ++   + +  +  VL     P+L  R  D+R
+Sbjct  238  LFFGFQALNLYALLAWLPSIYIERGATVAEAALYLAVSQVGLVLGGYFAPVLAARVKDQR  297
+
+Query  291  PWLLAALLVQLGGFCGLLLMPLQHAALWVALIGYGLGACFALSLTLTLDHLHEPRAAGSL  350
+             ++ A + + L G  GLL  PL  A L + ++G G GA  ALS  L +    + +    L
+Sbjct  298  GYIAATVGLCLAGCLGLLYGPLSLAWLAMLVLGIGQGAGPALSALLFVLRSPDQQVTTQL  357
+
+Query  351  AAFVQGIGFIITGIVPYLTGWLRDATGSFQASWLLLAASVVAMLLVTLRFAPSG  404
+            +A  QG GF+I  + P   G L   +G +      L   ++  L V+LR    G
+Sbjct  358  SAMAQGFGFMIAVLGPLGMGLLHQYSGGWDLPLQALIVILLCELCVSLRAGKPG  411
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.142    0.456    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3239449707
+
+
+Query= g1185.t1
+
+Length=394
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044371(gb|AAL65278) (qbsM) QbsM [Thioquinolobactin (VF0937) - ...  160     3e-45
+
+
+>VFG044371(gb|AAL65278) (qbsM) QbsM [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=415
+
+ Score = 160 bits (406),  Expect = 3e-45, Method: Compositional matrix adjust.
+ Identities = 130/403 (32%), Positives = 199/403 (49%), Gaps = 16/403 (4%)
+
+Query  2    TTALSPRGKQGALL--IAGILMIATTLRVTFTGAAPLLETIRSDYGLSTAQTGLLTTLPL  59
+            T+ L PR   G  L  + G +++   LR+ F G  P+L  +     LST Q  L+ +LP 
+Sbjct  19   TSGLRPRAAAGGELWLLLGFIVVTLNLRIAFAGVGPILGELH----LSTIQATLVASLPP  74
+
+Query  60   LAFALVSPLAAGIARRFGMERSLFAAMLLICAGIALRSLPSAALLFAGTAIIGCGIALGN  119
+            +  +L + +   + +RFG ER+LFAA+L++  G  +R+L    L FAGT + G GIA+ N
+Sbjct  75   ICLSLFALVGVRLRQRFGEERTLFAALLVLAVGCGVRALGVGGL-FAGTLLAGVGIAVMN  133
+
+Query  120  VLLPGLIKRDFS-QHVARLTGAYSLTMGAAAALGSALVVPLALHGFGWRGALLMLML---  175
+            V++P L+++ F  + +  + G +SL +G  A L + L VP+   G G       L L   
+Sbjct  134  VVVPALVRKRFQPRQIGHMMGVFSLMLGGGAVLTAGLTVPI-YQGLGANVDAAYLTLGAW  192
+
+Query  176  -FP-LLAFLIWLPQWRTTRSANLSSSRALHER-GIWRSPLAWQVTLFLGLNSLIYYVIIG  232
+              P ++A + W+PQ    +    + +     R  +  +  AW +TLF G  +L  Y ++ 
+Sbjct  193  AIPAVVALVFWIPQLGHGQPLAAAPTALSAARPRVLGNRTAWSITLFFGFQALNLYALLA  252
+
+Query  233  WLPTILISHGYSEAQAGSLHGLLQLATAAPGLAIPLILHRFNDQR-WIAALVSLLCAVGA  291
+            WLP+I I  G + A+A     + Q+     G   P++  R  DQR +IAA V L  A   
+Sbjct  253  WLPSIYIERGATVAEAALYLAVSQVGLVLGGYFAPVLAARVKDQRGYIAATVGLCLAGCL  312
+
+Query  292  AGLWFVPGQAIIWTLLFGFGSGATMILGLTFIGLRASSAHQAAALSGMAQSVGYLLAACG  351
+              L+     A +  L+ G G GA   L      LR+        LS MAQ  G+++A  G
+Sbjct  313  GLLYGPLSLAWLAMLVLGIGQGAGPALSALLFVLRSPDQQVTTQLSAMAQGFGFMIAVLG  372
+
+Query  352  PPVMGKLHDASGSWYLPLSGVTVLAIIMAIFGLYAGRDREIAS  394
+            P  MG LH  SG W LPL  + V+ +      L AG+   +A 
+Sbjct  373  PLGMGLLHQYSGGWDLPLQALIVILLCELCVSLRAGKPGTLAD  415
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.140    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3049711948
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

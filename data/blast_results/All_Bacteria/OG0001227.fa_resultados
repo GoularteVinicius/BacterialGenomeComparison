@@ -1,0 +1,181 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g23.t1
+
+Length=241
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043390(gb|WP_001210849) (pdxJ) pyridoxine 5'-phosphate synthas...  149     5e-44
+
+
+>VFG043390(gb|WP_001210849) (pdxJ) pyridoxine 5'-phosphate synthase 
+[Flagella (VF0051) - Motility (VFC0204)] [Helicobacter 
+pylori 26695]
+Length=262
+
+ Score = 149 bits (375),  Expect = 5e-44, Method: Compositional matrix adjust.
+ Identities = 91/261 (35%), Positives = 140/261 (54%), Gaps = 29/261 (11%)
+
+Query  5    LGVNIDHVATLRQARGTAYPDPVEAALICEQA-GAEGITLHLREDRRHIQDDDVRRMRPL  63
+             G+NIDH+ TLR+ R T  P+ +EA  I +     + IT+HLREDRRHIQ++DV ++  +
+Sbjct  3    FGLNIDHIVTLREIRKTYEPEILEALFIAKNTHKVDLITIHLREDRRHIQNEDVLKLLEI  62
+
+Query  64   LKTRMNLEMAVTDEMVEFAKEIQ--PQHVCFVPERRQEVTTEGGLDVVGNFEKVKAATQA  121
+                +N+E ++  E+ +F   ++  P  V  VPE R EVTTEGGLD   + + +    +A
+Sbjct  63   SPLPINIECSINAEITDFLCSLKNKPSKVTIVPENRNEVTTEGGLDC--SLKGLGEVIRA  120
+
+Query  122  LAAIGCDVSLFIDADFAQIDAAIACGAPTIELHTGAYADA--------------------  161
+                G +VSLFID     +  A       +E HTG YA+                     
+Sbjct  121  YHNKGIEVSLFIDPLKDALHFAREHQVKQVEFHTGVYANLHNALYSNANNQIHAISVLKD  180
+
+Query  162  TTDQEQQEEL----ARIVKGVEYAASKGLVVNAGHGLNLKNIAPIAAIPQIHELNIGHSI  217
+             + +E +EEL     ++ +  + A   G+   AGHGLN  N+  +  IP + ELNIGHS+
+Sbjct  181  KSPKELKEELHNAFLQLRRMSKEAFFMGITACAGHGLNYTNVKELLKIPSLRELNIGHSV  240
+
+Query  218  IAESVFVGLAQAVKDMKTAIQ  238
+            ++++V VGL +A+ +M   I+
+Sbjct  241  VSKAVLVGLEKAILEMAQLIK  261
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1524114576
+
+
+Query= g785.t1
+
+Length=248
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043390(gb|WP_001210849) (pdxJ) pyridoxine 5'-phosphate synthas...  147     2e-43
+
+
+>VFG043390(gb|WP_001210849) (pdxJ) pyridoxine 5'-phosphate synthase 
+[Flagella (VF0051) - Motility (VFC0204)] [Helicobacter 
+pylori 26695]
+Length=262
+
+ Score = 147 bits (372),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 92/260 (35%), Positives = 135/260 (52%), Gaps = 29/260 (11%)
+
+Query  9    LGVNIDHVATLRQARGTRYPDPVKAALDAEEA-GADGITVHLREDRRHIQERDVRVLKEV  67
+             G+NIDH+ TLR+ R T  P+ ++A   A+     D IT+HLREDRRHIQ  DV  L E+
+Sbjct  3    FGLNIDHIVTLREIRKTYEPEILEALFIAKNTHKVDLITIHLREDRRHIQNEDVLKLLEI  62
+
+Query  68   LQTRMNFEMGVTEEMLAFAEEIR--PAHSCLVPERREELTTEGGLDVAGQEQRIRDAVRR  125
+                +N E  +  E+  F   ++  P+   +VPE R E+TTEGGLD + +   + + +R 
+Sbjct  63   SPLPINIECSINAEITDFLCSLKNKPSKVTIVPENRNEVTTEGGLDCSLK--GLGEVIRA  120
+
+Query  126  LAAVGSEVSLFIDPDPRQIEASARVGAPAIELHTGRYADAED------------------  167
+                G EVSLFIDP    +  +       +E HTG YA+  +                  
+Sbjct  121  YHNKGIEVSLFIDPLKDALHFAREHQVKQVEFHTGVYANLHNALYSNANNQIHAISVLKD  180
+
+Query  168  --PEEQARELQ----RVREGVALGRSLGLIVNAGHGLHYHNVEPVAAIDGINELNIGHAI  221
+              P+E   EL     ++R        +G+   AGHGL+Y NV+ +  I  + ELNIGH++
+Sbjct  181  KSPKELKEELHNAFLQLRRMSKEAFFMGITACAGHGLNYTNVKELLKIPSLRELNIGHSV  240
+
+Query  222  VAHALFVGFRQAVAEMKALM  241
+            V+ A+ VG  +A+ EM  L+
+Sbjct  241  VSKAVLVGLEKAILEMAQLI  260
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1583422050
+
+
+Query= g2407.t1
+
+Length=243
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043390(gb|WP_001210849) (pdxJ) pyridoxine 5'-phosphate synthas...  156     5e-47
+
+
+>VFG043390(gb|WP_001210849) (pdxJ) pyridoxine 5'-phosphate synthase 
+[Flagella (VF0051) - Motility (VFC0204)] [Helicobacter 
+pylori 26695]
+Length=262
+
+ Score = 156 bits (395),  Expect = 5e-47, Method: Compositional matrix adjust.
+ Identities = 96/260 (37%), Positives = 139/260 (53%), Gaps = 29/260 (11%)
+
+Query  6    LGVNIDHIATLRNARGTDYPDPVQAAFIAEQA-GADGITVHLREDRRHITDRDVRILRQT  64
+             G+NIDHI TLR  R T  P+ ++A FIA+     D IT+HLREDRRHI + DV  L + 
+Sbjct  3    FGLNIDHIVTLREIRKTYEPEILEALFIAKNTHKVDLITIHLREDRRHIQNEDVLKLLEI  62
+
+Query  65   LHTRMNLEMAVTEEM--LAIAVETRPHFCCLVPEKRQEVTTEGGLDVAGQRDKMRDACAR  122
+                +N+E ++  E+     +++ +P    +VPE R EVTTEGGLD + +   + +    
+Sbjct  63   SPLPINIECSINAEITDFLCSLKNKPSKVTIVPENRNEVTTEGGLDCSLK--GLGEVIRA  120
+
+Query  123  LAAAGIQVSLFIDADETQINAAAEVGAPFIEIHTGCYANAET----------------DA  166
+                GI+VSLFID  +  ++ A E     +E HTG YAN                     
+Sbjct  121  YHNKGIEVSLFIDPLKDALHFAREHQVKQVEFHTGVYANLHNALYSNANNQIHAISVLKD  180
+
+Query  167  EQAKELARIASAATLAAR--------LGLKVNAGHGLTYHNVKAIAALPEMHELNIGHAI  218
+            +  KEL      A L  R        +G+   AGHGL Y NVK +  +P + ELNIGH++
+Sbjct  181  KSPKELKEELHNAFLQLRRMSKEAFFMGITACAGHGLNYTNVKELLKIPSLRELNIGHSV  240
+
+Query  219  IGRAVMTGLKEAVAEMKRLM  238
+            + +AV+ GL++A+ EM +L+
+Sbjct  241  VSKAVLVGLEKAILEMAQLI  260
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1545282834
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

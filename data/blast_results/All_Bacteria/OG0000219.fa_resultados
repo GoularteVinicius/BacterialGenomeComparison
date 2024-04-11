@@ -1,0 +1,241 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g493.t1
+
+Length=417
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG026063(gb|WP_006484929) (wcbT) acyl-CoA transferase [Capsule I...  51.2    7e-07
+VFG026064(gb|WP_012327966) (wcbT) acyl-CoA transferase [Capsule I...  50.8    8e-07
+VFG026061(gb|WP_011544666) (wcbT) acyl-CoA transferase [Capsule I...  50.8    9e-07
+
+
+>VFG026063(gb|WP_006484929) (wcbT) acyl-CoA transferase [Capsule 
+I (VF0436) - Immune modulation (VFC0258)] [Burkholderia cenocepacia 
+J2315]
+Length=442
+
+ Score = 51.2 bits (121),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 48/154 (31%), Positives = 70/154 (45%), Gaps = 31/154 (20%)
+
+Query  96   AGSQANSAVYLALLNPGDTVLGMSLAH-----GGHLTHGAKVSFSGKTYNAVQYGLNAET  150
+            +G   N  V  AL  PGD V+  SLAH     G  L+   ++SF+   + A+        
+Sbjct  157  SGHATNVTVIGALFGPGDLVVHDSLAHNSIVQGAQLSGAKRLSFAHNDWQALD-------  209
+
+Query  151  GEIDYEEVERLALEHKPRMI-VAG-FSAYSRVVDWQRFRDIADKVGAYLFVDMAHVAGLV  208
+                 E + R+  E++  +I + G +S      D QRF D+  + GA+L VD AH  G++
+Sbjct  210  -----ELLSRVRREYRHVLIAIEGLYSMDGDFPDLQRFVDVKTRHGAFLLVDEAHSLGVL  264
+
+Query  209  AA---------GVYPNPVQIADVTTTTTHKTLRG  233
+             A         GV P+ V   D+   T  KTL G
+Sbjct  265  GATGKGIREHCGVAPDQV---DMWMGTMSKTLAG  295
+
+
+>VFG026064(gb|WP_012327966) (wcbT) acyl-CoA transferase [Capsule 
+I (VF0436) - Immune modulation (VFC0258)] [Burkholderia cenocepacia 
+MC0-3]
+Length=442
+
+ Score = 50.8 bits (120),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 64/222 (29%), Positives = 92/222 (41%), Gaps = 40/222 (18%)
+
+Query  32   IASENYCS----PAVMEAQGSKLTNKYAEGYPGKRYYGGCEFVDVIEQMAIDRAKELFGA  87
+             A+ NY      PAV  A+     ++Y       R   G   V    Q A++RA   F  
+Sbjct  94   FANYNYLGLAGDPAV-SARAKAAIDRYGTSASASRMVAGERPV----QRALERALAAFYE  148
+
+Query  88   DYANVQPHAGSQANSAVYLALLNPGDTVLGMSLAH-----GGHLTHGAKVSFSGKTYNAV  142
+                V   +G   N  V  AL  PGD V+  +LAH     G  L+   ++SF    + A+
+Sbjct  149  TDDCVAFVSGHATNVTVIGALFGPGDLVVHDALAHNSIVQGAQLSGAKRLSFPHNDWQAL  208
+
+Query  143  QYGLNAETGEIDYEEVERLALEHKPRMI-VAG-FSAYSRVVDWQRFRDIADKVGAYLFVD  200
+                         E + R+  E++  +I + G +S      D QRF D+  + GA+L VD
+Sbjct  209  D------------ELLSRVRREYRHVLIAIEGLYSMDGDFPDLQRFVDVKTRHGAFLLVD  256
+
+Query  201  MAHVAGLVA---------AGVYPNPVQIADVTTTTTHKTLRG  233
+             AH  G++          AGV P+ V   D+   T  KTL G
+Sbjct  257  EAHSLGVLGATGKGIREHAGVAPDQV---DMWMGTMSKTLAG  295
+
+
+>VFG026061(gb|WP_011544666) (wcbT) acyl-CoA transferase [Capsule 
+I (VF0436) - Immune modulation (VFC0258)] [Burkholderia cenocepacia 
+AU 1054]
+Length=442
+
+ Score = 50.8 bits (120),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 64/222 (29%), Positives = 92/222 (41%), Gaps = 40/222 (18%)
+
+Query  32   IASENYCS----PAVMEAQGSKLTNKYAEGYPGKRYYGGCEFVDVIEQMAIDRAKELFGA  87
+             A+ NY      PAV  A+     ++Y       R   G   V    Q A++RA   F  
+Sbjct  94   FANYNYLGLAGDPAV-SARAKAAIDRYGTSASASRMVAGERPV----QRALERALAAFYE  148
+
+Query  88   DYANVQPHAGSQANSAVYLALLNPGDTVLGMSLAH-----GGHLTHGAKVSFSGKTYNAV  142
+                V   +G   N  V  AL  PGD V+  +LAH     G  L+   ++SF    + A+
+Sbjct  149  TDDCVAFVSGHATNVTVIGALFGPGDLVVHDALAHNSIVQGAQLSGAKRLSFPHNDWQAL  208
+
+Query  143  QYGLNAETGEIDYEEVERLALEHKPRMI-VAG-FSAYSRVVDWQRFRDIADKVGAYLFVD  200
+                         E + R+  E++  +I + G +S      D QRF D+  + GA+L VD
+Sbjct  209  D------------ELLSRVRREYRHVLIAIEGLYSMDGDFPDLQRFVDVKTRHGAFLLVD  256
+
+Query  201  MAHVAGLVA---------AGVYPNPVQIADVTTTTTHKTLRG  233
+             AH  G++          AGV P+ V   D+   T  KTL G
+Sbjct  257  EAHSLGVLGATGKGIREHAGVAPDQV---DMWMGTMSKTLAG  295
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3270698418
+
+
+Query= g1550.t1
+
+Length=443
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3541520580
+
+
+Query= g68.t1
+
+Length=425
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3354028314
+
+
+Query= g1080.t1
+
+Length=457
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3687347898
+
+
+Query= g2484.t1
+
+Length=418
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3281114655
+
+
+Query= g4688.t1
+
+Length=417
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3270698418
+
+
+Query= g2385.t1
+
+Length=417
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3270698418
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

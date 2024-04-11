@@ -1,0 +1,147 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1078.t1
+
+Length=56
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.140    0.454    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 337146435
+
+
+Query= g1699.t1
+
+Length=276
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044383(gb|AAL65290) (qbsH) QbsH [Thioquinolobactin (VF0937) - ...  48.1    1e-06
+
+
+>VFG044383(gb|AAL65290) (qbsH) QbsH [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=218
+
+ Score = 48.1 bits (113),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 64/258 (25%), Positives = 96/258 (37%), Gaps = 45/258 (17%)
+
+Query  13   TLEFYDLSHPWGHGAPAWPYFEDVQIERLHGM-AKSRVLTQKITTVMHSGTHIDAPAHVV  71
+            T + +D+S P       WP   D Q E +  +  +  V   KIT   H+G H DAP H  
+Sbjct  3    TRKLFDISPPITTAIATWPGDTDYQQEPVWVLDHQCPVNVGKITLSAHTGAHADAPLHYS  62
+
+Query  72   EGTPFLDEIPLSAFFGTGVVVSIPKGKWGMVTAEDLQNATPDIRPGDIVVVNTGWHHKYA  131
+                 +  +PL  + GT  V+        +  A+ L +     +  + +++ T   ++++
+Sbjct  63   NSGAAIGSVPLEPYLGTCRVIHCFDSDGLVRPAQLLPHLA---QAPERILLRT---YRHS  116
+
+Query  132  DSAEYYAYSPGFDKKAGEWFAAKGVKAVGTDTQALDHPLATAIAPHSPAEAQGGLLPWAV  191
+            D   +  +S      A E  A  GVK VG DT ++D         HS             
+Sbjct  117  DPCIWDQHSTAIAVAAIELLARHGVKLVGIDTPSVD-------PQHS-------------  156
+
+Query  192  REYEAQTGRKVLDDFPDWEPCHRAILSQGIYGFENVGGDLDKVTGKRVTFAAFPWRWVGG  251
+                     K LD        H AI   G+   E  G  LD+V        A P +++  
+Sbjct  157  ---------KTLD-------AHHAIQRHGMAILE--GLVLDEVPAGDYELIALPLKFMAL  198
+
+Query  252  DGCIVRLVAIVDPTGSYR  269
+            D   VR V    PT   R
+Sbjct  199  DASPVRAVLRSLPTQVPR  216
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1863485205
+
+
+Query= g2116.t1
+
+Length=213
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044383(gb|AAL65290) (qbsH) QbsH [Thioquinolobactin (VF0937) - ...  261     3e-89
+
+
+>VFG044383(gb|AAL65290) (qbsH) QbsH [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=218
+
+ Score = 261 bits (667),  Expect = 3e-89, Method: Compositional matrix adjust.
+ Identities = 135/212 (64%), Positives = 155/212 (73%), Gaps = 1/212 (0%)
+
+Query  1    MTSLRYWDISPALDPNTPTWPGDTPFQQEWAARLDEQCPVNVGRITLSPHTGAHVDGPLH  60
+            M + + +DISP +     TWPGDT +QQE    LD QCPVNVG+ITLS HTGAH D PLH
+Sbjct  1    MPTRKLFDISPPITTAIATWPGDTDYQQEPVWVLDHQCPVNVGKITLSAHTGAHADAPLH  60
+
+Query  61   YRADGLPIGQVPLDIYMGPCRVIHCIGANPLVTPEHLAGQLDDLPSRVLLRTFERV-PAN  119
+            Y   G  IG VPL+ Y+G CRVIHC  ++ LV P  L   L   P R+LLRT+    P  
+Sbjct  61   YSNSGAAIGSVPLEPYLGTCRVIHCFDSDGLVRPAQLLPHLAQAPERILLRTYRHSDPCI  120
+
+Query  120  WPEGFCAIAPATIECLAERGVRLVGIDTPSLDPQHSKTLDAHHAVGRHGMAILEGVVLDD  179
+            W +   AIA A IE LA  GV+LVGIDTPS+DPQHSKTLDAHHA+ RHGMAILEG+VLD+
+Sbjct  121  WDQHSTAIAVAAIELLARHGVKLVGIDTPSVDPQHSKTLDAHHAIQRHGMAILEGLVLDE  180
+
+Query  180  VPAGDYELLALPLKFTHLDASPVRAVLRALPT  211
+            VPAGDYEL+ALPLKF  LDASPVRAVLR+LPT
+Sbjct  181  VPAGDYELIALPLKFMALDASPVRAVLRSLPT  212
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.140    0.454    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1241616987
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

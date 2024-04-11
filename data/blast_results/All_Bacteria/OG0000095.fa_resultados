@@ -1,0 +1,1659 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3525.t1
+
+Length=340
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional r...  62.4    8e-11
+VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional r...  55.5    1e-08
+
+
+>VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0085]
+Length=339
+
+ Score = 62.4 bits (150),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 65/291 (22%), Positives = 121/291 (42%), Gaps = 39/291 (13%)
+
+Query  4    TTVSNAFNRPDQLSADLRERVLATAKRLGYAGPDPVARSLRTRKAGAVGLVMAEPLTYFF  63
+            +TVS   N    +S   +++V      LGY  P+  AR+L  R + A+G+++  PL    
+Sbjct  17   STVSRVINDHPSISETTKKKVRKIMDELGYV-PNMTARNLGKRISSAIGVILP-PL----  70
+
+Query  64   SDPAAR---DFVAGVAQSCEELGQGLQLVS-VGSSRS----LADGTAAVLGAGVDGFVVY  115
+             D   R    F   + ++  E  +   + + + ++++    L +     L   VDGF++ 
+Sbjct  71   -DSKERIGNPFYLEIMEAINEEARNYDMTTAIATAKNFELLLENVQRMHLQKQVDGFILV  129
+
+Query  116  SVGDDDPYLQVVLQRRLPVVVVDQPKDLSG-VSRVGIDDRAAMRELAGYVLGLGHRELGL  174
+                 DP +  + Q  +P  ++ QP      +  V  D++   ++   +++  GH+ +  
+Sbjct  130  YSDSQDPVIDYLYQNHIPFTLIGQPYHHENEIVYVDNDNQLLGKQATEFLIQNGHKNILF  189
+
+Query  175  LTMRLGRDRRQDLVDAERLRSPTFDVQRERIVGVWEAMTAAGVDPDSLTVVESYEHLPTS  234
+            +T                  +    +  ER  G  +AM  AG+   S  V+E  E   + 
+Sbjct  190  VT-----------------NTTHESLYFERYFGYQKAMMMAGLPALSSVVLEHPEDYLSF  232
+
+Query  235  GGTAAKVALQANPRLTALMCTADILALSAMDYLRAHGIYVPGQMTVTGFDG  285
+              T     L+ N   TAL+   DI AL  M   + +G  +P  ++V  F+ 
+Sbjct  233  EKT-----LKEN-EATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNN  277
+
+
+>VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis D32]
+Length=336
+
+ Score = 55.5 bits (132),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 64/291 (22%), Positives = 119/291 (41%), Gaps = 39/291 (13%)
+
+Query  4    TTVSNAFNRPDQLSADLRERVLATAKRLGYAGPDPVARSLRTRKAGAVGLVMAEPLTYFF  63
+            +TVS   N    +S   +++V      LGY  P+  AR+L  R + A+G+++  PL    
+Sbjct  17   STVSRVINDHPSISESTKKKVRKVMDDLGYV-PNMTARNLGKRISSAIGVILP-PL----  70
+
+Query  64   SDPAAR---DFVAGVAQSCEELGQGLQLVS-VGSSRS----LADGTAAVLGAGVDGFVVY  115
+             D   R    F   + ++  E  +   + + + +++S    L +     L   VDGF++ 
+Sbjct  71   -DSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQKQVDGFILV  129
+
+Query  116  SVGDDDPYLQVVLQRRLPVVVVDQP-KDLSGVSRVGIDDRAAMRELAGYVLGLGHRELGL  174
+                 DP +  + +  +P  ++ QP +  + +  V  D++   ++   +++  GH+ +  
+Sbjct  130  YSDSKDPVIDYLYENNIPFTLIGQPYQHETEIVYVDNDNQLLGKQATEFLIENGHKNILF  189
+
+Query  175  LTMRLGRDRRQDLVDAERLRSPTFDVQRERIVGVWEAMTAAGVDPDSLTVVESYEHLPTS  234
+            +T                  +    +  ER  G  +AM   G     LTV+ S       
+Sbjct  190  VT-----------------NTTHESLYFERYFGYQKAMMMQG-----LTVLPSVALEKPE  227
+
+Query  235  GGTAAKVALQANPRLTALMCTADILALSAMDYLRAHGIYVPGQMTVTGFDG  285
+               A    L  N   TAL+   DI AL  M   + +G  VP  +++  F+ 
+Sbjct  228  DYMAFDDILHQN-NATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNN  277
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2502856039
+
+
+Query= g1982.t1
+
+Length=337
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional r...  125     4e-33
+VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional r...  124     5e-33
+VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional r...  122     4e-32
+VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional r...  122     5e-32
+
+
+>VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis D32]
+Length=336
+
+ Score = 125 bits (313),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 96/340 (28%), Positives = 156/340 (46%), Gaps = 19/340 (6%)
+
+Query  3    TMKDVAAMAGVSFTTVSHVVNRTRPVSDAVRKKVEDAIAQLHYVPSAVARSLKVRTTSII  62
+            T+KDVA  AGV+ +TVS V+N    +S++ +KKV   +  L YVP+  AR+L  R +S I
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISSAI  63
+
+Query  63   GLLVP--NST----NPYFAELSRGIEDCCERNGYCVILCNSDDNPQKQANYLRVLQEKRI  116
+            G+++P  +S     NP++ E+   I +          +  +        N  R+  +K++
+Sbjct  64   GVILPPLDSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQKQV  123
+
+Query  117  DGLVLASAGGDGALAKGLANMRTPTVIV----DREVEGVEADRVQIDHEMGAYLATRHLL  172
+            DG +L  +     +   L     P  ++      E E V  D    D+++    AT  L+
+Sbjct  124  DGFILVYSDSKDPVIDYLYENNIPFTLIGQPYQHETEIVYVDN---DNQLLGKQATEFLI  180
+
+Query  173  ELGHRDIACIGGPLSTKVSTLRVEGYRRAMAKAGLEVRPQWLLESEFSSPGGYHAALGLL  232
+            E GH++I  +       +   R  GY++AM   GL V P   LE     P  Y A   +L
+Sbjct  181  ENGHKNILFVTNTTHESLYFERYFGYQKAMMMQGLTVLPSVALE----KPEDYMAFDDIL  236
+
+Query  233  GGEGERPTAIVAGNDMIGIGVLRAAAELNIRVPHELSVIGFDDIELSRFVFPALTTVGQS  292
+                   TA+V  +D+  +  ++ A     +VP  LS+I F++   S    P LT++   
+Sbjct  237  --HQNNATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPYLTSIDID  294
+
+Query  293  IRLLGEIAAQLLLQRIAEREEPMQRRVVAPALVLRESTAP  332
+               LG +A + L + I E      R V+   L+ RE+  P
+Sbjct  295  TSELGRMAMKKLYELIHEELTNGVRLVIPHKLIKRETVIP  334
+
+
+>VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis V583]
+Length=336
+
+ Score = 124 bits (312),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 96/340 (28%), Positives = 156/340 (46%), Gaps = 19/340 (6%)
+
+Query  3    TMKDVAAMAGVSFTTVSHVVNRTRPVSDAVRKKVEDAIAQLHYVPSAVARSLKVRTTSII  62
+            T+KDVA  AGV+ +TVS V+N    +S++ +KKV   +  L YVP+  AR+L  R +S I
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISSAI  63
+
+Query  63   GLLVP--NST----NPYFAELSRGIEDCCERNGYCVILCNSDDNPQKQANYLRVLQEKRI  116
+            G+++P  +S     NP++ E+   I +          +  +        N  R+  +K++
+Sbjct  64   GVILPPLDSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQKQV  123
+
+Query  117  DGLVLASAGGDGALAKGLANMRTPTVIV----DREVEGVEADRVQIDHEMGAYLATRHLL  172
+            DG +L  +     +   L     P  ++      E E V  D    D+++    AT  L+
+Sbjct  124  DGFILVYSDSKDPVIDYLDENNIPFTLIGQPYQHETEIVYVDN---DNQLLGKQATEFLI  180
+
+Query  173  ELGHRDIACIGGPLSTKVSTLRVEGYRRAMAKAGLEVRPQWLLESEFSSPGGYHAALGLL  232
+            E GH++I  +       +   R  GY++AM   GL V P   LE     P  Y A   +L
+Sbjct  181  ENGHKNILFVTNTTHESLYFERYFGYQKAMMMQGLTVLPSVALE----KPEDYMAFDDIL  236
+
+Query  233  GGEGERPTAIVAGNDMIGIGVLRAAAELNIRVPHELSVIGFDDIELSRFVFPALTTVGQS  292
+                   TA+V  +D+  +  ++ A     +VP  LS+I F++   S    P LT++   
+Sbjct  237  --HQNNATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPYLTSIDID  294
+
+Query  293  IRLLGEIAAQLLLQRIAEREEPMQRRVVAPALVLRESTAP  332
+               LG +A + L + I E      R V+   L+ RE+  P
+Sbjct  295  TSELGRMAMKKLYELIHEELTNGVRLVIPHKLIKRETVIP  334
+
+
+>VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0004]
+Length=339
+
+ Score = 122 bits (306),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 97/340 (29%), Positives = 158/340 (46%), Gaps = 19/340 (6%)
+
+Query  3    TMKDVAAMAGVSFTTVSHVVNRTRPVSDAVRKKVEDAIAQLHYVPSAVARSLKVRTTSII  62
+            T+KDVA  AGV+ +TVS V+N    +S+  +KKV   + +L YVP+  AR+L  R +S I
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISSAI  63
+
+Query  63   GLLVP--NST----NPYFAELSRGIEDCCERNGYCVILCNSDDNPQKQANYLRVLQEKRI  116
+            G+++P  +S     NP++ E+   I +          +  + +      N  R+  +K++
+Sbjct  64   GVILPPLDSKERIGNPFYLEIMEAINEEARNYDMTTAIATAKNFELLLENVQRMHLQKQV  123
+
+Query  117  DGLVLASAGGDGALAKGLANMRTPTVIV----DREVEGVEADRVQIDHEMGAYLATRHLL  172
+            DG +L  +     +   L     P  ++      E E V  D    D+++    AT  L+
+Sbjct  124  DGFILVYSDSQDTVIDYLYQNHIPFTLIGQPYHHENEIVYVDN---DNQLLGKQATEFLI  180
+
+Query  173  ELGHRDIACIGGPLSTKVSTLRVEGYRRAMAKAGLEVRPQWLLESEFSSPGGYHAALGLL  232
+            + GH++I  +       +   R  GY++AM  AGL      +LE     P  Y +    L
+Sbjct  181  QNGHKNILFVTNTTHESLYFERYFGYQKAMMMAGLPALSSVVLE----HPEDYLSFEKTL  236
+
+Query  233  GGEGERPTAIVAGNDMIGIGVLRAAAELNIRVPHELSVIGFDDIELSRFVFPALTTVGQS  292
+              E E  TA+V  +D+  +  ++ A      +P  LSVI F++   S    P LT++   
+Sbjct  237  -KENE-ATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTSIDID  294
+
+Query  293  IRLLGEIAAQLLLQRIAEREEPMQRRVVAPALVLRESTAP  332
+            I  LG +A Q L + I E      R V+   L+ RE+  P
+Sbjct  295  ISELGRVAMQKLRELIHEELSSGVRLVIPHRLIKRETVVP  334
+
+
+>VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0085]
+Length=339
+
+ Score = 122 bits (305),  Expect = 5e-32, Method: Compositional matrix adjust.
+ Identities = 97/340 (29%), Positives = 158/340 (46%), Gaps = 19/340 (6%)
+
+Query  3    TMKDVAAMAGVSFTTVSHVVNRTRPVSDAVRKKVEDAIAQLHYVPSAVARSLKVRTTSII  62
+            T+KDVA  AGV+ +TVS V+N    +S+  +KKV   + +L YVP+  AR+L  R +S I
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISSAI  63
+
+Query  63   GLLVP--NST----NPYFAELSRGIEDCCERNGYCVILCNSDDNPQKQANYLRVLQEKRI  116
+            G+++P  +S     NP++ E+   I +          +  + +      N  R+  +K++
+Sbjct  64   GVILPPLDSKERIGNPFYLEIMEAINEEARNYDMTTAIATAKNFELLLENVQRMHLQKQV  123
+
+Query  117  DGLVLASAGGDGALAKGLANMRTPTVIV----DREVEGVEADRVQIDHEMGAYLATRHLL  172
+            DG +L  +     +   L     P  ++      E E V  D    D+++    AT  L+
+Sbjct  124  DGFILVYSDSQDPVIDYLYQNHIPFTLIGQPYHHENEIVYVDN---DNQLLGKQATEFLI  180
+
+Query  173  ELGHRDIACIGGPLSTKVSTLRVEGYRRAMAKAGLEVRPQWLLESEFSSPGGYHAALGLL  232
+            + GH++I  +       +   R  GY++AM  AGL      +LE     P  Y +    L
+Sbjct  181  QNGHKNILFVTNTTHESLYFERYFGYQKAMMMAGLPALSSVVLE----HPEDYLSFEKTL  236
+
+Query  233  GGEGERPTAIVAGNDMIGIGVLRAAAELNIRVPHELSVIGFDDIELSRFVFPALTTVGQS  292
+              E E  TA+V  +D+  +  ++ A      +P  LSVI F++   S    P LT++   
+Sbjct  237  -KENE-ATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTSIDID  294
+
+Query  293  IRLLGEIAAQLLLQRIAEREEPMQRRVVAPALVLRESTAP  332
+            I  LG +A Q L + I E      R V+   L+ RE+  P
+Sbjct  295  ISELGRVAMQKLRELIHEELSSGVRLVIPHRLIKRETVVP  334
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2471439436
+
+
+Query= g2298.t1
+
+Length=340
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional r...  72.4    4e-14
+VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional r...  72.0    4e-14
+VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional r...  70.9    1e-13
+VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional r...  69.3    4e-13
+
+
+>VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0085]
+Length=339
+
+ Score = 72.4 bits (176),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 76/342 (22%), Positives = 148/342 (43%), Gaps = 25/342 (7%)
+
+Query  12   VTINQVAEAAGVSKASVSRYIGGDRQLLADATARRIERAIDQLDYRPNQMARGLKRGRTR  71
+            +T+  VA+ AGV+ ++VSR I  D   +++ T +++ + +D+L Y PN  AR L +  + 
+Sbjct  3    ITVKDVAKKAGVATSTVSRVIN-DHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISS  61
+
+Query  72   LIGMLVAD------ILNPYSVAVMHGVETACREHGYSLVVCNTDRD----DEQERHHLAA  121
+             IG+++        I NP+ + +M  +    R +  +  +          +  +R HL  
+Sbjct  62   AIGVILPPLDSKERIGNPFYLEIMEAINEEARNYDMTTAIATAKNFELLLENVQRMHLQK  121
+
+Query  122  LQSYNVEGLI-VNTLGHHPGELRALHRELPMVLVDRQLAELDTDLVGLDNADAV--EQAL  178
+                 V+G I V +    P         +P  L+  Q    + ++V +DN + +  +QA 
+Sbjct  122  ----QVDGFILVYSDSQDPVIDYLYQNHIPFTLIG-QPYHHENEIVYVDNDNQLLGKQAT  176
+
+Query  179  DHLQHRGFRDILLVTEPLDGTSSRIERVQAFNASIGRR--PALKGQVLQTDDFFRDGLRA  236
+            + L   G ++IL VT      S   ER   +  ++     PAL   VL+  +   D L  
+Sbjct  177  EFLIQNGHKNILFVTNT-THESLYFERYFGYQKAMMMAGLPALSSVVLEHPE---DYLSF  232
+
+Query  237  FLSASGPGPKALFTCNGVATLCATRQLRDLGCRLFDEVGLLALDELDWYPLVGSGITALA  296
+              +       AL   + +  L   +  +  G  + + + +++ +   +  L    +T++ 
+Sbjct  233  EKTLKENEATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTSID  292
+
+Query  297  QPTDEIGRTAFERLLARLEGDREPARRVTFPAQLIVRGSTHP  338
+                E+GR A ++L   +  +     R+  P +LI R +  P
+Sbjct  293  IDISELGRVAMQKLRELIHEELSSGVRLVIPHRLIKRETVVP  334
+
+
+>VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0004]
+Length=339
+
+ Score = 72.0 bits (175),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 75/342 (22%), Positives = 150/342 (44%), Gaps = 25/342 (7%)
+
+Query  12   VTINQVAEAAGVSKASVSRYIGGDRQLLADATARRIERAIDQLDYRPNQMARGLKRGRTR  71
+            +T+  VA+ AGV+ ++VSR I  D   +++ T +++ + +D+L Y PN  AR L +  + 
+Sbjct  3    ITVKDVAKKAGVATSTVSRVIN-DHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISS  61
+
+Query  72   LIGMLVAD------ILNPYSVAVMHGVETACREHGYSLVVCNTDRD----DEQERHHLAA  121
+             IG+++        I NP+ + +M  +    R +  +  +          +  +R HL  
+Sbjct  62   AIGVILPPLDSKERIGNPFYLEIMEAINEEARNYDMTTAIATAKNFELLLENVQRMHLQK  121
+
+Query  122  LQSYNVEGLIVNTLGHHPGELRALHR-ELPMVLVDRQLAELDTDLVGLDNADAV--EQAL  178
+                 V+G I+         +  L++  +P  L+  Q    + ++V +DN + +  +QA 
+Sbjct  122  ----QVDGFILVYSDSQDTVIDYLYQNHIPFTLIG-QPYHHENEIVYVDNDNQLLGKQAT  176
+
+Query  179  DHLQHRGFRDILLVTEPLDGTSSRIERVQAFNASIGRR--PALKGQVLQTDDFFRDGLRA  236
+            + L   G ++IL VT      S   ER   +  ++     PAL   VL+  +   D L  
+Sbjct  177  EFLIQNGHKNILFVTNT-THESLYFERYFGYQKAMMMAGLPALSSVVLEHPE---DYLSF  232
+
+Query  237  FLSASGPGPKALFTCNGVATLCATRQLRDLGCRLFDEVGLLALDELDWYPLVGSGITALA  296
+              +       AL   + +  L   +  +  G  + + + +++ +   +  L    +T++ 
+Sbjct  233  EKTLKENEATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTSID  292
+
+Query  297  QPTDEIGRTAFERLLARLEGDREPARRVTFPAQLIVRGSTHP  338
+                E+GR A ++L   +  +     R+  P +LI R +  P
+Sbjct  293  IDISELGRVAMQKLRELIHEELSSGVRLVIPHRLIKRETVVP  334
+
+
+>VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis D32]
+Length=336
+
+ Score = 70.9 bits (172),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 77/345 (22%), Positives = 152/345 (44%), Gaps = 31/345 (9%)
+
+Query  12   VTINQVAEAAGVSKASVSRYIGGDRQLLADATARRIERAIDQLDYRPNQMARGLKRGRTR  71
+            +T+  VA+ AGV+ ++VSR I  D   ++++T +++ + +D L Y PN  AR L +  + 
+Sbjct  3    ITVKDVAKKAGVATSTVSRVIN-DHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISS  61
+
+Query  72   LIGMLVADIL------NPYSVAVMHGVETACREHGYSLVVCNTDRDD----EQERHHLAA  121
+             IG+++  +       NP+ + +M  +    R +  +  +      D      +R HL  
+Sbjct  62   AIGVILPPLDSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQK  121
+
+Query  122  LQSYNVEGLI-VNTLGHHPGELRALHRELPMVLVDRQLAELDTDLVGLDNADAV--EQAL  178
+                 V+G I V +    P         +P  L+  Q  + +T++V +DN + +  +QA 
+Sbjct  122  ----QVDGFILVYSDSKDPVIDYLYENNIPFTLIG-QPYQHETEIVYVDNDNQLLGKQAT  176
+
+Query  179  DHLQHRGFRDILLVTEPLDGTSSRIERVQAFNASIGRR--PALKGQVLQT-DDF--FRDG  233
+            + L   G ++IL VT      S   ER   +  ++  +    L    L+  +D+  F D 
+Sbjct  177  EFLIENGHKNILFVTNT-THESLYFERYFGYQKAMMMQGLTVLPSVALEKPEDYMAFDDI  235
+
+Query  234  LRAFLSASGPGPKALFTCNGVATLCATRQLRDLGCRLFDEVGLLALDELDWYPLVGSGIT  293
+            L            AL   + +  L   +  +  G ++ + + +++ +   +  L    +T
+Sbjct  236  LHQ------NNATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPYLT  289
+
+Query  294  ALAQPTDEIGRTAFERLLARLEGDREPARRVTFPAQLIVRGSTHP  338
+            ++   T E+GR A ++L   +  +     R+  P +LI R +  P
+Sbjct  290  SIDIDTSELGRMAMKKLYELIHEELTNGVRLVIPHKLIKRETVIP  334
+
+
+>VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis V583]
+Length=336
+
+ Score = 69.3 bits (168),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 77/345 (22%), Positives = 152/345 (44%), Gaps = 31/345 (9%)
+
+Query  12   VTINQVAEAAGVSKASVSRYIGGDRQLLADATARRIERAIDQLDYRPNQMARGLKRGRTR  71
+            +T+  VA+ AGV+ ++VSR I  D   ++++T +++ + +D L Y PN  AR L +  + 
+Sbjct  3    ITVKDVAKKAGVATSTVSRVIN-DHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISS  61
+
+Query  72   LIGMLVADIL------NPYSVAVMHGVETACREHGYSLVVCNTDRDD----EQERHHLAA  121
+             IG+++  +       NP+ + +M  +    R +  +  +      D      +R HL  
+Sbjct  62   AIGVILPPLDSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQK  121
+
+Query  122  LQSYNVEGLI-VNTLGHHPGELRALHRELPMVLVDRQLAELDTDLVGLDNADAV--EQAL  178
+                 V+G I V +    P         +P  L+  Q  + +T++V +DN + +  +QA 
+Sbjct  122  ----QVDGFILVYSDSKDPVIDYLDENNIPFTLIG-QPYQHETEIVYVDNDNQLLGKQAT  176
+
+Query  179  DHLQHRGFRDILLVTEPLDGTSSRIERVQAFNASIGRR--PALKGQVLQT-DDF--FRDG  233
+            + L   G ++IL VT      S   ER   +  ++  +    L    L+  +D+  F D 
+Sbjct  177  EFLIENGHKNILFVTNT-THESLYFERYFGYQKAMMMQGLTVLPSVALEKPEDYMAFDDI  235
+
+Query  234  LRAFLSASGPGPKALFTCNGVATLCATRQLRDLGCRLFDEVGLLALDELDWYPLVGSGIT  293
+            L            AL   + +  L   +  +  G ++ + + +++ +   +  L    +T
+Sbjct  236  LHQ------NNATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPYLT  289
+
+Query  294  ALAQPTDEIGRTAFERLLARLEGDREPARRVTFPAQLIVRGSTHP  338
+            ++   T E+GR A ++L   +  +     R+  P +LI R +  P
+Sbjct  290  SIDIDTSELGRMAMKKLYELIHEELTNGVRLVIPHKLIKRETVIP  334
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.404    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2502856039
+
+
+Query= g1327.t1
+
+Length=341
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional r...  110     1e-27
+VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional r...  108     4e-27
+VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional r...  108     5e-27
+VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional r...  105     8e-26
+
+
+>VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis V583]
+Length=336
+
+ Score = 110 bits (274),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 93/339 (27%), Positives = 162/339 (48%), Gaps = 20/339 (6%)
+
+Query  3    TIKDVAKRANVSTTTVSHVINKTRFVAEETRNAVWAAIKELHYSPSAVARSLKVNHTKSI  62
+            T+KDVAK+A V+T+TVS VIN    ++E T+  V   + +L Y P+  AR+L    + +I
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISSAI  63
+
+Query  63   GLLATSSEAA------YFAEIIEAVEKNCFQKGYTLILGNAWNNLEKQRAYLSMMAQKRV  116
+            G++    ++       ++ EI+EA+ +       T  +  A +          M  QK+V
+Sbjct  64   GVILPPLDSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQKQV  123
+
+Query  117  DGLLVMCSEYPEPLLSMLEEYRHIPMVVMDWGEAKADFTDTVI---DNAFAGGYMAGRYL  173
+            DG +++ S+  +P++  L+E  +IP  ++  G+     T+ V    DN   G   A  +L
+Sbjct  124  DGFILVYSDSKDPVIDYLDE-NNIPFTLI--GQPYQHETEIVYVDNDNQLLGK-QATEFL  179
+
+Query  174  VERGHRDIGVIPGPLERNTGAGRLAGFMKA-MEEALINVPDNWIVQGDFEPESGYHAMQQ  232
+            +E GH++I  +      +    R  G+ KA M + L  +P   +     E    Y A   
+Sbjct  180  IENGHKNILFVTNTTHESLYFERYFGYQKAMMMQGLTVLPSVAL-----EKPEDYMAFDD  234
+
+Query  233  ILSQSHRPTAVFCGGDIMAMGALCAADEMGLRVPQDVSVIGYDNVRNARYFTPALTTIHQ  292
+            IL Q++  TA+    DI A+  +  A   G +VP+ +S+I ++N   +    P LT+I  
+Sbjct  235  ILHQNN-ATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPYLTSIDI  293
+
+Query  293  PKDSLGETAFNMLLDRIVNKREESQSIEVHPRLVERRSV  331
+                LG  A   L + I  +      + +  +L++R +V
+Sbjct  294  DTSELGRMAMKKLYELIHEELTNGVRLVIPHKLIKRETV  332
+
+
+>VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0085]
+Length=339
+
+ Score = 108 bits (271),  Expect = 4e-27, Method: Compositional matrix adjust.
+ Identities = 95/343 (28%), Positives = 166/343 (48%), Gaps = 26/343 (8%)
+
+Query  3    TIKDVAKRANVSTTTVSHVINKTRFVAEETRNAVWAAIKELHYSPSAVARSLKVNHTKSI  62
+            T+KDVAK+A V+T+TVS VIN    ++E T+  V   + EL Y P+  AR+L    + +I
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISSAI  63
+
+Query  63   GLLATSSEAA------YFAEIIEAVEKNCFQKGYTLILGNAWNN---LEK-QRAYLSMMA  112
+            G++    ++       ++ EI+EA+ +       T  +  A N    LE  QR +L    
+Sbjct  64   GVILPPLDSKERIGNPFYLEIMEAINEEARNYDMTTAIATAKNFELLLENVQRMHL----  119
+
+Query  113  QKRVDGLLVMCSEYPEPLLSMLEEYRHIPMVVMDW---GEAKADFTDTVIDNAFAGGYMA  169
+            QK+VDG +++ S+  +P++  L +  HIP  ++      E +  + D   DN   G   A
+Sbjct  120  QKQVDGFILVYSDSQDPVIDYLYQ-NHIPFTLIGQPYHHENEIVYVDN--DNQLLGK-QA  175
+
+Query  170  GRYLVERGHRDIGVIPGPLERNTGAGRLAGFMKAMEEALINVPDNWIVQGDFEPESGYHA  229
+              +L++ GH++I  +      +    R  G+ KAM  A +    + +++    PE  Y +
+Sbjct  176  TEFLIQNGHKNILFVTNTTHESLYFERYFGYQKAMMMAGLPALSSVVLE---HPED-YLS  231
+
+Query  230  MQQILSQSHRPTAVFCGGDIMAMGALCAADEMGLRVPQDVSVIGYDNVRNARYFTPALTT  289
+             ++ L ++   TA+    DI A+  +  A   G  +P+ +SVI ++N   +    P LT+
+Sbjct  232  FEKTLKEN-EATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTS  290
+
+Query  290  IHQPKDSLGETAFNMLLDRIVNKREESQSIEVHPRLVERRSVA  332
+            I      LG  A   L + I  +      + +  RL++R +V 
+Sbjct  291  IDIDISELGRVAMQKLRELIHEELSSGVRLVIPHRLIKRETVV  333
+
+
+>VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis D32]
+Length=336
+
+ Score = 108 bits (271),  Expect = 5e-27, Method: Compositional matrix adjust.
+ Identities = 93/339 (27%), Positives = 161/339 (47%), Gaps = 20/339 (6%)
+
+Query  3    TIKDVAKRANVSTTTVSHVINKTRFVAEETRNAVWAAIKELHYSPSAVARSLKVNHTKSI  62
+            T+KDVAK+A V+T+TVS VIN    ++E T+  V   + +L Y P+  AR+L    + +I
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISSAI  63
+
+Query  63   GLLATSSEAA------YFAEIIEAVEKNCFQKGYTLILGNAWNNLEKQRAYLSMMAQKRV  116
+            G++    ++       ++ EI+EA+ +       T  +  A +          M  QK+V
+Sbjct  64   GVILPPLDSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQKQV  123
+
+Query  117  DGLLVMCSEYPEPLLSMLEEYRHIPMVVMDWGEAKADFTDTVI---DNAFAGGYMAGRYL  173
+            DG +++ S+  +P++  L E  +IP  ++  G+     T+ V    DN   G   A  +L
+Sbjct  124  DGFILVYSDSKDPVIDYLYE-NNIPFTLI--GQPYQHETEIVYVDNDNQLLGK-QATEFL  179
+
+Query  174  VERGHRDIGVIPGPLERNTGAGRLAGFMKA-MEEALINVPDNWIVQGDFEPESGYHAMQQ  232
+            +E GH++I  +      +    R  G+ KA M + L  +P   +     E    Y A   
+Sbjct  180  IENGHKNILFVTNTTHESLYFERYFGYQKAMMMQGLTVLPSVAL-----EKPEDYMAFDD  234
+
+Query  233  ILSQSHRPTAVFCGGDIMAMGALCAADEMGLRVPQDVSVIGYDNVRNARYFTPALTTIHQ  292
+            IL Q++  TA+    DI A+  +  A   G +VP+ +S+I ++N   +    P LT+I  
+Sbjct  235  ILHQNN-ATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPYLTSIDI  293
+
+Query  293  PKDSLGETAFNMLLDRIVNKREESQSIEVHPRLVERRSV  331
+                LG  A   L + I  +      + +  +L++R +V
+Sbjct  294  DTSELGRMAMKKLYELIHEELTNGVRLVIPHKLIKRETV  332
+
+
+>VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0004]
+Length=339
+
+ Score = 105 bits (262),  Expect = 8e-26, Method: Compositional matrix adjust.
+ Identities = 95/349 (27%), Positives = 168/349 (48%), Gaps = 28/349 (8%)
+
+Query  3    TIKDVAKRANVSTTTVSHVINKTRFVAEETRNAVWAAIKELHYSPSAVARSLKVNHTKSI  62
+            T+KDVAK+A V+T+TVS VIN    ++E T+  V   + EL Y P+  AR+L    + +I
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISSAI  63
+
+Query  63   GLLATSSEAA------YFAEIIEAVEKNCFQKGYTLILGNAWNN---LEK-QRAYLSMMA  112
+            G++    ++       ++ EI+EA+ +       T  +  A N    LE  QR +L    
+Sbjct  64   GVILPPLDSKERIGNPFYLEIMEAINEEARNYDMTTAIATAKNFELLLENVQRMHL----  119
+
+Query  113  QKRVDGLLVMCSEYPEPLLSMLEEYRHIPMVVMDW---GEAKADFTDTVIDNAFAGGYMA  169
+            QK+VDG +++ S+  + ++  L +  HIP  ++      E +  + D   DN   G   A
+Sbjct  120  QKQVDGFILVYSDSQDTVIDYLYQ-NHIPFTLIGQPYHHENEIVYVDN--DNQLLGK-QA  175
+
+Query  170  GRYLVERGHRDIGVIPGPLERNTGAGRLAGFMKAMEEALINVPDNWIVQGDFEPESGYHA  229
+              +L++ GH++I  +      +    R  G+ KAM  A +    + +++    PE  Y +
+Sbjct  176  TEFLIQNGHKNILFVTNTTHESLYFERYFGYQKAMMMAGLPALSSVVLE---HPED-YLS  231
+
+Query  230  MQQILSQSHRPTAVFCGGDIMAMGALCAADEMGLRVPQDVSVIGYDNVRNARYFTPALTT  289
+             ++ L ++   TA+    DI A+  +  A   G  +P+ +SVI ++N   +    P LT+
+Sbjct  232  FEKTLKEN-EATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTS  290
+
+Query  290  IHQPKDSLGETAFNMLLDRIVNKREESQSIEVHPRLVERRSVA--DGPF  336
+            I      LG  A   L + I  +      + +  RL++R +V   + P+
+Sbjct  291  IDIDISELGRVAMQKLRELIHEELSSGVRLVIPHRLIKRETVVPLENPY  339
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2513328240
+
+
+Query= g1450.t1
+
+Length=326
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional r...  101     2e-24
+VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional r...  97.8    3e-23
+VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional r...  97.4    5e-23
+VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional r...  96.7    1e-22
+
+
+>VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis D32]
+Length=336
+
+ Score = 101 bits (251),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 82/308 (27%), Positives = 145/308 (47%), Gaps = 17/308 (6%)
+
+Query  2    AGVSTATVSRVINQTAWVEPVTRERVEKAMRDLNYRRNAAAIALAKRSGDMLGLL-----  56
+            AGV+T+TVSRVIN    +   T+++V K M DL Y  N  A  L KR    +G++     
+Sbjct  12   AGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISSAIGVILPPLD  71
+
+Query  57   -TGNLADPFFARLARGVEDVSRKQQYRLMVCSG-GHDEEMEKAGLDFLVNQGCEAIVVHA  114
+                L +PF+  +   + + +R       + +    D  +E      L  Q    I+V++
+Sbjct  72   SKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQKQVDGFILVYS  131
+
+Query  115  -SRLPDKELLRYAAHFPALVVVNRYIAGMANRCIWLENRSAAREATRYLLANGHRRIACV  173
+             S+ P  + L Y  + P  ++   Y        +  +N+   ++AT +L+ NGH+ I  V
+Sbjct  132  DSKDPVIDYL-YENNIPFTLIGQPYQHETEIVYVDNDNQLLGKQATEFLIENGHKNILFV  190
+
+Query  174  TSDLPIIDRQERLDGYREALEEYGISPDPRWVISVPFNEEGGERAAHQLINSGLPLTAAV  233
+            T+        ER  GY++A+   G++  P   +  P +    +   HQ  N+    TA V
+Sbjct  191  TNTTHESLYFERYFGYQKAMMMQGLTVLPSVALEKPEDYMAFDDILHQ--NNA---TALV  245
+
+Query  234  TFNDVMAAGIMRILHQRGVQLPQQLSIVGFDDVVLARYLYPALTTMHYPVEQMARCAAQL  293
+              +D+ A   M++    G Q+P+ LSI+ F++ + +   +P LT++     ++ R A + 
+Sbjct  246  VIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPYLTSIDIDTSELGRMAMK-  304
+
+Query  294  AIQLYQGI  301
+              +LY+ I
+Sbjct  305  --KLYELI  310
+
+
+>VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis V583]
+Length=336
+
+ Score = 97.8 bits (242),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 81/308 (26%), Positives = 144/308 (47%), Gaps = 17/308 (6%)
+
+Query  2    AGVSTATVSRVINQTAWVEPVTRERVEKAMRDLNYRRNAAAIALAKRSGDMLGLL-----  56
+            AGV+T+TVSRVIN    +   T+++V K M DL Y  N  A  L KR    +G++     
+Sbjct  12   AGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISSAIGVILPPLD  71
+
+Query  57   -TGNLADPFFARLARGVEDVSRKQQYRLMVCSG-GHDEEMEKAGLDFLVNQGCEAIVVHA  114
+                L +PF+  +   + + +R       + +    D  +E      L  Q    I+V++
+Sbjct  72   SKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQKQVDGFILVYS  131
+
+Query  115  -SRLPDKELLRYAAHFPALVVVNRYIAGMANRCIWLENRSAAREATRYLLANGHRRIACV  173
+             S+ P  + L    + P  ++   Y        +  +N+   ++AT +L+ NGH+ I  V
+Sbjct  132  DSKDPVIDYLD-ENNIPFTLIGQPYQHETEIVYVDNDNQLLGKQATEFLIENGHKNILFV  190
+
+Query  174  TSDLPIIDRQERLDGYREALEEYGISPDPRWVISVPFNEEGGERAAHQLINSGLPLTAAV  233
+            T+        ER  GY++A+   G++  P   +  P +    +   HQ  N+    TA V
+Sbjct  191  TNTTHESLYFERYFGYQKAMMMQGLTVLPSVALEKPEDYMAFDDILHQ--NNA---TALV  245
+
+Query  234  TFNDVMAAGIMRILHQRGVQLPQQLSIVGFDDVVLARYLYPALTTMHYPVEQMARCAAQL  293
+              +D+ A   M++    G Q+P+ LSI+ F++ + +   +P LT++     ++ R A + 
+Sbjct  246  VIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPYLTSIDIDTSELGRMAMK-  304
+
+Query  294  AIQLYQGI  301
+              +LY+ I
+Sbjct  305  --KLYELI  310
+
+
+>VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0085]
+Length=339
+
+ Score = 97.4 bits (241),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 77/301 (26%), Positives = 142/301 (47%), Gaps = 18/301 (6%)
+
+Query  2    AGVSTATVSRVINQTAWVEPVTRERVEKAMRDLNYRRNAAAIALAKRSGDMLGLL-----  56
+            AGV+T+TVSRVIN    +   T+++V K M +L Y  N  A  L KR    +G++     
+Sbjct  12   AGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISSAIGVILPPLD  71
+
+Query  57   -TGNLADPFFARLARGVEDVSRKQQYRLMVCSGGHDE-EMEKAGLDFLVNQGCEAIVVHA  114
+                + +PF+  +   + + +R       + +  + E  +E      L  Q    I+V++
+Sbjct  72   SKERIGNPFYLEIMEAINEEARNYDMTTAIATAKNFELLLENVQRMHLQKQVDGFILVYS  131
+
+Query  115  -SRLPDKELLRYAAHFPALVVVNRYIAGMANRCIWLENRSA--AREATRYLLANGHRRIA  171
+             S+ P  + L Y  H P  ++   Y     N  ++++N +    ++AT +L+ NGH+ I 
+Sbjct  132  DSQDPVIDYL-YQNHIPFTLIGQPY--HHENEIVYVDNDNQLLGKQATEFLIQNGHKNIL  188
+
+Query  172  CVTSDLPIIDRQERLDGYREALEEYGISPDPRWVISVPFNEEGGERAAHQLINSGLPLTA  231
+             VT+        ER  GY++A+   G+      V+  P +    E+   +  N     TA
+Sbjct  189  FVTNTTHESLYFERYFGYQKAMMMAGLPALSSVVLEHPEDYLSFEKTLKE--NEA---TA  243
+
+Query  232  AVTFNDVMAAGIMRILHQRGVQLPQQLSIVGFDDVVLARYLYPALTTMHYPVEQMARCAA  291
+             V  +D+ A   M++    G  +P+ LS++ F++ + +   +P LT++   + ++ R A 
+Sbjct  244  LVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTSIDIDISELGRVAM  303
+
+Query  292  Q  292
+            Q
+Sbjct  304  Q  304
+
+
+>VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0004]
+Length=339
+
+ Score = 96.7 bits (239),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 71/300 (24%), Positives = 138/300 (46%), Gaps = 16/300 (5%)
+
+Query  2    AGVSTATVSRVINQTAWVEPVTRERVEKAMRDLNYRRNAAAIALAKRSGDMLGLL-----  56
+            AGV+T+TVSRVIN    +   T+++V K M +L Y  N  A  L KR    +G++     
+Sbjct  12   AGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISSAIGVILPPLD  71
+
+Query  57   -TGNLADPFFARLARGVEDVSRKQQYRLMVCSGGHDEEMEKAGLDFLVNQGCEAIVVHAS  115
+                + +PF+  +   + + +R       + +  + E + +      + +  +  ++  S
+Sbjct  72   SKERIGNPFYLEIMEAINEEARNYDMTTAIATAKNFELLLENVQRMHLQKQVDGFILVYS  131
+
+Query  116  RLPDKEL-LRYAAHFPALVVVNRYIAGMANRCIWLENRSA--AREATRYLLANGHRRIAC  172
+               D  +   Y  H P  ++   Y     N  ++++N +    ++AT +L+ NGH+ I  
+Sbjct  132  DSQDTVIDYLYQNHIPFTLIGQPY--HHENEIVYVDNDNQLLGKQATEFLIQNGHKNILF  189
+
+Query  173  VTSDLPIIDRQERLDGYREALEEYGISPDPRWVISVPFNEEGGERAAHQLINSGLPLTAA  232
+            VT+        ER  GY++A+   G+      V+  P +    E+   +  N     TA 
+Sbjct  190  VTNTTHESLYFERYFGYQKAMMMAGLPALSSVVLEHPEDYLSFEKTLKE--NEA---TAL  244
+
+Query  233  VTFNDVMAAGIMRILHQRGVQLPQQLSIVGFDDVVLARYLYPALTTMHYPVEQMARCAAQ  292
+            V  +D+ A   M++    G  +P+ LS++ F++ + +   +P LT++   + ++ R A Q
+Sbjct  245  VVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTSIDIDISELGRVAMQ  304
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2373041358
+
+
+Query= g2049.t1
+
+Length=340
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional r...  87.4    3e-19
+VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional r...  87.0    3e-19
+VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional r...  84.0    3e-18
+VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional r...  81.3    3e-17
+
+
+>VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0085]
+Length=339
+
+ Score = 87.4 bits (215),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 91/354 (26%), Positives = 167/354 (47%), Gaps = 40/354 (11%)
+
+Query  2    ITIRDVARQAGVSVATVSRVLNNSALVSPDTRDAVMQAVTLLGYRPNANAQALATQVSDT  61
+            IT++DVA++AGV+ +TVSRV+N+   +S  T+  V + +  LGY PN  A+ L  ++S  
+Sbjct  3    ITVKDVAKKAGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISSA  62
+
+Query  62   IGVVV--MD----VSDAFFGALVKAVDLVAQQHQKYVLIGNSYH-----EAEKERHAIEV  110
+            IGV++  +D    + + F+  +++A++  A+ +     I  + +     E  +  H    
+Sbjct  63   IGVILPPLDSKERIGNPFYLEIMEAINEEARNYDMTTAIATAKNFELLLENVQRMH----  118
+
+Query  111  LIRQRCNALIVHSKALTDRELSDFMDQ--IPGMVLINRIVPGYAH--RCVCLDNVSG--A  164
+            L +Q    ++V+S +     + D++ Q  IP   LI +    Y H    V +DN +    
+Sbjct  119  LQKQVDGFILVYSDS--QDPVIDYLYQNHIP-FTLIGQ---PYHHENEIVYVDNDNQLLG  172
+
+Query  165  RMATRMLLNNGHQRIGYLASSHRIEDDAMRREGWLHALQEQGIAASESWIGTGTPDMQGG  224
+            + AT  L+ NGH+ I ++ ++        R  G+  A+   G+ A  S +     D    
+Sbjct  173  KQATEFLIQNGHKNILFVTNTTHESLYFERYFGYQKAMMMAGLPALSSVVLEHPEDYLSF  232
+
+Query  225  ESAMVELLGRNLQLTAVFAYNDNMAAGALTALKDNGIAIPLHLSVIGFDDIPIARYTDPQ  284
+            E  + E      + TA+   +D  A   +   +  G  IP  LSVI F++   +  T P 
+Sbjct  233  EKTLKE-----NEATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPY  287
+
+Query  285  LTTVRYPIASMAKIAT----ELALQGAAGTLDITATHCFMPTLVRRHSVAWRQN  334
+            LT++   I+ + ++A     EL  +  +  + +   H     L++R +V   +N
+Sbjct  288  LTSIDIDISELGRVAMQKLRELIHEELSSGVRLVIPH----RLIKRETVVPLEN  337
+
+
+>VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0004]
+Length=339
+
+ Score = 87.0 bits (214),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 91/354 (26%), Positives = 167/354 (47%), Gaps = 40/354 (11%)
+
+Query  2    ITIRDVARQAGVSVATVSRVLNNSALVSPDTRDAVMQAVTLLGYRPNANAQALATQVSDT  61
+            IT++DVA++AGV+ +TVSRV+N+   +S  T+  V + +  LGY PN  A+ L  ++S  
+Sbjct  3    ITVKDVAKKAGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISSA  62
+
+Query  62   IGVVV--MD----VSDAFFGALVKAVDLVAQQHQKYVLIGNSYH-----EAEKERHAIEV  110
+            IGV++  +D    + + F+  +++A++  A+ +     I  + +     E  +  H    
+Sbjct  63   IGVILPPLDSKERIGNPFYLEIMEAINEEARNYDMTTAIATAKNFELLLENVQRMH----  118
+
+Query  111  LIRQRCNALIVHSKALTDRELSDFMDQ--IPGMVLINRIVPGYAH--RCVCLDNVSG--A  164
+            L +Q    ++V+S +     + D++ Q  IP   LI +    Y H    V +DN +    
+Sbjct  119  LQKQVDGFILVYSDS--QDTVIDYLYQNHIP-FTLIGQ---PYHHENEIVYVDNDNQLLG  172
+
+Query  165  RMATRMLLNNGHQRIGYLASSHRIEDDAMRREGWLHALQEQGIAASESWIGTGTPDMQGG  224
+            + AT  L+ NGH+ I ++ ++        R  G+  A+   G+ A  S +     D    
+Sbjct  173  KQATEFLIQNGHKNILFVTNTTHESLYFERYFGYQKAMMMAGLPALSSVVLEHPEDYLSF  232
+
+Query  225  ESAMVELLGRNLQLTAVFAYNDNMAAGALTALKDNGIAIPLHLSVIGFDDIPIARYTDPQ  284
+            E  + E      + TA+   +D  A   +   +  G  IP  LSVI F++   +  T P 
+Sbjct  233  EKTLKE-----NEATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPY  287
+
+Query  285  LTTVRYPIASMAKIAT----ELALQGAAGTLDITATHCFMPTLVRRHSVAWRQN  334
+            LT++   I+ + ++A     EL  +  +  + +   H     L++R +V   +N
+Sbjct  288  LTSIDIDISELGRVAMQKLRELIHEELSSGVRLVIPH----RLIKRETVVPLEN  337
+
+
+>VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis V583]
+Length=336
+
+ Score = 84.0 bits (206),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 82/315 (26%), Positives = 152/315 (48%), Gaps = 32/315 (10%)
+
+Query  2    ITIRDVARQAGVSVATVSRVLNNSALVSPDTRDAVMQAVTLLGYRPNANAQALATQVSDT  61
+            IT++DVA++AGV+ +TVSRV+N+   +S  T+  V + +  LGY PN  A+ L  ++S  
+Sbjct  3    ITVKDVAKKAGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISSA  62
+
+Query  62   IGVVV--MD----VSDAFFGALVKAVDLVAQQHQKYVLIGNSYH-----EAEKERHAIEV  110
+            IGV++  +D    + + F+  +++A++  A+ +     I  +       E  K  H    
+Sbjct  63   IGVILPPLDSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMH----  118
+
+Query  111  LIRQRCNALIVHSKALTDRELSDFMDQ--IPGMVLINRIVPGYAHRCVCL----DNVSGA  164
+            L +Q    ++V+S +     + D++D+  IP   LI +    Y H    +    DN    
+Sbjct  119  LQKQVDGFILVYSDS--KDPVIDYLDENNIP-FTLIGQ---PYQHETEIVYVDNDNQLLG  172
+
+Query  165  RMATRMLLNNGHQRIGYLASSHRIEDDAMRREGWLHALQEQGIAASESWIGTGTPDMQGG  224
+            + AT  L+ NGH+ I ++ ++        R  G+  A+  QG+    S +    P+    
+Sbjct  173  KQATEFLIENGHKNILFVTNTTHESLYFERYFGYQKAMMMQGLTVLPS-VALEKPE---D  228
+
+Query  225  ESAMVELLGRNLQLTAVFAYNDNMAAGALTALKDNGIAIPLHLSVIGFDDIPIARYTDPQ  284
+              A  ++L +N   TA+   +D  A   +   +  G  +P  LS+I F++   +  T P 
+Sbjct  229  YMAFDDILHQN-NATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPY  287
+
+Query  285  LTTVRYPIASMAKIA  299
+            LT++    + + ++A
+Sbjct  288  LTSIDIDTSELGRMA  302
+
+
+>VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis D32]
+Length=336
+
+ Score = 81.3 bits (199),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 81/315 (26%), Positives = 151/315 (48%), Gaps = 32/315 (10%)
+
+Query  2    ITIRDVARQAGVSVATVSRVLNNSALVSPDTRDAVMQAVTLLGYRPNANAQALATQVSDT  61
+            IT++DVA++AGV+ +TVSRV+N+   +S  T+  V + +  LGY PN  A+ L  ++S  
+Sbjct  3    ITVKDVAKKAGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISSA  62
+
+Query  62   IGVVV--MD----VSDAFFGALVKAVDLVAQQHQKYVLIGNSYH-----EAEKERHAIEV  110
+            IGV++  +D    + + F+  +++A++  A+ +     I  +       E  K  H    
+Sbjct  63   IGVILPPLDSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMH----  118
+
+Query  111  LIRQRCNALIVHSKALTDRELSDFM--DQIPGMVLINRIVPGYAHRCVCL----DNVSGA  164
+            L +Q    ++V+S +     + D++  + IP   LI +    Y H    +    DN    
+Sbjct  119  LQKQVDGFILVYSDS--KDPVIDYLYENNIP-FTLIGQ---PYQHETEIVYVDNDNQLLG  172
+
+Query  165  RMATRMLLNNGHQRIGYLASSHRIEDDAMRREGWLHALQEQGIAASESWIGTGTPDMQGG  224
+            + AT  L+ NGH+ I ++ ++        R  G+  A+  QG+    S +    P+    
+Sbjct  173  KQATEFLIENGHKNILFVTNTTHESLYFERYFGYQKAMMMQGLTVLPS-VALEKPE---D  228
+
+Query  225  ESAMVELLGRNLQLTAVFAYNDNMAAGALTALKDNGIAIPLHLSVIGFDDIPIARYTDPQ  284
+              A  ++L +N   TA+   +D  A   +   +  G  +P  LS+I F++   +  T P 
+Sbjct  229  YMAFDDILHQN-NATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPY  287
+
+Query  285  LTTVRYPIASMAKIA  299
+            LT++    + + ++A
+Sbjct  288  LTSIDIDTSELGRMA  302
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.133    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2502856039
+
+
+Query= g2797.t1
+
+Length=342
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional r...  89.7    3e-20
+VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional r...  89.7    4e-20
+VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional r...  83.2    8e-18
+VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional r...  82.4    1e-17
+
+
+>VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0004]
+Length=339
+
+ Score = 89.7 bits (221),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 84/334 (25%), Positives = 146/334 (44%), Gaps = 12/334 (4%)
+
+Query  3    TIKDVARLAGVSVATVSRVINDSPKASEASRLAVTSAMESLSYHPNANARALAQQATETL  62
+            T+KDVA+ AGV+ +TVSRVIND P  SE ++  V   M+ L Y PN  AR L ++ +  +
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISSAI  63
+
+Query  63   GLVV------GDVSDPFFGAMVKAVEQVAYHTGNFLLIGNGYHNEQKERQAIEQLIRHRC  116
+            G+++        + +PF+  +++A+ + A +      I    + E          ++ + 
+Sbjct  64   GVILPPLDSKERIGNPFYLEIMEAINEEARNYDMTTAIATAKNFELLLENVQRMHLQKQV  123
+
+Query  117  AALVVHAKMIPDADLASLMK-QIPGMVLINRILPGLEHRCVALDDRYGAWLATRHLIQQG  175
+               ++      D  +  L +  IP  ++        E   V  D++     AT  LIQ G
+Sbjct  124  DGFILVYSDSQDTVIDYLYQNHIPFTLIGQPYHHENEIVYVDNDNQLLGKQATEFLIQNG  183
+
+Query  176  HTRIGYICSNHTISDAEDRLRGYYDALAESHIPANDRLVTFGEPDESGGEQAMTELLGRG  235
+            H  I ++ +    S   +R  GY  A+  + +PA   +V     D    E+ + E     
+Sbjct  184  HKNILFVTNTTHESLYFERYFGYQKAMMMAGLPALSSVVLEHPEDYLSFEKTLKE-----  238
+
+Query  236  RNFTAVACYNDSMAAGAMGVLNDNGVGVPGEVSLIGFDDVLVSRYVRPRLTTIRYPIVTM  295
+               TA+   +D  A   M +    G  +P  +S+I F++ + S    P LT+I   I  +
+Sbjct  239  NEATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTSIDIDISEL  298
+
+Query  296  ATQAAELALALAGKCPTPEVTHVFSPTLVRRHSV  329
+               A +    L  +  +  V  V    L++R +V
+Sbjct  299  GRVAMQKLRELIHEELSSGVRLVIPHRLIKRETV  332
+
+
+>VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0085]
+Length=339
+
+ Score = 89.7 bits (221),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 89/342 (26%), Positives = 148/342 (43%), Gaps = 28/342 (8%)
+
+Query  3    TIKDVARLAGVSVATVSRVINDSPKASEASRLAVTSAMESLSYHPNANARALAQQATETL  62
+            T+KDVA+ AGV+ +TVSRVIND P  SE ++  V   M+ L Y PN  AR L ++ +  +
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISSAI  63
+
+Query  63   GLVV------GDVSDPFFGAMVKAVEQVAYH---------TGNFLLIGNGYHNEQKERQA  107
+            G+++        + +PF+  +++A+ + A +           NF L+         ++Q 
+Sbjct  64   GVILPPLDSKERIGNPFYLEIMEAINEEARNYDMTTAIATAKNFELLLENVQRMHLQKQ-  122
+
+Query  108  IEQLIRHRCAALVVHAKMIPDADLASLMKQIPGMVLINRILPGLEHRCVALDDRYGAWLA  167
+            ++  I      LV      P  D       IP  ++        E   V  D++     A
+Sbjct  123  VDGFI------LVYSDSQDPVIDYL-YQNHIPFTLIGQPYHHENEIVYVDNDNQLLGKQA  175
+
+Query  168  TRHLIQQGHTRIGYICSNHTISDAEDRLRGYYDALAESHIPANDRLVTFGEPDESGGEQA  227
+            T  LIQ GH  I ++ +    S   +R  GY  A+  + +PA   +V     D    E+ 
+Sbjct  176  TEFLIQNGHKNILFVTNTTHESLYFERYFGYQKAMMMAGLPALSSVVLEHPEDYLSFEKT  235
+
+Query  228  MTELLGRGRNFTAVACYNDSMAAGAMGVLNDNGVGVPGEVSLIGFDDVLVSRYVRPRLTT  287
+            + E        TA+   +D  A   M +    G  +P  +S+I F++ + S    P LT+
+Sbjct  236  LKE-----NEATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTS  290
+
+Query  288  IRYPIVTMATQAAELALALAGKCPTPEVTHVFSPTLVRRHSV  329
+            I   I  +   A +    L  +  +  V  V    L++R +V
+Sbjct  291  IDIDISELGRVAMQKLRELIHEELSSGVRLVIPHRLIKRETV  332
+
+
+>VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis V583]
+Length=336
+
+ Score = 83.2 bits (204),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 87/340 (26%), Positives = 151/340 (44%), Gaps = 24/340 (7%)
+
+Query  3    TIKDVARLAGVSVATVSRVINDSPKASEASRLAVTSAMESLSYHPNANARALAQQATETL  62
+            T+KDVA+ AGV+ +TVSRVIND P  SE+++  V   M+ L Y PN  AR L ++ +  +
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISSAI  63
+
+Query  63   GLVVGDVS------DPFFGAMVKAVEQVA--YHTGNFLLIGNGYHN--EQKERQAIEQLI  112
+            G+++  +       +PF+  +++A+ + A  Y     +     +    E  +R  +++ +
+Sbjct  64   GVILPPLDSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQKQV  123
+
+Query  113  RHRCAALVVHAKMIPDADLASLMKQIPGMVLINRILPGLEHRCVALDDRYGAWLATRHLI  172
+                  LV      P  D       IP  ++        E   V  D++     AT  LI
+Sbjct  124  --DGFILVYSDSKDPVIDYLD-ENNIPFTLIGQPYQHETEIVYVDNDNQLLGKQATEFLI  180
+
+Query  173  QQGHTRIGYICSNHTISDAEDRLRGYYDALAE---SHIPANDRLVTFGEPDESGGEQAMT  229
+            + GH  I ++ +    S   +R  GY  A+     + +P+    V   +P++     A  
+Sbjct  181  ENGHKNILFVTNTTHESLYFERYFGYQKAMMMQGLTVLPS----VALEKPEDY---MAFD  233
+
+Query  230  ELLGRGRNFTAVACYNDSMAAGAMGVLNDNGVGVPGEVSLIGFDDVLVSRYVRPRLTTIR  289
+            ++L +  N TA+   +D  A   M +    G  VP  +S+I F++ + S    P LT+I 
+Sbjct  234  DILHQN-NATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPYLTSID  292
+
+Query  290  YPIVTMATQAAELALALAGKCPTPEVTHVFSPTLVRRHSV  329
+                 +   A +    L  +  T  V  V    L++R +V
+Sbjct  293  IDTSELGRMAMKKLYELIHEELTNGVRLVIPHKLIKRETV  332
+
+
+>VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis D32]
+Length=336
+
+ Score = 82.4 bits (202),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 87/340 (26%), Positives = 151/340 (44%), Gaps = 24/340 (7%)
+
+Query  3    TIKDVARLAGVSVATVSRVINDSPKASEASRLAVTSAMESLSYHPNANARALAQQATETL  62
+            T+KDVA+ AGV+ +TVSRVIND P  SE+++  V   M+ L Y PN  AR L ++ +  +
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISSAI  63
+
+Query  63   GLVVGDVS------DPFFGAMVKAVEQVA--YHTGNFLLIGNGYHN--EQKERQAIEQLI  112
+            G+++  +       +PF+  +++A+ + A  Y     +     +    E  +R  +++ +
+Sbjct  64   GVILPPLDSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQKQV  123
+
+Query  113  RHRCAALVVHAKMIPDADLASLMKQIPGMVLINRILPGLEHRCVALDDRYGAWLATRHLI  172
+                  LV      P  D       IP  ++        E   V  D++     AT  LI
+Sbjct  124  --DGFILVYSDSKDPVIDYL-YENNIPFTLIGQPYQHETEIVYVDNDNQLLGKQATEFLI  180
+
+Query  173  QQGHTRIGYICSNHTISDAEDRLRGYYDALAE---SHIPANDRLVTFGEPDESGGEQAMT  229
+            + GH  I ++ +    S   +R  GY  A+     + +P+    V   +P++     A  
+Sbjct  181  ENGHKNILFVTNTTHESLYFERYFGYQKAMMMQGLTVLPS----VALEKPEDY---MAFD  233
+
+Query  230  ELLGRGRNFTAVACYNDSMAAGAMGVLNDNGVGVPGEVSLIGFDDVLVSRYVRPRLTTIR  289
+            ++L +  N TA+   +D  A   M +    G  VP  +S+I F++ + S    P LT+I 
+Sbjct  234  DILHQN-NATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPYLTSID  292
+
+Query  290  YPIVTMATQAAELALALAGKCPTPEVTHVFSPTLVRRHSV  329
+                 +   A +    L  +  T  V  V    L++R +V
+Sbjct  293  IDTSELGRMAMKKLYELIHEELTNGVRLVIPHKLIKRETV  332
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2523800441
+
+
+Query= g2798.t1
+
+Length=339
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional r...  106     3e-26
+VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional r...  105     8e-26
+VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional r...  105     1e-25
+VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional r...  102     7e-25
+
+
+>VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis V583]
+Length=336
+
+ Score = 106 bits (264),  Expect = 3e-26, Method: Compositional matrix adjust.
+ Identities = 83/321 (26%), Positives = 151/321 (47%), Gaps = 23/321 (7%)
+
+Query  3    TMLDVSRHAGVSKATVSRVLNGTGQVKESTRQKVFTAMQALGYRPNLLARSLANRTSNSI  62
+            T+ DV++ AGV+ +TVSRV+N    + EST++KV   M  LGY PN+ AR+L  R S++I
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISSAI  63
+
+Query  63   GLVVSTFDG-------FYFGSLLRRASRQAESHNKQLIVTDGHDTPEREQKAVQMLADRQ  115
+            G+++   D        FY   ++   + +A  ++    +          +   +M   +Q
+Sbjct  64   GVILPPLDSKERLGNPFYL-EIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQKQ  122
+
+Query  116  CDAIIL-YTRYMDELAILSLIDATEMPLVIINRNVTQARDRAIFFEQETAAF--QAVEYL  172
+             D  IL Y+   D   ++  +D   +P  +I +   Q     ++ + +      QA E+L
+Sbjct  123  VDGFILVYSDSKD--PVIDYLDENNIPFTLIGQPY-QHETEIVYVDNDNQLLGKQATEFL  179
+
+Query  173  ITQGHRDIACITLPVHTPTGTSRVAGYRKALEKYGIPWQP--AKVKYGDYTLTRGYDACR  230
+            I  GH++I  +T   H      R  GY+KA+   G+   P  A  K  DY       A  
+Sbjct  180  IENGHKNILFVTNTTHESLYFERYFGYQKAMMMQGLTVLPSVALEKPEDYM------AFD  233
+
+Query  231  ELLEEGVTFSALFACNDDTALGAAKALRQAGLRIPQDVSLFGFDDAPGATWLEPGLSTVY  290
+            ++L +    +AL   +D  AL   +  +  G ++P+ +S+  F+++  +T   P L+++ 
+Sbjct  234  DILHQN-NATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPYLTSID  292
+
+Query  291  LPIEAMIATAIDQAVRLANSE  311
+            +    +   A+ +   L + E
+Sbjct  293  IDTSELGRMAMKKLYELIHEE  313
+
+
+>VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0004]
+Length=339
+
+ Score = 105 bits (262),  Expect = 8e-26, Method: Compositional matrix adjust.
+ Identities = 80/319 (25%), Positives = 151/319 (47%), Gaps = 19/319 (6%)
+
+Query  3    TMLDVSRHAGVSKATVSRVLNGTGQVKESTRQKVFTAMQALGYRPNLLARSLANRTSNSI  62
+            T+ DV++ AGV+ +TVSRV+N    + E+T++KV   M  LGY PN+ AR+L  R S++I
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISSAI  63
+
+Query  63   GLVVSTFDG-------FYFGSLLRRASRQAESHNKQLIVTDGHDTPEREQKAVQMLADRQ  115
+            G+++   D        FY   ++   + +A +++    +    +     +   +M   +Q
+Sbjct  64   GVILPPLDSKERIGNPFYL-EIMEAINEEARNYDMTTAIATAKNFELLLENVQRMHLQKQ  122
+
+Query  116  CDAIIL-YTRYMDELAILSLIDATEMPLVIINRNVTQARDRAIFFEQETAAF--QAVEYL  172
+             D  IL Y+   D   ++  +    +P  +I +      +  ++ + +      QA E+L
+Sbjct  123  VDGFILVYSDSQD--TVIDYLYQNHIPFTLIGQPY-HHENEIVYVDNDNQLLGKQATEFL  179
+
+Query  173  ITQGHRDIACITLPVHTPTGTSRVAGYRKALEKYGIPWQPAKVKYGDYTLTRGYDACREL  232
+            I  GH++I  +T   H      R  GY+KA+   G+P   + V          Y +  + 
+Sbjct  180  IQNGHKNILFVTNTTHESLYFERYFGYQKAMMMAGLPALSSVV----LEHPEDYLSFEKT  235
+
+Query  233  LEEGVTFSALFACNDDTALGAAKALRQAGLRIPQDVSLFGFDDAPGATWLEPGLSTVYLP  292
+            L+E    +AL   +D  AL   +  +  G  IP+ +S+  F+++  +T   P L+++ + 
+Sbjct  236  LKENEA-TALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTSIDID  294
+
+Query  293  IEAMIATAIDQAVRLANSE  311
+            I  +   A+ +   L + E
+Sbjct  295  ISELGRVAMQKLRELIHEE  313
+
+
+>VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0085]
+Length=339
+
+ Score = 105 bits (261),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 80/319 (25%), Positives = 151/319 (47%), Gaps = 19/319 (6%)
+
+Query  3    TMLDVSRHAGVSKATVSRVLNGTGQVKESTRQKVFTAMQALGYRPNLLARSLANRTSNSI  62
+            T+ DV++ AGV+ +TVSRV+N    + E+T++KV   M  LGY PN+ AR+L  R S++I
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISSAI  63
+
+Query  63   GLVVSTFDG-------FYFGSLLRRASRQAESHNKQLIVTDGHDTPEREQKAVQMLADRQ  115
+            G+++   D        FY   ++   + +A +++    +    +     +   +M   +Q
+Sbjct  64   GVILPPLDSKERIGNPFYL-EIMEAINEEARNYDMTTAIATAKNFELLLENVQRMHLQKQ  122
+
+Query  116  CDAIIL-YTRYMDELAILSLIDATEMPLVIINRNVTQARDRAIFFEQETAAF--QAVEYL  172
+             D  IL Y+   D   ++  +    +P  +I +      +  ++ + +      QA E+L
+Sbjct  123  VDGFILVYSDSQD--PVIDYLYQNHIPFTLIGQPY-HHENEIVYVDNDNQLLGKQATEFL  179
+
+Query  173  ITQGHRDIACITLPVHTPTGTSRVAGYRKALEKYGIPWQPAKVKYGDYTLTRGYDACREL  232
+            I  GH++I  +T   H      R  GY+KA+   G+P   + V          Y +  + 
+Sbjct  180  IQNGHKNILFVTNTTHESLYFERYFGYQKAMMMAGLPALSSVV----LEHPEDYLSFEKT  235
+
+Query  233  LEEGVTFSALFACNDDTALGAAKALRQAGLRIPQDVSLFGFDDAPGATWLEPGLSTVYLP  292
+            L+E    +AL   +D  AL   +  +  G  IP+ +S+  F+++  +T   P L+++ + 
+Sbjct  236  LKENEA-TALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTSIDID  294
+
+Query  293  IEAMIATAIDQAVRLANSE  311
+            I  +   A+ +   L + E
+Sbjct  295  ISELGRVAMQKLRELIHEE  313
+
+
+>VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis D32]
+Length=336
+
+ Score = 102 bits (255),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 82/321 (26%), Positives = 150/321 (47%), Gaps = 23/321 (7%)
+
+Query  3    TMLDVSRHAGVSKATVSRVLNGTGQVKESTRQKVFTAMQALGYRPNLLARSLANRTSNSI  62
+            T+ DV++ AGV+ +TVSRV+N    + EST++KV   M  LGY PN+ AR+L  R S++I
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISSAI  63
+
+Query  63   GLVVSTFDG-------FYFGSLLRRASRQAESHNKQLIVTDGHDTPEREQKAVQMLADRQ  115
+            G+++   D        FY   ++   + +A  ++    +          +   +M   +Q
+Sbjct  64   GVILPPLDSKERLGNPFYL-EIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQKQ  122
+
+Query  116  CDAIIL-YTRYMDELAILSLIDATEMPLVIINRNVTQARDRAIFFEQETAAF--QAVEYL  172
+             D  IL Y+   D   ++  +    +P  +I +   Q     ++ + +      QA E+L
+Sbjct  123  VDGFILVYSDSKD--PVIDYLYENNIPFTLIGQPY-QHETEIVYVDNDNQLLGKQATEFL  179
+
+Query  173  ITQGHRDIACITLPVHTPTGTSRVAGYRKALEKYGIPWQP--AKVKYGDYTLTRGYDACR  230
+            I  GH++I  +T   H      R  GY+KA+   G+   P  A  K  DY       A  
+Sbjct  180  IENGHKNILFVTNTTHESLYFERYFGYQKAMMMQGLTVLPSVALEKPEDYM------AFD  233
+
+Query  231  ELLEEGVTFSALFACNDDTALGAAKALRQAGLRIPQDVSLFGFDDAPGATWLEPGLSTVY  290
+            ++L +    +AL   +D  AL   +  +  G ++P+ +S+  F+++  +T   P L+++ 
+Sbjct  234  DILHQN-NATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPYLTSID  292
+
+Query  291  LPIEAMIATAIDQAVRLANSE  311
+            +    +   A+ +   L + E
+Sbjct  293  IDTSELGRMAMKKLYELIHEE  313
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.134    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2492383838
+
+
+Query= g3395.t1
+
+Length=335
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional r...  76.6    1e-15
+VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional r...  76.3    1e-15
+VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional r...  73.6    1e-14
+VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional r...  70.1    2e-13
+
+
+>VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis D32]
+Length=336
+
+ Score = 76.6 bits (187),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 78/337 (23%), Positives = 146/337 (43%), Gaps = 26/337 (8%)
+
+Query  13   DVARHAGVSPGTVSNALHNTRFVEPQTRRRIEEAIAALNYTPNIRARQLRTGKTNTIALL  72
+            DVA+ AGV+  TVS  +++   +   T++++ + +  L Y PN+ AR L  GK  + A+ 
+Sbjct  7    DVAKKAGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNL--GKRISSAI-  63
+
+Query  73   SSVPLAIASGASRLGFMMEVALTSAMMALEKQHALILVPPGANPLDAV-----------S  121
+              V L       RLG    + +  A+    + + +      A   D +            
+Sbjct  64   -GVILPPLDSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQKQ  122
+
+Query  122  FDAAILIEPAENDPQLQALAQAGIPCVTIGRTPGTDTPVPWVELHSAATAQLL---LTHL  178
+             D  IL+     DP +  L +  IP   IG+    +T + +V+       QLL    T  
+Sbjct  123  VDGFILVYSDSKDPVIDYLYENNIPFTLIGQPYQHETEIVYVD----NDNQLLGKQATEF  178
+
+Query  179  ETSGASKCALFVGNTRRTSV-LESEAAYQRWCAGRQAPVVYSLNESEGENAGYQAAQQLL  237
+                  K  LFV NT   S+  E    YQ+    +   V+ S+   + E+  Y A   +L
+Sbjct  179  LIENGHKNILFVTNTTHESLYFERYFGYQKAMMMQGLTVLPSVALEKPED--YMAFDDIL  236
+
+Query  238  QAHPDVDGVLVLIDTFASGAVRAFQEQAVAIPERMRVVTRYDGIRARESLPPLTAVNMHL  297
+              + +   ++V+ D FA   ++  Q     +PE + +++  + I +  + P LT++++  
+Sbjct  237  HQN-NATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPYLTSIDIDT  295
+
+Query  298  DEVARQAITLLFAVLSGEKISYSDGIMPELVVRASTC  334
+             E+ R A+  L+ ++  E  +    ++P  +++  T 
+Sbjct  296  SELGRMAMKKLYELIHEELTNGVRLVIPHKLIKRETV  332
+
+
+>VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis V583]
+Length=336
+
+ Score = 76.3 bits (186),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 78/337 (23%), Positives = 146/337 (43%), Gaps = 26/337 (8%)
+
+Query  13   DVARHAGVSPGTVSNALHNTRFVEPQTRRRIEEAIAALNYTPNIRARQLRTGKTNTIALL  72
+            DVA+ AGV+  TVS  +++   +   T++++ + +  L Y PN+ AR L  GK  + A+ 
+Sbjct  7    DVAKKAGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNL--GKRISSAI-  63
+
+Query  73   SSVPLAIASGASRLGFMMEVALTSAMMALEKQHALILVPPGANPLDAV-----------S  121
+              V L       RLG    + +  A+    + + +      A   D +            
+Sbjct  64   -GVILPPLDSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQKQ  122
+
+Query  122  FDAAILIEPAENDPQLQALAQAGIPCVTIGRTPGTDTPVPWVELHSAATAQLL---LTHL  178
+             D  IL+     DP +  L +  IP   IG+    +T + +V+       QLL    T  
+Sbjct  123  VDGFILVYSDSKDPVIDYLDENNIPFTLIGQPYQHETEIVYVD----NDNQLLGKQATEF  178
+
+Query  179  ETSGASKCALFVGNTRRTSV-LESEAAYQRWCAGRQAPVVYSLNESEGENAGYQAAQQLL  237
+                  K  LFV NT   S+  E    YQ+    +   V+ S+   + E+  Y A   +L
+Sbjct  179  LIENGHKNILFVTNTTHESLYFERYFGYQKAMMMQGLTVLPSVALEKPED--YMAFDDIL  236
+
+Query  238  QAHPDVDGVLVLIDTFASGAVRAFQEQAVAIPERMRVVTRYDGIRARESLPPLTAVNMHL  297
+              + +   ++V+ D FA   ++  Q     +PE + +++  + I +  + P LT++++  
+Sbjct  237  HQN-NATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPYLTSIDIDT  295
+
+Query  298  DEVARQAITLLFAVLSGEKISYSDGIMPELVVRASTC  334
+             E+ R A+  L+ ++  E  +    ++P  +++  T 
+Sbjct  296  SELGRMAMKKLYELIHEELTNGVRLVIPHKLIKRETV  332
+
+
+>VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0085]
+Length=339
+
+ Score = 73.6 bits (179),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 85/339 (25%), Positives = 150/339 (44%), Gaps = 30/339 (9%)
+
+Query  13   DVARHAGVSPGTVSNALHNTRFVEPQTRRRIEEAIAALNYTPNIRARQLRTGKTNTIALL  72
+            DVA+ AGV+  TVS  +++   +   T++++ + +  L Y PN+ AR L  GK  + A+ 
+Sbjct  7    DVAKKAGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNL--GKRISSAI-  63
+
+Query  73   SSVPLAIASGASRLG--FMMEVA-----------LTSAMMALEKQHALILVPPGANPLDA  119
+              V L       R+G  F +E+            +T+A +A  K   L+L       L  
+Sbjct  64   -GVILPPLDSKERIGNPFYLEIMEAINEEARNYDMTTA-IATAKNFELLLENVQRMHLQK  121
+
+Query  120  VSFDAAILIEPAENDPQLQALAQAGIPCVTIGRTPGTDTPVPWVELHSAATAQLL---LT  176
+               D  IL+     DP +  L Q  IP   IG+    +  + +V+       QLL    T
+Sbjct  122  -QVDGFILVYSDSQDPVIDYLYQNHIPFTLIGQPYHHENEIVYVD----NDNQLLGKQAT  176
+
+Query  177  HLETSGASKCALFVGNTRRTSV-LESEAAYQRWCAGRQAPVVYSLNESEGENAGYQAAQQ  235
+                    K  LFV NT   S+  E    YQ+       P + S+     E+  Y + ++
+Sbjct  177  EFLIQNGHKNILFVTNTTHESLYFERYFGYQKAMMMAGLPALSSVVLEHPED--YLSFEK  234
+
+Query  236  LLQAHPDVDGVLVLIDTFASGAVRAFQEQAVAIPERMRVVTRYDGIRARESLPPLTAVNM  295
+             L+ + +   ++V+ D FA   ++  Q     IPE + V++  + I +  + P LT++++
+Sbjct  235  TLKEN-EATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTSIDI  293
+
+Query  296  HLDEVARQAITLLFAVLSGEKISYSDGIMPELVVRASTC  334
+             + E+ R A+  L  ++  E  S    ++P  +++  T 
+Sbjct  294  DISELGRVAMQKLRELIHEELSSGVRLVIPHRLIKRETV  332
+
+
+>VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0004]
+Length=339
+
+ Score = 70.1 bits (170),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 84/339 (25%), Positives = 149/339 (44%), Gaps = 30/339 (9%)
+
+Query  13   DVARHAGVSPGTVSNALHNTRFVEPQTRRRIEEAIAALNYTPNIRARQLRTGKTNTIALL  72
+            DVA+ AGV+  TVS  +++   +   T++++ + +  L Y PN+ AR L  GK  + A+ 
+Sbjct  7    DVAKKAGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNL--GKRISSAI-  63
+
+Query  73   SSVPLAIASGASRLG--FMMEVA-----------LTSAMMALEKQHALILVPPGANPLDA  119
+              V L       R+G  F +E+            +T+A +A  K   L+L       L  
+Sbjct  64   -GVILPPLDSKERIGNPFYLEIMEAINEEARNYDMTTA-IATAKNFELLLENVQRMHLQK  121
+
+Query  120  VSFDAAILIEPAENDPQLQALAQAGIPCVTIGRTPGTDTPVPWVELHSAATAQLL---LT  176
+               D  IL+     D  +  L Q  IP   IG+    +  + +V+       QLL    T
+Sbjct  122  -QVDGFILVYSDSQDTVIDYLYQNHIPFTLIGQPYHHENEIVYVD----NDNQLLGKQAT  176
+
+Query  177  HLETSGASKCALFVGNTRRTSV-LESEAAYQRWCAGRQAPVVYSLNESEGENAGYQAAQQ  235
+                    K  LFV NT   S+  E    YQ+       P + S+     E+  Y + ++
+Sbjct  177  EFLIQNGHKNILFVTNTTHESLYFERYFGYQKAMMMAGLPALSSVVLEHPED--YLSFEK  234
+
+Query  236  LLQAHPDVDGVLVLIDTFASGAVRAFQEQAVAIPERMRVVTRYDGIRARESLPPLTAVNM  295
+             L+ + +   ++V+ D FA   ++  Q     IPE + V++  + I +  + P LT++++
+Sbjct  235  TLKEN-EATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTSIDI  293
+
+Query  296  HLDEVARQAITLLFAVLSGEKISYSDGIMPELVVRASTC  334
+             + E+ R A+  L  ++  E  S    ++P  +++  T 
+Sbjct  294  DISELGRVAMQKLRELIHEELSSGVRLVIPHRLIKRETV  332
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.130    0.369    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2450495034
+
+
+Query= g3642.t1
+
+Length=332
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional r...  109     3e-27
+VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional r...  107     8e-27
+VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional r...  105     1e-25
+VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional r...  101     2e-24
+
+
+>VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis V583]
+Length=336
+
+ Score = 109 bits (272),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 84/336 (25%), Positives = 156/336 (46%), Gaps = 13/336 (4%)
+
+Query  3    TMKDVARLAGVSTSTVSHVINKDRFVSETITEKVEAAIKSLNYAPSALARSLKLNQTRTI  62
+            T+KDVA+ AGV+TSTVS VIN    +SE+  +KV   +  L Y P+  AR+L    +  I
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISSAI  63
+
+Query  63   GMLITAST------NPFYSELVRGVERSCFERGYSLVLCNTEGDEQRMNRNLETLMQKRV  116
+            G+++          NPFY E++  +         +  +   +  +  +       +QK+V
+Sbjct  64   GVILPPLDSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQKQV  123
+
+Query  117  DGLLLLCTETHQPSREIMERYPSIPTVMMDWSPFDGEGDSDLIQDNSLLGGDLATQYLID  176
+            DG +L+ +++  P  + ++   +IP  ++   P+  E +   + +++ L G  AT++LI+
+Sbjct  124  DGFILVYSDSKDPVIDYLDE-NNIPFTLI-GQPYQHETEIVYVDNDNQLLGKQATEFLIE  181
+
+Query  177  KGFTRIACITGPLDKTPARLRLEGYRAAMKRAGLAIPQGYEITGDFEFGGGFDAMQALLA  236
+             G   I  +T    ++    R  GY+ AM   GL +     +    ++    D +     
+Sbjct  182  NGHKNILFVTNTTHESLYFERYFGYQKAMMMQGLTVLPSVALEKPEDYMAFDDIL-----  236
+
+Query  237  HQQRPQAVFTGNDAMAVGAYQALYQAGLRIPQDMAVIGYDDIELARYMTPPLTTIHQPKD  296
+            HQ    A+   +D  A+   Q     G ++P+ +++I +++   +    P LT+I     
+Sbjct  237  HQNNATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPYLTSIDIDTS  296
+
+Query  297  ELGELAIDVLIHRMAQPALQQQRLQLTPVLTVRGSV  332
+            ELG +A+  L   + +      RL +   L  R +V
+Sbjct  297  ELGRMAMKKLYELIHEELTNGVRLVIPHKLIKRETV  332
+
+
+>VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis D32]
+Length=336
+
+ Score = 107 bits (268),  Expect = 8e-27, Method: Compositional matrix adjust.
+ Identities = 84/336 (25%), Positives = 155/336 (46%), Gaps = 13/336 (4%)
+
+Query  3    TMKDVARLAGVSTSTVSHVINKDRFVSETITEKVEAAIKSLNYAPSALARSLKLNQTRTI  62
+            T+KDVA+ AGV+TSTVS VIN    +SE+  +KV   +  L Y P+  AR+L    +  I
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISSAI  63
+
+Query  63   GMLITAST------NPFYSELVRGVERSCFERGYSLVLCNTEGDEQRMNRNLETLMQKRV  116
+            G+++          NPFY E++  +         +  +   +  +  +       +QK+V
+Sbjct  64   GVILPPLDSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQKQV  123
+
+Query  117  DGLLLLCTETHQPSREIMERYPSIPTVMMDWSPFDGEGDSDLIQDNSLLGGDLATQYLID  176
+            DG +L+ +++  P  + +    +IP  ++   P+  E +   + +++ L G  AT++LI+
+Sbjct  124  DGFILVYSDSKDPVIDYLYE-NNIPFTLI-GQPYQHETEIVYVDNDNQLLGKQATEFLIE  181
+
+Query  177  KGFTRIACITGPLDKTPARLRLEGYRAAMKRAGLAIPQGYEITGDFEFGGGFDAMQALLA  236
+             G   I  +T    ++    R  GY+ AM   GL +     +    ++    D +     
+Sbjct  182  NGHKNILFVTNTTHESLYFERYFGYQKAMMMQGLTVLPSVALEKPEDYMAFDDIL-----  236
+
+Query  237  HQQRPQAVFTGNDAMAVGAYQALYQAGLRIPQDMAVIGYDDIELARYMTPPLTTIHQPKD  296
+            HQ    A+   +D  A+   Q     G ++P+ +++I +++   +    P LT+I     
+Sbjct  237  HQNNATALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPYLTSIDIDTS  296
+
+Query  297  ELGELAIDVLIHRMAQPALQQQRLQLTPVLTVRGSV  332
+            ELG +A+  L   + +      RL +   L  R +V
+Sbjct  297  ELGRMAMKKLYELIHEELTNGVRLVIPHKLIKRETV  332
+
+
+>VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0085]
+Length=339
+
+ Score = 105 bits (261),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 87/312 (28%), Positives = 151/312 (48%), Gaps = 17/312 (5%)
+
+Query  3    TMKDVARLAGVSTSTVSHVINKDRFVSETITEKVEAAIKSLNYAPSALARSLKLNQTRTI  62
+            T+KDVA+ AGV+TSTVS VIN    +SET  +KV   +  L Y P+  AR+L    +  I
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISSAI  63
+
+Query  63   GMLITAST------NPFYSELVRGVERSCFERGYSLVLC-NTEGDEQRMNRNLETL-MQK  114
+            G+++          NPFY E++  +      R Y +     T  + + +  N++ + +QK
+Sbjct  64   GVILPPLDSKERIGNPFYLEIMEAINEEA--RNYDMTTAIATAKNFELLLENVQRMHLQK  121
+
+Query  115  RVDGLLLLCTETHQPSREIMERYPSIPTVMMDWSPFDGEGDSDLIQDNSLLGGDLATQYL  174
+            +VDG +L+ +++  P  + + +   IP  ++   P+  E +   + +++ L G  AT++L
+Sbjct  122  QVDGFILVYSDSQDPVIDYLYQ-NHIPFTLI-GQPYHHENEIVYVDNDNQLLGKQATEFL  179
+
+Query  175  IDKGFTRIACITGPLDKTPARLRLEGYRAAMKRAGLAIPQGYEITGDFEFGGGFDAMQAL  234
+            I  G   I  +T    ++    R  GY+ AM  AGL  P    +    E    + + +  
+Sbjct  180  IQNGHKNILFVTNTTHESLYFERYFGYQKAMMMAGL--PALSSVV--LEHPEDYLSFEKT  235
+
+Query  235  LAHQQRPQAVFTGNDAMAVGAYQALYQAGLRIPQDMAVIGYDDIELARYMTPPLTTIHQP  294
+            L  +    A+   +D  A+   Q     G  IP+ ++VI +++   +    P LT+I   
+Sbjct  236  LK-ENEATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTSIDID  294
+
+Query  295  KDELGELAIDVL  306
+              ELG +A+  L
+Sbjct  295  ISELGRVAMQKL  306
+
+
+>VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0004]
+Length=339
+
+ Score = 101 bits (251),  Expect = 2e-24, Method: Compositional matrix adjust.
+ Identities = 86/312 (28%), Positives = 150/312 (48%), Gaps = 17/312 (5%)
+
+Query  3    TMKDVARLAGVSTSTVSHVINKDRFVSETITEKVEAAIKSLNYAPSALARSLKLNQTRTI  62
+            T+KDVA+ AGV+TSTVS VIN    +SET  +KV   +  L Y P+  AR+L    +  I
+Sbjct  4    TVKDVAKKAGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISSAI  63
+
+Query  63   GMLITAST------NPFYSELVRGVERSCFERGYSLVLC-NTEGDEQRMNRNLETL-MQK  114
+            G+++          NPFY E++  +      R Y +     T  + + +  N++ + +QK
+Sbjct  64   GVILPPLDSKERIGNPFYLEIMEAINEEA--RNYDMTTAIATAKNFELLLENVQRMHLQK  121
+
+Query  115  RVDGLLLLCTETHQPSREIMERYPSIPTVMMDWSPFDGEGDSDLIQDNSLLGGDLATQYL  174
+            +VDG +L+ +++     + + +   IP  ++   P+  E +   + +++ L G  AT++L
+Sbjct  122  QVDGFILVYSDSQDTVIDYLYQ-NHIPFTLI-GQPYHHENEIVYVDNDNQLLGKQATEFL  179
+
+Query  175  IDKGFTRIACITGPLDKTPARLRLEGYRAAMKRAGLAIPQGYEITGDFEFGGGFDAMQAL  234
+            I  G   I  +T    ++    R  GY+ AM  AGL  P    +    E    + + +  
+Sbjct  180  IQNGHKNILFVTNTTHESLYFERYFGYQKAMMMAGL--PALSSVV--LEHPEDYLSFEKT  235
+
+Query  235  LAHQQRPQAVFTGNDAMAVGAYQALYQAGLRIPQDMAVIGYDDIELARYMTPPLTTIHQP  294
+            L  +    A+   +D  A+   Q     G  IP+ ++VI +++   +    P LT+I   
+Sbjct  236  LK-ENEATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTSIDID  294
+
+Query  295  KDELGELAIDVL  306
+              ELG +A+  L
+Sbjct  295  ISELGRVAMQKL  306
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2419078431
+
+
+Query= g3823.t1
+
+Length=341
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional r...  118     1e-30
+VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional r...  117     4e-30
+VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional r...  112     3e-28
+VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional r...  111     4e-28
+
+
+>VFG002197(gb|WP_002387027) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis V583]
+Length=336
+
+ Score = 118 bits (296),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 96/345 (28%), Positives = 160/345 (46%), Gaps = 31/345 (9%)
+
+Query  9    AATMKDVALKAKVSTATVSRALMNPDKVSQSTRSRVEQAALEVGYFPQSMGRNVKRNESR  68
+            A T+KDVA KA V+T+TVSR + +   +S+ST+ +V +   ++GY P    RN+ +  S 
+Sbjct  2    AITVKDVAKKAGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISS  61
+
+Query  69   TILVIVP------DICDPFFSEIIRGIEVTAAEQGYLVLIGDCAHQNQKEKTFLNLIITK  122
+             I VI+P       + +PF+ EI+  I   A        I      +   +    + + K
+Sbjct  62   AIGVILPPLDSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQK  121
+
+Query  123  QIDGMVLL--SSRLPFDASVEEQRNLPPMVMSNEFAPELELPTVHIDNLTAAFNAMNYLL  180
+            Q+DG +L+   S+ P    ++E  N+P  ++   +  E E+  V  DN      A  +L+
+Sbjct  122  QVDGFILVYSDSKDPVIDYLDEN-NIPFTLIGQPYQHETEIVYVDNDNQLLGKQATEFLI  180
+
+Query  181  DLGHKRIGCIAGPEDMPLCHYRLQGYVQALRRSGIVVDPH--------YIARGDFTFEAG  232
+            + GHK I  +       L   R  GY +A+   G+ V P         Y+A  D   +  
+Sbjct  181  ENGHKNILFVTNTTHESLYFERYFGYQKAMMMQGLTVLPSVALEKPEDYMAFDDILHQNN  240
+
+Query  233  ANALKQLLEQPLPPTAVFCHSDVMALGALSWAKRQGLKVPDDLSIIGFDNIALAEFCDPP  292
+            A             TA+    D+ AL  +  A+  G +VP+ LSII F+N   +    P 
+Sbjct  241  A-------------TALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPY  287
+
+Query  293  LTTVAQPRFDIGREAMLLLLDQMQGQNVSSGSRLMDCELIIRGST  337
+            LT++     ++GR AM  L + +  + +++G RL+    +I+  T
+Sbjct  288  LTSIDIDTSELGRMAMKKLYELIH-EELTNGVRLVIPHKLIKRET  331
+
+
+>VFG045668(gb|WP_002358859) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecalis D32]
+Length=336
+
+ Score = 117 bits (293),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 96/345 (28%), Positives = 159/345 (46%), Gaps = 31/345 (9%)
+
+Query  9    AATMKDVALKAKVSTATVSRALMNPDKVSQSTRSRVEQAALEVGYFPQSMGRNVKRNESR  68
+            A T+KDVA KA V+T+TVSR + +   +S+ST+ +V +   ++GY P    RN+ +  S 
+Sbjct  2    AITVKDVAKKAGVATSTVSRVINDHPSISESTKKKVRKVMDDLGYVPNMTARNLGKRISS  61
+
+Query  69   TILVIVP------DICDPFFSEIIRGIEVTAAEQGYLVLIGDCAHQNQKEKTFLNLIITK  122
+             I VI+P       + +PF+ EI+  I   A        I      +   +    + + K
+Sbjct  62   AIGVILPPLDSKERLGNPFYLEIMEAINEEARLYDMTTAIATAKSFDVLLENVKRMHLQK  121
+
+Query  123  QIDGMVLL--SSRLPFDASVEEQRNLPPMVMSNEFAPELELPTVHIDNLTAAFNAMNYLL  180
+            Q+DG +L+   S+ P    + E  N+P  ++   +  E E+  V  DN      A  +L+
+Sbjct  122  QVDGFILVYSDSKDPVIDYLYEN-NIPFTLIGQPYQHETEIVYVDNDNQLLGKQATEFLI  180
+
+Query  181  DLGHKRIGCIAGPEDMPLCHYRLQGYVQALRRSGIVVDPH--------YIARGDFTFEAG  232
+            + GHK I  +       L   R  GY +A+   G+ V P         Y+A  D   +  
+Sbjct  181  ENGHKNILFVTNTTHESLYFERYFGYQKAMMMQGLTVLPSVALEKPEDYMAFDDILHQNN  240
+
+Query  233  ANALKQLLEQPLPPTAVFCHSDVMALGALSWAKRQGLKVPDDLSIIGFDNIALAEFCDPP  292
+            A             TA+    D+ AL  +  A+  G +VP+ LSII F+N   +    P 
+Sbjct  241  A-------------TALVVIDDIFALRTMQLAQIYGYQVPETLSIISFNNSIFSTLTHPY  287
+
+Query  293  LTTVAQPRFDIGREAMLLLLDQMQGQNVSSGSRLMDCELIIRGST  337
+            LT++     ++GR AM  L + +  + +++G RL+    +I+  T
+Sbjct  288  LTSIDIDTSELGRMAMKKLYELIH-EELTNGVRLVIPHKLIKRET  331
+
+
+>VFG045670(gb|WP_002286379) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0004]
+Length=339
+
+ Score = 112 bits (279),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 98/342 (29%), Positives = 159/342 (46%), Gaps = 25/342 (7%)
+
+Query  9    AATMKDVALKAKVSTATVSRALMNPDKVSQSTRSRVEQAALEVGYFPQSMGRNVKRNESR  68
+            A T+KDVA KA V+T+TVSR + +   +S++T+ +V +   E+GY P    RN+ +  S 
+Sbjct  2    AITVKDVAKKAGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISS  61
+
+Query  69   TILVIVP------DICDPFFSEIIRGIEVTAAEQGYLVLIGDCAHQNQKEKTFLNLIITK  122
+             I VI+P       I +PF+ EI+  I   A        I    +     +    + + K
+Sbjct  62   AIGVILPPLDSKERIGNPFYLEIMEAINEEARNYDMTTAIATAKNFELLLENVQRMHLQK  121
+
+Query  123  QIDGMVLLSSRLPFDASVE--EQRNLPPMVMSNEFAPELELPTVHIDNLTAAFNAMNYLL  180
+            Q+DG +L+ S    D  ++   Q ++P  ++   +  E E+  V  DN      A  +L+
+Sbjct  122  QVDGFILVYSDSQ-DTVIDYLYQNHIPFTLIGQPYHHENEIVYVDNDNQLLGKQATEFLI  180
+
+Query  181  DLGHKRIGCIAGPEDMPLCHYRLQGYVQALRRSGI-----VVDPHYIARGDFTFEAGANA  235
+              GHK I  +       L   R  GY +A+  +G+     VV  H       +FE     
+Sbjct  181  QNGHKNILFVTNTTHESLYFERYFGYQKAMMMAGLPALSSVVLEH--PEDYLSFE-----  233
+
+Query  236  LKQLLEQPLPPTAVFCHSDVMALGALSWAKRQGLKVPDDLSIIGFDNIALAEFCDPPLTT  295
+             K L E     TA+    D+ AL  +  A+  G  +P+ LS+I F+N   +    P LT+
+Sbjct  234  -KTLKEN--EATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTS  290
+
+Query  296  VAQPRFDIGREAMLLLLDQMQGQNVSSGSRLMDCELIIRGST  337
+            +     ++GR AM  L + +  + +SSG RL+    +I+  T
+Sbjct  291  IDIDISELGRVAMQKLRELIH-EELSSGVRLVIPHRLIKRET  331
+
+
+>VFG045671(gb|WP_002294628) (bopD) sugar-binding transcriptional 
+regulator, LacI family [BopD (VF0362) - Biofilm (VFC0271)] 
+[Enterococcus faecium Aus0085]
+Length=339
+
+ Score = 111 bits (278),  Expect = 4e-28, Method: Compositional matrix adjust.
+ Identities = 98/342 (29%), Positives = 159/342 (46%), Gaps = 25/342 (7%)
+
+Query  9    AATMKDVALKAKVSTATVSRALMNPDKVSQSTRSRVEQAALEVGYFPQSMGRNVKRNESR  68
+            A T+KDVA KA V+T+TVSR + +   +S++T+ +V +   E+GY P    RN+ +  S 
+Sbjct  2    AITVKDVAKKAGVATSTVSRVINDHPSISETTKKKVRKIMDELGYVPNMTARNLGKRISS  61
+
+Query  69   TILVIVP------DICDPFFSEIIRGIEVTAAEQGYLVLIGDCAHQNQKEKTFLNLIITK  122
+             I VI+P       I +PF+ EI+  I   A        I    +     +    + + K
+Sbjct  62   AIGVILPPLDSKERIGNPFYLEIMEAINEEARNYDMTTAIATAKNFELLLENVQRMHLQK  121
+
+Query  123  QIDGMVLLSSRLPFDASVE--EQRNLPPMVMSNEFAPELELPTVHIDNLTAAFNAMNYLL  180
+            Q+DG +L+ S    D  ++   Q ++P  ++   +  E E+  V  DN      A  +L+
+Sbjct  122  QVDGFILVYSDSQ-DPVIDYLYQNHIPFTLIGQPYHHENEIVYVDNDNQLLGKQATEFLI  180
+
+Query  181  DLGHKRIGCIAGPEDMPLCHYRLQGYVQALRRSGI-----VVDPHYIARGDFTFEAGANA  235
+              GHK I  +       L   R  GY +A+  +G+     VV  H       +FE     
+Sbjct  181  QNGHKNILFVTNTTHESLYFERYFGYQKAMMMAGLPALSSVVLEH--PEDYLSFE-----  233
+
+Query  236  LKQLLEQPLPPTAVFCHSDVMALGALSWAKRQGLKVPDDLSIIGFDNIALAEFCDPPLTT  295
+             K L E     TA+    D+ AL  +  A+  G  +P+ LS+I F+N   +    P LT+
+Sbjct  234  -KTLKEN--EATALVVIDDIFALRTMQLAQMYGYVIPETLSVISFNNSIFSTLTHPYLTS  290
+
+Query  296  VAQPRFDIGREAMLLLLDQMQGQNVSSGSRLMDCELIIRGST  337
+            +     ++GR AM  L + +  + +SSG RL+    +I+  T
+Sbjct  291  IDIDISELGRVAMQKLRELIH-EELSSGVRLVIPHRLIKRET  331
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2513328240
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,475 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1538.t1
+
+Length=143
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG030411(gb|WP_015575278) (fadD13) long-chain-fatty-acid--CoA li...  59.3    5e-11
+VFG030388(gb|NP_217605) (fadD13) long chain-fatty-acid--CoA ligas...  59.3    5e-11
+VFG030419(gb|WP_015345152) (fadD13) long-chain-fatty-acid--CoA li...  59.3    5e-11
+VFG030398(gb|WP_014001578) (fadD13) long-chain-fatty-acid--CoA li...  58.5    8e-11
+VFG030406(gb|WP_015291176) (fadD13) long-chain-fatty-acid--CoA li...  58.2    1e-10
+VFG030404(gb|WP_015288454) (fadD13) long-chain-fatty-acid--CoA li...  58.2    1e-10
+VFG030405(gb|WP_015303741) (fadD13) long-chain-fatty-acid--CoA li...  58.2    1e-10
+VFG030407(gb|WP_015294168) (fadD13) long-chain-fatty-acid--CoA li...  57.8    1e-10
+VFG030408(gb|WP_015355418) (fadD13) long-chain fatty acid--CoA li...  52.4    1e-08
+VFG030399(gb|WP_012394321) (fadD13) long-chain fatty acid--CoA li...  52.4    1e-08
+VFG030402(gb|WP_013470644) (fadD13) long-chain-fatty-acid--CoA li...  52.0    1e-08
+VFG030387(gb|WP_015304695) (tgs4) long-chain-fatty-acid--CoA liga...  51.6    2e-08
+VFG044423(gb|AAW66009) (vabE) 2,3-dihydroxybenzoate-AMP ligase [A...  50.8    4e-08
+VFG030400(gb|WP_081465621) (fadD13) long-chain fatty acid--CoA li...  49.7    9e-08
+VFG044429(gb|CAJ45636) (vabE) 2,3-dihydroxybenzoate-AMP ligase [V...  49.3    1e-07
+VFG009489(gb|WP_011724535) (mbtE) Peptide synthetase MbtE (peptid...  48.1    4e-07
+VFG044420(gb|AAR12562) (AAR12562) putative DHBA-AMP ligase [Angui...  45.8    2e-06
+VFG015908(gb|WP_164920478) (syrE) non-ribosomal peptide synthetas...  45.4    3e-06
+VFG024006(gb|WP_014379795) (mbtE) Peptide synthetase MbtE (peptid...  45.4    3e-06
+VFG024002(gb|WP_008255566) (mbtE) Peptide synthetase MbtE (peptid...  45.1    5e-06
+VFG024004(gb|WP_014382296) (mbtE) Peptide synthetase MbtE (peptid...  45.1    5e-06
+VFG029684(gb|WP_010949130) (mps1) non-ribosomal peptide synthetas...  44.7    5e-06
+VFG044315(gb|WP_012492605) (QU43_RS45000) non-ribosomal peptide s...  44.7    6e-06
+
+
+>VFG030411(gb|WP_015575278) (fadD13) long-chain-fatty-acid--CoA 
+ligase FadD13 [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis str. Beijing/NITR203]
+Length=503
+
+ Score = 59.3 bits (142),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 36/117 (31%), Positives = 59/117 (50%), Gaps = 3/117 (3%)
+
+Query  14   FQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMANRIEF  73
+             ++ A + P   A   P  +  MT+    A   R A  L  LG+ +GD V+L+M N +EF
+Sbjct  8    LRQRATVSPRLQAYVEPSTDVRMTYAQMNALANRCADVLTALGIAKGDRVALLMPNSVEF  67
+
+Query  74   YPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVIC---EQQYVDRVRASGVP  127
+              L  GA  +GA +  +   L A +++++  ++G+KVVI        +D +RA   P
+Sbjct  68   CCLFYGAAKLGAVAVPINTRLAAPEVSFILSDSGSKVVIYGAPSAPVIDAIRAQADP  124
+
+
+>VFG030388(gb|NP_217605) (fadD13) long chain-fatty-acid--CoA ligase 
+FadD13 [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=503
+
+ Score = 59.3 bits (142),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 36/117 (31%), Positives = 59/117 (50%), Gaps = 3/117 (3%)
+
+Query  14   FQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMANRIEF  73
+             ++ A + P   A   P  +  MT+    A   R A  L  LG+ +GD V+L+M N +EF
+Sbjct  8    LRQRATVSPRLQAYVEPSTDVRMTYAQMNALANRCADVLTALGIAKGDRVALLMPNSVEF  67
+
+Query  74   YPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVIC---EQQYVDRVRASGVP  127
+              L  GA  +GA +  +   L A +++++  ++G+KVVI        +D +RA   P
+Sbjct  68   CCLFYGAAKLGAVAVPINTRLAAPEVSFILSDSGSKVVIYGAPSAPVIDAIRAQADP  124
+
+
+>VFG030419(gb|WP_015345152) (fadD13) long-chain-fatty-acid--CoA 
+ligase FadD13 [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis 7199-99]
+Length=503
+
+ Score = 59.3 bits (142),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 36/117 (31%), Positives = 59/117 (50%), Gaps = 3/117 (3%)
+
+Query  14   FQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMANRIEF  73
+             ++ A + P   A   P  +  MT+    A   R A  L  LG+ +GD V+L+M N +EF
+Sbjct  8    LRQRATVSPRLQAYVEPSTDVRMTYAQMNALANRCADVLTALGIAKGDRVALLMPNSVEF  67
+
+Query  74   YPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVIC---EQQYVDRVRASGVP  127
+              L  GA  +GA +  +   L A +++++  ++G+KVVI        +D +RA   P
+Sbjct  68   CCLFYGAAKLGAVAVPINTRLAAPEVSFILSDSGSKVVIYGAPSAPVIDAIRAQADP  124
+
+
+>VFG030398(gb|WP_014001578) (fadD13) long-chain-fatty-acid--CoA 
+ligase FadD13 [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140010059]
+Length=503
+
+ Score = 58.5 bits (140),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 33/99 (33%), Positives = 53/99 (54%), Gaps = 0/99 (0%)
+
+Query  14   FQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMANRIEF  73
+             ++ A + P   A   P  +  MT+    A   R A  L  LG+ +GD V+L+M N +EF
+Sbjct  8    LRQRATVSPRLQAYVEPSTDVRMTYAQMNALANRCADVLTALGIAKGDRVALLMPNSVEF  67
+
+Query  74   YPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVI  112
+              L  GA  +GA +  V   L A +++++  ++G+KVVI
+Sbjct  68   CCLFYGAAKLGAVAVPVNTRLAAPEVSFILSDSGSKVVI  106
+
+
+>VFG030406(gb|WP_015291176) (fadD13) long-chain-fatty-acid--CoA 
+ligase FadD13 [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070010]
+Length=503
+
+ Score = 58.2 bits (139),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 35/117 (30%), Positives = 58/117 (50%), Gaps = 3/117 (3%)
+
+Query  14   FQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMANRIEF  73
+             ++ A + P   A   P  +  MT+    A   R A  L  LG+ +GD V+L+M N +EF
+Sbjct  8    LRQRATVSPRLQAYVEPSTDVRMTYAQMNALANRCADVLTALGIAKGDRVALLMPNSVEF  67
+
+Query  74   YPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVI---CEQQYVDRVRASGVP  127
+              L  GA  +GA +  +   L A +++++  ++G+KVVI        +D +R    P
+Sbjct  68   CCLFYGAAKIGAVAVPINTRLAAPEVSFILADSGSKVVIYGAASAPVIDAIRTQADP  124
+
+
+>VFG030404(gb|WP_015288454) (fadD13) long-chain-fatty-acid--CoA 
+ligase FadD13 [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140060008]
+Length=503
+
+ Score = 58.2 bits (139),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 32/99 (32%), Positives = 53/99 (54%), Gaps = 0/99 (0%)
+
+Query  14   FQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMANRIEF  73
+             ++ A + P   A   P  +  MT+    A   R A  L  LG+ +GD V+L+M N +EF
+Sbjct  8    LRQRATVSPRLQAYVEPSTDVRMTYAQMNALANRCADVLTALGIAKGDRVALLMPNSVEF  67
+
+Query  74   YPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVI  112
+              L  GA  +GA +  +   L A +++++  ++G+KVVI
+Sbjct  68   CCLFYGAAKIGAVAVPINTRLAAPEVSFILADSGSKVVI  106
+
+
+>VFG030405(gb|WP_015303741) (fadD13) long-chain-fatty-acid--CoA 
+ligase FadD13 [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070008]
+Length=503
+
+ Score = 58.2 bits (139),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 32/99 (32%), Positives = 53/99 (54%), Gaps = 0/99 (0%)
+
+Query  14   FQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMANRIEF  73
+             ++ A + P   A   P  +  MT+    A   R A  L  LG+ +GD V+L+M N +EF
+Sbjct  8    LRQRATVSPRLQAYVEPSTDVRMTYAQMNALANRCADVLTALGIAKGDRVALLMPNSVEF  67
+
+Query  74   YPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVI  112
+              L  GA  +GA +  +   L A +++++  ++G+KVVI
+Sbjct  68   CCLFYGAAKLGAVAVPINTRLAAPEVSFILSDSGSKVVI  106
+
+
+>VFG030407(gb|WP_015294168) (fadD13) long-chain-fatty-acid--CoA 
+ligase FadD13 [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium canettii CIPT 140070017]
+Length=503
+
+ Score = 57.8 bits (138),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 35/117 (30%), Positives = 58/117 (50%), Gaps = 3/117 (3%)
+
+Query  14   FQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMANRIEF  73
+             ++ A + P   A   P  +  MT+    A   R A  L  LG+ +GD V+L+M N +EF
+Sbjct  8    LRQRATVSPRLQAYVEPSTDVRMTYAQMNALANRCADVLTALGIAKGDRVALLMPNSVEF  67
+
+Query  74   YPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVI---CEQQYVDRVRASGVP  127
+              L  GA  +GA +  +   L A +++++  ++G+KVVI        +D +R    P
+Sbjct  68   CCLFYGAAKIGAVAVPINTRLAAPEVSFILADSGSKVVIYGAASAPVIDAIRTQADP  124
+
+
+>VFG030408(gb|WP_015355418) (fadD13) long-chain fatty acid--CoA 
+ligase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium liflandii 128FXT]
+Length=502
+
+ Score = 52.4 bits (124),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 31/103 (30%), Positives = 51/103 (50%), Gaps = 0/103 (0%)
+
+Query  14   FQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMANRIEF  73
+             ++ A + P   A   P  N  M + +      R A+ L  LGV +GD V+L+M N + F
+Sbjct  8    LKQRAHISPRLQAYVEPSTNVRMDYTELNMLTNRCASVLRALGVGKGDRVALLMPNSVAF  67
+
+Query  74   YPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVICEQQ  116
+              L  GA  +GA +  +   L A +L ++  ++G+ V+I  Q 
+Sbjct  68   CCLFYGAAKLGAVAVPLNTRLAAPELGFILADSGSTVLIYHQS  110
+
+
+>VFG030399(gb|WP_012394321) (fadD13) long-chain fatty acid--CoA 
+ligase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium marinum M]
+Length=502
+
+ Score = 52.4 bits (124),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 31/103 (30%), Positives = 51/103 (50%), Gaps = 0/103 (0%)
+
+Query  14   FQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMANRIEF  73
+             ++ A + P   A   P  N  M + +      R A+ L  LGV +GD V+L+M N + F
+Sbjct  8    LKQRAHISPRLQAYVEPSTNVRMDYTELNMLTNRCASVLRALGVGKGDRVALLMPNSVAF  67
+
+Query  74   YPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVICEQQ  116
+              L  GA  +GA +  +   L A +L ++  ++G+ V+I  Q 
+Sbjct  68   CCLFYGAAKLGAVAVPLNTRLAAPELGFILADSGSTVLIYHQS  110
+
+
+>VFG030402(gb|WP_013470644) (fadD13) long-chain-fatty-acid--CoA 
+ligase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium gilvum Spyr1]
+Length=509
+
+ Score = 52.0 bits (123),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 31/100 (31%), Positives = 54/100 (54%), Gaps = 2/100 (2%)
+
+Query  22   PDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMANRIEFYPLDVGAQ  81
+            PDA AL    G++T+++R+   +  R A   +  GV  GD V+ +  N IEF+ +  G+ 
+Sbjct  17   PDAPALIV--GDRTVSYRELDERSNRTAQAFSRTGVGPGDRVAFVERNGIEFFDVAFGSA  74
+
+Query  82   HVGATSFSVYNTLPAEQLTYVFDNAGTKVVICEQQYVDRV  121
+             +GA +  V   L A ++ +V  + G  VV+  Q++ D +
+Sbjct  75   KLGAVAVPVNWRLTAPEMRHVIADCGASVVVVGQEFTDHL  114
+
+
+>VFG030387(gb|WP_015304695) (tgs4) long-chain-fatty-acid--CoA 
+ligase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium smegmatis JS623]
+Length=515
+
+ Score = 51.6 bits (122),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 35/115 (30%), Positives = 59/115 (51%), Gaps = 2/115 (2%)
+
+Query  9    TMCEAFQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMA  68
+            T+ +  +  A   PDAVAL    G+ T+T+ +  A+  + A   +  GV  GD V+ +  
+Sbjct  8    TIADIVRVHAAERPDAVALVV--GDSTITFAELDARSSQAAQAFSAAGVGYGDRVAFIEK  65
+
+Query  69   NRIEFYPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVICEQQYVDRVRA  123
+            N  EF+ +  G   +GA +  V   L A ++ ++ ++A  KVV+   Q+ D V A
+Sbjct  66   NGAEFFEVVCGLAKLGAVAVPVNWRLAAPEMLHIVEDAQAKVVVAGSQFFDHVEA  120
+
+
+>VFG044423(gb|AAW66009) (vabE) 2,3-dihydroxybenzoate-AMP ligase 
+[Anguibactin (VF1245) - Nutritional/Metabolic factor (VFC0272)] 
+[Vibrio anguillarum 775]
+Length=541
+
+ Score = 50.8 bits (120),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 26/66 (39%), Positives = 40/66 (61%), Gaps = 2/66 (3%)
+
+Query  9   TMCEAFQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMA  68
+           T+ + F  +    PDA+AL    G    ++++   ++  +AAGL+ LG++RGD V L MA
+Sbjct  30  TLFDYFSDSVKKSPDAIALIDDFGQ--YSYQNLYQKMISLAAGLSSLGLQRGDNVVLQMA  87
+
+Query  69  NRIEFY  74
+           NR EFY
+Sbjct  88  NRAEFY  93
+
+
+>VFG030400(gb|WP_081465621) (fadD13) long-chain fatty acid--CoA 
+ligase [MymA operon (VF0840) - Immune modulation (VFC0258)] 
+[Mycobacterium sp. JDM601]
+Length=507
+
+ Score = 49.7 bits (117),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 29/96 (30%), Positives = 49/96 (51%), Gaps = 3/96 (3%)
+
+Query  32   GNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMANRIEFYPLDVGAQHVGATSFSVY  91
+            G  T T+ D+A ++ R+AA L   G+RRGD V  +  N  +F      A  +GA    + 
+Sbjct  23   GENTWTYGDFADRIDRLAAELVAGGMRRGDRVGYVGLNHPDFLVTLFAAARIGAAFVPLN  82
+
+Query  92   NTLPAEQLTYVFDNAGTKVVICEQQ---YVDRVRAS  124
+              L A++L Y+  +AG   ++ + +    +D +RA 
+Sbjct  83   WRLTADELRYILGDAGVHTLLADAERATVIDPIRAE  118
+
+
+>VFG044429(gb|CAJ45636) (vabE) 2,3-dihydroxybenzoate-AMP ligase 
+[Vanchrobactin (VF1246) - Nutritional/Metabolic factor (VFC0272)] 
+[Listonella anguillarum RV22]
+Length=541
+
+ Score = 49.3 bits (116),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 25/66 (38%), Positives = 39/66 (59%), Gaps = 2/66 (3%)
+
+Query  9   TMCEAFQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMA  68
+           T+ + F  +    PDA+AL    G    ++++   ++  +AAGL+ LG++RGD V L M 
+Sbjct  30  TLFDYFSDSVKKSPDAIALIDEFGQ--YSYQNLYQKMISLAAGLSSLGLQRGDNVVLQMP  87
+
+Query  69  NRIEFY  74
+           NR EFY
+Sbjct  88  NRAEFY  93
+
+
+>VFG009489(gb|WP_011724535) (mbtE) Peptide synthetase MbtE (peptide 
+synthase) [Mycobactin (VF0299) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium avium 104]
+Length=2190
+
+ Score = 48.1 bits (113),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 33/106 (31%), Positives = 50/106 (47%), Gaps = 2/106 (2%)
+
+Query  9    TMCEAFQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMA  68
+            T+ E   R A   PDAVA+   G  +T T+RD   +  RVA  L   GV   D V++++ 
+Sbjct  492  TLSELVSRRAARTPDAVAVVYEG--RTYTYRDIEEESNRVAHWLIERGVGTEDRVAVLLD  549
+
+Query  69   NRIEFYPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVICE  114
+               E     +G    G     V  T P ++L ++  +A  K+V+ E
+Sbjct  550  KSPELVITALGVLKAGGVYLPVDPTYPQDRLNFILGDADAKLVLRE  595
+
+
+>VFG044420(gb|AAR12562) (AAR12562) putative DHBA-AMP ligase [Anguibactin 
+(VF1245) - Nutritional/Metabolic factor (VFC0272)] 
+[Vibrio anguillarum 775]
+Length=546
+
+ Score = 45.8 bits (107),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 32/107 (30%), Positives = 54/107 (50%), Gaps = 8/107 (7%)
+
+Query  9    TMCEAFQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMA  68
+            T+ +    TA+  PDA A+    G+ T +++D+  ++ +++AG   LG++ GD V L + 
+Sbjct  38   TLFDHLHETAMSSPDAPAICC--GDITYSYQDFLDRIYKLSAGFMQLGLKPGDNVVLQIN  95
+
+Query  69   NRIEFYPLDVGAQHVGATSFSVYNTLPAE---QLTYVFDNAGTKVVI  112
+            N  EFY         G T       LPA    +L+Y  ++AG +  I
+Sbjct  96   NTAEFYFSFFALTMKGITPVL---ALPAHRYLELSYFCNHAGARAYI  139
+
+
+>VFG015908(gb|WP_164920478) (syrE) non-ribosomal peptide synthetase 
+[Phytotoxin syringomycin (VF0919) - Exotoxin (VFC0235)] 
+[Pseudomonas syringae pv. syringae B728a]
+Length=9457
+
+ Score = 45.4 bits (106),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 32/129 (25%), Positives = 60/129 (47%), Gaps = 4/129 (3%)
+
+Query  2     TTTERPTTMC--EAFQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRR  59
+             T  + PT +C    F+      PDA+A+   G  Q +++ D   Q  R+A  L  LG+  
+Sbjct  3726  TRQDYPTDLCIQHLFEAQVRTQPDAIAVAVQG--QRLSYADLNRQANRLAHHLISLGIVP  3783
+
+Query  60    GDTVSLMMANRIEFYPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVICEQQYVD  119
+              D V++ +   +E     +G    GA    +    PAE+L Y+  ++    ++ ++   +
+Sbjct  3784  DDRVAICVERGVEMMIGLLGVLKAGAAYVPLDPAYPAERLAYMITDSQPAALLTQRGLQE  3843
+
+Query  120   RVRASGVPI  128
+             R+ A  +P+
+Sbjct  3844  RLPALSMPL  3852
+
+
+>VFG024006(gb|WP_014379795) (mbtE) Peptide synthetase MbtE (peptide 
+synthase) [Mycobactin (VF0299) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium intracellulare ATCC 13950]
+Length=2191
+
+ Score = 45.4 bits (106),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 30/107 (28%), Positives = 51/107 (48%), Gaps = 2/107 (2%)
+
+Query  8    TTMCEAFQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMM  67
+            +T+ E   R A   PDAVA+   G  +  T+R+   +  RVA  L   G+   D V++++
+Sbjct  494  STLSELVSRRAARTPDAVAVVYEG--RAYTYREIDEESNRVAHWLIEQGIGTEDRVAVLL  551
+
+Query  68   ANRIEFYPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVICE  114
+                E     +G    G     V  T P ++L+++  +A  K+V+ E
+Sbjct  552  DKSPELVITALGVLKAGGVYLPVDPTYPEDRLSFILGDADAKLVLHE  598
+
+
+>VFG024002(gb|WP_008255566) (mbtE) Peptide synthetase MbtE (peptide 
+synthase) [Mycobactin (VF0299) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium indicus pranii MTCC 9506]
+Length=2191
+
+ Score = 45.1 bits (105),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 30/107 (28%), Positives = 51/107 (48%), Gaps = 2/107 (2%)
+
+Query  8    TTMCEAFQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMM  67
+            +T+ E   R A   PDAVA+   G  +  T+R+   +  RVA  L   G+   D V++++
+Sbjct  494  STLSELVSRRAARTPDAVAVVYEG--RAYTYREIDEESNRVAHWLIEQGIGTEDRVAVLL  551
+
+Query  68   ANRIEFYPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVICE  114
+                E     +G    G     V  T P ++L+++  +A  K+V+ E
+Sbjct  552  DKSPELVITALGVLKAGGVYLPVDPTYPEDRLSFILGDADAKLVLRE  598
+
+
+>VFG024004(gb|WP_014382296) (mbtE) Peptide synthetase MbtE (peptide 
+synthase) [Mycobactin (VF0299) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium intracellulare MOTT-02]
+Length=2191
+
+ Score = 45.1 bits (105),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 30/107 (28%), Positives = 51/107 (48%), Gaps = 2/107 (2%)
+
+Query  8    TTMCEAFQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMM  67
+            +T+ E   R A   PDAVA+   G  +  T+R+   +  RVA  L   G+   D V++++
+Sbjct  494  STLSELVSRRAARTPDAVAVVYEG--RAYTYREIDEESNRVAHWLIEQGIGTEDRVAVLL  551
+
+Query  68   ANRIEFYPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVICE  114
+                E     +G    G     V  T P ++L+++  +A  K+V+ E
+Sbjct  552  DKSPELVITALGVLKAGGVYLPVDPTYPEDRLSFILGDADAKLVLRE  598
+
+
+>VFG029684(gb|WP_010949130) (mps1) non-ribosomal peptide synthetase 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+avium subsp. paratuberculosis K-10]
+Length=4027
+
+ Score = 44.7 bits (104),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 36/126 (29%), Positives = 56/126 (44%), Gaps = 5/126 (4%)
+
+Query  6     RPTT---MCEAFQRTAVMDPDAVALRTPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDT  62
+             RP T   + E F       P AVALR  G  ++MT+R+      R+A  LAG G   G  
+Sbjct  1946  RPATGPSLPELFAAQVANAPHAVALRYAG--RSMTYRELDEASTRLAHLLAGHGATPGCF  2003
+
+Query  63    VSLMMANRIEFYPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVICEQQYVDRVR  122
+             V+L+ +   E     +     GA    +   LPA ++ ++  +A   V +       R+ 
+Sbjct  2004  VALLFSRSAEAIVAMLAVLKTGAAYLPIDPALPATRIEFMLGDAAPVVAVSTADLRARLE  2063
+
+Query  123   ASGVPI  128
+             A G+P+
+Sbjct  2064  AFGLPV  2069
+
+
+>VFG044315(gb|WP_012492605) (QU43_RS45000) non-ribosomal peptide 
+synthetase [Ornibactin (VF0701) - Nutritional/Metabolic factor 
+(VFC0272)] [Burkholderia cenocepacia J2315]
+Length=3222
+
+ Score = 44.7 bits (104),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 36/114 (32%), Positives = 51/114 (45%), Gaps = 3/114 (3%)
+
+Query  14    FQRTAVMDPDAVALR---TPGGNQTMTWRDYAAQVRRVAAGLAGLGVRRGDTVSLMMANR  70
+             F   A   PDA+AL    T G  Q  T+R+  A   R+AA L   GVR    V+L +   
+Sbjct  2617  FVDAARATPDAIALEYADTHGRVQRATYRELDAATSRIAAALRRRGVRPDTPVALCVERS  2676
+
+Query  71    IEFYPLDVGAQHVGATSFSVYNTLPAEQLTYVFDNAGTKVVICEQQYVDRVRAS  124
+              +     VG    GA    V    PAE++ Y+  +A   V I +    ++V A+
+Sbjct  2677  FDMVMALVGVLKAGAAYLPVDPDYPAERIAYLLRDARPAVAITQAHLREQVEAA  2730
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.133    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 571340159
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

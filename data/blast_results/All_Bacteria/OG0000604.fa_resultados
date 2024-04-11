@@ -1,0 +1,271 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g637.t1
+
+Length=130
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000478(gb|NP_459678) (fur) ferric iron uptake transcriptional ...  87.8    5e-23
+
+
+>VFG000478(gb|NP_459678) (fur) ferric iron uptake transcriptional 
+regulator [Fur (VF0113) - Regulation (VFC0301)] [Salmonella 
+enterica subsp. enterica serovar Typhimurium str. LT2]
+Length=150
+
+ Score = 87.8 bits (216),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 47/132 (36%), Positives = 70/132 (53%), Gaps = 3/132 (2%)
+
+Query  1    MTGASVRSTRQRAAISTLLETVDDFR-SAQEFHNELRRRGNNISLTTVYRTLQSMAEAGM  59
+            +  A ++ T  R  I  +L+  D+   SA++ +  L   G  I L TVYR L    +AG+
+Sbjct  8    LKKAGLKVTLPRLKILEVLQEPDNHHVSAEDLYKRLIDMGEEIGLATVYRVLNQFDDAGI  67
+
+Query  60   VDTLRTNTGESVYRRCSRQHHHHLVCRGCGSTIEVGDHEVEAWAAEVAAKHGFSDVSHTI  119
+            V       G+SV+    + HH HL+C  CG  IE  D  +EA   E+AAKHG    +H++
+Sbjct  68   VTRHNFEGGKSVFELTQQHHHDHLICLDCGKVIEFSDDSIEARQREIAAKHGIRLTNHSL  127
+
+Query  120  EIFGTCSE--CR  129
+             ++G C+E  CR
+Sbjct  128  YLYGHCAEGDCR  139
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.128    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 455110614
+
+
+Query= g2328.t1
+
+Length=130
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000478(gb|NP_459678) (fur) ferric iron uptake transcriptional ...  96.3    2e-26
+
+
+>VFG000478(gb|NP_459678) (fur) ferric iron uptake transcriptional 
+regulator [Fur (VF0113) - Regulation (VFC0301)] [Salmonella 
+enterica subsp. enterica serovar Typhimurium str. LT2]
+Length=150
+
+ Score = 96.3 bits (238),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 50/132 (38%), Positives = 75/132 (57%), Gaps = 3/132 (2%)
+
+Query  1    MSAAGVRSTRQRAAISTLLETLDDFR-SAQELHDELRRRGENIGLTTVYRTLQSMASSGL  59
+            +  AG++ T  R  I  +L+  D+   SA++L+  L   GE IGL TVYR L     +G+
+Sbjct  8    LKKAGLKVTLPRLKILEVLQEPDNHHVSAEDLYKRLIDMGEEIGLATVYRVLNQFDDAGI  67
+
+Query  60   VDTLHTDTGESVYRRCSEHHHHHLVCRSCGSTIEVGDHEVEAWAAEVATKHGFSDVSHTI  119
+            V   + + G+SV+    +HHH HL+C  CG  IE  D  +EA   E+A KHG    +H++
+Sbjct  68   VTRHNFEGGKSVFELTQQHHHDHLICLDCGKVIEFSDDSIEARQREIAAKHGIRLTNHSL  127
+
+Query  120  EIFGTCS--DCR  129
+             ++G C+  DCR
+Sbjct  128  YLYGHCAEGDCR  139
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.129    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 455110614
+
+
+Query= g2423.t1
+
+Length=107
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044085(gb|NP_251074) (PA2384) hypothetical protein [Pyoverdine...  213     2e-73
+VFG000478(gb|NP_459678) (fur) ferric iron uptake transcriptional ...  46.2    2e-07
+
+
+>VFG044085(gb|NP_251074) (PA2384) hypothetical protein [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+aeruginosa PAO1]
+Length=107
+
+ Score = 213 bits (542),  Expect = 2e-73, Method: Compositional matrix adjust.
+ Identities = 107/107 (100%), Positives = 107/107 (100%), Gaps = 0/107 (0%)
+
+Query  1    MTHSPVKQMLKEAGLKMSLARLKVIDALWEASGEQGRVPIRTLHRRLSETGTPLSLVSIR  60
+            MTHSPVKQMLKEAGLKMSLARLKVIDALWEASGEQGRVPIRTLHRRLSETGTPLSLVSIR
+Sbjct  1    MTHSPVKQMLKEAGLKMSLARLKVIDALWEASGEQGRVPIRTLHRRLSETGTPLSLVSIR  60
+
+Query  61   QVLGRLVESGLVTLDEQDVYSPGKASWGGAAGSAAPERRAAANEQRL  107
+            QVLGRLVESGLVTLDEQDVYSPGKASWGGAAGSAAPERRAAANEQRL
+Sbjct  61   QVLGRLVESGLVTLDEQDVYSPGKASWGGAAGSAAPERRAAANEQRL  107
+
+
+>VFG000478(gb|NP_459678) (fur) ferric iron uptake transcriptional 
+regulator [Fur (VF0113) - Regulation (VFC0301)] [Salmonella 
+enterica subsp. enterica serovar Typhimurium str. LT2]
+Length=150
+
+ Score = 46.2 bits (108),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 23/64 (36%), Positives = 40/64 (63%), Gaps = 2/64 (3%)
+
+Query  10  LKEAGLKMSLARLKVIDALWEASGEQGRVPIRTLHRRLSETGTPLSLVSIRQVLGRLVES  69
+           LK+AGLK++L RLK+++ L E       V    L++RL + G  + L ++ +VL +  ++
+Sbjct  8   LKKAGLKVTLPRLKILEVLQEPDNHH--VSAEDLYKRLIDMGEEIGLATVYRVLNQFDDA  65
+
+Query  70  GLVT  73
+           G+VT
+Sbjct  66  GIVT  69
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.129    0.363    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 334313070
+
+
+Query= g4855.t1
+
+Length=134
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000478(gb|NP_459678) (fur) ferric iron uptake transcriptional ...  163     8e-53
+
+
+>VFG000478(gb|NP_459678) (fur) ferric iron uptake transcriptional 
+regulator [Fur (VF0113) - Regulation (VFC0301)] [Salmonella 
+enterica subsp. enterica serovar Typhimurium str. LT2]
+Length=150
+
+ Score = 163 bits (413),  Expect = 8e-53, Method: Compositional matrix adjust.
+ Identities = 74/126 (59%), Positives = 98/126 (78%), Gaps = 0/126 (0%)
+
+Query  4    NSELRKAGLKVTLPRVKILQMLDSAEQRHMSAEDVYKALMEAGEDVGLATVYRVLTQFEA  63
+            N+ L+KAGLKVTLPR+KIL++L   +  H+SAED+YK L++ GE++GLATVYRVL QF+ 
+Sbjct  5    NTALKKAGLKVTLPRLKILEVLQEPDNHHVSAEDLYKRLIDMGEEIGLATVYRVLNQFDD  64
+
+Query  64   AGLVVRHNFDGGHAVFELADSGHHDHMVCVDTGEVIEFMDAEIEKRQKEIVRERGFELVD  123
+            AG+V RHNF+GG +VFEL    HHDH++C+D G+VIEF D  IE RQ+EI  + G  L +
+Sbjct  65   AGIVTRHNFEGGKSVFELTQQHHHDHLICLDCGKVIEFSDDSIEARQREIAAKHGIRLTN  124
+
+Query  124  HNLVLY  129
+            H+L LY
+Sbjct  125  HSLYLY  130
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 486359325
+
+
+Query= g644.t1
+
+Length=150
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000478(gb|NP_459678) (fur) ferric iron uptake transcriptional ...  309     4e-110
+VFG044085(gb|NP_251074) (PA2384) hypothetical protein [Pyoverdine...  46.2    3e-07 
+
+
+>VFG000478(gb|NP_459678) (fur) ferric iron uptake transcriptional 
+regulator [Fur (VF0113) - Regulation (VFC0301)] [Salmonella 
+enterica subsp. enterica serovar Typhimurium str. LT2]
+Length=150
+
+ Score = 309 bits (791),  Expect = 4e-110, Method: Compositional matrix adjust.
+ Identities = 150/150 (100%), Positives = 150/150 (100%), Gaps = 0/150 (0%)
+
+Query  1    MTDNNTALKKAGLKVTLPRLKILEVLQEPDNHHVSAEDLYKRLIDMGEEIGLATVYRVLN  60
+            MTDNNTALKKAGLKVTLPRLKILEVLQEPDNHHVSAEDLYKRLIDMGEEIGLATVYRVLN
+Sbjct  1    MTDNNTALKKAGLKVTLPRLKILEVLQEPDNHHVSAEDLYKRLIDMGEEIGLATVYRVLN  60
+
+Query  61   QFDDAGIVTRHNFEGGKSVFELTQQHHHDHLICLDCGKVIEFSDDSIEARQREIAAKHGI  120
+            QFDDAGIVTRHNFEGGKSVFELTQQHHHDHLICLDCGKVIEFSDDSIEARQREIAAKHGI
+Sbjct  61   QFDDAGIVTRHNFEGGKSVFELTQQHHHDHLICLDCGKVIEFSDDSIEARQREIAAKHGI  120
+
+Query  121  RLTNHSLYLYGHCAEGDCREDEHAHDDATK  150
+            RLTNHSLYLYGHCAEGDCREDEHAHDDATK
+Sbjct  121  RLTNHSLYLYGHCAEGDCREDEHAHDDATK  150
+
+
+>VFG044085(gb|NP_251074) (PA2384) hypothetical protein [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+aeruginosa PAO1]
+Length=107
+
+ Score = 46.2 bits (108),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 23/64 (36%), Positives = 40/64 (63%), Gaps = 2/64 (3%)
+
+Query  8   LKKAGLKVTLPRLKILEVLQEPDNHH--VSAEDLYKRLIDMGEEIGLATVYRVLNQFDDA  65
+           LK+AGLK++L RLK+++ L E       V    L++RL + G  + L ++ +VL +  ++
+Sbjct  10  LKEAGLKMSLARLKVIDALWEASGEQGRVPIRTLHRRLSETGTPLSLVSIRQVLGRLVES  69
+
+Query  66  GIVT  69
+           G+VT
+Sbjct  70  GLVT  73
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 634369239
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

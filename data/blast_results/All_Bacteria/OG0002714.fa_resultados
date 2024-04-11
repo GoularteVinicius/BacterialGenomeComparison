@@ -1,0 +1,204 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2205.t1
+
+Length=513
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG050270(gb|NP_220318) (glgA) glycogen synthase [TTSS secreted e...  143     3e-37
+VFG048894(gb|WP_004180517) (KPN2242_RS16295) glycosyltransferase ...  53.5    1e-07
+VFG038003(gb|YP_001083156) (A1S_0059) glycosyltransferase [Capsul...  52.8    2e-07
+
+
+>VFG050270(gb|NP_220318) (glgA) glycogen synthase [TTSS secreted 
+effectors (VF0711) - Effector delivery system (VFC0086)] 
+[Chlamydia trachomatis D/UW-3/CX]
+Length=474
+
+ Score = 143 bits (360),  Expect = 3e-37, Method: Compositional matrix adjust.
+ Identities = 120/434 (28%), Positives = 194/434 (45%), Gaps = 35/434 (8%)
+
+Query  34   RILFVTAELSDFVKVGGLGDFSAALPRVLKREHSVRVLLPGYRQV--LERCRDLRIIGSL  91
+            +I+    E +  +K GGLGD    L + L   H+  V++P Y ++  L + +DL  I  L
+Sbjct  2    KIIHTAIEFAPVIKAGGLGDALYGLAKALAANHTTEVVIPLYPKLFTLPKEQDLCSIQKL  61
+
+Query  92   PGRAAIPPCEIGLVTLDDGLEVMLVLC---PLLYEREGTPYMDDQGNDWPDNHLRFARLC  148
+                A            +G++V L      P L+E   T Y  D      D     A   
+Sbjct  62   SYFFAGEQEATAFSYFYEGIKVTLFKLDTQPELFENAETIYTSD------DAFRFCAFSA  115
+
+Query  149  LAAAEIAGGRGAQGWQPGLVHANDWPSALTPAYMAWN--GVRTPSLFTIHNLAYQGLCDL  206
+             AA+ I      Q     +VH +DW + L    +           + T+HN  Y+G    
+Sbjct  116  AAASYI------QKEGANIVHLHDWHTGLVAGLLKQQPCSQLQKIVLTLHNFGYRGYTTR  169
+
+Query  207  QCSAELGLPDEALSHESMEFHGRLS--FLKAGIAHAHHITTVSETYAQEITTPEYGCGLH  264
+            +      L +  +S   + F    +   LK  +  +  +TTVS TYA+EI        +H
+Sbjct  170  EILEASSLNEFYISQYQL-FRDPQTCVLLKGALYCSDFVTTVSPTYAKEILEDYSDYEIH  228
+
+Query  265  GILKYKVEKRQLSGIVNGIDDS-WQPHCDPHLVACFSARQWA-------GKRANTRYVEE  316
+              +  +  +  L GI+NGID + W P  DP+L   ++   +         K  N + + E
+Sbjct  229  DAITAR--QHHLRGILNGIDTTIWGPETDPNLAKNYTKELFETPSIFFEAKAENKKALYE  286
+
+Query  317  RFGLEPGKGPLFAVVSRLVQQKGIDLTLEISDALLQAGGRLVSIGRGEPNL---EKAMLE  373
+            R GL     P   ++SR+ +QKG     +     L+    L+ IG    N    E A L+
+Sbjct  287  RLGLSLEHSPCVCIISRIAEQKGPHFMKQAILHALENAYTLIIIGTCYGNQLHEEFANLQ  346
+
+Query  374  LARRHPGQVGVHIGFDETEARRIYAGSDFLLMPSRYEPCGLSQLYAQCFGSLPIARCTGG  433
+             +  +   V + + + +  AR+I+A +D + +PS +EPCGL+Q+    +G++P+ R TGG
+Sbjct  347  ESLANSPDVRILLTYSDVLARQIFAAADMICIPSMFEPCGLTQMIGMRYGTVPLVRATGG  406
+
+Query  434  LADTIVDGVTGFLF  447
+            LADT+ +G+ GF F
+Sbjct  407  LADTVANGINGFSF  420
+
+
+>VFG048894(gb|WP_004180517) (KPN2242_RS16295) glycosyltransferase 
+[Capsule (VF0560) - Immune modulation (VFC0258)] [Klebsiella 
+pneumoniae KCTC 2242]
+Length=358
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 48/171 (28%), Positives = 74/171 (43%), Gaps = 14/171 (8%)
+
+Query  331  VSRLVQQKGIDLTLEISDALLQAGGRLVSIGRGEPNLEKAMLELARRHPGQVGVHIGFDE  390
+            V R  +QKG D  L +      +      IG    ++ + + +    + G V      D 
+Sbjct  197  VGRFDKQKGYDYLLNVIKVADVSKYTFNIIGDSVHDVFEKIEKENVVYYGWV------DN  250
+
+Query  391  TEARRIYAGSDFLLMPSRYEPCGLSQLYAQCFGSLPIARCTGGLADTIVDGVTGFLFREE  450
+             E    +  +D LLMPSR+E  GL  + AQ +G   IA     L + I DG+TG L   E
+Sbjct  251  KELPAYFCENDVLLMPSRWESFGLVAVEAQLYGVPVIANNVASLPEVISDGLTGMLVNFE  310
+
+Query  451  TAQSYLDAVMRAINVYHCPSLLNAMR--CKAMAAPMF-WSDSVEPYNRLYR  498
+             A   ++ +M +    H     N  +  C+  A+  F  SD V  Y ++Y+
+Sbjct  311  DANKVVE-IMDS----HTIHFWNEKKEACREFASNKFRKSDMVNSYVQIYK  356
+
+
+>VFG038003(gb|YP_001083156) (A1S_0059) glycosyltransferase [Capsule 
+(VF0465) - Immune modulation (VFC0258)] [Acinetobacter 
+baumannii ATCC 17978]
+Length=318
+
+ Score = 52.8 bits (125),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 45/178 (25%), Positives = 72/178 (40%), Gaps = 14/178 (8%)
+
+Query  323  GKGPLFAVVSRLVQQKGIDLTLEISDALLQA--GGRLVSIGRGEPNLEKAMLELARRHPG  380
+              G     + RL  QK     L+    + Q+    +L   G GE   ++ ML+   +   
+Sbjct  142  NNGKQIVTIGRLTDQKNYIHLLQAWKKIYQSIPDWQLNIYGEGE---QEEMLQDYIKQQS  198
+
+Query  381  QVGVHIGFDETEARRIYAGSDFLLMPSRYEPCGLSQLYAQCFGSLPIA--RCTGGLADTI  438
+               V +    +  + +Y  S F +M S+YE   +  + AQ FG LPI    C  G +D I
+Sbjct  199  LKNVSLKGSTSNVKEVYEQSSFFVMSSKYEGLPMVLIEAQSFG-LPIVSYNCPYGPSDVI  257
+
+Query  439  VDGVTGFLFREETAQSYLDAVMRA------INVYHCPSLLNAMRCKAMAAPMFWSDSV  490
+             D   GFL  ++       AV++       +  +   SLLNA + +       W + V
+Sbjct  258  RDSKNGFLVEDQNVDELAAAVLKVALSPQLLEQFSQSSLLNAKKYQPEQILKIWIEKV  315
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4248796295
+
+
+Query= g3298.t1
+
+Length=477
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG050270(gb|NP_220318) (glgA) glycogen synthase [TTSS secreted e...  202     2e-59
+
+
+>VFG050270(gb|NP_220318) (glgA) glycogen synthase [TTSS secreted 
+effectors (VF0711) - Effector delivery system (VFC0086)] 
+[Chlamydia trachomatis D/UW-3/CX]
+Length=474
+
+ Score = 202 bits (514),  Expect = 2e-59, Method: Compositional matrix adjust.
+ Identities = 156/498 (31%), Positives = 243/498 (49%), Gaps = 51/498 (10%)
+
+Query  1    MQVLHVCSEMFPLLKTGGLADVIGALPAAQIADGVDVRVLLPGFPDIRRGIPDAHVVSRR  60
+            M+++H   E  P++K GGL D +  L  A  A+     V++P +P +     +  + S +
+Sbjct  1    MKIIHTAIEFAPVIKAGGLGDALYGLAKALAANHT-TEVVIPLYPKLFTLPKEQDLCSIQ  59
+
+Query  61   DT---FAG-KISLLFGH-YNGVGIYLID---APHLYERPGSPYHDTNLYAYTDNVLRFAL  112
+                 FAG + +  F + Y G+ + L      P L+E   + Y   +  A+       A 
+Sbjct  60   KLSYFFAGEQEATAFSYFYEGIKVTLFKLDTQPELFENAETIYTSDD--AFRFCAFSAAA  117
+
+Query  113  LGWVGCEMACGLDPFWRPDVVHAHDWHAGLAPAYLAAR--GRPAKSVFTVHNLAYQGMFY  170
+              ++  E A         ++VH HDWH GL    L  +   +  K V T+HN  Y+G   
+Sbjct  118  ASYIQKEGA---------NIVHLHDWHTGLVAGLLKQQPCSQLQKIVLTLHNFGYRGYTT  168
+
+Query  171  AKHMDDIELPWSFFNMHGLEFNGQLS-FLKAGLYYADHITAVSPTYAREITEPQFAYGME  229
+             + ++   L   + + + L  + Q    LK  LY +D +T VSPTYA+EI E    Y + 
+Sbjct  169  REILEASSLNEFYISQYQLFRDPQTCVLLKGALYCSDFVTTVSPTYAKEILEDYSDYEIH  228
+
+Query  230  GLL--RQRHLEGRLSGILNGVDEKIWNPESDLLLASRYTRDTLEE-------KAENKRQL  280
+              +  RQ HL G    ILNG+D  IW PE+D  LA  YT++  E        KAENK+ L
+Sbjct  229  DAITARQHHLRG----ILNGIDTTIWGPETDPNLAKNYTKELFETPSIFFEAKAENKKAL  284
+
+Query  281  QIAMGLKVNDKVPLFAVVSRLTNQKGLDLVLEALPGLLEQGGQLALLGA--GDPVLQE-G  337
+               +GL + +  P   ++SR+  QKG   + +A+   LE    L ++G   G+ + +E  
+Sbjct  285  YERLGLSL-EHSPCVCIISRIAEQKGPHFMKQAILHALENAYTLIIIGTCYGNQLHEEFA  343
+
+Query  338  FLAAAAEHPGQVGVQIGYHEAFSHRIMGGADVILVPSRFEPCGLTQLYGLKYGTLPLVRR  397
+             L  +  +   V + + Y +  + +I   AD+I +PS FEPCGLTQ+ G++YGT+PLVR 
+Sbjct  344  NLQESLANSPDVRILLTYSDVLARQIFAAADMICIPSMFEPCGLTQMIGMRYGTVPLVRA  403
+
+Query  398  TGGLADTVSDSSLENLADGIASGFVFEDSNAWSLLRAIRRAFVLWSRPS--LWRFVQRQA  455
+            TGGLADTV        A+GI +GF F + + +   R +    V   R +   W+ + R  
+Sbjct  404  TGGLADTV--------ANGI-NGFSFFNPHDFYEFRNMLSEAVTTYRTNHDKWQHIVRAC  454
+
+Query  456  MAMDFSWQVAAKSYRELY  473
+            +      + AA  Y E+Y
+Sbjct  455  LDFSSDLETAANKYLEIY  472
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.140    0.435    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3874819115
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

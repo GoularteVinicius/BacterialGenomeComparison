@@ -1,0 +1,1098 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g204.t1
+
+Length=32
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.139    0.366    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 327562725
+
+
+Query= g76.t1
+
+Length=201
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.133    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1127849858
+
+
+Query= g143.t1
+
+Length=270
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1815657284
+
+
+Query= g159.t1
+
+Length=214
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional regu...  51.2    4e-08
+VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional regu...  51.2    4e-08
+VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional regu...  48.9    3e-07
+
+
+>VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus subsp. aureus MW2]
+Length=186
+
+ Score = 51.2 bits (121),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 31/138 (22%), Positives = 65/138 (47%), Gaps = 13/138 (9%)
+
+Query  13   REELLAVATKLFAARGYHGTRMDDVADVIGLNKATVYHYYASKSLILFDIYRQAAE----  68
+            +++++  A  LF+ +GY GT +DD+A  + + KA++Y+++ SK      IY Q+ +    
+Sbjct  2    KDKIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSKK----SIYEQSVKCCFD  57
+
+Query  69   --GTLAAVHDDPSWTAREALYQYTVRLLTAIASNPERAAVYFQEQPYITEWFTSEQVAEV  126
+                +  ++ + S  + +ALYQ+    +  I     R  V     P   E F+     ++
+Sbjct  58   YLNNIIMMNQNKSNYSIDALYQFLFEFIFDIEERYIRMYVQLSNTP---EEFSGNIYGQI  114
+
+Query  127  REKEQQVYEHVHGLIDRG  144
+            ++  Q + + +    D  
+Sbjct  115  QDLNQSLSKEIAKFYDES  132
+
+
+>VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus RF122]
+Length=186
+
+ Score = 51.2 bits (121),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 31/138 (22%), Positives = 65/138 (47%), Gaps = 13/138 (9%)
+
+Query  13   REELLAVATKLFAARGYHGTRMDDVADVIGLNKATVYHYYASKSLILFDIYRQAAE----  68
+            +++++  A  LF+ +GY GT +DD+A  + + KA++Y+++ SK      IY Q+ +    
+Sbjct  2    KDKIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSKK----SIYEQSVKCCFD  57
+
+Query  69   --GTLAAVHDDPSWTAREALYQYTVRLLTAIASNPERAAVYFQEQPYITEWFTSEQVAEV  126
+                +  ++ + S  + +ALYQ+    +  I     R  V     P   E F+     ++
+Sbjct  58   YLNNIIMMNQNKSNYSIDALYQFLFEFIFDIEERYIRMYVQLSNTP---EEFSGNIYGQI  114
+
+Query  127  REKEQQVYEHVHGLIDRG  144
+            ++  Q + + +    D  
+Sbjct  115  QDLNQSLSKEIAKFYDES  132
+
+
+>VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus epidermidis RP62A]
+Length=185
+
+ Score = 48.9 bits (115),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 25/92 (27%), Positives = 51/92 (55%), Gaps = 13/92 (14%)
+
+Query  13  REELLAVATKLFAARGYHGTRMDDVADVIGLNKATVYHYYASKSLILFDIYRQAAEGT--  70
+           +++++  A  LF+ +GY GT +DD++  + + KA++Y++Y +K     +IYR++ E    
+Sbjct  2   KDKIIDNAITLFSEKGYDGTTLDDISKSVNIKKASLYYHYDNKE----EIYRKSVENCFN  57
+
+Query  71  -----LAAVHDDPSWTAREALYQYTVRLLTAI  97
+                L   HDD    + + LYQ+  + +  +
+Sbjct  58  YFIDFLLRNHDDN--YSIDGLYQFLFKFIFDV  87
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1252229098
+
+
+Query= g241.t1
+
+Length=188
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional regu...  47.0    8e-07
+
+
+>VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus epidermidis RP62A]
+Length=185
+
+ Score = 47.0 bits (110),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 34/126 (27%), Positives = 64/126 (51%), Gaps = 6/126 (5%)
+
+Query  1    MLDAAVQMFSVNGYHETSMDAIAAEAQISKPMLYLYYGSKEDLFGACLNREMSRFIDALR  60
+            ++D A+ +FS  GY  T++D I+    I K  LY +Y +KE+++   +    + FID L 
+Sbjct  5    IIDNAITLFSEKGYDGTTLDDISKSVNIKKASLYYHYDNKEEIYRKSVENCFNYFIDFLL  64
+
+Query  61   SSINFDQSPKDLLRNTIVSFLRYIDANRASWIVMYTQATSS-QAFAHTVREGREQI-VQL  118
+             + + D    D L   +  F+  +D     +I +Y Q +S+ +A    ++   ++I   L
+Sbjct  65   RNHD-DNYSIDGLYQFLFKFIFDVD---ERYIKLYVQLSSAPEALNSEIKHHLQEINTTL  120
+
+Query  119  VAELVR  124
+              EL++
+Sbjct  121  HDELIK  126
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.133    0.377    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1002799050
+
+
+Query= g326.t1
+
+Length=200
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional regu...  53.9    3e-09
+VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional regu...  53.9    3e-09
+VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional regu...  49.7    1e-07
+
+
+>VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus subsp. aureus MW2]
+Length=186
+
+ Score = 53.9 bits (128),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 21/59 (36%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  8   RDKLLDGALACLRERGYGNTSSRDIARAAGVNIASINYHFGSKDALLDDALGRCFSTWN  66
+           +DK++D A+    E+GY  T+  DIA++  +  AS+ YHF SK ++ + ++  CF   N
+Sbjct  2   KDKIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSKKSIYEQSVKCCFDYLN  60
+
+
+>VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus RF122]
+Length=186
+
+ Score = 53.9 bits (128),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 21/59 (36%), Positives = 36/59 (61%), Gaps = 0/59 (0%)
+
+Query  8   RDKLLDGALACLRERGYGNTSSRDIARAAGVNIASINYHFGSKDALLDDALGRCFSTWN  66
+           +DK++D A+    E+GY  T+  DIA++  +  AS+ YHF SK ++ + ++  CF   N
+Sbjct  2   KDKIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSKKSIYEQSVKCCFDYLN  60
+
+
+>VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus epidermidis RP62A]
+Length=185
+
+ Score = 49.7 bits (117),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 28/110 (25%), Positives = 53/110 (48%), Gaps = 3/110 (3%)
+
+Query  8    RDKLLDGALACLRERGYGNTSSRDIARAAGVNIASINYHFGSKDALLDDALGRCFSTWNQ  67
+            +DK++D A+    E+GY  T+  DI+++  +  AS+ YH+ +K+ +   ++  CF+ +  
+Sbjct  2    KDKIIDNAITLFSEKGYDGTTLDDISKSVNIKKASLYYHYDNKEEIYRKSVENCFNYFID  61
+
+Query  68   RVQEAFDHSRAAGPAGQILAVLEATVDSFEQIRPAVYACVESYAPALRSE  117
+             +    D + +     Q L      VD   +    +Y  + S   AL SE
+Sbjct  62   FLLRNHDDNYSIDGLYQFLFKFIFDVD---ERYIKLYVQLSSAPEALNSE  108
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.131    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1117209765
+
+
+Query= g647.t1
+
+Length=234
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.134    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1450025673
+
+
+Query= g1006.t1
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional regu...  60.1    3e-11
+VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional regu...  60.1    4e-11
+VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional regu...  58.5    1e-10
+
+
+>VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus subsp. aureus MW2]
+Length=186
+
+ Score = 60.1 bits (144),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 32/126 (25%), Positives = 67/126 (53%), Gaps = 11/126 (9%)
+
+Query  29   RHQLIGIARSLFAERGYDGTSIEEIAQRANVSKPVVYEHFGGKEGLYAVVVDREMSALLD  88
+            + ++I  A +LF+E+GYDGT++++IA+  N+ K  +Y HF  K+ +Y    ++ +    D
+Sbjct  2    KDKIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSKKSIY----EQSVKCCFD  57
+
+Query  89   GITS--SLTNNRSRVRVERVALALLTY---VEERTDGFRIMIRDSPASISSGTYSSL--L  141
+             + +   +  N+S   ++ +   L  +   +EER     + + ++P   S   Y  +  L
+Sbjct  58   YLNNIIMMNQNKSNYSIDALYQFLFEFIFDIEERYIRMYVQLSNTPEEFSGNIYGQIQDL  117
+
+Query  142  NDAVSQ  147
+            N ++S+
+Sbjct  118  NQSLSK  123
+
+
+>VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus RF122]
+Length=186
+
+ Score = 60.1 bits (144),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 32/126 (25%), Positives = 67/126 (53%), Gaps = 11/126 (9%)
+
+Query  29   RHQLIGIARSLFAERGYDGTSIEEIAQRANVSKPVVYEHFGGKEGLYAVVVDREMSALLD  88
+            + ++I  A +LF+E+GYDGT++++IA+  N+ K  +Y HF  K+ +Y    ++ +    D
+Sbjct  2    KDKIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSKKSIY----EQSVKCCFD  57
+
+Query  89   GITS--SLTNNRSRVRVERVALALLTY---VEERTDGFRIMIRDSPASISSGTYSSL--L  141
+             + +   +  N+S   ++ +   L  +   +EER     + + ++P   S   Y  +  L
+Sbjct  58   YLNNIIMMNQNKSNYSIDALYQFLFEFIFDIEERYIRMYVQLSNTPEEFSGNIYGQIQDL  117
+
+Query  142  NDAVSQ  147
+            N ++S+
+Sbjct  118  NQSLSK  123
+
+
+>VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus epidermidis RP62A]
+Length=185
+
+ Score = 58.5 bits (140),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 32/156 (21%), Positives = 77/156 (49%), Gaps = 6/156 (4%)
+
+Query  29   RHQLIGIARSLFAERGYDGTSIEEIAQRANVSKPVVYEHFGGKEGLYAVVVDREMSALLD  88
+            + ++I  A +LF+E+GYDGT++++I++  N+ K  +Y H+  KE +Y   V+   +  +D
+Sbjct  2    KDKIIDNAITLFSEKGYDGTTLDDISKSVNIKKASLYYHYDNKEEIYRKSVENCFNYFID  61
+
+Query  89   GITSSLTNNRSRVRVERVALALLTYVEERTDGFRIMIRDSPASISSGTYSSLLNDAVSQV  148
+             +  +  +N S   + +     +  V+ER     + +  +P +++S      +   + ++
+Sbjct  62   FLLRNHDDNYSIDGLYQFLFKFIFDVDERYIKLYVQLSSAPEALNSE-----IKHHLQEI  116
+
+Query  149  SSILAGDFARRGLDPDLAPLYAQALVGSVSMTAQWW  184
+            ++ L  +  +   DP    L  +  +  + +  + W
+Sbjct  117  NTTLHDELIKY-YDPTHIALDKEDFINLILLFLETW  151
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.132    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1305289653
+
+
+Query= g1243.t1
+
+Length=202
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.133    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1138489951
+
+
+Query= g1428.t1
+
+Length=75
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 335530412
+
+
+Query= g1465.t1
+
+Length=187
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.136    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 992130975
+
+
+Query= g1756.t1
+
+Length=179
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 906786375
+
+
+Query= g1938.t1
+
+Length=387
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2976602415
+
+
+Query= g2471.t1
+
+Length=185
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.134    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 970794825
+
+
+Query= g2861.t1
+
+Length=195
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.132    0.355    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1064009300
+
+
+Query= g3005.t1
+
+Length=193
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1042729114
+
+
+Query= g3361.t1
+
+Length=188
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1002799050
+
+
+Query= g3507.t1
+
+Length=200
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional regu...  48.5    3e-07
+VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional regu...  48.5    4e-07
+VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional regu...  47.4    9e-07
+
+
+>VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus subsp. aureus MW2]
+Length=186
+
+ Score = 48.5 bits (114),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 19/58 (33%), Positives = 36/58 (62%), Gaps = 0/58 (0%)
+
+Query  12  RGELLELAAAMFAERGLRATTVRDIADGAGILSGSLYHHFASKEEMVDELLRGFLDWL  69
+           + ++++ A  +F+E+G   TT+ DIA    I   SLY+HF SK+ + ++ ++   D+L
+Sbjct  2   KDKIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSKKSIYEQSVKCCFDYL  59
+
+
+>VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus RF122]
+Length=186
+
+ Score = 48.5 bits (114),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 19/58 (33%), Positives = 36/58 (62%), Gaps = 0/58 (0%)
+
+Query  12  RGELLELAAAMFAERGLRATTVRDIADGAGILSGSLYHHFASKEEMVDELLRGFLDWL  69
+           + ++++ A  +F+E+G   TT+ DIA    I   SLY+HF SK+ + ++ ++   D+L
+Sbjct  2   KDKIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSKKSIYEQSVKCCFDYL  59
+
+
+>VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus epidermidis RP62A]
+Length=185
+
+ Score = 47.4 bits (111),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 21/68 (31%), Positives = 39/68 (57%), Gaps = 4/68 (6%)
+
+Query  12  RGELLELAAAMFAERGLRATTVRDIADGAGILSGSLYHHFASKEEM----VDELLRGFLD  67
+           + ++++ A  +F+E+G   TT+ DI+    I   SLY+H+ +KEE+    V+     F+D
+Sbjct  2   KDKIIDNAITLFSEKGYDGTTLDDISKSVNIKKASLYYHYDNKEEIYRKSVENCFNYFID  61
+
+Query  68  WLFARYRD  75
+           +L   + D
+Sbjct  62  FLLRNHDD  69
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.414    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1117209765
+
+
+Query= g372.t1
+
+Length=215
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1262841209
+
+
+Query= g840.t1
+
+Length=227
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.135    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1375936770
+
+
+Query= g1241.t1
+
+Length=202
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.132    0.366    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1138489951
+
+
+Query= g1300.t1
+
+Length=186
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 981462900
+
+
+Query= g1308.t1
+
+Length=197
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional regu...  49.7    1e-07
+VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional regu...  49.3    1e-07
+
+
+>VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus RF122]
+Length=186
+
+ Score = 49.7 bits (117),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 40/65 (62%), Gaps = 4/65 (6%)
+
+Query  15  REALLESALSAFIEHGYGGVSIDAIAREARVTKGAFYHHFGSKQELLAECYERQVRTIAE  74
+           ++ ++++A++ F E GY G ++D IA+   + K + Y+HF SK+ +    YE+ V+   +
+Sbjct  2   KDKIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSKKSI----YEQSVKCCFD  57
+
+Query  75  DLDRV  79
+            L+ +
+Sbjct  58  YLNNI  62
+
+
+>VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus subsp. aureus MW2]
+Length=186
+
+ Score = 49.3 bits (116),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 19/65 (29%), Positives = 40/65 (62%), Gaps = 4/65 (6%)
+
+Query  15  REALLESALSAFIEHGYGGVSIDAIAREARVTKGAFYHHFGSKQELLAECYERQVRTIAE  74
+           ++ ++++A++ F E GY G ++D IA+   + K + Y+HF SK+ +    YE+ V+   +
+Sbjct  2   KDKIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSKKSI----YEQSVKCCFD  57
+
+Query  75  DLDRV  79
+            L+ +
+Sbjct  58  YLNNI  62
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.132    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1085289486
+
+
+Query= g1419.t1
+
+Length=210
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.130    0.350    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1209780654
+
+
+Query= g1862.t1
+
+Length=193
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional regu...  45.8    3e-06
+
+
+>VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus epidermidis RP62A]
+Length=185
+
+ Score = 45.8 bits (107),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 20/47 (43%), Positives = 28/47 (60%), Gaps = 0/47 (0%)
+
+Query  7   KDEILQAALACFSEHGVDATTIEMIRDRSGASIGSLYHHFGNKERIH  53
+           KD+I+  A+  FSE G D TT++ I         SLY+H+ NKE I+
+Sbjct  2   KDKIIDNAITLFSEKGYDGTTLDDISKSVNIKKASLYYHYDNKEEIY  48
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.135    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1042729114
+
+
+Query= g2309.t1
+
+Length=196
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional regu...  48.5    3e-07
+VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional regu...  48.5    3e-07
+
+
+>VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus subsp. aureus MW2]
+Length=186
+
+ Score = 48.5 bits (114),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 19/59 (32%), Positives = 34/59 (58%), Gaps = 0/59 (0%)
+
+Query  14  RAKLIDAARRAFADNGYAGASMDELTASAGLTRGALYHHFGDKKGLLAAVVQQIDDEMN  72
+           + K+ID A   F++ GY G ++D++  S  + + +LY+HF  KK +    V+   D +N
+Sbjct  2   KDKIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSKKSIYEQSVKCCFDYLN  60
+
+
+>VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus RF122]
+Length=186
+
+ Score = 48.5 bits (114),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 19/59 (32%), Positives = 34/59 (58%), Gaps = 0/59 (0%)
+
+Query  14  RAKLIDAARRAFADNGYAGASMDELTASAGLTRGALYHHFGDKKGLLAAVVQQIDDEMN  72
+           + K+ID A   F++ GY G ++D++  S  + + +LY+HF  KK +    V+   D +N
+Sbjct  2   KDKIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSKKSIYEQSVKCCFDYLN  60
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.132    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1074649393
+
+
+Query= g2943.t1
+
+Length=245
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional regu...  49.3    3e-07
+VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional regu...  48.1    8e-07
+VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional regu...  47.8    9e-07
+
+
+>VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus epidermidis RP62A]
+Length=185
+
+ Score = 49.3 bits (116),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 20/57 (35%), Positives = 36/57 (63%), Gaps = 0/57 (0%)
+
+Query  64   RGKLLQTAAHLFRSKGYERTTVRDLASAVGIQSGSIFHHFKSKDEILRSVMEETILY  120
+            + K++  A  LF  KGY+ TT+ D++ +V I+  S+++H+ +K+EI R  +E    Y
+Sbjct  2    KDKIIDNAITLFSEKGYDGTTLDDISKSVNIKKASLYYHYDNKEEIYRKSVENCFNY  58
+
+
+>VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus subsp. aureus MW2]
+Length=186
+
+ Score = 48.1 bits (113),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 20/55 (36%), Positives = 36/55 (65%), Gaps = 4/55 (7%)
+
+Query  64   RGKLLQTAAHLFRSKGYERTTVRDLASAVGIQSGSIFHHFKSKDEILRSVMEETI  118
+            + K++  A  LF  KGY+ TT+ D+A +V I+  S+++HF SK    +S+ E+++
+Sbjct  2    KDKIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSK----KSIYEQSV  52
+
+
+>VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus RF122]
+Length=186
+
+ Score = 47.8 bits (112),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 20/55 (36%), Positives = 36/55 (65%), Gaps = 4/55 (7%)
+
+Query  64   RGKLLQTAAHLFRSKGYERTTVRDLASAVGIQSGSIFHHFKSKDEILRSVMEETI  118
+            + K++  A  LF  KGY+ TT+ D+A +V I+  S+++HF SK    +S+ E+++
+Sbjct  2    KDKIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSK----KSIYEQSV  52
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1566451092
+
+
+Query= g3016.t1
+
+Length=212
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional regu...  52.0    2e-08
+VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional regu...  52.0    2e-08
+VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional regu...  45.8    3e-06
+
+
+>VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus RF122]
+Length=186
+
+ Score = 52.0 bits (123),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 35/109 (32%), Positives = 56/109 (51%), Gaps = 12/109 (11%)
+
+Query  17   EILDTALKLFLEQGEDSVTVEMIADAVGIGKGTIYKHFKSKAEIY---LRLMLDYERDLA  73
+            +I+D A+ LF E+G D  T++ IA +V I K ++Y HF SK  IY   ++   DY  ++ 
+Sbjct  4    KIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSKKSIYEQSVKCCFDYLNNII  63
+
+Query  74   ALFHSEDVARDKEALSRAYFEFRMRDPQRY-RLFDRLEEKVVKTSQVPE  121
+             + +        +AL +  FEF     +RY R++       V+ S  PE
+Sbjct  64   MM-NQNKSNYSIDALYQFLFEFIFDIEERYIRMY-------VQLSNTPE  104
+
+
+>VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus subsp. aureus MW2]
+Length=186
+
+ Score = 52.0 bits (123),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 35/109 (32%), Positives = 56/109 (51%), Gaps = 12/109 (11%)
+
+Query  17   EILDTALKLFLEQGEDSVTVEMIADAVGIGKGTIYKHFKSKAEIY---LRLMLDYERDLA  73
+            +I+D A+ LF E+G D  T++ IA +V I K ++Y HF SK  IY   ++   DY  ++ 
+Sbjct  4    KIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSKKSIYEQSVKCCFDYLNNII  63
+
+Query  74   ALFHSEDVARDKEALSRAYFEFRMRDPQRY-RLFDRLEEKVVKTSQVPE  121
+             + +        +AL +  FEF     +RY R++       V+ S  PE
+Sbjct  64   MM-NQNKSNYSIDALYQFLFEFIFDIEERYIRMY-------VQLSNTPE  104
+
+
+>VFG004552(gb|WP_002497698) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus epidermidis RP62A]
+Length=185
+
+ Score = 45.8 bits (107),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 39/134 (29%), Positives = 68/134 (51%), Gaps = 15/134 (11%)
+
+Query  15   EQEILDTALKLFLEQGEDSVTVEMIADAVGIGKGTIYKHFKSKAEIYLRLM---LDYERD  71
+            + +I+D A+ LF E+G D  T++ I+ +V I K ++Y H+ +K EIY + +    +Y  D
+Sbjct  2    KDKIIDNAITLFSEKGYDGTTLDDISKSVNIKKASLYYHYDNKEEIYRKSVENCFNYFID  61
+
+Query  72   LAALFHSEDVARDKEALSRAYFEFRMRDPQRY-RLFDRLEEKVVKTSQVPEMV--EELHK  128
+                 H ++ + D   L +  F+F     +RY +L+       V+ S  PE +  E  H 
+Sbjct  62   FLLRNHDDNYSID--GLYQFLFKFIFDVDERYIKLY-------VQLSSAPEALNSEIKHH  112
+
+Query  129  IRASNFERLTQLIK  142
+            ++  N     +LIK
+Sbjct  113  LQEINTTLHDELIK  126
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1231004876
+
+
+Query= g3066.t1
+
+Length=233
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.134    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1439441544
+
+
+Query= g3750.t1
+
+Length=212
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional regu...  45.4    4e-06
+VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional regu...  45.4    4e-06
+
+
+>VFG004554(gb|WP_000653259) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus RF122]
+Length=186
+
+ Score = 45.4 bits (106),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 19/62 (31%), Positives = 38/62 (61%), Gaps = 1/62 (2%)
+
+Query  19  REAILEAAKRLFLCNGYDGSSMEAIASEAGVSKLTVYSHFTDKETLFSEAVKAKCAEQLP  78
+           ++ I++ A  LF   GYDG++++ IA    + K ++Y HF  K++++ ++VK  C + L 
+Sbjct  2   KDKIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSKKSIYEQSVKC-CFDYLN  60
+
+Query  79  AL  80
+            +
+Sbjct  61  NI  62
+
+
+>VFG001284(gb|WP_000653261) (icaR) ica operon transcriptional 
+regulator IcaR [Intercellular adhesion proteins (VF0014) - Biofilm 
+(VFC0271)] [Staphylococcus aureus subsp. aureus MW2]
+Length=186
+
+ Score = 45.4 bits (106),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 19/62 (31%), Positives = 38/62 (61%), Gaps = 1/62 (2%)
+
+Query  19  REAILEAAKRLFLCNGYDGSSMEAIASEAGVSKLTVYSHFTDKETLFSEAVKAKCAEQLP  78
+           ++ I++ A  LF   GYDG++++ IA    + K ++Y HF  K++++ ++VK  C + L 
+Sbjct  2   KDKIIDNAITLFSEKGYDGTTLDDIAKSVNIKKASLYYHFDSKKSIYEQSVKC-CFDYLN  60
+
+Query  79  AL  80
+            +
+Sbjct  61  NI  62
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1231004876
+
+
+Query= g3792.t1
+
+Length=254
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.133    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1646758932
+
+
+Query= g5155.t1
+
+Length=205
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.140    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1170410230
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

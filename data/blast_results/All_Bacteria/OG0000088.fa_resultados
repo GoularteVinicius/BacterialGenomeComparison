@@ -1,0 +1,565 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g329.t1
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG042906(gb|WP_012908549) (ROD_RS25695) M23 family metallopeptid...  80.9    3e-19
+
+
+>VFG042906(gb|WP_012908549) (ROD_RS25695) M23 family metallopeptidase 
+[Colonization factor Citrobacter (CFC) type IV fimbriae 
+(VF1209) - Adherence (VFC0001)] [Citrobacter rodentium ICC168]
+Length=376
+
+ Score = 80.9 bits (198),  Expect = 3e-19, Method: Composition-based stats.
+ Identities = 39/103 (38%), Positives = 62/103 (60%), Gaps = 3/103 (3%)
+
+Query  6    EHHGGLDMAAPSGTPIYATGPGIVTKSGWGTGYGQYVEINHGNGYLTRYAHASRLMVRVG  65
+            + H G+D+ AP  + + A   G +  +G+G   G YV +NH +G+ +RY H +++ V+ G
+Sbjct  187  KRHEGVDLRAPINSEVMAVADGEIAATGYGPVTGFYVTVNHADGWSSRYLHLNKINVQTG  246
+
+Query  66   DQVSAGDHIANVGCTGRCTGPHLHYEVVKDGQRKNPSTYLAML  108
+            D+V  G+ IA  G +GR  GPHLH E+     R+ P+  +AML
+Sbjct  247  DKVLRGNVIALSGASGRTNGPHLHLEL---SHRQQPANPMAML  286
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.137    0.438    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 332634150
+
+
+Query= g121.t1
+
+Length=343
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG042906(gb|WP_012908549) (ROD_RS25695) M23 family metallopeptid...  69.7    4e-13
+
+
+>VFG042906(gb|WP_012908549) (ROD_RS25695) M23 family metallopeptidase 
+[Colonization factor Citrobacter (CFC) type IV fimbriae 
+(VF1209) - Adherence (VFC0001)] [Citrobacter rodentium ICC168]
+Length=376
+
+ Score = 69.7 bits (169),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 38/112 (34%), Positives = 59/112 (53%), Gaps = 6/112 (5%)
+
+Query  212  LYVMPTKGIFTSNFGYRWGVL------HAGIDLANAIGTPILAVSDGVVIDVGPTAGYGM  265
+            ++ +P   + TS +G R+  +      H G+DL   I + ++AV+DG +   G     G 
+Sbjct  162  IFPLPHDIVVTSPYGMRYHPVTHQFKRHEGVDLRAPINSEVMAVADGEIAATGYGPVTGF  221
+
+Query  266  WVKLRHADGTVTLYGHVNTTLVNVGQYVVAGDQIATMGTRGNSTGPHLHFEV  317
+            +V + HADG  + Y H+N   V  G  V+ G+ IA  G  G + GPHLH E+
+Sbjct  222  YVTVNHADGWSSRYLHLNKINVQTGDKVLRGNVIALSGASGRTNGPHLHLEL  273
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2534272642
+
+
+Query= g937.t1
+
+Length=343
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG042906(gb|WP_012908549) (ROD_RS25695) M23 family metallopeptid...  69.7    3e-13
+
+
+>VFG042906(gb|WP_012908549) (ROD_RS25695) M23 family metallopeptidase 
+[Colonization factor Citrobacter (CFC) type IV fimbriae 
+(VF1209) - Adherence (VFC0001)] [Citrobacter rodentium ICC168]
+Length=376
+
+ Score = 69.7 bits (169),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 38/112 (34%), Positives = 61/112 (54%), Gaps = 6/112 (5%)
+
+Query  212  LYVMPTKGIFTSSFGYRWGVL------HAGIDLANAIGTPIYAVSDGVVIDAGPTAGYGM  265
+            ++ +P   + TS +G R+  +      H G+DL   I + + AV+DG +   G     G 
+Sbjct  162  IFPLPHDIVVTSPYGMRYHPVTHQFKRHEGVDLRAPINSEVMAVADGEIAATGYGPVTGF  221
+
+Query  266  WVKLLHADGTVTLYGHVNTTLVSVGERVMAGDQIATMGSRGFSTGPHLHFEV  317
+            +V + HADG  + Y H+N   V  G++V+ G+ IA  G+ G + GPHLH E+
+Sbjct  222  YVTVNHADGWSSRYLHLNKINVQTGDKVLRGNVIALSGASGRTNGPHLHLEL  273
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2534272642
+
+
+Query= g1900.t1
+
+Length=418
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000145(gb|NP_250562) (lasA) LasA protease precursor [LasA (VF0...  852     0.0  
+VFG020039(gb|WP_003120216) (lasA) LasA protease precursor [LasB (...  847     0.0  
+VFG015555(gb|WP_003139897) (lasA) LasA protease precursor [LasB (...  841     0.0  
+VFG015554(gb|WP_012076121) (lasA) LasA protease precursor [LasB (...  708     0.0  
+
+
+>VFG000145(gb|NP_250562) (lasA) LasA protease precursor [LasA 
+(VF0088) - Effector delivery system (VFC0086)] [Pseudomonas 
+aeruginosa PAO1]
+Length=418
+
+ Score = 852 bits (2200),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 418/418 (100%), Positives = 418/418 (100%), Gaps = 0/418 (0%)
+
+Query  1    MQHKRSRAMASPRSPFLFVLLALAVGGTANAHDDGLPAFRYSAELLGQLQLPSVALPLND  60
+            MQHKRSRAMASPRSPFLFVLLALAVGGTANAHDDGLPAFRYSAELLGQLQLPSVALPLND
+Sbjct  1    MQHKRSRAMASPRSPFLFVLLALAVGGTANAHDDGLPAFRYSAELLGQLQLPSVALPLND  60
+
+Query  61   DLFLYGRDAEAFDLEAYLALNAPALRDKSEYLEHWSGYYSINPKVLLTLMVMQSGPLGAP  120
+            DLFLYGRDAEAFDLEAYLALNAPALRDKSEYLEHWSGYYSINPKVLLTLMVMQSGPLGAP
+Sbjct  61   DLFLYGRDAEAFDLEAYLALNAPALRDKSEYLEHWSGYYSINPKVLLTLMVMQSGPLGAP  120
+
+Query  121  DERALAAPLGRLSAKRGFDAQVRDVLQQLSRRYYGFEEYQLRQAAARKAVGEDGLNAASA  180
+            DERALAAPLGRLSAKRGFDAQVRDVLQQLSRRYYGFEEYQLRQAAARKAVGEDGLNAASA
+Sbjct  121  DERALAAPLGRLSAKRGFDAQVRDVLQQLSRRYYGFEEYQLRQAAARKAVGEDGLNAASA  180
+
+Query  181  ALLGLLREGAKVSAVQGGNPLGAYAQTFQRLFGTPAAELLQPSNRVARQLQAKAALAPPS  240
+            ALLGLLREGAKVSAVQGGNPLGAYAQTFQRLFGTPAAELLQPSNRVARQLQAKAALAPPS
+Sbjct  181  ALLGLLREGAKVSAVQGGNPLGAYAQTFQRLFGTPAAELLQPSNRVARQLQAKAALAPPS  240
+
+Query  241  NLMQLPWRQGYSWQPNGAHSNTGSGYPYSSFDASYDWPRWGSATYSVVAAHAGTVRVLSR  300
+            NLMQLPWRQGYSWQPNGAHSNTGSGYPYSSFDASYDWPRWGSATYSVVAAHAGTVRVLSR
+Sbjct  241  NLMQLPWRQGYSWQPNGAHSNTGSGYPYSSFDASYDWPRWGSATYSVVAAHAGTVRVLSR  300
+
+Query  301  CQVRVTHPSGWATNYYHMDQIQVSNGQQVSADTKLGVYAGNINTALCEGGSSTGPHLHFS  360
+            CQVRVTHPSGWATNYYHMDQIQVSNGQQVSADTKLGVYAGNINTALCEGGSSTGPHLHFS
+Sbjct  301  CQVRVTHPSGWATNYYHMDQIQVSNGQQVSADTKLGVYAGNINTALCEGGSSTGPHLHFS  360
+
+Query  361  LLYNGAFVSLQGASFGPYRINVGTSNYDNDCRRYYFYNQSAGTTHCAFRPLYNPGLAL  418
+            LLYNGAFVSLQGASFGPYRINVGTSNYDNDCRRYYFYNQSAGTTHCAFRPLYNPGLAL
+Sbjct  361  LLYNGAFVSLQGASFGPYRINVGTSNYDNDCRRYYFYNQSAGTTHCAFRPLYNPGLAL  418
+
+
+>VFG020039(gb|WP_003120216) (lasA) LasA protease precursor [LasB 
+(VF0087) - Effector delivery system (VFC0086)] [Pseudomonas 
+aeruginosa LESB58]
+Length=418
+
+ Score = 847 bits (2188),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 415/418 (99%), Positives = 416/418 (99%), Gaps = 0/418 (0%)
+
+Query  1    MQHKRSRAMASPRSPFLFVLLALAVGGTANAHDDGLPAFRYSAELLGQLQLPSVALPLND  60
+            MQHKRSRAMASPRSPFLFVLLALAVGGTANAHDDGLPAFRYSAELLGQLQLPSVALPLND
+Sbjct  1    MQHKRSRAMASPRSPFLFVLLALAVGGTANAHDDGLPAFRYSAELLGQLQLPSVALPLND  60
+
+Query  61   DLFLYGRDAEAFDLEAYLALNAPALRDKSEYLEHWSGYYSINPKVLLTLMVMQSGPLGAP  120
+            DLFLYGRDAEAFDLEAYLA+NAPALRDKSEYLEHWSGYYSINPKVLLTLMVMQSGPLGAP
+Sbjct  61   DLFLYGRDAEAFDLEAYLAVNAPALRDKSEYLEHWSGYYSINPKVLLTLMVMQSGPLGAP  120
+
+Query  121  DERALAAPLGRLSAKRGFDAQVRDVLQQLSRRYYGFEEYQLRQAAARKAVGEDGLNAASA  180
+            DERALAAPLGRLSAKRGFDAQVRDVLQQLSRRYYGFEEYQLRQAAARKAVGEDGLNAASA
+Sbjct  121  DERALAAPLGRLSAKRGFDAQVRDVLQQLSRRYYGFEEYQLRQAAARKAVGEDGLNAASA  180
+
+Query  181  ALLGLLREGAKVSAVQGGNPLGAYAQTFQRLFGTPAAELLQPSNRVARQLQAKAALAPPS  240
+            ALLGLLREGAK SAVQGGNPLGAYAQTFQRLFGTPAAELLQP NRVARQLQAKAALAPPS
+Sbjct  181  ALLGLLREGAKASAVQGGNPLGAYAQTFQRLFGTPAAELLQPRNRVARQLQAKAALAPPS  240
+
+Query  241  NLMQLPWRQGYSWQPNGAHSNTGSGYPYSSFDASYDWPRWGSATYSVVAAHAGTVRVLSR  300
+            NLMQLPWRQGYSWQPNGAHSNTGSGYPYSSFDASYDWPRWGSATYSVVAAHAGTVRVLSR
+Sbjct  241  NLMQLPWRQGYSWQPNGAHSNTGSGYPYSSFDASYDWPRWGSATYSVVAAHAGTVRVLSR  300
+
+Query  301  CQVRVTHPSGWATNYYHMDQIQVSNGQQVSADTKLGVYAGNINTALCEGGSSTGPHLHFS  360
+            CQVRVTHPSGWATNYYHMDQIQVSNGQQVSADTKLGVYAGNINTALCEGGSSTGPHLHFS
+Sbjct  301  CQVRVTHPSGWATNYYHMDQIQVSNGQQVSADTKLGVYAGNINTALCEGGSSTGPHLHFS  360
+
+Query  361  LLYNGAFVSLQGASFGPYRINVGTSNYDNDCRRYYFYNQSAGTTHCAFRPLYNPGLAL  418
+            LLYNGAFVSLQGASFGPYRINVGTSNYDNDCRRYYFYNQSAGTTHCAFRPLYNPGLAL
+Sbjct  361  LLYNGAFVSLQGASFGPYRINVGTSNYDNDCRRYYFYNQSAGTTHCAFRPLYNPGLAL  418
+
+
+>VFG015555(gb|WP_003139897) (lasA) LasA protease precursor [LasB 
+(VF0087) - Effector delivery system (VFC0086)] [Pseudomonas 
+aeruginosa UCBPP-PA14]
+Length=418
+
+ Score = 841 bits (2172),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 412/418 (99%), Positives = 414/418 (99%), Gaps = 0/418 (0%)
+
+Query  1    MQHKRSRAMASPRSPFLFVLLALAVGGTANAHDDGLPAFRYSAELLGQLQLPSVALPLND  60
+            MQHKRSRA+ASPRSPFLF LLALAVGGTANAHDDGLPAFRYSAELLGQLQLPSVALPLND
+Sbjct  1    MQHKRSRALASPRSPFLFALLALAVGGTANAHDDGLPAFRYSAELLGQLQLPSVALPLND  60
+
+Query  61   DLFLYGRDAEAFDLEAYLALNAPALRDKSEYLEHWSGYYSINPKVLLTLMVMQSGPLGAP  120
+            +LFLYGRDAEAFDLEAYLALNAPALRDKSEYLEHWSGYYSINPKVLLTLMVMQSGPLGAP
+Sbjct  61   ELFLYGRDAEAFDLEAYLALNAPALRDKSEYLEHWSGYYSINPKVLLTLMVMQSGPLGAP  120
+
+Query  121  DERALAAPLGRLSAKRGFDAQVRDVLQQLSRRYYGFEEYQLRQAAARKAVGEDGLNAASA  180
+            DERALAAPLGRLSAKRGFDAQVRDVLQQLSRRYYGFEEYQLRQAAARKAVGEDGLNAASA
+Sbjct  121  DERALAAPLGRLSAKRGFDAQVRDVLQQLSRRYYGFEEYQLRQAAARKAVGEDGLNAASA  180
+
+Query  181  ALLGLLREGAKVSAVQGGNPLGAYAQTFQRLFGTPAAELLQPSNRVARQLQAKAALAPPS  240
+            ALLGLLREGAK SAVQGGNPLGAYAQTFQRLFGTPAAELLQP NRVARQLQAKAALAPPS
+Sbjct  181  ALLGLLREGAKASAVQGGNPLGAYAQTFQRLFGTPAAELLQPRNRVARQLQAKAALAPPS  240
+
+Query  241  NLMQLPWRQGYSWQPNGAHSNTGSGYPYSSFDASYDWPRWGSATYSVVAAHAGTVRVLSR  300
+            NLMQLPWRQGYSWQPNGAHSNTGSGYPYSSFDASYDWPRWGSATYSVVAAHAGTVRVLSR
+Sbjct  241  NLMQLPWRQGYSWQPNGAHSNTGSGYPYSSFDASYDWPRWGSATYSVVAAHAGTVRVLSR  300
+
+Query  301  CQVRVTHPSGWATNYYHMDQIQVSNGQQVSADTKLGVYAGNINTALCEGGSSTGPHLHFS  360
+            CQVRVTHPSGWATNYYHMDQIQVSNGQQVSADTKLGVYA NINTALCEGGSSTGPHLHFS
+Sbjct  301  CQVRVTHPSGWATNYYHMDQIQVSNGQQVSADTKLGVYASNINTALCEGGSSTGPHLHFS  360
+
+Query  361  LLYNGAFVSLQGASFGPYRINVGTSNYDNDCRRYYFYNQSAGTTHCAFRPLYNPGLAL  418
+            LLYNGAFVSLQGASFGPYRINVGTSNYDNDCRRYYFYNQSAGTTHCAFRPLYNPGLAL
+Sbjct  361  LLYNGAFVSLQGASFGPYRINVGTSNYDNDCRRYYFYNQSAGTTHCAFRPLYNPGLAL  418
+
+
+>VFG015554(gb|WP_012076121) (lasA) LasA protease precursor [LasB 
+(VF0087) - Effector delivery system (VFC0086)] [Pseudomonas 
+aeruginosa PA7]
+Length=418
+
+ Score = 708 bits (1828),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 358/418 (86%), Positives = 383/418 (92%), Gaps = 0/418 (0%)
+
+Query  1    MQHKRSRAMASPRSPFLFVLLALAVGGTANAHDDGLPAFRYSAELLGQLQLPSVALPLND  60
+            MQHKRSRA+AS  SPFL  +LALAV G A+AHD+GLPAFRY+AELL +LQLPSVALPLND
+Sbjct  1    MQHKRSRALASSSSPFLLAVLALAVSGAASAHDEGLPAFRYTAELLERLQLPSVALPLND  60
+
+Query  61   DLFLYGRDAEAFDLEAYLALNAPALRDKSEYLEHWSGYYSINPKVLLTLMVMQSGPLGAP  120
+            DLFLYGRDAEAFDLEAYLALNAPALRD+SEYLEHWSGYYSINPKVLLTLMVMQSGPLGAP
+Sbjct  61   DLFLYGRDAEAFDLEAYLALNAPALRDRSEYLEHWSGYYSINPKVLLTLMVMQSGPLGAP  120
+
+Query  121  DERALAAPLGRLSAKRGFDAQVRDVLQQLSRRYYGFEEYQLRQAAARKAVGEDGLNAASA  180
+            D +ALAAPLGRLSAK+GF+AQVRDVLQQLSRRYYGFEEY+LRQAAA   V E+GLN ASA
+Sbjct  121  DPQALAAPLGRLSAKQGFEAQVRDVLQQLSRRYYGFEEYRLRQAAAASTVAENGLNPASA  180
+
+Query  181  ALLGLLREGAKVSAVQGGNPLGAYAQTFQRLFGTPAAELLQPSNRVARQLQAKAALAPPS  240
+            ALLGLL +    +   GG+PLGAYA+TFQRLFGTP+  LLQP NR ARQLQAKAAL PP+
+Sbjct  181  ALLGLLLQDTAKADANGGHPLGAYAETFQRLFGTPSQALLQPRNRAARQLQAKAALVPPA  240
+
+Query  241  NLMQLPWRQGYSWQPNGAHSNTGSGYPYSSFDASYDWPRWGSATYSVVAAHAGTVRVLSR  300
+            NLMQLPWRQGYSWQPNGAHSN+GSGYP SS DASYDWPRWGS TYSVVAAHAGTVRVLSR
+Sbjct  241  NLMQLPWRQGYSWQPNGAHSNSGSGYPLSSIDASYDWPRWGSPTYSVVAAHAGTVRVLSR  300
+
+Query  301  CQVRVTHPSGWATNYYHMDQIQVSNGQQVSADTKLGVYAGNINTALCEGGSSTGPHLHFS  360
+            CQVRVTHPSGWATNYYHMD+IQVSNGQQVSADTKLG+YA +INTALCEGGSSTGPHLHFS
+Sbjct  301  CQVRVTHPSGWATNYYHMDRIQVSNGQQVSADTKLGIYASDINTALCEGGSSTGPHLHFS  360
+
+Query  361  LLYNGAFVSLQGASFGPYRINVGTSNYDNDCRRYYFYNQSAGTTHCAFRPLYNPGLAL  418
+            LLYNGAFVSLQG + GPYRINVG+ NYDNDCRR+Y YNQSAGTTHCAFRPLYNPGLA 
+Sbjct  361  LLYNGAFVSLQGVNLGPYRINVGSGNYDNDCRRFYLYNQSAGTTHCAFRPLYNPGLAF  418
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3281114655
+
+
+Query= g3695.t1
+
+Length=297
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2084576670
+
+
+Query= g3860.t1
+
+Length=282
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG042906(gb|WP_012908549) (ROD_RS25695) M23 family metallopeptid...  75.9    1e-15
+VFG049248(gb|WP_123809090) (KPK_RS28635) peptidoglycan DD-metallo...  53.1    8e-08
+
+
+>VFG042906(gb|WP_012908549) (ROD_RS25695) M23 family metallopeptidase 
+[Colonization factor Citrobacter (CFC) type IV fimbriae 
+(VF1209) - Adherence (VFC0001)] [Citrobacter rodentium ICC168]
+Length=376
+
+ Score = 75.9 bits (185),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 40/122 (33%), Positives = 63/122 (52%), Gaps = 0/122 (0%)
+
+Query  157  PVDGPLSSPFGLRRFFNGEERNPHSGLDFAVPAGTPIKAPAAGKVILIGDYFFNGKTVFV  216
+            P D  ++SP+G+R      +   H G+D   P  + + A A G++   G     G  V V
+Sbjct  166  PHDIVVTSPYGMRYHPVTHQFKRHEGVDLRAPINSEVMAVADGEIAATGYGPVTGFYVTV  225
+
+Query  217  DHGQGFISMFCHLSKIDVKLGQQVPRGGVLGKVGATGRATGPHMHWNVSLNDARVDPAIF  276
+            +H  G+ S + HL+KI+V+ G +V RG V+   GA+GR  GPH+H  +S      +P   
+Sbjct  226  NHADGWSSRYLHLNKINVQTGDKVLRGNVIALSGASGRTNGPHLHLELSHRQQPANPMAM  285
+
+Query  277  IG  278
+            + 
+Sbjct  286  LS  287
+
+
+>VFG049248(gb|WP_123809090) (KPK_RS28635) peptidoglycan DD-metalloendopeptidase 
+family protein [T6SS-III (VF0784) - Effector 
+delivery system (VFC0086)] [Klebsiella pneumoniae 342]
+Length=527
+
+ Score = 53.1 bits (126),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 48/160 (30%), Positives = 66/160 (41%), Gaps = 37/160 (23%)
+
+Query  158  VDGPLSSPFGLR-RFFNGEERNPHSGLDFAVPAGTPIKAPAAGKVILIGDYFFNGKTVFV  216
+            + GP ++ FG   R  +G  + PH G+D     GTPI A A G+V +I D    GK + +
+Sbjct  367  LSGPRAASFGRDVRHVHGVPK-PHQGVDIEALPGTPIYAVADGRVAMIRDNGDYGKQLCI  425
+
+Query  217  -------------------DHGQGFISMFCHLSKI--DVKLGQQVPRGGVLGKVGATGRA  255
+                               D  +     + HLS+I  D+     V  G VLGK G TG A
+Sbjct  426  IIQVDDLPANKASLCRHEGDQLRDIYFFYAHLSEITSDISHNSSVKCGDVLGKTGCTGNA  485
+
+Query  256  T-------GPHMHWNVSLND-------ARVDPAIFIGAFQ  281
+                    G H+H+ V   +        R+DP  FI  F 
+Sbjct  486  AGMTTIELGAHLHFEVRKIERPGRGIVGRIDPVPFIDGFN  525
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.140    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1926654195
+
+
+Query= g4489.t1
+
+Length=307
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG042906(gb|WP_012908549) (ROD_RS25695) M23 family metallopeptid...  92.0    5e-21
+
+
+>VFG042906(gb|WP_012908549) (ROD_RS25695) M23 family metallopeptidase 
+[Colonization factor Citrobacter (CFC) type IV fimbriae 
+(VF1209) - Adherence (VFC0001)] [Citrobacter rodentium ICC168]
+Length=376
+
+ Score = 92.0 bits (227),  Expect = 5e-21, Method: Compositional matrix adjust.
+ Identities = 46/120 (38%), Positives = 73/120 (61%), Gaps = 0/120 (0%)
+
+Query  185  ISSPFGRRVNPVSGRLSMHKGIDFAAPAGSDVVAVAAGVVTWSGRKNGYGNVVEVGHADG  244
+            ++SP+G R +PV+ +   H+G+D  AP  S+V+AVA G +  +G     G  V V HADG
+Sbjct  171  VTSPYGMRYHPVTHQFKRHEGVDLRAPINSEVMAVADGEIAATGYGPVTGFYVTVNHADG  230
+
+Query  245  YTTLYAHNQKNLVEVGDLVKRGQVLAKVGSTGRSTGYHVHFEVMKDGRVMNPQSFIARAS  304
+            +++ Y H  K  V+ GD V RG V+A  G++GR+ G H+H E+    +  NP + ++ A+
+Sbjct  231  WSSRYLHLNKINVQTGDKVLRGNVIALSGASGRTNGPHLHLELSHRQQPANPMAMLSVAT  290
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2173537881
+
+
+Query= g5018.t1
+
+Length=225
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.133    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1368962319
+
+
+Query= g5465.t1
+
+Length=313
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.414    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2236538979
+
+
+Query= g2715.t1
+
+Length=377
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG042906(gb|WP_012908549) (ROD_RS25695) M23 family metallopeptid...  47.4    8e-06
+
+
+>VFG042906(gb|WP_012908549) (ROD_RS25695) M23 family metallopeptidase 
+[Colonization factor Citrobacter (CFC) type IV fimbriae 
+(VF1209) - Adherence (VFC0001)] [Citrobacter rodentium ICC168]
+Length=376
+
+ Score = 47.4 bits (111),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 29/103 (28%), Positives = 52/103 (50%), Gaps = 10/103 (10%)
+
+Query  277  NKGIDIAGSKGQAIVATADGRVVYAGNALRGYGNL----IIIKHNDDYLSAYAHNDTMLV  332
+            ++G+D+       ++A ADG +     A  GYG +    + + H D + S Y H + + V
+Sbjct  189  HEGVDLRAPINSEVMAVADGEI-----AATGYGPVTGFYVTVNHADGWSSRYLHLNKINV  243
+
+Query  333  REQQEVKAGQKIATMGSTG-TSSTRLHFEIRYKGKSVNPLRYL  374
+            +   +V  G  IA  G++G T+   LH E+ ++ +  NP+  L
+Sbjct  244  QTGDKVLRGNVIALSGASGRTNGPHLHLELSHRQQPANPMAML  286
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.125    0.356    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2872160225
+
+
+Query= g2822.t1
+
+Length=252
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043453(gb|WP_001829380) (aae) autolysin/adhesin Aae [SE2319 (V...  53.1    4e-08
+VFG043452(gb|WP_001170264) (aaa) autolysin/adhesin Aaa [SACOL0507...  46.2    7e-06
+
+
+>VFG043453(gb|WP_001829380) (aae) autolysin/adhesin Aae [SE2319 
+(VF1000) - Adherence (VFC0001)] [Staphylococcus epidermidis 
+ATCC 12228]
+Length=324
+
+ Score = 53.1 bits (126),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 41/118 (35%), Positives = 64/118 (54%), Gaps = 3/118 (3%)
+
+Query  11   NSLGIAVLLCTGLLLAGCSSNSGSGTYSGSVYTVKRGDTLYRISRATGTSVKELARLNGI  70
+            N L   ++    +L    SS+  + T SG+VYTVK GD+L  I+   GT+ +++ +LNG+
+Sbjct  55   NGLTSNLIFPNQVLKVSGSSSRATSTNSGTVYTVKAGDSLSSIAAKYGTTYQKIMQLNGL  114
+
+Query  71   SPPYTIEVGQRIKVRGSAKSSTSTRK--TSNKTATKTAAVRPSSSVPKSSWPPVGQRC  126
+            +  Y I  GQ++KV G A SS+  +   +S +TAT T     S S   S +    Q+ 
+Sbjct  115  N-NYLIFPGQKLKVSGKATSSSRAKASGSSGRTATYTVKYGDSLSAIASKYGTTYQKI  171
+
+
+>VFG043452(gb|WP_001170264) (aaa) autolysin/adhesin Aaa [SACOL0507 
+(VF0999) - Adherence (VFC0001)] [Staphylococcus aureus 
+subsp. aureus COL]
+Length=334
+
+ Score = 46.2 bits (108),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 27/72 (38%), Positives = 48/72 (67%), Gaps = 5/72 (7%)
+
+Query  29   SSNSGSGTYSGSVYTVKRGDTLYRISRATGTSVKELARLNGISPPYTIEVGQRIKVRGSA  88
+            S+NSG G+Y    YTV+ GD+L  I+   GT+ +++  LNG++  + I  GQ++KV G+A
+Sbjct  151  STNSGGGSY----YTVQAGDSLSLIASKYGTTYQKIMSLNGLN-NFFIYPGQKLKVTGNA  205
+
+Query  89   KSSTSTRKTSNK  100
+             +++ +  T+N+
+Sbjct  206  STNSGSATTTNR  217
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.130    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1625646638
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

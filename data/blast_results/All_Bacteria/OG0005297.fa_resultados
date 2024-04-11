@@ -1,0 +1,199 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3357.t1
+
+Length=271
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG048715(gb|WP_004140184) (KPR_RS13030) DUF4123 domain-containin...  72.0    1e-14
+VFG048711(gb|WP_012541978) (KPK_RS14595) DUF4123 domain-containin...  69.3    8e-14
+VFG048714(gb|WP_004224359) (KPN2242_RS10295) DUF4123 domain-conta...  69.3    1e-13
+VFG048716(gb|WP_012968408) (KVAR_RS14730) DUF4123 domain-containi...  68.9    1e-13
+VFG048712(gb|YP_005226605) (KPHS_23050) DUF4123 domain-containing...  67.8    3e-13
+
+
+>VFG048715(gb|WP_004140184) (KPR_RS13030) DUF4123 domain-containing 
+protein [T6SS (VF0569) - Effector delivery system (VFC0086)] 
+[Klebsiella pneumoniae subsp. rhinoscleromatis SB3432]
+Length=258
+
+ Score = 72.0 bits (175),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 61/231 (26%), Positives = 104/231 (45%), Gaps = 9/231 (4%)
+
+Query  24   HIDVLVDATGLDDYPLLAEHARQSDPPALFKLLEQTPEAALADEGPLLLRLEDG---HAA  80
+            HIDV++D   ++ + +L      S+P     L +  PE    ++ P+L+R++     H  
+Sbjct  22   HIDVIIDQCAVN-FSVLPALTTFSNPMMWQSLYQGLPEDIYPEDAPVLVRVDLSDAEHVQ  80
+
+Query  81   WLDELLERIDCRRHLMLLFSPWPLPRLGEHLRSCTQAEWNQGRSSGVLRFYEPGLF-MAV  139
+            WL  L   +     L++  S WP  +L + LR C  A+ ++GR  G+ RF++  +F    
+Sbjct  81   WLHNLAAEMMESAPLLICGSCWPFEQLADWLRDCVAAQ-HEGR-EGIFRFWDTRIFPFLF  138
+
+Query  140  SDMLDPRQSCYLHAPVSSWHWLDRDGRPRALAGHYQAHETPPLQAALRLEAHQVAALRAW  199
+            S +LD  Q   L  PV  W WLD D +     G  +  E+      +     Q   L   
+Sbjct  139  SHILDAEQQKQLLIPVLFWTWLDCDYQSSIRLGSGEIPESDKSVVQIEFTDSQFEKLMCV  198
+
+Query  200  SEAEAYRREYFVLPREHGLGSQESLLQHLVQAHLAADRQGLQDFDQRDAFV  250
+            S+   + R Y  +P E    ++++      +A L A  Q +   D+R+ +V
+Sbjct  199  SDTSQFLR-YESVP-EGMFTNRQAEFTACYEAMLTATEQRIVFDDKRNDWV  247
+
+
+>VFG048711(gb|WP_012541978) (KPK_RS14595) DUF4123 domain-containing 
+protein [T6SS (VF0569) - Effector delivery system (VFC0086)] 
+[Klebsiella pneumoniae 342]
+Length=259
+
+ Score = 69.3 bits (168),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 68/252 (27%), Positives = 110/252 (44%), Gaps = 14/252 (6%)
+
+Query  6    RHWARELWQRSRDRGLQT-HIDVLVDATGLDDYPLLAEHARQSDPPALFKLLEQTPEAAL  64
+            R W  E+      R  +T ++ V++D  G+D   + A ++   +  +LF  L   PEA +
+Sbjct  3    RQWIEEV--AGTCRAFETDYLHVIIDQAGVDFSVIPALNSLSVEWQSLFHGL---PEAFI  57
+
+Query  65   ADEGPLLLRLE-DGHAA--WLDELLERIDCRRHLMLLFSPWPLPRLGEHLRSCTQAEWNQ  121
+             D+ PL+ R   D H    WL ++ +++  +  L+L  + WP   L   L  C      +
+Sbjct  58   VDDAPLVARFTLDDHEQMRWLQDISQQLAIQAPLLLFCTYWPFSALANWLTQCMDI-LQE  116
+
+Query  122  GRSSGVLRFYEPGLF-MAVSDMLDPRQSCYLHAPVSSWHWLDRDGRPRALAGHYQAHETP  180
+            GR SG+LRFY+  +F +  + +L   Q   L  P   W W D DG+ + + G     E  
+Sbjct  117  GR-SGILRFYDTRVFPLLFTHILSEEQQEPLMRPALFWAWQDFDGQAKGIKGSGLPPERD  175
+
+Query  181  PLQAALRLEAHQVAALRAWSEAEAYRREYFVLPREHGLGSQESLLQHLVQAHLAADRQGL  240
+                 + L   Q+  L   S+           P      S++SL     Q  + A RQGL
+Sbjct  176  ENAPKIELSDRQLEHLMCISDVIVMLSH--CAPPAGMFDSRQSLFSACYQGMVEATRQGL  233
+
+Query  241  QDFDQRDAFVAQ  252
+               D R+ +V +
+Sbjct  234  LLDDAREDWVMK  245
+
+
+>VFG048714(gb|WP_004224359) (KPN2242_RS10295) DUF4123 domain-containing 
+protein [T6SS (VF0569) - Effector delivery system 
+(VFC0086)] [Klebsiella pneumoniae KCTC 2242]
+Length=259
+
+ Score = 69.3 bits (168),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 68/256 (27%), Positives = 111/256 (43%), Gaps = 13/256 (5%)
+
+Query  6    RHWARELWQRSRDRGLQTHIDVLVDATGLDDYPLLAEHARQSDPPALFKLLEQTPEAALA  65
+            R W  E+    R  G   ++ V++D  G++   + A ++   +  +LF  L   PE  + 
+Sbjct  3    RQWIEEVAGTCRAFG-TDYLHVIIDQAGVNFSVIPALNSLSVEWQSLFHGL---PEVFIV  58
+
+Query  66   DEGPLLLRLE-DGHAA--WLDELLERIDCRRHLMLLFSPWPLPRLGEHLRSCTQAEWNQG  122
+            D+ PL+ R   D H    WL ++ +++  +  L+L  + WP   L   L  C      +G
+Sbjct  59   DDAPLVARFTLDDHEQMRWLQDISQQLAIQAPLLLFCTYWPFSALANWLTQCMDI-LQEG  117
+
+Query  123  RSSGVLRFYEPGLF-MAVSDMLDPRQSCYLHAPVSSWHWLDRDGRPRALAGHYQAHETPP  181
+            R SG+LRFY+  +F +  + +L   Q   L  P   W W D DG+ + + G     E   
+Sbjct  118  R-SGILRFYDTRVFPLLFTHILSDEQQEPLMRPALFWAWQDLDGQAKGIKGSGLPPERDE  176
+
+Query  182  LQAALRLEAHQVAALRAWSEAEAYRREYFVLPREHGLGSQESLLQHLVQAHLAADRQGLQ  241
+                + L   Q+  L   S+           P      S++SL     Q  + A RQGL 
+Sbjct  177  NAPKIELSDRQLEHLMCISDVIVMLSH--CAPPAGMFDSRQSLFSACYQGMVEATRQGLL  234
+
+Query  242  DFDQRDAFV-AQWLRE  256
+              D R+ +V  +WL +
+Sbjct  235  LDDAREDWVMKKWLSD  250
+
+
+>VFG048716(gb|WP_012968408) (KVAR_RS14730) DUF4123 domain-containing 
+protein [T6SS (VF0569) - Effector delivery system (VFC0086)] 
+[Klebsiella variicola At-22]
+Length=259
+
+ Score = 68.9 bits (167),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 67/251 (27%), Positives = 108/251 (43%), Gaps = 12/251 (5%)
+
+Query  6    RHWARELWQRSRDRGLQTHIDVLVDATGLDDYPLLAEHARQSDPPALFKLLEQTPEAALA  65
+            R W  E+    R  G   ++ V++D  G D   + A ++   +  +LF  L   PEA + 
+Sbjct  3    RQWIEEVAGTCRAFG-TDYLHVIIDQAGGDFSVIPALNSLSVEWQSLFHGL---PEAFIV  58
+
+Query  66   DEGPLLLRLE-DGHAA--WLDELLERIDCRRHLMLLFSPWPLPRLGEHLRSCTQAEWNQG  122
+            D+ PL+ R   D H    WL ++ +++  +  L+L  + WP   L   L  C      +G
+Sbjct  59   DDAPLVARFTLDDHEQMRWLQDISQQLAIQAPLLLFCTYWPFSALANWLTQCMDI-LQEG  117
+
+Query  123  RSSGVLRFYEPGLF-MAVSDMLDPRQSCYLHAPVSSWHWLDRDGRPRALAGHYQAHETPP  181
+            R SG+LRFY+  +F +  + +L   Q   L  P   W W D DG+ + + G     E   
+Sbjct  118  R-SGILRFYDTRVFPLLFTHILSEEQQEPLMRPALFWAWQDFDGQAKGIKGSGLPPERDE  176
+
+Query  182  LQAALRLEAHQVAALRAWSEAEAYRREYFVLPREHGLGSQESLLQHLVQAHLAADRQGLQ  241
+                + L   Q+  L   S+           P      S++SL     Q  + A RQGL 
+Sbjct  177  NAPKIELSDRQLEHLMCISDVIVMLSH--CAPPAGMFDSRQSLFSACYQGMVEATRQGLL  234
+
+Query  242  DFDQRDAFVAQ  252
+              D R+ ++ +
+Sbjct  235  LDDAREDWIMK  245
+
+
+>VFG048712(gb|YP_005226605) (KPHS_23050) DUF4123 domain-containing 
+protein [T6SS (VF0569) - Effector delivery system (VFC0086)] 
+[Klebsiella pneumoniae subsp. pneumoniae HS11286]
+Length=259
+
+ Score = 67.8 bits (164),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 69/256 (27%), Positives = 112/256 (44%), Gaps = 13/256 (5%)
+
+Query  6    RHWARELWQRSRDRGLQTHIDVLVDATGLDDYPLLAEHARQSDPPALFKLLEQTPEAALA  65
+            R W  E+    R  G   ++ V++D  G+    + A ++   +  +LF  L   PEA + 
+Sbjct  3    RQWIEEVAGTCRAFG-TDYLHVIIDQAGVGFSVIPALNSLSVEWQSLFHGL---PEAFIV  58
+
+Query  66   DEGPLLLR--LED-GHAAWLDELLERIDCRRHLMLLFSPWPLPRLGEHLRSCTQAEWNQG  122
+            D+ PL+ R  L+D     WL ++ +++  +  L+L  + WP   L   L  C      +G
+Sbjct  59   DDAPLVARFTLDDLEQMRWLQDISQQLAIQAPLLLFCTYWPFSALANWLTQCMDI-LQEG  117
+
+Query  123  RSSGVLRFYEPGLF-MAVSDMLDPRQSCYLHAPVSSWHWLDRDGRPRALAGHYQAHETPP  181
+            R SG+LRFY+  +F +  + +L   Q   L  P   W W D DG+ + + G     E   
+Sbjct  118  R-SGILRFYDTRVFPLLFTHILSDEQQEPLMRPALFWAWQDLDGQAKGIKGSGLLPERDE  176
+
+Query  182  LQAALRLEAHQVAALRAWSEAEAYRREYFVLPREHGLGSQESLLQHLVQAHLAADRQGLQ  241
+                + L   Q+  L   S+           P      S++SL     Q  + A RQGL 
+Sbjct  177  KAPKIELSDRQLEHLMCISDVIVMLSH--CAPPAGMFDSRQSLFSACYQGMVEATRQGLL  234
+
+Query  242  DFDQRDAFV-AQWLRE  256
+              D R+ +V  +WL +
+Sbjct  235  LDDAREDWVMKKWLAD  250
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1826213431
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

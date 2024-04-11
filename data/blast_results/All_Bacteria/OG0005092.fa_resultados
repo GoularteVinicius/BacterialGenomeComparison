@@ -1,0 +1,115 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2574.t1
+
+Length=311
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002189(gb|WP_002359680) (cpsB/cdsA) phosphatidate cytidylyltra...  95.1    1e-22
+VFG045683(gb|WP_002294135) (cpsB/cdsA) phosphatidate cytidylyltra...  90.5    4e-21
+VFG045682(gb|WP_002296531) (cpsB/cdsA) phosphatidate cytidylyltra...  90.5    4e-21
+
+
+>VFG002189(gb|WP_002359680) (cpsB/cdsA) phosphatidate cytidylyltransferase 
+[Capsule (VF0361) - Immune modulation (VFC0258)] 
+[Enterococcus faecalis V583]
+Length=266
+
+ Score = 95.1 bits (235),  Expect = 1e-22, Method: Compositional matrix adjust.
+ Identities = 61/191 (32%), Positives = 108/191 (57%), Gaps = 14/191 (7%)
+
+Query  116  SMFSIFIPVYVFLLLPILASLGGDTKHFLERASKVQWGLMLAVFCISFVPALLTLDIPGF  175
+             M + FI  YV ++L + AS+     + +E A    + ++++++        ++    GF
+Sbjct  77   EMQTNFILFYVTVMLLLGASVISKNTYTIEEAG---FPVIVSLYVGMGFQNFISARSAGF  133
+
+Query  176  EGRNLLLIAYLVIVVQLSDVMQYICGKLFGKRKIAPNLSPSKTVEGFVGGIALATAIGAS  235
+            E     ++ + + +V  +D+  Y+ G+ FG+ K+ P++SP+KT+EG +GGI  A  + A 
+Sbjct  134  E-----VLLFALFIVWATDIGAYLFGRRFGRHKLMPDVSPNKTIEGALGGILSAVVVAAL  188
+
+Query  236  LWWIT------PFNLWQAALIALLINLLGFFGGLVMSAIKRDRGVKDWGHMIEGHGGMLD  289
+                T      P+ +    ++ +L +++G FG LV S+IKR  GVKD G+++ GHGG+LD
+Sbjct  189  FLVFTANKGLFPYPMPVMLVLTVLFSIVGQFGDLVESSIKRHYGVKDSGNILPGHGGILD  248
+
+Query  290  RLDSVCFAAPI  300
+            R DS+ F  PI
+Sbjct  249  RFDSLLFVFPI  259
+
+
+>VFG045683(gb|WP_002294135) (cpsB/cdsA) phosphatidate cytidylyltransferase 
+[Capsule (VF0361) - Immune modulation (VFC0258)] 
+[Enterococcus faecium Aus0085]
+Length=266
+
+ Score = 90.5 bits (223),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 46/114 (40%), Positives = 73/114 (64%), Gaps = 6/114 (5%)
+
+Query  193  SDVMQYICGKLFGKRKIAPNLSPSKTVEGFVGGIALATAIGASLWWITP----FN--LWQ  246
+            +D+  Y+ G+ +G+ K++P++SP+KT+EG +GGI  A  +      + P    FN  ++ 
+Sbjct  146  TDIGAYMVGRRYGQHKLSPDISPNKTIEGALGGIGSAVVVAFLYLLLYPAKELFNHGMFV  205
+
+Query  247  AALIALLINLLGFFGGLVMSAIKRDRGVKDWGHMIEGHGGMLDRLDSVCFAAPI  300
+              L+ ++ + +G FG LV SAIKR   VKD G+++ GHGG+LDR DS+ F  PI
+Sbjct  206  MLLMTIIFSAVGQFGDLVESAIKRHYDVKDSGNILPGHGGILDRFDSLLFVFPI  259
+
+
+>VFG045682(gb|WP_002296531) (cpsB/cdsA) phosphatidate cytidylyltransferase 
+[Capsule (VF0361) - Immune modulation (VFC0258)] 
+[Enterococcus faecium Aus0004]
+Length=266
+
+ Score = 90.5 bits (223),  Expect = 4e-21, Method: Compositional matrix adjust.
+ Identities = 46/114 (40%), Positives = 73/114 (64%), Gaps = 6/114 (5%)
+
+Query  193  SDVMQYICGKLFGKRKIAPNLSPSKTVEGFVGGIALATAIGASLWWITP----FN--LWQ  246
+            +D+  Y+ G+ +G+ K++P++SP+KT+EG +GGI  A  +      + P    FN  ++ 
+Sbjct  146  TDIGAYMVGRRYGQHKLSPDISPNKTIEGALGGIGSAVVVAFLYLLLYPAKELFNHGMFV  205
+
+Query  247  AALIALLINLLGFFGGLVMSAIKRDRGVKDWGHMIEGHGGMLDRLDSVCFAAPI  300
+              L+ ++ + +G FG LV SAIKR   VKD G+++ GHGG+LDR DS+ F  PI
+Sbjct  206  MLLMTIIFSAVGQFGDLVESAIKRHYDVKDSGNILPGHGGILDRFDSLLFVFPI  259
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.146    0.484    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2215538613
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

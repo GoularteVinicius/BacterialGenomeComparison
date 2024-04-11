@@ -1,0 +1,266 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g813.t1
+
+Length=506
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044097(gb|NP_252909) (PA4219) hypothetical protein [Pyochelin ...  75.9    2e-14
+
+
+>VFG044097(gb|NP_252909) (PA4219) hypothetical protein [Pyochelin 
+(VF0095) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+aeruginosa PAO1]
+Length=501
+
+ Score = 75.9 bits (185),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 97/392 (25%), Positives = 167/392 (43%), Gaps = 28/392 (7%)
+
+Query  1    MNLRQSMSGLHTWSGLLVSWLLFVIVFAGSLASFDKELTRWMQPDLHLPGAQSLGADQVR  60
+            M  R  +  LH  +G L   LLFV++F+G+ +    +L  W++      G ++L  +++ 
+Sbjct  1    MAARPLLLSLHGGAGALFGVLLFVVLFSGAWSLGHDDLREWLRAPAQA-GGEALALERLL  59
+
+Query  61   DWLRQRAPDAHAWWMLPPSERAPYWNAGWEPRDGSEFKVFQLDAVSGQPLPKTVGGEFFF  120
+            +   +   D     +L P+      +A +   D        LD  SG+ LP     +   
+Sbjct  60   ERAGEEGVDIRDATLLLPAPG----HAAFSVCDARLDCRLDLDPASGRVLPPMPALDLLL  115
+
+Query  121  TLHYDLHAGMVGLYIVGIAGMLMLVALVSGTIVHRRIFKDFFTLRPQAARQRAWLDAHNV  180
+             LH  L  G  G  +V + G+ +L+  ++G ++H R ++D    R     + A  D H +
+Sbjct  116  NLHKSLFVGFPGRVLVSLFGVSLLLLCLAGVLLHSRRWRDLRRWRRDRGLRLALFDLHGL  175
+
+Query  181  LGVIGLPFHLMIAYTG-LVIFIVYYMQAGLQVVYQNDGERFFHEVQGSYEREEVGRPAGP  239
+            +G+ GLP+ L+  +TG L             V Y  +  R F E+ G       GRP   
+Sbjct  176  IGIWGLPWLLLFGFTGALSGLGALGTLLLAPVAYPQEPNRVFVELMGPPPPAAEGRPLAS  235
+
+Query  240  PASIDGLIVEAGKVWGDG-GAPGWI----SVHHPYDEAATVDIR--RRDASRILDDQRTV  292
+               +D L+       GD   APG++    S+ H  D A +V+I   RR      + +R  
+Sbjct  236  RIDLDRLLA------GDAVRAPGFVAQRLSLSHAGDVAGSVEIAGIRRGLPSTANFERH-  288
+
+Query  293  NFDASSGELLHAQPSYAPGY--ATYGWLTGLHMIQWG------GQLVRWMYLLLGLSGAM  344
+             +  + G LL  + S   G+    +  +  LH  Q+          +R ++L +GL   +
+Sbjct  289  RYRLADGTLLGERSSAQRGFWLRAFIAVQPLHFAQYQWLGPGWSAALRGLHLAMGLGACL  348
+
+Query  345  MIFGGLQVWLAKREVRGSRGVGLVRALNLAVC  376
+            +   GL +WL +R       V L++ L+   C
+Sbjct  349  LCASGLYLWLQRRASAPDARVRLLQRLSQGFC  380
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.140    0.457    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4176078510
+
+
+Query= g1940.t1
+
+Length=383
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044097(gb|NP_252909) (PA4219) hypothetical protein [Pyochelin ...  53.5    1e-07
+
+
+>VFG044097(gb|NP_252909) (PA4219) hypothetical protein [Pyochelin 
+(VF0095) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+aeruginosa PAO1]
+Length=501
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 83/314 (26%), Positives = 128/314 (41%), Gaps = 61/314 (19%)
+
+Query  98   LVPPPENGHMQPFDARTGEFFDALP------PPGGFMYLMLKLHTDLFLGLPGYLFLGLM  151
+            L+P P +      DAR     D  P      PP   + L+L LH  LF+G PG + + L 
+Sbjct  75   LLPAPGHAAFSVCDARLDCRLDLDPASGRVLPPMPALDLLLNLHKSLFVGFPGRVLVSLF  134
+
+Query  152  GLLLVASLVSGVVVYTPFMRKLDFATVRAERSRRLKWLDLHNLLGIVTLSWVLVVGVTGV  211
+            G+ L+   ++GV++++   R L            L   DLH L+GI  L W+L+ G TG 
+Sbjct  135  GVSLLLLCLAGVLLHSRRWRDLRRWRRDRGLRLAL--FDLHGLIGIWGLPWLLLFGFTGA  192
+
+Query  212  -------INTLALPILMLWQGGQL----------AEMTAPYKDAPPLQRLGSLDA-----  249
+                      L  P+    +  ++          A    P      L RL + DA     
+Sbjct  193  LSGLGALGTLLLAPVAYPQEPNRVFVELMGPPPPAAEGRPLASRIDLDRLLAGDAVRAPG  252
+
+Query  250  ------ALATARRAAPDMEVSFV--GFPGTQFSSQHHYAVFMRGNTPLTERLLKPALIDA  301
+                  +L+ A   A  +E++ +  G P T    +H Y   +   T L ER        A
+Sbjct  253  FVAQRLSLSHAGDVAGSVEIAGIRRGLPSTANFERHRYR--LADGTLLGER------SSA  304
+
+Query  302  QSGELTDMREMPLYVKTLLLSQPLHFGDYGGM------PLKIVWALLDLVSIVILASGLY  355
+            Q G          +++  +  QPLHF  Y  +       L+ +   + L + ++ ASGLY
+Sbjct  305  QRG---------FWLRAFIAVQPLHFAQYQWLGPGWSAALRGLHLAMGLGACLLCASGLY  355
+
+Query  356  LWLGRRKTPLEKRL  369
+            LWL RR +  + R+
+Sbjct  356  LWLQRRASAPDARV  369
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.142    0.435    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2934825539
+
+
+Query= g2442.t1
+
+Length=403
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.446    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3143709919
+
+
+Query= g2502.t1
+
+Length=382
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.143    0.484    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2924381320
+
+
+Query= g3862.t1
+
+Length=471
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.453    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3812489585
+
+
+Query= g4301.t1
+
+Length=501
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044097(gb|NP_252909) (PA4219) hypothetical protein [Pyochelin ...  939     0.0  
+
+
+>VFG044097(gb|NP_252909) (PA4219) hypothetical protein [Pyochelin 
+(VF0095) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+aeruginosa PAO1]
+Length=501
+
+ Score = 939 bits (2427),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 501/501 (100%), Positives = 501/501 (100%), Gaps = 0/501 (0%)
+
+Query  1    MAARPLLLSLHGGAGALFGVLLFVVLFSGAWSLGHDDLREWLRAPAQAGGEALALERLLE  60
+            MAARPLLLSLHGGAGALFGVLLFVVLFSGAWSLGHDDLREWLRAPAQAGGEALALERLLE
+Sbjct  1    MAARPLLLSLHGGAGALFGVLLFVVLFSGAWSLGHDDLREWLRAPAQAGGEALALERLLE  60
+
+Query  61   RAGEEGVDIRDATLLLPAPGHAAFSVCDARLDCRLDLDPASGRVLPPMPALDLLLNLHKS  120
+            RAGEEGVDIRDATLLLPAPGHAAFSVCDARLDCRLDLDPASGRVLPPMPALDLLLNLHKS
+Sbjct  61   RAGEEGVDIRDATLLLPAPGHAAFSVCDARLDCRLDLDPASGRVLPPMPALDLLLNLHKS  120
+
+Query  121  LFVGFPGRVLVSLFGVSLLLLCLAGVLLHSRRWRDLRRWRRDRGLRLALFDLHGLIGIWG  180
+            LFVGFPGRVLVSLFGVSLLLLCLAGVLLHSRRWRDLRRWRRDRGLRLALFDLHGLIGIWG
+Sbjct  121  LFVGFPGRVLVSLFGVSLLLLCLAGVLLHSRRWRDLRRWRRDRGLRLALFDLHGLIGIWG  180
+
+Query  181  LPWLLLFGFTGALSGLGALGTLLLAPVAYPQEPNRVFVELMGPPPPAAEGRPLASRIDLD  240
+            LPWLLLFGFTGALSGLGALGTLLLAPVAYPQEPNRVFVELMGPPPPAAEGRPLASRIDLD
+Sbjct  181  LPWLLLFGFTGALSGLGALGTLLLAPVAYPQEPNRVFVELMGPPPPAAEGRPLASRIDLD  240
+
+Query  241  RLLAGDAVRAPGFVAQRLSLSHAGDVAGSVEIAGIRRGLPSTANFERHRYRLADGTLLGE  300
+            RLLAGDAVRAPGFVAQRLSLSHAGDVAGSVEIAGIRRGLPSTANFERHRYRLADGTLLGE
+Sbjct  241  RLLAGDAVRAPGFVAQRLSLSHAGDVAGSVEIAGIRRGLPSTANFERHRYRLADGTLLGE  300
+
+Query  301  RSSAQRGFWLRAFIAVQPLHFAQYQWLGPGWSAALRGLHLAMGLGACLLCASGLYLWLQR  360
+            RSSAQRGFWLRAFIAVQPLHFAQYQWLGPGWSAALRGLHLAMGLGACLLCASGLYLWLQR
+Sbjct  301  RSSAQRGFWLRAFIAVQPLHFAQYQWLGPGWSAALRGLHLAMGLGACLLCASGLYLWLQR  360
+
+Query  361  RASAPDARVRLLQRLSQGFCAGLVAAAALLLLGLQLAPSELLAGPWPGRLFLVLWAAAGL  420
+            RASAPDARVRLLQRLSQGFCAGLVAAAALLLLGLQLAPSELLAGPWPGRLFLVLWAAAGL
+Sbjct  361  RASAPDARVRLLQRLSQGFCAGLVAAAALLLLGLQLAPSELLAGPWPGRLFLVLWAAAGL  420
+
+Query  421  AALLLPGDWPLARGLLGVAGLACLAAAVAHLAPWLMRGRLPALGPDLTLILCGALLIRHA  480
+            AALLLPGDWPLARGLLGVAGLACLAAAVAHLAPWLMRGRLPALGPDLTLILCGALLIRHA
+Sbjct  421  AALLLPGDWPLARGLLGVAGLACLAAAVAHLAPWLMRGRLPALGPDLTLILCGALLIRHA  480
+
+Query  481  WMQARAAAPPAHPRVTGDHHA  501
+            WMQARAAAPPAHPRVTGDHHA
+Sbjct  481  WMQARAAAPPAHPRVTGDHHA  501
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.143    0.465    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4124137235
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

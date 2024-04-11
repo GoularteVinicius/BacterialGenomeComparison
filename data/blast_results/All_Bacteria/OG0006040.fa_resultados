@@ -1,0 +1,191 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1317.t1
+
+Length=124
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000517(gb|NP_460382) (ssaP) type III secretion system needle l...  259     2e-91
+VFG003930(gb|WP_001223305) (ssaP) type III secretion system needl...  258     8e-91
+VFG020884(gb|WP_001223306) (ssaP) type III secretion system needl...  257     1e-90
+VFG003931(gb|WP_001223307) (ssaP) type III secretion system needl...  256     4e-90
+VFG020878(gb|WP_001223311) (ssaP) type III secretion system needl...  254     2e-89
+VFG018446(gb|WP_001223314) (ssaP) type III secretion system needl...  220     5e-76
+
+
+>VFG000517(gb|NP_460382) (ssaP) type III secretion system needle 
+length regulator SsaP [TTSS (SPI-2 encode) (VF0321) - Effector 
+delivery system (VFC0086)] [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. LT2]
+Length=124
+
+ Score = 259 bits (663),  Expect = 2e-91, Method: Compositional matrix adjust.
+ Identities = 124/124 (100%), Positives = 124/124 (100%), Gaps = 0/124 (0%)
+
+Query  1    MRITKVEGSLGLPCQSYQDDNEAEAERMDFEQLMHQALPIGENNPPAALNKNVVFTQRYR  60
+            MRITKVEGSLGLPCQSYQDDNEAEAERMDFEQLMHQALPIGENNPPAALNKNVVFTQRYR
+Sbjct  1    MRITKVEGSLGLPCQSYQDDNEAEAERMDFEQLMHQALPIGENNPPAALNKNVVFTQRYR  60
+
+Query  61   VSGGYLDGVECEVCESGGLIQLRINVPHHEIYRSMKALKQWLESQLLHMGYIISLEIFYV  120
+            VSGGYLDGVECEVCESGGLIQLRINVPHHEIYRSMKALKQWLESQLLHMGYIISLEIFYV
+Sbjct  61   VSGGYLDGVECEVCESGGLIQLRINVPHHEIYRSMKALKQWLESQLLHMGYIISLEIFYV  120
+
+Query  121  KNSE  124
+            KNSE
+Sbjct  121  KNSE  124
+
+
+>VFG003930(gb|WP_001223305) (ssaP) type III secretion system needle 
+length regulator SsaP [TTSS (SPI-2 encode) (VF0321) - 
+Effector delivery system (VFC0086)] [Salmonella enterica subsp. 
+enterica serovar Paratyphi A str. ATCC 9150]
+Length=124
+
+ Score = 258 bits (659),  Expect = 8e-91, Method: Compositional matrix adjust.
+ Identities = 123/124 (99%), Positives = 123/124 (99%), Gaps = 0/124 (0%)
+
+Query  1    MRITKVEGSLGLPCQSYQDDNEAEAERMDFEQLMHQALPIGENNPPAALNKNVVFTQRYR  60
+            MRITKVEGSLGLPCQSYQDDNEAEAERMDFEQLMHQALPIGENNPP ALNKNVVFTQRYR
+Sbjct  1    MRITKVEGSLGLPCQSYQDDNEAEAERMDFEQLMHQALPIGENNPPVALNKNVVFTQRYR  60
+
+Query  61   VSGGYLDGVECEVCESGGLIQLRINVPHHEIYRSMKALKQWLESQLLHMGYIISLEIFYV  120
+            VSGGYLDGVECEVCESGGLIQLRINVPHHEIYRSMKALKQWLESQLLHMGYIISLEIFYV
+Sbjct  61   VSGGYLDGVECEVCESGGLIQLRINVPHHEIYRSMKALKQWLESQLLHMGYIISLEIFYV  120
+
+Query  121  KNSE  124
+            KNSE
+Sbjct  121  KNSE  124
+
+
+>VFG020884(gb|WP_001223306) (ssaP) type III secretion system needle 
+length regulator SsaP [TTSS (SPI-2 encode) (VF0321) - 
+Effector delivery system (VFC0086)] [Salmonella enterica subsp. 
+enterica serovar Schwarzengrund str. CVM19633]
+Length=124
+
+ Score = 257 bits (657),  Expect = 1e-90, Method: Compositional matrix adjust.
+ Identities = 122/124 (98%), Positives = 123/124 (99%), Gaps = 0/124 (0%)
+
+Query  1    MRITKVEGSLGLPCQSYQDDNEAEAERMDFEQLMHQALPIGENNPPAALNKNVVFTQRYR  60
+            MRITKVEGSLGLPCQSYQDDNEAEAERMDFEQLMHQALPIGENNPP ALNKNVVFTQRYR
+Sbjct  1    MRITKVEGSLGLPCQSYQDDNEAEAERMDFEQLMHQALPIGENNPPVALNKNVVFTQRYR  60
+
+Query  61   VSGGYLDGVECEVCESGGLIQLRINVPHHEIYRSMKALKQWLESQLLHMGYIISLEIFYV  120
+            VSGGYLDGVECEVCESGGLIQLR+NVPHHEIYRSMKALKQWLESQLLHMGYIISLEIFYV
+Sbjct  61   VSGGYLDGVECEVCESGGLIQLRVNVPHHEIYRSMKALKQWLESQLLHMGYIISLEIFYV  120
+
+Query  121  KNSE  124
+            KNSE
+Sbjct  121  KNSE  124
+
+
+>VFG003931(gb|WP_001223307) (ssaP) type III secretion system needle 
+length regulator SsaP [TTSS (SPI-2 encode) (VF0321) - 
+Effector delivery system (VFC0086)] [Salmonella enterica subsp. 
+enterica serovar Choleraesuis str. SC-B67]
+Length=124
+
+ Score = 256 bits (654),  Expect = 4e-90, Method: Compositional matrix adjust.
+ Identities = 122/124 (98%), Positives = 123/124 (99%), Gaps = 0/124 (0%)
+
+Query  1    MRITKVEGSLGLPCQSYQDDNEAEAERMDFEQLMHQALPIGENNPPAALNKNVVFTQRYR  60
+            MRITKVEGSLGLPCQSYQDDNEAEAERMDFEQLMHQALPIGENN PAALNKNVVFTQRYR
+Sbjct  1    MRITKVEGSLGLPCQSYQDDNEAEAERMDFEQLMHQALPIGENNSPAALNKNVVFTQRYR  60
+
+Query  61   VSGGYLDGVECEVCESGGLIQLRINVPHHEIYRSMKALKQWLESQLLHMGYIISLEIFYV  120
+            VSGGYLDGVECEVCESGGLIQL+INVPHHEIYRSMKALKQWLESQLLHMGYIISLEIFYV
+Sbjct  61   VSGGYLDGVECEVCESGGLIQLKINVPHHEIYRSMKALKQWLESQLLHMGYIISLEIFYV  120
+
+Query  121  KNSE  124
+            KNSE
+Sbjct  121  KNSE  124
+
+
+>VFG020878(gb|WP_001223311) (ssaP) type III secretion system needle 
+length regulator SsaP [TTSS (SPI-2 encode) (VF0321) - 
+Effector delivery system (VFC0086)] [Salmonella enterica subsp. 
+enterica serovar Agona str. SL483]
+Length=124
+
+ Score = 254 bits (649),  Expect = 2e-89, Method: Compositional matrix adjust.
+ Identities = 120/124 (97%), Positives = 123/124 (99%), Gaps = 0/124 (0%)
+
+Query  1    MRITKVEGSLGLPCQSYQDDNEAEAERMDFEQLMHQALPIGENNPPAALNKNVVFTQRYR  60
+            MRITKVEGSLGLPCQSYQD+NEAEAERMDFEQLMHQALPIGENNPPAALNKN+VFTQRYR
+Sbjct  1    MRITKVEGSLGLPCQSYQDENEAEAERMDFEQLMHQALPIGENNPPAALNKNMVFTQRYR  60
+
+Query  61   VSGGYLDGVECEVCESGGLIQLRINVPHHEIYRSMKALKQWLESQLLHMGYIISLEIFYV  120
+            VSGGYLDGVECEVCESGGLIQLR+NVPHHEIYRSMK LKQWLESQLLHMGYIISLEIFYV
+Sbjct  61   VSGGYLDGVECEVCESGGLIQLRVNVPHHEIYRSMKVLKQWLESQLLHMGYIISLEIFYV  120
+
+Query  121  KNSE  124
+            KNSE
+Sbjct  121  KNSE  124
+
+
+>VFG018446(gb|WP_001223314) (ssaP) type III secretion system needle 
+length regulator SsaP [TTSS (SPI-2 encode) (VF0321) - 
+Effector delivery system (VFC0086)] [Salmonella enterica subsp. 
+arizonae serovar 62:z4,z23:-- str. RSK2980]
+Length=123
+
+ Score = 220 bits (561),  Expect = 5e-76, Method: Compositional matrix adjust.
+ Identities = 108/124 (87%), Positives = 115/124 (93%), Gaps = 1/124 (1%)
+
+Query  1    MRITKVEGSLGLPCQSYQDDNEAEAERMDFEQLMHQALPIGENNPPAALNKNVVFTQRYR  60
+            MRITKVEGSLGLP +SYQDDNEAEA R DFEQLM+QALPIGENN   ALNKNVVFTQ YR
+Sbjct  1    MRITKVEGSLGLPRKSYQDDNEAEAGRTDFEQLMYQALPIGENNL-VALNKNVVFTQCYR  59
+
+Query  61   VSGGYLDGVECEVCESGGLIQLRINVPHHEIYRSMKALKQWLESQLLHMGYIISLEIFYV  120
+            VSGGYLDGVECEVCESGGLIQL+INVPHHE+YRSMK LKQWLESQLL++GY+ISLEIFYV
+Sbjct  60   VSGGYLDGVECEVCESGGLIQLKINVPHHEVYRSMKTLKQWLESQLLNIGYVISLEIFYV  119
+
+Query  121  KNSE  124
+             NSE
+Sbjct  120  NNSE  123
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 390094812
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

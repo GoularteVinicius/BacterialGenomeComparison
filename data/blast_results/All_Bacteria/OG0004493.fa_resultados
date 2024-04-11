@@ -1,0 +1,313 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g201.t1
+
+Length=270
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG042370(gb|AAT36311) (rpeA) RpeA [RpeA (VF1168) - Effector deli...  52.0    2e-07
+VFG036636(gb|WP_013448551) (tonB) energy transducer TonB [Ton sys...  47.8    3e-06
+VFG044141(gb|WP_002209481) (YPO_RS20725) energy transducer TonB [...  47.8    3e-06
+VFG006286(gb|WP_002221393) (tonB) energy transducer TonB [Ton sys...  47.4    3e-06
+VFG036626(gb|WP_002230816) (tonB) energy transducer TonB [Ton sys...  47.4    3e-06
+VFG036628(gb|WP_002224029) (tonB) energy transducer TonB [Ton sys...  47.4    3e-06
+VFG006285(gb|WP_002212590) (tonB) energy transducer TonB [Ton sys...  47.0    4e-06
+VFG036633(gb|WP_014582212) (tonB) energy transducer TonB [Ton sys...  47.0    4e-06
+VFG036630(gb|WP_014580971) (tonB) energy transducer TonB [Ton sys...  46.6    5e-06
+VFG006284(gb|WP_002236738) (tonB) energy transducer TonB [Ton sys...  46.6    6e-06
+VFG037521(gb|WP_000837764) (ACICU_RS04595) TonB family protein [H...  46.2    7e-06
+VFG006287(gb|WP_003693736) (tonB) energy transducer TonB [Ton sys...  45.8    1e-05
+
+
+>VFG042370(gb|AAT36311) (rpeA) RpeA [RpeA (VF1168) - Effector 
+delivery system (VFC0086)] [Escherichia coli O15:H- str. 83/39]
+Length=1228
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Composition-based stats.
+ Identities = 29/70 (41%), Positives = 32/70 (46%), Gaps = 7/70 (10%)
+
+Query  94   PAPPVVEPPPPEPLPPVVEEPPPPVVDENAVKPPPPKPVPKPKPKPKPQPRPKPAPKAVE  153
+            PAPP  E    +P+PP  E+P PP   E  V P   KPVP    KP P    KP P   E
+Sbjct  870  PAPPESE----KPVPPESEKPVPPE-SEKPVPPESEKPVPPETEKPVPPETEKPVPPETE  924
+
+Query  154  PAPPAPPQPA  163
+               P   QP 
+Sbjct  925  --TPGATQPG  932
+
+
+ Score = 50.8 bits (120),  Expect = 5e-07, Method: Composition-based stats.
+ Identities = 26/62 (42%), Positives = 28/62 (45%), Gaps = 3/62 (5%)
+
+Query  106  PLPPVVEEPPPPVVDENAVKPPPPKPVPKPKPKPKPQPRPKPAPKAVEPAPPAPPQPAAP  165
+            P PP  E+P PP   E  V P   KPVP    KP P    KP P   E   P PP+   P
+Sbjct  870  PAPPESEKPVPPE-SEKPVPPESEKPVPPESEKPVPPETEKPVPPETEK--PVPPETETP  926
+
+Query  166  PA  167
+             A
+Sbjct  927  GA  928
+
+
+ Score = 50.4 bits (119),  Expect = 6e-07, Method: Composition-based stats.
+ Identities = 28/67 (42%), Positives = 34/67 (51%), Gaps = 11/67 (16%)
+
+Query  68   WLSQQRTPALPEVPPQVPPMTIEFTAPAPPVVEPP-PPE---PLPPVVEEPPPPVVDENA  123
+            W  + + PA PE    VPP   E   P PP  E P PPE   P+PP  E+P PP  +   
+Sbjct  863  WQLKGKNPAPPESEKPVPP---ESEKPVPPESEKPVPPESEKPVPPETEKPVPPETE---  916
+
+Query  124  VKPPPPK  130
+             KP PP+
+Sbjct  917  -KPVPPE  922
+
+
+>VFG036636(gb|WP_013448551) (tonB) energy transducer TonB [Ton 
+system (VF0895) - Nutritional/Metabolic factor (VFC0272)] [Neisseria 
+lactamica 020-06]
+Length=277
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 32/82 (39%), Positives = 41/82 (50%), Gaps = 10/82 (12%)
+
+Query  191  PAPEYPALAMRRGWEGTVLLRVHVLASGSPSEIQVQKSSGREALDQAAVKAVKRWSFVPA  250
+            P P YP L+M    +GTV+L V V   G    ++V KSSG   LD AA KA        A
+Sbjct  204  PRPAYPTLSMENDEQGTVVLSVLVSPGGRVESVKVVKSSGFSRLDNAARKA--------A  255
+
+Query  251  KRGDKAEDGW--VSVPIDFKLN  270
+            + G    + W    VP+ F+LN
+Sbjct  256  QNGHFQANAWTEFKVPVKFELN  277
+
+
+>VFG044141(gb|WP_002209481) (YPO_RS20725) energy transducer TonB 
+[HasA-type hemophore-mediated heme uptake system (VF1029) 
+- Nutritional/Metabolic factor (VFC0272)] [Yersinia pestis 
+CO92]
+Length=267
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 60/247 (24%), Positives = 94/247 (38%), Gaps = 34/247 (14%)
+
+Query  56   LFALTLHGAVIHWLSQQRTPALPEVPPQVPPMTI----EFTAPAPP-VVEPPPPEPLPPV  110
+            L A  +H   + WLS    PA+P   P    M +    EF    P   V       + P 
+Sbjct  19   LLACGIHIYALWWLSTASIPAIPTSYPAAIMMELSAEPEFMQNLPQNSVVGITQNIIEPA  78
+
+Query  111  VEE---PPPPVVD--------ENAVKPPPPKPVPKPKPKPKPQPRPKPAPKAVEPAPP--  157
+            VE+    P  +VD        E   +    +P+   +P        KP  K  + +    
+Sbjct  79   VEQRVNQPDDIVDLPTLPEQPEGQREITRKEPIKVKRPAENRATSRKPVNKETQESDSKQ  138
+
+Query  158  -------------APPQPAAPPAPPAPAAAPAPLTPPSANAGYLHNPAPEYPALAMRRGW  204
+                            Q AA     +     A ++  S   G+L      YP+ A ++  
+Sbjct  139  SSPAAAASAMLSGTSQQVAAAVNSDSSHRQQAQVSWKSRLQGHLMG-FKRYPSSARKQQQ  197
+
+Query  205  EGTVLLRVHVLASGSPSEIQVQKSSGREALDQAAVKAVKRWSFVPAKRGDKAEDGWV--S  262
+            +GT ++R  V  +G  S +Q+  SSG  ALD+ A+  +KR   +P    +    G +  S
+Sbjct  198  QGTAMIRFVVDKNGYVSSVQLSHSSGTSALDREALAIIKRAQPLPKPPAELLSQGQITLS  257
+
+Query  263  VPIDFKL  269
+            +P+DF L
+Sbjct  258  LPVDFNL  264
+
+
+>VFG006286(gb|WP_002221393) (tonB) energy transducer TonB [Ton 
+system (VF0895) - Nutritional/Metabolic factor (VFC0272)] [Neisseria 
+meningitidis FAM18]
+Length=278
+
+ Score = 47.4 bits (111),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 46/161 (29%), Positives = 57/161 (35%), Gaps = 28/161 (17%)
+
+Query  127  PPPKPVPKPKPKPKPQPRPKPAPKAVEPAPPAPPQPAAPPAPP---------------AP  171
+            P  KPV KP  KP   P    A    E                                 
+Sbjct  129  PAEKPVEKPSEKPAEHPSNASAKADSEQGNGEETGTKGDGTGRGEGSGKGSGGVKGEHGE  188
+
+Query  172  AAAPAPLTPPSANAGYLHNPAPEYPALAMRRGWEGTVLLRVHVLASGSPSEIQVQKSSGR  231
+             A  +   P  AN      P P YP L+M    +GTV+L V V   G    +++ KSSG 
+Sbjct  189  GAGSSKGNPLRANGSI---PRPAYPTLSMENDEQGTVVLSVLVSPGGHVESVKIVKSSGF  245
+
+Query  232  EALDQAAVKAVKRWSFVPAKRGDKAEDGWVS--VPIDFKLN  270
+              LD AA KA        A+ G    + W    VP+ F+LN
+Sbjct  246  SRLDNAARKA--------AQNGHFQANAWTEFKVPVKFELN  278
+
+
+>VFG036626(gb|WP_002230816) (tonB) energy transducer TonB [Ton 
+system (VF0895) - Nutritional/Metabolic factor (VFC0272)] [Neisseria 
+meningitidis 8013]
+Length=280
+
+ Score = 47.4 bits (111),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 31/82 (38%), Positives = 41/82 (50%), Gaps = 10/82 (12%)
+
+Query  191  PAPEYPALAMRRGWEGTVLLRVHVLASGSPSEIQVQKSSGREALDQAAVKAVKRWSFVPA  250
+            P P YP L+M    +GTV+L V V   G    +++ KSSG   LD AA KA        A
+Sbjct  207  PRPAYPTLSMENDEQGTVVLSVLVSPGGHVESVKIVKSSGFSRLDNAARKA--------A  258
+
+Query  251  KRGDKAEDGW--VSVPIDFKLN  270
+            + G    + W    VP+ F+LN
+Sbjct  259  QNGHFQANAWTEFKVPVKFELN  280
+
+
+>VFG036628(gb|WP_002224029) (tonB) energy transducer TonB [Ton 
+system (VF0895) - Nutritional/Metabolic factor (VFC0272)] [Neisseria 
+meningitidis alpha710]
+Length=280
+
+ Score = 47.4 bits (111),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 31/82 (38%), Positives = 41/82 (50%), Gaps = 10/82 (12%)
+
+Query  191  PAPEYPALAMRRGWEGTVLLRVHVLASGSPSEIQVQKSSGREALDQAAVKAVKRWSFVPA  250
+            P P YP L+M    +GTV+L V V   G    +++ KSSG   LD AA KA        A
+Sbjct  207  PRPAYPTLSMENDEQGTVVLSVLVSPGGHVESVKIVKSSGFSRLDNAARKA--------A  258
+
+Query  251  KRGDKAEDGW--VSVPIDFKLN  270
+            + G    + W    VP+ F+LN
+Sbjct  259  QNGHFQANAWTEFKVPVKFELN  280
+
+
+>VFG006285(gb|WP_002212590) (tonB) energy transducer TonB [Ton 
+system (VF0895) - Nutritional/Metabolic factor (VFC0272)] [Neisseria 
+meningitidis MC58]
+Length=280
+
+ Score = 47.0 bits (110),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 31/82 (38%), Positives = 41/82 (50%), Gaps = 10/82 (12%)
+
+Query  191  PAPEYPALAMRRGWEGTVLLRVHVLASGSPSEIQVQKSSGREALDQAAVKAVKRWSFVPA  250
+            P P YP L+M    +GTV+L V V   G    +++ KSSG   LD AA KA        A
+Sbjct  207  PRPAYPTLSMENDEQGTVVLSVLVSPGGHVESVKIVKSSGFSRLDNAARKA--------A  258
+
+Query  251  KRGDKAEDGW--VSVPIDFKLN  270
+            + G    + W    VP+ F+LN
+Sbjct  259  QNGHFQANAWTEFKVPVKFELN  280
+
+
+>VFG036633(gb|WP_014582212) (tonB) energy transducer TonB [Ton 
+system (VF0895) - Nutritional/Metabolic factor (VFC0272)] [Neisseria 
+meningitidis M01-240355]
+Length=278
+
+ Score = 47.0 bits (110),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 46/161 (29%), Positives = 57/161 (35%), Gaps = 28/161 (17%)
+
+Query  127  PPPKPVPKPKPKPKPQPRPKPAPKAVEPAPPAPPQPAAPPAPP---------------AP  171
+            P  KPV KP  KP   P    A    E                                 
+Sbjct  129  PAEKPVEKPSEKPAEHPGNASAKADSEQGNGEETGTKGDGTGRGEGSGKGSGGVKGEHGE  188
+
+Query  172  AAAPAPLTPPSANAGYLHNPAPEYPALAMRRGWEGTVLLRVHVLASGSPSEIQVQKSSGR  231
+             A  +   P  AN      P P YP L+M    +GTV+L V V   G    +++ KSSG 
+Sbjct  189  GAGSSKGNPLRANGSI---PRPAYPTLSMENDEQGTVVLSVLVSPGGHVESVKIVKSSGF  245
+
+Query  232  EALDQAAVKAVKRWSFVPAKRGDKAEDGW--VSVPIDFKLN  270
+              LD AA KA        A+ G    + W    VP+ F+LN
+Sbjct  246  SRLDNAARKA--------AQNGHFQANAWTEFKVPVKFELN  278
+
+
+>VFG036630(gb|WP_014580971) (tonB) energy transducer TonB [Ton 
+system (VF0895) - Nutritional/Metabolic factor (VFC0272)] [Neisseria 
+meningitidis M01-240149]
+Length=280
+
+ Score = 46.6 bits (109),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 31/82 (38%), Positives = 41/82 (50%), Gaps = 10/82 (12%)
+
+Query  191  PAPEYPALAMRRGWEGTVLLRVHVLASGSPSEIQVQKSSGREALDQAAVKAVKRWSFVPA  250
+            P P YP L+M    +GTV+L V V   G    +++ KSSG   LD AA KA        A
+Sbjct  207  PRPAYPTLSMENDEQGTVVLSVLVSPGGHVESVKIVKSSGFSRLDNAARKA--------A  258
+
+Query  251  KRGDKAEDGW--VSVPIDFKLN  270
+            + G    + W    VP+ F+LN
+Sbjct  259  QNGHFQANAWTEFKVPVKFELN  280
+
+
+>VFG006284(gb|WP_002236738) (tonB) energy transducer TonB [Ton 
+system (VF0895) - Nutritional/Metabolic factor (VFC0272)] [Neisseria 
+meningitidis Z2491]
+Length=280
+
+ Score = 46.6 bits (109),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 31/82 (38%), Positives = 41/82 (50%), Gaps = 10/82 (12%)
+
+Query  191  PAPEYPALAMRRGWEGTVLLRVHVLASGSPSEIQVQKSSGREALDQAAVKAVKRWSFVPA  250
+            P P YP L+M    +GTV+L V V   G    +++ KSSG   LD AA KA        A
+Sbjct  207  PRPAYPTLSMENDEQGTVVLSVLVSPGGHVESVKIVKSSGFSRLDNAARKA--------A  258
+
+Query  251  KRGDKAEDGW--VSVPIDFKLN  270
+            + G    + W    VP+ F+LN
+Sbjct  259  QNGHFQANAWTEFKVPVKFELN  280
+
+
+>VFG037521(gb|WP_000837764) (ACICU_RS04595) TonB family protein 
+[HemO cluster (VF0636) - Nutritional/Metabolic factor (VFC0272)] 
+[Acinetobacter baumannii ACICU]
+Length=306
+
+ Score = 46.2 bits (108),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 23/63 (37%), Positives = 37/63 (59%), Gaps = 0/63 (0%)
+
+Query  208  VLLRVHVLASGSPSEIQVQKSSGREALDQAAVKAVKRWSFVPAKRGDKAEDGWVSVPIDF  267
+            V LR+ +   G P  IQ+++SSG ++LD+  ++AV++  F P K   +A    V  P+  
+Sbjct  241  VELRIRINEKGQPINIQLRQSSGIQSLDERVIQAVRKSRFKPHKINGRAVTIVVDFPVQL  300
+
+Query  268  KLN  270
+            KLN
+Sbjct  301  KLN  303
+
+
+>VFG006287(gb|WP_003693736) (tonB) energy transducer TonB [Ton 
+system (VF0895) - Nutritional/Metabolic factor (VFC0272)] [Neisseria 
+gonorrhoeae FA 1090]
+Length=283
+
+ Score = 45.8 bits (107),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 32/82 (39%), Positives = 41/82 (50%), Gaps = 10/82 (12%)
+
+Query  191  PAPEYPALAMRRGWEGTVLLRVHVLASGSPSEIQVQKSSGREALDQAAVKAVKRWSFVPA  250
+            P P YPAL+M    +G V+L V V   G    ++V KSSG   LD AA KA        A
+Sbjct  210  PRPAYPALSMENDEQGMVVLSVLVSPGGHVESVKVVKSSGFSRLDNAARKA--------A  261
+
+Query  251  KRGDKAEDGW--VSVPIDFKLN  270
+            + G    + W    VP+ F+LN
+Sbjct  262  QNGHFQANAWTEFKVPVKFELN  283
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.134    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1815657284
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

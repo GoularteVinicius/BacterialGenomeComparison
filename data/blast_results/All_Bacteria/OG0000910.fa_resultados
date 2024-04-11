@@ -1,0 +1,1261 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g830.t1
+
+Length=383
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043350(gb|WP_011946724) (fleN) flagellar synthesis regulator F...  55.5    1e-08
+VFG011853(gb|WP_024305290) (flhG) ATP-binding protein [Flagella (...  54.3    3e-08
+VFG043312(gb|WP_011860709) (CD630_RS01855) MinD/ParA family prote...  53.9    5e-08
+VFG011850(gb|YP_002343527) (flhG) ATP-binding protein [Flagella (...  52.4    2e-07
+VFG018030(gb|WP_002854691) (flhG) ATP-binding protein [Flagella (...  52.4    2e-07
+VFG043385(gb|WP_001064464) (ylxH) ATP-binding protein [Flagella (...  52.4    2e-07
+VFG017782(gb|WP_011989473) (flhG) ATP-binding protein [Flagella (...  49.3    1e-06
+
+
+>VFG043350(gb|WP_011946724) (fleN) flagellar synthesis regulator 
+FleN [Flagella (VF0157) - Motility (VFC0204)] [Legionella 
+pneumophila subsp. pneumophila str. Philadelphia 1]
+Length=289
+
+ Score = 55.5 bits (132),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 70/270 (26%), Positives = 118/270 (44%), Gaps = 43/270 (16%)
+
+Query  116  NSLTRVYTVASGKGGVGKSTVTVNLATAIAARGLAVGVLDADIHGHSIPRMMGSNQRPIQ  175
+            N   +V  V++GKGGVGKS ++VNLA A++    +V +LDAD+   ++  M+G + +   
+Sbjct  21   NKPVKVIAVSAGKGGVGKSNISVNLAIALSQLNYSVMLLDADLGLANVDIMLGLHTK-YN  79
+
+Query  176  LESMILPPIVH----------EVKVISIGQFTEGNTPVIWRGPMLHRALQQFLSDVYWGD  225
+            L S +L  I H           V+VI     TE  T +    P  H  +    +++   D
+Sbjct  80   L-SHVLQGICHLSDIILHGPAGVRVIPAASGTEFMTQL---SPAEHAGIIDSFNELT-DD  134
+
+Query  226  LDVLMLDLPPGTGDIAISVAQLIPNAEILVV-----TTPQLAAAEVAERAGSIALQTRQR  280
+            LD +++D   G  +  +S  +   + E++VV     T+   A A +   +          
+Sbjct  135  LDYMIIDTAAGISETVLSFTR--SSQELIVVVCDEPTSLTDAYALIKVMSKRYEWTHFHI  192
+
+Query  281  IVGVVENMSGLMMPDGSRLQVFGEGGGQQVAERLSRAVGT--DVPL--LGQIPLDPALVA  336
+            +  +V N+                  G+ +  +L R  G   DV L  LG IP D  +  
+Sbjct  193  LANMVRNVK----------------DGRDLFNKLFRVSGQFLDVQLDYLGAIPFDENIHK  236
+
+Query  337  AGDSGIPIVLNASDSPVGKELLRIADGLSS  366
+            +     PI++   DSP    L  +A+ +S+
+Sbjct  237  SVKKQNPILIAYPDSPAAHALRELAESVSN  266
+
+
+>VFG011853(gb|WP_024305290) (flhG) ATP-binding protein [Flagella 
+(VF0114) - Motility (VFC0204)] [Campylobacter fetus subsp. 
+fetus 82-40]
+Length=289
+
+ Score = 54.3 bits (129),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 61/242 (25%), Positives = 108/242 (45%), Gaps = 37/242 (15%)
+
+Query  106  REPMIPFAQPNSLTRVYTVASGKGGVGKSTVTVNLATAIAARGLAVGVLDADIHGHSIPR  165
+            RE MI      S T    V SGKGGVGKST++ NLA  +A  G  V + DADI   ++  
+Sbjct  10   RELMISNKIKKS-THFIAVTSGKGGVGKSTISANLANILAKNGYKVALFDADIGLANLDV  68
+
+Query  166  MMGSNQRPIQLESMILPPIVHEVKVISIGQFTEGNTPVI--WRGPMLHRALQQFLSDVYW  223
+            ++      ++++  +L  +  E ++  I    + N  +I    G  + +   QF+ + + 
+Sbjct  69   ILN-----VKIQKNLLNVLKGECELSDILVKVKDNLILIPGESGDDIFKFNDQFVLEKFI  123
+
+Query  224  GD------LDVLMLDLPPGTGDIAISVAQLIPNAEILVVTTPQLAAAEVAERAGSIALQT  277
+             +      +D +++D   G G  A +   L    EI+VVT P  AA  + +   +I + +
+Sbjct  124  SEASILNGIDFMIIDTGAGIG--ASTQVFLEACDEIIVVTVPDPAA--ITDAYATIKVTS  179
+
+Query  278  R-QRIVGVVENMSGLMMPDGSRLQVFGEGGGQQVAERLSRAVGT------DVPLLGQIPL  330
+            + ++ + ++ NM            V  E    ++ E + +   T      D+ LLG +  
+Sbjct  180  KMKKDIFMILNM------------VKNENEAIRIYENIKKVAKTNIKSELDLELLGYLEA  227
+
+Query  331  DP  332
+            D 
+Sbjct  228  DK  229
+
+
+>VFG043312(gb|WP_011860709) (CD630_RS01855) MinD/ParA family protein 
+[Peritrichous flagella (VF0732) - Motility (VFC0204)] 
+[Clostridium difficile 630]
+Length=292
+
+ Score = 53.9 bits (128),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 43/156 (28%), Positives = 73/156 (47%), Gaps = 29/156 (19%)
+
+Query  120  RVYTVASGKGGVGKSTVTVNLATAIAARGLAVGVLDADIHGHSIPRMMGSNQRPIQLESM  179
+            ++ T+ASGKGGVGKS +  NL+  +      V +LDADI   +I  +MG N +   ++ +
+Sbjct  30   KIITIASGKGGVGKSNLATNLSICLTKLNKKVLILDADIGMSNIDIIMGVNVKGTIIDVI  89
+
+Query  180  --------ILPPIVHEVKVIS-------IGQFTEGNTPVIWRGPMLHRALQQFLSDVYWG  224
+                    I+    + V +IS       I  FTE       R   +H +++Q        
+Sbjct  90   NGEKNIEDIISQTKYGVNIISGGSALNHIEDFTEA-----QRNKFIH-SIEQI------H  137
+
+Query  225  DLDVLMLDLPPGTGDIAISVAQLIPNAEILVVTTPQ  260
+            D+D +++D   G     +S   +  + E  ++TTP+
+Sbjct  138  DVDFIIIDTGAGMSKSLLSF--IYCSTEFFLITTPE  171
+
+
+>VFG011850(gb|YP_002343527) (flhG) ATP-binding protein [Flagella 
+(VF0114) - Motility (VFC0204)] [Campylobacter jejuni subsp. 
+jejuni NCTC 11168]
+Length=288
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 53/187 (28%), Positives = 83/187 (44%), Gaps = 32/187 (17%)
+
+Query  119  TRVYTVASGKGGVGKSTVTVNLATAIAARGLAVGVLDADIHGHSIPRMMG----SNQRPI  174
+            T    + SGKGGVGKST++ NLA  +A  G  VG+ DADI   ++  ++      N   +
+Sbjct  23   THFIAITSGKGGVGKSTISANLANVLANNGYKVGLFDADIGLANLDVILNVRIQKNLLHV  82
+
+Query  175  QLESMILPPIVHEVKVISIGQFTEGNTPVIWRGP------ML----HRALQQFLSDVYWG  224
+                  L  I+ EVK            P +W  P      +L        ++FL+     
+Sbjct  83   LRGECSLEDILIEVK------------PNLWLIPGESGDEILKYNDKNIYERFLNQASIL  130
+
+Query  225  D-LDVLMLDLPPGTGDIAISVAQLIPNAEILVVTTPQLAAAEVAERAGSIALQTRQRIV-  282
+            D LD L++D   G G   ++  ++    E++VVT P  AA   A        +T++ ++ 
+Sbjct  131  DELDFLIIDTGAGIGGNILNFLEMAD--EVIVVTVPDPAAITDAYATIKTTSKTKENLLM  188
+
+Query  283  --GVVEN  287
+               VV+N
+Sbjct  189  LFNVVKN  195
+
+
+>VFG018030(gb|WP_002854691) (flhG) ATP-binding protein [Flagella 
+(VF0114) - Motility (VFC0204)] [Campylobacter jejuni subsp. 
+jejuni 81116]
+Length=288
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 53/187 (28%), Positives = 83/187 (44%), Gaps = 32/187 (17%)
+
+Query  119  TRVYTVASGKGGVGKSTVTVNLATAIAARGLAVGVLDADIHGHSIPRMMG----SNQRPI  174
+            T    + SGKGGVGKST++ NLA  +A  G  VG+ DADI   ++  ++      N   +
+Sbjct  23   THFIAITSGKGGVGKSTISANLANVLANNGYKVGLFDADIGLANLDVILNVRIQKNLLHV  82
+
+Query  175  QLESMILPPIVHEVKVISIGQFTEGNTPVIWRGP------ML----HRALQQFLSDVYWG  224
+                  L  I+ EVK            P +W  P      +L        ++FL+     
+Sbjct  83   LRGECSLEDILIEVK------------PNLWLIPGESGDEILKYNDKNIYERFLNQASIL  130
+
+Query  225  D-LDVLMLDLPPGTGDIAISVAQLIPNAEILVVTTPQLAAAEVAERAGSIALQTRQRIV-  282
+            D LD L++D   G G   ++  ++    E++VVT P  AA   A        +T++ ++ 
+Sbjct  131  DELDFLIIDTGAGIGGNILNFLEMAD--EVIVVTVPDPAAITDAYATIKTTSKTKENLLM  188
+
+Query  283  --GVVEN  287
+               VV+N
+Sbjct  189  LFNVVKN  195
+
+
+>VFG043385(gb|WP_001064464) (ylxH) ATP-binding protein  [Flagella 
+(VF0051) - Motility (VFC0204)] [Helicobacter pylori 26695]
+Length=294
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 48/171 (28%), Positives = 82/171 (48%), Gaps = 18/171 (11%)
+
+Query  119  TRVYTVASGKGGVGKSTVTVNLATAIAARGLAVGVLDADIHGHSIPRMMGSNQRPIQLES  178
+            T+   + SGKGGVGKS ++ NLA ++  +G  VGV DADI   ++  + G     ++   
+Sbjct  27   TKFIAITSGKGGVGKSNISANLAYSLYKKGYKVGVFDADIGLANLDVIFG-----VKTHK  81
+
+Query  179  MILPPIVHEVKVISIGQFTE-------GNT-PVIWRGPMLHRALQQFLSDV-YWGDLDVL  229
+             IL  +  E K+  I    E       G++   I +      AL QF+ +      LD +
+Sbjct  82   NILHALKGEAKLQEIICEIEPGLCLIPGDSGEEILKYISGAEALDQFVDEEGVLSSLDYI  141
+
+Query  230  MLDLPPGTGDIAISVAQLIPNAEILVVTTPQLAAAEVAERAGSIALQTRQR  280
+            ++D   G G  A + A L  +  +++VTTP  +A  + +    I + ++ +
+Sbjct  142  VVDTGAGIG--ATTQAFLNASDCVVIVTTPDPSA--ITDAYACIKINSKNK  188
+
+
+>VFG017782(gb|WP_011989473) (flhG) ATP-binding protein [Flagella 
+(VF0114) - Motility (VFC0204)] [Campylobacter jejuni subsp. 
+doylei 269.97]
+Length=288
+
+ Score = 49.3 bits (116),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 47/160 (29%), Positives = 71/160 (44%), Gaps = 29/160 (18%)
+
+Query  119  TRVYTVASGKGGVGKSTVTVNLATAIAARGLAVGVLDADIHGHSIPRMMG----SNQRPI  174
+            T    + SGKGGVGKS ++ NLA  +A  G  +G+ DADI   ++  ++      N   I
+Sbjct  23   THFMAIISGKGGVGKSIISANLANVLANNGYKIGLFDADIGLANLDVILNVRIQKNLLHI  82
+
+Query  175  QLESMILPPIVHEVKVISIGQFTEGNTPVIWRGP------ML----HRALQQFLSDVYWG  224
+                  L  I+ EVK            P +W  P      +L        ++FL+     
+Sbjct  83   LRGECSLEDILIEVK------------PNLWLIPGESGDEILKYNDKNIYERFLNQASIL  130
+
+Query  225  D-LDVLMLDLPPGTGDIAISVAQLIPNAEILVVTTPQLAA  263
+            D LD L++D   G G   ++  ++    E++VVT P  AA
+Sbjct  131  DKLDFLIIDTGAGIGGNILNFLEMAD--EVIVVTVPDPAA  168
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.377    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2934825539
+
+
+Query= g1218.t1
+
+Length=390
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043350(gb|WP_011946724) (fleN) flagellar synthesis regulator F...  60.8    3e-10
+VFG043312(gb|WP_011860709) (CD630_RS01855) MinD/ParA family prote...  55.5    1e-08
+VFG011853(gb|WP_024305290) (flhG) ATP-binding protein [Flagella (...  51.6    3e-07
+VFG011850(gb|YP_002343527) (flhG) ATP-binding protein [Flagella (...  50.4    6e-07
+VFG043385(gb|WP_001064464) (ylxH) ATP-binding protein [Flagella (...  50.8    6e-07
+VFG018030(gb|WP_002854691) (flhG) ATP-binding protein [Flagella (...  50.4    6e-07
+VFG017782(gb|WP_011989473) (flhG) ATP-binding protein [Flagella (...  48.9    2e-06
+VFG016404(gb|WP_001207191) (BCE_RS25880) CpsD/CapB family tyrosin...  47.0    6e-06
+
+
+>VFG043350(gb|WP_011946724) (fleN) flagellar synthesis regulator 
+FleN [Flagella (VF0157) - Motility (VFC0204)] [Legionella 
+pneumophila subsp. pneumophila str. Philadelphia 1]
+Length=289
+
+ Score = 60.8 bits (146),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 69/261 (26%), Positives = 114/261 (44%), Gaps = 33/261 (13%)
+
+Query  127  RVYAVASGKGGVGKSTVTVNLAAAMAVRGLSIGVLDADIHGHSIPRMMGTTDRPTQVESM  186
+            +V AV++GKGGVGKS ++VNLA A++    S+ +LDAD+   ++  M+G   +     S 
+Sbjct  25   KVIAVSAGKGGVGKSNISVNLAIALSQLNYSVMLLDADLGLANVDIMLGLHTKYNL--SH  82
+
+Query  187  ILPPIAHQ----------VKVISIAQFTQGNTPVVWRGPMLHRALQQFLADVYWGDLDVL  236
+            +L  I H           V+VI  A  T+  T +    P  H  +     ++   DLD +
+Sbjct  83   VLQGICHLSDIILHGPAGVRVIPAASGTEFMTQL---SPAEHAGIIDSFNELT-DDLDYM  138
+
+Query  237  LLDLPPGTGDVAISVAQLIPNAELLVVTTPQLAAAEVAERAGSIALQTRQRIVGVVENMS  296
+            ++D   G  +  +S  +   + EL+VV   +             +L     ++ V+    
+Sbjct  139  IIDTAAGISETVLSFTR--SSQELIVVVCDE-----------PTSLTDAYALIKVMSKRY  185
+
+Query  297  GLTLPDGTTMQVFGEGGGRLVAERLSRAVGA--DVPL--LGQIPLDPALVAAGDSGVPLV  352
+              T        V     GR +  +L R  G   DV L  LG IP D  +  +     P++
+Sbjct  186  EWTHFHILANMVRNVKDGRDLFNKLFRVSGQFLDVQLDYLGAIPFDENIHKSVKKQNPIL  245
+
+Query  353  LSSPDSAIGKELHSIADGLST  373
+            ++ PDS     L  +A+ +S 
+Sbjct  246  IAYPDSPAAHALRELAESVSN  266
+
+
+>VFG043312(gb|WP_011860709) (CD630_RS01855) MinD/ParA family protein 
+[Peritrichous flagella (VF0732) - Motility (VFC0204)] 
+[Clostridium difficile 630]
+Length=292
+
+ Score = 55.5 bits (132),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 57/275 (21%), Positives = 118/275 (43%), Gaps = 44/275 (16%)
+
+Query  121  QPDSLTRVYAVASGKGGVGKSTVTVNLAAAMAVRGLSIGVLDADIHGHSIPRMMGTTDRP  180
+            + +++ ++  +ASGKGGVGKS +  NL+  +      + +LDADI   +I  +MG   + 
+Sbjct  24   ENENVPKIITIASGKGGVGKSNLATNLSICLTKLNKKVLILDADIGMSNIDIIMGVNVKG  83
+
+Query  181  TQVESM--------ILPPIAHQVKVIS-------IAQFTQGNTPVVWRGPMLHRALQQFL  225
+            T ++ +        I+    + V +IS       I  FT+       R   +H +++Q  
+Sbjct  84   TIIDVINGEKNIEDIISQTKYGVNIISGGSALNHIEDFTEA-----QRNKFIH-SIEQI-  136
+
+Query  226  ADVYWGDLDVLLLDLPPGTGDVAISVAQLIPNAELLVVTTPQ----LAAAEVAERAGSIA  281
+                  D+D +++D   G     +S   +  + E  ++TTP+      A  + +   +  
+Sbjct  137  -----HDVDFIIIDTGAGMSKSLLSF--IYCSTEFFLITTPEPTSLTDAYSLLKAISNFG  189
+
+Query  282  LQTRQRIVGVVENMSGLTLPDGTTMQVFGEGGGRLVAERLSRAVGADVPLLGQIPLDPAL  341
+            ++    I  ++  +  L     T  ++      ++V ++    +  ++ L G I  D  +
+Sbjct  190  IKRSANI--IINRVIDLEEAKSTYKRI------KMVVDKF---LNLNLELYGYIIDDKKV  238
+
+Query  342  VAAGDSGVPLVLSSPDSAIGKELHSIADGLSTRRR  376
+                   +P +L  P S   K + +IA  + ++ R
+Sbjct  239  SLCVKKQIPFILEYPTSIASKCIIAIAKRMVSQSR  273
+
+
+>VFG011853(gb|WP_024305290) (flhG) ATP-binding protein [Flagella 
+(VF0114) - Motility (VFC0204)] [Campylobacter fetus subsp. 
+fetus 82-40]
+Length=289
+
+ Score = 51.6 bits (122),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 45/182 (25%), Positives = 88/182 (48%), Gaps = 22/182 (12%)
+
+Query  126  TRVYAVASGKGGVGKSTVTVNLAAAMAVRGLSIGVLDADIHGHSIPRMMGTTDRPTQVES  185
+            T   AV SGKGGVGKST++ NLA  +A  G  + + DADI   ++  ++       +++ 
+Sbjct  22   THFIAVTSGKGGVGKSTISANLANILAKNGYKVALFDADIGLANLDVILN-----VKIQK  76
+
+Query  186  MILPPIAHQVKVISIAQFTQGNTPVV--WRGPMLHRALQQFLADVYWGD------LDVLL  237
+             +L  +  + ++  I    + N  ++    G  + +   QF+ + +  +      +D ++
+Sbjct  77   NLLNVLKGECELSDILVKVKDNLILIPGESGDDIFKFNDQFVLEKFISEASILNGIDFMI  136
+
+Query  238  LDLPPGTGDVAISVAQLIPNAELLVVTTPQLAAAEVAERAGSIALQTRQR-----IVGVV  292
+            +D   G G  A +   L    E++VVT P  AA  + +   +I + ++ +     I+ +V
+Sbjct  137  IDTGAGIG--ASTQVFLEACDEIIVVTVPDPAA--ITDAYATIKVTSKMKKDIFMILNMV  192
+
+Query  293  EN  294
+            +N
+Sbjct  193  KN  194
+
+
+>VFG011850(gb|YP_002343527) (flhG) ATP-binding protein [Flagella 
+(VF0114) - Motility (VFC0204)] [Campylobacter jejuni subsp. 
+jejuni NCTC 11168]
+Length=288
+
+ Score = 50.4 bits (119),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 22/40 (55%), Positives = 28/40 (70%), Gaps = 0/40 (0%)
+
+Query  126  TRVYAVASGKGGVGKSTVTVNLAAAMAVRGLSIGVLDADI  165
+            T   A+ SGKGGVGKST++ NLA  +A  G  +G+ DADI
+Sbjct  23   THFIAITSGKGGVGKSTISANLANVLANNGYKVGLFDADI  62
+
+
+>VFG043385(gb|WP_001064464) (ylxH) ATP-binding protein  [Flagella 
+(VF0051) - Motility (VFC0204)] [Helicobacter pylori 26695]
+Length=294
+
+ Score = 50.8 bits (120),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 22/47 (47%), Positives = 30/47 (64%), Gaps = 0/47 (0%)
+
+Query  119  FAQPDSLTRVYAVASGKGGVGKSTVTVNLAAAMAVRGLSIGVLDADI  165
+            F      T+  A+ SGKGGVGKS ++ NLA ++  +G  +GV DADI
+Sbjct  20   FFDNKGNTKFIAITSGKGGVGKSNISANLAYSLYKKGYKVGVFDADI  66
+
+
+>VFG018030(gb|WP_002854691) (flhG) ATP-binding protein [Flagella 
+(VF0114) - Motility (VFC0204)] [Campylobacter jejuni subsp. 
+jejuni 81116]
+Length=288
+
+ Score = 50.4 bits (119),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 22/40 (55%), Positives = 28/40 (70%), Gaps = 0/40 (0%)
+
+Query  126  TRVYAVASGKGGVGKSTVTVNLAAAMAVRGLSIGVLDADI  165
+            T   A+ SGKGGVGKST++ NLA  +A  G  +G+ DADI
+Sbjct  23   THFIAITSGKGGVGKSTISANLANVLANNGYKVGLFDADI  62
+
+
+>VFG017782(gb|WP_011989473) (flhG) ATP-binding protein [Flagella 
+(VF0114) - Motility (VFC0204)] [Campylobacter jejuni subsp. 
+doylei 269.97]
+Length=288
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 22/40 (55%), Positives = 27/40 (68%), Gaps = 0/40 (0%)
+
+Query  126  TRVYAVASGKGGVGKSTVTVNLAAAMAVRGLSIGVLDADI  165
+            T   A+ SGKGGVGKS ++ NLA  +A  G  IG+ DADI
+Sbjct  23   THFMAIISGKGGVGKSIISANLANVLANNGYKIGLFDADI  62
+
+
+>VFG016404(gb|WP_001207191) (BCE_RS25880) CpsD/CapB family tyrosine-protein 
+kinase [Polysaccharide capsule (VF0659) - Immune 
+modulation (VFC0258)] [Bacillus cereus ATCC 10987]
+Length=233
+
+ Score = 47.0 bits (110),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 50/192 (26%), Positives = 90/192 (47%), Gaps = 26/192 (14%)
+
+Query  117  IPFAQPDSLTRVYAVASGKGGVGKSTVTVNLAAAMAVRGLSIGVLDADIHGHSIPRMMGT  176
+            I FA  D       V S     GK+T T N+A   A +G  + ++DAD+   ++ +M   
+Sbjct  39   IEFAAVDKNLHSLMVTSANPSEGKTTTTANMAVVFAQQGKKVLLIDADMRKPAMHQMF--  96
+
+Query  177  TDRPTQVESM--ILPPIAHQVKVISIAQFTQ-GNTPVVWRGP--------MLHRALQQFL  225
+                 QV+++  +   + H  ++    Q T   N   +  GP        +  +++Q+ L
+Sbjct  97   -----QVDNIFGLTNVLTHSERLEKCVQTTSVDNLHFLACGPIPPNPAELLGSKSMQELL  151
+
+Query  226  ADVYWGDLDVLLLDLPPGTGDVAISVAQLIPN---AELLVVTTPQLAAAEVAERAGSIAL  282
+            A  Y    D+++ DLPP    +A++ AQ++ N   A +LVV + +    E A +A  +  
+Sbjct  152  AQAY-STYDLVIFDLPPI---LAVTDAQIMANVCDASILVVRS-ESTDKETAVKAKGLLE  206
+
+Query  283  QTRQRIVGVVEN  294
+              + +++GVV N
+Sbjct  207  SAKGKLLGVVLN  218
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3007935072
+
+
+Query= g3551.t1
+
+Length=364
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043385(gb|WP_001064464) (ylxH) ATP-binding protein [Flagella (...  69.7    3e-13
+VFG043350(gb|WP_011946724) (fleN) flagellar synthesis regulator F...  61.2    2e-10
+VFG018030(gb|WP_002854691) (flhG) ATP-binding protein [Flagella (...  59.3    7e-10
+VFG011850(gb|YP_002343527) (flhG) ATP-binding protein [Flagella (...  59.3    7e-10
+VFG017782(gb|WP_011989473) (flhG) ATP-binding protein [Flagella (...  55.8    9e-09
+VFG005887(gb|YP_001197932) (SSU05_0566) Cps2C [Capsule (VF0144) -...  52.4    9e-08
+VFG011853(gb|WP_024305290) (flhG) ATP-binding protein [Flagella (...  52.0    2e-07
+VFG043312(gb|WP_011860709) (CD630_RS01855) MinD/ParA family prote...  52.0    2e-07
+VFG005900(gb|YP_001200128) (SSU98_0570) Cps2C [Capsule (VF0144) -...  50.8    3e-07
+VFG001265(gb|NP_250145) (fleN) flagellar synthesis regulator FleN...  50.8    4e-07
+VFG014622(gb|WP_003254408) (fleN) flagellar synthesis regulator F...  49.3    1e-06
+VFG014624(gb|WP_011534890) (fleN) flagellar synthesis regulator F...  49.3    1e-06
+VFG014626(gb|WP_003222917) (fleN) flagellar synthesis regulator F...  48.5    2e-06
+VFG015716(gb|WP_012273492) (fleN) flagellar synthesis regulator F...  47.8    5e-06
+VFG014619(gb|WP_003412391) (fleN) flagellar synthesis regulator F...  47.4    6e-06
+VFG004456(gb|WP_011302062) (SSP_RS00310) polysaccharide biosynthe...  46.6    7e-06
+VFG050187(gb|WP_050412755) (bpsB) capsular exopolysaccharide fami...  46.2    8e-06
+VFG019864(gb|WP_003192912) (fleN) flagellar synthesis regulator F...  46.6    1e-05
+
+
+>VFG043385(gb|WP_001064464) (ylxH) ATP-binding protein  [Flagella 
+(VF0051) - Motility (VFC0204)] [Helicobacter pylori 26695]
+Length=294
+
+ Score = 69.7 bits (169),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 63/216 (29%), Positives = 100/216 (46%), Gaps = 17/216 (8%)
+
+Query  78   RVDCVIQPHKAQPQVEVMGNVKNIVAVASGKGGVGKSTTAANLALALAREGARVGILDAD  137
+            R+D ++     +   +  GN K  +A+ SGKGGVGKS  +ANLA +L ++G +VG+ DAD
+Sbjct  7    RLDNLMNIKNPKSFFDNKGNTK-FIAITSGKGGVGKSNISANLAYSLYKKGYKVGVFDAD  65
+
+Query  138  IYGPSQGIMFGLP------EGTRPKVREQKWFEPLEAHGVQVMSMAFLTDDSTPVVWRGP  191
+            I   +  ++FG+          + + + Q+    +E        +  +  DS   + +  
+Sbjct  66   IGLANLDVIFGVKTHKNILHALKGEAKLQEIICEIEP------GLCLIPGDSGEEILKYI  119
+
+Query  192  MVSGALIQLITQTA-WDNLDYLVVDMPPGTGDIQLTLAQKVPVAGAVIVTTPQDLALLDA  250
+              + AL Q + +     +LDY+VVD   G G    T A        VIVTTP   A+ DA
+Sbjct  120  SGAEALDQFVDEEGVLSSLDYIVVDTGAGIG--ATTQAFLNASDCVVIVTTPDPSAITDA  177
+
+Query  251  KKGVEMFRKVNIPVLGVVENMAVHICSNCGHAEHLF  286
+               +++  K N   L ++ NM           E LF
+Sbjct  178  YACIKINSK-NKDELFLIANMVAQPKEGRATYERLF  212
+
+
+>VFG043350(gb|WP_011946724) (fleN) flagellar synthesis regulator 
+FleN [Flagella (VF0157) - Motility (VFC0204)] [Legionella 
+pneumophila subsp. pneumophila str. Philadelphia 1]
+Length=289
+
+ Score = 61.2 bits (147),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 66/248 (27%), Positives = 110/248 (44%), Gaps = 15/248 (6%)
+
+Query  101  IVAVASGKGGVGKSTTAANLALALAREGARVGILDADIYGPSQGIMFGLPEGTRPKVREQ  160
+            ++AV++GKGGVGKS  + NLA+AL++    V +LDAD+   +  IM GL          Q
+Sbjct  26   VIAVSAGKGGVGKSNISVNLAIALSQLNYSVMLLDADLGLANVDIMLGLHTKYNLSHVLQ  85
+
+Query  161  K--WFEPLEAH---GVQVMSMAFLTDDSTPVVWRGPMVSGALIQLITQTAWDNLDYLVVD  215
+                   +  H   GV+V+  A  T+  T +    P     +I    +   D+LDY+++D
+Sbjct  86   GICHLSDIILHGPAGVRVIPAASGTEFMTQL---SPAEHAGIIDSFNELT-DDLDYMIID  141
+
+Query  216  MPPGTGDIQLTLAQKVPVAGAVIVTTPQDLALLDAKKGVE-MFRKVNIPVLGVVENMAVH  274
+               G  +  L+  +       V+   P   +L DA   ++ M ++       ++ NM  +
+Sbjct  142  TAAGISETVLSFTRSSQELIVVVCDEPT--SLTDAYALIKVMSKRYEWTHFHILANMVRN  199
+
+Query  275  ICSNCGHAEHLFGEGGGEKLAAQFGVELLASMPLSIAIRTQADSGRPTVIADPESQLAML  334
+            +         LF    G+ L  Q  ++ L ++P    I        P +IA P+S  A  
+Sbjct  200  VKDGRDLFNKLF-RVSGQFLDVQ--LDYLGAIPFDENIHKSVKKQNPILIAYPDSPAAHA  256
+
+Query  335  YQEIARHV  342
+             +E+A  V
+Sbjct  257  LRELAESV  264
+
+
+>VFG018030(gb|WP_002854691) (flhG) ATP-binding protein [Flagella 
+(VF0114) - Motility (VFC0204)] [Campylobacter jejuni subsp. 
+jejuni 81116]
+Length=288
+
+ Score = 59.3 bits (142),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 57/201 (28%), Positives = 88/201 (44%), Gaps = 37/201 (18%)
+
+Query  101  IVAVASGKGGVGKSTTAANLALALAREGARVGILDADIYGPSQGIMFGLPEGTRPKVREQ  160
+             +A+ SGKGGVGKST +ANLA  LA  G +VG+ DADI   +  ++          VR Q
+Sbjct  25   FIAITSGKGGVGKSTISANLANVLANNGYKVGLFDADIGLANLDVILN--------VRIQ  76
+
+Query  161  KWFEPLEAHGVQVM----SMAFLTDDSTPVVWRGPMVSGALI----------QLITQTA-  205
+            K       + + V+    S+  +  +  P +W  P  SG  I          + + Q + 
+Sbjct  77   K-------NLLHVLRGECSLEDILIEVKPNLWLIPGESGDEILKYNDKNIYERFLNQASI  129
+
+Query  206  WDNLDYLVVDMPPGTGDIQLTLAQKVPVAGAVIVTTPQDLALLDAKKGVEMFRKVNIPVL  265
+             D LD+L++D   G G   L   +       ++VT P   A+ DA   ++   K    +L
+Sbjct  130  LDELDFLIIDTGAGIGGNILNFLEMAD--EVIVVTVPDPAAITDAYATIKTTSKTKENLL  187
+
+Query  266  GVVENMAVHICSNCGHAEHLF  286
+                 M  ++  N   A  +F
+Sbjct  188  -----MLFNVVKNENEALKVF  203
+
+
+>VFG011850(gb|YP_002343527) (flhG) ATP-binding protein [Flagella 
+(VF0114) - Motility (VFC0204)] [Campylobacter jejuni subsp. 
+jejuni NCTC 11168]
+Length=288
+
+ Score = 59.3 bits (142),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 57/201 (28%), Positives = 88/201 (44%), Gaps = 37/201 (18%)
+
+Query  101  IVAVASGKGGVGKSTTAANLALALAREGARVGILDADIYGPSQGIMFGLPEGTRPKVREQ  160
+             +A+ SGKGGVGKST +ANLA  LA  G +VG+ DADI   +  ++          VR Q
+Sbjct  25   FIAITSGKGGVGKSTISANLANVLANNGYKVGLFDADIGLANLDVILN--------VRIQ  76
+
+Query  161  KWFEPLEAHGVQVM----SMAFLTDDSTPVVWRGPMVSGALI----------QLITQTA-  205
+            K       + + V+    S+  +  +  P +W  P  SG  I          + + Q + 
+Sbjct  77   K-------NLLHVLRGECSLEDILIEVKPNLWLIPGESGDEILKYNDKNIYERFLNQASI  129
+
+Query  206  WDNLDYLVVDMPPGTGDIQLTLAQKVPVAGAVIVTTPQDLALLDAKKGVEMFRKVNIPVL  265
+             D LD+L++D   G G   L   +       ++VT P   A+ DA   ++   K    +L
+Sbjct  130  LDELDFLIIDTGAGIGGNILNFLEMAD--EVIVVTVPDPAAITDAYATIKTTSKTKENLL  187
+
+Query  266  GVVENMAVHICSNCGHAEHLF  286
+                 M  ++  N   A  +F
+Sbjct  188  -----MLFNVVKNENEALKVF  203
+
+
+>VFG017782(gb|WP_011989473) (flhG) ATP-binding protein [Flagella 
+(VF0114) - Motility (VFC0204)] [Campylobacter jejuni subsp. 
+doylei 269.97]
+Length=288
+
+ Score = 55.8 bits (133),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 56/198 (28%), Positives = 86/198 (43%), Gaps = 31/198 (16%)
+
+Query  101  IVAVASGKGGVGKSTTAANLALALAREGARVGILDADIYGPSQGIMFGLPEGTRPKVREQ  160
+             +A+ SGKGGVGKS  +ANLA  LA  G ++G+ DADI   +  ++          VR Q
+Sbjct  25   FMAIISGKGGVGKSIISANLANVLANNGYKIGLFDADIGLANLDVILN--------VRIQ  76
+
+Query  161  KWFEPLEAHGVQ-VMSMAFLTDDSTPVVWRGPMVSGALI----------QLITQTA-WDN  208
+            K       H ++   S+  +  +  P +W  P  SG  I          + + Q +  D 
+Sbjct  77   KNL----LHILRGECSLEDILIEVKPNLWLIPGESGDEILKYNDKNIYERFLNQASILDK  132
+
+Query  209  LDYLVVDMPPGTGDIQLTLAQKVPVAGAVIVTTPQDLALLDAKKGVEMFRKVNIPVLGVV  268
+            LD+L++D   G G   L   +       ++VT P   A+ DA   ++   K    +L   
+Sbjct  133  LDFLIIDTGAGIGGNILNFLEMAD--EVIVVTVPDPAAITDAYATIKTTSKTKENLL---  187
+
+Query  269  ENMAVHICSNCGHAEHLF  286
+              M  +I  N   A  +F
+Sbjct  188  --MLFNIVKNENEALKIF  203
+
+
+>VFG005887(gb|YP_001197932) (SSU05_0566) Cps2C [Capsule (VF0144) 
+- Immune modulation (VFC0258)] [Streptococcus suis 05ZYH33]
+Length=231
+
+ Score = 52.4 bits (124),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 67/255 (26%), Positives = 105/255 (41%), Gaps = 46/255 (18%)
+
+Query  62   LQMALEALDGVARAEVRVDCVIQPHKAQPQVEVMGNVKNIVAVASGKGGVGKSTTAANLA  121
+            L++A    +GV + E   + +      +  +++ G    +V + S K   GKSTTAA+LA
+Sbjct  4    LEIARTKREGVNKTEEYFNAI------RTNIQLSGADIKVVGITSVKSNEGKSTTAASLA  57
+
+Query  122  LALAREGARVGILDADIYGPSQGIMFGLPEGTRPKVREQKWFEPLEA--------HGVQV  173
+            +A AR G +  ++DADI      +M G             +F+P+           G   
+Sbjct  58   IAYARSGYKTVLVDADI---RNSVMPG-------------FFKPITKITGLTDYLAGTTD  101
+
+Query  174  MSMAFL-TDDSTPVVWRGPMVSGALIQLITQTAWDNL--------DYLVVDMPP-GTGDI  223
+            +S     TD     V     VS     L+    ++NL        DY++VD PP G    
+Sbjct  102  LSQGLCDTDIPNLTVIESGKVSPNPTALLQSKNFENLLATLRRYYDYVIVDCPPLGLVVD  161
+
+Query  224  QLTLAQKVPVAGAVIVTTPQDLALLDAKKGVEMFRKVNIPVLGVVENMAVHICSNCGHAE  283
+               +AQK     AV+     ++     KK  E   K   P LGV+ N   +  +   ++E
+Sbjct  162  AAIIAQKCDAMVAVV--EAGNVKCSSLKKVKEQLEKTGTPFLGVILNK--YDIATEKYSE  217
+
+Query  284  HLFGEGGGEKLAAQF  298
+              +G  G E L +Q 
+Sbjct  218  --YGNYGKESLISQI  230
+
+
+>VFG011853(gb|WP_024305290) (flhG) ATP-binding protein [Flagella 
+(VF0114) - Motility (VFC0204)] [Campylobacter fetus subsp. 
+fetus 82-40]
+Length=289
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 24/39 (62%), Positives = 30/39 (77%), Gaps = 0/39 (0%)
+
+Query  100  NIVAVASGKGGVGKSTTAANLALALAREGARVGILDADI  138
+            + +AV SGKGGVGKST +ANLA  LA+ G +V + DADI
+Sbjct  23   HFIAVTSGKGGVGKSTISANLANILAKNGYKVALFDADI  61
+
+
+>VFG043312(gb|WP_011860709) (CD630_RS01855) MinD/ParA family protein 
+[Peritrichous flagella (VF0732) - Motility (VFC0204)] 
+[Clostridium difficile 630]
+Length=292
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 54/188 (29%), Positives = 87/188 (46%), Gaps = 26/188 (14%)
+
+Query  97   NVKNIVAVASGKGGVGKSTTAANLALALAREGARVGILDADIYGPSQGIMFGLP-EGTRP  155
+            NV  I+ +ASGKGGVGKS  A NL++ L +   +V ILDADI   +  I+ G+  +GT  
+Sbjct  27   NVPKIITIASGKGGVGKSNLATNLSICLTKLNKKVLILDADIGMSNIDIIMGVNVKGTII  86
+
+Query  156  KVRE-QKWFEPL---EAHGVQVMS----MAFLTDDSTPVVWRGPMVSGALIQLITQTAWD  207
+             V   +K  E +     +GV ++S    +  + D +              I  I Q    
+Sbjct  87   DVINGEKNIEDIISQTKYGVNIISGGSALNHIEDFTEA-------QRNKFIHSIEQIH--  137
+
+Query  208  NLDYLVVDMPPGTGDIQLTLAQKVPVAGAVIVTTPQDLALLDAK---KGVEMF---RKVN  261
+            ++D++++D   G     L+           ++TTP+  +L DA    K +  F   R  N
+Sbjct  138  DVDFIIIDTGAGMSKSLLSFIY--CSTEFFLITTPEPTSLTDAYSLLKAISNFGIKRSAN  195
+
+Query  262  IPVLGVVE  269
+            I +  V++
+Sbjct  196  IIINRVID  203
+
+
+>VFG005900(gb|YP_001200128) (SSU98_0570) Cps2C [Capsule (VF0144) 
+- Immune modulation (VFC0258)] [Streptococcus suis 98HAH33]
+Length=225
+
+ Score = 50.8 bits (120),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 61/227 (27%), Positives = 93/227 (41%), Gaps = 42/227 (19%)
+
+Query  62   LQMALEALDGVARAEVRVDCVIQPHKAQPQVEVMGNVKNIVAVASGKGGVGKSTTAANLA  121
+            L++A    +GV + E   + +      +  +++ G    +V + S K   GKSTTAA+LA
+Sbjct  4    LEIARTKREGVNKTEEYFNAI------RTNIQLSGADIKVVGITSVKSNEGKSTTAASLA  57
+
+Query  122  LALAREGARVGILDADIYGPSQGIMFGLPEGTRPKVREQKWFEPLEA--------HGVQV  173
+            +A AR G +  ++DADI      +M G             +F+P+           G   
+Sbjct  58   IAYARSGYKTVLVDADI---RNSVMPG-------------FFKPITKITGLTDYLAGTTD  101
+
+Query  174  MSMAFL-TDDSTPVVWRGPMVSGALIQLITQTAWDNL--------DYLVVDMPP-GTGDI  223
+            +S     TD     V     VS     L+    ++NL        DY++VD PP G    
+Sbjct  102  LSQGLCDTDIPNLTVIESGKVSPNPTALLQSKNFENLLATLRRYYDYVIVDCPPLGLVVD  161
+
+Query  224  QLTLAQKVPVAGAVIVTTPQDLALLDAKKGVEMFRKVNIPVLGVVEN  270
+               +AQK     AV+     ++     KK  E   K   P LGV+ N
+Sbjct  162  AAIIAQKCDAMVAVV--EAGNVKCSSLKKVKEQLEKTGTPFLGVILN  206
+
+
+>VFG001265(gb|NP_250145) (fleN) flagellar synthesis regulator 
+FleN [Flagella (VF0273) - Motility (VFC0204)] [Pseudomonas aeruginosa 
+PAO1]
+Length=280
+
+ Score = 50.8 bits (120),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 73/262 (28%), Positives = 120/262 (46%), Gaps = 39/262 (15%)
+
+Query  101  IVAVASGKGGVGKSTTAANLALALAREGARVGILDADIYGPSQGIMFGL-PEGT------  153
+            ++AV  GKGGVGK+  + NLALALA  G RV +LDAD+   +  ++ GL P+ T      
+Sbjct  12   VIAVTGGKGGVGKTNVSVNLALALADLGRRVMLLDADLGLANVDVLLGLTPKRTLADVIE  71
+
+Query  154  -RPKVREQKWFEPLEAHGVQVMSMAFLTDDSTPVVWRGPMVSGALIQLITQTAWDNLDYL  212
+             R ++R+     P    GV+++  A     +  +V   PM    LIQ  +  + DNLD L
+Sbjct  72   GRCELRDVLLLGP---GGVRIVPAA---SGTQSMVHLSPMQHAGLIQAFSDIS-DNLDVL  124
+
+Query  213  VVDMPPGTGDIQLTLAQKVPVAGAVIVTTPQDLA-------LLDAKKGVEMFRKVNIPVL  265
+            VVD   G GD  ++  +       V+   P  +        LL+   G+  FR       
+Sbjct  125  VVDTAAGIGDSVVSFVRAAQEVLLVVCDEPTSITDAYALIKLLNRDHGMTRFR-------  177
+
+Query  266  GVVENMAVHICSNCGHAEHLFGEGGGEKLAAQF---GVELLASMPLSIAIRTQADSGRPT  322
+             V+ NMA     +     +LF +    K+  +F    ++ +  +P   ++R      R  
+Sbjct  178  -VLANMA----HSPQEGRNLFAK--LTKVTDRFLDVALQYVGVIPYDESVRKAVQKQRAV  230
+
+Query  323  VIADPESQLAMLYQEIARHVGA  344
+              A P S+ ++ ++ +A+ V +
+Sbjct  231  YEAFPRSKASLAFKAVAQKVDS  252
+
+
+>VFG014622(gb|WP_003254408) (fleN) flagellar synthesis regulator 
+FleN [Flagella (VF0273) - Motility (VFC0204)] [Pseudomonas 
+putida KT2440]
+Length=277
+
+ Score = 49.3 bits (116),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 72/260 (28%), Positives = 118/260 (45%), Gaps = 39/260 (15%)
+
+Query  101  IVAVASGKGGVGKSTTAANLALALAREGARVGILDADIYGPSQGIMFGL-PEGT------  153
+            ++AV  GKGGVGK+  + NL+LALA  G RV +LDAD+   +  ++ GL P+ T      
+Sbjct  9    VIAVTGGKGGVGKTNVSVNLSLALAELGRRVMLLDADLGLANVDVLLGLTPKRTLADVIE  68
+
+Query  154  -RPKVREQKWFEPLEAHGVQVMSMAFLTDDSTPVVWRGPMVSGALIQLITQTAWDNLDYL  212
+             R ++R+     P    GV+++  A     +  +V   P     LIQ  ++   DNLD L
+Sbjct  69   GRCELRDVMLQGP---GGVRIVPAA---SGTQSMVHLAPAQHAGLIQAFSEIG-DNLDVL  121
+
+Query  213  VVDMPPGTGDIQLTLAQKVPVAGAVIVTTPQDLA-------LLDAKKGVEMFRKVNIPVL  265
+            V+D   G GD  ++  +       V+   P  +        LL+   G+  FR       
+Sbjct  122  VIDTAAGIGDSVVSFVRAAQEVLLVVCDEPTSITDAYALIKLLNRDYGMNRFR-------  174
+
+Query  266  GVVENMAVHICSNCGHAEHLFGEGGGEKLAAQF---GVELLASMPLSIAIRTQADSGRPT  322
+             V+ NMA     +     +LF +    K+  +F    ++ + ++P    +R      R  
+Sbjct  175  -VLANMA----QSPQEGRNLFAK--LTKVTDRFLDVALQYVGAVPYDECVRKAVQKQRAV  227
+
+Query  323  VIADPESQLAMLYQEIARHV  342
+              A P S+ A+ ++ IA+ V
+Sbjct  228  YEAFPRSKCALAFKAIAQKV  247
+
+
+>VFG014624(gb|WP_011534890) (fleN) flagellar synthesis regulator 
+FleN [Flagella (VF0273) - Motility (VFC0204)] [Pseudomonas 
+entomophila L48]
+Length=277
+
+ Score = 49.3 bits (116),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 72/260 (28%), Positives = 118/260 (45%), Gaps = 39/260 (15%)
+
+Query  101  IVAVASGKGGVGKSTTAANLALALAREGARVGILDADIYGPSQGIMFGL-PEGT------  153
+            ++AV  GKGGVGK+  + NL+LALA  G RV +LDAD+   +  ++ GL P+ T      
+Sbjct  9    VIAVTGGKGGVGKTNVSVNLSLALAELGRRVMLLDADLGLANVDVLLGLTPKHTLADVIE  68
+
+Query  154  -RPKVREQKWFEPLEAHGVQVMSMAFLTDDSTPVVWRGPMVSGALIQLITQTAWDNLDYL  212
+             R ++R+     P    GV+++  A     +  +V   P     LIQ  ++   DNLD L
+Sbjct  69   GRCELRDVLLQGP---GGVRIVPAA---SGTQSMVHLAPAQHAGLIQAFSEIG-DNLDVL  121
+
+Query  213  VVDMPPGTGDIQLTLAQKVPVAGAVIVTTPQDLA-------LLDAKKGVEMFRKVNIPVL  265
+            V+D   G GD  ++  +       V+   P  +        LL+   G+  FR       
+Sbjct  122  VIDTAAGIGDSVVSFVRAAQEVLLVVCDEPTSITDAYALIKLLNRDYGMNRFR-------  174
+
+Query  266  GVVENMAVHICSNCGHAEHLFGEGGGEKLAAQF---GVELLASMPLSIAIRTQADSGRPT  322
+             V+ NMA     +     +LF +    K+  +F    ++ + ++P    +R      R  
+Sbjct  175  -VLANMA----QSPQEGRNLFAK--LTKVTDRFLDVALQYVGAVPYDECVRKAVQKQRAV  227
+
+Query  323  VIADPESQLAMLYQEIARHV  342
+              A P S+ A+ ++ IA+ V
+Sbjct  228  YEAFPRSKCALAFKAIAQKV  247
+
+
+>VFG014626(gb|WP_003222917) (fleN) flagellar synthesis regulator 
+FleN [Flagella (VF0273) - Motility (VFC0204)] [Pseudomonas 
+fluorescens Pf0-1]
+Length=276
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 69/254 (27%), Positives = 113/254 (44%), Gaps = 27/254 (11%)
+
+Query  101  IVAVASGKGGVGKSTTAANLALALAREGARVGILDADIYGPSQGIMFGL-PEGTRPKVRE  159
+            ++AV  GKGGVGK+  + NL+LALA  G RV +LDAD+   +  ++ GL P+ T   V E
+Sbjct  9    VIAVTGGKGGVGKTNVSVNLSLALAELGRRVMLLDADLGLANVDVLLGLTPKRTLADVIE  68
+
+Query  160  QKW-FEPLEAHGVQVMSMAFLTDDSTPVVWRGPMVSGALIQLITQTAWDNLDYLVVDMPP  218
+             +     +   G   + +      +  +V   P     LIQ  +    DNLD LV+D   
+Sbjct  69   GRCELRDVLLQGPGGIRIVPAASGTQSMVHLSPAQHAGLIQAFSDIG-DNLDVLVIDTAA  127
+
+Query  219  GTGDIQLTLAQKVPVAGAVIVTTPQDLA-------LLDAKKGVEMFRKVNIPVLGVVENM  271
+            G GD  ++  +       V+   P  +        LL+   G+  FR        V+ NM
+Sbjct  128  GIGDSVVSFVRAAQEVLLVVCDEPTSITDAYALIKLLNRDYGMNRFR--------VLANM  179
+
+Query  272  AVHICSNCGHAEHLFGEGGGEKLAAQF---GVELLASMPLSIAIRTQADSGRPTVIADPE  328
+            A     +     +LF +    K+  +F    ++ + ++P   ++R      R    A P 
+Sbjct  180  A----QSPQEGRNLFAK--LTKVTDRFLDVALQYVGAVPYDESVRKAVQKQRAVYEAFPR  233
+
+Query  329  SQLAMLYQEIARHV  342
+            S+ A+ ++ IA+ V
+Sbjct  234  SKCALAFKAIAQKV  247
+
+
+>VFG015716(gb|WP_012273492) (fleN) flagellar synthesis regulator 
+FleN [Flagella (VF0273) - Motility (VFC0204)] [Pseudomonas 
+putida GB-1]
+Length=277
+
+ Score = 47.8 bits (112),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 71/260 (27%), Positives = 118/260 (45%), Gaps = 39/260 (15%)
+
+Query  101  IVAVASGKGGVGKSTTAANLALALAREGARVGILDADIYGPSQGIMFGL-PEGT------  153
+            ++AV  GKGGVGK+  + NL+LALA  G RV +LDAD+   +  ++ GL P+ T      
+Sbjct  9    VIAVTGGKGGVGKTNVSVNLSLALAELGRRVMLLDADLGLANVDVLLGLTPKRTLADVIE  68
+
+Query  154  -RPKVREQKWFEPLEAHGVQVMSMAFLTDDSTPVVWRGPMVSGALIQLITQTAWDNLDYL  212
+             R ++R+     P    GV+++  A     +  +V   P     LIQ  ++   DNLD L
+Sbjct  69   GRCELRDVMLQGP---GGVRIVPAA---SGTQSMVHLAPAQHAGLIQAFSEIG-DNLDVL  121
+
+Query  213  VVDMPPGTGDIQLTLAQKVPVAGAVIVTTPQDLA-------LLDAKKGVEMFRKVNIPVL  265
+            V+D   G G+  ++  +       V+   P  +        LL+   G+  FR       
+Sbjct  122  VIDTAAGIGESVVSFVRAAQEVLLVVCDEPTSITDAYALIKLLNRDYGMNRFR-------  174
+
+Query  266  GVVENMAVHICSNCGHAEHLFGEGGGEKLAAQF---GVELLASMPLSIAIRTQADSGRPT  322
+             V+ NMA     +     +LF +    K+  +F    ++ + ++P    +R      R  
+Sbjct  175  -VLANMA----QSPQEGRNLFAK--LTKVTDRFLDVALQYVGAVPYDECVRKAVQKQRAV  227
+
+Query  323  VIADPESQLAMLYQEIARHV  342
+              A P S+ A+ ++ IA+ V
+Sbjct  228  YEAFPRSKCALAFKAIAQKV  247
+
+
+>VFG014619(gb|WP_003412391) (fleN) flagellar synthesis regulator 
+FleN [Flagella (VF0273) - Motility (VFC0204)] [Pseudomonas 
+syringae pv. tomato str. DC3000]
+Length=277
+
+ Score = 47.4 bits (111),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 71/260 (27%), Positives = 118/260 (45%), Gaps = 39/260 (15%)
+
+Query  101  IVAVASGKGGVGKSTTAANLALALAREGARVGILDADIYGPSQGIMFGL-PEGT------  153
+            ++AV  GKGGVGK+  + NL+LALA  G RV +LDAD+   +  ++ GL P+ T      
+Sbjct  9    VIAVTGGKGGVGKTNVSVNLSLALAELGRRVMLLDADLGLANVDVLLGLTPKRTLADVIE  68
+
+Query  154  -RPKVREQKWFEPLEAHGVQVMSMAFLTDDSTPVVWRGPMVSGALIQLITQTAWDNLDYL  212
+             R ++R+     P    GV+++  A     +  +V   P     LIQ  ++   DNLD L
+Sbjct  69   GRCELRDVLLQGP---GGVRIVPAA---SGTQSMVHLSPAQHAGLIQAFSEIG-DNLDVL  121
+
+Query  213  VVDMPPGTGDIQLTLAQKVPVAGAVIVTTPQDLA-------LLDAKKGVEMFRKVNIPVL  265
+            V+D   G G+  ++  +       V+   P  +        LL+   G+  FR       
+Sbjct  122  VIDTAAGIGESVVSFVRAAQEVLLVVCDEPTSITDAYALIKLLNRDYGMNRFR-------  174
+
+Query  266  GVVENMAVHICSNCGHAEHLFGEGGGEKLAAQF---GVELLASMPLSIAIRTQADSGRPT  322
+             V+ NMA     +     +LF +    K+  +F    ++ + ++P    +R      R  
+Sbjct  175  -VLANMA----QSPQEGRNLFAK--LTKVTDRFLDVALQYVGAVPYDECVRKAVQKQRAV  227
+
+Query  323  VIADPESQLAMLYQEIARHV  342
+              A P S+ A+ ++ IA+ V
+Sbjct  228  YEAFPRSKCALAFKAIAQKV  247
+
+
+>VFG004456(gb|WP_011302062) (SSP_RS00310) polysaccharide biosynthesis 
+tyrosine autokinase [Capsule (VF0003) - Immune modulation 
+(VFC0258)] [Staphylococcus saprophyticus subsp. saprophyticus 
+ATCC 15305]
+Length=230
+
+ Score = 46.6 bits (109),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 42/171 (25%), Positives = 75/171 (44%), Gaps = 5/171 (3%)
+
+Query  104  VASGKGGVGKSTTAANLALALAREGARVGILDADIYGPSQGIMFGLP--EGTRPKVREQK  161
+            +AS K   GKST +AN+A+  A+ G +  ++D D+  P+Q  +F     +G    +  + 
+Sbjct  47   IASDKPSSGKSTVSANIAVTYAQAGFKTLLIDGDMRKPTQHYIFNKNNIKGLSNVIINKS  106
+
+Query  162  WFEPLEAHGVQVMSMAFLTDDSTPVVWRGPMVSGALIQLITQTAWDNLDYLVVDMPPGTG  221
+             FE    +  +V+++  LT    P      + S  ++ L  +      D++++D PP   
+Sbjct  107  TFED-AVYSTEVLNLDVLTSGPIPPNPSELIGSSNMMDLFEELKQ-RYDFILIDTPPVNT  164
+
+Query  222  DIQLTLAQKVPVAGAVIVTTPQDLALLDAKKGVEMFRKVNIPVLGVVENMA  272
+                 L  ++    AV +   +       KKG  +  K    +LG V N A
+Sbjct  165  VTDAQLFGEL-TKNAVYIIDVETNNKESVKKGKNLLEKSGTKILGAVLNKA  214
+
+
+>VFG050187(gb|WP_050412755) (bpsB) capsular exopolysaccharide 
+family domain protein [B. cereus exo-polysaccharide (BPS) (VF0668) 
+- Immune modulation (VFC0258)] [Bacillus cereus G9241]
+Length=209
+
+ Score = 46.2 bits (108),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 44/183 (24%), Positives = 78/183 (43%), Gaps = 18/183 (10%)
+
+Query  104  VASGKGGVGKSTTAANLALALAREGARVGILDADIYGPSQGIMFGLPEG---TRPKVREQ  160
+            V S + G GKSTTA NLA+  +++G RV  ++AD+    +  M  + +    T     E 
+Sbjct  39   VTSPEAGEGKSTTAVNLAVVFSQQGKRVLFVNADLRKQQKNSMLEITDNIGLTDILTGEV  98
+
+Query  161  KWFEPLEAHGVQVMSMAFLTDDSTPVVWRGPMVSGALIQLITQTAWDNLDYLVVDMPP--  218
+                 ++   ++ +   +L +   P      ++  A ++   Q A+   D ++ D PP  
+Sbjct  99   SLTYAVKESNIENL---YLLNSGYPSQNPSELLGSARMEEFLQEAYQKYDMIIFDTPPML  155
+
+Query  219  GTGDIQLTLAQKVPVAGAVIVTTPQDLALLDAKKGVEMFRKVNIPVLGVVENMAVHICSN  278
+               D Q+   Q     G ++V       +  A K  ++ + V   +LGVV N       N
+Sbjct  156  TVSDSQVMANQ---CDGIILVVDSGKTKIESAVKTKKLLQTVKGKLLGVVLN-------N  205
+
+Query  279  CGH  281
+            C +
+Sbjct  206  CNN  208
+
+
+>VFG019864(gb|WP_003192912) (fleN) flagellar synthesis regulator 
+FleN [Flagella (VF0273) - Motility (VFC0204)] [Pseudomonas 
+fluorescens SBW25]
+Length=277
+
+ Score = 46.6 bits (109),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 68/254 (27%), Positives = 112/254 (44%), Gaps = 27/254 (11%)
+
+Query  101  IVAVASGKGGVGKSTTAANLALALAREGARVGILDADIYGPSQGIMFGL-PEGTRPKVRE  159
+            ++AV  GKGGVGK+  + NL+LALA  G RV +LDAD+   +  ++ GL P+ T   V E
+Sbjct  9    VIAVTGGKGGVGKTNVSVNLSLALAELGRRVMLLDADLGLANVDVLLGLTPKHTLADVIE  68
+
+Query  160  QKW-FEPLEAHGVQVMSMAFLTDDSTPVVWRGPMVSGALIQLITQTAWDNLDYLVVDMPP  218
+             +     +   G   + +      +  +V   P     LIQ  +    DNLD LV+D   
+Sbjct  69   GRCELRDVLLQGPGGIRIVPAASGTQSMVHLSPAQHAGLIQAFSDIG-DNLDVLVIDTAA  127
+
+Query  219  GTGDIQLTLAQKVPVAGAVIVTTPQDLA-------LLDAKKGVEMFRKVNIPVLGVVENM  271
+            G G+  ++  +       V+   P  +        LL+   G+  FR        V+ NM
+Sbjct  128  GIGESVVSFVRAAQEVLLVVCDEPTSITDAYALIKLLNRDYGMNRFR--------VLANM  179
+
+Query  272  AVHICSNCGHAEHLFGEGGGEKLAAQF---GVELLASMPLSIAIRTQADSGRPTVIADPE  328
+            A     +     +LF +    K+  +F    ++ + ++P    +R      R    A P 
+Sbjct  180  A----QSPQEGRNLFAK--LTKVTDRFLDVALQYVGAVPYDECVRKAVQKQRAVYEAFPR  233
+
+Query  329  SQLAMLYQEIARHV  342
+            S+ A+ ++ IA+ V
+Sbjct  234  SKCALAFKAIAQKV  247
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2754188863
+
+
+Query= g2012.t1
+
+Length=369
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043350(gb|WP_011946724) (fleN) flagellar synthesis regulator F...  80.5    5e-17
+VFG043385(gb|WP_001064464) (ylxH) ATP-binding protein [Flagella (...  60.8    2e-10
+VFG011850(gb|YP_002343527) (flhG) ATP-binding protein [Flagella (...  56.6    6e-09
+VFG018030(gb|WP_002854691) (flhG) ATP-binding protein [Flagella (...  56.6    6e-09
+VFG011853(gb|WP_024305290) (flhG) ATP-binding protein [Flagella (...  52.8    1e-07
+VFG017782(gb|WP_011989473) (flhG) ATP-binding protein [Flagella (...  52.4    1e-07
+VFG005896(gb|WP_001142534) (SPD_RS01730) tyrosine-protein kinase ...  51.6    1e-07
+VFG005900(gb|YP_001200128) (SSU98_0570) Cps2C [Capsule (VF0144) -...  50.4    4e-07
+VFG005887(gb|YP_001197932) (SSU05_0566) Cps2C [Capsule (VF0144) -...  50.4    4e-07
+VFG001368(gb|WP_001142502) (cps4D) capsular polysaccharide biosyn...  50.1    5e-07
+VFG019114(gb|WP_001142507) (cps4D) capsular polysaccharide biosyn...  50.1    6e-07
+VFG043312(gb|WP_011860709) (CD630_RS01855) MinD/ParA family prote...  50.4    6e-07
+VFG019113(gb|WP_001142552) (SPH_RS02225) tyrosine-protein kinase ...  48.9    1e-06
+VFG018676(gb|WP_012130998) (SGO_RS09905) tyrosine-protein kinase ...  46.6    8e-06
+
+
+>VFG043350(gb|WP_011946724) (fleN) flagellar synthesis regulator 
+FleN [Flagella (VF0157) - Motility (VFC0204)] [Legionella 
+pneumophila subsp. pneumophila str. Philadelphia 1]
+Length=289
+
+ Score = 80.5 bits (197),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 75/268 (28%), Positives = 126/268 (47%), Gaps = 20/268 (7%)
+
+Query  95   KRVKNQPGINGVKN--------IIAVSSGKGGVGKSSTAVNLALALAAEGAKVGVLDADI  146
+            K +K+Q   +G++N        +IAVS+GKGGVGKS+ +VNLA+AL+     V +LDAD+
+Sbjct  6    KGIKDQA--SGLRNLSRNKPVKVIAVSAGKGGVGKSNISVNLAIALSQLNYSVMLLDADL  63
+
+Query  147  YGPSIPTMLGAEDQRPTS---PDGTHMAPIMSHGLATNSIGYLVTDDNAMVWRGPMASKA  203
+               ++  MLG   +   S       H++ I+ HG A   +    +    M    P     
+Sbjct  64   GLANVDIMLGLHTKYNLSHVLQGICHLSDIILHGPAGVRVIPAASGTEFMTQLSPAEHAG  123
+
+Query  204  LMQMLQETLWPDLDYLVLDMPPGTGDIQLTLAQNIPVTGAVVVTTPQDIALIDAKKGI-V  262
+            ++    E L  DLDY+++D   G  +  L+  ++      +VV   +  +L DA   I V
+Sbjct  124  IIDSFNE-LTDDLDYMIIDTAAGISETVLSFTRS--SQELIVVVCDEPTSLTDAYALIKV  180
+
+Query  263  MFEKVEVPVLGIVENMSMHICSNCGHHEPIFGTGGAQKLAEKYHTQLLGQMPLHISLRED  322
+            M ++ E     I+ NM  ++         +F   G Q L        LG +P   ++ + 
+Sbjct  181  MSKRYEWTHFHILANMVRNVKDGRDLFNKLFRVSG-QFL--DVQLDYLGAIPFDENIHKS  237
+
+Query  323  LDRGTPTVVSRPESEFTAIYRELADRVA  350
+            + +  P +++ P+S      RELA+ V+
+Sbjct  238  VKKQNPILIAYPDSPAAHALRELAESVS  265
+
+
+>VFG043385(gb|WP_001064464) (ylxH) ATP-binding protein  [Flagella 
+(VF0051) - Motility (VFC0204)] [Helicobacter pylori 26695]
+Length=294
+
+ Score = 60.8 bits (146),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 55/176 (31%), Positives = 84/176 (48%), Gaps = 16/176 (9%)
+
+Query  90   NIATLKRVKNQPGINGVKNIIAVSSGKGGVGKSSTAVNLALALAAEGAKVGVLDADIYGP  149
+            N+  +K  K+     G    IA++SGKGGVGKS+ + NLA +L  +G KVGV DADI   
+Sbjct  10   NLMNIKNPKSFFDNKGNTKFIAITSGKGGVGKSNISANLAYSLYKKGYKVGVFDADIGLA  69
+
+Query  150  SIPTMLGAEDQRP---TSPDGTHMAPIMSH---GLATNSIGYLVTDDNAMVWRGPMASKA  203
+            ++  + G +  +           +  I+     GL       +  D    + +    ++A
+Sbjct  70   NLDVIFGVKTHKNILHALKGEAKLQEIICEIEPGLCL-----IPGDSGEEILKYISGAEA  124
+
+Query  204  LMQML-QETLWPDLDYLVLDMPPGTG-DIQLTLAQNIPVTGAVVVTTPQDIALIDA  257
+            L Q + +E +   LDY+V+D   G G   Q  L  +  V   V+VTTP   A+ DA
+Sbjct  125  LDQFVDEEGVLSSLDYIVVDTGAGIGATTQAFLNASDCV---VIVTTPDPSAITDA  177
+
+
+>VFG011850(gb|YP_002343527) (flhG) ATP-binding protein [Flagella 
+(VF0114) - Motility (VFC0204)] [Campylobacter jejuni subsp. 
+jejuni NCTC 11168]
+Length=288
+
+ Score = 56.6 bits (135),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 52/178 (29%), Positives = 82/178 (46%), Gaps = 27/178 (15%)
+
+Query  94   LKRVKNQPGINGVKN--IIAVSSGKGGVGKSSTAVNLALALAAEGAKVGVLDADIYGPSI  151
+            L+ + +Q G    +N   IA++SGKGGVGKS+ + NLA  LA  G KVG+ DADI   ++
+Sbjct  8    LRNLMSQNGTKKSQNTHFIAITSGKGGVGKSTISANLANVLANNGYKVGLFDADIGLANL  67
+
+Query  152  PTMLGAEDQRPTSPDGTHMAPIMSHGLATN-SIGYLVTDDNAMVWRGPMAS---------  201
+              +L    Q+            + H L    S+  ++ +    +W  P  S         
+Sbjct  68   DVILNVRIQKN-----------LLHVLRGECSLEDILIEVKPNLWLIPGESGDEILKYND  116
+
+Query  202  KALMQML--QETLWPDLDYLVLDMPPGTGDIQLTLAQNIPVTGAVVVTTPQDIALIDA  257
+            K + +    Q ++  +LD+L++D   G G   L   +       +VVT P   A+ DA
+Sbjct  117  KNIYERFLNQASILDELDFLIIDTGAGIGGNILNFLE--MADEVIVVTVPDPAAITDA  172
+
+
+>VFG018030(gb|WP_002854691) (flhG) ATP-binding protein [Flagella 
+(VF0114) - Motility (VFC0204)] [Campylobacter jejuni subsp. 
+jejuni 81116]
+Length=288
+
+ Score = 56.6 bits (135),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 52/178 (29%), Positives = 82/178 (46%), Gaps = 27/178 (15%)
+
+Query  94   LKRVKNQPGINGVKN--IIAVSSGKGGVGKSSTAVNLALALAAEGAKVGVLDADIYGPSI  151
+            L+ + +Q G    +N   IA++SGKGGVGKS+ + NLA  LA  G KVG+ DADI   ++
+Sbjct  8    LRNLMSQNGTKKSQNTHFIAITSGKGGVGKSTISANLANVLANNGYKVGLFDADIGLANL  67
+
+Query  152  PTMLGAEDQRPTSPDGTHMAPIMSHGLATN-SIGYLVTDDNAMVWRGPMAS---------  201
+              +L    Q+            + H L    S+  ++ +    +W  P  S         
+Sbjct  68   DVILNVRIQKN-----------LLHVLRGECSLEDILIEVKPNLWLIPGESGDEILKYND  116
+
+Query  202  KALMQML--QETLWPDLDYLVLDMPPGTGDIQLTLAQNIPVTGAVVVTTPQDIALIDA  257
+            K + +    Q ++  +LD+L++D   G G   L   +       +VVT P   A+ DA
+Sbjct  117  KNIYERFLNQASILDELDFLIIDTGAGIGGNILNFLE--MADEVIVVTVPDPAAITDA  172
+
+
+>VFG011853(gb|WP_024305290) (flhG) ATP-binding protein [Flagella 
+(VF0114) - Motility (VFC0204)] [Campylobacter fetus subsp. 
+fetus 82-40]
+Length=289
+
+ Score = 52.8 bits (125),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 53/191 (28%), Positives = 87/191 (46%), Gaps = 24/191 (13%)
+
+Query  109  IIAVSSGKGGVGKSSTAVNLALALAAEGAKVGVLDADIYGPSIPTMLGAEDQRPTSPDGT  168
+             IAV+SGKGGVGKS+ + NLA  LA  G KV + DADI   ++  +L  + Q+       
+Sbjct  24   FIAVTSGKGGVGKSTISANLANILAKNGYKVALFDADIGLANLDVILNVKIQK-------  76
+
+Query  169  HMAPIMSHGLATNSIGYLVTDDNAMV--WRGPMASKALMQMLQETLWPD------LDYLV  220
+            ++  ++      + I   V D+  ++    G    K   Q + E    +      +D+++
+Sbjct  77   NLLNVLKGECELSDILVKVKDNLILIPGESGDDIFKFNDQFVLEKFISEASILNGIDFMI  136
+
+Query  221  LDMPPGTG-DIQLTLAQNIPVTGAVVVTTPQDIALIDAKKGIVMFEKVEVPVLGIV----  275
+            +D   G G   Q+ L         +VVT P   A+ DA   I +  K++  +  I+    
+Sbjct  137  IDTGAGIGASTQVFLE---ACDEIIVVTVPDPAAITDAYATIKVTSKMKKDIFMILNMVK  193
+
+Query  276  -ENMSMHICSN  285
+             EN ++ I  N
+Sbjct  194  NENEAIRIYEN  204
+
+
+>VFG017782(gb|WP_011989473) (flhG) ATP-binding protein [Flagella 
+(VF0114) - Motility (VFC0204)] [Campylobacter jejuni subsp. 
+doylei 269.97]
+Length=288
+
+ Score = 52.4 bits (124),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 58/213 (27%), Positives = 90/213 (42%), Gaps = 30/213 (14%)
+
+Query  94   LKRVKNQPGINGVKN--IIAVSSGKGGVGKSSTAVNLALALAAEGAKVGVLDADIYGPSI  151
+            L+ + +Q G    +N   +A+ SGKGGVGKS  + NLA  LA  G K+G+ DADI   ++
+Sbjct  8    LRNLMSQNGTKKSQNTHFMAIISGKGGVGKSIISANLANVLANNGYKIGLFDADIGLANL  67
+
+Query  152  PTMLGAEDQRPTSPDGTHMAPIMSHGLATNSIGYLVTDDNAMVWRGPMAS---------K  202
+              +L    Q+       ++  I+    +   I   V  +   +W  P  S         K
+Sbjct  68   DVILNVRIQK-------NLLHILRGECSLEDILIEVKPN---LWLIPGESGDEILKYNDK  117
+
+Query  203  ALMQML--QETLWPDLDYLVLDMPPGTGDIQLTLAQNIPVTGAVVVTTPQDIALIDAKKG  260
+             + +    Q ++   LD+L++D   G G   L   +       +VVT P   A+ DA   
+Sbjct  118  NIYERFLNQASILDKLDFLIIDTGAGIGGNILNFLE--MADEVIVVTVPDPAAITDAYAT  175
+
+Query  261  IVMFEKVEVPVLGIVENMSMHICSNCGHHEPIF  293
+            I    K +  +L     M  +I  N      IF
+Sbjct  176  IKTTSKTKENLL-----MLFNIVKNENEALKIF  203
+
+
+>VFG005896(gb|WP_001142534) (SPD_RS01730) tyrosine-protein kinase 
+[Capsule (VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+pneumoniae D39]
+Length=226
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 50/177 (28%), Positives = 77/177 (44%), Gaps = 6/177 (3%)
+
+Query  104  NGVKNIIAVSSGKGGVGKSSTAVNLALALAAEGAKVGVLDADIYGPSIPTMLGAEDQRPT  163
+            +G+K + +++S K G GKS+T+ N+A A A  G K  ++D DI    +  +  A D+   
+Sbjct  33   DGLK-VFSITSVKLGEGKSTTSTNIAWAFARAGYKTLLIDGDIRNSVMLGVFKARDKITG  91
+
+Query  164  SPDGTHMAPIMSHGLATNSIGYLVTDDNAMVWRGPMA---SKALMQMLQETLWPDLDYLV  220
+              +       +S GL   +I  L       V   P A    K    ML ETL    DY++
+Sbjct  92   LTEFLSGTTDLSQGLCDTNIENLFVIQAGSVSPNPTALLQRKNFSTML-ETLRKYFDYII  150
+
+Query  221  LDMPPGTGDIQLTLAQNIPVTGAVVVTTPQDIALIDAKKGIVMFEKVEVPVLGIVEN  277
+            +D  P    I   +        +++VT   +I   D +K     E    P LG+V N
+Sbjct  151  VDTAPVGVVIDAAIITR-KCDASILVTEAGEINRRDIQKAKEQLEHTGKPFLGVVLN  206
+
+
+>VFG005900(gb|YP_001200128) (SSU98_0570) Cps2C [Capsule (VF0144) 
+- Immune modulation (VFC0258)] [Streptococcus suis 98HAH33]
+Length=225
+
+ Score = 50.4 bits (119),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 51/173 (29%), Positives = 74/173 (43%), Gaps = 7/173 (4%)
+
+Query  109  IIAVSSGKGGVGKSSTAVNLALALAAEGAKVGVLDADIYGPSIPTMLGAEDQRPTSPDGT  168
+            ++ ++S K   GKS+TA +LA+A A  G K  ++DADI    +P       +     D  
+Sbjct  37   VVGITSVKSNEGKSTTAASLAIAYARSGYKTVLVDADIRNSVMPGFFKPITKITGLTDYL  96
+
+Query  169  HMAPIMSHGLATNSIGYLVTDDNAMVWRGPMA---SKALMQMLQETLWPDLDYLVLDMPP  225
+                 +S GL    I  L   ++  V   P A   SK    +L  TL    DY+++D PP
+Sbjct  97   AGTTDLSQGLCDTDIPNLTVIESGKVSPNPTALLQSKNFENLLA-TLRRYYDYVIVDCPP  155
+
+Query  226  -GTGDIQLTLAQNIPVTGAVVVTTPQDIALIDAKKGIVMFEKVEVPVLGIVEN  277
+             G       +AQ      AVV     ++     KK     EK   P LG++ N
+Sbjct  156  LGLVVDAAIIAQKCDAMVAVV--EAGNVKCSSLKKVKEQLEKTGTPFLGVILN  206
+
+
+>VFG005887(gb|YP_001197932) (SSU05_0566) Cps2C [Capsule (VF0144) 
+- Immune modulation (VFC0258)] [Streptococcus suis 05ZYH33]
+Length=231
+
+ Score = 50.4 bits (119),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 51/173 (29%), Positives = 74/173 (43%), Gaps = 7/173 (4%)
+
+Query  109  IIAVSSGKGGVGKSSTAVNLALALAAEGAKVGVLDADIYGPSIPTMLGAEDQRPTSPDGT  168
+            ++ ++S K   GKS+TA +LA+A A  G K  ++DADI    +P       +     D  
+Sbjct  37   VVGITSVKSNEGKSTTAASLAIAYARSGYKTVLVDADIRNSVMPGFFKPITKITGLTDYL  96
+
+Query  169  HMAPIMSHGLATNSIGYLVTDDNAMVWRGPMA---SKALMQMLQETLWPDLDYLVLDMPP  225
+                 +S GL    I  L   ++  V   P A   SK    +L  TL    DY+++D PP
+Sbjct  97   AGTTDLSQGLCDTDIPNLTVIESGKVSPNPTALLQSKNFENLLA-TLRRYYDYVIVDCPP  155
+
+Query  226  -GTGDIQLTLAQNIPVTGAVVVTTPQDIALIDAKKGIVMFEKVEVPVLGIVEN  277
+             G       +AQ      AVV     ++     KK     EK   P LG++ N
+Sbjct  156  LGLVVDAAIIAQKCDAMVAVV--EAGNVKCSSLKKVKEQLEKTGTPFLGVILN  206
+
+
+>VFG001368(gb|WP_001142502) (cps4D) capsular polysaccharide biosynthesis 
+protein Cps4D [Capsule (VF0144) - Immune modulation 
+(VFC0258)] [Streptococcus pneumoniae TIGR4]
+Length=227
+
+ Score = 50.1 bits (118),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 39/123 (32%), Positives = 57/123 (46%), Gaps = 10/123 (8%)
+
+Query  109  IIAVSSGKGGVGKSSTAVNLALALAAEGAKVGVLDADIYGPSIPTMLGAEDQRPTSPDGT  168
+            +I+V+S   G GK++T++N+A + A  G K  ++D D        MLG    R      T
+Sbjct  37   VISVTSVNPGEGKTTTSINIAWSFARAGYKTLLIDGDTRN---SVMLGVFKSREKITGLT  93
+
+Query  169  HM---APIMSHGLATNSIGYLVTDDNAMVWRGPMA---SKALMQMLQETLWPDLDYLVLD  222
+                    +SHGL   +I  L    +  V   P A   SK    M+ ETL    DY+++D
+Sbjct  94   EFLSGTADLSHGLCDTNIENLFVVQSGSVSPNPTALLQSKNFNDMI-ETLRKYFDYIIID  152
+
+Query  223  MPP  225
+             PP
+Sbjct  153  TPP  155
+
+
+>VFG019114(gb|WP_001142507) (cps4D) capsular polysaccharide biosynthesis 
+protein Cps4D [Capsule (VF0144) - Immune modulation 
+(VFC0258)] [Streptococcus pneumoniae CGSP14]
+Length=227
+
+ Score = 50.1 bits (118),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 35/120 (29%), Positives = 58/120 (48%), Gaps = 4/120 (3%)
+
+Query  109  IIAVSSGKGGVGKSSTAVNLALALAAEGAKVGVLDADIYGPSIPTMLGAEDQRPTSPDGT  168
+            +I+V+S   G GK++T+VN+A + A  G K  ++D D     I  +  + ++     +  
+Sbjct  37   VISVTSVNPGEGKTTTSVNIARSFARAGYKTLLIDGDTRNSVISGVFKSREKITGLTEFL  96
+
+Query  169  HMAPIMSHGLATNSIGYLVTDDNAMVWRGPMA---SKALMQMLQETLWPDLDYLVLDMPP  225
+                 +S+GL   +I  L    +  V   P A   SK    M+ ETL    DY+++D PP
+Sbjct  97   SGTADLSYGLCDTNIENLFVVQSGSVSPNPTALLQSKNFNDMI-ETLRKYFDYIIVDTPP  155
+
+
+>VFG043312(gb|WP_011860709) (CD630_RS01855) MinD/ParA family protein 
+[Peritrichous flagella (VF0732) - Motility (VFC0204)] 
+[Clostridium difficile 630]
+Length=292
+
+ Score = 50.4 bits (119),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 49/169 (29%), Positives = 75/169 (44%), Gaps = 33/169 (20%)
+
+Query  105  GVKNIIAVSSGKGGVGKSSTAVNLALALAAEGAKVGVLDADIYGPSIPTMLGA-------  157
+             V  II ++SGKGGVGKS+ A NL++ L     KV +LDADI   +I  ++G        
+Sbjct  27   NVPKIITIASGKGGVGKSNLATNLSICLTKLNKKVLILDADIGMSNIDIIMGVNVKGTII  86
+
+Query  158  ---------EDQRPTSPDGTHMAPIMSHGLATNSIGYLVTDDNAMVWRGPMASKALMQML  208
+                     ED    +  G +   I+S G A N I     +D     R      ++ Q+ 
+Sbjct  87   DVINGEKNIEDIISQTKYGVN---IISGGSALNHI-----EDFTEAQRNKFIH-SIEQI-  136
+
+Query  209  QETLWPDLDYLVLDMPPGTGDIQLTLAQNIPVTGAVVVTTPQDIALIDA  257
+                  D+D++++D   G     L+       T   ++TTP+  +L DA
+Sbjct  137  -----HDVDFIIIDTGAGMSKSLLSFIY--CSTEFFLITTPEPTSLTDA  178
+
+
+>VFG019113(gb|WP_001142552) (SPH_RS02225) tyrosine-protein kinase 
+[Capsule (VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+pneumoniae Hungary19A-6]
+Length=229
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 45/172 (26%), Positives = 74/172 (43%), Gaps = 5/172 (3%)
+
+Query  109  IIAVSSGKGGVGKSSTAVNLALALAAEGAKVGVLDADIYGPSIPTMLGAEDQRPTSPDGT  168
+            + +++S K G GK++T+ N+A A A  G K  ++DAD+    +  +  + ++     +  
+Sbjct  37   VFSITSVKAGEGKTTTSTNIAWAFARAGYKTLLIDADMRNSVMSGVFKSRERITGLTEFL  96
+
+Query  169  HMAPIMSHGLATNSIGYLVTDDNAMVWRGPMA---SKALMQMLQETLWPDLDYLVLDMPP  225
+                 +S GL   +I  L       V   P A   SK    ML ETL    DY+V+D  P
+Sbjct  97   SGTTDLSQGLCDTNIENLFVIQAGSVSPNPTALLQSKNFSTML-ETLRKYFDYIVVDTAP  155
+
+Query  226  GTGDIQLTLAQNIPVTGAVVVTTPQDIALIDAKKGIVMFEKVEVPVLGIVEN  277
+                I   +        +++VT   +    D +K     E+     LG+V N
+Sbjct  156  VGVVIDAAIIMQ-KCDASILVTKAGETKRRDLQKAKEQLEQTGKSCLGVVLN  206
+
+
+>VFG018676(gb|WP_012130998) (SGO_RS09905) tyrosine-protein kinase 
+[Capsule (VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+gordonii str. Challis substr. CH1]
+Length=231
+
+ Score = 46.6 bits (109),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 48/182 (26%), Positives = 80/182 (44%), Gaps = 25/182 (14%)
+
+Query  109  IIAVSSGKGGVGKSSTAVNLALALAAEGAKVGVLDADIYGPSIPTMLGAEDQRPTSPDGT  168
+            I+AV+S +   GKS+T+ NLA+A A  G    ++DADI    +  +  ++++     D  
+Sbjct  37   IVAVTSVQPNEGKSTTSTNLAIAFARAGYTTLLIDADIRNSIMSGVFKSKEKITGLTDYL  96
+
+Query  169  HMAPIMSHGLATNSIGYLVTDDNAMVWRGPMA---SKALMQMLQETLWPDLDYLVLDMPP  225
+                 +S GL    +  L   ++      P A   SK   +M+   L    DY+++D PP
+Sbjct  97   VGKNDLSQGLCETDVPNLFVIESGQSSPNPTALLQSKNFDEMMN-ILRRHYDYIIVDTPP  155
+
+Query  226  GTGDIQLTLAQNIPVTGAVVVTTPQDIALIDAKKGIV----------MFEKVEVPVLGIV  275
+                I L       V  A +++   D +++ A+ G V            E+   P LG+V
+Sbjct  156  ----IGL-------VIDAAIISQKCDASILVAEAGSVKRKALQKSKEQLEQTGTPFLGVV  204
+
+Query  276  EN  277
+             N
+Sbjct  205  LN  206
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2788606473
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

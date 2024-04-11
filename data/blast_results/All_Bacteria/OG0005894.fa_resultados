@@ -1,0 +1,79 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g763.t1
+
+Length=219
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002901(gb|WP_002209736) (YPA_RS10790) histidine ABC transporte...  95.9    3e-24
+
+
+>VFG002901(gb|WP_002209736) (YPA_RS10790) histidine ABC transporter 
+permease HisQ [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pestis Antiqua]
+Length=228
+
+ Score = 95.9 bits (237),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 60/212 (28%), Positives = 104/212 (49%), Gaps = 9/212 (4%)
+
+Query  13   PLLLEGAKMTLWISVLGLAGGLVIGLAAGFARTFGGWFANHIALVFIEIIRGTPIVVQVM  72
+             L+ EGA +TL +++  +   +VIGL     +       + +   +  +IRG P +V ++
+Sbjct  7    KLIFEGALVTLELALFSVLLSVVIGLMGAGGKLSSNRLVSGLFECYTTLIRGVPDLVLML  66
+
+Query  73   FIYFALPMAFNDL---------RIDPFSAAVVTIMINSGAYIAEITRGAVLSIHKGFREA  123
+             I++ L +  N +          IDP SA V+T+    GAY  E  RGA +++ KG  EA
+Sbjct  67   LIFYGLQITLNSITESLGFVQIDIDPLSAGVITLGFIYGAYFTETFRGAYMAVSKGQIEA  126
+
+Query  124  GLALGLSRRETIRHVILPLALRRMLPPLGNQWIISIKDTSLFIVIGVAELTRQGQEIIAG  183
+              A G +  +  R ++ P  +R  LP +GN W + +K T+L  ++G+ ++ +  Q    G
+Sbjct  127  ATAFGFTSSQIFRRIMFPAMMRYALPGIGNNWQVILKATALVSILGLNDVVKATQLAGKG  186
+
+Query  184  NFRALEIWSAVAVFYLIITLVLSFILRRLERR  215
+             ++           YL  T + + +L  LERR
+Sbjct  187  TYQPFFFALVAGAIYLFFTTLSNGVLWWLERR  218
+
+
+
+Lambda      K        H        a         alpha
+   0.332    0.145    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1305289653
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

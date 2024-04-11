@@ -1,0 +1,182 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1896.t1
+
+Length=175
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000183(gb|NP_251794) (xcpP) secretion protein XcpP [Xcp secret...  56.2    5e-10
+
+
+>VFG000183(gb|NP_251794) (xcpP) secretion protein XcpP [Xcp secretion 
+system (VF0084) - Effector delivery system (VFC0086)] 
+[Pseudomonas aeruginosa PAO1]
+Length=235
+
+ Score = 56.2 bits (134),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 56/154 (36%), Positives = 72/154 (47%), Gaps = 4/154 (3%)
+
+Query  17   LPSSFVSLRSLAGHAPAVLCVLLLALLSASLASQTRSLRRELAELPAAAAPAPPANPSA-  75
+            LP S  S R L  +APA+L V L+  +S SLA Q     R L   P A A +P ++ S  
+Sbjct  18   LPFSGASSRWLQRYAPALLAVALIIAMSISLAWQAAGWLR-LQRSPVAVAASPVSHESIR  76
+
+Query  76   APRAALAGLFG-GAPSPRGATAGERLQLRLLACFLARREDRSAALIAVAG-RSQRFLPGA  133
+            +    LA LFG  A  P        L L L   F+      S+A+I   G +  R+  G 
+Sbjct  77   SDPTRLARLFGTSAQDPNAPPPATNLDLVLKGSFVQSDPKLSSAIIQRQGDKPHRYAVGG  136
+
+Query  134  EVRPGTVLLAVHRDHVVLRDQGYEERLYFPKAEG  167
+            E+  G  L AV+RD V L+  G  E L FP   G
+Sbjct  137  EISDGVKLHAVYRDRVELQRGGRLESLPFPHRSG  170
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.132    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 877076674
+
+
+Query= g3165.t1
+
+Length=218
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000183(gb|NP_251794) (xcpP) secretion protein XcpP [Xcp secret...  434     2e-157
+VFG007112(gb|WP_157401904) (epsC) type II secretion system protei...  45.4    8e-06 
+VFG007111(gb|WP_172665345) (epsC) type II secretion system protei...  45.4    8e-06 
+VFG007113(gb|WP_011262834) (epsC) type II secretion system protei...  45.4    1e-05 
+
+
+>VFG000183(gb|NP_251794) (xcpP) secretion protein XcpP [Xcp secretion 
+system (VF0084) - Effector delivery system (VFC0086)] 
+[Pseudomonas aeruginosa PAO1]
+Length=235
+
+ Score = 434 bits (1117),  Expect = 2e-157, Method: Compositional matrix adjust.
+ Identities = 217/218 (99%), Positives = 218/218 (100%), Gaps = 0/218 (0%)
+
+Query  1    MPFSGASSRWLQRYAPALLAVALIIAMSISLAWQAAGWLRLQRSPVAVAASPVSHESIRS  60
+            +PFSGASSRWLQRYAPALLAVALIIAMSISLAWQAAGWLRLQRSPVAVAASPVSHESIRS
+Sbjct  18   LPFSGASSRWLQRYAPALLAVALIIAMSISLAWQAAGWLRLQRSPVAVAASPVSHESIRS  77
+
+Query  61   DPTRLARLFGTSAQDPNAPPPATNLDLVLKGSFVQSDPKLSSAIIQRQGDKPHRYAVGGE  120
+            DPTRLARLFGTSAQDPNAPPPATNLDLVLKGSFVQSDPKLSSAIIQRQGDKPHRYAVGGE
+Sbjct  78   DPTRLARLFGTSAQDPNAPPPATNLDLVLKGSFVQSDPKLSSAIIQRQGDKPHRYAVGGE  137
+
+Query  121  ISDGVKLHAVYRDRVELQRGGRLESLPFPHRSGGLLASADDITSENDSIEQLQSLQDENA  180
+            ISDGVKLHAVYRDRVELQRGGRLESLPFPHRSGGLLASADDITSENDSIEQLQSLQDENA
+Sbjct  138  ISDGVKLHAVYRDRVELQRGGRLESLPFPHRSGGLLASADDITSENDSIEQLQSLQDENA  197
+
+Query  181  AALRERLDALRQQMEATPIAEPAEEDSSEPTTTPTESD  218
+            AALRERLDALRQQMEATPIAEPAEEDSSEPTTTPTESD
+Sbjct  198  AALRERLDALRQQMEATPIAEPAEEDSSEPTTTPTESD  235
+
+
+>VFG007112(gb|WP_157401904) (epsC) type II secretion system protein 
+GspC [Eps T2SS (VF0613) - Effector delivery system (VFC0086)] 
+[Vibrio vulnificus YJ016]
+Length=291
+
+ Score = 45.4 bits (106),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 49/159 (31%), Positives = 71/159 (45%), Gaps = 21/159 (13%)
+
+Query  6    ASSRWLQRYAPALLAVALIIAMSISLAWQAAGWLRLQRSPVAVAASPVSHESIRS---DP  62
+            A++  +Q  A ALLA  L+     +L      WL  + +   VA  P   ++ +    + 
+Sbjct  3    ANNGMIQSRASALLAGVLVALTGWTLG--QVVWLTQESNTQIVAWRPAPQQNAQGKQGER  60
+
+Query  63   TRLA-----RLFGTSAQDPNAP---------PPATNLDLVLKGSFVQSDPKLSSAIIQRQ  108
+              LA      LFG   ++   P          P T L+LVL G+   S+P+ S A+I  +
+Sbjct  61   LNLADLQAINLFGVYNENKPKPVVSQPVVQDAPKTRLNLVLVGAVASSNPQTSLAVIANR  120
+
+Query  109  GDKPHRYAVGGEISDG-VKLHAVYRDRVELQRGGRLESL  146
+            G +   Y VG EI     KL AV  DRV +   GR E+L
+Sbjct  121  GQQAT-YGVGEEIEGTRAKLKAVLVDRVIIDNEGRDETL  158
+
+
+>VFG007111(gb|WP_172665345) (epsC) type II secretion system protein 
+GspC [Eps T2SS (VF0613) - Effector delivery system (VFC0086)] 
+[Vibrio vulnificus CMCP6]
+Length=291
+
+ Score = 45.4 bits (106),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 49/159 (31%), Positives = 71/159 (45%), Gaps = 21/159 (13%)
+
+Query  6    ASSRWLQRYAPALLAVALIIAMSISLAWQAAGWLRLQRSPVAVAASPVSHESIRS---DP  62
+            A++  +Q  A ALLA  L+     +L      WL  + +   VA  P   ++ +    + 
+Sbjct  3    ANNGMIQSRASALLAGVLVALTGWTLG--QVVWLTQESNTQIVAWRPAPQQNAQGKQGER  60
+
+Query  63   TRLA-----RLFGTSAQDPNAP---------PPATNLDLVLKGSFVQSDPKLSSAIIQRQ  108
+              LA      LFG   ++   P          P T L+LVL G+   S+P+ S A+I  +
+Sbjct  61   LNLADLQAINLFGVYNENKPKPVVSQPVVQDAPKTRLNLVLVGAVASSNPQTSLAVIANR  120
+
+Query  109  GDKPHRYAVGGEISDG-VKLHAVYRDRVELQRGGRLESL  146
+            G +   Y VG EI     KL AV  DRV +   GR E+L
+Sbjct  121  GQQAT-YGVGEEIEGTRAKLKAVLVDRVIIDNEGRDETL  158
+
+
+>VFG007113(gb|WP_011262834) (epsC) type II secretion system protein 
+GspC [Eps T2SS (VF0613) - Effector delivery system (VFC0086)] 
+[Vibrio fischeri ES114]
+Length=302
+
+ Score = 45.4 bits (106),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 33/120 (28%), Positives = 59/120 (49%), Gaps = 9/120 (8%)
+
+Query  81   PATNLDLVLKGSFVQSDPKLSSAIIQRQGDKPHRYAVGGEISDGVK--LHAVYRDRVELQ  138
+            P T L+L L G    S+P LS A+I  +G K + Y +  E  DG +  + A+  DR+ + 
+Sbjct  103  PKTRLNLTLSGVVASSEPSLSLAVIANRG-KQNTYGI-NETIDGTRASVKAISADRIIIS  160
+
+Query  139  RGGRLESLPFPHRSGGLLASADDITSENDSIEQLQSLQDENAAALRERLDALRQQMEATP  198
+              GR E+L         +++  +IT  + ++     L +    + ++ LD +R++M   P
+Sbjct  161  NNGRDETLMLEGVEYTKISTERNITGSSGTV-----LGNNRQNSNQDELDKIRKEMAQNP  215
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.128    0.363    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1294677542
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,2349 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g365.t1
+
+Length=712
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG016489(gb|WP_011264744) (tuf) elongation factor Tu [EF-Tu (VF0...  60.5    2e-09
+VFG016493(gb|WP_011283803) (tuf) elongation factor Tu [EF-Tu (VF0...  60.5    2e-09
+VFG016491(gb|WP_011076858) (tuf) elongation factor Tu [EF-Tu (VF0...  58.5    7e-09
+VFG016486(gb|WP_011206373) (tuf) elongation factor Tu [EF-Tu (VF0...  58.5    7e-09
+VFG016490(gb|NP_975163) (tuf) elongation factor Tu [EF-Tu (VF0877...  58.2    9e-09
+VFG016483(gb|WP_010875022) (tuf) elongation factor Tu [EF-Tu (VF0...  57.8    1e-08
+VFG016492(gb|WP_010925206) (tuf) elongation factor Tu [EF-Tu (VF0...  57.8    1e-08
+VFG016488(gb|WP_011284269) (tuf) elongation factor Tu [EF-Tu (VF0...  57.8    1e-08
+VFG046475(gb|WP_013922406) (tufA) elongation factor Tu [EF-Tu (VF...  57.0    2e-08
+VFG016484(gb|WP_009885583) (tuf) elongation factor Tu [EF-Tu (VF0...  56.6    2e-08
+VFG046467(gb|WP_014548920) (tufA) elongation factor Tu [EF-Tu (VF...  55.5    5e-08
+VFG046458(gb|WP_003024794) (tufA) elongation factor Tu [EF-Tu (VF...  55.5    6e-08
+VFG046465(gb|WP_003028672) (tufA) elongation factor Tu [EF-Tu (VF...  55.5    6e-08
+VFG016494(gb|WP_004024476) (tuf) elongation factor Tu [EF-Tu (VF0...  55.5    6e-08
+VFG046459(gb|WP_004287053) (tufA) elongation factor Tu [EF-Tu (VF...  54.7    1e-07
+VFG046474(gb|WP_014714676) (tufA) elongation factor Tu [EF-Tu (VF...  54.7    1e-07
+VFG016485(gb|WP_011113468) (tuf) elongation factor Tu [EF-Tu (VF0...  54.3    2e-07
+
+
+>VFG016489(gb|WP_011264744) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma mobile 163K]
+Length=400
+
+ Score = 60.5 bits (145),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 44/141 (31%), Positives = 67/141 (48%), Gaps = 9/141 (6%)
+
+Query  10   YRNIGISAHIDAGKTTTTERILFYTGVSHKIGEVHDGAATMDWMEQEQERGITITSAATT  69
+            + NIG   H+D GKTT T  I        +  E  D   ++D   +E+ERGITI ++   
+Sbjct  12   HVNIGTIGHVDHGKTTLTAAIATVLAKHVEGNEARD-YGSIDNAPEERERGITINTSHIE  70
+
+Query  70   CFWSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSETVWRQ  129
+                   N   +H  +V D PGH D+   +      +DGA +V  A  G  PQ+      
+Sbjct  71   Y------NTEKRHYAHV-DCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHILL  123
+
+Query  130  ANKYKVPRL-AFVNKMDRTGA  149
+            + +  VP++  F+NK+D  G+
+Sbjct  124  SKQVGVPKMVVFLNKVDLLGS  144
+
+
+>VFG016493(gb|WP_011283803) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma synoviae 53]
+Length=394
+
+ Score = 60.5 bits (145),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 45/136 (33%), Positives = 66/136 (49%), Gaps = 12/136 (9%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVSHK-IGEVHDGAATMDWMEQEQERGITITSAATTC  70
+            N+G   H+D GKTT T  I   T +S K + E  D  A++D   +E+ RGITI +     
+Sbjct  14   NVGTIGHVDHGKTTLTAAIA--TVLSKKGLSEARD-YASIDNAPEEKARGITINT-----  65
+
+Query  71   FWSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSETVWRQA  130
+              S +  Q  +     +D PGH D+   +      +DGA +V  A  G  PQ+      +
+Sbjct  66   --SHIEYQTEKRHYAHVDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHILLS  123
+
+Query  131  NKYKVPRL-AFVNKMD  145
+             +  VPR+  F+NK D
+Sbjct  124  KQVGVPRMVVFLNKCD  139
+
+
+>VFG016491(gb|WP_011076858) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma penetrans HF-2]
+Length=394
+
+ Score = 58.5 bits (140),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 45/137 (33%), Positives = 63/137 (46%), Gaps = 10/137 (7%)
+
+Query  10   YRNIGISAHIDAGKTTTTERILFYTGVSHKIGEVHDGAATMDWMEQEQERGITITSAATT  69
+            + NIG   HID GKTT T  I  Y  ++ K G        +D   +E+ RGITI +A   
+Sbjct  12   HVNIGTIGHIDHGKTTLTAAICTY--LAKKGGAKAMKYDEIDKAPEEKARGITINTAHVE  69
+
+Query  70   CFWSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSETVWRQ  129
+                   N+   H    +D PGH D+   +      +DGA +V  A  G  PQ+      
+Sbjct  70   YETE---NRHYAH----VDCPGHADYVKNMITGAAQMDGAILVVAASDGPMPQTREHILL  122
+
+Query  130  ANKYKVPRL-AFVNKMD  145
+            A +  VP++  F+NK D
+Sbjct  123  ARQVGVPKMVVFLNKCD  139
+
+
+>VFG016486(gb|WP_011206373) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma hyopneumoniae 232]
+Length=402
+
+ Score = 58.5 bits (140),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 44/136 (32%), Positives = 67/136 (49%), Gaps = 12/136 (9%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVSHK-IGEVHDGAATMDWMEQEQERGITITSAATTC  70
+            NIG   H+D GKTT T  I   T ++ K + E  D  A++D   +E+ RGITI +A    
+Sbjct  20   NIGTIGHVDHGKTTLTAAI--STVLAKKGLAEAKD-YASIDAAPEEKARGITINTAHIE-  75
+
+Query  71   FWSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSETVWRQA  130
+             +S     +       +D PGH D+   +      +DGA +V  A  G  PQ+      +
+Sbjct  76   -YSTDKRHYAH-----VDCPGHADYIKNMITGAAQMDGAILVVAATDGPMPQTREHILLS  129
+
+Query  131  NKYKVPRL-AFVNKMD  145
+             +  VP++  F+NK+D
+Sbjct  130  KQVGVPKMVVFLNKID  145
+
+
+>VFG016490(gb|NP_975163) (tuf) elongation factor Tu [EF-Tu (VF0877) 
+- Adherence (VFC0001)] [Mycoplasma mycoides subsp. mycoides 
+SC str. PG1]
+Length=395
+
+ Score = 58.2 bits (139),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 45/138 (33%), Positives = 65/138 (47%), Gaps = 12/138 (9%)
+
+Query  10   YRNIGISAHIDAGKTTTTERILFYTGVSHKIGEVH-DGAATMDWMEQEQERGITITSAAT  68
+            + NIG   H+D GKTT T  I   T V  + G       A +D   +E+ERGITI +A  
+Sbjct  12   HVNIGTIGHVDHGKTTLTAAI---TKVLSEQGNAEFKDYANIDNAPEERERGITINTAHV  68
+
+Query  69   TCFWSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSETVWR  128
+                +   N+   H    +D PGH D+   +      +DGA +V  A  G  PQ+     
+Sbjct  69   EYKTA---NRHYAH----VDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHIL  121
+
+Query  129  QANKYKVPRL-AFVNKMD  145
+             + +  VP++  F+NK D
+Sbjct  122  LSRQVGVPKIVVFLNKCD  139
+
+
+>VFG016483(gb|WP_010875022) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma pneumoniae M129]
+Length=394
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 46/139 (33%), Positives = 61/139 (44%), Gaps = 18/139 (13%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVSHKIGEVHDGAAT----MDWMEQEQERGITITSAA  67
+            N+G   HID GKTT T  I        K       AAT    +D   +E+ RGITI SA 
+Sbjct  14   NVGTIGHIDHGKTTLTAAICTVLAKEGK------SAATRYDQIDKAPEEKARGITINSAH  67
+
+Query  68   TTCFWSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSETVW  127
+                +S     +       +D PGH D+   +      +DGA +V  A   V PQ+    
+Sbjct  68   VE--YSSDKRHYAH-----VDCPGHADYIKNMITGAAQMDGAILVVSATDSVMPQTREHI  120
+
+Query  128  RQANKYKVPRL-AFVNKMD  145
+              A +  VPR+  F+NK D
+Sbjct  121  LLARQVGVPRMVVFLNKCD  139
+
+
+>VFG016492(gb|WP_010925206) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma pulmonis UAB CTIP]
+Length=396
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 43/138 (31%), Positives = 66/138 (48%), Gaps = 12/138 (9%)
+
+Query  10   YRNIGISAHIDAGKTTTTERILFYTGVSHK-IGEVHDGAATMDWMEQEQERGITITSAAT  68
+            + NIG   H+D GKTT T  I   T +S K + E  D  A++D   +E+ RGITI +A  
+Sbjct  12   HVNIGTIGHVDHGKTTLTAAIA--TVLSKKGLAEAKD-YASIDAAPEEKARGITINTAHI  68
+
+Query  69   TCFWSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSETVWR  128
+                     +  +     +D PGH D+   +      +DG  +V  A  G  PQ+     
+Sbjct  69   EY-------ETEKRHYAHVDCPGHADYVKNMITGAAQMDGGILVVSATDGPMPQTREHIL  121
+
+Query  129  QANKYKVPRL-AFVNKMD  145
+             + +  VP++  F+NK+D
+Sbjct  122  LSKQVGVPKMVVFLNKVD  139
+
+
+>VFG016488(gb|WP_011284269) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma hyopneumoniae J]
+Length=402
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 42/135 (31%), Positives = 63/135 (47%), Gaps = 10/135 (7%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVSHKIGEVHDGAATMDWMEQEQERGITITSAATTCF  71
+            NIG   H+D GKTT T  I         + E  D  A++D   +E+ RGITI +A     
+Sbjct  20   NIGTIGHVDHGKTTLTAAISTVLA-KRGLAEAKD-YASIDAAPEEKARGITINTAHIE--  75
+
+Query  72   WSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSETVWRQAN  131
+            +S     +       +D PGH D+   +      +DGA +V  A  G  PQ+      + 
+Sbjct  76   YSTDKRHYAH-----VDCPGHADYIKNMITGAAQMDGAILVVAATDGPMPQTREHILLSK  130
+
+Query  132  KYKVPRL-AFVNKMD  145
+            +  VP++  F+NK+D
+Sbjct  131  QVGVPKMVVFLNKID  145
+
+
+>VFG046475(gb|WP_013922406) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella sp. TX077308]
+Length=394
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 40/137 (29%), Positives = 62/137 (45%), Gaps = 10/137 (7%)
+
+Query  10   YRNIGISAHIDAGKTTTTERILFYTGVSHKIGEVHDGAATMDWMEQEQERGITITSAATT  69
+            + N+G   H+D GKTT T  I     ++ K G        +D   +E+ RGITI +    
+Sbjct  12   HVNVGTIGHVDHGKTTLTAAITKV--MAEKNGSAAKNFDEIDNAPEEKARGITINT----  65
+
+Query  70   CFWSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSETVWRQ  129
+               S +  + P      +D PGH D+   +      +DGA +V  A  G  PQ+      
+Sbjct  66   ---SHVEYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILL  122
+
+Query  130  ANKYKVPRL-AFVNKMD  145
+            + +  VP++  F+NK D
+Sbjct  123  SRQVGVPKIVVFLNKCD  139
+
+
+>VFG016484(gb|WP_009885583) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma genitalium G37]
+Length=394
+
+ Score = 56.6 bits (135),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 45/141 (32%), Positives = 62/141 (44%), Gaps = 18/141 (13%)
+
+Query  10   YRNIGISAHIDAGKTTTTERILFYTGVSHKIGEVHDGAAT----MDWMEQEQERGITITS  65
+            + N+G   HID GKTT T  I        K       AAT    +D   +E+ RGITI S
+Sbjct  12   HVNVGTIGHIDHGKTTLTAAICTVLAKEGK------SAATRYDEIDKAPEEKARGITINS  65
+
+Query  66   AATTCFWSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSET  125
+            A     +S     +       +D PGH D+   +      +DGA +V  A   V PQ+  
+Sbjct  66   AHVE--YSSDKRHYAH-----VDCPGHADYIKNMITGAAQMDGAILVVSATDSVMPQTRE  118
+
+Query  126  VWRQANKYKVPRL-AFVNKMD  145
+                A +  VP++  F+NK D
+Sbjct  119  HILLARQVGVPKMVVFLNKCD  139
+
+
+>VFG046467(gb|WP_014548920) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella cf. tularensis 
+subsp. novicida 3523]
+Length=394
+
+ Score = 55.5 bits (132),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 40/135 (30%), Positives = 62/135 (46%), Gaps = 10/135 (7%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVSHKIGEVHDGAATMDWMEQEQERGITITSAATTCF  71
+            N+G   H+D GKTT T  I     ++ K G +      +D   +E+ RGITI +      
+Sbjct  14   NVGTIGHVDHGKTTLTAAITKV--MAEKNGGMARKFDEIDSAPEEKARGITINT------  65
+
+Query  72   WSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSETVWRQAN  131
+             S +  + P      +D PGH D+   +      +DGA +V  A  G  PQ+      + 
+Sbjct  66   -SHVEYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILLSR  124
+
+Query  132  KYKVPRL-AFVNKMD  145
+            +  VP++  F+NK D
+Sbjct  125  QVGVPKIVVFLNKCD  139
+
+
+>VFG046458(gb|WP_003024794) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella novicida U112]
+Length=394
+
+ Score = 55.5 bits (132),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 40/135 (30%), Positives = 62/135 (46%), Gaps = 10/135 (7%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVSHKIGEVHDGAATMDWMEQEQERGITITSAATTCF  71
+            N+G   H+D GKTT T  I     ++ K G +      +D   +E+ RGITI +      
+Sbjct  14   NVGTIGHVDHGKTTLTAAITKV--MAEKNGGMARKFDEIDSAPEEKARGITINT------  65
+
+Query  72   WSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSETVWRQAN  131
+             S +  + P      +D PGH D+   +      +DGA +V  A  G  PQ+      + 
+Sbjct  66   -SHVEYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILLSR  124
+
+Query  132  KYKVPRL-AFVNKMD  145
+            +  VP++  F+NK D
+Sbjct  125  QVGVPKIVVFLNKCD  139
+
+
+>VFG046465(gb|WP_003028672) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella tularensis subsp. 
+tularensis SCHU S4]
+Length=394
+
+ Score = 55.5 bits (132),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 40/135 (30%), Positives = 62/135 (46%), Gaps = 10/135 (7%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVSHKIGEVHDGAATMDWMEQEQERGITITSAATTCF  71
+            N+G   H+D GKTT T  I     ++ K G +      +D   +E+ RGITI +      
+Sbjct  14   NVGTIGHVDHGKTTLTAAITKV--MAEKNGGMARKFDEIDSAPEEKARGITINT------  65
+
+Query  72   WSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSETVWRQAN  131
+             S +  + P      +D PGH D+   +      +DGA +V  A  G  PQ+      + 
+Sbjct  66   -SHVEYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILLSR  124
+
+Query  132  KYKVPRL-AFVNKMD  145
+            +  VP++  F+NK D
+Sbjct  125  QVGVPKIVVFLNKCD  139
+
+
+>VFG016494(gb|WP_004024476) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma agalactiae PG2]
+Length=396
+
+ Score = 55.5 bits (132),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 44/138 (32%), Positives = 66/138 (48%), Gaps = 16/138 (12%)
+
+Query  12   NIGISAHIDAGKTTTTERI---LFYTGVSHKIGEVHDGAATMDWMEQEQERGITITSAAT  68
+            NIG   H+D GKTT T  I   L   G+S    + +D    +D   +E+ RGITI ++  
+Sbjct  14   NIGTIGHVDHGKTTLTAAIATVLAKKGLSE--AKSYDA---IDNAPEEKARGITINTSHI  68
+
+Query  69   TCFWSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSETVWR  128
+                    N   +H  +V D PGH D+   +      +DG+ +V  A  G  PQ++    
+Sbjct  69   EY------NTEKRHYAHV-DCPGHADYIKNMITGAAQMDGSILVVAATDGAMPQTKEHVL  121
+
+Query  129  QANKYKVPRL-AFVNKMD  145
+             A +  VP++  F+NK D
+Sbjct  122  LAKQVGVPKMVVFLNKCD  139
+
+
+>VFG046459(gb|WP_004287053) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella philomiragia subsp. 
+philomiragia ATCC 25017]
+Length=394
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 40/139 (29%), Positives = 63/139 (45%), Gaps = 18/139 (13%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVSHKIGEVHDGAAT----MDWMEQEQERGITITSAA  67
+            N+G   H+D GKTT T        ++  + E + G+A     +D   +E+ RGITI +  
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGSARKFDEIDNAPEEKARGITINT--  65
+
+Query  68   TTCFWSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSETVW  127
+                 S +  + P      +D PGH D+   +      +DGA +V  A  G  PQ+    
+Sbjct  66   -----SHVEYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHI  120
+
+Query  128  RQANKYKVPRL-AFVNKMD  145
+              + +  VP +  F+NK D
+Sbjct  121  LLSRQVGVPYIVVFLNKCD  139
+
+
+>VFG046474(gb|WP_014714676) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella noatunensis subsp. 
+orientalis str. Toba 04]
+Length=394
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 40/139 (29%), Positives = 63/139 (45%), Gaps = 18/139 (13%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVSHKIGEVHDGAAT----MDWMEQEQERGITITSAA  67
+            N+G   H+D GKTT T        ++  + E + G+A     +D   +E+ RGITI +  
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGSARKFDEIDNAPEEKARGITINT--  65
+
+Query  68   TTCFWSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSETVW  127
+                 S +  + P      +D PGH D+   +      +DGA +V  A  G  PQ+    
+Sbjct  66   -----SHVEYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHI  120
+
+Query  128  RQANKYKVPRL-AFVNKMD  145
+              + +  VP +  F+NK D
+Sbjct  121  LLSRQVGVPYIVVFLNKCD  139
+
+
+>VFG016485(gb|WP_011113468) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma gallisepticum str. 
+R(low)]
+Length=394
+
+ Score = 54.3 bits (129),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 45/140 (32%), Positives = 63/140 (45%), Gaps = 16/140 (11%)
+
+Query  10   YRNIGISAHIDAGKTTTTERI---LFYTGVSHKIGEVHDGAATMDWMEQEQERGITITSA  66
+            + NIG   HID GKTT T  I   L   G S    + +D    +D   +E+ RGITI +A
+Sbjct  12   HVNIGTIGHIDHGKTTLTAAICTVLSKAGTSE--AKKYD---EIDAAPEEKARGITINTA  66
+
+Query  67   ATTCFWSGMGNQFPQHRINVIDTPGHVDFTIEVERSMRVLDGACMVYCAVGGVQPQSETV  126
+                      N+   H    +D PGH D+   +      +DG  +V  A  G  PQ+   
+Sbjct  67   HVEYATQ---NRHYAH----VDCPGHADYVKNMITGAAQMDGGILVVSATDGPMPQTREH  119
+
+Query  127  WRQANKYKVPRL-AFVNKMD  145
+               A +  VP++  F+NK D
+Sbjct  120  ILLARQVGVPKMVVFLNKCD  139
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6234106945
+
+
+Query= g1490.t1
+
+Length=701
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG016491(gb|WP_011076858) (tuf) elongation factor Tu [EF-Tu (VF0...  65.1    4e-11
+VFG016489(gb|WP_011264744) (tuf) elongation factor Tu [EF-Tu (VF0...  63.9    1e-10
+VFG016490(gb|NP_975163) (tuf) elongation factor Tu [EF-Tu (VF0877...  63.2    2e-10
+VFG016492(gb|WP_010925206) (tuf) elongation factor Tu [EF-Tu (VF0...  62.4    3e-10
+VFG016483(gb|WP_010875022) (tuf) elongation factor Tu [EF-Tu (VF0...  62.4    4e-10
+VFG016493(gb|WP_011283803) (tuf) elongation factor Tu [EF-Tu (VF0...  62.4    4e-10
+VFG016486(gb|WP_011206373) (tuf) elongation factor Tu [EF-Tu (VF0...  62.4    4e-10
+VFG016488(gb|WP_011284269) (tuf) elongation factor Tu [EF-Tu (VF0...  61.2    8e-10
+VFG016484(gb|WP_009885583) (tuf) elongation factor Tu [EF-Tu (VF0...  61.2    1e-09
+VFG046475(gb|WP_013922406) (tufA) elongation factor Tu [EF-Tu (VF...  59.3    4e-09
+VFG016494(gb|WP_004024476) (tuf) elongation factor Tu [EF-Tu (VF0...  58.5    6e-09
+VFG016485(gb|WP_011113468) (tuf) elongation factor Tu [EF-Tu (VF0...  58.5    7e-09
+VFG046458(gb|WP_003024794) (tufA) elongation factor Tu [EF-Tu (VF...  58.5    7e-09
+VFG046467(gb|WP_014548920) (tufA) elongation factor Tu [EF-Tu (VF...  58.5    7e-09
+VFG046465(gb|WP_003028672) (tufA) elongation factor Tu [EF-Tu (VF...  58.5    7e-09
+VFG046459(gb|WP_004287053) (tufA) elongation factor Tu [EF-Tu (VF...  57.4    1e-08
+VFG046474(gb|WP_014714676) (tufA) elongation factor Tu [EF-Tu (VF...  57.4    2e-08
+
+
+>VFG016491(gb|WP_011076858) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma penetrans HF-2]
+Length=394
+
+ Score = 65.1 bits (157),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 57/188 (30%), Positives = 85/188 (45%), Gaps = 15/188 (8%)
+
+Query  15   NIGIMAHIDAGKTTTTERILYYTGISYKIGEVHDGAATMDWMEQEQERGITITSAATTCF  74
+            NIG + HID GKTT T  I  Y  ++ K G        +D   +E+ RGITI +A     
+Sbjct  14   NIGTIGHIDHGKTTLTAAICTY--LAKKGGAKAMKYDEIDKAPEEKARGITINTAHVEYE  71
+
+Query  75   WNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYEVPR-  133
+              +     +D PGH D+   +      +DGA+ V    +G  PQ+ +    A +  VP+ 
+Sbjct  72   TENRHYAHVDCPGHADYVKNMITGAAQMDGAILVVAASDGPMPQTREHILLARQVGVPKM  131
+
+Query  134  ICFVNKMDKIGADFYFSVRTMQERLGANVIPIQLPVGSEGDFEGVVDLVEMKA----KVW  189
+            + F+NK D +      S   MQ+ +   V  +    G +GD   V+    +KA      W
+Sbjct  132  VVFLNKCDMV------SDAEMQDLVEMEVRELLSSYGFDGDNTPVIRGSALKALEGDATW  185
+
+Query  190  STEAKLGE  197
+              EAK+ E
+Sbjct  186  --EAKIDE  191
+
+
+>VFG016489(gb|WP_011264744) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma mobile 163K]
+Length=400
+
+ Score = 63.9 bits (154),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 40/132 (30%), Positives = 65/132 (49%), Gaps = 2/132 (2%)
+
+Query  15   NIGIMAHIDAGKTTTTERILYYTGISYKIGEVHDGAATMDWMEQEQERGITITSAATTCF  74
+            NIG + H+D GKTT T  I        +  E  D   ++D   +E+ERGITI ++     
+Sbjct  14   NIGTIGHVDHGKTTLTAAIATVLAKHVEGNEARD-YGSIDNAPEERERGITINTSHIEYN  72
+
+Query  75   WNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYEVPR-  133
+                    +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  VP+ 
+Sbjct  73   TEKRHYAHVDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHILLSKQVGVPKM  132
+
+Query  134  ICFVNKMDKIGA  145
+            + F+NK+D +G+
+Sbjct  133  VVFLNKVDLLGS  144
+
+
+>VFG016490(gb|NP_975163) (tuf) elongation factor Tu [EF-Tu (VF0877) 
+- Adherence (VFC0001)] [Mycoplasma mycoides subsp. mycoides 
+SC str. PG1]
+Length=395
+
+ Score = 63.2 bits (152),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 44/144 (31%), Positives = 68/144 (47%), Gaps = 3/144 (2%)
+
+Query  15   NIGIMAHIDAGKTTTTERILYYTGISYKIGEVHDGAATMDWMEQEQERGITITSAATTCF  74
+            NIG + H+D GKTT T  I     +S +        A +D   +E+ERGITI +A     
+Sbjct  14   NIGTIGHVDHGKTTLTAAITKV--LSEQGNAEFKDYANIDNAPEERERGITINTAHVEYK  71
+
+Query  75   WNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYEVPRI  134
+              +     +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  VP+I
+Sbjct  72   TANRHYAHVDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHILLSRQVGVPKI  131
+
+Query  135  -CFVNKMDKIGADFYFSVRTMQER  157
+              F+NK D +  D    +  M+ R
+Sbjct  132  VVFLNKCDMVEDDEMIDLVEMEIR  155
+
+
+>VFG016492(gb|WP_010925206) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma pulmonis UAB CTIP]
+Length=396
+
+ Score = 62.4 bits (150),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 42/131 (32%), Positives = 66/131 (50%), Gaps = 5/131 (4%)
+
+Query  15   NIGIMAHIDAGKTTTTERILYYTGISYK-IGEVHDGAATMDWMEQEQERGITITSAATTC  73
+            NIG + H+D GKTT T  I   T +S K + E  D  A++D   +E+ RGITI +A    
+Sbjct  14   NIGTIGHVDHGKTTLTAAIA--TVLSKKGLAEAKD-YASIDAAPEEKARGITINTAHIEY  70
+
+Query  74   FWNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYEVPR  133
+                     +D PGH D+   +      +DG + V    +G  PQ+ +    + +  VP+
+Sbjct  71   ETEKRHYAHVDCPGHADYVKNMITGAAQMDGGILVVSATDGPMPQTREHILLSKQVGVPK  130
+
+Query  134  -ICFVNKMDKI  143
+             + F+NK+D +
+Sbjct  131  MVVFLNKVDML  141
+
+
+>VFG016483(gb|WP_010875022) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma pneumoniae M129]
+Length=394
+
+ Score = 62.4 bits (150),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 44/132 (33%), Positives = 61/132 (46%), Gaps = 11/132 (8%)
+
+Query  15   NIGIMAHIDAGKTTTTERILYYTGISYKIGEVHDGAAT----MDWMEQEQERGITITSAA  70
+            N+G + HID GKTT T  I        K       AAT    +D   +E+ RGITI SA 
+Sbjct  14   NVGTIGHIDHGKTTLTAAICTVLAKEGK------SAATRYDQIDKAPEEKARGITINSAH  67
+
+Query  71   TTCFWNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYE  130
+                 +      +D PGH D+   +      +DGA+ V    + V PQ+ +    A +  
+Sbjct  68   VEYSSDKRHYAHVDCPGHADYIKNMITGAAQMDGAILVVSATDSVMPQTREHILLARQVG  127
+
+Query  131  VPR-ICFVNKMD  141
+            VPR + F+NK D
+Sbjct  128  VPRMVVFLNKCD  139
+
+
+>VFG016493(gb|WP_011283803) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma synoviae 53]
+Length=394
+
+ Score = 62.4 bits (150),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 42/131 (32%), Positives = 66/131 (50%), Gaps = 5/131 (4%)
+
+Query  15   NIGIMAHIDAGKTTTTERILYYTGISYK-IGEVHDGAATMDWMEQEQERGITITSAATTC  73
+            N+G + H+D GKTT T  I   T +S K + E  D  A++D   +E+ RGITI ++    
+Sbjct  14   NVGTIGHVDHGKTTLTAAIA--TVLSKKGLSEARD-YASIDNAPEEKARGITINTSHIEY  70
+
+Query  74   FWNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYEVPR  133
+                     +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  VPR
+Sbjct  71   QTEKRHYAHVDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHILLSKQVGVPR  130
+
+Query  134  -ICFVNKMDKI  143
+             + F+NK D +
+Sbjct  131  MVVFLNKCDMV  141
+
+
+>VFG016486(gb|WP_011206373) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma hyopneumoniae 232]
+Length=402
+
+ Score = 62.4 bits (150),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 42/129 (33%), Positives = 67/129 (52%), Gaps = 5/129 (4%)
+
+Query  15   NIGIMAHIDAGKTTTTERILYYTGISYK-IGEVHDGAATMDWMEQEQERGITITSAATTC  73
+            NIG + H+D GKTT T  I   T ++ K + E  D  A++D   +E+ RGITI +A    
+Sbjct  20   NIGTIGHVDHGKTTLTAAI--STVLAKKGLAEAKD-YASIDAAPEEKARGITINTAHIEY  76
+
+Query  74   FWNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYEVPR  133
+              +      +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  VP+
+Sbjct  77   STDKRHYAHVDCPGHADYIKNMITGAAQMDGAILVVAATDGPMPQTREHILLSKQVGVPK  136
+
+Query  134  -ICFVNKMD  141
+             + F+NK+D
+Sbjct  137  MVVFLNKID  145
+
+
+>VFG016488(gb|WP_011284269) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma hyopneumoniae J]
+Length=402
+
+ Score = 61.2 bits (147),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 42/131 (32%), Positives = 66/131 (50%), Gaps = 9/131 (7%)
+
+Query  15   NIGIMAHIDAGKTTTTERI---LYYTGISYKIGEVHDGAATMDWMEQEQERGITITSAAT  71
+            NIG + H+D GKTT T  I   L   G++    E  D  A++D   +E+ RGITI +A  
+Sbjct  20   NIGTIGHVDHGKTTLTAAISTVLAKRGLA----EAKD-YASIDAAPEEKARGITINTAHI  74
+
+Query  72   TCFWNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYEV  131
+                +      +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  V
+Sbjct  75   EYSTDKRHYAHVDCPGHADYIKNMITGAAQMDGAILVVAATDGPMPQTREHILLSKQVGV  134
+
+Query  132  PR-ICFVNKMD  141
+            P+ + F+NK+D
+Sbjct  135  PKMVVFLNKID  145
+
+
+>VFG016484(gb|WP_009885583) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma genitalium G37]
+Length=394
+
+ Score = 61.2 bits (147),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 43/132 (33%), Positives = 61/132 (46%), Gaps = 11/132 (8%)
+
+Query  15   NIGIMAHIDAGKTTTTERILYYTGISYKIGEVHDGAAT----MDWMEQEQERGITITSAA  70
+            N+G + HID GKTT T  I        K       AAT    +D   +E+ RGITI SA 
+Sbjct  14   NVGTIGHIDHGKTTLTAAICTVLAKEGK------SAATRYDEIDKAPEEKARGITINSAH  67
+
+Query  71   TTCFWNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYE  130
+                 +      +D PGH D+   +      +DGA+ V    + V PQ+ +    A +  
+Sbjct  68   VEYSSDKRHYAHVDCPGHADYIKNMITGAAQMDGAILVVSATDSVMPQTREHILLARQVG  127
+
+Query  131  VPR-ICFVNKMD  141
+            VP+ + F+NK D
+Sbjct  128  VPKMVVFLNKCD  139
+
+
+>VFG046475(gb|WP_013922406) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella sp. TX077308]
+Length=394
+
+ Score = 59.3 bits (142),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 38/128 (30%), Positives = 61/128 (48%), Gaps = 3/128 (2%)
+
+Query  15   NIGIMAHIDAGKTTTTERILYYTGISYKIGEVHDGAATMDWMEQEQERGITITSAATTCF  74
+            N+G + H+D GKTT T  I     ++ K G        +D   +E+ RGITI ++     
+Sbjct  14   NVGTIGHVDHGKTTLTAAITKV--MAEKNGSAAKNFDEIDNAPEEKARGITINTSHVEYE  71
+
+Query  75   WNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYEVPRI  134
+              +     +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  VP+I
+Sbjct  72   SPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILLSRQVGVPKI  131
+
+Query  135  -CFVNKMD  141
+              F+NK D
+Sbjct  132  VVFLNKCD  139
+
+
+>VFG016494(gb|WP_004024476) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma agalactiae PG2]
+Length=396
+
+ Score = 58.5 bits (140),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 41/133 (31%), Positives = 65/133 (49%), Gaps = 9/133 (7%)
+
+Query  15   NIGIMAHIDAGKTTTTERI---LYYTGISYKIGEVHDGAATMDWMEQEQERGITITSAAT  71
+            NIG + H+D GKTT T  I   L   G+S    + +D    +D   +E+ RGITI ++  
+Sbjct  14   NIGTIGHVDHGKTTLTAAIATVLAKKGLSE--AKSYDA---IDNAPEEKARGITINTSHI  68
+
+Query  72   TCFWNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYEV  131
+                       +D PGH D+   +      +DG++ V    +G  PQ+++    A +  V
+Sbjct  69   EYNTEKRHYAHVDCPGHADYIKNMITGAAQMDGSILVVAATDGAMPQTKEHVLLAKQVGV  128
+
+Query  132  PR-ICFVNKMDKI  143
+            P+ + F+NK D I
+Sbjct  129  PKMVVFLNKCDMI  141
+
+
+>VFG016485(gb|WP_011113468) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma gallisepticum str. 
+R(low)]
+Length=394
+
+ Score = 58.5 bits (140),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 43/133 (32%), Positives = 61/133 (46%), Gaps = 13/133 (10%)
+
+Query  15   NIGIMAHIDAGKTTTTERI---LYYTGIS--YKIGEVHDGAATMDWMEQEQERGITITSA  69
+            NIG + HID GKTT T  I   L   G S   K  E+       D   +E+ RGITI +A
+Sbjct  14   NIGTIGHIDHGKTTLTAAICTVLSKAGTSEAKKYDEI-------DAAPEEKARGITINTA  66
+
+Query  70   ATTCFWNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKY  129
+                   +     +D PGH D+   +      +DG + V    +G  PQ+ +    A + 
+Sbjct  67   HVEYATQNRHYAHVDCPGHADYVKNMITGAAQMDGGILVVSATDGPMPQTREHILLARQV  126
+
+Query  130  EVPR-ICFVNKMD  141
+             VP+ + F+NK D
+Sbjct  127  GVPKMVVFLNKCD  139
+
+
+>VFG046458(gb|WP_003024794) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella novicida U112]
+Length=394
+
+ Score = 58.5 bits (140),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 39/132 (30%), Positives = 63/132 (48%), Gaps = 11/132 (8%)
+
+Query  15   NIGIMAHIDAGKTTTTERILYYTGISYKIGEVHDGAAT----MDWMEQEQERGITITSAA  70
+            N+G + H+D GKTT T        I+  + E + G A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGMARKFDEIDSAPEEKARGITINTSH  67
+
+Query  71   TTCFWNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYE  130
+                  +     +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  
+Sbjct  68   VEYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILLSRQVG  127
+
+Query  131  VPRI-CFVNKMD  141
+            VP+I  F+NK D
+Sbjct  128  VPKIVVFLNKCD  139
+
+
+>VFG046467(gb|WP_014548920) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella cf. tularensis 
+subsp. novicida 3523]
+Length=394
+
+ Score = 58.5 bits (140),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 39/132 (30%), Positives = 63/132 (48%), Gaps = 11/132 (8%)
+
+Query  15   NIGIMAHIDAGKTTTTERILYYTGISYKIGEVHDGAAT----MDWMEQEQERGITITSAA  70
+            N+G + H+D GKTT T        I+  + E + G A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGMARKFDEIDSAPEEKARGITINTSH  67
+
+Query  71   TTCFWNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYE  130
+                  +     +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  
+Sbjct  68   VEYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILLSRQVG  127
+
+Query  131  VPRI-CFVNKMD  141
+            VP+I  F+NK D
+Sbjct  128  VPKIVVFLNKCD  139
+
+
+>VFG046465(gb|WP_003028672) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella tularensis subsp. 
+tularensis SCHU S4]
+Length=394
+
+ Score = 58.5 bits (140),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 39/132 (30%), Positives = 63/132 (48%), Gaps = 11/132 (8%)
+
+Query  15   NIGIMAHIDAGKTTTTERILYYTGISYKIGEVHDGAAT----MDWMEQEQERGITITSAA  70
+            N+G + H+D GKTT T        I+  + E + G A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGMARKFDEIDSAPEEKARGITINTSH  67
+
+Query  71   TTCFWNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYE  130
+                  +     +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  
+Sbjct  68   VEYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILLSRQVG  127
+
+Query  131  VPRI-CFVNKMD  141
+            VP+I  F+NK D
+Sbjct  128  VPKIVVFLNKCD  139
+
+
+>VFG046459(gb|WP_004287053) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella philomiragia subsp. 
+philomiragia ATCC 25017]
+Length=394
+
+ Score = 57.4 bits (137),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 39/132 (30%), Positives = 63/132 (48%), Gaps = 11/132 (8%)
+
+Query  15   NIGIMAHIDAGKTTTTERILYYTGISYKIGEVHDGAAT----MDWMEQEQERGITITSAA  70
+            N+G + H+D GKTT T        I+  + E + G+A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGSARKFDEIDNAPEEKARGITINTSH  67
+
+Query  71   TTCFWNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYE  130
+                  +     +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  
+Sbjct  68   VEYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILLSRQVG  127
+
+Query  131  VPRI-CFVNKMD  141
+            VP I  F+NK D
+Sbjct  128  VPYIVVFLNKCD  139
+
+
+>VFG046474(gb|WP_014714676) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella noatunensis subsp. 
+orientalis str. Toba 04]
+Length=394
+
+ Score = 57.4 bits (137),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 39/132 (30%), Positives = 63/132 (48%), Gaps = 11/132 (8%)
+
+Query  15   NIGIMAHIDAGKTTTTERILYYTGISYKIGEVHDGAAT----MDWMEQEQERGITITSAA  70
+            N+G + H+D GKTT T        I+  + E + G+A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGSARKFDEIDNAPEEKARGITINTSH  67
+
+Query  71   TTCFWNDNQINIIDTPGHVDFTVEVERSLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYE  130
+                  +     +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  
+Sbjct  68   VEYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILLSRQVG  127
+
+Query  131  VPRI-CFVNKMD  141
+            VP I  F+NK D
+Sbjct  128  VPYIVVFLNKCD  139
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.374    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6120759546
+
+
+Query= g674.t1
+
+Length=701
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG016489(gb|WP_011264744) (tuf) elongation factor Tu [EF-Tu (VF0...  63.5    2e-10
+VFG016491(gb|WP_011076858) (tuf) elongation factor Tu [EF-Tu (VF0...  62.8    2e-10
+VFG016483(gb|WP_010875022) (tuf) elongation factor Tu [EF-Tu (VF0...  60.8    1e-09
+VFG016490(gb|NP_975163) (tuf) elongation factor Tu [EF-Tu (VF0877...  60.5    2e-09
+VFG016493(gb|WP_011283803) (tuf) elongation factor Tu [EF-Tu (VF0...  60.5    2e-09
+VFG016492(gb|WP_010925206) (tuf) elongation factor Tu [EF-Tu (VF0...  60.1    2e-09
+VFG016484(gb|WP_009885583) (tuf) elongation factor Tu [EF-Tu (VF0...  59.7    2e-09
+VFG016488(gb|WP_011284269) (tuf) elongation factor Tu [EF-Tu (VF0...  59.3    4e-09
+VFG016486(gb|WP_011206373) (tuf) elongation factor Tu [EF-Tu (VF0...  59.3    4e-09
+VFG046475(gb|WP_013922406) (tufA) elongation factor Tu [EF-Tu (VF...  58.2    9e-09
+VFG046467(gb|WP_014548920) (tufA) elongation factor Tu [EF-Tu (VF...  57.8    1e-08
+VFG046458(gb|WP_003024794) (tufA) elongation factor Tu [EF-Tu (VF...  57.8    1e-08
+VFG046465(gb|WP_003028672) (tufA) elongation factor Tu [EF-Tu (VF...  57.8    1e-08
+VFG016485(gb|WP_011113468) (tuf) elongation factor Tu [EF-Tu (VF0...  57.0    2e-08
+VFG046474(gb|WP_014714676) (tufA) elongation factor Tu [EF-Tu (VF...  56.6    2e-08
+VFG046459(gb|WP_004287053) (tufA) elongation factor Tu [EF-Tu (VF...  56.6    2e-08
+VFG016494(gb|WP_004024476) (tuf) elongation factor Tu [EF-Tu (VF0...  56.6    3e-08
+
+
+>VFG016489(gb|WP_011264744) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma mobile 163K]
+Length=400
+
+ Score = 63.5 bits (153),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 39/132 (30%), Positives = 66/132 (50%), Gaps = 2/132 (2%)
+
+Query  15   NFGIMAHIDAGKTTTTERILYYTGINYKIGEVHDGAATMDWMEQEQERGITITSAATTTF  74
+            N G + H+D GKTT T  I      + +  E  D   ++D   +E+ERGITI ++     
+Sbjct  14   NIGTIGHVDHGKTTLTAAIATVLAKHVEGNEARD-YGSIDNAPEERERGITINTSHIEYN  72
+
+Query  75   WKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYDVPR-  133
+             +      +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  VP+ 
+Sbjct  73   TEKRHYAHVDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHILLSKQVGVPKM  132
+
+Query  134  ICFVNKMDKIGA  145
+            + F+NK+D +G+
+Sbjct  133  VVFLNKVDLLGS  144
+
+
+>VFG016491(gb|WP_011076858) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma penetrans HF-2]
+Length=394
+
+ Score = 62.8 bits (151),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 44/135 (33%), Positives = 64/135 (47%), Gaps = 13/135 (10%)
+
+Query  15   NFGIMAHIDAGKTTTTERILYYTGINYKIGEVHDGAATMDWME-----QEQERGITITSA  69
+            N G + HID GKTT T  I  Y     K G    GA  M + E     +E+ RGITI +A
+Sbjct  14   NIGTIGHIDHGKTTLTAAICTYLA---KKG----GAKAMKYDEIDKAPEEKARGITINTA  66
+
+Query  70   ATTTFWKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQSEQVWRQADKY  129
+                  ++     +D PGH D+   +      +DGA+ V    +G  PQ+ +    A + 
+Sbjct  67   HVEYETENRHYAHVDCPGHADYVKNMITGAAQMDGAILVVAASDGPMPQTREHILLARQV  126
+
+Query  130  DVPR-ICFVNKMDKI  143
+             VP+ + F+NK D +
+Sbjct  127  GVPKMVVFLNKCDMV  141
+
+
+>VFG016483(gb|WP_010875022) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma pneumoniae M129]
+Length=394
+
+ Score = 60.8 bits (146),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 44/132 (33%), Positives = 59/132 (45%), Gaps = 11/132 (8%)
+
+Query  15   NFGIMAHIDAGKTTTTERILYYTGINYKIGEVHDGAAT----MDWMEQEQERGITITSAA  70
+            N G + HID GKTT T  I        K       AAT    +D   +E+ RGITI SA 
+Sbjct  14   NVGTIGHIDHGKTTLTAAICTVLAKEGK------SAATRYDQIDKAPEEKARGITINSAH  67
+
+Query  71   TTTFWKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYD  130
+                        +D PGH D+   +      +DGA+ V    + V PQ+ +    A +  
+Sbjct  68   VEYSSDKRHYAHVDCPGHADYIKNMITGAAQMDGAILVVSATDSVMPQTREHILLARQVG  127
+
+Query  131  VPR-ICFVNKMD  141
+            VPR + F+NK D
+Sbjct  128  VPRMVVFLNKCD  139
+
+
+>VFG016490(gb|NP_975163) (tuf) elongation factor Tu [EF-Tu (VF0877) 
+- Adherence (VFC0001)] [Mycoplasma mycoides subsp. mycoides 
+SC str. PG1]
+Length=395
+
+ Score = 60.5 bits (145),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 48/149 (32%), Positives = 72/149 (48%), Gaps = 8/149 (5%)
+
+Query  1    MAQKDVLTDLSRVRNFGIMAHIDAGKTTTTERILYYTGINYKIG--EVHDGAATMDWMEQ  58
+            MA++     L  V N G + H+D GKTT T  I   T +  + G  E  D  A +D   +
+Sbjct  1    MAKEQFDRSLPHV-NIGTIGHVDHGKTTLTAAI---TKVLSEQGNAEFKD-YANIDNAPE  55
+
+Query  59   EQERGITITSAATTTFWKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQ  118
+            E+ERGITI +A       +     +D PGH D+   +      +DGA+ V    +G  PQ
+Sbjct  56   ERERGITINTAHVEYKTANRHYAHVDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQ  115
+
+Query  119  SEQVWRQADKYDVPRI-CFVNKMDKIGAD  146
+            + +    + +  VP+I  F+NK D +  D
+Sbjct  116  TREHILLSRQVGVPKIVVFLNKCDMVEDD  144
+
+
+>VFG016493(gb|WP_011283803) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma synoviae 53]
+Length=394
+
+ Score = 60.5 bits (145),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 41/131 (31%), Positives = 66/131 (50%), Gaps = 5/131 (4%)
+
+Query  15   NFGIMAHIDAGKTTTTERILYYTGINYK-IGEVHDGAATMDWMEQEQERGITITSAATTT  73
+            N G + H+D GKTT T  I   T ++ K + E  D  A++D   +E+ RGITI ++    
+Sbjct  14   NVGTIGHVDHGKTTLTAAIA--TVLSKKGLSEARD-YASIDNAPEEKARGITINTSHIEY  70
+
+Query  74   FWKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYDVPR  133
+              +      +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  VPR
+Sbjct  71   QTEKRHYAHVDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHILLSKQVGVPR  130
+
+Query  134  -ICFVNKMDKI  143
+             + F+NK D +
+Sbjct  131  MVVFLNKCDMV  141
+
+
+>VFG016492(gb|WP_010925206) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma pulmonis UAB CTIP]
+Length=396
+
+ Score = 60.1 bits (144),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 40/131 (31%), Positives = 66/131 (50%), Gaps = 5/131 (4%)
+
+Query  15   NFGIMAHIDAGKTTTTERILYYTGINYK-IGEVHDGAATMDWMEQEQERGITITSAATTT  73
+            N G + H+D GKTT T  I   T ++ K + E  D  A++D   +E+ RGITI +A    
+Sbjct  14   NIGTIGHVDHGKTTLTAAIA--TVLSKKGLAEAKD-YASIDAAPEEKARGITINTAHIEY  70
+
+Query  74   FWKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYDVPR  133
+              +      +D PGH D+   +      +DG + V    +G  PQ+ +    + +  VP+
+Sbjct  71   ETEKRHYAHVDCPGHADYVKNMITGAAQMDGGILVVSATDGPMPQTREHILLSKQVGVPK  130
+
+Query  134  -ICFVNKMDKI  143
+             + F+NK+D +
+Sbjct  131  MVVFLNKVDML  141
+
+
+>VFG016484(gb|WP_009885583) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma genitalium G37]
+Length=394
+
+ Score = 59.7 bits (143),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 43/132 (33%), Positives = 59/132 (45%), Gaps = 11/132 (8%)
+
+Query  15   NFGIMAHIDAGKTTTTERILYYTGINYKIGEVHDGAAT----MDWMEQEQERGITITSAA  70
+            N G + HID GKTT T  I        K       AAT    +D   +E+ RGITI SA 
+Sbjct  14   NVGTIGHIDHGKTTLTAAICTVLAKEGK------SAATRYDEIDKAPEEKARGITINSAH  67
+
+Query  71   TTTFWKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYD  130
+                        +D PGH D+   +      +DGA+ V    + V PQ+ +    A +  
+Sbjct  68   VEYSSDKRHYAHVDCPGHADYIKNMITGAAQMDGAILVVSATDSVMPQTREHILLARQVG  127
+
+Query  131  VPR-ICFVNKMD  141
+            VP+ + F+NK D
+Sbjct  128  VPKMVVFLNKCD  139
+
+
+>VFG016488(gb|WP_011284269) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma hyopneumoniae J]
+Length=402
+
+ Score = 59.3 bits (142),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 39/128 (30%), Positives = 61/128 (48%), Gaps = 3/128 (2%)
+
+Query  15   NFGIMAHIDAGKTTTTERILYYTGINYKIGEVHDGAATMDWMEQEQERGITITSAATTTF  74
+            N G + H+D GKTT T  I         + E  D  A++D   +E+ RGITI +A     
+Sbjct  20   NIGTIGHVDHGKTTLTAAISTVLA-KRGLAEAKD-YASIDAAPEEKARGITINTAHIEYS  77
+
+Query  75   WKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYDVPR-  133
+                    +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  VP+ 
+Sbjct  78   TDKRHYAHVDCPGHADYIKNMITGAAQMDGAILVVAATDGPMPQTREHILLSKQVGVPKM  137
+
+Query  134  ICFVNKMD  141
+            + F+NK+D
+Sbjct  138  VVFLNKID  145
+
+
+>VFG016486(gb|WP_011206373) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma hyopneumoniae 232]
+Length=402
+
+ Score = 59.3 bits (142),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 39/128 (30%), Positives = 61/128 (48%), Gaps = 3/128 (2%)
+
+Query  15   NFGIMAHIDAGKTTTTERILYYTGINYKIGEVHDGAATMDWMEQEQERGITITSAATTTF  74
+            N G + H+D GKTT T  I         + E  D  A++D   +E+ RGITI +A     
+Sbjct  20   NIGTIGHVDHGKTTLTAAISTVLA-KKGLAEAKD-YASIDAAPEEKARGITINTAHIEYS  77
+
+Query  75   WKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYDVPR-  133
+                    +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  VP+ 
+Sbjct  78   TDKRHYAHVDCPGHADYIKNMITGAAQMDGAILVVAATDGPMPQTREHILLSKQVGVPKM  137
+
+Query  134  ICFVNKMD  141
+            + F+NK+D
+Sbjct  138  VVFLNKID  145
+
+
+>VFG046475(gb|WP_013922406) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella sp. TX077308]
+Length=394
+
+ Score = 58.2 bits (139),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 38/128 (30%), Positives = 59/128 (46%), Gaps = 3/128 (2%)
+
+Query  15   NFGIMAHIDAGKTTTTERILYYTGINYKIGEVHDGAATMDWMEQEQERGITITSAATTTF  74
+            N G + H+D GKTT T  I     +  K G        +D   +E+ RGITI ++     
+Sbjct  14   NVGTIGHVDHGKTTLTAAITKV--MAEKNGSAAKNFDEIDNAPEEKARGITINTSHVEYE  71
+
+Query  75   WKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYDVPRI  134
+              +     +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  VP+I
+Sbjct  72   SPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILLSRQVGVPKI  131
+
+Query  135  -CFVNKMD  141
+              F+NK D
+Sbjct  132  VVFLNKCD  139
+
+
+>VFG046467(gb|WP_014548920) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella cf. tularensis 
+subsp. novicida 3523]
+Length=394
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 39/132 (30%), Positives = 61/132 (46%), Gaps = 11/132 (8%)
+
+Query  15   NFGIMAHIDAGKTTTTERILYYTGINYKIGEVHDGAAT----MDWMEQEQERGITITSAA  70
+            N G + H+D GKTT T        I   + E + G A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGMARKFDEIDSAPEEKARGITINTSH  67
+
+Query  71   TTTFWKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYD  130
+                  +     +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  
+Sbjct  68   VEYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILLSRQVG  127
+
+Query  131  VPRI-CFVNKMD  141
+            VP+I  F+NK D
+Sbjct  128  VPKIVVFLNKCD  139
+
+
+>VFG046458(gb|WP_003024794) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella novicida U112]
+Length=394
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 39/132 (30%), Positives = 61/132 (46%), Gaps = 11/132 (8%)
+
+Query  15   NFGIMAHIDAGKTTTTERILYYTGINYKIGEVHDGAAT----MDWMEQEQERGITITSAA  70
+            N G + H+D GKTT T        I   + E + G A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGMARKFDEIDSAPEEKARGITINTSH  67
+
+Query  71   TTTFWKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYD  130
+                  +     +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  
+Sbjct  68   VEYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILLSRQVG  127
+
+Query  131  VPRI-CFVNKMD  141
+            VP+I  F+NK D
+Sbjct  128  VPKIVVFLNKCD  139
+
+
+>VFG046465(gb|WP_003028672) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella tularensis subsp. 
+tularensis SCHU S4]
+Length=394
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 39/132 (30%), Positives = 61/132 (46%), Gaps = 11/132 (8%)
+
+Query  15   NFGIMAHIDAGKTTTTERILYYTGINYKIGEVHDGAAT----MDWMEQEQERGITITSAA  70
+            N G + H+D GKTT T        I   + E + G A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGMARKFDEIDSAPEEKARGITINTSH  67
+
+Query  71   TTTFWKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYD  130
+                  +     +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  
+Sbjct  68   VEYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILLSRQVG  127
+
+Query  131  VPRI-CFVNKMD  141
+            VP+I  F+NK D
+Sbjct  128  VPKIVVFLNKCD  139
+
+
+>VFG016485(gb|WP_011113468) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma gallisepticum str. 
+R(low)]
+Length=394
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 38/129 (29%), Positives = 60/129 (47%), Gaps = 5/129 (4%)
+
+Query  15   NFGIMAHIDAGKTTTTERIL-YYTGINYKIGEVHDGAATMDWMEQEQERGITITSAATTT  73
+            N G + HID GKTT T  I    +       + +D    +D   +E+ RGITI +A    
+Sbjct  14   NIGTIGHIDHGKTTLTAAICTVLSKAGTSEAKKYD---EIDAAPEEKARGITINTAHVEY  70
+
+Query  74   FWKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYDVPR  133
+              ++     +D PGH D+   +      +DG + V    +G  PQ+ +    A +  VP+
+Sbjct  71   ATQNRHYAHVDCPGHADYVKNMITGAAQMDGGILVVSATDGPMPQTREHILLARQVGVPK  130
+
+Query  134  -ICFVNKMD  141
+             + F+NK D
+Sbjct  131  MVVFLNKCD  139
+
+
+>VFG046474(gb|WP_014714676) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella noatunensis subsp. 
+orientalis str. Toba 04]
+Length=394
+
+ Score = 56.6 bits (135),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 39/132 (30%), Positives = 61/132 (46%), Gaps = 11/132 (8%)
+
+Query  15   NFGIMAHIDAGKTTTTERILYYTGINYKIGEVHDGAAT----MDWMEQEQERGITITSAA  70
+            N G + H+D GKTT T        I   + E + G+A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGSARKFDEIDNAPEEKARGITINTSH  67
+
+Query  71   TTTFWKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYD  130
+                  +     +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  
+Sbjct  68   VEYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILLSRQVG  127
+
+Query  131  VPRI-CFVNKMD  141
+            VP I  F+NK D
+Sbjct  128  VPYIVVFLNKCD  139
+
+
+>VFG046459(gb|WP_004287053) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella philomiragia subsp. 
+philomiragia ATCC 25017]
+Length=394
+
+ Score = 56.6 bits (135),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 39/132 (30%), Positives = 61/132 (46%), Gaps = 11/132 (8%)
+
+Query  15   NFGIMAHIDAGKTTTTERILYYTGINYKIGEVHDGAAT----MDWMEQEQERGITITSAA  70
+            N G + H+D GKTT T        I   + E + G+A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGSARKFDEIDNAPEEKARGITINTSH  67
+
+Query  71   TTTFWKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYD  130
+                  +     +D PGH D+   +      +DGA+ V    +G  PQ+ +    + +  
+Sbjct  68   VEYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILLSRQVG  127
+
+Query  131  VPRI-CFVNKMD  141
+            VP I  F+NK D
+Sbjct  128  VPYIVVFLNKCD  139
+
+
+>VFG016494(gb|WP_004024476) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma agalactiae PG2]
+Length=396
+
+ Score = 56.6 bits (135),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 39/133 (29%), Positives = 65/133 (49%), Gaps = 9/133 (7%)
+
+Query  15   NFGIMAHIDAGKTTTTERI---LYYTGINYKIGEVHDGAATMDWMEQEQERGITITSAAT  71
+            N G + H+D GKTT T  I   L   G++    + +D    +D   +E+ RGITI ++  
+Sbjct  14   NIGTIGHVDHGKTTLTAAIATVLAKKGLSE--AKSYDA---IDNAPEEKARGITINTSHI  68
+
+Query  72   TTFWKDNQLNIIDTPGHVDFTVEVERNLRVLDGAVAVFDGKEGVEPQSEQVWRQADKYDV  131
+                +      +D PGH D+   +      +DG++ V    +G  PQ+++    A +  V
+Sbjct  69   EYNTEKRHYAHVDCPGHADYIKNMITGAAQMDGSILVVAATDGAMPQTKEHVLLAKQVGV  128
+
+Query  132  PR-ICFVNKMDKI  143
+            P+ + F+NK D I
+Sbjct  129  PKMVVFLNKCDMI  141
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6120759546
+
+
+Query= g3.t1
+
+Length=337
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.135    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2471439436
+
+
+Query= g2105.t1
+
+Length=702
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG016493(gb|WP_011283803) (tuf) elongation factor Tu [EF-Tu (VF0...  64.3    9e-11
+VFG016489(gb|WP_011264744) (tuf) elongation factor Tu [EF-Tu (VF0...  63.9    1e-10
+VFG046465(gb|WP_003028672) (tufA) elongation factor Tu [EF-Tu (VF...  63.9    1e-10
+VFG016491(gb|WP_011076858) (tuf) elongation factor Tu [EF-Tu (VF0...  63.9    1e-10
+VFG046458(gb|WP_003024794) (tufA) elongation factor Tu [EF-Tu (VF...  63.9    1e-10
+VFG046467(gb|WP_014548920) (tufA) elongation factor Tu [EF-Tu (VF...  63.9    1e-10
+VFG016490(gb|NP_975163) (tuf) elongation factor Tu [EF-Tu (VF0877...  63.9    1e-10
+VFG016492(gb|WP_010925206) (tuf) elongation factor Tu [EF-Tu (VF0...  63.9    1e-10
+VFG016483(gb|WP_010875022) (tuf) elongation factor Tu [EF-Tu (VF0...  63.5    2e-10
+VFG046475(gb|WP_013922406) (tufA) elongation factor Tu [EF-Tu (VF...  63.5    2e-10
+VFG046474(gb|WP_014714676) (tufA) elongation factor Tu [EF-Tu (VF...  62.8    2e-10
+VFG046459(gb|WP_004287053) (tufA) elongation factor Tu [EF-Tu (VF...  62.8    3e-10
+VFG016488(gb|WP_011284269) (tuf) elongation factor Tu [EF-Tu (VF0...  62.4    4e-10
+VFG016484(gb|WP_009885583) (tuf) elongation factor Tu [EF-Tu (VF0...  62.0    4e-10
+VFG016486(gb|WP_011206373) (tuf) elongation factor Tu [EF-Tu (VF0...  62.0    5e-10
+VFG016485(gb|WP_011113468) (tuf) elongation factor Tu [EF-Tu (VF0...  58.2    7e-09
+VFG016494(gb|WP_004024476) (tuf) elongation factor Tu [EF-Tu (VF0...  57.8    1e-08
+
+
+>VFG016493(gb|WP_011283803) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma synoviae 53]
+Length=394
+
+ Score = 64.3 bits (155),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 44/137 (32%), Positives = 71/137 (52%), Gaps = 13/137 (9%)
+
+Query  12   NIGIVAHVDAGKTTTTERILFYTGVNHK-MGEVHDGAATMDWMVQEQERGITITSAATTA  70
+            N+G + HVD GKTT T  I   T ++ K + E  D  A++D   +E+ RGITI ++    
+Sbjct  14   NVGTIGHVDHGKTTLTAAIA--TVLSKKGLSEARD-YASIDNAPEEKARGITINTSHIE-  69
+
+Query  71   FWQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETVWRQ  130
+             +Q   + + H      +D PGH D+   +      +DGA++V +  DG  PQ+      
+Sbjct  70   -YQTEKRHYAH------VDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHILL  122
+
+Query  131  ANKYHVPRL-AYVNKMD  146
+            + +  VPR+  ++NK D
+Sbjct  123  SKQVGVPRMVVFLNKCD  139
+
+
+>VFG016489(gb|WP_011264744) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma mobile 163K]
+Length=400
+
+ Score = 63.9 bits (154),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 42/140 (30%), Positives = 70/140 (50%), Gaps = 10/140 (7%)
+
+Query  12   NIGIVAHVDAGKTTTTERILFYTGVNHKMGEVHDGAATMDWMVQEQERGITITSAATTAF  71
+            NIG + HVD GKTT T  I      + +  E  D   ++D   +E+ERGITI ++     
+Sbjct  14   NIGTIGHVDHGKTTLTAAIATVLAKHVEGNEARD-YGSIDNAPEERERGITINTSHIE--  70
+
+Query  72   WQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETVWRQA  131
+            +    + + H      +D PGH D+   +      +DGA++V +  DG  PQ+      +
+Sbjct  71   YNTEKRHYAH------VDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHILLS  124
+
+Query  132  NKYHVPRL-AYVNKMDRQGA  150
+             +  VP++  ++NK+D  G+
+Sbjct  125  KQVGVPKMVVFLNKVDLLGS  144
+
+
+>VFG046465(gb|WP_003028672) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella tularensis subsp. 
+tularensis SCHU S4]
+Length=394
+
+ Score = 63.9 bits (154),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 42/140 (30%), Positives = 68/140 (49%), Gaps = 19/140 (14%)
+
+Query  12   NIGIVAHVDAGKTTTTERILFYTGVNHKMGEVHDGAA----TMDWMVQEQERGITITSAA  67
+            N+G + HVD GKTT T        +   M E + G A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGMARKFDEIDSAPEEKARGITINTSH  67
+
+Query  68   TTAFWQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETV  127
+                ++   + + H      +D PGH D+   +      +DGA++V S ADG  PQ+   
+Sbjct  68   VE--YESPNRHYAH------VDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREH  119
+
+Query  128  WRQANKYHVPRL-AYVNKMD  146
+               + +  VP++  ++NK D
+Sbjct  120  ILLSRQVGVPKIVVFLNKCD  139
+
+
+>VFG016491(gb|WP_011076858) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma penetrans HF-2]
+Length=394
+
+ Score = 63.9 bits (154),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 42/136 (31%), Positives = 67/136 (49%), Gaps = 11/136 (8%)
+
+Query  12   NIGIVAHVDAGKTTTTERILFYTGVNHKMGEVHDGAATMDWMVQEQERGITITSAATTAF  71
+            NIG + H+D GKTT T  I  Y  +  K G        +D   +E+ RGITI +A     
+Sbjct  14   NIGTIGHIDHGKTTLTAAICTY--LAKKGGAKAMKYDEIDKAPEEKARGITINTAHVE--  69
+
+Query  72   WQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETVWRQA  131
+            ++   + + H      +D PGH D+   +      +DGA++V + +DG  PQ+      A
+Sbjct  70   YETENRHYAH------VDCPGHADYVKNMITGAAQMDGAILVVAASDGPMPQTREHILLA  123
+
+Query  132  NKYHVPRL-AYVNKMD  146
+             +  VP++  ++NK D
+Sbjct  124  RQVGVPKMVVFLNKCD  139
+
+
+>VFG046458(gb|WP_003024794) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella novicida U112]
+Length=394
+
+ Score = 63.9 bits (154),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 42/140 (30%), Positives = 68/140 (49%), Gaps = 19/140 (14%)
+
+Query  12   NIGIVAHVDAGKTTTTERILFYTGVNHKMGEVHDGAA----TMDWMVQEQERGITITSAA  67
+            N+G + HVD GKTT T        +   M E + G A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGMARKFDEIDSAPEEKARGITINTSH  67
+
+Query  68   TTAFWQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETV  127
+                ++   + + H      +D PGH D+   +      +DGA++V S ADG  PQ+   
+Sbjct  68   VE--YESPNRHYAH------VDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREH  119
+
+Query  128  WRQANKYHVPRL-AYVNKMD  146
+               + +  VP++  ++NK D
+Sbjct  120  ILLSRQVGVPKIVVFLNKCD  139
+
+
+>VFG046467(gb|WP_014548920) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella cf. tularensis 
+subsp. novicida 3523]
+Length=394
+
+ Score = 63.9 bits (154),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 42/140 (30%), Positives = 68/140 (49%), Gaps = 19/140 (14%)
+
+Query  12   NIGIVAHVDAGKTTTTERILFYTGVNHKMGEVHDGAA----TMDWMVQEQERGITITSAA  67
+            N+G + HVD GKTT T        +   M E + G A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGMARKFDEIDSAPEEKARGITINTSH  67
+
+Query  68   TTAFWQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETV  127
+                ++   + + H      +D PGH D+   +      +DGA++V S ADG  PQ+   
+Sbjct  68   VE--YESPNRHYAH------VDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREH  119
+
+Query  128  WRQANKYHVPRL-AYVNKMD  146
+               + +  VP++  ++NK D
+Sbjct  120  ILLSRQVGVPKIVVFLNKCD  139
+
+
+>VFG016490(gb|NP_975163) (tuf) elongation factor Tu [EF-Tu (VF0877) 
+- Adherence (VFC0001)] [Mycoplasma mycoides subsp. mycoides 
+SC str. PG1]
+Length=395
+
+ Score = 63.9 bits (154),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 46/138 (33%), Positives = 71/138 (51%), Gaps = 15/138 (11%)
+
+Query  12   NIGIVAHVDAGKTTTTERILFYTGVNHKMG--EVHDGAATMDWMVQEQERGITITSAATT  69
+            NIG + HVD GKTT T  I   T V  + G  E  D  A +D   +E+ERGITI +A   
+Sbjct  14   NIGTIGHVDHGKTTLTAAI---TKVLSEQGNAEFKD-YANIDNAPEERERGITINTAHVE  69
+
+Query  70   AFWQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETVWR  129
+              ++ + + + H      +D PGH D+   +      +DGA++V +  DG  PQ+     
+Sbjct  70   --YKTANRHYAH------VDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHIL  121
+
+Query  130  QANKYHVPRL-AYVNKMD  146
+             + +  VP++  ++NK D
+Sbjct  122  LSRQVGVPKIVVFLNKCD  139
+
+
+>VFG016492(gb|WP_010925206) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma pulmonis UAB CTIP]
+Length=396
+
+ Score = 63.9 bits (154),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 44/137 (32%), Positives = 71/137 (52%), Gaps = 13/137 (9%)
+
+Query  12   NIGIVAHVDAGKTTTTERILFYTGVNHK-MGEVHDGAATMDWMVQEQERGITITSAATTA  70
+            NIG + HVD GKTT T  I   T ++ K + E  D  A++D   +E+ RGITI +A    
+Sbjct  14   NIGTIGHVDHGKTTLTAAIA--TVLSKKGLAEAKD-YASIDAAPEEKARGITINTAHIE-  69
+
+Query  71   FWQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETVWRQ  130
+             ++   + + H      +D PGH D+   +      +DG ++V S  DG  PQ+      
+Sbjct  70   -YETEKRHYAH------VDCPGHADYVKNMITGAAQMDGGILVVSATDGPMPQTREHILL  122
+
+Query  131  ANKYHVPRL-AYVNKMD  146
+            + +  VP++  ++NK+D
+Sbjct  123  SKQVGVPKMVVFLNKVD  139
+
+
+>VFG016483(gb|WP_010875022) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma pneumoniae M129]
+Length=394
+
+ Score = 63.5 bits (153),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 45/140 (32%), Positives = 65/140 (46%), Gaps = 19/140 (14%)
+
+Query  12   NIGIVAHVDAGKTTTTERILFYTGVNHKMGEVHDGAAT----MDWMVQEQERGITITSAA  67
+            N+G + H+D GKTT T  I        K       AAT    +D   +E+ RGITI SA 
+Sbjct  14   NVGTIGHIDHGKTTLTAAICTVLAKEGK------SAATRYDQIDKAPEEKARGITINSAH  67
+
+Query  68   TTAFWQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETV  127
+                +    + + H      +D PGH D+   +      +DGA++V S  D V PQ+   
+Sbjct  68   VE--YSSDKRHYAH------VDCPGHADYIKNMITGAAQMDGAILVVSATDSVMPQTREH  119
+
+Query  128  WRQANKYHVPRL-AYVNKMD  146
+               A +  VPR+  ++NK D
+Sbjct  120  ILLARQVGVPRMVVFLNKCD  139
+
+
+>VFG046475(gb|WP_013922406) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella sp. TX077308]
+Length=394
+
+ Score = 63.5 bits (153),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 41/136 (30%), Positives = 66/136 (49%), Gaps = 11/136 (8%)
+
+Query  12   NIGIVAHVDAGKTTTTERILFYTGVNHKMGEVHDGAATMDWMVQEQERGITITSAATTAF  71
+            N+G + HVD GKTT T  I     +  K G        +D   +E+ RGITI ++     
+Sbjct  14   NVGTIGHVDHGKTTLTAAITKV--MAEKNGSAAKNFDEIDNAPEEKARGITINTSHVE--  69
+
+Query  72   WQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETVWRQA  131
+            ++   + + H      +D PGH D+   +      +DGA++V S ADG  PQ+      +
+Sbjct  70   YESPNRHYAH------VDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILLS  123
+
+Query  132  NKYHVPRL-AYVNKMD  146
+             +  VP++  ++NK D
+Sbjct  124  RQVGVPKIVVFLNKCD  139
+
+
+>VFG046474(gb|WP_014714676) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella noatunensis subsp. 
+orientalis str. Toba 04]
+Length=394
+
+ Score = 62.8 bits (151),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 42/140 (30%), Positives = 68/140 (49%), Gaps = 19/140 (14%)
+
+Query  12   NIGIVAHVDAGKTTTTERILFYTGVNHKMGEVHDGAA----TMDWMVQEQERGITITSAA  67
+            N+G + HVD GKTT T        +   M E + G+A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGSARKFDEIDNAPEEKARGITINTSH  67
+
+Query  68   TTAFWQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETV  127
+                ++   + + H      +D PGH D+   +      +DGA++V S ADG  PQ+   
+Sbjct  68   VE--YESPNRHYAH------VDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREH  119
+
+Query  128  WRQANKYHVPRL-AYVNKMD  146
+               + +  VP +  ++NK D
+Sbjct  120  ILLSRQVGVPYIVVFLNKCD  139
+
+
+>VFG046459(gb|WP_004287053) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella philomiragia subsp. 
+philomiragia ATCC 25017]
+Length=394
+
+ Score = 62.8 bits (151),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 42/140 (30%), Positives = 68/140 (49%), Gaps = 19/140 (14%)
+
+Query  12   NIGIVAHVDAGKTTTTERILFYTGVNHKMGEVHDGAA----TMDWMVQEQERGITITSAA  67
+            N+G + HVD GKTT T        +   M E + G+A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGSARKFDEIDNAPEEKARGITINTSH  67
+
+Query  68   TTAFWQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETV  127
+                ++   + + H      +D PGH D+   +      +DGA++V S ADG  PQ+   
+Sbjct  68   VE--YESPNRHYAH------VDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREH  119
+
+Query  128  WRQANKYHVPRL-AYVNKMD  146
+               + +  VP +  ++NK D
+Sbjct  120  ILLSRQVGVPYIVVFLNKCD  139
+
+
+>VFG016488(gb|WP_011284269) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma hyopneumoniae J]
+Length=402
+
+ Score = 62.4 bits (150),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 42/136 (31%), Positives = 67/136 (49%), Gaps = 11/136 (8%)
+
+Query  12   NIGIVAHVDAGKTTTTERILFYTGVNHKMGEVHDGAATMDWMVQEQERGITITSAATTAF  71
+            NIG + HVD GKTT T  I         + E  D  A++D   +E+ RGITI +A     
+Sbjct  20   NIGTIGHVDHGKTTLTAAISTVLA-KRGLAEAKD-YASIDAAPEEKARGITINTAHIE--  75
+
+Query  72   WQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETVWRQA  131
+            +    + + H      +D PGH D+   +      +DGA++V +  DG  PQ+      +
+Sbjct  76   YSTDKRHYAH------VDCPGHADYIKNMITGAAQMDGAILVVAATDGPMPQTREHILLS  129
+
+Query  132  NKYHVPRL-AYVNKMD  146
+             +  VP++  ++NK+D
+Sbjct  130  KQVGVPKMVVFLNKID  145
+
+
+>VFG016484(gb|WP_009885583) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma genitalium G37]
+Length=394
+
+ Score = 62.0 bits (149),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 44/140 (31%), Positives = 65/140 (46%), Gaps = 19/140 (14%)
+
+Query  12   NIGIVAHVDAGKTTTTERILFYTGVNHKMGEVHDGAAT----MDWMVQEQERGITITSAA  67
+            N+G + H+D GKTT T  I        K       AAT    +D   +E+ RGITI SA 
+Sbjct  14   NVGTIGHIDHGKTTLTAAICTVLAKEGK------SAATRYDEIDKAPEEKARGITINSAH  67
+
+Query  68   TTAFWQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETV  127
+                +    + + H      +D PGH D+   +      +DGA++V S  D V PQ+   
+Sbjct  68   VE--YSSDKRHYAH------VDCPGHADYIKNMITGAAQMDGAILVVSATDSVMPQTREH  119
+
+Query  128  WRQANKYHVPRL-AYVNKMD  146
+               A +  VP++  ++NK D
+Sbjct  120  ILLARQVGVPKMVVFLNKCD  139
+
+
+>VFG016486(gb|WP_011206373) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma hyopneumoniae 232]
+Length=402
+
+ Score = 62.0 bits (149),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 42/136 (31%), Positives = 67/136 (49%), Gaps = 11/136 (8%)
+
+Query  12   NIGIVAHVDAGKTTTTERILFYTGVNHKMGEVHDGAATMDWMVQEQERGITITSAATTAF  71
+            NIG + HVD GKTT T  I         + E  D  A++D   +E+ RGITI +A     
+Sbjct  20   NIGTIGHVDHGKTTLTAAISTVLA-KKGLAEAKD-YASIDAAPEEKARGITINTAHIE--  75
+
+Query  72   WQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETVWRQA  131
+            +    + + H      +D PGH D+   +      +DGA++V +  DG  PQ+      +
+Sbjct  76   YSTDKRHYAH------VDCPGHADYIKNMITGAAQMDGAILVVAATDGPMPQTREHILLS  129
+
+Query  132  NKYHVPRL-AYVNKMD  146
+             +  VP++  ++NK+D
+Sbjct  130  KQVGVPKMVVFLNKID  145
+
+
+>VFG016485(gb|WP_011113468) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma gallisepticum str. 
+R(low)]
+Length=394
+
+ Score = 58.2 bits (139),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 41/137 (30%), Positives = 64/137 (47%), Gaps = 13/137 (9%)
+
+Query  12   NIGIVAHVDAGKTTTTERIL-FYTGVNHKMGEVHDGAATMDWMVQEQERGITITSAATTA  70
+            NIG + H+D GKTT T  I    +       + +D    +D   +E+ RGITI +A    
+Sbjct  14   NIGTIGHIDHGKTTLTAAICTVLSKAGTSEAKKYD---EIDAAPEEKARGITINTAHVEY  70
+
+Query  71   FWQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETVWRQ  130
+              Q   + + H      +D PGH D+   +      +DG ++V S  DG  PQ+      
+Sbjct  71   ATQ--NRHYAH------VDCPGHADYVKNMITGAAQMDGGILVVSATDGPMPQTREHILL  122
+
+Query  131  ANKYHVPRL-AYVNKMD  146
+            A +  VP++  ++NK D
+Sbjct  123  ARQVGVPKMVVFLNKCD  139
+
+
+>VFG016494(gb|WP_004024476) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma agalactiae PG2]
+Length=396
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 41/139 (29%), Positives = 69/139 (50%), Gaps = 17/139 (12%)
+
+Query  12   NIGIVAHVDAGKTTTTERI---LFYTGVNHKMGEVHDGAATMDWMVQEQERGITITSAAT  68
+            NIG + HVD GKTT T  I   L   G++    + +D    +D   +E+ RGITI ++  
+Sbjct  14   NIGTIGHVDHGKTTLTAAIATVLAKKGLSE--AKSYDA---IDNAPEEKARGITINTSHI  68
+
+Query  69   TAFWQGSTKQFPHRYRFNIIDTPGHVDFTIEVERSLRVLDGAVVVFSGADGVEPQSETVW  128
+               +    + + H      +D PGH D+   +      +DG+++V +  DG  PQ++   
+Sbjct  69   E--YNTEKRHYAH------VDCPGHADYIKNMITGAAQMDGSILVVAATDGAMPQTKEHV  120
+
+Query  129  RQANKYHVPRL-AYVNKMD  146
+              A +  VP++  ++NK D
+Sbjct  121  LLAKQVGVPKMVVFLNKCD  139
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6131063855
+
+
+Query= g4348.t1
+
+Length=706
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG016490(gb|NP_975163) (tuf) elongation factor Tu [EF-Tu (VF0877...  65.5    4e-11
+VFG016489(gb|WP_011264744) (tuf) elongation factor Tu [EF-Tu (VF0...  65.1    5e-11
+VFG016486(gb|WP_011206373) (tuf) elongation factor Tu [EF-Tu (VF0...  64.7    6e-11
+VFG016493(gb|WP_011283803) (tuf) elongation factor Tu [EF-Tu (VF0...  64.7    6e-11
+VFG016488(gb|WP_011284269) (tuf) elongation factor Tu [EF-Tu (VF0...  64.7    6e-11
+VFG016492(gb|WP_010925206) (tuf) elongation factor Tu [EF-Tu (VF0...  64.3    8e-11
+VFG016483(gb|WP_010875022) (tuf) elongation factor Tu [EF-Tu (VF0...  63.2    2e-10
+VFG016491(gb|WP_011076858) (tuf) elongation factor Tu [EF-Tu (VF0...  62.4    4e-10
+VFG016484(gb|WP_009885583) (tuf) elongation factor Tu [EF-Tu (VF0...  62.0    5e-10
+VFG016494(gb|WP_004024476) (tuf) elongation factor Tu [EF-Tu (VF0...  59.7    3e-09
+VFG016485(gb|WP_011113468) (tuf) elongation factor Tu [EF-Tu (VF0...  58.2    8e-09
+VFG046465(gb|WP_003028672) (tufA) elongation factor Tu [EF-Tu (VF...  58.2    8e-09
+VFG046458(gb|WP_003024794) (tufA) elongation factor Tu [EF-Tu (VF...  58.2    8e-09
+VFG046467(gb|WP_014548920) (tufA) elongation factor Tu [EF-Tu (VF...  58.2    9e-09
+VFG046475(gb|WP_013922406) (tufA) elongation factor Tu [EF-Tu (VF...  57.8    1e-08
+VFG046459(gb|WP_004287053) (tufA) elongation factor Tu [EF-Tu (VF...  57.0    2e-08
+VFG046474(gb|WP_014714676) (tufA) elongation factor Tu [EF-Tu (VF...  57.0    2e-08
+
+
+>VFG016490(gb|NP_975163) (tuf) elongation factor Tu [EF-Tu (VF0877) 
+- Adherence (VFC0001)] [Mycoplasma mycoides subsp. mycoides 
+SC str. PG1]
+Length=395
+
+ Score = 65.5 bits (158),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 50/137 (36%), Positives = 70/137 (51%), Gaps = 14/137 (10%)
+
+Query  12   NIGICAHVDAGKTTTTERVLFYTGVNHKLG--EVHDGAATTDWMVQEQERGITITSAAVT  69
+            NIG   HVD GKTT T  +   T V  + G  E  D  A  D   +E+ERGITI +A V 
+Sbjct  14   NIGTIGHVDHGKTTLTAAI---TKVLSEQGNAEFKD-YANIDNAPEERERGITINTAHVE  69
+
+Query  70   TFWKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETVWRQ  129
+              +K +   Y +     +D PGH D+   +      +DGA++V   T G  PQ+      
+Sbjct  70   --YKTANRHYAH-----VDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHILL  122
+
+Query  130  ANKYGVPRI-VYVNKMD  145
+            + + GVP+I V++NK D
+Sbjct  123  SRQVGVPKIVVFLNKCD  139
+
+
+>VFG016489(gb|WP_011264744) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma mobile 163K]
+Length=400
+
+ Score = 65.1 bits (157),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 43/139 (31%), Positives = 70/139 (50%), Gaps = 9/139 (6%)
+
+Query  12   NIGICAHVDAGKTTTTERVLFYTGVNHKLGEVHDGAATTDWMVQEQERGITITSAAVTTF  71
+            NIG   HVD GKTT T  +      + +  E  D   + D   +E+ERGITI ++ +   
+Sbjct  14   NIGTIGHVDHGKTTLTAAIATVLAKHVEGNEARD-YGSIDNAPEERERGITINTSHIE--  70
+
+Query  72   WKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETVWRQAN  131
+            +   +  Y +     +D PGH D+   +      +DGA++V   T G  PQ+      + 
+Sbjct  71   YNTEKRHYAH-----VDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHILLSK  125
+
+Query  132  KYGVPR-IVYVNKMDRQGA  149
+            + GVP+ +V++NK+D  G+
+Sbjct  126  QVGVPKMVVFLNKVDLLGS  144
+
+
+>VFG016486(gb|WP_011206373) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma hyopneumoniae 232]
+Length=402
+
+ Score = 64.7 bits (156),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 47/138 (34%), Positives = 69/138 (50%), Gaps = 16/138 (12%)
+
+Query  12   NIGICAHVDAGKTTTT---ERVLFYTGVNHKLGEVHDGAATTDWMVQEQERGITITSAAV  68
+            NIG   HVD GKTT T     VL   G    L E  D  A+ D   +E+ RGITI +A +
+Sbjct  20   NIGTIGHVDHGKTTLTAAISTVLAKKG----LAEAKD-YASIDAAPEEKARGITINTAHI  74
+
+Query  69   TTFWKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETVWR  128
+               +   +  Y +     +D PGH D+   +      +DGA++V   T G  PQ+     
+Sbjct  75   E--YSTDKRHYAH-----VDCPGHADYIKNMITGAAQMDGAILVVAATDGPMPQTREHIL  127
+
+Query  129  QANKYGVPR-IVYVNKMD  145
+             + + GVP+ +V++NK+D
+Sbjct  128  LSKQVGVPKMVVFLNKID  145
+
+
+>VFG016493(gb|WP_011283803) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma synoviae 53]
+Length=394
+
+ Score = 64.7 bits (156),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 45/136 (33%), Positives = 71/136 (52%), Gaps = 12/136 (9%)
+
+Query  12   NIGICAHVDAGKTTTTERVLFYTGVNHK-LGEVHDGAATTDWMVQEQERGITITSAAVTT  70
+            N+G   HVD GKTT T  +   T ++ K L E  D  A+ D   +E+ RGITI ++ +  
+Sbjct  14   NVGTIGHVDHGKTTLTAAIA--TVLSKKGLSEARD-YASIDNAPEEKARGITINTSHIE-  69
+
+Query  71   FWKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETVWRQA  130
+             ++  +  Y +     +D PGH D+   +      +DGA++V   T G  PQ+      +
+Sbjct  70   -YQTEKRHYAH-----VDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHILLS  123
+
+Query  131  NKYGVPR-IVYVNKMD  145
+             + GVPR +V++NK D
+Sbjct  124  KQVGVPRMVVFLNKCD  139
+
+
+>VFG016488(gb|WP_011284269) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma hyopneumoniae J]
+Length=402
+
+ Score = 64.7 bits (156),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 44/135 (33%), Positives = 67/135 (50%), Gaps = 10/135 (7%)
+
+Query  12   NIGICAHVDAGKTTTTERVLFYTGVNHKLGEVHDGAATTDWMVQEQERGITITSAAVTTF  71
+            NIG   HVD GKTT T  +         L E  D  A+ D   +E+ RGITI +A +   
+Sbjct  20   NIGTIGHVDHGKTTLTAAISTVLA-KRGLAEAKD-YASIDAAPEEKARGITINTAHIE--  75
+
+Query  72   WKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETVWRQAN  131
+            +   +  Y +     +D PGH D+   +      +DGA++V   T G  PQ+      + 
+Sbjct  76   YSTDKRHYAH-----VDCPGHADYIKNMITGAAQMDGAILVVAATDGPMPQTREHILLSK  130
+
+Query  132  KYGVPR-IVYVNKMD  145
+            + GVP+ +V++NK+D
+Sbjct  131  QVGVPKMVVFLNKID  145
+
+
+>VFG016492(gb|WP_010925206) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma pulmonis UAB CTIP]
+Length=396
+
+ Score = 64.3 bits (155),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 45/136 (33%), Positives = 71/136 (52%), Gaps = 12/136 (9%)
+
+Query  12   NIGICAHVDAGKTTTTERVLFYTGVNHK-LGEVHDGAATTDWMVQEQERGITITSAAVTT  70
+            NIG   HVD GKTT T  +   T ++ K L E  D  A+ D   +E+ RGITI +A +  
+Sbjct  14   NIGTIGHVDHGKTTLTAAIA--TVLSKKGLAEAKD-YASIDAAPEEKARGITINTAHIE-  69
+
+Query  71   FWKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETVWRQA  130
+             ++  +  Y +     +D PGH D+   +      +DG ++V   T G  PQ+      +
+Sbjct  70   -YETEKRHYAH-----VDCPGHADYVKNMITGAAQMDGGILVVSATDGPMPQTREHILLS  123
+
+Query  131  NKYGVPR-IVYVNKMD  145
+             + GVP+ +V++NK+D
+Sbjct  124  KQVGVPKMVVFLNKVD  139
+
+
+>VFG016483(gb|WP_010875022) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma pneumoniae M129]
+Length=394
+
+ Score = 63.2 bits (152),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 46/139 (33%), Positives = 66/139 (47%), Gaps = 18/139 (13%)
+
+Query  12   NIGICAHVDAGKTTTTERVLFYTGVNHKLGEVHDGAAT----TDWMVQEQERGITITSAA  67
+            N+G   H+D GKTT T  +         L +    AAT     D   +E+ RGITI SA 
+Sbjct  14   NVGTIGHIDHGKTTLTAAICTV------LAKEGKSAATRYDQIDKAPEEKARGITINSAH  67
+
+Query  68   VTTFWKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETVW  127
+            V   +   +  Y +     +D PGH D+   +      +DGA++V   T  V PQ+    
+Sbjct  68   VE--YSSDKRHYAH-----VDCPGHADYIKNMITGAAQMDGAILVVSATDSVMPQTREHI  120
+
+Query  128  RQANKYGVPR-IVYVNKMD  145
+              A + GVPR +V++NK D
+Sbjct  121  LLARQVGVPRMVVFLNKCD  139
+
+
+>VFG016491(gb|WP_011076858) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma penetrans HF-2]
+Length=394
+
+ Score = 62.4 bits (150),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 43/135 (32%), Positives = 64/135 (47%), Gaps = 10/135 (7%)
+
+Query  12   NIGICAHVDAGKTTTTERVLFYTGVNHKLGEVHDGAATTDWMVQEQERGITITSAAVTTF  71
+            NIG   H+D GKTT T  +  Y  +  K G         D   +E+ RGITI +A V   
+Sbjct  14   NIGTIGHIDHGKTTLTAAICTY--LAKKGGAKAMKYDEIDKAPEEKARGITINTAHVEY-  70
+
+Query  72   WKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETVWRQAN  131
+                  + +N     +D PGH D+   +      +DGA++V   + G  PQ+      A 
+Sbjct  71   ------ETENRHYAHVDCPGHADYVKNMITGAAQMDGAILVVAASDGPMPQTREHILLAR  124
+
+Query  132  KYGVPR-IVYVNKMD  145
+            + GVP+ +V++NK D
+Sbjct  125  QVGVPKMVVFLNKCD  139
+
+
+>VFG016484(gb|WP_009885583) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma genitalium G37]
+Length=394
+
+ Score = 62.0 bits (149),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 45/139 (32%), Positives = 66/139 (47%), Gaps = 18/139 (13%)
+
+Query  12   NIGICAHVDAGKTTTTERVLFYTGVNHKLGEVHDGAAT----TDWMVQEQERGITITSAA  67
+            N+G   H+D GKTT T  +         L +    AAT     D   +E+ RGITI SA 
+Sbjct  14   NVGTIGHIDHGKTTLTAAICTV------LAKEGKSAATRYDEIDKAPEEKARGITINSAH  67
+
+Query  68   VTTFWKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETVW  127
+            V   +   +  Y +     +D PGH D+   +      +DGA++V   T  V PQ+    
+Sbjct  68   VE--YSSDKRHYAH-----VDCPGHADYIKNMITGAAQMDGAILVVSATDSVMPQTREHI  120
+
+Query  128  RQANKYGVPR-IVYVNKMD  145
+              A + GVP+ +V++NK D
+Sbjct  121  LLARQVGVPKMVVFLNKCD  139
+
+
+>VFG016494(gb|WP_004024476) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma agalactiae PG2]
+Length=396
+
+ Score = 59.7 bits (143),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 43/138 (31%), Positives = 69/138 (50%), Gaps = 16/138 (12%)
+
+Query  12   NIGICAHVDAGKTTTTE---RVLFYTGVNHKLGEVHDGAATTDWMVQEQERGITITSAAV  68
+            NIG   HVD GKTT T     VL   G++    + +D     D   +E+ RGITI ++ +
+Sbjct  14   NIGTIGHVDHGKTTLTAAIATVLAKKGLSE--AKSYDA---IDNAPEEKARGITINTSHI  68
+
+Query  69   TTFWKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETVWR  128
+               +   +  Y +     +D PGH D+   +      +DG+++V   T G  PQ++    
+Sbjct  69   E--YNTEKRHYAH-----VDCPGHADYIKNMITGAAQMDGSILVVAATDGAMPQTKEHVL  121
+
+Query  129  QANKYGVPR-IVYVNKMD  145
+             A + GVP+ +V++NK D
+Sbjct  122  LAKQVGVPKMVVFLNKCD  139
+
+
+>VFG016485(gb|WP_011113468) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma gallisepticum str. 
+R(low)]
+Length=394
+
+ Score = 58.2 bits (139),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 45/140 (32%), Positives = 64/140 (46%), Gaps = 20/140 (14%)
+
+Query  12   NIGICAHVDAGKTTTTE---RVLFYTGVNH--KLGEVHDGAATTDWMVQEQERGITITSA  66
+            NIG   H+D GKTT T     VL   G +   K  E+       D   +E+ RGITI +A
+Sbjct  14   NIGTIGHIDHGKTTLTAAICTVLSKAGTSEAKKYDEI-------DAAPEEKARGITINTA  66
+
+Query  67   AVTTFWKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETV  126
+             V    +       N     +D PGH D+   +      +DG ++V   T G  PQ+   
+Sbjct  67   HVEYATQ-------NRHYAHVDCPGHADYVKNMITGAAQMDGGILVVSATDGPMPQTREH  119
+
+Query  127  WRQANKYGVPR-IVYVNKMD  145
+               A + GVP+ +V++NK D
+Sbjct  120  ILLARQVGVPKMVVFLNKCD  139
+
+
+>VFG046465(gb|WP_003028672) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella tularensis subsp. 
+tularensis SCHU S4]
+Length=394
+
+ Score = 58.2 bits (139),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 42/139 (30%), Positives = 65/139 (47%), Gaps = 18/139 (13%)
+
+Query  12   NIGICAHVDAGKTTTTERVLFYTGVNHKLGEVHDGAAT----TDWMVQEQERGITITSAA  67
+            N+G   HVD GKTT T        +   + E + G A      D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGMARKFDEIDSAPEEKARGITINTSH  67
+
+Query  68   VTTFWKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETVW  127
+            V   ++     Y +     +D PGH D+   +      +DGA++V     G  PQ+    
+Sbjct  68   VE--YESPNRHYAH-----VDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHI  120
+
+Query  128  RQANKYGVPRI-VYVNKMD  145
+              + + GVP+I V++NK D
+Sbjct  121  LLSRQVGVPKIVVFLNKCD  139
+
+
+>VFG046458(gb|WP_003024794) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella novicida U112]
+Length=394
+
+ Score = 58.2 bits (139),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 42/139 (30%), Positives = 65/139 (47%), Gaps = 18/139 (13%)
+
+Query  12   NIGICAHVDAGKTTTTERVLFYTGVNHKLGEVHDGAAT----TDWMVQEQERGITITSAA  67
+            N+G   HVD GKTT T        +   + E + G A      D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGMARKFDEIDSAPEEKARGITINTSH  67
+
+Query  68   VTTFWKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETVW  127
+            V   ++     Y +     +D PGH D+   +      +DGA++V     G  PQ+    
+Sbjct  68   VE--YESPNRHYAH-----VDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHI  120
+
+Query  128  RQANKYGVPRI-VYVNKMD  145
+              + + GVP+I V++NK D
+Sbjct  121  LLSRQVGVPKIVVFLNKCD  139
+
+
+>VFG046467(gb|WP_014548920) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella cf. tularensis 
+subsp. novicida 3523]
+Length=394
+
+ Score = 58.2 bits (139),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 42/139 (30%), Positives = 65/139 (47%), Gaps = 18/139 (13%)
+
+Query  12   NIGICAHVDAGKTTTTERVLFYTGVNHKLGEVHDGAAT----TDWMVQEQERGITITSAA  67
+            N+G   HVD GKTT T        +   + E + G A      D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGMARKFDEIDSAPEEKARGITINTSH  67
+
+Query  68   VTTFWKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETVW  127
+            V   ++     Y +     +D PGH D+   +      +DGA++V     G  PQ+    
+Sbjct  68   VE--YESPNRHYAH-----VDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHI  120
+
+Query  128  RQANKYGVPRI-VYVNKMD  145
+              + + GVP+I V++NK D
+Sbjct  121  LLSRQVGVPKIVVFLNKCD  139
+
+
+>VFG046475(gb|WP_013922406) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella sp. TX077308]
+Length=394
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 42/139 (30%), Positives = 65/139 (47%), Gaps = 18/139 (13%)
+
+Query  12   NIGICAHVDAGKTTTTERVLFYTGVNHKLGEVHDGAATT----DWMVQEQERGITITSAA  67
+            N+G   HVD GKTT T        +   + E +  AA      D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGSAAKNFDEIDNAPEEKARGITINTSH  67
+
+Query  68   VTTFWKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETVW  127
+            V   ++     Y +     +D PGH D+   +      +DGA++V     G  PQ+    
+Sbjct  68   VE--YESPNRHYAH-----VDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHI  120
+
+Query  128  RQANKYGVPRI-VYVNKMD  145
+              + + GVP+I V++NK D
+Sbjct  121  LLSRQVGVPKIVVFLNKCD  139
+
+
+>VFG046459(gb|WP_004287053) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella philomiragia subsp. 
+philomiragia ATCC 25017]
+Length=394
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 42/139 (30%), Positives = 65/139 (47%), Gaps = 18/139 (13%)
+
+Query  12   NIGICAHVDAGKTTTTERVLFYTGVNHKLGEVHDGAAT----TDWMVQEQERGITITSAA  67
+            N+G   HVD GKTT T        +   + E + G+A      D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGSARKFDEIDNAPEEKARGITINTSH  67
+
+Query  68   VTTFWKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETVW  127
+            V   ++     Y +     +D PGH D+   +      +DGA++V     G  PQ+    
+Sbjct  68   VE--YESPNRHYAH-----VDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHI  120
+
+Query  128  RQANKYGVPRI-VYVNKMD  145
+              + + GVP I V++NK D
+Sbjct  121  LLSRQVGVPYIVVFLNKCD  139
+
+
+>VFG046474(gb|WP_014714676) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella noatunensis subsp. 
+orientalis str. Toba 04]
+Length=394
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 42/139 (30%), Positives = 65/139 (47%), Gaps = 18/139 (13%)
+
+Query  12   NIGICAHVDAGKTTTTERVLFYTGVNHKLGEVHDGAAT----TDWMVQEQERGITITSAA  67
+            N+G   HVD GKTT T        +   + E + G+A      D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGSARKFDEIDNAPEEKARGITINTSH  67
+
+Query  68   VTTFWKGSRGQYDNYRVNVIDTPGHVDFTIEVERSLRVLDGAVVVFCGTSGVEPQSETVW  127
+            V   ++     Y +     +D PGH D+   +      +DGA++V     G  PQ+    
+Sbjct  68   VE--YESPNRHYAH-----VDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHI  120
+
+Query  128  RQANKYGVPRI-VYVNKMD  145
+              + + GVP I V++NK D
+Sbjct  121  LLSRQVGVPYIVVFLNKCD  139
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.134    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6172281091
+
+
+Query= g3212.t1
+
+Length=704
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG016489(gb|WP_011264744) (tuf) elongation factor Tu [EF-Tu (VF0...  64.3    9e-11
+VFG016493(gb|WP_011283803) (tuf) elongation factor Tu [EF-Tu (VF0...  61.6    7e-10
+VFG016483(gb|WP_010875022) (tuf) elongation factor Tu [EF-Tu (VF0...  60.5    1e-09
+VFG016488(gb|WP_011284269) (tuf) elongation factor Tu [EF-Tu (VF0...  59.7    3e-09
+VFG016486(gb|WP_011206373) (tuf) elongation factor Tu [EF-Tu (VF0...  59.7    3e-09
+VFG016491(gb|WP_011076858) (tuf) elongation factor Tu [EF-Tu (VF0...  59.3    3e-09
+VFG016492(gb|WP_010925206) (tuf) elongation factor Tu [EF-Tu (VF0...  59.3    3e-09
+VFG016490(gb|NP_975163) (tuf) elongation factor Tu [EF-Tu (VF0877...  59.3    4e-09
+VFG016484(gb|WP_009885583) (tuf) elongation factor Tu [EF-Tu (VF0...  59.3    4e-09
+VFG016494(gb|WP_004024476) (tuf) elongation factor Tu [EF-Tu (VF0...  56.6    3e-08
+VFG046475(gb|WP_013922406) (tufA) elongation factor Tu [EF-Tu (VF...  55.5    5e-08
+VFG046467(gb|WP_014548920) (tufA) elongation factor Tu [EF-Tu (VF...  55.1    7e-08
+VFG046458(gb|WP_003024794) (tufA) elongation factor Tu [EF-Tu (VF...  55.1    7e-08
+VFG046465(gb|WP_003028672) (tufA) elongation factor Tu [EF-Tu (VF...  55.1    8e-08
+VFG016485(gb|WP_011113468) (tuf) elongation factor Tu [EF-Tu (VF0...  54.3    2e-07
+VFG046474(gb|WP_014714676) (tufA) elongation factor Tu [EF-Tu (VF...  53.9    2e-07
+VFG046459(gb|WP_004287053) (tufA) elongation factor Tu [EF-Tu (VF...  53.9    2e-07
+
+
+>VFG016489(gb|WP_011264744) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma mobile 163K]
+Length=400
+
+ Score = 64.3 bits (155),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 44/139 (32%), Positives = 69/139 (50%), Gaps = 9/139 (6%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVNHKIGEVHDGAATMDWMEQEQERGITITSAATTAF  71
+            NIG   H+D GKTT T  I      + +  E  D   ++D   +E+ERGITI    T+  
+Sbjct  14   NIGTIGHVDHGKTTLTAAIATVLAKHVEGNEARD-YGSIDNAPEERERGITIN---TSHI  69
+
+Query  72   WSGMAKQYEPHRINIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSETVWRQAN  131
+                 K++  H    +D PGH D+   +      +DGA++V  A  G  PQ+      + 
+Sbjct  70   EYNTEKRHYAH----VDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHILLSK  125
+
+Query  132  KYKVPR-IAFVNKMDRMGA  149
+            +  VP+ + F+NK+D +G+
+Sbjct  126  QVGVPKMVVFLNKVDLLGS  144
+
+
+>VFG016493(gb|WP_011283803) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma synoviae 53]
+Length=394
+
+ Score = 61.6 bits (148),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 45/136 (33%), Positives = 67/136 (49%), Gaps = 12/136 (9%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVNHK-IGEVHDGAATMDWMEQEQERGITITSAATTA  70
+            N+G   H+D GKTT T  I   T ++ K + E  D  A++D   +E+ RGITI +     
+Sbjct  14   NVGTIGHVDHGKTTLTAAIA--TVLSKKGLSEARD-YASIDNAPEEKARGITINT-----  65
+
+Query  71   FWSGMAKQYEPHRINIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSETVWRQA  130
+              S +  Q E      +D PGH D+   +      +DGA++V  A  G  PQ+      +
+Sbjct  66   --SHIEYQTEKRHYAHVDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHILLS  123
+
+Query  131  NKYKVPR-IAFVNKMD  145
+             +  VPR + F+NK D
+Sbjct  124  KQVGVPRMVVFLNKCD  139
+
+
+>VFG016483(gb|WP_010875022) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma pneumoniae M129]
+Length=394
+
+ Score = 60.5 bits (145),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 47/139 (34%), Positives = 63/139 (45%), Gaps = 18/139 (13%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVNHKIGEVHDGAAT----MDWMEQEQERGITITSAA  67
+            N+G   HID GKTT T  I        K       AAT    +D   +E+ RGITI SA 
+Sbjct  14   NVGTIGHIDHGKTTLTAAICTVLAKEGK------SAATRYDQIDKAPEEKARGITINSAH  67
+
+Query  68   TTAFWSGMAKQYEPHRINIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSETVW  127
+                +S   + Y       +D PGH D+   +      +DGA++V  A   V PQ+    
+Sbjct  68   VE--YSSDKRHYAH-----VDCPGHADYIKNMITGAAQMDGAILVVSATDSVMPQTREHI  120
+
+Query  128  RQANKYKVPR-IAFVNKMD  145
+              A +  VPR + F+NK D
+Sbjct  121  LLARQVGVPRMVVFLNKCD  139
+
+
+>VFG016488(gb|WP_011284269) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma hyopneumoniae J]
+Length=402
+
+ Score = 59.7 bits (143),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 43/137 (31%), Positives = 66/137 (48%), Gaps = 10/137 (7%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVNHKIGEVHDGAATMDWMEQEQERGITITSAATTAF  71
+            NIG   H+D GKTT T  I         + E  D  A++D   +E+ RGITI +A     
+Sbjct  20   NIGTIGHVDHGKTTLTAAISTVLA-KRGLAEAKD-YASIDAAPEEKARGITINTAH---I  74
+
+Query  72   WSGMAKQYEPHRINIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSETVWRQAN  131
+                 K++  H    +D PGH D+   +      +DGA++V  A  G  PQ+      + 
+Sbjct  75   EYSTDKRHYAH----VDCPGHADYIKNMITGAAQMDGAILVVAATDGPMPQTREHILLSK  130
+
+Query  132  KYKVPR-IAFVNKMDRM  147
+            +  VP+ + F+NK+D +
+Sbjct  131  QVGVPKMVVFLNKIDLL  147
+
+
+>VFG016486(gb|WP_011206373) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma hyopneumoniae 232]
+Length=402
+
+ Score = 59.7 bits (143),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 43/137 (31%), Positives = 66/137 (48%), Gaps = 10/137 (7%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVNHKIGEVHDGAATMDWMEQEQERGITITSAATTAF  71
+            NIG   H+D GKTT T  I         + E  D  A++D   +E+ RGITI +A     
+Sbjct  20   NIGTIGHVDHGKTTLTAAISTVLA-KKGLAEAKD-YASIDAAPEEKARGITINTAH---I  74
+
+Query  72   WSGMAKQYEPHRINIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSETVWRQAN  131
+                 K++  H    +D PGH D+   +      +DGA++V  A  G  PQ+      + 
+Sbjct  75   EYSTDKRHYAH----VDCPGHADYIKNMITGAAQMDGAILVVAATDGPMPQTREHILLSK  130
+
+Query  132  KYKVPR-IAFVNKMDRM  147
+            +  VP+ + F+NK+D +
+Sbjct  131  QVGVPKMVVFLNKIDLL  147
+
+
+>VFG016491(gb|WP_011076858) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma penetrans HF-2]
+Length=394
+
+ Score = 59.3 bits (142),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 47/140 (34%), Positives = 64/140 (46%), Gaps = 20/140 (14%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVNHKIGEVHDGAATMDWME-----QEQERGITITSA  66
+            NIG   HID GKTT T  I  Y     K G    GA  M + E     +E+ RGITI +A
+Sbjct  14   NIGTIGHIDHGKTTLTAAICTYLA---KKG----GAKAMKYDEIDKAPEEKARGITINTA  66
+
+Query  67   ATTAFWSGMAKQYEPHRINIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSETV  126
+                    +  + E      +D PGH D+   +      +DGA++V  A  G  PQ+   
+Sbjct  67   H-------VEYETENRHYAHVDCPGHADYVKNMITGAAQMDGAILVVAASDGPMPQTREH  119
+
+Query  127  WRQANKYKVPR-IAFVNKMD  145
+               A +  VP+ + F+NK D
+Sbjct  120  ILLARQVGVPKMVVFLNKCD  139
+
+
+>VFG016492(gb|WP_010925206) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma pulmonis UAB CTIP]
+Length=396
+
+ Score = 59.3 bits (142),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 43/138 (31%), Positives = 68/138 (49%), Gaps = 12/138 (9%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVNHK-IGEVHDGAATMDWMEQEQERGITITSAATTA  70
+            NIG   H+D GKTT T  I   T ++ K + E  D  A++D   +E+ RGITI +A    
+Sbjct  14   NIGTIGHVDHGKTTLTAAIA--TVLSKKGLAEAKD-YASIDAAPEEKARGITINTAH---  67
+
+Query  71   FWSGMAKQYEPHRINIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSETVWRQA  130
+                +  + E      +D PGH D+   +      +DG ++V  A  G  PQ+      +
+Sbjct  68   ----IEYETEKRHYAHVDCPGHADYVKNMITGAAQMDGGILVVSATDGPMPQTREHILLS  123
+
+Query  131  NKYKVPR-IAFVNKMDRM  147
+             +  VP+ + F+NK+D +
+Sbjct  124  KQVGVPKMVVFLNKVDML  141
+
+
+>VFG016490(gb|NP_975163) (tuf) elongation factor Tu [EF-Tu (VF0877) 
+- Adherence (VFC0001)] [Mycoplasma mycoides subsp. mycoides 
+SC str. PG1]
+Length=395
+
+ Score = 59.3 bits (142),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 48/137 (35%), Positives = 67/137 (49%), Gaps = 14/137 (10%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVNHKIG--EVHDGAATMDWMEQEQERGITITSAATT  69
+            NIG   H+D GKTT T  I   T V  + G  E  D  A +D   +E+ERGITI +A   
+Sbjct  14   NIGTIGHVDHGKTTLTAAI---TKVLSEQGNAEFKD-YANIDNAPEERERGITINTAHVE  69
+
+Query  70   AFWSGMAKQYEPHRINIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSETVWRQ  129
+                  A ++  H    +D PGH D+   +      +DGA++V  A  G  PQ+      
+Sbjct  70   ---YKTANRHYAH----VDCPGHADYVKNMITGAAQMDGAILVVAATDGPMPQTREHILL  122
+
+Query  130  ANKYKVPRI-AFVNKMD  145
+            + +  VP+I  F+NK D
+Sbjct  123  SRQVGVPKIVVFLNKCD  139
+
+
+>VFG016484(gb|WP_009885583) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma genitalium G37]
+Length=394
+
+ Score = 59.3 bits (142),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 46/139 (33%), Positives = 63/139 (45%), Gaps = 18/139 (13%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVNHKIGEVHDGAAT----MDWMEQEQERGITITSAA  67
+            N+G   HID GKTT T  I        K       AAT    +D   +E+ RGITI SA 
+Sbjct  14   NVGTIGHIDHGKTTLTAAICTVLAKEGK------SAATRYDEIDKAPEEKARGITINSAH  67
+
+Query  68   TTAFWSGMAKQYEPHRINIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSETVW  127
+                +S   + Y       +D PGH D+   +      +DGA++V  A   V PQ+    
+Sbjct  68   VE--YSSDKRHYAH-----VDCPGHADYIKNMITGAAQMDGAILVVSATDSVMPQTREHI  120
+
+Query  128  RQANKYKVPR-IAFVNKMD  145
+              A +  VP+ + F+NK D
+Sbjct  121  LLARQVGVPKMVVFLNKCD  139
+
+
+>VFG016494(gb|WP_004024476) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma agalactiae PG2]
+Length=396
+
+ Score = 56.6 bits (135),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 43/138 (31%), Positives = 67/138 (49%), Gaps = 16/138 (12%)
+
+Query  12   NIGISAHIDAGKTTTTERI---LFYTGVNHKIGEVHDGAATMDWMEQEQERGITITSAAT  68
+            NIG   H+D GKTT T  I   L   G++    + +D    +D   +E+ RGITI    T
+Sbjct  14   NIGTIGHVDHGKTTLTAAIATVLAKKGLSE--AKSYDA---IDNAPEEKARGITIN---T  65
+
+Query  69   TAFWSGMAKQYEPHRINIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSETVWR  128
+            +       K++  H    +D PGH D+   +      +DG+++V  A  G  PQ++    
+Sbjct  66   SHIEYNTEKRHYAH----VDCPGHADYIKNMITGAAQMDGSILVVAATDGAMPQTKEHVL  121
+
+Query  129  QANKYKVPR-IAFVNKMD  145
+             A +  VP+ + F+NK D
+Sbjct  122  LAKQVGVPKMVVFLNKCD  139
+
+
+>VFG046475(gb|WP_013922406) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella sp. TX077308]
+Length=394
+
+ Score = 55.5 bits (132),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 43/137 (31%), Positives = 64/137 (47%), Gaps = 14/137 (10%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVNHKIGEVHDGAATMDWMEQEQERGITITSAATTAF  71
+            N+G   H+D GKTT T  I     +  K G        +D   +E+ RGITI ++     
+Sbjct  14   NVGTIGHVDHGKTTLTAAITKV--MAEKNGSAAKNFDEIDNAPEEKARGITINTSHV---  68
+
+Query  72   WSGMAKQYE-PHR-INIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSETVWRQ  129
+                  +YE P+R    +D PGH D+   +      +DGA++V  A  G  PQ+      
+Sbjct  69   ------EYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTREHILL  122
+
+Query  130  ANKYKVPRI-AFVNKMD  145
+            + +  VP+I  F+NK D
+Sbjct  123  SRQVGVPKIVVFLNKCD  139
+
+
+>VFG046467(gb|WP_014548920) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella cf. tularensis 
+subsp. novicida 3523]
+Length=394
+
+ Score = 55.1 bits (131),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 43/141 (30%), Positives = 66/141 (47%), Gaps = 22/141 (16%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVNHKIGEVHDGAAT----MDWMEQEQERGITITSAA  67
+            N+G   H+D GKTT T        +   + E + G A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGMARKFDEIDSAPEEKARGITINTSH  67
+
+Query  68   TTAFWSGMAKQYE-PHR-INIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSET  125
+                      +YE P+R    +D PGH D+   +      +DGA++V  A  G  PQ+  
+Sbjct  68   V---------EYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTRE  118
+
+Query  126  VWRQANKYKVPRI-AFVNKMD  145
+                + +  VP+I  F+NK D
+Sbjct  119  HILLSRQVGVPKIVVFLNKCD  139
+
+
+>VFG046458(gb|WP_003024794) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella novicida U112]
+Length=394
+
+ Score = 55.1 bits (131),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 43/141 (30%), Positives = 66/141 (47%), Gaps = 22/141 (16%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVNHKIGEVHDGAAT----MDWMEQEQERGITITSAA  67
+            N+G   H+D GKTT T        +   + E + G A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGMARKFDEIDSAPEEKARGITINTSH  67
+
+Query  68   TTAFWSGMAKQYE-PHR-INIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSET  125
+                      +YE P+R    +D PGH D+   +      +DGA++V  A  G  PQ+  
+Sbjct  68   V---------EYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTRE  118
+
+Query  126  VWRQANKYKVPRI-AFVNKMD  145
+                + +  VP+I  F+NK D
+Sbjct  119  HILLSRQVGVPKIVVFLNKCD  139
+
+
+>VFG046465(gb|WP_003028672) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella tularensis subsp. 
+tularensis SCHU S4]
+Length=394
+
+ Score = 55.1 bits (131),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 43/141 (30%), Positives = 66/141 (47%), Gaps = 22/141 (16%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVNHKIGEVHDGAAT----MDWMEQEQERGITITSAA  67
+            N+G   H+D GKTT T        +   + E + G A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGMARKFDEIDSAPEEKARGITINTSH  67
+
+Query  68   TTAFWSGMAKQYE-PHR-INIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSET  125
+                      +YE P+R    +D PGH D+   +      +DGA++V  A  G  PQ+  
+Sbjct  68   V---------EYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTRE  118
+
+Query  126  VWRQANKYKVPRI-AFVNKMD  145
+                + +  VP+I  F+NK D
+Sbjct  119  HILLSRQVGVPKIVVFLNKCD  139
+
+
+>VFG016485(gb|WP_011113468) (tuf) elongation factor Tu [EF-Tu 
+(VF0877) - Adherence (VFC0001)] [Mycoplasma gallisepticum str. 
+R(low)]
+Length=394
+
+ Score = 54.3 bits (129),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 41/136 (30%), Positives = 62/136 (46%), Gaps = 12/136 (9%)
+
+Query  12   NIGISAHIDAGKTTTTERIL-FYTGVNHKIGEVHDGAATMDWMEQEQERGITITSAATTA  70
+            NIG   HID GKTT T  I    +       + +D    +D   +E+ RGITI +A    
+Sbjct  14   NIGTIGHIDHGKTTLTAAICTVLSKAGTSEAKKYD---EIDAAPEEKARGITINTAHVE-  69
+
+Query  71   FWSGMAKQYEPHRINIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSETVWRQA  130
+             ++   + Y       +D PGH D+   +      +DG ++V  A  G  PQ+      A
+Sbjct  70   -YATQNRHYAH-----VDCPGHADYVKNMITGAAQMDGGILVVSATDGPMPQTREHILLA  123
+
+Query  131  NKYKVPR-IAFVNKMD  145
+             +  VP+ + F+NK D
+Sbjct  124  RQVGVPKMVVFLNKCD  139
+
+
+>VFG046474(gb|WP_014714676) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella noatunensis subsp. 
+orientalis str. Toba 04]
+Length=394
+
+ Score = 53.9 bits (128),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 43/141 (30%), Positives = 66/141 (47%), Gaps = 22/141 (16%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVNHKIGEVHDGAAT----MDWMEQEQERGITITSAA  67
+            N+G   H+D GKTT T        +   + E + G+A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGSARKFDEIDNAPEEKARGITINTSH  67
+
+Query  68   TTAFWSGMAKQYE-PHR-INIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSET  125
+                      +YE P+R    +D PGH D+   +      +DGA++V  A  G  PQ+  
+Sbjct  68   V---------EYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTRE  118
+
+Query  126  VWRQANKYKVPRI-AFVNKMD  145
+                + +  VP I  F+NK D
+Sbjct  119  HILLSRQVGVPYIVVFLNKCD  139
+
+
+>VFG046459(gb|WP_004287053) (tufA) elongation factor Tu [EF-Tu 
+(VF0460) - Adherence (VFC0001)] [Francisella philomiragia subsp. 
+philomiragia ATCC 25017]
+Length=394
+
+ Score = 53.9 bits (128),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 43/141 (30%), Positives = 66/141 (47%), Gaps = 22/141 (16%)
+
+Query  12   NIGISAHIDAGKTTTTERILFYTGVNHKIGEVHDGAAT----MDWMEQEQERGITITSAA  67
+            N+G   H+D GKTT T        +   + E + G+A     +D   +E+ RGITI ++ 
+Sbjct  14   NVGTIGHVDHGKTTLT------AAITKVMAEKNGGSARKFDEIDNAPEEKARGITINTSH  67
+
+Query  68   TTAFWSGMAKQYE-PHR-INIIDTPGHVDFTIEVERSMRVLDGAVMVYCAVGGVQPQSET  125
+                      +YE P+R    +D PGH D+   +      +DGA++V  A  G  PQ+  
+Sbjct  68   V---------EYESPNRHYAHVDCPGHADYVKNMITGAAQMDGAILVCSAADGPMPQTRE  118
+
+Query  126  VWRQANKYKVPRI-AFVNKMD  145
+                + +  VP I  F+NK D
+Sbjct  119  HILLSRQVGVPYIVVFLNKCD  139
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6151672473
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

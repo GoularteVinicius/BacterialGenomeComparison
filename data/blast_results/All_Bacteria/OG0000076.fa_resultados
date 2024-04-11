@@ -1,0 +1,525 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g593.t1
+
+Length=114
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 328436850
+
+
+Query= g1412.t1
+
+Length=80
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.139    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 331612932
+
+
+Query= g2290.t1
+
+Length=471
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG047663(gb|WP_014715113) (gadC) glutamate:gamma-aminobutyric ac...  52.0    4e-07
+VFG047654(gb|WP_003020284) (gadC) glutamate:gamma-aminobutyric ac...  49.7    3e-06
+VFG047649(gb|WP_003016951) (gadC) glutamate:gamma-aminobutyric ac...  49.7    3e-06
+VFG047664(gb|WP_013923522) (gadC) glutamate:gamma-aminobutyric ac...  49.3    3e-06
+VFG047656(gb|WP_014547827) (gadC) glutamate:gamma-aminobutyric ac...  49.3    3e-06
+VFG047659(gb|WP_014549500) (gadC) glutamate:gamma-aminobutyric ac...  49.3    3e-06
+VFG047647(gb|WP_003033343) (gadC) glutamate:gamma-aminobutyric ac...  49.3    4e-06
+VFG047658(gb|WP_015083952) (gadC) glutamate:gamma-aminobutyric ac...  49.3    4e-06
+VFG047648(gb|WP_012279774) (gadC) glutamate:gamma-aminobutyric ac...  48.9    4e-06
+
+
+>VFG047663(gb|WP_014715113) (gadC) glutamate:gamma-aminobutyric 
+acid antiporter family protein [GadC (VF0555) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella noatunensis subsp. 
+orientalis str. Toba 04]
+Length=469
+
+ Score = 52.0 bits (123),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 63/259 (24%), Positives = 115/259 (44%), Gaps = 28/259 (11%)
+
+Query  197  VLGMFMIIAFS-AYSADH--------LKDFVPFGVAGIGSAAG--TIFFSYIGLDAVSTA  245
+            +L MF+II  +  +S  H        + DF+P G   I S A   T+ FS  GL+  +  
+Sbjct  168  LLPMFIIILIAIVWSFSHSSEIVLPTVTDFIPSG-NNISSWALFITVMFSLFGLEMSAIH  226
+
+Query  246  GDEVKDPQKTMPRALIAALVVVTGVYVLVALAALGTQPWQDFAEQE-TAGLAIILD---N  301
+               VK+ +K  PRAL+ +  V+ G  +L  +A +         + +   GL +      N
+Sbjct  227  AANVKNAKKNFPRALLISGSVILGSLILSNIAVILVSSQLQIGDVDIVTGLMVSFHYFFN  286
+
+Query  302  VTHGEWASTILAAGAVVSIFTVTLVTMYGQTRILFAMGRDGLLPARFAKVN----PRTMT  357
+              +  W + I+A   +   FT T   + G +R    +  D +LP  F K N    P TM 
+Sbjct  287  QINMPWMTYIIAITLIFGAFTTTSAWIMGLSRAFMVVSNDNILPQVFGKTNKNDAPDTML  346
+
+Query  358  PVHNTVIVAIFASTLAAFIPLDS-----LADMVSIGTLTAFSVVAVGVIVLRVREPDLPR  412
+             +   +I  +F  +   F+P  +     L+D+ +   + A+ ++ +  + L++  P    
+Sbjct  347  -ITQALIFTVFCFSY-IFMPSVNEAYWYLSDLTAQLAVIAYILMFITAVKLKISSPLQEG  404
+
+Query  413  GFKV-PGYPVTPVLSVLAC  430
+             +++  G   T ++++L C
+Sbjct  405  QYEICKGSFGTILMALLGC  423
+
+
+>VFG047654(gb|WP_003020284) (gadC) glutamate:gamma-aminobutyric 
+acid antiporter family protein [GadC (VF0555) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella tularensis subsp. 
+tularensis SCHU S4]
+Length=469
+
+ Score = 49.7 bits (117),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 54/236 (23%), Positives = 105/236 (44%), Gaps = 19/236 (8%)
+
+Query  211  ADHLKDFVPFGVAGIGSAAG--TIFFSYIGLDAVSTAGDEVKDPQKTMPRALIAALVVVT  268
+            A  + DF+P G   I S A   T+ FS  GL+  +     VK+ +K  PRAL+ +  V+ 
+Sbjct  191  APKISDFIPSG-NNISSWALFITVMFSLFGLEMSAIHAANVKNAKKNFPRALLISGSVIL  249
+
+Query  269  GVYVLVALAALGTQPWQDFAEQE-TAGLAIILD---NVTHGEWASTILAAGAVVSIFTVT  324
+            G  +L  +A +         + +   GL +      +  +  W + I+A   +   FT T
+Sbjct  250  GSLILSNIAVILVSSQLQIGDVDIVTGLMVSFHYFFSQINMPWMTYIIAVTLIFGAFTTT  309
+
+Query  325  LVTMYGQTRILFAMGRDGLLPARFAKVN----PRTMTPVHNTVIVAIFASTLAAFIPLDS  380
+               + G +R    +  D +LP  F + N    P TM  +   ++  +F  +   F+P  +
+Sbjct  310  SAWIMGLSRAFMVVSNDNILPQIFGRTNKNDAPDTML-ITQALVFTVFCFSY-IFMPSVN  367
+
+Query  381  -----LADMVSIGTLTAFSVVAVGVIVLRVREPDLPRGFKV-PGYPVTPVLSVLAC  430
+                 L+D+ +   + A+ ++ +  + L++  P     +++  G   T ++++L C
+Sbjct  368  EAYWYLSDLTAQLAVIAYILMFITAVKLKISSPLEEDQYEICKGSFGTILMALLGC  423
+
+
+>VFG047649(gb|WP_003016951) (gadC) glutamate:gamma-aminobutyric 
+acid antiporter family protein [GadC (VF0555) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella tularensis subsp. 
+holarctica FTNF002-00]
+Length=469
+
+ Score = 49.7 bits (117),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 54/236 (23%), Positives = 105/236 (44%), Gaps = 19/236 (8%)
+
+Query  211  ADHLKDFVPFGVAGIGSAAG--TIFFSYIGLDAVSTAGDEVKDPQKTMPRALIAALVVVT  268
+            A  + DF+P G   I S A   T+ FS  GL+  +     VK+ +K  PRAL+ +  V+ 
+Sbjct  191  APKISDFIPSG-NNISSWALFITVMFSLFGLEMSAIHAANVKNAKKNFPRALLISGSVIL  249
+
+Query  269  GVYVLVALAALGTQPWQDFAEQE-TAGLAIILD---NVTHGEWASTILAAGAVVSIFTVT  324
+            G  +L  +A +         + +   GL +      +  +  W + I+A   +   FT T
+Sbjct  250  GSLILSNIAVILVSSQLQIGDVDIVTGLMVSFHYFFSQINMPWMTYIIAVTLIFGAFTTT  309
+
+Query  325  LVTMYGQTRILFAMGRDGLLPARFAKVN----PRTMTPVHNTVIVAIFASTLAAFIPLDS  380
+               + G +R    +  D +LP  F + N    P TM  +   ++  +F  +   F+P  +
+Sbjct  310  SAWIMGLSRAFMVVSNDNILPQIFGRTNKNDAPDTML-ITQALVFTVFCFSY-IFMPSVN  367
+
+Query  381  -----LADMVSIGTLTAFSVVAVGVIVLRVREPDLPRGFKV-PGYPVTPVLSVLAC  430
+                 L+D+ +   + A+ ++ +  + L++  P     +++  G   T ++++L C
+Sbjct  368  EAYWYLSDLTAQLAVIAYILMFITAVKLKISSPLEEDQYEICKGSFGTILMALLGC  423
+
+
+>VFG047664(gb|WP_013923522) (gadC) glutamate:gamma-aminobutyric 
+acid antiporter family protein [GadC (VF0555) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella sp. TX077308]
+Length=469
+
+ Score = 49.3 bits (116),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 54/231 (23%), Positives = 103/231 (45%), Gaps = 19/231 (8%)
+
+Query  216  DFVPFGVAGIGSAAG--TIFFSYIGLDAVSTAGDEVKDPQKTMPRALIAALVVVTGVYVL  273
+            DF+P G   + S A   T+ FS  GL+  +     VK+ +K  PRAL+ +  V+ G  +L
+Sbjct  196  DFIPSG-NNMSSWALFITVMFSLFGLEMSAIHAANVKNAKKNFPRALLISGSVILGSLIL  254
+
+Query  274  VALAALGTQPWQDFAEQE-TAGLAIILD---NVTHGEWASTILAAGAVVSIFTVTLVTMY  329
+              +A +         + +   GL +      N  +  W + I+A   +   FT T   + 
+Sbjct  255  SNIAVILVSSQLQIGDVDIVTGLMVSFHYFFNQINMPWMTYIIAITLIFGAFTTTSAWIM  314
+
+Query  330  GQTRILFAMGRDGLLPARFAKVN----PRTMTPVHNTVIVAIFASTLAAFIPLDS-----  380
+            G +R    +  D +LP  F + N    P TM  +   +I  +F  +   F+P  +     
+Sbjct  315  GLSRAFMVVSNDNILPQMFGRTNKNDAPDTML-ITQALIFTVFCFSY-IFMPSVNEAYWY  372
+
+Query  381  LADMVSIGTLTAFSVVAVGVIVLRVREPDLPRGFKV-PGYPVTPVLSVLAC  430
+            L+D+ +   + A+ ++ +  + L++  P     +++  G   T ++++L C
+Sbjct  373  LSDLTAQLAVIAYILMFITAVKLKLSSPLQEGQYEICKGSLGTILMALLGC  423
+
+
+>VFG047656(gb|WP_014547827) (gadC) glutamate:gamma-aminobutyric 
+acid antiporter family protein [GadC (VF0555) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella cf. tularensis subsp. 
+novicida 3523]
+Length=469
+
+ Score = 49.3 bits (116),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 42/156 (27%), Positives = 68/156 (44%), Gaps = 11/156 (7%)
+
+Query  211  ADHLKDFVPFGVAGIGSAAG--TIFFSYIGLDAVSTAGDEVKDPQKTMPRALIAALVVVT  268
+            A  + DF+P G   I S A   T+ FS  GL+  +     VK+ +K  PRAL+ +  V+ 
+Sbjct  191  APKISDFIPSG-NNISSWALFITVMFSLFGLEMSAIHAANVKNAKKNFPRALLISGSVIL  249
+
+Query  269  GVYVLVALAALGTQPWQDFAEQE-TAGLAIILD---NVTHGEWASTILAAGAVVSIFTVT  324
+            G  +L  +A +         + +   GL +      +  +  W + I+A   +   FT T
+Sbjct  250  GSLILSNIAVILVSSQLQIGDVDIVTGLMVSFHYFFSQINMPWMTYIIAVTLIFGAFTTT  309
+
+Query  325  LVTMYGQTRILFAMGRDGLLPARFAKVN----PRTM  356
+               + G +R    +  D +LP  F + N    P TM
+Sbjct  310  SAWIMGLSRAFMVVSNDNILPQVFGRTNKNDAPDTM  345
+
+
+>VFG047659(gb|WP_014549500) (gadC) glutamate:gamma-aminobutyric 
+acid antiporter family protein [GadC (VF0555) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella cf. novicida Fx1]
+Length=469
+
+ Score = 49.3 bits (116),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 42/156 (27%), Positives = 68/156 (44%), Gaps = 11/156 (7%)
+
+Query  211  ADHLKDFVPFGVAGIGSAAG--TIFFSYIGLDAVSTAGDEVKDPQKTMPRALIAALVVVT  268
+            A  + DF+P G   I S A   T+ FS  GL+  +     VK+ +K  PRAL+ +  V+ 
+Sbjct  191  APKISDFIPSG-NNISSWALFITVMFSLFGLEMSAIHAANVKNAKKNFPRALLISGSVIL  249
+
+Query  269  GVYVLVALAALGTQPWQDFAEQE-TAGLAIILD---NVTHGEWASTILAAGAVVSIFTVT  324
+            G  +L  +A +         + +   GL +      +  +  W + I+A   +   FT T
+Sbjct  250  GSLILSNIAVILVSSQLQIGDVDIVTGLMVSFHYFFSQINMPWMTYIIAVTLIFGAFTTT  309
+
+Query  325  LVTMYGQTRILFAMGRDGLLPARFAKVN----PRTM  356
+               + G +R    +  D +LP  F + N    P TM
+Sbjct  310  SAWIMGLSRAFMVVSNDNILPQIFGRTNKNDAPDTM  345
+
+
+>VFG047647(gb|WP_003033343) (gadC) glutamate:gamma-aminobutyric 
+acid antiporter family protein [GadC (VF0555) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella novicida U112]
+Length=469
+
+ Score = 49.3 bits (116),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 42/156 (27%), Positives = 68/156 (44%), Gaps = 11/156 (7%)
+
+Query  211  ADHLKDFVPFGVAGIGSAAG--TIFFSYIGLDAVSTAGDEVKDPQKTMPRALIAALVVVT  268
+            A  + DF+P G   I S A   T+ FS  GL+  +     VK+ +K  PRAL+ +  V+ 
+Sbjct  191  APKISDFIPSG-NNISSWALFITVMFSLFGLEMSAIHAANVKNAKKNFPRALLISGSVIL  249
+
+Query  269  GVYVLVALAALGTQPWQDFAEQE-TAGLAIILD---NVTHGEWASTILAAGAVVSIFTVT  324
+            G  +L  +A +         + +   GL +      +  +  W + I+A   +   FT T
+Sbjct  250  GSLILSNIAVILVSSQLQIGDVDIVTGLMVSFHYFFSQINMPWMTYIIAVTLIFGAFTTT  309
+
+Query  325  LVTMYGQTRILFAMGRDGLLPARFAKVN----PRTM  356
+               + G +R    +  D +LP  F + N    P TM
+Sbjct  310  SAWIMGLSRAFMVVSNDNILPQIFGRTNKNDAPDTM  345
+
+
+>VFG047658(gb|WP_015083952) (gadC) glutamate:gamma-aminobutyric 
+acid antiporter family protein [GadC (VF0555) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella tularensis subsp. 
+holarctica FSC200]
+Length=469
+
+ Score = 49.3 bits (116),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 54/236 (23%), Positives = 105/236 (44%), Gaps = 19/236 (8%)
+
+Query  211  ADHLKDFVPFGVAGIGSAAG--TIFFSYIGLDAVSTAGDEVKDPQKTMPRALIAALVVVT  268
+            A  + DF+P G   I S A   T+ FS  GL+  +     VK+ +K  PRAL+ +  V+ 
+Sbjct  191  APKISDFIPSG-NNISSWALFITVMFSLFGLEMSAIHAANVKNAKKNFPRALLISGSVIL  249
+
+Query  269  GVYVLVALAALGTQPWQDFAEQE-TAGLAIILD---NVTHGEWASTILAAGAVVSIFTVT  324
+            G  +L  +A +         + +   GL +      +  +  W + I+A   +   FT T
+Sbjct  250  GSLILSNIAVILVSSQLQIGDVDIVTGLMVSFHYFFSQINMPWMTYIIAVTLIFGAFTTT  309
+
+Query  325  LVTMYGQTRILFAMGRDGLLPARFAKVN----PRTMTPVHNTVIVAIFASTLAAFIPLDS  380
+               + G +R    +  D +LP  F + N    P TM  +   ++  +F  +   F+P  +
+Sbjct  310  SAWIMGLSRAFMVVSNDNILPQIFGRTNKNDAPDTML-ITQALVFTVFCFSY-IFMPSVN  367
+
+Query  381  -----LADMVSIGTLTAFSVVAVGVIVLRVREPDLPRGFKV-PGYPVTPVLSVLAC  430
+                 L+D+ +   + A+ ++ +  + L++  P     +++  G   T ++++L C
+Sbjct  368  EAYWYLSDLTAQLAVIAYILMFITAVKLKISSPLEEDQYEICNGSFGTILMALLGC  423
+
+
+>VFG047648(gb|WP_012279774) (gadC) glutamate:gamma-aminobutyric 
+acid antiporter family protein [GadC (VF0555) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella philomiragia subsp. 
+philomiragia ATCC 25017]
+Length=469
+
+ Score = 48.9 bits (115),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 41/151 (27%), Positives = 66/151 (44%), Gaps = 11/151 (7%)
+
+Query  216  DFVPFGVAGIGSAAG--TIFFSYIGLDAVSTAGDEVKDPQKTMPRALIAALVVVTGVYVL  273
+            DF+P G   I S A   T+ FS  GL+  +     VK+ +K  PRAL+ +  V+ G  +L
+Sbjct  196  DFIPSG-NNISSWALFITVMFSLFGLEMSAIHAANVKNAKKNFPRALLISGSVILGSLIL  254
+
+Query  274  VALAALGTQPWQDFAEQE-TAGLAIILD---NVTHGEWASTILAAGAVVSIFTVTLVTMY  329
+              +A +         + +   GL +      N  +  W + ++A   +   FT T   + 
+Sbjct  255  SNIAVILVSSQLQIGDVDIVTGLMVSFHYFFNQINMPWMTYVIAITLIFGAFTTTSAWIM  314
+
+Query  330  GQTRILFAMGRDGLLPARFAKVN----PRTM  356
+            G +R    +  D +LP  F + N    P TM
+Sbjct  315  GLSRAFMVVSNDNILPQIFGRTNKNDAPDTM  345
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.138    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3812489585
+
+
+Query= g3212.t1
+
+Length=495
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.138    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4061807705
+
+
+Query= g326.t1
+
+Length=464
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.141    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3739771800
+
+
+Query= g1164.t1
+
+Length=496
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.140    0.436    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4072195960
+
+
+Query= g1501.t1
+
+Length=455
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.139    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3666515424
+
+
+Query= g2074.t1
+
+Length=456
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.141    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3676931661
+
+
+Query= g3669.t1
+
+Length=440
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.144    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3510271869
+
+
+Query= g4101.t1
+
+Length=482
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG047654(gb|WP_003020284) (gadC) glutamate:gamma-aminobutyric ac...  48.5    6e-06
+
+
+>VFG047654(gb|WP_003020284) (gadC) glutamate:gamma-aminobutyric 
+acid antiporter family protein [GadC (VF0555) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella tularensis subsp. 
+tularensis SCHU S4]
+Length=469
+
+ Score = 48.5 bits (114),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 67/310 (22%), Positives = 126/310 (41%), Gaps = 33/310 (11%)
+
+Query  153  FYIVFIGIHILGAGEALKLMFVITAVAAIALGVFIVAMVPHFDSA------NLFNIPQTA  206
+            +Y++ + + +  +  A+ L  + T+     LG  I  ++P F         ++ +  +  
+Sbjct  131  WYMISMSLVMFWSATAINLFGIKTSSTVSTLGAIIGTLLPMFIIIIIAIIWSMSHTAEIV  190
+
+Query  207  ATGASSFLPFGY-VGVWAAIPYAIWFFLAVEGVPLAAEETKNPKRDLPRGLI--GAMLV-  262
+            A   S F+P G  +  WA     ++    +E   + A   KN K++ PR L+  G++++ 
+Sbjct  191  APKISDFIPSGNNISSWALFITVMFSLFGLEMSAIHAANVKNAKKNFPRALLISGSVILG  250
+
+Query  263  --LLAFAALILVVGPGAAGAKE----LMGSGNPLVEALESAYKGSTWMSQFVNLVGLAGL  316
+              +L+  A+ILV      G  +    LM S +     +        WM+  + +  + G 
+Sbjct  251  SLILSNIAVILVSSQLQIGDVDIVTGLMVSFHYFFSQINMP-----WMTYIIAVTLIFGA  305
+
+Query  317  IASFFSIIYAYSRQIFALSRAGYLPRSLSLTNRKKAPVLALVVPGVIG--------FGLS  368
+              +  + I   SR    +S    LP+    TN+  AP   L+   ++         F  S
+Sbjct  306  FTTTSAWIMGLSRAFMVVSNDNILPQIFGRTNKNDAPDTMLITQALVFTVFCFSYIFMPS  365
+
+Query  369  LTGQGDLLILVAVFGATISYVLMMAAHITLRIRRPDMQRPYRTPGGILTSGVALALAC--  426
+            +      L  +    A I+Y+LM    + L+I  P  +  Y    G   + +   L C  
+Sbjct  366  VNEAYWYLSDLTAQLAVIAYILMFITAVKLKISSPLEEDQYEICKGSFGTILMALLGCFG  425
+
+Query  427  --VAVVAGFL  434
+              VA++ GF+
+Sbjct  426  CLVAIIVGFI  435
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.142    0.433    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3926760390
+
+
+Query= g1281.t1
+
+Length=447
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.331    0.143    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3583185528
+
+
+Query= g1932.t1
+
+Length=452
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.141    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3635266713
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

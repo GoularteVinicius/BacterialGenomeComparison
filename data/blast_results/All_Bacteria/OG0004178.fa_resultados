@@ -1,0 +1,229 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2292.t1
+
+Length=221
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044396(gb|AAF33137) (pdtorfM) putative aminotransferase [Pyrid...  82.8    3e-18
+VFG013203(gb|WP_012341659) (hemL) glutamate-1-semialdehyde 2,1-am...  65.1    3e-12
+VFG044347(gb|WP_042318253) (DDA3937_RS07710) diaminobutyrate--2-o...  62.8    2e-11
+VFG013618(gb|WP_011609384) (hemL) glutamate-1-semialdehyde 2,1-am...  62.8    2e-11
+VFG044201(gb|WP_011267793) (PSYR_RS13390) diaminobutyrate--2-oxog...  58.5    5e-10
+VFG015897(gb|WP_017698917) (argD) aminotransferase class III-fold...  56.6    2e-09
+VFG016057(gb|WP_012019057) (pvdH) diaminobutyrate-2-oxoglutarate ...  46.6    5e-06
+
+
+>VFG044396(gb|AAF33137) (pdtorfM) putative aminotransferase [Pyridine-2,6-dithiocarboxylic 
+acid (PDTC) (VF0938) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas stutzeri KC]
+Length=764
+
+ Score = 82.8 bits (203),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 56/199 (28%), Positives = 89/199 (45%), Gaps = 15/199 (8%)
+
+Query  21   HNYSPLPVVAASAEGAWIADIDGLRYLDWLAAYSAVNLGHRNPASTATAHAQVDT-----  75
+            + ++ +  V ++ +G W+ D+DG RYLD++A Y  +N GH +P   A     +       
+Sbjct  321  YEFNHVERVFSNGQGCWLTDLDGRRYLDFVAGYGCLNTGHNHPEIAARLQEYLTQQHPTF  380
+
+Query  76   VTLLNRALHADRLGPLGAALAQLCGKDVVLPMNSDAEAVESGLRVARKWGADVNGLPAGR  135
+            V  L+  LHA  L    A LA   G + V   NS  EAVE+           +    + +
+Sbjct  381  VQYLSAPLHASLLAKRLAELAP-AGLERVFLSNSGTEAVEA--------ALKLALAASDK  431
+
+Query  136  HDIILANNNFHGHTSSVVSFSSDPAAGSGVEPSTPGLRSVPFGDAAAPAQTIDDNTVAD-  194
+              ++   N +HG T   +S +         EP  P    +PF D +A    +    VA  
+Sbjct  432  STLLYCTNGYHGKTLGALSVTGREKHRKAFEPLLPRCEEIPFADVSALRNRLLKGDVAXF  491
+
+Query  195  LLEPIPGQAGIIVPADDYL  213
+            ++EPI G+ G+ +  D YL
+Sbjct  492  IMEPIQGEGGVTMAPDGYL  510
+
+
+>VFG013203(gb|WP_012341659) (hemL) glutamate-1-semialdehyde 2,1-aminomutase 
+[Heme biosynthesis (VF0758) - Nutritional/Metabolic 
+factor (VFC0272)] [Haemophilus somnus 2336]
+Length=432
+
+ Score = 65.1 bits (157),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 56/212 (26%), Positives = 91/212 (43%), Gaps = 49/212 (23%)
+
+Query  27   PVVAASAEGAWIADIDGLRYLDWLAAYSAVNLGHRNPASTATAHAQVDTVTLLNRALHAD  86
+            PV    A GA+I DI+G +Y+D++ ++  + LGH +P+  +        + +    L   
+Sbjct  33   PVFIEKANGAYIFDIEGKQYIDYVGSWGPMILGHNHPSILSA------VLKIAENGLSFG  86
+
+Query  87   RLGPLGAALAQLCGK-----DVVLPMNSDAEAVESGLRVARKWGADVNGLPAGRHDIILA  141
+               PL   LA+L  +     ++V  +NS  EA  S +R+AR +          R  I+  
+Sbjct  87   TPTPLEIELAELICQLVPSIEMVRMVNSGTEATMSAIRLARGY--------TKRDKILKF  138
+
+Query  142  NNNFHGHTSSVVSFSSDPAAGSGV----EPSTPG----------------LRSVPFGDAA  181
+               +HGH+ S++       AGSG     +PS+PG                L+SV      
+Sbjct  139  EGCYHGHSDSLLV-----KAGSGSLTLGQPSSPGVPEDFAKHTITCEYNNLQSVKNAFEQ  193
+
+Query  182  APAQTIDDNTVADLLEPIPGQAGIIVPADDYL  213
+             P     D     ++EP+ G    I+P  D+L
+Sbjct  194  YP-----DQIACVIVEPVAGNMNCILPKQDFL  220
+
+
+>VFG044347(gb|WP_042318253) (DDA3937_RS07710) diaminobutyrate--2-oxoglutarate 
+transaminase [Achromobactin (VF1243) - Nutritional/Metabolic 
+factor (VFC0272)] [Dickeya dadantii 3937]
+Length=459
+
+ Score = 62.8 bits (151),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 44/161 (27%), Positives = 72/161 (45%), Gaps = 20/161 (12%)
+
+Query  26   LPVVAASAEGAWIADIDGLRYLDWLAAYSAVNLGHRNPASTATAHA---------QVDTV  76
+            LP+V   A+G W+ D+DG +YLD LA    + LGH +P   ++             +D  
+Sbjct  37   LPLVIQKAQGVWVTDVDGNQYLDCLAGAGTLALGHNHPEVVSSIQEFLASGLPMHTLDLT  96
+
+Query  77   TLLNRALHADRLGPLGAALAQLCGKDVVLPMNSDAEAVESGLRVARKWGADVNGLPAGRH  136
+            T L  A     L  L     Q C   +     S A+AVE+ L++A+ +         GR 
+Sbjct  97   TPLKDAFCETLLAQLPGGENQYC---LQFCGPSGADAVEAALKLAKTY--------TGRG  145
+
+Query  137  DIILANNNFHGHTSSVVSFSSDPAAGSGVEPSTPGLRSVPF  177
+             II  +  +HG T   ++ + +      V+   PG++ +P+
+Sbjct  146  GIISFSGGYHGMTHGALAVTGNTGPKDAVQNLMPGVQFLPY  186
+
+
+>VFG013618(gb|WP_011609384) (hemL) glutamate-1-semialdehyde 2,1-aminomutase 
+[Heme biosynthesis (VF0758) - Nutritional/Metabolic 
+factor (VFC0272)] [Haemophilus somnus 129PT]
+Length=432
+
+ Score = 62.8 bits (151),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 57/215 (27%), Positives = 92/215 (43%), Gaps = 55/215 (26%)
+
+Query  27   PVVAASAEGAWIADIDGLRYLDWLAAYSAVNLGHRNPASTATAHAQVDTVTLLNRALHAD  86
+            PV    A GA+I D +G +Y+D++ ++  + LGH +P+  +          +L  A +  
+Sbjct  33   PVFIEKANGAYIFDTEGKQYIDYVGSWGPMILGHNHPSILS---------AVLKTAENGL  83
+
+Query  87   RLG---PLGAALAQLCGK-----DVVLPMNSDAEAVESGLRVARKWGADVNGLPAGRHDI  138
+              G   PL   LA+L  +     ++V  +NS  EA  S +R+AR +          R  I
+Sbjct  84   SFGTPTPLEIELAELICQLVPSIEMVRMVNSGTEATMSAIRLARGY--------TKRDKI  135
+
+Query  139  ILANNNFHGHTSSVVSFSSDPAAGSGV----EPSTPG----------------LRSVPFG  178
+            +     +HGH+ S++       AGSG     +PS+PG                L+SV   
+Sbjct  136  LKFEGCYHGHSDSLLV-----KAGSGSLTLGQPSSPGVPEDFAKHTITCEYNNLQSVKNA  190
+
+Query  179  DAAAPAQTIDDNTVADLLEPIPGQAGIIVPADDYL  213
+                P     D     ++EP+ G    I+P  D+L
+Sbjct  191  FEQYP-----DQIACVIVEPVAGNMNCILPKQDFL  220
+
+
+>VFG044201(gb|WP_011267793) (PSYR_RS13390) diaminobutyrate--2-oxoglutarate 
+transaminase [Achromobactin biosynthesis and transport 
+(VF0922) - Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+syringae pv. syringae B728a]
+Length=458
+
+ Score = 58.5 bits (140),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 45/163 (28%), Positives = 74/163 (45%), Gaps = 24/163 (15%)
+
+Query  26   LPVVAASAEGAWIADIDGLRYLDWLAAYSAVNLGHRNPASTATAHA---------QVDTV  76
+            LP+  A A G W+ D++G  YLD LA    + LGH + A  A+  +          +D  
+Sbjct  37   LPLAIAKAHGVWVTDVEGTTYLDCLAGAGTLALGHNHEAIMASLDSFLTSGMPMHTLDLT  96
+
+Query  77   TLLNRALHADRLGPLGAALAQLCGKDVVLPMN--SDAEAVESGLRVARKWGADVNGLPAG  134
+            T +  A     L  L        G+D  L     S A+AVE+ +++A+           G
+Sbjct  97   TAVKDAFSETLLSLLPGQ-----GRDYCLQFCGPSGADAVEAAIKLAKT--------ATG  143
+
+Query  135  RHDIILANNNFHGHTSSVVSFSSDPAAGSGVEPSTPGLRSVPF  177
+            RH+II  +  +HG T   ++ + + A  + V    PG++ +P+
+Sbjct  144  RHNIISFSGAYHGMTHGALALTGNTAPKNAVANLMPGVQFLPY  186
+
+
+>VFG015897(gb|WP_017698917) (argD) aminotransferase class III-fold 
+pyridoxal phosphate-dependent enzyme [Phytotoxin phaseolotoxin 
+(VF0917) - Exotoxin (VFC0235)] [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+Length=430
+
+ Score = 56.6 bits (135),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 52/196 (27%), Positives = 89/196 (45%), Gaps = 15/196 (8%)
+
+Query  22   NYSPLPVVAASAEGAWIADIDGLRYLDWLAAYSAVNLGHRNPASTATAHAQVDTVTLLNR  81
+              S L    A  +GAW+ D  G R+LD+  ++    LGH +    +    Q+    L  +
+Sbjct  39   KMSGLSASEARGDGAWVEDTQGGRWLDF-GSFGVHLLGHSHSGVVSALVEQIQRFGLSTK  97
+
+Query  82   ALHADRLGPLGAALAQLCG--KDVVLPMNSDAEAVESGLRVARKWGADVNGLPAGRHDII  139
+             L  + +      L  + G  KD V+  N+ +E VE+ L++AR        +  GR  +I
+Sbjct  98   ILSNEPIVLAAERLLVMAGPEKDKVIFGNTGSEVVEAALKLAR--------IVTGRRRVI  149
+
+Query  140  LANNNFHGHTSSVVSFSSDPAAGSGVEPSTPG-LRSVPFGDAAAPAQTIDDNTVAD-LLE  197
+                 +HG T++ +S S      +G+   T G +   P  D  A A  ++   +A  ++E
+Sbjct  150  AFEQAYHGRTAAALSVSHGYMRHAGL--LTEGDVVFCPIDDLDAVANALEAGDIAAIIIE  207
+
+Query  198  PIPGQAGIIVPADDYL  213
+            PI G+ GI    +++L
+Sbjct  208  PIQGEGGIRPVENEFL  223
+
+
+>VFG016057(gb|WP_012019057) (pvdH) diaminobutyrate-2-oxoglutarate 
+aminotransferase PvdH [Pyoverdine (VF0094) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas mendocina ymp]
+Length=473
+
+ Score = 46.6 bits (109),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 59/238 (25%), Positives = 95/238 (40%), Gaps = 42/238 (18%)
+
+Query  15   VERHAAHNYSPLPVVAASAEGAWIADIDGLRYLDWLAAYSAVNLGHRNPASTATAHAQVD  74
+            VE +A      +P+    AEG  + D +G  ++D LA    + LGH +P         +D
+Sbjct  43   VESNARSYPRRIPLELRRAEGIHVQDSEGRWFIDCLAGAGTLALGHNHPVVLQAIRGLLD  102
+
+Query  75   ------TVTLLNRALHADRLGPLGAALAQLCGKDVVLPMNSDA--EAVESGLRVARKWGA  126
+                  T+ L+  A   + +  L A L     +D  +     A  +AVE+ L++ R    
+Sbjct  103  GKRPLHTLDLMTEA-KDEFINELFACLPAEFARDARIQFCGPAGTDAVEAALKLVRT---  158
+
+Query  127  DVNGLPAGRHDIILANNNFHGHTSSVVSF--SSDPAAG-----SGVE--PSTPGLRSVPF  177
+                   GR  ++  +  +HG T   +S   S  P        SGV+  P   G R  PF
+Sbjct  159  -----ATGRSQMLAFHGAYHGMTQGALSLMGSLGPKQYLDGMISGVQMLPYPYGYRC-PF  212
+
+Query  178  GDAAAPAQTID----DNTVAD-----------LLEPIPGQAGIIVPADDYLPAASSTT  220
+            G   A  + +     +N + D           +LE + G+ G+I P+ D+L      T
+Sbjct  213  GLGGAEGERVGLHYIENQLGDPESGVLPAAGMILETVQGEGGVIAPSADWLRGIRRIT  270
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.129    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1326513875
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

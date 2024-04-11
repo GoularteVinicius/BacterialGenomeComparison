@@ -1,0 +1,154 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g353.t1
+
+Length=571
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4827887218
+
+
+Query= g2550.t1
+
+Length=573
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.134    0.386    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4848607764
+
+
+Query= g3894.t1
+
+Length=620
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5310797574
+
+
+Query= g376.t1
+
+Length=615
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG031298(gb|WP_041323530) (mmpL11) MMPL family transporter [Heme...  51.6    1e-06
+VFG031316(gb|WP_010908995) (mmpL11) MMPL family transporter [Heme...  51.6    1e-06
+
+
+>VFG031298(gb|WP_041323530) (mmpL11) MMPL family transporter [Heme 
+uptake (VF0859) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium leprae TN]
+Length=1014
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 39/123 (32%), Positives = 67/123 (54%), Gaps = 8/123 (7%)
+
+Query  477  LIATSALVANLVLIVGIMSLLPGATLSMPGIAGIVLTLAVAVDANVLINERIKEELSNGR  536
+            ++ T  LV +LV +  IMS+   +T+SM GIA       +AVD ++ I  R +EEL +GR
+Sbjct  214  VVVTMGLV-DLVSMHTIMSVFVTSTVSMFGIA-------LAVDYSLFILMRFREELRSGR  265
+
+Query  537  TVQQAINEGYAGAFSSIFDANITTLIKVIILYAVGTGAIKGFAITTGIGVATSMFTAIIG  596
+              Q+A++   A +  ++  + +T +  +  +Y + T A+K  A    + VA +M  +I  
+Sbjct  266  QPQEAVDAAMATSGLAVVLSGMTVIASLTGIYLINTAALKSMATGAILAVAIAMLASITL  325
+
+Query  597  TRA  599
+            T A
+Sbjct  326  TPA  328
+
+
+>VFG031316(gb|WP_010908995) (mmpL11) MMPL family transporter [Heme 
+uptake (VF0859) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium leprae Br4923]
+Length=1013
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 39/123 (32%), Positives = 67/123 (54%), Gaps = 8/123 (7%)
+
+Query  477  LIATSALVANLVLIVGIMSLLPGATLSMPGIAGIVLTLAVAVDANVLINERIKEELSNGR  536
+            ++ T  LV +LV +  IMS+   +T+SM GIA       +AVD ++ I  R +EEL +GR
+Sbjct  213  VVVTMGLV-DLVSMHTIMSVFVTSTVSMFGIA-------LAVDYSLFILMRFREELRSGR  264
+
+Query  537  TVQQAINEGYAGAFSSIFDANITTLIKVIILYAVGTGAIKGFAITTGIGVATSMFTAIIG  596
+              Q+A++   A +  ++  + +T +  +  +Y + T A+K  A    + VA +M  +I  
+Sbjct  265  QPQEAVDAAMATSGLAVVLSGMTVIASLTGIYLINTAALKSMATGAILAVAIAMLASITL  324
+
+Query  597  TRA  599
+            T A
+Sbjct  325  TPA  327
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5259136119
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,107 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g103.t1
+
+Length=536
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG030630(gb|WP_011779762) (sugB) carbohydrate ABC transporter pe...  60.5    4e-10
+VFG030623(gb|WP_011894705) (sugB) carbohydrate ABC transporter pe...  60.5    5e-10
+
+
+>VFG030630(gb|WP_011779762) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium vanbaalenii 
+PYR-1]
+Length=275
+
+ Score = 60.5 bits (145),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 61/204 (30%), Positives = 89/204 (44%), Gaps = 18/204 (9%)
+
+Query  63   AFLSAVLSVVPAVFLARALYRRRFPGRLALLRLCAMTLILPVLVAVFGILSVYGRQGWLA  122
+            A ++ V+SV+ A+F A A+ R  FPG+  LL L     + P    V          G L 
+Sbjct  74   AVIATVISVIIAMFAAYAIARLEFPGKKVLLSLALGIAMFPQAALV----------GPLF  123
+
+Query  123  SLWQMLGLQWTFSPYGLQGILLAHVFFNLPMASRLLLQSLESIPGEQRQLAAQLGMRGWH  182
+             +W+ LG+  T+      G+++ ++ F LP++   +      IP E    A   G   W 
+Sbjct  124  DMWRGLGIYDTW-----LGLIIPYLTFALPLSIWTMSAFFRQIPWEMEHAAQVDGATQWQ  178
+
+Query  183  FFRFVEWPWLRRQIPPVAALIFMLCFASFATVLSLGGGPQATTI--ELAIFQALSYDYDP  240
+             FR V  P     +   A L F  C+  F   +SL     A T+   LA FQ  SY   P
+Sbjct  179  AFRKVIVPLAAPGVFTTAILTFFFCWNDFLFAISLTSTDSARTVPAALAFFQGASYFESP  238
+
+Query  241  ARAAMLA-LIQMVCCLALVLLSQR  263
+                M A +I  +  + LVL+ QR
+Sbjct  239  VPYIMAASVIVTIPVVILVLIFQR  262
+
+
+>VFG030623(gb|WP_011894705) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium gilvum 
+PYR-GCK]
+Length=275
+
+ Score = 60.5 bits (145),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 61/204 (30%), Positives = 89/204 (44%), Gaps = 18/204 (9%)
+
+Query  63   AFLSAVLSVVPAVFLARALYRRRFPGRLALLRLCAMTLILPVLVAVFGILSVYGRQGWLA  122
+            A ++ V+SV+ A+F A A+ R  FPG+  LL L     + P    V          G L 
+Sbjct  74   ALVATVISVIIAMFAAYAIARLEFPGKKVLLSLALGIAMFPQAALV----------GPLF  123
+
+Query  123  SLWQMLGLQWTFSPYGLQGILLAHVFFNLPMASRLLLQSLESIPGEQRQLAAQLGMRGWH  182
+             +W+ LG+  T+      G+++ ++ F LP++   +      IP E    A   G   W 
+Sbjct  124  DMWRGLGIYDTW-----LGLIIPYLTFALPLSIWTMSAFFRQIPWEMEHAAQVDGATQWQ  178
+
+Query  183  FFRFVEWPWLRRQIPPVAALIFMLCFASFATVLSLGGGPQATTI--ELAIFQALSYDYDP  240
+             FR V  P     +   A L F  C+  F   +SL     A T+   LA FQ  SY   P
+Sbjct  179  AFRKVIVPLAAPGVFTTAILTFFFCWNDFLFAISLTSTDSARTVPAALAFFQGASYFESP  238
+
+Query  241  ARAAMLA-LIQMVCCLALVLLSQR  263
+                M A +I  +  + LVL+ QR
+Sbjct  239  VPYIMAASVIVTIPVVILVLVFQR  262
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.141    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4465277663
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

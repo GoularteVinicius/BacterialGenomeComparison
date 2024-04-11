@@ -1,0 +1,355 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1652.t1
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG013732(gb|WP_006769637) (fagC) ABC transporter ATP-binding pro...  54.3    1e-08
+VFG037387(gb|YP_001085408) (bauE) ferric siderophore ABC transpor...  51.2    6e-08
+VFG037395(gb|YP_005799714) (bauE) ferric siderophore ABC transpor...  51.2    7e-08
+VFG037386(gb|WP_000582115) (bauE) ferric siderophore ABC transpor...  51.2    9e-08
+VFG037384(gb|WP_000582117) (bauE) ferric siderophore ABC transpor...  51.2    9e-08
+VFG037392(gb|WP_000582124) (bauE) ferric siderophore ABC transpor...  51.2    1e-07
+VFG037390(gb|WP_000582116) (bauE) ferric siderophore ABC transpor...  50.8    1e-07
+VFG013728(gb|WP_011273788) (ciuD) ABC transporter ATP-binding pro...  49.3    4e-07
+VFG044358(gb|WP_013317301) (DDA3937_RS07765) ABC transporter ATP-...  48.9    6e-07
+VFG016166(gb|WP_003372869) (cbrD) ABC transporter ATP-binding pro...  48.1    1e-06
+VFG016167(gb|WP_004665393) (cbrD) ABC transporter ATP-binding pro...  48.1    1e-06
+VFG035924(gb|WP_000593973) (aatC) ATP-binding protein AatC [Dispe...  47.8    1e-06
+VFG035919(gb|WP_000621743) (aatC) ATP-binding protein AatC [Dispe...  47.4    1e-06
+VFG035923(gb|WP_000621745) (aatC) ATP-binding protein AatC [Dispe...  47.4    1e-06
+VFG013703(gb|WP_011273220) (irp6C) ABC transporter ATP-binding pr...  46.6    4e-06
+VFG044225(gb|WP_011533698) (PSEEN_RS11610) ATP-binding cassette d...  46.2    5e-06
+
+
+>VFG013732(gb|WP_006769637) (fagC) ABC transporter ATP-binding 
+protein [ABC transporter (VF0741) - Nutritional/Metabolic factor 
+(VFC0272)] [Corynebacterium efficiens YS-314]
+Length=272
+
+ Score = 54.3 bits (129),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 32/77 (42%), Positives = 46/77 (60%), Gaps = 4/77 (5%)
+
+Query  47   VDDLSGGQRRRLQLMLTLLSEPNVLLLDEPTNDVDT----EMLTATEDLLDSWAGTLIVV  102
+            VD+LSGGQR+R+ + + L  EP++LLLDEPT  +D     E+L    DL      T+++V
+Sbjct  140  VDELSGGQRQRVWIAMVLAQEPDILLLDEPTTYLDIANQLEVLDLLTDLNTRLGTTIVMV  199
+
+Query  103  SHDRYLLERVTDQQYAI  119
+             HD  L  R +D   A+
+Sbjct  200  LHDLGLAARYSDHLIAM  216
+
+
+>VFG037387(gb|YP_001085408) (bauE) ferric siderophore ABC transporter, 
+ATP-binding protein BauE [Acinetobactin (VF0467) - 
+Nutritional/Metabolic factor (VFC0272)] [Acinetobacter baumannii 
+ATCC 17978]
+Length=212
+
+ Score = 51.2 bits (121),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 30/89 (34%), Positives = 50/89 (56%), Gaps = 5/89 (6%)
+
+Query  45   ARVDDLSGGQRRRLQLMLTLLSEPNVLLLDEPTNDVD----TEMLTATEDLLDSWAGTLI  100
+            + +D++SGGQR+   L +T+  + +VLLLDEP N++D     +++ A   L D    T+I
+Sbjct  87   SYIDEISGGQRQMAFLAMTIAQQTDVLLLDEPLNNLDMKHAVQIMRALRRLCDEQGRTVI  146
+
+Query  101  VVSHDRYLLERVTDQQYAILDDRLRHLPG  129
+            +V HD       +D   A+ + +L H  G
+Sbjct  147  LVIHDINFATNYSDHIVALKNGKL-HFSG  174
+
+
+>VFG037395(gb|YP_005799714) (bauE) ferric siderophore ABC transporter, 
+ATP-binding protein BauE [Acinetobactin (VF0467) - 
+Nutritional/Metabolic factor (VFC0272)] [Acinetobacter baumannii 
+TCDC-AB0715]
+Length=228
+
+ Score = 51.2 bits (121),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 30/89 (34%), Positives = 50/89 (56%), Gaps = 5/89 (6%)
+
+Query  45   ARVDDLSGGQRRRLQLMLTLLSEPNVLLLDEPTNDVD----TEMLTATEDLLDSWAGTLI  100
+            + +D++SGGQR+   L +T+  + +VLLLDEP N++D     +++ A   L D    T+I
+Sbjct  103  SYIDEISGGQRQMAFLAMTIAQQTDVLLLDEPLNNLDMKHAVQIMRALRRLCDEQGRTVI  162
+
+Query  101  VVSHDRYLLERVTDQQYAILDDRLRHLPG  129
+            +V HD       +D   A+ + +L H  G
+Sbjct  163  LVIHDINFATNYSDHIVALKNGKL-HFSG  190
+
+
+>VFG037386(gb|WP_000582115) (bauE) ferric siderophore ABC transporter, 
+ATP-binding protein BauE [Acinetobactin (VF0467) - 
+Nutritional/Metabolic factor (VFC0272)] [Acinetobacter baumannii 
+ACICU]
+Length=256
+
+ Score = 51.2 bits (121),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 30/89 (34%), Positives = 50/89 (56%), Gaps = 5/89 (6%)
+
+Query  45   ARVDDLSGGQRRRLQLMLTLLSEPNVLLLDEPTNDVD----TEMLTATEDLLDSWAGTLI  100
+            + +D++SGGQR+   L +T+  + +VLLLDEP N++D     +++ A   L D    T+I
+Sbjct  131  SYIDEISGGQRQMAFLAMTIAQQTDVLLLDEPLNNLDMKHAVQIMRALRRLCDEQGRTVI  190
+
+Query  101  VVSHDRYLLERVTDQQYAILDDRLRHLPG  129
+            +V HD       +D   A+ + +L H  G
+Sbjct  191  LVIHDINFATNYSDHIVALKNGKL-HFSG  218
+
+
+>VFG037384(gb|WP_000582117) (bauE) ferric siderophore ABC transporter, 
+ATP-binding protein BauE [Acinetobactin (VF0467) - 
+Nutritional/Metabolic factor (VFC0272)] [Acinetobacter baumannii 
+AB0057]
+Length=256
+
+ Score = 51.2 bits (121),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 30/89 (34%), Positives = 50/89 (56%), Gaps = 5/89 (6%)
+
+Query  45   ARVDDLSGGQRRRLQLMLTLLSEPNVLLLDEPTNDVD----TEMLTATEDLLDSWAGTLI  100
+            + +D++SGGQR+   L +T+  + +VLLLDEP N++D     +++ A   L D    T+I
+Sbjct  131  SYIDEISGGQRQMAFLAMTIAQQTDVLLLDEPLNNLDMKHAVQIMRALRRLCDEQGRTVI  190
+
+Query  101  VVSHDRYLLERVTDQQYAILDDRLRHLPG  129
+            +V HD       +D   A+ + +L H  G
+Sbjct  191  LVIHDINFATNYSDHIVALKNGKL-HFSG  218
+
+
+>VFG037392(gb|WP_000582124) (bauE) ferric siderophore ABC transporter, 
+ATP-binding protein BauE [Acinetobactin (VF0467) - 
+Nutritional/Metabolic factor (VFC0272)] [Acinetobacter baumannii 
+D1279779]
+Length=256
+
+ Score = 51.2 bits (121),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 30/89 (34%), Positives = 50/89 (56%), Gaps = 5/89 (6%)
+
+Query  45   ARVDDLSGGQRRRLQLMLTLLSEPNVLLLDEPTNDVD----TEMLTATEDLLDSWAGTLI  100
+            + +D++SGGQR+   L +T+  + +VLLLDEP N++D     +++ A   L D    T+I
+Sbjct  131  SYIDEISGGQRQMAFLAMTIAQQTDVLLLDEPLNNLDMKHAVQIMRALRRLCDEQGRTVI  190
+
+Query  101  VVSHDRYLLERVTDQQYAILDDRLRHLPG  129
+            +V HD       +D   A+ + +L H  G
+Sbjct  191  LVIHDINFATNYSDHIVALKNGKL-HFSG  218
+
+
+>VFG037390(gb|WP_000582116) (bauE) ferric siderophore ABC transporter, 
+ATP-binding protein BauE [Acinetobactin (VF0467) - 
+Nutritional/Metabolic factor (VFC0272)] [Acinetobacter baumannii 
+BJAB0715]
+Length=256
+
+ Score = 50.8 bits (120),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 30/89 (34%), Positives = 49/89 (55%), Gaps = 5/89 (6%)
+
+Query  45   ARVDDLSGGQRRRLQLMLTLLSEPNVLLLDEPTNDVD----TEMLTATEDLLDSWAGTLI  100
+            + +D++SGGQR+   L +T+  +  VLLLDEP N++D     +++ A   L D    T+I
+Sbjct  131  SYIDEISGGQRQMAFLAMTIAQQTEVLLLDEPLNNLDMKHAVQIMRALRRLCDEQGRTVI  190
+
+Query  101  VVSHDRYLLERVTDQQYAILDDRLRHLPG  129
+            +V HD       +D   A+ + +L H  G
+Sbjct  191  LVIHDINFATNYSDHIVALKNGKL-HFSG  218
+
+
+>VFG013728(gb|WP_011273788) (ciuD) ABC transporter ATP-binding 
+protein [Ciu iron uptake and siderophore biosynthesis system 
+(VF0740) - Nutritional/Metabolic factor (VFC0272)] [Corynebacterium 
+jeikeium K411]
+Length=259
+
+ Score = 49.3 bits (116),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 31/79 (39%), Positives = 45/79 (57%), Gaps = 3/79 (4%)
+
+Query  49   DLSGGQRRRLQLMLTLLSEPNVLLLDEPTNDVDTEMLTATEDL---LDSWAGTLIVVSHD  105
+            DLSGGQR+R+ + +T+  +  VLLLDEPT  +D     A  DL   L+S   T+++V HD
+Sbjct  141  DLSGGQRQRVWVAMTVAQQTPVLLLDEPTTYLDPAHQIAILDLVRDLNSAGRTVVMVVHD  200
+
+Query  106  RYLLERVTDQQYAILDDRL  124
+                 R  D   A+ D ++
+Sbjct  201  MTHAARFADSIVAMRDGQV  219
+
+
+>VFG044358(gb|WP_013317301) (DDA3937_RS07765) ABC transporter 
+ATP-binding protein [Achromobactin (VF1243) - Nutritional/Metabolic 
+factor (VFC0272)] [Dickeya dadantii 3937]
+Length=269
+
+ Score = 48.9 bits (115),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 34/84 (40%), Positives = 47/84 (56%), Gaps = 5/84 (6%)
+
+Query  41   DQLSAR-VDDLSGGQRRRLQLMLTLLSEPNVLLLDEPTNDVD----TEMLTATEDLLDSW  95
+            D L+ R VD LSGGQR+R+ + +TL  +  V+LLDEPT  +D     E+L    +L    
+Sbjct  130  DMLAERPVDALSGGQRQRVWIAMTLAQDTEVVLLDEPTTFLDLAHQIEVLDLLRELNRQH  189
+
+Query  96   AGTLIVVSHDRYLLERVTDQQYAI  119
+              T+I+V HD  L  R  D   A+
+Sbjct  190  GKTIIMVLHDLNLACRYADHMVAV  213
+
+
+>VFG016166(gb|WP_003372869) (cbrD) ABC transporter ATP-binding 
+protein [Achromobactin biosynthesis and transport (VF0922) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas syringae 
+pv. syringae B728a]
+Length=263
+
+ Score = 48.1 bits (113),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 30/77 (39%), Positives = 43/77 (56%), Gaps = 4/77 (5%)
+
+Query  47   VDDLSGGQRRRLQLMLTLLSEPNVLLLDEPTNDVD----TEMLTATEDLLDSWAGTLIVV  102
+            VD LSGGQR+R  + +TL  + +++LLDEPT  +D     E+L    DL      T+++V
+Sbjct  137  VDALSGGQRQRAWIAMTLAQDTDIVLLDEPTTFLDLAHQIEVLDLLRDLNRQEGKTIVMV  196
+
+Query  103  SHDRYLLERVTDQQYAI  119
+             HD  L  R  D   A+
+Sbjct  197  LHDLNLACRYADHMVAV  213
+
+
+>VFG016167(gb|WP_004665393) (cbrD) ABC transporter ATP-binding 
+protein [Achromobactin biosynthesis and transport (VF0922) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+Length=263
+
+ Score = 48.1 bits (113),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 30/77 (39%), Positives = 43/77 (56%), Gaps = 4/77 (5%)
+
+Query  47   VDDLSGGQRRRLQLMLTLLSEPNVLLLDEPTNDVD----TEMLTATEDLLDSWAGTLIVV  102
+            VD LSGGQR+R  + +TL  + +++LLDEPT  +D     E+L    DL      T+++V
+Sbjct  137  VDALSGGQRQRAWIAMTLAQDTDIVLLDEPTTFLDLAHQIEVLDLLRDLNRQEGKTIVMV  196
+
+Query  103  SHDRYLLERVTDQQYAI  119
+             HD  L  R  D   A+
+Sbjct  197  LHDLNLACRYADHMVAV  213
+
+
+>VFG035924(gb|WP_000593973) (aatC) ATP-binding protein AatC [Dispersin 
+(VF0215) - Others (VFC0346)] [Escherichia coli O78:H11:K80 
+str. H10407]
+Length=208
+
+ Score = 47.8 bits (112),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 27/80 (34%), Positives = 44/80 (55%), Gaps = 3/80 (4%)
+
+Query  33   LERLGFRRDQLSARVDDLSGGQRRRLQLMLTLLSEPNVLLLDEPTNDVDTEMLTATEDLL  92
+            LE++G       A    LSGG+++R+ L   L+ +P +LL DEPT  +D        D+L
+Sbjct  120  LEKVGLHGISPEASAALLSGGEKQRVALARALIKKPKILLADEPTASLDNNNKKKIMDIL  179
+
+Query  93   DSW---AGTLIVVSHDRYLL  109
+              +    GT+++V+HD  L+
+Sbjct  180  LKYYKQGGTVVMVTHDTNLI  199
+
+
+>VFG035919(gb|WP_000621743) (aatC) ATP-binding protein AatC [Dispersin 
+(VF0215) - Others (VFC0346)] [Escherichia coli O104:H4 
+str. 2009EL-2050]
+Length=209
+
+ Score = 47.4 bits (111),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 24/72 (33%), Positives = 44/72 (61%), Gaps = 3/72 (4%)
+
+Query  42   QLSARVDDLSGGQRRRLQLMLTLLSEPNVLLLDEPTNDVDTEMLTATEDLLDSW---AGT  98
+             ++  V  LSGG+++RL L   L+ +P++LL DEPT  +D +      ++L  +    GT
+Sbjct  127  NINNNVSFLSGGEKQRLALARALIKKPSILLADEPTASLDIKNKKLVMNILSEYNNQGGT  186
+
+Query  99   LIVVSHDRYLLE  110
+            +++V+HD  L++
+Sbjct  187  VVMVTHDLELID  198
+
+
+>VFG035923(gb|WP_000621745) (aatC) ATP-binding protein AatC [Dispersin 
+(VF0215) - Others (VFC0346)] [Escherichia coli O44:H18 
+042]
+Length=209
+
+ Score = 47.4 bits (111),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 24/72 (33%), Positives = 44/72 (61%), Gaps = 3/72 (4%)
+
+Query  42   QLSARVDDLSGGQRRRLQLMLTLLSEPNVLLLDEPTNDVDTEMLTATEDLLDSW---AGT  98
+             ++  V  LSGG+++RL L   L+ +P++LL DEPT  +D +      ++L  +    GT
+Sbjct  127  NINNNVSFLSGGEKQRLALARALIKKPSILLADEPTASLDIKNKKLVMNILSEYNNQGGT  186
+
+Query  99   LIVVSHDRYLLE  110
+            +++V+HD  L++
+Sbjct  187  VVMVTHDLELID  198
+
+
+>VFG013703(gb|WP_011273220) (irp6C) ABC transporter ATP-binding 
+protein [Siderophore-dependent iron uptake system (VF0738) 
+- Nutritional/Metabolic factor (VFC0272)] [Corynebacterium 
+jeikeium K411]
+Length=259
+
+ Score = 46.6 bits (109),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 42/123 (34%), Positives = 60/123 (49%), Gaps = 15/123 (12%)
+
+Query  32   LLERLGFRRDQLSAR-VDDLSGGQRRRLQLMLTLLSEPNVLLLDEPTNDVD----TEMLT  86
+            +LERLG     L++R V +LSGGQR+ + +   L+ EP VLLLDEPT+ +D     E+L 
+Sbjct  119  VLERLGI--THLASRYVHELSGGQRQLVAVGQMLVREPEVLLLDEPTSALDLRHQVELLQ  176
+
+Query  87   ATEDLLDSWAGTLIVVSHDRYLLERVTDQQYAILDDRLRH--------LPGGIDEYLQLA  138
+                 +       ++  HD  L  R  DQ   +   RL           PG ++E   L 
+Sbjct  177  LIRREVSQKDSIALIAIHDLNLAARYCDQLIVLHRGRLMAQGQPSEVLTPGLLEEVYGLR  236
+
+Query  139  ARV  141
+            A+V
+Sbjct  237  AKV  239
+
+
+>VFG044225(gb|WP_011533698) (PSEEN_RS11610) ATP-binding cassette 
+domain-containing protein [Pseudomonine (VF0936) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas entomophila L48]
+Length=260
+
+ Score = 46.2 bits (108),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 27/77 (35%), Positives = 43/77 (56%), Gaps = 4/77 (5%)
+
+Query  47   VDDLSGGQRRRLQLMLTLLSEPNVLLLDEPTNDVDTE----MLTATEDLLDSWAGTLIVV  102
+            +D+LSGGQR+   L +T+  + + LLLDEP N++D +    ++ A   L D    T+I+V
+Sbjct  133  IDELSGGQRQMAFLAMTIAQQTDYLLLDEPLNNLDMKHAVLIMRALRRLCDEQERTVILV  192
+
+Query  103  SHDRYLLERVTDQQYAI  119
+             HD       +D   A+
+Sbjct  193  VHDINFAANYSDHIVAM  209
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1386520899
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

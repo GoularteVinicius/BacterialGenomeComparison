@@ -1,0 +1,460 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3717.t1
+
+Length=146
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG052301(gb|WP_011179437.1) (fabZ) 3-hydroxyacyl-ACP dehydratase...  138     8e-43
+VFG052302(gb|WP_012231508.1) (fabZ) 3-hydroxyacyl-ACP dehydratase...  137     4e-42
+VFG011402(gb|WP_004688426) (fabZ) (3R)-hydroxymyristoyl ACP dehyd...  136     7e-42
+VFG052300(gb|WP_011180554.1) (fabZ) 3-hydroxyacyl-ACP dehydratase...  136     8e-42
+VFG052299(gb|WP_005766761.1) (fabZ) 3-hydroxyacyl-ACP dehydratase...  134     5e-41
+VFG011399(gb|WP_004683864) (fabZ) (3R)-hydroxymyristoyl ACP dehyd...  134     5e-41
+VFG011400(gb|WP_002964280) (fabZ) (3R)-hydroxymyristoyl ACP dehyd...  134     6e-41
+VFG005772(gb|WP_000164166) (cylZ) 3R-hydroxymyristoyl ACP dehydra...  89.0    3e-23
+VFG015865(gb|WP_011105118) (cfa2) coronafacic acid dehydratase [P...  78.6    4e-19
+
+
+>VFG052301(gb|WP_011179437.1) (fabZ) 3-hydroxyacyl-ACP dehydratase 
+FabZ [LPS (VF0370) - Immune modulation (VFC0258)] [Bartonella 
+quintana str. Toulouse]
+Length=155
+
+ Score = 138 bits (348),  Expect = 8e-43, Method: Compositional matrix adjust.
+ Identities = 67/138 (49%), Positives = 91/138 (66%), Gaps = 3/138 (2%)
+
+Query  2    MDINEIREYLPHRYPFLLVDRVVELDIEGKRIRAYKNVSINEPFFNGHFPEHPIMPGVLI  61
+            +DI E+   LPHRYPFLL+DR+VE+D E + I   KN++INEP F GHFP  P+MPGVLI
+Sbjct  13   VDIEELLSILPHRYPFLLIDRIVEIDGEQQAI-GIKNITINEPHFMGHFPAKPVMPGVLI  71
+
+Query  62   IEAMAQAAGILGFKMLDVKPADGTLYYFVGSDKLRFRQPVLPGDQLQLHAKFISVKRSIW  121
+            +EAMAQ AG +    L  K  +  L Y +  D  +FR+PV+PGDQL++H + +  +  + 
+Sbjct  72   LEAMAQTAGAISLLRLGNKQTN--LVYLMTVDNAKFRKPVIPGDQLKIHVRLLKKRSGMR  129
+
+Query  122  KFDCHATVDDKPVCSAEI  139
+            +F C A V+   V  AEI
+Sbjct  130  RFSCVAEVEGVRVAEAEI  147
+
+
+>VFG052302(gb|WP_012231508.1) (fabZ) 3-hydroxyacyl-ACP dehydratase 
+FabZ [LPS (VF0370) - Immune modulation (VFC0258)] [Bartonella 
+tribocorum CIP 105476]
+Length=155
+
+ Score = 137 bits (344),  Expect = 4e-42, Method: Compositional matrix adjust.
+ Identities = 64/138 (46%), Positives = 92/138 (67%), Gaps = 3/138 (2%)
+
+Query  2    MDINEIREYLPHRYPFLLVDRVVELDIEGKRIRAYKNVSINEPFFNGHFPEHPIMPGVLI  61
+            +DI ++   LPHRYPFLL+DR+V +D E + I   KN++INEP F GHFP  P+MPGVLI
+Sbjct  13   VDIEKLLSILPHRYPFLLIDRIVNIDGEQEAI-GIKNITINEPHFTGHFPTKPVMPGVLI  71
+
+Query  62   IEAMAQAAGILGFKMLDVKPADGTLYYFVGSDKLRFRQPVLPGDQLQLHAKFISVKRSIW  121
+            +EAMAQ AG +   +L++      L Y +  D  +FR+PV+PGDQL++H + +  +  + 
+Sbjct  72   LEAMAQTAGAIA--LLNLGNKRTNLVYLMTVDNAKFRKPVMPGDQLKIHVQLLKKRSGMR  129
+
+Query  122  KFDCHATVDDKPVCSAEI  139
+            +F C A V++  V  AEI
+Sbjct  130  RFSCVAKVENVRVAEAEI  147
+
+
+>VFG011402(gb|WP_004688426) (fabZ) (3R)-hydroxymyristoyl ACP dehydratase 
+[LPS (VF0367) - Immune modulation (VFC0258)] [Brucella 
+suis 1330]
+Length=157
+
+ Score = 136 bits (343),  Expect = 7e-42, Method: Compositional matrix adjust.
+ Identities = 69/137 (50%), Positives = 90/137 (66%), Gaps = 3/137 (2%)
+
+Query  3    DINEIREYLPHRYPFLLVDRVVELDIEGKRIRAYKNVSINEPFFNGHFPEHPIMPGVLII  62
+            DI  +   LPHRYPFLL+DR+V++D +       KNV+INEP F GHFPE+PIMPGVLI+
+Sbjct  13   DIQALLAVLPHRYPFLLIDRIVDIDGDVSAT-GIKNVTINEPHFTGHFPENPIMPGVLIV  71
+
+Query  63   EAMAQAAGILGFKMLDVKPADGTLYYFVGSDKLRFRQPVLPGDQLQLHAKFISVKRSIWK  122
+            EAMAQ AG     +L  K     + YF+  D  +FR+PV+PGD+L LH K I  + +I K
+Sbjct  72   EAMAQTAG--AISLLQRKTGRPGVVYFMTIDNAKFRRPVVPGDRLLLHVKKIKQRANISK  129
+
+Query  123  FDCHATVDDKPVCSAEI  139
+            ++C A VD   V  AE+
+Sbjct  130  YECVAEVDGVKVAEAEV  146
+
+
+>VFG052300(gb|WP_011180554.1) (fabZ) 3-hydroxyacyl-ACP dehydratase 
+FabZ [LPS (VF0370) - Immune modulation (VFC0258)] [Bartonella 
+henselae str. Houston-1]
+Length=155
+
+ Score = 136 bits (342),  Expect = 8e-42, Method: Compositional matrix adjust.
+ Identities = 66/138 (48%), Positives = 90/138 (65%), Gaps = 3/138 (2%)
+
+Query  2    MDINEIREYLPHRYPFLLVDRVVELDIEGKRIRAYKNVSINEPFFNGHFPEHPIMPGVLI  61
+            +DI ++   LPHRYPFLL+DR+VE+D E + I   KN++INEP F GHFP  P+MPGVLI
+Sbjct  13   LDIEKLLSILPHRYPFLLIDRIVEIDGEQEAI-GIKNITINEPHFVGHFPAKPVMPGVLI  71
+
+Query  62   IEAMAQAAGILGFKMLDVKPADGTLYYFVGSDKLRFRQPVLPGDQLQLHAKFISVKRSIW  121
+            +EAMAQ AG +    L  K  +  L Y +  D  +FR+PV+PGDQL++H + +  +  + 
+Sbjct  72   LEAMAQTAGAISLLRLGNKQTN--LVYLMTVDNAKFRKPVIPGDQLKIHVRLLKKRSGMR  129
+
+Query  122  KFDCHATVDDKPVCSAEI  139
+            +F C A V    V  AEI
+Sbjct  130  RFSCIAEVKGVRVAEAEI  147
+
+
+>VFG052299(gb|WP_005766761.1) (fabZ) 3-hydroxyacyl-ACP dehydratase 
+FabZ [LPS (VF0370) - Immune modulation (VFC0258)] [Bartonella 
+bacilliformis KC583]
+Length=154
+
+ Score = 134 bits (337),  Expect = 5e-41, Method: Compositional matrix adjust.
+ Identities = 65/138 (47%), Positives = 92/138 (67%), Gaps = 3/138 (2%)
+
+Query  2    MDINEIREYLPHRYPFLLVDRVVELDIEGKRIRAYKNVSINEPFFNGHFPEHPIMPGVLI  61
+            +DI ++   LPHRYPFLL+DR++E+D + K I   KNV++NEP F GHFPE+P+MPGVLI
+Sbjct  13   IDIVKLLSVLPHRYPFLLIDRIIEIDGDRKAI-GIKNVTVNEPHFVGHFPENPVMPGVLI  71
+
+Query  62   IEAMAQAAGILGFKMLDVKPADGTLYYFVGSDKLRFRQPVLPGDQLQLHAKFISVKRSIW  121
+            +EAMAQ AG +    L     D  L Y +  D  +FR+PV+PGDQ+++H + +  +  + 
+Sbjct  72   LEAMAQTAGAISLLALGRGKED--LVYLMTIDNAKFRKPVVPGDQMRIHVQLLKKRSEVR  129
+
+Query  122  KFDCHATVDDKPVCSAEI  139
+            +F C A V+   V  AEI
+Sbjct  130  RFLCIAEVEGTRVSEAEI  147
+
+
+>VFG011399(gb|WP_004683864) (fabZ) (3R)-hydroxymyristoyl ACP dehydratase 
+[LPS (VF0367) - Immune modulation (VFC0258)] [Brucella 
+melitensis bv. 1 str. 16M]
+Length=157
+
+ Score = 134 bits (337),  Expect = 5e-41, Method: Compositional matrix adjust.
+ Identities = 68/137 (50%), Positives = 90/137 (66%), Gaps = 3/137 (2%)
+
+Query  3    DINEIREYLPHRYPFLLVDRVVELDIEGKRIRAYKNVSINEPFFNGHFPEHPIMPGVLII  62
+            DI  +   LPHRYPFLL+DR+V++D +       KNV+INEP F GHFPE+PIMPGVLI+
+Sbjct  13   DIQALLAVLPHRYPFLLIDRIVDIDGDVSAT-GIKNVTINEPHFTGHFPENPIMPGVLIV  71
+
+Query  63   EAMAQAAGILGFKMLDVKPADGTLYYFVGSDKLRFRQPVLPGDQLQLHAKFISVKRSIWK  122
+            EAMAQ AG     +L  K     + YF+  D  +FR+PV+PGD+L L+ K I  + +I K
+Sbjct  72   EAMAQTAG--AISLLQRKTGRPGVVYFMTIDSAKFRRPVVPGDRLLLYVKKIKQRANISK  129
+
+Query  123  FDCHATVDDKPVCSAEI  139
+            ++C A VD   V  AE+
+Sbjct  130  YECVAEVDGVKVAEAEV  146
+
+
+>VFG011400(gb|WP_002964280) (fabZ) (3R)-hydroxymyristoyl ACP dehydratase 
+[LPS (VF0367) - Immune modulation (VFC0258)] [Brucella 
+melitensis biovar Abortus 2308]
+Length=157
+
+ Score = 134 bits (337),  Expect = 6e-41, Method: Compositional matrix adjust.
+ Identities = 68/137 (50%), Positives = 90/137 (66%), Gaps = 3/137 (2%)
+
+Query  3    DINEIREYLPHRYPFLLVDRVVELDIEGKRIRAYKNVSINEPFFNGHFPEHPIMPGVLII  62
+            DI  +   LPHRYPFLL+DR+V++D +       KNV+INEP F GHFPE+PIMPGVLI+
+Sbjct  13   DIQALLAVLPHRYPFLLIDRIVDIDGDVSAT-GIKNVTINEPHFTGHFPENPIMPGVLIV  71
+
+Query  63   EAMAQAAGILGFKMLDVKPADGTLYYFVGSDKLRFRQPVLPGDQLQLHAKFISVKRSIWK  122
+            EAMAQ AG     +L  K     + YF+  D  +FR+PV+PGD+L L+ K I  + +I K
+Sbjct  72   EAMAQTAG--AISLLQRKTGRPGVVYFMTIDNAKFRRPVVPGDRLLLYVKKIKQRANISK  129
+
+Query  123  FDCHATVDDKPVCSAEI  139
+            ++C A VD   V  AE+
+Sbjct  130  YECVAEVDGVKVAEAEV  146
+
+
+>VFG005772(gb|WP_000164166) (cylZ) 3R-hydroxymyristoyl ACP dehydratase 
+CylZ [Beta-haemolysin/cytolysin (VF0279) - Exotoxin 
+(VFC0235)] [Streptococcus agalactiae NEM316]
+Length=158
+
+ Score = 89.0 bits (219),  Expect = 3e-23, Method: Compositional matrix adjust.
+ Identities = 48/118 (41%), Positives = 65/118 (55%), Gaps = 13/118 (11%)
+
+Query  6    EIREYLPHRYPFLLVDRVVELDIEGKRIRAYKNVSINEPFFNGHFPEHPIMPGVLIIEAM  65
+            EI + LPHRYPFL+VDRV     +   I   KN++INEP+F GHFP+ PI+PGVL+IE  
+Sbjct  8    EIIKMLPHRYPFLMVDRV--QSYKKGIIECRKNITINEPYFQGHFPQRPIVPGVLMIEMA  65
+
+Query  66   AQAAGIL-----------GFKMLDVKPADGTLYYFVGSDKLRFRQPVLPGDQLQLHAK  112
+            AQ+A +L               L  +     + Y       +F++ V PGDQL +  K
+Sbjct  66   AQSAALLYILDALDGSLPSLDELTAEKIAEKVGYLASVKNFKFKKIVTPGDQLNITCK  123
+
+
+>VFG015865(gb|WP_011105118) (cfa2) coronafacic acid dehydratase 
+[Phytotoxin coronatine (VF0916) - Exotoxin (VFC0235)] [Pseudomonas 
+syringae pv. tomato str. DC3000]
+Length=165
+
+ Score = 78.6 bits (192),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 47/133 (35%), Positives = 74/133 (56%), Gaps = 3/133 (2%)
+
+Query  2    MDINEIREYLPHRYPFLLVDRVVELDIEGKRIRAYKNVSINEPFFNGHFPEHPIMPGVLI  61
+            M   E++ +L HR+P + +DRV++ +  G +I+    VS       GHFPE  I P   +
+Sbjct  16   MGFTELKTWLRHRHPMVYLDRVLDYE-PGVQIKTLMAVSGQTDALAGHFPERAIYPASHL  74
+
+Query  62   IEAMAQAAGILGFKMLDVKPADGTLYYFVGSDKLRFRQPVLPGDQLQLHAKFISVKRSIW  121
+            ++A++Q+A IL F++   + A G     VGS K RF +PV+PGD +       S++   +
+Sbjct  75   MQAISQSAIIL-FQLSTSRLA-GDEMTLVGSIKSRFTRPVVPGDLVIFQLDCESLRPDFF  132
+
+Query  122  KFDCHATVDDKPV  134
+             F C ATVD + V
+Sbjct  133  TFSCRATVDGRSV  145
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.144    0.445    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 591361155
+
+
+Query= g222.t1
+
+Length=151
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG052301(gb|WP_011179437.1) (fabZ) 3-hydroxyacyl-ACP dehydratase...  140     2e-43
+VFG052300(gb|WP_011180554.1) (fabZ) 3-hydroxyacyl-ACP dehydratase...  139     6e-43
+VFG052302(gb|WP_012231508.1) (fabZ) 3-hydroxyacyl-ACP dehydratase...  135     1e-41
+VFG011402(gb|WP_004688426) (fabZ) (3R)-hydroxymyristoyl ACP dehyd...  135     2e-41
+VFG052299(gb|WP_005766761.1) (fabZ) 3-hydroxyacyl-ACP dehydratase...  135     3e-41
+VFG011400(gb|WP_002964280) (fabZ) (3R)-hydroxymyristoyl ACP dehyd...  134     4e-41
+VFG011399(gb|WP_004683864) (fabZ) (3R)-hydroxymyristoyl ACP dehyd...  134     4e-41
+VFG005772(gb|WP_000164166) (cylZ) 3R-hydroxymyristoyl ACP dehydra...  100     8e-28
+VFG015865(gb|WP_011105118) (cfa2) coronafacic acid dehydratase [P...  81.3    4e-20
+
+
+>VFG052301(gb|WP_011179437.1) (fabZ) 3-hydroxyacyl-ACP dehydratase 
+FabZ [LPS (VF0370) - Immune modulation (VFC0258)] [Bartonella 
+quintana str. Toulouse]
+Length=155
+
+ Score = 140 bits (353),  Expect = 2e-43, Method: Compositional matrix adjust.
+ Identities = 64/140 (46%), Positives = 94/140 (67%), Gaps = 1/140 (1%)
+
+Query  2    TTNTHTLQIEEILELLPHRFPFLLVDRVLDFEEGRFLRAVKNVSVNEPFFQGHFPGKPIL  61
+            T +   + IEE+L +LPHR+PFLL+DR+++ +  +    +KN+++NEP F GHFP KP++
+Sbjct  7    TKSLEAVDIEELLSILPHRYPFLLIDRIVEIDGEQQAIGIKNITINEPHFMGHFPAKPVM  66
+
+Query  62   PGVLILEAMAQATGILAFKSVGKLEPGELYYFAGIDEARFKRPVVPGDQMIMEVTFEKTR  121
+            PGVLILEAMAQ  G ++   +G  +   L Y   +D A+F++PV+PGDQ+ + V   K R
+Sbjct  67   PGVLILEAMAQTAGAISLLRLGNKQTN-LVYLMTVDNAKFRKPVIPGDQLKIHVRLLKKR  125
+
+Query  122  RGLTRFKGVALVDGKVVCEA  141
+             G+ RF  VA V+G  V EA
+Sbjct  126  SGMRRFSCVAEVEGVRVAEA  145
+
+
+>VFG052300(gb|WP_011180554.1) (fabZ) 3-hydroxyacyl-ACP dehydratase 
+FabZ [LPS (VF0370) - Immune modulation (VFC0258)] [Bartonella 
+henselae str. Houston-1]
+Length=155
+
+ Score = 139 bits (350),  Expect = 6e-43, Method: Compositional matrix adjust.
+ Identities = 64/140 (46%), Positives = 94/140 (67%), Gaps = 1/140 (1%)
+
+Query  2    TTNTHTLQIEEILELLPHRFPFLLVDRVLDFEEGRFLRAVKNVSVNEPFFQGHFPGKPIL  61
+            T +  TL IE++L +LPHR+PFLL+DR+++ +  +    +KN+++NEP F GHFP KP++
+Sbjct  7    TRSLETLDIEKLLSILPHRYPFLLIDRIVEIDGEQEAIGIKNITINEPHFVGHFPAKPVM  66
+
+Query  62   PGVLILEAMAQATGILAFKSVGKLEPGELYYFAGIDEARFKRPVVPGDQMIMEVTFEKTR  121
+            PGVLILEAMAQ  G ++   +G  +   L Y   +D A+F++PV+PGDQ+ + V   K R
+Sbjct  67   PGVLILEAMAQTAGAISLLRLGNKQTN-LVYLMTVDNAKFRKPVIPGDQLKIHVRLLKKR  125
+
+Query  122  RGLTRFKGVALVDGKVVCEA  141
+             G+ RF  +A V G  V EA
+Sbjct  126  SGMRRFSCIAEVKGVRVAEA  145
+
+
+>VFG052302(gb|WP_012231508.1) (fabZ) 3-hydroxyacyl-ACP dehydratase 
+FabZ [LPS (VF0370) - Immune modulation (VFC0258)] [Bartonella 
+tribocorum CIP 105476]
+Length=155
+
+ Score = 135 bits (341),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 62/135 (46%), Positives = 92/135 (68%), Gaps = 1/135 (1%)
+
+Query  7    TLQIEEILELLPHRFPFLLVDRVLDFEEGRFLRAVKNVSVNEPFFQGHFPGKPILPGVLI  66
+             + IE++L +LPHR+PFLL+DR+++ +  +    +KN+++NEP F GHFP KP++PGVLI
+Sbjct  12   AVDIEKLLSILPHRYPFLLIDRIVNIDGEQEAIGIKNITINEPHFTGHFPTKPVMPGVLI  71
+
+Query  67   LEAMAQATGILAFKSVGKLEPGELYYFAGIDEARFKRPVVPGDQMIMEVTFEKTRRGLTR  126
+            LEAMAQ  G +A  ++G  +   L Y   +D A+F++PV+PGDQ+ + V   K R G+ R
+Sbjct  72   LEAMAQTAGAIALLNLGN-KRTNLVYLMTVDNAKFRKPVMPGDQLKIHVQLLKKRSGMRR  130
+
+Query  127  FKGVALVDGKVVCEA  141
+            F  VA V+   V EA
+Sbjct  131  FSCVAKVENVRVAEA  145
+
+
+>VFG011402(gb|WP_004688426) (fabZ) (3R)-hydroxymyristoyl ACP dehydratase 
+[LPS (VF0367) - Immune modulation (VFC0258)] [Brucella 
+suis 1330]
+Length=157
+
+ Score = 135 bits (340),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 64/139 (46%), Positives = 91/139 (65%), Gaps = 1/139 (1%)
+
+Query  3    TNTHTLQIEEILELLPHRFPFLLVDRVLDFEEGRFLRAVKNVSVNEPFFQGHFPGKPILP  62
+            T      I+ +L +LPHR+PFLL+DR++D +       +KNV++NEP F GHFP  PI+P
+Sbjct  7    TKLEAADIQALLAVLPHRYPFLLIDRIVDIDGDVSATGIKNVTINEPHFTGHFPENPIMP  66
+
+Query  63   GVLILEAMAQATGILAFKSVGKLEPGELYYFAGIDEARFKRPVVPGDQMIMEVTFEKTRR  122
+            GVLI+EAMAQ  G ++        PG + YF  ID A+F+RPVVPGD++++ V   K R 
+Sbjct  67   GVLIVEAMAQTAGAISLLQRKTGRPG-VVYFMTIDNAKFRRPVVPGDRLLLHVKKIKQRA  125
+
+Query  123  GLTRFKGVALVDGKVVCEA  141
+             +++++ VA VDG  V EA
+Sbjct  126  NISKYECVAEVDGVKVAEA  144
+
+
+>VFG052299(gb|WP_005766761.1) (fabZ) 3-hydroxyacyl-ACP dehydratase 
+FabZ [LPS (VF0370) - Immune modulation (VFC0258)] [Bartonella 
+bacilliformis KC583]
+Length=154
+
+ Score = 135 bits (339),  Expect = 3e-41, Method: Compositional matrix adjust.
+ Identities = 65/140 (46%), Positives = 94/140 (67%), Gaps = 1/140 (1%)
+
+Query  4    NTHTLQIEEILELLPHRFPFLLVDRVLDFEEGRFLRAVKNVSVNEPFFQGHFPGKPILPG  63
+            N   + I ++L +LPHR+PFLL+DR+++ +  R    +KNV+VNEP F GHFP  P++PG
+Sbjct  9    NLEAIDIVKLLSVLPHRYPFLLIDRIIEIDGDRKAIGIKNVTVNEPHFVGHFPENPVMPG  68
+
+Query  64   VLILEAMAQATGILAFKSVGKLEPGELYYFAGIDEARFKRPVVPGDQMIMEVTFEKTRRG  123
+            VLILEAMAQ  G ++  ++G+ +  +L Y   ID A+F++PVVPGDQM + V   K R  
+Sbjct  69   VLILEAMAQTAGAISLLALGRGKE-DLVYLMTIDNAKFRKPVVPGDQMRIHVQLLKKRSE  127
+
+Query  124  LTRFKGVALVDGKVVCEATM  143
+            + RF  +A V+G  V EA +
+Sbjct  128  VRRFLCIAEVEGTRVSEAEI  147
+
+
+>VFG011400(gb|WP_002964280) (fabZ) (3R)-hydroxymyristoyl ACP dehydratase 
+[LPS (VF0367) - Immune modulation (VFC0258)] [Brucella 
+melitensis biovar Abortus 2308]
+Length=157
+
+ Score = 134 bits (338),  Expect = 4e-41, Method: Compositional matrix adjust.
+ Identities = 64/139 (46%), Positives = 91/139 (65%), Gaps = 1/139 (1%)
+
+Query  3    TNTHTLQIEEILELLPHRFPFLLVDRVLDFEEGRFLRAVKNVSVNEPFFQGHFPGKPILP  62
+            T      I+ +L +LPHR+PFLL+DR++D +       +KNV++NEP F GHFP  PI+P
+Sbjct  7    TKLEAADIQALLAVLPHRYPFLLIDRIVDIDGDVSATGIKNVTINEPHFTGHFPENPIMP  66
+
+Query  63   GVLILEAMAQATGILAFKSVGKLEPGELYYFAGIDEARFKRPVVPGDQMIMEVTFEKTRR  122
+            GVLI+EAMAQ  G ++        PG + YF  ID A+F+RPVVPGD++++ V   K R 
+Sbjct  67   GVLIVEAMAQTAGAISLLQRKTGRPG-VVYFMTIDNAKFRRPVVPGDRLLLYVKKIKQRA  125
+
+Query  123  GLTRFKGVALVDGKVVCEA  141
+             +++++ VA VDG  V EA
+Sbjct  126  NISKYECVAEVDGVKVAEA  144
+
+
+>VFG011399(gb|WP_004683864) (fabZ) (3R)-hydroxymyristoyl ACP dehydratase 
+[LPS (VF0367) - Immune modulation (VFC0258)] [Brucella 
+melitensis bv. 1 str. 16M]
+Length=157
+
+ Score = 134 bits (338),  Expect = 4e-41, Method: Compositional matrix adjust.
+ Identities = 64/139 (46%), Positives = 91/139 (65%), Gaps = 1/139 (1%)
+
+Query  3    TNTHTLQIEEILELLPHRFPFLLVDRVLDFEEGRFLRAVKNVSVNEPFFQGHFPGKPILP  62
+            T      I+ +L +LPHR+PFLL+DR++D +       +KNV++NEP F GHFP  PI+P
+Sbjct  7    TKLEAADIQALLAVLPHRYPFLLIDRIVDIDGDVSATGIKNVTINEPHFTGHFPENPIMP  66
+
+Query  63   GVLILEAMAQATGILAFKSVGKLEPGELYYFAGIDEARFKRPVVPGDQMIMEVTFEKTRR  122
+            GVLI+EAMAQ  G ++        PG + YF  ID A+F+RPVVPGD++++ V   K R 
+Sbjct  67   GVLIVEAMAQTAGAISLLQRKTGRPG-VVYFMTIDSAKFRRPVVPGDRLLLYVKKIKQRA  125
+
+Query  123  GLTRFKGVALVDGKVVCEA  141
+             +++++ VA VDG  V EA
+Sbjct  126  NISKYECVAEVDGVKVAEA  144
+
+
+>VFG005772(gb|WP_000164166) (cylZ) 3R-hydroxymyristoyl ACP dehydratase 
+CylZ [Beta-haemolysin/cytolysin (VF0279) - Exotoxin 
+(VFC0235)] [Streptococcus agalactiae NEM316]
+Length=158
+
+ Score = 100 bits (250),  Expect = 8e-28, Method: Compositional matrix adjust.
+ Identities = 48/116 (41%), Positives = 76/116 (66%), Gaps = 13/116 (11%)
+
+Query  8    LQIEEILELLPHRFPFLLVDRVLDFEEGRFLRAVKNVSVNEPFFQGHFPGKPILPGVLIL  67
+            L  EEI+++LPHR+PFL+VDRV  +++G  +   KN+++NEP+FQGHFP +PI+PGVL++
+Sbjct  4    LSSEEIIKMLPHRYPFLMVDRVQSYKKG-IIECRKNITINEPYFQGHFPQRPIVPGVLMI  62
+
+Query  68   EAMAQATGIL--------AFKSVGKLEPGELY----YFAGIDEARFKRPVVPGDQM  111
+            E  AQ+  +L        +  S+ +L   ++     Y A +   +FK+ V PGDQ+
+Sbjct  63   EMAAQSAALLYILDALDGSLPSLDELTAEKIAEKVGYLASVKNFKFKKIVTPGDQL  118
+
+
+>VFG015865(gb|WP_011105118) (cfa2) coronafacic acid dehydratase 
+[Phytotoxin coronatine (VF0916) - Exotoxin (VFC0235)] [Pseudomonas 
+syringae pv. tomato str. DC3000]
+Length=165
+
+ Score = 81.3 bits (199),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 47/132 (36%), Positives = 70/132 (53%), Gaps = 1/132 (1%)
+
+Query  7    TLQIEEILELLPHRFPFLLVDRVLDFEEGRFLRAVKNVSVNEPFFQGHFPGKPILPGVLI  66
+            T+   E+   L HR P + +DRVLD+E G  ++ +  VS       GHFP + I P   +
+Sbjct  15   TMGFTELKTWLRHRHPMVYLDRVLDYEPGVQIKTLMAVSGQTDALAGHFPERAIYPASHL  74
+
+Query  67   LEAMAQATGILAFKSVGKLEPGELYYFAGIDEARFKRPVVPGDQMIMEVTFEKTRRGLTR  126
+            ++A++Q+  IL   S  +L   E+     I ++RF RPVVPGD +I ++  E  R     
+Sbjct  75   MQAISQSAIILFQLSTSRLAGDEMTLVGSI-KSRFTRPVVPGDLVIFQLDCESLRPDFFT  133
+
+Query  127  FKGVALVDGKVV  138
+            F   A VDG+ V
+Sbjct  134  FSCRATVDGRSV  145
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.142    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 645121260
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

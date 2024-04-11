@@ -1,0 +1,94 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2798.t1
+
+Length=629
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5403788193
+
+
+Query= g3000.t1
+
+Length=338
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG041499(gb|WP_004155355) (EAMY_RS19935) sigma 54-interacting tr...  49.3    1e-06
+
+
+>VFG041499(gb|WP_004155355) (EAMY_RS19935) sigma 54-interacting 
+transcriptional regulator [T3SS (VF1270) - Effector delivery 
+system (VFC0086)] [Erwinia amylovora CFBP1430]
+Length=324
+
+ Score = 49.3 bits (116),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 52/180 (29%), Positives = 80/180 (44%), Gaps = 29/180 (16%)
+
+Query  20   LALCLAAVDPAIGGVLIEGPRGMAKSTLARGVAEL------LPAGEFVTLPLGASEERIV  73
+            LA  +  V P    +++EG  G  K TLAR + +L      L A     +P   +E  + 
+Sbjct  34   LAEMIKTVAPLKIDLVLEGETGTGKDTLARKIHQLSGCRGKLVAVNCAAIPETLAESELF  93
+
+Query  74   GSLDLDAALGEGRARFSPGVLAKADGGVLYVDEVNLLPDHLVDLLLDVAASGVNLVERDG  133
+            G ++  A  G G+AR   G +  AD G+L++DE++ +P       L + A  + ++E  G
+Sbjct  94   G-INNGAYTGAGQAR--AGYVEAADNGILFLDEIDSMP-------LSLQAKMLRVLENRG  143
+
+Query  134  ISHRHPARF------VLIGTMNP-----EEGELRPQLLDRFGLNVRLDTQPPPAERAEII  182
+            +      RF      V++ T  P     E G  R  L  R    V +  QP  A R E+I
+Sbjct  144  VERLGGTRFTPVNMRVIVATQTPLLTLVERGSFRRDLYFRLN-TVSIQLQPLRA-RIEVI  201
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2481911637
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,336 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g977.t1
+
+Length=156
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG019431(gb|WP_000846460) (napA) neutrophil activating protein N...  74.7    9e-18
+VFG000307(gb|WP_000846461) (napA) neutrophil activating protein N...  73.9    2e-17
+VFG006374(gb|WP_011578199) (napA) neutrophil activating protein N...  73.6    3e-17
+VFG019429(gb|WP_000846455) (napA) neutrophil activating protein N...  72.4    8e-17
+VFG006373(gb|WP_000846467) (napA) neutrophil activating protein N...  72.0    1e-16
+VFG006375(gb|WP_041308928) (napA) neutrophil activating protein N...  70.9    3e-16
+VFG006371(gb|WP_000846480) (napA) neutrophil activating protein N...  70.9    3e-16
+
+
+>VFG019431(gb|WP_000846460) (napA) neutrophil activating protein 
+NapA [HP-NAP (VF0052) - Immune modulation (VFC0258)] [Helicobacter 
+pylori Shi470]
+Length=144
+
+ Score = 74.7 bits (182),  Expect = 9e-18, Method: Compositional matrix adjust.
+ Identities = 43/140 (31%), Positives = 74/140 (53%), Gaps = 1/140 (1%)
+
+Query  17   EGLSRLLADTYTLYLKTHNFHWNVTGPMFNTLHLMFEGQYTELAVAVDDIAERIRALGFP  76
+            E L  L AD   L++K HNFHWNV G  F  +H   E  Y E A   DD+AERI  LG  
+Sbjct  5    EILKHLQADAIVLFMKVHNFHWNVKGTDFFNVHKATEEIYEEFADMFDDLAERIVQLGHH  64
+
+Query  77   APGTYAAYARLSSIKEEEGVP-EAEEMIRQLVQGQEAVVRTARSIFPLLDKVSDEPTADL  135
+               T +   +L+ +KEE      ++++ +++++  + + +  +++    +K  D+ T   
+Sbjct  65   PLVTLSEAIKLTRVKEETKTSFHSKDIFKEILEDYKHLEKEFKTLSNTAEKEGDKVTVTY  124
+
+Query  136  LTQRMQVHEKTAWMLRSLLA  155
+               ++   +K+ WML++ LA
+Sbjct  125  ADDQLAKLQKSIWMLQAHLA  144
+
+
+>VFG000307(gb|WP_000846461) (napA) neutrophil activating protein 
+NapA [HP-NAP (VF0052) - Immune modulation (VFC0258)] [Helicobacter 
+pylori 26695]
+Length=144
+
+ Score = 73.9 bits (180),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 43/140 (31%), Positives = 73/140 (52%), Gaps = 1/140 (1%)
+
+Query  17   EGLSRLLADTYTLYLKTHNFHWNVTGPMFNTLHLMFEGQYTELAVAVDDIAERIRALGFP  76
+            E L  L AD   L++K HNFHWNV G  F  +H   E  Y E A   DD+AERI  LG  
+Sbjct  5    EILKHLQADAIVLFMKVHNFHWNVKGTDFFNVHKATEEIYEEFADMFDDLAERIVQLGHH  64
+
+Query  77   APGTYAAYARLSSIKEEEGVP-EAEEMIRQLVQGQEAVVRTARSIFPLLDKVSDEPTADL  135
+               T +   +L+ +KEE      ++++ +++++  + + +  + +    +K  D+ T   
+Sbjct  65   PLVTLSEAIKLTRVKEETKTSFHSKDIFKEILEDYKYLEKEFKELSNTAEKEGDKVTVTY  124
+
+Query  136  LTQRMQVHEKTAWMLRSLLA  155
+               ++   +K+ WML++ LA
+Sbjct  125  ADDQLAKLQKSIWMLQAHLA  144
+
+
+>VFG006374(gb|WP_011578199) (napA) neutrophil activating protein 
+NapA [HP-NAP (VF0052) - Immune modulation (VFC0258)] [Helicobacter 
+acinonychis str. Sheeba]
+Length=144
+
+ Score = 73.6 bits (179),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 44/140 (31%), Positives = 72/140 (51%), Gaps = 1/140 (1%)
+
+Query  17   EGLSRLLADTYTLYLKTHNFHWNVTGPMFNTLHLMFEGQYTELAVAVDDIAERIRALGFP  76
+            E L  L AD   L++K HNFHWNV G  F  +H   E  Y E A   DD+AERI  LG  
+Sbjct  5    EILKHLQADAIVLFMKVHNFHWNVKGTDFFNVHKATEEIYEEFAGMFDDLAERIVQLGHH  64
+
+Query  77   APGTYAAYARLSSIKEEEGVP-EAEEMIRQLVQGQEAVVRTARSIFPLLDKVSDEPTADL  135
+               T +   +L+ IKEE      ++++ ++++   + + +  +++    +K  D+ T   
+Sbjct  65   PLVTLSEALKLTRIKEETKTSFHSKDIFKEILADYKHLEKEFKTLSDTAEKEGDKVTVTY  124
+
+Query  136  LTQRMQVHEKTAWMLRSLLA  155
+               ++   +K+ WML + LA
+Sbjct  125  ADDQLAKLQKSIWMLEAHLA  144
+
+
+>VFG019429(gb|WP_000846455) (napA) neutrophil activating protein 
+NapA [HP-NAP (VF0052) - Immune modulation (VFC0258)] [Helicobacter 
+pylori G27]
+Length=144
+
+ Score = 72.4 bits (176),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 43/140 (31%), Positives = 71/140 (51%), Gaps = 1/140 (1%)
+
+Query  17   EGLSRLLADTYTLYLKTHNFHWNVTGPMFNTLHLMFEGQYTELAVAVDDIAERIRALGFP  76
+            E L  L AD   L++K HNFHWNV G  F  +H   E  Y E A   DD+AERI  LG  
+Sbjct  5    EILKHLQADAIVLFMKVHNFHWNVKGTDFFNVHKATEEIYEEFADMFDDLAERIAQLGHH  64
+
+Query  77   APGTYAAYARLSSIKEEEGVP-EAEEMIRQLVQGQEAVVRTARSIFPLLDKVSDEPTADL  135
+               T +   +L+ +KEE      ++++ ++++   + + +  + +    +K  D+ T   
+Sbjct  65   PLVTLSEALKLTRVKEETKTSFHSKDIFKEILGDYKHLEKEFKELSNTAEKEGDKVTVTY  124
+
+Query  136  LTQRMQVHEKTAWMLRSLLA  155
+               ++   +K+ WML + LA
+Sbjct  125  ADDQLAKLQKSIWMLEAHLA  144
+
+
+>VFG006373(gb|WP_000846467) (napA) neutrophil activating protein 
+NapA [HP-NAP (VF0052) - Immune modulation (VFC0258)] [Helicobacter 
+pylori HPAG1]
+Length=144
+
+ Score = 72.0 bits (175),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 43/140 (31%), Positives = 71/140 (51%), Gaps = 1/140 (1%)
+
+Query  17   EGLSRLLADTYTLYLKTHNFHWNVTGPMFNTLHLMFEGQYTELAVAVDDIAERIRALGFP  76
+            E L  L AD   L++K HNFHWNV G  F  +H   E  Y E A   DD+AERI  LG  
+Sbjct  5    EILKHLQADAIVLFMKVHNFHWNVKGTDFFNVHKATEEIYEEFADMFDDLAERIVQLGHH  64
+
+Query  77   APGTYAAYARLSSIKEEEGVP-EAEEMIRQLVQGQEAVVRTARSIFPLLDKVSDEPTADL  135
+               T +   +L+ +KEE      ++++ ++++   + + +  + +    +K  D+ T   
+Sbjct  65   PLVTLSEALKLTRVKEETKTSFHSKDIFKEILGDYKHLEKEFKELSNTAEKEGDKVTVTY  124
+
+Query  136  LTQRMQVHEKTAWMLRSLLA  155
+               ++   +K+ WML + LA
+Sbjct  125  ADDQLAKLQKSIWMLEAHLA  144
+
+
+>VFG006375(gb|WP_041308928) (napA) neutrophil activating protein 
+NapA [HP-NAP (VF0052) - Immune modulation (VFC0258)] [Helicobacter 
+hepaticus ATCC 51449]
+Length=145
+
+ Score = 70.9 bits (172),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 41/144 (28%), Positives = 69/144 (48%), Gaps = 1/144 (1%)
+
+Query  13   AAIAEGLSRLLADTYTLYLKTHNFHWNVTGPMFNTLHLMFEGQYTELAVAVDDIAERIRA  72
+            + + + L ++ AD    Y+K HNFHWNV G  F   H   E  Y + A   DD+AER+  
+Sbjct  2    SKVVDNLKQIQADAAVFYVKVHNFHWNVKGMDFYPTHKATEEIYEKYADVFDDVAERVLQ  61
+
+Query  73   LGFPAPGTYAAYARLSSIKEEEGVP-EAEEMIRQLVQGQEAVVRTARSIFPLLDKVSDEP  131
+            +G     T A   + + IKEE      ++E+++ ++   E  ++    +    +K  D  
+Sbjct  62   IGGKPYVTLADMLKAAKIKEESKTSFNSKEVLKAILSDYEYFLKAFEGLSEEAEKAGDNV  121
+
+Query  132  TADLLTQRMQVHEKTAWMLRSLLA  155
+            T      ++   +K  WML++ LA
+Sbjct  122  TQGYADDKVGELQKAIWMLKATLA  145
+
+
+>VFG006371(gb|WP_000846480) (napA) neutrophil activating protein 
+NapA [HP-NAP (VF0052) - Immune modulation (VFC0258)] [Helicobacter 
+pylori J99]
+Length=144
+
+ Score = 70.9 bits (172),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 42/140 (30%), Positives = 71/140 (51%), Gaps = 1/140 (1%)
+
+Query  17   EGLSRLLADTYTLYLKTHNFHWNVTGPMFNTLHLMFEGQYTELAVAVDDIAERIRALGFP  76
+            E L  L AD   L++K HNFHWNV G  F  +H   E  Y   A   DD+AERI  LG  
+Sbjct  5    EILKHLQADAIVLFMKVHNFHWNVKGTDFFNVHKATEEIYEGFADMFDDLAERIVQLGHH  64
+
+Query  77   APGTYAAYARLSSIKEEEGVP-EAEEMIRQLVQGQEAVVRTARSIFPLLDKVSDEPTADL  135
+               T +   +L+ +KEE      ++++ +++++  + + +  + +    +K  D+ T   
+Sbjct  65   PLVTLSEAIKLTRVKEETKTSFHSKDIFKEILEDYKHLEKEFKELSNTAEKEGDKVTVTY  124
+
+Query  136  LTQRMQVHEKTAWMLRSLLA  155
+               ++   +K+ WML + LA
+Sbjct  125  ADDQLAKLQKSIWMLEAHLA  144
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 686338496
+
+
+Query= g765.t1
+
+Length=167
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG006371(gb|WP_000846480) (napA) neutrophil activating protein N...  47.4    3e-07
+VFG000307(gb|WP_000846461) (napA) neutrophil activating protein N...  46.6    5e-07
+VFG006373(gb|WP_000846467) (napA) neutrophil activating protein N...  45.8    1e-06
+VFG019431(gb|WP_000846460) (napA) neutrophil activating protein N...  44.7    3e-06
+VFG019429(gb|WP_000846455) (napA) neutrophil activating protein N...  43.9    5e-06
+
+
+>VFG006371(gb|WP_000846480) (napA) neutrophil activating protein 
+NapA [HP-NAP (VF0052) - Immune modulation (VFC0258)] [Helicobacter 
+pylori J99]
+Length=144
+
+ Score = 47.4 bits (111),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 37/141 (26%), Positives = 60/141 (43%), Gaps = 3/141 (2%)
+
+Query  29   TVELLNRQVIQFIDLSLITKQAHWNMRGANFIAVHEMLDGFRTALTDHLDTMAERAVQLG  88
+            T E+L       I L +     HWN++G +F  VH+  +       D  D +AER VQLG
+Sbjct  3    TFEILKHLQADAIVLFMKVHNFHWNVKGTDFFNVHKATEEIYEGFADMFDDLAERIVQLG  62
+
+Query  89   GVALGTTQVINSKTPLKSYPLDIHNVQDHLKELADRYAVVANDVRKAIGEAKDEDTADIF  148
+               L T       T +K       + +D  KE+ + Y  +  + ++    A+ E      
+Sbjct  63   HHPLVTLSEAIKLTRVKEETKTSFHSKDIFKEILEDYKHLEKEFKELSNTAEKEGDKVTV  122
+
+Query  149  TAASRDLDKF---LWFIESNI  166
+            T A   L K    +W +E+++
+Sbjct  123  TYADDQLAKLQKSIWMLEAHL  143
+
+
+>VFG000307(gb|WP_000846461) (napA) neutrophil activating protein 
+NapA [HP-NAP (VF0052) - Immune modulation (VFC0258)] [Helicobacter 
+pylori 26695]
+Length=144
+
+ Score = 46.6 bits (109),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 36/141 (26%), Positives = 60/141 (43%), Gaps = 3/141 (2%)
+
+Query  29   TVELLNRQVIQFIDLSLITKQAHWNMRGANFIAVHEMLDGFRTALTDHLDTMAERAVQLG  88
+            T E+L       I L +     HWN++G +F  VH+  +       D  D +AER VQLG
+Sbjct  3    TFEILKHLQADAIVLFMKVHNFHWNVKGTDFFNVHKATEEIYEEFADMFDDLAERIVQLG  62
+
+Query  89   GVALGTTQVINSKTPLKSYPLDIHNVQDHLKELADRYAVVANDVRKAIGEAKDEDTADIF  148
+               L T       T +K       + +D  KE+ + Y  +  + ++    A+ E      
+Sbjct  63   HHPLVTLSEAIKLTRVKEETKTSFHSKDIFKEILEDYKYLEKEFKELSNTAEKEGDKVTV  122
+
+Query  149  TAASRDLDKF---LWFIESNI  166
+            T A   L K    +W +++++
+Sbjct  123  TYADDQLAKLQKSIWMLQAHL  143
+
+
+>VFG006373(gb|WP_000846467) (napA) neutrophil activating protein 
+NapA [HP-NAP (VF0052) - Immune modulation (VFC0258)] [Helicobacter 
+pylori HPAG1]
+Length=144
+
+ Score = 45.8 bits (107),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 37/141 (26%), Positives = 59/141 (42%), Gaps = 3/141 (2%)
+
+Query  29   TVELLNRQVIQFIDLSLITKQAHWNMRGANFIAVHEMLDGFRTALTDHLDTMAERAVQLG  88
+            T E+L       I L +     HWN++G +F  VH+  +       D  D +AER VQLG
+Sbjct  3    TFEILKHLQADAIVLFMKVHNFHWNVKGTDFFNVHKATEEIYEEFADMFDDLAERIVQLG  62
+
+Query  89   GVALGTTQVINSKTPLKSYPLDIHNVQDHLKELADRYAVVANDVRKAIGEAKDEDTADIF  148
+               L T       T +K       + +D  KE+   Y  +  + ++    A+ E      
+Sbjct  63   HHPLVTLSEALKLTRVKEETKTSFHSKDIFKEILGDYKHLEKEFKELSNTAEKEGDKVTV  122
+
+Query  149  TAASRDLDKF---LWFIESNI  166
+            T A   L K    +W +E+++
+Sbjct  123  TYADDQLAKLQKSIWMLEAHL  143
+
+
+>VFG019431(gb|WP_000846460) (napA) neutrophil activating protein 
+NapA [HP-NAP (VF0052) - Immune modulation (VFC0258)] [Helicobacter 
+pylori Shi470]
+Length=144
+
+ Score = 44.7 bits (104),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 36/141 (26%), Positives = 59/141 (42%), Gaps = 3/141 (2%)
+
+Query  29   TVELLNRQVIQFIDLSLITKQAHWNMRGANFIAVHEMLDGFRTALTDHLDTMAERAVQLG  88
+            T E+L       I L +     HWN++G +F  VH+  +       D  D +AER VQLG
+Sbjct  3    TFEILKHLQADAIVLFMKVHNFHWNVKGTDFFNVHKATEEIYEEFADMFDDLAERIVQLG  62
+
+Query  89   GVALGTTQVINSKTPLKSYPLDIHNVQDHLKELADRYAVVANDVRKAIGEAKDEDTADIF  148
+               L T       T +K       + +D  KE+ + Y  +  + +     A+ E      
+Sbjct  63   HHPLVTLSEAIKLTRVKEETKTSFHSKDIFKEILEDYKHLEKEFKTLSNTAEKEGDKVTV  122
+
+Query  149  TAASRDLDKF---LWFIESNI  166
+            T A   L K    +W +++++
+Sbjct  123  TYADDQLAKLQKSIWMLQAHL  143
+
+
+>VFG019429(gb|WP_000846455) (napA) neutrophil activating protein 
+NapA [HP-NAP (VF0052) - Immune modulation (VFC0258)] [Helicobacter 
+pylori G27]
+Length=144
+
+ Score = 43.9 bits (102),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 36/141 (26%), Positives = 58/141 (41%), Gaps = 3/141 (2%)
+
+Query  29   TVELLNRQVIQFIDLSLITKQAHWNMRGANFIAVHEMLDGFRTALTDHLDTMAERAVQLG  88
+            T E+L       I L +     HWN++G +F  VH+  +       D  D +AER  QLG
+Sbjct  3    TFEILKHLQADAIVLFMKVHNFHWNVKGTDFFNVHKATEEIYEEFADMFDDLAERIAQLG  62
+
+Query  89   GVALGTTQVINSKTPLKSYPLDIHNVQDHLKELADRYAVVANDVRKAIGEAKDEDTADIF  148
+               L T       T +K       + +D  KE+   Y  +  + ++    A+ E      
+Sbjct  63   HHPLVTLSEALKLTRVKEETKTSFHSKDIFKEILGDYKHLEKEFKELSNTAEKEGDKVTV  122
+
+Query  149  TAASRDLDKF---LWFIESNI  166
+            T A   L K    +W +E+++
+Sbjct  123  TYADDQLAKLQKSIWMLEAHL  143
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.131    0.363    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 791508218
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

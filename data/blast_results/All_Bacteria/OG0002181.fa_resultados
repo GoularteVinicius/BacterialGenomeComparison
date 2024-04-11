@@ -1,0 +1,260 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1509.t1
+
+Length=103
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG029759(gb|WP_041307849) (ecf) RNA polymerase sigma24 factor [G...  43.5    4e-06
+
+
+>VFG029759(gb|WP_041307849) (ecf) RNA polymerase sigma24 factor 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+vanbaalenii PYR-1]
+Length=384
+
+ Score = 43.5 bits (101),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 22/56 (39%), Positives = 33/56 (59%), Gaps = 0/56 (0%)
+
+Query  26   DKEWWIMFACAHPALDRQSLLALTLRLVSGVGLRRDRSALLQTDTVVGQRITGVKK  81
+            D   ++ F CAHP+L   S +ALTLR V G+  R+   A L  ++ + QRI+  K+
+Sbjct  92   DDTLYLYFLCAHPSLTPSSAVALTLRAVGGLTTRQIAQAYLVPESTMAQRISRAKR  147
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.132    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 325603735
+
+
+Query= g1369.t1
+
+Length=414
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG029755(gb|WP_011726919) (ecf) RNA polymerase sigma24 factor [G...  216     2e-66
+VFG029759(gb|WP_041307849) (ecf) RNA polymerase sigma24 factor [G...  211     1e-64
+VFG029756(gb|WP_011857546) (ecf) RNA polymerase sigma24 factor [G...  210     5e-64
+VFG029757(gb|WP_011562666) (ecf) RNA polymerase sigma24 factor [G...  209     7e-64
+VFG029760(gb|WP_015310128) (ecf) RNA polymerase sigma factor [GPL...  207     8e-63
+
+
+>VFG029755(gb|WP_011726919) (ecf) RNA polymerase sigma24 factor 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+smegmatis str. MC2 155]
+Length=391
+
+ Score = 216 bits (550),  Expect = 2e-66, Method: Compositional matrix adjust.
+ Identities = 170/389 (44%), Positives = 213/389 (55%), Gaps = 37/389 (10%)
+
+Query  23   VLATLIRLLGDFELAEEALHDAFIAAVEQWPRDGIPRNPRAWLVSAGRFKAIDNLRRRAR  82
+            VLA L+R   DF  AE+A+ +A I A+E W     P +P+AWL++    + ID  R    
+Sbjct  13   VLAALVRRGVDFATAEDAVQEALIKALETWSTGRAPDDPKAWLITTAWRRFIDVAR----  68
+
+Query  83   FDASQRLLAEQLEEQAEAPAEEGDAVE-DDRLRLIFTCCHPALTPEAQVALTLREVCDLR  141
+              A     + +L    E P  +G  V  DD L+L F C HP+L+P + VALTLR V  L 
+Sbjct  69   --AEAARRSRELRTAVEDP--QGPTVPVDDTLQLYFLCAHPSLSPASAVALTLRAVGGLT  124
+
+Query  142  TEEIARAFLAAPSAIAQRIVRAKNKIREARIPYQVPTLEELPERLGN---VLQVIYLVFN  198
+            T +IARA+L   S +AQRI RAK  + E R+            RLGN   VL+V+YLVFN
+Sbjct  125  TRQIARAYLVPESTMAQRISRAKRTVSEVRL-----------NRLGNLGTVLRVLYLVFN  173
+
+Query  199  EGYSASTGASLTRADLSGEAIRVGRLLVELLPDPEALGLLALMLLHDSRRQARISASGEL  258
+            EGY+          DLS EAIR+ R L      PE  GLLAL LLHD+RR AR  A G L
+Sbjct  174  EGYTGDV-------DLSAEAIRLARQLAAATDAPEVAGLLALFLLHDARRPARTRADGTL  226
+
+Query  259  VRLDEQDRALWDRGLIVEGLGLVERALASRRVGPYTLQAAIVAVHAQAPRAEDTDWARIV  318
+            V L EQDR LW   LI EG+ +++ ALA+ R+G Y  QAAI A+HA A  A++TDW +IV
+Sbjct  227  VPLAEQDRTLWRHDLITEGVAVLQAALAADRLGEYQAQAAIAALHADARTADETDWVQIV  286
+
+Query  319  ALYDALLYLAPSPVVELNRAVALAMRDGVEVGLAVVDALLARGELADYHLAHSARADFCR  378
+              YD L+ L  SPV  LNRAVA+   DG   GLA      A  EL      H+A A +  
+Sbjct  287  EWYDELVALTDSPVARLNRAVAVGEADGPRAGLA------ALAELDPALPRHTASAAYLH  340
+
+Query  379  -RLGRRREAREAYRAALALARQEPERRFI  406
+             R G    A + Y  A   A   PER  +
+Sbjct  341  ERAGDIARAAQLYVEAADQAHTVPERNHL  369
+
+
+>VFG029759(gb|WP_041307849) (ecf) RNA polymerase sigma24 factor 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+vanbaalenii PYR-1]
+Length=384
+
+ Score = 211 bits (538),  Expect = 1e-64, Method: Compositional matrix adjust.
+ Identities = 157/354 (44%), Positives = 205/354 (58%), Gaps = 28/354 (8%)
+
+Query  23   VLATLIRLLGDFELAEEALHDAFIAAVEQWPRDGIPRNPRAWLVSAGRFKAIDNLRRRAR  82
+            VLA L+    DF  AE+A+ +A I AV+ WPR   P +PR WL++    + +D +R    
+Sbjct  13   VLAALVHRGADFATAEDAVQEALIRAVQTWPRRH-PDDPRGWLITTAWRRFVDLVR----  67
+
+Query  83   FDASQRLLA-EQLEEQAEAPAEEGDAVEDDRLRLIFTCCHPALTPEAQVALTLREVCDLR  141
+             DA++R    +  +E    PAE  D    D L L F C HP+LTP + VALTLR V  L 
+Sbjct  68   ADAARRDRELKSFDEPPPGPAEHAD----DTLYLYFLCAHPSLTPSSAVALTLRAVGGLT  123
+
+Query  142  TEEIARAFLAAPSAIAQRIVRAKNKIREARIPYQVPTLEELPERLGNVLQVIYLVFNEGY  201
+            T +IA+A+L   S +AQRI RAK  + + R+        + P  +  VL+V+YLVFNEGY
+Sbjct  124  TRQIAQAYLVPESTMAQRISRAKRTVSDVRL--------DRPGDVRTVLRVLYLVFNEGY  175
+
+Query  202  SASTGASLTRADLSGEAIRVGRLLVELLPDPEALGLLALMLLHDSRRQARISASGELVRL  261
+            S          DL+ EAIR+ R L  ++ DPE  GLLAL LLH +RR AR+   G LV L
+Sbjct  176  SGDV-------DLAAEAIRLARQLAAVVDDPEVSGLLALFLLHHARRPARMRGDGSLVPL  228
+
+Query  262  DEQDRALWDRGLIVEGLGLVERALASRRVGPYTLQAAIVAVHAQAPRAEDTDWARIVALY  321
+             EQ+R LW   LI EG+ +++ ALA  R+G Y  QAAI A+HA A  AE+TDW +IV  Y
+Sbjct  229  AEQNRGLWRTDLIAEGVTVLQAALARDRLGEYQAQAAIAALHADAQTAEETDWVQIVEWY  288
+
+Query  322  DALLYLAPSPVVELNRAVALAMRDGVEVG---LAVVDALLARGELADYHLAHSA  372
+            D L+ L  SPVV LNRAVA+   DG   G   LA +D  L R   +  +L   A
+Sbjct  289  DELVRLTDSPVVRLNRAVAVGEADGPRAGLTALANLDPTLPRYTASKAYLCEKA  342
+
+
+>VFG029756(gb|WP_011857546) (ecf) RNA polymerase sigma24 factor 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+sp. JLS]
+Length=388
+
+ Score = 210 bits (534),  Expect = 5e-64, Method: Compositional matrix adjust.
+ Identities = 155/350 (44%), Positives = 203/350 (58%), Gaps = 28/350 (8%)
+
+Query  23   VLATLIRLLGDFELAEEALHDAFIAAVEQWPRDGIPRNPRAWLVSAGRFKAIDNLRRRAR  82
+            VLA L+    DF  AE+A+ +A I AVE WP +  P  P+ WL++    + +D     +R
+Sbjct  18   VLAALVHRGADFATAEDAVQEALIRAVETWP-EHPPDEPKGWLITTAWRRFLD----LSR  72
+
+Query  83   FDASQRLLAEQL-EEQAEAPAEEGDAVEDDRLRLIFTCCHPALTPEAQVALTLREVCDLR  141
+             D ++R   E++ +E    P E  D    D L+L F C HP+LTP + VALTLR V  L 
+Sbjct  73   SDTARRRREERVSDEPPPGPTESAD----DTLQLCFLCAHPSLTPASAVALTLRAVGGLT  128
+
+Query  142  TEEIARAFLAAPSAIAQRIVRAKNKIREARIPYQVPTLEELPERLGNVLQVIYLVFNEGY  201
+            T +IA+A+L   + +AQRI RAK  +   R+        + P  L  V +V+YL+FNEGY
+Sbjct  129  TRQIAQAYLVPEATMAQRISRAKRTVSGVRL--------DSPGDLRTVCRVLYLIFNEGY  180
+
+Query  202  SASTGASLTRADLSGEAIRVGRLLVELLPDPEALGLLALMLLHDSRRQARISASGELVRL  261
+            S          DL+GEAIR+ R L  +  DPE  GLLAL LLH +RR ARI A G LV L
+Sbjct  181  SGDV-------DLAGEAIRLARQLARMTDDPEVAGLLALFLLHHARRPARIRADGSLVPL  233
+
+Query  262  DEQDRALWDRGLIVEGLGLVERALASRRVGPYTLQAAIVAVHAQAPRAEDTDWARIVALY  321
+             +QDR+ W R LI EG+ +++ ALA  R+G Y  QAAI A+HA A   E+TDW +IV  Y
+Sbjct  234  ADQDRSRWRRDLIAEGVTILQAALARDRLGEYQAQAAIAALHADARTVEETDWVQIVEWY  293
+
+Query  322  DALLYLAPSPVVELNRAVALAMRDGVEVGLAV---VDALLARGELADYHL  368
+            D L+ L  SPVV LNRAVA+   DG   GLA    +D  L R   +  HL
+Sbjct  294  DELVRLTDSPVVRLNRAVAVGEADGPRAGLAALAELDPSLPRYTASAAHL  343
+
+
+>VFG029757(gb|WP_011562666) (ecf) RNA polymerase sigma24 factor 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+sp. KMS]
+Length=388
+
+ Score = 209 bits (533),  Expect = 7e-64, Method: Compositional matrix adjust.
+ Identities = 155/350 (44%), Positives = 202/350 (58%), Gaps = 28/350 (8%)
+
+Query  23   VLATLIRLLGDFELAEEALHDAFIAAVEQWPRDGIPRNPRAWLVSAGRFKAIDNLRRRAR  82
+            VLA L+    DF  AE+A+ +A I AVE WP +  P  P+ WL++    + +D     +R
+Sbjct  18   VLAALVHRGADFATAEDAVQEALIRAVETWP-EHPPDEPKGWLITTAWRRFLD----LSR  72
+
+Query  83   FDASQRLLAEQL-EEQAEAPAEEGDAVEDDRLRLIFTCCHPALTPEAQVALTLREVCDLR  141
+             D ++R   E++  E    P E  D    D L+L F C HP+LTP + VALTLR V  L 
+Sbjct  73   SDTARRRREERVSNEPPPGPTESAD----DTLQLCFLCAHPSLTPASAVALTLRAVGGLT  128
+
+Query  142  TEEIARAFLAAPSAIAQRIVRAKNKIREARIPYQVPTLEELPERLGNVLQVIYLVFNEGY  201
+            T +IA+A+L   + +AQRI RAK  +   R+        + P  L  V +V+YL+FNEGY
+Sbjct  129  TRQIAQAYLVPEATMAQRISRAKRTVSGVRL--------DSPGDLRTVCRVLYLIFNEGY  180
+
+Query  202  SASTGASLTRADLSGEAIRVGRLLVELLPDPEALGLLALMLLHDSRRQARISASGELVRL  261
+            S          DL+GEAIR+ R L  +  DPE  GLLAL LLH +RR ARI A G LV L
+Sbjct  181  SGDV-------DLAGEAIRLARQLARMTDDPEVAGLLALFLLHHARRPARIRADGSLVPL  233
+
+Query  262  DEQDRALWDRGLIVEGLGLVERALASRRVGPYTLQAAIVAVHAQAPRAEDTDWARIVALY  321
+             +QDR+ W R LI EG+ +++ ALA  R+G Y  QAAI A+HA A   E+TDW +IV  Y
+Sbjct  234  ADQDRSRWRRDLIAEGVTILQAALARDRLGEYQAQAAIAALHADARTVEETDWVQIVEWY  293
+
+Query  322  DALLYLAPSPVVELNRAVALAMRDGVEVGLAV---VDALLARGELADYHL  368
+            D L+ L  SPVV LNRAVA+   DG   GLA    +D  L R   +  HL
+Sbjct  294  DELVRLTDSPVVRLNRAVAVGEADGPRAGLAALAELDPSLPRYSASAAHL  343
+
+
+>VFG029760(gb|WP_015310128) (ecf) RNA polymerase sigma factor 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+smegmatis JS623]
+Length=390
+
+ Score = 207 bits (526),  Expect = 8e-63, Method: Compositional matrix adjust.
+ Identities = 151/335 (45%), Positives = 200/335 (60%), Gaps = 23/335 (7%)
+
+Query  23   VLATLIRLLGDFELAEEALHDAFIAAVEQWPRDGIPRNPRAWLVSAGRFKAIDNLRRRAR  82
+            VLA L+    DF  AE+A+ +A + AVE WP +  P +P+ WL++    + +D     AR
+Sbjct  18   VLAALVHRGADFATAEDAVQEALLKAVETWP-NQRPDDPKGWLITTAWRRFVD----LAR  72
+
+Query  83   FDASQRLLAEQLEEQAEAPAEEGDAVEDDRLRLIFTCCHPALTPEAQVALTLREVCDLRT  142
+             D+++R    +L    E P    ++V DD L+L F C HP LTP + VALTLR V  L T
+Sbjct  73   SDSARR--DRELRVTDEPPPGPAESV-DDTLQLYFLCAHPNLTPASAVALTLRAVGGLTT  129
+
+Query  143  EEIARAFLAAPSAIAQRIVRAKNKIREARIPYQVPTLEELPERLGNVLQVIYLVFNEGYS  202
+             +IA+A+L   + +AQRI RAK  + + R+        + P  L  VL+V+YLVFNEGYS
+Sbjct  130  RQIAQAYLVPEATMAQRISRAKRIVGDIRL--------DQPGDLRTVLKVLYLVFNEGYS  181
+
+Query  203  ASTGASLTRADLSGEAIRVGRLLVELLPDPEALGLLALMLLHDSRRQARISASGELVRLD  262
+                      DL+ EAIR+ R L     D E  GLLAL LLH +RR AR    G LV L+
+Sbjct  182  GDV-------DLAEEAIRLARQLAATTRDEEVAGLLALFLLHHARRDARTRDDGSLVVLE  234
+
+Query  263  EQDRALWDRGLIVEGLGLVERALASRRVGPYTLQAAIVAVHAQAPRAEDTDWARIVALYD  322
+            +QDR+LW R LI EG+ +++ ALA  R+G Y  QAAI A+HA A  AE+TDW +IV  YD
+Sbjct  235  DQDRSLWRRELIAEGVAVLQAALARDRLGEYQAQAAIAALHADAQTAEETDWVQIVEWYD  294
+
+Query  323  ALLYLAPSPVVELNRAVALAMRDGVEVGLAVVDAL  357
+             L+ L  SPVV LNRAVA+   DG + GLA +  L
+Sbjct  295  ELIRLTDSPVVRLNRAVAVGEADGPQAGLAALGEL  329
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3239449707
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

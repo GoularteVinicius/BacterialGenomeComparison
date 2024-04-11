@@ -1,0 +1,466 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1248.t1
+
+Length=237
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG042389(gb|WP_000012013) (sfaY) regulatory protein SfaY [S fimb...  70.9    1e-14
+VFG048341(gb|WP_032694725) (mrkJ) phosphodiesterase [Type 3 fimbr...  69.7    3e-14
+VFG048343(gb|WP_012540634) (mrkJ) phosphodiesterase [Type 3 fimbr...  65.9    6e-13
+VFG048350(gb|WP_012967268) (mrkJ) phosphodiesterase [Type 3 fimbr...  64.7    2e-12
+VFG048344(gb|YP_005228642) (mrkJ) phosphodiesterase [Type 3 fimbr...  62.8    7e-12
+VFG042568(gb|WP_000012016) (sfaY) transcriptional regulator SfaY ...  63.2    7e-12
+VFG048348(gb|WP_004149658) (mrkJ) phosphodiesterase [Type 3 fimbr...  62.4    1e-11
+
+
+>VFG042389(gb|WP_000012013) (sfaY) regulatory protein SfaY [S 
+fimbriae (VF0222) - Adherence (VFC0001)] [Escherichia coli UTI89]
+Length=246
+
+ Score = 70.9 bits (172),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 47/223 (21%), Positives = 101/223 (45%), Gaps = 4/223 (2%)
+
+Query  15   FLPVMDENARLVGLEIIATFAAEDGAVRMPTELVAPRLSVEEQYCLFVEKLALLETCQHF  74
+            F PV D+  ++   E+++   +     ++   +     S + QY + + +L   ET   +
+Sbjct  24   FEPVWDQTGKIFAFEMLSDIRSAKDGRKICASVFFRSASPDIQYKILISQLKTAETLHKW  83
+
+Query  75   FIQHKLIAWLNLPPAISDLLLLDSELFSRAARFPFLELAINENYPGLNQGKNNETLAN-L  133
+             +Q K++  +N+   ++ L L    +  R      + L ++E++P +     ++ L   L
+Sbjct  84   CLQKKIMLSVNISRVVA-LYLRKHGIPGRPG--THIRLEVSEDFPAVALKPGDDPLLRFL  140
+
+Query  134  AMHFPLMLANFGAGEASTKAIFDGLFKRVMLDKNFIQQRAEMISFEPFMHAIVAQISSSC  193
+            +  F L L +FG+G A       G+F+RV +   F     +     P +HA+   ++   
+Sbjct  141  SERFTLWLDDFGSGNAGLMWGLSGMFERVKISHEFFHYALKNRCAMPLLHAVADTVACYN  200
+
+Query  194  ESLMIAGIDTEAMFARAAPLGFSAFQGGLWPPVPVSQLIKLVQ  236
+              +++ G++ EA+F  A  +     QG L+  V   +L  +++
+Sbjct  201  RGVILEGVENEALFRIARDMNVQGCQGWLYRRVEADELSAIIE  243
+
+
+>VFG048341(gb|WP_032694725) (mrkJ) phosphodiesterase [Type 3 fimbriae 
+(VF0567) - Biofilm (VFC0271)] [Klebsiella oxytoca E718]
+Length=238
+
+ Score = 69.7 bits (169),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 52/177 (29%), Positives = 88/177 (50%), Gaps = 7/177 (4%)
+
+Query  59   CLFVEKLALLETCQHFFIQHKLIAWLNLPPAISDLLLLDSELFSRAARFPFLELAINENY  118
+             +F+E+LAL+E  + +F Q+ + A +N+   I ++L    E+ +   +   +   + EN 
+Sbjct  62   SIFMEQLALIEKHKQWFKQNAISATINVDDHILNVLQR-PEIKALVDQIGCVHFEVTENS  120
+
+Query  119  PGLNQGKNNETLA--NLAMHFPLMLANFGAGEASTKAIFDGLFKRVMLDKNFIQQRAEMI  176
+              L     N  LA  N      L L +FG+G A   AI D  F  V +DK+F     +  
+Sbjct  121  HNLL----NNALATWNNPQSTTLWLDDFGSGNAGIHAIRDYHFDYVKIDKDFFWLLMQKD  176
+
+Query  177  SFEPFMHAIVAQISSSCESLMIAGIDTEAMFARAAPLGFSAFQGGLWPPVPVSQLIK  233
+            S  P M A+V  +S +  +++I G+++EA  A    + + A QG  W  V + QL++
+Sbjct  177  SGRPLMDALVTFLSRNHHNVIIEGVESEAHKAWLQGMEWFAIQGHYWKEVSIEQLVQ  233
+
+
+>VFG048343(gb|WP_012540634) (mrkJ) phosphodiesterase [Type 3 fimbriae 
+(VF0567) - Biofilm (VFC0271)] [Klebsiella pneumoniae 
+342]
+Length=238
+
+ Score = 65.9 bits (159),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 51/177 (29%), Positives = 85/177 (48%), Gaps = 11/177 (6%)
+
+Query  60   LFVEKLALLETCQHFFIQHKLIAWLNLPPAISDLLLLDSELFSRAARFPFLELAINENYP  119
+            +F+E+LAL+E  + +F+ + + A +N+   I +LL    E+  + A    +   + EN  
+Sbjct  63   IFLEQLALIEKHKEWFLHNNISATINVDDHILNLLR-QKEIKDKIAALACVHFEVTENAE  121
+
+Query  120  GLNQGKNNETLANLAMHFP----LMLANFGAGEASTKAIFDGLFKRVMLDKNFIQQRAEM  175
+             L     N +LA  A   P    L L +FG+G A   AI    F  V +DK+F       
+Sbjct  122  NLL----NNSLA--AWQNPQDTSLWLDDFGSGYAGINAIRGYHFDYVKIDKDFFWHLMRK  175
+
+Query  176  ISFEPFMHAIVAQISSSCESLMIAGIDTEAMFARAAPLGFSAFQGGLWPPVPVSQLI  232
+             S    M A+V  +S +  +++I G+++EA       + + A QG  W  V + QL+
+Sbjct  176  ESGRQLMDALVTFLSRNHHNVIIEGVESEAHKKWLQGMEWFAIQGHYWQEVSIEQLV  232
+
+
+>VFG048350(gb|WP_012967268) (mrkJ) phosphodiesterase [Type 3 fimbriae 
+(VF0567) - Biofilm (VFC0271)] [Klebsiella variicola 
+At-22]
+Length=238
+
+ Score = 64.7 bits (156),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 50/177 (28%), Positives = 84/177 (47%), Gaps = 11/177 (6%)
+
+Query  60   LFVEKLALLETCQHFFIQHKLIAWLNLPPAISDLLLLDSELFSRAARFPFLELAINENYP  119
+            +F+E+LAL+E  + +F+ + + A +N+   I +LL    E+  + A    +   + EN  
+Sbjct  63   IFLEQLALIEKHKEWFLHNNISATINVDDHILNLLR-QKEIKDKIAALACVHFEVTENAE  121
+
+Query  120  GLNQGKNNETLANLAMHFP----LMLANFGAGEASTKAIFDGLFKRVMLDKNFIQQRAEM  175
+             L     N +LA  A   P    L L +FG+G A   AI    F  V +DK+F       
+Sbjct  122  NLL----NNSLA--AWQNPQDTSLWLDDFGSGHAGINAIRGYHFDYVKIDKDFFWHLMRK  175
+
+Query  176  ISFEPFMHAIVAQISSSCESLMIAGIDTEAMFARAAPLGFSAFQGGLWPPVPVSQLI  232
+             S    M A+V  +S +  +++I G+++E        + + A QG  W  V + QL+
+Sbjct  176  ESGRQLMDALVTFLSRNHHNVIIEGVESEDHKKWLQGMEWFAIQGHYWQEVSIEQLV  232
+
+
+>VFG048344(gb|YP_005228642) (mrkJ) phosphodiesterase [Type 3 fimbriae 
+(VF0567) - Biofilm (VFC0271)] [Klebsiella pneumoniae 
+subsp. pneumoniae HS11286]
+Length=238
+
+ Score = 62.8 bits (151),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 46/173 (27%), Positives = 83/173 (48%), Gaps = 3/173 (2%)
+
+Query  60   LFVEKLALLETCQHFFIQHKLIAWLNLPPAISDLLLLDSELFSRAARFPFLELAINENYP  119
+            +F+E+LAL+E  + +F+++ + A +N+   I +LL    ++ ++ A    +   + EN  
+Sbjct  63   IFLEQLALIEKHKAWFLRNHISATINVDDHILNLLR-QKDIKAKVAALTCVHFEVTENAE  121
+
+Query  120  GLNQGKNNETLANLAMHFPLMLANFGAGEASTKAIFDGLFKRVMLDKNFIQQRAEMISFE  179
+             L    N+           L L +FG+G A   AI    F  V +DK+F        S  
+Sbjct  122  NLLH--NSLAAWQSPQDTSLWLDDFGSGYAGINAIRGYHFDYVKIDKDFFWHLMRKESGR  179
+
+Query  180  PFMHAIVAQISSSCESLMIAGIDTEAMFARAAPLGFSAFQGGLWPPVPVSQLI  232
+              M A+V  +S +  +++I G+++EA       + + A QG  W  V + QL+
+Sbjct  180  QLMDALVTFLSRNHHNVIIEGVESEAHKEWLQGMEWFAIQGHYWREVSIEQLV  232
+
+
+>VFG042568(gb|WP_000012016) (sfaY) transcriptional regulator SfaY 
+[F1C fimbriae (VF0224) - Adherence (VFC0001)] [Escherichia 
+coli CFT073]
+Length=246
+
+ Score = 63.2 bits (152),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 44/223 (20%), Positives = 98/223 (44%), Gaps = 4/223 (2%)
+
+Query  15   FLPVMDENARLVGLEIIATFAAEDGAVRMPTELVAPRLSVEEQYCLFVEKLALLETCQHF  74
+            F PV ++  ++   E+++   +     ++   +       + QY + + +L   ET   +
+Sbjct  24   FEPVWNQTGKIFAFEMLSDIRSAKDGRKICASVFFRSAPPDIQYKILISQLKTAETLHKW  83
+
+Query  75   FIQHKLIAWLNLPPAISDLLLLDSELFSRAARFPFLELAINENYPGLNQGKNNETLAN-L  133
+             +Q K++  +N+   ++ L L    +  R      + L ++E++P +     ++ L   L
+Sbjct  84   CLQKKIMLSVNISRVVA-LYLRKHGIPGRPG--THIRLEVSEDFPAVALKPGDDPLLRFL  140
+
+Query  134  AMHFPLMLANFGAGEASTKAIFDGLFKRVMLDKNFIQQRAEMISFEPFMHAIVAQISSSC  193
+            +  F L L +FG+G A       G+F+RV +   F     +       +HA+   ++   
+Sbjct  141  SERFTLWLDDFGSGNAGLMWGLSGMFERVKISHEFFHYALKNRCAMSLLHAVADSVACHN  200
+
+Query  194  ESLMIAGIDTEAMFARAAPLGFSAFQGGLWPPVPVSQLIKLVQ  236
+              +++ G++ EA+F  A  +     QG L+  V   +L  + +
+Sbjct  201  RGVILEGVENEALFRIARDMNVQGCQGWLYRRVEADELSAITE  243
+
+
+>VFG048348(gb|WP_004149658) (mrkJ) phosphodiesterase [Type 3 fimbriae 
+(VF0567) - Biofilm (VFC0271)] [Klebsiella pneumoniae 
+subsp. pneumoniae NTUH-K2044]
+Length=238
+
+ Score = 62.4 bits (150),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 46/173 (27%), Positives = 83/173 (48%), Gaps = 3/173 (2%)
+
+Query  60   LFVEKLALLETCQHFFIQHKLIAWLNLPPAISDLLLLDSELFSRAARFPFLELAINENYP  119
+            +F+E+LAL+E  + +F+++ + A +N+   I +LL    ++ ++ A    +   + EN  
+Sbjct  63   IFLEQLALIEKHKAWFLRNHISATINVDDHILNLLR-QKDIKAKIAALTCVHFEVTENAE  121
+
+Query  120  GLNQGKNNETLANLAMHFPLMLANFGAGEASTKAIFDGLFKRVMLDKNFIQQRAEMISFE  179
+             L    N+           L L +FG+G A   AI    F  V +DK+F        S  
+Sbjct  122  NLLH--NSLAAWQSPQDTSLWLDDFGSGYAGINAIRGYHFDYVKIDKDFFWHLMRKESGR  179
+
+Query  180  PFMHAIVAQISSSCESLMIAGIDTEAMFARAAPLGFSAFQGGLWPPVPVSQLI  232
+              M A+V  +S +  +++I G+++EA       + + A QG  W  V + QL+
+Sbjct  180  QLMDALVTFLSRNHHNVIIEGVESEAHKEWLQGMEWFAIQGHYWREVSIEQLV  232
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.138    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1481778060
+
+
+Query= g3372.t1
+
+Length=255
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG048348(gb|WP_004149658) (mrkJ) phosphodiesterase [Type 3 fimbr...  110     3e-29
+VFG048344(gb|YP_005228642) (mrkJ) phosphodiesterase [Type 3 fimbr...  110     3e-29
+VFG048341(gb|WP_032694725) (mrkJ) phosphodiesterase [Type 3 fimbr...  107     6e-28
+VFG048350(gb|WP_012967268) (mrkJ) phosphodiesterase [Type 3 fimbr...  104     6e-27
+VFG048343(gb|WP_012540634) (mrkJ) phosphodiesterase [Type 3 fimbr...  103     1e-26
+VFG049933(gb|WP_011199086) (papR) DUF4084 domain-containing prote...  58.9    7e-10
+VFG049934(gb|WP_011181932) (papR) DUF4084 domain-containing prote...  58.9    7e-10
+VFG042389(gb|WP_000012013) (sfaY) regulatory protein SfaY [S fimb...  53.5    2e-08
+VFG042568(gb|WP_000012016) (sfaY) transcriptional regulator SfaY ...  51.2    1e-07
+VFG043139(gb|WP_005478021) (VP_RS22390) bifunctional diguanylate ...  46.6    9e-06
+
+
+>VFG048348(gb|WP_004149658) (mrkJ) phosphodiesterase [Type 3 fimbriae 
+(VF0567) - Biofilm (VFC0271)] [Klebsiella pneumoniae 
+subsp. pneumoniae NTUH-K2044]
+Length=238
+
+ Score = 110 bits (274),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 78/227 (34%), Positives = 125/227 (55%), Gaps = 20/227 (9%)
+
+Query  32   YTYQPIYQTDGRLMAVELLTVVTHPDNPSRRIAPDRYF--AELAVRHRIDVVKEQLHQLE  89
+            Y +Q ++   G L+AVE L+     DN S  I+P+ +F  A  AVR RI +  EQL  +E
+Sbjct  20   YVFQKMFSPQGTLVAVECLSRF---DNLS--ISPEDFFRHATAAVRERIFL--EQLALIE  72
+
+Query  90   QKADFFTRHHLLASVNVDGPTLIAMRRQPDILAAMERLPWLRFELVEHIRLPKDSSFASM  149
+            +   +F R+H+ A++NVD   L  + RQ DI A +  L  + FE+ E+      +S A+ 
+Sbjct  73   KHKAWFLRNHISATINVDDHIL-NLLRQKDIKAKIAALTCVHFEVTENAENLLHNSLAAW  131
+
+Query  150  C--EFGPLWLDDFGTGMANFSALSEVRYDYIKVARELFVMLRQSPEGRNLFTLLLQLMNR  207
+               +   LWLDDFG+G A  +A+    +DY+K+ ++ F  L +   GR L   L+  ++R
+Sbjct  132  QSPQDTSLWLDDFGSGYAGINAIRGYHFDYVKIDKDFFWHLMRKESGRQLMDALVTFLSR  191
+
+Query  208  YCRGVIVEGVET--LEEWRDVQRSPAFAAQGYFLSRPVPLISLEEVI  252
+                VI+EGVE+   +EW  +Q    FA QG++       +S+E+++
+Sbjct  192  NHHNVIIEGVESEAHKEW--LQGMEWFAIQGHYWRE----VSIEQLV  232
+
+
+>VFG048344(gb|YP_005228642) (mrkJ) phosphodiesterase [Type 3 fimbriae 
+(VF0567) - Biofilm (VFC0271)] [Klebsiella pneumoniae 
+subsp. pneumoniae HS11286]
+Length=238
+
+ Score = 110 bits (274),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 78/227 (34%), Positives = 125/227 (55%), Gaps = 20/227 (9%)
+
+Query  32   YTYQPIYQTDGRLMAVELLTVVTHPDNPSRRIAPDRYF--AELAVRHRIDVVKEQLHQLE  89
+            Y +Q ++   G L+AVE L+     DN S  I+P+ +F  A  AVR RI +  EQL  +E
+Sbjct  20   YVFQKMFSPQGTLVAVECLSRF---DNLS--ISPEDFFRHATAAVRERIFL--EQLALIE  72
+
+Query  90   QKADFFTRHHLLASVNVDGPTLIAMRRQPDILAAMERLPWLRFELVEHIRLPKDSSFASM  149
+            +   +F R+H+ A++NVD   L  + RQ DI A +  L  + FE+ E+      +S A+ 
+Sbjct  73   KHKAWFLRNHISATINVDDHIL-NLLRQKDIKAKVAALTCVHFEVTENAENLLHNSLAAW  131
+
+Query  150  C--EFGPLWLDDFGTGMANFSALSEVRYDYIKVARELFVMLRQSPEGRNLFTLLLQLMNR  207
+               +   LWLDDFG+G A  +A+    +DY+K+ ++ F  L +   GR L   L+  ++R
+Sbjct  132  QSPQDTSLWLDDFGSGYAGINAIRGYHFDYVKIDKDFFWHLMRKESGRQLMDALVTFLSR  191
+
+Query  208  YCRGVIVEGVET--LEEWRDVQRSPAFAAQGYFLSRPVPLISLEEVI  252
+                VI+EGVE+   +EW  +Q    FA QG++       +S+E+++
+Sbjct  192  NHHNVIIEGVESEAHKEW--LQGMEWFAIQGHYWRE----VSIEQLV  232
+
+
+>VFG048341(gb|WP_032694725) (mrkJ) phosphodiesterase [Type 3 fimbriae 
+(VF0567) - Biofilm (VFC0271)] [Klebsiella oxytoca E718]
+Length=238
+
+ Score = 107 bits (266),  Expect = 6e-28, Method: Compositional matrix adjust.
+ Identities = 65/223 (29%), Positives = 119/223 (53%), Gaps = 12/223 (5%)
+
+Query  32   YTYQPIYQTDGRLMAVELLTVVTHPDNPSRRIAPDRYFAELAVRHRIDVVKEQLHQLEQK  91
+            Y +Q ++   G L+AVE L+   H       I+P+ +F       R  +  EQL  +E+ 
+Sbjct  20   YVFQKMFSPKGTLVAVECLSRFDH-----LSISPENFFRYANTGLRESIFMEQLALIEKH  74
+
+Query  92   ADFFTRHHLLASVNVDGPTLIAMRRQPDILAAMERLPWLRFELVEHIRLPKDSSFASMC-  150
+              +F ++ + A++NVD   L  ++R P+I A ++++  + FE+ E+     +++ A+   
+Sbjct  75   KQWFKQNAISATINVDDHILNVLQR-PEIKALVDQIGCVHFEVTENSHNLLNNALATWNN  133
+
+Query  151  -EFGPLWLDDFGTGMANFSALSEVRYDYIKVARELFVMLRQSPEGRNLFTLLLQLMNRYC  209
+             +   LWLDDFG+G A   A+ +  +DY+K+ ++ F +L Q   GR L   L+  ++R  
+Sbjct  134  PQSTTLWLDDFGSGNAGIHAIRDYHFDYVKIDKDFFWLLMQKDSGRPLMDALVTFLSRNH  193
+
+Query  210  RGVIVEGVETLEEWRDVQRSPAFAAQGYFLSRPVPLISLEEVI  252
+              VI+EGVE+      +Q    FA QG++       +S+E+++
+Sbjct  194  HNVIIEGVESEAHKAWLQGMEWFAIQGHYWKE----VSIEQLV  232
+
+
+>VFG048350(gb|WP_012967268) (mrkJ) phosphodiesterase [Type 3 fimbriae 
+(VF0567) - Biofilm (VFC0271)] [Klebsiella variicola 
+At-22]
+Length=238
+
+ Score = 104 bits (259),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 70/225 (31%), Positives = 124/225 (55%), Gaps = 16/225 (7%)
+
+Query  32   YTYQPIYQTDGRLMAVELLTVVTHPDNPSRRIAPDRYF--AELAVRHRIDVVKEQLHQLE  89
+            Y +Q ++   G L+AVE L+     DN +  ++P+ +F  A  AVR RI +  EQL  +E
+Sbjct  20   YVFQKMFSPQGTLVAVECLSRF---DNLT--VSPEYFFRHATAAVRERIFL--EQLALIE  72
+
+Query  90   QKADFFTRHHLLASVNVDGPTLIAMRRQPDILAAMERLPWLRFELVEHIRLPKDSSFASM  149
+            +  ++F  +++ A++NVD   L  + RQ +I   +  L  + FE+ E+     ++S A+ 
+Sbjct  73   KHKEWFLHNNISATINVDDHIL-NLLRQKEIKDKIAALACVHFEVTENAENLLNNSLAAW  131
+
+Query  150  C--EFGPLWLDDFGTGMANFSALSEVRYDYIKVARELFVMLRQSPEGRNLFTLLLQLMNR  207
+               +   LWLDDFG+G A  +A+    +DY+K+ ++ F  L +   GR L   L+  ++R
+Sbjct  132  QNPQDTSLWLDDFGSGHAGINAIRGYHFDYVKIDKDFFWHLMRKESGRQLMDALVTFLSR  191
+
+Query  208  YCRGVIVEGVETLEEWRDVQRSPAFAAQGYFLSRPVPLISLEEVI  252
+                VI+EGVE+ +  + +Q    FA QG++       +S+E+++
+Sbjct  192  NHHNVIIEGVESEDHKKWLQGMEWFAIQGHYWQE----VSIEQLV  232
+
+
+>VFG048343(gb|WP_012540634) (mrkJ) phosphodiesterase [Type 3 fimbriae 
+(VF0567) - Biofilm (VFC0271)] [Klebsiella pneumoniae 
+342]
+Length=238
+
+ Score = 103 bits (256),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 70/225 (31%), Positives = 123/225 (55%), Gaps = 16/225 (7%)
+
+Query  32   YTYQPIYQTDGRLMAVELLTVVTHPDNPSRRIAPDRYF--AELAVRHRIDVVKEQLHQLE  89
+            Y +Q ++   G L+AVE L+     DN +  ++P+ +F  A  AVR RI +  EQL  +E
+Sbjct  20   YVFQKMFSPQGTLVAVECLSRF---DNLT--VSPEYFFRHATAAVRERIFL--EQLALIE  72
+
+Query  90   QKADFFTRHHLLASVNVDGPTLIAMRRQPDILAAMERLPWLRFELVEHIRLPKDSSFASM  149
+            +  ++F  +++ A++NVD   L  + RQ +I   +  L  + FE+ E+     ++S A+ 
+Sbjct  73   KHKEWFLHNNISATINVDDHIL-NLLRQKEIKDKIAALACVHFEVTENAENLLNNSLAAW  131
+
+Query  150  C--EFGPLWLDDFGTGMANFSALSEVRYDYIKVARELFVMLRQSPEGRNLFTLLLQLMNR  207
+               +   LWLDDFG+G A  +A+    +DY+K+ ++ F  L +   GR L   L+  ++R
+Sbjct  132  QNPQDTSLWLDDFGSGYAGINAIRGYHFDYVKIDKDFFWHLMRKESGRQLMDALVTFLSR  191
+
+Query  208  YCRGVIVEGVETLEEWRDVQRSPAFAAQGYFLSRPVPLISLEEVI  252
+                VI+EGVE+    + +Q    FA QG++       +S+E+++
+Sbjct  192  NHHNVIIEGVESEAHKKWLQGMEWFAIQGHYWQE----VSIEQLV  232
+
+
+>VFG049933(gb|WP_011199086) (papR) DUF4084 domain-containing protein 
+[PlcR-PapR quorum sensing (VF0660) - Biofilm (VFC0271)] 
+[Bacillus cereus E33L]
+Length=892
+
+ Score = 58.9 bits (141),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 36/119 (30%), Positives = 62/119 (52%), Gaps = 5/119 (4%)
+
+Query  130  LRFELVEHIRLPKDSSFASMCE----FG-PLWLDDFGTGMANFSALSEVRYDYIKVAREL  184
+            L  E+ E I + ++ S  +  E     G  + +DDFGTG ++ + L++   + +K+ARE 
+Sbjct  759  LDIEITESIAINQNQSVVAKLEQLQNLGIQISIDDFGTGYSSLAYLTKYPINTLKIAREF  818
+
+Query  185  FVMLRQSPEGRNLFTLLLQLMNRYCRGVIVEGVETLEEWRDVQRSPAFAAQGYFLSRPV  243
+               +  SP    + + ++ L       VI EGVET E+W+ +        QG+F+S+PV
+Sbjct  819  ICGITTSPLEEAIISSIITLSKELNLEVIAEGVETEEQWKFLYEQNCDHIQGFFISKPV  877
+
+
+>VFG049934(gb|WP_011181932) (papR) DUF4084 domain-containing protein 
+[PlcR-PapR quorum sensing (VF0660) - Biofilm (VFC0271)] 
+[Bacillus thuringiensis serovar konkukian str. 97-27]
+Length=892
+
+ Score = 58.9 bits (141),  Expect = 7e-10, Method: Composition-based stats.
+ Identities = 36/119 (30%), Positives = 62/119 (52%), Gaps = 5/119 (4%)
+
+Query  130  LRFELVEHIRLPKDSSFASMCE----FG-PLWLDDFGTGMANFSALSEVRYDYIKVAREL  184
+            L  E+ E I + ++ S  +  E     G  + +DDFGTG ++ + L++   + +K+ARE 
+Sbjct  759  LDIEITESIAINQNQSVVAKLEQLQNLGIQISIDDFGTGYSSLAYLTKYPINTLKIAREF  818
+
+Query  185  FVMLRQSPEGRNLFTLLLQLMNRYCRGVIVEGVETLEEWRDVQRSPAFAAQGYFLSRPV  243
+               +  SP    + + ++ L       VI EGVET E+W+ +        QG+F+S+PV
+Sbjct  819  ICGITTSPLEEAIISSIITLSKELNLEVIAEGVETEEQWKFLYEQNCDHIQGFFISKPV  877
+
+
+>VFG042389(gb|WP_000012013) (sfaY) regulatory protein SfaY [S 
+fimbriae (VF0222) - Adherence (VFC0001)] [Escherichia coli UTI89]
+Length=246
+
+ Score = 53.5 bits (127),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 47/216 (22%), Positives = 91/216 (42%), Gaps = 13/216 (6%)
+
+Query  33   TYQPIYQTDGRLMAVELLTVVTHPDNPSRRIAPDRYFAELAVRHRIDVVKEQLHQLEQKA  92
+             ++P++   G++ A E+L+ +    +  R+I    +F   +   +  ++  QL   E   
+Sbjct  23   VFEPVWDQTGKIFAFEMLSDIRSAKD-GRKICASVFFRSASPDIQYKILISQLKTAETLH  81
+
+Query  93   DFFTRHHLLASVNVDGPTLIAMRRQPDILAAMERLPW--LRFELVEH-----IRLPKDSS  145
+             +  +  ++ SVN+     + +R+       +   P   +R E+ E      ++   D  
+Sbjct  82   KWCLQKKIMLSVNISRVVALYLRKH-----GIPGRPGTHIRLEVSEDFPAVALKPGDDPL  136
+
+Query  146  FASMCEFGPLWLDDFGTGMANFSALSEVRYDYIKVARELFVMLRQSPEGRNLFTLLLQLM  205
+               + E   LWLDDFG+G A         ++ +K++ E F    ++     L   +   +
+Sbjct  137  LRFLSERFTLWLDDFGSGNAGLMWGLSGMFERVKISHEFFHYALKNRCAMPLLHAVADTV  196
+
+Query  206  NRYCRGVIVEGVETLEEWRDVQRSPAFAAQGYFLSR  241
+              Y RGVI+EGVE    +R  +       QG+   R
+Sbjct  197  ACYNRGVILEGVENEALFRIARDMNVQGCQGWLYRR  232
+
+
+>VFG042568(gb|WP_000012016) (sfaY) transcriptional regulator SfaY 
+[F1C fimbriae (VF0224) - Adherence (VFC0001)] [Escherichia 
+coli CFT073]
+Length=246
+
+ Score = 51.2 bits (121),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 46/216 (21%), Positives = 91/216 (42%), Gaps = 13/216 (6%)
+
+Query  33   TYQPIYQTDGRLMAVELLTVVTHPDNPSRRIAPDRYFAELAVRHRIDVVKEQLHQLEQKA  92
+             ++P++   G++ A E+L+ +    +  R+I    +F       +  ++  QL   E   
+Sbjct  23   VFEPVWNQTGKIFAFEMLSDIRSAKD-GRKICASVFFRSAPPDIQYKILISQLKTAETLH  81
+
+Query  93   DFFTRHHLLASVNVDGPTLIAMRRQPDILAAMERLPW--LRFELVEH-----IRLPKDSS  145
+             +  +  ++ SVN+     + +R+       +   P   +R E+ E      ++   D  
+Sbjct  82   KWCLQKKIMLSVNISRVVALYLRKH-----GIPGRPGTHIRLEVSEDFPAVALKPGDDPL  136
+
+Query  146  FASMCEFGPLWLDDFGTGMANFSALSEVRYDYIKVARELFVMLRQSPEGRNLFTLLLQLM  205
+               + E   LWLDDFG+G A         ++ +K++ E F    ++    +L   +   +
+Sbjct  137  LRFLSERFTLWLDDFGSGNAGLMWGLSGMFERVKISHEFFHYALKNRCAMSLLHAVADSV  196
+
+Query  206  NRYCRGVIVEGVETLEEWRDVQRSPAFAAQGYFLSR  241
+              + RGVI+EGVE    +R  +       QG+   R
+Sbjct  197  ACHNRGVILEGVENEALFRIARDMNVQGCQGWLYRR  232
+
+
+>VFG043139(gb|WP_005478021) (VP_RS22390) bifunctional diguanylate 
+cyclase/phosphodiesterase [Lateral flagella (VF0625) - Biofilm 
+(VFC0271)] [Vibrio parahaemolyticus RIMD 2210633]
+Length=774
+
+ Score = 46.6 bits (109),  Expect = 9e-06, Method: Composition-based stats.
+ Identities = 25/98 (26%), Positives = 46/98 (47%), Gaps = 0/98 (0%)
+
+Query  155  LWLDDFGTGMANFSALSEVRYDYIKVARELFVMLRQSPEGRNLFTLLLQLMNRYCRGVIV  214
+            L +DDFGTG +  S L +  +D +K+ R     + ++   R L  +++ +       ++ 
+Sbjct  671  LTIDDFGTGYSALSYLQKFPFDRLKIDRSFMQNVFENDSDRELVNVIIAMAKALRLKIVA  730
+
+Query  215  EGVETLEEWRDVQRSPAFAAQGYFLSRPVPLISLEEVI  252
+            EG+E       +        QG+  SRPVP    E+++
+Sbjct  731  EGIEEQRHVDYLNELNCEFGQGFHYSRPVPAKEFEQLL  768
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.140    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1657315079
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

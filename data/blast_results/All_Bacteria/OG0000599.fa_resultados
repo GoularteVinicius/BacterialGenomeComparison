@@ -1,0 +1,264 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g473.t1
+
+Length=257
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045607(gb|WP_010948621) (LPG_RS14840) Dot/Icm type IV secretio...  80.1    7e-18
+
+
+>VFG045607(gb|WP_010948621) (LPG_RS14840) Dot/Icm type IV secretion 
+system effector [Dot/Icm T4SS secreted effectors (VF0798) 
+- Effector delivery system (VFC0086)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=244
+
+ Score = 80.1 bits (196),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 64/231 (28%), Positives = 102/231 (44%), Gaps = 11/231 (5%)
+
+Query  15   GTVAVVGGDEGFHAVTVRRIRPGEELVLGDGVGGLAHCLVERAGRDGLYARVLGHWTVAP  74
+            G +  +  + G H   V R+  GE+L L +G        +ER  +  ++ R+     V  
+Sbjct  17   GQLLELSPEAGQHVGVVLRMEQGEQLTLFNGDNKEFTASIERVKKKQVFVRIASVLEVNR  76
+
+Query  75   GLP-PATVVQALPKAERSELAIEMATEAGADAFVAWQSDRCVASWYGVRVDKGLRRWRAV  133
+              P    + QA+ K ER E+ ++ + E G        ++RC       ++ K + +W  +
+Sbjct  77   ESPLKIHLAQAISKGERMEMVMQKSAELGVACITPLITERCQVKIDKEKMAKKMHQWLNI  136
+
+Query  134  ARAAARQSRRAHIPSVDGVLTTAALLQRIRDEVAAGATVLALHESATDRLSDVFADISVA  193
+               A  Q  R  IP +        L Q +R+  A     L LH +     S  + D  V 
+Sbjct  137  IIGACEQCGRNQIPELR---QPVYLDQFVRE--AKEHLKLILHPA----FSKTWRDYPV-  186
+
+Query  194  QANSLVLLVGPEGGIAPDEIAALTEAGAVAVRLGPTVLRSSTAAAVALGAL  244
+            Q   + L++GPEGG + +EI   +  G + + LGP VLR+ TAA  AL  L
+Sbjct  187  QPPDVALIIGPEGGFSDEEIRLTSGHGFLPLSLGPRVLRTETAAITALSVL  237
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.133    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1678427373
+
+
+Query= g2340.t1
+
+Length=262
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045607(gb|WP_010948621) (LPG_RS14840) Dot/Icm type IV secretio...  86.7    3e-20
+
+
+>VFG045607(gb|WP_010948621) (LPG_RS14840) Dot/Icm type IV secretion 
+system effector [Dot/Icm T4SS secreted effectors (VF0798) 
+- Effector delivery system (VFC0086)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=244
+
+ Score = 86.7 bits (213),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 60/227 (26%), Positives = 103/227 (45%), Gaps = 7/227 (3%)
+
+Query  15   GAVAVVDGDEGFHAATVRRIRPGEQLVLGDGVGRLARCVVEQAGRGGLRARVLRRWSVPP  74
+            G +  +  + G H   V R+  GEQL L +G  +     +E+  +  +  R+     V  
+Sbjct  17   GQLLELSPEAGQHVGVVLRMEQGEQLTLFNGDNKEFTASIERVKKKQVFVRIASVLEVNR  76
+
+Query  75   VRP-PVTVVQALPKSERSELAIELATEAGADAFLAWQAARCVANWDGARVDKGLRRWRAV  133
+              P  + + QA+ K ER E+ ++ + E G          RC    D  ++ K + +W  +
+Sbjct  77   ESPLKIHLAQAISKGERMEMVMQKSAELGVACITPLITERCQVKIDKEKMAKKMHQWLNI  136
+
+Query  134  VRSAARQSRRARIPPVDGVLSTPMLVQRVREEVAAGAAVLVLHEEATERIVDIAAAQAGS  193
+            +  A  Q  R +IP +   +     V+  +E +      L+LH   ++   D    Q   
+Sbjct  137  IIGACEQCGRNQIPELRQPVYLDQFVREAKEHLK-----LILHPAFSKTWRDYPV-QPPD  190
+
+Query  194  LMLVVGPEGGIAPDELAALTDAGAVAVRLGPTVLRTSTAAAVALGAV  240
+            + L++GPEGG + +E+   +  G + + LGP VLRT TAA  AL  +
+Sbjct  191  VALIIGPEGGFSDEEIRLTSGHGFLPLSLGPRVLRTETAAITALSVL  237
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.134    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1731208108
+
+
+Query= g426.t1
+
+Length=240
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045607(gb|WP_010948621) (LPG_RS14840) Dot/Icm type IV secretio...  189     3e-60
+
+
+>VFG045607(gb|WP_010948621) (LPG_RS14840) Dot/Icm type IV secretion 
+system effector [Dot/Icm T4SS secreted effectors (VF0798) 
+- Effector delivery system (VFC0086)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=244
+
+ Score = 189 bits (481),  Expect = 3e-60, Method: Compositional matrix adjust.
+ Identities = 94/222 (42%), Positives = 136/222 (61%), Gaps = 3/222 (1%)
+
+Query  20   PEAQAHYIGRVLRHATGDAVQLFDGSGREYLGELVEVGKKNVRVELREQFAGQPDSPLRI  79
+            PEA  H +G VLR   G+ + LF+G  +E+   +  V KK V V +        +SPL+I
+Sbjct  24   PEAGQH-VGVVLRMEQGEQLTLFNGDNKEFTASIERVKKKQVFVRIASVLEVNRESPLKI  82
+
+Query  80   HLGQGLSRGERMDWAIQKATELGVAEITPIVSERCEVRLKDERADKRLQHWRQVAISACE  139
+            HL Q +S+GERM+  +QK+ ELGVA ITP+++ERC+V++  E+  K++  W  + I ACE
+Sbjct  83   HLAQAISKGERMEMVMQKSAELGVACITPLITERCQVKIDKEKMAKKMHQWLNIIIGACE  142
+
+Query  140  QCGRSSLPLIHPPLALEDWLRGRDDDLRLVLHPVAAPLASHAP--PSRLAFLVGPEGGLS  197
+            QCGR+ +P +  P+ L+ ++R   + L+L+LHP  +      P  P  +A ++GPEGG S
+Sbjct  143  QCGRNQIPELRQPVYLDQFVREAKEHLKLILHPAFSKTWRDYPVQPPDVALIIGPEGGFS  202
+
+Query  198  DAEVEQAQAAGFHSARLGPRVLRTETAPVVALAVAQQLWGDF  239
+            D E+      GF    LGPRVLRTETA + AL+V Q   GD 
+Sbjct  203  DEEIRLTSGHGFLPLSLGPRVLRTETAAITALSVLQAAGGDL  244
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.414    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1513530447
+
+
+Query= g5167.t1
+
+Length=235
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045607(gb|WP_010948621) (LPG_RS14840) Dot/Icm type IV secretio...  50.8    1e-07
+
+
+>VFG045607(gb|WP_010948621) (LPG_RS14840) Dot/Icm type IV secretion 
+system effector [Dot/Icm T4SS secreted effectors (VF0798) 
+- Effector delivery system (VFC0086)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=244
+
+ Score = 50.8 bits (120),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 53/179 (30%), Positives = 79/179 (44%), Gaps = 16/179 (9%)
+
+Query  61   ATLEVRFDQPPPAKLPITLLLALPRPKMLRRVLQTIAAMGVPKLVLLNSYRVEKSFWQTP  120
+            + LEV  + P    L I L  A+ + + +  V+Q  A +GV  +  L + R +    +  
+Sbjct  70   SVLEVNRESP----LKIHLAQAISKGERMEMVMQKSAELGVACITPLITERCQVKIDKEK  125
+
+Query  121  FLDPAAIRENLVLG-LEQARDTVLPEIIVEKRFKPFVEDRLPALAAGSLGLVGHPG---P  176
+                     N+++G  EQ     +PE+      +P   D+    A   L L+ HP     
+Sbjct  126  MAKKMHQWLNIIIGACEQCGRNQIPEL-----RQPVYLDQFVREAKEHLKLILHPAFSKT  180
+
+Query  177  WPACPRAVEKP-VTLAIGPEGGWIPYEVDKLREAGLHPVQLGERILRVETAVSALLARL  234
+            W   P  V+ P V L IGPEGG+   E+      G  P+ LG R+LR ETA    L+ L
+Sbjct  181  WRDYP--VQPPDVALIIGPEGGFSDEEIRLTSGHGFLPLSLGPRVLRTETAAITALSVL  237
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.141    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1460609802
+
+
+Query= g2875.t1
+
+Length=243
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045607(gb|WP_010948621) (LPG_RS14840) Dot/Icm type IV secretio...  225     5e-74
+
+
+>VFG045607(gb|WP_010948621) (LPG_RS14840) Dot/Icm type IV secretion 
+system effector [Dot/Icm T4SS secreted effectors (VF0798) 
+- Effector delivery system (VFC0086)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=244
+
+ Score = 225 bits (573),  Expect = 5e-74, Method: Compositional matrix adjust.
+ Identities = 117/242 (48%), Positives = 153/242 (63%), Gaps = 0/242 (0%)
+
+Query  1    MRIPRIYHPELLTSGTQISLCEDAANHIGRVLRMGPGQALQLFDGSNQVFDAEIISASKK  60
+            +R  RIY P     G  + L  +A  H+G VLRM  G+ L LF+G N+ F A I    KK
+Sbjct  3    VRTIRIYQPGEYQPGQLLELSPEAGQHVGVVLRMEQGEQLTLFNGDNKEFTASIERVKKK  62
+
+Query  61   SVEVQVMKGEIDDRESPLHIHLGQVMSRGEKMEFTIQKSIELGVSLITPLFSERCGVKLD  120
+             V V++      +RESPL IHL Q +S+GE+ME  +QKS ELGV+ ITPL +ERC VK+D
+Sbjct  63   QVFVRIASVLEVNRESPLKIHLAQAISKGERMEMVMQKSAELGVACITPLITERCQVKID  122
+
+Query  121  SERLNKKRQQWQKIAIAACEQCGRNRVPEIRPPMALEAWCAEQDSGLKLNLHPRAHASIN  180
+             E++ KK  QW  I I ACEQCGRN++PE+R P+ L+ +  E    LKL LHP    +  
+Sbjct  123  KEKMAKKMHQWLNIIIGACEQCGRNQIPELRQPVYLDQFVREAKEHLKLILHPAFSKTWR  182
+
+Query  181  TLPLPVERVRLLIGPEGGLSADEIAMTARYQFTDILLGPRVLRTETTALTAITALQVRFG  240
+              P+    V L+IGPEGG S +EI +T+ + F  + LGPRVLRTET A+TA++ LQ   G
+Sbjct  183  DYPVQPPDVALIIGPEGGFSDEEIRLTSGHGFLPLSLGPRVLRTETAAITALSVLQAAGG  242
+
+Query  241  DL  242
+            DL
+Sbjct  243  DL  244
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.396    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1545282834
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

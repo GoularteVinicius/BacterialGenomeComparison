@@ -1,0 +1,81 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g854.t1
+
+Length=96
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049158(gb|WP_001297937) (clbL) colibactin biosynthesis amidase...  43.5    3e-06
+VFG043683(gb|WP_001297937) (clbL) colibactin biosynthesis amidase...  43.5    3e-06
+
+
+>VFG049158(gb|WP_001297937) (clbL) colibactin biosynthesis amidase 
+ClbL [Colibactin (VF0573) - Exotoxin (VFC0235)] [Klebsiella 
+pneumoniae subsp. pneumoniae 1084]
+Length=487
+
+ Score = 43.5 bits (101),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 25/57 (44%), Positives = 33/57 (58%), Gaps = 5/57 (9%)
+
+Query  12   LLGVPVAVKVGVDVAGEVTTYGSGGHH---SEVIFDVEVVRRLRAVGAVIIGKTAVP  65
+            L G+P  VK   DV G +TT  SG H+   +    D   + RLRA GA+++GKT VP
+Sbjct  72   LHGLPCTVKESFDVQGWLTT--SGAHYLKDNRATQDAPSIARLRAAGAILMGKTNVP  126
+
+
+>VFG043683(gb|WP_001297937) (clbL) colibactin biosynthesis amidase 
+ClbL [Colibactin (VF1179) - Exotoxin (VFC0235)] [Escherichia 
+coli O18:K1:H7 str. IHE3034]
+Length=487
+
+ Score = 43.5 bits (101),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 25/57 (44%), Positives = 33/57 (58%), Gaps = 5/57 (9%)
+
+Query  12   LLGVPVAVKVGVDVAGEVTTYGSGGHH---SEVIFDVEVVRRLRAVGAVIIGKTAVP  65
+            L G+P  VK   DV G +TT  SG H+   +    D   + RLRA GA+++GKT VP
+Sbjct  72   LHGLPCTVKESFDVQGWLTT--SGAHYLKDNRATQDAPSIARLRAAGAILMGKTNVP  126
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.138    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 331284081
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

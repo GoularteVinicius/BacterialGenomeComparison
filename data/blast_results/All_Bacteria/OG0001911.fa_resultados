@@ -1,0 +1,488 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g330.t1
+
+Length=311
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011764(gb|WP_002855840) (htrB) lipid A biosynthesis lauroyl ac...  57.0    3e-09
+VFG017765(gb|WP_011989870) (JJD26997_RS02720) lipid A biosynthesi...  55.1    1e-08
+VFG017999(gb|WP_002801091) (htrB) lipid A biosynthesis lauroyl ac...  54.7    2e-08
+VFG037756(gb|WP_012297031) (lpxM) lysophospholipid acyltransferas...  53.9    4e-08
+VFG011763(gb|WP_002867215) (htrB) lipid A biosynthesis lauroyl ac...  53.1    6e-08
+VFG037747(gb|WP_001984639) (lpxM) lysophospholipid acyltransferas...  53.1    7e-08
+VFG002025(gb|YP_002344527) (htrB) lipid A biosynthesis lauroyl ac...  52.8    7e-08
+VFG037746(gb|WP_001985534) (lpxM) lysophospholipid acyltransferas...  53.1    7e-08
+VFG037757(gb|YP_005799955) (lpxM) putative lipid A biosynthesis l...  52.8    8e-08
+VFG011765(gb|WP_002850265) (CFF8240_RS06840) lipid A biosynthesis...  50.4    4e-07
+
+
+>VFG011764(gb|WP_002855840) (htrB) lipid A biosynthesis lauroyl 
+acyltransferase HtrB [LOS (VF0326) - Immune modulation (VFC0258)] 
+[Campylobacter jejuni subsp. jejuni 81-176]
+Length=295
+
+ Score = 57.0 bits (136),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 35/184 (19%), Positives = 78/184 (42%), Gaps = 9/184 (5%)
+
+Query  114  EALDAGRGVVLALPHSGNWDMAGVWLVQCHGTFTTVAERLKPESLYRRFINYRENLGFEV  173
+            +AL   R ++    H GNW++  +     +G  + V ++LK E +Y      R     E+
+Sbjct  108  DALALKRPIIFTTAHYGNWEILSLAYAAKYGAISIVGKKLKSEVMYEILSQSRTQFDIEL  167
+
+Query  174  LPMSANKDTGFQALFELLCERLRSNRVVCLMAERDLTRT-GVEVDFFGEPTRMPAGPAKL  232
+            +    +K  G + +       L+  R + ++ ++D      V + FF +      G + +
+Sbjct  168  I----DKKGGIRQML----SALKKERALGILTDQDCVENESVRLKFFNKEVNYQMGASLI  219
+
+Query  233  AIKTGAALLPVHCWFQGSGWGFSVHPALDCTSGDVGDVTQALADQFAQDIAANPTDWHML  292
+            A ++ A ++PV+ + +G  +      A D  +  + ++T   A    + I   P ++   
+Sbjct  220  AQRSNALIIPVYAYKEGGKFCIEFFKAKDSQNASLEELTLYQAQSCEEMIKKRPWEYFFF  279
+
+Query  293  QPQW  296
+              ++
+Sbjct  280  HRRF  283
+
+
+>VFG017765(gb|WP_011989870) (JJD26997_RS02720) lipid A biosynthesis 
+lauroyl acyltransferase HtrB [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter jejuni subsp. doylei 269.97]
+Length=295
+
+ Score = 55.1 bits (131),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 34/184 (18%), Positives = 78/184 (42%), Gaps = 9/184 (5%)
+
+Query  114  EALDAGRGVVLALPHSGNWDMAGVWLVQCHGTFTTVAERLKPESLYRRFINYRENLGFEV  173
+            +AL   R ++    H GNW++  +     +G  + V ++LK E +Y      R     E+
+Sbjct  108  DALALKRPIIFITAHYGNWEILSLAYAAKYGAISIVGKKLKSEVMYEILSRSRTQFDIEL  167
+
+Query  174  LPMSANKDTGFQALFELLCERLRSNRVVCLMAERDLTRT-GVEVDFFGEPTRMPAGPAKL  232
+            +    +K  G + +       L+  R + ++ ++D T    V + FF +      G + +
+Sbjct  168  I----DKKGGIRQML----NALKKERALGILTDQDCTENESVRLKFFNKEVNYQMGASLI  219
+
+Query  233  AIKTGAALLPVHCWFQGSGWGFSVHPALDCTSGDVGDVTQALADQFAQDIAANPTDWHML  292
+            A ++ A ++P++ + +   +      A D  +  + ++T   A    + I   P ++   
+Sbjct  220  AQRSNALIIPIYAYKEDGKFCIEFFKAKDSQNASLEELTLYQAQSCEEMIKKRPWEYFFF  279
+
+Query  293  QPQW  296
+              ++
+Sbjct  280  HRRF  283
+
+
+>VFG017999(gb|WP_002801091) (htrB) lipid A biosynthesis lauroyl 
+acyltransferase HtrB [LOS (VF0326) - Immune modulation (VFC0258)] 
+[Campylobacter jejuni subsp. jejuni 81116]
+Length=292
+
+ Score = 54.7 bits (130),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 34/184 (18%), Positives = 78/184 (42%), Gaps = 9/184 (5%)
+
+Query  114  EALDAGRGVVLALPHSGNWDMAGVWLVQCHGTFTTVAERLKPESLYRRFINYRENLGFEV  173
+            +AL   R ++    H GNW++  +     +G  + V ++LK E +Y      R     E+
+Sbjct  108  DALALKRPIIFTTAHYGNWEILSLAYAAKYGAISIVGKKLKSEIMYEILSQSRTQFDIEL  167
+
+Query  174  LPMSANKDTGFQALFELLCERLRSNRVVCLMAERDLTRT-GVEVDFFGEPTRMPAGPAKL  232
+            +    +K  G + +       L+  R + ++ ++D      V + FF +      G + +
+Sbjct  168  I----DKKGGIRQML----SALKKERALGILTDQDCVENESVRLKFFNKEVNYQMGASLI  219
+
+Query  233  AIKTGAALLPVHCWFQGSGWGFSVHPALDCTSGDVGDVTQALADQFAQDIAANPTDWHML  292
+            A ++ A ++PV+ + +   +      A D  + ++ ++T   A    + I   P ++   
+Sbjct  220  AQRSNALIIPVYAYKEDGKFCIEFFKAKDSQNANLEELTLYQAQSCEEMIKKRPWEYFFF  279
+
+Query  293  QPQW  296
+              ++
+Sbjct  280  HRRF  283
+
+
+>VFG037756(gb|WP_012297031) (lpxM) lysophospholipid acyltransferase 
+family protein [LPS (VF0466) - Immune modulation (VFC0258)] 
+[Acinetobacter baumannii SDF]
+Length=327
+
+ Score = 53.9 bits (128),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 50/186 (27%), Positives = 78/186 (42%), Gaps = 16/186 (9%)
+
+Query  110  HRVGEALDAGRGVVLALPHSGNWDMAGVWLVQCHGTFTTVAERLKP--ESLYRRFINYRE  167
+            H   EAL A +GVVL +PH G W++   W  Q    FT++    KP   +   RF+  RE
+Sbjct  104  HFFHEALAAKKGVVLIVPHFGTWEVMNAWCAQ----FTSMTILYKPVKNADADRFV--RE  157
+
+Query  168  NLGFEVLPMSANKDTGFQALFELLCERLRSNRVVCLMAERDLTRTGVEVDFFGEPTRMPA  227
+                E   +    ++G + +F+     L+      ++ +      G  V++FG P     
+Sbjct  158  ARSREQANLVPTDESGVRQIFKA----LKQGETTVILPDHTPNVGGDMVNYFGVPLASSN  213
+
+Query  228  GPAKLAIKTGAALLPVHCWFQGSGWGFSVH-PALD--CTSGDVGDVTQALADQFAQDIAA  284
+              AKL  KT A  L ++   +    GF++H   +D     G   D T  +     Q I  
+Sbjct  214  LSAKLIQKTKAKALFLYA-IRNENDGFTIHIEPMDEKIYEGTADDGTYVIHQAIEQLIYQ  272
+
+Query  285  NPTDWH  290
+             P  +H
+Sbjct  273  YPEHYH  278
+
+
+>VFG011763(gb|WP_002867215) (htrB) lipid A biosynthesis lauroyl 
+acyltransferase HtrB [LOS (VF0326) - Immune modulation (VFC0258)] 
+[Campylobacter jejuni RM1221]
+Length=295
+
+ Score = 53.1 bits (126),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 35/191 (18%), Positives = 80/191 (42%), Gaps = 9/191 (5%)
+
+Query  107  IDLHRVGEALDAGRGVVLALPHSGNWDMAGVWLVQCHGTFTTVAERLKPESLYRRFINYR  166
+            I+ + + +AL   R ++    H GNW++  +     +G    V ++LK E +Y      R
+Sbjct  101  INENLLIDALALKRPIIFTTAHYGNWEILSLAYAAKYGAIAIVGKKLKSEIMYEILSQSR  160
+
+Query  167  ENLGFEVLPMSANKDTGFQALFELLCERLRSNRVVCLMAERDLTRT-GVEVDFFGEPTRM  225
+                 E++    +K  G + +       L+  R + ++ ++D      V + FF +    
+Sbjct  161  TQFDIELI----DKKGGIRQML----SALKKGRTLGILTDQDCAENESVRLKFFNKEVNY  212
+
+Query  226  PAGPAKLAIKTGAALLPVHCWFQGSGWGFSVHPALDCTSGDVGDVTQALADQFAQDIAAN  285
+              G + +A ++ A ++PV+ + +   +      A D  +  + ++T   A    + I   
+Sbjct  213  QMGASLIAQRSNALIIPVYAYKEDGKFCIEFFKAKDSQNASLEELTLYQAQSCEEMIKKR  272
+
+Query  286  PTDWHMLQPQW  296
+            P ++     ++
+Sbjct  273  PWEYFFFHRRF  283
+
+
+>VFG037747(gb|WP_001984639) (lpxM) lysophospholipid acyltransferase 
+family protein [LPS (VF0466) - Immune modulation (VFC0258)] 
+[Acinetobacter baumannii ACICU]
+Length=327
+
+ Score = 53.1 bits (126),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 50/186 (27%), Positives = 78/186 (42%), Gaps = 16/186 (9%)
+
+Query  110  HRVGEALDAGRGVVLALPHSGNWDMAGVWLVQCHGTFTTVAERLKP--ESLYRRFINYRE  167
+            H   EAL A +GVVL +PH G W++   W  Q    FT++    KP   +   RF+  RE
+Sbjct  104  HFFHEALAAKKGVVLIVPHFGTWEVMNAWCAQ----FTSMTILYKPVKNADADRFV--RE  157
+
+Query  168  NLGFEVLPMSANKDTGFQALFELLCERLRSNRVVCLMAERDLTRTGVEVDFFGEPTRMPA  227
+                E   +    ++G + +F+     L+      ++ +      G  V++FG P     
+Sbjct  158  ARSREQANLVPTDESGVRQIFKA----LKQGETTVILPDHTPNVGGDMVNYFGVPLASSN  213
+
+Query  228  GPAKLAIKTGAALLPVHCWFQGSGWGFSVH-PALD--CTSGDVGDVTQALADQFAQDIAA  284
+              AKL  KT A  L ++   +    GF++H   +D     G   D T  +     Q I  
+Sbjct  214  LSAKLIQKTKAKALFLYA-IRNENDGFTMHIEPMDEKIYEGTADDGTYVIHQAIEQLIYQ  272
+
+Query  285  NPTDWH  290
+             P  +H
+Sbjct  273  YPEHYH  278
+
+
+>VFG002025(gb|YP_002344527) (htrB) lipid A biosynthesis lauroyl 
+acyltransferase [LOS (VF0326) - Immune modulation (VFC0258)] 
+[Campylobacter jejuni subsp. jejuni NCTC 11168]
+Length=295
+
+ Score = 52.8 bits (125),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 33/184 (18%), Positives = 76/184 (41%), Gaps = 9/184 (5%)
+
+Query  114  EALDAGRGVVLALPHSGNWDMAGVWLVQCHGTFTTVAERLKPESLYRRFINYRENLGFEV  173
+            +AL   R ++    H GNW++  +     +G  + V ++LK E +Y      R     E+
+Sbjct  108  DALALNRPIIFTTAHYGNWEILSLAYAAKYGAISIVGKKLKSEIMYEILSQSRTQFDIEL  167
+
+Query  174  LPMSANKDTGFQALFELLCERLRSNRVVCLMAERDLTRT-GVEVDFFGEPTRMPAGPAKL  232
+            +    +K  G + +       L+  R + ++ ++D      V + FF +      G + +
+Sbjct  168  I----DKKGGIRQML----SALKKGRTLGILTDQDCVENESVRLKFFNKEVNYQMGASLI  219
+
+Query  233  AIKTGAALLPVHCWFQGSGWGFSVHPALDCTSGDVGDVTQALADQFAQDIAANPTDWHML  292
+            A ++ A ++PV+ + +   +        D  +  + ++T   A    + I   P ++   
+Sbjct  220  AQRSNALIIPVYAYKEDGKFCIEFFKVKDSQNASLEELTLYQAQSCEEMIKKRPWEYFFF  279
+
+Query  293  QPQW  296
+              ++
+Sbjct  280  HRRF  283
+
+
+>VFG037746(gb|WP_001985534) (lpxM) lysophospholipid acyltransferase 
+family protein [LPS (VF0466) - Immune modulation (VFC0258)] 
+[Acinetobacter baumannii AB0057]
+Length=327
+
+ Score = 53.1 bits (126),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 50/186 (27%), Positives = 78/186 (42%), Gaps = 16/186 (9%)
+
+Query  110  HRVGEALDAGRGVVLALPHSGNWDMAGVWLVQCHGTFTTVAERLKP--ESLYRRFINYRE  167
+            H   EAL A +GVVL +PH G W++   W  Q    FT++    KP   +   RF+  RE
+Sbjct  104  HFFHEALAAKKGVVLIVPHFGTWEVMNAWCAQ----FTSMTILYKPVKNADADRFV--RE  157
+
+Query  168  NLGFEVLPMSANKDTGFQALFELLCERLRSNRVVCLMAERDLTRTGVEVDFFGEPTRMPA  227
+                E   +    ++G + +F    + L+      ++ +      G  V++FG P     
+Sbjct  158  ARSREQANLVPTDESGVRQIF----KALKQGETTVILPDHTPNVGGDMVNYFGVPLASSN  213
+
+Query  228  GPAKLAIKTGAALLPVHCWFQGSGWGFSVH-PALD--CTSGDVGDVTQALADQFAQDIAA  284
+              AKL  KT A  L ++   +    GF++H   +D     G   D T  +     Q I  
+Sbjct  214  LSAKLIQKTKAKALFLYA-IRNENDGFTMHIEPMDEKIYEGTADDGTYVIHQAIEQLIYQ  272
+
+Query  285  NPTDWH  290
+             P  +H
+Sbjct  273  YPEHYH  278
+
+
+>VFG037757(gb|YP_005799955) (lpxM) putative lipid A biosynthesis 
+lauroyl acyltransferase [LPS (VF0466) - Immune modulation 
+(VFC0258)] [Acinetobacter baumannii TCDC-AB0715]
+Length=319
+
+ Score = 52.8 bits (125),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 50/186 (27%), Positives = 78/186 (42%), Gaps = 16/186 (9%)
+
+Query  110  HRVGEALDAGRGVVLALPHSGNWDMAGVWLVQCHGTFTTVAERLKP--ESLYRRFINYRE  167
+            H   EAL A +GVVL +PH G W++   W  Q    FT++    KP   +   RF+  RE
+Sbjct  96   HFFHEALAAKKGVVLIVPHFGTWEVMNAWCAQ----FTSMTILYKPVKNADADRFV--RE  149
+
+Query  168  NLGFEVLPMSANKDTGFQALFELLCERLRSNRVVCLMAERDLTRTGVEVDFFGEPTRMPA  227
+                E   +    ++G + +F    + L+      ++ +      G  V++FG P     
+Sbjct  150  ARSREQANLVPTDESGVRQIF----KALKQGETTVILPDHTPNVGGDMVNYFGVPLASSN  205
+
+Query  228  GPAKLAIKTGAALLPVHCWFQGSGWGFSVH-PALD--CTSGDVGDVTQALADQFAQDIAA  284
+              AKL  KT A  L ++   +    GF++H   +D     G   D T  +     Q I  
+Sbjct  206  LSAKLIQKTKAKALFLYA-IRNENDGFTMHIEPMDEKIYEGTADDGTYVIHQAIEQLIYQ  264
+
+Query  285  NPTDWH  290
+             P  +H
+Sbjct  265  YPEHYH  270
+
+
+>VFG011765(gb|WP_002850265) (CFF8240_RS06840) lipid A biosynthesis 
+lauroyl acyltransferase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter fetus subsp. fetus 82-40]
+Length=294
+
+ Score = 50.4 bits (119),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 42/196 (21%), Positives = 83/196 (42%), Gaps = 29/196 (15%)
+
+Query  114  EALDAGRGVVLALPHSGNWDMAGVWLVQCHGTFTTVAERLKPESLYRRFINYRENLGFEV  173
+            +ALD  R +++   H GNW++  + +    G+ + V   L    + +     R     E+
+Sbjct  106  DALDTKRPIIVQTAHYGNWELFSLAMAAKFGSVSIVGRNLDSSVMDQILSKNRTKFDIEL  165
+
+Query  174  LPMSANKDTGFQALFELLCERLRSNRVVCLMAERDLTRT-GVEVDFFGEPTRMPAGPAKL  232
+            +P    KD G + + + L  R    R++ ++ +++  +  GV+ +FFG+        +  
+Sbjct  166  IP----KDGGARDILKALKNR----RLLGILVDQNTAKKDGVQCEFFGKKIMHTPAASIF  217
+
+Query  233  AIKTGAALLPVH-----------CWFQGSGWGFSVHPALDCTSGD-VGDVTQALADQFAQ  280
+            A KTGA ++P             C+F+            +   GD +   TQA +D   Q
+Sbjct  218  ANKTGAIIIPAFIKRISRDKNEICFFK--------EILAENYEGDKLQKATQAQSDATEQ  269
+
+Query  281  DIAANPTDWHMLQPQW  296
+             I   P ++  +  ++
+Sbjct  270  MIKEKPDEYFWMHKKF  285
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2215538613
+
+
+Query= g2575.t1
+
+Length=316
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011764(gb|WP_002855840) (htrB) lipid A biosynthesis lauroyl ac...  65.9    4e-12
+VFG017999(gb|WP_002801091) (htrB) lipid A biosynthesis lauroyl ac...  63.2    2e-11
+VFG017765(gb|WP_011989870) (JJD26997_RS02720) lipid A biosynthesi...  63.2    3e-11
+VFG011763(gb|WP_002867215) (htrB) lipid A biosynthesis lauroyl ac...  62.0    6e-11
+VFG002025(gb|YP_002344527) (htrB) lipid A biosynthesis lauroyl ac...  61.6    9e-11
+VFG011765(gb|WP_002850265) (CFF8240_RS06840) lipid A biosynthesis...  54.7    2e-08
+
+
+>VFG011764(gb|WP_002855840) (htrB) lipid A biosynthesis lauroyl 
+acyltransferase HtrB [LOS (VF0326) - Immune modulation (VFC0258)] 
+[Campylobacter jejuni subsp. jejuni 81-176]
+Length=295
+
+ Score = 65.9 bits (159),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 43/224 (19%), Positives = 97/224 (43%), Gaps = 7/224 (3%)
+
+Query  79   DPLMCASLESYGRYWREVFRLPTINHRKLARQLDRVIGGLDHLDAALAAGLGAVLALPHS  138
+            D L     E++ ++  +  +       K+  +++ +    + L  ALA     +    H 
+Sbjct  66   DKLSLKIYENFAQFGIDCLQNQNTTKEKILNKVNFI--NENFLIDALALKRPIIFTTAHY  123
+
+Query  139  GNWDMAGMWLVQRHGTFTTVAERLKPESLYQRFIDYRESLGFEVLPLSGGERPPFEVLSE  198
+            GNW++  +    ++G  + V ++LK E +Y+     R     E++   GG R   ++LS 
+Sbjct  124  GNWEILSLAYAAKYGAISIVGKKLKSEVMYEILSQSRTQFDIELIDKKGGIR---QMLSA  180
+
+Query  199  RLRNNRVVCLMAERDLTRT-GVEVDFFGEPTRMPVGPAKLAVETGAALLPTHCWFEGRGW  257
+             L+  R + ++ ++D      V + FF +     +G + +A  + A ++P + + EG  +
+Sbjct  181  -LKKERALGILTDQDCVENESVRLKFFNKEVNYQMGASLIAQRSNALIIPVYAYKEGGKF  239
+
+Query  258  GFQVYPALDCTSGDVAAITQALADRFAQNIAAHPADWHMLQPQW  301
+              + + A D  +  +  +T   A    + I   P ++     ++
+Sbjct  240  CIEFFKAKDSQNASLEELTLYQAQSCEEMIKKRPWEYFFFHRRF  283
+
+
+>VFG017999(gb|WP_002801091) (htrB) lipid A biosynthesis lauroyl 
+acyltransferase HtrB [LOS (VF0326) - Immune modulation (VFC0258)] 
+[Campylobacter jejuni subsp. jejuni 81116]
+Length=292
+
+ Score = 63.2 bits (152),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 42/224 (19%), Positives = 97/224 (43%), Gaps = 7/224 (3%)
+
+Query  79   DPLMCASLESYGRYWREVFRLPTINHRKLARQLDRVIGGLDHLDAALAAGLGAVLALPHS  138
+            D L     E++ ++  +  +       K+  +++ +    + L  ALA     +    H 
+Sbjct  66   DKLSLKIYENFAQFGIDCLQNQNTTKEKILNKVNFI--NENFLIDALALKRPIIFTTAHY  123
+
+Query  139  GNWDMAGMWLVQRHGTFTTVAERLKPESLYQRFIDYRESLGFEVLPLSGGERPPFEVLSE  198
+            GNW++  +    ++G  + V ++LK E +Y+     R     E++   GG R   ++LS 
+Sbjct  124  GNWEILSLAYAAKYGAISIVGKKLKSEIMYEILSQSRTQFDIELIDKKGGIR---QMLSA  180
+
+Query  199  RLRNNRVVCLMAERDLTRT-GVEVDFFGEPTRMPVGPAKLAVETGAALLPTHCWFEGRGW  257
+             L+  R + ++ ++D      V + FF +     +G + +A  + A ++P + + E   +
+Sbjct  181  -LKKERALGILTDQDCVENESVRLKFFNKEVNYQMGASLIAQRSNALIIPVYAYKEDGKF  239
+
+Query  258  GFQVYPALDCTSGDVAAITQALADRFAQNIAAHPADWHMLQPQW  301
+              + + A D  + ++  +T   A    + I   P ++     ++
+Sbjct  240  CIEFFKAKDSQNANLEELTLYQAQSCEEMIKKRPWEYFFFHRRF  283
+
+
+>VFG017765(gb|WP_011989870) (JJD26997_RS02720) lipid A biosynthesis 
+lauroyl acyltransferase HtrB [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter jejuni subsp. doylei 269.97]
+Length=295
+
+ Score = 63.2 bits (152),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 41/224 (18%), Positives = 93/224 (42%), Gaps = 7/224 (3%)
+
+Query  79   DPLMCASLESYGRYWREVFRLPTINHRKLARQLDRVIGGLDHLDAALAAGLGAVLALPHS  138
+            D L     E++ ++  +  +       K+  +++ +    + L  ALA     +    H 
+Sbjct  66   DKLSLKIYENFAQFGIDCLQNQNTTKEKILNKVNFI--NENFLIDALALKRPIIFITAHY  123
+
+Query  139  GNWDMAGMWLVQRHGTFTTVAERLKPESLYQRFIDYRESLGFEVLPLSGGERPPFEVLSE  198
+            GNW++  +    ++G  + V ++LK E +Y+     R     E++   GG R        
+Sbjct  124  GNWEILSLAYAAKYGAISIVGKKLKSEVMYEILSRSRTQFDIELIDKKGGIRQMLNA---  180
+
+Query  199  RLRNNRVVCLMAERDLTRT-GVEVDFFGEPTRMPVGPAKLAVETGAALLPTHCWFEGRGW  257
+             L+  R + ++ ++D T    V + FF +     +G + +A  + A ++P + + E   +
+Sbjct  181  -LKKERALGILTDQDCTENESVRLKFFNKEVNYQMGASLIAQRSNALIIPIYAYKEDGKF  239
+
+Query  258  GFQVYPALDCTSGDVAAITQALADRFAQNIAAHPADWHMLQPQW  301
+              + + A D  +  +  +T   A    + I   P ++     ++
+Sbjct  240  CIEFFKAKDSQNASLEELTLYQAQSCEEMIKKRPWEYFFFHRRF  283
+
+
+>VFG011763(gb|WP_002867215) (htrB) lipid A biosynthesis lauroyl 
+acyltransferase HtrB [LOS (VF0326) - Immune modulation (VFC0258)] 
+[Campylobacter jejuni RM1221]
+Length=295
+
+ Score = 62.0 bits (149),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 43/224 (19%), Positives = 95/224 (42%), Gaps = 7/224 (3%)
+
+Query  79   DPLMCASLESYGRYWREVFRLPTINHRKLARQLDRVIGGLDHLDAALAAGLGAVLALPHS  138
+            D L     E++ ++  +  +       K+  +++ +   L  L  ALA     +    H 
+Sbjct  66   DKLSLKIYENFAQFGIDCLQNQNTTKEKILNKVNFINENL--LIDALALKRPIIFTTAHY  123
+
+Query  139  GNWDMAGMWLVQRHGTFTTVAERLKPESLYQRFIDYRESLGFEVLPLSGGERPPFEVLSE  198
+            GNW++  +    ++G    V ++LK E +Y+     R     E++   GG R   ++LS 
+Sbjct  124  GNWEILSLAYAAKYGAIAIVGKKLKSEIMYEILSQSRTQFDIELIDKKGGIR---QMLSA  180
+
+Query  199  RLRNNRVVCLMAERDLTRT-GVEVDFFGEPTRMPVGPAKLAVETGAALLPTHCWFEGRGW  257
+             L+  R + ++ ++D      V + FF +     +G + +A  + A ++P + + E   +
+Sbjct  181  -LKKGRTLGILTDQDCAENESVRLKFFNKEVNYQMGASLIAQRSNALIIPVYAYKEDGKF  239
+
+Query  258  GFQVYPALDCTSGDVAAITQALADRFAQNIAAHPADWHMLQPQW  301
+              + + A D  +  +  +T   A    + I   P ++     ++
+Sbjct  240  CIEFFKAKDSQNASLEELTLYQAQSCEEMIKKRPWEYFFFHRRF  283
+
+
+>VFG002025(gb|YP_002344527) (htrB) lipid A biosynthesis lauroyl 
+acyltransferase [LOS (VF0326) - Immune modulation (VFC0258)] 
+[Campylobacter jejuni subsp. jejuni NCTC 11168]
+Length=295
+
+ Score = 61.6 bits (148),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 41/224 (18%), Positives = 95/224 (42%), Gaps = 7/224 (3%)
+
+Query  79   DPLMCASLESYGRYWREVFRLPTINHRKLARQLDRVIGGLDHLDAALAAGLGAVLALPHS  138
+            D L     E++ ++  +  +       K+  +++ +    + L  ALA     +    H 
+Sbjct  66   DKLSLKIYENFAQFGIDCLQNQNTTKEKILNKVNFI--NENFLIDALALNRPIIFTTAHY  123
+
+Query  139  GNWDMAGMWLVQRHGTFTTVAERLKPESLYQRFIDYRESLGFEVLPLSGGERPPFEVLSE  198
+            GNW++  +    ++G  + V ++LK E +Y+     R     E++   GG R   ++LS 
+Sbjct  124  GNWEILSLAYAAKYGAISIVGKKLKSEIMYEILSQSRTQFDIELIDKKGGIR---QMLSA  180
+
+Query  199  RLRNNRVVCLMAERDLTRT-GVEVDFFGEPTRMPVGPAKLAVETGAALLPTHCWFEGRGW  257
+             L+  R + ++ ++D      V + FF +     +G + +A  + A ++P + + E   +
+Sbjct  181  -LKKGRTLGILTDQDCVENESVRLKFFNKEVNYQMGASLIAQRSNALIIPVYAYKEDGKF  239
+
+Query  258  GFQVYPALDCTSGDVAAITQALADRFAQNIAAHPADWHMLQPQW  301
+              + +   D  +  +  +T   A    + I   P ++     ++
+Sbjct  240  CIEFFKVKDSQNASLEELTLYQAQSCEEMIKKRPWEYFFFHRRF  283
+
+
+>VFG011765(gb|WP_002850265) (CFF8240_RS06840) lipid A biosynthesis 
+lauroyl acyltransferase [LOS (VF0326) - Immune modulation 
+(VFC0258)] [Campylobacter fetus subsp. fetus 82-40]
+Length=294
+
+ Score = 54.7 bits (130),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 41/188 (22%), Positives = 80/188 (43%), Gaps = 9/188 (5%)
+
+Query  119  DHLDAALAAGLGAVLALPHSGNWDMAGMWLVQRHGTFTTVAERLKPESLYQRFIDYRESL  178
+            D L  AL      ++   H GNW++  + +  + G+ + V   L    + Q     R   
+Sbjct  102  DILLDALDTKRPIIVQTAHYGNWELFSLAMAAKFGSVSIVGRNLDSSVMDQILSKNRTKF  161
+
+Query  179  GFEVLPLSGGERPPFEVLSERLRNNRVVCLMAERDLTRT-GVEVDFFGEPTRMPVGPAKL  237
+              E++P  GG R     + + L+N R++ ++ +++  +  GV+ +FFG+        +  
+Sbjct  162  DIELIPKDGGARD----ILKALKNRRLLGILVDQNTAKKDGVQCEFFGKKIMHTPAASIF  217
+
+Query  238  AVETGAALLPTHCWFEGRGWG----FQVYPALDCTSGDVAAITQALADRFAQNIAAHPAD  293
+            A +TGA ++P       R       F+   A +     +   TQA +D   Q I   P +
+Sbjct  218  ANKTGAIIIPAFIKRISRDKNEICFFKEILAENYEGDKLQKATQAQSDATEQMIKEKPDE  277
+
+Query  294  WHMLQPQW  301
+            +  +  ++
+Sbjct  278  YFWMHKKF  285
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2268039528
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

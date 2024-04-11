@@ -1,0 +1,68 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2339.t1
+
+Length=483
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG041881(gb|WP_011136139) (CV_RS12685) lytic polysaccharide mono...  48.9    3e-06
+
+
+>VFG041881(gb|WP_011136139) (CV_RS12685) lytic polysaccharide 
+monooxygenase [Cpi-2 encoded T3SS (SPI-2 like) (VF1260) - Effector 
+delivery system (VFC0086)] [Chromobacterium violaceum 
+ATCC 12472]
+Length=386
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 23/46 (50%), Positives = 28/46 (61%), Gaps = 2/46 (4%)
+
+Query  439  WRENQAYRVDDGVTYEGLRYLCLQAHTS--NSGWTPPVAFTLWRPL  482
+            WRE  AY V   V+Y+  RY CLQAHT+   +GWTP     LW P+
+Sbjct  341  WREGVAYAVGQVVSYQNRRYRCLQAHTAWVGAGWTPSTTPALWTPV  386
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3937148645
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

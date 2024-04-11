@@ -1,0 +1,396 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g52.t1
+
+Length=411
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049120(gb|WP_012737535) (allB) allantoinase [Allantion utiliza...  74.3    2e-14
+
+
+>VFG049120(gb|WP_012737535) (allB) allantoinase [Allantion utilization 
+(VF0572) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=453
+
+ Score = 74.3 bits (181),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 89/426 (21%), Positives = 164/426 (38%), Gaps = 46/426 (11%)
+
+Query  15   IQKTDSVQTVYLQDGKLIA---PVDQVEQTIDGQGKWLMPTMVDLCARLREPGQQQHGTL  71
+            ++    V  + + DGK+ A    + + +Q +D  G  + P MVD    + EPG+      
+Sbjct  14   LENESRVVDIAVNDGKIAAIGEHLGEAKQVMDATGLIVSPGMVDAHTHISEPGRTHWEGY  73
+
+Query  72   KSEGKAARANGILHVITPPDSKPIVQDNGALIHGLIEKAWHDGGIHMHIIGAQTQGLNGK  131
+            ++  +AA   GI  +I      P+ Q    +    IE  +      + I  AQ  GL   
+Sbjct  74   ETGTRAAAKGGITTMI----EMPLNQLPATVDRQTIELKFDAAKGKLTIDAAQLGGLVSY  129
+
+Query  132  QPANMAGLKKGG-----CTAVSNANAAFENDDVVVRTLEYAAG------LGLTVVFYAEE  180
+                +  L + G     C   +  +   +ND   V   ++  G      +  TV+ + E 
+Sbjct  130  NLDRLHELDEVGVVGFKCFVATCGDRGIDNDFRDVNDWQFFKGIQKLAEMKQTVLVHCEN  189
+
+Query  181  PQLAKD---GCAHEGFIASRQGLPMIPAIAETVAIAKYLLMIEATGVKAHFGLLSCGASV  237
+              +  +       EG + +   +   P   E  AI + L + +  G + H   +S    V
+Sbjct  190  ALICDELGEEAKREGRVTAHDYVASRPVFTEVEAIRRVLYLAKVAGCRLHVCHVSSPEGV  249
+
+Query  238  ELIRAAKAKGLPVTADVAMHQLHLTEQLIDGFNSLAHVRPPLRSEQDKELLRQGLKQGVI  297
+              +  A+ +G  VT +   H   L         +LA   PP+R  ++++ + + L  G I
+Sbjct  250  AEVTRARQEGQDVTCESCPHYFVLDTDQFAEIGTLAKCSPPIRDAENQKGMWEKLFNGEI  309
+
+Query  298  DAICTHHEPLSSSAKMAPFAETQPGITAFDTYVALGIQLINEGLFEPLEWVTKVTSAPAQ  357
+            D + + H P     K     +   GI         G+Q   + +F+  E V K   +  Q
+Sbjct  310  DCLVSDHSPCPPEMKAGNIMQAWGGIA--------GLQNCMDVMFD--EAVQKRGMSLPQ  359
+
+Query  358  VANMTARWQA---------------EAGWVLVDPELSWTVSKDTILSQGKNTPLLGQKLT  402
+             A + A   A               +A  V + P  S+ +  + +  + K +P +G+K+ 
+Sbjct  360  FARLMATNAADIFGLKHKGRIAPGKDADLVFIQPNSSYVLRAEDLEYRHKVSPYVGRKIG  419
+
+Query  403  GKVLQT  408
+             ++ +T
+Sbjct  420  ARIAKT  425
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3208200996
+
+
+Query= g388.t1
+
+Length=430
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049120(gb|WP_012737535) (allB) allantoinase [Allantion utiliza...  157     3e-43
+
+
+>VFG049120(gb|WP_012737535) (allB) allantoinase [Allantion utilization 
+(VF0572) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=453
+
+ Score = 157 bits (397),  Expect = 3e-43, Method: Compositional matrix adjust.
+ Identities = 124/426 (29%), Positives = 200/426 (47%), Gaps = 18/426 (4%)
+
+Query  8    VRLYGEGEQVDVLVEGEQIANIGAGIDIPDTADVIDAIDQVLLPGLVDLHTHLREPGREY  67
+            V L  E   VD+ V   +IA IG    + +   V+DA   ++ PG+VD HTH+ EPGR +
+Sbjct  12   VILENESRVVDIAVNDGKIAAIGE--HLGEAKQVMDATGLIVSPGMVDAHTHISEPGRTH  69
+
+Query  68   AEDIETGSAAAALGGYTAVFAMP-NTTPVADSPVVTDHVWRRGQQVGLVDVHPVGA-VTV  125
+             E  ETG+ AAA GG T +  MP N  P        +  +   +    +D   +G  V+ 
+Sbjct  70   WEGYETGTRAAAKGGITTMIEMPLNQLPATVDRQTIELKFDAAKGKLTIDAAQLGGLVSY  129
+
+Query  126  GLAGA-ELTEMGMMAAGAAQVRIFSDDGNCVHNPLVMRRALEYATGLGVL------IAQH  178
+             L    EL E+G++      V    D G  + N        ++  G+  L      +  H
+Sbjct  130  NLDRLHELDEVGVVGFKCF-VATCGDRG--IDNDFRDVNDWQFFKGIQKLAEMKQTVLVH  186
+
+Query  179  AEEPRLT--VGAVA-HEGPTAARLGLSGWPRAAEESIVARDALLARDAGARVHICHASTA  235
+             E   +   +G  A  EG   A   ++  P   E   + R   LA+ AG R+H+CH S+ 
+Sbjct  187  CENALICDELGEEAKREGRVTAHDYVASRPVFTEVEAIRRVLYLAKVAGCRLHVCHVSSP  246
+
+Query  236  GTVEILKWAKEQGISITAEVTPHHLLLDDSRLASYDGVNRVNPPLRETADAVALRQALAD  295
+              V  +  A+++G  +T E  PH+ +LD  + A    + + +PP+R+  +   + + L +
+Sbjct  247  EGVAEVTRARQEGQDVTCESCPHYFVLDTDQFAEIGTLAKCSPPIRDAENQKGMWEKLFN  306
+
+Query  296  GIIDCVTTDHAPHADHEKCVEFSAARPGMLGLQTALSVVVHTMVVPGLLSWRDVAQVMSE  355
+            G IDC+ +DH+P     K      A  G+ GLQ  + V+    V    +S    A++M+ 
+Sbjct  307  GEIDCLVSDHSPCPPEMKAGNIMQAWGGIAGLQNCMDVMFDEAVQKRGMSLPQFARLMAT  366
+
+Query  356  NPARIAGLPDHGRPLEVGEPANLTVVDPDVTWTVTGDGLASRSANTPYEAMTLPATVTAT  415
+            N A I GL   GR +  G+ A+L  + P+ ++ +  + L  R   +PY    + A +  T
+Sbjct  367  NAADIFGLKHKGR-IAPGKDADLVFIQPNSSYVLRAEDLEYRHKVSPYVGRKIGARIAKT  425
+
+Query  416  LLRGKV  421
+            +LRG+V
+Sbjct  426  ILRGEV  431
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3406109499
+
+
+Query= g1371.t1
+
+Length=430
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049120(gb|WP_012737535) (allB) allantoinase [Allantion utiliza...  169     1e-47
+
+
+>VFG049120(gb|WP_012737535) (allB) allantoinase [Allantion utilization 
+(VF0572) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=453
+
+ Score = 169 bits (428),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 127/428 (30%), Positives = 203/428 (47%), Gaps = 32/428 (7%)
+
+Query  13   EGERVDVLVDDGQIAQIGPDLAIPDTADVIDATGHVLLPGFVDLHTHLREPGREYAEDIE  72
+            E   VD+ V+DG+IA IG  L   +   V+DATG ++ PG VD HTH+ EPGR + E  E
+Sbjct  17   ESRVVDIAVNDGKIAAIGEHLG--EAKQVMDATGLIVSPGMVDAHTHISEPGRTHWEGYE  74
+
+Query  73   TGSAAAALGGYTAVFAMANTNPVADSPVVTDHVWHRGQQVGLVDVHPVGAVTV------G  126
+            TG+ AAA GG T +  M    P+   P   D      Q + L      G +T+      G
+Sbjct  75   TGTRAAAKGGITTMIEM----PLNQLPATVDR-----QTIELKFDAAKGKLTIDAAQLGG  125
+
+Query  127  LAGAELTEMGMMN-AGAAQVRMF---------SDDGVCVHDPLIMRRALEYATGLGVLIA  176
+            L    L  +  ++  G    + F          +D   V+D    +  ++    +   + 
+Sbjct  126  LVSYNLDRLHELDEVGVVGFKCFVATCGDRGIDNDFRDVNDWQFFK-GIQKLAEMKQTVL  184
+
+Query  177  QHAEEPRLT--VGAVAH-EGPMAARLGLAGWPRAAEESIVARDALLARDAGARVHICHAS  233
+             H E   +   +G  A  EG + A   +A  P   E   + R   LA+ AG R+H+CH S
+Sbjct  185  VHCENALICDELGEEAKREGRVTAHDYVASRPVFTEVEAIRRVLYLAKVAGCRLHVCHVS  244
+
+Query  234  AAGTVEILKWAKDQGISITAEVTPHHLLLDDARLASYDGVNRVNPPLREASDAVALRQAL  293
+            +   V  +  A+ +G  +T E  PH+ +LD  + A    + + +PP+R+A +   + + L
+Sbjct  245  SPEGVAEVTRARQEGQDVTCESCPHYFVLDTDQFAEIGTLAKCSPPIRDAENQKGMWEKL  304
+
+Query  294  ADGIIDCVATDHAPHAEHEKCVEFAAARPGMLGLQTALSVVVQTMVAPGLLSWRDIARVM  353
+             +G IDC+ +DH+P     K      A  G+ GLQ  + V+    V    +S    AR+M
+Sbjct  305  FNGEIDCLVSDHSPCPPEMKAGNIMQAWGGIAGLQNCMDVMFDEAVQKRGMSLPQFARLM  364
+
+Query  354  SENPACIARLPDQGRPLEVGEPANLTVVDPDATWTVTGADLASRSANTPFESMSLPATVT  413
+            + N A I  L  +GR +  G+ A+L  + P++++ +   DL  R   +P+    + A + 
+Sbjct  365  ATNAADIFGLKHKGR-IAPGKDADLVFIQPNSSYVLRAEDLEYRHKVSPYVGRKIGARIA  423
+
+Query  414  ATLLRGKV  421
+             T+LRG+V
+Sbjct  424  KTILRGEV  431
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3406109499
+
+
+Query= g408.t1
+
+Length=423
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049120(gb|WP_012737535) (allB) allantoinase [Allantion utiliza...  123     5e-31
+
+
+>VFG049120(gb|WP_012737535) (allB) allantoinase [Allantion utilization 
+(VF0572) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=453
+
+ Score = 123 bits (309),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 109/420 (26%), Positives = 181/420 (43%), Gaps = 20/420 (5%)
+
+Query  19   QVGDLHIEAGKIVAIGAAPAGFSAQKTLDGAGLVAAPGLVDLSVALREPGYGRKGNVESE  78
+            +V D+ +  GKI AIG       A++ +D  GL+ +PG+VD    + EPG       E+ 
+Sbjct  19   RVVDIAVNDGKIAAIGEHLG--EAKQVMDATGLIVSPGMVDAHTHISEPGRTHWEGYETG  76
+
+Query  79   TRAAAAGGTTSLCCPPYTR-PVLDTPAVAELILDRAREAGNAKVYPIGALTRGFGGEQLS  137
+            TRAAA GG T++   P  + P        EL  D A+         +G L   +  ++L 
+Sbjct  77   TRAAAKGGITTMIEMPLNQLPATVDRQTIELKFDAAKGKLTIDAAQLGGLV-SYNLDRLH  135
+
+Query  138  EL--VALRDTGCVAFTNGLHGF------ASNRILRRALEYAATFDLTVIFTSQDT----D  185
+            EL  V +    C   T G  G        ++    + ++  A    TV+   ++     +
+Sbjct  136  ELDEVGVVGFKCFVATCGDRGIDNDFRDVNDWQFFKGIQKLAEMKQTVLVHCENALICDE  195
+
+Query  186  LAEGGLAHEGPTASFLGLAGIPETAETVALARNLLLVEQSGVRAHFSQLTSARGIELVAQ  245
+            L E     EG   +   +A  P   E  A+ R L L + +G R H   ++S  G+  V +
+Sbjct  196  LGEEA-KREGRVTAHDYVASRPVFTEVEAIRRVLYLAKVAGCRLHVCHVSSPEGVAEVTR  254
+
+Query  246  AQARGLPVTCDVALYQLILTDEALVGFSSLYHVQPPLRTRADREALREAVKNGVVQAIAS  305
+            A+  G  VTC+   +  +L  +      +L    PP+R   +++ + E + NG +  + S
+Sbjct  255  ARQEGQDVTCESCPHYFVLDTDQFAEIGTLAKCSPPIRDAENQKGMWEKLFNGEIDCLVS  314
+
+Query  306  HHQPHEADAKNAPFAATEPGISGAELLLPLAM-TLVQDGLLDLPTLLARLSHGPAQALRL  364
+             H P   + K         GI+G +  + +     VQ   + LP     ++   A    L
+Sbjct  315  DHSPCPPEMKAGNIMQAWGGIAGLQNCMDVMFDEAVQKRGMSLPQFARLMATNAADIFGL  374
+
+Query  365  P-AGRLAVGQAADLVLFDPQGS-TLAGESWYSKGQNSPFVGHCLPGRVRYTLVDGHLTHE  422
+               GR+A G+ ADLV   P  S  L  E    + + SP+VG  +  R+  T++ G + ++
+Sbjct  375  KHKGRIAPGKDADLVFIQPNSSYVLRAEDLEYRHKVSPYVGRKIGARIAKTILRGEVIYD  434
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3333195840
+
+
+Query= g448.t1
+
+Length=479
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049120(gb|WP_012737535) (allB) allantoinase [Allantion utiliza...  160     5e-44
+
+
+>VFG049120(gb|WP_012737535) (allB) allantoinase [Allantion utilization 
+(VF0572) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=453
+
+ Score = 160 bits (405),  Expect = 5e-44, Method: Compositional matrix adjust.
+ Identities = 130/450 (29%), Positives = 205/450 (46%), Gaps = 31/450 (7%)
+
+Query  1    MSLLIRGATVVTHEESYRADVLCANGLIQAIGENLETPSGCDVLDGGGQYLMPGGIDPHT  60
+              L+I+  TV+   ES   D+   +G I AIGE+L       V+D  G  + PG +D HT
+Sbjct  3    FDLIIKNGTVILENESRVVDIAVNDGKIAAIGEHLGEAK--QVMDATGLIVSPGMVDAHT  60
+
+Query  61   HMQLPFMGTVASEDFFSGTAAGLAGGTTSIIDFVIPN-----PRQSLLEAFHTWRGWAQK  115
+            H+  P  G    E + +GT A   GG T++I+  +        RQ++   F   +G    
+Sbjct  61   HISEP--GRTHWEGYETGTRAAAKGGITTMIEMPLNQLPATVDRQTIELKFDAAKGKLTI  118
+
+Query  116  SAADYGFHVAITWWSDEVAREMGELVAQHGVNSFKHFMA------YKNAIMAADD-TLVA  168
+             AA  G    +  ++ +   E+ E+    GV  FK F+A        N     +D     
+Sbjct  119  DAAQLG---GLVSYNLDRLHELDEV----GVVGFKCFVATCGDRGIDNDFRDVNDWQFFK  171
+
+Query  169  SFERCLELGAVPTVHAENGELVFHLQQKLLAQGLTGPEAHPLSRPPQVEGEAASRAIRIA  228
+              ++  E+     VH EN  +   L ++   +G      +  SRP   E EA  R + +A
+Sbjct  172  GIQKLAEMKQTVLVHCENALICDELGEEAKREGRVTAHDYVASRPVFTEVEAIRRVLYLA  231
+
+Query  229  ETLGTPLYLVHISSREALDEIAYARAKGQPVYGEVLAGHLLLDDSVYRHPDWATAAGYVM  288
+            +  G  L++ H+SS E + E+  AR +GQ V  E    + +LD   +   +  T A    
+Sbjct  232  KVAGCRLHVCHVSSPEGVAEVTRARQEGQDVTCESCPHYFVLDTDQF--AEIGTLAK--C  287
+
+Query  289  SPPFRPVEHQEALWRGLQSGNLHTTATDHCCFCAEQKAMGRDDFSKIPNGTAGIEDRMAL  348
+            SPP R  E+Q+ +W  L +G +    +DH     E KA    +  +   G AG+++ M +
+Sbjct  288  SPPIRDAENQKGMWEKLFNGEIDCLVSDHSPCPPEMKA---GNIMQAWGGIAGLQNCMDV  344
+
+Query  349  LWDAGVNSGRLSMHEFVALTSTNTAKIFNLFPRKGAIRVGADADLVLWDPQGSRTLSAAT  408
+            ++D  V    +S+ +F  L +TN A IF L   KG I  G DADLV   P  S  L A  
+Sbjct  345  MFDEAVQKRGMSLPQFARLMATNAADIFGL-KHKGRIAPGKDADLVFIQPNSSYVLRAED  403
+
+Query  409  HHQRVDFNIFEGRTVRGIPSHTISQGKLLW  438
+               R   + + GR +    + TI +G++++
+Sbjct  404  LEYRHKVSPYVGRKIGARIAKTILRGEVIY  433
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3895595625
+
+
+Query= g488.t1
+
+Length=453
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049120(gb|WP_012737535) (allB) allantoinase [Allantion utiliza...  886     0.0  
+
+
+>VFG049120(gb|WP_012737535) (allB) allantoinase [Allantion utilization 
+(VF0572) - Nutritional/Metabolic factor (VFC0272)] 
+[Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=453
+
+ Score = 886 bits (2290),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 423/453 (93%), Positives = 435/453 (96%), Gaps = 0/453 (0%)
+
+Query  1    MSFDLIIKNGTVILENEARVIDIAVQGGKIAAIGENLGEAKNVLDATGLIVSPGMVDAHT  60
+            MSFDLIIKNGTVILENE+RV+DIAV  GKIAAIGE+LGEAK V+DATGLIVSPGMVDAHT
+Sbjct  1    MSFDLIIKNGTVILENESRVVDIAVNDGKIAAIGEHLGEAKQVMDATGLIVSPGMVDAHT  60
+
+Query  61   HISEPGRTHWEGYETGTRAAAKGGITTMIEMPLNQLPATVDRETIELKFDAAKGKLTIDA  120
+            HISEPGRTHWEGYETGTRAAAKGGITTMIEMPLNQLPATVDR+TIELKFDAAKGKLTIDA
+Sbjct  61   HISEPGRTHWEGYETGTRAAAKGGITTMIEMPLNQLPATVDRQTIELKFDAAKGKLTIDA  120
+
+Query  121  AQLGGLVSYNLDRLHELDEVGVVGFKCFVATCGDRGIDNDFRDVNDWQFYKGAQKLGEMD  180
+            AQLGGLVSYNLDRLHELDEVGVVGFKCFVATCGDRGIDNDFRDVNDWQF+KG QKL EM 
+Sbjct  121  AQLGGLVSYNLDRLHELDEVGVVGFKCFVATCGDRGIDNDFRDVNDWQFFKGIQKLAEMK  180
+
+Query  181  QTVLVHCENALICDELGEEAKREGRVTAHDYVASRPVFTEVEAIRRVLYLAKAAGCRLHV  240
+            QTVLVHCENALICDELGEEAKREGRVTAHDYVASRPVFTEVEAIRRVLYLAK AGCRLHV
+Sbjct  181  QTVLVHCENALICDELGEEAKREGRVTAHDYVASRPVFTEVEAIRRVLYLAKVAGCRLHV  240
+
+Query  241  CHISSPEGVEEVTRARQEGQDVTCESCPHYFVLDTDQFEEIGTLAKCSPPIRDQENQKGM  300
+            CH+SSPEGV EVTRARQEGQDVTCESCPHYFVLDTDQF EIGTLAKCSPPIRD ENQKGM
+Sbjct  241  CHVSSPEGVAEVTRARQEGQDVTCESCPHYFVLDTDQFAEIGTLAKCSPPIRDAENQKGM  300
+
+Query  301  WEKLFNGEIDCLVSDHSPCPPEMKAGNIMQAWGGIAGLQNCMDVMFDEAVQKRGMSLPMF  360
+            WEKLFNGEIDCLVSDHSPCPPEMKAGNIMQAWGGIAGLQNCMDVMFDEAVQKRGMSLP F
+Sbjct  301  WEKLFNGEIDCLVSDHSPCPPEMKAGNIMQAWGGIAGLQNCMDVMFDEAVQKRGMSLPQF  360
+
+Query  361  GKLMATNAADIFGLKHKGRIAPGKDADLVFIQPDSSYVLKNEDLEYRHKVSPYVGRTIGA  420
+             +LMATNAADIFGLKHKGRIAPGKDADLVFIQP+SSYVL+ EDLEYRHKVSPYVGR IGA
+Sbjct  361  ARLMATNAADIFGLKHKGRIAPGKDADLVFIQPNSSYVLRAEDLEYRHKVSPYVGRKIGA  420
+
+Query  421  RITKTILRGDVIYDIEHGFPVPPKGQFILKHQQ  453
+            RI KTILRG+VIYDIE GFP  PKG+FILKHQQ
+Sbjct  421  RIAKTILRGEVIYDIEQGFPREPKGKFILKHQQ  453
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.138    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3645682950
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,1254 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g398.t1
+
+Length=142
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG029400(gb|WP_041319066) (mmpS4) MmpS family protein [GPL locus...  145     1e-45
+VFG029402(gb|WP_036390192) (mmpS4) MmpS family protein [GPL locus...  135     1e-41
+VFG029390(gb|WP_011726897) (mmpS4) MmpS family protein [GPL locus...  130     1e-39
+VFG029431(gb|WP_015304370) (mmpS4) MmpS family protein [GPL locus...  129     2e-39
+VFG029398(gb|WP_010908860) (mmpS4) MmpS family protein [GPL locus...  129     2e-39
+VFG029394(gb|YP_001704844) (mmpS4) Putative membrane protein, Mmp...  127     1e-38
+VFG029387(gb|WP_003876149) (mmpS4) MmpS family protein [GPL locus...  127     2e-38
+VFG029385(gb|WP_165443175) (mmpS4) MmpS family protein [GPL locus...  127     2e-38
+VFG029383(gb|NP_214965) (mmpS4) membrane protein MmpS4 [GPL locus...  126     2e-38
+VFG029422(gb|YP_007956640) (mmpS4) membrane protein [GPL locus (V...  122     1e-36
+VFG029399(gb|WP_012392718) (mmpS4) MmpS family protein [GPL locus...  114     1e-33
+VFG029412(gb|WP_015354433) (mmpS4) MmpS family protein [GPL locus...  113     5e-33
+VFG029392(gb|WP_011740358) (mmpS4) membrane protein [GPL locus (V...  113     6e-33
+
+
+>VFG029400(gb|WP_041319066) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+sp. JDM601]
+Length=140
+
+ Score = 145 bits (365),  Expect = 1e-45, Method: Compositional matrix adjust.
+ Identities = 67/137 (49%), Positives = 95/137 (69%), Gaps = 1/137 (1%)
+
+Query  7    RFWIPMVIVIVVAVAAVTVSRLHSVFGSHQHAP-DTGNLDPIIAFYPKHVLYEVFGPPGT  65
+            R WIP+VI+ VV VA  TV+R+H +FGS +      G +D    F PK + YE+FGPPGT
+Sbjct  4    RVWIPLVILAVVGVAGFTVTRIHGLFGSEKRPSYADGQIDETKPFNPKRMTYEIFGPPGT  63
+
+Query  66   VASINYLDADAQPHEVVNAAVPWSFTIVTTLTAVVANVVARGDGASLGCRITVNEVIREE  125
+            VA I+Y D +++P  V + A+PW   IVTTL AVV +++A+G+  S+GCRITV+  ++ E
+Sbjct  64   VADISYFDVNSEPQRVQDVALPWQLEIVTTLPAVVGSIMAQGNSNSIGCRITVDGEVKAE  123
+
+Query  126  RIVNAYHAHTSCLVKSA  142
+            RI N  +A+T CL+K+A
+Sbjct  124  RISNEVNAYTFCLLKAA  140
+
+
+>VFG029402(gb|WP_036390192) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+indicus pranii MTCC 9506]
+Length=139
+
+ Score = 135 bits (340),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 67/136 (49%), Positives = 90/136 (66%), Gaps = 3/136 (2%)
+
+Query  6    KRFWIPMVIVIVVAVAAVTVSRLHSVFGSHQHAPD--TGNLDPIIAFYPKHVLYEVFGPP  63
+            KR WIP+VIV VV    +TVSRLH VFGS +H P            F PKHV YEVFGP 
+Sbjct  2    KRLWIPLVIVAVVIAGGMTVSRLHGVFGS-EHRPSYAESRQQDTKPFNPKHVKYEVFGPA  60
+
+Query  64   GTVASINYLDADAQPHEVVNAAVPWSFTIVTTLTAVVANVVARGDGASLGCRITVNEVIR  123
+            GT+A I+Y DA+ +P+ +    +PW+F I TTL ++V NVVA+G+  +LGCRI V+ V++
+Sbjct  61   GTMADISYFDANGEPNHITGIVLPWTFDISTTLPSIVGNVVAQGNSDTLGCRIVVDGVVK  120
+
+Query  124  EERIVNAYHAHTSCLV  139
+             ERI +  +A T C++
+Sbjct  121  TERISHQLNAFTYCVL  136
+
+
+>VFG029390(gb|WP_011726897) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+smegmatis str. MC2 155]
+Length=139
+
+ Score = 130 bits (326),  Expect = 1e-39, Method: Compositional matrix adjust.
+ Identities = 61/139 (44%), Positives = 90/139 (65%), Gaps = 3/139 (2%)
+
+Query  6    KRFWIPMVIVIVVAVAAVTVSRLHSVFGSHQHAP--DTGNLDPIIAFYPKHVLYEVFGPP  63
+            +R WIP++++ VVAV   TVSRLH+VFG+ +     DT   D    F PK + YEVFGPP
+Sbjct  2    RRLWIPLLVIAVVAVGGFTVSRLHNVFGAEKRPSYADTKAADSK-PFDPKRLTYEVFGPP  60
+
+Query  64   GTVASINYLDADAQPHEVVNAAVPWSFTIVTTLTAVVANVVARGDGASLGCRITVNEVIR  123
+            GT+A I+Y D D+ P  V   ++PWS       T  V +++A+GD  ++GCRI V++ ++
+Sbjct  61   GTLADISYFDEDSNPQFVEKVSLPWSLHFDIGKTTAVGSIMAQGDSDTIGCRIIVDDEVK  120
+
+Query  124  EERIVNAYHAHTSCLVKSA  142
+             E++ N  +A TSCL+K+A
+Sbjct  121  AEKVSNQTNAFTSCLLKAA  139
+
+
+>VFG029431(gb|WP_015304370) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+smegmatis JS623]
+Length=139
+
+ Score = 129 bits (325),  Expect = 2e-39, Method: Compositional matrix adjust.
+ Identities = 58/139 (42%), Positives = 90/139 (65%), Gaps = 3/139 (2%)
+
+Query  6    KRFWIPMVIVIVVAVAAVTVSRLHSVFGSHQHAP--DTGNLDPIIAFYPKHVLYEVFGPP  63
+            KR WIP+++++V+      VSRLH+VFGS +     DT  ++   +F PKH+ YEVFGPP
+Sbjct  2    KRLWIPLLVLVVIVTGGFAVSRLHTVFGSEKRPSYADT-MINESKSFNPKHMTYEVFGPP  60
+
+Query  64   GTVASINYLDADAQPHEVVNAAVPWSFTIVTTLTAVVANVVARGDGASLGCRITVNEVIR  123
+            GT+A I+Y D +  P  V   ++PW+     +    V +++A+GD  S+GCRITV+  ++
+Sbjct  61   GTMADISYFDVNTDPQFVQRVSLPWTLQFEISKATAVGSIMAQGDSDSIGCRITVDNEVK  120
+
+Query  124  EERIVNAYHAHTSCLVKSA  142
+             E++ N  +A TSCL+K+A
+Sbjct  121  AEKVSNQVNAFTSCLLKAA  139
+
+
+>VFG029398(gb|WP_010908860) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+leprae Br4923]
+Length=154
+
+ Score = 129 bits (325),  Expect = 2e-39, Method: Compositional matrix adjust.
+ Identities = 67/143 (47%), Positives = 94/143 (66%), Gaps = 1/143 (1%)
+
+Query  1    MFGVAKRFWIPMVIVIVVAVAAVTVSRLHSVFGSHQHAP-DTGNLDPIIAFYPKHVLYEV  59
+            +F +  R WIP+VI++V+ V    V R+HS F S +       NL     F PK ++YEV
+Sbjct  12   IFKLLSRIWIPLVILVVLVVGGFVVYRVHSYFASEKRESYADSNLGSSKPFNPKQIVYEV  71
+
+Query  60   FGPPGTVASINYLDADAQPHEVVNAAVPWSFTIVTTLTAVVANVVARGDGASLGCRITVN  119
+            FGPPGTVA I+Y DA++ P  +  A +PWS  + TTL AV+ N+VA+G+  S+GCRI V+
+Sbjct  72   FGPPGTVADISYFDANSDPQRIDGAQLPWSLLMTTTLAAVMGNLVAQGNTDSIGCRIIVD  131
+
+Query  120  EVIREERIVNAYHAHTSCLVKSA  142
+             V++ ER+ N  +A+T CLVKSA
+Sbjct  132  GVVKAERVSNEVNAYTYCLVKSA  154
+
+
+>VFG029394(gb|YP_001704844) (mmpS4) Putative membrane protein, 
+MmpS family [GPL locus (VF0841) - Immune modulation (VFC0258)] 
+[Mycobacterium abscessus ATCC 19977]
+Length=138
+
+ Score = 127 bits (319),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 59/138 (43%), Positives = 88/138 (64%), Gaps = 3/138 (2%)
+
+Query  7    RFWIPMVIVIVVAVAAVTVSRLHSVFGSHQHAP--DTGNLDPIIAFYPKHVLYEVFGPPG  64
+            R WIP++++ V+AV   TVSRLH VFG+ +     DT N+    +F PK + YEVFG PG
+Sbjct  2    RLWIPLLVIAVIAVGGFTVSRLHGVFGNEKRPSYADT-NVSDAKSFDPKKMSYEVFGSPG  60
+
+Query  65   TVASINYLDADAQPHEVVNAAVPWSFTIVTTLTAVVANVVARGDGASLGCRITVNEVIRE  124
+             VA I+Y D +  P  +    +PWS       T  V +++A+GDG+S+GCRI V++ ++ 
+Sbjct  61   NVADISYFDVNGDPLFIQKVPLPWSVKFEIGKTTAVGSIMAQGDGSSIGCRIIVDDEVKS  120
+
+Query  125  ERIVNAYHAHTSCLVKSA  142
+            E++ N  +A TSCL+K+A
+Sbjct  121  EKVTNQTNAFTSCLLKAA  138
+
+
+>VFG029387(gb|WP_003876149) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+avium subsp. paratuberculosis K-10]
+Length=139
+
+ Score = 127 bits (318),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 67/136 (49%), Positives = 89/136 (65%), Gaps = 3/136 (2%)
+
+Query  6    KRFWIPMVIVIVVAVAAVTVSRLHSVFGSHQHAP--DTGNLDPIIAFYPKHVLYEVFGPP  63
+            KR WIP+VIV VV    +TVSRLH +FGS +     DT   D    F PKHV YEVFGP 
+Sbjct  2    KRLWIPLVIVAVVVAGGLTVSRLHGIFGSEKRPSYADTRQQD-TKPFNPKHVKYEVFGPA  60
+
+Query  64   GTVASINYLDADAQPHEVVNAAVPWSFTIVTTLTAVVANVVARGDGASLGCRITVNEVIR  123
+            G +A I+Y DA+ +P  +    +PW+F I TTL ++V NVVA+G+  SLGCRI V+ V++
+Sbjct  61   GAMADISYFDANGEPQHINGVELPWTFDISTTLPSIVGNVVAQGNSDSLGCRILVDGVVK  120
+
+Query  124  EERIVNAYHAHTSCLV  139
+             ERI +  +A T C++
+Sbjct  121  TERISHELNAFTYCVL  136
+
+
+>VFG029385(gb|WP_165443175) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+leprae TN]
+Length=140
+
+ Score = 127 bits (318),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 66/137 (48%), Positives = 91/137 (66%), Gaps = 1/137 (1%)
+
+Query  7    RFWIPMVIVIVVAVAAVTVSRLHSVFGSHQHAP-DTGNLDPIIAFYPKHVLYEVFGPPGT  65
+            R WIP+VI++V+ V    V R+HS F S +       NL     F PK ++YEVFGPPGT
+Sbjct  4    RIWIPLVILVVLVVGGFVVYRVHSYFASEKRESYADSNLGSSKPFNPKQIVYEVFGPPGT  63
+
+Query  66   VASINYLDADAQPHEVVNAAVPWSFTIVTTLTAVVANVVARGDGASLGCRITVNEVIREE  125
+            VA I+Y DA++ P  +  A +PWS  + TTL AV+ N+VA+G+  S+GCRI V+ V++ E
+Sbjct  64   VADISYFDANSDPQRIDGAQLPWSLLMTTTLAAVMGNLVAQGNTDSIGCRIIVDGVVKAE  123
+
+Query  126  RIVNAYHAHTSCLVKSA  142
+            R+ N  +A+T CLVKSA
+Sbjct  124  RVSNEVNAYTYCLVKSA  140
+
+
+>VFG029383(gb|NP_214965) (mmpS4) membrane protein MmpS4 [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=140
+
+ Score = 126 bits (317),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 69/138 (50%), Positives = 91/138 (66%), Gaps = 3/138 (2%)
+
+Query  7    RFWIPMVIVIVVAVAAVTVSRLHSVFGSHQHAP--DTGNLDPIIAFYPKHVLYEVFGPPG  64
+            R WIP+VI++VV V   TV R+   FGS       DT NL+    F PKH+ YE+FGPPG
+Sbjct  4    RTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDT-NLENSKPFNPKHLTYEIFGPPG  62
+
+Query  65   TVASINYLDADAQPHEVVNAAVPWSFTIVTTLTAVVANVVARGDGASLGCRITVNEVIRE  124
+            TVA I+Y D +++P  V  A +PWS  I T   AV+ N+VA+G+  S+GCRITV+  +R 
+Sbjct  63   TVADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRA  122
+
+Query  125  ERIVNAYHAHTSCLVKSA  142
+            ER+ N  +A+T CLVKSA
+Sbjct  123  ERVSNEVNAYTYCLVKSA  140
+
+
+>VFG029422(gb|YP_007956640) (mmpS4) membrane protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+str. Haarlem/NITR202]
+Length=140
+
+ Score = 122 bits (307),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 68/138 (49%), Positives = 90/138 (65%), Gaps = 3/138 (2%)
+
+Query  7    RFWIPMVIVIVVAVAAVTVSRLHSVFGSHQHAP--DTGNLDPIIAFYPKHVLYEVFGPPG  64
+            R WIP+VI++VV V   TV R+   FGS       DT NL+    F PKH+ YE+FGPPG
+Sbjct  4    RTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDT-NLENSKPFNPKHLTYEIFGPPG  62
+
+Query  65   TVASINYLDADAQPHEVVNAAVPWSFTIVTTLTAVVANVVARGDGASLGCRITVNEVIRE  124
+            TVA I+Y D +++P  V  A +PWS  I T   AV+ N+VA+G+  S+G RITV+  +R 
+Sbjct  63   TVADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGXRITVDGKVRA  122
+
+Query  125  ERIVNAYHAHTSCLVKSA  142
+            ER+ N  +A+T CLVKSA
+Sbjct  123  ERVSNEVNAYTYCLVKSA  140
+
+
+>VFG029399(gb|WP_012392718) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+marinum M]
+Length=139
+
+ Score = 114 bits (286),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 63/137 (46%), Positives = 86/137 (63%), Gaps = 2/137 (1%)
+
+Query  7    RFWIPMVIVIVVAVAAVTVSRLHSVFGSHQHAP-DTGNLDPIIAFYPKHVLYEVFGPPGT  65
+            R WI +VIV V+ V   +V R+   F S +       NLD    F PK + YEVFGPPGT
+Sbjct  4    RTWIVLVIVAVIIVGGFSVHRIRGFFASEKRESYSDSNLDNK-PFNPKEITYEVFGPPGT  62
+
+Query  66   VASINYLDADAQPHEVVNAAVPWSFTIVTTLTAVVANVVARGDGASLGCRITVNEVIREE  125
+            VA I+Y D ++ P +V  A +PW+    T L AV+ N+VA+G+  S+GCRITV+  ++ E
+Sbjct  63   VADISYFDVNSDPQQVEGAVLPWTLHFTTNLAAVMGNLVAQGNTNSIGCRITVDGKVKAE  122
+
+Query  126  RIVNAYHAHTSCLVKSA  142
+            R+ N  +A+T CLVKSA
+Sbjct  123  RVSNEVNAYTYCLVKSA  139
+
+
+>VFG029412(gb|WP_015354433) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+liflandii 128FXT]
+Length=139
+
+ Score = 113 bits (282),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 62/137 (45%), Positives = 85/137 (62%), Gaps = 2/137 (1%)
+
+Query  7    RFWIPMVIVIVVAVAAVTVSRLHSVFGSHQHAP-DTGNLDPIIAFYPKHVLYEVFGPPGT  65
+            R WI +VIV V+ V   +V R+   F S +       NLD    F PK + YEVFGPPGT
+Sbjct  4    RTWIVLVIVAVIIVGGFSVHRIRGFFASEKRESYSDSNLDNK-PFNPKEITYEVFGPPGT  62
+
+Query  66   VASINYLDADAQPHEVVNAAVPWSFTIVTTLTAVVANVVARGDGASLGCRITVNEVIREE  125
+            VA I+Y D ++ P +V  A +PW+    T L AV+ N+VA+G+  S+GCRIT +  ++ E
+Sbjct  63   VADISYFDVNSDPQQVEGAVLPWTLHFTTNLAAVMGNLVAQGNTNSIGCRITADGKVKAE  122
+
+Query  126  RIVNAYHAHTSCLVKSA  142
+            R+ N  +A+T CLVKSA
+Sbjct  123  RVSNEVNAYTYCLVKSA  139
+
+
+>VFG029392(gb|WP_011740358) (mmpS4) membrane protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium ulcerans 
+Agy99]
+Length=156
+
+ Score = 113 bits (283),  Expect = 6e-33, Method: Compositional matrix adjust.
+ Identities = 54/141 (38%), Positives = 85/141 (60%), Gaps = 2/141 (1%)
+
+Query  4    VAKRFWIPMVIVIVVAVAAVTVSRLHSVFGSHQHA--PDTGNLDPIIAFYPKHVLYEVFG  61
+            V KR W+P+V+ +V AV    VSR+  +FGS Q     D+     + +  PK V YE+FG
+Sbjct  16   VLKRAWLPLVLAVVFAVGGFAVSRVRGMFGSQQLPTYADSTPAGSVSSSGPKRVRYEIFG  75
+
+Query  62   PPGTVASINYLDADAQPHEVVNAAVPWSFTIVTTLTAVVANVVARGDGASLGCRITVNEV  121
+             PGT+A INY+D   +  ++ + A+PWS  + T   ++VAN++A+ +   LGCRI+    
+Sbjct  76   APGTIADINYMDPAGEAQQLNDVALPWSIEVETDAPSMVANIIAQANTDFLGCRISSGGE  135
+
+Query  122  IREERIVNAYHAHTSCLVKSA  142
+            +++ER  +A  A+  C+ KSA
+Sbjct  136  VKDERTSSAVSAYVYCIAKSA  156
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.135    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 560560156
+
+
+Query= g446.t1
+
+Length=138
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG029383(gb|NP_214965) (mmpS4) membrane protein MmpS4 [GPL locus...  286     2e-101
+VFG029422(gb|YP_007956640) (mmpS4) membrane protein [GPL locus (V...  282     6e-100
+VFG029399(gb|WP_012392718) (mmpS4) MmpS family protein [GPL locus...  224     4e-77 
+VFG029412(gb|WP_015354433) (mmpS4) MmpS family protein [GPL locus...  223     1e-76 
+VFG029400(gb|WP_041319066) (mmpS4) MmpS family protein [GPL locus...  216     9e-74 
+VFG029385(gb|WP_165443175) (mmpS4) MmpS family protein [GPL locus...  200     2e-67 
+VFG029398(gb|WP_010908860) (mmpS4) MmpS family protein [GPL locus...  200     2e-67 
+VFG029431(gb|WP_015304370) (mmpS4) MmpS family protein [GPL locus...  196     4e-66 
+VFG029402(gb|WP_036390192) (mmpS4) MmpS family protein [GPL locus...  189     5e-63 
+VFG029390(gb|WP_011726897) (mmpS4) MmpS family protein [GPL locus...  188     9e-63 
+VFG029387(gb|WP_003876149) (mmpS4) MmpS family protein [GPL locus...  177     3e-58 
+VFG029394(gb|YP_001704844) (mmpS4) Putative membrane protein, Mmp...  173     8e-57 
+VFG029392(gb|WP_011740358) (mmpS4) membrane protein [GPL locus (V...  149     3e-47 
+
+
+>VFG029383(gb|NP_214965) (mmpS4) membrane protein MmpS4 [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=140
+
+ Score = 286 bits (732),  Expect = 2e-101, Method: Compositional matrix adjust.
+ Identities = 138/138 (100%), Positives = 138/138 (100%), Gaps = 0/138 (0%)
+
+Query  1    MRTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPG  60
+            MRTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPG
+Sbjct  3    MRTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPG  62
+
+Query  61   TVADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRA  120
+            TVADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRA
+Sbjct  63   TVADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRA  122
+
+Query  121  ERVSNEVNAYTYCLVKSA  138
+            ERVSNEVNAYTYCLVKSA
+Sbjct  123  ERVSNEVNAYTYCLVKSA  140
+
+
+>VFG029422(gb|YP_007956640) (mmpS4) membrane protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+str. Haarlem/NITR202]
+Length=140
+
+ Score = 282 bits (721),  Expect = 6e-100, Method: Compositional matrix adjust.
+ Identities = 137/138 (99%), Positives = 137/138 (99%), Gaps = 0/138 (0%)
+
+Query  1    MRTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPG  60
+            MRTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPG
+Sbjct  3    MRTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPG  62
+
+Query  61   TVADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRA  120
+            TVADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIG RITVDGKVRA
+Sbjct  63   TVADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGXRITVDGKVRA  122
+
+Query  121  ERVSNEVNAYTYCLVKSA  138
+            ERVSNEVNAYTYCLVKSA
+Sbjct  123  ERVSNEVNAYTYCLVKSA  140
+
+
+>VFG029399(gb|WP_012392718) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+marinum M]
+Length=139
+
+ Score = 224 bits (572),  Expect = 4e-77, Method: Compositional matrix adjust.
+ Identities = 113/137 (82%), Positives = 128/137 (93%), Gaps = 1/137 (1%)
+
+Query  2    RTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPGT  61
+            RTWI LVI+ V+IVGGF+VHRIRGFF SE R SYSD+NL+N KPFNPK +TYE+FGPPGT
+Sbjct  4    RTWIVLVIVAVIIVGGFSVHRIRGFFASEKRESYSDSNLDN-KPFNPKEITYEVFGPPGT  62
+
+Query  62   VADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRAE  121
+            VADISYFDVNS+PQ+V+GAVLPW+LH TTN AAVMGN+VAQGN++SIGCRITVDGKV+AE
+Sbjct  63   VADISYFDVNSDPQQVEGAVLPWTLHFTTNLAAVMGNLVAQGNTNSIGCRITVDGKVKAE  122
+
+Query  122  RVSNEVNAYTYCLVKSA  138
+            RVSNEVNAYTYCLVKSA
+Sbjct  123  RVSNEVNAYTYCLVKSA  139
+
+
+>VFG029412(gb|WP_015354433) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+liflandii 128FXT]
+Length=139
+
+ Score = 223 bits (568),  Expect = 1e-76, Method: Compositional matrix adjust.
+ Identities = 112/137 (82%), Positives = 127/137 (93%), Gaps = 1/137 (1%)
+
+Query  2    RTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPGT  61
+            RTWI LVI+ V+IVGGF+VHRIRGFF SE R SYSD+NL+N KPFNPK +TYE+FGPPGT
+Sbjct  4    RTWIVLVIVAVIIVGGFSVHRIRGFFASEKRESYSDSNLDN-KPFNPKEITYEVFGPPGT  62
+
+Query  62   VADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRAE  121
+            VADISYFDVNS+PQ+V+GAVLPW+LH TTN AAVMGN+VAQGN++SIGCRIT DGKV+AE
+Sbjct  63   VADISYFDVNSDPQQVEGAVLPWTLHFTTNLAAVMGNLVAQGNTNSIGCRITADGKVKAE  122
+
+Query  122  RVSNEVNAYTYCLVKSA  138
+            RVSNEVNAYTYCLVKSA
+Sbjct  123  RVSNEVNAYTYCLVKSA  139
+
+
+>VFG029400(gb|WP_041319066) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+sp. JDM601]
+Length=140
+
+ Score = 216 bits (550),  Expect = 9e-74, Method: Compositional matrix adjust.
+ Identities = 100/137 (73%), Positives = 115/137 (84%), Gaps = 0/137 (0%)
+
+Query  2    RTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPGT  61
+            R WIPLVIL VV V GFTV RI G FGSE RPSY+D  ++ +KPFNPK +TYEIFGPPGT
+Sbjct  4    RVWIPLVILAVVGVAGFTVTRIHGLFGSEKRPSYADGQIDETKPFNPKRMTYEIFGPPGT  63
+
+Query  62   VADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRAE  121
+            VADISYFDVNSEPQRV    LPW L I T   AV+G+I+AQGNS+SIGCRITVDG+V+AE
+Sbjct  64   VADISYFDVNSEPQRVQDVALPWQLEIVTTLPAVVGSIMAQGNSNSIGCRITVDGEVKAE  123
+
+Query  122  RVSNEVNAYTYCLVKSA  138
+            R+SNEVNAYT+CL+K+A
+Sbjct  124  RISNEVNAYTFCLLKAA  140
+
+
+>VFG029385(gb|WP_165443175) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+leprae TN]
+Length=140
+
+ Score = 200 bits (508),  Expect = 2e-67, Method: Compositional matrix adjust.
+ Identities = 104/137 (76%), Positives = 120/137 (88%), Gaps = 0/137 (0%)
+
+Query  2    RTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPGT  61
+            R WIPLVILVV++VGGF V+R+  +F SE R SY+D+NL +SKPFNPK + YE+FGPPGT
+Sbjct  4    RIWIPLVILVVLVVGGFVVYRVHSYFASEKRESYADSNLGSSKPFNPKQIVYEVFGPPGT  63
+
+Query  62   VADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRAE  121
+            VADISYFD NS+PQR+DGA LPWSL +TT  AAVMGN+VAQGN+DSIGCRI VDG V+AE
+Sbjct  64   VADISYFDANSDPQRIDGAQLPWSLLMTTTLAAVMGNLVAQGNTDSIGCRIIVDGVVKAE  123
+
+Query  122  RVSNEVNAYTYCLVKSA  138
+            RVSNEVNAYTYCLVKSA
+Sbjct  124  RVSNEVNAYTYCLVKSA  140
+
+
+>VFG029398(gb|WP_010908860) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+leprae Br4923]
+Length=154
+
+ Score = 200 bits (509),  Expect = 2e-67, Method: Compositional matrix adjust.
+ Identities = 104/137 (76%), Positives = 120/137 (88%), Gaps = 0/137 (0%)
+
+Query  2    RTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPGT  61
+            R WIPLVILVV++VGGF V+R+  +F SE R SY+D+NL +SKPFNPK + YE+FGPPGT
+Sbjct  18   RIWIPLVILVVLVVGGFVVYRVHSYFASEKRESYADSNLGSSKPFNPKQIVYEVFGPPGT  77
+
+Query  62   VADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRAE  121
+            VADISYFD NS+PQR+DGA LPWSL +TT  AAVMGN+VAQGN+DSIGCRI VDG V+AE
+Sbjct  78   VADISYFDANSDPQRIDGAQLPWSLLMTTTLAAVMGNLVAQGNTDSIGCRIIVDGVVKAE  137
+
+Query  122  RVSNEVNAYTYCLVKSA  138
+            RVSNEVNAYTYCLVKSA
+Sbjct  138  RVSNEVNAYTYCLVKSA  154
+
+
+>VFG029431(gb|WP_015304370) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+smegmatis JS623]
+Length=139
+
+ Score = 196 bits (499),  Expect = 4e-66, Method: Compositional matrix adjust.
+ Identities = 86/137 (63%), Positives = 111/137 (81%), Gaps = 0/137 (0%)
+
+Query  2    RTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPGT  61
+            R WIPL++LVV++ GGF V R+   FGSE RPSY+DT +  SK FNPKH+TYE+FGPPGT
+Sbjct  3    RLWIPLLVLVVIVTGGFAVSRLHTVFGSEKRPSYADTMINESKSFNPKHMTYEVFGPPGT  62
+
+Query  62   VADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRAE  121
+            +ADISYFDVN++PQ V    LPW+L    + A  +G+I+AQG+SDSIGCRITVD +V+AE
+Sbjct  63   MADISYFDVNTDPQFVQRVSLPWTLQFEISKATAVGSIMAQGDSDSIGCRITVDNEVKAE  122
+
+Query  122  RVSNEVNAYTYCLVKSA  138
+            +VSN+VNA+T CL+K+A
+Sbjct  123  KVSNQVNAFTSCLLKAA  139
+
+
+>VFG029402(gb|WP_036390192) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+indicus pranii MTCC 9506]
+Length=139
+
+ Score = 189 bits (479),  Expect = 5e-63, Method: Compositional matrix adjust.
+ Identities = 80/136 (59%), Positives = 110/136 (81%), Gaps = 0/136 (0%)
+
+Query  2    RTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPGT  61
+            R WIPLVI+ VVI GG TV R+ G FGSE+RPSY+++  +++KPFNPKH+ YE+FGP GT
+Sbjct  3    RLWIPLVIVAVVIAGGMTVSRLHGVFGSEHRPSYAESRQQDTKPFNPKHVKYEVFGPAGT  62
+
+Query  62   VADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRAE  121
+            +ADISYFD N EP  + G VLPW+  I+T   +++GN+VAQGNSD++GCRI VDG V+ E
+Sbjct  63   MADISYFDANGEPNHITGIVLPWTFDISTTLPSIVGNVVAQGNSDTLGCRIVVDGVVKTE  122
+
+Query  122  RVSNEVNAYTYCLVKS  137
+            R+S+++NA+TYC++ +
+Sbjct  123  RISHQLNAFTYCVLTA  138
+
+
+>VFG029390(gb|WP_011726897) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+smegmatis str. MC2 155]
+Length=139
+
+ Score = 188 bits (478),  Expect = 9e-63, Method: Compositional matrix adjust.
+ Identities = 83/137 (61%), Positives = 107/137 (78%), Gaps = 0/137 (0%)
+
+Query  2    RTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPGT  61
+            R WIPL+++ VV VGGFTV R+   FG+E RPSY+DT   +SKPF+PK LTYE+FGPPGT
+Sbjct  3    RLWIPLLVIAVVAVGGFTVSRLHNVFGAEKRPSYADTKAADSKPFDPKRLTYEVFGPPGT  62
+
+Query  62   VADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRAE  121
+            +ADISYFD +S PQ V+   LPWSLH        +G+I+AQG+SD+IGCRI VD +V+AE
+Sbjct  63   LADISYFDEDSNPQFVEKVSLPWSLHFDIGKTTAVGSIMAQGDSDTIGCRIIVDDEVKAE  122
+
+Query  122  RVSNEVNAYTYCLVKSA  138
+            +VSN+ NA+T CL+K+A
+Sbjct  123  KVSNQTNAFTSCLLKAA  139
+
+
+>VFG029387(gb|WP_003876149) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+avium subsp. paratuberculosis K-10]
+Length=139
+
+ Score = 177 bits (448),  Expect = 3e-58, Method: Compositional matrix adjust.
+ Identities = 82/136 (60%), Positives = 109/136 (80%), Gaps = 0/136 (0%)
+
+Query  2    RTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPGT  61
+            R WIPLVI+ VV+ GG TV R+ G FGSE RPSY+DT  +++KPFNPKH+ YE+FGP G 
+Sbjct  3    RLWIPLVIVAVVVAGGLTVSRLHGIFGSEKRPSYADTRQQDTKPFNPKHVKYEVFGPAGA  62
+
+Query  62   VADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRAE  121
+            +ADISYFD N EPQ ++G  LPW+  I+T   +++GN+VAQGNSDS+GCRI VDG V+ E
+Sbjct  63   MADISYFDANGEPQHINGVELPWTFDISTTLPSIVGNVVAQGNSDSLGCRILVDGVVKTE  122
+
+Query  122  RVSNEVNAYTYCLVKS  137
+            R+S+E+NA+TYC++ +
+Sbjct  123  RISHELNAFTYCVLTA  138
+
+
+>VFG029394(gb|YP_001704844) (mmpS4) Putative membrane protein, 
+MmpS family [GPL locus (VF0841) - Immune modulation (VFC0258)] 
+[Mycobacterium abscessus ATCC 19977]
+Length=138
+
+ Score = 173 bits (438),  Expect = 8e-57, Method: Compositional matrix adjust.
+ Identities = 74/138 (54%), Positives = 104/138 (75%), Gaps = 0/138 (0%)
+
+Query  1    MRTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPG  60
+            MR WIPL+++ V+ VGGFTV R+ G FG+E RPSY+DTN+ ++K F+PK ++YE+FG PG
+Sbjct  1    MRLWIPLLVIAVIAVGGFTVSRLHGVFGNEKRPSYADTNVSDAKSFDPKKMSYEVFGSPG  60
+
+Query  61   TVADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRA  120
+             VADISYFDVN +P  +    LPWS+         +G+I+AQG+  SIGCRI VD +V++
+Sbjct  61   NVADISYFDVNGDPLFIQKVPLPWSVKFEIGKTTAVGSIMAQGDGSSIGCRIIVDDEVKS  120
+
+Query  121  ERVSNEVNAYTYCLVKSA  138
+            E+V+N+ NA+T CL+K+A
+Sbjct  121  EKVTNQTNAFTSCLLKAA  138
+
+
+>VFG029392(gb|WP_011740358) (mmpS4) membrane protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium ulcerans 
+Agy99]
+Length=156
+
+ Score = 149 bits (377),  Expect = 3e-47, Method: Compositional matrix adjust.
+ Identities = 67/138 (49%), Positives = 95/138 (69%), Gaps = 1/138 (1%)
+
+Query  2    RTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENS-KPFNPKHLTYEIFGPPG  60
+            R W+PLV+ VV  VGGF V R+RG FGS+  P+Y+D+    S     PK + YEIFG PG
+Sbjct  19   RAWLPLVLAVVFAVGGFAVSRVRGMFGSQQLPTYADSTPAGSVSSSGPKRVRYEIFGAPG  78
+
+Query  61   TVADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRA  120
+            T+ADI+Y D   E Q+++   LPWS+ + T+  +++ NI+AQ N+D +GCRI+  G+V+ 
+Sbjct  79   TIADINYMDPAGEAQQLNDVALPWSIEVETDAPSMVANIIAQANTDFLGCRISSGGEVKD  138
+
+Query  121  ERVSNEVNAYTYCLVKSA  138
+            ER S+ V+AY YC+ KSA
+Sbjct  139  ERTSSAVSAYVYCIAKSA  156
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 517440144
+
+
+Query= g502.t1
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG029402(gb|WP_036390192) (mmpS4) MmpS family protein [GPL locus...  123     6e-37
+VFG029392(gb|WP_011740358) (mmpS4) membrane protein [GPL locus (V...  115     8e-34
+VFG029390(gb|WP_011726897) (mmpS4) MmpS family protein [GPL locus...  113     5e-33
+VFG029400(gb|WP_041319066) (mmpS4) MmpS family protein [GPL locus...  113     6e-33
+VFG029387(gb|WP_003876149) (mmpS4) MmpS family protein [GPL locus...  111     3e-32
+VFG029431(gb|WP_015304370) (mmpS4) MmpS family protein [GPL locus...  105     4e-30
+VFG029398(gb|WP_010908860) (mmpS4) MmpS family protein [GPL locus...  103     8e-29
+VFG029385(gb|WP_165443175) (mmpS4) MmpS family protein [GPL locus...  101     3e-28
+VFG029394(gb|YP_001704844) (mmpS4) Putative membrane protein, Mmp...  99.8    1e-27
+VFG029399(gb|WP_012392718) (mmpS4) MmpS family protein [GPL locus...  95.5    5e-26
+VFG029412(gb|WP_015354433) (mmpS4) MmpS family protein [GPL locus...  94.4    2e-25
+VFG029383(gb|NP_214965) (mmpS4) membrane protein MmpS4 [GPL locus...  93.6    3e-25
+VFG029422(gb|YP_007956640) (mmpS4) membrane protein [GPL locus (V...  89.4    1e-23
+
+
+>VFG029402(gb|WP_036390192) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+indicus pranii MTCC 9506]
+Length=139
+
+ Score = 123 bits (308),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 57/138 (41%), Positives = 84/138 (61%), Gaps = 1/138 (1%)
+
+Query  8    VKRMWLLLAIVVVAVVGGLGIYRLHSIFGVHEQPTVMVKPDFDVPLFNPKRVTYEVFGPA  67
+            +KR+W+ L IV V + GG+ + RLH +FG   +P+       D   FNPK V YEVFGPA
+Sbjct  1    MKRLWIPLVIVAVVIAGGMTVSRLHGVFGSEHRPSYAESRQQDTKPFNPKHVKYEVFGPA  60
+
+Query  68   KT-AKIAYLDPDARVHRLDSVSLPWSVTVETTLPAVSVNLMAQSNADVISCRIIVNGAVK  126
+             T A I+Y D +   + +  + LPW+  + TTLP++  N++AQ N+D + CRI+V+G VK
+Sbjct  61   GTMADISYFDANGEPNHITGIVLPWTFDISTTLPSIVGNVVAQGNSDTLGCRIVVDGVVK  120
+
+Query  127  DERSETSPRALTSCQVSS  144
+             ER      A T C +++
+Sbjct  121  TERISHQLNAFTYCVLTA  138
+
+
+>VFG029392(gb|WP_011740358) (mmpS4) membrane protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium ulcerans 
+Agy99]
+Length=156
+
+ Score = 115 bits (289),  Expect = 8e-34, Method: Compositional matrix adjust.
+ Identities = 57/135 (42%), Positives = 78/135 (58%), Gaps = 2/135 (1%)
+
+Query  8    VKRMWLLLAIVVVAVVGGLGIYRLHSIFGVHEQPTVM-VKPDFDVPLFNPKRVTYEVFG-  65
+            +KR WL L + VV  VGG  + R+  +FG  + PT     P   V    PKRV YE+FG 
+Sbjct  17   LKRAWLPLVLAVVFAVGGFAVSRVRGMFGSQQLPTYADSTPAGSVSSSGPKRVRYEIFGA  76
+
+Query  66   PAKTAKIAYLDPDARVHRLDSVSLPWSVTVETTLPAVSVNLMAQSNADVISCRIIVNGAV  125
+            P   A I Y+DP     +L+ V+LPWS+ VET  P++  N++AQ+N D + CRI   G V
+Sbjct  77   PGTIADINYMDPAGEAQQLNDVALPWSIEVETDAPSMVANIIAQANTDFLGCRISSGGEV  136
+
+Query  126  KDERSETSPRALTSC  140
+            KDER+ ++  A   C
+Sbjct  137  KDERTSSAVSAYVYC  151
+
+
+>VFG029390(gb|WP_011726897) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+smegmatis str. MC2 155]
+Length=139
+
+ Score = 113 bits (282),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 54/134 (40%), Positives = 80/134 (60%), Gaps = 1/134 (1%)
+
+Query  8    VKRMWLLLAIVVVAVVGGLGIYRLHSIFGVHEQPTVMVKPDFDVPLFNPKRVTYEVFGPA  67
+            ++R+W+ L ++ V  VGG  + RLH++FG  ++P+       D   F+PKR+TYEVFGP 
+Sbjct  1    MRRLWIPLLVIAVVAVGGFTVSRLHNVFGAEKRPSYADTKAADSKPFDPKRLTYEVFGPP  60
+
+Query  68   KT-AKIAYLDPDARVHRLDSVSLPWSVTVETTLPAVSVNLMAQSNADVISCRIIVNGAVK  126
+             T A I+Y D D+    ++ VSLPWS+  +        ++MAQ ++D I CRIIV+  VK
+Sbjct  61   GTLADISYFDEDSNPQFVEKVSLPWSLHFDIGKTTAVGSIMAQGDSDTIGCRIIVDDEVK  120
+
+Query  127  DERSETSPRALTSC  140
+             E+      A TSC
+Sbjct  121  AEKVSNQTNAFTSC  134
+
+
+>VFG029400(gb|WP_041319066) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+sp. JDM601]
+Length=140
+
+ Score = 113 bits (282),  Expect = 6e-33, Method: Compositional matrix adjust.
+ Identities = 56/134 (42%), Positives = 81/134 (60%), Gaps = 1/134 (1%)
+
+Query  8    VKRMWLLLAIVVVAVVGGLGIYRLHSIFGVHEQPTVMVKPDFDVPLFNPKRVTYEVFGPA  67
+            + R+W+ L I+ V  V G  + R+H +FG  ++P+       +   FNPKR+TYE+FGP 
+Sbjct  2    LSRVWIPLVILAVVGVAGFTVTRIHGLFGSEKRPSYADGQIDETKPFNPKRMTYEIFGPP  61
+
+Query  68   KT-AKIAYLDPDARVHRLDSVSLPWSVTVETTLPAVSVNLMAQSNADVISCRIIVNGAVK  126
+             T A I+Y D ++   R+  V+LPW + + TTLPAV  ++MAQ N++ I CRI V+G VK
+Sbjct  62   GTVADISYFDVNSEPQRVQDVALPWQLEIVTTLPAVVGSIMAQGNSNSIGCRITVDGEVK  121
+
+Query  127  DERSETSPRALTSC  140
+             ER      A T C
+Sbjct  122  AERISNEVNAYTFC  135
+
+
+>VFG029387(gb|WP_003876149) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+avium subsp. paratuberculosis K-10]
+Length=139
+
+ Score = 111 bits (277),  Expect = 3e-32, Method: Compositional matrix adjust.
+ Identities = 60/134 (45%), Positives = 81/134 (60%), Gaps = 1/134 (1%)
+
+Query  8    VKRMWLLLAIVVVAVVGGLGIYRLHSIFGVHEQPTVMVKPDFDVPLFNPKRVTYEVFGPA  67
+            +KR+W+ L IV V V GGL + RLH IFG  ++P+       D   FNPK V YEVFGPA
+Sbjct  1    MKRLWIPLVIVAVVVAGGLTVSRLHGIFGSEKRPSYADTRQQDTKPFNPKHVKYEVFGPA  60
+
+Query  68   KT-AKIAYLDPDARVHRLDSVSLPWSVTVETTLPAVSVNLMAQSNADVISCRIIVNGAVK  126
+               A I+Y D +     ++ V LPW+  + TTLP++  N++AQ N+D + CRI+V+G VK
+Sbjct  61   GAMADISYFDANGEPQHINGVELPWTFDISTTLPSIVGNVVAQGNSDSLGCRILVDGVVK  120
+
+Query  127  DERSETSPRALTSC  140
+             ER      A T C
+Sbjct  121  TERISHELNAFTYC  134
+
+
+>VFG029431(gb|WP_015304370) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+smegmatis JS623]
+Length=139
+
+ Score = 105 bits (263),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 53/134 (40%), Positives = 78/134 (58%), Gaps = 1/134 (1%)
+
+Query  8    VKRMWLLLAIVVVAVVGGLGIYRLHSIFGVHEQPTVMVKPDFDVPLFNPKRVTYEVFGPA  67
+            +KR+W+ L ++VV V GG  + RLH++FG  ++P+       +   FNPK +TYEVFGP 
+Sbjct  1    MKRLWIPLLVLVVIVTGGFAVSRLHTVFGSEKRPSYADTMINESKSFNPKHMTYEVFGPP  60
+
+Query  68   KT-AKIAYLDPDARVHRLDSVSLPWSVTVETTLPAVSVNLMAQSNADVISCRIIVNGAVK  126
+             T A I+Y D +     +  VSLPW++  E +      ++MAQ ++D I CRI V+  VK
+Sbjct  61   GTMADISYFDVNTDPQFVQRVSLPWTLQFEISKATAVGSIMAQGDSDSIGCRITVDNEVK  120
+
+Query  127  DERSETSPRALTSC  140
+             E+      A TSC
+Sbjct  121  AEKVSNQVNAFTSC  134
+
+
+>VFG029398(gb|WP_010908860) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+leprae Br4923]
+Length=154
+
+ Score = 103 bits (256),  Expect = 8e-29, Method: Compositional matrix adjust.
+ Identities = 65/144 (45%), Positives = 85/144 (59%), Gaps = 1/144 (1%)
+
+Query  2    ISVSGAVKRMWLLLAIVVVAVVGGLGIYRLHSIFGVHEQPTVMVKPDFDVPLFNPKRVTY  61
+            IS+   + R+W+ L I+VV VVGG  +YR+HS F   ++ +           FNPK++ Y
+Sbjct  10   ISIFKLLSRIWIPLVILVVLVVGGFVVYRVHSYFASEKRESYADSNLGSSKPFNPKQIVY  69
+
+Query  62   EVFGPAKT-AKIAYLDPDARVHRLDSVSLPWSVTVETTLPAVSVNLMAQSNADVISCRII  120
+            EVFGP  T A I+Y D ++   R+D   LPWS+ + TTL AV  NL+AQ N D I CRII
+Sbjct  70   EVFGPPGTVADISYFDANSDPQRIDGAQLPWSLLMTTTLAAVMGNLVAQGNTDSIGCRII  129
+
+Query  121  VNGAVKDERSETSPRALTSCQVSS  144
+            V+G VK ER      A T C V S
+Sbjct  130  VDGVVKAERVSNEVNAYTYCLVKS  153
+
+
+>VFG029385(gb|WP_165443175) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+leprae TN]
+Length=140
+
+ Score = 101 bits (251),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 63/138 (46%), Positives = 82/138 (59%), Gaps = 1/138 (1%)
+
+Query  8    VKRMWLLLAIVVVAVVGGLGIYRLHSIFGVHEQPTVMVKPDFDVPLFNPKRVTYEVFGPA  67
+            + R+W+ L I+VV VVGG  +YR+HS F   ++ +           FNPK++ YEVFGP 
+Sbjct  2    LSRIWIPLVILVVLVVGGFVVYRVHSYFASEKRESYADSNLGSSKPFNPKQIVYEVFGPP  61
+
+Query  68   KT-AKIAYLDPDARVHRLDSVSLPWSVTVETTLPAVSVNLMAQSNADVISCRIIVNGAVK  126
+             T A I+Y D ++   R+D   LPWS+ + TTL AV  NL+AQ N D I CRIIV+G VK
+Sbjct  62   GTVADISYFDANSDPQRIDGAQLPWSLLMTTTLAAVMGNLVAQGNTDSIGCRIIVDGVVK  121
+
+Query  127  DERSETSPRALTSCQVSS  144
+             ER      A T C V S
+Sbjct  122  AERVSNEVNAYTYCLVKS  139
+
+
+>VFG029394(gb|YP_001704844) (mmpS4) Putative membrane protein, 
+MmpS family [GPL locus (VF0841) - Immune modulation (VFC0258)] 
+[Mycobacterium abscessus ATCC 19977]
+Length=138
+
+ Score = 99.8 bits (247),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 50/132 (38%), Positives = 71/132 (54%), Gaps = 1/132 (1%)
+
+Query  10   RMWLLLAIVVVAVVGGLGIYRLHSIFGVHEQPTVMVKPDFDVPLFNPKRVTYEVFG-PAK  68
+            R+W+ L ++ V  VGG  + RLH +FG  ++P+       D   F+PK+++YEVFG P  
+Sbjct  2    RLWIPLLVIAVIAVGGFTVSRLHGVFGNEKRPSYADTNVSDAKSFDPKKMSYEVFGSPGN  61
+
+Query  69   TAKIAYLDPDARVHRLDSVSLPWSVTVETTLPAVSVNLMAQSNADVISCRIIVNGAVKDE  128
+             A I+Y D +     +  V LPWSV  E        ++MAQ +   I CRIIV+  VK E
+Sbjct  62   VADISYFDVNGDPLFIQKVPLPWSVKFEIGKTTAVGSIMAQGDGSSIGCRIIVDDEVKSE  121
+
+Query  129  RSETSPRALTSC  140
+            +      A TSC
+Sbjct  122  KVTNQTNAFTSC  133
+
+
+>VFG029399(gb|WP_012392718) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+marinum M]
+Length=139
+
+ Score = 95.5 bits (236),  Expect = 5e-26, Method: Compositional matrix adjust.
+ Identities = 56/138 (41%), Positives = 77/138 (56%), Gaps = 2/138 (1%)
+
+Query  8    VKRMWLLLAIVVVAVVGGLGIYRLHSIFGVHEQPTVMVKPDFDVPLFNPKRVTYEVFGPA  67
+            + R W++L IV V +VGG  ++R+   F   E+       + D   FNPK +TYEVFGP 
+Sbjct  2    LSRTWIVLVIVAVIIVGGFSVHRIRGFF-ASEKRESYSDSNLDNKPFNPKEITYEVFGPP  60
+
+Query  68   KT-AKIAYLDPDARVHRLDSVSLPWSVTVETTLPAVSVNLMAQSNADVISCRIIVNGAVK  126
+             T A I+Y D ++   +++   LPW++   T L AV  NL+AQ N + I CRI V+G VK
+Sbjct  61   GTVADISYFDVNSDPQQVEGAVLPWTLHFTTNLAAVMGNLVAQGNTNSIGCRITVDGKVK  120
+
+Query  127  DERSETSPRALTSCQVSS  144
+             ER      A T C V S
+Sbjct  121  AERVSNEVNAYTYCLVKS  138
+
+
+>VFG029412(gb|WP_015354433) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+liflandii 128FXT]
+Length=139
+
+ Score = 94.4 bits (233),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 55/138 (40%), Positives = 76/138 (55%), Gaps = 2/138 (1%)
+
+Query  8    VKRMWLLLAIVVVAVVGGLGIYRLHSIFGVHEQPTVMVKPDFDVPLFNPKRVTYEVFGPA  67
+            + R W++L IV V +VGG  ++R+   F   E+       + D   FNPK +TYEVFGP 
+Sbjct  2    LSRTWIVLVIVAVIIVGGFSVHRIRGFF-ASEKRESYSDSNLDNKPFNPKEITYEVFGPP  60
+
+Query  68   KT-AKIAYLDPDARVHRLDSVSLPWSVTVETTLPAVSVNLMAQSNADVISCRIIVNGAVK  126
+             T A I+Y D ++   +++   LPW++   T L AV  NL+AQ N + I CRI  +G VK
+Sbjct  61   GTVADISYFDVNSDPQQVEGAVLPWTLHFTTNLAAVMGNLVAQGNTNSIGCRITADGKVK  120
+
+Query  127  DERSETSPRALTSCQVSS  144
+             ER      A T C V S
+Sbjct  121  AERVSNEVNAYTYCLVKS  138
+
+
+>VFG029383(gb|NP_214965) (mmpS4) membrane protein MmpS4 [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=140
+
+ Score = 93.6 bits (231),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 56/136 (41%), Positives = 78/136 (57%), Gaps = 1/136 (1%)
+
+Query  10   RMWLLLAIVVVAVVGGLGIYRLHSIFGVHEQPTVMVKPDFDVPLFNPKRVTYEVFGPAKT  69
+            R W+ L I+VV +VGG  ++R+   FG   +P+       +   FNPK +TYE+FGP  T
+Sbjct  4    RTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPGT  63
+
+Query  70   -AKIAYLDPDARVHRLDSVSLPWSVTVETTLPAVSVNLMAQSNADVISCRIIVNGAVKDE  128
+             A I+Y D ++   R+D   LPWS+ + T   AV  N++AQ N+D I CRI V+G V+ E
+Sbjct  64   VADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVRAE  123
+
+Query  129  RSETSPRALTSCQVSS  144
+            R      A T C V S
+Sbjct  124  RVSNEVNAYTYCLVKS  139
+
+
+>VFG029422(gb|YP_007956640) (mmpS4) membrane protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+str. Haarlem/NITR202]
+Length=140
+
+ Score = 89.4 bits (220),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 55/136 (40%), Positives = 77/136 (57%), Gaps = 1/136 (1%)
+
+Query  10   RMWLLLAIVVVAVVGGLGIYRLHSIFGVHEQPTVMVKPDFDVPLFNPKRVTYEVFGPAKT  69
+            R W+ L I+VV +VGG  ++R+   FG   +P+       +   FNPK +TYE+FGP  T
+Sbjct  4    RTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPPGT  63
+
+Query  70   -AKIAYLDPDARVHRLDSVSLPWSVTVETTLPAVSVNLMAQSNADVISCRIIVNGAVKDE  128
+             A I+Y D ++   R+D   LPWS+ + T   AV  N++AQ N+D I  RI V+G V+ E
+Sbjct  64   VADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGXRITVDGKVRAE  123
+
+Query  129  RSETSPRALTSCQVSS  144
+            R      A T C V S
+Sbjct  124  RVSNEVNAYTYCLVKS  139
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.134    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 592900165
+
+
+Query= g667.t1
+
+Length=142
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG029400(gb|WP_041319066) (mmpS4) MmpS family protein [GPL locus...  139     4e-43
+VFG029383(gb|NP_214965) (mmpS4) membrane protein MmpS4 [GPL locus...  132     1e-40
+VFG029422(gb|YP_007956640) (mmpS4) membrane protein [GPL locus (V...  128     5e-39
+VFG029431(gb|WP_015304370) (mmpS4) MmpS family protein [GPL locus...  125     9e-38
+VFG029390(gb|WP_011726897) (mmpS4) MmpS family protein [GPL locus...  124     2e-37
+VFG029402(gb|WP_036390192) (mmpS4) MmpS family protein [GPL locus...  122     8e-37
+VFG029399(gb|WP_012392718) (mmpS4) MmpS family protein [GPL locus...  121     3e-36
+VFG029392(gb|WP_011740358) (mmpS4) membrane protein [GPL locus (V...  121     5e-36
+VFG029412(gb|WP_015354433) (mmpS4) MmpS family protein [GPL locus...  119     1e-35
+VFG029394(gb|YP_001704844) (mmpS4) Putative membrane protein, Mmp...  118     4e-35
+VFG029387(gb|WP_003876149) (mmpS4) MmpS family protein [GPL locus...  116     3e-34
+VFG029385(gb|WP_165443175) (mmpS4) MmpS family protein [GPL locus...  114     2e-33
+VFG029398(gb|WP_010908860) (mmpS4) MmpS family protein [GPL locus...  114     4e-33
+
+
+>VFG029400(gb|WP_041319066) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+sp. JDM601]
+Length=140
+
+ Score = 139 bits (349),  Expect = 4e-43, Method: Compositional matrix adjust.
+ Identities = 68/139 (49%), Positives = 93/139 (67%), Gaps = 1/139 (1%)
+
+Query  5    LKRAWIPLLILVVVAIAGFTVQRIRTFFGSEGILVTPKVFADDPEPFDPKVVEYEVSGS-  63
+            L R WIPL+IL VV +AGFTV RI   FGSE          D+ +PF+PK + YE+ G  
+Sbjct  2    LSRVWIPLVILAVVGVAGFTVTRIHGLFGSEKRPSYADGQIDETKPFNPKRMTYEIFGPP  61
+
+Query  64   GSYVNINYLDLDAKPQRIDGAALPWSLTLKTTAPSAAPNILAQGDGTSITCRITVDGEVK  123
+            G+  +I+Y D++++PQR+   ALPW L + TT P+   +I+AQG+  SI CRITVDGEVK
+Sbjct  62   GTVADISYFDVNSEPQRVQDVALPWQLEIVTTLPAVVGSIMAQGNSNSIGCRITVDGEVK  121
+
+Query  124  DERTATGVDALTYCFVKSA  142
+             ER +  V+A T+C +K+A
+Sbjct  122  AERISNEVNAYTFCLLKAA  140
+
+
+>VFG029383(gb|NP_214965) (mmpS4) membrane protein MmpS4 [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=140
+
+ Score = 132 bits (333),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 72/139 (52%), Positives = 96/139 (69%), Gaps = 1/139 (1%)
+
+Query  5    LKRAWIPLLILVVVAIAGFTVQRIRTFFGSEGILVTPKVFADDPEPFDPKVVEYEVSGS-  63
+            L R WIPL+ILVVV + GFTV RIR FFGSE          ++ +PF+PK + YE+ G  
+Sbjct  2    LMRTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPP  61
+
+Query  64   GSYVNINYLDLDAKPQRIDGAALPWSLTLKTTAPSAAPNILAQGDGTSITCRITVDGEVK  123
+            G+  +I+Y D++++PQR+DGA LPWSL + T   +   NI+AQG+  SI CRITVDG+V+
+Sbjct  62   GTVADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGCRITVDGKVR  121
+
+Query  124  DERTATGVDALTYCFVKSA  142
+             ER +  V+A TYC VKSA
+Sbjct  122  AERVSNEVNAYTYCLVKSA  140
+
+
+>VFG029422(gb|YP_007956640) (mmpS4) membrane protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+str. Haarlem/NITR202]
+Length=140
+
+ Score = 128 bits (322),  Expect = 5e-39, Method: Compositional matrix adjust.
+ Identities = 71/139 (51%), Positives = 95/139 (68%), Gaps = 1/139 (1%)
+
+Query  5    LKRAWIPLLILVVVAIAGFTVQRIRTFFGSEGILVTPKVFADDPEPFDPKVVEYEVSGS-  63
+            L R WIPL+ILVVV + GFTV RIR FFGSE          ++ +PF+PK + YE+ G  
+Sbjct  2    LMRTWIPLVILVVVIVGGFTVHRIRGFFGSENRPSYSDTNLENSKPFNPKHLTYEIFGPP  61
+
+Query  64   GSYVNINYLDLDAKPQRIDGAALPWSLTLKTTAPSAAPNILAQGDGTSITCRITVDGEVK  123
+            G+  +I+Y D++++PQR+DGA LPWSL + T   +   NI+AQG+  SI  RITVDG+V+
+Sbjct  62   GTVADISYFDVNSEPQRVDGAVLPWSLHITTNDAAVMGNIVAQGNSDSIGXRITVDGKVR  121
+
+Query  124  DERTATGVDALTYCFVKSA  142
+             ER +  V+A TYC VKSA
+Sbjct  122  AERVSNEVNAYTYCLVKSA  140
+
+
+>VFG029431(gb|WP_015304370) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+smegmatis JS623]
+Length=139
+
+ Score = 125 bits (313),  Expect = 9e-38, Method: Compositional matrix adjust.
+ Identities = 60/139 (43%), Positives = 87/139 (63%), Gaps = 1/139 (1%)
+
+Query  5    LKRAWIPLLILVVVAIAGFTVQRIRTFFGSEGILVTPKVFADDPEPFDPKVVEYEVSGS-  63
+            +KR WIPLL+LVV+   GF V R+ T FGSE          ++ + F+PK + YEV G  
+Sbjct  1    MKRLWIPLLVLVVIVTGGFAVSRLHTVFGSEKRPSYADTMINESKSFNPKHMTYEVFGPP  60
+
+Query  64   GSYVNINYLDLDAKPQRIDGAALPWSLTLKTTAPSAAPNILAQGDGTSITCRITVDGEVK  123
+            G+  +I+Y D++  PQ +   +LPW+L  + +  +A  +I+AQGD  SI CRITVD EVK
+Sbjct  61   GTMADISYFDVNTDPQFVQRVSLPWTLQFEISKATAVGSIMAQGDSDSIGCRITVDNEVK  120
+
+Query  124  DERTATGVDALTYCFVKSA  142
+             E+ +  V+A T C +K+A
+Sbjct  121  AEKVSNQVNAFTSCLLKAA  139
+
+
+>VFG029390(gb|WP_011726897) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+smegmatis str. MC2 155]
+Length=139
+
+ Score = 124 bits (311),  Expect = 2e-37, Method: Compositional matrix adjust.
+ Identities = 61/139 (44%), Positives = 86/139 (62%), Gaps = 1/139 (1%)
+
+Query  5    LKRAWIPLLILVVVAIAGFTVQRIRTFFGSEGILVTPKVFADDPEPFDPKVVEYEVSGS-  63
+            ++R WIPLL++ VVA+ GFTV R+   FG+E         A D +PFDPK + YEV G  
+Sbjct  1    MRRLWIPLLVIAVVAVGGFTVSRLHNVFGAEKRPSYADTKAADSKPFDPKRLTYEVFGPP  60
+
+Query  64   GSYVNINYLDLDAKPQRIDGAALPWSLTLKTTAPSAAPNILAQGDGTSITCRITVDGEVK  123
+            G+  +I+Y D D+ PQ ++  +LPWSL       +A  +I+AQGD  +I CRI VD EVK
+Sbjct  61   GTLADISYFDEDSNPQFVEKVSLPWSLHFDIGKTTAVGSIMAQGDSDTIGCRIIVDDEVK  120
+
+Query  124  DERTATGVDALTYCFVKSA  142
+             E+ +   +A T C +K+A
+Sbjct  121  AEKVSNQTNAFTSCLLKAA  139
+
+
+>VFG029402(gb|WP_036390192) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+indicus pranii MTCC 9506]
+Length=139
+
+ Score = 122 bits (307),  Expect = 8e-37, Method: Compositional matrix adjust.
+ Identities = 59/134 (44%), Positives = 83/134 (62%), Gaps = 1/134 (1%)
+
+Query  5    LKRAWIPLLILVVVAIAGFTVQRIRTFFGSEGILVTPKVFADDPEPFDPKVVEYEVSG-S  63
+            +KR WIPL+I+ VV   G TV R+   FGSE      +    D +PF+PK V+YEV G +
+Sbjct  1    MKRLWIPLVIVAVVIAGGMTVSRLHGVFGSEHRPSYAESRQQDTKPFNPKHVKYEVFGPA  60
+
+Query  64   GSYVNINYLDLDAKPQRIDGAALPWSLTLKTTAPSAAPNILAQGDGTSITCRITVDGEVK  123
+            G+  +I+Y D + +P  I G  LPW+  + TT PS   N++AQG+  ++ CRI VDG VK
+Sbjct  61   GTMADISYFDANGEPNHITGIVLPWTFDISTTLPSIVGNVVAQGNSDTLGCRIVVDGVVK  120
+
+Query  124  DERTATGVDALTYC  137
+             ER +  ++A TYC
+Sbjct  121  TERISHQLNAFTYC  134
+
+
+>VFG029399(gb|WP_012392718) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+marinum M]
+Length=139
+
+ Score = 121 bits (303),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 66/142 (46%), Positives = 94/142 (66%), Gaps = 8/142 (6%)
+
+Query  5    LKRAWIPLLILVVVAIAGFTVQRIRTFFGSEGILVTPKVFAD---DPEPFDPKVVEYEVS  61
+            L R WI L+I+ V+ + GF+V RIR FF SE      + ++D   D +PF+PK + YEV 
+Sbjct  2    LSRTWIVLVIVAVIIVGGFSVHRIRGFFASE----KRESYSDSNLDNKPFNPKEITYEVF  57
+
+Query  62   GS-GSYVNINYLDLDAKPQRIDGAALPWSLTLKTTAPSAAPNILAQGDGTSITCRITVDG  120
+            G  G+  +I+Y D+++ PQ+++GA LPW+L   T   +   N++AQG+  SI CRITVDG
+Sbjct  58   GPPGTVADISYFDVNSDPQQVEGAVLPWTLHFTTNLAAVMGNLVAQGNTNSIGCRITVDG  117
+
+Query  121  EVKDERTATGVDALTYCFVKSA  142
+            +VK ER +  V+A TYC VKSA
+Sbjct  118  KVKAERVSNEVNAYTYCLVKSA  139
+
+
+>VFG029392(gb|WP_011740358) (mmpS4) membrane protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium ulcerans 
+Agy99]
+Length=156
+
+ Score = 121 bits (303),  Expect = 5e-36, Method: Compositional matrix adjust.
+ Identities = 63/148 (43%), Positives = 91/148 (61%), Gaps = 10/148 (7%)
+
+Query  1    MIGTLKRAWIPLLILVVVAIAGFTVQRIRTFFGSEGILVTPKVFADDP-----EPFDPKV  55
+            ++  LKRAW+PL++ VV A+ GF V R+R  FGS+ +      +AD           PK 
+Sbjct  13   IVTVLKRAWLPLVLAVVFAVGGFAVSRVRGMFGSQQL----PTYADSTPAGSVSSSGPKR  68
+
+Query  56   VEYEVSGS-GSYVNINYLDLDAKPQRIDGAALPWSLTLKTTAPSAAPNILAQGDGTSITC  114
+            V YE+ G+ G+  +INY+D   + Q+++  ALPWS+ ++T APS   NI+AQ +   + C
+Sbjct  69   VRYEIFGAPGTIADINYMDPAGEAQQLNDVALPWSIEVETDAPSMVANIIAQANTDFLGC  128
+
+Query  115  RITVDGEVKDERTATGVDALTYCFVKSA  142
+            RI+  GEVKDERT++ V A  YC  KSA
+Sbjct  129  RISSGGEVKDERTSSAVSAYVYCIAKSA  156
+
+
+>VFG029412(gb|WP_015354433) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+liflandii 128FXT]
+Length=139
+
+ Score = 119 bits (299),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 65/142 (46%), Positives = 93/142 (65%), Gaps = 8/142 (6%)
+
+Query  5    LKRAWIPLLILVVVAIAGFTVQRIRTFFGSEGILVTPKVFAD---DPEPFDPKVVEYEVS  61
+            L R WI L+I+ V+ + GF+V RIR FF SE      + ++D   D +PF+PK + YEV 
+Sbjct  2    LSRTWIVLVIVAVIIVGGFSVHRIRGFFASE----KRESYSDSNLDNKPFNPKEITYEVF  57
+
+Query  62   GS-GSYVNINYLDLDAKPQRIDGAALPWSLTLKTTAPSAAPNILAQGDGTSITCRITVDG  120
+            G  G+  +I+Y D+++ PQ+++GA LPW+L   T   +   N++AQG+  SI CRIT DG
+Sbjct  58   GPPGTVADISYFDVNSDPQQVEGAVLPWTLHFTTNLAAVMGNLVAQGNTNSIGCRITADG  117
+
+Query  121  EVKDERTATGVDALTYCFVKSA  142
+            +VK ER +  V+A TYC VKSA
+Sbjct  118  KVKAERVSNEVNAYTYCLVKSA  139
+
+
+>VFG029394(gb|YP_001704844) (mmpS4) Putative membrane protein, 
+MmpS family [GPL locus (VF0841) - Immune modulation (VFC0258)] 
+[Mycobacterium abscessus ATCC 19977]
+Length=138
+
+ Score = 118 bits (296),  Expect = 4e-35, Method: Compositional matrix adjust.
+ Identities = 59/137 (43%), Positives = 82/137 (60%), Gaps = 1/137 (1%)
+
+Query  7    RAWIPLLILVVVAIAGFTVQRIRTFFGSEGILVTPKVFADDPEPFDPKVVEYEVSGS-GS  65
+            R WIPLL++ V+A+ GFTV R+   FG+E           D + FDPK + YEV GS G+
+Sbjct  2    RLWIPLLVIAVIAVGGFTVSRLHGVFGNEKRPSYADTNVSDAKSFDPKKMSYEVFGSPGN  61
+
+Query  66   YVNINYLDLDAKPQRIDGAALPWSLTLKTTAPSAAPNILAQGDGTSITCRITVDGEVKDE  125
+              +I+Y D++  P  I    LPWS+  +    +A  +I+AQGDG+SI CRI VD EVK E
+Sbjct  62   VADISYFDVNGDPLFIQKVPLPWSVKFEIGKTTAVGSIMAQGDGSSIGCRIIVDDEVKSE  121
+
+Query  126  RTATGVDALTYCFVKSA  142
+            +     +A T C +K+A
+Sbjct  122  KVTNQTNAFTSCLLKAA  138
+
+
+>VFG029387(gb|WP_003876149) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+avium subsp. paratuberculosis K-10]
+Length=139
+
+ Score = 116 bits (291),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 61/134 (46%), Positives = 84/134 (63%), Gaps = 1/134 (1%)
+
+Query  5    LKRAWIPLLILVVVAIAGFTVQRIRTFFGSEGILVTPKVFADDPEPFDPKVVEYEVSG-S  63
+            +KR WIPL+I+ VV   G TV R+   FGSE           D +PF+PK V+YEV G +
+Sbjct  1    MKRLWIPLVIVAVVVAGGLTVSRLHGIFGSEKRPSYADTRQQDTKPFNPKHVKYEVFGPA  60
+
+Query  64   GSYVNINYLDLDAKPQRIDGAALPWSLTLKTTAPSAAPNILAQGDGTSITCRITVDGEVK  123
+            G+  +I+Y D + +PQ I+G  LPW+  + TT PS   N++AQG+  S+ CRI VDG VK
+Sbjct  61   GAMADISYFDANGEPQHINGVELPWTFDISTTLPSIVGNVVAQGNSDSLGCRILVDGVVK  120
+
+Query  124  DERTATGVDALTYC  137
+             ER +  ++A TYC
+Sbjct  121  TERISHELNAFTYC  134
+
+
+>VFG029385(gb|WP_165443175) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+leprae TN]
+Length=140
+
+ Score = 114 bits (285),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 68/139 (49%), Positives = 89/139 (64%), Gaps = 1/139 (1%)
+
+Query  5    LKRAWIPLLILVVVAIAGFTVQRIRTFFGSEGILVTPKVFADDPEPFDPKVVEYEVSGS-  63
+            L R WIPL+ILVV+ + GF V R+ ++F SE             +PF+PK + YEV G  
+Sbjct  2    LSRIWIPLVILVVLVVGGFVVYRVHSYFASEKRESYADSNLGSSKPFNPKQIVYEVFGPP  61
+
+Query  64   GSYVNINYLDLDAKPQRIDGAALPWSLTLKTTAPSAAPNILAQGDGTSITCRITVDGEVK  123
+            G+  +I+Y D ++ PQRIDGA LPWSL + TT  +   N++AQG+  SI CRI VDG VK
+Sbjct  62   GTVADISYFDANSDPQRIDGAQLPWSLLMTTTLAAVMGNLVAQGNTDSIGCRIIVDGVVK  121
+
+Query  124  DERTATGVDALTYCFVKSA  142
+             ER +  V+A TYC VKSA
+Sbjct  122  AERVSNEVNAYTYCLVKSA  140
+
+
+>VFG029398(gb|WP_010908860) (mmpS4) MmpS family protein [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+leprae Br4923]
+Length=154
+
+ Score = 114 bits (284),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 68/139 (49%), Positives = 89/139 (64%), Gaps = 1/139 (1%)
+
+Query  5    LKRAWIPLLILVVVAIAGFTVQRIRTFFGSEGILVTPKVFADDPEPFDPKVVEYEVSGS-  63
+            L R WIPL+ILVV+ + GF V R+ ++F SE             +PF+PK + YEV G  
+Sbjct  16   LSRIWIPLVILVVLVVGGFVVYRVHSYFASEKRESYADSNLGSSKPFNPKQIVYEVFGPP  75
+
+Query  64   GSYVNINYLDLDAKPQRIDGAALPWSLTLKTTAPSAAPNILAQGDGTSITCRITVDGEVK  123
+            G+  +I+Y D ++ PQRIDGA LPWSL + TT  +   N++AQG+  SI CRI VDG VK
+Sbjct  76   GTVADISYFDANSDPQRIDGAQLPWSLLMTTTLAAVMGNLVAQGNTDSIGCRIIVDGVVK  135
+
+Query  124  DERTATGVDALTYCFVKSA  142
+             ER +  V+A TYC VKSA
+Sbjct  136  AERVSNEVNAYTYCLVKSA  154
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 560560156
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

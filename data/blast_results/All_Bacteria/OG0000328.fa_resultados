@@ -1,0 +1,1720 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g12.t1
+
+Length=232
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015516(gb|WP_012074247) (phzE1) phenazine biosynthesis protein...  70.9    4e-14
+VFG015538(gb|WP_011666697) (phzE2) phenazine biosynthesis protein...  70.1    7e-14
+VFG015517(gb|WP_003137488) (phzE1) phenazine biosynthesis protein...  70.1    7e-14
+VFG020026(gb|WP_012613547) (phzE1) phenazine biosynthesis protein...  70.1    8e-14
+VFG015515(gb|NP_252903) (phzE1) phenazine biosynthesis protein Ph...  70.1    8e-14
+VFG047726(gb|WP_003013939) (carA) carbamoyl phosphate synthase sm...  54.3    1e-08
+VFG047724(gb|WP_012429026) (carA) carbamoyl phosphate synthase sm...  54.3    1e-08
+VFG047728(gb|WP_014547361) (carA) carbamoyl phosphate synthase sm...  52.8    4e-08
+VFG047719(gb|WP_003040816) (carA) carbamoyl phosphate synthase sm...  52.8    5e-08
+VFG047720(gb|WP_012280231) (carA) carbamoyl phosphate synthase sm...  52.4    5e-08
+VFG047736(gb|WP_013921813) (carA) carbamoyl phosphate synthase sm...  52.4    6e-08
+
+
+>VFG015516(gb|WP_012074247) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa PA7]
+Length=627
+
+ Score = 70.9 bits (172),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 53/195 (27%), Positives = 84/195 (43%), Gaps = 15/195 (8%)
+
+Query  3    ILVIDNYDSFVFNLVQYLGQLGVDAEVWRNDDTRLSDESTIAAQFDGILLSPGPGTPERA  62
+            +L++D  D+F   + + L  LG+   V      R   E      +D +++ PGPG P   
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLAVSV------RGFQEPYSFDGYDLVIMGPGPGNPTEV  490
+
+Query  63   G----ASINL-VRVCAAAHTPLLGVCLGHQAIGVSFGATVDRAPELLHGKTSSVFHTNNG  117
+            G      ++L +R   +   P L VCL HQ + +  G  + R  E   G    +      
+Sbjct  491  GQPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAA  550
+
+Query  118  VLQGLPNPFTATRYHSLTILPESLPPVLEVVARTRSGVIMAVRHTELPIHGVQFHPESIL  177
+               G  N F A        +PE  P  +E+     +G + A+R        +QFHPES+L
+Sbjct  551  ERVGFYNTFAARALQDRIEIPEVGP--IEISRDRETGEVHALRGPRFA--SMQFHPESVL  606
+
+Query  178  TEGGHRLLANWLTYC  192
+            T  G R++A+ L + 
+Sbjct  607  TREGPRIIADLLRHA  621
+
+
+>VFG015538(gb|WP_011666697) (phzE2) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=627
+
+ Score = 70.1 bits (170),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 53/195 (27%), Positives = 84/195 (43%), Gaps = 15/195 (8%)
+
+Query  3    ILVIDNYDSFVFNLVQYLGQLGVDAEVWRNDDTRLSDESTIAAQFDGILLSPGPGTPERA  62
+            +L++D  D+F   + + L  LG+   V      R   E      +D +++ PGPG P   
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTV------RGFQEPYSFDGYDLVIMGPGPGNPTEI  490
+
+Query  63   G----ASINL-VRVCAAAHTPLLGVCLGHQAIGVSFGATVDRAPELLHGKTSSVFHTNNG  117
+            G      ++L +R   +   P L VCL HQ + +  G  + R  E   G    +      
+Sbjct  491  GQPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAA  550
+
+Query  118  VLQGLPNPFTATRYHSLTILPESLPPVLEVVARTRSGVIMAVRHTELPIHGVQFHPESIL  177
+               G  N F A        +PE  P  +E+     +G + A+R        +QFHPES+L
+Sbjct  551  ERVGFYNTFAARALQDRIEIPEVGP--IEISRDRETGEVHALRGPRFA--SMQFHPESVL  606
+
+Query  178  TEGGHRLLANWLTYC  192
+            T  G R++A+ L + 
+Sbjct  607  TREGPRIIADLLRHA  621
+
+
+>VFG015517(gb|WP_003137488) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=627
+
+ Score = 70.1 bits (170),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 53/195 (27%), Positives = 84/195 (43%), Gaps = 15/195 (8%)
+
+Query  3    ILVIDNYDSFVFNLVQYLGQLGVDAEVWRNDDTRLSDESTIAAQFDGILLSPGPGTPERA  62
+            +L++D  D+F   + + L  LG+   V      R   E      +D +++ PGPG P   
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTV------RGFQEPYSFDGYDLVIMGPGPGNPTEI  490
+
+Query  63   G----ASINL-VRVCAAAHTPLLGVCLGHQAIGVSFGATVDRAPELLHGKTSSVFHTNNG  117
+            G      ++L +R   +   P L VCL HQ + +  G  + R  E   G    +      
+Sbjct  491  GQPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAA  550
+
+Query  118  VLQGLPNPFTATRYHSLTILPESLPPVLEVVARTRSGVIMAVRHTELPIHGVQFHPESIL  177
+               G  N F A        +PE  P  +E+     +G + A+R        +QFHPES+L
+Sbjct  551  ERVGFYNTFAARALQDRIEIPEVGP--IEISRDRETGEVHALRGPRFA--SMQFHPESVL  606
+
+Query  178  TEGGHRLLANWLTYC  192
+            T  G R++A+ L + 
+Sbjct  607  TREGPRIIADLLRHA  621
+
+
+>VFG020026(gb|WP_012613547) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa LESB58]
+Length=627
+
+ Score = 70.1 bits (170),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 53/195 (27%), Positives = 84/195 (43%), Gaps = 15/195 (8%)
+
+Query  3    ILVIDNYDSFVFNLVQYLGQLGVDAEVWRNDDTRLSDESTIAAQFDGILLSPGPGTPERA  62
+            +L++D  D+F   + + L  LG+   V      R   E      +D +++ PGPG P   
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTV------RGFQEPYSFDGYDLVIMGPGPGNPTEI  490
+
+Query  63   G----ASINL-VRVCAAAHTPLLGVCLGHQAIGVSFGATVDRAPELLHGKTSSVFHTNNG  117
+            G      ++L +R   +   P L VCL HQ + +  G  + R  E   G    +      
+Sbjct  491  GQPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAA  550
+
+Query  118  VLQGLPNPFTATRYHSLTILPESLPPVLEVVARTRSGVIMAVRHTELPIHGVQFHPESIL  177
+               G  N F A        +PE  P  +E+     +G + A+R        +QFHPES+L
+Sbjct  551  ERVGFYNTFAARALQDRIEIPEVGP--IEISRDRETGEVHALRGPRFA--SMQFHPESVL  606
+
+Query  178  TEGGHRLLANWLTYC  192
+            T  G R++A+ L + 
+Sbjct  607  TREGPRIIADLLRHA  621
+
+
+>VFG015515(gb|NP_252903) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=627
+
+ Score = 70.1 bits (170),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 53/195 (27%), Positives = 84/195 (43%), Gaps = 15/195 (8%)
+
+Query  3    ILVIDNYDSFVFNLVQYLGQLGVDAEVWRNDDTRLSDESTIAAQFDGILLSPGPGTPERA  62
+            +L++D  D+F   + + L  LG+   V      R   E      +D +++ PGPG P   
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTV------RGFQEPYSFDGYDLVIMGPGPGNPTEI  490
+
+Query  63   G----ASINL-VRVCAAAHTPLLGVCLGHQAIGVSFGATVDRAPELLHGKTSSVFHTNNG  117
+            G      ++L +R   +   P L VCL HQ + +  G  + R  E   G    +      
+Sbjct  491  GQPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAA  550
+
+Query  118  VLQGLPNPFTATRYHSLTILPESLPPVLEVVARTRSGVIMAVRHTELPIHGVQFHPESIL  177
+               G  N F A        +PE  P  +E+     +G + A+R        +QFHPES+L
+Sbjct  551  ERVGFYNTFAARALQDRIEIPEVGP--IEISRDRETGEVHALRGPRFA--SMQFHPESVL  606
+
+Query  178  TEGGHRLLANWLTYC  192
+            T  G R++A+ L + 
+Sbjct  607  TREGPRIIADLLRHA  621
+
+
+>VFG047726(gb|WP_003013939) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella tularensis subsp. 
+tularensis SCHU S4]
+Length=388
+
+ Score = 54.3 bits (129),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 36/164 (22%), Positives = 72/164 (44%), Gaps = 11/164 (7%)
+
+Query  14   FNLVQYLGQLGVDAEVWRNDDTRLSDESTIAAQFDGILLSPGPGTP-ERAGASINLVRVC  72
+            +N+++ L   G    V   D T    E  +    DG+ LS GPG P   +  ++ +++  
+Sbjct  209  YNILRNLVDAGFKVTVVPADSTY---EDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKL  265
+
+Query  73   AAAHTPLLGVCLGHQAIGVSFGATVDRAPELLHGKTSSVFHTNNGVLQGLPNPFTATRYH  132
+                 P+ G+CLG+Q + ++ G    +  +   G    V   N   +         ++ H
+Sbjct  266  LEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPVLDANTKKV------LITSQNH  319
+
+Query  133  SLTILPESLPPVLEV-VARTRSGVIMAVRHTELPIHGVQFHPES  175
+               +  +++P  +++ ++    G +  +R  + P   VQ+HPES
+Sbjct  320  GFVVCDDNVPDNIQIHMSSLFDGTVEGLRFKDRPAFAVQYHPES  363
+
+
+>VFG047724(gb|WP_012429026) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella tularensis subsp. 
+mediasiatica FSC147]
+Length=388
+
+ Score = 54.3 bits (129),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 36/164 (22%), Positives = 72/164 (44%), Gaps = 11/164 (7%)
+
+Query  14   FNLVQYLGQLGVDAEVWRNDDTRLSDESTIAAQFDGILLSPGPGTP-ERAGASINLVRVC  72
+            +N+++ L   G    V   D T    E  +    DG+ LS GPG P   +  ++ +++  
+Sbjct  209  YNILRNLVDAGFKVTVVPADSTY---EDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKL  265
+
+Query  73   AAAHTPLLGVCLGHQAIGVSFGATVDRAPELLHGKTSSVFHTNNGVLQGLPNPFTATRYH  132
+                 P+ G+CLG+Q + ++ G    +  +   G    V   N   +         ++ H
+Sbjct  266  LEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPVLDANTKKV------LITSQNH  319
+
+Query  133  SLTILPESLPPVLEV-VARTRSGVIMAVRHTELPIHGVQFHPES  175
+               +  +++P  +++ ++    G +  +R  + P   VQ+HPES
+Sbjct  320  GFVVCDDNVPDNIQIHMSSLFDGTVEGLRFKDRPAFAVQYHPES  363
+
+
+>VFG047728(gb|WP_014547361) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella cf. tularensis 
+subsp. novicida 3523]
+Length=388
+
+ Score = 52.8 bits (125),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 36/164 (22%), Positives = 71/164 (43%), Gaps = 11/164 (7%)
+
+Query  14   FNLVQYLGQLGVDAEVWRNDDTRLSDESTIAAQFDGILLSPGPGTP-ERAGASINLVRVC  72
+            +N+++ L   G    V   D T    E  +    DG+ LS GPG P   +  ++ +++  
+Sbjct  209  YNILRNLVDAGFKVTVVPADSTY---EDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKL  265
+
+Query  73   AAAHTPLLGVCLGHQAIGVSFGATVDRAPELLHGKTSSVFHTNNGVLQGLPNPFTATRYH  132
+                 P+ G+CLG+Q + ++ G    +  +   G    V   +   +         ++ H
+Sbjct  266  LEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPVLDADTKKV------LITSQNH  319
+
+Query  133  SLTILPESLPPVLEV-VARTRSGVIMAVRHTELPIHGVQFHPES  175
+               +  + +P  +E+ ++    G +  +R  + P   VQ+HPES
+Sbjct  320  GFVVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQYHPES  363
+
+
+>VFG047719(gb|WP_003040816) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella novicida U112]
+Length=388
+
+ Score = 52.8 bits (125),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 36/164 (22%), Positives = 71/164 (43%), Gaps = 11/164 (7%)
+
+Query  14   FNLVQYLGQLGVDAEVWRNDDTRLSDESTIAAQFDGILLSPGPGTP-ERAGASINLVRVC  72
+            +N+++ L   G    V   D T    E  +    DG+ LS GPG P   +  ++ +++  
+Sbjct  209  YNILRNLVDAGFKVTVVPADSTY---EDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKL  265
+
+Query  73   AAAHTPLLGVCLGHQAIGVSFGATVDRAPELLHGKTSSVFHTNNGVLQGLPNPFTATRYH  132
+                 P+ G+CLG+Q + ++ G    +  +   G    V   +   +         ++ H
+Sbjct  266  LEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPVLDADTKKV------LITSQNH  319
+
+Query  133  SLTILPESLPPVLEV-VARTRSGVIMAVRHTELPIHGVQFHPES  175
+               +  + +P  +E+ ++    G +  +R  + P   VQ+HPES
+Sbjct  320  GFVVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQYHPES  363
+
+
+>VFG047720(gb|WP_012280231) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella philomiragia subsp. 
+philomiragia ATCC 25017]
+Length=388
+
+ Score = 52.4 bits (124),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 36/164 (22%), Positives = 71/164 (43%), Gaps = 11/164 (7%)
+
+Query  14   FNLVQYLGQLGVDAEVWRNDDTRLSDESTIAAQFDGILLSPGPGTP-ERAGASINLVRVC  72
+            +N+++ L   G    V   D T    E  +    DG+ LS GPG P   +  ++ +++  
+Sbjct  209  YNILRNLVDAGFKVTVVPADSTY---EDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKL  265
+
+Query  73   AAAHTPLLGVCLGHQAIGVSFGATVDRAPELLHGKTSSVFHTNNGVLQGLPNPFTATRYH  132
+                 P+ G+CLG+Q + ++ G    +  +   G    V   +   +         ++ H
+Sbjct  266  LEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPVLDADTKKV------LITSQNH  319
+
+Query  133  SLTILPESLPPVLEV-VARTRSGVIMAVRHTELPIHGVQFHPES  175
+               +  + +P  +E+ ++    G +  +R  + P   VQ+HPES
+Sbjct  320  GFVVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQYHPES  363
+
+
+>VFG047736(gb|WP_013921813) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella sp. TX077308]
+Length=388
+
+ Score = 52.4 bits (124),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 36/164 (22%), Positives = 71/164 (43%), Gaps = 11/164 (7%)
+
+Query  14   FNLVQYLGQLGVDAEVWRNDDTRLSDESTIAAQFDGILLSPGPGTP-ERAGASINLVRVC  72
+            +N+++ L   G    V   D T    E  +    DG+ LS GPG P   +  ++ +++  
+Sbjct  209  YNILRNLVDAGFKVTVVPADSTY---EDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKL  265
+
+Query  73   AAAHTPLLGVCLGHQAIGVSFGATVDRAPELLHGKTSSVFHTNNGVLQGLPNPFTATRYH  132
+                 P+ G+CLG+Q + ++ G    +  +   G    V   +   +         ++ H
+Sbjct  266  LEIKMPIFGICLGNQLLALAAGLKTKKMHQGHRGVNQPVLDADTKKV------LITSQNH  319
+
+Query  133  SLTILPESLPPVLEV-VARTRSGVIMAVRHTELPIHGVQFHPES  175
+               +  + +P  +E+ ++    G +  +R  + P   VQ+HPES
+Sbjct  320  GFVVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQYHPES  363
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1428857415
+
+
+Query= g13.t1
+
+Length=232
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015516(gb|WP_012074247) (phzE1) phenazine biosynthesis protein...  67.4    6e-13
+VFG015538(gb|WP_011666697) (phzE2) phenazine biosynthesis protein...  66.6    1e-12
+VFG015515(gb|NP_252903) (phzE1) phenazine biosynthesis protein Ph...  66.6    1e-12
+VFG015517(gb|WP_003137488) (phzE1) phenazine biosynthesis protein...  66.6    1e-12
+VFG020026(gb|WP_012613547) (phzE1) phenazine biosynthesis protein...  66.6    1e-12
+
+
+>VFG015516(gb|WP_012074247) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa PA7]
+Length=627
+
+ Score = 67.4 bits (163),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 51/192 (27%), Positives = 81/192 (42%), Gaps = 15/192 (8%)
+
+Query  3    ILVVDNYDSFVFNLVQYLGQLGIEAEVWRNDDHRLSDEAAVAGQFDGVLLSPGPGTPERA  62
+            +L+VD  D+F   + + L  LG+   V      R   E      +D V++ PGPG P   
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLAVSV------RGFQEPYSFDGYDLVIMGPGPGNPTEV  490
+
+Query  63   GASVS-----IVHACAAAHTPLLGVCLGHQAIGVAFGATVDRAPELLHGKTSSVFHTNVG  117
+            G          + +  +   P L VCL HQ + +  G  + R  E   G    +      
+Sbjct  491  GQPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAA  550
+
+Query  118  VLQGLPDPFTATRYHSLTILPKSLPAVLRVTARTSSGVIMAVQHTGLPIHGVQFHPESIL  177
+               G  + F A        +P+  P  + ++    +G + A++  G     +QFHPES+L
+Sbjct  551  ERVGFYNTFAARALQDRIEIPEVGP--IEISRDRETGEVHALR--GPRFASMQFHPESVL  606
+
+Query  178  TEGGHRILANWL  189
+            T  G RI+A+ L
+Sbjct  607  TREGPRIIADLL  618
+
+
+>VFG015538(gb|WP_011666697) (phzE2) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=627
+
+ Score = 66.6 bits (161),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 51/192 (27%), Positives = 81/192 (42%), Gaps = 15/192 (8%)
+
+Query  3    ILVVDNYDSFVFNLVQYLGQLGIEAEVWRNDDHRLSDEAAVAGQFDGVLLSPGPGTPERA  62
+            +L+VD  D+F   + + L  LG+   V      R   E      +D V++ PGPG P   
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTV------RGFQEPYSFDGYDLVIMGPGPGNPTEI  490
+
+Query  63   GASVS-----IVHACAAAHTPLLGVCLGHQAIGVAFGATVDRAPELLHGKTSSVFHTNVG  117
+            G          + +  +   P L VCL HQ + +  G  + R  E   G    +      
+Sbjct  491  GQPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAA  550
+
+Query  118  VLQGLPDPFTATRYHSLTILPKSLPAVLRVTARTSSGVIMAVQHTGLPIHGVQFHPESIL  177
+               G  + F A        +P+  P  + ++    +G + A++  G     +QFHPES+L
+Sbjct  551  ERVGFYNTFAARALQDRIEIPEVGP--IEISRDRETGEVHALR--GPRFASMQFHPESVL  606
+
+Query  178  TEGGHRILANWL  189
+            T  G RI+A+ L
+Sbjct  607  TREGPRIIADLL  618
+
+
+>VFG015515(gb|NP_252903) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=627
+
+ Score = 66.6 bits (161),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 51/192 (27%), Positives = 81/192 (42%), Gaps = 15/192 (8%)
+
+Query  3    ILVVDNYDSFVFNLVQYLGQLGIEAEVWRNDDHRLSDEAAVAGQFDGVLLSPGPGTPERA  62
+            +L+VD  D+F   + + L  LG+   V      R   E      +D V++ PGPG P   
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTV------RGFQEPYSFDGYDLVIMGPGPGNPTEI  490
+
+Query  63   GASVS-----IVHACAAAHTPLLGVCLGHQAIGVAFGATVDRAPELLHGKTSSVFHTNVG  117
+            G          + +  +   P L VCL HQ + +  G  + R  E   G    +      
+Sbjct  491  GQPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAA  550
+
+Query  118  VLQGLPDPFTATRYHSLTILPKSLPAVLRVTARTSSGVIMAVQHTGLPIHGVQFHPESIL  177
+               G  + F A        +P+  P  + ++    +G + A++  G     +QFHPES+L
+Sbjct  551  ERVGFYNTFAARALQDRIEIPEVGP--IEISRDRETGEVHALR--GPRFASMQFHPESVL  606
+
+Query  178  TEGGHRILANWL  189
+            T  G RI+A+ L
+Sbjct  607  TREGPRIIADLL  618
+
+
+>VFG015517(gb|WP_003137488) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=627
+
+ Score = 66.6 bits (161),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 51/192 (27%), Positives = 81/192 (42%), Gaps = 15/192 (8%)
+
+Query  3    ILVVDNYDSFVFNLVQYLGQLGIEAEVWRNDDHRLSDEAAVAGQFDGVLLSPGPGTPERA  62
+            +L+VD  D+F   + + L  LG+   V      R   E      +D V++ PGPG P   
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTV------RGFQEPYSFDGYDLVIMGPGPGNPTEI  490
+
+Query  63   GASVS-----IVHACAAAHTPLLGVCLGHQAIGVAFGATVDRAPELLHGKTSSVFHTNVG  117
+            G          + +  +   P L VCL HQ + +  G  + R  E   G    +      
+Sbjct  491  GQPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAA  550
+
+Query  118  VLQGLPDPFTATRYHSLTILPKSLPAVLRVTARTSSGVIMAVQHTGLPIHGVQFHPESIL  177
+               G  + F A        +P+  P  + ++    +G + A++  G     +QFHPES+L
+Sbjct  551  ERVGFYNTFAARALQDRIEIPEVGP--IEISRDRETGEVHALR--GPRFASMQFHPESVL  606
+
+Query  178  TEGGHRILANWL  189
+            T  G RI+A+ L
+Sbjct  607  TREGPRIIADLL  618
+
+
+>VFG020026(gb|WP_012613547) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa LESB58]
+Length=627
+
+ Score = 66.6 bits (161),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 51/192 (27%), Positives = 81/192 (42%), Gaps = 15/192 (8%)
+
+Query  3    ILVVDNYDSFVFNLVQYLGQLGIEAEVWRNDDHRLSDEAAVAGQFDGVLLSPGPGTPERA  62
+            +L+VD  D+F   + + L  LG+   V      R   E      +D V++ PGPG P   
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTV------RGFQEPYSFDGYDLVIMGPGPGNPTEI  490
+
+Query  63   GASVS-----IVHACAAAHTPLLGVCLGHQAIGVAFGATVDRAPELLHGKTSSVFHTNVG  117
+            G          + +  +   P L VCL HQ + +  G  + R  E   G    +      
+Sbjct  491  GQPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAA  550
+
+Query  118  VLQGLPDPFTATRYHSLTILPKSLPAVLRVTARTSSGVIMAVQHTGLPIHGVQFHPESIL  177
+               G  + F A        +P+  P  + ++    +G + A++  G     +QFHPES+L
+Sbjct  551  ERVGFYNTFAARALQDRIEIPEVGP--IEISRDRETGEVHALR--GPRFASMQFHPESVL  606
+
+Query  178  TEGGHRILANWL  189
+            T  G RI+A+ L
+Sbjct  607  TREGPRIIADLL  618
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1428857415
+
+
+Query= g655.t1
+
+Length=201
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015516(gb|WP_012074247) (phzE1) phenazine biosynthesis protein...  58.2    4e-10
+VFG020026(gb|WP_012613547) (phzE1) phenazine biosynthesis protein...  57.8    6e-10
+VFG015538(gb|WP_011666697) (phzE2) phenazine biosynthesis protein...  57.8    7e-10
+VFG015517(gb|WP_003137488) (phzE1) phenazine biosynthesis protein...  57.8    7e-10
+VFG047736(gb|WP_013921813) (carA) carbamoyl phosphate synthase sm...  57.4    7e-10
+VFG015515(gb|NP_252903) (phzE1) phenazine biosynthesis protein Ph...  57.4    7e-10
+VFG047728(gb|WP_014547361) (carA) carbamoyl phosphate synthase sm...  56.2    2e-09
+VFG047720(gb|WP_012280231) (carA) carbamoyl phosphate synthase sm...  55.8    2e-09
+VFG047719(gb|WP_003040816) (carA) carbamoyl phosphate synthase sm...  55.8    2e-09
+VFG047724(gb|WP_012429026) (carA) carbamoyl phosphate synthase sm...  55.8    2e-09
+VFG047726(gb|WP_003013939) (carA) carbamoyl phosphate synthase sm...  55.8    3e-09
+VFG047735(gb|WP_014714142) (carA) carbamoyl phosphate synthase sm...  54.7    5e-09
+
+
+>VFG015516(gb|WP_012074247) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa PA7]
+Length=627
+
+ Score = 58.2 bits (139),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 49/197 (25%), Positives = 80/197 (41%), Gaps = 21/197 (11%)
+
+Query  2    LLMIDNYDSFTYNLVQYFGELKAEVKVVRNDE-LSVEQIEALAPERIVLSPGPCTPNEAG  60
+            +L++D  D+FT  + +    L   V V    E  S +  +      +++ PGP  P E G
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLAVSVRGFQEPYSFDGYDL-----VIMGPGPGNPTEVG  491
+
+Query  61   ------VSLAVIERFAGKLPLLGVCLGHQSIGQAFGGEVVRARQVMHGKTSPIHHKDLGV  114
+                  + LA+    + + P L VCL HQ +    G ++ R ++   G    I       
+Sbjct  492  QPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAAE  551
+
+Query  115  FAGLANPLTVTRYHSLVVKRESLPECLEVTAWTQHADGSLDEIMGVRHKTLNVEGVQFHP  174
+              G  N             R  +PE   +        G +  + G R  ++     QFHP
+Sbjct  552  RVGFYNTFAARALQD----RIEIPEVGPIEISRDRETGEVHALRGPRFASM-----QFHP  602
+
+Query  175  ESILTEQGHELLANFLR  191
+            ES+LT +G  ++A+ LR
+Sbjct  603  ESVLTREGPRIIADLLR  619
+
+
+>VFG020026(gb|WP_012613547) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa LESB58]
+Length=627
+
+ Score = 57.8 bits (138),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 49/197 (25%), Positives = 80/197 (41%), Gaps = 21/197 (11%)
+
+Query  2    LLMIDNYDSFTYNLVQYFGELKAEVKVVRNDE-LSVEQIEALAPERIVLSPGPCTPNEAG  60
+            +L++D  D+FT  + +    L   V V    E  S +  +      +++ PGP  P E G
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTVRGFQEPYSFDGYDL-----VIMGPGPGNPTEIG  491
+
+Query  61   ------VSLAVIERFAGKLPLLGVCLGHQSIGQAFGGEVVRARQVMHGKTSPIHHKDLGV  114
+                  + LA+    + + P L VCL HQ +    G ++ R ++   G    I       
+Sbjct  492  QPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAAE  551
+
+Query  115  FAGLANPLTVTRYHSLVVKRESLPECLEVTAWTQHADGSLDEIMGVRHKTLNVEGVQFHP  174
+              G  N             R  +PE   +        G +  + G R  ++     QFHP
+Sbjct  552  RVGFYNTFAARALQD----RIEIPEVGPIEISRDRETGEVHALRGPRFASM-----QFHP  602
+
+Query  175  ESILTEQGHELLANFLR  191
+            ES+LT +G  ++A+ LR
+Sbjct  603  ESVLTREGPRIIADLLR  619
+
+
+>VFG015538(gb|WP_011666697) (phzE2) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=627
+
+ Score = 57.8 bits (138),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 50/201 (25%), Positives = 86/201 (43%), Gaps = 29/201 (14%)
+
+Query  2    LLMIDNYDSFTYNLVQYFGELKAEVKVVRNDE-LSVEQIEALAPERIVLSPGPCTPNEAG  60
+            +L++D  D+FT  + +    L   V V    E  S +  +      +++ PGP  P E G
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTVRGFQEPYSFDGYDL-----VIMGPGPGNPTEIG  491
+
+Query  61   ------VSLAVIERFAGKLPLLGVCLGHQSIGQAFGGEVVRARQVMHGKTSPIHHKDLGV  114
+                  + LA+    + + P L VCL HQ +    G ++ R ++   G       K + +
+Sbjct  492  QPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGV-----QKQIDL  546
+
+Query  115  FAGLANPLTVTRYHSLVVK----RESLPECLEVTAWTQHADGSLDEIMGVRHKTLNVEGV  170
+            F        V  Y++   +    R  +PE   +        G +  + G R  ++     
+Sbjct  547  FGAAER---VGFYNTFAARALQDRIEIPEVGPIEISRDRETGEVHALRGPRFASM-----  598
+
+Query  171  QFHPESILTEQGHELLANFLR  191
+            QFHPES+LT +G  ++A+ LR
+Sbjct  599  QFHPESVLTREGPRIIADLLR  619
+
+
+>VFG015517(gb|WP_003137488) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=627
+
+ Score = 57.8 bits (138),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 49/197 (25%), Positives = 80/197 (41%), Gaps = 21/197 (11%)
+
+Query  2    LLMIDNYDSFTYNLVQYFGELKAEVKVVRNDE-LSVEQIEALAPERIVLSPGPCTPNEAG  60
+            +L++D  D+FT  + +    L   V V    E  S +  +      +++ PGP  P E G
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTVRGFQEPYSFDGYDL-----VIMGPGPGNPTEIG  491
+
+Query  61   ------VSLAVIERFAGKLPLLGVCLGHQSIGQAFGGEVVRARQVMHGKTSPIHHKDLGV  114
+                  + LA+    + + P L VCL HQ +    G ++ R ++   G    I       
+Sbjct  492  QPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAAE  551
+
+Query  115  FAGLANPLTVTRYHSLVVKRESLPECLEVTAWTQHADGSLDEIMGVRHKTLNVEGVQFHP  174
+              G  N             R  +PE   +        G +  + G R  ++     QFHP
+Sbjct  552  RVGFYNTFAARALQD----RIEIPEVGPIEISRDRETGEVHALRGPRFASM-----QFHP  602
+
+Query  175  ESILTEQGHELLANFLR  191
+            ES+LT +G  ++A+ LR
+Sbjct  603  ESVLTREGPRIIADLLR  619
+
+
+>VFG047736(gb|WP_013921813) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella sp. TX077308]
+Length=388
+
+ Score = 57.4 bits (137),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 46/166 (28%), Positives = 80/166 (48%), Gaps = 13/166 (8%)
+
+Query  13   YNLVQYFGELKAEVKVVRNDELSVEQIEALAPERIVLSPGPCTP-NEAGVSLAVIERFAG  71
+            YN+++   +   +V VV  D  + E I    P+ + LS GP  P   +  ++ VI++   
+Sbjct  209  YNILRNLVDAGFKVTVVPADS-TYEDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKLLE  267
+
+Query  72   -KLPLLGVCLGHQSIGQAFGGEVVRARQVMHGKTSPIHHKDLGVFAGLANPLTVTRYHSL  130
+             K+P+ G+CLG+Q +  A G +  +  Q   G   P+   D          L  ++ H  
+Sbjct  268  IKMPIFGICLGNQLLALAAGLKTKKMHQGHRGVNQPVLDAD------TKKVLITSQNHGF  321
+
+Query  131  VVKRESLPECLEVTAWTQHADGSLDEIMGVRHKTLNVEGVQFHPES  176
+            VV  + +P+ +E+   +   DG+++   G+R K      VQ+HPES
+Sbjct  322  VVCDDVVPDNIEIHM-SSLFDGTVE---GLRFKDRPAFAVQYHPES  363
+
+
+>VFG015515(gb|NP_252903) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=627
+
+ Score = 57.4 bits (137),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 49/197 (25%), Positives = 80/197 (41%), Gaps = 21/197 (11%)
+
+Query  2    LLMIDNYDSFTYNLVQYFGELKAEVKVVRNDE-LSVEQIEALAPERIVLSPGPCTPNEAG  60
+            +L++D  D+FT  + +    L   V V    E  S +  +      +++ PGP  P E G
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTVRGFQEPYSFDGYDL-----VIMGPGPGNPTEIG  491
+
+Query  61   ------VSLAVIERFAGKLPLLGVCLGHQSIGQAFGGEVVRARQVMHGKTSPIHHKDLGV  114
+                  + LA+    + + P L VCL HQ +    G ++ R ++   G    I       
+Sbjct  492  QPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAAE  551
+
+Query  115  FAGLANPLTVTRYHSLVVKRESLPECLEVTAWTQHADGSLDEIMGVRHKTLNVEGVQFHP  174
+              G  N             R  +PE   +        G +  + G R  ++     QFHP
+Sbjct  552  RVGFYNTFAARALQD----RIEIPEVGPIEISRDRETGEVHALRGPRFASM-----QFHP  602
+
+Query  175  ESILTEQGHELLANFLR  191
+            ES+LT +G  ++A+ LR
+Sbjct  603  ESVLTREGPRIIADLLR  619
+
+
+>VFG047728(gb|WP_014547361) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella cf. tularensis 
+subsp. novicida 3523]
+Length=388
+
+ Score = 56.2 bits (134),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 45/166 (27%), Positives = 80/166 (48%), Gaps = 13/166 (8%)
+
+Query  13   YNLVQYFGELKAEVKVVRNDELSVEQIEALAPERIVLSPGPCTP-NEAGVSLAVIERFAG  71
+            YN+++   +   +V VV  D  + E I    P+ + LS GP  P   +  ++ VI++   
+Sbjct  209  YNILRNLVDAGFKVTVVPADS-TYEDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKLLE  267
+
+Query  72   -KLPLLGVCLGHQSIGQAFGGEVVRARQVMHGKTSPIHHKDLGVFAGLANPLTVTRYHSL  130
+             K+P+ G+CLG+Q +  A G +  +  +   G   P+   D          L  ++ H  
+Sbjct  268  VKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPVLDAD------TKKVLITSQNHGF  321
+
+Query  131  VVKRESLPECLEVTAWTQHADGSLDEIMGVRHKTLNVEGVQFHPES  176
+            VV  + +P+ +E+   +   DG+++   G+R K      VQ+HPES
+Sbjct  322  VVCDDVVPDNIEIHM-SSLFDGTVE---GLRFKDRPAFAVQYHPES  363
+
+
+>VFG047720(gb|WP_012280231) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella philomiragia subsp. 
+philomiragia ATCC 25017]
+Length=388
+
+ Score = 55.8 bits (133),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 45/166 (27%), Positives = 80/166 (48%), Gaps = 13/166 (8%)
+
+Query  13   YNLVQYFGELKAEVKVVRNDELSVEQIEALAPERIVLSPGPCTP-NEAGVSLAVIERFAG  71
+            YN+++   +   +V VV  D  + E I    P+ + LS GP  P   +  ++ VI++   
+Sbjct  209  YNILRNLVDAGFKVTVVPADS-TYEDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKLLE  267
+
+Query  72   -KLPLLGVCLGHQSIGQAFGGEVVRARQVMHGKTSPIHHKDLGVFAGLANPLTVTRYHSL  130
+             K+P+ G+CLG+Q +  A G +  +  +   G   P+   D          L  ++ H  
+Sbjct  268  VKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPVLDAD------TKKVLITSQNHGF  321
+
+Query  131  VVKRESLPECLEVTAWTQHADGSLDEIMGVRHKTLNVEGVQFHPES  176
+            VV  + +P+ +E+   +   DG+++   G+R K      VQ+HPES
+Sbjct  322  VVCDDVVPDNIEIHM-SSLFDGTVE---GLRFKDRPAFAVQYHPES  363
+
+
+>VFG047719(gb|WP_003040816) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella novicida U112]
+Length=388
+
+ Score = 55.8 bits (133),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 45/166 (27%), Positives = 80/166 (48%), Gaps = 13/166 (8%)
+
+Query  13   YNLVQYFGELKAEVKVVRNDELSVEQIEALAPERIVLSPGPCTP-NEAGVSLAVIERFAG  71
+            YN+++   +   +V VV  D  + E I    P+ + LS GP  P   +  ++ VI++   
+Sbjct  209  YNILRNLVDAGFKVTVVPADS-TYEDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKLLE  267
+
+Query  72   -KLPLLGVCLGHQSIGQAFGGEVVRARQVMHGKTSPIHHKDLGVFAGLANPLTVTRYHSL  130
+             K+P+ G+CLG+Q +  A G +  +  +   G   P+   D          L  ++ H  
+Sbjct  268  VKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPVLDAD------TKKVLITSQNHGF  321
+
+Query  131  VVKRESLPECLEVTAWTQHADGSLDEIMGVRHKTLNVEGVQFHPES  176
+            VV  + +P+ +E+   +   DG+++   G+R K      VQ+HPES
+Sbjct  322  VVCDDVVPDNIEIHM-SSLFDGTVE---GLRFKDRPAFAVQYHPES  363
+
+
+>VFG047724(gb|WP_012429026) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella tularensis subsp. 
+mediasiatica FSC147]
+Length=388
+
+ Score = 55.8 bits (133),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 44/166 (27%), Positives = 82/166 (49%), Gaps = 13/166 (8%)
+
+Query  13   YNLVQYFGELKAEVKVVRNDELSVEQIEALAPERIVLSPGPCTP-NEAGVSLAVIERFAG  71
+            YN+++   +   +V VV  D  + E I    P+ + LS GP  P   +  ++ VI++   
+Sbjct  209  YNILRNLVDAGFKVTVVPADS-TYEDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKLLE  267
+
+Query  72   -KLPLLGVCLGHQSIGQAFGGEVVRARQVMHGKTSPIHHKDLGVFAGLANPLTVTRYHSL  130
+             K+P+ G+CLG+Q +  A G +  +  +   G   P+      + A     L  ++ H  
+Sbjct  268  VKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPV------LDANTKKVLITSQNHGF  321
+
+Query  131  VVKRESLPECLEVTAWTQHADGSLDEIMGVRHKTLNVEGVQFHPES  176
+            VV  +++P+ +++   +   DG+++   G+R K      VQ+HPES
+Sbjct  322  VVCDDNVPDNIQIHM-SSLFDGTVE---GLRFKDRPAFAVQYHPES  363
+
+
+>VFG047726(gb|WP_003013939) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella tularensis subsp. 
+tularensis SCHU S4]
+Length=388
+
+ Score = 55.8 bits (133),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 44/166 (27%), Positives = 82/166 (49%), Gaps = 13/166 (8%)
+
+Query  13   YNLVQYFGELKAEVKVVRNDELSVEQIEALAPERIVLSPGPCTP-NEAGVSLAVIERFAG  71
+            YN+++   +   +V VV  D  + E I    P+ + LS GP  P   +  ++ VI++   
+Sbjct  209  YNILRNLVDAGFKVTVVPADS-TYEDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKLLE  267
+
+Query  72   -KLPLLGVCLGHQSIGQAFGGEVVRARQVMHGKTSPIHHKDLGVFAGLANPLTVTRYHSL  130
+             K+P+ G+CLG+Q +  A G +  +  +   G   P+      + A     L  ++ H  
+Sbjct  268  VKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPV------LDANTKKVLITSQNHGF  321
+
+Query  131  VVKRESLPECLEVTAWTQHADGSLDEIMGVRHKTLNVEGVQFHPES  176
+            VV  +++P+ +++   +   DG+++   G+R K      VQ+HPES
+Sbjct  322  VVCDDNVPDNIQIHM-SSLFDGTVE---GLRFKDRPAFAVQYHPES  363
+
+
+>VFG047735(gb|WP_014714142) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella noatunensis subsp. 
+orientalis str. Toba 04]
+Length=388
+
+ Score = 54.7 bits (130),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 45/166 (27%), Positives = 78/166 (47%), Gaps = 13/166 (8%)
+
+Query  13   YNLVQYFGELKAEVKVVRNDELSVEQIEALAPERIVLSPGPCTP-NEAGVSLAVIERFAG  71
+            YN+++   +   +V VV  D  + E I    P  + LS GP  P   +  ++ VI++   
+Sbjct  209  YNILRNLVDAGFKVTVVPADS-TYEDIMKHNPNGVFLSNGPGDPFATSDYTMPVIKKLLE  267
+
+Query  72   -KLPLLGVCLGHQSIGQAFGGEVVRARQVMHGKTSPIHHKDLGVFAGLANPLTVTRYHSL  130
+             K+P+ G+CLG+Q +  A G +  +  +   G   P+   D          L  ++ H  
+Sbjct  268  VKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPVLDAD------TKKVLITSQNHGF  321
+
+Query  131  VVKRESLPECLEVTAWTQHADGSLDEIMGVRHKTLNVEGVQFHPES  176
+            VV  + +P+  E+   +   DG+++   G+R K      VQ+HPES
+Sbjct  322  VVCDDVVPDNFEIHM-SSLFDGTVE---GLRFKDRPAFAVQYHPES  363
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1127849858
+
+
+Query= g1013.t1
+
+Length=200
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015516(gb|WP_012074247) (phzE1) phenazine biosynthesis protein...  64.7    2e-12
+VFG015538(gb|WP_011666697) (phzE2) phenazine biosynthesis protein...  64.3    3e-12
+VFG015517(gb|WP_003137488) (phzE1) phenazine biosynthesis protein...  64.3    4e-12
+VFG015515(gb|NP_252903) (phzE1) phenazine biosynthesis protein Ph...  64.3    4e-12
+VFG020026(gb|WP_012613547) (phzE1) phenazine biosynthesis protein...  64.3    4e-12
+VFG047735(gb|WP_014714142) (carA) carbamoyl phosphate synthase sm...  48.5    7e-07
+
+
+>VFG015516(gb|WP_012074247) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa PA7]
+Length=627
+
+ Score = 64.7 bits (156),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 59/199 (30%), Positives = 88/199 (44%), Gaps = 32/199 (16%)
+
+Query  3    ITLLDNFDSFTYNLVEQFCLLGAEVRVMRNDTPLPTIQAALLADGCELLVLSPGPGRPED  62
+            + ++D  D+FT  + +Q   LG  V V     P          DG +L+++ PGPG P +
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLAVSVRGFQEPYSF-------DGYDLVIMGPGPGNPTE  489
+
+Query  63   AG------CMLELLAWARGRLPVLGVCLGHQALALAAGGAVGEARKPLHGKSTSLRFDQR  116
+             G        L + +    R P L VCL HQ L+L  G  +   ++P  G    +     
+Sbjct  490  VGQPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQI-----  544
+
+Query  117  HPLFDGIADLRVARYHSLVVS------RLPEGFDCLADAD---GEIMAMADPRNRQLGLQ  167
+              LF G A+ RV  Y++           +PE        D   GE+ A+  PR     +Q
+Sbjct  545  -DLF-GAAE-RVGFYNTFAARALQDRIEIPEVGPIEISRDRETGEVHALRGPRF--ASMQ  599
+
+Query  168  FHPESILTTHGQRLLENAL  186
+            FHPES+LT  G R++ + L
+Sbjct  600  FHPESVLTREGPRIIADLL  618
+
+
+>VFG015538(gb|WP_011666697) (phzE2) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=627
+
+ Score = 64.3 bits (155),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 59/199 (30%), Positives = 88/199 (44%), Gaps = 32/199 (16%)
+
+Query  3    ITLLDNFDSFTYNLVEQFCLLGAEVRVMRNDTPLPTIQAALLADGCELLVLSPGPGRPED  62
+            + ++D  D+FT  + +Q   LG  V V     P          DG +L+++ PGPG P +
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTVRGFQEPYSF-------DGYDLVIMGPGPGNPTE  489
+
+Query  63   AG------CMLELLAWARGRLPVLGVCLGHQALALAAGGAVGEARKPLHGKSTSLRFDQR  116
+             G        L + +    R P L VCL HQ L+L  G  +   ++P  G    +     
+Sbjct  490  IGQPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQID----  545
+
+Query  117  HPLFDGIADLRVARYHSLVVS------RLPEGFDCLADAD---GEIMAMADPRNRQLGLQ  167
+              LF G A+ RV  Y++           +PE        D   GE+ A+  PR     +Q
+Sbjct  546  --LF-GAAE-RVGFYNTFAARALQDRIEIPEVGPIEISRDRETGEVHALRGPRF--ASMQ  599
+
+Query  168  FHPESILTTHGQRLLENAL  186
+            FHPES+LT  G R++ + L
+Sbjct  600  FHPESVLTREGPRIIADLL  618
+
+
+>VFG015517(gb|WP_003137488) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=627
+
+ Score = 64.3 bits (155),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 59/199 (30%), Positives = 88/199 (44%), Gaps = 32/199 (16%)
+
+Query  3    ITLLDNFDSFTYNLVEQFCLLGAEVRVMRNDTPLPTIQAALLADGCELLVLSPGPGRPED  62
+            + ++D  D+FT  + +Q   LG  V V     P          DG +L+++ PGPG P +
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTVRGFQEPYSF-------DGYDLVIMGPGPGNPTE  489
+
+Query  63   AG------CMLELLAWARGRLPVLGVCLGHQALALAAGGAVGEARKPLHGKSTSLRFDQR  116
+             G        L + +    R P L VCL HQ L+L  G  +   ++P  G    +     
+Sbjct  490  IGQPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQID----  545
+
+Query  117  HPLFDGIADLRVARYHSLVVS------RLPEGFDCLADAD---GEIMAMADPRNRQLGLQ  167
+              LF G A+ RV  Y++           +PE        D   GE+ A+  PR     +Q
+Sbjct  546  --LF-GAAE-RVGFYNTFAARALQDRIEIPEVGPIEISRDRETGEVHALRGPRF--ASMQ  599
+
+Query  168  FHPESILTTHGQRLLENAL  186
+            FHPES+LT  G R++ + L
+Sbjct  600  FHPESVLTREGPRIIADLL  618
+
+
+>VFG015515(gb|NP_252903) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=627
+
+ Score = 64.3 bits (155),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 59/199 (30%), Positives = 88/199 (44%), Gaps = 32/199 (16%)
+
+Query  3    ITLLDNFDSFTYNLVEQFCLLGAEVRVMRNDTPLPTIQAALLADGCELLVLSPGPGRPED  62
+            + ++D  D+FT  + +Q   LG  V V     P          DG +L+++ PGPG P +
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTVRGFQEPYSF-------DGYDLVIMGPGPGNPTE  489
+
+Query  63   AG------CMLELLAWARGRLPVLGVCLGHQALALAAGGAVGEARKPLHGKSTSLRFDQR  116
+             G        L + +    R P L VCL HQ L+L  G  +   ++P  G    +     
+Sbjct  490  IGQPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQID----  545
+
+Query  117  HPLFDGIADLRVARYHSLVVS------RLPEGFDCLADAD---GEIMAMADPRNRQLGLQ  167
+              LF G A+ RV  Y++           +PE        D   GE+ A+  PR     +Q
+Sbjct  546  --LF-GAAE-RVGFYNTFAARALQDRIEIPEVGPIEISRDRETGEVHALRGPRF--ASMQ  599
+
+Query  168  FHPESILTTHGQRLLENAL  186
+            FHPES+LT  G R++ + L
+Sbjct  600  FHPESVLTREGPRIIADLL  618
+
+
+>VFG020026(gb|WP_012613547) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa LESB58]
+Length=627
+
+ Score = 64.3 bits (155),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 59/199 (30%), Positives = 88/199 (44%), Gaps = 32/199 (16%)
+
+Query  3    ITLLDNFDSFTYNLVEQFCLLGAEVRVMRNDTPLPTIQAALLADGCELLVLSPGPGRPED  62
+            + ++D  D+FT  + +Q   LG  V V     P          DG +L+++ PGPG P +
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTVRGFQEPYSF-------DGYDLVIMGPGPGNPTE  489
+
+Query  63   AG------CMLELLAWARGRLPVLGVCLGHQALALAAGGAVGEARKPLHGKSTSLRFDQR  116
+             G        L + +    R P L VCL HQ L+L  G  +   ++P  G    +     
+Sbjct  490  IGQPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQID----  545
+
+Query  117  HPLFDGIADLRVARYHSLVVS------RLPEGFDCLADAD---GEIMAMADPRNRQLGLQ  167
+              LF G A+ RV  Y++           +PE        D   GE+ A+  PR     +Q
+Sbjct  546  --LF-GAAE-RVGFYNTFAARALQDRIEIPEVGPIEISRDRETGEVHALRGPRF--ASMQ  599
+
+Query  168  FHPESILTTHGQRLLENAL  186
+            FHPES+LT  G R++ + L
+Sbjct  600  FHPESVLTREGPRIIADLL  618
+
+
+>VFG047735(gb|WP_014714142) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella noatunensis subsp. 
+orientalis str. Toba 04]
+Length=388
+
+ Score = 48.5 bits (114),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 46/183 (25%), Positives = 75/183 (41%), Gaps = 24/183 (13%)
+
+Query  14   YNLVEQFCLLGAEVRVMRNDTPLPTIQAALLADGCELLVLSPGPGRP--EDAGCMLELLA  71
+            YN++      G +V V+    P  +    ++      + LS GPG P       M  +  
+Sbjct  209  YNILRNLVDAGFKVTVV----PADSTYEDIMKHNPNGVFLSNGPGDPFATSDYTMPVIKK  264
+
+Query  72   WARGRLPVLGVCLGHQALALAAGGAVGEARKPLHGKSTSLRFDQRHPLFDGIADLR----  127
+                ++P+ G+CLG+Q LALAAG    +  K   G +         P+ D  AD +    
+Sbjct  265  LLEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVN--------QPVLD--ADTKKVLI  314
+
+Query  128  VARYHSLVV--SRLPEGFDCLADA--DGEIMAMADPRNRQLGLQFHPESILTTHGQRLLE  183
+             ++ H  VV    +P+ F+    +  DG +  +         +Q+HPES    H  + L 
+Sbjct  315  TSQNHGFVVCDDVVPDNFEIHMSSLFDGTVEGLRFKDRPAFAVQYHPESSPGPHDCKYLF  374
+
+Query  184  NAL  186
+            N  
+Sbjct  375  NEF  377
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.141    0.436    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1117209765
+
+
+Query= g1611.t1
+
+Length=531
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG026353(gb|WP_005060830) (trpD) anthranilate phosphoribosyltran...  169     1e-47
+VFG026347(gb|WP_016342433) (trpD) anthranilate phosphoribosyltran...  169     2e-47
+VFG022641(gb|YP_001702706) (trpD) Anthranilate phosphoribosyltran...  166     2e-46
+VFG009360(gb|WP_094987183) (trpD) anthranilate phosphoribosyltran...  157     5e-43
+VFG001398(gb|NP_216708) (trpD) anthranilate phosphoribosyltransfe...  152     4e-41
+VFG009364(gb|WP_083045543) (trpD) anthranilate phosphoribosyltran...  152     8e-41
+VFG009366(gb|WP_082967820) (trpD) anthranilate phosphoribosyltran...  151     1e-40
+VFG009359(gb|WP_010907993) (trpD) anthranilate phosphoribosyltran...  146     3e-39
+VFG026357(gb|YP_007962086) (trpD) anthranilate phosphoribosyltran...  119     2e-30
+VFG026359(gb|YP_007958239) (trpD) anthranilate phosphoribosyltran...  110     3e-27
+VFG015538(gb|WP_011666697) (phzE2) phenazine biosynthesis protein...  57.0    2e-08
+VFG015517(gb|WP_003137488) (phzE1) phenazine biosynthesis protein...  57.0    2e-08
+VFG020026(gb|WP_012613547) (phzE1) phenazine biosynthesis protein...  57.0    2e-08
+VFG015515(gb|NP_252903) (phzE1) phenazine biosynthesis protein Ph...  57.0    2e-08
+VFG015516(gb|WP_012074247) (phzE1) phenazine biosynthesis protein...  56.2    3e-08
+
+
+>VFG026353(gb|WP_005060830) (trpD) anthranilate phosphoribosyltransferase 
+[Tryptophan synthesis (VF0813) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium abscessus subsp. bolletii 
+str. GO 06]
+Length=361
+
+ Score = 169 bits (427),  Expect = 1e-47, Method: Compositional matrix adjust.
+ Identities = 107/313 (34%), Positives = 162/313 (52%), Gaps = 9/313 (3%)
+
+Query  203  ILEKLYQAQTLTQQESHQLFSAVVRGELKPEQLAAALVSMKIRGEHPNEIAGAATALLEN  262
+            +L +L   + LT  ++      ++ G   P Q+AA  VSM+++    +E+   A  +L +
+Sbjct  9    VLGELTNRRDLTAGQAAWAMDQIMTGTATPAQIAAFGVSMRMKRPTSDEVGELADTMLSH  68
+
+Query  263  AAPFP-RPEYL-----FADIVGTGGDGSNSINISTASAFVAAACGLKVAKHGNRSVSSKS  316
+            A  FP  P+         DIVGTGGDG+N++N+ST +A V AACG+ V KHGNR+ SS +
+Sbjct  69   AITFPGDPQGAQIGANAVDIVGTGGDGANTVNLSTMAAIVVAACGVPVVKHGNRAASSLA  128
+
+Query  317  GSSDLLAAFGINLDMNADKSRQALDELGVCFLFAPKYHTGLRHAMPVRQQLKTRTLFNVL  376
+            G +D L   G+ +D+  ++  ++L E+G+ F FAP +H   R+A  VR+++   T+FN+L
+Sbjct  129  GGADTLEKLGVRIDLGPEQVVRSLAEVGIGFCFAPHFHPSYRYASAVRREIGVPTVFNLL  188
+
+Query  377  GPLINPAHPPLALIGVYSPELVLPIAETLRVLGYQRAAVVHSGGMDEVSLHAPTIVAELH  436
+            GPL NPA P   LIG    +L    A      G     V    G+DE++    + +  + 
+Sbjct  189  GPLTNPARPRAGLIGCAFADLAEVTAGVFAGRGSSVLVVHGDDGLDELTTTTTSTIWRVQ  248
+
+Query  437  DGEIKSYQLTAEDFGLTPYHQDQLAGGTPEENRDILTRLLQGKGDAAHEAAVAANVAMLM  496
+             G +   +     FG      D+L GG PE N   +  +L G G  A   AV  N A  M
+Sbjct  249  AGTVDKLRFDPAAFGFARARLDELVGGDPEFNAAEVRAVLAG-GTGAVRDAVLLNAAGAM  307
+
+Query  497  RLHGQEDLKANAQ  509
+              H    L ++AQ
+Sbjct  308  VAH--AGLASDAQ  318
+
+
+>VFG026347(gb|WP_016342433) (trpD) anthranilate phosphoribosyltransferase 
+[Tryptophan synthesis (VF0813) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium abscessus subsp. bolletii 
+50594]
+Length=361
+
+ Score = 169 bits (427),  Expect = 2e-47, Method: Compositional matrix adjust.
+ Identities = 107/313 (34%), Positives = 162/313 (52%), Gaps = 9/313 (3%)
+
+Query  203  ILEKLYQAQTLTQQESHQLFSAVVRGELKPEQLAAALVSMKIRGEHPNEIAGAATALLEN  262
+            +L +L   + LT  ++      ++ G   P Q+AA  VSM+++    +E+   A  +L +
+Sbjct  9    VLGELTNRRDLTAGQAAWAMDQIMTGTATPAQIAAFGVSMRMKRPTSDEVGELADTMLSH  68
+
+Query  263  AAPFP-RPEYL-----FADIVGTGGDGSNSINISTASAFVAAACGLKVAKHGNRSVSSKS  316
+            A  FP  P+         DIVGTGGDG+N++N+ST +A V AACG+ V KHGNR+ SS +
+Sbjct  69   AITFPGDPQGAQIGANAVDIVGTGGDGANTVNLSTMAAIVVAACGVPVVKHGNRAASSLA  128
+
+Query  317  GSSDLLAAFGINLDMNADKSRQALDELGVCFLFAPKYHTGLRHAMPVRQQLKTRTLFNVL  376
+            G +D L   G+ +D+  ++  ++L E+G+ F FAP +H   R+A  VR+++   T+FN+L
+Sbjct  129  GGADTLEKLGVRIDLGPEQVVRSLAEVGIGFCFAPHFHPSYRYASAVRREIGVPTVFNLL  188
+
+Query  377  GPLINPAHPPLALIGVYSPELVLPIAETLRVLGYQRAAVVHSGGMDEVSLHAPTIVAELH  436
+            GPL NPA P   LIG    +L    A      G     V    G+DE++    + +  + 
+Sbjct  189  GPLTNPARPRAGLIGCAFADLAEVTAGVFAGRGSSVLVVHGDDGLDELTTTTTSTIWRVQ  248
+
+Query  437  DGEIKSYQLTAEDFGLTPYHQDQLAGGTPEENRDILTRLLQGKGDAAHEAAVAANVAMLM  496
+             G +   +     FG      D+L GG PE N   +  +L G G  A   AV  N A  M
+Sbjct  249  AGTVDKLRFDPAAFGFARARLDELVGGDPEFNAAEVRAVLAG-GTGAVRDAVLLNAAGAM  307
+
+Query  497  RLHGQEDLKANAQ  509
+              H    L ++AQ
+Sbjct  308  VAH--AGLASDAQ  318
+
+
+>VFG022641(gb|YP_001702706) (trpD) Anthranilate phosphoribosyltransferase 
+TrpD [Tryptophan synthesis (VF0813) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium abscessus ATCC 
+19977]
+Length=357
+
+ Score = 166 bits (419),  Expect = 2e-46, Method: Compositional matrix adjust.
+ Identities = 105/313 (34%), Positives = 162/313 (52%), Gaps = 9/313 (3%)
+
+Query  203  ILEKLYQAQTLTQQESHQLFSAVVRGELKPEQLAAALVSMKIRGEHPNEIAGAATALLEN  262
+            +L +L   + LT  ++      ++ G   P Q+AA  VSM+++    +E+   A  +L +
+Sbjct  9    VLGELTNRRDLTAGQAAWAMDQIMTGTATPAQIAAFGVSMRMKRPTSDEVGELADTMLSH  68
+
+Query  263  AAPFP-RPEYL-----FADIVGTGGDGSNSINISTASAFVAAACGLKVAKHGNRSVSSKS  316
+            A  FP  P+         DIVGTGGDG+N++N+ST ++ V AACG+ V KHGNR+ SS +
+Sbjct  69   AITFPGDPQGAQIGANAVDIVGTGGDGANTVNLSTMASIVVAACGVPVVKHGNRAASSLA  128
+
+Query  317  GSSDLLAAFGINLDMNADKSRQALDELGVCFLFAPKYHTGLRHAMPVRQQLKTRTLFNVL  376
+            G +D L   G+ +D+  ++  ++L E+G+ F FAP +H   R+A  VR+++   T+FN+L
+Sbjct  129  GGADTLEKLGVRIDLGPEQVVRSLAEVGIGFCFAPHFHPSYRYASAVRREIGVPTVFNLL  188
+
+Query  377  GPLINPAHPPLALIGVYSPELVLPIAETLRVLGYQRAAVVHSGGMDEVSLHAPTIVAELH  436
+            GPL NPA P   LIG    +L    A      G     V    G+DE++    + +  + 
+Sbjct  189  GPLTNPARPRAGLIGCAFADLAEVTAGVFAGRGSSVLVVHGDDGLDELTTTTTSTIWRVQ  248
+
+Query  437  DGEIKSYQLTAEDFGLTPYHQDQLAGGTPEENRDILTRLLQGKGDAAHEAAVAANVAMLM  496
+             G +   +     FG      ++L GG PE N   +  +L G G  A   AV  N A  M
+Sbjct  249  AGTVDKLRFDPAAFGFARARLEELVGGDPEFNAAEVRAVLAG-GTGAVRDAVLLNAAGAM  307
+
+Query  497  RLHGQEDLKANAQ  509
+              H    L ++AQ
+Sbjct  308  VAH--AGLASDAQ  318
+
+
+>VFG009360(gb|WP_094987183) (trpD) anthranilate phosphoribosyltransferase 
+[Tryptophan synthesis (VF0813) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium ulcerans Agy99]
+Length=365
+
+ Score = 157 bits (396),  Expect = 5e-43, Method: Compositional matrix adjust.
+ Identities = 98/297 (33%), Positives = 154/297 (52%), Gaps = 6/297 (2%)
+
+Query  196  PTNTLQPILEKLYQAQTLTQQESHQLFSAVVRGELKPEQLAAALVSMKIRGEHPNEIAGA  255
+            PT++   +L +L + + L   ++      ++ G  +P Q+AA  V+MK++     E+   
+Sbjct  18   PTSSWPQLLGRLTEGKHLEPGQAGWAMEQIMSGNARPAQVAAFAVAMKMKVPTAGEVGEL  77
+
+Query  256  ATALLENAAPFP----RPEYLFADIVGTGGDGSNSINISTASAFVAAACGLKVAKHGNRS  311
+            A  +L  A P P    R + +  DIVGTGGDG N++N+ST ++ V AA G+ V KHGNR+
+Sbjct  78   ADVMLAYARPMPADLIRDDTV--DIVGTGGDGVNTVNLSTMASIVVAAAGVPVVKHGNRA  135
+
+Query  312  VSSKSGSSDLLAAFGINLDMNADKSRQALDELGVCFLFAPKYHTGLRHAMPVRQQLKTRT  371
+             SS +G +D L + G+ +D+  D+  ++L+E G+ F FAP++H   R A  VR+++   T
+Sbjct  136  ASSLAGGADTLESLGVRIDLGPDQVARSLNENGIGFCFAPQFHPSYRQASVVRREIGVPT  195
+
+Query  372  LFNVLGPLINPAHPPLALIGVYSPELVLPIAETLRVLGYQRAAVVHSGGMDEVSLHAPTI  431
+            +FN+LGPL NPA P   LIG    +L   +A      G     V    G+DE++    + 
+Sbjct  196  VFNLLGPLTNPARPRAGLIGCAFADLAEIMAGVFATRGSSVLVVHGDDGLDELTTTTTST  255
+
+Query  432  VAELHDGEIKSYQLTAEDFGLTPYHQDQLAGGTPEENRDILTRLLQGKGDAAHEAAV  488
+            +  +  G +        DFG       QL GG P+ N      +L G      +A V
+Sbjct  256  IWRVQAGTVDKLTFDPGDFGFARAELSQLLGGDPQANAAEARAVLGGAAGPVRDAVV  312
+
+
+>VFG001398(gb|NP_216708) (trpD) anthranilate phosphoribosyltransferase 
+[Tryptophan synthesis (VF0813) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium tuberculosis H37Rv]
+Length=370
+
+ Score = 152 bits (383),  Expect = 4e-41, Method: Compositional matrix adjust.
+ Identities = 97/267 (36%), Positives = 148/267 (55%), Gaps = 10/267 (4%)
+
+Query  203  ILEKLYQAQTLTQQESHQLFSAVVRGELKPEQLAAALVSMKIRGEHPNEIAGAATALLEN  262
+            IL +L   + L + ++      ++ G  +P Q+AA  V+M ++    +E+   A  +L +
+Sbjct  30   ILGRLTDNRDLARGQAAWAMDQIMTGNARPAQIAAFAVAMTMKAPTADEVGELAGVMLSH  89
+
+Query  263  AAPFPR---PEYLFADIVGTGGDGSNSINISTASAFVAAACGLKVAKHGNRSVSSKSGSS  319
+            A P P    P+    D+VGTGGDG N++N+ST +A V AA G+ V KHGNR+ SS SG +
+Sbjct  90   AHPLPADTVPDDAV-DVVGTGGDGVNTVNLSTMAAIVVAAAGVPVVKHGNRAASSLSGGA  148
+
+Query  320  DLLAAFGINLDMNADKSRQALDELGVCFLFAPKYHTGLRHAMPVRQQLKTRTLFNVLGPL  379
+            D L A G+ +D+  D   ++L E+G+ F FAP++H   RHA  VR+++   T+FN+LGPL
+Sbjct  149  DTLEALGVRIDLGPDLVARSLAEVGIGFCFAPRFHPSYRHAAAVRREIGVPTVFNLLGPL  208
+
+Query  380  INPAHPPLALIGVYSPELVLPIAETLRVLGYQRAA--VVH-SGGMDEVSLHAPTIVAELH  436
+             NPA P   LIG    +L   +A    V   +R++  VVH   G+DE++    + +  + 
+Sbjct  209  TNPARPRAGLIGCAFADLAEVMAG---VFAARRSSVLVVHGDDGLDELTTTTTSTIWRVA  265
+
+Query  437  DGEIKSYQLTAEDFGLTPYHQDQLAGG  463
+             G +         FG      DQLAGG
+Sbjct  266  AGSVDKLTFDPAGFGFARAQLDQLAGG  292
+
+
+>VFG009364(gb|WP_083045543) (trpD) anthranilate phosphoribosyltransferase 
+[Tryptophan synthesis (VF0813) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. JLS]
+Length=408
+
+ Score = 152 bits (383),  Expect = 8e-41, Method: Compositional matrix adjust.
+ Identities = 102/313 (33%), Positives = 155/313 (50%), Gaps = 2/313 (1%)
+
+Query  178  QGARLLEQTLAWAQQKLEPTNTLQPILEKLYQAQTLTQQESHQLFSAVVRGELKPEQLAA  237
+             G  L    +AW   ++  T T   IL +L   Q L   ++      ++ G   P Q+A 
+Sbjct  43   SGGPLGSSRMAWEHLRVTDTPTWPSILGRLTTGQNLGTGQAAWAMDQIMTGTATPAQIAG  102
+
+Query  238  ALVSMKIRGEHPNEIAGAATALLENAAPFPRPEY--LFADIVGTGGDGSNSINISTASAF  295
+              V+MK++     E+   A  +L++A   P         DIVGTGGDG+N++N+ST +A 
+Sbjct  103  FAVAMKLKRPTSAEVTELADVMLKHARRIPTDVIGNETVDIVGTGGDGANTVNLSTMAAI  162
+
+Query  296  VAAACGLKVAKHGNRSVSSKSGSSDLLAAFGINLDMNADKSRQALDELGVCFLFAPKYHT  355
+            V AA G+ V KHGNR+ SS SG +D L A G+ +D+  ++   ++ E+G+ F FA ++H 
+Sbjct  163  VVAAAGVPVMKHGNRAASSLSGGADTLEALGVRIDLGPEQVAASVAEVGIGFAFANQFHP  222
+
+Query  356  GLRHAMPVRQQLKTRTLFNVLGPLINPAHPPLALIGVYSPELVLPIAETLRVLGYQRAAV  415
+              +HA  VR++L   T+FN+LGPL NPA P   LIG    EL   +A            V
+Sbjct  223  SYKHASAVRRELGVPTVFNLLGPLTNPARPRAGLIGCAWAELAEVMAGVFASRNSSVLVV  282
+
+Query  416  VHSGGMDEVSLHAPTIVAELHDGEIKSYQLTAEDFGLTPYHQDQLAGGTPEENRDILTRL  475
+                G+DE++    + +  +  G ++        FG    H  +L GG  E N   +  +
+Sbjct  283  HGDDGLDELTTTTTSTIWRVQAGTVERLTFDPAAFGFQRAHLSELVGGDAEYNAAEVRAV  342
+
+Query  476  LQGKGDAAHEAAV  488
+            L G   A  +A V
+Sbjct  343  LGGAKGAVRDAVV  355
+
+
+>VFG009366(gb|WP_082967820) (trpD) anthranilate phosphoribosyltransferase 
+[Tryptophan synthesis (VF0813) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. MCS]
+Length=408
+
+ Score = 151 bits (382),  Expect = 1e-40, Method: Compositional matrix adjust.
+ Identities = 102/313 (33%), Positives = 155/313 (50%), Gaps = 2/313 (1%)
+
+Query  178  QGARLLEQTLAWAQQKLEPTNTLQPILEKLYQAQTLTQQESHQLFSAVVRGELKPEQLAA  237
+             G  L    +AW   ++  T T   IL +L   Q L   ++      ++ G   P Q+A 
+Sbjct  43   SGGPLGSSRMAWEHLRVTDTPTWPSILGRLTTGQNLGTGQAAWAMDQIMTGTATPAQIAG  102
+
+Query  238  ALVSMKIRGEHPNEIAGAATALLENAAPFPRP--EYLFADIVGTGGDGSNSINISTASAF  295
+              V+MK++     E+   A  +L++A   P         DIVGTGGDG+N++N+ST +A 
+Sbjct  103  FAVAMKLKRPTSAEVTELADVMLKHARRIPTDIIGNETVDIVGTGGDGANTVNLSTMAAI  162
+
+Query  296  VAAACGLKVAKHGNRSVSSKSGSSDLLAAFGINLDMNADKSRQALDELGVCFLFAPKYHT  355
+            V AA G+ V KHGNR+ SS SG +D L A G+ +D+  ++   ++ E+G+ F FA ++H 
+Sbjct  163  VVAAAGVPVMKHGNRAASSLSGGADTLEALGVRIDLGPEQVAASVAEVGIGFAFANQFHP  222
+
+Query  356  GLRHAMPVRQQLKTRTLFNVLGPLINPAHPPLALIGVYSPELVLPIAETLRVLGYQRAAV  415
+              +HA  VR++L   T+FN+LGPL NPA P   LIG    EL   +A            V
+Sbjct  223  SYKHASAVRRELGVPTVFNLLGPLTNPARPRAGLIGCAWAELAEVMAGVFASRNSSVLVV  282
+
+Query  416  VHSGGMDEVSLHAPTIVAELHDGEIKSYQLTAEDFGLTPYHQDQLAGGTPEENRDILTRL  475
+                G+DE++    + +  +  G ++        FG    H  +L GG  E N   +  +
+Sbjct  283  HGDDGLDELTTTTTSTIWRVQAGTVERLTFDPAAFGFQRAHLSELVGGDAEYNAAEVRAV  342
+
+Query  476  LQGKGDAAHEAAV  488
+            L G   A  +A V
+Sbjct  343  LGGAKGAVRDAVV  355
+
+
+>VFG009359(gb|WP_010907993) (trpD) anthranilate phosphoribosyltransferase 
+[Tryptophan synthesis (VF0813) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium leprae TN]
+Length=366
+
+ Score = 146 bits (368),  Expect = 3e-39, Method: Compositional matrix adjust.
+ Identities = 99/294 (34%), Positives = 152/294 (52%), Gaps = 11/294 (4%)
+
+Query  203  ILEKLYQAQTLTQQESHQLFSAVVRGELKPEQLAAALVSMKIRGEHPNEIAGAATALLEN  262
+            +L +L   Q LT+ ++      V+ G  +P Q+AA  V+MK++     E++  A  +L +
+Sbjct  23   VLGRLTAGQDLTRGQAAWAMGQVMTGNARPAQIAAFAVAMKMKVPTAAEVSELADVMLSH  82
+
+Query  263  AAPFPRPEYL-----FADIVGTGGDGSNSINISTASAFVAAACGLKVAKHGNRSVSSKSG  317
+            A   P            DI GTGGDG+N++N+ST +A V AA G+ V KHGNR+ SS SG
+Sbjct  83   ARKLPTEAICQDIGETVDIAGTGGDGANTVNLSTMAAIVVAAAGVPVVKHGNRASSSLSG  142
+
+Query  318  SSDLLAAFGINLDMNADKSRQALDELGVCFLFAPKYHTGLRHAMPVRQQLKTRTLFNVLG  377
+             +D L A G+ +D+  ++   +L E+G+ F FAP +    R+A  VR ++   T+FN+LG
+Sbjct  143  GADTLEALGVRIDLGPEQVANSLAEIGIGFCFAPLFQPSYRYASAVRHEIGVPTVFNILG  202
+
+Query  378  PLINPAHPPLALIGVYSPELVLPIAETLRVLGYQRAA--VVH-SGGMDEVSLHAPTIVAE  434
+            PL NPA P   LIG     L   +A    V   +R++  VVH   G+DE++    + +  
+Sbjct  203  PLTNPAWPRAGLIGCAFGNLAEVMAG---VFAARRSSVLVVHGDDGLDELTTTTTSTIWR  259
+
+Query  435  LHDGEIKSYQLTAEDFGLTPYHQDQLAGGTPEENRDILTRLLQGKGDAAHEAAV  488
+            +  G +        +FG    H D L GG  + N   +  +L G      +A V
+Sbjct  260  VQAGTVDKLTFDPVEFGFARAHLDDLLGGDAQTNAAKVRAVLAGAKGPVRDAVV  313
+
+
+>VFG026357(gb|YP_007962086) (trpD) anthranilate phosphoribosyltransferase 
+[Tryptophan synthesis (VF0813) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium tuberculosis CAS/NITR204]
+Length=244
+
+ Score = 119 bits (297),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 73/181 (40%), Positives = 106/181 (59%), Gaps = 6/181 (3%)
+
+Query  275  DIVGTGGDGSNSINISTASAFVAAACGLKVAKHGNRSVSSKSGSSDLLAAFGINLDMNAD  334
+            D+VGTGGDG N++N+ST +A V AA G+ V KHGNR+ SS SG +D L A G+ +D+  D
+Sbjct  19   DVVGTGGDGVNTVNLSTMAAIVVAAAGVPVVKHGNRAASSLSGGADTLEALGVRIDLGPD  78
+
+Query  335  KSRQALDELGVCFLFAPKYHTGLRHAMPVRQQLKTRTLFNVLGPLINPAHPPLALIGVYS  394
+               ++L E+G  F FAP++H   RHA  VR+++   T+FN+LGPL NPA P   LIG   
+Sbjct  79   LVARSLAEVGFGFCFAPRFHPSYRHAAAVRREIGVPTVFNLLGPLTNPARPRAGLIGCAF  138
+
+Query  395  PELVLPIAETLRVLGYQRAA--VVH-SGGMDEVSLHAPTIVAELHDGEIKSYQLTAEDFG  451
+             +L   +A    V   +R++  VVH   G+DE++    + +  +  G +         FG
+Sbjct  139  ADLAEVMAG---VFAARRSSVLVVHGDDGLDELTTTTTSTIWRVAAGSVDKLTFDPAGFG  195
+
+Query  452  L  452
+             
+Sbjct  196  F  196
+
+
+>VFG026359(gb|YP_007958239) (trpD) anthranilate phosphoribosyltransferase 
+[Tryptophan synthesis (VF0813) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=255
+
+ Score = 110 bits (275),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 70/180 (39%), Positives = 102/180 (57%), Gaps = 6/180 (3%)
+
+Query  287  INISTASAFVAAACGLKVAKHGNRSVSSKSGSSDLLAAFGINLDMNADKSRQALDELGVC  346
+            +N+ST +A V AA G+ V KHGNR+ SS SG +D L A G+ +D+  D   ++L E+G+ 
+Sbjct  1    MNLSTMAAIVVAAAGVPVVKHGNRAASSLSGGADTLEALGVRIDLGPDLVARSLAEVGIG  60
+
+Query  347  FLFAPKYHTGLRHAMPVRQQLKTRTLFNVLGPLINPAHPPLALIGVYSPELVLPIAETLR  406
+            F FAP++H   RHA  VR+++   T+FN+LGPL NPA P   LIG    +L   +A    
+Sbjct  61   FCFAPRFHPSYRHAAAVRREIGVPTVFNLLGPLTNPARPRAGLIGCAFADLAEVMAG---  117
+
+Query  407  VLGYQRAA--VVH-SGGMDEVSLHAPTIVAELHDGEIKSYQLTAEDFGLTPYHQDQLAGG  463
+            V   +R++  VVH   G+DE++    + +  +  G +         FG      DQLAGG
+Sbjct  118  VFAARRSSVLVVHGDDGLDELTTTTTSTIWRVAAGSVDKLTFDPAGFGFARAQLDQLAGG  177
+
+
+>VFG015538(gb|WP_011666697) (phzE2) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=627
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 53/204 (26%), Positives = 85/204 (42%), Gaps = 22/204 (11%)
+
+Query  3    DILLLDNIDSFTWNLADQLRTNGHNVVIYRNHIPAQTLIDRLATMKNPVLMLSPGPGVPS  62
+            ++L++D  D+FT  +A QL++ G  V +     P        +     ++++ PGPG P+
+Sbjct  436  EVLIVDAEDTFTSMIAKQLKSLGLTVTVRGFQEP-------YSFDGYDLVIMGPGPGNPT  488
+
+Query  63   EAG---------CMPELLTRLRGKLPIIGICLGHQAIVEAYGGYVGQAGEILHGKASSIE  113
+            E G          +  LL+  R   P + +CL HQ +    G  + +  E   G    I+
+Sbjct  489  EIGQPKIGHLHLAIRSLLSERR---PFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQID  545
+
+Query  114  HDGQAMFAGLANPLPVARYHSLVGSNVPAGLTINA-HFNGMVMAVRHDADRVCGFQFHPE  172
+              G A   G  N          +       + I+     G V A+R    R    QFHPE
+Sbjct  546  LFGAAERVGFYNTFAARALQDRIEIPEVGPIEISRDRETGEVHALR--GPRFASMQFHPE  603
+
+Query  173  SILTTQGARLLEQTLAWAQQKLEP  196
+            S+LT +G R++   L  A  +  P
+Sbjct  604  SVLTREGPRIIADLLRHALVERRP  627
+
+
+>VFG015517(gb|WP_003137488) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=627
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 53/204 (26%), Positives = 85/204 (42%), Gaps = 22/204 (11%)
+
+Query  3    DILLLDNIDSFTWNLADQLRTNGHNVVIYRNHIPAQTLIDRLATMKNPVLMLSPGPGVPS  62
+            ++L++D  D+FT  +A QL++ G  V +     P        +     ++++ PGPG P+
+Sbjct  436  EVLIVDAEDTFTSMIAKQLKSLGLTVTVRGFQEP-------YSFDGYDLVIMGPGPGNPT  488
+
+Query  63   EAG---------CMPELLTRLRGKLPIIGICLGHQAIVEAYGGYVGQAGEILHGKASSIE  113
+            E G          +  LL+  R   P + +CL HQ +    G  + +  E   G    I+
+Sbjct  489  EIGQPKIGHLHLAIRSLLSERR---PFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQID  545
+
+Query  114  HDGQAMFAGLANPLPVARYHSLVGSNVPAGLTINA-HFNGMVMAVRHDADRVCGFQFHPE  172
+              G A   G  N          +       + I+     G V A+R    R    QFHPE
+Sbjct  546  LFGAAERVGFYNTFAARALQDRIEIPEVGPIEISRDRETGEVHALR--GPRFASMQFHPE  603
+
+Query  173  SILTTQGARLLEQTLAWAQQKLEP  196
+            S+LT +G R++   L  A  +  P
+Sbjct  604  SVLTREGPRIIADLLRHALVERRP  627
+
+
+>VFG020026(gb|WP_012613547) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa LESB58]
+Length=627
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 53/204 (26%), Positives = 85/204 (42%), Gaps = 22/204 (11%)
+
+Query  3    DILLLDNIDSFTWNLADQLRTNGHNVVIYRNHIPAQTLIDRLATMKNPVLMLSPGPGVPS  62
+            ++L++D  D+FT  +A QL++ G  V +     P        +     ++++ PGPG P+
+Sbjct  436  EVLIVDAEDTFTSMIAKQLKSLGLTVTVRGFQEP-------YSFDGYDLVIMGPGPGNPT  488
+
+Query  63   EAG---------CMPELLTRLRGKLPIIGICLGHQAIVEAYGGYVGQAGEILHGKASSIE  113
+            E G          +  LL+  R   P + +CL HQ +    G  + +  E   G    I+
+Sbjct  489  EIGQPKIGHLHLAIRSLLSERR---PFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQID  545
+
+Query  114  HDGQAMFAGLANPLPVARYHSLVGSNVPAGLTINA-HFNGMVMAVRHDADRVCGFQFHPE  172
+              G A   G  N          +       + I+     G V A+R    R    QFHPE
+Sbjct  546  LFGAAERVGFYNTFAARALQDRIEIPEVGPIEISRDRETGEVHALR--GPRFASMQFHPE  603
+
+Query  173  SILTTQGARLLEQTLAWAQQKLEP  196
+            S+LT +G R++   L  A  +  P
+Sbjct  604  SVLTREGPRIIADLLRHALVERRP  627
+
+
+>VFG015515(gb|NP_252903) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=627
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 53/204 (26%), Positives = 85/204 (42%), Gaps = 22/204 (11%)
+
+Query  3    DILLLDNIDSFTWNLADQLRTNGHNVVIYRNHIPAQTLIDRLATMKNPVLMLSPGPGVPS  62
+            ++L++D  D+FT  +A QL++ G  V +     P        +     ++++ PGPG P+
+Sbjct  436  EVLIVDAEDTFTSMIAKQLKSLGLTVTVRGFQEP-------YSFDGYDLVIMGPGPGNPT  488
+
+Query  63   EAG---------CMPELLTRLRGKLPIIGICLGHQAIVEAYGGYVGQAGEILHGKASSIE  113
+            E G          +  LL+  R   P + +CL HQ +    G  + +  E   G    I+
+Sbjct  489  EIGQPKIGHLHLAIRSLLSERR---PFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQID  545
+
+Query  114  HDGQAMFAGLANPLPVARYHSLVGSNVPAGLTINA-HFNGMVMAVRHDADRVCGFQFHPE  172
+              G A   G  N          +       + I+     G V A+R    R    QFHPE
+Sbjct  546  LFGAAERVGFYNTFAARALQDRIEIPEVGPIEISRDRETGEVHALR--GPRFASMQFHPE  603
+
+Query  173  SILTTQGARLLEQTLAWAQQKLEP  196
+            S+LT +G R++   L  A  +  P
+Sbjct  604  SVLTREGPRIIADLLRHALVERRP  627
+
+
+>VFG015516(gb|WP_012074247) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa PA7]
+Length=627
+
+ Score = 56.2 bits (134),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 53/204 (26%), Positives = 85/204 (42%), Gaps = 22/204 (11%)
+
+Query  3    DILLLDNIDSFTWNLADQLRTNGHNVVIYRNHIPAQTLIDRLATMKNPVLMLSPGPGVPS  62
+            ++L++D  D+FT  +A QL++ G  V +     P        +     ++++ PGPG P+
+Sbjct  436  EVLIVDAEDTFTSMIAKQLKSLGLAVSVRGFQEP-------YSFDGYDLVIMGPGPGNPT  488
+
+Query  63   EAG---------CMPELLTRLRGKLPIIGICLGHQAIVEAYGGYVGQAGEILHGKASSIE  113
+            E G          +  LL+  R   P + +CL HQ +    G  + +  E   G    I+
+Sbjct  489  EVGQPKIGHLHLAIRSLLSERR---PFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQID  545
+
+Query  114  HDGQAMFAGLANPLPVARYHSLVGSNVPAGLTINA-HFNGMVMAVRHDADRVCGFQFHPE  172
+              G A   G  N          +       + I+     G V A+R    R    QFHPE
+Sbjct  546  LFGAAERVGFYNTFAARALQDRIEIPEVGPIEISRDRETGEVHALR--GPRFASMQFHPE  603
+
+Query  173  SILTTQGARLLEQTLAWAQQKLEP  196
+            S+LT +G R++   L  A  +  P
+Sbjct  604  SVLTREGPRIIADLLRHALVERRP  627
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4413476298
+
+
+Query= g3235.t1
+
+Length=187
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015516(gb|WP_012074247) (phzE1) phenazine biosynthesis protein...  63.9    3e-12
+VFG015517(gb|WP_003137488) (phzE1) phenazine biosynthesis protein...  63.5    5e-12
+VFG015538(gb|WP_011666697) (phzE2) phenazine biosynthesis protein...  63.5    5e-12
+VFG015515(gb|NP_252903) (phzE1) phenazine biosynthesis protein Ph...  63.2    6e-12
+VFG020026(gb|WP_012613547) (phzE1) phenazine biosynthesis protein...  63.2    6e-12
+VFG047735(gb|WP_014714142) (carA) carbamoyl phosphate synthase sm...  55.1    3e-09
+VFG047728(gb|WP_014547361) (carA) carbamoyl phosphate synthase sm...  52.4    2e-08
+VFG047720(gb|WP_012280231) (carA) carbamoyl phosphate synthase sm...  52.4    3e-08
+VFG047719(gb|WP_003040816) (carA) carbamoyl phosphate synthase sm...  52.4    3e-08
+VFG047724(gb|WP_012429026) (carA) carbamoyl phosphate synthase sm...  52.0    4e-08
+VFG047726(gb|WP_003013939) (carA) carbamoyl phosphate synthase sm...  52.0    4e-08
+VFG047736(gb|WP_013921813) (carA) carbamoyl phosphate synthase sm...  50.8    9e-08
+
+
+>VFG015516(gb|WP_012074247) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa PA7]
+Length=627
+
+ Score = 63.9 bits (154),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 50/192 (26%), Positives = 82/192 (43%), Gaps = 16/192 (8%)
+
+Query  2    ILLIDNYDSFTWNLYQYFCELGAEVQVRR-NDALTLAHIDALNPQKIVISPGPCTPNDAG  60
+            +L++D  D+FT  + +    LG  V VR   +  +    D      +++ PGP  P + G
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLAVSVRGFQEPYSFDGYDL-----VIMGPGPGNPTEVG  491
+
+Query  61   ------ISLAVIRHYAGRIPMLGVCLGHQAMAQAFGASVVRAAKVMHGKTSPVTHNGQGV  114
+                  + LA+    + R P L VCL HQ ++   G  + R  +   G    +   G   
+Sbjct  492  QPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAAE  551
+
+Query  115  FRGLPSPLTVTRYHSLIVDPATLPECFEITAWSETQEIMGIRHREWDLEGVQFHPESILS  174
+              G  +          I  P   P   EI+   ET E+  +R   +    +QFHPES+L+
+Sbjct  552  RVGFYNTFAARALQDRIEIPEVGP--IEISRDRETGEVHALRGPRF--ASMQFHPESVLT  607
+
+Query  175  EQGHALLKNFLR  186
+             +G  ++ + LR
+Sbjct  608  REGPRIIADLLR  619
+
+
+>VFG015517(gb|WP_003137488) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=627
+
+ Score = 63.5 bits (153),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 50/192 (26%), Positives = 82/192 (43%), Gaps = 16/192 (8%)
+
+Query  2    ILLIDNYDSFTWNLYQYFCELGAEVQVRR-NDALTLAHIDALNPQKIVISPGPCTPNDAG  60
+            +L++D  D+FT  + +    LG  V VR   +  +    D      +++ PGP  P + G
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTVRGFQEPYSFDGYDL-----VIMGPGPGNPTEIG  491
+
+Query  61   ------ISLAVIRHYAGRIPMLGVCLGHQAMAQAFGASVVRAAKVMHGKTSPVTHNGQGV  114
+                  + LA+    + R P L VCL HQ ++   G  + R  +   G    +   G   
+Sbjct  492  QPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAAE  551
+
+Query  115  FRGLPSPLTVTRYHSLIVDPATLPECFEITAWSETQEIMGIRHREWDLEGVQFHPESILS  174
+              G  +          I  P   P   EI+   ET E+  +R   +    +QFHPES+L+
+Sbjct  552  RVGFYNTFAARALQDRIEIPEVGP--IEISRDRETGEVHALRGPRF--ASMQFHPESVLT  607
+
+Query  175  EQGHALLKNFLR  186
+             +G  ++ + LR
+Sbjct  608  REGPRIIADLLR  619
+
+
+>VFG015538(gb|WP_011666697) (phzE2) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=627
+
+ Score = 63.5 bits (153),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 50/192 (26%), Positives = 82/192 (43%), Gaps = 16/192 (8%)
+
+Query  2    ILLIDNYDSFTWNLYQYFCELGAEVQVRR-NDALTLAHIDALNPQKIVISPGPCTPNDAG  60
+            +L++D  D+FT  + +    LG  V VR   +  +    D      +++ PGP  P + G
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTVRGFQEPYSFDGYDL-----VIMGPGPGNPTEIG  491
+
+Query  61   ------ISLAVIRHYAGRIPMLGVCLGHQAMAQAFGASVVRAAKVMHGKTSPVTHNGQGV  114
+                  + LA+    + R P L VCL HQ ++   G  + R  +   G    +   G   
+Sbjct  492  QPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAAE  551
+
+Query  115  FRGLPSPLTVTRYHSLIVDPATLPECFEITAWSETQEIMGIRHREWDLEGVQFHPESILS  174
+              G  +          I  P   P   EI+   ET E+  +R   +    +QFHPES+L+
+Sbjct  552  RVGFYNTFAARALQDRIEIPEVGP--IEISRDRETGEVHALRGPRF--ASMQFHPESVLT  607
+
+Query  175  EQGHALLKNFLR  186
+             +G  ++ + LR
+Sbjct  608  REGPRIIADLLR  619
+
+
+>VFG015515(gb|NP_252903) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=627
+
+ Score = 63.2 bits (152),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 50/192 (26%), Positives = 82/192 (43%), Gaps = 16/192 (8%)
+
+Query  2    ILLIDNYDSFTWNLYQYFCELGAEVQVRR-NDALTLAHIDALNPQKIVISPGPCTPNDAG  60
+            +L++D  D+FT  + +    LG  V VR   +  +    D      +++ PGP  P + G
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTVRGFQEPYSFDGYDL-----VIMGPGPGNPTEIG  491
+
+Query  61   ------ISLAVIRHYAGRIPMLGVCLGHQAMAQAFGASVVRAAKVMHGKTSPVTHNGQGV  114
+                  + LA+    + R P L VCL HQ ++   G  + R  +   G    +   G   
+Sbjct  492  QPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAAE  551
+
+Query  115  FRGLPSPLTVTRYHSLIVDPATLPECFEITAWSETQEIMGIRHREWDLEGVQFHPESILS  174
+              G  +          I  P   P   EI+   ET E+  +R   +    +QFHPES+L+
+Sbjct  552  RVGFYNTFAARALQDRIEIPEVGP--IEISRDRETGEVHALRGPRF--ASMQFHPESVLT  607
+
+Query  175  EQGHALLKNFLR  186
+             +G  ++ + LR
+Sbjct  608  REGPRIIADLLR  619
+
+
+>VFG020026(gb|WP_012613547) (phzE1) phenazine biosynthesis protein 
+PhzE [Pyocyanin (VF0100) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa LESB58]
+Length=627
+
+ Score = 63.2 bits (152),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 50/192 (26%), Positives = 82/192 (43%), Gaps = 16/192 (8%)
+
+Query  2    ILLIDNYDSFTWNLYQYFCELGAEVQVRR-NDALTLAHIDALNPQKIVISPGPCTPNDAG  60
+            +L++D  D+FT  + +    LG  V VR   +  +    D      +++ PGP  P + G
+Sbjct  437  VLIVDAEDTFTSMIAKQLKSLGLTVTVRGFQEPYSFDGYDL-----VIMGPGPGNPTEIG  491
+
+Query  61   ------ISLAVIRHYAGRIPMLGVCLGHQAMAQAFGASVVRAAKVMHGKTSPVTHNGQGV  114
+                  + LA+    + R P L VCL HQ ++   G  + R  +   G    +   G   
+Sbjct  492  QPKIGHLHLAIRSLLSERRPFLAVCLSHQVLSLCLGLDLQRRQEPNQGVQKQIDLFGAAE  551
+
+Query  115  FRGLPSPLTVTRYHSLIVDPATLPECFEITAWSETQEIMGIRHREWDLEGVQFHPESILS  174
+              G  +          I  P   P   EI+   ET E+  +R   +    +QFHPES+L+
+Sbjct  552  RVGFYNTFAARALQDRIEIPEVGP--IEISRDRETGEVHALRGPRF--ASMQFHPESVLT  607
+
+Query  175  EQGHALLKNFLR  186
+             +G  ++ + LR
+Sbjct  608  REGPRIIADLLR  619
+
+
+>VFG047735(gb|WP_014714142) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella noatunensis subsp. 
+orientalis str. Toba 04]
+Length=388
+
+ Score = 55.1 bits (131),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 44/162 (27%), Positives = 73/162 (45%), Gaps = 10/162 (6%)
+
+Query  13   WNLYQYFCELGAEVQVRRNDALTLAHIDALNPQKIVISPGPCTP-NDAGISLAVIRHYAG  71
+            +N+ +   + G +V V   D+ T   I   NP  + +S GP  P   +  ++ VI+    
+Sbjct  209  YNILRNLVDAGFKVTVVPADS-TYEDIMKHNPNGVFLSNGPGDPFATSDYTMPVIKKLLE  267
+
+Query  72   -RIPMLGVCLGHQAMAQAFGASVVRAAKVMHGKTSPVTHNGQGVFRGLPSPLTVTRYHSL  130
+             ++P+ G+CLG+Q +A A G    +  K   G   PV              L  ++ H  
+Sbjct  268  VKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPVLD------ADTKKVLITSQNHGF  321
+
+Query  131  IVDPATLPECFEITAWSETQ-EIMGIRHREWDLEGVQFHPES  171
+            +V    +P+ FEI   S     + G+R ++     VQ+HPES
+Sbjct  322  VVCDDVVPDNFEIHMSSLFDGTVEGLRFKDRPAFAVQYHPES  363
+
+
+>VFG047728(gb|WP_014547361) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella cf. tularensis 
+subsp. novicida 3523]
+Length=388
+
+ Score = 52.4 bits (124),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 43/162 (27%), Positives = 72/162 (44%), Gaps = 10/162 (6%)
+
+Query  13   WNLYQYFCELGAEVQVRRNDALTLAHIDALNPQKIVISPGPCTP-NDAGISLAVIRHYAG  71
+            +N+ +   + G +V V   D+ T   I   NP  + +S GP  P   +  ++ VI+    
+Sbjct  209  YNILRNLVDAGFKVTVVPADS-TYEDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKLLE  267
+
+Query  72   -RIPMLGVCLGHQAMAQAFGASVVRAAKVMHGKTSPVTHNGQGVFRGLPSPLTVTRYHSL  130
+             ++P+ G+CLG+Q +A A G    +  K   G   PV              L  ++ H  
+Sbjct  268  VKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPVLD------ADTKKVLITSQNHGF  321
+
+Query  131  IVDPATLPECFEITAWSETQ-EIMGIRHREWDLEGVQFHPES  171
+            +V    +P+  EI   S     + G+R ++     VQ+HPES
+Sbjct  322  VVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQYHPES  363
+
+
+>VFG047720(gb|WP_012280231) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella philomiragia subsp. 
+philomiragia ATCC 25017]
+Length=388
+
+ Score = 52.4 bits (124),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 43/162 (27%), Positives = 72/162 (44%), Gaps = 10/162 (6%)
+
+Query  13   WNLYQYFCELGAEVQVRRNDALTLAHIDALNPQKIVISPGPCTP-NDAGISLAVIRHYAG  71
+            +N+ +   + G +V V   D+ T   I   NP  + +S GP  P   +  ++ VI+    
+Sbjct  209  YNILRNLVDAGFKVTVVPADS-TYEDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKLLE  267
+
+Query  72   -RIPMLGVCLGHQAMAQAFGASVVRAAKVMHGKTSPVTHNGQGVFRGLPSPLTVTRYHSL  130
+             ++P+ G+CLG+Q +A A G    +  K   G   PV              L  ++ H  
+Sbjct  268  VKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPVLD------ADTKKVLITSQNHGF  321
+
+Query  131  IVDPATLPECFEITAWSETQ-EIMGIRHREWDLEGVQFHPES  171
+            +V    +P+  EI   S     + G+R ++     VQ+HPES
+Sbjct  322  VVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQYHPES  363
+
+
+>VFG047719(gb|WP_003040816) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella novicida U112]
+Length=388
+
+ Score = 52.4 bits (124),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 43/162 (27%), Positives = 72/162 (44%), Gaps = 10/162 (6%)
+
+Query  13   WNLYQYFCELGAEVQVRRNDALTLAHIDALNPQKIVISPGPCTP-NDAGISLAVIRHYAG  71
+            +N+ +   + G +V V   D+ T   I   NP  + +S GP  P   +  ++ VI+    
+Sbjct  209  YNILRNLVDAGFKVTVVPADS-TYEDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKLLE  267
+
+Query  72   -RIPMLGVCLGHQAMAQAFGASVVRAAKVMHGKTSPVTHNGQGVFRGLPSPLTVTRYHSL  130
+             ++P+ G+CLG+Q +A A G    +  K   G   PV              L  ++ H  
+Sbjct  268  VKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPVLD------ADTKKVLITSQNHGF  321
+
+Query  131  IVDPATLPECFEITAWSETQ-EIMGIRHREWDLEGVQFHPES  171
+            +V    +P+  EI   S     + G+R ++     VQ+HPES
+Sbjct  322  VVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQYHPES  363
+
+
+>VFG047724(gb|WP_012429026) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella tularensis subsp. 
+mediasiatica FSC147]
+Length=388
+
+ Score = 52.0 bits (123),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 44/163 (27%), Positives = 75/163 (46%), Gaps = 12/163 (7%)
+
+Query  13   WNLYQYFCELGAEVQVRRNDALTLAHIDALNPQKIVISPGPCTP-NDAGISLAVIRHYAG  71
+            +N+ +   + G +V V   D+ T   I   NP  + +S GP  P   +  ++ VI+    
+Sbjct  209  YNILRNLVDAGFKVTVVPADS-TYEDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKLLE  267
+
+Query  72   -RIPMLGVCLGHQAMAQAFGASVVRAAKVMHGKTSPVTH-NGQGVFRGLPSPLTVTRYHS  129
+             ++P+ G+CLG+Q +A A G    +  K   G   PV   N + V       L  ++ H 
+Sbjct  268  VKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPVLDANTKKV-------LITSQNHG  320
+
+Query  130  LIVDPATLPECFEITAWSETQ-EIMGIRHREWDLEGVQFHPES  171
+             +V    +P+  +I   S     + G+R ++     VQ+HPES
+Sbjct  321  FVVCDDNVPDNIQIHMSSLFDGTVEGLRFKDRPAFAVQYHPES  363
+
+
+>VFG047726(gb|WP_003013939) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella tularensis subsp. 
+tularensis SCHU S4]
+Length=388
+
+ Score = 52.0 bits (123),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 44/163 (27%), Positives = 75/163 (46%), Gaps = 12/163 (7%)
+
+Query  13   WNLYQYFCELGAEVQVRRNDALTLAHIDALNPQKIVISPGPCTP-NDAGISLAVIRHYAG  71
+            +N+ +   + G +V V   D+ T   I   NP  + +S GP  P   +  ++ VI+    
+Sbjct  209  YNILRNLVDAGFKVTVVPADS-TYEDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKLLE  267
+
+Query  72   -RIPMLGVCLGHQAMAQAFGASVVRAAKVMHGKTSPVTH-NGQGVFRGLPSPLTVTRYHS  129
+             ++P+ G+CLG+Q +A A G    +  K   G   PV   N + V       L  ++ H 
+Sbjct  268  VKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQPVLDANTKKV-------LITSQNHG  320
+
+Query  130  LIVDPATLPECFEITAWSETQ-EIMGIRHREWDLEGVQFHPES  171
+             +V    +P+  +I   S     + G+R ++     VQ+HPES
+Sbjct  321  FVVCDDNVPDNIQIHMSSLFDGTVEGLRFKDRPAFAVQYHPES  363
+
+
+>VFG047736(gb|WP_013921813) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella sp. TX077308]
+Length=388
+
+ Score = 50.8 bits (120),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 42/162 (26%), Positives = 72/162 (44%), Gaps = 10/162 (6%)
+
+Query  13   WNLYQYFCELGAEVQVRRNDALTLAHIDALNPQKIVISPGPCTP-NDAGISLAVIRHYAG  71
+            +N+ +   + G +V V   D+ T   I   NP  + +S GP  P   +  ++ VI+    
+Sbjct  209  YNILRNLVDAGFKVTVVPADS-TYEDIMKHNPDGVFLSNGPGDPFATSDYTMPVIKKLLE  267
+
+Query  72   -RIPMLGVCLGHQAMAQAFGASVVRAAKVMHGKTSPVTHNGQGVFRGLPSPLTVTRYHSL  130
+             ++P+ G+CLG+Q +A A G    +  +   G   PV              L  ++ H  
+Sbjct  268  IKMPIFGICLGNQLLALAAGLKTKKMHQGHRGVNQPVLD------ADTKKVLITSQNHGF  321
+
+Query  131  IVDPATLPECFEITAWSETQ-EIMGIRHREWDLEGVQFHPES  171
+            +V    +P+  EI   S     + G+R ++     VQ+HPES
+Sbjct  322  VVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQYHPES  363
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 992130975
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,810 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1767.t1
+
+Length=488
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG001365(gb|WP_000091082) (cps4A) capsular polysaccharide biosyn...  82.0    1e-16
+VFG019107(gb|WP_000091050) (cps4A) capsular polysaccharide biosyn...  79.3    9e-16
+VFG019108(gb|WP_000091066) (cps4A) capsular polysaccharide biosyn...  79.3    1e-15
+VFG006033(gb|WP_000064993) (SAK_RS06330) LCP family protein [Caps...  79.0    1e-15
+VFG001352(gb|WP_000064987) (cpsA) CpsA responsible for transfer o...  79.0    1e-15
+VFG006034(gb|WP_000064997) (GBS_RS06610) LCP family protein [Caps...  79.0    1e-15
+VFG005836(gb|WP_000091085) (cps4A) capsular polysaccharide biosyn...  78.6    2e-15
+VFG006011(gb|WP_011681177) (STER_RS05320) LCP family protein [Cap...  76.6    7e-15
+VFG006058(gb|WP_011226049) (STU_RS14650) LCP family protein [Caps...  75.1    2e-14
+VFG006030(gb|WP_041827043) (STR_RS05265) LCP family protein [Caps...  73.9    5e-14
+VFG016408(gb|WP_001227554) (BT9727_RS25810) LytR family transcrip...  64.7    2e-11
+VFG016372(gb|WP_000727039) (BC_RS26250) LytR family transcription...  64.3    3e-11
+VFG016389(gb|WP_000727070) (BCE_RS25805) LytR family transcriptio...  63.2    6e-11
+VFG005839(gb|YP_001197930) (SSU05_0564) Cps2A [Capsule (VF0144) -...  61.2    6e-10
+VFG016423(gb|WP_000727056) (BALH_RS26190) LytR family transcripti...  58.9    2e-09
+VFG050193(gb|WP_000727057) (BCAH187_RS26490) LytR family transcri...  55.8    2e-08
+VFG050189(gb|WP_001971591) (bpsX) LytR family transcriptional reg...  51.2    5e-07
+
+
+>VFG001365(gb|WP_000091082) (cps4A) capsular polysaccharide biosynthesis 
+protein Cps4A [Capsule (VF0144) - Immune modulation 
+(VFC0258)] [Streptococcus pneumoniae TIGR4]
+Length=481
+
+ Score = 82.0 bits (201),  Expect = 1e-16, Method: Compositional matrix adjust.
+ Identities = 51/176 (29%), Positives = 81/176 (46%), Gaps = 28/176 (16%)
+
+Query  86   ILVHVGADNKAVAFSI-PRDDWVPFSDVPGYNHIKIKEAYGLTKQYVTQKLIDQGVTDQK  144
+            IL+ V  D K +  +  PRD +VP +D                           G  +QK
+Sbjct  249  ILMTVNRDTKKILLTTTPRDAYVPIAD---------------------------GGNNQK  281
+
+Query  145  ELETQGREAGRAATLRIVRSLTGVSIDYFAEVNLAGFYDLTHTLGGVEVCLNHAVYDSYS  204
+            +  T     G  +++  + +L GV I+Y+  +N   F  L   LGG++V  +       +
+Sbjct  282  DKLTHAGIYGVDSSIHTLENLYGVDINYYVRLNFTSFLKLIDLLGGIDVYNDQEFTAHTN  341
+
+Query  205  GADFPAGRQRLDASEALAFVRQRHGLDNGDLDRTHRQQAFISSVMRELGDTGTFTN  260
+            G  +PAG   LD+ +AL FVR+R+ L +GD DR   QQ  I +++++L  T    N
+Sbjct  342  GKYYPAGNVHLDSEQALGFVRERYSLADGDRDRGRHQQKVIVAILQKLTSTEVLKN  397
+
+
+>VFG019107(gb|WP_000091050) (cps4A) capsular polysaccharide biosynthesis 
+protein Cps4A [Capsule (VF0144) - Immune modulation 
+(VFC0258)] [Streptococcus pneumoniae Hungary19A-6]
+Length=481
+
+ Score = 79.3 bits (194),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 51/176 (29%), Positives = 79/176 (45%), Gaps = 28/176 (16%)
+
+Query  86   ILVHVGADNKAVAFSI-PRDDWVPFSDVPGYNHIKIKEAYGLTKQYVTQKLIDQGVTDQK  144
+            IL+ V  D K +  +  PRD +VP +D                           G  +QK
+Sbjct  249  ILMTVNRDTKKILLTTTPRDAYVPIAD---------------------------GGNNQK  281
+
+Query  145  ELETQGREAGRAATLRIVRSLTGVSIDYFAEVNLAGFYDLTHTLGGVEVCLNHAVYDSYS  204
+            +  T     G  +++  + +L GV I+Y+  +N   F  L   LGGV+V  +      + 
+Sbjct  282  DKLTHAGIYGVDSSIHTLENLYGVDINYYVRLNFTSFLKLIDLLGGVDVHNDQEFSALHG  341
+
+Query  205  GADFPAGRQRLDASEALAFVRQRHGLDNGDLDRTHRQQAFISSVMRELGDTGTFTN  260
+               FP G   LD+ +AL FVR+R+ L +GD DR   QQ  I +++++L  T    N
+Sbjct  342  KFHFPVGNVHLDSEQALGFVRERYSLADGDRDRGRNQQKVIVAILQKLTSTEALKN  397
+
+
+>VFG019108(gb|WP_000091066) (cps4A) capsular polysaccharide biosynthesis 
+protein Cps4A [Capsule (VF0144) - Immune modulation 
+(VFC0258)] [Streptococcus pneumoniae CGSP14]
+Length=481
+
+ Score = 79.3 bits (194),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 50/176 (28%), Positives = 79/176 (45%), Gaps = 28/176 (16%)
+
+Query  86   ILVHVGADNKAVAFSI-PRDDWVPFSDVPGYNHIKIKEAYGLTKQYVTQKLIDQGVTDQK  144
+            IL+ V  D K +  +  PRD +VP +D                           G  +QK
+Sbjct  249  ILMTVNRDTKKILLTTTPRDAYVPIAD---------------------------GGNNQK  281
+
+Query  145  ELETQGREAGRAATLRIVRSLTGVSIDYFAEVNLAGFYDLTHTLGGVEVCLNHAVYDSYS  204
+            +  T     G  +++  + +L GV I+Y+  +N   F  +   LGGV+V  +      + 
+Sbjct  282  DKLTHAGIYGVDSSIHTLENLYGVDINYYVRLNFTSFLKMIDLLGGVDVHNDQEFLALHG  341
+
+Query  205  GADFPAGRQRLDASEALAFVRQRHGLDNGDLDRTHRQQAFISSVMRELGDTGTFTN  260
+               FP G   LD+ +AL FVR+R+ L +GD DR   QQ  I +++++L  T    N
+Sbjct  342  KFHFPVGNVHLDSEQALGFVRERYSLADGDRDRGRNQQKVIVAILQKLTSTEALKN  397
+
+
+>VFG006033(gb|WP_000064993) (SAK_RS06330) LCP family protein [Capsule 
+(VF0274) - Immune modulation (VFC0258)] [Streptococcus 
+agalactiae A909]
+Length=485
+
+ Score = 79.0 bits (193),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 36/113 (32%), Positives = 65/113 (58%), Gaps = 0/113 (0%)
+
+Query  154  GRAATLRIVRSLTGVSIDYFAEVNLAGFYDLTHTLGGVEVCLNHAVYDSYSGADFPAGRQ  213
+            G   +++ + +L  +++DY+A +N + F  L   LGGV V  + A    +   DFP G+ 
+Sbjct  295  GVETSMKTLENLYDINLDYYARINFSSFLKLIDLLGGVTVYNDQAFTSKHGNFDFPVGQV  354
+
+Query  214  RLDASEALAFVRQRHGLDNGDLDRTHRQQAFISSVMRELGDTGTFTNLDKLRS  266
+             L++ +AL FVR+R+ L  GD DR   Q+  I++++ +L  + + T L+ + S
+Sbjct  355  TLNSEQALGFVRERYSLQGGDNDRGRNQEKVIAAIINKLASSQSVTKLNSITS  407
+
+
+>VFG001352(gb|WP_000064987) (cpsA) CpsA responsible for transfer 
+of CPS from the membrane lipid to the cell wall peptidoglycan 
+[Capsule (VF0274) - Immune modulation (VFC0258)] [Streptococcus 
+agalactiae 2603V/R]
+Length=485
+
+ Score = 79.0 bits (193),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 36/113 (32%), Positives = 65/113 (58%), Gaps = 0/113 (0%)
+
+Query  154  GRAATLRIVRSLTGVSIDYFAEVNLAGFYDLTHTLGGVEVCLNHAVYDSYSGADFPAGRQ  213
+            G   +++ + +L  +++DY+A +N + F  L   LGGV V  + A    +   DFP G+ 
+Sbjct  295  GVETSMKTLENLYDINLDYYARINFSSFLKLIDLLGGVTVYNDQAFTSKHGNFDFPVGQV  354
+
+Query  214  RLDASEALAFVRQRHGLDNGDLDRTHRQQAFISSVMRELGDTGTFTNLDKLRS  266
+             L++ +AL FVR+R+ L  GD DR   Q+  I++++ +L  + + T L+ + S
+Sbjct  355  TLNSEQALGFVRERYSLQGGDNDRGRNQEKVIAAIINKLASSQSVTKLNSITS  407
+
+
+>VFG006034(gb|WP_000064997) (GBS_RS06610) LCP family protein [Capsule 
+(VF0274) - Immune modulation (VFC0258)] [Streptococcus 
+agalactiae NEM316]
+Length=485
+
+ Score = 79.0 bits (193),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 36/113 (32%), Positives = 65/113 (58%), Gaps = 0/113 (0%)
+
+Query  154  GRAATLRIVRSLTGVSIDYFAEVNLAGFYDLTHTLGGVEVCLNHAVYDSYSGADFPAGRQ  213
+            G   +++ + +L  +++DY+A +N + F  L   LGGV V  + A    +   DFP G+ 
+Sbjct  295  GVETSMKTLENLYDINLDYYARINFSSFLKLIDLLGGVTVYNDQAFTSKHGNFDFPVGQV  354
+
+Query  214  RLDASEALAFVRQRHGLDNGDLDRTHRQQAFISSVMRELGDTGTFTNLDKLRS  266
+             L++ +AL FVR+R+ L  GD DR   Q+  I++++ +L  + + T L+ + S
+Sbjct  355  TLNSEQALGFVRERYSLQGGDNDRGRNQEKVIAAIINKLASSQSVTKLNSITS  407
+
+
+>VFG005836(gb|WP_000091085) (cps4A) capsular polysaccharide biosynthesis 
+protein Cps4A [Capsule (VF0144) - Immune modulation 
+(VFC0258)] [Streptococcus pneumoniae D39]
+Length=481
+
+ Score = 78.6 bits (192),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 50/176 (28%), Positives = 79/176 (45%), Gaps = 28/176 (16%)
+
+Query  86   ILVHVGADNKAVAFSI-PRDDWVPFSDVPGYNHIKIKEAYGLTKQYVTQKLIDQGVTDQK  144
+            IL+ V  D K +  +  PRD +VP +D                           G  +QK
+Sbjct  249  ILMTVNRDTKKILLTTTPRDAYVPIAD---------------------------GGNNQK  281
+
+Query  145  ELETQGREAGRAATLRIVRSLTGVSIDYFAEVNLAGFYDLTHTLGGVEVCLNHAVYDSYS  204
+            +  T     G  +++  + +L GV I+Y+  +N   F  +   LGGV+V  +      + 
+Sbjct  282  DKLTHAGIYGVDSSIHTLENLYGVDINYYVRLNFTSFLKMIDLLGGVDVHNDQEFSALHG  341
+
+Query  205  GADFPAGRQRLDASEALAFVRQRHGLDNGDLDRTHRQQAFISSVMRELGDTGTFTN  260
+               FP G   LD+ +AL FVR+R+ L +GD DR   QQ  I +++++L  T    N
+Sbjct  342  KFHFPVGNVHLDSEQALGFVRERYSLADGDRDRGRNQQKVIVAILQKLTSTEALKN  397
+
+
+>VFG006011(gb|WP_011681177) (STER_RS05320) LCP family protein 
+[Capsule (VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus LMD-9]
+Length=486
+
+ Score = 76.6 bits (187),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 41/123 (33%), Positives = 63/123 (51%), Gaps = 0/123 (0%)
+
+Query  139  GVTDQKELETQGREAGRAATLRIVRSLTGVSIDYFAEVNLAGFYDLTHTLGGVEVCLNHA  198
+            G  DQ +  T     G   + + +  L G  IDY+A +N   F  L   LGGV V  + A
+Sbjct  280  GGADQYDKLTHAGIYGVETSEQTLEDLYGTKIDYYARINFTSFLKLIDQLGGVTVHNDQA  339
+
+Query  199  VYDSYSGADFPAGRQRLDASEALAFVRQRHGLDNGDLDRTHRQQAFISSVMRELGDTGTF  258
+                +   DFP G  ++++ +AL FVR+R+ LD GD DR   Q+  IS+++ +L    + 
+Sbjct  340  FTSLHGKFDFPVGDIQMNSEQALGFVRERYSLDGGDNDRGKNQEKVISAIVNKLASLKSV  399
+
+Query  259  TNL  261
+            +N 
+Sbjct  400  SNF  402
+
+
+>VFG006058(gb|WP_011226049) (STU_RS14650) LCP family protein [Capsule 
+(VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus LMG 18311]
+Length=484
+
+ Score = 75.1 bits (183),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 41/123 (33%), Positives = 64/123 (52%), Gaps = 2/123 (2%)
+
+Query  139  GVTDQKELETQGREAGRAATLRIVRSLTGVSIDYFAEVNLAGFYDLTHTLGGVEVCLNHA  198
+            G  DQ +  T     G   + + +  L G+ IDY+A +N   F  L   LGGV V  + A
+Sbjct  280  GGADQYDKLTHAGIYGVETSEQTLEDLYGIKIDYYARINFTSFLKLIDQLGGVTVHNDQA  339
+
+Query  199  VYDSYSGADFPAGRQRLDASEALAFVRQRHGLDNGDLDRTHRQQAFISSVMRELGDTGTF  258
+               +    DFP G  ++++ +AL FVR+R+ LD GD DR   Q+  IS+++ +L    + 
+Sbjct  340  F--TQGKFDFPVGDIQMNSEQALGFVRERYNLDGGDNDRGKNQEKVISAILNKLASLKSV  397
+
+Query  259  TNL  261
+            +N 
+Sbjct  398  SNF  400
+
+
+>VFG006030(gb|WP_041827043) (STR_RS05265) LCP family protein [Capsule 
+(VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus CNRZ1066]
+Length=484
+
+ Score = 73.9 bits (180),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 40/123 (33%), Positives = 64/123 (52%), Gaps = 2/123 (2%)
+
+Query  139  GVTDQKELETQGREAGRAATLRIVRSLTGVSIDYFAEVNLAGFYDLTHTLGGVEVCLNHA  198
+            G  DQ +  T     G   + + +  L G+ +DY+A +N   F  L   LGGV V  + A
+Sbjct  280  GGADQYDKLTHAGIYGVETSEQTLEDLYGIKLDYYARINFTSFLKLIDQLGGVTVHNDQA  339
+
+Query  199  VYDSYSGADFPAGRQRLDASEALAFVRQRHGLDNGDLDRTHRQQAFISSVMRELGDTGTF  258
+               +    DFP G  ++++ +AL FVR+R+ LD GD DR   Q+  IS+++ +L    + 
+Sbjct  340  F--TQEKFDFPVGDIQMNSEQALGFVRERYNLDGGDNDRGKNQEKVISAILNKLASLKSV  397
+
+Query  259  TNL  261
+            +N 
+Sbjct  398  SNF  400
+
+
+>VFG016408(gb|WP_001227554) (BT9727_RS25810) LytR family transcriptional 
+regulator [Polysaccharide capsule (VF0659) - Immune 
+modulation (VFC0258)] [Bacillus thuringiensis serovar konkukian 
+str. 97-27]
+Length=304
+
+ Score = 64.7 bits (156),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 58/235 (25%), Positives = 95/235 (40%), Gaps = 62/235 (26%)
+
+Query  27   TVSQALTTDDPRSTDNNIN--------ILLIGLDSRKDQQGNDLPWSILKQLHAGDSNDG  78
+            +V Q L  D     D  IN        ILL+G+D R ++ G                   
+Sbjct  37   SVHQPLKRDKSEKRDQKINLTDQKPISILLMGVDQRGEETGR------------------  78
+
+Query  79   GYNTNTLILVHVGADNKAVAF-SIPRDDWVPFSDVPGYNHI-KIKEAYGLTKQYVTQKLI  136
+               +++L+L  +    K++   SIPRD    ++++ G     KI  AY            
+Sbjct  79   ---SDSLMLFTLNPKTKSMKITSIPRD---SYTEIIGKGKKDKINHAYAF----------  122
+
+Query  137  DQGVTDQKELETQGREAGRAATLRIVRSLTGVSIDYFAEVNLAGFYDLTHTLGGVEVCLN  196
+                             G    ++ V +   + +D++ EVN+ GF D+   +GGVEV  N
+Sbjct  123  ----------------GGIDMAVKTVENFLDIPVDHYIEVNMEGFKDIVDAVGGVEV--N  164
+
+Query  197  HAVYDSYSGADFPAGRQRLDASEALAFVRQRHGLDNGDLDRTHRQQAFISSVMRE  251
+            + +  +  G  F  G   LD  +AL + R R+    GD  R  RQ+  I +V+++
+Sbjct  165  NDLEFTSVGTHFEKGNLHLDGEKALKYSRMRYEDPRGDFGRQMRQRQVIQAVIKK  219
+
+
+>VFG016372(gb|WP_000727039) (BC_RS26250) LytR family transcriptional 
+regulator [Polysaccharide capsule (VF0659) - Immune modulation 
+(VFC0258)] [Bacillus cereus ATCC 14579]
+Length=304
+
+ Score = 64.3 bits (155),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 58/234 (25%), Positives = 100/234 (43%), Gaps = 57/234 (24%)
+
+Query  44   INILLIGLDSRKDQQGNDLPWSILKQLHAGDSNDGGYNTNTLILVHVGADNKAVA-FSIP  102
+            ++ILL+G+D R +++G                      +++LIL+ +   N ++   SIP
+Sbjct  62   VSILLLGVDERGNEKGR---------------------SDSLILITLNPKNNSMKTVSIP  100
+
+Query  103  RDDWVPFSDVPGYNHI-KIKEAYGLTKQYVTQKLIDQGVTDQKELETQGREAGRAATLRI  161
+            RD    ++++ G     KI  AY                             G   ++  
+Sbjct  101  RD---TYTEIVGKGKSDKINHAYAF--------------------------GGVDMSVAT  131
+
+Query  162  VRSLTGVSIDYFAEVNLAGFYDLTHTLGGVEVCLNHAVYDSYSGADFPAGRQRLDASEAL  221
+            V     V I+Y+ EVN+AGF D+   +GGV+V  N+ +        F  G   L   EAL
+Sbjct  132  VEKFLNVPINYYIEVNMAGFKDIVDAVGGVDV--NNDLEFKQDKHHFAKGNIHLTGDEAL  189
+
+Query  222  AFVRQRHGLDNGDLDRTHRQQAFISSVMRELGDTGTFTNLDKLRSLMAVARKDV  275
+            +F R R+    GD  R  RQ+  + +V+++     TF++L     ++   +K+V
+Sbjct  190  SFTRMRYEDPRGDFGRQMRQRQVMQAVIKK---GATFSSLTSYGDVLTAIQKNV  240
+
+
+>VFG016389(gb|WP_000727070) (BCE_RS25805) LytR family transcriptional 
+regulator [Polysaccharide capsule (VF0659) - Immune 
+modulation (VFC0258)] [Bacillus cereus ATCC 10987]
+Length=302
+
+ Score = 63.2 bits (152),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 65/286 (23%), Positives = 116/286 (41%), Gaps = 69/286 (24%)
+
+Query  3    LTSFVAVLLTGAGYWVAHRALEDIT-----VSQALTTDDPRSTDNNIN------ILLIGL  51
+            +   + VL+ G G + A+     ++     V + L  D     +  IN      ILL+G 
+Sbjct  9    ILGIIGVLVIGGGVY-AYNVYSKVSNTLNEVHKPLERDKNNKQEEKINKSEPVSILLLGA  67
+
+Query  52   DSRKDQQGNDLPWSILKQLHAGDSNDGGYNTNTLILVHVGADNKAVA-FSIPRDDWVPFS  110
+            D R + +G                      +++L+++ +   N ++   SIPRD    ++
+Sbjct  68   DERGEDKGR---------------------SDSLMVITLNPKNNSMKTVSIPRD---TYT  103
+
+Query  111  DVPGYNHI-KIKEAYGLTKQYVTQKLIDQGVTDQKELETQGREAGRAATLRIVRSLTGVS  169
+            ++ G     KI  AY                             G   ++  V     V 
+Sbjct  104  EIVGKGKSDKINHAYAF--------------------------GGVDMSVATVEKFLNVP  137
+
+Query  170  IDYFAEVNLAGFYDLTHTLGGVEVCLNHAVYDSYSGADFPAGRQRLDASEALAFVRQRHG  229
+            I+Y+ EVN+ GF D+   +GGV+V  N+ +  S  G  F  G   L+  +ALA+ R R  
+Sbjct  138  INYYIEVNMEGFKDIVDAVGGVDV--NNDLEFSLEGKHFQKGNIHLNGDQALAYTRMRKE  195
+
+Query  230  LDNGDLDRTHRQQAFISSVMRELGDTGTFTNLDKLRSLMAVARKDV  275
+               GD  R  RQ+  + +V+++     +F++L     ++   +K+V
+Sbjct  196  DPRGDFGRQMRQRQVMQAVIKK---GASFSSLSSYGDVLTAIQKNV  238
+
+
+>VFG005839(gb|YP_001197930) (SSU05_0564) Cps2A [Capsule (VF0144) 
+- Immune modulation (VFC0258)] [Streptococcus suis 05ZYH33]
+Length=483
+
+ Score = 61.2 bits (147),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 53/213 (25%), Positives = 95/213 (45%), Gaps = 37/213 (17%)
+
+Query  92   ADNKAVAFSIPRDDWVPFSDVPGYNHIKIKEAYGLTKQYVTQKLIDQGVTDQKELETQGR  151
+            A +K +  + PRD +V  +D             G   QY   KL   G+           
+Sbjct  258  ATHKILLTTTPRDSYVAIAD-------------GGQNQY--DKLTHAGI-----------  291
+
+Query  152  EAGRAATLRIVRSLTGVSIDYFAEVNLAGFYDLTHTLGGVEVCLNHAVYDSYSGADFPAG  211
+              G  A++  + +L G+ I  +  +N   F  L   +GG++V  +      +    FP G
+Sbjct  292  -YGVNASVHTLENLYGIDISNYVRLNFISFLQLIDLVGGIDVYNDQEFTSLHGNYHFPVG  350
+
+Query  212  RQRLDASEALAFVRQRHGLDNGDLDRTHRQQAFISSVMRELGDTGTFTNLDKLRSLMAVA  271
+            +  L++ +AL FVR+R+ L  GD DR   Q+  I+++++++    T  NL   +++++  
+Sbjct  351  QVHLNSDQALGFVRERYSLTGGDNDRGKNQEKVIAALIKKM---STPENLKNYQAILS--  405
+
+Query  272  RKDVVLSAGWNEDL-IQRLGTLANDVGENRTQF  303
+                 L      DL ++ + +L N   E+ TQF
+Sbjct  406  ----GLEGSIQTDLSLETIMSLVNTQLESGTQF  434
+
+
+>VFG016423(gb|WP_000727056) (BALH_RS26190) LytR family transcriptional 
+regulator [Polysaccharide capsule (VF0659) - Immune 
+modulation (VFC0258)] [Bacillus thuringiensis str. Al Hakam]
+Length=304
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 49/209 (23%), Positives = 88/209 (42%), Gaps = 52/209 (25%)
+
+Query  44   INILLIGLDSRKDQQGNDLPWSILKQLHAGDSNDGGYNTNTLILVHVGADNKAVAF-SIP  102
+            I+IL++G+D R ++QG                      +++L+L  +    K++   SIP
+Sbjct  62   ISILMMGVDQRGEEQGR---------------------SDSLMLFTLNPAKKSMKITSIP  100
+
+Query  103  RDDWVPFSDVPGYNHIKIKEAYGLTKQYVTQKLIDQGVTDQKELETQGREAGRAATLRIV  162
+            RD +     V      KI  AY                             G   +++ V
+Sbjct  101  RDSYTEI--VGKGKKDKINHAYAF--------------------------GGINMSVKTV  132
+
+Query  163  RSLTGVSIDYFAEVNLAGFYDLTHTLGGVEVCLNHAVYDSYSGADFPAGRQRLDASEALA  222
+             +   V +D++ EVN+ GF D+   +GGV++  N+ +  +  G  +  G   L+  +AL 
+Sbjct  133  ENFLNVPVDHYIEVNMEGFKDIVDAVGGVDI--NNDMDFTIDGVHYAKGDLHLNGEKALL  190
+
+Query  223  FVRQRHGLDNGDLDRTHRQQAFISSVMRE  251
+            + R R+    GD  R  RQ+  I +V+++
+Sbjct  191  YSRMRYQDTRGDFGRQMRQRQVIQAVIKK  219
+
+
+>VFG050193(gb|WP_000727057) (BCAH187_RS26490) LytR family transcriptional 
+regulator [Polysaccharide capsule (VF0659) - Immune 
+modulation (VFC0258)] [Bacillus cereus AH187]
+Length=302
+
+ Score = 55.8 bits (133),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 32/114 (28%), Positives = 57/114 (50%), Gaps = 5/114 (4%)
+
+Query  162  VRSLTGVSIDYFAEVNLAGFYDLTHTLGGVEVCLNHAVYDSYSGADFPAGRQRLDASEAL  221
+            V     + ++Y+ EVN+ GF D+   +GGV+V  N+ +  +     F  G   L   EAL
+Sbjct  130  VEKFLNIPMNYYVEVNMEGFKDIVDAVGGVDV--NNDLEFTQDNHHFAKGNIHLTGEEAL  187
+
+Query  222  AFVRQRHGLDNGDLDRTHRQQAFISSVMRELGDTGTFTNLDKLRSLMAVARKDV  275
+            +F R R     GD  R  RQ+  + +V+++     +F++L     ++   +K+V
+Sbjct  188  SFTRMRKEDPRGDFGRQMRQRQVVQAVIKK---GASFSSLSSYGDVLTAIQKNV  238
+
+
+>VFG050189(gb|WP_001971591) (bpsX) LytR family transcriptional 
+regulator  [B. cereus exo-polysaccharide (BPS) (VF0668) - Immune 
+modulation (VFC0258)] [Bacillus cereus G9241]
+Length=304
+
+ Score = 51.2 bits (121),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 46/194 (24%), Positives = 81/194 (42%), Gaps = 54/194 (28%)
+
+Query  44   INILLIGLDSRKDQQGNDLPWSILKQLHAGDSNDGGYNTNTLILVHVGADNKAVAF-SIP  102
+            I+ILLIG+D R ++ G                      +++ +L  +    K++   SIP
+Sbjct  62   ISILLIGVDQRANETGR---------------------SDSQMLFTLNPQKKSMQITSIP  100
+
+Query  103  RDDWVPFSDVPGYNHI-KIKEAYGLTKQYVTQKLIDQGVTDQKELETQGREAGRAATLRI  161
+            RD    ++++ G     KI  AY                             G    ++ 
+Sbjct  101  RD---SYTEIVGKGKKDKINHAYAF--------------------------GGIDMAVKT  131
+
+Query  162  VRSLTGVSIDYFAEVNLAGFYDLTHTLGGVEVCLNHAVYDSYSGADFPAGRQRLDASEAL  221
+            + +   V +D++ EVN++GF D+    GGV++  N+ +  +Y G+ F  G   L+ +EAL
+Sbjct  132  LENFLNVPVDHYIEVNMSGFQDVVDAFGGVDI--NNDLEFNYEGSHFTKGNIHLNGTEAL  189
+
+Query  222  AFVRQRHGLDNGDL  235
+             + R R+    GD 
+Sbjct  190  RYSRMRYEDPRGDF  203
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.132    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3989089920
+
+
+Query= g3433.t1
+
+Length=512
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG006033(gb|WP_000064993) (SAK_RS06330) LCP family protein [Caps...  79.3    1e-15
+VFG001352(gb|WP_000064987) (cpsA) CpsA responsible for transfer o...  79.3    1e-15
+VFG006034(gb|WP_000064997) (GBS_RS06610) LCP family protein [Caps...  79.3    1e-15
+VFG006011(gb|WP_011681177) (STER_RS05320) LCP family protein [Cap...  78.2    3e-15
+VFG006058(gb|WP_011226049) (STU_RS14650) LCP family protein [Caps...  76.6    9e-15
+VFG006030(gb|WP_041827043) (STR_RS05265) LCP family protein [Caps...  75.9    2e-14
+VFG001365(gb|WP_000091082) (cps4A) capsular polysaccharide biosyn...  73.9    6e-14
+VFG016389(gb|WP_000727070) (BCE_RS25805) LytR family transcriptio...  69.3    6e-13
+VFG019107(gb|WP_000091050) (cps4A) capsular polysaccharide biosyn...  70.5    7e-13
+VFG019108(gb|WP_000091066) (cps4A) capsular polysaccharide biosyn...  70.5    9e-13
+VFG005836(gb|WP_000091085) (cps4A) capsular polysaccharide biosyn...  70.5    9e-13
+VFG016372(gb|WP_000727039) (BC_RS26250) LytR family transcription...  68.6    1e-12
+VFG005839(gb|YP_001197930) (SSU05_0564) Cps2A [Capsule (VF0144) -...  63.2    2e-10
+VFG016423(gb|WP_000727056) (BALH_RS26190) LytR family transcripti...  62.0    2e-10
+VFG050193(gb|WP_000727057) (BCAH187_RS26490) LytR family transcri...  60.1    8e-10
+VFG016408(gb|WP_001227554) (BT9727_RS25810) LytR family transcrip...  58.5    2e-09
+VFG050189(gb|WP_001971591) (bpsX) LytR family transcriptional reg...  56.2    2e-08
+
+
+>VFG006033(gb|WP_000064993) (SAK_RS06330) LCP family protein [Capsule 
+(VF0274) - Immune modulation (VFC0258)] [Streptococcus 
+agalactiae A909]
+Length=485
+
+ Score = 79.3 bits (194),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 37/108 (34%), Positives = 62/108 (57%), Gaps = 0/108 (0%)
+
+Query  185  ATLRAVRSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAGRQRLN  244
+             +++ + +L  + +DY+A IN + F  L   LGGV V  + A    +   DFP G+  LN
+Sbjct  298  TSMKTLENLYDINLDYYARINFSSFLKLIDLLGGVTVYNDQAFTSKHGNFDFPVGQVTLN  357
+
+Query  245  AAQALAFVRQRHGLDNGDLDRTHRQQAFLSSVMRELQDSGTFTNLDRL  292
+            + QAL FVR+R+ L  GD DR   Q+  +++++ +L  S + T L+ +
+Sbjct  358  SEQALGFVRERYSLQGGDNDRGRNQEKVIAAIINKLASSQSVTKLNSI  405
+
+
+>VFG001352(gb|WP_000064987) (cpsA) CpsA responsible for transfer 
+of CPS from the membrane lipid to the cell wall peptidoglycan 
+[Capsule (VF0274) - Immune modulation (VFC0258)] [Streptococcus 
+agalactiae 2603V/R]
+Length=485
+
+ Score = 79.3 bits (194),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 37/108 (34%), Positives = 62/108 (57%), Gaps = 0/108 (0%)
+
+Query  185  ATLRAVRSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAGRQRLN  244
+             +++ + +L  + +DY+A IN + F  L   LGGV V  + A    +   DFP G+  LN
+Sbjct  298  TSMKTLENLYDINLDYYARINFSSFLKLIDLLGGVTVYNDQAFTSKHGNFDFPVGQVTLN  357
+
+Query  245  AAQALAFVRQRHGLDNGDLDRTHRQQAFLSSVMRELQDSGTFTNLDRL  292
+            + QAL FVR+R+ L  GD DR   Q+  +++++ +L  S + T L+ +
+Sbjct  358  SEQALGFVRERYSLQGGDNDRGRNQEKVIAAIINKLASSQSVTKLNSI  405
+
+
+>VFG006034(gb|WP_000064997) (GBS_RS06610) LCP family protein [Capsule 
+(VF0274) - Immune modulation (VFC0258)] [Streptococcus 
+agalactiae NEM316]
+Length=485
+
+ Score = 79.3 bits (194),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 37/108 (34%), Positives = 62/108 (57%), Gaps = 0/108 (0%)
+
+Query  185  ATLRAVRSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAGRQRLN  244
+             +++ + +L  + +DY+A IN + F  L   LGGV V  + A    +   DFP G+  LN
+Sbjct  298  TSMKTLENLYDINLDYYARINFSSFLKLIDLLGGVTVYNDQAFTSKHGNFDFPVGQVTLN  357
+
+Query  245  AAQALAFVRQRHGLDNGDLDRTHRQQAFLSSVMRELQDSGTFTNLDRL  292
+            + QAL FVR+R+ L  GD DR   Q+  +++++ +L  S + T L+ +
+Sbjct  358  SEQALGFVRERYSLQGGDNDRGRNQEKVIAAIINKLASSQSVTKLNSI  405
+
+
+>VFG006011(gb|WP_011681177) (STER_RS05320) LCP family protein 
+[Capsule (VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus LMD-9]
+Length=486
+
+ Score = 78.2 bits (191),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 53/172 (31%), Positives = 82/172 (48%), Gaps = 27/172 (16%)
+
+Query  123  KVVAFSIPRDDWVPFTGVPGYNHIKIKEAYGLTKQYVAEQLANQGVSDRKELETRGREAA  182
+            K++  + PRD +V    +PG          G   QY  ++L + G+         G E +
+Sbjct  263  KILLTTTPRDAYVK---IPG----------GGADQY--DKLTHAGI--------YGVETS  299
+
+Query  183  RAATLRAVRSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAGRQR  242
+                 + +  L G  IDY+A IN   F  L   LGGV V  + A    +   DFP G  +
+Sbjct  300  E----QTLEDLYGTKIDYYARINFTSFLKLIDQLGGVTVHNDQAFTSLHGKFDFPVGDIQ  355
+
+Query  243  LNAAQALAFVRQRHGLDNGDLDRTHRQQAFLSSVMRELQDSGTFTNLDRLDN  294
+            +N+ QAL FVR+R+ LD GD DR   Q+  +S+++ +L    + +N   + N
+Sbjct  356  MNSEQALGFVRERYSLDGGDNDRGKNQEKVISAIVNKLASLKSVSNFTSIVN  407
+
+
+>VFG006058(gb|WP_011226049) (STU_RS14650) LCP family protein [Capsule 
+(VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus LMG 18311]
+Length=484
+
+ Score = 76.6 bits (187),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 53/172 (31%), Positives = 83/172 (48%), Gaps = 29/172 (17%)
+
+Query  123  KVVAFSIPRDDWVPFTGVPGYNHIKIKEAYGLTKQYVAEQLANQGVSDRKELETRGREAA  182
+            K++  + PRD +V    +PG          G   QY  ++L + G+         G E +
+Sbjct  263  KILLTTTPRDAYVK---IPG----------GGADQY--DKLTHAGI--------YGVETS  299
+
+Query  183  RAATLRAVRSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAGRQR  242
+                 + +  L G+ IDY+A IN   F  L   LGGV V  + A   +    DFP G  +
+Sbjct  300  E----QTLEDLYGIKIDYYARINFTSFLKLIDQLGGVTVHNDQAF--TQGKFDFPVGDIQ  353
+
+Query  243  LNAAQALAFVRQRHGLDNGDLDRTHRQQAFLSSVMRELQDSGTFTNLDRLDN  294
+            +N+ QAL FVR+R+ LD GD DR   Q+  +S+++ +L    + +N   + N
+Sbjct  354  MNSEQALGFVRERYNLDGGDNDRGKNQEKVISAILNKLASLKSVSNFTSIVN  405
+
+
+>VFG006030(gb|WP_041827043) (STR_RS05265) LCP family protein [Capsule 
+(VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+thermophilus CNRZ1066]
+Length=484
+
+ Score = 75.9 bits (185),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 52/172 (30%), Positives = 83/172 (48%), Gaps = 29/172 (17%)
+
+Query  123  KVVAFSIPRDDWVPFTGVPGYNHIKIKEAYGLTKQYVAEQLANQGVSDRKELETRGREAA  182
+            K++  + PRD +V    +PG          G   QY  ++L + G+         G E +
+Sbjct  263  KILLTTTPRDAYVK---IPG----------GGADQY--DKLTHAGI--------YGVETS  299
+
+Query  183  RAATLRAVRSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAGRQR  242
+                 + +  L G+ +DY+A IN   F  L   LGGV V  + A   +    DFP G  +
+Sbjct  300  E----QTLEDLYGIKLDYYARINFTSFLKLIDQLGGVTVHNDQAF--TQEKFDFPVGDIQ  353
+
+Query  243  LNAAQALAFVRQRHGLDNGDLDRTHRQQAFLSSVMRELQDSGTFTNLDRLDN  294
+            +N+ QAL FVR+R+ LD GD DR   Q+  +S+++ +L    + +N   + N
+Sbjct  354  MNSEQALGFVRERYNLDGGDNDRGKNQEKVISAILNKLASLKSVSNFTSIVN  405
+
+
+>VFG001365(gb|WP_000091082) (cps4A) capsular polysaccharide biosynthesis 
+protein Cps4A [Capsule (VF0144) - Immune modulation 
+(VFC0258)] [Streptococcus pneumoniae TIGR4]
+Length=481
+
+ Score = 73.9 bits (180),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 35/110 (32%), Positives = 60/110 (55%), Gaps = 0/110 (0%)
+
+Query  185  ATLRAVRSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAGRQRLN  244
+            +++  + +L GV I+Y+  +N   F  L   LGG+DV  +       +G  +PAG   L+
+Sbjct  294  SSIHTLENLYGVDINYYVRLNFTSFLKLIDLLGGIDVYNDQEFTAHTNGKYYPAGNVHLD  353
+
+Query  245  AAQALAFVRQRHGLDNGDLDRTHRQQAFLSSVMRELQDSGTFTNLDRLDN  294
+            + QAL FVR+R+ L +GD DR   QQ  + +++++L  +    N   + N
+Sbjct  354  SEQALGFVRERYSLADGDRDRGRHQQKVIVAILQKLTSTEVLKNYSTIIN  403
+
+
+>VFG016389(gb|WP_000727070) (BCE_RS25805) LytR family transcriptional 
+regulator [Polysaccharide capsule (VF0659) - Immune 
+modulation (VFC0258)] [Bacillus cereus ATCC 10987]
+Length=302
+
+ Score = 69.3 bits (168),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 38/118 (32%), Positives = 63/118 (53%), Gaps = 5/118 (4%)
+
+Query  186  TLRAVRSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAGRQRLNA  245
+            ++  V     VPI+Y+ E+N+ GF D+   +GGVDV  N+ +  S  G  F  G   LN 
+Sbjct  126  SVATVEKFLNVPINYYIEVNMEGFKDIVDAVGGVDV--NNDLEFSLEGKHFQKGNIHLNG  183
+
+Query  246  AQALAFVRQRHGLDNGDLDRTHRQQAFLSSVMRELQDSGTFTNLDRLDNLMAVARKDV  303
+             QALA+ R R     GD  R  RQ+  + +V+++     +F++L    +++   +K+V
+Sbjct  184  DQALAYTRMRKEDPRGDFGRQMRQRQVMQAVIKK---GASFSSLSSYGDVLTAIQKNV  238
+
+
+>VFG019107(gb|WP_000091050) (cps4A) capsular polysaccharide biosynthesis 
+protein Cps4A [Capsule (VF0144) - Immune modulation 
+(VFC0258)] [Streptococcus pneumoniae Hungary19A-6]
+Length=481
+
+ Score = 70.5 bits (171),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 34/104 (33%), Positives = 56/104 (54%), Gaps = 0/104 (0%)
+
+Query  185  ATLRAVRSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAGRQRLN  244
+            +++  + +L GV I+Y+  +N   F  L   LGGVDV  +      +    FP G   L+
+Sbjct  294  SSIHTLENLYGVDINYYVRLNFTSFLKLIDLLGGVDVHNDQEFSALHGKFHFPVGNVHLD  353
+
+Query  245  AAQALAFVRQRHGLDNGDLDRTHRQQAFLSSVMRELQDSGTFTN  288
+            + QAL FVR+R+ L +GD DR   QQ  + +++++L  +    N
+Sbjct  354  SEQALGFVRERYSLADGDRDRGRNQQKVIVAILQKLTSTEALKN  397
+
+
+>VFG019108(gb|WP_000091066) (cps4A) capsular polysaccharide biosynthesis 
+protein Cps4A [Capsule (VF0144) - Immune modulation 
+(VFC0258)] [Streptococcus pneumoniae CGSP14]
+Length=481
+
+ Score = 70.5 bits (171),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 33/104 (32%), Positives = 56/104 (54%), Gaps = 0/104 (0%)
+
+Query  185  ATLRAVRSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAGRQRLN  244
+            +++  + +L GV I+Y+  +N   F  +   LGGVDV  +      +    FP G   L+
+Sbjct  294  SSIHTLENLYGVDINYYVRLNFTSFLKMIDLLGGVDVHNDQEFLALHGKFHFPVGNVHLD  353
+
+Query  245  AAQALAFVRQRHGLDNGDLDRTHRQQAFLSSVMRELQDSGTFTN  288
+            + QAL FVR+R+ L +GD DR   QQ  + +++++L  +    N
+Sbjct  354  SEQALGFVRERYSLADGDRDRGRNQQKVIVAILQKLTSTEALKN  397
+
+
+>VFG005836(gb|WP_000091085) (cps4A) capsular polysaccharide biosynthesis 
+protein Cps4A [Capsule (VF0144) - Immune modulation 
+(VFC0258)] [Streptococcus pneumoniae D39]
+Length=481
+
+ Score = 70.5 bits (171),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 34/110 (31%), Positives = 58/110 (53%), Gaps = 0/110 (0%)
+
+Query  185  ATLRAVRSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAGRQRLN  244
+            +++  + +L GV I+Y+  +N   F  +   LGGVDV  +      +    FP G   L+
+Sbjct  294  SSIHTLENLYGVDINYYVRLNFTSFLKMIDLLGGVDVHNDQEFSALHGKFHFPVGNVHLD  353
+
+Query  245  AAQALAFVRQRHGLDNGDLDRTHRQQAFLSSVMRELQDSGTFTNLDRLDN  294
+            + QAL FVR+R+ L +GD DR   QQ  + +++++L  +    N   + N
+Sbjct  354  SEQALGFVRERYSLADGDRDRGRNQQKVIVAILQKLTSTEALKNYSTIIN  403
+
+
+>VFG016372(gb|WP_000727039) (BC_RS26250) LytR family transcriptional 
+regulator [Polysaccharide capsule (VF0659) - Immune modulation 
+(VFC0258)] [Bacillus cereus ATCC 14579]
+Length=304
+
+ Score = 68.6 bits (166),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 61/252 (24%), Positives = 104/252 (41%), Gaps = 55/252 (22%)
+
+Query  61   TPEDPRSSGNNMNILLIGLDSRKDQEGNDLPWSVLKQLHAGDSDDGGYNTNTLILVHVG-  119
+            T E   S    ++ILL+G+D R +++G                      +++LIL+ +  
+Sbjct  51   TEEVKISKSEPVSILLLGVDERGNEKGR---------------------SDSLILITLNP  89
+
+Query  120  ADGKVVAFSIPRDDWVPFTGVPGYNHIKIKEAYGLTKQYVAEQLANQGVSDRKELETRGR  179
+             +  +   SIPRD +    G    + I    A+G     VA                   
+Sbjct  90   KNNSMKTVSIPRDTYTEIVGKGKSDKINHAYAFGGVDMSVA-------------------  130
+
+Query  180  EAARAATLRAVRSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAG  239
+                      V     VPI+Y+ E+N+AGF D+   +GGVDV  N+ +        F  G
+Sbjct  131  ---------TVEKFLNVPINYYIEVNMAGFKDIVDAVGGVDV--NNDLEFKQDKHHFAKG  179
+
+Query  240  RQRLNAAQALAFVRQRHGLDNGDLDRTHRQQAFLSSVMRELQDSGTFTNLDRLDNLMAVA  299
+               L   +AL+F R R+    GD  R  RQ+  + +V+++     TF++L    +++   
+Sbjct  180  NIHLTGDEALSFTRMRYEDPRGDFGRQMRQRQVMQAVIKK---GATFSSLTSYGDVLTAI  236
+
+Query  300  RKDVVLSAGWDE  311
+            +K+V  +   D+
+Sbjct  237  QKNVKTNLTQDQ  248
+
+
+>VFG005839(gb|YP_001197930) (SSU05_0564) Cps2A [Capsule (VF0144) 
+- Immune modulation (VFC0258)] [Streptococcus suis 05ZYH33]
+Length=483
+
+ Score = 63.2 bits (152),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 29/96 (30%), Positives = 53/96 (55%), Gaps = 0/96 (0%)
+
+Query  185  ATLRAVRSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAGRQRLN  244
+            A++  + +L G+ I  +  +N   F  L   +GG+DV  +      +    FP G+  LN
+Sbjct  296  ASVHTLENLYGIDISNYVRLNFISFLQLIDLVGGIDVYNDQEFTSLHGNYHFPVGQVHLN  355
+
+Query  245  AAQALAFVRQRHGLDNGDLDRTHRQQAFLSSVMREL  280
+            + QAL FVR+R+ L  GD DR   Q+  ++++++++
+Sbjct  356  SDQALGFVRERYSLTGGDNDRGKNQEKVIAALIKKM  391
+
+
+>VFG016423(gb|WP_000727056) (BALH_RS26190) LytR family transcriptional 
+regulator [Polysaccharide capsule (VF0659) - Immune 
+modulation (VFC0258)] [Bacillus thuringiensis str. Al Hakam]
+Length=304
+
+ Score = 62.0 bits (149),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 47/209 (22%), Positives = 91/209 (44%), Gaps = 52/209 (25%)
+
+Query  72   MNILLIGLDSRKDQEGNDLPWSVLKQLHAGDSDDGGYNTNTLILVHVGADGKVVAF-SIP  130
+            ++IL++G+D R +++G                      +++L+L  +    K +   SIP
+Sbjct  62   ISILMMGVDQRGEEQGR---------------------SDSLMLFTLNPAKKSMKITSIP  100
+
+Query  131  RDDWVPFTGVPGYNHIKIKEAYGLTKQYVAEQLANQGVSDRKELETRGREAARAATLRAV  190
+            RD +    G    + I    A+G             G++                +++ V
+Sbjct  101  RDSYTEIVGKGKKDKINHAYAFG-------------GIN---------------MSVKTV  132
+
+Query  191  RSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAGRQRLNAAQALA  250
+             +   VP+D++ E+N+ GF D+   +GGVD+  N+ +  +  G  +  G   LN  +AL 
+Sbjct  133  ENFLNVPVDHYIEVNMEGFKDIVDAVGGVDI--NNDMDFTIDGVHYAKGDLHLNGEKALL  190
+
+Query  251  FVRQRHGLDNGDLDRTHRQQAFLSSVMRE  279
+            + R R+    GD  R  RQ+  + +V+++
+Sbjct  191  YSRMRYQDTRGDFGRQMRQRQVIQAVIKK  219
+
+
+>VFG050193(gb|WP_000727057) (BCAH187_RS26490) LytR family transcriptional 
+regulator [Polysaccharide capsule (VF0659) - Immune 
+modulation (VFC0258)] [Bacillus cereus AH187]
+Length=302
+
+ Score = 60.1 bits (144),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 33/126 (26%), Positives = 64/126 (51%), Gaps = 5/126 (4%)
+
+Query  186  TLRAVRSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAGRQRLNA  245
+            ++  V     +P++Y+ E+N+ GF D+   +GGVDV  N+ +  +     F  G   L  
+Sbjct  126  SVATVEKFLNIPMNYYVEVNMEGFKDIVDAVGGVDV--NNDLEFTQDNHHFAKGNIHLTG  183
+
+Query  246  AQALAFVRQRHGLDNGDLDRTHRQQAFLSSVMRELQDSGTFTNLDRLDNLMAVARKDVVL  305
+             +AL+F R R     GD  R  RQ+  + +V+++     +F++L    +++   +K+V  
+Sbjct  184  EEALSFTRMRKEDPRGDFGRQMRQRQVVQAVIKK---GASFSSLSSYGDVLTAIQKNVKT  240
+
+Query  306  SAGWDE  311
+            +   D+
+Sbjct  241  NLTQDQ  246
+
+
+>VFG016408(gb|WP_001227554) (BT9727_RS25810) LytR family transcriptional 
+regulator [Polysaccharide capsule (VF0659) - Immune 
+modulation (VFC0258)] [Bacillus thuringiensis serovar konkukian 
+str. 97-27]
+Length=304
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 47/209 (22%), Positives = 88/209 (42%), Gaps = 52/209 (25%)
+
+Query  72   MNILLIGLDSRKDQEGNDLPWSVLKQLHAGDSDDGGYNTNTLILVHVGADGKVVAF-SIP  130
+            ++ILL+G+D R ++ G                      +++L+L  +    K +   SIP
+Sbjct  62   ISILLMGVDQRGEETGR---------------------SDSLMLFTLNPKTKSMKITSIP  100
+
+Query  131  RDDWVPFTGVPGYNHIKIKEAYGLTKQYVAEQLANQGVSDRKELETRGREAARAATLRAV  190
+            RD +    G    + I    A+G             G+                  ++ V
+Sbjct  101  RDSYTEIIGKGKKDKINHAYAFG-------------GID---------------MAVKTV  132
+
+Query  191  RSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAGRQRLNAAQALA  250
+             +   +P+D++ E+N+ GF D+   +GGV+V  N+ +  +  G  F  G   L+  +AL 
+Sbjct  133  ENFLDIPVDHYIEVNMEGFKDIVDAVGGVEV--NNDLEFTSVGTHFEKGNLHLDGEKALK  190
+
+Query  251  FVRQRHGLDNGDLDRTHRQQAFLSSVMRE  279
+            + R R+    GD  R  RQ+  + +V+++
+Sbjct  191  YSRMRYEDPRGDFGRQMRQRQVIQAVIKK  219
+
+
+>VFG050189(gb|WP_001971591) (bpsX) LytR family transcriptional 
+regulator  [B. cereus exo-polysaccharide (BPS) (VF0668) - Immune 
+modulation (VFC0258)] [Bacillus cereus G9241]
+Length=304
+
+ Score = 56.2 bits (134),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 25/77 (32%), Positives = 44/77 (57%), Gaps = 2/77 (3%)
+
+Query  187  LRAVRSLTGVPIDYFAEINLAGFYDLAQTLGGVDVCLNHAVYDSYSGADFPAGRQRLNAA  246
+            ++ + +   VP+D++ E+N++GF D+    GGVD+  N+ +  +Y G+ F  G   LN  
+Sbjct  129  VKTLENFLNVPVDHYIEVNMSGFQDVVDAFGGVDI--NNDLEFNYEGSHFTKGNIHLNGT  186
+
+Query  247  QALAFVRQRHGLDNGDL  263
+            +AL + R R+    GD 
+Sbjct  187  EALRYSRMRYEDPRGDF  203
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.134    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4238408040
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

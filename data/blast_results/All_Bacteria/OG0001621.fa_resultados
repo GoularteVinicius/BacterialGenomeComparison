@@ -1,0 +1,145 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g599.t1
+
+Length=110
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044378(gb|AAL65285) (qbsC) QbsC [Thioquinolobactin (VF0937) - ...  46.2    5e-07
+
+
+>VFG044378(gb|AAL65285) (qbsC) QbsC [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=387
+
+ Score = 46.2 bits (108),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 26/91 (29%), Positives = 45/91 (49%), Gaps = 2/91 (2%)
+
+Query  12   QVRQLRENGAQVVDIRDPQSFAVGHISGSRHIDNHSVADFIAAADL--DAPLVVVCYHGN  69
+            Q  +L +   Q++D+R+   + + HI  ++ I    +      A L  DA +VV C  G+
+Sbjct  290  QALRLSKQPLQLIDVREKNEWDILHIPQAQLIPMQQMLSGAHTAQLSPDAEIVVYCKAGS  349
+
+Query  70   SSQSAAAYFIQQGFSDVYSLDGGFELWRSVY  100
+             S++      +QG  +V SL+GG   W + Y
+Sbjct  350  RSRTVVQALAEQGLRNVRSLEGGVLAWAAAY  380
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 331794690
+
+
+Query= g1224.t1
+
+Length=311
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.139    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2215538613
+
+
+Query= g3288.t1
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044389(gb|AAF33130) (pdtorfF) putative sulfurylase [Pyridine-2...  44.3    2e-06
+VFG044378(gb|AAL65285) (qbsC) QbsC [Thioquinolobactin (VF0937) - ...  43.5    5e-06
+
+
+>VFG044389(gb|AAF33130) (pdtorfF) putative sulfurylase [Pyridine-2,6-dithiocarboxylic 
+acid (PDTC) (VF0938) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas stutzeri KC]
+Length=391
+
+ Score = 44.3 bits (103),  Expect = 2e-06, Method: Composition-based stats.
+ Identities = 28/93 (30%), Positives = 47/93 (51%), Gaps = 3/93 (3%)
+
+Query  7    ITVEEAYQKLHQG-AAVLVDIRDPQSYAMGHAPQAFHLTND-TLGAFMRE-HGFDTAVMV  63
+            I+V E  +++ Q    VL+D+R+P  + +   P A  +T   T    +RE +G D  +++
+Sbjct  288  ISVTELKKRMDQDEVPVLIDVREPTEWDIVRIPGAILVTKSPTAAQTLRERYGADANLVI  347
+
+Query  64   MCYHGNSSKGAAQYLLQQGYDAVYSIDGGFEAW  96
+            +C  G  S      LL  G   V +++GG  AW
+Sbjct  348  VCKSGRRSADVTAELLNLGMRNVRNLEGGVLAW  380
+
+
+>VFG044378(gb|AAL65285) (qbsC) QbsC [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=387
+
+ Score = 43.5 bits (101),  Expect = 5e-06, Method: Composition-based stats.
+ Identities = 25/84 (30%), Positives = 42/84 (50%), Gaps = 2/84 (2%)
+
+Query  15   KLHQGAAVLVDIRDPQSYAMGHAPQAFHLTNDTL--GAFMREHGFDTAVMVMCYHGNSSK  72
+            +L +    L+D+R+   + + H PQA  +    +  GA   +   D  ++V C  G+ S+
+Sbjct  293  RLSKQPLQLIDVREKNEWDILHIPQAQLIPMQQMLSGAHTAQLSPDAEIVVYCKAGSRSR  352
+
+Query  73   GAAQYLLQQGYDAVYSIDGGFEAW  96
+               Q L +QG   V S++GG  AW
+Sbjct  353  TVVQALAEQGLRNVRSLEGGVLAW  376
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.135    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 333473610
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

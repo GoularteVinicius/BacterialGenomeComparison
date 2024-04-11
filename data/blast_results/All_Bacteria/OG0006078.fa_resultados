@@ -1,0 +1,157 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1491.t1
+
+Length=714
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015298(gb|WP_011267840) (hopL1) putative virulence factor [P. ...  136     4e-33
+VFG015297(gb|WP_005771455) (hopL1) putative virulence factor [P. ...  134     2e-32
+
+
+>VFG015298(gb|WP_011267840) (hopL1) putative virulence factor 
+[P. syringae TTSS effectors (VF0911) - Effector delivery system 
+(VFC0086)] [Pseudomonas syringae pv. syringae B728a]
+Length=899
+
+ Score = 136 bits (343),  Expect = 4e-33, Method: Compositional matrix adjust.
+ Identities = 116/450 (26%), Positives = 197/450 (44%), Gaps = 43/450 (10%)
+
+Query  12   IEWVNNTRRYATRLDDEADALLAQLTLAAADESALNAACASHGCVGLYGYAQSAKAHLLT  71
+            ++WV +       +  +ADAL   L  A     +L     +   +G +G +Q+ K++L++
+Sbjct  26   LDWVADVAEKVEEVAIKADALSRDLHRARNLSRSLGRVSTTPMGIGFFGLSQAGKSYLIS  85
+
+Query  72   TLCGNENGKLEIITPDRDYDYFSHINP---GHAPANMAIRFTRDIF-SNESGWPLRLRLI  127
+             L  +E G+L      R  D+  H+NP   G     +  RFTR    S +  +P+ LRL 
+Sbjct  86   ALAADEKGQLLTRLGTRQLDFIKHVNPVGGGKEATGLVTRFTRTAAPSLDPQFPVELRLF  145
+
+Query  128  SEAELVQIFI-AWTSSSPVCR---QVEKSIITSRLEKWQSLRQPQPVPGVTAEEVATIAS  183
+             E E+  I   AW       R   QV  + I + L+++       P PGV++++V  +  
+Sbjct  146  REVEIAIILANAWFEDFDHQRLNSQVTDAQIDALLQRFDGQSAAAPTPGVSSDDVVLLWD  205
+
+Query  184  FWRSCLPSARQHIDDATWQHFASLLPALDLTTRAHAWALLWGEQPEITQQWLALAHMLQQ  243
+            +      +A + ++   W     L P L +  RA  +  LWG   ++T+ +  LA  L +
+Sbjct  206  YLEHHYANAMRPLNARYWPCVIKLAPRLSVRERAQLFEPLWGGIGKMTETYEQLASALHR  265
+
+Query  244  TGHAGELAAPLSLLVDHFG--LPAENFLTQMALTA---NDTQSDVVVHPVKEGRLLNAVS  298
+             G A  + AP+S LV      L   N +  + + +       S + V P  EG L +AVS
+Sbjct  266  LGLAETVFAPISALVTERDGQLVQSNSIINVDILSRLGGSADSPIEVRPAHEGTLRSAVS  325
+
+Query  299  LSLDSLALLTRELVLSVENN----VLDNVDLLDIP---------------------VAPD  333
+            ++   LA LT EL+  ++N     ++++VDLLD P                      A +
+Sbjct  326  VNRAELAALTNELIFRLDNEPANAIVNSVDLLDFPGYRSRQKLMSINEASEVDSNGTANN  385
+
+Query  334  SHPHPLWRAKLGWMLAHYRQQVQPDVLVICNALASRSQTSTAAHHLLEWVNATQP----Q  389
+                 L R K+ ++   Y  + + + LV+C +   +S+  +    L  W++ TQ     Q
+Sbjct  386  PVARLLLRGKVAYLFERYTNEQEMNALVMCTSTFKQSEVVSVGPVLKSWIDKTQGTSPQQ  445
+
+Query  390  HESALPGVVWAITPQDARFATQQNLDEAVQ  419
+             +    G++WA+T  D       N  E VQ
+Sbjct  446  RDGRASGLIWALTMCDGFIGGALN-GETVQ  474
+
+
+ Score = 50.1 bits (118),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 43/191 (23%), Positives = 74/191 (39%), Gaps = 18/191 (9%)
+
+Query  530  LFNDAIDLFADEPTRASA-------SEGHETGYQAHKMWINHLRQWAHCRDNAQRLGLEP  582
+            +F +AI   A   T A+A       S  H     A  +W  HLR  +  +     L L  
+Sbjct  692  IFGEAIAATATVETPAAAAVAPQYQSHEHRFARAAFDLWATHLRNLSRRQHLLDLLELPA  751
+
+Query  583  QMLNAVAEILITASYRLGLPQQLQKTMQREEVSGAQLHAII-----------GNFIAWLG  631
+            + +  + + L+  + RL LP QL   + +   SG +   ++            +F AW G
+Sbjct  752  EAIALLVKELVVCAERLDLPLQLSNALLKRAQSGVRRENLVQRQVLTAQLLLNDFAAWFG  811
+
+Query  632  YANIEEAQRPASRVQKGAAIFAATPRSTMLRLTKLDEQPVHAASRYVYDWLVALYTLANE  691
+            +      QRP   +     +FA   +    R   L  Q    +  +  DW+  +     +
+Sbjct  812  HTAQPAGQRPTGLLGAKQPLFAFYQKEMPGRFPHLAAQADDQSVIFADDWISGIAIHTQK  871
+
+Query  692  NAGYRHPQDVT  702
+            N G+R  +++T
+Sbjct  872  NVGHRKGKEIT  882
+
+
+>VFG015297(gb|WP_005771455) (hopL1) putative virulence factor 
+[P. syringae TTSS effectors (VF0911) - Effector delivery system 
+(VFC0086)] [Pseudomonas syringae pv. tomato str. DC3000]
+Length=899
+
+ Score = 134 bits (337),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 115/450 (26%), Positives = 198/450 (44%), Gaps = 43/450 (10%)
+
+Query  12   IEWVNNTRRYATRLDDEADALLAQLTLAAADESALNAACASHGCVGLYGYAQSAKAHLLT  71
+            ++WV +       +  +ADAL   L  A     +L     +   +G +G +Q+ K++L++
+Sbjct  26   LDWVADVAEKVEEIATKADALSRDLHRARNLSRSLGRVSTTPMGIGFFGLSQAGKSYLIS  85
+
+Query  72   TLCGNENGKLEIITPDRDYDYFSHINP---GHAPANMAIRFTRDIF-SNESGWPLRLRLI  127
+             L  +E G+L      +  D+  H+NP   G     +  RFTR    S +  +P+ LRL 
+Sbjct  86   ALAADEKGQLLTRLGTQQLDFIKHVNPVGGGKEATGLVTRFTRTAAPSLDPHFPVELRLF  145
+
+Query  128  SEAELVQIFI-AWTSSSPVCR---QVEKSIITSRLEKWQSLRQPQPVPGVTAEEVATIAS  183
+             E E+  I   AW       R   QV  + I + L++++      P PGV++++V  +  
+Sbjct  146  REVEIAIILANAWFEDFDHQRLNSQVTDAQIDALLQRFEGQLAAAPTPGVSSDDVVLLWD  205
+
+Query  184  FWRSCLPSARQHIDDATWQHFASLLPALDLTTRAHAWALLWGEQPEITQQWLALAHMLQQ  243
+            +      +A + ++   W     L P L    RA  +  LWG   ++T+ +  LA  L +
+Sbjct  206  YLEHHYANAMRPLNARYWPCVVKLAPRLSARERAQLFEPLWGGIGKMTETYEQLASALHR  265
+
+Query  244  TGHAGELAAPLSLLV---DHFGLPAENFLTQMALT--ANDTQSDVVVHPVKEGRLLNAVS  298
+             G A  + AP+S LV   D   + +++ +    L+       S + V P  EG L  AVS
+Sbjct  266  LGLAETVFAPISALVTERDGQLVQSKSIINVDILSRLGGSADSAIEVRPASEGTLRPAVS  325
+
+Query  299  LSLDSLALLTRELVLSVENN----VLDNVDLLDIP---------------------VAPD  333
+            ++   LA LT EL+  ++N     ++++VDLLD P                      A +
+Sbjct  326  VNRAELAALTNELIFRLDNEPANAIVNSVDLLDFPGYRSRQKLMSINEASEVDSNGTANN  385
+
+Query  334  SHPHPLWRAKLGWMLAHYRQQVQPDVLVICNALASRSQTSTAAHHLLEWVNATQP----Q  389
+                 L R K+ ++   Y  + + + LV+C +   +S+  +    L  W++ TQ     Q
+Sbjct  386  PVARLLLRGKVAYLFERYTNEQEMNALVMCTSTFKQSEVVSVGPVLKSWIDKTQGTSPQQ  445
+
+Query  390  HESALPGVVWAITPQDARFATQQNLDEAVQ  419
+             +    G++WA+T  D       N  E VQ
+Sbjct  446  RDGRASGLIWALTMCDGFIGGALN-GEVVQ  474
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.131    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6254715563
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

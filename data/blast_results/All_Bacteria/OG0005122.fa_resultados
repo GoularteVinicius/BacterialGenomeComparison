@@ -1,0 +1,113 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2716.t1
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG007089(gb|WP_011262830) (epsG) type II secretion system major ...  44.3    3e-06
+VFG012902(gb|WP_001087283) (gspG) general secretion pathway prote...  43.9    4e-06
+VFG020155(gb|WP_001087282) (gspG) general secretion pathway prote...  43.5    5e-06
+VFG040952(gb|WP_001087295) (gspG) type II secretion system major ...  43.1    7e-06
+
+
+>VFG007089(gb|WP_011262830) (epsG) type II secretion system major 
+pseudopilin GspG [Eps T2SS (VF0613) - Effector delivery 
+system (VFC0086)] [Vibrio fischeri ES114]
+Length=150
+
+ Score = 44.3 bits (103),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 29/97 (30%), Positives = 47/97 (48%), Gaps = 8/97 (8%)
+
+Query  12  MSVTRPNVDQAAFTLLELLVVLVIVGAIAAVALPGLVRMQETWARRTALDDL--------  63
+           M V      Q  FTLLE++VV+VI+G +A++ +P L+  +E   ++ A+ D+        
+Sbjct  1   MQVNSAQRKQGGFTLLEVMVVIVILGVLASLVVPNLLGNKEKADQQKAITDIVALENSLD  60
+
+Query  64  FNQLQTLGYRVRSDGRELLIDESGAVPEQLLRLPDGW  100
+             +L    Y     G E L+ +  A PE      DG+
+Sbjct  61  MYKLDNSVYPTTDQGLEALVSKPTATPEPRNYRADGY  97
+
+
+>VFG012902(gb|WP_001087283) (gspG) general secretion pathway protein 
+G [T2SS (VF0333) - Effector delivery system (VFC0086)] 
+[Shigella boydii Sb227]
+Length=151
+
+ Score = 43.9 bits (102),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 20/51 (39%), Positives = 37/51 (73%), Gaps = 0/51 (0%)
+
+Query  13  SVTRPNVDQAAFTLLELLVVLVIVGAIAAVALPGLVRMQETWARRTALDDL  63
+           S++R +  +A FTLLE++VV+VI+G +A++ +P L+  +E   R+ A+ D+
+Sbjct  3   SLSRTHKPRAGFTLLEVMVVIVILGVLASLVVPNLLGNKEKANRQKAISDI  53
+
+
+>VFG020155(gb|WP_001087282) (gspG) general secretion pathway protein 
+G [T2SS (VF0333) - Effector delivery system (VFC0086)] 
+[Shigella boydii CDC 3083-94]
+Length=151
+
+ Score = 43.5 bits (101),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 20/51 (39%), Positives = 37/51 (73%), Gaps = 0/51 (0%)
+
+Query  13  SVTRPNVDQAAFTLLELLVVLVIVGAIAAVALPGLVRMQETWARRTALDDL  63
+           S++R +  +A FTLLE++VV+VI+G +A++ +P L+  +E   R+ A+ D+
+Sbjct  3   SLSRTHKPRAGFTLLEVMVVIVILGVLASLVVPNLLGNKEKADRQKAISDI  53
+
+
+>VFG040952(gb|WP_001087295) (gspG) type II secretion system major 
+pseudopilin GspG [Gsp (VF1177) - Effector delivery system 
+(VFC0086)] [Escherichia coli E24377A]
+Length=151
+
+ Score = 43.1 bits (100),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 20/51 (39%), Positives = 36/51 (71%), Gaps = 0/51 (0%)
+
+Query  13  SVTRPNVDQAAFTLLELLVVLVIVGAIAAVALPGLVRMQETWARRTALDDL  63
+           S++R    +A FTLLE++VV+VI+G +A++ +P L+  +E   R+ A+ D+
+Sbjct  3   SLSRTQKPRAGFTLLEVMVVIVILGVLASLVVPNLLGNKEKADRQKAISDI  53
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 592900165
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

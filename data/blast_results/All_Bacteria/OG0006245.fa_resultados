@@ -1,0 +1,207 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2134.t1
+
+Length=267
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044353(gb|WP_013317296) (DDA3937_RS07740) siderophore biosynth...  106     2e-27
+VFG044260(gb|WP_001186806) (sbnG) staphyloferrin B biosynthesis c...  105     3e-27
+VFG016159(gb|WP_024651021) (acsB) siderophore biosynthesis protei...  104     1e-26
+VFG016160(gb|WP_004662649) (acsB) siderophore biosynthesis protei...  103     2e-26
+VFG016158(gb|WP_012075848) (acsB) 4-hydroxy-2-oxovalerate aldolas...  87.4    2e-20
+
+
+>VFG044353(gb|WP_013317296) (DDA3937_RS07740) siderophore biosynthesis 
+protein SbnG [Achromobactin (VF1243) - Nutritional/Metabolic 
+factor (VFC0272)] [Dickeya dadantii 3937]
+Length=258
+
+ Score = 106 bits (264),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 81/259 (31%), Positives = 128/259 (49%), Gaps = 20/259 (8%)
+
+Query  4    LLSNPFKEGLRKGDTQIGLWLSSTTSYMAEIAATSGYDWLLIDGEHA---PNTVQDLYHQ  60
+            L +N  K  L  G    GL  S  +    E+ A +G+D+++ID EH    P TV+++   
+Sbjct  2    LRTNQLKRKLAAGTPVYGLIASIPSPVSVELIAEAGFDFVIIDTEHVLINPETVENM---  58
+
+Query  61   LQAIAPYASQPVIRPIEGSKALIKQVLDIGAQTLLIPMVDTAEQARQVVSATRYPPLGQR  120
+            ++    YA  P++R  + +   + ++LD GAQ +++PMV+  +Q R  V A  Y P G+R
+Sbjct  59   IRVAESYALTPLVRVADANPKTMLRLLDGGAQGIVLPMVEQVDQVRAAVRACHYHPQGER  118
+
+Query  121  GVGASVARAARWGR--IDNYMAQANESLCLLVQVESKVALENLDAILEVEGIDGVFIGPA  178
+             + +   R   +G+  +  Y+A AN  + L+  +ES   +   DAI  V G+D +  G A
+Sbjct  119  SLNSG--RPGAFGKHSLAEYVALANREIMLVAMIESAEGVRQADAIAGVAGLDMILEGAA  176
+
+Query  179  DLSASLGYPDNAGHPEVQRIIEACIYRIRAAGKAAG--FLAVDPAMAQKCLAW---GANF  233
+            DLS SLG P     P VQ    A +  +R A  A G  + A+ P        W   G + 
+Sbjct  177  DLSQSLGMPWQTAAPPVQ----AALAEVRRAADAHGVTYCAI-PRQHDDHARWREQGVHA  231
+
+Query  234  VAVGVDTMLYTEALDSRLA  252
+              +G +  +   AL +RLA
+Sbjct  232  FVLGDERGIAFRALQARLA  250
+
+
+>VFG044260(gb|WP_001186806) (sbnG) staphyloferrin B biosynthesis 
+citrate synthase SbnG [Staphyloferrin B (VF1014) - Nutritional/Metabolic 
+factor (VFC0272)] [Staphylococcus aureus subsp. 
+aureus str. Newman]
+Length=258
+
+ Score = 105 bits (263),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 83/265 (31%), Positives = 129/265 (49%), Gaps = 23/265 (9%)
+
+Query  9    FKEGLRKGDTQIGLWLSSTTSYMAEIAATSGYDWLLIDGEHAPNTVQDLYHQLQAIAPYA  68
+             K  L  GD+  G++ S     M E+ A SGYD+++ID EH     + L H ++A     
+Sbjct  6    LKHRLNNGDSVYGIFNSIPDPLMIEVIAASGYDFVVIDTEHVAINDETLAHLIRAAEAAH  65
+
+Query  69   SQPVIRPIEGSKALIKQVLDIGAQTLLIPMVDTAEQARQVVSATRYPPLGQRGVGASVAR  128
+              P++R        I +VLD+GA+ +++P V   E    +V  +RY P G R +     R
+Sbjct  66   IIPIVRVTAVIDRDIIKVLDMGARGIIVPHVKDRETVEHIVKLSRYYPQGLRSLNG--GR  123
+
+Query  129  AARWGR--IDNYMAQANESLCLLVQVESKVALENLDAILEVEGIDGVFIGPADLSASLGY  186
+             AR+GR  + + M  ANE + ++  +E    +  +D I +VEG+D +  G ADLS SLG 
+Sbjct  124  MARFGRTPLLDAMEMANEHIMVIAMIEDVEGVMAIDDIAQVEGLDMIVEGAADLSQSLGI  183
+
+Query  187  P----DNAGHPEVQRIIEACIYRIRAAGKAAGFLAVDPAMAQKCLAWGANFVAVGVDTML  242
+            P    D+     VQ I E     + A GK   F A+ P   +    W A     GV T +
+Sbjct  184  PWQTRDDQVTSHVQHIFEV----VNAHGKH--FCAL-PREDEDIAKWQAQ----GVQTFI  232
+
+Query  243  YTEALDSRLAMFKSVQ-SVSTAKRS  266
+                 D R  +++ +  S++T+K+ 
+Sbjct  233  LG---DDRGKIYRHLSASLATSKQK  254
+
+
+>VFG016159(gb|WP_024651021) (acsB) siderophore biosynthesis protein 
+SbnG [Achromobactin biosynthesis and transport (VF0922) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas syringae 
+pv. syringae B728a]
+Length=257
+
+ Score = 104 bits (259),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 75/258 (29%), Positives = 128/258 (50%), Gaps = 10/258 (4%)
+
+Query  4    LLSNPFKEGLRKGDTQIGLWLSSTTSYMAEIAATSGYDWLLIDGEHA---PNTVQDLYHQ  60
+            L +N  K  +  G    G+  S       E+ A +G+D+++ID EH    P TV+++   
+Sbjct  2    LRTNTLKSRIADGQPAHGVISSIPAPAAIELIAEAGFDFVIIDMEHVLINPETVENM---  58
+
+Query  61   LQAIAPYASQPVIRPIEGSKALIKQVLDIGAQTLLIPMVDTAEQARQVVSATRYPPLGQR  120
+            ++    Y   P++R  + +   + ++LD GAQ +++PM+++ EQ    ++A +Y PLG+R
+Sbjct  59   IRVAESYDLTPLVRVADLNPKTLLRLLDGGAQGIVLPMIESPEQLADAIAACKYHPLGRR  118
+
+Query  121  GVGASVARAARWGR--IDNYMAQANESLCLLVQVESKVALENLDAILEVEGIDGVFIGPA  178
+             + A   R   +G+  +  Y+  AN+ + ++  +ES   +     I  V G+D +  G A
+Sbjct  119  SLNAG--RPGSFGKHSLAQYVEAANQQIMVVAMIESAEGVRRAAEIASVPGLDMILEGAA  176
+
+Query  179  DLSASLGYPDNAGHPEVQRIIEACIYRIRAAGKAAGFLAVDPAMAQKCLAWGANFVAVGV  238
+            DLS SLG P     P+VQ  + A      AAG A   +   P  A +  A G N   +G 
+Sbjct  177  DLSQSLGMPWQIDQPDVQNALLATWQAAHAAGVAYCAIPRQPGDAARWQARGVNTFVLGD  236
+
+Query  239  DTMLYTEALDSRLAMFKS  256
+            +  +   AL +RLA   +
+Sbjct  237  ERGIAFRALQARLAQHSA  254
+
+
+>VFG016160(gb|WP_004662649) (acsB) siderophore biosynthesis protein 
+SbnG [Achromobactin biosynthesis and transport (VF0922) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+Length=257
+
+ Score = 103 bits (257),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 76/254 (30%), Positives = 128/254 (50%), Gaps = 10/254 (4%)
+
+Query  4    LLSNPFKEGLRKGDTQIGLWLSSTTSYMAEIAATSGYDWLLIDGEHA---PNTVQDLYHQ  60
+            L +N  K  L  G    GL  S       E+ A +G+D+++ID EH    P TV+++   
+Sbjct  2    LRTNTLKSRLGSGQPVYGLISSIPAPAAIELIAEAGFDFVIIDMEHVLINPETVENM---  58
+
+Query  61   LQAIAPYASQPVIRPIEGSKALIKQVLDIGAQTLLIPMVDTAEQARQVVSATRYPPLGQR  120
+            ++    YA  P++R  + +   + ++LD GAQ +++PM+++ EQ    ++A +Y PLG+R
+Sbjct  59   IRVAESYALTPLVRVADLNPKTLLRLLDGGAQGIVLPMIESPEQLADAIAACKYHPLGRR  118
+
+Query  121  GVGASVARAARWGR--IDNYMAQANESLCLLVQVESKVALENLDAILEVEGIDGVFIGPA  178
+             + A   R   +G+  +  Y+  AN+ + ++  +ES   +     I  V G+D +  G A
+Sbjct  119  SLNA--GRPGSFGKHSLAQYVEAANQQIMVVAMIESAEGVRRAAEIARVPGLDMILEGAA  176
+
+Query  179  DLSASLGYPDNAGHPEVQRIIEACIYRIRAAGKAAGFLAVDPAMAQKCLAWGANFVAVGV  238
+            DLS SLG P     P+VQ+ + A     +AA  A   +      A +  A G N   +G 
+Sbjct  177  DLSQSLGMPWQIDQPDVQQALLATWQATKAADVAYCTIPRKDGDAARWQARGVNAFVLGD  236
+
+Query  239  DTMLYTEALDSRLA  252
+            +  +   AL +RLA
+Sbjct  237  ERGIAFRALQARLA  250
+
+
+>VFG016158(gb|WP_012075848) (acsB) 4-hydroxy-2-oxovalerate aldolase 
+[Achromobactin biosynthesis and transport (VF0922) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas aeruginosa 
+PA7]
+Length=256
+
+ Score = 87.4 bits (215),  Expect = 2e-20, Method: Compositional matrix adjust.
+ Identities = 74/257 (29%), Positives = 120/257 (47%), Gaps = 12/257 (5%)
+
+Query  7    NPFKEGLRKGDTQIGLWLSSTTSYMAEIAATSGYDWLLIDGEHAPNTVQDLYHQLQAIAP  66
+            +P +  L  G+   GL  S  +  + E+ A +GY ++++D EH   +  DL H L+A   
+Sbjct  5    SPVQARLNDGECVYGLLNSVPSPLLCEMIALAGYHFVILDMEHLLRSGDDLMHCLRACES  64
+
+Query  67   YASQPVIRPIEGSKALIKQVLDIGAQTLLIPMVDTAEQARQVVSATRYPPLGQRGVGASV  126
+                P +R  E    LI + LD G + +++P V++A +  + + A  +PPLG+RG+  + 
+Sbjct  65   AGISPWLRIPEVDAKLIGRALDAGVEAIVLPRVESAAEVARAIEAAFFPPLGRRGI--TG  122
+
+Query  127  ARAARWGRID--NYMAQANESLCLLVQVESKVALENLDAILEVEGIDGVFIGPADLSASL  184
+             R   +GR+   +Y+  +N +  ++  +ES   L  L  IL++ G+  +  G  DL+  L
+Sbjct  123  GRVTGFGRLSLADYIELSNRARPIVPMIESAAGLRALPEILQLPGVGMLLEGALDLALDL  182
+
+Query  185  GYPDNAGHPEV----QRIIEACIYRIRAAGKAAGFLAVDPAMAQKCLAWGANFVAVGVDT  240
+            G      HP V    Q + EAC    RA G         P   +   A G      G D 
+Sbjct  183  GLGPEPLHPRVWQALQEMAEAC----RATGVPFCANPRTPEQRRHWQAAGIRAFLAGEDR  238
+
+Query  241  MLYTEALDSRLAMFKSV  257
+             L   AL +RL   +S 
+Sbjct  239  GLLQAALKNRLGELQST  255
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1783988843
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

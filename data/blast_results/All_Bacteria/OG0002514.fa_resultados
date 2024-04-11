@@ -1,0 +1,90 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g633.t1
+
+Length=114
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 328436850
+
+
+Query= g3917.t1
+
+Length=105
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG041571(gb|WP_012905236) (ROD_RS04625) phage tail assembly prot...  100     6e-29
+
+
+>VFG041571(gb|WP_012905236) (ROD_RS04625) phage tail assembly 
+protein [T3SS (VF1262) - Effector delivery system (VFC0086)] 
+[Citrobacter rodentium ICC168]
+Length=113
+
+ Score = 100 bits (249),  Expect = 6e-29, Method: Compositional matrix adjust.
+ Identities = 48/102 (47%), Positives = 65/102 (64%), Gaps = 0/102 (0%)
+
+Query  3    EKYTLQFPFTSAAGERIDVLQLRRLKVKDMRAARRASDKPEEWDEPLMAAMTGLVTEDLA  62
+            E +TL++PFT+AAG  I  L L RL VKD++  ++    P +WDEPL++  TGL+ EDL 
+Sbjct  9    EIFTLKYPFTTAAGNSIAQLTLNRLTVKDLKQIKKTHKNPTDWDEPLISRSTGLLPEDLD  68
+
+Query  63   EMDLLDYQALQKRFQSMLSMATEPTATVAGNGAAGEVVSLSA  104
+             MDL DY  LQ RFQ +  +  +  +   G GAAGEVV + A
+Sbjct  69   NMDLADYLELQDRFQKITGLGKKHDSADKGAGAAGEVVPVPA  110
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.127    0.343    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 335991990
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,161 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1495.t1
+
+Length=109
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011158(gb|WP_012415798) (bplF) lipopolysaccharide biosynthesis...  56.2    2e-10
+VFG000036(gb|WP_010929614) (bplC) lipopolysaccharide biosynthesis...  55.8    2e-10
+VFG011167(gb|WP_003807112) (bplC) lipopolysaccharide biosynthesis...  55.5    3e-10
+VFG011156(gb|WP_010927317) (bplF) lipopolysaccharide biosynthesis...  52.0    4e-09
+VFG011157(gb|WP_003807107) (bplF) lipopolysaccharide biosynthesis...  52.0    5e-09
+VFG000033(gb|WP_010929611) (bplF) lipopolysaccharide biosynthesis...  49.3    5e-08
+
+
+>VFG011158(gb|WP_012415798) (bplF) lipopolysaccharide biosynthesis 
+protein [LPS (VF0033) - Immune modulation (VFC0258)] [Bordetella 
+avium 197N]
+Length=392
+
+ Score = 56.2 bits (134),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 30/91 (33%), Positives = 48/91 (53%), Gaps = 3/91 (3%)
+
+Query  18   HNAHMYYVLLAPSAD--REEVLARLTSEGIGAVFHYVPLHDSPAGR-RYGRTNGNLTVTN  74
+            H+ H+Y + L P A   R++ +A ++  GIG   HYVPLH  P  R RY         + 
+Sbjct  300  HSWHLYVLRLTPDAPCARDDFIAGMSERGIGCSVHYVPLHLQPYWRDRYSLRADMFPASQ  359
+
+Query  75   DVASRLIRLPMWVGLQEVDQSRVVEALTRIL  105
+                R++ LP++  + + D  RV+EA+  +L
+Sbjct  360  TTYERMVSLPIYSKMNDADVDRVIEAVRSLL  390
+
+
+>VFG000036(gb|WP_010929614) (bplC) lipopolysaccharide biosynthesis 
+protein [LPS (VF0033) - Immune modulation (VFC0258)] [Bordetella 
+pertussis Tohama I]
+Length=366
+
+ Score = 55.8 bits (133),  Expect = 2e-10, Method: Composition-based stats.
+ Identities = 30/83 (36%), Positives = 47/83 (57%), Gaps = 3/83 (4%)
+
+Query  24   YVLLAPSADREEVLARLTSEGIGAVFHYV-PLHDSPAGRRYGRTNGNLTVTNDVASRLIR  82
+            + ++ P  +RE V+A+L   GI    HY  P+H  PA  +Y    G   V++D+A+R++ 
+Sbjct  285  FTVMVP--NREAVIAQLKEAGIPTAVHYPRPIHAQPAYEQYAEGAGATPVSDDLAARVMS  342
+
+Query  83   LPMWVGLQEVDQSRVVEALTRIL  105
+            LPM   L E  Q ++V AL + L
+Sbjct  343  LPMHPDLDEATQDKIVAALRQAL  365
+
+
+>VFG011167(gb|WP_003807112) (bplC) lipopolysaccharide biosynthesis 
+protein [LPS (VF0033) - Immune modulation (VFC0258)] [Bordetella 
+parapertussis 12822]
+Length=366
+
+ Score = 55.5 bits (132),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 30/83 (36%), Positives = 47/83 (57%), Gaps = 3/83 (4%)
+
+Query  24   YVLLAPSADREEVLARLTSEGIGAVFHYV-PLHDSPAGRRYGRTNGNLTVTNDVASRLIR  82
+            + ++ P  +RE V+A+L   GI    HY  P+H  PA  +Y    G   V++D+A+R++ 
+Sbjct  285  FTVMVP--NREAVIAQLKEAGIPTAVHYPRPIHAQPAYEQYAEGAGATPVSDDLAARVMS  342
+
+Query  83   LPMWVGLQEVDQSRVVEALTRIL  105
+            LPM   L E  Q ++V AL + L
+Sbjct  343  LPMHPDLDEATQDKIVAALRQAL  365
+
+
+>VFG011156(gb|WP_010927317) (bplF) lipopolysaccharide biosynthesis 
+protein [LPS (VF0033) - Immune modulation (VFC0258)] [Bordetella 
+parapertussis 12822]
+Length=410
+
+ Score = 52.0 bits (123),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 29/91 (32%), Positives = 48/91 (53%), Gaps = 3/91 (3%)
+
+Query  18   HNAHMYYVLLAPSA--DREEVLARLTSEGIGAVFHYVPLHDSPAGR-RYGRTNGNLTVTN  74
+            H+ H+Y + + P A   R++ + R+T  GIG   HYVPLH  P  R RYG T      + 
+Sbjct  318  HSWHLYAIRIHPQAPLKRDDFIVRMTENGIGCSVHYVPLHLQPYWRDRYGLTPDMYPHSQ  377
+
+Query  75   DVASRLIRLPMWVGLQEVDQSRVVEALTRIL  105
+                 +  LP++  + + D  RV+ ++ ++L
+Sbjct  378  AAFEGMASLPIYSRMTDADVQRVIASVRQLL  408
+
+
+>VFG011157(gb|WP_003807107) (bplF) lipopolysaccharide biosynthesis 
+protein [LPS (VF0033) - Immune modulation (VFC0258)] [Bordetella 
+bronchiseptica RB50]
+Length=410
+
+ Score = 52.0 bits (123),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 29/91 (32%), Positives = 48/91 (53%), Gaps = 3/91 (3%)
+
+Query  18   HNAHMYYVLLAPSA--DREEVLARLTSEGIGAVFHYVPLHDSPAGR-RYGRTNGNLTVTN  74
+            H+ H+Y + + P A   R++ + R+T  GIG   HYVPLH  P  R RYG T      + 
+Sbjct  318  HSWHLYAIRIHPQAPLKRDDFIVRMTENGIGCSVHYVPLHLQPYWRDRYGLTPDMYPHSQ  377
+
+Query  75   DVASRLIRLPMWVGLQEVDQSRVVEALTRIL  105
+                 +  LP++  + + D  RV+ ++ ++L
+Sbjct  378  AAFEGMASLPIYSRMTDADVQRVIASVRQLL  408
+
+
+>VFG000033(gb|WP_010929611) (bplF) lipopolysaccharide biosynthesis 
+protein [LPS (VF0033) - Immune modulation (VFC0258)] [Bordetella 
+pertussis Tohama I]
+Length=410
+
+ Score = 49.3 bits (116),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 28/91 (31%), Positives = 47/91 (52%), Gaps = 3/91 (3%)
+
+Query  18   HNAHMYYVLLAPSA--DREEVLARLTSEGIGAVFHYVPLHDSPAGR-RYGRTNGNLTVTN  74
+            H+ H+Y + + P A    ++ + R+T  GIG   HYVPLH  P  R RYG T      + 
+Sbjct  318  HSWHLYAIRIHPQAPLKCDDFIVRMTENGIGCSVHYVPLHLQPYWRDRYGLTPDMYPHSQ  377
+
+Query  75   DVASRLIRLPMWVGLQEVDQSRVVEALTRIL  105
+                 +  LP++  + + D  RV+ ++ ++L
+Sbjct  378  AAFEGMASLPIYSRMTDADVQRVIASVRQLL  408
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 332634150
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

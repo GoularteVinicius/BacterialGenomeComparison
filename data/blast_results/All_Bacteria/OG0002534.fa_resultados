@@ -1,0 +1,149 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g864.t1
+
+Length=389
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG041881(gb|WP_011136139) (CV_RS12685) lytic polysaccharide mono...  329     1e-110
+VFG043577(gb|WP_000744635) (gbpA) N-acetylglucosamine-binding pro...  88.6    4e-19 
+
+
+>VFG041881(gb|WP_011136139) (CV_RS12685) lytic polysaccharide 
+monooxygenase [Cpi-2 encoded T3SS (SPI-2 like) (VF1260) - Effector 
+delivery system (VFC0086)] [Chromobacterium violaceum 
+ATCC 12472]
+Length=386
+
+ Score = 329 bits (843),  Expect = 1e-110, Method: Compositional matrix adjust.
+ Identities = 170/367 (46%), Positives = 234/367 (64%), Gaps = 23/367 (6%)
+
+Query  8    LALLPLTLALFL---PQAAHAHGSMETPPSRVYGCFLEGPENPKSAACKAAVAAGGTQAL  64
+            LA +P  + + L     A+ AHG+ME P +RVY C+ EG E+PK+ AC+ A   GGTQA+
+Sbjct  3    LAFMPAGIGIALAGLSGASWAHGTMEVPVNRVYSCYQEGAESPKTPACQEAKRVGGTQAM  62
+
+Query  65   YDWNGVNQGNANGNHQAVVPDGQLCGAGKALFKGLNLARSDWPSTAIAPDASGNFQFVYK  124
+            YDWNG+NQ     NHQAVVPDG LC AG++ FKG NLAR+DWP+T I P+ASGNF+F+YK
+Sbjct  63   YDWNGINQNPPGDNHQAVVPDGMLCAAGQSKFKGFNLARTDWPATNIVPNASGNFEFIYK  122
+
+Query  125  ASAPHATRYFDFYITKDGYNPEKPLAWSDLEPAPFCSITSVKLENGTYRMNCPLPQGKTG  184
+            A APHAT+YF FY+TK+G+NP +PL WSDLE     +       +  Y M   LP GKTG
+Sbjct  123  APAPHATKYFRFYVTKNGWNPSQPLKWSDLELFGTYNGNPPLDASQRYHMTMKLPTGKTG  182
+
+Query  185  KHVIYNVWQRSDSPEAFYACIDVSFSGA--------VANPWQALGNLRAQQDLPAGATVT  236
+            +H+IYNVW+RSDS EAFY+C DV+F           ++NPW+ +G++ A ++LP  ++VT
+Sbjct  183  RHIIYNVWKRSDSEEAFYSCSDVNFGNGGPQPEPPPISNPWKEVGSVTAHENLPNKSSVT  242
+
+Query  237  LRLFDAQGRDAQRHSLTLAQGANGAKQWPLALAQKVNQDSTLVNIGVLDAYG---AVSPV  293
+            LR+FD  GRD + H + L+     A  WP  L  KVN  S +  IGV+ +      ++PV
+Sbjct  243  LRIFDGSGRDVESHKVDLSATTGQAANWPYELGVKVNASSQIGRIGVISSKQRTVTINPV  302
+
+Query  294  ASSQDNQVYV--RQAGYRFQVDIELPVEGGGEQPGGDGKVDFDYPQGLQQYDAGTVVRGA  351
+             S+  N+V++  R +GYR+Q+DI+   +G    P GD      + +G+  Y  G VV   
+Sbjct  303  RSATANRVWLNERYSGYRYQIDIKKGDDGVTPPPAGDA-----WREGV-AYAVGQVV-SY  355
+
+Query  352  DGKRYQC  358
+              +RY+C
+Sbjct  356  QNRRYRC  362
+
+
+>VFG043577(gb|WP_000744635) (gbpA) N-acetylglucosamine-binding 
+protein GbpA [GbpA (VF0619) - Adherence (VFC0001)] [Vibrio 
+cholerae O1 biovar El Tor str. N16961]
+Length=485
+
+ Score = 88.6 bits (218),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 66/212 (31%), Positives = 100/212 (47%), Gaps = 9/212 (4%)
+
+Query  113  PDASGNFQFVYKASAPHATRYFDFYITKDGYNPEKPLAWSDLEPAPFCSITSVKLE-NGT  171
+            P  +G   F +  +A H T+ + +YITK  +NP +PL+    +  PFC +    ++    
+Sbjct  105  PIQAGPQTFEWTFTANHVTKDWKYYITKPNWNPNQPLSRDAFDLNPFCVVEGNMVQPPKR  164
+
+Query  172  YRMNCPLPQGKTGKHVIYNVWQRSDSPEAFYACIDVSF--SGAVANPWQALGNLRAQQDL  229
+                C +P+ + G  VI  VW   D+  +FY  IDV F  +G V   W   G +    DL
+Sbjct  165  VSHECIVPE-REGYQVILAVWDVGDTAASFYNVIDVKFDGNGPVLPDWNPAGQIIPSMDL  223
+
+Query  230  PAGATVTLRLFDAQGRD-AQRHSLTL-AQGANGAKQWPLALAQKVNQDSTLVNIGVLDAY  287
+              G TV  R+FD  G + A R  L + ++    A QW  ALA K+NQ       G L+  
+Sbjct  224  SIGDTVYTRVFDNDGENPAYRTELKIDSETLTKANQWSYALATKINQTQKQQRAGQLNGD  283
+
+Query  288  GAVSPVASSQDNQVYVRQAGYRFQVDIELPVE  319
+              V PV  +  N +Y+++      V+I   +E
+Sbjct  284  QFV-PVYGT--NPIYLKEGSGLKSVEIGYQIE  312
+
+
+ Score = 64.3 bits (155),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 31/67 (46%), Positives = 40/67 (60%), Gaps = 3/67 (4%)
+
+Query  323  EQPGGDGKVDFDYPQGLQQYDAGTVVRGADGKRYQCKPYPNSGWCKGWD---LYYAPGKG  379
+            + P   G  DF +P GL++Y AGT V  +DG  YQCKP+P SG+C+ W      Y PG G
+Sbjct  416  QTPPTPGDYDFVFPNGLKEYVAGTKVLASDGAIYQCKPWPYSGYCQQWTSNATQYQPGTG  475
+
+Query  380  MAWQDAW  386
+              W+ AW
+Sbjct  476  SHWEMAW  482
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.134    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2997490853
+
+
+Query= g228.t1
+
+Length=587
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.132    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4969831971
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

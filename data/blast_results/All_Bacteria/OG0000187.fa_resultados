@@ -1,0 +1,785 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g239.t1
+
+Length=448
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) - ...  150     9e-41
+
+
+>VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=447
+
+ Score = 150 bits (380),  Expect = 9e-41, Method: Compositional matrix adjust.
+ Identities = 128/417 (31%), Positives = 201/417 (48%), Gaps = 29/417 (7%)
+
+Query  13   DVQAFINAQPLSPYQWRIVLLCFLIVFLDGLDTAAMGFIAPALTQDWGIDRASLGPVMSA  72
+             + A I   P+  +Q R+ LL  +I F +  D   + F  P L Q W +D   +G ++ +
+Sbjct  9    QINARIEGLPVVGWQARVRLLLGVITFFEAFDLLLISFTLPLLKQQWQLDPTQVGLIVGS  68
+
+Query  73   ALIGMVFGALGSGPLADRYGRKLVLVAAVFLFGLFSLASAYSTNVEQLLALRFLTGLGLG  132
+               GM+ GAL +G LADR GRK VL+AA+ L GLFS   A +++ + LL  R L GLG+G
+Sbjct  69   GTFGMLLGALCAGALADRVGRKPVLLAAMLLTGLFSALIACASDWQGLLVGRLLQGLGIG  128
+
+Query  133  AAMPNATTLLSEYTPERLKSLLVTSMFCGFNLGMACGGFVSAKLIPLFGWHSLLLLGGLL  192
+            A +P A   LSE    +++   V      F  G+   G      +P+ GW  L  LG  +
+Sbjct  129  AEVPIAALYLSEIITSKVRGRFVLLYELSFPCGLMFAGVACTWALPVMGWRPLYWLGS-V  187
+
+Query  193  PLVLAVVLLFRLPESARYLVVRNRGSERVRQVLAPIAPAQVALARSFHVP---------E  243
+            P+VLAV +   +PESAR+L  R     ++R+  A +A  + A   +   P          
+Sbjct  188  PMVLAVAVYLYVPESARWLAARG----QLRRAQACMAYMERASGHAVATPLLTEAPVARP  243
+
+Query  244  QQTVQARNVFAVIFSGTYSAGTL-LLWLTYFMGLVIVYLLTSWLPTLMRDS-GASLEQAA  301
+            + + + R +F  +    +++G++ LLW   F+G ++ + L  WLP+L  +    SL QA 
+Sbjct  244  RDSGRWRQLFDPVLR--HASGSVGLLW---FLGYLVNFALLIWLPSLYVEVFSTSLAQAL  298
+
+Query  302  FIGALFQFGGVLSAVAVGWAMDRFNPHKVIGLFYLLAGVFAWCVGQSLG--QVTLLATLV  359
+                     G+   +A  W +DR    +++   YL AG+    +  ++   QV L+A L 
+Sbjct  299  NFTLWSNIAGLGGCMAAAWCVDRIGRVRLLFGGYLGAGLSLLLIALTVAWQQVLLVALLA  358
+
+Query  360  LLAGMCINGAQSAMPSLAARFYPTQGRATGVSWMLGIGRFGAILGAWIGATLLGLGW  416
+                  +  A  ++       YPT  R  G +W     R GA+LGA      +G+GW
+Sbjct  359  ASCSFFLYAANMSLHLYTPELYPTLLRGKGAAWGALCNRSGALLGA------VGMGW  409
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.141    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3593601765
+
+
+Query= g1031.t1
+
+Length=451
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) - ...  82.8    6e-17
+
+
+>VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=447
+
+ Score = 82.8 bits (203),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 106/427 (25%), Positives = 174/427 (41%), Gaps = 51/427 (12%)
+
+Query  1    MNATALSPN--------PAPAISRRTMLIAFVFCFLGLLADGVDLMFLAYSLNSLKAEFG  52
+            M+ TALS          P      R  L+  V  F     +  DL+ ++++L  LK ++ 
+Sbjct  1    MSQTALSAQINARIEGLPVVGWQARVRLLLGVITFF----EAFDLLLISFTLPLLKQQWQ  56
+
+Query  53   LSNFEAGSLGSLTLAGMAVGGIYGGWCCDRFGRVRVVTWTIVLFSIGTALLGLTQNYWQF  112
+            L   + G +      GM +G +  G   DR GR  V+   ++L  + +AL+    + WQ 
+Sbjct  57   LDPTQVGLIVGSGTFGMLLGALCAGALADRVGRKPVLLAAMLLTGLFSALIACASD-WQG  115
+
+Query  113  ALI-RFVASLGLGSLFVACNILMSECVGTRYRTTILAAMQAGWTVGYLVATLLAGQIIPE  171
+             L+ R +  LG+G+      + +SE + ++ R   +   +  +  G + A +     +P 
+Sbjct  116  LLVGRLLQGLGIGAEVPIAALYLSEIITSKVRGRFVLLYELSFPCGLMFAGVACTWALPV  175
+
+Query  172  FGWRTLFFTAVAPALVCLALRPWVPESPSWLAAQAGRQRPGAAPQSHAEAGG---AGPL-  227
+             GWR L++    P ++ +A+  +VPES  WLAA+   +R  A       A G   A PL 
+Sbjct  176  MGWRPLYWLGSVPMVLAVAVYLYVPESARWLAARGQLRRAQACMAYMERASGHAVATPLL  235
+
+Query  228  -------------GRMLGDPETR----GMFLLWSLTSCFLLFGY---YGTNNWMPSYLES  267
+                          R L DP  R     + LLW L       GY   +    W+PS    
+Sbjct  236  TEAPVARPRDSGRWRQLFDPVLRHASGSVGLLWFL-------GYLVNFALLIWLPSLYVE  288
+
+Query  268  ELGMNFKSMTGYMVGTYSAMILGKVAAGVCADLFGRRLTFAAGAIGSAAFMPLIVFYHSP  327
+                +      + + +  A + G +AA  C D  GR      G +G+   + LI    + 
+Sbjct  289  VFSTSLAQALNFTLWSNIAGLGGCMAAAWCVDRIGRVRLLFGGYLGAGLSLLLIALTVAW  348
+
+Query  328  SNILWILITFG----FIYGVPVGVLATYMTESFSTRVRGSAVGTAYNLGRIGAAVAPAGI  383
+              +L + +       F+Y   +  L  Y  E + T +RG          R GA +   G+
+Sbjct  349  QQVLLVALLAASCSFFLYAANMS-LHLYTPELYPTLLRGKGAAWGALCNRSGALLGAVGM  407
+
+Query  384  G-LLATH  389
+            G +LA H
+Sbjct  408  GWVLALH  414
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.139    0.435    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3624850476
+
+
+Query= g2039.t1
+
+Length=450
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) - ...  119     2e-29
+
+
+>VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=447
+
+ Score = 119 bits (298),  Expect = 2e-29, Method: Compositional matrix adjust.
+ Identities = 120/423 (28%), Positives = 190/423 (45%), Gaps = 22/423 (5%)
+
+Query  6    ASFRAALDARPVSRYQWLLLLLLALLLVTDGYDAQVLGYVVPTLAQEWGLDKAAFGPVFS  65
+            A   A ++  PV  +Q  + LLL ++   + +D  ++ + +P L Q+W LD    G +  
+Sbjct  8    AQINARIEGLPVVGWQARVRLLLGVITFFEAFDLLLISFTLPLLKQQWQLDPTQVGLIVG  67
+
+Query  66   ANLFGLTVGSLLVTPLADRFGIRRVLLCCVLIYASLTVLMVFAGSLESLMLARFVCGIGM  125
+            +  FG+ +G+L    LADR G + VLL  +L+    + L+  A   + L++ R + G+G+
+Sbjct  68   SGTFGMLLGALCAGALADRVGRKPVLLAAMLLTGLFSALIACASDWQGLLVGRLLQGLGI  127
+
+Query  126  GGAMPSAMALMAEYSPPRLRTLMVTLAACGFSFGGAAGGFVAAAFMDGFGWQAVFLAGGV  185
+            G  +P A   ++E    ++R   V L    F  G    G      +   GW+ ++  G V
+Sbjct  128  GAEVPIAALYLSEIITSKVRGRFVLLYELSFPCGLMFAGVACTWALPVMGWRPLYWLGSV  187
+
+Query  186  TPLLLFPFLLLFLPESLP------RLLRDAPPYARLRQLSERMAPGWQPPPAEAD-AEPA  238
+             P++L   + L++PES        +L R     A + + S        P   EA  A P 
+Sbjct  188  -PMVLAVAVYLYVPESARWLAARGQLRRAQACMAYMERASGHAVA--TPLLTEAPVARPR  244
+
+Query  239  ASLTVLELF----RHGYARPTLLLWATFFVSLILLYFMVSWLPSLLQESGLTRNAANLAT  294
+             S    +LF    RH      LL +  + V+  LL     WLPSL  E   T  A  L  
+Sbjct  245  DSGRWRQLFDPVLRHASGSVGLLWFLGYLVNFALLI----WLPSLYVEVFSTSLAQALNF  300
+
+Query  295  SMFL-FAGTLGAMLLAWLADRLRSKVRLLAAILAGAALFTLLLGLNHDQPRWLLAFVFAA  353
+            +++   AG  G M  AW  DR+  +VRLL     GA L  LL+ L     + LL  + AA
+Sbjct  301  TLWSNIAGLGGCMAAAWCVDRI-GRVRLLFGGYLGAGLSLLLIALTVAWQQVLLVALLAA  359
+
+Query  354  --GFCIIGGQLTLNAFASNFYPAQVRATGTGWALGVGRFGSILGPLFGSLLLGMHISVEN  411
+               F +    ++L+ +    YP  +R  G  W     R G++LG +    +L +H     
+Sbjct  360  SCSFFLYAANMSLHLYTPELYPTLLRGKGAAWGALCNRSGALLGAVGMGWVLALHWGATA  419
+
+Query  412  IFM  414
+            IF+
+Sbjct  420  IFI  422
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.141    0.433    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3614434239
+
+
+Query= g2509.t1
+
+Length=448
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) - ...  135     5e-35
+
+
+>VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=447
+
+ Score = 135 bits (339),  Expect = 5e-35, Method: Compositional matrix adjust.
+ Identities = 127/420 (30%), Positives = 186/420 (44%), Gaps = 20/420 (5%)
+
+Query  11   DVQAFIDAQAVSAFQLRVLSLCFLIVAMDGFDTAAIGFIAPALAHDWQLSPAQLSPILGA  70
+             + A I+   V  +Q RV  L  +I   + FD   I F  P L   WQL P Q+  I+G+
+Sbjct  9    QINARIEGLPVVGWQARVRLLLGVITFFEAFDLLLISFTLPLLKQQWQLDPTQVGLIVGS  68
+
+Query  71   ALAGLALGAFAAGPLADRFGRKSVLLLSVLFFGGWSLASAYAGSVETLALLRFFTGLGLG  130
+               G+ LGA  AG LADR GRK VLL ++L  G +S   A A   + L + R   GLG+G
+Sbjct  69   GTFGMLLGALCAGALADRVGRKPVLLAAMLLTGLFSALIACASDWQGLLVGRLLQGLGIG  128
+
+Query  131  GAMPNAITLTSEYCPRRHRALMVTAMFCGFTLGSALGGLLAARMVPALGWESVLLLGGGL  190
+              +P A    SE    + R   V      F  G    G+     +P +GW  +  L G +
+Sbjct  129  AEVPIAALYLSEIITSKVRGRFVLLYELSFPCGLMFAGVACTWALPVMGWRPLYWL-GSV  187
+
+Query  191  PLASLPLLWACLPESVRFLARRAPDAARLRR------ILERLGRLPDGWAGRLELPADES  244
+            P+     ++  +PES R+LA R     +LRR       +ER            E P    
+Sbjct  188  PMVLAVAVYLYVPESARWLAAR----GQLRRAQACMAYMERASGHAVATPLLTEAPVARP  243
+
+Query  245  DGTSPLRQILGAELR---GGTLLLWATFFMGLLIIYLLTNWLPTL-IGGTGFSLGEAATI  300
+              +   RQ+    LR   G   LLW   F+G L+ + L  WLP+L +     SL +A   
+Sbjct  244  RDSGRWRQLFDPVLRHASGSVGLLW---FLGYLVNFALLIWLPSLYVEVFSTSLAQALNF  300
+
+Query  301  SAMFQLGGTLGALLLGSAMDRFDAHRVLSLAYVGGALFILGIA--SLYHSFALLALCVAG  358
+            +    + G  G +     +DR    R+L   Y+G  L +L IA    +    L+AL  A 
+Sbjct  301  TLWSNIAGLGGCMAAAWCVDRIGRVRLLFGGYLGAGLSLLLIALTVAWQQVLLVALLAAS  360
+
+Query  359  VGFCISGSQVGANALAADFYPTRSRATGVSWALGLGRIGSIVGSLSGGALLGLGLGFSGI  418
+              F +  + +  +    + YPT  R  G +W     R G+++G++  G +L L  G + I
+Sbjct  361  CSFFLYAANMSLHLYTPELYPTLLRGKGAAWGALCNRSGALLGAVGMGWVLALHWGATAI  420
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.142    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3593601765
+
+
+Query= g3537.t1
+
+Length=455
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) - ...  196     1e-57
+VFG036959(gb|WP_012222039) (farB) fatty acid efflux system protei...  60.1    1e-09
+VFG036965(gb|WP_002226030) (farB) fatty acid efflux system protei...  60.1    1e-09
+VFG036963(gb|WP_015815889) (farB) fatty acid efflux system protei...  58.9    3e-09
+VFG036956(gb|WP_002224867) (farB) fatty acid efflux system protei...  58.9    3e-09
+VFG036958(gb|WP_002247957) (farB) fatty acid efflux system protei...  58.9    3e-09
+VFG036962(gb|WP_014573759) (farB) fatty acid efflux system protei...  58.9    3e-09
+VFG036955(gb|WP_002236670) (farB) fatty acid efflux system protei...  58.9    3e-09
+VFG036964(gb|WP_002218710) (farB) fatty acid efflux system protei...  58.9    3e-09
+VFG036966(gb|WP_014581242) (farB) fatty acid efflux system protei...  58.9    3e-09
+VFG036957(gb|WP_010951322) (farB) fatty acid efflux system protei...  57.8    6e-09
+VFG036960(gb|WP_003703449) (farB) fatty acid efflux system protei...  57.8    6e-09
+VFG036972(gb|WP_042508130) (farB) fatty acid efflux system protei...  57.8    6e-09
+VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein req...  50.4    1e-06
+
+
+>VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=447
+
+ Score = 196 bits (498),  Expect = 1e-57, Method: Compositional matrix adjust.
+ Identities = 141/419 (34%), Positives = 223/419 (53%), Gaps = 20/419 (5%)
+
+Query  6    ASAAERLERLPLSPYHRLVFVIIALAFFFDSMDLAMMTFLLGSIKAEFGLDSAQAGLLAS  65
+            A    R+E LP+  +   V +++ +  FF++ DL +++F L  +K ++ LD  Q GL+  
+Sbjct  8    AQINARIEGLPVVGWQARVRLLLGVITFFEAFDLLLISFTLPLLKQQWQLDPTQVGLIVG  67
+
+Query  66   SSFFGMVIGAALSGMLADRFGRKPVFQASIVLWGLASYLCSTAGDLDSLTFYRVLLGIGM  125
+            S  FGM++GA  +G LADR GRKPV  A+++L GL S L + A D   L   R+L G+G+
+Sbjct  68   SGTFGMLLGALCAGALADRVGRKPVLLAAMLLTGLFSALIACASDWQGLLVGRLLQGLGI  127
+
+Query  126  GMEFPIAQSLLSEMIPASRRGKYIALMDGFWPLGFVAAGCLSYFLLPLTGWRSIFLVLAL  185
+            G E PIA   LSE+I +  RG+++ L +  +P G + AG    + LP+ GWR ++ + ++
+Sbjct  128  GAEVPIAALYLSEIITSKVRGRFVLLYELSFPCGLMFAGVACTWALPVMGWRPLYWLGSV  187
+
+Query  186  PAVFVLAIRFLIPESPRWLEQAGRREQADRVLRDIEARVMRSLGLTELPPPLRQPQRERS  245
+            P V  +A+   +PES RWL   G+  +A   +  +E    R+ G     P L +    R 
+Sbjct  188  PMVLAVAVYLYVPESARWLAARGQLRRAQACMAYME----RASGHAVATPLLTEAPVARP  243
+
+Query  246  RPGFFSAFAELWSPAYRRRTLTVWGLWFFALLGFYGLTSWLSAL-LQQSGFAVTQSVYYT  304
+            R      + +L+ P  R  + +V  LWF   L  + L  WL +L ++    ++ Q++ +T
+Sbjct  244  RDS--GRWRQLFDPVLRHASGSVGLLWFLGYLVNFALLIWLPSLYVEVFSTSLAQALNFT  301
+
+Query  305  VLISLAGIPGFLCAAWLVESWGRKPSCVLMLLGGG------AMAYAYGQTAVFGGSLALL  358
+            +  ++AG+ G + AAW V+  GR        LG G      A+  A+ Q  +    +ALL
+Sbjct  302  LWSNIAGLGGCMAAAWCVDRIGRVRLLFGGYLGAGLSLLLIALTVAWQQVLL----VALL  357
+
+Query  359  IGFGLAMQFFLFGMWAVLYTYTPELYPTSARATGSGFASAVGRIGSLLGPLVTGLVLPL  417
+                 +  FFL+     L+ YTPELYPT  R  G+ + +   R G+LLG +  G VL L
+Sbjct  358  AA---SCSFFLYAANMSLHLYTPELYPTLLRGKGAAWGALCNRSGALLGAVGMGWVLAL  413
+
+
+>VFG036959(gb|WP_012222039) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis 053442]
+Length=508
+
+ Score = 60.1 bits (144),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 41/139 (29%), Positives = 66/139 (47%), Gaps = 4/139 (3%)
+
+Query  28   IALAFFFDSMDLAMMTFLLGSIKAEFGLDSAQAGLLASSSFFGMVIGAALSGMLADRFGR  87
+            + LA F + +D  +    +  I    G  + Q   + +S      +   L+G LA R G 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGE  77
+
+Query  88   KPVFQASIVLWGLASYLCSTAGDLDSLTFYRVLLGIGMGMEFPIAQSLLSEMIPASRRGK  147
+              +F A+ V + + S+LC  A +L +L F+R+L G   G   P++QSLL    P ++R  
+Sbjct  78   VKLFTAAAVGFVITSWLCGIAPNLQALVFFRILQGFIAGPLIPLSQSLLMASYPPAKRTL  137
+
+Query  148  YIALMDGFWPLGFVAAGCL  166
+             +AL    W +  V A  L
+Sbjct  138  ALAL----WAMTVVVAPVL  152
+
+
+>VFG036965(gb|WP_002226030) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis G2136]
+Length=508
+
+ Score = 60.1 bits (144),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 41/139 (29%), Positives = 66/139 (47%), Gaps = 4/139 (3%)
+
+Query  28   IALAFFFDSMDLAMMTFLLGSIKAEFGLDSAQAGLLASSSFFGMVIGAALSGMLADRFGR  87
+            + LA F + +D  +    +  I    G  + Q   + +S      +   L+G LA R G 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGE  77
+
+Query  88   KPVFQASIVLWGLASYLCSTAGDLDSLTFYRVLLGIGMGMEFPIAQSLLSEMIPASRRGK  147
+              +F A+ V + + S+LC  A +L +L F+R+L G   G   P++QSLL    P ++R  
+Sbjct  78   VKLFTAAAVGFVITSWLCGIAPNLQALVFFRILQGFIAGPLIPLSQSLLMASYPPAKRTL  137
+
+Query  148  YIALMDGFWPLGFVAAGCL  166
+             +AL    W +  V A  L
+Sbjct  138  ALAL----WAMTVVVAPVL  152
+
+
+>VFG036963(gb|WP_015815889) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis alpha14]
+Length=508
+
+ Score = 58.9 bits (141),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 41/139 (29%), Positives = 65/139 (47%), Gaps = 4/139 (3%)
+
+Query  28   IALAFFFDSMDLAMMTFLLGSIKAEFGLDSAQAGLLASSSFFGMVIGAALSGMLADRFGR  87
+            + LA F + +D  +    +  I    G  + Q   + +S      +   L+G LA R G 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGE  77
+
+Query  88   KPVFQASIVLWGLASYLCSTAGDLDSLTFYRVLLGIGMGMEFPIAQSLLSEMIPASRRGK  147
+              +F A+ V + + S+LC  A +L SL  +R+L G   G   P++QSLL    P ++R  
+Sbjct  78   VKLFTAAAVGFVITSWLCGIAPNLQSLVIFRILQGFIAGPLIPLSQSLLMASYPPAKRTL  137
+
+Query  148  YIALMDGFWPLGFVAAGCL  166
+             +AL    W +  V A  L
+Sbjct  138  ALAL----WAMTVVVAPVL  152
+
+
+>VFG036956(gb|WP_002224867) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis MC58]
+Length=508
+
+ Score = 58.9 bits (141),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 41/139 (29%), Positives = 65/139 (47%), Gaps = 4/139 (3%)
+
+Query  28   IALAFFFDSMDLAMMTFLLGSIKAEFGLDSAQAGLLASSSFFGMVIGAALSGMLADRFGR  87
+            + LA F + +D  +    +  I    G  + Q   + +S      +   L+G LA R G 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLGAATTQGTWVITSFSVANAVSVPLTGFLAKRIGE  77
+
+Query  88   KPVFQASIVLWGLASYLCSTAGDLDSLTFYRVLLGIGMGMEFPIAQSLLSEMIPASRRGK  147
+              +F A+ V + + S+LC  A +L SL  +R+L G   G   P++QSLL    P ++R  
+Sbjct  78   VKLFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTL  137
+
+Query  148  YIALMDGFWPLGFVAAGCL  166
+             +AL    W +  V A  L
+Sbjct  138  ALAL----WAMTVVVAPVL  152
+
+
+>VFG036958(gb|WP_002247957) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis FAM18]
+Length=508
+
+ Score = 58.9 bits (141),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 41/139 (29%), Positives = 65/139 (47%), Gaps = 4/139 (3%)
+
+Query  28   IALAFFFDSMDLAMMTFLLGSIKAEFGLDSAQAGLLASSSFFGMVIGAALSGMLADRFGR  87
+            + LA F + +D  +    +  I    G  + Q   + +S      +   L+G LA R G 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGE  77
+
+Query  88   KPVFQASIVLWGLASYLCSTAGDLDSLTFYRVLLGIGMGMEFPIAQSLLSEMIPASRRGK  147
+              +F A+ V + + S+LC  A +L SL  +R+L G   G   P++QSLL    P ++R  
+Sbjct  78   VKLFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTL  137
+
+Query  148  YIALMDGFWPLGFVAAGCL  166
+             +AL    W +  V A  L
+Sbjct  138  ALAL----WAMTVVVAPVL  152
+
+
+>VFG036962(gb|WP_014573759) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis 8013]
+Length=508
+
+ Score = 58.9 bits (141),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 41/139 (29%), Positives = 65/139 (47%), Gaps = 4/139 (3%)
+
+Query  28   IALAFFFDSMDLAMMTFLLGSIKAEFGLDSAQAGLLASSSFFGMVIGAALSGMLADRFGR  87
+            + LA F + +D  +    +  I    G  + Q   + +S      +   L+G LA R G 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGE  77
+
+Query  88   KPVFQASIVLWGLASYLCSTAGDLDSLTFYRVLLGIGMGMEFPIAQSLLSEMIPASRRGK  147
+              +F A+ V + + S+LC  A +L SL  +R+L G   G   P++QSLL    P ++R  
+Sbjct  78   VKLFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTL  137
+
+Query  148  YIALMDGFWPLGFVAAGCL  166
+             +AL    W +  V A  L
+Sbjct  138  ALAL----WAMTVVVAPVL  152
+
+
+>VFG036955(gb|WP_002236670) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis Z2491]
+Length=508
+
+ Score = 58.9 bits (141),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 41/139 (29%), Positives = 65/139 (47%), Gaps = 4/139 (3%)
+
+Query  28   IALAFFFDSMDLAMMTFLLGSIKAEFGLDSAQAGLLASSSFFGMVIGAALSGMLADRFGR  87
+            + LA F + +D  +    +  I    G  + Q   + +S      +   L+G LA R G 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGE  77
+
+Query  88   KPVFQASIVLWGLASYLCSTAGDLDSLTFYRVLLGIGMGMEFPIAQSLLSEMIPASRRGK  147
+              +F A+ V + + S+LC  A +L SL  +R+L G   G   P++QSLL    P ++R  
+Sbjct  78   VKLFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTL  137
+
+Query  148  YIALMDGFWPLGFVAAGCL  166
+             +AL    W +  V A  L
+Sbjct  138  ALAL----WAMTVVVAPVL  152
+
+
+>VFG036964(gb|WP_002218710) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis alpha710]
+Length=508
+
+ Score = 58.9 bits (141),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 41/139 (29%), Positives = 65/139 (47%), Gaps = 4/139 (3%)
+
+Query  28   IALAFFFDSMDLAMMTFLLGSIKAEFGLDSAQAGLLASSSFFGMVIGAALSGMLADRFGR  87
+            + LA F + +D  +    +  I    G  + Q   + +S      +   L+G LA R G 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGE  77
+
+Query  88   KPVFQASIVLWGLASYLCSTAGDLDSLTFYRVLLGIGMGMEFPIAQSLLSEMIPASRRGK  147
+              +F A+ V + + S+LC  A +L SL  +R+L G   G   P++QSLL    P ++R  
+Sbjct  78   VKLFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTL  137
+
+Query  148  YIALMDGFWPLGFVAAGCL  166
+             +AL    W +  V A  L
+Sbjct  138  ALAL----WAMTVVVAPVL  152
+
+
+>VFG036966(gb|WP_014581242) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis M01-240149]
+Length=508
+
+ Score = 58.9 bits (141),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 41/139 (29%), Positives = 65/139 (47%), Gaps = 4/139 (3%)
+
+Query  28   IALAFFFDSMDLAMMTFLLGSIKAEFGLDSAQAGLLASSSFFGMVIGAALSGMLADRFGR  87
+            + LA F + +D  +    +  I    G  + Q   + +S      +   L+G LA R G 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLGAATTQGTWVITSFAVANAVSVPLTGFLAKRIGE  77
+
+Query  88   KPVFQASIVLWGLASYLCSTAGDLDSLTFYRVLLGIGMGMEFPIAQSLLSEMIPASRRGK  147
+              +F A+ V + + S+LC  A +L SL  +R+L G   G   P++QSLL    P ++R  
+Sbjct  78   VKLFTAAAVGFVITSWLCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRTL  137
+
+Query  148  YIALMDGFWPLGFVAAGCL  166
+             +AL    W +  V A  L
+Sbjct  138  ALAL----WAMTVVVAPVL  152
+
+
+>VFG036957(gb|WP_010951322) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria gonorrhoeae FA 1090]
+Length=507
+
+ Score = 57.8 bits (138),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 41/139 (29%), Positives = 65/139 (47%), Gaps = 4/139 (3%)
+
+Query  28   IALAFFFDSMDLAMMTFLLGSIKAEFGLDSAQAGLLASSSFFGMVIGAALSGMLADRFGR  87
+            + LA F + +D  +    +  I    G  + Q   + +S      +   L+G LA R G 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLGAATTQGTWVITSFSVANAVSVPLTGFLAKRIGE  77
+
+Query  88   KPVFQASIVLWGLASYLCSTAGDLDSLTFYRVLLGIGMGMEFPIAQSLLSEMIPASRRGK  147
+              +F A+   + +AS+LC  A +L SL  +R+L G   G   P++QSLL    P ++R  
+Sbjct  78   VKLFTAAAAGFVIASWLCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRML  137
+
+Query  148  YIALMDGFWPLGFVAAGCL  166
+             +AL    W +  V A  L
+Sbjct  138  ALAL----WAMTVVVAPVL  152
+
+
+>VFG036960(gb|WP_003703449) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria gonorrhoeae NCCP11945]
+Length=507
+
+ Score = 57.8 bits (138),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 41/139 (29%), Positives = 65/139 (47%), Gaps = 4/139 (3%)
+
+Query  28   IALAFFFDSMDLAMMTFLLGSIKAEFGLDSAQAGLLASSSFFGMVIGAALSGMLADRFGR  87
+            + LA F + +D  +    +  I    G  + Q   + +S      +   L+G LA R G 
+Sbjct  18   LGLAVFMEVLDTTIANVAVPVIAGNLGAATTQGTWVITSFSVANAVSVPLTGFLAKRIGE  77
+
+Query  88   KPVFQASIVLWGLASYLCSTAGDLDSLTFYRVLLGIGMGMEFPIAQSLLSEMIPASRRGK  147
+              +F A+   + +AS+LC  A +L SL  +R+L G   G   P++QSLL    P ++R  
+Sbjct  78   VKLFTAAAAGFVIASWLCGIAPNLQSLVVFRILQGFIAGPLIPLSQSLLMASYPPAKRML  137
+
+Query  148  YIALMDGFWPLGFVAAGCL  166
+             +AL    W +  V A  L
+Sbjct  138  ALAL----WAMTVVVAPVL  152
+
+
+>VFG036972(gb|WP_042508130) (farB) fatty acid efflux system protein 
+FarB [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria lactamica 020-06]
+Length=508
+
+ Score = 57.8 bits (138),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 40/139 (29%), Positives = 65/139 (47%), Gaps = 4/139 (3%)
+
+Query  28   IALAFFFDSMDLAMMTFLLGSIKAEFGLDSAQAGLLASSSFFGMVIGAALSGMLADRFGR  87
+            + LA F + +D  +    +  I    G  + Q   + +S      +   L+G LA R G 
+Sbjct  18   LGLAVFMEILDTTIANVAVPVIAGNLGAATTQGTWVITSFSVANAVSVPLTGFLAKRIGE  77
+
+Query  88   KPVFQASIVLWGLASYLCSTAGDLDSLTFYRVLLGIGMGMEFPIAQSLLSEMIPASRRGK  147
+              +F A+ V + + S+LC  A +L +L  +R+L G   G   P++QSLL    P ++R  
+Sbjct  78   VKLFTAAAVGFVITSWLCGIAPNLQALVIFRILQGFIAGPLIPLSQSLLMASYPPAKRTL  137
+
+Query  148  YIALMDGFWPLGFVAAGCL  166
+             +AL    W +  V A  L
+Sbjct  138  ALAL----WAMTVVVAPVL  152
+
+
+>VFG045330(gb|WP_010947054) (lbtC) LbtC inner membrane protein 
+required for import of Legiobactin [Legiobactin (VF0291) - 
+Nutritional/Metabolic factor (VFC0272)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=386
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 32/125 (26%), Positives = 62/125 (50%), Gaps = 0/125 (0%)
+
+Query  26   VIIALAFFFDSMDLAMMTFLLGSIKAEFGLDSAQAGLLASSSFFGMVIGAALSGMLADRF  85
+            +I+ L +F  +MD+  +T  L S+   F +      L  S    G  +   L G+L++R+
+Sbjct  7    LIVLLTWFLGNMDIHFLTPALPSLVDYFSVTPNTVQLTISLFLLGKALSMILWGLLSERY  66
+
+Query  86   GRKPVFQASIVLWGLASYLCSTAGDLDSLTFYRVLLGIGMGMEFPIAQSLLSEMIPASRR  145
+            GRKP+F   ++L+ L+++L +    +      R L GI +G    + ++++++       
+Sbjct  67   GRKPIFIGGLLLFILSNFLIALNHSILPFLVCRFLQGISVGATLLMGRAMINDTHNEQNA  126
+
+Query  146  GKYIA  150
+             KY A
+Sbjct  127  TKYFA  131
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.142    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3666515424
+
+
+Query= g4994.t1
+
+Length=446
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) - ...  127     2e-32
+
+
+>VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=447
+
+ Score = 127 bits (320),  Expect = 2e-32, Method: Compositional matrix adjust.
+ Identities = 120/390 (31%), Positives = 184/390 (47%), Gaps = 24/390 (6%)
+
+Query  29   IMLFDGYDMVIYGSVVPRLMQEWQLSPVQAGTLGSCALFGMLFGGTLLAPLADRFGRRRL  88
+            I  F+ +D+++    +P L Q+WQL P Q G +     FGML G      LADR GR+ +
+Sbjct  33   ITFFEAFDLLLISFTLPLLKQQWQLDPTQVGLIVGSGTFGMLLGALCAGALADRVGRKPV  92
+
+Query  89   VIATTLLASLAAFLTGHARDPLELGAGRFFTGLALGALVPSAINLISEFAPAGRRSTLVT  148
+            ++A  LL  L + L   A D   L  GR   GL +GA VP A   +SE   +  R   V 
+Sbjct  93   LLAAMLLTGLFSALIACASDWQGLLVGRLLQGLGIGAEVPIAALYLSEIITSKVRGRFVL  152
+
+Query  149  VMSAFYSVGAVLSALLAIAMIPAWGWQSVFYVAVLP-VLAVPLMLRWLPESAAFLELKGR  207
+            +    +  G + + +     +P  GW+ ++++  +P VLAV + L ++PESA +L  +G+
+Sbjct  153  LYELSFPCGLMFAGVACTWALPVMGWRPLYWLGSVPMVLAVAVYL-YVPESARWLAARGQ  211
+
+Query  208  RAELDALLRKVDPDYRPGAERANAVAAEAP------SGRVAQLFEG--RQAVGTL-LLWV  258
+                 A +  ++     G   A  +  EAP      SGR  QLF+   R A G++ LLW 
+Sbjct  212  LRRAQACMAYMERA--SGHAVATPLLTEAPVARPRDSGRWRQLFDPVLRHASGSVGLLWF  269
+
+Query  259  AFAMCMLMSYGLNTWLPKLMAG-GGYALGSSLAFLVTLNVGATLGALFGGWLADRLGAGR  317
+               +  L+++ L  WLP L       +L  +L F +  N+    G +   W  DR+  GR
+Sbjct  270  ---LGYLVNFALLIWLPSLYVEVFSTSLAQALNFTLWSNIAGLGGCMAAAWCVDRI--GR  324
+
+Query  318  TLVLFFALAAASLA----ALGLGPGPWLLNGLLVVAGATTIGTLAV-IHAYAAQFYPAWV  372
+              +LF     A L+    AL +     LL  LL  + +  +    + +H Y  + YP  +
+Sbjct  325  VRLLFGGYLGAGLSLLLIALTVAWQQVLLVALLAASCSFFLYAANMSLHLYTPELYPTLL  384
+
+Query  373  RSTGVGWAAGVGRLGAIAGPMLGGSLLALE  402
+            R  G  W A   R GA+ G +  G +LAL 
+Sbjct  385  RGKGAAWGALCNRSGALLGAVGMGWVLALH  414
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.140    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3572769291
+
+
+Query= g4997.t1
+
+Length=444
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) - ...  105     1e-24
+
+
+>VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=447
+
+ Score = 105 bits (262),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 122/403 (30%), Positives = 184/403 (46%), Gaps = 30/403 (7%)
+
+Query  27   VLNLIDGFDVLVMAFTASSVAAEWNLGGAEIGLLLSAGLFGMAAGSLFIAPWADRWGRRP  86
+            V+   + FD+L+++FT   +  +W L   ++GL++ +G FGM  G+L     ADR GR+P
+Sbjct  32   VITFFEAFDLLLISFTLPLLKQQWQLDPTQVGLIVGSGTFGMLLGALCAGALADRVGRKP  91
+
+Query  87   LILACLALSGL--GMLASALSQAAWQ-LALLRGLTGLGIGGILASSNVIASEYASRRWRG  143
+            ++LA + L+GL   ++A A   + WQ L + R L GLGIG  +  + +  SE  + + RG
+Sbjct  92   VLLAAMLLTGLFSALIACA---SDWQGLLVGRLLQGLGIGAEVPIAALYLSEIITSKVRG  148
+
+Query  144  LAVSLQSTGYALGATLGGLLAVWLIGAWGWRSVFVFGA-GLTLAVIPLVCLCLPESLDFL  202
+              V L    +  G    G+   W +   GWR ++  G+  + LAV   V L +PES  +L
+Sbjct  149  RFVLLYELSFPCGLMFAGVACTWALPVMGWRPLYWLGSVPMVLAVA--VYLYVPESARWL  206
+
+Query  203  LARRPPRALQRVNALARRLGRAALAE--LPSPPGGGAEHGSRLARLLCVAQRR---TTLL  257
+             AR   R  Q   A   R    A+A   L   P        R  +L     R    +  L
+Sbjct  207  AARGQLRRAQACMAYMERASGHAVATPLLTEAPVARPRDSGRWRQLFDPVLRHASGSVGL  266
+
+Query  258  LWALFFLVMFGFYFIMSWTPKLLVAA-GLSTAQGITGGTLLSIGGIFGAALLGGLAARFR  316
+            LW L +LV F    ++ W P L V     S AQ +      +I G+ G      +AA + 
+Sbjct  267  LWFLGYLVNFA---LLIWLPSLYVEVFSTSLAQALNFTLWSNIAGLGGC-----MAAAWC  318
+
+Query  317  LERVLALFMLLTAALLALFSLSAGLPGAALPLGLLIGLCANACVAGLYA-------LAPS  369
+            ++R+  + +L    L A  SL       A    LL+ L A +C   LYA         P 
+Sbjct  319  VDRIGRVRLLFGGYLGAGLSLLLIALTVAWQQVLLVALLAASCSFFLYAANMSLHLYTPE  378
+
+Query  370  LYDASVRATGVGWGIGVGRGGAILSPLVAGLLLDDGWQPLSLY  412
+            LY   +R  G  WG    R GA+L  +  G +L   W   +++
+Sbjct  379  LYPTLLRGKGAAWGALCNRSGALLGAVGMGWVLALHWGATAIF  421
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.142    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3551936817
+
+
+Query= g2037.t1
+
+Length=452
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) - ...  136     2e-35
+
+
+>VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=447
+
+ Score = 136 bits (342),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 121/420 (29%), Positives = 196/420 (47%), Gaps = 19/420 (5%)
+
+Query  6    DLQALIDAAPVGKMQWRVIICCFLVVMLDGFDTAAIGFIAPDIRTHWQLSASELAPLFGA  65
+             + A I+  PV   Q RV +   ++   + FD   I F  P ++  WQL  +++  + G+
+Sbjct  9    QINARIEGLPVVGWQARVRLLLGVITFFEAFDLLLISFTLPLLKQQWQLDPTQVGLIVGS  68
+
+Query  66   GLLGLTAGALLCGPLADRFGRKRVIELCVALFGALSLLSAFSPDIETLVLLRFLTGLGLG  125
+            G  G+  GAL  G LADR GRK V+   + L G  S L A + D + L++ R L GLG+G
+Sbjct  69   GTFGMLLGALCAGALADRVGRKPVLLAAMLLTGLFSALIACASDWQGLLVGRLLQGLGIG  128
+
+Query  126  GAMPNTITMTSEYLPARRRGALVTLMFCGFTLGSAMGGIVSAQLVPLIGWHGILALGGIL  185
+              +P      SE + ++ RG  V L    F  G    G+     +P++GW  +  LG + 
+Sbjct  129  AEVPIAALYLSEIITSKVRGRFVLLYELSFPCGLMFAGVACTWALPVMGWRPLYWLGSV-  187
+
+Query  186  PLMLFFGLLFALPESPRW-----QVRRQLPQAVVARTVSAITGERYHDTQFFLHETAAVA  240
+            P++L   +   +PES RW     Q+RR   QA +A    A      H     L   A VA
+Sbjct  188  PMVLAVAVYLYVPESARWLAARGQLRRA--QACMAYMERASG----HAVATPLLTEAPVA  241
+
+Query  241  K----GSIRQLFAGRQLVITLMLWVVFFMSLLIIYLLSSWMPTL-LNHRGIDLQQASWVT  295
+            +    G  RQLF       +  + +++F+  L+ + L  W+P+L +      L QA   T
+Sbjct  242  RPRDSGRWRQLFDPVLRHASGSVGLLWFLGYLVNFALLIWLPSLYVEVFSTSLAQALNFT  301
+
+Query  296  AAFQVGGTLGALLLGVLMDRLNPFRVLAVSYALGAVCIVMIGLS--ENGLWLMALAIFGT  353
+                + G  G +     +DR+   R+L   Y    + +++I L+     + L+AL     
+Sbjct  302  LWSNIAGLGGCMAAAWCVDRIGRVRLLFGGYLGAGLSLLLIALTVAWQQVLLVALLAASC  361
+
+Query  354  GIGISGSQVGLNALTATLYPTQSRATGVSWSNAIGRCGAIVGSLSGGMMMALNFSFDTLF  413
+               +  + + L+  T  LYPT  R  G +W     R GA++G++  G ++AL++    +F
+Sbjct  362  SFFLYAANMSLHLYTPELYPTLLRGKGAAWGALCNRSGALLGAVGMGWVLALHWGATAIF  421
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.142    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3635266713
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

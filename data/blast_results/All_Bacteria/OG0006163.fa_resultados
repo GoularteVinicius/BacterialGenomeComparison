@@ -1,0 +1,181 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1791.t1
+
+Length=130
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043033(gb|NP_460869) (flhE) flagellar protein FlhE [Peritricho...  264     6e-93
+VFG043085(gb|WP_001259575) (flhe) flagellar protein FlhE [Peritri...  191     4e-64
+VFG002684(gb|WP_002211101) (flhE) flagellar biosynthesis protein ...  98.2    3e-27
+VFG003442(gb|WP_011192161) (flhE) flagellar biosynthesis protein ...  98.2    3e-27
+VFG002355(gb|WP_011816613) (flhE) flagellar biosynthesis protein ...  91.3    1e-24
+VFG023688(gb|WP_005164470) (flhE) flagellar biosynthesis protein ...  90.5    3e-24
+
+
+>VFG043033(gb|NP_460869) (flhE) flagellar protein FlhE [Peritrichous 
+flagella (VF0967) - Motility (VFC0204)] [Salmonella enterica 
+subsp. enterica serovar Typhimurium str. LT2]
+Length=130
+
+ Score = 264 bits (674),  Expect = 6e-93, Method: Compositional matrix adjust.
+ Identities = 130/130 (100%), Positives = 130/130 (100%), Gaps = 0/130 (0%)
+
+Query  1    MRKWLALLLFPLTVQAAGEGAWQDSGMGVTLNYRGVSASSSPLSARQPVSGVMTLVAWRY  60
+            MRKWLALLLFPLTVQAAGEGAWQDSGMGVTLNYRGVSASSSPLSARQPVSGVMTLVAWRY
+Sbjct  1    MRKWLALLLFPLTVQAAGEGAWQDSGMGVTLNYRGVSASSSPLSARQPVSGVMTLVAWRY  60
+
+Query  61   ELNGPTPAGLRVRLCSQSRCVELDGQSGTTHGFAHVPAVEPLRFVWEVPGGGRLIPALKV  120
+            ELNGPTPAGLRVRLCSQSRCVELDGQSGTTHGFAHVPAVEPLRFVWEVPGGGRLIPALKV
+Sbjct  61   ELNGPTPAGLRVRLCSQSRCVELDGQSGTTHGFAHVPAVEPLRFVWEVPGGGRLIPALKV  120
+
+Query  121  RSNQVIVNYR  130
+            RSNQVIVNYR
+Sbjct  121  RSNQVIVNYR  130
+
+
+>VFG043085(gb|WP_001259575) (flhe) flagellar protein FlhE [Peritrichous 
+flagella (VF1154) - Motility (VFC0204)] [Escherichia 
+coli O157:H7 str. EDL933]
+Length=130
+
+ Score = 191 bits (484),  Expect = 4e-64, Method: Compositional matrix adjust.
+ Identities = 91/117 (78%), Positives = 103/117 (88%), Gaps = 0/117 (0%)
+
+Query  14   VQAAGEGAWQDSGMGVTLNYRGVSASSSPLSARQPVSGVMTLVAWRYELNGPTPAGLRVR  73
+            VQAAGEG WQ S +G+TLN+RG S SS+PLS RQP SG+MTLVAWRY+L GPTPAGLRVR
+Sbjct  14   VQAAGEGMWQASSVGITLNHRGESMSSAPLSTRQPASGLMTLVAWRYQLIGPTPAGLRVR  73
+
+Query  74   LCSQSRCVELDGQSGTTHGFAHVPAVEPLRFVWEVPGGGRLIPALKVRSNQVIVNYR  130
+            LCSQSRCVELDGQSGTT  F+ + A EPLRF+WEVPGGGRLIP+LKV+ N+VIVNYR
+Sbjct  74   LCSQSRCVELDGQSGTTVAFSGIAAAEPLRFIWEVPGGGRLIPSLKVQRNEVIVNYR  130
+
+
+>VFG002684(gb|WP_002211101) (flhE) flagellar biosynthesis protein 
+FlhE [Flagella (VF0394) - Motility (VFC0204)] [Yersinia 
+pestis CO92]
+Length=140
+
+ Score = 98.2 bits (243),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 57/129 (44%), Positives = 76/129 (59%), Gaps = 4/129 (3%)
+
+Query  5    LALLLFPLTVQAAGEGAWQDSGMGVTLNYRGVSASSSPLS---ARQPVSGVMTLVAWRYE  61
+            LA  L PL + AA  G+W    +G+T   RGV   SSPL    A    +  +  V WRY+
+Sbjct  13   LATSLLPLKINAA-SGSWVADNIGITQGLRGVVTPSSPLQPPVALAQENARIVSVGWRYQ  71
+
+Query  62   LNGPTPAGLRVRLCSQSRCVELDGQSGTTHGFAHVPAVEPLRFVWEVPGGGRLIPALKVR  121
+            L    P GL+V+LC+ +RC+ L+G SG + G A   AV  L FV+ + G GR+ P L+V 
+Sbjct  72   LMSTAPDGLQVKLCTPTRCIPLEGGSGQSVGLAGEAAVNQLTFVYFIAGKGRVNPPLQVI  131
+
+Query  122  SNQVIVNYR  130
+            SNQV+VNYR
+Sbjct  132  SNQVLVNYR  140
+
+
+>VFG003442(gb|WP_011192161) (flhE) flagellar biosynthesis protein 
+FlhE [Flagella (VF0394) - Motility (VFC0204)] [Yersinia 
+pseudotuberculosis IP 32953]
+Length=140
+
+ Score = 98.2 bits (243),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 57/129 (44%), Positives = 76/129 (59%), Gaps = 4/129 (3%)
+
+Query  5    LALLLFPLTVQAAGEGAWQDSGMGVTLNYRGVSASSSPLS---ARQPVSGVMTLVAWRYE  61
+            LA  L PL + AA  G+W    +G+T   RGV   SSPL    A    +  +  V WRY+
+Sbjct  13   LAASLLPLKINAA-SGSWVADNIGITQGLRGVVTPSSPLQPPVALAQENARIVSVGWRYQ  71
+
+Query  62   LNGPTPAGLRVRLCSQSRCVELDGQSGTTHGFAHVPAVEPLRFVWEVPGGGRLIPALKVR  121
+            L    P GL+V+LC+ +RC+ L+G SG + G A   AV  L FV+ + G GR+ P L+V 
+Sbjct  72   LMSTAPDGLQVKLCTPTRCIPLEGGSGQSVGLAGEAAVNQLTFVYFIAGKGRVNPPLQVI  131
+
+Query  122  SNQVIVNYR  130
+            SNQV+VNYR
+Sbjct  132  SNQVLVNYR  140
+
+
+>VFG002355(gb|WP_011816613) (flhE) flagellar biosynthesis protein 
+FlhE [Flagella (VF0394) - Motility (VFC0204)] [Yersinia 
+enterocolitica subsp. enterocolitica 8081]
+Length=140
+
+ Score = 91.3 bits (225),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 48/124 (39%), Positives = 75/124 (60%), Gaps = 7/124 (6%)
+
+Query  12   LTVQAAGEGAWQDSGMGVTLNYRGVSASSSPLSARQPVS-----GVMTLVAWRYELNGPT  66
+            L + A   G+W    +G+T + RGV+ S+ PL  + PV+       +  ++WRY+L    
+Sbjct  19   LPLNAMASGSWVADDIGITQSVRGVAISAKPL--QSPVALAQDNARIVSISWRYQLMSAA  76
+
+Query  67   PAGLRVRLCSQSRCVELDGQSGTTHGFAHVPAVEPLRFVWEVPGGGRLIPALKVRSNQVI  126
+            P GL+V+LC+ +RC+ L+G SG + G A   A   L F++ + G GR+ P L+V ++QVI
+Sbjct  77   PDGLQVKLCTPTRCMSLEGGSGLSRGLAGEAAATQLTFIYFIAGKGRVNPPLQVINHQVI  136
+
+Query  127  VNYR  130
+            VNYR
+Sbjct  137  VNYR  140
+
+
+>VFG023688(gb|WP_005164470) (flhE) flagellar biosynthesis protein 
+FlhE [Flagella (VF0394) - Motility (VFC0204)] [Yersinia 
+enterocolitica subsp. palearctica 105.5R(r)]
+Length=140
+
+ Score = 90.5 bits (223),  Expect = 3e-24, Method: Compositional matrix adjust.
+ Identities = 48/124 (39%), Positives = 75/124 (60%), Gaps = 7/124 (6%)
+
+Query  12   LTVQAAGEGAWQDSGMGVTLNYRGVSASSSPLSARQPVS-----GVMTLVAWRYELNGPT  66
+            L + A   G+W    +G+T + RGV+ S+ PL  + PV+       +  ++WRY+L    
+Sbjct  19   LPLNAMASGSWVADDIGITQSVRGVAISAKPL--QSPVALAQDNARIVSISWRYQLMSAA  76
+
+Query  67   PAGLRVRLCSQSRCVELDGQSGTTHGFAHVPAVEPLRFVWEVPGGGRLIPALKVRSNQVI  126
+            P GL+V+LC+ +RC+ L+G SG + G A   A   L F++ + G GR+ P L+V ++QVI
+Sbjct  77   PDGLQVKLCTPTRCMPLEGGSGLSRGLAGEAAATQLTFIYFIAGKGRVNPPLQVINHQVI  136
+
+Query  127  VNYR  130
+            VNYR
+Sbjct  137  VNYR  140
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 455110614
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

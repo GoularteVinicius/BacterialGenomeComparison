@@ -1,0 +1,265 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2770.t1
+
+Length=1210
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015390(gb|WP_011064246) (ppkA) serine/threonine protein kinase...  62.0    2e-09
+VFG015387(gb|WP_003136961) (ppkA) serine/threonine protein kinase...  59.3    2e-08
+VFG002060(gb|NP_248764) (ppkA) serine/threonine protein kinase Pp...  58.9    2e-08
+VFG015386(gb|WP_011979125) (ppkA) serine/threonine protein kinase...  58.5    2e-08
+VFG019988(gb|WP_015886548) (ppkA) serine/threonine protein kinase...  58.5    3e-08
+VFG019987(gb|WP_004351957) (ppkA) serine/threonine protein kinase...  58.2    3e-08
+VFG015391(gb|WP_012018656) (ppkA) serine/threonine protein kinase...  55.1    3e-07
+VFG008410(gb|YP_005360790) (pknG) serine/threonine protein kinase...  52.0    1e-06
+
+
+>VFG015390(gb|WP_011064246) (ppkA) serine/threonine protein kinase 
+PpkA [HSI-1 (VF0334) - Effector delivery system (VFC0086)] 
+[Pseudomonas fluorescens Pf-5]
+Length=1027
+
+ Score = 62.0 bits (149),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 67/253 (26%), Positives = 111/253 (44%), Gaps = 18/253 (7%)
+
+Query  107  ETLIDGWRLLRQIASSDGVRERYLAEHAESARQAVLTLYRPGAEPDPAIYD-------VI  159
+            + LI G+ +  +I     +   YLA      R+  L +       DP+  +        +
+Sbjct  2    DILIPGFDIQGEIGEG-AMASVYLATQRSLERKVALKVMAAALAADPSFCERFLREGKTL  60
+
+Query  160  RRLPREHVPEILATGRWDERAYEVVEELTGGSLAE-LGTVLEDREAVRHVVRELGHALHV  218
+             RL   H   I   G   E  Y  +E L  G+L E +   L   + + ++ R++  AL  
+Sbjct  61   ARLSHPHTVTIHDIGNVGELYYMAMEYLPNGTLKERIAAGLTPEQGLTYI-RQIASALGY  119
+
+Query  219  FNEAGLRHRDLRPASLLVRSHEPLDLVISGFGSARLSEFDLDIVS---PLETSRYMAPEA  275
+             +  GL HRD++PA++L R+      V+S FG A+  +           + T  YM+PE 
+Sbjct  120  AHAQGLVHRDVKPANILFRADG--TAVLSDFGIAKSLDDRTQFTQAGFAVGTPSYMSPEQ  177
+
+Query  276  IAG-GVAAASDWWSLGMILLEQLTRGACFEGVNA-NAFLIHVLANGVALPDDLDPQLHLL  333
+              G  +   +D ++LG++L E L     + G +A +  L H+      LP       H +
+Sbjct  178  ARGQDIDGRADLYALGVVLYEILVGELPYNGTDALSTALAHLTEPLPELPLHHGRYQH-I  236
+
+Query  334  LRGLLARDRHQRW  346
+            LR LLA+D  +R+
+Sbjct  237  LRKLLAKDPAERY  249
+
+
+>VFG015387(gb|WP_003136961) (ppkA) serine/threonine protein kinase 
+PpkA [HSI-1 (VF0334) - Effector delivery system (VFC0086)] 
+[Pseudomonas aeruginosa UCBPP-PA14]
+Length=1032
+
+ Score = 59.3 bits (142),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 63/230 (27%), Positives = 101/230 (44%), Gaps = 15/230 (7%)
+
+Query  129  YLAEHAESARQAVLTLYRPGAEPDPAIYD-------VIRRLPREHVPEILATGRWDERAY  181
+            YLA      R+  L +       DP+  +        + RL   +   I   G      Y
+Sbjct  23   YLATQRSLQRKVALKVMAAALAADPSFAERFLREGRTLARLSHPNTVTIHDIGNVGSCYY  82
+
+Query  182  EVVEELTGGSLAELGTVLEDREAVRHVVRELGHALHVFNEAGLRHRDLRPASLLVRSHEP  241
+              +E L  G+L E      D E     VR++  AL   +  GL HRD++PA++L R+   
+Sbjct  83   MAMEYLPNGTLKERIQQGLDPEQGLAYVRQVAAALGYAHSQGLVHRDVKPANILFRADG-  141
+
+Query  242  LDLVISGFGSARLSEFDLDIVS---PLETSRYMAPEAIAGG-VAAASDWWSLGMILLEQL  297
+               V+S FG A+  E +         + T  YM+PE   G  +   +D ++LG++L E L
+Sbjct  142  -TAVLSDFGIAKSIEDNTQFTQVGFAVGTPSYMSPEQARGQEIDGRADLYALGVVLYEIL  200
+
+Query  298  TRGACFEGVNA-NAFLIHVLANGVALPDDLDPQLHLLLRGLLARDRHQRW  346
+            T    + G ++ +  L H+      LP +   +   +LR LLA+D  +R+
+Sbjct  201  TGKLPYNGKDSLSTALAHLTEPLPELPIE-QGRYQDILRQLLAKDPAERF  249
+
+
+>VFG002060(gb|NP_248764) (ppkA) serine/threonine protein kinase 
+PpkA [HSI-1 (VF0334) - Effector delivery system (VFC0086)] 
+[Pseudomonas aeruginosa PAO1]
+Length=1032
+
+ Score = 58.9 bits (141),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 63/230 (27%), Positives = 101/230 (44%), Gaps = 15/230 (7%)
+
+Query  129  YLAEHAESARQAVLTLYRPGAEPDPAIYD-------VIRRLPREHVPEILATGRWDERAY  181
+            YLA      R+  L +       DP+  +        + RL   +   I   G      Y
+Sbjct  23   YLATQRSLQRKVALKVMAAALAADPSFAERFLREGRTLARLSHPNTVTIHDIGNVGSCYY  82
+
+Query  182  EVVEELTGGSLAELGTVLEDREAVRHVVRELGHALHVFNEAGLRHRDLRPASLLVRSHEP  241
+              +E L  G+L E      D E     VR++  AL   +  GL HRD++PA++L R+   
+Sbjct  83   MAMEYLPNGTLKERIQQGLDPEQGLAYVRQVAAALGYAHSQGLVHRDVKPANILFRADG-  141
+
+Query  242  LDLVISGFGSARLSEFDLDIVS---PLETSRYMAPEAIAGG-VAAASDWWSLGMILLEQL  297
+               V+S FG A+  E +         + T  YM+PE   G  +   +D ++LG++L E L
+Sbjct  142  -TAVLSDFGIAKSIEDNTQFTQVGFAVGTPSYMSPEQARGQEIDGRADLYALGVVLYEIL  200
+
+Query  298  TRGACFEGVNA-NAFLIHVLANGVALPDDLDPQLHLLLRGLLARDRHQRW  346
+            T    + G ++ +  L H+      LP +   +   +LR LLA+D  +R+
+Sbjct  201  TGKLPYNGKDSLSTALAHLTEPLPELPIE-QGRYQDILRQLLAKDPAERF  249
+
+
+>VFG015386(gb|WP_011979125) (ppkA) serine/threonine protein kinase 
+PpkA [HSI-1 (VF0334) - Effector delivery system (VFC0086)] 
+[Pseudomonas aeruginosa PA7]
+Length=1032
+
+ Score = 58.5 bits (140),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 63/230 (27%), Positives = 101/230 (44%), Gaps = 15/230 (7%)
+
+Query  129  YLAEHAESARQAVLTLYRPGAEPDPAIYD-------VIRRLPREHVPEILATGRWDERAY  181
+            YLA      R+  L +       DP+  +        + RL   +   I   G      Y
+Sbjct  23   YLATQRSLQRKVALKVMAAALAADPSFAERFLREGRTLARLSHPNTVTIHDIGNVGSCYY  82
+
+Query  182  EVVEELTGGSLAELGTVLEDREAVRHVVRELGHALHVFNEAGLRHRDLRPASLLVRSHEP  241
+              +E L  G+L E      D E     VR++  AL   +  GL HRD++PA++L R+   
+Sbjct  83   MAMEYLPNGTLKERIQQGLDPELGLAYVRQVAAALGYAHSQGLVHRDVKPANILFRADG-  141
+
+Query  242  LDLVISGFGSARLSEFDLDIVS---PLETSRYMAPEAIAGG-VAAASDWWSLGMILLEQL  297
+               V+S FG A+  E +         + T  YM+PE   G  +   +D ++LG++L E L
+Sbjct  142  -TAVLSDFGIAKSIEDNTQFTQVGFAVGTPSYMSPEQARGQEIDGRADLYALGVVLYEIL  200
+
+Query  298  TRGACFEGVNA-NAFLIHVLANGVALPDDLDPQLHLLLRGLLARDRHQRW  346
+            T    + G ++ +  L H+      LP +   +   +LR LLA+D  +R+
+Sbjct  201  TGKLPYNGKDSLSTALAHLTEPLPELPIE-QGRYQDILRQLLAKDPAERF  249
+
+
+>VFG019988(gb|WP_015886548) (ppkA) serine/threonine protein kinase 
+PpkA [HSI-1 (VF0334) - Effector delivery system (VFC0086)] 
+[Pseudomonas fluorescens SBW25]
+Length=991
+
+ Score = 58.5 bits (140),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 63/231 (27%), Positives = 102/231 (44%), Gaps = 17/231 (7%)
+
+Query  129  YLAEHAESARQAVLTLYRPGAEPDPAIYD-------VIRRLPREHVPEILATGRWDERAY  181
+            YLA      R+  L +       DP+  +        + RL   H   I   G   E  Y
+Sbjct  23   YLATQRSLERKVALKVMAAALAADPSFCERFLREGKTLARLSHPHTVTIHDIGNVGELYY  82
+
+Query  182  EVVEELTGGSLAE-LGTVLEDREAVRHVVRELGHALHVFNEAGLRHRDLRPASLLVRSHE  240
+              +E L  G+L E +   L   + V  ++R++  AL   +  GL HRD++PA++L R+  
+Sbjct  83   MAMEYLPNGTLKERIAAGLTPEQGVT-LIRQIASALGYAHAQGLVHRDVKPANILFRADG  141
+
+Query  241  PLDLVISGFGSARLSEFDLDIVS---PLETSRYMAPEAIAGG-VAAASDWWSLGMILLEQ  296
+                V+S FG A+  +           + T  YM+PE   G  +   +D ++LG++L E 
+Sbjct  142  --TAVLSDFGIAKSLDDRTQFTQAGFAVGTPSYMSPEQARGQEIDGRADLYALGVVLYEI  199
+
+Query  297  LTRGACFEGVNA-NAFLIHVLANGVALPDDLDPQLHLLLRGLLARDRHQRW  346
+            L     + G +A +  L H+      LP     +   +LR LLA+D  +R+
+Sbjct  200  LVGKLPYSGTDALSTALAHLTEPLPELPVH-HGRYQEVLRKLLAKDPAERF  249
+
+
+>VFG019987(gb|WP_004351957) (ppkA) serine/threonine protein kinase 
+PpkA [HSI-1 (VF0334) - Effector delivery system (VFC0086)] 
+[Pseudomonas aeruginosa LESB58]
+Length=1032
+
+ Score = 58.2 bits (139),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 63/230 (27%), Positives = 101/230 (44%), Gaps = 15/230 (7%)
+
+Query  129  YLAEHAESARQAVLTLYRPGAEPDPAIYD-------VIRRLPREHVPEILATGRWDERAY  181
+            YLA      R+  L +       DP+  +        + RL   +   I   G      Y
+Sbjct  23   YLATQRSLQRKVALKVMAAALAADPSFAERFLREGRTLARLSHPNTVTIHDIGNVGSCYY  82
+
+Query  182  EVVEELTGGSLAELGTVLEDREAVRHVVRELGHALHVFNEAGLRHRDLRPASLLVRSHEP  241
+              +E L  G+L E      D E     VR++  AL   +  GL HRD++PA++L R+   
+Sbjct  83   MAMEYLPNGTLKERIQQGLDPELGLVYVRQVAAALGYAHSQGLVHRDVKPANILFRADG-  141
+
+Query  242  LDLVISGFGSARLSEFDLDIVS---PLETSRYMAPEAIAGG-VAAASDWWSLGMILLEQL  297
+               V+S FG A+  E +         + T  YM+PE   G  +   +D ++LG++L E L
+Sbjct  142  -TAVLSDFGIAKSIEDNTQFTQVGFAVGTPSYMSPEQARGQEIDGRADLYALGVVLYEIL  200
+
+Query  298  TRGACFEGVNA-NAFLIHVLANGVALPDDLDPQLHLLLRGLLARDRHQRW  346
+            T    + G ++ +  L H+      LP +   +   +LR LLA+D  +R+
+Sbjct  201  TGKLPYNGKDSLSTALAHLTEPLPELPIE-QGRYQDILRQLLAKDPAERF  249
+
+
+>VFG015391(gb|WP_012018656) (ppkA) serine/threonine protein kinase 
+PpkA [HSI-1 (VF0334) - Effector delivery system (VFC0086)] 
+[Pseudomonas mendocina ymp]
+Length=1018
+
+ Score = 55.1 bits (131),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 56/212 (26%), Positives = 94/212 (44%), Gaps = 18/212 (8%)
+
+Query  110  IDGWRLLRQIASSDGVRER-YLAEHAESARQAVLTLYRPGAEPDPAIYD-------VIRR  161
+            I G+ + R++   DG     YLA      R+  L +       DP+  +        + R
+Sbjct  5    IPGYEIERELG--DGAMAVVYLATQRSLERKVALKVMAAALAADPSFCERFLREGKTLAR  62
+
+Query  162  LPREHVPEILATGRWDERAYEVVEELTGGSLAE-LGTVLEDREAVRHVVRELGHALHVFN  220
+            L   +   I   G      Y  +E L  G+L E +   L   + ++++ R++  AL   +
+Sbjct  63   LSHPNTVTIHDIGNVGSHYYMAMEYLPNGTLKERIAAGLSAEQGIQYL-RQIASALGYAH  121
+
+Query  221  EAGLRHRDLRPASLLVRSHEPLDLVISGFGSARLSEFDLDIVS---PLETSRYMAPEAIA  277
+              GL HRD++PA++L R+      V+S FG A+  E           + T  YM+PE   
+Sbjct  122  AQGLVHRDVKPANILFRADG--TAVLSDFGIAKSLEDRTQFTQAGFAVGTPSYMSPEQAR  179
+
+Query  278  G-GVAAASDWWSLGMILLEQLTRGACFEGVNA  308
+            G  V   +D ++LG++L E LT    + G ++
+Sbjct  180  GQQVDGRTDLYALGVVLYEILTGQLPYVGADS  211
+
+
+>VFG008410(gb|YP_005360790) (pknG) serine/threonine protein kinase 
+[Protein kinase G (VF0805) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis RGTB327]
+Length=399
+
+ Score = 52.0 bits (123),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 55/198 (28%), Positives = 90/198 (45%), Gaps = 13/198 (7%)
+
+Query  159  IRRLPREHVPEILATGRWDERAYEVVEELTGGSLAELGTVLEDR-----EAVRHVVRELG  213
+            + RL    +  +   G+     + V+E + GG+L EL   L +R      AV  V+R + 
+Sbjct  71   VARLNNRALVAVYDQGKDGRHPFLVMELIEGGTLREL---LIERGPMPPHAVVAVLRPVL  127
+
+Query  214  HALHVFNEAGLRHRDLRPASLLVRSHEPLDLVISGFGSARLSEFDLDIVSPLETSRYMAP  273
+              L   + AGL HRD++P ++L+     + L   G   A  +         L T+ Y++P
+Sbjct  128  GGLAAAHRAGLVHRDVKPENILISDDGDVKLADFGLVRAVAAASITSTGVILGTAAYLSP  187
+
+Query  274  EAIAGGVAAA-SDWWSLGMILLEQLTRGACFEGVNANAFLIHVLANGV----ALPDDLDP  328
+            E +  G A   SD +S+G+++ E LT    F G +A +     L   V    A+ D + P
+Sbjct  188  EQVRDGNADPRSDVYSVGVLVYELLTGHTPFTGDSALSIAYQRLDADVPRASAVIDGVPP  247
+
+Query  329  QLHLLLRGLLARDRHQRW  346
+            Q   L+    AR+   R+
+Sbjct  248  QFDELVACATARNPADRY  265
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.135    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 11201426719
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

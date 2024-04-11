@@ -1,0 +1,272 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1367.t1
+
+Length=116
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG029753(gb|WP_011779828) (MVAN_RS13115) YciI family protein [GP...  57.4    1e-11
+VFG029750(gb|WP_011857547) (MJLS_RS28380) YciI family protein [GP...  55.5    6e-11
+VFG029751(gb|WP_011562667) (MKMS_RS26885) YciI family protein [GP...  54.7    1e-10
+VFG029749(gb|WP_003891724) (MSMEG_RS01985) YciI family protein [G...  50.4    5e-09
+VFG029754(gb|WP_015310129) (MYCSM_RS30910) YciI family protein [G...  46.6    2e-07
+
+
+>VFG029753(gb|WP_011779828) (MVAN_RS13115) YciI family protein 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+vanbaalenii PYR-1]
+Length=135
+
+ Score = 57.4 bits (137),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 40/123 (33%), Positives = 66/123 (54%), Gaps = 14/123 (11%)
+
+Query  2    KYLCLIYFDEAKLAA--VPAE-----ELAAIVDECMTYSDQLGKAGHYIASHALQSVQTA  54
+            KYL L ++  A  A   VP +     E+ A V     ++D+L  +G ++AS AL + + A
+Sbjct  3    KYLFLKHYRGAPAAVNDVPMDRWTPAEIEAHVRYMEDFADRLRDSGEFVASQAL-AAEGA  61
+
+Query  55   TTLRHQGGRLAMTDGPFAETKEQLGGFYLIEARDLNQALQIAAKIP--PGRLGCVEVRPV  112
+                   G+  +TDGPFAETK+ + GF +++     +A+++A ++   PG  G    RP+
+Sbjct  62   WVRSDGDGKPPITDGPFAETKDLIAGFMIVDVDSYERAVELAGELSAAPGAGG----RPI  117
+
+Query  113  KEW  115
+             EW
+Sbjct  118  HEW  120
+
+
+>VFG029750(gb|WP_011857547) (MJLS_RS28380) YciI family protein 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+sp. JLS]
+Length=135
+
+ Score = 55.5 bits (132),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 41/124 (33%), Positives = 67/124 (54%), Gaps = 16/124 (13%)
+
+Query  2    KYLCLIYFDEAKLAA--VPAE-----ELAAIVDECMTYSDQLGKAGHYIASHALQSVQTA  54
+            KYL L ++  A  A   VP +     E+ A +     ++D+L  +G ++ S AL +    
+Sbjct  3    KYLFLKHYRGAPAAVNDVPMDRWTPAEIEAHLKYMEDFADRLRASGEFVDSQALAA--DG  60
+
+Query  55   TTLRHQG-GRLAMTDGPFAETKEQLGGFYLIEARDLNQALQIAAKIP--PGRLGCVEVRP  111
+              +R+ G GR  +TDGPFAETK+ + GF +++     +AL++AA++   PG  G     P
+Sbjct  61   AWVRYDGEGRPPVTDGPFAETKDLIAGFMIVDVDSYARALELAAELSAAPGAGG----EP  116
+
+Query  112  VKEW  115
+            + EW
+Sbjct  117  IHEW  120
+
+
+>VFG029751(gb|WP_011562667) (MKMS_RS26885) YciI family protein 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+sp. KMS]
+Length=135
+
+ Score = 54.7 bits (130),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 41/124 (33%), Positives = 67/124 (54%), Gaps = 16/124 (13%)
+
+Query  2    KYLCLIYFDEAKLAA--VPAE-----ELAAIVDECMTYSDQLGKAGHYIASHALQSVQTA  54
+            KYL L ++  A  A   VP +     E+ A +     ++D+L  +G ++ S AL +    
+Sbjct  3    KYLFLKHYRGAPAAVNDVPMDRWTPAEIEAHLKYMEDFADRLRASGEFVDSQALAA--DG  60
+
+Query  55   TTLRHQG-GRLAMTDGPFAETKEQLGGFYLIEARDLNQALQIAAKIP--PGRLGCVEVRP  111
+              +R+ G G+  +TDGPFAETK+ + GF +I+     +AL++AA++   PG  G     P
+Sbjct  61   AWVRYDGEGKPPVTDGPFAETKDLIAGFMIIDVDSYARALELAAELSAAPGAGG----EP  116
+
+Query  112  VKEW  115
+            + EW
+Sbjct  117  IHEW  120
+
+
+>VFG029749(gb|WP_003891724) (MSMEG_RS01985) YciI family protein 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+smegmatis str. MC2 155]
+Length=136
+
+ Score = 50.4 bits (119),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 38/124 (31%), Positives = 64/124 (52%), Gaps = 16/124 (13%)
+
+Query  2    KYLCLIYFDEAKLAA--VP-----AEELAAIVDECMTYSDQLGKAGHYIASHALQSVQTA  54
+            KYL L ++  A  A   VP      +E+ A +    + +  L   G ++ + AL    T 
+Sbjct  3    KYLLLKHYRGAPAAVNDVPMDQWAPDEIEAHLQYMKSLATHLESTGEFVDAQAL--APTG  60
+
+Query  55   TTLRHQG-GRLAMTDGPFAETKEQLGGFYLIEARDLNQALQIAAKIP--PGRLGCVEVRP  111
+              +R+ G GR  +TDGPFAETK+ + G+ +I+     +A+++A ++   PG  G    +P
+Sbjct  61   AWVRYDGEGRPPVTDGPFAETKDLVAGWMIIDVDSYERAVEVAGELSAAPGAGG----KP  116
+
+Query  112  VKEW  115
+            + EW
+Sbjct  117  IHEW  120
+
+
+>VFG029754(gb|WP_015310129) (MYCSM_RS30910) YciI family protein 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+smegmatis JS623]
+Length=137
+
+ Score = 46.6 bits (109),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 35/124 (28%), Positives = 64/124 (52%), Gaps = 16/124 (13%)
+
+Query  2    KYLCLIYFDEAKLAA--VPAEELA-----AIVDECMTYSDQLGKAGHYIASHALQSVQTA  54
+            K+L L ++  A  A   VP ++ A     A +     ++ +L  +G Y+   AL      
+Sbjct  3    KFLFLKHYRGAPAAVNDVPMDQWAPAEVEAHIKYMNDFAAKLQASGEYVDGQAL--APEG  60
+
+Query  55   TTLRHQG-GRLAMTDGPFAETKEQLGGFYLIEARDLNQALQIAAKIP--PGRLGCVEVRP  111
+              +R+ G G+  +TDGPFAETK+ + G+ +++     +A+++A ++   PG  G    +P
+Sbjct  61   AWVRYDGEGKPPVTDGPFAETKDLIAGWMIVDVDSYERAVELAGELSAAPGAGG----KP  116
+
+Query  112  VKEW  115
+            + EW
+Sbjct  117  IHEW  120
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 326757930
+
+
+Query= g1372.t1
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG029754(gb|WP_015310129) (MYCSM_RS30910) YciI family protein [G...  49.7    2e-08
+VFG029753(gb|WP_011779828) (MVAN_RS13115) YciI family protein [GP...  47.8    9e-08
+VFG029749(gb|WP_003891724) (MSMEG_RS01985) YciI family protein [G...  47.4    1e-07
+VFG029750(gb|WP_011857547) (MJLS_RS28380) YciI family protein [GP...  47.0    2e-07
+VFG029751(gb|WP_011562667) (MKMS_RS26885) YciI family protein [GP...  46.2    4e-07
+
+
+>VFG029754(gb|WP_015310129) (MYCSM_RS30910) YciI family protein 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+smegmatis JS623]
+Length=137
+
+ Score = 49.7 bits (117),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 29/73 (40%), Positives = 43/73 (59%), Gaps = 3/73 (4%)
+
+Query  21   EELLAAMGRYNEELVKAGVMLAGEGLQPSAKGARVRFSGNART-VIDGPFAETRELIAGF  79
+            E  +  M  +  +L  +G  + G+ L P  +GA VR+ G  +  V DGPFAET++LIAG+
+Sbjct  31   EAHIKYMNDFAAKLQASGEYVDGQALAP--EGAWVRYDGEGKPPVTDGPFAETKDLIAGW  88
+
+Query  80   WMFQVASLEEAIE  92
+             +  V S E A+E
+Sbjct  89   MIVDVDSYERAVE  101
+
+
+>VFG029753(gb|WP_011779828) (MVAN_RS13115) YciI family protein 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+vanbaalenii PYR-1]
+Length=135
+
+ Score = 47.8 bits (112),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 28/67 (42%), Positives = 42/67 (63%), Gaps = 3/67 (4%)
+
+Query  27   MGRYNEELVKAGVMLAGEGLQPSAKGARVRFSGNART-VIDGPFAETRELIAGFWMFQVA  85
+            M  + + L  +G  +A + L  +A+GA VR  G+ +  + DGPFAET++LIAGF +  V 
+Sbjct  37   MEDFADRLRDSGEFVASQAL--AAEGAWVRSDGDGKPPITDGPFAETKDLIAGFMIVDVD  94
+
+Query  86   SLEEAIE  92
+            S E A+E
+Sbjct  95   SYERAVE  101
+
+
+>VFG029749(gb|WP_003891724) (MSMEG_RS01985) YciI family protein 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+smegmatis str. MC2 155]
+Length=136
+
+ Score = 47.4 bits (111),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 29/73 (40%), Positives = 39/73 (53%), Gaps = 3/73 (4%)
+
+Query  21   EELLAAMGRYNEELVKAGVMLAGEGLQPSAKGARVRFSGNART-VIDGPFAETRELIAGF  79
+            E  L  M      L   G  +  + L P+  GA VR+ G  R  V DGPFAET++L+AG+
+Sbjct  31   EAHLQYMKSLATHLESTGEFVDAQALAPT--GAWVRYDGEGRPPVTDGPFAETKDLVAGW  88
+
+Query  80   WMFQVASLEEAIE  92
+             +  V S E A+E
+Sbjct  89   MIIDVDSYERAVE  101
+
+
+>VFG029750(gb|WP_011857547) (MJLS_RS28380) YciI family protein 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+sp. JLS]
+Length=135
+
+ Score = 47.0 bits (110),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 30/73 (41%), Positives = 41/73 (56%), Gaps = 3/73 (4%)
+
+Query  21   EELLAAMGRYNEELVKAGVMLAGEGLQPSAKGARVRFSGNART-VIDGPFAETRELIAGF  79
+            E  L  M  + + L  +G  +  + L  +A GA VR+ G  R  V DGPFAET++LIAGF
+Sbjct  31   EAHLKYMEDFADRLRASGEFVDSQAL--AADGAWVRYDGEGRPPVTDGPFAETKDLIAGF  88
+
+Query  80   WMFQVASLEEAIE  92
+             +  V S   A+E
+Sbjct  89   MIVDVDSYARALE  101
+
+
+>VFG029751(gb|WP_011562667) (MKMS_RS26885) YciI family protein 
+[GPL locus (VF0841) - Immune modulation (VFC0258)] [Mycobacterium 
+sp. KMS]
+Length=135
+
+ Score = 46.2 bits (108),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 29/73 (40%), Positives = 41/73 (56%), Gaps = 3/73 (4%)
+
+Query  21   EELLAAMGRYNEELVKAGVMLAGEGLQPSAKGARVRFSGNART-VIDGPFAETRELIAGF  79
+            E  L  M  + + L  +G  +  + L  +A GA VR+ G  +  V DGPFAET++LIAGF
+Sbjct  31   EAHLKYMEDFADRLRASGEFVDSQAL--AADGAWVRYDGEGKPPVTDGPFAETKDLIAGF  88
+
+Query  80   WMFQVASLEEAIE  92
+             +  V S   A+E
+Sbjct  89   MIIDVDSYARALE  101
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 549780153
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

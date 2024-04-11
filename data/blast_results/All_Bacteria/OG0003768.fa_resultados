@@ -1,0 +1,123 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g345.t1
+
+Length=217
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG031643(gb|NP_214862) (mosR) transcriptional regulator [MosR (V...  444     1e-161
+VFG031662(gb|YP_007956542) (mosR) hypothetical protein [MosR (VF0...  434     2e-157
+VFG031666(gb|YP_005921689) (mosR) transcriptional regulator [MosR...  239     7e-82 
+
+
+>VFG031643(gb|NP_214862) (mosR) transcriptional regulator [MosR 
+(VF0856) - Regulation (VFC0301)] [Mycobacterium tuberculosis 
+H37Rv]
+Length=217
+
+ Score = 444 bits (1143),  Expect = 1e-161, Method: Compositional matrix adjust.
+ Identities = 217/217 (100%), Positives = 217/217 (100%), Gaps = 0/217 (0%)
+
+Query  1    MTISFSSSNLRDDATSGNGDYRLDKLPETTPSTSVFDRADVTYRQFTELHGQARDTRREA  60
+            MTISFSSSNLRDDATSGNGDYRLDKLPETTPSTSVFDRADVTYRQFTELHGQARDTRREA
+Sbjct  1    MTISFSSSNLRDDATSGNGDYRLDKLPETTPSTSVFDRADVTYRQFTELHGQARDTRREA  60
+
+Query  61   HVVELESKTGERARCAPMHALEQLADYGFAWRDIARVVGVSVPAITKWRKGAGVTGENRL  120
+            HVVELESKTGERARCAPMHALEQLADYGFAWRDIARVVGVSVPAITKWRKGAGVTGENRL
+Sbjct  61   HVVELESKTGERARCAPMHALEQLADYGFAWRDIARVVGVSVPAITKWRKGAGVTGENRL  120
+
+Query  121  KIARLLALIDMLSDRFIGEPASWLEMPIQAGVGITRMDLLERGRYDLVLALASTHTGDGT  180
+            KIARLLALIDMLSDRFIGEPASWLEMPIQAGVGITRMDLLERGRYDLVLALASTHTGDGT
+Sbjct  121  KIARLLALIDMLSDRFIGEPASWLEMPIQAGVGITRMDLLERGRYDLVLALASTHTGDGT  180
+
+Query  181  VEYVLNETDKDWRETVVDNAFESYTAEDGVISIRPKR  217
+            VEYVLNETDKDWRETVVDNAFESYTAEDGVISIRPKR
+Sbjct  181  VEYVLNETDKDWRETVVDNAFESYTAEDGVISIRPKR  217
+
+
+>VFG031662(gb|YP_007956542) (mosR) hypothetical protein [MosR 
+(VF0856) - Regulation (VFC0301)] [Mycobacterium tuberculosis 
+str. Haarlem/NITR202]
+Length=217
+
+ Score = 434 bits (1115),  Expect = 2e-157, Method: Compositional matrix adjust.
+ Identities = 213/217 (98%), Positives = 213/217 (98%), Gaps = 0/217 (0%)
+
+Query  1    MTISFSSSNLRDDATSGNGDYRLDKLPETTPSTSVFDRADVTYRQFTELHGQARDTRREA  60
+            MTISFSSSNLRDDATSGNGDYRLDKLPETTPSTSVFDRADVTYRQFTELHGQARDTRREA
+Sbjct  1    MTISFSSSNLRDDATSGNGDYRLDKLPETTPSTSVFDRADVTYRQFTELHGQARDTRREA  60
+
+Query  61   HVVELESKTGERARCAPMHALEQLADYGFAWRDIARVVGVSVPAITKWRKGAGVTGENRL  120
+            HVVELESK GE ARCAPMHALEQLA  GFAWRDIARVVGVSVPAITKWRKGAGVTGENRL
+Sbjct  61   HVVELESKXGEXARCAPMHALEQLAXXGFAWRDIARVVGVSVPAITKWRKGAGVTGENRL  120
+
+Query  121  KIARLLALIDMLSDRFIGEPASWLEMPIQAGVGITRMDLLERGRYDLVLALASTHTGDGT  180
+            KIARLLALIDMLSDRFIGEPASWLEMPIQAGVGITRMDLLERGRYDLVLALASTHTGDGT
+Sbjct  121  KIARLLALIDMLSDRFIGEPASWLEMPIQAGVGITRMDLLERGRYDLVLALASTHTGDGT  180
+
+Query  181  VEYVLNETDKDWRETVVDNAFESYTAEDGVISIRPKR  217
+            VEYVLNETDKDWRETVVDNAFESYTAEDGVISIRPKR
+Sbjct  181  VEYVLNETDKDWRETVVDNAFESYTAEDGVISIRPKR  217
+
+
+>VFG031666(gb|YP_005921689) (mosR) transcriptional regulator [MosR 
+(VF0856) - Regulation (VFC0301)] [Mycobacterium tuberculosis 
+RGTB423]
+Length=118
+
+ Score = 239 bits (610),  Expect = 7e-82, Method: Compositional matrix adjust.
+ Identities = 117/118 (99%), Positives = 118/118 (100%), Gaps = 0/118 (0%)
+
+Query  100  VSVPAITKWRKGAGVTGENRLKIARLLALIDMLSDRFIGEPASWLEMPIQAGVGITRMDL  159
+            +SVPAITKWRKGAGVTGENRLKIARLLALIDMLSDRFIGEPASWLEMPIQAGVGITRMDL
+Sbjct  1    MSVPAITKWRKGAGVTGENRLKIARLLALIDMLSDRFIGEPASWLEMPIQAGVGITRMDL  60
+
+Query  160  LERGRYDLVLALASTHTGDGTVEYVLNETDKDWRETVVDNAFESYTAEDGVISIRPKR  217
+            LERGRYDLVLALASTHTGDGTVEYVLNETDKDWRETVVDNAFESYTAEDGVISIRPKR
+Sbjct  61   LERGRYDLVLALASTHTGDGTVEYVLNETDKDWRETVVDNAFESYTAEDGVISIRPKR  118
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1284065431
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

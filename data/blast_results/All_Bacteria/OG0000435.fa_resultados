@@ -1,0 +1,217 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g26.t1
+
+Length=406
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.137    0.393    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3175042576
+
+
+Query= g1161.t1
+
+Length=479
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3895595625
+
+
+Query= g2409.t1
+
+Length=479
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG010889(gb|WP_011947571) (feoB) ferrous iron transporter B [Feo...  50.1    2e-06
+VFG010887(gb|WP_015961734) (feoB) ferrous iron transporter B [Feo...  49.7    3e-06
+VFG001859(gb|WP_010948357) (feoB) ferrous iron transporter B [Feo...  49.7    3e-06
+VFG010888(gb|WP_011216528) (feoB) ferrous iron transporter B [Feo...  49.7    3e-06
+
+
+>VFG010889(gb|WP_011947571) (feoB) ferrous iron transporter B 
+[FeoAB (VF0160) - Nutritional/Metabolic factor (VFC0272)] [Legionella 
+pneumophila str. Corby]
+Length=751
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 38/137 (28%), Positives = 63/137 (46%), Gaps = 16/137 (12%)
+
+Query  164  LVGFPSAGKSSLVSAISAAKPKIADYPFTTLVPNLGVVSAGEHAFTVADVPGLIPGASRG  223
+            L+G P+ GK++L +A++ A  ++ ++P  T+    G    GEH   + D+PG+    +  
+Sbjct  6    LIGNPNCGKTTLFNALTNANQRVGNWPGVTVEKKTGEFLLGEHLIEITDLPGVYSLVANA  65
+
+Query  224  RGLGLDFLRHIERCAVLVHVVDCATAEPGRDPISDIDALETELACYTPTLQGDAALGDLA  283
+             G+  D    I   +V+    DC         I+ IDA   E   Y  +      L +L 
+Sbjct  66   EGISQD--EQIAAQSVIDLEYDCI--------INVIDACHLERHLYLTS-----QLFEL-  109
+
+Query  284  ARPRAVVLNKIDVPEAR  300
+             +P  V LN +D+ E R
+Sbjct  110  GKPVVVALNMMDIAEQR  126
+
+
+>VFG010887(gb|WP_015961734) (feoB) ferrous iron transporter B 
+[FeoAB (VF0160) - Nutritional/Metabolic factor (VFC0272)] [Legionella 
+pneumophila str. Paris]
+Length=751
+
+ Score = 49.7 bits (117),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 38/137 (28%), Positives = 63/137 (46%), Gaps = 16/137 (12%)
+
+Query  164  LVGFPSAGKSSLVSAISAAKPKIADYPFTTLVPNLGVVSAGEHAFTVADVPGLIPGASRG  223
+            L+G P+ GK++L +A++ A  ++ ++P  T+    G    GEH   + D+PG+    +  
+Sbjct  6    LIGNPNCGKTTLFNALTNANQRVGNWPGVTVEKKTGEFLLGEHLIEITDLPGVYSLVANA  65
+
+Query  224  RGLGLDFLRHIERCAVLVHVVDCATAEPGRDPISDIDALETELACYTPTLQGDAALGDLA  283
+             G+  D    I   +V+    DC         I+ IDA   E   Y  +      L +L 
+Sbjct  66   EGISQD--EQIAAQSVIDLEYDCI--------INVIDACHLERHLYLTS-----QLFEL-  109
+
+Query  284  ARPRAVVLNKIDVPEAR  300
+             +P  V LN +D+ E R
+Sbjct  110  GKPVVVALNMMDIAEHR  126
+
+
+>VFG001859(gb|WP_010948357) (feoB) ferrous iron transporter B 
+[FeoAB (VF0160) - Nutritional/Metabolic factor (VFC0272)] [Legionella 
+pneumophila subsp. pneumophila str. Philadelphia 1]
+Length=751
+
+ Score = 49.7 bits (117),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 38/137 (28%), Positives = 63/137 (46%), Gaps = 16/137 (12%)
+
+Query  164  LVGFPSAGKSSLVSAISAAKPKIADYPFTTLVPNLGVVSAGEHAFTVADVPGLIPGASRG  223
+            L+G P+ GK++L +A++ A  ++ ++P  T+    G    GEH   + D+PG+    +  
+Sbjct  6    LIGNPNCGKTTLFNALTNANQRVGNWPGVTVEKKTGEFLLGEHLIEITDLPGVYSLVANA  65
+
+Query  224  RGLGLDFLRHIERCAVLVHVVDCATAEPGRDPISDIDALETELACYTPTLQGDAALGDLA  283
+             G+  D    I   +V+    DC         I+ IDA   E   Y  +      L +L 
+Sbjct  66   EGISQD--EQIAAQSVIDLEYDCI--------INVIDACHLERHLYLTS-----QLFEL-  109
+
+Query  284  ARPRAVVLNKIDVPEAR  300
+             +P  V LN +D+ E R
+Sbjct  110  GKPVVVALNMMDIAEHR  126
+
+
+>VFG010888(gb|WP_011216528) (feoB) ferrous iron transporter B 
+[FeoAB (VF0160) - Nutritional/Metabolic factor (VFC0272)] [Legionella 
+pneumophila str. Lens]
+Length=751
+
+ Score = 49.7 bits (117),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 38/137 (28%), Positives = 63/137 (46%), Gaps = 16/137 (12%)
+
+Query  164  LVGFPSAGKSSLVSAISAAKPKIADYPFTTLVPNLGVVSAGEHAFTVADVPGLIPGASRG  223
+            L+G P+ GK++L +A++ A  ++ ++P  T+    G    GEH   + D+PG+    +  
+Sbjct  6    LIGNPNCGKTTLFNALTNANQRVGNWPGVTVEKKTGEFLLGEHLIEITDLPGVYSLVANA  65
+
+Query  224  RGLGLDFLRHIERCAVLVHVVDCATAEPGRDPISDIDALETELACYTPTLQGDAALGDLA  283
+             G+  D    I   +V+    DC         I+ IDA   E   Y  +      L +L 
+Sbjct  66   EGISQD--EQIAAQSVIDLEYDCI--------INVIDACHLERHLYLTS-----QLFEL-  109
+
+Query  284  ARPRAVVLNKIDVPEAR  300
+             +P  V LN +D+ E R
+Sbjct  110  GKPVVVALNMMDIAEHR  126
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.414    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3895595625
+
+
+Query= g4652.t1
+
+Length=406
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.138    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3175042576
+
+
+Query= g3074.t1
+
+Length=390
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.138    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3007935072
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

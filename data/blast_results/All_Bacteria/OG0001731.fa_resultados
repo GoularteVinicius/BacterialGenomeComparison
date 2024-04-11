@@ -1,0 +1,158 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3080.t1
+
+Length=642
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG041578(gb|WP_012847749) (ETAE_RS04220) transglycosylase SLT do...  63.2    4e-11
+VFG041913(gb|WP_005763910) (PSPTO_RS07240) transglycosylase SLT d...  53.9    2e-07
+
+
+>VFG041578(gb|WP_012847749) (ETAE_RS04220) transglycosylase SLT 
+domain-containing protein [T3SS (VF1266) - Effector delivery 
+system (VFC0086)] [Edwardsiella tarda EIB202]
+Length=216
+
+ Score = 63.2 bits (152),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 51/142 (36%), Positives = 70/142 (49%), Gaps = 21/142 (15%)
+
+Query  477  AHRATLVRE-AKNRGLHSSWIFAITRQESAFMSDARSGVGATGLMQLMPGTAKETSRKFG  535
+            A  A+L+ + A    L    I A+   ES++  D  S  GA GLMQ+MP    ET+ +FG
+Sbjct  46   AGYASLIGQVAGKHALDPRLIQAVVAVESSYRYDTVSEKGAIGLMQVMP----ETAARFG  101
+
+Query  536  IPLASTQQLIVPDVNIRLGAAYLSQVHSQFNGNRVLASAAYNAGPGRVRQWLKDTRHLAF  595
+                    L+ P  N+ +G  YLS +  +FNG   LA A YNAG G V ++         
+Sbjct  102  -----HFALLDPRDNLEVGTRYLSTLLRRFNGRLDLALAGYNAGEGAVLRYGGTIP----  152
+
+Query  596  DVWIETIPFDETRQYVQNVLSY  617
+                   P+ ET++YVQ VL Y
+Sbjct  153  -------PYPETQRYVQRVLEY  167
+
+
+>VFG041913(gb|WP_005763910) (PSPTO_RS07240) transglycosylase SLT 
+domain-containing protein [P. syringae TTSS (VF0909) - Effector 
+delivery system (VFC0086)] [Pseudomonas syringae pv. 
+tomato str. DC3000]
+Length=495
+
+ Score = 53.9 bits (128),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 48/149 (32%), Positives = 76/149 (51%), Gaps = 23/149 (15%)
+
+Query  503  ESAFMSDARSGVGATGLMQLMPGTAKETSRKFGIPLAST---QQLIVPDVNIRLGAAYLS  559
+            ES++   A S   A GL Q +P T     R F +  ++T   ++ +V   + +    YL+
+Sbjct  148  ESSYNPMANSPAAAAGLWQFIPSTG----RSFNLHQSATYDARRDVV--ASSKAAMDYLT  201
+
+Query  560  QVHSQFNGNRVLASAAYNAGPGRVRQWLKDTRH--LAFDVWIETIPFDETRQYVQNVLSY  617
+            ++H QFN + +LA AAYNAG G V + ++  R   L  D W   +P  ET+ YV  +L+ 
+Sbjct  202  RLHDQFNNDWLLALAAYNAGEGTVGRAIEANRRRGLPVDYWNLNLP-KETQDYVPRLLAL  260
+
+Query  618  AVI------YGQKLNAPQPIVDWHERYFD  640
+            +++      YG KL    P+ +    YFD
+Sbjct  261  SMVVRNPNAYGVKLT---PVANTP--YFD  284
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.134    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5538107976
+
+
+Query= g1682.t1
+
+Length=195
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.131    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1064009300
+
+
+Query= g2893.t1
+
+Length=361
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG041578(gb|WP_012847749) (ETAE_RS04220) transglycosylase SLT do...  57.0    2e-09
+
+
+>VFG041578(gb|WP_012847749) (ETAE_RS04220) transglycosylase SLT 
+domain-containing protein [T3SS (VF1266) - Effector delivery 
+system (VFC0086)] [Edwardsiella tarda EIB202]
+Length=216
+
+ Score = 57.0 bits (136),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 40/133 (30%), Positives = 59/133 (44%), Gaps = 18/133 (14%)
+
+Query  178  VTINLVPNHLDKRAHKYIGMVRQASRKYGVDESLILAIMQTESSFNPYAVSHADALGLMQ  237
+            V   L P  +  R   Y  ++ Q + K+ +D  LI A++  ESS+    VS   A+GLMQ
+Sbjct  32   VASTLAPPPVISRGAGYASLIGQVAGKHALDPRLIQAVVAVESSYRYDTVSEKGAIGLMQ  91
+
+Query  238  VVQHSAGKDVFRSQGKSGTPSRNFLFDPASNIDTGTAYLAMLNNVYLSGIENPTSRRYAV  297
+            V+  +A +                L DP  N++ GT YL+ L       +     R    
+Sbjct  92   VMPETAARF-----------GHFALLDPRDNLEVGTRYLSTL-------LRRFNGRLDLA  133
+
+Query  298  ITAYNGGAGSVLR  310
+            +  YN G G+VLR
+Sbjct  134  LAGYNAGEGAVLR  146
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.133    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2722772260
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

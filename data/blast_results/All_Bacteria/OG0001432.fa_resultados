@@ -1,0 +1,793 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1620.t1
+
+Length=96
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.142    0.449    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 331284081
+
+
+Query= g43.t1
+
+Length=264
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG024791(gb|WP_014001502) (MCAN_RS15610) phthiodiolone/phenolpht...  50.8    3e-07
+VFG024796(gb|NP_217467) (Rv2951c) phthiodiolone/phenolphthiodiolo...  50.1    5e-07
+VFG029343(gb|WP_015294052) (BN45_RS15640) phthiodiolone/phenolpht...  50.1    5e-07
+VFG029352(gb|WP_015456463) (ERDMAN_RS15530) phthiodiolone/phenolp...  50.1    5e-07
+VFG029342(gb|WP_015291072) (BN42_RS15745) phthiodiolone/phenolpht...  50.1    5e-07
+VFG029341(gb|WP_015303656) (BN43_RS15555) phthiodiolone/phenolpht...  50.1    5e-07
+VFG024798(gb|WP_003917712) (MT_RS15465) phthiodiolone/phenolphthi...  49.7    6e-07
+VFG029361(gb|WP_003876826) (MAP4_RS19005) LLM class flavin-depend...  49.7    6e-07
+VFG024785(gb|WP_008262659) (W7S_RS00325) LLM class flavin-depende...  48.1    2e-06
+
+
+>VFG024791(gb|WP_014001502) (MCAN_RS15610) phthiodiolone/phenolphthiodiolone 
+dimycocerosates ketoreductase [PDIM (VF0309) 
+- Immune modulation (VFC0258)] [Mycobacterium canettii CIPT 
+140010059]
+Length=381
+
+ Score = 50.8 bits (120),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 59/211 (28%), Positives = 89/211 (42%), Gaps = 27/211 (13%)
+
+Query  60   HFECWTVLGAWA-EQTSHIEIGALVTCNSYRNPELLADMARTVDHISGGRLILGIGSGWK  118
+            ++E WT+LG  A    S + +G  VT    RNP + A  A T+  ++ GR ILGIG G +
+Sbjct  71   NYEPWTMLGNLAFGLPSRLRLGVCVTDAGRRNPAVTAQAAATLQLLTRGRAILGIGVGER  130
+
+Query  119  QKDYDEYGYRFGTAGSRLDDLAAALPRIKARLGKL---------------NPPPTRDI--  161
+            + + + YG  +    +R ++  A +  +    G+L               + PP R    
+Sbjct  131  EGN-EPYGVEWTKPVARFEEALATIRALWNSNGELVSRESPYFPLHNALFDLPPYRGKWP  189
+
+Query  162  PVLIGGGGERKTLRLVAEYADIWHSFTA---GDSYLAKSAVLSTHCSTVGRNPATIERSA  218
+             + +   G R  LR    YAD W         D   A  AV S   S  GR+P +I  +A
+Sbjct  190  EIWVAAHGPR-MLRATGRYADAWIPIVVVRPSDYSRALEAVRSA-ASDAGRDPMSITPAA  247
+
+Query  219  A---VDGGGLIASAEALAGLGVTLLTVGCDG  246
+                + G       EAL  + V +  +G  G
+Sbjct  248  VRGIITGRNRDDVEEALESVVVKMTALGVPG  278
+
+
+>VFG024796(gb|NP_217467) (Rv2951c) phthiodiolone/phenolphthiodiolone 
+dimycocerosates ketoreductase [PDIM (VF0309) - Immune 
+modulation (VFC0258)] [Mycobacterium tuberculosis H37Rv]
+Length=381
+
+ Score = 50.1 bits (118),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 58/210 (28%), Positives = 88/210 (42%), Gaps = 25/210 (12%)
+
+Query  60   HFECWTVLGAWAE-QTSHIEIGALVTCNSYRNPELLADMARTVDHISGGRLILGIGSGWK  118
+            ++E WT+LG  A    S + +G  VT    RNP + A  A T+  ++ GR ILGIG G +
+Sbjct  71   NYEPWTMLGNLAFGLPSRLRLGVCVTDAGRRNPAVTAQAAATLHLLTRGRAILGIGVGER  130
+
+Query  119  QKDYDEYGYRFGTAGSRLDDLAAALPRIKARLGKL---------------NPPPTR-DIP  162
+            + + + YG  +    +R ++  A +  +    G+L               + PP R   P
+Sbjct  131  EGN-EPYGVEWTKPVARFEEALATIRALWNSNGELISRESPYFPLHNALFDLPPYRGKWP  189
+
+Query  163  VLIGGGGERKTLRLVAEYADIWHSFTA---GDSYLAKSAVLSTHCSTVGRNPATIERSAA  219
+             +       + LR    YAD W         D   A  AV S   S  GR+P +I  +A 
+Sbjct  190  EIWVAAHGPRMLRATGRYADAWIPIVVVRPSDYSRALEAVRSA-ASDAGRDPMSITPAAV  248
+
+Query  220  ---VDGGGLIASAEALAGLGVTLLTVGCDG  246
+               + G       EAL  + V +  +G  G
+Sbjct  249  RGIITGRNRDDVEEALESVVVKMTALGVPG  278
+
+
+>VFG029343(gb|WP_015294052) (BN45_RS15640) phthiodiolone/phenolphthiodiolone 
+dimycocerosates ketoreductase [PDIM (VF0309) 
+- Immune modulation (VFC0258)] [Mycobacterium canettii CIPT 
+140070017]
+Length=381
+
+ Score = 50.1 bits (118),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 59/211 (28%), Positives = 89/211 (42%), Gaps = 27/211 (13%)
+
+Query  60   HFECWTVLGAWAE-QTSHIEIGALVTCNSYRNPELLADMARTVDHISGGRLILGIGSGWK  118
+            ++E WT+LG  A    S + +G  VT    RNP + A  A T+  ++ GR ILGIG G +
+Sbjct  71   NYEPWTMLGNLAFGLPSRLRLGVCVTDAGRRNPAVTAQAAATLHLLTRGRAILGIGVGER  130
+
+Query  119  QKDYDEYGYRFGTAGSRLDDLAAALPRIKARLGKL---------------NPPPTRDI--  161
+            + + + YG  +    +R ++  A +  +    G+L               + PP R    
+Sbjct  131  EGN-EPYGVEWTKPVARFEEALATIRALWNSNGELVSRESPYFPLHNALFDLPPYRGKWP  189
+
+Query  162  PVLIGGGGERKTLRLVAEYADIWHSFTA---GDSYLAKSAVLSTHCSTVGRNPATIERSA  218
+             + +   G R  LR    YAD W         D   A  AV S   S  GR+P +I  +A
+Sbjct  190  EIWVAAHGPR-MLRATGRYADAWIPIVVVRPSDYSRALEAVRSA-ASDAGRDPMSITPAA  247
+
+Query  219  A---VDGGGLIASAEALAGLGVTLLTVGCDG  246
+                + G       EAL  + V +  +G  G
+Sbjct  248  VRGIITGRNRDDVEEALESVVVKMTALGVPG  278
+
+
+>VFG029352(gb|WP_015456463) (ERDMAN_RS15530) phthiodiolone/phenolphthiodiolone 
+dimycocerosates ketoreductase [PDIM (VF0309) 
+- Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+str. Erdman (ATCC 35801)]
+Length=381
+
+ Score = 50.1 bits (118),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 58/210 (28%), Positives = 88/210 (42%), Gaps = 25/210 (12%)
+
+Query  60   HFECWTVLGAWAE-QTSHIEIGALVTCNSYRNPELLADMARTVDHISGGRLILGIGSGWK  118
+            ++E WT+LG  A    S + +G  VT    RNP + A  A T+  ++ GR ILGIG G +
+Sbjct  71   NYEPWTMLGNLAFGLPSRLRLGVCVTDAGRRNPAVTAQAAATLHLLTRGRAILGIGVGER  130
+
+Query  119  QKDYDEYGYRFGTAGSRLDDLAAALPRIKARLGKL---------------NPPPTR-DIP  162
+            + + + YG  +    +R ++  A +  +    G+L               + PP R   P
+Sbjct  131  EGN-EPYGVEWTKPVARFEEALATIRALWNSNGELISRESPYFPLHNALFDLPPYRGKWP  189
+
+Query  163  VLIGGGGERKTLRLVAEYADIWHSFTA---GDSYLAKSAVLSTHCSTVGRNPATIERSAA  219
+             +       + LR    YAD W         D   A  AV S   S  GR+P +I  +A 
+Sbjct  190  EIWVAAHGPRMLRATGRYADAWIPIVVVRPSDYSRALEAVRSA-ASDAGRDPMSITPAAV  248
+
+Query  220  ---VDGGGLIASAEALAGLGVTLLTVGCDG  246
+               + G       EAL  + V +  +G  G
+Sbjct  249  RGIITGRNRDDVEEALESVVVKMTALGVPG  278
+
+
+>VFG029342(gb|WP_015291072) (BN42_RS15745) phthiodiolone/phenolphthiodiolone 
+dimycocerosates ketoreductase [PDIM (VF0309) 
+- Immune modulation (VFC0258)] [Mycobacterium canettii CIPT 
+140070010]
+Length=381
+
+ Score = 50.1 bits (118),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 59/211 (28%), Positives = 89/211 (42%), Gaps = 27/211 (13%)
+
+Query  60   HFECWTVLGAWAE-QTSHIEIGALVTCNSYRNPELLADMARTVDHISGGRLILGIGSGWK  118
+            ++E WT+LG  A    S + +G  VT    RNP + A  A T+  ++ GR ILGIG G +
+Sbjct  71   NYEPWTMLGNLAFGLPSRLRLGVCVTDAGRRNPAVTAQAAATLHLLTRGRAILGIGVGER  130
+
+Query  119  QKDYDEYGYRFGTAGSRLDDLAAALPRIKARLGKL---------------NPPPTRDI--  161
+            + + + YG  +    +R ++  A +  +    G+L               + PP R    
+Sbjct  131  EGN-EPYGVEWTKPVARFEEALATIRALWNSNGELVSRESPYFPLHNALFDLPPYRGKWP  189
+
+Query  162  PVLIGGGGERKTLRLVAEYADIWHSFTA---GDSYLAKSAVLSTHCSTVGRNPATIERSA  218
+             + +   G R  LR    YAD W         D   A  AV S   S  GR+P +I  +A
+Sbjct  190  EIWVAAHGPR-MLRATGRYADAWIPIVVVRPSDYSRALEAVRSA-ASDAGRDPMSITPAA  247
+
+Query  219  A---VDGGGLIASAEALAGLGVTLLTVGCDG  246
+                + G       EAL  + V +  +G  G
+Sbjct  248  VRGIITGRNRDDVEEALESVVVKMTALGVPG  278
+
+
+>VFG029341(gb|WP_015303656) (BN43_RS15555) phthiodiolone/phenolphthiodiolone 
+dimycocerosates ketoreductase [PDIM (VF0309) 
+- Immune modulation (VFC0258)] [Mycobacterium canettii CIPT 
+140070008]
+Length=381
+
+ Score = 50.1 bits (118),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 59/211 (28%), Positives = 89/211 (42%), Gaps = 27/211 (13%)
+
+Query  60   HFECWTVLGAWAE-QTSHIEIGALVTCNSYRNPELLADMARTVDHISGGRLILGIGSGWK  118
+            ++E WT+LG  A    S + +G  VT    RNP + A  A T+  ++ GR ILGIG G +
+Sbjct  71   NYEPWTMLGNLAFGLPSRLRLGVCVTDAGRRNPAVTAQAAATLHLLTRGRAILGIGVGER  130
+
+Query  119  QKDYDEYGYRFGTAGSRLDDLAAALPRIKARLGKL---------------NPPPTRDI--  161
+            + + + YG  +    +R ++  A +  +    G+L               + PP R    
+Sbjct  131  EGN-EPYGVEWTKPVARFEEALATIRALWNSNGELVSRESPYFPLHNALFDLPPYRGKWP  189
+
+Query  162  PVLIGGGGERKTLRLVAEYADIWHSFTA---GDSYLAKSAVLSTHCSTVGRNPATIERSA  218
+             + +   G R  LR    YAD W         D   A  AV S   S  GR+P +I  +A
+Sbjct  190  EIWVAAHGPR-MLRATGRYADAWIPIVVVRPSDYSRALEAVRSA-ASDAGRDPMSITPAA  247
+
+Query  219  A---VDGGGLIASAEALAGLGVTLLTVGCDG  246
+                + G       EAL  + V +  +G  G
+Sbjct  248  VRGIITGRNRDDVEEALESVVVKMTALGVPG  278
+
+
+>VFG024798(gb|WP_003917712) (MT_RS15465) phthiodiolone/phenolphthiodiolone 
+dimycocerosates ketoreductase [PDIM (VF0309) - 
+Immune modulation (VFC0258)] [Mycobacterium tuberculosis CDC1551]
+Length=381
+
+ Score = 49.7 bits (117),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 59/211 (28%), Positives = 89/211 (42%), Gaps = 27/211 (13%)
+
+Query  60   HFECWTVLGAWAE-QTSHIEIGALVTCNSYRNPELLADMARTVDHISGGRLILGIGSGWK  118
+            ++E WT+LG  A    S + +G  VT    RNP + A  A T+  ++ GR ILGIG G +
+Sbjct  71   NYEPWTMLGNLAFGLPSRLRLGVCVTDAGRRNPAVTAQAAATLHLLTRGRAILGIGVGER  130
+
+Query  119  QKDYDEYGYRFGTAGSRLDDLAAALPRIKARLGKL---------------NPPPTRDI--  161
+            + + + YG  +    +R ++  A +  +    G+L               + PP R    
+Sbjct  131  EGN-EPYGVEWTKPVARFEEALATIRALWNSNGELISRESPYFPLHNALFDLPPYRGKWP  189
+
+Query  162  PVLIGGGGERKTLRLVAEYADIWHSFTA---GDSYLAKSAVLSTHCSTVGRNPATIERSA  218
+             + +   G R  LR    YAD W         D   A  AV S   S  GR+P +I  +A
+Sbjct  190  EIWVSAHGPR-MLRATGRYADAWIPIVVVRPSDYSRALEAVRSA-ASDAGRDPMSITPAA  247
+
+Query  219  A---VDGGGLIASAEALAGLGVTLLTVGCDG  246
+                + G       EAL  + V +  +G  G
+Sbjct  248  VRGIITGRNRDDVEEALESVVVKMTALGVPG  278
+
+
+>VFG029361(gb|WP_003876826) (MAP4_RS19005) LLM class flavin-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium avium subsp. paratuberculosis MAP4]
+Length=375
+
+ Score = 49.7 bits (117),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 44/145 (30%), Positives = 62/145 (43%), Gaps = 22/145 (15%)
+
+Query  89   RNPELLADMARTVDHISGGRLILGIGSGWKQKDYDEYGYRFGTAGSRLDDLAAALPRI--  146
+            R+P LLA  A T+DH+S GR ILG+GSG + ++   YG+ F    SR ++    +  +  
+Sbjct  92   RHPALLAQTALTLDHLSKGRFILGLGSG-ESENTVPYGFDFARPVSRFEEALRVIRLLWD  150
+
+Query  147  ---------------KARLGKLNPPPTRDIPVLIGGGGERKTLRLVAEYADIWHSFTA--  189
+                           +ARL    P   R  P+ IG  G R  L +   YAD W    A  
+Sbjct  151  TDGPVDFDGEFYSLHQARLDT-EPYHGRLPPIWIGASGPR-MLDIAGRYADGWWPAGAWT  208
+
+Query  190  GDSYLAKSAVLSTHCSTVGRNPATI  214
+             + Y      +       GR+P  I
+Sbjct  209  PEHYAQMLGAVRVSAERAGRDPMAI  233
+
+
+>VFG024785(gb|WP_008262659) (W7S_RS00325) LLM class flavin-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium intracellulare str. MOTT36Y]
+Length=375
+
+ Score = 48.1 bits (113),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 47/165 (28%), Positives = 73/165 (44%), Gaps = 26/165 (16%)
+
+Query  74   TSHIEIGALVTCNSYRNPELLADMARTVDHISGGRLILGIGSGWKQKDYDEYGYRFGTAG  133
+            T  + I + V     R+P +LA  A T+DH++ GR ILG+GSG + ++   YG+ F    
+Sbjct  77   TERVPIVSAVVDTVRRHPVMLAQTALTIDHLAKGRFILGLGSG-ESENTLPYGFDFSRPV  135
+
+Query  134  SRLDDLAAALPRIKARL---------------GKLNPPPTRDIP--VLIGGGGERKTLRL  176
+            SR ++ A  + R+  R                 +L+  P    P  + IG  G R  L +
+Sbjct  136  SRFEE-ALTVIRLLWRSDGPVDFDGQFYSLHHARLDTEPYEGRPPQIWIGASGPR-MLDI  193
+
+Query  177  VAEYADIWHSFTAG----DSYLAKSAVLSTHCSTVGRNPATIERS  217
+               +AD W  + AG    + Y    + + T     GR+P  I  S
+Sbjct  194  AGRHADGW--WPAGAWTPEHYAEMLSAVRTSAERSGRDPMAITPS  236
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.444    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1752320402
+
+
+Query= g1835.t1
+
+Length=307
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG029361(gb|WP_003876826) (MAP4_RS19005) LLM class flavin-depend...  64.3    1e-11
+VFG024785(gb|WP_008262659) (W7S_RS00325) LLM class flavin-depende...  60.1    4e-10
+VFG024783(gb|WP_011894240) (MSPYR1_RS13340) LLM class flavin-depe...  59.7    5e-10
+VFG029362(gb|WP_015304710) (MYCSM_RS03285) LLM class flavin-depen...  58.5    1e-09
+VFG029342(gb|WP_015291072) (BN42_RS15745) phthiodiolone/phenolpht...  58.5    1e-09
+VFG024791(gb|WP_014001502) (MCAN_RS15610) phthiodiolone/phenolpht...  58.5    1e-09
+VFG029343(gb|WP_015294052) (BN45_RS15640) phthiodiolone/phenolpht...  58.2    1e-09
+VFG029341(gb|WP_015303656) (BN43_RS15555) phthiodiolone/phenolpht...  58.2    2e-09
+VFG024798(gb|WP_003917712) (MT_RS15465) phthiodiolone/phenolphthi...  58.2    2e-09
+VFG029352(gb|WP_015456463) (ERDMAN_RS15530) phthiodiolone/phenolp...  58.2    2e-09
+VFG024796(gb|NP_217467) (Rv2951c) phthiodiolone/phenolphthiodiolo...  58.2    2e-09
+VFG024787(gb|WP_014385951) (OCQ_RS23585) LLM class flavin-depende...  50.8    4e-07
+VFG024786(gb|WP_009955570) (OCO_RS23065) LLM class flavin-depende...  50.4    6e-07
+VFG024784(gb|WP_014943057) (MIP_RS23660) LLM class flavin-depende...  50.4    6e-07
+VFG024789(gb|WP_085979805) (MMAR_RS08710) LLM class flavin-depend...  50.1    7e-07
+VFG024794(gb|WP_010907550) (MLBR_RS00660) LLM class flavin-depend...  48.5    3e-06
+VFG029344(gb|WP_085981839) (MULP_RS08955) LLM class flavin-depend...  47.8    4e-06
+
+
+>VFG029361(gb|WP_003876826) (MAP4_RS19005) LLM class flavin-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium avium subsp. paratuberculosis MAP4]
+Length=375
+
+ Score = 64.3 bits (155),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 67/243 (28%), Positives = 104/243 (43%), Gaps = 33/243 (14%)
+
+Query  22   FPSVIAQAREAEAAGYDSLFVMDHFYQLPMLGTPDQPMLEAYTALGALATA---------  72
+             P  +++  E ++  Y S+++ DH         PD      +T L   + +         
+Sbjct  13   LPLDLSRLDEFDSGRYHSVWLPDHMVSF----WPDSIWAPEFTDLATASPSPHRHLDGLA  68
+
+Query  73   --------TERLQLGALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFELEHR-Q  123
+                    TER  L + V     R P LLA+   TLD +S GR ILG+G+G  E E+   
+Sbjct  69   VAAAVAVLTERAPLVSAVVDTVRRHPALLAQTALTLDHLSKGRFILGLGSG--ESENTVP  126
+
+Query  124  LGFEFGTFSDRFNRLEEALQILEPMVKGERPT-FFGDWYTTESAM--AEPRYRDRIPILI  180
+             GF+F     RF   EEAL+++  +   + P  F G++Y+   A    EP +    PI I
+Sbjct  127  YGFDFARPVSRF---EEALRVIRLLWDTDGPVDFDGEFYSLHQARLDTEPYHGRLPPIWI  183
+
+Query  181  GGGGEKKTFAIAARFADHLNIVAAV--DELPRKMRALAARCDEAGRDRSTLQTSLLLTVM  238
+            G  G  +   IA R+AD      A   +   + + A+    + AGRD   +    +   +
+Sbjct  184  GASG-PRMLDIAGRYADGWWPAGAWTPEHYAQMLGAVRVSAERAGRDPMAITPCFIQVCL  242
+
+Query  239  IDE  241
+            I E
+Sbjct  243  IGE  245
+
+
+>VFG024785(gb|WP_008262659) (W7S_RS00325) LLM class flavin-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium intracellulare str. MOTT36Y]
+Length=375
+
+ Score = 60.1 bits (144),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 62/243 (26%), Positives = 103/243 (42%), Gaps = 33/243 (14%)
+
+Query  22   FPSVIAQAREAEAAGYDSLFVMDHFYQLPMLGTPDQPMLEAYTALGALATA---------  72
+             P  +++  E ++  Y S+++ DH         PD      +T L   + +         
+Sbjct  13   LPLDLSRLGELDSGRYHSIWLPDHMVSF----WPDSIWTPEFTDLATASPSPHRHLDGLA  68
+
+Query  73   --------TERLQLGALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFELEHR-Q  123
+                    TER+ + + V     R P +LA+   T+D ++ GR ILG+G+G  E E+   
+Sbjct  69   VAAAAAVLTERVPIVSAVVDTVRRHPVMLAQTALTIDHLAKGRFILGLGSG--ESENTLP  126
+
+Query  124  LGFEFGTFSDRFNRLEEALQILEPMVKGERPT-FFGDWYTTESAM--AEPRYRDRIPILI  180
+             GF+   FS   +R EEAL ++  + + + P  F G +Y+   A    EP Y  R P + 
+Sbjct  127  YGFD---FSRPVSRFEEALTVIRLLWRSDGPVDFDGQFYSLHHARLDTEP-YEGRPPQIW  182
+
+Query  181  GGGGEKKTFAIAARFADHLNIVAAV--DELPRKMRALAARCDEAGRDRSTLQTSLLLTVM  238
+             G    +   IA R AD      A   +     + A+    + +GRD   +  S +   +
+Sbjct  183  IGASGPRMLDIAGRHADGWWPAGAWTPEHYAEMLSAVRTSAERSGRDPMAITPSFIQVCL  242
+
+Query  239  IDE  241
+            I E
+Sbjct  243  IGE  245
+
+
+>VFG024783(gb|WP_011894240) (MSPYR1_RS13340) LLM class flavin-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation 
+(VFC0258)] [Mycobacterium gilvum Spyr1]
+Length=389
+
+ Score = 59.7 bits (143),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 67/243 (28%), Positives = 105/243 (43%), Gaps = 28/243 (12%)
+
+Query  21   LFPSVIAQAREAEAAGYDSLFVMDHFYQL--PMLGTPDQ------------PMLEAYTAL  66
+            L PS  A    A A G DS +V DH   L    + TP+              +LE +T L
+Sbjct  29   LLPS--AAMLTASATGADSFWVGDHINSLVPRSVATPEHLGLAAKLVPKVDAILEPWTML  86
+
+Query  67   GALATATE-RLQLGALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFELEHRQLG  125
+            G LA     RL+ G  VT  + R P + A+   TL +++ GRAILGIG G      R+  
+Sbjct  87   GHLAARHRGRLRFGVGVTDASRRHPAVTAQAAATLHLLTRGRAILGIGVG-----EREGN  141
+
+Query  126  FEFGT-FSDRFNRLEEALQILEPMVK--GERPTFFGDWYTTESAMAE-PRYRDRIPILIG  181
+              +G  ++    R  EAL  +  + +  GE  T   D++    A+ + P Y+ R P +  
+Sbjct  142  EPYGVEWTKPVARFVEALATIRALWESGGEPVTRESDYFPLRHAVFDLPPYKGRWPEIWV  201
+
+Query  182  GGGEKKTFAIAARFADHLN--IVAAVDELPRKMRALAARCDEAGRDRSTLQTSLLLTVMI  239
+                 +      R+AD     +++   +  R + A+     + GRD   +  ++  TV+ 
+Sbjct  202  AAHGPRMLRATGRYADGWVPFVISRPADYARALDAVRTAASDNGRDPMAIVPAVNRTVVT  261
+
+Query  240  DET  242
+              T
+Sbjct  262  GRT  264
+
+
+>VFG029362(gb|WP_015304710) (MYCSM_RS03285) LLM class flavin-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium smegmatis JS623]
+Length=381
+
+ Score = 58.5 bits (140),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 76/286 (27%), Positives = 124/286 (43%), Gaps = 38/286 (13%)
+
+Query  32   AEAAGYDSLFVMDHFYQL--------------PMLGTPDQPMLEAYTALGALATATE--R  75
+            A AA  DS +V DH   L               ++  PD  +LE +T LG +A      R
+Sbjct  30   ALAARADSFWVPDHLNALFPRSLWSPKYSDAARIVPAPDA-VLEPWTMLGHIAARNRFRR  88
+
+Query  76   LQLGALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFELEHRQLGFEFGT-FSDR  134
+            + LG  VT    R+P + A+   TL +++ GR ILGIG G      R+    +G  +S  
+Sbjct  89   MSLGIGVTDAGRRNPAVTAQAAATLHLLTRGRTILGIGPG-----EREGNEPYGVDWSKP  143
+
+Query  135  FNRLEEALQILEPM--VKGERPTFFGDWYTTESAMAE-PRYRDRIP-ILIGGGGEKKTFA  190
+              R EEA+  +  +   KGE       ++   +A+ + P+Y+   P I I G G +   A
+Sbjct  144  VGRFEEAMATIRALWDSKGELVNRDSPFFPLRNAVFDLPQYQGTWPQIWIAGHGPRMLRA  203
+
+Query  191  IAARFADHL--NIVAAVDELPRKMRALAARCDEAGRDRSTLQTSLLLTVMIDETLSPDAI  248
+            +  R+ D        +  E  +++ A+     +AGRD   +  ++ +  +   T   DA+
+Sbjct  204  V-GRYGDGFFPAFPHSPQEYAQRLEAVRIAASDAGRDPMKIVPAIWMMTVAGRTR--DAV  260
+
+Query  249  PAEMSGRVVVGSPAQIADQIQAKV-----LDAGVDGLIINLAPHGY  289
+               +   V+      ++D+  AK      L  G  G   +L PHG+
+Sbjct  261  DEAIECEVIKSFGLNMSDEFFAKYGAQHPLGVGFSG-AQDLLPHGF  305
+
+
+>VFG029342(gb|WP_015291072) (BN42_RS15745) phthiodiolone/phenolphthiodiolone 
+dimycocerosates ketoreductase [PDIM (VF0309) 
+- Immune modulation (VFC0258)] [Mycobacterium canettii CIPT 
+140070010]
+Length=381
+
+ Score = 58.5 bits (140),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 65/230 (28%), Positives = 104/230 (45%), Gaps = 28/230 (12%)
+
+Query  19   EKLFPSVIAQAREAEAA--GYDSLFVMDHFYQL--------PMLGTPDQ--PMLEA----  62
+             +L P++ A++  A A   G DS +V DH   L          LG   +  P ++A    
+Sbjct  15   SRLPPTLPARSSMAAATVMGADSYWVGDHLNALVPRSIATSEYLGIAAKFVPKIDANYEP  74
+
+Query  63   YTALGALATA-TERLQLGALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFELEH  121
+            +T LG LA     RL+LG  VT    R+P + A+   TL +++ GRAILGIG G      
+Sbjct  75   WTMLGNLAFGLPSRLRLGVCVTDAGRRNPAVTAQAAATLHLLTRGRAILGIGVG-----E  129
+
+Query  122  RQLGFEFGT-FSDRFNRLEEALQILEPM--VKGERPTFFGDWYTTESAMAE-PRYRDRIP  177
+            R+    +G  ++    R EEAL  +  +    GE  +    ++   +A+ + P YR + P
+Sbjct  130  REGNEPYGVEWTKPVARFEEALATIRALWNSNGELVSRESPYFPLHNALFDLPPYRGKWP  189
+
+Query  178  ILIGGGGEKKTFAIAARFADHLNIVAAV--DELPRKMRALAARCDEAGRD  225
+             +       +      R+AD    +  V   +  R + A+ +   +AGRD
+Sbjct  190  EIWVAAHGPRMLRATGRYADAWIPIVVVRPSDYSRALEAVRSAASDAGRD  239
+
+
+>VFG024791(gb|WP_014001502) (MCAN_RS15610) phthiodiolone/phenolphthiodiolone 
+dimycocerosates ketoreductase [PDIM (VF0309) 
+- Immune modulation (VFC0258)] [Mycobacterium canettii CIPT 
+140010059]
+Length=381
+
+ Score = 58.5 bits (140),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 65/230 (28%), Positives = 104/230 (45%), Gaps = 28/230 (12%)
+
+Query  19   EKLFPSVIAQAREAEAA--GYDSLFVMDHFYQL--------PMLGTPDQ--PMLEA----  62
+             +L P++ A++  A A   G DS +V DH   L          LG   +  P ++A    
+Sbjct  15   SRLPPTLPARSSMAAATVMGADSYWVGDHLNALVPRSIATSEYLGIAAKFVPKIDANYEP  74
+
+Query  63   YTALGALATA-TERLQLGALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFELEH  121
+            +T LG LA     RL+LG  VT    R+P + A+   TL +++ GRAILGIG G      
+Sbjct  75   WTMLGNLAFGLPSRLRLGVCVTDAGRRNPAVTAQAAATLQLLTRGRAILGIGVG-----E  129
+
+Query  122  RQLGFEFGT-FSDRFNRLEEALQILEPM--VKGERPTFFGDWYTTESAMAE-PRYRDRIP  177
+            R+    +G  ++    R EEAL  +  +    GE  +    ++   +A+ + P YR + P
+Sbjct  130  REGNEPYGVEWTKPVARFEEALATIRALWNSNGELVSRESPYFPLHNALFDLPPYRGKWP  189
+
+Query  178  ILIGGGGEKKTFAIAARFADHLNIVAAV--DELPRKMRALAARCDEAGRD  225
+             +       +      R+AD    +  V   +  R + A+ +   +AGRD
+Sbjct  190  EIWVAAHGPRMLRATGRYADAWIPIVVVRPSDYSRALEAVRSAASDAGRD  239
+
+
+>VFG029343(gb|WP_015294052) (BN45_RS15640) phthiodiolone/phenolphthiodiolone 
+dimycocerosates ketoreductase [PDIM (VF0309) 
+- Immune modulation (VFC0258)] [Mycobacterium canettii CIPT 
+140070017]
+Length=381
+
+ Score = 58.2 bits (139),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 65/230 (28%), Positives = 104/230 (45%), Gaps = 28/230 (12%)
+
+Query  19   EKLFPSVIAQAREAEAA--GYDSLFVMDHFYQL--------PMLGTPDQ--PMLEA----  62
+             +L P++ A++  A A   G DS +V DH   L          LG   +  P ++A    
+Sbjct  15   SRLPPTLPARSSMAAATVMGADSYWVGDHLNALVPRSIATSEYLGIAAKFVPKIDANYEP  74
+
+Query  63   YTALGALATA-TERLQLGALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFELEH  121
+            +T LG LA     RL+LG  VT    R+P + A+   TL +++ GRAILGIG G      
+Sbjct  75   WTMLGNLAFGLPSRLRLGVCVTDAGRRNPAVTAQAAATLHLLTRGRAILGIGVG-----E  129
+
+Query  122  RQLGFEFGT-FSDRFNRLEEALQILEPM--VKGERPTFFGDWYTTESAMAE-PRYRDRIP  177
+            R+    +G  ++    R EEAL  +  +    GE  +    ++   +A+ + P YR + P
+Sbjct  130  REGNEPYGVEWTKPVARFEEALATIRALWNSNGELVSRESPYFPLHNALFDLPPYRGKWP  189
+
+Query  178  ILIGGGGEKKTFAIAARFADHLNIVAAV--DELPRKMRALAARCDEAGRD  225
+             +       +      R+AD    +  V   +  R + A+ +   +AGRD
+Sbjct  190  EIWVAAHGPRMLRATGRYADAWIPIVVVRPSDYSRALEAVRSAASDAGRD  239
+
+
+>VFG029341(gb|WP_015303656) (BN43_RS15555) phthiodiolone/phenolphthiodiolone 
+dimycocerosates ketoreductase [PDIM (VF0309) 
+- Immune modulation (VFC0258)] [Mycobacterium canettii CIPT 
+140070008]
+Length=381
+
+ Score = 58.2 bits (139),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 65/230 (28%), Positives = 104/230 (45%), Gaps = 28/230 (12%)
+
+Query  19   EKLFPSVIAQAREAEAA--GYDSLFVMDHFYQL--------PMLGTPDQ--PMLEA----  62
+             +L P++ A++  A A   G DS +V DH   L          LG   +  P ++A    
+Sbjct  15   SRLPPTLPARSSMAAATVMGADSYWVGDHLNALVPRSIATSEYLGIAAKFVPKIDANYEP  74
+
+Query  63   YTALGALATA-TERLQLGALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFELEH  121
+            +T LG LA     RL+LG  VT    R+P + A+   TL +++ GRAILGIG G      
+Sbjct  75   WTMLGNLAFGLPSRLRLGVCVTDAGRRNPAVTAQAAATLHLLTRGRAILGIGVG-----E  129
+
+Query  122  RQLGFEFGT-FSDRFNRLEEALQILEPM--VKGERPTFFGDWYTTESAMAE-PRYRDRIP  177
+            R+    +G  ++    R EEAL  +  +    GE  +    ++   +A+ + P YR + P
+Sbjct  130  REGNEPYGVEWTKPVARFEEALATIRALWNSNGELVSRESPYFPLHNALFDLPPYRGKWP  189
+
+Query  178  ILIGGGGEKKTFAIAARFADHLNIVAAV--DELPRKMRALAARCDEAGRD  225
+             +       +      R+AD    +  V   +  R + A+ +   +AGRD
+Sbjct  190  EIWVAAHGPRMLRATGRYADAWIPIVVVRPSDYSRALEAVRSAASDAGRD  239
+
+
+>VFG024798(gb|WP_003917712) (MT_RS15465) phthiodiolone/phenolphthiodiolone 
+dimycocerosates ketoreductase [PDIM (VF0309) - 
+Immune modulation (VFC0258)] [Mycobacterium tuberculosis CDC1551]
+Length=381
+
+ Score = 58.2 bits (139),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 65/230 (28%), Positives = 104/230 (45%), Gaps = 28/230 (12%)
+
+Query  19   EKLFPSVIAQAREAEAA--GYDSLFVMDHFYQL--------PMLGTPDQ--PMLEA----  62
+             +L P++ A++  A A   G DS +V DH   L          LG   +  P ++A    
+Sbjct  15   SRLPPTLPARSSMAAATVMGADSYWVGDHLNALVPRSIATSEYLGIAAKFVPKIDANYEP  74
+
+Query  63   YTALGALATA-TERLQLGALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFELEH  121
+            +T LG LA     RL+LG  VT    R+P + A+   TL +++ GRAILGIG G      
+Sbjct  75   WTMLGNLAFGLPSRLRLGVCVTDAGRRNPAVTAQAAATLHLLTRGRAILGIGVG-----E  129
+
+Query  122  RQLGFEFGT-FSDRFNRLEEALQILEPM--VKGERPTFFGDWYTTESAMAE-PRYRDRIP  177
+            R+    +G  ++    R EEAL  +  +    GE  +    ++   +A+ + P YR + P
+Sbjct  130  REGNEPYGVEWTKPVARFEEALATIRALWNSNGELISRESPYFPLHNALFDLPPYRGKWP  189
+
+Query  178  ILIGGGGEKKTFAIAARFADHLNIVAAV--DELPRKMRALAARCDEAGRD  225
+             +       +      R+AD    +  V   +  R + A+ +   +AGRD
+Sbjct  190  EIWVSAHGPRMLRATGRYADAWIPIVVVRPSDYSRALEAVRSAASDAGRD  239
+
+
+>VFG029352(gb|WP_015456463) (ERDMAN_RS15530) phthiodiolone/phenolphthiodiolone 
+dimycocerosates ketoreductase [PDIM (VF0309) 
+- Immune modulation (VFC0258)] [Mycobacterium tuberculosis 
+str. Erdman (ATCC 35801)]
+Length=381
+
+ Score = 58.2 bits (139),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 65/230 (28%), Positives = 104/230 (45%), Gaps = 28/230 (12%)
+
+Query  19   EKLFPSVIAQAREAEAA--GYDSLFVMDHFYQL--------PMLGTPDQ--PMLEA----  62
+             +L P++ A++  A A   G DS +V DH   L          LG   +  P ++A    
+Sbjct  15   SRLPPTLPARSSMAAATVMGADSYWVGDHLNALVPRSIATSEYLGIAAKFVPKIDANYEP  74
+
+Query  63   YTALGALATA-TERLQLGALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFELEH  121
+            +T LG LA     RL+LG  VT    R+P + A+   TL +++ GRAILGIG G      
+Sbjct  75   WTMLGNLAFGLPSRLRLGVCVTDAGRRNPAVTAQAAATLHLLTRGRAILGIGVG-----E  129
+
+Query  122  RQLGFEFGT-FSDRFNRLEEALQILEPM--VKGERPTFFGDWYTTESAMAE-PRYRDRIP  177
+            R+    +G  ++    R EEAL  +  +    GE  +    ++   +A+ + P YR + P
+Sbjct  130  REGNEPYGVEWTKPVARFEEALATIRALWNSNGELISRESPYFPLHNALFDLPPYRGKWP  189
+
+Query  178  ILIGGGGEKKTFAIAARFADHLNIVAAV--DELPRKMRALAARCDEAGRD  225
+             +       +      R+AD    +  V   +  R + A+ +   +AGRD
+Sbjct  190  EIWVAAHGPRMLRATGRYADAWIPIVVVRPSDYSRALEAVRSAASDAGRD  239
+
+
+>VFG024796(gb|NP_217467) (Rv2951c) phthiodiolone/phenolphthiodiolone 
+dimycocerosates ketoreductase [PDIM (VF0309) - Immune 
+modulation (VFC0258)] [Mycobacterium tuberculosis H37Rv]
+Length=381
+
+ Score = 58.2 bits (139),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 65/230 (28%), Positives = 104/230 (45%), Gaps = 28/230 (12%)
+
+Query  19   EKLFPSVIAQAREAEAA--GYDSLFVMDHFYQL--------PMLGTPDQ--PMLEA----  62
+             +L P++ A++  A A   G DS +V DH   L          LG   +  P ++A    
+Sbjct  15   SRLPPTLPARSSMAAATVMGADSYWVGDHLNALVPRSIATSEYLGIAAKFVPKIDANYEP  74
+
+Query  63   YTALGALATA-TERLQLGALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFELEH  121
+            +T LG LA     RL+LG  VT    R+P + A+   TL +++ GRAILGIG G      
+Sbjct  75   WTMLGNLAFGLPSRLRLGVCVTDAGRRNPAVTAQAAATLHLLTRGRAILGIGVG-----E  129
+
+Query  122  RQLGFEFGT-FSDRFNRLEEALQILEPM--VKGERPTFFGDWYTTESAMAE-PRYRDRIP  177
+            R+    +G  ++    R EEAL  +  +    GE  +    ++   +A+ + P YR + P
+Sbjct  130  REGNEPYGVEWTKPVARFEEALATIRALWNSNGELISRESPYFPLHNALFDLPPYRGKWP  189
+
+Query  178  ILIGGGGEKKTFAIAARFADHLNIVAAV--DELPRKMRALAARCDEAGRD  225
+             +       +      R+AD    +  V   +  R + A+ +   +AGRD
+Sbjct  190  EIWVAAHGPRMLRATGRYADAWIPIVVVRPSDYSRALEAVRSAASDAGRD  239
+
+
+>VFG024787(gb|WP_014385951) (OCQ_RS23585) LLM class flavin-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium intracellulare MOTT-64]
+Length=378
+
+ Score = 50.8 bits (120),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 56/217 (26%), Positives = 88/217 (41%), Gaps = 26/217 (12%)
+
+Query  30   REAEAAGYDSLFVMDH-------------FYQLPMLGTPDQPMLEAYTALGALATAT--E  74
+            R A   G DS ++ DH             +  +  L       LE +T LG LA      
+Sbjct  25   RVAMLTGADSYWLPDHLNAFLPRAVMTPKYSGIARLAPHADAFLEPWTTLGHLAGRHRFN  84
+
+Query  75   RLQLGALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFELEHRQLGFEFGT-FSD  133
+            R++LG  VT    R+P + A+   TL +++ GRA+LGIG G      R+    +G  +S 
+Sbjct  85   RMRLGTCVTDTGRRNPAVTAQTAATLHLMTRGRAVLGIGTG-----EREGNEPYGVDWSK  139
+
+Query  134  RFNRLEEALQILEPM--VKGERPTFFGDWYTTESAMAE-PRYRDRIPILIGGGGEKKTFA  190
+               R EE L  +  +    G+      +W+   +A+   P  +   P +       +   
+Sbjct  140  PVARFEEGLATIRALWNSNGQLVNRDSEWFPLRNAIFTLPAVKGNRPQIWVASHGPRMLR  199
+
+Query  191  IAARFADHLNIVAAV--DELPRKMRALAARCDEAGRD  225
+               R+AD    VA V  +     +  + A  D+A RD
+Sbjct  200  ATGRYADGWFPVAIVSPERYATGLEQVRAAADDANRD  236
+
+
+>VFG024786(gb|WP_009955570) (OCO_RS23065) LLM class flavin-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium intracellulare MOTT-02]
+Length=378
+
+ Score = 50.4 bits (119),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 56/217 (26%), Positives = 88/217 (41%), Gaps = 26/217 (12%)
+
+Query  30   REAEAAGYDSLFVMDH-------------FYQLPMLGTPDQPMLEAYTALGALATAT--E  74
+            R A   G DS ++ DH             +  +  L       LE +T LG LA      
+Sbjct  25   RVAMLTGADSYWLPDHLNAFLPRAVMTPKYSGIARLAPDADAFLEPWTTLGHLAGRHRFN  84
+
+Query  75   RLQLGALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFELEHRQLGFEFGT-FSD  133
+            R++LG  VT    R+P + A+   TL +++ GRA+LGIG G      R+    +G  +S 
+Sbjct  85   RMRLGTCVTDTGRRNPAVTAQAAATLHLMTRGRAVLGIGTG-----EREGNEPYGVDWSK  139
+
+Query  134  RFNRLEEALQILEPM--VKGERPTFFGDWYTTESAMAE-PRYRDRIPILIGGGGEKKTFA  190
+               R EE L  +  +    G+      +W+   +A+   P  +   P +       +   
+Sbjct  140  PVARFEEGLATIRALWNSNGQLVNRDSEWFPLRNAIFTLPAVKGNRPQIWVASHGPRMLR  199
+
+Query  191  IAARFADHLNIVAAV--DELPRKMRALAARCDEAGRD  225
+               R+AD    VA V  +     +  + A  D+A RD
+Sbjct  200  ATGRYADGWFPVAIVSPERYATGLEQVRAAADDANRD  236
+
+
+>VFG024784(gb|WP_014943057) (MIP_RS23660) LLM class flavin-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium indicus pranii MTCC 9506]
+Length=378
+
+ Score = 50.4 bits (119),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 56/217 (26%), Positives = 88/217 (41%), Gaps = 26/217 (12%)
+
+Query  30   REAEAAGYDSLFVMDH-------------FYQLPMLGTPDQPMLEAYTALGALATAT--E  74
+            R A   G DS ++ DH             +  +  L       LE +T LG LA      
+Sbjct  25   RVAMLTGADSYWLPDHLNAFLPRAVMTPKYSGIARLAPHADAFLEPWTTLGHLAGRHRFN  84
+
+Query  75   RLQLGALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFELEHRQLGFEFGT-FSD  133
+            R++LG  VT    R+P + A+   TL +++ GRA+LGIG G      R+    +G  +S 
+Sbjct  85   RMRLGTCVTDTGRRNPAVTAQAAATLHLMTRGRAVLGIGTG-----EREGNEPYGVDWSK  139
+
+Query  134  RFNRLEEALQILEPM--VKGERPTFFGDWYTTESAMAE-PRYRDRIPILIGGGGEKKTFA  190
+               R EE L  +  +    G+      +W+   +A+   P  +   P +       +   
+Sbjct  140  PVARFEEGLATIRALWNSNGQLVNRDSEWFPLRNAIFTLPAVKGNRPQIWVASHGPRMLR  199
+
+Query  191  IAARFADHLNIVAAV--DELPRKMRALAARCDEAGRD  225
+               R+AD    VA V  +     +  + A  D+A RD
+Sbjct  200  ATGRYADGWFPVAIVSPERYATGLEQVRAAADDANRD  236
+
+
+>VFG024789(gb|WP_085979805) (MMAR_RS08710) LLM class flavin-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium marinum M]
+Length=362
+
+ Score = 50.1 bits (118),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 66/257 (26%), Positives = 111/257 (43%), Gaps = 39/257 (15%)
+
+Query  36   GYDSLFVMDHFYQL--PMLGTPD------------QPMLEAYTALGALATAT--ERLQLG  79
+            G DS ++ DH   L    + TP+                E +T LG LA      RL+LG
+Sbjct  14   GADSYWIGDHLNALVPRSVATPEFLGLGARLVPKVDANYEPWTMLGNLAAGNRINRLRLG  73
+
+Query  80   ALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFELEHRQLGFEFGT-FSDRFNRL  138
+              VT    R+P + A+   T+ +++ GRAILGIG G      R+    +G  +S    R 
+Sbjct  74   VCVTDVGRRNPAVTAQAAATVHLLTRGRAILGIGVG-----EREGNEPYGVEWSKPVARF  128
+
+Query  139  EEALQILEPM--VKGERPTFFGDWYTTESAMAE-PRYRDRIPILIGGGGEKKTFAIAARF  195
+            EE L  +  +    G   T    ++   +A+ + P Y+ + P +       +      R+
+Sbjct  129  EEGLATIRALWDSNGALVTRESPYFPLRNALFDLPPYKGKWPEIWVAAHGPRMLRATGRY  188
+
+Query  196  ADHLNIVAAV--DELPRKMRALAARCDEAGRDRSTLQTSLLLTVM-------IDETLSPD  246
+            AD    +  +   +  R + A+ A   +AGRD  ++  S +  V+       +DE L  D
+Sbjct  189  ADAWVPIVIIRPTDYSRALEAVRAAASDAGRDPMSITPSAVRGVVTGWSRDDVDEAL--D  246
+
+Query  247  AIPAEMSGRVVVGSPAQ  263
+            ++  +M+    +G PA+
+Sbjct  247  SVIVKMNA---LGMPAE  260
+
+
+>VFG024794(gb|WP_010907550) (MLBR_RS00660) LLM class flavin-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium leprae Br4923]
+Length=382
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 57/203 (28%), Positives = 90/203 (44%), Gaps = 28/203 (14%)
+
+Query  18   VEKLFP-SVIAQAREAEAA--GYDSLFVMDHFYQL--PMLGTPDQ--------PMLEA--  62
+            V  LFP S+ A+A     A  G DS +V DH   L    + TP          P ++A  
+Sbjct  13   VHTLFPPSLPARASIVSGAVLGADSYWVGDHLNALVPRSVATPKYLGVAAKVVPKIDANY  72
+
+Query  63   --YTALGALATAT--ERLQLGALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFE  118
+              +T LG LA       L+LG  VT    R+P + A+   TL +++ G+A+LGIG G   
+Sbjct  73   EPWTMLGNLAAGNRLNGLRLGVCVTDAGRRNPAVTAQAAATLHLLTRGKAMLGIGVG---  129
+
+Query  119  LEHRQLGFEFGT-FSDRFNRLEEALQILEPM--VKGERPTFFGDWYTTESAMAE-PRYRD  174
+               R+    +G  ++    R +EAL  +  +    GE  +    ++   +A+ + P YR 
+Sbjct  130  --EREGNEPYGVEWTKPVARFQEALATIRALWDSNGELVSRESQFFPLHNALFDLPPYRG  187
+
+Query  175  RIPILIGGGGEKKTFAIAARFAD  197
+            + P +       +      R+AD
+Sbjct  188  KWPEIWVAAHGPRMLQATGRYAD  210
+
+
+>VFG029344(gb|WP_085981839) (MULP_RS08955) LLM class flavin-dependent 
+oxidoreductase [PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium liflandii 128FXT]
+Length=362
+
+ Score = 47.8 bits (112),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 65/257 (25%), Positives = 110/257 (43%), Gaps = 39/257 (15%)
+
+Query  36   GYDSLFVMDHFYQL--PMLGTPD------------QPMLEAYTALGALATAT--ERLQLG  79
+            G DS ++ DH   L    + TP+                E +T LG  A      RL+LG
+Sbjct  14   GADSYWIGDHLNALVPRSVATPEFLGLGARLVPKVDANYEPWTMLGNRAAGNRINRLRLG  73
+
+Query  80   ALVTGNTYRSPTLLAKIITTLDVVSAGRAILGIGAGWFELEHRQLGFEFGT-FSDRFNRL  138
+              VT    R+P + A+   T+ +++ GRAILGIG G      R+    +G  +S    R 
+Sbjct  74   VCVTDVGRRNPAVTAQAAATVHLLTRGRAILGIGVG-----EREGNEPYGVEWSKPVARF  128
+
+Query  139  EEALQILEPM--VKGERPTFFGDWYTTESAMAE-PRYRDRIPILIGGGGEKKTFAIAARF  195
+            EE L  +  +    G   T    ++   +A+ + P Y+ + P +       +      R+
+Sbjct  129  EEGLATIRALWDSNGALVTRESPYFPLRNALFDLPPYKGKWPEIWVAAHGPRMLRATGRY  188
+
+Query  196  ADHLNIVAAV--DELPRKMRALAARCDEAGRDRSTLQTSLLLTVM-------IDETLSPD  246
+            AD    +  +   +  R + A+ A   +AGRD  ++  S +  V+       +DE L  D
+Sbjct  189  ADAWVPIVIIRPTDYSRALEAVRAAASDAGRDPMSITPSAVRGVVTGWSRDDVDEAL--D  246
+
+Query  247  AIPAEMSGRVVVGSPAQ  263
+            ++  +M+    +G PA+
+Sbjct  247  SVIVKMNA---LGMPAE  260
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2173537881
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

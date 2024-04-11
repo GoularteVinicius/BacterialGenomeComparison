@@ -1,0 +1,121 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1783.t1
+
+Length=265
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1762876549
+
+
+Query= g549.t1
+
+Length=262
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1731208108
+
+
+Query= g2863.t1
+
+Length=271
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG050118(gb|WP_000291846) (cesH) hydrolase, alpha/beta superfami...  50.4    3e-07
+
+
+>VFG050118(gb|WP_000291846) (cesH) hydrolase, alpha/beta superfamily, 
+CesH [Cereulide (VF0583) - Exotoxin (VFC0235)] [Bacillus 
+cereus AH187]
+Length=260
+
+ Score = 50.4 bits (119),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 51/242 (21%), Positives = 105/242 (43%), Gaps = 18/242 (7%)
+
+Query  25   LLLIHGGGLTAKSWQGLAKEASRYFRVIMPDSRGHGLTNNPQGTFSYDLMTEDMAAFVKA  84
+            ++ IHGGG++   W    +  S+ F  ++ D   HG +   +  FS D   E +   ++ 
+Sbjct  14   MVYIHGGGVSGWMWDKQVEYFSQKFHCLVLDLPEHGHSRKDEQIFSIDHAAEQIIKLIEE  73
+
+Query  85   LKLEKPLV-MGYSDGGMVVLKLTSRYPDLARAAIVGGATHR---FATTHYMQGMEIFYGK  140
+             +  K +V +G+S G  V+L + S+  DL   A++  A  +   FA       +     +
+Sbjct  74   KREGKSVVAIGFSLGSQVLLSMLSKKKDLIDFAMINSALVKPIPFANI-----LNKIMAR  128
+
+Query  141  GMPQGQLTDRDLDKMASDAPGMVKFYQNMHHPEQKDYWR-TFLKGVWPMWTTPTSLAEEE  199
+             +P G+   +   K+ +    + + Y N+++ E     +  FL+    M    +    + 
+Sbjct  129  ALPLGK--KKAFSKVQAKNLYINEEYFNLYYQESLQINKDAFLR---VMNENSSFKIPKT  183
+
+Query  200  VKKIHIPVLLLDGDRDEFFTVEEVTELYRLLPQAEMTLIPGSGHAIFQTPGKTPLFYALV  259
+             ++    +L+  G++++    + + E+    P  +  +IP  GH I   P   P  +  +
+Sbjct  184  FREYSHNILVTVGEKEKKIMKDSMKEIMDNNPNCQGVIIPKIGHGI---PLANPKLFNKM  240
+
+Query  260  LE  261
+            LE
+Sbjct  241  LE  242
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1826213431
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

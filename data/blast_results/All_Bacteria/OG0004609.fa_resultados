@@ -1,0 +1,101 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g691.t1
+
+Length=197
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG040876(gb|NP_249375) (PA0684) type II secretion system protein...  384     1e-138
+VFG040974(gb|WP_011003003) (RS_RS15630) type II secretion system ...  46.6    2e-06 
+
+
+>VFG040876(gb|NP_249375) (PA0684) type II secretion system protein 
+[Hxc (VF0945) - Effector delivery system (VFC0086)] [Pseudomonas 
+aeruginosa PAO1]
+Length=197
+
+ Score = 384 bits (987),  Expect = 1e-138, Method: Compositional matrix adjust.
+ Identities = 197/197 (100%), Positives = 197/197 (100%), Gaps = 0/197 (0%)
+
+Query  1    MKMNKRLAGLLNTPAQRWSPLLLRLQAYWRQLAPRERKILAGGGLALCLALTWQVFVDPP  60
+            MKMNKRLAGLLNTPAQRWSPLLLRLQAYWRQLAPRERKILAGGGLALCLALTWQVFVDPP
+Sbjct  1    MKMNKRLAGLLNTPAQRWSPLLLRLQAYWRQLAPRERKILAGGGLALCLALTWQVFVDPP  60
+
+Query  61   LARIEHWQAELPRLRAQAAAVDGVLREVEALRGPTLSGTADAEAIRRSLRDQGLDGFQLD  120
+            LARIEHWQAELPRLRAQAAAVDGVLREVEALRGPTLSGTADAEAIRRSLRDQGLDGFQLD
+Sbjct  61   LARIEHWQAELPRLRAQAAAVDGVLREVEALRGPTLSGTADAEAIRRSLRDQGLDGFQLD  120
+
+Query  121  APQPGQWQLDFASVSGEALLRWLARSPAALRLSVSEAQVTRLDAPSEERSGSSNELSGGL  180
+            APQPGQWQLDFASVSGEALLRWLARSPAALRLSVSEAQVTRLDAPSEERSGSSNELSGGL
+Sbjct  121  APQPGQWQLDFASVSGEALLRWLARSPAALRLSVSEAQVTRLDAPSEERSGSSNELSGGL  180
+
+Query  181  VSASIHLQSTSAPKDSP  197
+            VSASIHLQSTSAPKDSP
+Sbjct  181  VSASIHLQSTSAPKDSP  197
+
+
+>VFG040974(gb|WP_011003003) (RS_RS15630) type II secretion system 
+protein M [Gsp (VF1296) - Effector delivery system (VFC0086)] 
+[Ralstonia solanacearum GMI1000]
+Length=192
+
+ Score = 46.6 bits (109),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 44/145 (30%), Positives = 68/145 (47%), Gaps = 7/145 (5%)
+
+Query  25   LQAYWRQLAPRERKILAGGGLALCLALTWQVFVDPPLARIEHWQAELPRLRAQAAAVDGV  84
+            + A+W Q  PRER+ILAGGG  L L + + +F +P        +  LP +R Q A ++ +
+Sbjct  30   VAAFWMQREPRERRILAGGGAILLLVIVYLLFWEPAFEGRRRIEKALPEMRGQLAEMETL  89
+
+Query  85   LREVEALRG----PTLSGTADAEAIRRSLRDQGLDGFQLD-APQPGQWQLDFASVSGEAL  139
+             +E   L      P   G    +A+  SL   GL   ++  + +  Q QLD   V   A+
+Sbjct  90   GQEARELSAIAATPVPHGNDLQDALNTSLTAHGLKATRMALSGESVQVQLD--KVPFGAV  147
+
+Query  140  LRWLARSPAALRLSVSEAQVTRLDA  164
+              WL     A R+ V +A +  + A
+Sbjct  148  AEWLQEVRQAQRMKVIDASIRYVGA  172
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.131    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1085289486
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,514 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1675.t1
+
+Length=208
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015521(gb|NP_252906) (phzG1) phenazine biosynthesis protein Ph...  92.0    4e-23
+VFG015542(gb|NP_252905) (phzG2) pyridoxamine 5'-phosphate oxidase...  92.0    4e-23
+VFG015522(gb|WP_012074245) (phzG1) phenazine biosynthesis protein...  91.7    6e-23
+VFG015544(gb|WP_093945134) (phzG2) phenazine biosynthesis FMN-dep...  86.3    8e-21
+
+
+>VFG015521(gb|NP_252906) (phzG1) phenazine biosynthesis protein 
+PhzG, pyridoxamine 5'-phosphate oxidase [Pyocyanin (VF0100) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas aeruginosa 
+PAO1]
+Length=214
+
+ Score = 92.0 bits (227),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 63/189 (33%), Positives = 96/189 (51%), Gaps = 10/189 (5%)
+
+Query  26   LTLFCKWIDDAERAGVAEPNAMVLATV-ANGRPVSRSVLCKGADEAGIIFFTNYDSDKGD  84
+            + +   W++ A R GV EP A+ LATV   GRP +R V+     E G++F T+ DS KG 
+Sbjct  30   MEVLRNWLERARRYGVREPRALALATVDGQGRPSTRIVVIAELGERGVVFATHADSQKGR  89
+
+Query  85   DLAATPYASVTFPWYQLGRQVHIRGPVSTVDPQVSEDYWSKRPRGSQLGAWASHQSRPIA  144
+            +LA  P+AS    W +  +Q+ + G    +  + ++  W  RP  +   + AS QS  +A
+Sbjct  90   ELAQNPWASGVLYWRESSQQIILNGRAERLPDERADAQWLSRPYQTHPMSIASRQSETLA  149
+
+Query  145  SRTALLDQLLEVTVRFADSE-LIPLPPNWGGYLIVPEVVEFWQGRENRVHNRIRV---TG  200
+               AL  +      R A+++  +P PP +  + +  E VEFW     R+H R+R     G
+Sbjct  150  DIHALRAE----ARRLAETDGPLPRPPGYCLFELCLESVEFWGNGTERLHERLRYDRDEG  205
+
+Query  201  GCIER-LQP  208
+            G   R LQP
+Sbjct  206  GWKHRYLQP  214
+
+
+>VFG015542(gb|NP_252905) (phzG2) pyridoxamine 5'-phosphate oxidase 
+[Pyocyanin (VF0100) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=215
+
+ Score = 92.0 bits (227),  Expect = 4e-23, Method: Compositional matrix adjust.
+ Identities = 63/189 (33%), Positives = 96/189 (51%), Gaps = 10/189 (5%)
+
+Query  26   LTLFCKWIDDAERAGVAEPNAMVLATV-ANGRPVSRSVLCKGADEAGIIFFTNYDSDKGD  84
+            + +   W++ A R GV EP A+ LATV   GRP +R V+     E G++F T+ DS KG 
+Sbjct  31   MEVLRNWLERARRYGVREPRALALATVDGQGRPSTRIVVIAELGERGVVFATHADSQKGR  90
+
+Query  85   DLAATPYASVTFPWYQLGRQVHIRGPVSTVDPQVSEDYWSKRPRGSQLGAWASHQSRPIA  144
+            +LA  P+AS    W +  +Q+ + G    +  + ++  W  RP  +   + AS QS  +A
+Sbjct  91   ELAQNPWASGVLYWRESSQQIILNGRAERLPDERADAQWLSRPYQTHPMSIASRQSETLA  150
+
+Query  145  SRTALLDQLLEVTVRFADSE-LIPLPPNWGGYLIVPEVVEFWQGRENRVHNRIRV---TG  200
+               AL  +      R A+++  +P PP +  + +  E VEFW     R+H R+R     G
+Sbjct  151  DIHALRAE----ARRLAETDGPLPRPPGYCLFELCLESVEFWGNGTERLHERLRYDRDEG  206
+
+Query  201  GCIER-LQP  208
+            G   R LQP
+Sbjct  207  GWKHRYLQP  215
+
+
+>VFG015522(gb|WP_012074245) (phzG1) phenazine biosynthesis protein 
+PhzG, pyridoxamine 5'-phosphate oxidase [Pyocyanin (VF0100) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+aeruginosa PA7]
+Length=214
+
+ Score = 91.7 bits (226),  Expect = 6e-23, Method: Compositional matrix adjust.
+ Identities = 58/174 (33%), Positives = 90/174 (52%), Gaps = 6/174 (3%)
+
+Query  26   LTLFCKWIDDAERAGVAEPNAMVLATV-ANGRPVSRSVLCKGADEAGIIFFTNYDSDKGD  84
+            + +   W++ A R GV EP A+ LATV   GRP +R V+     E G++F T+ DS KG 
+Sbjct  30   MQVLRNWLERARRYGVREPRALALATVDGQGRPSTRIVVIAELGERGVVFATHADSQKGR  89
+
+Query  85   DLAATPYASVTFPWYQLGRQVHIRGPVSTVDPQVSEDYWSKRPRGSQLGAWASHQSRPIA  144
+            +LA  P+AS    W +  +QV + G    +  + ++  W  RP  +   + AS QS+ +A
+Sbjct  90   ELAQNPWASGVLYWRESSQQVILNGIAERLPDERADAQWLSRPYQTHPMSIASRQSQTLA  149
+
+Query  145  SRTALLDQLLEVTVRFADSE-LIPLPPNWGGYLIVPEVVEFWQGRENRVHNRIR  197
+               AL  +      R A++   +P PP +  + +  E VEFW     R+H R+R
+Sbjct  150  DIHALRAE----ARRLAETAGPLPRPPGYCLFELCLESVEFWGNGTERLHERLR  199
+
+
+>VFG015544(gb|WP_093945134) (phzG2) phenazine biosynthesis FMN-dependent 
+oxidase PhzG [Pyocyanin (VF0100) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=214
+
+ Score = 86.3 bits (212),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 59/188 (31%), Positives = 89/188 (47%), Gaps = 8/188 (4%)
+
+Query  26   LTLFCKWIDDAERAGVAEPNAMVLATV-ANGRPVSRSVLCKGADEAGIIFFTNYDSDKGD  84
+            + +   W++ A R GV EP A+ LATV   GRP +R V+     E G++F T+ DS KG 
+Sbjct  30   MEVLRNWLERARRYGVREPRALALATVDGQGRPSTRIVVIAELGERGVVFATHADSQKGR  89
+
+Query  85   DLAATPYASVTFPWYQLGRQVHIRGPVSTVDPQVSEDYWSKRPRGSQLGAWASHQSRPIA  144
+            +LA  P+AS    W +  +Q+ + G    +  + ++  W  RP  +   + AS QS  +A
+Sbjct  90   ELAQNPWASGVLYWRESSQQIILNGRAERLPDERADAQWLSRPYQTHPMSIASRQSETLA  149
+
+Query  145  SRTALLDQLLEVTVRFADSELIPLPPNWGGYLIVPEVVEFWQGRENRVHNRIRV---TGG  201
+                +                +P PP +  + +  E VEFW     R+H R+R     GG
+Sbjct  150  D---IHALRAAARRLAETDGPLPRPPGYCLFELCLESVEFWGNGTERLHERLRYDRDEGG  206
+
+Query  202  CIER-LQP  208
+               R LQP
+Sbjct  207  WKHRYLQP  214
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.441    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1202330509
+
+
+Query= g2571.t1
+
+Length=224
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015521(gb|NP_252906) (phzG1) phenazine biosynthesis protein Ph...  98.2    3e-25
+VFG015542(gb|NP_252905) (phzG2) pyridoxamine 5'-phosphate oxidase...  98.2    3e-25
+VFG015522(gb|WP_012074245) (phzG1) phenazine biosynthesis protein...  97.4    7e-25
+VFG015544(gb|WP_093945134) (phzG2) phenazine biosynthesis FMN-dep...  92.4    5e-23
+
+
+>VFG015521(gb|NP_252906) (phzG1) phenazine biosynthesis protein 
+PhzG, pyridoxamine 5'-phosphate oxidase [Pyocyanin (VF0100) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas aeruginosa 
+PAO1]
+Length=214
+
+ Score = 98.2 bits (243),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 63/174 (36%), Positives = 87/174 (50%), Gaps = 6/174 (3%)
+
+Query  42   LTLLRRWLNDAQRAGVSEPNAMVLATV-ADGKPVTRSVLCKILDESGVAFFTSYTSAKGE  100
+            + +LR WL  A+R GV EP A+ LATV   G+P TR V+   L E GV F T   S KG 
+Sbjct  30   MEVLRNWLERARRYGVREPRALALATVDGQGRPSTRIVVIAELGERGVVFATHADSQKGR  89
+
+Query  101  QLAVTPYASATFPWYQLGRQAHVQGPVSKVSTEEIFTYWSMRPRGAQLGAWASQQSRPVG  160
+            +LA  P+AS    W +  +Q  + G   ++  E     W  RP      + AS+QS  + 
+Sbjct  90   ELAQNPWASGVLYWRESSQQIILNGRAERLPDERADAQWLSRPYQTHPMSIASRQSETLA  149
+
+Query  161  SRAQLDNQLAEVTRRFADQD-QIPVPPGWGGYRIAPEIVEFWQGRENRMHNRIR  213
+                L  +     RR A+ D  +P PPG+  + +  E VEFW     R+H R+R
+Sbjct  150  DIHALRAE----ARRLAETDGPLPRPPGYCLFELCLESVEFWGNGTERLHERLR  199
+
+
+>VFG015542(gb|NP_252905) (phzG2) pyridoxamine 5'-phosphate oxidase 
+[Pyocyanin (VF0100) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=215
+
+ Score = 98.2 bits (243),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 63/174 (36%), Positives = 87/174 (50%), Gaps = 6/174 (3%)
+
+Query  42   LTLLRRWLNDAQRAGVSEPNAMVLATV-ADGKPVTRSVLCKILDESGVAFFTSYTSAKGE  100
+            + +LR WL  A+R GV EP A+ LATV   G+P TR V+   L E GV F T   S KG 
+Sbjct  31   MEVLRNWLERARRYGVREPRALALATVDGQGRPSTRIVVIAELGERGVVFATHADSQKGR  90
+
+Query  101  QLAVTPYASATFPWYQLGRQAHVQGPVSKVSTEEIFTYWSMRPRGAQLGAWASQQSRPVG  160
+            +LA  P+AS    W +  +Q  + G   ++  E     W  RP      + AS+QS  + 
+Sbjct  91   ELAQNPWASGVLYWRESSQQIILNGRAERLPDERADAQWLSRPYQTHPMSIASRQSETLA  150
+
+Query  161  SRAQLDNQLAEVTRRFADQD-QIPVPPGWGGYRIAPEIVEFWQGRENRMHNRIR  213
+                L  +     RR A+ D  +P PPG+  + +  E VEFW     R+H R+R
+Sbjct  151  DIHALRAE----ARRLAETDGPLPRPPGYCLFELCLESVEFWGNGTERLHERLR  200
+
+
+>VFG015522(gb|WP_012074245) (phzG1) phenazine biosynthesis protein 
+PhzG, pyridoxamine 5'-phosphate oxidase [Pyocyanin (VF0100) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+aeruginosa PA7]
+Length=214
+
+ Score = 97.4 bits (241),  Expect = 7e-25, Method: Compositional matrix adjust.
+ Identities = 62/173 (36%), Positives = 86/173 (50%), Gaps = 4/173 (2%)
+
+Query  42   LTLLRRWLNDAQRAGVSEPNAMVLATV-ADGKPVTRSVLCKILDESGVAFFTSYTSAKGE  100
+            + +LR WL  A+R GV EP A+ LATV   G+P TR V+   L E GV F T   S KG 
+Sbjct  30   MQVLRNWLERARRYGVREPRALALATVDGQGRPSTRIVVIAELGERGVVFATHADSQKGR  89
+
+Query  101  QLAVTPYASATFPWYQLGRQAHVQGPVSKVSTEEIFTYWSMRPRGAQLGAWASQQSRPVG  160
+            +LA  P+AS    W +  +Q  + G   ++  E     W  RP      + AS+QS+ + 
+Sbjct  90   ELAQNPWASGVLYWRESSQQVILNGIAERLPDERADAQWLSRPYQTHPMSIASRQSQTL-  148
+
+Query  161  SRAQLDNQLAEVTRRFADQDQIPVPPGWGGYRIAPEIVEFWQGRENRMHNRIR  213
+              A +    AE  R       +P PPG+  + +  E VEFW     R+H R+R
+Sbjct  149  --ADIHALRAEARRLAETAGPLPRPPGYCLFELCLESVEFWGNGTERLHERLR  199
+
+
+>VFG015544(gb|WP_093945134) (phzG2) phenazine biosynthesis FMN-dependent 
+oxidase PhzG [Pyocyanin (VF0100) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=214
+
+ Score = 92.4 bits (228),  Expect = 5e-23, Method: Compositional matrix adjust.
+ Identities = 61/173 (35%), Positives = 84/173 (49%), Gaps = 4/173 (2%)
+
+Query  42   LTLLRRWLNDAQRAGVSEPNAMVLATV-ADGKPVTRSVLCKILDESGVAFFTSYTSAKGE  100
+            + +LR WL  A+R GV EP A+ LATV   G+P TR V+   L E GV F T   S KG 
+Sbjct  30   MEVLRNWLERARRYGVREPRALALATVDGQGRPSTRIVVIAELGERGVVFATHADSQKGR  89
+
+Query  101  QLAVTPYASATFPWYQLGRQAHVQGPVSKVSTEEIFTYWSMRPRGAQLGAWASQQSRPVG  160
+            +LA  P+AS    W +  +Q  + G   ++  E     W  RP      + AS+QS  + 
+Sbjct  90   ELAQNPWASGVLYWRESSQQIILNGRAERLPDERADAQWLSRPYQTHPMSIASRQSETL-  148
+
+Query  161  SRAQLDNQLAEVTRRFADQDQIPVPPGWGGYRIAPEIVEFWQGRENRMHNRIR  213
+              A +    A   R       +P PPG+  + +  E VEFW     R+H R+R
+Sbjct  149  --ADIHALRAAARRLAETDGPLPRPPGYCLFELCLESVEFWGNGTERLHERLR  199
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1358350208
+
+
+Query= g1063.t1
+
+Length=215
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015521(gb|NP_252906) (phzG1) phenazine biosynthesis protein Ph...  114     2e-31
+VFG015542(gb|NP_252905) (phzG2) pyridoxamine 5'-phosphate oxidase...  114     2e-31
+VFG015522(gb|WP_012074245) (phzG1) phenazine biosynthesis protein...  113     3e-31
+VFG015544(gb|WP_093945134) (phzG2) phenazine biosynthesis FMN-dep...  108     3e-29
+
+
+>VFG015521(gb|NP_252906) (phzG1) phenazine biosynthesis protein 
+PhzG, pyridoxamine 5'-phosphate oxidase [Pyocyanin (VF0100) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas aeruginosa 
+PAO1]
+Length=214
+
+ Score = 114 bits (285),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 75/198 (38%), Positives = 105/198 (53%), Gaps = 14/198 (7%)
+
+Query  23   PSDPFSLFRQWFDDAVKTERLPV-EPNAMTLATVDADGYPHCRILLLKGLDERGFTFFTN  81
+            P++P  + R W + A    R  V EP A+ LATVD  G P  RI+++  L ERG  F T+
+Sbjct  26   PANPMEVLRNWLERA---RRYGVREPRALALATVDGQGRPSTRIVVIAELGERGVVFATH  82
+
+Query  82   YESAKGRQLAANPRAAMTFFWPALERQVRIEGSVEKVTPEESDAYYQVRPLGSRLGAWAS  141
+             +S KGR+LA NP A+   +W    +Q+ + G  E++  E +DA +  RP  +   + AS
+Sbjct  83   ADSQKGRELAQNPWASGVLYWRESSQQIILNGRAERLPDERADAQWLSRPYQTHPMSIAS  142
+
+Query  142  PQSRVIAD----RAELERLLADTERRFADQPPSCPEHWGGYRLLPQRIEFWQGRPSRLHD  197
+             QS  +AD    RAE  R LA+T     D P   P  +  + L  + +EFW     RLH+
+Sbjct  143  RQSETLADIHALRAEARR-LAET-----DGPLPRPPGYCLFELCLESVEFWGNGTERLHE  196
+
+Query  198  RLDYRRQDGGWLRERLAP  215
+            RL Y R +GGW    L P
+Sbjct  197  RLRYDRDEGGWKHRYLQP  214
+
+
+>VFG015542(gb|NP_252905) (phzG2) pyridoxamine 5'-phosphate oxidase 
+[Pyocyanin (VF0100) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=215
+
+ Score = 114 bits (284),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 75/198 (38%), Positives = 105/198 (53%), Gaps = 14/198 (7%)
+
+Query  23   PSDPFSLFRQWFDDAVKTERLPV-EPNAMTLATVDADGYPHCRILLLKGLDERGFTFFTN  81
+            P++P  + R W + A    R  V EP A+ LATVD  G P  RI+++  L ERG  F T+
+Sbjct  27   PANPMEVLRNWLERA---RRYGVREPRALALATVDGQGRPSTRIVVIAELGERGVVFATH  83
+
+Query  82   YESAKGRQLAANPRAAMTFFWPALERQVRIEGSVEKVTPEESDAYYQVRPLGSRLGAWAS  141
+             +S KGR+LA NP A+   +W    +Q+ + G  E++  E +DA +  RP  +   + AS
+Sbjct  84   ADSQKGRELAQNPWASGVLYWRESSQQIILNGRAERLPDERADAQWLSRPYQTHPMSIAS  143
+
+Query  142  PQSRVIAD----RAELERLLADTERRFADQPPSCPEHWGGYRLLPQRIEFWQGRPSRLHD  197
+             QS  +AD    RAE  R LA+T     D P   P  +  + L  + +EFW     RLH+
+Sbjct  144  RQSETLADIHALRAEARR-LAET-----DGPLPRPPGYCLFELCLESVEFWGNGTERLHE  197
+
+Query  198  RLDYRRQDGGWLRERLAP  215
+            RL Y R +GGW    L P
+Sbjct  198  RLRYDRDEGGWKHRYLQP  215
+
+
+>VFG015522(gb|WP_012074245) (phzG1) phenazine biosynthesis protein 
+PhzG, pyridoxamine 5'-phosphate oxidase [Pyocyanin (VF0100) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+aeruginosa PA7]
+Length=214
+
+ Score = 113 bits (283),  Expect = 3e-31, Method: Compositional matrix adjust.
+ Identities = 75/198 (38%), Positives = 104/198 (53%), Gaps = 14/198 (7%)
+
+Query  23   PSDPFSLFRQWFDDAVKTERLPV-EPNAMTLATVDADGYPHCRILLLKGLDERGFTFFTN  81
+            P++P  + R W + A    R  V EP A+ LATVD  G P  RI+++  L ERG  F T+
+Sbjct  26   PANPMQVLRNWLERA---RRYGVREPRALALATVDGQGRPSTRIVVIAELGERGVVFATH  82
+
+Query  82   YESAKGRQLAANPRAAMTFFWPALERQVRIEGSVEKVTPEESDAYYQVRPLGSRLGAWAS  141
+             +S KGR+LA NP A+   +W    +QV + G  E++  E +DA +  RP  +   + AS
+Sbjct  83   ADSQKGRELAQNPWASGVLYWRESSQQVILNGIAERLPDERADAQWLSRPYQTHPMSIAS  142
+
+Query  142  PQSRVIAD----RAELERLLADTERRFADQPPSCPEHWGGYRLLPQRIEFWQGRPSRLHD  197
+             QS+ +AD    RAE  R LA+T       P  C      + L  + +EFW     RLH+
+Sbjct  143  RQSQTLADIHALRAEARR-LAETAGPLPRPPGYCL-----FELCLESVEFWGNGTERLHE  196
+
+Query  198  RLDYRRQDGGWLRERLAP  215
+            RL Y R +GGW    L P
+Sbjct  197  RLRYDRDEGGWRHRYLQP  214
+
+
+>VFG015544(gb|WP_093945134) (phzG2) phenazine biosynthesis FMN-dependent 
+oxidase PhzG [Pyocyanin (VF0100) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=214
+
+ Score = 108 bits (270),  Expect = 3e-29, Method: Compositional matrix adjust.
+ Identities = 69/194 (36%), Positives = 98/194 (51%), Gaps = 6/194 (3%)
+
+Query  23   PSDPFSLFRQWFDDAVKTERLPV-EPNAMTLATVDADGYPHCRILLLKGLDERGFTFFTN  81
+            P++P  + R W + A    R  V EP A+ LATVD  G P  RI+++  L ERG  F T+
+Sbjct  26   PANPMEVLRNWLERA---RRYGVREPRALALATVDGQGRPSTRIVVIAELGERGVVFATH  82
+
+Query  82   YESAKGRQLAANPRAAMTFFWPALERQVRIEGSVEKVTPEESDAYYQVRPLGSRLGAWAS  141
+             +S KGR+LA NP A+   +W    +Q+ + G  E++  E +DA +  RP  +   + AS
+Sbjct  83   ADSQKGRELAQNPWASGVLYWRESSQQIILNGRAERLPDERADAQWLSRPYQTHPMSIAS  142
+
+Query  142  PQSRVIADRAELERLLADTERRFADQPPSCPEHWGGYRLLPQRIEFWQGRPSRLHDRLDY  201
+             QS  +AD   L            D P   P  +  + L  + +EFW     RLH+RL Y
+Sbjct  143  RQSETLADIHALRAAARRLAE--TDGPLPRPPGYCLFELCLESVEFWGNGTERLHERLRY  200
+
+Query  202  RRQDGGWLRERLAP  215
+             R +GGW    L P
+Sbjct  201  DRDEGGWKHRYLQP  214
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1262841209
+
+
+Query= g1344.t1
+
+Length=218
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015542(gb|NP_252905) (phzG2) pyridoxamine 5'-phosphate oxidase...  114     2e-31
+VFG015521(gb|NP_252906) (phzG1) phenazine biosynthesis protein Ph...  114     2e-31
+VFG015522(gb|WP_012074245) (phzG1) phenazine biosynthesis protein...  111     2e-30
+VFG015544(gb|WP_093945134) (phzG2) phenazine biosynthesis FMN-dep...  110     4e-30
+
+
+>VFG015542(gb|NP_252905) (phzG2) pyridoxamine 5'-phosphate oxidase 
+[Pyocyanin (VF0100) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=215
+
+ Score = 114 bits (284),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 63/191 (33%), Positives = 102/191 (53%), Gaps = 2/191 (1%)
+
+Query  28   PAEPLTLFERWLGQACDARLADPTAMVVATVDDKGQPYQRIVLLKHYDEKGLVFYTNLGS  87
+            PA P+ +   WL +A    + +P A+ +ATVD +G+P  RIV++    E+G+VF T+  S
+Sbjct  27   PANPMEVLRNWLERARRYGVREPRALALATVDGQGRPSTRIVVIAELGERGVVFATHADS  86
+
+Query  88   RKAHQIEHNPRISLLFPWHMLERQVMVTGKAERLSTLEVVRYFHSRPRDSQIGAWVSKQS  147
+            +K  ++  NP  S +  W    +Q+++ G+AERL        + SRP  +   +  S+QS
+Sbjct  87   QKGRELAQNPWASGVLYWRESSQQIILNGRAERLPDERADAQWLSRPYQTHPMSIASRQS  146
+
+Query  148  SRISARGILESKFLELKQKFQQGEVPLPSFWGGFRVSIEQMEFWQGGEHRLHDRFLYQRD  207
+              ++    L ++   L +    G +P P  +  F + +E +EFW  G  RLH+R  Y RD
+Sbjct  147  ETLADIHALRAEARRLAET--DGPLPRPPGYCLFELCLESVEFWGNGTERLHERLRYDRD  204
+
+Query  208  DGAWKIDRLAP  218
+            +G WK   L P
+Sbjct  205  EGGWKHRYLQP  215
+
+
+>VFG015521(gb|NP_252906) (phzG1) phenazine biosynthesis protein 
+PhzG, pyridoxamine 5'-phosphate oxidase [Pyocyanin (VF0100) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas aeruginosa 
+PAO1]
+Length=214
+
+ Score = 114 bits (284),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 63/191 (33%), Positives = 102/191 (53%), Gaps = 2/191 (1%)
+
+Query  28   PAEPLTLFERWLGQACDARLADPTAMVVATVDDKGQPYQRIVLLKHYDEKGLVFYTNLGS  87
+            PA P+ +   WL +A    + +P A+ +ATVD +G+P  RIV++    E+G+VF T+  S
+Sbjct  26   PANPMEVLRNWLERARRYGVREPRALALATVDGQGRPSTRIVVIAELGERGVVFATHADS  85
+
+Query  88   RKAHQIEHNPRISLLFPWHMLERQVMVTGKAERLSTLEVVRYFHSRPRDSQIGAWVSKQS  147
+            +K  ++  NP  S +  W    +Q+++ G+AERL        + SRP  +   +  S+QS
+Sbjct  86   QKGRELAQNPWASGVLYWRESSQQIILNGRAERLPDERADAQWLSRPYQTHPMSIASRQS  145
+
+Query  148  SRISARGILESKFLELKQKFQQGEVPLPSFWGGFRVSIEQMEFWQGGEHRLHDRFLYQRD  207
+              ++    L ++   L +    G +P P  +  F + +E +EFW  G  RLH+R  Y RD
+Sbjct  146  ETLADIHALRAEARRLAET--DGPLPRPPGYCLFELCLESVEFWGNGTERLHERLRYDRD  203
+
+Query  208  DGAWKIDRLAP  218
+            +G WK   L P
+Sbjct  204  EGGWKHRYLQP  214
+
+
+>VFG015522(gb|WP_012074245) (phzG1) phenazine biosynthesis protein 
+PhzG, pyridoxamine 5'-phosphate oxidase [Pyocyanin (VF0100) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+aeruginosa PA7]
+Length=214
+
+ Score = 111 bits (278),  Expect = 2e-30, Method: Compositional matrix adjust.
+ Identities = 63/191 (33%), Positives = 101/191 (53%), Gaps = 2/191 (1%)
+
+Query  28   PAEPLTLFERWLGQACDARLADPTAMVVATVDDKGQPYQRIVLLKHYDEKGLVFYTNLGS  87
+            PA P+ +   WL +A    + +P A+ +ATVD +G+P  RIV++    E+G+VF T+  S
+Sbjct  26   PANPMQVLRNWLERARRYGVREPRALALATVDGQGRPSTRIVVIAELGERGVVFATHADS  85
+
+Query  88   RKAHQIEHNPRISLLFPWHMLERQVMVTGKAERLSTLEVVRYFHSRPRDSQIGAWVSKQS  147
+            +K  ++  NP  S +  W    +QV++ G AERL        + SRP  +   +  S+QS
+Sbjct  86   QKGRELAQNPWASGVLYWRESSQQVILNGIAERLPDERADAQWLSRPYQTHPMSIASRQS  145
+
+Query  148  SRISARGILESKFLELKQKFQQGEVPLPSFWGGFRVSIEQMEFWQGGEHRLHDRFLYQRD  207
+              ++    L ++   L +    G +P P  +  F + +E +EFW  G  RLH+R  Y RD
+Sbjct  146  QTLADIHALRAEARRLAET--AGPLPRPPGYCLFELCLESVEFWGNGTERLHERLRYDRD  203
+
+Query  208  DGAWKIDRLAP  218
+            +G W+   L P
+Sbjct  204  EGGWRHRYLQP  214
+
+
+>VFG015544(gb|WP_093945134) (phzG2) phenazine biosynthesis FMN-dependent 
+oxidase PhzG [Pyocyanin (VF0100) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=214
+
+ Score = 110 bits (276),  Expect = 4e-30, Method: Compositional matrix adjust.
+ Identities = 62/191 (32%), Positives = 100/191 (52%), Gaps = 2/191 (1%)
+
+Query  28   PAEPLTLFERWLGQACDARLADPTAMVVATVDDKGQPYQRIVLLKHYDEKGLVFYTNLGS  87
+            PA P+ +   WL +A    + +P A+ +ATVD +G+P  RIV++    E+G+VF T+  S
+Sbjct  26   PANPMEVLRNWLERARRYGVREPRALALATVDGQGRPSTRIVVIAELGERGVVFATHADS  85
+
+Query  88   RKAHQIEHNPRISLLFPWHMLERQVMVTGKAERLSTLEVVRYFHSRPRDSQIGAWVSKQS  147
+            +K  ++  NP  S +  W    +Q+++ G+AERL        + SRP  +   +  S+QS
+Sbjct  86   QKGRELAQNPWASGVLYWRESSQQIILNGRAERLPDERADAQWLSRPYQTHPMSIASRQS  145
+
+Query  148  SRISARGILESKFLELKQKFQQGEVPLPSFWGGFRVSIEQMEFWQGGEHRLHDRFLYQRD  207
+              ++   I   +    +     G +P P  +  F + +E +EFW  G  RLH+R  Y RD
+Sbjct  146  ETLA--DIHALRAAARRLAETDGPLPRPPGYCLFELCLESVEFWGNGTERLHERLRYDRD  203
+
+Query  208  DGAWKIDRLAP  218
+            +G WK   L P
+Sbjct  204  EGGWKHRYLQP  214
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1294677542
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

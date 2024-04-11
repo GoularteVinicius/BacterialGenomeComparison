@@ -1,0 +1,198 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1313.t1
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000320(gb|WP_001169234) (kdtB) lipopolysaccharide core biosynt...  101     9e-28
+
+
+>VFG000320(gb|WP_001169234) (kdtB) lipopolysaccharide core biosynthesis 
+protein [LPS (VF0056) - Immune modulation (VFC0258)] 
+[Helicobacter pylori 26695]
+Length=157
+
+ Score = 101 bits (251),  Expect = 9e-28, Method: Compositional matrix adjust.
+ Identities = 56/145 (39%), Positives = 87/145 (60%), Gaps = 1/145 (1%)
+
+Query  5    VCPGSFDPVTLGHIDVFERAAAQFDEVVVAILINPVKKGMFDLDERIAMINESTMHLPNL  64
+            + PG+FDPVT GHID+  R++  F++++VA+  +  K  MF LDER+ MI  +T    N+
+Sbjct  6    IYPGTFDPVTNGHIDIIHRSSELFEKLIVAVAHSSAKNPMFSLDERLKMIQLATKSFKNV  65
+
+Query  65   RVEAGEGLVVALVRSRGMTAIVKGLRTGVDFEYELQMAQMNKHIAG-VDTFFVATAPRYS  123
+               A EGL+  L +      +V+GLR   DFEYELQM   NK +   ++T +     + +
+Sbjct  66   ECVAFEGLLANLAKEYHCKVLVRGLRVVSDFEYELQMGYANKSLNHELETLYFMPTLQNA  125
+
+Query  124  FVSSSLVKEVAMLGGDVSELLPESV  148
+            F+SSS+V+ +    GD S L+P+ +
+Sbjct  126  FISSSIVRSIIAHKGDASHLVPKEI  150
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 729234652
+
+
+Query= g2914.t1
+
+Length=161
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000320(gb|WP_001169234) (kdtB) lipopolysaccharide core biosynt...  99.8    3e-27
+
+
+>VFG000320(gb|WP_001169234) (kdtB) lipopolysaccharide core biosynthesis 
+protein [LPS (VF0056) - Immune modulation (VFC0258)] 
+[Helicobacter pylori 26695]
+Length=157
+
+ Score = 99.8 bits (247),  Expect = 3e-27, Method: Compositional matrix adjust.
+ Identities = 52/145 (36%), Positives = 87/145 (60%), Gaps = 1/145 (1%)
+
+Query  5    VCPGSFDPVTLGHVDIFERAAAQFDEVVVAILVNPAKTGMFDLDERIAMVKESTTHLPNL  64
+            + PG+FDPVT GH+DI  R++  F++++VA+  + AK  MF LDER+ M++ +T    N+
+Sbjct  6    IYPGTFDPVTNGHIDIIHRSSELFEKLIVAVAHSSAKNPMFSLDERLKMIQLATKSFKNV  65
+
+Query  65   RVQVGHGLVVDFVRSCGMTAIVKGLRTGTDFEYELQMAQMNKHIAG-VDTFFVATAPRYS  123
+                  GL+ +  +      +V+GLR  +DFEYELQM   NK +   ++T +     + +
+Sbjct  66   ECVAFEGLLANLAKEYHCKVLVRGLRVVSDFEYELQMGYANKSLNHELETLYFMPTLQNA  125
+
+Query  124  FVSSSLAKEVAMLGGDVSELLPEPV  148
+            F+SSS+ + +    GD S L+P+ +
+Sbjct  126  FISSSIVRSIIAHKGDASHLVPKEI  150
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 739958691
+
+
+Query= g368.t1
+
+Length=159
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000320(gb|WP_001169234) (kdtB) lipopolysaccharide core biosynt...  135     4e-41
+
+
+>VFG000320(gb|WP_001169234) (kdtB) lipopolysaccharide core biosynthesis 
+protein [LPS (VF0056) - Immune modulation (VFC0258)] 
+[Helicobacter pylori 26695]
+Length=157
+
+ Score = 135 bits (339),  Expect = 4e-41, Method: Compositional matrix adjust.
+ Identities = 72/152 (47%), Positives = 102/152 (67%), Gaps = 4/152 (3%)
+
+Query  5    LYPGTFDPITKGHGDLIERASRLFDHVIIAVAASPKKNPLFSLEQRVALAQEVTKHLPNV  64
+            +YPGTFDP+T GH D+I R+S LF+ +I+AVA S  KNP+FSL++R+ + Q  TK   NV
+Sbjct  6    IYPGTFDPVTNGHIDIIHRSSELFEKLIVAVAHSSAKNPMFSLDERLKMIQLATKSFKNV  65
+
+Query  65   EVVGFSTLLAHFVKEQKANVFLRGLRAVSDFEYEFQLANMNRQLAPDVESMFLTPSEKYS  124
+            E V F  LLA+  KE    V +RGLR VSDFEYE Q+   N+ L  ++E+++  P+ + +
+Sbjct  66   ECVAFEGLLANLAKEYHCKVLVRGLRVVSDFEYELQMGYANKSLNHELETLYFMPTLQNA  125
+
+Query  125  FISSTLVREIAALGGDIS----KFVHPAVADA  152
+            FISS++VR I A  GD S    K ++P ++ A
+Sbjct  126  FISSSIVRSIIAHKGDASHLVPKEIYPLISKA  157
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 718510613
+
+
+Query= g3483.t1
+
+Length=159
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000320(gb|WP_001169234) (kdtB) lipopolysaccharide core biosynt...  161     1e-51
+
+
+>VFG000320(gb|WP_001169234) (kdtB) lipopolysaccharide core biosynthesis 
+protein [LPS (VF0056) - Immune modulation (VFC0258)] 
+[Helicobacter pylori 26695]
+Length=157
+
+ Score = 161 bits (408),  Expect = 1e-51, Method: Compositional matrix adjust.
+ Identities = 72/151 (48%), Positives = 112/151 (74%), Gaps = 0/151 (0%)
+
+Query  1    MQKRAIYPGTFDPITNGHLDIVTRATQMFDHVILAIAASPSKKPMFTLDERVALAQKATA  60
+            MQK  IYPGTFDP+TNGH+DI+ R++++F+ +I+A+A S +K PMF+LDER+ + Q AT 
+Sbjct  1    MQKIGIYPGTFDPVTNGHIDIIHRSSELFEKLIVAVAHSSAKNPMFSLDERLKMIQLATK  60
+
+Query  61   HLGNVEVVGFSDLMANFARDRQANILIRGLRAVADFEYEMQLAHMNRHLMPQLESVFLMP  120
+               NVE V F  L+AN A++    +L+RGLR V+DFEYE+Q+ + N+ L  +LE+++ MP
+Sbjct  61   SFKNVECVAFEGLLANLAKEYHCKVLVRGLRVVSDFEYELQMGYANKSLNHELETLYFMP  120
+
+Query  121  SKEWSFISSSLVKEVARHQGDVTHFLPDNVH  151
+            + + +FISSS+V+ +  H+GD +H +P  ++
+Sbjct  121  TLQNAFISSSIVRSIIAHKGDASHLVPKEIY  151
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.134    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 718510613
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

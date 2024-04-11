@@ -1,0 +1,252 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1728.t1
+
+Length=98
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000200(gb|NP_250396) (pcrG) type III secretion system cytoplas...  189     2e-64
+VFG015124(gb|WP_003109501) (pcrG) type III secretion system cytop...  186     4e-63
+VFG041826(gb|WP_011147900) (PLU_RS18665) LcrG family type III sec...  81.3    1e-21
+VFG041651(gb|WP_012777234) (PAU_RS05195) LcrG family type III sec...  79.0    8e-21
+VFG003459(gb|WP_005176739) (lcrG) chaperone for tip protein LcrV ...  70.9    1e-17
+VFG000382(gb|WP_002212973) (lcrG) chaperone for tip protein LcrV ...  70.1    3e-17
+VFG038340(gb|WP_005320774) (acrG) Type III secretion system prote...  70.1    3e-17
+VFG018878(gb|WP_012228713) (lcrG) chaperone for tip protein LcrV ...  69.3    6e-17
+VFG023706(gb|WP_010891211) (lcrG) chaperone for tip protein LcrV ...  69.3    6e-17
+VFG042273(gb|AAS91818) (acrG) AcrG [T3SS (VF0479) - Effector deli...  67.8    2e-16
+VFG007150(gb|WP_005464408) (vcrG) type III secretion system chape...  50.1    2e-09
+
+
+>VFG000200(gb|NP_250396) (pcrG) type III secretion system cytoplasmic 
+regulator PcrG [TTSS (VF0083) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa PAO1]
+Length=98
+
+ Score = 189 bits (480),  Expect = 2e-64, Method: Compositional matrix adjust.
+ Identities = 98/98 (100%), Positives = 98/98 (100%), Gaps = 0/98 (0%)
+
+Query  1   MGDMNEYTEDTLRATVQAAELAIRDSEERGRLLAEMWQGLGLAADAGELLFQAPERELAR  60
+           MGDMNEYTEDTLRATVQAAELAIRDSEERGRLLAEMWQGLGLAADAGELLFQAPERELAR
+Sbjct  1   MGDMNEYTEDTLRATVQAAELAIRDSEERGRLLAEMWQGLGLAADAGELLFQAPERELAR  60
+
+Query  61  AAEEELLAELRRMRSSQPTQGEQGTRPRRPTPMRGLLI  98
+           AAEEELLAELRRMRSSQPTQGEQGTRPRRPTPMRGLLI
+Sbjct  61  AAEEELLAELRRMRSSQPTQGEQGTRPRRPTPMRGLLI  98
+
+
+>VFG015124(gb|WP_003109501) (pcrG) type III secretion system cytoplasmic 
+regulator PcrG [TTSS (VF0083) - Effector delivery 
+system (VFC0086)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=98
+
+ Score = 186 bits (472),  Expect = 4e-63, Method: Compositional matrix adjust.
+ Identities = 97/98 (99%), Positives = 97/98 (99%), Gaps = 0/98 (0%)
+
+Query  1   MGDMNEYTEDTLRATVQAAELAIRDSEERGRLLAEMWQGLGLAADAGELLFQAPERELAR  60
+           MGDMNEYTEDTLRATVQAAELAIRDSEERGRLLAEMWQGLGLAADAGELLF APERELAR
+Sbjct  1   MGDMNEYTEDTLRATVQAAELAIRDSEERGRLLAEMWQGLGLAADAGELLFLAPERELAR  60
+
+Query  61  AAEEELLAELRRMRSSQPTQGEQGTRPRRPTPMRGLLI  98
+           AAEEELLAELRRMRSSQPTQGEQGTRPRRPTPMRGLLI
+Sbjct  61  AAEEELLAELRRMRSSQPTQGEQGTRPRRPTPMRGLLI  98
+
+
+>VFG041826(gb|WP_011147900) (PLU_RS18665) LcrG family type III 
+secretion system chaperone [T3SS (VF1288) - Effector delivery 
+system (VFC0086)] [Photorhabdus luminescens subsp. laumondii 
+TTO1]
+Length=92
+
+ Score = 81.3 bits (199),  Expect = 1e-21, Method: Compositional matrix adjust.
+ Identities = 41/84 (49%), Positives = 57/84 (68%), Gaps = 0/84 (0%)
+
+Query  15  TVQAAELAIRDSEERGRLLAEMWQGLGLAADAGELLFQAPERELARAAEEELLAELRRMR  74
+            +QAAE AI+DS+ R +LL EMWQ LG+  + G  LF   +  L + AE+ELL E+ R+R
+Sbjct  9   VLQAAEAAIKDSDHRLQLLQEMWQSLGINPNVGTELFGHTDVTLVQNAEQELLTEVNRLR  68
+
+Query  75  SSQPTQGEQGTRPRRPTPMRGLLI  98
+           S+QP   E+G R RRP  MRG+++
+Sbjct  69  SNQPPSLEEGKRLRRPPRMRGIIV  92
+
+
+>VFG041651(gb|WP_012777234) (PAU_RS05195) LcrG family type III 
+secretion system chaperone [T3SS-1 (VF1286) - Effector delivery 
+system (VFC0086)] [Photorhabdus asymbiotica subsp. asymbiotica 
+ATCC 43949]
+Length=92
+
+ Score = 79.0 bits (193),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 40/84 (48%), Positives = 55/84 (65%), Gaps = 0/84 (0%)
+
+Query  15  TVQAAELAIRDSEERGRLLAEMWQGLGLAADAGELLFQAPERELARAAEEELLAELRRMR  74
+            +QAAE AI+DS+ R +LL EMWQ LG+    G  LF   +  L + AE+ELL E+ R+R
+Sbjct  9   VLQAAEEAIKDSDHRLQLLQEMWQSLGIKPSVGAELFGNSDLSLVQNAEQELLTEINRLR  68
+
+Query  75  SSQPTQGEQGTRPRRPTPMRGLLI  98
+           +S     E+G RPRRP  MRG+++
+Sbjct  69  NSYVHSLEEGKRPRRPPGMRGIIV  92
+
+
+>VFG003459(gb|WP_005176739) (lcrG) chaperone for tip protein LcrV 
+[TTSS (VF0140) - Effector delivery system (VFC0086)] [Yersinia 
+enterocolitica subsp. enterocolitica 8081]
+Length=95
+
+ Score = 70.9 bits (172),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 40/95 (42%), Positives = 52/95 (55%), Gaps = 0/95 (0%)
+
+Query  4   MNEYTEDTLRATVQAAELAIRDSEERGRLLAEMWQGLGLAADAGELLFQAPERELARAAE  63
+           M     D    T++ AELAI DS+ R +LL EM   +GL  +A   +F     E  + AE
+Sbjct  1   MKSSHFDEYDKTLKQAELAIADSDHRAKLLQEMCADIGLTPEAVMKIFAGRSAEEIKPAE  60
+
+Query  64  EELLAELRRMRSSQPTQGEQGTRPRRPTPMRGLLI  98
+            ELL E++R R  QP     G RPR+PT MRG +I
+Sbjct  61  RELLDEIKRQRERQPQHPNDGKRPRKPTMMRGQII  95
+
+
+>VFG000382(gb|WP_002212973) (lcrG) chaperone for tip protein LcrV 
+[TTSS (VF0140) - Effector delivery system (VFC0086)] [Yersinia 
+pestis CO92]
+Length=95
+
+ Score = 70.1 bits (170),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 39/89 (44%), Positives = 51/89 (57%), Gaps = 0/89 (0%)
+
+Query  10  DTLRATVQAAELAIRDSEERGRLLAEMWQGLGLAADAGELLFQAPERELARAAEEELLAE  69
+           D    T++ AELAI DS+ R +LL EM   +GL  +A   +F     E  + AE ELL E
+Sbjct  7   DEYDKTLKQAELAIADSDHRAKLLQEMCADIGLTPEAVMKIFAGRSAEEIKPAERELLDE  66
+
+Query  70  LRRMRSSQPTQGEQGTRPRRPTPMRGLLI  98
+           ++R R  QP     G RPR+PT MRG +I
+Sbjct  67  IKRQRERQPQHPYDGKRPRKPTMMRGQII  95
+
+
+>VFG038340(gb|WP_005320774) (acrG) Type III secretion system protein, 
+LcrG-like [T3SS (VF0479) - Effector delivery system 
+(VFC0086)] [Aeromonas salmonicida subsp. salmonicida A449]
+Length=94
+
+ Score = 70.1 bits (170),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 40/84 (48%), Positives = 55/84 (65%), Gaps = 1/84 (1%)
+
+Query  15  TVQAAELAIRDSEERGRLLAEMWQGLGLAADAGELLFQAPERELARAAEEELLAELRRMR  74
+           T+  AE  I DS+ R  LL EM  GL L+    +LLF+AP  ++A  AE+ELLAE++R +
+Sbjct  12  TISQAEHGIADSDHRNALLQEMLAGLALSDQTCQLLFEAPTEQVA-VAEQELLAEIQRRQ  70
+
+Query  75  SSQPTQGEQGTRPRRPTPMRGLLI  98
+           +  P Q  +G + RRPT MRGL+I
+Sbjct  71  ALLPAQPGEGRKSRRPTIMRGLMI  94
+
+
+>VFG018878(gb|WP_012228713) (lcrG) chaperone for tip protein LcrV 
+[TTSS (VF0140) - Effector delivery system (VFC0086)] [Yersinia 
+pestis Angola]
+Length=95
+
+ Score = 69.3 bits (168),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 38/89 (43%), Positives = 51/89 (57%), Gaps = 0/89 (0%)
+
+Query  10  DTLRATVQAAELAIRDSEERGRLLAEMWQGLGLAADAGELLFQAPERELARAAEEELLAE  69
+           D    T++ AELAI DS+ R +LL EM   +GL  +A   +F     E  + AE ELL E
+Sbjct  7   DEYDKTLKQAELAIADSDHRAKLLQEMCADIGLTPEAVMKIFAGRSAEEIKPAERELLDE  66
+
+Query  70  LRRMRSSQPTQGEQGTRPRRPTPMRGLLI  98
+           ++R R  QP     G RP++PT MRG +I
+Sbjct  67  IKRQRERQPQHPYDGKRPKKPTMMRGQII  95
+
+
+>VFG023706(gb|WP_010891211) (lcrG) chaperone for tip protein LcrV 
+[TTSS (VF0140) - Effector delivery system (VFC0086)] [Yersinia 
+enterocolitica subsp. palearctica 105.5R(r)]
+Length=95
+
+ Score = 69.3 bits (168),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 37/89 (42%), Positives = 51/89 (57%), Gaps = 0/89 (0%)
+
+Query  10  DTLRATVQAAELAIRDSEERGRLLAEMWQGLGLAADAGELLFQAPERELARAAEEELLAE  69
+           D    T++ AE+AI DS+ R +LL EM   +GL  +A   +F     E  + AE ELL E
+Sbjct  7   DEYDKTLKQAEMAIADSDHRAKLLQEMCADIGLTPEAVMKIFAGRSAEEIKPAERELLDE  66
+
+Query  70  LRRMRSSQPTQGEQGTRPRRPTPMRGLLI  98
+           ++R R  QP     G RP++PT MRG +I
+Sbjct  67  IKRQRERQPQHPNDGKRPKKPTMMRGQII  95
+
+
+>VFG042273(gb|AAS91818) (acrG) AcrG [T3SS (VF0479) - Effector 
+delivery system (VFC0086)] [Aeromonas hydrophila str. AH3]
+Length=94
+
+ Score = 67.8 bits (164),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 40/84 (48%), Positives = 53/84 (63%), Gaps = 1/84 (1%)
+
+Query  15  TVQAAELAIRDSEERGRLLAEMWQGLGLAADAGELLFQAPERELARAAEEELLAELRRMR  74
+           T+  AE AI DS+ R  LL EM  GL L+    +LLF AP   +A  AE+ELLAE++R +
+Sbjct  12  TISQAEQAIADSDHRNDLLKEMLAGLALSDQTCQLLFDAPTERVA-VAEQELLAEIQRRQ  70
+
+Query  75  SSQPTQGEQGTRPRRPTPMRGLLI  98
+           +  P Q  +  + RRPT MRGL+I
+Sbjct  71  ALLPAQPGEDRKSRRPTMMRGLMI  94
+
+
+>VFG007150(gb|WP_005464408) (vcrG) type III secretion system chaperone 
+VcrG [T3SS1 (VF0408) - Effector delivery system (VFC0086)] 
+[Vibrio parahaemolyticus RIMD 2210633]
+Length=94
+
+ Score = 50.1 bits (118),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 36/86 (42%), Positives = 56/86 (65%), Gaps = 3/86 (3%)
+
+Query  16  VQAAELAIRDSEERGRLLAEMWQGLGLAADAGELLFQA--PERELARAAEEELLAEL-RR  72
+           ++ AELAIR+++ER  + +E+ +GLG+   AGE+L        +L + AE+EL+ E+ RR
+Sbjct  9   IENAELAIRNADERNDIFSELLEGLGVGPVAGEVLLGGLNASPKLMQHAEQELIEEVQRR  68
+
+Query  73  MRSSQPTQGEQGTRPRRPTPMRGLLI  98
+            +     QG QG R +RPT MRG++I
+Sbjct  69  RQQQHQLQGVQGKRRKRPTMMRGMVI  94
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.131    0.361    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 329661125
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

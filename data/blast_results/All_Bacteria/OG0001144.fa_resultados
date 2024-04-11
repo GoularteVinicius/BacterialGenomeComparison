@@ -1,0 +1,344 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g716.t1
+
+Length=284
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR [Py...  60.5    2e-10
+VFG006042(gb|WP_001222601) (SAK_RS06335) LysR family transcriptio...  49.7    7e-07
+VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional act...  49.7    7e-07
+
+
+>VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR 
+[Pyoverdine (VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=312
+
+ Score = 60.5 bits (145),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 81/296 (27%), Positives = 130/296 (44%), Gaps = 24/296 (8%)
+
+Query  1    MKLSQLGFFCAVVERGTIAAAAEQLHCVPSNITTRLRELEGQLGVALFNRERNRLLVTPE  60
+            + L+ L  F AV E  +  AAAE L    S ++ +LR LE  LG+ L  R   R+ +T  
+Sbjct  11   LNLNHLYAFVAVAEHNSFTAAAEALGLSKSLLSEQLRRLEADLGIQLLTRTTRRMTLTDR  70
+
+Query  61   GRLLYRHATRLLALADETAALFAGDQAH--GALRVGALDVALANHLPQRLARYRRESPGV  118
+            G LL+  A R+L   D   +     Q    G LR+ A    +  H+    A + R+ P V
+Sbjct  71   GELLFGVAQRMLGELDGALSDVRDLQGEPSGRLRITAPQDFVKWHISSVSAAFIRQFPKV  130
+
+Query  119  ELHIRPEHSLLLERLLMEGELDLIVTDG-PIEHPLLASRLAFRERLLRVTPADL----PA  173
+            ++ +  +        L+   +DL V  G P +  L AS+L   +++   TP  L    P 
+Sbjct  131  QVEMLADDQF---SDLVGQRIDLAVRIGWPRDSGLHASKLCDFQQVAVATPGYLAGLPPV  187
+
+Query  174  PTPEDLAGLELYVFGH-------TCHYRRQVDRWLAESAIQPRATLEIESYPSLFACIEA  226
+              P DLA  E    GH       T  + RQ +R    + +Q R  L   +  +++  +  
+Sbjct  188  LQPHDLARCEW--IGHTRLSTPWTWTFERQRER----ATVQTRGRLLANNTLAVYRLVLD  241
+
+Query  227  GLGFACVPESFVARRPSTRRGFHAEPVAGLDSSDIHFVWRKQQASPL-IQGFIDSI  281
+            G G + +P   VAR  +  R     P   L    I+ ++   +  P+ ++ FI+S+
+Sbjct  242  GAGVSVLPSFLVAREIARGRLVRLLPGWRLPQGGIYALYPSARYMPVRVRAFIESL  297
+
+
+>VFG006042(gb|WP_001222601) (SAK_RS06335) LysR family transcriptional 
+regulator [Capsule (VF0274) - Immune modulation (VFC0258)] 
+[Streptococcus agalactiae A909]
+Length=307
+
+ Score = 49.7 bits (117),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 33/112 (29%), Positives = 58/112 (52%), Gaps = 11/112 (10%)
+
+Query  1    MKLSQLGFFCAVVERGTIAAAAEQLHCVPSNITTRLRELEGQLGVALFNRERNRLLVTPE  60
+            M++ QL +   +VE G++  AA+QL+    +++  +R LE ++G+ +F R    + +T +
+Sbjct  1    MRIQQLQYVIKIVETGSMNEAAKQLYITQPSLSNAVRNLETEMGIQIFIRNPKGITLTKD  60
+
+Query  61   GRLLYRHATRLL---ALADE-------TAALFAGDQAHGALRVGALDVALAN  102
+            G     +A ++L   AL +E       +  LF+    H A  V A  VAL N
+Sbjct  61   GMEFLSYARQILEQTALLEERYKGDNTSRELFSVSSQHYAFVVNAF-VALFN  111
+
+
+>VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional 
+activator AllS [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=307
+
+ Score = 49.7 bits (117),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 26/69 (38%), Positives = 38/69 (55%), Gaps = 0/69 (0%)
+
+Query  9   FCAVVERGTIAAAAEQLHCVPSNITTRLRELEGQLGVALFNRERNRLLVTPEGRLLYRHA  68
+           F +V E G+ + AAE+L+   + I+ R++ LE   GVALF+R    +L+TP G  L   A
+Sbjct  10  FVSVAETGSFSRAAEKLYKTTATISYRIKLLEDNTGVALFSRTTRSVLLTPAGMHLLAQA  69
+
+Query  69  TRLLALADE  77
+              L   D 
+Sbjct  70  REWLGWIDS  78
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1947710525
+
+
+Query= g1429.t1
+
+Length=290
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR [Py...  57.4    2e-09
+VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional act...  55.8    6e-09
+
+
+>VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR 
+[Pyoverdine (VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=312
+
+ Score = 57.4 bits (137),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 70/244 (29%), Positives = 113/244 (46%), Gaps = 14/244 (6%)
+
+Query  1    MEFGQLRIFQAVAEEGSIARAAERLHRVPSNLSTRLRQLEEQLGVDLFLRERQRLQLSPA  60
+            +    L  F AVAE  S   AAE L    S LS +LR+LE  LG+ L  R  +R+ L+  
+Sbjct  11   LNLNHLYAFVAVAEHNSFTAAAEALGLSKSLLSEQLRRLEADLGIQLLTRTTRRMTLTDR  70
+
+Query  61   GKVLLDYAARLFALQEEARAAVQG--GEPVGDFALGSMYSTAAIHLPPRLAEYHRRYPAV  118
+            G++L   A R+    + A + V+   GEP G   + +       H+    A + R++P V
+Sbjct  71   GELLFGVAQRMLGELDGALSDVRDLQGEPSGRLRITAPQDFVKWHISSVSAAFIRQFPKV  130
+
+Query  119  NLQLQTAPSGELVESLLGGRLD-AVLVDGPLDFDGLEGLPMFEERMVLVTENGH----PP  173
+             +++    + +    L+G R+D AV +  P D  GL    + + + V V   G+    PP
+Sbjct  131  QVEML---ADDQFSDLVGQRIDLAVRIGWPRD-SGLHASKLCDFQQVAVATPGYLAGLPP  186
+
+Query  174  VRGPEDVAGSAVIAF-RPRCSYRLLLESWFASARV-SMGRVMEIESYHSMLACVVAGGGV  231
+            V  P D+A    I   R    +    E     A V + GR++   +  ++   V+ G GV
+Sbjct  187  VLQPHDLARCEWIGHTRLSTPWTWTFERQRERATVQTRGRLLANNTL-AVYRLVLDGAGV  245
+
+Query  232  ALMP  235
+            +++P
+Sbjct  246  SVLP  249
+
+
+>VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional 
+activator AllS [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=307
+
+ Score = 55.8 bits (133),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 28/60 (47%), Positives = 41/60 (68%), Gaps = 0/60 (0%)
+
+Query  6   LRIFQAVAEEGSIARAAERLHRVPSNLSTRLRQLEEQLGVDLFLRERQRLQLSPAGKVLL  65
+           LR F +VAE GS +RAAE+L++  + +S R++ LE+  GV LF R  + + L+PAG  LL
+Sbjct  7   LRTFVSVAETGSFSRAAEKLYKTTATISYRIKLLEDNTGVALFSRTTRSVLLTPAGMHLL  66
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2010879515
+
+
+Query= g4285.t1
+
+Length=284
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR [Py...  53.9    2e-08
+VFG006042(gb|WP_001222601) (SAK_RS06335) LysR family transcriptio...  53.5    3e-08
+VFG044084(gb|NP_251073) (PA2383) transcriptional regulator [Pyove...  52.0    1e-07
+VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional act...  50.8    3e-07
+
+
+>VFG044083(gb|NP_250948) (ptxR) transcriptional regulator PtxR 
+[Pyoverdine (VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=312
+
+ Score = 53.9 bits (128),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 45/150 (30%), Positives = 81/150 (54%), Gaps = 5/150 (3%)
+
+Query  1    MDLSSLEIFRAVAHEASVTRAAQRLQRAQSNVTTRIRQLEEDLGVELFLRDGKRMSLTER  60
+            ++L+ L  F AVA   S T AA+ L  ++S ++ ++R+LE DLG++L  R  +RM+LT+R
+Sbjct  11   LNLNHLYAFVAVAEHNSFTAAAEALGLSKSLLSEQLRRLEADLGIQLLTRTTRRMTLTDR  70
+
+Query  61   GSEFLAYAEQLLALADEARQSMHP--AEPGGRLRLGSMESTAASRLPALLASYHKACPRV  118
+            G      A+++L   D A   +     EP GRLR+ + +      + ++ A++ +  P+V
+Sbjct  71   GELLFGVAQRMLGELDGALSDVRDLQGEPSGRLRITAPQDFVKWHISSVSAAFIRQFPKV  130
+
+Query  119  ALEVSTGTSHALFDGVRARRLDCALVAAGP  148
+             +E+        F  +  +R+D A+    P
+Sbjct  131  QVEMLADDQ---FSDLVGQRIDLAVRIGWP  157
+
+
+>VFG006042(gb|WP_001222601) (SAK_RS06335) LysR family transcriptional 
+regulator [Capsule (VF0274) - Immune modulation (VFC0258)] 
+[Streptococcus agalactiae A909]
+Length=307
+
+ Score = 53.5 bits (127),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 24/72 (33%), Positives = 46/72 (64%), Gaps = 0/72 (0%)
+
+Query  1   MDLSSLEIFRAVAHEASVTRAAQRLQRAQSNVTTRIRQLEEDLGVELFLRDGKRMSLTER  60
+           M +  L+    +    S+  AA++L   Q +++  +R LE ++G+++F+R+ K ++LT+ 
+Sbjct  1   MRIQQLQYVIKIVETGSMNEAAKQLYITQPSLSNAVRNLETEMGIQIFIRNPKGITLTKD  60
+
+Query  61  GSEFLAYAEQLL  72
+           G EFL+YA Q+L
+Sbjct  61  GMEFLSYARQIL  72
+
+
+>VFG044084(gb|NP_251073) (PA2383) transcriptional regulator [Pyoverdine 
+(VF0094) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=306
+
+ Score = 52.0 bits (123),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 39/121 (32%), Positives = 58/121 (48%), Gaps = 0/121 (0%)
+
+Query  2    DLSSLEIFRAVAHEASVTRAAQRLQRAQSNVTTRIRQLEEDLGVELFLRDGKRMSLTERG  61
+             + +L+ F A A   +  RAA+ L    S  + R+  LE  LGV L  RDG+ ++LT  G
+Sbjct  11   SIEALQAFEAAARLGTFERAAELLSITGSAASKRVSGLEGMLGVSLLQRDGRSLALTSHG  70
+
+Query  62   SEFLAYAEQLLALADEARQSMHPAEPGGRLRLGSMESTAASRLPALLASYHKACPRVALE  121
+             E+L     +LA            +   RL L +  + A   L   LAS+ +ACP + LE
+Sbjct  71   REYLEQIAPILAQLAAVPLHRRQVQRQQRLTLRTPPTFARQILIPRLASFAEACPEIELE  130
+
+Query  122  V  122
+            +
+Sbjct  131  I  131
+
+
+>VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional 
+activator AllS [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=307
+
+ Score = 50.8 bits (120),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 27/76 (36%), Positives = 43/76 (57%), Gaps = 0/76 (0%)
+
+Query  1   MDLSSLEIFRAVAHEASVTRAAQRLQRAQSNVTTRIRQLEEDLGVELFLRDGKRMSLTER  60
+           +D  +L  F +VA   S +RAA++L +  + ++ RI+ LE++ GV LF R  + + LT  
+Sbjct  2   LDPETLRTFVSVAETGSFSRAAEKLYKTTATISYRIKLLEDNTGVALFSRTTRSVLLTPA  61
+
+Query  61  GSEFLAYAEQLLALAD  76
+           G   LA A + L   D
+Sbjct  62  GMHLLAQAREWLGWID  77
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1947710525
+
+
+Query= g1418.t1
+
+Length=290
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional act...  61.2    1e-10
+VFG006042(gb|WP_001222601) (SAK_RS06335) LysR family transcriptio...  50.8    3e-07
+
+
+>VFG049114(gb|WP_012737527) (allS) DNA-binding transcriptional 
+activator AllS [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=307
+
+ Score = 61.2 bits (147),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 45/147 (31%), Positives = 73/147 (50%), Gaps = 5/147 (3%)
+
+Query  1    MDLTQLEMFNAVALTGSITQAAAKVHRVPSNLTTRIRQLEADLGVSLFIRENQRLRLSPA  60
+            +D   L  F +VA TGS ++AA K+++  + ++ RI+ LE + GV+LF R  + + L+PA
+Sbjct  2    LDPETLRTFVSVAETGSFSRAAEKLYKTTATISYRIKLLEDNTGVALFSRTTRSVLLTPA  61
+
+Query  61   GHNFLRYSQQILALVD----EARMVVAGEEPQGLFSLGALESTAAVRIPALLAGYNQRYP  116
+            G + L  +++ L  +D    E + +  G E Q    +  L       I  LLA   QRYP
+Sbjct  62   GMHLLAQAREWLGWIDSMPGELQQINDGVERQVNIVVNNLMYDPQA-IARLLAWLTQRYP  120
+
+Query  117  KIQFALTTGPSGAMLDGVLEGKLNAAF  143
+              QF  +      + D +L    + A 
+Sbjct  121  FTQFHFSRQIYMGVWDTLLHDDFSLAI  147
+
+
+>VFG006042(gb|WP_001222601) (SAK_RS06335) LysR family transcriptional 
+regulator [Capsule (VF0274) - Immune modulation (VFC0258)] 
+[Streptococcus agalactiae A909]
+Length=307
+
+ Score = 50.8 bits (120),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 27/80 (34%), Positives = 49/80 (61%), Gaps = 3/80 (4%)
+
+Query  1   MDLTQLEMFNAVALTGSITQAAAKVHRVPSNLTTRIRQLEADLGVSLFIRENQRLRLSPA  60
+           M + QL+    +  TGS+ +AA +++    +L+  +R LE ++G+ +FIR  + + L+  
+Sbjct  1   MRIQQLQYVIKIVETGSMNEAAKQLYITQPSLSNAVRNLETEMGIQIFIRNPKGITLTKD  60
+
+Query  61  GHNFLRYSQQIL---ALVDE  77
+           G  FL Y++QIL   AL++E
+Sbjct  61  GMEFLSYARQILEQTALLEE  80
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.134    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2010879515
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

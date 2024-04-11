@@ -1,0 +1,118 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g71.t1
+
+Length=180
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045340(gb|WP_002964382) (ricA) type IV secretion system effect...  117     1e-33
+
+
+>VFG045340(gb|WP_002964382) (ricA) type IV secretion system effector 
+RicA, Rab2 interacting conserved protein A [T4SS secreted 
+effectors (VF0695) - Effector delivery system (VFC0086)] 
+[Brucella melitensis bv. 1 str. 16M]
+Length=175
+
+ Score = 117 bits (292),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 62/170 (36%), Positives = 97/170 (57%), Gaps = 9/170 (5%)
+
+Query  1    MTIRSYQGKTPLLGERV--FVDPSAVLVGDIEIGADSSVWPLVVIRGDMHRIRIGQRSSI  58
+            M I +Y G  P   +R   ++ P A L+G + +G ++  W   V+RGD   I IG  +++
+Sbjct  1    MPIYAYNGHKPQFADRESNWIAPDATLIGKVVVGENAGFWFGAVLRGDNEPITIGADTNV  60
+
+Query  59   QDGSVLHITHAGPFNPDGFPLSIGDEVTVGHKVLLHGCSIGNRVLVGMGSIVMDGAVIED  118
+            Q+ +++H          GFPL+IG   T+GH+ +LHGC+IG   L+GMG+IV++GA +  
+Sbjct  61   QEQTIMH-------TDIGFPLTIGAGCTIGHRAILHGCTIGENTLIGMGAIVLNGAKVGK  113
+
+Query  119  EVILGAGSLVPPGKVLESGFLYVGSPAKKARPLSDKERGFFAYTAGNYVK  168
+              ++GAG+LV  G  +    L VGSPA+  R L D        +A +YV+
+Sbjct  114  NCLIGAGTLVKEGMEIPDNSLVVGSPARVLRQLDDAAVEKLRASAKHYVE  163
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.142    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 917454450
+
+
+Query= g3166.t1
+
+Length=184
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045340(gb|WP_002964382) (ricA) type IV secretion system effect...  115     6e-33
+
+
+>VFG045340(gb|WP_002964382) (ricA) type IV secretion system effector 
+RicA, Rab2 interacting conserved protein A [T4SS secreted 
+effectors (VF0695) - Effector delivery system (VFC0086)] 
+[Brucella melitensis bv. 1 str. 16M]
+Length=175
+
+ Score = 115 bits (289),  Expect = 6e-33, Method: Compositional matrix adjust.
+ Identities = 60/156 (38%), Positives = 92/156 (59%), Gaps = 7/156 (4%)
+
+Query  21   IDTSSVVIGDVRLADDVGIWPLVVIRGDVNYVAIGARTNIQDGSVLHVTHKSSSNPHGNP  80
+            I   + +IG V + ++ G W   V+RGD   + IGA TN+Q+ +++H          G P
+Sbjct  21   IAPDATLIGKVVVGENAGFWFGAVLRGDNEPITIGADTNVQEQTIMHTDI-------GFP  73
+
+Query  81   LIIGEDVTVGHKVMLHGCTIGNRVLVGMGSIVLDGAIIEDDVMIGAGSLVPQHKRLESGY  140
+            L IG   T+GH+ +LHGCTIG   L+GMG+IVL+GA +  + +IGAG+LV +   +    
+Sbjct  74   LTIGAGCTIGHRAILHGCTIGENTLIGMGAIVLNGAKVGKNCLIGAGTLVKEGMEIPDNS  133
+
+Query  141  LYLGSPVKQIRPLSDAERSGLQYSANNYVKWKDDYL  176
+            L +GSP + +R L DA    L+ SA +YV+    ++
+Sbjct  134  LVVGSPARVLRQLDDAAVEKLRASAKHYVERGHSFM  169
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.139    0.414    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 960126750
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

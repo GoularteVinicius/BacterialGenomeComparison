@@ -1,0 +1,284 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1303.t1
+
+Length=399
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.144    0.454    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3101933043
+
+
+Query= g2126.t1
+
+Length=427
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG009655(gb|WP_011558675) (narK2) NarK/NasA family nitrate trans...  47.8    8e-06
+VFG009654(gb|WP_208856679) (narK2) NarK/NasA family nitrate trans...  47.4    9e-06
+
+
+>VFG009655(gb|WP_011558675) (narK2) NarK/NasA family nitrate transporter 
+[Nitrate/nitrite transporter (VF0821) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. MCS]
+Length=406
+
+ Score = 47.8 bits (112),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 80/298 (27%), Positives = 124/298 (42%), Gaps = 30/298 (10%)
+
+Query  57   AADLDWDRGQSALPVTLLGLAVALSSPLKGWLVDRWGARALVLPLTAALALCLASLALAR  116
+            A DL     Q+++ V    L  +L   + G L DR+G R + + ++  LA  +  LA+  
+Sbjct  42   AGDLSLSSTQASMLVATPILVGSLGRIVVGSLTDRFGGRVMFIAIS--LASIIPVLAVGA  99
+
+Query  117  SG----WQLYLLFALL----GLLTPGNIPYARILGGWFE-RRRGAAYGILGLGFGVGGPL  167
+            +G    + L L+F       G +    IP+A     W+E  RRG A G+ G+G  VG  L
+Sbjct  100  AGTAGSYPLLLVFGFFLGIAGTVFAVGIPFAN---HWYEASRRGFATGVFGMGM-VGTAL  155
+
+Query  168  ALYLGSACIDAFGWRATFLVYGLLEGLLALPLLYALFRERPGDLPQARRTPADALPGATP  227
+            + +     ++ FG   T LV  +   L A+  L A+ R+ P   P            A  
+Sbjct  156  SAFFTPRFVNWFGLFTTHLVIAIALALTAVLCLLAM-RDSPHFSPNTDAVLPKLKAAAKL  214
+
+Query  228  GQAWRSADFWLIVGNLILGVFAVTGVMVHGVPLLQERGLSREVATDVLAALWVGMIVSQP  287
+            G  W  +  + +V     G  A +  +   +  +   G S   A    A   +  ++++P
+Sbjct  215  GVTWEMSFLYAVVFG---GFVAFSNYLPTYIKTIY--GFSAVDAGARTAGFALAAVLARP  269
+
+Query  288  ALGYLLDRYDTPRIAL-PFALLAALGLLLLLLGGPPALLWGAVFLI------GLGAGG  338
+              G L DR     + L  FA  AAL  + +    PP  LW A   I      G+G GG
+Sbjct  270  VGGALADRIPPKYVVLTSFAGTAALAFVAVF--QPPPDLWSAATFITLAVFLGVGTGG  325
+
+
+>VFG009654(gb|WP_208856679) (narK2) NarK/NasA family nitrate transporter 
+[Nitrate/nitrite transporter (VF0821) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. KMS]
+Length=392
+
+ Score = 47.4 bits (111),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 80/298 (27%), Positives = 124/298 (42%), Gaps = 30/298 (10%)
+
+Query  57   AADLDWDRGQSALPVTLLGLAVALSSPLKGWLVDRWGARALVLPLTAALALCLASLALAR  116
+            A DL     Q+++ V    L  +L   + G L DR+G R + + ++  LA  +  LA+  
+Sbjct  28   AGDLSLSSTQASMLVATPILVGSLGRIVVGSLTDRFGGRVMFIAIS--LASIIPVLAVGA  85
+
+Query  117  SG----WQLYLLFALL----GLLTPGNIPYARILGGWFE-RRRGAAYGILGLGFGVGGPL  167
+            +G    + L L+F       G +    IP+A     W+E  RRG A G+ G+G  VG  L
+Sbjct  86   AGTAGSYPLLLVFGFFLGIAGTVFAVGIPFAN---HWYEASRRGFATGVFGMGM-VGTAL  141
+
+Query  168  ALYLGSACIDAFGWRATFLVYGLLEGLLALPLLYALFRERPGDLPQARRTPADALPGATP  227
+            + +     ++ FG   T LV  +   L A+  L A+ R+ P   P            A  
+Sbjct  142  SAFFTPRFVNWFGLFTTHLVIAIALALTAVLCLLAM-RDSPHFSPNTDAVLPKLKAAAKL  200
+
+Query  228  GQAWRSADFWLIVGNLILGVFAVTGVMVHGVPLLQERGLSREVATDVLAALWVGMIVSQP  287
+            G  W  +  + +V     G  A +  +   +  +   G S   A    A   +  ++++P
+Sbjct  201  GVTWEMSFLYAVVFG---GFVAFSNYLPTYIKTIY--GFSAVDAGARTAGFALAAVLARP  255
+
+Query  288  ALGYLLDRYDTPRIAL-PFALLAALGLLLLLLGGPPALLWGAVFLI------GLGAGG  338
+              G L DR     + L  FA  AAL  + +    PP  LW A   I      G+G GG
+Sbjct  256  VGGALADRIPPKYVVLTSFAGTAALAFVAVF--QPPPDLWSAATFITLAVFLGVGTGG  311
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.145    0.455    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3374860788
+
+
+Query= g2630.t1
+
+Length=404
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG009653(gb|WP_011854955) (narK2) NarK/NasA family nitrate trans...  49.3    2e-06
+VFG009655(gb|WP_011558675) (narK2) NarK/NasA family nitrate trans...  48.9    3e-06
+VFG009654(gb|WP_208856679) (narK2) NarK/NasA family nitrate trans...  48.5    4e-06
+
+
+>VFG009653(gb|WP_011854955) (narK2) NarK/NasA family nitrate transporter 
+[Nitrate/nitrite transporter (VF0821) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. JLS]
+Length=406
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 104/406 (26%), Positives = 165/406 (41%), Gaps = 72/406 (18%)
+
+Query  37   IAPMSAEYAWD----RAEVSLLVTLFGLAVAITSPLKGWLIDRWGARRTMLGLTAALSLP  92
+            I P+S  YA D      + S+LV    L  ++   + G L DR+G R   + ++ A  +P
+Sbjct  34   IGPLSTTYAGDLSLSSTQASMLVATPILVGSLGRIVVGSLTDRFGGRVMFIAISLASIIP  93
+
+Query  93   LLGLAAVNAVWQLYALFLLIG--------LLAPGNLPYGRILGLWFR-QRLGVAYGLLGL  143
+            +L + A       Y L L+ G        + A G +P+      W+   R G A G+ G+
+Sbjct  94   VLAVGAAGTAGS-YPLLLVFGFFLGIAGTVFAVG-IPFAN---HWYEASRRGFATGVFGM  148
+
+Query  144  GFGVGGPLGLLVGHQSLEAWGWRGAFLVYGVLELGLALPLLAWLFR-------EPAPDAG  196
+            G  VG  L      + +    W G F  + V+ + LAL  +  L          P  DA 
+Sbjct  149  GM-VGTALSAFFTPRFVN---WFGLFTTHLVVAIALALTAVLCLLAMRDSPHFSPNTDAV  204
+
+Query  197  VAAGTAVAETALSGSTAPQAWRSASFWLVLGNQVLAVFVMSGIMTHGVPMLVER--GLSR  254
+            +    A A+  ++       W  +  + V+    +A        ++ +P  ++   G S 
+Sbjct  205  LPKLKAAAKLGVT-------WEMSFLYAVVFGGFVA-------FSNYLPTYIKTIYGFSA  250
+
+Query  255  GEAGTALSALWVGMMLSQPLMGWLLDRVATPRVALPFALAAVLGMAWFLVGDTPSGLW--  312
+             +AG   +   +  +L++PL G L DR+  P+  +  + A    +A+  V   P  LW  
+Sbjct  251  VDAGARTAGFALAAVLARPLGGALADRIP-PKYVVLTSFAGTAALAFVAVFQPPPDLWSA  309
+
+Query  313  -----LAVFLVGLGGGGESGTTKYLLMRYFGLRSFGVIYGSIQPFTFALSISLGAY----  363
+                 LAVFL G+G GG        +  +   RS     GSI     A +  LG Y    
+Sbjct  310  ATFITLAVFL-GVGTGG--------VFAWVARRSPAQSVGSITGIV-AAAGGLGGYFPPL  359
+
+Query  364  LLGWLYDRAEGYGTAEWVLLA-----AFSLAACSLFAFRPYPQKLP  404
+            ++G  YD  +   T   +LL      AF+  A  L A  P P+  P
+Sbjct  360  VMGGTYDAVDNDYTVGLLLLVATALIAFAYTALRLHAHEPQPKGTP  405
+
+
+>VFG009655(gb|WP_011558675) (narK2) NarK/NasA family nitrate transporter 
+[Nitrate/nitrite transporter (VF0821) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. MCS]
+Length=406
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 103/406 (25%), Positives = 165/406 (41%), Gaps = 72/406 (18%)
+
+Query  37   IAPMSAEYAWD----RAEVSLLVTLFGLAVAITSPLKGWLIDRWGARRTMLGLTAALSLP  92
+            I P+S  YA D      + S+LV    L  ++   + G L DR+G R   + ++ A  +P
+Sbjct  34   IGPLSTTYAGDLSLSSTQASMLVATPILVGSLGRIVVGSLTDRFGGRVMFIAISLASIIP  93
+
+Query  93   LLGLAAVNAVWQLYALFLLIG--------LLAPGNLPYGRILGLWFR-QRLGVAYGLLGL  143
+            +L + A       Y L L+ G        + A G +P+      W+   R G A G+ G+
+Sbjct  94   VLAVGAAGTAGS-YPLLLVFGFFLGIAGTVFAVG-IPFAN---HWYEASRRGFATGVFGM  148
+
+Query  144  GFGVGGPLGLLVGHQSLEAWGWRGAFLVYGVLELGLALPLLAWLFR-------EPAPDAG  196
+            G  VG  L      + +    W G F  + V+ + LAL  +  L          P  DA 
+Sbjct  149  GM-VGTALSAFFTPRFVN---WFGLFTTHLVIAIALALTAVLCLLAMRDSPHFSPNTDAV  204
+
+Query  197  VAAGTAVAETALSGSTAPQAWRSASFWLVLGNQVLAVFVMSGIMTHGVPMLVER--GLSR  254
+            +    A A+  ++       W  +  + V+    +A        ++ +P  ++   G S 
+Sbjct  205  LPKLKAAAKLGVT-------WEMSFLYAVVFGGFVA-------FSNYLPTYIKTIYGFSA  250
+
+Query  255  GEAGTALSALWVGMMLSQPLMGWLLDRVATPRVALPFALAAVLGMAWFLVGDTPSGLW--  312
+             +AG   +   +  +L++P+ G L DR+  P+  +  + A    +A+  V   P  LW  
+Sbjct  251  VDAGARTAGFALAAVLARPVGGALADRIP-PKYVVLTSFAGTAALAFVAVFQPPPDLWSA  309
+
+Query  313  -----LAVFLVGLGGGGESGTTKYLLMRYFGLRSFGVIYGSIQPFTFALSISLGAY----  363
+                 LAVFL G+G GG        +  +   RS     GSI     A +  LG Y    
+Sbjct  310  ATFITLAVFL-GVGTGG--------VFAWVARRSPAQSVGSITGIV-AAAGGLGGYFPPL  359
+
+Query  364  LLGWLYDRAEGYGTAEWVLLA-----AFSLAACSLFAFRPYPQKLP  404
+            ++G  YD  +   T   +LL      AF+  A  L A  P P+  P
+Sbjct  360  VMGGTYDAVDNDYTVGLLLLVATALIAFAYTALRLHAHEPQPKGTP  405
+
+
+>VFG009654(gb|WP_208856679) (narK2) NarK/NasA family nitrate transporter 
+[Nitrate/nitrite transporter (VF0821) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. KMS]
+Length=392
+
+ Score = 48.5 bits (114),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 103/406 (25%), Positives = 165/406 (41%), Gaps = 72/406 (18%)
+
+Query  37   IAPMSAEYAWD----RAEVSLLVTLFGLAVAITSPLKGWLIDRWGARRTMLGLTAALSLP  92
+            I P+S  YA D      + S+LV    L  ++   + G L DR+G R   + ++ A  +P
+Sbjct  20   IGPLSTTYAGDLSLSSTQASMLVATPILVGSLGRIVVGSLTDRFGGRVMFIAISLASIIP  79
+
+Query  93   LLGLAAVNAVWQLYALFLLIG--------LLAPGNLPYGRILGLWFR-QRLGVAYGLLGL  143
+            +L + A       Y L L+ G        + A G +P+      W+   R G A G+ G+
+Sbjct  80   VLAVGAAGTAGS-YPLLLVFGFFLGIAGTVFAVG-IPFAN---HWYEASRRGFATGVFGM  134
+
+Query  144  GFGVGGPLGLLVGHQSLEAWGWRGAFLVYGVLELGLALPLLAWLFR-------EPAPDAG  196
+            G  VG  L      + +    W G F  + V+ + LAL  +  L          P  DA 
+Sbjct  135  GM-VGTALSAFFTPRFVN---WFGLFTTHLVIAIALALTAVLCLLAMRDSPHFSPNTDAV  190
+
+Query  197  VAAGTAVAETALSGSTAPQAWRSASFWLVLGNQVLAVFVMSGIMTHGVPMLVER--GLSR  254
+            +    A A+  ++       W  +  + V+    +A        ++ +P  ++   G S 
+Sbjct  191  LPKLKAAAKLGVT-------WEMSFLYAVVFGGFVA-------FSNYLPTYIKTIYGFSA  236
+
+Query  255  GEAGTALSALWVGMMLSQPLMGWLLDRVATPRVALPFALAAVLGMAWFLVGDTPSGLW--  312
+             +AG   +   +  +L++P+ G L DR+  P+  +  + A    +A+  V   P  LW  
+Sbjct  237  VDAGARTAGFALAAVLARPVGGALADRIP-PKYVVLTSFAGTAALAFVAVFQPPPDLWSA  295
+
+Query  313  -----LAVFLVGLGGGGESGTTKYLLMRYFGLRSFGVIYGSIQPFTFALSISLGAY----  363
+                 LAVFL G+G GG        +  +   RS     GSI     A +  LG Y    
+Sbjct  296  ATFITLAVFL-GVGTGG--------VFAWVARRSPAQSVGSITGIV-AAAGGLGGYFPPL  345
+
+Query  364  LLGWLYDRAEGYGTAEWVLLA-----AFSLAACSLFAFRPYPQKLP  404
+            ++G  YD  +   T   +LL      AF+  A  L A  P P+  P
+Sbjct  346  VMGGTYDAVDNDYTVGLLLLVATALIAFAYTALRLHAHEPQPKGTP  391
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.142    0.452    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3154154138
+
+
+Query= g2403.t1
+
+Length=398
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.146    0.445    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3091488824
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,133 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1861.t1
+
+Length=128
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG008254(gb|WP_011782699) (lpqH) lipoprotein LpqH [19-kD protein...  46.6    3e-07
+VFG017624(gb|WP_015309829) (lpqH) lipoprotein LpqH [19-kD protein...  43.5    3e-06
+VFG008255(gb|WP_011562325) (lpqH) lipoprotein LpqH [19-kD protein...  42.7    9e-06
+VFG008256(gb|WP_041309934) (lpqH) lipoprotein LpqH [19-kD protein...  42.7    1e-05
+
+
+>VFG008254(gb|WP_011782699) (lpqH) lipoprotein LpqH [19-kD protein 
+(VF0806) - Immune modulation (VFC0258)] [Mycobacterium 
+vanbaalenii PYR-1]
+Length=152
+
+ Score = 46.6 bits (109),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 41/139 (29%), Positives = 61/139 (44%), Gaps = 13/139 (9%)
+
+Query  2    VVAAGLSACGQ------AQTVPRKAAR----LTIDGVTHTTR-PATCSQEHSYRTIDIRN  50
+            +V AGLS CG        +T    AA     +TIDG     +    CS       I I +
+Sbjct  14   IVMAGLSGCGSDKSETSGETSQAAAAEGKSTVTIDGADQEVQGTVVCSDMGGNTNIAIGD  73
+
+Query  51   HDSTVQAVVLLSGDRVIPQWVKIRNVDGFNGSFWHG-GVGNARADRARNTYTVAGSAYGI  109
+              + +  VV+ +GD      V + NV+G    +  G G G A+A++   TY ++G+A G+
+Sbjct  74   ATTGI-GVVVSTGDDPAVVSVGLGNVNGVTLGYQSGAGQGEAKAEKDGKTYKISGTATGV  132
+
+Query  110  SSKKPNTVVSTDFNILAEC  128
+                P   V+  F I   C
+Sbjct  133  DMANPMAPVNKPFEIEVTC  151
+
+
+>VFG017624(gb|WP_015309829) (lpqH) lipoprotein LpqH [19-kD protein 
+(VF0806) - Immune modulation (VFC0258)] [Mycobacterium 
+smegmatis JS623]
+Length=153
+
+ Score = 43.5 bits (101),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 41/141 (29%), Positives = 63/141 (45%), Gaps = 16/141 (11%)
+
+Query  2    VVAAGLSACGQA--------QTVPRKAAR----LTIDGVTHTTR-PATCSQEHSYRTIDI  48
+            +V AGLS CG          QT    +A+    +TIDG     +    CS       I I
+Sbjct  14   IVIAGLSGCGSGEKKSETSGQTSSAASAQGKTTVTIDGQDQKVQGTVVCSSMGGNMNIAI  73
+
+Query  49   RNHDSTVQAVVLLSGDRVIPQWVKIRNVDGFNGSFWHG-GVGNARADRARNTYTVAGSAY  107
+             +  + + AVV   G  V  Q V + NV+G    +  G G G+A+A++   T+ ++G+A 
+Sbjct  74   GDAATGIAAVVSDDGKTV--QSVGLGNVNGVTLGYQAGTGQGDAKAEKDGKTWKISGTAT  131
+
+Query  108  GISSKKPNTVVSTDFNILAEC  128
+            G+    P   ++  F I   C
+Sbjct  132  GVDMANPMQPMNKPFAIEVSC  152
+
+
+>VFG008255(gb|WP_011562325) (lpqH) lipoprotein LpqH [19-kD protein 
+(VF0806) - Immune modulation (VFC0258)] [Mycobacterium 
+sp. JLS]
+Length=159
+
+ Score = 42.7 bits (99),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 33/111 (30%), Positives = 48/111 (43%), Gaps = 3/111 (3%)
+
+Query  20   AARLTIDGVTHTTR-PATCSQEHSYRTIDIRNHDSTVQAVVLLSGDRVIPQWVKIRNVDG  78
+            AA++ IDG     +    C+       I I    + + AVV  + D    Q V + NV+G
+Sbjct  49   AAKVVIDGQDQNIQGTVACTSMGGNLNIAIGQATTGIGAVVTEA-DPPTVQSVGLGNVNG  107
+
+Query  79   FNGSFWHG-GVGNARADRARNTYTVAGSAYGISSKKPNTVVSTDFNILAEC  128
+                F  G G GNA  ++   TY + G+A G+    P   V+  F I   C
+Sbjct  108  VTLGFQQGTGQGNAEVEKDDKTYNIKGNATGVDMANPLQPVTKPFEIEVTC  158
+
+
+>VFG008256(gb|WP_041309934) (lpqH) lipoprotein LpqH [19-kD protein 
+(VF0806) - Immune modulation (VFC0258)] [Mycobacterium 
+sp. KMS]
+Length=165
+
+ Score = 42.7 bits (99),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 33/111 (30%), Positives = 48/111 (43%), Gaps = 3/111 (3%)
+
+Query  20   AARLTIDGVTHTTR-PATCSQEHSYRTIDIRNHDSTVQAVVLLSGDRVIPQWVKIRNVDG  78
+            AA++ IDG     +    C+       I I    + + AVV  + D    Q V + NV+G
+Sbjct  55   AAKVVIDGQDQNIQGTVACTSMGGNLNIAIGQATTGIGAVVTEA-DPPTVQSVGLGNVNG  113
+
+Query  79   FNGSFWHG-GVGNARADRARNTYTVAGSAYGISSKKPNTVVSTDFNILAEC  128
+                F  G G GNA  ++   TY + G+A G+    P   V+  F I   C
+Sbjct  114  VTLGFQQGTGQGNAEVEKDDKTYNIKGNATGVDMANPLQPVTKPFEIEVTC  164
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.130    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 433438680
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,79 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2020.t1
+
+Length=250
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG042147(gb|WP_010883398) (CPN_RS03915) TenA family transcriptio...  53.5    1e-08
+
+
+>VFG042147(gb|WP_010883398) (CPN_RS03915) TenA family transcriptional 
+regulator [TTSS (VF0344) - Effector delivery system 
+(VFC0086)] [Chlamydophila pneumoniae CWL029]
+Length=224
+
+ Score = 53.5 bits (127),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 48/212 (23%), Positives = 94/212 (44%), Gaps = 16/212 (8%)
+
+Query  24   IHHPFHVAMYEGRASREQIQGWVANRFYYQVNIPLKDAAILANCPDREVRREWIQRILDH  83
+            + H F+    EG+  ++Q+Q +  + + +    P   +A+ A C D ++RR+ ++ ++D 
+Sbjct  18   LKHEFYQRWSEGKLEKQQLQAYAKDYYLHIKAFPCYLSALHARCDDLQIRRQILENLMDE  77
+
+Query  84   DGAPGEAGGIEAWLRLAEAVGLEREQVLSEERVLPGVRFAVDAYVNFARRASWQEAA---  140
+            +   G    I+ W + A ++G+  E++ + E      + A D    F R     + A   
+Sbjct  78   EA--GNPNHIDLWRQFALSLGVSEEELANHEF----SQAAQDMVATFRRLCDMPQLAVGL  131
+
+Query  141  -SSSLTELFAPQIHQSRLDSWPRHYPWIEAAGYEYFRSRLAQARRDVEHGL--RITLEHY  197
+             +    E+  PQ+   ++    + Y  + A GY YF         D++H    +  L+  
+Sbjct  132  GALYTYEIQIPQVCVEKIRGL-KEYFGVSARGYAYFT---VHQEADIKHASEEKEMLQTL  187
+
+Query  198  RTREAQERMLDILQFKLDVLWSMLDAMSMAYE  229
+              RE  + +L   Q  LD LW+ L +   + E
+Sbjct  188  VGRENPDAVLQGSQEVLDTLWNFLSSFINSTE  219
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.135    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1604534344
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

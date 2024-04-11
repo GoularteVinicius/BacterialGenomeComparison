@@ -1,0 +1,75 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3566.t1
+
+Length=137
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045327(gb|WP_015444188) (LPG_RS11000) Hsp20 family protein [Gs...  107     1e-30
+
+
+>VFG045327(gb|WP_015444188) (LPG_RS11000) Hsp20 family protein 
+[GspA (VF0167) - Stress survival (VFC0282)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=166
+
+ Score = 107 bits (268),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 60/137 (44%), Positives = 82/137 (60%), Gaps = 3/137 (2%)
+
+Query  3    NFDLSPLYRSAIGFDRLFNLLEN--NQSQSNGGYPPYNVELVDENHYRIAIAVAGFAESE  60
+            +  L+PL R ++GF+R  +L E+  N   S   YP Y++E   E+ Y I +AV GF ES+
+Sbjct  5    SLSLTPLLRHSVGFERFNDLFESMRNADDSTYAYPAYDIEKHGEDSYTITMAVPGFQESD  64
+
+Query  61   LEITAQDNLLVVKG-AHADEQKERTYLYQGIAERNFERKFQLAENIHVRGANLVNGLLYI  119
+            L I  Q++ L V G     E KE  YL++ I  R FE+ F+LA+++ V GA + NGLL I
+Sbjct  65   LNIMVQNDQLTVSGRIQEKETKESEYLHRSIVTRAFEQTFRLADHMQVTGAEIKNGLLSI  124
+
+Query  120  ELERVIPEANKPRRIEI  136
+             L R IPE  KPR I I
+Sbjct  125  GLIREIPEEAKPRIIPI  141
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 518783280
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

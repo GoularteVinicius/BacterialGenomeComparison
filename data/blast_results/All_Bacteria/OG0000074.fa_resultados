@@ -1,0 +1,3329 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g465.t1
+
+Length=44
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.341    0.148    0.471    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 332662382
+
+
+Query= g466.t1
+
+Length=33
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.334    0.149    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 326863175
+
+
+Query= g1838.t1
+
+Length=264
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.140    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1752320402
+
+
+Query= g2368.t1
+
+Length=272
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG036547(gb|WP_013449338) (fbpB) iron(III) ABC transporter, perm...  65.9    3e-12
+VFG036536(gb|WP_002233656) (fbpB) iron(III) ABC transporter, perm...  58.5    1e-09
+VFG000249(gb|WP_002214251) (fbpB) iron(III) ABC transporter, perm...  58.5    1e-09
+VFG006252(gb|WP_002246860) (fbpB) iron(III) ABC transporter, perm...  57.0    3e-09
+VFG006255(gb|WP_025456388) (fbpB) iron(III) ABC transporter, perm...  55.8    8e-09
+VFG019712(gb|WP_010357027) (fbpB) iron(III) ABC transporter, perm...  55.5    1e-08
+VFG013568(gb|WP_005687630) (hitB) iron ABC transporter permease [...  53.9    4e-08
+VFG000343(gb|WP_164927854) (hitB) iron ABC transporter permease [...  53.1    7e-08
+VFG030569(gb|WP_011894704) (sugA) sugar ABC transporter permease ...  51.6    1e-07
+VFG030576(gb|WP_011779763) (sugA) sugar ABC transporter permease ...  49.3    7e-07
+VFG013191(gb|WP_011608935) (hitB) iron ABC transporter permease [...  48.1    3e-06
+
+
+>VFG036547(gb|WP_013449338) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria lactamica 020-06]
+Length=505
+
+ Score = 65.9 bits (159),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 62/243 (26%), Positives = 105/243 (43%), Gaps = 22/243 (9%)
+
+Query  23   LIVPVALILWRTFEPGFGQFYAWISTPAAISALNLSLLVVAIVVPLNVIFGVTTALVLAR  82
+            LI+P   +  R+++ G  + Y  +  P     L+ +L ++A V  ++++ G+  AL+  R
+Sbjct  21   LILPFLYVAMRSWQVGINRAYELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQR  80
+
+Query  83   NRFRGKGVLQAIIDLPFAVSPVIVGVSLILLWGSAGALGFVEQDLGFKIIFGLPGIVLGS  142
+             RF GK   Q  I LP  + P  V               F    L F++  G  G V+  
+Sbjct  81   YRFFGKTFFQTAITLPLCI-PAFVSC-------------FTWISLTFRVE-GFWGTVMIM  125
+
+Query  143  MFVTCPFVVREVEPVLHELGTDQEQAAATLGSGWWQTFWRITLPSIRWGLTYGIVLTVAR  202
+               + P     VE  L  +    E+ + +LG    QTF+   LP ++  +   ++L    
+Sbjct  126  SLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALH  185
+
+Query  203  TLGEYGAVIIVSSNLPGTSQTLTLLVSDRYHRGAEYGAYA-LSTLLMAVSVVVLIVQMVL  261
+             L E+GAV I++       QT T  +   Y    +    A LS +LMAV  +V+  + + 
+Sbjct  186  MLVEFGAVSILN------YQTFTTAIFQEYEMSFDNNTAALLSAVLMAVCGIVVFGESIF  239
+
+Query  262  DAR  264
+              +
+Sbjct  240  RGK  242
+
+
+>VFG036536(gb|WP_002233656) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis WUE 2594]
+Length=505
+
+ Score = 58.5 bits (140),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 61/243 (25%), Positives = 102/243 (42%), Gaps = 22/243 (9%)
+
+Query  23   LIVPVALILWRTFEPGFGQFYAWISTPAAISALNLSLLVVAIVVPLNVIFGVTTALVLAR  82
+            L +P   +  R+++ G  +    +  P     L+ +L ++A V  ++++ G+  AL+  R
+Sbjct  21   LTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQR  80
+
+Query  83   NRFRGKGVLQAIIDLPFAVSPVIVGVSLILLWGSAGALGFVEQDLGFKIIFGLPGIVLGS  142
+             RF GK   Q  I LP  + P  V               F    L F++  G  G V+  
+Sbjct  81   YRFFGKTFFQTAITLPLCI-PAFVSC-------------FTWISLTFRVE-GFWGTVMIM  125
+
+Query  143  MFVTCPFVVREVEPVLHELGTDQEQAAATLGSGWWQTFWRITLPSIRWGLTYGIVLTVAR  202
+               + P     VE  L  +    E+ + +LG    QTF+   LP ++  +   ++L    
+Sbjct  126  SLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALH  185
+
+Query  203  TLGEYGAVIIVSSNLPGTSQTLTLLVSDRYHRGAEYGAYA-LSTLLMAVSVVVLIVQMVL  261
+             L E+GAV I+  N P    T T  +   Y         A LS +LMAV  +V+  + + 
+Sbjct  186  MLVEFGAVSIL--NYP----TFTTAIFQEYEMSYNNNTAALLSAVLMAVCGIVVFGESIF  239
+
+Query  262  DAR  264
+              +
+Sbjct  240  RGK  242
+
+
+>VFG000249(gb|WP_002214251) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis MC58]
+Length=505
+
+ Score = 58.5 bits (140),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 61/243 (25%), Positives = 102/243 (42%), Gaps = 22/243 (9%)
+
+Query  23   LIVPVALILWRTFEPGFGQFYAWISTPAAISALNLSLLVVAIVVPLNVIFGVTTALVLAR  82
+            L +P   +  R+++ G  +    +  P     L+ +L ++A V  ++++ G+  AL+  R
+Sbjct  21   LTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQR  80
+
+Query  83   NRFRGKGVLQAIIDLPFAVSPVIVGVSLILLWGSAGALGFVEQDLGFKIIFGLPGIVLGS  142
+             RF GK   Q  I LP  + P  V               F    L F++  G  G V+  
+Sbjct  81   YRFFGKTFFQTAITLPLCI-PAFVSC-------------FTWISLTFRVE-GFWGTVMIM  125
+
+Query  143  MFVTCPFVVREVEPVLHELGTDQEQAAATLGSGWWQTFWRITLPSIRWGLTYGIVLTVAR  202
+               + P     VE  L  +    E+ + +LG    QTF+   LP ++  +   ++L    
+Sbjct  126  SLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALH  185
+
+Query  203  TLGEYGAVIIVSSNLPGTSQTLTLLVSDRYHRGAEYGAYA-LSTLLMAVSVVVLIVQMVL  261
+             L E+GAV I+  N P    T T  +   Y         A LS +LMAV  +V+  + + 
+Sbjct  186  MLVEFGAVSIL--NYP----TFTTAIFQEYEMSYNNNTAALLSAVLMAVCGIVVFGESIF  239
+
+Query  262  DAR  264
+              +
+Sbjct  240  RGK  242
+
+
+>VFG006252(gb|WP_002246860) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis Z2491]
+Length=505
+
+ Score = 57.0 bits (136),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 60/243 (25%), Positives = 102/243 (42%), Gaps = 22/243 (9%)
+
+Query  23   LIVPVALILWRTFEPGFGQFYAWISTPAAISALNLSLLVVAIVVPLNVIFGVTTALVLAR  82
+            L +P   +  R+++ G  +    +  P     L+ +L ++A V  ++++ G+  AL+  R
+Sbjct  21   LTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQR  80
+
+Query  83   NRFRGKGVLQAIIDLPFAVSPVIVGVSLILLWGSAGALGFVEQDLGFKIIFGLPGIVLGS  142
+             RF GK   Q  I LP  + P  V               F    L F++  G  G V+  
+Sbjct  81   YRFFGKTFFQTAITLPLCI-PAFVSC-------------FTWISLTFRVE-GFWGTVMIM  125
+
+Query  143  MFVTCPFVVREVEPVLHELGTDQEQAAATLGSGWWQTFWRITLPSIRWGLTYGIVLTVAR  202
+               + P     VE  L  +    ++ + +LG    QTF+   LP ++  +   ++L    
+Sbjct  126  SLSSFPLAYLPVEAALKRISLSYKEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALH  185
+
+Query  203  TLGEYGAVIIVSSNLPGTSQTLTLLVSDRYHRGAEYGAYA-LSTLLMAVSVVVLIVQMVL  261
+             L E+GAV I+  N P    T T  +   Y         A LS +LMAV  +V+  + + 
+Sbjct  186  MLVEFGAVSIL--NYP----TFTTAIFQEYEMSYNNNTAALLSAVLMAVCGIVVFGESIF  239
+
+Query  262  DAR  264
+              +
+Sbjct  240  RGK  242
+
+
+>VFG006255(gb|WP_025456388) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria gonorrhoeae FA 1090]
+Length=505
+
+ Score = 55.8 bits (133),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 60/243 (25%), Positives = 101/243 (42%), Gaps = 22/243 (9%)
+
+Query  23   LIVPVALILWRTFEPGFGQFYAWISTPAAISALNLSLLVVAIVVPLNVIFGVTTALVLAR  82
+            L +P   +  R+++ G  +    +  P     L+ +L ++A V  ++++ G+  AL+  R
+Sbjct  21   LTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQR  80
+
+Query  83   NRFRGKGVLQAIIDLPFAVSPVIVGVSLILLWGSAGALGFVEQDLGFKIIFGLPGIVLGS  142
+             RF GK   Q  I LP  + P  V               F    L F++  G  G V+  
+Sbjct  81   YRFFGKTFFQTAITLPLCI-PAFVSC-------------FTWISLTFRVE-GFWGTVMIM  125
+
+Query  143  MFVTCPFVVREVEPVLHELGTDQEQAAATLGSGWWQTFWRITLPSIRWGLTYGIVLTVAR  202
+               + P     VE  L  +    E+ + +LG    QTF+   LP ++  +   ++L    
+Sbjct  126  SLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALH  185
+
+Query  203  TLGEYGAVIIVSSNLPGTSQTLTLLVSDRYHRGAEYGAYA-LSTLLMAVSVVVLIVQMVL  261
+             L E+GAV I+  N P    T T  +   Y         A LS +L AV  +V+  + + 
+Sbjct  186  MLVEFGAVSIL--NYP----TFTTAIFQEYEMSYNNNTAALLSAVLTAVCGIVVFGESIF  239
+
+Query  262  DAR  264
+              +
+Sbjct  240  RGK  242
+
+
+>VFG019712(gb|WP_010357027) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria gonorrhoeae NCCP11945]
+Length=505
+
+ Score = 55.5 bits (132),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 60/243 (25%), Positives = 101/243 (42%), Gaps = 22/243 (9%)
+
+Query  23   LIVPVALILWRTFEPGFGQFYAWISTPAAISALNLSLLVVAIVVPLNVIFGVTTALVLAR  82
+            L +P   +  R+++ G  +    +  P     L+ +L ++A V  ++++ G+  AL+  R
+Sbjct  21   LTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQR  80
+
+Query  83   NRFRGKGVLQAIIDLPFAVSPVIVGVSLILLWGSAGALGFVEQDLGFKIIFGLPGIVLGS  142
+             RF GK   Q  I LP  + P  V               F    L F++  G  G V+  
+Sbjct  81   YRFFGKTFFQTAITLPLCI-PAFVSC-------------FTWISLTFRVE-GFWGTVMIM  125
+
+Query  143  MFVTCPFVVREVEPVLHELGTDQEQAAATLGSGWWQTFWRITLPSIRWGLTYGIVLTVAR  202
+               + P     VE  L  +    E+ + +LG    QTF+   LP ++  +   ++L    
+Sbjct  126  SLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIALH  185
+
+Query  203  TLGEYGAVIIVSSNLPGTSQTLTLLVSDRYHRGAEYGAYA-LSTLLMAVSVVVLIVQMVL  261
+             L E+GAV I+  N P    T T  +   Y         A LS +L AV  +V+  + + 
+Sbjct  186  MLVEFGAVSIL--NYP----TFTTAIFQEYEMSYNNNTAALLSAVLTAVCGIVVFGESIF  239
+
+Query  262  DAR  264
+              +
+Sbjct  240  RGK  242
+
+
+>VFG013568(gb|WP_005687630) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus influenzae 86-028NP]
+Length=506
+
+ Score = 53.9 bits (128),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 57/243 (23%), Positives = 98/243 (40%), Gaps = 26/243 (11%)
+
+Query  26   PVALILWRTFEPGFGQFYAWISTPAAISALNLSLLVVAIVVPLNVIFGVTTALVLARNRF  85
+            P   ++ R  E G  +    +  P     L+ ++L++  V    +  G   A +L R RF
+Sbjct  23   PFLYVILRATEVGLTRSVELLFRPRMAELLSNTMLLMVCVTIGAISLGTLCAFLLERYRF  82
+
+Query  86   RGKGVLQAIIDLPFAVSPVIVGVSLILLWGSAGALGFVEQDLGFKI--IFGLPGIVLGSM  143
+             GK   +  + LP  + P  V               F    L F++   +G  GI+  S 
+Sbjct  83   FGKAFFEVAMTLPLCI-PAFVSC-------------FTWISLTFRVEGFWGTIGIMTLSS  128
+
+Query  144  FVTCPFVVREVEPVLHELGTDQEQAAATLGSGWWQTFWRITLPSIRWGLTYGIVLTVART  203
+            F   P     V  +L  L    E+ + +LG     TFW +  P ++  +   I+L     
+Sbjct  129  F---PLAYLPVSAILKRLDRSLEEVSLSLGKSPVYTFWYVIFPQLKPAIGSSILLIALHM  185
+
+Query  204  LGEYGAVIIVSSNLPGTSQTLTLLVSDRYHRGAEYGAYA-LSTLLMAVSVVVLIVQMVLD  262
+            L E+GAV I++       QT T  +   Y         A LS +LMA+ ++++  ++   
+Sbjct  186  LIEFGAVSILN------YQTFTTAIFQEYEMSFNNSTAALLSAVLMAICILIVFGEIFFR  239
+
+Query  263  ARR  265
+             ++
+Sbjct  240  GKQ  242
+
+
+>VFG000343(gb|WP_164927854) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus influenzae Rd KW20]
+Length=506
+
+ Score = 53.1 bits (126),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 58/243 (24%), Positives = 98/243 (40%), Gaps = 26/243 (11%)
+
+Query  26   PVALILWRTFEPGFGQFYAWISTPAAISALNLSLLVVAIVVPLNVIFGVTTALVLARNRF  85
+            P   ++ R  E G  +    +  P     L+ ++L++  V    +  G   A +L R RF
+Sbjct  23   PFLYVILRATEVGLTRSVELLFRPRMAELLSNTMLLMVCVTIGAISLGTFCAFLLERYRF  82
+
+Query  86   RGKGVLQAIIDLPFAVSPVIVGVSLILLWGSAGALGFVEQDLGFK--IIFGLPGIVLGSM  143
+             GK   +  + LP  + P  V              GF    L F+  + +G  GI+  S 
+Sbjct  83   FGKAFFEVAMTLPLCI-PAFVS-------------GFTWISLTFRVEVFWGTIGIMTLSS  128
+
+Query  144  FVTCPFVVREVEPVLHELGTDQEQAAATLGSGWWQTFWRITLPSIRWGLTYGIVLTVART  203
+            F   P     V  +L  L    E+ + +LG     TFW    P ++  +   I+L     
+Sbjct  129  F---PLAYLPVSAILKRLDRSLEEVSLSLGKSPVYTFWYAISPQLKPAIGSSILLIALHM  185
+
+Query  204  LGEYGAVIIVSSNLPGTSQTLTLLVSDRYHRGAEYGAYA-LSTLLMAVSVVVLIVQMVLD  262
+            L E+GAV I++       QT T  +   Y         A LS +LMA+ ++++  ++   
+Sbjct  186  LVEFGAVSILN------YQTFTTAIFQEYEMSFNNSTAALLSAVLMAICILIVFGEIFFR  239
+
+Query  263  ARR  265
+             ++
+Sbjct  240  GKQ  242
+
+
+>VFG030569(gb|WP_011894704) (sugA) sugar ABC transporter permease 
+[Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium gilvum PYR-GCK]
+Length=310
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 53/196 (27%), Positives = 89/196 (45%), Gaps = 27/196 (14%)
+
+Query  10   LVRSVALGYVFVLLIVPVALILWRTFEP------GFGQFYAWISTPAAISALNLSLLVVA  63
+            LV +  LGY  VL     +L  +R  +P      G G +   ++ P   +    +L +  
+Sbjct  42   LVTAYPLGYALVL-----SLYNFRLTDPEGRSFVGLGNYLVILTDPIWWNDFVTTLAITV  96
+
+Query  64   IVVPLNVIFGVTTALVLARNRFRGKGVLQAIIDLPFAVSPVIVGVSLILLWGSAGAL--G  121
+            + V + ++ G   A V+ R   RG+G L+  I +P+ +  V+       +W  A A+  G
+Sbjct  97   VTVAIELVLGFWFAFVMLR-IVRGRGPLRTAILIPYGIVTVVSA----FIWRYAFAIDSG  151
+
+Query  122  FVEQDLGFKIIFGLPGIVLGSMFVTC--------PFVVREVEPVLHELGTDQEQAAATLG  173
+            FV Q L     F   G    ++FV C        PF+   +   L ++  D ++AA   G
+Sbjct  152  FVNQWLNLTD-FDWFGDRWSAIFVICLSEIWKTTPFISLLLLAGLVQVPEDMQEAAKVDG  210
+
+Query  174  SGWWQTFWRITLPSIR  189
+            +  WQ  W+ITLP+++
+Sbjct  211  ATAWQRLWKITLPNMK  226
+
+
+>VFG030576(gb|WP_011779763) (sugA) sugar ABC transporter permease 
+[Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium vanbaalenii PYR-1]
+Length=310
+
+ Score = 49.3 bits (116),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 52/196 (27%), Positives = 88/196 (45%), Gaps = 27/196 (14%)
+
+Query  10   LVRSVALGYVFVLLIVPVALILWRTFEP------GFGQFYAWISTPAAISALNLSLLVVA  63
+            LV +  LGY  VL     +L  +R  +P      G   +   ++ P   +    +L +  
+Sbjct  42   LVTAYPLGYALVL-----SLYNFRLTDPEGRSFVGLSNYLVILTDPLWWNDFVTTLAITV  96
+
+Query  64   IVVPLNVIFGVTTALVLARNRFRGKGVLQAIIDLPFAVSPVIVGVSLILLWGSAGAL--G  121
+            + V + ++ G   A V+ R   RG+G L+  I +P+ +  V+       +W  A A+  G
+Sbjct  97   VTVAIELVLGFWFAFVMLR-IVRGRGPLRTAILIPYGIVTVVSA----FIWRYAFAIDSG  151
+
+Query  122  FVEQDLGFKIIFGLPGIVLGSMFVTC--------PFVVREVEPVLHELGTDQEQAAATLG  173
+            FV Q L     F   G    ++FV C        PF+   +   L ++  D ++AA   G
+Sbjct  152  FVNQWLNLTE-FDWFGDRWSAIFVICLSEIWKTTPFISLLLLAGLVQVPEDMQEAAKVDG  210
+
+Query  174  SGWWQTFWRITLPSIR  189
+            +  WQ  W+ITLP+++
+Sbjct  211  ATAWQRLWKITLPNMK  226
+
+
+>VFG013191(gb|WP_011608935) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus somnus 2336]
+Length=555
+
+ Score = 48.1 bits (113),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 45/162 (28%), Positives = 71/162 (44%), Gaps = 9/162 (6%)
+
+Query  58   SLLVVAIVVPLNVIFGVTTALVLARNRFRGKGVLQAIIDLPFAVSPVIVGVSLILLWGSA  117
+            SLL+V   V  +++F +  A  +++ +F G+ +LQ ++ LP A+   +V      L   A
+Sbjct  58   SLLLVIGTVSFSLVFALPCAWFISQYQFTGQKILQWLLCLPLAMPGYLVAYLYTDLLDYA  117
+
+Query  118  GALGFV---------EQDLGFKIIFGLPGIVLGSMFVTCPFVVREVEPVLHELGTDQEQA  168
+            GA+             QD  F  I  L G  +    V  P++   V   L E   +  Q+
+Sbjct  118  GAVQVFLRQTFSWSSAQDYWFISIRTLWGACIVLALVLFPYIFLLVRLALLEQSENLIQS  177
+
+Query  169  AATLGSGWWQTFWRITLPSIRWGLTYGIVLTVARTLGEYGAV  210
+            A  LGS   +   +I  P  R  +  G  L    TLG++G V
+Sbjct  178  AKLLGSSPRKLLQKIIFPLTRPAIAIGCALVAMETLGDFGTV  219
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.141    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1821372545
+
+
+Query= g2369.t1
+
+Length=283
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG013191(gb|WP_011608935) (hitB) iron ABC transporter permease [...  62.4    6e-11
+VFG036547(gb|WP_013449338) (fbpB) iron(III) ABC transporter, perm...  58.2    2e-09
+VFG000249(gb|WP_002214251) (fbpB) iron(III) ABC transporter, perm...  57.8    2e-09
+VFG036536(gb|WP_002233656) (fbpB) iron(III) ABC transporter, perm...  57.4    3e-09
+VFG006255(gb|WP_025456388) (fbpB) iron(III) ABC transporter, perm...  56.2    8e-09
+VFG006252(gb|WP_002246860) (fbpB) iron(III) ABC transporter, perm...  55.8    8e-09
+VFG019712(gb|WP_010357027) (fbpB) iron(III) ABC transporter, perm...  55.8    1e-08
+VFG013568(gb|WP_005687630) (hitB) iron ABC transporter permease [...  52.0    2e-07
+VFG000343(gb|WP_164927854) (hitB) iron ABC transporter permease [...  46.6    9e-06
+
+
+>VFG013191(gb|WP_011608935) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus somnus 2336]
+Length=555
+
+ Score = 62.4 bits (150),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 54/229 (24%), Positives = 100/229 (44%), Gaps = 28/229 (12%)
+
+Query  31   MAVVWLSVIVLLPLAAIVWQAAGGGWR---AFWLAVSSHAAMESFRVTL-TISTAVTVIN  86
+            +  +++++  + P+ AI +Q+    W+     W  V     + S  + + T+S      +
+Sbjct  15   LTALFITLFFVTPIIAIFYQSWSLNWQNIQHLWQTVLFDYLLNSLLLVIGTVS-----FS  69
+
+Query  87   LVFGLLIAWVLVRDDFAGKRIVDAIIDLPFALPTIVASLVMLALYGNNSPVGLHFQHTAT  146
+            LVF L  AW + +  F G++I+  ++ LP A+P  + + +   L      V +  + T +
+Sbjct  70   LVFALPCAWFISQYQFTGQKILQWLLCLPLAMPGYLVAYLYTDLLDYAGAVQVFLRQTFS  129
+
+Query  147  ----------------GVGVALAFVTLPFVVRAVQPVLLEIDRETEEAAASLGANGAKIF  190
+                            G  + LA V  P++   V+  LLE      ++A  LG++  K+ 
+Sbjct  130  WSSAQDYWFISIRTLWGACIVLALVLFPYIFLLVRLALLEQSENLIQSAKLLGSSPRKLL  189
+
+Query  191  TSVVLPSLTPALLSGAGLAFSRAIGEFGSVVLIGGAVPG-KTEVSSQWI  238
+              ++ P   PA+  G  L     +G+FG+V     AVP   T V   W+
+Sbjct  190  QKIIFPLTRPAIAIGCALVAMETLGDFGTVSYF--AVPTLTTAVYDTWL  236
+
+
+>VFG036547(gb|WP_013449338) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria lactamica 020-06]
+Length=505
+
+ Score = 58.2 bits (139),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 65/240 (27%), Positives = 105/240 (44%), Gaps = 24/240 (10%)
+
+Query  34   VWLSVIVL---LPLAAIVWQAAGGGW-----RAFWLAVSSHAAMESFRVTLTISTAVTVI  85
+            +WL+V++L   LPL       A   W     RA+ L        +    TLT+   VT+I
+Sbjct  8    LWLTVLILFIGLPLILPFLYVAMRSWQVGINRAYELLFRPRM-WDLLSNTLTMMAGVTLI  66
+
+Query  86   NLVFGLLIAWVLVRDDFAGKRIVDAIIDLPFALPTIVASLVMLALYGNNSPVGLHFQHTA  145
+            ++V G+  A +  R  F GK      I LP  +P  V+             + L F+   
+Sbjct  67   SIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTW---------ISLTFRVEG  117
+
+Query  146  T-GVGVALAFVTLPFVVRAVQPVLLEIDRETEEAAASLGANGAKIFTSVVLPSLTPALLS  204
+              G  + ++  + P     V+  L  I    EE + SLG +  + F S +LP L PA+ S
+Sbjct  118  FWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGS  177
+
+Query  205  GAGLAFSRAIGEFGSVVLIGGAVPGKTEVSSQWIRTLIENDDRTGAAAISVVLLSISFIV  264
+               L     + EFG+V ++      +T  ++ +    +  D+ T AA +S VL+++  IV
+Sbjct  178  SVLLIALHMLVEFGAVSILN----YQTFTTAIFQEYEMSFDNNT-AALLSAVLMAVCGIV  232
+
+
+>VFG000249(gb|WP_002214251) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis MC58]
+Length=505
+
+ Score = 57.8 bits (138),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 54/191 (28%), Positives = 83/191 (43%), Gaps = 15/191 (8%)
+
+Query  75   TLTISTAVTVINLVFGLLIAWVLVRDDFAGKRIVDAIIDLPFALPTIVASLVMLALYGNN  134
+            TLT+   VT+I++V G+  A +  R  F GK      I LP  +P  V+           
+Sbjct  56   TLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTW-------  108
+
+Query  135  SPVGLHFQHTAT-GVGVALAFVTLPFVVRAVQPVLLEIDRETEEAAASLGANGAKIFTSV  193
+              + L F+     G  + ++  + P     V+  L  I    EE + SLG +  + F S 
+Sbjct  109  --ISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSA  166
+
+Query  194  VLPSLTPALLSGAGLAFSRAIGEFGSVVLIGGAVPGKTEVSSQWIRTLIENDDRTGAAAI  253
+            +LP L PA+ S   L     + EFG+V ++    P  T    Q       N+    AA +
+Sbjct  167  ILPQLKPAIGSSVLLIALHMLVEFGAVSILN--YPTFTTAIFQEYEMSYNNNT---AALL  221
+
+Query  254  SVVLLSISFIV  264
+            S VL+++  IV
+Sbjct  222  SAVLMAVCGIV  232
+
+
+>VFG036536(gb|WP_002233656) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis WUE 2594]
+Length=505
+
+ Score = 57.4 bits (137),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 54/191 (28%), Positives = 83/191 (43%), Gaps = 15/191 (8%)
+
+Query  75   TLTISTAVTVINLVFGLLIAWVLVRDDFAGKRIVDAIIDLPFALPTIVASLVMLALYGNN  134
+            TLT+   VT+I++V G+  A +  R  F GK      I LP  +P  V+           
+Sbjct  56   TLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTW-------  108
+
+Query  135  SPVGLHFQHTAT-GVGVALAFVTLPFVVRAVQPVLLEIDRETEEAAASLGANGAKIFTSV  193
+              + L F+     G  + ++  + P     V+  L  I    EE + SLG +  + F S 
+Sbjct  109  --ISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSA  166
+
+Query  194  VLPSLTPALLSGAGLAFSRAIGEFGSVVLIGGAVPGKTEVSSQWIRTLIENDDRTGAAAI  253
+            +LP L PA+ S   L     + EFG+V ++    P  T    Q       N+    AA +
+Sbjct  167  ILPQLKPAIGSSVLLIALHMLVEFGAVSILN--YPTFTTAIFQEYEMSYNNNT---AALL  221
+
+Query  254  SVVLLSISFIV  264
+            S VL+++  IV
+Sbjct  222  SAVLMAVCGIV  232
+
+
+>VFG006255(gb|WP_025456388) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria gonorrhoeae FA 1090]
+Length=505
+
+ Score = 56.2 bits (134),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 54/191 (28%), Positives = 82/191 (43%), Gaps = 15/191 (8%)
+
+Query  75   TLTISTAVTVINLVFGLLIAWVLVRDDFAGKRIVDAIIDLPFALPTIVASLVMLALYGNN  134
+            TLT+   VT+I++V G+  A +  R  F GK      I LP  +P  V+           
+Sbjct  56   TLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTW-------  108
+
+Query  135  SPVGLHFQHTAT-GVGVALAFVTLPFVVRAVQPVLLEIDRETEEAAASLGANGAKIFTSV  193
+              + L F+     G  + ++  + P     V+  L  I    EE + SLG +  + F S 
+Sbjct  109  --ISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSA  166
+
+Query  194  VLPSLTPALLSGAGLAFSRAIGEFGSVVLIGGAVPGKTEVSSQWIRTLIENDDRTGAAAI  253
+            +LP L PA+ S   L     + EFG+V ++    P  T    Q       N+    AA +
+Sbjct  167  ILPQLKPAIGSSVLLIALHMLVEFGAVSILN--YPTFTTAIFQEYEMSYNNNT---AALL  221
+
+Query  254  SVVLLSISFIV  264
+            S VL ++  IV
+Sbjct  222  SAVLTAVCGIV  232
+
+
+>VFG006252(gb|WP_002246860) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis Z2491]
+Length=505
+
+ Score = 55.8 bits (133),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 53/191 (28%), Positives = 83/191 (43%), Gaps = 15/191 (8%)
+
+Query  75   TLTISTAVTVINLVFGLLIAWVLVRDDFAGKRIVDAIIDLPFALPTIVASLVMLALYGNN  134
+            TLT+   VT+I++V G+  A +  R  F GK      I LP  +P  V+           
+Sbjct  56   TLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTW-------  108
+
+Query  135  SPVGLHFQHTAT-GVGVALAFVTLPFVVRAVQPVLLEIDRETEEAAASLGANGAKIFTSV  193
+              + L F+     G  + ++  + P     V+  L  I    +E + SLG +  + F S 
+Sbjct  109  --ISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYKEVSLSLGKSRLQTFFSA  166
+
+Query  194  VLPSLTPALLSGAGLAFSRAIGEFGSVVLIGGAVPGKTEVSSQWIRTLIENDDRTGAAAI  253
+            +LP L PA+ S   L     + EFG+V ++    P  T    Q       N+    AA +
+Sbjct  167  ILPQLKPAIGSSVLLIALHMLVEFGAVSILN--YPTFTTAIFQEYEMSYNNNT---AALL  221
+
+Query  254  SVVLLSISFIV  264
+            S VL+++  IV
+Sbjct  222  SAVLMAVCGIV  232
+
+
+>VFG019712(gb|WP_010357027) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria gonorrhoeae NCCP11945]
+Length=505
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 54/191 (28%), Positives = 82/191 (43%), Gaps = 15/191 (8%)
+
+Query  75   TLTISTAVTVINLVFGLLIAWVLVRDDFAGKRIVDAIIDLPFALPTIVASLVMLALYGNN  134
+            TLT+   VT+I++V G+  A +  R  F GK      I LP  +P  V+           
+Sbjct  56   TLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTW-------  108
+
+Query  135  SPVGLHFQHTAT-GVGVALAFVTLPFVVRAVQPVLLEIDRETEEAAASLGANGAKIFTSV  193
+              + L F+     G  + ++  + P     V+  L  I    EE + SLG +  + F S 
+Sbjct  109  --ISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSA  166
+
+Query  194  VLPSLTPALLSGAGLAFSRAIGEFGSVVLIGGAVPGKTEVSSQWIRTLIENDDRTGAAAI  253
+            +LP L PA+ S   L     + EFG+V ++    P  T    Q       N+    AA +
+Sbjct  167  ILPQLKPAIGSSVLLIALHMLVEFGAVSILN--YPTFTTAIFQEYEMSYNNNT---AALL  221
+
+Query  254  SVVLLSISFIV  264
+            S VL ++  IV
+Sbjct  222  SAVLTAVCGIV  232
+
+
+>VFG013568(gb|WP_005687630) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus influenzae 86-028NP]
+Length=506
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 46/190 (24%), Positives = 84/190 (44%), Gaps = 13/190 (7%)
+
+Query  75   TLTISTAVTVINLVFGLLIAWVLVRDDFAGKRIVDAIIDLPFALPTIVASLVMLALYGNN  134
+            T+ +   VT+  +  G L A++L R  F GK   +  + LP  +P  V+    ++L    
+Sbjct  55   TMLLMVCVTIGAISLGTLCAFLLERYRFFGKAFFEVAMTLPLCIPAFVSCFTWISL----  110
+
+Query  135  SPVGLHFQHTATGVGVALAFVTLPFVVRAVQPVLLEIDRETEEAAASLGANGAKIFTSVV  194
+                   +     +G+ +   + P     V  +L  +DR  EE + SLG +    F  V+
+Sbjct  111  ---TFRVEGFWGTIGI-MTLSSFPLAYLPVSAILKRLDRSLEEVSLSLGKSPVYTFWYVI  166
+
+Query  195  LPSLTPALLSGAGLAFSRAIGEFGSVVLIGGAVPGKTEVSSQWIRTLIENDDRTGAAAIS  254
+             P L PA+ S   L     + EFG+V ++       T +  ++  +     + + AA +S
+Sbjct  167  FPQLKPAIGSSILLIALHMLIEFGAVSILNYQT-FTTAIFQEYEMSF----NNSTAALLS  221
+
+Query  255  VVLLSISFIV  264
+             VL++I  ++
+Sbjct  222  AVLMAICILI  231
+
+
+>VFG000343(gb|WP_164927854) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus influenzae Rd KW20]
+Length=506
+
+ Score = 46.6 bits (109),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 44/192 (23%), Positives = 83/192 (43%), Gaps = 13/192 (7%)
+
+Query  75   TLTISTAVTVINLVFGLLIAWVLVRDDFAGKRIVDAIIDLPFALPTIVASLVMLALYGNN  134
+            T+ +   VT+  +  G   A++L R  F GK   +  + LP  +P  V+    ++L    
+Sbjct  55   TMLLMVCVTIGAISLGTFCAFLLERYRFFGKAFFEVAMTLPLCIPAFVSGFTWISL----  110
+
+Query  135  SPVGLHFQHTATGVGVALAFVTLPFVVRAVQPVLLEIDRETEEAAASLGANGAKIFTSVV  194
+                   +     +G+ +   + P     V  +L  +DR  EE + SLG +    F   +
+Sbjct  111  ---TFRVEVFWGTIGI-MTLSSFPLAYLPVSAILKRLDRSLEEVSLSLGKSPVYTFWYAI  166
+
+Query  195  LPSLTPALLSGAGLAFSRAIGEFGSVVLIGGAVPGKTEVSSQWIRTLIENDDRTGAAAIS  254
+             P L PA+ S   L     + EFG+V ++       T +  ++  +     + + AA +S
+Sbjct  167  SPQLKPAIGSSILLIALHMLVEFGAVSILNYQT-FTTAIFQEYEMSF----NNSTAALLS  221
+
+Query  255  VVLLSISFIVLL  266
+             VL++I  +++ 
+Sbjct  222  AVLMAICILIVF  233
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.137    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1937182360
+
+
+Query= g284.t1
+
+Length=289
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG030569(gb|WP_011894704) (sugA) sugar ABC transporter permease ...  63.5    2e-11
+VFG030576(gb|WP_011779763) (sugA) sugar ABC transporter permease ...  58.9    6e-10
+VFG036536(gb|WP_002233656) (fbpB) iron(III) ABC transporter, perm...  50.4    5e-07
+VFG000249(gb|WP_002214251) (fbpB) iron(III) ABC transporter, perm...  50.4    5e-07
+VFG030564(gb|WP_010908119) (sugA) sugar ABC transporter permease ...  49.7    7e-07
+VFG036547(gb|WP_013449338) (fbpB) iron(III) ABC transporter, perm...  49.7    1e-06
+VFG006255(gb|WP_025456388) (fbpB) iron(III) ABC transporter, perm...  49.3    1e-06
+VFG019712(gb|WP_010357027) (fbpB) iron(III) ABC transporter, perm...  49.3    1e-06
+VFG006252(gb|WP_002246860) (fbpB) iron(III) ABC transporter, perm...  48.9    2e-06
+VFG013191(gb|WP_011608935) (hitB) iron ABC transporter permease [...  48.5    2e-06
+VFG030562(gb|NP_215752) (sugA) sugar ABC transporter permease Sug...  47.4    4e-06
+VFG030595(gb|WP_015289685) (sugA) trehalose ABC transporter perme...  47.0    5e-06
+VFG030596(gb|WP_015292797) (sugA) trehalose ABC transporter perme...  46.2    9e-06
+
+
+>VFG030569(gb|WP_011894704) (sugA) sugar ABC transporter permease 
+[Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium gilvum PYR-GCK]
+Length=310
+
+ Score = 63.5 bits (153),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 52/195 (27%), Positives = 90/195 (46%), Gaps = 17/195 (9%)
+
+Query  52   GFGTFFEAILEP----DALAALKLTLIAVAISVPLNLLFGVAAAWCVSKFEFRGKSILVT  107
+            G G +   + +P    D +  L +T++ VAI + L   F       V     RG+  L T
+Sbjct  71   GLGNYLVILTDPIWWNDFVTTLAITVVTVAIELVLGFWFAFVMLRIV-----RGRGPLRT  125
+
+Query  108  LIDLPFSVSPVIAGLIYVLLFGAQ-GYFGEWLSDHDIQIV----FAVPGIVLATLFVTVP  162
+             I +P+ +  V++  I+   F    G+  +WL+  D         A+  I L+ ++ T P
+Sbjct  126  AILIPYGIVTVVSAFIWRYAFAIDSGFVNQWLNLTDFDWFGDRWSAIFVICLSEIWKTTP  185
+
+Query  163  FVARELIPLMQEQGTQEEEAARLLGANGWQMFWHVTLPNIKWGLIYGVVLCTARAMGEFG  222
+            F++  L+  + +     +EAA++ GA  WQ  W +TLPN+K  ++  ++  T  A   F 
+Sbjct  186  FISLLLLAGLVQVPEDMQEAAKVDGATAWQRLWKITLPNMKAAIMVALLFRTLDAWRIFD  245
+
+Query  223  AVSVVSGHIRGVTNT  237
+               V++    G  NT
+Sbjct  246  NPYVMTA---GANNT  257
+
+
+>VFG030576(gb|WP_011779763) (sugA) sugar ABC transporter permease 
+[Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium vanbaalenii PYR-1]
+Length=310
+
+ Score = 58.9 bits (141),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 50/195 (26%), Positives = 89/195 (46%), Gaps = 17/195 (9%)
+
+Query  52   GFGTFFEAILEP----DALAALKLTLIAVAISVPLNLLFGVAAAWCVSKFEFRGKSILVT  107
+            G   +   + +P    D +  L +T++ VAI + L   F       V     RG+  L T
+Sbjct  71   GLSNYLVILTDPLWWNDFVTTLAITVVTVAIELVLGFWFAFVMLRIV-----RGRGPLRT  125
+
+Query  108  LIDLPFSVSPVIAGLIYVLLFGAQ-GYFGEWLSDHDIQIV----FAVPGIVLATLFVTVP  162
+             I +P+ +  V++  I+   F    G+  +WL+  +         A+  I L+ ++ T P
+Sbjct  126  AILIPYGIVTVVSAFIWRYAFAIDSGFVNQWLNLTEFDWFGDRWSAIFVICLSEIWKTTP  185
+
+Query  163  FVARELIPLMQEQGTQEEEAARLLGANGWQMFWHVTLPNIKWGLIYGVVLCTARAMGEFG  222
+            F++  L+  + +     +EAA++ GA  WQ  W +TLPN+K  ++  ++  T  A   F 
+Sbjct  186  FISLLLLAGLVQVPEDMQEAAKVDGATAWQRLWKITLPNMKAAIMVALLFRTLDAWRIFD  245
+
+Query  223  AVSVVSGHIRGVTNT  237
+               V++    G  NT
+Sbjct  246  NPYVMTA---GANNT  257
+
+
+>VFG036536(gb|WP_002233656) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis WUE 2594]
+Length=505
+
+ Score = 50.4 bits (119),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 57/239 (24%), Positives = 100/239 (42%), Gaps = 21/239 (9%)
+
+Query  31   LVFALFLLLPLYVVLSEALKQGFGTFFEAILEPDALAALKLTLIAVAISVPLNLLFGVAA  90
+            L+ AL L LP   V   + + G     E +  P     L  TL  +A    ++++ G+A 
+Sbjct  15   LLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIAC  74
+
+Query  91   AWCVSKFEFRGKSILVTLIDLPFSVSPVIAGLIYV-LLFGAQGYFGEWLSDHDIQIVFAV  149
+            A    ++ F GK+   T I LP  +   ++   ++ L F  +G++G              
+Sbjct  75   ALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGT-------------  121
+
+Query  150  PGIVLATLFVTVPFVARELIPLMQEQGTQEEEAARLLGANGWQMFWHVTLPNIKWGLIYG  209
+               V+     + P     +   ++      EE +  LG +  Q F+   LP +K  +   
+Sbjct  122  ---VMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSS  178
+
+Query  210  VVLCTARAMGEFGAVSVVSGHIRGVTNTLPLHVEILYNEYNHVAAFSVASLLLLMALVI  268
+            V+L     + EFGAVS++  +    T  +    E+ YN  N+ AA   A L+ +  +V+
+Sbjct  179  VLLIALHMLVEFGAVSIL--NYPTFTTAIFQEYEMSYN--NNTAALLSAVLMAVCGIVV  233
+
+
+>VFG000249(gb|WP_002214251) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis MC58]
+Length=505
+
+ Score = 50.4 bits (119),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 57/239 (24%), Positives = 100/239 (42%), Gaps = 21/239 (9%)
+
+Query  31   LVFALFLLLPLYVVLSEALKQGFGTFFEAILEPDALAALKLTLIAVAISVPLNLLFGVAA  90
+            L+ AL L LP   V   + + G     E +  P     L  TL  +A    ++++ G+A 
+Sbjct  15   LLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIAC  74
+
+Query  91   AWCVSKFEFRGKSILVTLIDLPFSVSPVIAGLIYV-LLFGAQGYFGEWLSDHDIQIVFAV  149
+            A    ++ F GK+   T I LP  +   ++   ++ L F  +G++G              
+Sbjct  75   ALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGT-------------  121
+
+Query  150  PGIVLATLFVTVPFVARELIPLMQEQGTQEEEAARLLGANGWQMFWHVTLPNIKWGLIYG  209
+               V+     + P     +   ++      EE +  LG +  Q F+   LP +K  +   
+Sbjct  122  ---VMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSS  178
+
+Query  210  VVLCTARAMGEFGAVSVVSGHIRGVTNTLPLHVEILYNEYNHVAAFSVASLLLLMALVI  268
+            V+L     + EFGAVS++  +    T  +    E+ YN  N+ AA   A L+ +  +V+
+Sbjct  179  VLLIALHMLVEFGAVSIL--NYPTFTTAIFQEYEMSYN--NNTAALLSAVLMAVCGIVV  233
+
+
+>VFG030564(gb|WP_010908119) (sugA) sugar ABC transporter permease 
+[Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium leprae TN]
+Length=304
+
+ Score = 49.7 bits (117),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 54/222 (24%), Positives = 104/222 (47%), Gaps = 11/222 (5%)
+
+Query  23   LALIVLAWLV-FALFLLLPLYVVLS--EALKQGFGTFFEAILEPDALAALKLTLIAVAIS  79
+            L L+V A+ + +A++L L  Y + +  E +  G G +   + +P    AL +TL    +S
+Sbjct  33   LMLVVTAYPIGYAVWLSLQRYSLATPNETVFIGLGNYQTILTDPYWWTALAVTLAITVVS  92
+
+Query  80   VPLNLLFGVAAAWCVSKFEFRGKSILVTLIDLPFSVSPVIAGLI-YVLLFGAQGYFGEWL  138
+            V +  + G+  A  + +    GKS++   + +P+S+  V+A    Y       GY    L
+Sbjct  93   VSIEFILGLMLALVMHR-TLLGKSLVRIAVLIPYSIVTVVASYSWYYAWTPGTGYLASLL  151
+
+Query  139  SDHDIQIVFAVPG---IVLATLFVTVPFVARELIPLMQEQGTQEEEAARLLGANGWQMFW  195
+                + +   +P    +++  ++ T PF++  L+  +        +AA++ GA  W+   
+Sbjct  152  PQGSVPLTEQIPSLSIVIIVEVWKTTPFMSLLLLVGLALVPEDLLKAAQMDGAGAWRRLT  211
+
+Query  196  HVTLPNIKWGLIYGVVLCTARAMGEFGAVSVVSGHIRGVTNT  237
+             + LP IK  ++  ++  T  A   F  + V++   RGV NT
+Sbjct  212  KIILPIIKPAVMVALLFRTLDAFRIFDNIYVLT---RGVNNT  250
+
+
+>VFG036547(gb|WP_013449338) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria lactamica 020-06]
+Length=505
+
+ Score = 49.7 bits (117),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 53/233 (23%), Positives = 97/233 (42%), Gaps = 21/233 (9%)
+
+Query  37   LLLPLYVVLSEALKQGFGTFFEAILEPDALAALKLTLIAVAISVPLNLLFGVAAAWCVSK  96
+            L+LP   V   + + G    +E +  P     L  TL  +A    ++++ G+A A    +
+Sbjct  21   LILPFLYVAMRSWQVGINRAYELLFRPRMWDLLSNTLTMMAGVTLISIVLGIACALLFQR  80
+
+Query  97   FEFRGKSILVTLIDLPFSVSPVIAGLIYV-LLFGAQGYFGEWLSDHDIQIVFAVPGIVLA  155
+            + F GK+   T I LP  +   ++   ++ L F  +G++G                 V+ 
+Sbjct  81   YRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGT----------------VMI  124
+
+Query  156  TLFVTVPFVARELIPLMQEQGTQEEEAARLLGANGWQMFWHVTLPNIKWGLIYGVVLCTA  215
+                + P     +   ++      EE +  LG +  Q F+   LP +K  +   V+L   
+Sbjct  125  MSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSSVLLIAL  184
+
+Query  216  RAMGEFGAVSVVSGHIRGVTNTLPLHVEILYNEYNHVAAFSVASLLLLMALVI  268
+              + EFGAVS+++      T T  +  E   +  N+ AA   A L+ +  +V+
+Sbjct  185  HMLVEFGAVSILNYQ----TFTTAIFQEYEMSFDNNTAALLSAVLMAVCGIVV  233
+
+
+>VFG006255(gb|WP_025456388) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria gonorrhoeae FA 1090]
+Length=505
+
+ Score = 49.3 bits (116),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 57/239 (24%), Positives = 99/239 (41%), Gaps = 21/239 (9%)
+
+Query  31   LVFALFLLLPLYVVLSEALKQGFGTFFEAILEPDALAALKLTLIAVAISVPLNLLFGVAA  90
+            L+ AL L LP   V   + + G     E +  P     L  TL  +A    ++++ G+A 
+Sbjct  15   LLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIAC  74
+
+Query  91   AWCVSKFEFRGKSILVTLIDLPFSVSPVIAGLIYV-LLFGAQGYFGEWLSDHDIQIVFAV  149
+            A    ++ F GK+   T I LP  +   ++   ++ L F  +G++G              
+Sbjct  75   ALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGT-------------  121
+
+Query  150  PGIVLATLFVTVPFVARELIPLMQEQGTQEEEAARLLGANGWQMFWHVTLPNIKWGLIYG  209
+               V+     + P     +   ++      EE +  LG +  Q F+   LP +K  +   
+Sbjct  122  ---VMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSS  178
+
+Query  210  VVLCTARAMGEFGAVSVVSGHIRGVTNTLPLHVEILYNEYNHVAAFSVASLLLLMALVI  268
+            V+L     + EFGAVS++  +    T  +    E+ YN  N+ AA   A L  +  +V+
+Sbjct  179  VLLIALHMLVEFGAVSIL--NYPTFTTAIFQEYEMSYN--NNTAALLSAVLTAVCGIVV  233
+
+
+>VFG019712(gb|WP_010357027) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria gonorrhoeae NCCP11945]
+Length=505
+
+ Score = 49.3 bits (116),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 57/239 (24%), Positives = 99/239 (41%), Gaps = 21/239 (9%)
+
+Query  31   LVFALFLLLPLYVVLSEALKQGFGTFFEAILEPDALAALKLTLIAVAISVPLNLLFGVAA  90
+            L+ AL L LP   V   + + G     E +  P     L  TL  +A    ++++ G+A 
+Sbjct  15   LLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIAC  74
+
+Query  91   AWCVSKFEFRGKSILVTLIDLPFSVSPVIAGLIYV-LLFGAQGYFGEWLSDHDIQIVFAV  149
+            A    ++ F GK+   T I LP  +   ++   ++ L F  +G++G              
+Sbjct  75   ALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGT-------------  121
+
+Query  150  PGIVLATLFVTVPFVARELIPLMQEQGTQEEEAARLLGANGWQMFWHVTLPNIKWGLIYG  209
+               V+     + P     +   ++      EE +  LG +  Q F+   LP +K  +   
+Sbjct  122  ---VMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGSS  178
+
+Query  210  VVLCTARAMGEFGAVSVVSGHIRGVTNTLPLHVEILYNEYNHVAAFSVASLLLLMALVI  268
+            V+L     + EFGAVS++  +    T  +    E+ YN  N+ AA   A L  +  +V+
+Sbjct  179  VLLIALHMLVEFGAVSIL--NYPTFTTAIFQEYEMSYN--NNTAALLSAVLTAVCGIVV  233
+
+
+>VFG006252(gb|WP_002246860) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis Z2491]
+Length=505
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 56/239 (23%), Positives = 100/239 (42%), Gaps = 21/239 (9%)
+
+Query  31   LVFALFLLLPLYVVLSEALKQGFGTFFEAILEPDALAALKLTLIAVAISVPLNLLFGVAA  90
+            L+ AL L LP   V   + + G     E +  P     L  TL  +A    ++++ G+A 
+Sbjct  15   LLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSNTLTMMAGVTLISIVLGIAC  74
+
+Query  91   AWCVSKFEFRGKSILVTLIDLPFSVSPVIAGLIYV-LLFGAQGYFGEWLSDHDIQIVFAV  149
+            A    ++ F GK+   T I LP  +   ++   ++ L F  +G++G              
+Sbjct  75   ALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGT-------------  121
+
+Query  150  PGIVLATLFVTVPFVARELIPLMQEQGTQEEEAARLLGANGWQMFWHVTLPNIKWGLIYG  209
+               V+     + P     +   ++      +E +  LG +  Q F+   LP +K  +   
+Sbjct  122  ---VMIMSLSSFPLAYLPVEAALKRISLSYKEVSLSLGKSRLQTFFSAILPQLKPAIGSS  178
+
+Query  210  VVLCTARAMGEFGAVSVVSGHIRGVTNTLPLHVEILYNEYNHVAAFSVASLLLLMALVI  268
+            V+L     + EFGAVS++  +    T  +    E+ YN  N+ AA   A L+ +  +V+
+Sbjct  179  VLLIALHMLVEFGAVSIL--NYPTFTTAIFQEYEMSYN--NNTAALLSAVLMAVCGIVV  233
+
+
+>VFG013191(gb|WP_011608935) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus somnus 2336]
+Length=555
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 38/163 (23%), Positives = 73/163 (45%), Gaps = 9/163 (6%)
+
+Query  72   TLIAVAISVPLNLLFGVAAAWCVSKFEFRGKSILVTLIDLPFSVSPVIAGLIYVLLFGAQ  131
+            +L+ V  +V  +L+F +  AW +S+++F G+ IL  L+ LP ++   +   +Y  L    
+Sbjct  58   SLLLVIGTVSFSLVFALPCAWFISQYQFTGQKILQWLLCLPLAMPGYLVAYLYTDLLDYA  117
+
+Query  132  GYFG-------EWLSDHDIQI--VFAVPGIVLATLFVTVPFVARELIPLMQEQGTQEEEA  182
+            G           W S  D     +  + G  +    V  P++   +   + EQ     ++
+Sbjct  118  GAVQVFLRQTFSWSSAQDYWFISIRTLWGACIVLALVLFPYIFLLVRLALLEQSENLIQS  177
+
+Query  183  ARLLGANGWQMFWHVTLPNIKWGLIYGVVLCTARAMGEFGAVS  225
+            A+LLG++  ++   +  P  +  +  G  L     +G+FG VS
+Sbjct  178  AKLLGSSPRKLLQKIIFPLTRPAIAIGCALVAMETLGDFGTVS  220
+
+
+>VFG030562(gb|NP_215752) (sugA) sugar ABC transporter permease 
+SugA [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium tuberculosis 
+H37Rv]
+Length=307
+
+ Score = 47.4 bits (111),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 47/203 (23%), Positives = 90/203 (44%), Gaps = 5/203 (2%)
+
+Query  52   GFGTFFEAILEPDALAALKLTLIAVAISVPLNLLFGVAAAWCVSKFEFRGKSILVTLIDL  111
+            G G +   +++     AL +TL   A+SV +  + G+A A  + +    GK ++ T + +
+Sbjct  68   GLGNYHTILIDRYWWTALAVTLAITAVSVTIEFVLGLALALVMHR-TLIGKGLVRTAVLI  126
+
+Query  112  PFSVSPVIAGLI-YVLLFGAQGYFGEWLSDHDIQIVFAVPG---IVLATLFVTVPFVARE  167
+            P+ +  V+A    Y       GY    L      +   +P    +V+A ++ T PF++  
+Sbjct  127  PYGIVTVVASYSWYYAWTPGTGYLANLLPYDSAPLTQQIPSLGIVVIAEVWKTTPFMSLL  186
+
+Query  168  LIPLMQEQGTQEEEAARLLGANGWQMFWHVTLPNIKWGLIYGVVLCTARAMGEFGAVSVV  227
+            L+  +         AA++ GA+ W+    V LP IK  ++  ++  T  A   F  + V+
+Sbjct  187  LLAGLALVPEDLLRAAQVDGASAWRRLTKVILPMIKPAIVVALLFRTLDAFRIFDNIYVL  246
+
+Query  228  SGHIRGVTNTLPLHVEILYNEYN  250
+            +G      +   L  + L+  +N
+Sbjct  247  TGGSNNTGSVSILGYDNLFKGFN  269
+
+
+>VFG030595(gb|WP_015289685) (sugA) trehalose ABC transporter permease 
+SugA [Trehalose-recycling ABC transporter (VF0842) - 
+Nutritional/Metabolic factor (VFC0272)] [Mycobacterium canettii 
+CIPT 140070010]
+Length=311
+
+ Score = 47.0 bits (110),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 48/203 (24%), Positives = 90/203 (44%), Gaps = 5/203 (2%)
+
+Query  52   GFGTFFEAILEPDALAALKLTLIAVAISVPLNLLFGVAAAWCVSKFEFRGKSILVTLIDL  111
+            G G +   +++     AL +TL   A+SV +  + G+A A  + +    GK ++ T + +
+Sbjct  68   GLGNYHTILIDRYWWTALAVTLAITAVSVTIEFVLGLALALVMHR-TLIGKGLVRTAVLI  126
+
+Query  112  PFSVSPVIAGLI-YVLLFGAQGYFGEWLSDHDIQIVFAVPG---IVLATLFVTVPFVARE  167
+            P+ +  V+A    Y       GY    L      +   +P    +V+A ++ T PF++  
+Sbjct  127  PYGIVTVVASYSWYYAWTPGTGYLANLLPYGSAPLTQQIPSLGIVVIAEVWKTTPFMSLL  186
+
+Query  168  LIPLMQEQGTQEEEAARLLGANGWQMFWHVTLPNIKWGLIYGVVLCTARAMGEFGAVSVV  227
+            L+  +         AA++ GA+ W+    V LP IK  ++  ++  T  A   F  V V+
+Sbjct  187  LLAGLALVPEDLLRAAQVDGASAWRRLTKVILPMIKPAIVVALLFRTLDAFRIFDNVYVL  246
+
+Query  228  SGHIRGVTNTLPLHVEILYNEYN  250
+            +G      +   L  + L+  +N
+Sbjct  247  TGGNNNTGSVSILGYDNLFKGFN  269
+
+
+>VFG030596(gb|WP_015292797) (sugA) trehalose ABC transporter permease 
+SugA [Trehalose-recycling ABC transporter (VF0842) - 
+Nutritional/Metabolic factor (VFC0272)] [Mycobacterium canettii 
+CIPT 140070017]
+Length=307
+
+ Score = 46.2 bits (108),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 47/203 (23%), Positives = 89/203 (44%), Gaps = 5/203 (2%)
+
+Query  52   GFGTFFEAILEPDALAALKLTLIAVAISVPLNLLFGVAAAWCVSKFEFRGKSILVTLIDL  111
+            G G +   +++     AL +TL   A+SV +  + G+A A  + +    GK ++ T + +
+Sbjct  68   GLGNYHTILIDRYWWTALAVTLAITAVSVTIEFVLGLALALVMHR-TLIGKGLVRTAVLI  126
+
+Query  112  PFSVSPVIAGLI-YVLLFGAQGYFGEWLSDHDIQIVFAVPG---IVLATLFVTVPFVARE  167
+            P+ +  V+A    Y       GY    L      +   +P    +V+A ++ T PF++  
+Sbjct  127  PYGIVTVVASYSWYYAWTPGTGYLANLLPYGSAPLTQQIPSLGIVVIAEVWKTTPFMSLL  186
+
+Query  168  LIPLMQEQGTQEEEAARLLGANGWQMFWHVTLPNIKWGLIYGVVLCTARAMGEFGAVSVV  227
+            L+  +         AA++ GA  W+    V LP IK  ++  ++  T  A   F  + V+
+Sbjct  187  LLAGLALVPEDLLRAAQVDGAGAWRRLTKVILPMIKPAIVVALLFRTLDAFRIFDNIYVL  246
+
+Query  228  SGHIRGVTNTLPLHVEILYNEYN  250
+            +G      +   L  + L+  +N
+Sbjct  247  TGGNNNTGSVSILGYDNLFKGFN  269
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.139    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2000351350
+
+
+Query= g285.t1
+
+Length=272
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG013191(gb|WP_011608935) (hitB) iron ABC transporter permease [...  69.7    2e-13
+VFG030623(gb|WP_011894705) (sugB) carbohydrate ABC transporter pe...  62.4    3e-11
+VFG030630(gb|WP_011779762) (sugB) carbohydrate ABC transporter pe...  61.2    7e-11
+VFG030625(gb|WP_011856410) (sugB) carbohydrate ABC transporter pe...  57.0    2e-09
+VFG030651(gb|WP_015356779) (sugB) carbohydrate ABC transporter pe...  57.0    2e-09
+VFG030620(gb|WP_003875534) (sugB) carbohydrate ABC transporter pe...  57.0    2e-09
+VFG030627(gb|WP_011561360) (sugB) carbohydrate ABC transporter pe...  56.6    2e-09
+VFG030637(gb|WP_049785257) (sugB) carbohydrate ABC transporter pe...  56.6    3e-09
+VFG030626(gb|WP_179967821) (sugB) carbohydrate ABC transporter pe...  56.6    3e-09
+VFG030621(gb|WP_031351550) (sugB) carbohydrate ABC transporter pe...  56.6    3e-09
+VFG030632(gb|YP_001702114) (sugB) Probable sugar ABC transporter,...  56.2    3e-09
+VFG030650(gb|WP_015292798) (sugB) trehalose ABC transporter perme...  56.2    3e-09
+VFG030646(gb|WP_016342137) (sugB) carbohydrate ABC transporter pe...  56.2    3e-09
+VFG030616(gb|NP_215753) (sugB) sugar ABC transporter permease Sug...  55.8    5e-09
+VFG030670(gb|WP_198345115) (sugB) carbohydrate ABC transporter pe...  54.7    1e-08
+VFG030638(gb|WP_013828149) (sugB) carbohydrate ABC transporter pe...  53.1    3e-08
+VFG030649(gb|WP_015289686) (sugB) trehalose ABC transporter perme...  53.1    4e-08
+VFG030618(gb|WP_162618319) (sugB) carbohydrate ABC transporter pe...  51.6    1e-07
+VFG030636(gb|WP_010908120) (sugB) carbohydrate ABC transporter pe...  51.2    2e-07
+VFG030661(gb|YP_007957368) (sugB) sugar-transport integral membra...  50.4    2e-07
+VFG030643(gb|WP_014382018) (sugB) carbohydrate ABC transporter pe...  50.8    2e-07
+VFG019712(gb|WP_010357027) (fbpB) iron(III) ABC transporter, perm...  51.2    3e-07
+VFG030645(gb|WP_014379470) (sugB) carbohydrate ABC transporter pe...  50.4    3e-07
+VFG000343(gb|WP_164927854) (hitB) iron ABC transporter permease [...  51.2    3e-07
+VFG030642(gb|WP_014711072) (sugB) carbohydrate ABC transporter pe...  50.4    3e-07
+VFG036536(gb|WP_002233656) (fbpB) iron(III) ABC transporter, perm...  51.2    3e-07
+VFG006252(gb|WP_002246860) (fbpB) iron(III) ABC transporter, perm...  51.2    3e-07
+VFG030624(gb|WP_175048396) (sugB) carbohydrate ABC transporter pe...  50.1    4e-07
+VFG006255(gb|WP_025456388) (fbpB) iron(III) ABC transporter, perm...  50.8    4e-07
+VFG013568(gb|WP_005687630) (hitB) iron ABC transporter permease [...  50.8    4e-07
+VFG000249(gb|WP_002214251) (fbpB) iron(III) ABC transporter, perm...  50.4    4e-07
+VFG030629(gb|WP_094987104) (sugB) carbohydrate ABC transporter pe...  49.3    6e-07
+VFG030641(gb|WP_014941455) (sugB) carbohydrate ABC transporter pe...  49.3    8e-07
+VFG036547(gb|WP_013449338) (fbpB) iron(III) ABC transporter, perm...  49.7    9e-07
+
+
+>VFG013191(gb|WP_011608935) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus somnus 2336]
+Length=555
+
+ Score = 69.7 bits (169),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 58/213 (27%), Positives = 101/213 (47%), Gaps = 18/213 (8%)
+
+Query  19   TLVYLSLLVLIPLGAMFLKTTQLSWE---QFWAIISAPRVLAALKLSFGTALAAAVLNGL  75
+            T ++++L  + P+ A+F ++  L+W+     W  +    +L +L L  GT     V   L
+Sbjct  16   TALFITLFFVTPIIAIFYQSWSLNWQNIQHLWQTVLFDYLLNSLLLVIGT-----VSFSL  70
+
+Query  76   IGTL-LAWVLVRYEFPGRKIIDAMIDLPFALPTAVAGIALTALYAPAGLVGQF-------  127
+            +  L  AW + +Y+F G+KI+  ++ LP A+P  +     T L   AG V  F       
+Sbjct  71   VFALPCAWFISQYQFTGQKILQWLLCLPLAMPGYLVAYLYTDLLDYAGAVQVFLRQTFSW  130
+
+Query  128  --ASDLGFKIAYTPLGITLALTFVTLPFVVRTVQPVLADIPKEVEEAAACLGARPLQVFR  185
+              A D  F    T  G  + L  V  P++   V+  L +  + + ++A  LG+ P ++ +
+Sbjct  131  SSAQDYWFISIRTLWGACIVLALVLFPYIFLLVRLALLEQSENLIQSAKLLGSSPRKLLQ  190
+
+Query  186  HILVPALLPAWLTGFALAFARGVGEYGSVIFIA  218
+             I+ P   PA   G AL     +G++G+V + A
+Sbjct  191  KIIFPLTRPAIAIGCALVAMETLGDFGTVSYFA  223
+
+
+>VFG030623(gb|WP_011894705) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium gilvum 
+PYR-GCK]
+Length=275
+
+ Score = 62.4 bits (150),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 70/236 (30%), Positives = 107/236 (45%), Gaps = 16/236 (7%)
+
+Query  35   FLKTTQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKI  94
+            FL +T ++++ F  I S P    AL  S G AL A V++ +I    A+ + R EFPG+K+
+Sbjct  44   FLPST-VTFDNFAQIFSNPLFTRALINSIGIALVATVISVIIAMFAAYAIARLEFPGKKV  102
+
+Query  95   IDAMIDLPFALPTAVAGIALTALYAPAGLVGQ-FASDLGFKIAYTPLGITLALTFVTLPF  153
+            +     L  AL     GI   A++  A LVG  F    G  I  T LG+ +      LP 
+Sbjct  103  L-----LSLAL-----GI---AMFPQAALVGPLFDMWRGLGIYDTWLGLIIPYLTFALPL  149
+
+Query  154  VVRTVQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGS  213
+             + T+      IP E+E AA   GA   Q FR ++VP   P   T   L F     ++  
+Sbjct  150  SIWTMSAFFRQIPWEMEHAAQVDGATQWQAFRKVIVPLAAPGVFTTAILTFFFCWNDFLF  209
+
+Query  214  VIFIAGNMPMKTEILPLLIMVKLDQYDYTGATAIGVLMLVVSFILLLLINLLQRRI  269
+             I +      +T +   L   +   Y  +    I    ++V+  +++L+ + QRRI
+Sbjct  210  AISLTSTDSART-VPAALAFFQGASYFESPVPYIMAASVIVTIPVVILVLVFQRRI  264
+
+
+>VFG030630(gb|WP_011779762) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium vanbaalenii 
+PYR-1]
+Length=275
+
+ Score = 61.2 bits (147),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 66/232 (28%), Positives = 104/232 (45%), Gaps = 15/232 (6%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAM  98
+            + ++++ F  I S P    AL  S G A+ A V++ +I    A+ + R EFPG+K++   
+Sbjct  47   SSITFDNFAQIFSQPLFTRALINSIGIAVIATVISVIIAMFAAYAIARLEFPGKKVL---  103
+
+Query  99   IDLPFALPTAVAGIALTALYAPAGLVGQ-FASDLGFKIAYTPLGITLALTFVTLPFVVRT  157
+              L  AL     GI   A++  A LVG  F    G  I  T LG+ +      LP  + T
+Sbjct  104  --LSLAL-----GI---AMFPQAALVGPLFDMWRGLGIYDTWLGLIIPYLTFALPLSIWT  153
+
+Query  158  VQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFI  217
+            +      IP E+E AA   GA   Q FR ++VP   P   T   L F     ++   I +
+Sbjct  154  MSAFFRQIPWEMEHAAQVDGATQWQAFRKVIVPLAAPGVFTTAILTFFFCWNDFLFAISL  213
+
+Query  218  AGNMPMKTEILPLLIMVKLDQYDYTGATAIGVLMLVVSFILLLLINLLQRRI  269
+                  +T +   L   +   Y  +    I    ++V+  +++L+ + QRRI
+Sbjct  214  TSTDSART-VPAALAFFQGASYFESPVPYIMAASVIVTIPVVILVLIFQRRI  264
+
+
+>VFG030625(gb|WP_011856410) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. JLS]
+Length=278
+
+ Score = 57.0 bits (136),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 61/233 (26%), Positives = 105/233 (45%), Gaps = 17/233 (7%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAM  98
+            T+++++ +  I       +AL  S G  L   V+  +IG + A+ + R  FPG++++  +
+Sbjct  50   TEITFDNYKGIFQGNAFTSALINSIGIGLITTVIAVVIGGMAAYAVARLTFPGKRLLVGV  109
+
+Query  99   IDLPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRT  157
+              L    P     I+L T L+     +G F +  G  I Y    IT AL     P  + T
+Sbjct  110  ALLIAMFPQ----ISLVTPLFNIERSIGLFDTWPGLIIPY----ITFAL-----PLAIYT  156
+
+Query  158  VQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFI  217
+            +     +IP ++E+AA   GA P Q FR ++ P   P  +T   L F     +    + +
+Sbjct  157  LSAFFREIPWDLEKAAKMDGATPAQAFRKVIAPLAAPGIVTAAILVFIFAWNDLLLALSL  216
+
+Query  218  AGNMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+                   T  + +       Q++  TG+ A G +++ +  I+ +LI   QRRI
+Sbjct  217  TATQRAITAPVAIANFTGSSQFEEPTGSIAAGAMVITIPIIVFVLI--FQRRI  267
+
+
+>VFG030651(gb|WP_015356779) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium liflandii 
+128FXT]
+Length=283
+
+ Score = 57.0 bits (136),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 60/215 (28%), Positives = 99/215 (46%), Gaps = 17/215 (8%)
+
+Query  57   AALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAMIDLPFALPTAVAGIAL-T  115
+            +AL  S G  L   V+  L+G + A+ + R +FPG++++  +  L    P     I+L T
+Sbjct  73   SALINSIGIGLTTTVIAVLLGAMAAYAVARLDFPGKRLLVGVTLLITMFP----AISLVT  128
+
+Query  116  ALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRTVQPVLADIPKEVEEAAAC  175
+             L+     +G F +  G  + Y    IT AL     P  + T+     +IP ++E+AA  
+Sbjct  129  PLFNIERRIGLFDTWPGLILPY----ITFAL-----PLAIYTLSAFFREIPWDLEKAAQM  179
+
+Query  176  LGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFIAGNMPMKTEILPLLIMVK  235
+             GA P Q FR ++VP   P  +T   L F     +    + +       T  + +     
+Sbjct  180  DGATPYQAFRKVIVPLAAPGLVTAAILVFIFAWNDLLLALSLTATKASITAPVAIANFAG  239
+
+Query  236  LDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+              Q++  TG+ A G +++ V  I+ +LI   QRRI
+Sbjct  240  SSQFEEPTGSIAAGAMVITVPIIVFVLI--FQRRI  272
+
+
+>VFG030620(gb|WP_003875534) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium avium 
+subsp. paratuberculosis K-10]
+Length=279
+
+ Score = 57.0 bits (136),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 63/233 (27%), Positives = 104/233 (45%), Gaps = 17/233 (7%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAM  98
+            + +S E +  I       +AL  S G  L    +  L+G + A+ + R +FPG++++   
+Sbjct  51   SAISLENYRGIFRGDFFSSALINSVGIGLITTAVAVLLGAMAAYAVARLDFPGKRLLIGA  110
+
+Query  99   IDLPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRT  157
+              L    P     I+L T L+     +G F +  G  + Y    IT AL     P  + T
+Sbjct  111  TLLITMFP----AISLVTPLFNIERFLGLFDTWPGLILPY----ITFAL-----PLAIYT  157
+
+Query  158  VQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFI  217
+            +     +IP ++E+AA   GA P Q FR ++VP   P  +T   L F     +    + +
+Sbjct  158  LSAFFREIPWDLEKAAKIDGATPAQAFRKVIVPLAAPGVVTAAILVFIFAWNDLLLALTL  217
+
+Query  218  AGNMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+                   T  + ++      Q++  TG+ A G +++ V  IL +LI   QRRI
+Sbjct  218  TATKAAITAPVAIVSFSGSSQFEEPTGSIAAGAVVITVPIILFVLI--FQRRI  268
+
+
+>VFG030627(gb|WP_011561360) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. MCS]
+Length=278
+
+ Score = 56.6 bits (135),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 60/233 (26%), Positives = 105/233 (45%), Gaps = 17/233 (7%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAM  98
+            T+++++ +  I       +AL  S G  L   V+  ++G + A+ + R  FPG++++  +
+Sbjct  50   TEITFDNYKGIFQGNAFTSALINSIGIGLITTVIAVVVGGMAAYAVARLTFPGKRLLVGV  109
+
+Query  99   IDLPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRT  157
+              L    P     I+L T L+     +G F +  G  I Y    IT AL     P  + T
+Sbjct  110  ALLIAMFPQ----ISLVTPLFNIERSIGLFDTWPGLIIPY----ITFAL-----PLAIYT  156
+
+Query  158  VQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFI  217
+            +     +IP ++E+AA   GA P Q FR ++ P   P  +T   L F     +    + +
+Sbjct  157  LSAFFREIPWDLEKAAKMDGATPAQAFRKVIAPLAAPGIVTAAILVFIFAWNDLLLALSL  216
+
+Query  218  AGNMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+                   T  + +       Q++  TG+ A G +++ +  I+ +LI   QRRI
+Sbjct  217  TATQRAITAPVAIANFTGSSQFEEPTGSIAAGAMVITIPIIVFVLI--FQRRI  267
+
+
+>VFG030637(gb|WP_049785257) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium marinum 
+M]
+Length=283
+
+ Score = 56.6 bits (135),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 60/215 (28%), Positives = 99/215 (46%), Gaps = 17/215 (8%)
+
+Query  57   AALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAMIDLPFALPTAVAGIAL-T  115
+            +AL  S G  L   V+  L+G + A+ + R +FPG++++  +  L    P     I+L T
+Sbjct  73   SALINSIGIGLTTTVIAVLLGAMAAYAVARLDFPGKRLLVGVALLITMFP----AISLVT  128
+
+Query  116  ALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRTVQPVLADIPKEVEEAAAC  175
+             L+     +G F +  G  + Y    IT AL     P  + T+     +IP ++E+AA  
+Sbjct  129  PLFNIERRIGLFDTWPGLILPY----ITFAL-----PLAIYTLSAFFREIPWDLEKAAQM  179
+
+Query  176  LGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFIAGNMPMKTEILPLLIMVK  235
+             GA P Q FR ++VP   P  +T   L F     +    + +       T  + +     
+Sbjct  180  DGATPYQAFRKVIVPLAAPGLVTAAILVFIFAWNDLLLALSLTATKASITAPVAIANFAG  239
+
+Query  236  LDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+              Q++  TG+ A G +++ V  I+ +LI   QRRI
+Sbjct  240  SSQFEEPTGSIAAGAMVITVPIIVFVLI--FQRRI  272
+
+
+>VFG030626(gb|WP_179967821) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. KMS]
+Length=274
+
+ Score = 56.6 bits (135),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 60/233 (26%), Positives = 105/233 (45%), Gaps = 17/233 (7%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAM  98
+            T+++++ +  I       +AL  S G  L   V+  ++G + A+ + R  FPG++++  +
+Sbjct  46   TEITFDNYKGIFQGNAFTSALINSIGIGLITTVIAVVVGGMAAYAVARLTFPGKRLLVGV  105
+
+Query  99   IDLPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRT  157
+              L    P     I+L T L+     +G F +  G  I Y    IT AL     P  + T
+Sbjct  106  ALLIAMFPQ----ISLVTPLFNIERSIGLFDTWPGLIIPY----ITFAL-----PLAIYT  152
+
+Query  158  VQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFI  217
+            +     +IP ++E+AA   GA P Q FR ++ P   P  +T   L F     +    + +
+Sbjct  153  LSAFFREIPWDLEKAAKMDGATPAQAFRKVIAPLAAPGIVTAAILVFIFAWNDLLLALSL  212
+
+Query  218  AGNMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+                   T  + +       Q++  TG+ A G +++ +  I+ +LI   QRRI
+Sbjct  213  TATQRAITAPVAIANFTGSSQFEEPTGSIAAGAMVITIPIIVFVLI--FQRRI  263
+
+
+>VFG030621(gb|WP_031351550) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium avium 
+104]
+Length=279
+
+ Score = 56.6 bits (135),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 63/233 (27%), Positives = 104/233 (45%), Gaps = 17/233 (7%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAM  98
+            + +S E +  I       +AL  S G  L    +  L+G + A+ + R +FPG++++   
+Sbjct  51   SAISLENYRGIFRGDFFSSALINSVGIGLITTAVAVLLGAMAAYAVARLDFPGKRLLIGA  110
+
+Query  99   IDLPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRT  157
+              L    P     I+L T L+     +G F +  G  + Y    IT AL     P  + T
+Sbjct  111  TLLITMFP----AISLVTPLFNIERFLGLFDTWPGLILPY----ITFAL-----PLAIYT  157
+
+Query  158  VQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFI  217
+            +     +IP ++E+AA   GA P Q FR ++VP   P  +T   L F     +    + +
+Sbjct  158  LSAFFREIPWDLEKAAKIDGATPAQAFRKVIVPLAAPGVVTAAILVFIFAWNDLLLALTL  217
+
+Query  218  AGNMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+                   T  + ++      Q++  TG+ A G +++ V  IL +LI   QRRI
+Sbjct  218  TATKAAITAPVAIVSFSGSSQFEEPTGSIAAGAVVITVPVILFVLI--FQRRI  268
+
+
+>VFG030632(gb|YP_001702114) (sugB) Probable sugar ABC transporter, 
+permease protein SugB [Trehalose-recycling ABC transporter 
+(VF0842) - Nutritional/Metabolic factor (VFC0272)] [Mycobacterium 
+abscessus ATCC 19977]
+Length=277
+
+ Score = 56.2 bits (134),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 65/228 (29%), Positives = 100/228 (44%), Gaps = 17/228 (7%)
+
+Query  44   EQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAMIDLPF  103
+            + +  I S     +AL  S G  L A V+   +GT+ A+ + R +FPG+K +     L  
+Sbjct  54   DNYRGIFSGNVFTSALVNSIGIGLIATVIAVSVGTMAAYAVARLDFPGKKALIGAALLIA  113
+
+Query  104  ALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRTVQPVL  162
+              P     I+L T ++     VG F +  G  I Y    IT AL     P  + T+    
+Sbjct  114  MFPQ----ISLVTPIFNIERSVGLFDTWPGLIIPY----ITFAL-----PLAIYTLSAFF  160
+
+Query  163  ADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFIAGNMP  222
+             +IP E+E+AA   GA P Q F  ++ P   P  +T   L F     +    I +     
+Sbjct  161  REIPWELEKAAKMDGATPAQAFWKVIAPLATPGIVTSAILVFIFAWNDLLLAISLTATDR  220
+
+Query  223  MKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+              T  + +       Q++  TG+ A G +++ V  I+ +LI   QRRI
+Sbjct  221  SITAPVAIANFTGSSQFEEPTGSIAAGAIVITVPIIIFVLI--FQRRI  266
+
+
+>VFG030650(gb|WP_015292798) (sugB) trehalose ABC transporter permease 
+SugB [Trehalose-recycling ABC transporter (VF0842) - 
+Nutritional/Metabolic factor (VFC0272)] [Mycobacterium canettii 
+CIPT 140070017]
+Length=274
+
+ Score = 56.2 bits (134),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 60/233 (26%), Positives = 106/233 (45%), Gaps = 17/233 (7%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAM  98
+            + ++++ +  I       +AL  S G  L   V+  ++G + A+ + R EFPG++++   
+Sbjct  46   STVTFDNYRGIFRGDLFSSALINSIGIGLITTVIAVVLGAMAAYAVARLEFPGKRLLIGA  105
+
+Query  99   IDLPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRT  157
+              L    P+    I+L T L+     +G F +  G  + Y    IT AL     P  + T
+Sbjct  106  ALLITMFPS----ISLVTPLFNIERAIGLFDTWPGLILPY----ITFAL-----PLAIYT  152
+
+Query  158  VQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFI  217
+            +     +IP ++E+AA   GA P Q FR ++VP   P  +T   L F     +    + +
+Sbjct  153  LSAFFREIPWDLEKAAKMDGATPSQAFRKVIVPLAAPGLVTAAILVFIFAWNDLLLALSL  212
+
+Query  218  AGNMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+                   T  + +       Q++  TG+ A G +++ +  I+ +LI   QRRI
+Sbjct  213  TATKAAITAPVAIANFTGSSQFEEPTGSIAAGAIVITIPIIVFVLI--FQRRI  263
+
+
+>VFG030646(gb|WP_016342137) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium abscessus 
+subsp. bolletii 50594]
+Length=277
+
+ Score = 56.2 bits (134),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 65/228 (29%), Positives = 100/228 (44%), Gaps = 17/228 (7%)
+
+Query  44   EQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAMIDLPF  103
+            + +  I S     +AL  S G  L A V+   +GT+ A+ + R +FPG+K +     L  
+Sbjct  54   DNYRGIFSGNVFTSALVNSIGIGLIATVIAVSVGTMAAYAVARLDFPGKKALIGAALLIA  113
+
+Query  104  ALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRTVQPVL  162
+              P     I+L T ++     VG F +  G  I Y    IT AL     P  + T+    
+Sbjct  114  MFPQ----ISLVTPIFNIERSVGLFDTWPGLIIPY----ITFAL-----PLAIYTLSAFF  160
+
+Query  163  ADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFIAGNMP  222
+             +IP E+E+AA   GA P Q F  ++ P   P  +T   L F     +    I +     
+Sbjct  161  REIPWELEKAAKMDGATPAQAFWKVIAPLATPGIVTSAILVFIFAWNDLLLAISLTATDR  220
+
+Query  223  MKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+              T  + +       Q++  TG+ A G +++ V  I+ +LI   QRRI
+Sbjct  221  SITAPVAIANFTGSSQFEEPTGSIAAGAIVITVPIIIFVLI--FQRRI  266
+
+
+>VFG030616(gb|NP_215753) (sugB) sugar ABC transporter permease 
+SugB [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium tuberculosis 
+H37Rv]
+Length=274
+
+ Score = 55.8 bits (133),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 60/233 (26%), Positives = 106/233 (45%), Gaps = 17/233 (7%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAM  98
+            + ++++ +  I       +AL  S G  L   V+  ++G + A+ + R EFPG++++   
+Sbjct  46   STVTFDNYRGIFRGDLFSSALINSIGIGLITTVIAVVLGAMAAYAVARLEFPGKRLLIGA  105
+
+Query  99   IDLPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRT  157
+              L    P+    I+L T L+     +G F +  G  + Y    IT AL     P  + T
+Sbjct  106  ALLITMFPS----ISLVTPLFNIERAIGLFDTWPGLILPY----ITFAL-----PLAIYT  152
+
+Query  158  VQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFI  217
+            +     +IP ++E+AA   GA P Q FR ++VP   P  +T   L F     +    + +
+Sbjct  153  LSAFFREIPWDLEKAAKMDGATPGQAFRKVIVPLAAPGLVTAAILVFIFAWNDLLLALSL  212
+
+Query  218  AGNMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+                   T  + +       Q++  TG+ A G +++ +  I+ +LI   QRRI
+Sbjct  213  TATKAAITAPVAIANFTGSSQFEEPTGSIAAGAIVITIPIIVFVLI--FQRRI  263
+
+
+>VFG030670(gb|WP_198345115) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium smegmatis 
+JS623]
+Length=274
+
+ Score = 54.7 bits (130),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 60/233 (26%), Positives = 104/233 (45%), Gaps = 17/233 (7%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAM  98
+            +Q++++ +  I       +AL  S G  L   V+  + G + A+ + R  FPG++++  +
+Sbjct  46   SQITFDNYKGIFQGDIFTSALINSIGIGLITTVIAVVFGGMAAYAVARLAFPGKRLLIGV  105
+
+Query  99   IDLPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRT  157
+              L    P     I+L T ++     VG F +  G  I Y    IT AL     P  + T
+Sbjct  106  ALLIAMFPQ----ISLVTPIFNMWRSVGLFNTWPGLIIPY----ITFAL-----PLAIYT  152
+
+Query  158  VQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFI  217
+            +     +IP ++E+AA   GA P Q FR ++ P   P  +T   L F     +    + +
+Sbjct  153  LSAFFREIPWDLEKAAKMDGATPAQAFRRVIAPLAAPGIVTAAILVFIFAWNDLLLALSL  212
+
+Query  218  AGNMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+                   T  + +       Q++  TG+ A G +++ +  I+ +LI   QRRI
+Sbjct  213  TATQRAITAPVAIANFTGSSQFEEPTGSIAAGAMVITIPIIIFVLI--FQRRI  263
+
+
+>VFG030638(gb|WP_013828149) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. JDM601]
+Length=275
+
+ Score = 53.1 bits (126),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 60/233 (26%), Positives = 105/233 (45%), Gaps = 17/233 (7%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAM  98
+            + ++ + +  I +     +AL  S G  L   V+  +IG + A+ + R +FPG++++   
+Sbjct  47   SSVTLDNYRGIFAGDVFGSALINSVGIGLITTVIAVVIGAMAAYAVARLDFPGKRLLVGA  106
+
+Query  99   IDLPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRT  157
+              L    P     I+L T ++     +G F +  G  I Y    IT AL     P  + T
+Sbjct  107  ALLIAMFPQ----ISLVTPIFNIERAIGLFDTWPGLIIPY----ITFAL-----PLAIYT  153
+
+Query  158  VQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFI  217
+            +    ++IP ++E+AA   GA P Q FR ++ P   P  +T   L F     +    + +
+Sbjct  154  LSAFFSEIPWDLEKAAKMDGATPGQAFRKVIAPLAAPGIVTAAILVFIFAWNDLLLALSL  213
+
+Query  218  AGNMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+                   T  + +       Q++  TG+ A G +++ V  I+ +LI   QRRI
+Sbjct  214  TATKASITAPVAIANFTGSSQFEEPTGSIAAGAMVITVPIIVFVLI--FQRRI  264
+
+
+>VFG030649(gb|WP_015289686) (sugB) trehalose ABC transporter permease 
+SugB [Trehalose-recycling ABC transporter (VF0842) - 
+Nutritional/Metabolic factor (VFC0272)] [Mycobacterium canettii 
+CIPT 140070010]
+Length=274
+
+ Score = 53.1 bits (126),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 58/233 (25%), Positives = 104/233 (45%), Gaps = 17/233 (7%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAM  98
+            + ++++ +  I       +AL  S G  L    +  ++G + A+ + R EFPG++++   
+Sbjct  46   STVTFDNYRGIFRGDLFSSALINSIGIGLITTAIAVVLGAMAAYAVARLEFPGKRLLIGA  105
+
+Query  99   IDLPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRT  157
+              L    P     I+L T L+     +G F +  G  + Y        +TF  LP  + T
+Sbjct  106  ALLITMFP----AISLVTPLFNIERAIGLFDTWPGLILPY--------VTF-ALPLAIYT  152
+
+Query  158  VQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFI  217
+            +     +IP ++E+AA   GA P Q FR ++VP   P  +T   L F     +    + +
+Sbjct  153  LSAFFREIPWDLEKAAKMDGATPGQAFRKVIVPLAAPGLVTAAILVFIFAWNDLLLALSL  212
+
+Query  218  AGNMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+                   T  + +       Q++  TG+ A G +++ +  I+ +LI   QRRI
+Sbjct  213  TATKAAITAPVAIANFTGSSQFEEPTGSIAAGAIVITIPIIVFVLI--FQRRI  263
+
+
+>VFG030618(gb|WP_162618319) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium leprae 
+TN]
+Length=274
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 59/231 (26%), Positives = 101/231 (44%), Gaps = 17/231 (7%)
+
+Query  41   LSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAMID  100
+            ++++ +  I  +    +AL  S G  L   V+  + G + A+ + R  FPG++++     
+Sbjct  48   VTFDNYRGIFRSDLFSSALINSIGIGLTTTVIAVMFGAMAAYAIARLAFPGKRLLVGTTL  107
+
+Query  101  LPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRTVQ  159
+            L    P     I+L T L+     VG F +  G  + Y    IT AL     P  + T+ 
+Sbjct  108  LVTMFP----AISLVTPLFNIERRVGLFDTWAGLILPY----ITFAL-----PLAIYTLS  154
+
+Query  160  PVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFIAG  219
+               A+IP ++E+AA   GA   Q FR ++VP   P  +T   L F     +    + +  
+Sbjct  155  AFFAEIPWDLEKAAKMDGATSGQAFRKVIVPLAAPGLVTAAILVFIFAWNDLLLALSLTS  214
+
+Query  220  NMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+                 T  + +       Q++  TG+ A G +++    I+ + I   QRRI
+Sbjct  215  TKAAITAPVAITNFTGSSQFEEPTGSIAAGAIVITAPIIVFVWI--FQRRI  263
+
+
+>VFG030636(gb|WP_010908120) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium leprae 
+Br4923]
+Length=287
+
+ Score = 51.2 bits (121),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 59/231 (26%), Positives = 101/231 (44%), Gaps = 17/231 (7%)
+
+Query  41   LSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAMID  100
+            ++++ +  I  +    +AL  S G  L   V+  + G + A+ + R  FPG++++     
+Sbjct  61   VTFDNYRGIFRSDLFSSALINSIGIGLTTTVIAVMFGAMAAYAIARLAFPGKRLLVGTTL  120
+
+Query  101  LPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRTVQ  159
+            L    P     I+L T L+     VG F +  G  + Y    IT AL     P  + T+ 
+Sbjct  121  LVTMFP----AISLVTPLFNIERRVGLFDTWAGLILPY----ITFAL-----PLAIYTLS  167
+
+Query  160  PVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFIAG  219
+               A+IP ++E+AA   GA   Q FR ++VP   P  +T   L F     +    + +  
+Sbjct  168  AFFAEIPWDLEKAAKMDGATSGQAFRKVIVPLAAPGLVTAAILVFIFAWNDLLLALSLTS  227
+
+Query  220  NMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+                 T  + +       Q++  TG+ A G +++    I+ + I   QRRI
+Sbjct  228  TKAAITAPVAITNFTGSSQFEEPTGSIAAGAIVITAPIIVFVWI--FQRRI  276
+
+
+>VFG030661(gb|YP_007957368) (sugB) sugar-transport integral membrane 
+protein ABC transporter SugB [Trehalose-recycling ABC 
+transporter (VF0842) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=234
+
+ Score = 50.4 bits (119),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 47/167 (28%), Positives = 79/167 (47%), Gaps = 14/167 (8%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAM  98
+            + ++++ +  I       +AL  S G  L   V+  ++G + A+ + R EFPG++++   
+Sbjct  23   STVTFDNYRGIFRGDLFSSALINSIGIGLITTVIAVVLGAMAAYAVARLEFPGKRLLIGA  82
+
+Query  99   IDLPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRT  157
+              L    P+    I+L T L+     +G F +  G  + Y    IT AL     P  + T
+Sbjct  83   ALLITMFPS----ISLVTPLFNIERAIGLFDTWPGLILPY----ITFAL-----PLAIYT  129
+
+Query  158  VQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAF  204
+            +     +IP ++E+AA   GA P Q FR ++VP   P  +T   L F
+Sbjct  130  LSAFFREIPWDLEKAAKMDGATPGQAFRKVIVPLAAPGLVTAAILVF  176
+
+
+>VFG030643(gb|WP_014382018) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium intracellulare 
+MOTT-02]
+Length=279
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 61/234 (26%), Positives = 102/234 (44%), Gaps = 19/234 (8%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRK-IIDA  97
+            + +S + +  I       +AL  S G  L    +   +G +  + + R  FPG++ ++ A
+Sbjct  51   SSVSLDNYRGIFRGDIFSSALINSVGIGLITTAIAVTLGAMAGYAIARLNFPGKRALVGA  110
+
+Query  98   MIDLPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVR  156
+             +     L T    I+L T L+     VG F +  G  + Y    IT AL     P  + 
+Sbjct  111  TL-----LITMFPAISLVTPLFNIERFVGLFDTWPGLILPY----ITFAL-----PLAIY  156
+
+Query  157  TVQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIF  216
+            T+     +IP ++E+AA   GA P Q FR ++VP   P  +T   L F     +    + 
+Sbjct  157  TLSAFFREIPWDLEKAAKMDGASPAQAFRKVIVPLSAPGVVTAAILVFIFAWNDLLLALT  216
+
+Query  217  IAGNMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+            +       T  + ++      Q++  TG+ A G +++ V  I  +LI   QRRI
+Sbjct  217  LTATKAAITAPVAIVNFSGSSQFEEPTGSIAAGAVVITVPIIAFVLI--FQRRI  268
+
+
+>VFG019712(gb|WP_010357027) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria gonorrhoeae NCCP11945]
+Length=505
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 52/175 (30%), Positives = 77/175 (44%), Gaps = 28/175 (16%)
+
+Query  55   VLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAMID-LPFALPTAVAG--  111
+            V  A   S   +   A+L  L    L W  VRY    R  +   ID LPF L  AV G  
+Sbjct  305  VFDAFIRSLSVSALGAILTILCALPLVWASVRY----RNFLTVWIDRLPFLL-HAVPGLV  359
+
+Query  112  IALTALYAPAGLVGQFASDLGFKIAYTP------LGITLALTFVTLPFVVRTVQPVLADI  165
+            IAL+ +Y              F I YTP      + + LA   + LP    T++  L  +
+Sbjct  360  IALSLVY--------------FSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQL  405
+
+Query  166  PKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFIAGN  220
+            PK +E+  A LG     +FR +++P++LP     FAL F + + E  + + +  +
+Sbjct  406  PKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTAD  460
+
+
+>VFG030645(gb|WP_014379470) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium intracellulare 
+ATCC 13950]
+Length=279
+
+ Score = 50.4 bits (119),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 61/234 (26%), Positives = 102/234 (44%), Gaps = 19/234 (8%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRK-IIDA  97
+            + +S + +  I       +AL  S G  L    +   +G +  + + R  FPG++ ++ A
+Sbjct  51   SSVSLDNYRGIFRGDIFSSALINSVGIGLITTAIAVTLGAMAGYAIARLNFPGKRALVGA  110
+
+Query  98   MIDLPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVR  156
+             +     L T    I+L T L+     VG F +  G  + Y    IT AL     P  + 
+Sbjct  111  TL-----LITMFPAISLVTPLFNIERFVGLFDTWPGLILPY----ITFAL-----PLAIY  156
+
+Query  157  TVQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIF  216
+            T+     +IP ++E+AA   GA P Q FR ++VP   P  +T   L F     +    + 
+Sbjct  157  TLSAFFREIPWDLEKAAKMDGASPAQAFRKVIVPLAAPGVVTAAILVFIFAWNDLLLALT  216
+
+Query  217  IAGNMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+            +       T  + ++      Q++  TG+ A G +++ V  I  +LI   QRRI
+Sbjct  217  LTATKAAITAPVAIVNFSGSSQFEEPTGSIAAGAVVITVPIIAFVLI--FQRRI  268
+
+
+>VFG000343(gb|WP_164927854) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus influenzae Rd KW20]
+Length=506
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 55/203 (27%), Positives = 89/203 (44%), Gaps = 19/203 (9%)
+
+Query  56   LAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAMID-LPFALPTAVAG--I  112
+            L+A   SF  +   A+L  +    L W  VRY    R  +   ID LP+ L  AV G  I
+Sbjct  307  LSAFSNSFIISGLGALLTVMCALPLVWAAVRY----RSYLTIWIDRLPYLL-HAVPGLVI  361
+
+Query  113  ALTALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRTVQPVLADIPKEVEEA  172
+            AL+ +Y        +A+DL      T   I +A   + LP    T++  L  +  ++E+ 
+Sbjct  362  ALSLVYFSI----HYANDL----YQTFFVIIIAYFMLYLPMAQTTLRASLEQLSDQIEKV  413
+
+Query  173  AACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFIAGNMPMKTEILPLLI  232
+               LG  P  +FR + +PA+LP     FAL F   + E  + + +  N     + L + +
+Sbjct  414  GQSLGRNPFYIFRTLTLPAILPGVAAAFALVFLNLMKELTATLLLTSN---DIKTLSIAV  470
+
+Query  233  MVKLDQYDYTGATAIGVLMLVVS  255
+                    Y  AT   +++++ S
+Sbjct  471  WEHTSDAQYAAATPYALMLVLFS  493
+
+
+>VFG030642(gb|WP_014711072) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium intracellulare 
+str. MOTT36Y]
+Length=279
+
+ Score = 50.4 bits (119),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 61/234 (26%), Positives = 102/234 (44%), Gaps = 19/234 (8%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRK-IIDA  97
+            + +S + +  I       +AL  S G  L    +   +G +  + + R  FPG++ ++ A
+Sbjct  51   SSVSLDNYRGIFRGDIFSSALINSVGIGLITTAIAVTLGAMAGYAIARLNFPGKRALVGA  110
+
+Query  98   MIDLPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVR  156
+             +     L T    I+L T L+     VG F +  G  + Y    IT AL     P  + 
+Sbjct  111  TL-----LITMFPAISLVTPLFNIERFVGLFDTWPGLILPY----ITFAL-----PLAIY  156
+
+Query  157  TVQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIF  216
+            T+     +IP ++E+AA   GA P Q FR ++VP   P  +T   L F     +    + 
+Sbjct  157  TLSAFFREIPWDLEKAAKMDGASPAQAFRKVIVPLAAPGVVTAAILVFIFAWNDLLLALT  216
+
+Query  217  IAGNMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+            +       T  + ++      Q++  TG+ A G +++ V  I  +LI   QRRI
+Sbjct  217  LTATKAAITAPVAIVNFSGSSQFEEPTGSIAAGAVVITVPIIAFVLI--FQRRI  268
+
+
+>VFG036536(gb|WP_002233656) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis WUE 2594]
+Length=505
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 53/165 (32%), Positives = 73/165 (44%), Gaps = 28/165 (17%)
+
+Query  55   VLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAMID-LPFALPTAVAG--  111
+            V  A   S   +   AVL  L    L W  VRY    R  +   ID LPF L  AV G  
+Sbjct  305  VFDAFIRSLSVSALGAVLTILCALPLVWASVRY----RNFLTVWIDRLPFLL-HAVPGLV  359
+
+Query  112  IALTALYAPAGLVGQFASDLGFKIAYTP------LGITLALTFVTLPFVVRTVQPVLADI  165
+            IAL+ +Y              F I YTP      + + LA   + LP    T++  L  +
+Sbjct  360  IALSLVY--------------FSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQL  405
+
+Query  166  PKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGE  210
+            PK +E+  A LG     +FR +++P++LP     FAL F + + E
+Sbjct  406  PKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKE  450
+
+
+>VFG006252(gb|WP_002246860) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis Z2491]
+Length=505
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 53/165 (32%), Positives = 73/165 (44%), Gaps = 28/165 (17%)
+
+Query  55   VLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAMID-LPFALPTAVAG--  111
+            V  A   S   +   AVL  L    L W  VRY    R  +   ID LPF L  AV G  
+Sbjct  305  VFDAFIRSLSVSALGAVLTILCALPLVWASVRY----RNFLTVWIDRLPFLL-HAVPGLV  359
+
+Query  112  IALTALYAPAGLVGQFASDLGFKIAYTP------LGITLALTFVTLPFVVRTVQPVLADI  165
+            IAL+ +Y              F I YTP      + + LA   + LP    T++  L  +
+Sbjct  360  IALSLVY--------------FSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQL  405
+
+Query  166  PKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGE  210
+            PK +E+  A LG     +FR +++P++LP     FAL F + + E
+Sbjct  406  PKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKE  450
+
+
+>VFG030624(gb|WP_175048396) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium smegmatis 
+str. MC2 155]
+Length=274
+
+ Score = 50.1 bits (118),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 61/233 (26%), Positives = 107/233 (46%), Gaps = 17/233 (7%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAM  98
+            T++++  + AI S     +AL  S G  L   ++  +IG + A+ + R +FPG++++  +
+Sbjct  46   TEITFANYKAIFSGDAFTSALFNSIGIGLITTIIAVVIGGMAAYAVARLQFPGKQLLIGV  105
+
+Query  99   IDLPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRT  157
+              L    P     I+L T ++     +G F +  G  I Y    IT AL     P  + T
+Sbjct  106  ALLIAMFPH----ISLVTPIFNMWRGIGLFDTWPGLIIPY----ITFAL-----PLAIYT  152
+
+Query  158  VQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFI  217
+            +     +IP ++E+AA   GA P Q FR ++ P   P  +T   L F     +    + +
+Sbjct  153  LSAFFREIPWDLEKAAKMDGATPAQAFRKVIAPLAAPGIVTAAILVFIFAWNDLLLALSL  212
+
+Query  218  AGNMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+                   T  + +       Q++  TG+ A G +++ +  I+ +LI   QRRI
+Sbjct  213  TATQRAITAPVAIANFTGSSQFEEPTGSIAAGAMVITIPIIIFVLI--FQRRI  263
+
+
+>VFG006255(gb|WP_025456388) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria gonorrhoeae FA 1090]
+Length=505
+
+ Score = 50.8 bits (120),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 52/175 (30%), Positives = 77/175 (44%), Gaps = 28/175 (16%)
+
+Query  55   VLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAMID-LPFALPTAVAG--  111
+            V  A   S   +   A+L  L    L W  VRY    R  +   ID LPF L  AV G  
+Sbjct  305  VFDAFIRSLSVSALGAILTILCALPLVWASVRY----RNFLTVWIDRLPFLL-HAVPGLV  359
+
+Query  112  IALTALYAPAGLVGQFASDLGFKIAYTP------LGITLALTFVTLPFVVRTVQPVLADI  165
+            IAL+ +Y              F I YTP      + + LA   + LP    T++  L  +
+Sbjct  360  IALSLVY--------------FSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQL  405
+
+Query  166  PKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFIAGN  220
+            PK +E+  A LG     +FR +++P++LP     FAL F + + E  + + +  +
+Sbjct  406  PKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKELTATLLLTAD  460
+
+
+>VFG013568(gb|WP_005687630) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus influenzae 86-028NP]
+Length=506
+
+ Score = 50.8 bits (120),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 55/203 (27%), Positives = 89/203 (44%), Gaps = 19/203 (9%)
+
+Query  56   LAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAMID-LPFALPTAVAG--I  112
+            L+A   SF  +   A+L  +    L W  VRY    R  +   ID LP+ L  AV G  I
+Sbjct  307  LSAFSNSFIISGLGALLTVMCALPLVWAAVRY----RSYLTIWIDRLPYLL-HAVPGLVI  361
+
+Query  113  ALTALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRTVQPVLADIPKEVEEA  172
+            AL+ +Y        +A+DL      T   I +A   + LP    T++  L  +  ++E+ 
+Sbjct  362  ALSLVYFSI----HYANDL----YQTFFVIIIAYFMLYLPMAQTTLRASLEQLSDQIEKV  413
+
+Query  173  AACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFIAGNMPMKTEILPLLI  232
+               LG  P  +FR + +PA+LP     FAL F   + E  + + +  N     + L + +
+Sbjct  414  GQSLGRSPFYIFRTLTLPAILPGVAAAFALVFLNLMKELTATLLLTSN---DIKTLSIAV  470
+
+Query  233  MVKLDQYDYTGATAIGVLMLVVS  255
+                    Y  AT   +++++ S
+Sbjct  471  WEHTSDAQYAAATPYALMLVLFS  493
+
+
+>VFG000249(gb|WP_002214251) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis MC58]
+Length=505
+
+ Score = 50.4 bits (119),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 52/165 (32%), Positives = 73/165 (44%), Gaps = 28/165 (17%)
+
+Query  55   VLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAMID-LPFALPTAVAG--  111
+            V  A   S   +   A+L  L    L W  VRY    R  +   ID LPF L  AV G  
+Sbjct  305  VFDAFIRSLSVSALGAILTILCALPLVWASVRY----RNFLTVWIDRLPFLL-HAVPGLV  359
+
+Query  112  IALTALYAPAGLVGQFASDLGFKIAYTP------LGITLALTFVTLPFVVRTVQPVLADI  165
+            IAL+ +Y              F I YTP      + + LA   + LP    T++  L  +
+Sbjct  360  IALSLVY--------------FSINYTPAVYQTFIVVILAYFMLYLPMAQTTLRTSLEQL  405
+
+Query  166  PKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGE  210
+            PK +E+  A LG     +FR +++P++LP     FAL F + + E
+Sbjct  406  PKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFALVFLKLMKE  450
+
+
+>VFG030629(gb|WP_094987104) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium ulcerans 
+Agy99]
+Length=283
+
+ Score = 49.3 bits (116),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 58/215 (27%), Positives = 96/215 (45%), Gaps = 17/215 (8%)
+
+Query  57   AALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAMIDLPFALPTAVAGIAL-T  115
+            +AL  S G  L   V+  L+G + A  + R +FPG++++  +  L    P     I+L T
+Sbjct  73   SALINSIGIGLTTTVIAVLLGAMAACAVARLDFPGKRLLVGVTLLITMFP----AISLVT  128
+
+Query  116  ALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRTVQPVLADIPKEVEEAAAC  175
+             L+     +G F +     + Y    IT AL     P  + T+     +IP ++E+AA  
+Sbjct  129  PLFNIERRIGLFDTWPELILPY----ITFAL-----PLAIYTLSAFFREIPWDLEKAAQM  179
+
+Query  176  LGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFIAGNMPMKTEILPLLIMVK  235
+             GA P Q FR ++VP   P  +T   L F     +    + +       T  + +     
+Sbjct  180  DGATPYQAFRKVIVPLAAPGLVTAAILVFIFAWNDLLLALSLTATKASITAPIAIANFAG  239
+
+Query  236  LDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+              Q++  TG+ A G +++ V  I+ +LI   Q RI
+Sbjct  240  SSQFEEPTGSIAAGAMVITVPIIVFVLI--FQLRI  272
+
+
+>VFG030641(gb|WP_014941455) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium indicus 
+pranii MTCC 9506]
+Length=279
+
+ Score = 49.3 bits (116),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 61/234 (26%), Positives = 101/234 (43%), Gaps = 19/234 (8%)
+
+Query  39   TQLSWEQFWAIISAPRVLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGR-KIIDA  97
+            + +S + +  I       +AL  S G  L    +   +G +  + + R  FPG+  ++ A
+Sbjct  51   SSVSLDNYRGIFRGDIFSSALINSVGIGLITTAIAVTLGAMAGYAIARLNFPGKGALVGA  110
+
+Query  98   MIDLPFALPTAVAGIAL-TALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVR  156
+             +     L T    I+L T L+     VG F +  G  + Y    IT AL     P  + 
+Sbjct  111  TL-----LITMFPAISLVTPLFNIERFVGLFDTWPGLILPY----ITFAL-----PLAIY  156
+
+Query  157  TVQPVLADIPKEVEEAAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIF  216
+            T+     +IP ++E+AA   GA P Q FR ++VP   P  +T   L F     +    + 
+Sbjct  157  TLSAFFREIPWDLEKAAKMDGASPAQAFRKVIVPLAAPGVVTAAILVFIFAWNDLLLALT  216
+
+Query  217  IAGNMPMKTEILPLLIMVKLDQYDY-TGATAIGVLMLVVSFILLLLINLLQRRI  269
+            +       T  + ++      Q++  TG+ A G +++ V  I  +LI   QRRI
+Sbjct  217  LTATKAAITAPVAIVNFSGSSQFEEPTGSIAAGAVVITVPIIAFVLI--FQRRI  268
+
+
+>VFG036547(gb|WP_013449338) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria lactamica 020-06]
+Length=505
+
+ Score = 49.7 bits (117),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 50/169 (30%), Positives = 76/169 (45%), Gaps = 16/169 (9%)
+
+Query  55   VLAALKLSFGTALAAAVLNGLIGTLLAWVLVRYEFPGRKIIDAMID-LPFALPTAVAG--  111
+            V  A   S   + A A+L  L    L W  VRY    R  +   ID LPF L  AV G  
+Sbjct  305  VFDAFVRSMSVSAAGALLTILCALPLVWASVRY----RNFLTVWIDRLPFLL-HAVPGLV  359
+
+Query  112  IALTALYAPAGLVGQFASDLGFKIAYTPLGITLALTFVTLPFVVRTVQPVLADIPKEVEE  171
+            IAL+ +Y        F+ +    +  T   + LA   + LP    T++  L  +PK +E+
+Sbjct  360  IALSLIY--------FSINYAPSVYQTFAVVVLAYFMLYLPMAQTTLRTSLEQLPKGMEQ  411
+
+Query  172  AAACLGARPLQVFRHILVPALLPAWLTGFALAFARGVGEYGSVIFIAGN  220
+              A LG     +FR +++P++LP     FAL F   + E  + + +  +
+Sbjct  412  VGATLGRGHFFIFRTLVLPSILPGITAAFALVFLNLMKELTATLLLTAD  460
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.144    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1821372545
+
+
+Query= g1890.t1
+
+Length=228
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG030632(gb|YP_001702114) (sugB) Probable sugar ABC transporter,...  47.4    2e-06
+VFG030646(gb|WP_016342137) (sugB) carbohydrate ABC transporter pe...  47.4    2e-06
+
+
+>VFG030632(gb|YP_001702114) (sugB) Probable sugar ABC transporter, 
+permease protein SugB [Trehalose-recycling ABC transporter 
+(VF0842) - Nutritional/Metabolic factor (VFC0272)] [Mycobacterium 
+abscessus ATCC 19977]
+Length=277
+
+ Score = 47.4 bits (111),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 45/164 (27%), Positives = 74/164 (45%), Gaps = 7/164 (4%)
+
+Query  63   VIGFYLLVSMGPN----GFIGQLTQSLGLGTLPFTFAGLVVGSVFYSLPFVVQPLQNAFE  118
+            +IG  LL++M P       I  + +S+GL     T+ GL++  + ++LP  +  L   F 
+Sbjct  105  LIGAALLIAMFPQISLVTPIFNIERSVGLFD---TWPGLIIPYITFALPLAIYTLSAFFR  161
+
+Query  119  AIGEKPLEAAATLRASPVDRFFSVVLPLARPGFVTAAILGFAHTVGEFGVVLMIGGNIPE  178
+             I  +  +AA    A+P   F+ V+ PLA PG VT+AIL F     +  + + +      
+Sbjct  162  EIPWELEKAAKMDGATPAQAFWKVIAPLATPGIVTSAILVFIFAWNDLLLAISLTATDRS  221
+
+Query  179  KTRVVSVQIFDHVEAMEYAQAHWLAGGMVAFSFVVLLALYSGRR  222
+             T  V++  F      E       AG +V    +++  L   RR
+Sbjct  222  ITAPVAIANFTGSSQFEEPTGSIAAGAIVITVPIIIFVLIFQRR  265
+
+
+>VFG030646(gb|WP_016342137) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium abscessus 
+subsp. bolletii 50594]
+Length=277
+
+ Score = 47.4 bits (111),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 45/164 (27%), Positives = 74/164 (45%), Gaps = 7/164 (4%)
+
+Query  63   VIGFYLLVSMGPN----GFIGQLTQSLGLGTLPFTFAGLVVGSVFYSLPFVVQPLQNAFE  118
+            +IG  LL++M P       I  + +S+GL     T+ GL++  + ++LP  +  L   F 
+Sbjct  105  LIGAALLIAMFPQISLVTPIFNIERSVGLFD---TWPGLIIPYITFALPLAIYTLSAFFR  161
+
+Query  119  AIGEKPLEAAATLRASPVDRFFSVVLPLARPGFVTAAILGFAHTVGEFGVVLMIGGNIPE  178
+             I  +  +AA    A+P   F+ V+ PLA PG VT+AIL F     +  + + +      
+Sbjct  162  EIPWELEKAAKMDGATPAQAFWKVIAPLATPGIVTSAILVFIFAWNDLLLAISLTATDRS  221
+
+Query  179  KTRVVSVQIFDHVEAMEYAQAHWLAGGMVAFSFVVLLALYSGRR  222
+             T  V++  F      E       AG +V    +++  L   RR
+Sbjct  222  ITAPVAIANFTGSSQFEEPTGSIAAGAIVITVPIIIFVLIFQRR  265
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.142    0.440    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1386520899
+
+
+Query= g3315.t1
+
+Length=279
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG030651(gb|WP_015356779) (sugB) carbohydrate ABC transporter pe...  48.5    1e-06
+VFG030637(gb|WP_049785257) (sugB) carbohydrate ABC transporter pe...  48.1    2e-06
+VFG030630(gb|WP_011779762) (sugB) carbohydrate ABC transporter pe...  46.6    6e-06
+VFG030623(gb|WP_011894705) (sugB) carbohydrate ABC transporter pe...  45.8    1e-05
+
+
+>VFG030651(gb|WP_015356779) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium liflandii 
+128FXT]
+Length=283
+
+ Score = 48.5 bits (114),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 40/191 (21%), Positives = 89/191 (47%), Gaps = 25/191 (13%)
+
+Query  22   VIFQIAPLAWVALNSLKASD----------AWSLANYLELFGSPFYRQAIRHSLEIAGWS  71
+            V++ + P+ W+   SLK +           + +L NY  +FG   +  A+ +S+ I   +
+Sbjct  26   VVYALLPVLWILSLSLKPTSTVKDGRLIPSSVTLDNYRGVFGGDLFSSALINSIGIGLTT  85
+
+Query  72   SLLGLLIAVLGSHSLRHVDSRLRDFVMAFSNMTSNFAGVPLAFAFIILLGFNGALTLLLK  131
+            +++ +L+  + ++++  +D   +  ++  + + + F  + L         FN     + +
+Sbjct  86   TVIAVLLGAMAAYAVARLDFPGKRLLVGVTLLITMFPAISLVTPL-----FN-----IER  135
+
+Query  132  QAGWIDDFNLYSKTGLIILYTYFQIPLGVMLLYPAFDALREDWRESAALLGANGWQYWRH  191
+            + G  D +      GLI+ Y  F +PL +  L   F  +  D  ++A + GA  +Q +R 
+Sbjct  136  RIGLFDTWP-----GLILPYITFALPLAIYTLSAFFREIPWDLEKAAQMDGATPYQAFRK  190
+
+Query  192  IGIPVLTPALL  202
+            + +P+  P L+
+Sbjct  191  VIVPLAAPGLV  201
+
+
+>VFG030637(gb|WP_049785257) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium marinum 
+M]
+Length=283
+
+ Score = 48.1 bits (113),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 40/191 (21%), Positives = 89/191 (47%), Gaps = 25/191 (13%)
+
+Query  22   VIFQIAPLAWVALNSLKASD----------AWSLANYLELFGSPFYRQAIRHSLEIAGWS  71
+            V++ + P+ W+   SLK +           + +L NY  +FG   +  A+ +S+ I   +
+Sbjct  26   VVYALLPVLWILSLSLKPTSTVKDGRLIPSSVTLDNYRGVFGGDLFSSALINSIGIGLTT  85
+
+Query  72   SLLGLLIAVLGSHSLRHVDSRLRDFVMAFSNMTSNFAGVPLAFAFIILLGFNGALTLLLK  131
+            +++ +L+  + ++++  +D   +  ++  + + + F  + L         FN     + +
+Sbjct  86   TVIAVLLGAMAAYAVARLDFPGKRLLVGVALLITMFPAISLVTPL-----FN-----IER  135
+
+Query  132  QAGWIDDFNLYSKTGLIILYTYFQIPLGVMLLYPAFDALREDWRESAALLGANGWQYWRH  191
+            + G  D +      GLI+ Y  F +PL +  L   F  +  D  ++A + GA  +Q +R 
+Sbjct  136  RIGLFDTWP-----GLILPYITFALPLAIYTLSAFFREIPWDLEKAAQMDGATPYQAFRK  190
+
+Query  192  IGIPVLTPALL  202
+            + +P+  P L+
+Sbjct  191  VIVPLAAPGLV  201
+
+
+>VFG030630(gb|WP_011779762) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium vanbaalenii 
+PYR-1]
+Length=275
+
+ Score = 46.6 bits (109),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 44/225 (20%), Positives = 101/225 (45%), Gaps = 18/225 (8%)
+
+Query  47   NYLELFGSPFYRQAIRHSLEIAGWSSLLGLLIAVLGSHSLRHVDSRLRDFVMAFSNMTSN  106
+            N+ ++F  P + +A+ +S+ IA  ++++ ++IA+  ++++  ++   +  +++ +   + 
+Sbjct  53   NFAQIFSQPLFTRALINSIGIAVIATVISVIIAMFAAYAIARLEFPGKKVLLSLALGIAM  112
+
+Query  107  FAGVPLAFAFIILLGFNGALTLLLKQAGWIDDFNLYSKTGLIILYTYFQIPLGVMLLYPA  166
+            F    L           G L  + +  G  D +      GLII Y  F +PL +  +   
+Sbjct  113  FPQAALV----------GPLFDMWRGLGIYDTW-----LGLIIPYLTFALPLSIWTMSAF  157
+
+Query  167  FDALREDWRESAALLGANGWQYWRHIGIPVLTPALLGTFVILLANALGAYATVYSLT-TG  225
+            F  +  +   +A + GA  WQ +R + +P+  P +  T ++        +    SLT T 
+Sbjct  158  FRQIPWEMEHAAQVDGATQWQAFRKVIVPLAAPGVFTTAILTFFFCWNDFLFAISLTSTD  217
+
+Query  226  NFNVIPIRIGALVAGDVF--PDPNMASALAMVLVGLMTLITLVHQ  268
+            +   +P  +        F  P P + +A  +V + ++ L+ +  +
+Sbjct  218  SARTVPAALAFFQGASYFESPVPYIMAASVIVTIPVVILVLIFQR  262
+
+
+>VFG030623(gb|WP_011894705) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium gilvum 
+PYR-GCK]
+Length=275
+
+ Score = 45.8 bits (107),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 47/225 (21%), Positives = 103/225 (46%), Gaps = 19/225 (8%)
+
+Query  47   NYLELFGSPFYRQAIRHSLEIAGWSSLLGLLIAVLGSHSLRHVDSRLRDFVMAFSNMTSN  106
+            N+ ++F +P + +A+ +S+ IA  ++++ ++IA+  ++++  ++   +  +++ +   + 
+Sbjct  53   NFAQIFSNPLFTRALINSIGIALVATVISVIIAMFAAYAIARLEFPGKKVLLSLALGIAM  112
+
+Query  107  FAGVPLAFAFIILLGFNGALTLLLKQAGWIDDFNLYSKTGLIILYTYFQIPLGVMLLYPA  166
+            F    L           G L  + +  G  D +      GLII Y  F +PL +  +   
+Sbjct  113  FPQAALV----------GPLFDMWRGLGIYDTW-----LGLIIPYLTFALPLSIWTMSAF  157
+
+Query  167  FDALREDWRESAALLGANGWQYWRHIGIPVLTPALLGTFVILLANALGAYATVYSLT-TG  225
+            F  +  +   +A + GA  WQ +R + +P+  P +  T ++        +    SLT T 
+Sbjct  158  FRQIPWEMEHAAQVDGATQWQAFRKVIVPLAAPGVFTTAILTFFFCWNDFLFAISLTSTD  217
+
+Query  226  NFNVIPIRIGALVAGDVF--PDPNMASALAMVLVGLMTLITLVHQ  268
+            +   +P  +        F  P P + +A  +V + ++ L+ LV Q
+Sbjct  218  SARTVPAALAFFQGASYFESPVPYIMAASVIVTIPVVILV-LVFQ  261
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.142    0.447    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1895069700
+
+
+Query= g717.t1
+
+Length=229
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG013191(gb|WP_011608935) (hitB) iron ABC transporter permease [...  70.9    4e-14
+VFG030630(gb|WP_011779762) (sugB) carbohydrate ABC transporter pe...  58.9    2e-10
+VFG030623(gb|WP_011894705) (sugB) carbohydrate ABC transporter pe...  58.5    3e-10
+VFG019712(gb|WP_010357027) (fbpB) iron(III) ABC transporter, perm...  53.9    2e-08
+VFG036536(gb|WP_002233656) (fbpB) iron(III) ABC transporter, perm...  53.9    2e-08
+VFG000249(gb|WP_002214251) (fbpB) iron(III) ABC transporter, perm...  53.9    2e-08
+VFG006255(gb|WP_025456388) (fbpB) iron(III) ABC transporter, perm...  53.9    2e-08
+VFG036547(gb|WP_013449338) (fbpB) iron(III) ABC transporter, perm...  53.5    3e-08
+VFG006252(gb|WP_002246860) (fbpB) iron(III) ABC transporter, perm...  52.4    7e-08
+VFG000343(gb|WP_164927854) (hitB) iron ABC transporter permease [...  48.5    1e-06
+VFG013568(gb|WP_005687630) (hitB) iron ABC transporter permease [...  47.8    2e-06
+
+
+>VFG013191(gb|WP_011608935) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus somnus 2336]
+Length=555
+
+ Score = 70.9 bits (172),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 58/177 (33%), Positives = 87/177 (49%), Gaps = 15/177 (8%)
+
+Query  8    WQAVLLSLKVSSL-----AVLFSLPFGIFFAWLLVRCRFPGKALLDSVLHLPLVLPPVVV  62
+            WQ VL    ++SL      V FSL F +  AW + + +F G+ +L  +L LPL +P  +V
+Sbjct  47   WQTVLFDYLLNSLLLVIGTVSFSLVFALPCAWFISQYQFTGQKILQWLLCLPLAMPGYLV  106
+
+Query  63   GYL---LLVSMG------RRGFIGQWLYDWFGLTFAFSWRGAVLAAAVMSFPLMVRAIRL  113
+             YL   LL   G      R+ F      D++ ++    W GA +  A++ FP +   +RL
+Sbjct  107  AYLYTDLLDYAGAVQVFLRQTFSWSSAQDYWFISIRTLW-GACIVLALVLFPYIFLLVRL  165
+
+Query  114  ALEGVDIKLEQAARTLGAGRWRVFLTITLPLTLPGIIVGTVLAFARSLGEFGATITF  170
+            AL      L Q+A+ LG+   ++   I  PLT P I +G  L    +LG+FG    F
+Sbjct  166  ALLEQSENLIQSAKLLGSSPRKLLQKIIFPLTRPAIAIGCALVAMETLGDFGTVSYF  222
+
+
+>VFG030630(gb|WP_011779762) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium vanbaalenii 
+PYR-1]
+Length=275
+
+ Score = 58.9 bits (141),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 44/177 (25%), Positives = 82/177 (46%), Gaps = 15/177 (8%)
+
+Query  9    QAVLLSLKVSSLAVLFSLPFGIFFAWLLVRCRFPGKALLDSVLHLPLVLPPVVVGYLLLV  68
+            +A++ S+ ++ +A + S+   +F A+ + R  FPGK +L S L L + + P         
+Sbjct  65   RALINSIGIAVIATVISVIIAMFAAYAIARLEFPGKKVLLS-LALGIAMFP---------  114
+
+Query  69   SMGRRGFIGQWLYDWFGLTFAFSWRGAVLAAAVMSFPLMVRAIRLALEGVDIKLEQAART  128
+               +   +G     W GL    +W G ++     + PL +  +      +  ++E AA+ 
+Sbjct  115  ---QAALVGPLFDMWRGLGIYDTWLGLIIPYLTFALPLSIWTMSAFFRQIPWEMEHAAQV  171
+
+Query  129  LGAGRWRVFLTITLPLTLPGIIVGTVLAFARSLGEFGATITFVSNIPGETRTIPSAM  185
+             GA +W+ F  + +PL  PG+    +L F     +F   I+  S      RT+P+A+
+Sbjct  172  DGATQWQAFRKVIVPLAAPGVFTTAILTFFFCWNDFLFAISLTST--DSARTVPAAL  226
+
+
+>VFG030623(gb|WP_011894705) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium gilvum 
+PYR-GCK]
+Length=275
+
+ Score = 58.5 bits (140),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 46/185 (25%), Positives = 87/185 (47%), Gaps = 16/185 (9%)
+
+Query  2    ILTDPEW-QAVLLSLKVSSLAVLFSLPFGIFFAWLLVRCRFPGKALLDSVLHLPLVLPPV  60
+            I ++P + +A++ S+ ++ +A + S+   +F A+ + R  FPGK +L S L L + + P 
+Sbjct  57   IFSNPLFTRALINSIGIALVATVISVIIAMFAAYAIARLEFPGKKVLLS-LALGIAMFP-  114
+
+Query  61   VVGYLLLVSMGRRGFIGQWLYDWFGLTFAFSWRGAVLAAAVMSFPLMVRAIRLALEGVDI  120
+                       +   +G     W GL    +W G ++     + PL +  +      +  
+Sbjct  115  -----------QAALVGPLFDMWRGLGIYDTWLGLIIPYLTFALPLSIWTMSAFFRQIPW  163
+
+Query  121  KLEQAARTLGAGRWRVFLTITLPLTLPGIIVGTVLAFARSLGEFGATITFVSNIPGETRT  180
+            ++E AA+  GA +W+ F  + +PL  PG+    +L F     +F   I+  S      RT
+Sbjct  164  EMEHAAQVDGATQWQAFRKVIVPLAAPGVFTTAILTFFFCWNDFLFAISLTST--DSART  221
+
+Query  181  IPSAM  185
+            +P+A+
+Sbjct  222  VPAAL  226
+
+
+>VFG019712(gb|WP_010357027) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria gonorrhoeae NCCP11945]
+Length=505
+
+ Score = 53.9 bits (128),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 52/198 (26%), Positives = 82/198 (41%), Gaps = 24/198 (12%)
+
+Query  8    WQAVLLSLKVSSLAVLFSLPFGIFFAWLLVRCRFPGKALLDSVLHLPLVLPPVVVGYLLL  67
+            W  +  +L + +   L S+  GI  A L  R RF GK    + + LPL +P  V      
+Sbjct  50   WDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVS-----  104
+
+Query  68   VSMGRRGFIGQWLYDWFGLTFAFS-WRGAVLAAAVMSFPLMVRAIRLALEGVDIKLEQAA  126
+                         + W  LTF    + G V+  ++ SFPL    +  AL+ + +  E+ +
+Sbjct  105  ------------CFTWISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVS  152
+
+Query  127  RTLGAGRWRVFLTITLPLTLPGIIVGTVLAFARSLGEFGATITFVSNIPGETRTIPSAMY  186
+             +LG  R + F +  LP   P I    +L     L EFGA    + N P    T  +A++
+Sbjct  153  LSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVS--ILNYP----TFTTAIF  206
+
+Query  187  TLIQTPGGESAAARLCVI  204
+               +     + AA L  +
+Sbjct  207  QEYEMSYNNNTAALLSAV  224
+
+
+ Score = 46.2 bits (108),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 27/91 (30%), Positives = 48/91 (53%), Gaps = 3/91 (3%)
+
+Query  96   VLAAAVMSFPLMVRAIRLALEGVDIKLEQAARTLGAGRWRVFLTITLPLTLPGIIVGTVL  155
+            +LA  ++  P+    +R +LE +   +EQ   TLG G + +F T+ LP  LPGI     L
+Sbjct  383  ILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFAL  442
+
+Query  156  AFARSLGEFGATITFVSNIPGETRTIPSAMY  186
+             F + + E  AT+   ++   +  T+ +A++
+Sbjct  443  VFLKLMKELTATLLLTAD---DVHTLSTAVW  470
+
+
+>VFG036536(gb|WP_002233656) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis WUE 2594]
+Length=505
+
+ Score = 53.9 bits (128),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 52/198 (26%), Positives = 82/198 (41%), Gaps = 24/198 (12%)
+
+Query  8    WQAVLLSLKVSSLAVLFSLPFGIFFAWLLVRCRFPGKALLDSVLHLPLVLPPVVVGYLLL  67
+            W  +  +L + +   L S+  GI  A L  R RF GK    + + LPL +P  V      
+Sbjct  50   WDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVS-----  104
+
+Query  68   VSMGRRGFIGQWLYDWFGLTFAFS-WRGAVLAAAVMSFPLMVRAIRLALEGVDIKLEQAA  126
+                         + W  LTF    + G V+  ++ SFPL    +  AL+ + +  E+ +
+Sbjct  105  ------------CFTWISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVS  152
+
+Query  127  RTLGAGRWRVFLTITLPLTLPGIIVGTVLAFARSLGEFGATITFVSNIPGETRTIPSAMY  186
+             +LG  R + F +  LP   P I    +L     L EFGA    + N P    T  +A++
+Sbjct  153  LSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVS--ILNYP----TFTTAIF  206
+
+Query  187  TLIQTPGGESAAARLCVI  204
+               +     + AA L  +
+Sbjct  207  QEYEMSYNNNTAALLSAV  224
+
+
+>VFG000249(gb|WP_002214251) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis MC58]
+Length=505
+
+ Score = 53.9 bits (128),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 52/198 (26%), Positives = 82/198 (41%), Gaps = 24/198 (12%)
+
+Query  8    WQAVLLSLKVSSLAVLFSLPFGIFFAWLLVRCRFPGKALLDSVLHLPLVLPPVVVGYLLL  67
+            W  +  +L + +   L S+  GI  A L  R RF GK    + + LPL +P  V      
+Sbjct  50   WDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVS-----  104
+
+Query  68   VSMGRRGFIGQWLYDWFGLTFAFS-WRGAVLAAAVMSFPLMVRAIRLALEGVDIKLEQAA  126
+                         + W  LTF    + G V+  ++ SFPL    +  AL+ + +  E+ +
+Sbjct  105  ------------CFTWISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVS  152
+
+Query  127  RTLGAGRWRVFLTITLPLTLPGIIVGTVLAFARSLGEFGATITFVSNIPGETRTIPSAMY  186
+             +LG  R + F +  LP   P I    +L     L EFGA    + N P    T  +A++
+Sbjct  153  LSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVS--ILNYP----TFTTAIF  206
+
+Query  187  TLIQTPGGESAAARLCVI  204
+               +     + AA L  +
+Sbjct  207  QEYEMSYNNNTAALLSAV  224
+
+
+>VFG006255(gb|WP_025456388) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria gonorrhoeae FA 1090]
+Length=505
+
+ Score = 53.9 bits (128),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 52/198 (26%), Positives = 82/198 (41%), Gaps = 24/198 (12%)
+
+Query  8    WQAVLLSLKVSSLAVLFSLPFGIFFAWLLVRCRFPGKALLDSVLHLPLVLPPVVVGYLLL  67
+            W  +  +L + +   L S+  GI  A L  R RF GK    + + LPL +P  V      
+Sbjct  50   WDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVS-----  104
+
+Query  68   VSMGRRGFIGQWLYDWFGLTFAFS-WRGAVLAAAVMSFPLMVRAIRLALEGVDIKLEQAA  126
+                         + W  LTF    + G V+  ++ SFPL    +  AL+ + +  E+ +
+Sbjct  105  ------------CFTWISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVS  152
+
+Query  127  RTLGAGRWRVFLTITLPLTLPGIIVGTVLAFARSLGEFGATITFVSNIPGETRTIPSAMY  186
+             +LG  R + F +  LP   P I    +L     L EFGA    + N P    T  +A++
+Sbjct  153  LSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVS--ILNYP----TFTTAIF  206
+
+Query  187  TLIQTPGGESAAARLCVI  204
+               +     + AA L  +
+Sbjct  207  QEYEMSYNNNTAALLSAV  224
+
+
+ Score = 47.8 bits (112),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 33/113 (29%), Positives = 57/113 (50%), Gaps = 5/113 (4%)
+
+Query  96   VLAAAVMSFPLMVRAIRLALEGVDIKLEQAARTLGAGRWRVFLTITLPLTLPGIIVGTVL  155
+            +LA  ++  P+    +R +LE +   +EQ   TLG G + +F T+ LP  LPGI     L
+Sbjct  383  ILAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFAL  442
+
+Query  156  AFARSLGEFGATITFVSNIPGETRTIPSAMYTLIQTPGGESAAARLCVISIVL  208
+             F + + E  AT+   ++   +  T+ +A++    T   + AAA    + +VL
+Sbjct  443  VFLKLMKELTATLLLTAD---DVHTLSTAVWE--YTSDAQYAAATPYALMLVL  490
+
+
+>VFG036547(gb|WP_013449338) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria lactamica 020-06]
+Length=505
+
+ Score = 53.5 bits (127),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 45/160 (28%), Positives = 68/160 (43%), Gaps = 18/160 (11%)
+
+Query  8    WQAVLLSLKVSSLAVLFSLPFGIFFAWLLVRCRFPGKALLDSVLHLPLVLPPVVVGYLLL  67
+            W  +  +L + +   L S+  GI  A L  R RF GK    + + LPL +P  V      
+Sbjct  50   WDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVS-----  104
+
+Query  68   VSMGRRGFIGQWLYDWFGLTFAFS-WRGAVLAAAVMSFPLMVRAIRLALEGVDIKLEQAA  126
+                         + W  LTF    + G V+  ++ SFPL    +  AL+ + +  E+ +
+Sbjct  105  ------------CFTWISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYEEVS  152
+
+Query  127  RTLGAGRWRVFLTITLPLTLPGIIVGTVLAFARSLGEFGA  166
+             +LG  R + F +  LP   P I    +L     L EFGA
+Sbjct  153  LSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGA  192
+
+
+ Score = 47.4 bits (111),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 34/113 (30%), Positives = 56/113 (50%), Gaps = 5/113 (4%)
+
+Query  96   VLAAAVMSFPLMVRAIRLALEGVDIKLEQAARTLGAGRWRVFLTITLPLTLPGIIVGTVL  155
+            VLA  ++  P+    +R +LE +   +EQ   TLG G + +F T+ LP  LPGI     L
+Sbjct  383  VLAYFMLYLPMAQTTLRTSLEQLPKGMEQVGATLGRGHFFIFRTLVLPSILPGITAAFAL  442
+
+Query  156  AFARSLGEFGATITFVSNIPGETRTIPSAMYTLIQTPGGESAAARLCVISIVL  208
+             F   + E  AT+   ++   +  T+ +A++    T   + AAA    + +VL
+Sbjct  443  VFLNLMKELTATLLLTAD---DIHTLSTAVWE--YTSDAQYAAATPYALMLVL  490
+
+
+>VFG006252(gb|WP_002246860) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis Z2491]
+Length=505
+
+ Score = 52.4 bits (124),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 51/198 (26%), Positives = 82/198 (41%), Gaps = 24/198 (12%)
+
+Query  8    WQAVLLSLKVSSLAVLFSLPFGIFFAWLLVRCRFPGKALLDSVLHLPLVLPPVVVGYLLL  67
+            W  +  +L + +   L S+  GI  A L  R RF GK    + + LPL +P  V      
+Sbjct  50   WDLLSNTLTMMAGVTLISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVS-----  104
+
+Query  68   VSMGRRGFIGQWLYDWFGLTFAFS-WRGAVLAAAVMSFPLMVRAIRLALEGVDIKLEQAA  126
+                         + W  LTF    + G V+  ++ SFPL    +  AL+ + +  ++ +
+Sbjct  105  ------------CFTWISLTFRVEGFWGTVMIMSLSSFPLAYLPVEAALKRISLSYKEVS  152
+
+Query  127  RTLGAGRWRVFLTITLPLTLPGIIVGTVLAFARSLGEFGATITFVSNIPGETRTIPSAMY  186
+             +LG  R + F +  LP   P I    +L     L EFGA    + N P    T  +A++
+Sbjct  153  LSLGKSRLQTFFSAILPQLKPAIGSSVLLIALHMLVEFGAVS--ILNYP----TFTTAIF  206
+
+Query  187  TLIQTPGGESAAARLCVI  204
+               +     + AA L  +
+Sbjct  207  QEYEMSYNNNTAALLSAV  224
+
+
+>VFG000343(gb|WP_164927854) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus influenzae Rd KW20]
+Length=506
+
+ Score = 48.5 bits (114),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 56/188 (30%), Positives = 80/188 (43%), Gaps = 27/188 (14%)
+
+Query  29   GIFFAWLLVRCRFPGKALLDSVLHLPLVLPPVVVGYLLLVSMGRRGFIGQWLYDWFGLTF  88
+            G F A+LL R RF GKA  +  + LPL +P  V G                 + W  LTF
+Sbjct  70   GTFCAFLLERYRFFGKAFFEVAMTLPLCIPAFVSG-----------------FTWISLTF  112
+
+Query  89   AFS-WRGAVLAAAVMSFPLMVRAIRLALEGVDIKLEQAARTLGAGRWRVFLTITLPLTLP  147
+                + G +    + SFPL    +   L+ +D  LE+ + +LG      F     P   P
+Sbjct  113  RVEVFWGTIGIMTLSSFPLAYLPVSAILKRLDRSLEEVSLSLGKSPVYTFWYAISPQLKP  172
+
+Query  148  GIIVGTVLAFARSLGEFGATITFVSNIPGETRTIPSAMYTLIQTPGGESAAARLCVISIV  207
+             I    +L     L EFGA    VS +  +T T  +A++   +     S AA   ++S V
+Sbjct  173  AIGSSILLIALHMLVEFGA----VSILNYQTFT--TAIFQEYEMSFNNSTAA---LLSAV  223
+
+Query  208  LALISLLI  215
+            L  I +LI
+Sbjct  224  LMAICILI  231
+
+
+ Score = 48.1 bits (113),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 31/113 (27%), Positives = 58/113 (51%), Gaps = 5/113 (4%)
+
+Query  96   VLAAAVMSFPLMVRAIRLALEGVDIKLEQAARTLGAGRWRVFLTITLPLTLPGIIVGTVL  155
+            ++A  ++  P+    +R +LE +  ++E+  ++LG   + +F T+TLP  LPG+     L
+Sbjct  384  IIAYFMLYLPMAQTTLRASLEQLSDQIEKVGQSLGRNPFYIFRTLTLPAILPGVAAAFAL  443
+
+Query  156  AFARSLGEFGATITFVSNIPGETRTIPSAMYTLIQTPGGESAAARLCVISIVL  208
+             F   + E  AT+   SN   + +T+  A++    T   + AAA    + +VL
+Sbjct  444  VFLNLMKELTATLLLTSN---DIKTLSIAVWE--HTSDAQYAAATPYALMLVL  491
+
+
+>VFG013568(gb|WP_005687630) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus influenzae 86-028NP]
+Length=506
+
+ Score = 47.8 bits (112),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 31/113 (27%), Positives = 58/113 (51%), Gaps = 5/113 (4%)
+
+Query  96   VLAAAVMSFPLMVRAIRLALEGVDIKLEQAARTLGAGRWRVFLTITLPLTLPGIIVGTVL  155
+            ++A  ++  P+    +R +LE +  ++E+  ++LG   + +F T+TLP  LPG+     L
+Sbjct  384  IIAYFMLYLPMAQTTLRASLEQLSDQIEKVGQSLGRSPFYIFRTLTLPAILPGVAAAFAL  443
+
+Query  156  AFARSLGEFGATITFVSNIPGETRTIPSAMYTLIQTPGGESAAARLCVISIVL  208
+             F   + E  AT+   SN   + +T+  A++    T   + AAA    + +VL
+Sbjct  444  VFLNLMKELTATLLLTSN---DIKTLSIAVWE--HTSDAQYAAATPYALMLVL  491
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.143    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1397105028
+
+
+Query= g2278.t1
+
+Length=285
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG013191(gb|WP_011608935) (hitB) iron ABC transporter permease [...  61.2    1e-10
+VFG030569(gb|WP_011894704) (sugA) sugar ABC transporter permease ...  55.5    9e-09
+VFG030576(gb|WP_011779763) (sugA) sugar ABC transporter permease ...  55.1    1e-08
+
+
+>VFG013191(gb|WP_011608935) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus somnus 2336]
+Length=555
+
+ Score = 61.2 bits (147),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 55/223 (25%), Positives = 103/223 (46%), Gaps = 23/223 (10%)
+
+Query  8    RINWGKWFLIGVGMLVSAFILLVPMIYIFVQAFSKGLMPVLQNLADPDMLHAIWLTVLIA  67
+            R+N   WFL    + ++ F  + P+I IF Q++S     + Q+L    +   +  ++L+ 
+Sbjct  7    RLNKIIWFL--TALFITLF-FVTPIIAIFYQSWSLNWQNI-QHLWQTVLFDYLLNSLLLV  62
+
+Query  68   LIAVPVNLVFGILLAWLVTRFNFPGRQLLLTLLDIPFAVSPVVAGLVYLLFYGSNGPLGG  127
+            +  V  +LVF +  AW ++++ F G+++L  LL +P A+   +   +Y       G +  
+Sbjct  63   IGTVSFSLVFALPCAWFISQYQFTGQKILQWLLCLPLAMPGYLVAYLYTDLLDYAGAVQV  122
+
+Query  128  WLDEHNLQMMFSWP--------------GMVLVTIFVTCPFVVRELVPVMLSQGSQEDEA  173
+            +L +      FSW               G  +V   V  P++   +   +L Q     ++
+Sbjct  123  FLRQ-----TFSWSSAQDYWFISIRTLWGACIVLALVLFPYIFLLVRLALLEQSENLIQS  177
+
+Query  174  AILLGASGWQMFRRVTLPNIRWALLYGVVLTNARAIGEFGAVS  216
+            A LLG+S  ++ +++  P  R A+  G  L     +G+FG VS
+Sbjct  178  AKLLGSSPRKLLQKIIFPLTRPAIAIGCALVAMETLGDFGTVS  220
+
+
+>VFG030569(gb|WP_011894704) (sugA) sugar ABC transporter permease 
+[Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium gilvum PYR-GCK]
+Length=310
+
+ Score = 55.5 bits (132),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 54/197 (27%), Positives = 91/197 (46%), Gaps = 15/197 (8%)
+
+Query  43   GLMPVLQNLADPDMLHAIWLTVLIALIAVPVNLVFGILLAWLVTRFNFPGRQLLLTLLDI  102
+            GL   L  L DP   +    T+ I ++ V + LV G   A+++ R    GR  L T + I
+Sbjct  71   GLGNYLVILTDPIWWNDFVTTLAITVVTVAIELVLGFWFAFVMLRI-VRGRGPLRTAILI  129
+
+Query  103  PFAVSPVVAGLVYLLFYG-SNGPLGGWLDEHNLQMMFSWPGMVLVTIFVTC--------P  153
+            P+ +  VV+  ++   +   +G +  WL+  +    F W G     IFV C        P
+Sbjct  130  PYGIVTVVSAFIWRYAFAIDSGFVNQWLNLTD----FDWFGDRWSAIFVICLSEIWKTTP  185
+
+Query  154  FVVRELVPVMLSQGSQEDEAAILLGASGWQMFRRVTLPNIRWALLYGVVLTNARAIGEFG  213
+            F+   L+  ++       EAA + GA+ WQ   ++TLPN++ A++  ++     A   F 
+Sbjct  186  FISLLLLAGLVQVPEDMQEAAKVDGATAWQRLWKITLPNMKAAIMVALLFRTLDAWRIFD  245
+
+Query  214  AVSVVS-GSIRGETLSL  229
+               V++ G+   ET+S 
+Sbjct  246  NPYVMTAGANNTETISF  262
+
+
+>VFG030576(gb|WP_011779763) (sugA) sugar ABC transporter permease 
+[Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium vanbaalenii PYR-1]
+Length=310
+
+ Score = 55.1 bits (131),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 54/197 (27%), Positives = 90/197 (46%), Gaps = 15/197 (8%)
+
+Query  43   GLMPVLQNLADPDMLHAIWLTVLIALIAVPVNLVFGILLAWLVTRFNFPGRQLLLTLLDI  102
+            GL   L  L DP   +    T+ I ++ V + LV G   A+++ R    GR  L T + I
+Sbjct  71   GLSNYLVILTDPLWWNDFVTTLAITVVTVAIELVLGFWFAFVMLRI-VRGRGPLRTAILI  129
+
+Query  103  PFAVSPVVAGLVYLLFYG-SNGPLGGWLDEHNLQMMFSWPGMVLVTIFVTC--------P  153
+            P+ +  VV+  ++   +   +G +  WL+       F W G     IFV C        P
+Sbjct  130  PYGIVTVVSAFIWRYAFAIDSGFVNQWLNLTE----FDWFGDRWSAIFVICLSEIWKTTP  185
+
+Query  154  FVVRELVPVMLSQGSQEDEAAILLGASGWQMFRRVTLPNIRWALLYGVVLTNARAIGEFG  213
+            F+   L+  ++       EAA + GA+ WQ   ++TLPN++ A++  ++     A   F 
+Sbjct  186  FISLLLLAGLVQVPEDMQEAAKVDGATAWQRLWKITLPNMKAAIMVALLFRTLDAWRIFD  245
+
+Query  214  AVSVVS-GSIRGETLSL  229
+               V++ G+   ET+S 
+Sbjct  246  NPYVMTAGANNTETISF  262
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.142    0.440    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1958238690
+
+
+Query= g2279.t1
+
+Length=277
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG036547(gb|WP_013449338) (fbpB) iron(III) ABC transporter, perm...  83.2    5e-18
+VFG019712(gb|WP_010357027) (fbpB) iron(III) ABC transporter, perm...  77.8    4e-16
+VFG000249(gb|WP_002214251) (fbpB) iron(III) ABC transporter, perm...  77.8    4e-16
+VFG036536(gb|WP_002233656) (fbpB) iron(III) ABC transporter, perm...  77.8    4e-16
+VFG006255(gb|WP_025456388) (fbpB) iron(III) ABC transporter, perm...  77.8    4e-16
+VFG006252(gb|WP_002246860) (fbpB) iron(III) ABC transporter, perm...  76.3    2e-15
+VFG013568(gb|WP_005687630) (hitB) iron ABC transporter permease [...  72.8    2e-14
+VFG013191(gb|WP_011608935) (hitB) iron ABC transporter permease [...  69.7    2e-13
+VFG000343(gb|WP_164927854) (hitB) iron ABC transporter permease [...  67.4    1e-12
+VFG030623(gb|WP_011894705) (sugB) carbohydrate ABC transporter pe...  63.2    2e-11
+VFG030630(gb|WP_011779762) (sugB) carbohydrate ABC transporter pe...  59.7    2e-10
+VFG030620(gb|WP_003875534) (sugB) carbohydrate ABC transporter pe...  52.4    7e-08
+VFG030618(gb|WP_162618319) (sugB) carbohydrate ABC transporter pe...  52.4    7e-08
+VFG030636(gb|WP_010908120) (sugB) carbohydrate ABC transporter pe...  52.0    9e-08
+VFG030621(gb|WP_031351550) (sugB) carbohydrate ABC transporter pe...  52.0    9e-08
+VFG030651(gb|WP_015356779) (sugB) carbohydrate ABC transporter pe...  50.8    2e-07
+VFG030637(gb|WP_049785257) (sugB) carbohydrate ABC transporter pe...  50.8    2e-07
+VFG030649(gb|WP_015289686) (sugB) trehalose ABC transporter perme...  50.4    3e-07
+VFG030650(gb|WP_015292798) (sugB) trehalose ABC transporter perme...  50.1    4e-07
+VFG030616(gb|NP_215753) (sugB) sugar ABC transporter permease Sug...  49.7    5e-07
+VFG030661(gb|YP_007957368) (sugB) sugar-transport integral membra...  47.0    3e-06
+VFG030638(gb|WP_013828149) (sugB) carbohydrate ABC transporter pe...  47.4    3e-06
+VFG030642(gb|WP_014711072) (sugB) carbohydrate ABC transporter pe...  46.6    6e-06
+VFG030645(gb|WP_014379470) (sugB) carbohydrate ABC transporter pe...  46.6    6e-06
+VFG030670(gb|WP_198345115) (sugB) carbohydrate ABC transporter pe...  46.6    7e-06
+VFG030625(gb|WP_011856410) (sugB) carbohydrate ABC transporter pe...  46.2    9e-06
+VFG030626(gb|WP_179967821) (sugB) carbohydrate ABC transporter pe...  45.8    1e-05
+
+
+>VFG036547(gb|WP_013449338) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria lactamica 020-06]
+Length=505
+
+ Score = 83.2 bits (204),  Expect = 5e-18, Method: Compositional matrix adjust.
+ Identities = 69/251 (27%), Positives = 123/251 (49%), Gaps = 24/251 (10%)
+
+Query  21   LLFVCLILLLPLSALVMQLSQMSWAQYWDVVTNPQVVAAYKVTLLAAFVASIFNGVFGLL  80
+            +LF+ L L+LP   + M+  Q+   + ++++  P++      TL      ++ + V G+ 
+Sbjct  14   ILFIGLPLILPFLYVAMRSWQVGINRAYELLFRPRMWDLLSNTLTMMAGVTLISIVLGIA  73
+
+Query  81   MAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASL-FSVNGFYGQFLAQFDIKVTYT  139
+             A +  RYRF G+T     + LP  +P  V+  T  SL F V GF+G             
+Sbjct  74   CALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGT------------  121
+
+Query  140  WLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSPALIA  199
+                 + M+ +S P     V+  L+ +   YEE + +LG +RLQ+F   +LP+L PA+ +
+Sbjct  122  ----VMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILPQLKPAIGS  177
+
+Query  200  GVALSFTRSLGEFGAVIFIAGNIAWKTEVTSLMIFVRLQ-EFDYPAASAIASVILAASLL  258
+             V L     L EFGAV      + ++T  T+  IF   +  FD   A+ +++V++A   +
+Sbjct  178  SVLLIALHMLVEFGAV----SILNYQTFTTA--IFQEYEMSFDNNTAALLSAVLMAVCGI  231
+
+Query  259  LLFSINTLQSR  269
+            ++F  +  + +
+Sbjct  232  VVFGESIFRGK  242
+
+
+>VFG019712(gb|WP_010357027) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria gonorrhoeae NCCP11945]
+Length=505
+
+ Score = 77.8 bits (190),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 59/204 (29%), Positives = 96/204 (47%), Gaps = 39/204 (19%)
+
+Query  26   LILLLPLSALVMQLSQMSWA-------------QYWDVVTNPQVVAAYKVTLLAAFVASI  72
+            L++ LPL+   + ++  SW              + WD+++N        +T++A    ++
+Sbjct  15   LLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSN-------TLTMMAG--VTL  65
+
+Query  73   FNGVFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASL-FSVNGFYGQFLAQ  131
+             + V G+  A +  RYRF G+T     + LP  +P  V+  T  SL F V GF+G     
+Sbjct  66   ISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGT----  121
+
+Query  132  FDIKVTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLP  191
+                         + M+ +S P     V+  L+ +   YEE + +LG +RLQ+F   +LP
+Sbjct  122  ------------VMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILP  169
+
+Query  192  ELSPALIAGVALSFTRSLGEFGAV  215
+            +L PA+ + V L     L EFGAV
+Sbjct  170  QLKPAIGSSVLLIALHMLVEFGAV  193
+
+
+>VFG000249(gb|WP_002214251) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis MC58]
+Length=505
+
+ Score = 77.8 bits (190),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 59/204 (29%), Positives = 96/204 (47%), Gaps = 39/204 (19%)
+
+Query  26   LILLLPLSALVMQLSQMSW-------------AQYWDVVTNPQVVAAYKVTLLAAFVASI  72
+            L++ LPL+   + ++  SW              + WD+++N        +T++A    ++
+Sbjct  15   LLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSN-------TLTMMAG--VTL  65
+
+Query  73   FNGVFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASL-FSVNGFYGQFLAQ  131
+             + V G+  A +  RYRF G+T     + LP  +P  V+  T  SL F V GF+G     
+Sbjct  66   ISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGT----  121
+
+Query  132  FDIKVTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLP  191
+                         + M+ +S P     V+  L+ +   YEE + +LG +RLQ+F   +LP
+Sbjct  122  ------------VMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILP  169
+
+Query  192  ELSPALIAGVALSFTRSLGEFGAV  215
+            +L PA+ + V L     L EFGAV
+Sbjct  170  QLKPAIGSSVLLIALHMLVEFGAV  193
+
+
+>VFG036536(gb|WP_002233656) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis WUE 2594]
+Length=505
+
+ Score = 77.8 bits (190),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 59/204 (29%), Positives = 96/204 (47%), Gaps = 39/204 (19%)
+
+Query  26   LILLLPLSALVMQLSQMSW-------------AQYWDVVTNPQVVAAYKVTLLAAFVASI  72
+            L++ LPL+   + ++  SW              + WD+++N        +T++A    ++
+Sbjct  15   LLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSN-------TLTMMAG--VTL  65
+
+Query  73   FNGVFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASL-FSVNGFYGQFLAQ  131
+             + V G+  A +  RYRF G+T     + LP  +P  V+  T  SL F V GF+G     
+Sbjct  66   ISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGT----  121
+
+Query  132  FDIKVTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLP  191
+                         + M+ +S P     V+  L+ +   YEE + +LG +RLQ+F   +LP
+Sbjct  122  ------------VMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILP  169
+
+Query  192  ELSPALIAGVALSFTRSLGEFGAV  215
+            +L PA+ + V L     L EFGAV
+Sbjct  170  QLKPAIGSSVLLIALHMLVEFGAV  193
+
+
+>VFG006255(gb|WP_025456388) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria gonorrhoeae FA 1090]
+Length=505
+
+ Score = 77.8 bits (190),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 59/204 (29%), Positives = 96/204 (47%), Gaps = 39/204 (19%)
+
+Query  26   LILLLPLSALVMQLSQMSW-------------AQYWDVVTNPQVVAAYKVTLLAAFVASI  72
+            L++ LPL+   + ++  SW              + WD+++N        +T++A    ++
+Sbjct  15   LLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSN-------TLTMMAG--VTL  65
+
+Query  73   FNGVFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASL-FSVNGFYGQFLAQ  131
+             + V G+  A +  RYRF G+T     + LP  +P  V+  T  SL F V GF+G     
+Sbjct  66   ISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGT----  121
+
+Query  132  FDIKVTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLP  191
+                         + M+ +S P     V+  L+ +   YEE + +LG +RLQ+F   +LP
+Sbjct  122  ------------VMIMSLSSFPLAYLPVEAALKRISLSYEEVSLSLGKSRLQTFFSAILP  169
+
+Query  192  ELSPALIAGVALSFTRSLGEFGAV  215
+            +L PA+ + V L     L EFGAV
+Sbjct  170  QLKPAIGSSVLLIALHMLVEFGAV  193
+
+
+>VFG006252(gb|WP_002246860) (fbpB) iron(III) ABC transporter, 
+permease protein [FbpABC (VF0272) - Nutritional/Metabolic factor 
+(VFC0272)] [Neisseria meningitidis Z2491]
+Length=505
+
+ Score = 76.3 bits (186),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 58/204 (28%), Positives = 96/204 (47%), Gaps = 39/204 (19%)
+
+Query  26   LILLLPLSALVMQLSQMSW-------------AQYWDVVTNPQVVAAYKVTLLAAFVASI  72
+            L++ LPL+   + ++  SW              + WD+++N        +T++A    ++
+Sbjct  15   LLIALPLTLPFLYVAMRSWQVGINRAVELLFRPRMWDLLSN-------TLTMMAG--VTL  65
+
+Query  73   FNGVFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASL-FSVNGFYGQFLAQ  131
+             + V G+  A +  RYRF G+T     + LP  +P  V+  T  SL F V GF+G     
+Sbjct  66   ISIVLGIACALLFQRYRFFGKTFFQTAITLPLCIPAFVSCFTWISLTFRVEGFWGT----  121
+
+Query  132  FDIKVTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLP  191
+                         + M+ +S P     V+  L+ +   Y+E + +LG +RLQ+F   +LP
+Sbjct  122  ------------VMIMSLSSFPLAYLPVEAALKRISLSYKEVSLSLGKSRLQTFFSAILP  169
+
+Query  192  ELSPALIAGVALSFTRSLGEFGAV  215
+            +L PA+ + V L     L EFGAV
+Sbjct  170  QLKPAIGSSVLLIALHMLVEFGAV  193
+
+
+>VFG013568(gb|WP_005687630) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus influenzae 86-028NP]
+Length=506
+
+ Score = 72.8 bits (177),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 62/233 (27%), Positives = 113/233 (48%), Gaps = 24/233 (10%)
+
+Query  31   PLSALVMQLSQMSWAQYWDVVTNPQVVAAYKVTLLAAFVASIFNGVFGLLMAWILTRYRF  90
+            P   ++++ +++   +  +++  P++      T+L     +I     G L A++L RYRF
+Sbjct  23   PFLYVILRATEVGLTRSVELLFRPRMAELLSNTMLLMVCVTIGAISLGTLCAFLLERYRF  82
+
+Query  91   PGRTLLDALMDLPFALPTAVAGLTLASL-FSVNGFYGQFLAQFDIKVTYTWLGIAVAMAF  149
+             G+   +  M LP  +P  V+  T  SL F V GF+G              +GI   M  
+Sbjct  83   FGKAFFEVAMTLPLCIPAFVSCFTWISLTFRVEGFWGT-------------IGI---MTL  126
+
+Query  150  TSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSPALIAGVALSFTRSL  209
+            +S P     V  +L+ L    EE + +LG + + +F  V+ P+L PA+ + + L     L
+Sbjct  127  SSFPLAYLPVSAILKRLDRSLEEVSLSLGKSPVYTFWYVIFPQLKPAIGSSILLIALHML  186
+
+Query  210  GEFGAVIFIAGNIAWKTEVTSLMIFVRLQ-EFDYPAASAIASVILAASLLLLF  261
+             EFGAV      + ++T  T+  IF   +  F+   A+ +++V++A  +L++F
+Sbjct  187  IEFGAV----SILNYQTFTTA--IFQEYEMSFNNSTAALLSAVLMAICILIVF  233
+
+
+ Score = 51.6 bits (122),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 58/211 (27%), Positives = 90/211 (43%), Gaps = 21/211 (10%)
+
+Query  47   YWDVVTNPQVVAAYKVTLLAAFVAS-IFNGVFGLL-------MAWILTRYRFPGRTLLDA  98
+            YW +V      A      L+AF  S I +G+  LL       + W   RYR      +D 
+Sbjct  289  YWLIVGTSLESAGDFSEFLSAFSNSFIISGLGALLTVMCALPLVWAAVRYRSYLTIWIDR  348
+
+Query  99   LMDLPFALPTAVAGLTLASLFSVNGFYGQFLAQFDIKVTYTWLGIAVAMAFTSIPFVVRT  158
+            L  L  A+P  V  L+L   FS++  Y   L Q       T+  I +A     +P    T
+Sbjct  349  LPYLLHAVPGLVIALSLV-YFSIH--YANDLYQ-------TFFVIIIAYFMLYLPMAQTT  398
+
+Query  159  VQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSPALIAGVALSFTRSLGEFGAVIFI  218
+            ++  LE+L  + E+  Q+LG +    FR + LP + P + A  AL F   + E  A + +
+Sbjct  399  LRASLEQLSDQIEKVGQSLGRSPFYIFRTLTLPAILPGVAAAFALVFLNLMKELTATLLL  458
+
+Query  219  AGNIAWKTEVTSLMIFVRLQEFDYPAASAIA  249
+              N     +  S+ ++    +  Y AA+  A
+Sbjct  459  TSN---DIKTLSIAVWEHTSDAQYAAATPYA  486
+
+
+>VFG013191(gb|WP_011608935) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus somnus 2336]
+Length=555
+
+ Score = 69.7 bits (169),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 56/211 (27%), Positives = 98/211 (46%), Gaps = 18/211 (9%)
+
+Query  22   LFVCLILLLPLSALVMQLSQMSWAQYWDVVTN--PQVVAAYKVTLLAAFVASI-FNGVFG  78
+            LF+ L  + P+ A+  Q    SW+  W  + +    V+  Y +  L   + ++ F+ VF 
+Sbjct  18   LFITLFFVTPIIAIFYQ----SWSLNWQNIQHLWQTVLFDYLLNSLLLVIGTVSFSLVFA  73
+
+Query  79   LLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASLFSVNGFYGQFLAQ-------  131
+            L  AW +++Y+F G+ +L  L+ LP A+P  +       L    G    FL Q       
+Sbjct  74   LPCAWFISQYQFTGQKILQWLLCLPLAMPGYLVAYLYTDLLDYAGAVQVFLRQTFSWSSA  133
+
+Query  132  ---FDIKVTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKV  188
+               + I +   W G  + +A    P++   V+  L E      ++A+ LG++  +  +K+
+Sbjct  134  QDYWFISIRTLW-GACIVLALVLFPYIFLLVRLALLEQSENLIQSAKLLGSSPRKLLQKI  192
+
+Query  189  VLPELSPALIAGVALSFTRSLGEFGAVIFIA  219
+            + P   PA+  G AL    +LG+FG V + A
+Sbjct  193  IFPLTRPAIAIGCALVAMETLGDFGTVSYFA  223
+
+
+>VFG000343(gb|WP_164927854) (hitB) iron ABC transporter permease 
+[HitABC (VF0268) - Nutritional/Metabolic factor (VFC0272)] 
+[Haemophilus influenzae Rd KW20]
+Length=506
+
+ Score = 67.4 bits (163),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 60/233 (26%), Positives = 111/233 (48%), Gaps = 24/233 (10%)
+
+Query  31   PLSALVMQLSQMSWAQYWDVVTNPQVVAAYKVTLLAAFVASIFNGVFGLLMAWILTRYRF  90
+            P   ++++ +++   +  +++  P++      T+L     +I     G   A++L RYRF
+Sbjct  23   PFLYVILRATEVGLTRSVELLFRPRMAELLSNTMLLMVCVTIGAISLGTFCAFLLERYRF  82
+
+Query  91   PGRTLLDALMDLPFALPTAVAGLTLASL-FSVNGFYGQFLAQFDIKVTYTWLGIAVAMAF  149
+             G+   +  M LP  +P  V+G T  SL F V  F+G              +GI   M  
+Sbjct  83   FGKAFFEVAMTLPLCIPAFVSGFTWISLTFRVEVFWGT-------------IGI---MTL  126
+
+Query  150  TSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSPALIAGVALSFTRSL  209
+            +S P     V  +L+ L    EE + +LG + + +F   + P+L PA+ + + L     L
+Sbjct  127  SSFPLAYLPVSAILKRLDRSLEEVSLSLGKSPVYTFWYAISPQLKPAIGSSILLIALHML  186
+
+Query  210  GEFGAVIFIAGNIAWKTEVTSLMIFVRLQ-EFDYPAASAIASVILAASLLLLF  261
+             EFGAV      + ++T  T+  IF   +  F+   A+ +++V++A  +L++F
+Sbjct  187  VEFGAV----SILNYQTFTTA--IFQEYEMSFNNSTAALLSAVLMAICILIVF  233
+
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 58/211 (27%), Positives = 89/211 (42%), Gaps = 21/211 (10%)
+
+Query  47   YWDVVTNPQVVAAYKVTLLAAFVAS-IFNGVFGLL-------MAWILTRYRFPGRTLLDA  98
+            YW +V      A      L+AF  S I +G+  LL       + W   RYR      +D 
+Sbjct  289  YWLIVGTSLESAGDFSEFLSAFSNSFIISGLGALLTVMCALPLVWAAVRYRSYLTIWIDR  348
+
+Query  99   LMDLPFALPTAVAGLTLASLFSVNGFYGQFLAQFDIKVTYTWLGIAVAMAFTSIPFVVRT  158
+            L  L  A+P  V  L+L   FS++  Y   L Q       T+  I +A     +P    T
+Sbjct  349  LPYLLHAVPGLVIALSLV-YFSIH--YANDLYQ-------TFFVIIIAYFMLYLPMAQTT  398
+
+Query  159  VQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSPALIAGVALSFTRSLGEFGAVIFI  218
+            ++  LE+L  + E+  Q+LG      FR + LP + P + A  AL F   + E  A + +
+Sbjct  399  LRASLEQLSDQIEKVGQSLGRNPFYIFRTLTLPAILPGVAAAFALVFLNLMKELTATLLL  458
+
+Query  219  AGNIAWKTEVTSLMIFVRLQEFDYPAASAIA  249
+              N     +  S+ ++    +  Y AA+  A
+Sbjct  459  TSN---DIKTLSIAVWEHTSDAQYAAATPYA  486
+
+
+>VFG030623(gb|WP_011894705) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium gilvum 
+PYR-GCK]
+Length=275
+
+ Score = 63.2 bits (152),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 58/237 (24%), Positives = 105/237 (44%), Gaps = 17/237 (7%)
+
+Query  40   SQMSWAQYWDVVTNPQVVAAYKVTLLAAFVASIFNGVFGLLMAWILTRYRFPGRTLLDAL  99
+            S +++  +  + +NP    A   ++  A VA++ + +  +  A+ + R  FPG+ +L +L
+Sbjct  47   STVTFDNFAQIFSNPLFTRALINSIGIALVATVISVIIAMFAAYAIARLEFPGKKVLLSL  106
+
+Query  100  MDLPFALPTAVAGLTLASLFSVNGFYGQFLAQFDIKVTYTWLGIAVAMAFTSIPFVVRTV  159
+                   P A     L  ++   G Y             TWLG+ +     ++P  + T+
+Sbjct  107  ALGIAMFPQAALVGPLFDMWRGLGIYD------------TWLGLIIPYLTFALPLSIWTM  154
+
+Query  160  QPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSPALIAGVALSFTRSLGEFGAVIFIA  219
+                 ++  E E AAQ  GAT+ Q+FRKV++P  +P +     L+F     +F   I + 
+Sbjct  155  SAFFRQIPWEMEHAAQVDGATQWQAFRKVIVPLAAPGVFTTAILTFFFCWNDFLFAISLT  214
+
+Query  220  GNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILAASLLLLFSINTLQSRFGRRVVG  276
+               + +T   +L  F     F+ P        I+AAS+++   +  L   F RR+V 
+Sbjct  215  STDSARTVPAALAFFQGASYFESP-----VPYIMAASVIVTIPVVILVLVFQRRIVA  266
+
+
+>VFG030630(gb|WP_011779762) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium vanbaalenii 
+PYR-1]
+Length=275
+
+ Score = 59.7 bits (143),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 56/237 (24%), Positives = 104/237 (44%), Gaps = 17/237 (7%)
+
+Query  40   SQMSWAQYWDVVTNPQVVAAYKVTLLAAFVASIFNGVFGLLMAWILTRYRFPGRTLLDAL  99
+            S +++  +  + + P    A   ++  A +A++ + +  +  A+ + R  FPG+ +L +L
+Sbjct  47   SSITFDNFAQIFSQPLFTRALINSIGIAVIATVISVIIAMFAAYAIARLEFPGKKVLLSL  106
+
+Query  100  MDLPFALPTAVAGLTLASLFSVNGFYGQFLAQFDIKVTYTWLGIAVAMAFTSIPFVVRTV  159
+                   P A     L  ++   G Y             TWLG+ +     ++P  + T+
+Sbjct  107  ALGIAMFPQAALVGPLFDMWRGLGIYD------------TWLGLIIPYLTFALPLSIWTM  154
+
+Query  160  QPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSPALIAGVALSFTRSLGEFGAVIFIA  219
+                 ++  E E AAQ  GAT+ Q+FRKV++P  +P +     L+F     +F   I + 
+Sbjct  155  SAFFRQIPWEMEHAAQVDGATQWQAFRKVIVPLAAPGVFTTAILTFFFCWNDFLFAISLT  214
+
+Query  220  GNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILAASLLLLFSINTLQSRFGRRVVG  276
+               + +T   +L  F     F+ P        I+AAS+++   +  L   F RR+V 
+Sbjct  215  STDSARTVPAALAFFQGASYFESP-----VPYIMAASVIVTIPVVILVLIFQRRIVA  266
+
+
+>VFG030620(gb|WP_003875534) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium avium 
+subsp. paratuberculosis K-10]
+Length=279
+
+ Score = 52.4 bits (124),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 52/198 (26%), Positives = 93/198 (47%), Gaps = 17/198 (9%)
+
+Query  78   GLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASLFSVNGFYGQFLAQFDIKVT  137
+            G + A+ + R  FPG+ LL     L    P A++ +T   LF++     +FL  FD    
+Sbjct  89   GAMAAYAVARLDFPGKRLLIGATLLITMFP-AISLVT--PLFNIE----RFLGLFD----  137
+
+Query  138  YTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSPAL  197
+             TW G+ +     ++P  + T+     E+  + E+AA+  GAT  Q+FRKV++P  +P +
+Sbjct  138  -TWPGLILPYITFALPLAIYTLSAFFREIPWDLEKAAKIDGATPAQAFRKVIVPLAAPGV  196
+
+Query  198  IAGVALSFTRSLGEFGAVIFIAGNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILAASL  257
+            +    L F  +  +    + +    A  T   +++ F    +F+ P  S  A  ++    
+Sbjct  197  VTAAILVFIFAWNDLLLALTLTATKAAITAPVAIVSFSGSSQFEEPTGSIAAGAVVITVP  256
+
+Query  258  LLLFSINTLQSRFGRRVV  275
+            ++LF +      F RR+V
+Sbjct  257  IILFVLI-----FQRRIV  269
+
+
+>VFG030618(gb|WP_162618319) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium leprae 
+TN]
+Length=274
+
+ Score = 52.4 bits (124),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 48/186 (26%), Positives = 86/186 (46%), Gaps = 12/186 (6%)
+
+Query  76   VFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASLFSVNGFYGQFLAQFDIK  135
+            +FG + A+ + R  FPG+ LL     L    P A++ +T   LF++    G F       
+Sbjct  82   MFGAMAAYAIARLAFPGKRLLVGTTLLVTMFP-AISLVT--PLFNIERRVGLF-------  131
+
+Query  136  VTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSP  195
+               TW G+ +     ++P  + T+     E+  + E+AA+  GAT  Q+FRKV++P  +P
+Sbjct  132  --DTWAGLILPYITFALPLAIYTLSAFFAEIPWDLEKAAKMDGATSGQAFRKVIVPLAAP  189
+
+Query  196  ALIAGVALSFTRSLGEFGAVIFIAGNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILAA  255
+             L+    L F  +  +    + +    A  T   ++  F    +F+ P  S  A  I+  
+Sbjct  190  GLVTAAILVFIFAWNDLLLALSLTSTKAAITAPVAITNFTGSSQFEEPTGSIAAGAIVIT  249
+
+Query  256  SLLLLF  261
+            + +++F
+Sbjct  250  APIIVF  255
+
+
+>VFG030636(gb|WP_010908120) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium leprae 
+Br4923]
+Length=287
+
+ Score = 52.0 bits (123),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 48/186 (26%), Positives = 86/186 (46%), Gaps = 12/186 (6%)
+
+Query  76   VFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASLFSVNGFYGQFLAQFDIK  135
+            +FG + A+ + R  FPG+ LL     L    P A++ +T   LF++    G F       
+Sbjct  95   MFGAMAAYAIARLAFPGKRLLVGTTLLVTMFP-AISLVT--PLFNIERRVGLF-------  144
+
+Query  136  VTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSP  195
+               TW G+ +     ++P  + T+     E+  + E+AA+  GAT  Q+FRKV++P  +P
+Sbjct  145  --DTWAGLILPYITFALPLAIYTLSAFFAEIPWDLEKAAKMDGATSGQAFRKVIVPLAAP  202
+
+Query  196  ALIAGVALSFTRSLGEFGAVIFIAGNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILAA  255
+             L+    L F  +  +    + +    A  T   ++  F    +F+ P  S  A  I+  
+Sbjct  203  GLVTAAILVFIFAWNDLLLALSLTSTKAAITAPVAITNFTGSSQFEEPTGSIAAGAIVIT  262
+
+Query  256  SLLLLF  261
+            + +++F
+Sbjct  263  APIIVF  268
+
+
+>VFG030621(gb|WP_031351550) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium avium 
+104]
+Length=279
+
+ Score = 52.0 bits (123),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 52/198 (26%), Positives = 93/198 (47%), Gaps = 17/198 (9%)
+
+Query  78   GLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASLFSVNGFYGQFLAQFDIKVT  137
+            G + A+ + R  FPG+ LL     L    P A++ +T   LF++     +FL  FD    
+Sbjct  89   GAMAAYAVARLDFPGKRLLIGATLLITMFP-AISLVT--PLFNIE----RFLGLFD----  137
+
+Query  138  YTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSPAL  197
+             TW G+ +     ++P  + T+     E+  + E+AA+  GAT  Q+FRKV++P  +P +
+Sbjct  138  -TWPGLILPYITFALPLAIYTLSAFFREIPWDLEKAAKIDGATPAQAFRKVIVPLAAPGV  196
+
+Query  198  IAGVALSFTRSLGEFGAVIFIAGNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILAASL  257
+            +    L F  +  +    + +    A  T   +++ F    +F+ P  S  A  ++    
+Sbjct  197  VTAAILVFIFAWNDLLLALTLTATKAAITAPVAIVSFSGSSQFEEPTGSIAAGAVVITVP  256
+
+Query  258  LLLFSINTLQSRFGRRVV  275
+            ++LF +      F RR+V
+Sbjct  257  VILFVLI-----FQRRIV  269
+
+
+>VFG030651(gb|WP_015356779) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium liflandii 
+128FXT]
+Length=283
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 52/198 (26%), Positives = 89/198 (45%), Gaps = 17/198 (9%)
+
+Query  78   GLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASLFSVNGFYGQFLAQFDIKVT  137
+            G + A+ + R  FPG+ LL  +  L    P A++ +T   LF++    G F         
+Sbjct  93   GAMAAYAVARLDFPGKRLLVGVTLLITMFP-AISLVT--PLFNIERRIGLF---------  140
+
+Query  138  YTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSPAL  197
+             TW G+ +     ++P  + T+     E+  + E+AAQ  GAT  Q+FRKV++P  +P L
+Sbjct  141  DTWPGLILPYITFALPLAIYTLSAFFREIPWDLEKAAQMDGATPYQAFRKVIVPLAAPGL  200
+
+Query  198  IAGVALSFTRSLGEFGAVIFIAGNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILAASL  257
+            +    L F  +  +    + +    A  T   ++  F    +F+ P  S     I A ++
+Sbjct  201  VTAAILVFIFAWNDLLLALSLTATKASITAPVAIANFAGSSQFEEPTGS-----IAAGAM  255
+
+Query  258  LLLFSINTLQSRFGRRVV  275
+            ++   I      F RR+V
+Sbjct  256  VITVPIIVFVLIFQRRIV  273
+
+
+>VFG030637(gb|WP_049785257) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium marinum 
+M]
+Length=283
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 52/198 (26%), Positives = 89/198 (45%), Gaps = 17/198 (9%)
+
+Query  78   GLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASLFSVNGFYGQFLAQFDIKVT  137
+            G + A+ + R  FPG+ LL  +  L    P A++ +T   LF++    G F         
+Sbjct  93   GAMAAYAVARLDFPGKRLLVGVALLITMFP-AISLVT--PLFNIERRIGLF---------  140
+
+Query  138  YTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSPAL  197
+             TW G+ +     ++P  + T+     E+  + E+AAQ  GAT  Q+FRKV++P  +P L
+Sbjct  141  DTWPGLILPYITFALPLAIYTLSAFFREIPWDLEKAAQMDGATPYQAFRKVIVPLAAPGL  200
+
+Query  198  IAGVALSFTRSLGEFGAVIFIAGNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILAASL  257
+            +    L F  +  +    + +    A  T   ++  F    +F+ P  S     I A ++
+Sbjct  201  VTAAILVFIFAWNDLLLALSLTATKASITAPVAIANFAGSSQFEEPTGS-----IAAGAM  255
+
+Query  258  LLLFSINTLQSRFGRRVV  275
+            ++   I      F RR+V
+Sbjct  256  VITVPIIVFVLIFQRRIV  273
+
+
+>VFG030649(gb|WP_015289686) (sugB) trehalose ABC transporter permease 
+SugB [Trehalose-recycling ABC transporter (VF0842) - 
+Nutritional/Metabolic factor (VFC0272)] [Mycobacterium canettii 
+CIPT 140070010]
+Length=274
+
+ Score = 50.4 bits (119),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 52/200 (26%), Positives = 92/200 (46%), Gaps = 17/200 (9%)
+
+Query  76   VFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASLFSVNGFYGQFLAQFDIK  135
+            V G + A+ + R  FPG+ LL     L    P A++ +T   LF++     + +  FD  
+Sbjct  82   VLGAMAAYAVARLEFPGKRLLIGAALLITMFP-AISLVT--PLFNIE----RAIGLFD--  132
+
+Query  136  VTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSP  195
+               TW G+ +     ++P  + T+     E+  + E+AA+  GAT  Q+FRKV++P  +P
+Sbjct  133  ---TWPGLILPYVTFALPLAIYTLSAFFREIPWDLEKAAKMDGATPGQAFRKVIVPLAAP  189
+
+Query  196  ALIAGVALSFTRSLGEFGAVIFIAGNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILAA  255
+             L+    L F  +  +    + +    A  T   ++  F    +F+ P  S  A  I+  
+Sbjct  190  GLVTAAILVFIFAWNDLLLALSLTATKAAITAPVAIANFTGSSQFEEPTGSIAAGAIVIT  249
+
+Query  256  SLLLLFSINTLQSRFGRRVV  275
+              +++F +      F RR+V
+Sbjct  250  IPIIVFVL-----IFQRRIV  264
+
+
+>VFG030650(gb|WP_015292798) (sugB) trehalose ABC transporter permease 
+SugB [Trehalose-recycling ABC transporter (VF0842) - 
+Nutritional/Metabolic factor (VFC0272)] [Mycobacterium canettii 
+CIPT 140070017]
+Length=274
+
+ Score = 50.1 bits (118),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 51/201 (25%), Positives = 90/201 (45%), Gaps = 19/201 (9%)
+
+Query  76   VFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLAS-LFSVNGFYGQFLAQFDI  134
+            V G + A+ + R  FPG+ LL     L    P+    ++L + LF++    G F      
+Sbjct  82   VLGAMAAYAVARLEFPGKRLLIGAALLITMFPS----ISLVTPLFNIERAIGLF------  131
+
+Query  135  KVTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELS  194
+                TW G+ +     ++P  + T+     E+  + E+AA+  GAT  Q+FRKV++P  +
+Sbjct  132  ---DTWPGLILPYITFALPLAIYTLSAFFREIPWDLEKAAKMDGATPSQAFRKVIVPLAA  188
+
+Query  195  PALIAGVALSFTRSLGEFGAVIFIAGNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILA  254
+            P L+    L F  +  +    + +    A  T   ++  F    +F+ P  S  A  I+ 
+Sbjct  189  PGLVTAAILVFIFAWNDLLLALSLTATKAAITAPVAIANFTGSSQFEEPTGSIAAGAIVI  248
+
+Query  255  ASLLLLFSINTLQSRFGRRVV  275
+               +++F +      F RR+V
+Sbjct  249  TIPIIVFVL-----IFQRRIV  264
+
+
+>VFG030616(gb|NP_215753) (sugB) sugar ABC transporter permease 
+SugB [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium tuberculosis 
+H37Rv]
+Length=274
+
+ Score = 49.7 bits (117),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 51/201 (25%), Positives = 92/201 (46%), Gaps = 19/201 (9%)
+
+Query  76   VFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLAS-LFSVNGFYGQFLAQFDI  134
+            V G + A+ + R  FPG+ LL     L    P+    ++L + LF++     + +  FD 
+Sbjct  82   VLGAMAAYAVARLEFPGKRLLIGAALLITMFPS----ISLVTPLFNIE----RAIGLFD-  132
+
+Query  135  KVTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELS  194
+                TW G+ +     ++P  + T+     E+  + E+AA+  GAT  Q+FRKV++P  +
+Sbjct  133  ----TWPGLILPYITFALPLAIYTLSAFFREIPWDLEKAAKMDGATPGQAFRKVIVPLAA  188
+
+Query  195  PALIAGVALSFTRSLGEFGAVIFIAGNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILA  254
+            P L+    L F  +  +    + +    A  T   ++  F    +F+ P  S  A  I+ 
+Sbjct  189  PGLVTAAILVFIFAWNDLLLALSLTATKAAITAPVAIANFTGSSQFEEPTGSIAAGAIVI  248
+
+Query  255  ASLLLLFSINTLQSRFGRRVV  275
+               +++F +      F RR+V
+Sbjct  249  TIPIIVFVL-----IFQRRIV  264
+
+
+>VFG030661(gb|YP_007957368) (sugB) sugar-transport integral membrane 
+protein ABC transporter SugB [Trehalose-recycling ABC 
+transporter (VF0842) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=234
+
+ Score = 47.0 bits (110),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 44/172 (26%), Positives = 77/172 (45%), Gaps = 14/172 (8%)
+
+Query  76   VFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLAS-LFSVNGFYGQFLAQFDI  134
+            V G + A+ + R  FPG+ LL     L    P+    ++L + LF++    G F      
+Sbjct  59   VLGAMAAYAVARLEFPGKRLLIGAALLITMFPS----ISLVTPLFNIERAIGLF------  108
+
+Query  135  KVTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELS  194
+                TW G+ +     ++P  + T+     E+  + E+AA+  GAT  Q+FRKV++P  +
+Sbjct  109  ---DTWPGLILPYITFALPLAIYTLSAFFREIPWDLEKAAKMDGATPGQAFRKVIVPLAA  165
+
+Query  195  PALIAGVALSFTRSLGEFGAVIFIAGNIAWKTEVTSLMIFVRLQEFDYPAAS  246
+            P L+    L F  +  +    + +    A  T   ++  F    +F+ P  S
+Sbjct  166  PGLVTAAILVFIFAWNDLLLALSLTATKAAITAPVAIANFTGSSQFEEPTGS  217
+
+
+>VFG030638(gb|WP_013828149) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. JDM601]
+Length=275
+
+ Score = 47.4 bits (111),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 48/200 (24%), Positives = 85/200 (43%), Gaps = 17/200 (9%)
+
+Query  76   VFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLASLFSVNGFYGQFLAQFDIK  135
+            V G + A+ + R  FPG+ LL              A L +A    ++     F  +  I 
+Sbjct  83   VIGAMAAYAVARLDFPGKRLLVG------------AALLIAMFPQISLVTPIFNIERAIG  130
+
+Query  136  VTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSP  195
+            +  TW G+ +     ++P  + T+     E+  + E+AA+  GAT  Q+FRKV+ P  +P
+Sbjct  131  LFDTWPGLIIPYITFALPLAIYTLSAFFSEIPWDLEKAAKMDGATPGQAFRKVIAPLAAP  190
+
+Query  196  ALIAGVALSFTRSLGEFGAVIFIAGNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILAA  255
+             ++    L F  +  +    + +    A  T   ++  F    +F+ P  S     I A 
+Sbjct  191  GIVTAAILVFIFAWNDLLLALSLTATKASITAPVAIANFTGSSQFEEPTGS-----IAAG  245
+
+Query  256  SLLLLFSINTLQSRFGRRVV  275
+            ++++   I      F RR+V
+Sbjct  246  AMVITVPIIVFVLIFQRRIV  265
+
+
+>VFG030642(gb|WP_014711072) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium intracellulare 
+str. MOTT36Y]
+Length=279
+
+ Score = 46.6 bits (109),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 49/200 (25%), Positives = 90/200 (45%), Gaps = 21/200 (11%)
+
+Query  78   GLLMAWILTRYRFPG-RTLLDALMDLPFALPTAVAGLTLAS-LFSVNGFYGQFLAQFDIK  135
+            G +  + + R  FPG R L+ A +     L T    ++L + LF++  F G F       
+Sbjct  89   GAMAGYAIARLNFPGKRALVGATL-----LITMFPAISLVTPLFNIERFVGLF-------  136
+
+Query  136  VTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSP  195
+               TW G+ +     ++P  + T+     E+  + E+AA+  GA+  Q+FRKV++P  +P
+Sbjct  137  --DTWPGLILPYITFALPLAIYTLSAFFREIPWDLEKAAKMDGASPAQAFRKVIVPLAAP  194
+
+Query  196  ALIAGVALSFTRSLGEFGAVIFIAGNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILAA  255
+             ++    L F  +  +    + +    A  T   +++ F    +F+ P  S     I A 
+Sbjct  195  GVVTAAILVFIFAWNDLLLALTLTATKAAITAPVAIVNFSGSSQFEEPTGS-----IAAG  249
+
+Query  256  SLLLLFSINTLQSRFGRRVV  275
+            ++++   I      F RR+V
+Sbjct  250  AVVITVPIIAFVLIFQRRIV  269
+
+
+>VFG030645(gb|WP_014379470) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium intracellulare 
+ATCC 13950]
+Length=279
+
+ Score = 46.6 bits (109),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 49/200 (25%), Positives = 90/200 (45%), Gaps = 21/200 (11%)
+
+Query  78   GLLMAWILTRYRFPG-RTLLDALMDLPFALPTAVAGLTLAS-LFSVNGFYGQFLAQFDIK  135
+            G +  + + R  FPG R L+ A +     L T    ++L + LF++  F G F       
+Sbjct  89   GAMAGYAIARLNFPGKRALVGATL-----LITMFPAISLVTPLFNIERFVGLF-------  136
+
+Query  136  VTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSP  195
+               TW G+ +     ++P  + T+     E+  + E+AA+  GA+  Q+FRKV++P  +P
+Sbjct  137  --DTWPGLILPYITFALPLAIYTLSAFFREIPWDLEKAAKMDGASPAQAFRKVIVPLAAP  194
+
+Query  196  ALIAGVALSFTRSLGEFGAVIFIAGNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILAA  255
+             ++    L F  +  +    + +    A  T   +++ F    +F+ P  S     I A 
+Sbjct  195  GVVTAAILVFIFAWNDLLLALTLTATKAAITAPVAIVNFSGSSQFEEPTGS-----IAAG  249
+
+Query  256  SLLLLFSINTLQSRFGRRVV  275
+            ++++   I      F RR+V
+Sbjct  250  AVVITVPIIAFVLIFQRRIV  269
+
+
+>VFG030670(gb|WP_198345115) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium smegmatis 
+JS623]
+Length=274
+
+ Score = 46.6 bits (109),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 49/236 (21%), Positives = 98/236 (42%), Gaps = 17/236 (7%)
+
+Query  40   SQMSWAQYWDVVTNPQVVAAYKVTLLAAFVASIFNGVFGLLMAWILTRYRFPGRTLLDAL  99
+            SQ+++  Y  +       +A   ++    + ++   VFG + A+ + R  FPG+ LL  +
+Sbjct  46   SQITFDNYKGIFQGDIFTSALINSIGIGLITTVIAVVFGGMAAYAVARLAFPGKRLLIGV  105
+
+Query  100  MDLPFALPTAVAGLTLASLFSVNGFYGQFLAQFDIKVTYTWLGIAVAMAFTSIPFVVRTV  159
+              L    P       + +++   G +             TW G+ +     ++P  + T+
+Sbjct  106  ALLIAMFPQISLVTPIFNMWRSVGLFN------------TWPGLIIPYITFALPLAIYTL  153
+
+Query  160  QPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELSPALIAGVALSFTRSLGEFGAVIFIA  219
+                 E+  + E+AA+  GAT  Q+FR+V+ P  +P ++    L F  +  +    + + 
+Sbjct  154  SAFFREIPWDLEKAAKMDGATPAQAFRRVIAPLAAPGIVTAAILVFIFAWNDLLLALSLT  213
+
+Query  220  GNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILAASLLLLFSINTLQSRFGRRVV  275
+                  T   ++  F    +F+ P  S     I A ++++   I      F RR+V
+Sbjct  214  ATQRAITAPVAIANFTGSSQFEEPTGS-----IAAGAMVITIPIIIFVLIFQRRIV  264
+
+
+>VFG030625(gb|WP_011856410) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. JLS]
+Length=278
+
+ Score = 46.2 bits (108),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 49/201 (24%), Positives = 87/201 (43%), Gaps = 19/201 (9%)
+
+Query  76   VFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLAS-LFSVNGFYGQFLAQFDI  134
+            V G + A+ + R  FPG+ LL  +  L    P     ++L + LF++    G F      
+Sbjct  86   VIGGMAAYAVARLTFPGKRLLVGVALLIAMFPQ----ISLVTPLFNIERSIGLF------  135
+
+Query  135  KVTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELS  194
+                TW G+ +     ++P  + T+     E+  + E+AA+  GAT  Q+FRKV+ P  +
+Sbjct  136  ---DTWPGLIIPYITFALPLAIYTLSAFFREIPWDLEKAAKMDGATPAQAFRKVIAPLAA  192
+
+Query  195  PALIAGVALSFTRSLGEFGAVIFIAGNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILA  254
+            P ++    L F  +  +    + +       T   ++  F    +F+ P  S     I A
+Sbjct  193  PGIVTAAILVFIFAWNDLLLALSLTATQRAITAPVAIANFTGSSQFEEPTGS-----IAA  247
+
+Query  255  ASLLLLFSINTLQSRFGRRVV  275
+             ++++   I      F RR+V
+Sbjct  248  GAMVITIPIIVFVLIFQRRIV  268
+
+
+>VFG030626(gb|WP_179967821) (sugB) carbohydrate ABC transporter 
+permease [Trehalose-recycling ABC transporter (VF0842) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium sp. KMS]
+Length=274
+
+ Score = 45.8 bits (107),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 49/201 (24%), Positives = 87/201 (43%), Gaps = 19/201 (9%)
+
+Query  76   VFGLLMAWILTRYRFPGRTLLDALMDLPFALPTAVAGLTLAS-LFSVNGFYGQFLAQFDI  134
+            V G + A+ + R  FPG+ LL  +  L    P     ++L + LF++    G F      
+Sbjct  82   VVGGMAAYAVARLTFPGKRLLVGVALLIAMFPQ----ISLVTPLFNIERSIGLF------  131
+
+Query  135  KVTYTWLGIAVAMAFTSIPFVVRTVQPVLEELGPEYEEAAQTLGATRLQSFRKVVLPELS  194
+                TW G+ +     ++P  + T+     E+  + E+AA+  GAT  Q+FRKV+ P  +
+Sbjct  132  ---DTWPGLIIPYITFALPLAIYTLSAFFREIPWDLEKAAKMDGATPAQAFRKVIAPLAA  188
+
+Query  195  PALIAGVALSFTRSLGEFGAVIFIAGNIAWKTEVTSLMIFVRLQEFDYPAASAIASVILA  254
+            P ++    L F  +  +    + +       T   ++  F    +F+ P  S     I A
+Sbjct  189  PGIVTAAILVFIFAWNDLLLALSLTATQRAITAPVAIANFTGSSQFEEPTGS-----IAA  243
+
+Query  255  ASLLLLFSINTLQSRFGRRVV  275
+             ++++   I      F RR+V
+Sbjct  244  GAMVITIPIIVFVLIFQRRIV  264
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.139    0.408    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1874013370
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

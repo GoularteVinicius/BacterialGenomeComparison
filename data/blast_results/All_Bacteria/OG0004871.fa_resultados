@@ -1,0 +1,207 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1733.t1
+
+Length=145
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000205(gb|NP_250401) (exsC) type III secretion system regulato...  289     2e-102
+VFG015134(gb|WP_003109505) (exsC) type III secretion system regul...  286     3e-101
+VFG042278(gb|AAS91823) (exsC) ExsC [T3SS (VF0479) - Effector deli...  166     9e-54 
+VFG041646(gb|WP_012777240) (PAU_RS05220) type III secretion syste...  166     9e-54 
+VFG041837(gb|WP_041380314) (PLU_RS18635) type III secretion syste...  164     3e-53 
+VFG038335(gb|WP_005320783) (exsC) chaperone protein [T3SS (VF0479...  155     2e-49 
+VFG007179(gb|WP_005464682) (vxsC) transcriptional regulator ExsC ...  75.5    4e-18 
+
+
+>VFG000205(gb|NP_250401) (exsC) type III secretion system regulatory 
+protein ExsC [TTSS (VF0083) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa PAO1]
+Length=145
+
+ Score = 289 bits (739),  Expect = 2e-102, Method: Compositional matrix adjust.
+ Identities = 145/145 (100%), Positives = 145/145 (100%), Gaps = 0/145 (0%)
+
+Query  1    MDLTSKVNRLLAEFAGRIGLPSLSLDEEGMASLLFDEQVGVTLLLLAERERLLLEADVAG  60
+            MDLTSKVNRLLAEFAGRIGLPSLSLDEEGMASLLFDEQVGVTLLLLAERERLLLEADVAG
+Sbjct  1    MDLTSKVNRLLAEFAGRIGLPSLSLDEEGMASLLFDEQVGVTLLLLAERERLLLEADVAG  60
+
+Query  61   IDVLGEGIFRQLASFNRHWHRFDLHFGFDELTGKVQLYAQILAAQLTLECFEATLANLLD  120
+            IDVLGEGIFRQLASFNRHWHRFDLHFGFDELTGKVQLYAQILAAQLTLECFEATLANLLD
+Sbjct  61   IDVLGEGIFRQLASFNRHWHRFDLHFGFDELTGKVQLYAQILAAQLTLECFEATLANLLD  120
+
+Query  121  HAEFWQRLLPCDSDREAVAAVGMRV  145
+            HAEFWQRLLPCDSDREAVAAVGMRV
+Sbjct  121  HAEFWQRLLPCDSDREAVAAVGMRV  145
+
+
+>VFG015134(gb|WP_003109505) (exsC) type III secretion system regulatory 
+protein ExsC [TTSS (VF0083) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=145
+
+ Score = 286 bits (732),  Expect = 3e-101, Method: Compositional matrix adjust.
+ Identities = 144/145 (99%), Positives = 144/145 (99%), Gaps = 0/145 (0%)
+
+Query  1    MDLTSKVNRLLAEFAGRIGLPSLSLDEEGMASLLFDEQVGVTLLLLAERERLLLEADVAG  60
+            MDLTSKVNRLLAEFAGRIGLPSLSLDEEGMASLLFDEQVGVTLLLLAERERLLLEADVAG
+Sbjct  1    MDLTSKVNRLLAEFAGRIGLPSLSLDEEGMASLLFDEQVGVTLLLLAERERLLLEADVAG  60
+
+Query  61   IDVLGEGIFRQLASFNRHWHRFDLHFGFDELTGKVQLYAQILAAQLTLECFEATLANLLD  120
+            IDVLGEGIFRQLASFNRHWHRFDLHFGFDELTGKVQLYAQILAAQLTLECFEATLANLLD
+Sbjct  61   IDVLGEGIFRQLASFNRHWHRFDLHFGFDELTGKVQLYAQILAAQLTLECFEATLANLLD  120
+
+Query  121  HAEFWQRLLPCDSDREAVAAVGMRV  145
+            HAEFWQRLLPC SDREAVAAVGMRV
+Sbjct  121  HAEFWQRLLPCGSDREAVAAVGMRV  145
+
+
+>VFG042278(gb|AAS91823) (exsC) ExsC [T3SS (VF0479) - Effector 
+delivery system (VFC0086)] [Aeromonas hydrophila str. AH3]
+Length=147
+
+ Score = 166 bits (420),  Expect = 9e-54, Method: Compositional matrix adjust.
+ Identities = 84/147 (57%), Positives = 116/147 (79%), Gaps = 2/147 (1%)
+
+Query  1    MDLTSKVNRLLAEFAGRIGLPSLSLDEEGMASLLFDEQVGVTLLLLAERERLLLEADVAG  60
+            MD+T  +NRLL EFA + GLPSL+L++EG+A+L FDEQ+ ++L+L++ER++L+L+ADVA 
+Sbjct  1    MDVTVIINRLLTEFATKYGLPSLTLNQEGVAALCFDEQLQLSLILVSERDQLVLQADVAE  60
+
+Query  61   IDVLGEGIFRQLASFNRHWHRFDLHFGFDELTGKVQLYAQILAAQLTLECFEATLANLLD  120
+            +  +GEGIFRQLASFNRHW++F+LHFGFDE +  VQLY Q+ A++LTL   E +LA++L+
+Sbjct  61   LHQVGEGIFRQLASFNRHWYQFNLHFGFDEESLTVQLYRQMTASRLTLAYLEESLASMLE  120
+
+Query  121  HAEFWQRLL-PCDSDREAVAAV-GMRV  145
+            HAEFWQ LL P   D      V G+RV
+Sbjct  121  HAEFWQELLQPGTRDAGGSDQVMGVRV  147
+
+
+>VFG041646(gb|WP_012777240) (PAU_RS05220) type III secretion system 
+chaperone [T3SS-1 (VF1286) - Effector delivery system 
+(VFC0086)] [Photorhabdus asymbiotica subsp. asymbiotica ATCC 
+43949]
+Length=147
+
+ Score = 166 bits (420),  Expect = 9e-54, Method: Compositional matrix adjust.
+ Identities = 80/147 (54%), Positives = 112/147 (76%), Gaps = 2/147 (1%)
+
+Query  1    MDLTSKVNRLLAEFAGRIGLPSLSLDEEGMASLLFDEQVGVTLLLLAERERLLLEADVAG  60
+            MD+   +N++LAEFA + GLP L+L+ EG+A+L FDE + ++L+L+ ER++L+L+ DVA 
+Sbjct  1    MDVIVIINQVLAEFAAKFGLPHLALNHEGVAALCFDEHLHLSLILIPERDQLVLQVDVAD  60
+
+Query  61   IDVLGEGIFRQLASFNRHWHRFDLHFGFDELTGKVQLYAQILAAQLTLECFEATLANLLD  120
+            I  +GEGIFRQLASFNRHW++FDLHFGFDE T  VQLY Q+ A++L L  FE +L+++LD
+Sbjct  61   ITAVGEGIFRQLASFNRHWYQFDLHFGFDESTLMVQLYRQMAASRLNLAAFEESLSSMLD  120
+
+Query  121  HAEFWQRLLPC--DSDREAVAAVGMRV  145
+            HAEFWQ LL     +  +   ++GMRV
+Sbjct  121  HAEFWQELLQAQLSTGTQQNESLGMRV  147
+
+
+>VFG041837(gb|WP_041380314) (PLU_RS18635) type III secretion system 
+chaperone [T3SS (VF1288) - Effector delivery system (VFC0086)] 
+[Photorhabdus luminescens subsp. laumondii TTO1]
+Length=147
+
+ Score = 164 bits (416),  Expect = 3e-53, Method: Compositional matrix adjust.
+ Identities = 82/149 (55%), Positives = 113/149 (76%), Gaps = 6/149 (4%)
+
+Query  1    MDLTSKVNRLLAEFAGRIGLPSLSLDEEGMASLLFDEQVGVTLLLLAERERLLLEADVAG  60
+            MD+ + VN++LAEFA + GLP L+L+ EG+A+L FDE + ++L+L+ ER++L+L+ DVA 
+Sbjct  1    MDVIAIVNQVLAEFAAKFGLPHLALNHEGVAALCFDEHLHLSLILIPERDQLVLQIDVAD  60
+
+Query  61   IDVLGEGIFRQLASFNRHWHRFDLHFGFDELTGKVQLYAQILAAQLTLECFEATLANLLD  120
+            I  +GEGIFRQLASFNRHW++FDLHFGFDE T  VQLY Q+ A++L    FE +L+++LD
+Sbjct  61   ITAVGEGIFRQLASFNRHWYQFDLHFGFDESTLMVQLYRQMSASRLNQAVFEESLSSMLD  120
+
+Query  121  HAEFWQRL----LPCDSDREAVAAVGMRV  145
+            HAEFWQ L    LP  S +    ++GMRV
+Sbjct  121  HAEFWQELLQAQLPIGSQQN--ESLGMRV  147
+
+
+>VFG038335(gb|WP_005320783) (exsC) chaperone protein [T3SS (VF0479) 
+- Effector delivery system (VFC0086)] [Aeromonas salmonicida 
+subsp. salmonicida A449]
+Length=147
+
+ Score = 155 bits (391),  Expect = 2e-49, Method: Compositional matrix adjust.
+ Identities = 80/148 (54%), Positives = 114/148 (77%), Gaps = 4/148 (3%)
+
+Query  1    MDLTSKVNRLLAEFAGRIGLPSLSLDEEGMASLLFDEQVGVTLLLLAERERLLLEADVAG  60
+            MD+T  +NRLL EFA + GLPSL+L++E +A+L FDE + ++L+L+ ER+ L+L+ DVA 
+Sbjct  1    MDVTVIINRLLTEFATKYGLPSLALNQEEVAALCFDELLQLSLILVPERDLLVLQVDVAE  60
+
+Query  61   IDVLGEGIFRQLASFNRHWHRFDLHFGFDELTGKVQLYAQILAAQLTLECFEATLANLLD  120
+            +  +GEGIFRQLASFNRHW++F+LHFGFD+ +  VQLY QI  ++LTL   E +LA++L+
+Sbjct  61   LHQVGEGIFRQLASFNRHWYQFNLHFGFDKESLTVQLYRQIAVSRLTLAYLEESLASMLE  120
+
+Query  121  HAEFWQRLLPCDSDREAVAA---VGMRV  145
+            HAEFWQ LL   + REA ++   +G+RV
+Sbjct  121  HAEFWQELLQPGA-REAGSSDQVMGVRV  147
+
+
+>VFG007179(gb|WP_005464682) (vxsC) transcriptional regulator ExsC 
+[T3SS1 (VF0408) - Effector delivery system (VFC0086)] [Vibrio 
+parahaemolyticus RIMD 2210633]
+Length=148
+
+ Score = 75.5 bits (184),  Expect = 4e-18, Method: Compositional matrix adjust.
+ Identities = 46/141 (33%), Positives = 68/141 (48%), Gaps = 1/141 (1%)
+
+Query  1    MDLTSKVNRLLAEFAGRIGLPSLSLDEEGMASLLFDEQVGVTLLLLAERERLLLEADVAG  60
+            M     ++ +L +FA +IGLP L L +  + SL FD+ + V  +   E   L LEA++ G
+Sbjct  1    MSARQTIDEVLQKFAHQIGLPELHLTDNEL-SLAFDDHLKVHFIFHPETNTLQLEAEIVG  59
+
+Query  61   IDVLGEGIFRQLASFNRHWHRFDLHFGFDELTGKVQLYAQILAAQLTLECFEATLANLLD  120
+            + ++   ++R   +FN HW    L F  D     + L   I   QL  E FE  LA LL 
+Sbjct  60   LQIVNSDLYRSFLAFNYHWPEHQLFFSLDNHRHVLCLNKLIGIEQLDYEYFENALAELLT  119
+
+Query  121  HAEFWQRLLPCDSDREAVAAV  141
+             +E W+ LL      E   A+
+Sbjct  120  QSESWESLLSAHVVAEETPAM  140
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.140    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 592900165
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

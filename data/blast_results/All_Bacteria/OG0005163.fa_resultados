@@ -1,0 +1,105 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2833.t1
+
+Length=195
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG051483(gb|NP_251464.1) (tse4) Toxin protein Tse4 [HSI-1 T6SS s...  370     4e-133
+VFG051829(gb|WP_003138819.1) (tse4) Toxin protein Tse4 [HSI-1 T6S...  369     2e-132
+
+
+>VFG051483(gb|NP_251464.1) (tse4) Toxin protein Tse4 [HSI-1 T6SS 
+secreted effectors (VF1194) - Effector delivery system (VFC0086)] 
+[Pseudomonas aeruginosa PAO1]
+Length=195
+
+ Score = 370 bits (951),  Expect = 4e-133, Method: Compositional matrix adjust.
+ Identities = 195/195 (100%), Positives = 195/195 (100%), Gaps = 0/195 (0%)
+
+Query  1    MSQLPIPLPLNESRWRYVTASGGGMTVAFLAGSGGSITLLSPEGENVSFRYGGVGGGIGL  60
+            MSQLPIPLPLNESRWRYVTASGGGMTVAFLAGSGGSITLLSPEGENVSFRYGGVGGGIGL
+Sbjct  1    MSQLPIPLPLNESRWRYVTASGGGMTVAFLAGSGGSITLLSPEGENVSFRYGGVGGGIGL  60
+
+Query  61   GMRLPRFGKVNLNVKGKSVGGAGALEALPSTGTVLVADGLVGRDLSRGDFTGPCMYVELG  120
+            GMRLPRFGKVNLNVKGKSVGGAGALEALPSTGTVLVADGLVGRDLSRGDFTGPCMYVELG
+Sbjct  61   GMRLPRFGKVNLNVKGKSVGGAGALEALPSTGTVLVADGLVGRDLSRGDFTGPCMYVELG  120
+
+Query  121  AGVIAGGSGTAILFGLDPKLLAAVALASASPLTAALGASMSRQLLQSSRGALLMAGVNVG  180
+            AGVIAGGSGTAILFGLDPKLLAAVALASASPLTAALGASMSRQLLQSSRGALLMAGVNVG
+Sbjct  121  AGVIAGGSGTAILFGLDPKLLAAVALASASPLTAALGASMSRQLLQSSRGALLMAGVNVG  180
+
+Query  181  AQFGGGAAAYLGALF  195
+            AQFGGGAAAYLGALF
+Sbjct  181  AQFGGGAAAYLGALF  195
+
+
+>VFG051829(gb|WP_003138819.1) (tse4) Toxin protein Tse4 [HSI-1 
+T6SS secreted effectors (VF1194) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=195
+
+ Score = 369 bits (946),  Expect = 2e-132, Method: Compositional matrix adjust.
+ Identities = 194/195 (99%), Positives = 195/195 (100%), Gaps = 0/195 (0%)
+
+Query  1    MSQLPIPLPLNESRWRYVTASGGGMTVAFLAGSGGSITLLSPEGENVSFRYGGVGGGIGL  60
+            MSQLPIPLPLNESRWRYVTASGGG+TVAFLAGSGGSITLLSPEGENVSFRYGGVGGGIGL
+Sbjct  1    MSQLPIPLPLNESRWRYVTASGGGVTVAFLAGSGGSITLLSPEGENVSFRYGGVGGGIGL  60
+
+Query  61   GMRLPRFGKVNLNVKGKSVGGAGALEALPSTGTVLVADGLVGRDLSRGDFTGPCMYVELG  120
+            GMRLPRFGKVNLNVKGKSVGGAGALEALPSTGTVLVADGLVGRDLSRGDFTGPCMYVELG
+Sbjct  61   GMRLPRFGKVNLNVKGKSVGGAGALEALPSTGTVLVADGLVGRDLSRGDFTGPCMYVELG  120
+
+Query  121  AGVIAGGSGTAILFGLDPKLLAAVALASASPLTAALGASMSRQLLQSSRGALLMAGVNVG  180
+            AGVIAGGSGTAILFGLDPKLLAAVALASASPLTAALGASMSRQLLQSSRGALLMAGVNVG
+Sbjct  121  AGVIAGGSGTAILFGLDPKLLAAVALASASPLTAALGASMSRQLLQSSRGALLMAGVNVG  180
+
+Query  181  AQFGGGAAAYLGALF  195
+            AQFGGGAAAYLGALF
+Sbjct  181  AQFGGGAAAYLGALF  195
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.138    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1064009300
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

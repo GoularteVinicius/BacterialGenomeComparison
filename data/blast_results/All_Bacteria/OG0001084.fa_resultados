@@ -1,0 +1,196 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1214.t1
+
+Length=276
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015888(gb|WP_003381691) (PSPPH_RS21770) HAD-IIA family hydrola...  145     2e-42
+
+
+>VFG015888(gb|WP_003381691) (PSPPH_RS21770) HAD-IIA family hydrolase 
+[Phytotoxin phaseolotoxin (VF0917) - Exotoxin (VFC0235)] 
+[Pseudomonas syringae pv. phaseolicola 1448A]
+Length=260
+
+ Score = 145 bits (367),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 97/272 (36%), Positives = 135/272 (50%), Gaps = 31/272 (11%)
+
+Query  10   AVLFDIDGVLVLSWRAIPGAAETVRQLTHRGIACAYLTNTTTRTRRQIAEALGAAGIPVA  69
+            A+L DIDG +V    AIPGAAE +      G+   +LTN T +    IAE L   GI V 
+Sbjct  5    ALLLDIDGTMVFKGHAIPGAAEAIEAARMAGLQLRFLTNITGQLPSTIAEDLQRHGINVR  64
+
+Query  70   ADDVITAGVLTAEYLHGAYPGARCFLVNNGDITEDLPGI--DVVLSTEIGPEDCPEAPDV  127
+            A+++ TA    A YL  +     CF +    +     GI  D V            +PDV
+Sbjct  65   AEEIHTASTSCARYLK-SLGDVSCFFLMPESVNSMFEGIARDHV------------SPDV  111
+
+Query  128  VVLGSAGPQFDHRTLSRVYGWMLDGVPVVAMHRNMTWNTTDGLRIDTGMYLTGMEQACGK  187
+            VV+G  G  FD+  L++ +G++  G  +V  H+N+ W    G+R+D G ++ G+E A GK
+Sbjct  112  VVIGDIGESFDYACLNQAFGYLHKGARLVVPHKNLFWFDPRGVRLDCGAFILGLEAASGK  171
+
+Query  188  TATAIGKPAAEGFLAAADRVGVDPQQMVMIGDDLHNDVLAAQAVGMTGVLVRTGKFRQQT  247
+             A   GKP+   F +  D +GV P Q ++IGDDL  D+ AAQ + +   LV TGK     
+Sbjct  172  QALVTGKPSPVFFTSVMDSLGVKPSQTMIIGDDLLTDIAAAQHLEVAHALVLTGK-----  226
+
+Query  248  LDRWLAGASAT-----RPHHVIDSVAGLPPLL  274
+                  GAS T     RP  +  S+A L   L
+Sbjct  227  ------GASYTESDVPRPERLWPSIAELSRFL  252
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1863485205
+
+
+Query= g1675.t1
+
+Length=353
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015888(gb|WP_003381691) (PSPPH_RS21770) HAD-IIA family hydrola...  56.2    6e-09
+
+
+>VFG015888(gb|WP_003381691) (PSPPH_RS21770) HAD-IIA family hydrolase 
+[Phytotoxin phaseolotoxin (VF0917) - Exotoxin (VFC0235)] 
+[Pseudomonas syringae pv. phaseolicola 1448A]
+Length=260
+
+ Score = 56.2 bits (134),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 58/232 (25%), Positives = 97/232 (42%), Gaps = 13/232 (6%)
+
+Query  11   LLIDLDGTVFCGRQPTGGAVQSLSQVRSRKL---FVTNNASRSADEVAAHLCELGFTATG  67
+            LL+D+DGT+        GA +++   R   L   F+TN   +    +A  L   G     
+Sbjct  6    LLLDIDGTMVFKGHAIPGAAEAIEAARMAGLQLRFLTNITGQLPSTIAEDLQRHGINVRA  65
+
+Query  68   EDVVTSAQSAAHLLAGQLAPGARVLIVGTEALANEVAAVGLRPVRRFEDRPDAVVQG-LS  126
+            E++ T++ S A  L         +  V    L  E        + R    PD VV G + 
+Sbjct  66   EEIHTASTSCARYLKS-------LGDVSCFFLMPESVNSMFEGIARDHVSPDVVVIGDIG  118
+
+Query  127  MTTGWSDLAEAALAIRAGALWVAANVDPTLPTERGLLPGNGSMVAALRTATGMDPRVAGK  186
+             +  ++ L +A   +  GA  V  + +      RG+    G+ +  L  A+G    V GK
+Sbjct  119  ESFDYACLNQAFGYLHKGARLVVPHKNLFWFDPRGVRLDCGAFILGLEAASGKQALVTGK  178
+
+Query  187  PAPALMTEAVARGDFRAA--LVVGDRLDTDIEGANAAGLPSLMVLTGVNSAW  236
+            P+P   T  +     + +  +++GD L TDI  A    +   +VLTG  +++
+Sbjct  179  PSPVFFTSVMDSLGVKPSQTMIIGDDLLTDIAAAQHLEVAHALVLTGKGASY  230
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2638994652
+
+
+Query= g3961.t1
+
+Length=299
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2105633000
+
+
+Query= g632.t1
+
+Length=250
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015888(gb|WP_003381691) (PSPPH_RS21770) HAD-IIA family hydrola...  113     3e-30
+
+
+>VFG015888(gb|WP_003381691) (PSPPH_RS21770) HAD-IIA family hydrolase 
+[Phytotoxin phaseolotoxin (VF0917) - Exotoxin (VFC0235)] 
+[Pseudomonas syringae pv. phaseolicola 1448A]
+Length=260
+
+ Score = 113 bits (283),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 72/251 (29%), Positives = 127/251 (51%), Gaps = 7/251 (3%)
+
+Query  1    MTIKNVICDIDGVLMHDNVAVPGAAEFLTGILEKGLPLVLLTNYPSQTGQDLANRFATAG  60
+            M IK ++ DIDG ++    A+PGAAE +      GL L  LTN   Q    +A      G
+Sbjct  1    MKIKALLLDIDGTMVFKGHAIPGAAEAIEAARMAGLQLRFLTNITGQLPSTIAEDLQRHG  60
+
+Query  61   VNVPDSVFYTSAMATADFLRRQEGKKAYVVGEGALIHELYKAGFTITDVNPDFVIVGET-  119
+            +NV     +T++ + A +L+       + +   + ++ +++ G     V+PD V++G+  
+Sbjct  61   INVRAEEIHTASTSCARYLKSLGDVSCFFLMPES-VNSMFE-GIARDHVSPDVVVIGDIG  118
+
+Query  120  RSYNWDMMHKAAFFVANGARFIATNPDT---HGRGFYPACGALCAGIEKISGRKPFYVGK  176
+             S+++  +++A  ++  GAR +  + +      RG    CGA   G+E  SG++    GK
+Sbjct  119  ESFDYACLNQAFGYLHKGARLVVPHKNLFWFDPRGVRLDCGAFILGLEAASGKQALVTGK  178
+
+Query  177  PSPWIIRAALNKMQAHSEETVIVGDNLRTDILAGFQAGLETILVLSGVSTINDIDSMPFR  236
+            PSP    + ++ +     +T+I+GD+L TDI A     +   LVL+G         +P R
+Sbjct  179  PSPVFFTSVMDSLGVKPSQTMIIGDDLLTDIAAAQHLEVAHALVLTGKGASYTESDVP-R  237
+
+Query  237  PSWIYPSVAEI  247
+            P  ++PS+AE+
+Sbjct  238  PERLWPSIAEL  248
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1604534344
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,1100 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1376.t1
+
+Length=316
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG013748(gb|WP_010934776) (fagD) iron-siderophore ABC transporte...  125     1e-33
+VFG013752(gb|WP_011015613) (fagD) iron-siderophore ABC transporte...  113     9e-29
+VFG021797(gb|WP_014300363) (fagD) iron-siderophore ABC transporte...  112     1e-28
+VFG013751(gb|WP_011898148) (fagD) iron-siderophore ABC transporte...  112     2e-28
+VFG044355(gb|WP_013317298) (DDA3937_RS07750) iron-siderophore ABC...  84.3    1e-18
+VFG044253(gb|WP_001045111) (sirA) staphyloferrin B ABC transporte...  70.5    1e-13
+VFG016173(gb|WP_011168764) (cbrA) iron-siderophore ABC transporte...  65.9    4e-12
+VFG044176(gb|WP_011106550) (VP_RS23080) Fe(3+) dicitrate ABC tran...  65.5    5e-12
+VFG005813(gb|WP_000858264) (piuA) siderophore ABC transporter sub...  65.5    6e-12
+VFG005812(gb|WP_000858246) (piuA) siderophore ABC transporter sub...  65.5    6e-12
+VFG044313(gb|WP_006492070) (QU43_RS44990) iron-siderophore ABC tr...  65.5    7e-12
+VFG019103(gb|WP_000858260) (piuA) siderophore ABC transporter sub...  63.2    3e-11
+VFG044273(gb|WP_001214661) (NWMN_RS12035) ABC transporter substra...  59.3    6e-10
+VFG016172(gb|WP_011267800) (cbrA) iron-siderophore ABC transporte...  57.0    3e-09
+VFG021789(gb|WP_013241843) (ciuA) ABC transporter substrate-bindi...  51.6    2e-07
+VFG007242(gb|WP_005487329) (vctP) siderophore ABC transporter sub...  50.4    5e-07
+VFG007243(gb|WP_011081759) (vctP) siderophore ABC transporter sub...  49.7    9e-07
+
+
+>VFG013748(gb|WP_010934776) (fagD) iron-siderophore ABC transporter 
+substrate-binding protein [ABC transporter (VF0741) - 
+Nutritional/Metabolic factor (VFC0272)] [Corynebacterium diphtheriae 
+NCTC 13129]
+Length=347
+
+ Score = 125 bits (315),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 100/314 (32%), Positives = 147/314 (47%), Gaps = 27/314 (9%)
+
+Query  2    IGNER--RPDQACAPEPATVDPGPPTRPAHNVAGVKPDVVQVPAEAQRIVVLAGDQLDAL  59
+            +G +R    DQ  A   +   PG   R   + AG      ++  + +R+VVL   +LD++
+Sbjct  49   VGGQRFSTADQETAKLGSDAQPGQFPRTVVHAAGT----TEITTKPERVVVLDTGELDSV  104
+
+Query  60   CALGLQ---YRVAAAALPNDSVSQPSYLGKTVHGLPGVGTRRAPDLSAIAATQPDLILGS  116
+             +LG+          A P      PSYL   V  +  VGT    ++ AIAA +PDLI+GS
+Sbjct  105  LSLGITPVGMTTTKGANP-----VPSYLADKVKDVERVGTINELNIEAIAALKPDLIIGS  159
+
+Query  117  QELTPQLYPQLTAIAPTVFTAAAPGATWEDNLRGVGAATARNDAVETLINGFSQRATQIG  176
+            Q    +LYPQL+ IAPTVF+   PG+ W++N   VG A       E  +N ++ R  ++ 
+Sbjct  160  QLRADKLYPQLSDIAPTVFS-IRPGSPWKENFLLVGEALGMEKEAEEKLNEYADRVAEL-  217
+
+Query  177  ATHDATHYQVSIVQLTTNTMRVYGSNNFPARVLTAVGVDRPTSQRFTDQAYIQSGITDAD  236
+              +   + +VS+V+   N +R+YG+ +    VL   G+ RP  Q   D A         +
+Sbjct  218  KNNVPQNTEVSLVRFMPNKLRLYGNKSLIGVVLADAGLARPEKQNVDDLA--------VE  269
+
+Query  237  LAKEPDFSAVDADIIYVSCTSPAVAKRAATVLDSGP-WRKLSANHDNRIFIVNDEVWQTG  295
+            ++ E    A  + I Y S   P      A V   GP W+ L A    +   VND+VW  G
+Sbjct  270  ISPENIDQAAGSVIFYTSYGKPDATGETAVV--EGPAWKNLEAVAAGKAHRVNDDVWFLG  327
+
+Query  296  EGLIAARGIVDDLR  309
+             G   A  IV DL 
+Sbjct  328  LGPTGAMEIVSDLH  341
+
+
+>VFG013752(gb|WP_011015613) (fagD) iron-siderophore ABC transporter 
+substrate-binding protein [ABC transporter (VF0741) - 
+Nutritional/Metabolic factor (VFC0272)] [Corynebacterium glutamicum 
+ATCC 13032 (DSM 20300)]
+Length=342
+
+ Score = 113 bits (282),  Expect = 9e-29, Method: Compositional matrix adjust.
+ Identities = 88/269 (33%), Positives = 128/269 (48%), Gaps = 19/269 (7%)
+
+Query  46   QRIVVLAGDQLDALCALGLQYRVAAAALPNDSVSQPSYLGKTVHGLPGVGTRRAPDLSAI  105
+            QR+VVL   ++D + +LG+       A P D+ SQP+YL   +  +  VGT    +  AI
+Sbjct  87   QRVVVLDSGEIDQVLSLGVT--PVGIASPKDASSQPAYLENQLADVQTVGTTSELNFEAI  144
+
+Query  106  AATQPDLILGSQELTPQLYPQLTAIAPTVFTAAAPGATWEDN-LRGVGAATARNDAVETL  164
+            AA +PDLILGS+    + Y QL+ IAPTV +   PG  W++N L    A      AVE L
+Sbjct  145  AALKPDLILGSKLRVDESYDQLSQIAPTVLS-IRPGFPWKENFLLTADALGLEGKAVEVL  203
+
+Query  165  INGFSQRATQIGATHDATHYQVSIVQLTTNTMRVYGSNNFPARVLTAVGVDRPTSQRFTD  224
+             N +      +  T D +  ++S+V+      R+YG+ +F   +L  +G+ RP  Q   D
+Sbjct  204  -NEYQTHVDAVRETIDGSP-EISLVRFMPGRTRLYGNLSFIGAILKDLGLSRPEIQNIDD  261
+
+Query  225  QAYIQS--GITDADLAKEPDFSAVDADIIYVSCTSPAVAKRAATVLDSGPWRKLSANHDN  282
+             A   S   ITDA           + D I+ S      A     +L +  W  L A  + 
+Sbjct  262  LAVEISPENITDA-----------NGDWIFYSTYGKPEATEQDNILSNELWHNLPAVQEG  310
+
+Query  283  RIFIVNDEVWQTGEGLIAARGIVDDLRWI  311
+                VNDE W  G G + A  ++DD+  I
+Sbjct  311  HALEVNDESWFMGLGPLGANEVLDDIENI  339
+
+
+>VFG021797(gb|WP_014300363) (fagD) iron-siderophore ABC transporter 
+substrate-binding protein [ABC transporter (VF0741) - 
+Nutritional/Metabolic factor (VFC0272)] [Corynebacterium pseudotuberculosis 
+FRC41]
+Length=350
+
+ Score = 112 bits (281),  Expect = 1e-28, Method: Compositional matrix adjust.
+ Identities = 79/270 (29%), Positives = 135/270 (50%), Gaps = 13/270 (5%)
+
+Query  40   QVPAEAQRIVVLAGDQLDALCALGLQYRVAAAALPNDSVSQPSYLGKTVHGLPGVGTRRA  99
+            ++  + +R+VVL   +LD++ +LG+           + V  PSYL   V  +  VGT   
+Sbjct  88   EIKEQPKRVVVLDTGELDSVLSLGITPVGMVTTKGANPV--PSYLADKVKDVKSVGTINE  145
+
+Query  100  PDLSAIAATQPDLILGSQELTPQLYPQLTAIAPTVFTAAAPGATWEDNLRGVGAATARND  159
+             ++  IAA QPDLILGS+    ++Y QL  +APTVF+   PG  W++N   +G A  +  
+Sbjct  146  INVEEIAALQPDLILGSKLRADKIYAQLAEVAPTVFS-IRPGFPWKENFLLIGDALGKEK  204
+
+Query  160  AVETLINGFSQRATQIGATHDATHYQVSIVQLTTNTMRVYGSNNFPARVLTAVGVDRPTS  219
+              E  +N ++++   I A+  A    VS+++     +R+YG+ +    +L   G+ RP +
+Sbjct  205  EAEAKLNEYTEKVETIKASVPA-DTTVSLLRFMPKRIRLYGNKSLLGVILKDAGLARPEN  263
+
+Query  220  QRFTDQAYIQSGITDADLAKEPDFSAVDADIIYVSCTSPAVAKRAATVLDSGPWRKLSAN  279
+            Q   + A         +++ E    A  + I Y S   P    + A +++   W+ L+A 
+Sbjct  264  QNIDELA--------TEISPETIDQAEGSVIFYSSYGKPDATGQDA-IVNGAAWKNLNAV  314
+
+Query  280  HDNRIFIVNDEVWQTGEGLIAARGIVDDLR  309
+             + +   VND+VW  G G   A  IV++L+
+Sbjct  315  KNGQAHEVNDDVWFLGLGPTGAMQIVEELK  344
+
+
+>VFG013751(gb|WP_011898148) (fagD) iron-siderophore ABC transporter 
+substrate-binding protein [ABC transporter (VF0741) - 
+Nutritional/Metabolic factor (VFC0272)] [Corynebacterium glutamicum 
+R]
+Length=342
+
+ Score = 112 bits (280),  Expect = 2e-28, Method: Compositional matrix adjust.
+ Identities = 79/266 (30%), Positives = 127/266 (48%), Gaps = 13/266 (5%)
+
+Query  46   QRIVVLAGDQLDALCALGLQYRVAAAALPNDSVSQPSYLGKTVHGLPGVGTRRAPDLSAI  105
+            QR+VVL   ++D + +LG+       A P D+ SQP+YL   +  +  VGT    +  AI
+Sbjct  87   QRVVVLDSGEIDQVLSLGVT--PVGIASPKDASSQPAYLKDQLADVQTVGTTSELNFEAI  144
+
+Query  106  AATQPDLILGSQELTPQLYPQLTAIAPTVFTAAAPGATWEDNLRGVGAATARNDAVETLI  165
+            AA +PDLILGS+    + Y QL+ IAPTV +   PG  W++N      A         ++
+Sbjct  145  AALKPDLILGSKLRVDESYDQLSQIAPTVLS-IRPGFPWKENFLFTADALGLEGKAVEVL  203
+
+Query  166  NGFSQRATQIGATHDATHYQVSIVQLTTNTMRVYGSNNFPARVLTAVGVDRPTSQRFTDQ  225
+            N +      +  T D +  ++S+V+      R+YG+ +F   +L  +G+ RP  Q   D 
+Sbjct  204  NEYQTHVDAVRETIDGSP-EISLVRFMPGRTRLYGNLSFIGVILKDLGLSRPEIQNIDDL  262
+
+Query  226  AYIQSGITDADLAKEPDFSAVDADIIYVSCTSPAVAKRAATVLDSGPWRKLSANHDNRIF  285
+            A         +++ E + +  + D I+ S      A     +L +  W  L A  D +  
+Sbjct  263  A--------VEISPE-NIADANGDWIFYSTYGKPEATEQDNILSNELWHNLPAVQDGKAL  313
+
+Query  286  IVNDEVWQTGEGLIAARGIVDDLRWI  311
+             VNDE W  G G + A  +++D+  I
+Sbjct  314  EVNDESWFMGLGPLGANEVLNDIENI  339
+
+
+>VFG044355(gb|WP_013317298) (DDA3937_RS07750) iron-siderophore 
+ABC transporter substrate-binding protein [Achromobactin (VF1243) 
+- Nutritional/Metabolic factor (VFC0272)] [Dickeya dadantii 
+3937]
+Length=305
+
+ Score = 84.3 bits (207),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 72/285 (25%), Positives = 127/285 (45%), Gaps = 28/285 (10%)
+
+Query  36   PDVVQVPAEAQRIVVLAGDQLDALCALGLQYRVAAAALPNDSVSQP--SYLGKTVHGLPG  93
+            P + Q     QR++ L     D   ALG    +  A + +    +P   YL + + G+P 
+Sbjct  26   PALAQSLFMPQRVITLFQGATDTAVALG----ITPAGVVDSWSEKPMYRYLRQALAGVPH  81
+
+Query  94   VGTRRAPDLSAIAATQPDLILGSQELTPQLYPQLTAIAPTVFTAAAPGATWEDNLRGVGA  153
+            VG    P L  I   +PD I+ S+    +L P L+ IAP V         ++  ++ +G 
+Sbjct  82   VGLETQPSLEDIVLLKPDAIVASRFRHQRLEPLLSQIAPVVMLDEI--YQFKKTVQVMGQ  139
+
+Query  154  ATARNDAVETLINGFSQRAT--------QIGATHDATHYQVSIVQLTTNTMRVYGSNNFP  205
+            A  R    + L+  +  R          + G     T   VSI+ +  + +R Y   +FP
+Sbjct  140  ALQRQAVADQLLQNWQLRVNGLREQLQRKFGGDWPPT---VSILDIREDHIRSYLPGSFP  196
+
+Query  206  ARVLTAVGVDRPTSQRFTDQAYIQSGITDADLAKEPDFSAVDADI--IYVSCTSPAVAKR  263
+              VL+ +G        ++D +  Q G++   L  +     VDADI  I++   SP+V + 
+Sbjct  197  GSVLSELGFG------WSDASRAQPGVS-LKLTNKESIPVVDADIFFIFLRSESPSVQRN  249
+
+Query  264  AATVLDSGPWRKLSANHDNRIFIVNDEVWQTGEGLIAARGIVDDL  308
+              +++    W++L A   N++++VN   W    G++ A  ++DD+
+Sbjct  250  YESLIRHPLWQQLRAPRRNQVWVVNGVTWSLSGGILGANMMLDDI  294
+
+
+>VFG044253(gb|WP_001045111) (sirA) staphyloferrin B ABC transporter 
+substrate-binding protein SirA [Staphyloferrin B (VF1014) 
+- Nutritional/Metabolic factor (VFC0272)] [Staphylococcus 
+aureus subsp. aureus str. Newman]
+Length=330
+
+ Score = 70.5 bits (171),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 70/284 (25%), Positives = 123/284 (43%), Gaps = 27/284 (10%)
+
+Query  40   QVPAEAQRIVVLAGDQLDALCALGLQYRVAAAALPNDSVSQP---SYLGKTVHGLPGVGT  96
+            ++  + +R+V L     D   +LG++  V A     +S +Q     Y+   +     VG 
+Sbjct  48   EIKGKPKRVVTLYQGATDVAVSLGVK-PVGAV----ESWTQKPKFEYIKNDLKDTKIVGQ  102
+
+Query  97   RRAPDLSAIAATQPDLILGSQELTPQLYPQLTAIAPTVFTAAAPGATWEDNLRGVGAATA  156
+              AP+L  I+  +PDLI+ S+    ++Y QL+ IAPTV T       ++D  + +G A  
+Sbjct  103  EPAPNLEEISKLKPDLIVASKVRNEKVYDQLSKIAPTVSTDTV--FKFKDTTKLMGKALG  160
+
+Query  157  RNDAVETLINGFSQR--ATQIGAT---HDATHYQVSIVQLTTNTMRVYGSNNFPARVLTA  211
+            +    E L+  +  +  A Q  A     DA   + S+V    +  R+Y +  +   +L  
+Sbjct  161  KEKEAEDLLKKYDDKVAAFQKDAKAKYKDAWPLKASVVNFRADHTRIY-AGGYAGEILND  219
+
+Query  212  VGVDRPTSQRFTDQAYIQSGITDADLAKEPDFSAVDADIIYVSCTSP------AVAKRAA  265
+            +G  R        Q  + +G     L  +     ++AD I+V  + P       V K  +
+Sbjct  220  LGFKRNKDL----QKQVDNGKDIIQLTSKESIPLMNADHIFVVKSDPNAKDAALVKKTES  275
+
+Query  266  TVLDSGPWRKLSANHDNRIFIVNDEV-WQTGEGLIAARGIVDDL  308
+                S  W+ L A  +N++    DE+ W    G  ++  ++DDL
+Sbjct  276  EWTSSKEWKNLDAVKNNQVSDDLDEITWNLAGGYKSSLKLIDDL  319
+
+
+>VFG016173(gb|WP_011168764) (cbrA) iron-siderophore ABC transporter 
+substrate-binding protein [Achromobactin biosynthesis 
+and transport (VF0922) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas syringae pv. phaseolicola 1448A]
+Length=306
+
+ Score = 65.9 bits (159),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 63/271 (23%), Positives = 115/271 (42%), Gaps = 22/271 (8%)
+
+Query  47   RIVVLAGDQLDALCALGLQYRVAAAALPNDSVSQP--SYLGKTVHGLPGVGTRRAPDLSA  104
+            R+V L     D+  ALG    V    + +    +P   YL   +  +P VG    P L  
+Sbjct  39   RVVTLFQGASDSAVALG----VTPCGVVDSWSEKPMYRYLRPALAAVPHVGLETQPSLED  94
+
+Query  105  IAATQPDLILGSQELTPQLYPQLTAIAPTVFTAAAPGATWEDNLRGVGAATARNDAVETL  164
+            I   +PDLI+ S+    ++ P L  I+P +         ++  L  +GAA  R      L
+Sbjct  95   IVLLKPDLIVASRFRHQRIAPLLEQISPVLMLEEV--FEFKRTLAMMGAAMLRQQQAMDL  152
+
+Query  165  INGFSQRATQIGATHDATH-----YQVSIVQLTTNTMRVYGSNNFPARVLTAVGVDRPTS  219
+            +  + QR T + +             VS++ +  + +R Y   +F   VLT +G      
+Sbjct  153  LGQWQQRVTALRSRLQEKFAGRWPITVSVLDIREDHIRSYLPASFAGSVLTELGFA----  208
+
+Query  220  QRFTDQAYIQSGITDADLAKEPDFSAVDADIIYV--SCTSPAVAKRAATVLDSGPWRKLS  277
+              +T  A   +G++   L+ +     VDAD+ ++     S A  +    ++    W++L 
+Sbjct  209  --WTPTAREATGVS-LKLSSKESLPVVDADLFFIFQRADSKAAQQNYDKLVRHPFWQQLR  265
+
+Query  278  ANHDNRIFIVNDEVWQTGEGLIAARGIVDDL  308
+            A  D +++ V+   W    G++ A  ++D++
+Sbjct  266  AAQDGQVWRVDAVAWSLSGGILGANRMLDEI  296
+
+
+>VFG044176(gb|WP_011106550) (VP_RS23080) Fe(3+) dicitrate ABC 
+transporter substrate-binding protein FecB [Vibrioferrin (VF0631) 
+- Nutritional/Metabolic factor (VFC0272)] [Vibrio parahaemolyticus 
+RIMD 2210633]
+Length=307
+
+ Score = 65.5 bits (158),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 71/274 (26%), Positives = 118/274 (43%), Gaps = 34/274 (12%)
+
+Query  46   QRIVVLAGDQLDALCALGLQYRVAAAALPNDSVSQPSYLGKTVHGLPGVGTRRAPDLSAI  105
+            QRIVVL    +DAL A+ +       A  ND++     +   +     VG R  P L AI
+Sbjct  50   QRIVVLEFSFVDALAAVDVS--PVGVADDNDAIRVIPAVRAKIEPWQSVGMRSQPSLEAI  107
+
+Query  106  AATQPDLILGSQELTPQLYPQLTAIAPTVFTAAAPGATWEDNL---RGVGAATARNDAVE  162
+            A  +PDLI+   E    +Y  L  IAPT+   +  G T+++NL   + +G A  +   + 
+Sbjct  108  AVLKPDLIIADAERHCAIYQDLQRIAPTLLLKSR-GETYQENLESAQKIGVAIGKQAQMT  166
+
+Query  163  TLINGFSQRATQIGATHDATHYQVSIVQLTTNTMRVYGSNNFPARVLTAVGVDRPT--SQ  220
+              I    Q   +    H AT   +    ++   M ++   ++   VL+ +G+  P   S+
+Sbjct  167  QRIELHKQTMAEF-KQHFATQETIQFGVVSDKGMWLHSPVSYAGGVLSTLGIQSPLAPSE  225
+
+Query  221  RFTDQAYIQSGITDADLAKEPDFSAVDADIIYVSCTSPAVAKRAATVLDSGPWRK-----  275
+            R    AYI +   +  L   PD+  V    +Y   + P +            WR+     
+Sbjct  226  R---NAYIPTSF-ELLLKTNPDWLLVG---LY---SQPNIVDE---------WRRNPLFK  266
+
+Query  276  -LSANHDNRIFIVNDEVWQTGEGLIAARGIVDDL  308
+             L+A+   ++  V+ E+W    G++AA  I  +L
+Sbjct  267  LLTASKKQQLVEVSPELWSLNRGMLAAEEIARNL  300
+
+
+>VFG005813(gb|WP_000858264) (piuA) siderophore ABC transporter 
+substrate-binding protein [Pneumococcal iron uptake (VF1066) 
+- Nutritional/Metabolic factor (VFC0272)] [Streptococcus pneumoniae 
+TIGR4]
+Length=321
+
+ Score = 65.5 bits (158),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 66/286 (23%), Positives = 129/286 (45%), Gaps = 30/286 (10%)
+
+Query  37   DVVQVPAEAQRIVVLAGDQLDALCALGLQYRVAAAALPNDSVSQPSYLGKTVHGLPGVGT  96
+            D V++    ++IV       D + ALG +  +    +P  +V  P+YL   V  +  VG+
+Sbjct  49   DEVKLSKVPEKIVTFDLGAADTIRALGFEKNIVG--MPTKTV--PTYLKDLVGTVKNVGS  104
+
+Query  97   RRAPDLSAIAATQPDLILGSQELTPQLYPQLTAIAPTVFTAAAPGATW---EDNLRGVGA  153
+             + PDL AIAA +PDLI+ S   T +   +   IAPTV   A+    W   + N+  + +
+Sbjct  105  MKEPDLEAIAALEPDLIIASPR-TQKFVDKFKEIAPTVLFQASKDDYWTSTKANIESLAS  163
+
+Query  154  A---TARNDAVETLINGFSQRATQIGATHDATHYQVSIVQLTTNTMRVYGSNNFPARVLT  210
+            A   T    A E L     +   ++   ++++  +   + L    M  +G+ +  + +  
+Sbjct  164  AFGETGTQKAKEELTK-LDKSIQEVATKNESSDKKALAILLNEGKMAAFGAKSRFSFLYQ  222
+
+Query  211  AVGVDRPTSQRFTDQAYIQSGITDADLAKEPDFSAVDA---DIIYVSCTSPAVAKRAAT-  266
+             +   +PT  +F D  + Q          E  F +V     DI++V   + A+    ++ 
+Sbjct  223  TLKF-KPTDTKFEDSRHGQ----------EVSFESVKEINPDILFVINRTLAIGGDNSSN  271
+
+Query  267  --VLDSGPWRKLSANHDNRIFIVNDEVWQ-TGEGLIAARGIVDDLR  309
+              VL++    +  A  + +I  +  ++W  +G GL + + +++D++
+Sbjct  272  DGVLENALIAETPAAKNGKIIQLTPDLWYLSGGGLESTKLMIEDIQ  317
+
+
+>VFG005812(gb|WP_000858246) (piuA) siderophore ABC transporter 
+substrate-binding protein [Pneumococcal iron uptake (VF1066) 
+- Nutritional/Metabolic factor (VFC0272)] [Streptococcus pneumoniae 
+D39]
+Length=321
+
+ Score = 65.5 bits (158),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 66/286 (23%), Positives = 130/286 (45%), Gaps = 30/286 (10%)
+
+Query  37   DVVQVPAEAQRIVVLAGDQLDALCALGLQYRVAAAALPNDSVSQPSYLGKTVHGLPGVGT  96
+            D V++    ++IV       D + ALG +  +    +P  +V  P+YL   V  +  VG+
+Sbjct  49   DEVKLSKVPEKIVTFDLGAADTIRALGFEKNIVG--MPTKTV--PTYLKDLVGTVKNVGS  104
+
+Query  97   RRAPDLSAIAATQPDLILGSQELTPQLYPQLTAIAPTVFTAAAPGATW---EDNLRGVGA  153
+             + PDL AIAA +PDLI+ S   T +   +   IAPTV   A+    W   + N+  + +
+Sbjct  105  MKEPDLEAIAALEPDLIIASPR-TQKFVDKFKEIAPTVLFQASKDDYWTSTKANIESLAS  163
+
+Query  154  A---TARNDAVETLINGFSQRATQIGATHDATHYQVSIVQLTTNTMRVYGSNNFPARVLT  210
+            A   T+   A E L     +   ++   ++++  +   + L    M  +G+ +  + +  
+Sbjct  164  AFGETSTQKAKEELAK-LDKSIQEVATKNESSDKKALAILLNEGKMAAFGAKSRFSFLYQ  222
+
+Query  211  AVGVDRPTSQRFTDQAYIQSGITDADLAKEPDFSAVDA---DIIYVSCTSPAVAKRAAT-  266
+             +   +PT  +F D  + Q          E  F +V     DI++V   + A+    ++ 
+Sbjct  223  TLKF-KPTDTKFEDSRHGQ----------EVSFESVKEINPDILFVINRTLAIGGDNSSN  271
+
+Query  267  --VLDSGPWRKLSANHDNRIFIVNDEVWQ-TGEGLIAARGIVDDLR  309
+              VL++    +  A  + +I  +  ++W  +G GL + + +++D++
+Sbjct  272  DGVLENALIAETPAAKNGKIIQLTPDLWYLSGGGLESTKLMIEDIQ  317
+
+
+>VFG044313(gb|WP_006492070) (QU43_RS44990) iron-siderophore ABC 
+transporter substrate-binding protein [Ornibactin (VF0701) 
+- Nutritional/Metabolic factor (VFC0272)] [Burkholderia cenocepacia 
+J2315]
+Length=342
+
+ Score = 65.5 bits (158),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 76/275 (28%), Positives = 124/275 (45%), Gaps = 34/275 (12%)
+
+Query  40   QVPAEAQRIVVLAGDQLDALCALGLQYRVAAAALPNDSVSQPSYLGKTVHGLPGV---GT  96
+            ++P   QR+V L  D + A   + L    A  A   D+   P +LG     L  V   G+
+Sbjct  60   KMPVRPQRVVAL--DFMFAESVIALDLVPAGMA---DTAFYPGWLGYRSEQLAHVTDIGS  114
+
+Query  97   RRAPDLSAIAATQPDLILGSQELTPQLYPQLTAIAPTVFTAAAPGAT----------WED  146
+            R+ P L AIAA +PDLI+G       ++  L  IAPT+    +P  +          W  
+Sbjct  115  RQEPGLEAIAAVKPDLIIGVGFRHAPIFDALDRIAPTILFQFSPNVSEGGVPVTQLDWMR  174
+
+Query  147  NL-RGVGAAT---ARNDAVETLINGFSQRATQIGATHDATHYQVSIVQ--LTTNTMRVYG  200
+             + R +GA T   AR  AVE  ++    R     A       +V+++Q     +    Y 
+Sbjct  175  QIFRTIGAVTGRDARAQAVEAQLDAGIARNAARLAAAGRHGERVALLQDLGLPDRYWAYT  234
+
+Query  201  SNNFPARVLTAVGVDRPTSQRFTDQAYIQSGITDADLAKEPDFSAVDADIIYVSCTSPAV  260
+             N+  A +  A+G+D P  ++ T +  +   +T ADL ++ D +     +++V+ +   V
+Sbjct  235  GNSTSAGLARALGLD-PWPKKPTREGTLY--VTSADLLRQRDLA-----VLFVTASGMDV  286
+
+Query  261  AKRAATVLDSGPWRKLSANHDNRIFIVNDEVWQTG  295
+                +T LDS  WR + A  D+RI ++   +W  G
+Sbjct  287  P--LSTKLDSPVWRFVPALKDHRIALIERNIWGFG  319
+
+
+>VFG019103(gb|WP_000858260) (piuA) siderophore ABC transporter 
+substrate-binding protein [Pneumococcal iron uptake (VF1066) 
+- Nutritional/Metabolic factor (VFC0272)] [Streptococcus pneumoniae 
+Hungary19A-6]
+Length=321
+
+ Score = 63.2 bits (152),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 66/286 (23%), Positives = 128/286 (45%), Gaps = 30/286 (10%)
+
+Query  37   DVVQVPAEAQRIVVLAGDQLDALCALGLQYRVAAAALPNDSVSQPSYLGKTVHGLPGVGT  96
+            D V++    ++IV       D + ALG +  +    +P  +V  P+YL   V  +  VG+
+Sbjct  49   DEVKLSKVPEKIVTFDLGAADTIRALGFEKNIVG--MPTKTV--PTYLKDLVGTVKNVGS  104
+
+Query  97   RRAPDLSAIAATQPDLILGSQELTPQLYPQLTAIAPTVFTAAAPGATW---EDNLRGVGA  153
+             + PDL AIAA +PDLI+ S   T +   +   IAPTV   A+    W   + N+  + +
+Sbjct  105  MKEPDLEAIAALEPDLIIASPR-TQKFVDKFKEIAPTVLFQASKDDYWTSTKANIESLAS  163
+
+Query  154  A---TARNDAVETLINGFSQRATQIGATHDATHYQVSIVQLTTNTMRVYGSNNFPARVLT  210
+            A   T    A E L     +   ++   ++++  +   + L    M  +G+ +  + +  
+Sbjct  164  AFGETGTQKAKEELAK-LDKSIQEVATKNESSDKKALAILLNEGKMAAFGAKSRFSFLYQ  222
+
+Query  211  AVGVDRPTSQRFTDQAYIQSGITDADLAKEPDFSAVDA---DIIYVSCTSPAVAKRAAT-  266
+             +   +PT   F D  + Q          E  F +V     DI++V   + A+    ++ 
+Sbjct  223  TLKF-KPTDTTFEDSRHGQ----------EVSFESVKEINPDILFVINRTLAIGGDNSSN  271
+
+Query  267  --VLDSGPWRKLSANHDNRIFIVNDEVWQ-TGEGLIAARGIVDDLR  309
+              VL++    +  A  + +I  +  ++W  +G GL + + +++D++
+Sbjct  272  DGVLENALIAETPAAKNGKIIQLTPDLWYLSGGGLESTKLMIEDIQ  317
+
+
+>VFG044273(gb|WP_001214661) (NWMN_RS12035) ABC transporter substrate-binding 
+protein [Staphyloferrin A (VF1013) - Nutritional/Metabolic 
+factor (VFC0272)] [Staphylococcus aureus subsp. 
+aureus str. Newman]
+Length=327
+
+ Score = 59.3 bits (142),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 63/277 (23%), Positives = 117/277 (42%), Gaps = 13/277 (5%)
+
+Query  39   VQVPAEAQRIVVLAGDQLDALCALGLQYRVAAAALPNDSVSQPSYLGKTVHGLPGVGTRR  98
+            V+VP +A+RIVVL     DAL AL ++    A       + +P  + + +     VGTR+
+Sbjct  48   VKVPKDAKRIVVLEYSFADALAALDVKPVGIADDGKKKRIIKP--VREKIGDYTSVGTRK  105
+
+Query  99   APDLSAIAATQPDLILGSQELTPQLYPQLTAIAPTVFTAAAPGATWEDNLRGVGA-ATAR  157
+             P+L  I+  +PDLI+        +  +L  IAPT+   +  G  ++ N+      A A 
+Sbjct  106  QPNLEEISKLKPDLIIADSSRHKGINKELNKIAPTLSLKSFDG-DYKQNINSFKTIAKAL  164
+
+Query  158  NDAVETLINGFSQRATQIGATHDATHY----QVSIVQLTTNTMRVYGSNNFPARVLTAVG  213
+            N   E      ++    I    D   +    +V    +    +  + + ++  + L  +G
+Sbjct  165  NKEKEGE-KRLAEHDKLINKYKDEIKFDRNQKVLPAVVAKAGLLAHPNYSYVGQFLNELG  223
+
+Query  214  VDRPTSQRFTD--QAYIQSGITDADLAKEPDFSAVDADIIYVSCTSPAVAKRAATVLDSG  271
+                 S   T     Y++      D     D +     +I ++  +   +     + +  
+Sbjct  224  FKNALSDDVTKGLSKYLKGPYLQLDTEHLADLNP--ERMIIMTDHAKKDSAEFKKLQEDA  281
+
+Query  272  PWRKLSANHDNRIFIVNDEVWQTGEGLIAARGIVDDL  308
+             W+KL+A  +NR+ IV+ +VW    GLI++  +  +L
+Sbjct  282  TWKKLNAVKNNRVDIVDRDVWARSRGLISSEEMAKEL  318
+
+
+>VFG016172(gb|WP_011267800) (cbrA) iron-siderophore ABC transporter 
+substrate-binding protein [Achromobactin biosynthesis 
+and transport (VF0922) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas syringae pv. syringae B728a]
+Length=301
+
+ Score = 57.0 bits (136),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 53/233 (23%), Positives = 97/233 (42%), Gaps = 16/233 (7%)
+
+Query  83   YLGKTVHGLPGVGTRRAPDLSAIAATQPDLILGSQELTPQLYPQLTAIAPTVFTAAAPGA  142
+            YL   +  +P VG    P L  I   +PDLI+ S+    ++ P L  I   +        
+Sbjct  68   YLRPALAAVPHVGLETQPSLEDIVLLKPDLIVASRFRHQRIAPLLEQIGMVLMLEEV--F  125
+
+Query  143  TWEDNLRGVGAATARNDAVETLINGFSQRATQIGATHDATH-----YQVSIVQLTTNTMR  197
+             ++  L  +G A  R      L+  + QR   +     A         VS++ +  + +R
+Sbjct  126  EFKRTLAMMGVALQRQQLAMDLLGQWQQRVAAVRGQLQAKFAGRWPITVSVLDIREDHIR  185
+
+Query  198  VYGSNNFPARVLTAVGVDRPTSQRFTDQAYIQSGITDADLAKEPDFSAVDADIIYV--SC  255
+             Y   +F   VL+ +G        +T  A   SG++   L+ +     VDAD+ +V    
+Sbjct  186  SYLPASFAGSVLSELGFA------WTPAAREASGVS-LKLSSKESLPVVDADLFFVFQRA  238
+
+Query  256  TSPAVAKRAATVLDSGPWRKLSANHDNRIFIVNDEVWQTGEGLIAARGIVDDL  308
+             S A       ++ +  W++L A  D +++ V+   W    G++ A  ++D++
+Sbjct  239  DSNAAQHTYDKLVQNPFWQQLRAVRDGQVWRVDAIAWSLSGGILGANRMLDEV  291
+
+
+>VFG021789(gb|WP_013241843) (ciuA) ABC transporter substrate-binding 
+protein [Ciu iron uptake and siderophore biosynthesis 
+system (VF0740) - Nutritional/Metabolic factor (VFC0272)] [Corynebacterium 
+pseudotuberculosis FRC41]
+Length=301
+
+ Score = 51.6 bits (122),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 52/201 (26%), Positives = 85/201 (42%), Gaps = 9/201 (4%)
+
+Query  17   ATVDPGPPTRPAHNVAGVKPDVVQVPAEAQRIVVLAGDQLDALCALGLQYRVAAAALPND  76
+            A +  G  T  + N AG      Q  A A+R+V L     + L ALG+Q       +   
+Sbjct  28   ALILGGCSTTNSTNSAGEGSKEAQ-QASAKRVVALDWRYEEILYALGVQ---PVGIVEIG  83
+
+Query  77   SVSQPSYLGKTVHGLPGVGTRRAPDLSAIAATQPDLILGSQELTPQLYPQLTAIAPTVFT  136
+               +P  L   +     VG  + P+L  I + +PDLIL S      +  QL  IAPT   
+Sbjct  84   KSKEPQTLKGKLGDATSVGQAKQPNLEVIQSLEPDLILASPTRQAGIMEQLKNIAPTEAY  143
+
+Query  137  AAAPGATWEDNLRGVGAATARNDAVETLINGFSQRATQIGATHD--ATHYQVSIVQLTTN  194
+                     D++  +     + D    +    S+  ++IG   +  A   + +++  + N
+Sbjct  144  QDTSYVDVLDSMDSIAKILGKEDKAAEV---RSRIESKIGTAKNKVALGTRTALIGWSKN  200
+
+Query  195  TMRVYGSNNFPARVLTAVGVD  215
+            T+  +  ++FP  +LTAVG D
+Sbjct  201  TLYTWVKDSFPGSLLTAVGYD  221
+
+
+>VFG007242(gb|WP_005487329) (vctP) siderophore ABC transporter 
+substrate-binding protein [VctPDGC system (VF0638) - Nutritional/Metabolic 
+factor (VFC0272)] [Vibrio parahaemolyticus RIMD 
+2210633]
+Length=302
+
+ Score = 50.4 bits (119),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 49/140 (35%), Positives = 63/140 (45%), Gaps = 22/140 (16%)
+
+Query  35   KPDVVQVPAEAQRIVVLAGDQLDALCALGLQYRVAAAALPNDSVSQPSYLGK-TVHGLPG  93
+            K ++ Q P   +R+VV+    LDAL   G+       A+ N S   PSYL K +      
+Sbjct  31   KTELEQSP---KRVVVIGFGPLDALDNFGID----PVAVSNAS-HLPSYLSKYSKENYTS  82
+
+Query  94   VGTRRAPDLSAIAATQPDLIL----GSQELTPQLYPQLTAIAPTVFTAAAPG-ATWED--  146
+             G+   PD  AI   +PDLIL    GS +     Y +L+ IAPTV  AA  G   WE   
+Sbjct  83   AGSLFEPDFEAIYMQKPDLILVGPRGSAK-----YEELSEIAPTVVFAAKEGEGYWEGTQ  137
+
+Query  147  -NLRGVGAATARNDAVETLI  165
+               R +G      D VE  I
+Sbjct  138  AQWRNIGKIFNIEDKVEQKI  157
+
+
+>VFG007243(gb|WP_011081759) (vctP) siderophore ABC transporter 
+substrate-binding protein [VctPDGC system (VF0638) - Nutritional/Metabolic 
+factor (VFC0272)] [Vibrio vulnificus CMCP6]
+Length=302
+
+ Score = 49.7 bits (117),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 47/179 (26%), Positives = 74/179 (41%), Gaps = 11/179 (6%)
+
+Query  46   QRIVVLAGDQLDALCALGLQYRVAAAALPNDSVSQPSYLGKTVHG-LPGVGTRRAPDLSA  104
+            +R+VV+    LDAL  LG++  VA A  P      P YL K         G+   PD   
+Sbjct  39   KRVVVIGHGALDALDYLGIE-PVAVAKAP----IMPQYLDKFQDAKYASAGSLFEPDFET  93
+
+Query  105  IAATQPDLILGSQELTPQLYPQLTAIAPT-VFTAAAPGATW---EDNLRGVGAATARNDA  160
+            I + +PDLI+     T + Y +L+ IAPT VF+A      W   +   R +G        
+Sbjct  94   IYSQKPDLIIIGPRATSK-YKELSEIAPTIVFSADLKQGYWQSTQKQWRNMGEIFNAQQK  152
+
+Query  161  VETLINGFSQRATQIGATHDATHYQVSIVQLTTNTMRVYGSNNFPARVLTAVGVDRPTS  219
+            +E  I+  ++    I   ++        +  +   +  +GS +  A V    G    +S
+Sbjct  153  IEQKISQLNEEFAAIKQYNEKNQVDALTIMTSGGNITTFGSQSRFASVYEDFGFKESSS  211
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.132    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2268039528
+
+
+Query= g2994.t1
+
+Length=327
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG013748(gb|WP_010934776) (fagD) iron-siderophore ABC transporte...  135     4e-37
+VFG013752(gb|WP_011015613) (fagD) iron-siderophore ABC transporte...  125     2e-33
+VFG013751(gb|WP_011898148) (fagD) iron-siderophore ABC transporte...  125     2e-33
+VFG021797(gb|WP_014300363) (fagD) iron-siderophore ABC transporte...  124     7e-33
+VFG044355(gb|WP_013317298) (DDA3937_RS07750) iron-siderophore ABC...  82.4    8e-18
+VFG044273(gb|WP_001214661) (NWMN_RS12035) ABC transporter substra...  72.8    2e-14
+VFG044253(gb|WP_001045111) (sirA) staphyloferrin B ABC transporte...  72.8    2e-14
+VFG016173(gb|WP_011168764) (cbrA) iron-siderophore ABC transporte...  66.2    3e-12
+VFG044176(gb|WP_011106550) (VP_RS23080) Fe(3+) dicitrate ABC tran...  65.5    6e-12
+VFG005812(gb|WP_000858246) (piuA) siderophore ABC transporter sub...  63.9    2e-11
+VFG005813(gb|WP_000858264) (piuA) siderophore ABC transporter sub...  63.2    3e-11
+VFG019103(gb|WP_000858260) (piuA) siderophore ABC transporter sub...  61.6    1e-10
+VFG016172(gb|WP_011267800) (cbrA) iron-siderophore ABC transporte...  60.8    2e-10
+VFG021789(gb|WP_013241843) (ciuA) ABC transporter substrate-bindi...  60.5    3e-10
+VFG044313(gb|WP_006492070) (QU43_RS44990) iron-siderophore ABC tr...  58.9    9e-10
+VFG013721(gb|WP_010934397) (ciuA) iron-siderophore ABC transporte...  50.1    8e-07
+VFG007243(gb|WP_011081759) (vctP) siderophore ABC transporter sub...  47.0    7e-06
+
+
+>VFG013748(gb|WP_010934776) (fagD) iron-siderophore ABC transporter 
+substrate-binding protein [ABC transporter (VF0741) - 
+Nutritional/Metabolic factor (VFC0272)] [Corynebacterium diphtheriae 
+NCTC 13129]
+Length=347
+
+ Score = 135 bits (341),  Expect = 4e-37, Method: Compositional matrix adjust.
+ Identities = 97/300 (32%), Positives = 146/300 (49%), Gaps = 16/300 (5%)
+
+Query  21   DESCARAAAAADPGPPTRPAHNAAGVSPEMVQVPAEAQRIVVLSGDQLDALCALGLQSRI  80
+            D+  A+  + A PG   R   +AAG +    ++  + +R+VVL   +LD++ +LG+    
+Sbjct  58   DQETAKLGSDAQPGQFPRTVVHAAGTT----EITTKPERVVVLDTGELDSVLSLGITP--  111
+
+Query  81   VAAALPNSSSSQPSYLGTTVHDLPGVGTRSAPDLRAIAAAHPDLILGSQGLTPQLYPQLA  140
+            V       ++  PSYL   V D+  VGT +  ++ AIAA  PDLI+GSQ    +LYPQL+
+Sbjct  112  VGMTTTKGANPVPSYLADKVKDVERVGTINELNIEAIAALKPDLIIGSQLRADKLYPQLS  171
+
+Query  141  AIAPTVFTAAPGADWENNLRGVGAATARIAAVDALITGFAEHATQVGTKHDATHFQASIV  200
+             IAPTVF+  PG+ W+ N   VG A       +  +  +A+   ++   +   + + S+V
+Sbjct  172  DIAPTVFSIRPGSPWKENFLLVGEALGMEKEAEEKLNEYADRVAEL-KNNVPQNTEVSLV  230
+
+Query  201  QLTANTMRVYGANNFPASVLSAVGVDRPPSQRFTDKAYIEIGTTAADLAKSPDFSAADAD  260
+            +   N +R+YG  +    VL+  G+ RP  Q   D A +EI     D        AA + 
+Sbjct  231  RFMPNKLRLYGNKSLIGVVLADAGLARPEKQNVDDLA-VEISPENID-------QAAGSV  282
+
+Query  261  IVYLSCASEAAAERAAVILDSDPWRKLSANRDNRVFVVNDQVWQTGEGMVAARGIVDDLR  320
+            I Y S     A    AV+ +   W+ L A    +   VND VW  G G   A  IV DL 
+Sbjct  283  IFYTSYGKPDATGETAVV-EGPAWKNLEAVAAGKAHRVNDDVWFLGLGPTGAMEIVSDLH  341
+
+
+>VFG013752(gb|WP_011015613) (fagD) iron-siderophore ABC transporter 
+substrate-binding protein [ABC transporter (VF0741) - 
+Nutritional/Metabolic factor (VFC0272)] [Corynebacterium glutamicum 
+ATCC 13032 (DSM 20300)]
+Length=342
+
+ Score = 125 bits (315),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 93/301 (31%), Positives = 145/301 (48%), Gaps = 18/301 (6%)
+
+Query  21   DESCARAAAAADPGPPTRPAHNAAGVSPEMVQVPAEAQRIVVLSGDQLDALCALGLQSRI  80
+            D + A   + A+PG   R   ++ G +  + Q P   QR+VVL   ++D + +LG+    
+Sbjct  54   DSATAALGSDAEPGQFPRTVVHSRGETT-LEQQP---QRVVVLDSGEIDQVLSLGVTP--  107
+
+Query  81   VAAALPNSSSSQPSYLGTTVHDLPGVGTRSAPDLRAIAAAHPDLILGSQGLTPQLYPQLA  140
+            V  A P  +SSQP+YL   + D+  VGT S  +  AIAA  PDLILGS+    + Y QL+
+Sbjct  108  VGIASPKDASSQPAYLENQLADVQTVGTTSELNFEAIAALKPDLILGSKLRVDESYDQLS  167
+
+Query  141  AIAPTVFTAAPGADWENNLRGVGAATARIAAVDALITGFAEHATQVGTKHDATHFQASIV  200
+             IAPTV +  PG  W+ N      A         ++  +  H   V    D +  + S+V
+Sbjct  168  QIAPTVLSIRPGFPWKENFLLTADALGLEGKAVEVLNEYQTHVDAVRETIDGSP-EISLV  226
+
+Query  201  QLTANTMRVYGANNFPASVLSAVGVDRPPSQRFTDKAYIEIGTTAADLAKSPD-FSAADA  259
+            +      R+YG  +F  ++L  +G+ RP  Q   D A +EI         SP+  + A+ 
+Sbjct  227  RFMPGRTRLYGNLSFIGAILKDLGLSRPEIQNIDDLA-VEI---------SPENITDANG  276
+
+Query  260  DIVYLSCASEAAAERAAVILDSDPWRKLSANRDNRVFVVNDQVWQTGEGMVAARGIVDDL  319
+            D ++ S   +  A     IL ++ W  L A ++     VND+ W  G G + A  ++DD+
+Sbjct  277  DWIFYSTYGKPEATEQDNILSNELWHNLPAVQEGHALEVNDESWFMGLGPLGANEVLDDI  336
+
+Query  320  R  320
+             
+Sbjct  337  E  337
+
+
+>VFG013751(gb|WP_011898148) (fagD) iron-siderophore ABC transporter 
+substrate-binding protein [ABC transporter (VF0741) - 
+Nutritional/Metabolic factor (VFC0272)] [Corynebacterium glutamicum 
+R]
+Length=342
+
+ Score = 125 bits (315),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 93/301 (31%), Positives = 145/301 (48%), Gaps = 18/301 (6%)
+
+Query  21   DESCARAAAAADPGPPTRPAHNAAGVSPEMVQVPAEAQRIVVLSGDQLDALCALGLQSRI  80
+            D + A   + A+PG   R   ++ G +  + Q P   QR+VVL   ++D + +LG+    
+Sbjct  54   DSATAALGSDAEPGQFPRTVVHSRGETT-LEQQP---QRVVVLDSGEIDQVLSLGVTP--  107
+
+Query  81   VAAALPNSSSSQPSYLGTTVHDLPGVGTRSAPDLRAIAAAHPDLILGSQGLTPQLYPQLA  140
+            V  A P  +SSQP+YL   + D+  VGT S  +  AIAA  PDLILGS+    + Y QL+
+Sbjct  108  VGIASPKDASSQPAYLKDQLADVQTVGTTSELNFEAIAALKPDLILGSKLRVDESYDQLS  167
+
+Query  141  AIAPTVFTAAPGADWENNLRGVGAATARIAAVDALITGFAEHATQVGTKHDATHFQASIV  200
+             IAPTV +  PG  W+ N      A         ++  +  H   V    D +  + S+V
+Sbjct  168  QIAPTVLSIRPGFPWKENFLFTADALGLEGKAVEVLNEYQTHVDAVRETIDGSP-EISLV  226
+
+Query  201  QLTANTMRVYGANNFPASVLSAVGVDRPPSQRFTDKAYIEIGTTAADLAKSPD-FSAADA  259
+            +      R+YG  +F   +L  +G+ RP  Q   D A +EI         SP+  + A+ 
+Sbjct  227  RFMPGRTRLYGNLSFIGVILKDLGLSRPEIQNIDDLA-VEI---------SPENIADANG  276
+
+Query  260  DIVYLSCASEAAAERAAVILDSDPWRKLSANRDNRVFVVNDQVWQTGEGMVAARGIVDDL  319
+            D ++ S   +  A     IL ++ W  L A +D +   VND+ W  G G + A  +++D+
+Sbjct  277  DWIFYSTYGKPEATEQDNILSNELWHNLPAVQDGKALEVNDESWFMGLGPLGANEVLNDI  336
+
+Query  320  R  320
+             
+Sbjct  337  E  337
+
+
+>VFG021797(gb|WP_014300363) (fagD) iron-siderophore ABC transporter 
+substrate-binding protein [ABC transporter (VF0741) - 
+Nutritional/Metabolic factor (VFC0272)] [Corynebacterium pseudotuberculosis 
+FRC41]
+Length=350
+
+ Score = 124 bits (312),  Expect = 7e-33, Method: Compositional matrix adjust.
+ Identities = 85/300 (28%), Positives = 142/300 (47%), Gaps = 16/300 (5%)
+
+Query  21   DESCARAAAAADPGPPTRPAHNAAGVSPEMVQVPAEAQRIVVLSGDQLDALCALGLQSRI  80
+            D   A+  + A PG   R   +A G +    ++  + +R+VVL   +LD++ +LG+    
+Sbjct  61   DAETAKLGSDAAPGEFPRTVKHALGET----EIKEQPKRVVVLDTGELDSVLSLGITP--  114
+
+Query  81   VAAALPNSSSSQPSYLGTTVHDLPGVGTRSAPDLRAIAAAHPDLILGSQGLTPQLYPQLA  140
+            V       ++  PSYL   V D+  VGT +  ++  IAA  PDLILGS+    ++Y QLA
+Sbjct  115  VGMVTTKGANPVPSYLADKVKDVKSVGTINEINVEEIAALQPDLILGSKLRADKIYAQLA  174
+
+Query  141  AIAPTVFTAAPGADWENNLRGVGAATARIAAVDALITGFAEHATQVGTKHDATHFQASIV  200
+             +APTVF+  PG  W+ N   +G A  +    +A +  + E    +     A     S++
+Sbjct  175  EVAPTVFSIRPGFPWKENFLLIGDALGKEKEAEAKLNEYTEKVETIKASVPADT-TVSLL  233
+
+Query  201  QLTANTMRVYGANNFPASVLSAVGVDRPPSQRFTDKAYIEIGTTAADLAKSPDFSAADAD  260
+            +     +R+YG  +    +L   G+ RP +Q   D+   EI     D         A+  
+Sbjct  234  RFMPKRIRLYGNKSLLGVILKDAGLARPENQNI-DELATEISPETID--------QAEGS  284
+
+Query  261  IVYLSCASEAAAERAAVILDSDPWRKLSANRDNRVFVVNDQVWQTGEGMVAARGIVDDLR  320
+            +++ S   +  A     I++   W+ L+A ++ +   VND VW  G G   A  IV++L+
+Sbjct  285  VIFYSSYGKPDATGQDAIVNGAAWKNLNAVKNGQAHEVNDDVWFLGLGPTGAMQIVEELK  344
+
+
+>VFG044355(gb|WP_013317298) (DDA3937_RS07750) iron-siderophore 
+ABC transporter substrate-binding protein [Achromobactin (VF1243) 
+- Nutritional/Metabolic factor (VFC0272)] [Dickeya dadantii 
+3937]
+Length=305
+
+ Score = 82.4 bits (202),  Expect = 8e-18, Method: Compositional matrix adjust.
+ Identities = 80/284 (28%), Positives = 125/284 (44%), Gaps = 27/284 (10%)
+
+Query  48   PEMVQVPAEAQRIVVLSGDQLDALCALGLQSRIVAAALPNSSSSQP--SYLGTTVHDLPG  105
+            P + Q     QR++ L     D   ALG    I  A + +S S +P   YL   +  +P 
+Sbjct  26   PALAQSLFMPQRVITLFQGATDTAVALG----ITPAGVVDSWSEKPMYRYLRQALAGVPH  81
+
+Query  106  VGTRSAPDLRAIAAAHPDLILGSQGLTPQLYPQLAAIAPTVFTAAPGADWENNLRGVGAA  165
+            VG  + P L  I    PD I+ S+    +L P L+ IAP V        ++  ++ +G A
+Sbjct  82   VGLETQPSLEDIVLLKPDAIVASRFRHQRLEPLLSQIAPVVMLDEI-YQFKKTVQVMGQA  140
+
+Query  166  TARIAAVDAL-------ITGFAEHAT-QVGTKHDATHFQASIVQLTANTMRVYGANNFPA  217
+              R A  D L       + G  E    + G     T    SI+ +  + +R Y   +FP 
+Sbjct  141  LQRQAVADQLLQNWQLRVNGLREQLQRKFGGDWPPT---VSILDIREDHIRSYLPGSFPG  197
+
+Query  218  SVLSAVGVDRPPSQRFTDKAYIEIGTTAADLAKSPDFSAADADIVYLSCASEA-AAERAA  276
+            SVLS +G        ++D +  + G +   L         DADI ++   SE+ + +R  
+Sbjct  198  SVLSELGFG------WSDASRAQPGVSL-KLTNKESIPVVDADIFFIFLRSESPSVQRNY  250
+
+Query  277  VILDSDP-WRKLSANRDNRVFVVNDQVWQTGEGMVAARGIVDDL  319
+              L   P W++L A R N+V+VVN   W    G++ A  ++DD+
+Sbjct  251  ESLIRHPLWQQLRAPRRNQVWVVNGVTWSLSGGILGANMMLDDI  294
+
+
+>VFG044273(gb|WP_001214661) (NWMN_RS12035) ABC transporter substrate-binding 
+protein [Staphyloferrin A (VF1013) - Nutritional/Metabolic 
+factor (VFC0272)] [Staphylococcus aureus subsp. 
+aureus str. Newman]
+Length=327
+
+ Score = 72.8 bits (177),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 68/281 (24%), Positives = 120/281 (43%), Gaps = 22/281 (8%)
+
+Query  51   VQVPAEAQRIVVLSGDQLDALCALGLQSRIVAAALPNSSSSQPSYLGTTVHDLPGVGTRS  110
+            V+VP +A+RIVVL     DAL AL ++   +A         +P  +   + D   VGTR 
+Sbjct  48   VKVPKDAKRIVVLEYSFADALAALDVKPVGIADDGKKKRIIKP--VREKIGDYTSVGTRK  105
+
+Query  111  APDLRAIAAAHPDLILGSQGLTPQLYPQLAAIAPTVFTAAPGADWENNLRGVGAATARIA  170
+             P+L  I+   PDLI+        +  +L  IAPT+   +   D++ N+         + 
+Sbjct  106  QPNLEEISKLKPDLIIADSSRHKGINKELNKIAPTLSLKSFDGDYKQNINSFKTIAKALN  165
+
+Query  171  AVDALITGFAEHATQVGTKHDATHFQASIVQLTANTMR----VYGANNFPASVLSAVGVD  226
+                     AEH   +    D   F  +   L A   +     +   ++    L+ +G  
+Sbjct  166  KEKEGEKRLAEHDKLINKYKDEIKFDRNQKVLPAVVAKAGLLAHPNYSYVGQFLNELGFK  225
+
+Query  227  RPPSQ-------RFTDKAYIEIGTT-AADLAKSPDFSAADADIVYLSCASEAAAERAAVI  278
+               S        ++    Y+++ T   ADL  +P+       I+    A + +AE   + 
+Sbjct  226  NALSDDVTKGLSKYLKGPYLQLDTEHLADL--NPERM-----IIMTDHAKKDSAEFKKLQ  278
+
+Query  279  LDSDPWRKLSANRDNRVFVVNDQVWQTGEGMVAARGIVDDL  319
+             D+  W+KL+A ++NRV +V+  VW    G++++  +  +L
+Sbjct  279  EDA-TWKKLNAVKNNRVDIVDRDVWARSRGLISSEEMAKEL  318
+
+
+>VFG044253(gb|WP_001045111) (sirA) staphyloferrin B ABC transporter 
+substrate-binding protein SirA [Staphyloferrin B (VF1014) 
+- Nutritional/Metabolic factor (VFC0272)] [Staphylococcus 
+aureus subsp. aureus str. Newman]
+Length=330
+
+ Score = 72.8 bits (177),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 68/281 (24%), Positives = 126/281 (45%), Gaps = 22/281 (8%)
+
+Query  52   QVPAEAQRIVVLSGDQLDALCALGLQSRIVAAALPNSSSSQPSYLGTTVHDLPGVGTRSA  111
+            ++  + +R+V L     D   +LG++   V A    +   +  Y+   + D   VG   A
+Sbjct  48   EIKGKPKRVVTLYQGATDVAVSLGVKP--VGAVESWTQKPKFEYIKNDLKDTKIVGQEPA  105
+
+Query  112  PDLRAIAAAHPDLILGSQGLTPQLYPQLAAIAPTVFTAAPGADWENNLRGVGAATARIAA  171
+            P+L  I+   PDLI+ S+    ++Y QL+ IAPTV T      +++  + +G A  +   
+Sbjct  106  PNLEEISKLKPDLIVASKVRNEKVYDQLSKIAPTVSTDTVFK-FKDTTKLMGKALGKEKE  164
+
+Query  172  VDALITGFAEH--ATQVGTK---HDATHFQASIVQLTANTMRVYGANNFPASVLSAVGVD  226
+             + L+  + +   A Q   K    DA   +AS+V   A+  R+Y A  +   +L+ +G  
+Sbjct  165  AEDLLKKYDDKVAAFQKDAKAKYKDAWPLKASVVNFRADHTRIY-AGGYAGEILNDLGFK  223
+
+Query  227  RPPSQRFTDKAYIEIGTTAADLAKSPDFSAADADIVYLSCASEAAAERAAVI-------L  279
+            R    +      ++ G     L         +AD +++   S+  A+ AA++        
+Sbjct  224  RNKDLQ----KQVDNGKDIIQLTSKESIPLMNADHIFV-VKSDPNAKDAALVKKTESEWT  278
+
+Query  280  DSDPWRKLSANRDNRVFVVNDQV-WQTGEGMVAARGIVDDL  319
+             S  W+ L A ++N+V    D++ W    G  ++  ++DDL
+Sbjct  279  SSKEWKNLDAVKNNQVSDDLDEITWNLAGGYKSSLKLIDDL  319
+
+
+>VFG016173(gb|WP_011168764) (cbrA) iron-siderophore ABC transporter 
+substrate-binding protein [Achromobactin biosynthesis 
+and transport (VF0922) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas syringae pv. phaseolicola 1448A]
+Length=306
+
+ Score = 66.2 bits (160),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 63/270 (23%), Positives = 117/270 (43%), Gaps = 21/270 (8%)
+
+Query  59   RIVVLSGDQLDALCALGLQSRIVAAALPNSSSSQP--SYLGTTVHDLPGVGTRSAPDLRA  116
+            R+V L     D+  ALG    +    + +S S +P   YL   +  +P VG  + P L  
+Sbjct  39   RVVTLFQGASDSAVALG----VTPCGVVDSWSEKPMYRYLRPALAAVPHVGLETQPSLED  94
+
+Query  117  IAAAHPDLILGSQGLTPQLYPQLAAIAPTVFTAAPGADWENNLRGVGAATARIAAVDALI  176
+            I    PDLI+ S+    ++ P L  I+P V       +++  L  +GAA  R      L+
+Sbjct  95   IVLLKPDLIVASRFRHQRIAPLLEQISP-VLMLEEVFEFKRTLAMMGAAMLRQQQAMDLL  153
+
+Query  177  TGFAEHATQVGTKHDATH-----FQASIVQLTANTMRVYGANNFPASVLSAVGVDRPPSQ  231
+              + +  T + ++             S++ +  + +R Y   +F  SVL+ +G    P+ 
+Sbjct  154  GQWQQRVTALRSRLQEKFAGRWPITVSVLDIREDHIRSYLPASFAGSVLTELGFAWTPTA  213
+
+Query  232  RFTDKAYIEIGTTAADLAKSPDFSAADADIVYL--SCASEAAAERAAVILDSDPWRKLSA  289
+            R       E    +  L+        DAD+ ++     S+AA +    ++    W++L A
+Sbjct  214  R-------EATGVSLKLSSKESLPVVDADLFFIFQRADSKAAQQNYDKLVRHPFWQQLRA  266
+
+Query  290  NRDNRVFVVNDQVWQTGEGMVAARGIVDDL  319
+             +D +V+ V+   W    G++ A  ++D++
+Sbjct  267  AQDGQVWRVDAVAWSLSGGILGANRMLDEI  296
+
+
+>VFG044176(gb|WP_011106550) (VP_RS23080) Fe(3+) dicitrate ABC 
+transporter substrate-binding protein FecB [Vibrioferrin (VF0631) 
+- Nutritional/Metabolic factor (VFC0272)] [Vibrio parahaemolyticus 
+RIMD 2210633]
+Length=307
+
+ Score = 65.5 bits (158),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 72/273 (26%), Positives = 117/273 (43%), Gaps = 33/273 (12%)
+
+Query  58   QRIVVLSGDQLDALCALGLQSRIVAAALPNSSSSQPSYLGTTVHDLPGVGTRSAPDLRAI  117
+            QRIVVL    +DAL A+ +    V  A  N +      +   +     VG RS P L AI
+Sbjct  50   QRIVVLEFSFVDALAAVDVSP--VGVADDNDAIRVIPAVRAKIEPWQSVGMRSQPSLEAI  107
+
+Query  118  AAAHPDLILGSQGLTPQLYPQLAAIAPTVFTAAPGADWENNL---RGVGAATARIAAVDA  174
+            A   PDLI+        +Y  L  IAPT+   + G  ++ NL   + +G A  + A +  
+Sbjct  108  AVLKPDLIIADAERHCAIYQDLQRIAPTLLLKSRGETYQENLESAQKIGVAIGKQAQMTQ  167
+
+Query  175  LITGFAEHATQVGTKHDATHFQASIVQLTANTMRVYGANNFPASVLSAVGVDRP--PSQR  232
+             I    +   +   +H AT        ++   M ++   ++   VLS +G+  P  PS+R
+Sbjct  168  RIELHKQTMAEF-KQHFATQETIQFGVVSDKGMWLHSPVSYAGGVLSTLGIQSPLAPSER  226
+
+Query  233  FTDKAYIEIGTTAADLAKSPDFSAADADIVYLSCASEAAAERAAVILDSDPWRK------  286
+                AY  I T+   L K+      + D + +   S+            D WR+      
+Sbjct  227  ---NAY--IPTSFELLLKT------NPDWLLVGLYSQPNI--------VDEWRRNPLFKL  267
+
+Query  287  LSANRDNRVFVVNDQVWQTGEGMVAARGIVDDL  319
+            L+A++  ++  V+ ++W    GM+AA  I  +L
+Sbjct  268  LTASKKQQLVEVSPELWSLNRGMLAAEEIARNL  300
+
+
+>VFG005812(gb|WP_000858246) (piuA) siderophore ABC transporter 
+substrate-binding protein [Pneumococcal iron uptake (VF1066) 
+- Nutritional/Metabolic factor (VFC0272)] [Streptococcus pneumoniae 
+D39]
+Length=321
+
+ Score = 63.9 bits (154),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 58/212 (27%), Positives = 91/212 (43%), Gaps = 30/212 (14%)
+
+Query  39   PAHNAAGVSPEMVQVPAEAQRIVVLSGDQLDALCALGLQSRIVAAALPNSSSSQPSYLGT  98
+            P       S + V++    ++IV       D + ALG +  IV   +P  + + P+YL  
+Sbjct  39   PTEITIKSSLDEVKLSKVPEKIVTFDLGAADTIRALGFEKNIVG--MP--TKTVPTYLKD  94
+
+Query  99   TVHDLPGVGTRSAPDLRAIAAAHPDLILGSQGLTPQLYPQLAAIAPTVFTAAPGADWENN  158
+             V  +  VG+   PDL AIAA  PDLI+ S   T +   +   IAPTV   A   D+   
+Sbjct  95   LVGTVKNVGSMKEPDLEAIAALEPDLIIASPR-TQKFVDKFKEIAPTVLFQASKDDY---  150
+
+Query  159  LRGVGAATARIAAVDALITGFAEHATQ---------------VGTKHDATHFQASIVQLT  203
+                   T+  A +++L + F E +TQ               V TK++++  +A  + L 
+Sbjct  151  ------WTSTKANIESLASAFGETSTQKAKEELAKLDKSIQEVATKNESSDKKALAILLN  204
+
+Query  204  ANTMRVYGANNFPASVLSAVGVDRPPSQRFTD  235
+               M  +GA +   S L      +P   +F D
+Sbjct  205  EGKMAAFGAKS-RFSFLYQTLKFKPTDTKFED  235
+
+
+>VFG005813(gb|WP_000858264) (piuA) siderophore ABC transporter 
+substrate-binding protein [Pneumococcal iron uptake (VF1066) 
+- Nutritional/Metabolic factor (VFC0272)] [Streptococcus pneumoniae 
+TIGR4]
+Length=321
+
+ Score = 63.2 bits (152),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 58/212 (27%), Positives = 90/212 (42%), Gaps = 30/212 (14%)
+
+Query  39   PAHNAAGVSPEMVQVPAEAQRIVVLSGDQLDALCALGLQSRIVAAALPNSSSSQPSYLGT  98
+            P       S + V++    ++IV       D + ALG +  IV   +P  + + P+YL  
+Sbjct  39   PTEVTIKSSLDEVKLSKVPEKIVTFDLGAADTIRALGFEKNIVG--MP--TKTVPTYLKD  94
+
+Query  99   TVHDLPGVGTRSAPDLRAIAAAHPDLILGSQGLTPQLYPQLAAIAPTVFTAAPGADWENN  158
+             V  +  VG+   PDL AIAA  PDLI+ S   T +   +   IAPTV   A   D+   
+Sbjct  95   LVGTVKNVGSMKEPDLEAIAALEPDLIIASPR-TQKFVDKFKEIAPTVLFQASKDDY---  150
+
+Query  159  LRGVGAATARIAAVDALITGFAEHATQ---------------VGTKHDATHFQASIVQLT  203
+                   T+  A +++L + F E  TQ               V TK++++  +A  + L 
+Sbjct  151  ------WTSTKANIESLASAFGETGTQKAKEELTKLDKSIQEVATKNESSDKKALAILLN  204
+
+Query  204  ANTMRVYGANNFPASVLSAVGVDRPPSQRFTD  235
+               M  +GA +   S L      +P   +F D
+Sbjct  205  EGKMAAFGAKS-RFSFLYQTLKFKPTDTKFED  235
+
+
+>VFG019103(gb|WP_000858260) (piuA) siderophore ABC transporter 
+substrate-binding protein [Pneumococcal iron uptake (VF1066) 
+- Nutritional/Metabolic factor (VFC0272)] [Streptococcus pneumoniae 
+Hungary19A-6]
+Length=321
+
+ Score = 61.6 bits (148),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 58/212 (27%), Positives = 89/212 (42%), Gaps = 30/212 (14%)
+
+Query  39   PAHNAAGVSPEMVQVPAEAQRIVVLSGDQLDALCALGLQSRIVAAALPNSSSSQPSYLGT  98
+            P       S + V++    ++IV       D + ALG +  IV   +P  + + P+YL  
+Sbjct  39   PTEVTIKSSLDEVKLSKVPEKIVTFDLGAADTIRALGFEKNIVG--MP--TKTVPTYLKD  94
+
+Query  99   TVHDLPGVGTRSAPDLRAIAAAHPDLILGSQGLTPQLYPQLAAIAPTVFTAAPGADWENN  158
+             V  +  VG+   PDL AIAA  PDLI+ S   T +   +   IAPTV   A   D+   
+Sbjct  95   LVGTVKNVGSMKEPDLEAIAALEPDLIIASPR-TQKFVDKFKEIAPTVLFQASKDDY---  150
+
+Query  159  LRGVGAATARIAAVDALITGFAEHATQ---------------VGTKHDATHFQASIVQLT  203
+                   T+  A +++L + F E  TQ               V TK++++  +A  + L 
+Sbjct  151  ------WTSTKANIESLASAFGETGTQKAKEELAKLDKSIQEVATKNESSDKKALAILLN  204
+
+Query  204  ANTMRVYGANNFPASVLSAVGVDRPPSQRFTD  235
+               M  +GA +   S L      +P    F D
+Sbjct  205  EGKMAAFGAKS-RFSFLYQTLKFKPTDTTFED  235
+
+
+>VFG016172(gb|WP_011267800) (cbrA) iron-siderophore ABC transporter 
+substrate-binding protein [Achromobactin biosynthesis 
+and transport (VF0922) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas syringae pv. syringae B728a]
+Length=301
+
+ Score = 60.8 bits (146),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 66/270 (24%), Positives = 111/270 (41%), Gaps = 21/270 (8%)
+
+Query  59   RIVVLSGDQLDALCALGLQSRIVAAALPNSSSSQP--SYLGTTVHDLPGVGTRSAPDLRA  116
+            R+V L     D   ALG    +    + +S S +P   YL   +  +P VG  + P L  
+Sbjct  34   RVVTLFQGASDTAVALG----VTPCGVVDSWSEKPMYRYLRPALAAVPHVGLETQPSLED  89
+
+Query  117  IAAAHPDLILGSQGLTPQLYPQLAAIAPTVFTAAPGADWENNLRGVGAATARIAAVDALI  176
+            I    PDLI+ S+    ++ P L  I   V       +++  L  +G A  R      L+
+Sbjct  90   IVLLKPDLIVASRFRHQRIAPLLEQIG-MVLMLEEVFEFKRTLAMMGVALQRQQLAMDLL  148
+
+Query  177  TGFAEHATQVGTKHDATH-----FQASIVQLTANTMRVYGANNFPASVLSAVGVDRPPSQ  231
+              + +    V  +  A          S++ +  + +R Y   +F  SVLS +G    P+ 
+Sbjct  149  GQWQQRVAAVRGQLQAKFAGRWPITVSVLDIREDHIRSYLPASFAGSVLSELGFAWTPAA  208
+
+Query  232  RFTDKAYIEIGTTAADLAKSPDFSAADADIVY-LSCASEAAAERAAVILDSDP-WRKLSA  289
+            R       E    +  L+        DAD+ +    A   AA+     L  +P W++L A
+Sbjct  209  R-------EASGVSLKLSSKESLPVVDADLFFVFQRADSNAAQHTYDKLVQNPFWQQLRA  261
+
+Query  290  NRDNRVFVVNDQVWQTGEGMVAARGIVDDL  319
+             RD +V+ V+   W    G++ A  ++D++
+Sbjct  262  VRDGQVWRVDAIAWSLSGGILGANRMLDEV  291
+
+
+>VFG021789(gb|WP_013241843) (ciuA) ABC transporter substrate-binding 
+protein [Ciu iron uptake and siderophore biosynthesis 
+system (VF0740) - Nutritional/Metabolic factor (VFC0272)] [Corynebacterium 
+pseudotuberculosis FRC41]
+Length=301
+
+ Score = 60.5 bits (145),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 71/290 (24%), Positives = 119/290 (41%), Gaps = 28/290 (10%)
+
+Query  34   GPPTRPAHNAAGVSPEMVQVPAEAQRIVVLSGDQLDALCALGLQSRIVAAALPNSSSSQP  93
+            G  T  + N+AG   +  Q  A A+R+V L     + L ALG+Q       +    S +P
+Sbjct  33   GCSTTNSTNSAGEGSKEAQ-QASAKRVVALDWRYEEILYALGVQP---VGIVEIGKSKEP  88
+
+Query  94   SYLGTTVHDLPGVGTRSAPDLRAIAAAHPDLILGSQGLTPQLYPQLAAIAPTVFTAAPGA  153
+              L   + D   VG    P+L  I +  PDLIL S      +  QL  IAPT   A    
+Sbjct  89   QTLKGKLGDATSVGQAKQPNLEVIQSLEPDLILASPTRQAGIMEQLKNIAPT--EAYQDT  146
+
+Query  154  DWENNLRGVGAATARIAAVDALITGFAEHATQVGTKHDATHF--QASIVQLTANTMRVYG  211
+             + + L  + +    +   D      +   +++GT  +      + +++  + NT+  + 
+Sbjct  147  SYVDVLDSMDSIAKILGKEDKAAEVRSRIESKIGTAKNKVALGTRTALIGWSKNTLYTWV  206
+
+Query  212  ANNFPASVLSAVGVDRPPSQRFTDKAYIEIGTTAADLAKSPDFSAADADIVYLSCASEA-  270
+             ++FP S+L+AVG D     +   K+ IE  T  A+L           D++YL    E  
+Sbjct  207  KDSFPGSLLTAVGYDYGFDGQ---KSAIESKTDVAELT-GDKLPGMKLDVMYLYNDIEGF  262
+
+Query  271  -AAERAAVILDSDPWRKLSANRDNRVFVVNDQVWQTGEGMVAARGIVDDL  319
+             A+  A V+              +++  V    W    G +AA  ++D +
+Sbjct  263  RASPYAGVV--------------HKIVNVEQDTWSRSRGPLAAEAMLDQI  298
+
+
+>VFG044313(gb|WP_006492070) (QU43_RS44990) iron-siderophore ABC 
+transporter substrate-binding protein [Ornibactin (VF0701) 
+- Nutritional/Metabolic factor (VFC0272)] [Burkholderia cenocepacia 
+J2315]
+Length=342
+
+ Score = 58.9 bits (141),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 76/288 (26%), Positives = 123/288 (43%), Gaps = 35/288 (12%)
+
+Query  46   VSPEMVQVPAEAQRIVVLSGDQLDALCALGLQSRIVAAALPNSSSSQPSYLGTTVHDLPG  105
+            VS    ++P   QR+V L     +++ AL L    V A + +++   P +LG     L  
+Sbjct  54   VSQASAKMPVRPQRVVALDFMFAESVIALDL----VPAGMADTAF-YPGWLGYRSEQLAH  108
+
+Query  106  V---GTRSAPDLRAIAAAHPDLILGSQGLTPQLYPQLAAIAPTV-FTAAPGA--------  153
+            V   G+R  P L AIAA  PDLI+G       ++  L  IAPT+ F  +P          
+Sbjct  109  VTDIGSRQEPGLEAIAAVKPDLIIGVGFRHAPIFDALDRIAPTILFQFSPNVSEGGVPVT  168
+
+Query  154  --DWENNL-RGVGAAT---ARIAAVDALITGFAEHATQVGTKHDATHFQASIVQLTANTM  207
+              DW   + R +GA T   AR  AV+A +                   + +++Q      
+Sbjct  169  QLDWMRQIFRTIGAVTGRDARAQAVEAQLDAGIARNAARLAAAGRHGERVALLQDLGLPD  228
+
+Query  208  RV--YGANNFPASVLSAVGVDRPPSQRFTDKAYIEIGTTAADLAKSPDFSAADADIVYLS  265
+            R   Y  N+  A +  A+G+D P  ++ T +  + +  T+ADL +  D +        L 
+Sbjct  229  RYWAYTGNSTSAGLARALGLD-PWPKKPTREGTLYV--TSADLLRQRDLAV-------LF  278
+
+Query  266  CASEAAAERAAVILDSDPWRKLSANRDNRVFVVNDQVWQTGEGMVAAR  313
+              +       +  LDS  WR + A +D+R+ ++   +W  G  M A +
+Sbjct  279  VTASGMDVPLSTKLDSPVWRFVPALKDHRIALIERNIWGFGGPMSALK  326
+
+
+>VFG013721(gb|WP_010934397) (ciuA) iron-siderophore ABC transporter 
+substrate-binding protein [Ciu iron uptake and siderophore 
+biosynthesis system (VF0740) - Nutritional/Metabolic factor 
+(VFC0272)] [Corynebacterium diphtheriae NCTC 13129]
+Length=298
+
+ Score = 50.1 bits (118),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 66/275 (24%), Positives = 111/275 (40%), Gaps = 47/275 (17%)
+
+Query  59   RIVVLSGDQLDALCALGLQSRIVAAALPNSSSSQPSYLGTTVHDLPGVGTRSAPDLRAIA  118
+            R+V L     + L ALG+        +    S +P  L   +  +  VG    P+L  I 
+Sbjct  54   RVVALDWRYEEILHALGITP---VGIVEIGKSKEPQTLKGELEGVTSVGQAKQPNLEVIQ  110
+
+Query  119  AAHPDLILGSQGLTPQLYPQLAAIAPTVFTAAPGADWENNLRGVGAATARIAAVDALIT-  177
+            +  PDLIL S      +  QL  IAPT            +  G  + T  + A+D + T 
+Sbjct  111  SLEPDLILASPTRQAAIMDQLKEIAPT------------HAYGDTSYTEVLDAMDDIATK  158
+
+Query  178  -GFAEHATQVGTKHDATHFQA----------SIVQLTANTMRVYGANNFPASVLSAVGVD  226
+             G  + A +V T+ ++   QA          +++  + NT+  +  ++F  S+L+A G +
+Sbjct  159  VGAEDKAKEVRTRIESKIAQAKNKVEPGTRTALIGWSKNTLYTWVKDSFAGSLLTAAGYE  218
+
+Query  227  RPPSQRFTDKAYIEIGTTAADLA--KSPDFSAADADIVYLSCASEAAAERAAVILDSDPW  284
+                    +K+ IE  T  A+L   K P+      D++YL    E           S P+
+Sbjct  219  YGYD---GEKSAIESKTDVAELTGDKLPEMK---LDVMYLYNDIEG--------FRSSPY  264
+
+Query  285  RKLSANRDNRVFVVNDQVWQTGEGMVAARGIVDDL  319
+              + +N    +  V    W    G +AA  ++D +
+Sbjct  265  ADVVSN----IVDVEQDTWSRSRGPLAAEAMLDQI  295
+
+
+>VFG007243(gb|WP_011081759) (vctP) siderophore ABC transporter 
+substrate-binding protein [VctPDGC system (VF0638) - Nutritional/Metabolic 
+factor (VFC0272)] [Vibrio vulnificus CMCP6]
+Length=302
+
+ Score = 47.0 bits (110),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 61/270 (23%), Positives = 105/270 (39%), Gaps = 18/270 (7%)
+
+Query  58   QRIVVLSGDQLDALCALGLQSRIVAAALPNSSSSQPSYLGTTVH-DLPGVGTRSAPDLRA  116
+            +R+VV+    LDAL  LG++   VA A        P YL           G+   PD   
+Sbjct  39   KRVVVIGHGALDALDYLGIEPVAVAKA-----PIMPQYLDKFQDAKYASAGSLFEPDFET  93
+
+Query  117  IAAAHPDLILGSQGLTPQLYPQLAAIAPTVFTAA--PGADWEN---NLRGVGAATARIAA  171
+            I +  PDLI+     T + Y +L+ IAPT+  +A      W++     R +G        
+Sbjct  94   IYSQKPDLIIIGPRATSK-YKELSEIAPTIVFSADLKQGYWQSTQKQWRNMGEIFNAQQK  152
+
+Query  172  VDALITGFAEHATQVGTKHDATHFQASIVQLTANTMRVYGANNFPASVLSAVGVDRPPSQ  231
+            ++  I+   E    +   ++     A  +  +   +  +G+ +  ASV    G     S 
+Sbjct  153  IEQKISQLNEEFAAIKQYNEKNQVDALTIMTSGGNITTFGSQSRFASVYEDFGFKESSSN  212
+
+Query  232  RFTDKAYIEIGTTAADLAKSPDFSAADADIVYLSCASEAAAERAAVILDSDPWRKLSANR  291
+              T+     I     + A        D D   LS       E+    LD+D  +  +A +
+Sbjct  213  VKTNNHGDIISYEYINKANPSTLLVIDGD--KLSGKGNQVEEQ---YLDNDLVKATNAYK  267
+
+Query  292  DNRVFVVNDQVWQTG-EGMVAARGIVDDLR  320
+            + R+ +++   W     G+ A   +V D++
+Sbjct  268  NKRITLLDLDAWYLSISGISATEKMVSDIK  297
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.129    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2383541541
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

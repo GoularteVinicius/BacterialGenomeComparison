@@ -1,0 +1,1442 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g66.t1
+
+Length=255
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015602(gb|WP_005768204) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  54.7    9e-09
+VFG015603(gb|WP_011266128) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  54.3    1e-08
+VFG015604(gb|WP_011167284) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  53.9    2e-08
+VFG019940(gb|WP_012721457) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  51.6    1e-07
+VFG015608(gb|WP_011920370) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  50.1    3e-07
+
+
+>VFG015602(gb|WP_005768204) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas syringae pv. tomato str. 
+DC3000]
+Length=256
+
+ Score = 54.7 bits (130),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 57/202 (28%), Positives = 93/202 (46%), Gaps = 18/202 (9%)
+
+Query  15   LWLIQ---GLKVSVRGIENLPASGGAVIAINHTSYLDFTFAGLPAYQQGLGRKVRFMAKQ  71
+            LWL +    +KV V G +N+P +   +I+ NH S  +  F  L AY + L +    + K+
+Sbjct  52   LWLTRVFLNIKVEVSGADNVPKTPCVIIS-NHQSTWETFF--LSAYFEPLSQ----VLKR  104
+
+Query  72   EVFDGKITGPIMRRLRHIPVDRQEGAASYEAAVRN----LKDGELVGVYPEATISRSFEI  127
+            E+      G  M  LR I +DR    A+     +     LKDG  V ++PE T     ++
+Sbjct  105  ELLYVPFFGWAMAMLRPIAIDRDNPKAALREIAKKGDELLKDGVWVLIFPEGTRVPYGQV  164
+
+Query  128  KECKGGAARMSAEARVPIIPHIVWGSQRIWTKDCPKKLLRPKVPILVLVGEPIEPTLGVA  187
+             +   G   ++  A +P++P I   + + W +D   K  +P   I V++GEP+       
+Sbjct  165  GKFSRGGTALAVNADLPVLP-IAHNAGKYWPRDGWGK--KPGT-IQVVIGEPMYAEGTGP  220
+
+Query  188  QLKALLHFRMQHLLERAQELYG  209
+            +  A L+ R+Q   E  Q   G
+Sbjct  221  RAIAALNERVQTWNEDTQRALG  242
+
+
+>VFG015603(gb|WP_011266128) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas syringae pv. syringae B728a]
+Length=256
+
+ Score = 54.3 bits (129),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 55/202 (27%), Positives = 94/202 (47%), Gaps = 18/202 (9%)
+
+Query  15   LWLIQ---GLKVSVRGIENLPASGGAVIAINHTSYLDFTFAGLPAYQQGLGRKVRFMAKQ  71
+            +WL +    +KV V G EN+P +   +I+ NH S  +  F  L AY + + +    + K+
+Sbjct  52   IWLTKVFLNIKVEVTGAENVPKTPCVIIS-NHQSTWETFF--LSAYFEPMSQ----VLKR  104
+
+Query  72   EVFDGKITGPIMRRLRHIPVDRQEGAASYEAAVRN----LKDGELVGVYPEATISRSFEI  127
+            E+      G  M  LR I +DR+   A+     +     LKDG  V ++PE T     ++
+Sbjct  105  ELLYVPFFGWAMAMLRPIAIDRENPKAALREIAKKGDELLKDGVWVLIFPEGTRVPYGQV  164
+
+Query  128  KECKGGAARMSAEARVPIIPHIVWGSQRIWTKDCPKKLLRPKVPILVLVGEPIEPTLGVA  187
+             +   G   ++  A +P++P +   + + W +D   K  +P   I V++GEP+       
+Sbjct  165  GKFSRGGTALAVNADLPVLP-VAHNAGKYWPRDGWAK--KPGT-IQVVIGEPMYAEGTGP  220
+
+Query  188  QLKALLHFRMQHLLERAQELYG  209
+            +  A L+ R+Q   E  Q   G
+Sbjct  221  RAIAALNERVQAWNEDTQRAMG  242
+
+
+>VFG015604(gb|WP_011167284) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas syringae pv. phaseolicola 
+1448A]
+Length=256
+
+ Score = 53.9 bits (128),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 55/202 (27%), Positives = 93/202 (46%), Gaps = 18/202 (9%)
+
+Query  15   LWLIQ---GLKVSVRGIENLPASGGAVIAINHTSYLDFTFAGLPAYQQGLGRKVRFMAKQ  71
+            +WL +    ++V V G EN+P     +I+ NH S  +  F  L AY + + +    + K+
+Sbjct  52   IWLTKVFLNIQVEVTGAENVPTPPCVIIS-NHQSTWETFF--LSAYFEPMSQ----VLKR  104
+
+Query  72   EVFDGKITGPIMRRLRHIPVDRQEGAASYEAAVRN----LKDGELVGVYPEATISRSFEI  127
+            E+      G  M  LR I +DR    A+     +     LKDG  V ++PE T     ++
+Sbjct  105  ELLYVPFFGWAMAMLRPIAIDRDNPKAALREIAKKGDELLKDGVWVLIFPEGTRVPYGQV  164
+
+Query  128  KECKGGAARMSAEARVPIIPHIVWGSQRIWTKDCPKKLLRPKVPILVLVGEPIEPTLGVA  187
+             +   G   ++  A +P++P +   + + W +D   K  +P   I V++GEP+       
+Sbjct  165  GKFSRGGTALAVNADLPVLP-VAHNAGKYWPRDGWAK--KPGT-IQVVIGEPMYAEGTGP  220
+
+Query  188  QLKALLHFRMQHLLERAQELYG  209
+            +  A L+ R+Q   E AQ   G
+Sbjct  221  RAIAALNDRVQAWNEEAQRAMG  242
+
+
+>VFG019940(gb|WP_012721457) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas fluorescens SBW25]
+Length=256
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 50/173 (29%), Positives = 79/173 (46%), Gaps = 18/173 (10%)
+
+Query  15   LWLIQ---GLKVSVRGIENLPASGGAVIAINHTSYLDFTFAGLPAYQQGLGRKVRFMAKQ  71
+            LWL +    ++  ++G EN+P     VI  NH S  +  F  L AY   L +    + K+
+Sbjct  52   LWLTKVFLNIRFEIKGAENVP-DQPCVILSNHQSTWETFF--LSAYFSPLSQ----VLKR  104
+
+Query  72   EVFDGKITGPIMRRLRHIPVDRQEGAASYEAAVRN----LKDGELVGVYPEATISRSFEI  127
+            E+      G  M  LR I +DR    A+ +   +     LKDG  V ++PE T      +
+Sbjct  105  ELLYVPFFGWAMAMLRPIAIDRDNPKAALKHVAKKGDELLKDGVWVLIFPEGTRVPYGTV  164
+
+Query  128  KECKGGAARMSAEARVPIIPHIVWGSQRIWTKDCPKKLLRPKVPILVLVGEPI  180
+             +   G   ++  A +P++P I   + + W K    K  RP   I V++GEP+
+Sbjct  165  GKFSRGGTALAVNANLPVLP-IAHNAGKFWPKTGWAK--RPGT-ITVVIGEPM  213
+
+
+>VFG015608(gb|WP_011920370) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas mendocina ymp]
+Length=255
+
+ Score = 50.1 bits (118),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 49/168 (29%), Positives = 80/168 (48%), Gaps = 15/168 (9%)
+
+Query  17   LIQGLKVSVRGIENLPASGGAVIAINHTSYLDFTFAGLPAYQQGLGRKVRFMAKQEVFDG  76
+            +I G++  VRG+EN+P     ++A NH S  +  F  L +Y + L + V    K+E+   
+Sbjct  57   VIVGIRYEVRGLENIPERPCVILA-NHQSTWETFF--LSSYFEPLSQVV----KRELLRV  109
+
+Query  77   KITGPIMRRLRHIPVDRQEGAASYEAAVRN----LKDGELVGVYPEATISRSFEIKECKG  132
+               G  M  L+ I +DR    A+ +   +     LK G  V V+PE T     +I +   
+Sbjct  110  PFFGWGMALLKPIAIDRSNPKAALKQLAKQGEERLKQGAWVLVFPEGTRIPPGQIGKFSR  169
+
+Query  133  GAARMSAEARVPIIPHIVWGSQRIWTKDCPKKLLRPKVPILVLVGEPI  180
+            G   ++  A +P++P I   +   W K    K  RP   I V++G+P+
+Sbjct  170  GGTSLAVNAGLPVLP-IAHNAGEFWPKAGWGK--RPGT-IQVIIGQPM  213
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1657315079
+
+
+Query= g67.t1
+
+Length=143
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.133    0.392    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 571340159
+
+
+Query= g695.t1
+
+Length=244
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015608(gb|WP_011920370) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  59.3    2e-10
+VFG015607(gb|WP_011531470) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  57.4    8e-10
+VFG019939(gb|WP_012613418) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  54.7    8e-09
+VFG015600(gb|WP_003150817) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  54.3    1e-08
+VFG015599(gb|NP_064725) (hdtS) lysophosphatidic acid acyltransfer...  53.5    2e-08
+VFG019940(gb|WP_012721457) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  53.1    3e-08
+VFG015065(gb|WP_011058401) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  52.8    3e-08
+VFG015605(gb|WP_010951467) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  51.6    8e-08
+VFG015780(gb|WP_012269866) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  51.2    1e-07
+VFG015609(gb|WP_011911258) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  50.8    1e-07
+VFG015066(gb|WP_041475091) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  50.8    2e-07
+VFG015604(gb|WP_011167284) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  50.4    2e-07
+VFG015603(gb|WP_011266128) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  50.1    3e-07
+VFG015602(gb|WP_005768204) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  49.7    4e-07
+VFG015781(gb|WP_012312029) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  49.7    4e-07
+
+
+>VFG015608(gb|WP_011920370) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas mendocina ymp]
+Length=255
+
+ Score = 59.3 bits (142),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 53/193 (27%), Positives = 83/193 (43%), Gaps = 10/193 (5%)
+
+Query  20   RPKVEGLEYVPSSGPAILASNHLAVADSFYLPLVVRRRITFLAKSEYFTGTGLKGWFTSW  79
+            R +V GLE +P   P ++ +NH +  ++F+L         F   S+      L+  F  W
+Sbjct  62   RYEVRGLENIPER-PCVILANHQSTWETFFL------SSYFEPLSQVVKRELLRVPFFGW  114
+
+Query  80   FYRATGQVPIDRTDADTAEAAL-NTAERLLGHGKLIGMYPEGTRSPDGRLYKGKTGVARL  138
+                   + IDR++   A   L    E  L  G  + ++PEGTR P G++ K   G   L
+Sbjct  115  GMALLKPIAIDRSNPKAALKQLAKQGEERLKQGAWVLVFPEGTRIPPGQIGKFSRGGTSL  174
+
+Query  139  TLQTGVPVIPVAMIGTNVVNPPGSKMWRFGRVTVRFGKPMDFSRFEGAAGNRVIERVITD  198
+             +  G+PV+P+A        P      R G + V  G+PM ++  EG      +      
+Sbjct  175  AVNAGLPVLPIAH-NAGEFWPKAGWGKRPGTIQVIIGQPM-YAEGEGPRAIAELNERAFQ  232
+
+Query  199  EVIYELMELSGQE  211
+             V  +  EL G+E
+Sbjct  233  WVCRQQTELRGEE  245
+
+
+>VFG015607(gb|WP_011531470) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas entomophila L48]
+Length=256
+
+ Score = 57.4 bits (137),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 44/157 (28%), Positives = 74/157 (47%), Gaps = 25/157 (16%)
+
+Query  3    YWLFKYIFMGPALSVLGRP-KVEGLEYVPSSGPAILASNHLAVADSFYL-----PL--VV  54
+            YW    +F+    ++LG   K+ G E+VP   P ++ SNH +  ++F+L     PL  V+
+Sbjct  46   YWCRCALFL--VKTILGIDYKITGAEHVPDV-PCVILSNHQSTWETFFLSAYFSPLSQVL  102
+
+Query  55   RRRITFLAKSEYFTGTGLKGWFTSWFYRATGQVPIDRTDADTA-EAALNTAERLLGHGKL  113
+            +R + ++              F  W       + IDR +   A     +  + LL  G  
+Sbjct  103  KRELLYVP-------------FFGWAMAMLRPIAIDRKNPKEALRQVASQGDELLKQGTW  149
+
+Query  114  IGMYPEGTRSPDGRLYKGKTGVARLTLQTGVPVIPVA  150
+            + ++PEGTR P G++ K   G   L +  G+PV+P+A
+Sbjct  150  VLIFPEGTRVPHGQMGKFSRGGTALAVNAGLPVLPIA  186
+
+
+>VFG019939(gb|WP_012613418) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas aeruginosa LESB58]
+Length=257
+
+ Score = 54.7 bits (130),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 39/139 (28%), Positives = 64/139 (46%), Gaps = 22/139 (16%)
+
+Query  20   RPKVEGLEYVPSSGPAILASNHLAVADSFYL-----PL--VVRRRITFLAKSEYFTGTGL  72
+            R +V GLE +P   P ++ S H +  ++F+L     PL  V++R + ++           
+Sbjct  62   RYEVRGLENIPEK-PCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVP----------  110
+
+Query  73   KGWFTSWFYRATGQVPIDRTDADTAEAAL-NTAERLLGHGKLIGMYPEGTRSPDGRLYKG  131
+               F  W       + IDR+    A   L    +  L  G  + ++PEGTR P G++ K 
+Sbjct  111  ---FFGWALALLKPIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKF  167
+
+Query  132  KTGVARLTLQTGVPVIPVA  150
+              G   L +  G+PV+P+A
+Sbjct  168  SRGSTALAVNAGLPVLPIA  186
+
+
+>VFG015600(gb|WP_003150817) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas aeruginosa PA7]
+Length=257
+
+ Score = 54.3 bits (129),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 40/139 (29%), Positives = 64/139 (46%), Gaps = 22/139 (16%)
+
+Query  20   RPKVEGLEYVPSSGPAILASNHLAVADSFYL-----PL--VVRRRITFLAKSEYFTGTGL  72
+            R +V GLE VP   P ++ S H +  ++F+L     PL  V++R + ++           
+Sbjct  62   RYEVRGLENVPEQ-PCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVP----------  110
+
+Query  73   KGWFTSWFYRATGQVPIDRTDADTAEAAL-NTAERLLGHGKLIGMYPEGTRSPDGRLYKG  131
+               F  W       + IDR+    A   L    +  L  G  + ++PEGTR P G++ K 
+Sbjct  111  ---FFGWALALLKPIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKF  167
+
+Query  132  KTGVARLTLQTGVPVIPVA  150
+              G   L +  G+PV+P+A
+Sbjct  168  SRGGTALAVNAGLPVLPIA  186
+
+
+>VFG015599(gb|NP_064725) (hdtS) lysophosphatidic acid acyltransferase 
+[Acylhomoserine lactone synthase (VF0907) - Biofilm 
+(VFC0271)] [Pseudomonas aeruginosa PAO1]
+Length=257
+
+ Score = 53.5 bits (127),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 39/139 (28%), Positives = 64/139 (46%), Gaps = 22/139 (16%)
+
+Query  20   RPKVEGLEYVPSSGPAILASNHLAVADSFYL-----PL--VVRRRITFLAKSEYFTGTGL  72
+            R +V GLE +P   P ++ S H +  ++F+L     PL  V++R + ++           
+Sbjct  62   RYEVRGLENIPEK-PCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVP----------  110
+
+Query  73   KGWFTSWFYRATGQVPIDRTDADTAEAAL-NTAERLLGHGKLIGMYPEGTRSPDGRLYKG  131
+               F  W       + IDR+    A   L    +  L  G  + ++PEGTR P G++ K 
+Sbjct  111  ---FFGWALALLKPIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKF  167
+
+Query  132  KTGVARLTLQTGVPVIPVA  150
+              G   L +  G+PV+P+A
+Sbjct  168  SRGGTALAVNAGLPVLPIA  186
+
+
+>VFG019940(gb|WP_012721457) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas fluorescens SBW25]
+Length=256
+
+ Score = 53.1 bits (126),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 49/170 (29%), Positives = 76/170 (45%), Gaps = 29/170 (17%)
+
+Query  20   RPKVEGLEYVPSSGPAILASNHLAVADSFYL-----PL--VVRRRITFLAKSEYFTGTGL  72
+            R +++G E VP   P ++ SNH +  ++F+L     PL  V++R + ++           
+Sbjct  62   RFEIKGAENVPDQ-PCVILSNHQSTWETFFLSAYFSPLSQVLKRELLYVP----------  110
+
+Query  73   KGWFTSWFYRATGQVPIDRTDADTAEAALN----TAERLLGHGKLIGMYPEGTRSPDGRL  128
+               F  W       + IDR   D  +AAL       + LL  G  + ++PEGTR P G +
+Sbjct  111  ---FFGWAMAMLRPIAIDR---DNPKAALKHVAKKGDELLKDGVWVLIFPEGTRVPYGTV  164
+
+Query  129  YKGKTGVARLTLQTGVPVIPVAMIGTNVVNPPGSKMWRFGRVTVRFGKPM  178
+             K   G   L +   +PV+P+A        P      R G +TV  G+PM
+Sbjct  165  GKFSRGGTALAVNANLPVLPIAH-NAGKFWPKTGWAKRPGTITVVIGEPM  213
+
+
+>VFG015065(gb|WP_011058401) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas fluorescens Pf-5]
+Length=256
+
+ Score = 52.8 bits (125),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 49/170 (29%), Positives = 75/170 (44%), Gaps = 29/170 (17%)
+
+Query  20   RPKVEGLEYVPSSGPAILASNHLAVADSFYL-----PL--VVRRRITFLAKSEYFTGTGL  72
+            R +V+G E VP   P ++ SNH +  ++F+L     PL  V++R + ++           
+Sbjct  62   RVEVKGAENVPER-PCVIVSNHQSTWETFFLSAYFEPLSQVLKRELLYVP----------  110
+
+Query  73   KGWFTSWFYRATGQVPIDRTDADTAEAALNTA----ERLLGHGKLIGMYPEGTRSPDGRL  128
+               F  W       + IDR   D  +AAL       + LL     + ++PEGTR P G++
+Sbjct  111  ---FFGWAMAMLRPIAIDR---DNPKAALKQVASKGDELLKDNVWVLIFPEGTRVPHGQI  164
+
+Query  129  YKGKTGVARLTLQTGVPVIPVAMIGTNVVNPPGSKMWRFGRVTVRFGKPM  178
+             K     + L +   +PV+PVA        P      R G +TV  G PM
+Sbjct  165  GKFSRSGSALAVNADLPVLPVAH-NAGKFWPKTGWAKRPGTITVTIGAPM  213
+
+
+>VFG015605(gb|WP_010951467) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas putida KT2440]
+Length=261
+
+ Score = 51.6 bits (122),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 50/192 (26%), Positives = 82/192 (43%), Gaps = 40/192 (21%)
+
+Query  3    YWLFKYIFMGPALSVLGRP-KVEGLEYVPSSGPAILASNHLAVADSFYL-----PL--VV  54
+            YW    +F+    ++LG   K+ G E VP+  P ++ SNH +  ++F+L     PL  V+
+Sbjct  51   YWCRCALFL--VRTILGIDYKITGAENVPAE-PCVILSNHQSTWETFFLSQYFSPLSQVL  107
+
+Query  55   RRRITFLAKSEYFTGTGLKGWFTSWFYRATGQVPIDRTDADTA-EAALNTAERLLGHGKL  113
+            +R + ++              F  W       + I+R +   A     +  + LL     
+Sbjct  108  KRELLYVP-------------FFGWAMAMLRPIAINRDNPKEALRQVASKGDELLKQKTW  154
+
+Query  114  IGMYPEGTRSPDGRLYKGKTGVARLTLQTGVPVIPVAMIGTNVVNPPGSKMW-------R  166
+            + ++PEGTR P G + K   G   L +  G+PV+P+A            K W       R
+Sbjct  155  VLIFPEGTRVPFGTIGKFSRGGTALAVNAGLPVLPIAH--------NAGKFWPKTGWGKR  206
+
+Query  167  FGRVTVRFGKPM  178
+             G + V  G+PM
+Sbjct  207  AGTIEVVIGEPM  218
+
+
+>VFG015780(gb|WP_012269866) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas putida GB-1]
+Length=261
+
+ Score = 51.2 bits (121),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 50/192 (26%), Positives = 81/192 (42%), Gaps = 40/192 (21%)
+
+Query  3    YWLFKYIFMGPALSVLGRP-KVEGLEYVPSSGPAILASNHLAVADSFYL-----PL--VV  54
+            YW    +F+    ++LG   K+ G E VP   P ++ SNH +  ++F+L     PL  V+
+Sbjct  51   YWCRCALFL--VRTILGIDYKITGAENVPDE-PCVILSNHQSTWETFFLSQYFSPLSQVL  107
+
+Query  55   RRRITFLAKSEYFTGTGLKGWFTSWFYRATGQVPIDRTDADTA-EAALNTAERLLGHGKL  113
+            +R + ++              F  W       + I+R +   A     +  + LL     
+Sbjct  108  KRELLYVP-------------FFGWAMAMLRPIAINRDNPKEALRQVASKGDELLKQKTW  154
+
+Query  114  IGMYPEGTRSPDGRLYKGKTGVARLTLQTGVPVIPVAMIGTNVVNPPGSKMW-------R  166
+            + ++PEGTR P G + K   G   L +  G+PV+P+A            K W       R
+Sbjct  155  VLIFPEGTRVPFGTIGKFSRGGTALAVNAGLPVLPIAH--------NAGKFWPKTGWGKR  206
+
+Query  167  FGRVTVRFGKPM  178
+             G + V  G+PM
+Sbjct  207  AGTIEVVIGEPM  218
+
+
+>VFG015609(gb|WP_011911258) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas stutzeri A1501]
+Length=249
+
+ Score = 50.8 bits (120),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 50/177 (28%), Positives = 77/177 (44%), Gaps = 12/177 (7%)
+
+Query  4    WLFKYIFMGPALSVLGRPKVEGLEYVPSSGPAILASNHLAVADSFYLPLVVRRRITFLAK  63
+            W    I++G  L  L R +V G E VP+  P ++ + H +  ++F+L         F   
+Sbjct  47   WCRCAIWLGKTLVGL-RYEVHGAENVPAR-PCVILAKHQSTWETFFL------SAYFEPL  98
+
+Query  64   SEYFTGTGLKGWFTSWFYRATGQVPIDRTDADTA--EAALNTAERLLGHGKLIGMYPEGT  121
+            ++      L+  F  W       + IDR +   A  + A    ERL   G  + ++PEGT
+Sbjct  99   TQVLKRELLRVPFFGWAIMLLKPIAIDRDNPKAALRQVAKQGHERL-EQGAWVLIFPEGT  157
+
+Query  122  RSPDGRLYKGKTGVARLTLQTGVPVIPVAMIGTNVVNPPGSKMWRFGRVTVRFGKPM  178
+            R P G+  K     A L +  G+PV+P+A     +  P      R G + V  G PM
+Sbjct  158  RVPVGQPAKFSRSGAALAVNAGLPVLPIAH-NAGMFWPKAGWGKRPGTIQVVIGPPM  213
+
+
+>VFG015066(gb|WP_041475091) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas fluorescens Pf0-1]
+Length=259
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 53/193 (27%), Positives = 83/193 (43%), Gaps = 50/193 (26%)
+
+Query  4    WLFKYIFMGPALSVLGRPKVEGLEYVPSSGPAILASNHLAVADSFYL-----PL--VVRR  56
+            WL K +F+G       R +V+G E VP   P ++ SNH +  ++F+L     PL  V++R
+Sbjct  53   WLTK-VFLGI------RYEVKGAENVPDR-PCVIQSNHQSTWETFFLSAYFSPLSQVLKR  104
+
+Query  57   RITFLAKSEYFTGTGLKGWFTSWFYRATGQVPIDRTDADTAEAALNTA----ERLLGHGK  112
+             + ++              F  W       + IDR   D  +AAL       + LL    
+Sbjct  105  ELLYVP-------------FFGWAMAMLRPIAIDR---DNPKAALKQVAAKGDELLKDDV  148
+
+Query  113  LIGMYPEGTRSPDGRLYKGKTGVARLTLQTGVPVIPVAMIGTNVVNPPGSKMW-------  165
+             + ++PEGTR P G + K     + L +   +PV+P+A            K W       
+Sbjct  149  WVLIFPEGTRVPHGTIGKFSRSGSALAVNAALPVLPIAH--------NAGKFWPKIGWGK  200
+
+Query  166  RFGRVTVRFGKPM  178
+            + G +TV  G+PM
+Sbjct  201  KSGVITVVIGEPM  213
+
+
+>VFG015604(gb|WP_011167284) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas syringae pv. phaseolicola 
+1448A]
+Length=256
+
+ Score = 50.4 bits (119),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 41/133 (31%), Positives = 61/133 (46%), Gaps = 14/133 (11%)
+
+Query  22   KVEGLEYVPSSGPAILASNHLAVADSFYLPLVVRRRITFLAKSEYFTGTGLKGWFTSWFY  81
+            +V G E VP+  P ++ SNH +  ++F+L         F   S+      L   F  W  
+Sbjct  64   EVTGAENVPTP-PCVIISNHQSTWETFFL------SAYFEPMSQVLKRELLYVPFFGWAM  116
+
+Query  82   RATGQVPIDRTDADTAEAAL----NTAERLLGHGKLIGMYPEGTRSPDGRLYKGKTGVAR  137
+                 + IDR   D  +AAL       + LL  G  + ++PEGTR P G++ K   G   
+Sbjct  117  AMLRPIAIDR---DNPKAALREIAKKGDELLKDGVWVLIFPEGTRVPYGQVGKFSRGGTA  173
+
+Query  138  LTLQTGVPVIPVA  150
+            L +   +PV+PVA
+Sbjct  174  LAVNADLPVLPVA  186
+
+
+>VFG015603(gb|WP_011266128) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas syringae pv. syringae B728a]
+Length=256
+
+ Score = 50.1 bits (118),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 38/130 (29%), Positives = 59/130 (45%), Gaps = 8/130 (6%)
+
+Query  22   KVEGLEYVPSSGPAILASNHLAVADSFYLPLVVRRRITFLAKSEYFTGTGLKGWFTSWFY  81
+            +V G E VP + P ++ SNH +  ++F+L         F   S+      L   F  W  
+Sbjct  64   EVTGAENVPKT-PCVIISNHQSTWETFFL------SAYFEPMSQVLKRELLYVPFFGWAM  116
+
+Query  82   RATGQVPIDRTDADTAEAAL-NTAERLLGHGKLIGMYPEGTRSPDGRLYKGKTGVARLTL  140
+                 + IDR +   A   +    + LL  G  + ++PEGTR P G++ K   G   L +
+Sbjct  117  AMLRPIAIDRENPKAALREIAKKGDELLKDGVWVLIFPEGTRVPYGQVGKFSRGGTALAV  176
+
+Query  141  QTGVPVIPVA  150
+               +PV+PVA
+Sbjct  177  NADLPVLPVA  186
+
+
+>VFG015602(gb|WP_005768204) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas syringae pv. tomato str. 
+DC3000]
+Length=256
+
+ Score = 49.7 bits (117),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 40/140 (29%), Positives = 66/140 (47%), Gaps = 28/140 (20%)
+
+Query  22   KVEGLEYVPSSGPAILASNHLAVADSFYL-----PL--VVRRRITFLAKSEYFTGTGLKG  74
+            +V G + VP + P ++ SNH +  ++F+L     PL  V++R + ++             
+Sbjct  64   EVSGADNVPKT-PCVIISNHQSTWETFFLSAYFEPLSQVLKRELLYVP------------  110
+
+Query  75   WFTSWFYRATGQVPIDRTDADTAEAAL----NTAERLLGHGKLIGMYPEGTRSPDGRLYK  130
+             F  W       + IDR   D  +AAL       + LL  G  + ++PEGTR P G++ K
+Sbjct  111  -FFGWAMAMLRPIAIDR---DNPKAALREIAKKGDELLKDGVWVLIFPEGTRVPYGQVGK  166
+
+Query  131  GKTGVARLTLQTGVPVIPVA  150
+               G   L +   +PV+P+A
+Sbjct  167  FSRGGTALAVNADLPVLPIA  186
+
+
+>VFG015781(gb|WP_012312029) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas putida W619]
+Length=256
+
+ Score = 49.7 bits (117),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 46/167 (28%), Positives = 72/167 (43%), Gaps = 27/167 (16%)
+
+Query  22   KVEGLEYVPSSGPAILASNHLAVADSFYL-----PL--VVRRRITFLAKSEYFTGTGLKG  74
+            KV G E VP   P ++ SNH +  ++F+L     PL  V++R + ++             
+Sbjct  64   KVTGAENVPKE-PCVILSNHQSTWETFFLSAYFSPLSQVLKRELLYVP------------  110
+
+Query  75   WFTSWFYRATGQVPIDRTDADTA-EAALNTAERLLGHGKLIGMYPEGTRSPDGRLYKGKT  133
+             F  W       + I+R +   A     +  + LL     + ++PEGTR P G + K   
+Sbjct  111  -FFGWAMAMLRPIAINRDNPKEALRQVASKGDELLKQKVWVLIFPEGTRVPFGTVGKFSR  169
+
+Query  134  GVARLTLQTGVPVIPVAMIGTNVVNPPGSKMW--RFGRVTVRFGKPM  178
+            G   L +  G+PV+P+A          G   W  R G + V  G+PM
+Sbjct  170  GGTALAVNAGLPVLPIAHNAGKYWPKSG---WGKRSGTIEVVIGEPM  213
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1555866963
+
+
+Query= g2154.t1
+
+Length=247
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015608(gb|WP_011920370) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  57.8    7e-10
+VFG015607(gb|WP_011531470) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  56.6    2e-09
+VFG019940(gb|WP_012721457) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  52.0    6e-08
+VFG019939(gb|WP_012613418) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  52.0    7e-08
+VFG015065(gb|WP_011058401) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  51.6    1e-07
+VFG015599(gb|NP_064725) (hdtS) lysophosphatidic acid acyltransfer...  51.2    1e-07
+VFG015605(gb|WP_010951467) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  50.4    2e-07
+VFG015600(gb|WP_003150817) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  50.4    2e-07
+VFG015780(gb|WP_012269866) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  50.4    2e-07
+VFG015603(gb|WP_011266128) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  49.3    5e-07
+VFG015781(gb|WP_012312029) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  49.3    6e-07
+VFG015609(gb|WP_011911258) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  48.9    7e-07
+VFG015604(gb|WP_011167284) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  48.9    7e-07
+VFG015602(gb|WP_005768204) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  48.1    1e-06
+VFG015066(gb|WP_041475091) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  47.4    2e-06
+
+
+>VFG015608(gb|WP_011920370) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas mendocina ymp]
+Length=255
+
+ Score = 57.8 bits (138),  Expect = 7e-10, Method: Compositional matrix adjust.
+ Identities = 52/167 (31%), Positives = 81/167 (49%), Gaps = 23/167 (14%)
+
+Query  20   RPKVEGLEYIPSSGPAILASNHLAVADSFYL-----PL--VVRRRIWFLAKSEYFTGTGL  72
+            R +V GLE IP   P ++ +NH +  ++F+L     PL  VV+R    L +  +F     
+Sbjct  62   RYEVRGLENIPER-PCVILANHQSTWETFFLSSYFEPLSQVVKRE---LLRVPFFG----  113
+
+Query  73   KGWINRWFYSVSGQVPIDRTNADSAQGAL-QTAVVLLGQGKLLGMYPEGTRSPDGRLYKG  131
+                  W  ++   + IDR+N  +A   L +     L QG  + ++PEGTR P G++ K 
+Sbjct  114  ------WGMALLKPIAIDRSNPKAALKQLAKQGEERLKQGAWVLVFPEGTRIPPGQIGKF  167
+
+Query  132  KTGLARLALHTGVPVIPVAMIGTNVVNPPGRKMLRFGRVTVRFGKPM  178
+              G   LA++ G+PV+P+A        P      R G + V  G+PM
+Sbjct  168  SRGGTSLAVNAGLPVLPIAH-NAGEFWPKAGWGKRPGTIQVIIGQPM  213
+
+
+>VFG015607(gb|WP_011531470) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas entomophila L48]
+Length=256
+
+ Score = 56.6 bits (135),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 42/137 (31%), Positives = 70/137 (51%), Gaps = 22/137 (16%)
+
+Query  22   KVEGLEYIPSSGPAILASNHLAVADSFYL-----PL--VVRRRIWFLAKSEYFTGTGLKG  74
+            K+ G E++P   P ++ SNH +  ++F+L     PL  V++R + ++     F G     
+Sbjct  64   KITGAEHVPDV-PCVILSNHQSTWETFFLSAYFSPLSQVLKRELLYVP----FFG-----  113
+
+Query  75   WINRWFYSVSGQVPIDRTNADSA-QGALQTAVVLLGQGKLLGMYPEGTRSPDGRLYKGKT  133
+                W  ++   + IDR N   A +        LL QG  + ++PEGTR P G++ K   
+Sbjct  114  ----WAMAMLRPIAIDRKNPKEALRQVASQGDELLKQGTWVLIFPEGTRVPHGQMGKFSR  169
+
+Query  134  GLARLALHTGVPVIPVA  150
+            G   LA++ G+PV+P+A
+Sbjct  170  GGTALAVNAGLPVLPIA  186
+
+
+>VFG019940(gb|WP_012721457) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas fluorescens SBW25]
+Length=256
+
+ Score = 52.0 bits (123),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 48/167 (29%), Positives = 80/167 (48%), Gaps = 23/167 (14%)
+
+Query  20   RPKVEGLEYIPSSGPAILASNHLAVADSFYL-----PL--VVRRRIWFLAKSEYFTGTGL  72
+            R +++G E +P   P ++ SNH +  ++F+L     PL  V++R + ++     F G   
+Sbjct  62   RFEIKGAENVPDQ-PCVILSNHQSTWETFFLSAYFSPLSQVLKRELLYVP----FFG---  113
+
+Query  73   KGWINRWFYSVSGQVPIDRTNADSA-QGALQTAVVLLGQGKLLGMYPEGTRSPDGRLYKG  131
+                  W  ++   + IDR N  +A +   +    LL  G  + ++PEGTR P G + K 
+Sbjct  114  ------WAMAMLRPIAIDRDNPKAALKHVAKKGDELLKDGVWVLIFPEGTRVPYGTVGKF  167
+
+Query  132  KTGLARLALHTGVPVIPVAMIGTNVVNPPGRKMLRFGRVTVRFGKPM  178
+              G   LA++  +PV+P+A        P      R G +TV  G+PM
+Sbjct  168  SRGGTALAVNANLPVLPIAH-NAGKFWPKTGWAKRPGTITVVIGEPM  213
+
+
+>VFG019939(gb|WP_012613418) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas aeruginosa LESB58]
+Length=257
+
+ Score = 52.0 bits (123),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 42/139 (30%), Positives = 70/139 (50%), Gaps = 22/139 (16%)
+
+Query  20   RPKVEGLEYIPSSGPAILASNHLAVADSFYL-----PL--VVRRRIWFLAKSEYFTGTGL  72
+            R +V GLE IP   P ++ S H +  ++F+L     PL  V++R + ++     F G   
+Sbjct  62   RYEVRGLENIPEK-PCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVP----FFG---  113
+
+Query  73   KGWINRWFYSVSGQVPIDRTNADSAQGAL-QTAVVLLGQGKLLGMYPEGTRSPDGRLYKG  131
+                  W  ++   + IDR+    A   L +     L +G  + ++PEGTR P G++ K 
+Sbjct  114  ------WALALLKPIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKF  167
+
+Query  132  KTGLARLALHTGVPVIPVA  150
+              G   LA++ G+PV+P+A
+Sbjct  168  SRGSTALAVNAGLPVLPIA  186
+
+
+>VFG015065(gb|WP_011058401) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas fluorescens Pf-5]
+Length=256
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 48/167 (29%), Positives = 79/167 (47%), Gaps = 23/167 (14%)
+
+Query  20   RPKVEGLEYIPSSGPAILASNHLAVADSFYL-----PL--VVRRRIWFLAKSEYFTGTGL  72
+            R +V+G E +P   P ++ SNH +  ++F+L     PL  V++R + ++     F G   
+Sbjct  62   RVEVKGAENVPER-PCVIVSNHQSTWETFFLSAYFEPLSQVLKRELLYVP----FFG---  113
+
+Query  73   KGWINRWFYSVSGQVPIDRTNADSAQGALQTA-VVLLGQGKLLGMYPEGTRSPDGRLYKG  131
+                  W  ++   + IDR N  +A   + +    LL     + ++PEGTR P G++ K 
+Sbjct  114  ------WAMAMLRPIAIDRDNPKAALKQVASKGDELLKDNVWVLIFPEGTRVPHGQIGKF  167
+
+Query  132  KTGLARLALHTGVPVIPVAMIGTNVVNPPGRKMLRFGRVTVRFGKPM  178
+                + LA++  +PV+PVA        P      R G +TV  G PM
+Sbjct  168  SRSGSALAVNADLPVLPVAH-NAGKFWPKTGWAKRPGTITVTIGAPM  213
+
+
+>VFG015599(gb|NP_064725) (hdtS) lysophosphatidic acid acyltransferase 
+[Acylhomoserine lactone synthase (VF0907) - Biofilm 
+(VFC0271)] [Pseudomonas aeruginosa PAO1]
+Length=257
+
+ Score = 51.2 bits (121),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 42/139 (30%), Positives = 70/139 (50%), Gaps = 22/139 (16%)
+
+Query  20   RPKVEGLEYIPSSGPAILASNHLAVADSFYL-----PL--VVRRRIWFLAKSEYFTGTGL  72
+            R +V GLE IP   P ++ S H +  ++F+L     PL  V++R + ++     F G   
+Sbjct  62   RYEVRGLENIPEK-PCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVP----FFG---  113
+
+Query  73   KGWINRWFYSVSGQVPIDRTNADSAQGAL-QTAVVLLGQGKLLGMYPEGTRSPDGRLYKG  131
+                  W  ++   + IDR+    A   L +     L +G  + ++PEGTR P G++ K 
+Sbjct  114  ------WALALLKPIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKF  167
+
+Query  132  KTGLARLALHTGVPVIPVA  150
+              G   LA++ G+PV+P+A
+Sbjct  168  SRGGTALAVNAGLPVLPIA  186
+
+
+>VFG015605(gb|WP_010951467) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas putida KT2440]
+Length=261
+
+ Score = 50.4 bits (119),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 47/165 (28%), Positives = 77/165 (47%), Gaps = 23/165 (14%)
+
+Query  22   KVEGLEYIPSSGPAILASNHLAVADSFYL-----PL--VVRRRIWFLAKSEYFTGTGLKG  74
+            K+ G E +P+  P ++ SNH +  ++F+L     PL  V++R + ++     F G     
+Sbjct  69   KITGAENVPAE-PCVILSNHQSTWETFFLSQYFSPLSQVLKRELLYVP----FFG-----  118
+
+Query  75   WINRWFYSVSGQVPIDRTNADSA-QGALQTAVVLLGQGKLLGMYPEGTRSPDGRLYKGKT  133
+                W  ++   + I+R N   A +        LL Q   + ++PEGTR P G + K   
+Sbjct  119  ----WAMAMLRPIAINRDNPKEALRQVASKGDELLKQKTWVLIFPEGTRVPFGTIGKFSR  174
+
+Query  134  GLARLALHTGVPVIPVAMIGTNVVNPPGRKMLRFGRVTVRFGKPM  178
+            G   LA++ G+PV+P+A          G    R G + V  G+PM
+Sbjct  175  GGTALAVNAGLPVLPIAHNAGKFWPKTGWGK-RAGTIEVVIGEPM  218
+
+
+>VFG015600(gb|WP_003150817) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas aeruginosa PA7]
+Length=257
+
+ Score = 50.4 bits (119),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 41/139 (29%), Positives = 70/139 (50%), Gaps = 22/139 (16%)
+
+Query  20   RPKVEGLEYIPSSGPAILASNHLAVADSFYL-----PL--VVRRRIWFLAKSEYFTGTGL  72
+            R +V GLE +P   P ++ S H +  ++F+L     PL  V++R + ++     F G   
+Sbjct  62   RYEVRGLENVPEQ-PCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVP----FFG---  113
+
+Query  73   KGWINRWFYSVSGQVPIDRTNADSAQGAL-QTAVVLLGQGKLLGMYPEGTRSPDGRLYKG  131
+                  W  ++   + IDR+    A   L +     L +G  + ++PEGTR P G++ K 
+Sbjct  114  ------WALALLKPIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKF  167
+
+Query  132  KTGLARLALHTGVPVIPVA  150
+              G   LA++ G+PV+P+A
+Sbjct  168  SRGGTALAVNAGLPVLPIA  186
+
+
+>VFG015780(gb|WP_012269866) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas putida GB-1]
+Length=261
+
+ Score = 50.4 bits (119),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 47/165 (28%), Positives = 76/165 (46%), Gaps = 23/165 (14%)
+
+Query  22   KVEGLEYIPSSGPAILASNHLAVADSFYL-----PL--VVRRRIWFLAKSEYFTGTGLKG  74
+            K+ G E +P   P ++ SNH +  ++F+L     PL  V++R + ++     F G     
+Sbjct  69   KITGAENVPDE-PCVILSNHQSTWETFFLSQYFSPLSQVLKRELLYVP----FFG-----  118
+
+Query  75   WINRWFYSVSGQVPIDRTNADSA-QGALQTAVVLLGQGKLLGMYPEGTRSPDGRLYKGKT  133
+                W  ++   + I+R N   A +        LL Q   + ++PEGTR P G + K   
+Sbjct  119  ----WAMAMLRPIAINRDNPKEALRQVASKGDELLKQKTWVLIFPEGTRVPFGTIGKFSR  174
+
+Query  134  GLARLALHTGVPVIPVAMIGTNVVNPPGRKMLRFGRVTVRFGKPM  178
+            G   LA++ G+PV+P+A          G    R G + V  G+PM
+Sbjct  175  GGTALAVNAGLPVLPIAHNAGKFWPKTGWGK-RAGTIEVVIGEPM  218
+
+
+>VFG015603(gb|WP_011266128) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas syringae pv. syringae B728a]
+Length=256
+
+ Score = 49.3 bits (116),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 38/130 (29%), Positives = 64/130 (49%), Gaps = 8/130 (6%)
+
+Query  22   KVEGLEYIPSSGPAILASNHLAVADSFYLPLVVRRRIWFLAKSEYFTGTGLKGWINRWFY  81
+            +V G E +P + P ++ SNH +  ++F+L        +F   S+      L      W  
+Sbjct  64   EVTGAENVPKT-PCVIISNHQSTWETFFL------SAYFEPMSQVLKRELLYVPFFGWAM  116
+
+Query  82   SVSGQVPIDRTNADSAQGAL-QTAVVLLGQGKLLGMYPEGTRSPDGRLYKGKTGLARLAL  140
+            ++   + IDR N  +A   + +    LL  G  + ++PEGTR P G++ K   G   LA+
+Sbjct  117  AMLRPIAIDRENPKAALREIAKKGDELLKDGVWVLIFPEGTRVPYGQVGKFSRGGTALAV  176
+
+Query  141  HTGVPVIPVA  150
+            +  +PV+PVA
+Sbjct  177  NADLPVLPVA  186
+
+
+>VFG015781(gb|WP_012312029) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas putida W619]
+Length=256
+
+ Score = 49.3 bits (116),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 48/165 (29%), Positives = 76/165 (46%), Gaps = 23/165 (14%)
+
+Query  22   KVEGLEYIPSSGPAILASNHLAVADSFYL-----PL--VVRRRIWFLAKSEYFTGTGLKG  74
+            KV G E +P   P ++ SNH +  ++F+L     PL  V++R + ++     F G     
+Sbjct  64   KVTGAENVPKE-PCVILSNHQSTWETFFLSAYFSPLSQVLKRELLYVP----FFG-----  113
+
+Query  75   WINRWFYSVSGQVPIDRTNADSA-QGALQTAVVLLGQGKLLGMYPEGTRSPDGRLYKGKT  133
+                W  ++   + I+R N   A +        LL Q   + ++PEGTR P G + K   
+Sbjct  114  ----WAMAMLRPIAINRDNPKEALRQVASKGDELLKQKVWVLIFPEGTRVPFGTVGKFSR  169
+
+Query  134  GLARLALHTGVPVIPVAMIGTNVVNPPGRKMLRFGRVTVRFGKPM  178
+            G   LA++ G+PV+P+A        P      R G + V  G+PM
+Sbjct  170  GGTALAVNAGLPVLPIAH-NAGKYWPKSGWGKRSGTIEVVIGEPM  213
+
+
+>VFG015609(gb|WP_011911258) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas stutzeri A1501]
+Length=249
+
+ Score = 48.9 bits (115),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 46/165 (28%), Positives = 77/165 (47%), Gaps = 10/165 (6%)
+
+Query  16   TLLG-RPKVEGLEYIPSSGPAILASNHLAVADSFYLPLVVRRRIWFLAKSEYFTGTGLKG  74
+            TL+G R +V G E +P+  P ++ + H +  ++F+L        +F   ++      L+ 
+Sbjct  57   TLVGLRYEVHGAENVPAR-PCVILAKHQSTWETFFL------SAYFEPLTQVLKRELLRV  109
+
+Query  75   WINRWFYSVSGQVPIDRTNADSA-QGALQTAVVLLGQGKLLGMYPEGTRSPDGRLYKGKT  133
+                W   +   + IDR N  +A +   +     L QG  + ++PEGTR P G+  K   
+Sbjct  110  PFFGWAIMLLKPIAIDRDNPKAALRQVAKQGHERLEQGAWVLIFPEGTRVPVGQPAKFSR  169
+
+Query  134  GLARLALHTGVPVIPVAMIGTNVVNPPGRKMLRFGRVTVRFGKPM  178
+              A LA++ G+PV+P+A     +  P      R G + V  G PM
+Sbjct  170  SGAALAVNAGLPVLPIAH-NAGMFWPKAGWGKRPGTIQVVIGPPM  213
+
+
+>VFG015604(gb|WP_011167284) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas syringae pv. phaseolicola 
+1448A]
+Length=256
+
+ Score = 48.9 bits (115),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 38/130 (29%), Positives = 64/130 (49%), Gaps = 8/130 (6%)
+
+Query  22   KVEGLEYIPSSGPAILASNHLAVADSFYLPLVVRRRIWFLAKSEYFTGTGLKGWINRWFY  81
+            +V G E +P+  P ++ SNH +  ++F+L        +F   S+      L      W  
+Sbjct  64   EVTGAENVPTP-PCVIISNHQSTWETFFL------SAYFEPMSQVLKRELLYVPFFGWAM  116
+
+Query  82   SVSGQVPIDRTNADSAQGAL-QTAVVLLGQGKLLGMYPEGTRSPDGRLYKGKTGLARLAL  140
+            ++   + IDR N  +A   + +    LL  G  + ++PEGTR P G++ K   G   LA+
+Sbjct  117  AMLRPIAIDRDNPKAALREIAKKGDELLKDGVWVLIFPEGTRVPYGQVGKFSRGGTALAV  176
+
+Query  141  HTGVPVIPVA  150
+            +  +PV+PVA
+Sbjct  177  NADLPVLPVA  186
+
+
+>VFG015602(gb|WP_005768204) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas syringae pv. tomato str. 
+DC3000]
+Length=256
+
+ Score = 48.1 bits (113),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 39/137 (28%), Positives = 70/137 (51%), Gaps = 22/137 (16%)
+
+Query  22   KVEGLEYIPSSGPAILASNHLAVADSFYL-----PL--VVRRRIWFLAKSEYFTGTGLKG  74
+            +V G + +P + P ++ SNH +  ++F+L     PL  V++R + ++     F G     
+Sbjct  64   EVSGADNVPKT-PCVIISNHQSTWETFFLSAYFEPLSQVLKRELLYVP----FFG-----  113
+
+Query  75   WINRWFYSVSGQVPIDRTNADSAQGAL-QTAVVLLGQGKLLGMYPEGTRSPDGRLYKGKT  133
+                W  ++   + IDR N  +A   + +    LL  G  + ++PEGTR P G++ K   
+Sbjct  114  ----WAMAMLRPIAIDRDNPKAALREIAKKGDELLKDGVWVLIFPEGTRVPYGQVGKFSR  169
+
+Query  134  GLARLALHTGVPVIPVA  150
+            G   LA++  +PV+P+A
+Sbjct  170  GGTALAVNADLPVLPIA  186
+
+
+>VFG015066(gb|WP_041475091) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas fluorescens Pf0-1]
+Length=259
+
+ Score = 47.4 bits (111),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 46/167 (28%), Positives = 78/167 (47%), Gaps = 23/167 (14%)
+
+Query  20   RPKVEGLEYIPSSGPAILASNHLAVADSFYL-----PL--VVRRRIWFLAKSEYFTGTGL  72
+            R +V+G E +P   P ++ SNH +  ++F+L     PL  V++R + ++     F G   
+Sbjct  62   RYEVKGAENVPDR-PCVIQSNHQSTWETFFLSAYFSPLSQVLKRELLYVP----FFG---  113
+
+Query  73   KGWINRWFYSVSGQVPIDRTNADSA-QGALQTAVVLLGQGKLLGMYPEGTRSPDGRLYKG  131
+                  W  ++   + IDR N  +A +        LL     + ++PEGTR P G + K 
+Sbjct  114  ------WAMAMLRPIAIDRDNPKAALKQVAAKGDELLKDDVWVLIFPEGTRVPHGTIGKF  167
+
+Query  132  KTGLARLALHTGVPVIPVAMIGTNVVNPPGRKMLRFGRVTVRFGKPM  178
+                + LA++  +PV+P+A          G    + G +TV  G+PM
+Sbjct  168  SRSGSALAVNAALPVLPIAHNAGKFWPKIGWGK-KSGVITVVIGEPM  213
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.140    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1587619350
+
+
+Query= g5.t1
+
+Length=257
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015599(gb|NP_064725) (hdtS) lysophosphatidic acid acyltransfer...  521     0.0   
+VFG019939(gb|WP_012613418) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  519     0.0   
+VFG015600(gb|WP_003150817) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  509     0.0   
+VFG019940(gb|WP_012721457) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  372     1e-131
+VFG015603(gb|WP_011266128) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  369     1e-130
+VFG015602(gb|WP_005768204) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  367     1e-129
+VFG015604(gb|WP_011167284) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  365     4e-129
+VFG015609(gb|WP_011911258) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  365     4e-129
+VFG015608(gb|WP_011920370) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  362     6e-128
+VFG015065(gb|WP_011058401) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  362     6e-128
+VFG015781(gb|WP_012312029) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  358     3e-126
+VFG015066(gb|WP_041475091) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  355     4e-125
+VFG015607(gb|WP_011531470) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  353     2e-124
+VFG015780(gb|WP_012269866) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  345     4e-121
+VFG015605(gb|WP_010951467) (hdtS) 1-acyl-sn-glycerol-3-phosphate ...  343     2e-120
+
+
+>VFG015599(gb|NP_064725) (hdtS) lysophosphatidic acid acyltransferase 
+[Acylhomoserine lactone synthase (VF0907) - Biofilm 
+(VFC0271)] [Pseudomonas aeruginosa PAO1]
+Length=257
+
+ Score = 521 bits (1341),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 257/257 (100%), Positives = 257/257 (100%), Gaps = 0/257 (0%)
+
+Query  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+            MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG
+Sbjct  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+
+Query  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+            IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK
+Sbjct  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+
+Query  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+            PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL
+Sbjct  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+
+Query  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+            PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE
+Sbjct  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+
+Query  241  ISPIQQRVSHPEPSVVS  257
+            ISPIQQRVSHPEPSVVS
+Sbjct  241  ISPIQQRVSHPEPSVVS  257
+
+
+>VFG019939(gb|WP_012613418) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas aeruginosa LESB58]
+Length=257
+
+ Score = 519 bits (1336),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 256/257 (99%), Positives = 256/257 (99%), Gaps = 0/257 (0%)
+
+Query  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+            MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG
+Sbjct  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+
+Query  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+            IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK
+Sbjct  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+
+Query  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+            PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRG TALAVNAGL
+Sbjct  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGSTALAVNAGL  180
+
+Query  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+            PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE
+Sbjct  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+
+Query  241  ISPIQQRVSHPEPSVVS  257
+            ISPIQQRVSHPEPSVVS
+Sbjct  241  ISPIQQRVSHPEPSVVS  257
+
+
+>VFG015600(gb|WP_003150817) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas aeruginosa PA7]
+Length=257
+
+ Score = 509 bits (1311),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 249/257 (97%), Positives = 255/257 (99%), Gaps = 0/257 (0%)
+
+Query  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+            MSTVQAIRTVLFYLLLS+SAFVWGTLSFFIAP LPFRARYRFVV++WCRFAIWLTRVVAG
+Sbjct  1    MSTVQAIRTVLFYLLLSSSAFVWGTLSFFIAPFLPFRARYRFVVRSWCRFAIWLTRVVAG  60
+
+Query  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+            IRYEVRGLEN+PE+PCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK
+Sbjct  61   IRYEVRGLENVPEQPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+
+Query  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+            PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL
+Sbjct  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+
+Query  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+            PVLPIAHNAGQ+WPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE
+Sbjct  181  PVLPIAHNAGQFWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+
+Query  241  ISPIQQRVSHPEPSVVS  257
+            ISP QQRVSHPEPSVVS
+Sbjct  241  ISPTQQRVSHPEPSVVS  257
+
+
+>VFG019940(gb|WP_012721457) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas fluorescens SBW25]
+Length=256
+
+ Score = 372 bits (955),  Expect = 1e-131, Method: Compositional matrix adjust.
+ Identities = 181/260 (70%), Positives = 206/260 (79%), Gaps = 11/260 (4%)
+
+Query  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+            MS +QAIRT  FYLLL  S+F+W TLSFFIAP LPF+ARYRF+   WCR A+WLT+V   
+Sbjct  1    MSILQAIRTFFFYLLLGTSSFLWCTLSFFIAPFLPFKARYRFINVYWCRCALWLTKVFLN  60
+
+Query  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+            IR+E++G EN+P++PCVILS HQSTWETFFLS +F PLSQVLKRELLYVPFFGWA+A+L+
+Sbjct  61   IRFEIKGAENVPDQPCVILSNHQSTWETFFLSAYFSPLSQVLKRELLYVPFFGWAMAMLR  120
+
+Query  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+            PIAIDR  PK ALK +AK+GDE LK G WVLIFPEGTR+P G +GKFSRGGTALAVNA L
+Sbjct  121  PIAIDRDNPKAALKHVAKKGDELLKDGVWVLIFPEGTRVPYGTVGKFSRGGTALAVNANL  180
+
+Query  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+            PVLPIAHNAG++WPK GWAK PGTI VVIG  M+AEGEGPRAIA LN RA AW       
+Sbjct  181  PVLPIAHNAGKFWPKTGWAKRPGTITVVIGEPMYAEGEGPRAIAALNDRAAAW-------  233
+
+Query  241  ISPIQQRVSH---PEPSVVS  257
+             +  QQR      PEP VV 
+Sbjct  234  -NEAQQRAMGSLPPEPVVVD  252
+
+
+>VFG015603(gb|WP_011266128) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas syringae pv. syringae B728a]
+Length=256
+
+ Score = 369 bits (948),  Expect = 1e-130, Method: Compositional matrix adjust.
+ Identities = 173/252 (69%), Positives = 204/252 (81%), Gaps = 0/252 (0%)
+
+Query  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+            MS +QAIRT  FYLLL  S+ +W TLSFFIAP LPF+ARYRF+   WCR AIWLT+V   
+Sbjct  1    MSIMQAIRTFFFYLLLGTSSLLWCTLSFFIAPFLPFKARYRFINVYWCRCAIWLTKVFLN  60
+
+Query  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+            I+ EV G EN+P+ PCVI+S HQSTWETFFLS +FEP+SQVLKRELLYVPFFGWA+A+L+
+Sbjct  61   IKVEVTGAENVPKTPCVIISNHQSTWETFFLSAYFEPMSQVLKRELLYVPFFGWAMAMLR  120
+
+Query  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+            PIAIDR  PK AL+++AK+GDE LK G WVLIFPEGTR+P GQ+GKFSRGGTALAVNA L
+Sbjct  121  PIAIDRENPKAALREIAKKGDELLKDGVWVLIFPEGTRVPYGQVGKFSRGGTALAVNADL  180
+
+Query  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+            PVLP+AHNAG+YWP+ GWAK PGTIQVVIG  M+AEG GPRAIA LN+R +AW  +T   
+Sbjct  181  PVLPVAHNAGKYWPRDGWAKKPGTIQVVIGEPMYAEGTGPRAIAALNERVQAWNEDTQRA  240
+
+Query  241  ISPIQQRVSHPE  252
+            +    +  + PE
+Sbjct  241  MGSPVEPAATPE  252
+
+
+>VFG015602(gb|WP_005768204) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas syringae pv. tomato str. 
+DC3000]
+Length=256
+
+ Score = 367 bits (941),  Expect = 1e-129, Method: Compositional matrix adjust.
+ Identities = 173/250 (69%), Positives = 203/250 (81%), Gaps = 1/250 (0%)
+
+Query  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+            MS +QAIRT +FYLLL  S+ +W TLSFFIAP LPF+ARYRF+   WCR A+WLTRV   
+Sbjct  1    MSIMQAIRTFIFYLLLGTSSLLWCTLSFFIAPFLPFKARYRFINVYWCRCALWLTRVFLN  60
+
+Query  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+            I+ EV G +N+P+ PCVI+S HQSTWETFFLS +FEPLSQVLKRELLYVPFFGWA+A+L+
+Sbjct  61   IKVEVSGADNVPKTPCVIISNHQSTWETFFLSAYFEPLSQVLKRELLYVPFFGWAMAMLR  120
+
+Query  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+            PIAIDR  PK AL+++AK+GDE LK G WVLIFPEGTR+P GQ+GKFSRGGTALAVNA L
+Sbjct  121  PIAIDRDNPKAALREIAKKGDELLKDGVWVLIFPEGTRVPYGQVGKFSRGGTALAVNADL  180
+
+Query  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+            PVLPIAHNAG+YWP+ GW K PGTIQVVIG  M+AEG GPRAIA LN+R + W  +T   
+Sbjct  181  PVLPIAHNAGKYWPRDGWGKKPGTIQVVIGEPMYAEGTGPRAIAALNERVQTWNEDTQRA  240
+
+Query  241  I-SPIQQRVS  249
+            + SP+    S
+Sbjct  241  LGSPVAPATS  250
+
+
+>VFG015604(gb|WP_011167284) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas syringae pv. phaseolicola 
+1448A]
+Length=256
+
+ Score = 365 bits (938),  Expect = 4e-129, Method: Compositional matrix adjust.
+ Identities = 173/252 (69%), Positives = 200/252 (79%), Gaps = 0/252 (0%)
+
+Query  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+            MS +QAIRT  FYLLL  S+ +W TLSFFIAP LPF+ARYRF+   WCR AIWLT+V   
+Sbjct  1    MSIMQAIRTFFFYLLLGTSSLLWCTLSFFIAPFLPFKARYRFINVYWCRCAIWLTKVFLN  60
+
+Query  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+            I+ EV G EN+P  PCVI+S HQSTWETFFLS +FEP+SQVLKRELLYVPFFGWA+A+L+
+Sbjct  61   IQVEVTGAENVPTPPCVIISNHQSTWETFFLSAYFEPMSQVLKRELLYVPFFGWAMAMLR  120
+
+Query  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+            PIAIDR  PK AL+++AK+GDE LK G WVLIFPEGTR+P GQ+GKFSRGGTALAVNA L
+Sbjct  121  PIAIDRDNPKAALREIAKKGDELLKDGVWVLIFPEGTRVPYGQVGKFSRGGTALAVNADL  180
+
+Query  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+            PVLP+AHNAG+YWP+ GWAK PGTIQVVIG  M+AEG GPRAIA LN R +AW  E    
+Sbjct  181  PVLPVAHNAGKYWPRDGWAKKPGTIQVVIGEPMYAEGTGPRAIAALNDRVQAWNEEAQRA  240
+
+Query  241  ISPIQQRVSHPE  252
+            +       + PE
+Sbjct  241  MGSPVTPAASPE  252
+
+
+>VFG015609(gb|WP_011911258) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas stutzeri A1501]
+Length=249
+
+ Score = 365 bits (937),  Expect = 4e-129, Method: Compositional matrix adjust.
+ Identities = 176/250 (70%), Positives = 205/250 (82%), Gaps = 1/250 (0%)
+
+Query  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+            MS +  +R VLFY LL+ +AFVW  +S   AP + FRARYRFVVQNWCR AIWL + + G
+Sbjct  1    MSLLFPLRIVLFYFLLAFTAFVWCLVSLVFAPFMAFRARYRFVVQNWCRCAIWLGKTLVG  60
+
+Query  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+            +RYEV G EN+P +PCVIL+KHQSTWETFFLS +FEPL+QVLKRELL VPFFGWA+ LLK
+Sbjct  61   LRYEVHGAENVPARPCVILAKHQSTWETFFLSAYFEPLTQVLKRELLRVPFFGWAIMLLK  120
+
+Query  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+            PIAIDR  PK AL+Q+AKQG E L++GAWVLIFPEGTR+PVGQ  KFSR G ALAVNAGL
+Sbjct  121  PIAIDRDNPKAALRQVAKQGHERLEQGAWVLIFPEGTRVPVGQPAKFSRSGAALAVNAGL  180
+
+Query  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+            PVLPIAHNAG +WPKAGW K PGTIQVVIGP M AE EGPRA+AELNQRAE WV+  +++
+Sbjct  181  PVLPIAHNAGMFWPKAGWGKRPGTIQVVIGPPMMAESEGPRAVAELNQRAEDWVNAQVSQ  240
+
+Query  241  ISPIQQRVSH  250
+            +  +Q R +H
+Sbjct  241  LE-VQGRPTH  249
+
+
+>VFG015608(gb|WP_011920370) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas mendocina ymp]
+Length=255
+
+ Score = 362 bits (930),  Expect = 6e-128, Method: Compositional matrix adjust.
+ Identities = 186/254 (73%), Positives = 212/254 (83%), Gaps = 3/254 (1%)
+
+Query  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+            M+ +QA+R  LFYLLLS+S+F W  +S  +AP LPFR RYRFVVQ WC  A+WL RV+ G
+Sbjct  1    MAILQALRITLFYLLLSSSSFFWCLISLVVAPFLPFRQRYRFVVQAWCSCAVWLARVIVG  60
+
+Query  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+            IRYEVRGLENIPE+PCVIL+ HQSTWETFFLS +FEPLSQV+KRELL VPFFGW +ALLK
+Sbjct  61   IRYEVRGLENIPERPCVILANHQSTWETFFLSSYFEPLSQVVKRELLRVPFFGWGMALLK  120
+
+Query  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+            PIAIDRS PK ALKQLAKQG+E LK+GAWVL+FPEGTRIP GQ+GKFSRGGT+LAVNAGL
+Sbjct  121  PIAIDRSNPKAALKQLAKQGEERLKQGAWVLVFPEGTRIPPGQIGKFSRGGTSLAVNAGL  180
+
+Query  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+            PVLPIAHNAG++WPKAGW K PGTIQV+IG  M+AEGEGPRAIAELN+RA  WV     E
+Sbjct  181  PVLPIAHNAGEFWPKAGWGKRPGTIQVIIGQPMYAEGEGPRAIAELNERAFQWVCRQQTE  240
+
+Query  241  I---SPIQQRVSHP  251
+            +    P   R+S P
+Sbjct  241  LRGEEPQLSRLSEP  254
+
+
+>VFG015065(gb|WP_011058401) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas fluorescens Pf-5]
+Length=256
+
+ Score = 362 bits (930),  Expect = 6e-128, Method: Compositional matrix adjust.
+ Identities = 168/244 (69%), Positives = 197/244 (81%), Gaps = 0/244 (0%)
+
+Query  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+            MS +QAIRT  FYLLL  S+ +W +LSFFIAP LPF+ARYRF+   WCR A+WLT+V   
+Sbjct  1    MSILQAIRTFFFYLLLGTSSLLWCSLSFFIAPFLPFKARYRFINVYWCRCALWLTKVFLN  60
+
+Query  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+            IR EV+G EN+PE+PCVI+S HQSTWETFFLS +FEPLSQVLKRELLYVPFFGWA+A+L+
+Sbjct  61   IRVEVKGAENVPERPCVIVSNHQSTWETFFLSAYFEPLSQVLKRELLYVPFFGWAMAMLR  120
+
+Query  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+            PIAIDR  PK ALKQ+A +GDE LK   WVLIFPEGTR+P GQ+GKFSR G+ALAVNA L
+Sbjct  121  PIAIDRDNPKAALKQVASKGDELLKDNVWVLIFPEGTRVPHGQIGKFSRSGSALAVNADL  180
+
+Query  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+            PVLP+AHNAG++WPK GWAK PGTI V IG  M+AEG GPRAIAELN R  AW  +   +
+Sbjct  181  PVLPVAHNAGKFWPKTGWAKRPGTITVTIGAPMYAEGSGPRAIAELNDRVAAWNEQAQRD  240
+
+Query  241  ISPI  244
+            +  +
+Sbjct  241  MGSL  244
+
+
+>VFG015781(gb|WP_012312029) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas putida W619]
+Length=256
+
+ Score = 358 bits (919),  Expect = 3e-126, Method: Compositional matrix adjust.
+ Identities = 170/250 (68%), Positives = 200/250 (80%), Gaps = 3/250 (1%)
+
+Query  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+            MS +QAIR  LFYLLL  S+ +W +LSFFIAP LPF  RYRF+   WCRFA+ L RV+ G
+Sbjct  1    MSILQAIRIFLFYLLLGTSSLLWCSLSFFIAPFLPFHKRYRFINVYWCRFAVLLARVILG  60
+
+Query  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+            I Y+V G EN+P++PCVILS HQSTWETFFLS +F PLSQVLKRELLYVPFFGWA+A+L+
+Sbjct  61   IHYKVTGAENVPKEPCVILSNHQSTWETFFLSAYFSPLSQVLKRELLYVPFFGWAMAMLR  120
+
+Query  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+            PIAI+R  PK AL+Q+A +GDE LK+  WVLIFPEGTR+P G +GKFSRGGTALAVNAGL
+Sbjct  121  PIAINRDNPKEALRQVASKGDELLKQKVWVLIFPEGTRVPFGTVGKFSRGGTALAVNAGL  180
+
+Query  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSET---  237
+            PVLPIAHNAG+YWPK+GW K  GTI+VVIG  M+A G GPRAIAELN RA AW   T   
+Sbjct  181  PVLPIAHNAGKYWPKSGWGKRSGTIEVVIGEPMYANGTGPRAIAELNDRAAAWNETTQRR  240
+
+Query  238  MAEISPIQQR  247
+            M  + P+ ++
+Sbjct  241  MGSLPPVDEK  250
+
+
+>VFG015066(gb|WP_041475091) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas fluorescens Pf0-1]
+Length=259
+
+ Score = 355 bits (912),  Expect = 4e-125, Method: Compositional matrix adjust.
+ Identities = 166/244 (68%), Positives = 195/244 (80%), Gaps = 0/244 (0%)
+
+Query  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+            MS +QAIR  LFYLLL  +A +W +LSFFIAP L F+ARYRF+   WCR A+WLT+V  G
+Sbjct  1    MSILQAIRIFLFYLLLGTTALLWCSLSFFIAPFLSFKARYRFINVYWCRCALWLTKVFLG  60
+
+Query  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+            IRYEV+G EN+P++PCVI S HQSTWETFFLS +F PLSQVLKRELLYVPFFGWA+A+L+
+Sbjct  61   IRYEVKGAENVPDRPCVIQSNHQSTWETFFLSAYFSPLSQVLKRELLYVPFFGWAMAMLR  120
+
+Query  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+            PIAIDR  PK ALKQ+A +GDE LK   WVLIFPEGTR+P G +GKFSR G+ALAVNA L
+Sbjct  121  PIAIDRDNPKAALKQVAAKGDELLKDDVWVLIFPEGTRVPHGTIGKFSRSGSALAVNAAL  180
+
+Query  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+            PVLPIAHNAG++WPK GW K  G I VVIG  M+AEG GPRAIA+LN R +AW  +T  E
+Sbjct  181  PVLPIAHNAGKFWPKIGWGKKSGVITVVIGEPMYAEGSGPRAIADLNDRVQAWNEKTQRE  240
+
+Query  241  ISPI  244
+            +  +
+Sbjct  241  MGSL  244
+
+
+>VFG015607(gb|WP_011531470) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas entomophila L48]
+Length=256
+
+ Score = 353 bits (907),  Expect = 2e-124, Method: Compositional matrix adjust.
+ Identities = 166/252 (66%), Positives = 199/252 (79%), Gaps = 0/252 (0%)
+
+Query  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+            MS +QAIR  LFYLLL  S+ +W +LSFF+AP LPF  RY+F+   WCR A++L + + G
+Sbjct  1    MSILQAIRIFLFYLLLGTSSLLWCSLSFFVAPFLPFPKRYKFINVYWCRCALFLVKTILG  60
+
+Query  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+            I Y++ G E++P+ PCVILS HQSTWETFFLS +F PLSQVLKRELLYVPFFGWA+A+L+
+Sbjct  61   IDYKITGAEHVPDVPCVILSNHQSTWETFFLSAYFSPLSQVLKRELLYVPFFGWAMAMLR  120
+
+Query  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+            PIAIDR  PK AL+Q+A QGDE LK+G WVLIFPEGTR+P GQMGKFSRGGTALAVNAGL
+Sbjct  121  PIAIDRKNPKEALRQVASQGDELLKQGTWVLIFPEGTRVPHGQMGKFSRGGTALAVNAGL  180
+
+Query  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+            PVLPIAHNAG++WP+ GW K PGTI+VVIG  M+ EG GPRAIAELN RA+AW       
+Sbjct  181  PVLPIAHNAGKFWPREGWGKRPGTIEVVIGAPMYPEGTGPRAIAELNDRAQAWNEAAQRA  240
+
+Query  241  ISPIQQRVSHPE  252
+            +  +     +PE
+Sbjct  241  MGSLPPVAENPE  252
+
+
+>VFG015780(gb|WP_012269866) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas putida GB-1]
+Length=261
+
+ Score = 345 bits (886),  Expect = 4e-121, Method: Compositional matrix adjust.
+ Identities = 163/252 (65%), Positives = 195/252 (77%), Gaps = 0/252 (0%)
+
+Query  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+            MS +QAIR  LFYLLL  S+ +W +LSFFIAP L F  RY+F+   WCR A++L R + G
+Sbjct  6    MSILQAIRIFLFYLLLGTSSLLWCSLSFFIAPFLSFPKRYKFINVYWCRCALFLVRTILG  65
+
+Query  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+            I Y++ G EN+P++PCVILS HQSTWETFFLS +F PLSQVLKRELLYVPFFGWA+A+L+
+Sbjct  66   IDYKITGAENVPDEPCVILSNHQSTWETFFLSQYFSPLSQVLKRELLYVPFFGWAMAMLR  125
+
+Query  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+            PIAI+R  PK AL+Q+A +GDE LK+  WVLIFPEGTR+P G +GKFSRGGTALAVNAGL
+Sbjct  126  PIAINRDNPKEALRQVASKGDELLKQKTWVLIFPEGTRVPFGTIGKFSRGGTALAVNAGL  185
+
+Query  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+            PVLPIAHNAG++WPK GW K  GTI+VVIG  M+A G GPRAIAELN RA AW   T   
+Sbjct  186  PVLPIAHNAGKFWPKTGWGKRAGTIEVVIGEPMYANGTGPRAIAELNDRAAAWNEATQRA  245
+
+Query  241  ISPIQQRVSHPE  252
+            +  +      P+
+Sbjct  246  MGSLPPAAEKPQ  257
+
+
+>VFG015605(gb|WP_010951467) (hdtS) 1-acyl-sn-glycerol-3-phosphate 
+acyltransferase [Acylhomoserine lactone synthase (VF0907) 
+- Biofilm (VFC0271)] [Pseudomonas putida KT2440]
+Length=261
+
+ Score = 343 bits (881),  Expect = 2e-120, Method: Compositional matrix adjust.
+ Identities = 162/252 (64%), Positives = 194/252 (77%), Gaps = 0/252 (0%)
+
+Query  1    MSTVQAIRTVLFYLLLSASAFVWGTLSFFIAPILPFRARYRFVVQNWCRFAIWLTRVVAG  60
+            MS +QAIR  LFYLLL  S+ +W +LSFF+AP L F  RY+F+   WCR A++L R + G
+Sbjct  6    MSILQAIRIFLFYLLLGTSSLLWCSLSFFVAPFLSFPKRYKFINVYWCRCALFLVRTILG  65
+
+Query  61   IRYEVRGLENIPEKPCVILSKHQSTWETFFLSGFFEPLSQVLKRELLYVPFFGWALALLK  120
+            I Y++ G EN+P +PCVILS HQSTWETFFLS +F PLSQVLKRELLYVPFFGWA+A+L+
+Sbjct  66   IDYKITGAENVPAEPCVILSNHQSTWETFFLSQYFSPLSQVLKRELLYVPFFGWAMAMLR  125
+
+Query  121  PIAIDRSQPKLALKQLAKQGDECLKKGAWVLIFPEGTRIPVGQMGKFSRGGTALAVNAGL  180
+            PIAI+R  PK AL+Q+A +GDE LK+  WVLIFPEGTR+P G +GKFSRGGTALAVNAGL
+Sbjct  126  PIAINRDNPKEALRQVASKGDELLKQKTWVLIFPEGTRVPFGTIGKFSRGGTALAVNAGL  185
+
+Query  181  PVLPIAHNAGQYWPKAGWAKYPGTIQVVIGPAMHAEGEGPRAIAELNQRAEAWVSETMAE  240
+            PVLPIAHNAG++WPK GW K  GTI+VVIG  M+A G GPRAIAELN RA AW   T   
+Sbjct  186  PVLPIAHNAGKFWPKTGWGKRAGTIEVVIGEPMYANGTGPRAIAELNDRAAAWNEATQRA  245
+
+Query  241  ISPIQQRVSHPE  252
+            +  +      P+
+Sbjct  246  MGSLPPAAEKPQ  257
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.138    0.440    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1678427373
+
+
+Query= g2575.t1
+
+Length=209
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.139    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1199168543
+
+
+Query= g3332.t1
+
+Length=624
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.143    0.437    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5352126738
+
+
+Query= g2795.t1
+
+Length=400
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.139    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3112377262
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

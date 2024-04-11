@@ -1,0 +1,152 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1051.t1
+
+Length=404
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.144    0.488    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3154154138
+
+
+Query= g2631.t1
+
+Length=414
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG052115(gb|WP_005117590.1) (mptC) alpha-(1-2)-phosphatidylinosi...  50.4    1e-06
+VFG052114(gb|WP_005065133.1) (mptC) alpha-(1-2)-phosphatidylinosi...  49.7    2e-06
+VFG052113(gb|WP_005112852.1) (mptC) alpha-(1-2)-phosphatidylinosi...  48.9    3e-06
+
+
+>VFG052115(gb|WP_005117590.1) (mptC) alpha-(1-2)-phosphatidylinositol 
+mannoside mannosyltransferase [LAM (VF0318) - Immune 
+modulation (VFC0258)] [Mycobacterium abscessus subsp. bolletii 
+str. GO 06]
+Length=443
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 59/200 (30%), Positives = 95/200 (48%), Gaps = 16/200 (8%)
+
+Query  37   LTTNGNITDDFKPVYRAVLNFRRGWDIYNEHFDYVDPHYLYPPGGTLLMAPFGYLPFAPS  96
+            LT NG   D ++   R + + +R   +Y E        ++YPP  TL++AP  +  F  +
+Sbjct  42   LTQNGYDLDTYRAAVRGLWDGKR---LY-EAPALNQAWFVYPPFATLVLAPLAWASFEVA  97
+
+Query  97   RYLFISINTAAILVAAYLLLRMFNFTLTS---VAAPALILAMFATETVTNTLVFTNINGC  153
+            +++ + ++ +A+ + A+ +LR+      S   +A+ AL   +   E V  TL +  IN  
+Sbjct  98   KWMLLVLSLSALALIAWRILRLAGVRADSRLGLASAALAAIVIDVEPVQATLWWGQIN--  155
+
+Query  154  ILLLEVLFLRWLLDGRASRQWCGGLAIGLTLVLKPLLGPLLLLP--LLNRQWRALVAAVV  211
+            ILL+ V+ L   L G A  +W G   +GL L     L PL+ LP  L  RQWRA   A+ 
+Sbjct  156  ILLMAVVLLD--LLGPAQSRWRG---VGLGLAAGIKLTPLIFLPYLLCTRQWRAATLAMG  210
+
+Query  212  VPVVVNVAALPLVSDPMSFF  231
+                      PL+     +F
+Sbjct  211  TMAATVALTWPLLPRDSEWF  230
+
+
+>VFG052114(gb|WP_005065133.1) (mptC) alpha-(1-2)-phosphatidylinositol 
+mannoside mannosyltransferase [LAM (VF0318) - Immune 
+modulation (VFC0258)] [Mycobacterium abscessus subsp. bolletii 
+50594]
+Length=443
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 59/200 (30%), Positives = 94/200 (47%), Gaps = 16/200 (8%)
+
+Query  37   LTTNGNITDDFKPVYRAVLNFRRGWDIYNEHFDYVDPHYLYPPGGTLLMAPFGYLPFAPS  96
+            LT NG   D ++   R + + +R   +Y E        ++YPP  TL++AP  +  F  +
+Sbjct  42   LTQNGYDLDTYRAAVRGLWDGKR---LY-EAPALNQAWFVYPPFATLVLAPLAWASFEVA  97
+
+Query  97   RYLFISINTAAILVAAYLLLRMFNFTLTS---VAAPALILAMFATETVTNTLVFTNINGC  153
+            +++ + ++ +A+ + A+ +LR+      S   +A+ AL   +   E V  TL +  IN  
+Sbjct  98   KWMLLVLSLSALALIAWRILRLAGVRADSRLGLASAALAAIVIDVEPVQATLWWGQIN--  155
+
+Query  154  ILLLEVLFLRWLLDGRASRQWCGGLAIGLTLVLKPLLGPLLLLP--LLNRQWRALVAAVV  211
+            ILL+ V+ L   L G A  +W G    GL L     L PL+ LP  L  RQWRA   A+ 
+Sbjct  156  ILLMAVVLLD--LLGPAQSRWRGA---GLGLAAGIKLTPLIFLPYLLCTRQWRAATLAMG  210
+
+Query  212  VPVVVNVAALPLVSDPMSFF  231
+                      PL+     +F
+Sbjct  211  TMAATVALTWPLLPRDSEWF  230
+
+
+>VFG052113(gb|WP_005112852.1) (mptC) alpha-(1-2)-phosphatidylinositol 
+mannoside mannosyltransferase [LAM (VF0318) - Immune 
+modulation (VFC0258)] [Mycobacterium abscessus ATCC 19977]
+Length=443
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 59/200 (30%), Positives = 95/200 (48%), Gaps = 16/200 (8%)
+
+Query  37   LTTNGNITDDFKPVYRAVLNFRRGWDIYNEHFDYVDPHYLYPPGGTLLMAPFGYLPFAPS  96
+            LT NG   D ++   R + + +R   +Y E        ++YPP  TL++AP  +  F  +
+Sbjct  42   LTQNGYDLDTYRAAVRGLWDGKR---LY-EAPALNQAWFVYPPFATLVLAPLAWASFEVA  97
+
+Query  97   RYLFISINTAAILVAAYLLLRMFNFTLTS---VAAPALILAMFATETVTNTLVFTNINGC  153
+            +++ + ++ +A+ + A+ +LR+      S   +A+ AL   +   E V  TL +  IN  
+Sbjct  98   KWMLLILSLSALALIAWRILRLAGVRADSRLGLASAALAAIVVDVEPVQATLWWGQIN--  155
+
+Query  154  ILLLEVLFLRWLLDGRASRQWCGGLAIGLTLVLKPLLGPLLLLP--LLNRQWRALVAAVV  211
+            ILL+ V+ L   L G A  +W G   +GL L     L PL+ LP  L  RQWRA   A+ 
+Sbjct  156  ILLMAVVLLD--LLGPAQSRWRG---VGLGLAAGIKLTPLIFLPYLLCTRQWRAATHALG  210
+
+Query  212  VPVVVNVAALPLVSDPMSFF  231
+                      PL+     +F
+Sbjct  211  TMAATVALTWPLLPRDSEWF  230
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.144    0.477    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3239449707
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

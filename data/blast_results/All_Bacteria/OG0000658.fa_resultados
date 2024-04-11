@@ -1,0 +1,2239 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1786.t1
+
+Length=97
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.133    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 330472603
+
+
+Query= g552.t1
+
+Length=408
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000031(gb|WP_010929609) (bplH) putative glycosyl transferase [...  58.5    3e-09
+VFG011148(gb|WP_181905650) (bplH) putative glycosyl transferase [...  55.1    3e-08
+VFG007689(gb|WP_011082425) (cpsF) glycosyltransferase [Capsular p...  54.7    4e-08
+VFG019787(gb|WP_003122254) (PLES_RS09925) glycosyltransferase fam...  54.3    5e-08
+VFG007690(gb|WP_011151783) (cpsF) glycosyltransferase [Capsular p...  54.3    5e-08
+VFG007688(gb|WP_005478388) (cpsF) glycosyltransferase [Capsular p...  50.8    6e-07
+VFG038073(gb|WP_001237777) (M3Q_RS01490) glycosyltransferase fami...  50.4    9e-07
+VFG011150(gb|WP_012415796) (bplH) putative glycosyl transferase [...  48.5    4e-06
+
+
+>VFG000031(gb|WP_010929609) (bplH) putative glycosyl transferase 
+[LPS (VF0033) - Immune modulation (VFC0258)] [Bordetella 
+pertussis Tohama I]
+Length=390
+
+ Score = 58.5 bits (140),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 94/333 (28%), Positives = 139/333 (42%), Gaps = 53/333 (16%)
+
+Query  107  LGVPTFRMLRALRGFDPDV--VHLASPALLGYGGLHAARRLGVPTVAVYQTDVPGFASSY  164
+            L  P  R L  L+  DPD+  VH A+    GYG L    R     ++ + +D+  F +S 
+Sbjct  78   LAAPRLRAL--LKRIDPDLLNVHYAT----GYGLLARRARFSPVLLSAWGSDIYEFPNSS  131
+
+Query  165  GIPMTARAAWAWFRHL-HRLADRT--LAPSTATMESLIAQGIPR--VHRWARGVDVQRFA  219
+                       W + L  R  D    LA ++  M+  + +G+ R  +     G+D   F 
+Sbjct  132  ----------TWHKALLQRNLDHATALAATSHAMQREM-RGLTRRPIFVTPFGIDEALFQ  180
+
+Query  220  PSARNEVLRRRWSPDGKPIVGFVGRLAPEKHVDRLT--------GLAASG---AVRLV--  266
+            P+   +      + DG  ++G V  L     +D L          LAAS    A RLV  
+Sbjct  181  PAQSVQAP----AADGPIVIGTVKALETHYGIDTLIQAFALLRQALAASQPGMAERLVLR  236
+
+Query  267  IVGDGIDRARLQSAMPTA------VFTGARYGKELAEAYASMDVFVHSGEHETFCQVVQE  320
+            I G G    RL++    A       F G     E+ EA  ++DV+V     ++F   + E
+Sbjct  237  IYGAGSQLQRLRAQAQAAHIANQVEFKGRIPHAEVPEALRALDVYVALSRMDSFGVAILE  296
+
+Query  321  ALASGLPVIAPDAGGPRDLITPHRTGLLLPVGEFEHRLPDAVAHLVHE---RQRYALAAR  377
+            A +  LPV+  +A GP +++   +TG ++   E  H   D +  LV     RQR   A R
+Sbjct  297  ACSCALPVVVSNADGPAEVVVDGKTGYIV-AREDAHAAADRLQELVLNPELRQRLGAAGR  355
+
+Query  378  RSVLGR-SWPVVCDELLGHY-EAVRGRRTTQAA  408
+              VL   +W    D +L  Y E  R  R TQ A
+Sbjct  356  ARVLSEYTWSKSLDMMLDAYTETARLYRATQPA  388
+
+
+>VFG011148(gb|WP_181905650) (bplH) putative glycosyl transferase 
+[LPS (VF0033) - Immune modulation (VFC0258)] [Bordetella 
+parapertussis 12822]
+Length=390
+
+ Score = 55.1 bits (131),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 93/333 (28%), Positives = 138/333 (41%), Gaps = 53/333 (16%)
+
+Query  107  LGVPTFRMLRALRGFDPDV--VHLASPALLGYGGLHAARRLGVPTVAVYQTDVPGFASSY  164
+            L  P  R L  L+  DPD+  VH A+    GYG L    R     ++ + +D+  F +S 
+Sbjct  78   LAAPRLRAL--LKRIDPDLLNVHYAT----GYGLLARRARFSPVLLSAWGSDIYEFPNSS  131
+
+Query  165  GIPMTARAAWAWFRHL-HRLADRT--LAPSTATMESLIAQGIPR--VHRWARGVDVQRFA  219
+                       W + L  R  D    LA ++  M+  + +G+ R  +     G+D     
+Sbjct  132  ----------TWHKALLQRNLDHATALAATSHAMQREM-RGLTRRPIFVTPFGIDEALSQ  180
+
+Query  220  PSARNEVLRRRWSPDGKPIVGFVGRLAPEKHVDRLT--------GLAASG---AVRLV--  266
+            P+   +      + DG  ++G V  L     +D L          LAAS    A RLV  
+Sbjct  181  PAQSVQAP----AADGPIVIGTVKALETHYGIDTLIQAFALLRQALAASQPGMAERLVLR  236
+
+Query  267  IVGDGIDRARLQSAMPTA------VFTGARYGKELAEAYASMDVFVHSGEHETFCQVVQE  320
+            I G G    RL++    A       F G     E+ EA  ++DV+V     ++F   + E
+Sbjct  237  IYGAGSQLQRLRAQAQAAHIANQVEFKGRIPHAEVPEALRALDVYVALSRMDSFGVAILE  296
+
+Query  321  ALASGLPVIAPDAGGPRDLITPHRTGLLLPVGEFEHRLPDAVAHLVHE---RQRYALAAR  377
+            A +  LPV+  +A GP +++   +TG ++   E  H   D +  LV     RQR   A R
+Sbjct  297  ACSCALPVVVSNADGPAEVVVDGKTGYIV-AREDAHAAADRLQELVLNPELRQRLGAAGR  355
+
+Query  378  RSVLGR-SWPVVCDELLGHY-EAVRGRRTTQAA  408
+              VL   +W    D +L  Y E  R  R TQ A
+Sbjct  356  ARVLSEYTWSKSLDMMLDAYTETARLYRATQPA  388
+
+
+>VFG007689(gb|WP_011082425) (cpsF) glycosyltransferase [Capsular 
+polysaccharide (VF0624) - Immune modulation (VFC0258)] [Vibrio 
+vulnificus CMCP6]
+Length=346
+
+ Score = 54.7 bits (130),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 58/220 (26%), Positives = 97/220 (44%), Gaps = 20/220 (9%)
+
+Query  173  AWAWFRHLHRLA-DRTLAPSTATMESLIAQGIPRVHRWAR----GVDVQRFAPSARNEVL  227
+            A+ +  +L  L+ D T++ S    E LI + +P   +  +    GVD+  F+ SAR  + 
+Sbjct  111  AFKFMEYLLYLSHDLTISISEKVQEELI-KFMPNFRQKYKVINNGVDLSCFSMSARTGI-  168
+
+Query  228  RRRWSPDGKPIVGFVGRLAPEKHVDRLTGLAAS--GAVRLVIVGDGIDRARLQSAMPTAV  285
+                    +  +G VGRL   K  + L    A      +L + GDG  R  L+S      
+Sbjct  169  ----KHPAQIKIGMVGRLHEHKDHEALIRAVALLPTQYQLHLAGDGQKREALESLAQQLD  224
+
+Query  286  FTGARYG----KELAEAYASMDVFVHSGEHETFCQVVQEALASGLPVIAPDAGGPRDLIT  341
+             T   +      ++      MD++V S   E F     EA+A+GLPV++ +  G  D+I 
+Sbjct  225  ITNRVFFHGVVSDIPTFLEQMDLYVQSSLIEGFGLAAVEAMAAGLPVLSSNVPGLDDVIG  284
+
+Query  342  PHRTGLLLPVGEFEHRLPDAVAHLVHERQRYALAARRSVL  381
+                G L  V   E  L + +  +    + Y++A++ S+L
+Sbjct  285  --NAGYLFEVSNSE-ELANKIIQVCDSNENYSVASKYSIL  321
+
+
+>VFG019787(gb|WP_003122254) (PLES_RS09925) glycosyltransferase 
+family 4 protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa LESB58]
+Length=376
+
+ Score = 54.3 bits (129),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 89/338 (26%), Positives = 142/338 (42%), Gaps = 41/338 (12%)
+
+Query  75   TPPGEDRAERLHDGVRVHRVPSRMFPK--VTTLPLGVPTFRMLRALRGFDPDVVHLASPA  132
+            T PG+   + +  G   H +P     K   + L L    +R+L  LR   PDV+HL +  
+Sbjct  37   TRPGDAVKKIVSQGFLHHELPLSRSGKNPFSELYLLTYVWRLLWRLR---PDVLHLVTIK  93
+
+Query  133  LLGYGGLHAARRLGVPTVAVYQTDVPGFASSYGIPMTA-RAAWAWF--RHLHRLADRTLA  189
+             + YGG+ AAR   V  V    + +     + G+   A RA  AW   R L +   R + 
+Sbjct  94   PVIYGGI-AARLAPVKGVVAAVSGLGFVFMAKGLKACAFRACVAWLYRRALGKKKLRVIF  152
+
+Query  190  PSTATMESLIAQGIPRVHRW----ARGVDVQRFAPSARNEVLRRRWSPDGKPIVGFVGRL  245
+             +    ++LI  G     +       GVD+ ++ P+          SP+  P+V    RL
+Sbjct  153  QNPDDRDALIGLGAITFEKSVLIRGSGVDLTQYQPAPE--------SPE-TPVVTLAARL  203
+
+Query  246  APEKHVDRLTGLAASGAVR-------LVIVGD-------GIDRARLQSAMPTAVFTGARY  291
+              +K V  L  + A+  +R         +VGD        I+ + L+            Y
+Sbjct  204  LRDKGV--LEFVEAANILRQRSVPAHFQLVGDLDPGNPTSIEPSELERWRSEGTIECLGY  261
+
+Query  292  GKELAEAYASMDVFVHSGEHETFCQVVQEALASGLPVIAPDAGGPRDLITPHRTGLLLPV  351
+             +++A  +A   + V     E   +V+ EA A G  V+  D  G RD I    TGLL+PV
+Sbjct  262  RQDIASVFARSHIVVLPSYREGLPKVLVEASACGRAVVTTDVPGCRDAIQADVTGLLVPV  321
+
+Query  352  GEFEHRLPDAVAHLVH--ERQRYALAARRSVLGRSWPV  387
+             +    L DA+  L+   E ++   AA R++  R + +
+Sbjct  322  RD-SAALADAIQRLIESPELRKKMGAAGRALAERDFAI  358
+
+
+>VFG007690(gb|WP_011151783) (cpsF) glycosyltransferase [Capsular 
+polysaccharide (VF0624) - Immune modulation (VFC0258)] [Vibrio 
+vulnificus YJ016]
+Length=346
+
+ Score = 54.3 bits (129),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 58/220 (26%), Positives = 97/220 (44%), Gaps = 20/220 (9%)
+
+Query  173  AWAWFRHLHRLA-DRTLAPSTATMESLIAQGIPRVHRWAR----GVDVQRFAPSARNEVL  227
+            A+ +  +L  L+ D T++ S    E LI + +P   +  +    GVD+  F+ SAR  + 
+Sbjct  111  AFKFMEYLLYLSHDLTISISEKVQEELI-KFMPNFRQKYKVINNGVDLSCFSMSARTGI-  168
+
+Query  228  RRRWSPDGKPIVGFVGRLAPEKHVDRLTGLAAS--GAVRLVIVGDGIDRARLQSAMPTAV  285
+                    +  +G VGRL   K  + L    A      +L + GDG  R  L+S      
+Sbjct  169  ----KHPTQIKIGMVGRLHEHKDHEALIRAVALLPTQYQLHLAGDGQKREMLESLAQQLD  224
+
+Query  286  FTGARYG----KELAEAYASMDVFVHSGEHETFCQVVQEALASGLPVIAPDAGGPRDLIT  341
+             T   +      ++      MD++V S   E F     EA+A+GLPV++ +  G  D+I 
+Sbjct  225  ITNRVFFHGVVSDIPTFLEQMDLYVQSSLIEGFGLAAVEAMAAGLPVLSSNVPGLDDVIG  284
+
+Query  342  PHRTGLLLPVGEFEHRLPDAVAHLVHERQRYALAARRSVL  381
+                G L  V   E  L + +  +    + Y++A++ S+L
+Sbjct  285  --NAGYLFEVSNSE-ELANKIIQVCDSNENYSVASKYSIL  321
+
+
+>VFG007688(gb|WP_005478388) (cpsF) glycosyltransferase [Capsular 
+polysaccharide (VF0624) - Immune modulation (VFC0258)] [Vibrio 
+parahaemolyticus RIMD 2210633]
+Length=350
+
+ Score = 50.8 bits (120),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 58/206 (28%), Positives = 89/206 (43%), Gaps = 21/206 (10%)
+
+Query  187  TLAPSTATMESLIAQGIPRV-HRW---ARGVDVQRFAPSARNEVLRRRWSPDGKPIVGFV  242
+            T++ S    E L+ + +PR  H++     GVD+ RF  +A+        S      +G V
+Sbjct  128  TVSISEKVQEELV-KFMPRYQHKYRVVHNGVDLNRFPMTAKQA---HDISEKATINIGMV  183
+
+Query  243  GRLAPEKHVDRLTGLAAS--GAVRLVIVGDGIDRARLQ------SAMPTAVFTGARYGKE  294
+            GRL   K  + L    A       L + GDG  +A LQ      +  P   F G     +
+Sbjct  184  GRLHEHKDHETLIHAIAKLPECYHLHLAGDGDRKASLQRLAQSLNVSPRVHFHGVV--SD  241
+
+Query  295  LAEAYASMDVFVHSGEHETFCQVVQEALASGLPVIAPDAGGPRDLITPHRTGLLLPVGEF  354
+            +    + MD++V S   E F     EA+A+GLPV++ D  G  ++     +  L  VG+ 
+Sbjct  242  IPRFLSDMDIYVQSSHVEGFGLAAVEAMAAGLPVLSSDVPGLDEVTGS--SEYLFEVGD-  298
+
+Query  355  EHRLPDAVAHLVHERQRYALAARRSV  380
+             + L   VA L  +   Y  A+  SV
+Sbjct  299  SNLLAQKVAELCEDAALYNSASHYSV  324
+
+
+>VFG038073(gb|WP_001237777) (M3Q_RS01490) glycosyltransferase 
+family 4 protein [Capsule (VF0465) - Immune modulation (VFC0258)] 
+[Acinetobacter baumannii TYTH-1]
+Length=344
+
+ Score = 50.4 bits (119),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 44/164 (27%), Positives = 73/164 (45%), Gaps = 18/164 (11%)
+
+Query  232  SPDGKPIVGFVGRLAPEKHVDRLTGLAASGAV-------RLVIVGDGIDRARLQ-----S  279
+            SP     +  +GRL  +K  + L  L A   +        L I G+G  +  LQ     +
+Sbjct  166  SPLSSKQIVTIGRLTDQK--NYLHLLKAWKKIYQMIPEWHLNIYGEGEHKKMLQDYIEEN  223
+
+Query  280  AMPTAVFTGARYGKELAEAYASMDVFVHSGEHETFCQVVQEALASGLPVIAPDA-GGPRD  338
+            ++   +  G+     + E Y   D FV S ++E    V+ EA + GLP+++ D   GP D
+Sbjct  224  SLQRVILKGS--TSNVQEVYRQSDFFVMSSKYEGLPMVLVEAQSFGLPIVSYDCPFGPSD  281
+
+Query  339  LITPHRTGLLLPVGEFEHRLPDAVAHLVHERQRYALAARRSVLG  382
+            +I  H+ GLL+     E  L DA+  +       A  ++ S++ 
+Sbjct  282  VIQNHKNGLLVENQNIE-ALADAILQIASSPDMLAQFSQNSLIN  324
+
+
+>VFG011150(gb|WP_012415796) (bplH) putative glycosyl transferase 
+[LPS (VF0033) - Immune modulation (VFC0258)] [Bordetella 
+avium 197N]
+Length=402
+
+ Score = 48.5 bits (114),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 87/350 (25%), Positives = 135/350 (39%), Gaps = 66/350 (19%)
+
+Query  85   LHDGVRVHRVPSRMFPKVTTLPLGVP-TFRMLRAL-RGFDPDVV--HLASPALLGYGGLH  140
+            L DG+  HR+P +        P G     R LR L +   PD++  H A+    GYG L 
+Sbjct  63   LADGIEFHRLPWKA-------PHGYRLNARYLRQLLKRLQPDLLNAHYAT----GYGLLA  111
+
+Query  141  AARRLGVPTVAVYQTDVPGFASSYGIPMTARAAWAWFRHLHRL---ADRTLAPSTATMES  197
+               R     ++ + +D+      Y  P  +    +W R L R    +   LA ++  M +
+Sbjct  112  RLSRFSPVLLSAWGSDI------YEFPTRS----SWHRKLLRKNLESATCLAATSHAMAA  161
+
+Query  198  LIAQGIPR-VHRWARGVDVQRFAPSARNEVLRRRWSPDGKPIVGFVGRLAPEKHVDRL--  254
+             + +  P  V     G+D + F+P    E        D    +G V  L     +D L  
+Sbjct  162  RMQELSPLPVTITPFGIDTELFSPGTLTER-----HVDKALRIGTVKSLEDTYGIDTLLE  216
+
+Query  255  -----------TGLAASGAVRLVIVGDGI------DRARLQSAMPTAVFTGARYGKELAE  297
+                          A +  ++L+I G G        +AR  +      F G      + +
+Sbjct  217  AYARLYRRIKAEDAALAQRLQLLIYGRGSRLDALSQQARDLAIDHCTTFAGHIEHHAVPD  276
+
+Query  298  AYASMDVFVHSGEHETFCQVVQEALASGLPVIAPDAGGPRDLITPHRTGLLLPVGEFEHR  357
+            A  SMD+F      ++F   + EA A  LPV+  DA GP +++    TG ++P    E  
+Sbjct  277  ALRSMDIFAALSRADSFGVAILEASACRLPVVVSDADGPAEIVEDQHTGFIVPRENAE--  334
+
+Query  358  LPDAVAHLVHE-------RQRYALAARRSVLGR-SWPVVCDELLGHYEAV  399
+               A A  ++        R+R   A R+ V  R SW    D +L  Y A 
+Sbjct  335  ---AAAQCLYTLVMDSALRERMGRAGRQLVDARYSWNHSVDIMLAAYRAT  381
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3195931014
+
+
+Query= g854.t1
+
+Length=406
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG013497(gb|WP_011272754) (lsgC) glycosyltransferase [LOS (VF004...  69.7    5e-13
+VFG013496(gb|WP_005694187) (lsgC) glycosyltransferase [LOS (VF004...  69.3    7e-13
+VFG013498(gb|WP_011961862) (lsgC) glycosyltransferase [LOS (VF004...  67.8    2e-12
+VFG037970(gb|WP_000799852) (AB57_RS00500) glycosyltransferase fam...  57.0    7e-09
+VFG038072(gb|YP_005796982) (ABTW07_0093) hypothetical protein [Ca...  54.7    4e-08
+VFG016396(gb|WP_165609434) (BCE_RS25840) glycosyltransferase fami...  53.1    1e-07
+VFG038056(gb|WP_001023212) (ABSDF_RS00375) glycosyltransferase [C...  53.1    1e-07
+VFG016427(gb|WP_001227282) (BALH_RS26210) glycosyltransferase fam...  52.8    1e-07
+VFG036141(gb|WP_002246377) (rfaK) glycosyltransferase family 4 pr...  52.0    3e-07
+VFG046956(gb|WP_003025748) (lpcC) glycosyl transferase family pro...  51.6    4e-07
+VFG006116(gb|WP_002220438) (rfaK) glycosyltransferase family 4 pr...  51.6    4e-07
+VFG036149(gb|WP_014582206) (rfaK) glycosyltransferase family 4 pr...  51.2    5e-07
+VFG000242(gb|WP_002222112) (rfaK) glycosyltransferase family 4 pr...  51.2    5e-07
+VFG046948(gb|WP_003039996) (lpcC) glycosyl transferase family pro...  51.2    6e-07
+VFG036142(gb|WP_014573847) (rfaK) glycosyltransferase family 4 pr...  50.8    6e-07
+VFG046960(gb|WP_014550010) (lpcC) glycosyl transferase family pro...  50.8    6e-07
+VFG046957(gb|WP_014548613) (lpcC) glycosyl transferase family pro...  50.8    6e-07
+VFG046958(gb|WP_015083810) (lpcC) glycosyl transferase family pro...  50.4    7e-07
+VFG005928(gb|WP_202964935) (STER_RS05280) glycosyltransferase fam...  50.8    7e-07
+VFG046955(gb|WP_003021532) (lpcC) glycosyl transferase family pro...  50.8    8e-07
+VFG046952(gb|WP_011648659) (lpcC) glycosyl transferase family pro...  50.4    8e-07
+VFG046950(gb|WP_003015190) (lpcC) glycosyl transferase family pro...  50.4    8e-07
+VFG048894(gb|WP_004180517) (KPN2242_RS16295) glycosyltransferase ...  50.4    9e-07
+VFG036146(gb|WP_014580973) (rfaK) glycosyltransferase family 4 pr...  50.4    1e-06
+VFG036152(gb|WP_013448569) (rfaK) glycosyltransferase family 4 pr...  49.7    1e-06
+VFG000139(gb|NP_253697) (waaG) B-band O-antigen polymerase [LPS (...  49.7    1e-06
+VFG006114(gb|WP_002247045) (rfaK) glycosyltransferase family 4 pr...  49.7    2e-06
+VFG018761(gb|WP_012221944) (rfaK) glycosyltransferase family 4 pr...  49.7    2e-06
+VFG048887(gb|WP_077248738) (KVAR_RS26120) glycosyltransferase [Ca...  48.5    3e-06
+VFG046773(gb|WP_013922879) (F7308_RS05575) glycosyltransferase fa...  48.5    4e-06
+VFG006117(gb|WP_003691706) (rfaK) glycosyltransferase family 4 pr...  48.1    6e-06
+
+
+>VFG013497(gb|WP_011272754) (lsgC) glycosyltransferase [LOS (VF0044) 
+- Immune modulation (VFC0258)] [Haemophilus influenzae 
+86-028NP]
+Length=353
+
+ Score = 69.7 bits (169),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 80/320 (25%), Positives = 142/320 (44%), Gaps = 31/320 (10%)
+
+Query  64   WPLPGYP-GLQWGMSSLHKLLR-CWKRQRPDVLYIATEGPLGFSALRAARRLGIPAVSGF  121
+            +P+   P  L+    S+ K LR   K  + D L +     + FSAL A   L I      
+Sbjct  56   YPMNKLPYSLKKDYFSITKKLRELVKELQLDTLIVVDGAIMLFSAL-ALVNLNIK-----  109
+
+Query  122  HTNFQQYSEHYGFGPLTRLVTGYLRWFHNRTQMTLVPSGSQRMELQRRGFERLNLLSRGV  181
+            H  ++ YS ++    L R +  YL        +TL  +      L +  F+  N++S   
+Sbjct  110  HILWEHYSFNFTGNRLVRTLGKYLAVTTCDKIVTLTEAEKT---LWQEKFKTNNIIS---  163
+
+Query  182  DSQLFHPSRRDPELR-RRWGLGEQDIAVLHVGRLAAEKNLGLLGGTFRALCAAHPQLKLR  240
+               + +P+   P+ +  +W    ++  VL VG L + K    L   ++ L   +P   L+
+Sbjct  164  ---IANPNTLLPKNKLAKW----ENKTVLSVGHLFSYKGFDYLLKVWQVLAKKYPDWNLK  216
+
+Query  241  LVLVGDGPERKHLERDLPEAL-----FCGVQRGETLAAHYASGDLFLFPSLSETFGNVVL  295
+            +   G G E ++L ++L +AL        + R   +A +Y S  ++  PS +E    VV+
+Sbjct  217  IA--GSGEEEENL-KNLAKALNIEDSVNFIPRTNDVAFYYESSSIYCLPSQTEGLPLVVI  273
+
+Query  296  EAQAAGLAVVAFDQA-AAGQHIRHGHNGVLAAPGDKSGFVEVASWLLDDQERLRRVRLNA  354
+            EA A GL +VAF+ +    Q + H  NG L    +    V+    L+++ E  +++   +
+Sbjct  274  EAMAFGLPIVAFNCSPGVKQLVEHKENGFLCEQNNIEEMVKGLDLLINNPELYQQMSDKS  333
+
+Query  355  RQHASRQGWDSIVEHFQNYL  374
+            R  +   G + I+E ++  L
+Sbjct  334  RLMSEDYGIEKIIEEWKGIL  353
+
+
+>VFG013496(gb|WP_005694187) (lsgC) glycosyltransferase [LOS (VF0044) 
+- Immune modulation (VFC0258)] [Haemophilus influenzae 
+Rd KW20]
+Length=353
+
+ Score = 69.3 bits (168),  Expect = 7e-13, Method: Compositional matrix adjust.
+ Identities = 75/305 (25%), Positives = 130/305 (43%), Gaps = 27/305 (9%)
+
+Query  76   MSSLHKLLRCWKRQRPDVLYIATEGPLGFSALRAARRLGIPAVSGFHTNFQQYSEHYGFG  135
+             S   KL    K  + D L +     + FSAL A   L I      H  ++ YS ++   
+Sbjct  70   FSITKKLRELVKELQLDTLIVVDGAIMLFSAL-ALVNLNIK-----HILWEHYSFNFTGN  123
+
+Query  136  PLTRLVTGYLRWFHNRTQMTLVPSGSQRMELQRRGFERLNLLSRGVDSQLFHPSRRDPEL  195
+             L R +  YL        +TL  +      L +  F+  N++S    + L  P  +  +L
+Sbjct  124  RLVRTLGKYLAVTTCDKIVTLTEAEKT---LWQEKFKTNNIISIANPNTLL-PKNKLAKL  179
+
+Query  196  RRRWGLGEQDIAVLHVGRLAAEKNLGLLGGTFRALCAAHPQLKLRLVLVGDGPERKHLER  255
+              +         +L VG L + K    L   ++ L   +P   L++V  G G E ++L +
+Sbjct  180  ENK--------TILSVGHLFSYKGFDYLLKVWQVLAKKYPDWNLKIV--GSGEEEENL-K  228
+
+Query  256  DLPEAL-----FCGVQRGETLAAHYASGDLFLFPSLSETFGNVVLEAQAAGLAVVAFDQA  310
+            +L +AL        + R   ++ +Y S  ++  PS +E    VV+EA A GL +VAF+ +
+Sbjct  229  NLAKALDIEDSVNFIPRTNDVSFYYESSSIYCLPSQTEGLPLVVIEAMAFGLPIVAFNCS  288
+
+Query  311  -AAGQHIRHGHNGVLAAPGDKSGFVEVASWLLDDQERLRRVRLNARQHASRQGWDSIVEH  369
+                Q + H  NG L    +    V+    L+++ E   ++   +R  +   G + I+E 
+Sbjct  289  PGVKQLVEHKENGFLCEQNNIEEMVKGLDLLINNPELYLQMSDKSRLMSEDYGIEKIIEE  348
+
+Query  370  FQNYL  374
+            ++  L
+Sbjct  349  WKGIL  353
+
+
+>VFG013498(gb|WP_011961862) (lsgC) glycosyltransferase [LOS (VF0044) 
+- Immune modulation (VFC0258)] [Haemophilus influenzae 
+PittEE]
+Length=353
+
+ Score = 67.8 bits (164),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 74/306 (24%), Positives = 133/306 (43%), Gaps = 29/306 (9%)
+
+Query  76   MSSLHKLLRCWKRQRPDVLYIATEGPLGFSALRAARRLGIPAVSGFHTNFQQYSEHYGFG  135
+             S   KL    K  + D L +     + FSAL A   L I      H  ++ YS ++   
+Sbjct  70   FSITKKLRELVKELQLDTLIVVDGAIMLFSAL-ALVNLNIK-----HILWEHYSFNFTGN  123
+
+Query  136  PLTRLVTGYLRWFHNRTQMTLVPSGSQRMELQRRGFERLNLLSRGVDSQLFHPSRRDPEL  195
+             L R +  YL        +TL  +      L +  F+  N+++        +P+   P+ 
+Sbjct  124  RLVRTLGKYLAVTTCDKIVTLTEAEKT---LWQEKFKTNNIITIA------NPNTLLPKN  174
+
+Query  196  R-RRWGLGEQDIAVLHVGRLAAEKNLGLLGGTFRALCAAHPQLKLRLVLVGDGPERKHLE  254
+            +  +W    ++  +L VG L + K    L   ++ L   +P   L++V  G G E ++L 
+Sbjct  175  KLAKW----ENKTILSVGHLFSYKGFDYLLKVWQVLAKKYPDWNLKIV--GSGEEEENL-  227
+
+Query  255  RDLPEAL-----FCGVQRGETLAAHYASGDLFLFPSLSETFGNVVLEAQAAGLAVVAFDQ  309
+            ++L +AL          R   ++ +Y S  ++  PS +E    VV+EA A GL +VAF+ 
+Sbjct  228  KNLAKALDIEDSVNFTPRTNDVSFYYESSSIYCLPSQTEGLPLVVIEAMAFGLPIVAFNC  287
+
+Query  310  A-AAGQHIRHGHNGVLAAPGDKSGFVEVASWLLDDQERLRRVRLNARQHASRQGWDSIVE  368
+            +    Q + H  NG L    +    V+    L+++ E  +++   +R  +   G + I+E
+Sbjct  288  SPGVKQLVEHKENGFLCEKNNIEEMVKGLDLLINNPELYQQMSDKSRLMSEDYGIEKIIE  347
+
+Query  369  HFQNYL  374
+             ++  L
+Sbjct  348  EWKGIL  353
+
+
+>VFG037970(gb|WP_000799852) (AB57_RS00500) glycosyltransferase 
+family 4 protein [Capsule (VF0465) - Immune modulation (VFC0258)] 
+[Acinetobacter baumannii AB0057]
+Length=358
+
+ Score = 57.0 bits (136),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 41/130 (32%), Positives = 62/130 (48%), Gaps = 11/130 (8%)
+
+Query  207  AVLHVGRLAAEKNLGLLGGTFRALCAAHPQLKLRLVLVGDGPERKHLER------DLPEA  260
+             VL VGRL   K   LL   +  +C    +   +L +VG G E ++L++       +   
+Sbjct  187  VVLTVGRLTHVKGYDLLLQAWADICVEDKEW--QLFIVGGGEEEENLKKLANKLNIINRV  244
+
+Query  261  LFCGVQRGETLAAHYASGDLFLFPSLSETFGNVVLEAQAAGLAVVAFD-QAAAGQHIRHG  319
+            +F G Q    ++  Y    +F   S +E    V+LEAQ+ GL +V+FD      + + HG
+Sbjct  245  VFAGTQND--VSIFYEKSSIFCLSSRNEGLPMVLLEAQSYGLPIVSFDCDTGPSEIVTHG  302
+
+Query  320  HNGVLAAPGD  329
+             NG LA  GD
+Sbjct  303  ENGYLARMGD  312
+
+
+>VFG038072(gb|YP_005796982) (ABTW07_0093) hypothetical protein 
+[Capsule (VF0465) - Immune modulation (VFC0258)] [Acinetobacter 
+baumannii TCDC-AB0715]
+Length=358
+
+ Score = 54.7 bits (130),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 47/164 (29%), Positives = 70/164 (43%), Gaps = 17/164 (10%)
+
+Query  206  IAVLHVGRLAAEKNLGLLGGTFRALCAA-HPQLKLRLVLVGDGPERKHLERDLPEALFCG  264
+            + +L+VGRL   K      G +  + A  H  L   L ++G        E DL +  F G
+Sbjct  197  LKILYVGRLEHRK------GIYDLIEAINHTNLNCELTVLGGTANELETELDLSKVKFEG  250
+
+Query  265  VQRGETLAAHYASGDLFLFPSLSETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHGHNGVL  324
+             Q    L ++Y + DL   PS  E FG V LEA A G+  V  +       I+H  NG +
+Sbjct  251  FQSD--LRSYYLNADLLCVPSHHEGFGQVYLEAAAHGVIPVCCNIPGPTDFIKHNSNGFI  308
+
+Query  325  AAPGDKSGFVEVASWLLDDQERLRRVRLNA---RQHASRQGWDS  365
+                     +E     L ++  L++  L+A   R   S Q ++S
+Sbjct  309  VDAKSPDSILE-----LFEEINLKKFDLDAIQKRAFESVQAYES  347
+
+
+>VFG016396(gb|WP_165609434) (BCE_RS25840) glycosyltransferase 
+family 1 protein [Polysaccharide capsule (VF0659) - Immune modulation 
+(VFC0258)] [Bacillus cereus ATCC 10987]
+Length=373
+
+ Score = 53.1 bits (126),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 40/134 (30%), Positives = 64/134 (48%), Gaps = 12/134 (9%)
+
+Query  181  VDSQLFHPSRRDPELRRRWGLGEQDIAVLHVGRLAAEKNLGLLGGTFRALCAAHPQLKLR  240
+            +DS LF+  +R+ +LR+   L ++   V HVGR   +KN   L   F  +   +      
+Sbjct  182  LDSFLFNKEKRE-KLRKELNLDDK-FVVGHVGRFDTQKNHSYLIDVFSEIVKRNADS--I  237
+
+Query  241  LVLVGDGPERKHLERDLP------EALFCGVQRGETLAAHYASGDLFLFPSLSETFGNVV  294
+            LVL G G    ++ + +       + +F GV+    +     + D+F+FPSL E   N V
+Sbjct  238  LVLTGKGSLENNIRKKVEMMGLVEKVIFTGVRSD--VPDIMMAMDVFIFPSLYEGMPNTV  295
+
+Query  295  LEAQAAGLAVVAFD  308
+            +EAQ  GL  +  D
+Sbjct  296  IEAQGTGLPCIISD  309
+
+
+>VFG038056(gb|WP_001023212) (ABSDF_RS00375) glycosyltransferase 
+[Capsule (VF0465) - Immune modulation (VFC0258)] [Acinetobacter 
+baumannii SDF]
+Length=358
+
+ Score = 53.1 bits (126),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 47/164 (29%), Positives = 70/164 (43%), Gaps = 17/164 (10%)
+
+Query  206  IAVLHVGRLAAEKNLGLLGGTFRALCAA-HPQLKLRLVLVGDGPERKHLERDLPEALFCG  264
+            + +L+VGRL   K      G +  + A  H  L   L ++G        E DL +  F G
+Sbjct  197  LKILYVGRLEHRK------GIYDLIEAINHTNLNCELTVLGGTANELETELDLLKVKFEG  250
+
+Query  265  VQRGETLAAHYASGDLFLFPSLSETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHGHNGVL  324
+             Q    L ++Y + DL   PS  E FG V LEA A G+  V  +       I+H  NG +
+Sbjct  251  FQSD--LRSYYLNADLLCVPSHHEGFGQVYLEAAAHGVIPVCCNIPGPTDLIKHNSNGFI  308
+
+Query  325  AAPGDKSGFVEVASWLLDDQERLRRVRLNA---RQHASRQGWDS  365
+                     +E     L ++  L++  L+A   R   S Q ++S
+Sbjct  309  VEAKSPDSILE-----LFEEINLKKFDLDAIQKRAFESVQAYES  347
+
+
+>VFG016427(gb|WP_001227282) (BALH_RS26210) glycosyltransferase 
+family 4 protein [Polysaccharide capsule (VF0659) - Immune 
+modulation (VFC0258)] [Bacillus thuringiensis str. Al Hakam]
+Length=359
+
+ Score = 52.8 bits (125),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 49/197 (25%), Positives = 86/197 (44%), Gaps = 18/197 (9%)
+
+Query  173  RLNLLSRGVDSQLFHPSRRDPELRRRWGLGEQDIAVLHVGRLAAEKNLGLLGGTFRALCA  232
+            ++ ++  GVD        +D E+ +++ L E+D  +L VG L   KN       F+A+ +
+Sbjct  161  KIRVIKIGVDH--IEKVEKDEEILKKFNL-EKDNFMLAVGSLHPNKN-------FKAILS  210
+
+Query  233  A--HPQLKLRLVLVGDGPERKHLERDLP----EALFCGVQRGETLAAHYASGDLFLFPSL  286
+            A  H Q     V++  G ++K +  +         + G    E L   Y++  +F+FPS+
+Sbjct  211  ALDHMQNFAGQVVIAGGIDKKVVSEETSGFGGNIKYVGYVTDEELCGLYSNAKVFIFPSI  270
+
+Query  287  SETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHGHNGVLAAPGDKSGFVEVASWLLDDQER  346
+             E FG   +EA   G  V+A + A+  +  + G   V   P + S  VE      ++Q  
+Sbjct  271  YEGFGLPPIEAMRLGCPVIASNVASIPEVCKDG--AVYFNPTEPSELVEKIYLFYNNQID  328
+
+Query  347  LRRVRLNARQHASRQGW  363
+               +   A + A    W
+Sbjct  329  KNELTTKALEIARDYTW  345
+
+
+>VFG036141(gb|WP_002246377) (rfaK) glycosyltransferase family 
+4 protein [LOS (VF0078) - Immune modulation (VFC0258)] [Neisseria 
+meningitidis WUE 2594]
+Length=354
+
+ Score = 52.0 bits (123),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 50/162 (31%), Positives = 76/162 (47%), Gaps = 21/162 (13%)
+
+Query  172  ERLNLLSRGVDSQLFHPSRRDPELRRRWGLGEQDIAVLHVGRLAAEKNLGLLGGTFRALC  231
+            E+  ++  G+D+  F PS+  P+ R           V + GR++ EK L  L      L 
+Sbjct  154  EKYRIVHNGIDTGRFPPSQEKPDSRF--------FTVAYAGRISPEKGLENLIEACVILH  205
+
+Query  232  AAHPQLKLRLVLVGDG-PERK-HLERDL------PEALFCGVQRGETLAAHYASGDLFLF  283
+              +PQ++L+  L GDG P+    L+RD+      P   F G    E LA+ Y   D+ + 
+Sbjct  206  RKYPQIRLK--LAGDGHPDYMCRLKRDVSASGAEPFVSFEGFT--EKLASFYRQSDVVVL  261
+
+Query  284  PSLS-ETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHGHNGVL  324
+            PSL  E FG  + EA     AV++    A  + I H  +G+L
+Sbjct  262  PSLVPEAFGLSLCEAMYCRTAVISNTLGAQKEIIEHHQSGIL  303
+
+
+>VFG046956(gb|WP_003025748) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+tularensis subsp. tularensis WY96-3418]
+Length=354
+
+ Score = 51.6 bits (122),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 56/248 (23%), Positives = 104/248 (42%), Gaps = 47/248 (19%)
+
+Query  146  RWFHNRTQMTLVPSGSQRMELQRRGFERLNLLSRGVDSQLFHPSR------RDPELRRRW  199
+            +++ NR +  + PS      L+++ +    ++  GVD+Q+F+P+       +D ++  ++
+Sbjct  111  KFYINRMEAVICPSEISAKYLEKKSY----IVPHGVDTQVFYPAENRQQQWQDKKIPGKY  166
+
+Query  200  GLGEQDIAVLHVGRLAAEKNLGLLGGTFRALCAAHPQLK----LRLVLVGDGPER-----  250
+            G+G         GR+   K      GT   + AA   LK       V++G+   R     
+Sbjct  167  GIG-------IFGRIRKTK------GTQEFIEAAIVTLKKYPDWTAVVIGEATPRDLDFK  213
+
+Query  251  KHLERDLPEA------LFCG-VQRGETLAAHYASGDLFLFPSLSETFGNVVLEAQAAGLA  303
+            K LE+ + +A      +F G +     + + Y + D+ +  S  E FG   LEA A+  A
+Sbjct  214  KELEQKVKQAGLDKQIIFIGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCA  273
+
+Query  304  VVAFDQAAAGQHIRHGHNGVLAAPGDKSGFVEVASWLLDDQERLRRVRLNARQHASRQGW  363
+            V+A    A  + I    NG L  P       +    L+ D +         R   ++ G+
+Sbjct  274  VIATKAGAWPEIIVDDENGYLVEPKSSQQIADKLDMLISDSK--------LRYKIAQNGY  325
+
+Query  364  DSIVEHFQ  371
+            D +   ++
+Sbjct  326  DLVTTKYK  333
+
+
+>VFG006116(gb|WP_002220438) (rfaK) glycosyltransferase family 
+4 protein [LOS (VF0078) - Immune modulation (VFC0258)] [Neisseria 
+meningitidis FAM18]
+Length=354
+
+ Score = 51.6 bits (122),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 45/160 (28%), Positives = 72/160 (45%), Gaps = 17/160 (11%)
+
+Query  172  ERLNLLSRGVDSQLFHPSRRDPELRRRWGLGEQDIAVLHVGRLAAEKNLGLLGGTFRALC  231
+            E+  ++  G+D+  F PS+  P+ R           V + GR++ EK L  L      L 
+Sbjct  154  EKYRIIHNGIDTDRFPPSQEKPDSRF--------FTVAYAGRISPEKGLENLIEACVILH  205
+
+Query  232  AAHPQLKLRLVLVGDGPERKHLERDL------PEALFCGVQRGETLAAHYASGDLFLFPS  285
+              +PQ++L+L   G       L+RD+      P   F G    E +A+ Y   D+ + PS
+Sbjct  206  RKYPQIRLKLAGHGHPDYMCRLKRDVSASGAEPFVSFEGFT--ENIASFYRQSDVVVLPS  263
+
+Query  286  LS-ETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHGHNGVL  324
+            L  E FG  + EA     AV++    A  + + H  +G+L
+Sbjct  264  LVPEAFGLSLCEAMYCRTAVISNTLGAQKEIVEHHQSGIL  303
+
+
+>VFG036149(gb|WP_014582206) (rfaK) glycosyltransferase family 
+4 protein [LOS (VF0078) - Immune modulation (VFC0258)] [Neisseria 
+meningitidis M01-240355]
+Length=354
+
+ Score = 51.2 bits (121),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 47/160 (29%), Positives = 72/160 (45%), Gaps = 17/160 (11%)
+
+Query  172  ERLNLLSRGVDSQLFHPSRRDPELRRRWGLGEQDIAVLHVGRLAAEKNLGLLGGTFRALC  231
+            E+  ++  G+D+  F PS+  P+ R           V + GR++ EK L  L      L 
+Sbjct  154  EKYRIVHNGIDTGRFPPSQEKPDSRF--------FTVAYAGRISPEKGLENLIEACVILH  205
+
+Query  232  AAHPQLKLRLVLVGDGPERKHLERDL------PEALFCGVQRGETLAAHYASGDLFLFPS  285
+              +PQ++L+L   G       L+RD+      P   F G    E LA+ Y   D+ + PS
+Sbjct  206  RKYPQIRLKLAGHGHPDYMCRLKRDVSASGAEPFVSFEGFT--EKLASFYRQSDVVVLPS  263
+
+Query  286  LS-ETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHGHNGVL  324
+            L  E FG  + EA     AV++    A  + I H  +G+L
+Sbjct  264  LVPEAFGLSLCEAMYCRTAVISNTLGAQKEIIEHHQSGIL  303
+
+
+>VFG000242(gb|WP_002222112) (rfaK) glycosyltransferase family 
+4 protein [LOS (VF0078) - Immune modulation (VFC0258)] [Neisseria 
+meningitidis MC58]
+Length=354
+
+ Score = 51.2 bits (121),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 49/162 (30%), Positives = 76/162 (47%), Gaps = 21/162 (13%)
+
+Query  172  ERLNLLSRGVDSQLFHPSRRDPELRRRWGLGEQDIAVLHVGRLAAEKNLGLLGGTFRALC  231
+            E+  ++  G+D+  F PS+  P+ R           V + GR++ EK L  L      L 
+Sbjct  154  EKYRIVHNGIDTGRFPPSQEKPDSRF--------FTVAYAGRISPEKGLENLIEACVILH  205
+
+Query  232  AAHPQLKLRLVLVGDG-PERK-HLERDL------PEALFCGVQRGETLAAHYASGDLFLF  283
+              +PQ++L+  L GDG P+    L+RD+      P   F G    E LA+ Y   D+ + 
+Sbjct  206  RKYPQIRLK--LAGDGHPDYMCRLKRDVSASGAEPFVSFEGFT--EKLASFYRQSDVVVL  261
+
+Query  284  PSLS-ETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHGHNGVL  324
+            PSL  E FG  + EA     AV++    A  + + H  +G+L
+Sbjct  262  PSLVPEAFGLSLCEAMYCRTAVISNTLGAQKEIVEHHQSGIL  303
+
+
+>VFG046948(gb|WP_003039996) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+novicida U112]
+Length=354
+
+ Score = 51.2 bits (121),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 57/248 (23%), Positives = 104/248 (42%), Gaps = 47/248 (19%)
+
+Query  146  RWFHNRTQMTLVPSGSQRMELQRRGFERLNLLSRGVDSQLFHPSR------RDPELRRRW  199
+            +++ NR +  + PS      L+++ +    ++  GVD+Q+F+P+       +D ++  ++
+Sbjct  111  KFYINRMEAVICPSEISAKYLEKKPY----IVPHGVDTQVFYPAENRQQQWQDKKMPGKY  166
+
+Query  200  GLGEQDIAVLHVGRLAAEKNLGLLGGTFRALCAAHPQLK----LRLVLVGDGPER-----  250
+            G+G         GR+   K      GT   + AA   LK       V++G+   R     
+Sbjct  167  GIG-------IFGRIRKTK------GTQEFIEAAIVTLKKYPDWTAVVIGEATPRDLDFK  213
+
+Query  251  KHLERDLPEA------LFCG-VQRGETLAAHYASGDLFLFPSLSETFGNVVLEAQAAGLA  303
+            K LE+ + EA      +F G +     + + Y + D+ +  S  E FG   LEA A+  A
+Sbjct  214  KELEQKVKEAGLDKQIIFTGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCA  273
+
+Query  304  VVAFDQAAAGQHIRHGHNGVLAAPGDKSGFVEVASWLLDDQERLRRVRLNARQHASRQGW  363
+            V+A    A  + I    NG L  P       +    L+ D +         R   ++ G+
+Sbjct  274  VIATKAGAWPEIIVDDENGYLVEPKSSQQIADKLDMLICDSK--------LRYKIAQNGY  325
+
+Query  364  DSIVEHFQ  371
+            D +   ++
+Sbjct  326  DLVTTKYK  333
+
+
+>VFG036142(gb|WP_014573847) (rfaK) glycosyltransferase family 
+4 protein [LOS (VF0078) - Immune modulation (VFC0258)] [Neisseria 
+meningitidis 8013]
+Length=354
+
+ Score = 50.8 bits (120),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 49/162 (30%), Positives = 76/162 (47%), Gaps = 21/162 (13%)
+
+Query  172  ERLNLLSRGVDSQLFHPSRRDPELRRRWGLGEQDIAVLHVGRLAAEKNLGLLGGTFRALC  231
+            E+  ++  G+D+  F PS+  P+ R           V + GR++ EK L  L      L 
+Sbjct  154  EKYRIVHNGIDTGRFPPSQEKPDSRF--------FTVAYAGRISPEKGLENLIEACVILH  205
+
+Query  232  AAHPQLKLRLVLVGDG-PERK-HLERDL------PEALFCGVQRGETLAAHYASGDLFLF  283
+              +PQ++L+  L GDG P+    L+RD+      P   F G    E LA+ Y   D+ + 
+Sbjct  206  RKYPQIRLK--LAGDGHPDYMCRLKRDVSASGAEPFVSFEGFT--EKLASFYRQSDVVVL  261
+
+Query  284  PSLS-ETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHGHNGVL  324
+            PSL  E FG  + EA     AV++    A  + + H  +G+L
+Sbjct  262  PSLVPEAFGLSLCEAMYCRTAVISNTLGAQKEIVEHHQSGIL  303
+
+
+>VFG046960(gb|WP_014550010) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+cf. novicida Fx1]
+Length=354
+
+ Score = 50.8 bits (120),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 57/248 (23%), Positives = 104/248 (42%), Gaps = 47/248 (19%)
+
+Query  146  RWFHNRTQMTLVPSGSQRMELQRRGFERLNLLSRGVDSQLFHPSR------RDPELRRRW  199
+            +++ NR +  + PS      L+++ +    ++  GVD+Q+F+P+       +D ++  ++
+Sbjct  111  KFYINRMEAVICPSEISAKYLEKKPY----IVPHGVDTQVFYPAENRQQQWQDKKIPGKY  166
+
+Query  200  GLGEQDIAVLHVGRLAAEKNLGLLGGTFRALCAAHPQLK----LRLVLVGDGPER-----  250
+            G+G         GR+   K      GT   + AA   LK       V++G+   R     
+Sbjct  167  GIG-------IFGRIRKTK------GTQEFIEAAIVTLKKYPDWTAVVIGEATPRDLDFK  213
+
+Query  251  KHLERDLPEA------LFCG-VQRGETLAAHYASGDLFLFPSLSETFGNVVLEAQAAGLA  303
+            K LE+ + EA      +F G +     + + Y + D+ +  S  E FG   LEA A+  A
+Sbjct  214  KELEQKVKEAGLDKQIIFTGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCA  273
+
+Query  304  VVAFDQAAAGQHIRHGHNGVLAAPGDKSGFVEVASWLLDDQERLRRVRLNARQHASRQGW  363
+            V+A    A  + I    NG L  P       +    L+ D +         R   ++ G+
+Sbjct  274  VIATKAGAWPEIIVDDENGYLVEPKSSQQIADKLDMLICDSK--------LRYKIAQNGY  325
+
+Query  364  DSIVEHFQ  371
+            D +   ++
+Sbjct  326  DLVTTKYK  333
+
+
+>VFG046957(gb|WP_014548613) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+cf. tularensis subsp. novicida 3523]
+Length=354
+
+ Score = 50.8 bits (120),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 57/243 (23%), Positives = 103/243 (42%), Gaps = 37/243 (15%)
+
+Query  146  RWFHNRTQMTLVPSGSQRMELQRRGFERLNLLSRGVDSQLFHPSR-RDPELRRRWGLGEQ  204
+            +++ NR    + PS      L+++ +    ++  GV++Q+F+P+  R  + + +   G+ 
+Sbjct  111  KFYINRMSAVICPSEISAKYLEKKPY----IVPHGVNTQVFYPAEDRQQQWQDKKMSGKH  166
+
+Query  205  DIAVLHVGRLAAEKNLGLLGGTFRALCAAHPQLK----LRLVLVGDGPER-----KHLER  255
+             I +   GR+   K      GT   + AA   LK       V++G+   R     K LE+
+Sbjct  167  AIGIF--GRIRKSK------GTQEFIEAAIVTLKKYPDWTAVVIGEATPRDLDFKKELEQ  218
+
+Query  256  DLPEA------LFCG-VQRGETLAAHYASGDLFLFPSLSETFGNVVLEAQAAGLAVVAFD  308
+             + EA      +F G +     + + Y + D+ +  S  E FG   LEA A+  AV+A  
+Sbjct  219  KVKEAGLDKQIVFTGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCAVIATK  278
+
+Query  309  QAAAGQHIRHGHNGVLAAPGDKSGFVEVASWLLDDQERLRRVRLNARQHASRQGWDSIVE  368
+              A  + I    NG L  P      V+    L+ D +         R   ++ G+D +  
+Sbjct  279  AGAWPEIITDSQNGYLVEPKSSQQIVDKLDILISDSQ--------LRYTIAQNGYDLVTT  330
+
+Query  369  HFQ  371
+             ++
+Sbjct  331  KYK  333
+
+
+>VFG046958(gb|WP_015083810) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+tularensis subsp. holarctica F92]
+Length=328
+
+ Score = 50.4 bits (119),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 56/248 (23%), Positives = 104/248 (42%), Gaps = 47/248 (19%)
+
+Query  146  RWFHNRTQMTLVPSGSQRMELQRRGFERLNLLSRGVDSQLFHPSR------RDPELRRRW  199
+            +++ NR +  + PS      L+++ +    ++  GVD+Q+F+P+       +D ++  ++
+Sbjct  85   KFYINRMEAVICPSEISAKYLEKKPY----IVPHGVDTQVFYPAENRQQQWQDKKIPGKY  140
+
+Query  200  GLGEQDIAVLHVGRLAAEKNLGLLGGTFRALCAAHPQLK----LRLVLVGDGPER-----  250
+            G+G         GR+   K      GT   + AA   LK       V++G+   R     
+Sbjct  141  GIGV-------FGRIRKTK------GTQEFIEAAIVTLKKYPDWTAVVIGEATPRDLDFK  187
+
+Query  251  KHLERDLPEA------LFCG-VQRGETLAAHYASGDLFLFPSLSETFGNVVLEAQAAGLA  303
+            K LE+ + +A      +F G +     + + Y + D+ +  S  E FG   LEA A+  A
+Sbjct  188  KELEQKVKQAGLDKQIIFIGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCA  247
+
+Query  304  VVAFDQAAAGQHIRHGHNGVLAAPGDKSGFVEVASWLLDDQERLRRVRLNARQHASRQGW  363
+            V+A    A  + I    NG L  P       +    L+ D +         R   ++ G+
+Sbjct  248  VIATKAGAWPEIIVDDENGYLVEPKSSQQIADKLDMLISDSK--------LRYKIAQNGY  299
+
+Query  364  DSIVEHFQ  371
+            D +   ++
+Sbjct  300  DLVTTKYK  307
+
+
+>VFG005928(gb|WP_202964935) (STER_RS05280) glycosyltransferase 
+family 1 protein [Capsule (VF0144) - Immune modulation (VFC0258)] 
+[Streptococcus thermophilus LMD-9]
+Length=353
+
+ Score = 50.8 bits (120),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 42/137 (31%), Positives = 66/137 (48%), Gaps = 10/137 (7%)
+
+Query  179  RGVDSQLFHPSRRDPELRRRWGLGEQDIAVLHVGRLAAEKNLGLLGGTFRALCAAHPQLK  238
+            R V+  +F    R+ E+R R+ L +  +A+ HVG    +KN   L   FR +   +   K
+Sbjct  158  RDVNKYIFALENRN-EIRSRYSLKDT-VAIGHVGGFFEQKNHVFLIEVFREILNINSNAK  215
+
+Query  239  LRLVLVGDGPERKHLE---RDLPE-ALFCGVQRGETLAAHYASGDLFLFPSLSETFGNVV  294
+            L   L+GDGP +  +E   +D+ E  +F GV   + +  +  + D  L PSL E    V 
+Sbjct  216  L--FLIGDGPSKSKIESSVKDIKEDVIFTGVV--DNVNDYLQALDGMLLPSLFEGLPLVT  271
+
+Query  295  LEAQAAGLAVVAFDQAA  311
+            +E Q  GL  +  D+  
+Sbjct  272  IEWQINGLPSLLSDKIT  288
+
+
+>VFG046955(gb|WP_003021532) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+tularensis subsp. tularensis SCHU S4]
+Length=354
+
+ Score = 50.8 bits (120),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 56/248 (23%), Positives = 104/248 (42%), Gaps = 47/248 (19%)
+
+Query  146  RWFHNRTQMTLVPSGSQRMELQRRGFERLNLLSRGVDSQLFHPSR------RDPELRRRW  199
+            +++ NR +  + PS      L+++ +    ++  GVD+Q+F+P+       +D ++  ++
+Sbjct  111  KFYINRMEAVICPSEISAKYLEKKPY----IVPHGVDTQVFYPAENRQQQWQDKKIPGKY  166
+
+Query  200  GLGEQDIAVLHVGRLAAEKNLGLLGGTFRALCAAHPQLK----LRLVLVGDGPER-----  250
+            G+G         GR+   K      GT   + AA   LK       V++G+   R     
+Sbjct  167  GIG-------IFGRIRKTK------GTQEFIEAAIVTLKKYPDWTAVVIGEATPRDLDFK  213
+
+Query  251  KHLERDLPEA------LFCG-VQRGETLAAHYASGDLFLFPSLSETFGNVVLEAQAAGLA  303
+            K LE+ + +A      +F G +     + + Y + D+ +  S  E FG   LEA A+  A
+Sbjct  214  KELEQKVKQAGLDKQIIFIGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCA  273
+
+Query  304  VVAFDQAAAGQHIRHGHNGVLAAPGDKSGFVEVASWLLDDQERLRRVRLNARQHASRQGW  363
+            V+A    A  + I    NG L  P       +    L+ D +         R   ++ G+
+Sbjct  274  VIATKAGAWPEIIVDDENGYLVEPKSSQQIADKLDMLISDSK--------LRYKIAQNGY  325
+
+Query  364  DSIVEHFQ  371
+            D +   ++
+Sbjct  326  DLVTTKYK  333
+
+
+>VFG046952(gb|WP_011648659) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+tularensis subsp. holarctica OSU18]
+Length=354
+
+ Score = 50.4 bits (119),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 56/248 (23%), Positives = 104/248 (42%), Gaps = 47/248 (19%)
+
+Query  146  RWFHNRTQMTLVPSGSQRMELQRRGFERLNLLSRGVDSQLFHPSR------RDPELRRRW  199
+            +++ NR +  + PS      L+++ +    ++  GVD+Q+F+P+       +D ++  ++
+Sbjct  111  KFYINRMEAVICPSEISAKYLEKKPY----IVPHGVDTQVFYPAENRQQQWQDKKIPGKY  166
+
+Query  200  GLGEQDIAVLHVGRLAAEKNLGLLGGTFRALCAAHPQLK----LRLVLVGDGPER-----  250
+            G+G         GR+   K      GT   + AA   LK       V++G+   R     
+Sbjct  167  GIGV-------FGRIRKTK------GTQEFIEAAIVTLKKYPDWTAVVIGEATPRDLDFK  213
+
+Query  251  KHLERDLPEA------LFCG-VQRGETLAAHYASGDLFLFPSLSETFGNVVLEAQAAGLA  303
+            K LE+ + +A      +F G +     + + Y + D+ +  S  E FG   LEA A+  A
+Sbjct  214  KELEQKVKQAGLDKQIIFIGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCA  273
+
+Query  304  VVAFDQAAAGQHIRHGHNGVLAAPGDKSGFVEVASWLLDDQERLRRVRLNARQHASRQGW  363
+            V+A    A  + I    NG L  P       +    L+ D +         R   ++ G+
+Sbjct  274  VIATKAGAWPEIIVDDENGYLVEPKSSQQIADKLDMLISDSK--------LRYKIAQNGY  325
+
+Query  364  DSIVEHFQ  371
+            D +   ++
+Sbjct  326  DLVTTKYK  333
+
+
+>VFG046950(gb|WP_003015190) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+tularensis subsp. holarctica FTNF002-00]
+Length=354
+
+ Score = 50.4 bits (119),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 56/248 (23%), Positives = 104/248 (42%), Gaps = 47/248 (19%)
+
+Query  146  RWFHNRTQMTLVPSGSQRMELQRRGFERLNLLSRGVDSQLFHPSR------RDPELRRRW  199
+            +++ NR +  + PS      L+++ +    ++  GVD+Q+F+P+       +D ++  ++
+Sbjct  111  KFYINRMEAVICPSEISAKYLEKKPY----IVPHGVDTQVFYPAENRQQQWQDKKIPGKY  166
+
+Query  200  GLGEQDIAVLHVGRLAAEKNLGLLGGTFRALCAAHPQLK----LRLVLVGDGPER-----  250
+            G+G         GR+   K      GT   + AA   LK       V++G+   R     
+Sbjct  167  GIGV-------FGRIRKTK------GTQEFIEAAIVTLKKYPDWTAVVIGEATPRDLDFK  213
+
+Query  251  KHLERDLPEA------LFCG-VQRGETLAAHYASGDLFLFPSLSETFGNVVLEAQAAGLA  303
+            K LE+ + +A      +F G +     + + Y + D+ +  S  E FG   LEA A+  A
+Sbjct  214  KELEQKVKQAGLDKQIIFIGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCA  273
+
+Query  304  VVAFDQAAAGQHIRHGHNGVLAAPGDKSGFVEVASWLLDDQERLRRVRLNARQHASRQGW  363
+            V+A    A  + I    NG L  P       +    L+ D +         R   ++ G+
+Sbjct  274  VIATKAGAWPEIIVDDENGYLVEPKSSQQIADKLDMLISDSK--------LRYKIAQNGY  325
+
+Query  364  DSIVEHFQ  371
+            D +   ++
+Sbjct  326  DLVTTKYK  333
+
+
+>VFG048894(gb|WP_004180517) (KPN2242_RS16295) glycosyltransferase 
+[Capsule (VF0560) - Immune modulation (VFC0258)] [Klebsiella 
+pneumoniae KCTC 2242]
+Length=358
+
+ Score = 50.4 bits (119),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 35/134 (26%), Positives = 61/134 (46%), Gaps = 4/134 (3%)
+
+Query  203  EQDIAVLHVGRLAAEKNLGLLGGTFRALCAAHPQLKLRLVLVGDGPERKHLERDLPEALF  262
+            ++ I +L VGR   +K    L    +    +    K    ++GD       + +    ++
+Sbjct  189  KEKINILFVGRFDKQKGYDYLLNVIKVADVS----KYTFNIIGDSVHDVFEKIEKENVVY  244
+
+Query  263  CGVQRGETLAAHYASGDLFLFPSLSETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHGHNG  322
+             G    + L A++   D+ L PS  E+FG V +EAQ  G+ V+A + A+  + I  G  G
+Sbjct  245  YGWVDNKELPAYFCENDVLLMPSRWESFGLVAVEAQLYGVPVIANNVASLPEVISDGLTG  304
+
+Query  323  VLAAPGDKSGFVEV  336
+            +L    D +  VE+
+Sbjct  305  MLVNFEDANKVVEI  318
+
+
+>VFG036146(gb|WP_014580973) (rfaK) glycosyltransferase family 
+4 protein [LOS (VF0078) - Immune modulation (VFC0258)] [Neisseria 
+meningitidis M01-240149]
+Length=354
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 46/160 (29%), Positives = 72/160 (45%), Gaps = 17/160 (11%)
+
+Query  172  ERLNLLSRGVDSQLFHPSRRDPELRRRWGLGEQDIAVLHVGRLAAEKNLGLLGGTFRALC  231
+            E+  ++  G+D+  F PS+  P+ R           V + GR++ EK L  L      L 
+Sbjct  154  EKYRIVHNGIDTGRFPPSQEKPDSRF--------FTVAYAGRISPEKGLENLIEACVILH  205
+
+Query  232  AAHPQLKLRLVLVGDGPERKHLERDL------PEALFCGVQRGETLAAHYASGDLFLFPS  285
+              +PQ++L+L   G       L+RD+      P   F G    E +A+ Y   D+ + PS
+Sbjct  206  RKYPQIRLKLAGHGHPDYMCRLKRDVSASGAEPFVSFEGFT--EDIASFYRQSDVVVLPS  263
+
+Query  286  LS-ETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHGHNGVL  324
+            L  E FG  + EA     AV++    A  + I H  +G+L
+Sbjct  264  LVPEAFGLSLCEAMYCRTAVISNTLGAQKEIIEHHQSGIL  303
+
+
+>VFG036152(gb|WP_013448569) (rfaK) glycosyltransferase family 
+4 protein [LOS (VF0078) - Immune modulation (VFC0258)] [Neisseria 
+lactamica 020-06]
+Length=354
+
+ Score = 49.7 bits (117),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 46/160 (29%), Positives = 72/160 (45%), Gaps = 17/160 (11%)
+
+Query  172  ERLNLLSRGVDSQLFHPSRRDPELRRRWGLGEQDIAVLHVGRLAAEKNLGLLGGTFRALC  231
+            E+  ++  G+D+  F PS+  P+ R           V + GR++ EK L  L      L 
+Sbjct  154  EKYRIVHNGIDTGRFPPSQEKPDSRF--------FTVAYAGRISPEKGLENLIEACVILH  205
+
+Query  232  AAHPQLKLRLVLVGDGPERKHLERDL------PEALFCGVQRGETLAAHYASGDLFLFPS  285
+              +PQ++L+L   G       L+R++      P   F G    E LA+ Y   D+ + PS
+Sbjct  206  RKYPQIRLKLAGHGHPDYMCRLKRNVSASGAEPFVSFEGFT--EKLASFYRQSDVVVLPS  263
+
+Query  286  LS-ETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHGHNGVL  324
+            L  E FG  + EA     AV++    A  + I H  +G+L
+Sbjct  264  LVPEAFGLSLCEAMYCQTAVISNTLGAQKEIIEHHQSGIL  303
+
+
+>VFG000139(gb|NP_253697) (waaG) B-band O-antigen polymerase [LPS 
+(VF0085) - Immune modulation (VFC0258)] [Pseudomonas aeruginosa 
+PAO1]
+Length=373
+
+ Score = 49.7 bits (117),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 52/205 (25%), Positives = 93/205 (45%), Gaps = 14/205 (7%)
+
+Query  150  NRTQMTLVPSGSQRMELQRRGF--ERLNLLSRGVDSQLFHPSRRD---PELRRRWGLGEQ  204
+            ++T++ ++    Q + ++  G   ER +LL  G+      P+       E RR +GL E 
+Sbjct  136  SKTEILMISEVQQPLFVKHYGTQAERFHLLPPGISQDRRAPANAADVRAEFRREFGLEED  195
+
+Query  205  DIAVLHVGRLAAEKNLGLLGGTFRALCAAHPQLK--LRLVLVGDGPERKHLERDLPEALF  262
+            D+ ++ +G     K L     + +AL A    L+   RL+ +G    +  L +     L 
+Sbjct  196  DLLLVQIGSGFKTKGLD---RSLKALSALPKALRRRTRLIAIGQDDPKPFLLQIAALGLN  252
+
+Query  263  CGVQ--RGETLAAHYASG-DLFLFPSLSETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHG  319
+              VQ  +G +    +  G DL + P+ +E  G V+LEA  +GL V+  D      +I   
+Sbjct  253  DQVQILKGRSDIPRFLLGADLLIHPAYNENTGTVLLEALVSGLPVLVTDVCGYAHYIAEA  312
+
+Query  320  HNG-VLAAPGDKSGFVEVASWLLDD  343
+              G VL +P ++     + + +L+D
+Sbjct  313  DAGRVLPSPFEQDSLNRLLAEMLED  337
+
+
+>VFG006114(gb|WP_002247045) (rfaK) glycosyltransferase family 
+4 protein [LOS (VF0078) - Immune modulation (VFC0258)] [Neisseria 
+meningitidis Z2491]
+Length=354
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 49/162 (30%), Positives = 75/162 (46%), Gaps = 21/162 (13%)
+
+Query  172  ERLNLLSRGVDSQLFHPSRRDPELRRRWGLGEQDIAVLHVGRLAAEKNLGLLGGTFRALC  231
+            E+  ++  G+D+  F P +  P+ R           V + GR++ EK L  L      L 
+Sbjct  154  EKYRIVHNGIDTGRFPPPQEKPDSRF--------FTVAYAGRISPEKGLENLIEACVILH  205
+
+Query  232  AAHPQLKLRLVLVGDG-PERK-HLERDL------PEALFCGVQRGETLAAHYASGDLFLF  283
+              +PQ++L+  L GDG P+    L+RD+      P   F G    E LA+ Y   D+ + 
+Sbjct  206  RKYPQIRLK--LAGDGHPDYMCRLKRDVSASGAEPFVSFEGFT--EKLASFYRQSDVVVL  261
+
+Query  284  PSLS-ETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHGHNGVL  324
+            PSL  E FG  + EA     AV++    A  + I H  +G+L
+Sbjct  262  PSLVPEAFGLSLCEAMYCRTAVISNTLGAQKEIIEHHQSGIL  303
+
+
+>VFG018761(gb|WP_012221944) (rfaK) glycosyltransferase family 
+4 protein [LOS (VF0078) - Immune modulation (VFC0258)] [Neisseria 
+meningitidis 053442]
+Length=354
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 49/158 (31%), Positives = 74/158 (47%), Gaps = 21/158 (13%)
+
+Query  176  LLSRGVDSQLFHPSRRDPELRRRWGLGEQDIAVLHVGRLAAEKNLGLLGGTFRALCAAHP  235
+            ++  G+D+  F PS+  P+ R           V + GR++ EK L  L      L   +P
+Sbjct  158  IVHNGIDTGRFPPSQEKPDSRF--------FTVAYAGRISPEKGLENLIEACVILHRKYP  209
+
+Query  236  QLKLRLVLVGDG-PERK-HLERDL------PEALFCGVQRGETLAAHYASGDLFLFPSLS  287
+            Q++L+  L GDG P+    L+RD+      P   F G    E LA+ Y   D+ + PSL 
+Sbjct  210  QIRLK--LAGDGHPDYMCRLKRDVSASGAEPFVSFEGFT--EKLASFYRQSDVVVLPSLV  265
+
+Query  288  -ETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHGHNGVL  324
+             E FG  + EA     AV++    A  + I H  +G+L
+Sbjct  266  PEAFGLSLCEAMYCRTAVISNTLGAQKEIIEHHQSGIL  303
+
+
+>VFG048887(gb|WP_077248738) (KVAR_RS26120) glycosyltransferase 
+[Capsule (VF0560) - Immune modulation (VFC0258)] [Klebsiella 
+variicola At-22]
+Length=356
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 43/167 (26%), Positives = 68/167 (41%), Gaps = 12/167 (7%)
+
+Query  208  VLHVGRLAAEKNLGLLGGTFRALCAAHPQLKLRLVLVGDGPERKHLERD------LPEAL  261
+            +L  GRL  +KN  L+     AL A +P L + L + G+GPER+ LE        L +  
+Sbjct  185  ILMAGRLTVQKNFKLM---LDAL-AHNPNLNINLQIAGEGPERQLLEDYATRIGLLSKVT  240
+
+Query  262  FCGVQRGETLAAHYASGDLFLFPSLSETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHGHN  321
+            F G    + +     + D+F   S  E     ++EA   GL V+  D     + + H  N
+Sbjct  241  FLG--NCDNIKEIMPTVDIFAMSSAWEGLPIALIEATLTGLPVIVTDVGGCREIVEHVGN  298
+
+Query  322  GVLAAPGDKSGFVEVASWLLDDQERLRRVRLNARQHASRQGWDSIVE  368
+            G++    D   + +    L  +   L     NA  ++        VE
+Sbjct  299  GIVVNSQDCKEYADKLYELTSNTALLNEFHYNALHNSQEYTIQYAVE  345
+
+
+>VFG046773(gb|WP_013922879) (F7308_RS05575) glycosyltransferase 
+family 1 protein [Capsule (VF0543) - Immune modulation (VFC0258)] 
+[Francisella sp. TX077308]
+Length=363
+
+ Score = 48.5 bits (114),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 27/97 (28%), Positives = 48/97 (49%), Gaps = 2/97 (2%)
+
+Query  268  GETLAAHYASGDLFLFPSLSETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHGHNGVLAAP  327
+             E LA+ Y +  LF++PSL E FG  +LEA + G+ V+    ++  + +  G  G+L  P
+Sbjct  254  NEELASLYKTASLFVYPSLYEGFGLPILEAMSYGVPVICSKTSSMSEVL--GDAGILIDP  311
+
+Query  328  GDKSGFVEVASWLLDDQERLRRVRLNARQHASRQGWD  364
+             D     E    +LD+ +   ++ + +   +    WD
+Sbjct  312  QDYYSVAEEIQKVLDNDDLQSQMSMMSLMRSKYFSWD  348
+
+
+>VFG006117(gb|WP_003691706) (rfaK) glycosyltransferase family 
+4 protein [LOS (VF0078) - Immune modulation (VFC0258)] [Neisseria 
+gonorrhoeae FA 1090]
+Length=354
+
+ Score = 48.1 bits (113),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 46/160 (29%), Positives = 71/160 (44%), Gaps = 17/160 (11%)
+
+Query  172  ERLNLLSRGVDSQLFHPSRRDPELRRRWGLGEQDIAVLHVGRLAAEKNLGLLGGTFRALC  231
+            E+  ++  G+D+  F PS+  P+ R           V + GR++ EK L  L      L 
+Sbjct  154  EKYRIVHNGIDTGRFPPSQEKPDSRF--------FTVAYAGRISPEKGLENLIEACVILH  205
+
+Query  232  AAHPQLKLRLVLVGDGPERKHLERDL------PEALFCGVQRGETLAAHYASGDLFLFPS  285
+              +PQ++L+L   G       L+R +      P   F G    E LA+ Y   D+ + PS
+Sbjct  206  RKYPQIRLKLAGHGHPDYMCRLKRGVSASGAEPFVSFEGFT--EKLASFYRQSDVVVLPS  263
+
+Query  286  LS-ETFGNVVLEAQAAGLAVVAFDQAAAGQHIRHGHNGVL  324
+            L  E FG  + EA     AV++    A  + I H  +G+L
+Sbjct  264  LVPEAFGLSLCEAMYCRTAVISNTLGAQKEIIEHHQSGIL  303
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3175042576
+
+
+Query= g3281.t1
+
+Length=351
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002366(gb|WP_005167739) (YE_RS15435) glycosyltransferase famil...  57.0    6e-09
+VFG019787(gb|WP_003122254) (PLES_RS09925) glycosyltransferase fam...  55.1    2e-08
+VFG048853(gb|WP_004144164) (KPR_RS28085) glycosyltransferase fami...  52.8    1e-07
+VFG048930(gb|WP_004144157) (KPR_RS09000) glycosyltransferase fami...  52.4    2e-07
+VFG046765(gb|WP_014548568) (FN3523_RS06375) glycosyltransferase f...  50.4    7e-07
+VFG011150(gb|WP_012415796) (bplH) putative glycosyl transferase [...  49.3    2e-06
+VFG046761(gb|WP_012429561) (FTM_RS05905) glycosyltransferase fami...  48.9    2e-06
+VFG046763(gb|WP_003020711) (FTT_RS04150) glycosyltransferase fami...  48.5    3e-06
+VFG046757(gb|WP_003039922) (FTN_RS06215) glycosyltransferase fami...  48.1    3e-06
+VFG046664(gb|WP_014548581) (FN3523_RS06440) glycosyl transferase ...  47.8    5e-06
+VFG018761(gb|WP_012221944) (rfaK) glycosyltransferase family 4 pr...  47.8    5e-06
+VFG036141(gb|WP_002246377) (rfaK) glycosyltransferase family 4 pr...  47.8    5e-06
+VFG036142(gb|WP_014573847) (rfaK) glycosyltransferase family 4 pr...  47.8    6e-06
+VFG000031(gb|WP_010929609) (bplH) putative glycosyl transferase [...  47.8    6e-06
+VFG000242(gb|WP_002222112) (rfaK) glycosyltransferase family 4 pr...  47.4    7e-06
+
+
+>VFG002366(gb|WP_005167739) (YE_RS15435) glycosyltransferase family 
+4 protein [O-antigen (VF0392) - Immune modulation (VFC0258)] 
+[Yersinia enterocolitica subsp. enterocolitica 8081]
+Length=358
+
+ Score = 57.0 bits (136),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 53/183 (29%), Positives = 80/183 (44%), Gaps = 26/183 (14%)
+
+Query  161  GVDTELFHPAETPPAKERPPVFLYVGRLATEKNL----EAFLDLELPGEKW---LVGD--  211
+            GVD E F  +       R    LYVGRL  +K +    E    L+L G  +   +VGD  
+Sbjct  165  GVDIESFCYSYKIKKCSRKIELLYVGRLVEDKGIFYIIELIKHLKLAGVDFTLNVVGDTY  224
+
+Query  212  --GPQR------AALEQRYPQ-ARFLGYRHGRALADAYRAASVLVFPSLTDTYGLVMLEA  262
+               P        A L+  + +   F GY     L   Y    VL+  S  + + +V++EA
+Sbjct  225  PANPSSLTEDDIANLKAEFEEDIIFHGYLSD--LRHIYAKTDVLLLLSKHEGFPVVVMEA  282
+
+Query  263  LACGVPVAAFAVPGPLDVLQQGVTGVMH-----EDLGE-ACRQALALDRQACGRWAREQS  316
+             ACG+P   +AVPG +D ++ GV G +      ED+ +    Q  +L    C  +A +  
+Sbjct  283  NACGIPAICYAVPGCIDAIEHGVNGFLFNEGEIEDIVKLISTQNFSLLATQCRNYAEKNF  342
+
+Query  317  WRV  319
+             +V
+Sbjct  343  NQV  345
+
+
+>VFG019787(gb|WP_003122254) (PLES_RS09925) glycosyltransferase 
+family 4 protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa LESB58]
+Length=376
+
+ Score = 55.1 bits (131),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 72/263 (27%), Positives = 107/263 (41%), Gaps = 34/263 (13%)
+
+Query  51   YPEIPLAWNLWRLGGLIEAFAPDAVHLATEGPL---GWAARRWLGKRGLDFTSAIHTRFP  107
+            + E+ L   +WRL   +    PD +HL T  P+   G AAR    K  +   S +   F 
+Sbjct  66   FSELYLLTYVWRL---LWRLRPDVLHLVTIKPVIYGGIAARLAPVKGVVAAVSGLGFVFM  122
+
+Query  108  EYLRDRCPWLP-LSWGYAFLRTFHRPSRAVLVSTPRLRDEFC---AWRFQHLRLWR-KGV  162
+                  C +   ++W Y   R   +    V+   P  RD      A  F+   L R  GV
+Sbjct  123  AKGLKACAFRACVAWLYR--RALGKKKLRVIFQNPDDRDALIGLGAITFEKSVLIRGSGV  180
+
+Query  163  DTELFHPAETPPAKERPPVFLYVGRLATEKNLEAFLDL-------ELPGEKWLVGD----  211
+            D   + PA   P     PV     RL  +K +  F++         +P    LVGD    
+Sbjct  181  DLTQYQPA---PESPETPVVTLAARLLRDKGVLEFVEAANILRQRSVPAHFQLVGDLDPG  237
+
+Query  212  ---GPQRAALEQRYPQARF--LGYRHGRALADAYRAASVLVFPSLTDTYGLVMLEALACG  266
+                 + + LE+   +     LGYR    +A  +  + ++V PS  +    V++EA ACG
+Sbjct  238  NPTSIEPSELERWRSEGTIECLGYRQD--IASVFARSHIVVLPSYREGLPKVLVEASACG  295
+
+Query  267  VPVAAFAVPGPLDVLQQGVTGVM  289
+              V    VPG  D +Q  VTG++
+Sbjct  296  RAVVTTDVPGCRDAIQADVTGLL  318
+
+
+>VFG048853(gb|WP_004144164) (KPR_RS28085) glycosyltransferase 
+family 4 protein [Capsule (VF0560) - Immune modulation (VFC0258)] 
+[Klebsiella pneumoniae subsp. rhinoscleromatis SB3432]
+Length=340
+
+ Score = 52.8 bits (125),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 46/154 (30%), Positives = 67/154 (44%), Gaps = 21/154 (14%)
+
+Query  131  RPSRAVLVSTPRLRDEFCAWRFQH---LRLWRKGVDTELF--HPAETPPAKERPPVFLYV  185
+            R +  +L  +   +   C W  ++   + +   GV  E    HP    P KE+    L V
+Sbjct  121  RKALCILTVSEFSKKRICEWSGRNADEVFVVGNGVSKEFLINHPT---PKKEQ---ILMV  174
+
+Query  186  GRLATEKN----LEAFLDLELPGEKWLVGDGPQRAALEQRYPQAR------FLGYRHGRA  235
+            G     KN    L AF    +P    LV  G     L+    + R      FLG      
+Sbjct  175  GNRKKHKNELNALIAFYKSNIPSSVKLVFTGSITNELDIIIDRNRLRDRVSFLGTVSNTK  234
+
+Query  236  LADAYRAASVLVFPSLTDTYGLVMLEALACGVPV  269
+            LA+ YR +  L+FPSL + +GL ++E++ACG PV
+Sbjct  235  LAELYRESLFLLFPSLYEGFGLPIVESMACGTPV  268
+
+
+>VFG048930(gb|WP_004144157) (KPR_RS09000) glycosyltransferase 
+family 4 protein [Capsule (VF0560) - Immune modulation (VFC0258)] 
+[Klebsiella pneumoniae subsp. rhinoscleromatis SB3432]
+Length=384
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 37/125 (30%), Positives = 64/125 (51%), Gaps = 9/125 (7%)
+
+Query  176  KERPPVFLYVGRLATEKNLEAFLDLE--LPGEKWLV-GDGPQRAALEQR-YPQARFLGYR  231
+            +E+   +    RL   K ++  ++    +PG K +V GDGP+   ++ +       LGY+
+Sbjct  201  EEKEEYYFTASRLVPYKRIDLIVEAFSCMPGRKLVVVGDGPEMRKIKNKATKNIDILGYQ  260
+
+Query  232  HGRALADAYRAASVLVFPSLTDTYGLVMLEALACGVPVAAFAVPGPLDVLQ-QGV---TG  287
+               A+ +  + A   VF +  D +G+  +EA ACG PV AF   G L+ ++  GV   TG
+Sbjct  261  SNEAMREYMQKAKAFVFAAEED-FGITPVEAQACGTPVIAFGKGGSLETVRPYGVSNPTG  319
+
+Query  288  VMHED  292
+            ++ E+
+Sbjct  320  ILFEN  324
+
+
+>VFG046765(gb|WP_014548568) (FN3523_RS06375) glycosyltransferase 
+family 1 protein [Capsule (VF0543) - Immune modulation (VFC0258)] 
+[Francisella cf. tularensis subsp. novicida 3523]
+Length=337
+
+ Score = 50.4 bits (119),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 37/125 (30%), Positives = 60/125 (48%), Gaps = 16/125 (13%)
+
+Query  171  ETPPAKERPPVFLYVGRLATEKNLE----AFLDLELPGEKWLVGDGPQRAALE---QRY-  222
+            +  P   +   FLY+G     KN+E    AF D +   E  LV  G     L    Q+Y 
+Sbjct  153  DYKPTTLKQKYFLYIGNRRPHKNIEIIFRAFKDFKYYDEYKLVFSGEMDHNLRDYAQKYN  212
+
+Query  223  ---PQARFLGYR-HGRALADAYRAASVLVFPSLTDTYGLVMLEALACGVPVAAFAVPGPL  278
+                + + +G   +   LA  Y++A+  + PS  + +GL ++E++ACG PV A      +
+Sbjct  213  ICLSKIQTVGLDANDEILAKYYQSATATILPSFEEGFGLPLVESMACGTPVLA----SKI  268
+
+Query  279  DVLQQ  283
+            +VLQ+
+Sbjct  269  EVLQE  273
+
+
+>VFG011150(gb|WP_012415796) (bplH) putative glycosyl transferase 
+[LPS (VF0033) - Immune modulation (VFC0258)] [Bordetella 
+avium 197N]
+Length=402
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 53/208 (25%), Positives = 82/208 (39%), Gaps = 50/208 (24%)
+
+Query  161  GVDTELFHPAETPPAKERPPVFLYVGRLATEKNLEAFLDLELPGEKW-------------  207
+            G+DTELF P           +     R+ T K+LE    ++   E +             
+Sbjct  177  GIDTELFSPGTLTERHVDKAL-----RIGTVKSLEDTYGIDTLLEAYARLYRRIKAEDAA  231
+
+Query  208  --------LVGDGPQRAALEQRYPQAR---------FLGYRHGRALADAYRAASVLVFPS  250
+                    + G G +  AL Q   QAR         F G+    A+ DA R+  +    S
+Sbjct  232  LAQRLQLLIYGRGSRLDALSQ---QARDLAIDHCTTFAGHIEHHAVPDALRSMDIFAALS  288
+
+Query  251  LTDTYGLVMLEALACGVPVAAFAVPGPLDVLQQGVTGVM----HEDLGEACRQALALD--  304
+              D++G+ +LEA AC +PV      GP ++++   TG +    + +    C   L +D  
+Sbjct  289  RADSFGVAILEASACRLPVVVSDADGPAEIVEDQHTGFIVPRENAEAAAQCLYTLVMDSA  348
+
+Query  305  -RQACGRWARE-----QSWRVSAEEFLA  326
+             R+  GR  R+      SW  S +  LA
+Sbjct  349  LRERMGRAGRQLVDARYSWNHSVDIMLA  376
+
+
+>VFG046761(gb|WP_012429561) (FTM_RS05905) glycosyltransferase 
+family 1 protein [Capsule (VF0543) - Immune modulation (VFC0258)] 
+[Francisella tularensis subsp. mediasiatica FSC147]
+Length=337
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 36/125 (29%), Positives = 60/125 (48%), Gaps = 16/125 (13%)
+
+Query  171  ETPPAKERPPVFLYVGRLATEKNLE----AFLDLELPGEKWLVGDGP---QRAALEQRY-  222
+            +  P   +   FLY+G     KN+E    AF + +   E  LV  G    Q     Q+Y 
+Sbjct  153  DYKPTTVKQKFFLYIGNRRPHKNIEIIFKAFKNFKYYDEYNLVFSGEMDHQLLNYAQKYN  212
+
+Query  223  ---PQARFLGYR-HGRALADAYRAASVLVFPSLTDTYGLVMLEALACGVPVAAFAVPGPL  278
+                + + +G   +   LA  Y++A+  + PS  + +GL ++E++ACG PV A      +
+Sbjct  213  VCLSKIQTIGLDANDELLAKYYQSATATILPSFEEGFGLPLIESMACGTPVLA----SKI  268
+
+Query  279  DVLQQ  283
+            +VLQ+
+Sbjct  269  EVLQE  273
+
+
+>VFG046763(gb|WP_003020711) (FTT_RS04150) glycosyltransferase 
+family 1 protein [Capsule (VF0543) - Immune modulation (VFC0258)] 
+[Francisella tularensis subsp. tularensis SCHU S4]
+Length=337
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 36/125 (29%), Positives = 60/125 (48%), Gaps = 16/125 (13%)
+
+Query  171  ETPPAKERPPVFLYVGRLATEKNLE----AFLDLELPGEKWLVGDGP---QRAALEQRY-  222
+            +  P   +   FLY+G     KN+E    AF + +   E  LV  G    Q     Q+Y 
+Sbjct  153  DYKPTTVKQKFFLYIGNRRPHKNIEIIFKAFKNFKYYDEYNLVFSGEMDHQLLNYAQKYN  212
+
+Query  223  ---PQARFLGYR-HGRALADAYRAASVLVFPSLTDTYGLVMLEALACGVPVAAFAVPGPL  278
+                + + +G   +   LA  Y++A+  + PS  + +GL ++E++ACG PV A      +
+Sbjct  213  VCLSKIQTIGLDANDELLAKYYQSATATILPSFEEGFGLPLVESMACGTPVLA----SKI  268
+
+Query  279  DVLQQ  283
+            +VLQ+
+Sbjct  269  EVLQE  273
+
+
+>VFG046757(gb|WP_003039922) (FTN_RS06215) glycosyltransferase 
+family 1 protein [Capsule (VF0543) - Immune modulation (VFC0258)] 
+[Francisella novicida U112]
+Length=337
+
+ Score = 48.1 bits (113),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 36/125 (29%), Positives = 60/125 (48%), Gaps = 16/125 (13%)
+
+Query  171  ETPPAKERPPVFLYVGRLATEKNLE----AFLDLELPGEKWLVGDGP---QRAALEQRY-  222
+            +  P   +   FLY+G     KN+E    AF + +   E  LV  G    Q     Q+Y 
+Sbjct  153  DYKPTTVKQKFFLYIGNRRPHKNIEIIFKAFENFKYYDEYNLVFSGEMDHQLLNYAQKYN  212
+
+Query  223  ---PQARFLGYR-HGRALADAYRAASVLVFPSLTDTYGLVMLEALACGVPVAAFAVPGPL  278
+                + + +G   +   LA  Y++A+  + PS  + +GL ++E++ACG PV A      +
+Sbjct  213  VCLSKIQTIGLDANDELLAKYYQSATATILPSFEEGFGLPLVESMACGTPVLA----SKI  268
+
+Query  279  DVLQQ  283
+            +VLQ+
+Sbjct  269  EVLQE  273
+
+
+>VFG046664(gb|WP_014548581) (FN3523_RS06440) glycosyl transferase 
+[Capsule (VF0543) - Immune modulation (VFC0258)] [Francisella 
+cf. tularensis subsp. novicida 3523]
+Length=371
+
+ Score = 47.8 bits (112),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 43/158 (27%), Positives = 70/158 (44%), Gaps = 31/158 (20%)
+
+Query  158  WRKGVDTELFHPAETPPAKERPPVFLYVGRLATEKNLEAFLDLELPGEKW---LVGDGPQ  214
+            W+K +D   F              F+Y+G L   K L+  +D  + G+ +   +VGDG Q
+Sbjct  185  WKKNIDFGKF--------------FIYIGGLRYYKGLDVLID-AMQGQDYPLVIVGDGDQ  229
+
+Query  215  RAALEQRYPQARFLGYRHGRALADA-----YRAASVLVFPSL--TDTYGLVMLEALACGV  267
+            +  LEQ+  Q      +   AL D       + +  LV PS   T+ +GLV+LEA     
+Sbjct  230  KELLEQKVKQNNLQNVKFVGALDDKDKLSLLKLSYALVLPSNIRTEAFGLVLLEASMFAK  289
+
+Query  268  PVAAFAV-PGPLDVLQQGVTGVM-----HEDLGEACRQ  299
+            P+    +  G   V    VTG++     ++DL +  ++
+Sbjct  290  PMITCEIGTGTTFVNIDKVTGLVAKPNDNQDLAQKLKE  327
+
+
+>VFG018761(gb|WP_012221944) (rfaK) glycosyltransferase family 
+4 protein [LOS (VF0078) - Immune modulation (VFC0258)] [Neisseria 
+meningitidis 053442]
+Length=354
+
+ Score = 47.8 bits (112),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 40/154 (26%), Positives = 69/154 (45%), Gaps = 27/154 (18%)
+
+Query  156  RLWRKGVDTELFHPAETPPAKERPP----VFLYVGRLATEKNLEAFLD-LELPGEKW---  207
+            R+   G+DT  F     PP++E+P        Y GR++ EK LE  ++   +   K+   
+Sbjct  157  RIVHNGIDTGRF-----PPSQEKPDSRFFTVAYAGRISPEKGLENLIEACVILHRKYPQI  211
+
+Query  208  ---LVGDG--------PQRAALEQRYPQARFLGYRHGRALADAYRAASVLVFPSLT-DTY  255
+               L GDG         +  +     P   F G+     LA  YR + V+V PSL  + +
+Sbjct  212  RLKLAGDGHPDYMCRLKRDVSASGAEPFVSFEGF--TEKLASFYRQSDVVVLPSLVPEAF  269
+
+Query  256  GLVMLEALACGVPVAAFAVPGPLDVLQQGVTGVM  289
+            GL + EA+ C   V +  +    ++++   +G++
+Sbjct  270  GLSLCEAMYCRTAVISNTLGAQKEIIEHHQSGIL  303
+
+
+>VFG036141(gb|WP_002246377) (rfaK) glycosyltransferase family 
+4 protein [LOS (VF0078) - Immune modulation (VFC0258)] [Neisseria 
+meningitidis WUE 2594]
+Length=354
+
+ Score = 47.8 bits (112),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 40/154 (26%), Positives = 69/154 (45%), Gaps = 27/154 (18%)
+
+Query  156  RLWRKGVDTELFHPAETPPAKERPP----VFLYVGRLATEKNLEAFLD-LELPGEKW---  207
+            R+   G+DT  F     PP++E+P        Y GR++ EK LE  ++   +   K+   
+Sbjct  157  RIVHNGIDTGRF-----PPSQEKPDSRFFTVAYAGRISPEKGLENLIEACVILHRKYPQI  211
+
+Query  208  ---LVGDG--------PQRAALEQRYPQARFLGYRHGRALADAYRAASVLVFPSLT-DTY  255
+               L GDG         +  +     P   F G+     LA  YR + V+V PSL  + +
+Sbjct  212  RLKLAGDGHPDYMCRLKRDVSASGAEPFVSFEGF--TEKLASFYRQSDVVVLPSLVPEAF  269
+
+Query  256  GLVMLEALACGVPVAAFAVPGPLDVLQQGVTGVM  289
+            GL + EA+ C   V +  +    ++++   +G++
+Sbjct  270  GLSLCEAMYCRTAVISNTLGAQKEIIEHHQSGIL  303
+
+
+>VFG036142(gb|WP_014573847) (rfaK) glycosyltransferase family 
+4 protein [LOS (VF0078) - Immune modulation (VFC0258)] [Neisseria 
+meningitidis 8013]
+Length=354
+
+ Score = 47.8 bits (112),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 40/154 (26%), Positives = 69/154 (45%), Gaps = 27/154 (18%)
+
+Query  156  RLWRKGVDTELFHPAETPPAKERPP----VFLYVGRLATEKNLEAFLD-LELPGEKW---  207
+            R+   G+DT  F     PP++E+P        Y GR++ EK LE  ++   +   K+   
+Sbjct  157  RIVHNGIDTGRF-----PPSQEKPDSRFFTVAYAGRISPEKGLENLIEACVILHRKYPQI  211
+
+Query  208  ---LVGDG--------PQRAALEQRYPQARFLGYRHGRALADAYRAASVLVFPSLT-DTY  255
+               L GDG         +  +     P   F G+     LA  YR + V+V PSL  + +
+Sbjct  212  RLKLAGDGHPDYMCRLKRDVSASGAEPFVSFEGF--TEKLASFYRQSDVVVLPSLVPEAF  269
+
+Query  256  GLVMLEALACGVPVAAFAVPGPLDVLQQGVTGVM  289
+            GL + EA+ C   V +  +    ++++   +G++
+Sbjct  270  GLSLCEAMYCRTAVISNTLGAQKEIVEHHQSGIL  303
+
+
+>VFG000031(gb|WP_010929609) (bplH) putative glycosyl transferase 
+[LPS (VF0033) - Immune modulation (VFC0258)] [Bordetella 
+pertussis Tohama I]
+Length=390
+
+ Score = 47.8 bits (112),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 59/200 (30%), Positives = 82/200 (41%), Gaps = 35/200 (18%)
+
+Query  161  GVDTELFHPAET--PPAKERPPVFLYVGRLATEKNLEAF----------LDLELPG--EK  206
+            G+D  LF PA++   PA + P V   V  L T   ++            L    PG  E+
+Sbjct  173  GIDEALFQPAQSVQAPAADGPIVIGTVKALETHYGIDTLIQAFALLRQALAASQPGMAER  232
+
+Query  207  WLV---GDGPQ------RAALEQRYPQARFLGYRHGRALADAYRAASVLVFPSLTDTYGL  257
+             ++   G G Q      +A       Q  F G      + +A RA  V V  S  D++G+
+Sbjct  233  LVLRIYGAGSQLQRLRAQAQAAHIANQVEFKGRIPHAEVPEALRALDVYVALSRMDSFGV  292
+
+Query  258  VMLEALACGVPVAAFAVPGPLDVLQQGVTG--VMHEDLGEACR--QALALD---RQACGR  310
+             +LEA +C +PV      GP +V+  G TG  V  ED   A    Q L L+   RQ  G 
+Sbjct  293  AILEACSCALPVVVSNADGPAEVVVDGKTGYIVAREDAHAAADRLQELVLNPELRQRLGA  352
+
+Query  311  WAR-----EQSWRVSAEEFL  325
+              R     E +W  S +  L
+Sbjct  353  AGRARVLSEYTWSKSLDMML  372
+
+
+>VFG000242(gb|WP_002222112) (rfaK) glycosyltransferase family 
+4 protein [LOS (VF0078) - Immune modulation (VFC0258)] [Neisseria 
+meningitidis MC58]
+Length=354
+
+ Score = 47.4 bits (111),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 40/154 (26%), Positives = 69/154 (45%), Gaps = 27/154 (18%)
+
+Query  156  RLWRKGVDTELFHPAETPPAKERPP----VFLYVGRLATEKNLEAFLD-LELPGEKW---  207
+            R+   G+DT  F     PP++E+P        Y GR++ EK LE  ++   +   K+   
+Sbjct  157  RIVHNGIDTGRF-----PPSQEKPDSRFFTVAYAGRISPEKGLENLIEACVILHRKYPQI  211
+
+Query  208  ---LVGDG--------PQRAALEQRYPQARFLGYRHGRALADAYRAASVLVFPSLT-DTY  255
+               L GDG         +  +     P   F G+     LA  YR + V+V PSL  + +
+Sbjct  212  RLKLAGDGHPDYMCRLKRDVSASGAEPFVSFEGF--TEKLASFYRQSDVVVLPSLVPEAF  269
+
+Query  256  GLVMLEALACGVPVAAFAVPGPLDVLQQGVTGVM  289
+            GL + EA+ C   V +  +    ++++   +G++
+Sbjct  270  GLSLCEAMYCRTAVISNTLGAQKEIVEHHQSGIL  303
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.140    0.461    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2618050250
+
+
+Query= g4393.t1
+
+Length=371
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG048909(gb|WP_041165171) (KVAR_RS07850) glycosyltransferase [Ca...  59.3    1e-09
+VFG046773(gb|WP_013922879) (F7308_RS05575) glycosyltransferase fa...  58.5    2e-09
+VFG046958(gb|WP_015083810) (lpcC) glycosyl transferase family pro...  55.8    1e-08
+VFG046956(gb|WP_003025748) (lpcC) glycosyl transferase family pro...  55.5    2e-08
+VFG046952(gb|WP_011648659) (lpcC) glycosyl transferase family pro...  55.1    2e-08
+VFG046950(gb|WP_003015190) (lpcC) glycosyl transferase family pro...  55.1    2e-08
+VFG046672(gb|WP_013922874) (F7308_RS05550) glycosyl transferase [...  55.1    3e-08
+VFG046955(gb|WP_003021532) (lpcC) glycosyl transferase family pro...  54.7    3e-08
+VFG037779(gb|WP_000867100) (lpsB) glycosyltransferase family 4 pr...  53.9    5e-08
+VFG037775(gb|WP_000867102) (lpsB) glycosyltransferase family 4 pr...  53.9    5e-08
+VFG046965(gb|WP_013922832) (lpcC) glycosyl transferase family pro...  53.5    7e-08
+VFG037786(gb|WP_000867089) (lpsB) glycosyltransferase family 4 pr...  53.5    8e-08
+VFG037777(gb|WP_000867091) (lpsB) glycosyltransferase family 4 pr...  53.1    9e-08
+VFG023796(gb|WP_172397678) (YE105_RS06210) glycosyltransferase [O...  52.4    2e-07
+VFG048894(gb|WP_004180517) (KPN2242_RS16295) glycosyltransferase ...  52.4    2e-07
+VFG046948(gb|WP_003039996) (lpcC) glycosyl transferase family pro...  52.0    2e-07
+VFG046960(gb|WP_014550010) (lpcC) glycosyl transferase family pro...  52.0    2e-07
+VFG046772(gb|WP_014715526) (OOM_RS08195) glycosyltransferase fami...  50.1    6e-07
+VFG037778(gb|YP_001083487) (lpsB) glycosyltransferase [LPS (VF046...  50.4    7e-07
+VFG037783(gb|WP_000867095) (lpsB) glycosyltransferase family 4 pr...  50.1    1e-06
+VFG046957(gb|WP_014548613) (lpcC) glycosyl transferase family pro...  49.7    1e-06
+VFG046953(gb|WP_012429468) (lpcC) glycosyl transferase family pro...  49.3    2e-06
+VFG037781(gb|WP_000867105) (lpsB) glycosyltransferase family 4 pr...  49.3    2e-06
+VFG005935(gb|YP_001197936) (SSU05_0570) glycosyltransferase [Caps...  48.1    4e-06
+VFG005960(gb|YP_001200133) (SSU98_0575) glycosyltransferase [Caps...  48.1    4e-06
+VFG000139(gb|NP_253697) (waaG) B-band O-antigen polymerase [LPS (...  47.4    7e-06
+VFG052336(gb|WP_011181009.1) (lpcC) glycosyltransferase family 4 ...  47.0    9e-06
+
+
+>VFG048909(gb|WP_041165171) (KVAR_RS07850) glycosyltransferase 
+[Capsule (VF0560) - Immune modulation (VFC0258)] [Klebsiella 
+variicola At-22]
+Length=366
+
+ Score = 59.3 bits (142),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 35/105 (33%), Positives = 59/105 (56%), Gaps = 4/105 (4%)
+
+Query  200  LVFAGRGSREKNLPVLLDAIQRL-GDGYHLLLVGSNMPTRVPRN---TSVVDHFCDSREV  255
+            L+F GR   +K   +LLDA+  L G  +HL  +GS++ +    +         +  S+E+
+Sbjct  198  LLFIGRFDYQKGFDLLLDAMNSLKGTNFHLTAIGSSVHSDFKYDDVENITYTGWMASKEI  257
+
+Query  256  ARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAGALAEIV  300
+            ++ LA +D L+     E F +V LEAM+ G+P++A  A +L E+V
+Sbjct  258  SKYLAFADCLVIPSRWEGFAMVPLEAMSYGLPIIASNATSLPEVV  302
+
+
+>VFG046773(gb|WP_013922879) (F7308_RS05575) glycosyltransferase 
+family 1 protein [Capsule (VF0543) - Immune modulation (VFC0258)] 
+[Francisella sp. TX077308]
+Length=363
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 42/173 (24%), Positives = 88/173 (51%), Gaps = 18/173 (10%)
+
+Query  196  ETRLLVFAGRGSREKNLPVLLDAIQRLG----DGYHLLLVGSNMPTRVPRN---------  242
+            E + ++F G     KN+  L+ A  +L     + Y LL+VG+    +V  +         
+Sbjct  184  EQKYILFVGTVEPRKNIENLVRAYSKLSQDIKNKYKLLIVGAKGWGKVDLDSLLDSLNLN  243
+
+Query  243  TSV-VDHFCDSREVARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAGALAEIVP  301
+            T++ V ++  + E+A L  ++   ++    E FGL  LEAM+ G+PV+  +  +++E++ 
+Sbjct  244  TNIKVYNYITNEELASLYKTASLFVYPSLYEGFGLPILEAMSYGVPVICSKTSSMSEVLG  303
+
+Query  302  ERCGVLCAPNNGDAMACAVRELFSHDVELRGQRARRHVERQH--AWDAVVAGL  352
+            +  G+L  P +  ++A  ++++  +D +L+ Q +   + R    +WD   A +
+Sbjct  304  D-AGILIDPQDYYSVAEEIQKVLDND-DLQSQMSMMSLMRSKYFSWDKAAAEM  354
+
+
+>VFG046958(gb|WP_015083810) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+tularensis subsp. holarctica F92]
+Length=328
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 61/243 (25%), Positives = 105/243 (43%), Gaps = 34/243 (14%)
+
+Query  137  VSKLY-GHFDRVLAPSRVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLRQELGLDE  195
+            ++K Y    + V+ PS + A+ L +      ++ P GVD   F+P+       Q+  +  
+Sbjct  83   LTKFYINRMEAVICPSEISAKYLEK----KPYIVPHGVDTQVFYPAENRQQQWQDKKIPG  138
+
+Query  196  ETRLLVFAGRGSREKNLPVLLDA----IQRLGDGYHLLLVGSNMPTRVP-----------  240
+            +  + VF GR  + K     ++A    +++  D +  +++G   P  +            
+Sbjct  139  KYGIGVF-GRIRKTKGTQEFIEAAIVTLKKYPD-WTAVVIGEATPRDLDFKKELEQKVKQ  196
+
+Query  241  ----RNTSVVDHFCDSREVARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAGAL  296
+                +    +    DS E+     + D ++ A  +E FGL ALEAMAS   V+A +AGA 
+Sbjct  197  AGLDKQIIFIGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCAVIATKAGAW  256
+
+Query  297  AE-IVPERCGVLCAPNNGDAMACAVRELFSHDVELRGQRARRHVERQHAWDAVVAGLLLH  355
+             E IV +  G L  P +   +A  +  L S D +LR + A      Q+ +D V     + 
+Sbjct  257  PEIIVDDENGYLVEPKSSQQIADKLDMLIS-DSKLRYKIA------QNGYDLVTTKYKIQ  309
+
+Query  356  YHA  358
+              A
+Sbjct  310  NEA  312
+
+
+>VFG046956(gb|WP_003025748) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+tularensis subsp. tularensis WY96-3418]
+Length=354
+
+ Score = 55.5 bits (132),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 60/243 (25%), Positives = 105/243 (43%), Gaps = 34/243 (14%)
+
+Query  137  VSKLY-GHFDRVLAPSRVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLRQELGLDE  195
+            ++K Y    + V+ PS + A+ L +      ++ P GVD   F+P+       Q+  +  
+Sbjct  109  LTKFYINRMEAVICPSEISAKYLEKKS----YIVPHGVDTQVFYPAENRQQQWQDKKIPG  164
+
+Query  196  ETRLLVFAGRGSREKNLPVLLDA----IQRLGDGYHLLLVGSNMPTRVP-----------  240
+            +  + +F GR  + K     ++A    +++  D +  +++G   P  +            
+Sbjct  165  KYGIGIF-GRIRKTKGTQEFIEAAIVTLKKYPD-WTAVVIGEATPRDLDFKKELEQKVKQ  222
+
+Query  241  ----RNTSVVDHFCDSREVARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAGAL  296
+                +    +    DS E+     + D ++ A  +E FGL ALEAMAS   V+A +AGA 
+Sbjct  223  AGLDKQIIFIGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCAVIATKAGAW  282
+
+Query  297  AE-IVPERCGVLCAPNNGDAMACAVRELFSHDVELRGQRARRHVERQHAWDAVVAGLLLH  355
+             E IV +  G L  P +   +A  +  L S D +LR + A      Q+ +D V     + 
+Sbjct  283  PEIIVDDENGYLVEPKSSQQIADKLDMLIS-DSKLRYKIA------QNGYDLVTTKYKIQ  335
+
+Query  356  YHA  358
+              A
+Sbjct  336  NEA  338
+
+
+>VFG046952(gb|WP_011648659) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+tularensis subsp. holarctica OSU18]
+Length=354
+
+ Score = 55.1 bits (131),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 61/243 (25%), Positives = 105/243 (43%), Gaps = 34/243 (14%)
+
+Query  137  VSKLY-GHFDRVLAPSRVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLRQELGLDE  195
+            ++K Y    + V+ PS + A+ L +      ++ P GVD   F+P+       Q+  +  
+Sbjct  109  LTKFYINRMEAVICPSEISAKYLEK----KPYIVPHGVDTQVFYPAENRQQQWQDKKIPG  164
+
+Query  196  ETRLLVFAGRGSREKNLPVLLDA----IQRLGDGYHLLLVGSNMPTRVP-----------  240
+            +  + VF GR  + K     ++A    +++  D +  +++G   P  +            
+Sbjct  165  KYGIGVF-GRIRKTKGTQEFIEAAIVTLKKYPD-WTAVVIGEATPRDLDFKKELEQKVKQ  222
+
+Query  241  ----RNTSVVDHFCDSREVARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAGAL  296
+                +    +    DS E+     + D ++ A  +E FGL ALEAMAS   V+A +AGA 
+Sbjct  223  AGLDKQIIFIGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCAVIATKAGAW  282
+
+Query  297  AE-IVPERCGVLCAPNNGDAMACAVRELFSHDVELRGQRARRHVERQHAWDAVVAGLLLH  355
+             E IV +  G L  P +   +A  +  L S D +LR + A      Q+ +D V     + 
+Sbjct  283  PEIIVDDENGYLVEPKSSQQIADKLDMLIS-DSKLRYKIA------QNGYDLVTTKYKIQ  335
+
+Query  356  YHA  358
+              A
+Sbjct  336  NEA  338
+
+
+>VFG046950(gb|WP_003015190) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+tularensis subsp. holarctica FTNF002-00]
+Length=354
+
+ Score = 55.1 bits (131),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 61/243 (25%), Positives = 105/243 (43%), Gaps = 34/243 (14%)
+
+Query  137  VSKLY-GHFDRVLAPSRVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLRQELGLDE  195
+            ++K Y    + V+ PS + A+ L +      ++ P GVD   F+P+       Q+  +  
+Sbjct  109  LTKFYINRMEAVICPSEISAKYLEK----KPYIVPHGVDTQVFYPAENRQQQWQDKKIPG  164
+
+Query  196  ETRLLVFAGRGSREKNLPVLLDA----IQRLGDGYHLLLVGSNMPTRVP-----------  240
+            +  + VF GR  + K     ++A    +++  D +  +++G   P  +            
+Sbjct  165  KYGIGVF-GRIRKTKGTQEFIEAAIVTLKKYPD-WTAVVIGEATPRDLDFKKELEQKVKQ  222
+
+Query  241  ----RNTSVVDHFCDSREVARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAGAL  296
+                +    +    DS E+     + D ++ A  +E FGL ALEAMAS   V+A +AGA 
+Sbjct  223  AGLDKQIIFIGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCAVIATKAGAW  282
+
+Query  297  AE-IVPERCGVLCAPNNGDAMACAVRELFSHDVELRGQRARRHVERQHAWDAVVAGLLLH  355
+             E IV +  G L  P +   +A  +  L S D +LR + A      Q+ +D V     + 
+Sbjct  283  PEIIVDDENGYLVEPKSSQQIADKLDMLIS-DSKLRYKIA------QNGYDLVTTKYKIQ  335
+
+Query  356  YHA  358
+              A
+Sbjct  336  NEA  338
+
+
+>VFG046672(gb|WP_013922874) (F7308_RS05550) glycosyl transferase 
+[Capsule (VF0543) - Immune modulation (VFC0258)] [Francisella 
+sp. TX077308]
+Length=372
+
+ Score = 55.1 bits (131),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 73/300 (24%), Positives = 127/300 (42%), Gaps = 37/300 (12%)
+
+Query  82   QPDLIEVGDPYLTAWAALDARRRLDVPVIGFYHSD------LPLLVSNRMGAWLGTNADN  135
+            Q D+I    PY  A   L    R++ P +  YHSD      L +L    M  +L  N   
+Sbjct  84   QIDIIHYHFPYPYA-DLLQTICRVNKPYVVTYHSDIIKQKKLMILYKPLMRKFL--NGAK  140
+
+Query  136  YVSKLYGHFDRVLAPSRVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGL-RQELGLD  194
+            Y+           +P+ + + +++R       V P+ +D   ++   ++    +  +G  
+Sbjct  141  YILPT--------SPNYLESSEILREIKVPKRVIPMSLDKSDYNIDEKNYLYWKNNIGF-  191
+
+Query  195  EETRLLVFAGRGSREKNLPVLLDAIQRLGDGYHLLLVGSN-----MPTRVPRNTSVVDHF  249
+               +  ++ G     K L VL+DAIQ  G  Y L++VG       +  +V +N+     F
+Sbjct  192  --KKFFIYIGGLRYYKGLDVLIDAIQ--GQDYPLVIVGDGDQSDLLEQKVKQNSLQNVKF  247
+
+Query  250  C---DSREVARLLASSDALLHAGD--QETFGLVALEAMASGIPVVAVRAGALAEIV--PE  302
+                D ++   LL  S AL+   +   E FGLV LEA     P++    G     V   +
+Sbjct  248  VGALDDKDKLSLLKLSYALVLPSNVRTEAFGLVLLEASIFAKPMITCEIGTGTTFVNIDK  307
+
+Query  303  RCGVLCAPNNGDAMACAVRELFSHDVELR--GQRARRHVERQHAWDAVVAGLLLHYHAVL  360
+            + G++  PN+   +A  ++EL+  + + +  G+ AR   +     D +V    L Y  V+
+Sbjct  308  QTGLVAKPNDSQDLAKNLKELWQDEQKAQEYGKNARARFDDIFDLDKMVESYKLVYDEVI  367
+
+
+>VFG046955(gb|WP_003021532) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+tularensis subsp. tularensis SCHU S4]
+Length=354
+
+ Score = 54.7 bits (130),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 60/243 (25%), Positives = 105/243 (43%), Gaps = 34/243 (14%)
+
+Query  137  VSKLY-GHFDRVLAPSRVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLRQELGLDE  195
+            ++K Y    + V+ PS + A+ L +      ++ P GVD   F+P+       Q+  +  
+Sbjct  109  LTKFYINRMEAVICPSEISAKYLEK----KPYIVPHGVDTQVFYPAENRQQQWQDKKIPG  164
+
+Query  196  ETRLLVFAGRGSREKNLPVLLDA----IQRLGDGYHLLLVGSNMPTRVP-----------  240
+            +  + +F GR  + K     ++A    +++  D +  +++G   P  +            
+Sbjct  165  KYGIGIF-GRIRKTKGTQEFIEAAIVTLKKYPD-WTAVVIGEATPRDLDFKKELEQKVKQ  222
+
+Query  241  ----RNTSVVDHFCDSREVARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAGAL  296
+                +    +    DS E+     + D ++ A  +E FGL ALEAMAS   V+A +AGA 
+Sbjct  223  AGLDKQIIFIGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCAVIATKAGAW  282
+
+Query  297  AE-IVPERCGVLCAPNNGDAMACAVRELFSHDVELRGQRARRHVERQHAWDAVVAGLLLH  355
+             E IV +  G L  P +   +A  +  L S D +LR + A      Q+ +D V     + 
+Sbjct  283  PEIIVDDENGYLVEPKSSQQIADKLDMLIS-DSKLRYKIA------QNGYDLVTTKYKIQ  335
+
+Query  356  YHA  358
+              A
+Sbjct  336  NEA  338
+
+
+>VFG037779(gb|WP_000867100) (lpsB) glycosyltransferase family 
+4 protein [LPS (VF0466) - Immune modulation (VFC0258)] [Acinetobacter 
+baumannii AYE]
+Length=366
+
+ Score = 53.9 bits (128),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 75/288 (26%), Positives = 121/288 (42%), Gaps = 52/288 (18%)
+
+Query  73   PWRKVLRNLQPDLIEVGDPYLTAWAALDARRRLDVPVIGFYHSDLPLLVSNRMGAWLGTN  132
+            P R+++   QPD++ V    + AW    A R++         +  P L+S   G +    
+Sbjct  71   PLRQLIEEHQPDIVHVRS-RVPAWLTHFALRKIPA-------NKRPHLISTVHGFY----  118
+
+Query  133  ADNYVSKLYGHFDRVLAPS----RVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLR  188
+            + N  S +    ++V+A S    + + +        D+     G+D   F P N  P  +
+Sbjct  119  SVNRYSAIMTQAEKVIAVSDSVVKYITDHYKNCPPQDIVRIYRGIDPTAF-PHNYQPSAQ  177
+
+Query  189  ------QELGLDEETRLLVFAGRGSREKNLPVLLDAIQRLGDGY---HLLLVG-------  232
+                   +    E   LL   GR +R K    L++ +Q+LG+ Y   H ++VG       
+Sbjct  178  WFNQVFNDFPELENKFLLCLPGRITRLKGHESLIELMQKLGEQYPQLHAVVVGEADVKKQ  237
+
+Query  233  ---SNMPTRVPRN-----TSVVDHFCDSREVARLLASSDALLHAGDQ-ETFGLVALEAMA  283
+               S +   +         + V H  D RE    LA SD +L   +Q ETFG  ALEA++
+Sbjct  238  AYLSELQNTIQSKGLADKITFVGHRSDIRE---WLAFSDIVLSLSNQAETFGRTALEALS  294
+
+Query  284  SGIPVVAVRAGALAEIVPERC--GVLCAPNNGDAMACAVRELFSHDVE  329
+             G PV+    G +AEI+      G++ A N       A+ E+  H +E
+Sbjct  295  VGTPVIGWNRGGVAEILSHVYPQGLVEAENEK-----ALVEIVKHHIE  337
+
+
+>VFG037775(gb|WP_000867102) (lpsB) glycosyltransferase family 
+4 protein [LPS (VF0466) - Immune modulation (VFC0258)] [Acinetobacter 
+baumannii AB0057]
+Length=366
+
+ Score = 53.9 bits (128),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 75/288 (26%), Positives = 121/288 (42%), Gaps = 52/288 (18%)
+
+Query  73   PWRKVLRNLQPDLIEVGDPYLTAWAALDARRRLDVPVIGFYHSDLPLLVSNRMGAWLGTN  132
+            P R+++   QPD++ V    + AW    A R++         +  P L+S   G +    
+Sbjct  71   PLRQLIEEHQPDIVHVRS-RVPAWLTHFALRKIPA-------NKRPHLISTVHGFY----  118
+
+Query  133  ADNYVSKLYGHFDRVLAPS----RVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLR  188
+            + N  S +    ++V+A S    + + +        D+     G+D   F P N  P  +
+Sbjct  119  SVNRYSAIMTQAEKVIAVSDSVVKYITDHYKNCPPQDIVRIYRGIDPTAF-PHNYQPSAQ  177
+
+Query  189  ------QELGLDEETRLLVFAGRGSREKNLPVLLDAIQRLGDGY---HLLLVG-------  232
+                   +    E   LL   GR +R K    L++ +Q+LG+ Y   H ++VG       
+Sbjct  178  WFNQVFNDFPELENKFLLCLPGRITRLKGHESLIELMQKLGEQYPQLHAVVVGGADVKKQ  237
+
+Query  233  ---SNMPTRVPRN-----TSVVDHFCDSREVARLLASSDALLHAGDQ-ETFGLVALEAMA  283
+               S +   +         + V H  D RE    LA SD +L   +Q ETFG  ALEA++
+Sbjct  238  AYLSELQNTIQSKGLADKITFVGHRSDIRE---WLAFSDIVLSLSNQAETFGRTALEALS  294
+
+Query  284  SGIPVVAVRAGALAEIVPERC--GVLCAPNNGDAMACAVRELFSHDVE  329
+             G PV+    G +AEI+      G++ A N       A+ E+  H +E
+Sbjct  295  VGTPVIGWNRGGVAEILSHVYPQGLVEAENEK-----ALVEIVKHHIE  337
+
+
+>VFG046965(gb|WP_013922832) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+sp. TX077308]
+Length=352
+
+ Score = 53.5 bits (127),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 55/220 (25%), Positives = 98/220 (45%), Gaps = 26/220 (12%)
+
+Query  137  VSKLY-GHFDRVLAPSRVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLRQELGLDE  195
+            ++K Y    + V+ PS + A+ L R      ++ P GV+   F+P++      Q   L  
+Sbjct  109  LTKFYINRMEAVICPSEISAKYLER----PPYIVPHGVNTEVFYPADNKAREWQNRKLPG  164
+
+Query  196  ETRLLVFAGRGSREKNLPVLLDAIQRLGDGY---HLLLVGSNMPTRVPRNTSV-------  245
+            +  + +F GR  + K     ++A+  +   Y     +++G   P  +     +       
+Sbjct  165  KYGIGIF-GRIRKSKGTYEFIEAVVAMLIKYPDWTAVVIGEATPKDLEFKKQLEQMVQQA  223
+
+Query  246  --------VDHFCDSREVARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAGALA  297
+                         +S+E+     + D ++ A  +E FGL ALEAMAS   V+A +AGA  
+Sbjct  224  GLSERIIFTGFIKNSKEIPSWYRALDIVVCASHKEGFGLPALEAMASKCAVIATKAGAWP  283
+
+Query  298  EIVPE-RCGVLCAPNNGDAMACAVRELFSHDVELRGQRAR  336
+            EI+ + +   L  P +   +A  +  L S+D ELR + A+
+Sbjct  284  EIISDAQNAYLIEPKSSQQIAEKLDTLMSND-ELRYEIAQ  322
+
+
+>VFG037786(gb|WP_000867089) (lpsB) glycosyltransferase family 
+4 protein [LPS (VF0466) - Immune modulation (VFC0258)] [Acinetobacter 
+baumannii SDF]
+Length=366
+
+ Score = 53.5 bits (127),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 68/257 (26%), Positives = 109/257 (42%), Gaps = 45/257 (18%)
+
+Query  73   PWRKVLRNLQPDLIEVGDPYLTAWAALDARRRLDVPVIGFYHSDLPLLVSNRMGAWLGTN  132
+            P R+++   QPD++ V    + AW    A R++         +  P L+S   G +    
+Sbjct  71   PLRQLIEEHQPDIVHVRS-RVPAWLTHFALRKIPA-------NKHPHLISTVHGFY----  118
+
+Query  133  ADNYVSKLYGHFDRVLAPS----RVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLR  188
+            + N  S +    ++V+A S    + + +        D+     G+D   F P N  P  +
+Sbjct  119  SVNRYSAIMTQAEKVIAVSDSVVKYITDHYKNCPPQDIVRIYRGIDPAAF-PHNYQPSAQ  177
+
+Query  189  ------QELGLDEETRLLVFAGRGSREKNLPVLLDAIQRLGDGY---HLLLVG-------  232
+                   +    E   LL   GR +R K    L++ +Q+LG+ Y   H ++VG       
+Sbjct  178  WFNQVFNDFPELENKFLLCLPGRITRLKGHESLIELMQKLGEQYPQLHAVVVGGADVKKQ  237
+
+Query  233  ---SNMPTRVPRN-----TSVVDHFCDSREVARLLASSDALLHAGDQ-ETFGLVALEAMA  283
+               S +   +         + V H  D RE    LA SD +L   +Q ETFG  ALEA++
+Sbjct  238  TYLSELQNTIQSKGLADKITFVGHRSDIRE---WLAFSDIVLSLSNQAETFGRTALEALS  294
+
+Query  284  SGIPVVAVRAGALAEIV  300
+             G PV+    G +AEI+
+Sbjct  295  VGTPVIGWNRGGVAEIL  311
+
+
+>VFG037777(gb|WP_000867091) (lpsB) glycosyltransferase family 
+4 protein [LPS (VF0466) - Immune modulation (VFC0258)] [Acinetobacter 
+baumannii ACICU]
+Length=366
+
+ Score = 53.1 bits (126),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 68/257 (26%), Positives = 109/257 (42%), Gaps = 45/257 (18%)
+
+Query  73   PWRKVLRNLQPDLIEVGDPYLTAWAALDARRRLDVPVIGFYHSDLPLLVSNRMGAWLGTN  132
+            P R+++   QPD++ V    + AW    A R++         +  P L+S   G +    
+Sbjct  71   PLRQLIEEHQPDIVHVRS-RVPAWLTHFALRKIPA-------NKRPHLISTVHGFY----  118
+
+Query  133  ADNYVSKLYGHFDRVLAPS----RVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLR  188
+            + N  S +    ++V+A S    + + +        D+     G+D   F P N  P  +
+Sbjct  119  SVNRYSAIMTQAEKVIAVSDSVVKYITDHYKNCPPQDIVRIYRGIDPAAF-PHNYQPSAQ  177
+
+Query  189  ------QELGLDEETRLLVFAGRGSREKNLPVLLDAIQRLGDGY---HLLLVG-------  232
+                   +    E   LL   GR +R K    L++ +Q+LG+ Y   H ++VG       
+Sbjct  178  WFNQVFNDFPELENKFLLCLPGRITRLKGHESLIELMQKLGEQYPQLHAVVVGGADVKKQ  237
+
+Query  233  ---SNMPTRVPRN-----TSVVDHFCDSREVARLLASSDALLHAGDQ-ETFGLVALEAMA  283
+               S +   +         + V H  D RE    LA SD +L   +Q ETFG  ALEA++
+Sbjct  238  AYLSELQNTIQSKGLADKITFVGHRSDIRE---WLAFSDIVLSLSNQAETFGRTALEALS  294
+
+Query  284  SGIPVVAVRAGALAEIV  300
+             G PV+    G +AEI+
+Sbjct  295  VGTPVIGWNRGGVAEIL  311
+
+
+>VFG023796(gb|WP_172397678) (YE105_RS06210) glycosyltransferase 
+[O-antigen (VF0392) - Immune modulation (VFC0258)] [Yersinia 
+enterocolitica subsp. palearctica 105.5R(r)]
+Length=356
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 45/195 (23%), Positives = 93/195 (48%), Gaps = 18/195 (9%)
+
+Query  172  GVDLVTFHPSNRDPGL-RQELGLDEETRLLVFAGRGSREKNLPVLLDAIQRLGDGY----  226
+            G+D   F  S  +  + R ELG+  +T +++  GR +  K+ P LL A   L        
+Sbjct  151  GIDASQFDFSMDERKVKRSELGIFNDTPIILSVGRLTEAKDYPNLLTAFSLLIKDNSLQS  210
+
+Query  227  --HLLLVGSNMPTRVPRNTSV---VDHFC----DSREVARLLASSDALLHAGDQETFGLV  277
+               L +VG+       +N S    +D +        ++ +L+ ++D  + + + E F LV
+Sbjct  211  FPQLFIVGTGHLDGYLKNMSKEFGIDKYVTFIGQRDDIRQLMCAADIFVLSSEWEGFPLV  270
+
+Query  278  ALEAMASGIPVVAVRAGALAEIVPERCGVLCAPNNGDAMACAVRELFS---HDVELRGQR  334
+              EAMA    +VA  AG + E + + CG +    + ++++ A+ ++     ++ E+ G +
+Sbjct  271  ITEAMACKKIIVATDAGGITEALGD-CGSIVPIKDPNSLSQAINKMIKLSDNEKEILGNK  329
+
+Query  335  ARRHVERQHAWDAVV  349
+            AR  + + ++ + ++
+Sbjct  330  ARERIIQTNSIEKII  344
+
+
+>VFG048894(gb|WP_004180517) (KPN2242_RS16295) glycosyltransferase 
+[Capsule (VF0560) - Immune modulation (VFC0258)] [Klebsiella 
+pneumoniae KCTC 2242]
+Length=358
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 32/119 (27%), Positives = 61/119 (51%), Gaps = 6/119 (5%)
+
+Query  189  QELGLDEETRLLVFAGRGSREKNLPVLLDAIQRLGD--GYHLLLVGS---NMPTRVPRNT  243
+             E  + +E   ++F GR  ++K    LL+ I ++ D   Y   ++G    ++  ++ +  
+Sbjct  183  NENEVQKEKINILFVGRFDKQKGYDYLLNVI-KVADVSKYTFNIIGDSVHDVFEKIEKEN  241
+
+Query  244  SVVDHFCDSREVARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAGALAEIVPE  302
+             V   + D++E+      +D LL     E+FGLVA+EA   G+PV+A    +L E++ +
+Sbjct  242  VVYYGWVDNKELPAYFCENDVLLMPSRWESFGLVAVEAQLYGVPVIANNVASLPEVISD  300
+
+
+>VFG046948(gb|WP_003039996) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+novicida U112]
+Length=354
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 58/243 (24%), Positives = 104/243 (43%), Gaps = 34/243 (14%)
+
+Query  137  VSKLY-GHFDRVLAPSRVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLRQELGLDE  195
+            ++K Y    + V+ PS + A+ L +      ++ P GVD   F+P+       Q+  +  
+Sbjct  109  LTKFYINRMEAVICPSEISAKYLEK----KPYIVPHGVDTQVFYPAENRQQQWQDKKMPG  164
+
+Query  196  ETRLLVFAGRGSREKNLPVLLDA----IQRLGDGYHLLLVGSNMPTRVP-----------  240
+            +  + +F GR  + K     ++A    +++  D +  +++G   P  +            
+Sbjct  165  KYGIGIF-GRIRKTKGTQEFIEAAIVTLKKYPD-WTAVVIGEATPRDLDFKKELEQKVKE  222
+
+Query  241  ----RNTSVVDHFCDSREVARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAGAL  296
+                +         DS E+     + D ++ A  +E FGL ALEAMAS   V+A +AGA 
+Sbjct  223  AGLDKQIIFTGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCAVIATKAGAW  282
+
+Query  297  AE-IVPERCGVLCAPNNGDAMACAVRELFSHDVELRGQRARRHVERQHAWDAVVAGLLLH  355
+             E IV +  G L  P +   +A  + ++   D +LR + A      Q+ +D V     + 
+Sbjct  283  PEIIVDDENGYLVEPKSSQQIADKL-DMLICDSKLRYKIA------QNGYDLVTTKYKIQ  335
+
+Query  356  YHA  358
+              A
+Sbjct  336  NEA  338
+
+
+>VFG046960(gb|WP_014550010) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+cf. novicida Fx1]
+Length=354
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 58/243 (24%), Positives = 104/243 (43%), Gaps = 34/243 (14%)
+
+Query  137  VSKLY-GHFDRVLAPSRVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLRQELGLDE  195
+            ++K Y    + V+ PS + A+ L +      ++ P GVD   F+P+       Q+  +  
+Sbjct  109  LTKFYINRMEAVICPSEISAKYLEK----KPYIVPHGVDTQVFYPAENRQQQWQDKKIPG  164
+
+Query  196  ETRLLVFAGRGSREKNLPVLLDA----IQRLGDGYHLLLVGSNMPTRVP-----------  240
+            +  + +F GR  + K     ++A    +++  D +  +++G   P  +            
+Sbjct  165  KYGIGIF-GRIRKTKGTQEFIEAAIVTLKKYPD-WTAVVIGEATPRDLDFKKELEQKVKE  222
+
+Query  241  ----RNTSVVDHFCDSREVARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAGAL  296
+                +         DS E+     + D ++ A  +E FGL ALEAMAS   V+A +AGA 
+Sbjct  223  AGLDKQIIFTGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCAVIATKAGAW  282
+
+Query  297  AE-IVPERCGVLCAPNNGDAMACAVRELFSHDVELRGQRARRHVERQHAWDAVVAGLLLH  355
+             E IV +  G L  P +   +A  + ++   D +LR + A      Q+ +D V     + 
+Sbjct  283  PEIIVDDENGYLVEPKSSQQIADKL-DMLICDSKLRYKIA------QNGYDLVTTKYKIQ  335
+
+Query  356  YHA  358
+              A
+Sbjct  336  NEA  338
+
+
+>VFG046772(gb|WP_014715526) (OOM_RS08195) glycosyltransferase 
+family 1 protein [Capsule (VF0543) - Immune modulation (VFC0258)] 
+[Francisella noatunensis subsp. orientalis str. Toba 04]
+Length=242
+
+ Score = 50.1 bits (118),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 38/171 (22%), Positives = 85/171 (50%), Gaps = 18/171 (11%)
+
+Query  198  RLLVFAGRGSREKNLPVLLDAIQRL----GDGYHLLLVGSNMPTRVPRNTSV--------  245
+            + ++F G     KN+  L+ A  +L     + Y LL+VG+    +V  ++ +        
+Sbjct  65   KYILFVGTIEPRKNIENLVRAYSKLPQDIKNKYKLLIVGAKGWGKVDLDSLLDSLNLNAN  124
+
+Query  246  --VDHFCDSREVARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAGALAEIVPER  303
+              V ++  + E+A L  ++   ++    E FGL  LEA++ G+PV+  +  +++E++ + 
+Sbjct  125  IKVYNYITNEELASLYKTASLFVYPSLYEGFGLPILEAISYGVPVICSKTSSISEVLGD-  183
+
+Query  304  CGVLCAPNNGDAMACAVRELFSHDVELRGQRARRHVERQH--AWDAVVAGL  352
+             G+L    +  ++A  ++++  +D +L+ Q +   + R    +WD   A +
+Sbjct  184  AGILIDSQDYYSVAEEIQKVLDND-DLQSQMSMMSLMRSKYFSWDEAAAEM  233
+
+
+>VFG037778(gb|YP_001083487) (lpsB) glycosyltransferase [LPS (VF0466) 
+- Immune modulation (VFC0258)] [Acinetobacter baumannii 
+ATCC 17978]
+Length=331
+
+ Score = 50.4 bits (119),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 67/257 (26%), Positives = 107/257 (42%), Gaps = 45/257 (18%)
+
+Query  73   PWRKVLRNLQPDLIEVGDPYLTAWAALDARRRLDVPVIGFYHSDLPLLVSNRMGAWLGTN  132
+            P R+++   QPD++ V    + AW    A R++         +  P L+S   G +    
+Sbjct  36   PLRQLIEEHQPDIVHVRS-RVPAWLTHFALRKIPA-------NKRPHLISTVHGFY----  83
+
+Query  133  ADNYVSKLYGHFDRVLAPS----RVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLR  188
+            + N  S +    ++V+A S    + + +        D+     G+D   F P N  P  +
+Sbjct  84   SVNRYSAIMTQAEKVIAVSDSVVKYITDHYKNCPPQDIVRIYRGIDPAAF-PHNYQPSAQ  142
+
+Query  189  ------QELGLDEETRLLVFAGRGSREKNLPVLLDAIQRLGDGY---HLLLVG-------  232
+                   +    E   LL   GR +R K    L++ +Q+L   Y   H ++VG       
+Sbjct  143  WFNQVFNDFPELENKFLLCLPGRITRLKGHESLIELMQQLHSQYPQLHAVIVGGADVKKQ  202
+
+Query  233  ---SNMPTRVPRN-----TSVVDHFCDSREVARLLASSDALLHAGDQ-ETFGLVALEAMA  283
+               S +   +         + V H  D RE    LA SD +L   +Q ETFG  ALEA++
+Sbjct  203  AYLSELQNTIQSKGLADKITFVGHRSDIRE---WLAFSDIVLSLSNQAETFGRTALEALS  259
+
+Query  284  SGIPVVAVRAGALAEIV  300
+             G PV+    G +AEI+
+Sbjct  260  VGTPVIGWNRGGVAEIL  276
+
+
+>VFG037783(gb|WP_000867095) (lpsB) glycosyltransferase family 
+4 protein [LPS (VF0466) - Immune modulation (VFC0258)] [Acinetobacter 
+baumannii D1279779]
+Length=366
+
+ Score = 50.1 bits (118),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 74/288 (26%), Positives = 119/288 (41%), Gaps = 52/288 (18%)
+
+Query  73   PWRKVLRNLQPDLIEVGDPYLTAWAALDARRRLDVPVIGFYHSDLPLLVSNRMGAWLGTN  132
+            P R+++   QPD++ V    + AW    A R++         +  P L+S   G +    
+Sbjct  71   PLRQLIEEHQPDIVHVRS-RVPAWLTHFALRKIPA-------NKRPHLISTVHGFY----  118
+
+Query  133  ADNYVSKLYGHFDRVLAPS----RVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLR  188
+            + N  S +    ++V+A S    + + +        D+     G+D   F P N  P  +
+Sbjct  119  SVNRYSAIMTQAEKVIAVSDSVVKYITDHYKNCPPQDIVRIYRGIDPAAF-PHNYQPSAQ  177
+
+Query  189  ------QELGLDEETRLLVFAGRGSREKNLPVLLDAIQRLGDGY---HLLLVG-------  232
+                   +    E   LL   GR +R K    L++ +Q+L   Y   H ++VG       
+Sbjct  178  WFNQVFNDFPELENKFLLCLPGRITRLKGHESLIELMQQLHSQYPQLHAVVVGGADVKKQ  237
+
+Query  233  ---SNMPTRVPRN-----TSVVDHFCDSREVARLLASSDALLHAGDQ-ETFGLVALEAMA  283
+               S +   +         + V H  D RE    LA SD +L   +Q ETFG  ALEA++
+Sbjct  238  AYLSELQNTIQSKGLADKITFVGHRSDIRE---WLAFSDIVLSLSNQAETFGRTALEALS  294
+
+Query  284  SGIPVVAVRAGALAEIVPERC--GVLCAPNNGDAMACAVRELFSHDVE  329
+             G PV+    G +AEI+      G++ A N       A+ E+  H +E
+Sbjct  295  VGTPVIGWNRGGVAEILSHVYPQGLVEAENEK-----ALLEIVKHHIE  337
+
+
+>VFG046957(gb|WP_014548613) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+cf. tularensis subsp. novicida 3523]
+Length=354
+
+ Score = 49.7 bits (117),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 52/216 (24%), Positives = 94/216 (44%), Gaps = 28/216 (13%)
+
+Query  137  VSKLY-GHFDRVLAPSRVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLRQELGLDE  195
+            ++K Y      V+ PS + A+ L +      ++ P GV+   F+P+       Q+  +  
+Sbjct  109  LTKFYINRMSAVICPSEISAKYLEK----KPYIVPHGVNTQVFYPAEDRQQQWQDKKMSG  164
+
+Query  196  ETRLLVFAGRGSREKNLPVLLDA----IQRLGDGYHLLLVGSNMPTRVP-----------  240
+            +  + +F GR  + K     ++A    +++  D +  +++G   P  +            
+Sbjct  165  KHAIGIF-GRIRKSKGTQEFIEAAIVTLKKYPD-WTAVVIGEATPRDLDFKKELEQKVKE  222
+
+Query  241  ----RNTSVVDHFCDSREVARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAGAL  296
+                +         DS E+     + D ++ A  +E FGL ALEAMAS   V+A +AGA 
+Sbjct  223  AGLDKQIVFTGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCAVIATKAGAW  282
+
+Query  297  AEIVPE-RCGVLCAPNNGDAMACAVRELFSHDVELR  331
+             EI+ + + G L  P +   +   +  L S D +LR
+Sbjct  283  PEIITDSQNGYLVEPKSSQQIVDKLDILIS-DSQLR  317
+
+
+>VFG046953(gb|WP_012429468) (lpcC) glycosyl transferase family 
+protein [LPS (VF0542) - Immune modulation (VFC0258)] [Francisella 
+tularensis subsp. mediasiatica FSC147]
+Length=354
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 58/243 (24%), Positives = 103/243 (42%), Gaps = 34/243 (14%)
+
+Query  137  VSKLY-GHFDRVLAPSRVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLRQELGLDE  195
+            ++K Y    + V+ PS + A+ L +      ++ P GV    F+P+       Q+  +  
+Sbjct  109  LTKFYINRMEAVICPSEISAKYLEK----KPYIVPHGVVTQVFYPAENRQQQWQDKKIPG  164
+
+Query  196  ETRLLVFAGRGSREKNLPVLLDA----IQRLGDGYHLLLVGSNMPTRVP-----------  240
+            +  + +F GR  + K     ++A    +++  D +  +++G   P  +            
+Sbjct  165  KYGIGIF-GRIRKTKGTQEFIEAAIVTLKKYPD-WTAVVIGEATPRDLDFKKELEQKVKQ  222
+
+Query  241  ----RNTSVVDHFCDSREVARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAGAL  296
+                +    +    DS E+     + D ++ A  +E FGL ALEAMAS   V+  +AGA 
+Sbjct  223  AGLDKQIIFIGFIADSNEIPSWYRALDIVVCASHKEGFGLPALEAMASKCAVIVTKAGAW  282
+
+Query  297  AE-IVPERCGVLCAPNNGDAMACAVRELFSHDVELRGQRARRHVERQHAWDAVVAGLLLH  355
+             E IV +  G L  P +   +A  +  L S D +LR + A      Q+ +D V     + 
+Sbjct  283  PEIIVDDENGYLVEPKSSQQIADKLDMLIS-DSKLRYKIA------QNGYDLVTTKYKIQ  335
+
+Query  356  YHA  358
+              A
+Sbjct  336  NEA  338
+
+
+>VFG037781(gb|WP_000867105) (lpsB) glycosyltransferase family 
+4 protein [LPS (VF0466) - Immune modulation (VFC0258)] [Acinetobacter 
+baumannii BJAB0715]
+Length=366
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 67/257 (26%), Positives = 107/257 (42%), Gaps = 45/257 (18%)
+
+Query  73   PWRKVLRNLQPDLIEVGDPYLTAWAALDARRRLDVPVIGFYHSDLPLLVSNRMGAWLGTN  132
+            P R+++   QPD++ V    + AW    A R++         +  P L+S   G +    
+Sbjct  71   PLRQLIEEHQPDIVHVRS-RVPAWLTHFALRKIPA-------NKRPHLISTVHGFY----  118
+
+Query  133  ADNYVSKLYGHFDRVLAPS----RVMAEKLMRLGVADVHVQPLGVDLVTFHPSNRDPGLR  188
+            + N  S +    ++V+A S    + + +        D+     G+D   F P N  P  +
+Sbjct  119  SVNRYSAIMTQAEKVIAVSDSVVKYITDHYKNCPPQDIVRIYRGIDPTAF-PHNYQPSAQ  177
+
+Query  189  ------QELGLDEETRLLVFAGRGSREKNLPVLLDAIQRLGDGY---HLLLVG-------  232
+                   +    E   LL   GR +R K    L++ +Q+L   Y   H ++VG       
+Sbjct  178  WFNQVFNDFPELENKFLLCLPGRITRLKGHESLIELMQQLHSQYPQLHAVVVGGADVKKQ  237
+
+Query  233  ---SNMPTRVPRN-----TSVVDHFCDSREVARLLASSDALLHAGDQ-ETFGLVALEAMA  283
+               S +   +         + V H  D RE    LA SD +L   +Q ETFG  ALEA++
+Sbjct  238  AYLSELQNTIQSKGLADKITFVRHRSDIRE---WLAFSDIVLSLSNQAETFGRTALEALS  294
+
+Query  284  SGIPVVAVRAGALAEIV  300
+             G PV+    G +AEI+
+Sbjct  295  VGTPVIGWNRGGVAEIL  311
+
+
+>VFG005935(gb|YP_001197936) (SSU05_0570) glycosyltransferase [Capsule 
+(VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+suis 05ZYH33]
+Length=385
+
+ Score = 48.1 bits (113),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 51/229 (22%), Positives = 103/229 (45%), Gaps = 27/229 (12%)
+
+Query  137  VSKLYGHF-DRVLAPSRVMAEKLMR---LGVADVHVQPLGVDLVTFHPSNRDPGLRQELG  192
+            ++ L G F D+++  S+ +A  + +   +    + V   GVD   ++ S+    +R+   
+Sbjct  138  INFLMGRFADKIVTVSQAVANHIKQSPHIKDDQISVIYNGVDNKVYYQSDAR-SVRERFD  196
+
+Query  193  LDEETRLLVFAGRGSREKNLPVLLDAIQRL-----------------GDGYHLLLVGSNM  235
+            +DEE  ++   GR +  K     L+A+  +                 G+ + ++ +   +
+Sbjct  197  IDEEALVIGMVGRVNAWKGQGDFLEAVAPILEQNPKAIAFIAGSAFEGEEWRVVELEKKI  256
+
+Query  236  PT-RVPRNTSVVDHFCDSREVARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAG  294
+               +V      +D++ ++ E+  +      +L + + +    V LEAMA G PVV  R G
+Sbjct  257  SQLKVSSQVRRIDYYANTTELYNMF--DIFVLPSTNPDPLPTVVLEAMACGKPVVGYRHG  314
+
+Query  295  ALAEIVPERC-GVLCAPNNGDAMACAVRELFSHDVELRGQRARRHVERQ  342
+             + E+V E   G L  PN+   ++  + +L S ++ LR +     +ERQ
+Sbjct  315  GVCEMVKEGVNGFLVTPNSPLNLSKVILQL-SENINLRKKIGNNSIERQ  362
+
+
+>VFG005960(gb|YP_001200133) (SSU98_0575) glycosyltransferase [Capsule 
+(VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+suis 98HAH33]
+Length=385
+
+ Score = 48.1 bits (113),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 51/229 (22%), Positives = 103/229 (45%), Gaps = 27/229 (12%)
+
+Query  137  VSKLYGHF-DRVLAPSRVMAEKLMR---LGVADVHVQPLGVDLVTFHPSNRDPGLRQELG  192
+            ++ L G F D+++  S+ +A  + +   +    + V   GVD   ++ S+    +R+   
+Sbjct  138  INFLMGRFADKIVTVSQAVANHIKQSPHIKDDQISVIYNGVDNKVYYQSDAR-SVRERFD  196
+
+Query  193  LDEETRLLVFAGRGSREKNLPVLLDAIQRL-----------------GDGYHLLLVGSNM  235
+            +DEE  ++   GR +  K     L+A+  +                 G+ + ++ +   +
+Sbjct  197  IDEEALVIGMVGRVNAWKGQGDFLEAVAPILEQNPKAIAFIAGSAFEGEEWRVVELEKKI  256
+
+Query  236  PT-RVPRNTSVVDHFCDSREVARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAG  294
+               +V      +D++ ++ E+  +      +L + + +    V LEAMA G PVV  R G
+Sbjct  257  SQLKVSSQVRRIDYYANTTELYNMF--DIFVLPSTNPDPLPTVVLEAMACGKPVVGYRHG  314
+
+Query  295  ALAEIVPERC-GVLCAPNNGDAMACAVRELFSHDVELRGQRARRHVERQ  342
+             + E+V E   G L  PN+   ++  + +L S ++ LR +     +ERQ
+Sbjct  315  GVCEMVKEGVNGFLVTPNSPLNLSKVILQL-SENINLRKKIGNNSIERQ  362
+
+
+>VFG000139(gb|NP_253697) (waaG) B-band O-antigen polymerase [LPS 
+(VF0085) - Immune modulation (VFC0258)] [Pseudomonas aeruginosa 
+PAO1]
+Length=373
+
+ Score = 47.4 bits (111),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 72/272 (26%), Positives = 102/272 (38%), Gaps = 42/272 (15%)
+
+Query  93   LTAWAALDARRRLDVPVIGFYHSDLP-LLVSNRMGAWLGTNADNYVSKLY---GHFDRVL  148
+             TAW   D  RR    VIGF  + +P L V     A     A    + LY   G +    
+Sbjct  68   FTAWVRADLDRRPVQRVIGF--NKMPGLDVYYAADACFEEKAQTLRNPLYRQWGRYRHFA  125
+
+Query  149  APSRVM---AEKLMRLGVADVHVQPL-----GVDLVTFH-------PSNRDPG-------  186
+               R +   A K   L +++V  QPL     G     FH          R P        
+Sbjct  126  GYERAVFDPASKTEILMISEVQ-QPLFVKHYGTQAERFHLLPPGISQDRRAPANAADVRA  184
+
+Query  187  -LRQELGLDEETRLLVFAGRGSREKNLPVLLDAIQRLGDGYH----LLLVGSNMPTRVPR  241
+              R+E GL+E+  LLV  G G + K L   L A+  L         L+ +G + P     
+Sbjct  185  EFRREFGLEEDDLLLVQIGSGFKTKGLDRSLKALSALPKALRRRTRLIAIGQDDPKPFLL  244
+
+Query  242  NTSV------VDHFCDSREVARLLASSDALLHAGDQETFGLVALEAMASGIPVVAVRAGA  295
+              +       V       ++ R L  +D L+H    E  G V LEA+ SG+PV+      
+Sbjct  245  QIAALGLNDQVQILKGRSDIPRFLLGADLLIHPAYNENTGTVLLEALVSGLPVLVTDVCG  304
+
+Query  296  LAEIVPERCG--VLCAPNNGDAMACAVRELFS  325
+             A  + E     VL +P   D++   + E+  
+Sbjct  305  YAHYIAEADAGRVLPSPFEQDSLNRLLAEMLE  336
+
+
+>VFG052336(gb|WP_011181009.1) (lpcC) glycosyltransferase family 
+4 protein [LPS (VF0370) - Immune modulation (VFC0258)] [Bartonella 
+henselae str. Houston-1]
+Length=352
+
+ Score = 47.0 bits (110),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 33/95 (35%), Positives = 44/95 (46%), Gaps = 4/95 (4%)
+
+Query  272  ETFGLVALEAMASGIPVVAVRAGALAEIVPERCGVLCAPNNGDAMACAVRELFSHDVELR  331
+            E FGL  LEAMAS   VVA  AGA  E+V E  G +    +G A+  A+   F+ D+E  
+Sbjct  257  EGFGLTPLEAMASQTAVVASDAGAYKELVVEGTGTIVQAGDGGALTAAIEPYFA-DLEKT  315
+
+Query  332  ---GQRARRHVERQHAWDAVVAGLLLHYHAVLGDS  363
+               G++A  HV      +   A +   Y  V    
+Sbjct  316  MAAGEKALAHVRTHFPLEKEAAAIRNVYETVFAQK  350
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.140    0.436    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2809494911
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

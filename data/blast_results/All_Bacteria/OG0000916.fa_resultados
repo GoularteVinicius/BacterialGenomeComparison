@@ -1,0 +1,2254 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g882.t1
+
+Length=399
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG018674(gb|WP_008809635) (SGO_RS08445) undecaprenyl/decaprenyl-...  159     9e-45
+VFG005841(gb|WP_002262748) (SMU_RS01255) rhamnose-glucose polysac...  140     1e-37
+VFG013510(gb|WP_011961857) (wecA) undecaprenyl-phosphate alpha-N-...  101     6e-24
+VFG013509(gb|WP_005688044) (wecA) undecaprenyl-phosphate alpha-N-...  101     7e-24
+VFG013512(gb|WP_041603568) (wecA) undecaprenyl-phosphate alpha-N-...  100     1e-23
+VFG013508(gb|WP_005694200) (wecA) undecaprenyl-phosphate alpha-N-...  100     2e-23
+VFG045310(gb|WP_010946499) (LPG_RS03780) glycosyltransferase fami...  90.9    3e-20
+VFG014113(gb|NP_251835) (wbpL) glycosyltransferase WbpL [LPS (VF0...  88.2    2e-19
+VFG023798(gb|WP_005179818) (YE105_RS06215) glycosyltransferase fa...  87.4    5e-19
+VFG007632(gb|WP_005417117) (wecA) UDP-N-acetylglucosamine--undeca...  84.7    6e-18
+VFG014146(gb|WP_003138482) (PA14_RS09495) glycosyltransferase fam...  82.8    2e-17
+VFG038060(gb|WP_000262379) (AB57_RS00525) glycosyltransferase fam...  80.9    8e-17
+VFG038134(gb|WP_020752682) (BJAB0715_RS00565) glycosyltransferase...  79.0    3e-16
+VFG037949(gb|WP_001100755) (ABTJ_RS18520) glycosyltransferase fam...  77.8    9e-16
+VFG014134(gb|WP_003150897) (PSPA7_RS09490) glycosyltransferase fa...  68.2    1e-12
+VFG019789(gb|WP_003452706) (PLES_RS09935) glycosyltransferase fam...  55.1    3e-08
+VFG019316(gb|WP_004686563) (wbpL) undecaprenyl-phosphate alpha-N-...  49.3    2e-06
+VFG011519(gb|WP_002963669) (wbpL) undecaprenyl-phosphate alpha-N-...  48.9    2e-06
+VFG011521(gb|WP_002968712) (wbpL) undecaprenyl-phosphate alpha-N-...  48.9    2e-06
+
+
+>VFG018674(gb|WP_008809635) (SGO_RS08445) undecaprenyl/decaprenyl-phosphate 
+alpha-N-acetylglucosaminyl 1-phosphate transferase 
+[Capsule (VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+gordonii str. Challis substr. CH1]
+Length=388
+
+ Score = 159 bits (402),  Expect = 9e-45, Method: Compositional matrix adjust.
+ Identities = 108/307 (35%), Positives = 168/307 (55%), Gaps = 21/307 (7%)
+
+Query  49   TGLVGVLANRLEAVAYPRERDVHVTPTPRMGGLAMYLG--VLAAVFLASQLPALTRGFVY  106
+            T LV +LA +++AV YP  R ++  P P  GGLA+ +   + + + + + +    RG  Y
+Sbjct  25   TPLVRILAFKIDAVDYPNARRINKKPMPSAGGLAVVIAFSITSLIMMPTIVQVTFRGETY  84
+
+Query  107  SSGMPAVLVAGAVITGIGLIDDRWGLDALTKFAGQITAASVLVTM-GVAWSVLYIPLGGV  165
+               +  V++ G V+   GLIDD   L  L K  G + AAS++  +     +   IP GG 
+Sbjct  85   FDYIWPVVLGGGVVALTGLIDDVKELSPLPKLLGIVVAASLIWLLTDFRLNDFKIPFGG-  143
+
+Query  166  GTIVLDQTSSILLTLALTVSIVNAINFVDGLDGLAAGLGLITAMAICIFSVGLLRDHDGD  225
+              +      S +LTL   VSI NA+N +DGLDGL +G+ +I+ + + + S   L DH+  
+Sbjct  144  PHLFFPPWLSFILTLIWIVSITNAVNLMDGLDGLVSGVSIISLLTMGVVSYFFLPDHN--  201
+
+Query  226  VLFYPPAVISVVLAGSCLGFLPHNFHRAKIFMGDSGSMLVGLMLAAASTTAAGPISQNAY  285
+             LF    +   VL  S  GF P+N+H A I+ GD+G++ +G M++  S        +NA 
+Sbjct  202  -LFLTLTIF--VLVASIAGFFPYNYHPAIIYGGDTGALFIGFMISVLSLQGL----KNAT  254
+
+Query  286  GTRDVFALLSPFLLVVAVMFVPMLDLLLAIVRRIRAGRSAFSPDKMHLHHRLLQIGHSHR  345
+                  A+++P +    ++ VP+ D  LAIVRR  +G+  + PD+ HLHHRLL +G +HR
+Sbjct  255  AV----AVVTPMI----ILGVPIADTFLAIVRRTLSGQKFYQPDRNHLHHRLLSLGLTHR  306
+
+Query  346  RVVLLIY  352
+              VL+IY
+Sbjct  307  GTVLVIY  313
+
+
+>VFG005841(gb|WP_002262748) (SMU_RS01255) rhamnose-glucose polysaccharide 
+biosynthesis protein RgpB [Capsule (VF0144) - Immune 
+modulation (VFC0258)] [Streptococcus mutans UA159]
+Length=386
+
+ Score = 140 bits (352),  Expect = 1e-37, Method: Compositional matrix adjust.
+ Identities = 102/326 (31%), Positives = 167/326 (51%), Gaps = 28/326 (9%)
+
+Query  49   TGLVGVLANRLEAVAYPRERDVHVTPTPRMGGLAMYLGVLAAVFLASQLPALTR----GF  104
+            T LV   A R+ AV  P  R ++  P P  GGLA+ +  + A    + +P + +    G 
+Sbjct  23   TPLVRFFAFRVGAVDNPNARRINKVPMPSAGGLAIIISFVIATL--ALMPMILKTQIGGK  80
+
+Query  105  VYSSGMPAVLVAGAVITGIGLIDDRWGLDALTKFAGQITAASVL-VTMGVAWSVLYIPLG  163
+             Y   +  V++   VI   G IDD + L    KF G +  A ++ +     +    IP G
+Sbjct  81   SYFEYILPVVLGALVIALTGFIDDVYELSPKIKFLGILLGAVIIWIFTDFRFDSFKIPFG  140
+
+Query  164  GVGTIVLDQTSSILLTLALTVSIVNAINFVDGLDGLAAGLGLITAMAICIFSVGLLRDHD  223
+            G   +  +   S  LT+   V+I NA+N +DGLDGL +G+ +I+   + + S   L D D
+Sbjct  141  G-PMLHFNPFLSFFLTILWVVAITNAVNLIDGLDGLVSGVSMISLTTMGLVSYFFLYDTD  199
+
+Query  224  GDVLFYPPAVISVVLAGSCLGFLPHNFHRAKIFMGDSGSMLVGLMLAAASTTAAGPISQN  283
+               +F    +  ++ A    GF P+N+H A I++GD+G++ +G M++  S        +N
+Sbjct  200  ---IFLTLTIFVLIFA--IAGFFPYNYHPAIIYLGDTGALFIGFMISVLSLQGL----KN  250
+
+Query  284  AYGTRDVFALLSPFLLVVAVMFVPMLDLLLAIVRRIRAGRSAFSPDKMHLHHRLLQIGHS  343
+            A       A+++P    + V+ VP++D  +AI+RR  +G+  +  D MHLHHRLL +G +
+Sbjct  251  ATAV----AVVTP----IIVLGVPIVDTTVAIIRRTLSGQKFYEADNMHLHHRLLAMGFT  302
+
+Query  344  HRRVVLLIYLWVGIVAFGAASTIFFN  369
+            HR  VL++Y   GI  F +  ++  N
+Sbjct  303  HRGAVLVVY---GIAMFFSLVSLLLN  325
+
+
+>VFG013510(gb|WP_011961857) (wecA) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LOS (VF0044) - Immune modulation 
+(VFC0258)] [Haemophilus influenzae PittEE]
+Length=355
+
+ Score = 101 bits (252),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 86/303 (28%), Positives = 151/303 (50%), Gaps = 36/303 (12%)
+
+Query  55   LANRLEAVAYPRERDVHVTPTPRMGGLAMYLGVLAAVFLASQLPALTRGFVYSSGMPAVL  114
+            LAN +  V  P  R  H    P +GG+++++G L    +      L   +++S       
+Sbjct  21   LANWIGLVDKPNYRKRHQGAIPLIGGVSLFIGNLCYYLMEWDQLRLPYLYLFSI------  74
+
+Query  115  VAGAVITGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYIPLGGV-GTIVLDQT  173
+                V+  IG++DDR+ +    +   Q   A +++ +G   ++    LG + G   L   
+Sbjct  75   ---FVLLAIGILDDRFDISPFLRAGIQAILAILMIDLG---NIYLDHLGQILGPFQLTLG  128
+
+Query  174  S-SILLTLALTVSIVNAINFVDGLDGLAAGLGLITAMAICIFSVGLLRDHDGDVLFYPPA  232
+            S  +++T+  T++I+NA N +DG+DGL  GL  ++  AI I    + RD   D+  +  A
+Sbjct  129  SIGLIITVFATIAIINAFNMIDGIDGLLGGLSCVSFAAIGIL---MYRDGQMDMAHWSFA  185
+
+Query  233  VISVVLAGSCLGF-LPHNFHRAKIFMGDSGSMLVG---LMLAAASTTAAGPISQNAYGTR  288
+            +I  +L    L   +P    + K+FMGD+GS L+G   + +   ST   G      +   
+Sbjct  186  LIVSILPYLMLNLGIPFG-PKYKVFMGDAGSTLIGFTIIWILLLSTQGKG------HPMN  238
+
+Query  289  DVFALLSPFLLVVAVMFVPMLDLLLAIVRRIRAGRSAFSPDKMHLHHRLLQIGHSHRRVV  348
+             V AL         ++ +P++D++  I RR+R G+S F PD++H+HH +++ G + R+  
+Sbjct  239  PVTALW--------IIAIPLIDMVAIIYRRVRKGKSPFRPDRLHVHHLMVRAGLTSRQAF  290
+
+Query  349  LLI  351
+            LLI
+Sbjct  291  LLI  293
+
+
+>VFG013509(gb|WP_005688044) (wecA) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LOS (VF0044) - Immune modulation 
+(VFC0258)] [Haemophilus influenzae 86-028NP]
+Length=355
+
+ Score = 101 bits (251),  Expect = 7e-24, Method: Compositional matrix adjust.
+ Identities = 86/303 (28%), Positives = 151/303 (50%), Gaps = 36/303 (12%)
+
+Query  55   LANRLEAVAYPRERDVHVTPTPRMGGLAMYLGVLAAVFLASQLPALTRGFVYSSGMPAVL  114
+            LAN +  V  P  R  H    P +GG+++++G L    +      L   +++S       
+Sbjct  21   LANWIGLVDKPNYRKRHQGTIPLIGGVSLFVGNLCYYLMEWDQLRLPYLYLFSI------  74
+
+Query  115  VAGAVITGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYIPLGGV-GTIVLDQT  173
+                V+  IG++DDR+ +    +   Q   A +++ +G   ++    LG + G   L   
+Sbjct  75   ---FVLLAIGILDDRFDISPFLRAGIQAILAILMIDLG---NIYLDHLGQILGPFQLTLG  128
+
+Query  174  S-SILLTLALTVSIVNAINFVDGLDGLAAGLGLITAMAICIFSVGLLRDHDGDVLFYPPA  232
+            S  +++T+  T++I+NA N +DG+DGL  GL  ++  AI I    + RD   D+  +  A
+Sbjct  129  SIGLIITVFATIAIINAFNMIDGIDGLLGGLSCVSFAAIGIL---MYRDGQMDMAHWSFA  185
+
+Query  233  VISVVLAGSCLGF-LPHNFHRAKIFMGDSGSMLVG---LMLAAASTTAAGPISQNAYGTR  288
+            +I  +L    L   +P    + K+FMGD+GS L+G   + +   ST   G      +   
+Sbjct  186  LIVSILPYLMLNLGIPFG-PKYKVFMGDAGSTLIGFTIIWILLLSTQGKG------HPMN  238
+
+Query  289  DVFALLSPFLLVVAVMFVPMLDLLLAIVRRIRAGRSAFSPDKMHLHHRLLQIGHSHRRVV  348
+             V AL         ++ +P++D++  I RR+R G+S F PD++H+HH +++ G + R+  
+Sbjct  239  PVTALW--------IIAIPLIDMVAIIYRRVRKGKSPFRPDRLHVHHLMVRAGLTSRQAF  290
+
+Query  349  LLI  351
+            LLI
+Sbjct  291  LLI  293
+
+
+>VFG013512(gb|WP_041603568) (wecA) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LOS (VF0044) - Immune modulation 
+(VFC0258)] [Haemophilus ducreyi 35000HP]
+Length=354
+
+ Score = 100 bits (250),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 92/324 (28%), Positives = 158/324 (49%), Gaps = 52/324 (16%)
+
+Query  43   IITYFATGLVGVLANRLEAVAYPRERDVHVTPTPRMGGLAMYLGVLAAVFLASQ---LPA  99
+            I+++ +  L+  +A ++  +  P  R  H    P +GG+A++LG L   F+  Q   LP 
+Sbjct  10   IVSFASLILMRPVAEKIGLIDKPNYRKRHQGLIPLIGGIALFLGNLTFYFIEWQDMRLPW  69
+
+Query  100  LTRGFVYSSGMPAVLVAGAVITGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVL-  158
+            L             L A  V+  IGL+DDR+ +    +   Q   A +++  G++   L 
+Sbjct  70   L------------YLTAVTVLLVIGLLDDRFDVSPFLRIGLQAGLAGLMIYHGLSLESLG  117
+
+Query  159  ------YIPLGGVGTIVLDQTSSILLTLALTVSIVNAINFVDGLDGLAAGLGLITAMAIC  212
+                   I LG +GT+          T+ +T+ ++NA N VDG+DGL AGL   ++ +  
+Sbjct  118  QVIAPFSIKLGILGTV---------FTILITIGVINAFNMVDGIDGLLAGL---SSASFA  165
+
+Query  213  IFSVGLLRDHDGDVLFYPPAVISVVLAGSCLGFLPHNFHRAKIFMGDSGSMLVG---LML  269
+               V +  D    + ++  A+I VVL    +  L     + K+FMGDSGS L+G   + +
+Sbjct  166  GIGVLMWLDEQYSLAYWCFALI-VVLIPYAMFNLSLLGAKWKVFMGDSGSTLIGFTIIWI  224
+
+Query  270  AAASTTAAGPISQNAYGTRDVFALLSPFLLVVAVMFVPMLDLLLAIVRRIRAGRSAFSPD  329
+               ST   G       G           L ++AV   P++D++  ++RR++ G+S F PD
+Sbjct  225  LLLSTQGQGHAISPITG-----------LWLIAV---PLIDMVAVVLRRLKKGKSPFRPD  270
+
+Query  330  KMHLHHRLLQIGHSHRRVVLLIYL  353
+            ++HLHH +++ G + R+ + +I L
+Sbjct  271  RLHLHHLMMRAGLTSRQALAVITL  294
+
+
+>VFG013508(gb|WP_005694200) (wecA) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LOS (VF0044) - Immune modulation 
+(VFC0258)] [Haemophilus influenzae Rd KW20]
+Length=355
+
+ Score = 100 bits (249),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 86/303 (28%), Positives = 150/303 (50%), Gaps = 36/303 (12%)
+
+Query  55   LANRLEAVAYPRERDVHVTPTPRMGGLAMYLGVLAAVFLASQLPALTRGFVYSSGMPAVL  114
+            LAN +  V  P  R  H    P +GG ++++G L    +      L   +++S       
+Sbjct  21   LANWIGLVDKPNYRKRHQGTIPLIGGASLFVGNLCYYLMEWDQLRLPYLYLFSI------  74
+
+Query  115  VAGAVITGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYIPLGGV-GTIVLDQT  173
+                V+  IG++DDR+ +    +   Q   A +++ +G   ++    LG + G   L   
+Sbjct  75   ---FVLLAIGILDDRFDISPFLRAGIQAILAILMIDLG---NIYLDHLGQILGPFQLTLG  128
+
+Query  174  S-SILLTLALTVSIVNAINFVDGLDGLAAGLGLITAMAICIFSVGLLRDHDGDVLFYPPA  232
+            S  +++T+  T++I+NA N +DG+DGL  GL  ++  AI I    + RD   D+  +  A
+Sbjct  129  SIGLIITVFATIAIINAFNMIDGIDGLLGGLSCVSFAAIGIL---MYRDGQMDMAHWSFA  185
+
+Query  233  VISVVLAGSCLGF-LPHNFHRAKIFMGDSGSMLVG---LMLAAASTTAAGPISQNAYGTR  288
+            +I  +L    L   +P    + K+FMGD+GS L+G   + +   ST   G      +   
+Sbjct  186  LIVSILPYLMLNLGIPFG-PKYKVFMGDAGSTLIGFTIIWILLLSTQGKG------HPMN  238
+
+Query  289  DVFALLSPFLLVVAVMFVPMLDLLLAIVRRIRAGRSAFSPDKMHLHHRLLQIGHSHRRVV  348
+             V AL         ++ +P++D++  I RR+R G+S F PD++H+HH +++ G + R+  
+Sbjct  239  PVTALW--------IIAIPLIDMVAIIYRRVRKGKSPFRPDRLHVHHLMVRAGLTSRQAF  290
+
+Query  349  LLI  351
+            LLI
+Sbjct  291  LLI  293
+
+
+>VFG045310(gb|WP_010946499) (LPG_RS03780) glycosyltransferase 
+family 4 protein [LPS (VF0171) - Immune modulation (VFC0258)] 
+[Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+Length=334
+
+ Score = 90.9 bits (224),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 90/306 (29%), Positives = 129/306 (42%), Gaps = 41/306 (13%)
+
+Query  49   TGLVGVLANRLEAVAYPRERDVHVTPTPRMGGLAMY-LGVLAAVFLASQLPALTRGFVYS  107
+            T L  + A   + +  P ER++H  PT R GGL    L +    F+ +        F  +
+Sbjct  17   TKLFALFAQHTKLIDIPNERNLHSRPTVRGGGLVFIGLSLFCWFFICNS------QFFLT  70
+
+Query  108  SGMPAVLVAGAVITGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYIPLG-GVG  166
+                   +A   I  I  IDD + L    +F  Q   A ++V       +  +P     G
+Sbjct  71   LDQFIFSIAIIFIATISFIDDFYNLSVTIRFFFQCLIAFLIV-------IFILPSQLDFG  123
+
+Query  167  TIVLDQTSSILLTLALTV-SIVNAINFVDGLDGLAAG--LGLITAMAICIFSVGLLRDHD  223
+              + + T  I   L   V   +N  NF+DGLDG  A   + L+ A A+   S G L   D
+Sbjct  124  LFLFENTYLIAFFLFFAVIWAINHFNFMDGLDGFCASQAIFLLAAYALFFNSAGSLIYQD  183
+
+Query  224  GDVLFYPPAVISVVLAGSCLGFLPHNFHRAKIFMGDSGSMLVGLMLAAASTTAAGPISQN  283
+                        ++L  S  GFL  NF  AKIFMGD GS  +GL+     T     I+Q 
+Sbjct  184  ----------FCLILISSLAGFLIFNFPPAKIFMGDVGSASLGLI-----TFFIAIIAQK  228
+
+Query  284  AYGTRDVFALLSPFLLVVAVMFVPMLDLLLAIVRRIRAGRSAFSPDKMHLHHRLLQIGHS  343
+             Y       +L  F+L    +F    D  + ++RRI      FSP K H + RL Q+G +
+Sbjct  229  NYQI----PILYWFILNSLFLF----DSTVTLIRRIIKHEKWFSPHKKHAYQRLKQLGIN  280
+
+Query  344  HRRVVL  349
+             R ++L
+Sbjct  281  SRFILL  286
+
+
+>VFG014113(gb|NP_251835) (wbpL) glycosyltransferase WbpL [LPS 
+(VF0085) - Immune modulation (VFC0258)] [Pseudomonas aeruginosa 
+PAO1]
+Length=339
+
+ Score = 88.2 bits (217),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 86/300 (29%), Positives = 143/300 (48%), Gaps = 42/300 (14%)
+
+Query  55   LANRLEAVAYPRERDVHVTPTPRMGGLAMYLGVLAAVFLASQLPALTRGFVYSSGMPAVL  114
+            LA +L  V  P  R  H  PTPR GG+A+ L     VFLA+ +  L+ G +      A+L
+Sbjct  27   LATKLMDV--PNARSSHSQPTPRGGGVAIVL-----VFLAALVWMLSAGSISGGWGGAML  79
+
+Query  115  VAGAVITGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYIPLGGVGTIVLDQTS  174
+             AG+ +  +G +DD   + A  +  G  +AA  ++     W+  + PL  VG  V     
+Sbjct  80   GAGSGVALLGFLDDHGHIAARWRLLGHFSAAIWILL----WTGGFPPLDVVGHAVDLGWL  135
+
+Query  175  SILLTLALTVSIVNAINFVDGLDGLAAGLGLITAMAICIFSVGLLRDHDGDVLFYPPAVI  234
+              +L +   V ++N  NF+DG+DG+A+    + A+ +C+          G ++++    +
+Sbjct  136  GHVLAVFYLVWVLNLYNFMDGIDGIAS----VEAIGVCV---------GGALIYWLTGHV  182
+
+Query  235  SVV-----LAGSCLGFLPHNFHRAKIFMGDSGSMLVGLMLAAASTTAAGPISQNAYGTRD  289
+            ++V     LA +  GFL  NF  A+IFMGD+GS  +G+++ A +  AA            
+Sbjct  183  AMVGIPLLLACAVAGFLIWNFPPARIFMGDAGSGFLGMVIGALAIQAAWTAP--------  234
+
+Query  290  VFALLSPFLLVVAVMFVPMLDLLLAIVRRIRAGRSAFSPDKMHLHHRLLQIGHSHRRVVL  349
+              +L   +L+++ V  V   D    ++RRI  G   +   + H +    +   SH RV L
+Sbjct  235  --SLFWCWLILLGVFIV---DATYTLIRRIARGEKFYEAHRSHAYQFASRRYASHLRVTL  289
+
+
+>VFG023798(gb|WP_005179818) (YE105_RS06215) glycosyltransferase 
+family 4 protein [O-antigen (VF0392) - Immune modulation (VFC0258)] 
+[Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+Length=341
+
+ Score = 87.4 bits (215),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 84/284 (30%), Positives = 134/284 (47%), Gaps = 27/284 (10%)
+
+Query  49   TGLVGVLANRLEAVAYPRERDVHVTPTPRMGGLAMYLGVLAAVFLASQLPALTRGFVYSS  108
+            T L+ + A +   +  P  R  HVTPTPR GG+A+ +  L  + L   L     G++   
+Sbjct  19   TYLLRLYALKNNIIDTPNSRSSHVTPTPRGGGVAIVISFLIGIILFYFL-----GYLPIL  73
+
+Query  109  GMPAVLVAGAVITGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYIPLGGVGTI  168
+             +  ++V+G VI  +G  DD   + A  +     +AA+ L+     + VL +     G I
+Sbjct  74   SVVGLIVSGGVIALVGFWDDHGHIAARWRLLAHFSAAAFLLFCFGGFPVLNVS----GFI  129
+
+Query  169  VLDQTSSILLTLALTVSIVNAINFVDGLDGLAAGLGLITAMAICIFSVGLLRDHDGDVLF  228
+            +       L  L   V ++N  NF+DG+DGLA+      A+  CI  + +     GD + 
+Sbjct  130  IELGIFGSLFGLLFLVWMLNLYNFMDGIDGLASA----EAVTACIGMIAIYYI-SGDHIE  184
+
+Query  229  YPPAVISVVLAGSCLGFLPHNFHRAKIFMGDSGSMLVGLMLAAASTTAAGPISQNAYGTR  288
+                ++  +LA + LGFL  NF  AKIFMGD+GS  +GLM+ + +      IS     TR
+Sbjct  185  LNSFLVLWLLACTVLGFLLWNFPPAKIFMGDAGSGFLGLMIGSLA------ISAGWIDTR  238
+
+Query  289  DVFALLSPFLLVVAVMFVPMLDLLLAIVRRIRAGRSAFSPDKMH  332
+              F       L++  +F+  +D    +VRR+  G   +   + H
+Sbjct  239  FFFC-----WLILLGLFI--VDATWTLVRRVLGGFKVYEAHRSH  275
+
+
+>VFG007632(gb|WP_005417117) (wecA) UDP-N-acetylglucosamine--undecaprenyl-phosphate 
+N-acetylglucosaminephosphotransferase [Capsular 
+polysaccharide (VF0624) - Immune modulation (VFC0258)] 
+[Vibrio fischeri ES114]
+Length=363
+
+ Score = 84.7 bits (208),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 86/312 (28%), Positives = 140/312 (45%), Gaps = 34/312 (11%)
+
+Query  55   LANRLEAVAYPRERDVHVTPTPRMGGLAMYLGVLAAVFLASQLPALTRGFVYSSGMPAVL  114
+            +A R+  V  P ER  H    P +GG++++  +   + L   LP      +Y       L
+Sbjct  22   VAKRIGLVDKPNERKHHKGVIPLIGGISIFTTLCIGLLLF--LPVTETLLMY-------L  72
+
+Query  115  VAGAVITGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYIP-LGGVGTIVLDQT  173
+               AV+  +G  DD + +    +   Q T  S+++      S+  +  L G  TI+L   
+Sbjct  73   ACAAVLVVLGAFDDYFDVSFKIRLIVQ-TGISLVIIFAGGHSLHNLGFLMGSETIMLSSA  131
+
+Query  174  SSILLTLALTVSIVNAINFVDGLDGLAAGLGLIT--AMAICIFSVGLLRDHDGDVLFYPP  231
+             S  +T+   +  +NA N VDG+DGL  GL  +T  A+A   +  G       D L +  
+Sbjct  132  VSGFITILGVIGAINAFNMVDGIDGLLGGLASVTFAALATVFYYSG------NDYLAHVC  185
+
+Query  232  AVISVVLAGSC---LGFLPHNFHRAKIFMGDSGSMLVGLMLAAASTTAAGPISQNAYGTR  288
+             +I + +       LGF P    R K+FMGD+GSM +G  +       +   +  A+   
+Sbjct  186  GLIVIAMVPYIMLNLGF-PLG-RRFKVFMGDAGSMFIGFTVVWMLIRGSQEPAVIAFKPV  243
+
+Query  289  DVFALLSPFLLVVAVMFVPMLDLLLAIVRRIRAGRSAFSPDKMHLHHRLLQIGHSHRRVV  348
+                L++          +P++D+   ++RR+R G+S F PD+ HLHH   ++G S    +
+Sbjct  244  TALWLIA----------IPLMDMATIMIRRVRKGQSPFKPDREHLHHICQRLGLSSYMTL  293
+
+Query  349  LLIYLWVGIVAF  360
+             LI     I AF
+Sbjct  294  FLICTVALICAF  305
+
+
+>VFG014146(gb|WP_003138482) (PA14_RS09495) glycosyltransferase 
+family 4 protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa UCBPP-PA14]
+Length=338
+
+ Score = 82.8 bits (203),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 80/281 (28%), Positives = 133/281 (47%), Gaps = 50/281 (18%)
+
+Query  65   PRERDVHVTPTPRMGGLAMYLGVLAAVFLASQLPALTRGFVYSSGMPAVLVAGAVITGIG  124
+            P  R  H  PTPR GG+A+ +  L  + + + L  ++  + +     A+L AG  I  +G
+Sbjct  34   PNARSSHSVPTPRGGGVAIVMSFLLVLLILAALGQVSWDYTW-----ALLGAGIGIAVLG  88
+
+Query  125  LIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYI----PLGGVGTIV-LDQTSSILLT  179
+             +DD   + A  +  G   AA        AW + +I    PL   G  + L    S+L  
+Sbjct  89   FLDDHGHIAARWRLLGHFLAA--------AWGLFWIGGLPPLTVFGFFLDLGLLGSVLAA  140
+
+Query  180  LALTVSIVNAINFVDGLDGLAAGLGLITAMAICIFSVGLLRDHDGDVLF-----YPPAVI  234
+              L V ++N  NF+DG+DG+A+    + A+++C+          G +LF     +  A +
+Sbjct  141  FYL-VWLLNLYNFMDGIDGIAS----VEAISVCL---------GGALLFLFVGEFKVAQV  186
+
+Query  235  SVVLAGSCLGFLPHNFHRAKIFMGDSGSMLVGLMLAAASTTAAGPISQNAYGTRDVFALL  294
+            ++VLA + +GFL  NF  A+IFMGD+GS  +G++L   S  AA    Q          LL
+Sbjct  187  TLVLAAAVMGFLFWNFPSARIFMGDAGSGFLGIVLGIQSLQAAWIAPQ----------LL  236
+
+Query  295  SPFLLVVAVMFVPMLDLLLAIVRRIRAGRSAFSPDKMHLHH  335
+              +++++ V  V   D    ++RR+  G   +   + H + 
+Sbjct  237  WSWIILLGVFIV---DATFTLLRRLIRGEKVYEAHRSHAYQ  274
+
+
+>VFG038060(gb|WP_000262379) (AB57_RS00525) glycosyltransferase 
+family 4 protein [Capsule (VF0465) - Immune modulation (VFC0258)] 
+[Acinetobacter baumannii AB0057]
+Length=335
+
+ Score = 80.9 bits (198),  Expect = 8e-17, Method: Compositional matrix adjust.
+ Identities = 77/313 (25%), Positives = 142/313 (45%), Gaps = 43/313 (14%)
+
+Query  43   IITYFATGLVGVLANRLEAVAYPRERDVHVTPTPRMGGLAMYLGVLAAVFLASQLPALTR  102
+            ++++  T L+ + A +   +  P ER  H  PTPR GG+A+ +      +L S    +  
+Sbjct  9    VLSFVLTYLMRMYALKKNIIDSPNERSSHTMPTPRGGGVAVVIS-----YLLSLAGLIYL  63
+
+Query  103  GFVYSSGMPAVLVAGAVITGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYIPL  162
+            G++  S    V+VAG +I  +G +DD   ++AL + A        +V +GV      + L
+Sbjct  64   GYLTPSIGIIVIVAGFIIALLGFLDDHGHINALVRLA-----IHFMVAIGVV-----VAL  113
+
+Query  163  GGVGTIV------LDQTSSILLTLALTVSIVNAINFVDGLDGLAAGLGLITAMAICIFSV  216
+            GG   +       L   ++I+  L L V ++N  NF+DG++G+A+   + + +++ +   
+Sbjct  114  GGFTEVTIFNGLQLGFVANIIAVLFL-VWLLNLYNFMDGINGIASIEAITSVLSMALIYW  172
+
+Query  217  GLLRDHDGDVLFYPPAVISVVLAGSCLGFLPHNFHRAKIFMGDSGSMLVGLMLAAASTTA  276
+             L    +  VL         ++A +  GF+  NF +AKIFMGD+ S  +GL+L   +   
+Sbjct  173  VLNSTLNSQVL--------SLMAATVFGFMLWNFPKAKIFMGDACSGFLGLVLGIWAL--  222
+
+Query  277  AGPISQNAYGTRDVFALLSPFLLVVAVMFVPMLDLLLAIVRRIRAGRSAFSPDKMHLHHR  336
+                    Y  +        +++ + V  V   D    ++RR+  G   +   + H +  
+Sbjct  223  --------YALKQDIGFFCAWIICLGVFIV---DATFTLIRRVLNGHKMYDAHRSHAYQY  271
+
+Query  337  LLQIGHSHRRVVL  349
+              +   SH +  L
+Sbjct  272  ASRKYQSHTKATL  284
+
+
+>VFG038134(gb|WP_020752682) (BJAB0715_RS00565) glycosyltransferase 
+family 4 protein [Capsule (VF0465) - Immune modulation 
+(VFC0258)] [Acinetobacter baumannii BJAB0715]
+Length=336
+
+ Score = 79.0 bits (193),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 80/299 (27%), Positives = 134/299 (45%), Gaps = 47/299 (16%)
+
+Query  58   RLEAVAYPRERDVHVTPTPRMGGLAMYLGVLAAVFLA--SQLPALTRGFVYSSGMPAVLV  115
+            R   +  P  R  HV PTPR GG+A+ + VL A+  +  SQ  +L   F+   G   +L+
+Sbjct  27   RKNIIDLPNFRSSHVKPTPRGGGVAIVISVLMALLYSYISQFISLNDFFII--GGSCLLI  84
+
+Query  116  AGAVITGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYIPLGGVGTIVLDQTSS  175
+            A      +G  DD   ++++ + +     A+ +V          + L G   + +    +
+Sbjct  85   AL-----LGFCDDHAHINSMLRLSIHFITATFIV----------VSLDGFAQVTVFNNLN  129
+
+Query  176  I-----LLTLALTVSIVNAINFVDGLDGLAAGLGLITAMAICIFSVGLLRDHDGDVLFYP  230
+            +     +L +   V ++N  NF+DG++G+A+    I A+++ + S+ LL        F  
+Sbjct  130  LGFFTNILAILFLVWLLNLYNFMDGINGIAS----IEAISVGL-SLALLYSWYDINNFIL  184
+
+Query  231  PAVISVVLAGSCLGFLPHNFHRAKIFMGDSGSMLVGLMLAAASTTAAGPISQNAYGTRDV  290
+             A+ S+V    C GFL  NF +AKIFMGD GS  +G + A  +           Y  +  
+Sbjct  185  LAITSIV----C-GFLLWNFPKAKIFMGDVGSSFLGFLFAVLAL----------YALKID  229
+
+Query  291  FALLSPFLLVVAVMFVPMLDLLLAIVRRIRAGRSAFSPDKMHLHHRLLQIGHSHRRVVL  349
+            F L   +++ + V  V   D    I+RRI  G   +   + H +    +   SH  V L
+Sbjct  230  FKLFLAWIICLGVFIV---DATFTIIRRILRGEKIYQAHRSHAYQYAARYFDSHTPVTL  285
+
+
+>VFG037949(gb|WP_001100755) (ABTJ_RS18520) glycosyltransferase 
+family 4 protein [Capsule (VF0465) - Immune modulation (VFC0258)] 
+[Acinetobacter baumannii MDR-TJ]
+Length=336
+
+ Score = 77.8 bits (190),  Expect = 9e-16, Method: Compositional matrix adjust.
+ Identities = 80/299 (27%), Positives = 133/299 (44%), Gaps = 47/299 (16%)
+
+Query  58   RLEAVAYPRERDVHVTPTPRMGGLAMYLGVLAAVFLA--SQLPALTRGFVYSSGMPAVLV  115
+            R   +  P  R  HV PTPR GG+A+ + VL A+  +  SQ  +L   F+   G   +L+
+Sbjct  27   RKNIIDLPNFRSSHVKPTPRGGGVAIVISVLMALLYSYISQFISLNDFFII--GGSCLLI  84
+
+Query  116  AGAVITGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYIPLGGVGTIVLDQTSS  175
+            A      +G  DD   ++++ + +     A+ +V            L G   + +    +
+Sbjct  85   AL-----LGFCDDHAHINSMLRLSIHFITATFIV----------FSLDGFAQVSVFNNLN  129
+
+Query  176  I-----LLTLALTVSIVNAINFVDGLDGLAAGLGLITAMAICIFSVGLLRDHDGDVLFYP  230
+            +     +L +   V ++N  NF+DG++G+A+    I A+++ + S+ LL        F  
+Sbjct  130  LGFFTNILAILFLVWLLNLYNFMDGINGIAS----IEAISVGL-SLALLYSWYDINNFIL  184
+
+Query  231  PAVISVVLAGSCLGFLPHNFHRAKIFMGDSGSMLVGLMLAAASTTAAGPISQNAYGTRDV  290
+             A+ S+V    C GFL  NF +AKIFMGD GS  +G + A  +           Y  +  
+Sbjct  185  LAITSIV----C-GFLVWNFPKAKIFMGDVGSSFLGFLFAVLAL----------YALKID  229
+
+Query  291  FALLSPFLLVVAVMFVPMLDLLLAIVRRIRAGRSAFSPDKMHLHHRLLQIGHSHRRVVL  349
+            F L   +++ + V  V   D    I+RRI  G   +   + H +    +   SH  V L
+Sbjct  230  FKLFLAWIICLGVFIV---DATFTIIRRILRGEKIYQAHRSHAYQYAARYFDSHTPVTL  285
+
+
+>VFG014134(gb|WP_003150897) (PSPA7_RS09490) glycosyltransferase 
+family 4 protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PA7]
+Length=339
+
+ Score = 68.2 bits (165),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 74/241 (31%), Positives = 104/241 (43%), Gaps = 38/241 (16%)
+
+Query  48   ATGLVGVLANRLEAVAY-----PRERDVHVTPTPRMGGLAMYLGVLAAVFLASQLPALT-  101
+            + GL GVL  R  A++      P  R  H  PTPR GG+A+ L  L  VF       L  
+Sbjct  14   SAGLTGVL--RFYAISKKVMDIPNARSSHTVPTPRGGGVAIVLTFLLVVFFLPLFSILEW  71
+
+Query  102  RGFVYSSGMPAVLVAGAVITGIGLIDDRWGLDALTKFAGQITAASVLV------TMGVAW  155
+            R  +        +     +   G +  RW L  L  F   + +  +L        +G  W
+Sbjct  72   RQALLFLLGGGGVALLGFLDDHGHVAARWRL--LGHFMAALVSLFLLTGVPPFKLLGYQW  129
+
+Query  156  SVLYIPLGGVGTIVLDQTSSILLTLALTVSIVNAINFVDGLDGLAAGLGLITAMAICIFS  215
+                  LG VG +         L     V ++N  NF+DG+DGLA+    + A+ +C+  
+Sbjct  130  D-----LGWVGVV---------LFAFYLVWLLNLYNFMDGIDGLAS----LEAIFVCVGG  171
+
+Query  216  VGLLRDHDGDVLFYPPAVISVVLAGSCLGFLPHNFHRAKIFMGDSGSMLVGLMLAAASTT  275
+              +   +D      PP    ++LA + LGFL  NF  AKIFMGD+GS  +GL L   S  
+Sbjct  172  ALVYWMNDKAAFSLPP----LLLAFAVLGFLFWNFPPAKIFMGDAGSGFLGLTLGVLSIQ  227
+
+Query  276  A  276
+            A
+Sbjct  228  A  228
+
+
+>VFG019789(gb|WP_003452706) (PLES_RS09935) glycosyltransferase 
+family 4 protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa LESB58]
+Length=345
+
+ Score = 55.1 bits (131),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 72/237 (30%), Positives = 109/237 (46%), Gaps = 42/237 (18%)
+
+Query  65   PRERDVHVTPTPRMGGLAMYLGVLAAVFLASQL----PALTRGFVYSSGMPAVLVAGAVI  120
+            P  R  H  PTPR GG+A+ L  L AV LA+ L    P L  G         +L AG  I
+Sbjct  34   PNARSSHQVPTPRGGGVAIVLSFLLAVLLAAILGAVKPDLATG---------ILGAGIGI  84
+
+Query  121  TGIGLIDDRWGLDALTKFAGQITAASVLVTM-----GVAWSVLYIPLGGVGTIVLDQTSS  175
+              +G +DD   + A  +  G    A  L+        +A+  L + LG VG I     ++
+Sbjct  85   ALLGFLDDHGHIAARWRLLGHFAGACWLLYWLGGLPALAFFGLVVDLGWVGHI----AAA  140
+
+Query  176  ILLTLALTVSIVNAINFVDGLDGLAAGLGLITAMAICIFSV------GLLRDHDGDVLFY  229
+              L     V ++N  NF+DG+DG+A+    + A+ +C+ +       G+  D     ++ 
+Sbjct  141  FYL-----VWMLNLYNFMDGIDGIAS----VEAVCVCVGAALLVVVSGVGSDEASQGVWL  191
+
+Query  230  PPAVISVVLAGSCLGFLPHNFHRAKIFMGDSGSMLVGLMLAAASTTAAGPISQNAYG  286
+               + + V      GFL  NF  A+IFMGD+GS  +G+++   S  AA    Q  +G
+Sbjct  192  AALLAAAVT-----GFLFWNFPPARIFMGDAGSGFLGVIIGGLSLQAAWVSPQLFWG  243
+
+
+>VFG019316(gb|WP_004686563) (wbpL) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LPS (VF0367) - Immune modulation 
+(VFC0258)] [Brucella melitensis ATCC 23457]
+Length=335
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 61/209 (29%), Positives = 97/209 (46%), Gaps = 25/209 (12%)
+
+Query  67   ERDVHVTPTPRMGGLAMYLGVLA--AVFLASQLPALTRGFVYSSGMPAVLVAGAVITGIG  124
+             R  H     ++GGLA+   +L   A+F A  L    + F+  SG      A  ++  +G
+Sbjct  37   SRSNHSIAARQIGGLALIPAILVTLAIF-APDLEVNMQLFLCLSG------ASLLLWVVG  89
+
+Query  125  LIDDRWGLDALTKFAGQITAA-SVLVTMGVAWSVLYIPLGGVGTIVLDQTSSILLTLALT  183
+             +DDR+ L  + +   Q+ AA +VL  +G  + +L         ++     + L+  AL 
+Sbjct  90   GLDDRYELSEIIRLGSQLLAAITVLYGLGPDFRLL-------PNLLPYWLEATLIVFALI  142
+
+Query  184  VSIVNAINFVDGLDGLAAGLGLITAMAICIFSVGLLRDHDGDVLFYPPAVISVVLAGSCL  243
+            ++I N  NF+DGLD       L+T   + +  VG+       +     + I  V AG  L
+Sbjct  143  IAI-NVTNFMDGLD-------LMTVAGLGVPLVGIALLGALGLTGLTSSGIGAVAAGGLL  194
+
+Query  244  GFLPHNFHRAKIFMGDSGSMLVGLMLAAA  272
+            GF   N   A IF+GDSGS  +GL++  A
+Sbjct  195  GFALFNRPPASIFLGDSGSPPLGLIVGTA  223
+
+
+>VFG011519(gb|WP_002963669) (wbpL) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LPS (VF0367) - Immune modulation 
+(VFC0258)] [Brucella melitensis bv. 1 str. 16M]
+Length=335
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 61/209 (29%), Positives = 97/209 (46%), Gaps = 25/209 (12%)
+
+Query  67   ERDVHVTPTPRMGGLAMYLGVLA--AVFLASQLPALTRGFVYSSGMPAVLVAGAVITGIG  124
+             R  H     ++GGLA+   +L   A+F A  L    + F+  SG      A  ++  +G
+Sbjct  37   SRSNHSIAARQIGGLALIPAILVTLAIF-APDLEVNMQLFLCLSG------ASLLLWVVG  89
+
+Query  125  LIDDRWGLDALTKFAGQITAA-SVLVTMGVAWSVLYIPLGGVGTIVLDQTSSILLTLALT  183
+             +DDR+ L  + +   Q+ AA +VL  +G  + +L         ++     + L+  AL 
+Sbjct  90   GLDDRYELSEIIRLGSQLLAAITVLYGLGPDFRLL-------PNLLPYWLEATLIVFALI  142
+
+Query  184  VSIVNAINFVDGLDGLAAGLGLITAMAICIFSVGLLRDHDGDVLFYPPAVISVVLAGSCL  243
+            ++I N  NF+DGLD       L+T   + +  VG+       +     + I  V AG  L
+Sbjct  143  IAI-NVTNFMDGLD-------LMTVAGLGVPLVGIALLGALGLTGLTSSGIGAVAAGGLL  194
+
+Query  244  GFLPHNFHRAKIFMGDSGSMLVGLMLAAA  272
+            GF   N   A IF+GDSGS  +GL++  A
+Sbjct  195  GFALFNRPPASIFLGDSGSPPLGLIVGTA  223
+
+
+>VFG011521(gb|WP_002968712) (wbpL) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LPS (VF0367) - Immune modulation 
+(VFC0258)] [Brucella abortus bv. 1 str. 9-941]
+Length=335
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 61/209 (29%), Positives = 97/209 (46%), Gaps = 25/209 (12%)
+
+Query  67   ERDVHVTPTPRMGGLAMYLGVLA--AVFLASQLPALTRGFVYSSGMPAVLVAGAVITGIG  124
+             R  H     ++GGLA+   +L   A+F A  L    + F+  SG      A  ++  +G
+Sbjct  37   SRSNHSIAARQIGGLALIPAILVTLAIF-APDLEVNMQLFLCLSG------ASLLLWVVG  89
+
+Query  125  LIDDRWGLDALTKFAGQITAA-SVLVTMGVAWSVLYIPLGGVGTIVLDQTSSILLTLALT  183
+             +DDR+ L  + +   Q+ AA +VL  +G  + +L         ++     + L+  AL 
+Sbjct  90   GLDDRYELSEIIRLGSQLLAAITVLYGLGPDFRLL-------PNLLPYWLEATLIVFALI  142
+
+Query  184  VSIVNAINFVDGLDGLAAGLGLITAMAICIFSVGLLRDHDGDVLFYPPAVISVVLAGSCL  243
+            ++I N  NF+DGLD       L+T   + +  VG+       +     + I  V AG  L
+Sbjct  143  IAI-NVTNFMDGLD-------LMTVAGLGVPLVGIALLGALGLTGLTSSGIGAVAAGGLL  194
+
+Query  244  GFLPHNFHRAKIFMGDSGSMLVGLMLAAA  272
+            GF   N   A IF+GDSGS  +GL++  A
+Sbjct  195  GFALFNRPPASIFLGDSGSPPLGLIVGTA  223
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.142    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3101933043
+
+
+Query= g1290.t1
+
+Length=405
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG018674(gb|WP_008809635) (SGO_RS08445) undecaprenyl/decaprenyl-...  157     3e-44
+VFG005841(gb|WP_002262748) (SMU_RS01255) rhamnose-glucose polysac...  149     3e-41
+VFG013512(gb|WP_041603568) (wecA) undecaprenyl-phosphate alpha-N-...  106     1e-25
+VFG013510(gb|WP_011961857) (wecA) undecaprenyl-phosphate alpha-N-...  102     4e-24
+VFG013509(gb|WP_005688044) (wecA) undecaprenyl-phosphate alpha-N-...  101     6e-24
+VFG013508(gb|WP_005694200) (wecA) undecaprenyl-phosphate alpha-N-...  100     1e-23
+VFG007632(gb|WP_005417117) (wecA) UDP-N-acetylglucosamine--undeca...  90.5    5e-20
+VFG014113(gb|NP_251835) (wbpL) glycosyltransferase WbpL [LPS (VF0...  89.7    7e-20
+VFG045310(gb|WP_010946499) (LPG_RS03780) glycosyltransferase fami...  84.3    6e-18
+VFG023798(gb|WP_005179818) (YE105_RS06215) glycosyltransferase fa...  83.6    1e-17
+VFG014146(gb|WP_003138482) (PA14_RS09495) glycosyltransferase fam...  83.2    1e-17
+VFG038060(gb|WP_000262379) (AB57_RS00525) glycosyltransferase fam...  82.4    2e-17
+VFG038134(gb|WP_020752682) (BJAB0715_RS00565) glycosyltransferase...  79.7    2e-16
+VFG037949(gb|WP_001100755) (ABTJ_RS18520) glycosyltransferase fam...  79.0    4e-16
+VFG014134(gb|WP_003150897) (PSPA7_RS09490) glycosyltransferase fa...  64.7    2e-11
+VFG019789(gb|WP_003452706) (PLES_RS09935) glycosyltransferase fam...  53.9    6e-08
+VFG019316(gb|WP_004686563) (wbpL) undecaprenyl-phosphate alpha-N-...  49.3    2e-06
+VFG011519(gb|WP_002963669) (wbpL) undecaprenyl-phosphate alpha-N-...  48.9    3e-06
+VFG011521(gb|WP_002968712) (wbpL) undecaprenyl-phosphate alpha-N-...  48.1    4e-06
+
+
+>VFG018674(gb|WP_008809635) (SGO_RS08445) undecaprenyl/decaprenyl-phosphate 
+alpha-N-acetylglucosaminyl 1-phosphate transferase 
+[Capsule (VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+gordonii str. Challis substr. CH1]
+Length=388
+
+ Score = 157 bits (398),  Expect = 3e-44, Method: Compositional matrix adjust.
+ Identities = 114/321 (36%), Positives = 171/321 (53%), Gaps = 24/321 (7%)
+
+Query  52   VRMLASRLGAVAYPRERDVHVTPTPRMGGLAMFL--GIVGAVFLASQLPALTRGFVYSTG  109
+            VR+LA ++ AV YP  R ++  P P  GGLA+ +   I   + + + +    RG  Y   
+Sbjct  28   VRILAFKIDAVDYPNARRINKKPMPSAGGLAVVIAFSITSLIMMPTIVQVTFRGETYFDY  87
+
+Query  110  MPAVLVAGAVIMGIGLIDDRWGLDALTKFAGQITAASVL-VTMGVAWSVLYIPVGGVGTI  168
+            +  V++ G V+   GLIDD   L  L K  G + AAS++ +      +   IP GG   +
+Sbjct  88   IWPVVLGGGVVALTGLIDDVKELSPLPKLLGIVVAASLIWLLTDFRLNDFKIPFGG-PHL  146
+
+Query  169  VLDQASSILLTLALTVSIVNAMNFVDGLDGLAAGLGLITALAICMFSVGLLRDHGGDVLY  228
+                  S +LTL   VSI NA+N +DGLDGL +G+ +I+ L + + S   L DH    L+
+Sbjct  147  FFPPWLSFILTLIWIVSITNAVNLMDGLDGLVSGVSIISLLTMGVVSYFFLPDHN---LF  203
+
+Query  229  YPPAVISVVLAGACLGFLPHNFHRAKIFMGDSGSMLIGLMLAAASTTAAGPISQNAYGAR  288
+                +   VL  +  GF P+N+H A I+ GD+G++ IG M++  S        +NA    
+Sbjct  204  LTLTIF--VLVASIAGFFPYNYHPAIIYGGDTGALFIGFMISVLSLQGL----KNATAV-  256
+
+Query  289  DVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAGRSAFSPDKMHLHHRLLQIGHSHRRVV  348
+               A+++P +    ++ VP+ D  LAIVRRT +G+  + PD+ HLHHRLL +G +HR  V
+Sbjct  257  ---AVVTPMI----ILGVPIADTFLAIVRRTLSGQKFYQPDRNHLHHRLLSLGLTHRGTV  309
+
+Query  349  LIIYLWVGIVAFGAASSIFFN  369
+            L+IY   GI    A  S+  N
+Sbjct  310  LVIY---GISLIFATISLLLN  327
+
+
+>VFG005841(gb|WP_002262748) (SMU_RS01255) rhamnose-glucose polysaccharide 
+biosynthesis protein RgpB [Capsule (VF0144) - Immune 
+modulation (VFC0258)] [Streptococcus mutans UA159]
+Length=386
+
+ Score = 149 bits (377),  Expect = 3e-41, Method: Compositional matrix adjust.
+ Identities = 118/381 (31%), Positives = 194/381 (51%), Gaps = 32/381 (8%)
+
+Query  29   VPLRELALVGLTAAIITYFATGP-VRMLASRLGAVAYPRERDVHVTPTPRMGGLAMFLGI  87
+            +P+    ++ L A ++T     P VR  A R+GAV  P  R ++  P P  GGLA+ +  
+Sbjct  2    IPITLKFVLVLIATLLTSLVLTPLVRFFAFRVGAVDNPNARRINKVPMPSAGGLAIIISF  61
+
+Query  88   VGAVFLASQLPALTR----GFVYSTGMPAVLVAGAVIMGIGLIDDRWGLDALTKFAGQIT  143
+            V A    + +P + +    G  Y   +  V++   VI   G IDD + L    KF G + 
+Sbjct  62   VIATL--ALMPMILKTQIGGKSYFEYILPVVLGALVIALTGFIDDVYELSPKIKFLGILL  119
+
+Query  144  AASVL-VTMGVAWSVLYIPVGGVGTIVLDQASSILLTLALTVSIVNAMNFVDGLDGLAAG  202
+             A ++ +     +    IP GG   +  +   S  LT+   V+I NA+N +DGLDGL +G
+Sbjct  120  GAVIIWIFTDFRFDSFKIPFGG-PMLHFNPFLSFFLTILWVVAITNAVNLIDGLDGLVSG  178
+
+Query  203  LGLITALAICMFSVGLLRDHGGDVLYYPPAVISVVLAGACLGFLPHNFHRAKIFMGDSGS  262
+            + +I+   + + S   L D   D+      +   VL  A  GF P+N+H A I++GD+G+
+Sbjct  179  VSMISLTTMGLVSYFFLYD--TDIFL---TLTIFVLIFAIAGFFPYNYHPAIIYLGDTGA  233
+
+Query  263  MLIGLMLAAASTTAAGPISQNAYGARDVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAG  322
+            + IG M++  S        +NA       A+++P    + V+ VP++D  +AI+RRT +G
+Sbjct  234  LFIGFMISVLSLQGL----KNATAV----AVVTP----IIVLGVPIVDTTVAIIRRTLSG  281
+
+Query  323  RSAFSPDKMHLHHRLLQIGHSHRRVVLIIYLWVGIVAFGAASSIFFNPRDTAAVMLGAIV  382
+            +  +  D MHLHHRLL +G +HR  VL++Y   GI  F +  S+  N    ++ + G ++
+Sbjct  282  QKFYEADNMHLHHRLLAMGFTHRGAVLVVY---GIAMFFSLVSLLLN---VSSRLGGILL  335
+
+Query  383  VAGVATLIPLLRRGDDYYDPD  403
+            + GVA  + +   G + + P 
+Sbjct  336  MIGVAFALEIFIEGLEIWGPK  356
+
+
+>VFG013512(gb|WP_041603568) (wecA) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LOS (VF0044) - Immune modulation 
+(VFC0258)] [Haemophilus ducreyi 35000HP]
+Length=354
+
+ Score = 106 bits (264),  Expect = 1e-25, Method: Compositional matrix adjust.
+ Identities = 92/315 (29%), Positives = 154/315 (49%), Gaps = 52/315 (17%)
+
+Query  52   VRMLASRLGAVAYPRERDVHVTPTPRMGGLAMFLGIVGAVFLASQ---LPALTRGFVYST  108
+            +R +A ++G +  P  R  H    P +GG+A+FLG +   F+  Q   LP L        
+Sbjct  19   MRPVAEKIGLIDKPNYRKRHQGLIPLIGGIALFLGNLTFYFIEWQDMRLPWL--------  70
+
+Query  109  GMPAVLVAGAVIMGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVL-------YIP  161
+                 L A  V++ IGL+DDR+ +    +   Q   A +++  G++   L        I 
+Sbjct  71   ----YLTAVTVLLVIGLLDDRFDVSPFLRIGLQAGLAGLMIYHGLSLESLGQVIAPFSIK  126
+
+Query  162  VGGVGTIVLDQASSILLTLALTVSIVNAMNFVDGLDGLAAGLGLITALAICMFSVGLLRD  221
+            +G +GT+          T+ +T+ ++NA N VDG+DGL AGL   ++ +     V +  D
+Sbjct  127  LGILGTV---------FTILITIGVINAFNMVDGIDGLLAGL---SSASFAGIGVLMWLD  174
+
+Query  222  HGGDVLYYPPAVISVVLAGACLGFLPHNFHRAKIFMGDSGSMLIG---LMLAAASTTAAG  278
+                + Y+  A+I V++  A    L     + K+FMGDSGS LIG   + +   ST   G
+Sbjct  175  EQYSLAYWCFALIVVLIPYAMFN-LSLLGAKWKVFMGDSGSTLIGFTIIWILLLSTQGQG  233
+
+Query  279  PISQNAYGARDVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAGRSAFSPDKMHLHHRLL  338
+                   G           L ++AV   P++D++  ++RR + G+S F PD++HLHH ++
+Sbjct  234  HAISPITG-----------LWLIAV---PLIDMVAVVLRRLKKGKSPFRPDRLHLHHLMM  279
+
+Query  339  QIGHSHRRVVLIIYL  353
+            + G + R+ + +I L
+Sbjct  280  RAGLTSRQALAVITL  294
+
+
+>VFG013510(gb|WP_011961857) (wecA) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LOS (VF0044) - Immune modulation 
+(VFC0258)] [Haemophilus influenzae PittEE]
+Length=355
+
+ Score = 102 bits (253),  Expect = 4e-24, Method: Compositional matrix adjust.
+ Identities = 86/306 (28%), Positives = 154/306 (50%), Gaps = 36/306 (12%)
+
+Query  52   VRMLASRLGAVAYPRERDVHVTPTPRMGGLAMFLGIVGAVFLASQLPALTRGFVYSTGMP  111
+            +R LA+ +G V  P  R  H    P +GG+++F+G     +   +   L   ++Y     
+Sbjct  18   MRPLANWIGLVDKPNYRKRHQGAIPLIGGVSLFIG--NLCYYLMEWDQLRLPYLY-----  70
+
+Query  112  AVLVAGAVIMGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYIPVGGV-GTIVL  170
+              L +  V++ IG++DDR+ +    +   Q   A +++ +G   ++    +G + G   L
+Sbjct  71   --LFSIFVLLAIGILDDRFDISPFLRAGIQAILAILMIDLG---NIYLDHLGQILGPFQL  125
+
+Query  171  DQAS-SILLTLALTVSIVNAMNFVDGLDGLAAGLGLITALAICMFSVGLLRDHGGDVLYY  229
+               S  +++T+  T++I+NA N +DG+DGL  GL  ++  AI    + + RD   D+ ++
+Sbjct  126  TLGSIGLIITVFATIAIINAFNMIDGIDGLLGGLSCVSFAAI---GILMYRDGQMDMAHW  182
+
+Query  230  PPAVISVVLAGACLGF-LPHNFHRAKIFMGDSGSMLIG---LMLAAASTTAAGPISQNAY  285
+              A+I  +L    L   +P    + K+FMGD+GS LIG   + +   ST   G    N  
+Sbjct  183  SFALIVSILPYLMLNLGIPFG-PKYKVFMGDAGSTLIGFTIIWILLLSTQGKGH-PMNPV  240
+
+Query  286  GARDVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAGRSAFSPDKMHLHHRLLQIGHSHR  345
+             A  + A             +P++D++  I RR R G+S F PD++H+HH +++ G + R
+Sbjct  241  TALWIIA-------------IPLIDMVAIIYRRVRKGKSPFRPDRLHVHHLMVRAGLTSR  287
+
+Query  346  RVVLII  351
+            +  L+I
+Sbjct  288  QAFLLI  293
+
+
+>VFG013509(gb|WP_005688044) (wecA) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LOS (VF0044) - Immune modulation 
+(VFC0258)] [Haemophilus influenzae 86-028NP]
+Length=355
+
+ Score = 101 bits (252),  Expect = 6e-24, Method: Compositional matrix adjust.
+ Identities = 86/306 (28%), Positives = 154/306 (50%), Gaps = 36/306 (12%)
+
+Query  52   VRMLASRLGAVAYPRERDVHVTPTPRMGGLAMFLGIVGAVFLASQLPALTRGFVYSTGMP  111
+            +R LA+ +G V  P  R  H    P +GG+++F+G     +   +   L   ++Y     
+Sbjct  18   MRPLANWIGLVDKPNYRKRHQGTIPLIGGVSLFVG--NLCYYLMEWDQLRLPYLY-----  70
+
+Query  112  AVLVAGAVIMGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYIPVGGV-GTIVL  170
+              L +  V++ IG++DDR+ +    +   Q   A +++ +G   ++    +G + G   L
+Sbjct  71   --LFSIFVLLAIGILDDRFDISPFLRAGIQAILAILMIDLG---NIYLDHLGQILGPFQL  125
+
+Query  171  DQAS-SILLTLALTVSIVNAMNFVDGLDGLAAGLGLITALAICMFSVGLLRDHGGDVLYY  229
+               S  +++T+  T++I+NA N +DG+DGL  GL  ++  AI    + + RD   D+ ++
+Sbjct  126  TLGSIGLIITVFATIAIINAFNMIDGIDGLLGGLSCVSFAAI---GILMYRDGQMDMAHW  182
+
+Query  230  PPAVISVVLAGACLGF-LPHNFHRAKIFMGDSGSMLIG---LMLAAASTTAAGPISQNAY  285
+              A+I  +L    L   +P    + K+FMGD+GS LIG   + +   ST   G    N  
+Sbjct  183  SFALIVSILPYLMLNLGIPFG-PKYKVFMGDAGSTLIGFTIIWILLLSTQGKGH-PMNPV  240
+
+Query  286  GARDVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAGRSAFSPDKMHLHHRLLQIGHSHR  345
+             A  + A             +P++D++  I RR R G+S F PD++H+HH +++ G + R
+Sbjct  241  TALWIIA-------------IPLIDMVAIIYRRVRKGKSPFRPDRLHVHHLMVRAGLTSR  287
+
+Query  346  RVVLII  351
+            +  L+I
+Sbjct  288  QAFLLI  293
+
+
+>VFG013508(gb|WP_005694200) (wecA) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LOS (VF0044) - Immune modulation 
+(VFC0258)] [Haemophilus influenzae Rd KW20]
+Length=355
+
+ Score = 100 bits (249),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 86/306 (28%), Positives = 153/306 (50%), Gaps = 36/306 (12%)
+
+Query  52   VRMLASRLGAVAYPRERDVHVTPTPRMGGLAMFLGIVGAVFLASQLPALTRGFVYSTGMP  111
+            +R LA+ +G V  P  R  H    P +GG ++F+G     +   +   L   ++Y     
+Sbjct  18   MRPLANWIGLVDKPNYRKRHQGTIPLIGGASLFVG--NLCYYLMEWDQLRLPYLY-----  70
+
+Query  112  AVLVAGAVIMGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYIPVGGV-GTIVL  170
+              L +  V++ IG++DDR+ +    +   Q   A +++ +G   ++    +G + G   L
+Sbjct  71   --LFSIFVLLAIGILDDRFDISPFLRAGIQAILAILMIDLG---NIYLDHLGQILGPFQL  125
+
+Query  171  DQAS-SILLTLALTVSIVNAMNFVDGLDGLAAGLGLITALAICMFSVGLLRDHGGDVLYY  229
+               S  +++T+  T++I+NA N +DG+DGL  GL  ++  AI    + + RD   D+ ++
+Sbjct  126  TLGSIGLIITVFATIAIINAFNMIDGIDGLLGGLSCVSFAAI---GILMYRDGQMDMAHW  182
+
+Query  230  PPAVISVVLAGACLGF-LPHNFHRAKIFMGDSGSMLIG---LMLAAASTTAAGPISQNAY  285
+              A+I  +L    L   +P    + K+FMGD+GS LIG   + +   ST   G    N  
+Sbjct  183  SFALIVSILPYLMLNLGIPFG-PKYKVFMGDAGSTLIGFTIIWILLLSTQGKGH-PMNPV  240
+
+Query  286  GARDVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAGRSAFSPDKMHLHHRLLQIGHSHR  345
+             A  + A             +P++D++  I RR R G+S F PD++H+HH +++ G + R
+Sbjct  241  TALWIIA-------------IPLIDMVAIIYRRVRKGKSPFRPDRLHVHHLMVRAGLTSR  287
+
+Query  346  RVVLII  351
+            +  L+I
+Sbjct  288  QAFLLI  293
+
+
+>VFG007632(gb|WP_005417117) (wecA) UDP-N-acetylglucosamine--undecaprenyl-phosphate 
+N-acetylglucosaminephosphotransferase [Capsular 
+polysaccharide (VF0624) - Immune modulation (VFC0258)] 
+[Vibrio fischeri ES114]
+Length=363
+
+ Score = 90.5 bits (223),  Expect = 5e-20, Method: Compositional matrix adjust.
+ Identities = 88/322 (27%), Positives = 148/322 (46%), Gaps = 30/322 (9%)
+
+Query  43   IITYFATGPVRMLASRLGAVAYPRERDVHVTPTPRMGGLAMFLGIVGAVFLASQLPALTR  102
+            ++++ +   +R +A R+G V  P ER  H    P +GG+++F  +   + L   LP    
+Sbjct  10   LVSFISLFIMRKVAKRIGLVDKPNERKHHKGVIPLIGGISIFTTLCIGLLLF--LPVTET  67
+
+Query  103  GFVYSTGMPAVLVAGAVIMGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYIP-  161
+              +Y       L   AV++ +G  DD + +    +   Q T  S+++      S+  +  
+Sbjct  68   LLMY-------LACAAVLVVLGAFDDYFDVSFKIRLIVQ-TGISLVIIFAGGHSLHNLGF  119
+
+Query  162  VGGVGTIVLDQASSILLTLALTVSIVNAMNFVDGLDGLAAGLGLITALAICMFSVGLLRD  221
+            + G  TI+L  A S  +T+   +  +NA N VDG+DGL  GL  +T  A+      +   
+Sbjct  120  LMGSETIMLSSAVSGFITILGVIGAINAFNMVDGIDGLLGGLASVTFAALAT----VFYY  175
+
+Query  222  HGGDVLYYPPAVISVVLAGAC---LGFLPHNFHRAKIFMGDSGSMLIGLMLAAASTTAAG  278
+             G D L +   +I + +       LGF P    R K+FMGD+GSM IG  +       + 
+Sbjct  176  SGNDYLAHVCGLIVIAMVPYIMLNLGF-PLG-RRFKVFMGDAGSMFIGFTVVWMLIRGSQ  233
+
+Query  279  PISQNAYGARDVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAGRSAFSPDKMHLHHRLL  338
+              +  A+       L++          +P++D+   ++RR R G+S F PD+ HLHH   
+Sbjct  234  EPAVIAFKPVTALWLIA----------IPLMDMATIMIRRVRKGQSPFKPDREHLHHICQ  283
+
+Query  339  QIGHSHRRVVLIIYLWVGIVAF  360
+            ++G S    + +I     I AF
+Sbjct  284  RLGLSSYMTLFLICTVALICAF  305
+
+
+>VFG014113(gb|NP_251835) (wbpL) glycosyltransferase WbpL [LPS 
+(VF0085) - Immune modulation (VFC0258)] [Pseudomonas aeruginosa 
+PAO1]
+Length=339
+
+ Score = 89.7 bits (221),  Expect = 7e-20, Method: Compositional matrix adjust.
+ Identities = 89/316 (28%), Positives = 150/316 (47%), Gaps = 40/316 (13%)
+
+Query  39   LTAAIITYFATGPVRMLASRLGAVAYPRERDVHVTPTPRMGGLAMFLGIVGAVFLASQLP  98
+            L   + ++ AT  +R  A     +  P  R  H  PTPR GG+A+ L     VFLA+ + 
+Sbjct  9    LVVLLFSFVATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVL-----VFLAALVW  63
+
+Query  99   ALTRGFVYSTGMPAVLVAGAVIMGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVL  158
+             L+ G +      A+L AG+ +  +G +DD   + A  +  G  +AA  ++     W+  
+Sbjct  64   MLSAGSISGGWGGAMLGAGSGVALLGFLDDHGHIAARWRLLGHFSAAIWILL----WTGG  119
+
+Query  159  YIPVGGVGTIVLDQASSILLTLALTVSIVNAMNFVDGLDGLAAGLGLITALAICMFSVGL  218
+            + P+  VG  V       +L +   V ++N  NF+DG+DG+A+    + A+ +C+     
+Sbjct  120  FPPLDVVGHAVDLGWLGHVLAVFYLVWVLNLYNFMDGIDGIAS----VEAIGVCV-----  170
+
+Query  219  LRDHGGDVLYYPPAVISVV-----LAGACLGFLPHNFHRAKIFMGDSGSMLIGLMLAAAS  273
+                GG ++Y+    +++V     LA A  GFL  NF  A+IFMGD+GS  +G+++ A +
+Sbjct  171  ----GGALIYWLTGHVAMVGIPLLLACAVAGFLIWNFPPARIFMGDAGSGFLGMVIGALA  226
+
+Query  274  TTAAGPISQNAYGARDVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAGRSAFSPDKMHL  333
+                    Q A+ A  +F     +L+++ V  V   D    ++RR   G   +   + H 
+Sbjct  227  I-------QAAWTAPSLFWC---WLILLGVFIV---DATYTLIRRIARGEKFYEAHRSHA  273
+
+Query  334  HHRLLQIGHSHRRVVL  349
+            +    +   SH RV L
+Sbjct  274  YQFASRRYASHLRVTL  289
+
+
+>VFG045310(gb|WP_010946499) (LPG_RS03780) glycosyltransferase 
+family 4 protein [LPS (VF0171) - Immune modulation (VFC0258)] 
+[Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+Length=334
+
+ Score = 84.3 bits (207),  Expect = 6e-18, Method: Compositional matrix adjust.
+ Identities = 84/303 (28%), Positives = 124/303 (41%), Gaps = 35/303 (12%)
+
+Query  49   TGPVRMLASRLGAVAYPRERDVHVTPTPRMGGLAMFLGIVGAVFLASQLPALTRGFVYST  108
+            T    + A     +  P ER++H  PT R GGL +F+G+     L          F  + 
+Sbjct  17   TKLFALFAQHTKLIDIPNERNLHSRPTVRGGGL-VFIGLS----LFCWFFICNSQFFLTL  71
+
+Query  109  GMPAVLVAGAVIMGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYIPVG-GVGT  167
+                  +A   I  I  IDD + L    +F  Q   A ++V       +  +P     G 
+Sbjct  72   DQFIFSIAIIFIATISFIDDFYNLSVTIRFFFQCLIAFLIV-------IFILPSQLDFGL  124
+
+Query  168  IVLDQASSILLTLALTV-SIVNAMNFVDGLDGLAAGLGLITALAICMFSVGLLRDHGGDV  226
+             + +    I   L   V   +N  NF+DGLDG  A   +    A       L  +  G +
+Sbjct  125  FLFENTYLIAFFLFFAVIWAINHFNFMDGLDGFCASQAIFLLAA-----YALFFNSAGSL  179
+
+Query  227  LYYPPAVISVVLAGACLGFLPHNFHRAKIFMGDSGSMLIGLMLAAASTTAAGPISQNAYG  286
+            +Y       ++L  +  GFL  NF  AKIFMGD GS  +GL+     T     I+Q  Y 
+Sbjct  180  IYQD---FCLILISSLAGFLIFNFPPAKIFMGDVGSASLGLI-----TFFIAIIAQKNYQ  231
+
+Query  287  ARDVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAGRSAFSPDKMHLHHRLLQIGHSHRR  346
+                  +L  F+L    +F    D  + ++RR       FSP K H + RL Q+G + R 
+Sbjct  232  I----PILYWFILNSLFLF----DSTVTLIRRIIKHEKWFSPHKKHAYQRLKQLGINSRF  283
+
+Query  347  VVL  349
+            ++L
+Sbjct  284  ILL  286
+
+
+>VFG023798(gb|WP_005179818) (YE105_RS06215) glycosyltransferase 
+family 4 protein [O-antigen (VF0392) - Immune modulation (VFC0258)] 
+[Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+Length=341
+
+ Score = 83.6 bits (205),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 85/287 (30%), Positives = 134/287 (47%), Gaps = 39/287 (14%)
+
+Query  52   VRMLASRLGAVAYPRERDVHVTPTPRMGGLAM----FLGIVGAVFLASQLPALTRGFVYS  107
+            +R+ A +   +  P  R  HVTPTPR GG+A+     +GI+   FL   LP L+      
+Sbjct  22   LRLYALKNNIIDTPNSRSSHVTPTPRGGGVAIVISFLIGIILFYFLG-YLPILS------  74
+
+Query  108  TGMPAVLVAGAVIMGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYIPVGGVGT  167
+              +  ++V+G VI  +G  DD   + A  +     +AA+ L+     + VL +     G 
+Sbjct  75   --VVGLIVSGGVIALVGFWDDHGHIAARWRLLAHFSAAAFLLFCFGGFPVLNVS----GF  128
+
+Query  168  IVLDQASSILLTLALTVSIVNAMNFVDGLDGLAAGLGLITALAICMFSVGLLRDH--GGD  225
+            I+       L  L   V ++N  NF+DG+DGLA+      A+  C   +G++  +   GD
+Sbjct  129  IIELGIFGSLFGLLFLVWMLNLYNFMDGIDGLASA----EAVTAC---IGMIAIYYISGD  181
+
+Query  226  VLYYPPAVISVVLAGACLGFLPHNFHRAKIFMGDSGSMLIGLMLAAASTTAAGPISQNAY  285
+             +     ++  +LA   LGFL  NF  AKIFMGD+GS  +GLM+ + +      IS    
+Sbjct  182  HIELNSFLVLWLLACTVLGFLLWNFPPAKIFMGDAGSGFLGLMIGSLA------ISAGWI  235
+
+Query  286  GARDVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAGRSAFSPDKMH  332
+              R  F       L++  +F+  +D    +VRR   G   +   + H
+Sbjct  236  DTRFFFC-----WLILLGLFI--VDATWTLVRRVLGGFKVYEAHRSH  275
+
+
+>VFG014146(gb|WP_003138482) (PA14_RS09495) glycosyltransferase 
+family 4 protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa UCBPP-PA14]
+Length=338
+
+ Score = 83.2 bits (204),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 83/297 (28%), Positives = 139/297 (47%), Gaps = 50/297 (17%)
+
+Query  49   TGPVRMLASRLGAVAYPRERDVHVTPTPRMGGLAMFLGIVGAVFLASQLPALTRGFVYST  108
+            TG +R  A     +  P  R  H  PTPR GG+A+ +  +  + + + L  ++  + +  
+Sbjct  18   TGGLRRYALARSLMDVPNARSSHSVPTPRGGGVAIVMSFLLVLLILAALGQVSWDYTW--  75
+
+Query  109  GMPAVLVAGAVIMGIGLIDDRWGLDALTKFAGQITAASVLVTMGVAWSVLYI----PVGG  164
+               A+L AG  I  +G +DD   + A  +  G   AA        AW + +I    P+  
+Sbjct  76   ---ALLGAGIGIAVLGFLDDHGHIAARWRLLGHFLAA--------AWGLFWIGGLPPLTV  124
+
+Query  165  VGTIV-LDQASSILLTLALTVSIVNAMNFVDGLDGLAAGLGLITALAICMFSVGLLRDHG  223
+             G  + L    S+L    L V ++N  NF+DG+DG+A+    + A+++C+         G
+Sbjct  125  FGFFLDLGLLGSVLAAFYL-VWLLNLYNFMDGIDGIAS----VEAISVCL---------G  170
+
+Query  224  GDVLY-----YPPAVISVVLAGACLGFLPHNFHRAKIFMGDSGSMLIGLMLAAASTTAAG  278
+            G +L+     +  A +++VLA A +GFL  NF  A+IFMGD+GS  +G++L   S  AA 
+Sbjct  171  GALLFLFVGEFKVAQVTLVLAAAVMGFLFWNFPSARIFMGDAGSGFLGIVLGIQSLQAAW  230
+
+Query  279  PISQNAYGARDVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAGRSAFSPDKMHLHH  335
+               Q          LL  +++++ V  V   D    ++RR   G   +   + H + 
+Sbjct  231  IAPQ----------LLWSWIILLGVFIV---DATFTLLRRLIRGEKVYEAHRSHAYQ  274
+
+
+>VFG038060(gb|WP_000262379) (AB57_RS00525) glycosyltransferase 
+family 4 protein [Capsule (VF0465) - Immune modulation (VFC0258)] 
+[Acinetobacter baumannii AB0057]
+Length=335
+
+ Score = 82.4 bits (202),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 84/333 (25%), Positives = 152/333 (46%), Gaps = 45/333 (14%)
+
+Query  43   IITYFATGPVRMLASRLGAVAYPRERDVHVTPTPRMGGLAM----FLGIVGAVFLASQLP  98
+            ++++  T  +RM A +   +  P ER  H  PTPR GG+A+     L + G ++L    P
+Sbjct  9    VLSFVLTYLMRMYALKKNIIDSPNERSSHTMPTPRGGGVAVVISYLLSLAGLIYLGYLTP  68
+
+Query  99   ALTRGFVYSTGMPAVLVAGAVIMGIGLIDDRWGLDALTKFAGQ-ITAASVLVTMGVAWSV  157
+            ++  G +       V+VAG +I  +G +DD   ++AL + A   + A  V+V +G     
+Sbjct  69   SI--GII-------VIVAGFIIALLGFLDDHGHINALVRLAIHFMVAIGVVVALGG----  115
+
+Query  158  LYIPVGGVGTIVLDQASSILLTLALTVSIVNAMNFVDGLDGLAAGLGLITALAICMFSVG  217
+             +  V     + L   ++I+  L L V ++N  NF+DG++G+A+   + + L++ +    
+Sbjct  116  -FTEVTIFNGLQLGFVANIIAVLFL-VWLLNLYNFMDGINGIASIEAITSVLSMALIYWV  173
+
+Query  218  LLRDHGGDVLYYPPAVISVVLAGACLGFLPHNFHRAKIFMGDSGSMLIGLMLAAASTTAA  277
+            L       VL         ++A    GF+  NF +AKIFMGD+ S  +GL+L   +    
+Sbjct  174  LNSTLNSQVL--------SLMAATVFGFMLWNFPKAKIFMGDACSGFLGLVLGIWAL---  222
+
+Query  278  GPISQNAYGARDVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAGRSAFSPDKMHLHHRL  337
+                   Y  +        +++ + V  V   D    ++RR   G   +   + H +   
+Sbjct  223  -------YALKQDIGFFCAWIICLGVFIV---DATFTLIRRVLNGHKMYDAHRSHAYQYA  272
+
+Query  338  LQIGHSHRR----VVLIIYLWVGIVAFGAASSI  366
+             +   SH +    V+ I  LW+  +A+ A + +
+Sbjct  273  SRKYQSHTKATLGVLTINLLWLLPMAYLAVTKV  305
+
+
+>VFG038134(gb|WP_020752682) (BJAB0715_RS00565) glycosyltransferase 
+family 4 protein [Capsule (VF0465) - Immune modulation 
+(VFC0258)] [Acinetobacter baumannii BJAB0715]
+Length=336
+
+ Score = 79.7 bits (195),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 87/305 (29%), Positives = 142/305 (47%), Gaps = 41/305 (13%)
+
+Query  49   TGPVRMLASRLGAVAYPRERDVHVTPTPRMGGLAMFLGIVGAVFLA--SQLPALTRGFVY  106
+            T  VR  A R   +  P  R  HV PTPR GG+A+ + ++ A+  +  SQ  +L   F+ 
+Sbjct  18   TFSVRKYALRKNIIDLPNFRSSHVKPTPRGGGVAIVISVLMALLYSYISQFISLNDFFI-  76
+
+Query  107  STGMPAVLVAGAVIMGIGLIDDRWGLDALTKFAGQ-ITAASVLVTM-GVAWSVLYIPVGG  164
+              G   +L+A      +G  DD   ++++ + +   ITA  ++V++ G A       V  
+Sbjct  77   -IGGSCLLIA-----LLGFCDDHAHINSMLRLSIHFITATFIVVSLDGFA------QVTV  124
+
+Query  165  VGTIVLDQASSILLTLALTVSIVNAMNFVDGLDGLAAGLGLITALAICMFSVGLLRDHGG  224
+               + L   ++IL  L L V ++N  NF+DG++G+A+    I A+++ + S+ LL     
+Sbjct  125  FNNLNLGFFTNILAILFL-VWLLNLYNFMDGINGIAS----IEAISVGL-SLALLYSWYD  178
+
+Query  225  DVLYYPPAVISVVLAGACLGFLPHNFHRAKIFMGDSGSMLIGLMLAAASTTAAGPISQNA  284
+               +   A+ S+V    C GFL  NF +AKIFMGD GS  +G + A  +           
+Sbjct  179  INNFILLAITSIV----C-GFLLWNFPKAKIFMGDVGSSFLGFLFAVLAL----------  223
+
+Query  285  YGARDVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAGRSAFSPDKMHLHHRLLQIGHSH  344
+            Y  +  F L   +++ + V  V   D    I+RR   G   +   + H +    +   SH
+Sbjct  224  YALKIDFKLFLAWIICLGVFIV---DATFTIIRRILRGEKIYQAHRSHAYQYAARYFDSH  280
+
+Query  345  RRVVL  349
+              V L
+Sbjct  281  TPVTL  285
+
+
+>VFG037949(gb|WP_001100755) (ABTJ_RS18520) glycosyltransferase 
+family 4 protein [Capsule (VF0465) - Immune modulation (VFC0258)] 
+[Acinetobacter baumannii MDR-TJ]
+Length=336
+
+ Score = 79.0 bits (193),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 86/305 (28%), Positives = 141/305 (46%), Gaps = 41/305 (13%)
+
+Query  49   TGPVRMLASRLGAVAYPRERDVHVTPTPRMGGLAMFLGIVGAVFLA--SQLPALTRGFVY  106
+            T  VR  A R   +  P  R  HV PTPR GG+A+ + ++ A+  +  SQ  +L   F+ 
+Sbjct  18   TFSVRKYALRKNIIDLPNFRSSHVKPTPRGGGVAIVISVLMALLYSYISQFISLNDFFI-  76
+
+Query  107  STGMPAVLVAGAVIMGIGLIDDRWGLDALTKFAGQ-ITAASVLVTM-GVAWSVLYIPVGG  164
+              G   +L+A      +G  DD   ++++ + +   ITA  ++ ++ G A       V  
+Sbjct  77   -IGGSCLLIA-----LLGFCDDHAHINSMLRLSIHFITATFIVFSLDGFA------QVSV  124
+
+Query  165  VGTIVLDQASSILLTLALTVSIVNAMNFVDGLDGLAAGLGLITALAICMFSVGLLRDHGG  224
+               + L   ++IL  L L V ++N  NF+DG++G+A+    I A+++ + S+ LL     
+Sbjct  125  FNNLNLGFFTNILAILFL-VWLLNLYNFMDGINGIAS----IEAISVGL-SLALLYSWYD  178
+
+Query  225  DVLYYPPAVISVVLAGACLGFLPHNFHRAKIFMGDSGSMLIGLMLAAASTTAAGPISQNA  284
+               +   A+ S+V    C GFL  NF +AKIFMGD GS  +G + A  +           
+Sbjct  179  INNFILLAITSIV----C-GFLVWNFPKAKIFMGDVGSSFLGFLFAVLAL----------  223
+
+Query  285  YGARDVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAGRSAFSPDKMHLHHRLLQIGHSH  344
+            Y  +  F L   +++ + V  V   D    I+RR   G   +   + H +    +   SH
+Sbjct  224  YALKIDFKLFLAWIICLGVFIV---DATFTIIRRILRGEKIYQAHRSHAYQYAARYFDSH  280
+
+Query  345  RRVVL  349
+              V L
+Sbjct  281  TPVTL  285
+
+
+>VFG014134(gb|WP_003150897) (PSPA7_RS09490) glycosyltransferase 
+family 4 protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PA7]
+Length=339
+
+ Score = 64.7 bits (156),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 71/244 (29%), Positives = 103/244 (42%), Gaps = 49/244 (20%)
+
+Query  49   TGPVRMLASRLGAVAYPRERDVHVTPTPRMGGLAMFLGIVGAVFLASQLPALT-RGFVYS  107
+            TG +R  A     +  P  R  H  PTPR GG+A+ L  +  VF       L  R  +  
+Sbjct  18   TGVLRFYAISKKVMDIPNARSSHTVPTPRGGGVAIVLTFLLVVFFLPLFSILEWRQALLF  77
+
+Query  108  TGMPAVLVAGAVIMGIGLIDDRWGLDALTKFAGQITAASVLV------TMGVAWSVLYIP  161
+                  +     +   G +  RW L  L  F   + +  +L        +G  W +    
+Sbjct  78   LLGGGGVALLGFLDDHGHVAARWRL--LGHFMAALVSLFLLTGVPPFKLLGYQWDL----  131
+
+Query  162  VGGVGTIVLDQASSILLTLALTVSIVNAMNFVDGLDGLAAGLGLITALAICMFSVGLLRD  221
+             G VG ++              V ++N  NF+DG+DGLA+    + A+ +C+        
+Sbjct  132  -GWVGVVLFA---------FYLVWLLNLYNFMDGIDGLAS----LEAIFVCV--------  169
+
+Query  222  HGGDVLYY---------PPAVISVVLAGACLGFLPHNFHRAKIFMGDSGSMLIGLMLAAA  272
+             GG ++Y+         PP    ++LA A LGFL  NF  AKIFMGD+GS  +GL L   
+Sbjct  170  -GGALVYWMNDKAAFSLPP----LLLAFAVLGFLFWNFPPAKIFMGDAGSGFLGLTLGVL  224
+
+Query  273  STTA  276
+            S  A
+Sbjct  225  SIQA  228
+
+
+>VFG019789(gb|WP_003452706) (PLES_RS09935) glycosyltransferase 
+family 4 protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa LESB58]
+Length=345
+
+ Score = 53.9 bits (128),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 71/237 (30%), Positives = 110/237 (46%), Gaps = 42/237 (18%)
+
+Query  65   PRERDVHVTPTPRMGGLAMFLGIVGAVFLASQL----PALTRGFVYSTGMPAVLVAGAVI  120
+            P  R  H  PTPR GG+A+ L  + AV LA+ L    P L  G         +L AG  I
+Sbjct  34   PNARSSHQVPTPRGGGVAIVLSFLLAVLLAAILGAVKPDLATG---------ILGAGIGI  84
+
+Query  121  MGIGLIDDRWGLDALTKFAGQITAASVLVTM-----GVAWSVLYIPVGGVGTIVLDQASS  175
+              +G +DD   + A  +  G    A  L+        +A+  L + +G VG I    A++
+Sbjct  85   ALLGFLDDHGHIAARWRLLGHFAGACWLLYWLGGLPALAFFGLVVDLGWVGHI----AAA  140
+
+Query  176  ILLTLALTVSIVNAMNFVDGLDGLAAGLGLITALAICMFSV------GLLRDHGGDVLYY  229
+              L     V ++N  NF+DG+DG+A+    + A+ +C+ +       G+  D     ++ 
+Sbjct  141  FYL-----VWMLNLYNFMDGIDGIAS----VEAVCVCVGAALLVVVSGVGSDEASQGVWL  191
+
+Query  230  PPAVISVVLAGACLGFLPHNFHRAKIFMGDSGSMLIGLMLAAASTTAAGPISQNAYG  286
+               + + V      GFL  NF  A+IFMGD+GS  +G+++   S  AA    Q  +G
+Sbjct  192  AALLAAAVT-----GFLFWNFPPARIFMGDAGSGFLGVIIGGLSLQAAWVSPQLFWG  243
+
+
+>VFG019316(gb|WP_004686563) (wbpL) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LPS (VF0367) - Immune modulation 
+(VFC0258)] [Brucella melitensis ATCC 23457]
+Length=335
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 95/346 (27%), Positives = 144/346 (42%), Gaps = 49/346 (14%)
+
+Query  51   PVRMLASRLGAVAYPRERDVHVTPTPRMGGLAMFLGI-VGAVFLASQLPALTRGFVYSTG  109
+            P   LA+R+ +      R  H     ++GGLA+   I V     A  L    + F+  +G
+Sbjct  27   PANFLAARMSS------RSNHSIAARQIGGLALIPAILVTLAIFAPDLEVNMQLFLCLSG  80
+
+Query  110  MPAVLVAGAVIMGIGLIDDRWGLDALTKFAGQITAA-SVLVTMGVAWSVLYIPVGGVGTI  168
+                  A  ++  +G +DDR+ L  + +   Q+ AA +VL  +G  + +L         +
+Sbjct  81   ------ASLLLWVVGGLDDRYELSEIIRLGSQLLAAITVLYGLGPDFRLL-------PNL  127
+
+Query  169  VLDQASSILLTLALTVSIVNAMNFVDGLDGLA-AGLGLITALAICMFSVGLLRDHGGDVL  227
+            +     + L+  AL ++I N  NF+DGLD +  AGLG+          VG+       + 
+Sbjct  128  LPYWLEATLIVFALIIAI-NVTNFMDGLDLMTVAGLGVPL--------VGIALLGALGLT  178
+
+Query  228  YYPPAVISVVLAGACLGFLPHNFHRAKIFMGDSGSMLIGLMLAAASTTAAGPISQNAYGA  287
+                + I  V AG  LGF   N   A IF+GDSGS  +GL++  A       +   A   
+Sbjct  179  GLTSSGIGAVAAGGLLGFALFNRPPASIFLGDSGSPPLGLIVGTA-------LLLLARET  231
+
+Query  288  RDVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAGRSAFSPDKMHLHHRLLQIGHSHRRV  347
+              V AL+ P   +        LD    IV R   G +       H +    + G S  +V
+Sbjct  232  HIVVALVLPLYYI--------LDAGTTIVMRAAQGENILKAHSKHAYQIAKRSGWSVPKV  283
+
+Query  348  VLIIYLWVGIVAFGAASSIFFNPRDTAAVMLGAIVVAGVATLIPLL  393
+            V  + L   I+    A  +     D     L  ++VA VATLI LL
+Sbjct  284  VAHVALLNTIL---IACVVALLALDHPLAQLTFLLVAAVATLILLL  326
+
+
+>VFG011519(gb|WP_002963669) (wbpL) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LPS (VF0367) - Immune modulation 
+(VFC0258)] [Brucella melitensis bv. 1 str. 16M]
+Length=335
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 95/346 (27%), Positives = 144/346 (42%), Gaps = 49/346 (14%)
+
+Query  51   PVRMLASRLGAVAYPRERDVHVTPTPRMGGLAMFLGI-VGAVFLASQLPALTRGFVYSTG  109
+            P   LA+R+ +      R  H     ++GGLA+   I V     A  L    + F+  +G
+Sbjct  27   PANFLAARMSS------RSNHSIAARQIGGLALIPAILVTLAIFAPDLEVNMQLFLCLSG  80
+
+Query  110  MPAVLVAGAVIMGIGLIDDRWGLDALTKFAGQITAA-SVLVTMGVAWSVLYIPVGGVGTI  168
+                  A  ++  +G +DDR+ L  + +   Q+ AA +VL  +G  + +L         +
+Sbjct  81   ------ASLLLWVVGGLDDRYELSEIIRLGSQLLAAITVLYGLGPDFRLL-------PNL  127
+
+Query  169  VLDQASSILLTLALTVSIVNAMNFVDGLDGLA-AGLGLITALAICMFSVGLLRDHGGDVL  227
+            +     + L+  AL ++I N  NF+DGLD +  AGLG+          VG+       + 
+Sbjct  128  LPYWLEATLIVFALIIAI-NVTNFMDGLDLMTVAGLGVPL--------VGIALLGALGLT  178
+
+Query  228  YYPPAVISVVLAGACLGFLPHNFHRAKIFMGDSGSMLIGLMLAAASTTAAGPISQNAYGA  287
+                + I  V AG  LGF   N   A IF+GDSGS  +GL++  A       +   A   
+Sbjct  179  GLTSSGIGAVAAGGLLGFALFNRPPASIFLGDSGSPPLGLIVGTA-------LLLLARET  231
+
+Query  288  RDVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAGRSAFSPDKMHLHHRLLQIGHSHRRV  347
+              V AL+ P   +        LD    IV R   G +       H +    + G S  +V
+Sbjct  232  HIVVALVLPLYYI--------LDAGTTIVMRAAQGENILKAHSKHAYQIAKRSGWSVPKV  283
+
+Query  348  VLIIYLWVGIVAFGAASSIFFNPRDTAAVMLGAIVVAGVATLIPLL  393
+            V  + L   I+    A  +     D     L  ++VA VATLI LL
+Sbjct  284  VAHVALLNTIL---IACVVALLALDHPLAQLTFLLVAAVATLILLL  326
+
+
+>VFG011521(gb|WP_002968712) (wbpL) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LPS (VF0367) - Immune modulation 
+(VFC0258)] [Brucella abortus bv. 1 str. 9-941]
+Length=335
+
+ Score = 48.1 bits (113),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 95/346 (27%), Positives = 144/346 (42%), Gaps = 49/346 (14%)
+
+Query  51   PVRMLASRLGAVAYPRERDVHVTPTPRMGGLAMFLGI-VGAVFLASQLPALTRGFVYSTG  109
+            P   LA+R+ +      R  H     ++GGLA+   I V     A  L    + F+  +G
+Sbjct  27   PASFLAARMSS------RSNHSIAARQIGGLALIPAILVTLAIFAPDLEVNMQLFLCLSG  80
+
+Query  110  MPAVLVAGAVIMGIGLIDDRWGLDALTKFAGQITAA-SVLVTMGVAWSVLYIPVGGVGTI  168
+                  A  ++  +G +DDR+ L  + +   Q+ AA +VL  +G  + +L         +
+Sbjct  81   ------ASLLLWVVGGLDDRYELSEIIRLGSQLLAAITVLYGLGPDFRLL-------PNL  127
+
+Query  169  VLDQASSILLTLALTVSIVNAMNFVDGLDGLA-AGLGLITALAICMFSVGLLRDHGGDVL  227
+            +     + L+  AL ++I N  NF+DGLD +  AGLG+          VG+       + 
+Sbjct  128  LPYWLEATLIVFALIIAI-NVTNFMDGLDLMTVAGLGVPL--------VGIALLGALGLT  178
+
+Query  228  YYPPAVISVVLAGACLGFLPHNFHRAKIFMGDSGSMLIGLMLAAASTTAAGPISQNAYGA  287
+                + I  V AG  LGF   N   A IF+GDSGS  +GL++  A       +   A   
+Sbjct  179  GLTSSGIGAVAAGGLLGFALFNRPPASIFLGDSGSPPLGLIVGTA-------LLLLARET  231
+
+Query  288  RDVFALLSPFLLVVAVMFVPMLDLLLAIVRRTRAGRSAFSPDKMHLHHRLLQIGHSHRRV  347
+              V AL+ P   +        LD    IV R   G +       H +    + G S  +V
+Sbjct  232  HIVVALVLPLYYI--------LDAGTTIVMRAAQGENILKAHSKHAYQIAKRSGWSVPKV  283
+
+Query  348  VLIIYLWVGIVAFGAASSIFFNPRDTAAVMLGAIVVAGVATLIPLL  393
+            V  + L   I+    A  +     D     L  ++VA VATLI LL
+Sbjct  284  VAHVALLNTIL---IACVVALLALDHPLAQLTFLLVAAVATLILLL  326
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.142    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3164598357
+
+
+Query= g3206.t1
+
+Length=339
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG014113(gb|NP_251835) (wbpL) glycosyltransferase WbpL [LPS (VF0...  658     0.0   
+VFG014146(gb|WP_003138482) (PA14_RS09495) glycosyltransferase fam...  429     2e-151
+VFG014134(gb|WP_003150897) (PSPA7_RS09490) glycosyltransferase fa...  373     1e-129
+VFG019789(gb|WP_003452706) (PLES_RS09935) glycosyltransferase fam...  355     2e-122
+VFG023798(gb|WP_005179818) (YE105_RS06215) glycosyltransferase fa...  337     4e-115
+VFG038060(gb|WP_000262379) (AB57_RS00525) glycosyltransferase fam...  324     3e-110
+VFG037949(gb|WP_001100755) (ABTJ_RS18520) glycosyltransferase fam...  303     8e-102
+VFG038134(gb|WP_020752682) (BJAB0715_RS00565) glycosyltransferase...  302     1e-101
+VFG045310(gb|WP_010946499) (LPG_RS03780) glycosyltransferase fami...  147     1e-41 
+VFG005841(gb|WP_002262748) (SMU_RS01255) rhamnose-glucose polysac...  113     3e-28 
+VFG018674(gb|WP_008809635) (SGO_RS08445) undecaprenyl/decaprenyl-...  110     2e-27 
+VFG011519(gb|WP_002963669) (wbpL) undecaprenyl-phosphate alpha-N-...  95.1    4e-22 
+VFG011521(gb|WP_002968712) (wbpL) undecaprenyl-phosphate alpha-N-...  95.1    4e-22 
+VFG019316(gb|WP_004686563) (wbpL) undecaprenyl-phosphate alpha-N-...  94.7    5e-22 
+VFG007632(gb|WP_005417117) (wecA) UDP-N-acetylglucosamine--undeca...  76.3    2e-15 
+VFG013510(gb|WP_011961857) (wecA) undecaprenyl-phosphate alpha-N-...  64.7    2e-11 
+VFG013509(gb|WP_005688044) (wecA) undecaprenyl-phosphate alpha-N-...  64.7    2e-11 
+VFG013512(gb|WP_041603568) (wecA) undecaprenyl-phosphate alpha-N-...  62.8    7e-11 
+VFG013508(gb|WP_005694200) (wecA) undecaprenyl-phosphate alpha-N-...  62.8    7e-11 
+
+
+>VFG014113(gb|NP_251835) (wbpL) glycosyltransferase WbpL [LPS 
+(VF0085) - Immune modulation (VFC0258)] [Pseudomonas aeruginosa 
+PAO1]
+Length=339
+
+ Score = 658 bits (1698),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 339/339 (100%), Positives = 339/339 (100%), Gaps = 0/339 (0%)
+
+Query  1    MMIWMIACLVVLLFSFVATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAA  60
+            MMIWMIACLVVLLFSFVATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAA
+Sbjct  1    MMIWMIACLVVLLFSFVATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAA  60
+
+Query  61   LVWMLSAGSISGGWGGAMLGAGSGVALLGFLDDHGHIAARWRLLGHFSAAIWILLWTGGF  120
+            LVWMLSAGSISGGWGGAMLGAGSGVALLGFLDDHGHIAARWRLLGHFSAAIWILLWTGGF
+Sbjct  61   LVWMLSAGSISGGWGGAMLGAGSGVALLGFLDDHGHIAARWRLLGHFSAAIWILLWTGGF  120
+
+Query  121  PPLDVVGHAVDLGWLGHVLAVFYLVWVLNLYNFMDGIDGIASVEAIGVCVGGALIYWLTG  180
+            PPLDVVGHAVDLGWLGHVLAVFYLVWVLNLYNFMDGIDGIASVEAIGVCVGGALIYWLTG
+Sbjct  121  PPLDVVGHAVDLGWLGHVLAVFYLVWVLNLYNFMDGIDGIASVEAIGVCVGGALIYWLTG  180
+
+Query  181  HVAMVGIPLLLACAVAGFLIWNFPPARIFMGDAGSGFLGMVIGALAIQAAWTAPSLFWCW  240
+            HVAMVGIPLLLACAVAGFLIWNFPPARIFMGDAGSGFLGMVIGALAIQAAWTAPSLFWCW
+Sbjct  181  HVAMVGIPLLLACAVAGFLIWNFPPARIFMGDAGSGFLGMVIGALAIQAAWTAPSLFWCW  240
+
+Query  241  LILLGVFIVDATYTLIRRIARGEKFYEAHRSHAYQFASRRYASHLRVTLGVLAINTLWLL  300
+            LILLGVFIVDATYTLIRRIARGEKFYEAHRSHAYQFASRRYASHLRVTLGVLAINTLWLL
+Sbjct  241  LILLGVFIVDATYTLIRRIARGEKFYEAHRSHAYQFASRRYASHLRVTLGVLAINTLWLL  300
+
+Query  301  PLALMVALGWISGFIGILVAYAPLCLLAVGYKAGSLEKS  339
+            PLALMVALGWISGFIGILVAYAPLCLLAVGYKAGSLEKS
+Sbjct  301  PLALMVALGWISGFIGILVAYAPLCLLAVGYKAGSLEKS  339
+
+
+>VFG014146(gb|WP_003138482) (PA14_RS09495) glycosyltransferase 
+family 4 protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa UCBPP-PA14]
+Length=338
+
+ Score = 429 bits (1102),  Expect = 2e-151, Method: Compositional matrix adjust.
+ Identities = 223/329 (68%), Positives = 259/329 (79%), Gaps = 0/329 (0%)
+
+Query  10   VVLLFSFVATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAALVWMLSAGS  69
+            VV+  S V T GLRRYALA  LMDVPNARSSHS PTPRGGGVAIV+ FL  L+ + + G 
+Sbjct  9    VVMGLSLVLTGGLRRYALARSLMDVPNARSSHSVPTPRGGGVAIVMSFLLVLLILAALGQ  68
+
+Query  70   ISGGWGGAMLGAGSGVALLGFLDDHGHIAARWRLLGHFSAAIWILLWTGGFPPLDVVGHA  129
+            +S  +  A+LGAG G+A+LGFLDDHGHIAARWRLLGHF AA W L W GG PPL V G  
+Sbjct  69   VSWDYTWALLGAGIGIAVLGFLDDHGHIAARWRLLGHFLAAAWGLFWIGGLPPLTVFGFF  128
+
+Query  130  VDLGWLGHVLAVFYLVWVLNLYNFMDGIDGIASVEAIGVCVGGALIYWLTGHVAMVGIPL  189
+            +DLG LG VLA FYLVW+LNLYNFMDGIDGIASVEAI VC+GGAL++   G   +  + L
+Sbjct  129  LDLGLLGSVLAAFYLVWLLNLYNFMDGIDGIASVEAISVCLGGALLFLFVGEFKVAQVTL  188
+
+Query  190  LLACAVAGFLIWNFPPARIFMGDAGSGFLGMVIGALAIQAAWTAPSLFWCWLILLGVFIV  249
+            +LA AV GFL WNFP ARIFMGDAGSGFLG+V+G  ++QAAW AP L W W+ILLGVFIV
+Sbjct  189  VLAAAVMGFLFWNFPSARIFMGDAGSGFLGIVLGIQSLQAAWIAPQLLWSWIILLGVFIV  248
+
+Query  250  DATYTLIRRIARGEKFYEAHRSHAYQFASRRYASHLRVTLGVLAINTLWLLPLALMVALG  309
+            DAT+TL+RR+ RGEK YEAHRSHAYQFASR Y  HL VTL V AIN +WLLP A++VALG
+Sbjct  249  DATFTLLRRLIRGEKVYEAHRSHAYQFASRHYGRHLPVTLAVFAINFVWLLPFAVLVALG  308
+
+Query  310  WISGFIGILVAYAPLCLLAVGYKAGSLEK  338
+             + GF+G+L +Y PL +LA+ YKAG LE+
+Sbjct  309  KLDGFLGVLFSYVPLLMLAIRYKAGELER  337
+
+
+>VFG014134(gb|WP_003150897) (PSPA7_RS09490) glycosyltransferase 
+family 4 protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PA7]
+Length=339
+
+ Score = 373 bits (958),  Expect = 1e-129, Method: Compositional matrix adjust.
+ Identities = 210/338 (62%), Positives = 245/338 (72%), Gaps = 1/338 (0%)
+
+Query  1    MMIWMIACLVVLLFSFVATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAA  60
+            M IW I   VVL+ S   T  LR YA++ K+MD+PNARSSH+ PTPRGGGVAIVL FL  
+Sbjct  1    MSIWWILFPVVLV-SAGLTGVLRFYAISKKVMDIPNARSSHTVPTPRGGGVAIVLTFLLV  59
+
+Query  61   LVWMLSAGSISGGWGGAMLGAGSGVALLGFLDDHGHIAARWRLLGHFSAAIWILLWTGGF  120
+            + ++     +        L  G GVALLGFLDDHGH+AARWRLLGHF AA+  L    G 
+Sbjct  60   VFFLPLFSILEWRQALLFLLGGGGVALLGFLDDHGHVAARWRLLGHFMAALVSLFLLTGV  119
+
+Query  121  PPLDVVGHAVDLGWLGHVLAVFYLVWVLNLYNFMDGIDGIASVEAIGVCVGGALIYWLTG  180
+            PP  ++G+  DLGW+G VL  FYLVW+LNLYNFMDGIDG+AS+EAI VCVGGAL+YW+  
+Sbjct  120  PPFKLLGYQWDLGWVGVVLFAFYLVWLLNLYNFMDGIDGLASLEAIFVCVGGALVYWMND  179
+
+Query  181  HVAMVGIPLLLACAVAGFLIWNFPPARIFMGDAGSGFLGMVIGALAIQAAWTAPSLFWCW  240
+              A    PLLLA AV GFL WNFPPA+IFMGDAGSGFLG+ +G L+IQA W  P  FW W
+Sbjct  180  KAAFSLPPLLLAFAVLGFLFWNFPPAKIFMGDAGSGFLGLTLGVLSIQAMWVEPEFFWAW  239
+
+Query  241  LILLGVFIVDATYTLIRRIARGEKFYEAHRSHAYQFASRRYASHLRVTLGVLAINTLWLL  300
+            LILLGVFIVDATYTL RR+ RG+K YEAHRSHAYQ+ASR +  H  VTLGV  +N +WLL
+Sbjct  240  LILLGVFIVDATYTLARRLLRGDKVYEAHRSHAYQYASRHFGKHAPVTLGVTVLNLVWLL  299
+
+Query  301  PLALMVALGWISGFIGILVAYAPLCLLAVGYKAGSLEK  338
+            PLAL VA G +   +GI +AY PL  LAV +KAG LE 
+Sbjct  300  PLALWVASGHLEPVLGIAIAYTPLVFLAVKFKAGKLES  337
+
+
+>VFG019789(gb|WP_003452706) (PLES_RS09935) glycosyltransferase 
+family 4 protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa LESB58]
+Length=345
+
+ Score = 355 bits (912),  Expect = 2e-122, Method: Compositional matrix adjust.
+ Identities = 218/343 (64%), Positives = 255/343 (74%), Gaps = 6/343 (2%)
+
+Query  1    MMIWMIACLVVLLFSFVATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAA  60
+            M +W++   V  L S + T GLRRYA+A  L+DVPNARSSH  PTPRGGGVAIVL FL A
+Sbjct  1    MNLWLLLPAVAAL-SLLLTAGLRRYAIARSLIDVPNARSSHQVPTPRGGGVAIVLSFLLA  59
+
+Query  61   LVWMLSAGSISGGWGGAMLGAGSGVALLGFLDDHGHIAARWRLLGHFSAAIWILLWTGGF  120
+            ++     G++       +LGAG G+ALLGFLDDHGHIAARWRLLGHF+ A W+L W GG 
+Sbjct  60   VLLAAILGAVKPDLATGILGAGIGIALLGFLDDHGHIAARWRLLGHFAGACWLLYWLGGL  119
+
+Query  121  PPLDVVGHAVDLGWLGHVLAVFYLVWVLNLYNFMDGIDGIASVEAIGVCVGGALIYWLTG  180
+            P L   G  VDLGW+GH+ A FYLVW+LNLYNFMDGIDGIASVEA+ VCVG AL+  ++G
+Sbjct  120  PALAFFGLVVDLGWVGHIAAAFYLVWMLNLYNFMDGIDGIASVEAVCVCVGAALLVVVSG  179
+
+Query  181  ---HVAMVGI--PLLLACAVAGFLIWNFPPARIFMGDAGSGFLGMVIGALAIQAAWTAPS  235
+                 A  G+    LLA AV GFL WNFPPARIFMGDAGSGFLG++IG L++QAAW +P 
+Sbjct  180  VGSDEASQGVWLAALLAAAVTGFLFWNFPPARIFMGDAGSGFLGVIIGGLSLQAAWVSPQ  239
+
+Query  236  LFWCWLILLGVFIVDATYTLIRRIARGEKFYEAHRSHAYQFASRRYASHLRVTLGVLAIN  295
+            LFW WLILLGVFIVDAT TL+RR+ RG+K YEAHRSHAYQ+ASR Y  HL VTL V  IN
+Sbjct  240  LFWGWLILLGVFIVDATLTLLRRLLRGDKVYEAHRSHAYQYASRHYGRHLPVTLAVGGIN  299
+
+Query  296  TLWLLPLALMVALGWISGFIGILVAYAPLCLLAVGYKAGSLEK  338
+              WLLPLAL+VA G I G + +L+ Y PL  LA+ +KAG LE 
+Sbjct  300  IFWLLPLALLVAAGKIDGMLALLIGYLPLAFLALRFKAGVLES  342
+
+
+>VFG023798(gb|WP_005179818) (YE105_RS06215) glycosyltransferase 
+family 4 protein [O-antigen (VF0392) - Immune modulation (VFC0258)] 
+[Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+Length=341
+
+ Score = 337 bits (863),  Expect = 4e-115, Method: Compositional matrix adjust.
+ Identities = 172/319 (54%), Positives = 225/319 (71%), Gaps = 3/319 (1%)
+
+Query  19   TWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAALVWMLSAGSISGGWGGAM  78
+            T+ LR YAL   ++D PN+RSSH  PTPRGGGVAIV+ FL  ++     G +       +
+Sbjct  19   TYLLRLYALKNNIIDTPNSRSSHVTPTPRGGGVAIVISFLIGIILFYFLGYLPILSVVGL  78
+
+Query  79   LGAGSGVALLGFLDDHGHIAARWRLLGHFSAAIWILLWTGGFPPLDVVGHAVDLGWLGHV  138
+            + +G  +AL+GF DDHGHIAARWRLL HFSAA ++L   GGFP L+V G  ++LG  G +
+Sbjct  79   IVSGGVIALVGFWDDHGHIAARWRLLAHFSAAAFLLFCFGGFPVLNVSGFIIELGIFGSL  138
+
+Query  139  LAVFYLVWVLNLYNFMDGIDGIASVEAIGVCVGGALIYWLTG-HVAMVGIPLL--LACAV  195
+              + +LVW+LNLYNFMDGIDG+AS EA+  C+G   IY+++G H+ +    +L  LAC V
+Sbjct  139  FGLLFLVWMLNLYNFMDGIDGLASAEAVTACIGMIAIYYISGDHIELNSFLVLWLLACTV  198
+
+Query  196  AGFLIWNFPPARIFMGDAGSGFLGMVIGALAIQAAWTAPSLFWCWLILLGVFIVDATYTL  255
+             GFL+WNFPPA+IFMGDAGSGFLG++IG+LAI A W     F+CWLILLG+FIVDAT+TL
+Sbjct  199  LGFLLWNFPPAKIFMGDAGSGFLGLMIGSLAISAGWIDTRFFFCWLILLGLFIVDATWTL  258
+
+Query  256  IRRIARGEKFYEAHRSHAYQFASRRYASHLRVTLGVLAINTLWLLPLALMVALGWISGFI  315
+            +RR+  G K YEAHRSH YQ ASRR+  HL VTL  +AIN +WL P+AL+  L  ++  I
+Sbjct  259  VRRVLGGFKVYEAHRSHGYQIASRRFKRHLPVTLSAIAINIIWLFPIALLAGLNIVNPII  318
+
+Query  316  GILVAYAPLCLLAVGYKAG  334
+             ++++Y PL  +     AG
+Sbjct  319  ALIISYIPLLYIDYKLNAG  337
+
+
+>VFG038060(gb|WP_000262379) (AB57_RS00525) glycosyltransferase 
+family 4 protein [Capsule (VF0465) - Immune modulation (VFC0258)] 
+[Acinetobacter baumannii AB0057]
+Length=335
+
+ Score = 324 bits (831),  Expect = 3e-110, Method: Compositional matrix adjust.
+ Identities = 168/335 (50%), Positives = 227/335 (68%), Gaps = 1/335 (0%)
+
+Query  5    MIACLVVLLFSFVATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAALVWM  64
+            M+  L+  + SFV T+ +R YAL   ++D PN RSSH+ PTPRGGGVA+V+ +L +L  +
+Sbjct  1    MVYALIFFVLSFVLTYLMRMYALKKNIIDSPNERSSHTMPTPRGGGVAVVISYLLSLAGL  60
+
+Query  65   LSAGSISGGWGGAMLGAGSGVALLGFLDDHGHIAARWRLLGHFSAAIWILLWTGGFPPLD  124
+            +  G ++   G  ++ AG  +ALLGFLDDHGHI A  RL  HF  AI +++  GGF  + 
+Sbjct  61   IYLGYLTPSIGIIVIVAGFIIALLGFLDDHGHINALVRLAIHFMVAIGVVVALGGFTEVT  120
+
+Query  125  VVGHAVDLGWLGHVLAVFYLVWVLNLYNFMDGIDGIASVEAIGVCVGGALIYWLTGHVAM  184
+            +  + + LG++ +++AV +LVW+LNLYNFMDGI+GIAS+EAI   +  ALIYW+      
+Sbjct  121  IF-NGLQLGFVANIIAVLFLVWLLNLYNFMDGINGIASIEAITSVLSMALIYWVLNSTLN  179
+
+Query  185  VGIPLLLACAVAGFLIWNFPPARIFMGDAGSGFLGMVIGALAIQAAWTAPSLFWCWLILL  244
+              +  L+A  V GF++WNFP A+IFMGDA SGFLG+V+G  A+ A       F  W+I L
+Sbjct  180  SQVLSLMAATVFGFMLWNFPKAKIFMGDACSGFLGLVLGIWALYALKQDIGFFCAWIICL  239
+
+Query  245  GVFIVDATYTLIRRIARGEKFYEAHRSHAYQFASRRYASHLRVTLGVLAINTLWLLPLAL  304
+            GVFIVDAT+TLIRR+  G K Y+AHRSHAYQ+ASR+Y SH + TLGVL IN LWLLP+A 
+Sbjct  240  GVFIVDATFTLIRRVLNGHKMYDAHRSHAYQYASRKYQSHTKATLGVLTINLLWLLPMAY  299
+
+Query  305  MVALGWISGFIGILVAYAPLCLLAVGYKAGSLEKS  339
+            +     I   + I +AY PL +LA+ +KAG  E  
+Sbjct  300  LAVTKVIIPELVIAIAYFPLIVLAIYFKAGKTENE  334
+
+
+>VFG037949(gb|WP_001100755) (ABTJ_RS18520) glycosyltransferase 
+family 4 protein [Capsule (VF0465) - Immune modulation (VFC0258)] 
+[Acinetobacter baumannii MDR-TJ]
+Length=336
+
+ Score = 303 bits (775),  Expect = 8e-102, Method: Compositional matrix adjust.
+ Identities = 162/324 (50%), Positives = 216/324 (67%), Gaps = 5/324 (2%)
+
+Query  17   VATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAALVWMLSAGSISGGWGG  76
+            V T+ +R+YAL   ++D+PN RSSH +PTPRGGGVAIV+  L AL++   +  IS     
+Sbjct  16   VLTFSVRKYALRKNIIDLPNFRSSHVKPTPRGGGVAIVISVLMALLYSYISQFISLNDFF  75
+
+Query  77   AMLGAGSGVALLGFLDDHGHIAARWRLLGHFSAAIWILLWTGGFPPLDVVGHAVDLGWLG  136
+             + G+   +ALLGF DDH HI +  RL  HF  A +I+    GF  + V  + ++LG+  
+Sbjct  76   IIGGSCLLIALLGFCDDHAHINSMLRLSIHFITATFIVFSLDGFAQVSVFNN-LNLGFFT  134
+
+Query  137  HVLAVFYLVWVLNLYNFMDGIDGIASVEAIGVCVGGALIY-WLTGHVAMVGIPLLLACAV  195
+            ++LA+ +LVW+LNLYNFMDGI+GIAS+EAI V +  AL+Y W   +  ++   L +   V
+Sbjct  135  NILAILFLVWLLNLYNFMDGINGIASIEAISVGLSLALLYSWYDINNFIL---LAITSIV  191
+
+Query  196  AGFLIWNFPPARIFMGDAGSGFLGMVIGALAIQAAWTAPSLFWCWLILLGVFIVDATYTL  255
+             GFL+WNFP A+IFMGD GS FLG +   LA+ A      LF  W+I LGVFIVDAT+T+
+Sbjct  192  CGFLVWNFPKAKIFMGDVGSSFLGFLFAVLALYALKIDFKLFLAWIICLGVFIVDATFTI  251
+
+Query  256  IRRIARGEKFYEAHRSHAYQFASRRYASHLRVTLGVLAINTLWLLPLALMVALGWISGFI  315
+            IRRI RGEK Y+AHRSHAYQ+A+R + SH  VTL VL IN +WLLP A  V    IS  +
+Sbjct  252  IRRILRGEKIYQAHRSHAYQYAARYFDSHTPVTLAVLIINLIWLLPCAFFVLNKAISPLV  311
+
+Query  316  GILVAYAPLCLLAVGYKAGSLEKS  339
+            G+++AY PL +LA+ + AG LE  
+Sbjct  312  GLIIAYFPLIILAIYFNAGQLEHK  335
+
+
+>VFG038134(gb|WP_020752682) (BJAB0715_RS00565) glycosyltransferase 
+family 4 protein [Capsule (VF0465) - Immune modulation 
+(VFC0258)] [Acinetobacter baumannii BJAB0715]
+Length=336
+
+ Score = 302 bits (773),  Expect = 1e-101, Method: Compositional matrix adjust.
+ Identities = 162/324 (50%), Positives = 217/324 (67%), Gaps = 5/324 (2%)
+
+Query  17   VATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAALVWMLSAGSISGGWGG  76
+            V T+ +R+YAL   ++D+PN RSSH +PTPRGGGVAIV+  L AL++   +  IS     
+Sbjct  16   VLTFSVRKYALRKNIIDLPNFRSSHVKPTPRGGGVAIVISVLMALLYSYISQFISLNDFF  75
+
+Query  77   AMLGAGSGVALLGFLDDHGHIAARWRLLGHFSAAIWILLWTGGFPPLDVVGHAVDLGWLG  136
+             + G+   +ALLGF DDH HI +  RL  HF  A +I++   GF  + V  + ++LG+  
+Sbjct  76   IIGGSCLLIALLGFCDDHAHINSMLRLSIHFITATFIVVSLDGFAQVTVFNN-LNLGFFT  134
+
+Query  137  HVLAVFYLVWVLNLYNFMDGIDGIASVEAIGVCVGGALIY-WLTGHVAMVGIPLLLACAV  195
+            ++LA+ +LVW+LNLYNFMDGI+GIAS+EAI V +  AL+Y W   +  ++   L +   V
+Sbjct  135  NILAILFLVWLLNLYNFMDGINGIASIEAISVGLSLALLYSWYDINNFIL---LAITSIV  191
+
+Query  196  AGFLIWNFPPARIFMGDAGSGFLGMVIGALAIQAAWTAPSLFWCWLILLGVFIVDATYTL  255
+             GFL+WNFP A+IFMGD GS FLG +   LA+ A      LF  W+I LGVFIVDAT+T+
+Sbjct  192  CGFLLWNFPKAKIFMGDVGSSFLGFLFAVLALYALKIDFKLFLAWIICLGVFIVDATFTI  251
+
+Query  256  IRRIARGEKFYEAHRSHAYQFASRRYASHLRVTLGVLAINTLWLLPLALMVALGWISGFI  315
+            IRRI RGEK Y+AHRSHAYQ+A+R + SH  VTL VL IN +WLLP A  V    IS  +
+Sbjct  252  IRRILRGEKIYQAHRSHAYQYAARYFDSHTPVTLAVLIINLIWLLPCAFFVLNKAISPLV  311
+
+Query  316  GILVAYAPLCLLAVGYKAGSLEKS  339
+            G+++AY PL +LA+ + AG LE  
+Sbjct  312  GLIIAYFPLIILAIYFNAGQLEHK  335
+
+
+>VFG045310(gb|WP_010946499) (LPG_RS03780) glycosyltransferase 
+family 4 protein [LPS (VF0171) - Immune modulation (VFC0258)] 
+[Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+Length=334
+
+ Score = 147 bits (372),  Expect = 1e-41, Method: Compositional matrix adjust.
+ Identities = 93/256 (36%), Positives = 137/256 (54%), Gaps = 11/256 (4%)
+
+Query  25   YALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAALVWMLSAGS--ISGGWGGAMLGAG  82
+            +A  TKL+D+PN R+ HS+PT RGGG  +V + L+   W     S             A 
+Sbjct  23   FAQHTKLIDIPNERNLHSRPTVRGGG--LVFIGLSLFCWFFICNSQFFLTLDQFIFSIAI  80
+
+Query  83   SGVALLGFLDDHGHIAARWRLLGHFSAAIWILLWTGGFP-PLDVVGHAVDLGWLGHVLAV  141
+              +A + F+DD  +++   R    F   I  L+     P  LD      +  +L      
+Sbjct  81   IFIATISFIDDFYNLSVTIRFF--FQCLIAFLIVIFILPSQLDFGLFLFENTYLIAFFLF  138
+
+Query  142  FYLVWVLNLYNFMDGIDGIASVEAIGVCVGGALIYWLTGHVAMVGIPLLLACAVAGFLIW  201
+            F ++W +N +NFMDG+DG  + +AI +    AL +   G +      L+L  ++AGFLI+
+Sbjct  139  FAVIWAINHFNFMDGLDGFCASQAIFLLAAYALFFNSAGSLIYQDFCLILISSLAGFLIF  198
+
+Query  202  NFPPARIFMGDAGSGFLGMVIGALAI--QAAWTAPSLFWCWLILLGVFIVDATYTLIRRI  259
+            NFPPA+IFMGD GS  LG++   +AI  Q  +  P L+  W IL  +F+ D+T TLIRRI
+Sbjct  199  NFPPAKIFMGDVGSASLGLITFFIAIIAQKNYQIPILY--WFILNSLFLFDSTVTLIRRI  256
+
+Query  260  ARGEKFYEAHRSHAYQ  275
+             + EK++  H+ HAYQ
+Sbjct  257  IKHEKWFSPHKKHAYQ  272
+
+
+>VFG005841(gb|WP_002262748) (SMU_RS01255) rhamnose-glucose polysaccharide 
+biosynthesis protein RgpB [Capsule (VF0144) - Immune 
+modulation (VFC0258)] [Streptococcus mutans UA159]
+Length=386
+
+ Score = 113 bits (282),  Expect = 3e-28, Method: Compositional matrix adjust.
+ Identities = 89/287 (31%), Positives = 147/287 (51%), Gaps = 15/287 (5%)
+
+Query  4    WMIACLVVLLFSFVATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAA---  60
+            +++  +  LL S V T  +R +A     +D PNAR  +  P P  GG+AI++ F+ A   
+Sbjct  8    FVLVLIATLLTSLVLTPLVRFFAFRVGAVDNPNARRINKVPMPSAGGLAIIISFVIATLA  67
+
+Query  61   LVWMLSAGSISG-GWGGAMLGAGSG---VALLGFLDDHGHIAARWRLLGHFSAAIWILLW  116
+            L+ M+    I G  +   +L    G   +AL GF+DD   ++ + + LG    A+ I ++
+Sbjct  68   LMPMILKTQIGGKSYFEYILPVVLGALVIALTGFIDDVYELSPKIKFLGILLGAVIIWIF  127
+
+Query  117  TG-GFPPLDVV--GHAVDLG-WLGHVLAVFYLVWVLNLYNFMDGIDGIAS-VEAIGVCVG  171
+            T   F    +   G  +    +L   L + ++V + N  N +DG+DG+ S V  I +   
+Sbjct  128  TDFRFDSFKIPFGGPMLHFNPFLSFFLTILWVVAITNAVNLIDGLDGLVSGVSMISLTTM  187
+
+Query  172  GALIYWL--TGHVAMVGIPLLLACAVAGFLIWNFPPARIFMGDAGSGFLGMVIGALAIQA  229
+            G + Y+      + +     +L  A+AGF  +N+ PA I++GD G+ F+G +I  L++Q 
+Sbjct  188  GLVSYFFLYDTDIFLTLTIFVLIFAIAGFFPYNYHPAIIYLGDTGALFIGFMISVLSLQG  247
+
+Query  230  AWTAPSL-FWCWLILLGVFIVDATYTLIRRIARGEKFYEAHRSHAYQ  275
+               A ++     +I+LGV IVD T  +IRR   G+KFYEA   H + 
+Sbjct  248  LKNATAVAVVTPIIVLGVPIVDTTVAIIRRTLSGQKFYEADNMHLHH  294
+
+
+>VFG018674(gb|WP_008809635) (SGO_RS08445) undecaprenyl/decaprenyl-phosphate 
+alpha-N-acetylglucosaminyl 1-phosphate transferase 
+[Capsule (VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+gordonii str. Challis substr. CH1]
+Length=388
+
+ Score = 110 bits (276),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 91/305 (30%), Positives = 151/305 (50%), Gaps = 41/305 (13%)
+
+Query  1    MMIWMIACLVVLLFSF----VATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLV  56
+            M+ + +  ++VLL +F    + T  +R  A     +D PNAR  + +P P  GG+A+V+ 
+Sbjct  3    MVTFPLKFIMVLLGTFFIGILLTPLVRILAFKIDAVDYPNARRINKKPMPSAGGLAVVIA  62
+
+Query  57   F-------LAALVWMLSAGSISGGWGGAMLGAGSGVALLGFLDDHGHIAARWRLLGHFSA  109
+            F       +  +V +   G     +   ++  G  VAL G +DD   ++   +LLG   A
+Sbjct  63   FSITSLIMMPTIVQVTFRGETYFDYIWPVVLGGGVVALTGLIDDVKELSPLPKLLGIVVA  122
+
+Query  110  A--IWIL---------LWTGG----FPPLDVVGHAVDLGWLGHVLAVFYLVWVLNLYNFM  154
+            A  IW+L         +  GG    FPP           WL  +L + ++V + N  N M
+Sbjct  123  ASLIWLLTDFRLNDFKIPFGGPHLFFPP-----------WLSFILTLIWIVSITNAVNLM  171
+
+Query  155  DGIDGIAS-VEAIGVCVGGALIYW-LTGHVAMVGIPL-LLACAVAGFLIWNFPPARIFMG  211
+            DG+DG+ S V  I +   G + Y+ L  H   + + + +L  ++AGF  +N+ PA I+ G
+Sbjct  172  DGLDGLVSGVSIISLLTMGVVSYFFLPDHNLFLTLTIFVLVASIAGFFPYNYHPAIIYGG  231
+
+Query  212  DAGSGFLGMVIGALAIQAAWTAPSL-FWCWLILLGVFIVDATYTLIRRIARGEKFYEAHR  270
+            D G+ F+G +I  L++Q    A ++     +I+LGV I D    ++RR   G+KFY+  R
+Sbjct  232  DTGALFIGFMISVLSLQGLKNATAVAVVTPMIILGVPIADTFLAIVRRTLSGQKFYQPDR  291
+
+Query  271  SHAYQ  275
+            +H + 
+Sbjct  292  NHLHH  296
+
+
+>VFG011519(gb|WP_002963669) (wbpL) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LPS (VF0367) - Immune modulation 
+(VFC0258)] [Brucella melitensis bv. 1 str. 16M]
+Length=335
+
+ Score = 95.1 bits (235),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 86/267 (32%), Positives = 137/267 (51%), Gaps = 10/267 (4%)
+
+Query  36   NARSSHSQPTPRGGGVAIVLVFLAALVWMLSAGSISGGWGGAMLGAGSGVALLGFLDDHG  95
+            ++RS+HS    + GG+A++   L  L        ++      + GA   + ++G LDD  
+Sbjct  36   SSRSNHSIAARQIGGLALIPAILVTLAIFAPDLEVNMQLFLCLSGASLLLWVVGGLDDRY  95
+
+Query  96   HIAARWRLLGHFSAAIWILLWTGGFPPLDVVGHAVDLGWLGHVLAVFYLVWVLNLYNFMD  155
+             ++   RL     AAI +L   G  P   ++ + +   WL   L VF L+  +N+ NFMD
+Sbjct  96   ELSEIIRLGSQLLAAITVLYGLG--PDFRLLPNLLPY-WLEATLIVFALIIAINVTNFMD  152
+
+Query  156  GIDGIASVEAIGVCVGGALIYWLTGHVAMV--GIPLLLACAVAGFLIWNFPPARIFMGDA  213
+            G+D + +V  +GV + G  +    G   +   GI  + A  + GF ++N PPA IF+GD+
+Sbjct  153  GLD-LMTVAGLGVPLVGIALLGALGLTGLTSSGIGAVAAGGLLGFALFNRPPASIFLGDS  211
+
+Query  214  GSGFLGMVIG-ALAIQAAWTAPSLFWCWLILLGVFIVDATYTLIRRIARGEKFYEAHRSH  272
+            GS  LG+++G AL + A  T        L+L   +I+DA  T++ R A+GE   +AH  H
+Sbjct  212  GSPPLGLIVGTALLLLARETH---IVVALVLPLYYILDAGTTIVMRAAQGENILKAHSKH  268
+
+Query  273  AYQFASRRYASHLRVTLGVLAINTLWL  299
+            AYQ A R   S  +V   V  +NT+ +
+Sbjct  269  AYQIAKRSGWSVPKVVAHVALLNTILI  295
+
+
+>VFG011521(gb|WP_002968712) (wbpL) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LPS (VF0367) - Immune modulation 
+(VFC0258)] [Brucella abortus bv. 1 str. 9-941]
+Length=335
+
+ Score = 95.1 bits (235),  Expect = 4e-22, Method: Compositional matrix adjust.
+ Identities = 86/267 (32%), Positives = 137/267 (51%), Gaps = 10/267 (4%)
+
+Query  36   NARSSHSQPTPRGGGVAIVLVFLAALVWMLSAGSISGGWGGAMLGAGSGVALLGFLDDHG  95
+            ++RS+HS    + GG+A++   L  L        ++      + GA   + ++G LDD  
+Sbjct  36   SSRSNHSIAARQIGGLALIPAILVTLAIFAPDLEVNMQLFLCLSGASLLLWVVGGLDDRY  95
+
+Query  96   HIAARWRLLGHFSAAIWILLWTGGFPPLDVVGHAVDLGWLGHVLAVFYLVWVLNLYNFMD  155
+             ++   RL     AAI +L   G  P   ++ + +   WL   L VF L+  +N+ NFMD
+Sbjct  96   ELSEIIRLGSQLLAAITVLYGLG--PDFRLLPNLLPY-WLEATLIVFALIIAINVTNFMD  152
+
+Query  156  GIDGIASVEAIGVCVGGALIYWLTGHVAMV--GIPLLLACAVAGFLIWNFPPARIFMGDA  213
+            G+D + +V  +GV + G  +    G   +   GI  + A  + GF ++N PPA IF+GD+
+Sbjct  153  GLD-LMTVAGLGVPLVGIALLGALGLTGLTSSGIGAVAAGGLLGFALFNRPPASIFLGDS  211
+
+Query  214  GSGFLGMVIG-ALAIQAAWTAPSLFWCWLILLGVFIVDATYTLIRRIARGEKFYEAHRSH  272
+            GS  LG+++G AL + A  T        L+L   +I+DA  T++ R A+GE   +AH  H
+Sbjct  212  GSPPLGLIVGTALLLLARETH---IVVALVLPLYYILDAGTTIVMRAAQGENILKAHSKH  268
+
+Query  273  AYQFASRRYASHLRVTLGVLAINTLWL  299
+            AYQ A R   S  +V   V  +NT+ +
+Sbjct  269  AYQIAKRSGWSVPKVVAHVALLNTILI  295
+
+
+>VFG019316(gb|WP_004686563) (wbpL) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LPS (VF0367) - Immune modulation 
+(VFC0258)] [Brucella melitensis ATCC 23457]
+Length=335
+
+ Score = 94.7 bits (234),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 86/267 (32%), Positives = 137/267 (51%), Gaps = 10/267 (4%)
+
+Query  36   NARSSHSQPTPRGGGVAIVLVFLAALVWMLSAGSISGGWGGAMLGAGSGVALLGFLDDHG  95
+            ++RS+HS    + GG+A++   L  L        ++      + GA   + ++G LDD  
+Sbjct  36   SSRSNHSIAARQIGGLALIPAILVTLAIFAPDLEVNMQLFLCLSGASLLLWVVGGLDDRY  95
+
+Query  96   HIAARWRLLGHFSAAIWILLWTGGFPPLDVVGHAVDLGWLGHVLAVFYLVWVLNLYNFMD  155
+             ++   RL     AAI +L   G  P   ++ + +   WL   L VF L+  +N+ NFMD
+Sbjct  96   ELSEIIRLGSQLLAAITVLYGLG--PDFRLLPNLLPY-WLEATLIVFALIIAINVTNFMD  152
+
+Query  156  GIDGIASVEAIGVCVGGALIYWLTGHVAMV--GIPLLLACAVAGFLIWNFPPARIFMGDA  213
+            G+D + +V  +GV + G  +    G   +   GI  + A  + GF ++N PPA IF+GD+
+Sbjct  153  GLD-LMTVAGLGVPLVGIALLGALGLTGLTSSGIGAVAAGGLLGFALFNRPPASIFLGDS  211
+
+Query  214  GSGFLGMVIG-ALAIQAAWTAPSLFWCWLILLGVFIVDATYTLIRRIARGEKFYEAHRSH  272
+            GS  LG+++G AL + A  T        L+L   +I+DA  T++ R A+GE   +AH  H
+Sbjct  212  GSPPLGLIVGTALLLLARETH---IVVALVLPLYYILDAGTTIVMRAAQGENILKAHSKH  268
+
+Query  273  AYQFASRRYASHLRVTLGVLAINTLWL  299
+            AYQ A R   S  +V   V  +NT+ +
+Sbjct  269  AYQIAKRSGWSVPKVVAHVALLNTILI  295
+
+
+>VFG007632(gb|WP_005417117) (wecA) UDP-N-acetylglucosamine--undecaprenyl-phosphate 
+N-acetylglucosaminephosphotransferase [Capsular 
+polysaccharide (VF0624) - Immune modulation (VFC0258)] 
+[Vibrio fischeri ES114]
+Length=363
+
+ Score = 76.3 bits (186),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 70/296 (24%), Positives = 136/296 (46%), Gaps = 38/296 (13%)
+
+Query  7    ACLVVLLFSFVATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAALVWMLS  66
+            A L V L SF++ + +R+ A    L+D PN R  H    P  GG++I       L+  L 
+Sbjct  4    AYLFVFLVSFISLFIMRKVAKRIGLVDKPNERKHHKGVIPLIGGISIFTTLCIGLLLFLP  63
+
+Query  67   AGSISGGWGGAMLGAGSGVALLGFLDDHGHIAARWRLLGHFSAAIWILLWTGGFPPLDVV  126
+                   +    L   + + +LG  DD+  ++ + RL+     ++ ++++ G        
+Sbjct  64   VTETLLMY----LACAAVLVVLGAFDDYFDVSFKIRLIVQTGISL-VIIFAG--------  110
+
+Query  127  GHAV-DLGWL------------GHVLAVFYLVWVLNLYNFMDGIDGIASVEAIGVCVGGA  173
+            GH++ +LG+L               + +  ++  +N +N +DGIDG+    A       A
+Sbjct  111  GHSLHNLGFLMGSETIMLSSAVSGFITILGVIGAINAFNMVDGIDGLLGGLASVTFAALA  170
+
+Query  174  LIYWLTGHVAMVGIPLLLACAVAGFLIWN--FPPAR---IFMGDAGSGFLGMVIGALAIQ  228
+             +++ +G+  +  +  L+  A+  +++ N  FP  R   +FMGDAGS F+G  +  + I+
+Sbjct  171  TVFYYSGNDYLAHVCGLIVIAMVPYIMLNLGFPLGRRFKVFMGDAGSMFIGFTVVWMLIR  230
+
+Query  229  AAWTAPSLFW-----CWLILLGVFIVDATYTLIRRIARGEKFYEAHRSHAYQFASR  279
+             +     + +      WLI   + ++D    +IRR+ +G+  ++  R H +    R
+Sbjct  231  GSQEPAVIAFKPVTALWLI--AIPLMDMATIMIRRVRKGQSPFKPDREHLHHICQR  284
+
+
+>VFG013510(gb|WP_011961857) (wecA) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LOS (VF0044) - Immune modulation 
+(VFC0258)] [Haemophilus influenzae PittEE]
+Length=355
+
+ Score = 64.7 bits (156),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 73/293 (25%), Positives = 125/293 (43%), Gaps = 30/293 (10%)
+
+Query  5    MIACLVVLLFSFVATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAALVWM  64
+            M++  V  L +F+    +R  A    L+D PN R  H    P  GGV++   F+  L + 
+Sbjct  1    MLSIFVTFLGAFLTLIVMRPLANWIGLVDKPNYRKRHQGAIPLIGGVSL---FIGNLCYY  57
+
+Query  65   LSAGSISGGWGGAMLGAGSGVAL-----LGFLDDHGHIAARWRLLGHFSAAIWILLWTGG  119
+            L        W    L      ++     +G LDD   I+   R      A + IL+   G
+Sbjct  58   LME------WDQLRLPYLYLFSIFVLLAIGILDDRFDISPFLR--AGIQAILAILMIDLG  109
+
+Query  120  FPPLDVVGH-----AVDLGWLGHVLAVFYLVWVLNLYNFMDGIDG-IASVEAIGVCVGGA  173
+               LD +G       + LG +G ++ VF  + ++N +N +DGIDG +  +  +     G 
+Sbjct  110  NIYLDHLGQILGPFQLTLGSIGLIITVFATIAIINAFNMIDGIDGLLGGLSCVSFAAIGI  169
+
+Query  174  LIYWLTGHVAMVGIPLLLACAVAGFLIWNF-----PPARIFMGDAGSGFLGMVIGALAIQ  228
+            L+Y   G + M      L  ++  +L+ N      P  ++FMGDAGS  +G  I  + + 
+Sbjct  170  LMYR-DGQMDMAHWSFALIVSILPYLMLNLGIPFGPKYKVFMGDAGSTLIGFTIIWILLL  228
+
+Query  229  AAWTA--PSLFWCWLILLGVFIVDATYTLIRRIARGEKFYEAHRSHAYQFASR  279
+            +      P      L ++ + ++D    + RR+ +G+  +   R H +    R
+Sbjct  229  STQGKGHPMNPVTALWIIAIPLIDMVAIIYRRVRKGKSPFRPDRLHVHHLMVR  281
+
+
+>VFG013509(gb|WP_005688044) (wecA) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LOS (VF0044) - Immune modulation 
+(VFC0258)] [Haemophilus influenzae 86-028NP]
+Length=355
+
+ Score = 64.7 bits (156),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 73/293 (25%), Positives = 125/293 (43%), Gaps = 30/293 (10%)
+
+Query  5    MIACLVVLLFSFVATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAALVWM  64
+            M++  V  L +F+    +R  A    L+D PN R  H    P  GGV++   F+  L + 
+Sbjct  1    MLSIFVTFLGAFLTLIVMRPLANWIGLVDKPNYRKRHQGTIPLIGGVSL---FVGNLCYY  57
+
+Query  65   LSAGSISGGWGGAMLGAGSGVAL-----LGFLDDHGHIAARWRLLGHFSAAIWILLWTGG  119
+            L        W    L      ++     +G LDD   I+   R      A + IL+   G
+Sbjct  58   LME------WDQLRLPYLYLFSIFVLLAIGILDDRFDISPFLR--AGIQAILAILMIDLG  109
+
+Query  120  FPPLDVVGH-----AVDLGWLGHVLAVFYLVWVLNLYNFMDGIDG-IASVEAIGVCVGGA  173
+               LD +G       + LG +G ++ VF  + ++N +N +DGIDG +  +  +     G 
+Sbjct  110  NIYLDHLGQILGPFQLTLGSIGLIITVFATIAIINAFNMIDGIDGLLGGLSCVSFAAIGI  169
+
+Query  174  LIYWLTGHVAMVGIPLLLACAVAGFLIWNF-----PPARIFMGDAGSGFLGMVIGALAIQ  228
+            L+Y   G + M      L  ++  +L+ N      P  ++FMGDAGS  +G  I  + + 
+Sbjct  170  LMYR-DGQMDMAHWSFALIVSILPYLMLNLGIPFGPKYKVFMGDAGSTLIGFTIIWILLL  228
+
+Query  229  AAWTA--PSLFWCWLILLGVFIVDATYTLIRRIARGEKFYEAHRSHAYQFASR  279
+            +      P      L ++ + ++D    + RR+ +G+  +   R H +    R
+Sbjct  229  STQGKGHPMNPVTALWIIAIPLIDMVAIIYRRVRKGKSPFRPDRLHVHHLMVR  281
+
+
+>VFG013512(gb|WP_041603568) (wecA) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LOS (VF0044) - Immune modulation 
+(VFC0258)] [Haemophilus ducreyi 35000HP]
+Length=354
+
+ Score = 62.8 bits (151),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 71/285 (25%), Positives = 128/285 (45%), Gaps = 24/285 (8%)
+
+Query  9    LVVLLFSFVATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAALV-WMLSA  67
+            + V + SF +   +R  A    L+D PN R  H    P  GG+A+   FL  L  + +  
+Sbjct  6    IAVFIVSFASLILMRPVAEKIGLIDKPNYRKRHQGLIPLIGGIAL---FLGNLTFYFIEW  62
+
+Query  68   GSISGGWGGAMLGAGSGVALLGFLDDHGHIAARWRLLGHFSAAIWILLWTGGFPPLDVVG  127
+              +   W    L A + + ++G LDD   ++   R+ G  +    ++++ G    L+ +G
+Sbjct  63   QDMRLPW--LYLTAVTVLLVIGLLDDRFDVSPFLRI-GLQAGLAGLMIYHG--LSLESLG  117
+
+Query  128  H-----AVDLGWLGHVLAVFYLVWVLNLYNFMDGIDGIASVEAIGVCVGGALIYWLTGHV  182
+                  ++ LG LG V  +   + V+N +N +DGIDG+ +  +     G  ++ WL    
+Sbjct  118  QVIAPFSIKLGILGTVFTILITIGVINAFNMVDGIDGLLAGLSSASFAGIGVLMWLDEQY  177
+
+Query  183  AMVGIPLLLACAVAGFLIWNFP----PARIFMGDAGSGFLGMVIG---ALAIQAAWTAPS  235
+            ++      L   +  + ++N        ++FMGD+GS  +G  I     L+ Q    A S
+Sbjct  178  SLAYWCFALIVVLIPYAMFNLSLLGAKWKVFMGDSGSTLIGFTIIWILLLSTQGQGHAIS  237
+
+Query  236  -LFWCWLILLGVFIVDATYTLIRRIARGEKFYEAHRSHAYQFASR  279
+             +   WLI   V ++D    ++RR+ +G+  +   R H +    R
+Sbjct  238  PITGLWLI--AVPLIDMVAVVLRRLKKGKSPFRPDRLHLHHLMMR  280
+
+
+>VFG013508(gb|WP_005694200) (wecA) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LOS (VF0044) - Immune modulation 
+(VFC0258)] [Haemophilus influenzae Rd KW20]
+Length=355
+
+ Score = 62.8 bits (151),  Expect = 7e-11, Method: Compositional matrix adjust.
+ Identities = 72/293 (25%), Positives = 124/293 (42%), Gaps = 30/293 (10%)
+
+Query  5    MIACLVVLLFSFVATWGLRRYALATKLMDVPNARSSHSQPTPRGGGVAIVLVFLAALVWM  64
+            M++  V  L +F+    +R  A    L+D PN R  H    P  GG ++   F+  L + 
+Sbjct  1    MLSIFVTFLGAFLTLIVMRPLANWIGLVDKPNYRKRHQGTIPLIGGASL---FVGNLCYY  57
+
+Query  65   LSAGSISGGWGGAMLGAGSGVAL-----LGFLDDHGHIAARWRLLGHFSAAIWILLWTGG  119
+            L        W    L      ++     +G LDD   I+   R      A + IL+   G
+Sbjct  58   LME------WDQLRLPYLYLFSIFVLLAIGILDDRFDISPFLR--AGIQAILAILMIDLG  109
+
+Query  120  FPPLDVVGH-----AVDLGWLGHVLAVFYLVWVLNLYNFMDGIDG-IASVEAIGVCVGGA  173
+               LD +G       + LG +G ++ VF  + ++N +N +DGIDG +  +  +     G 
+Sbjct  110  NIYLDHLGQILGPFQLTLGSIGLIITVFATIAIINAFNMIDGIDGLLGGLSCVSFAAIGI  169
+
+Query  174  LIYWLTGHVAMVGIPLLLACAVAGFLIWNF-----PPARIFMGDAGSGFLGMVIGALAIQ  228
+            L+Y   G + M      L  ++  +L+ N      P  ++FMGDAGS  +G  I  + + 
+Sbjct  170  LMYR-DGQMDMAHWSFALIVSILPYLMLNLGIPFGPKYKVFMGDAGSTLIGFTIIWILLL  228
+
+Query  229  AAWTA--PSLFWCWLILLGVFIVDATYTLIRRIARGEKFYEAHRSHAYQFASR  279
+            +      P      L ++ + ++D    + RR+ +G+  +   R H +    R
+Sbjct  229  STQGKGHPMNPVTALWIIAIPLIDMVAIIYRRVRKGKSPFRPDRLHVHHLMVR  281
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.144    0.485    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2492383838
+
+
+Query= g3663.t1
+
+Length=306
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG013508(gb|WP_005694200) (wecA) undecaprenyl-phosphate alpha-N-...  345     6e-119
+VFG013510(gb|WP_011961857) (wecA) undecaprenyl-phosphate alpha-N-...  345     7e-119
+VFG013509(gb|WP_005688044) (wecA) undecaprenyl-phosphate alpha-N-...  345     8e-119
+VFG013512(gb|WP_041603568) (wecA) undecaprenyl-phosphate alpha-N-...  299     1e-100
+VFG007632(gb|WP_005417117) (wecA) UDP-N-acetylglucosamine--undeca...  253     2e-82 
+VFG005841(gb|WP_002262748) (SMU_RS01255) rhamnose-glucose polysac...  103     4e-25 
+VFG018674(gb|WP_008809635) (SGO_RS08445) undecaprenyl/decaprenyl-...  94.7    6e-22 
+VFG045310(gb|WP_010946499) (LPG_RS03780) glycosyltransferase fami...  74.7    4e-15 
+VFG038060(gb|WP_000262379) (AB57_RS00525) glycosyltransferase fam...  54.3    3e-08 
+VFG023798(gb|WP_005179818) (YE105_RS06215) glycosyltransferase fa...  48.1    3e-06 
+VFG014146(gb|WP_003138482) (PA14_RS09495) glycosyltransferase fam...  48.1    3e-06 
+
+
+>VFG013508(gb|WP_005694200) (wecA) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LOS (VF0044) - Immune modulation 
+(VFC0258)] [Haemophilus influenzae Rd KW20]
+Length=355
+
+ Score = 345 bits (886),  Expect = 6e-119, Method: Compositional matrix adjust.
+ Identities = 169/287 (59%), Positives = 225/287 (78%), Gaps = 2/287 (1%)
+
+Query  14   LYLICAGVLVFVGAMDDRFDISVKIRAVVQAVIAVVMMVIAKLHLGSLGYIFGPWELVLG  73
+            LYL    VL+ +G +DDRFDIS  +RA +QA++A++M+ +  ++L  LG I GP++L LG
+Sbjct  69   LYLFSIFVLLAIGILDDRFDISPFLRAGIQAILAILMIDLGNIYLDHLGQILGPFQLTLG  128
+
+Query  74   PFGYFLTLFAVWAAINAFNMVDGIDGLLGGLSSVSFAAMGLILWFDGQTSLAMWCFAMIA  133
+              G  +T+FA  A INAFNM+DGIDGLLGGLS VSFAA+G++++ DGQ  +A W FA+I 
+Sbjct  129  SIGLIITVFATIAIINAFNMIDGIDGLLGGLSCVSFAAIGILMYRDGQMDMAHWSFALIV  188
+
+Query  134  AILPYIMLNLGI-LGRRYKVFMGDAGSTLIGFTVIWLLLETTQGKTHSISPVTALWIIAI  192
+            +ILPY+MLNLGI  G +YKVFMGDAGSTLIGFT+IW+LL +TQGK H ++PVTALWIIAI
+Sbjct  189  SILPYLMLNLGIPFGPKYKVFMGDAGSTLIGFTIIWILLLSTQGKGHPMNPVTALWIIAI  248
+
+Query  193  PLMDMVAIMYRRLRKGMSPFSPDRQHIHHLVMRAGFTSRQAFVLITLAAAILAGVGVTAE  252
+            PL+DMVAI+YRR+RKG SPF PDR H+HHL++RAG TSRQAF+LIT  +A+ A +G+  E
+Sbjct  249  PLIDMVAIIYRRVRKGKSPFRPDRLHVHHLMVRAGLTSRQAFLLITFVSAVCATIGILGE  308
+
+Query  253  YSHFVPEWVMLVLFLLAFFLYGYCIKRAWKVARFIKRVKRRLRRQRE  299
+              ++V EW M V F + FFLY Y I  AW++ R+++R+KRR +R ++
+Sbjct  309  -VYYVNEWAMFVGFFILFFLYVYSITHAWRITRWVRRMKRRAKRLKK  354
+
+
+>VFG013510(gb|WP_011961857) (wecA) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LOS (VF0044) - Immune modulation 
+(VFC0258)] [Haemophilus influenzae PittEE]
+Length=355
+
+ Score = 345 bits (886),  Expect = 7e-119, Method: Compositional matrix adjust.
+ Identities = 169/287 (59%), Positives = 225/287 (78%), Gaps = 2/287 (1%)
+
+Query  14   LYLICAGVLVFVGAMDDRFDISVKIRAVVQAVIAVVMMVIAKLHLGSLGYIFGPWELVLG  73
+            LYL    VL+ +G +DDRFDIS  +RA +QA++A++M+ +  ++L  LG I GP++L LG
+Sbjct  69   LYLFSIFVLLAIGILDDRFDISPFLRAGIQAILAILMIDLGNIYLDHLGQILGPFQLTLG  128
+
+Query  74   PFGYFLTLFAVWAAINAFNMVDGIDGLLGGLSSVSFAAMGLILWFDGQTSLAMWCFAMIA  133
+              G  +T+FA  A INAFNM+DGIDGLLGGLS VSFAA+G++++ DGQ  +A W FA+I 
+Sbjct  129  SIGLIITVFATIAIINAFNMIDGIDGLLGGLSCVSFAAIGILMYRDGQMDMAHWSFALIV  188
+
+Query  134  AILPYIMLNLGI-LGRRYKVFMGDAGSTLIGFTVIWLLLETTQGKTHSISPVTALWIIAI  192
+            +ILPY+MLNLGI  G +YKVFMGDAGSTLIGFT+IW+LL +TQGK H ++PVTALWIIAI
+Sbjct  189  SILPYLMLNLGIPFGPKYKVFMGDAGSTLIGFTIIWILLLSTQGKGHPMNPVTALWIIAI  248
+
+Query  193  PLMDMVAIMYRRLRKGMSPFSPDRQHIHHLVMRAGFTSRQAFVLITLAAAILAGVGVTAE  252
+            PL+DMVAI+YRR+RKG SPF PDR H+HHL++RAG TSRQAF+LIT  +A+ A +G+  E
+Sbjct  249  PLIDMVAIIYRRVRKGKSPFRPDRLHVHHLMVRAGLTSRQAFLLITFVSAVCATIGILGE  308
+
+Query  253  YSHFVPEWVMLVLFLLAFFLYGYCIKRAWKVARFIKRVKRRLRRQRE  299
+              ++V EW M V F + FFLY Y I  AW++ R+++R+KRR +R ++
+Sbjct  309  -VYYVNEWAMFVGFFILFFLYVYSITHAWRITRWVRRMKRRAKRLKK  354
+
+
+>VFG013509(gb|WP_005688044) (wecA) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LOS (VF0044) - Immune modulation 
+(VFC0258)] [Haemophilus influenzae 86-028NP]
+Length=355
+
+ Score = 345 bits (885),  Expect = 8e-119, Method: Compositional matrix adjust.
+ Identities = 169/287 (59%), Positives = 225/287 (78%), Gaps = 2/287 (1%)
+
+Query  14   LYLICAGVLVFVGAMDDRFDISVKIRAVVQAVIAVVMMVIAKLHLGSLGYIFGPWELVLG  73
+            LYL    VL+ +G +DDRFDIS  +RA +QA++A++M+ +  ++L  LG I GP++L LG
+Sbjct  69   LYLFSIFVLLAIGILDDRFDISPFLRAGIQAILAILMIDLGNIYLDHLGQILGPFQLTLG  128
+
+Query  74   PFGYFLTLFAVWAAINAFNMVDGIDGLLGGLSSVSFAAMGLILWFDGQTSLAMWCFAMIA  133
+              G  +T+FA  A INAFNM+DGIDGLLGGLS VSFAA+G++++ DGQ  +A W FA+I 
+Sbjct  129  SIGLIITVFATIAIINAFNMIDGIDGLLGGLSCVSFAAIGILMYRDGQMDMAHWSFALIV  188
+
+Query  134  AILPYIMLNLGI-LGRRYKVFMGDAGSTLIGFTVIWLLLETTQGKTHSISPVTALWIIAI  192
+            +ILPY+MLNLGI  G +YKVFMGDAGSTLIGFT+IW+LL +TQGK H ++PVTALWIIAI
+Sbjct  189  SILPYLMLNLGIPFGPKYKVFMGDAGSTLIGFTIIWILLLSTQGKGHPMNPVTALWIIAI  248
+
+Query  193  PLMDMVAIMYRRLRKGMSPFSPDRQHIHHLVMRAGFTSRQAFVLITLAAAILAGVGVTAE  252
+            PL+DMVAI+YRR+RKG SPF PDR H+HHL++RAG TSRQAF+LIT  +A+ A +G+  E
+Sbjct  249  PLIDMVAIIYRRVRKGKSPFRPDRLHVHHLMVRAGLTSRQAFLLITFVSAVCATIGILGE  308
+
+Query  253  YSHFVPEWVMLVLFLLAFFLYGYCIKRAWKVARFIKRVKRRLRRQRE  299
+              ++V EW M V F + FFLY Y I  AW++ R+++R+KRR +R ++
+Sbjct  309  -VYYVNEWAMFVGFFILFFLYVYSITHAWRITRWVRRMKRRAKRLKK  354
+
+
+>VFG013512(gb|WP_041603568) (wecA) undecaprenyl-phosphate alpha-N-acetylglucosaminyltransferase 
+[LOS (VF0044) - Immune modulation 
+(VFC0258)] [Haemophilus ducreyi 35000HP]
+Length=354
+
+ Score = 299 bits (765),  Expect = 1e-100, Method: Compositional matrix adjust.
+ Identities = 149/274 (54%), Positives = 197/274 (72%), Gaps = 2/274 (1%)
+
+Query  14   LYLICAGVLVFVGAMDDRFDISVKIRAVVQAVIAVVMMVIAKLHLGSLGYIFGPWELVLG  73
+            LYL    VL+ +G +DDRFD+S  +R  +QA +A  +M+   L L SLG +  P+ + LG
+Sbjct  70   LYLTAVTVLLVIGLLDDRFDVSPFLRIGLQAGLAG-LMIYHGLSLESLGQVIAPFSIKLG  128
+
+Query  74   PFGYFLTLFAVWAAINAFNMVDGIDGLLGGLSSVSFAAMGLILWFDGQTSLAMWCFAMIA  133
+              G   T+      INAFNMVDGIDGLL GLSS SFA +G+++W D Q SLA WCFA+I 
+Sbjct  129  ILGTVFTILITIGVINAFNMVDGIDGLLAGLSSASFAGIGVLMWLDEQYSLAYWCFALIV  188
+
+Query  134  AILPYIMLNLGILGRRYKVFMGDAGSTLIGFTVIWLLLETTQGKTHSISPVTALWIIAIP  193
+             ++PY M NL +LG ++KVFMGD+GSTLIGFT+IW+LL +TQG+ H+ISP+T LW+IA+P
+Sbjct  189  VLIPYAMFNLSLLGAKWKVFMGDSGSTLIGFTIIWILLLSTQGQGHAISPITGLWLIAVP  248
+
+Query  194  LMDMVAIMYRRLRKGMSPFSPDRQHIHHLVMRAGFTSRQAFVLITLAAAILAGVGVTAEY  253
+            L+DMVA++ RRL+KG SPF PDR H+HHL+MRAG TSRQA  +ITL A I + +GV  EY
+Sbjct  249  LIDMVAVVLRRLKKGKSPFRPDRLHLHHLMMRAGLTSRQALAVITLGATICSMIGVFGEY  308
+
+Query  254  SHFVPEWVMLVLFLLAFFLYGYCIKRAWKVARFI  287
+             ++  +W M   F+  FF+Y Y I  AW++ RFI
+Sbjct  309  -YYWNQWAMTAGFIALFFIYAYSITHAWRMTRFI  341
+
+
+>VFG007632(gb|WP_005417117) (wecA) UDP-N-acetylglucosamine--undecaprenyl-phosphate 
+N-acetylglucosaminephosphotransferase [Capsular 
+polysaccharide (VF0624) - Immune modulation (VFC0258)] 
+[Vibrio fischeri ES114]
+Length=363
+
+ Score = 253 bits (646),  Expect = 2e-82, Method: Compositional matrix adjust.
+ Identities = 140/292 (48%), Positives = 189/292 (65%), Gaps = 5/292 (2%)
+
+Query  12   LSLYLICAGVLVFVGAMDDRFDISVKIRAVVQAVIAVVMMVIAKLHLGSLGYIFGPWELV  71
+            L +YL CA VLV +GA DD FD+S KIR +VQ  I++V++      L +LG++ G   ++
+Sbjct  68   LLMYLACAAVLVVLGAFDDYFDVSFKIRLIVQTGISLVIIFAGGHSLHNLGFLMGSETIM  127
+
+Query  72   LGP-FGYFLTLFAVWAAINAFNMVDGIDGLLGGLSSVSFAAMGLILWFDGQTSLAMWCFA  130
+            L      F+T+  V  AINAFNMVDGIDGLLGGL+SV+FAA+  + ++ G   LA  C  
+Sbjct  128  LSSAVSGFITILGVIGAINAFNMVDGIDGLLGGLASVTFAALATVFYYSGNDYLAHVCGL  187
+
+Query  131  MIAAILPYIMLNLGI-LGRRYKVFMGDAGSTLIGFTVIWLLLETTQGKTH-SISPVTALW  188
+            ++ A++PYIMLNLG  LGRR+KVFMGDAGS  IGFTV+W+L+  +Q     +  PVTALW
+Sbjct  188  IVIAMVPYIMLNLGFPLGRRFKVFMGDAGSMFIGFTVVWMLIRGSQEPAVIAFKPVTALW  247
+
+Query  189  IIAIPLMDMVAIMYRRLRKGMSPFSPDRQHIHHLVMRAGFTSRQAFVLITLAAAILAGVG  248
+            +IAIPLMDM  IM RR+RKG SPF PDR+H+HH+  R G +S     LI   A I A  G
+Sbjct  248  LIAIPLMDMATIMIRRVRKGQSPFKPDREHLHHICQRLGLSSYMTLFLICTVALICAFFG  307
+
+Query  249  VTAEYSHFVPEWVMLVLFLLAFFLYGYCIKRAWKVARFIKRV-KRRLRRQRE  299
+            + A+ +  V E VM   FL  F +Y   I   W++  F+ ++  +R+  Q +
+Sbjct  308  IWADLNG-VSESVMFFSFLALFGVYFMTISYIWRITTFVHKLFGKRMSVQLQ  358
+
+
+>VFG005841(gb|WP_002262748) (SMU_RS01255) rhamnose-glucose polysaccharide 
+biosynthesis protein RgpB [Capsule (VF0144) - Immune 
+modulation (VFC0258)] [Streptococcus mutans UA159]
+Length=386
+
+ Score = 103 bits (257),  Expect = 4e-25, Method: Compositional matrix adjust.
+ Identities = 69/234 (29%), Positives = 121/234 (52%), Gaps = 9/234 (4%)
+
+Query  8    YIPHLSLYLICAGVLVFVGAMDDRFDISVKIRAVVQAVIAVVMMVIAKLHLGSLGYIFGP  67
+            Y  ++   ++ A V+   G +DD +++S KI+ +   + AV++ +       S    FG 
+Sbjct  82   YFEYILPVVLGALVIALTGFIDDVYELSPKIKFLGILLGAVIIWIFTDFRFDSFKIPFGG  141
+
+Query  68   WELVLGPF-GYFLTLFAVWAAINAFNMVDGIDGLLGGLSSVSFAAMGLILWF---DGQTS  123
+              L   PF  +FLT+  V A  NA N++DG+DGL+ G+S +S   MGL+ +F   D    
+Sbjct  142  PMLHFNPFLSFFLTILWVVAITNAVNLIDGLDGLVSGVSMISLTTMGLVSYFFLYDTDIF  201
+
+Query  124  LAMWCFAMIAAILPYIMLNLGILGRRYKVFMGDAGSTLIGFTVIWLLLETTQGKTHSISP  183
+            L +  F +I AI  +   N         +++GD G+  IGF +  L L+  +  T +++ 
+Sbjct  202  LTLTIFVLIFAIAGFFPYNY----HPAIIYLGDTGALFIGFMISVLSLQGLKNAT-AVAV  256
+
+Query  184  VTALWIIAIPLMDMVAIMYRRLRKGMSPFSPDRQHIHHLVMRAGFTSRQAFVLI  237
+            VT + ++ +P++D    + RR   G   +  D  H+HH ++  GFT R A +++
+Sbjct  257  VTPIIVLGVPIVDTTVAIIRRTLSGQKFYEADNMHLHHRLLAMGFTHRGAVLVV  310
+
+
+>VFG018674(gb|WP_008809635) (SGO_RS08445) undecaprenyl/decaprenyl-phosphate 
+alpha-N-acetylglucosaminyl 1-phosphate transferase 
+[Capsule (VF0144) - Immune modulation (VFC0258)] [Streptococcus 
+gordonii str. Challis substr. CH1]
+Length=388
+
+ Score = 94.7 bits (234),  Expect = 6e-22, Method: Compositional matrix adjust.
+ Identities = 76/296 (26%), Positives = 138/296 (47%), Gaps = 18/296 (6%)
+
+Query  19   AGVLVFVGAMDDRFDISVKIRAVVQAVIAVVMMVIAKLHLGSLGYIFGPWELVLGP-FGY  77
+             GV+   G +DD  ++S   + +   V A ++ ++    L      FG   L   P   +
+Sbjct  95   GGVVALTGLIDDVKELSPLPKLLGIVVAASLIWLLTDFRLNDFKIPFGGPHLFFPPWLSF  154
+
+Query  78   FLTLFAVWAAINAFNMVDGIDGLLGGLSSVSFAAMGLILWF---DGQTSLAMWCFAMIAA  134
+             LTL  + +  NA N++DG+DGL+ G+S +S   MG++ +F   D    L +  F ++A+
+Sbjct  155  ILTLIWIVSITNAVNLMDGLDGLVSGVSIISLLTMGVVSYFFLPDHNLFLTLTIFVLVAS  214
+
+Query  135  ILPYIMLNLGILGRRYKVFMGDAGSTLIGFTVIWLLLETTQGKTHSISPVTALWIIAIPL  194
+            I  +   N         ++ GD G+  IGF +  L L+  +  T +++ VT + I+ +P+
+Sbjct  215  IAGFFPYNY----HPAIIYGGDTGALFIGFMISVLSLQGLKNAT-AVAVVTPMIILGVPI  269
+
+Query  195  MDMVAIMYRRLRKGMSPFSPDRQHIHHLVMRAGFTSRQAFVLITLAAAILAGVGVTAEYS  254
+             D    + RR   G   + PDR H+HH ++  G T R   ++I   + I A + +    S
+Sbjct  270  ADTFLAIVRRTLSGQKFYQPDRNHLHHRLLSLGLTHRGTVLVIYGISLIFATISLLLNIS  329
+
+Query  255  HFVPEWVMLVLFLLAFFLYGYCIK-------RAWKVARFI--KRVKRRLRRQRENR  301
+              V   ++++  L    L    I+          K+ R+I     +  +RR+ +N+
+Sbjct  330  SRVGGVLLVIGLLFGVELLAELIEILGPNRTPLLKIMRYIGNSSYREEVRRRWKNK  385
+
+
+>VFG045310(gb|WP_010946499) (LPG_RS03780) glycosyltransferase 
+family 4 protein [LPS (VF0171) - Immune modulation (VFC0258)] 
+[Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+Length=334
+
+ Score = 74.7 bits (182),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 64/236 (27%), Positives = 110/236 (47%), Gaps = 21/236 (9%)
+
+Query  25   VGAMDDRFDISVKIRAVVQAVIA---VVMMVIAKLHLGSLGYIFGPWELVLGPFGYFLTL  81
+            +  +DD +++SV IR   Q +IA   V+ ++ ++L  G   ++F    L+      F   
+Sbjct  86   ISFIDDFYNLSVTIRFFFQCLIAFLIVIFILPSQLDFGL--FLFENTYLIA-----FFLF  138
+
+Query  82   FAVWAAINAFNMVDGIDGLLGGLSSVSFAAMGLILWFDGQTSLAMWCFAMIAAILPYIML  141
+            FAV  AIN FN +DG+DG     +    AA  L     G      +C  +I+++  +++ 
+Sbjct  139  FAVIWAINHFNFMDGLDGFCASQAIFLLAAYALFFNSAGSLIYQDFCLILISSLAGFLIF  198
+
+Query  142  NLGILGRRYKVFMGDAGSTLIGFTVIWLLLETTQGKTHSISPVTALWIIAIPLMDMVAIM  201
+            N        K+FMGD GS  +G  +I   +     K + I  +    + ++ L D    +
+Sbjct  199  NFP----PAKIFMGDVGSASLG--LITFFIAIIAQKNYQIPILYWFILNSLFLFDSTVTL  252
+
+Query  202  YRRLRKGMSPFSPDRQHIHHLVMRAGFTSRQAFVLITLAAAILAG-VGVTAEYSHF  256
+             RR+ K    FSP ++H +  + + G  SR     I L  AI+ G + ++  + HF
+Sbjct  253  IRRIIKHEKWFSPHKKHAYQRLKQLGINSR----FILLGQAIINGSLFLSVMFMHF  304
+
+
+>VFG038060(gb|WP_000262379) (AB57_RS00525) glycosyltransferase 
+family 4 protein [Capsule (VF0465) - Immune modulation (VFC0258)] 
+[Acinetobacter baumannii AB0057]
+Length=335
+
+ Score = 54.3 bits (129),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 60/224 (27%), Positives = 100/224 (45%), Gaps = 19/224 (8%)
+
+Query  7    YYIPHLSLYLICAG-VLVFVGAMDDRFDISVKIRAVVQAVIAVVMMVIAKLHLGSLGYIF  65
+            Y  P + + +I AG ++  +G +DD   I+  +R  +  ++A+ ++V     LG    + 
+Sbjct  65   YLTPSIGIIVIVAGFIIALLGFLDDHGHINALVRLAIHFMVAIGVVV----ALGGFTEVT  120
+
+Query  66   GPWELVLGPFGYFLT-LFAVWAAINAFNMVDGIDGLLGGLSSVSFAAMGLILWFDGQTSL  124
+                L LG     +  LF VW  +N +N +DGI+G+    +  S  +M LI W    T  
+Sbjct  121  IFNGLQLGFVANIIAVLFLVWL-LNLYNFMDGINGIASIEAITSVLSMALIYWVLNSTLN  179
+
+Query  125  AMWCFAMIAAILPYIMLNLGILGRRYKVFMGDAGSTLIGFTV-IWLLLETTQGKTHSISP  183
+            +     M A +  +++ N      + K+FMGDA S  +G  + IW L    Q     I  
+Sbjct  180  SQVLSLMAATVFGFMLWNF----PKAKIFMGDACSGFLGLVLGIWALYALKQ----DIGF  231
+
+Query  184  VTALWIIAIP--LMDMVAIMYRRLRKGMSPFSPDRQHIHHLVMR  225
+              A WII +   ++D    + RR+  G   +   R H +    R
+Sbjct  232  FCA-WIICLGVFIVDATFTLIRRVLNGHKMYDAHRSHAYQYASR  274
+
+
+>VFG023798(gb|WP_005179818) (YE105_RS06215) glycosyltransferase 
+family 4 protein [O-antigen (VF0392) - Immune modulation (VFC0258)] 
+[Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+Length=341
+
+ Score = 48.1 bits (113),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 61/236 (26%), Positives = 99/236 (42%), Gaps = 40/236 (17%)
+
+Query  8    YIPHLSL--YLICAGVLVFVGAMDDRFDISVKIRAVVQAVIAVVMMVIAKLHLGSLGYIF  65
+            Y+P LS+   ++  GV+  VG  DD   I+ + R +     A  ++           + F
+Sbjct  69   YLPILSVVGLIVSGGVIALVGFWDDHGHIAARWRLLAHFSAAAFLL-----------FCF  117
+
+Query  66   GPWELV--------LGPFG-YFLTLFAVWAAINAFNMVDGIDGLLGGLSSVSFAAMGLIL  116
+            G + ++        LG FG  F  LF VW  +N +N +DGIDGL    +  +   M  I 
+Sbjct  118  GGFPVLNVSGFIIELGIFGSLFGLLFLVWM-LNLYNFMDGIDGLASAEAVTACIGMIAIY  176
+
+Query  117  WFDG-----QTSLAMWCFAMIAAILPYIMLNLGILGRRYKVFMGDAGSTLIGFTVIWLLL  171
+            +  G      + L +W  A    +L +++ N        K+FMGDAGS  +G  +  L +
+Sbjct  177  YISGDHIELNSFLVLWLLA--CTVLGFLLWNF----PPAKIFMGDAGSGFLGLMIGSLAI  230
+
+Query  172  ETTQGKTHSISPVTALWIIAIPL--MDMVAIMYRRLRKGMSPFSPDRQHIHHLVMR  225
+                  T         W+I + L  +D    + RR+  G   +   R H + +  R
+Sbjct  231  SAGWIDTRFF----FCWLILLGLFIVDATWTLVRRVLGGFKVYEAHRSHGYQIASR  282
+
+
+>VFG014146(gb|WP_003138482) (PA14_RS09495) glycosyltransferase 
+family 4 protein [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa UCBPP-PA14]
+Length=338
+
+ Score = 48.1 bits (113),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 44/166 (27%), Positives = 78/166 (47%), Gaps = 27/166 (16%)
+
+Query  75   FGYFLTL----------FAVWAAINAFNMVDGIDGLLGGLSSVSFAAMGLILW-FDGQTS  123
+            FG+FL L          + VW  +N +N +DGIDG +  + ++S    G +L+ F G+  
+Sbjct  125  FGFFLDLGLLGSVLAAFYLVWL-LNLYNFMDGIDG-IASVEAISVCLGGALLFLFVGEFK  182
+
+Query  124  LAMWCFAMIAAILPYIMLNLGILGRRYKVFMGDAGSTLIGFTVIWLLLETTQGKTHSISP  183
+            +A     + AA++ ++  N        ++FMGDAGS  +G     ++L     +   I+P
+Sbjct  183  VAQVTLVLAAAVMGFLFWNF----PSARIFMGDAGSGFLG-----IVLGIQSLQAAWIAP  233
+
+Query  184  VTALW----IIAIPLMDMVAIMYRRLRKGMSPFSPDRQHIHHLVMR  225
+               LW    ++ + ++D    + RRL +G   +   R H +    R
+Sbjct  234  -QLLWSWIILLGVFIVDATFTLLRRLIRGEKVYEAHRSHAYQFASR  278
+
+
+
+Lambda      K        H        a         alpha
+   0.333    0.145    0.458    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2163037698
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

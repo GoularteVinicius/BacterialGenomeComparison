@@ -1,0 +1,147 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1547.t1
+
+Length=248
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1583422050
+
+
+Query= g3325.t1
+
+Length=248
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043047(gb|NP_460907) (fliY) cystine ABC transporter substrate-...  50.4    2e-07
+VFG043099(gb|WP_001302033) (tcyJ) cystine ABC transporter substra...  47.4    2e-06
+VFG041139(gb|WP_006485337) (QU43_RS38205) transporter substrate-b...  45.8    7e-06
+
+
+>VFG043047(gb|NP_460907) (fliY) cystine ABC transporter substrate-binding 
+protein [Peritrichous flagella (VF0967) - Motility 
+(VFC0204)] [Salmonella enterica subsp. enterica serovar Typhimurium 
+str. LT2]
+Length=266
+
+ Score = 50.4 bits (119),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 52/201 (26%), Positives = 90/201 (45%), Gaps = 12/201 (6%)
+
+Query  45   GFTRQLGERVAQRLGLSLRFVETPNRRIDGFMAS---GHIHVICNSNPEWDSKPERYHWS  101
+            GF     E +A+ LG+      T   + DG +AS     I V+ N     D + ++Y +S
+Sbjct  65   GFEVDFAEALAKHLGVKASLKPT---KWDGMLASLDAKRIDVVINQVTISDVRKKKYDFS  121
+
+Query  102  -PALFEEQDVLLQRDDRPAIRDFAELRGKTLGTSLGYVYADDLMQAFAAGEIRREDTRDL  160
+             P        L+++ +   I+  A+L+GK +G  LG  Y + L Q     +IR  D  D 
+Sbjct  122  TPYTVSGIQALVKKGNEGTIKTAADLQGKKVGVGLGTNYEEWLRQHVQGVDIRTYD--DD  179
+
+Query  161  ASRVQMLKRSRLDAA-VDMRRPLLYLTRQHPELGLSVSPLVLQSYRMHCIYGGQLPVPVE  219
+             ++ Q L+  R+DA  VD    L  + +    L ++      Q   +    G +    ++
+Sbjct  180  PTKYQDLRVGRIDAILVDRLAALDLVKKTKGTLAVTGDAFSRQESGVALRKGNE--DLLK  237
+
+Query  220  SMDRVLDEMVRDGSIGRLLEN  240
+            ++D  + EM +DG++  L E 
+Sbjct  238  AVDNAIAEMQKDGTLKALSEK  258
+
+
+>VFG043099(gb|WP_001302033) (tcyJ) cystine ABC transporter substrate-binding 
+protein [Peritrichous flagella (VF1154) - Motility 
+(VFC0204)] [Escherichia coli O157:H7 str. EDL933]
+Length=266
+
+ Score = 47.4 bits (111),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 48/201 (24%), Positives = 92/201 (46%), Gaps = 12/201 (6%)
+
+Query  45   GFTRQLGERVAQRLGLSLRFVETPNRRIDGFMA---SGHIHVICNSNPEWDSKPERYHWS  101
+            GF  +  +++A+ LG+      T   + DG +A   S  I V+ N     D + ++Y +S
+Sbjct  65   GFEVEFAQQLAKHLGVEASLKPT---KWDGMLASLDSKRIDVVINQVTISDERKKKYDFS  121
+
+Query  102  -PALFEEQDVLLQRDDRPAIRDFAELRGKTLGTSLGYVYADDLMQAFAAGEIRREDTRDL  160
+             P        L+++ +   I+   +L+GK +G  LG  Y + L Q     ++R  D  D 
+Sbjct  122  TPYTISGIQALVKKGNEGTIKTADDLKGKKVGVGLGTNYEEWLRQNVQGVDVRTYD--DD  179
+
+Query  161  ASRVQMLKRSRLDAA-VDMRRPLLYLTRQHPELGLSVSPLVLQSYRMHCIYGGQLPVPVE  219
+             ++ Q L+  R+DA  VD    L  + + +  L ++      Q   +    G +    ++
+Sbjct  180  PTKYQDLRVGRIDAILVDRLAALDLVKKTNDTLAVTGEAFSRQESGVALRKGNE--DLLK  237
+
+Query  220  SMDRVLDEMVRDGSIGRLLEN  240
+            +++  + EM +DG++  L E 
+Sbjct  238  AVNDAIAEMQKDGTLQALSEK  258
+
+
+>VFG041139(gb|WP_006485337) (QU43_RS38205) transporter substrate-binding 
+domain-containing protein [T6SS (VF0698) - Effector 
+delivery system (VFC0086)] [Burkholderia cenocepacia J2315]
+Length=266
+
+ Score = 45.8 bits (107),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 38/149 (26%), Positives = 66/149 (44%), Gaps = 14/149 (9%)
+
+Query  45   GFTRQLGERVAQRLGLSLRFVETPNRRIDGFMASGHIHVICNSNPEWDSKPERYHWS-PA  103
+            GF   +   VA +LG+  +F+ T    I   + +G   VI N       + E   +S P 
+Sbjct  61   GFDVDVANAVAGKLGVKTQFIPTEWSGIIAGLQAGKFDVIVNQVTITPQRKEALDFSEPY  120
+
+Query  104  LFEEQDVLLQRDDRPAIRDFAELRGKTLGTSLGYVYADDLMQAFAAGEIRR-----EDTR  158
+             +    ++ ++DD    +   + +GK LG +LG  Y D + +     E++      E  R
+Sbjct  121  TYSAAQLIQRKDDTRNFKSLDDFKGKKLGVTLGTNY-DQMARTVPGIEVQTYPGAPEKLR  179
+
+Query  159  DLASRVQMLKRSRLDAAVDMRRPLLYLTR  187
+            DLA+        R++A +D R  L Y+ +
+Sbjct  180  DLAA-------GRIEATLDDRLMLPYMIK  201
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1583422050
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

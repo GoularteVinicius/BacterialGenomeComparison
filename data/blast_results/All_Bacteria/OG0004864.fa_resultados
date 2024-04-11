@@ -1,0 +1,253 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1724.t1
+
+Length=121
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000196(gb|NP_250392) (pcr3) type III secretion system protein ...  238     5e-83
+VFG015116(gb|WP_003140044) (pcr3) type III secretion system prote...  235     6e-82
+VFG041823(gb|WP_011147904) (sctX) YscX family type III secretion ...  115     3e-34
+VFG041655(gb|WP_012777230) (sctX) YscX family type III secretion ...  111     8e-33
+VFG000386(gb|WP_002212969) (yscX) type III secretion system prote...  108     8e-32
+VFG023713(gb|WP_010891214) (yscX) type III secretion system prote...  107     2e-31
+VFG038344(gb|WP_005320766) (ascX) Unknown function, chaperoned by...  104     3e-30
+VFG042269(gb|AAS91814) (ascX) AscX [T3SS (VF0479) - Effector deli...  104     3e-30
+VFG007154(gb|WP_005464441) (vscX) type III secretion system C-rin...  60.8    5e-13
+
+
+>VFG000196(gb|NP_250392) (pcr3) type III secretion system protein 
+Pcr3 [TTSS (VF0083) - Effector delivery system (VFC0086)] 
+[Pseudomonas aeruginosa PAO1]
+Length=121
+
+ Score = 238 bits (607),  Expect = 5e-83, Method: Compositional matrix adjust.
+ Identities = 121/121 (100%), Positives = 121/121 (100%), Gaps = 0/121 (0%)
+
+Query  1    MSRVGAWHIGIERLDLAHAEPFAPPLPERHLLAPDGRPVETHVASLYPAQQAQQRLFDYA  60
+            MSRVGAWHIGIERLDLAHAEPFAPPLPERHLLAPDGRPVETHVASLYPAQQAQQRLFDYA
+Sbjct  1    MSRVGAWHIGIERLDLAHAEPFAPPLPERHLLAPDGRPVETHVASLYPAQQAQQRLFDYA  60
+
+Query  61   RPQLEFHGLLRPGDFRQALRDLRLALTLPRQPALQAAACLLGERDEDERLLQMALNLLHK  120
+            RPQLEFHGLLRPGDFRQALRDLRLALTLPRQPALQAAACLLGERDEDERLLQMALNLLHK
+Sbjct  61   RPQLEFHGLLRPGDFRQALRDLRLALTLPRQPALQAAACLLGERDEDERLLQMALNLLHK  120
+
+Query  121  V  121
+            V
+Sbjct  121  V  121
+
+
+>VFG015116(gb|WP_003140044) (pcr3) type III secretion system protein 
+Pcr3 [TTSS (VF0083) - Effector delivery system (VFC0086)] 
+[Pseudomonas aeruginosa UCBPP-PA14]
+Length=121
+
+ Score = 235 bits (600),  Expect = 6e-82, Method: Compositional matrix adjust.
+ Identities = 120/121 (99%), Positives = 120/121 (99%), Gaps = 0/121 (0%)
+
+Query  1    MSRVGAWHIGIERLDLAHAEPFAPPLPERHLLAPDGRPVETHVASLYPAQQAQQRLFDYA  60
+            MSRVGAWHIGIERLDLAHAEPFAPPLPERHLLAPDGRPVETHVASLYPAQQAQQRLFDYA
+Sbjct  1    MSRVGAWHIGIERLDLAHAEPFAPPLPERHLLAPDGRPVETHVASLYPAQQAQQRLFDYA  60
+
+Query  61   RPQLEFHGLLRPGDFRQALRDLRLALTLPRQPALQAAACLLGERDEDERLLQMALNLLHK  120
+            RPQLEFHGLLRPGDFRQALRDLRLALTLP QPALQAAACLLGERDEDERLLQMALNLLHK
+Sbjct  61   RPQLEFHGLLRPGDFRQALRDLRLALTLPGQPALQAAACLLGERDEDERLLQMALNLLHK  120
+
+Query  121  V  121
+            V
+Sbjct  121  V  121
+
+
+>VFG041823(gb|WP_011147904) (sctX) YscX family type III secretion 
+system protein SctX [T3SS (VF1288) - Effector delivery system 
+(VFC0086)] [Photorhabdus luminescens subsp. laumondii 
+TTO1]
+Length=121
+
+ Score = 115 bits (287),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 63/121 (52%), Positives = 77/121 (64%), Gaps = 0/121 (0%)
+
+Query  1    MSRVGAWHIGIERLDLAHAEPFAPPLPERHLLAPDGRPVETHVASLYPAQQAQQRLFDYA  60
+            MS++ A HIGIE+L     E     LP+R+ L PDG+ VETH A LYPA +A Q L  +A
+Sbjct  1    MSKIAAAHIGIEQLTAISREEIEVSLPDRYALLPDGQSVETHAARLYPANKADQALLAFA  60
+
+Query  61   RPQLEFHGLLRPGDFRQALRDLRLALTLPRQPALQAAACLLGERDEDERLLQMALNLLHK  120
+             PQ  FH LLRP DFRQA+  LR  L       +Q A  LL   ++DE+LLQMAL+LLHK
+Sbjct  61   CPQDGFHALLRPHDFRQAVSGLRTILQQGNDIRVQHAVSLLENMNQDEQLLQMALHLLHK  120
+
+Query  121  V  121
+            V
+Sbjct  121  V  121
+
+
+>VFG041655(gb|WP_012777230) (sctX) YscX family type III secretion 
+system protein SctX [T3SS-1 (VF1286) - Effector delivery 
+system (VFC0086)] [Photorhabdus asymbiotica subsp. asymbiotica 
+ATCC 43949]
+Length=121
+
+ Score = 111 bits (277),  Expect = 8e-33, Method: Compositional matrix adjust.
+ Identities = 60/121 (50%), Positives = 77/121 (64%), Gaps = 0/121 (0%)
+
+Query  1    MSRVGAWHIGIERLDLAHAEPFAPPLPERHLLAPDGRPVETHVASLYPAQQAQQRLFDYA  60
+            MSR+ + HIGIE+L     E     LP+R++L PDG+ VETH A LYPA +A Q L  +A
+Sbjct  1    MSRIASAHIGIEQLTAISQEEIGIGLPDRYVLLPDGQSVETHSARLYPANKADQTLLAFA  60
+
+Query  61   RPQLEFHGLLRPGDFRQALRDLRLALTLPRQPALQAAACLLGERDEDERLLQMALNLLHK  120
+             P+  FH LLRP DFRQA+  L   L       ++ A  LL   ++DE+LLQMAL+LLHK
+Sbjct  61   CPKDGFHSLLRPYDFRQAVSSLHETLQQGDDIRVRNAVSLLENMNQDEQLLQMALHLLHK  120
+
+Query  121  V  121
+            V
+Sbjct  121  V  121
+
+
+>VFG000386(gb|WP_002212969) (yscX) type III secretion system protein 
+YscX [TTSS (VF0140) - Effector delivery system (VFC0086)] 
+[Yersinia pestis CO92]
+Length=122
+
+ Score = 108 bits (271),  Expect = 8e-32, Method: Compositional matrix adjust.
+ Identities = 61/122 (50%), Positives = 79/122 (65%), Gaps = 1/122 (1%)
+
+Query  1    MSRV-GAWHIGIERLDLAHAEPFAPPLPERHLLAPDGRPVETHVASLYPAQQAQQRLFDY  59
+            MSR+  A HIGIE+L     E  +  LPER+ L PDG PVE H+  LYP  Q+++ L+D+
+Sbjct  1    MSRIITAPHIGIEKLSAISLEELSCGLPERYALPPDGHPVEPHLERLYPTAQSKRSLWDF  60
+
+Query  60   ARPQLEFHGLLRPGDFRQALRDLRLALTLPRQPALQAAACLLGERDEDERLLQMALNLLH  119
+            A P   FHGL R  D+R+ L  L+  LT  +   LQAAA LL  + +D+RLLQ+ LNLLH
+Sbjct  61   ASPGYTFHGLHRAQDYRRELDTLQSLLTTSQSSELQAAAALLKCQQDDDRLLQIILNLLH  120
+
+Query  120  KV  121
+            KV
+Sbjct  121  KV  122
+
+
+>VFG023713(gb|WP_010891214) (yscX) type III secretion system protein 
+YscX [TTSS (VF0140) - Effector delivery system (VFC0086)] 
+[Yersinia enterocolitica subsp. palearctica 105.5R(r)]
+Length=122
+
+ Score = 107 bits (267),  Expect = 2e-31, Method: Compositional matrix adjust.
+ Identities = 60/122 (49%), Positives = 79/122 (65%), Gaps = 1/122 (1%)
+
+Query  1    MSRV-GAWHIGIERLDLAHAEPFAPPLPERHLLAPDGRPVETHVASLYPAQQAQQRLFDY  59
+            MSR+  A HIGIE+L     E  +  LP+R+ L PDG PVE H+  LYP  Q+++ L+D+
+Sbjct  1    MSRIITAPHIGIEKLSAISLEELSCGLPDRYALPPDGHPVEPHLERLYPTAQSKRSLWDF  60
+
+Query  60   ARPQLEFHGLLRPGDFRQALRDLRLALTLPRQPALQAAACLLGERDEDERLLQMALNLLH  119
+            A P   FHGL R  D+R+ L  L+  LT  +   LQAAA LL  + +D+RLLQ+ LNLLH
+Sbjct  61   ASPGYTFHGLHRAQDYRRELDTLQSLLTTSQSSELQAAAALLKCQQDDDRLLQIILNLLH  120
+
+Query  120  KV  121
+            KV
+Sbjct  121  KV  122
+
+
+>VFG038344(gb|WP_005320766) (ascX) Unknown function, chaperoned 
+by AscY [T3SS (VF0479) - Effector delivery system (VFC0086)] 
+[Aeromonas salmonicida subsp. salmonicida A449]
+Length=121
+
+ Score = 104 bits (260),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 58/121 (48%), Positives = 77/121 (64%), Gaps = 0/121 (0%)
+
+Query  1    MSRVGAWHIGIERLDLAHAEPFAPPLPERHLLAPDGRPVETHVASLYPAQQAQQRLFDYA  60
+            MSR+ A HIGIE+L     +     LP R+ L PDG+ +E H++ LYP + A + L D+A
+Sbjct  1    MSRITAAHIGIEQLSAISLDDQERSLPGRYALLPDGQSIEPHISRLYPERLADRVLLDFA  60
+
+Query  61   RPQLEFHGLLRPGDFRQALRDLRLALTLPRQPALQAAACLLGERDEDERLLQMALNLLHK  120
+             P   FH LLRP DF QA++ LR  L   + P L+AAA LL +   DE+L+QM L+LLHK
+Sbjct  61   TPDRGFHDLLRPVDFNQAMQGLRSVLAEGQSPELRAAAALLEQMHADEQLMQMTLHLLHK  120
+
+Query  121  V  121
+            V
+Sbjct  121  V  121
+
+
+>VFG042269(gb|AAS91814) (ascX) AscX [T3SS (VF0479) - Effector 
+delivery system (VFC0086)] [Aeromonas hydrophila str. AH3]
+Length=121
+
+ Score = 104 bits (260),  Expect = 3e-30, Method: Compositional matrix adjust.
+ Identities = 58/121 (48%), Positives = 77/121 (64%), Gaps = 0/121 (0%)
+
+Query  1    MSRVGAWHIGIERLDLAHAEPFAPPLPERHLLAPDGRPVETHVASLYPAQQAQQRLFDYA  60
+            MSR+ A HIGIE+L     +     LP R+ L PDG+ +E H++ LYP + A + L D+A
+Sbjct  1    MSRITAAHIGIEQLSAISLDDQERSLPGRYALLPDGQSIEPHISRLYPERLADRALLDFA  60
+
+Query  61   RPQLEFHGLLRPGDFRQALRDLRLALTLPRQPALQAAACLLGERDEDERLLQMALNLLHK  120
+             P   FH LLRP DF QA++ LR  L   + P L+AAA LL +   DE+L+QM L+LLHK
+Sbjct  61   TPHRGFHDLLRPVDFHQAMQGLRSVLAEGQSPELRAAAILLEQMHADEQLMQMTLHLLHK  120
+
+Query  121  V  121
+            V
+Sbjct  121  V  121
+
+
+>VFG007154(gb|WP_005464441) (vscX) type III secretion system C-ring 
+protein VscX for secretion specificity [T3SS1 (VF0408) 
+- Effector delivery system (VFC0086)] [Vibrio parahaemolyticus 
+RIMD 2210633]
+Length=125
+
+ Score = 60.8 bits (146),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 45/129 (35%), Positives = 66/129 (51%), Gaps = 12/129 (9%)
+
+Query  1    MSRVGAWHIGIERLD-LAHAEPFAPPLPERHLLAPDGRPVETHVASLYPAQQAQQRLFDY  59
+            M+RV   ++GIE    ++H E      P+R  L PDG+ V TH+  LY  + + Q L   
+Sbjct  1    MTRVSTLNVGIEAFTHVSHGE-VDTDFPKRFQLLPDGQAVATHLEKLYDLRPSDQYLLAL  59
+
+Query  60   ARPQLEFHGLLRPGDFRQALRDLRLALTLPRQPALQAAACLLGERDE-------DERLLQ  112
+            A+P+L    LLRP  +RQ   +    L   +Q A ++ +  L +  E       D+R L 
+Sbjct  60   AKPKLNHCELLRPEKYRQQFDN---TLARVQQLAQESGSANLAKAAETLQSTQLDQRYLT  116
+
+Query  113  MALNLLHKV  121
+            MALNLL +V
+Sbjct  117  MALNLLIQV  125
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.140    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 369374266
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

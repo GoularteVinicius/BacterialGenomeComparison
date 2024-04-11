@@ -1,0 +1,228 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2272.t1
+
+Length=303
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG048950(gb|WP_015958709) (KPN_RS29080) glycosyltransferase [Cap...  247     5e-81
+VFG048899(gb|WP_014838953) (A225_RS19080) glycosyltransferase [Ca...  210     2e-66
+VFG048925(gb|YP_005227866) (KPHS_35660) glycosyl transferase fami...  147     8e-44
+
+
+>VFG048950(gb|WP_015958709) (KPN_RS29080) glycosyltransferase 
+[Capsule (VF0560) - Immune modulation (VFC0258)] [Klebsiella 
+pneumoniae subsp. pneumoniae MGH 78578]
+Length=302
+
+ Score = 247 bits (630),  Expect = 5e-81, Method: Compositional matrix adjust.
+ Identities = 126/305 (41%), Positives = 179/305 (59%), Gaps = 5/305 (2%)
+
+Query  1    MRCALVIPTRNAGAHLDRLLPALAAQRRQPDSILVVDSRSSDDTVERFRAFGARVEVIEP  60
+            M+  + +PT N  +  ++ +  +     +   + V+DS S+D+TV   +A G  V++I  
+Sbjct  1    MKFYIAVPTYNGSSLWEKTVKEIKKHAPKDTFVKVIDSGSTDNTVAIAKAAGFDVDIISS  60
+
+Query  61   ASFNHGGTRRWASQQV--EADALIYLTQDAIPASPDSFANLLDELYAEADIGVAYGRQLP  118
+              FNHGGTR    +Q   E D +I+LTQDAIP   + F   +  ++   DI  AYG+Q+P
+Sbjct  61   TEFNHGGTRNKIVEQYIGEYDVVIFLTQDAIPL--EGFVENIINIFNNPDIVCAYGKQIP  118
+
+Query  119  HPGAGLLGAQARRFNYPPESRSKRLADASELGIKTCFSSDSFSAYRSDALAAVGDFPEDV  178
+            H  A  +   AR FNYP           + LG+K+ F S+SFSAYR  A  ++G FP + 
+Sbjct  119  HLDANAIAKHARYFNYPDIKYESSKESVTSLGLKSVFMSNSFSAYRLSAFKSLGGFPSNT  178
+
+Query  179  IGSEDAYVAARLLQAGYAVRYAASAEVYHSHDYRLLEEFRRYFDIGVFYGRERWIRAAFG  238
+            I  ED Y AA+ L  GY   Y  SA V HSH+Y  LEEF+RYFDIGVF+  E WIRA FG
+Sbjct  179  ILCEDMYFAAKALLGGYKSAYVPSAIVRHSHNYSPLEEFKRYFDIGVFHQDEPWIRAQFG  238
+
+Query  239  GAGGEGKRYVLAEIQALRAAGALYRVPEIALRSAFKLLGYRLGQLERHLPVALKRRISMF  298
+            GA GEGKR++L+E   L   G L+ +P+  + +  K +GY+LG   + LP+ ++R+ISM 
+Sbjct  239  GATGEGKRFILSEFSYLLKNGFLW-IPQACINNIMKFVGYKLGGHYKKLPLEMRRKISMH  297
+
+Query  299  PGYWK  303
+              +WK
+Sbjct  298  KRFWK  302
+
+
+>VFG048899(gb|WP_014838953) (A225_RS19080) glycosyltransferase 
+[Capsule (VF0560) - Immune modulation (VFC0258)] [Klebsiella 
+oxytoca E718]
+Length=305
+
+ Score = 210 bits (534),  Expect = 2e-66, Method: Compositional matrix adjust.
+ Identities = 114/304 (38%), Positives = 171/304 (56%), Gaps = 5/304 (2%)
+
+Query  1    MRCALVIPTRNAGAHLDRLLPALAAQRRQPDSILVVDSRSSDDTVERFRAFGARVEVIEP  60
+            M+  + IPT N G         +     +   + ++DS S+DDTVE  R     V  I+ 
+Sbjct  1    MKFYIAIPTYNGGDIWRESANNIKKFSSENTFVQIIDSGSTDDTVEIARESNFNVMCIDK  60
+
+Query  61   ASFNHGGTRRWASQQV--EADALIYLTQDAIPASPDSFANLLDELYAEADIGVAYGRQLP  118
+              FNHGGTR  A +    + D +I+LTQDAIP   + F + +  ++ +  +  AYGRQLP
+Sbjct  61   REFNHGGTRNLAVKDNIDKYDIVIFLTQDAIP--EEGFLDKILSIFEDTSVACAYGRQLP  118
+
+Query  119  HPGAGLLGAQARRFNYPPESRSKRLADASELGIKTCFSSDSFSAYRSDALAAVGDFPEDV  178
+            H  A  L   AR FNY  +S S    D + +G+K+ F S+SFSAYR      +  FP + 
+Sbjct  119  HKDANPLAQHARYFNYSEKSYSCSKEDINRMGLKSVFMSNSFSAYRLSIFEKLEGFPSNT  178
+
+Query  179  IGSEDAYVAARLLQAGYAVRYAASAEVYHSHDYRLLEEFRRYFDIGVFYGRERWIRAAFG  238
+            I  ED +  A+ + +GY V Y A A V HSH+Y  L+EF+RYFDIGVF+  E+WIR   G
+Sbjct  179  ILCEDMFYTAKAILSGYKVAYVADAIVRHSHNYTPLDEFKRYFDIGVFHSDEKWIRDQIG  238
+
+Query  239  GAGGEGKRYVLAEIQALRAAGALYRVPEIALRSAFKLLGYRLGQLERHLPVALKRRISMF  298
+             A GEGK+++++E+  L     L+ +P   L +  K+ G++LG   + +P+ + +++SM 
+Sbjct  239  SAKGEGKKFIISELNFLMKNSPLW-IPYAFLNNFMKIFGFKLGLNYKKIPIKIIKKLSMH  297
+
+Query  299  PGYW  302
+              +W
+Sbjct  298  KRFW  301
+
+
+>VFG048925(gb|YP_005227866) (KPHS_35660) glycosyl transferase 
+family protein [Capsule (VF0560) - Immune modulation (VFC0258)] 
+[Klebsiella pneumoniae subsp. pneumoniae HS11286]
+Length=155
+
+ Score = 147 bits (370),  Expect = 8e-44, Method: Compositional matrix adjust.
+ Identities = 69/154 (45%), Positives = 101/154 (66%), Gaps = 1/154 (1%)
+
+Query  149  LGIKTCFSSDSFSAYRSDALAAVGDFPEDVIGSEDAYVAARLLQAGYAVRYAASAEVYHS  208
+            +G+K  F S+SFSAYR      +G FP + I  ED + A + L  G+ + Y A A+V HS
+Sbjct  1    MGLKAVFMSNSFSAYRLSVFEEIGGFPSNTILCEDMFFAGKALLRGHKIAYVADAKVRHS  60
+
+Query  209  HDYRLLEEFRRYFDIGVFYGRERWIRAAFGGAGGEGKRYVLAEIQALRAAGALYRVPEIA  268
+            H+Y  +EEF+RYFDIGVF+  E WIR  FGGAGGEGK+++L+E++ L A    + +P   
+Sbjct  61   HNYSAIEEFKRYFDIGVFHECEPWIRHNFGGAGGEGKKFILSELKFL-AEHYPHWIPVAF  119
+
+Query  269  LRSAFKLLGYRLGQLERHLPVALKRRISMFPGYW  302
+            + +  K+LGY+LGQ  +H+P ++ +R SM   +W
+Sbjct  120  INNFMKILGYKLGQRYKHIPYSVIQRFSMHKKFW  153
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2131537149
+
+
+Query= g1949.t1
+
+Length=158
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG048925(gb|YP_005227866) (KPHS_35660) glycosyl transferase fami...  192     1e-63
+VFG048950(gb|WP_015958709) (KPN_RS29080) glycosyltransferase [Cap...  187     5e-60
+VFG048899(gb|WP_014838953) (A225_RS19080) glycosyltransferase [Ca...  182     8e-58
+
+
+>VFG048925(gb|YP_005227866) (KPHS_35660) glycosyl transferase 
+family protein [Capsule (VF0560) - Immune modulation (VFC0258)] 
+[Klebsiella pneumoniae subsp. pneumoniae HS11286]
+Length=155
+
+ Score = 192 bits (487),  Expect = 1e-63, Method: Compositional matrix adjust.
+ Identities = 86/146 (59%), Positives = 111/146 (76%), Gaps = 0/146 (0%)
+
+Query  1    MSNSFAAYRRSVFEELSGFPEHTILAEDMFMAAKMIQAGYKVAYCAEAVVRHSHNYTPRE  60
+            MSNSF+AYR SVFEE+ GFP +TIL EDMF A K +  G+K+AY A+A VRHSHNY+  E
+Sbjct  8    MSNSFSAYRLSVFEEIGGFPSNTILCEDMFFAGKALLRGHKIAYVADAKVRHSHNYSAIE  67
+
+Query  61   EFQRYFDTGVFHACSPWIQRDFGGAGGEGFRFVKSEIQFLLKNAPFWIPRALLTTFAKFL  120
+            EF+RYFD GVFH C PWI+ +FGGAGGEG +F+ SE++FL ++ P WIP A +  F K L
+Sbjct  68   EFKRYFDIGVFHECEPWIRHNFGGAGGEGKKFILSELKFLAEHYPHWIPVAFINNFMKIL  127
+
+Query  121  GYKLGKHWQSLPLSTCRYFSMYKSYW  146
+            GYKLG+ ++ +P S  + FSM+K +W
+Sbjct  128  GYKLGQRYKHIPYSVIQRFSMHKKFW  153
+
+
+>VFG048950(gb|WP_015958709) (KPN_RS29080) glycosyltransferase 
+[Capsule (VF0560) - Immune modulation (VFC0258)] [Klebsiella 
+pneumoniae subsp. pneumoniae MGH 78578]
+Length=302
+
+ Score = 187 bits (476),  Expect = 5e-60, Method: Compositional matrix adjust.
+ Identities = 86/146 (59%), Positives = 104/146 (71%), Gaps = 0/146 (0%)
+
+Query  1    MSNSFAAYRRSVFEELSGFPEHTILAEDMFMAAKMIQAGYKVAYCAEAVVRHSHNYTPRE  60
+            MSNSF+AYR S F+ L GFP +TIL EDM+ AAK +  GYK AY   A+VRHSHNY+P E
+Sbjct  156  MSNSFSAYRLSAFKSLGGFPSNTILCEDMYFAAKALLGGYKSAYVPSAIVRHSHNYSPLE  215
+
+Query  61   EFQRYFDTGVFHACSPWIQRDFGGAGGEGFRFVKSEIQFLLKNAPFWIPRALLTTFAKFL  120
+            EF+RYFD GVFH   PWI+  FGGA GEG RF+ SE  +LLKN   WIP+A +    KF+
+Sbjct  216  EFKRYFDIGVFHQDEPWIRAQFGGATGEGKRFILSEFSYLLKNGFLWIPQACINNIMKFV  275
+
+Query  121  GYKLGKHWQSLPLSTCRYFSMYKSYW  146
+            GYKLG H++ LPL   R  SM+K +W
+Sbjct  276  GYKLGGHYKKLPLEMRRKISMHKRFW  301
+
+
+>VFG048899(gb|WP_014838953) (A225_RS19080) glycosyltransferase 
+[Capsule (VF0560) - Immune modulation (VFC0258)] [Klebsiella 
+oxytoca E718]
+Length=305
+
+ Score = 182 bits (462),  Expect = 8e-58, Method: Compositional matrix adjust.
+ Identities = 83/147 (56%), Positives = 109/147 (74%), Gaps = 0/147 (0%)
+
+Query  1    MSNSFAAYRRSVFEELSGFPEHTILAEDMFMAAKMIQAGYKVAYCAEAVVRHSHNYTPRE  60
+            MSNSF+AYR S+FE+L GFP +TIL EDMF  AK I +GYKVAY A+A+VRHSHNYTP +
+Sbjct  156  MSNSFSAYRLSIFEKLEGFPSNTILCEDMFYTAKAILSGYKVAYVADAIVRHSHNYTPLD  215
+
+Query  61   EFQRYFDTGVFHACSPWIQRDFGGAGGEGFRFVKSEIQFLLKNAPFWIPRALLTTFAKFL  120
+            EF+RYFD GVFH+   WI+   G A GEG +F+ SE+ FL+KN+P WIP A L  F K  
+Sbjct  216  EFKRYFDIGVFHSDEKWIRDQIGSAKGEGKKFIISELNFLMKNSPLWIPYAFLNNFMKIF  275
+
+Query  121  GYKLGKHWQSLPLSTCRYFSMYKSYWN  147
+            G+KLG +++ +P+   +  SM+K +W+
+Sbjct  276  GFKLGLNYKKIPIKIIKKLSMHKRFWD  302
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.136    0.438    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 707786574
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

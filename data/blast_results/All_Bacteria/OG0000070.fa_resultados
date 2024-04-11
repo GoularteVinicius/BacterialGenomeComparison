@@ -1,0 +1,468 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g162.t1
+
+Length=90
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding pro...  74.7    3e-18
+
+
+>VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding 
+protein [ML1683 (VF0867) - Adherence (VFC0001)] [Mycobacterium 
+leprae TN]
+Length=200
+
+ Score = 74.7 bits (182),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 41/90 (46%), Positives = 59/90 (66%), Gaps = 0/90 (0%)
+
+Query  1   MNKSELIDAIAEKGGVSKTDAGKALDATIASITEALKKGDTVTLVGFGTFSVKERAARTG  60
+           MNK+ELID + +K G  +  A  A++  + +I  A+ KGD+VT+ GFG F  + RAAR  
+Sbjct  1   MNKAELIDVLTQKLGSDRRQATAAVENVVDTIVRAVHKGDSVTITGFGVFEQRRRAARVA  60
+
+Query  61  RNPKTGEELQIKATKVPSFKAGKGLKDSVA  90
+           RNP+TGE +++K T VP+F+ G   K  VA
+Sbjct  61  RNPRTGETVKVKPTSVPAFRPGAQFKAVVA  90
+
+
+
+Lambda      K        H        a         alpha
+   0.308    0.126    0.329    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 336152949
+
+
+Query= g1334.t1
+
+Length=200
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding pro...  364     2e-130
+
+
+>VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding 
+protein [ML1683 (VF0867) - Adherence (VFC0001)] [Mycobacterium 
+leprae TN]
+Length=200
+
+ Score = 364 bits (935),  Expect = 2e-130, Method: Compositional matrix adjust.
+ Identities = 200/200 (100%), Positives = 200/200 (100%), Gaps = 0/200 (0%)
+
+Query  1    MNKAELIDVLTQKLGSDRRQATAAVENVVDTIVRAVHKGDSVTITGFGVFEQRRRAARVA  60
+            MNKAELIDVLTQKLGSDRRQATAAVENVVDTIVRAVHKGDSVTITGFGVFEQRRRAARVA
+Sbjct  1    MNKAELIDVLTQKLGSDRRQATAAVENVVDTIVRAVHKGDSVTITGFGVFEQRRRAARVA  60
+
+Query  61   RNPRTGETVKVKPTSVPAFRPGAQFKAVVAGAQRLPLEGPAVKRGVATSAAKKAAIKKAP  120
+            RNPRTGETVKVKPTSVPAFRPGAQFKAVVAGAQRLPLEGPAVKRGVATSAAKKAAIKKAP
+Sbjct  61   RNPRTGETVKVKPTSVPAFRPGAQFKAVVAGAQRLPLEGPAVKRGVATSAAKKAAIKKAP  120
+
+Query  121  VKKALAKKAATKAPAKKAVKAPAKKITTAVKVPAKKATKVVKKVAAKAPVRKATTRALAK  180
+            VKKALAKKAATKAPAKKAVKAPAKKITTAVKVPAKKATKVVKKVAAKAPVRKATTRALAK
+Sbjct  121  VKKALAKKAATKAPAKKAVKAPAKKITTAVKVPAKKATKVVKKVAAKAPVRKATTRALAK  180
+
+Query  181  KAAVKKAPAKKVTAAKRGRK  200
+            KAAVKKAPAKKVTAAKRGRK
+Sbjct  181  KAAVKKAPAKKVTAAKRGRK  200
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.123    0.322    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1117209765
+
+
+Query= g2935.t1
+
+Length=214
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding pro...  197     2e-64
+
+
+>VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding 
+protein [ML1683 (VF0867) - Adherence (VFC0001)] [Mycobacterium 
+leprae TN]
+Length=200
+
+ Score = 197 bits (502),  Expect = 2e-64, Method: Compositional matrix adjust.
+ Identities = 105/109 (96%), Positives = 106/109 (97%), Gaps = 0/109 (0%)
+
+Query  1    MNKAELIDVLTQKLGSDRRQATAAVENVVDTIVRAVHKGDSVTITGFGVFEQRRRAARVA  60
+            MNKAELIDVLTQKLGSDRRQATAAVENVVDTIVRAVHKGDSVTITGFGVFEQRRRAARVA
+Sbjct  1    MNKAELIDVLTQKLGSDRRQATAAVENVVDTIVRAVHKGDSVTITGFGVFEQRRRAARVA  60
+
+Query  61   RNPRTGETVKVKPTSVPAFRPGAQFKAVVSGAQRLPAEGPAVKRGVGAS  109
+            RNPRTGETVKVKPTSVPAFRPGAQFKAVV+GAQRLP EGPAVKRGV  S
+Sbjct  61   RNPRTGETVKVKPTSVPAFRPGAQFKAVVAGAQRLPLEGPAVKRGVATS  109
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.119    0.311    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1252229098
+
+
+Query= g1830.t1
+
+Length=90
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding pro...  58.2    7e-12
+
+
+>VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding 
+protein [ML1683 (VF0867) - Adherence (VFC0001)] [Mycobacterium 
+leprae TN]
+Length=200
+
+ Score = 58.2 bits (139),  Expect = 7e-12, Method: Compositional matrix adjust.
+ Identities = 34/89 (38%), Positives = 52/89 (58%), Gaps = 0/89 (0%)
+
+Query  1   MNKSELIDAIAASADIPKAVAGRALDAVIESVTGALKAGDSVVLVGFGTFAVKERAARTG  60
+           MNK+ELID +       +  A  A++ V++++  A+  GDSV + GFG F  + RAAR  
+Sbjct  1   MNKAELIDVLTQKLGSDRRQATAAVENVVDTIVRAVHKGDSVTITGFGVFEQRRRAARVA  60
+
+Query  61  RNPQTGKPIKIAAAKIPGFKAGKALKDAV  89
+           RNP+TG+ +K+    +P F+ G   K  V
+Sbjct  61  RNPRTGETVKVKPTSVPAFRPGAQFKAVV  89
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.130    0.349    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 336152949
+
+
+Query= g2783.t1
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding pro...  59.7    2e-12
+
+
+>VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding 
+protein [ML1683 (VF0867) - Adherence (VFC0001)] [Mycobacterium 
+leprae TN]
+Length=200
+
+ Score = 59.7 bits (143),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 33/89 (37%), Positives = 53/89 (60%), Gaps = 0/89 (0%)
+
+Query  4   LTKAEIAERLYEELGLNKREAKELVELFFEEIRQALEHNEQVKLSGFGNFDLRDKRQRPG  63
+           + KAE+ + L ++LG ++R+A   VE   + I +A+   + V ++GFG F+ R +  R  
+Sbjct  1   MNKAELIDVLTQKLGSDRRQATAAVENVVDTIVRAVHKGDSVTITGFGVFEQRRRAARVA  60
+
+Query  64  RNPKTGEEIPITARRVVTFRPGQKLKARV  92
+           RNP+TGE + +    V  FRPG + KA V
+Sbjct  61  RNPRTGETVKVKPTSVPAFRPGAQFKAVV  89
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.135    0.368    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 328038169
+
+
+Query= g3223.t1
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding pro...  52.0    2e-09
+
+
+>VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding 
+protein [ML1683 (VF0867) - Adherence (VFC0001)] [Mycobacterium 
+leprae TN]
+Length=200
+
+ Score = 52.0 bits (123),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 31/87 (36%), Positives = 53/87 (61%), Gaps = 1/87 (1%)
+
+Query  1   MTKSELIERIVTHQGQLSAKDVELAIKTMLEQMSQALATGDRIEIRGFGSFSLHYRAPRV  60
+           M K+ELI+ ++T +     +    A++ +++ + +A+  GD + I GFG F    RA RV
+Sbjct  1   MNKAELID-VLTQKLGSDRRQATAAVENVVDTIVRAVHKGDSVTITGFGVFEQRRRAARV  59
+
+Query  61  GRNPKTGESVRLDGKFVPHFKPGKELR  87
+            RNP+TGE+V++    VP F+PG + +
+Sbjct  60  ARNPRTGETVKVKPTSVPAFRPGAQFK  86
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.135    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 332907037
+
+
+Query= g4017.t1
+
+Length=93
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.129    0.339    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 333718515
+
+
+Query= g5450.t1
+
+Length=90
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding pro...  59.7    2e-12
+
+
+>VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding 
+protein [ML1683 (VF0867) - Adherence (VFC0001)] [Mycobacterium 
+leprae TN]
+Length=200
+
+ Score = 59.7 bits (143),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 35/89 (39%), Positives = 53/89 (60%), Gaps = 0/89 (0%)
+
+Query  1   MRKPELAAAIAEKADLTKEQANRVLNALLDEITGALNRKDSVTLVGFGTFLQRHRGARTG  60
+           M K EL   + +K    + QA   +  ++D I  A+++ DSVT+ GFG F QR R AR  
+Sbjct  1   MNKAELIDVLTQKLGSDRRQATAAVENVVDTIVRAVHKGDSVTITGFGVFEQRRRAARVA  60
+
+Query  61  KNPQTGQPVKIKASNTVAFKPGKALRDAV  89
+           +NP+TG+ VK+K ++  AF+PG   +  V
+Sbjct  61  RNPRTGETVKVKPTSVPAFRPGAQFKAVV  89
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.130    0.353    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 336152949
+
+
+Query= g419.t1
+
+Length=90
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding pro...  53.1    6e-10
+
+
+>VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding 
+protein [ML1683 (VF0867) - Adherence (VFC0001)] [Mycobacterium 
+leprae TN]
+Length=200
+
+ Score = 53.1 bits (126),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 33/91 (36%), Positives = 55/91 (60%), Gaps = 4/91 (4%)
+
+Query  1   MNKSQLIEKIAA--GADISKAAAGRALDAIIASVTESLKEGDDVALVGFGTFAVKERAAR  58
+           MNK++LI+ +    G+D  +A A  A++ ++ ++  ++ +GD V + GFG F  + RAAR
+Sbjct  1   MNKAELIDVLTQKLGSDRRQATA--AVENVVDTIVRAVHKGDSVTITGFGVFEQRRRAAR  58
+
+Query  59  TGRNPQTGKEITIAAAKVPSFRAGKALKDAV  89
+             RNP+TG+ + +    VP+FR G   K  V
+Sbjct  59  VARNPRTGETVKVKPTSVPAFRPGAQFKAVV  89
+
+
+
+Lambda      K        H        a         alpha
+   0.312    0.127    0.330    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 336152949
+
+
+Query= g915.t1
+
+Length=94
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding pro...  48.9    2e-08
+
+
+>VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding 
+protein [ML1683 (VF0867) - Adherence (VFC0001)] [Mycobacterium 
+leprae TN]
+Length=200
+
+ Score = 48.9 bits (115),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 30/87 (34%), Positives = 51/87 (59%), Gaps = 1/87 (1%)
+
+Query  1   MTKSELIERLATQQSHIPAKAVEDAVKEMLEHMASTLAQGERIEIRGFGSFSLHYRAPRT  60
+           M K+ELI+ L TQ+     +    AV+ +++ +   + +G+ + I GFG F    RA R 
+Sbjct  1   MNKAELIDVL-TQKLGSDRRQATAAVENVVDTIVRAVHKGDSVTITGFGVFEQRRRAARV  59
+
+Query  61  GRNPKTGDKVELEGKYVPHFKPGKELR  87
+            RNP+TG+ V+++   VP F+PG + +
+Sbjct  60  ARNPRTGETVKVKPTSVPAFRPGAQFK  86
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.133    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 332907037
+
+
+Query= g1243.t1
+
+Length=99
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding pro...  63.9    7e-14
+
+
+>VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding 
+protein [ML1683 (VF0867) - Adherence (VFC0001)] [Mycobacterium 
+leprae TN]
+Length=200
+
+ Score = 63.9 bits (154),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 36/92 (39%), Positives = 52/92 (57%), Gaps = 0/92 (0%)
+
+Query  3   LTKAEMSEYLFDKLGLSKRDAKELVELFFEEIRRALENGEQVKLSGFGNFDLRDKNQRPG  62
+           + KAE+ + L  KLG  +R A   VE   + I RA+  G+ V ++GFG F+ R +  R  
+Sbjct  1   MNKAELIDVLTQKLGSDRRQATAAVENVVDTIVRAVHKGDSVTITGFGVFEQRRRAARVA  60
+
+Query  63  RNPKTGEDIPITARRVVTFRPGQKLKSRVENA  94
+           RNP+TGE + +    V  FRPG + K+ V  A
+Sbjct  61  RNPRTGETVKVKPTSVPAFRPGAQFKAVVAGA  92
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.134    0.368    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 328849647
+
+
+Query= g3883.t1
+
+Length=90
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding pro...  65.9    9e-15
+
+
+>VFG043551(gb|WP_010908478) (ML_RS08565) HU family DNA-binding 
+protein [ML1683 (VF0867) - Adherence (VFC0001)] [Mycobacterium 
+leprae TN]
+Length=200
+
+ Score = 65.9 bits (159),  Expect = 9e-15, Method: Compositional matrix adjust.
+ Identities = 37/89 (42%), Positives = 54/89 (61%), Gaps = 0/89 (0%)
+
+Query  1   MNKTQLIDVIADKAELSKTQAKAALESTLAAITESLKEGDAVQLVGFGTFKVNHRAERTG  60
+           MNK +LIDV+  K    + QA AA+E+ +  I  ++ +GD+V + GFG F+   RA R  
+Sbjct  1   MNKAELIDVLTQKLGSDRRQATAAVENVVDTIVRAVHKGDSVTITGFGVFEQRRRAARVA  60
+
+Query  61  RNPQTGKEIKIAAANVPAFVSGKALKDAV  89
+           RNP+TG+ +K+   +VPAF  G   K  V
+Sbjct  61  RNPRTGETVKVKPTSVPAFRPGAQFKAVV  89
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.125    0.323    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 336152949
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,131 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2937.t1
+
+Length=244
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG006288(gb|WP_002216612) (exbB) TonB-system energizer ExbB [Ton...  100     6e-26
+VFG006291(gb|WP_003695658) (exbB) TonB-system energizer ExbB [Ton...  99.8    2e-25
+VFG036648(gb|WP_003706999) (exbB) TonB-system energizer ExbB [Ton...  98.2    6e-25
+
+
+>VFG006288(gb|WP_002216612) (exbB) TonB-system energizer ExbB 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria meningitidis Z2491]
+Length=220
+
+ Score = 100 bits (250),  Expect = 6e-26, Method: Compositional matrix adjust.
+ Identities = 67/193 (35%), Positives = 102/193 (53%), Gaps = 11/193 (6%)
+
+Query  15   MYQHADIVVKCVMIGLILASVVTWAIFFSKSVEFFTQKR------RLKREQLQLADARSL  68
+            +++  D V+  V + ++L S+VTW +   + ++ +  ++      R  R+ L L DA   
+Sbjct  6    VFESGDPVLIGVFVLMLLMSIVTWCLVVLRCIKLYRARKGNAAVKRHMRDTLSLNDAVEK  65
+
+Query  69   DQASDIAAGFSAKSLSAQLINEAQNEL-ELSQGSEDNEGIKERTGFRLERRVAAVGRYMG  127
+             +A D      A+       N  +NE  EL+Q    NE +      ++   +A + R   
+Sbjct  66   VRAVDAPLSKLAQEALQSYRNYRRNEASELAQALPLNEYLV----IQIRNSMAQIMRRFD  121
+
+Query  128  RGNGYLATIGAISPFVGLFGTVWGIMNSFIGIAQTQTTNLAVVAPGIAEALLATAIGLVA  187
+             G   LA+IGA +PF+GLFGTVWGI ++ I I Q+   ++A VA  I EAL+ATA GL  
+Sbjct  122  YGMTALASIGATAPFIGLFGTVWGIYHALINIGQSGQMSIAAVAGPIGEALVATAAGLFV  181
+
+Query  188  AIPAVVIYNIFAR  200
+            AIPAV+ YN   R
+Sbjct  182  AIPAVLAYNFLNR  194
+
+
+>VFG006291(gb|WP_003695658) (exbB) TonB-system energizer ExbB 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria gonorrhoeae FA 1090]
+Length=220
+
+ Score = 99.8 bits (247),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 67/193 (35%), Positives = 101/193 (52%), Gaps = 11/193 (6%)
+
+Query  15   MYQHADIVVKCVMIGLILASVVTWAIFFSKSVEFFTQKR------RLKREQLQLADARSL  68
+            +++  D V+  V + ++L S VTW +   + ++ +  ++      R  R+ L L DA   
+Sbjct  6    VFESGDPVLIGVFVLMLLMSTVTWCLVVLRCIKLYRARKGNAAVKRHMRDTLSLNDAVEK  65
+
+Query  69   DQASDIAAGFSAKSLSAQLINEAQNEL-ELSQGSEDNEGIKERTGFRLERRVAAVGRYMG  127
+             +A D      A+       N  +NE  EL+Q    NE +      ++   +A + R   
+Sbjct  66   VRAVDAPLSKLAQEALQSYRNYRRNEASELAQALPLNEYLV----IQIRNSMAQIMRRFD  121
+
+Query  128  RGNGYLATIGAISPFVGLFGTVWGIMNSFIGIAQTQTTNLAVVAPGIAEALLATAIGLVA  187
+             G   LA+IGA +PF+GLFGTVWGI ++ I I Q+   ++A VA  I EAL+ATA GL  
+Sbjct  122  YGMTALASIGATAPFIGLFGTVWGIYHALINIGQSGQMSIAAVAGPIGEALVATAAGLFV  181
+
+Query  188  AIPAVVIYNIFAR  200
+            AIPAV+ YN   R
+Sbjct  182  AIPAVLAYNFLNR  194
+
+
+>VFG036648(gb|WP_003706999) (exbB) TonB-system energizer ExbB 
+[Ton system (VF0895) - Nutritional/Metabolic factor (VFC0272)] 
+[Neisseria lactamica 020-06]
+Length=220
+
+ Score = 98.2 bits (243),  Expect = 6e-25, Method: Compositional matrix adjust.
+ Identities = 67/216 (31%), Positives = 109/216 (50%), Gaps = 9/216 (4%)
+
+Query  15   MYQHADIVVKCVMIGLILASVVTWAIFFSKSVEFFTQKRRLKREQLQLADARSLDQASDI  74
+            +++  D V+  V + ++L S+VTW +   + ++ +  ++     +  ++D   L  A + 
+Sbjct  6    VFESGDPVLIGVFVLMLLMSIVTWCLIVLRCIKLYQARKGNAAVKRHMSDTLPLGDAVEK  65
+
+Query  75   AAGFSAKSLSAQLINEAQNELELSQGSEDNE-----GIKERTGFRLERRVAAVGRYMGRG  129
+                 A    ++L+ EA       + SE +E      + E    ++   +A + R    G
+Sbjct  66   VRAVDAPL--SKLVQEALQSYRNYRRSEASELAQALPLNEYLVIQIRNSMAQIMRRFDYG  123
+
+Query  130  NGYLATIGAISPFVGLFGTVWGIMNSFIGIAQTQTTNLAVVAPGIAEALLATAIGLVAAI  189
+               LA+IGA +PF+GLFGTVWGI ++ I I Q+   ++A VA  I EAL+ATA GL  AI
+Sbjct  124  MTALASIGATAPFIGLFGTVWGIYHALINIGQSGQMSIAAVAGPIGEALVATAAGLFVAI  183
+
+Query  190  PAVVIYNIFARQIGSYKATLGDVAA--QVLLLQSRD  223
+            PAV+ YN   R   +    L  +A    V LL  +D
+Sbjct  184  PAVLAYNFLNRGTKTLAQDLDAMAHDLHVRLLNQKD  219
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.134    0.372    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1555866963
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

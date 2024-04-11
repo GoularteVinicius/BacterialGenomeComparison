@@ -1,0 +1,136 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2923.t1
+
+Length=476
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG041913(gb|WP_005763910) (PSPTO_RS07240) transglycosylase SLT d...  49.7    3e-06
+
+
+>VFG041913(gb|WP_005763910) (PSPTO_RS07240) transglycosylase SLT 
+domain-containing protein [P. syringae TTSS (VF0909) - Effector 
+delivery system (VFC0086)] [Pseudomonas syringae pv. 
+tomato str. DC3000]
+Length=495
+
+ Score = 49.7 bits (117),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 38/118 (32%), Positives = 53/118 (45%), Gaps = 14/118 (12%)
+
+Query  321  LALAAVAYKESHLNPKARGSGGASGLMQITPAAARSVGVGN--VHDKDSNVLAASR----  374
+            L LA +   ES  NP A     A+GL Q  P+  RS  +     +D   +V+A+S+    
+Sbjct  139  LELALLPMIESSYNPMANSPAAAAGLWQFIPSTGRSFNLHQSATYDARRDVVASSKAAMD  198
+
+Query  375  YLTKIRKQFFSSKHLDERERLAFTLAAYNMGPERVQNLRTQARRRGLDPNRWFFQVER  432
+            YLT++  QF +   L         LAAYN G   V       RRRGL  + W   + +
+Sbjct  199  YLTRLHDQFNNDWLL--------ALAAYNAGEGTVGRAIEANRRRGLPVDYWNLNLPK  248
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.134    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3864430860
+
+
+Query= g3836.t1
+
+Length=576
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043099(gb|WP_001302033) (tcyJ) cystine ABC transporter substra...  50.4    1e-06
+
+
+>VFG043099(gb|WP_001302033) (tcyJ) cystine ABC transporter substrate-binding 
+protein [Peritrichous flagella (VF1154) - Motility 
+(VFC0204)] [Escherichia coli O157:H7 str. EDL933]
+Length=266
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 68/238 (29%), Positives = 115/238 (48%), Gaps = 16/238 (7%)
+
+Query  122  LERVQKEGVLRV-ITRNSPATYFQDRNGE-TGFEYELAKRFAERLGVELKIETADNLDDL  179
+            L +V++ G L V +    P   FQ  +G+ TGFE E A++ A+ LGVE  ++     D +
+Sbjct  34   LNKVKERGTLLVGLEGTYPPFSFQGDDGKLTGFEVEFAQQLAKHLGVEASLKPT-KWDGM  92
+
+Query  180  YAQLSREGGPALAAAGLTPGREDDASVRYSHTYLDVTPQIIYRNGQQRPTRP-EDLVGKR  238
+             A L  +    +    +T   E      +S  Y     Q + + G +   +  +DL GK+
+Sbjct  93   LASLDSKRIDVVINQ-VTISDERKKKYDFSTPYTISGIQALVKKGNEGTIKTADDLKGKK  151
+
+Query  239  IMVLKGSSHAEQLAELKKQYPELKYEESDAVEVVDLLRMVDVGDIDLTLVDSNELAMNQV  298
+            + V  G+++ E L +   Q  +++  + D  +  DL     VG ID  LVD    A++ V
+Sbjct  152  VGVGLGTNYEEWLRQ-NVQGVDVRTYDDDPTKYQDL----RVGRIDAILVD-RLAALDLV  205
+
+Query  299  YFPNVRVAFDFGEA---RGLAWALPGGDDDSLMNEVNAFLDQAKKEGLLQRLKDRYYG  353
+               N  +A   GEA   +    AL  G++D L+  VN  + + +K+G LQ L ++++G
+Sbjct  206  KKTNDTLAV-TGEAFSRQESGVALRKGNED-LLKAVNDAIAEMQKDGTLQALSEKWFG  261
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4879688583
+
+
+Query= g2396.t1
+
+Length=514
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.133    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4237351657
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,116 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g210.t1
+
+Length=143
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043553(gb|WP_011113530) (MGA_RS01700) Ohr family peroxiredoxin...  79.0    1e-19
+
+
+>VFG043553(gb|WP_011113530) (MGA_RS01700) Ohr family peroxiredoxin 
+[MGA_1142/OsmC (VF0885) - Adherence (VFC0001)] [Mycoplasma 
+gallisepticum str. R(low)]
+Length=145
+
+ Score = 79.0 bits (193),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 45/138 (33%), Positives = 77/138 (56%), Gaps = 4/138 (3%)
+
+Query  5    KVVYRAKAKATGGRDGRATSSDGVLDVQLGVPKEMGGAGGAVTNPEQLFAAGYSACFLGA  64
+            K VY   A A  GR+G   ++DG L + LG PK MGG+     NPEQLFAAGY++CF  A
+Sbjct  3    KKVYETAAVAKVGREGLVKTTDGQLSLNLGFPKAMGGSHSDRLNPEQLFAAGYASCFSQA  62
+
+Query  65   LKFVANRDKFNISKDAYVE--GEVGIGPIPTGFSIEVTLNVYLIGMDREEAEKLVAAAHI  122
+            +  V+ +   ++ K+A +E   ++ +   P  F + V +++  + +   +A++L+  +H 
+Sbjct  63   VFAVSKKLGHDL-KEAPIEVTVQLHVQEEPMAFELRVGISL-TVDLPEAKAKELMKLSHE  120
+
+Query  123  VCPYSNATRNNIDVTFNI  140
+             CPYS   + +  +   +
+Sbjct  121  TCPYSKLAKPSQIIWLKV  138
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.135    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 571340159
+
+
+Query= g2908.t1
+
+Length=142
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043553(gb|WP_011113530) (MGA_RS01700) Ohr family peroxiredoxin...  79.0    1e-19
+
+
+>VFG043553(gb|WP_011113530) (MGA_RS01700) Ohr family peroxiredoxin 
+[MGA_1142/OsmC (VF0885) - Adherence (VFC0001)] [Mycoplasma 
+gallisepticum str. R(low)]
+Length=145
+
+ Score = 79.0 bits (193),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 49/141 (35%), Positives = 76/141 (54%), Gaps = 6/141 (4%)
+
+Query  4    IKALYTATATATGGRDGRAVSSDGVLDVKLSTPRELGGQGGAATNPEQLFAAGYSACFIG  63
+             K +Y   A A  GR+G   ++DG L + L  P+ +GG      NPEQLFAAGY++CF  
+Sbjct  2    FKKVYETAAVAKVGREGLVKTTDGQLSLNLGFPKAMGGSHSDRLNPEQLFAAGYASCFSQ  61
+
+Query  64   ALKFVAGQRKQTLP-ADASITGKVGIGQIPGGFGLEV--ELHINLPGLEREAAEALVAAA  120
+            A+  V+ +    L  A   +T ++ + + P  F L V   L ++LP  E +A E L+  +
+Sbjct  62   AVFAVSKKLGHDLKEAPIEVTVQLHVQEEPMAFELRVGISLTVDLP--EAKAKE-LMKLS  118
+
+Query  121  HQVCPYSNATRGNIDVRLNVS  141
+            H+ CPYS   + +  + L V+
+Sbjct  119  HETCPYSKLAKPSQIIWLKVN  139
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.133    0.379    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 560560156
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,769 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g339.t1
+
+Length=332
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043287(gb|WP_003425253) (CD630_RS01730) HAD-IB family phosphat...  58.9    4e-10
+VFG046692(gb|WP_012429566) (FTM_RS05930) hydrolase [Capsule (VF05...  52.0    2e-07
+VFG046695(gb|WP_003025503) (FTW_RS02910) hydrolase [Capsule (VF05...  52.0    2e-07
+VFG046694(gb|WP_003020703) (FTT_RS04125) hydrolase [Capsule (VF05...  50.8    6e-07
+VFG046689(gb|WP_010031957) (FTA_RS07290) hydrolase [Capsule (VF05...  49.7    1e-06
+
+
+>VFG043287(gb|WP_003425253) (CD630_RS01730) HAD-IB family phosphatase 
+[Peritrichous flagella (VF0732) - Motility (VFC0204)] 
+[Clostridium difficile 630]
+Length=205
+
+ Score = 58.9 bits (141),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 43/181 (24%), Positives = 89/181 (49%), Gaps = 15/181 (8%)
+
+Query  116  NRRLVCFDMDSTLIEQEVIDELALEAGVGEQVAEITERAMQGELDFQQSFRARVALLKGL  175
+            N + V FD+DSTL +QE++ E++      E +  +T   M G L F++SF+ RV LLK +
+Sbjct  8    NYKFV-FDLDSTLTKQEILPEISKCINKYELMQNLTNETMLGNLSFEESFKKRVDLLKCI  66
+
+Query  176  DASVLPKIAERLTITEGAERLISTLKALGYKTAILSGGFQYFAEYLQAKLGIDEVHANVL  235
+              S +  I  ++ +    E+++  +K    +  +++     +   L  +L ++  + + +
+Sbjct  67   PISKVKSIVAKINLN---EKIVKFIKENPDRCTVVTNNLDIWICDLMKELSLENKYYSSI  123
+
+Query  236  DVQDGVVTGEVKGVIVDGARKAELLRELANKLGISLEQAMAVGDGANDLPMLAIAGLGVA  295
+               +G           D   K +++ +  + +       +AVGDG+ND+ M+  A +G+ 
+Sbjct  124  AHSNG-----------DFIDKIKVIIKKEDIIKKMKGPIVAVGDGSNDIKMIENADIGIG  172
+
+Query  296  Y  296
+            +
+Sbjct  173  F  173
+
+
+>VFG046692(gb|WP_012429566) (FTM_RS05930) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. mediasiatica FSC147]
+Length=428
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 42/188 (22%), Positives = 90/188 (48%), Gaps = 14/188 (7%)
+
+Query  109  EDNAYRRNRRLV-CFDMDSTLIEQEVIDELALEAGVGEQVAEITERAMQGELDFQQSFRA  167
+            +D+ Y  +  +V  FD+D TL + E +  +A   G+ ++++++T   ++G + F +SF  
+Sbjct  6    KDDCYDFDNNIVFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESFIK  65
+
+Query  168  RVALLKGLDASVLPKIAERLTITEGAERLISTLKALGYKTAILSGGFQYFAEYLQAKLGI  227
+            RV +LK    S   +I   L   +   +++  +K       I +G F  +   L  K+G 
+Sbjct  66   RVNILKDFSIS---EINNLLRGVDLFSKIVDFIKLYKSNCYIATGNFDGWVSGLIEKIGC  122
+
+Query  228  DEVHANVLDVQDGVVTGEVKGVIVDGARKAELLRELANKLGISLEQAMAVGDGANDLPML  287
+                +      D +++ +   +I++  +  E+L+        S ++ + +GDG ND   +
+Sbjct  123  KYFASEGFVKDDQLLSLK---LILNKKKVVEMLQA-------SGKKVVFIGDGNNDAEAM  172
+
+Query  288  AIAGLGVA  295
+             +A + +A
+Sbjct  173  RVADISIA  180
+
+
+>VFG046695(gb|WP_003025503) (FTW_RS02910) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. tularensis WY96-3418]
+Length=428
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 42/188 (22%), Positives = 90/188 (48%), Gaps = 14/188 (7%)
+
+Query  109  EDNAYRRNRRLV-CFDMDSTLIEQEVIDELALEAGVGEQVAEITERAMQGELDFQQSFRA  167
+            +D+ Y  +  +V  FD+D TL + E +  +A   G+ ++++++T   ++G + F +SF  
+Sbjct  6    KDDCYDFDNNIVFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESFIK  65
+
+Query  168  RVALLKGLDASVLPKIAERLTITEGAERLISTLKALGYKTAILSGGFQYFAEYLQAKLGI  227
+            RV +LK    S   +I   L   +   +++  +K       I +G F  +   L  K+G 
+Sbjct  66   RVNILKDFSIS---EINNLLRGVDLFSKIVDFIKLYKSNCYIATGNFDGWVSGLIEKIGC  122
+
+Query  228  DEVHANVLDVQDGVVTGEVKGVIVDGARKAELLRELANKLGISLEQAMAVGDGANDLPML  287
+                +      D +++ +   +I++  +  E+L+        S ++ + +GDG ND   +
+Sbjct  123  KYFASEGFVKDDQLLSLK---LILNKKKVVEMLQA-------SGKKVVFIGDGNNDAEAM  172
+
+Query  288  AIAGLGVA  295
+             +A + +A
+Sbjct  173  RVADISIA  180
+
+
+>VFG046694(gb|WP_003020703) (FTT_RS04125) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. tularensis SCHU S4]
+Length=428
+
+ Score = 50.8 bits (120),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 41/188 (22%), Positives = 90/188 (48%), Gaps = 14/188 (7%)
+
+Query  109  EDNAYRRNRRLV-CFDMDSTLIEQEVIDELALEAGVGEQVAEITERAMQGELDFQQSFRA  167
+            +D+ Y  +  +V  FD+D TL + E +  +A   G+ ++++++T   ++G + F +SF  
+Sbjct  6    KDDCYDFDNNIVFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESFIK  65
+
+Query  168  RVALLKGLDASVLPKIAERLTITEGAERLISTLKALGYKTAILSGGFQYFAEYLQAKLGI  227
+            RV +LK    S   +I   L   +   +++  +K       I +G F  +   L  K+G 
+Sbjct  66   RVNILKDFSIS---EINNLLRGVDLFSKIVDFIKLYKSNCYIATGNFDGWVSGLIEKIGC  122
+
+Query  228  DEVHANVLDVQDGVVTGEVKGVIVDGARKAELLRELANKLGISLEQAMAVGDGANDLPML  287
+                +      D +++ +   +I++  +  ++L+        S ++ + +GDG ND   +
+Sbjct  123  KYFASEGFVKDDKLLSLK---LILNKKKVVKMLQA-------SGKKVVFIGDGNNDAEAM  172
+
+Query  288  AIAGLGVA  295
+             +A + +A
+Sbjct  173  RVADISIA  180
+
+
+>VFG046689(gb|WP_010031957) (FTA_RS07290) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. holarctica FTNF002-00]
+Length=428
+
+ Score = 49.7 bits (117),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 41/188 (22%), Positives = 89/188 (47%), Gaps = 14/188 (7%)
+
+Query  109  EDNAYRRNRRLV-CFDMDSTLIEQEVIDELALEAGVGEQVAEITERAMQGELDFQQSFRA  167
+            +D+ Y  +  +V  FD+D TL + E +  +A   G+ ++++++T   ++G + F +SF  
+Sbjct  6    KDDCYDFDNNIVFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESFIK  65
+
+Query  168  RVALLKGLDASVLPKIAERLTITEGAERLISTLKALGYKTAILSGGFQYFAEYLQAKLGI  227
+            RV +LK    S   +I   L   +   +++  +K       I +G F  +   L  K+  
+Sbjct  66   RVNILKDFSIS---EINNLLRGVDLFSKIVDFIKLYKSNCYIATGNFDGWVSGLIEKIDC  122
+
+Query  228  DEVHANVLDVQDGVVTGEVKGVIVDGARKAELLRELANKLGISLEQAMAVGDGANDLPML  287
+                +      D +++ +   +I++  +  E+L+        S ++ + +GDG ND   +
+Sbjct  123  KSFASEGFVKDDQLLSLK---LILNKKKVVEMLQA-------SGKKVVFIGDGNNDAEAM  172
+
+Query  288  AIAGLGVA  295
+             +A + +A
+Sbjct  173  RVADISIA  180
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.367    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2419078431
+
+
+Query= g1374.t1
+
+Length=411
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043287(gb|WP_003425253) (CD630_RS01730) HAD-IB family phosphat...  61.6    6e-11
+VFG046694(gb|WP_003020703) (FTT_RS04125) hydrolase [Capsule (VF05...  55.1    4e-08
+VFG046695(gb|WP_003025503) (FTW_RS02910) hydrolase [Capsule (VF05...  53.9    8e-08
+VFG046692(gb|WP_012429566) (FTM_RS05930) hydrolase [Capsule (VF05...  53.9    8e-08
+VFG046689(gb|WP_010031957) (FTA_RS07290) hydrolase [Capsule (VF05...  52.0    4e-07
+
+
+>VFG043287(gb|WP_003425253) (CD630_RS01730) HAD-IB family phosphatase 
+[Peritrichous flagella (VF0732) - Motility (VFC0204)] 
+[Clostridium difficile 630]
+Length=205
+
+ Score = 61.6 bits (148),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 46/181 (25%), Positives = 77/181 (43%), Gaps = 22/181 (12%)
+
+Query  184  IVFDVDSTLVQGEVIEMLAARAGAQGTVAAITEAAMRGELDFAESLQQRVATLAGLPVTV  243
+             VFD+DSTL + E++  ++        +  +T   M G L F ES ++RV  L  +P++ 
+Sbjct  11   FVFDLDSTLTKQEILPEISKCINKYELMQNLTNETMLGNLSFEESFKKRVDLLKCIPISK  70
+
+Query  244  VDEVANQLQLMPGARTTLRTLRRLGFRCGVVSGGFRRIIEPLAHELMLDFVAANELEIVD  303
+            V  +  ++ L       ++ ++    RC VV+      I  L  EL L+           
+Sbjct  71   VKSIVAKINL---NEKIVKFIKENPDRCTVVTNNLDIWICDLMKELSLE-----------  116
+
+Query  304  GILTGRVVGTIVDRPGKAKALRYFSEQAGVPMEQT----VAVGDGANDIDMLTAAGLGIA  359
+                 +   +I    G          +    +++     VAVGDG+NDI M+  A +GI 
+Sbjct  117  ----NKYYSSIAHSNGDFIDKIKVIIKKEDIIKKMKGPIVAVGDGSNDIKMIENADIGIG  172
+
+Query  360  F  360
+            F
+Sbjct  173  F  173
+
+
+>VFG046694(gb|WP_003020703) (FTT_RS04125) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. tularensis SCHU S4]
+Length=428
+
+ Score = 55.1 bits (131),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 38/177 (21%), Positives = 83/177 (47%), Gaps = 13/177 (7%)
+
+Query  183  LIVFDVDSTLVQGEVIEMLAARAGAQGTVAAITEAAMRGELDFAESLQQRVATLAGLPVT  242
+            + VFD+D TL + E + ++A   G +  ++ +T   ++G + F ES  +RV  L    ++
+Sbjct  17   VFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESFIKRVNILKDFSIS  76
+
+Query  243  VVDEVANQLQLMPGARTTLRTLRRLGFRCGVVSGGFRRIIEPLAHELMLDFVAANELEIV  302
+             ++ +   + L       ++  +     C + +G F   +  L  ++   + A+      
+Sbjct  77   EINNLLRGVDLFSKIVDFIKLYKS---NCYIATGNFDGWVSGLIEKIGCKYFASEGFVKD  133
+
+Query  303  DGILTGRVVGTIVDRPGKAKALRYFSEQAGVPMEQTVAVGDGANDIDMLTAAGLGIA  359
+            D +L+ ++   I+++    K L    + +G   ++ V +GDG ND + +  A + IA
+Sbjct  134  DKLLSLKL---ILNKKKVVKML----QASG---KKVVFIGDGNNDAEAMRVADISIA  180
+
+
+>VFG046695(gb|WP_003025503) (FTW_RS02910) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. tularensis WY96-3418]
+Length=428
+
+ Score = 53.9 bits (128),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 37/177 (21%), Positives = 79/177 (45%), Gaps = 13/177 (7%)
+
+Query  183  LIVFDVDSTLVQGEVIEMLAARAGAQGTVAAITEAAMRGELDFAESLQQRVATLAGLPVT  242
+            + VFD+D TL + E + ++A   G +  ++ +T   ++G + F ES  +RV  L    ++
+Sbjct  17   VFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESFIKRVNILKDFSIS  76
+
+Query  243  VVDEVANQLQLMPGARTTLRTLRRLGFRCGVVSGGFRRIIEPLAHELMLDFVAANELEIV  302
+             ++ +   + L       ++  +     C + +G F   +  L  ++   + A+      
+Sbjct  77   EINNLLRGVDLFSKIVDFIKLYKS---NCYIATGNFDGWVSGLIEKIGCKYFASEGFVKD  133
+
+Query  303  DGILTGRVVGTIVDRPGKAKALRYFSEQAGVPMEQTVAVGDGANDIDMLTAAGLGIA  359
+            D +L+ +++        K K +    E      ++ V +GDG ND + +  A + IA
+Sbjct  134  DQLLSLKLI------LNKKKVV----EMLQASGKKVVFIGDGNNDAEAMRVADISIA  180
+
+
+>VFG046692(gb|WP_012429566) (FTM_RS05930) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. mediasiatica FSC147]
+Length=428
+
+ Score = 53.9 bits (128),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 37/177 (21%), Positives = 79/177 (45%), Gaps = 13/177 (7%)
+
+Query  183  LIVFDVDSTLVQGEVIEMLAARAGAQGTVAAITEAAMRGELDFAESLQQRVATLAGLPVT  242
+            + VFD+D TL + E + ++A   G +  ++ +T   ++G + F ES  +RV  L    ++
+Sbjct  17   VFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESFIKRVNILKDFSIS  76
+
+Query  243  VVDEVANQLQLMPGARTTLRTLRRLGFRCGVVSGGFRRIIEPLAHELMLDFVAANELEIV  302
+             ++ +   + L       ++  +     C + +G F   +  L  ++   + A+      
+Sbjct  77   EINNLLRGVDLFSKIVDFIKLYKS---NCYIATGNFDGWVSGLIEKIGCKYFASEGFVKD  133
+
+Query  303  DGILTGRVVGTIVDRPGKAKALRYFSEQAGVPMEQTVAVGDGANDIDMLTAAGLGIA  359
+            D +L+ +++        K K +    E      ++ V +GDG ND + +  A + IA
+Sbjct  134  DQLLSLKLI------LNKKKVV----EMLQASGKKVVFIGDGNNDAEAMRVADISIA  180
+
+
+>VFG046689(gb|WP_010031957) (FTA_RS07290) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. holarctica FTNF002-00]
+Length=428
+
+ Score = 52.0 bits (123),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 39/183 (21%), Positives = 78/183 (43%), Gaps = 25/183 (14%)
+
+Query  183  LIVFDVDSTLVQGEVIEMLAARAGAQGTVAAITEAAMRGELDFAESLQQRVATLAGLPVT  242
+            + VFD+D TL + E + ++A   G +  ++ +T   ++G + F ES  +RV  L    ++
+Sbjct  17   VFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESFIKRVNILKDFSIS  76
+
+Query  243  VVDEVANQLQLMPGARTTLRTLRRLGFRCGVVSGGFRRIIEPLAHELMLD------FVAA  296
+             ++ +   + L       ++  +     C + +G F   +  L  ++         FV  
+Sbjct  77   EINNLLRGVDLFSKIVDFIKLYKS---NCYIATGNFDGWVSGLIEKIDCKSFASEGFVKD  133
+
+Query  297  NELEIVDGILTGRVVGTIVDRPGKAKALRYFSEQAGVPMEQTVAVGDGANDIDMLTAAGL  356
+            ++L  +  IL  + V  ++   GK                + V +GDG ND + +  A +
+Sbjct  134  DQLLSLKLILNKKKVVEMLQASGK----------------KVVFIGDGNNDAEAMRVADI  177
+
+Query  357  GIA  359
+             IA
+Sbjct  178  SIA  180
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3208200996
+
+
+Query= g2992.t1
+
+Length=409
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043287(gb|WP_003425253) (CD630_RS01730) HAD-IB family phosphat...  62.0    4e-11
+VFG046694(gb|WP_003020703) (FTT_RS04125) hydrolase [Capsule (VF05...  58.9    2e-09
+VFG046695(gb|WP_003025503) (FTW_RS02910) hydrolase [Capsule (VF05...  57.0    9e-09
+VFG046692(gb|WP_012429566) (FTM_RS05930) hydrolase [Capsule (VF05...  57.0    9e-09
+VFG046689(gb|WP_010031957) (FTA_RS07290) hydrolase [Capsule (VF05...  55.5    2e-08
+
+
+>VFG043287(gb|WP_003425253) (CD630_RS01730) HAD-IB family phosphatase 
+[Peritrichous flagella (VF0732) - Motility (VFC0204)] 
+[Clostridium difficile 630]
+Length=205
+
+ Score = 62.0 bits (149),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 49/190 (26%), Positives = 80/190 (42%), Gaps = 40/190 (21%)
+
+Query  182  IVFDVDSTLVQGEVIEMLAARAGAQGQVAAITEAAMRGELDFAESLQRRVATLAGLPATV  241
+             VFD+DSTL + E++  ++        +  +T   M G L F ES ++RV  L  +P + 
+Sbjct  11   FVFDLDSTLTKQEILPEISKCINKYELMQNLTNETMLGNLSFEESFKKRVDLLKCIPISK  70
+
+Query  242  IDDVAEQLELMPGARTTIRTLRRLGFRCGVVSGGFRRIIEPLARELML------------  289
+            +  +  ++ L       ++ ++    RC VV+      I  L +EL L            
+Sbjct  71   VKSIVAKINL---NEKIVKFIKENPDRCTVVTNNLDIWICDLMKELSLENKYYSSIAHSN  127
+
+Query  290  -DFVASNELEIVDGILTGRVVGPIVDRPGKAKALRDFASQYGVPMEQTVAVGDGANDIDM  348
+             DF+   ++ I    +  ++ GPI                        VAVGDG+NDI M
+Sbjct  128  GDFIDKIKVIIKKEDIIKKMKGPI------------------------VAVGDGSNDIKM  163
+
+Query  349  LGAAGLGIAF  358
+            +  A +GI F
+Sbjct  164  IENADIGIGF  173
+
+
+>VFG046694(gb|WP_003020703) (FTT_RS04125) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. tularensis SCHU S4]
+Length=428
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 41/190 (22%), Positives = 88/190 (46%), Gaps = 13/190 (7%)
+
+Query  168  AVEDYGLAWRTKRLIVFDVDSTLVQGEVIEMLAARAGAQGQVAAITEAAMRGELDFAESL  227
+            +++D    +    + VFD+D TL + E + ++A   G + +++ +T   ++G + F ES 
+Sbjct  4    SIKDDCYDFDNNIVFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESF  63
+
+Query  228  QRRVATLAGLPATVIDDVAEQLELMPGARTTIRTLRRLGFRCGVVSGGFRRIIEPLAREL  287
+             +RV  L     + I+++   ++L       I+  +     C + +G F   +  L  ++
+Sbjct  64   IKRVNILKDFSISEINNLLRGVDLFSKIVDFIKLYKS---NCYIATGNFDGWVSGLIEKI  120
+
+Query  288  MLDFVASNELEIVDGILTGRVVGPIVDRPGKAKALRDFASQYGVPMEQTVAVGDGANDID  347
+               + AS      D +L+ ++   I+++    K L+          ++ V +GDG ND +
+Sbjct  121  GCKYFASEGFVKDDKLLSLKL---ILNKKKVVKMLQ-------ASGKKVVFIGDGNNDAE  170
+
+Query  348  MLGAAGLGIA  357
+             +  A + IA
+Sbjct  171  AMRVADISIA  180
+
+
+>VFG046695(gb|WP_003025503) (FTW_RS02910) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. tularensis WY96-3418]
+Length=428
+
+ Score = 57.0 bits (136),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 40/190 (21%), Positives = 88/190 (46%), Gaps = 13/190 (7%)
+
+Query  168  AVEDYGLAWRTKRLIVFDVDSTLVQGEVIEMLAARAGAQGQVAAITEAAMRGELDFAESL  227
+            +++D    +    + VFD+D TL + E + ++A   G + +++ +T   ++G + F ES 
+Sbjct  4    SIKDDCYDFDNNIVFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESF  63
+
+Query  228  QRRVATLAGLPATVIDDVAEQLELMPGARTTIRTLRRLGFRCGVVSGGFRRIIEPLAREL  287
+             +RV  L     + I+++   ++L       I+  +     C + +G F   +  L  ++
+Sbjct  64   IKRVNILKDFSISEINNLLRGVDLFSKIVDFIKLYKS---NCYIATGNFDGWVSGLIEKI  120
+
+Query  288  MLDFVASNELEIVDGILTGRVVGPIVDRPGKAKALRDFASQYGVPMEQTVAVGDGANDID  347
+               + AS      D +L+ ++   I+++    + L+          ++ V +GDG ND +
+Sbjct  121  GCKYFASEGFVKDDQLLSLKL---ILNKKKVVEMLQ-------ASGKKVVFIGDGNNDAE  170
+
+Query  348  MLGAAGLGIA  357
+             +  A + IA
+Sbjct  171  AMRVADISIA  180
+
+
+>VFG046692(gb|WP_012429566) (FTM_RS05930) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. mediasiatica FSC147]
+Length=428
+
+ Score = 57.0 bits (136),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 40/190 (21%), Positives = 88/190 (46%), Gaps = 13/190 (7%)
+
+Query  168  AVEDYGLAWRTKRLIVFDVDSTLVQGEVIEMLAARAGAQGQVAAITEAAMRGELDFAESL  227
+            +++D    +    + VFD+D TL + E + ++A   G + +++ +T   ++G + F ES 
+Sbjct  4    SIKDDCYDFDNNIVFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESF  63
+
+Query  228  QRRVATLAGLPATVIDDVAEQLELMPGARTTIRTLRRLGFRCGVVSGGFRRIIEPLAREL  287
+             +RV  L     + I+++   ++L       I+  +     C + +G F   +  L  ++
+Sbjct  64   IKRVNILKDFSISEINNLLRGVDLFSKIVDFIKLYKS---NCYIATGNFDGWVSGLIEKI  120
+
+Query  288  MLDFVASNELEIVDGILTGRVVGPIVDRPGKAKALRDFASQYGVPMEQTVAVGDGANDID  347
+               + AS      D +L+ ++   I+++    + L+          ++ V +GDG ND +
+Sbjct  121  GCKYFASEGFVKDDQLLSLKL---ILNKKKVVEMLQ-------ASGKKVVFIGDGNNDAE  170
+
+Query  348  MLGAAGLGIA  357
+             +  A + IA
+Sbjct  171  AMRVADISIA  180
+
+
+>VFG046689(gb|WP_010031957) (FTA_RS07290) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. holarctica FTNF002-00]
+Length=428
+
+ Score = 55.5 bits (132),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 42/196 (21%), Positives = 85/196 (43%), Gaps = 25/196 (13%)
+
+Query  168  AVEDYGLAWRTKRLIVFDVDSTLVQGEVIEMLAARAGAQGQVAAITEAAMRGELDFAESL  227
+            +++D    +    + VFD+D TL + E + ++A   G + +++ +T   ++G + F ES 
+Sbjct  4    SIKDDCYDFDNNIVFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESF  63
+
+Query  228  QRRVATLAGLPATVIDDVAEQLELMPGARTTIRTLRRLGFRCGVVSGGFRRIIEPLAREL  287
+             +RV  L     + I+++   ++L       I+  +     C + +G F   +  L  ++
+Sbjct  64   IKRVNILKDFSISEINNLLRGVDLFSKIVDFIKLYKS---NCYIATGNFDGWVSGLIEKI  120
+
+Query  288  MLD------FVASNELEIVDGILTGRVVGPIVDRPGKAKALRDFASQYGVPMEQTVAVGD  341
+                     FV  ++L  +  IL  + V  ++   GK                + V +GD
+Sbjct  121  DCKSFASEGFVKDDQLLSLKLILNKKKVVEMLQASGK----------------KVVFIGD  164
+
+Query  342  GANDIDMLGAAGLGIA  357
+            G ND + +  A + IA
+Sbjct  165  GNNDAEAMRVADISIA  180
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3206375233
+
+
+Query= g5054.t1
+
+Length=404
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043287(gb|WP_003425253) (CD630_RS01730) HAD-IB family phosphat...  58.2    8e-10
+VFG046694(gb|WP_003020703) (FTT_RS04125) hydrolase [Capsule (VF05...  59.7    1e-09
+VFG046692(gb|WP_012429566) (FTM_RS05930) hydrolase [Capsule (VF05...  58.9    2e-09
+VFG046695(gb|WP_003025503) (FTW_RS02910) hydrolase [Capsule (VF05...  58.5    2e-09
+VFG001963(gb|YP_002344818) (Cj1435c) phosphatase [Capsule (VF0323...  52.0    1e-07
+VFG046689(gb|WP_010031957) (FTA_RS07290) hydrolase [Capsule (VF05...  52.4    2e-07
+
+
+>VFG043287(gb|WP_003425253) (CD630_RS01730) HAD-IB family phosphatase 
+[Peritrichous flagella (VF0732) - Motility (VFC0204)] 
+[Clostridium difficile 630]
+Length=205
+
+ Score = 58.2 bits (139),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 43/176 (24%), Positives = 81/176 (46%), Gaps = 14/176 (8%)
+
+Query  194  VFDMDSTLIEAEVIDELAKAAGVGEKVAAITERAMRGELDFRASFKERLALLQGLSEDVL  253
+            VFD+DSTL + E++ E++K     E +  +T   M G L F  SFK+R+ LL+ +    +
+Sbjct  12   VFDLDSTLTKQEILPEISKCINKYELMQNLTNETMLGNLSFEESFKKRVDLLKCIPISKV  71
+
+Query  254  EEIGASLRLTEGAETLFAELKRLGYKTAILSGGFTYFARQLQAKLGIDYVFANELQIVDG  313
+            + I A + L    E +   +K    +  +++     +   L  +L ++  + + +   +G
+Sbjct  72   KSIVAKINLN---EKIVKFIKENPDRCTVVTNNLDIWICDLMKELSLENKYYSSIAHSNG  128
+
+Query  314  KVTGVAVEPIVDAQRKADLLRELAAKEGLSLEQTIAVGDGANDLPMLGLAGLGVAF  369
+                       D   K  ++ +            +AVGDG+ND+ M+  A +G+ F
+Sbjct  129  -----------DFIDKIKVIIKKEDIIKKMKGPIVAVGDGSNDIKMIENADIGIGF  173
+
+
+>VFG046694(gb|WP_003020703) (FTT_RS04125) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. tularensis SCHU S4]
+Length=428
+
+ Score = 59.7 bits (143),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 45/180 (25%), Positives = 92/180 (51%), Gaps = 13/180 (7%)
+
+Query  189  NRRLAVFDMDSTLIEAEVIDELAKAAGVGEKVAAITERAMRGELDFRASFKERLALLQGL  248
+            N  + VFD+D TL + E +  +A+  G+ ++++ +T   ++G + F  SF +R+ +L+  
+Sbjct  14   NNIVFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESFIKRVNILKDF  73
+
+Query  249  SEDVLEEIGASLRLTEGAETLFAELKRLGYKTAILSGGFTYFARQLQAKLGIDYVFANEL  308
+            S   + EI   LR  +    +   +K       I +G F  +   L  K+G  Y FA+E 
+Sbjct  74   S---ISEINNLLRGVDLFSKIVDFIKLYKSNCYIATGNFDGWVSGLIEKIGCKY-FASEG  129
+
+Query  309  QIVDGKVTGVAVEPIVDAQRKADLLRELAAKEGLSLEQTIAVGDGANDLPMLGLAGLGVA  368
+             + D K+  ++++ I++ ++   +L+        S ++ + +GDG ND   + +A + +A
+Sbjct  130  FVKDDKL--LSLKLILNKKKVVKMLQA-------SGKKVVFIGDGNNDAEAMRVADISIA  180
+
+
+>VFG046692(gb|WP_012429566) (FTM_RS05930) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. mediasiatica FSC147]
+Length=428
+
+ Score = 58.9 bits (141),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 44/180 (24%), Positives = 93/180 (52%), Gaps = 13/180 (7%)
+
+Query  189  NRRLAVFDMDSTLIEAEVIDELAKAAGVGEKVAAITERAMRGELDFRASFKERLALLQGL  248
+            N  + VFD+D TL + E +  +A+  G+ ++++ +T   ++G + F  SF +R+ +L+  
+Sbjct  14   NNIVFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESFIKRVNILKDF  73
+
+Query  249  SEDVLEEIGASLRLTEGAETLFAELKRLGYKTAILSGGFTYFARQLQAKLGIDYVFANEL  308
+            S   + EI   LR  +    +   +K       I +G F  +   L  K+G  Y FA+E 
+Sbjct  74   S---ISEINNLLRGVDLFSKIVDFIKLYKSNCYIATGNFDGWVSGLIEKIGCKY-FASEG  129
+
+Query  309  QIVDGKVTGVAVEPIVDAQRKADLLRELAAKEGLSLEQTIAVGDGANDLPMLGLAGLGVA  368
+             + D ++  ++++ I++ ++  ++L+        S ++ + +GDG ND   + +A + +A
+Sbjct  130  FVKDDQL--LSLKLILNKKKVVEMLQA-------SGKKVVFIGDGNNDAEAMRVADISIA  180
+
+
+>VFG046695(gb|WP_003025503) (FTW_RS02910) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. tularensis WY96-3418]
+Length=428
+
+ Score = 58.5 bits (140),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 44/180 (24%), Positives = 93/180 (52%), Gaps = 13/180 (7%)
+
+Query  189  NRRLAVFDMDSTLIEAEVIDELAKAAGVGEKVAAITERAMRGELDFRASFKERLALLQGL  248
+            N  + VFD+D TL + E +  +A+  G+ ++++ +T   ++G + F  SF +R+ +L+  
+Sbjct  14   NNIVFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESFIKRVNILKDF  73
+
+Query  249  SEDVLEEIGASLRLTEGAETLFAELKRLGYKTAILSGGFTYFARQLQAKLGIDYVFANEL  308
+            S   + EI   LR  +    +   +K       I +G F  +   L  K+G  Y FA+E 
+Sbjct  74   S---ISEINNLLRGVDLFSKIVDFIKLYKSNCYIATGNFDGWVSGLIEKIGCKY-FASEG  129
+
+Query  309  QIVDGKVTGVAVEPIVDAQRKADLLRELAAKEGLSLEQTIAVGDGANDLPMLGLAGLGVA  368
+             + D ++  ++++ I++ ++  ++L+        S ++ + +GDG ND   + +A + +A
+Sbjct  130  FVKDDQL--LSLKLILNKKKVVEMLQA-------SGKKVVFIGDGNNDAEAMRVADISIA  180
+
+
+>VFG001963(gb|YP_002344818) (Cj1435c) phosphatase [Capsule (VF0323) 
+- Immune modulation (VFC0258)] [Campylobacter jejuni subsp. 
+jejuni NCTC 11168]
+Length=211
+
+ Score = 52.0 bits (123),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 54/189 (29%), Positives = 80/189 (42%), Gaps = 24/189 (13%)
+
+Query  192  LAVFDMDSTLIEAEVIDELAKAAG------VGEKVAAITERAMRGELDFRASFKERLALL  245
+            LA+FD   TL   + +D     AG         K  A  ER  R  L +      R   L
+Sbjct  6    LALFDFCETLTNFQTLDRYLPLAGSKNINYTQSKNLARRERFQRENLPY-----PRYEWL  60
+
+Query  246  QGLSEDVLEEIGASLRLTEGAETLFAE-LKRL------GYKTAILSGGFTYFARQLQAKL  298
+              L  D+ EEI      T+    L    + RL      G+   I+SGG T + ++     
+Sbjct  61   IDLDVDLAEEIAQEFVYTDVMANLNQNVMDRLFWHQDEGHTIVIVSGGLTIYIKEFARIY  120
+
+Query  299  GIDYVFANELQIVDGKVTGVAVEPIVDAQRKADLLRELAAKEGLS---LEQTIAVGDGAN  355
+             I+ + A +L+I   K+TG  ++ I   Q +   L +LA K  L    L+ + A  D  +
+Sbjct  121  NIENIVAVDLEIYKNKLTG-NIDGIHTMQERK--LYKLAQKFNLKQFDLKNSYAYSDCVS  177
+
+Query  356  DLPMLGLAG  364
+            D+P+L L G
+Sbjct  178  DIPLLSLVG  186
+
+
+>VFG046689(gb|WP_010031957) (FTA_RS07290) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. holarctica FTNF002-00]
+Length=428
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 42/180 (23%), Positives = 91/180 (51%), Gaps = 13/180 (7%)
+
+Query  189  NRRLAVFDMDSTLIEAEVIDELAKAAGVGEKVAAITERAMRGELDFRASFKERLALLQGL  248
+            N  + VFD+D TL + E +  +A+  G+ ++++ +T   ++G + F  SF +R+ +L+  
+Sbjct  14   NNIVFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESFIKRVNILKDF  73
+
+Query  249  SEDVLEEIGASLRLTEGAETLFAELKRLGYKTAILSGGFTYFARQLQAKLGIDYVFANEL  308
+            S   + EI   LR  +    +   +K       I +G F  +   L  K+     FA+E 
+Sbjct  74   S---ISEINNLLRGVDLFSKIVDFIKLYKSNCYIATGNFDGWVSGLIEKIDCK-SFASEG  129
+
+Query  309  QIVDGKVTGVAVEPIVDAQRKADLLRELAAKEGLSLEQTIAVGDGANDLPMLGLAGLGVA  368
+             + D ++  ++++ I++ ++  ++L+        S ++ + +GDG ND   + +A + +A
+Sbjct  130  FVKDDQL--LSLKLILNKKKVVEMLQA-------SGKKVVFIGDGNNDAEAMRVADISIA  180
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3154154138
+
+
+Query= g2055.t1
+
+Length=295
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043287(gb|WP_003425253) (CD630_RS01730) HAD-IB family phosphat...  59.3    2e-10
+VFG046695(gb|WP_003025503) (FTW_RS02910) hydrolase [Capsule (VF05...  56.6    5e-09
+VFG046692(gb|WP_012429566) (FTM_RS05930) hydrolase [Capsule (VF05...  56.6    6e-09
+VFG046694(gb|WP_003020703) (FTT_RS04125) hydrolase [Capsule (VF05...  56.2    7e-09
+VFG046689(gb|WP_010031957) (FTA_RS07290) hydrolase [Capsule (VF05...  55.1    2e-08
+
+
+>VFG043287(gb|WP_003425253) (CD630_RS01730) HAD-IB family phosphatase 
+[Peritrichous flagella (VF0732) - Motility (VFC0204)] 
+[Clostridium difficile 630]
+Length=205
+
+ Score = 59.3 bits (142),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 41/176 (23%), Positives = 85/176 (48%), Gaps = 14/176 (8%)
+
+Query  90   AFDMDSTFIAEEGVDEIARELGMSTQITAITQQAMEGKLDFNASFTRRIGMLKGTPKAVL  149
+             FD+DST   +E + EI++ +     +  +T + M G L F  SF +R+ +LK  P + +
+Sbjct  12   VFDLDSTLTKQEILPEISKCINKYELMQNLTNETMLGNLSFEESFKKRVDLLKCIPISKV  71
+
+Query  150  NAVCDRMTLSPGLLTILPVIKAKGFKTAIISGGLDIFTQRLKERYQLDYAFSNTVEIRDN  209
+             ++  ++ L+     I+  IK    +  +++  LDI+   L +   L+  + +++   + 
+Sbjct  72   KSIVAKINLNE---KIVKFIKENPDRCTVVTNNLDIWICDLMKELSLENKYYSSIAHSNG  128
+
+Query  210  VLTDNITLPIMNAANKKQTLVDLAARLNIATENIIACGDGANDLPMLEHAGTGIAW  265
+                       +  +K + ++     +      I+A GDG+ND+ M+E+A  GI +
+Sbjct  129  -----------DFIDKIKVIIKKEDIIKKMKGPIVAVGDGSNDIKMIENADIGIGF  173
+
+
+>VFG046695(gb|WP_003025503) (FTW_RS02910) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. tularensis WY96-3418]
+Length=428
+
+ Score = 56.6 bits (135),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 50/200 (25%), Positives = 89/200 (45%), Gaps = 13/200 (7%)
+
+Query  86   NGIIAFDMDSTFIAEEGVDEIARELGMSTQITAITQQAMEGKLDFNASFTRRIGMLKGTP  145
+            N +  FD+D T    E +  IAR  G+  +I+ +T + ++G + F  SF +R+ +LK   
+Sbjct  15   NIVFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESFIKRVNILKDFS  74
+
+Query  146  KAVLNAVCDRMTLSPGLLTILPVIKAKGFKTAIISGGLDIFTQRLKERYQLDYAFSNTVE  205
+             + +N +   + L   ++  + + K+  +   I +G  D +   L E+    Y  S    
+Sbjct  75   ISEINNLLRGVDLFSKIVDFIKLYKSNCY---IATGNFDGWVSGLIEKIGCKYFASEGFV  131
+
+Query  206  IRDNVLTDNITLPIMNAANKKQTLVDLAARLNIATENIIACGDGANDLPMLEHAGTGIAW  265
+              D +L+  + L      NKK+ +  L A    + + ++  GDG ND   +  A   IA 
+Sbjct  132  KDDQLLSLKLIL------NKKKVVEMLQA----SGKKVVFIGDGNNDAEAMRVADISIAC  181
+
+Query  266  KAKPVVRKKIHHQINYHGFE  285
+                   K I +  +Y  FE
+Sbjct  182  GLVHYPSKSIMNFADYAIFE  201
+
+
+>VFG046692(gb|WP_012429566) (FTM_RS05930) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. mediasiatica FSC147]
+Length=428
+
+ Score = 56.6 bits (135),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 49/200 (25%), Positives = 89/200 (45%), Gaps = 13/200 (7%)
+
+Query  86   NGIIAFDMDSTFIAEEGVDEIARELGMSTQITAITQQAMEGKLDFNASFTRRIGMLKGTP  145
+            N +  FD+D T    E +  IAR  G+  +I+ +T + ++G + F  SF +R+ +LK   
+Sbjct  15   NIVFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESFIKRVNILKDFS  74
+
+Query  146  KAVLNAVCDRMTLSPGLLTILPVIKAKGFKTAIISGGLDIFTQRLKERYQLDYAFSNTVE  205
+             + +N +   + L   ++  + + K+  +   I +G  D +   L E+    Y  S    
+Sbjct  75   ISEINNLLRGVDLFSKIVDFIKLYKSNCY---IATGNFDGWVSGLIEKIGCKYFASEGFV  131
+
+Query  206  IRDNVLTDNITLPIMNAANKKQTLVDLAARLNIATENIIACGDGANDLPMLEHAGTGIAW  265
+              D +L+  + L      NKK+ +  L A    + + ++  GDG ND   +  A   IA 
+Sbjct  132  KDDQLLSLKLIL------NKKKVVEMLQA----SGKKVVFIGDGNNDAEAMRVADISIAC  181
+
+Query  266  KAKPVVRKKIHHQINYHGFE  285
+                   K + +  +Y  FE
+Sbjct  182  GLVHYPSKSVMNVADYAIFE  201
+
+
+>VFG046694(gb|WP_003020703) (FTT_RS04125) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. tularensis SCHU S4]
+Length=428
+
+ Score = 56.2 bits (134),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 49/200 (25%), Positives = 89/200 (45%), Gaps = 13/200 (7%)
+
+Query  86   NGIIAFDMDSTFIAEEGVDEIARELGMSTQITAITQQAMEGKLDFNASFTRRIGMLKGTP  145
+            N +  FD+D T    E +  IAR  G+  +I+ +T + ++G + F  SF +R+ +LK   
+Sbjct  15   NIVFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESFIKRVNILKDFS  74
+
+Query  146  KAVLNAVCDRMTLSPGLLTILPVIKAKGFKTAIISGGLDIFTQRLKERYQLDYAFSNTVE  205
+             + +N +   + L   ++  + + K+  +   I +G  D +   L E+    Y  S    
+Sbjct  75   ISEINNLLRGVDLFSKIVDFIKLYKSNCY---IATGNFDGWVSGLIEKIGCKYFASEGFV  131
+
+Query  206  IRDNVLTDNITLPIMNAANKKQTLVDLAARLNIATENIIACGDGANDLPMLEHAGTGIAW  265
+              D +L+  + L      NKK+ +  L A    + + ++  GDG ND   +  A   IA 
+Sbjct  132  KDDKLLSLKLIL------NKKKVVKMLQA----SGKKVVFIGDGNNDAEAMRVADISIAC  181
+
+Query  266  KAKPVVRKKIHHQINYHGFE  285
+                   K + +  +Y  FE
+Sbjct  182  GLVHYPSKSVMNFADYAIFE  201
+
+
+>VFG046689(gb|WP_010031957) (FTA_RS07290) hydrolase [Capsule (VF0543) 
+- Immune modulation (VFC0258)] [Francisella tularensis 
+subsp. holarctica FTNF002-00]
+Length=428
+
+ Score = 55.1 bits (131),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 48/200 (24%), Positives = 95/200 (48%), Gaps = 13/200 (7%)
+
+Query  86   NGIIAFDMDSTFIAEEGVDEIARELGMSTQITAITQQAMEGKLDFNASFTRRIGMLKGTP  145
+            N +  FD+D T    E +  IAR  G+  +I+ +T + ++G + F  SF +R+ +LK   
+Sbjct  15   NIVFVFDLDGTLTKNETLPVIARYFGIEDEISKLTAETVKGNIPFIESFIKRVNILKDFS  74
+
+Query  146  KAVLNAVCDRMTLSPGLLTILPVIKAKGFKTAIISGGLDIFTQRLKERYQLDYAFSNTVE  205
+             + +N +   + L   ++  + + K+  +   I +G  D +   L E+     +F++   
+Sbjct  75   ISEINNLLRGVDLFSKIVDFIKLYKSNCY---IATGNFDGWVSGLIEKIDCK-SFASEGF  130
+
+Query  206  IRDNVLTDNITLPIMNAANKKQTLVDLAARLNIATENIIACGDGANDLPMLEHAGTGIAW  265
+            ++D+ L   ++L ++   NKK+ +  L A    + + ++  GDG ND   +  A   IA 
+Sbjct  131  VKDDQL---LSLKLI--LNKKKVVEMLQA----SGKKVVFIGDGNNDAEAMRVADISIAC  181
+
+Query  266  KAKPVVRKKIHHQINYHGFE  285
+                   K + +  +Y  FE
+Sbjct  182  GLVHYPSKSVMNVADYAIFE  201
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.404    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2063520340
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

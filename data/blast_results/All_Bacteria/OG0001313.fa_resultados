@@ -1,0 +1,173 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g187.t1
+
+Length=248
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG008123(gb|WP_003419517) (panD) type III pantothenate kinase [P...  416     9e-149
+
+
+>VFG008123(gb|WP_003419517) (panD) type III pantothenate kinase 
+[PanC/PanD (VF0319) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium tuberculosis CCDC5079]
+Length=272
+
+ Score = 416 bits (1068),  Expect = 9e-149, Method: Compositional matrix adjust.
+ Identities = 223/248 (90%), Positives = 233/248 (94%), Gaps = 2/248 (1%)
+
+Query  1    MQQWRIRTESEVTADELALIIDGLIGDDSERLAGAAALSTVPSVLHEVRIMLDQYWPSVP  60
+            +QQWRIRTESEVTADELAL IDGLIG+DSERL G AALSTVPSVLHEVRIMLDQYWPSVP
+Sbjct  27   VQQWRIRTESEVTADELALTIDGLIGEDSERLTGTAALSTVPSVLHEVRIMLDQYWPSVP  86
+
+Query  61   HVLIEPGVRTGIPLLVDNPKEVGADRIVNCLAAFHKFGQAAIVVDFGSSICVDVVSAKGE  120
+            HVLIEPGVRTGIPLLVDNPKEVGADRIVNCLAA+ +F +AAIVVDFGSSICVDVVSAKGE
+Sbjct  87   HVLIEPGVRTGIPLLVDNPKEVGADRIVNCLAAYDRFRKAAIVVDFGSSICVDVVSAKGE  146
+
+Query  121  FLGGAIAPGVQVSSDAAAARSAALRRVELARPRSVVGKNTVECMQAGVVFGFAGLVDGLV  180
+            FLGGAIAPGVQVSSDAAAARSAALRRVELARPRSVVGKNTVECMQAG VFGFAGLVDGLV
+Sbjct  147  FLGGAIAPGVQVSSDAAAARSAALRRVELARPRSVVGKNTVECMQAGAVFGFAGLVDGLV  206
+
+Query  181  GRMRQDVEEFSGDLGNRVAVVATGHTAPLLLPELHTVDHYDRHLTLHGLRLVFERNREAQ  240
+            GR+R+DV  FS D  + VA+VATGHTAPLLLPELHTVDHYD+HLTL GLRLVFERN E Q
+Sbjct  207  GRIREDVSGFSVD--HDVAIVATGHTAPLLLPELHTVDHYDQHLTLQGLRLVFERNLEVQ  264
+
+Query  241  RGRLKTAR  248
+            RGRLKTAR
+Sbjct  265  RGRLKTAR  272
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1583422050
+
+
+Query= g3549.t1
+
+Length=272
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG008123(gb|WP_003419517) (panD) type III pantothenate kinase [P...  546     0.0  
+
+
+>VFG008123(gb|WP_003419517) (panD) type III pantothenate kinase 
+[PanC/PanD (VF0319) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium tuberculosis CCDC5079]
+Length=272
+
+ Score = 546 bits (1408),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 272/272 (100%), Positives = 272/272 (100%), Gaps = 0/272 (0%)
+
+Query  1    MLLAIDVRNTHTVVGLLSGMKEHAKVVQQWRIRTESEVTADELALTIDGLIGEDSERLTG  60
+            MLLAIDVRNTHTVVGLLSGMKEHAKVVQQWRIRTESEVTADELALTIDGLIGEDSERLTG
+Sbjct  1    MLLAIDVRNTHTVVGLLSGMKEHAKVVQQWRIRTESEVTADELALTIDGLIGEDSERLTG  60
+
+Query  61   TAALSTVPSVLHEVRIMLDQYWPSVPHVLIEPGVRTGIPLLVDNPKEVGADRIVNCLAAY  120
+            TAALSTVPSVLHEVRIMLDQYWPSVPHVLIEPGVRTGIPLLVDNPKEVGADRIVNCLAAY
+Sbjct  61   TAALSTVPSVLHEVRIMLDQYWPSVPHVLIEPGVRTGIPLLVDNPKEVGADRIVNCLAAY  120
+
+Query  121  DRFRKAAIVVDFGSSICVDVVSAKGEFLGGAIAPGVQVSSDAAAARSAALRRVELARPRS  180
+            DRFRKAAIVVDFGSSICVDVVSAKGEFLGGAIAPGVQVSSDAAAARSAALRRVELARPRS
+Sbjct  121  DRFRKAAIVVDFGSSICVDVVSAKGEFLGGAIAPGVQVSSDAAAARSAALRRVELARPRS  180
+
+Query  181  VVGKNTVECMQAGAVFGFAGLVDGLVGRIREDVSGFSVDHDVAIVATGHTAPLLLPELHT  240
+            VVGKNTVECMQAGAVFGFAGLVDGLVGRIREDVSGFSVDHDVAIVATGHTAPLLLPELHT
+Sbjct  181  VVGKNTVECMQAGAVFGFAGLVDGLVGRIREDVSGFSVDHDVAIVATGHTAPLLLPELHT  240
+
+Query  241  VDHYDQHLTLQGLRLVFERNLEVQRGRLKTAR  272
+            VDHYDQHLTLQGLRLVFERNLEVQRGRLKTAR
+Sbjct  241  VDHYDQHLTLQGLRLVFERNLEVQRGRLKTAR  272
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1821372545
+
+
+Query= g4361.t1
+
+Length=248
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG008123(gb|WP_003419517) (panD) type III pantothenate kinase [P...  46.2    6e-06
+
+
+>VFG008123(gb|WP_003419517) (panD) type III pantothenate kinase 
+[PanC/PanD (VF0319) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium tuberculosis CCDC5079]
+Length=272
+
+ Score = 46.2 bits (108),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 44/142 (31%), Positives = 66/142 (46%), Gaps = 22/142 (15%)
+
+Query  13   KWRVIEGAARSVAGGLAESDDALV----EQLTSQQALPVRACRLVSVRSEQETSQLVARL  68
+            +WR I   +   A  LA + D L+    E+LT   AL      L  VR           L
+Sbjct  29   QWR-IRTESEVTADELALTIDGLIGEDSERLTGTAALSTVPSVLHEVR---------IML  78
+
+Query  69   EQLFPVSALVASSGKQLAGVRNGYL----DYQRLGLDRWLALVAAHHLAKKACLVIDLGT  124
+            +Q +P    V        GVR G      + + +G DR +  +AA+   +KA +V+D G+
+Sbjct  79   DQYWPSVPHVLIE----PGVRTGIPLLVDNPKEVGADRIVNCLAAYDRFRKAAIVVDFGS  134
+
+Query  125  AVTSDLVAADGVHLGGYICPGM  146
+            ++  D+V+A G  LGG I PG+
+Sbjct  135  SICVDVVSAKGEFLGGAIAPGV  156
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.400    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1583422050
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

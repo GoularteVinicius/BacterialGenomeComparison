@@ -1,0 +1,83 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g4795.t1
+
+Length=295
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044099(gb|NP_253393) (PA4705) hypothetical protein [Direct hem...  592     0.0  
+
+
+>VFG044099(gb|NP_253393) (PA4705) hypothetical protein [Direct 
+heme uptake system (VF0941) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa PAO1]
+Length=295
+
+ Score = 592 bits (1526),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 295/295 (100%), Positives = 295/295 (100%), Gaps = 0/295 (0%)
+
+Query  1    MRIRLFAFCLLLGGCQSQLPPLPDWQSPEGRDDPQTGRIVELRSGVTLSPQQLVARLAAA  60
+            MRIRLFAFCLLLGGCQSQLPPLPDWQSPEGRDDPQTGRIVELRSGVTLSPQQLVARLAAA
+Sbjct  1    MRIRLFAFCLLLGGCQSQLPPLPDWQSPEGRDDPQTGRIVELRSGVTLSPQQLVARLAAA  60
+
+Query  61   PRVIVGEKHDNPDHHAVELWLAQALGEYRAQGSLLLEMLDPGQQPRVDAVRAQLGNGKPV  120
+            PRVIVGEKHDNPDHHAVELWLAQALGEYRAQGSLLLEMLDPGQQPRVDAVRAQLGNGKPV
+Sbjct  61   PRVIVGEKHDNPDHHAVELWLAQALGEYRAQGSLLLEMLDPGQQPRVDAVRAQLGNGKPV  120
+
+Query  121  ANLEEALDWQKGWDWTQYGPLVSWAVAQPAPLLAANLQRSEIMRIYRERPPLPGTASRRD  180
+            ANLEEALDWQKGWDWTQYGPLVSWAVAQPAPLLAANLQRSEIMRIYRERPPLPGTASRRD
+Sbjct  121  ANLEEALDWQKGWDWTQYGPLVSWAVAQPAPLLAANLQRSEIMRIYRERPPLPGTASRRD  180
+
+Query  181  SVRLPLLAQIRESHCGMLPDDQLPAMLAVQQQRDRRMAERLRDAPRPAMLVAGSFHARRD  240
+            SVRLPLLAQIRESHCGMLPDDQLPAMLAVQQQRDRRMAERLRDAPRPAMLVAGSFHARRD
+Sbjct  181  SVRLPLLAQIRESHCGMLPDDQLPAMLAVQQQRDRRMAERLRDAPRPAMLVAGSFHARRD  240
+
+Query  241  LGVPVHLRDLGAEKGTQVLMLVEAGQAVTTREADYAWYTPAQPDKDYCAEMKKAR  295
+            LGVPVHLRDLGAEKGTQVLMLVEAGQAVTTREADYAWYTPAQPDKDYCAEMKKAR
+Sbjct  241  LGVPVHLRDLGAEKGTQVLMLVEAGQAVTTREADYAWYTPAQPDKDYCAEMKKAR  295
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.420    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2063520340
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

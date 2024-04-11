@@ -1,0 +1,1085 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1305.t1
+
+Length=115
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011430(gb|WP_002963616) (acpXL) acyl carrier protein [LPS (VF0...  54.3    4e-11
+VFG041860(gb|WP_043596241) (CV_RS12800) acyl carrier protein [Cpi...  47.0    5e-08
+VFG052330(gb|WP_012231872.1) (acpP2) acyl carrier protein [LPS (V...  47.0    6e-08
+VFG052329(gb|WP_011179300.1) (acpP2) acyl carrier protein [LPS (V...  46.2    9e-08
+VFG052327(gb|WP_005766822.1) (acpP2) acyl carrier protein [LPS (V...  45.8    2e-07
+VFG021809(gb|WP_011559125) (mbtL) Acyl carrier protein (ACP) MbtL...  45.1    2e-07
+VFG021807(gb|WP_003893505) (mbtL) Acyl carrier protein (ACP) MbtL...  44.3    5e-07
+VFG011429(gb|WP_002963985) (acpXL) acyl carrier protein [LPS (VF0...  44.3    5e-07
+VFG025012(gb|WP_009896157) (bapB) acyl carrier protein [Bsa T3SS ...  42.7    2e-06
+VFG022762(gb|WP_013828467) (mbtL) Acyl carrier protein (ACP) MbtL...  42.4    3e-06
+VFG024042(gb|WP_008256950) (mbtL) Acyl carrier protein (ACP) MbtL...  42.0    3e-06
+VFG052328(gb|WP_011180648.1) (acpP2) acyl carrier protein [LPS (V...  42.0    4e-06
+VFG021808(gb|WP_011895253) (mbtL) Acyl carrier protein (ACP) MbtL...  42.0    4e-06
+VFG024041(gb|WP_013472308) (mbtL) Acyl carrier protein (ACP) MbtL...  41.6    5e-06
+
+
+>VFG011430(gb|WP_002963616) (acpXL) acyl carrier protein [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella melitensis 
+bv. 1 str. 16M]
+Length=78
+
+ Score = 54.3 bits (129),  Expect = 4e-11, Method: Compositional matrix adjust.
+ Identities = 27/68 (40%), Positives = 44/68 (65%), Gaps = 0/68 (0%)
+
+Query  12  IAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPDEDLAGLRTVG  71
+           + +I+ E  G++  ++T   SF+DDL  DSL  VE+ +  E+++GV+IPD+    + TVG
+Sbjct  8   VKKIVVEHLGVDADKVTEGASFIDDLGADSLDTVELVMAFEEEFGVEIPDDAAETILTVG  67
+
+Query  72  DVVTYIQK  79
+           D V +I K
+Sbjct  68  DAVKFIDK  75
+
+
+>VFG041860(gb|WP_043596241) (CV_RS12800) acyl carrier protein 
+[Cpi-1a + Cpi-1 (SPI-1 like) (VF1259) - Effector delivery system 
+(VFC0086)] [Chromobacterium violaceum ATCC 12472]
+Length=94
+
+ Score = 47.0 bits (110),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 20/76 (26%), Positives = 43/76 (57%), Gaps = 0/76 (0%)
+
+Query  4   TQEEIIAGIAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPDED  63
+              +I + + E++      +   + P+   VDDL  DSL ++++ +   D +G+++  +D
+Sbjct  12  VHRDIESMVREVMAYSLSADAGRLQPQARLVDDLYADSLELLDMLMALNDAFGIELGVDD  71
+
+Query  64  LAGLRTVGDVVTYIQK  79
+           +AG+RTV DV   +++
+Sbjct  72  IAGIRTVADVCAAVRR  87
+
+
+>VFG052330(gb|WP_012231872.1) (acpP2) acyl carrier protein [LPS 
+(VF0370) - Immune modulation (VFC0258)] [Bartonella tribocorum 
+CIP 105476]
+Length=94
+
+ Score = 47.0 bits (110),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  12  IAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIP  60
+           +A+II E++ I+ S ITPE   +DDL IDSL  ++I    +  +G+K+P
+Sbjct  8   VADIIAEISEIDRSTITPESHTIDDLGIDSLDFLDIVFAIDKAFGIKVP  56
+
+
+>VFG052329(gb|WP_011179300.1) (acpP2) acyl carrier protein [LPS 
+(VF0370) - Immune modulation (VFC0258)] [Bartonella quintana 
+str. Toulouse]
+Length=94
+
+ Score = 46.2 bits (108),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 33/49 (67%), Gaps = 0/49 (0%)
+
+Query  12  IAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIP  60
+           +A+II E++ I+ S ITPE   +DDL IDSL  ++I    +  +G+K+P
+Sbjct  8   VADIIAEISEIDHSIITPESHTIDDLGIDSLDFLDIVFAIDKAFGIKVP  56
+
+
+>VFG052327(gb|WP_005766822.1) (acpP2) acyl carrier protein [LPS 
+(VF0370) - Immune modulation (VFC0258)] [Bartonella bacilliformis 
+KC583]
+Length=94
+
+ Score = 45.8 bits (107),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 21/51 (41%), Positives = 34/51 (67%), Gaps = 0/51 (0%)
+
+Query  12  IAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPDE  62
+           +A+II E++ I+ S ITP+   +DDL IDSL  ++I    +  +G+K+P E
+Sbjct  8   VADIISEISEIDRSVITPKSHTIDDLGIDSLDFLDIVFAIDKAFGIKVPLE  58
+
+
+>VFG021809(gb|WP_011559125) (mbtL) Acyl carrier protein (ACP) 
+MbtL [Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium sp. JLS]
+Length=89
+
+ Score = 45.1 bits (105),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 25/82 (30%), Positives = 42/82 (51%), Gaps = 0/82 (0%)
+
+Query  6   EEIIAGIAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPDEDLA  65
+           E + A + EI+ +   ++   +T E   +DD+ +DS++     V  ED+ GV + +EDL 
+Sbjct  7   ESVSAALTEILRDDMNVDIRRVTRESRLIDDVGLDSVAFAVGMVAIEDRLGVALTEEDLL  66
+
+Query  66  GLRTVGDVVTYIQKLEEENPEA  87
+              TVGD+   IQ     +P  
+Sbjct  67  SCDTVGDLEAAIQAKVPSSPSG  88
+
+
+>VFG021807(gb|WP_003893505) (mbtL) Acyl carrier protein (ACP) 
+MbtL [Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=89
+
+ Score = 44.3 bits (103),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 24/68 (35%), Positives = 38/68 (56%), Gaps = 0/68 (0%)
+
+Query  6   EEIIAGIAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPDEDLA  65
+           + I A + EI+ E   ++   +T +   VDD+ +DS++     V  EDK GV + +EDL 
+Sbjct  7   DAISAALTEILREDMNVDIRRVTRDSRLVDDVGLDSVAFAVGMVAIEDKLGVALSEEDLL  66
+
+Query  66  GLRTVGDV  73
+              TVGD+
+Sbjct  67  SCDTVGDL  74
+
+
+>VFG011429(gb|WP_002963985) (acpXL) acyl carrier protein [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella melitensis 
+bv. 1 str. 16M]
+Length=93
+
+ Score = 44.3 bits (103),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 31/49 (63%), Gaps = 0/49 (0%)
+
+Query  12  IAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIP  60
+           +A+II E + I+   ITPE   +DDL IDSL  ++I    +  +G+KIP
+Sbjct  8   VADIIAETSEIDRDTITPESHTIDDLGIDSLDFLDIVFAIDKAFGIKIP  56
+
+
+>VFG025012(gb|WP_009896157) (bapB) acyl carrier protein [Bsa T3SS 
+(VF0428) - Effector delivery system (VFC0086)] [Burkholderia 
+thailandensis E264]
+Length=93
+
+ Score = 42.7 bits (99),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 17/59 (29%), Positives = 38/59 (64%), Gaps = 0/59 (0%)
+
+Query  19  VTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPDEDLAGLRTVGDVVTYI  77
+           + G+  + I P++  +DDL +DSL ++E+A++ ++++ +++    LA + TV DV   +
+Sbjct  23  MLGVPEAHIAPQQRLLDDLAMDSLELIELAMELDERWNIRLDRTRLAEVATVADVAALL  81
+
+
+>VFG022762(gb|WP_013828467) (mbtL) Acyl carrier protein (ACP) 
+MbtL [Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium sp. JDM601]
+Length=86
+
+ Score = 42.4 bits (98),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 22/68 (32%), Positives = 40/68 (59%), Gaps = 0/68 (0%)
+
+Query  11  GIAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPDEDLAGLRTV  70
+            + EI+ +   ++ +++TPE   VD++ +DS++     V  ED+ GV + +EDL    TV
+Sbjct  12  ALREILRDDLNVDLTKVTPESRLVDEVGLDSVAFAIGMVAIEDRLGVALSEEDLLTCDTV  71
+
+Query  71  GDVVTYIQ  78
+           GD+   I+
+Sbjct  72  GDLEAAIR  79
+
+
+>VFG024042(gb|WP_008256950) (mbtL) Acyl carrier protein (ACP) 
+MbtL [Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium indicus pranii MTCC 9506]
+Length=84
+
+ Score = 42.0 bits (97),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 22/73 (30%), Positives = 40/73 (55%), Gaps = 0/73 (0%)
+
+Query  1   MAVTQEEIIAGIAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIP  60
+           M  +   + A +  I+ E   ++ S +TP+   VDD+ +DS++     V  E++ GV + 
+Sbjct  1   MTSSSPTVSAELLSILREDLNVDASRLTPDARLVDDVGLDSVAFAVGMVAIEERLGVSLS  60
+
+Query  61  DEDLAGLRTVGDV  73
+           +E+L    TVGD+
+Sbjct  61  EEELLNCDTVGDL  73
+
+
+>VFG052328(gb|WP_011180648.1) (acpP2) acyl carrier protein [LPS 
+(VF0370) - Immune modulation (VFC0258)] [Bartonella henselae 
+str. Houston-1]
+Length=94
+
+ Score = 42.0 bits (97),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 19/49 (39%), Positives = 32/49 (65%), Gaps = 0/49 (0%)
+
+Query  12  IAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIP  60
+           +A+II E++ ++ + IT E   +DDL IDSL  ++I    +  +G+KIP
+Sbjct  8   VADIIAEISEVDRNMITYESHTIDDLGIDSLDFLDIVFAIDKTFGIKIP  56
+
+
+>VFG021808(gb|WP_011895253) (mbtL) Acyl carrier protein (ACP) 
+MbtL [Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium gilvum PYR-GCK]
+Length=92
+
+ Score = 42.0 bits (97),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 23/76 (30%), Positives = 44/76 (58%), Gaps = 0/76 (0%)
+
+Query  2   AVTQEEIIAGIAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPD  61
+           A + + I A +A+I+ +   ++ S +T +   +DD+ +DS++     +  +DK GV + +
+Sbjct  9   APSPDGIDAALADILRDDLNVDISRVTRDSRLIDDVGLDSVAFAIGMIAIQDKLGVTLNE  68
+
+Query  62  EDLAGLRTVGDVVTYI  77
+           EDL    TVGD+ T +
+Sbjct  69  EDLLSCDTVGDLETAV  84
+
+
+>VFG024041(gb|WP_013472308) (mbtL) Acyl carrier protein (ACP) 
+MbtL [Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium gilvum Spyr1]
+Length=92
+
+ Score = 41.6 bits (96),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 23/76 (30%), Positives = 44/76 (58%), Gaps = 0/76 (0%)
+
+Query  2   AVTQEEIIAGIAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPD  61
+           A + + I A +A+I+ +   ++ S +T +   +DD+ +DS++     +  +DK GV + +
+Sbjct  9   APSPDGIDAALADILRDDLNVDISRVTRDSRLIDDVGLDSVAFAIGMIAIQDKLGVTLDE  68
+
+Query  62  EDLAGLRTVGDVVTYI  77
+           EDL    TVGD+ T +
+Sbjct  69  EDLLSCDTVGDLETAV  84
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.127    0.323    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 327597390
+
+
+Query= g32.t1
+
+Length=87
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG021807(gb|WP_003893505) (mbtL) Acyl carrier protein (ACP) MbtL...  44.7    1e-07
+VFG021809(gb|WP_011559125) (mbtL) Acyl carrier protein (ACP) MbtL...  42.0    1e-06
+VFG021808(gb|WP_011895253) (mbtL) Acyl carrier protein (ACP) MbtL...  40.0    9e-06
+
+
+>VFG021807(gb|WP_003893505) (mbtL) Acyl carrier protein (ACP) 
+MbtL [Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=89
+
+ Score = 44.7 bits (104),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 26/77 (34%), Positives = 42/77 (55%), Gaps = 5/77 (6%)
+
+Query  3   EAINATIQRILRTD-----RGITANQVLVDDLGFDSLKLFQLITELEDEFDIAISFRDAQ  57
+           +AI+A +  ILR D     R +T +  LVDD+G DS+     +  +ED+  +A+S  D  
+Sbjct  7   DAISAALTEILREDMNVDIRRVTRDSRLVDDVGLDSVAFAVGMVAIEDKLGVALSEEDLL  66
+
+Query  58  NIKTVGDVYTSVAVWFP  74
+           +  TVGD+  ++    P
+Sbjct  67  SCDTVGDLEAAILAKIP  83
+
+
+>VFG021809(gb|WP_011559125) (mbtL) Acyl carrier protein (ACP) 
+MbtL [Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium sp. JLS]
+Length=89
+
+ Score = 42.0 bits (97),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 23/80 (29%), Positives = 41/80 (51%), Gaps = 5/80 (6%)
+
+Query  2   KEAINATIQRILRTD-----RGITANQVLVDDLGFDSLKLFQLITELEDEFDIAISFRDA  56
+            E+++A +  ILR D     R +T    L+DD+G DS+     +  +ED   +A++  D 
+Sbjct  6   SESVSAALTEILRDDMNVDIRRVTRESRLIDDVGLDSVAFAVGMVAIEDRLGVALTEEDL  65
+
+Query  57  QNIKTVGDVYTSVAVWFPET  76
+            +  TVGD+  ++    P +
+Sbjct  66  LSCDTVGDLEAAIQAKVPSS  85
+
+
+>VFG021808(gb|WP_011895253) (mbtL) Acyl carrier protein (ACP) 
+MbtL [Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium gilvum PYR-GCK]
+Length=92
+
+ Score = 40.0 bits (92),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 23/79 (29%), Positives = 43/79 (54%), Gaps = 5/79 (6%)
+
+Query  3   EAINATIQRILRTDRGITANQV-----LVDDLGFDSLKLFQLITELEDEFDIAISFRDAQ  57
+           + I+A +  ILR D  +  ++V     L+DD+G DS+     +  ++D+  + ++  D  
+Sbjct  13  DGIDAALADILRDDLNVDISRVTRDSRLIDDVGLDSVAFAIGMIAIQDKLGVTLNEEDLL  72
+
+Query  58  NIKTVGDVYTSVAVWFPET  76
+           +  TVGD+ T+V    PE+
+Sbjct  73  SCDTVGDLETAVLAKVPES  91
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 326128460
+
+
+Query= g2217.t1
+
+Length=115
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011430(gb|WP_002963616) (acpXL) acyl carrier protein [LPS (VF0...  54.3    5e-11
+VFG041860(gb|WP_043596241) (CV_RS12800) acyl carrier protein [Cpi...  48.5    1e-08
+VFG052330(gb|WP_012231872.1) (acpP2) acyl carrier protein [LPS (V...  47.4    4e-08
+VFG021809(gb|WP_011559125) (mbtL) Acyl carrier protein (ACP) MbtL...  47.0    4e-08
+VFG052329(gb|WP_011179300.1) (acpP2) acyl carrier protein [LPS (V...  46.6    6e-08
+VFG021807(gb|WP_003893505) (mbtL) Acyl carrier protein (ACP) MbtL...  45.4    2e-07
+VFG052327(gb|WP_005766822.1) (acpP2) acyl carrier protein [LPS (V...  45.4    2e-07
+VFG025012(gb|WP_009896157) (bapB) acyl carrier protein [Bsa T3SS ...  44.3    5e-07
+VFG022762(gb|WP_013828467) (mbtL) Acyl carrier protein (ACP) MbtL...  44.3    5e-07
+VFG011429(gb|WP_002963985) (acpXL) acyl carrier protein [LPS (VF0...  44.3    5e-07
+VFG024042(gb|WP_008256950) (mbtL) Acyl carrier protein (ACP) MbtL...  43.5    9e-07
+VFG052328(gb|WP_011180648.1) (acpP2) acyl carrier protein [LPS (V...  42.0    4e-06
+VFG021808(gb|WP_011895253) (mbtL) Acyl carrier protein (ACP) MbtL...  41.6    5e-06
+VFG024041(gb|WP_013472308) (mbtL) Acyl carrier protein (ACP) MbtL...  41.6    6e-06
+
+
+>VFG011430(gb|WP_002963616) (acpXL) acyl carrier protein [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella melitensis 
+bv. 1 str. 16M]
+Length=78
+
+ Score = 54.3 bits (129),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 27/68 (40%), Positives = 44/68 (65%), Gaps = 0/68 (0%)
+
+Query  12  IAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPDEDLAGLRTVG  71
+           + +I+ E  G++  ++T   SF+DDL  DSL  VE+ +  E+++GV+IPD+    + TVG
+Sbjct  8   VKKIVVEHLGVDADKVTEGASFIDDLGADSLDTVELVMAFEEEFGVEIPDDAAETILTVG  67
+
+Query  72  DVVAYIQK  79
+           D V +I K
+Sbjct  68  DAVKFIDK  75
+
+
+>VFG041860(gb|WP_043596241) (CV_RS12800) acyl carrier protein 
+[Cpi-1a + Cpi-1 (SPI-1 like) (VF1259) - Effector delivery system 
+(VFC0086)] [Chromobacterium violaceum ATCC 12472]
+Length=94
+
+ Score = 48.5 bits (114),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 21/76 (28%), Positives = 44/76 (58%), Gaps = 0/76 (0%)
+
+Query  4   TQEEIIAGIAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPDED  63
+              +I + + E++      +   + P+   VDDL  DSL ++++ +   D +G+++  +D
+Sbjct  12  VHRDIESMVREVMAYSLSADAGRLQPQARLVDDLYADSLELLDMLMALNDAFGIELGVDD  71
+
+Query  64  LAGLRTVGDVVAYIQK  79
+           +AG+RTV DV A +++
+Sbjct  72  IAGIRTVADVCAAVRR  87
+
+
+>VFG052330(gb|WP_012231872.1) (acpP2) acyl carrier protein [LPS 
+(VF0370) - Immune modulation (VFC0258)] [Bartonella tribocorum 
+CIP 105476]
+Length=94
+
+ Score = 47.4 bits (111),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 24/60 (40%), Positives = 38/60 (63%), Gaps = 4/60 (7%)
+
+Query  1   MPVTQEEIIAGIAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIP  60
+           MP T +++    A+II E++ I+ S ITPE   +DDL IDSL  ++I    +  +G+K+P
+Sbjct  1   MPSTFDKV----ADIIAEISEIDRSTITPESHTIDDLGIDSLDFLDIVFAIDKAFGIKVP  56
+
+
+>VFG021809(gb|WP_011559125) (mbtL) Acyl carrier protein (ACP) 
+MbtL [Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium sp. JLS]
+Length=89
+
+ Score = 47.0 bits (110),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 25/73 (34%), Positives = 41/73 (56%), Gaps = 0/73 (0%)
+
+Query  6   EEIIAGIAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPDEDLA  65
+           E + A + EI+ +   ++   +T E   +DD+ +DS++     V  ED+ GV + +EDL 
+Sbjct  7   ESVSAALTEILRDDMNVDIRRVTRESRLIDDVGLDSVAFAVGMVAIEDRLGVALTEEDLL  66
+
+Query  66  GLRTVGDVVAYIQ  78
+              TVGD+ A IQ
+Sbjct  67  SCDTVGDLEAAIQ  79
+
+
+>VFG052329(gb|WP_011179300.1) (acpP2) acyl carrier protein [LPS 
+(VF0370) - Immune modulation (VFC0258)] [Bartonella quintana 
+str. Toulouse]
+Length=94
+
+ Score = 46.6 bits (109),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 24/60 (40%), Positives = 38/60 (63%), Gaps = 4/60 (7%)
+
+Query  1   MPVTQEEIIAGIAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIP  60
+           MP T +++    A+II E++ I+ S ITPE   +DDL IDSL  ++I    +  +G+K+P
+Sbjct  1   MPSTFDKV----ADIIAEISEIDHSIITPESHTIDDLGIDSLDFLDIVFAIDKAFGIKVP  56
+
+
+>VFG021807(gb|WP_003893505) (mbtL) Acyl carrier protein (ACP) 
+MbtL [Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium smegmatis str. MC2 155]
+Length=89
+
+ Score = 45.4 bits (106),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 26/70 (37%), Positives = 39/70 (56%), Gaps = 0/70 (0%)
+
+Query  8   IIAGIAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPDEDLAGL  67
+           I A + EI+ E   ++   +T +   VDD+ +DS++     V  EDK GV + +EDL   
+Sbjct  9   ISAALTEILREDMNVDIRRVTRDSRLVDDVGLDSVAFAVGMVAIEDKLGVALSEEDLLSC  68
+
+Query  68  RTVGDVVAYI  77
+            TVGD+ A I
+Sbjct  69  DTVGDLEAAI  78
+
+
+>VFG052327(gb|WP_005766822.1) (acpP2) acyl carrier protein [LPS 
+(VF0370) - Immune modulation (VFC0258)] [Bartonella bacilliformis 
+KC583]
+Length=94
+
+ Score = 45.4 bits (106),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 21/51 (41%), Positives = 34/51 (67%), Gaps = 0/51 (0%)
+
+Query  12  IAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPDE  62
+           +A+II E++ I+ S ITP+   +DDL IDSL  ++I    +  +G+K+P E
+Sbjct  8   VADIISEISEIDRSVITPKSHTIDDLGIDSLDFLDIVFAIDKAFGIKVPLE  58
+
+
+>VFG025012(gb|WP_009896157) (bapB) acyl carrier protein [Bsa T3SS 
+(VF0428) - Effector delivery system (VFC0086)] [Burkholderia 
+thailandensis E264]
+Length=93
+
+ Score = 44.3 bits (103),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 18/59 (31%), Positives = 39/59 (66%), Gaps = 0/59 (0%)
+
+Query  19  VTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPDEDLAGLRTVGDVVAYI  77
+           + G+  + I P++  +DDL +DSL ++E+A++ ++++ +++    LA + TV DV A +
+Sbjct  23  MLGVPEAHIAPQQRLLDDLAMDSLELIELAMELDERWNIRLDRTRLAEVATVADVAALL  81
+
+
+>VFG022762(gb|WP_013828467) (mbtL) Acyl carrier protein (ACP) 
+MbtL [Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium sp. JDM601]
+Length=86
+
+ Score = 44.3 bits (103),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 23/68 (34%), Positives = 41/68 (60%), Gaps = 0/68 (0%)
+
+Query  11  GIAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPDEDLAGLRTV  70
+            + EI+ +   ++ +++TPE   VD++ +DS++     V  ED+ GV + +EDL    TV
+Sbjct  12  ALREILRDDLNVDLTKVTPESRLVDEVGLDSVAFAIGMVAIEDRLGVALSEEDLLTCDTV  71
+
+Query  71  GDVVAYIQ  78
+           GD+ A I+
+Sbjct  72  GDLEAAIR  79
+
+
+>VFG011429(gb|WP_002963985) (acpXL) acyl carrier protein [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella melitensis 
+bv. 1 str. 16M]
+Length=93
+
+ Score = 44.3 bits (103),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 21/49 (43%), Positives = 31/49 (63%), Gaps = 0/49 (0%)
+
+Query  12  IAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIP  60
+           +A+II E + I+   ITPE   +DDL IDSL  ++I    +  +G+KIP
+Sbjct  8   VADIIAETSEIDRDTITPESHTIDDLGIDSLDFLDIVFAIDKAFGIKIP  56
+
+
+>VFG024042(gb|WP_008256950) (mbtL) Acyl carrier protein (ACP) 
+MbtL [Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium indicus pranii MTCC 9506]
+Length=84
+
+ Score = 43.5 bits (101),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 24/77 (31%), Positives = 42/77 (55%), Gaps = 0/77 (0%)
+
+Query  1   MPVTQEEIIAGIAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIP  60
+           M  +   + A +  I+ E   ++ S +TP+   VDD+ +DS++     V  E++ GV + 
+Sbjct  1   MTSSSPTVSAELLSILREDLNVDASRLTPDARLVDDVGLDSVAFAVGMVAIEERLGVSLS  60
+
+Query  61  DEDLAGLRTVGDVVAYI  77
+           +E+L    TVGD+ A I
+Sbjct  61  EEELLNCDTVGDLQAAI  77
+
+
+>VFG052328(gb|WP_011180648.1) (acpP2) acyl carrier protein [LPS 
+(VF0370) - Immune modulation (VFC0258)] [Bartonella henselae 
+str. Houston-1]
+Length=94
+
+ Score = 42.0 bits (97),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 19/49 (39%), Positives = 32/49 (65%), Gaps = 0/49 (0%)
+
+Query  12  IAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIP  60
+           +A+II E++ ++ + IT E   +DDL IDSL  ++I    +  +G+KIP
+Sbjct  8   VADIIAEISEVDRNMITYESHTIDDLGIDSLDFLDIVFAIDKTFGIKIP  56
+
+
+>VFG021808(gb|WP_011895253) (mbtL) Acyl carrier protein (ACP) 
+MbtL [Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium gilvum PYR-GCK]
+Length=92
+
+ Score = 41.6 bits (96),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 24/81 (30%), Positives = 46/81 (57%), Gaps = 1/81 (1%)
+
+Query  4   TQEEIIAGIAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPDED  63
+           + + I A +A+I+ +   ++ S +T +   +DD+ +DS++     +  +DK GV + +ED
+Sbjct  11  SPDGIDAALADILRDDLNVDISRVTRDSRLIDDVGLDSVAFAIGMIAIQDKLGVTLNEED  70
+
+Query  64  LAGLRTVGDV-VAYIQKLEEE  83
+           L    TVGD+  A + K+ E 
+Sbjct  71  LLSCDTVGDLETAVLAKVPES  91
+
+
+>VFG024041(gb|WP_013472308) (mbtL) Acyl carrier protein (ACP) 
+MbtL [Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium gilvum Spyr1]
+Length=92
+
+ Score = 41.6 bits (96),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 24/82 (29%), Positives = 46/82 (56%), Gaps = 1/82 (1%)
+
+Query  4   TQEEIIAGIAEIIEEVTGIEPSEITPEKSFVDDLDIDSLSMVEIAVQTEDKYGVKIPDED  63
+           + + I A +A+I+ +   ++ S +T +   +DD+ +DS++     +  +DK GV + +ED
+Sbjct  11  SPDGIDAALADILRDDLNVDISRVTRDSRLIDDVGLDSVAFAIGMIAIQDKLGVTLDEED  70
+
+Query  64  LAGLRTVGDV-VAYIQKLEEEN  84
+           L    TVGD+  A + K+ E  
+Sbjct  71  LLSCDTVGDLETAVLAKVPESR  92
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.128    0.329    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 327597390
+
+
+Query= g1898.t1
+
+Length=136
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011430(gb|WP_002963616) (acpXL) acyl carrier protein [LPS (VF0...  65.9    3e-15
+
+
+>VFG011430(gb|WP_002963616) (acpXL) acyl carrier protein [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella melitensis 
+bv. 1 str. 16M]
+Length=78
+
+ Score = 65.9 bits (159),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 36/76 (47%), Positives = 49/76 (64%), Gaps = 0/76 (0%)
+
+Query  58   MDDIETRVRKLVAARFGVEECDIRLDSDFRNDFGAESLEVVELVMALEAEFGVEIADDDA  117
+            M D   RV+K+V    GV+   +   + F +D GA+SL+ VELVMA E EFGVEI DD A
+Sbjct  1    MSDTAERVKKIVVEHLGVDADKVTEGASFIDDLGADSLDTVELVMAFEEEFGVEIPDDAA  60
+
+Query  118  ERIETVRQAIDYLEEA  133
+            E I TV  A+ ++++A
+Sbjct  61   ETILTVGDAVKFIDKA  76
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 507975295
+
+
+Query= g3025.t1
+
+Length=78
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011430(gb|WP_002963616) (acpXL) acyl carrier protein [LPS (VF0...  95.1    1e-27
+VFG018538(gb|WP_000366948) (iacP) acyl carrier protein [TTSS (SPI...  48.9    2e-09
+VFG020452(gb|WP_001055582) (iacP) acyl carrier protein [TTSS (SPI...  48.5    3e-09
+VFG003691(gb|WP_001055579) (iacP) acyl carrier protein [TTSS (SPI...  47.8    7e-09
+VFG000542(gb|NP_461802) (iacP) putative acyl carrier protein [TTS...  47.8    7e-09
+VFG003694(gb|WP_001540780) (iacP) acyl carrier protein [TTSS (SPI...  45.1    7e-08
+VFG011429(gb|WP_002963985) (acpXL) acyl carrier protein [LPS (VF0...  41.6    2e-06
+VFG052328(gb|WP_011180648.1) (acpP2) acyl carrier protein [LPS (V...  40.4    5e-06
+
+
+>VFG011430(gb|WP_002963616) (acpXL) acyl carrier protein [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella melitensis 
+bv. 1 str. 16M]
+Length=78
+
+ Score = 95.1 bits (235),  Expect = 1e-27, Method: Compositional matrix adjust.
+ Identities = 48/73 (66%), Positives = 56/73 (77%), Gaps = 0/73 (0%)
+
+Query  1   MSTIEERVKKIVAEQLGVKEEEVTNSASFVEDLGADSLDTVELVMALEEEFETEIPDEKA  60
+           MS   ERVKKIV E LGV  ++VT  ASF++DLGADSLDTVELVMA EEEF  EIPD+ A
+Sbjct  1   MSDTAERVKKIVVEHLGVDADKVTEGASFIDDLGADSLDTVELVMAFEEEFGVEIPDDAA  60
+
+Query  61  EKITTVQEAIDYI  73
+           E I TV +A+ +I
+Sbjct  61  ETILTVGDAVKFI  73
+
+
+>VFG018538(gb|WP_000366948) (iacP) acyl carrier protein [TTSS 
+(SPI-1 encode) (VF0116) - Effector delivery system (VFC0086)] 
+[Salmonella enterica subsp. arizonae serovar 62:z4,z23:-- 
+str. RSK2980]
+Length=82
+
+ Score = 48.9 bits (115),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 23/65 (35%), Positives = 37/65 (57%), Gaps = 0/65 (0%)
+
+Query  4   IEERVKKIVAEQLGVKEEEVTNSASFVEDLGADSLDTVELVMALEEEFETEIPDEKAEKI  63
+           IE RVKK++   + V+   +    + VEDL ADSLD +++V  L EEF+    +     +
+Sbjct  5   IESRVKKVITSCIAVEINSINGQTNLVEDLYADSLDLIDIVFGLSEEFDISCNENDLPDM  64
+
+Query  64  TTVQE  68
+           TT+ +
+Sbjct  65  TTITD  69
+
+
+>VFG020452(gb|WP_001055582) (iacP) acyl carrier protein [TTSS 
+(SPI-1 encode) (VF0116) - Effector delivery system (VFC0086)] 
+[Salmonella enterica subsp. enterica serovar Gallinarum str. 
+287/91]
+Length=82
+
+ Score = 48.5 bits (114),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 35/59 (59%), Gaps = 5/59 (8%)
+
+Query  4   IEERVKKIVAEQLGVKEEEVTNSASFVEDLGADSLDTVELVMALEEEF-----ETEIPD  57
+           IE RVKK++   + V  + +    + VEDL ADSLD +++V  L EEF     E ++PD
+Sbjct  5   IEARVKKVITSCIAVDVDSINGQTNLVEDLYADSLDLIDIVFGLSEEFDISCNENDLPD  63
+
+
+>VFG003691(gb|WP_001055579) (iacP) acyl carrier protein [TTSS 
+(SPI-1 encode) (VF0116) - Effector delivery system (VFC0086)] 
+[Salmonella enterica subsp. enterica serovar Typhi str. CT18]
+Length=82
+
+ Score = 47.8 bits (112),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 34/59 (58%), Gaps = 5/59 (8%)
+
+Query  4   IEERVKKIVAEQLGVKEEEVTNSASFVEDLGADSLDTVELVMALEEEF-----ETEIPD  57
+           IE RVKK++   + V  + +      VEDL ADSLD +++V  L EEF     E ++PD
+Sbjct  5   IEARVKKVITSCIAVDVDSINGQTHLVEDLYADSLDLIDIVFGLSEEFDISCNENDLPD  63
+
+
+>VFG000542(gb|NP_461802) (iacP) putative acyl carrier protein 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system (VFC0086)] 
+[Salmonella enterica subsp. enterica serovar Typhimurium 
+str. LT2]
+Length=82
+
+ Score = 47.8 bits (112),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 24/59 (41%), Positives = 34/59 (58%), Gaps = 5/59 (8%)
+
+Query  4   IEERVKKIVAEQLGVKEEEVTNSASFVEDLGADSLDTVELVMALEEEF-----ETEIPD  57
+           IE RVKK++   + V  + +      VEDL ADSLD +++V  L EEF     E ++PD
+Sbjct  5   IEARVKKVITSCIAVDVDSINGQTHLVEDLYADSLDLIDIVFGLSEEFDISCNENDLPD  63
+
+
+>VFG003694(gb|WP_001540780) (iacP) acyl carrier protein [TTSS 
+(SPI-1 encode) (VF0116) - Effector delivery system (VFC0086)] 
+[Salmonella enterica subsp. enterica serovar Choleraesuis 
+str. SC-B67]
+Length=82
+
+ Score = 45.1 bits (105),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 23/59 (39%), Positives = 34/59 (58%), Gaps = 5/59 (8%)
+
+Query  4   IEERVKKIVAEQLGVKEEEVTNSASFVEDLGADSLDTVELVMALEEEF-----ETEIPD  57
+           IE RVKK++   + V  + +      VE+L ADSLD +++V  L EEF     E ++PD
+Sbjct  5   IEARVKKVITSCIAVDVDSINGQTHLVEELYADSLDLIDIVFGLSEEFDISCNENDLPD  63
+
+
+>VFG011429(gb|WP_002963985) (acpXL) acyl carrier protein [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella melitensis 
+bv. 1 str. 16M]
+Length=93
+
+ Score = 41.6 bits (96),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 19/56 (34%), Positives = 36/56 (64%), Gaps = 0/56 (0%)
+
+Query  1   MSTIEERVKKIVAEQLGVKEEEVTNSASFVEDLGADSLDTVELVMALEEEFETEIP  56
+           MS+  ++V  I+AE   +  + +T  +  ++DLG DSLD +++V A+++ F  +IP
+Sbjct  1   MSSTFDKVADIIAETSEIDRDTITPESHTIDDLGIDSLDFLDIVFAIDKAFGIKIP  56
+
+
+>VFG052328(gb|WP_011180648.1) (acpP2) acyl carrier protein [LPS 
+(VF0370) - Immune modulation (VFC0258)] [Bartonella henselae 
+str. Houston-1]
+Length=94
+
+ Score = 40.4 bits (93),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 21/59 (36%), Positives = 37/59 (63%), Gaps = 0/59 (0%)
+
+Query  1   MSTIEERVKKIVAEQLGVKEEEVTNSASFVEDLGADSLDTVELVMALEEEFETEIPDEK  59
+           MS+  ++V  I+AE   V    +T  +  ++DLG DSLD +++V A+++ F  +IP E+
+Sbjct  1   MSSTFDKVADIIAEISEVDRNMITYESHTIDDLGIDSLDFLDIVFAIDKTFGIKIPLEQ  59
+
+
+
+Lambda      K        H        a         alpha
+   0.306    0.124    0.306    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 333179924
+
+
+Query= g1115.t1
+
+Length=78
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011430(gb|WP_002963616) (acpXL) acyl carrier protein [LPS (VF0...  92.4    1e-26
+VFG018538(gb|WP_000366948) (iacP) acyl carrier protein [TTSS (SPI...  50.8    4e-10
+VFG020452(gb|WP_001055582) (iacP) acyl carrier protein [TTSS (SPI...  50.1    8e-10
+VFG003691(gb|WP_001055579) (iacP) acyl carrier protein [TTSS (SPI...  49.7    1e-09
+VFG000542(gb|NP_461802) (iacP) putative acyl carrier protein [TTS...  48.1    5e-09
+VFG003694(gb|WP_001540780) (iacP) acyl carrier protein [TTSS (SPI...  47.0    1e-08
+VFG011429(gb|WP_002963985) (acpXL) acyl carrier protein [LPS (VF0...  41.2    2e-06
+VFG052328(gb|WP_011180648.1) (acpP2) acyl carrier protein [LPS (V...  40.0    8e-06
+
+
+>VFG011430(gb|WP_002963616) (acpXL) acyl carrier protein [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella melitensis 
+bv. 1 str. 16M]
+Length=78
+
+ Score = 92.4 bits (228),  Expect = 1e-26, Method: Compositional matrix adjust.
+ Identities = 48/78 (62%), Positives = 57/78 (73%), Gaps = 0/78 (0%)
+
+Query  1   MSTIEERVKKIIGEQLGVKQEEVTNNASFVEDLGADSLDTVELVMALEEEFDTEIPDEEA  60
+           MS   ERVKKI+ E LGV  ++VT  ASF++DLGADSLDTVELVMA EEEF  EIPD+ A
+Sbjct  1   MSDTAERVKKIVVEHLGVDADKVTEGASFIDDLGADSLDTVELVMAFEEEFGVEIPDDAA  60
+
+Query  61  EKITTVQAAIDYINGHQA  78
+           E I TV  A+ +I+   A
+Sbjct  61  ETILTVGDAVKFIDKASA  78
+
+
+>VFG018538(gb|WP_000366948) (iacP) acyl carrier protein [TTSS 
+(SPI-1 encode) (VF0116) - Effector delivery system (VFC0086)] 
+[Salmonella enterica subsp. arizonae serovar 62:z4,z23:-- 
+str. RSK2980]
+Length=82
+
+ Score = 50.8 bits (120),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 25/63 (40%), Positives = 37/63 (59%), Gaps = 0/63 (0%)
+
+Query  4   IEERVKKIIGEQLGVKQEEVTNNASFVEDLGADSLDTVELVMALEEEFDTEIPDEEAEKI  63
+           IE RVKK+I   + V+   +    + VEDL ADSLD +++V  L EEFD    + +   +
+Sbjct  5   IESRVKKVITSCIAVEINSINGQTNLVEDLYADSLDLIDIVFGLSEEFDISCNENDLPDM  64
+
+Query  64  TTV  66
+           TT+
+Sbjct  65  TTI  67
+
+
+>VFG020452(gb|WP_001055582) (iacP) acyl carrier protein [TTSS 
+(SPI-1 encode) (VF0116) - Effector delivery system (VFC0086)] 
+[Salmonella enterica subsp. enterica serovar Gallinarum str. 
+287/91]
+Length=82
+
+ Score = 50.1 bits (118),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 25/62 (40%), Positives = 36/62 (58%), Gaps = 0/62 (0%)
+
+Query  4   IEERVKKIIGEQLGVKQEEVTNNASFVEDLGADSLDTVELVMALEEEFDTEIPDEEAEKI  63
+           IE RVKK+I   + V  + +    + VEDL ADSLD +++V  L EEFD    + +   +
+Sbjct  5   IEARVKKVITSCIAVDVDSINGQTNLVEDLYADSLDLIDIVFGLSEEFDISCNENDLPDM  64
+
+Query  64  TT  65
+           TT
+Sbjct  65  TT  66
+
+
+>VFG003691(gb|WP_001055579) (iacP) acyl carrier protein [TTSS 
+(SPI-1 encode) (VF0116) - Effector delivery system (VFC0086)] 
+[Salmonella enterica subsp. enterica serovar Typhi str. CT18]
+Length=82
+
+ Score = 49.7 bits (117),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 25/62 (40%), Positives = 35/62 (56%), Gaps = 0/62 (0%)
+
+Query  4   IEERVKKIIGEQLGVKQEEVTNNASFVEDLGADSLDTVELVMALEEEFDTEIPDEEAEKI  63
+           IE RVKK+I   + V  + +      VEDL ADSLD +++V  L EEFD    + +   +
+Sbjct  5   IEARVKKVITSCIAVDVDSINGQTHLVEDLYADSLDLIDIVFGLSEEFDISCNENDLPDM  64
+
+Query  64  TT  65
+           TT
+Sbjct  65  TT  66
+
+
+>VFG000542(gb|NP_461802) (iacP) putative acyl carrier protein 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system (VFC0086)] 
+[Salmonella enterica subsp. enterica serovar Typhimurium 
+str. LT2]
+Length=82
+
+ Score = 48.1 bits (113),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 25/59 (42%), Positives = 34/59 (58%), Gaps = 5/59 (8%)
+
+Query  4   IEERVKKIIGEQLGVKQEEVTNNASFVEDLGADSLDTVELVMALEEEFD-----TEIPD  57
+           IE RVKK+I   + V  + +      VEDL ADSLD +++V  L EEFD      ++PD
+Sbjct  5   IEARVKKVITSCIAVDVDSINGQTHLVEDLYADSLDLIDIVFGLSEEFDISCNENDLPD  63
+
+
+>VFG003694(gb|WP_001540780) (iacP) acyl carrier protein [TTSS 
+(SPI-1 encode) (VF0116) - Effector delivery system (VFC0086)] 
+[Salmonella enterica subsp. enterica serovar Choleraesuis 
+str. SC-B67]
+Length=82
+
+ Score = 47.0 bits (110),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 24/62 (39%), Positives = 35/62 (56%), Gaps = 0/62 (0%)
+
+Query  4   IEERVKKIIGEQLGVKQEEVTNNASFVEDLGADSLDTVELVMALEEEFDTEIPDEEAEKI  63
+           IE RVKK+I   + V  + +      VE+L ADSLD +++V  L EEFD    + +   +
+Sbjct  5   IEARVKKVITSCIAVDVDSINGQTHLVEELYADSLDLIDIVFGLSEEFDISCNENDLPDM  64
+
+Query  64  TT  65
+           TT
+Sbjct  65  TT  66
+
+
+>VFG011429(gb|WP_002963985) (acpXL) acyl carrier protein [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella melitensis 
+bv. 1 str. 16M]
+Length=93
+
+ Score = 41.2 bits (95),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 20/59 (34%), Positives = 38/59 (64%), Gaps = 0/59 (0%)
+
+Query  1   MSTIEERVKKIIGEQLGVKQEEVTNNASFVEDLGADSLDTVELVMALEEEFDTEIPDEE  59
+           MS+  ++V  II E   + ++ +T  +  ++DLG DSLD +++V A+++ F  +IP E+
+Sbjct  1   MSSTFDKVADIIAETSEIDRDTITPESHTIDDLGIDSLDFLDIVFAIDKAFGIKIPLEQ  59
+
+
+>VFG052328(gb|WP_011180648.1) (acpP2) acyl carrier protein [LPS 
+(VF0370) - Immune modulation (VFC0258)] [Bartonella henselae 
+str. Houston-1]
+Length=94
+
+ Score = 40.0 bits (92),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 21/59 (36%), Positives = 37/59 (63%), Gaps = 0/59 (0%)
+
+Query  1   MSTIEERVKKIIGEQLGVKQEEVTNNASFVEDLGADSLDTVELVMALEEEFDTEIPDEE  59
+           MS+  ++V  II E   V +  +T  +  ++DLG DSLD +++V A+++ F  +IP E+
+Sbjct  1   MSSTFDKVADIIAEISEVDRNMITYESHTIDDLGIDSLDFLDIVFAIDKTFGIKIPLEQ  59
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.127    0.323    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 333179924
+
+
+Query= g2674.t1
+
+Length=82
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000542(gb|NP_461802) (iacP) putative acyl carrier protein [TTS...  164     4e-55
+VFG003691(gb|WP_001055579) (iacP) acyl carrier protein [TTSS (SPI...  162     3e-54
+VFG003694(gb|WP_001540780) (iacP) acyl carrier protein [TTSS (SPI...  161     1e-53
+VFG020452(gb|WP_001055582) (iacP) acyl carrier protein [TTSS (SPI...  159     4e-53
+VFG018538(gb|WP_000366948) (iacP) acyl carrier protein [TTSS (SPI...  144     4e-47
+VFG041860(gb|WP_043596241) (CV_RS12800) acyl carrier protein [Cpi...  63.9    4e-15
+VFG011430(gb|WP_002963616) (acpXL) acyl carrier protein [LPS (VF0...  47.8    7e-09
+
+
+>VFG000542(gb|NP_461802) (iacP) putative acyl carrier protein 
+[TTSS (SPI-1 encode) (VF0116) - Effector delivery system (VFC0086)] 
+[Salmonella enterica subsp. enterica serovar Typhimurium 
+str. LT2]
+Length=82
+
+ Score = 164 bits (416),  Expect = 4e-55, Method: Compositional matrix adjust.
+ Identities = 82/82 (100%), Positives = 82/82 (100%), Gaps = 0/82 (0%)
+
+Query  1   MNMDIEARVKKVITSCIAVDVDSINGQTHLVEDLYADSLDLIDIVFGLSEEFDISCNEND  60
+           MNMDIEARVKKVITSCIAVDVDSINGQTHLVEDLYADSLDLIDIVFGLSEEFDISCNEND
+Sbjct  1   MNMDIEARVKKVITSCIAVDVDSINGQTHLVEDLYADSLDLIDIVFGLSEEFDISCNEND  60
+
+Query  61  LPDMMTFADICRVVKKSLESRV  82
+           LPDMMTFADICRVVKKSLESRV
+Sbjct  61  LPDMMTFADICRVVKKSLESRV  82
+
+
+>VFG003691(gb|WP_001055579) (iacP) acyl carrier protein [TTSS 
+(SPI-1 encode) (VF0116) - Effector delivery system (VFC0086)] 
+[Salmonella enterica subsp. enterica serovar Typhi str. CT18]
+Length=82
+
+ Score = 162 bits (410),  Expect = 3e-54, Method: Compositional matrix adjust.
+ Identities = 81/82 (99%), Positives = 81/82 (99%), Gaps = 0/82 (0%)
+
+Query  1   MNMDIEARVKKVITSCIAVDVDSINGQTHLVEDLYADSLDLIDIVFGLSEEFDISCNEND  60
+           MNMDIEARVKKVITSCIAVDVDSINGQTHLVEDLYADSLDLIDIVFGLSEEFDISCNEND
+Sbjct  1   MNMDIEARVKKVITSCIAVDVDSINGQTHLVEDLYADSLDLIDIVFGLSEEFDISCNEND  60
+
+Query  61  LPDMMTFADICRVVKKSLESRV  82
+           LPDM TFADICRVVKKSLESRV
+Sbjct  61  LPDMTTFADICRVVKKSLESRV  82
+
+
+>VFG003694(gb|WP_001540780) (iacP) acyl carrier protein [TTSS 
+(SPI-1 encode) (VF0116) - Effector delivery system (VFC0086)] 
+[Salmonella enterica subsp. enterica serovar Choleraesuis 
+str. SC-B67]
+Length=82
+
+ Score = 161 bits (407),  Expect = 1e-53, Method: Compositional matrix adjust.
+ Identities = 80/82 (98%), Positives = 81/82 (99%), Gaps = 0/82 (0%)
+
+Query  1   MNMDIEARVKKVITSCIAVDVDSINGQTHLVEDLYADSLDLIDIVFGLSEEFDISCNEND  60
+           MNMDIEARVKKVITSCIAVDVDSINGQTHLVE+LYADSLDLIDIVFGLSEEFDISCNEND
+Sbjct  1   MNMDIEARVKKVITSCIAVDVDSINGQTHLVEELYADSLDLIDIVFGLSEEFDISCNEND  60
+
+Query  61  LPDMMTFADICRVVKKSLESRV  82
+           LPDM TFADICRVVKKSLESRV
+Sbjct  61  LPDMTTFADICRVVKKSLESRV  82
+
+
+>VFG020452(gb|WP_001055582) (iacP) acyl carrier protein [TTSS 
+(SPI-1 encode) (VF0116) - Effector delivery system (VFC0086)] 
+[Salmonella enterica subsp. enterica serovar Gallinarum str. 
+287/91]
+Length=82
+
+ Score = 159 bits (403),  Expect = 4e-53, Method: Compositional matrix adjust.
+ Identities = 80/82 (98%), Positives = 81/82 (99%), Gaps = 0/82 (0%)
+
+Query  1   MNMDIEARVKKVITSCIAVDVDSINGQTHLVEDLYADSLDLIDIVFGLSEEFDISCNEND  60
+           MNMDIEARVKKVITSCIAVDVDSINGQT+LVEDLYADSLDLIDIVFGLSEEFDISCNEND
+Sbjct  1   MNMDIEARVKKVITSCIAVDVDSINGQTNLVEDLYADSLDLIDIVFGLSEEFDISCNEND  60
+
+Query  61  LPDMMTFADICRVVKKSLESRV  82
+           LPDM TFADICRVVKKSLESRV
+Sbjct  61  LPDMTTFADICRVVKKSLESRV  82
+
+
+>VFG018538(gb|WP_000366948) (iacP) acyl carrier protein [TTSS 
+(SPI-1 encode) (VF0116) - Effector delivery system (VFC0086)] 
+[Salmonella enterica subsp. arizonae serovar 62:z4,z23:-- 
+str. RSK2980]
+Length=82
+
+ Score = 144 bits (363),  Expect = 4e-47, Method: Compositional matrix adjust.
+ Identities = 70/81 (86%), Positives = 78/81 (96%), Gaps = 0/81 (0%)
+
+Query  1   MNMDIEARVKKVITSCIAVDVDSINGQTHLVEDLYADSLDLIDIVFGLSEEFDISCNEND  60
+           M+MDIE+RVKKVITSCIAV+++SINGQT+LVEDLYADSLDLIDIVFGLSEEFDISCNEND
+Sbjct  1   MDMDIESRVKKVITSCIAVEINSINGQTNLVEDLYADSLDLIDIVFGLSEEFDISCNEND  60
+
+Query  61  LPDMMTFADICRVVKKSLESR  81
+           LPDM T  DICRVV+KSL+SR
+Sbjct  61  LPDMTTITDICRVVEKSLQSR  81
+
+
+>VFG041860(gb|WP_043596241) (CV_RS12800) acyl carrier protein 
+[Cpi-1a + Cpi-1 (SPI-1 like) (VF1259) - Effector delivery system 
+(VFC0086)] [Chromobacterium violaceum ATCC 12472]
+Length=94
+
+ Score = 63.9 bits (154),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 29/79 (37%), Positives = 51/79 (65%), Gaps = 0/79 (0%)
+
+Query  2   NMDIEARVKKVITSCIAVDVDSINGQTHLVEDLYADSLDLIDIVFGLSEEFDISCNENDL  61
+           + DIE+ V++V+   ++ D   +  Q  LV+DLYADSL+L+D++  L++ F I    +D+
+Sbjct  13  HRDIESMVREVMAYSLSADAGRLQPQARLVDDLYADSLELLDMLMALNDAFGIELGVDDI  72
+
+Query  62  PDMMTFADICRVVKKSLES  80
+             + T AD+C  V++ LE+
+Sbjct  73  AGIRTVADVCAAVRRRLEA  91
+
+
+>VFG011430(gb|WP_002963616) (acpXL) acyl carrier protein [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella melitensis 
+bv. 1 str. 16M]
+Length=78
+
+ Score = 47.8 bits (112),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 22/74 (30%), Positives = 39/74 (53%), Gaps = 0/74 (0%)
+
+Query  4   DIEARVKKVITSCIAVDVDSINGQTHLVEDLYADSLDLIDIVFGLSEEFDISCNENDLPD  63
+           D   RVKK++   + VD D +      ++DL ADSLD +++V    EEF +   ++    
+Sbjct  3   DTAERVKKIVVEHLGVDADKVTEGASFIDDLGADSLDTVELVMAFEEEFGVEIPDDAAET  62
+
+Query  64  MMTFADICRVVKKS  77
+           ++T  D  + + K+
+Sbjct  63  ILTVGDAVKFIDKA  76
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 330045940
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

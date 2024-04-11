@@ -1,0 +1,812 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g381.t1
+
+Length=390
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-g...  76.3    3e-15
+VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-gl...  75.5    4e-15
+
+
+>VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pseudotuberculosis IP 32953]
+Length=329
+
+ Score = 76.3 bits (186),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 64/234 (27%), Positives = 99/234 (42%), Gaps = 22/234 (9%)
+
+Query  158  VSRDLAVARLQL--DRPLHYYPGQYVNVHVPQCPRRWRYLSPAIPADPNGRIEFHVRVVP  215
+            V  D+A+  L+L     + Y  GQY+++ +    R +   S A     NG IE HVR V 
+Sbjct  111  VGEDIAILSLRLPPTAKIQYLAGQYIDLIINGQRRSY---SIANAPGGNGNIELHVRKVV  167
+
+Query  216  GGLVSNAIVGETRPGDRWRLSGPHGAFRVDRDGGDVLMVAGSTGLAPLRALIIDLSRFAV  275
+             G+ SN I  E +     R+ GP G F V  D   ++ +AG TG AP+++++  L     
+Sbjct  168  NGVFSNIIFNELKLQQLLRIEGPQGTFFVREDNLPIVFLAGGTGFAPVKSMVEALINKND  227
+
+Query  276  NPRVHLFFGARYACELY-DLPTLWQIAAHNPWLSVSPVSEYNGDPAWAADYPDVSAPRGL  334
+              +VH+++G       Y D+   W I   +P +   PV     D  W        A   +
+Sbjct  228  QRQVHIYWGMPAGHNFYSDIANEWAIK--HPNIHYVPVVS-GDDSTWTG------ATGFV  278
+
+Query  335  HVRQTGRLPDVVSRYGGWGDRQILICGGPAMVRATKAALIAKGAPPERIQHDPL  388
+            H      +PD +S +  +       CG  AM+ A +   I  G    +   D  
+Sbjct  279  HQAVLEDIPD-LSLFNVYA------CGSLAMITAARNDFINHGLAENKFFSDAF  325
+
+
+>VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pestis CO92]
+Length=329
+
+ Score = 75.5 bits (184),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 63/234 (27%), Positives = 99/234 (42%), Gaps = 22/234 (9%)
+
+Query  158  VSRDLAVARLQL--DRPLHYYPGQYVNVHVPQCPRRWRYLSPAIPADPNGRIEFHVRVVP  215
+            +  D+A+  L+L     + Y  GQY+++ +    R +   S A     NG IE HVR V 
+Sbjct  111  IGEDIAILSLRLPPTAKIQYLAGQYIDLIINGQRRSY---SIANAPGGNGNIELHVRKVV  167
+
+Query  216  GGLVSNAIVGETRPGDRWRLSGPHGAFRVDRDGGDVLMVAGSTGLAPLRALIIDLSRFAV  275
+             G+ SN I  E +     R+ GP G F V  D   ++ +AG TG AP+++++  L     
+Sbjct  168  NGVFSNIIFNELKLQQLLRIEGPQGTFFVREDNLPIVFLAGGTGFAPVKSMVEALINKND  227
+
+Query  276  NPRVHLFFGARYACELY-DLPTLWQIAAHNPWLSVSPVSEYNGDPAWAADYPDVSAPRGL  334
+              +VH+++G       Y D+   W I   +P +   PV     D  W        A   +
+Sbjct  228  QRQVHIYWGMPAGHNFYSDIANEWAIK--HPNIHYVPVVS-GDDSTWTG------ATGFV  278
+
+Query  335  HVRQTGRLPDVVSRYGGWGDRQILICGGPAMVRATKAALIAKGAPPERIQHDPL  388
+            H      +PD +S +  +       CG  AM+ A +   I  G    +   D  
+Sbjct  279  HQAVLEDIPD-LSLFNVYA------CGSLAMITAARNDFINHGLAENKFFSDAF  325
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.140    0.453    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3007935072
+
+
+Query= g1916.t1
+
+Length=839
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-g...  119     4e-29
+VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-gl...  118     5e-29
+
+
+>VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pseudotuberculosis IP 32953]
+Length=329
+
+ Score = 119 bits (297),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 88/326 (27%), Positives = 152/326 (47%), Gaps = 14/326 (4%)
+
+Query  11   SDGTHKTMPVRCDQTVLDAAEEHGVAIVNECQSGICGTCVATCTAGRYQMGRTEGLSDVE  70
+            SDGT          T+LDAA +  + I   C+ G CG+C A   +G         L++ +
+Sbjct  16   SDGT---------STILDAALDSNIHIEYSCKDGTCGSCKAILISGEVDSAENTFLTEED  66
+
+Query  71   RAARKILTCQTFVTSDCRIELQYPVDDNAALLVTGDGVVTAVELVSPSTAILRVDTSGMA  130
+             A   ILTC +   SD  +++ Y  + +     T    + ++E V    AIL +     A
+Sbjct  67   VAKGAILTCCSKAKSDIELDVNYYPELSHIQKKTYPCKLDSIEFVGEDIAILSLRLPPTA  126
+
+Query  131  GALRYRAGQFAQLQVPGTNVWRNYSYAHPADGRGECEFIIRLLPDGVMSNYLRDRAQPGD  190
+              ++Y AGQ+  L + G    R+YS A+   G G  E  +R + +GV SN + +  +   
+Sbjct  127  -KIQYLAGQYIDLIINGQR--RSYSIANAPGGNGNIELHVRKVVNGVFSNIIFNELKLQQ  183
+
+Query  191  HIALRCSKGSFYLRPIVRPVILVAGGTGLSAILAMAQSL-DADVAHPVYLLYGVERTEDL  249
+             + +   +G+F++R    P++ +AGGTG + + +M ++L + +    V++ +G+    + 
+Sbjct  184  LLRIEGPQGTFFVREDNLPIVFLAGGTGFAPVKSMVEALINKNDQRQVHIYWGMPAGHNF  243
+
+Query  250  CKLDELTELRRRVGRLEVHVVVARPDPDWDGRTGLVTDLLDERMLASGDADVYLCGPVAM  309
+               D   E   +   +    VV+  D  W G TG V   + E +      +VY CG +AM
+Sbjct  244  YS-DIANEWAIKHPNIHYVPVVSGDDSTWTGATGFVHQAVLEDIPDLSLFNVYACGSLAM  302
+
+Query  310  VDAARTWLDHNGFHRVGLYYEKFVAS  335
+            + AAR    ++G      + + FV S
+Sbjct  303  ITAARNDFINHGLAENKFFSDAFVPS  328
+
+
+>VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pestis CO92]
+Length=329
+
+ Score = 118 bits (296),  Expect = 5e-29, Method: Compositional matrix adjust.
+ Identities = 87/326 (27%), Positives = 152/326 (47%), Gaps = 14/326 (4%)
+
+Query  11   SDGTHKTMPVRCDQTVLDAAEEHGVAIVNECQSGICGTCVATCTAGRYQMGRTEGLSDVE  70
+            SDGT          T+LDAA +  + I   C+ G CG+C A   +G         L++ +
+Sbjct  16   SDGT---------STILDAALDSNIHIEYSCKDGTCGSCKAILISGEVDSAENTFLTEED  66
+
+Query  71   RAARKILTCQTFVTSDCRIELQYPVDDNAALLVTGDGVVTAVELVSPSTAILRVDTSGMA  130
+             A   ILTC +   SD  +++ Y  + +     T    + ++E +    AIL +     A
+Sbjct  67   VAKGAILTCCSKAKSDIELDVNYYPELSHIQKKTYPCKLDSIEFIGEDIAILSLRLPPTA  126
+
+Query  131  GALRYRAGQFAQLQVPGTNVWRNYSYAHPADGRGECEFIIRLLPDGVMSNYLRDRAQPGD  190
+              ++Y AGQ+  L + G    R+YS A+   G G  E  +R + +GV SN + +  +   
+Sbjct  127  -KIQYLAGQYIDLIINGQR--RSYSIANAPGGNGNIELHVRKVVNGVFSNIIFNELKLQQ  183
+
+Query  191  HIALRCSKGSFYLRPIVRPVILVAGGTGLSAILAMAQSL-DADVAHPVYLLYGVERTEDL  249
+             + +   +G+F++R    P++ +AGGTG + + +M ++L + +    V++ +G+    + 
+Sbjct  184  LLRIEGPQGTFFVREDNLPIVFLAGGTGFAPVKSMVEALINKNDQRQVHIYWGMPAGHNF  243
+
+Query  250  CKLDELTELRRRVGRLEVHVVVARPDPDWDGRTGLVTDLLDERMLASGDADVYLCGPVAM  309
+               D   E   +   +    VV+  D  W G TG V   + E +      +VY CG +AM
+Sbjct  244  YS-DIANEWAIKHPNIHYVPVVSGDDSTWTGATGFVHQAVLEDIPDLSLFNVYACGSLAM  302
+
+Query  310  VDAARTWLDHNGFHRVGLYYEKFVAS  335
+            + AAR    ++G      + + FV S
+Sbjct  303  ITAARNDFINHGLAENKFFSDAFVPS  328
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 7481291850
+
+
+Query= g3213.t1
+
+Length=474
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.427    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3843654350
+
+
+Query= g2551.t1
+
+Length=340
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-gl...  148     5e-42
+VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-g...  148     7e-42
+
+
+>VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pestis CO92]
+Length=329
+
+ Score = 148 bits (374),  Expect = 5e-42, Method: Compositional matrix adjust.
+ Identities = 88/319 (28%), Positives = 156/319 (49%), Gaps = 17/319 (5%)
+
+Query  25   LLDAALRHGINLPLDCREGVCGTCMGRCEAGSYSLDYADEDTLSAADLEQRKVLACQTRV  84
+            +LDAAL   I++   C++G CG+C     +G   +D A+   L+  D+ +  +L C ++ 
+Sbjct  22   ILDAALDSNIHIEYSCKDGTCGSCKAILISGE--VDSAENTFLTEEDVAKGAILTCCSKA  79
+
+Query  85   RSDAAFYFDFASTLCHAAAAQAHSGLVRELRLLSEDTALLRLDAGAAGRQLDFLPGQYAR  144
+            +SD     ++   L H    + +   +  +  + ED A+L L      + + +L GQY  
+Sbjct  80   KSDIELDVNYYPELSHIQK-KTYPCKLDSIEFIGEDIAILSLRLPPTAK-IQYLAGQYID  137
+
+Query  145  LQVPGSDCRRAYSFANRPNPQNHLQFLIRLLPGGAMSDYLRQGCRVGDEIRFEAPLGTFY  204
+            L + G   RR+YS AN P    +++  +R +  G  S+ +    ++   +R E P GTF+
+Sbjct  138  LIINGQ--RRSYSIANAPGGNGNIELHVRKVVNGVFSNIIFNELKLQQLLRIEGPQGTFF  195
+
+Query  205  LRQVERPLLLVAGGTGLSAFLGMLDELAERGCEWPVHLYYGVRRAADLCELQRIAG-YAE  263
+            +R+   P++ +AGGTG +    M++ L  +  +  VH+Y+G+    +      IA  +A 
+Sbjct  196  VREDNLPIVFLAGGTGFAPVKSMVEALINKNDQRQVHIYWGMPAGHNF--YSDIANEWAI  253
+
+Query  264  RLPGFRFVPVLSEADADWDGRRGYLHEHFDAARLRD----EAFDLYLCGPPPMVEAVRQW  319
+            + P   +VPV+S  D+ W G  G++H+    A L D      F++Y CG   M+ A R  
+Sbjct  254  KHPNIHYVPVVSGDDSTWTGATGFVHQ----AVLEDIPDLSLFNVYACGSLAMITAARND  309
+
+Query  320  LRERSLEHLRLYLEKFTES  338
+                 L   + + + F  S
+Sbjct  310  FINHGLAENKFFSDAFVPS  328
+
+
+>VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pseudotuberculosis IP 32953]
+Length=329
+
+ Score = 148 bits (373),  Expect = 7e-42, Method: Compositional matrix adjust.
+ Identities = 88/319 (28%), Positives = 156/319 (49%), Gaps = 17/319 (5%)
+
+Query  25   LLDAALRHGINLPLDCREGVCGTCMGRCEAGSYSLDYADEDTLSAADLEQRKVLACQTRV  84
+            +LDAAL   I++   C++G CG+C     +G   +D A+   L+  D+ +  +L C ++ 
+Sbjct  22   ILDAALDSNIHIEYSCKDGTCGSCKAILISGE--VDSAENTFLTEEDVAKGAILTCCSKA  79
+
+Query  85   RSDAAFYFDFASTLCHAAAAQAHSGLVRELRLLSEDTALLRLDAGAAGRQLDFLPGQYAR  144
+            +SD     ++   L H    + +   +  +  + ED A+L L      + + +L GQY  
+Sbjct  80   KSDIELDVNYYPELSHIQK-KTYPCKLDSIEFVGEDIAILSLRLPPTAK-IQYLAGQYID  137
+
+Query  145  LQVPGSDCRRAYSFANRPNPQNHLQFLIRLLPGGAMSDYLRQGCRVGDEIRFEAPLGTFY  204
+            L + G   RR+YS AN P    +++  +R +  G  S+ +    ++   +R E P GTF+
+Sbjct  138  LIINGQ--RRSYSIANAPGGNGNIELHVRKVVNGVFSNIIFNELKLQQLLRIEGPQGTFF  195
+
+Query  205  LRQVERPLLLVAGGTGLSAFLGMLDELAERGCEWPVHLYYGVRRAADLCELQRIAG-YAE  263
+            +R+   P++ +AGGTG +    M++ L  +  +  VH+Y+G+    +      IA  +A 
+Sbjct  196  VREDNLPIVFLAGGTGFAPVKSMVEALINKNDQRQVHIYWGMPAGHNF--YSDIANEWAI  253
+
+Query  264  RLPGFRFVPVLSEADADWDGRRGYLHEHFDAARLRD----EAFDLYLCGPPPMVEAVRQW  319
+            + P   +VPV+S  D+ W G  G++H+    A L D      F++Y CG   M+ A R  
+Sbjct  254  KHPNIHYVPVVSGDDSTWTGATGFVHQ----AVLEDIPDLSLFNVYACGSLAMITAARND  309
+
+Query  320  LRERSLEHLRLYLEKFTES  338
+                 L   + + + F  S
+Sbjct  310  FINHGLAENKFFSDAFVPS  328
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.141    0.440    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2502856039
+
+
+Query= g2553.t1
+
+Length=337
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-gl...  140     4e-39
+VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-g...  140     6e-39
+
+
+>VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pestis CO92]
+Length=329
+
+ Score = 140 bits (354),  Expect = 4e-39, Method: Compositional matrix adjust.
+ Identities = 85/314 (27%), Positives = 150/314 (48%), Gaps = 8/314 (3%)
+
+Query  24   TVADAAYRQGINIPLDCRDGACGTCKCLAEAGRYALGQDYIDDALSAEEAARGYVLTCQM  83
+            T+ DAA    I+I   C+DG CG+CK +  +G     ++     L+ E+ A+G +LTC  
+Sbjct  21   TILDAALDSNIHIEYSCKDGTCGSCKAILISGEVDSAENTF---LTEEDVAKGAILTCCS  77
+
+Query  84   RAESDCVLRVPASSTLCRTGQARYEARISEVRQLSPSTIGLSLRGEALASLAFLPGQYVN  143
+            +A+SD  L V     L    +  Y  ++  +  +      LSLR    A + +L GQY++
+Sbjct  78   KAKSDIELDVNYYPELSHIQKKTYPCKLDSIEFIGEDIAILSLRLPPTAKIQYLAGQYID  137
+
+Query  144  LQVPGSEQRRAYSFSSL-AKDGEVSFLIRNVPGGLMSGFLSGTARAGDSLAMDGPLGSFY  202
+            L + G  QRR+YS ++    +G +   +R V  G+ S  +    +    L ++GP G+F+
+Sbjct  138  LIING--QRRSYSIANAPGGNGNIELHVRKVVNGVFSNIIFNELKLQQLLRIEGPQGTFF  195
+
+Query  203  LREIHRPLLMLAGGTGLAPFTAMLERIAEQGSAHPLHLVYGVTHDVDLVGLERLEAFAER  262
+            +RE + P++ LAGGTG AP  +M+E +  +     +H+ +G+    +    +    +A +
+Sbjct  196  VREDNLPIVFLAGGTGFAPVKSMVEALINKNDQRQVHIYWGMPAGHNFYS-DIANEWAIK  254
+
+Query  263  IPGFTWSACVASADSDYP-RKGYVTEHIAAQHLHEGDVDIYLCGPPPMVEAVERYLREQG  321
+             P   +   V+  DS +    G+V + +          ++Y CG   M+ A        G
+Sbjct  255  HPNIHYVPVVSGDDSTWTGATGFVHQAVLEDIPDLSLFNVYACGSLAMITAARNDFINHG  314
+
+Query  322  VRPANFYYEKFAAS  335
+            +    F+ + F  S
+Sbjct  315  LAENKFFSDAFVPS  328
+
+
+>VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pseudotuberculosis IP 32953]
+Length=329
+
+ Score = 140 bits (353),  Expect = 6e-39, Method: Compositional matrix adjust.
+ Identities = 85/314 (27%), Positives = 150/314 (48%), Gaps = 8/314 (3%)
+
+Query  24   TVADAAYRQGINIPLDCRDGACGTCKCLAEAGRYALGQDYIDDALSAEEAARGYVLTCQM  83
+            T+ DAA    I+I   C+DG CG+CK +  +G     ++     L+ E+ A+G +LTC  
+Sbjct  21   TILDAALDSNIHIEYSCKDGTCGSCKAILISGEVDSAENTF---LTEEDVAKGAILTCCS  77
+
+Query  84   RAESDCVLRVPASSTLCRTGQARYEARISEVRQLSPSTIGLSLRGEALASLAFLPGQYVN  143
+            +A+SD  L V     L    +  Y  ++  +  +      LSLR    A + +L GQY++
+Sbjct  78   KAKSDIELDVNYYPELSHIQKKTYPCKLDSIEFVGEDIAILSLRLPPTAKIQYLAGQYID  137
+
+Query  144  LQVPGSEQRRAYSFSSL-AKDGEVSFLIRNVPGGLMSGFLSGTARAGDSLAMDGPLGSFY  202
+            L + G  QRR+YS ++    +G +   +R V  G+ S  +    +    L ++GP G+F+
+Sbjct  138  LIING--QRRSYSIANAPGGNGNIELHVRKVVNGVFSNIIFNELKLQQLLRIEGPQGTFF  195
+
+Query  203  LREIHRPLLMLAGGTGLAPFTAMLERIAEQGSAHPLHLVYGVTHDVDLVGLERLEAFAER  262
+            +RE + P++ LAGGTG AP  +M+E +  +     +H+ +G+    +    +    +A +
+Sbjct  196  VREDNLPIVFLAGGTGFAPVKSMVEALINKNDQRQVHIYWGMPAGHNFYS-DIANEWAIK  254
+
+Query  263  IPGFTWSACVASADSDYP-RKGYVTEHIAAQHLHEGDVDIYLCGPPPMVEAVERYLREQG  321
+             P   +   V+  DS +    G+V + +          ++Y CG   M+ A        G
+Sbjct  255  HPNIHYVPVVSGDDSTWTGATGFVHQAVLEDIPDLSLFNVYACGSLAMITAARNDFINHG  314
+
+Query  322  VRPANFYYEKFAAS  335
+            +    F+ + F  S
+Sbjct  315  LAENKFFSDAFVPS  328
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2471439436
+
+
+Query= g3054.t1
+
+Length=407
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-g...  105     2e-25
+VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-gl...  105     2e-25
+
+
+>VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pseudotuberculosis IP 32953]
+Length=329
+
+ Score = 105 bits (263),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 91/364 (25%), Positives = 151/364 (41%), Gaps = 57/364 (16%)
+
+Query  47   LTVPAGGKLLQTLAANNVFLSSACGGGGTCAQCKCVVVEGGGEMLPTEESHFTRRQAKEG  106
+             T      +L     +N+ +  +C  G TC  CK +++ G  E+   E +  T     +G
+Sbjct  14   FTSDGTSTILDAALDSNIHIEYSCKDG-TCGSCKAILISG--EVDSAENTFLTEEDVAKG  70
+
+Query  107  WRLSCQTPVKQDMQIRV---PEEVFGVKK-WECTVESNPNVATFIKELTLRLPDGESVDF  162
+              L+C +  K D+++ V   PE     KK + C ++S   V   I  L+LRLP    + +
+Sbjct  71   AILTCCSKAKSDIELDVNYYPELSHIQKKTYPCKLDSIEFVGEDIAILSLRLPPTAKIQY  130
+
+Query  163  RAGGYVQLECPPHVVEYKDFDIQPEYRGDWDKFNMWRYVSKVDETVIRAYSMANYPEEKG  222
+             AG Y+ L                         N  R          R+YS+AN P   G
+Sbjct  131  LAGQYIDL-----------------------IINGQR----------RSYSIANAPGGNG  157
+
+Query  223  VVKFNIRIASPPPGSDLPPGQMSSWVFN-LKPGDKVTVYGPFGEFFAKDTEAEMVFIGGG  281
+             ++ ++R         +  G  S+ +FN LK    + + GP G FF ++    +VF+ GG
+Sbjct  158  NIELHVR--------KVVNGVFSNIIFNELKLQQLLRIEGPQGTFFVREDNLPIVFLAGG  209
+
+Query  282  AGMAPMRSHIFDQLRRLKSNRKISFWYGARSLREAFYTEEYDQLQAENPNFQWHLALSDP  341
+             G AP++S + + L      R++  ++G  +    FY++  ++   ++PN  +   +S  
+Sbjct  210  TGFAPVKSMV-EALINKNDQRQVHIYWGMPA-GHNFYSDIANEWAIKHPNIHYVPVVSG-  266
+
+Query  342  QPEDNWTGLTGFIHNVLFENYLKDHPAPEDCEFYMCGPPMMNAAVIKMLTDLGVERENIL  401
+              +  WTG TGF+H  + E    D P       Y CG   M  A      + G+      
+Sbjct  267  -DDSTWTGATGFVHQAVLE----DIPDLSLFNVYACGSLAMITAARNDFINHGLAENKFF  321
+
+Query  402  LDDF  405
+             D F
+Sbjct  322  SDAF  325
+
+
+>VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pestis CO92]
+Length=329
+
+ Score = 105 bits (262),  Expect = 2e-25, Method: Compositional matrix adjust.
+ Identities = 90/364 (25%), Positives = 151/364 (41%), Gaps = 57/364 (16%)
+
+Query  47   LTVPAGGKLLQTLAANNVFLSSACGGGGTCAQCKCVVVEGGGEMLPTEESHFTRRQAKEG  106
+             T      +L     +N+ +  +C  G TC  CK +++ G  E+   E +  T     +G
+Sbjct  14   FTSDGTSTILDAALDSNIHIEYSCKDG-TCGSCKAILISG--EVDSAENTFLTEEDVAKG  70
+
+Query  107  WRLSCQTPVKQDMQIRV---PEEVFGVKK-WECTVESNPNVATFIKELTLRLPDGESVDF  162
+              L+C +  K D+++ V   PE     KK + C ++S   +   I  L+LRLP    + +
+Sbjct  71   AILTCCSKAKSDIELDVNYYPELSHIQKKTYPCKLDSIEFIGEDIAILSLRLPPTAKIQY  130
+
+Query  163  RAGGYVQLECPPHVVEYKDFDIQPEYRGDWDKFNMWRYVSKVDETVIRAYSMANYPEEKG  222
+             AG Y+ L                         N  R          R+YS+AN P   G
+Sbjct  131  LAGQYIDL-----------------------IINGQR----------RSYSIANAPGGNG  157
+
+Query  223  VVKFNIRIASPPPGSDLPPGQMSSWVFN-LKPGDKVTVYGPFGEFFAKDTEAEMVFIGGG  281
+             ++ ++R         +  G  S+ +FN LK    + + GP G FF ++    +VF+ GG
+Sbjct  158  NIELHVR--------KVVNGVFSNIIFNELKLQQLLRIEGPQGTFFVREDNLPIVFLAGG  209
+
+Query  282  AGMAPMRSHIFDQLRRLKSNRKISFWYGARSLREAFYTEEYDQLQAENPNFQWHLALSDP  341
+             G AP++S + + L      R++  ++G  +    FY++  ++   ++PN  +   +S  
+Sbjct  210  TGFAPVKSMV-EALINKNDQRQVHIYWGMPA-GHNFYSDIANEWAIKHPNIHYVPVVSG-  266
+
+Query  342  QPEDNWTGLTGFIHNVLFENYLKDHPAPEDCEFYMCGPPMMNAAVIKMLTDLGVERENIL  401
+              +  WTG TGF+H  + E    D P       Y CG   M  A      + G+      
+Sbjct  267  -DDSTWTGATGFVHQAVLE----DIPDLSLFNVYACGSLAMITAARNDFINHGLAENKFF  321
+
+Query  402  LDDF  405
+             D F
+Sbjct  322  SDAF  325
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3185486795
+
+
+Query= g4413.t1
+
+Length=308
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-gl...  87.0    2e-19
+VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-g...  86.7    2e-19
+
+
+>VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pestis CO92]
+Length=329
+
+ Score = 87.0 bits (214),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 81/312 (26%), Positives = 136/312 (44%), Gaps = 26/312 (8%)
+
+Query  17   SNLLDALLAGGIAVPHSCRAGSCHACLVHCLQGEVDDTLPEALDPVRREAGWRLACQCRV  76
+            S +LDA L   I + +SC+ G+C +C    + GEVD      L       G  L C  + 
+Sbjct  20   STILDAALDSNIHIEYSCKDGTCGSCKAILISGEVDSAENTFLTEEDVAKGAILTCCSKA  79
+
+Query  77   LGDLVLQ-PFDPE-----RDGLPARVVACHWLGD---VLRLRLEPERPLRYRAGQHLLLW  127
+              D+ L   + PE     +   P ++ +  ++G+   +L LRL P   ++Y AGQ++ L 
+Sbjct  80   KSDIELDVNYYPELSHIQKKTYPCKLDSIEFIGEDIAILSLRLPPTAKIQYLAGQYIDLI  139
+
+Query  128  SDDGVARPYSLASLPHEDPWLEFHIDCSAPGAFCDRA-RRLAPGALLRLGELRGGALRYE  186
+              +G  R YS+A+ P  +  +E H+     G F +     L    LLR+   +G     E
+Sbjct  140  I-NGQRRSYSIANAPGGNGNIELHVRKVVNGVFSNIIFNELKLQQLLRIEGPQGTFFVRE  198
+
+Query  187  PDWQERPLLLMAAGTGLAPLWGILREALRAEHQAPIQLL-HLARDHYLASELA-ELAGRH  244
+             +    P++ +A GTG AP+  ++   +    Q  + +   +   H   S++A E A +H
+Sbjct  199  DNL---PIVFLAGGTGFAPVKSMVEALINKNDQRQVHIYWGMPAGHNFYSDIANEWAIKH  255
+
+Query  245  PQLR-VNLVS-------AAQLPSALADLRLVPRRSM--ALLCGQPASVERFARHLYLAGV  294
+            P +  V +VS        A      A L  +P  S+     CG  A +          G+
+Sbjct  256  PNIHYVPVVSGDDSTWTGATGFVHQAVLEDIPDLSLFNVYACGSLAMITAARNDFINHGL  315
+
+Query  295  PRSQTLADLFLP  306
+              ++  +D F+P
+Sbjct  316  AENKFFSDAFVP  327
+
+
+>VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pseudotuberculosis IP 32953]
+Length=329
+
+ Score = 86.7 bits (213),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 81/312 (26%), Positives = 136/312 (44%), Gaps = 26/312 (8%)
+
+Query  17   SNLLDALLAGGIAVPHSCRAGSCHACLVHCLQGEVDDTLPEALDPVRREAGWRLACQCRV  76
+            S +LDA L   I + +SC+ G+C +C    + GEVD      L       G  L C  + 
+Sbjct  20   STILDAALDSNIHIEYSCKDGTCGSCKAILISGEVDSAENTFLTEEDVAKGAILTCCSKA  79
+
+Query  77   LGDLVLQ-PFDPE-----RDGLPARVVACHWLGD---VLRLRLEPERPLRYRAGQHLLLW  127
+              D+ L   + PE     +   P ++ +  ++G+   +L LRL P   ++Y AGQ++ L 
+Sbjct  80   KSDIELDVNYYPELSHIQKKTYPCKLDSIEFVGEDIAILSLRLPPTAKIQYLAGQYIDLI  139
+
+Query  128  SDDGVARPYSLASLPHEDPWLEFHIDCSAPGAFCDRA-RRLAPGALLRLGELRGGALRYE  186
+              +G  R YS+A+ P  +  +E H+     G F +     L    LLR+   +G     E
+Sbjct  140  I-NGQRRSYSIANAPGGNGNIELHVRKVVNGVFSNIIFNELKLQQLLRIEGPQGTFFVRE  198
+
+Query  187  PDWQERPLLLMAAGTGLAPLWGILREALRAEHQAPIQLL-HLARDHYLASELA-ELAGRH  244
+             +    P++ +A GTG AP+  ++   +    Q  + +   +   H   S++A E A +H
+Sbjct  199  DNL---PIVFLAGGTGFAPVKSMVEALINKNDQRQVHIYWGMPAGHNFYSDIANEWAIKH  255
+
+Query  245  PQLR-VNLVS-------AAQLPSALADLRLVPRRSM--ALLCGQPASVERFARHLYLAGV  294
+            P +  V +VS        A      A L  +P  S+     CG  A +          G+
+Sbjct  256  PNIHYVPVVSGDDSTWTGATGFVHQAVLEDIPDLSLFNVYACGSLAMITAARNDFINHGL  315
+
+Query  295  PRSQTLADLFLP  306
+              ++  +D F+P
+Sbjct  316  AENKFFSDAFVP  327
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.141    0.453    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2184038064
+
+
+Query= g5337.t1
+
+Length=322
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-g...  139     1e-38
+VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-gl...  139     2e-38
+
+
+>VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pseudotuberculosis IP 32953]
+Length=329
+
+ Score = 139 bits (350),  Expect = 1e-38, Method: Compositional matrix adjust.
+ Identities = 98/327 (30%), Positives = 153/327 (47%), Gaps = 13/327 (4%)
+
+Query  1    MRIVLQPSGACLELLPGERILDGARRLGYDCPQSCRNGNCHICAALLVEGRVRQ------  54
+            + + L PSG          ILD A         SC++G C  C A+L+ G V        
+Sbjct  3    LNVKLHPSGIIFTSDGTSTILDAALDSNIHIEYSCKDGTCGSCKAILISGEVDSAENTFL  62
+
+Query  55   NGEVRDHGELFTCLAEPLEDCVLHWDGVLAPGELPLRKLTCQLSFCEEVGGDVYRVGLRA  114
+              E    G + TC ++   D  L  +       +  +   C+L   E VG D+  + LR 
+Sbjct  63   TEEDVAKGAILTCCSKAKSDIELDVNYYPELSHIQKKTYPCKLDSIEFVGEDIAILSLRL  122
+
+Query  115  PAGKPPRYHAGQYLLLERDGGDSAAFSLASAPHAGRDLELHILAKEDSAVA--LIAQLQR  172
+            P     +Y AGQY+ L  +G    ++S+A+AP    ++ELH+    +   +  +  +L+ 
+Sbjct  123  PPTAKIQYLAGQYIDLIING-QRRSYSIANAPGGNGNIELHVRKVVNGVFSNIIFNELKL  181
+
+Query  173  ERLARIQLPFGDAHLAELPDGPLVLIAAGTGMSQMHSLIEHCRAAGFAHPVHLYWGVRRP  232
+            ++L RI+ P G   + E  + P+V +A GTG + + S++E          VH+YWG+   
+Sbjct  182  QQLLRIEGPQGTFFVRE-DNLPIVFLAGGTGFAPVKSMVEALINKNDQRQVHIYWGMPAG  240
+
+Query  233  EDFYRLPHWTEWE-GLPNLFLHRVVS-DLCGWEGRCGLLHEAVREDFADLSSLHVYASGS  290
+             +FY      EW    PN+    VVS D   W G  G +H+AV ED  DLS  +VYA GS
+Sbjct  241  HNFYS-DIANEWAIKHPNIHYVPVVSGDDSTWTGATGFVHQAVLEDIPDLSLFNVYACGS  299
+
+Query  291  PAMVYATLDALVEAGMDAHQMRADVFA  317
+             AM+ A  +  +  G+  ++  +D F 
+Sbjct  300  LAMITAARNDFINHGLAENKFFSDAFV  326
+
+
+>VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pestis CO92]
+Length=329
+
+ Score = 139 bits (349),  Expect = 2e-38, Method: Compositional matrix adjust.
+ Identities = 97/327 (30%), Positives = 153/327 (47%), Gaps = 13/327 (4%)
+
+Query  1    MRIVLQPSGACLELLPGERILDGARRLGYDCPQSCRNGNCHICAALLVEGRVRQ------  54
+            + + L PSG          ILD A         SC++G C  C A+L+ G V        
+Sbjct  3    LNVKLHPSGIIFTSDGTSTILDAALDSNIHIEYSCKDGTCGSCKAILISGEVDSAENTFL  62
+
+Query  55   NGEVRDHGELFTCLAEPLEDCVLHWDGVLAPGELPLRKLTCQLSFCEEVGGDVYRVGLRA  114
+              E    G + TC ++   D  L  +       +  +   C+L   E +G D+  + LR 
+Sbjct  63   TEEDVAKGAILTCCSKAKSDIELDVNYYPELSHIQKKTYPCKLDSIEFIGEDIAILSLRL  122
+
+Query  115  PAGKPPRYHAGQYLLLERDGGDSAAFSLASAPHAGRDLELHILAKEDSAVA--LIAQLQR  172
+            P     +Y AGQY+ L  +G    ++S+A+AP    ++ELH+    +   +  +  +L+ 
+Sbjct  123  PPTAKIQYLAGQYIDLIING-QRRSYSIANAPGGNGNIELHVRKVVNGVFSNIIFNELKL  181
+
+Query  173  ERLARIQLPFGDAHLAELPDGPLVLIAAGTGMSQMHSLIEHCRAAGFAHPVHLYWGVRRP  232
+            ++L RI+ P G   + E  + P+V +A GTG + + S++E          VH+YWG+   
+Sbjct  182  QQLLRIEGPQGTFFVRE-DNLPIVFLAGGTGFAPVKSMVEALINKNDQRQVHIYWGMPAG  240
+
+Query  233  EDFYRLPHWTEWE-GLPNLFLHRVVS-DLCGWEGRCGLLHEAVREDFADLSSLHVYASGS  290
+             +FY      EW    PN+    VVS D   W G  G +H+AV ED  DLS  +VYA GS
+Sbjct  241  HNFYS-DIANEWAIKHPNIHYVPVVSGDDSTWTGATGFVHQAVLEDIPDLSLFNVYACGS  299
+
+Query  291  PAMVYATLDALVEAGMDAHQMRADVFA  317
+             AM+ A  +  +  G+  ++  +D F 
+Sbjct  300  LAMITAARNDFINHGLAENKFFSDAFV  326
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.141    0.453    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2331040626
+
+
+Query= g1954.t1
+
+Length=330
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-g...  344     3e-118
+VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-gl...  343     6e-118
+
+
+>VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pseudotuberculosis IP 32953]
+Length=329
+
+ Score = 344 bits (882),  Expect = 3e-118, Method: Compositional matrix adjust.
+ Identities = 168/328 (51%), Positives = 223/328 (68%), Gaps = 5/328 (2%)
+
+Query  1    MSHIIKIFPSNIEFSGREDESILDAALSAGIHLEHSCKAGDCGICESDLLAGEVVDSKGN  60
+            MS  +K+ PS I F+     +ILDAAL + IH+E+SCK G CG C++ L++GEV  ++  
+Sbjct  1    MSLNVKLHPSGIIFTSDGTSTILDAALDSNIHIEYSCKDGTCGSCKAILISGEVDSAENT  60
+
+Query  61   IFGQGD----KILTCCCKPKTALELNAHFFPELAGQTKKIVPCKVNSAVLVSGDVMTLKL  116
+               + D     ILTCC K K+ +EL+ +++PEL+   KK  PCK++S   V  D+  L L
+Sbjct  61   FLTEEDVAKGAILTCCSKAKSDIELDVNYYPELSHIQKKTYPCKLDSIEFVGEDIAILSL  120
+
+Query  117  RTPPTAKIGFLPGQYINLHYKGVTRSYSIANSDESNG-IELHVRNVPNGQMSSLIFGELQ  175
+            R PPTAKI +L GQYI+L   G  RSYSIAN+   NG IELHVR V NG  S++IF EL+
+Sbjct  121  RLPPTAKIQYLAGQYIDLIINGQRRSYSIANAPGGNGNIELHVRKVVNGVFSNIIFNELK  180
+
+Query  176  ENTLMRIEGPCGTFFIRESDRPIIFLAGGTGFAPVKSMVEHLIQGKCRREIYIYWGMQYS  235
+               L+RIEGP GTFF+RE + PI+FLAGGTGFAPVKSMVE LI    +R+++IYWGM   
+Sbjct  181  LQQLLRIEGPQGTFFVREDNLPIVFLAGGTGFAPVKSMVEALINKNDQRQVHIYWGMPAG  240
+
+Query  236  KDFYSALPQQWSEQHDNVHYIPVVSGDDAEWGGRKGFVHHAVMDDFDSLEFFDIYACGSP  295
+             +FYS +  +W+ +H N+HY+PVVSGDD+ W G  GFVH AV++D   L  F++YACGS 
+Sbjct  241  HNFYSDIANEWAIKHPNIHYVPVVSGDDSTWTGATGFVHQAVLEDIPDLSLFNVYACGSL  300
+
+Query  296  VMIDASKKDFMMKNLSVEHFYSDAFTAS  323
+             MI A++ DF+   L+   F+SDAF  S
+Sbjct  301  AMITAARNDFINHGLAENKFFSDAFVPS  328
+
+
+>VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pestis CO92]
+Length=329
+
+ Score = 343 bits (879),  Expect = 6e-118, Method: Compositional matrix adjust.
+ Identities = 167/328 (51%), Positives = 223/328 (68%), Gaps = 5/328 (2%)
+
+Query  1    MSHIIKIFPSNIEFSGREDESILDAALSAGIHLEHSCKAGDCGICESDLLAGEVVDSKGN  60
+            MS  +K+ PS I F+     +ILDAAL + IH+E+SCK G CG C++ L++GEV  ++  
+Sbjct  1    MSLNVKLHPSGIIFTSDGTSTILDAALDSNIHIEYSCKDGTCGSCKAILISGEVDSAENT  60
+
+Query  61   IFGQGD----KILTCCCKPKTALELNAHFFPELAGQTKKIVPCKVNSAVLVSGDVMTLKL  116
+               + D     ILTCC K K+ +EL+ +++PEL+   KK  PCK++S   +  D+  L L
+Sbjct  61   FLTEEDVAKGAILTCCSKAKSDIELDVNYYPELSHIQKKTYPCKLDSIEFIGEDIAILSL  120
+
+Query  117  RTPPTAKIGFLPGQYINLHYKGVTRSYSIANSDESNG-IELHVRNVPNGQMSSLIFGELQ  175
+            R PPTAKI +L GQYI+L   G  RSYSIAN+   NG IELHVR V NG  S++IF EL+
+Sbjct  121  RLPPTAKIQYLAGQYIDLIINGQRRSYSIANAPGGNGNIELHVRKVVNGVFSNIIFNELK  180
+
+Query  176  ENTLMRIEGPCGTFFIRESDRPIIFLAGGTGFAPVKSMVEHLIQGKCRREIYIYWGMQYS  235
+               L+RIEGP GTFF+RE + PI+FLAGGTGFAPVKSMVE LI    +R+++IYWGM   
+Sbjct  181  LQQLLRIEGPQGTFFVREDNLPIVFLAGGTGFAPVKSMVEALINKNDQRQVHIYWGMPAG  240
+
+Query  236  KDFYSALPQQWSEQHDNVHYIPVVSGDDAEWGGRKGFVHHAVMDDFDSLEFFDIYACGSP  295
+             +FYS +  +W+ +H N+HY+PVVSGDD+ W G  GFVH AV++D   L  F++YACGS 
+Sbjct  241  HNFYSDIANEWAIKHPNIHYVPVVSGDDSTWTGATGFVHQAVLEDIPDLSLFNVYACGSL  300
+
+Query  296  VMIDASKKDFMMKNLSVEHFYSDAFTAS  323
+             MI A++ DF+   L+   F+SDAF  S
+Sbjct  301  AMITAARNDFINHGLAENKFFSDAFVPS  328
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2415042090
+
+
+Query= g3714.t1
+
+Length=233
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-gl...  124     3e-34
+VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-g...  124     7e-34
+
+
+>VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pestis CO92]
+Length=329
+
+ Score = 124 bits (312),  Expect = 3e-34, Method: Compositional matrix adjust.
+ Identities = 73/231 (32%), Positives = 127/231 (55%), Gaps = 8/231 (3%)
+
+Query  3    TLSCKVTSVEAITD--TVYRVRLVPDAAFSFRAGQYLMVVMDERDKRPFSMASTPDEKGF  60
+            T  CK+ S+E I +   +  +RL P A   + AGQY+ ++++ + +R +S+A+ P   G 
+Sbjct  100  TYPCKLDSIEFIGEDIAILSLRLPPTAKIQYLAGQYIDLIINGQ-RRSYSIANAPGGNGN  158
+
+Query  61   IELHIGASELNLYAMAVMDRILKDREIVVDIPHGDAWLRDDEERPLILIAGGTGFSYVRS  120
+            IELH+      +++  + + +   + + ++ P G  ++R+D   P++ +AGGTGF+ V+S
+Sbjct  159  IELHVRKVVNGVFSNIIFNELKLQQLLRIEGPQGTFFVREDN-LPIVFLAGGTGFAPVKS  217
+
+Query  121  ILLTALARNPARDVTIYWGGREEKHLY-DLSELEALSVNHPNLRIEPVVEQPEEGWRGRT  179
+            ++   + +N  R V IYWG     + Y D++     ++ HPN+   PVV   +  W G T
+Sbjct  218  MVEALINKNDQRQVHIYWGMPAGHNFYSDIAN--EWAIKHPNIHYVPVVSGDDSTWTGAT  275
+
+Query  180  GTVLTAVLQDYGTLAGHDIYIAGRFEMAKIARDLFCHERNAREDRLFGDAF  230
+            G V  AVL+D   L+  ++Y  G   M   AR+ F +   A E++ F DAF
+Sbjct  276  GFVHQAVLEDIPDLSLFNVYACGSLAMITAARNDFINHGLA-ENKFFSDAF  325
+
+
+>VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pseudotuberculosis IP 32953]
+Length=329
+
+ Score = 124 bits (310),  Expect = 7e-34, Method: Compositional matrix adjust.
+ Identities = 72/231 (31%), Positives = 127/231 (55%), Gaps = 8/231 (3%)
+
+Query  3    TLSCKVTSVEAITD--TVYRVRLVPDAAFSFRAGQYLMVVMDERDKRPFSMASTPDEKGF  60
+            T  CK+ S+E + +   +  +RL P A   + AGQY+ ++++ + +R +S+A+ P   G 
+Sbjct  100  TYPCKLDSIEFVGEDIAILSLRLPPTAKIQYLAGQYIDLIINGQ-RRSYSIANAPGGNGN  158
+
+Query  61   IELHIGASELNLYAMAVMDRILKDREIVVDIPHGDAWLRDDEERPLILIAGGTGFSYVRS  120
+            IELH+      +++  + + +   + + ++ P G  ++R+D   P++ +AGGTGF+ V+S
+Sbjct  159  IELHVRKVVNGVFSNIIFNELKLQQLLRIEGPQGTFFVREDN-LPIVFLAGGTGFAPVKS  217
+
+Query  121  ILLTALARNPARDVTIYWGGREEKHLY-DLSELEALSVNHPNLRIEPVVEQPEEGWRGRT  179
+            ++   + +N  R V IYWG     + Y D++     ++ HPN+   PVV   +  W G T
+Sbjct  218  MVEALINKNDQRQVHIYWGMPAGHNFYSDIAN--EWAIKHPNIHYVPVVSGDDSTWTGAT  275
+
+Query  180  GTVLTAVLQDYGTLAGHDIYIAGRFEMAKIARDLFCHERNAREDRLFGDAF  230
+            G V  AVL+D   L+  ++Y  G   M   AR+ F +   A E++ F DAF
+Sbjct  276  GFVHQAVLEDIPDLSLFNVYACGSLAMITAARNDFINHGLA-ENKFFSDAF  325
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.139    0.414    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1439441544
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

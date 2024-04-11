@@ -1,0 +1,706 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1079.t1
+
+Length=117
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.139    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 337649861
+
+
+Query= g1702.t1
+
+Length=259
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional rep...  77.0    2e-16
+
+
+>VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional 
+repressor AllR [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=272
+
+ Score = 77.0 bits (188),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 62/232 (27%), Positives = 103/232 (44%), Gaps = 4/232 (2%)
+
+Query  3    AEEQDTRSGGIQVIARAAELLRVLQAHPGGLSQAEIGERVGMARSTVSRILNALEDEGLV  62
+             +++ +   G Q + R   +L+ L+   G  S ++I   + +  ST  R+L  LE    V
+Sbjct  11   GQQEPSAQKGAQALERGIAILQYLEKSGGSSSVSDISLNLDLPLSTTFRLLKVLEGADFV  70
+
+Query  63   ASRGARGPYRLGPEITRMATTV--RLGVVTEMHPFLTELSRELDETVDLSILDGDRADVV  120
+                  G + +G     + +       V++   PF+  L     ETV+++I +G+ A ++
+Sbjct  71   YQDSQLGWWHIGLGAFNIGSAYIHNRDVLSVGGPFMRRLMLMSGETVNVAIRNGNEAVLI  130
+
+Query  121  DQVVPPQRLRAVSAVGESFPLYCCANGKALLAALPPERQARAL-PSRLAPLTANTITDRA  179
+             Q      +R  + +G   PL+    GKALL  LP E     +  + L   T  TI D  
+Sbjct  131  GQQECKSMVRMCAPLGSRLPLHASGAGKALLYPLPAEELVDVIVKTGLQRFTPTTIVDLP  190
+
+Query  180  ALRDELNRIRVDGVAYDREEQTEGI-CAVGAVLRGVSVELVAVSVPVPAQRF  230
+             L+  L+  R  G + D+EE   G+ C   AV   V   + A+S+  PA R 
+Sbjct  191  VLQRNLDEARACGYSIDQEEHVTGLNCIASAVYDDVGSVVAAISISGPASRL  242
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.378    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1699539667
+
+
+Query= g1753.t1
+
+Length=259
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional rep...  70.5    3e-14
+
+
+>VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional 
+repressor AllR [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=272
+
+ Score = 70.5 bits (171),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 65/233 (28%), Positives = 99/233 (42%), Gaps = 13/233 (6%)
+
+Query  17   GKSTTNRDEGIQVLRRAVAALDEIAAEPGHLRLVDLCERLGLAKSTTRRLLVGLVEVGLV  76
+            G+   +  +G Q L R +A L  +    G   + D+   L L  STT RLL  L     V
+Sbjct  11   GQQEPSAQKGAQALERGIAILQYLEKSGGSSSVSDISLNLDLPLSTTFRLLKVLEGADFV  70
+
+Query  77   SVDSH---GRFALGERLLGFGSVTGAHIAAAFRPTVERVARATDGETVDLSVLRGQRMWF  133
+              DS        LG   +G   +    + +   P + R+   + GETV++++  G     
+Sbjct  71   YQDSQLGWWHIGLGAFNIGSAYIHNRDVLSVGGPFMRRLMLMS-GETVNVAIRNGNEAVL  129
+
+Query  134  VDQIESSYRLRAVSAVGLRFPLNGTANGKAALAALD-----DADAEAALCRLDPMVAEG-  187
+            + Q E    +R  + +G R PL+ +  GKA L  L      D   +  L R  P      
+Sbjct  130  IGQQECKSMVRMCAPLGSRLPLHASGAGKALLYPLPAEELVDVIVKTGLQRFTPTTIVDL  189
+
+Query  188  --LRREIVEIRRTGIAFDRNEHTPGISAAAIA-RRALGDNVIAISVPAPTARF  237
+              L+R + E R  G + D+ EH  G++  A A    +G  V AIS+  P +R 
+Sbjct  190  PVLQRNLDEARACGYSIDQEEHVTGLNCIASAVYDDVGSVVAAISISGPASRL  242
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1699539667
+
+
+Query= g2938.t1
+
+Length=233
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional rep...  64.3    3e-12
+
+
+>VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional 
+repressor AllR [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=272
+
+ Score = 64.3 bits (155),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 60/226 (27%), Positives = 97/226 (43%), Gaps = 20/226 (9%)
+
+Query  4    HSGIGVLDKAVGVLHAVAES--PCGLAELCDRTDLPRATAYRLAAALEVHRLLGR-GQDG  60
+              G   L++ + +L  + +S     ++++    DLP +T +RL   LE    + +  Q G
+Sbjct  18   QKGAQALERGIAILQYLEKSGGSSSVSDISLNLDLPLSTTFRLLKVLEGADFVYQDSQLG  77
+
+Query  61   HWRLGPAITELAT---HVDDPLLVACAAVLPQLRDATGESVQVYRREGTSRVCVAALEPA  117
+             W +G     + +   H  D L V     + +L   +GE+V V  R G   V +   E  
+Sbjct  78   WWHIGLGAFNIGSAYIHNRDVLSVG-GPFMRRLMLMSGETVNVAIRNGNEAVLIGQQECK  136
+
+Query  118  AGLRDTVPVGARLPMTAGSGAKVLLAHTDAATQAAVLPKAVFS-------------ARAL  164
+            + +R   P+G+RLP+ A    K LL    A     V+ K                  R L
+Sbjct  137  SMVRMCAPLGSRLPLHASGAGKALLYPLPAEELVDVIVKTGLQRFTPTTIVDLPVLQRNL  196
+
+Query  165  AEVCRRGWAQSVAEREPGVASVSAPVRDGRGVVIAAISVSGPIDRM  210
+             E    G++    E   G+  +++ V D  G V+AAIS+SGP  R+
+Sbjct  197  DEARACGYSIDQEEHVTGLNCIASAVYDDVGSVVAAISISGPASRL  242
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.133    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1439441544
+
+
+Query= g159.t1
+
+Length=279
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional rep...  65.5    2e-12
+
+
+>VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional 
+repressor AllR [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=272
+
+ Score = 65.5 bits (158),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 62/251 (25%), Positives = 115/251 (46%), Gaps = 16/251 (6%)
+
+Query  35   SLARGLAVIHAFQERKRHLTIAQISHRTEIPRAAVRRCLHTLMQLGYATTDGR--TYSLL  92
+            +L RG+A++   ++     +++ IS   ++P +   R L  L    +   D +   + + 
+Sbjct  23   ALERGIAILQYLEKSGGSSSVSDISLNLDLPLSTTFRLLKVLEGADFVYQDSQLGWWHIG  82
+
+Query  93   PKVLTLGHAYLSSTPLAITAQPILDRLSEQLHEACSMATLEGDDVLYIARSATPQRLISV  152
+                 +G AY+ +  +     P + RL     E  ++A   G++ + I +    + ++ +
+Sbjct  83   LGAFNIGSAYIHNRDVLSVGGPFMRRLMLMSGETVNVAIRNGNEAVLIGQQEC-KSMVRM  141
+
+Query  153  DLNVGSRLPAYCTSMGRILLAALDDDALHAYFGGVEMQAKTSRTLYTPETL--LPCLV--  208
+               +GSRLP + +  G+ LL  L  + L      V++  KT    +TP T+  LP L   
+Sbjct  142  CAPLGSRLPLHASGAGKALLYPLPAEEL------VDVIVKTGLQRFTPTTIVDLPVLQRN  195
+
+Query  209  --EIRRQGWCIVDQELEVGLRSLAVPVRDSAGHVLAALNVGTHAGRVSRAELESRFLPLL  266
+              E R  G+ I  +E   GL  +A  V D  G V+AA+++   A R++     S+   L+
+Sbjct  196  LDEARACGYSIDQEEHVTGLNCIASAVYDDVGSVVAAISISGPASRLTPDRFVSQG-ELV  254
+
+Query  267  LEASRELSARL  277
+             E +R +S  L
+Sbjct  255  RETARNISTAL  265
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.134    0.389    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1895069700
+
+
+Query= g240.t1
+
+Length=259
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional rep...  66.2    1e-12
+
+
+>VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional 
+repressor AllR [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=272
+
+ Score = 66.2 bits (160),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 57/246 (23%), Positives = 108/246 (44%), Gaps = 5/246 (2%)
+
+Query  6    IERALGLLELLASDARGLPLQQLADRLDIPKSAAHRMLAELIRLGYVRQDDDTSRYRLST  65
+            +ER + +L+ L        +  ++  LD+P S   R+L  L    +V QD     + +  
+Sbjct  24   LERGIAILQYLEKSGGSSSVSDISLNLDLPLSTTFRLLKVLEGADFVYQDSQLGWWHIGL  83
+
+Query  66   RLAALGFRFLASSGVVDLVQPVLDGLARETGELVRLGVIEGDRQTWIAKSQGATSGLRYD  125
+                +G  ++ +  V+ +  P +  L   +GE V + +  G+    I + Q   S +R  
+Sbjct  84   GAFNIGSAYIHNRDVLSVGGPFMRRLMLMSGETVNVAIRNGNEAVLIGQ-QECKSMVRMC  142
+
+Query  126  PDMGREAPLFYTASGHAWLASLSDKAALALVERQGVGAARDFGPNAPRSRSELLRYLKRA  185
+              +G   PL  + +G A L  L  +  + ++ + G+   + F P        L R L  A
+Sbjct  143  APLGSRLPLHASGAGKALLYPLPAEELVDVIVKTGL---QRFTPTTIVDLPVLQRNLDEA  199
+
+Query  186  REHGYAWQIECSAPGMAAMAALVRHPEDGRALGVLSVAGPSARFGEARMHELAPLLLAAA  245
+            R  GY+   E    G+  +A+ V + + G  +  +S++GP++R    R      L+   A
+Sbjct  200  RACGYSIDQEEHVTGLNCIASAV-YDDVGSVVAAISISGPASRLTPDRFVSQGELVRETA  258
+
+Query  246  QDLSHA  251
+            +++S A
+Sbjct  259  RNISTA  264
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.134    0.387    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1699539667
+
+
+Query= g1650.t1
+
+Length=288
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional rep...  48.5    2e-06
+
+
+>VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional 
+repressor AllR [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=272
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 51/245 (21%), Positives = 103/245 (42%), Gaps = 13/245 (5%)
+
+Query  30   PMQEKDEELKDRQFVTALARGLELLRCFTPRESLLGNQELAKKTGLPKPTVSRLTHTLTR  89
+            P Q++    K  Q   AL RG+ +L+            +++    LP  T  RL   L  
+Sbjct  10   PGQQEPSAQKGAQ---ALERGIAILQYLEKSGGSSSVSDISLNLDLPLSTTFRLLKVLEG  66
+
+Query  90   LGYLRHLPHSGKYQLEVGVMSFGYAMLSNLSIRALARPLMEEMAGYAKAAVAMAARDRLS  149
+              ++      G + + +G  + G A + N  + ++  P M  +   +   V +A R+   
+Sbjct  67   ADFVYQDSQLGWWHIGLGAFNIGSAYIHNRDVLSVGGPFMRRLMLMSGETVNVAIRNGNE  126
+
+Query  150  MVYLDVVHGEANLTMRRQVGSHLSLHRSAIGRACLAAMPEDEREFIL--GHIRKRHPE--  205
+             V +     ++ + M   +GS L LH S  G+A L  +P +E   ++    +++  P   
+Sbjct  127  AVLIGQQECKSMVRMCAPLGSRLPLHASGAGKALLYPLPAEELVDVIVKTGLQRFTPTTI  186
+
+Query  206  -DWPEVRKGLERAFRDYADYGFCLSLGEWQRDVNAVGVALHHESHGLL-AFNCGGPSFHL  263
+             D P +++ L+ A       G+ +   E    +N +  A++ +   ++ A +  GP+  L
+Sbjct  187  VDLPVLQRNLDEA----RACGYSIDQEEHVTGLNCIASAVYDDVGSVVAAISISGPASRL  242
+
+Query  264  KREKL  268
+              ++ 
+Sbjct  243  TPDRF  247
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1989823185
+
+
+Query= g3578.t1
+
+Length=277
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional rep...  89.4    8e-21
+
+
+>VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional 
+repressor AllR [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=272
+
+ Score = 89.4 bits (220),  Expect = 8e-21, Method: Compositional matrix adjust.
+ Identities = 63/245 (26%), Positives = 116/245 (47%), Gaps = 2/245 (1%)
+
+Query  16   LERGLLLLCEFSRKDRTLTAPELARRLKLPRSTIFRLLTTLEAMGFVTRNGN--EYRLGM  73
+            LERG+ +L    +   + +  +++  L LP ST FRLL  LE   FV ++     + +G+
+Sbjct  24   LERGIAILQYLEKSGGSSSVSDISLNLDLPLSTTFRLLKVLEGADFVYQDSQLGWWHIGL  83
+
+Query  74   AVLRLGFEYLASLELTELGQPLLNRLCDEIRYPCNLVVRDGRSIVYVAKVSPSTPLSSSV  133
+                +G  Y+ + ++  +G P + RL        N+ +R+G   V + +    + +    
+Sbjct  84   GAFNIGSAYIHNRDVLSVGGPFMRRLMLMSGETVNVAIRNGNEAVLIGQQECKSMVRMCA  143
+
+Query  134  NVGTRLPAHATVLGRILLQDLSLGELRELYPEEQLEQFSPNTPRSVLELFDMVQGDRQRG  193
+             +G+RLP HA+  G+ LL  L   EL ++  +  L++F+P T   +  L   +   R  G
+Sbjct  144  PLGSRLPLHASGAGKALLYPLPAEELVDVIVKTGLQRFTPTTIVDLPVLQRNLDEARACG  203
+
+Query  194  FVQGEGFFEASISTVAAPVRDHSGRVIAAMGATIAAGHIDPERIEGLVSRVRSSADELSY  253
+            +   +      ++ +A+ V D  G V+AA+  +  A  + P+R       VR +A  +S 
+Sbjct  204  YSIDQEEHVTGLNCIASAVYDDVGSVVAAISISGPASRLTPDRFVSQGELVRETARNIST  263
+
+Query  254  LLDYR  258
+             L  +
+Sbjct  264  ALGLK  268
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1874013370
+
+
+Query= g4423.t1
+
+Length=256
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1667871226
+
+
+Query= g482.t1
+
+Length=272
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional rep...  485     7e-176
+
+
+>VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional 
+repressor AllR [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=272
+
+ Score = 485 bits (1248),  Expect = 7e-176, Method: Compositional matrix adjust.
+ Identities = 231/269 (86%), Positives = 253/269 (94%), Gaps = 0/269 (0%)
+
+Query  1    MTEVRRRGRPGQAEPTAQKGAQALERGIAILQYLERSGGSSSVSDISGSLDLPLSTTFRL  60
+            MTEVRRRGRPGQ EP+AQKGAQALERGIAILQYLE+SGGSSSVSDIS +LDLPLSTTFRL
+Sbjct  1    MTEVRRRGRPGQQEPSAQKGAQALERGIAILQYLEKSGGSSSVSDISLNLDLPLSTTFRL  60
+
+Query  61   LKVLQAADFVYQDSQLGWWHIGLGVFNVGSAYIHNRDVLSVAGPFMHRLMLLSGETVNVA  120
+            LKVL+ ADFVYQDSQLGWWHIGLG FN+GSAYIHNRDVLSV GPFM RLML+SGETVNVA
+Sbjct  61   LKVLEGADFVYQDSQLGWWHIGLGAFNIGSAYIHNRDVLSVGGPFMRRLMLMSGETVNVA  120
+
+Query  121  IRNGNEAVLIGQKECKSMVRMCAPLGSRLPLHASGAGKALLYPLTEEELVGIVVNTGLRR  180
+            IRNGNEAVLIGQ+ECKSMVRMCAPLGSRLPLHASGAGKALLYPL  EELV ++V TGL+R
+Sbjct  121  IRNGNEAVLIGQQECKSMVRMCAPLGSRLPLHASGAGKALLYPLPAEELVDVIVKTGLQR  180
+
+Query  181  FTPTTLVDLPILLKNLEQAREQGYTVDQEEHVVGLNCIASAIYDDAGSVVAAISISGPAS  240
+            FTPTT+VDLP+L +NL++AR  GY++DQEEHV GLNCIASA+YDD GSVVAAISISGPAS
+Sbjct  181  FTPTTIVDLPVLQRNLDEARACGYSIDQEEHVTGLNCIASAVYDDVGSVVAAISISGPAS  240
+
+Query  241  RLTEDRFISQGELVRDTAKDISTALGLKP  269
+            RLT DRF+SQGELVR+TA++ISTALGLKP
+Sbjct  241  RLTPDRFVSQGELVRETARNISTALGLKP  269
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1821372545
+
+
+Query= g1723.t1
+
+Length=263
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional rep...  106     2e-27
+
+
+>VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional 
+repressor AllR [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=272
+
+ Score = 106 bits (265),  Expect = 2e-27, Method: Compositional matrix adjust.
+ Identities = 64/224 (29%), Positives = 113/224 (50%), Gaps = 0/224 (0%)
+
+Query  34   ITELSQRVMMSKSTVYRFLQTMKTLGYVAQEGESEKYSLTLKLFELGARALQNVDLIRSA  93
+            ++++S  + +  ST +R L+ ++   +V Q+ +   + + L  F +G+  + N D++   
+Sbjct  43   VSDISLNLDLPLSTTFRLLKVLEGADFVYQDSQLGWWHIGLGAFNIGSAYIHNRDVLSVG  102
+
+Query  94   DIQMRELSRLTKETIHLGALDEDSIVYIHKIDSMYNLRMYSRIGRRNPLYSTAIGKVLLA  153
+               MR L  ++ ET+++   + +  V I + +    +RM + +G R PL+++  GK LL 
+Sbjct  103  GPFMRRLMLMSGETVNVAIRNGNEAVLIGQQECKSMVRMCAPLGSRLPLHASGAGKALLY  162
+
+Query  154  WRDRDEVKQILDGVEYKQSTGRTITSTEALLPLLDEVRAQGYGEDNEEQEEGLRCIGVPV  213
+                +E+  ++     ++ T  TI     L   LDE RA GY  D EE   GL CI   V
+Sbjct  163  PLPAEELVDVIVKTGLQRFTPTTIVDLPVLQRNLDEARACGYSIDQEEHVTGLNCIASAV  222
+
+Query  214  FDRFGVVIAGLSISFPTLRFSEERLQEYVAMLHAAARKISEQMG  257
+            +D  G V+A +SIS P  R + +R      ++   AR IS  +G
+Sbjct  223  YDDVGSVVAAISISGPASRLTPDRFVSQGELVRETARNISTALG  266
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1741764255
+
+
+Query= g2137.t1
+
+Length=260
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional rep...  76.3    3e-16
+
+
+>VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional 
+repressor AllR [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=272
+
+ Score = 76.3 bits (186),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 69/253 (27%), Positives = 112/253 (44%), Gaps = 8/253 (3%)
+
+Query  9    ALTRAIDILNLIARIGPCSAAIIIE-TLRIPKSTAYLLLNELKRQRFISLDHQDNYCLWT  67
+            AL R I IL  + + G  S+   I   L +P ST + LL  L+   F+   +QD+   W 
+Sbjct  23   ALERGIAILQYLEKSGGSSSVSDISLNLDLPLSTTFRLLKVLEGADFV---YQDSQLGWW  79
+
+Query  68   KL----VELSGHALSKMDLRELARPRLTQLMDETGLLCHLGIIDHENAYYILKVESSSTI  123
+             +      +    +   D+  +  P + +LM  +G   ++ I +   A  I + E  S +
+Sbjct  80   HIGLGAFNIGSAYIHNRDVLSVGGPFMRRLMLMSGETVNVAIRNGNEAVLIGQQECKSMV  139
+
+Query  124  SVRSHEGKSLSLYRSGIGKCLLAWQPAAVRKAIIEQLVWERATLTTITEPQQLNDELERI  183
+             + +  G  L L+ SG GK LL   PA     +I +   +R T TTI +   L   L+  
+Sbjct  140  RMCAPLGSRLPLHASGAGKALLYPLPAEELVDVIVKTGLQRFTPTTIVDLPVLQRNLDEA  199
+
+Query  184  RQRGWSFDNGEDYPDVRCVAAPVFNARNELTAAISVVGTRLQINEENLDYLAGKAIACAK  243
+            R  G+S D  E    + C+A+ V++    + AAIS+ G   ++  +            A+
+Sbjct  200  RACGYSIDQEEHVTGLNCIASAVYDDVGSVVAAISISGPASRLTPDRFVSQGELVRETAR  259
+
+Query  244  DISRLLGWKSPFD  256
+            +IS  LG K   D
+Sbjct  260  NISTALGLKPQAD  272
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.134    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1710095814
+
+
+Query= g3296.t1
+
+Length=251
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional rep...  96.7    9e-24
+
+
+>VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional 
+repressor AllR [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=272
+
+ Score = 96.7 bits (239),  Expect = 9e-24, Method: Compositional matrix adjust.
+ Identities = 66/241 (27%), Positives = 125/241 (52%), Gaps = 4/241 (2%)
+
+Query  10   ALDKIMRVFAYLLECDGAT-FTQIHQNSGIAKSSTSSLLNGMVEHGLLRQEKDK--YYLG  66
+            AL++ + +  YL +  G++  + I  N  +  S+T  LL  +     + Q+     +++G
+Sbjct  23   ALERGIAILQYLEKSGGSSSVSDISLNLDLPLSTTFRLLKVLEGADFVYQDSQLGWWHIG  82
+
+Query  67   LRLYELGNKAAEQYDIKKIALPILEEIRDNTGLTCHLGVLEGDAPIYLLKVESPQAIVIR  126
+            L  + +G+      D+  +  P +  +   +G T ++ +  G+  + + + E    + + 
+Sbjct  83   LGAFNIGSAYIHNRDVLSVGGPFMRRLMLMSGETVNVAIRNGNEAVLIGQQECKSMVRMC  142
+
+Query  127  SWEGKRLSLHSSGLGKVLIAWLSGEELEELLPPDQILTRFTDTTITDVNILKQELAGIRR  186
+            +  G RL LH+SG GK L+  L  EEL +++     L RFT TTI D+ +L++ L   R 
+Sbjct  143  APLGSRLPLHASGAGKALLYPLPAEELVDVIVKTG-LQRFTPTTIVDLPVLQRNLDEARA  201
+
+Query  187  RGWGYDNEEDSLGVRCIAVPVFNTQGKVIAALSVSGVTFQIPDDKRESLATLMMDASRSL  246
+             G+  D EE   G+ CIA  V++  G V+AA+S+SG   ++  D+  S   L+ + +R++
+Sbjct  202  CGYSIDQEEHVTGLNCIASAVYDDVGSVVAAISISGPASRLTPDRFVSQGELVRETARNI  261
+
+Query  247  T  247
+            +
+Sbjct  262  S  262
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1615090491
+
+
+Query= g3426.t1
+
+Length=266
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional rep...  102     8e-26
+
+
+>VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional 
+repressor AllR [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=272
+
+ Score = 102 bits (254),  Expect = 8e-26, Method: Compositional matrix adjust.
+ Identities = 78/255 (31%), Positives = 125/255 (49%), Gaps = 11/255 (4%)
+
+Query  12   GSQSLFRGLMLIEILSNYPNGCPLAHLSELAGLNKSTVHRLLQGLQSCGYVTPAPAAGSY  71
+            G+Q+L RG+ +++ L        ++ +S    L  ST  RLL+ L+   +V      G +
+Sbjct  20   GAQALERGIAILQYLEKSGGSSSVSDISLNLDLPLSTTFRLLKVLEGADFVYQDSQLGWW  79
+
+Query  72   RLTTKFIAVGQKALSSLNIIHVAAPHLEALNLTTGETVNFSSREDDHAILIYKLEPTTGM  131
+             +      +G   + + +++ V  P +  L L +GETVN + R  + A+LI + E  + M
+Sbjct  80   HIGLGAFNIGSAYIHNRDVLSVGGPFMRRLMLMSGETVNVAIRNGNEAVLIGQQECKS-M  138
+
+Query  132  LRTRAYIGQHMPLYCSAMGKIYM----AFGQPDYVASYWESHKDQIQPLTRNTITDLPAM  187
+            +R  A +G  +PL+ S  GK  +    A    D +       K  +Q  T  TI DLP +
+Sbjct  139  VRMCAPLGSRLPLHASGAGKALLYPLPAEELVDVIV------KTGLQRFTPTTIVDLPVL  192
+
+Query  188  YDELAQIRETSMAMDREENELGVSCIAVPVFDIHHRVPYAISISLSTSRLKQIGEKNLLK  247
+               L + R    ++D+EE+  G++CIA  V+D    V  AISIS   SRL      +  +
+Sbjct  193  QRNLDEARACGYSIDQEEHVTGLNCIASAVYDDVGSVVAAISISGPASRLTPDRFVSQGE  252
+
+Query  248  PLRETAQAISNELGF  262
+             +RETA+ IS  LG 
+Sbjct  253  LVRETARNISTALGL  267
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.132    0.381    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1773432696
+
+
+Query= g3896.t1
+
+Length=274
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional rep...  209     6e-67
+
+
+>VFG049118(gb|WP_012737529) (allR) DNA-binding transcriptional 
+repressor AllR [Allantion utilization (VF0572) - Nutritional/Metabolic 
+factor (VFC0272)] [Klebsiella pneumoniae subsp. 
+pneumoniae NTUH-K2044]
+Length=272
+
+ Score = 209 bits (531),  Expect = 6e-67, Method: Compositional matrix adjust.
+ Identities = 105/264 (40%), Positives = 168/264 (64%), Gaps = 3/264 (1%)
+
+Query  8    KRGRKPAATTAPVTGQVQSLTRGLKLLEWIAESNGSVALTELAQQAGLPNSTTHRLLTTM  67
+            +RGR P           Q+L RG+ +L+++ +S GS ++++++    LP STT RLL  +
+Sbjct  6    RRGR-PGQQEPSAQKGAQALERGIAILQYLEKSGGSSSVSDISLNLDLPLSTTFRLLKVL  64
+
+Query  68   QQQGFVRQVGELGHWAVGAHAFIVGSSFLQSRNLLAIVHPILRKLMEDSGETVNLAVLDQ  127
+            +   FV Q  +LG W +G  AF +GS+++ +R++L++  P +R+LM  SGETVN+A+  +
+Sbjct  65   EGADFVYQDSQLGWWHIGLGAFNIGSAYIHNRDVLSVGGPFMRRLMLMSGETVNVAI--R  122
+
+Query  128  SDHQAIIIDQVQCTQLMRMSAPIGGKLPMHASGAGKAFLSQLSEEQVTSLLHRKGLHAYT  187
+            + ++A++I Q +C  ++RM AP+G +LP+HASGAGKA L  L  E++  ++ + GL  +T
+Sbjct  123  NGNEAVLIGQQECKSMVRMCAPLGSRLPLHASGAGKALLYPLPAEELVDVIVKTGLQRFT  182
+
+Query  188  HATLVSPLHLKDDLAQTRKRGYSFDDEEHALGLRCVASCIYDEHREPFAALSISGPCSRI  247
+              T+V    L+ +L + R  GYS D EEH  GL C+AS +YD+     AA+SISGP SR+
+Sbjct  183  PTTIVDLPVLQRNLDEARACGYSIDQEEHVTGLNCIASAVYDDVGSVVAAISISGPASRL  242
+
+Query  248  TDDRVTELGAMVIKAAKEVTLAYG  271
+            T DR    G +V + A+ ++ A G
+Sbjct  243  TPDRFVSQGELVRETARNISTALG  266
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.132    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1842428875
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

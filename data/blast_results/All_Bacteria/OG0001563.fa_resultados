@@ -1,0 +1,1706 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2844.t1
+
+Length=283
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG007227(gb|WP_011152545) (viuB) siderophore-interacting protein...  126     9e-35
+VFG007226(gb|WP_011081754) (viuB) siderophore-interacting protein...  126     1e-34
+VFG007224(gb|WP_000064348) (viuB) siderophore-interacting protein...  119     7e-32
+VFG022780(gb|WP_012395628) (irtA) Iron-regulated transporter IrtA...  58.5    1e-09
+VFG026708(gb|WP_016342533) (irtA) Iron-regulated transporter IrtA...  57.8    3e-09
+VFG026714(gb|WP_005058852) (irtA) Iron-regulated transporter IrtA...  57.0    5e-09
+VFG022781(gb|YP_001702997) (irtA) Iron-regulated transporter IrtA...  56.6    5e-09
+VFG009577(gb|WP_011741579) (irtA) Iron-regulated transporter IrtA...  56.6    6e-09
+VFG026713(gb|WP_015356664) (irtA) Iron-regulated transporter IrtA...  56.2    8e-09
+VFG026726(gb|YP_005922613) (irtA) Iron-regulated transporter IrtA...  55.8    1e-08
+VFG009570(gb|NP_215864) (irtA) Iron-regulated transporter IrtA [A...  55.8    1e-08
+VFG022783(gb|WP_014000720) (irtA) Iron-regulated transporter IrtA...  55.8    1e-08
+VFG026719(gb|WP_025202597) (irtA) Iron-regulated transporter IrtA...  55.8    1e-08
+VFG022782(gb|WP_003910332) (irtA) Iron-regulated transporter IrtA...  55.8    1e-08
+VFG009575(gb|WP_003873186) (irtA) Iron-regulated transporter IrtA...  54.3    3e-08
+VFG024068(gb|WP_014379607) (irtA) Iron-regulated transporter IrtA...  53.1    9e-08
+VFG009576(gb|WP_024637120) (irtA) Iron-regulated transporter IrtA...  52.8    1e-07
+VFG026729(gb|WP_020822014) (irtA) Iron-regulated transporter IrtA...  52.4    2e-07
+VFG009578(gb|WP_011731355) (irtA) Iron-regulated transporter IrtA...  52.4    2e-07
+VFG037462(gb|WP_000160883) (bauF) siderophore-interacting protein...  50.8    2e-07
+VFG026722(gb|YP_007957462) (irtA) Iron-regulated transporter IrtA...  51.6    3e-07
+VFG037460(gb|WP_000160884) (bauF) siderophore-interacting protein...  50.4    4e-07
+VFG024066(gb|WP_026071504) (irtA) Iron-regulated transporter IrtA...  50.8    4e-07
+VFG024064(gb|WP_043955645) (irtA) Iron-regulated transporter IrtA...  50.8    4e-07
+VFG024065(gb|WP_014711101) (irtA) Iron-regulated transporter IrtA...  50.8    4e-07
+VFG037457(gb|YP_001085413) (bauF) siderophore-interacting protein...  49.7    5e-07
+VFG037454(gb|WP_000160888) (bauF) siderophore-interacting protein...  49.7    6e-07
+VFG022786(gb|WP_013828471) (irtA) Iron-regulated transporter IrtA...  49.7    1e-06
+VFG037456(gb|WP_000160878) (bauF) siderophore-interacting protein...  48.9    1e-06
+VFG024067(gb|WP_036458564) (irtA) Iron-regulated transporter IrtA...  48.5    2e-06
+VFG026710(gb|WP_015302951) (irtA) Iron-regulated transporter IrtA...  47.8    5e-06
+
+
+>VFG007227(gb|WP_011152545) (viuB) siderophore-interacting protein 
+[Vibriobactin/Vulnibactin (VF0626) - Nutritional/Metabolic 
+factor (VFC0272)] [Vibrio vulnificus YJ016]
+Length=271
+
+ Score = 126 bits (316),  Expect = 9e-35, Method: Compositional matrix adjust.
+ Identities = 92/273 (34%), Positives = 135/273 (49%), Gaps = 19/273 (7%)
+
+Query  9    FEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDSFA  68
+             + V    ++ +++RV L G     F P D   S+IK+ F +    + +LP     +   
+Sbjct  13   LDFVRKETISKNLLRVTLTGEDLIGF-PEDQNGSHIKVFFPNQASGILQLP---VREGDN  68
+
+Query  69   DLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIYLMGPGGAY  128
+             +    +P  R  +VR   AA  E+ +D V HGE    G WA  A  G  I L+GP G  
+Sbjct  69   VIWPEHKPVPRAYSVRQYRAAVNELDIDFVTHGEETPGGGWALKADIGSQIGLIGPAG--  126
+
+Query  129  APDPA---ADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDEIGLTAPDAVEV  185
+             PDP    ADWH++AGD SA+PAI+A LE LP DA G  FIEV   +D   L  P+ + +
+Sbjct  127  -PDPLIEPADWHIIAGDLSAVPAISAILEKLPSDAKGYVFIEVDEIEDIHDLVHPEEMAI  185
+
+Query  186  NWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVRNER  245
+            NW+ R          +A    P  E  T+ +        FI GE Q+V+ N R  +RN+ 
+Sbjct  186  NWLMRNPHDAEPALAKAIQQLPAPEKATSLS-------AFIAGENQSVI-NCRKILRNDY  237
+
+Query  246  GVDAKWASSISGYWRRGRTEEMFRKWKKELAEA  278
+             +      +I  YW+RG+TEE +   + ++ +A
+Sbjct  238  QIARDKLYAIP-YWKRGKTEEAYHDERHDVMDA  269
+
+
+>VFG007226(gb|WP_011081754) (viuB) siderophore-interacting protein 
+[Vibriobactin/Vulnibactin (VF0626) - Nutritional/Metabolic 
+factor (VFC0272)] [Vibrio vulnificus CMCP6]
+Length=271
+
+ Score = 126 bits (316),  Expect = 1e-34, Method: Compositional matrix adjust.
+ Identities = 92/273 (34%), Positives = 135/273 (49%), Gaps = 19/273 (7%)
+
+Query  9    FEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDSFA  68
+             + V    ++ +++RV L G     F P D   S+IK+ F +    + +LP     +   
+Sbjct  13   LDFVRKETISKNLLRVTLTGEDLIGF-PEDQNGSHIKVFFPNQASGILQLP---VREGDN  68
+
+Query  69   DLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIYLMGPGGAY  128
+             +    +P  R  +VR   AA  E+ +D V HGE    G WA  A  G  I L+GP G  
+Sbjct  69   VIWPEHKPVPRAYSVRQYRAAVNELDIDFVTHGEETPGGGWALKADIGSQIGLIGPAG--  126
+
+Query  129  APDPA---ADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDEIGLTAPDAVEV  185
+             PDP    ADWH++AGD SA+PAI+A LE LP DA G  FIEV   +D   L  P+ + +
+Sbjct  127  -PDPLIEPADWHIIAGDLSAVPAISAILEKLPSDAKGYVFIEVDEIEDIHDLVHPEEMAI  185
+
+Query  186  NWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVRNER  245
+            NW+ R          +A    P  E  T+ +        FI GE Q+V+ N R  +RN+ 
+Sbjct  186  NWLMRNPHDAEPALAKAIKQLPSPEKATSLS-------AFIAGENQSVI-NCRKILRNDY  237
+
+Query  246  GVDAKWASSISGYWRRGRTEEMFRKWKKELAEA  278
+             +      +I  YW+RG+TEE +   + ++ +A
+Sbjct  238  QIARDKLYAIP-YWKRGKTEEAYHDERHDVMDA  269
+
+
+>VFG007224(gb|WP_000064348) (viuB) siderophore-interacting protein 
+[Vibriobactin/Vulnibactin (VF0626) - Nutritional/Metabolic 
+factor (VFC0272)] [Vibrio cholerae O1 biovar El Tor str. 
+N16961]
+Length=271
+
+ Score = 119 bits (297),  Expect = 7e-32, Method: Compositional matrix adjust.
+ Identities = 83/274 (30%), Positives = 138/274 (50%), Gaps = 19/274 (7%)
+
+Query  9    FEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDSFA  68
+             + V  ++++ +++RV L G     F P D   S+IK+ F +    + +LP     +   
+Sbjct  13   LDFVRKKYVSKNLLRVTLTGEDLIGF-PEDQNGSHIKVFFPNQASGILQLP---IREGDK  68
+
+Query  69   DLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIYLMGPGGAY  128
+             +    +P  R  TVR   A + E+ +D V+HGE    G WA  AQ G  + L+GPGG  
+Sbjct  69   VIWPEHKPVPRAYTVRQYRAQSNELDIDFVVHGEGTPGGGWALKAQTGSQLGLIGPGG--  126
+
+Query  129  APDPA---ADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDEIGLTAPDAVEV  185
+             PDP    ADWH++AGD SA+PAI+A LE +P  A G  F+EV   +D+  ++ P+ + +
+Sbjct  127  -PDPLIEPADWHIMAGDLSAVPAISAILEKMPSQAKGYVFLEVDDIEDKHDISHPEQMVI  185
+
+Query  186  NWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVRNER  245
+             W+ R           A +  P+ +   + +        F+ GE ++V+   R  +RNE 
+Sbjct  186  KWLVRDPNQAQPVLAMAIEQLPVPQGAESLS-------AFVAGENESVI-ACRKILRNEY  237
+
+Query  246  GVDAKWASSISGYWRRGRTEEMFRKWKKELAEAE  279
+             +      +I  YW+RG+ EE + + +  + + E
+Sbjct  238  RIARDKIYAIP-YWKRGKNEEAYHEERHVVMDEE  270
+
+
+>VFG022780(gb|WP_012395628) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium marinum M]
+Length=874
+
+ Score = 58.5 bits (140),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 71/269 (26%), Positives = 106/269 (39%), Gaps = 41/269 (15%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   VV T ++APH +R+ +         P+ F D+  +             P       
+Sbjct  18   HTATVVETVYIAPHFLRIRM-------VSPTLFEDAQAE-------------PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIYLMGPGG  126
+            F D   +     R  T+   DAA+   AVD+VLH   G A  WA   Q G  I +M   G
+Sbjct  58   FPDPKGSNTEYQRAYTLSEADAASGRFAVDVVLHEPAGPASQWARTVQPGATIAVMSLMG  117
+
+Query  127  AYA----PDPAADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDD-EIGLTAPD  181
+            + +    P      +LL GD ++IP +   +  +P D     ++E    +D  I +TA  
+Sbjct  118  SSSRFDVPKEQPAGYLLIGDSASIPGMNGIIGTVPDDVPIEMYLEQHDDNDTRIPITAHS  177
+
+Query  182  AVEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYV  241
+             + V+WV R             D   L EA+ T  W     + +   EA A+ H +R  +
+Sbjct  178  RLRVHWVRR------------RDETSLAEAIETRDW--SDWYAWATPEATALKH-VRKRL  222
+
+Query  242  RNERGVDAKWASSISGYWRRGRTEEMFRK  270
+            R+  G   K       YW  GR     R+
+Sbjct  223  RDAFGF-PKSVVHAQAYWTAGREMGTCRE  250
+
+
+>VFG026708(gb|WP_016342533) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium abscessus subsp. bolletii 50594]
+Length=862
+
+ Score = 57.8 bits (138),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 73/266 (27%), Positives = 107/266 (40%), Gaps = 51/266 (19%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTD------SYIKLVFVDDDVDVGRLPR  60
+            H   VV T  +AP+ VR+ +         P+ F D       +++  F D D        
+Sbjct  18   HVATVVGTAPVAPNCVRITMSA-------PTLFEDLLHTPAEWLRFWFPDPD--------  62
+
+Query  61   PLTLDSFADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIY  120
+                              R  T+   D +A E ++D+V+H   G A  WA  A+ G  I 
+Sbjct  63   -----------GGTSEHQRAYTIVTTDESAGEFSIDVVIHEPAGPACQWAVAARPGMTIP  111
+
+Query  121  LMGPGGAYAPDPA--ADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGL  177
+            ++  G A    PA      LL GD ++IPAI + + ALP D     ++E   PDDE I L
+Sbjct  112  VVAFGSARFEVPADLPSGFLLIGDSASIPAINSIVAALPADVDIEVYLERHSPDDELIPL  171
+
+Query  178  TAPDAVEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNL  237
+            T      ++WV R     L         A  IE    + W     + +   E+ ++ H L
+Sbjct  172  TTHPRRRLHWVDRIDETSL---------AAAIEGRDWSNW-----YGWASSESGSLKH-L  216
+
+Query  238  RPYVRNERGVDAKWASSISGYWRRGR  263
+            R  +R+E G   K     + YW  GR
+Sbjct  217  RKRLRDEFGF-PKADVHAAAYWTFGR  241
+
+
+>VFG026714(gb|WP_005058852) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium abscessus subsp. bolletii str. GO 
+06]
+Length=862
+
+ Score = 57.0 bits (136),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 72/266 (27%), Positives = 107/266 (40%), Gaps = 51/266 (19%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTD------SYIKLVFVDDDVDVGRLPR  60
+            H   VV T  +AP+ VR+ +         P+ F D       +++  F D D        
+Sbjct  18   HVATVVGTAPVAPNCVRITMSA-------PTLFEDLLHTPAEWLRFWFPDPD--------  62
+
+Query  61   PLTLDSFADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIY  120
+                              R  T+   D +A E ++D+V+H   G A  WA  A+ G  I 
+Sbjct  63   -----------GGTSEHQRAYTIVTTDESAGEFSIDVVIHEPAGPACQWAVAARPGMTIP  111
+
+Query  121  LMGPGGAYAPDPA--ADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGL  177
+            ++  G A    PA      LL GD +++PAI + + ALP D     ++E   PDDE I L
+Sbjct  112  VVAFGSARFEVPADLPSGFLLIGDSASVPAINSIVAALPADVDIEVYLERHSPDDELIPL  171
+
+Query  178  TAPDAVEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNL  237
+            T      ++WV R     L         A  IE    + W     + +   E+ ++ H L
+Sbjct  172  TTHPRRRLHWVDRIDETSL---------AAAIEGRDWSNW-----YGWASSESGSLKH-L  216
+
+Query  238  RPYVRNERGVDAKWASSISGYWRRGR  263
+            R  +R+E G   K     + YW  GR
+Sbjct  217  RKRLRDEFGF-PKADVHAAAYWTFGR  241
+
+
+>VFG022781(gb|YP_001702997) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium abscessus ATCC 19977]
+Length=862
+
+ Score = 56.6 bits (135),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 73/266 (27%), Positives = 106/266 (40%), Gaps = 51/266 (19%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTD------SYIKLVFVDDDVDVGRLPR  60
+            H   VV T  +AP+ VR+ +         P+ F D       +++  F D D        
+Sbjct  18   HVATVVGTAPVAPNCVRITMSA-------PTLFEDLLHTPAEWLRFWFPDPD--------  62
+
+Query  61   PLTLDSFADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIY  120
+                              R  T+   D  A E ++D+V+H   G A  WA  AQ G  I 
+Sbjct  63   -----------GGTSEHQRAYTIVTTDEDAGEFSIDVVIHEPAGPACQWAVAAQPGMTIP  111
+
+Query  121  LMGPGGAYAPDPA--ADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGL  177
+            ++  G A    PA      LL GD ++IPAI + + ALP +     ++E   PDDE I L
+Sbjct  112  VVAFGSARFEVPADLPSGFLLIGDSASIPAINSIVAALPAEVDIEVYLERHSPDDELIPL  171
+
+Query  178  TAPDAVEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNL  237
+            T      ++WV R     L         A  IE    + W     + +   E+ ++ H L
+Sbjct  172  TTHPRRRLHWVDRIDETSL---------AAAIEGRDWSNW-----YGWASSESGSLKH-L  216
+
+Query  238  RPYVRNERGVDAKWASSISGYWRRGR  263
+            R  +R+E G   K     + YW  GR
+Sbjct  217  RKRLRDEFGF-PKADVHAAAYWTFGR  241
+
+
+>VFG009577(gb|WP_011741579) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium ulcerans Agy99]
+Length=874
+
+ Score = 56.6 bits (135),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 71/269 (26%), Positives = 106/269 (39%), Gaps = 41/269 (15%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   VV T ++APH +R+ +         P+ F D+  +             P       
+Sbjct  18   HTATVVETVYIAPHFLRIRM-------VSPTLFEDAQAE-------------PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIYLMGPGG  126
+            F D   +     R  T+   DAA+   AVD+VLH   G A  WA   Q G  I +M   G
+Sbjct  58   FPDPKGSNTEYQRAYTLSEADAASGRFAVDVVLHEPAGPASQWARTVQPGATIAVMSLMG  117
+
+Query  127  AYA----PDPAADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDD-EIGLTAPD  181
+            + +    P      +LL GD ++IP +   +  +P D     ++E    +D  I +TA  
+Sbjct  118  SSSRFDVPKEQPAGYLLIGDSASIPGMNGIIGTVPDDVPIEMYLEQHDDNDTRIPITAHP  177
+
+Query  182  AVEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYV  241
+             + V+WV R             D   L EA+ T  W     + +   EA A+ H +R  +
+Sbjct  178  RLRVHWVPR------------RDETSLAEAIETRDW--SDWYAWATPEATALKH-VRKRL  222
+
+Query  242  RNERGVDAKWASSISGYWRRGRTEEMFRK  270
+            R+  G   K       YW  GR     R+
+Sbjct  223  RDAFGF-PKSVVHAQAYWTAGREMGTCRE  250
+
+
+>VFG026713(gb|WP_015356664) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium liflandii 128FXT]
+Length=874
+
+ Score = 56.2 bits (134),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 70/269 (26%), Positives = 105/269 (39%), Gaps = 41/269 (15%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   VV T ++APH +R+ +         P+ F D+  +             P       
+Sbjct  18   HTATVVETVYIAPHFLRIRM-------VSPTLFEDAQAE-------------PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIYLMGPGG  126
+            F D   +     R  T+   D A+   AVD+VLH   G A  WA   Q G  I +M   G
+Sbjct  58   FPDPKGSNTEYQRAYTLSEADVASGRFAVDVVLHEPAGPASQWARTVQPGATIAVMSLMG  117
+
+Query  127  AYA----PDPAADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDD-EIGLTAPD  181
+            + +    P      +LL GD ++IP +   +  +P D     ++E    +D  I +TA  
+Sbjct  118  SSSRFDVPKEQPAGYLLIGDSASIPGMNGIIGTVPDDVPIEMYLEQHDDNDTRIPITAHP  177
+
+Query  182  AVEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYV  241
+             + V+WV R             D   L EA+ T  W     + +   EA A+ H +R  +
+Sbjct  178  RLRVHWVRR------------RDETSLAEAIETRDW--SDWYAWATPEATALKH-VRKRL  222
+
+Query  242  RNERGVDAKWASSISGYWRRGRTEEMFRK  270
+            R+  G   K       YW  GR     R+
+Sbjct  223  RDAFGF-PKSVVHAQAYWTAGREMGTCRE  250
+
+
+>VFG026726(gb|YP_005922613) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium tuberculosis RGTB423]
+Length=859
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 74/279 (27%), Positives = 103/279 (37%), Gaps = 40/279 (14%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   V+ T  +APH VRV +         P+ F D+  +             P       
+Sbjct  18   HTATVIETISIAPHFVRVRM-------VSPTLFQDAEAE-------------PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPI---YLMG  123
+            F D   +     R  T+   D AA   AVD+VLH   G A  WA   + G  I    LMG
+Sbjct  58   FPDPNGSNTEFQRAYTISEADPAAGRFAVDVVLHDPAGPASSWARTVKPGATIAVMSLMG  117
+
+Query  124  PGGAYAPDPAADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGLTAPDA  182
+                  P+     +LL GD ++IP +   +E +P D     ++E    +D  I L     
+Sbjct  118  SSRFDVPEEQPAGYLLIGDSASIPGMNGIIETVPNDVPIEMYLEQHDDNDTLIPLAKHPR  177
+
+Query  183  VEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVR  242
+            + V WV R             D   L EA+    W     + +   EA A +  +R  +R
+Sbjct  178  LRVRWVMR------------RDEKSLAEAIENRDW--SDWYAWATPEA-AALKCVRVRLR  222
+
+Query  243  NERGVDAKWASSISGYWRRGRTEEMFRKWKKELAEAEAG  281
+            +E G   K       YW  GR     R  +    E E G
+Sbjct  223  DEFGF-PKSEIHAQAYWNAGRAMGTHRATEPAATEPEVG  260
+
+
+>VFG009570(gb|NP_215864) (irtA) Iron-regulated transporter IrtA 
+[ABC transporter (VF0818) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=859
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 74/279 (27%), Positives = 103/279 (37%), Gaps = 40/279 (14%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   V+ T  +APH VRV +         P+ F D+  +             P       
+Sbjct  18   HTATVIETISIAPHFVRVRM-------VSPTLFQDAEAE-------------PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPI---YLMG  123
+            F D   +     R  T+   D AA   AVD+VLH   G A  WA   + G  I    LMG
+Sbjct  58   FPDPNGSNTEFQRAYTISEADPAAGRFAVDVVLHDPAGPASSWARTVKPGATIAVMSLMG  117
+
+Query  124  PGGAYAPDPAADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGLTAPDA  182
+                  P+     +LL GD ++IP +   +E +P D     ++E    +D  I L     
+Sbjct  118  SSRFDVPEEQPAGYLLIGDSASIPGMNGIIETVPNDVPIEMYLEQHDDNDTLIPLAKHPR  177
+
+Query  183  VEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVR  242
+            + V WV R             D   L EA+    W     + +   EA A +  +R  +R
+Sbjct  178  LRVRWVMR------------RDEKSLAEAIENRDW--SDWYAWATPEA-AALKCVRVRLR  222
+
+Query  243  NERGVDAKWASSISGYWRRGRTEEMFRKWKKELAEAEAG  281
+            +E G   K       YW  GR     R  +    E E G
+Sbjct  223  DEFGF-PKSEIHAQAYWNAGRAMGTHRATEPAATEPEVG  260
+
+
+>VFG022783(gb|WP_014000720) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium canettii CIPT 140010059]
+Length=859
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 74/279 (27%), Positives = 103/279 (37%), Gaps = 40/279 (14%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   V+ T  +APH VRV +         P+ F D+  +             P       
+Sbjct  18   HTATVIETISIAPHFVRVRM-------VSPTLFQDAEAE-------------PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPI---YLMG  123
+            F D   +     R  T+   D AA   AVD+VLH   G A  WA   + G  I    LMG
+Sbjct  58   FPDPNGSNTEFQRAYTISEADPAAGRFAVDVVLHDPAGPASSWARTVKPGATIAVMSLMG  117
+
+Query  124  PGGAYAPDPAADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGLTAPDA  182
+                  P+     +LL GD ++IP +   +E +P D     ++E    +D  I L     
+Sbjct  118  SSRFDVPEEQPAGYLLIGDSASIPGMNGIIETVPNDVPIEMYLEQHDDNDTLIPLAKHPR  177
+
+Query  183  VEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVR  242
+            + V WV R             D   L EA+    W     + +   EA A +  +R  +R
+Sbjct  178  LRVRWVMR------------RDEKSLAEAIENRDW--SDWYAWATPEA-AALKCVRVRLR  222
+
+Query  243  NERGVDAKWASSISGYWRRGRTEEMFRKWKKELAEAEAG  281
+            +E G   K       YW  GR     R  +    E E G
+Sbjct  223  DEFGF-PKSEIHAQAYWNAGRAMGTHRATEPAATEPEVG  260
+
+
+>VFG026719(gb|WP_025202597) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium tuberculosis CCDC5180]
+Length=859
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 74/279 (27%), Positives = 103/279 (37%), Gaps = 40/279 (14%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   V+ T  +APH VRV +         P+ F D+  +             P       
+Sbjct  18   HTATVIETISIAPHFVRVRM-------VSPTLFQDAEAE-------------PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPI---YLMG  123
+            F D   +     R  T+   D AA   AVD+VLH   G A  WA   + G  I    LMG
+Sbjct  58   FPDPNGSNTEFQRAYTISEADPAAGRFAVDVVLHDPAGPASSWARTVKPGATIAVMSLMG  117
+
+Query  124  PGGAYAPDPAADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGLTAPDA  182
+                  P+     +LL GD ++IP +   +E +P D     ++E    +D  I L     
+Sbjct  118  SSRFDVPEEQPAGYLLIGDSASIPGMNGIIETVPNDVPIEMYLEQHDDNDTLIPLAKHPR  177
+
+Query  183  VEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVR  242
+            + V WV R             D   L EA+    W     + +   EA A +  +R  +R
+Sbjct  178  LRVRWVMR------------RDEKSLAEAIENRDW--SDWYAWATPEA-AALKCVRVRLR  222
+
+Query  243  NERGVDAKWASSISGYWRRGRTEEMFRKWKKELAEAEAG  281
+            +E G   K       YW  GR     R  +    E E G
+Sbjct  223  DEFGF-PKSEIHAQAYWNAGRAMGTHRATEPAATEPEVG  260
+
+
+>VFG022782(gb|WP_003910332) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium africanum GM041182]
+Length=859
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 74/279 (27%), Positives = 103/279 (37%), Gaps = 40/279 (14%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   V+ T  +APH VRV +         P+ F D+  +             P       
+Sbjct  18   HTATVIETISIAPHFVRVRM-------VSPTLFQDAEAE-------------PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPI---YLMG  123
+            F D   +     R  T+   D AA   AVD+VLH   G A  WA   + G  I    LMG
+Sbjct  58   FPDPNGSNTEFQRAYTISEADPAAGRFAVDVVLHDPAGPASSWARTVKPGATIAVMSLMG  117
+
+Query  124  PGGAYAPDPAADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGLTAPDA  182
+                  P+     +LL GD ++IP +   +E +P D     ++E    +D  I L     
+Sbjct  118  SSRFDVPEEQPAGYLLIGDSASIPGMNGIIETVPNDVPIEMYLEQHDDNDTLIPLAKHPR  177
+
+Query  183  VEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVR  242
+            + V WV R             D   L EA+    W     + +   EA A +  +R  +R
+Sbjct  178  LRVRWVMR------------RDEKSLAEAIENRDW--SDWYAWATPEA-AALKCVRVRLR  222
+
+Query  243  NERGVDAKWASSISGYWRRGRTEEMFRKWKKELAEAEAG  281
+            +E G   K       YW  GR     R  +    E E G
+Sbjct  223  DEFGF-PKSEIHAQAYWNAGRAMGTHRATEPAATEPEVG  260
+
+
+>VFG009575(gb|WP_003873186) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium avium subsp. paratuberculosis K-10]
+Length=869
+
+ Score = 54.3 bits (129),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 79/281 (28%), Positives = 107/281 (38%), Gaps = 42/281 (15%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   VV T  +APH VRV +         P+ F           +DVD    P       
+Sbjct  18   HTATVVETVRIAPHFVRVRMTS-------PTLF-----------EDVDAE--PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPI---YLMG  123
+            F D   +K    R  T+   D AA   AVD+VLH   G A  WA   Q G  I    LMG
+Sbjct  58   FPDPDGSKTEFQRAYTISEADPAAGRFAVDVVLHDPAGPASRWARTVQPGTTIAVMALMG  117
+
+Query  124  PGGAYAPDPAADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGLTAPDA  182
+                  PD     +LL GD ++IP +   +  +P D     ++E    DD  I +     
+Sbjct  118  SSRFDVPDEQPAGYLLIGDPASIPGMNGIIGVVPDDVPIEMYLEQHHDDDTLIPIAVHPR  177
+
+Query  183  VEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVR  242
+            + V+WV R             D   L  A+ +  W     + +   EA  + H +R  +R
+Sbjct  178  LRVHWVAR------------RDEKSLAAALESRDW--SNWYAWATPEATTLKH-VRARLR  222
+
+Query  243  NERGVDAKWASSISGYWRRGRTEEMFRKWKKELAEAEAGTH  283
+            +E G   K       YW  GR   M  +   E A  + GT 
+Sbjct  223  DEFGF-PKSEVHAQAYWSAGRA--MGTRRGDEAATTDDGTE  260
+
+
+>VFG024068(gb|WP_014379607) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium intracellulare ATCC 13950]
+Length=871
+
+ Score = 53.1 bits (126),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 76/280 (27%), Positives = 107/280 (38%), Gaps = 40/280 (14%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   V+ T  +APH VRV +         P+ F           +DVD    P       
+Sbjct  18   HTATVIETVRIAPHFVRVRMTS-------PTLF-----------EDVDAE--PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPI---YLMG  123
+            F D   +K    R  T+   D AA   AVDIVLH   G A  WA   Q G  I    LMG
+Sbjct  58   FPDPDGSKTEFQRAYTISEADVAAGRFAVDIVLHEPAGPASQWARTVQPGATIAVMALMG  117
+
+Query  124  PGGAYAPDPAADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGLTAPDA  182
+                  PD     +LL GD ++IP +   +  +P D     ++E    +D  I +     
+Sbjct  118  SSRFDMPDEQPAGYLLIGDSASIPGMNGIIGVVPDDVPIEMYLEQHDDNDTLIPIAQHPR  177
+
+Query  183  VEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVR  242
+            + ++WV R             D   L  A+ +  W     + +   EA   +  +R  +R
+Sbjct  178  LRLHWVAR------------RDEKSLAAAIESRDW--SDWYAWATPEA-TTLKQVRTRLR  222
+
+Query  243  NERGVDAKWASSISGYWRRGRTEEMFRKWKKELAEAEAGT  282
+            +E G   K       YW  GR     R  + E +E+ A T
+Sbjct  223  DEFGF-PKSEVHAQAYWSAGRAMGTRRGDEPEGSESVAPT  261
+
+
+>VFG009576(gb|WP_024637120) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium avium 104]
+Length=869
+
+ Score = 52.8 bits (125),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 77/281 (27%), Positives = 106/281 (38%), Gaps = 42/281 (15%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   V+ T  +APH VRV +         P+ F           +DVD    P       
+Sbjct  18   HTATVLETVRIAPHFVRVRMTS-------PTLF-----------EDVDAE--PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPI---YLMG  123
+            F D   +K    R  T+   D  A   AVD+VLH   G A  WA   Q G  I    LMG
+Sbjct  58   FPDPDGSKTEFQRAYTISEADPTAGRFAVDVVLHDPAGPASRWARTVQPGATIAVMALMG  117
+
+Query  124  PGGAYAPDPAADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGLTAPDA  182
+                  PD     +LL GD ++IP +   +  +P D     ++E    DD  I +     
+Sbjct  118  SSRFDVPDEQPAGYLLIGDSASIPGMNGIIGVVPDDVPIEMYLEQHHDDDTLIPIAVHPR  177
+
+Query  183  VEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVR  242
+            + V+WV R             D   L  A+ +  W     + +   EA  + H +R  +R
+Sbjct  178  LRVHWVAR------------RDEKSLAAALESRDW--SNWYAWATPEATTLKH-VRARLR  222
+
+Query  243  NERGVDAKWASSISGYWRRGRTEEMFRKWKKELAEAEAGTH  283
+            +E G   K       YW  GR   M  +   E A  + GT 
+Sbjct  223  DEFGF-PKSEVHAQAYWSAGRA--MGTRRGDESATTDGGTE  260
+
+
+>VFG026729(gb|WP_020822014) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium yongonense 05-1390]
+Length=871
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 56/188 (30%), Positives = 76/188 (40%), Gaps = 24/188 (13%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   V+ T  +APH VRV +         P+ F           +DVD    P       
+Sbjct  18   HTATVIETVRIAPHFVRVRMTS-------PTLF-----------EDVDAE--PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPI---YLMG  123
+            F D   +K    R  T+   D AA   AVDIVLH   G A  WA   Q G  I    LMG
+Sbjct  58   FPDPDGSKTEFQRAYTISEADVAAGRFAVDIVLHEPAGPASQWARTVQPGATIAVMALMG  117
+
+Query  124  PGGAYAPDPAADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGLTAPDA  182
+                  PD     +LL GD ++IP +   +  +P D     ++E    +D  I +     
+Sbjct  118  SSRFDMPDEQPAGYLLIGDSASIPGMNGIIGVVPDDVPIEMYLEQHDDNDTLIPIAQHPR  177
+
+Query  183  VEVNWVYR  190
+            + ++WV R
+Sbjct  178  LRLHWVAR  185
+
+
+>VFG009578(gb|WP_011731355) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium smegmatis str. MC2 155]
+Length=860
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 60/200 (30%), Positives = 86/200 (43%), Gaps = 19/200 (10%)
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIYLM--GP  124
+            F D   +K    R  T+  +     E A+D+VLH   G A  WA  A+ G  I +M  G 
+Sbjct  58   FPDPAGSKTEFQRAYTMSEMSPETGEFAIDVVLHEPAGPASRWARSAKPGDAIAVMTLGS  117
+
+Query  125  GGAYAPDPAADWHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGLTAPDAV  183
+             G   P+     +LL GD +A PAI   +  +P D     ++E    +D  I +     +
+Sbjct  118  AGFSVPEDPPAGYLLIGDAAATPAINGIIGVVPHDIPIEVYLEEHDENDRLIPIAEHPRM  177
+
+Query  184  EVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVRN  243
+             V+WV R        ED A   A  IEA   + W     + ++  EA ++ H LR  +R+
+Sbjct  178  RVHWVVR--------ED-ATSLAGAIEARDWSNW-----YCWVTPEAGSLKH-LRTRLRD  222
+
+Query  244  ERGVDAKWASSISGYWRRGR  263
+            E G   K       YW  GR
+Sbjct  223  EFGF-PKAELHPQAYWTEGR  241
+
+
+>VFG037462(gb|WP_000160883) (bauF) siderophore-interacting protein 
+[Acinetobactin (VF0467) - Nutritional/Metabolic factor 
+(VFC0272)] [Acinetobacter baumannii D1279779]
+Length=286
+
+ Score = 50.8 bits (120),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 52/206 (25%), Positives = 87/206 (42%), Gaps = 20/206 (10%)
+
+Query  62   LTLDSFADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIYL  121
+            L +    + P   +P  R  TVR  +    +I +D V H +   A  W   AQ G  I L
+Sbjct  62   LAIRLIVNNPPKGQPISRVYTVRSFNPVNAQIEIDFVKHEDLSPAMEWLNSAQVGTKIGL  121
+
+Query  122  MGPGGAYAPDPAADWH-LLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDEIGLTAP  180
+            +GP   + P+  A  H ++  D++A+PA+ + L+          FIE    D    L   
+Sbjct  122  IGPRPHFIPNFTAKKHVVMFADDTAVPALYSILKQWENGVSADIFIESFEKDIASQLPEL  181
+
+Query  181  DAVEVNWVYR----GGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHN  236
+            + V+++  ++      +  L+    A +H   I     T W   +       EA+A    
+Sbjct  182  EHVKIHSFHKEHHTSQKGLLLKAAFALEHYENI-----TIWAACE-----RNEARA----  227
+
+Query  237  LRPYVRNERGVDAKWASSISGYWRRG  262
+            LR +   ++ ++ K    I+GYWR G
+Sbjct  228  LRQFFLEDQQLN-KNDVRIAGYWRDG  252
+
+
+>VFG026722(gb|YP_007957462) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=862
+
+ Score = 51.6 bits (122),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 58/207 (28%), Positives = 80/207 (39%), Gaps = 20/207 (10%)
+
+Query  79   RTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPI---YLMGPGGAYAPDPAAD  135
+            R  T+     AA   AVD+VLH   G A  WA   + G  I    LMG      P+    
+Sbjct  70   RAYTIXEAXPAAGRFAVDVVLHDPAGPASSWARTVKPGATIAVMSLMGSSRFDVPEEQPA  129
+
+Query  136  WHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGLTAPDAVEVNWVYRGGRA  194
+             +LL GD ++IP +   +E +P D     ++E    +D  I L     + V WV R    
+Sbjct  130  GYLLIGDSASIPGMNGIIETVPNDVPIEMYLEQHDDNDTLIPLAKHPRLRVRWVMR----  185
+
+Query  195  DLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVRNERGVDAKWASS  254
+                     D   L EA+    W     + +   EA A +  +R  +R+E G   K    
+Sbjct  186  --------RDEKSLAEAIENRDW--SDWYAWATPEA-AALKCVRVRLRDEFGFP-KSEIH  233
+
+Query  255  ISGYWRRGRTEEMFRKWKKELAEAEAG  281
+               YW  GR     R  +    E E G
+Sbjct  234  AQAYWNAGRAMGTHRATEPAATEPEVG  260
+
+
+>VFG037460(gb|WP_000160884) (bauF) siderophore-interacting protein 
+[Acinetobactin (VF0467) - Nutritional/Metabolic factor 
+(VFC0272)] [Acinetobacter baumannii BJAB0715]
+Length=286
+
+ Score = 50.4 bits (119),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 51/200 (26%), Positives = 84/200 (42%), Gaps = 26/200 (13%)
+
+Query  71   PTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIYLMGPGGAYAP  130
+            P   +P  R  TVR  +    +I +D V H +   A  W   AQ G  I L+GP   + P
+Sbjct  71   PPEGQPISRVYTVRSFNPINAQIEIDFVKHEDLSPAMEWLNSAQVGTKIGLIGPRPHFIP  130
+
+Query  131  DPAADWH-LLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDEIGLTAPDAVEVNWVY  189
+            +  A  H ++  D++A+PA+ + L+          FIE    D    L   + V+++  +
+Sbjct  131  NFTAKKHVVMFADDTAVPALYSILKQWELGISADIFIESFEKDIASQLPELEHVKIHSFH  190
+
+Query  190  RGGRADLVPEDRAGDHAPLIEAVTT-------TAWLPGQVHVFIHGEAQAVMHNLRPYVR  242
+            +        E  +     L++A  T       T W   +       EA+A    LR +  
+Sbjct  191  K--------EHHSSQKGLLLKAAFTLENYENITIWAACE-----RNEARA----LRQFFL  233
+
+Query  243  NERGVDAKWASSISGYWRRG  262
+             ++ ++ K    I+GYWR G
+Sbjct  234  EDQQLN-KNDVRIAGYWRDG  252
+
+
+>VFG024066(gb|WP_026071504) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium intracellulare MOTT-02]
+Length=871
+
+ Score = 50.8 bits (120),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 75/280 (27%), Positives = 108/280 (39%), Gaps = 40/280 (14%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   VV T  +APH VRV +         P+ F           +DVD    P       
+Sbjct  18   HTATVVETVRIAPHFVRVRMTS-------PTLF-----------EDVDAE--PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIYLMGPGG  126
+            F D   +K    R  T+   D AA   AVDIVLH   G A  WA   Q G  I +M   G
+Sbjct  58   FPDPDGSKTEFQRAYTISEADVAAGRFAVDIVLHEPAGPASQWARTVQPGATIAVMALMG  117
+
+Query  127  AYAPDPAADW---HLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGLTAPDA  182
+            +   D   +    +LL GD ++IP +   +  +P D     ++E    +D  I +     
+Sbjct  118  SSRFDMPGEQPAGYLLIGDSASIPGMNGIIGVVPDDVPIEMYLEQHDDNDTLIPIAQHPR  177
+
+Query  183  VEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVR  242
+            + ++WV R             D   L  A+ +  W     + +   EA   +  +R  +R
+Sbjct  178  LRLHWVAR------------RDEKSLAAAIESRDW--SDWYAWATPEA-TTLKQVRTRLR  222
+
+Query  243  NERGVDAKWASSISGYWRRGRTEEMFRKWKKELAEAEAGT  282
+            +E G   K       YW  GR     R  + E +E+ A T
+Sbjct  223  DEFGF-PKSEVHAQAYWSAGRAMGTRRGDEPEGSESVAPT  261
+
+
+>VFG024064(gb|WP_043955645) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium indicus pranii MTCC 9506]
+Length=871
+
+ Score = 50.8 bits (120),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 75/280 (27%), Positives = 108/280 (39%), Gaps = 40/280 (14%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   VV T  +APH VRV +         P+ F           +DVD    P       
+Sbjct  18   HTATVVETVRIAPHFVRVRMTS-------PTLF-----------EDVDAE--PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIYLMGPGG  126
+            F D   +K    R  T+   D AA   AVDIVLH   G A  WA   Q G  I +M   G
+Sbjct  58   FPDPDGSKTEFQRAYTISEADVAAGRFAVDIVLHEPAGPASQWARTVQPGATIAVMALMG  117
+
+Query  127  AYAPDPAADW---HLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGLTAPDA  182
+            +   D   +    +LL GD ++IP +   +  +P D     ++E    +D  I +     
+Sbjct  118  SSRFDMPGEQPAGYLLIGDSASIPGMNGIIGVVPDDVPIEMYLEQHDDNDTLIPIAQHPR  177
+
+Query  183  VEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVR  242
+            + ++WV R             D   L  A+ +  W     + +   EA   +  +R  +R
+Sbjct  178  LRLHWVAR------------RDEKSLAAAIESRDW--SDWYAWATPEA-TTLKQVRTRLR  222
+
+Query  243  NERGVDAKWASSISGYWRRGRTEEMFRKWKKELAEAEAGT  282
+            +E G   K       YW  GR     R  + E +E+ A T
+Sbjct  223  DEFGF-PKSEVHAQAYWSAGRAMGTRRGDEPEGSESVAPT  261
+
+
+>VFG024065(gb|WP_014711101) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium intracellulare str. MOTT36Y]
+Length=874
+
+ Score = 50.8 bits (120),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 75/280 (27%), Positives = 108/280 (39%), Gaps = 40/280 (14%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   VV T  +APH VRV +         P+ F           +DVD    P       
+Sbjct  18   HTATVVETVRIAPHFVRVRMTS-------PTLF-----------EDVDAE--PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIYLMGPGG  126
+            F D   +K    R  T+   D AA   AVDIVLH   G A  WA   Q G  I +M   G
+Sbjct  58   FPDPDGSKTEFQRAYTISEADVAAGRFAVDIVLHEPAGPASQWARTVQPGATIAVMALMG  117
+
+Query  127  AYAPDPAADW---HLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGLTAPDA  182
+            +   D   +    +LL GD ++IP +   +  +P D     ++E    +D  I +     
+Sbjct  118  SSRFDMPGEQPAGYLLIGDSASIPGMNGIIGVVPDDVPIEMYLEQHDDNDTLIPIAQHPR  177
+
+Query  183  VEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVR  242
+            + ++WV R             D   L  A+ +  W     + +   EA   +  +R  +R
+Sbjct  178  LRLHWVAR------------RDEKSLAAAIESRDW--SDWYAWATPEA-TTLKQVRTRLR  222
+
+Query  243  NERGVDAKWASSISGYWRRGRTEEMFRKWKKELAEAEAGT  282
+            +E G   K       YW  GR     R  + E +E+ A T
+Sbjct  223  DEFGF-PKSEVHAQAYWSAGRAMGTRRGDEPEGSESVAPT  261
+
+
+>VFG037457(gb|YP_001085413) (bauF) siderophore-interacting protein 
+[Acinetobactin (VF0467) - Nutritional/Metabolic factor 
+(VFC0272)] [Acinetobacter baumannii ATCC 17978]
+Length=262
+
+ Score = 49.7 bits (117),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 52/209 (25%), Positives = 88/209 (42%), Gaps = 20/209 (10%)
+
+Query  71   PTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIYLMGPGGAYAP  130
+            P   +P  R  TVR  +    +I +D V H +   A  W   AQ G  I L+GP   + P
+Sbjct  47   PPEGQPISRVYTVRSFNPINAQIEIDFVKHEDLSPAMEWLNSAQVGTKIGLIGPRPHFIP  106
+
+Query  131  DPAADWH-LLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDEIGLTAPDAVEVNWVY  189
+            +  A  H ++  D++A+PA+ + L+          FIE    D    L   + V+++  +
+Sbjct  107  NFTAKKHVVMFADDTAVPALYSILKQWELGISADIFIESFEKDIASQLPELEHVKIHSFH  166
+
+Query  190  R----GGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVRNER  245
+            +      +  L+    A +H   I     T W   +       EA+A    LR +   ++
+Sbjct  167  KEHHTSQKGLLLKAAFALEHYENI-----TIWAACE-----RNEARA----LRQFFLEDQ  212
+
+Query  246  GVDAKWASSISGYWRRGRTEEMFRKWKKE  274
+             ++ K    I+GYWR G +     K + +
+Sbjct  213  QLN-KNDVRIAGYWRDGVSSSELDKLRAQ  240
+
+
+>VFG037454(gb|WP_000160888) (bauF) siderophore-interacting protein 
+[Acinetobactin (VF0467) - Nutritional/Metabolic factor 
+(VFC0272)] [Acinetobacter baumannii AB0057]
+Length=286
+
+ Score = 49.7 bits (117),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 50/200 (25%), Positives = 82/200 (41%), Gaps = 26/200 (13%)
+
+Query  71   PTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIYLMGPGGAYAP  130
+            P   +P  R  TVR  +    +I +D V H +   A  W   AQ G  I L+GP   + P
+Sbjct  71   PPEGQPISRVYTVRSFNPVNAQIEIDFVKHEDLSPAMEWLNSAQVGTKIGLIGPRPHFIP  130
+
+Query  131  DPAADWH-LLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDEIGLTAPDAVEVNWVY  189
+            +  A  H ++  D++A+PA+ + L+          FIE    D    L   + V+++  +
+Sbjct  131  NFTAKKHVVMFADDTAVPALYSILKQWENGVSADIFIESFEKDIASQLPELEHVKIHSFH  190
+
+Query  190  RGGRADLVPEDRAGDHAPLIEAV-------TTTAWLPGQVHVFIHGEAQAVMHNLRPYVR  242
+            +        E        L++A          T W   +       EA+A    LR +  
+Sbjct  191  K--------EHHTSQKGLLLKAAFALENYENITIWAACE-----RNEARA----LRQFFL  233
+
+Query  243  NERGVDAKWASSISGYWRRG  262
+             ++ ++ K    I+GYWR G
+Sbjct  234  EDQQLN-KNDVRIAGYWRDG  252
+
+
+>VFG022786(gb|WP_013828471) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium sp. JDM601]
+Length=862
+
+ Score = 49.7 bits (117),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 71/263 (27%), Positives = 102/263 (39%), Gaps = 42/263 (16%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   V+ T  + PH +R+ +         P+ FT++ ++             P       
+Sbjct  18   HVVTVLETSRITPHFIRIWMHS-------PTLFTEASVE-------------PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPI---YLMG  123
+            F D   +     R  T+   DAA    A+D+VLH   G A  WA   + G  I    LMG
+Sbjct  58   FPDPDGSDTEFQRAYTIAEGDAATGRFAIDMVLHEPAGPASRWARTVEPGATIAAVSLMG  117
+
+Query  124  PGGAYAPDPAAD--WHLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDD-EIGLTAP  180
+                 AP+  A    +LL GD ++IP I   +  + P+     ++E    DD  I L   
+Sbjct  118  SSRFEAPEADAQPAGYLLMGDSASIPGINGIIGTVAPEIPIELYLEQHHDDDLLIPLREH  177
+
+Query  181  DAVEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPY  240
+              + V+W         VP   A   A  IEA   + W     + +   EA A +  LR  
+Sbjct  178  PRLRVHW---------VPRRDASSLAAAIEARDWSDW-----YAWATPEA-ATLKALRTR  222
+
+Query  241  VRNERGVDAKWASSISGYWRRGR  263
+            +RNE G   K       YW  GR
+Sbjct  223  LRNEFGF-PKSEVHAQAYWTAGR  244
+
+
+>VFG037456(gb|WP_000160878) (bauF) siderophore-interacting protein 
+[Acinetobactin (VF0467) - Nutritional/Metabolic factor 
+(VFC0272)] [Acinetobacter baumannii ACICU]
+Length=286
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 51/209 (24%), Positives = 85/209 (41%), Gaps = 26/209 (12%)
+
+Query  62   LTLDSFADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIYL  121
+            L +    + P   +P  R  TVR  +    +I +D V H +   A  W   AQ G  I L
+Sbjct  62   LAIRLIVNNPPEGQPISRVYTVRSFNPVNAQIEIDFVKHEDLSPAMEWLNSAQVGTKIGL  121
+
+Query  122  MGPGGAYAPDPAADWH-LLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDEIGLTAP  180
+            +GP   + P+  A  H ++  D++A+PA+ + L+          FIE    D    L   
+Sbjct  122  IGPRPHFIPNFTAKKHVVMFADDTAVPALYSILKQWELGISADIFIESFEKDIASQLPEL  181
+
+Query  181  DAVEVNWVYRGGRADLVPEDRAGDHAPLIEAV-------TTTAWLPGQVHVFIHGEAQAV  233
+            + V+++  ++        E        L++A          T W   +       EA+A 
+Sbjct  182  EHVKIHSFHK--------EHHTAQKGLLLKAAFALENYENITIWAACE-----RNEARA-  227
+
+Query  234  MHNLRPYVRNERGVDAKWASSISGYWRRG  262
+               LR +   ++ ++ K    I+GYWR G
+Sbjct  228  ---LRQFFLEDQHLN-KNDVRIAGYWRDG  252
+
+
+>VFG024067(gb|WP_036458564) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium intracellulare MOTT-64]
+Length=871
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 73/280 (26%), Positives = 108/280 (39%), Gaps = 40/280 (14%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   V+ T  +APH VRV +         P+ F           +DVD    P       
+Sbjct  18   HTATVIETVRIAPHFVRVRMTS-------PTLF-----------EDVDAE--PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPIYLMGPGG  126
+            F D   +K    R  T+   D AA   AVDIVLH   G A  WA   Q G  I +M   G
+Sbjct  58   FPDPDGSKTEFQRAYTISEADVAAGRFAVDIVLHEPAGPASQWARTVQPGATIAVMALMG  117
+
+Query  127  AYAPDPAADW---HLLAGDESAIPAIAAALEALPPDAIGRAFIEVAGPDDE-IGLTAPDA  182
+            +   D   +    +LL GD ++IP +   +  +P +     ++E    +D  I +     
+Sbjct  118  SSRFDMPGEQPAGYLLIGDSASIPGMNGIIGVVPDEVPIEMYLEQHDDNDTLIPIAQHPR  177
+
+Query  183  VEVNWVYRGGRADLVPEDRAGDHAPLIEAVTTTAWLPGQVHVFIHGEAQAVMHNLRPYVR  242
+            + ++WV R             D   L  A+ +  W     + +   EA   +  +R  +R
+Sbjct  178  LRLHWVAR------------RDEKSLAAAIESRDW--SDWYAWATPEA-TTLKQVRTRLR  222
+
+Query  243  NERGVDAKWASSISGYWRRGRTEEMFRKWKKELAEAEAGT  282
+            +E G   K       YW  GR     R  + E +E+ A T
+Sbjct  223  DEFGF-PKSEVHAQAYWSAGRAMGTRRGDEPEGSESVAPT  261
+
+
+>VFG026710(gb|WP_015302951) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium canettii CIPT 140070008]
+Length=859
+
+ Score = 47.8 bits (112),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 45/164 (27%), Positives = 65/164 (40%), Gaps = 23/164 (14%)
+
+Query  7    HAFEVVATRHLAPHMVRVVLGGSGFDTFVPSDFTDSYIKLVFVDDDVDVGRLPRPLTLDS  66
+            H   V+ T  +APH VR+ +         P+ F D+  +             P       
+Sbjct  18   HTATVIETISIAPHFVRIRM-------VSPTLFQDAEAE-------------PAAWLRFW  57
+
+Query  67   FADLPTAKRPPVRTMTVRHVDAAAREIAVDIVLHGEHGVAGPWAAGAQRGQPI---YLMG  123
+            F D   +     R  T+   D AA   AVD+VLH   G A  WA   + G  I    LMG
+Sbjct  58   FPDPNGSNTEFQRAYTISEADPAAGRFAVDVVLHDPAGPASSWARTVKPGATIAVMSLMG  117
+
+Query  124  PGGAYAPDPAADWHLLAGDESAIPAIAAALEALPPDAIGRAFIE  167
+                  P+     +LL GD ++IP +   +E +P D     ++E
+Sbjct  118  SSRFDVPEEQPAGYLLIGDSASIPGMNGIIETVPDDVPIEMYLE  161
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1937182360
+
+
+Query= g2067.t1
+
+Length=302
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG007224(gb|WP_000064348) (viuB) siderophore-interacting protein...  89.7    7e-21
+VFG007227(gb|WP_011152545) (viuB) siderophore-interacting protein...  89.4    1e-20
+VFG007226(gb|WP_011081754) (viuB) siderophore-interacting protein...  89.0    1e-20
+VFG037462(gb|WP_000160883) (bauF) siderophore-interacting protein...  68.6    3e-13
+VFG037454(gb|WP_000160888) (bauF) siderophore-interacting protein...  68.6    4e-13
+VFG037457(gb|YP_001085413) (bauF) siderophore-interacting protein...  67.4    5e-13
+VFG037460(gb|WP_000160884) (bauF) siderophore-interacting protein...  67.4    8e-13
+VFG037456(gb|WP_000160878) (bauF) siderophore-interacting protein...  67.4    8e-13
+VFG009578(gb|WP_011731355) (irtA) Iron-regulated transporter IrtA...  57.4    4e-09
+VFG022781(gb|YP_001702997) (irtA) Iron-regulated transporter IrtA...  56.2    1e-08
+VFG026708(gb|WP_016342533) (irtA) Iron-regulated transporter IrtA...  55.8    1e-08
+VFG026714(gb|WP_005058852) (irtA) Iron-regulated transporter IrtA...  55.5    2e-08
+VFG022786(gb|WP_013828471) (irtA) Iron-regulated transporter IrtA...  49.7    1e-06
+VFG024067(gb|WP_036458564) (irtA) Iron-regulated transporter IrtA...  48.9    2e-06
+VFG026722(gb|YP_007957462) (irtA) Iron-regulated transporter IrtA...  48.5    3e-06
+VFG022783(gb|WP_014000720) (irtA) Iron-regulated transporter IrtA...  48.5    3e-06
+VFG026719(gb|WP_025202597) (irtA) Iron-regulated transporter IrtA...  48.5    3e-06
+VFG022782(gb|WP_003910332) (irtA) Iron-regulated transporter IrtA...  48.5    3e-06
+VFG026726(gb|YP_005922613) (irtA) Iron-regulated transporter IrtA...  48.5    3e-06
+VFG009570(gb|NP_215864) (irtA) Iron-regulated transporter IrtA [A...  48.5    3e-06
+VFG024065(gb|WP_014711101) (irtA) Iron-regulated transporter IrtA...  48.1    4e-06
+VFG024066(gb|WP_026071504) (irtA) Iron-regulated transporter IrtA...  48.1    4e-06
+VFG024064(gb|WP_043955645) (irtA) Iron-regulated transporter IrtA...  48.1    4e-06
+
+
+>VFG007224(gb|WP_000064348) (viuB) siderophore-interacting protein 
+[Vibriobactin/Vulnibactin (VF0626) - Nutritional/Metabolic 
+factor (VFC0272)] [Vibrio cholerae O1 biovar El Tor str. 
+N16961]
+Length=271
+
+ Score = 89.7 bits (221),  Expect = 7e-21, Method: Compositional matrix adjust.
+ Identities = 84/303 (28%), Positives = 131/303 (43%), Gaps = 53/303 (17%)
+
+Query  1    MSQPAYRLFN--VELKRREQLSPALTRFVFGGPEVAEMKTLAADQRIKIFFPDASGQPPS  58
+            MS    R++   ++  R++ +S  L R    G ++           IK+FFP+ +     
+Sbjct  1    MSNEVERVYPRLLDFVRKKYVSKNLLRVTLTGEDLIGFPEDQNGSHIKVFFPNQASGILQ  60
+
+Query  59   LPGGSEWYQAYRSVEPARRPPMRTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIG  118
+            LP      +  + + P  +P  R YT+R  RA+  E+D++FV+HGE  P   WA  A+ G
+Sbjct  61   LP----IREGDKVIWPEHKPVPRAYTVRQYRAQSNELDIDFVVHGEGTPGGGWALKAQTG  116
+
+Query  119  DRLQLAAPNRQYGDDP--GGYEWKPPAGVRHILLIADETALPAVAGILEELAGETEPPVV  176
+             +L L  P    G DP     +W   AG        D +A+PA++ ILE++  + +  V 
+Sbjct  117  SQLGLIGPG---GPDPLIEPADWHIMAG--------DLSAVPAISAILEKMPSQAKGYV-  164
+
+Query  177  EAFLEVPGEADILDLPAIPAARLHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAA  236
+              FLEV    D  D+       + WL R        N  + + A    +LP   V  GA 
+Sbjct  165  --FLEVDDIEDKHDISHPEQMVIKWLVR------DPNQAQPVLAMAIEQLP---VPQGAE  213
+
+Query  237  QELEDIDIDEEILWELASPESGSFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWR  296
+                                  S  A+VAGE+ +V+A R+ L  E  I +  +  + YW+
+Sbjct  214  ----------------------SLSAFVAGENESVIACRKILRNEYRIARDKIYAIPYWK  251
+
+Query  297  LGK  299
+             GK
+Sbjct  252  RGK  254
+
+
+>VFG007227(gb|WP_011152545) (viuB) siderophore-interacting protein 
+[Vibriobactin/Vulnibactin (VF0626) - Nutritional/Metabolic 
+factor (VFC0272)] [Vibrio vulnificus YJ016]
+Length=271
+
+ Score = 89.4 bits (220),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 80/293 (27%), Positives = 125/293 (43%), Gaps = 53/293 (18%)
+
+Query  11   VELKRREQLSPALTRFVFGGPEVAEMKTLAADQRIKIFFPDASGQPPSLPGGSEWYQAYR  70
+            ++  R+E +S  L R    G ++           IK+FFP+ +     LP      +   
+Sbjct  13   LDFVRKETISKNLLRVTLTGEDLIGFPEDQNGSHIKVFFPNQASGILQLP----VREGDN  68
+
+Query  71   SVEPARRPPMRTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQY  130
+             + P  +P  R Y++R  RA   E+D++FV HGE  P   WA  A IG ++ L  P    
+Sbjct  69   VIWPEHKPVPRAYSVRQYRAAVNELDIDFVTHGEETPGGGWALKADIGSQIGLIGPA---  125
+
+Query  131  GDDP--GGYEWKPPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEADI  188
+            G DP     +W   AG        D +A+PA++ ILE+L  + +  V   F+EV    DI
+Sbjct  126  GPDPLIEPADWHIIAG--------DLSAVPAISAILEKLPSDAKGYV---FIEVDEIEDI  174
+
+Query  189  LDLPAIPAARLHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEI  248
+             DL       ++WL R     +  + E  +  A Q                         
+Sbjct  175  HDLVHPEEMAINWLMR-----NPHDAEPALAKAIQ-------------------------  204
+
+Query  249  LWELASPESG-SFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGKV  300
+              +L +PE   S  A++AGE+ +V+  R+ L  +  I +  L  + YW+ GK 
+Sbjct  205  --QLPAPEKATSLSAFIAGENQSVINCRKILRNDYQIARDKLYAIPYWKRGKT  255
+
+
+>VFG007226(gb|WP_011081754) (viuB) siderophore-interacting protein 
+[Vibriobactin/Vulnibactin (VF0626) - Nutritional/Metabolic 
+factor (VFC0272)] [Vibrio vulnificus CMCP6]
+Length=271
+
+ Score = 89.0 bits (219),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 80/293 (27%), Positives = 125/293 (43%), Gaps = 53/293 (18%)
+
+Query  11   VELKRREQLSPALTRFVFGGPEVAEMKTLAADQRIKIFFPDASGQPPSLPGGSEWYQAYR  70
+            ++  R+E +S  L R    G ++           IK+FFP+ +     LP      +   
+Sbjct  13   LDFVRKETISKNLLRVTLTGEDLIGFPEDQNGSHIKVFFPNQASGILQLP----VREGDN  68
+
+Query  71   SVEPARRPPMRTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQY  130
+             + P  +P  R Y++R  RA   E+D++FV HGE  P   WA  A IG ++ L  P    
+Sbjct  69   VIWPEHKPVPRAYSVRQYRAAVNELDIDFVTHGEETPGGGWALKADIGSQIGLIGPA---  125
+
+Query  131  GDDP--GGYEWKPPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEADI  188
+            G DP     +W   AG        D +A+PA++ ILE+L  + +  V   F+EV    DI
+Sbjct  126  GPDPLIEPADWHIIAG--------DLSAVPAISAILEKLPSDAKGYV---FIEVDEIEDI  174
+
+Query  189  LDLPAIPAARLHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEI  248
+             DL       ++WL R     +  + E  +  A                           
+Sbjct  175  HDLVHPEEMAINWLMR-----NPHDAEPALAKA---------------------------  202
+
+Query  249  LWELASPESG-SFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGKV  300
+            + +L SPE   S  A++AGE+ +V+  R+ L  +  I +  L  + YW+ GK 
+Sbjct  203  IKQLPSPEKATSLSAFIAGENQSVINCRKILRNDYQIARDKLYAIPYWKRGKT  255
+
+
+>VFG037462(gb|WP_000160883) (bauF) siderophore-interacting protein 
+[Acinetobactin (VF0467) - Nutritional/Metabolic factor 
+(VFC0272)] [Acinetobacter baumannii D1279779]
+Length=286
+
+ Score = 68.6 bits (166),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 52/227 (23%), Positives = 100/227 (44%), Gaps = 48/227 (21%)
+
+Query  74   PARRPPMRTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQYGDD  133
+            P  +P  R YT+R+      +++++FV H +  PA  W   A++G ++ L  P   +  +
+Sbjct  72   PKGQPISRVYTVRSFNPVNAQIEIDFVKHEDLSPAMEWLNSAQVGTKIGLIGPRPHFIPN  131
+
+Query  134  PGGYEWKPPAGVRHILLIADETALPAVAGILEEL-AGETEPPVVEAFLEVPGEADILD-L  191
+                        +H+++ AD+TA+PA+  IL++   G +    +E+F     E DI   L
+Sbjct  132  --------FTAKKHVVMFADDTAVPALYSILKQWENGVSADIFIESF-----EKDIASQL  178
+
+Query  192  PAIPAARLHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWE  251
+            P +   ++H   +     H+     +++AA             A +  E+I I       
+Sbjct  179  PELEHVKIHSFHKEH---HTSQKGLLLKAA------------FALEHYENITI-------  216
+
+Query  252  LASPESGSFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLG  298
+                       W A E     A+R++ ++++ ++K  + + GYWR G
+Sbjct  217  -----------WAACERNEARALRQFFLEDQQLNKNDVRIAGYWRDG  252
+
+
+>VFG037454(gb|WP_000160888) (bauF) siderophore-interacting protein 
+[Acinetobactin (VF0467) - Nutritional/Metabolic factor 
+(VFC0272)] [Acinetobacter baumannii AB0057]
+Length=286
+
+ Score = 68.6 bits (166),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 52/227 (23%), Positives = 100/227 (44%), Gaps = 48/227 (21%)
+
+Query  74   PARRPPMRTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQYGDD  133
+            P  +P  R YT+R+      +++++FV H +  PA  W   A++G ++ L  P   +  +
+Sbjct  72   PEGQPISRVYTVRSFNPVNAQIEIDFVKHEDLSPAMEWLNSAQVGTKIGLIGPRPHFIPN  131
+
+Query  134  PGGYEWKPPAGVRHILLIADETALPAVAGILEEL-AGETEPPVVEAFLEVPGEADILD-L  191
+                        +H+++ AD+TA+PA+  IL++   G +    +E+F     E DI   L
+Sbjct  132  --------FTAKKHVVMFADDTAVPALYSILKQWENGVSADIFIESF-----EKDIASQL  178
+
+Query  192  PAIPAARLHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWE  251
+            P +   ++H   +     H+     +++AA             A +  E+I I       
+Sbjct  179  PELEHVKIHSFHKEH---HTSQKGLLLKAA------------FALENYENITI-------  216
+
+Query  252  LASPESGSFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLG  298
+                       W A E     A+R++ ++++ ++K  + + GYWR G
+Sbjct  217  -----------WAACERNEARALRQFFLEDQQLNKNDVRIAGYWRDG  252
+
+
+>VFG037457(gb|YP_001085413) (bauF) siderophore-interacting protein 
+[Acinetobactin (VF0467) - Nutritional/Metabolic factor 
+(VFC0272)] [Acinetobacter baumannii ATCC 17978]
+Length=262
+
+ Score = 67.4 bits (163),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 52/227 (23%), Positives = 100/227 (44%), Gaps = 48/227 (21%)
+
+Query  74   PARRPPMRTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQYGDD  133
+            P  +P  R YT+R+      +++++FV H +  PA  W   A++G ++ L  P   +  +
+Sbjct  48   PEGQPISRVYTVRSFNPINAQIEIDFVKHEDLSPAMEWLNSAQVGTKIGLIGPRPHFIPN  107
+
+Query  134  PGGYEWKPPAGVRHILLIADETALPAVAGILEEL-AGETEPPVVEAFLEVPGEADILD-L  191
+                        +H+++ AD+TA+PA+  IL++   G +    +E+F     E DI   L
+Sbjct  108  --------FTAKKHVVMFADDTAVPALYSILKQWELGISADIFIESF-----EKDIASQL  154
+
+Query  192  PAIPAARLHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWE  251
+            P +   ++H   +     H+     +++AA             A +  E+I I       
+Sbjct  155  PELEHVKIHSFHKEH---HTSQKGLLLKAA------------FALEHYENITI-------  192
+
+Query  252  LASPESGSFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLG  298
+                       W A E     A+R++ ++++ ++K  + + GYWR G
+Sbjct  193  -----------WAACERNEARALRQFFLEDQQLNKNDVRIAGYWRDG  228
+
+
+>VFG037460(gb|WP_000160884) (bauF) siderophore-interacting protein 
+[Acinetobactin (VF0467) - Nutritional/Metabolic factor 
+(VFC0272)] [Acinetobacter baumannii BJAB0715]
+Length=286
+
+ Score = 67.4 bits (163),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 52/227 (23%), Positives = 99/227 (44%), Gaps = 48/227 (21%)
+
+Query  74   PARRPPMRTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQYGDD  133
+            P  +P  R YT+R+      +++++FV H +  PA  W   A++G ++ L  P   +  +
+Sbjct  72   PEGQPISRVYTVRSFNPINAQIEIDFVKHEDLSPAMEWLNSAQVGTKIGLIGPRPHFIPN  131
+
+Query  134  PGGYEWKPPAGVRHILLIADETALPAVAGILEEL-AGETEPPVVEAFLEVPGEADILD-L  191
+                        +H+++ AD+TA+PA+  IL++   G +    +E+F     E DI   L
+Sbjct  132  --------FTAKKHVVMFADDTAVPALYSILKQWELGISADIFIESF-----EKDIASQL  178
+
+Query  192  PAIPAARLHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWE  251
+            P +   ++H   +     HS     +++AA               +  E+I I       
+Sbjct  179  PELEHVKIHSFHKEH---HSSQKGLLLKAA------------FTLENYENITI-------  216
+
+Query  252  LASPESGSFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLG  298
+                       W A E     A+R++ ++++ ++K  + + GYWR G
+Sbjct  217  -----------WAACERNEARALRQFFLEDQQLNKNDVRIAGYWRDG  252
+
+
+>VFG037456(gb|WP_000160878) (bauF) siderophore-interacting protein 
+[Acinetobactin (VF0467) - Nutritional/Metabolic factor 
+(VFC0272)] [Acinetobacter baumannii ACICU]
+Length=286
+
+ Score = 67.4 bits (163),  Expect = 8e-13, Method: Compositional matrix adjust.
+ Identities = 52/227 (23%), Positives = 100/227 (44%), Gaps = 48/227 (21%)
+
+Query  74   PARRPPMRTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQYGDD  133
+            P  +P  R YT+R+      +++++FV H +  PA  W   A++G ++ L  P   +  +
+Sbjct  72   PEGQPISRVYTVRSFNPVNAQIEIDFVKHEDLSPAMEWLNSAQVGTKIGLIGPRPHFIPN  131
+
+Query  134  PGGYEWKPPAGVRHILLIADETALPAVAGILEEL-AGETEPPVVEAFLEVPGEADILD-L  191
+                        +H+++ AD+TA+PA+  IL++   G +    +E+F     E DI   L
+Sbjct  132  --------FTAKKHVVMFADDTAVPALYSILKQWELGISADIFIESF-----EKDIASQL  178
+
+Query  192  PAIPAARLHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWE  251
+            P +   ++H   +     H+     +++AA             A +  E+I I       
+Sbjct  179  PELEHVKIHSFHKEH---HTAQKGLLLKAA------------FALENYENITI-------  216
+
+Query  252  LASPESGSFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLG  298
+                       W A E     A+R++ ++++ ++K  + + GYWR G
+Sbjct  217  -----------WAACERNEARALRQFFLEDQHLNKNDVRIAGYWRDG  252
+
+
+>VFG009578(gb|WP_011731355) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium smegmatis str. MC2 155]
+Length=860
+
+ Score = 57.4 bits (137),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 71/284 (25%), Positives = 104/284 (37%), Gaps = 69/284 (24%)
+
+Query  17   EQLSPALTRFVFGGPEVAEMKTLAADQRIKIFFPDASGQPPSLPGGSEWYQAYRSVEPAR  76
+            E ++P L R     P + E         ++ +FPD +G                      
+Sbjct  26   EAITPNLLRLRMVSPTLFEDAVAEPTSWLRFWFPDPAGSKTEF-----------------  68
+
+Query  77   RPPMRTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQYGDDPGG  136
+                R YT+  +  E  E  ++ VLH   GPAS WA  A+ GD + +       G     
+Sbjct  69   ---QRAYTMSEMSPETGEFAIDVVLHEPAGPASRWARSAKPGDAIAVMT----LGSAGFS  121
+
+Query  137  YEWKPPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEAD-ILDLPAIP  195
+                PPAG    LLI D  A PA+ GI+  +  +     +E +LE   E D ++ +   P
+Sbjct  122  VPEDPPAGY---LLIGDAAATPAINGIIGVVPHDIP---IEVYLEEHDENDRLIPIAEHP  175
+
+Query  196  AARLHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWELASP  255
+              R+HW+ R  A                       +AG  A E  D        W     
+Sbjct  176  RMRVHWVVREDA---------------------TSLAG--AIEARD--------WS----  200
+
+Query  256  ESGSFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGK  299
+               ++Y WV  E+ ++  +R  L  E G  K  L    YW  G+
+Sbjct  201  ---NWYCWVTPEAGSLKHLRTRLRDEFGFPKAELHPQAYWTEGR  241
+
+
+>VFG022781(gb|YP_001702997) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium abscessus ATCC 19977]
+Length=862
+
+ Score = 56.2 bits (134),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 64/282 (23%), Positives = 106/282 (38%), Gaps = 69/282 (24%)
+
+Query  19   LSPALTRFVFGGPEVAEMKTLAADQRIKIFFPDASGQPPSLPGGSEWYQAYRSVEPARRP  78
+            ++P   R     P + E       + ++ +FPD  G       G+  +Q           
+Sbjct  28   VAPNCVRITMSAPTLFEDLLHTPAEWLRFWFPDPDG-------GTSEHQ-----------  69
+
+Query  79   PMRTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQYGDDPGGYE  138
+              R YTI     +  E  ++ V+H   GPA  WA  A+ G  + + A      + P    
+Sbjct  70   --RAYTIVTTDEDAGEFSIDVVIHEPAGPACQWAVAAQPGMTIPVVAFGSARFEVPADL-  126
+
+Query  139  WKPPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEAD-ILDLPAIPAA  197
+               P+G    LLI D  ++PA+  I+  L  E +   +E +LE     D ++ L   P  
+Sbjct  127  ---PSG---FLLIGDSASIPAINSIVAALPAEVD---IEVYLERHSPDDELIPLTTHPRR  177
+
+Query  198  RLHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWELASPES  257
+            RLHW+            +R+ E +  A +  R+                   W       
+Sbjct  178  RLHWV------------DRIDETSLAAAIEGRD-------------------WS------  200
+
+Query  258  GSFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGK  299
+             ++Y W + ES ++  +R+ L  E G  K  +    YW  G+
+Sbjct  201  -NWYGWASSESGSLKHLRKRLRDEFGFPKADVHAAAYWTFGR  241
+
+
+>VFG026708(gb|WP_016342533) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium abscessus subsp. bolletii 50594]
+Length=862
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 64/282 (23%), Positives = 105/282 (37%), Gaps = 69/282 (24%)
+
+Query  19   LSPALTRFVFGGPEVAEMKTLAADQRIKIFFPDASGQPPSLPGGSEWYQAYRSVEPARRP  78
+            ++P   R     P + E       + ++ +FPD  G       G+  +Q           
+Sbjct  28   VAPNCVRITMSAPTLFEDLLHTPAEWLRFWFPDPDG-------GTSEHQ-----------  69
+
+Query  79   PMRTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQYGDDPGGYE  138
+              R YTI        E  ++ V+H   GPA  WA  AR G  + + A      + P    
+Sbjct  70   --RAYTIVTTDESAGEFSIDVVIHEPAGPACQWAVAARPGMTIPVVAFGSARFEVPADL-  126
+
+Query  139  WKPPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEAD-ILDLPAIPAA  197
+               P+G    LLI D  ++PA+  I+  L  + +   +E +LE     D ++ L   P  
+Sbjct  127  ---PSG---FLLIGDSASIPAINSIVAALPADVD---IEVYLERHSPDDELIPLTTHPRR  177
+
+Query  198  RLHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWELASPES  257
+            RLHW+            +R+ E +  A +  R+                   W       
+Sbjct  178  RLHWV------------DRIDETSLAAAIEGRD-------------------WS------  200
+
+Query  258  GSFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGK  299
+             ++Y W + ES ++  +R+ L  E G  K  +    YW  G+
+Sbjct  201  -NWYGWASSESGSLKHLRKRLRDEFGFPKADVHAAAYWTFGR  241
+
+
+>VFG026714(gb|WP_005058852) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium abscessus subsp. bolletii str. GO 
+06]
+Length=862
+
+ Score = 55.5 bits (132),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 64/282 (23%), Positives = 105/282 (37%), Gaps = 69/282 (24%)
+
+Query  19   LSPALTRFVFGGPEVAEMKTLAADQRIKIFFPDASGQPPSLPGGSEWYQAYRSVEPARRP  78
+            ++P   R     P + E       + ++ +FPD  G       G+  +Q           
+Sbjct  28   VAPNCVRITMSAPTLFEDLLHTPAEWLRFWFPDPDG-------GTSEHQ-----------  69
+
+Query  79   PMRTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQYGDDPGGYE  138
+              R YTI        E  ++ V+H   GPA  WA  AR G  + + A      + P    
+Sbjct  70   --RAYTIVTTDESAGEFSIDVVIHEPAGPACQWAVAARPGMTIPVVAFGSARFEVPADL-  126
+
+Query  139  WKPPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEAD-ILDLPAIPAA  197
+               P+G    LLI D  ++PA+  I+  L  + +   +E +LE     D ++ L   P  
+Sbjct  127  ---PSG---FLLIGDSASVPAINSIVAALPADVD---IEVYLERHSPDDELIPLTTHPRR  177
+
+Query  198  RLHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWELASPES  257
+            RLHW+            +R+ E +  A +  R+                   W       
+Sbjct  178  RLHWV------------DRIDETSLAAAIEGRD-------------------WS------  200
+
+Query  258  GSFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGK  299
+             ++Y W + ES ++  +R+ L  E G  K  +    YW  G+
+Sbjct  201  -NWYGWASSESGSLKHLRKRLRDEFGFPKADVHAAAYWTFGR  241
+
+
+>VFG022786(gb|WP_013828471) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium sp. JDM601]
+Length=862
+
+ Score = 49.7 bits (117),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 59/227 (26%), Positives = 85/227 (37%), Gaps = 60/227 (26%)
+
+Query  81   RTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRL---QLAAPNR----QYGDD  133
+            R YTI    A      ++ VLH   GPAS WA     G  +    L   +R    +    
+Sbjct  70   RAYTIAEGDAATGRFAIDMVLHEPAGPASRWARTVEPGATIAAVSLMGSSRFEAPEADAQ  129
+
+Query  134  PGGYEWKPPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEADIL-DLP  192
+            P GY           LL+ D  ++P + GI+  +A E     +E +LE   + D+L  L 
+Sbjct  130  PAGY-----------LLMGDSASIPGINGIIGTVAPEIP---IELYLEQHHDDDLLIPLR  175
+
+Query  193  AIPAARLHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWEL  252
+              P  R+HW+PR  A          + AA +AR                           
+Sbjct  176  EHPRLRVHWVPRRDAS--------SLAAAIEAR---------------------------  200
+
+Query  253  ASPESGSFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGK  299
+               +   +YAW   E+A + A+R  L  E G  K  +    YW  G+
+Sbjct  201  ---DWSDWYAWATPEAATLKALRTRLRNEFGFPKSEVHAQAYWTAGR  244
+
+
+>VFG024067(gb|WP_036458564) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium intracellulare MOTT-64]
+Length=871
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 57/221 (26%), Positives = 84/221 (38%), Gaps = 50/221 (23%)
+
+Query  81   RTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQ-LAAPNRQYGDDPGGYEW  139
+            R YTI           V+ VLH   GPAS WA   + G  +  +A       D PG    
+Sbjct  70   RAYTISEADVAAGRFAVDIVLHEPAGPASQWARTVQPGATIAVMALMGSSRFDMPG----  125
+
+Query  140  KPPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEADIL-DLPAIPAAR  198
+            + PAG    LLI D  ++P + GI+  +  E     +E +LE   + D L  +   P  R
+Sbjct  126  EQPAG---YLLIGDSASIPGMNGIIGVVPDEVP---IEMYLEQHDDNDTLIPIAQHPRLR  179
+
+Query  199  LHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWELASPESG  258
+            LHW+        +R  E+ + AA ++R                              +  
+Sbjct  180  LHWV--------ARRDEKSLAAAIESR------------------------------DWS  201
+
+Query  259  SFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGK  299
+             +YAW   E+  +  +R  L  E G  K  +    YW  G+
+Sbjct  202  DWYAWATPEATTLKQVRTRLRDEFGFPKSEVHAQAYWSAGR  242
+
+
+>VFG026722(gb|YP_007957462) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium tuberculosis str. Haarlem/NITR202]
+Length=862
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 57/220 (26%), Positives = 86/220 (39%), Gaps = 48/220 (22%)
+
+Query  81   RTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQYGDDPGGYEWK  140
+            R YTI           V+ VLH   GPAS+WA   + G  + + +     G        +
+Sbjct  70   RAYTIXEAXPAAGRFAVDVVLHDPAGPASSWARTVKPGATIAVMS---LMGSSRFDVPEE  126
+
+Query  141  PPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEADIL-DLPAIPAARL  199
+             PAG    LLI D  ++P + GI+E +  +     +E +LE   + D L  L   P  R+
+Sbjct  127  QPAG---YLLIGDSASIPGMNGIIETVPNDVP---IEMYLEQHDDNDTLIPLAKHPRLRV  180
+
+Query  200  HWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWELASPESGS  259
+             W+ R       R+ + + EA                  +E+ D      W         
+Sbjct  181  RWVMR-------RDEKSLAEA------------------IENRD------WS-------D  202
+
+Query  260  FYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGK  299
+            +YAW   E+AA+  +R  L  E G  K  +    YW  G+
+Sbjct  203  WYAWATPEAAALKCVRVRLRDEFGFPKSEIHAQAYWNAGR  242
+
+
+>VFG022783(gb|WP_014000720) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium canettii CIPT 140010059]
+Length=859
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 57/220 (26%), Positives = 86/220 (39%), Gaps = 48/220 (22%)
+
+Query  81   RTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQYGDDPGGYEWK  140
+            R YTI           V+ VLH   GPAS+WA   + G  + + +     G        +
+Sbjct  70   RAYTISEADPAAGRFAVDVVLHDPAGPASSWARTVKPGATIAVMS---LMGSSRFDVPEE  126
+
+Query  141  PPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEADIL-DLPAIPAARL  199
+             PAG    LLI D  ++P + GI+E +  +     +E +LE   + D L  L   P  R+
+Sbjct  127  QPAG---YLLIGDSASIPGMNGIIETVPNDVP---IEMYLEQHDDNDTLIPLAKHPRLRV  180
+
+Query  200  HWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWELASPESGS  259
+             W+ R       R+ + + EA                  +E+ D      W         
+Sbjct  181  RWVMR-------RDEKSLAEA------------------IENRD------WS-------D  202
+
+Query  260  FYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGK  299
+            +YAW   E+AA+  +R  L  E G  K  +    YW  G+
+Sbjct  203  WYAWATPEAAALKCVRVRLRDEFGFPKSEIHAQAYWNAGR  242
+
+
+>VFG026719(gb|WP_025202597) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium tuberculosis CCDC5180]
+Length=859
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 57/220 (26%), Positives = 86/220 (39%), Gaps = 48/220 (22%)
+
+Query  81   RTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQYGDDPGGYEWK  140
+            R YTI           V+ VLH   GPAS+WA   + G  + + +     G        +
+Sbjct  70   RAYTISEADPAAGRFAVDVVLHDPAGPASSWARTVKPGATIAVMS---LMGSSRFDVPEE  126
+
+Query  141  PPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEADIL-DLPAIPAARL  199
+             PAG    LLI D  ++P + GI+E +  +     +E +LE   + D L  L   P  R+
+Sbjct  127  QPAG---YLLIGDSASIPGMNGIIETVPNDVP---IEMYLEQHDDNDTLIPLAKHPRLRV  180
+
+Query  200  HWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWELASPESGS  259
+             W+ R       R+ + + EA                  +E+ D      W         
+Sbjct  181  RWVMR-------RDEKSLAEA------------------IENRD------WS-------D  202
+
+Query  260  FYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGK  299
+            +YAW   E+AA+  +R  L  E G  K  +    YW  G+
+Sbjct  203  WYAWATPEAAALKCVRVRLRDEFGFPKSEIHAQAYWNAGR  242
+
+
+>VFG022782(gb|WP_003910332) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium africanum GM041182]
+Length=859
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 57/220 (26%), Positives = 86/220 (39%), Gaps = 48/220 (22%)
+
+Query  81   RTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQYGDDPGGYEWK  140
+            R YTI           V+ VLH   GPAS+WA   + G  + + +     G        +
+Sbjct  70   RAYTISEADPAAGRFAVDVVLHDPAGPASSWARTVKPGATIAVMS---LMGSSRFDVPEE  126
+
+Query  141  PPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEADIL-DLPAIPAARL  199
+             PAG    LLI D  ++P + GI+E +  +     +E +LE   + D L  L   P  R+
+Sbjct  127  QPAG---YLLIGDSASIPGMNGIIETVPNDVP---IEMYLEQHDDNDTLIPLAKHPRLRV  180
+
+Query  200  HWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWELASPESGS  259
+             W+ R       R+ + + EA                  +E+ D      W         
+Sbjct  181  RWVMR-------RDEKSLAEA------------------IENRD------WS-------D  202
+
+Query  260  FYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGK  299
+            +YAW   E+AA+  +R  L  E G  K  +    YW  G+
+Sbjct  203  WYAWATPEAAALKCVRVRLRDEFGFPKSEIHAQAYWNAGR  242
+
+
+>VFG026726(gb|YP_005922613) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium tuberculosis RGTB423]
+Length=859
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 57/220 (26%), Positives = 86/220 (39%), Gaps = 48/220 (22%)
+
+Query  81   RTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQYGDDPGGYEWK  140
+            R YTI           V+ VLH   GPAS+WA   + G  + + +     G        +
+Sbjct  70   RAYTISEADPAAGRFAVDVVLHDPAGPASSWARTVKPGATIAVMS---LMGSSRFDVPEE  126
+
+Query  141  PPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEADIL-DLPAIPAARL  199
+             PAG    LLI D  ++P + GI+E +  +     +E +LE   + D L  L   P  R+
+Sbjct  127  QPAG---YLLIGDSASIPGMNGIIETVPNDVP---IEMYLEQHDDNDTLIPLAKHPRLRV  180
+
+Query  200  HWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWELASPESGS  259
+             W+ R       R+ + + EA                  +E+ D      W         
+Sbjct  181  RWVMR-------RDEKSLAEA------------------IENRD------WS-------D  202
+
+Query  260  FYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGK  299
+            +YAW   E+AA+  +R  L  E G  K  +    YW  G+
+Sbjct  203  WYAWATPEAAALKCVRVRLRDEFGFPKSEIHAQAYWNAGR  242
+
+
+>VFG009570(gb|NP_215864) (irtA) Iron-regulated transporter IrtA 
+[ABC transporter (VF0818) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=859
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 57/220 (26%), Positives = 86/220 (39%), Gaps = 48/220 (22%)
+
+Query  81   RTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQLAAPNRQYGDDPGGYEWK  140
+            R YTI           V+ VLH   GPAS+WA   + G  + + +     G        +
+Sbjct  70   RAYTISEADPAAGRFAVDVVLHDPAGPASSWARTVKPGATIAVMS---LMGSSRFDVPEE  126
+
+Query  141  PPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEADIL-DLPAIPAARL  199
+             PAG    LLI D  ++P + GI+E +  +     +E +LE   + D L  L   P  R+
+Sbjct  127  QPAG---YLLIGDSASIPGMNGIIETVPNDVP---IEMYLEQHDDNDTLIPLAKHPRLRV  180
+
+Query  200  HWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWELASPESGS  259
+             W+ R       R+ + + EA                  +E+ D      W         
+Sbjct  181  RWVMR-------RDEKSLAEA------------------IENRD------WS-------D  202
+
+Query  260  FYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGK  299
+            +YAW   E+AA+  +R  L  E G  K  +    YW  G+
+Sbjct  203  WYAWATPEAAALKCVRVRLRDEFGFPKSEIHAQAYWNAGR  242
+
+
+>VFG024065(gb|WP_014711101) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium intracellulare str. MOTT36Y]
+Length=874
+
+ Score = 48.1 bits (113),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 56/221 (25%), Positives = 84/221 (38%), Gaps = 50/221 (23%)
+
+Query  81   RTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQ-LAAPNRQYGDDPGGYEW  139
+            R YTI           V+ VLH   GPAS WA   + G  +  +A       D PG    
+Sbjct  70   RAYTISEADVAAGRFAVDIVLHEPAGPASQWARTVQPGATIAVMALMGSSRFDMPG----  125
+
+Query  140  KPPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEADIL-DLPAIPAAR  198
+            + PAG    LLI D  ++P + GI+  +  +     +E +LE   + D L  +   P  R
+Sbjct  126  EQPAG---YLLIGDSASIPGMNGIIGVVPDDVP---IEMYLEQHDDNDTLIPIAQHPRLR  179
+
+Query  199  LHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWELASPESG  258
+            LHW+        +R  E+ + AA ++R                              +  
+Sbjct  180  LHWV--------ARRDEKSLAAAIESR------------------------------DWS  201
+
+Query  259  SFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGK  299
+             +YAW   E+  +  +R  L  E G  K  +    YW  G+
+Sbjct  202  DWYAWATPEATTLKQVRTRLRDEFGFPKSEVHAQAYWSAGR  242
+
+
+>VFG024066(gb|WP_026071504) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium intracellulare MOTT-02]
+Length=871
+
+ Score = 48.1 bits (113),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 56/221 (25%), Positives = 84/221 (38%), Gaps = 50/221 (23%)
+
+Query  81   RTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQ-LAAPNRQYGDDPGGYEW  139
+            R YTI           V+ VLH   GPAS WA   + G  +  +A       D PG    
+Sbjct  70   RAYTISEADVAAGRFAVDIVLHEPAGPASQWARTVQPGATIAVMALMGSSRFDMPG----  125
+
+Query  140  KPPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEADIL-DLPAIPAAR  198
+            + PAG    LLI D  ++P + GI+  +  +     +E +LE   + D L  +   P  R
+Sbjct  126  EQPAG---YLLIGDSASIPGMNGIIGVVPDDVP---IEMYLEQHDDNDTLIPIAQHPRLR  179
+
+Query  199  LHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWELASPESG  258
+            LHW+        +R  E+ + AA ++R                              +  
+Sbjct  180  LHWV--------ARRDEKSLAAAIESR------------------------------DWS  201
+
+Query  259  SFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGK  299
+             +YAW   E+  +  +R  L  E G  K  +    YW  G+
+Sbjct  202  DWYAWATPEATTLKQVRTRLRDEFGFPKSEVHAQAYWSAGR  242
+
+
+>VFG024064(gb|WP_043955645) (irtA) Iron-regulated transporter 
+IrtA [ABC transporter (VF0818) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium indicus pranii MTCC 9506]
+Length=871
+
+ Score = 48.1 bits (113),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 56/221 (25%), Positives = 84/221 (38%), Gaps = 50/221 (23%)
+
+Query  81   RTYTIRALRAEQEEVDVEFVLHGENGPASAWATHARIGDRLQ-LAAPNRQYGDDPGGYEW  139
+            R YTI           V+ VLH   GPAS WA   + G  +  +A       D PG    
+Sbjct  70   RAYTISEADVAAGRFAVDIVLHEPAGPASQWARTVQPGATIAVMALMGSSRFDMPG----  125
+
+Query  140  KPPAGVRHILLIADETALPAVAGILEELAGETEPPVVEAFLEVPGEADIL-DLPAIPAAR  198
+            + PAG    LLI D  ++P + GI+  +  +     +E +LE   + D L  +   P  R
+Sbjct  126  EQPAG---YLLIGDSASIPGMNGIIGVVPDDVP---IEMYLEQHDDNDTLIPIAQHPRLR  179
+
+Query  199  LHWLPRHQAGIHSRNGERMIEAARQARLPEREVAGGAAQELEDIDIDEEILWELASPESG  258
+            LHW+        +R  E+ + AA ++R                              +  
+Sbjct  180  LHWV--------ARRDEKSLAAAIESR------------------------------DWS  201
+
+Query  259  SFYAWVAGESAAVMAIRRYLVQERGIDKRHLTLMGYWRLGK  299
+             +YAW   E+  +  +R  L  E G  K  +    YW  G+
+Sbjct  202  DWYAWATPEATTLKQVRTRLRDEFGFPKSEVHAQAYWSAGR  242
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2121036966
+
+
+Query= g2990.t1
+
+Length=255
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG007224(gb|WP_000064348) (viuB) siderophore-interacting protein...  73.9    2e-15
+VFG007227(gb|WP_011152545) (viuB) siderophore-interacting protein...  67.8    3e-13
+VFG007226(gb|WP_011081754) (viuB) siderophore-interacting protein...  67.8    3e-13
+
+
+>VFG007224(gb|WP_000064348) (viuB) siderophore-interacting protein 
+[Vibriobactin/Vulnibactin (VF0626) - Nutritional/Metabolic 
+factor (VFC0272)] [Vibrio cholerae O1 biovar El Tor str. 
+N16961]
+Length=271
+
+ Score = 73.9 bits (180),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 67/248 (27%), Positives = 110/248 (44%), Gaps = 18/248 (7%)
+
+Query  19   RELIVLRVERISAGFQRIVLGGEALDGFISLGFDDHTKVFFPEPGCRFTPPTVTE-EGII  77
+            R L  +R + +S    R+ L GE L GF       H KVFFP          + E + +I
+Sbjct  11   RLLDFVRKKYVSKNLLRVTLTGEDLIGFPEDQNGSHIKVFFPNQASGILQLPIREGDKVI  70
+
+Query  78   WGEGVRPVSRDYTP-LYDEARRELALDFFIH-DGGVASRWAMEAREGDTLTIGGPRGSLV  135
+            W E  +PV R YT   Y     EL +DF +H +G     WA++A+ G  L + GP G   
+Sbjct  71   WPEH-KPVPRAYTVRQYRAQSNELDIDFVVHGEGTPGGGWALKAQTGSQLGLIGPGGPDP  129
+
+Query  136  VPEEYACQVYVCDESGMPALRRRLESLSRLPVRPAVTALVSIQDAAYRDYLAHLTDITVE  195
+            + E     +   D S +PA+   LE   ++P +      + + D   +  ++H   + ++
+Sbjct  130  LIEPADWHIMAGDLSAVPAISAILE---KMPSQAKGYVFLEVDDIEDKHDISHPEQMVIK  186
+
+Query  196  YVVGGDEQA---MQTRLSQLTIPESDYFI--WITGEGKTV----KRLSQCFEKGFDPHLV  246
+            ++V    QA   +   + QL +P+    +  ++ GE ++V    K L   +    D   +
+Sbjct  187  WLVRDPNQAQPVLAMAIEQLPVPQGAESLSAFVAGENESVIACRKILRNEYRIARDK--I  244
+
+Query  247  RAAAYWHR  254
+             A  YW R
+Sbjct  245  YAIPYWKR  252
+
+
+>VFG007227(gb|WP_011152545) (viuB) siderophore-interacting protein 
+[Vibriobactin/Vulnibactin (VF0626) - Nutritional/Metabolic 
+factor (VFC0272)] [Vibrio vulnificus YJ016]
+Length=271
+
+ Score = 67.8 bits (164),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 71/258 (28%), Positives = 107/258 (41%), Gaps = 22/258 (9%)
+
+Query  9    PQRVRNELRFRELIVLRVERISAGFQRIVLGGEALDGFISLGFDDHTKVFFPEPGCRFTP  68
+            P+RV   L    L  +R E IS    R+ L GE L GF       H KVFFP        
+Sbjct  5    PERVYPML----LDFVRKETISKNLLRVTLTGEDLIGFPEDQNGSHIKVFFPNQASGILQ  60
+
+Query  69   PTVTE-EGIIWGEGVRPVSRDYTP-LYDEARRELALDFFIH-DGGVASRWAMEAREGDTL  125
+              V E + +IW E  +PV R Y+   Y  A  EL +DF  H +      WA++A  G  +
+Sbjct  61   LPVREGDNVIWPEH-KPVPRAYSVRQYRAAVNELDIDFVTHGEETPGGGWALKADIGSQI  119
+
+Query  126  TIGGPRGSLVVPEEYACQVYVCDESGMPALRRRLESLSRLPVRPAVTALVSIQDAAYRDY  185
+             + GP G   + E     +   D S +PA+   LE   +LP        + + +      
+Sbjct  120  GLIGPAGPDPLIEPADWHIIAGDLSAVPAISAILE---KLPSDAKGYVFIEVDEIEDIHD  176
+
+Query  186  LAHLTDITVEYVVGGD---EQAMQTRLSQLTIPE--SDYFIWITGEGKTVKRLSQCFEKG  240
+            L H  ++ + +++      E A+   + QL  PE  +    +I GE ++V    +     
+Sbjct  177  LVHPEEMAINWLMRNPHDAEPALAKAIQQLPAPEKATSLSAFIAGENQSVINCRKILRND  236
+
+Query  241  FDPHLVR----AAAYWHR  254
+            +   + R    A  YW R
+Sbjct  237  Y--QIARDKLYAIPYWKR  252
+
+
+>VFG007226(gb|WP_011081754) (viuB) siderophore-interacting protein 
+[Vibriobactin/Vulnibactin (VF0626) - Nutritional/Metabolic 
+factor (VFC0272)] [Vibrio vulnificus CMCP6]
+Length=271
+
+ Score = 67.8 bits (164),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 71/258 (28%), Positives = 107/258 (41%), Gaps = 22/258 (9%)
+
+Query  9    PQRVRNELRFRELIVLRVERISAGFQRIVLGGEALDGFISLGFDDHTKVFFPEPGCRFTP  68
+            P+RV   L    L  +R E IS    R+ L GE L GF       H KVFFP        
+Sbjct  5    PERVYPML----LDFVRKETISKNLLRVTLTGEDLIGFPEDQNGSHIKVFFPNQASGILQ  60
+
+Query  69   PTVTE-EGIIWGEGVRPVSRDYTP-LYDEARRELALDFFIH-DGGVASRWAMEAREGDTL  125
+              V E + +IW E  +PV R Y+   Y  A  EL +DF  H +      WA++A  G  +
+Sbjct  61   LPVREGDNVIWPEH-KPVPRAYSVRQYRAAVNELDIDFVTHGEETPGGGWALKADIGSQI  119
+
+Query  126  TIGGPRGSLVVPEEYACQVYVCDESGMPALRRRLESLSRLPVRPAVTALVSIQDAAYRDY  185
+             + GP G   + E     +   D S +PA+   LE   +LP        + + +      
+Sbjct  120  GLIGPAGPDPLIEPADWHIIAGDLSAVPAISAILE---KLPSDAKGYVFIEVDEIEDIHD  176
+
+Query  186  LAHLTDITVEYVVGGD---EQAMQTRLSQLTIPE--SDYFIWITGEGKTVKRLSQCFEKG  240
+            L H  ++ + +++      E A+   + QL  PE  +    +I GE ++V    +     
+Sbjct  177  LVHPEEMAINWLMRNPHDAEPALAKAIKQLPSPEKATSLSAFIAGENQSVINCRKILRND  236
+
+Query  241  FDPHLVR----AAAYWHR  254
+            +   + R    A  YW R
+Sbjct  237  Y--QIARDKLYAIPYWKR  252
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.140    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1657315079
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

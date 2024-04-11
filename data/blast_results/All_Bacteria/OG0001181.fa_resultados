@@ -1,0 +1,222 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2389.t1
+
+Length=264
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045346(gb|WP_011149697) (IlpA) immunogenic lipoprotein A [IlpA...  140     2e-40
+
+
+>VFG045346(gb|WP_011149697) (IlpA) immunogenic lipoprotein A  
+[IlpA (VF0513) - Adherence (VFC0001)] [Vibrio vulnificus YJ016]
+Length=269
+
+ Score = 140 bits (353),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 96/267 (36%), Positives = 138/267 (52%), Gaps = 9/267 (3%)
+
+Query  1    MLNTLKTLSLAVLLGSGPAQAADAPLKIGTTAAFAPPLEVAVSEAGKQ--GLKVELVEFS  58
+            +L  +   S  VL G G      + +K+G  A     +    ++  K+  GL VELV F+
+Sbjct  8    LLTIIAAASTLVLAGCGEKATDTSKVKVGVMAGAEAQVAEVAAKVAKEKYGLDVELVTFT  67
+
+Query  59   DWNAPNITLAQGDIDANYFQHVPFLENANREGGFQLKPFAPGIINNVGLYSKRYASLAEL  118
+            D+  PN  L  G ID N FQH P+L+    + G++L       +  +  YSK+  S+ EL
+Sbjct  68   DYVTPNAALDDGSIDINAFQHKPYLDRQVEDRGYKLTIAGNTFVYPIAGYSKQVKSVEEL  127
+
+Query  119  PEGASVAIANDPINGGRGLQLLQKAGLLKLRDGVGYKATLDDIVDNPKDIRITELEAVQL  178
+             +G  +A+ NDP N GR L LL++ GL+KLR  VG  AT+ DIV+NPK+I I EL+A QL
+Sbjct  128  ADGVRIAVPNDPTNLGRSLLLLEQQGLIKLRPEVGLLATVRDIVENPKNITIVELDAAQL  187
+
+Query  179  ARALDDFDLAQGYPHYLRLAGTID--PTRALLFDGIDNREYVIQFVTRGDYQDRDGRLAR  236
+             R+LDD  L+     Y   A +I+  P +  +F       YV   V R D   ++  +  
+Sbjct  188  PRSLDDVALSIINTTY---ASSINLTPEKDGVFVEDKESPYVNLIVARQD-NVQNENVQN  243
+
+Query  237  FVDIYQHSPVVRAALDKAHGTLYQPGW  263
+            FV  YQ   V  AA +   G + + GW
+Sbjct  244  FVKAYQTEEVYTAAKEIFKGGVVK-GW  269
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.139    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1752320402
+
+
+Query= g4008.t1
+
+Length=259
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045346(gb|WP_011149697) (IlpA) immunogenic lipoprotein A [IlpA...  177     5e-55
+
+
+>VFG045346(gb|WP_011149697) (IlpA) immunogenic lipoprotein A  
+[IlpA (VF0513) - Adherence (VFC0001)] [Vibrio vulnificus YJ016]
+Length=269
+
+ Score = 177 bits (450),  Expect = 5e-55, Method: Compositional matrix adjust.
+ Identities = 91/214 (43%), Positives = 132/214 (62%), Gaps = 0/214 (0%)
+
+Query  46   KEGVDLQIKVFTDYVQPNVQVAEKRLDANYFQTLPYLENFNKGKGTNLVTVVGVHVEPFG  105
+            K G+D+++  FTDYV PN  + +  +D N FQ  PYL+   + +G  L       V P  
+Sbjct  56   KYGLDVELVTFTDYVTPNAALDDGSIDINAFQHKPYLDRQVEDRGYKLTIAGNTFVYPIA  115
+
+Query  106  GYSRKYKSLAELPDGATVAIPNEGSNSGRALLLLQKAGLLKLKDPNNALATPKDIAENPK  165
+            GYS++ KS+ EL DG  +A+PN+ +N GR+LLLL++ GL+KL+     LAT +DI ENPK
+Sbjct  116  GYSKQVKSVEELADGVRIAVPNDPTNLGRSLLLLEQQGLIKLRPEVGLLATVRDIVENPK  175
+
+Query  166  NLKFKELESALLPRVLDQVDLDLINTNYALEAKLNPAKDALVLEDRDSPYVNYLVARPDN  225
+            N+   EL++A LPR LD V L +INT YA    L P KD + +ED++SPYVN +VAR DN
+Sbjct  176  NITIVELDAAQLPRSLDDVALSIINTTYASSINLTPEKDGVFVEDKESPYVNLIVARQDN  235
+
+Query  226  KDSDALKKLSAALTSPEVKAFIEKKYAGAVVPAF  259
+              ++ ++    A  + EV    ++ + G VV  +
+Sbjct  236  VQNENVQNFVKAYQTEEVYTAAKEIFKGGVVKGW  269
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.132    0.360    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1699539667
+
+
+Query= g241.t1
+
+Length=271
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045346(gb|WP_011149697) (IlpA) immunogenic lipoprotein A [IlpA...  360     9e-127
+
+
+>VFG045346(gb|WP_011149697) (IlpA) immunogenic lipoprotein A  
+[IlpA (VF0513) - Adherence (VFC0001)] [Vibrio vulnificus YJ016]
+Length=269
+
+ Score = 360 bits (925),  Expect = 9e-127, Method: Compositional matrix adjust.
+ Identities = 184/271 (68%), Positives = 216/271 (80%), Gaps = 2/271 (1%)
+
+Query  1    MAFKFKTFAAVGALIGSLALAGCGQDEKDPNHIKVGVIVGAEQQVAEVAQKVAKEKYGLD  60
+            M F  K    + A   +L LAGCG+   D + +KVGV+ GAE QVAEVA KVAKEKYGLD
+Sbjct  1    MKFSLKGLLTIIAAASTLVLAGCGEKATDTSKVKVGVMAGAEAQVAEVAAKVAKEKYGLD  60
+
+Query  61   VELVTFNDYVLPNEALSKGDIDANAFQHKPYLDQQIKDRGYKLVSVGKTFVYPIAGYSKK  120
+            VELVTF DYV PN AL  G ID NAFQHKPYLD+Q++DRGYKL   G TFVYPIAGYSK+
+Sbjct  61   VELVTFTDYVTPNAALDDGSIDINAFQHKPYLDRQVEDRGYKLTIAGNTFVYPIAGYSKQ  120
+
+Query  121  IKSLDELKDGSQVAVPNDPTNLGRSLLLLQKVGLIKLKDGVGLLPTSLDIVENPKNLKIV  180
+            +KS++EL DG ++AVPNDPTNLGRSLLLL++ GLIKL+  VGLL T  DIVENPKN+ IV
+Sbjct  121  VKSVEELADGVRIAVPNDPTNLGRSLLLLEQQGLIKLRPEVGLLATVRDIVENPKNITIV  180
+
+Query  181  ELEAPQLPRSLDDAQIALAVINTTYASQIGLTPAKDGIFVEDKDSPYVNLIVTREDNKDA  240
+            EL+A QLPRSLDD  +AL++INTTYAS I LTP KDG+FVEDK+SPYVNLIV R+DN   
+Sbjct  181  ELDAAQLPRSLDD--VALSIINTTYASSINLTPEKDGVFVEDKESPYVNLIVARQDNVQN  238
+
+Query  241  ENVKKFVQAYQSDEVYEAANKVFNGGAVKGW  271
+            ENV+ FV+AYQ++EVY AA ++F GG VKGW
+Sbjct  239  ENVQNFVKAYQTEEVYTAAKEIFKGGVVKGW  269
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.135    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1826213431
+
+
+Query= g476.t1
+
+Length=276
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045346(gb|WP_011149697) (IlpA) immunogenic lipoprotein A [IlpA...  121     5e-33
+
+
+>VFG045346(gb|WP_011149697) (IlpA) immunogenic lipoprotein A  
+[IlpA (VF0513) - Adherence (VFC0001)] [Vibrio vulnificus YJ016]
+Length=269
+
+ Score = 121 bits (304),  Expect = 5e-33, Method: Compositional matrix adjust.
+ Identities = 87/245 (36%), Positives = 130/245 (53%), Gaps = 13/245 (5%)
+
+Query  10   AASTLLLA-CGLQFAHADSSPQTIVFGVAPGPYGDMVKQAIAPTLKEKGYKVVVREFSDY  68
+            AASTL+LA CG +    D+S   +  GV  G    + + A     ++ G  V +  F+DY
+Sbjct  14   AASTLVLAGCGEK--ATDTSK--VKVGVMAGAEAQVAEVAAKVAKEKYGLDVELVTFTDY  69
+
+Query  69   VQPNMALANGSIDANLFQHTLYFDKFTADKGLKLS---KLIVVPTAGMGFYSRKINSLDA  125
+            V PN AL +GSID N FQH  Y D+   D+G KL+      V P AG   YS+++ S++ 
+Sbjct  70   VTPNAALDDGSIDINAFQHKPYLDRQVEDRGYKLTIAGNTFVYPIAG---YSKQVKSVEE  126
+
+Query  126  LKKGDIITLSNDPTNLARGLRFLQSLGLITIKDNIDPTKASERDIASNPKGLVFKPLEAA  185
+            L  G  I + NDPTNL R L  L+  GLI ++  +    A+ RDI  NPK +    L+AA
+Sbjct  127  LADGVRIAVPNDPTNLGRSLLLLEQQGLIKLRPEVGLL-ATVRDIVENPKNITIVELDAA  185
+
+Query  186  QLPRTLDGVTGALVNGNFAVAAGLD-LSSAIKQEHLDENLKNIIAVRSEDADKPFAKDIV  244
+            QLPR+LD V  +++N  +A +  L      +  E  +    N+I  R ++      ++ V
+Sbjct  186  QLPRSLDDVALSIINTTYASSINLTPEKDGVFVEDKESPYVNLIVARQDNVQNENVQNFV  245
+
+Query  245  EAVKS  249
+            +A ++
+Sbjct  246  KAYQT  250
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.134    0.380    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1863485205
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

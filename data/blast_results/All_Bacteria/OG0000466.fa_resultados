@@ -1,0 +1,470 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g142.t1
+
+Length=332
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044254(gb|WP_000570808) (sbnA) 2,3-diaminopropionate biosynthe...  144     2e-40
+VFG044286(gb|WP_012367521) (PMI_RS01140) cysteine synthase family...  118     1e-30
+
+
+>VFG044254(gb|WP_000570808) (sbnA) 2,3-diaminopropionate biosynthesis 
+protein SbnA [Staphyloferrin B (VF1014) - Nutritional/Metabolic 
+factor (VFC0272)] [Staphylococcus aureus subsp. 
+aureus str. Newman]
+Length=326
+
+ Score = 144 bits (363),  Expect = 2e-40, Method: Compositional matrix adjust.
+ Identities = 102/315 (32%), Positives = 161/315 (51%), Gaps = 19/315 (6%)
+
+Query  16   AVYSNNAEAIGNTPLVRINRLIKTDAIVLAKVESRNPAFSVKCRIGAALIADAEKRGVLK  75
+            A + +  +++G TP+V++++L      V AK+E  NP  S+K R    +I    K G++ 
+Sbjct  7    ACHDSLLDSVGQTPMVQLHQLFPKHE-VFAKLEYMNPGGSMKDRPAKYIIEHGIKHGLIT  65
+
+Query  76   EGMHIVEPTSGNTGIALAFVAAAKGYSITLTMPASMSLERRKVLKALGANLVLTEPAKGM  135
+            E  H++E TSGN GIALA +A  KG  +T  +   +S    K++K+ GAN+ + E     
+Sbjct  66   ENTHLIESTSGNLGIALAMIAKIKGLKLTCVVDPKISPTNLKIIKSYGANVEMVEEPDAH  125
+
+Query  136  KGAVDEAVRLATEQ------PEVYFLPQQFENPANPQIHVDTTGPEIWQATGGQVDILVA  189
+             G +    R+A  Q       + Y++  Q+ N  N Q H    G EI +     +D  VA
+Sbjct  126  GGYL--MTRIAKVQELLATIDDAYWI-NQYANELNWQSHYHGAGTEIVETIKQPIDYFVA  182
+
+Query  190  GVGTGGTITGISRYFEQVQNKPLYSVAVEPAESPIITQTKNGENITPAPHKIQGIGANFI  249
+             V T G+I G+SR  ++V   P   +    A+  +I   K      P   ++ GIGA+ +
+Sbjct  183  PVSTTGSIMGMSRKIKEVH--PNAQIVAVDAKGSVIFGDK------PINRELPGIGASRV  234
+
+Query  250  PKNLDLDLVDEVLPVSSEEAIQWARKCATQEGILVGISSGAALAAAAKIAERPENAGKTI  309
+            P+ L+   +++V+ V   ++    RK    EGI  G S+G+ +AA  ++    E  G TI
+Sbjct  235  PEILNRSEINQVIHVDDYQSALGCRKLIDYEGIFAGGSTGSIIAAIEQLITSIEE-GATI  293
+
+Query  310  VVILPDSGERYLSSV  324
+            V ILPD G+RYL  V
+Sbjct  294  VTILPDRGDRYLDLV  308
+
+
+>VFG044286(gb|WP_012367521) (PMI_RS01140) cysteine synthase family 
+protein [Proteobactin (VF1252) - Nutritional/Metabolic 
+factor (VFC0272)] [Proteus mirabilis HI4320]
+Length=338
+
+ Score = 118 bits (296),  Expect = 1e-30, Method: Compositional matrix adjust.
+ Identities = 101/327 (31%), Positives = 157/327 (48%), Gaps = 27/327 (8%)
+
+Query  17   VYSNNAEAIGNTPLVRINRLIKTDAIVLAKVESRNPAFSVKCRIGAALIADAEKRGVLKE  76
+            V+S   + IGNTP++++  L+++D  +  KVE  NP  S+K R+   ++  A K G +K 
+Sbjct  2    VFSKVTDLIGNTPIIQL-PLLQSDTRLYIKVEKNNPGGSMKDRMARNMVVAALKSGKIKP  60
+
+Query  77   GMHIVEPTSGNTGIALAFVAAAKGYSITLTMPASMSLERRKVLKALGANLVLTEPAKGMK  136
+            G  IVE +SGNTGI LA  A   G      +    + ++  +++ALGA +      KG  
+Sbjct  61   GSTIVESSSGNTGIGLAIAAIEFGLRFIAVVDHHAAQDKIAIMRALGAEI---RYVKGDY  117
+
+Query  137  GAVDEAV--------RLATEQPEVYFLPQQFENPANPQIHVDTTGPEIWQATGGQVDILV  188
+            G  + AV         +A E P   F+ Q  +N AN   + D     I Q   G++D  V
+Sbjct  118  GENEVAVVERQRMAAEIANEIPGAIFMNQS-DNAANAGGYADLVRELISQI--GKIDAWV  174
+
+Query  189  AGVGTGGTITGISRYFEQVQNKPLYSVAVEPAESPIITQTKNGENITPAPHKIQGIG---  245
+              VGTGG++TGI+    +V N  L ++AVEP  S I  +          P+   G G   
+Sbjct  175  GCVGTGGSMTGIAHGL-RVHNPELVTIAVEPEGSIIFGKPGK-------PYYQSGTGTPQ  226
+
+Query  246  ANFIPKNLDLDLVDEVLPVSSEEAIQWARKCATQEGILVGISSGAALAAAAKIAERPENA  305
+             + +   LD   +D    VS   A + AR  A + G+LVG S+G  +  A ++       
+Sbjct  227  GDTVGLVLDYSCIDYGEQVSDVCAFETARYLARRFGLLVGGSTGGVVYKALELINNSTIC  286
+
+Query  306  GKTIVVILPDSGERYLSSVLFEGLFDE  332
+            G  + + + D GE+YL ++  +    E
+Sbjct  287  G-NVALAMADGGEKYLQTIFNDTWLKE  312
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.132    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2419078431
+
+
+Query= g649.t1
+
+Length=310
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044254(gb|WP_000570808) (sbnA) 2,3-diaminopropionate biosynthe...  146     2e-41
+VFG044286(gb|WP_012367521) (PMI_RS01140) cysteine synthase family...  124     6e-33
+
+
+>VFG044254(gb|WP_000570808) (sbnA) 2,3-diaminopropionate biosynthesis 
+protein SbnA [Staphyloferrin B (VF1014) - Nutritional/Metabolic 
+factor (VFC0272)] [Staphylococcus aureus subsp. 
+aureus str. Newman]
+Length=326
+
+ Score = 146 bits (368),  Expect = 2e-41, Method: Compositional matrix adjust.
+ Identities = 103/302 (34%), Positives = 160/302 (53%), Gaps = 11/302 (4%)
+
+Query  11   VGNTPLVRLRRVTEGALADVVAKLESFNPANSVKDRIGVAMIDTAEEAGLIKPDTVILEP  70
+            VG TP+V+L ++      +V AKLE  NP  S+KDR    +I+   + GLI  +T ++E 
+Sbjct  16   VGQTPMVQLHQLFPKH--EVFAKLEYMNPGGSMKDRPAKYIIEHGIKHGLITENTHLIES  73
+
+Query  71   TSGNTGIALAMVCAARGYHCVLTMPETMSIERRMLLRAYGA--ELILTPGADG--MSGAI  126
+            TSGN GIALAM+   +G      +   +S     ++++YGA  E++  P A G  +   I
+Sbjct  74   TSGNLGIALAMIAKIKGLKLTCVVDPKISPTNLKIIKSYGANVEMVEEPDAHGGYLMTRI  133
+
+Query  127  AKAEE-LAKSDKRYFIPQQFENPANPAIHAATTAEEVWRDTDGKVDIFVSGIGTGGTITG  185
+            AK +E LA  D  Y+I  Q+ N  N   H      E+       +D FV+ + T G+I G
+Sbjct  134  AKVQELLATIDDAYWI-NQYANELNWQSHYHGAGTEIVETIKQPIDYFVAPVSTTGSIMG  192
+
+Query  186  VARIIKERRPATQFVAVEPAASPVLSGGQKGPHPIQGIGAGFVPSVLVLDLVDEIVTVGN  245
+            ++R IKE  P  Q VAV+   S V+ G +     + GIGA  VP +L    +++++ V +
+Sbjct  193  MSRKIKEVHPNAQIVAVDAKGS-VIFGDKPINRELPGIGASRVPEILNRSEINQVIHVDD  251
+
+Query  246  EEALDLARRLAKEEGLLVGISAGAAVCAALHVARRPENTGKLIVVVLPDFGERYLSTMLF  305
+             ++    R+L   EG+  G S G+ + A   +    E  G  IV +LPD G+RYL  +++
+Sbjct  252  YQSALGCRKLIDYEGIFAGGSTGSIIAAIEQLITSIEE-GATIVTILPDRGDRYLD-LVY  309
+
+Query  306  AD  307
+            +D
+Sbjct  310  SD  311
+
+
+>VFG044286(gb|WP_012367521) (PMI_RS01140) cysteine synthase family 
+protein [Proteobactin (VF1252) - Nutritional/Metabolic 
+factor (VFC0272)] [Proteus mirabilis HI4320]
+Length=338
+
+ Score = 124 bits (310),  Expect = 6e-33, Method: Compositional matrix adjust.
+ Identities = 99/306 (32%), Positives = 151/306 (49%), Gaps = 14/306 (5%)
+
+Query  7    VTQLVGNTPLVRLRRVTEGALADVVAKLESFNPANSVKDRIGVAMIDTAEEAGLIKPDTV  66
+            VT L+GNTP+++L  +       +  K+E  NP  S+KDR+   M+  A ++G IKP + 
+Sbjct  6    VTDLIGNTPIIQLPLLQSDT--RLYIKVEKNNPGGSMKDRMARNMVVAALKSGKIKPGST  63
+
+Query  67   ILEPTSGNTGIALAMVCAARGYHCVLTMPETMSIERRMLLRAYGAELILTPGADGMSGAI  126
+            I+E +SGNTGI LA+     G   +  +    + ++  ++RA GAE+    G  G +   
+Sbjct  64   IVESSSGNTGIGLAIAAIEFGLRFIAVVDHHAAQDKIAIMRALGAEIRYVKGDYGENEVA  123
+
+Query  127  A-----KAEELAKSDKRYFIPQQFENPANPAIHAATTAEEVWRDTDGKVDIFVSGIGTGG  181
+                   A E+A          Q +N AN   +A    E +     GK+D +V  +GTGG
+Sbjct  124  VVERQRMAAEIANEIPGAIFMNQSDNAANAGGYADLVRELI--SQIGKIDAWVGCVGTGG  181
+
+Query  182  TITGVARIIKERRPATQFVAVEPAASPVLSGGQKGPHPIQGIGAGFVPSV-LVLDL--VD  238
+            ++TG+A  ++   P    +AVEP  S ++ G    P+   G G     +V LVLD   +D
+Sbjct  182  SMTGIAHGLRVHNPELVTIAVEPEGS-IIFGKPGKPYYQSGTGTPQGDTVGLVLDYSCID  240
+
+Query  239  EIVTVGNEEALDLARRLAKEEGLLVGISAGAAVCAALHVARRPENTGKLIVVVLPDFGER  298
+                V +  A + AR LA+  GLLVG S G  V  AL +       G  + + + D GE+
+Sbjct  241  YGEQVSDVCAFETARYLARRFGLLVGGSTGGVVYKALELINNSTICGN-VALAMADGGEK  299
+
+Query  299  YLSTML  304
+            YL T+ 
+Sbjct  300  YLQTIF  305
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2205038430
+
+
+Query= g2303.t1
+
+Length=310
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044254(gb|WP_000570808) (sbnA) 2,3-diaminopropionate biosynthe...  148     2e-42
+VFG044286(gb|WP_012367521) (PMI_RS01140) cysteine synthase family...  125     2e-33
+
+
+>VFG044254(gb|WP_000570808) (sbnA) 2,3-diaminopropionate biosynthesis 
+protein SbnA [Staphyloferrin B (VF1014) - Nutritional/Metabolic 
+factor (VFC0272)] [Staphylococcus aureus subsp. 
+aureus str. Newman]
+Length=326
+
+ Score = 148 bits (374),  Expect = 2e-42, Method: Compositional matrix adjust.
+ Identities = 100/295 (34%), Positives = 161/295 (55%), Gaps = 10/295 (3%)
+
+Query  11   IGRTPLVRLRRVTDGAVADIVAKLEFFNPANSVKDRIGVAMLQAAEQAGLIKPDTIILEP  70
+            +G+TP+V+L ++      ++ AKLE+ NP  S+KDR    +++   + GLI  +T ++E 
+Sbjct  16   VGQTPMVQLHQLF--PKHEVFAKLEYMNPGGSMKDRPAKYIIEHGIKHGLITENTHLIES  73
+
+Query  71   TSGNTGIALAMVCAARGYRCVLTMPETMSLERRMLLRAYGA--ELILTPGADG--MSGAI  126
+            TSGN GIALAM+   +G +    +   +S     ++++YGA  E++  P A G  +   I
+Sbjct  74   TSGNLGIALAMIAKIKGLKLTCVVDPKISPTNLKIIKSYGANVEMVEEPDAHGGYLMTRI  133
+
+Query  127  AKAEE-LAKTDQRYFVPQQFENPANPAIHRVTTAEEVWRDTDGKVDIVVAGVGTGGTITG  185
+            AK +E LA  D  Y++  Q+ N  N   H      E+       +D  VA V T G+I G
+Sbjct  134  AKVQELLATIDDAYWI-NQYANELNWQSHYHGAGTEIVETIKQPIDYFVAPVSTTGSIMG  192
+
+Query  186  VAQVIKERKPSARFVAVEPAASPVLSGGQKGPHPIQGIGAGFVPPVLDQDLVDEIITVGN  245
+            +++ IKE  P+A+ VAV+   S V+ G +     + GIGA  VP +L++  ++++I V +
+Sbjct  193  MSRKIKEVHPNAQIVAVDAKGS-VIFGDKPINRELPGIGASRVPEILNRSEINQVIHVDD  251
+
+Query  246  EDALNVARRLAREEGLLVGISSGAATVAALQVARRPENAGKLIVVVLPDFGERYL  300
+              +    R+L   EG+  G S+G+   A  Q+    E  G  IV +LPD G+RYL
+Sbjct  252  YQSALGCRKLIDYEGIFAGGSTGSIIAAIEQLITSIEE-GATIVTILPDRGDRYL  305
+
+
+>VFG044286(gb|WP_012367521) (PMI_RS01140) cysteine synthase family 
+protein [Proteobactin (VF1252) - Nutritional/Metabolic 
+factor (VFC0272)] [Proteus mirabilis HI4320]
+Length=338
+
+ Score = 125 bits (313),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 101/309 (33%), Positives = 151/309 (49%), Gaps = 15/309 (5%)
+
+Query  7    ITQLIGRTPLVRLRRVTDGAVADIVAKLEFFNPANSVKDRIGVAMLQAAEQAGLIKPDTI  66
+            +T LIG TP+++L  +   +   +  K+E  NP  S+KDR+   M+ AA ++G IKP + 
+Sbjct  6    VTDLIGNTPIIQLPLLQ--SDTRLYIKVEKNNPGGSMKDRMARNMVVAALKSGKIKPGST  63
+
+Query  67   ILEPTSGNTGIALAMVCAARGYRCVLTMPETMSLERRMLLRAYGAELILTPGADGMSGAI  126
+            I+E +SGNTGI LA+     G R +  +    + ++  ++RA GAE+    G  G +   
+Sbjct  64   IVESSSGNTGIGLAIAAIEFGLRFIAVVDHHAAQDKIAIMRALGAEIRYVKGDYGENEVA  123
+
+Query  127  A-----KAEELAKTDQRYFVPQQFENPANPAIHRVTTAEEVWRDTDGKVDIVVAGVGTGG  181
+                   A E+A          Q +N AN   +     E +     GK+D  V  VGTGG
+Sbjct  124  VVERQRMAAEIANEIPGAIFMNQSDNAANAGGYADLVRELI--SQIGKIDAWVGCVGTGG  181
+
+Query  182  TITGVAQVIKERKPSARFVAVEPAASPVLSGGQKGPHPIQGIG---AGFVPPVLDQDLVD  238
+            ++TG+A  ++   P    +AVEP  S ++ G    P+   G G      V  VLD   +D
+Sbjct  182  SMTGIAHGLRVHNPELVTIAVEPEGS-IIFGKPGKPYYQSGTGTPQGDTVGLVLDYSCID  240
+
+Query  239  EIITVGNEDALNVARRLAREEGLLVGISSGAATVAALQVARRPENAGKLIVVVLPDFGER  298
+                V +  A   AR LAR  GLLVG S+G     AL++       G  + + + D GE+
+Sbjct  241  YGEQVSDVCAFETARYLARRFGLLVGGSTGGVVYKALELINNSTICGN-VALAMADGGEK  299
+
+Query  299  YLSTPLFAD  307
+            YL T +F D
+Sbjct  300  YLQT-IFND  307
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.383    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2205038430
+
+
+Query= g2752.t1
+
+Length=324
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044254(gb|WP_000570808) (sbnA) 2,3-diaminopropionate biosynthe...  137     7e-38
+VFG044286(gb|WP_012367521) (PMI_RS01140) cysteine synthase family...  126     1e-33
+
+
+>VFG044254(gb|WP_000570808) (sbnA) 2,3-diaminopropionate biosynthesis 
+protein SbnA [Staphyloferrin B (VF1014) - Nutritional/Metabolic 
+factor (VFC0272)] [Staphylococcus aureus subsp. 
+aureus str. Newman]
+Length=326
+
+ Score = 137 bits (345),  Expect = 7e-38, Method: Compositional matrix adjust.
+ Identities = 102/318 (32%), Positives = 159/318 (50%), Gaps = 15/318 (5%)
+
+Query  11   SIGNTPLVQINRIAPRGVTILAKIEGRNPGYSVKCRIGANMIWDAEASGRLKSGMTLVEP  70
+            S+G TP+VQ++++ P+   + AK+E  NPG S+K R    +I      G +     L+E 
+Sbjct  15   SVGQTPMVQLHQLFPKH-EVFAKLEYMNPGGSMKDRPAKYIIEHGIKHGLITENTHLIES  73
+
+Query  71   TSGNTGIGLAFVAAARGYKLILTMPASMSLERRKVLKALGAELVLTEPAKGMKGA----I  126
+            TSGN GI LA +A  +G KL   +   +S    K++K+ GA + + E      G     I
+Sbjct  74   TSGNLGIALAMIAKIKGLKLTCVVDPKISPTNLKIIKSYGANVEMVEEPDAHGGYLMTRI  133
+
+Query  127  QKAEELVAGDPGKYFMPQQFDNPANPAIHEKTTGPEIWNDTEGAVDVLVSGVGTGGTLTG  186
+             K +EL+A     Y++  Q+ N  N   H    G EI    +  +D  V+ V T G++ G
+Sbjct  134  AKVQELLATIDDAYWI-NQYANELNWQSHYHGAGTEIVETIKQPIDYFVAPVSTTGSIMG  192
+
+Query  187  VSRYIKNTRGKPILAVAVEPVTSPVISQTLAGEEVKPAPHKIQGIGAGFVPKNLDLSLVD  246
+            +SR IK       + VAV+   S +          KP   ++ GIGA  VP+ L+ S ++
+Sbjct  193  MSRKIKEVHPNAQI-VAVDAKGSVIFGD-------KPINRELPGIGASRVPEILNRSEIN  244
+
+Query  247  RVEKIGDDEAKNMALRLMQEEGILCGISSGAAMAAAVRLAEEPNMQGKTIVVILPDSGER  306
+            +V  + D ++     +L+  EGI  G S+G+ +AA  +L      +G TIV ILPD G+R
+Sbjct  245  QVIHVDDYQSALGCRKLIDYEGIFAGGSTGSIIAAIEQLITSIE-EGATIVTILPDRGDR  303
+
+Query  307  YLSSMLFDGLFSEQELTQ  324
+            YL  +  D    + +  Q
+Sbjct  304  YLDLVYSDTWLEKMKSRQ  321
+
+
+>VFG044286(gb|WP_012367521) (PMI_RS01140) cysteine synthase family 
+protein [Proteobactin (VF1252) - Nutritional/Metabolic 
+factor (VFC0272)] [Proteus mirabilis HI4320]
+Length=338
+
+ Score = 126 bits (316),  Expect = 1e-33, Method: Compositional matrix adjust.
+ Identities = 102/328 (31%), Positives = 160/328 (49%), Gaps = 23/328 (7%)
+
+Query  4    IFADNAQSIGNTPLVQINRIAPRGVTILAKIEGRNPGYSVKCRIGANMIWDAEASGRLKS  63
+            +F+     IGNTP++Q+  +      +  K+E  NPG S+K R+  NM+  A  SG++K 
+Sbjct  2    VFSKVTDLIGNTPIIQL-PLLQSDTRLYIKVEKNNPGGSMKDRMARNMVVAALKSGKIKP  60
+
+Query  64   GMTLVEPTSGNTGIGLAFVAAARGYKLILTMPASMSLERRKVLKALGAELVLTEPAKGMK  123
+            G T+VE +SGNTGIGLA  A   G + I  +    + ++  +++ALGAE+   +   G  
+Sbjct  61   GSTIVESSSGNTGIGLAIAAIEFGLRFIAVVDHHAAQDKIAIMRALGAEIRYVKGDYGEN  120
+
+Query  124  --GAIQK---AEELVAGDPGKYFMPQQFDNPANPAIHEKTTGPEIWNDTEGAVDVLVSGV  178
+                +++   A E+    PG  FM Q  DN AN   +       I     G +D  V  V
+Sbjct  121  EVAVVERQRMAAEIANEIPGAIFMNQS-DNAANAGGYADLVRELI--SQIGKIDAWVGCV  177
+
+Query  179  GTGGTLTGVSRYIKNTRGKPILAVAVEPVTSPVISQTLAGEEVKPAPHK----IQGIGAG  234
+            GTGG++TG++  ++      ++ +AVEP  S +      G+  KP         QG   G
+Sbjct  178  GTGGSMTGIAHGLR-VHNPELVTIAVEPEGSIIF-----GKPGKPYYQSGTGTPQGDTVG  231
+
+Query  235  FVPKNLDLSLVDRVEKIGDDEAKNMALRLMQEEGILCGISSGAAMAAAVRLAEEPNMQGK  294
+             V   LD S +D  E++ D  A   A  L +  G+L G S+G  +  A+ L     + G 
+Sbjct  232  LV---LDYSCIDYGEQVSDVCAFETARYLARRFGLLVGGSTGGVVYKALELINNSTICGN  288
+
+Query  295  TIVVILPDSGERYLSSMLFDGLFSEQEL  322
+             + + + D GE+YL ++  D    E+ L
+Sbjct  289  -VALAMADGGEKYLQTIFNDTWLKERNL  315
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.134    0.377    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2352040992
+
+
+Query= g2266.t1
+
+Length=323
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044254(gb|WP_000570808) (sbnA) 2,3-diaminopropionate biosynthe...  140     4e-39
+VFG044286(gb|WP_012367521) (PMI_RS01140) cysteine synthase family...  119     5e-31
+
+
+>VFG044254(gb|WP_000570808) (sbnA) 2,3-diaminopropionate biosynthesis 
+protein SbnA [Staphyloferrin B (VF1014) - Nutritional/Metabolic 
+factor (VFC0272)] [Staphylococcus aureus subsp. 
+aureus str. Newman]
+Length=326
+
+ Score = 140 bits (353),  Expect = 4e-39, Method: Compositional matrix adjust.
+ Identities = 102/316 (32%), Positives = 167/316 (53%), Gaps = 21/316 (7%)
+
+Query  11   TIGHTPLVRLNRI-GNGRILAKVESRNPSFSVKCRIGANMIWDAEKRGVLKPGVELVEPT  69
+            ++G TP+V+L+++     + AK+E  NP  S+K R    +I    K G++     L+E T
+Sbjct  15   SVGQTPMVQLHQLFPKHEVFAKLEYMNPGGSMKDRPAKYIIEHGIKHGLITENTHLIEST  74
+
+Query  70   SGNTGIALAYVAAARGYKLTLTMPETMSIERRKLLKALGANLVLTEGAKGMKGA----IQ  125
+            SGN GIALA +A  +G KLT  +   +S    K++K+ GAN+ + E      G     I 
+Sbjct  75   SGNLGIALAMIAKIKGLKLTCVVDPKISPTNLKIIKSYGANVEMVEEPDAHGGYLMTRIA  134
+
+Query  126  KAEEIVASDPQKYLLLQQFSNPANPEIHEKTTGPEIWEDTDGQVDVFISGVGTGGTLTGV  185
+            K +E++A+    Y  + Q++N  N + H    G EI E     +D F++ V T G++ G+
+Sbjct  135  KVQELLATIDDAY-WINQYANELNWQSHYHGAGTEIVETIKQPIDYFVAPVSTTGSIMGM  193
+
+Query  186  TRYIKGTKGKTDLITVAVEPTDSPVIAQALAGEEIKPGPHKIQGIGAGFIPGNLDLKLID  245
+            +R IK       +  VAV+   S +          KP   ++ GIGA  +P  L+   I+
+Sbjct  194  SRKIKEVHPNAQI--VAVDAKGSVIFGD-------KPINRELPGIGASRVPEILNRSEIN  244
+
+Query  246  KVVGITNEEAISTARRLMEEEGILAGISSGAAVAAALKL--QEDESFTNKNIVVILPSSG  303
+            +V+ + + ++    R+L++ EGI AG S+G+ +AA  +L    +E  T   IV ILP  G
+Sbjct  245  QVIHVDDYQSALGCRKLIDYEGIFAGGSTGSIIAAIEQLITSIEEGAT---IVTILPDRG  301
+
+Query  304  ERYLSTALFADLFTEK  319
+            +RYL   +++D + EK
+Sbjct  302  DRYLDL-VYSDTWLEK  316
+
+
+>VFG044286(gb|WP_012367521) (PMI_RS01140) cysteine synthase family 
+protein [Proteobactin (VF1252) - Nutritional/Metabolic 
+factor (VFC0272)] [Proteus mirabilis HI4320]
+Length=338
+
+ Score = 119 bits (297),  Expect = 5e-31, Method: Compositional matrix adjust.
+ Identities = 96/322 (30%), Positives = 154/322 (48%), Gaps = 28/322 (9%)
+
+Query  12   IGHTPLVRLNRI-GNGRILAKVESRNPSFSVKCRIGANMIWDAEKRGVLKPGVELVEPTS  70
+            IG+TP+++L  +  + R+  KVE  NP  S+K R+  NM+  A K G +KPG  +VE +S
+Sbjct  10   IGNTPIIQLPLLQSDTRLYIKVEKNNPGGSMKDRMARNMVVAALKSGKIKPGSTIVESSS  69
+
+Query  71   GNTGIALAYVAAARGYKLTLTMPETMSIERRKLLKALGANLVLTEGAKGMKGAI----QK  126
+            GNTGI LA  A   G +    +    + ++  +++ALGA +   +G  G         Q+
+Sbjct  70   GNTGIGLAIAAIEFGLRFIAVVDHHAAQDKIAIMRALGAEIRYVKGDYGENEVAVVERQR  129
+
+Query  127  AEEIVASDPQKYLLLQQFSNPANPEIHEKTTGPEIWEDTDGQVDVFISGVGTGGTLTGVT  186
+                +A++    + + Q  N AN   +       I     G++D ++  VGTGG++TG+ 
+Sbjct  130  MAAEIANEIPGAIFMNQSDNAANAGGYADLVRELI--SQIGKIDAWVGCVGTGGSMTGIA  187
+
+Query  187  RYIKGTKGKTDLITVAVEPTDSPVIAQALAGEEIKPG-PHKIQGIG------AGFIPGNL  239
+              ++      +L+T+AVEP  S +          KPG P+   G G       G +   L
+Sbjct  188  HGLR--VHNPELVTIAVEPEGSIIFG--------KPGKPYYQSGTGTPQGDTVGLV---L  234
+
+Query  240  DLKLIDKVVGITNEEAISTARRLMEEEGILAGISSGAAVAAALKLQEDESFTNKNIVVIL  299
+            D   ID    +++  A  TAR L    G+L G S+G  V  AL+L  + +    N+ + +
+Sbjct  235  DYSCIDYGEQVSDVCAFETARYLARRFGLLVGGSTGGVVYKALELINNSTICG-NVALAM  293
+
+Query  300  PSSGERYLSTALFADLFTEKEL  321
+               GE+YL T        E+ L
+Sbjct  294  ADGGEKYLQTIFNDTWLKERNL  315
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.133    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2341540809
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

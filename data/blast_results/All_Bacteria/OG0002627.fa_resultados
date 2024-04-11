@@ -1,0 +1,299 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1384.t1
+
+Length=256
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002244(gb|WP_011181141) (bepC) Bartonella effector protein Bep...  50.8    3e-07
+VFG018701(gb|WP_012232128) (bepC) Bartonella effector protein Bep...  47.8    3e-06
+
+
+>VFG002244(gb|WP_011181141) (bepC) Bartonella effector protein 
+BepC [VirB/VirD4 T4SS secreted effectors (VF0682) - Effector 
+delivery system (VFC0086)] [Bartonella henselae str. Houston-1]
+Length=532
+
+ Score = 50.8 bits (120),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 50/187 (27%), Positives = 75/187 (40%), Gaps = 31/187 (17%)
+
+Query  9    FETTGYLRNSLGLKDPAEVKENEHFSFEMGLDEALSYLERTKNLNYQA---------LLQ  59
+            ++ +  L+N  G+KDP  + E          D A   +    NL ++          L  
+Sbjct  8    YKNSNTLKNKYGIKDPQRLYER------CAHDTAREVM----NLRFEPPPQRFGLAYLKL  57
+
+Query  60   VHRLLFEKFYPWAGRDRLE--LVPHLSVWKGPKGAP---RRTFFESPAMIERAVDYALSL  114
+            +H  LF + + WAG  R E       S  + P   P   R  F   P + +        L
+Sbjct  58   IHWTLFHRSFEWAGHTRDEPFTFEDGSTARMPAMRPKGHRVPFAVGPQIQKELKQLERKL  117
+
+Query  115  ASK-------KQGFMQKPGEVMGLLCFAHPFLDGNGRSILLFYMELSYRAGFAIDWASTR  167
+             +K       +Q F +   EV   L  AHPF  GNGR+  +F  +L   AG+ ID++   
+Sbjct  118  TAKNNLQGLSRQEFAESAAEVFMTLDHAHPFRKGNGRAQRIFMEKLGQAAGYKIDFSFIT  177
+
+Query  168  KDDYLQA  174
+            K+   QA
+Sbjct  178  KERLTQA  184
+
+
+>VFG018701(gb|WP_012232128) (bepC) Bartonella effector protein 
+BepC [VirB/VirD4 type IV secretion system (VF0369) - Effector 
+delivery system (VFC0086)] [Bartonella tribocorum CIP 105476]
+Length=532
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 45/170 (26%), Positives = 70/170 (41%), Gaps = 17/170 (10%)
+
+Query  9    FETTGYLRNSLGLKDPAEVKENEHFSFEMGLDEALSYLERTKNLNYQA--LLQVHRLLFE  66
+            ++ T  L+N  G+KDP ++ E  +      + EA+++       N+ A  L  +H  LF 
+Sbjct  8    YKGTTTLKNKYGIKDPNKLYERCNHDV---VKEAVNFRHEPPPQNFDAAYLSLIHWSLFH  64
+
+Query  67   KFYPWAGRDRLELVPHLSVWKGPKGAPRRTFFESPAMIERAVDYALSLASKK--------  118
+            K + WAG  R               A R   +E+P  I   +   L    K         
+Sbjct  65   KTFEWAGHTRDTSFTFEDGTTARMPAMRPKGYEAPFAIGPQIKKELKQLEKTLNQKNNLK  124
+
+Query  119  ----QGFMQKPGEVMGLLCFAHPFLDGNGRSILLFYMELSYRAGFAIDWA  164
+                Q F +   +V   L  AHPF  GNGR+  +F  +L   AG  +D++
+Sbjct  125  GLSHQEFAENAADVFMALEHAHPFRKGNGRANRMFMEKLGQAAGHTVDFS  174
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.140    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1667871226
+
+
+Query= g3236.t1
+
+Length=200
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002241(gb|WP_011181138) (bepA) Bartonella effector protein Bep...  89.0    1e-20
+VFG002244(gb|WP_011181141) (bepC) Bartonella effector protein Bep...  84.3    4e-19
+VFG002243(gb|WP_011181140) (bepB) Bartonella effector protein Bep...  75.5    5e-16
+VFG018701(gb|WP_012232128) (bepC) Bartonella effector protein Bep...  72.0    7e-15
+VFG016707(gb|WP_011179735) (bepC) Bartonella effector protein Bep...  67.8    2e-13
+VFG018706(gb|WP_012232133) (bepI) BID domain-containing T4SS effe...  67.8    2e-13
+VFG018700(gb|WP_012232126) (bepA) Bartonella effector protein Bep...  65.5    1e-12
+
+
+>VFG002241(gb|WP_011181138) (bepA) Bartonella effector protein 
+BepA [VirB/VirD4 T4SS secreted effectors (VF0682) - Effector 
+delivery system (VFC0086)] [Bartonella henselae str. Houston-1]
+Length=544
+
+ Score = 89.0 bits (219),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 62/200 (31%), Positives = 94/200 (47%), Gaps = 24/200 (12%)
+
+Query  12   YLYPGLNVMRNRLGIHQAQRLAQ-----AAYEMTALRAATIELGPLVRGLPHLCAIHRQL  66
+            Y+YP    ++N+ GI       +      A  M  LR  ++   P      +LC IH+QL
+Sbjct  19   YVYPNTTTLKNKYGIKNLNAFLEKCSHDTAKAMINLREESL---PEYFDTAYLCHIHQQL  75
+
+Query  67   YQDIFDWAGQLREVDIYQGDTRFCHFAYIEKEG--NA-------------LMQDLEEEGY  111
+            +++ F+WAG LR +     D        +++ G  NA             L Q L E+  
+Sbjct  76   FKNTFEWAGYLRHIPFTFADGTTAAMPEMKRTGWKNAFAIGDEIQEGLQRLDQTLAEKNN  135
+
+Query  112  LVGLAHEKFVERLAHYYCEINVLHPFRFGSGLAQRIFFEQLALHAGYALSWQGIAVETWK  171
+            L GL  E+F       +  +N LHPFR G+G  QR+FFE LA  AG+ L++  I  E   
+Sbjct  136  LQGLTREEFNSEAIELFNSLNQLHPFREGNGRTQRLFFENLAKAAGHQLNFSLITKERMM  195
+
+Query  172  QANQSGA-MGDLSALRAIFQ  190
+             A+ + A  GDL  ++ +F+
+Sbjct  196  VASVAVAENGDLEPMQHLFE  215
+
+
+>VFG002244(gb|WP_011181141) (bepC) Bartonella effector protein 
+BepC [VirB/VirD4 T4SS secreted effectors (VF0682) - Effector 
+delivery system (VFC0086)] [Bartonella henselae str. Houston-1]
+Length=532
+
+ Score = 84.3 bits (207),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 59/197 (30%), Positives = 89/197 (45%), Gaps = 18/197 (9%)
+
+Query  12   YLYPGLNVMRNRLGIHQAQRLAQAAYEMTALRAATIELGPLVR--GLPHLCAIHRQLYQD  69
+            YLY   N ++N+ GI   QRL +     TA     +   P  +  GL +L  IH  L+  
+Sbjct  6    YLYKNSNTLKNKYGIKDPQRLYERCAHDTAREVMNLRFEPPPQRFGLAYLKLIHWTLFHR  65
+
+Query  70   IFDWAGQLREVDIYQGD---------------TRFCHFAYIEKEGNALMQDLEEEGYLVG  114
+             F+WAG  R+      D                 F     I+KE   L + L  +  L G
+Sbjct  66   SFEWAGHTRDEPFTFEDGSTARMPAMRPKGHRVPFAVGPQIQKELKQLERKLTAKNNLQG  125
+
+Query  115  LAHEKFVERLAHYYCEINVLHPFRFGSGLAQRIFFEQLALHAGYALSWQGIAVETWKQAN  174
+            L+ ++F E  A  +  ++  HPFR G+G AQRIF E+L   AGY + +  I  E   QA+
+Sbjct  126  LSRQEFAESAAEVFMTLDHAHPFRKGNGRAQRIFMEKLGQAAGYKIDFSFITKERLTQAS  185
+
+Query  175  QSGAM-GDLSALRAIFQ  190
+             +    G+   ++ +F+
+Sbjct  186  IAAMQHGNTQPMKDLFE  202
+
+
+>VFG002243(gb|WP_011181140) (bepB) Bartonella effector protein 
+BepB [VirB/VirD4 T4SS secreted effectors (VF0682) - Effector 
+delivery system (VFC0086)] [Bartonella henselae str. Houston-1]
+Length=542
+
+ Score = 75.5 bits (184),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 58/201 (29%), Positives = 92/201 (46%), Gaps = 26/201 (13%)
+
+Query  12   YLYPGLNVMRNRLGIHQAQRLAQAAYE-----MTALRAATIELGPLVRGLPHLCAIHRQL  66
+            Y+YPG  +++N+ G    + L +         M  LRA ++   P      +LC IH+QL
+Sbjct  17   YIYPGTQILKNKYGETDLKLLLEKCLHDREQAMMNLRAESL---PEYFDCAYLCYIHQQL  73
+
+Query  67   YQDIFDWAGQLREVDIYQGDTRFC------------HFAYIEKEGNALM---QDLEEEGY  111
+            +Q  F+WAG LR       D                 FA  EK    L    Q+L E+  
+Sbjct  74   FQKTFEWAGHLRHTPFTFADGSIAAMPEMKRTEWGKDFAKSEKIPELLQKLDQELAEKDN  133
+
+Query  112  LVGLAHEKFVERLAHYYCEINVLHPFRFGSGLAQRIFFEQLALHAGYALSWQGIAVETWK  171
+            L GL  E+F+++    +  ++ +HPF  G+   ++ FFE LA  AG+ L +  +  +   
+Sbjct  134  LQGLTREEFIKQATELFYSLHKIHPFIDGNEHTEQFFFENLAKAAGHQLDF-SLVTQKRM  192
+
+Query  172  QANQSGAM--GDLSALRAIFQ  190
+             A  S AM  GD   ++ +F+
+Sbjct  193  MAVCSEAMQYGDTQLMKDLFE  213
+
+
+>VFG018701(gb|WP_012232128) (bepC) Bartonella effector protein 
+BepC [VirB/VirD4 type IV secretion system (VF0369) - Effector 
+delivery system (VFC0086)] [Bartonella tribocorum CIP 105476]
+Length=532
+
+ Score = 72.0 bits (175),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 47/172 (27%), Positives = 72/172 (42%), Gaps = 17/172 (10%)
+
+Query  12   YLYPGLNVMRNRLGIHQAQRLAQAAYEMTALRAATIELGPLVRGL--PHLCAIHRQLYQD  69
+            YLY G   ++N+ GI    +L +         A      P  +     +L  IH  L+  
+Sbjct  6    YLYKGTTTLKNKYGIKDPNKLYERCNHDVVKEAVNFRHEPPPQNFDAAYLSLIHWSLFHK  65
+
+Query  70   IFDWAGQLREVDIYQGD---------------TRFCHFAYIEKEGNALMQDLEEEGYLVG  114
+             F+WAG  R+      D                 F     I+KE   L + L ++  L G
+Sbjct  66   TFEWAGHTRDTSFTFEDGTTARMPAMRPKGYEAPFAIGPQIKKELKQLEKTLNQKNNLKG  125
+
+Query  115  LAHEKFVERLAHYYCEINVLHPFRFGSGLAQRIFFEQLALHAGYALSWQGIA  166
+            L+H++F E  A  +  +   HPFR G+G A R+F E+L   AG+ + +  I 
+Sbjct  126  LSHQEFAENAADVFMALEHAHPFRKGNGRANRMFMEKLGQAAGHTVDFSFIT  177
+
+
+>VFG016707(gb|WP_011179735) (bepC) Bartonella effector protein 
+BepC [VirB/VirD4 type IV secretion system (VF0369) - Effector 
+delivery system (VFC0086)] [Bartonella quintana str. Toulouse]
+Length=533
+
+ Score = 67.8 bits (164),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 53/195 (27%), Positives = 81/195 (42%), Gaps = 24/195 (12%)
+
+Query  12   YLYPGLNVMRNRLGIHQAQRLAQAAYEMTALRAATIELGPLVRGL--PHLCAIHRQLYQD  69
+            Y Y     ++N+ GI   ++L +     TA  A    L P        +L  IH  L+ +
+Sbjct  6    YFYKNSATLKNKHGIKNPRKLYERCAHETAREAVNFRLEPPPGKFDAAYLRTIHWCLFHN  65
+
+Query  70   IFDWAGQLREVD-IYQGDTRFCHFAY--------------IEKEGNALMQDLEEEGYLVG  114
+             F+WAG  R+    ++  +  C  A               I++E   L Q L  +  L G
+Sbjct  66   TFEWAGVTRDQPFTFEDGSTACMPAMRPKGYKVPFAVGSQIQRELKKLEQRLTAKNNLQG  125
+
+Query  115  LAHEKFVERLAHYYCEINVLHPFRFGSGLAQRIFFEQLALHAGYALSWQGIAVETWK---  171
+            L+ ++F    A  +  ++  HPFR G+G  QR+F E+L   AGY + +  I  E      
+Sbjct  126  LSRQEFAANAAEVFTALDHAHPFRKGNGRTQRMFMEKLGQAAGYKIDFSLITKERMTYAS  185
+
+Query  172  ----QANQSGAMGDL  182
+                Q N    M DL
+Sbjct  186  IEAMQHNNPEPMKDL  200
+
+
+>VFG018706(gb|WP_012232133) (bepI) BID domain-containing T4SS 
+effector [VirB/VirD4 type IV secretion system (VF0369) - Effector 
+delivery system (VFC0086)] [Bartonella tribocorum CIP 
+105476]
+Length=790
+
+ Score = 67.8 bits (164),  Expect = 2e-13, Method: Composition-based stats.
+ Identities = 50/182 (27%), Positives = 84/182 (46%), Gaps = 23/182 (13%)
+
+Query  1    MSDKFGEGRDPYLYPGLNVMRNRLGIHQAQRLAQ-----AAYEMTALRAATIELGPLVRG  55
+            +S K  E    + YP   V++N+  I   + L +        EM  LR    E  P    
+Sbjct  26   ISKKINEEAQNFFYPNSKVLKNKYRIKDKEILMERCSDDVKKEMIKLRQ---EPPPEQFN  82
+
+Query  56   LPHLCAIHRQLYQDIFDWAGQLREVDIYQGDTRFCHFAYIEKE--------GNALMQDLE  107
+              +L  +H++L+   F+WAGQ R+      D+       ++++        G  + + LE
+Sbjct  83   SSYLKYLHQRLFSRAFEWAGQTRQAPFTFADSSVASMPILKRKEFTQPFAIGRKVQEGLE  142
+
+Query  108  -------EEGYLVGLAHEKFVERLAHYYCEINVLHPFRFGSGLAQRIFFEQLALHAGYAL  160
+                   E+  L GL+ E+FVE  A    +++ LHPFR G+   +R+F E+L   AG+ L
+Sbjct  143  KLDKTLAEKNNLKGLSREEFVEHAAQLMIDLHHLHPFREGNRRTKRLFVEKLGQAAGHEL  202
+
+Query  161  SW  162
+            ++
+Sbjct  203  NF  204
+
+
+>VFG018700(gb|WP_012232126) (bepA) Bartonella effector protein 
+BepA [VirB/VirD4 type IV secretion system (VF0369) - Effector 
+delivery system (VFC0086)] [Bartonella tribocorum CIP 105476]
+Length=544
+
+ Score = 65.5 bits (158),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 48/197 (24%), Positives = 81/197 (41%), Gaps = 18/197 (9%)
+
+Query  12   YLYPGLNVMRNRLGIHQAQRLAQAAYEMTALRAATIELGPLVRGL--PHLCAIHRQLYQD  69
+            Y+YP    ++N+ GI             TA     +   PL       +LC+IH QL+++
+Sbjct  19   YVYPNTTTLKNKYGITNFDAFTAKYTHDTAKAIVNLREAPLPEKFDSSYLCSIHHQLFKN  78
+
+Query  70   IFDWAGQLREVDIY---------------QGDTRFCHFAYIEKEGNALMQDLEEEGYLVG  114
+             F+WAGQ R V                  + +  F +   IE+    L + L E+  L  
+Sbjct  79   TFEWAGQPRNVPFTFLDESVTAMPEMKRAEWNNVFANDDEIEEGLQTLNKTLAEKNALRS  138
+
+Query  115  LAHEKFVERLAHYYCEINVLHPFRFGSGLAQRIFFEQLALHAGYALSWQGIAVETWKQAN  174
+            L  E F+      +  +  + PF  G+     +FFE+LA  A + L +  +  E    A+
+Sbjct  139  LTREDFISEAVPLFVSLKNIRPFINGNEHTIHLFFEKLAQAAEHQLDFSLVTKERMLVAS  198
+
+Query  175  QSGAMGD-LSALRAIFQ  190
+             +    D L  ++ +F+
+Sbjct  199  VAAIQNDNLEPMQHLFE  215
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1117209765
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

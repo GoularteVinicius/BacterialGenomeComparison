@@ -1,0 +1,323 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1718.t1
+
+Length=357
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000190(gb|NP_250386) (pscP) type III secretion system protein ...  671     0.0  
+VFG015104(gb|WP_011666708) (pscP) type III secretion system prote...  649     0.0  
+VFG041662(gb|WP_012777225) (PAU_RS23710) type III secretion syste...  110     6e-27
+VFG041812(gb|WP_011147910) (PLU_RS24675) type III secretion syste...  105     3e-25
+VFG042263(gb|AAS91808) (ascP) AscP [T3SS (VF0479) - Effector deli...  84.0    7e-18
+VFG003195(gb|WP_011901824) (yscP) type III secretion system needl...  84.0    1e-17
+VFG003329(gb|WP_011191386) (yscP) type III secretion system needl...  84.0    1e-17
+VFG000392(gb|WP_002212950) (yscP) type III secretion system needl...  84.0    1e-17
+VFG038350(gb|WP_005320749) (ascP) Type III secretion system prote...  83.2    2e-17
+VFG003469(gb|WP_011117639) (yscP) type III secretion system needl...  82.4    3e-17
+VFG023724(gb|WP_013749461) (yscP) type III secretion system needl...  82.0    6e-17
+
+
+>VFG000190(gb|NP_250386) (pscP) type III secretion system protein 
+PscP [TTSS (VF0083) - Effector delivery system (VFC0086)] 
+[Pseudomonas aeruginosa PAO1]
+Length=369
+
+ Score = 671 bits (1730),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 356/357 (99%), Positives = 357/357 (100%), Gaps = 0/357 (0%)
+
+Query  1    MSSDTLAPLPPLRAQQIAFEQALPAHRPPAPRPPFDKGDETTEAAATADAPTSTPLADQP  60
+            +SSDTLAPLPPLRAQQIAFEQALPAHRPPAPRPPFDKGDETTEAAATADAPTSTPLADQP
+Sbjct  13   VSSDTLAPLPPLRAQQIAFEQALPAHRPPAPRPPFDKGDETTEAAATADAPTSTPLADQP  72
+
+Query  61   AAPAADRPPTIRQPPMPVAADATPTPTPTPTPTPTPTPTPTPTPTVSPSGSVARQAPAVS  120
+            AAPAADRPPTIRQPPMPVAADATPTPTPTPTPTPTPTPTPTPTPTVSPSGSVARQAPAVS
+Sbjct  73   AAPAADRPPTIRQPPMPVAADATPTPTPTPTPTPTPTPTPTPTPTVSPSGSVARQAPAVS  132
+
+Query  121  ARVAASTQAREPASVSAPPVDEPPLVPVSSHPQIAGRTHERPQPGPGFPAKTAAEVAPTA  180
+            ARVAASTQAREPASVSAPPVDEPPLVPVSSHPQIAGRTHERPQPGPGFPAKTAAEVAPTA
+Sbjct  133  ARVAASTQAREPASVSAPPVDEPPLVPVSSHPQIAGRTHERPQPGPGFPAKTAAEVAPTA  192
+
+Query  181  QASVQASPPAPTAGGEGRGEERRQPGETDPSALPPDDQAPVPLPAMQTPGDRLLARLLAS  240
+            QASVQASPPAPTAGGEGRGEERRQPGETDPSALPPDDQAPVPLPAMQTPGDRLLARLLAS
+Sbjct  193  QASVQASPPAPTAGGEGRGEERRQPGETDPSALPPDDQAPVPLPAMQTPGDRLLARLLAS  252
+
+Query  241  SGSRPLPLADLARLLDAVQGRIQVASAAESHAARLQVRLPQLGAVEVQVLHGHGQLQIEI  300
+            SGSRPLPLADLARLLDAVQGRIQVASAAESHAARLQVRLPQLGAVEVQVLHGHGQLQIEI
+Sbjct  253  SGSRPLPLADLARLLDAVQGRIQVASAAESHAARLQVRLPQLGAVEVQVLHGHGQLQIEI  312
+
+Query  301  SASPGSLALLQQARGELLERLQRLHPEQPVQLTFNQQQDSGQRSRQRRYLHEEWQAE  357
+            SASPGSLALLQQARGELLERLQRLHPEQPVQLTFNQQQDSGQRSRQRRYLHEEWQAE
+Sbjct  313  SASPGSLALLQQARGELLERLQRLHPEQPVQLTFNQQQDSGQRSRQRRYLHEEWQAE  369
+
+
+>VFG015104(gb|WP_011666708) (pscP) type III secretion system protein 
+PscP [TTSS (VF0083) - Effector delivery system (VFC0086)] 
+[Pseudomonas aeruginosa UCBPP-PA14]
+Length=372
+
+ Score = 649 bits (1673),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 349/360 (97%), Positives = 352/360 (98%), Gaps = 3/360 (1%)
+
+Query  1    MSSDTLAPLPPLRAQQIAFEQALPAHRPPAPRPPFDKGDETTEA---AATADAPTSTPLA  57
+            +SSDT APLPPLRAQQIAFEQALPAHRPPAPRPPFDKGDETTEA   AATADAPTSTPLA
+Sbjct  13   VSSDTPAPLPPLRAQQIAFEQALPAHRPPAPRPPFDKGDETTEAEEPAATADAPTSTPLA  72
+
+Query  58   DQPAAPAADRPPTIRQPPMPVAADATPTPTPTPTPTPTPTPTPTPTPTVSPSGSVARQAP  117
+            DQPAAPAADRPPT RQ P+PVAADATPTPTPTPTPTPTPTPTPTPTPTVSPSGSVARQAP
+Sbjct  73   DQPAAPAADRPPTTRQAPVPVAADATPTPTPTPTPTPTPTPTPTPTPTVSPSGSVARQAP  132
+
+Query  118  AVSARVAASTQAREPASVSAPPVDEPPLVPVSSHPQIAGRTHERPQPGPGFPAKTAAEVA  177
+            AVSARVAASTQAREPASVSAPPVDEPPLVPVSSHPQIAGRTHERPQPGPGFPAK AAEVA
+Sbjct  133  AVSARVAASTQAREPASVSAPPVDEPPLVPVSSHPQIAGRTHERPQPGPGFPAKAAAEVA  192
+
+Query  178  PTAQASVQASPPAPTAGGEGRGEERRQPGETDPSALPPDDQAPVPLPAMQTPGDRLLARL  237
+            PTAQAS QASPPAPTAGGEGRGEERRQPGETDPSALPPDDQAPVPLPAMQTPGDRLLARL
+Sbjct  193  PTAQASAQASPPAPTAGGEGRGEERRQPGETDPSALPPDDQAPVPLPAMQTPGDRLLARL  252
+
+Query  238  LASSGSRPLPLADLARLLDAVQGRIQVASAAESHAARLQVRLPQLGAVEVQVLHGHGQLQ  297
+            LASSGSRPLPLADLARLLDAVQGRIQVASAAESHAARLQV+LPQLGAVEVQVLHGHGQLQ
+Sbjct  253  LASSGSRPLPLADLARLLDAVQGRIQVASAAESHAARLQVQLPQLGAVEVQVLHGHGQLQ  312
+
+Query  298  IEISASPGSLALLQQARGELLERLQRLHPEQPVQLTFNQQQDSGQRSRQRRYLHEEWQAE  357
+            IEISASPGSLALLQQARGELLERLQRLHPEQPVQLTFNQQQDSGQRSRQRRYLHEEWQAE
+Sbjct  313  IEISASPGSLALLQQARGELLERLQRLHPEQPVQLTFNQQQDSGQRSRQRRYLHEEWQAE  372
+
+
+>VFG041662(gb|WP_012777225) (PAU_RS23710) type III secretion system 
+needle length determinant [T3SS-1 (VF1286) - Effector 
+delivery system (VFC0086)] [Photorhabdus asymbiotica subsp. 
+asymbiotica ATCC 43949]
+Length=442
+
+ Score = 110 bits (275),  Expect = 6e-27, Method: Compositional matrix adjust.
+ Identities = 58/134 (43%), Positives = 84/134 (63%), Gaps = 4/134 (3%)
+
+Query  224  PAMQTPGDRLLARLLASSGSRPLPLADLARLLDAVQGRIQVASAAESHAARLQVRLPQLG  283
+            P    PG+R+LA + A+S + PL    LA L+D +   I +    +     L + LP LG
+Sbjct  312  PTQLLPGERILATMQATSATVPL----LATLIDKLSVEISITLTQQQRPTTLHLTLPNLG  367
+
+Query  284  AVEVQVLHGHGQLQIEISASPGSLALLQQARGELLERLQRLHPEQPVQLTFNQQQDSGQR  343
+            A+E+Q+ + +G+LQIEI A+P +  LL+QAR ELLERLQ L+P Q + L+   Q DS   
+Sbjct  368  ALEIQLTNENGKLQIEILANPTTQQLLKQARSELLERLQHLYPTQTIDLSLPSQTDSEHG  427
+
+Query  344  SRQRRYLHEEWQAE  357
+            SRQRR ++EEW+ +
+Sbjct  428  SRQRRSIYEEWKDD  441
+
+
+>VFG041812(gb|WP_011147910) (PLU_RS24675) type III secretion system 
+needle length determinant [T3SS (VF1288) - Effector delivery 
+system (VFC0086)] [Photorhabdus luminescens subsp. laumondii 
+TTO1]
+Length=376
+
+ Score = 105 bits (261),  Expect = 3e-25, Method: Compositional matrix adjust.
+ Identities = 58/129 (45%), Positives = 82/129 (64%), Gaps = 4/129 (3%)
+
+Query  229  PGDRLLARLLASSGSRPLPLADLARLLDAVQGRIQVASAAESHAARLQVRLPQLGAVEVQ  288
+            PG+R+LA + A+S   PL    L  L+D +   I +    +   A L + LP LGA+E+Q
+Sbjct  251  PGERILATMQATSTISPL----LEVLIDKLSVEISIELTQQPRPATLHLTLPNLGALEIQ  306
+
+Query  289  VLHGHGQLQIEISASPGSLALLQQARGELLERLQRLHPEQPVQLTFNQQQDSGQRSRQRR  348
+            +   HG+LQIEI A+P +  LL+QAR EL+ERLQ L+P Q V+L+   Q DS   SRQRR
+Sbjct  307  LTSEHGKLQIEILANPAAQQLLKQARFELIERLQLLYPTQTVELSLPPQTDSEHGSRQRR  366
+
+Query  349  YLHEEWQAE  357
+             ++EEW+ +
+Sbjct  367  SVYEEWKKD  375
+
+
+>VFG042263(gb|AAS91808) (ascP) AscP [T3SS (VF0479) - Effector 
+delivery system (VFC0086)] [Aeromonas hydrophila str. AH3]
+Length=408
+
+ Score = 84.0 bits (206),  Expect = 7e-18, Method: Compositional matrix adjust.
+ Identities = 51/134 (38%), Positives = 77/134 (57%), Gaps = 5/134 (4%)
+
+Query  224  PAMQTPGDRLLARLLASSGSRPLPLADLARLLDAVQGRIQVASAAESHAARLQVRLPQLG  283
+            P ++TPGD  LAR+  +  +R     +L +LL+ +   I            L++ LP LG
+Sbjct  279  PQVKTPGDLQLARMAPAENNR-----ELGQLLERLAVDIYQELGRPERPPLLRLTLPALG  333
+
+Query  284  AVEVQVLHGHGQLQIEISASPGSLALLQQARGELLERLQRLHPEQPVQLTFNQQQDSGQR  343
+             + +++ H HG++QIEI A+     LL Q R EL++RLQRLHP + V L    Q D  Q 
+Sbjct  334  ELAIRINHHHGEMQIEILATTQGELLLNQGRSELIDRLQRLHPGERVTLDLFSQPDRDQG  393
+
+Query  344  SRQRRYLHEEWQAE  357
+            SRQ+R +++EW A+
+Sbjct  394  SRQQRSIYDEWDAD  407
+
+
+>VFG003195(gb|WP_011901824) (yscP) type III secretion system needle 
+length regulator [TTSS (VF0140) - Effector delivery system 
+(VFC0086)] [Yersinia pestis Pestoides F]
+Length=455
+
+ Score = 84.0 bits (206),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 56/134 (42%), Positives = 81/134 (60%), Gaps = 14/134 (10%)
+
+Query  228  TPGDRLLARL----LASSGSRPLPLADLARLLDAVQGRIQVASAAESHAARLQVRLPQLG  283
+            TPGD LLA +    LAS   + + LA   RL  AV+  ++  S   S   +L + LP+LG
+Sbjct  331  TPGDHLLATMRATRLASVSEQLIQLAQ--RL--AVELELRGGS---SQVTQLHLNLPELG  383
+
+Query  284  AVEVQVLHGHGQLQIEISASPGSLALLQQARGELLERLQRLHPEQPVQLTFNQQQDSGQR  343
+            A+ V++    G+L +E+ AS  +L +L Q   +LLERLQR+   +P QL F    DS Q 
+Sbjct  384  AIMVRIAEIPGKLHVELIASREALRILAQGSYDLLERLQRI---EPTQLDFQASDDSEQE  440
+
+Query  344  SRQRRYLHEEWQAE  357
+            SRQ+R+++EEW+AE
+Sbjct  441  SRQKRHVYEEWEAE  454
+
+
+>VFG003329(gb|WP_011191386) (yscP) type III secretion system needle 
+length regulator [TTSS (VF0140) - Effector delivery system 
+(VFC0086)] [Yersinia pseudotuberculosis IP 32953]
+Length=455
+
+ Score = 84.0 bits (206),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 56/134 (42%), Positives = 81/134 (60%), Gaps = 14/134 (10%)
+
+Query  228  TPGDRLLARL----LASSGSRPLPLADLARLLDAVQGRIQVASAAESHAARLQVRLPQLG  283
+            TPGD LLA +    LAS   + + LA   RL  AV+  ++  S   S   +L + LP+LG
+Sbjct  331  TPGDHLLATMRATRLASVSEQLIQLAQ--RL--AVELELRGGS---SQVTQLHLNLPELG  383
+
+Query  284  AVEVQVLHGHGQLQIEISASPGSLALLQQARGELLERLQRLHPEQPVQLTFNQQQDSGQR  343
+            A+ V++    G+L +E+ AS  +L +L Q   +LLERLQR+   +P QL F    DS Q 
+Sbjct  384  AIMVRIAEIPGKLHVELIASREALRILAQGSYDLLERLQRI---EPTQLDFQASDDSEQE  440
+
+Query  344  SRQRRYLHEEWQAE  357
+            SRQ+R+++EEW+AE
+Sbjct  441  SRQKRHVYEEWEAE  454
+
+
+>VFG000392(gb|WP_002212950) (yscP) type III secretion system needle 
+length regulator [TTSS (VF0140) - Effector delivery system 
+(VFC0086)] [Yersinia pestis CO92]
+Length=455
+
+ Score = 84.0 bits (206),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 56/134 (42%), Positives = 81/134 (60%), Gaps = 14/134 (10%)
+
+Query  228  TPGDRLLARL----LASSGSRPLPLADLARLLDAVQGRIQVASAAESHAARLQVRLPQLG  283
+            TPGD LLA +    LAS   + + LA   RL  AV+  ++  S   S   +L + LP+LG
+Sbjct  331  TPGDHLLATMRATRLASVSEQLIQLAQ--RL--AVELELRGGS---SQVTQLHLNLPELG  383
+
+Query  284  AVEVQVLHGHGQLQIEISASPGSLALLQQARGELLERLQRLHPEQPVQLTFNQQQDSGQR  343
+            A+ V++    G+L +E+ AS  +L +L Q   +LLERLQR+   +P QL F    DS Q 
+Sbjct  384  AIMVRIAEIPGKLHVELIASREALRILAQGSYDLLERLQRI---EPTQLDFQASDDSEQE  440
+
+Query  344  SRQRRYLHEEWQAE  357
+            SRQ+R+++EEW+AE
+Sbjct  441  SRQKRHVYEEWEAE  454
+
+
+>VFG038350(gb|WP_005320749) (ascP) Type III secretion system protein 
+AscP, needle length control, ruler protein [T3SS (VF0479) 
+- Effector delivery system (VFC0086)] [Aeromonas salmonicida 
+subsp. salmonicida A449]
+Length=435
+
+ Score = 83.2 bits (204),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 50/130 (38%), Positives = 75/130 (58%), Gaps = 5/130 (4%)
+
+Query  228  TPGDRLLARLLASSGSRPLPLADLARLLDAVQGRIQVASAAESHAARLQVRLPQLGAVEV  287
+            TPGD  LARL  +  +R     +L +LL+ +   I            L++ LPQLG + +
+Sbjct  310  TPGDLQLARLAPAESNR-----ELCQLLERLAVDIYQELGRPERPPLLRLTLPQLGDLSI  364
+
+Query  288  QVLHGHGQLQIEISASPGSLALLQQARGELLERLQRLHPEQPVQLTFNQQQDSGQRSRQR  347
+            ++ H +G+LQIEI A+     LL Q R +L++RLQRL+P + V L    Q DS + SR +
+Sbjct  365  RIAHHNGELQIEILATAQGELLLNQGRSDLVDRLQRLYPGERVALDLFNQADSERGSRHK  424
+
+Query  348  RYLHEEWQAE  357
+            R ++EEW A+
+Sbjct  425  RSIYEEWDAD  434
+
+
+>VFG003469(gb|WP_011117639) (yscP) type III secretion system needle 
+length regulator [TTSS (VF0140) - Effector delivery system 
+(VFC0086)] [Yersinia enterocolitica subsp. enterocolitica 
+8081]
+Length=453
+
+ Score = 82.4 bits (202),  Expect = 3e-17, Method: Compositional matrix adjust.
+ Identities = 56/134 (42%), Positives = 81/134 (60%), Gaps = 14/134 (10%)
+
+Query  228  TPGDRLLARL----LASSGSRPLPLADLARLLDAVQGRIQVASAAESHAARLQVRLPQLG  283
+            TPGD LLA +    LAS   + + LA   RL  AV+  ++  S   S   +L + LP+LG
+Sbjct  329  TPGDHLLATMRATRLASVSEQLIQLAQ--RL--AVELELRGGS---SQVTQLHLNLPELG  381
+
+Query  284  AVEVQVLHGHGQLQIEISASPGSLALLQQARGELLERLQRLHPEQPVQLTFNQQQDSGQR  343
+            A+ V++    G+L +E+ AS  +L +L Q   +LLERLQR+   +P QL F    DS Q 
+Sbjct  382  AIMVRIAEIPGKLHVELIASRETLRILAQGSYDLLERLQRI---EPTQLDFQASGDSEQE  438
+
+Query  344  SRQRRYLHEEWQAE  357
+            SRQ+R+++EEW+AE
+Sbjct  439  SRQKRHVYEEWEAE  452
+
+
+>VFG023724(gb|WP_013749461) (yscP) type III secretion system needle 
+length regulator [TTSS (VF0140) - Effector delivery system 
+(VFC0086)] [Yersinia enterocolitica subsp. palearctica 
+105.5R(r)]
+Length=515
+
+ Score = 82.0 bits (201),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 55/131 (42%), Positives = 80/131 (61%), Gaps = 8/131 (6%)
+
+Query  228  TPGDRLLARLLASS-GSRPLPLADLARLLDAVQGRIQVASAAESHAARLQVRLPQLGAVE  286
+            TPGD LLA + A+   S    L  LA+ L AV+  ++  S   S   +L + LP+LGA+ 
+Sbjct  391  TPGDHLLATMRATRLTSVSEQLIQLAQRL-AVELELRGGS---SQVTQLHLNLPELGAIM  446
+
+Query  287  VQVLHGHGQLQIEISASPGSLALLQQARGELLERLQRLHPEQPVQLTFNQQQDSGQRSRQ  346
+            V++    G+L +E+ AS  +L +L Q   +LLERLQR+   +P QL F    DS Q SRQ
+Sbjct  447  VRIAEIPGKLHVELIASQEALRILAQGSYDLLERLQRI---EPTQLDFQASGDSEQESRQ  503
+
+Query  347  RRYLHEEWQAE  357
+            +R+++EEW+AE
+Sbjct  504  KRHVYEEWEAE  514
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.127    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2680883456
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

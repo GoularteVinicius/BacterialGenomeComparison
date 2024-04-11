@@ -1,0 +1,375 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1433.t1
+
+Length=362
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG032498(gb|WP_003731352) (bsh) bile salt hydrolase [BSH (VF0350...  76.6    2e-15
+VFG006815(gb|WP_010959001) (bsh) bile salt hydrolase [BSH (VF0350...  76.3    2e-15
+VFG019385(gb|WP_003728858) (bsh) bile salt hydrolase [BSH (VF0350...  76.3    2e-15
+VFG032508(gb|WP_003726502) (bsh) bile salt hydrolase [BSH (VF0350...  75.9    2e-15
+VFG032501(gb|WP_014929747) (bsh) bile salt hydrolase [BSH (VF0350...  75.5    4e-15
+VFG002162(gb|NP_465591) (bsh) bile salt hydrolase [BSH (VF0350) -...  75.1    4e-15
+VFG032495(gb|WP_012951869) (bsh) bile salt hydrolase [BSH (VF0350...  74.7    7e-15
+VFG019386(gb|WP_012580981) (bsh) bile salt hydrolase [BSH (VF0350...  72.8    3e-14
+VFG032519(gb|WP_012986167) (bsh) bile salt hydrolase [BSH (VF0350...  71.2    8e-14
+VFG032518(gb|WP_014093400) (bsh) bile salt hydrolase [BSH (VF0350...  67.0    3e-12
+
+
+>VFG032498(gb|WP_003731352) (bsh) bile salt hydrolase [BSH (VF0350) 
+- Stress survival (VFC0282)] [Listeria monocytogenes SLCC2755]
+Length=325
+
+ Score = 76.6 bits (187),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 76/316 (24%), Positives = 133/316 (42%), Gaps = 33/316 (10%)
+
+Query  24   CTTLAIQDKQGDIFHGRTLEYMQDLPSWLTYYPAGTQFD-KKTPDGSQGISYQAKYPILA  82
+            CT++    K  D + GR  +Y       +   P    F  +K  D       +  Y ++ 
+Sbjct  2    CTSITYTTK--DHYFGRNFDYELSYKEVVVVTPKNYPFHFRKVED------IEKHYALIG  53
+
+Query  83   ITSTITDG----DSRDILEGMNSAGLSFSENMIMNAQLPPLPASEYKQAIPVTSLGEWAL  138
+            I + + +     D+ +  +G++ AGL+FS N    A       +E K  +       W L
+Sbjct  54   IAAVMENYPLYYDATN-EKGLSMAGLNFSRN----ADYKDF--AEGKDNVTPFEFIPWIL  106
+
+Query  139  ARFATVGEVKQAIKEGKFWSPELHRFGDLKSPFHYAFYDKKGGSIVVEVENGKFHVYDNP  198
+             + ATV E ++ ++     +        L SP H+   D+   SIVVE      H+YDNP
+Sbjct  107  GQCATVKEARRLLQRINLVNISFSENLPL-SPLHWLMADQTE-SIVVECVKDGLHIYDNP  164
+
+Query  199  TRVMTNGPAFPWHLTNLNNYTQLTNVDRSSGTLGGIKVMQPDSGIAIADLPSSDTSVSRF  258
+              V+TN P F + L NLNNY  L++    +     I +     G+    LP   +S+SRF
+Sbjct  165  VGVLTNNPTFDYQLFNLNNYRVLSSETPENNFSNEIDLDAYSRGMGGIGLPGDLSSMSRF  224
+
+Query  259  IRGVYYTTYAPQATSAHDAMNTLAHIMSRFDRPKNITVDYMGSEGEGNATRKPVSEYTVW  318
+            ++  +    +    S  +++    HI+   ++ K +  D  G +           E+T++
+Sbjct  225  VKATFTKLNSVSGDSESESIGQFFHILGSVEQQKGL-CDVGGEK----------YEHTIY  273
+
+Query  319  TTLSDLMHGEMMVRGY  334
+            ++  ++  G    R Y
+Sbjct  274  SSCCNIDKGIYYYRTY  289
+
+
+>VFG006815(gb|WP_010959001) (bsh) bile salt hydrolase [BSH (VF0350) 
+- Stress survival (VFC0282)] [Listeria monocytogenes serotype 
+4b str. F2365]
+Length=325
+
+ Score = 76.3 bits (186),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 76/316 (24%), Positives = 134/316 (42%), Gaps = 33/316 (10%)
+
+Query  24   CTTLAIQDKQGDIFHGRTLEYMQDLPSWLTYYPAGTQFD-KKTPDGSQGISYQAKYPILA  82
+            CT++    K  D + GR  +Y       +   P    F  +K  D       +  Y ++ 
+Sbjct  2    CTSITYTTK--DHYFGRNFDYELSYKEVVVVTPKNYPFHFRKVED------IEKHYALIG  53
+
+Query  83   ITSTITDG----DSRDILEGMNSAGLSFSENMIMNAQLPPLPASEYKQAIPVTSLGEWAL  138
+            I + + +     D+ +  +G++ AGL+FS N    A       +E K  +       W L
+Sbjct  54   IAAVMENYPLYYDATN-EKGLSMAGLNFSGN----ADYKDF--AEGKDNVTPFEFIPWIL  106
+
+Query  139  ARFATVGEVKQAIKEGKFWSPELHRFGDLKSPFHYAFYDKKGGSIVVEVENGKFHVYDNP  198
+             + ATV E ++ ++     +        L SP H+   D+   SIVVE      H+YDNP
+Sbjct  107  GQCATVKEARRLLQRINLVNISFSENLPL-SPLHWLMADQNE-SIVVECVKDGLHIYDNP  164
+
+Query  199  TRVMTNGPAFPWHLTNLNNYTQLTNVDRSSGTLGGIKVMQPDSGIAIADLPSSDTSVSRF  258
+              V+TN P F + L NLNNY  L++    +     I +     G+    LP   +S+SRF
+Sbjct  165  VGVLTNNPTFDYQLFNLNNYRVLSSETPENNFSNEIDLDAYSRGMGGIGLPGDLSSMSRF  224
+
+Query  259  IRGVYYTTYAPQATSAHDAMNTLAHIMSRFDRPKNITVDYMGSEGEGNATRKPVSEYTVW  318
+            ++  +    +    S  ++++   HI+   ++ K +  D  G +           E+T++
+Sbjct  225  VKATFTKLNSVSGDSESESISQFFHILGSVEQQKGL-CDVGGGK----------YEHTIY  273
+
+Query  319  TTLSDLMHGEMMVRGY  334
+            ++  ++  G    R Y
+Sbjct  274  SSCCNIDKGIYYYRTY  289
+
+
+>VFG019385(gb|WP_003728858) (bsh) bile salt hydrolase [BSH (VF0350) 
+- Stress survival (VFC0282)] [Listeria monocytogenes serotype 
+4b str. CLIP 80459]
+Length=325
+
+ Score = 76.3 bits (186),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 76/316 (24%), Positives = 134/316 (42%), Gaps = 33/316 (10%)
+
+Query  24   CTTLAIQDKQGDIFHGRTLEYMQDLPSWLTYYPAGTQFD-KKTPDGSQGISYQAKYPILA  82
+            CT++    K  D + GR  +Y       +   P    F  +K  D       +  Y ++ 
+Sbjct  2    CTSITYTTK--DHYFGRNFDYELSYKEVVVVTPKNYPFHFRKVED------IEKHYALIG  53
+
+Query  83   ITSTITDG----DSRDILEGMNSAGLSFSENMIMNAQLPPLPASEYKQAIPVTSLGEWAL  138
+            I + + +     D+ +  +G++ AGL+FS N    A       +E K  +       W L
+Sbjct  54   IAAVMENYPLYYDATN-EKGLSMAGLNFSGN----ADYKDF--AEGKDNVTPFEFIPWIL  106
+
+Query  139  ARFATVGEVKQAIKEGKFWSPELHRFGDLKSPFHYAFYDKKGGSIVVEVENGKFHVYDNP  198
+             + ATV E ++ ++     +        L SP H+   D+   SIVVE      H+YDNP
+Sbjct  107  GQCATVKEARRLLQRINLVNISFSENLPL-SPLHWLMADQNE-SIVVECVKDGLHIYDNP  164
+
+Query  199  TRVMTNGPAFPWHLTNLNNYTQLTNVDRSSGTLGGIKVMQPDSGIAIADLPSSDTSVSRF  258
+              V+TN P F + L NLNNY  L++    +     I +     G+    LP   +S+SRF
+Sbjct  165  VGVLTNNPTFDYQLFNLNNYRVLSSETPENNFSNEIDLDAYSRGMGGIGLPGDLSSMSRF  224
+
+Query  259  IRGVYYTTYAPQATSAHDAMNTLAHIMSRFDRPKNITVDYMGSEGEGNATRKPVSEYTVW  318
+            ++  +    +    S  ++++   HI+   ++ K +  D  G +           E+T++
+Sbjct  225  VKATFTKLNSVSGDSESESISQFFHILGSVEQQKGL-CDVGGEK----------YEHTIY  273
+
+Query  319  TTLSDLMHGEMMVRGY  334
+            ++  ++  G    R Y
+Sbjct  274  SSCCNIDKGIYYYRTY  289
+
+
+>VFG032508(gb|WP_003726502) (bsh) bile salt hydrolase [BSH (VF0350) 
+- Stress survival (VFC0282)] [Listeria monocytogenes J1-220]
+Length=325
+
+ Score = 75.9 bits (185),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 76/316 (24%), Positives = 133/316 (42%), Gaps = 33/316 (10%)
+
+Query  24   CTTLAIQDKQGDIFHGRTLEYMQDLPSWLTYYPAGTQFD-KKTPDGSQGISYQAKYPILA  82
+            CT++    K  D + GR  +Y       +   P    F  +K  D       +  Y ++ 
+Sbjct  2    CTSITYTTK--DHYFGRNFDYELSYKEVVVVTPKNYPFHFRKVED------IEKHYALIG  53
+
+Query  83   ITSTITDG----DSRDILEGMNSAGLSFSENMIMNAQLPPLPASEYKQAIPVTSLGEWAL  138
+            I + + +     D+ +  +G++ AGL+FS N    A       +E K  +       W L
+Sbjct  54   IAAVMENYPLYYDATN-EKGLSMAGLNFSGN----ADYKDF--AEGKDNVTPFEFIPWIL  106
+
+Query  139  ARFATVGEVKQAIKEGKFWSPELHRFGDLKSPFHYAFYDKKGGSIVVEVENGKFHVYDNP  198
+             + ATV E ++ ++     +        L SP H+   D+   SIVVE      H+YDNP
+Sbjct  107  GQCATVKEARRLLQRINLVNISFSENLPL-SPLHWLMADQNE-SIVVECVKDGLHIYDNP  164
+
+Query  199  TRVMTNGPAFPWHLTNLNNYTQLTNVDRSSGTLGGIKVMQPDSGIAIADLPSSDTSVSRF  258
+              V+TN P F + L NLNNY  L++    +     I +     G+    LP   +S+SRF
+Sbjct  165  VGVLTNNPTFDYQLFNLNNYRVLSSETPENNFSNEIDLDAYSRGMGGIGLPGDLSSMSRF  224
+
+Query  259  IRGVYYTTYAPQATSAHDAMNTLAHIMSRFDRPKNITVDYMGSEGEGNATRKPVSEYTVW  318
+            ++  +    +    S  +++    HI+   ++ K +  D  G +           E+T++
+Sbjct  225  VKATFTKLNSVSGDSESESIGQFFHILGSVEQQKGL-CDVGGEK----------YEHTIY  273
+
+Query  319  TTLSDLMHGEMMVRGY  334
+            ++  ++  G    R Y
+Sbjct  274  SSCCNIDKGIYYYRTY  289
+
+
+>VFG032501(gb|WP_014929747) (bsh) bile salt hydrolase [BSH (VF0350) 
+- Stress survival (VFC0282)] [Listeria monocytogenes SLCC2540]
+Length=325
+
+ Score = 75.5 bits (184),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 76/316 (24%), Positives = 134/316 (42%), Gaps = 33/316 (10%)
+
+Query  24   CTTLAIQDKQGDIFHGRTLEYMQDLPSWLTYYPAGTQFD-KKTPDGSQGISYQAKYPILA  82
+            CT++    K  D + GR  +Y       +   P    F  +K  D       +  Y ++ 
+Sbjct  2    CTSITYTTK--DHYFGRNFDYELSYKEVVVVTPKNYPFHFRKVED------IEKHYALIG  53
+
+Query  83   ITSTITDG----DSRDILEGMNSAGLSFSENMIMNAQLPPLPASEYKQAIPVTSLGEWAL  138
+            I + + +     D+ +  +G++ AGL+FS N    A       +E K  +       W L
+Sbjct  54   IAAVMENYPLYYDATN-EKGLSMAGLNFSGN----ADYKDF--AEGKDNVTPFEFIPWIL  106
+
+Query  139  ARFATVGEVKQAIKEGKFWSPELHRFGDLKSPFHYAFYDKKGGSIVVEVENGKFHVYDNP  198
+             + ATV E ++ ++     +        L SP H+   D+   SIVVE      H+YDNP
+Sbjct  107  GQCATVKEARRLLQRINLVNISFSENLPL-SPLHWLMADQTE-SIVVECVKDGLHIYDNP  164
+
+Query  199  TRVMTNGPAFPWHLTNLNNYTQLTNVDRSSGTLGGIKVMQPDSGIAIADLPSSDTSVSRF  258
+              V+TN P F + L NLNNY  L++    +     I +     G+    LP   +S+SRF
+Sbjct  165  VGVLTNNPTFDYQLFNLNNYRVLSSETPENNFSKEIDLDTYSRGMGGIGLPGDLSSMSRF  224
+
+Query  259  IRGVYYTTYAPQATSAHDAMNTLAHIMSRFDRPKNITVDYMGSEGEGNATRKPVSEYTVW  318
+            ++  +    +    S  ++++   HI+   ++ K +  D  G +           E+T++
+Sbjct  225  VKATFTKLNSVSGDSESESISQFFHILGSVEQQKGL-CDVGGEK----------YEHTIY  273
+
+Query  319  TTLSDLMHGEMMVRGY  334
+            ++  ++  G    R Y
+Sbjct  274  SSCCNIDKGIYYYRTY  289
+
+
+>VFG002162(gb|NP_465591) (bsh) bile salt hydrolase [BSH (VF0350) 
+- Stress survival (VFC0282)] [Listeria monocytogenes EGD-e]
+Length=325
+
+ Score = 75.1 bits (183),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 76/316 (24%), Positives = 134/316 (42%), Gaps = 33/316 (10%)
+
+Query  24   CTTLAIQDKQGDIFHGRTLEYMQDLPSWLTYYPAGTQFD-KKTPDGSQGISYQAKYPILA  82
+            CT++    K  D + GR  +Y       +   P    F  +K  D       +  Y ++ 
+Sbjct  2    CTSITYTTK--DHYFGRNFDYELSYKEVVVVTPKNYPFHFRKVED------IEKHYALIG  53
+
+Query  83   ITSTITDG----DSRDILEGMNSAGLSFSENMIMNAQLPPLPASEYKQAIPVTSLGEWAL  138
+            I + + +     D+ +  +G++ AGL+FS N    A       +E K  +       W L
+Sbjct  54   IAAVMENYPLYYDATN-EKGLSMAGLNFSGN----ADYKDF--AEGKDNVTPFEFIPWIL  106
+
+Query  139  ARFATVGEVKQAIKEGKFWSPELHRFGDLKSPFHYAFYDKKGGSIVVEVENGKFHVYDNP  198
+             + ATV E ++ ++     +        L SP H+   D+   SIVVE      H+YDNP
+Sbjct  107  GQCATVKEARRLLQRINLVNISFSENLPL-SPLHWLMADQTE-SIVVECVKDGLHIYDNP  164
+
+Query  199  TRVMTNGPAFPWHLTNLNNYTQLTNVDRSSGTLGGIKVMQPDSGIAIADLPSSDTSVSRF  258
+              V+TN P F + L NLNNY  L++    +     I +     G+    LP   +S+SRF
+Sbjct  165  VGVLTNNPTFDYQLFNLNNYRVLSSETPENNFSKEIDLDAYSRGMGGIGLPGDLSSMSRF  224
+
+Query  259  IRGVYYTTYAPQATSAHDAMNTLAHIMSRFDRPKNITVDYMGSEGEGNATRKPVSEYTVW  318
+            ++  +    +    S  ++++   HI+   ++ K +  D  G +           E+T++
+Sbjct  225  VKATFTKLNSVSGDSESESISQFFHILGSVEQQKGL-CDVGGGK----------YEHTIY  273
+
+Query  319  TTLSDLMHGEMMVRGY  334
+            ++  ++  G    R Y
+Sbjct  274  SSCCNIDKGIYYYRTY  289
+
+
+>VFG032495(gb|WP_012951869) (bsh) bile salt hydrolase [BSH (VF0350) 
+- Stress survival (VFC0282)] [Listeria monocytogenes 08-5578]
+Length=325
+
+ Score = 74.7 bits (182),  Expect = 7e-15, Method: Compositional matrix adjust.
+ Identities = 76/316 (24%), Positives = 133/316 (42%), Gaps = 33/316 (10%)
+
+Query  24   CTTLAIQDKQGDIFHGRTLEYMQDLPSWLTYYPAGTQFD-KKTPDGSQGISYQAKYPILA  82
+            CT++    K  D + GR  +Y       +   P    F  +K  D       +  Y ++ 
+Sbjct  2    CTSITYTTK--DHYFGRNFDYELSYKEVVVVTPKNYPFHFRKVED------IEKHYALIG  53
+
+Query  83   ITSTITDG----DSRDILEGMNSAGLSFSENMIMNAQLPPLPASEYKQAIPVTSLGEWAL  138
+            I + + +     D+ +  +G++ AGL+FS N    A       +E K  +       W L
+Sbjct  54   IAAVMENYPLYYDATN-EKGLSMAGLNFSGN----ADYKDF--AEGKDNVTPFEFIPWIL  106
+
+Query  139  ARFATVGEVKQAIKEGKFWSPELHRFGDLKSPFHYAFYDKKGGSIVVEVENGKFHVYDNP  198
+             + ATV E +  ++     +        L SP H+   D+   SIVVE      H+YDNP
+Sbjct  107  GQCATVKEARSLLQRINLVNISFSENLPL-SPLHWLMADQTE-SIVVECVKDGLHIYDNP  164
+
+Query  199  TRVMTNGPAFPWHLTNLNNYTQLTNVDRSSGTLGGIKVMQPDSGIAIADLPSSDTSVSRF  258
+              V+TN P F + L NLNNY  L++    +     I +     G+    LP   +S+SRF
+Sbjct  165  VGVLTNNPTFDYQLFNLNNYRVLSSETPENNFSKEIDLDAYSRGMGGIGLPGDLSSMSRF  224
+
+Query  259  IRGVYYTTYAPQATSAHDAMNTLAHIMSRFDRPKNITVDYMGSEGEGNATRKPVSEYTVW  318
+            ++  +    +    S  ++++   HI+   ++ K +  D  G +           E+T++
+Sbjct  225  VKATFTKLNSVSGDSESESISQFFHILGSVEQQKGL-CDVGGGK----------YEHTIY  273
+
+Query  319  TTLSDLMHGEMMVRGY  334
+            ++  ++  G    R Y
+Sbjct  274  SSCCNIDKGIYYYRTY  289
+
+
+>VFG019386(gb|WP_012580981) (bsh) bile salt hydrolase [BSH (VF0350) 
+- Stress survival (VFC0282)] [Listeria monocytogenes HCC23]
+Length=325
+
+ Score = 72.8 bits (177),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 75/316 (24%), Positives = 133/316 (42%), Gaps = 33/316 (10%)
+
+Query  24   CTTLAIQDKQGDIFHGRTLEYMQDLPSWLTYYPAGTQFD-KKTPDGSQGISYQAKYPILA  82
+            CT++    K  D + GR  +Y       +   P    F  +K  D       +  Y ++ 
+Sbjct  2    CTSITYTTK--DHYFGRNFDYELSYKEVVVVTPKNYPFHFRKVED------IEKHYALIG  53
+
+Query  83   ITSTITDG----DSRDILEGMNSAGLSFSENMIMNAQLPPLPASEYKQAIPVTSLGEWAL  138
+            I + + +     D+ +  +G++ AGL+FS N    A       +E K  +       W L
+Sbjct  54   IAAVMENYPLYYDATN-EKGLSMAGLNFSGN----ADYKDF--AEGKDNVTPFEFIPWIL  106
+
+Query  139  ARFATVGEVKQAIKEGKFWSPELHRFGDLKSPFHYAFYDKKGGSIVVEVENGKFHVYDNP  198
+             + ATV E ++ ++     +        L S  H+   D+   SIVVE      H+YDNP
+Sbjct  107  GQCATVKEARRLLQRINLVNISFSENLPL-SQLHWLMADQNE-SIVVECVKDGLHIYDNP  164
+
+Query  199  TRVMTNGPAFPWHLTNLNNYTQLTNVDRSSGTLGGIKVMQPDSGIAIADLPSSDTSVSRF  258
+              V+TN P F + L NLNNY  L++    +     I +     G+    LP   +S+SRF
+Sbjct  165  VGVLTNNPTFDYQLFNLNNYRVLSSETPENNFSNEIDLDAYSRGMGGIGLPGDLSSMSRF  224
+
+Query  259  IRGVYYTTYAPQATSAHDAMNTLAHIMSRFDRPKNITVDYMGSEGEGNATRKPVSEYTVW  318
+            ++  +    +    S  ++++   HI+   ++ K +  D  G +           E+T++
+Sbjct  225  VKATFTKLNSVSGDSESESISQFFHILGSVEQQKGL-CDVGGEK----------YEHTIY  273
+
+Query  319  TTLSDLMHGEMMVRGY  334
+            ++  ++  G    R Y
+Sbjct  274  SSCCNIDKGIYYYRTY  289
+
+
+>VFG032519(gb|WP_012986167) (bsh) bile salt hydrolase [BSH (VF0350) 
+- Stress survival (VFC0282)] [Listeria seeligeri serovar 
+1/2b str. SLCC3954]
+Length=325
+
+ Score = 71.2 bits (173),  Expect = 8e-14, Method: Compositional matrix adjust.
+ Identities = 54/199 (27%), Positives = 91/199 (46%), Gaps = 8/199 (4%)
+
+Query  97   EGMNSAGLSFSENMIMNAQLPPLPASEYKQAIPVTSLGEWALARFATVGEVKQAIKEGKF  156
+            +G++ AGL+FS N    A    L  +E K  +       W L + ATV E +  +++   
+Sbjct  71   KGLSIAGLNFSGN----ADYKEL--AEDKDNVTPFEFIPWILGQCATVKEARVLLEKINL  124
+
+Query  157  WSPELHRFGDLKSPFHYAFYDKKGGSIVVEVENGKFHVYDNPTRVMTNGPAFPWHLTNLN  216
+             +        L SP H+   D+   SIV+E      H+YDNP  V+TN P F + L NLN
+Sbjct  125  VNINFSDNLPL-SPLHWLMADQTE-SIVIESLKDGLHIYDNPVGVLTNNPPFNYQLFNLN  182
+
+Query  217  NYTQLTNVDRSSGTLGGIKVMQPDSGIAIADLPSSDTSVSRFIRGVYYTTYAPQATSAHD  276
+            NY  L++    +     + +     G+    LP   +S+SRF++  +    +    S  +
+Sbjct  183  NYRVLSSKTPENNFSKDLDLDAYSRGMGGIGLPGDLSSMSRFVKATFTKLNSVSGNSESE  242
+
+Query  277  AMNTLAHIMSRFDRPKNIT  295
+            ++    HI+   ++ K + 
+Sbjct  243  SIGQFFHILGSVEQQKGLC  261
+
+
+>VFG032518(gb|WP_014093400) (bsh) bile salt hydrolase [BSH (VF0350) 
+- Stress survival (VFC0282)] [Listeria ivanovii subsp. 
+ivanovii PAM 55]
+Length=325
+
+ Score = 67.0 bits (162),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 64/276 (23%), Positives = 118/276 (43%), Gaps = 20/276 (7%)
+
+Query  24   CTTLAIQDKQGDIFHGRTLEYMQDLPSWLTYYPAGTQFDKKTPDGSQGISYQAKYPILAI  83
+            CT++    +  D + GR  +Y       L   P    F  +  +     + +  Y ++ I
+Sbjct  2    CTSITYTTR--DHYFGRNFDYELSYNEVLVVTPKNFPFHFRKVE-----NMKQHYALIGI  54
+
+Query  84   TSTITDG----DSRDILEGMNSAGLSFSENMIMNAQLPPLPASEYKQAIPVTSLGEWALA  139
+             S + +     D+ +  +G++ AGL+FS N      +      E K  +       W L 
+Sbjct  55   ASVMENYPLYYDATN-EKGLSMAGLNFSGNADYKEMV------EGKDNVTPFEFIPWILG  107
+
+Query  140  RFATVGEVKQAIKEGKFWSPELHRFGDLKSPFHYAFYDKKGGSIVVEVENGKFHVYDNPT  199
+            + ATV E +  +++    +        L S  H+   D+   SIV+E      H+YDNP 
+Sbjct  108  QCATVKEARVLLEKINLVNISFSDNLPLAS-LHWLMADQTE-SIVIESVKDGLHIYDNPV  165
+
+Query  200  RVMTNGPAFPWHLTNLNNYTQLTNVDRSSGTLGGIKVMQPDSGIAIADLPSSDTSVSRFI  259
+             V+TN P F + L NLNNY  L++    +     +++     G+    LP   +S+SRF+
+Sbjct  166  GVLTNNPPFNYQLFNLNNYRVLSSKTPENHFSKKLELDPYSRGMGGMGLPGDLSSMSRFV  225
+
+Query  260  RGVYYTTYAPQATSAHDAMNTLAHIMSRFDRPKNIT  295
+            +  +    +    S  ++++   HI+   ++ K + 
+Sbjct  226  KVAFTKLNSISGNSESESISQFFHILGSVEQQKGLC  261
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.132    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2733244461
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

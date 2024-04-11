@@ -1,0 +1,76 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g274.t1
+
+Length=172
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG041112(gb|NP_459286) (tlde1) type VI secretion system effector...  358     4e-129
+
+
+>VFG041112(gb|NP_459286) (tlde1) type VI secretion system effector 
+tlde1, L,D-transpeptidase [SCI T6SS secreted effectors 
+(VF1195) - Effector delivery system (VFC0086)] [Salmonella enterica 
+subsp. enterica serovar Typhimurium str. LT2]
+Length=173
+
+ Score = 358 bits (920),  Expect = 4e-129, Method: Compositional matrix adjust.
+ Identities = 172/172 (100%), Positives = 172/172 (100%), Gaps = 0/172 (0%)
+
+Query  1    MAVRLTFDGQKLTWPGIGIFKATTGLPDLQWPDKQCVPDAAIPEGNYKLFIQFQGEAPIR  60
+            MAVRLTFDGQKLTWPGIGIFKATTGLPDLQWPDKQCVPDAAIPEGNYKLFIQFQGEAPIR
+Sbjct  2    MAVRLTFDGQKLTWPGIGIFKATTGLPDLQWPDKQCVPDAAIPEGNYKLFIQFQGEAPIR  61
+
+Query  61   NAADCDLGPSWGWSTIPRGQAAGTCEIYWANWGYNRIRLESADEKTRKACGGKRGGFYIH  120
+            NAADCDLGPSWGWSTIPRGQAAGTCEIYWANWGYNRIRLESADEKTRKACGGKRGGFYIH
+Sbjct  62   NAADCDLGPSWGWSTIPRGQAAGTCEIYWANWGYNRIRLESADEKTRKACGGKRGGFYIH  121
+
+Query  121  DSTKGYSHGCIEVEPVFFRILKQETEKENGEKTFTVNVKYVSGQQTNGGTKQ  172
+            DSTKGYSHGCIEVEPVFFRILKQETEKENGEKTFTVNVKYVSGQQTNGGTKQ
+Sbjct  122  DSTKGYSHGCIEVEPVFFRILKQETEKENGEKTFTVNVKYVSGQQTNGGTKQ  173
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.448    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 844988503
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

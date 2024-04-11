@@ -1,0 +1,149 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g850.t1
+
+Length=125
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.135    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 400930779
+
+
+Query= g1246.t1
+
+Length=419
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044431(gb|CAJ45638) (vabS) putative siderophore exporter [Vanc...  61.6    3e-10
+VFG044276(gb|WP_000170403) (sfaA) staphyloferrin A export MFS tra...  57.0    8e-09
+
+
+>VFG044431(gb|CAJ45638) (vabS) putative siderophore exporter [Vanchrobactin 
+(VF1246) - Nutritional/Metabolic factor (VFC0272)] 
+[Listonella anguillarum RV22]
+Length=437
+
+ Score = 61.6 bits (148),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 110/417 (26%), Positives = 175/417 (42%), Gaps = 32/417 (8%)
+
+Query  5    NRGPAFLILF-ATLMAAAGDGVSIVAFPWLVLQREGSAGQASIVASATMLPLLFATLVAG  63
+               P F ++F A +M+    G+  VA P  + Q  GS  Q  ++ +   + +    L+ G
+Sbjct  14   KDNPHFRMVFMARMMSVLALGMMTVAVPIQIHQMTGSTLQVGLIMALDGIGMFVGLLLGG  73
+
+Query  64   TAVDYFGRRRVSMVADALSG---AAVAGVPLVAWGYGGDAVNVLVLAVLAALAAAFGPAG  120
+               D + RRR+ + A A  G   AA+A   +VA        ++  L +L+     FG  G
+Sbjct  74   VLADKYDRRRLILFARATCGIGFAALAFNSIVAQS------SLAALYILSVWDGFFGAMG  127
+
+Query  121  MTARDSMLPEAAARAGWSLDRINGAYEAILNLAFIVGPAIGGLMIATVGGITTMWITATA  180
+            MTA  + LP    R    L          + L  ++ PAIGGL+I TVG ++  +I A+ 
+Sbjct  128  MTALMAALPTIVGRQ--KLPEAAALSMLTVRLGMVLSPAIGGLLI-TVGDVSWNYIAASV  184
+
+Query  181  FGLSILAIAALQLEGAGKPHHTSRPQGLVSGIAEGLRFVWNLRVLRT---LGMIDLTVTA  237
+              L  L I   +L      HHT  P+     + EG++F+++ +V+      G ++   TA
+Sbjct  185  GTLCTL-IPLFRLPSMKPQHHT--PENPFQSLYEGVQFLFSNKVVGCVVLFGTLETLATA  241
+
+Query  238  LYLPMESVLFPKYFTDHQQPVQLGWALM--AIAGGGLVGALGYAVLAIRVPRRVTMSTAV  295
+            +      V+FP       Q       +M  AI  G + GAL      ++  ++  M    
+Sbjct  242  I-----RVMFPALALVSFQGTAANAGVMYSAIPLGAMCGALTSG--WVKQSQKPGMVLIY  294
+
+Query  296  LTLGLASMVIAFLPPLPVIMVLCAVVGLVY-GPIQPIYNY-VIQTRAAQHLRGRVVGVMT  353
+             TLG    ++A             +VG  Y G +  +  Y ++Q     HL GRV  + T
+Sbjct  295  ATLGSFLAIVAMGLVNNFWWFALILVGYGYLGSVASLIQYSIVQGHTPDHLLGRVSSLWT  354
+
+Query  354  SLAYAAGPLGLLLAGPLTDAAGLHATFLALALPIVCTGLVAIRLPALRELDLAPQAD  410
+            +   +   +G L  G L     L  T   L   +  TG+ A+ + A R L  A   D
+Sbjct  355  AQDVSGDSIGALGLGVLGKV--LAPTMSILTFGLGATGIGALMVMAFRSLRQATLFD  409
+
+
+>VFG044276(gb|WP_000170403) (sfaA) staphyloferrin A export MFS 
+transporter [Staphyloferrin A (VF1013) - Nutritional/Metabolic 
+factor (VFC0272)] [Staphylococcus aureus subsp. aureus str. 
+Newman]
+Length=397
+
+ Score = 57.0 bits (136),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 82/377 (22%), Positives = 153/377 (41%), Gaps = 19/377 (5%)
+
+Query  22   GDGVSIVAFPWLVLQREGSAGQASIVASATMLPLLFATLVAGTAVDYFGRRRVSMVADAL  81
+            G+ +  +   W VL    +A    IV    ++P+L  ++ AG   D + + R  ++   +
+Sbjct  15   GNWIGQIGLNWFVLTTYHNAVYLGIVNFCRLVPILLLSVWAGAIADKYDKGR--LLRITI  72
+
+Query  82   SGAAVAGVPLVAWGYGGDAVNVLVLAVLAALAAAFGPAGMTARDSMLPEAAARAGWSLDR  141
+            S + +    L    Y   A+ + V+ + A L           R ++LP+ + +   S  +
+Sbjct  73   SSSFLVTAILCVLTYSFTAIPISVIIIYATLRGILSAVETPLRQAILPDLSDKI--STTQ  130
+
+Query  142  INGAYEAILNLAFIVGPAIGGLMIATVGGITTMWITATAFGLSILAIAALQLEGAGKPHH  201
+                +  I+N+   +GPAI G+++A     TT    A  + +++L    L  +    P  
+Sbjct  131  AVSFHSFIINICRSIGPAIAGVILAVYHAPTTFLAQAICYFIAVLLCLPLHFKVTKIPED  190
+
+Query  202  TSRPQGLVSGIAEGLRFVWNLRVLRTLGMIDLTVTALYLPMESVLFPKYFTDHQQPVQLG  261
+             SR   L   I +  +     R +    ++ +     Y  +  VL  K F    +    G
+Sbjct  191  ASRYMPL-KVIIDYFKLHMEGRQIFITSLLIMATGFSYTTLLPVLTNKVFPGKSEI--FG  247
+
+Query  262  WALMAIAGGGLVGALGYAVLAIRVPRRVTMST----AVLTLGLASMVIAFLPPLPVIMVL  317
+             A+   A GG++  L   VL  +V + + M      +    G+A + + F     VIM +
+Sbjct  248  IAMTMCAIGGIIATL---VLP-KVLKYIGMVNMYYLSSFLFGIALLGVVFHN--IVIMFI  301
+
+Query  318  C-AVVGLVYGPIQPIYNYVIQTRAAQHLRGRVVGVMTSLAYAAGPLGLLLAGPLTDAAGL  376
+            C  ++GL     +       Q     + RG+V+ ++  +     PLG LL     D  G+
+Sbjct  302  CITLIGLFSQWARTTNRVYFQNNVKDYERGKVLSIIM-MDRGMIPLGSLLMSICADVFGI  360
+
+Query  377  HATFLALALPIVCTGLV  393
+              TF  + +  +C  +V
+Sbjct  361  VRTFSIMGISTICITMV  377
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.139    0.413    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3291530892
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

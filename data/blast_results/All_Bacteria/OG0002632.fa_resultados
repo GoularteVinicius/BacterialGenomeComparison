@@ -1,0 +1,180 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1454.t1
+
+Length=135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG037538(gb|WP_000359624) (BJAB0715_RS05265) YbaN family protein...  65.5    2e-14
+VFG037537(gb|WP_000359621) (ACICU_RS04605) YbaN family protein [H...  64.3    5e-14
+VFG037541(gb|WP_000359625) (ABSDF_RS10800) YbaN family protein [H...  63.2    1e-13
+
+
+>VFG037538(gb|WP_000359624) (BJAB0715_RS05265) YbaN family protein 
+[HemO cluster (VF0636) - Nutritional/Metabolic factor (VFC0272)] 
+[Acinetobacter baumannii BJAB0715]
+Length=146
+
+ Score = 65.5 bits (158),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 33/96 (34%), Positives = 52/96 (54%), Gaps = 0/96 (0%)
+
+Query  13   WVRYSLQAVGFLSVALGVIGIFLPVLPTTPFLLLAAACFMRSSPRFYHWLVGHPRLGPWI  72
+            WVR+    + +L +ALG++GIF+P LPT  F++LA     R S + + W   H  +GP I
+Sbjct  31   WVRWVFIGLAWLCIALGILGIFIPGLPTVDFMILAVFFAARGSEKLHQWFRNHRYIGPLI  90
+
+Query  73   RDYLDGEGIPLKGKVYAIGLMWASIALSCYLVRRPW  108
+            R++ +   IP K K  +   M  +  L  + +  PW
+Sbjct  91   REWQEHRRIPKKAKYISTLSMSLAAGLMIWTIPHPW  126
+
+
+>VFG037537(gb|WP_000359621) (ACICU_RS04605) YbaN family protein 
+[HemO cluster (VF0636) - Nutritional/Metabolic factor (VFC0272)] 
+[Acinetobacter baumannii ACICU]
+Length=146
+
+ Score = 64.3 bits (155),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 32/96 (33%), Positives = 52/96 (54%), Gaps = 0/96 (0%)
+
+Query  13   WVRYSLQAVGFLSVALGVIGIFLPVLPTTPFLLLAAACFMRSSPRFYHWLVGHPRLGPWI  72
+            W R+   ++ +L +ALG++GIF+P LPT  F++LA     R S + + W   H  +GP I
+Sbjct  31   WARWVFISLAWLCIALGILGIFIPGLPTVDFMILAVFFAARGSEKLHQWFRNHRYIGPLI  90
+
+Query  73   RDYLDGEGIPLKGKVYAIGLMWASIALSCYLVRRPW  108
+            R++ +   IP K K  +   M  +  L  + +  PW
+Sbjct  91   REWQEHRRIPKKAKYISTLSMSLAAGLMIWTIPHPW  126
+
+
+>VFG037541(gb|WP_000359625) (ABSDF_RS10800) YbaN family protein 
+[HemO cluster (VF0636) - Nutritional/Metabolic factor (VFC0272)] 
+[Acinetobacter baumannii SDF]
+Length=146
+
+ Score = 63.2 bits (152),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 32/96 (33%), Positives = 51/96 (53%), Gaps = 0/96 (0%)
+
+Query  13   WVRYSLQAVGFLSVALGVIGIFLPVLPTTPFLLLAAACFMRSSPRFYHWLVGHPRLGPWI  72
+            W R+    + +L +ALG++GIF+P LPT  F++LA     R S + + W   H  +GP I
+Sbjct  31   WARWVFIGLAWLCIALGILGIFIPGLPTVDFIILAVFFAARGSEKLHQWFRNHRYVGPLI  90
+
+Query  73   RDYLDGEGIPLKGKVYAIGLMWASIALSCYLVRRPW  108
+            R++ +   IP K K  +   M  +  L  + +  PW
+Sbjct  91   REWQEHRRIPKKAKYISTLSMSLAAGLMIWTIPHPW  126
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.143    0.476    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 497167310
+
+
+Query= g448.t1
+
+Length=125
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG037537(gb|WP_000359621) (ACICU_RS04605) YbaN family protein [H...  67.8    2e-15
+VFG037538(gb|WP_000359624) (BJAB0715_RS05265) YbaN family protein...  66.2    8e-15
+VFG037541(gb|WP_000359625) (ABSDF_RS10800) YbaN family protein [H...  66.2    8e-15
+
+
+>VFG037537(gb|WP_000359621) (ACICU_RS04605) YbaN family protein 
+[HemO cluster (VF0636) - Nutritional/Metabolic factor (VFC0272)] 
+[Acinetobacter baumannii ACICU]
+Length=146
+
+ Score = 67.8 bits (164),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 36/111 (32%), Positives = 59/111 (53%), Gaps = 0/111 (0%)
+
+Query  3    RTILIIIGWLAVVLGTLGVVLPLLPTTPFILLAAWCFARSSPRFHAWLLYRSWFGGYLRH  62
+            R + I + WL + LG LG+ +P LPT  F++LA +  AR S + H W     + G  +R 
+Sbjct  33   RWVFISLAWLCIALGILGIFIPGLPTVDFMILAVFFAARGSEKLHQWFRNHRYIGPLIRE  92
+
+Query  63   WQRYRAMPPGAKPRAIALILLTFGISLWLVNMMWVRVLLLVILACLLIFMW  113
+            WQ +R +P  AK  +   + L  G+ +W +   W     ++ +A +L +MW
+Sbjct  93   WQEHRRIPKKAKYISTLSMSLAAGLMIWTIPHPWFVYPAILCMAGVLAWMW  143
+
+
+>VFG037538(gb|WP_000359624) (BJAB0715_RS05265) YbaN family protein 
+[HemO cluster (VF0636) - Nutritional/Metabolic factor (VFC0272)] 
+[Acinetobacter baumannii BJAB0715]
+Length=146
+
+ Score = 66.2 bits (160),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 35/111 (32%), Positives = 59/111 (53%), Gaps = 0/111 (0%)
+
+Query  3    RTILIIIGWLAVVLGTLGVVLPLLPTTPFILLAAWCFARSSPRFHAWLLYRSWFGGYLRH  62
+            R + I + WL + LG LG+ +P LPT  F++LA +  AR S + H W     + G  +R 
+Sbjct  33   RWVFIGLAWLCIALGILGIFIPGLPTVDFMILAVFFAARGSEKLHQWFRNHRYIGPLIRE  92
+
+Query  63   WQRYRAMPPGAKPRAIALILLTFGISLWLVNMMWVRVLLLVILACLLIFMW  113
+            WQ +R +P  AK  +   + L  G+ +W +   W     ++ +A ++ +MW
+Sbjct  93   WQEHRRIPKKAKYISTLSMSLAAGLMIWTIPHPWFVYPAILCMAGVVAWMW  143
+
+
+>VFG037541(gb|WP_000359625) (ABSDF_RS10800) YbaN family protein 
+[HemO cluster (VF0636) - Nutritional/Metabolic factor (VFC0272)] 
+[Acinetobacter baumannii SDF]
+Length=146
+
+ Score = 66.2 bits (160),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 36/111 (32%), Positives = 58/111 (52%), Gaps = 0/111 (0%)
+
+Query  3    RTILIIIGWLAVVLGTLGVVLPLLPTTPFILLAAWCFARSSPRFHAWLLYRSWFGGYLRH  62
+            R + I + WL + LG LG+ +P LPT  FI+LA +  AR S + H W     + G  +R 
+Sbjct  33   RWVFIGLAWLCIALGILGIFIPGLPTVDFIILAVFFAARGSEKLHQWFRNHRYVGPLIRE  92
+
+Query  63   WQRYRAMPPGAKPRAIALILLTFGISLWLVNMMWVRVLLLVILACLLIFMW  113
+            WQ +R +P  AK  +   + L  G+ +W +   W     ++ +  +L +MW
+Sbjct  93   WQEHRRIPKKAKYISTLSMSLAAGLMIWTIPHPWFVYPAILCMVGVLAWMW  143
+
+
+
+Lambda      K        H        a         alpha
+   0.336    0.147    0.520    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 400930779
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

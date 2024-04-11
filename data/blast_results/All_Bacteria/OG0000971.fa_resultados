@@ -1,0 +1,3085 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1248.t1
+
+Length=403
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015005(gb|WP_011169295) (mucP) metalloprotease protease [Algin...  93.2    1e-20
+VFG015003(gb|WP_011103593) (mucP) metalloprotease protease [Algin...  90.5    1e-19
+VFG015009(gb|WP_011059531) (mucP) metalloprotease protease [Algin...  87.8    9e-19
+VFG019925(gb|WP_012722600) (mucP) metalloprotease protease [Algin...  83.6    2e-17
+VFG015004(gb|WP_004406254) (mucP) metalloprotease protease [Algin...  80.5    2e-16
+VFG015007(gb|WP_012053542) (mucP) metalloprotease protease [Algin...  80.1    3e-16
+VFG015008(gb|WP_011535273) (mucP) metalloprotease protease [Algin...  79.7    4e-16
+VFG015010(gb|WP_011332688) (mucP) metalloprotease protease [Algin...  78.6    8e-16
+VFG015012(gb|WP_011912707) (mucP) metalloprotease protease [Algin...  77.0    3e-15
+VFG015775(gb|WP_012315895) (mucP) metalloprotease protease [Algin...  76.3    6e-15
+VFG019924(gb|WP_012613725) (mucP) metalloprotease protease [Algin...  74.7    2e-14
+VFG015001(gb|WP_012074695) (mucP) metalloprotease protease [Algin...  74.7    2e-14
+VFG015000(gb|NP_252339) (mucP) metalloprotease protease [Alginate...  74.3    2e-14
+VFG015002(gb|WP_003138017) (mucP) metalloprotease protease [Algin...  73.6    4e-14
+VFG015006(gb|WP_049587451) (mucP) metalloprotease protease [Algin...  72.4    1e-13
+VFG015774(gb|WP_012270841) (mucP) metalloprotease protease [Algin...  72.0    1e-13
+VFG015011(gb|WP_012019182) (mucP) metalloprotease protease [Algin...  63.9    5e-11
+
+
+>VFG015005(gb|WP_011169295) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+Length=450
+
+ Score = 93.2 bits (230),  Expect = 1e-20, Method: Compositional matrix adjust.
+ Identities = 119/467 (25%), Positives = 188/467 (40%), Gaps = 113/467 (24%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            IA+ + V  HE GH WVA   G+KV R+ VGFG  L  WS R+G T+Y + A+PLGG+  
+Sbjct  12   IALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWSDRQG-TEYVVAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGPAMNFVICLVLIYGIALV--------  120
+            ++       + P+ +D++  ++   +R+A++ AGP  NF++ +   + +A++        
+Sbjct  71   MLDERE-GNVPPELADQSFNRKTVGQRIAIVIAGPTANFLLAIAFFWVLAMMGSEQVRPV  129
+
+Query  121  -------------------------------WGLPNLHMPTRAVIGETACVASEL-DQGK  148
+                                           W   NL +  R  +GE+  +A +L DQG 
+Sbjct  130  IGAVESGSIAQQAGLTAGQEIVAVDGEPTSGWAGVNLQLVRR--LGESGTIALKLRDQGS  187
+
+Query  149  --------------------------------------LGNCTGPGPAALAGLRAGDVVV  170
+                                                  L      GPA  AGL+ GD ++
+Sbjct  188  TVDTSRELVLNDWLRGAEEPDPIKSLGIRPWRPALLPVLAEIDPKGPAQSAGLKTGDRLI  247
+
+Query  171  KIGDTTVSTFDDMAAVVRKL-HGTVPIVFERDGTAITSYVDITPTQRYMSKGKGSQLEPA  229
+             +    ++ +  +   VR+     V +  ERDG  +   V +T   +   K     L  A
+Sbjct  248  SMDGQPLNEWQQVVDRVRERPEAKVSLRIERDGVQMD--VPVTLAAKGEGKAAAGYLG-A  304
+
+Query  230  TVGAIGVGAHHLLPTHYGVFSALPATAAFAGDLTVEVGKALVTIPTKLGAL-VHAIGGGQ  288
+             V A+      L    YG F+A+        +++V    +L  +    G L V  + G  
+Sbjct  305  GVKAVDWPPEMLREVSYGPFAAMGEGIKRTWNMSVLTLDSLKKM--LFGELSVKNLSG--  360
+
+Query  289  RDPQTPMSVVGASIIGGDTVDHGLWVAFWFFLAQLNLILGAINLVPLLPFDGGHIAIAVF  348
+              P T   V GAS   G          F  FLA L++ LG +NL+P+   DGGH+     
+Sbjct  361  --PITIAKVAGASAQSGIG-------DFLNFLAYLSISLGVLNLLPIPVLDGGHL-----  406
+
+Query  349  ERIRNLIRSARGVVVAAPVNYLKLMPATYVVLVFVVGYVLLTVTADL  395
+              +  LI  ARG  ++  V          + +  VVG +LL +  DL
+Sbjct  407  --LFYLIEWARGRPLSEKVQGW----GAQIGISLVVGVMLLALVNDL  447
+
+
+>VFG015003(gb|WP_011103593) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. tomato str. DC3000]
+Length=450
+
+ Score = 90.5 bits (223),  Expect = 1e-19, Method: Compositional matrix adjust.
+ Identities = 118/467 (25%), Positives = 187/467 (40%), Gaps = 113/467 (24%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            +A+ + V  HE GH WVA   G+KV R+ VGFG  L  WS R+G T+Y + A+PLGG+  
+Sbjct  12   VALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWSDRQG-TEYVVAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGPAMNFVICLVLIYGIALV--------  120
+            ++       + P+ +D++  ++   +R+A++ AGP  NF++ +   + +A++        
+Sbjct  71   MLDERE-GNVPPELADQSFNRKTVGQRIAIVIAGPTANFLLAIAFFWVLAMMGSEQVRPV  129
+
+Query  121  -------------------------------WGLPNLHMPTRAVIGETACVASEL-DQGK  148
+                                           W   NL +  R  +GE+  +A ++ DQG 
+Sbjct  130  IGAVESGSIAQQAGLTAGQEIVAVDGEPTSGWAGVNLQLVRR--LGESGTIALKVRDQGS  187
+
+Query  149  -------------LGNCTGPGP-------------------------AALAGLRAGDVVV  170
+                         L     P P                         A  AGL+ GD ++
+Sbjct  188  TVDTSRELVLSDWLKGAEEPDPIKSLGIRPWRPALLPVLAEIDPKGPAQSAGLKTGDRLI  247
+
+Query  171  KIGDTTVSTFDDMAAVVRKL-HGTVPIVFERDGTAITSYVDITPTQRYMSKGKGSQLEPA  229
+             +    ++ +  +   VR+     V +  ERD  A+   V +T   R   K     L  A
+Sbjct  248  SMDGQPLNEWQQVVDRVRERPEAKVSLRIERD--AVQMDVPVTLAARGEGKAAAGYLG-A  304
+
+Query  230  TVGAIGVGAHHLLPTHYGVFSALPATAAFAGDLTVEVGKALVTIPTKLGAL-VHAIGGGQ  288
+             V A+      L    YG F+A+         ++V    +L  +    G L V  + G  
+Sbjct  305  GVKAVDWPPEMLREVSYGPFAAMVEGVKRTWTMSVLTLDSLKKM--LFGELSVKNLSG--  360
+
+Query  289  RDPQTPMSVVGASIIGGDTVDHGLWVAFWFFLAQLNLILGAINLVPLLPFDGGHIAIAVF  348
+              P T   V GAS   G          F  FLA L++ LG +NL+P+   DGGH+     
+Sbjct  361  --PITIAKVAGASAQSGLG-------DFLNFLAYLSISLGVLNLLPIPVLDGGHL-----  406
+
+Query  349  ERIRNLIRSARGVVVAAPVNYLKLMPATYVVLVFVVGYVLLTVTADL  395
+              +  LI  ARG  ++  V          + +  VVG +LL +  DL
+Sbjct  407  --LFYLIEWARGRPLSEKVQGW----GAQIGISLVVGIMLLALVNDL  447
+
+
+>VFG015009(gb|WP_011059531) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+Pf-5]
+Length=450
+
+ Score = 87.8 bits (216),  Expect = 9e-19, Method: Compositional matrix adjust.
+ Identities = 70/231 (30%), Positives = 115/231 (50%), Gaps = 32/231 (14%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            +A+ + V  HE GH WVA   G+KV R+ VGFG  L  W  RRG T++ I A+PLGG+  
+Sbjct  12   VALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGMPLLRWHDRRG-TEFVIAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGPAMNFVICLVLIYGIALVWGLPNLHM  128
+            ++     E +  +E D++  +++  +R+A++ AGP  NF++ LV  + +A++        
+Sbjct  71   MLDEREGE-VAAEELDQSFNRKSVRQRIAIVAAGPIANFLLALVFFWALAMLG-----SQ  124
+
+Query  129  PTRAVIGETACVASELDQGKLGNCTGPGPAALAGLRAGDVVVKI-GDTTVSTFDDMAAVV  187
+              R VIG       +++ G +        AA AGL AG  +V I G+ T         +V
+Sbjct  125  QVRPVIG-------DVEAGSI--------AAKAGLSAGQEIVAIDGEPTTGWAAVNLQLV  169
+
+Query  188  RKL--HGTVPIVFERDGTAITSYVDITPTQRYMSKGKGSQLEPATVGAIGV  236
+            R+L   G + ++    G  + S     P Q  + K      EP  + ++G+
+Sbjct  170  RRLGESGALQVLVREQGATVDS-----PRQLELDKWLKGADEPDPIRSLGI  215
+
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 73/250 (29%), Positives = 105/250 (42%), Gaps = 31/250 (12%)
+
+Query  149  LGNCTGPGPAALAGLRAGDVVVKIGDTTVSTFDDMAAVVRKLHGTVPIVF--ERDGTAIT  206
+            L      GPA  AGL+ GD ++ +    ++ +  +   VR +H    IV   ERDG  I 
+Sbjct  226  LAELDPKGPAQAAGLKTGDRLLALDGQPLNDWQQVVDWVR-VHPDTKIVLHVERDGAQID  284
+
+Query  207  SYVDITPTQRYMSKGKGSQLEPATVGAIGVGAHHLLPTHYGVFSALPATAAFAGDLTVEV  266
+              V +T   R  SK     L  A V A+      L    YG   A+   A     ++V  
+Sbjct  285  --VPVTLASRGESKAPNGYLG-AGVKAVDWPPQMLREVSYGPLEAIGEGARRTWTMSVLT  341
+
+Query  267  GKALVTIPTKLGAL-VHAIGGGQRDPQTPMSVVGASIIGGDTVDHGLWVAFWFFLAQLNL  325
+             ++L  +    G L V  + G    P T   V GAS   G          F  FLA L++
+Sbjct  342  LESLKKM--LFGELSVKNLSG----PITIAKVAGASAQSGIA-------DFLNFLAYLSI  388
+
+Query  326  ILGAINLVPLLPFDGGHIAIAVFERIRNLIRSARGVVVAAPVNYLKLMPATYVVLVFVVG  385
+             LG +NL+P+   DGGH+       +  LI  ARG  ++  V    +     + +  VVG
+Sbjct  389  SLGVLNLLPIPVLDGGHL-------LFYLIEWARGRPLSDRVQGWGIQ----IGISLVVG  437
+
+Query  386  YVLLTVTADL  395
+             +LL +  DL
+Sbjct  438  VMLLALVNDL  447
+
+
+>VFG019925(gb|WP_012722600) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+SBW25]
+Length=450
+
+ Score = 83.6 bits (205),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 115/431 (27%), Positives = 174/431 (40%), Gaps = 102/431 (24%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            +A+ + V  HE GH WVA   G+KV R+ VGFG  L  W  RRG T++ I A+PLGG+  
+Sbjct  12   VALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGMPLLRWHDRRG-TEFVIAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGP------AMNFVICLV----------  112
+            ++     E +  D+ D++  ++   +R+A++ AGP      AM F   L           
+Sbjct  71   MLDEREGE-VPADQLDQSFNRKTVRQRIAIVAAGPIANFLLAMVFFWVLAMLGSQQVRPV  129
+
+Query  113  --------------LIYGIALV---------WGLPNLHMPTRAVIGETACV---------  140
+                          L+ G  +V         WG  NL +  R  +GE+  V         
+Sbjct  130  IGAVESDSIAAKAGLVAGQEIVSIDGEPTTGWGAVNLQLVRR--LGESGTVNVVVREQDS  187
+
+Query  141  ----------------ASELDQGK--------------LGNCTGPGPAALAGLRAGDVVV  170
+                            A E D  K              L      GPA  AGL+ GD ++
+Sbjct  188  TTETPRELALDHWLKGADEPDPIKSLGIRPWRPALPPVLAELDPKGPAQAAGLKTGDRLL  247
+
+Query  171  KIGDTTVSTFDDMAAVVR-KLHGTVPIVFERDGTAITSYVDITPTQRYMSKGKGSQLEPA  229
+             +   ++  +  +  +VR +    + +  ERDG  I   V +T + R  +K  G  L  A
+Sbjct  248  ALDGQSLGDWQQVVDLVRVRPETKIVLKVERDGAQID--VPVTLSVRGEAKAAGGYLG-A  304
+
+Query  230  TVGAIGVGAHHLLPTHYGVFSALPATAAFAGDLTVEVGKALVTIPTKLGAL-VHAIGGGQ  288
+             V  +      +    +G  +A+   A     ++V   ++L  +    G L V  + G  
+Sbjct  305  GVKGVDWPPSMVREVSFGPLAAIGEGAKRTWTMSVLTLESLKKM--LFGELSVKNLSG--  360
+
+Query  289  RDPQTPMSVVGASIIGGDTVDHGLWVAFWFFLAQLNLILGAINLVPLLPFDGGHIAIAVF  348
+              P T   V GAS   G   D      F  FLA L++ LG +NL+P+   DGGH+   + 
+Sbjct  361  --PITIAKVAGASAQSG-VAD------FLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLV  411
+
+Query  349  ERIRNLIRSAR  359
+            E  R    S R
+Sbjct  412  EWARGRPLSDR  422
+
+
+>VFG015004(gb|WP_004406254) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. syringae B728a]
+Length=450
+
+ Score = 80.5 bits (197),  Expect = 2e-16, Method: Compositional matrix adjust.
+ Identities = 73/254 (29%), Positives = 116/254 (46%), Gaps = 34/254 (13%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            IA+ + V  HE GH WVA   G+KV R+ VGFG  L  W  R+G T+Y + A+PLGG+  
+Sbjct  12   IALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRQG-TEYVVAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGPAMNFVICLVLIYGIALVWGLPNLHM  128
+            ++       + P+ +D++  ++   +R+A++ AGP  NF++       IA  W L     
+Sbjct  71   MLDERE-GNVPPELADQSFNRKTVGQRIAIVIAGPTANFILA------IAFFWVL-----  118
+
+Query  129  PTRAVIGETACVASELDQGKLGNCTGPGPAALAGLRAGDVVVKI-GDTTVSTFDDMAAVV  187
+                     A + SE  +  +G       A  AGL AG  +V + G+ T         +V
+Sbjct  119  ---------AMMGSEQVRPVIGAVESGSIAQQAGLTAGQEIVAVDGEPTSGWAGVNLQLV  169
+
+Query  188  RKL--HGTVPIVFERDGTAITSYVDITPTQRYMSKGKGSQLEPATVGAIGVGAHH--LLP  243
+            R+L   GT+ +     G+ +      T  Q  +S       EP  + ++G+      LLP
+Sbjct  170  RRLGESGTIALKVRDQGSTVD-----TSRQLVLSDWLRGAEEPDPIKSLGIRPWRPALLP  224
+
+Query  244  THYGVFSALPATAA  257
+                +    PA +A
+Sbjct  225  VLAEIDPKGPAQSA  238
+
+
+>VFG015007(gb|WP_012053542) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas putida F1]
+Length=450
+
+ Score = 80.1 bits (196),  Expect = 3e-16, Method: Compositional matrix adjust.
+ Identities = 109/437 (25%), Positives = 173/437 (40%), Gaps = 114/437 (26%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            +A+ + V  HE GH WVA   G+KV R+ VGFG  L  W  R G T++ + A+PLGG+  
+Sbjct  12   VALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRHG-TEFVVAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGPAMNFVICLVLIYGIALV--------  120
+            ++     + + P  + ++  +++  +R+A++ AGP  NF++ ++  + +A++        
+Sbjct  71   MLDEREGD-VPPALAGQSFNRKSVRQRIAIVAAGPIANFLLAILFFWVLAMLGTQQIRPV  129
+
+Query  121  -------------------------------WGLPNLHMPTR---------AVIGETACV  140
+                                           W   NL +  R          V  E A  
+Sbjct  130  IGAVDSGSLAASAGLTAGQEIVSVDGKPTNGWSAVNLQLVRRLGESGTLQIGVRDEGASA  189
+
+Query  141  ASELDQGKLGN----CTGPGPAALAGLR-------------------------AGDVVVK  171
+              +L Q KL N       P P    GLR                          GD ++ 
+Sbjct  190  ERQL-QVKLDNWLKGADEPDPIQSLGLRPWRPAITPVLAEIDPKGPAAAAGLKTGDKLLA  248
+
+Query  172  IGDTTVSTFDDMAAVVR-KLHGTVPIVFERDGTAITSYVDITPTQRYMSKGKGSQLEPAT  230
+            + D  V+ +  +   VR +    V +  ERDG A+   V +        KG+G     A 
+Sbjct  249  LDDVAVTEWQQVVDRVRARPDARVVVRVERDGAALELPVTLA------RKGEGK----AV  298
+
+Query  231  VGAIGVG-------AHHLLPTHYGVFSALPATAAFAGDLTVEVGKALVTIPTKLGAL-VH  282
+             G +G G       A+ L    YG   A+  + +   +++V   ++L  +    G L V 
+Sbjct  299  GGYLGAGVKGGEWPANMLREISYGPLDAVGESLSRTWNMSVLTLESLKKM--LFGELSVK  356
+
+Query  283  AIGGGQRDPQTPMSVVGASIIGGDTVDHGLWVAFWFFLAQLNLILGAINLVPLLPFDGGH  342
+             + G    P T   V GAS   G          F  FLA L++ LG +NL+P+   DGGH
+Sbjct  357  NLSG----PITIAKVAGASAQSGVG-------DFLNFLAYLSISLGVLNLLPIPVLDGGH  405
+
+Query  343  IAIAVFERIRNLIRSAR  359
+            +   + E  R    S R
+Sbjct  406  LLFYLVEWARGRPLSDR  422
+
+
+>VFG015008(gb|WP_011535273) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas entomophila 
+L48]
+Length=450
+
+ Score = 79.7 bits (195),  Expect = 4e-16, Method: Compositional matrix adjust.
+ Identities = 105/429 (24%), Positives = 168/429 (39%), Gaps = 98/429 (23%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            +A+ + V  HE GH WVA   G+KV R+ VGFG  L  W  R G T++ + A+PLGG+  
+Sbjct  12   VALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLIRWHDRHG-TEFVVAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGPAMNFVICLVLIYGIALV--------  120
+            ++     E + P   +++  +++  +R+A++ AGP  NF++ ++  + I+++        
+Sbjct  71   MLDEREGE-VPPALVEQSFNRKSVRQRIAIVAAGPIANFLLAILFFWFISMLGTQQVRPV  129
+
+Query  121  -------------------------------WGLPNLHMPTR---------AVIGETACV  140
+                                           W   NL +  R          V+ E A V
+Sbjct  130  IGAVETGSLAATAGLNVGQEIVSIDGKPTNGWSAVNLQLVRRLGESGTLRVGVLDEGATV  189
+
+Query  141  ASELD---QGKLGNCTGPGPAALAGLR-------------------------AGDVVVKI  172
+              + D      L     P P    GLR                          GD ++ +
+Sbjct  190  ERQHDIQLSHWLKGVDEPDPIQSLGLRPWRPAVEPVLAEIDPKGPAAAAGLKTGDKLLAL  249
+
+Query  173  GDTTVSTFDDMAAVVR-KLHGTVPIVFERDGTAITSYVDITPTQRYMSKGKGSQLEPATV  231
+              T +  +  +   VR +    V +  ERDG  +   V +T  ++   +  G  L  A V
+Sbjct  250  DGTVLGDWQQVVDAVRARPESKVSLRVERDGAQLE--VPVTLARKGEGQASGGYLG-AGV  306
+
+Query  232  GAIGVGAHHLLPTHYGVFSALPATAAFAGDLTVEVGKALVTIPTKLGAL-VHAIGGGQRD  290
+             A    A  L    YG   A+    +   +++V   ++L  +    G L V  + G    
+Sbjct  307  KAAQWPAQMLREVSYGPLEAVGEGLSRTWNMSVLTLESLKKM--LFGELSVKNLSG----  360
+
+Query  291  PQTPMSVVGASIIGGDTVDHGLWVAFWFFLAQLNLILGAINLVPLLPFDGGHIAIAVFER  350
+            P T   V GAS   G          F  FLA L++ LG +NL+P+   DGGH+   + E 
+Sbjct  361  PITIAKVAGASAQSGVG-------DFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLIEW  413
+
+Query  351  IRNLIRSAR  359
+             R    S R
+Sbjct  414  ARGRPLSDR  422
+
+
+>VFG015010(gb|WP_011332688) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+Pf0-1]
+Length=450
+
+ Score = 78.6 bits (192),  Expect = 8e-16, Method: Compositional matrix adjust.
+ Identities = 64/231 (28%), Positives = 112/231 (48%), Gaps = 32/231 (14%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            IA+ + V  HE GH WVA   G+KV R+ VGFG  L  W  ++G T++ + A+PLGG+  
+Sbjct  12   IALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGMPLLRWHDKQG-TEFVVAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGPAMNFVICLVLIYGIALVWGLPNLHM  128
+            ++     E +  D+  ++  +++  +R+A++ AGP  NF++ LV  + +A+         
+Sbjct  71   MLDEREGE-VPADQLHQSFNRKSVRQRIAIVAAGPVANFLLALVFFWVLAM---------  120
+
+Query  129  PTRAVIGETACVASELDQGKLGNCTGPGPAALAGLRAGDVVVKI-GDTTVSTFDDMAAVV  187
+                       + SE  +  +G+      AA AGL AG  +V I G+ T         +V
+Sbjct  121  -----------LGSEQIRPVIGSVESGSIAATAGLSAGQEIVAIDGEPTSGWAAVNLQLV  169
+
+Query  188  RKL--HGTVPIVFERDGTAITSYVDITPTQRYMSKGKGSQLEPATVGAIGV  236
+            R+L   G++ ++    G+   S     P +  + K      EP  + ++G+
+Sbjct  170  RRLGESGSLQVLVREQGSTADS-----PRELALDKWLKGADEPDPIRSLGI  215
+
+
+>VFG015012(gb|WP_011912707) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas stutzeri 
+A1501]
+Length=450
+
+ Score = 77.0 bits (188),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 67/231 (29%), Positives = 114/231 (49%), Gaps = 32/231 (14%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            +A+ + V  HE GH WVA   G+KV R+ VGFG  L  W  R G T++ I A+PLGG+  
+Sbjct  12   VALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGSPLVRWHDRHG-TEFVIAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGPAMNFVICLVLIYGIALVWGLPNLHM  128
+            ++     + + P   D A  ++   +R A++ AGP  NF++ LV  + +A++        
+Sbjct  71   MLDEREGD-VPPALLDSAFNRKTVRQRFAIVSAGPLANFLLALVFFWLLAMLG-----SQ  124
+
+Query  129  PTRAVIGETACVASELDQGKLGNCTGPGPAALAGLRAGDVVVKIGDTTVSTFDDMA-AVV  187
+              R V+G        ++ G L        AA AG+     +V +    VS + ++   +V
+Sbjct  125  QVRPVVG-------AVESGSL--------AAQAGMAVDQEIVAVNGKPVSGWGEVNLQLV  169
+
+Query  188  RKL--HGTVPIVFERDGTAITSYVDITPTQRYMSKGKGSQLEPATVGAIGV  236
+            R+L   G + +     G++   ++ I P Q ++   KG + EP  + A+G+
+Sbjct  170  RRLGESGQLDVTVREVGSSAERHLQI-PLQNWL---KGVE-EPDPITALGI  215
+
+
+>VFG015775(gb|WP_012315895) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas putida W619]
+Length=450
+
+ Score = 76.3 bits (186),  Expect = 6e-15, Method: Compositional matrix adjust.
+ Identities = 68/231 (29%), Positives = 119/231 (52%), Gaps = 32/231 (14%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            +A+ + V  HE GH WVA   G+KV R+ VGFGP L  W  R G T++ + A+PLGG+  
+Sbjct  12   VALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGPGLLRWHDRHG-TEFVVAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGPAMNFVICLVLIYGIALVWGLPNLHM  128
+            ++     E +    +D++  +++  +R+A++ AGP  NF++ +V  + +A++ G   +  
+Sbjct  71   MLDEREGE-VPLALADQSFNRKSVRQRIAIVAAGPIANFLLAIVFFWLLAML-GTQQI--  126
+
+Query  129  PTRAVIGETACVASELDQGKLGNCTGPGPAALAGLRAGDVVVKIGDTTVSTFDDMA-AVV  187
+              R VIG        ++ G L        AA AGL AG  +V I     S +  +   +V
+Sbjct  127  --RPVIG-------AVEPGSL--------AASAGLVAGQEIVSIDGKATSGWSAVNLQLV  169
+
+Query  188  RKL--HGTVPIVFERDGTAITSYVDITPTQRYMSKGKGSQLEPATVGAIGV  236
+            R+L   GT+ +    +G++    + +    +  S  KG+  EP  + ++G+
+Sbjct  170  RRLGESGTLQVGVRDEGSSAERQLQV----KLDSWLKGAD-EPDPIQSLGL  215
+
+
+ Score = 50.1 bits (118),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 64/213 (30%), Positives = 92/213 (43%), Gaps = 32/213 (15%)
+
+Query  156  GPAALAGLRAGDVVVKIGDTTVSTFDDMAAVVR-KLHGTVPIVFERDGTAITSYVDITPT  214
+            GPAA AGL+ GD ++ I    +S +  +   VR +    V +  ERDGTA+   V +   
+Sbjct  233  GPAAAAGLKTGDRLLSIDGLALSDWQQVVDSVRARPEARVVVRIERDGTALDVPVTLA--  290
+
+Query  215  QRYMSKGKGSQLEPATVGAIGVG-------AHHLLPTHYGVFSALPATAAFAGDLTVEVG  267
+                 KG+G     A  G +G G       A  L    YG   A+    +   +++V   
+Sbjct  291  ----RKGEGE----AAGGYLGAGVKSGEWPAGMLREVSYGPLDAVGEGLSRTWNMSVLTL  342
+
+Query  268  KALVTIPTKLGAL-VHAIGGGQRDPQTPMSVVGASIIGGDTVDHGLWVAFWFFLAQLNLI  326
+            ++L  +    G L V  + G    P T   V GAS   G          F  FLA L++ 
+Sbjct  343  ESLKKM--LFGELSVKNLSG----PITIAKVAGASAQSGVG-------DFLNFLAYLSIS  389
+
+Query  327  LGAINLVPLLPFDGGHIAIAVFERIRNLIRSAR  359
+            LG +NL+P+   DGGH+   + E  R    S R
+Sbjct  390  LGVLNLLPIPVLDGGHLLFYLVEWARGRPLSDR  422
+
+
+>VFG019924(gb|WP_012613725) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa 
+LESB58]
+Length=450
+
+ Score = 74.7 bits (182),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 65/231 (28%), Positives = 111/231 (48%), Gaps = 32/231 (14%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            +A+ + V  HE GH WVA   G+KV R+ VGFG  L  W  R G T++ + A+PLGG+  
+Sbjct  12   VALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHG-TEFVVAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGPAMNFVICLVLIYGIALVWGLPNLHM  128
+            ++     E +     +++  ++   +R+A++ AGP  NF++ ++  + +AL+        
+Sbjct  71   LLDEREAE-VPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVALLG-----SQ  124
+
+Query  129  PTRAVIGETACVASELDQGKLGNCTGPGPAALAGLRAGDVVVKIGDTTVSTFDDMA-AVV  187
+              R VIG  A  +                AA AGL AG  ++ +    V+ ++ +   +V
+Sbjct  125  QVRPVIGSVAPESL---------------AAQAGLEAGQELLAVDGEPVTGWNGVNLQLV  169
+
+Query  188  RKL--HGTVPIVFERDGTAITSYVDITPTQRYMSKGKGSQLEPATVGAIGV  236
+            R+L   GT+ +  +  G    S VD T   R     KG    P  + ++G+
+Sbjct  170  RRLGESGTLEVRVQEKG----SNVDSTHQVRLDGWLKGED-NPDPIASLGI  215
+
+
+>VFG015001(gb|WP_012074695) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa 
+PA7]
+Length=450
+
+ Score = 74.7 bits (182),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 65/231 (28%), Positives = 111/231 (48%), Gaps = 32/231 (14%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            +A+ + V  HE GH WVA   G+KV R+ VGFG  L  W  R G T++ + A+PLGG+  
+Sbjct  12   VALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRHG-TEFVVAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGPAMNFVICLVLIYGIALVWGLPNLHM  128
+            ++     E +     +++  ++   +R+A++ AGP  NF++ ++  + +AL+        
+Sbjct  71   MLDEREAE-VPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVALLG-----SQ  124
+
+Query  129  PTRAVIGETACVASELDQGKLGNCTGPGPAALAGLRAGDVVVKIGDTTVSTFDDMA-AVV  187
+              R VIG  A  +                AA AGL AG  ++ +    V+ ++ +   +V
+Sbjct  125  QVRPVIGSVAPESL---------------AAQAGLEAGQELLAVDGEPVTGWNGVNLQLV  169
+
+Query  188  RKL--HGTVPIVFERDGTAITSYVDITPTQRYMSKGKGSQLEPATVGAIGV  236
+            R+L   GT+ +  +  G    S VD T   R     KG    P  + ++G+
+Sbjct  170  RRLGESGTLEVRVQEKG----SNVDSTHQVRLDGWLKGED-NPDPIASLGI  215
+
+
+>VFG015000(gb|NP_252339) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa PAO1]
+Length=450
+
+ Score = 74.3 bits (181),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 65/231 (28%), Positives = 111/231 (48%), Gaps = 32/231 (14%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            +A+ + V  HE GH WVA   G+KV R+ VGFG  L  W  R G T++ + A+PLGG+  
+Sbjct  12   VALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHG-TEFVVAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGPAMNFVICLVLIYGIALVWGLPNLHM  128
+            ++     E +     +++  ++   +R+A++ AGP  NF++ ++  + +AL+        
+Sbjct  71   MLDEREAE-VPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVALLG-----SQ  124
+
+Query  129  PTRAVIGETACVASELDQGKLGNCTGPGPAALAGLRAGDVVVKIGDTTVSTFDDMA-AVV  187
+              R VIG  A  +                AA AGL AG  ++ +    V+ ++ +   +V
+Sbjct  125  QVRPVIGSVAPESL---------------AAQAGLEAGQELLAVDGEPVTGWNGVNLQLV  169
+
+Query  188  RKL--HGTVPIVFERDGTAITSYVDITPTQRYMSKGKGSQLEPATVGAIGV  236
+            R+L   GT+ +  +  G    S VD T   R     KG    P  + ++G+
+Sbjct  170  RRLGESGTLEVRVQEKG----SNVDSTHQVRLDGWLKGED-NPDPIASLGI  215
+
+
+>VFG015002(gb|WP_003138017) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa 
+UCBPP-PA14]
+Length=450
+
+ Score = 73.6 bits (179),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 65/231 (28%), Positives = 110/231 (48%), Gaps = 32/231 (14%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            +A+ + V  HE GH WVA   G+KV R+ VGFG  L  W  R G T++ + A+PLGG+  
+Sbjct  12   VALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHG-TEFVVAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGPAMNFVICLVLIYGIALVWGLPNLHM  128
+            ++     E +     +++  ++   +R+A++ AGP  NF++ ++  + +AL+        
+Sbjct  71   MLDEREAE-VPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVALLG-----SQ  124
+
+Query  129  PTRAVIGETACVASELDQGKLGNCTGPGPAALAGLRAGDVVVKIGDTTVSTFDDMA-AVV  187
+              R VIG  A  +                AA AGL AG  ++ +    V+ +  +   +V
+Sbjct  125  QVRPVIGSVAPESL---------------AAQAGLEAGQELLAVDGEPVTGWSGVNLQLV  169
+
+Query  188  RKL--HGTVPIVFERDGTAITSYVDITPTQRYMSKGKGSQLEPATVGAIGV  236
+            R+L   GT+ +  +  G    S VD T   R     KG    P  + ++G+
+Sbjct  170  RRLGESGTLEVRVQEKG----SNVDSTHQVRLDGWLKGED-NPDPIASLGI  215
+
+
+>VFG015006(gb|WP_049587451) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas putida KT2440]
+Length=450
+
+ Score = 72.4 bits (176),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 65/231 (28%), Positives = 117/231 (51%), Gaps = 32/231 (14%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            +A+ + V  HE GH WVA   G+KV R+ VGFG  L  W  R G T++ + A+PLGG+  
+Sbjct  12   VALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRHG-TEFVVAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGPAMNFVICLVLIYGIALVWGLPNLHM  128
+            ++     + + P  + ++  +++  +R+A++ AGP  NF++ ++  + +A++ G   +  
+Sbjct  71   MLDEREGD-VPPALAGQSFNRKSVRQRIAIVAAGPIANFLLAILFFWVLAML-GTQQI--  126
+
+Query  129  PTRAVIGETACVASELDQGKLGNCTGPGPAALAGLRAGDVVVKIGDTTVSTFDDMA-AVV  187
+              R VIG        +D G L        AA AGL AG  +V +     + +  +   +V
+Sbjct  127  --RPVIG-------AVDSGSL--------AASAGLTAGQEIVSVDGKPTNGWSAVNLQLV  169
+
+Query  188  RKL--HGTVPIVFERDGTAITSYVDITPTQRYMSKGKGSQLEPATVGAIGV  236
+            R+L   GT+ I    +G +    + +    +  S  KG+  EP  + ++G+
+Sbjct  170  RRLGESGTLQIGVRDEGASAERQLQV----KLDSWLKGAD-EPDPIQSLGL  215
+
+
+ Score = 52.0 bits (123),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 63/213 (30%), Positives = 94/213 (44%), Gaps = 32/213 (15%)
+
+Query  156  GPAALAGLRAGDVVVKIGDTTVSTFDDMAAVVR-KLHGTVPIVFERDGTAITSYVDITPT  214
+            GPAA AGL+ GD ++ + D  V+ +  +   VR +    V +  ERDG A+   V +   
+Sbjct  233  GPAAAAGLKTGDKLLALDDLAVTEWQQVVDRVRARPDAKVVVRVERDGAALELPVTLA--  290
+
+Query  215  QRYMSKGKGSQLEPATVGAIGVG-------AHHLLPTHYGVFSALPATAAFAGDLTVEVG  267
+                 KG+G     A  G +G G       A+ L    YG   A+  + +   +++V   
+Sbjct  291  ----RKGEGK----AVGGYLGAGVKGGEWPANMLREISYGPLDAVGESLSRTWNMSVLTL  342
+
+Query  268  KALVTIPTKLGAL-VHAIGGGQRDPQTPMSVVGASIIGGDTVDHGLWVAFWFFLAQLNLI  326
+            ++L  +    G L V  + G    P T   V GAS   G          F  FLA L++ 
+Sbjct  343  ESLKKM--LFGELSVKNLSG----PITIAKVAGASAQSGVG-------DFLNFLAYLSIS  389
+
+Query  327  LGAINLVPLLPFDGGHIAIAVFERIRNLIRSAR  359
+            LG +NL+P+   DGGH+   + E  R    S R
+Sbjct  390  LGVLNLLPIPVLDGGHLLFYLVEWARGRPLSDR  422
+
+
+>VFG015774(gb|WP_012270841) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas putida GB-1]
+Length=450
+
+ Score = 72.0 bits (175),  Expect = 1e-13, Method: Compositional matrix adjust.
+ Identities = 64/231 (28%), Positives = 115/231 (50%), Gaps = 32/231 (14%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            +A+ + V  HE GH WVA   G+KV R+ VGFG  L  W  R G T++ + A+PLGG+  
+Sbjct  12   VALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRHG-TEFVVAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGPAMNFVICLVLIYGIALVWGLPNLHM  128
+            ++     + + P  + ++  +++  +R+A++ AGP  NF++ ++  + +A++        
+Sbjct  71   MLDEREGD-VPPALAGQSFNRKSVRQRIAIVAAGPIANFLLAILFFWVLAMLG-----TQ  124
+
+Query  129  PTRAVIGETACVASELDQGKLGNCTGPGPAALAGLRAGDVVVKIGDTTVSTFDDMA-AVV  187
+              R VIG        +D G L        AA AGL AG  +V I     + +  +   +V
+Sbjct  125  QVRPVIG-------AVDSGSL--------AASAGLTAGQEIVSIDGKATNGWSAVNLQLV  169
+
+Query  188  RKL--HGTVPIVFERDGTAITSYVDITPTQRYMSKGKGSQLEPATVGAIGV  236
+            R+L   GT+ +    +G +    + +    +  S  KG+  EP  + ++G+
+Sbjct  170  RRLGESGTLQVGVLEEGASAERQLQV----KLDSWLKGAD-EPDPIQSLGL  215
+
+
+ Score = 48.1 bits (113),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 62/213 (29%), Positives = 92/213 (43%), Gaps = 32/213 (15%)
+
+Query  156  GPAALAGLRAGDVVVKIGDTTVSTFDDMAAVVR-KLHGTVPIVFERDGTAITSYVDITPT  214
+            GPAA AGL+ GD ++ +    V+ +  +   VR +    V +  ERDG A+   V +   
+Sbjct  233  GPAAAAGLKTGDKLLAVDGQAVTEWQQVVDSVRARPDAKVVVRVERDGAALELPVTLA--  290
+
+Query  215  QRYMSKGKGSQLEPATVGAIGVG-------AHHLLPTHYGVFSALPATAAFAGDLTVEVG  267
+                 KG+G     A  G +G G       A+ L    YG   A+    +   +++V   
+Sbjct  291  ----RKGEGK----AVGGYLGAGVKGGEWPANMLREVSYGPLDAVGEGLSRTWNMSVLTL  342
+
+Query  268  KALVTIPTKLGAL-VHAIGGGQRDPQTPMSVVGASIIGGDTVDHGLWVAFWFFLAQLNLI  326
+            ++L  +    G L V  + G    P T   V GAS   G          F  FLA L++ 
+Sbjct  343  ESLKKM--LFGELSVKNLSG----PITIAKVAGASAQSGVG-------DFLNFLAYLSIS  389
+
+Query  327  LGAINLVPLLPFDGGHIAIAVFERIRNLIRSAR  359
+            LG +NL+P+   DGGH+   + E  R    S R
+Sbjct  390  LGVLNLLPIPVLDGGHLLFYLVEWARGRPLSDR  422
+
+
+>VFG015011(gb|WP_012019182) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas mendocina 
+ymp]
+Length=450
+
+ Score = 63.9 bits (154),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 35/95 (37%), Positives = 59/95 (62%), Gaps = 4/95 (4%)
+
+Query  11   IAILISVALHECGHLWVACATGMKVRRYFVGFGPTL--WSTRRGETQYGIKAVPLGGFCD  68
+            IA+ + V  HE GH WVA   G+KV R+ VGFG  L  W  R+G T++ I A+PLGG+  
+Sbjct  12   IALGVLVTFHEYGHFWVARRCGVKVLRFSVGFGTPLLRWHDRQG-TEFVIAAIPLGGYVK  70
+
+Query  69   IVGMTSVEKLEPDESDRAMYKQATWKRVAVLFAGP  103
+            ++     + + P+  +++  +++  +R+A++ AGP
+Sbjct  71   MLDEREGD-VPPELVEQSFNRKSVRQRIAIVAAGP  104
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.141    0.434    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3143709919
+
+
+Query= g2818.t1
+
+Length=403
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015775(gb|WP_012315895) (mucP) metalloprotease protease [Algin...  88.6    4e-19
+VFG015003(gb|WP_011103593) (mucP) metalloprotease protease [Algin...  87.8    8e-19
+VFG015005(gb|WP_011169295) (mucP) metalloprotease protease [Algin...  87.4    1e-18
+VFG019925(gb|WP_012722600) (mucP) metalloprotease protease [Algin...  86.7    2e-18
+VFG015004(gb|WP_004406254) (mucP) metalloprotease protease [Algin...  86.7    2e-18
+VFG015009(gb|WP_011059531) (mucP) metalloprotease protease [Algin...  85.9    3e-18
+VFG015001(gb|WP_012074695) (mucP) metalloprotease protease [Algin...  83.6    2e-17
+VFG015012(gb|WP_011912707) (mucP) metalloprotease protease [Algin...  82.8    4e-17
+VFG015010(gb|WP_011332688) (mucP) metalloprotease protease [Algin...  82.0    6e-17
+VFG015008(gb|WP_011535273) (mucP) metalloprotease protease [Algin...  79.3    5e-16
+VFG019924(gb|WP_012613725) (mucP) metalloprotease protease [Algin...  78.2    1e-15
+VFG015000(gb|NP_252339) (mucP) metalloprotease protease [Alginate...  77.8    1e-15
+VFG015002(gb|WP_003138017) (mucP) metalloprotease protease [Algin...  77.0    3e-15
+VFG015007(gb|WP_012053542) (mucP) metalloprotease protease [Algin...  76.6    4e-15
+VFG015006(gb|WP_049587451) (mucP) metalloprotease protease [Algin...  76.3    5e-15
+VFG015774(gb|WP_012270841) (mucP) metalloprotease protease [Algin...  74.3    2e-14
+VFG015011(gb|WP_012019182) (mucP) metalloprotease protease [Algin...  69.3    1e-12
+
+
+>VFG015775(gb|WP_012315895) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas putida W619]
+Length=450
+
+ Score = 88.6 bits (218),  Expect = 4e-19, Method: Compositional matrix adjust.
+ Identities = 130/484 (27%), Positives = 196/484 (40%), Gaps = 143/484 (30%)
+
+Query  8    LFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGVKAVPLGG  65
+            L AL +L++   HE GH WVARR G+KV R+ VGFGP L  W  R G TE+ V A+PLGG
+Sbjct  11   LVALGVLVT--FHEFGHFWVARRCGVKVLRFSVGFGPGLLRWHDRHG-TEFVVAAIPLGG  67
+
+Query  66   FCDIAGMTPVEELDPDE-------RDRAMYKQATWKRVAVLFAGPGMNLAICLVLIYAIA  118
+            +        V+ LD  E        D++  +++  +R+A++ AGP  N  + +V  + +A
+Sbjct  68   Y--------VKMLDEREGEVPLALADQSFNRKSVRQRIAIVAAGPIANFLLAIVFFWLLA  119
+
+Query  119  LV---------------------------------------WGLPNLHPPTRAVIGETGC  139
+            ++                                       W   NL    R  +GE+G 
+Sbjct  120  MLGTQQIRPVIGAVEPGSLAASAGLVAGQEIVSIDGKATSGWSAVNLQLVRR--LGESGT  177
+
+Query  140  V----------AQEVSQGKLEQ----CTGPGPAALAGIRSGDVVV---------------  170
+            +          A+   Q KL+        P P    G+R    VV               
+Sbjct  178  LQVGVRDEGSSAERQLQVKLDSWLKGADEPDPIQSLGLRPWRPVVAPVLAEIDPKGPAAA  237
+
+Query  171  ---KVGDTPVS-------SFDEMAAAVR-KSHGSVPIVVERDGTAIVTYVDIESTQRWIP  219
+               K GD  +S        + ++  +VR +    V + +ERDGTA+   V +        
+Sbjct  238  AGLKTGDRLLSIDGLALSDWQQVVDSVRARPEARVVVRIERDGTALDVPVTLAR------  291
+
+Query  220  NGQGGELQPATVGAIGVG-------AARVGPVRYGVFSAMPATFAVTGDLTVEVGKALAA  272
+             G+G     A  G +G G       A  +  V YG   A+    + T +++V   ++L  
+Sbjct  292  KGEG----EAAGGYLGAGVKSGEWPAGMLREVSYGPLDAVGEGLSRTWNMSVLTLESLKK  347
+
+Query  273  LPTKVGAL-VRAIGGGQRDPQTPISVVGASIIGGDTVDHGLWVAFWFFLAQLNLILAAIN  331
+            +    G L V+ + G    P T   V GAS   G          F  FLA L++ L  +N
+Sbjct  348  M--LFGELSVKNLSG----PITIAKVAGASAQSGVG-------DFLNFLAYLSISLGVLN  394
+
+Query  332  LLPLLPFDGGHIAVAVFERIRNMVRSARGKVAAAPVNYLKLLPATYVVLVLVVGYMLLTV  391
+            LLP+   DGGH+       +  +V  ARG+  +  V          + + LV+G MLL +
+Sbjct  395  LLPIPVLDGGHL-------LFYLVEWARGRPLSDRVQGW----GVQIGISLVIGVMLLAL  443
+
+Query  392  TADL  395
+              DL
+Sbjct  444  INDL  447
+
+
+>VFG015003(gb|WP_011103593) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. tomato str. DC3000]
+Length=450
+
+ Score = 87.8 bits (216),  Expect = 8e-19, Method: Compositional matrix adjust.
+ Identities = 72/238 (30%), Positives = 121/238 (51%), Gaps = 42/238 (18%)
+
+Query  8    LFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGVKAVPLGG  65
+            L AL +L++   HE GH WVARR G+KV R+ VGFG  L  WS R+G TEY V A+PLGG
+Sbjct  11   LVALGVLVT--FHEFGHFWVARRCGVKVLRFSVGFGTPLLRWSDRQG-TEYVVAAIPLGG  67
+
+Query  66   FCDI----AGMTPVEELDPDERDRAMYKQATWKRVAVLFAGPGMNLAICLVLIYAIALVW  121
+            +  +     G  P     P+  D++  ++   +R+A++ AGP  N  + +   + +A++ 
+Sbjct  68   YVKMLDEREGNVP-----PELADQSFNRKTVGQRIAIVIAGPTANFLLAIAFFWVLAMM-  121
+
+Query  122  GLPNLHPPTRAVIGETGCVAQEVSQGKLEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFD  181
+            G   + P   AV  E+G +AQ+                 AG+ +G  +V V   P S + 
+Sbjct  122  GSEQVRPVIGAV--ESGSIAQQ-----------------AGLTAGQEIVAVDGEPTSGWA  162
+
+Query  182  EMA-AAVRK--SHGSVPIVVERDGTAIVTYVDIESTQRWIPNGQGGELQPATVGAIGV  236
+             +    VR+    G++ + V   G+ + T  ++  +  W+   +G E +P  + ++G+
+Sbjct  163  GVNLQLVRRLGESGTIALKVRDQGSTVDTSRELVLSD-WL---KGAE-EPDPIKSLGI  215
+
+
+ Score = 55.1 bits (131),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 70/256 (27%), Positives = 108/256 (42%), Gaps = 43/256 (17%)
+
+Query  149  LEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMAAAVR-KSHGSVPIVVERDGTAIVT  207
+            L +    GPA  AG+++GD ++ +   P++ + ++   VR +    V + +ERD   +  
+Sbjct  226  LAEIDPKGPAQSAGLKTGDRLISMDGQPLNEWQQVVDRVRERPEAKVSLRIERDAVQMDV  285
+
+Query  208  YVDIESTQRWIPNGQGGELQPATVGAIGVGAARVG-------PVRYGVFSAMPATFAVTG  260
+             V + +       G+G     A  G +G G   V         V YG F+AM      T 
+Sbjct  286  PVTLAA------RGEG----KAAAGYLGAGVKAVDWPPEMLREVSYGPFAAMVEGVKRTW  335
+
+Query  261  DLTVEVGKALAALPTKVGAL-VRAIGGGQRDPQTPISVVGASIIGGDTVDHGLWVAFWFF  319
+             ++V    +L  +    G L V+ + G    P T   V GAS   G          F  F
+Sbjct  336  TMSVLTLDSLKKM--LFGELSVKNLSG----PITIAKVAGASAQSGLG-------DFLNF  382
+
+Query  320  LAQLNLILAAINLLPLLPFDGGHIAVAVFERIRNMVRSARGKVAAAPVNYLKLLPATYVV  379
+            LA L++ L  +NLLP+   DGGH+   + E  R    S + +   A +            
+Sbjct  383  LAYLSISLGVLNLLPIPVLDGGHLLFYLIEWARGRPLSEKVQGWGAQIG-----------  431
+
+Query  380  LVLVVGYMLLTVTADL  395
+            + LVVG MLL +  DL
+Sbjct  432  ISLVVGIMLLALVNDL  447
+
+
+>VFG015005(gb|WP_011169295) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+Length=450
+
+ Score = 87.4 bits (215),  Expect = 1e-18, Method: Compositional matrix adjust.
+ Identities = 61/179 (34%), Positives = 93/179 (52%), Gaps = 34/179 (19%)
+
+Query  8    LFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGVKAVPLGG  65
+            L AL +L++   HE GH WVARR G+KV R+ VGFG  L  WS R+G TEY V A+PLGG
+Sbjct  11   LIALGVLVT--FHEFGHFWVARRCGVKVLRFSVGFGTPLLRWSDRQG-TEYVVAAIPLGG  67
+
+Query  66   FCDI----AGMTPVEELDPDERDRAMYKQATWKRVAVLFAGPGMNLAICLVLIYAIALVW  121
+            +  +     G  P     P+  D++  ++   +R+A++ AGP  N  + +   + +A++ 
+Sbjct  68   YVKMLDEREGNVP-----PELADQSFNRKTVGQRIAIVIAGPTANFLLAIAFFWVLAMM-  121
+
+Query  122  GLPNLHPPTRAVIGETGCVAQEVSQGKLEQCTGPGPAALAGIRSGDVVVKVGDTPVSSF  180
+            G   + P   AV  E+G +AQ+                 AG+ +G  +V V   P S +
+Sbjct  122  GSEQVRPVIGAV--ESGSIAQQ-----------------AGLTAGQEIVAVDGEPTSGW  161
+
+
+ Score = 54.3 bits (129),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 67/249 (27%), Positives = 106/249 (43%), Gaps = 29/249 (12%)
+
+Query  149  LEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMAAAVR-KSHGSVPIVVERDGTAIVT  207
+            L +    GPA  AG+++GD ++ +   P++ + ++   VR +    V + +ERDG  +  
+Sbjct  226  LAEIDPKGPAQSAGLKTGDRLISMDGQPLNEWQQVVDRVRERPEAKVSLRIERDGVQMDV  285
+
+Query  208  YVDIESTQRWIPNGQGGELQPATVGAIGVGAARVGPVRYGVFSAMPATFAVTGDLTVEVG  267
+             V + +               A V A+      +  V YG F+AM      T +++V   
+Sbjct  286  PVTLAAKGE---GKAAAGYLGAGVKAVDWPPEMLREVSYGPFAAMGEGIKRTWNMSVLTL  342
+
+Query  268  KALAALPTKVGAL-VRAIGGGQRDPQTPISVVGASIIGGDTVDHGLWVAFWFFLAQLNLI  326
+             +L  +    G L V+ + G    P T   V GAS   G          F  FLA L++ 
+Sbjct  343  DSLKKM--LFGELSVKNLSG----PITIAKVAGASAQSGIG-------DFLNFLAYLSIS  389
+
+Query  327  LAAINLLPLLPFDGGHIAVAVFERIRNMVRSARGKVAAAPVNYLKLLPATYVVLVLVVGY  386
+            L  +NLLP+   DGGH+   + E  R    S + +   A +            + LVVG 
+Sbjct  390  LGVLNLLPIPVLDGGHLLFYLIEWARGRPLSEKVQGWGAQIG-----------ISLVVGV  438
+
+Query  387  MLLTVTADL  395
+            MLL +  DL
+Sbjct  439  MLLALVNDL  447
+
+
+>VFG019925(gb|WP_012722600) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+SBW25]
+Length=450
+
+ Score = 86.7 bits (213),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 65/191 (34%), Positives = 103/191 (54%), Gaps = 19/191 (10%)
+
+Query  8    LFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGVKAVPLGG  65
+            L AL +L++   HE GH WVARR G+KV R+ VGFG  L  W  RRG TE+ + A+PLGG
+Sbjct  11   LVALGVLVT--FHEFGHFWVARRCGVKVLRFSVGFGMPLLRWHDRRG-TEFVIAAIPLGG  67
+
+Query  66   FCDIAGMTPVEELDPDERDRAMYKQATWKRVAVLFAGPGMNLAICLVLIYAIALVWGLPN  125
+            +  +       E+  D+ D++  ++   +R+A++ AGP  N  + +V  + +A++ G   
+Sbjct  68   YVKMLDERE-GEVPADQLDQSFNRKTVRQRIAIVAAGPIANFLLAMVFFWVLAML-GSQQ  125
+
+Query  126  LHP-----PTRAVIGETGCVA-QEVSQGKLEQCTGPGPAALAGIR----SG--DVVVKVG  173
+            + P      + ++  + G VA QE+     E  TG G   L  +R    SG  +VVV+  
+Sbjct  126  VRPVIGAVESDSIAAKAGLVAGQEIVSIDGEPTTGWGAVNLQLVRRLGESGTVNVVVREQ  185
+
+Query  174  DTPVSSFDEMA  184
+            D+   +  E+A
+Sbjct  186  DSTTETPRELA  196
+
+
+>VFG015004(gb|WP_004406254) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. syringae B728a]
+Length=450
+
+ Score = 86.7 bits (213),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 71/238 (30%), Positives = 117/238 (49%), Gaps = 42/238 (18%)
+
+Query  8    LFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGVKAVPLGG  65
+            L AL +L++   HE GH WVARR G+KV R+ VGFG  L  W  R+G TEY V A+PLGG
+Sbjct  11   LIALGVLVT--FHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRQG-TEYVVAAIPLGG  67
+
+Query  66   FCDI----AGMTPVEELDPDERDRAMYKQATWKRVAVLFAGPGMNLAICLVLIYAIALVW  121
+            +  +     G  P     P+  D++  ++   +R+A++ AGP  N  + +   + +A++ 
+Sbjct  68   YVKMLDEREGNVP-----PELADQSFNRKTVGQRIAIVIAGPTANFILAIAFFWVLAMM-  121
+
+Query  122  GLPNLHPPTRAVIGETGCVAQEVSQGKLEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFD  181
+            G   + P   AV  E+G +AQ+                 AG+ +G  +V V   P S + 
+Sbjct  122  GSEQVRPVIGAV--ESGSIAQQ-----------------AGLTAGQEIVAVDGEPTSGWA  162
+
+Query  182  EMA-AAVRK--SHGSVPIVVERDGTAIVTYVDIESTQRWIPNGQGGELQPATVGAIGV  236
+             +    VR+    G++ + V   G+ + T     S Q  + +   G  +P  + ++G+
+Sbjct  163  GVNLQLVRRLGESGTIALKVRDQGSTVDT-----SRQLVLSDWLRGAEEPDPIKSLGI  215
+
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 67/249 (27%), Positives = 105/249 (42%), Gaps = 29/249 (12%)
+
+Query  149  LEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMAAAVR-KSHGSVPIVVERDGTAIVT  207
+            L +    GPA  AG+++GD +V +   P+  + ++   VR +    + + +ERDG  +  
+Sbjct  226  LAEIDPKGPAQSAGLKTGDRLVAMDGQPLDEWQQVVDRVRERPEAKISLRIERDGVQMDV  285
+
+Query  208  YVDIESTQRWIPNGQGGELQPATVGAIGVGAARVGPVRYGVFSAMPATFAVTGDLTVEVG  267
+             V + +               A V A+      +  V YG F+AM      T +++V   
+Sbjct  286  PVTLAAKGE---GKAAAGYLGAGVKAVDWPPEMLREVSYGPFAAMAEGVKRTWNMSVLTL  342
+
+Query  268  KALAALPTKVGAL-VRAIGGGQRDPQTPISVVGASIIGGDTVDHGLWVAFWFFLAQLNLI  326
+             +L  +    G L V+ + G    P T   V GAS   G          F  FLA L++ 
+Sbjct  343  DSLKKM--LFGELSVKNLSG----PITIAKVAGASAQSGIG-------DFLNFLAYLSIS  389
+
+Query  327  LAAINLLPLLPFDGGHIAVAVFERIRNMVRSARGKVAAAPVNYLKLLPATYVVLVLVVGY  386
+            L  +NLLP+   DGGH+   + E  R    S + +   A +            + LVVG 
+Sbjct  390  LGVLNLLPIPVLDGGHLLFYLIEWARGRPLSEKVQGWGAQIG-----------ISLVVGV  438
+
+Query  387  MLLTVTADL  395
+            MLL +  DL
+Sbjct  439  MLLALVNDL  447
+
+
+>VFG015009(gb|WP_011059531) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+Pf-5]
+Length=450
+
+ Score = 85.9 bits (211),  Expect = 3e-18, Method: Compositional matrix adjust.
+ Identities = 70/234 (30%), Positives = 121/234 (52%), Gaps = 34/234 (15%)
+
+Query  8    LFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGVKAVPLGG  65
+            L AL +L++   HE GH WVARR G+KV R+ VGFG  L  W  RRG TE+ + A+PLGG
+Sbjct  11   LVALGVLVT--FHEFGHFWVARRCGVKVLRFSVGFGMPLLRWHDRRG-TEFVIAAIPLGG  67
+
+Query  66   FCDIAGMTPVEELDPDERDRAMYKQATWKRVAVLFAGPGMNLAICLVLIYAIALVWGLPN  125
+            +  +       E+  +E D++  +++  +R+A++ AGP  N  + LV  +A+A++ G   
+Sbjct  68   YVKMLDERE-GEVAAEELDQSFNRKSVRQRIAIVAAGPIANFLLALVFFWALAML-GSQQ  125
+
+Query  126  LHPPTRAVIGETGCVAQEVSQGKLEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMA-  184
+            + P    VIG       +V  G +        AA AG+ +G  +V +   P + +  +  
+Sbjct  126  VRP----VIG-------DVEAGSI--------AAKAGLSAGQEIVAIDGEPTTGWAAVNL  166
+
+Query  185  AAVRK--SHGSVPIVVERDGTAIVTYVDIESTQRWIPNGQGGELQPATVGAIGV  236
+              VR+    G++ ++V   G  + +   +E   +W+     G  +P  + ++G+
+Sbjct  167  QLVRRLGESGALQVLVREQGATVDSPRQLE-LDKWLK----GADEPDPIRSLGI  215
+
+
+ Score = 54.7 bits (130),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 75/251 (30%), Positives = 111/251 (44%), Gaps = 33/251 (13%)
+
+Query  149  LEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMAAAVRKSHGSVPIV--VERDGTAIV  206
+            L +    GPA  AG+++GD ++ +   P++ + ++   VR  H    IV  VERDG  I 
+Sbjct  226  LAELDPKGPAQAAGLKTGDRLLALDGQPLNDWQQVVDWVR-VHPDTKIVLHVERDGAQID  284
+
+Query  207  TYVDIEST-QRWIPNGQGGELQPATVGAIGVGAARVGPVRYGVFSAMPATFAVTGDLTVE  265
+              V + S  +   PNG  G    A V A+      +  V YG   A+      T  ++V 
+Sbjct  285  VPVTLASRGESKAPNGYLG----AGVKAVDWPPQMLREVSYGPLEAIGEGARRTWTMSVL  340
+
+Query  266  VGKALAALPTKVGAL-VRAIGGGQRDPQTPISVVGASIIGGDTVDHGLWVAFWFFLAQLN  324
+              ++L  +    G L V+ + G    P T   V GAS   G          F  FLA L+
+Sbjct  341  TLESLKKM--LFGELSVKNLSG----PITIAKVAGASAQSGIA-------DFLNFLAYLS  387
+
+Query  325  LILAAINLLPLLPFDGGHIAVAVFERIRNMVRSARGKVAAAPVNYLKLLPATYVVLVLVV  384
+            + L  +NLLP+   DGGH+   + E        ARG+  +  V    +     + + LVV
+Sbjct  388  ISLGVLNLLPIPVLDGGHLLFYLIE-------WARGRPLSDRVQGWGI----QIGISLVV  436
+
+Query  385  GYMLLTVTADL  395
+            G MLL +  DL
+Sbjct  437  GVMLLALVNDL  447
+
+
+>VFG015001(gb|WP_012074695) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa 
+PA7]
+Length=450
+
+ Score = 83.6 bits (205),  Expect = 2e-17, Method: Compositional matrix adjust.
+ Identities = 120/477 (25%), Positives = 188/477 (39%), Gaps = 129/477 (27%)
+
+Query  8    LFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGVKAVPLGG  65
+            L AL +L++   HE GH WVARR G+KV R+ VGFG  L  W  R G TE+ V A+PLGG
+Sbjct  11   LVALGVLVT--FHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRHG-TEFVVAAIPLGG  67
+
+Query  66   FCDIAGMTPVEELDPDERDRAMYKQATWKRVAVLFAGPGMNLAICLVLIYAIALV-----  120
+            +  +       E+     +++  ++   +R+A++ AGP  N  + ++  + +AL+     
+Sbjct  68   YVKMLDEREA-EVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVALLGSQQV  126
+
+Query  121  ----------------------------------WGLPNLHPPTRAVIGETGCVAQEVSQ  146
+                                              W   NL    R  +GE+G +   V +
+Sbjct  127  RPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRR--LGESGTLEVRVQE  184
+
+Query  147  --------------GKLEQCTGPGPAALAGI-------------------------RSGD  167
+                          G L+    P P A  GI                         + GD
+Sbjct  185  KGSNVDSTHQVRLDGWLKGEDNPDPIASLGIQPWRPALPPVLAELDPKGPAQAAGLKVGD  244
+
+Query  168  VVVKVGDTPVSSFDEMAAAVRKSHGS-VPIVVERDGTAIVTYVDIESTQRWIPNGQGGEL  226
+             +  +    V  + ++  +VR   G  V + V RDG  +   +D+ S       G+G   
+Sbjct  245  RLQGIDGVAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDIALDLAS------RGEG---  295
+
+Query  227  QPATVGAIGVG-------AARVGPVRYGVFSAMPATFAVTGDLTVEVGKALAALPTKVGA  279
+              A  G +G G       A  +  V YG   A+    + T  +++    ++  +   +G 
+Sbjct  296  -KARTGYMGAGVSGGEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKM--LLGE  352
+
+Query  280  L-VRAIGGGQRDPQTPISVVGASIIGGDTVDHGLWVAFWFFLAQLNLILAAINLLPLLPF  338
+            L V+ + G    P T   V GAS   G     G ++ F   LA L++ L  +NLLP+   
+Sbjct  353  LSVKNLSG----PITIAKVAGASAQSG----VGDFLNF---LAYLSISLGVLNLLPIPVL  401
+
+Query  339  DGGHIAVAVFERIRNMVRSARGKVAAAPVNYLKLLPATYVVLVLVVGYMLLTVTADL  395
+            DGGH+   + E +R    S R +     +            + LVVG MLL +  DL
+Sbjct  402  DGGHLLFYLVEWVRGRPLSERVQAWGMQIG-----------ISLVVGVMLLALVNDL  447
+
+
+>VFG015012(gb|WP_011912707) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas stutzeri 
+A1501]
+Length=450
+
+ Score = 82.8 bits (203),  Expect = 4e-17, Method: Compositional matrix adjust.
+ Identities = 75/236 (32%), Positives = 113/236 (48%), Gaps = 38/236 (16%)
+
+Query  8    LFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGVKAVPLGG  65
+            L AL +L++   HE GH WVARR G+KV R+ VGFG  L  W  R G TE+ + A+PLGG
+Sbjct  11   LVALGVLVT--FHEFGHFWVARRCGVKVLRFSVGFGSPLVRWHDRHG-TEFVIAAIPLGG  67
+
+Query  66   FCDIAGMTPVEELD--PDERDRAMYKQATWKRVAVLFAGPGMNLAICLVLIYAIALVWGL  123
+            +     M    E D  P   D A  ++   +R A++ AGP  N  + LV  + +A++ G 
+Sbjct  68   YVK---MLDEREGDVPPALLDSAFNRKTVRQRFAIVSAGPLANFLLALVFFWLLAML-GS  123
+
+Query  124  PNLHPPTRAVIGETGCVAQEVSQGKLEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEM  183
+              + P   AV  E+G +                 AA AG+     +V V   PVS + E+
+Sbjct  124  QQVRPVVGAV--ESGSL-----------------AAQAGMAVDQEIVAVNGKPVSGWGEV  164
+
+Query  184  A-AAVRK--SHGSVPIVVERDGTAIVTYVDIESTQRWIPNGQGGELQPATVGAIGV  236
+                VR+    G + + V   G++   ++ I   Q W+     G  +P  + A+G+
+Sbjct  165  NLQLVRRLGESGQLDVTVREVGSSAERHLQI-PLQNWLK----GVEEPDPITALGI  215
+
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 69/254 (27%), Positives = 108/254 (43%), Gaps = 43/254 (17%)
+
+Query  151  QCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMAAAVRKSHGSVPIV-VERDGTAIVTYV  209
+            Q    GPA  AGI+ GD ++ +   P+  + ++  AV+   G+  ++ VERDG  +   +
+Sbjct  228  QLDPEGPAQAAGIQLGDRLISLNRQPLDDWQQVIDAVKVLPGATAVLEVERDGQRVDVPL  287
+
+Query  210  DIESTQRWIPNGQGGELQPATVGAIGVG-------AARVGPVRYGVFSAMPATFAVTGDL  262
+             + +       G+G     A  G +G G       A  +  VR+G   A+      T  +
+Sbjct  288  TLAA------RGEG----DARRGYLGAGVEGGEWPAEMLREVRFGPLDAVVEGAKRTWTM  337
+
+Query  263  TVEVGKALAALPTKVGAL-VRAIGGGQRDPQTPISVVGASIIGGDTVDHGLWVAFWFFLA  321
+            ++    +L  +    G L V+ + G    P T   V GAS   G          F  FLA
+Sbjct  338  SLLTLDSLKKM--LFGELSVKNLSG----PITIAKVAGASAQSGLG-------DFLNFLA  384
+
+Query  322  QLNLILAAINLLPLLPFDGGHIAVAVFERIRNMVRSARGKVAAAPVNYLKLLPATYVVLV  381
+             L++ L  +NLLP+   DGGH+   + E +R    S R +     +            + 
+Sbjct  385  YLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLSERVQGWGVQIG-----------IS  433
+
+Query  382  LVVGYMLLTVTADL  395
+            LVVG MLL +  DL
+Sbjct  434  LVVGVMLLALVNDL  447
+
+
+>VFG015010(gb|WP_011332688) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+Pf0-1]
+Length=450
+
+ Score = 82.0 bits (201),  Expect = 6e-17, Method: Compositional matrix adjust.
+ Identities = 81/281 (29%), Positives = 141/281 (50%), Gaps = 41/281 (15%)
+
+Query  1    MFVTGIVLFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGV  58
+            +++    L AL +L++   HE GH WVARR G+KV R+ VGFG  L  W  ++G TE+ V
+Sbjct  4    LYMIAGTLIALGVLVT--FHEFGHFWVARRCGVKVLRFSVGFGMPLLRWHDKQG-TEFVV  60
+
+Query  59   KAVPLGGFCDIAGMTPVEELDPDERDRAMYKQATWKRVAVLFAGPGMNLAICLVLIYAIA  118
+             A+PLGG+  +       E+  D+  ++  +++  +R+A++ AGP  N  + LV  + +A
+Sbjct  61   AAIPLGGYVKMLDERE-GEVPADQLHQSFNRKSVRQRIAIVAAGPVANFLLALVFFWVLA  119
+
+Query  119  LVWGLPNLHPPTRAVIGETGCVAQEVSQGKLEQCTGPGPAALAGIRSGDVVVKVGDTPVS  178
+            ++ G   + P   +V  E+G +                 AA AG+ +G  +V +   P S
+Sbjct  120  ML-GSEQIRPVIGSV--ESGSI-----------------AATAGLSAGQEIVAIDGEPTS  159
+
+Query  179  SFDEMA-AAVRK--SHGSVPIVVERDGTAIVTYVDIESTQRWIPNGQGGELQPATVGAIG  235
+             +  +    VR+    GS+ ++V   G+   +  ++ +  +W+     G  +P  + ++G
+Sbjct  160  GWAAVNLQLVRRLGESGSLQVLVREQGSTADSPREL-ALDKWLK----GADEPDPIRSLG  214
+
+Query  236  VGAAR--VGPVRYGVFSAMPATFA--VTGD--LTVEVGKAL  270
+            +   R  + PV   +    PA  A   TGD  LT++ GKAL
+Sbjct  215  IRPWRPALPPVLAELDPKGPAQAAGLKTGDRLLTLD-GKAL  254
+
+
+ Score = 49.3 bits (116),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 70/250 (28%), Positives = 111/250 (44%), Gaps = 31/250 (12%)
+
+Query  149  LEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMAAAVR-KSHGSVPIVVERDGTAIVT  207
+            L +    GPA  AG+++GD ++ +    +  + ++   VR +    + + VERDG  I  
+Sbjct  226  LAELDPKGPAQAAGLKTGDRLLTLDGKALDDWQQVVDTVRTRPDTKIVLRVERDGVQIDV  285
+
+Query  208  YVDIEST-QRWIPNGQGGELQPATVGAIGVGAARVGPVRYGVFSAMPATFAVTGDLTVEV  266
+             V + +  ++  P+G  G    A V A+      +  V YG  +A+      T  ++V  
+Sbjct  286  PVTLAARGEKKSPSGYLG----AGVKAVDWPPEMIREVSYGPLAAIGEGARRTWTMSVLT  341
+
+Query  267  GKALAALPTKVGAL-VRAIGGGQRDPQTPISVVGASIIGGDTVDHGLWVAFWFFLAQLNL  325
+              +L  +    G L V+ + G    P T   V GAS   G   D      F  FLA L++
+Sbjct  342  LDSLKKM--LFGELSVKNLSG----PITIAKVAGASAQSG-VAD------FLNFLAYLSI  388
+
+Query  326  ILAAINLLPLLPFDGGHIAVAVFERIRNMVRSARGKVAAAPVNYLKLLPATYVVLVLVVG  385
+             L  +NLLP+   DGGH+   + E        ARG+  +  V    +     + + LVVG
+Sbjct  389  SLGVLNLLPIPVLDGGHLLFYLIE-------WARGRPLSDRVQGWGI----QIGISLVVG  437
+
+Query  386  YMLLTVTADL  395
+             MLL +  DL
+Sbjct  438  VMLLALVNDL  447
+
+
+>VFG015008(gb|WP_011535273) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas entomophila 
+L48]
+Length=450
+
+ Score = 79.3 bits (194),  Expect = 5e-16, Method: Compositional matrix adjust.
+ Identities = 84/299 (28%), Positives = 142/299 (47%), Gaps = 44/299 (15%)
+
+Query  8    LFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGVKAVPLGG  65
+            L AL +L++   HE GH WVARR G+KV R+ VGFG  L  W  R G TE+ V A+PLGG
+Sbjct  11   LVALGVLVT--FHEFGHFWVARRCGVKVLRFSVGFGTPLIRWHDRHG-TEFVVAAIPLGG  67
+
+Query  66   FCDIAGMTPVEELDPDERDRAMYKQATWKRVAVLFAGPGMNLAICLVLIYAIALVWGLPN  125
+            +  +       E+ P   +++  +++  +R+A++ AGP  N  + ++  + I+++ G   
+Sbjct  68   YVKMLDERE-GEVPPALVEQSFNRKSVRQRIAIVAAGPIANFLLAILFFWFISML-GTQQ  125
+
+Query  126  LHPPTRAVIGETGCVAQEVSQGKLEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMA-  184
+            + P   AV  ETG +                 AA AG+  G  +V +   P + +  +  
+Sbjct  126  VRPVIGAV--ETGSL-----------------AATAGLNVGQEIVSIDGKPTNGWSAVNL  166
+
+Query  185  AAVRK--SHGSVPIVVERDGTAIVTYVDIESTQRWIPNGQGGELQPATVGAIGVGAAR--  240
+              VR+    G++ + V  +G  +    DI+ +  W+     G  +P  + ++G+   R  
+Sbjct  167  QLVRRLGESGTLRVGVLDEGATVERQHDIQLSH-WLK----GVDEPDPIQSLGLRPWRPA  221
+
+Query  241  VGPVRYGVFSAMPATFA--VTGDLTVEVGKALAALPTKVGALVRAIGGGQRDPQTPISV  297
+            V PV   +    PA  A   TGD      K LA   T +G   + +   +  P++ +S+
+Sbjct  222  VEPVLAEIDPKGPAAAAGLKTGD------KLLALDGTVLGDWQQVVDAVRARPESKVSL  274
+
+
+ Score = 55.8 bits (133),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 72/249 (29%), Positives = 110/249 (44%), Gaps = 29/249 (12%)
+
+Query  149  LEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMAAAVR-KSHGSVPIVVERDGTAIVT  207
+            L +    GPAA AG+++GD ++ +  T +  + ++  AVR +    V + VERDG  +  
+Sbjct  226  LAEIDPKGPAAAAGLKTGDKLLALDGTVLGDWQQVVDAVRARPESKVSLRVERDGAQL--  283
+
+Query  208  YVDIESTQRWIPNGQGGELQPATVGAIGVGAARVGPVRYGVFSAMPATFAVTGDLTVEVG  267
+             V +   ++      GG L  A V A    A  +  V YG   A+    + T +++V   
+Sbjct  284  EVPVTLARKGEGQASGGYLG-AGVKAAQWPAQMLREVSYGPLEAVGEGLSRTWNMSVLTL  342
+
+Query  268  KALAALPTKVGAL-VRAIGGGQRDPQTPISVVGASIIGGDTVDHGLWVAFWFFLAQLNLI  326
+            ++L  +    G L V+ + G    P T   V GAS   G          F  FLA L++ 
+Sbjct  343  ESLKKM--LFGELSVKNLSG----PITIAKVAGASAQSGVG-------DFLNFLAYLSIS  389
+
+Query  327  LAAINLLPLLPFDGGHIAVAVFERIRNMVRSARGKVAAAPVNYLKLLPATYVVLVLVVGY  386
+            L  +NLLP+   DGGH+   + E  R    S R +     +            + LVVG 
+Sbjct  390  LGVLNLLPIPVLDGGHLLFYLIEWARGRPLSDRVQGWGVQIG-----------ISLVVGV  438
+
+Query  387  MLLTVTADL  395
+            MLL +  DL
+Sbjct  439  MLLALINDL  447
+
+
+>VFG019924(gb|WP_012613725) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa 
+LESB58]
+Length=450
+
+ Score = 78.2 bits (191),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 70/235 (30%), Positives = 119/235 (51%), Gaps = 36/235 (15%)
+
+Query  8    LFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGVKAVPLGG  65
+            L AL +L++   HE GH WVARR G+KV R+ VGFG  L  W  R G TE+ V A+PLGG
+Sbjct  11   LVALGVLVT--FHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHG-TEFVVAAIPLGG  67
+
+Query  66   FCDIAGMTPVEELDPDERDRAMYKQATWKRVAVLFAGPGMNLAICLVLIYAIALVWGLPN  125
+            +  +       E+     +++  ++   +R+A++ AGP  N  + ++  + +AL+ G   
+Sbjct  68   YVKLLDEREA-EVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVALL-GSQQ  125
+
+Query  126  LHPPTRAVIGETGCVAQEVSQGKLEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMA-  184
+            + P    VI   G VA E              AA AG+ +G  ++ V   PV+ ++ +  
+Sbjct  126  VRP----VI---GSVAPE------------SLAAQAGLEAGQELLAVDGEPVTGWNGVNL  166
+
+Query  185  AAVRK--SHGSVPIVVERDGTAIVTYVDIESTQRWIPNGQ-GGELQPATVGAIGV  236
+              VR+    G++ + V+  G+      +++ST +   +G   GE  P  + ++G+
+Sbjct  167  QLVRRLGESGTLEVRVQEKGS------NVDSTHQVRLDGWLKGEDNPDPIASLGI  215
+
+
+ Score = 48.1 bits (113),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 71/256 (28%), Positives = 107/256 (42%), Gaps = 43/256 (17%)
+
+Query  149  LEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMAAAVRKSHGS-VPIVVERDGTAIVT  207
+            L +    GPA  AG++ GD +  +    V  + ++  +VR   G  V + V RDG   V 
+Sbjct  226  LAELDPKGPAQAAGLKLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGE--VL  283
+
+Query  208  YVDIESTQRWIPNGQGGELQPATVGAIGVG-------AARVGPVRYGVFSAMPATFAVTG  260
+             V +E   R    G+G     A  G +G G       A  +  V YG   A+    + T 
+Sbjct  284  DVALELAVR----GEG----KARSGYMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTW  335
+
+Query  261  DLTVEVGKALAALPTKVGAL-VRAIGGGQRDPQTPISVVGASIIGGDTVDHGLWVAFWFF  319
+             +++    ++  +   +G L V+ + G    P T   V GAS   G          F  F
+Sbjct  336  TMSLLTLDSIKKM--LLGELSVKNLSG----PITIAKVAGASAQSGVG-------DFLNF  382
+
+Query  320  LAQLNLILAAINLLPLLPFDGGHIAVAVFERIRNMVRSARGKVAAAPVNYLKLLPATYVV  379
+            LA L++ L  +NLLP+   DGGH+   + E +R    S R +     +            
+Sbjct  383  LAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLSERVQAWGMQIG-----------  431
+
+Query  380  LVLVVGYMLLTVTADL  395
+            + LVVG MLL +  DL
+Sbjct  432  ISLVVGVMLLALVNDL  447
+
+
+>VFG015000(gb|NP_252339) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa PAO1]
+Length=450
+
+ Score = 77.8 bits (190),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 70/235 (30%), Positives = 119/235 (51%), Gaps = 36/235 (15%)
+
+Query  8    LFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGVKAVPLGG  65
+            L AL +L++   HE GH WVARR G+KV R+ VGFG  L  W  R G TE+ V A+PLGG
+Sbjct  11   LVALGVLVT--FHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHG-TEFVVAAIPLGG  67
+
+Query  66   FCDIAGMTPVEELDPDERDRAMYKQATWKRVAVLFAGPGMNLAICLVLIYAIALVWGLPN  125
+            +  +       E+     +++  ++   +R+A++ AGP  N  + ++  + +AL+ G   
+Sbjct  68   YVKMLDEREA-EVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVALL-GSQQ  125
+
+Query  126  LHPPTRAVIGETGCVAQEVSQGKLEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMA-  184
+            + P    VI   G VA E              AA AG+ +G  ++ V   PV+ ++ +  
+Sbjct  126  VRP----VI---GSVAPE------------SLAAQAGLEAGQELLAVDGEPVTGWNGVNL  166
+
+Query  185  AAVRK--SHGSVPIVVERDGTAIVTYVDIESTQRWIPNGQ-GGELQPATVGAIGV  236
+              VR+    G++ + V+  G+      +++ST +   +G   GE  P  + ++G+
+Sbjct  167  QLVRRLGESGTLEVRVQEKGS------NVDSTHQVRLDGWLKGEDNPDPIASLGI  215
+
+
+ Score = 47.8 bits (112),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 71/256 (28%), Positives = 107/256 (42%), Gaps = 43/256 (17%)
+
+Query  149  LEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMAAAVRKSHGS-VPIVVERDGTAIVT  207
+            L +    GPA  AG++ GD +  +    V  + ++  +VR   G  V + V RDG   V 
+Sbjct  226  LAELDPKGPAQAAGLKLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGE--VL  283
+
+Query  208  YVDIESTQRWIPNGQGGELQPATVGAIGVG-------AARVGPVRYGVFSAMPATFAVTG  260
+             V +E   R    G+G     A  G +G G       A  +  V YG   A+    + T 
+Sbjct  284  DVALELAVR----GEG----KARSGYMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTW  335
+
+Query  261  DLTVEVGKALAALPTKVGAL-VRAIGGGQRDPQTPISVVGASIIGGDTVDHGLWVAFWFF  319
+             +++    ++  +   +G L V+ + G    P T   V GAS   G          F  F
+Sbjct  336  TMSLLTLDSIKKM--LLGELSVKNLSG----PITIAKVAGASAQSGVG-------DFLNF  382
+
+Query  320  LAQLNLILAAINLLPLLPFDGGHIAVAVFERIRNMVRSARGKVAAAPVNYLKLLPATYVV  379
+            LA L++ L  +NLLP+   DGGH+   + E +R    S R +     +            
+Sbjct  383  LAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLSERVQAWGMQIG-----------  431
+
+Query  380  LVLVVGYMLLTVTADL  395
+            + LVVG MLL +  DL
+Sbjct  432  ISLVVGVMLLALVNDL  447
+
+
+>VFG015002(gb|WP_003138017) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa 
+UCBPP-PA14]
+Length=450
+
+ Score = 77.0 bits (188),  Expect = 3e-15, Method: Compositional matrix adjust.
+ Identities = 70/235 (30%), Positives = 118/235 (50%), Gaps = 36/235 (15%)
+
+Query  8    LFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGVKAVPLGG  65
+            L AL +L++   HE GH WVARR G+KV R+ VGFG  L  W  R G TE+ V A+PLGG
+Sbjct  11   LVALGVLVT--FHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHG-TEFVVAAIPLGG  67
+
+Query  66   FCDIAGMTPVEELDPDERDRAMYKQATWKRVAVLFAGPGMNLAICLVLIYAIALVWGLPN  125
+            +  +       E+     +++  ++   +R+A++ AGP  N  + ++  + +AL+ G   
+Sbjct  68   YVKMLDEREA-EVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVALL-GSQQ  125
+
+Query  126  LHPPTRAVIGETGCVAQEVSQGKLEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMA-  184
+            + P    VI   G VA E              AA AG+ +G  ++ V   PV+ +  +  
+Sbjct  126  VRP----VI---GSVAPE------------SLAAQAGLEAGQELLAVDGEPVTGWSGVNL  166
+
+Query  185  AAVRK--SHGSVPIVVERDGTAIVTYVDIESTQRWIPNGQ-GGELQPATVGAIGV  236
+              VR+    G++ + V+  G+      +++ST +   +G   GE  P  + ++G+
+Sbjct  167  QLVRRLGESGTLEVRVQEKGS------NVDSTHQVRLDGWLKGEDNPDPIASLGI  215
+
+
+ Score = 48.1 bits (113),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 71/256 (28%), Positives = 107/256 (42%), Gaps = 43/256 (17%)
+
+Query  149  LEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMAAAVRKSHGS-VPIVVERDGTAIVT  207
+            L +    GPA  AG++ GD +  +    V  + ++  +VR   G  V + V RDG   V 
+Sbjct  226  LAELDPKGPAQAAGLKLGDRLQSIDGIAVDDWQQVVESVRARPGQRVQLKVLRDGE--VL  283
+
+Query  208  YVDIESTQRWIPNGQGGELQPATVGAIGVG-------AARVGPVRYGVFSAMPATFAVTG  260
+             V +E   R    G+G     A  G +G G       A  +  V YG   A+    + T 
+Sbjct  284  DVALELAVR----GEG----KARSGYMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTW  335
+
+Query  261  DLTVEVGKALAALPTKVGAL-VRAIGGGQRDPQTPISVVGASIIGGDTVDHGLWVAFWFF  319
+             +++    ++  +   +G L V+ + G    P T   V GAS   G          F  F
+Sbjct  336  TMSLLTLDSIKKM--LLGELSVKNLSG----PITIAKVAGASAQSGVG-------DFLNF  382
+
+Query  320  LAQLNLILAAINLLPLLPFDGGHIAVAVFERIRNMVRSARGKVAAAPVNYLKLLPATYVV  379
+            LA L++ L  +NLLP+   DGGH+   + E +R    S R +     +            
+Sbjct  383  LAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLSERVQAWGMQIG-----------  431
+
+Query  380  LVLVVGYMLLTVTADL  395
+            + LVVG MLL +  DL
+Sbjct  432  ISLVVGVMLLALVNDL  447
+
+
+>VFG015007(gb|WP_012053542) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas putida F1]
+Length=450
+
+ Score = 76.6 bits (187),  Expect = 4e-15, Method: Compositional matrix adjust.
+ Identities = 71/241 (29%), Positives = 117/241 (49%), Gaps = 48/241 (20%)
+
+Query  8    LFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGVKAVPLGG  65
+            L AL +L++   HE GH WVARR G+KV R+ VGFG  L  W  R G TE+ V A+PLGG
+Sbjct  11   LVALGVLVT--FHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRHG-TEFVVAAIPLGG  67
+
+Query  66   FCDIAGMTPVEELDPDERD-------RAMYKQATWKRVAVLFAGPGMNLAICLVLIYAIA  118
+            +        V+ LD  E D       ++  +++  +R+A++ AGP  N  + ++  + +A
+Sbjct  68   Y--------VKMLDEREGDVPPALAGQSFNRKSVRQRIAIVAAGPIANFLLAILFFWVLA  119
+
+Query  119  LVWGLPNLHPPTRAVIGETGCVAQEVSQGKLEQCTGPGPAALAGIRSGDVVVKVGDTPVS  178
+            ++ G   + P    VIG        V  G L        AA AG+ +G  +V V   P +
+Sbjct  120  ML-GTQQIRP----VIG-------AVDSGSL--------AASAGLTAGQEIVSVDGKPTN  159
+
+Query  179  SFDEMA-AAVRK--SHGSVPIVVERDGTAIVTYVDIESTQRWIPNGQGGELQPATVGAIG  235
+             +  +    VR+    G++ I V  +G +    + ++     + N   G  +P  + ++G
+Sbjct  160  GWSAVNLQLVRRLGESGTLQIGVRDEGASAERQLQVK-----LDNWLKGADEPDPIQSLG  214
+
+Query  236  V  236
+            +
+Sbjct  215  L  215
+
+
+ Score = 56.6 bits (135),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 72/256 (28%), Positives = 115/256 (45%), Gaps = 43/256 (17%)
+
+Query  149  LEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMAAAVR-KSHGSVPIVVERDGTAIVT  207
+            L +    GPAA AG+++GD ++ + D  V+ + ++   VR +    V + VERDG A+  
+Sbjct  226  LAEIDPKGPAAAAGLKTGDKLLALDDVAVTEWQQVVDRVRARPDARVVVRVERDGAALEL  285
+
+Query  208  YVDIESTQRWIPNGQGGELQPATVGAIGVG-------AARVGPVRYGVFSAMPATFAVTG  260
+             V +         G+G     A  G +G G       A  +  + YG   A+  + + T 
+Sbjct  286  PVTLAR------KGEG----KAVGGYLGAGVKGGEWPANMLREISYGPLDAVGESLSRTW  335
+
+Query  261  DLTVEVGKALAALPTKVGAL-VRAIGGGQRDPQTPISVVGASIIGGDTVDHGLWVAFWFF  319
+            +++V   ++L  +    G L V+ + G    P T   V GAS   G          F  F
+Sbjct  336  NMSVLTLESLKKM--LFGELSVKNLSG----PITIAKVAGASAQSGVG-------DFLNF  382
+
+Query  320  LAQLNLILAAINLLPLLPFDGGHIAVAVFERIRNMVRSARGKVAAAPVNYLKLLPATYVV  379
+            LA L++ L  +NLLP+   DGGH+       +  +V  ARG+  +  V          + 
+Sbjct  383  LAYLSISLGVLNLLPIPVLDGGHL-------LFYLVEWARGRPLSDRVQGW----GVQIG  431
+
+Query  380  LVLVVGYMLLTVTADL  395
+            + LV+G MLL +  DL
+Sbjct  432  ISLVIGVMLLALINDL  447
+
+
+>VFG015006(gb|WP_049587451) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas putida KT2440]
+Length=450
+
+ Score = 76.3 bits (186),  Expect = 5e-15, Method: Compositional matrix adjust.
+ Identities = 67/209 (32%), Positives = 104/209 (50%), Gaps = 43/209 (21%)
+
+Query  8    LFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGVKAVPLGG  65
+            L AL +L++   HE GH WVARR G+KV R+ VGFG  L  W  R G TE+ V A+PLGG
+Sbjct  11   LVALGVLVT--FHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRHG-TEFVVAAIPLGG  67
+
+Query  66   FCDIAGMTPVEELDPDERD-------RAMYKQATWKRVAVLFAGPGMNLAICLVLIYAIA  118
+            +        V+ LD  E D       ++  +++  +R+A++ AGP  N  + ++  + +A
+Sbjct  68   Y--------VKMLDEREGDVPPALAGQSFNRKSVRQRIAIVAAGPIANFLLAILFFWVLA  119
+
+Query  119  LVWGLPNLHPPTRAVIGETGCVAQEVSQGKLEQCTGPGPAALAGIRSGDVVVKVGDTPVS  178
+            ++ G   + P    VIG        V  G L        AA AG+ +G  +V V   P +
+Sbjct  120  ML-GTQQIRP----VIG-------AVDSGSL--------AASAGLTAGQEIVSVDGKPTN  159
+
+Query  179  SFDEMA-AAVRK--SHGSVPIVVERDGTA  204
+             +  +    VR+    G++ I V  +G +
+Sbjct  160  GWSAVNLQLVRRLGESGTLQIGVRDEGAS  188
+
+
+ Score = 57.0 bits (136),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 72/256 (28%), Positives = 115/256 (45%), Gaps = 43/256 (17%)
+
+Query  149  LEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMAAAVR-KSHGSVPIVVERDGTAIVT  207
+            L +    GPAA AG+++GD ++ + D  V+ + ++   VR +    V + VERDG A+  
+Sbjct  226  LAEIDPKGPAAAAGLKTGDKLLALDDLAVTEWQQVVDRVRARPDAKVVVRVERDGAALEL  285
+
+Query  208  YVDIESTQRWIPNGQGGELQPATVGAIGVG-------AARVGPVRYGVFSAMPATFAVTG  260
+             V +         G+G     A  G +G G       A  +  + YG   A+  + + T 
+Sbjct  286  PVTLAR------KGEG----KAVGGYLGAGVKGGEWPANMLREISYGPLDAVGESLSRTW  335
+
+Query  261  DLTVEVGKALAALPTKVGAL-VRAIGGGQRDPQTPISVVGASIIGGDTVDHGLWVAFWFF  319
+            +++V   ++L  +    G L V+ + G    P T   V GAS   G          F  F
+Sbjct  336  NMSVLTLESLKKM--LFGELSVKNLSG----PITIAKVAGASAQSGVG-------DFLNF  382
+
+Query  320  LAQLNLILAAINLLPLLPFDGGHIAVAVFERIRNMVRSARGKVAAAPVNYLKLLPATYVV  379
+            LA L++ L  +NLLP+   DGGH+       +  +V  ARG+  +  V          + 
+Sbjct  383  LAYLSISLGVLNLLPIPVLDGGHL-------LFYLVEWARGRPLSDRVQGW----GVQIG  431
+
+Query  380  LVLVVGYMLLTVTADL  395
+            + LV+G MLL +  DL
+Sbjct  432  ISLVIGVMLLALINDL  447
+
+
+>VFG015774(gb|WP_012270841) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas putida GB-1]
+Length=450
+
+ Score = 74.3 bits (181),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 51/143 (36%), Positives = 80/143 (56%), Gaps = 23/143 (16%)
+
+Query  8    LFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGVKAVPLGG  65
+            L AL +L++   HE GH WVARR G+KV R+ VGFG  L  W  R G TE+ V A+PLGG
+Sbjct  11   LVALGVLVT--FHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRHG-TEFVVAAIPLGG  67
+
+Query  66   FCDIAGMTPVEELDPDERD-------RAMYKQATWKRVAVLFAGPGMNLAICLVLIYAIA  118
+            +        V+ LD  E D       ++  +++  +R+A++ AGP  N  + ++  + +A
+Sbjct  68   Y--------VKMLDEREGDVPPALAGQSFNRKSVRQRIAIVAAGPIANFLLAILFFWVLA  119
+
+Query  119  LVWGLPNLHPPTRAVIGETGCVA  141
+            ++ G   + P   AV  ++G +A
+Sbjct  120  ML-GTQQVRPVIGAV--DSGSLA  139
+
+
+ Score = 54.7 bits (130),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 73/256 (29%), Positives = 114/256 (45%), Gaps = 43/256 (17%)
+
+Query  149  LEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMAAAVR-KSHGSVPIVVERDGTAIVT  207
+            L +    GPAA AG+++GD ++ V    V+ + ++  +VR +    V + VERDG A+  
+Sbjct  226  LAEIDPKGPAAAAGLKTGDKLLAVDGQAVTEWQQVVDSVRARPDAKVVVRVERDGAALEL  285
+
+Query  208  YVDIESTQRWIPNGQGGELQPATVGAIGVG-------AARVGPVRYGVFSAMPATFAVTG  260
+             V +         G+G     A  G +G G       A  +  V YG   A+    + T 
+Sbjct  286  PVTLAR------KGEG----KAVGGYLGAGVKGGEWPANMLREVSYGPLDAVGEGLSRTW  335
+
+Query  261  DLTVEVGKALAALPTKVGAL-VRAIGGGQRDPQTPISVVGASIIGGDTVDHGLWVAFWFF  319
+            +++V   ++L  +    G L V+ + G    P T   V GAS   G          F  F
+Sbjct  336  NMSVLTLESLKKM--LFGELSVKNLSG----PITIAKVAGASAQSGVG-------DFLNF  382
+
+Query  320  LAQLNLILAAINLLPLLPFDGGHIAVAVFERIRNMVRSARGKVAAAPVNYLKLLPATYVV  379
+            LA L++ L  +NLLP+   DGGH+       +  +V  ARG+  +  V          + 
+Sbjct  383  LAYLSISLGVLNLLPIPVLDGGHL-------LFYLVEWARGRPLSDRVQGW----GVQIG  431
+
+Query  380  LVLVVGYMLLTVTADL  395
+            + LV+G MLL +  DL
+Sbjct  432  ISLVIGVMLLALINDL  447
+
+
+>VFG015011(gb|WP_012019182) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas mendocina 
+ymp]
+Length=450
+
+ Score = 69.3 bits (168),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 41/100 (41%), Positives = 62/100 (62%), Gaps = 10/100 (10%)
+
+Query  8    LFALAILISVALHECGHMWVARRTGMKVRRYFVGFGPTL--WSTRRGETEYGVKAVPLGG  65
+            L AL +L++   HE GH WVARR G+KV R+ VGFG  L  W  R+G TE+ + A+PLGG
+Sbjct  11   LIALGVLVT--FHEYGHFWVARRCGVKVLRFSVGFGTPLLRWHDRQG-TEFVIAAIPLGG  67
+
+Query  66   FCDIAGMTPVEELD--PDERDRAMYKQATWKRVAVLFAGP  103
+            +     M    E D  P+  +++  +++  +R+A++ AGP
+Sbjct  68   YVK---MLDEREGDVPPELVEQSFNRKSVRQRIAIVAAGP  104
+
+
+ Score = 48.1 bits (113),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 66/256 (26%), Positives = 117/256 (46%), Gaps = 43/256 (17%)
+
+Query  149  LEQCTGPGPAALAGIRSGDVVVKVGDTPVSSFDEMAAAVRKSHG-SVPIVVERDGT----  203
+            L +    GPA  AG+++GD ++ +   P++ + ++   VR   G +V + +ER G     
+Sbjct  226  LAELDPKGPAHAAGLQAGDRLLALDGEPLADWQDLVDRVRALPGEAVTLRIERAGQVQDV  285
+
+Query  204  --AIVTYVDIESTQRWIPNG-QGGELQPATVGAIGVGAARVGPVRYGVFSAMPATFAVTG  260
+               +    + E+   ++  G QG E  P  +  +     R GP+  G+   M  T+A++ 
+Sbjct  286  ELTLAARGEGEARSGYLGAGVQGLEWPPEMLREV-----RYGPIE-GIAEGMRQTWAMS-  338
+
+Query  261  DLTVEVGKALAALPTKVGAL-VRAIGGGQRDPQTPISVVGASIIGGDTVDHGLWVAFWFF  319
+             LT++  + +       G L V+ + G       PI++   + + G + + GL   F  F
+Sbjct  339  LLTLDSLRKML-----FGELSVKNLSG-------PITI---AKVAGASAESGL-GDFLKF  382
+
+Query  320  LAQLNLILAAINLLPLLPFDGGHIAVAVFERIRNMVRSARGKVAAAPVNYLKLLPATYVV  379
+            LA L++ L  +NLLP+   DGGH+   + E +R    S R +     +            
+Sbjct  383  LAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLSERVQGWGMQIG-----------  431
+
+Query  380  LVLVVGYMLLTVTADL  395
+            + LV+G MLL +  DL
+Sbjct  432  ISLVIGVMLLALVNDL  447
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.140    0.429    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3143709919
+
+
+Query= g3721.t1
+
+Length=450
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015000(gb|NP_252339) (mucP) metalloprotease protease [Alginate...  887     0.0  
+VFG019924(gb|WP_012613725) (mucP) metalloprotease protease [Algin...  886     0.0  
+VFG015002(gb|WP_003138017) (mucP) metalloprotease protease [Algin...  884     0.0  
+VFG015001(gb|WP_012074695) (mucP) metalloprotease protease [Algin...  873     0.0  
+VFG015010(gb|WP_011332688) (mucP) metalloprotease protease [Algin...  724     0.0  
+VFG019925(gb|WP_012722600) (mucP) metalloprotease protease [Algin...  719     0.0  
+VFG015008(gb|WP_011535273) (mucP) metalloprotease protease [Algin...  719     0.0  
+VFG015007(gb|WP_012053542) (mucP) metalloprotease protease [Algin...  719     0.0  
+VFG015775(gb|WP_012315895) (mucP) metalloprotease protease [Algin...  718     0.0  
+VFG015006(gb|WP_049587451) (mucP) metalloprotease protease [Algin...  717     0.0  
+VFG015774(gb|WP_012270841) (mucP) metalloprotease protease [Algin...  717     0.0  
+VFG015009(gb|WP_011059531) (mucP) metalloprotease protease [Algin...  716     0.0  
+VFG015003(gb|WP_011103593) (mucP) metalloprotease protease [Algin...  701     0.0  
+VFG015012(gb|WP_011912707) (mucP) metalloprotease protease [Algin...  695     0.0  
+VFG015004(gb|WP_004406254) (mucP) metalloprotease protease [Algin...  685     0.0  
+VFG015005(gb|WP_011169295) (mucP) metalloprotease protease [Algin...  683     0.0  
+VFG015011(gb|WP_012019182) (mucP) metalloprotease protease [Algin...  661     0.0  
+VFG014995(gb|WP_011921011) (algW) AlgW protein [Alginate (VF0091)...  51.2    6e-07
+VFG014996(gb|WP_011912236) (algW) AlgW protein [Alginate (VF0091)...  50.4    1e-06
+VFG014994(gb|WP_011332484) (algW) AlgW protein [Alginate (VF0091)...  50.4    1e-06
+VFG015773(gb|WP_012312836) (algW) AlgW protein [Alginate (VF0091)...  49.7    2e-06
+VFG015772(gb|WP_012274088) (algW) AlgW protein [Alginate (VF0091)...  48.9    4e-06
+VFG014989(gb|WP_004656566) (algW) AlgW protein [Alginate (VF0091)...  48.1    6e-06
+VFG014988(gb|WP_003340656) (algW) AlgW protein [Alginate (VF0091)...  48.1    6e-06
+VFG014993(gb|WP_011059287) (algW) AlgW protein [Alginate (VF0091)...  48.1    7e-06
+VFG014991(gb|WP_003251794) (algW) AlgW protein [Alginate (VF0091)...  48.1    7e-06
+
+
+>VFG015000(gb|NP_252339) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa PAO1]
+Length=450
+
+ Score = 887 bits (2292),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 450/450 (100%), Positives = 450/450 (100%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV
+Sbjct  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL
+Sbjct  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV
+Sbjct  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+            RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL
+Sbjct  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG
+Sbjct  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG
+Sbjct  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            ERVQAWGMQIGISLVVGVMLLALVNDLSRL
+Sbjct  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+
+
+>VFG019924(gb|WP_012613725) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa 
+LESB58]
+Length=450
+
+ Score = 886 bits (2289),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 449/450 (99%), Positives = 450/450 (100%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV
+Sbjct  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVK+LDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL
+Sbjct  61   AAIPLGGYVKLLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV
+Sbjct  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+            RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL
+Sbjct  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG
+Sbjct  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG
+Sbjct  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            ERVQAWGMQIGISLVVGVMLLALVNDLSRL
+Sbjct  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+
+
+>VFG015002(gb|WP_003138017) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa 
+UCBPP-PA14]
+Length=450
+
+ Score = 884 bits (2285),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 448/450 (99%), Positives = 450/450 (100%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV
+Sbjct  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL
+Sbjct  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGW+GVNLQLVRRLGESGTLEV
+Sbjct  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWSGVNLQLVRRLGESGTLEV  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+            RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL
+Sbjct  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            KLGDRLQSIDGIAVDDWQQVV+SVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG
+Sbjct  241  KLGDRLQSIDGIAVDDWQQVVESVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG
+Sbjct  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            ERVQAWGMQIGISLVVGVMLLALVNDLSRL
+Sbjct  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+
+
+>VFG015001(gb|WP_012074695) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa 
+PA7]
+Length=450
+
+ Score = 873 bits (2255),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 439/450 (98%), Positives = 447/450 (99%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPL+RWHDRHGTEFVV
+Sbjct  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRHGTEFVV  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL
+Sbjct  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV
+Sbjct  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+            RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGI+PWRPALPPVLAELDPKGPAQAAGL
+Sbjct  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIQPWRPALPPVLAELDPKGPAQAAGL  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            K+GDRLQ IDG+AVDDWQQVVDSVRARPGQRVQLKVLRDGEVLD+AL+LA RGEGKAR+G
+Sbjct  241  KVGDRLQGIDGVAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDIALDLASRGEGKARTG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            YMGAGV+G EWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG
+Sbjct  301  YMGAGVSGGEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            ERVQAWGMQIGISLVVGVMLLALVNDLSRL
+Sbjct  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+
+
+>VFG015010(gb|WP_011332688) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+Pf0-1]
+Length=450
+
+ Score = 724 bits (1869),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 355/450 (79%), Positives = 397/450 (88%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            MSALYMI GTL+ALGVLVTFHEFGHFWVARRCGVKVLRFSVGFG PL+RWHD+ GTEFVV
+Sbjct  1    MSALYMIAGTLIALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGMPLLRWHDKQGTEFVV  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVKMLDERE EVPA  L QSFNRK+VRQRIAIVAAGP+ANFLLA++FFWV+A+
+Sbjct  61   AAIPLGGYVKMLDEREGEVPADQLHQSFNRKSVRQRIAIVAAGPVANFLLALVFFWVLAM  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            LGS+Q+RPVIGSV   S+AA AGL AGQE++A+DGEP +GW  VNLQLVRRLGESG+L+V
+Sbjct  121  LGSEQIRPVIGSVESGSIAATAGLSAGQEIVAIDGEPTSGWAAVNLQLVRRLGESGSLQV  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+             V+E+GS  DS  ++ LD WLKG D PDPI SLGIRPWRPALPPVLAELDPKGPAQAAGL
+Sbjct  181  LVREQGSTADSPRELALDKWLKGADEPDPIRSLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            K GDRL ++DG A+DDWQQVVD+VR RP  ++ L+V RDG  +DV + LA RGE K+ SG
+Sbjct  241  KTGDRLLTLDGKALDDWQQVVDTVRTRPDTKIVLRVERDGVQIDVPVTLAARGEKKSPSG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            Y+GAGV   +WP EM+REVSYGPL A+G+   RTWTMS+LTLDS+KKML GELSVKNLSG
+Sbjct  301  YLGAGVKAVDWPPEMIREVSYGPLAAIGEGARRTWTMSVLTLDSLKKMLFGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASAQSGV DFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYL+EW RGRPLS
+Sbjct  361  PITIAKVAGASAQSGVADFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLIEWARGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            +RVQ WG+QIGISLVVGVMLLALVNDL RL
+Sbjct  421  DRVQGWGIQIGISLVVGVMLLALVNDLGRL  450
+
+
+>VFG019925(gb|WP_012722600) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+SBW25]
+Length=450
+
+ Score = 719 bits (1856),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 355/450 (79%), Positives = 397/450 (88%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFG PL+RWHDR GTEFV+
+Sbjct  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGMPLLRWHDRRGTEFVI  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVKMLDERE EVPA  L+QSFNRKTVRQRIAIVAAGPIANFLLA++FFWV+A+
+Sbjct  61   AAIPLGGYVKMLDEREGEVPADQLDQSFNRKTVRQRIAIVAAGPIANFLLAMVFFWVLAM  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            LGSQQVRPVIG+V  +S+AA+AGL AGQE++++DGEP TGW  VNLQLVRRLGESGT+ V
+Sbjct  121  LGSQQVRPVIGAVESDSIAAKAGLVAGQEIVSIDGEPTTGWGAVNLQLVRRLGESGTVNV  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+             V+E+ S  ++  ++ LD WLKG D PDPI SLGIRPWRPALPPVLAELDPKGPAQAAGL
+Sbjct  181  VVREQDSTTETPRELALDHWLKGADEPDPIKSLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            K GDRL ++DG ++ DWQQVVD VR RP  ++ LKV RDG  +DV + L+VRGE KA  G
+Sbjct  241  KTGDRLLALDGQSLGDWQQVVDLVRVRPETKIVLKVERDGAQIDVPVTLSVRGEAKAAGG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            Y+GAGV G +WP  M+REVS+GPL A+G+   RTWTMS+LTL+S+KKML GELSVKNLSG
+Sbjct  301  YLGAGVKGVDWPPSMVREVSFGPLAAIGEGAKRTWTMSVLTLESLKKMLFGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASAQSGV DFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEW RGRPLS
+Sbjct  361  PITIAKVAGASAQSGVADFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWARGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            +RVQ WG+QIGISLVVGVMLLALVNDL RL
+Sbjct  421  DRVQGWGIQIGISLVVGVMLLALVNDLGRL  450
+
+
+>VFG015008(gb|WP_011535273) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas entomophila 
+L48]
+Length=450
+
+ Score = 719 bits (1856),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 351/450 (78%), Positives = 398/450 (88%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            M+ALYMI+GTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPL+RWHDRHGTEFVV
+Sbjct  1    MTALYMIIGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLIRWHDRHGTEFVV  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVKMLDERE EVP  L+EQSFNRK+VRQRIAIVAAGPIANFLLAILFFW +++
+Sbjct  61   AAIPLGGYVKMLDEREGEVPPALVEQSFNRKSVRQRIAIVAAGPIANFLLAILFFWFISM  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            LG+QQVRPVIG+V   SLAA AGL  GQE++++DG+P  GW+ VNLQLVRRLGESGTL V
+Sbjct  121  LGTQQVRPVIGAVETGSLAATAGLNVGQEIVSIDGKPTNGWSAVNLQLVRRLGESGTLRV  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+             V ++G+ V+  H ++L  WLKG D PDPI SLG+RPWRPA+ PVLAE+DPKGPA AAGL
+Sbjct  181  GVLDEGATVERQHDIQLSHWLKGVDEPDPIQSLGLRPWRPAVEPVLAEIDPKGPAAAAGL  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            K GD+L ++DG  + DWQQVVD+VRARP  +V L+V RDG  L+V + LA +GEG+A  G
+Sbjct  241  KTGDKLLALDGTVLGDWQQVVDAVRARPESKVSLRVERDGAQLEVPVTLARKGEGQASGG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            Y+GAGV   +WPA+MLREVSYGPLEAVG+ LSRTW MS+LTL+S+KKML GELSVKNLSG
+Sbjct  301  YLGAGVKAAQWPAQMLREVSYGPLEAVGEGLSRTWNMSVLTLESLKKMLFGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYL+EW RGRPLS
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLIEWARGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            +RVQ WG+QIGISLVVGVMLLAL+NDL RL
+Sbjct  421  DRVQGWGVQIGISLVVGVMLLALINDLGRL  450
+
+
+>VFG015007(gb|WP_012053542) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas putida F1]
+Length=450
+
+ Score = 719 bits (1855),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 352/450 (78%), Positives = 402/450 (89%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            M+ALYMI+GTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPL+RWHDRHGTEFVV
+Sbjct  1    MTALYMIIGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRHGTEFVV  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVKMLDERE +VP  L  QSFNRK+VRQRIAIVAAGPIANFLLAILFFWV+A+
+Sbjct  61   AAIPLGGYVKMLDEREGDVPPALAGQSFNRKSVRQRIAIVAAGPIANFLLAILFFWVLAM  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            LG+QQ+RPVIG+V   SLAA AGL AGQE+++VDG+P  GW+ VNLQLVRRLGESGTL++
+Sbjct  121  LGTQQIRPVIGAVDSGSLAASAGLTAGQEIVSVDGKPTNGWSAVNLQLVRRLGESGTLQI  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+             V+++G++ +   QV+LD WLKG D PDPI SLG+RPWRPA+ PVLAE+DPKGPA AAGL
+Sbjct  181  GVRDEGASAERQLQVKLDNWLKGADEPDPIQSLGLRPWRPAITPVLAEIDPKGPAAAAGL  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            K GD+L ++D +AV +WQQVVD VRARP  RV ++V RDG  L++ + LA +GEGKA  G
+Sbjct  241  KTGDKLLALDDVAVTEWQQVVDRVRARPDARVVVRVERDGAALELPVTLARKGEGKAVGG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            Y+GAGV G EWPA MLRE+SYGPL+AVG++LSRTW MS+LTL+S+KKML GELSVKNLSG
+Sbjct  301  YLGAGVKGGEWPANMLREISYGPLDAVGESLSRTWNMSVLTLESLKKMLFGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEW RGRPLS
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWARGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            +RVQ WG+QIGISLV+GVMLLAL+NDL RL
+Sbjct  421  DRVQGWGVQIGISLVIGVMLLALINDLGRL  450
+
+
+>VFG015775(gb|WP_012315895) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas putida W619]
+Length=450
+
+ Score = 718 bits (1853),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 354/450 (79%), Positives = 401/450 (89%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            M+ALYMI+GTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFG  L+RWHDRHGTEFVV
+Sbjct  1    MTALYMIIGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGPGLLRWHDRHGTEFVV  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVKMLDERE EVP  L +QSFNRK+VRQRIAIVAAGPIANFLLAI+FFW++A+
+Sbjct  61   AAIPLGGYVKMLDEREGEVPLALADQSFNRKSVRQRIAIVAAGPIANFLLAIVFFWLLAM  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            LG+QQ+RPVIG+V P SLAA AGL AGQE++++DG+  +GW+ VNLQLVRRLGESGTL+V
+Sbjct  121  LGTQQIRPVIGAVEPGSLAASAGLVAGQEIVSIDGKATSGWSAVNLQLVRRLGESGTLQV  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+             V+++GS+ +   QV+LD WLKG D PDPI SLG+RPWRP + PVLAE+DPKGPA AAGL
+Sbjct  181  GVRDEGSSAERQLQVKLDSWLKGADEPDPIQSLGLRPWRPVVAPVLAEIDPKGPAAAAGL  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            K GDRL SIDG+A+ DWQQVVDSVRARP  RV +++ RDG  LDV + LA +GEG+A  G
+Sbjct  241  KTGDRLLSIDGLALSDWQQVVDSVRARPEARVVVRIERDGTALDVPVTLARKGEGEAAGG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            Y+GAGV   EWPA MLREVSYGPL+AVG+ LSRTW MS+LTL+S+KKML GELSVKNLSG
+Sbjct  301  YLGAGVKSGEWPAGMLREVSYGPLDAVGEGLSRTWNMSVLTLESLKKMLFGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEW RGRPLS
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWARGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            +RVQ WG+QIGISLV+GVMLLAL+NDL RL
+Sbjct  421  DRVQGWGVQIGISLVIGVMLLALINDLGRL  450
+
+
+>VFG015006(gb|WP_049587451) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas putida KT2440]
+Length=450
+
+ Score = 717 bits (1852),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 351/450 (78%), Positives = 402/450 (89%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            M+ALYMI+GTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPL+RWHDRHGTEFVV
+Sbjct  1    MTALYMIIGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRHGTEFVV  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVKMLDERE +VP  L  QSFNRK+VRQRIAIVAAGPIANFLLAILFFWV+A+
+Sbjct  61   AAIPLGGYVKMLDEREGDVPPALAGQSFNRKSVRQRIAIVAAGPIANFLLAILFFWVLAM  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            LG+QQ+RPVIG+V   SLAA AGL AGQE+++VDG+P  GW+ VNLQLVRRLGESGTL++
+Sbjct  121  LGTQQIRPVIGAVDSGSLAASAGLTAGQEIVSVDGKPTNGWSAVNLQLVRRLGESGTLQI  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+             V+++G++ +   QV+LD WLKG D PDPI SLG+RPWRPA+ PVLAE+DPKGPA AAGL
+Sbjct  181  GVRDEGASAERQLQVKLDSWLKGADEPDPIQSLGLRPWRPAITPVLAEIDPKGPAAAAGL  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            K GD+L ++D +AV +WQQVVD VRARP  +V ++V RDG  L++ + LA +GEGKA  G
+Sbjct  241  KTGDKLLALDDLAVTEWQQVVDRVRARPDAKVVVRVERDGAALELPVTLARKGEGKAVGG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            Y+GAGV G EWPA MLRE+SYGPL+AVG++LSRTW MS+LTL+S+KKML GELSVKNLSG
+Sbjct  301  YLGAGVKGGEWPANMLREISYGPLDAVGESLSRTWNMSVLTLESLKKMLFGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEW RGRPLS
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWARGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            +RVQ WG+QIGISLV+GVMLLAL+NDL RL
+Sbjct  421  DRVQGWGVQIGISLVIGVMLLALINDLGRL  450
+
+
+>VFG015774(gb|WP_012270841) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas putida GB-1]
+Length=450
+
+ Score = 717 bits (1850),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 354/450 (79%), Positives = 399/450 (89%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            M+ALYMI+GTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPL+RWHDRHGTEFVV
+Sbjct  1    MTALYMIIGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRHGTEFVV  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVKMLDERE +VP  L  QSFNRK+VRQRIAIVAAGPIANFLLAILFFWV+A+
+Sbjct  61   AAIPLGGYVKMLDEREGDVPPALAGQSFNRKSVRQRIAIVAAGPIANFLLAILFFWVLAM  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            LG+QQVRPVIG+V   SLAA AGL AGQE++++DG+   GW+ VNLQLVRRLGESGTL+V
+Sbjct  121  LGTQQVRPVIGAVDSGSLAASAGLTAGQEIVSIDGKATNGWSAVNLQLVRRLGESGTLQV  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+             V E+G++ +   QV+LD WLKG D PDPI SLG+ PWRPA+ PVLAE+DPKGPA AAGL
+Sbjct  181  GVLEEGASAERQLQVKLDSWLKGADEPDPIQSLGLHPWRPAITPVLAEIDPKGPAAAAGL  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            K GD+L ++DG AV +WQQVVDSVRARP  +V ++V RDG  L++ + LA +GEGKA  G
+Sbjct  241  KTGDKLLAVDGQAVTEWQQVVDSVRARPDAKVVVRVERDGAALELPVTLARKGEGKAVGG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            Y+GAGV G EWPA MLREVSYGPL+AVG+ LSRTW MS+LTL+S+KKML GELSVKNLSG
+Sbjct  301  YLGAGVKGGEWPANMLREVSYGPLDAVGEGLSRTWNMSVLTLESLKKMLFGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEW RGRPLS
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWARGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            +RVQ WG+QIGISLV+GVMLLAL+NDL RL
+Sbjct  421  DRVQGWGVQIGISLVIGVMLLALINDLGRL  450
+
+
+>VFG015009(gb|WP_011059531) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+Pf-5]
+Length=450
+
+ Score = 716 bits (1848),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 355/450 (79%), Positives = 394/450 (88%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFG PL+RWHDR GTEFV+
+Sbjct  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGMPLLRWHDRRGTEFVI  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVKMLDERE EV A  L+QSFNRK+VRQRIAIVAAGPIANFLLA++FFW +A+
+Sbjct  61   AAIPLGGYVKMLDEREGEVAAEELDQSFNRKSVRQRIAIVAAGPIANFLLALVFFWALAM  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            LGSQQVRPVIG V   S+AA+AGL AGQE++A+DGEP TGW  VNLQLVRRLGESG L+V
+Sbjct  121  LGSQQVRPVIGDVEAGSIAAKAGLSAGQEIVAIDGEPTTGWAAVNLQLVRRLGESGALQV  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+             V+E+G+ VDS  Q+ LD WLKG D PDPI SLGIRPWRPALPPVLAELDPKGPAQAAGL
+Sbjct  181  LVREQGATVDSPRQLELDKWLKGADEPDPIRSLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            K GDRL ++DG  ++DWQQVVD VR  P  ++ L V RDG  +DV + LA RGE KA +G
+Sbjct  241  KTGDRLLALDGQPLNDWQQVVDWVRVHPDTKIVLHVERDGAQIDVPVTLASRGESKAPNG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            Y+GAGV   +WP +MLREVSYGPLEA+G+   RTWTMS+LTL+S+KKML GELSVKNLSG
+Sbjct  301  YLGAGVKAVDWPPQMLREVSYGPLEAIGEGARRTWTMSVLTLESLKKMLFGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASAQSG+ DFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYL+EW RGRPLS
+Sbjct  361  PITIAKVAGASAQSGIADFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLIEWARGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            +RVQ WG+QIGISLVVGVMLLALVNDL RL
+Sbjct  421  DRVQGWGIQIGISLVVGVMLLALVNDLGRL  450
+
+
+>VFG015003(gb|WP_011103593) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. tomato str. DC3000]
+Length=450
+
+ Score = 701 bits (1808),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 344/450 (76%), Positives = 391/450 (87%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            MSALYMI+GTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPL+RW DR GTE+VV
+Sbjct  1    MSALYMILGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWSDRQGTEYVV  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVKMLDERE  VP  L +QSFNRKTV QRIAIV AGP ANFLLAI FFWV+A+
+Sbjct  61   AAIPLGGYVKMLDEREGNVPPELADQSFNRKTVGQRIAIVIAGPTANFLLAIAFFWVLAM  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            +GS+QVRPVIG+V   S+A QAGL AGQE++AVDGEP +GW GVNLQLVRRLGESGT+ +
+Sbjct  121  MGSEQVRPVIGAVESGSIAQQAGLTAGQEIVAVDGEPTSGWAGVNLQLVRRLGESGTIAL  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+            +V+++GS VD++ ++ L  WLKG + PDPI SLGIRPWRPAL PVLAE+DPKGPAQ+AGL
+Sbjct  181  KVRDQGSTVDTSRELVLSDWLKGAEEPDPIKSLGIRPWRPALLPVLAEIDPKGPAQSAGL  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            K GDRL S+DG  +++WQQVVD VR RP  +V L++ RD   +DV + LA RGEGKA +G
+Sbjct  241  KTGDRLISMDGQPLNEWQQVVDRVRERPEAKVSLRIERDAVQMDVPVTLAARGEGKAAAG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            Y+GAGV   +WP EMLREVSYGP  A+ + + RTWTMS+LTLDS+KKML GELSVKNLSG
+Sbjct  301  YLGAGVKAVDWPPEMLREVSYGPFAAMVEGVKRTWTMSVLTLDSLKKMLFGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASAQSG+GDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYL+EW RGRPLS
+Sbjct  361  PITIAKVAGASAQSGLGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLIEWARGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            E+VQ WG QIGISLVVG+MLLALVNDL RL
+Sbjct  421  EKVQGWGAQIGISLVVGIMLLALVNDLGRL  450
+
+
+>VFG015012(gb|WP_011912707) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas stutzeri 
+A1501]
+Length=450
+
+ Score = 695 bits (1794),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 344/450 (76%), Positives = 394/450 (88%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            M ALYMI+GTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFG+PLVRWHDRHGTEFV+
+Sbjct  1    MGALYMIIGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGSPLVRWHDRHGTEFVI  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVKMLDERE +VP  LL+ +FNRKTVRQR AIV+AGP+ANFLLA++FFW++A+
+Sbjct  61   AAIPLGGYVKMLDEREGDVPPALLDSAFNRKTVRQRFAIVSAGPLANFLLALVFFWLLAM  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            LGSQQVRPV+G+V   SLAAQAG+   QE++AV+G+PV+GW  VNLQLVRRLGESG L+V
+Sbjct  121  LGSQQVRPVVGAVESGSLAAQAGMAVDQEIVAVNGKPVSGWGEVNLQLVRRLGESGQLDV  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+             V+E GS+ +   Q+ L  WLKG + PDPI +LGIRPWRP + PV+A+LDP+GPAQAAG+
+Sbjct  181  TVREVGSSAERHLQIPLQNWLKGVEEPDPITALGIRPWRPQIAPVIAQLDPEGPAQAAGI  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            +LGDRL S++   +DDWQQV+D+V+  PG    L+V RDG+ +DV L LA RGEG AR G
+Sbjct  241  QLGDRLISLNRQPLDDWQQVIDAVKVLPGATAVLEVERDGQRVDVPLTLAARGEGDARRG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            Y+GAGV G EWPAEMLREV +GPL+AV +   RTWTMSLLTLDS+KKML GELSVKNLSG
+Sbjct  301  YLGAGVEGGEWPAEMLREVRFGPLDAVVEGAKRTWTMSLLTLDSLKKMLFGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASAQSG+GDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS
+Sbjct  361  PITIAKVAGASAQSGLGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            ERVQ WG+QIGISLVVGVMLLALVNDL RL
+Sbjct  421  ERVQGWGVQIGISLVVGVMLLALVNDLGRL  450
+
+
+>VFG015004(gb|WP_004406254) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. syringae B728a]
+Length=450
+
+ Score = 685 bits (1767),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 342/450 (76%), Positives = 392/450 (87%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            MSALYMI+GTL+ALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPL+RWHDR GTE+VV
+Sbjct  1    MSALYMILGTLIALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRQGTEYVV  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVKMLDERE  VP  L +QSFNRKTV QRIAIV AGP ANF+LAI FFWV+A+
+Sbjct  61   AAIPLGGYVKMLDEREGNVPPELADQSFNRKTVGQRIAIVIAGPTANFILAIAFFWVLAM  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            +GS+QVRPVIG+V   S+A QAGL AGQE++AVDGEP +GW GVNLQLVRRLGESGT+ +
+Sbjct  121  MGSEQVRPVIGAVESGSIAQQAGLTAGQEIVAVDGEPTSGWAGVNLQLVRRLGESGTIAL  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+            +V+++GS VD++ Q+ L  WL+G + PDPI SLGIRPWRPAL PVLAE+DPKGPAQ+AGL
+Sbjct  181  KVRDQGSTVDTSRQLVLSDWLRGAEEPDPIKSLGIRPWRPALLPVLAEIDPKGPAQSAGL  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            K GDRL ++DG  +D+WQQVVD VR RP  ++ L++ RDG  +DV + LA +GEGKA +G
+Sbjct  241  KTGDRLVAMDGQPLDEWQQVVDRVRERPEAKISLRIERDGVQMDVPVTLAAKGEGKAAAG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            Y+GAGV   +WP EMLREVSYGP  A+ + + RTW MS+LTLDS+KKML GELSVKNLSG
+Sbjct  301  YLGAGVKAVDWPPEMLREVSYGPFAAMAEGVKRTWNMSVLTLDSLKKMLFGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASAQSG+GDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYL+EW RGRPLS
+Sbjct  361  PITIAKVAGASAQSGIGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLIEWARGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            E+VQ WG QIGISLVVGVMLLALVNDL RL
+Sbjct  421  EKVQGWGAQIGISLVVGVMLLALVNDLGRL  450
+
+
+>VFG015005(gb|WP_011169295) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+Length=450
+
+ Score = 683 bits (1762),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 342/450 (76%), Positives = 393/450 (87%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            MSALYMI+GTL+ALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPL+RW DR GTE+VV
+Sbjct  1    MSALYMILGTLIALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWSDRQGTEYVV  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVKMLDERE  VP  L +QSFNRKTV QRIAIV AGP ANFLLAI FFWV+A+
+Sbjct  61   AAIPLGGYVKMLDEREGNVPPELADQSFNRKTVGQRIAIVIAGPTANFLLAIAFFWVLAM  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            +GS+QVRPVIG+V   S+A QAGL AGQE++AVDGEP +GW GVNLQLVRRLGESGT+ +
+Sbjct  121  MGSEQVRPVIGAVESGSIAQQAGLTAGQEIVAVDGEPTSGWAGVNLQLVRRLGESGTIAL  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+            +++++GS VD++ ++ L+ WL+G + PDPI SLGIRPWRPAL PVLAE+DPKGPAQ+AGL
+Sbjct  181  KLRDQGSTVDTSRELVLNDWLRGAEEPDPIKSLGIRPWRPALLPVLAEIDPKGPAQSAGL  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            K GDRL S+DG  +++WQQVVD VR RP  +V L++ RDG  +DV + LA +GEGKA +G
+Sbjct  241  KTGDRLISMDGQPLNEWQQVVDRVRERPEAKVSLRIERDGVQMDVPVTLAAKGEGKAAAG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            Y+GAGV   +WP EMLREVSYGP  A+G+ + RTW MS+LTLDS+KKML GELSVKNLSG
+Sbjct  301  YLGAGVKAVDWPPEMLREVSYGPFAAMGEGIKRTWNMSVLTLDSLKKMLFGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASAQSG+GDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYL+EW RGRPLS
+Sbjct  361  PITIAKVAGASAQSGIGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLIEWARGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            E+VQ WG QIGISLVVGVMLLALVNDL RL
+Sbjct  421  EKVQGWGAQIGISLVVGVMLLALVNDLGRL  450
+
+
+>VFG015011(gb|WP_012019182) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas mendocina 
+ymp]
+Length=450
+
+ Score = 661 bits (1705),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 351/450 (78%), Positives = 394/450 (88%), Gaps = 0/450 (0%)
+
+Query  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+            MS LYM+VGTL+ALGVLVTFHE+GHFWVARRCGVKVLRFSVGFGTPL+RWHDR GTEFV+
+Sbjct  1    MSGLYMVVGTLIALGVLVTFHEYGHFWVARRCGVKVLRFSVGFGTPLLRWHDRQGTEFVI  60
+
+Query  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+            AAIPLGGYVKMLDERE +VP  L+EQSFNRK+VRQRIAIVAAGP+ANFLLA+LFFW VA+
+Sbjct  61   AAIPLGGYVKMLDEREGDVPPELVEQSFNRKSVRQRIAIVAAGPLANFLLALLFFWFVAM  120
+
+Query  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+            LGSQQVRPVIG+V   SLAA AGL+AGQE++AV+GE  +GW  VNLQLVRRLGESGTL +
+Sbjct  121  LGSQQVRPVIGAVQEGSLAAAAGLQAGQEIVAVNGEATSGWAAVNLQLVRRLGESGTLNL  180
+
+Query  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+            RV E GS V++  QV+LD W +G D PDPI SLGIRPWRPAL PVLAELDPKGPA AAGL
+Sbjct  181  RVLEPGSTVETPKQVQLDNWQRGVDEPDPIGSLGIRPWRPALEPVLAELDPKGPAHAAGL  240
+
+Query  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+            + GDRL ++DG  + DWQ +VD VRA PG+ V L++ R G+V DV L LA RGEG+ARSG
+Sbjct  241  QAGDRLLALDGEPLADWQDLVDRVRALPGEAVTLRIERAGQVQDVELTLAARGEGEARSG  300
+
+Query  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+            Y+GAGV G EWP EMLREV YGP+E + + + +TW MSLLTLDS++KML GELSVKNLSG
+Sbjct  301  YLGAGVQGLEWPPEMLREVRYGPIEGIAEGMRQTWAMSLLTLDSLRKMLFGELSVKNLSG  360
+
+Query  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+            PITIAKVAGASA+SG+GDFL FLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS
+Sbjct  361  PITIAKVAGASAESGLGDFLKFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+
+Query  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+            ERVQ WGMQIGISLV+GVMLLALVNDL RL
+Sbjct  421  ERVQGWGMQIGISLVIGVMLLALVNDLGRL  450
+
+
+>VFG014995(gb|WP_011921011) (algW) AlgW protein [Alginate (VF0091) 
+- Biofilm (VFC0271)] [Pseudomonas mendocina ymp]
+Length=380
+
+ Score = 51.2 bits (121),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 28/75 (37%), Positives = 49/75 (65%), Gaps = 3/75 (4%)
+
+Query  219  RPALPPVLAELDPKGPAQAAGLKLGDRLQSIDGIAVDDWQQVVDSV-RARPGQRVQLKVL  277
+            RP +  V+A +   GPAQ AGL+ GD + SIDG    D ++ ++ V R +PG +++++V+
+Sbjct  302  RPGI--VVAGVYRDGPAQKAGLQPGDLILSIDGEPASDGRRSMNQVARTKPGDKIRIEVM  359
+
+Query  278  RDGEVLDVALELAVR  292
+            R+G+ L +  E+ +R
+Sbjct  360  RNGKSLTLTAEVGIR  374
+
+
+>VFG014996(gb|WP_011912236) (algW) AlgW protein [Alginate (VF0091) 
+- Biofilm (VFC0271)] [Pseudomonas stutzeri A1501]
+Length=383
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 29/75 (39%), Positives = 48/75 (64%), Gaps = 3/75 (4%)
+
+Query  219  RPALPPVLAELDPKGPAQAAGLKLGDRLQSIDGIAVDDWQQVVDSV-RARPGQRVQLKVL  277
+            RP +  V+A +   GPA  AGL+ GD + SIDG+   D +  ++ V RARPG+++ + +L
+Sbjct  305  RPGI--VVAGVYRDGPAARAGLQPGDLILSIDGVQSADGRSSMNQVARARPGEKIDIDIL  362
+
+Query  278  RDGEVLDVALELAVR  292
+            R+G+ L +  E+ +R
+Sbjct  363  RNGKPLTLTAEVGMR  377
+
+
+>VFG014994(gb|WP_011332484) (algW) AlgW protein [Alginate (VF0091) 
+- Biofilm (VFC0271)] [Pseudomonas fluorescens Pf0-1]
+Length=385
+
+ Score = 50.4 bits (119),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 37/104 (36%), Positives = 59/104 (57%), Gaps = 7/104 (7%)
+
+Query  193  HQVRLDGWLKGEDNP---DPIASLGIRPWRPALPPVLAELDPKGPAQAAGLKLGDRLQSI  249
+            H   + GWL  E  P   +   S G+   RP +  V+A +   GPAQ AGL+LGD + SI
+Sbjct  274  HGQVIRGWLGIEVQPLTQELAESFGLS-GRPGI--VVAGIFRDGPAQKAGLQLGDVILSI  330
+
+Query  250  DGIAVDDWQQVVDSV-RARPGQRVQLKVLRDGEVLDVALELAVR  292
+            DG    D ++ ++ V R +P  +V ++V+R+G+ L +  E+ +R
+Sbjct  331  DGEPAGDGRKSMNQVARIKPTDKVTIQVMRNGKELKLTAEIGLR  374
+
+
+>VFG015773(gb|WP_012312836) (algW) AlgW protein [Alginate (VF0091) 
+- Biofilm (VFC0271)] [Pseudomonas putida W619]
+Length=386
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 35/104 (34%), Positives = 61/104 (59%), Gaps = 7/104 (7%)
+
+Query  193  HQVRLDGWLKGEDNP---DPIASLGIRPWRPALPPVLAELDPKGPAQAAGLKLGDRLQSI  249
+            H   + GWL  E  P   +   S G++  RP +  V+A +   GPAQ AGL+LGD + SI
+Sbjct  274  HGQVIRGWLGIEVQPLSQELAESFGMQ-GRPGI--VVAGIFRDGPAQKAGLQLGDVILSI  330
+
+Query  250  DGIAVDDWQQVVDSV-RARPGQRVQLKVLRDGEVLDVALELAVR  292
+            +G    D ++ ++ V R +P +++ ++V+R+G+ L +  E+ +R
+Sbjct  331  NGEPAGDGRKSMNQVARIKPNEKITIEVMRNGQQLKLIAEVGLR  374
+
+
+>VFG015772(gb|WP_012274088) (algW) AlgW protein [Alginate (VF0091) 
+- Biofilm (VFC0271)] [Pseudomonas putida GB-1]
+Length=386
+
+ Score = 48.9 bits (115),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 34/104 (33%), Positives = 61/104 (59%), Gaps = 7/104 (7%)
+
+Query  193  HQVRLDGWLKGEDNP---DPIASLGIRPWRPALPPVLAELDPKGPAQAAGLKLGDRLQSI  249
+            H   + GWL  E  P   +   S G++  RP +  V+A +  +GPA  AGL+LGD + SI
+Sbjct  274  HGQVIRGWLGIEVQPLSQELAESFGMKD-RPGI--VVAGIFREGPAAKAGLQLGDVILSI  330
+
+Query  250  DGIAVDDWQQVVDSV-RARPGQRVQLKVLRDGEVLDVALELAVR  292
+            +G    D ++ ++ V R +P +++ ++V+R+G+ L +  E+ +R
+Sbjct  331  NGEPAGDGRKSMNQVARIKPNEKITIEVMRNGQQLKLVAEVGLR  374
+
+
+>VFG014989(gb|WP_004656566) (algW) AlgW protein [Alginate (VF0091) 
+- Biofilm (VFC0271)] [Pseudomonas syringae pv. phaseolicola 
+1448A]
+Length=386
+
+ Score = 48.1 bits (113),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 34/104 (33%), Positives = 60/104 (58%), Gaps = 7/104 (7%)
+
+Query  193  HQVRLDGWLKGEDNP---DPIASLGIRPWRPALPPVLAELDPKGPAQAAGLKLGDRLQSI  249
+            H   + GWL  E  P   +   S G++  RP +  V+A +   GPAQ AGL+LGD + SI
+Sbjct  274  HGQVIRGWLGIEVQPLTQELAESFGLKD-RPGI--VVAGIFRDGPAQKAGLQLGDVILSI  330
+
+Query  250  DGIAVDDWQQVVDSV-RARPGQRVQLKVLRDGEVLDVALELAVR  292
+            +G    D ++ ++ V R +P  ++ + V+R+G+ + ++ E+ +R
+Sbjct  331  NGEPAGDGRRSMNQVARTKPKDKIAIDVMRNGKEMRLSAEVGLR  374
+
+
+>VFG014988(gb|WP_003340656) (algW) AlgW protein [Alginate (VF0091) 
+- Biofilm (VFC0271)] [Pseudomonas syringae pv. syringae 
+B728a]
+Length=386
+
+ Score = 48.1 bits (113),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 34/104 (33%), Positives = 60/104 (58%), Gaps = 7/104 (7%)
+
+Query  193  HQVRLDGWLKGEDNP---DPIASLGIRPWRPALPPVLAELDPKGPAQAAGLKLGDRLQSI  249
+            H   + GWL  E  P   +   S G++  RP +  V+A +   GPAQ AGL+LGD + SI
+Sbjct  274  HGQVIRGWLGIEVQPLTQELAESFGLKD-RPGI--VVAGIFRDGPAQKAGLQLGDVILSI  330
+
+Query  250  DGIAVDDWQQVVDSV-RARPGQRVQLKVLRDGEVLDVALELAVR  292
+            +G    D ++ ++ V R +P  ++ + V+R+G+ + ++ E+ +R
+Sbjct  331  NGEPAGDGRRSMNQVARTKPKDKIAIDVMRNGKEMRLSAEVGLR  374
+
+
+>VFG014993(gb|WP_011059287) (algW) AlgW protein [Alginate (VF0091) 
+- Biofilm (VFC0271)] [Pseudomonas fluorescens Pf-5]
+Length=384
+
+ Score = 48.1 bits (113),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 36/104 (35%), Positives = 58/104 (56%), Gaps = 7/104 (7%)
+
+Query  193  HQVRLDGWLKGEDNP---DPIASLGIRPWRPALPPVLAELDPKGPAQAAGLKLGDRLQSI  249
+            H   + GWL  E  P   +   S G+   RP +  V+A +   GPAQ AG++LGD + SI
+Sbjct  274  HGQVIRGWLGIEVQPLTQELAESFGLA-GRPGI--VVAGIFRDGPAQKAGMQLGDVILSI  330
+
+Query  250  DGIAVDDWQQVVDSV-RARPGQRVQLKVLRDGEVLDVALELAVR  292
+            DG    D ++ ++ V R +P  +V + V+R+G+ L +  E+ +R
+Sbjct  331  DGEPAGDGRRSMNQVARIKPTDKVSILVMRNGKELKLTAEIGLR  374
+
+
+>VFG014991(gb|WP_003251794) (algW) AlgW protein [Alginate (VF0091) 
+- Biofilm (VFC0271)] [Pseudomonas putida F1]
+Length=386
+
+ Score = 48.1 bits (113),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 34/104 (33%), Positives = 61/104 (59%), Gaps = 7/104 (7%)
+
+Query  193  HQVRLDGWLKGEDNP---DPIASLGIRPWRPALPPVLAELDPKGPAQAAGLKLGDRLQSI  249
+            H   + GWL  E  P   +   S G++  RP +  V+A +  +GPA  AGL+LGD + SI
+Sbjct  274  HGQVIRGWLGIEVQPLSQELAESFGMKD-RPGI--VVAGIFREGPAAKAGLQLGDVILSI  330
+
+Query  250  DGIAVDDWQQVVDSV-RARPGQRVQLKVLRDGEVLDVALELAVR  292
+            +G    D ++ ++ V R +P +++ ++V+R+G+ L +  E+ +R
+Sbjct  331  NGEPAGDGRKSMNQVARIKPNEKITIEVMRNGQQLKLIAEVGLR  374
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3614434239
+
+
+Query= g218.t1
+
+Length=450
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015003(gb|WP_011103593) (mucP) metalloprotease protease [Algin...  410     9e-141
+VFG015004(gb|WP_004406254) (mucP) metalloprotease protease [Algin...  406     3e-139
+VFG015005(gb|WP_011169295) (mucP) metalloprotease protease [Algin...  405     2e-138
+VFG015009(gb|WP_011059531) (mucP) metalloprotease protease [Algin...  400     1e-136
+VFG015000(gb|NP_252339) (mucP) metalloprotease protease [Alginate...  398     6e-136
+VFG015008(gb|WP_011535273) (mucP) metalloprotease protease [Algin...  398     8e-136
+VFG015002(gb|WP_003138017) (mucP) metalloprotease protease [Algin...  397     9e-136
+VFG015001(gb|WP_012074695) (mucP) metalloprotease protease [Algin...  397     2e-135
+VFG019924(gb|WP_012613725) (mucP) metalloprotease protease [Algin...  397     2e-135
+VFG015774(gb|WP_012270841) (mucP) metalloprotease protease [Algin...  396     3e-135
+VFG019925(gb|WP_012722600) (mucP) metalloprotease protease [Algin...  395     9e-135
+VFG015775(gb|WP_012315895) (mucP) metalloprotease protease [Algin...  395     9e-135
+VFG015010(gb|WP_011332688) (mucP) metalloprotease protease [Algin...  393     7e-134
+VFG015007(gb|WP_012053542) (mucP) metalloprotease protease [Algin...  390     8e-133
+VFG015006(gb|WP_049587451) (mucP) metalloprotease protease [Algin...  390     1e-132
+VFG015012(gb|WP_011912707) (mucP) metalloprotease protease [Algin...  389     2e-132
+VFG015011(gb|WP_012019182) (mucP) metalloprotease protease [Algin...  375     7e-127
+
+
+>VFG015003(gb|WP_011103593) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. tomato str. DC3000]
+Length=450
+
+ Score = 410 bits (1054),  Expect = 9e-141, Method: Compositional matrix adjust.
+ Identities = 215/450 (48%), Positives = 291/450 (65%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            +S L+ +   ++ALGVL+T HEFGHFWVARRCGV+V RFS+GFG  L R +DR GTEYV+
+Sbjct  1    MSALYMILGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWSDRQGTEYVV  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVKMLDER   V PEL   +FN KTVGQR AI+ AGP ANF+ AI  +W++ +
+Sbjct  61   AAIPLGGYVKMLDEREGNVPPELADQSFNRKTVGQRIAIVIAGPTANFLLAIAFFWVLAM  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQQT-TV  180
+            +G   VRPVIG +   SIA QA +  G E+ AVDG  T  W  V LQLV ++G+  T  +
+Sbjct  121  MGSEQVRPVIGAVESGSIAQQAGLTAGQEIVAVDGEPTSGWAGVNLQLVRRLGESGTIAL  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+             V   GS     + L L  W    ++ DP+ SLGIRP  P + PVL+E+     A  AGL
+Sbjct  181  KVRDQGSTVDTSRELVLSDWLKGAEEPDPIKSLGIRPWRPALLPVLAEIDPKGPAQSAGL  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            + GDR++ +DGQPL +W + V  VR+ P   ++L IER    + + +T   +     A G
+Sbjct  241  KTGDRLISMDGQPLNEWQQVVDRVRERPEAKVSLRIERDAVQMDVPVTLAARGEGKAAAG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G   K +  P E      YGPF+A++E   +TW +  LT+  L K++ G++ + NLSG
+Sbjct  301  YLGAGVKAVDWPPEMLREVSYGPFAAMVEGVKRTWTMSVLTLDSLKKMLFGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SA+ G+  +L FLA +S++LG++NL P+PVLDGGHLLF  IE  +G P+S
+Sbjct  361  PITIAKVAGASAQSGLGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLIEWARGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            E+VQ +  +IG  L+V +M LAL ND  RL
+Sbjct  421  EKVQGWGAQIGISLVVGIMLLALVNDLGRL  450
+
+
+>VFG015004(gb|WP_004406254) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. syringae B728a]
+Length=450
+
+ Score = 406 bits (1044),  Expect = 3e-139, Method: Compositional matrix adjust.
+ Identities = 220/450 (49%), Positives = 290/450 (64%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            +S L+ +   +IALGVL+T HEFGHFWVARRCGV+V RFS+GFG  L R  DR GTEYV+
+Sbjct  1    MSALYMILGTLIALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRQGTEYVV  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVKMLDER   V PEL   +FN KTVGQR AI+ AGP ANFI AI  +W++ +
+Sbjct  61   AAIPLGGYVKMLDEREGNVPPELADQSFNRKTVGQRIAIVIAGPTANFILAIAFFWVLAM  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQQT-TV  180
+            +G   VRPVIG +   SIA QA +  G E+ AVDG  T  W  V LQLV ++G+  T  +
+Sbjct  121  MGSEQVRPVIGAVESGSIAQQAGLTAGQEIVAVDGEPTSGWAGVNLQLVRRLGESGTIAL  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+             V   GS     + L L  W    ++ DP+ SLGIRP  P + PVL+E+     A  AGL
+Sbjct  181  KVRDQGSTVDTSRQLVLSDWLRGAEEPDPIKSLGIRPWRPALLPVLAEIDPKGPAQSAGL  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            + GDR+V +DGQPL +W + V  VR+ P   ++L IER G  + + +T   K     A G
+Sbjct  241  KTGDRLVAMDGQPLDEWQQVVDRVRERPEAKISLRIERDGVQMDVPVTLAAKGEGKAAAG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G   K +  P E      YGPF+A+ E   +TW +  LT+  L K++ G++ + NLSG
+Sbjct  301  YLGAGVKAVDWPPEMLREVSYGPFAAMAEGVKRTWNMSVLTLDSLKKMLFGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SA+ G+  +L FLA +S++LG++NL P+PVLDGGHLLF  IE  +G P+S
+Sbjct  361  PITIAKVAGASAQSGIGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLIEWARGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            E+VQ +  +IG  L+V +M LAL ND  RL
+Sbjct  421  EKVQGWGAQIGISLVVGVMLLALVNDLGRL  450
+
+
+>VFG015005(gb|WP_011169295) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas syringae 
+pv. phaseolicola 1448A]
+Length=450
+
+ Score = 405 bits (1040),  Expect = 2e-138, Method: Compositional matrix adjust.
+ Identities = 217/450 (48%), Positives = 291/450 (65%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            +S L+ +   +IALGVL+T HEFGHFWVARRCGV+V RFS+GFG  L R +DR GTEYV+
+Sbjct  1    MSALYMILGTLIALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWSDRQGTEYVV  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVKMLDER   V PEL   +FN KTVGQR AI+ AGP ANF+ AI  +W++ +
+Sbjct  61   AAIPLGGYVKMLDEREGNVPPELADQSFNRKTVGQRIAIVIAGPTANFLLAIAFFWVLAM  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQQT-TV  180
+            +G   VRPVIG +   SIA QA +  G E+ AVDG  T  W  V LQLV ++G+  T  +
+Sbjct  121  MGSEQVRPVIGAVESGSIAQQAGLTAGQEIVAVDGEPTSGWAGVNLQLVRRLGESGTIAL  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+             +   GS     + L L  W    ++ DP+ SLGIRP  P + PVL+E+     A  AGL
+Sbjct  181  KLRDQGSTVDTSRELVLNDWLRGAEEPDPIKSLGIRPWRPALLPVLAEIDPKGPAQSAGL  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            + GDR++ +DGQPL +W + V  VR+ P   ++L IER G  + + +T   K     A G
+Sbjct  241  KTGDRLISMDGQPLNEWQQVVDRVRERPEAKVSLRIERDGVQMDVPVTLAAKGEGKAAAG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G   K +  P E      YGPF+A+ E   +TW +  LT+  L K++ G++ + NLSG
+Sbjct  301  YLGAGVKAVDWPPEMLREVSYGPFAAMGEGIKRTWNMSVLTLDSLKKMLFGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SA+ G+  +L FLA +S++LG++NL P+PVLDGGHLLF  IE  +G P+S
+Sbjct  361  PITIAKVAGASAQSGIGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLIEWARGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            E+VQ +  +IG  L+V +M LAL ND  RL
+Sbjct  421  EKVQGWGAQIGISLVVGVMLLALVNDLGRL  450
+
+
+>VFG015009(gb|WP_011059531) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+Pf-5]
+Length=450
+
+ Score = 400 bits (1027),  Expect = 1e-136, Method: Compositional matrix adjust.
+ Identities = 210/450 (47%), Positives = 292/450 (65%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            +S L+ +   ++ALGVL+T HEFGHFWVARRCGV+V RFS+GFG  L R  DR GTE+VI
+Sbjct  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGMPLLRWHDRRGTEFVI  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVKMLDER   VA E    +FN K+V QR AI+AAGP+ANF+ A+  +W + +
+Sbjct  61   AAIPLGGYVKMLDEREGEVAAEELDQSFNRKSVRQRIAIVAAGPIANFLLALVFFWALAM  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQQT-TV  180
+            +G   VRPVIG++   SIAA+A ++ G E+ A+DG  T  W AV LQLV ++G+     V
+Sbjct  121  LGSQQVRPVIGDVEAGSIAAKAGLSAGQEIVAIDGEPTTGWAAVNLQLVRRLGESGALQV  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+             V   G+     + L+L  W    D+ DP+ SLGIRP  P + PVL+E+     A  AGL
+Sbjct  181  LVREQGATVDSPRQLELDKWLKGADEPDPIRSLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            + GDR++ +DGQPL  W + V +VR +P   + L +ER G+ + + +T  ++  +    G
+Sbjct  241  KTGDRLLALDGQPLNDWQQVVDWVRVHPDTKIVLHVERDGAQIDVPVTLASRGESKAPNG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G   K +  P +      YGP  AI E   +TW +  LT+  L K++ G++ + NLSG
+Sbjct  301  YLGAGVKAVDWPPQMLREVSYGPLEAIGEGARRTWTMSVLTLESLKKMLFGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SA+ G+  +L FLA +S++LG++NL P+PVLDGGHLLF  IE  +G P+S
+Sbjct  361  PITIAKVAGASAQSGIADFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLIEWARGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            +RVQ +  +IG  L+V +M LAL ND  RL
+Sbjct  421  DRVQGWGIQIGISLVVGVMLLALVNDLGRL  450
+
+
+>VFG015000(gb|NP_252339) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa PAO1]
+Length=450
+
+ Score = 398 bits (1023),  Expect = 6e-136, Method: Compositional matrix adjust.
+ Identities = 211/450 (47%), Positives = 285/450 (63%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            +S L+ +   ++ALGVL+T HEFGHFWVARRCGV+V RFS+GFG  L R  DR+GTE+V+
+Sbjct  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVKMLDER   V   L   +FN KTV QR AI+AAGP+ANF+ AI  +W+V +
+Sbjct  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQQT-TV  180
+            +G   VRPVIG + P S+AAQA +  G EL AVDG     W+ V LQLV ++G+  T  V
+Sbjct  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+             V   GS+      + L  W    D  DP++SLGIRP  P + PVL+E+     A  AGL
+Sbjct  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            + GDR+  +DG  +  W + V  VR  PG+ + L++ R G  L + L    +       G
+Sbjct  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G        P E      YGP  A+ +A  +TW +  LT+  + K++ G++ + NLSG
+Sbjct  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SA+ GV  +L FLA +S++LG++NL P+PVLDGGHLLF  +E ++G P+S
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            ERVQ +  +IG  L+V +M LAL ND SRL
+Sbjct  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+
+
+>VFG015008(gb|WP_011535273) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas entomophila 
+L48]
+Length=450
+
+ Score = 398 bits (1022),  Expect = 8e-136, Method: Compositional matrix adjust.
+ Identities = 207/450 (46%), Positives = 288/450 (64%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            ++ L+ +   ++ALGVL+T HEFGHFWVARRCGV+V RFS+GFG  L R  DR+GTE+V+
+Sbjct  1    MTALYMIIGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLIRWHDRHGTEFVV  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVKMLDER   V P L   +FN K+V QR AI+AAGP+ANF+ AI  +W + +
+Sbjct  61   AAIPLGGYVKMLDEREGEVPPALVEQSFNRKSVRQRIAIVAAGPIANFLLAILFFWFISM  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQQT-TV  180
+            +G   VRPVIG +   S+AA A +  G E+ ++DG  T  W AV LQLV ++G+  T  V
+Sbjct  121  LGTQQVRPVIGAVETGSLAATAGLNVGQEIVSIDGKPTNGWSAVNLQLVRRLGESGTLRV  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+             V   G+   +   + L HW    D+ DP+ SLG+RP  P +EPVL+E+     A+ AGL
+Sbjct  181  GVLDEGATVERQHDIQLSHWLKGVDEPDPIQSLGLRPWRPAVEPVLAEIDPKGPAAAAGL  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            + GD+++ +DG  L  W + V  VR  P   ++L +ER G+ L + +T   K     + G
+Sbjct  241  KTGDKLLALDGTVLGDWQQVVDAVRARPESKVSLRVERDGAQLEVPVTLARKGEGQASGG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G   K    P +      YGP  A+ E   +TW +  LT+  L K++ G++ + NLSG
+Sbjct  301  YLGAGVKAAQWPAQMLREVSYGPLEAVGEGLSRTWNMSVLTLESLKKMLFGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SA+ GV  +L FLA +S++LG++NL P+PVLDGGHLLF  IE  +G P+S
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLIEWARGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            +RVQ +  +IG  L+V +M LAL ND  RL
+Sbjct  421  DRVQGWGVQIGISLVVGVMLLALINDLGRL  450
+
+
+>VFG015002(gb|WP_003138017) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa 
+UCBPP-PA14]
+Length=450
+
+ Score = 397 bits (1021),  Expect = 9e-136, Method: Compositional matrix adjust.
+ Identities = 211/450 (47%), Positives = 284/450 (63%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            +S L+ +   ++ALGVL+T HEFGHFWVARRCGV+V RFS+GFG  L R  DR+GTE+V+
+Sbjct  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVKMLDER   V   L   +FN KTV QR AI+AAGP+ANF+ AI  +W+V +
+Sbjct  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQQT-TV  180
+            +G   VRPVIG + P S+AAQA +  G EL AVDG     W  V LQLV ++G+  T  V
+Sbjct  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWSGVNLQLVRRLGESGTLEV  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+             V   GS+      + L  W    D  DP++SLGIRP  P + PVL+E+     A  AGL
+Sbjct  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            + GDR+  +DG  +  W + V  VR  PG+ + L++ R G  L + L    +       G
+Sbjct  241  KLGDRLQSIDGIAVDDWQQVVESVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G        P E      YGP  A+ +A  +TW +  LT+  + K++ G++ + NLSG
+Sbjct  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SA+ GV  +L FLA +S++LG++NL P+PVLDGGHLLF  +E ++G P+S
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            ERVQ +  +IG  L+V +M LAL ND SRL
+Sbjct  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+
+
+>VFG015001(gb|WP_012074695) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa 
+PA7]
+Length=450
+
+ Score = 397 bits (1020),  Expect = 2e-135, Method: Compositional matrix adjust.
+ Identities = 210/450 (47%), Positives = 286/450 (64%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            +S L+ +   ++ALGVL+T HEFGHFWVARRCGV+V RFS+GFG  L R  DR+GTE+V+
+Sbjct  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRHGTEFVV  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVKMLDER   V   L   +FN KTV QR AI+AAGP+ANF+ AI  +W+V +
+Sbjct  61   AAIPLGGYVKMLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQQT-TV  180
+            +G   VRPVIG + P S+AAQA +  G EL AVDG     W+ V LQLV ++G+  T  V
+Sbjct  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+             V   GS+      + L  W    D  DP++SLGI+P  P + PVL+E+     A  AGL
+Sbjct  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIQPWRPALPPVLAELDPKGPAQAAGL  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            + GDR+  +DG  +  W + V  VR  PG+ + L++ R G  L + L   ++       G
+Sbjct  241  KVGDRLQGIDGVAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDIALDLASRGEGKARTG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G        P E      YGP  A+ +A  +TW +  LT+  + K++ G++ + NLSG
+Sbjct  301  YMGAGVSGGEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SA+ GV  +L FLA +S++LG++NL P+PVLDGGHLLF  +E ++G P+S
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            ERVQ +  +IG  L+V +M LAL ND SRL
+Sbjct  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+
+
+>VFG019924(gb|WP_012613725) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas aeruginosa 
+LESB58]
+Length=450
+
+ Score = 397 bits (1019),  Expect = 2e-135, Method: Compositional matrix adjust.
+ Identities = 210/450 (47%), Positives = 285/450 (63%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            +S L+ +   ++ALGVL+T HEFGHFWVARRCGV+V RFS+GFG  L R  DR+GTE+V+
+Sbjct  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLVRWHDRHGTEFVV  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVK+LDER   V   L   +FN KTV QR AI+AAGP+ANF+ AI  +W+V +
+Sbjct  61   AAIPLGGYVKLLDEREAEVPAHLLEQSFNRKTVRQRIAIVAAGPIANFLLAILFFWVVAL  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQQT-TV  180
+            +G   VRPVIG + P S+AAQA +  G EL AVDG     W+ V LQLV ++G+  T  V
+Sbjct  121  LGSQQVRPVIGSVAPESLAAQAGLEAGQELLAVDGEPVTGWNGVNLQLVRRLGESGTLEV  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+             V   GS+      + L  W    D  DP++SLGIRP  P + PVL+E+     A  AGL
+Sbjct  181  RVQEKGSNVDSTHQVRLDGWLKGEDNPDPIASLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            + GDR+  +DG  +  W + V  VR  PG+ + L++ R G  L + L    +       G
+Sbjct  241  KLGDRLQSIDGIAVDDWQQVVDSVRARPGQRVQLKVLRDGEVLDVALELAVRGEGKARSG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G        P E      YGP  A+ +A  +TW +  LT+  + K++ G++ + NLSG
+Sbjct  301  YMGAGVAGTEWPAEMLREVSYGPLEAVGQALSRTWTMSLLTLDSIKKMLLGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SA+ GV  +L FLA +S++LG++NL P+PVLDGGHLLF  +E ++G P+S
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            ERVQ +  +IG  L+V +M LAL ND SRL
+Sbjct  421  ERVQAWGMQIGISLVVGVMLLALVNDLSRL  450
+
+
+>VFG015774(gb|WP_012270841) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas putida GB-1]
+Length=450
+
+ Score = 396 bits (1018),  Expect = 3e-135, Method: Compositional matrix adjust.
+ Identities = 206/450 (46%), Positives = 287/450 (64%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            ++ L+ +   ++ALGVL+T HEFGHFWVARRCGV+V RFS+GFG  L R  DR+GTE+V+
+Sbjct  1    MTALYMIIGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRHGTEFVV  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVKMLDER   V P L   +FN K+V QR AI+AAGP+ANF+ AI  +W++ +
+Sbjct  61   AAIPLGGYVKMLDEREGDVPPALAGQSFNRKSVRQRIAIVAAGPIANFLLAILFFWVLAM  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQQT-TV  180
+            +G   VRPVIG +   S+AA A +  G E+ ++DG  T  W AV LQLV ++G+  T  V
+Sbjct  121  LGTQQVRPVIGAVDSGSLAASAGLTAGQEIVSIDGKATNGWSAVNLQLVRRLGESGTLQV  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+             V   G+   +   + L  W    D+ DP+ SLG+ P  P I PVL+E+     A+ AGL
+Sbjct  181  GVLEEGASAERQLQVKLDSWLKGADEPDPIQSLGLHPWRPAITPVLAEIDPKGPAAAAGL  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            + GD+++ VDGQ +T+W + V  VR  P   + + +ER G+AL L +T   K       G
+Sbjct  241  KTGDKLLAVDGQAVTEWQQVVDSVRARPDAKVVVRVERDGAALELPVTLARKGEGKAVGG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G   K    P        YGP  A+ E   +TW +  LT+  L K++ G++ + NLSG
+Sbjct  301  YLGAGVKGGEWPANMLREVSYGPLDAVGEGLSRTWNMSVLTLESLKKMLFGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SA+ GV  +L FLA +S++LG++NL P+PVLDGGHLLF  +E  +G P+S
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWARGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            +RVQ +  +IG  L++ +M LAL ND  RL
+Sbjct  421  DRVQGWGVQIGISLVIGVMLLALINDLGRL  450
+
+
+>VFG019925(gb|WP_012722600) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+SBW25]
+Length=450
+
+ Score = 395 bits (1015),  Expect = 9e-135, Method: Compositional matrix adjust.
+ Identities = 209/450 (46%), Positives = 288/450 (64%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            +S L+ +   ++ALGVL+T HEFGHFWVARRCGV+V RFS+GFG  L R  DR GTE+VI
+Sbjct  1    MSALYMIVGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGMPLLRWHDRRGTEFVI  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVKMLDER   V  +    +FN KTV QR AI+AAGP+ANF+ A+  +W++ +
+Sbjct  61   AAIPLGGYVKMLDEREGEVPADQLDQSFNRKTVRQRIAIVAAGPIANFLLAMVFFWVLAM  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQQT-TV  180
+            +G   VRPVIG +  +SIAA+A +  G E+ ++DG  T  W AV LQLV ++G+  T  V
+Sbjct  121  LGSQQVRPVIGAVESDSIAAKAGLVAGQEIVSIDGEPTTGWGAVNLQLVRRLGESGTVNV  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+             V    S     + L L HW    D+ DP+ SLGIRP  P + PVL+E+     A  AGL
+Sbjct  181  VVREQDSTTETPRELALDHWLKGADEPDPIKSLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            + GDR++ +DGQ L  W + V  VR  P   + L++ER G+ + + +T   +     A G
+Sbjct  241  KTGDRLLALDGQSLGDWQQVVDLVRVRPETKIVLKVERDGAQIDVPVTLSVRGEAKAAGG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G   K +  P        +GP +AI E   +TW +  LT+  L K++ G++ + NLSG
+Sbjct  301  YLGAGVKGVDWPPSMVREVSFGPLAAIGEGAKRTWTMSVLTLESLKKMLFGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SA+ GV  +L FLA +S++LG++NL P+PVLDGGHLLF  +E  +G P+S
+Sbjct  361  PITIAKVAGASAQSGVADFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWARGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            +RVQ +  +IG  L+V +M LAL ND  RL
+Sbjct  421  DRVQGWGIQIGISLVVGVMLLALVNDLGRL  450
+
+
+>VFG015775(gb|WP_012315895) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas putida W619]
+Length=450
+
+ Score = 395 bits (1015),  Expect = 9e-135, Method: Compositional matrix adjust.
+ Identities = 207/450 (46%), Positives = 287/450 (64%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            ++ L+ +   ++ALGVL+T HEFGHFWVARRCGV+V RFS+GFG  L R  DR+GTE+V+
+Sbjct  1    MTALYMIIGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGPGLLRWHDRHGTEFVV  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVKMLDER   V   L   +FN K+V QR AI+AAGP+ANF+ AI  +WL+ +
+Sbjct  61   AAIPLGGYVKMLDEREGEVPLALADQSFNRKSVRQRIAIVAAGPIANFLLAIVFFWLLAM  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQQT-TV  180
+            +G   +RPVIG + P S+AA A +  G E+ ++DG  T  W AV LQLV ++G+  T  V
+Sbjct  121  LGTQQIRPVIGAVEPGSLAASAGLVAGQEIVSIDGKATSGWSAVNLQLVRRLGESGTLQV  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+             V   GS   +   + L  W    D+ DP+ SLG+RP  P + PVL+E+     A+ AGL
+Sbjct  181  GVRDEGSSAERQLQVKLDSWLKGADEPDPIQSLGLRPWRPVVAPVLAEIDPKGPAAAAGL  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            + GDR++ +DG  L+ W + V  VR  P   + + IER G+AL + +T   K     A G
+Sbjct  241  KTGDRLLSIDGLALSDWQQVVDSVRARPEARVVVRIERDGTALDVPVTLARKGEGEAAGG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G   K    P        YGP  A+ E   +TW +  LT+  L K++ G++ + NLSG
+Sbjct  301  YLGAGVKSGEWPAGMLREVSYGPLDAVGEGLSRTWNMSVLTLESLKKMLFGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SA+ GV  +L FLA +S++LG++NL P+PVLDGGHLLF  +E  +G P+S
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWARGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            +RVQ +  +IG  L++ +M LAL ND  RL
+Sbjct  421  DRVQGWGVQIGISLVIGVMLLALINDLGRL  450
+
+
+>VFG015010(gb|WP_011332688) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas fluorescens 
+Pf0-1]
+Length=450
+
+ Score = 393 bits (1009),  Expect = 7e-134, Method: Compositional matrix adjust.
+ Identities = 209/450 (46%), Positives = 286/450 (64%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            +S L+ +A  +IALGVL+T HEFGHFWVARRCGV+V RFS+GFG  L R  D+ GTE+V+
+Sbjct  1    MSALYMIAGTLIALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGMPLLRWHDKQGTEFVV  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVKMLDER   V  +    +FN K+V QR AI+AAGPVANF+ A+  +W++ +
+Sbjct  61   AAIPLGGYVKMLDEREGEVPADQLHQSFNRKSVRQRIAIVAAGPVANFLLALVFFWVLAM  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQQT-TV  180
+            +G   +RPVIG +   SIAA A ++ G E+ A+DG  T  W AV LQLV ++G+  +  V
+Sbjct  121  LGSEQIRPVIGSVESGSIAATAGLSAGQEIVAIDGEPTSGWAAVNLQLVRRLGESGSLQV  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+             V   GS     + L L  W    D+ DP+ SLGIRP  P + PVL+E+     A  AGL
+Sbjct  181  LVREQGSTADSPRELALDKWLKGADEPDPIRSLGIRPWRPALPPVLAELDPKGPAQAAGL  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            + GDR++ +DG+ L  W + V  VR  P   + L +ER G  + + +T   +       G
+Sbjct  241  KTGDRLLTLDGKALDDWQQVVDTVRTRPDTKIVLRVERDGVQIDVPVTLAARGEKKSPSG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G   K +  P E      YGP +AI E   +TW +  LT+  L K++ G++ + NLSG
+Sbjct  301  YLGAGVKAVDWPPEMIREVSYGPLAAIGEGARRTWTMSVLTLDSLKKMLFGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SA+ GV  +L FLA +S++LG++NL P+PVLDGGHLLF  IE  +G P+S
+Sbjct  361  PITIAKVAGASAQSGVADFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLIEWARGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            +RVQ +  +IG  L+V +M LAL ND  RL
+Sbjct  421  DRVQGWGIQIGISLVVGVMLLALVNDLGRL  450
+
+
+>VFG015007(gb|WP_012053542) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas putida F1]
+Length=450
+
+ Score = 390 bits (1002),  Expect = 8e-133, Method: Compositional matrix adjust.
+ Identities = 203/450 (45%), Positives = 288/450 (64%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            ++ L+ +   ++ALGVL+T HEFGHFWVARRCGV+V RFS+GFG  L R  DR+GTE+V+
+Sbjct  1    MTALYMIIGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRHGTEFVV  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVKMLDER   V P L   +FN K+V QR AI+AAGP+ANF+ AI  +W++ +
+Sbjct  61   AAIPLGGYVKMLDEREGDVPPALAGQSFNRKSVRQRIAIVAAGPIANFLLAILFFWVLAM  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQQT-TV  180
+            +G   +RPVIG +   S+AA A +  G E+ +VDG  T  W AV LQLV ++G+  T  +
+Sbjct  121  LGTQQIRPVIGAVDSGSLAASAGLTAGQEIVSVDGKPTNGWSAVNLQLVRRLGESGTLQI  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+             V   G+   +   + L +W    D+ DP+ SLG+RP  P I PVL+E+     A+ AGL
+Sbjct  181  GVRDEGASAERQLQVKLDNWLKGADEPDPIQSLGLRPWRPAITPVLAEIDPKGPAAAAGL  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            + GD+++ +D   +T+W + V  VR  P   + + +ER G+AL L +T   K       G
+Sbjct  241  KTGDKLLALDDVAVTEWQQVVDRVRARPDARVVVRVERDGAALELPVTLARKGEGKAVGG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G   K    P        YGP  A+ E+  +TW +  LT+  L K++ G++ + NLSG
+Sbjct  301  YLGAGVKGGEWPANMLREISYGPLDAVGESLSRTWNMSVLTLESLKKMLFGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SA+ GV  +L FLA +S++LG++NL P+PVLDGGHLLF  +E  +G P+S
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWARGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            +RVQ +  +IG  L++ +M LAL ND  RL
+Sbjct  421  DRVQGWGVQIGISLVIGVMLLALINDLGRL  450
+
+
+>VFG015006(gb|WP_049587451) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas putida KT2440]
+Length=450
+
+ Score = 390 bits (1001),  Expect = 1e-132, Method: Compositional matrix adjust.
+ Identities = 203/450 (45%), Positives = 287/450 (64%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            ++ L+ +   ++ALGVL+T HEFGHFWVARRCGV+V RFS+GFG  L R  DR+GTE+V+
+Sbjct  1    MTALYMIIGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGTPLLRWHDRHGTEFVV  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVKMLDER   V P L   +FN K+V QR AI+AAGP+ANF+ AI  +W++ +
+Sbjct  61   AAIPLGGYVKMLDEREGDVPPALAGQSFNRKSVRQRIAIVAAGPIANFLLAILFFWVLAM  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQQT-TV  180
+            +G   +RPVIG +   S+AA A +  G E+ +VDG  T  W AV LQLV ++G+  T  +
+Sbjct  121  LGTQQIRPVIGAVDSGSLAASAGLTAGQEIVSVDGKPTNGWSAVNLQLVRRLGESGTLQI  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+             V   G+   +   + L  W    D+ DP+ SLG+RP  P I PVL+E+     A+ AGL
+Sbjct  181  GVRDEGASAERQLQVKLDSWLKGADEPDPIQSLGLRPWRPAITPVLAEIDPKGPAAAAGL  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            + GD+++ +D   +T+W + V  VR  P   + + +ER G+AL L +T   K       G
+Sbjct  241  KTGDKLLALDDLAVTEWQQVVDRVRARPDAKVVVRVERDGAALELPVTLARKGEGKAVGG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G   K    P        YGP  A+ E+  +TW +  LT+  L K++ G++ + NLSG
+Sbjct  301  YLGAGVKGGEWPANMLREISYGPLDAVGESLSRTWNMSVLTLESLKKMLFGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SA+ GV  +L FLA +S++LG++NL P+PVLDGGHLLF  +E  +G P+S
+Sbjct  361  PITIAKVAGASAQSGVGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWARGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            +RVQ +  +IG  L++ +M LAL ND  RL
+Sbjct  421  DRVQGWGVQIGISLVIGVMLLALINDLGRL  450
+
+
+>VFG015012(gb|WP_011912707) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas stutzeri 
+A1501]
+Length=450
+
+ Score = 389 bits (999),  Expect = 2e-132, Method: Compositional matrix adjust.
+ Identities = 204/450 (45%), Positives = 291/450 (65%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            +  L+ +   ++ALGVL+T HEFGHFWVARRCGV+V RFS+GFG  L R  DR+GTE+VI
+Sbjct  1    MGALYMIIGTLVALGVLVTFHEFGHFWVARRCGVKVLRFSVGFGSPLVRWHDRHGTEFVI  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVKMLDER   V P L   AFN KTV QR AI++AGP+ANF+ A+  +WL+ +
+Sbjct  61   AAIPLGGYVKMLDEREGDVPPALLDSAFNRKTVRQRFAIVSAGPLANFLLALVFFWLLAM  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQ-QTTV  180
+            +G   VRPV+G +   S+AAQA +A   E+ AV+G     W  V LQLV ++G+  Q  V
+Sbjct  121  LGSQQVRPVVGAVESGSLAAQAGMAVDQEIVAVNGKPVSGWGEVNLQLVRRLGESGQLDV  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+            +V   GS   +   + L++W    ++ DP+++LGIRP  PQI PV++++     A  AG+
+Sbjct  181  TVREVGSSAERHLQIPLQNWLKGVEEPDPITALGIRPWRPQIAPVIAQLDPEGPAQAAGI  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            Q GDR++ ++ QPL  W + +  V+  PG    LE+ER G  + + LT   +       G
+Sbjct  241  QLGDRLISLNRQPLDDWQQVIDAVKVLPGATAVLEVERDGQRVDVPLTLAARGEGDARRG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G   +    P E     ++GP  A++E   +TW +  LT+  L K++ G++ + NLSG
+Sbjct  301  YLGAGVEGGEWPAEMLREVRFGPLDAVVEGAKRTWTMSLLTLDSLKKMLFGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SA+ G+  +L FLA +S++LG++NL P+PVLDGGHLLF  +E ++G P+S
+Sbjct  361  PITIAKVAGASAQSGLGDFLNFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            ERVQ +  +IG  L+V +M LAL ND  RL
+Sbjct  421  ERVQGWGVQIGISLVVGVMLLALVNDLGRL  450
+
+
+>VFG015011(gb|WP_012019182) (mucP) metalloprotease protease [Alginate 
+(VF0091) - Biofilm (VFC0271)] [Pseudomonas mendocina 
+ymp]
+Length=450
+
+ Score = 375 bits (962),  Expect = 7e-127, Method: Compositional matrix adjust.
+ Identities = 216/450 (48%), Positives = 289/450 (64%), Gaps = 1/450 (0%)
+
+Query  2    LSILWNLAAFIIALGVLITVHEFGHFWVARRCGVRVERFSIGFGKALWRRTDRYGTEYVI  61
+            +S L+ +   +IALGVL+T HE+GHFWVARRCGV+V RFS+GFG  L R  DR GTE+VI
+Sbjct  1    MSGLYMVVGTLIALGVLVTFHEYGHFWVARRCGVKVLRFSVGFGTPLLRWHDRQGTEFVI  60
+
+Query  62   ALIPLGGYVKMLDERAEPVAPELRRHAFNNKTVGQRAAIIAAGPVANFIFAIFAYWLVFI  121
+            A IPLGGYVKMLDER   V PEL   +FN K+V QR AI+AAGP+ANF+ A+  +W V +
+Sbjct  61   AAIPLGGYVKMLDEREGDVPPELVEQSFNRKSVRQRIAIVAAGPLANFLLALLFFWFVAM  120
+
+Query  122  IGVPGVRPVIGEITPNSIAAQAQIAPGTELKAVDGIETPDWDAVRLQLVSKIGDQQT-TV  180
+            +G   VRPVIG +   S+AA A +  G E+ AV+G  T  W AV LQLV ++G+  T  +
+Sbjct  121  LGSQQVRPVIGAVQEGSLAAAAGLQAGQEIVAVNGEATSGWAAVNLQLVRRLGESGTLNL  180
+
+Query  181  SVAPFGSDQRQDKTLDLRHWAFEPDKQDPVSSLGIRPRGPQIEPVLSEVQANSAASKAGL  240
+             V   GS     K + L +W    D+ DP+ SLGIRP  P +EPVL+E+     A  AGL
+Sbjct  181  RVLEPGSTVETPKQVQLDNWQRGVDEPDPIGSLGIRPWRPALEPVLAELDPKGPAHAAGL  240
+
+Query  241  QAGDRIVKVDGQPLTQWMKFVTFVRDNPGKPLALEIERQGSALSLTLTPDTKSVNGKAEG  300
+            QAGDR++ +DG+PL  W   V  VR  PG+ + L IER G    + LT   +       G
+Sbjct  241  QAGDRLLALDGEPLADWQDLVDRVRALPGEAVTLRIERAGQVQDVELTLAARGEGEARSG  300
+
+Query  301  FAGVVPKIIPLPEEYKTIRQYGPFSAILEATDKTWQLMKLTVSMLGKLITGDVKLNNLSG  360
+            + G   + +  P E     +YGP   I E   +TW +  LT+  L K++ G++ + NLSG
+Sbjct  301  YLGAGVQGLEWPPEMLREVRYGPIEGIAEGMRQTWAMSLLTLDSLRKMLFGELSVKNLSG  360
+
+Query  361  PISIAQGAGMSAEFGVIYYLMFLALISVNLGIINLFPLPVLDGGHLLFLAIEKLKGGPVS  420
+            PI+IA+ AG SAE G+  +L FLA +S++LG++NL P+PVLDGGHLLF  +E ++G P+S
+Sbjct  361  PITIAKVAGASAESGLGDFLKFLAYLSISLGVLNLLPIPVLDGGHLLFYLVEWVRGRPLS  420
+
+Query  421  ERVQDFSYRIGSILLVLLMGLALFNDFSRL  450
+            ERVQ +  +IG  L++ +M LAL ND  RL
+Sbjct  421  ERVQGWGMQIGISLVIGVMLLALVNDLGRL  450
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.140    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3614434239
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

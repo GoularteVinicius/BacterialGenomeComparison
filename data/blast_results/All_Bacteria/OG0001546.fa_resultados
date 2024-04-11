@@ -1,0 +1,185 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2307.t1
+
+Length=261
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044378(gb|AAL65285) (qbsC) QbsC [Thioquinolobactin (VF0937) - ...  46.2    8e-06
+
+
+>VFG044378(gb|AAL65285) (qbsC) QbsC [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=387
+
+ Score = 46.2 bits (108),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 25/86 (29%), Positives = 40/86 (47%), Gaps = 0/86 (0%)
+
+Query  1    MVALARMGIGKFTIADPDVFEIRNSNRQYGAMRSTNGQAKAEVMRNIVHDINPEAEIRAF  60
+            ++ LA  G+G   I D DV +  N  RQ     +  GQ K +  +  +  +NP  +I   
+Sbjct  56   LLYLAAAGVGTLGIIDFDVVDDSNLQRQVIHRLAEIGQLKTQSAKRTLQALNPHIQINLH  115
+
+Query  61   CEPIGKENAATFLEGADVLVDGIDAF  86
+             E +  +NA       D+++DG D F
+Sbjct  116  NERLDNDNAVALFSNYDLMLDGTDNF  141
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.140    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1720651961
+
+
+Query= g1179.t1
+
+Length=271
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044389(gb|AAF33130) (pdtorfF) putative sulfurylase [Pyridine-2...  63.9    1e-11
+VFG044378(gb|AAL65285) (qbsC) QbsC [Thioquinolobactin (VF0937) - ...  62.0    6e-11
+
+
+>VFG044389(gb|AAF33130) (pdtorfF) putative sulfurylase [Pyridine-2,6-dithiocarboxylic 
+acid (PDTC) (VF0938) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas stutzeri KC]
+Length=391
+
+ Score = 63.9 bits (154),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 40/115 (35%), Positives = 62/115 (54%), Gaps = 2/115 (2%)
+
+Query  17   GREGLQRLADSHVAVVGIGGVGSWAAEALARSGVGEISLFDLDDVCVTNTNRQV-HAIEG  75
+            G  G +RL ++ V V+G GG+GS     LA +GVG I + D D V  +N  RQV H ++ 
+Sbjct  31   GMIGQRRLKNAKVLVIGAGGLGSPTLLYLAAAGVGTIGIIDFDRVDDSNLQRQVIHGVD-  89
+
+Query  76   SVGKAKVEVMAARILAINPACRVHAVADFVTRETMAEYIVDFDYLIDCIDSVAAK  130
+            +VG+ KV+     I  +NP  +V    D + R+   E    +D ++D  D+ A +
+Sbjct  90   TVGELKVDSAKKAIARLNPFVQVETYTDRLERDMAIELFSRYDLIMDGTDNFATR  144
+
+
+>VFG044378(gb|AAL65285) (qbsC) QbsC [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=387
+
+ Score = 62.0 bits (149),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 37/129 (29%), Positives = 63/129 (49%), Gaps = 0/129 (0%)
+
+Query  17   GREGLQRLADSHVAVVGIGGVGSWAAEALARSGVGEISLFDLDDVCVTNTNRQVHAIEGS  76
+            G EG QRL  S V V+G GG+GS     LA +GVG + + D D V  +N  RQV      
+Sbjct  31   GLEGQQRLKHSRVLVIGAGGLGSPTLLYLAAAGVGTLGIIDFDVVDDSNLQRQVIHRLAE  90
+
+Query  77   VGKAKVEVMAARILAINPACRVHAVADFVTRETMAEYIVDFDYLIDCIDSVAAKAALIAW  136
+            +G+ K +     + A+NP  +++   + +  +       ++D ++D  D+ A +  +   
+Sbjct  91   IGQLKTQSAKRTLQALNPHIQINLHNERLDNDNAVALFSNYDLMLDGTDNFATRYLVNDA  150
+
+Query  137  CKRRKIPVI  145
+            C   + P +
+Sbjct  151  CVLARKPYV  159
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.403    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1826213431
+
+
+Query= g2776.t1
+
+Length=268
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044378(gb|AAL65285) (qbsC) QbsC [Thioquinolobactin (VF0937) - ...  52.4    9e-08
+VFG044389(gb|AAF33130) (pdtorfF) putative sulfurylase [Pyridine-2...  50.4    4e-07
+
+
+>VFG044378(gb|AAL65285) (qbsC) QbsC [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=387
+
+ Score = 52.4 bits (124),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 34/113 (30%), Positives = 60/113 (53%), Gaps = 5/113 (4%)
+
+Query  21   GEKALQRFAEAHICVVGIGGVGSWAAEALARTGIGAITLIDMDDVCVTNTNRQ-IHALRD  79
+            G +  QR   + + V+G GG+GS     LA  G+G + +ID D V  +N  RQ IH L +
+Sbjct  31   GLEGQQRLKHSRVLVIGAGGLGSPTLLYLAAAGVGTLGIIDFDVVDDSNLQRQVIHRLAE  90
+
+Query  80   NVGLAKAEVMAERIRQINPECRVTVIDDFITPDN-VAGYMNAGFTYVIDAIDS  131
+             +G  K +     ++ +NP  ++ + ++ +  DN VA + N  +  ++D  D+
+Sbjct  91   -IGQLKTQSAKRTLQALNPHIQINLHNERLDNDNAVALFSN--YDLMLDGTDN  140
+
+
+>VFG044389(gb|AAF33130) (pdtorfF) putative sulfurylase [Pyridine-2,6-dithiocarboxylic 
+acid (PDTC) (VF0938) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas stutzeri KC]
+Length=391
+
+ Score = 50.4 bits (119),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 33/106 (31%), Positives = 54/106 (51%), Gaps = 1/106 (1%)
+
+Query  26   QRFAEAHICVVGIGGVGSWAAEALARTGIGAITLIDMDDVCVTNTNRQIHALRDNVGLAK  85
+            +R   A + V+G GG+GS     LA  G+G I +ID D V  +N  RQ+    D VG  K
+Sbjct  36   RRLKNAKVLVIGAGGLGSPTLLYLAAAGVGTIGIIDFDRVDDSNLQRQVIHGVDTVGELK  95
+
+Query  86   AEVMAERIRQINPECRVTVIDDFITPDNVAGYMNAGFTYVIDAIDS  131
+             +   + I ++NP  +V    D +  D +A  + + +  ++D  D+
+Sbjct  96   VDSAKKAIARLNPFVQVETYTDRLERD-MAIELFSRYDLIMDGTDN  140
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.135    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1794544990
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

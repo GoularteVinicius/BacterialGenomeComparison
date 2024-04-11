@@ -1,0 +1,964 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g753.t1
+
+Length=331
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045489(gb|WP_010946018) (LPG_RS01290) Dot/Icm type IV secretio...  61.2    1e-10
+VFG036939(gb|WP_012503946) (farA) fatty acid efflux system protei...  61.6    2e-10
+VFG036949(gb|WP_014581326) (farA) fatty acid efflux system protei...  60.5    3e-10
+VFG036944(gb|WP_014573758) (farA) fatty acid efflux system protei...  59.3    8e-10
+VFG036940(gb|WP_002247956) (farA) fatty acid efflux system protei...  59.3    8e-10
+VFG036954(gb|WP_013448426) (farA) fatty acid efflux system protei...  59.3    9e-10
+VFG036941(gb|WP_002231691) (farA) fatty acid efflux system protei...  58.9    1e-09
+VFG036938(gb|WP_002224866) (farA) fatty acid efflux system protei...  58.9    1e-09
+VFG036948(gb|WP_002218708) (farA) fatty acid efflux system protei...  58.9    1e-09
+VFG036943(gb|WP_002245854) (farA) fatty acid efflux system protei...  58.5    1e-09
+VFG036946(gb|WP_041266574) (farA) fatty acid efflux system protei...  57.4    4e-09
+VFG036945(gb|WP_015815890) (farA) fatty acid efflux system protei...  57.0    5e-09
+VFG036947(gb|WP_041423527) (farA) fatty acid efflux system protei...  55.8    1e-08
+VFG036975(gb|WP_010951249) (mtrC) membrane fusion protein MtrC [M...  48.9    2e-06
+VFG036978(gb|WP_004465401) (mtrC) membrane fusion protein MtrC [M...  48.5    3e-06
+VFG037711(gb|WP_000010646) (adeF) membrane-fusion protein [AdeFGH...  48.1    3e-06
+VFG036976(gb|WP_002220426) (mtrC) membrane fusion protein MtrC [M...  47.8    4e-06
+VFG037709(gb|WP_000010642) (adeF) membrane-fusion protein [AdeFGH...  47.8    4e-06
+VFG037705(gb|WP_000010636) (adeF) membrane-fusion protein [AdeFGH...  47.8    4e-06
+VFG036973(gb|WP_002222106) (mtrC) membrane fusion protein MtrC [M...  47.8    5e-06
+VFG036990(gb|WP_013448559) (mtrC) membrane fusion protein MtrC [M...  47.8    5e-06
+VFG037714(gb|WP_000010641) (adeF) membrane-fusion protein [AdeFGH...  47.8    5e-06
+VFG037706(gb|YP_001085329) (adeF) membrane-fusion protein [AdeFGH...  47.8    5e-06
+VFG036987(gb|WP_014582209) (mtrC) membrane fusion protein MtrC [M...  47.8    6e-06
+VFG036981(gb|WP_002232912) (mtrC) membrane fusion protein MtrC [M...  47.0    8e-06
+VFG036983(gb|WP_002216627) (mtrC) membrane fusion protein MtrC [M...  47.0    8e-06
+VFG036979(gb|WP_002246382) (mtrC) membrane fusion protein MtrC [M...  47.0    8e-06
+VFG036980(gb|WP_014573842) (mtrC) membrane fusion protein MtrC [M...  47.0    9e-06
+VFG036974(gb|WP_002224968) (mtrC) membrane fusion protein MtrC [M...  47.0    9e-06
+VFG036984(gb|WP_014580972) (mtrC) membrane fusion protein MtrC [M...  47.0    1e-05
+VFG036982(gb|WP_002224350) (mtrC) membrane fusion protein MtrC [M...  47.0    1e-05
+
+
+>VFG045489(gb|WP_010946018) (LPG_RS01290) Dot/Icm type IV secretion 
+system effector [Dot/Icm T4SS secreted effectors (VF0798) 
+- Effector delivery system (VFC0086)] [Legionella pneumophila 
+subsp. pneumophila str. Philadelphia 1]
+Length=330
+
+ Score = 61.2 bits (147),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 66/276 (24%), Positives = 122/276 (44%), Gaps = 22/276 (8%)
+
+Query  4    PVVIGLAIAAIVAVIAGGTWWYQSRQDDGLTLYGNVDIRTVNISFRVGGRLASLNVDEGD  63
+            PV+I L +   + +     + Y     +   +  NV     N    V G + ++ V    
+Sbjct  10   PVIILLCVFLFILIYH---YSYLFPFTNNAFVVANVRPVAAN----VKGYITNIYVKNEQ  62
+
+Query  64   TIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDLMLAGYRDEEIAQAAAAVRQ--AQA  121
+             +K GQ L  +  APYE A  +A + V  A+AQ  L+L   + E+      A ++   + 
+Sbjct  63   EVKKGQPLFTVFKAPYELAYRKAVSHVQEAKAQ--LLLFNKQVEKTKYLLQAQKELYEKF  120
+
+Query  122  AYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQATLKSAQDKLSQYRTGNREQDIA  181
+             +DY  N+        +   +S   +      ++ A + LK+ + +L      N++Q I 
+Sbjct  121  RFDYEHNY-----SASRDHAVSKLTVNTMLKEKNAALSKLKALEKELE----VNQQQVIV  171
+
+Query  182  QAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAVEPGSMLNAGSTVLTLSLTRPVW  241
+            Q K  ++   A +  A++DL +TT+ A  NG +    V  G+ +     V  ++ T  ++
+Sbjct  172  QKK-KIDSLIAVMKNAKIDLDETTVYAKQNGAVQDMFVALGTPIKTRKPVFAIADTDTLF  230
+
+Query  242  VRAYVDERNLSQTQPGRDILLYTDGRP-DKPYHGKI  276
+            ++A  +E +L + QPG  + ++       K YHG I
+Sbjct  231  IQANFNETDLRRVQPGDKVSIFPRMYFGSKIYHGVI  266
+
+
+>VFG036939(gb|WP_012503946) (farA) fatty acid efflux system protein 
+FarA [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria gonorrhoeae FA 1090]
+Length=384
+
+ Score = 61.6 bits (148),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 86/317 (27%), Positives = 147/317 (46%), Gaps = 22/317 (7%)
+
+Query  23   WWYQSRQDDGLTLYGNVDIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENA  82
+            WW    + +   + G    R V ++ + GG +  +  D+ D +K G VL  LD     + 
+Sbjct  42   WWQHEEETEDAYVAG----RVVQVTPQKGGTVRKVLHDDTDAVKKGDVLAVLDD--DNDV  95
+
+Query  83   LMQAKAGVSVAQAQYDLMLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTI  142
+            L   +A   + QA   +     ++   +QA A V   +A    AQ+   R+  L +S  +
+Sbjct  96   LAYERAKNELVQA---VRQNRRQNAATSQAGAQVALRRADLARAQDDLRRRSALAESGAV  152
+
+Query  143  SANDLENARSSRDQAQATLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQ  202
+            SA +L +AR++  QAQA +K+A  + S  R         + +  ++ A  +L  A L+L+
+Sbjct  153  SAEELAHARTAVSQAQAAVKAALAEESSARAALGGDVSLREQPEVQTAIGRLKDAWLNLR  212
+
+Query  203  DTTLIAPANGTLLTRAVEPGSMLNAGSTVLTLSLTRPVWVRAYVDERNLSQTQPGRDILL  262
+             T + APA+G +  R+V+ G  + AG+ ++ +     VWV A   E  L   + G+   L
+Sbjct  213  RTQVRAPADGQVAKRSVQVGQQVAAGAPLMAVVPLSDVWVDANFKETQLRHMKIGQPAEL  272
+
+Query  263  YTD--GRPDKPYHGKI-GFVSPTA---EFTPKTVETPDLRTDLVYR--LRIIVTDAD---  311
+             +D  G+    Y G++ GF + T       P    T +    +V R  +RI++   D   
+Sbjct  273  VSDLYGK-QIVYRGRVAGFSAGTGSAFSLIPAQNATGNW-IKVVQRVPVRIVLNREDVDR  330
+
+Query  312  DALRQGMPVTVKFNDEA  328
+              LR G+ +TVK +  A
+Sbjct  331  HPLRIGLSMTVKVDTSA  347
+
+
+>VFG036949(gb|WP_014581326) (farA) fatty acid efflux system protein 
+FarA [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis M04-240196]
+Length=390
+
+ Score = 60.5 bits (145),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 89/321 (28%), Positives = 154/321 (48%), Gaps = 30/321 (9%)
+
+Query  23   WWYQSRQDDGLTLYGNVDIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENA  82
+            WW    + +   + G    R V ++ + GG +  +  D+ D +K G VL  LD    +N 
+Sbjct  48   WWQHEEETEDAYVAG----RVVQVTPQKGGTVRKVLHDDTDAVKKGDVLAVLDD---DND  100
+
+Query  83   LMQAKAGVSVAQAQYDLMLAGYRDEE----IAQAAAAVRQAQAAYDYAQNFYNRQQGLWK  138
+            ++      +  +A+ +L+ A  ++       +QAAA V   +A    AQ+   R+  L +
+Sbjct  101  VL------AYERAKNELIQAVRQNRRQNAATSQAAAQVALRRADLARAQDDLRRRSALAE  154
+
+Query  139  SRTISANDLENARSSRDQAQATLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQ  198
+            S  +SA +L +AR++  QAQA +K+A  + S  R     Q   + + +++ A  +L  A 
+Sbjct  155  SGAVSAEELAHARAAVSQAQAAVKAALAEESSARAALGGQVSLREQPAVQTAIGRLKDAW  214
+
+Query  199  LDLQDTTLIAPANGTLLTRAVEPGSMLNAGSTVLTLSLTRPVWVRAYVDERNLSQTQPGR  258
+            L+LQ T + APA+G +  R+V+ G  + AG+ ++ +     VWV A   E  L   + G+
+Sbjct  215  LNLQRTQIRAPADGQVAKRSVQVGQQVAAGAPLMAVVPLSDVWVDANFKETQLRHMKIGQ  274
+
+Query  259  DILLYTD--GRPDKPYHGKI-GFVSPTA---EFTPKTVETPDLRTDLVYR--LRIIVTDA  310
+               L +D  G+    Y G++ GF + T       P    T +    +V R  +RI++   
+Sbjct  275  PAELVSDLYGK-QIVYRGRVAGFSAGTGSAFSLIPAQNATGNW-IKVVQRVPVRIVLNRE  332
+
+Query  311  D---DALRQGMPVTVKFNDEA  328
+            D     LR G+ +TVK +  A
+Sbjct  333  DVDRHPLRIGLSMTVKVDTSA  353
+
+
+>VFG036944(gb|WP_014573758) (farA) fatty acid efflux system protein 
+FarA [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis 8013]
+Length=384
+
+ Score = 59.3 bits (142),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 88/317 (28%), Positives = 149/317 (47%), Gaps = 22/317 (7%)
+
+Query  23   WWYQSRQDDGLTLYGNVDIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENA  82
+            WW    + +   + G    R V ++ + GG +  +  D+ D +K G VL  LD     + 
+Sbjct  42   WWQHEEETEDAYVAG----RVVQVTPQKGGTVRKVLHDDTDAVKKGDVLAVLDDD--NDV  95
+
+Query  83   LMQAKAGVSVAQAQYDLMLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTI  142
+            L   +A   + QA   +     ++   +QA A V   +A    AQ+   R+  L +S  +
+Sbjct  96   LAYERAKNELVQA---VRQNRRQNAATSQAGAQVALRRADLARAQDDLRRRSALAESGAV  152
+
+Query  143  SANDLENARSSRDQAQATLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQ  202
+            SA +L +AR++  QAQA +K+A  + S  R     Q   + + +++ A  +L  A L+LQ
+Sbjct  153  SAEELAHARAAVSQAQAAVKAALAEESSARAALGGQVSLREQPAVQTAIGRLKDAWLNLQ  212
+
+Query  203  DTTLIAPANGTLLTRAVEPGSMLNAGSTVLTLSLTRPVWVRAYVDERNLSQTQPGRDILL  262
+             T + APA+G +  R+V+ G  + AG+ ++ +     VWV A   E  L   + G+   L
+Sbjct  213  RTQIRAPADGQVAKRSVQVGQQVAAGAPLMAVVPLSDVWVDANFKETQLRHMKIGQPAEL  272
+
+Query  263  YTD--GRPDKPYHGKI-GFVSPTA---EFTPKTVETPDLRTDLVYR--LRIIVTDAD---  311
+             +D  G+    Y G++ GF + T       P    T +    +V R  +RI++   D   
+Sbjct  273  VSDLYGK-QIVYRGRVAGFSAGTGSAFSLIPAQNATGNW-IKVVQRVPVRIVLNREDVDR  330
+
+Query  312  DALRQGMPVTVKFNDEA  328
+              LR G+ +TVK +  A
+Sbjct  331  HPLRIGLSMTVKVDTSA  347
+
+
+>VFG036940(gb|WP_002247956) (farA) fatty acid efflux system protein 
+FarA [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis FAM18]
+Length=390
+
+ Score = 59.3 bits (142),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 88/321 (27%), Positives = 153/321 (48%), Gaps = 30/321 (9%)
+
+Query  23   WWYQSRQDDGLTLYGNVDIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENA  82
+            WW    + +   + G    R V ++ + GG +  +  D+ D +K G VL  LD    +N 
+Sbjct  48   WWQHEEETEDAYVAG----RVVQVTPQKGGTVRKVLHDDTDAVKKGDVLAVLDD---DND  100
+
+Query  83   LMQAKAGVSVAQAQYDLMLAGYRDEE----IAQAAAAVRQAQAAYDYAQNFYNRQQGLWK  138
+            ++      +  +A+ +L+ A  ++       +QA A V   +A    AQ+   R+  L +
+Sbjct  101  VL------AYERAKNELIQAVRQNRRQNAATSQAGAQVALRRADLARAQDDLRRRSALAE  154
+
+Query  139  SRTISANDLENARSSRDQAQATLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQ  198
+            S  +SA +L +AR++  QAQA +K+A  + S  R     Q   + + +++ A  +L  A 
+Sbjct  155  SGAVSAEELAHARAAVSQAQAAVKAALAEESSARAALGGQVSLREQPAVQTAIGRLKDAW  214
+
+Query  199  LDLQDTTLIAPANGTLLTRAVEPGSMLNAGSTVLTLSLTRPVWVRAYVDERNLSQTQPGR  258
+            L+LQ T + APA+G +  R+V+ G  + AG+ ++ +     VWV A   E  L   + G+
+Sbjct  215  LNLQRTQIRAPADGQVAKRSVQVGQQVAAGAPLMAVVPLSDVWVDANFKETQLRHMKIGQ  274
+
+Query  259  DILLYTD--GRPDKPYHGKI-GFVSPTA---EFTPKTVETPDLRTDLVYR--LRIIVTDA  310
+               L +D  G+    Y G++ GF + T       P    T +    +V R  +RI++   
+Sbjct  275  PAELVSDLYGK-QIVYRGRVAGFSAGTGSAFSLIPAQNATGNW-IKVVQRVPVRIVLNRE  332
+
+Query  311  D---DALRQGMPVTVKFNDEA  328
+            D     LR G+ +TVK +  A
+Sbjct  333  DVDRHPLRIGLSMTVKVDTSA  353
+
+
+>VFG036954(gb|WP_013448426) (farA) fatty acid efflux system protein 
+FarA [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria lactamica 020-06]
+Length=390
+
+ Score = 59.3 bits (142),  Expect = 9e-10, Method: Compositional matrix adjust.
+ Identities = 88/317 (28%), Positives = 149/317 (47%), Gaps = 22/317 (7%)
+
+Query  23   WWYQSRQDDGLTLYGNVDIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENA  82
+            WW    + +   + G    R V ++ + GG +  +  D+ D +K G VL  LD     + 
+Sbjct  48   WWQHEEETEDAYVAG----RVVQVTPQKGGTVRKVLHDDTDAVKKGDVLAVLDD--DNDV  101
+
+Query  83   LMQAKAGVSVAQAQYDLMLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTI  142
+            L   +A   + QA   +     ++   +QAAA V   +A    AQ+   R+  L +S  +
+Sbjct  102  LAYERAKNELVQA---VRQNRRQNAATSQAAAQVALRRADLARAQDDLRRRSALAESGAV  158
+
+Query  143  SANDLENARSSRDQAQATLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQ  202
+            SA +L +AR++  QAQA +K+A  + S  R     Q   + +  ++ A  +L  A L+LQ
+Sbjct  159  SAEELAHARAAVSQAQAAVKAALAEESSARAALGGQVSLREQPEVQTAIGRLKDAWLNLQ  218
+
+Query  203  DTTLIAPANGTLLTRAVEPGSMLNAGSTVLTLSLTRPVWVRAYVDERNLSQTQPGRDILL  262
+             T + APA+G +  R+V+ G  + AG+ ++ +     +WV A   E  L   + G+   L
+Sbjct  219  RTQIRAPADGQVAKRSVQVGQQVAAGAPLMAVVPLSDMWVDANFKETQLRHMKIGQPAEL  278
+
+Query  263  YTD--GRPDKPYHGKI-GFVSPTA---EFTPKTVETPDLRTDLVYR--LRIIVTDAD---  311
+             +D  G+    Y G++ GF + T       P    T +    +V R  +RI++   D   
+Sbjct  279  VSDLYGK-QIVYRGRVAGFSAGTGSAFSLIPAQNATGNW-IKVVQRVPVRIVLNREDVDR  336
+
+Query  312  DALRQGMPVTVKFNDEA  328
+              LR G+ +TVK +  A
+Sbjct  337  HPLRIGLSMTVKVDTSA  353
+
+
+>VFG036941(gb|WP_002231691) (farA) fatty acid efflux system protein 
+FarA [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis 053442]
+Length=384
+
+ Score = 58.9 bits (141),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 92/324 (28%), Positives = 151/324 (47%), Gaps = 36/324 (11%)
+
+Query  23   WWYQSRQDDGLTLYGNVDIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDH----AP  78
+            WW    + +   + G    R V ++ + GG +  +  D+ D +K G VL  LD       
+Sbjct  42   WWQHEEETEDAYVAG----RVVQVTPQKGGTVRKVLHDDTDAVKKGDVLAVLDDDNDVLA  97
+
+Query  79   YE---NALMQAKAGVSVAQAQYDLMLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQG  135
+            YE   N L+QA     V Q +        ++   +QA A V   +A    AQ+   R+  
+Sbjct  98   YERAKNELIQA-----VRQNRR-------QNAATSQAGAQVALRRADLARAQDDLRRRSA  145
+
+Query  136  LWKSRTISANDLENARSSRDQAQATLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLA  195
+            L +S  +SA +L +AR++  QAQA +K+A  + S  R     Q   + + +++ A  +L 
+Sbjct  146  LAESGAVSAEELAHARAAVSQAQAAVKAALAEESSARAALGGQVSLREQPAVQTAIGRLK  205
+
+Query  196  QAQLDLQDTTLIAPANGTLLTRAVEPGSMLNAGSTVLTLSLTRPVWVRAYVDERNLSQTQ  255
+             A L+LQ T + APA+G +  R+V+ G  + AG+ ++ +     VWV A   E  L   +
+Sbjct  206  DAWLNLQRTQIRAPADGQVAKRSVQVGQQVAAGAPLMAVVPLSDVWVDANFKETQLRHMK  265
+
+Query  256  PGRDILLYTD--GRPDKPYHGKI-GFVSPTA---EFTPKTVETPDLRTDLVYR--LRIIV  307
+             G+   L +D  G+    Y G++ GF + T       P    T +    +V R  +RI++
+Sbjct  266  IGQPAELVSDLYGK-QIVYRGRVAGFSAGTGSAFSLIPAQNATGNW-IKVVQRVPVRIVL  323
+
+Query  308  TDAD---DALRQGMPVTVKFNDEA  328
+               D     LR G+ +TVK +  A
+Sbjct  324  NREDVDRHPLRIGLSMTVKVDTSA  347
+
+
+>VFG036938(gb|WP_002224866) (farA) fatty acid efflux system protein 
+FarA [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis MC58]
+Length=384
+
+ Score = 58.9 bits (141),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 88/317 (28%), Positives = 149/317 (47%), Gaps = 22/317 (7%)
+
+Query  23   WWYQSRQDDGLTLYGNVDIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENA  82
+            WW    + +   + G    R V ++ + GG +  +  D+ D +K G VL  LD     + 
+Sbjct  42   WWQHEEETEDAYVAG----RVVQVTPQKGGTVRKVLHDDTDAVKKGDVLAVLDD--DNDV  95
+
+Query  83   LMQAKAGVSVAQAQYDLMLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTI  142
+            L   +A   + QA   +     ++   +QA A V   +A    AQ+   R+  L +S  +
+Sbjct  96   LAYERAKNELVQA---VRQNRRQNAATSQAGAQVALRRADLARAQDDLRRRSALAESGAV  152
+
+Query  143  SANDLENARSSRDQAQATLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQ  202
+            SA +L +AR++  QAQA +K+A  + S  R     Q   + + +++ A  +L  A L+LQ
+Sbjct  153  SAEELAHARAAVSQAQAAVKAALAEESSARAALGGQVSLREQPAVQTAIGRLKDAWLNLQ  212
+
+Query  203  DTTLIAPANGTLLTRAVEPGSMLNAGSTVLTLSLTRPVWVRAYVDERNLSQTQPGRDILL  262
+             T + APA+G +  R+V+ G  + AG+ ++ +     VWV A   E  L   + G+   L
+Sbjct  213  RTQIRAPADGQVAKRSVQVGQQVAAGAPLMAVVPLSDVWVDANFKETQLRHMKIGQPAEL  272
+
+Query  263  YTD--GRPDKPYHGKI-GFVSPTA---EFTPKTVETPDLRTDLVYR--LRIIVTDAD---  311
+             +D  G+    Y G++ GF + T       P    T +    +V R  +RI++   D   
+Sbjct  273  VSDLYGK-QIVYRGRVAGFSAGTGSAFSLIPAQNATGNW-IKVVQRVPVRIVLNREDVDR  330
+
+Query  312  DALRQGMPVTVKFNDEA  328
+              LR G+ +TVK +  A
+Sbjct  331  HPLRIGLSMTVKVDTSA  347
+
+
+>VFG036948(gb|WP_002218708) (farA) fatty acid efflux system protein 
+FarA [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis M01-240149]
+Length=384
+
+ Score = 58.9 bits (141),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 88/321 (27%), Positives = 153/321 (48%), Gaps = 30/321 (9%)
+
+Query  23   WWYQSRQDDGLTLYGNVDIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENA  82
+            WW    + +   + G    R V ++ + GG +  +  D+ D +K G VL  LD    +N 
+Sbjct  42   WWQHEEETEDAYVAG----RVVQVTPQKGGTVRKVLHDDTDAVKKGDVLAVLDD---DND  94
+
+Query  83   LMQAKAGVSVAQAQYDLMLAGYRDEE----IAQAAAAVRQAQAAYDYAQNFYNRQQGLWK  138
+            ++      +  +A+ +L+ A  ++       +QA A V   +A    AQ+   R+  L +
+Sbjct  95   VL------AYERAKNELIQAVRQNRRQNAATSQAGAQVALRRADLARAQDDLRRRSALAE  148
+
+Query  139  SRTISANDLENARSSRDQAQATLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQ  198
+            S  +SA +L +AR++  QAQA +K+A  + S  R     Q   + + +++ A  +L  A 
+Sbjct  149  SGAVSAEELAHARAAVSQAQAAVKAALAEESSARAALGGQVSLREQPAVQTAIGRLKDAW  208
+
+Query  199  LDLQDTTLIAPANGTLLTRAVEPGSMLNAGSTVLTLSLTRPVWVRAYVDERNLSQTQPGR  258
+            L+LQ T + APA+G +  R+V+ G  + AG+ ++ +     VWV A   E  L   + G+
+Sbjct  209  LNLQRTQIRAPADGQVAKRSVQVGQQVAAGAPLMAVVPLSDVWVDANFKETQLRHMKIGQ  268
+
+Query  259  DILLYTD--GRPDKPYHGKI-GFVSPTA---EFTPKTVETPDLRTDLVYR--LRIIVTDA  310
+               L +D  G+    Y G++ GF + T       P    T +    +V R  +RI++   
+Sbjct  269  PAELVSDLYGK-QIVYRGRVAGFSAGTGSAFSLIPAQNATGNW-IKVVQRVPVRIVLNRE  326
+
+Query  311  D---DALRQGMPVTVKFNDEA  328
+            D     LR G+ +TVK +  A
+Sbjct  327  DVDRHPLRIGLSMTVKVDTSA  347
+
+
+>VFG036943(gb|WP_002245854) (farA) fatty acid efflux system protein 
+FarA [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis WUE 2594]
+Length=384
+
+ Score = 58.5 bits (140),  Expect = 1e-09, Method: Compositional matrix adjust.
+ Identities = 88/317 (28%), Positives = 149/317 (47%), Gaps = 22/317 (7%)
+
+Query  23   WWYQSRQDDGLTLYGNVDIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENA  82
+            WW    + +   + G    R V ++ + GG +  +  D+ D +K G VL  LD     + 
+Sbjct  42   WWQHEEETEDAYVAG----RVVQVTPQKGGTVWKVLHDDTDAVKKGDVLAVLDDD--NDV  95
+
+Query  83   LMQAKAGVSVAQAQYDLMLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTI  142
+            L   +A   + QA   +     ++   +QA A V   +A    AQ+   R+  L +S  +
+Sbjct  96   LAYERAKNELVQA---VRQNRRQNAATSQAGAQVALRRADLARAQDDLRRRSALAESGAV  152
+
+Query  143  SANDLENARSSRDQAQATLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQ  202
+            SA +L +AR++  QAQA +K+A  + S  R     Q   + + +++ A  +L  A L+LQ
+Sbjct  153  SAEELAHARAAVSQAQAAVKAALAEESSARAALGGQVSLREQPAVQTAIGRLKDAWLNLQ  212
+
+Query  203  DTTLIAPANGTLLTRAVEPGSMLNAGSTVLTLSLTRPVWVRAYVDERNLSQTQPGRDILL  262
+             T + APA+G +  R+V+ G  + AG+ ++ +     VWV A   E  L   + G+   L
+Sbjct  213  RTQIRAPADGQVAKRSVQVGQQVAAGAPLMAVVPLSDVWVDANFKETQLRHMKIGQPAEL  272
+
+Query  263  YTD--GRPDKPYHGKI-GFVSPTA---EFTPKTVETPDLRTDLVYR--LRIIVTDAD---  311
+             +D  G+    Y G++ GF + T       P    T +    +V R  +RI++   D   
+Sbjct  273  VSDLYGK-QIVYRGRVAGFSAGTGSAFSLIPAQNATGNW-IKVVQRVPVRIVLNREDVDR  330
+
+Query  312  DALRQGMPVTVKFNDEA  328
+              LR G+ +TVK +  A
+Sbjct  331  HPLRIGLSMTVKVDTSA  347
+
+
+>VFG036946(gb|WP_041266574) (farA) fatty acid efflux system protein 
+FarA [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis alpha710]
+Length=384
+
+ Score = 57.4 bits (137),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 87/321 (27%), Positives = 152/321 (47%), Gaps = 30/321 (9%)
+
+Query  23   WWYQSRQDDGLTLYGNVDIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENA  82
+            WW    + +   + G    R V ++ + GG +  +  D+ D +K G VL  LD    +N 
+Sbjct  42   WWQHEEETEDAYVAG----RVVQVTPQKGGTVRKVLHDDTDAVKKGDVLAVLDD---DND  94
+
+Query  83   LMQAKAGVSVAQAQYDLMLAGYRDEE----IAQAAAAVRQAQAAYDYAQNFYNRQQGLWK  138
+            ++      +  +A+ +L+ A  ++       +QA A V   +A    AQ+   R+  L +
+Sbjct  95   VL------AYERAKNELIQAVRQNRRQNAATSQAGAQVALRRADLARAQDDLRRRSALAE  148
+
+Query  139  SRTISANDLENARSSRDQAQATLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQ  198
+            S  +SA +L +AR++  QAQA +K+A  + S  R     Q   + + +++ A  +L  A 
+Sbjct  149  SGAVSAEELAHARAAVSQAQAAVKAALAEESSARAALGGQVSLREQPAVQTAIGRLKDAW  208
+
+Query  199  LDLQDTTLIAPANGTLLTRAVEPGSMLNAGSTVLTLSLTRPVWVRAYVDERNLSQTQPGR  258
+            L+LQ T +  PA+G +  R+V+ G  + AG+ ++ +     VWV A   E  L   + G+
+Sbjct  209  LNLQRTQIRTPADGQVAKRSVQVGQQVAAGAPLMAVVPLSDVWVDANFKETQLRHMKIGQ  268
+
+Query  259  DILLYTD--GRPDKPYHGKI-GFVSPTA---EFTPKTVETPDLRTDLVYR--LRIIVTDA  310
+               L +D  G+    Y G++ GF + T       P    T +    +V R  +RI++   
+Sbjct  269  PAELVSDLYGK-QIVYRGRVAGFSAGTGSAFSLIPAQNATGNW-IKVVQRVPVRIVLNRE  326
+
+Query  311  D---DALRQGMPVTVKFNDEA  328
+            D     LR G+ +TVK +  A
+Sbjct  327  DVDRHPLRIGLSMTVKVDTSA  347
+
+
+>VFG036945(gb|WP_015815890) (farA) fatty acid efflux system protein 
+FarA [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis alpha14]
+Length=390
+
+ Score = 57.0 bits (136),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 87/321 (27%), Positives = 152/321 (47%), Gaps = 30/321 (9%)
+
+Query  23   WWYQSRQDDGLTLYGNVDIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENA  82
+            WW    + +   + G    R V ++ + GG +  +  D+ D +K G VL  LD    +N 
+Sbjct  48   WWQHEEETEDAYVAG----RVVQVTPQKGGTVRKVLHDDTDAVKKGDVLAVLDD---DND  100
+
+Query  83   LMQAKAGVSVAQAQYDLMLAGYRDEE----IAQAAAAVRQAQAAYDYAQNFYNRQQGLWK  138
+            ++      +  +A+ +L+ A  ++ +     +QA A V   +A    AQ+   R+  L +
+Sbjct  101  VL------AYERAKNELIQAVRQNRQQNAATSQAGAQVALRRADLARAQDDLRRRSALAE  154
+
+Query  139  SRTISANDLENARSSRDQAQATLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQ  198
+            S  +SA +L +AR++  QAQA +K+A  + S  R     Q   + + +++ A  +L  A 
+Sbjct  155  SGAVSAEELAHARAAVSQAQAAVKAALAEESSARAALGGQVALREQPAVQTAIGRLKDAW  214
+
+Query  199  LDLQDTTLIAPANGTLLTRAVEPGSMLNAGSTVLTLSLTRPVWVRAYVDERNLSQTQPGR  258
+            L+LQ T + AP +G +  R+V+ G  + AG+ ++ +     VWV A   E  L   + G+
+Sbjct  215  LNLQRTQIRAPTDGQVAKRSVQVGQQVAAGAPLMAVVPLSDVWVDANFKETQLRHMKIGQ  274
+
+Query  259  DILLYTD--GRPDKPYHGKI-GFVSPTA---EFTPKTVETPDLRTDLVYR--LRIIVTDA  310
+               L +D  G+    Y G + GF + T       P    T +    +V R  +RI++   
+Sbjct  275  PAELVSDLYGK-QIVYRGMVAGFSAGTGSAFSLIPAQNATGNW-IKVVQRVPVRIVLNRE  332
+
+Query  311  D---DALRQGMPVTVKFNDEA  328
+            D     LR G+ +TVK +  A
+Sbjct  333  DVDRHPLRIGLSMTVKVDTSA  353
+
+
+>VFG036947(gb|WP_041423527) (farA) fatty acid efflux system protein 
+FarA [FarAB (VF0450) - Antimicrobial activity/Competitive 
+advantage (VFC0325)] [Neisseria meningitidis G2136]
+Length=390
+
+ Score = 55.8 bits (133),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 87/317 (27%), Positives = 148/317 (47%), Gaps = 22/317 (7%)
+
+Query  23   WWYQSRQDDGLTLYGNVDIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENA  82
+            WW    + +   + G    R V ++ + GG +  +  D+ D +K G VL  LD     + 
+Sbjct  48   WWQHEEETEDAYVAG----RVVQVTPQKGGTVRKVLHDDTDAVKKGDVLAVLDD--DNDV  101
+
+Query  83   LMQAKAGVSVAQAQYDLMLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTI  142
+            L   +A   + QA   +     ++   +QA A V   +A    AQ+   R+  L +S  +
+Sbjct  102  LAYERAKNELVQA---VRQNRRQNAATSQAGAQVALRRADLARAQDDLRRRSALAESGAV  158
+
+Query  143  SANDLENARSSRDQAQATLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQ  202
+            SA +L +AR++  QAQA +K+A  + S  R     Q   + + +++ A  +L  A L+LQ
+Sbjct  159  SAEELAHARAAVSQAQAAVKAALAEESSARAALGGQVSLREQPAVQTAIGRLKDAWLNLQ  218
+
+Query  203  DTTLIAPANGTLLTRAVEPGSMLNAGSTVLTLSLTRPVWVRAYVDERNLSQTQPGRDILL  262
+             T + A A+G +  R+V+ G  + AG+ ++ +     VWV A   E  L   + G+   L
+Sbjct  219  RTQIRASADGQVAKRSVQVGQQVAAGAPLMAVVPLSDVWVDANFKETQLRHMKIGQPAEL  278
+
+Query  263  YTD--GRPDKPYHGKI-GFVSPTA---EFTPKTVETPDLRTDLVYR--LRIIVTDAD---  311
+             +D  G+    Y G++ GF + T       P    T +    +V R  +RI++   D   
+Sbjct  279  VSDLYGK-QIVYRGRVAGFSAGTGSAFSLIPAQNATGNW-IKVVQRVPVRIVLNREDVDR  336
+
+Query  312  DALRQGMPVTVKFNDEA  328
+              LR G+ +TVK +  A
+Sbjct  337  HPLRIGLSMTVKVDTSA  353
+
+
+>VFG036975(gb|WP_010951249) (mtrC) membrane fusion protein MtrC 
+[MtrCDE (VF0451) - Antimicrobial activity/Competitive advantage 
+(VFC0325)] [Neisseria gonorrhoeae FA 1090]
+Length=412
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 63/259 (24%), Positives = 105/259 (41%), Gaps = 66/259 (25%)
+
+Query  40   DIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDL  99
+             +RT ++  +VGG +      EG  ++AGQ L ++D + YE  L  A+A ++ AQA    
+Sbjct  69   SLRTADVRAQVGGIIQKRLFQEGSYVRAGQPLYQIDSSTYEAGLESARAQLATAQATL--  126
+
+Query  100  MLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQA  159
+                               A+A  D A     R + L  +  IS  + + A +++  A+A
+Sbjct  127  -------------------AKADADLA-----RYKPLVSADAISKQEYDAAVTAKRSAEA  162
+
+Query  160  TLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAV  219
+             +K+AQ                          A +  A ++L  + + AP +G +    V
+Sbjct  163  GVKAAQ--------------------------AAIKSAGINLNRSRITAPISGFIGQSKV  196
+
+Query  220  EPGSMLNAGSTVL--TLSLTRPVWVRAYVDERNLSQT--QPGRDILLYTDG------RPD  269
+              G++LNAG T +  T+  T P++V        + +   Q     LL  DG      + D
+Sbjct  197  SEGTLLNAGDTTVLATIRQTNPMYVNVTQSASEVMKLRRQIAEGKLLAADGAIAVGIKFD  256
+
+Query  270  K----PYHGKIGFVSPTAE  284
+                 P  G++ F  PT E
+Sbjct  257  DGTVYPEKGRLLFADPTVE  275
+
+
+>VFG036978(gb|WP_004465401) (mtrC) membrane fusion protein MtrC 
+[MtrCDE (VF0451) - Antimicrobial activity/Competitive advantage 
+(VFC0325)] [Neisseria gonorrhoeae NCCP11945]
+Length=412
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 51/204 (25%), Positives = 88/204 (43%), Gaps = 54/204 (26%)
+
+Query  41   IRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDLM  100
+            +RT ++  +VGG +      EG  ++AGQ L ++D + YE  L  A+A ++ AQA     
+Sbjct  70   LRTADVRAQVGGIIQKRLFQEGSYVRAGQPLYQIDSSTYEAGLESARAQLATAQATL---  126
+
+Query  101  LAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQAT  160
+                              A+A  D A     R + L  +  IS  + + A +++  A+A 
+Sbjct  127  ------------------AKADADLA-----RYKPLVSADAISKQEYDAAVTAKRSAEAG  163
+
+Query  161  LKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAVE  220
+            +K+AQ                          A +  A ++L  + + AP +G +    V 
+Sbjct  164  VKAAQ--------------------------AAIKSAGINLNRSRITAPISGFIGQSKVS  197
+
+Query  221  PGSMLNAGSTVL--TLSLTRPVWV  242
+             G++LNAG T +  T+  T P++V
+Sbjct  198  EGTLLNAGDTTVLATIRQTNPMYV  221
+
+
+>VFG037711(gb|WP_000010646) (adeF) membrane-fusion protein [AdeFGH 
+efflux pump (VF0504) - Biofilm (VFC0271)] [Acinetobacter 
+baumannii D1279779]
+Length=405
+
+ Score = 48.1 bits (113),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 54/213 (25%), Positives = 96/213 (45%), Gaps = 57/213 (27%)
+
+Query  41   IRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDLM  100
+            I  V+I  +V G+L +++  +G  +K G +L  +D  P+E  L +AKA ++ A+AQ    
+Sbjct  69   IDQVDIRPQVSGKLVAVHFKDGSLVKKGDLLFTIDPRPFEAELNRAKAQLASAEAQVT--  126
+
+Query  101  LAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQAT  160
+                                    Y  +  +R Q L +S  +S  +L+ A          
+Sbjct  127  ------------------------YTASNLSRIQRLIQSNAVSRQELDLA----------  152
+
+Query  161  LKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAVE  220
+                            E D   A A+L+ A+A +  A+L+L+ T + AP +G +    V 
+Sbjct  153  ----------------ENDARSANANLQAARAAVQSARLNLEYTRITAPVSGRISRAEVT  196
+
+Query  221  PGSMLNA--GSTVLT--LSLTRPVWVRAYVDER  249
+             G++++A  G+ VLT  +S++R ++    VDE+
+Sbjct  197  VGNVVSAGNGAQVLTSLVSVSR-LYASFDVDEQ  228
+
+
+>VFG036976(gb|WP_002220426) (mtrC) membrane fusion protein MtrC 
+[MtrCDE (VF0451) - Antimicrobial activity/Competitive advantage 
+(VFC0325)] [Neisseria meningitidis FAM18]
+Length=412
+
+ Score = 47.8 bits (112),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 50/205 (24%), Positives = 88/205 (43%), Gaps = 54/205 (26%)
+
+Query  40   DIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDL  99
+             +RT ++  +VGG +      EG  ++AGQ L ++D + YE  L  A+A ++ AQA    
+Sbjct  69   SLRTADVRAQVGGIIQKRLFQEGSYVRAGQPLYQIDSSTYEAGLESARAQLATAQATL--  126
+
+Query  100  MLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQA  159
+                               A+A  D A     R + L  +  +S  + + A +++  A+A
+Sbjct  127  -------------------AKADADLA-----RYKPLVAAEAVSRQEYDAAVTAKRSAEA  162
+
+Query  160  TLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAV  219
+             +K+AQ                          A +  A ++L  + + AP +G +    V
+Sbjct  163  GVKAAQ--------------------------AAIKSAGINLNRSRITAPISGFIGQSKV  196
+
+Query  220  EPGSMLNAGSTVL--TLSLTRPVWV  242
+              G++LNAG T +  T+  T P++V
+Sbjct  197  SEGTLLNAGDTTVLATIRQTNPMYV  221
+
+
+>VFG037709(gb|WP_000010642) (adeF) membrane-fusion protein [AdeFGH 
+efflux pump (VF0504) - Biofilm (VFC0271)] [Acinetobacter 
+baumannii BJAB0715]
+Length=406
+
+ Score = 47.8 bits (112),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 54/213 (25%), Positives = 96/213 (45%), Gaps = 57/213 (27%)
+
+Query  41   IRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDLM  100
+            I  V+I  +V G+L +++  +G  +K G +L  +D  P+E  L +AKA ++ A+AQ    
+Sbjct  69   IDQVDIRPQVSGKLIAVHFKDGSLVKKGDLLFTIDPRPFEAELNRAKAQLASAEAQVT--  126
+
+Query  101  LAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQAT  160
+                                    Y  +  +R Q L +S  +S  +L+ A          
+Sbjct  127  ------------------------YTASNLSRIQRLIQSNAVSRQELDLA----------  152
+
+Query  161  LKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAVE  220
+                            E D   A A+L+ A+A +  A+L+L+ T + AP +G +    V 
+Sbjct  153  ----------------ENDARSANANLQAARAAVQSARLNLEYTRITAPVSGRISRAEVT  196
+
+Query  221  PGSMLNA--GSTVLT--LSLTRPVWVRAYVDER  249
+             G++++A  G+ VLT  +S++R ++    VDE+
+Sbjct  197  VGNVVSAGNGAQVLTSLVSVSR-LYASFDVDEQ  228
+
+
+>VFG037705(gb|WP_000010636) (adeF) membrane-fusion protein [AdeFGH 
+efflux pump (VF0504) - Biofilm (VFC0271)] [Acinetobacter 
+baumannii ACICU]
+Length=406
+
+ Score = 47.8 bits (112),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 54/213 (25%), Positives = 96/213 (45%), Gaps = 57/213 (27%)
+
+Query  41   IRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDLM  100
+            I  V+I  +V G+L +++  +G  +K G +L  +D  P+E  L +AKA ++ A+AQ    
+Sbjct  69   IDQVDIRPQVSGKLIAVHFKDGSLVKKGDLLFTIDPRPFEAELNRAKAQLASAEAQVT--  126
+
+Query  101  LAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQAT  160
+                                    Y  +  +R Q L +S  +S  +L+ A          
+Sbjct  127  ------------------------YTASNLSRIQRLIQSNAVSRQELDLA----------  152
+
+Query  161  LKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAVE  220
+                            E D   A A+L+ A+A +  A+L+L+ T + AP +G +    V 
+Sbjct  153  ----------------ENDARSANANLQAARAAVQSARLNLEYTRITAPVSGRISRAEVT  196
+
+Query  221  PGSMLNA--GSTVLT--LSLTRPVWVRAYVDER  249
+             G++++A  G+ VLT  +S++R ++    VDE+
+Sbjct  197  VGNVVSAGNGAQVLTSLVSVSR-LYASFDVDEQ  228
+
+
+>VFG036973(gb|WP_002222106) (mtrC) membrane fusion protein MtrC 
+[MtrCDE (VF0451) - Antimicrobial activity/Competitive advantage 
+(VFC0325)] [Neisseria meningitidis Z2491]
+Length=412
+
+ Score = 47.8 bits (112),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 50/205 (24%), Positives = 88/205 (43%), Gaps = 54/205 (26%)
+
+Query  40   DIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDL  99
+             +RT ++  +VGG +      EG  ++AGQ L ++D + YE  L  A+A ++ AQA    
+Sbjct  69   SLRTADVRAQVGGIIQKRLFQEGSYVRAGQPLYQIDSSTYEAGLESARAQLATAQATL--  126
+
+Query  100  MLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQA  159
+                               A+A  D A     R + L  +  +S  + + A +++  A+A
+Sbjct  127  -------------------AKADADLA-----RYKPLVAAEAVSRQEYDAAVTAKRSAEA  162
+
+Query  160  TLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAV  219
+             +K+AQ                          A +  A ++L  + + AP +G +    V
+Sbjct  163  GVKAAQ--------------------------AAIKSAGINLNRSRITAPISGFIGQSKV  196
+
+Query  220  EPGSMLNAGSTVL--TLSLTRPVWV  242
+              G++LNAG T +  T+  T P++V
+Sbjct  197  SEGTLLNAGDTTVLATIRQTNPMYV  221
+
+
+>VFG036990(gb|WP_013448559) (mtrC) membrane fusion protein MtrC 
+[MtrCDE (VF0451) - Antimicrobial activity/Competitive advantage 
+(VFC0325)] [Neisseria lactamica 020-06]
+Length=412
+
+ Score = 47.8 bits (112),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 50/205 (24%), Positives = 88/205 (43%), Gaps = 54/205 (26%)
+
+Query  40   DIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDL  99
+             +RT ++  +VGG +      EG  ++AGQ L ++D + YE  L  A+A ++ AQA    
+Sbjct  69   SLRTADVRAQVGGIIQKRLFQEGSYVRAGQPLYQIDSSTYEAGLESARAQLATAQATL--  126
+
+Query  100  MLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQA  159
+                               A+A  D A     R + L  +  +S  + + A +++  A+A
+Sbjct  127  -------------------AKADADLA-----RYKPLVAAEAVSRQEYDAAVTAKRSAEA  162
+
+Query  160  TLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAV  219
+             +K+AQ                          A +  A ++L  + + AP +G +    V
+Sbjct  163  GVKAAQ--------------------------AAIKSAGINLNRSRITAPISGFIGQSKV  196
+
+Query  220  EPGSMLNAGSTVL--TLSLTRPVWV  242
+              G++LNAG T +  T+  T P++V
+Sbjct  197  SEGTLLNAGDTTVLATIRQTNPMYV  221
+
+
+>VFG037714(gb|WP_000010641) (adeF) membrane-fusion protein [AdeFGH 
+efflux pump (VF0504) - Biofilm (VFC0271)] [Acinetobacter 
+baumannii SDF]
+Length=405
+
+ Score = 47.8 bits (112),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 54/213 (25%), Positives = 96/213 (45%), Gaps = 57/213 (27%)
+
+Query  41   IRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDLM  100
+            I  V+I  +V G+L +++  +G  +K G +L  +D  P+E  L +AKA ++ A+AQ    
+Sbjct  69   IDQVDIRPQVSGKLIAVHFKDGSLVKKGDLLFTIDPRPFEAELNRAKAQLASAEAQVT--  126
+
+Query  101  LAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQAT  160
+                                    Y  +  +R Q L +S  +S  +L+ A          
+Sbjct  127  ------------------------YTASNLSRIQRLIQSNAVSRQELDLA----------  152
+
+Query  161  LKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAVE  220
+                            E D   A A+L+ A+A +  A+L+L+ T + AP +G +    V 
+Sbjct  153  ----------------ENDARSANANLQAARAAVQSARLNLEYTRITAPVSGRISRAEVT  196
+
+Query  221  PGSMLNA--GSTVLT--LSLTRPVWVRAYVDER  249
+             G++++A  G+ VLT  +S++R ++    VDE+
+Sbjct  197  VGNVVSAGNGAQVLTSLVSVSR-LYASFDVDEQ  228
+
+
+>VFG037706(gb|YP_001085329) (adeF) membrane-fusion protein [AdeFGH 
+efflux pump (VF0504) - Biofilm (VFC0271)] [Acinetobacter 
+baumannii ATCC 17978]
+Length=381
+
+ Score = 47.8 bits (112),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 54/213 (25%), Positives = 96/213 (45%), Gaps = 57/213 (27%)
+
+Query  41   IRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDLM  100
+            I  V+I  +V G+L +++  +G  +K G +L  +D  P+E  L +AKA ++ A+AQ    
+Sbjct  45   IDQVDIRPQVSGKLIAVHFKDGSLVKKGDLLFTIDPRPFEAELNRAKAQLASAEAQVT--  102
+
+Query  101  LAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQAT  160
+                                    Y  +  +R Q L +S  +S  +L+ A          
+Sbjct  103  ------------------------YTASNLSRIQRLIQSNAVSRQELDLA----------  128
+
+Query  161  LKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAVE  220
+                            E D   A A+L+ A+A +  A+L+L+ T + AP +G +    V 
+Sbjct  129  ----------------ENDARSANANLQAARAAVQSARLNLEYTRITAPVSGRISRAEVT  172
+
+Query  221  PGSMLNA--GSTVLT--LSLTRPVWVRAYVDER  249
+             G++++A  G+ VLT  +S++R ++    VDE+
+Sbjct  173  VGNVVSAGNGAQVLTSLVSVSR-LYASFDVDEQ  204
+
+
+>VFG036987(gb|WP_014582209) (mtrC) membrane fusion protein MtrC 
+[MtrCDE (VF0451) - Antimicrobial activity/Competitive advantage 
+(VFC0325)] [Neisseria meningitidis M01-240355]
+Length=412
+
+ Score = 47.8 bits (112),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 53/205 (26%), Positives = 90/205 (44%), Gaps = 54/205 (26%)
+
+Query  40   DIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDL  99
+             +RT ++  +VGG +      EG  ++AGQ L ++D + YE +L  A+A ++ AQA    
+Sbjct  69   SLRTADVRAQVGGIIQKRLFQEGSYVRAGQPLYQIDSSTYEASLESARAQLATAQATL--  126
+
+Query  100  MLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQA  159
+                               A+A  D A     R + L  +  IS  + + A +++  A+A
+Sbjct  127  -------------------AKADADLA-----RYKPLVAADAISKQEYDAAVTAKRSAEA  162
+
+Query  160  TLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAV  219
+             +K+AQ                          A +  A + L  + + AP +G +    V
+Sbjct  163  GVKAAQ--------------------------AAIKSAGISLNRSRITAPISGFIGQSKV  196
+
+Query  220  EPGSMLNAG-STVL-TLSLTRPVWV  242
+              G++LNAG +TVL T+  T P++V
+Sbjct  197  SEGTLLNAGDATVLATIRQTNPMYV  221
+
+
+>VFG036981(gb|WP_002232912) (mtrC) membrane fusion protein MtrC 
+[MtrCDE (VF0451) - Antimicrobial activity/Competitive advantage 
+(VFC0325)] [Neisseria meningitidis alpha14]
+Length=412
+
+ Score = 47.0 bits (110),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 50/205 (24%), Positives = 88/205 (43%), Gaps = 54/205 (26%)
+
+Query  40   DIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDL  99
+             +RT ++  +VGG +      EG  ++AGQ L ++D + YE  L  A+A ++ AQA    
+Sbjct  69   SLRTADVRAQVGGIIQKRLFQEGSYVRAGQPLYQIDSSTYEANLESARAQLATAQATL--  126
+
+Query  100  MLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQA  159
+                               A+A  D A     R + L  +  +S  + + A +++  A+A
+Sbjct  127  -------------------AKADADLA-----RYKPLVAAEAVSRQEYDAAVTAKRSAEA  162
+
+Query  160  TLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAV  219
+             +K+AQ                          A +  A ++L  + + AP +G +    V
+Sbjct  163  GVKAAQ--------------------------AAIKSAGINLNRSRITAPISGFIGQSKV  196
+
+Query  220  EPGSMLNAGSTVL--TLSLTRPVWV  242
+              G++LNAG T +  T+  T P++V
+Sbjct  197  SEGTLLNAGDTTVLATIRQTNPMYV  221
+
+
+>VFG036983(gb|WP_002216627) (mtrC) membrane fusion protein MtrC 
+[MtrCDE (VF0451) - Antimicrobial activity/Competitive advantage 
+(VFC0325)] [Neisseria meningitidis G2136]
+Length=412
+
+ Score = 47.0 bits (110),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 50/205 (24%), Positives = 88/205 (43%), Gaps = 54/205 (26%)
+
+Query  40   DIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDL  99
+             +RT ++  +VGG +      EG  ++AGQ L ++D + YE  L  A+A ++ AQA    
+Sbjct  69   SLRTADVRAQVGGIIQKRLFQEGSYVRAGQPLYQIDSSTYEANLESARAQLATAQATL--  126
+
+Query  100  MLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQA  159
+                               A+A  D A     R + L  +  +S  + + A +++  A+A
+Sbjct  127  -------------------AKADADLA-----RYKPLVAAEAVSRQEYDAAVTAKRSAEA  162
+
+Query  160  TLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAV  219
+             +K+AQ                          A +  A ++L  + + AP +G +    V
+Sbjct  163  GVKAAQ--------------------------AAIKSAGINLNRSRITAPISGFIGQSKV  196
+
+Query  220  EPGSMLNAGSTVL--TLSLTRPVWV  242
+              G++LNAG T +  T+  T P++V
+Sbjct  197  SEGTLLNAGDTTVLATIRQTNPMYV  221
+
+
+>VFG036979(gb|WP_002246382) (mtrC) membrane fusion protein MtrC 
+[MtrCDE (VF0451) - Antimicrobial activity/Competitive advantage 
+(VFC0325)] [Neisseria meningitidis WUE 2594]
+Length=412
+
+ Score = 47.0 bits (110),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 50/204 (25%), Positives = 88/204 (43%), Gaps = 54/204 (26%)
+
+Query  41   IRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDLM  100
+            +RT ++  +VGG +      EG  ++AGQ L ++D + YE  L  A+A ++ AQA     
+Sbjct  70   LRTADVRAQVGGIIQKRLFQEGSYVRAGQPLYQIDSSTYEANLESARAQLATAQATL---  126
+
+Query  101  LAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQAT  160
+                              A+A  D A     R + L  +  +S  + + A +++  A+A 
+Sbjct  127  ------------------AKADADLA-----RYKPLVAAEAVSRQEYDAAVTAKRSAEAG  163
+
+Query  161  LKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAVE  220
+            +K+AQ                          A +  A ++L  + + AP +G +    V 
+Sbjct  164  VKAAQ--------------------------AAIKSAGINLNRSRITAPISGFIGQSKVS  197
+
+Query  221  PGSMLNAGSTVL--TLSLTRPVWV  242
+             G++LNAG T +  T+  T P++V
+Sbjct  198  EGTLLNAGDTTVLATIRQTNPMYV  221
+
+
+>VFG036980(gb|WP_014573842) (mtrC) membrane fusion protein MtrC 
+[MtrCDE (VF0451) - Antimicrobial activity/Competitive advantage 
+(VFC0325)] [Neisseria meningitidis 8013]
+Length=412
+
+ Score = 47.0 bits (110),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 50/204 (25%), Positives = 88/204 (43%), Gaps = 54/204 (26%)
+
+Query  41   IRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDLM  100
+            +RT ++  +VGG +      EG  ++AGQ L ++D + YE  L  A+A ++ AQA     
+Sbjct  70   LRTADVRAQVGGIIQKRLFQEGSYVRAGQPLYQIDSSTYEANLESARAQLATAQATL---  126
+
+Query  101  LAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQAT  160
+                              A+A  D A     R + L  +  +S  + + A +++  A+A 
+Sbjct  127  ------------------AKADADLA-----RYKPLVAAEAVSRQEYDAAVTAKRSAEAG  163
+
+Query  161  LKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAVE  220
+            +K+AQ                          A +  A ++L  + + AP +G +    V 
+Sbjct  164  VKAAQ--------------------------AAIKSAGINLNRSRITAPISGFIGQSKVS  197
+
+Query  221  PGSMLNAGSTVL--TLSLTRPVWV  242
+             G++LNAG T +  T+  T P++V
+Sbjct  198  EGTLLNAGDTTVLATIRQTNPMYV  221
+
+
+>VFG036974(gb|WP_002224968) (mtrC) membrane fusion protein MtrC 
+[MtrCDE (VF0451) - Antimicrobial activity/Competitive advantage 
+(VFC0325)] [Neisseria meningitidis MC58]
+Length=412
+
+ Score = 47.0 bits (110),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 52/205 (25%), Positives = 89/205 (43%), Gaps = 54/205 (26%)
+
+Query  40   DIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDL  99
+             +RT ++  +VGG +      EG  ++AGQ L ++D + YE  L  A+A ++ AQA    
+Sbjct  69   SLRTADVRAQVGGIIQKRLFQEGSYVRAGQPLYQIDSSTYEAGLESARAQLATAQATL--  126
+
+Query  100  MLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQA  159
+                               A+A  D A     R + L  +  +S  + + A +++  A+A
+Sbjct  127  -------------------AKADADLA-----RYKPLVAAEAVSRQEYDAAVTAKRSAEA  162
+
+Query  160  TLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAV  219
+             +K+AQ                          A +  A + L  + + AP +G +    V
+Sbjct  163  GVKAAQ--------------------------AAIKSAGISLNRSRITAPISGFIGQSKV  196
+
+Query  220  EPGSMLNAG-STVL-TLSLTRPVWV  242
+              G++LNAG +TVL T+  T P++V
+Sbjct  197  SEGTLLNAGDATVLATIRQTNPMYV  221
+
+
+>VFG036984(gb|WP_014580972) (mtrC) membrane fusion protein MtrC 
+[MtrCDE (VF0451) - Antimicrobial activity/Competitive advantage 
+(VFC0325)] [Neisseria meningitidis M01-240149]
+Length=412
+
+ Score = 47.0 bits (110),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 50/205 (24%), Positives = 88/205 (43%), Gaps = 54/205 (26%)
+
+Query  40   DIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDL  99
+             +RT ++  +VGG +      EG  ++AGQ L ++D + YE  L  A+A ++ AQA    
+Sbjct  69   SLRTADVRAQVGGIIQKRLFQEGSYVRAGQPLYQIDSSTYEANLESARAQLATAQATL--  126
+
+Query  100  MLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQA  159
+                               A+A  D A     R + L  +  +S  + + A +++  A+A
+Sbjct  127  -------------------AKADADLA-----RYKPLVAAEAVSRQEYDAAVTAKRSAEA  162
+
+Query  160  TLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAV  219
+             +K+AQ                          A +  A ++L  + + AP +G +    V
+Sbjct  163  GVKAAQ--------------------------AAIKSAGINLNRSRITAPISGFIGQSKV  196
+
+Query  220  EPGSMLNAGSTVL--TLSLTRPVWV  242
+              G++LNAG T +  T+  T P++V
+Sbjct  197  SEGTLLNAGDTTVLATIRQTNPMYV  221
+
+
+>VFG036982(gb|WP_002224350) (mtrC) membrane fusion protein MtrC 
+[MtrCDE (VF0451) - Antimicrobial activity/Competitive advantage 
+(VFC0325)] [Neisseria meningitidis alpha710]
+Length=412
+
+ Score = 47.0 bits (110),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 50/205 (24%), Positives = 88/205 (43%), Gaps = 54/205 (26%)
+
+Query  40   DIRTVNISFRVGGRLASLNVDEGDTIKAGQVLGELDHAPYENALMQAKAGVSVAQAQYDL  99
+             +RT ++  +VGG +      EG  ++AGQ L ++D + YE  L  A+A ++ AQA    
+Sbjct  69   SLRTADVRAQVGGIIQKRLFQEGSYVRAGQPLYQIDSSTYEANLESARAQLATAQATL--  126
+
+Query  100  MLAGYRDEEIAQAAAAVRQAQAAYDYAQNFYNRQQGLWKSRTISANDLENARSSRDQAQA  159
+                               A+A  D A     R + L  +  +S  + + A +++  A+A
+Sbjct  127  -------------------AKADADLA-----RYKPLVAAEAVSRQEYDAAVTAKRSAEA  162
+
+Query  160  TLKSAQDKLSQYRTGNREQDIAQAKASLEQAKAQLAQAQLDLQDTTLIAPANGTLLTRAV  219
+             +K+AQ                          A +  A ++L  + + AP +G +    V
+Sbjct  163  GVKAAQ--------------------------AAIKSAGINLNRSRITAPISGFIGQSKV  196
+
+Query  220  EPGSMLNAGSTVL--TLSLTRPVWV  242
+              G++LNAG T +  T+  T P++V
+Sbjct  197  SEGTLLNAGDTTVLATIRQTNPMYV  221
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.130    0.367    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2425542273
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

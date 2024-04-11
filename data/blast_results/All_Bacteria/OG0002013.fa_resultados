@@ -1,0 +1,690 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g765.t1
+
+Length=286
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000155(gb|NP_252168) (rhlB) rhamnosyltransferase chain B [Rham...  52.8    9e-08
+VFG019932(gb|WP_012613761) (rhlB) rhamnosyltransferase chain B [R...  52.8    9e-08
+VFG008749(gb|WP_015294058) (BN45_RS15675) PGL/p-HBAD biosynthesis...  52.0    2e-07
+VFG008748(gb|WP_015291077) (BN42_RS15780) PGL/p-HBAD biosynthesis...  52.0    2e-07
+VFG015043(gb|WP_003155939) (rhlB) rhamnosyltransferase chain B [R...  48.9    2e-06
+VFG029545(gb|WP_015304376) (gtf3) glycosyltransferase [GPL locus ...  48.5    2e-06
+VFG029644(gb|WP_014385173) (gtf2) glycosyltransferase [GPL locus ...  48.5    2e-06
+VFG022482(gb|WP_010907544) (MLBR_RS00630) glycosyltransferase [PD...  48.5    2e-06
+VFG007958(gb|WP_010907547) (ML_RS00640) glycosyltransferase [PDIM...  48.1    3e-06
+VFG007964(gb|WP_041322289) (ML_RS00625) glycosyltransferase [PDIM...  48.1    3e-06
+VFG017381(gb|WP_012054333) (TBFG_RS15650) PGL/p-HBAD biosynthesis...  48.1    3e-06
+VFG007953(gb|NP_217474) (Rv2958c) PGL/p-HBAD biosynthesis glycosy...  48.1    3e-06
+VFG029631(gb|WP_011725365) (gtf2) glycosyltransferase [GPL locus ...  48.1    3e-06
+VFG008747(gb|WP_015303659) (BN43_RS15595) PGL/p-HBAD biosynthesis...  48.1    3e-06
+VFG008603(gb|WP_015355153) (MULP_RS08940) glycosyltransferase [PD...  47.8    4e-06
+VFG029643(gb|WP_014380416) (gtf2) glycosyltransferase [GPL locus ...  47.4    5e-06
+
+
+>VFG000155(gb|NP_252168) (rhlB) rhamnosyltransferase chain B [Rhamnolipid 
+(VF0089) - Immune modulation (VFC0258)] [Pseudomonas 
+aeruginosa PAO1]
+Length=426
+
+ Score = 52.8 bits (125),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 88/321 (27%), Positives = 127/321 (40%), Gaps = 60/321 (19%)
+
+Query  1    MAAELLGIPWIELNPHPLYLPSKGLPPIGSGLASGVGIHGRMRDATMRALTARSW-RAGL  59
+            +A E  GIP++     P  L S  LPP+         +   MR    R +      R   
+Sbjct  114  IAHEKYGIPYLSAQVSPSTLLSAHLPPVHPKFNVPEQMPLAMRKLLWRCIERFKLDRTCA  173
+
+Query  60   RERAAVRVQIGLPACDSGPLRRL-----------IATLPA-LEVSRPDWPAEAVVVGPLH  107
+             E  AVR ++GL      P++R+           +   PA     + DWP    + G   
+Sbjct  174  PEINAVRRKVGL----ETPVKRIFTQWMHSPQGVVCLFPAWFAPPQQDWPQPLHMTGFPL  229
+
+Query  108  FE------PTDRVLQ--IPSGSGPVIVVAPSTA-LTG-ISGMAQTALDALVPGDTLPSGS  157
+            F+      P D  LQ  +  GS P++    ST  L G    MA  AL+ L       +G+
+Sbjct  230  FDGSIPGTPLDDELQRFLDQGSRPLVFTQGSTEHLQGDFYAMALRALERLGARGIFLTGA  289
+
+Query  158  ---------RVVVSRLNGP-DLTVPSWAVAGLVHQTKLLAHADVVICGGGHGMVAKTLLA  207
+                       V+ R   P    +PS   AGLVH              GG G ++  L A
+Sbjct  290  GQEPLRGLPNHVLQRAYAPLGALLPS--CAGLVHP-------------GGIGAMSLALAA  334
+
+Query  208  GVPLVVVPGGGDQWEMANRVVRQGSA-QLIRPLTAAALLAAVNKVLSSP-------DYRE  259
+            GVP V++P   DQ++ A R+VR G   +L  PL    L  A+ ++L  P        + E
+Sbjct  335  GVPQVLLPCAHDQFDNAERLVRLGCGMRLGVPLREQELRGALWRLLEDPAMAAACRRFME  394
+
+Query  260  AAQRAAISIAGVADPVQVCHE  280
+             +Q  +I+    A  V+ CH 
+Sbjct  395  LSQPHSIACGKAAQVVERCHR  415
+
+
+>VFG019932(gb|WP_012613761) (rhlB) rhamnosyltransferase chain 
+B [Rhamnolipid (VF0089) - Immune modulation (VFC0258)] [Pseudomonas 
+aeruginosa LESB58]
+Length=426
+
+ Score = 52.8 bits (125),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 88/321 (27%), Positives = 127/321 (40%), Gaps = 60/321 (19%)
+
+Query  1    MAAELLGIPWIELNPHPLYLPSKGLPPIGSGLASGVGIHGRMRDATMRALTARSW-RAGL  59
+            +A E  GIP++     P  L S  LPP+         +   MR    R +      R   
+Sbjct  114  IAHEKYGIPYLSAQVSPSTLLSAHLPPVHPKFNVPEQMPLAMRKLLWRCIERFKLDRTCA  173
+
+Query  60   RERAAVRVQIGLPACDSGPLRRL-----------IATLPA-LEVSRPDWPAEAVVVGPLH  107
+             E  AVR ++GL      P++R+           +   PA     + DWP    + G   
+Sbjct  174  PEINAVRRKVGL----ETPVKRIFTQWMHSPQGVVCLFPAWFAPPQQDWPQPLHMTGFPL  229
+
+Query  108  FE------PTDRVLQ--IPSGSGPVIVVAPSTA-LTG-ISGMAQTALDALVPGDTLPSGS  157
+            F+      P D  LQ  +  GS P++    ST  L G    MA  AL+ L       +G+
+Sbjct  230  FDGSIPGTPLDDELQRFLDQGSRPLVFTQGSTEHLQGDFYAMALRALERLGARGIFLTGA  289
+
+Query  158  ---------RVVVSRLNGP-DLTVPSWAVAGLVHQTKLLAHADVVICGGGHGMVAKTLLA  207
+                       V+ R   P    +PS   AGLVH              GG G ++  L A
+Sbjct  290  GQEPLRGLPNHVLQRAYAPLGALLPS--CAGLVHP-------------GGIGAMSLALAA  334
+
+Query  208  GVPLVVVPGGGDQWEMANRVVRQGSA-QLIRPLTAAALLAAVNKVLSSP-------DYRE  259
+            GVP V++P   DQ++ A R+VR G   +L  PL    L  A+ ++L  P        + E
+Sbjct  335  GVPQVLLPCAHDQFDNAERLVRLGCGMRLGVPLREQELRGALWRLLEDPAMAAACRRFME  394
+
+Query  260  AAQRAAISIAGVADPVQVCHE  280
+             +Q  +I+    A  V+ CH 
+Sbjct  395  LSQPHSIACGKAAQVVERCHR  415
+
+
+>VFG008749(gb|WP_015294058) (BN45_RS15675) PGL/p-HBAD biosynthesis 
+glycosyltransferase [PDIM (VF0309) - Immune modulation 
+(VFC0258)] [Mycobacterium canettii CIPT 140070017]
+Length=428
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 32/81 (40%), Positives = 46/81 (57%), Gaps = 2/81 (2%)
+
+Query  187  AHADVVICGGGHGMVAKTLLAGVPLVVVPGGGDQWEMANRVVRQGSAQLIRP--LTAAAL  244
+            A + VV+C GG     + L AGVP++ +P   DQ      V R G+  L+R   L    +
+Sbjct  326  ARSAVVLCNGGSPTTQQALAAGVPVIGLPSNMDQHLNMEAVARAGAGVLLRTERLNTQGV  385
+
+Query  245  LAAVNKVLSSPDYREAAQRAA  265
+             AAVN+VLS  ++R+AA+R A
+Sbjct  386  AAAVNQVLSGAEFRQAARRLA  406
+
+
+>VFG008748(gb|WP_015291077) (BN42_RS15780) PGL/p-HBAD biosynthesis 
+glycosyltransferase [PDIM (VF0309) - Immune modulation 
+(VFC0258)] [Mycobacterium canettii CIPT 140070010]
+Length=428
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 32/81 (40%), Positives = 46/81 (57%), Gaps = 2/81 (2%)
+
+Query  187  AHADVVICGGGHGMVAKTLLAGVPLVVVPGGGDQWEMANRVVRQGSAQLIRP--LTAAAL  244
+            A + VV+C GG     + L AGVP++ +P   DQ      V R G+  L+R   L    +
+Sbjct  326  ARSAVVLCNGGSPTTQQALAAGVPVIGLPSNMDQHLNMEAVARAGAGVLLRTERLNTQGV  385
+
+Query  245  LAAVNKVLSSPDYREAAQRAA  265
+             AAVN+VLS  ++R+AA+R A
+Sbjct  386  AAAVNQVLSGAEFRQAARRLA  406
+
+
+>VFG015043(gb|WP_003155939) (rhlB) rhamnosyltransferase chain 
+B [Rhamnolipid (VF0089) - Immune modulation (VFC0258)] [Pseudomonas 
+aeruginosa PA7]
+Length=426
+
+ Score = 48.9 bits (115),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 90/323 (28%), Positives = 128/323 (40%), Gaps = 64/323 (20%)
+
+Query  1    MAAELLGIPWIELNPHPLYLPSKGLPPIGSGLASGVGIHGRMRDATMRALTARSW-RAGL  59
+            +A E  GIP++ +   P  L S  LPP+         +   MR    R +      R   
+Sbjct  114  IAHEKYGIPYLSVQVSPSTLLSAHLPPVHPRFNVPEQVPLAMRKLLWRCIERFKLDRTCA  173
+
+Query  60   RERAAVRVQIGLPACDSGPLRRL-----------IATLPA-LEVSRPDWPAEAVVVGPLH  107
+             E  AVR ++GL     GP +R+           +   PA     + DWP    + G   
+Sbjct  174  PEINAVRRKVGL----VGPAKRIFTQWMHSPQGVLCLFPAWFAPPQQDWPQPLHMTGFPL  229
+
+Query  108  FEPT------DRVLQ--IPSGSGPVIVVAPSTA-LTG-ISGMAQTALDAL----------  147
+            F+ +      D  LQ  +  GS P++    ST  L G    MA  AL+ L          
+Sbjct  230  FDGSVPGTRLDDELQRFLEQGSRPLVFTQGSTEHLQGDFYAMALRALERLGARGIFLTGA  289
+
+Query  148  --VPGDTLPSGSRVVVSRLNGPDLTVPSWAVAGLVHQTKLLAHADVVICGGGHGMVAKTL  205
+               P   LPS    V+ R   P L     A AGLVH               G G ++  L
+Sbjct  290  GQEPLRGLPSH---VLQRSYVP-LGALLPACAGLVHP-------------AGIGAMSLAL  332
+
+Query  206  LAGVPLVVVPGGGDQWEMANRVVRQGSA-QLIRPLTAAALLAAVNKVLSSP-------DY  257
+             AGVP V++P   DQ++ A R+VR G   +L  PL   AL  ++ ++L  P        +
+Sbjct  333  AAGVPQVLLPCAHDQFDNAERLVRLGCGIRLGLPLREQALRESLWRLLEDPALAAACRRF  392
+
+Query  258  REAAQRAAISIAGVADPVQVCHE  280
+             E +Q  +I+    A  V+ CH 
+Sbjct  393  MELSQPHSIACGKAAQVVERCHR  415
+
+
+>VFG029545(gb|WP_015304376) (gtf3) glycosyltransferase [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium smegmatis 
+JS623]
+Length=421
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 79/305 (26%), Positives = 127/305 (42%), Gaps = 49/305 (16%)
+
+Query  3    AELLGIPWIELNPHPLYLPSKGLPPIGSGLASGVGIHGRMRDATMRALTARSWRAGLRER  62
+            AE   IP + L+  P + P+  L PI         +   +  + M A    +WR      
+Sbjct  127  AEYYDIPLVALHTFP-WRPNGRLFPI---------VPPPLTRSAMTAYDWLAWRLTKAAE  176
+
+Query  63   AAVRVQIGLPACDSGPLRRLIATLPALEVSRPD-------------WPAEAVVVGPLHFE  109
+             A R ++GLP    GP  R +A   +LE+   D             W      VG L  E
+Sbjct  177  DAQRRELGLPKA-KGPSPRRMAERGSLEIQAYDEVCVPGLAAEWANWDGRRPFVGALTME  235
+
+Query  110  -PTDRVLQIPS----GSGPVIVVAPSTALTGISGMAQTALDALVPGDTLPSGSRVVVSRL  164
+              TD   QI S    GS P+     S  +   +   +     ++   +   G R +V   
+Sbjct  236  LTTDADEQITSWINAGSPPICFATGSIPVESPADTLE-----MISAASAQLGERALVC-A  289
+
+Query  165  NGPDLT-VPSW---AVAGLVHQTKLLAHADVVICGGGHGMVAKTLLAGVPLVVVPGGGDQ  220
+             G D + VP +    V G+V+   +      V+  GG G  A +L AGVP +++   GDQ
+Sbjct  290  GGTDFSDVPHFDHVKVVGMVNYAAVFPACRAVVHHGGSGTTAASLRAGVPTLILWTVGDQ  349
+
+Query  221  WEMANRVVR--QGSAQLIRPLTAAALLAAVNKVLSSPDYREAAQRAAI-------SIAGV  271
+                N+++R   G+++ +   T  +L+A + ++L +P Y   A++ A        S+A  
+Sbjct  350  PFWGNQLIRLKAGASRRLSTTTRESLVADLRRIL-TPQYATRARQLANQMTHPAESVAKA  408
+
+Query  272  ADPVQ  276
+            AD V+
+Sbjct  409  ADRVE  413
+
+
+>VFG029644(gb|WP_014385173) (gtf2) glycosyltransferase [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium intracellulare 
+MOTT-64]
+Length=418
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 76/313 (24%), Positives = 122/313 (39%), Gaps = 56/313 (18%)
+
+Query  3    AELLGIPWIELNPHPLYLPSKGLPPIGSGLASGVGIHGRMRDATMRALTARSWRAGLRER  62
+            AE   IP   L+  P+    + +P + + L            +TM A+    WR+ ++  
+Sbjct  123  AEYYDIPLASLHHFPMRANGRLVPSMPAPLVR----------STMTAIEWLFWRSTMKVD  172
+
+Query  63   AAVRVQIGLPACDSGPLRRL-------IAT-----LPALEVSRPDWPAEAVVVGPLHFE-  109
+             A R ++GLP       RR+       I T      P L      W +    VG L  E 
+Sbjct  173  NAQRQELGLPEATHRSQRRIADHGWLEIQTYDDVFFPGLAAEWAKWGSRRPFVGALTMEL  232
+
+Query  110  ----PTDRVLQIPSGSGPV------IVVAPSTALTGISGMAQTALDALVPGDTLPSGSRV  159
+                  D V  I SG+ P+      I V   TA   + G A   L           G R 
+Sbjct  233  ATDADDDVVSWIASGTPPICFGSGSIPVESPTATVEMIGAACAQL-----------GERA  281
+
+Query  160  VVSRLNGPDLT-VPSW---AVAGLVHQTKLLAHADVVICGGGHGMVAKTLLAGVPLVVVP  215
+            ++    G + + VP +    V G V+ + +      V+  GG G  A +L AG+P + + 
+Sbjct  282  LIC-FGGTEFSDVPHFDHVKVVGPVNYSSIFPACRAVVHHGGSGTTAASLRAGIPTLALW  340
+
+Query  216  GGGDQ--WEMANRVVRQGSAQLIRPLTAAALLAAVNKVLSSPDY----REAAQRAAISIA  269
+               DQ  W    + ++ G+A+     T  +L+A +  +L +PDY    RE + R +    
+Sbjct  341  SSADQPYWAAQIKRLKVGAARRFSATTPRSLVADLRTIL-APDYATRARELSARMSKPAE  399
+
+Query  270  GVADPVQVCHEAL  282
+             +     +  EA+
+Sbjct  400  SIGTTADLLEEAV  412
+
+
+>VFG022482(gb|WP_010907544) (MLBR_RS00630) glycosyltransferase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+leprae Br4923]
+Length=438
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 67/216 (31%), Positives = 97/216 (45%), Gaps = 24/216 (11%)
+
+Query  65   VRVQIGLPACDSGPLR-------RLIATLPALEVSRPDWPAEAVVVGPLHFEPTDRVLQ-  116
+            VR + GLP+      R        L A +P L V   D PA    +GP+ + P   + + 
+Sbjct  192  VRRKHGLPSLGFNLCRIFTDGDYTLYADVPEL-VPTYDLPANHQYLGPVLWSPAGELPRW  250
+
+Query  117  ---IPSGSGPVIVVAPSTALTGISGMAQTALDALVPGDTLPSGSRVVVSRLNGPDL-TVP  172
+               +P+   P++     T  +G   + Q  LDAL     LP    V+ +     +L  VP
+Sbjct  251  WDSLPTDR-PIVYATLGT--SGGKNLLQVVLDALA---DLPVT--VIAATAGRSELQNVP  302
+
+Query  173  SWA-VAGLVHQTKLLAHADVVICGGGHGMVAKTLLAGVPLVVVPGGGDQWEMANRVVRQG  231
+            + A VA  +      A + VVIC GG     +  +AGVP+V + G  DQ      V   G
+Sbjct  303  ANAFVADYLPGEAAAARSAVVICNGGSLTTQQAFVAGVPVVGIAGNLDQHLNMEAVEAAG  362
+
+Query  232  SAQLIRP--LTAAALLAAVNKVLSSPDYREAAQRAA  265
+            +  L+R   L    +  AVN+VL   +YR+AAQR A
+Sbjct  363  AGILLRSERLKVRRVADAVNRVLGQSEYRQAAQRLA  398
+
+
+>VFG007958(gb|WP_010907547) (ML_RS00640) glycosyltransferase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+leprae TN]
+Length=435
+
+ Score = 48.1 bits (113),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 32/81 (40%), Positives = 43/81 (53%), Gaps = 2/81 (2%)
+
+Query  187  AHADVVICGGGHGMVAKTLLAGVPLVVVPGGGDQWEMANRVVRQGSAQLIRP--LTAAAL  244
+            A + VVIC GG     +  +AGVP+V + G  DQ      V   G+  L+R   L    +
+Sbjct  317  ARSAVVICNGGSLTTQQAFVAGVPVVGIAGNLDQHLNMEAVEAAGAGILLRSERLKVRRV  376
+
+Query  245  LAAVNKVLSSPDYREAAQRAA  265
+              AVN+VL   +YR+AAQR A
+Sbjct  377  ADAVNRVLGQSEYRQAAQRLA  397
+
+
+>VFG007964(gb|WP_041322289) (ML_RS00625) glycosyltransferase [PDIM 
+(VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+leprae TN]
+Length=432
+
+ Score = 48.1 bits (113),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 32/81 (40%), Positives = 43/81 (53%), Gaps = 2/81 (2%)
+
+Query  187  AHADVVICGGGHGMVAKTLLAGVPLVVVPGGGDQWEMANRVVRQGSAQLIRP--LTAAAL  244
+            A + VVIC GG     +  +AGVP+V + G  DQ      V   G+  L+R   L    +
+Sbjct  312  ARSAVVICNGGSLTTQQAFVAGVPVVGIAGNLDQHLNMEAVEAAGAGILLRSERLKVRRV  371
+
+Query  245  LAAVNKVLSSPDYREAAQRAA  265
+              AVN+VL   +YR+AAQR A
+Sbjct  372  ADAVNRVLGQSEYRQAAQRLA  392
+
+
+>VFG017381(gb|WP_012054333) (TBFG_RS15650) PGL/p-HBAD biosynthesis 
+glycosyltransferase [PDIM (VF0309) - Immune modulation 
+(VFC0258)] [Mycobacterium tuberculosis F11]
+Length=428
+
+ Score = 48.1 bits (113),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 30/81 (37%), Positives = 45/81 (56%), Gaps = 2/81 (2%)
+
+Query  187  AHADVVICGGGHGMVAKTLLAGVPLVVVPGGGDQWEMANRVVRQGSAQLIRP--LTAAAL  244
+            A + VV+C GG     + L AGVP++ +P   DQ      + R G+  L+R   L    +
+Sbjct  326  ARSAVVLCNGGSPTTQQALAAGVPVIGLPSNMDQHLNMEALERAGAGVLLRTERLNTEGV  385
+
+Query  245  LAAVNKVLSSPDYREAAQRAA  265
+             AAV +VLS  ++R+AA+R A
+Sbjct  386  AAAVKQVLSGAEFRQAARRLA  406
+
+
+>VFG007953(gb|NP_217474) (Rv2958c) PGL/p-HBAD biosynthesis glycosyltransferase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=428
+
+ Score = 48.1 bits (113),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 30/81 (37%), Positives = 45/81 (56%), Gaps = 2/81 (2%)
+
+Query  187  AHADVVICGGGHGMVAKTLLAGVPLVVVPGGGDQWEMANRVVRQGSAQLIRP--LTAAAL  244
+            A + VV+C GG     + L AGVP++ +P   DQ      + R G+  L+R   L    +
+Sbjct  326  ARSAVVLCNGGSPTTQQALAAGVPVIGLPSNMDQHLNMEALERAGAGVLLRTERLNTEGV  385
+
+Query  245  LAAVNKVLSSPDYREAAQRAA  265
+             AAV +VLS  ++R+AA+R A
+Sbjct  386  AAAVKQVLSGAEFRQAARRLA  406
+
+
+>VFG029631(gb|WP_011725365) (gtf2) glycosyltransferase [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium avium 
+104]
+Length=418
+
+ Score = 48.1 bits (113),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 75/310 (24%), Positives = 118/310 (38%), Gaps = 54/310 (17%)
+
+Query  3    AELLGIPWIELNPHPLYLPSKGLPPIGSGLASGVGIHGRMRDATMRALTARSWRAGLRER  62
+            AE   IP   L+  P+    + +P + S L            +TM A+    WR+  +  
+Sbjct  123  AEYYDIPLASLHHFPMRANGQLVPNMPSPLVR----------STMTAIEWLFWRSTKKVD  172
+
+Query  63   AAVRVQIGLPACDSGPLRRLIA------------TLPALEVSRPDWPAEAVVVGPLHFE-  109
+             A R Q+GLP       RR+                P L      W      VG L  E 
+Sbjct  173  NAQRRQLGLPKATRRSQRRIAERGWLEIQAYDEVCFPGLAAEWAHWGDRRPFVGALTMEL  232
+
+Query  110  PTDRVLQIPS-----------GSGPVIVVAPSTALTGISGMAQTALDALVPGDTLPSGSR  158
+            PT+    + S           GSG + + +P TA   + G A   L           G R
+Sbjct  233  PTESDDDVASWIAAGTPPICFGSGSIPLESP-TATVEMIGAASARL-----------GER  280
+
+Query  159  VVVSRLNGPDLT-VPSW---AVAGLVHQTKLLAHADVVICGGGHGMVAKTLLAGVPLVVV  214
+             ++    G D+  VP +    V G V+   +      V+  GG G  A +L AG+P + +
+Sbjct  281  ALIC-FGGTDVRGVPRFDHVKVVGPVNYASVFPACRAVVHHGGSGTTAASLRAGIPTLAL  339
+
+Query  215  PGGGDQ--WEMANRVVRQGSAQLIRPLTAAALLAAVNKVLSSPDYREAAQRAAISIAGVA  272
+                DQ  W    + ++ G+A+     T+  L A +  +L +PDY   A+  A  +   A
+Sbjct  340  WSSADQPYWAAQIKRLKVGTARRFSATTSETLAADLRTIL-APDYATRARDLAARMTKPA  398
+
+Query  273  DPVQVCHEAL  282
+            + ++   + L
+Sbjct  399  ESIETTADLL  408
+
+
+>VFG008747(gb|WP_015303659) (BN43_RS15595) PGL/p-HBAD biosynthesis 
+glycosyltransferase [PDIM (VF0309) - Immune modulation 
+(VFC0258)] [Mycobacterium canettii CIPT 140070008]
+Length=428
+
+ Score = 48.1 bits (113),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 30/81 (37%), Positives = 45/81 (56%), Gaps = 2/81 (2%)
+
+Query  187  AHADVVICGGGHGMVAKTLLAGVPLVVVPGGGDQWEMANRVVRQGSAQLIRP--LTAAAL  244
+            A + VV+C GG     + L AGVP++ +P   DQ      + R G+  L+R   L    +
+Sbjct  326  ARSAVVLCNGGSPTTHQALAAGVPVIGLPSNMDQHLNMEALERAGAGVLLRTERLNTEGV  385
+
+Query  245  LAAVNKVLSSPDYREAAQRAA  265
+             AAV +VLS  ++R+AA+R A
+Sbjct  386  AAAVKQVLSGAEFRQAARRLA  406
+
+
+>VFG008603(gb|WP_015355153) (MULP_RS08940) glycosyltransferase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+liflandii 128FXT]
+Length=420
+
+ Score = 47.8 bits (112),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 30/81 (37%), Positives = 45/81 (56%), Gaps = 2/81 (2%)
+
+Query  187  AHADVVICGGGHGMVAKTLLAGVPLVVVPGGGDQWEMANRVVRQGSAQLIRP--LTAAAL  244
+            A +DVVIC GG     + L+AGVP++ +    DQ      +   G+  L+R   L A ++
+Sbjct  308  ARSDVVICNGGSLTTQQALVAGVPVLGIASNLDQHLNMQAIEAAGAGLLLRTERLKARSV  367
+
+Query  245  LAAVNKVLSSPDYREAAQRAA  265
+             AAV ++L  P YR++AQ  A
+Sbjct  368  SAAVRQLLDRPGYRQSAQELA  388
+
+
+>VFG029643(gb|WP_014380416) (gtf2) glycosyltransferase [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium intracellulare 
+MOTT-02]
+Length=418
+
+ Score = 47.4 bits (111),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 76/313 (24%), Positives = 120/313 (38%), Gaps = 56/313 (18%)
+
+Query  3    AELLGIPWIELNPHPLYLPSKGLPPIGSGLASGVGIHGRMRDATMRALTARSWRAGLRER  62
+            AE   IP   L+  P+    + +P + + L            +TM A+    WR+  +  
+Sbjct  123  AEYYDIPLASLHHFPMRANGRLVPSMPAPLVR----------STMTAIEWLFWRSTKKVD  172
+
+Query  63   AAVRVQIGLPACDSGPLRRL-------IAT-----LPALEVSRPDWPAEAVVVGPLHFE-  109
+             A R ++GLP       RR+       I T      P L      W +    VG L  E 
+Sbjct  173  NAQRQELGLPKATHRSQRRIADHGWLEIQTYDDVFFPGLAAEWAKWGSRRPFVGALTMEL  232
+
+Query  110  ----PTDRVLQIPSGSGPV------IVVAPSTALTGISGMAQTALDALVPGDTLPSGSRV  159
+                  D    I SG+ P+      I V   TA   + G A   L           G R 
+Sbjct  233  ATDADDDVASWIASGTPPICFGSGSIPVESPTATVEMIGAACAQL-----------GERA  281
+
+Query  160  VVSRLNGPDLT-VPSW---AVAGLVHQTKLLAHADVVICGGGHGMVAKTLLAGVPLVVVP  215
+            ++    G D + VP +    V G V+ + +      V+  GG G  A +L AG+P + + 
+Sbjct  282  LIC-FGGTDFSDVPQFDHVKVVGPVNYSSIFPACRAVVHHGGSGTTAASLRAGIPTLALW  340
+
+Query  216  GGGDQ--WEMANRVVRQGSAQLIRPLTAAALLAAVNKVLSSPDY----REAAQRAAISIA  269
+               DQ  W    + ++ G+A+     T  +L+A +  +L +PDY    RE + R +    
+Sbjct  341  SSADQPYWAAQIKRLKVGAARRFSATTPRSLVADLRTIL-APDYATRARELSARMSKPAE  399
+
+Query  270  GVADPVQVCHEAL  282
+             +     +  EA+
+Sbjct  400  SIGTTADLLEEAV  412
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.411    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1968766855
+
+
+Query= g2692.t1
+
+Length=388
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG008748(gb|WP_015291077) (BN42_RS15780) PGL/p-HBAD biosynthesis...  57.0    8e-09
+VFG008749(gb|WP_015294058) (BN45_RS15675) PGL/p-HBAD biosynthesis...  57.0    8e-09
+VFG017381(gb|WP_012054333) (TBFG_RS15650) PGL/p-HBAD biosynthesis...  53.5    9e-08
+VFG007953(gb|NP_217474) (Rv2958c) PGL/p-HBAD biosynthesis glycosy...  53.5    9e-08
+VFG008747(gb|WP_015303659) (BN43_RS15595) PGL/p-HBAD biosynthesis...  53.5    1e-07
+VFG008755(gb|YP_007958962) (I917_20770) Putative glycosyl transfe...  50.1    2e-06
+VFG029545(gb|WP_015304376) (gtf3) glycosyltransferase [GPL locus ...  49.7    2e-06
+VFG000155(gb|NP_252168) (rhlB) rhamnosyltransferase chain B [Rham...  47.4    8e-06
+VFG019932(gb|WP_012613761) (rhlB) rhamnosyltransferase chain B [R...  47.4    9e-06
+
+
+>VFG008748(gb|WP_015291077) (BN42_RS15780) PGL/p-HBAD biosynthesis 
+glycosyltransferase [PDIM (VF0309) - Immune modulation 
+(VFC0258)] [Mycobacterium canettii CIPT 140070010]
+Length=428
+
+ Score = 57.0 bits (136),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 34/83 (41%), Positives = 47/83 (57%), Gaps = 2/83 (2%)
+
+Query  290  RADLVICGGGHGMVAKTLLAGVPMVVVPGGGDQWEIANRVVRQGSAVLIRP--LTADALV  347
+            R+ +V+C GG     + L AGVP++ +P   DQ      V R G+ VL+R   L    + 
+Sbjct  327  RSAVVLCNGGSPTTQQALAAGVPVIGLPSNMDQHLNMEAVARAGAGVLLRTERLNTQGVA  386
+
+Query  348  AAVNEVLSSPRFREAARRAAASV  370
+            AAVN+VLS   FR+AARR A + 
+Sbjct  387  AAVNQVLSGAEFRQAARRLAEAF  409
+
+
+>VFG008749(gb|WP_015294058) (BN45_RS15675) PGL/p-HBAD biosynthesis 
+glycosyltransferase [PDIM (VF0309) - Immune modulation 
+(VFC0258)] [Mycobacterium canettii CIPT 140070017]
+Length=428
+
+ Score = 57.0 bits (136),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 34/83 (41%), Positives = 47/83 (57%), Gaps = 2/83 (2%)
+
+Query  290  RADLVICGGGHGMVAKTLLAGVPMVVVPGGGDQWEIANRVVRQGSAVLIRP--LTADALV  347
+            R+ +V+C GG     + L AGVP++ +P   DQ      V R G+ VL+R   L    + 
+Sbjct  327  RSAVVLCNGGSPTTQQALAAGVPVIGLPSNMDQHLNMEAVARAGAGVLLRTERLNTQGVA  386
+
+Query  348  AAVNEVLSSPRFREAARRAAASV  370
+            AAVN+VLS   FR+AARR A + 
+Sbjct  387  AAVNQVLSGAEFRQAARRLAEAF  409
+
+
+>VFG017381(gb|WP_012054333) (TBFG_RS15650) PGL/p-HBAD biosynthesis 
+glycosyltransferase [PDIM (VF0309) - Immune modulation 
+(VFC0258)] [Mycobacterium tuberculosis F11]
+Length=428
+
+ Score = 53.5 bits (127),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 32/83 (39%), Positives = 47/83 (57%), Gaps = 2/83 (2%)
+
+Query  290  RADLVICGGGHGMVAKTLLAGVPMVVVPGGGDQWEIANRVVRQGSAVLIRP--LTADALV  347
+            R+ +V+C GG     + L AGVP++ +P   DQ      + R G+ VL+R   L  + + 
+Sbjct  327  RSAVVLCNGGSPTTQQALAAGVPVIGLPSNMDQHLNMEALERAGAGVLLRTERLNTEGVA  386
+
+Query  348  AAVNEVLSSPRFREAARRAAASV  370
+            AAV +VLS   FR+AARR A + 
+Sbjct  387  AAVKQVLSGAEFRQAARRLAEAF  409
+
+
+>VFG007953(gb|NP_217474) (Rv2958c) PGL/p-HBAD biosynthesis glycosyltransferase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=428
+
+ Score = 53.5 bits (127),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 32/83 (39%), Positives = 47/83 (57%), Gaps = 2/83 (2%)
+
+Query  290  RADLVICGGGHGMVAKTLLAGVPMVVVPGGGDQWEIANRVVRQGSAVLIRP--LTADALV  347
+            R+ +V+C GG     + L AGVP++ +P   DQ      + R G+ VL+R   L  + + 
+Sbjct  327  RSAVVLCNGGSPTTQQALAAGVPVIGLPSNMDQHLNMEALERAGAGVLLRTERLNTEGVA  386
+
+Query  348  AAVNEVLSSPRFREAARRAAASV  370
+            AAV +VLS   FR+AARR A + 
+Sbjct  387  AAVKQVLSGAEFRQAARRLAEAF  409
+
+
+>VFG008747(gb|WP_015303659) (BN43_RS15595) PGL/p-HBAD biosynthesis 
+glycosyltransferase [PDIM (VF0309) - Immune modulation 
+(VFC0258)] [Mycobacterium canettii CIPT 140070008]
+Length=428
+
+ Score = 53.5 bits (127),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 32/83 (39%), Positives = 47/83 (57%), Gaps = 2/83 (2%)
+
+Query  290  RADLVICGGGHGMVAKTLLAGVPMVVVPGGGDQWEIANRVVRQGSAVLIRP--LTADALV  347
+            R+ +V+C GG     + L AGVP++ +P   DQ      + R G+ VL+R   L  + + 
+Sbjct  327  RSAVVLCNGGSPTTHQALAAGVPVIGLPSNMDQHLNMEALERAGAGVLLRTERLNTEGVA  386
+
+Query  348  AAVNEVLSSPRFREAARRAAASV  370
+            AAV +VLS   FR+AARR A + 
+Sbjct  387  AAVKQVLSGAEFRQAARRLAEAF  409
+
+
+>VFG008755(gb|YP_007958962) (I917_20770) Putative glycosyl transferase 
+[PDIM (VF0309) - Immune modulation (VFC0258)] [Mycobacterium 
+tuberculosis str. Haarlem/NITR202]
+Length=464
+
+ Score = 50.1 bits (118),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 30/83 (36%), Positives = 45/83 (54%), Gaps = 2/83 (2%)
+
+Query  290  RADLVICGGGHGMVAKTLLAGVPMVVVPGGGDQWEIANRVVRQGSAVLIRP--LTADALV  347
+            R+ +V+C GG     + L AGVP++ +P   DQ      + R G+ VL+R   L  + + 
+Sbjct  327  RSAVVLCNGGSPTTQQALAAGVPVIGLPSNMDQHLNMEALERAGAGVLLRTERLNTEGVA  386
+
+Query  348  AAVNEVLSSPRFREAARRAAASV  370
+            AAV +  S   FR+AARR A + 
+Sbjct  387  AAVKQXXSGAEFRQAARRLAEAF  409
+
+
+>VFG029545(gb|WP_015304376) (gtf3) glycosyltransferase [GPL locus 
+(VF0841) - Immune modulation (VFC0258)] [Mycobacterium smegmatis 
+JS623]
+Length=421
+
+ Score = 49.7 bits (117),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 85/305 (28%), Positives = 127/305 (42%), Gaps = 49/305 (16%)
+
+Query  105  AELLGIPWVELNPHPLYLPSKGLPPIGSGLAAGTGIRGRLRDATMRALTGRSWRAGLRQR  164
+            AE   IP V L+  P + P+  L PI         +   L  + M A    +WR      
+Sbjct  127  AEYYDIPLVALHTFP-WRPNGRLFPI---------VPPPLTRSAMTAYDWLAWRLTKAAE  176
+
+Query  165  AAVRVEIGLPARDPGPLRRLIATLPALEVPRPD-------------WPAEAVVVGPLHFE  211
+             A R E+GLP +  GP  R +A   +LE+   D             W      VG L  E
+Sbjct  177  DAQRRELGLP-KAKGPSPRRMAERGSLEIQAYDEVCVPGLAAEWANWDGRRPFVGALTME  235
+
+Query  212  PT---DRVLA--IPAGTGPVVVVAPSTALTGTAGLTEVALQSLTPGETVPSGSRLVVSRL  266
+             T   D  +   I AG+ P+     S  +   A   E     +    +   G R +V   
+Sbjct  236  LTTDADEQITSWINAGSPPICFATGSIPVESPADTLE-----MISAASAQLGERALVC-A  289
+
+Query  267  SGADLT-VPPW---AVAGLGSQAELLTRADLVICGGGHGMVAKTLLAGVPMVVVPGGGDQ  322
+             G D + VP +    V G+ + A +      V+  GG G  A +L AGVP +++   GDQ
+Sbjct  290  GGTDFSDVPHFDHVKVVGMVNYAAVFPACRAVVHHGGSGTTAASLRAGVPTLILWTVGDQ  349
+
+Query  323  WEIANRVVR--QGSAVLIRPLTADALVAAVNEVLSSPRFREAARRA-------AASVAGA  373
+                N+++R   G++  +   T ++LVA +  +L +P++   AR+        A SVA A
+Sbjct  350  PFWGNQLIRLKAGASRRLSTTTRESLVADLRRIL-TPQYATRARQLANQMTHPAESVAKA  408
+
+Query  374  ADPVR  378
+            AD V 
+Sbjct  409  ADRVE  413
+
+
+>VFG000155(gb|NP_252168) (rhlB) rhamnosyltransferase chain B [Rhamnolipid 
+(VF0089) - Immune modulation (VFC0258)] [Pseudomonas 
+aeruginosa PAO1]
+Length=426
+
+ Score = 47.4 bits (111),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 88/324 (27%), Positives = 132/324 (41%), Gaps = 41/324 (13%)
+
+Query  90   ELVVSDVITACGG-MAAELLGIPWVELNPHPLYLPSKGLPPIGSGLAAGTGIRGRLRDAT  148
+            ++VV   + A G  +A E  GIP++     P  L S  LPP+         +   +R   
+Sbjct  100  DIVVVGSLWALGARIAHEKYGIPYLSAQVSPSTLLSAHLPPVHPKFNVPEQMPLAMRKLL  159
+
+Query  149  MRALTGRSW-RAGLRQRAAVRVEIGLPARDPGPLRRL-----------IATLPA-LEVPR  195
+             R +      R    +  AVR ++GL      P++R+           +   PA    P+
+Sbjct  160  WRCIERFKLDRTCAPEINAVRRKVGLET----PVKRIFTQWMHSPQGVVCLFPAWFAPPQ  215
+
+Query  196  PDWPAEAVVVGPLHFE------PTDRVLA--IPAGTGPVVVVAPSTA-LTGT-AGLTEVA  245
+             DWP    + G   F+      P D  L   +  G+ P+V    ST  L G    +   A
+Sbjct  216  QDWPQPLHMTGFPLFDGSIPGTPLDDELQRFLDQGSRPLVFTQGSTEHLQGDFYAMALRA  275
+
+Query  246  LQSLTPGETVPSGSRLVVSRLSGADLTVPPWAVAGLGSQAELLTRADLVICGGGHGMVAK  305
+            L+ L       +G+      L G    V   A A LG+   LL     ++  GG G ++ 
+Sbjct  276  LERLGARGIFLTGAG--QEPLRGLPNHVLQRAYAPLGA---LLPSCAGLVHPGGIGAMSL  330
+
+Query  306  TLLAGVPMVVVPGGGDQWEIANRVVRQGSAV-LIRPLTADALVAAVNEVLSSP-------  357
+             L AGVP V++P   DQ++ A R+VR G  + L  PL    L  A+  +L  P       
+Sbjct  331  ALAAGVPQVLLPCAHDQFDNAERLVRLGCGMRLGVPLREQELRGALWRLLEDPAMAAACR  390
+
+Query  358  RFREAARRAAASVAGAADPVRVCH  381
+            RF E ++  + +   AA  V  CH
+Sbjct  391  RFMELSQPHSIACGKAAQVVERCH  414
+
+
+>VFG019932(gb|WP_012613761) (rhlB) rhamnosyltransferase chain 
+B [Rhamnolipid (VF0089) - Immune modulation (VFC0258)] [Pseudomonas 
+aeruginosa LESB58]
+Length=426
+
+ Score = 47.4 bits (111),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 88/324 (27%), Positives = 132/324 (41%), Gaps = 41/324 (13%)
+
+Query  90   ELVVSDVITACGG-MAAELLGIPWVELNPHPLYLPSKGLPPIGSGLAAGTGIRGRLRDAT  148
+            ++VV   + A G  +A E  GIP++     P  L S  LPP+         +   +R   
+Sbjct  100  DIVVVGSLWALGARIAHEKYGIPYLSAQVSPSTLLSAHLPPVHPKFNVPEQMPLAMRKLL  159
+
+Query  149  MRALTGRSW-RAGLRQRAAVRVEIGLPARDPGPLRRL-----------IATLPA-LEVPR  195
+             R +      R    +  AVR ++GL      P++R+           +   PA    P+
+Sbjct  160  WRCIERFKLDRTCAPEINAVRRKVGLET----PVKRIFTQWMHSPQGVVCLFPAWFAPPQ  215
+
+Query  196  PDWPAEAVVVGPLHFE------PTDRVLA--IPAGTGPVVVVAPSTA-LTGT-AGLTEVA  245
+             DWP    + G   F+      P D  L   +  G+ P+V    ST  L G    +   A
+Sbjct  216  QDWPQPLHMTGFPLFDGSIPGTPLDDELQRFLDQGSRPLVFTQGSTEHLQGDFYAMALRA  275
+
+Query  246  LQSLTPGETVPSGSRLVVSRLSGADLTVPPWAVAGLGSQAELLTRADLVICGGGHGMVAK  305
+            L+ L       +G+      L G    V   A A LG+   LL     ++  GG G ++ 
+Sbjct  276  LERLGARGIFLTGAG--QEPLRGLPNHVLQRAYAPLGA---LLPSCAGLVHPGGIGAMSL  330
+
+Query  306  TLLAGVPMVVVPGGGDQWEIANRVVRQGSAV-LIRPLTADALVAAVNEVLSSP-------  357
+             L AGVP V++P   DQ++ A R+VR G  + L  PL    L  A+  +L  P       
+Sbjct  331  ALAAGVPQVLLPCAHDQFDNAERLVRLGCGMRLGVPLREQELRGALWRLLEDPAMAAACR  390
+
+Query  358  RFREAARRAAASVAGAADPVRVCH  381
+            RF E ++  + +   AA  V  CH
+Sbjct  391  RFMELSQPHSIACGKAAQVVERCH  414
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.136    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2987046634
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

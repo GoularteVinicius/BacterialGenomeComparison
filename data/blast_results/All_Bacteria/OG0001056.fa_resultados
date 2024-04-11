@@ -1,0 +1,420 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g221.t1
+
+Length=403
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG047548(gb|WP_014548268) (bioJ) lipase/esterase [Biotin synthes...  57.0    5e-09
+VFG016039(gb|WP_012075665) (pvdJ) pyoverdine biosynthesis protein...  55.1    2e-08
+VFG047546(gb|WP_003016401) (bioJ) lipase/esterase [Biotin synthes...  53.9    6e-08
+VFG047544(gb|WP_012429544) (bioJ) lipase/esterase [Biotin synthes...  53.5    7e-08
+VFG047541(gb|WP_010030660) (bioJ) lipase/esterase [Biotin synthes...  53.5    7e-08
+VFG047551(gb|WP_014549697) (bioJ) lipase/esterase [Biotin synthes...  53.1    9e-08
+VFG047539(gb|WP_003039032) (bioJ) lipase/esterase [Biotin synthes...  52.4    2e-07
+VFG047556(gb|WP_013923080) (bioJ) lipase/esterase [Biotin synthes...  52.0    2e-07
+VFG024032(gb|WP_020822109) (mbtJ) Putative acetyl hydrolase MbtJ ...  48.9    3e-06
+VFG024035(gb|WP_014379713) (mbtJ) Putative acetyl hydrolase MbtJ ...  48.1    4e-06
+VFG024031(gb|WP_080587993) (mbtJ) Putative acetyl hydrolase MbtJ ...  47.8    7e-06
+VFG024033(gb|WP_020188832) (mbtJ) Putative acetyl hydrolase MbtJ ...  47.4    7e-06
+
+
+>VFG047548(gb|WP_014548268) (bioJ) lipase/esterase [Biotin synthesis 
+(VF0552) - Nutritional/Metabolic factor (VFC0272)] [Francisella 
+cf. tularensis subsp. novicida 3523]
+Length=306
+
+ Score = 57.0 bits (136),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 69/278 (25%), Positives = 110/278 (40%), Gaps = 49/278 (18%)
+
+Query  72   LLTPGINEVRRRDRASTQEV----SVAALRGIVSPDDLAVEWPAPERTPPVCGALRHRRY  127
+            L TP I  +++ D    +E+    SV  ++ +  PD +  +      T      LRH + 
+Sbjct  11   LDTPEIRRIKKLDLTQQREIFTNLSVEQIKRLPRPDIIEEDIKLENNT-----ILRHYQ-  64
+
+Query  128  VHRRRVLYGDDPAQLLDVWRRKDMPTKPAPVLIFVPGGAWVHGSRAIQGYAVLSR-LAAQ  186
+                       P +L D              L FV GG W  GS  I  Y  + R L  Q
+Sbjct  65   -----------PKKLSD------------KALFFVHGGGWCLGS--INTYDHVCRYLCDQ  99
+
+Query  187  GWV-CLSIDYRVAPHHRWPRHILDVKTAIAWARANVDKFGGDRNFIAVAGCSAGGHLSAL  245
+            G +   S++Y +AP  ++P  +     A  W   N++KF      I V G SAGG+L  +
+Sbjct  100  GNLNIFSLEYGLAPEQKYPAAVDHALYAYDWLYQNINKFNISAENIFVMGDSAGGNLVTI  159
+
+Query  246  AGLTANDPQYQAELPEGSDTSVDAVVGIYGRYDWEDRSTPERARF-VDFLE---RVVVQR  301
+                    + Q  +P+     V   V +Y +YD   +    +    +D+ E   +  +  
+Sbjct  160  VC-----HERQENMPKAQ-ILVYPAVDMYTKYDSNKKFDEYKYHLTMDWCEMFLKAYIGD  213
+
+Query  302  TIDRHPEVFRDA--SPIQRVTRNAPPFLVIHGSRDCVI  337
+             I   P+  R +  SP+     N P  L+I  + D +I
+Sbjct  214  EILSEPKKLRLSRVSPLFYQATNQPDTLIIAATHDILI  251
+
+
+>VFG016039(gb|WP_012075665) (pvdJ) pyoverdine biosynthesis protein 
+PvdJ [Pyoverdine (VF0094) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa PA7]
+Length=321
+
+ Score = 55.1 bits (131),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 33/93 (35%), Positives = 47/93 (51%), Gaps = 0/93 (0%)
+
+Query  153  TKPAPVLIFVPGGAWVHGSRAIQGYAVLSRLAAQGWVCLSIDYRVAPHHRWPRHILDVKT  212
+            + P P ++++ GG +V GS         S     G V LS+ YR+AP  R+P    D + 
+Sbjct  82   SPPLPGVLYLHGGGYVVGSLDSHDALCASLAERAGCVVLSLAYRLAPEWRFPTAAEDAED  141
+
+Query  213  AIAWARANVDKFGGDRNFIAVAGCSAGGHLSAL  245
+            A  W  A  ++ G D   +AVAG S GG L A+
+Sbjct  142  AWCWLAAEAERLGIDPQRLAVAGDSVGGSLCAV  174
+
+
+>VFG047546(gb|WP_003016401) (bioJ) lipase/esterase [Biotin synthesis 
+(VF0552) - Nutritional/Metabolic factor (VFC0272)] [Francisella 
+tularensis subsp. tularensis SCHU S4]
+Length=306
+
+ Score = 53.9 bits (128),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 70/296 (24%), Positives = 115/296 (39%), Gaps = 61/296 (21%)
+
+Query  72   LLTPGINEVRRRDRASTQEV----SVAALRGIVSPDDLAVEWPAPERTPPVCGALRHRRY  127
+            L TP I  +++ D    +E+    SV  L+ +  PD L  +      T      LRH + 
+Sbjct  11   LDTPEIRRIKKLDLTQQREIFTSLSVEQLKRLPRPDILEEDIKLENNT-----ILRHYQ-  64
+
+Query  128  VHRRRVLYGDDPAQLLDVWRRKDMPTKPA-PVLIFVPGGAWVHGSRAIQGYAVLSR-LAA  185
+                                    P K +   ++F+ GG W  GS  I  Y  + R L  
+Sbjct  65   ------------------------PKKSSNKAVLFIHGGGWCLGS--INTYDHVCRYLCD  98
+
+Query  186  QGWV-CLSIDYRVAPHHRWPRHILDVKTAIAWARANVDKFGGDRNFIAVAGCSAGGHLSA  244
+            QG +   S++Y +AP  ++P  +     A  W   N++KF      I V G SAGG+L  
+Sbjct  99   QGNLNIFSLEYGLAPEQKYPAAVDHALYAYDWLYQNINKFKISAENIFVMGDSAGGNLVT  158
+
+Query  245  LAGLTANDPQYQAELPEGSDTSVDAVVGIYGRYDWEDRSTPERARFVD-----FL-----  294
+            +        + Q  +P+     V   V +Y +YD   +    +          FL     
+Sbjct  159  IVC-----HERQENMPKAQ-ILVYPAVDMYTKYDSNKKFDENKYHLTTEWCELFLKAYIG  212
+
+Query  295  ERVVVQRTIDRHPEVFRDASPIQRVTRNAPPFLVIHGSRDCVIPVEQARSFVERLR  350
+            E V+ +    RHP +    SP+       P  L++  + D +I  +   ++ E+L+
+Sbjct  213  EDVMSEPKKLRHPTI----SPLFYKDTKQPDTLIVAATHDILI--DGIYAYEEKLK  262
+
+
+>VFG047544(gb|WP_012429544) (bioJ) lipase/esterase [Biotin synthesis 
+(VF0552) - Nutritional/Metabolic factor (VFC0272)] [Francisella 
+tularensis subsp. mediasiatica FSC147]
+Length=306
+
+ Score = 53.5 bits (127),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 70/296 (24%), Positives = 115/296 (39%), Gaps = 61/296 (21%)
+
+Query  72   LLTPGINEVRRRDRASTQEV----SVAALRGIVSPDDLAVEWPAPERTPPVCGALRHRRY  127
+            L TP I  +++ D    +E+    SV  L+ +  PD L  +      T      LRH + 
+Sbjct  11   LDTPEIRRIKKLDLTQQREIFTSLSVEQLKRLPRPDILEDDIKLENNT-----ILRHYQ-  64
+
+Query  128  VHRRRVLYGDDPAQLLDVWRRKDMPTKPA-PVLIFVPGGAWVHGSRAIQGYAVLSR-LAA  185
+                                    P K +   ++F+ GG W  GS  I  Y  + R L  
+Sbjct  65   ------------------------PKKSSNKAVLFIHGGGWCLGS--INTYDHVCRYLCD  98
+
+Query  186  QGWV-CLSIDYRVAPHHRWPRHILDVKTAIAWARANVDKFGGDRNFIAVAGCSAGGHLSA  244
+            QG +   S++Y +AP  ++P  +     A  W   N++KF      I V G SAGG+L  
+Sbjct  99   QGNLNIFSLEYGLAPEQKYPAAVDHALYAYDWLYQNINKFKISAENIFVMGDSAGGNLVT  158
+
+Query  245  LAGLTANDPQYQAELPEGSDTSVDAVVGIYGRYDWEDRSTPERARFVD-----FL-----  294
+            +        + Q  +P+     V   V +Y +YD   +    +          FL     
+Sbjct  159  IVC-----HERQENMPKAQ-ILVYPAVDMYTKYDSNKKFDENKYHLTTEWCKLFLKAYIG  212
+
+Query  295  ERVVVQRTIDRHPEVFRDASPIQRVTRNAPPFLVIHGSRDCVIPVEQARSFVERLR  350
+            E V+ +    RHP +    SP+       P  L++  + D +I  +   ++ E+L+
+Sbjct  213  EDVMSEPKKLRHPTI----SPLFYKDTKQPDTLIVAATHDILI--DGIYAYEEKLK  262
+
+
+>VFG047541(gb|WP_010030660) (bioJ) lipase/esterase [Biotin synthesis 
+(VF0552) - Nutritional/Metabolic factor (VFC0272)] [Francisella 
+tularensis subsp. holarctica FTNF002-00]
+Length=306
+
+ Score = 53.5 bits (127),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 70/296 (24%), Positives = 115/296 (39%), Gaps = 61/296 (21%)
+
+Query  72   LLTPGINEVRRRDRASTQEV----SVAALRGIVSPDDLAVEWPAPERTPPVCGALRHRRY  127
+            L TP I  +++ D    +E+    SV  L+ +  PD L  +      T      LRH + 
+Sbjct  11   LDTPEIRRIKKLDLTQQREIFTSLSVEQLKRLPRPDILEEDIKLENNT-----ILRHYQ-  64
+
+Query  128  VHRRRVLYGDDPAQLLDVWRRKDMPTKPA-PVLIFVPGGAWVHGSRAIQGYAVLSR-LAA  185
+                                    P K +   ++F+ GG W  GS  I  Y  + R L  
+Sbjct  65   ------------------------PKKSSNKAVLFIHGGGWCLGS--INTYDHVCRYLCD  98
+
+Query  186  QGWV-CLSIDYRVAPHHRWPRHILDVKTAIAWARANVDKFGGDRNFIAVAGCSAGGHLSA  244
+            QG +   S++Y +AP  ++P  +     A  W   N++KF      I V G SAGG+L  
+Sbjct  99   QGNLNIFSLEYGLAPEQKYPVAVDHALYAYDWLYQNINKFKISAENIFVMGDSAGGNLVT  158
+
+Query  245  LAGLTANDPQYQAELPEGSDTSVDAVVGIYGRYDWEDRSTPERARFVD-----FL-----  294
+            +        + Q  +P+     V   V +Y +YD   +    +          FL     
+Sbjct  159  IVC-----HERQENMPKAQ-ILVYPAVDMYTKYDSNKKFDENKYHLTTEWCELFLKAYIG  212
+
+Query  295  ERVVVQRTIDRHPEVFRDASPIQRVTRNAPPFLVIHGSRDCVIPVEQARSFVERLR  350
+            E V+ +    RHP +    SP+       P  L++  + D +I  +   ++ E+L+
+Sbjct  213  EDVMSEPKKLRHPTI----SPLFYKDTKQPDTLIVAATHDILI--DGIYAYEEKLK  262
+
+
+>VFG047551(gb|WP_014549697) (bioJ) lipase/esterase [Biotin synthesis 
+(VF0552) - Nutritional/Metabolic factor (VFC0272)] [Francisella 
+cf. novicida Fx1]
+Length=306
+
+ Score = 53.1 bits (126),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 51/212 (24%), Positives = 89/212 (42%), Gaps = 19/212 (9%)
+
+Query  148  RKDMPTKPA-PVLIFVPGGAWVHGSRAIQGYAVLSR-LAAQGWV-CLSIDYRVAPHHRWP  204
+            R   P  P+   ++F+ GG W  GS  I  Y  + R L  QG +   S++Y +AP  ++P
+Sbjct  61   RHYQPKNPSDKAVLFIHGGGWCLGS--INTYDHVCRYLCDQGNLNIFSLEYGLAPEQKYP  118
+
+Query  205  RHILDVKTAIAWARANVDKFGGDRNFIAVAGCSAGGHLSALAGLTANDPQYQAELPEGSD  264
+              +     A  W   N++KF      I V G SAGG+L  +        + Q  +P+   
+Sbjct  119  AAVDHALYAYDWLYQNINKFKISAENIFVMGDSAGGNLVTIIC-----HERQENMPKAQ-  172
+
+Query  265  TSVDAVVGIYGRYDWEDRSTPER----ARFVDFLERVVVQRTIDRHPEVFR--DASPIQR  318
+              V   V +Y +YD   +    +      + +   +  +   I   P+  R    SP+  
+Sbjct  173  ILVYPAVDMYTKYDSNKKFDENKYHLTTEWCELFLKAYIGEDIMSEPKKLRHPTISPLFY  232
+
+Query  319  VTRNAPPFLVIHGSRDCVIPVEQARSFVERLR  350
+                 P  L++  + D +I  +   ++ E+L+
+Sbjct  233  KDTKQPDTLIVAATHDILI--DGIYAYEEKLK  262
+
+
+>VFG047539(gb|WP_003039032) (bioJ) lipase/esterase [Biotin synthesis 
+(VF0552) - Nutritional/Metabolic factor (VFC0272)] [Francisella 
+novicida U112]
+Length=306
+
+ Score = 52.4 bits (124),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 51/204 (25%), Positives = 87/204 (43%), Gaps = 26/204 (13%)
+
+Query  159  LIFVPGGAWVHGSRAIQGYAVLSR-LAAQGWV-CLSIDYRVAPHHRWPRHILDVKTAIAW  216
+            ++F+ GG W  GS  I  Y  + R L  QG +   S++Y +AP  ++P  +     A  W
+Sbjct  73   VLFIHGGGWCLGS--INTYDHVCRYLCDQGNLNIFSLEYGLAPEQKYPAAVGHALYAYDW  130
+
+Query  217  ARANVDKFGGDRNFIAVAGCSAGGHLSALAGLTANDPQYQAELPEGSDTSVDAVVGIYGR  276
+               N++KF      I V G SAGG+L  +        + Q  +P+     +   V +Y +
+Sbjct  131  LYQNINKFKISAENIFVMGDSAGGNLVTIVC-----HERQENMPKAQ-ILIYPAVDMYTK  184
+
+Query  277  YDWEDRSTPERARFVD-----FL-----ERVVVQRTIDRHPEVFRDASPIQRVTRNAPPF  326
+            YD   +    +          FL     E V+ +    RHP +    SP+       P  
+Sbjct  185  YDSNKKFDENKYHLTTEWCELFLKAYIGEDVMSEPKKLRHPTI----SPLFYKDTKQPDT  240
+
+Query  327  LVIHGSRDCVIPVEQARSFVERLR  350
+            L++  + D +I  +   ++ E+L+
+Sbjct  241  LIVAATHDILI--DGIYAYEEKLK  262
+
+
+>VFG047556(gb|WP_013923080) (bioJ) lipase/esterase [Biotin synthesis 
+(VF0552) - Nutritional/Metabolic factor (VFC0272)] [Francisella 
+sp. TX077308]
+Length=306
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 49/200 (25%), Positives = 84/200 (42%), Gaps = 18/200 (9%)
+
+Query  159  LIFVPGGAWVHGSRAIQGYAVLSR-LAAQGWV-CLSIDYRVAPHHRWPRHILDVKTAIAW  216
+            ++F+ GG W   S  I  Y  + R L  QG +   S++Y + P H++P  +     A  W
+Sbjct  73   VLFIHGGGWCLSS--IDTYDHVCRYLCDQGNLNIFSLEYGLGPEHKYPVAVNHALYAYDW  130
+
+Query  217  ARANVDKFGGDRNFIAVAGCSAGGHLSALAGLTANDPQYQAELPEGSDTSVDAVVGIYGR  276
+               N+ KF      I V G SAGG+L  +        + Q  +P+     V   V +Y +
+Sbjct  131  LYENISKFNLSTENIFVMGDSAGGNLVTIIC-----HERQGNMPKAQ-ILVYPAVDMYTK  184
+
+Query  277  YD----WEDRSTPERARFVDFLERVVVQRTIDRHPEVFRD--ASPIQRVTRNAPPFLVIH  330
+            YD    +++        + +   +  V   I   P+  R    SP+       P  L+I 
+Sbjct  185  YDSNTKFDEYKYHLTTEWSELFLKAYVGEDIMSEPKKLRQPTISPLFYKDTKQPDTLIIA  244
+
+Query  331  GSRDCVIPVEQARSFVERLR  350
+             + D +I  +   ++ E+L+
+Sbjct  245  ATHDILI--DGIYAYEEKLK  262
+
+
+>VFG024032(gb|WP_020822109) (mbtJ) Putative acetyl hydrolase MbtJ 
+[Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium intracellulare str. MOTT36Y]
+Length=334
+
+ Score = 48.9 bits (115),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 37/87 (43%), Positives = 43/87 (49%), Gaps = 17/87 (20%)
+
+Query  167  WVHGSRAIQGYAVLS-----RLAA-----QGWVCLSIDYRVAPHHRWPRHILDVKTAIAW  216
+            +VHGS    GYAV S     RL +      G     IDYR+AP HR+P    DV+    W
+Sbjct  102  YVHGS----GYAVCSPKTHRRLTSWLSSLTGLPVFCIDYRLAPKHRFPTAADDVRAGWDW  157
+
+Query  217  ARANVDKFGGDRNFIAVAGCSAGGHLS  243
+                VD  G     I +AG SAGGHLS
+Sbjct  158  L---VDTCGLQPKHIVIAGDSAGGHLS  181
+
+
+>VFG024035(gb|WP_014379713) (mbtJ) Putative acetyl hydrolase MbtJ 
+[Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium intracellulare ATCC 13950]
+Length=334
+
+ Score = 48.1 bits (113),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 37/87 (43%), Positives = 43/87 (49%), Gaps = 17/87 (20%)
+
+Query  167  WVHGSRAIQGYAVLS-----RLAA-----QGWVCLSIDYRVAPHHRWPRHILDVKTAIAW  216
+            +VHGS    GYAV S     RL +      G     IDYR+AP HR+P    DV+    W
+Sbjct  102  YVHGS----GYAVCSPKTHRRLTSWLSSLTGLPVFCIDYRLAPKHRFPTAADDVRAGWDW  157
+
+Query  217  ARANVDKFGGDRNFIAVAGCSAGGHLS  243
+                VD  G     I +AG SAGGHLS
+Sbjct  158  L---VDTCGLPPKHIVIAGDSAGGHLS  181
+
+
+>VFG024031(gb|WP_080587993) (mbtJ) Putative acetyl hydrolase MbtJ 
+[Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium indicus pranii MTCC 9506]
+Length=334
+
+ Score = 47.8 bits (112),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 37/87 (43%), Positives = 43/87 (49%), Gaps = 17/87 (20%)
+
+Query  167  WVHGSRAIQGYAVLS-----RLAA-----QGWVCLSIDYRVAPHHRWPRHILDVKTAIAW  216
+            +VHGS    GYAV S     RL +      G     IDYR+AP HR+P    DV+    W
+Sbjct  102  YVHGS----GYAVCSPKTHRRLTSWLSSLTGLPVFCIDYRLAPKHRFPTAADDVRAGWDW  157
+
+Query  217  ARANVDKFGGDRNFIAVAGCSAGGHLS  243
+                VD  G     I +AG SAGGHLS
+Sbjct  158  L---VDTCGLLPKHIVIAGDSAGGHLS  181
+
+
+>VFG024033(gb|WP_020188832) (mbtJ) Putative acetyl hydrolase MbtJ 
+[Mycobactin (VF0299) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium intracellulare MOTT-02]
+Length=334
+
+ Score = 47.4 bits (111),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 37/87 (43%), Positives = 43/87 (49%), Gaps = 17/87 (20%)
+
+Query  167  WVHGSRAIQGYAVLS-----RLAA-----QGWVCLSIDYRVAPHHRWPRHILDVKTAIAW  216
+            +VHGS    GYAV S     RL +      G     IDYR+AP HR+P    DV+    W
+Sbjct  102  YVHGS----GYAVCSPKTHRRLTSWLSSLTGLPVFCIDYRLAPKHRFPTAADDVRAGWDW  157
+
+Query  217  ARANVDKFGGDRNFIAVAGCSAGGHLS  243
+                VD  G     I +AG SAGGHLS
+Sbjct  158  L---VDTCGLLPKHIVIAGDSAGGHLS  181
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.138    0.431    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3143709919
+
+
+Query= g1416.t1
+
+Length=415
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG016039(gb|WP_012075665) (pvdJ) pyoverdine biosynthesis protein...  50.8    6e-07
+
+
+>VFG016039(gb|WP_012075665) (pvdJ) pyoverdine biosynthesis protein 
+PvdJ [Pyoverdine (VF0094) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas aeruginosa PA7]
+Length=321
+
+ Score = 50.8 bits (120),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 50/175 (29%), Positives = 78/175 (45%), Gaps = 22/175 (13%)
+
+Query  107  LGPDYAKELATLPTEPMRSRGRNLP---LRTAMARRRYVETTNVVCYG---PYGRANLAD  160
+            L PD A  L  +     RS G++LP   L    AR ++ +++ ++  G   P  R     
+Sbjct  3    LNPDIAAYLELVGNG--RSSGKSLPMHQLTVQQAREQFDQSSALMDPGLDEPLARVETLF  60
+
+Query  161  IWRRRDLPRDAKA------------PVLVQVPGGAWVLGWRRPQAYPLMSHLAAR-GWVC  207
+            +  R   P  A+             P ++ + GG +V+G        L + LA R G V 
+Sbjct  61   VPARDGTPLPARLYSPQGLSASPPLPGVLYLHGGGYVVGSLDSHD-ALCASLAERAGCVV  119
+
+Query  208  VSLNYRVSPRHTWPDHIVDVKRALAWVKENIAAYGGDPNFVAISGGSAGGHLCAL  262
+            +SL YR++P   +P    D + A  W+       G DP  +A++G S GG LCA+
+Sbjct  120  LSLAYRLAPEWRFPTAAEDAEDAWCWLAAEAERLGIDPQRLAVAGDSVGGSLCAV  174
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.137    0.439    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3249865944
+
+
+Query= g2254.t1
+
+Length=431
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3416525736
+
+
+Query= g2450.t1
+
+Length=421
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.134    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3312363366
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,234 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g420.t1
+
+Length=108
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG016803(gb|WP_041580194) (korB) H-NS histone family protein [Tr...  53.1    2e-10
+VFG018707(gb|WP_012232510) (korB) H-NS histone family protein [Tr...  50.4    2e-09
+VFG016802(gb|WP_034448447) (korB) H-NS histone family protein [Tr...  49.3    6e-09
+VFG041527(gb|WP_024132854) (ROD_RS14840) H-NS histone family prot...  44.3    7e-07
+VFG033708(gb|WP_001365456) (ler) transcription regulator Ler [Ler...  42.4    4e-06
+VFG033702(gb|WP_001339878) (ler) transcription regulator Ler [Ler...  42.4    4e-06
+VFG000832(gb|WP_001055728) (ler) transcription regulator Ler [Ler...  42.4    4e-06
+VFG000710(gb|AAC38364) (AAC38364) Orf1 [Ler (VF0189) - Regulation...  42.4    5e-06
+
+
+>VFG016803(gb|WP_041580194) (korB) H-NS histone family protein 
+[Trw type IV secretion system (VF0372) - Effector delivery 
+system (VFC0086)] [Bartonella quintana str. Toulouse]
+Length=95
+
+ Score = 53.1 bits (126),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 29/103 (28%), Positives = 56/103 (54%), Gaps = 13/103 (13%)
+
+Query  4    DISELSVEELKRLQEEAEALIASKKDQAIEDAYNQIIEIAENVGFSVEQLLEFGAQKRKK  63
+            ++  ++++EL+ ++ + +A +  ++ +  ++A  +I+EIA   G  +  L+         
+Sbjct  3    NLKNMNLDELQEMRIQIDAELKKRQAKEKQNARRKILEIANAHGIDIADLV---------  53
+
+Query  64   TTRKSVEPRYRNKNNAEETWTGRGKQPRWLVAEIEKGAKLEDF  106
+                S E  YRN NN  E W GRG++P+W+   +EKG  LE+ 
+Sbjct  54   ----SKERYYRNPNNQWELWNGRGRKPKWIKEWLEKGCTLEEL  92
+
+
+>VFG018707(gb|WP_012232510) (korB) H-NS histone family protein 
+[Trw type IV secretion system (VF0372) - Effector delivery 
+system (VFC0086)] [Bartonella tribocorum CIP 105476]
+Length=95
+
+ Score = 50.4 bits (119),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 27/103 (26%), Positives = 53/103 (51%), Gaps = 13/103 (13%)
+
+Query  4    DISELSVEELKRLQEEAEALIASKKDQAIEDAYNQIIEIAENVGFSVEQLLEFGAQKRKK  63
+            D+  ++ +EL+ ++ + +  +  ++ +  ++A  +I+EIA   G  +  L+         
+Sbjct  3    DLKNMNFDELQEMRIQIDMELKKRQAKEKQNARRKILEIANTHGIDIADLV---------  53
+
+Query  64   TTRKSVEPRYRNKNNAEETWTGRGKQPRWLVAEIEKGAKLEDF  106
+                S E  YRN NN  E W GRG++P+W+   +E G  L++ 
+Sbjct  54   ----SKERHYRNPNNQWELWNGRGRRPKWIKEWLENGYTLDEL  92
+
+
+>VFG016802(gb|WP_034448447) (korB) H-NS histone family protein 
+[Trw type IV secretion system (VF0372) - Effector delivery 
+system (VFC0086)] [Bartonella henselae str. Houston-1]
+Length=95
+
+ Score = 49.3 bits (116),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 29/103 (28%), Positives = 56/103 (54%), Gaps = 13/103 (13%)
+
+Query  4    DISELSVEELKRLQEEAEALIASKKDQAIEDAYNQIIEIAENVGFSVEQLLEFGAQKRKK  63
+            ++  ++++EL+ ++ + +A +  ++ +  ++A  +I+EIA   G  +  L+         
+Sbjct  3    NLKNMNLDELQEMRIQIDAELKKRQAKEKQNARRKILEIANAHGIDIADLV---------  53
+
+Query  64   TTRKSVEPRYRNKNNAEETWTGRGKQPRWLVAEIEKGAKLEDF  106
+              RK  E  YRN NN  E W GRG++P+W+   +E G  LE+ 
+Sbjct  54   --RK--ERHYRNPNNQWELWNGRGRKPKWIKEWLENGYALEEL  92
+
+
+>VFG041527(gb|WP_024132854) (ROD_RS14840) H-NS histone family 
+protein [T3SS (VF1262) - Effector delivery system (VFC0086)] 
+[Citrobacter rodentium ICC168]
+Length=123
+
+ Score = 44.3 bits (103),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 34/103 (33%), Positives = 56/103 (54%), Gaps = 13/103 (13%)
+
+Query  10   VEELKRLQEEAEALIASKKDQAIEDAYNQI----IEIAENVGFSVEQLLEFGAQKRKKTT  65
+            +E++  LQ+EA+ L   +    IE    QI    I + E +G++    +  GA  R+ ++
+Sbjct  17   IEQIAVLQQEAKRLREQEIQTVIESIQKQITYYNITLQE-LGYTN---IPDGALARRSSS  72
+
+Query  66   RKSVEPRYRNKNNAEETWTGRGKQPRWLVAEIEKGAKLEDFLI  108
+            +      YRN++   +TW+G G+QPRWL   +  G K EDFL+
+Sbjct  73   KGVY---YRNEDG--QTWSGVGRQPRWLKEALLNGRKKEDFLV  110
+
+
+>VFG033708(gb|WP_001365456) (ler) transcription regulator Ler 
+[Ler (VF0192) - Regulation (VFC0301)] [Escherichia coli O103:H2 
+str. 12009]
+Length=123
+
+ Score = 42.4 bits (98),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 35/103 (34%), Positives = 56/103 (54%), Gaps = 13/103 (13%)
+
+Query  10   VEELKRLQEEAEALIASKKDQAIEDAYNQI----IEIAENVGFSVEQLLEFGAQKRKKTT  65
+            +E+++ LQ+EA+ L   +    IE    QI    I + E +G++   + + G  +R  + 
+Sbjct  17   IEQIEVLQQEAKRLREQEIQSVIESIQKQITYYNITLQE-LGYT--NVPDDGLARRNSS-  72
+
+Query  66   RKSVEPRYRNKNNAEETWTGRGKQPRWLVAEIEKGAKLEDFLI  108
+             K V   YRN+    +TW+G G+QPRWL   +  G K EDFL+
+Sbjct  73   -KGV--YYRNEEG--QTWSGVGRQPRWLKEALLNGMKKEDFLV  110
+
+
+>VFG033702(gb|WP_001339878) (ler) transcription regulator Ler 
+[Ler (VF0192) - Regulation (VFC0301)] [Escherichia coli O127:H6 
+str. E2348/69]
+Length=123
+
+ Score = 42.4 bits (98),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 35/103 (34%), Positives = 55/103 (53%), Gaps = 13/103 (13%)
+
+Query  10   VEELKRLQEEAEALIASKKDQAIEDAYNQI----IEIAENVGFSVEQLLEFGAQKRKKTT  65
+            +E++  LQ+EA+ L   +    IE    QI    I + E +G++   + + G  +R  + 
+Sbjct  17   IEQIAVLQQEAKRLREQEVQSVIESIQKQITYYNITLQE-LGYT--NVPDDGLARRNSS-  72
+
+Query  66   RKSVEPRYRNKNNAEETWTGRGKQPRWLVAEIEKGAKLEDFLI  108
+             K V   YRN+    +TW+G G+QPRWL   +  G K EDFL+
+Sbjct  73   -KGV--YYRNEEG--QTWSGVGRQPRWLKEALLNGMKKEDFLV  110
+
+
+>VFG000832(gb|WP_001055728) (ler) transcription regulator Ler 
+[Ler (VF0192) - Regulation (VFC0301)] [Escherichia coli O157:H7 
+str. EDL933]
+Length=123
+
+ Score = 42.4 bits (98),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 35/103 (34%), Positives = 55/103 (53%), Gaps = 13/103 (13%)
+
+Query  10   VEELKRLQEEAEALIASKKDQAIEDAYNQI----IEIAENVGFSVEQLLEFGAQKRKKTT  65
+            +E++  LQ+EA+ L   +    IE    QI    I + E +G++   + + G  +R  + 
+Sbjct  17   IEQIAVLQQEAKRLREQEVQSVIESIQKQITYYNITLQE-LGYT--NVPDDGLARRNSS-  72
+
+Query  66   RKSVEPRYRNKNNAEETWTGRGKQPRWLVAEIEKGAKLEDFLI  108
+             K V   YRN+    +TW+G G+QPRWL   +  G K EDFL+
+Sbjct  73   -KGV--YYRNEEG--QTWSGVGRQPRWLKEALLNGMKKEDFLV  110
+
+
+>VFG000710(gb|AAC38364) (AAC38364) Orf1 [Ler (VF0189) - Regulation 
+(VFC0301)] [Escherichia coli O127:H6 str. E2348/69]
+Length=129
+
+ Score = 42.4 bits (98),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 35/103 (34%), Positives = 55/103 (53%), Gaps = 13/103 (13%)
+
+Query  10   VEELKRLQEEAEALIASKKDQAIEDAYNQI----IEIAENVGFSVEQLLEFGAQKRKKTT  65
+            +E++  LQ+EA+ L   +    IE    QI    I + E +G++   + + G  +R  + 
+Sbjct  23   IEQIAVLQQEAKRLREQEVQSVIESIQKQITYYNITLQE-LGYT--NVPDDGLARRNSS-  78
+
+Query  66   RKSVEPRYRNKNNAEETWTGRGKQPRWLVAEIEKGAKLEDFLI  108
+             K V   YRN+    +TW+G G+QPRWL   +  G K EDFL+
+Sbjct  79   -KGV--YYRNEEG--QTWSGVGRQPRWLKEALLNGMKKEDFLV  116
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.128    0.346    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 333473610
+
+
+Query= g1637.t1
+
+Length=137
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.309    0.124    0.324    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 518783280
+
+
+Query= g2598.t1
+
+Length=133
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.131    0.360    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 475551340
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

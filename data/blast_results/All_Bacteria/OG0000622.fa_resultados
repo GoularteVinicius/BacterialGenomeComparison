@@ -1,0 +1,369 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1123.t1
+
+Length=445
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.134    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3562353054
+
+
+Query= g2016.t1
+
+Length=439
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3499855632
+
+
+Query= g2782.t1
+
+Length=436
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043534(gb|WP_004681934) (ugpB) sn-glycerol-3-phosphate ABC tra...  66.6    8e-12
+VFG043536(gb|WP_002965982) (ugpB) sn-glycerol-3-phosphate ABC tra...  66.6    9e-12
+VFG043535(gb|WP_004686048) (ugpB) sn-glycerol-3-phosphate ABC tra...  66.2    1e-11
+
+
+>VFG043534(gb|WP_004681934) (ugpB) sn-glycerol-3-phosphate ABC 
+transporter substrate-binding protein UgpB [SP41 (VF0694) - 
+Adherence (VFC0001)] [Brucella melitensis bv. 1 str. 16M]
+Length=433
+
+ Score = 66.6 bits (161),  Expect = 8e-12, Method: Compositional matrix adjust.
+ Identities = 93/416 (22%), Positives = 165/416 (40%), Gaps = 55/416 (13%)
+
+Query  39   IDFWSSHPGQSSAAERELIGRFQDRFPTLSVKLIDAGKDYDEVAQKFNAALIGTDVPDVV  98
+            + +W    G ++    EL   F +      +  +  G +Y E      AA      P ++
+Sbjct  29   LAWWHGMTGANNEMVNELSKEFNESQSEYKIVPVYKG-NYPETLNAGIAAFRSKQPPAIL  87
+
+Query  99   LLDDRWWFHFALSGVLTALDDLF---------GQVGVDTTDYVDSLLADY-EFNGRHYAV  148
+             + D      A SGV+ A +            G    D + Y+  ++A Y + +G   + 
+Sbjct  88   QVFD------AGSGVMMAAEGAIVPAAEVLEKGGYKFDKSQYLPGIVAYYSKPDGTMLSF  141
+
+Query  149  PYARSTPLFYYNKAAWQQAGL-PDRGPQSWSEFDEWGPELQRVVGAGRSAHGWANADLIS  207
+            PY  S+P+ YYNK A+++AGL  ++ P++W E  E     +++  +G S  G+  +  ++
+Sbjct  142  PYNSSSPILYYNKDAFKKAGLDENKPPKTWPEVFE---AAKKIKASGASPCGFT-STWLT  197
+
+Query  208  WTFQGPNWA------FG----GAYSDKWTLTLTEP---------ATIAAGNFYRNSIHGK  248
+            W  Q  N+A      +G    G       L +  P         A +A    +R      
+Sbjct  198  W-IQTENFAAWNNVPYGTNENGLAGTDVKLEINSPLYVEHFQAIADLAKDGTFR------  250
+
+Query  249  GYAAVANDIANEFATGILASAVASTGSLAGITASARFDFGAAPLPTGPDAAPACPT-GGA  307
+             Y    ++    F +G  A    S+G L  +  S   ++G   LP      P     GGA
+Sbjct  251  -YGGRTSEAKQLFTSGECAMLTESSGGLGDVVKSG-INYGIGQLPYYEGHGPQNTIPGGA  308
+
+Query  308  GLAIPAKLSEERKVNALKFIAFVTNPTNTAYFSQQTGYLPVRKSAVDDASERHYLADNPR  367
+             L + A LS+++     +F  F++         +++GYLPV  +A ++  +  +   NP 
+Sbjct  309  SLWVFAGLSDDQYKGIAEFFNFLSQSKIQVKLHEKSGYLPVTLAAYEETKKSDFYEKNPG  368
+
+Query  368  ARVALDQL----PHTRTQDYARVFLPGGDRIISAGLESIGLRGADVTKTFTNIQKR  419
+                + Q+    P   ++    V LP    I++   E++     D      N  KR
+Sbjct  369  RETPILQMMGKEPTENSKGVRLVNLPQVRDILNEEFEAMLGGKQDAKTALDNAVKR  424
+
+
+>VFG043536(gb|WP_002965982) (ugpB) sn-glycerol-3-phosphate ABC 
+transporter substrate-binding protein UgpB [SP41 (VF0694) - 
+Adherence (VFC0001)] [Brucella abortus S19]
+Length=433
+
+ Score = 66.6 bits (161),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 93/416 (22%), Positives = 165/416 (40%), Gaps = 55/416 (13%)
+
+Query  39   IDFWSSHPGQSSAAERELIGRFQDRFPTLSVKLIDAGKDYDEVAQKFNAALIGTDVPDVV  98
+            + +W    G ++    EL   F +      +  +  G +Y E      AA      P ++
+Sbjct  29   LAWWHGMTGANNEMVNELSKEFNESQSEYKIVPVYKG-NYPETLNAGIAAFRSKQPPAIL  87
+
+Query  99   LLDDRWWFHFALSGVLTALDDLF---------GQVGVDTTDYVDSLLADY-EFNGRHYAV  148
+             + D      A SGV+ A +            G    D + Y+  ++A Y + +G   + 
+Sbjct  88   QVFD------AGSGVMMAAEGAIVPAAEVLEKGGYKFDKSQYLPGIVAYYSKPDGTMLSF  141
+
+Query  149  PYARSTPLFYYNKAAWQQAGL-PDRGPQSWSEFDEWGPELQRVVGAGRSAHGWANADLIS  207
+            PY  S+P+ YYNK A+++AGL  ++ P++W E  E     +++  +G S  G+  +  ++
+Sbjct  142  PYNSSSPILYYNKDAFKKAGLDENKPPKTWPEVFEAA---KKIKASGASPCGFT-STWLT  197
+
+Query  208  WTFQGPNWA------FG----GAYSDKWTLTLTEP---------ATIAAGNFYRNSIHGK  248
+            W  Q  N+A      +G    G       L +  P         A +A    +R      
+Sbjct  198  W-IQTENFAAWNNVPYGTNENGLAGTDVKLEINSPLYVEHFQAIADLAKDGTFR------  250
+
+Query  249  GYAAVANDIANEFATGILASAVASTGSLAGITASARFDFGAAPLPTGPDAAPACPT-GGA  307
+             Y    ++    F +G  A    S+G L  +  S   ++G   LP      P     GGA
+Sbjct  251  -YGGRTSEAKQLFTSGECAMLTESSGGLGDVVKSG-INYGIGQLPYYEGHGPQNTIPGGA  308
+
+Query  308  GLAIPAKLSEERKVNALKFIAFVTNPTNTAYFSQQTGYLPVRKSAVDDASERHYLADNPR  367
+             L + A LS+++     +F  F++         +++GYLPV  +A ++  +  +   NP 
+Sbjct  309  SLWVFAGLSDDQYKGIAEFFNFLSQTKIQVKLHEKSGYLPVTLAAYEETKKSDFYEKNPG  368
+
+Query  368  ARVALDQL----PHTRTQDYARVFLPGGDRIISAGLESIGLRGADVTKTFTNIQKR  419
+                + Q+    P   ++    V LP    I++   E++     D      N  KR
+Sbjct  369  RETPILQMMGKEPTENSKGVRLVNLPQVRDILNEEFEAMLGGKQDAKTALDNAVKR  424
+
+
+>VFG043535(gb|WP_004686048) (ugpB) sn-glycerol-3-phosphate ABC 
+transporter substrate-binding protein UgpB [SP41 (VF0694) - 
+Adherence (VFC0001)] [Brucella suis 1330]
+Length=433
+
+ Score = 66.2 bits (160),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 93/416 (22%), Positives = 165/416 (40%), Gaps = 55/416 (13%)
+
+Query  39   IDFWSSHPGQSSAAERELIGRFQDRFPTLSVKLIDAGKDYDEVAQKFNAALIGTDVPDVV  98
+            + +W    G ++    EL   F +      +  +  G +Y E      AA      P ++
+Sbjct  29   LAWWHGMTGANNEMVNELSKEFNESQSEYKIVPVYKG-NYPETLNAGIAAFRSKQPPAIL  87
+
+Query  99   LLDDRWWFHFALSGVLTALDDLF---------GQVGVDTTDYVDSLLADY-EFNGRHYAV  148
+             + D      A SGV+ A +            G    D + Y+  ++A Y + +G   + 
+Sbjct  88   QVFD------AGSGVMMAAEGAIVPAAEVLEKGGYKFDKSQYLPGIVAYYSKPDGTMLSF  141
+
+Query  149  PYARSTPLFYYNKAAWQQAGL-PDRGPQSWSEFDEWGPELQRVVGAGRSAHGWANADLIS  207
+            PY  S+P+ YYNK A+++AGL  ++ P++W E  E     +++  +G S  G+  +  ++
+Sbjct  142  PYNSSSPILYYNKDAFKKAGLDENKPPKTWPEVFE---AAKKIKASGASPCGFT-STWLT  197
+
+Query  208  WTFQGPNWA------FG----GAYSDKWTLTLTEP---------ATIAAGNFYRNSIHGK  248
+            W  Q  N+A      +G    G       L +  P         A +A    +R      
+Sbjct  198  W-IQTENFAAWNNVPYGTNENGLAGTDVKLEINSPLYVEHFQAIADLAKDGTFR------  250
+
+Query  249  GYAAVANDIANEFATGILASAVASTGSLAGITASARFDFGAAPLPTGPDAAPACPT-GGA  307
+             Y    ++    F +G  A    S+G L  +  S   ++G   LP      P     GGA
+Sbjct  251  -YGGRTSEAKQLFTSGECAMLTESSGGLGDVVKSG-INYGIGQLPYYEGHGPQNTIPGGA  308
+
+Query  308  GLAIPAKLSEERKVNALKFIAFVTNPTNTAYFSQQTGYLPVRKSAVDDASERHYLADNPR  367
+             L + A LS+++     +F  F++         +++GYLPV  +A ++  +  +   NP 
+Sbjct  309  SLWVFAGLSDDQYKGIAEFFNFLSQTKIQVKLHEKSGYLPVTLAAYEETKKSDFYEKNPG  368
+
+Query  368  ARVALDQL----PHTRTQDYARVFLPGGDRIISAGLESIGLRGADVTKTFTNIQKR  419
+                + Q+    P   ++    V LP    I++   E++     D      N  KR
+Sbjct  369  RETPILQMMGKEPTENSKGVRLVNLPQVRDILNEEFEAMLGGKQDAKTALDNAVKR  424
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3468606921
+
+
+Query= g2378.t1
+
+Length=436
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.131    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3468606921
+
+
+Query= g3319.t1
+
+Length=438
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043534(gb|WP_004681934) (ugpB) sn-glycerol-3-phosphate ABC tra...  403     2e-138
+VFG043535(gb|WP_004686048) (ugpB) sn-glycerol-3-phosphate ABC tra...  403     2e-138
+VFG043536(gb|WP_002965982) (ugpB) sn-glycerol-3-phosphate ABC tra...  402     8e-138
+
+
+>VFG043534(gb|WP_004681934) (ugpB) sn-glycerol-3-phosphate ABC 
+transporter substrate-binding protein UgpB [SP41 (VF0694) - 
+Adherence (VFC0001)] [Brucella melitensis bv. 1 str. 16M]
+Length=433
+
+ Score = 403 bits (1036),  Expect = 2e-138, Method: Compositional matrix adjust.
+ Identities = 198/425 (47%), Positives = 281/425 (66%), Gaps = 6/425 (1%)
+
+Query  4    LRHTALGLALSLAFTGQALAVTTIPFWHSMEGELGKEVDSLAQRFNQANPDYKIVPVYKG  63
+            +  +AL  A++L    QA A T + +WH M G   + V+ L++ FN++  +YKIVPVYKG
+Sbjct  6    ITTSALTGAIALTIGSQAFAQTELAWWHGMTGANNEMVNELSKEFNESQSEYKIVPVYKG  65
+
+Query  64   NYEQNLSAGIAAFRTGNAPAILQVYEVGTATMMASK-AIKPVYEVFKDAGINFDESQFVP  122
+            NY + L+AGIAAFR+   PAILQV++ G+  MMA++ AI P  EV +  G  FD+SQ++P
+Sbjct  66   NYPETLNAGIAAFRSKQPPAILQVFDAGSGVMMAAEGAIVPAAEVLEKGGYKFDKSQYLP  125
+
+Query  123  TVAGYYTDAKSGHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQPPKTWQELADYTAKLRAA  182
+             +  YY+    G +LS P+NSS+P+LYYNKDAFKKAGLD  +PPKTW E+ +   K++A+
+Sbjct  126  GIVAYYSKP-DGTMLSFPYNSSSPILYYNKDAFKKAGLDENKPPKTWPEVFEAAKKIKAS  184
+
+Query  183  GMK-CGYASGWQGWIQLENFSAWNGLPFASKNNGFDGTDAVLEFNKPEQVKHIALLEEMN  241
+            G   CG+ S W  WIQ ENF+AWN +P+ +  NG  GTD  LE N P  V+H   + ++ 
+Sbjct  185  GASPCGFTSTWLTWIQTENFAAWNNVPYGTNENGLAGTDVKLEINSPLYVEHFQAIADLA  244
+
+Query  242  KKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIRQYAKFNYGVGMMPYDADIKGAPQ  301
+            K G F Y GR  E+ + F +G+CAM T SSG L ++ + +  NYG+G +PY       PQ
+Sbjct  245  KDGTFRYGGRTSEAKQLFTSGECAMLTESSGGLGDVVK-SGINYGIGQLPYYEG--HGPQ  301
+
+Query  302  NAIIGGASLWVMQGKDKETYTGVAKFLDFLAKPENAAEWHQKTGYLPITTAAYELTREQG  361
+            N I GGASLWV  G   + Y G+A+F +FL++ +   + H+K+GYLP+T AAYE T++  
+Sbjct  302  NTIPGGASLWVFAGLSDDQYKGIAEFFNFLSQSKIQVKLHEKSGYLPVTLAAYEETKKSD  361
+
+Query  362  YYDKNPGADIATRQMLNKPPLPFTKGLRLGNMPQIRTIVDEELESVWTGKKTPQQALDTA  421
+            +Y+KNPG +    QM+ K P   +KG+RL N+PQ+R I++EE E++  GK+  + ALD A
+Sbjct  362  FYEKNPGRETPILQMMGKEPTENSKGVRLVNLPQVRDILNEEFEAMLGGKQDAKTALDNA  421
+
+Query  422  VDRGN  426
+            V RGN
+Sbjct  422  VKRGN  426
+
+
+>VFG043535(gb|WP_004686048) (ugpB) sn-glycerol-3-phosphate ABC 
+transporter substrate-binding protein UgpB [SP41 (VF0694) - 
+Adherence (VFC0001)] [Brucella suis 1330]
+Length=433
+
+ Score = 403 bits (1036),  Expect = 2e-138, Method: Compositional matrix adjust.
+ Identities = 198/425 (47%), Positives = 281/425 (66%), Gaps = 6/425 (1%)
+
+Query  4    LRHTALGLALSLAFTGQALAVTTIPFWHSMEGELGKEVDSLAQRFNQANPDYKIVPVYKG  63
+            +  +AL  A++L    QA A T + +WH M G   + V+ L++ FN++  +YKIVPVYKG
+Sbjct  6    ITTSALTGAIALTIGSQAFAQTELAWWHGMTGANNEMVNELSKEFNESQSEYKIVPVYKG  65
+
+Query  64   NYEQNLSAGIAAFRTGNAPAILQVYEVGTATMMASK-AIKPVYEVFKDAGINFDESQFVP  122
+            NY + L+AGIAAFR+   PAILQV++ G+  MMA++ AI P  EV +  G  FD+SQ++P
+Sbjct  66   NYPETLNAGIAAFRSKQPPAILQVFDAGSGVMMAAEGAIVPAAEVLEKGGYKFDKSQYLP  125
+
+Query  123  TVAGYYTDAKSGHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQPPKTWQELADYTAKLRAA  182
+             +  YY+    G +LS P+NSS+P+LYYNKDAFKKAGLD  +PPKTW E+ +   K++A+
+Sbjct  126  GIVAYYSKP-DGTMLSFPYNSSSPILYYNKDAFKKAGLDENKPPKTWPEVFEAAKKIKAS  184
+
+Query  183  GMK-CGYASGWQGWIQLENFSAWNGLPFASKNNGFDGTDAVLEFNKPEQVKHIALLEEMN  241
+            G   CG+ S W  WIQ ENF+AWN +P+ +  NG  GTD  LE N P  V+H   + ++ 
+Sbjct  185  GASPCGFTSTWLTWIQTENFAAWNNVPYGTNENGLAGTDVKLEINSPLYVEHFQAIADLA  244
+
+Query  242  KKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIRQYAKFNYGVGMMPYDADIKGAPQ  301
+            K G F Y GR  E+ + F +G+CAM T SSG L ++ + +  NYG+G +PY       PQ
+Sbjct  245  KDGTFRYGGRTSEAKQLFTSGECAMLTESSGGLGDVVK-SGINYGIGQLPYYEG--HGPQ  301
+
+Query  302  NAIIGGASLWVMQGKDKETYTGVAKFLDFLAKPENAAEWHQKTGYLPITTAAYELTREQG  361
+            N I GGASLWV  G   + Y G+A+F +FL++ +   + H+K+GYLP+T AAYE T++  
+Sbjct  302  NTIPGGASLWVFAGLSDDQYKGIAEFFNFLSQTKIQVKLHEKSGYLPVTLAAYEETKKSD  361
+
+Query  362  YYDKNPGADIATRQMLNKPPLPFTKGLRLGNMPQIRTIVDEELESVWTGKKTPQQALDTA  421
+            +Y+KNPG +    QM+ K P   +KG+RL N+PQ+R I++EE E++  GK+  + ALD A
+Sbjct  362  FYEKNPGRETPILQMMGKEPTENSKGVRLVNLPQVRDILNEEFEAMLGGKQDAKTALDNA  421
+
+Query  422  VDRGN  426
+            V RGN
+Sbjct  422  VKRGN  426
+
+
+>VFG043536(gb|WP_002965982) (ugpB) sn-glycerol-3-phosphate ABC 
+transporter substrate-binding protein UgpB [SP41 (VF0694) - 
+Adherence (VFC0001)] [Brucella abortus S19]
+Length=433
+
+ Score = 402 bits (1032),  Expect = 8e-138, Method: Compositional matrix adjust.
+ Identities = 197/425 (46%), Positives = 280/425 (66%), Gaps = 6/425 (1%)
+
+Query  4    LRHTALGLALSLAFTGQALAVTTIPFWHSMEGELGKEVDSLAQRFNQANPDYKIVPVYKG  63
+            +  + L  A++L    QA A T + +WH M G   + V+ L++ FN++  +YKIVPVYKG
+Sbjct  6    ITTSVLTGAIALTIGSQAFAQTELAWWHGMTGANNEMVNELSKEFNESQSEYKIVPVYKG  65
+
+Query  64   NYEQNLSAGIAAFRTGNAPAILQVYEVGTATMMASK-AIKPVYEVFKDAGINFDESQFVP  122
+            NY + L+AGIAAFR+   PAILQV++ G+  MMA++ AI P  EV +  G  FD+SQ++P
+Sbjct  66   NYPETLNAGIAAFRSKQPPAILQVFDAGSGVMMAAEGAIVPAAEVLEKGGYKFDKSQYLP  125
+
+Query  123  TVAGYYTDAKSGHLLSQPFNSSTPVLYYNKDAFKKAGLDPEQPPKTWQELADYTAKLRAA  182
+             +  YY+    G +LS P+NSS+P+LYYNKDAFKKAGLD  +PPKTW E+ +   K++A+
+Sbjct  126  GIVAYYSKP-DGTMLSFPYNSSSPILYYNKDAFKKAGLDENKPPKTWPEVFEAAKKIKAS  184
+
+Query  183  GMK-CGYASGWQGWIQLENFSAWNGLPFASKNNGFDGTDAVLEFNKPEQVKHIALLEEMN  241
+            G   CG+ S W  WIQ ENF+AWN +P+ +  NG  GTD  LE N P  V+H   + ++ 
+Sbjct  185  GASPCGFTSTWLTWIQTENFAAWNNVPYGTNENGLAGTDVKLEINSPLYVEHFQAIADLA  244
+
+Query  242  KKGDFSYVGRKDESTEKFYNGDCAMTTASSGSLANIRQYAKFNYGVGMMPYDADIKGAPQ  301
+            K G F Y GR  E+ + F +G+CAM T SSG L ++ + +  NYG+G +PY       PQ
+Sbjct  245  KDGTFRYGGRTSEAKQLFTSGECAMLTESSGGLGDVVK-SGINYGIGQLPYYEG--HGPQ  301
+
+Query  302  NAIIGGASLWVMQGKDKETYTGVAKFLDFLAKPENAAEWHQKTGYLPITTAAYELTREQG  361
+            N I GGASLWV  G   + Y G+A+F +FL++ +   + H+K+GYLP+T AAYE T++  
+Sbjct  302  NTIPGGASLWVFAGLSDDQYKGIAEFFNFLSQTKIQVKLHEKSGYLPVTLAAYEETKKSD  361
+
+Query  362  YYDKNPGADIATRQMLNKPPLPFTKGLRLGNMPQIRTIVDEELESVWTGKKTPQQALDTA  421
+            +Y+KNPG +    QM+ K P   +KG+RL N+PQ+R I++EE E++  GK+  + ALD A
+Sbjct  362  FYEKNPGRETPILQMMGKEPTENSKGVRLVNLPQVRDILNEEFEAMLGGKQDAKTALDNA  421
+
+Query  422  VDRGN  426
+            V RGN
+Sbjct  422  VKRGN  426
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.132    0.394    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3489439395
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

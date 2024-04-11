@@ -1,0 +1,116 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1530.t1
+
+Length=169
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049116(gb|WP_012737528) (allA) ureidoglycolate hydrolase [Alla...  170     6e-55
+
+
+>VFG049116(gb|WP_012737528) (allA) ureidoglycolate hydrolase [Allantion 
+utilization (VF0572) - Nutritional/Metabolic factor 
+(VFC0272)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=160
+
+ Score = 170 bits (431),  Expect = 6e-55, Method: Compositional matrix adjust.
+ Identities = 82/148 (55%), Positives = 106/148 (72%), Gaps = 2/148 (1%)
+
+Query  4    LKIEPLTKEAFAPFGDVIETAGSDYFMINNGSTRRYHKLATVETAQPEDNAIISIFSAEK  63
+            L++ PLT++AF P+GDVIET G D+F IN+G  +R+H LA VET Q +D  +ISI  A+ 
+Sbjct  3    LEVLPLTRDAFRPYGDVIETEGQDFFHINDGKVQRFHDLAMVETLQ-QDRTLISINRAQP  61
+
+Query  64   LEMPLRIRMLERHPLGSQAFIPLLGNPFLVVVAPLGDVPVPGLVRAFLTNGRQGVNYHRG  123
+              +P+ +  LERHPLG+QAF+PL G  F+VVVA  GD P    +RAF++NGRQGVNYHR 
+Sbjct  62   AVLPIIVTELERHPLGTQAFVPLRGEAFVVVVAAGGDEPDMNTLRAFISNGRQGVNYHRN  121
+
+Query  124  VWHHPVLTIEKRDDFLVVDRSGSGNNCD  151
+            VWHHP+   +   DFL VDR G  +NCD
+Sbjct  122  VWHHPLFAWQTETDFLTVDRGGK-DNCD  148
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 812900332
+
+
+Query= g481.t1
+
+Length=160
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049116(gb|WP_012737528) (allA) ureidoglycolate hydrolase [Alla...  267     3e-93
+
+
+>VFG049116(gb|WP_012737528) (allA) ureidoglycolate hydrolase [Allantion 
+utilization (VF0572) - Nutritional/Metabolic factor 
+(VFC0272)] [Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044]
+Length=160
+
+ Score = 267 bits (682),  Expect = 3e-93, Method: Compositional matrix adjust.
+ Identities = 125/160 (78%), Positives = 140/160 (88%), Gaps = 0/160 (0%)
+
+Query  1    MKLEVLPLDQKTFSAYGDVIETQEREFFHINNGLVERYHDLAKVEVLEQDRTLISINRAQ  60
+            MKLEVLPL +  F  YGDVIET+ ++FFHIN+G V+R+HDLA VE L+QDRTLISINRAQ
+Sbjct  1    MKLEVLPLTRDAFRPYGDVIETEGQDFFHINDGKVQRFHDLAMVETLQQDRTLISINRAQ  60
+
+Query  61   PAAMPIVVHELERHPLGTQAFVPMNGEAFVVIVALGDDKPDLSTLRAFISNGRQGVNYHR  120
+            PA +PI+V ELERHPLGTQAFVP+ GEAFVV+VA G D+PD++TLRAFISNGRQGVNYHR
+Sbjct  61   PAVLPIIVTELERHPLGTQAFVPLRGEAFVVVVAAGGDEPDMNTLRAFISNGRQGVNYHR  120
+
+Query  121  NVWHHPLFAWQTVTDFLTVDRGGSDNCDVESIPTHELCFA  160
+            NVWHHPLFAWQT TDFLTVDRGG DNCDV  IPT EL FA
+Sbjct  121  NVWHHPLFAWQTETDFLTVDRGGKDNCDVVKIPTVELSFA  160
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 729234652
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

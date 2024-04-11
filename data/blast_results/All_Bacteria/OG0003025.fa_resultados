@@ -1,0 +1,1158 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g4933.t1
+
+Length=636
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG022662(gb|WP_013828233) (lysA) diaminopimelate decarboxylase [...  62.4    4e-10
+VFG047341(gb|WP_003024549) (fslC) diaminopimelate decarboxylase [...  59.3    3e-09
+VFG026412(gb|WP_020821987) (lysA) diaminopimelate decarboxylase [...  58.2    8e-09
+VFG023965(gb|WP_014379586) (lysA) diaminopimelate decarboxylase [...  58.2    8e-09
+VFG023961(gb|WP_008254777) (lysA) diaminopimelate decarboxylase [...  58.2    8e-09
+VFG044197(gb|WP_003022882) (fslC) diaminopimelate decarboxylase [...  57.0    2e-08
+VFG026398(gb|WP_031599964) (lysA) diaminopimelate decarboxylase [...  57.4    2e-08
+VFG026392(gb|WP_016342164) (lysA) diaminopimelate decarboxylase [...  57.4    2e-08
+VFG047339(gb|WP_012429069) (fslC) diaminopimelate decarboxylase [...  57.0    2e-08
+VFG047345(gb|WP_014550286) (fslC) diaminopimelate decarboxylase [...  57.0    2e-08
+VFG047335(gb|WP_003041325) (fslC) diaminopimelate decarboxylase [...  56.6    3e-08
+VFG009394(gb|WP_011856338) (lysA) diaminopimelate decarboxylase [...  55.8    4e-08
+VFG009395(gb|WP_208856697) (lysA) diaminopimelate decarboxylase [...  55.8    4e-08
+VFG009396(gb|WP_011561277) (lysA) diaminopimelate decarboxylase [...  55.8    5e-08
+VFG047336(gb|WP_003017402) (fslC) diaminopimelate decarboxylase [...  55.5    5e-08
+VFG009388(gb|WP_011724196) (lysA) diaminopimelate decarboxylase [...  55.5    6e-08
+VFG009387(gb|WP_003877287) (lysA) diaminopimelate decarboxylase [...  55.5    6e-08
+VFG047342(gb|WP_014549026) (fslC) diaminopimelate decarboxylase [...  55.1    7e-08
+VFG026414(gb|WP_198344965) (lysA) diaminopimelate decarboxylase [...  54.7    1e-07
+VFG009391(gb|WP_011730213) (lysA) diaminopimelate decarboxylase [...  51.6    1e-06
+VFG023960(gb|WP_013471174) (lysA) diaminopimelate decarboxylase [...  50.4    3e-06
+VFG009392(gb|WP_011893180) (lysA) diaminopimelate decarboxylase [...  50.4    3e-06
+VFG044261(gb|WP_001223700) (sbnH) staphyloferrin B biosynthesis d...  48.5    9e-06
+
+
+>VFG022662(gb|WP_013828233) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium sp. JDM601]
+Length=472
+
+ Score = 62.4 bits (150),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 80/307 (26%), Positives = 132/307 (43%), Gaps = 40/307 (13%)
+
+Query  70   PLLVRFPDILQDRVRKLTGAFDANIERLEYQSRYTALYPIK--VNQQEAVVENIIATENV  127
+            PL V   D  + R R++  AF    + + Y ++      I   ++Q+             
+Sbjct  66   PLFVVDEDDFRGRCREIAQAFGGG-DHVHYAAKAFLCSEIARWIDQE-------------  111
+
+Query  128  SIGLEAGSKPELMAVLALAPKGGTIVCNGYKDREFIKLALMGQKLGHNVFIVIEKESEVQ  187
+             +GL+  +  EL   L     G  I  +G         A +   +GH   IV++   E++
+Sbjct  112  GLGLDVATGGELAVALHAGFPGPRITMHGNNKSVAELQAAVDAGVGH---IVLDSLIEIE  168
+
+Query  188  LVIEEAANVGVQPQVGLRVRLSSLASS-KWADTGGEKAKFGLSAAQLLSVVERFRQAGLD  246
+             +   AA  G+   V +RV +   A + ++  T  E  KFGLS A   + +   R+    
+Sbjct  169  RLEAVAAAAGIVQDVLVRVTVGVEAHTHEFISTAHEDQKFGLSLASG-AAMGAIRKVFAT  227
+
+Query  247  QGVRL--LHFHMGSQIANLADYQHGFKEAIRYYGELR--------ALGLPVDHIDVGGGL  296
+              +RL  LH H+GSQI ++A ++     A R  G LR        AL   +  ID+GGGL
+Sbjct  228  DHLRLVGLHSHIGSQIFDVAGFE---LAAHRVIGLLRDVVAEFGAALAAQLSVIDLGGGL  284
+
+Query  297  GVDYDGTHSRNASSINYDIDDYAGVVVGMLKEFCDAQGLPHPHIFSESGRALTAHHAVLI  356
+            G+ Y              +D+ AG +  ++++   A GLP P +  E GRA+     + +
+Sbjct  285  GISY------LPQDDPPPMDELAGKLAAIVRDESAAVGLPTPQLVVEPGRAIAGPGTITL  338
+
+Query  357  TQVTDVE  363
+             +V  V+
+Sbjct  339  YEVGTVK  345
+
+
+>VFG047341(gb|WP_003024549) (fslC) diaminopimelate decarboxylase 
+[Rhizoferrin (VF0551) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella tularensis subsp. tularensis WY96-3418]
+Length=417
+
+ Score = 59.3 bits (142),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 75/329 (23%), Positives = 139/329 (42%), Gaps = 34/329 (10%)
+
+Query  98   EYQSRYTALYPIKVNQQEAVVENIIATENVSIGLEAGSKPELMAVLALAPKGGTIVCNG-  156
+            +YQ+   A Y +K      +++       V    E  S  E   +  L     +I+ NG 
+Sbjct  52   QYQNSIAA-YSVKTQSLNTIIQKFY---EVGFIPEVVSSDEFEQIQKLQLCDKSIIFNGP  107
+
+Query  157  YK-DREFIKLALMGQKLGHNVFIVIEKESEVQLVIEEAANVGVQPQVGLRVRLSSLASSK  215
+            YK D  FIK       L  N  I  +   E+  + + A  + +  ++GLRV   +     
+Sbjct  108  YKNDASFIK------ALQLNAMINCDHFDEILRIAKIAKKLNITAKIGLRVA-DNKTPQN  160
+
+Query  216  WADTGGEKAKFGLSAAQ----LLSVVERFRQAGLDQGVRL--LHFHMGSQIANLADYQHG  269
+            W+  G     F L+  Q    + + +++ +Q      ++L  LH H+G+ I +++ +   
+Sbjct  161  WSRFG-----FALTDQQSNSDIFTTIDKIQQIA---NIQLAGLHCHIGTNIRDISRFT-A  211
+
+Query  270  FKEAIRYYGE--LRALGLPVDHIDVGGGL-GVDYDGTHSRNASSINYDIDDYAGVVVGML  326
+              + I    E  L    L ++ ID+GGGL G+    +  R      +D++ YA  ++  L
+Sbjct  212  MAKNIAELAETILTKYKLTLEWIDLGGGLAGISPTLSDKRLQPYNPFDLELYAATIIAPL  271
+
+Query  327  KEFCDAQGLPHPHIFSESGRALTAHHAVLITQVTDVERHNDDVPKIVDLDEQPEIVRWLA  386
+            KE+ +        IF E GR+L  +   L+T +      N+D   ++  D     +  ++
+Sbjct  272  KEYLNKTNDKTKLIF-ELGRSLVDYSVALLTTIVGTREQNEDFQSLIT-DAGIHTIPTIS  329
+
+Query  387  ELLGPTDAEMVTETYWRATHYIGDAAAQY  415
+                P    + T++Y + T  +G +  Q+
+Sbjct  330  TYRHPI-YHLKTDSYHKKTLLLGPSCMQH  357
+
+
+>VFG026412(gb|WP_020821987) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium yongonense 05-1390]
+Length=472
+
+ Score = 58.2 bits (139),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 72/307 (23%), Positives = 135/307 (44%), Gaps = 40/307 (13%)
+
+Query  70   PLLVRFPDILQDRVRKLTGAFDANIERLEYQSRYTALYPI-KVNQQEAVVENIIATENVS  128
+            PL V   D  + R R++  AF    + + Y ++      I +   +E +  ++     ++
+Sbjct  66   PLFVVDEDDFRSRCREIASAFGGG-KNVHYAAKAFLCSEIARWIDEEGLSLDVCTGGELA  124
+
+Query  129  IGLEAGSKPELMAVLALAPKGGTIVCNGYKDREFIKLALMGQKLGHNVFIVIEKESEVQL  188
+            + L A   PE             I  +G         A +   +GH   +V++  +E++ 
+Sbjct  125  VALHANFPPE------------RITFHGNNKSVAELTAAVKAGVGH---VVLDSMTEIER  169
+
+Query  189  VIEEAANVGVQPQVGLRVRLSSLASS-KWADTGGEKAKFGLSAAQ--LLSVVERFRQAGL  245
+            +   A   G+   V +R+ +   A + ++  T  E  KFGLS A    L+ V R  +A  
+Sbjct  170  LNTIAGEAGIVQDVFVRLTVGVEAHTHEFISTAHEDQKFGLSVASGAALAAVGRVFEA--  227
+
+Query  246  DQGVRL--LHFHMGSQIANLADYQHGFK-------EAIRYYGELRALGLPVDHIDVGGGL  296
+             + +R+  LH H+GSQI ++A ++   +       EA+  +G  +     +  +D+GGGL
+Sbjct  228  -EHLRVVGLHSHIGSQIFDVAGFELAARRVLGLLHEAVEQFGVDKTA--QISTVDLGGGL  284
+
+Query  297  GVDYDGTHSRNASSINYDIDDYAGVVVGMLKEFCDAQGLPHPHIFSESGRALTAHHAVLI  356
+            G+ Y       A+     + + A  +  ++K   +A GLP P +  E GRA+     + +
+Sbjct  285  GISY------LAADDPPPMGELAAKLSAIVKNESEAVGLPTPRLVVEPGRAIAGPGTITL  338
+
+Query  357  TQVTDVE  363
+             +V  V+
+Sbjct  339  YEVGTVK  345
+
+
+>VFG023965(gb|WP_014379586) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium intracellulare ATCC 13950]
+Length=472
+
+ Score = 58.2 bits (139),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 72/307 (23%), Positives = 135/307 (44%), Gaps = 40/307 (13%)
+
+Query  70   PLLVRFPDILQDRVRKLTGAFDANIERLEYQSRYTALYPI-KVNQQEAVVENIIATENVS  128
+            PL V   D  + R R++  AF    + + Y ++      I +   +E +  ++     ++
+Sbjct  66   PLFVVDEDDFRSRCREIASAFGGG-KNVHYAAKAFLCSEIARWIDEEGLSLDVCTGGELA  124
+
+Query  129  IGLEAGSKPELMAVLALAPKGGTIVCNGYKDREFIKLALMGQKLGHNVFIVIEKESEVQL  188
+            + L A   PE             I  +G         A +   +GH   +V++  +E++ 
+Sbjct  125  VALHANFPPE------------RITFHGNNKSVAELTAAVKAGVGH---VVLDSMTEIER  169
+
+Query  189  VIEEAANVGVQPQVGLRVRLSSLASS-KWADTGGEKAKFGLSAAQ--LLSVVERFRQAGL  245
+            +   A   G+   V +R+ +   A + ++  T  E  KFGLS A    L+ V R  +A  
+Sbjct  170  LNTIAGEAGIVQDVFVRLTVGVEAHTHEFISTAHEDQKFGLSVASGAALAAVGRVFEA--  227
+
+Query  246  DQGVRL--LHFHMGSQIANLADYQHGFK-------EAIRYYGELRALGLPVDHIDVGGGL  296
+             + +R+  LH H+GSQI ++A ++   +       EA+  +G  +     +  +D+GGGL
+Sbjct  228  -EHLRVVGLHSHIGSQIFDVAGFELAARRVLGLLHEAVEQFGVDKTA--QISTVDLGGGL  284
+
+Query  297  GVDYDGTHSRNASSINYDIDDYAGVVVGMLKEFCDAQGLPHPHIFSESGRALTAHHAVLI  356
+            G+ Y       A+     + + A  +  ++K   +A GLP P +  E GRA+     + +
+Sbjct  285  GISY------LAADDPPPMGELAAKLSAIVKNESEAVGLPTPRLVVEPGRAIAGPGTITL  338
+
+Query  357  TQVTDVE  363
+             +V  V+
+Sbjct  339  YEVGTVK  345
+
+
+>VFG023961(gb|WP_008254777) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium indicus pranii MTCC 9506]
+Length=472
+
+ Score = 58.2 bits (139),  Expect = 8e-09, Method: Compositional matrix adjust.
+ Identities = 72/307 (23%), Positives = 135/307 (44%), Gaps = 40/307 (13%)
+
+Query  70   PLLVRFPDILQDRVRKLTGAFDANIERLEYQSRYTALYPI-KVNQQEAVVENIIATENVS  128
+            PL V   D  + R R++  AF    + + Y ++      I +   +E +  ++     ++
+Sbjct  66   PLFVVDEDDFRSRCREIASAFGGG-KNVHYAAKAFLCSEIARWIDEEGLSLDVCTGGELA  124
+
+Query  129  IGLEAGSKPELMAVLALAPKGGTIVCNGYKDREFIKLALMGQKLGHNVFIVIEKESEVQL  188
+            + L A   PE             I  +G         A +   +GH   +V++  +E++ 
+Sbjct  125  VALHANFPPE------------RITFHGNNKSVAELTAAVKAGVGH---VVLDSMTEIER  169
+
+Query  189  VIEEAANVGVQPQVGLRVRLSSLASS-KWADTGGEKAKFGLSAAQ--LLSVVERFRQAGL  245
+            +   A   G+   V +R+ +   A + ++  T  E  KFGLS A    L+ V R  +A  
+Sbjct  170  LNTIAGEAGIVQDVFVRLTVGVEAHTHEFISTAHEDQKFGLSVASGAALAAVGRVFEA--  227
+
+Query  246  DQGVRL--LHFHMGSQIANLADYQHGFK-------EAIRYYGELRALGLPVDHIDVGGGL  296
+             + +R+  LH H+GSQI ++A ++   +       EA+  +G  +     +  +D+GGGL
+Sbjct  228  -EHLRVVGLHSHIGSQIFDVAGFELAARRVLGLLHEAVEQFGVDKTA--QISTVDLGGGL  284
+
+Query  297  GVDYDGTHSRNASSINYDIDDYAGVVVGMLKEFCDAQGLPHPHIFSESGRALTAHHAVLI  356
+            G+ Y       A+     + + A  +  ++K   +A GLP P +  E GRA+     + +
+Sbjct  285  GISY------LAADDPPPMGELAAKLSAIVKNESEAVGLPTPRLVVEPGRAIAGPGTITL  338
+
+Query  357  TQVTDVE  363
+             +V  V+
+Sbjct  339  YEVGTVK  345
+
+
+>VFG044197(gb|WP_003022882) (fslC) diaminopimelate decarboxylase 
+[Rhizoferrin (VF0551) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella tularensis subsp. tularensis SCHU S4]
+Length=417
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 72/328 (22%), Positives = 139/328 (42%), Gaps = 32/328 (10%)
+
+Query  98   EYQSRYTALYPIKVNQQEAVVENIIATENVSIGLEAGSKPELMAVLALAPKGGTIVCNG-  156
+            +YQ+   A Y +K      +++       V    E  S  E   +  L     +I+ NG 
+Sbjct  52   QYQNSIAA-YSVKTQSLNTIIQKFY---EVGFIPEVVSSDEFEQIQKLQLCDKSIIFNGP  107
+
+Query  157  YKDREFIKLALMGQKLGHNVFIVIEKESEVQLVIEEAANVGVQPQVGLRVRLSSLASSKW  216
+            YK+      A + + L  N  I  +   E+  + + A  + +  ++GLRV   +     W
+Sbjct  108  YKND-----ASLIKALQLNAMINCDHFDEILRIAKIAKKLNITAKIGLRVA-DNKTPQNW  161
+
+Query  217  ADTGGEKAKFGLSAAQ----LLSVVERFRQAGLDQGVRL--LHFHMGSQIANLADYQHGF  270
+            +  G     F L+  Q    + + +++ +Q      ++L  LH H+G+ I +++ +    
+Sbjct  162  SRFG-----FALTDQQSNSDIFTTIDKIQQIA---NIQLAGLHCHIGTNIRDISRFT-AM  212
+
+Query  271  KEAIRYYGE--LRALGLPVDHIDVGGGL-GVDYDGTHSRNASSINYDIDDYAGVVVGMLK  327
+             + I    E  L    L ++ ID+GGGL G+    +  R      +D++ YA  ++  LK
+Sbjct  213  AKNIAELAETILTKYKLTLEWIDLGGGLAGISPTLSDKRLQPYNPFDLELYAATIIAPLK  272
+
+Query  328  EFCDAQGLPHPHIFSESGRALTAHHAVLITQVTDVERHNDDVPKIVDLDEQPEIVRWLAE  387
+            E+ +        IF E GR+L  +   L+T +      N+D   ++  D     +  ++ 
+Sbjct  273  EYLNKTNDKTKLIF-ELGRSLVDYSVALLTTIVGTREQNEDFQSLIT-DAGIHTIPTIST  330
+
+Query  388  LLGPTDAEMVTETYWRATHYIGDAAAQY  415
+               P    + T++Y + T  +G +  Q+
+Sbjct  331  YRHPI-YHLKTDSYHKKTLLLGPSCMQH  357
+
+
+>VFG026398(gb|WP_031599964) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium abscessus subsp. bolletii str. GO 
+06]
+Length=470
+
+ Score = 57.4 bits (137),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 79/320 (25%), Positives = 136/320 (43%), Gaps = 45/320 (14%)
+
+Query  60   GQLREAGLSL---------PLLVRFPDILQDRVRKLTGAFDANIERLEYQSR-YTALYPI  109
+            G++  AGL++         PL V   D  + R R +  AF     R+ Y S+ +      
+Sbjct  45   GEVTLAGLAVSELAEQYGTPLFVIDEDDFRSRCRDMAAAF-GGAARVHYASKAFLCTEVA  103
+
+Query  110  KVNQQEAVVENIIATENVSIGLEAGSKPELMAVLALAPKGGTIVCNGYKDREFIKLALMG  169
+            +  + E +  ++ +   +++ L A   PE +A+            N   + E  +    G
+Sbjct  104  RWIKDEGLGLDVCSAGELAVALRAEFPPERIALHG----------NNKSEAELAQAVQAG  153
+
+Query  170  QKLGHNVFIVIEKESEVQLVIEEAANVGVQPQVGLRVRLSSLASS-KWADTGGEKAKFGL  228
+              +GH   IV++   E+  +   A   GV   V +RV +   A + ++  T  E  KFGL
+Sbjct  154  --VGH---IVVDSMIEIDRLDAIAGKAGVVQDVLVRVTVGVEAHTHEFISTAHEDQKFGL  208
+
+Query  229  SAAQLLSVVERFRQAGLDQGVRL--LHFHMGSQIANLADYQHG-------FKEAIRYYGE  279
+            S A     +E  R+      +RL  LH H+GSQI ++  ++          ++ +  +G 
+Sbjct  209  SLAGG-QALEAVRRVFATDNLRLVGLHSHIGSQIFDVDGFEVAAHRVIGLLRDVVAEFGT  267
+
+Query  280  LRALGLPVDHIDVGGGLGVDYDGTHSRNASSINYDIDDYAGVVVGMLKEFCDAQGLPHPH  339
+             +   L +  ID+GGGLG+ Y        S     I+D A  +  +++      GLP P 
+Sbjct  268  DKTAQLNI--IDLGGGLGISY------VPSDDPPPIEDLAAKLGVIVRTESALAGLPEPR  319
+
+Query  340  IFSESGRALTAHHAVLITQV  359
+            +  E GRA+     V + +V
+Sbjct  320  LVIEPGRAIAGPGTVTLYRV  339
+
+
+>VFG026392(gb|WP_016342164) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium abscessus subsp. bolletii 50594]
+Length=470
+
+ Score = 57.4 bits (137),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 79/320 (25%), Positives = 136/320 (43%), Gaps = 45/320 (14%)
+
+Query  60   GQLREAGLSL---------PLLVRFPDILQDRVRKLTGAFDANIERLEYQSR-YTALYPI  109
+            G++  AGL++         PL V   D  + R R +  AF     R+ Y S+ +      
+Sbjct  45   GEVTLAGLAVSELAEQYGTPLFVIDEDDFRSRCRDMAAAF-GGAARVHYASKAFLCTEVA  103
+
+Query  110  KVNQQEAVVENIIATENVSIGLEAGSKPELMAVLALAPKGGTIVCNGYKDREFIKLALMG  169
+            +  + E +  ++ +   +++ L A   PE +A+            N   + E  +    G
+Sbjct  104  RWIKDEGLGLDVCSAGELAVALRAEFPPERIALHG----------NNKSEAELAQAVQAG  153
+
+Query  170  QKLGHNVFIVIEKESEVQLVIEEAANVGVQPQVGLRVRLSSLASS-KWADTGGEKAKFGL  228
+              +GH   IV++   E+  +   A   GV   V +RV +   A + ++  T  E  KFGL
+Sbjct  154  --VGH---IVVDSMIEIDRLDAIAGKAGVVQDVLVRVTVGVEAHTHEFISTAHEDQKFGL  208
+
+Query  229  SAAQLLSVVERFRQAGLDQGVRL--LHFHMGSQIANLADYQHG-------FKEAIRYYGE  279
+            S A     +E  R+      +RL  LH H+GSQI ++  ++          ++ +  +G 
+Sbjct  209  SLAGG-QALEAVRRVFATDNLRLVGLHSHIGSQIFDVDGFEVAAHRVIGLLRDVVAEFGT  267
+
+Query  280  LRALGLPVDHIDVGGGLGVDYDGTHSRNASSINYDIDDYAGVVVGMLKEFCDAQGLPHPH  339
+             +   L +  ID+GGGLG+ Y        S     I+D A  +  +++      GLP P 
+Sbjct  268  DKTAQLNI--IDLGGGLGISY------VPSDDPPPIEDLAAKLGVIVRTESALAGLPEPR  319
+
+Query  340  IFSESGRALTAHHAVLITQV  359
+            +  E GRA+     V + +V
+Sbjct  320  LVIEPGRAIAGPGTVTLYRV  339
+
+
+>VFG047339(gb|WP_012429069) (fslC) diaminopimelate decarboxylase 
+[Rhizoferrin (VF0551) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella tularensis subsp. mediasiatica FSC147]
+Length=417
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 72/328 (22%), Positives = 139/328 (42%), Gaps = 32/328 (10%)
+
+Query  98   EYQSRYTALYPIKVNQQEAVVENIIATENVSIGLEAGSKPELMAVLALAPKGGTIVCNG-  156
+            +YQ+   A Y +K      +++       V    E  S  E   +  L     +I+ NG 
+Sbjct  52   QYQNSIAA-YSVKTQSLNTIIQKFY---EVGFIPEVVSSDEFEQIQKLQLCDKSIIFNGP  107
+
+Query  157  YKDREFIKLALMGQKLGHNVFIVIEKESEVQLVIEEAANVGVQPQVGLRVRLSSLASSKW  216
+            YK+      A + + L  N  I  +   E+  + + A  + +  ++GLRV   +     W
+Sbjct  108  YKND-----ASLIKALQLNAMINCDHFDEILRIAKIAKKLNITAKIGLRVA-DNKTPQNW  161
+
+Query  217  ADTGGEKAKFGLSAAQ----LLSVVERFRQAGLDQGVRL--LHFHMGSQIANLADYQHGF  270
+            +  G     F L+  Q    + + +++ +Q      ++L  LH H+G+ I +++ +    
+Sbjct  162  SRFG-----FALTDQQSNSDIFTTIDKIQQIA---NIQLAGLHCHIGTNIRDISRFT-AM  212
+
+Query  271  KEAIRYYGE--LRALGLPVDHIDVGGGL-GVDYDGTHSRNASSINYDIDDYAGVVVGMLK  327
+             + I    E  L    L ++ ID+GGGL G+    +  R      +D++ YA  ++  LK
+Sbjct  213  AKNIAELAETILTKYKLTLEWIDLGGGLAGISPTLSDKRLQPYNPFDLELYAATIIAPLK  272
+
+Query  328  EFCDAQGLPHPHIFSESGRALTAHHAVLITQVTDVERHNDDVPKIVDLDEQPEIVRWLAE  387
+            E+ +        IF E GR+L  +   L+T +      N+D   ++  D     +  ++ 
+Sbjct  273  EYLNKTNDKTKLIF-ELGRSLVDYSVALLTTIVGTREQNEDFQSLIT-DAGIHTIPTIST  330
+
+Query  388  LLGPTDAEMVTETYWRATHYIGDAAAQY  415
+               P    + T++Y + T  +G +  Q+
+Sbjct  331  YRHPI-YHLKTDSYHKKTLLLGPSCMQH  357
+
+
+>VFG047345(gb|WP_014550286) (fslC) diaminopimelate decarboxylase 
+[Rhizoferrin (VF0551) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella cf. novicida Fx1]
+Length=417
+
+ Score = 57.0 bits (136),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 73/331 (22%), Positives = 139/331 (42%), Gaps = 38/331 (11%)
+
+Query  98   EYQSRYTALYPIKVNQQEAVVENIIATENVSIGLEAGSKPELMAVLALAPKGGTIVCNG-  156
+            +YQ+   A Y +K      +++       V    E  S  E   +  L     +I+ NG 
+Sbjct  52   QYQNSIAA-YSVKTQSLNTIIQKFY---EVGFIPEVVSSDEFEQIQKLQLCDKSIIFNGP  107
+
+Query  157  YKDREFIKLALMGQKLGHNVFIVIEKESEVQLVIEEAANVGVQPQVGLRVRLSSLASSKW  216
+            YK+      A + + L  N  I  +   E+  + + A  + +  ++GLRV   +     W
+Sbjct  108  YKND-----ASLIKALQLNAMINCDHFDEILRIAKIAKKLNITAKIGLRVA-DNKTPQNW  161
+
+Query  217  ADTGGEKAKFGLSAAQ----LLSVVERFRQAGLDQGVRL--LHFHMGSQIANLADYQHGF  270
+            +  G     F L+  Q    + + +++ +Q      ++L  LH H+G+ I +++     F
+Sbjct  162  SRFG-----FALTDLQSNSDIFTTIDKIQQIA---NIQLAGLHCHIGTNIRDIS----RF  209
+
+Query  271  KEAIRYYGEL-----RALGLPVDHIDVGGGL-GVDYDGTHSRNASSINYDIDDYAGVVVG  324
+                +  GEL         L ++ ID+GGGL G+    +  R      +D++ YA  ++ 
+Sbjct  210  TAMAKNIGELAETILTKYKLTLEWIDLGGGLAGISPTLSDKRLQPYNPFDLELYAATIIA  269
+
+Query  325  MLKEFCDAQGLPHPHIFSESGRALTAHHAVLITQVTDVERHNDDVPKIVDLDEQPEIVRW  384
+             LKE+ +        IF E GR+L  +   L+T +      N+D   ++  D     +  
+Sbjct  270  PLKEYLNKTNDKTKLIF-ELGRSLVDYSVALLTTIVGTREQNEDFQSLIT-DAGIHTIPT  327
+
+Query  385  LAELLGPTDAEMVTETYWRATHYIGDAAAQY  415
+            ++    P    + T++Y + T  +G +  Q+
+Sbjct  328  ISTYRHPI-YHLKTDSYHKKTLLLGPSCMQH  357
+
+
+>VFG047335(gb|WP_003041325) (fslC) diaminopimelate decarboxylase 
+[Rhizoferrin (VF0551) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella novicida U112]
+Length=417
+
+ Score = 56.6 bits (135),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 71/328 (22%), Positives = 139/328 (42%), Gaps = 32/328 (10%)
+
+Query  98   EYQSRYTALYPIKVNQQEAVVENIIATENVSIGLEAGSKPELMAVLALAPKGGTIVCNG-  156
+            +YQ+   A Y +K      +++       V    E  S  E   +  L     +I+ NG 
+Sbjct  52   QYQNSIAA-YSVKTQSLNTIIQKFY---EVGFIPEVVSSDEFEQIQKLQLCDKSIIFNGP  107
+
+Query  157  YKDREFIKLALMGQKLGHNVFIVIEKESEVQLVIEEAANVGVQPQVGLRVRLSSLASSKW  216
+            YK+      A + + L  N  I  +   E+  + + A  + +  ++GLR+   +     W
+Sbjct  108  YKND-----ASLIKALQLNAMINCDHFDEILRIAKIAKKLNITAKIGLRIA-DNKTPQNW  161
+
+Query  217  ADTGGEKAKFGLSAAQ----LLSVVERFRQAGLDQGVRL--LHFHMGSQIANLADYQHGF  270
+            +  G     F L+  Q    + + +++ +Q      ++L  LH H+G+ I +++ +    
+Sbjct  162  SRFG-----FALTDQQNNSDIFTTIDKIQQIA---NIQLAGLHCHIGTNIRDISRFT-AM  212
+
+Query  271  KEAIRYYGE--LRALGLPVDHIDVGGGL-GVDYDGTHSRNASSINYDIDDYAGVVVGMLK  327
+             + I    E  L    L ++ ID+GGGL G+    +  R      +D++ YA  ++  LK
+Sbjct  213  AKNIAELAETILTKYKLTLEWIDLGGGLAGISPTLSDKRLQPYNPFDLELYAATIIAPLK  272
+
+Query  328  EFCDAQGLPHPHIFSESGRALTAHHAVLITQVTDVERHNDDVPKIVDLDEQPEIVRWLAE  387
+            E+ +        IF E GR+L  +   L+T +      N+D   ++  D     +  ++ 
+Sbjct  273  EYLNKTNDKTKLIF-ELGRSLVDYSVALLTTIVGTREQNEDFQSLIT-DAGIHTIPTIST  330
+
+Query  388  LLGPTDAEMVTETYWRATHYIGDAAAQY  415
+               P    + T++Y + T  +G +  Q+
+Sbjct  331  YRHPI-YHLKTDSYHKKTLLLGPSCMQH  357
+
+
+>VFG009394(gb|WP_011856338) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium sp. JLS]
+Length=474
+
+ Score = 55.8 bits (133),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 74/297 (25%), Positives = 132/297 (44%), Gaps = 38/297 (13%)
+
+Query  79   LQDRVRKLTGAFDANIERLEYQSR-YTALYPIKVNQQEAVVENIIATENVSIGLEAGSKP  137
+             + R R+++ AF    E + Y ++ +      +   +E +  ++ +   +++ L AG   
+Sbjct  75   FRSRCREISAAFGGG-EYVRYAAKAFLCTEVARWIDEEGLALDVASGGELAVALHAGFPA  133
+
+Query  138  ELMAVLALAPKGGTIVCNGYKDREFIKLALMGQKLGHNVFIVIEKESEVQLVIEEAANVG  197
+            E +A+               K  + + LA+    +GH   +V++   E++ + E AA  G
+Sbjct  134  ERIAL-----------HGNNKSPDELALAVK-SGVGH---VVVDSMIEIERLDEIAAAAG  178
+
+Query  198  VQPQVGLRVRLSSLASS-KWADTGGEKAKFGLSAAQLLSVVERFRQAGLDQGVRL--LHF  254
+            V   V +RV +   A + ++  T  E  KFGLS A   ++    R    D  +RL  LH 
+Sbjct  179  VVQDVLVRVTVGVEAHTHEFISTAHEDQKFGLSLASGAAMAAVRRVFETDN-LRLVGLHS  237
+
+Query  255  HMGSQIANLADYQHGFKEAIRYYGELRAL--------GLPVDHIDVGGGLGVDYDGTHSR  306
+            H+GSQI ++A ++     A R  G LR +           +  +D+GGGLG+ Y      
+Sbjct  238  HIGSQIFDVAGFE---LAAHRVIGLLRDVVAEFGVDKTAQMSTVDLGGGLGISYLPQDDP  294
+
+Query  307  NASSINYDIDDYAGVVVGMLKEFCDAQGLPHPHIFSESGRALTAHHAVLITQVTDVE  363
+                    + D A  +  +++E   A GLP P +  E GRA+     + + +V  V+
+Sbjct  295  PP------VADLAAKLSAIVREESAAVGLPTPKLVVEPGRAIAGPGTITLYEVGTVK  345
+
+
+>VFG009395(gb|WP_208856697) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium sp. KMS]
+Length=461
+
+ Score = 55.8 bits (133),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 79/306 (26%), Positives = 133/306 (43%), Gaps = 56/306 (18%)
+
+Query  79   LQDRVRKLTGAFDANIERLEYQSR-YTALYPIKVNQQEAVVENIIATENVSIGLEAGSKP  137
+             + R R+++ AF    E + Y ++ +      +   +E +  ++ +   +++ L AG   
+Sbjct  62   FRSRCREISAAFGGG-EYVRYAAKAFLCTEVARWIDEEGLALDVASGGELAVALHAGFPA  120
+
+Query  138  ELMAV---------LALAPKGGTIVCNGYKDREFIKLALMGQKLGHNVFIVIEKESEVQL  188
+            E +A+         LALA K G                     +GH   +V++   E++ 
+Sbjct  121  ERIALHGNNKSPDELALAVKSG---------------------VGH---VVVDSMIEIER  156
+
+Query  189  VIEEAANVGVQPQVGLRVRLSSLASS-KWADTGGEKAKFGLSAAQLLSVVERFRQAGLDQ  247
+            + E AA  GV   V +RV +   A + ++  T  E  KFGLS A   ++    R    D 
+Sbjct  157  LDEIAAAAGVVQDVLVRVTVGVEAHTHEFISTAHEDQKFGLSLASGAAMAAVRRVFETDN  216
+
+Query  248  GVRL--LHFHMGSQIANLADYQHGFKEAIRYYGELRAL--GLPVDH------IDVGGGLG  297
+             +RL  LH H+GSQI ++A ++     A R  G LR +     VD       +D+GGGLG
+Sbjct  217  -LRLVGLHSHIGSQIFDVAGFE---LAAHRVIGLLRDVVAEFGVDKTAQMSTVDLGGGLG  272
+
+Query  298  VDYDGTHSRNASSINYDIDDYAGVVVGMLKEFCDAQGLPHPHIFSESGRALTAHHAVLIT  357
+            + Y              + D A  +  +++E   A GLP P +  E GRA+     + + 
+Sbjct  273  ISYLPQDDPPP------VADLAAKLSAIVREESAAVGLPTPKLVVEPGRAIAGPGTITLY  326
+
+Query  358  QVTDVE  363
+            +V  V+
+Sbjct  327  EVGTVK  332
+
+
+>VFG009396(gb|WP_011561277) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium sp. MCS]
+Length=474
+
+ Score = 55.8 bits (133),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 74/297 (25%), Positives = 132/297 (44%), Gaps = 38/297 (13%)
+
+Query  79   LQDRVRKLTGAFDANIERLEYQSR-YTALYPIKVNQQEAVVENIIATENVSIGLEAGSKP  137
+             + R R+++ AF    E + Y ++ +      +   +E +  ++ +   +++ L AG   
+Sbjct  75   FRSRCREISAAFGGG-EYVRYAAKAFLCTEVARWIDEEGLALDVASGGELAVALHAGFPA  133
+
+Query  138  ELMAVLALAPKGGTIVCNGYKDREFIKLALMGQKLGHNVFIVIEKESEVQLVIEEAANVG  197
+            E +A+               K  + + LA+    +GH   +V++   E++ + E AA  G
+Sbjct  134  ERIAL-----------HGNNKSPDELALAVK-SGVGH---VVVDSMIEIERLDEIAAAAG  178
+
+Query  198  VQPQVGLRVRLSSLASS-KWADTGGEKAKFGLSAAQLLSVVERFRQAGLDQGVRL--LHF  254
+            V   V +RV +   A + ++  T  E  KFGLS A   ++    R    D  +RL  LH 
+Sbjct  179  VVQDVLVRVTVGVEAHTHEFISTAHEDQKFGLSLASGAAMAAVRRVFETDN-LRLVGLHS  237
+
+Query  255  HMGSQIANLADYQHGFKEAIRYYGELRAL--------GLPVDHIDVGGGLGVDYDGTHSR  306
+            H+GSQI ++A ++     A R  G LR +           +  +D+GGGLG+ Y      
+Sbjct  238  HIGSQIFDVAGFE---LAAHRVIGLLRDVVAEFGVDKTAQMSTVDLGGGLGISYLPQDDP  294
+
+Query  307  NASSINYDIDDYAGVVVGMLKEFCDAQGLPHPHIFSESGRALTAHHAVLITQVTDVE  363
+                    + D A  +  +++E   A GLP P +  E GRA+     + + +V  V+
+Sbjct  295  PP------VADLAAKLSAIVREESAAVGLPTPKLVVEPGRAIAGPGTITLYEVGTVK  345
+
+
+>VFG047336(gb|WP_003017402) (fslC) diaminopimelate decarboxylase 
+[Rhizoferrin (VF0551) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella tularensis subsp. holarctica FTNF002-00]
+Length=417
+
+ Score = 55.5 bits (132),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 72/328 (22%), Positives = 139/328 (42%), Gaps = 32/328 (10%)
+
+Query  98   EYQSRYTALYPIKVNQQEAVVENIIATENVSIGLEAGSKPELMAVLALAPKGGTIVCNG-  156
+            +YQ+   A Y +K      +++       V    E  S  E   +  L     +I+ NG 
+Sbjct  52   QYQNSIAA-YSVKTQSLNTIIQKFY---EVGFIPEVVSSDEFEQIQKLQLCDKSIIFNGP  107
+
+Query  157  YKDREFIKLALMGQKLGHNVFIVIEKESEVQLVIEEAANVGVQPQVGLRVRLSSLASSKW  216
+            YK+      A + + L  N  I  +   E+  + + A  + +  ++GLRV   +     W
+Sbjct  108  YKND-----ASLIKALQLNAMINCDHFDEILRIAKIAKKLNITAKIGLRVA-DNKTPQNW  161
+
+Query  217  ADTGGEKAKFGLSAAQ----LLSVVERFRQAGLDQGVRL--LHFHMGSQIANLADYQHGF  270
+            +  G     F L+  Q    + + +++ +Q      ++L  LH H+G+ I +++ +    
+Sbjct  162  SRFG-----FALTDQQSNSDIFTTIDKIQQIA---NIQLAGLHCHIGTNIRDISRFT-AM  212
+
+Query  271  KEAIRYYGE--LRALGLPVDHIDVGGGL-GVDYDGTHSRNASSINYDIDDYAGVVVGMLK  327
+             + I    E  L    L ++ ID+GGGL G+    +  R      +D++ YA  ++  LK
+Sbjct  213  AKNIAELAETILTKYKLTLEWIDLGGGLAGISPTLSDKRLQPYNPFDLELYAATIIVPLK  272
+
+Query  328  EFCDAQGLPHPHIFSESGRALTAHHAVLITQVTDVERHNDDVPKIVDLDEQPEIVRWLAE  387
+            E+ +        IF E GR+L  +   L+T +      N+D   ++  D     +  ++ 
+Sbjct  273  EYLNKTNDKTKLIF-ELGRSLVDYSVALLTTIVGTREQNEDFQSLIT-DAGIHTIPTIST  330
+
+Query  388  LLGPTDAEMVTETYWRATHYIGDAAAQY  415
+               P    + T++Y + T  +G +  Q+
+Sbjct  331  YRHPI-YHLKTDSYHKKTLLLGPSCMQH  357
+
+
+>VFG009388(gb|WP_011724196) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium avium 104]
+Length=472
+
+ Score = 55.5 bits (132),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 71/307 (23%), Positives = 134/307 (44%), Gaps = 40/307 (13%)
+
+Query  70   PLLVRFPDILQDRVRKLTGAFDANIERLEYQSR-YTALYPIKVNQQEAVVENIIATENVS  128
+            PL V   D  + R R++  AF      + Y ++ +      +   +E +  ++     ++
+Sbjct  66   PLFVVDEDDFRSRCREIASAFGGG-NNVHYAAKAFLCSEVARWIDEEGLSLDVCTGGELA  124
+
+Query  129  IGLEAGSKPELMAVLALAPKGGTIVCNGYKDREFIKLALMGQKLGHNVFIVIEKESEVQL  188
+            + L A   PE             I  +G         A +   +GH   +V++  +E++ 
+Sbjct  125  VALHADFPPE------------RITFHGNNKSVAELTAAVKAGVGH---VVLDSMTEIER  169
+
+Query  189  VIEEAANVGVQPQVGLRVRLSSLASS-KWADTGGEKAKFGLSAAQ--LLSVVERFRQAGL  245
+            +   AA+ G+   V +R+ +   A + ++  T  E  KFGLS A    L+ V R      
+Sbjct  170  LDAIAADAGIVQDVFVRLTVGVEAHTHEFISTAHEDQKFGLSVASGSALAAVGRVFDT--  227
+
+Query  246  DQGVRL--LHFHMGSQIANLADYQHGFK-------EAIRYYGELRALGLPVDHIDVGGGL  296
+             + +RL  LH H+GSQI ++A ++   +       +A+  +G  +   +    +D+GGGL
+Sbjct  228  -EHLRLVGLHSHIGSQIFDVAGFELAARRVIGLLHDAVEQFGVEKTAQIAT--VDLGGGL  284
+
+Query  297  GVDYDGTHSRNASSINYDIDDYAGVVVGMLKEFCDAQGLPHPHIFSESGRALTAHHAVLI  356
+            G+ Y       A+     + + AG +  +++    A GLP P +  E GRA+     + +
+Sbjct  285  GISY------LAADDPPPMGELAGKLSAIVQHESAAVGLPTPRLVVEPGRAIAGPGTITL  338
+
+Query  357  TQVTDVE  363
+             +V  V+
+Sbjct  339  YEVGTVK  345
+
+
+>VFG009387(gb|WP_003877287) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium avium subsp. paratuberculosis K-10]
+Length=472
+
+ Score = 55.5 bits (132),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 71/307 (23%), Positives = 134/307 (44%), Gaps = 40/307 (13%)
+
+Query  70   PLLVRFPDILQDRVRKLTGAFDANIERLEYQSRYTALYPI-KVNQQEAVVENIIATENVS  128
+            PL V   D  + R R++  AF      + Y ++      + +   +E +  ++     ++
+Sbjct  66   PLFVVDEDDFRSRCREIASAFGGG-NNVHYAAKAFLCSEVARWIDEEGLSLDVCTGGELA  124
+
+Query  129  IGLEAGSKPELMAVLALAPKGGTIVCNGYKDREFIKLALMGQKLGHNVFIVIEKESEVQL  188
+            + L A   PE             I  +G         A +   +GH   +V++  +E++ 
+Sbjct  125  VALHADFPPE------------RITFHGNNKSVAELTAAVKAGVGH---VVLDSMTEIER  169
+
+Query  189  VIEEAANVGVQPQVGLRVRLSSLASS-KWADTGGEKAKFGLSAAQ--LLSVVERFRQAGL  245
+            +   AA+ G+   V +R+ +   A + ++  T  E  KFGLS A    L+ V R      
+Sbjct  170  LDAIAADAGIVQDVFVRLTVGVEAHTHEFISTAHEDQKFGLSVASGAALAAVGRVFDT--  227
+
+Query  246  DQGVRL--LHFHMGSQIANLADYQHGFK-------EAIRYYGELRALGLPVDHIDVGGGL  296
+             + +RL  LH H+GSQI ++A ++   +       +A+  +G  +   +    +D+GGGL
+Sbjct  228  -EHLRLVGLHSHIGSQIFDVAGFELAARRVIGLLHDAVEQFGVEKTAQIAT--VDLGGGL  284
+
+Query  297  GVDYDGTHSRNASSINYDIDDYAGVVVGMLKEFCDAQGLPHPHIFSESGRALTAHHAVLI  356
+            G+ Y       A+     + + AG +  +++    A GLP P +  E GRA+     + +
+Sbjct  285  GISY------LAADDPPPMGELAGKLSAIVQHESAAVGLPTPRLVVEPGRAIAGPGTITL  338
+
+Query  357  TQVTDVE  363
+             +V  V+
+Sbjct  339  YEVGTVK  345
+
+
+>VFG047342(gb|WP_014549026) (fslC) diaminopimelate decarboxylase 
+[Rhizoferrin (VF0551) - Nutritional/Metabolic factor (VFC0272)] 
+[Francisella cf. tularensis subsp. novicida 3523]
+Length=416
+
+ Score = 55.1 bits (131),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 67/264 (25%), Positives = 116/264 (44%), Gaps = 44/264 (17%)
+
+Query  132  EAGSKPE--------LMAVLALAPKGGTIVCNG-YKDREFIKLALMGQKLGHNVFIVIEK  182
+            +AG  PE        L+  L L  KG  I+ NG YK+      A + + L  N  I  + 
+Sbjct  76   QAGFIPEVVSSDEFQLIEKLQLWDKG--IIFNGPYKND-----ASLIKALRLNAIINCDH  128
+
+Query  183  ESEVQLVIEEAANVGVQPQVGLRVRLSSLASSKWADTGGEKAKFGLSAAQ----LLSVVE  238
+              E+  + + A  + +  ++GLRV   +     W+  G     F LS  Q    + +V++
+Sbjct  129  FDEILRIAKIAKELNITAKIGLRVA-DNKTPQNWSRFG-----FALSNQQNNDDIFAVID  182
+
+Query  239  RFRQAGLDQGVRL--LHFHMGSQIANLADYQH------GFKEAIRYYGELRALGLPVDHI  290
+            + +Q    Q ++L  LH H+G+ I +++ +        G  E I     L    L +D I
+Sbjct  183  KIQQI---QNIQLAGLHCHIGTNIRDISRFAAMAKNIAGLAERI-----LTKYKLTLDWI  234
+
+Query  291  DVGGGL-GVDYDGTHSRNASSINYDIDDYAGVVVGMLKEFCDAQGLPHPHIFSESGRALT  349
+            D+GGGL G+       +      +D++ Y+  ++  LKE+ +        IF E GR+L 
+Sbjct  235  DLGGGLAGISPTLKDKQLHPYRPFDLELYSRTIIAPLKEYLNKTNNKTKLIF-ELGRSLV  293
+
+Query  350  AHHAVLITQVTDVERHNDDVPKIV  373
+             +   L+T +      N+D   ++
+Sbjct  294  DYSVALLTTIVGTREQNEDFQSLI  317
+
+
+>VFG026414(gb|WP_198344965) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium smegmatis JS623]
+Length=460
+
+ Score = 54.7 bits (130),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 77/312 (25%), Positives = 133/312 (43%), Gaps = 40/312 (13%)
+
+Query  65   AGLSLPLLVRFPDILQDRVRKLTGAFDANIERLEYQSR-YTALYPIKVNQQEAVVENIIA  123
+            A    P  V   D  + R R++  AF    + + Y ++ +      +  +QE +  ++  
+Sbjct  48   AEFGTPAFVIDEDDFRSRCREIAAAFGGG-DNVHYAAKAFLCTEVARWVEQEGLSLDVAT  106
+
+Query  124  TENVSIGLEAGSKPELMAVLALAPKGGTIVCNGYKDREFIKLALMGQKLGHNVFIVIEKE  183
+               +++ L A   P+ +          T+  N     E       G  +GH   +V++  
+Sbjct  107  GGELAVALHATFPPDRI----------TLHGNNKSVDELTTAVKAG--IGH---VVLDSM  151
+
+Query  184  SEVQLVIEEAANVGVQPQVGLRVRLSSLASS-KWADTGGEKAKFGLSAAQLLSVVERFRQ  242
+            +E++ + E A   G    V +RV +   A + ++  T  E  KFGLS A   + ++  R+
+Sbjct  152  TEIERLDEIAGAAGAVQDVLVRVTVGVEAHTHEFISTAHEDQKFGLSLASG-AAMDAIRR  210
+
+Query  243  AGLDQGVRL--LHFHMGSQIANLADYQHGFKEAI-RYYGELR----ALGL----PVDHID  291
+                  +RL  LH H+GSQI ++     GF+ A  R  G LR      G+     ++ +D
+Sbjct  211  VFATDNLRLVGLHSHIGSQIFDV----DGFELAAHRVIGLLRDVVAEFGVDKTSQLETVD  266
+
+Query  292  VGGGLGVDYDGTHSRNASSINYDIDDYAGVVVGMLKEFCDAQGLPHPHIFSESGRALTAH  351
+            +GGGLG+ Y              I D A  +  +++    A GLP P +  E GRA+   
+Sbjct  267  LGGGLGISYLPQDDPPP------ITDLAAKLSAIVRNESAAVGLPAPRLVVEPGRAIAGP  320
+
+Query  352  HAVLITQVTDVE  363
+              + + QV  V+
+Sbjct  321  GTITLYQVGTVK  332
+
+
+>VFG009391(gb|WP_011730213) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium smegmatis str. MC2 155]
+Length=474
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 73/313 (23%), Positives = 131/313 (42%), Gaps = 42/313 (13%)
+
+Query  65   AGLSLPLLVRFPDILQDRVRKLTGAFDANIERLEYQSRYTALYPIKVNQQEAVVENIIAT  124
+            A    PL V   D  + R R +  AF    + + Y ++      I     E         
+Sbjct  61   AKFGTPLFVIDEDDFRTRCRDIAAAFGGG-QYVHYAAKAFLCSEIARWVDE---------  110
+
+Query  125  ENVSIGLEAGSKPELMAVLALAPKGGTIVCNGYKDREFIKLALMGQKLGHNVFIVIEKES  184
+            E +S+ +  G   EL   L        I  +G         A +   +GH   +V++ E 
+Sbjct  111  EGLSLDVATGG--ELAVALHAGFPASRITVHGNNKSVAELTAAVQAGVGH---VVLDSEI  165
+
+Query  185  EVQLVIEEAANVGVQPQVGLRVRLSSLASS-KWADTGGEKAKFGLSAAQLLSVVERFRQA  243
+            E++ + + A   GV   V +RV +   A + ++  T  E  KFGLS A   + +   R+ 
+Sbjct  166  EIERLDQIAGAAGVVQDVLVRVTVGVEAHTHEFISTAHEDQKFGLSLATG-AAMNAIRRV  224
+
+Query  244  GLDQGVRL--LHFHMGSQIANLADYQHG-------FKEAIRYYGELRALGLPVDHIDVGG  294
+                 +RL  LH H+GSQI ++A ++          ++ +  +G  +   + +  +D+GG
+Sbjct  225  FATDNLRLVGLHSHIGSQIFDVAGFEIAAHRVIGLLRDVVAEFGVEKTSQMSI--VDLGG  282
+
+Query  295  GLGVDYDGTHSRNASSINYD----IDDYAGVVVGMLKEFCDAQGLPHPHIFSESGRALTA  350
+            GLG+ Y          + +D    + + A  ++ +++    A GLP P +  E GRA+  
+Sbjct  283  GLGISY----------LPHDDPPPMKELADKLLEIVRTESAAVGLPTPKLVVEPGRAIAG  332
+
+Query  351  HHAVLITQVTDVE  363
+               + + +V  V+
+Sbjct  333  PGTITLYEVGTVK  345
+
+
+>VFG023960(gb|WP_013471174) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium gilvum Spyr1]
+Length=472
+
+ Score = 50.4 bits (119),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 58/192 (30%), Positives = 92/192 (48%), Gaps = 25/192 (13%)
+
+Query  185  EVQLVIEEAANVGVQPQVGLRVRLSSLASS-KWADTGGEKAKFGLSAAQ--LLSVVERFR  241
+            E++ +   AA+ GV   V +RV +   A + ++  T  E  KFGLS A    +  V R  
+Sbjct  166  EIERLDRIAADNGVVQDVLVRVTVGVEAHTHEFISTAHEDQKFGLSLASGAAMEAVRRVF  225
+
+Query  242  QAGLDQGVRL--LHFHMGSQIANLADYQHGFKEAIRYYGELR----ALGLP----VDHID  291
+            +AG    +RL  LH H+GSQI ++A ++     A R  G LR      G+     +D +D
+Sbjct  226  EAG---NLRLVGLHSHIGSQIFDVAGFE---IAAHRVIGLLRDVVAEFGVEKTSQMDIVD  279
+
+Query  292  VGGGLGVDYDGTHSRNASSINYDIDDYAGVVVGMLKEFCDAQGLPHPHIFSESGRALTAH  351
+            +GGGLG+ Y      N   ++    + A  +  ++     A GLP P +  E GRA+   
+Sbjct  280  LGGGLGISY--LPDDNPPPMS----ELAAKLKAIVARESAAVGLPAPKLVVEPGRAIAGP  333
+
+Query  352  HAVLITQVTDVE  363
+              + + +V  V+
+Sbjct  334  GTITLYEVGTVK  345
+
+
+>VFG009392(gb|WP_011893180) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium gilvum PYR-GCK]
+Length=472
+
+ Score = 50.4 bits (119),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 58/192 (30%), Positives = 92/192 (48%), Gaps = 25/192 (13%)
+
+Query  185  EVQLVIEEAANVGVQPQVGLRVRLSSLASS-KWADTGGEKAKFGLSAAQ--LLSVVERFR  241
+            E++ +   AA+ GV   V +RV +   A + ++  T  E  KFGLS A    +  V R  
+Sbjct  166  EIERLDRIAADNGVVQDVLVRVTVGVEAHTHEFISTAHEDQKFGLSLASGAAMEAVRRVF  225
+
+Query  242  QAGLDQGVRL--LHFHMGSQIANLADYQHGFKEAIRYYGELR----ALGLP----VDHID  291
+            +AG    +RL  LH H+GSQI ++A ++     A R  G LR      G+     +D +D
+Sbjct  226  EAG---NLRLVGLHSHIGSQIFDVAGFE---IAAHRVIGLLRDVVAEFGVEKTSQMDIVD  279
+
+Query  292  VGGGLGVDYDGTHSRNASSINYDIDDYAGVVVGMLKEFCDAQGLPHPHIFSESGRALTAH  351
+            +GGGLG+ Y      N   ++    + A  +  ++     A GLP P +  E GRA+   
+Sbjct  280  LGGGLGISY--LPDDNPPPMS----ELAAKLRAIVARESAAVGLPAPKLVVEPGRAIAGP  333
+
+Query  352  HAVLITQVTDVE  363
+              + + +V  V+
+Sbjct  334  GTITLYEVGTVK  345
+
+
+>VFG044261(gb|WP_001223700) (sbnH) staphyloferrin B biosynthesis 
+decarboxylase SbnH [Staphyloferrin B (VF1014) - Nutritional/Metabolic 
+factor (VFC0272)] [Staphylococcus aureus subsp. 
+aureus str. Newman]
+Length=400
+
+ Score = 48.5 bits (114),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 67/293 (23%), Positives = 122/293 (42%), Gaps = 40/293 (14%)
+
+Query  79   LQDRVRKLTGAFDANIERLEYQSRYTALYPIKVNQQEAVVENIIATENVSIGLEAGSKPE  138
+            L+  ++ +T +  +N +           Y +K N +  +++ I  ++ V  G E  S+ E
+Sbjct  28   LEHHLQHITSSLPSNCQ---------MYYAMKANSERKILDTI--SQYVE-GFEVASQGE  75
+
+Query  139  LMAVLALAPKGGTIVCNGYKDREFIKLALM-GQKLGHNVFIVIEKESEVQLVIEEAANVG  197
+            +   LA  P    I     K  E ++ A+  G +  H     +E   E+Q +     +  
+Sbjct  76   IAKGLAFKPANHIIFGGPGKTDEELRYAVSEGVQRIH-----VESMHELQRLNAILEDED  130
+
+Query  198  VQPQVGLRVRLSSLASSKWADTGGEKAKFGLSAAQLLSVVERFRQAGLDQGVRLLHFHMG  257
+                + LRV L+    +      G   +FG+S  ++  V+E    A     + L  FH  
+Sbjct  131  KTQHILLRVNLAGPFPNATLHMAGRPTQFGISEDEVDDVIE---AALAMPKIHLDGFHFH  187
+
+Query  258  SQIANLADYQH------GFKEAIRYYGELRALGLPVDHIDVGGGLGVDYDGTHSRNASSI  311
+            S   NL    H       FK+A  +  + R    P+ HI++GGG+GV+Y    ++     
+Sbjct  188  SISNNLDSNLHVDVVKLYFKKAKAWSEKHR---FPLKHINLGGGIGVNYADLTNQ-----  239
+
+Query  312  NYDIDDYAGVVVGMLKEFCDAQGLPHPHIFSESGRALTAHHAVLITQVTDVER  364
+             ++ D++    V   K     Q +    +  E GR + AH    +T+V D+++
+Sbjct  240  -FEWDNF----VERFKTLIVEQEMEDVTLNFECGRFIVAHIGYYVTEVLDIKK  287
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5476114230
+
+
+Query= g2870.t1
+
+Length=658
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG009391(gb|WP_011730213) (lysA) diaminopimelate decarboxylase [...  54.3    1e-07
+VFG009395(gb|WP_208856697) (lysA) diaminopimelate decarboxylase [...  53.9    2e-07
+VFG009394(gb|WP_011856338) (lysA) diaminopimelate decarboxylase [...  53.9    2e-07
+VFG009396(gb|WP_011561277) (lysA) diaminopimelate decarboxylase [...  53.9    2e-07
+VFG026414(gb|WP_198344965) (lysA) diaminopimelate decarboxylase [...  51.2    1e-06
+VFG022656(gb|YP_001702174) (lysA) Probable diaminopimelate decarb...  50.8    2e-06
+VFG026401(gb|WP_015575050) (lysA) diaminopimelate decarboxylase [...  49.3    5e-06
+VFG026404(gb|WP_014584741) (lysA) diaminopimelate decarboxylase [...  49.3    5e-06
+VFG009393(gb|WP_011781504) (lysA) diaminopimelate decarboxylase [...  49.3    6e-06
+VFG026396(gb|WP_015292840) (lysA) diaminopimelate decarboxylase [...  48.9    8e-06
+VFG009382(gb|NP_215809) (lysA) diaminopimelate decarboxylase [Lys...  48.9    8e-06
+
+
+>VFG009391(gb|WP_011730213) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium smegmatis str. MC2 155]
+Length=474
+
+ Score = 54.3 bits (129),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 78/289 (27%), Positives = 118/289 (41%), Gaps = 40/289 (14%)
+
+Query  96   LQHRLRSINAAFKRARESYGYNGDYFLVYPIKVNQHRRVIESLIHSGEPLGLEAGSKAEL  155
+             + R R I AAF   +  + Y    FL   I     R V E      E L L+  +  EL
+Sbjct  75   FRTRCRDIAAAFGGGQYVH-YAAKAFLCSEIA----RWVDE------EGLSLDVATGGEL  123
+
+Query  156  MAVLAHAGMTRSVIVCNGYKDREYIRLALIGEKMGHKVY---LVIEKMSEIAIVLEEAER  212
+             AV  HAG   S I  +G         A +   +GH V    + IE++ +IA      + 
+Sbjct  124  -AVALHAGFPASRITVHGNNKSVAELTAAVQAGVGHVVLDSEIEIERLDQIAGAAGVVQD  182
+
+Query  213  LNVVPRLGVRARLASQGSGKWQSSGGEKSKFGLAATQVLQLVETLRDAGRLDSLQL--LH  270
+            + V   +GV A      + ++ S+  E  KFGL+      +   +R     D+L+L  LH
+Sbjct  183  VLVRVTVGVEAH-----THEFISTAHEDQKFGLSLATGAAM-NAIRRVFATDNLRLVGLH  236
+
+Query  271  FHLGSQMANI--------RDIATGVRESARFYVELHKLGVNIQCFDVGGGLGVDYEGTRS  322
+             H+GSQ+ ++        R I       A F VE       +   D+GGGLG+ Y     
+Sbjct  237  SHIGSQIFDVAGFEIAAHRVIGLLRDVVAEFGVEKTS---QMSIVDLGGGLGISYLPHDD  293
+
+Query  323  QSDCSVNYGLNEYANNIIWAIGDACEEHGLPHPTVITESGRAVTAHHTV  371
+                     + E A+ ++  +       GLP P ++ E GRA+    T+
+Sbjct  294  PPP------MKELADKLLEIVRTESAAVGLPTPKLVVEPGRAIAGPGTI  336
+
+
+>VFG009395(gb|WP_208856697) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium sp. KMS]
+Length=461
+
+ Score = 53.9 bits (128),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 80/289 (28%), Positives = 126/289 (44%), Gaps = 40/289 (14%)
+
+Query  96   LQHRLRSINAAFKRARESYGYNGDYFLVYPIKVNQHRRVIESLIHSGEPLGLEAGSKAEL  155
+             + R R I+AAF    E   Y    FL   +      R I+      E L L+  S  EL
+Sbjct  62   FRSRCREISAAFGGG-EYVRYAAKAFLCTEVA-----RWIDE-----EGLALDVASGGEL  110
+
+Query  156  MAVLAHAGMTRSVIVCNGYKDREYIRLAL-IGEKMGHKVYLVIEKMSEIAIVLEEAERLN  214
+             AV  HAG     I  +G  ++    LAL +   +GH   +V++ M EI  + E A    
+Sbjct  111  -AVALHAGFPAERIALHG-NNKSPDELALAVKSGVGH---VVVDSMIEIERLDEIAAAAG  165
+
+Query  215  VVPRLGVRARLASQG-SGKWQSSGGEKSKFGLAATQVLQLVETLRDAGRLDSLQL--LHF  271
+            VV  + VR  +  +  + ++ S+  E  KFGL+      +   +R     D+L+L  LH 
+Sbjct  166  VVQDVLVRVTVGVEAHTHEFISTAHEDQKFGLSLASGAAMA-AVRRVFETDNLRLVGLHS  224
+
+Query  272  HLGSQMANIRDIATGVRESARFYVELHK-----LGVN----IQCFDVGGGLGVDYEGTRS  322
+            H+GSQ+ ++     G   +A   + L +      GV+    +   D+GGGLG+ Y     
+Sbjct  225  HIGSQIFDV----AGFELAAHRVIGLLRDVVAEFGVDKTAQMSTVDLGGGLGISY---LP  277
+
+Query  323  QSDCSVNYGLNEYANNIIWAIGDACEEHGLPHPTVITESGRAVTAHHTV  371
+            Q D      + + A  +   + +     GLP P ++ E GRA+    T+
+Sbjct  278  QDDPPP---VADLAAKLSAIVREESAAVGLPTPKLVVEPGRAIAGPGTI  323
+
+
+>VFG009394(gb|WP_011856338) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium sp. JLS]
+Length=474
+
+ Score = 53.9 bits (128),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 80/289 (28%), Positives = 126/289 (44%), Gaps = 40/289 (14%)
+
+Query  96   LQHRLRSINAAFKRARESYGYNGDYFLVYPIKVNQHRRVIESLIHSGEPLGLEAGSKAEL  155
+             + R R I+AAF    E   Y    FL   +      R I+      E L L+  S  EL
+Sbjct  75   FRSRCREISAAFGGG-EYVRYAAKAFLCTEVA-----RWIDE-----EGLALDVASGGEL  123
+
+Query  156  MAVLAHAGMTRSVIVCNGYKDREYIRLAL-IGEKMGHKVYLVIEKMSEIAIVLEEAERLN  214
+             AV  HAG     I  +G  ++    LAL +   +GH   +V++ M EI  + E A    
+Sbjct  124  -AVALHAGFPAERIALHG-NNKSPDELALAVKSGVGH---VVVDSMIEIERLDEIAAAAG  178
+
+Query  215  VVPRLGVRARLASQG-SGKWQSSGGEKSKFGLAATQVLQLVETLRDAGRLDSLQL--LHF  271
+            VV  + VR  +  +  + ++ S+  E  KFGL+      +   +R     D+L+L  LH 
+Sbjct  179  VVQDVLVRVTVGVEAHTHEFISTAHEDQKFGLSLASGAAMA-AVRRVFETDNLRLVGLHS  237
+
+Query  272  HLGSQMANIRDIATGVRESARFYVELHK-----LGVN----IQCFDVGGGLGVDYEGTRS  322
+            H+GSQ+ ++     G   +A   + L +      GV+    +   D+GGGLG+ Y     
+Sbjct  238  HIGSQIFDV----AGFELAAHRVIGLLRDVVAEFGVDKTAQMSTVDLGGGLGISY---LP  290
+
+Query  323  QSDCSVNYGLNEYANNIIWAIGDACEEHGLPHPTVITESGRAVTAHHTV  371
+            Q D      + + A  +   + +     GLP P ++ E GRA+    T+
+Sbjct  291  QDDPPP---VADLAAKLSAIVREESAAVGLPTPKLVVEPGRAIAGPGTI  336
+
+
+>VFG009396(gb|WP_011561277) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium sp. MCS]
+Length=474
+
+ Score = 53.9 bits (128),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 80/289 (28%), Positives = 126/289 (44%), Gaps = 40/289 (14%)
+
+Query  96   LQHRLRSINAAFKRARESYGYNGDYFLVYPIKVNQHRRVIESLIHSGEPLGLEAGSKAEL  155
+             + R R I+AAF    E   Y    FL   +      R I+      E L L+  S  EL
+Sbjct  75   FRSRCREISAAFGGG-EYVRYAAKAFLCTEVA-----RWIDE-----EGLALDVASGGEL  123
+
+Query  156  MAVLAHAGMTRSVIVCNGYKDREYIRLAL-IGEKMGHKVYLVIEKMSEIAIVLEEAERLN  214
+             AV  HAG     I  +G  ++    LAL +   +GH   +V++ M EI  + E A    
+Sbjct  124  -AVALHAGFPAERIALHG-NNKSPDELALAVKSGVGH---VVVDSMIEIERLDEIAAAAG  178
+
+Query  215  VVPRLGVRARLASQG-SGKWQSSGGEKSKFGLAATQVLQLVETLRDAGRLDSLQL--LHF  271
+            VV  + VR  +  +  + ++ S+  E  KFGL+      +   +R     D+L+L  LH 
+Sbjct  179  VVQDVLVRVTVGVEAHTHEFISTAHEDQKFGLSLASGAAMA-AVRRVFETDNLRLVGLHS  237
+
+Query  272  HLGSQMANIRDIATGVRESARFYVELHK-----LGVN----IQCFDVGGGLGVDYEGTRS  322
+            H+GSQ+ ++     G   +A   + L +      GV+    +   D+GGGLG+ Y     
+Sbjct  238  HIGSQIFDV----AGFELAAHRVIGLLRDVVAEFGVDKTAQMSTVDLGGGLGISY---LP  290
+
+Query  323  QSDCSVNYGLNEYANNIIWAIGDACEEHGLPHPTVITESGRAVTAHHTV  371
+            Q D      + + A  +   + +     GLP P ++ E GRA+    T+
+Sbjct  291  QDDPPP---VADLAAKLSAIVREESAAVGLPTPKLVVEPGRAIAGPGTI  336
+
+
+>VFG026414(gb|WP_198344965) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium smegmatis JS623]
+Length=460
+
+ Score = 51.2 bits (121),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 75/297 (25%), Positives = 124/297 (42%), Gaps = 38/297 (13%)
+
+Query  87   PALFCFPQILQHRLRSINAAFKRARESYGYNGDYFLVYPIKVNQHRRVIESLIHSGEPLG  146
+            PA        + R R I AAF    ++  Y    FL   +      R +E      E L 
+Sbjct  53   PAFVIDEDDFRSRCREIAAAFGGG-DNVHYAAKAFLCTEVA-----RWVEQ-----EGLS  101
+
+Query  147  LEAGSKAELMAVLAHAGMTRSVIVCNGYKDREYIRLALIGEKMGHKVYLVIEKMSEIAIV  206
+            L+  +  EL AV  HA      I  +G           +   +GH   +V++ M+EI  +
+Sbjct  102  LDVATGGEL-AVALHATFPPDRITLHGNNKSVDELTTAVKAGIGH---VVLDSMTEIERL  157
+
+Query  207  LEEAERLNVVPRLGVRARLASQG-SGKWQSSGGEKSKFGLAATQVLQLVETLRDAGRLDS  265
+             E A     V  + VR  +  +  + ++ S+  E  KFGL+      + + +R     D+
+Sbjct  158  DEIAGAAGAVQDVLVRVTVGVEAHTHEFISTAHEDQKFGLSLASGAAM-DAIRRVFATDN  216
+
+Query  266  LQL--LHFHLGSQMANIRDIATGVRESARFYVELHK-----LGVN----IQCFDVGGGLG  314
+            L+L  LH H+GSQ+ ++     G   +A   + L +      GV+    ++  D+GGGLG
+Sbjct  217  LRLVGLHSHIGSQIFDV----DGFELAAHRVIGLLRDVVAEFGVDKTSQLETVDLGGGLG  272
+
+Query  315  VDYEGTRSQSDCSVNYGLNEYANNIIWAIGDACEEHGLPHPTVITESGRAVTAHHTV  371
+            + Y     Q D      + + A  +   + +     GLP P ++ E GRA+    T+
+Sbjct  273  ISY---LPQDDPP---PITDLAAKLSAIVRNESAAVGLPAPRLVVEPGRAIAGPGTI  323
+
+
+>VFG022656(gb|YP_001702174) (lysA) Probable diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium abscessus ATCC 19977]
+Length=470
+
+ Score = 50.8 bits (120),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 82/322 (25%), Positives = 131/322 (41%), Gaps = 38/322 (12%)
+
+Query  67   EARVDLAKLVKAREAQGQRLPALFCFPQILQHRLRSINAAFKRARESYGYNGDYFLVYPI  126
+            +  V LA L  +  A+    P         + R R + AAF  A   + Y    FL   +
+Sbjct  44   DGEVTLAGLAVSELAEQYGTPLFVIDEDDFRSRCRDMAAAFGGAARVH-YASKAFLCTEV  102
+
+Query  127  KVNQHRRVIESLIHSGEPLGLEAGSKAELMAVLAHAGMTRSVIVCNGYKDREYIRLALIG  186
+                  R I+      E LGL+  S  EL AV   A      I  +G    E      + 
+Sbjct  103  A-----RWIKD-----EGLGLDVCSAGEL-AVALRAEFPPERIALHGNNKSEAELAQAVQ  151
+
+Query  187  EKMGHKVYLVIEKMSEIAIVLEEAERLNVVPRLGVRARLASQG-SGKWQSSGGEKSKFGL  245
+              +GH   +V++ M EI  +   A R  VV  + VR  +  +  + ++ S+  E  KFGL
+Sbjct  152  AGVGH---IVVDSMIEIDRLDAIAGRAGVVQDVLVRVTVGVEAHTHEFISTAHEDQKFGL  208
+
+Query  246  AATQVLQLVETLRDAGRLDSLQL--LHFHLGSQMANIRDIATGVRESARFYVELHK----  299
+            +     Q +E +R     D+L+L  LH H+GSQ+ ++     G   +A   + L +    
+Sbjct  209  SLAGG-QALEAVRRVFATDNLRLVGLHSHIGSQIFDV----DGFEVAAHRVIGLLRDVVA  263
+
+Query  300  -LGVN----IQCFDVGGGLGVDYEGTRSQSDCSVNYGLNEYANNIIWAIGDACEEHGLPH  354
+              G +    +   D+GGGLG+ Y  +           + + A  +   +       GLP 
+Sbjct  264  EFGTDKTAQLNIIDLGGGLGISYVPSDDPPP------IEDLAAKLGVIVRTESALAGLPG  317
+
+Query  355  PTVITESGRAVTAHHTVLVSNI  376
+            P ++ E GRA+    TV +  +
+Sbjct  318  PRLVIEPGRAIAGPGTVTLYRV  339
+
+
+>VFG026401(gb|WP_015575050) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium tuberculosis str. Beijing/NITR203]
+Length=447
+
+ Score = 49.3 bits (116),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 66/246 (27%), Positives = 103/246 (42%), Gaps = 33/246 (13%)
+
+Query  141  SGEPLGLEAGSKAELMAVLAHAGMTRSVIVCNGYKDREYIRLALIGEKMGHKVYLVIEKM  200
+            S E L L+  +  EL AV  HA      I  +G         A +   +GH   +V++ M
+Sbjct  84   SEEGLCLDVCTGGEL-AVALHASFPPERITLHGNNKSVSELTAAVKAGVGH---IVVDSM  139
+
+Query  201  SEI----AIVLEEAERLNVVPRLGVRARLASQGSGKWQSSGGEKSKFGLAATQVLQLVET  256
+            +EI    AI  E     +V+ RL V     +    ++ S+  E  KFGL+      +   
+Sbjct  140  TEIERLDAIAGEAGIVQDVLVRLTVGVEAHTH---EFISTAHEDQKFGLSVASGAAMA-A  195
+
+Query  257  LRDAGRLDSLQL--LHFHLGSQMANIRDIATGVRESARFYVELHKLGVN---------IQ  305
+            +R     D L+L  LH H+GSQ+ ++     G   +A   + L +  V          I 
+Sbjct  196  VRRVFATDHLRLVGLHSHIGSQIFDV----DGFELAAHRVIGLLRDVVGEFGPEKTAQIA  251
+
+Query  306  CFDVGGGLGVDYEGTRSQSDCSVNYGLNEYANNIIWAIGDACEEHGLPHPTVITESGRAV  365
+              D+GGGLG+ Y  + +         + E A  +   + D     GLP P ++ E GRA+
+Sbjct  252  TVDLGGGLGISYLPSDAPPP------IAELAAKLGTIVSDESTAVGLPTPKLVVEPGRAI  305
+
+Query  366  TAHHTV  371
+                T+
+Sbjct  306  AGPGTI  311
+
+
+>VFG026404(gb|WP_014584741) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium tuberculosis CCDC5180]
+Length=447
+
+ Score = 49.3 bits (116),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 68/246 (28%), Positives = 103/246 (42%), Gaps = 33/246 (13%)
+
+Query  141  SGEPLGLEAGSKAELMAVLAHAGMTRSVIVCNGYKDREYIRLALIGEKMGHKVYLVIEKM  200
+            S E L L+  +  EL AV  HA      I  +G         A +   +GH   +V++ M
+Sbjct  84   SEEGLCLDVCTGGEL-AVALHASFPPERITLHGNNKSVSELTAAVKAGVGH---IVVDSM  139
+
+Query  201  SEI----AIVLEEAERLNVVPRLGVRARLASQGSGKWQSSGGEKSKFGLAATQVLQLVET  256
+            +EI    AI  E     +V+ RL V     +    ++ S+  E  KFGL+      +   
+Sbjct  140  TEIERLDAIAGEAGIVQDVLVRLTVGVEAHTH---EFISTAHEDQKFGLSVASGAAMA-A  195
+
+Query  257  LRDAGRLDSLQL--LHFHLGSQMANIRDIATGVRESARFYVELHKLGVN---------IQ  305
+            +R     D L+L  LH H+GSQ+ ++     G   +A   + L +  V          I 
+Sbjct  196  VRRVFATDHLRLVGLHSHIGSQIFDV----DGFELAAHRVIGLLRDVVGEFGPEKTAQIA  251
+
+Query  306  CFDVGGGLGVDYEGTRSQSDCSVNYGLNEYANNIIWAIGDACEEHGLPHPTVITESGRAV  365
+              D+GGGLG+ Y   RS     +     E A  +   + D     GLP P ++ E GRA+
+Sbjct  252  TVDLGGGLGISY--LRSDDPPPIA----ELAAKLGTIVSDESTAVGLPTPKLVVEPGRAI  305
+
+Query  366  TAHHTV  371
+                T+
+Sbjct  306  AGPGTI  311
+
+
+>VFG009393(gb|WP_011781504) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium vanbaalenii PYR-1]
+Length=476
+
+ Score = 49.3 bits (116),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 79/293 (27%), Positives = 118/293 (40%), Gaps = 48/293 (16%)
+
+Query  96   LQHRLRSINAAFKRARESYGYNGDYFLVYPIKVNQHRRVIESLIHSGEPLGLEAGSKAEL  155
+             + R R I AAF    E   Y    FL   +      R I+      E L L+  S  EL
+Sbjct  75   FRARCRDIAAAFGGG-EHVRYAAKAFLCTEVA-----RWIDE-----EGLSLDVASGGEL  123
+
+Query  156  MAVLAHAGMTRSVIVCNGYKDREYIRLALIGEKMGHKVYLVIEKMSEIAIVLEEAERLNV  215
+             AV  HAG     I  +G         A +   + H   +V++ M+EI  + + A    V
+Sbjct  124  -AVALHAGFPAERIALHGNNKSVAELTAAVEAGIEH---VVVDSMTEIDRLDKIAGEAGV  179
+
+Query  216  VPRLGVRARLASQG-SGKWQSSGGEKSKFGL------AATQVLQLVETLRDAGRLDSLQL  268
+            V  + +R  +  +  + ++ S+  E  KFGL      A T V ++ ET       D L+L
+Sbjct  180  VQDVLIRVTVGVEAHTHEFISTAHEDQKFGLSLASGAAMTAVRRVFET-------DHLRL  232
+
+Query  269  --LHFHLGSQMANI--------RDIATGVRESARFYVELHKLGVNIQCFDVGGGLGVDYE  318
+              LH H+GSQ+ ++        R I       A F VE       +   D+GGGLG+ Y 
+Sbjct  233  VGLHSHIGSQIFDVAGFELAAHRVIGLLRDAVAEFGVEKTS---QMSIVDLGGGLGISYL  289
+
+Query  319  GTRSQSDCSVNYGLNEYANNIIWAIGDACEEHGLPHPTVITESGRAVTAHHTV  371
+                         + E A+ +   +       GLP P ++ E GRA+    T+
+Sbjct  290  PHDDPPP------MGELADKLHAIVRHESAAVGLPAPRLVVEPGRAIAGPGTI  336
+
+
+>VFG026396(gb|WP_015292840) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor 
+(VFC0272)] [Mycobacterium canettii CIPT 140070017]
+Length=447
+
+ Score = 48.9 bits (115),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 66/246 (27%), Positives = 102/246 (41%), Gaps = 33/246 (13%)
+
+Query  141  SGEPLGLEAGSKAELMAVLAHAGMTRSVIVCNGYKDREYIRLALIGEKMGHKVYLVIEKM  200
+            S E L L+  +  EL AV  HA      I  +G         A +   +GH   +V++ M
+Sbjct  84   SEEGLCLDVCTGGEL-AVALHASFPPERITLHGNNKSVSELTAAVKAGVGH---IVVDSM  139
+
+Query  201  SEI----AIVLEEAERLNVVPRLGVRARLASQGSGKWQSSGGEKSKFGLAATQVLQLVET  256
+            +EI    AI  E     +V+ RL V     +    ++ S+  E  KFGL+      +   
+Sbjct  140  TEIERLDAIAGEAGIVQDVLVRLTVGVEAHTH---EFISTAHEDQKFGLSVASGAAMA-A  195
+
+Query  257  LRDAGRLDSLQL--LHFHLGSQMANIRDIATGVRESARFYVELHKLGVN---------IQ  305
+            +R     D L+L  LH H+GSQ+ ++     G   +A   + L +  V          I 
+Sbjct  196  VRRVFATDHLRLVGLHSHIGSQIFDV----DGFELAAHRVIGLLRDVVGEFGPEKTAQIA  251
+
+Query  306  CFDVGGGLGVDYEGTRSQSDCSVNYGLNEYANNIIWAIGDACEEHGLPHPTVITESGRAV  365
+              D+GGGLG+ Y  +           + E A  +   + D     GLP P ++ E GRA+
+Sbjct  252  TVDLGGGLGISYLPSDDPPP------IAELAAKLGTIVSDESTAVGLPTPKLVVEPGRAI  305
+
+Query  366  TAHHTV  371
+                T+
+Sbjct  306  AGPGTI  311
+
+
+>VFG009382(gb|NP_215809) (lysA) diaminopimelate decarboxylase 
+[Lysine synthesis (VF0815) - Nutritional/Metabolic factor (VFC0272)] 
+[Mycobacterium tuberculosis H37Rv]
+Length=447
+
+ Score = 48.9 bits (115),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 66/246 (27%), Positives = 102/246 (41%), Gaps = 33/246 (13%)
+
+Query  141  SGEPLGLEAGSKAELMAVLAHAGMTRSVIVCNGYKDREYIRLALIGEKMGHKVYLVIEKM  200
+            S E L L+  +  EL AV  HA      I  +G         A +   +GH   +V++ M
+Sbjct  84   SEEGLCLDVCTGGEL-AVALHASFPPERITLHGNNKSVSELTAAVKAGVGH---IVVDSM  139
+
+Query  201  SEI----AIVLEEAERLNVVPRLGVRARLASQGSGKWQSSGGEKSKFGLAATQVLQLVET  256
+            +EI    AI  E     +V+ RL V     +    ++ S+  E  KFGL+      +   
+Sbjct  140  TEIERLDAIAGEAGIVQDVLVRLTVGVEAHTH---EFISTAHEDQKFGLSVASGAAMA-A  195
+
+Query  257  LRDAGRLDSLQL--LHFHLGSQMANIRDIATGVRESARFYVELHKLGVN---------IQ  305
+            +R     D L+L  LH H+GSQ+ ++     G   +A   + L +  V          I 
+Sbjct  196  VRRVFATDHLRLVGLHSHIGSQIFDV----DGFELAAHRVIGLLRDVVGEFGPEKTAQIA  251
+
+Query  306  CFDVGGGLGVDYEGTRSQSDCSVNYGLNEYANNIIWAIGDACEEHGLPHPTVITESGRAV  365
+              D+GGGLG+ Y  +           + E A  +   + D     GLP P ++ E GRA+
+Sbjct  252  TVDLGGGLGISYLPSDDPPP------IAELAAKLGTIVSDESTAVGLPTPKLVVEPGRAI  305
+
+Query  366  TAHHTV  371
+                T+
+Sbjct  306  AGPGTI  311
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5677674259
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

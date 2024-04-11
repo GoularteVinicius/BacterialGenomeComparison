@@ -1,0 +1,222 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g965.t1
+
+Length=411
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000028(gb|WP_003808614) (brkB) serum resistance protein [Brk (...  63.9    3e-11
+VFG011133(gb|WP_010927719) (brkB) serum resistance protein [Brk (...  63.5    3e-11
+VFG011135(gb|WP_012416274) (brkB) serum resistance protein [Brk (...  62.0    1e-10
+
+
+>VFG000028(gb|WP_003808614) (brkB) serum resistance protein [Brk 
+(VF0034) - Immune modulation (VFC0258)] [Bordetella pertussis 
+Tohama I]
+Length=296
+
+ Score = 63.9 bits (154),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 79/282 (28%), Positives = 132/282 (47%), Gaps = 28/282 (10%)
+
+Query  16   AHRFVTDKAPNSAAALTYTTLFAVVPMMTVMFSMLSLIPAFHGMGESIQTFIF---RNFV  72
+            A  +   +A +  AAL+   +F++ PM+ ++   +++  AF G  E++++ +F   R+  
+Sbjct  23   AREWSRHRASSKGAALSLYMVFSLAPMLILV---IAVAGAFFGE-EAVRSELFSQVRDLT  78
+
+Query  73   PSAG-EAVETYLKSFTTQ-----ARHLTWVGVVFLAVTAFTMLVTIEKAFNEIWRVRQPR  126
+               G E ++T L S         A  L+   +VF A TAF  L   + + +E+W V++ +
+Sbjct  79   GERGAEVIQTVLASAHESGSGWLAALLSICVLVFSATTAFAEL---KASLDELWDVKEDK  135
+
+Query  127  RGVGRFLLYWAILSLGPLLLGAGFAVTTYITSLSL---------LHGPDALP-GAETLLG  176
+             G+ + L+   +LS G +L+ A F + +   + +L         L    A    A+ L  
+Sbjct  136  SGL-QGLVRSRMLSFGLVLVLALFLLLSLTLNAALGAAKGYYGDLWSTSAFAMAADWLSN  194
+
+Query  177  LMPLAFSVAAFTLLYSAVPNARVPVRHALMGGVFTAVLFEAAKTLFGLYVSLFPGYQLIY  236
+            L   A   A F ++Y  +P+ R+P    + G + TA LF A K   GLY+         Y
+Sbjct  195  LFSFAVVTALFAVVYKLLPSKRIPWLDVIPGAIVTAALFLAGKWGIGLYLGRGAAVS-AY  253
+
+Query  237  GAFATVPIFLLWIYLSWMIVLFGAVLVCNLSSSRLWRRRSLP  278
+            GA  ++   LLWIY S  I  FGAV     +      RR+ P
+Sbjct  254  GAAGSLIALLLWIYYSAQIFFFGAVFTRQFAERFGSLRRAAP  295
+
+
+>VFG011133(gb|WP_010927719) (brkB) serum resistance protein [Brk 
+(VF0034) - Immune modulation (VFC0258)] [Bordetella parapertussis 
+12822]
+Length=296
+
+ Score = 63.5 bits (153),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 79/282 (28%), Positives = 132/282 (47%), Gaps = 28/282 (10%)
+
+Query  16   AHRFVTDKAPNSAAALTYTTLFAVVPMMTVMFSMLSLIPAFHGMGESIQTFIF---RNFV  72
+            A  +   +A +  AAL+   +F++ PM+ ++   +++  AF G  E++++ +F   R+  
+Sbjct  23   AREWSRHRASSKGAALSLYMVFSLAPMLILV---IAVAGAFFGE-EAVRSELFSQVRDLT  78
+
+Query  73   PSAG-EAVETYLKSFTTQ-----ARHLTWVGVVFLAVTAFTMLVTIEKAFNEIWRVRQPR  126
+               G E ++T L S         A  L+   +VF A TAF  L   + + +E+W V++ +
+Sbjct  79   GERGAEVIQTVLASAHESGSGWLAALLSICVLVFSATTAFAEL---KASLDELWDVKEDK  135
+
+Query  127  RGVGRFLLYWAILSLGPLLLGAGFAVTTYITSLSL---------LHGPDALP-GAETLLG  176
+             G+ + L+   +LS G +L+ A F + +   + +L         L    A    A+ L  
+Sbjct  136  SGL-QGLVRSRMLSFGLVLVLALFLLLSLTLNAALGAAKGYYGDLWSTSAFAMAADWLSN  194
+
+Query  177  LMPLAFSVAAFTLLYSAVPNARVPVRHALMGGVFTAVLFEAAKTLFGLYVSLFPGYQLIY  236
+            L   A   A F ++Y  +P+ R+P    + G + TA LF A K   GLY+         Y
+Sbjct  195  LFSFAVVTALFAVVYKLLPSKRIPWLDVIPGAIVTAALFLAGKWGIGLYLERGTAVS-AY  253
+
+Query  237  GAFATVPIFLLWIYLSWMIVLFGAVLVCNLSSSRLWRRRSLP  278
+            GA  ++   LLWIY S  I  FGAV     +      RR+ P
+Sbjct  254  GAAGSLIALLLWIYYSAQIFFFGAVFTRQFAERFGNLRRAAP  295
+
+
+>VFG011135(gb|WP_012416274) (brkB) serum resistance protein [Brk 
+(VF0034) - Immune modulation (VFC0258)] [Bordetella avium 
+197N]
+Length=299
+
+ Score = 62.0 bits (149),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 79/276 (29%), Positives = 130/276 (47%), Gaps = 34/276 (12%)
+
+Query  16   AHRFVTDKAPNSAAALTYTTLFAVVPMMTVMFSMLSLIPAFHGMGESIQTFIFRNFVPSA  75
+            A ++   +A +  AAL    +F++ PM+ ++   +++  AF G  +++++ +F       
+Sbjct  23   AKQWSRHRASSKGAALALYMVFSLAPMLILV---IAVAGAFFGE-DTVRSELFAQMSDLM  78
+
+Query  76   GE----AVETYLKSFTTQARHLTWVG-------VVFLAVTAFTMLVTIEKAFNEIWRVRQ  124
+            GE     + T L S    ++  +W+        +VF A TAF+ L   + + +E+W  + 
+Sbjct  79   GERGAEVIHTVLASAHESSK--SWLAALLSLGMMVFSATTAFSEL---KDSLDELWETK-  132
+
+Query  125  PRRGVG--RFLLYWAILSLGPLLLGAGF-----AVTTYITSLSLLHG---PDALPGAETL  174
+            P +  G  + L+   ILS G +L+ A F     AV   +      +G     +L     +
+Sbjct  133  PNQASGGIQGLVRSRILSFGLVLVLACFMLFSLAVNAAMGVARAYYGELWSYSLVATAGV  192
+
+Query  175  LGLMPLAFSV--AAFTLLYSAVPNARVPVRHALMGGVFTAVLFEAAKTLFGLYVSLFPGY  232
+                  +FSV  A F +++  +P+  +P R  L G V TA LF   K   GLY+S   G 
+Sbjct  193  WVANLFSFSVVTALFAVIFKLLPSISLPWRQVLPGAVVTAALFLLGKWGIGLYLS-HGGV  251
+
+Query  233  QLIYGAFATVPIFLLWIYLSWMIVLFGAVLVCNLSS  268
+               YGA  ++  FLLWIY S  I  FGAVL    +S
+Sbjct  252  ASAYGAAGSLIAFLLWIYYSSQIFFFGAVLTRQYAS  287
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.140    0.444    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3208200996
+
+
+Query= g3755.t1
+
+Length=259
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG011133(gb|WP_010927719) (brkB) serum resistance protein [Brk (...  53.1    3e-08
+VFG000028(gb|WP_003808614) (brkB) serum resistance protein [Brk (...  53.1    4e-08
+
+
+>VFG011133(gb|WP_010927719) (brkB) serum resistance protein [Brk 
+(VF0034) - Immune modulation (VFC0258)] [Bordetella parapertussis 
+12822]
+Length=296
+
+ Score = 53.1 bits (126),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 60/257 (23%), Positives = 116/257 (45%), Gaps = 23/257 (9%)
+
+Query  13   LLSLVPLIAVVFALFAAFPMFSDVSIQLRHFIFANFMPATGDVIQRYIEQFVANSNKMTA  72
+            + SL P++ +V A+  AF  F + ++  R  +F+     TG+     I+  +A++++  +
+Sbjct  43   VFSLAPMLILVIAVAGAF--FGEEAV--RSELFSQVRDLTGERGAEVIQTVLASAHESGS  98
+
+Query  73   ------VGACGLIVTALLLMYAIDSALNTIWRSKRT--------RPKVYSFAVYWMILTL  118
+                  +  C L+ +A      + ++L+ +W  K          R ++ SF +  ++   
+Sbjct  99   GWLAALLSICVLVFSATTAFAELKASLDELWDVKEDKSGLQGLVRSRMLSFGLVLVLALF  158
+
+Query  119  GPLLAGVSLAISS---YLLSLRWASDLNTVIDNVLHILPLLLSWISFWLLYSIVPTTRVP  175
+              L   ++ A+ +   Y   L   S      D + ++    +    F ++Y ++P+ R+P
+Sbjct  159  LLLSLTLNAALGAAKGYYGDLWSTSAFAMAADWLSNLFSFAVVTALFAVVYKLLPSKRIP  218
+
+Query  176  NRDALVGAFVAALLFEAGKKGFALYITMFPSYQLIYGVLAVIPILFVWVYWTWCIVLLGA  235
+              D + GA V A LF AGK G  LY+    +    YG    +  L +W+Y++  I   GA
+Sbjct  219  WLDVIPGAIVTAALFLAGKWGIGLYLERGTAVS-AYGAAGSLIALLLWIYYSAQIFFFGA  277
+
+Query  236  EITVTLGE-YRKLKQAA  251
+              T    E +  L++AA
+Sbjct  278  VFTRQFAERFGNLRRAA  294
+
+
+>VFG000028(gb|WP_003808614) (brkB) serum resistance protein [Brk 
+(VF0034) - Immune modulation (VFC0258)] [Bordetella pertussis 
+Tohama I]
+Length=296
+
+ Score = 53.1 bits (126),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 60/257 (23%), Positives = 116/257 (45%), Gaps = 23/257 (9%)
+
+Query  13   LLSLVPLIAVVFALFAAFPMFSDVSIQLRHFIFANFMPATGDVIQRYIEQFVANSNKMTA  72
+            + SL P++ +V A+  AF  F + ++  R  +F+     TG+     I+  +A++++  +
+Sbjct  43   VFSLAPMLILVIAVAGAF--FGEEAV--RSELFSQVRDLTGERGAEVIQTVLASAHESGS  98
+
+Query  73   ------VGACGLIVTALLLMYAIDSALNTIWRSKRT--------RPKVYSFAVYWMILTL  118
+                  +  C L+ +A      + ++L+ +W  K          R ++ SF +  ++   
+Sbjct  99   GWLAALLSICVLVFSATTAFAELKASLDELWDVKEDKSGLQGLVRSRMLSFGLVLVLALF  158
+
+Query  119  GPLLAGVSLAISS---YLLSLRWASDLNTVIDNVLHILPLLLSWISFWLLYSIVPTTRVP  175
+              L   ++ A+ +   Y   L   S      D + ++    +    F ++Y ++P+ R+P
+Sbjct  159  LLLSLTLNAALGAAKGYYGDLWSTSAFAMAADWLSNLFSFAVVTALFAVVYKLLPSKRIP  218
+
+Query  176  NRDALVGAFVAALLFEAGKKGFALYITMFPSYQLIYGVLAVIPILFVWVYWTWCIVLLGA  235
+              D + GA V A LF AGK G  LY+    +    YG    +  L +W+Y++  I   GA
+Sbjct  219  WLDVIPGAIVTAALFLAGKWGIGLYLGRGAAVS-AYGAAGSLIALLLWIYYSAQIFFFGA  277
+
+Query  236  EITVTLGE-YRKLKQAA  251
+              T    E +  L++AA
+Sbjct  278  VFTRQFAERFGSLRRAA  294
+
+
+
+Lambda      K        H        a         alpha
+   0.329    0.140    0.432    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1699539667
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

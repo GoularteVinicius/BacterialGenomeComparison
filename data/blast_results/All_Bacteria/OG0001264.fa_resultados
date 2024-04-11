@@ -1,0 +1,361 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g283.t1
+
+Length=717
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049150(gb|WP_000982270) (clbD) colibactin biosynthesis dehydro...  166     4e-46
+VFG043691(gb|WP_000982270) (clbD) colibactin biosynthesis dehydro...  166     4e-46
+VFG017683(gb|YP_005921788) (icl) Isocitrate lyase Icl (isocitrase...  125     8e-30
+
+
+>VFG049150(gb|WP_000982270) (clbD) colibactin biosynthesis dehydrogenase 
+ClbD [Colibactin (VF0573) - Exotoxin (VFC0235)] [Klebsiella 
+pneumoniae subsp. pneumoniae 1084]
+Length=289
+
+ Score = 166 bits (419),  Expect = 4e-46, Method: Compositional matrix adjust.
+ Identities = 102/282 (36%), Positives = 152/282 (54%), Gaps = 7/282 (2%)
+
+Query  318  AAVLGAGIMGGGIAYQAASKGTPIIMKDIGNPQL--ALGMKEANNLLTKQVERKKMKPAQ  375
+             AV+GAG+MG G+A+  A  G    + DI   QL     M EAN  L     + K K   
+Sbjct  4    VAVIGAGVMGTGVAHNMAQYGISTNVVDISQSQLDKCRQMIEANLRLYNFHPQHKKKTHS  63
+
+Query  376  MGETLARIRPTLSYEEFKEVDIVIEAVTENPKVKEIVLAETEKNVRENTIIASNTSTISI  435
+              E +  IR T   ++  E D+VIE +TE+ + K  +          +T+   NTS ISI
+Sbjct  64   TAEIMENIRFTTELDDIVECDLVIENITEDIEKKNALYTRMNTICGASTVFGVNTSAISI  123
+
+Query  436  TRLAKALQRPENFVGMHFFNPVHMMPLVEVIRGEKTSEEAIATTVVLAQKMGKTPIVVND  495
+            T L+K ++ PEN VG+HF NPV +M  VE+IRG  T+E  +     L  ++ KT IVVND
+Sbjct  124  TALSKLMRHPENVVGVHFMNPVPLMHTVELIRGVHTAERTLNIFHHLFAQLNKTGIVVND  183
+
+Query  496  CPGFLVNRVLFPYFGAFDLLVKDG-ADFQQIDNVM-SKFGWPMGPAYLIDVVGIDTGVHG  553
+             PGF+ NR +  +      +V++  A  + ID +  + FG  MGP    D++G+DT +  
+Sbjct  184  SPGFVTNRAMMIFVNEAIFMVQEQIARAEDIDTLFKTCFGHKMGPLQTADLIGLDTILQS  243
+
+Query  554  AEVMAEGF-PDRMKPDYKGAIEAMYEAKRLGQKNDVGFYKYE  594
+             +V+ E F  D+ +P +   ++ M +A  LG K+  GFY+Y+
+Sbjct  244  LQVLYESFNDDKYRPSF--LLKKMVDAGYLGVKSGQGFYRYQ  283
+
+
+>VFG043691(gb|WP_000982270) (clbD) colibactin biosynthesis dehydrogenase 
+ClbD [Colibactin (VF1179) - Exotoxin (VFC0235)] [Escherichia 
+coli O18:K1:H7 str. IHE3034]
+Length=289
+
+ Score = 166 bits (419),  Expect = 4e-46, Method: Compositional matrix adjust.
+ Identities = 102/282 (36%), Positives = 152/282 (54%), Gaps = 7/282 (2%)
+
+Query  318  AAVLGAGIMGGGIAYQAASKGTPIIMKDIGNPQL--ALGMKEANNLLTKQVERKKMKPAQ  375
+             AV+GAG+MG G+A+  A  G    + DI   QL     M EAN  L     + K K   
+Sbjct  4    VAVIGAGVMGTGVAHNMAQYGISTNVVDISQSQLDKCRQMIEANLRLYNFHPQHKKKTHS  63
+
+Query  376  MGETLARIRPTLSYEEFKEVDIVIEAVTENPKVKEIVLAETEKNVRENTIIASNTSTISI  435
+              E +  IR T   ++  E D+VIE +TE+ + K  +          +T+   NTS ISI
+Sbjct  64   TAEIMENIRFTTELDDIVECDLVIENITEDIEKKNALYTRMNTICGASTVFGVNTSAISI  123
+
+Query  436  TRLAKALQRPENFVGMHFFNPVHMMPLVEVIRGEKTSEEAIATTVVLAQKMGKTPIVVND  495
+            T L+K ++ PEN VG+HF NPV +M  VE+IRG  T+E  +     L  ++ KT IVVND
+Sbjct  124  TALSKLMRHPENVVGVHFMNPVPLMHTVELIRGVHTAERTLNIFHHLFAQLNKTGIVVND  183
+
+Query  496  CPGFLVNRVLFPYFGAFDLLVKDG-ADFQQIDNVM-SKFGWPMGPAYLIDVVGIDTGVHG  553
+             PGF+ NR +  +      +V++  A  + ID +  + FG  MGP    D++G+DT +  
+Sbjct  184  SPGFVTNRAMMIFVNEAIFMVQEQIARAEDIDTLFKTCFGHKMGPLQTADLIGLDTILQS  243
+
+Query  554  AEVMAEGF-PDRMKPDYKGAIEAMYEAKRLGQKNDVGFYKYE  594
+             +V+ E F  D+ +P +   ++ M +A  LG K+  GFY+Y+
+Sbjct  244  LQVLYESFNDDKYRPSF--LLKKMVDAGYLGVKSGQGFYRYQ  283
+
+
+>VFG017683(gb|YP_005921788) (icl) Isocitrate lyase Icl (isocitrase) 
+(isocitratase) [Isocitrate lyase (VF0253) - Others (VFC0346)] 
+[Mycobacterium tuberculosis RGTB423]
+Length=744
+
+ Score = 125 bits (315),  Expect = 8e-30, Method: Compositional matrix adjust.
+ Identities = 87/245 (36%), Positives = 135/245 (55%), Gaps = 13/245 (5%)
+
+Query  359  NNLLTKQVERK----KMKPAQMGETLARIRPTLSYEEFKEVDIVIEAVTENPKVKEIVLA  414
+             N + K +ER     K+   +    L  +  T    +  +  +VIEAV E+  VK  + A
+Sbjct  503  RNRIVKSLERAVSAGKVTERERDRALGLLTFTTDLNDLSDRQLVIEAVVEDEAVKSEIFA  562
+
+Query  415  ETEKNVRE-NTIIASNTSTISITRLAKALQRPENFVGMHFFNPVHMMPLVEVIRGEKTSE  473
+            E ++ V + + ++ASNTS+I I ++A A ++P+  +G+HFFNPV ++PLVE++R   T E
+Sbjct  563  ELDRVVTDPDAVLASNTSSIPIMKVAAATKQPQRVLGLHFFNPVPVLPLVELVRTLVTDE  622
+
+Query  474  EAIATTVVLAQK-MGKTPIVVNDCPGFLVNRVLFPYFGAFDLLVKDG-ADFQQIDN-VMS  530
+             A A T   A   +GK  +  +D  GF+VN +L PY  +   +V+ G A  + +D  V++
+Sbjct  623  AAAARTEEFASTVLGKQVVRCSDRSGFVVNALLVPYLLSAIRMVEAGFATVEDVDKAVVA  682
+
+Query  531  KFGWPMGPAYLIDVVGIDTGVHGAEVMAEGFPDRMKPDY--KGAIEAMYEAKRLGQKNDV  588
+                PMGP  L D+VG+DT    A+ M E F +   P Y     +  M EA +LG+K+  
+Sbjct  683  GLSHPMGPLRLSDLVGLDTLKLIADKMFEEFKE---PHYGPPPLLLRMVEAGQLGKKSGR  739
+
+Query  589  GFYKY  593
+            GFY Y
+Sbjct  740  GFYTY  744
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.385    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6285628490
+
+
+Query= g3074.t1
+
+Length=715
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG017683(gb|YP_005921788) (icl) Isocitrate lyase Icl (isocitrase...  145     5e-36
+VFG049150(gb|WP_000982270) (clbD) colibactin biosynthesis dehydro...  136     1e-35
+VFG043691(gb|WP_000982270) (clbD) colibactin biosynthesis dehydro...  136     1e-35
+
+
+>VFG017683(gb|YP_005921788) (icl) Isocitrate lyase Icl (isocitrase) 
+(isocitratase) [Isocitrate lyase (VF0253) - Others (VFC0346)] 
+[Mycobacterium tuberculosis RGTB423]
+Length=744
+
+ Score = 145 bits (365),  Expect = 5e-36, Method: Compositional matrix adjust.
+ Identities = 95/247 (38%), Positives = 138/247 (56%), Gaps = 5/247 (2%)
+
+Query  350  IQMGLNEAAKLLGKRVEKGRLTPAKMAEALNGIRPTMSYGDFGNVDIVVEAVVENPKVKQ  409
+            I  G N   K L + V  G++T  +   AL  +  T    D  +  +V+EAVVE+  VK 
+Sbjct  499  ITAGRNRIVKSLERAVSAGKVTERERDRALGLLTFTTDLNDLSDRQLVIEAVVEDEAVKS  558
+
+Query  410  AVLAEVEGAVKE-DAIIASNTSTISISLLAQALKRPENFCGMHFFNPVHMMPLVEVIRGE  468
+             + AE++  V + DA++ASNTS+I I  +A A K+P+   G+HFFNPV ++PLVE++R  
+Sbjct  559  EIFAELDRVVTDPDAVLASNTSSIPIMKVAAATKQPQRVLGLHFFNPVPVLPLVELVRTL  618
+
+Query  469  KTGETAIATTVAYAKK-MGKSPIVVNDCPGFLVNRVLFPYFGGFAKLLSFGVDFVR-IDK  526
+             T E A A T  +A   +GK  +  +D  GF+VN +L PY     +++  G   V  +DK
+Sbjct  619  VTDEAAAARTEEFASTVLGKQVVRCSDRSGFVVNALLVPYLLSAIRMVEAGFATVEDVDK  678
+
+Query  527  -VMEKFGWPMGPAYLSDVVGIDTGHHGRDVMAEGFPDRMAVEGKTAVDVMYEANRLGQKN  585
+             V+     PMGP  LSD+VG+DT     D M E F +         +  M EA +LG+K+
+Sbjct  679  AVVAGLSHPMGPLRLSDLVGLDTLKLIADKMFEEFKEPHYGPPPLLLR-MVEAGQLGKKS  737
+
+Query  586  GKGFYAY  592
+            G+GFY Y
+Sbjct  738  GRGFYTY  744
+
+
+>VFG049150(gb|WP_000982270) (clbD) colibactin biosynthesis dehydrogenase 
+ClbD [Colibactin (VF0573) - Exotoxin (VFC0235)] [Klebsiella 
+pneumoniae subsp. pneumoniae 1084]
+Length=289
+
+ Score = 136 bits (342),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 91/287 (32%), Positives = 140/287 (49%), Gaps = 19/287 (7%)
+
+Query  318  AVLGAGIMGGGIAYQSALKGTPILMKDIREEGIQMGLNEAAKLLGKRVEKGRLTPAK---  374
+            AV+GAG+MG G+A+  A  G    + DI     Q  L++  +++   +      P     
+Sbjct  5    AVIGAGVMGTGVAHNMAQYGISTNVVDIS----QSQLDKCRQMIEANLRLYNFHPQHKKK  60
+
+Query  375  ---MAEALNGIRPTMSYGDFGNVDIVVEAVVENPKVKQAVLAEVEGAVKEDAIIASNTST  431
+                AE +  IR T    D    D+V+E + E+ + K A+   +        +   NTS 
+Sbjct  61   THSTAEIMENIRFTTELDDIVECDLVIENITEDIEKKNALYTRMNTICGASTVFGVNTSA  120
+
+Query  432  ISISLLAQALKRPENFCGMHFFNPVHMMPLVEVIRGEKTGETAIATTVAYAKKMGKSPIV  491
+            ISI+ L++ ++ PEN  G+HF NPV +M  VE+IRG  T E  +        ++ K+ IV
+Sbjct  121  ISITALSKLMRHPENVVGVHFMNPVPLMHTVELIRGVHTAERTLNIFHHLFAQLNKTGIV  180
+
+Query  492  VNDCPGFLVNRVLFPYFGGFAKLLSFGVDFVR-IDKVMEK-FGWPMGPAYLSDVVGIDTG  549
+            VND PGF+ NR +  +      ++   +     ID + +  FG  MGP   +D++G+DT 
+Sbjct  181  VNDSPGFVTNRAMMIFVNEAIFMVQEQIARAEDIDTLFKTCFGHKMGPLQTADLIGLDTI  240
+
+Query  550  HHGRDVMAEGFPD---RMAVEGKTAVDVMYEANRLGQKNGKGFYAYE  593
+                 V+ E F D   R +   K  VD  Y    LG K+G+GFY Y+
+Sbjct  241  LQSLQVLYESFNDDKYRPSFLLKKMVDAGY----LGVKSGQGFYRYQ  283
+
+
+>VFG043691(gb|WP_000982270) (clbD) colibactin biosynthesis dehydrogenase 
+ClbD [Colibactin (VF1179) - Exotoxin (VFC0235)] [Escherichia 
+coli O18:K1:H7 str. IHE3034]
+Length=289
+
+ Score = 136 bits (342),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 91/287 (32%), Positives = 140/287 (49%), Gaps = 19/287 (7%)
+
+Query  318  AVLGAGIMGGGIAYQSALKGTPILMKDIREEGIQMGLNEAAKLLGKRVEKGRLTPAK---  374
+            AV+GAG+MG G+A+  A  G    + DI     Q  L++  +++   +      P     
+Sbjct  5    AVIGAGVMGTGVAHNMAQYGISTNVVDIS----QSQLDKCRQMIEANLRLYNFHPQHKKK  60
+
+Query  375  ---MAEALNGIRPTMSYGDFGNVDIVVEAVVENPKVKQAVLAEVEGAVKEDAIIASNTST  431
+                AE +  IR T    D    D+V+E + E+ + K A+   +        +   NTS 
+Sbjct  61   THSTAEIMENIRFTTELDDIVECDLVIENITEDIEKKNALYTRMNTICGASTVFGVNTSA  120
+
+Query  432  ISISLLAQALKRPENFCGMHFFNPVHMMPLVEVIRGEKTGETAIATTVAYAKKMGKSPIV  491
+            ISI+ L++ ++ PEN  G+HF NPV +M  VE+IRG  T E  +        ++ K+ IV
+Sbjct  121  ISITALSKLMRHPENVVGVHFMNPVPLMHTVELIRGVHTAERTLNIFHHLFAQLNKTGIV  180
+
+Query  492  VNDCPGFLVNRVLFPYFGGFAKLLSFGVDFVR-IDKVMEK-FGWPMGPAYLSDVVGIDTG  549
+            VND PGF+ NR +  +      ++   +     ID + +  FG  MGP   +D++G+DT 
+Sbjct  181  VNDSPGFVTNRAMMIFVNEAIFMVQEQIARAEDIDTLFKTCFGHKMGPLQTADLIGLDTI  240
+
+Query  550  HHGRDVMAEGFPD---RMAVEGKTAVDVMYEANRLGQKNGKGFYAYE  593
+                 V+ E F D   R +   K  VD  Y    LG K+G+GFY Y+
+Sbjct  241  LQSLQVLYESFNDDKYRPSFLLKKMVDAGY----LGVKSGQGFYRYQ  283
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.137    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6265019872
+
+
+Query= g3718.t1
+
+Length=729
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG049150(gb|WP_000982270) (clbD) colibactin biosynthesis dehydro...  135     2e-35
+VFG043691(gb|WP_000982270) (clbD) colibactin biosynthesis dehydro...  135     2e-35
+VFG017683(gb|YP_005921788) (icl) Isocitrate lyase Icl (isocitrase...  124     4e-29
+
+
+>VFG049150(gb|WP_000982270) (clbD) colibactin biosynthesis dehydrogenase 
+ClbD [Colibactin (VF0573) - Exotoxin (VFC0235)] [Klebsiella 
+pneumoniae subsp. pneumoniae 1084]
+Length=289
+
+ Score = 135 bits (340),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 88/285 (31%), Positives = 138/285 (48%), Gaps = 8/285 (3%)
+
+Query  315  QAAVLGAGIMGGGIAYQSAWKGVPVIMKDINDKSLN--LGMTEAAKLLNKQLERGKIDGL  372
+              AV+GAG+MG G+A+  A  G+   + DI+   L+    M EA   L     + K    
+Sbjct  3    NVAVIGAGVMGTGVAHNMAQYGISTNVVDISQSQLDKCRQMIEANLRLYNFHPQHKKKTH  62
+
+Query  373  KLAGVISTIHPTLDYAGFDRVDVVVEAVVENPKVKKAVLAETEQKVRPETVLASNTSTIP  432
+              A ++  I  T +       D+V+E + E+ + K A+           TV   NTS I 
+Sbjct  63   STAEIMENIRFTTELDDIVECDLVIENITEDIEKKNALYTRMNTICGASTVFGVNTSAIS  122
+
+Query  433  IGELASALERPENFCGMHFFNPVHRMPLVEIIRGEKSSDETIAKVVAWASKMGKTPIVVN  492
+            I  L+  +  PEN  G+HF NPV  M  VE+IRG  +++ T+       +++ KT IVVN
+Sbjct  123  ITALSKLMRHPENVVGVHFMNPVPLMHTVELIRGVHTAERTLNIFHHLFAQLNKTGIVVN  182
+
+Query  493  DCPGFFVNRVLFPYFAGFSQLLRDG-ADFRKVDKVMEKQFGWPMGPAYLLDVVGIDTAHH  551
+            D PGF  NR +  +      ++++  A    +D + +  FG  MGP    D++G+DT   
+Sbjct  183  DSPGFVTNRAMMIFVNEAIFMVQEQIARAEDIDTLFKTCFGHKMGPLQTADLIGLDTILQ  242
+
+Query  552  AQAVMAAGFPQRMQKDYRDA--IDALFDASRFGQKNGLGFWRYKE  594
+            +  V+   F       YR +  +  + DA   G K+G GF+RY++
+Sbjct  243  SLQVLYESFN---DDKYRPSFLLKKMVDAGYLGVKSGQGFYRYQQ  284
+
+
+>VFG043691(gb|WP_000982270) (clbD) colibactin biosynthesis dehydrogenase 
+ClbD [Colibactin (VF1179) - Exotoxin (VFC0235)] [Escherichia 
+coli O18:K1:H7 str. IHE3034]
+Length=289
+
+ Score = 135 bits (340),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 88/285 (31%), Positives = 138/285 (48%), Gaps = 8/285 (3%)
+
+Query  315  QAAVLGAGIMGGGIAYQSAWKGVPVIMKDINDKSLN--LGMTEAAKLLNKQLERGKIDGL  372
+              AV+GAG+MG G+A+  A  G+   + DI+   L+    M EA   L     + K    
+Sbjct  3    NVAVIGAGVMGTGVAHNMAQYGISTNVVDISQSQLDKCRQMIEANLRLYNFHPQHKKKTH  62
+
+Query  373  KLAGVISTIHPTLDYAGFDRVDVVVEAVVENPKVKKAVLAETEQKVRPETVLASNTSTIP  432
+              A ++  I  T +       D+V+E + E+ + K A+           TV   NTS I 
+Sbjct  63   STAEIMENIRFTTELDDIVECDLVIENITEDIEKKNALYTRMNTICGASTVFGVNTSAIS  122
+
+Query  433  IGELASALERPENFCGMHFFNPVHRMPLVEIIRGEKSSDETIAKVVAWASKMGKTPIVVN  492
+            I  L+  +  PEN  G+HF NPV  M  VE+IRG  +++ T+       +++ KT IVVN
+Sbjct  123  ITALSKLMRHPENVVGVHFMNPVPLMHTVELIRGVHTAERTLNIFHHLFAQLNKTGIVVN  182
+
+Query  493  DCPGFFVNRVLFPYFAGFSQLLRDG-ADFRKVDKVMEKQFGWPMGPAYLLDVVGIDTAHH  551
+            D PGF  NR +  +      ++++  A    +D + +  FG  MGP    D++G+DT   
+Sbjct  183  DSPGFVTNRAMMIFVNEAIFMVQEQIARAEDIDTLFKTCFGHKMGPLQTADLIGLDTILQ  242
+
+Query  552  AQAVMAAGFPQRMQKDYRDA--IDALFDASRFGQKNGLGFWRYKE  594
+            +  V+   F       YR +  +  + DA   G K+G GF+RY++
+Sbjct  243  SLQVLYESFN---DDKYRPSFLLKKMVDAGYLGVKSGQGFYRYQQ  284
+
+
+>VFG017683(gb|YP_005921788) (icl) Isocitrate lyase Icl (isocitrase) 
+(isocitratase) [Isocitrate lyase (VF0253) - Others (VFC0346)] 
+[Mycobacterium tuberculosis RGTB423]
+Length=744
+
+ Score = 124 bits (310),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 84/262 (32%), Positives = 137/262 (52%), Gaps = 8/262 (3%)
+
+Query  336  GVPVIMKDINDKSLNLGMTEAAKLLNKQLERGKIDGLKLAGVISTIHPTLDYAGFDRVDV  395
+            GV V + +  +  +  G     K L + +  GK+   +    +  +  T D        +
+Sbjct  486  GVEVTVFEPAEALITAGRNRIVKSLERAVSAGKVTERERDRALGLLTFTTDLNDLSDRQL  545
+
+Query  396  VVEAVVENPKVKKAVLAETEQKVR-PETVLASNTSTIPIGELASALERPENFCGMHFFNP  454
+            V+EAVVE+  VK  + AE ++ V  P+ VLASNTS+IPI ++A+A ++P+   G+HFFNP
+Sbjct  546  VIEAVVEDEAVKSEIFAELDRVVTDPDAVLASNTSSIPIMKVAAATKQPQRVLGLHFFNP  605
+
+Query  455  VHRMPLVEIIRGEKSSDETIAKVVAWASK-MGKTPIVVNDCPGFFVNRVLFPYFAGFSQL  513
+            V  +PLVE++R   + +   A+   +AS  +GK  +  +D  GF VN +L PY     ++
+Sbjct  606  VPVLPLVELVRTLVTDEAAAARTEEFASTVLGKQVVRCSDRSGFVVNALLVPYLLSAIRM  665
+
+Query  514  LRDG-ADFRKVDKVMEKQFGWPMGPAYLLDVVGIDTAHHAQAVMAAGFPQRMQKDYRDA-  571
+            +  G A    VDK +      PMGP  L D+VG+DT    + +    F +  +  Y    
+Sbjct  666  VEAGFATVEDVDKAVVAGLSHPMGPLRLSDLVGLDT---LKLIADKMFEEFKEPHYGPPP  722
+
+Query  572  -IDALFDASRFGQKNGLGFWRY  592
+             +  + +A + G+K+G GF+ Y
+Sbjct  723  LLLRMVEAGQLGKKSGRGFYTY  744
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6409280198
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

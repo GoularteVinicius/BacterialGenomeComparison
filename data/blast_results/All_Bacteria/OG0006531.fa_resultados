@@ -1,0 +1,363 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3514.t1
+
+Length=178
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG034394(gb|WP_015675133) (ykgK/ecpR) regulator protein EcpR [EC...  66.6    4e-14
+VFG034398(gb|WP_024179291) (ykgK/ecpR) regulator protein EcpR [EC...  66.2    6e-14
+VFG034393(gb|WP_001301257) (ykgK/ecpR) regulator protein EcpR [EC...  66.2    6e-14
+VFG034392(gb|WP_001323479) (ykgK/ecpR) regulator protein EcpR [EC...  66.2    7e-14
+VFG018191(gb|NP_414828) (ykgK/ecpR) regulator protein EcpR [ECP (...  66.2    9e-14
+VFG034382(gb|WP_001296902) (ykgK/ecpR) regulator protein EcpR [EC...  64.7    3e-13
+VFG034381(gb|WP_024262523) (ykgK/ecpR) regulator protein EcpR [EC...  63.9    5e-13
+VFG034386(gb|WP_001305433) (ykgK/ecpR) regulator protein EcpR [EC...  63.2    9e-13
+VFG034380(gb|WP_001381763) (ykgK/ecpR) regulator protein EcpR [EC...  63.2    9e-13
+VFG034388(gb|WP_001304871) (ykgK/ecpR) regulator protein EcpR [EC...  62.4    2e-12
+VFG002413(gb|WP_000389022) (ykgK/ecpR) regulator protein EcpR [EC...  62.4    2e-12
+VFG034378(gb|WP_001301675) (ykgK/ecpR) regulator protein EcpR [EC...  60.1    1e-11
+
+
+>VFG034394(gb|WP_015675133) (ykgK/ecpR) regulator protein EcpR 
+[ECP (VF0404) - Adherence (VFC0001)] [Escherichia coli UMNK88]
+Length=180
+
+ Score = 66.6 bits (161),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 50/181 (28%), Positives = 91/181 (50%), Gaps = 14/181 (8%)
+
+Query  4    CHNAAFS-IWPDGNAFLKKGFIEKLL-LDRHNHLS-----SGFIFVDFSFPNLRRF--TD  54
+            C N +   IW   +A+  KG  E ++ +DR  +LS       F+F++ S  +L  F   D
+Sbjct  3    CQNRSDKYIWSPHDAYFYKGLSELIVDIDRLIYLSLEKIRKDFVFINLSTDSLSEFINCD  62
+
+Query  55   LQWADSLADSGMHIVLISDRSLTPLANYWILKSNKIQGIIYSDDDDIVQQQKMHRLFTGR  114
+             +W  ++   G  +VLI+ R    LANYW   SN I+G++Y+     ++++ ++ +  GR
+Sbjct  63   NEWLSAV--KGKQVVLIAARKSEALANYWYYNSN-IRGVVYAGLSRDIRKELVY-VINGR  118
+
+Query  115  -LANSKRGRTLNYTEFILLKRFVSGISIQQIVNIDNIDIKKLYVHKLRLENKLGHSIHKI  173
+             L    +   +   E  +++    G+  + I  I+N  +K +Y H+   E KL   I+K+
+Sbjct  119  FLRKDIKKDKITDREMEIIRMTAQGMQPKSIARIENCSVKTVYTHRRNAEAKLYSKIYKL  178
+
+Query  174  I  174
+            +
+Sbjct  179  V  179
+
+
+>VFG034398(gb|WP_024179291) (ykgK/ecpR) regulator protein EcpR 
+[ECP (VF0404) - Adherence (VFC0001)] [Escherichia coli O78:H18 
+str. WS3294A]
+Length=180
+
+ Score = 66.2 bits (160),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 52/183 (28%), Positives = 93/183 (51%), Gaps = 18/183 (10%)
+
+Query  4    CHNAAFS-IWPDGNAFLKKGFIEKLL-LDRHNHLS-----SGFIFVDFSFPNLRRFT--D  54
+            C N +   IW   +A+  KG  E ++ +DR  +LS       F+F++ S  +L  F   D
+Sbjct  3    CQNRSDKYIWSPHDAYFYKGLSELIVDIDRLIYLSLEKIRKDFVFINLSTDSLSEFINRD  62
+
+Query  55   LQWADSLADSGMHIVLISDRSLTPLANYWILKSNKIQGIIYSD-DDDIVQQQKMHRLFTG  113
+             +W  ++   G  +VLI+ R    LANYW   SN I+G++Y+    DI  ++++  +  G
+Sbjct  63   NEWLSAV--KGKQVVLIAARKSEALANYWYYNSN-IRGVVYAGLSRDI--RKELAYVING  117
+
+Query  114  RLANS--KRGRTLNYTEFILLKRFVSGISIQQIVNIDNIDIKKLYVHKLRLENKLGHSIH  171
+            R      K+ + ++  E  +++    G+  + I  I+N  +K +Y H+   E KL   I+
+Sbjct  118  RFLRKDIKKDKIMD-REMEIIRMTAQGMQPKSIARIENCSVKTVYTHRRNAEAKLYSKIY  176
+
+Query  172  KII  174
+            K++
+Sbjct  177  KLV  179
+
+
+>VFG034393(gb|WP_001301257) (ykgK/ecpR) regulator protein EcpR 
+[ECP (VF0404) - Adherence (VFC0001)] [Escherichia coli O78:H11:K80 
+str. H10407]
+Length=180
+
+ Score = 66.2 bits (160),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 50/181 (28%), Positives = 91/181 (50%), Gaps = 14/181 (8%)
+
+Query  4    CHNAAFS-IWPDGNAFLKKGFIEKLL-LDRHNHLS-----SGFIFVDFSFPNLRRFT--D  54
+            C N +   IW   +A+  KG  E ++ +DR  +LS       F+F++ S  +L  F   D
+Sbjct  3    CQNRSDKYIWSPHDAYFYKGLSELIVDIDRLIYLSLEKIRKDFVFINLSTDSLSEFINRD  62
+
+Query  55   LQWADSLADSGMHIVLISDRSLTPLANYWILKSNKIQGIIYSDDDDIVQQQKMHRLFTGR  114
+             +W  ++   G  +VLI+ R    LANYW   SN I+G++Y+     ++++ ++ +  GR
+Sbjct  63   NEWLSAV--KGKQVVLIAARKSEALANYWYYNSN-IRGVVYAGLSRDIRKELVY-VINGR  118
+
+Query  115  -LANSKRGRTLNYTEFILLKRFVSGISIQQIVNIDNIDIKKLYVHKLRLENKLGHSIHKI  173
+             L    +   +   E  +++    G+  + I  I+N  +K +Y H+   E KL   I+K+
+Sbjct  119  FLRKDIKKDKITDREMEIIRMTAQGMQPKSIARIENCSVKTVYTHRRNAEAKLYSKIYKL  178
+
+Query  174  I  174
+            +
+Sbjct  179  V  179
+
+
+>VFG034392(gb|WP_001323479) (ykgK/ecpR) regulator protein EcpR 
+[ECP (VF0404) - Adherence (VFC0001)] [Escherichia coli E24377A]
+Length=180
+
+ Score = 66.2 bits (160),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 52/182 (29%), Positives = 91/182 (50%), Gaps = 16/182 (9%)
+
+Query  4    CHNAAFS-IWPDGNAFLKKGFIEKLL-LDRHNHLS-----SGFIFVDFSFPNLRRF--TD  54
+            C N +   IW   +A+  KG  E ++ +DR  +LS       F+F++ S  +L  F   D
+Sbjct  3    CQNRSDKYIWSPHDAYFYKGLSELIVDIDRLIYLSLEKIRKDFVFINLSTDSLSEFINRD  62
+
+Query  55   LQWADSLADSGMHIVLISDRSLTPLANYWILKSNKIQGIIYSD-DDDIVQQQKMHRLFTG  113
+             +W  ++   G  +VLI+ R    LANYW   SN I+G++Y+    DI  ++++  +  G
+Sbjct  63   NEWLSAV--KGKQVVLIAARKSEALANYWYYNSN-IRGVVYAGLSRDI--RKELAYVING  117
+
+Query  114  R-LANSKRGRTLNYTEFILLKRFVSGISIQQIVNIDNIDIKKLYVHKLRLENKLGHSIHK  172
+            R L    +   +   E  +++    G+  + I  I+N  +K +Y H+   E KL   I+K
+Sbjct  118  RFLRKDIKKDKITDREMEIIRMTAQGMQPKSIARIENCSVKTVYTHRRNAEAKLYSKIYK  177
+
+Query  173  II  174
+            ++
+Sbjct  178  LV  179
+
+
+>VFG018191(gb|NP_414828) (ykgK/ecpR) regulator protein EcpR [ECP 
+(VF0404) - Adherence (VFC0001)] [Escherichia coli str. K-12 
+substr. MG1655]
+Length=196
+
+ Score = 66.2 bits (160),  Expect = 9e-14, Method: Compositional matrix adjust.
+ Identities = 50/181 (28%), Positives = 91/181 (50%), Gaps = 14/181 (8%)
+
+Query  4    CHNAAFS-IWPDGNAFLKKGFIEKLL-LDRHNHLS-----SGFIFVDFSFPNLRRF--TD  54
+            C N +   IW   +A+  KG  E ++ +DR  +LS       F+F++ S  +L  F   D
+Sbjct  19   CQNRSDKYIWSPHDAYFYKGLSELIVDIDRLIYLSLEKIRKDFVFINLSTDSLSEFINRD  78
+
+Query  55   LQWADSLADSGMHIVLISDRSLTPLANYWILKSNKIQGIIYSDDDDIVQQQKMHRLFTGR  114
+             +W  ++   G  +VLI+ R    LANYW   SN I+G++Y+     ++++ ++ +  GR
+Sbjct  79   NEWLSAV--KGKQVVLIAARKSEALANYWYYNSN-IRGVVYAGLSRDIRKELVY-VINGR  134
+
+Query  115  -LANSKRGRTLNYTEFILLKRFVSGISIQQIVNIDNIDIKKLYVHKLRLENKLGHSIHKI  173
+             L    +   +   E  +++    G+  + I  I+N  +K +Y H+   E KL   I+K+
+Sbjct  135  FLRKDIKKDKITDREMEIIRMTAQGMQPKSIARIENCSVKTVYTHRRNAEAKLYSKIYKL  194
+
+Query  174  I  174
+            +
+Sbjct  195  V  195
+
+
+>VFG034382(gb|WP_001296902) (ykgK/ecpR) regulator protein EcpR 
+[ECP (VF0404) - Adherence (VFC0001)] [Escherichia coli O104:H4 
+str. 2009EL-2050]
+Length=180
+
+ Score = 64.7 bits (156),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 51/182 (28%), Positives = 91/182 (50%), Gaps = 16/182 (9%)
+
+Query  4    CHNAAFS-IWPDGNAFLKKGFIEKLL-LDRHNHLS-----SGFIFVDFSFPNLRRF--TD  54
+            C N +   IW   +A+  KG  E ++ +DR  +LS       F+F++ +  +L  F   D
+Sbjct  3    CQNRSDKYIWSPHDAYFYKGLSELIVDIDRLIYLSLEKIRKDFVFINLNTDSLSEFINRD  62
+
+Query  55   LQWADSLADSGMHIVLISDRSLTPLANYWILKSNKIQGIIYSD-DDDIVQQQKMHRLFTG  113
+             +W  ++   G  +VLI+ R    LANYW   SN I+G++Y+    DI  ++++  +  G
+Sbjct  63   NEWLSAV--KGKQVVLIAARKSEALANYWYYNSN-IRGVVYAGLSRDI--RKELAYVING  117
+
+Query  114  R-LANSKRGRTLNYTEFILLKRFVSGISIQQIVNIDNIDIKKLYVHKLRLENKLGHSIHK  172
+            R L    +   +   E  +++    G+  + I  I+N  +K +Y H+   E KL   I+K
+Sbjct  118  RFLRKDIKKDKITDREMEIIRMTAQGMQPKSIARIENCSVKTVYTHRRNAEAKLYSKIYK  177
+
+Query  173  II  174
+            ++
+Sbjct  178  LV  179
+
+
+>VFG034381(gb|WP_024262523) (ykgK/ecpR) regulator protein EcpR 
+[ECP (VF0404) - Adherence (VFC0001)] [Escherichia coli O26:H11 
+str. 11368]
+Length=180
+
+ Score = 63.9 bits (154),  Expect = 5e-13, Method: Compositional matrix adjust.
+ Identities = 51/182 (28%), Positives = 91/182 (50%), Gaps = 16/182 (9%)
+
+Query  4    CHNAAFS-IWPDGNAFLKKGFIEKLL-LDRHNHLS-----SGFIFVDFSFPNLRRF--TD  54
+            C N +   IW   +A+  KG  E ++ +DR  +LS       F+F++ +  +L  F   D
+Sbjct  3    CQNRSDKYIWSPHDAYFYKGLSELIVDIDRLIYLSLEKIRKDFVFINLNTDSLSEFINRD  62
+
+Query  55   LQWADSLADSGMHIVLISDRSLTPLANYWILKSNKIQGIIYSD-DDDIVQQQKMHRLFTG  113
+             +W  ++   G  +VLI+ R    LANYW   SN I+G++Y+    DI  ++++  +  G
+Sbjct  63   NEWLSAV--KGKQVVLIAARKSEALANYWYYNSN-IRGVVYAGLSRDI--RKELAYVING  117
+
+Query  114  R-LANSKRGRTLNYTEFILLKRFVSGISIQQIVNIDNIDIKKLYVHKLRLENKLGHSIHK  172
+            R L    +   +   E  +++    G+  + I  I+N  +K +Y H+   E KL   I+K
+Sbjct  118  RFLRKDIKKDKIPDREMEIIRMTAQGMQPKSIARIENCSVKTVYTHRRNAEAKLYSKIYK  177
+
+Query  173  II  174
+            ++
+Sbjct  178  LV  179
+
+
+>VFG034386(gb|WP_001305433) (ykgK/ecpR) regulator protein EcpR 
+[ECP (VF0404) - Adherence (VFC0001)] [Escherichia coli O44:H18 
+042]
+Length=180
+
+ Score = 63.2 bits (152),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 51/182 (28%), Positives = 91/182 (50%), Gaps = 16/182 (9%)
+
+Query  4    CHNAAFS-IWPDGNAFLKKGFIEKLL-LDRHNHLS-----SGFIFVDFSFPNLRRFT--D  54
+            C N +   IW   +A+  KG  E ++ +DR  +LS       F+F++ +  +L  F   D
+Sbjct  3    CQNRSDKYIWSPHDAYFYKGLSELIVDIDRLIYLSLEKIRKDFVFINLNTDSLTEFINRD  62
+
+Query  55   LQWADSLADSGMHIVLISDRSLTPLANYWILKSNKIQGIIYSD-DDDIVQQQKMHRLFTG  113
+             +W  ++   G  +VLI+ R    LANYW   SN I+G++Y+    DI  ++++  +  G
+Sbjct  63   NEWLSAV--KGKQVVLIAARKSEALANYWYYNSN-IRGVVYAGLSRDI--RKELAYVING  117
+
+Query  114  R-LANSKRGRTLNYTEFILLKRFVSGISIQQIVNIDNIDIKKLYVHKLRLENKLGHSIHK  172
+            R L    +   +   E  +++    G+  + I  I+N  +K +Y H+   E KL   I+K
+Sbjct  118  RFLRKDIKKDKITDREMEIIRMTAQGMLPKSIARIENCSVKTVYTHRRNAEAKLYSKIYK  177
+
+Query  173  II  174
+            ++
+Sbjct  178  LV  179
+
+
+>VFG034380(gb|WP_001381763) (ykgK/ecpR) regulator protein EcpR 
+[ECP (VF0404) - Adherence (VFC0001)] [Escherichia coli O103:H2 
+str. 12009]
+Length=180
+
+ Score = 63.2 bits (152),  Expect = 9e-13, Method: Compositional matrix adjust.
+ Identities = 51/182 (28%), Positives = 91/182 (50%), Gaps = 16/182 (9%)
+
+Query  4    CHNAAFS-IWPDGNAFLKKGFIEKLL-LDRHNHLS-----SGFIFVDFSFPNLRRFT--D  54
+            C N +   IW   +A+  KG  E ++ +DR  +LS       F+F++ +  +L  F   D
+Sbjct  3    CQNRSDKYIWSPHDAYFYKGLSELIVDIDRLIYLSLEKIRKDFVFINLNTDSLTEFINRD  62
+
+Query  55   LQWADSLADSGMHIVLISDRSLTPLANYWILKSNKIQGIIYSD-DDDIVQQQKMHRLFTG  113
+             +W  ++   G  +VLI+ R    LANYW   SN I+G++Y+    DI  ++++  +  G
+Sbjct  63   NEWLSAV--KGKQVVLIAARKSEALANYWYYNSN-IRGVVYAGLSRDI--RKELAYVING  117
+
+Query  114  R-LANSKRGRTLNYTEFILLKRFVSGISIQQIVNIDNIDIKKLYVHKLRLENKLGHSIHK  172
+            R L    +   +   E  +++    G+  + I  I+N  +K +Y H+   E KL   I+K
+Sbjct  118  RFLRKDIKKDKITDREMEIIRMTAQGMLPKSIARIENCSVKTVYTHRRNAEAKLYSKIYK  177
+
+Query  173  II  174
+            ++
+Sbjct  178  LV  179
+
+
+>VFG034388(gb|WP_001304871) (ykgK/ecpR) regulator protein EcpR 
+[ECP (VF0404) - Adherence (VFC0001)] [Escherichia coli ABU 
+83972]
+Length=180
+
+ Score = 62.4 bits (150),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 50/182 (27%), Positives = 91/182 (50%), Gaps = 16/182 (9%)
+
+Query  4    CHNAAFS-IWPDGNAFLKKGFIEKLL-LDRHNHLS-----SGFIFVDFSFPNLRRFT--D  54
+            C N +   IW   +A+  KG  E ++ +DR  +LS       F+F++ +  +L  F   D
+Sbjct  3    CQNRSDKYIWSPHDAYFYKGLSELIVDIDRLIYLSLEKIRKDFVFINLNTDSLTEFINRD  62
+
+Query  55   LQWADSLADSGMHIVLISDRSLTPLANYWILKSNKIQGIIYSD-DDDIVQQQKMHRLFTG  113
+             +W  ++   G  +VLI+ R    LANYW   SN I+G++Y+    DI  ++++  +  G
+Sbjct  63   NEWLSAV--KGKQVVLIAARKSEALANYWYYNSN-IRGVVYAGLSRDI--RKELAYVLNG  117
+
+Query  114  R-LANSKRGRTLNYTEFILLKRFVSGISIQQIVNIDNIDIKKLYVHKLRLENKLGHSIHK  172
+            R L    +   +   E  +++    G+  + I  I+N  +K +Y H+   E KL   ++K
+Sbjct  118  RFLRKDIKKDKITDREMEIIRMTAQGMLPKSIARIENCSVKTVYTHRRNAEAKLYSKLYK  177
+
+Query  173  II  174
+            ++
+Sbjct  178  LV  179
+
+
+>VFG002413(gb|WP_000389022) (ykgK/ecpR) regulator protein EcpR 
+[ECP (VF0404) - Adherence (VFC0001)] [Escherichia coli O157:H7 
+str. EDL933]
+Length=180
+
+ Score = 62.4 bits (150),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 50/182 (27%), Positives = 91/182 (50%), Gaps = 16/182 (9%)
+
+Query  4    CHNAAFS-IWPDGNAFLKKGFIEKLL-LDRHNHLS-----SGFIFVDFSFPNLRRFT--D  54
+            C N +   IW   +A+  KG  E ++ +DR  +LS       F+F++ +  +L  F   D
+Sbjct  3    CQNRSDKYIWSPHDAYFYKGLSELIVDIDRLIYLSLEKIRKDFVFINLNTDSLTEFINRD  62
+
+Query  55   LQWADSLADSGMHIVLISDRSLTPLANYWILKSNKIQGIIYSD-DDDIVQQQKMHRLFTG  113
+             +W  ++   G  +VLI+ R    LANYW   SN I+G++Y+    DI  ++++  +  G
+Sbjct  63   NEWLSAV--KGKQVVLIAARKSEALANYWYYNSN-IRGVVYAGLSRDI--RKELAYVING  117
+
+Query  114  R-LANSKRGRTLNYTEFILLKRFVSGISIQQIVNIDNIDIKKLYVHKLRLENKLGHSIHK  172
+            R L    +   +   E  +++    G+  + I  I+N  +K +Y H+   E KL   ++K
+Sbjct  118  RFLRKDIKKDKITDREMEIIRMTAQGMLPKSIARIENCSVKTVYTHRRNAEAKLYSKLYK  177
+
+Query  173  II  174
+            ++
+Sbjct  178  LV  179
+
+
+>VFG034378(gb|WP_001301675) (ykgK/ecpR) regulator protein EcpR 
+[ECP (VF0404) - Adherence (VFC0001)] [Escherichia coli O157:H7 
+str. TW14359]
+Length=180
+
+ Score = 60.1 bits (144),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 49/182 (27%), Positives = 91/182 (50%), Gaps = 16/182 (9%)
+
+Query  4    CHNAAFS-IWPDGNAFLKKGFIEKLL-LDRHNHLS-----SGFIFVDFSFPNLRRFT--D  54
+            C N +   IW   +A+  KG  E ++ +DR  +LS       F+F++ +  +L  F   D
+Sbjct  3    CQNRSDKYIWSPHDAYFYKGLSELIVDIDRLIYLSLEKIRKDFVFINLNTDSLTEFINRD  62
+
+Query  55   LQWADSLADSGMHIVLISDRSLTPLANYWILKSNKIQGIIYSD-DDDIVQQQKMHRLFTG  113
+             +W  ++   G  +VLI+ R    LANYW   SN I+G++Y+    DI  ++++  +  G
+Sbjct  63   NEWLSAV--KGKQVVLIAARKSEALANYWYYNSN-IRGVVYAGLSRDI--RKELAYVING  117
+
+Query  114  R-LANSKRGRTLNYTEFILLKRFVSGISIQQIVNIDNIDIKKLYVHKLRLENKLGHSIHK  172
+            R L    +   +   E  +++    G+  + I  I+N  +K +Y ++   E KL   ++K
+Sbjct  118  RFLRKDIKKDKITDREMEIIRMTAQGMLPKSIARIENCSVKTVYTYRRNAEAKLYSKLYK  177
+
+Query  173  II  174
+            ++
+Sbjct  178  LV  179
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.141    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 909164845
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

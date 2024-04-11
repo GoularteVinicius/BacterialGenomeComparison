@@ -1,0 +1,193 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g603.t1
+
+Length=328
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043391(gb|WP_001075036) (pdxA) 4-hydroxythreonine-4-phosphate ...  137     3e-38
+
+
+>VFG043391(gb|WP_001075036) (pdxA) 4-hydroxythreonine-4-phosphate 
+dehydrogenase [Flagella (VF0051) - Motility (VFC0204)] [Helicobacter 
+pylori 26695]
+Length=307
+
+ Score = 137 bits (346),  Expect = 3e-38, Method: Compositional matrix adjust.
+ Identities = 99/318 (31%), Positives = 148/318 (47%), Gaps = 21/318 (7%)
+
+Query  4    RFALTPGEPAGIGPDLCLLLAR--SAQPHPLIAIASRTLLQERAGQLGLAIDLKDVSPAA  61
+            + A++ G+  G+G +L L   +  SA   PL       L  ERA QL        V  A 
+Sbjct  5    KIAISCGDIQGVGLELILKSHKEVSALCEPLYLTDGELL--ERANQLLHNAYETKVLNAL  62
+
+Query  62   WPERPAKAGQLYVWDTPLAAPVRPGQLDRANAAYVLETLTRAGQGCLDGHFAGMITAPVH  121
+              + P           PL      G++   + AY  E+  +A +        G+ T P++
+Sbjct  63   AIDAP----------LPLLNSSTIGKVSAQSGAYSFESFKKACELADSKEVDGICTLPIN  112
+
+Query  122  KGVINEAGIPFSGHTEFLADLTHTAQVVMMLATRGLRVALATTHLPLREVADAISDERLT  181
+            K    +A IPF GHT+FL       Q++MML    L V L + H+PL  V+  I    L 
+Sbjct  113  KLAWQQAQIPFVGHTDFLKQRYKDHQIIMMLGCSKLFVGLFSDHVPLGAVSQLIQVGALV  172
+
+Query  182  RVARILHADLRDKFGIAHPRILVCGLNPHAGEGGHLGREEIEVIEPCLERLRGEGLD-LI  240
+            +         + K       + VCG NPHAGE G  G E+  +++   +  +  G +  +
+Sbjct  173  KFLLAFQKSTQAKI------VQVCGFNPHAGEEGLFGEEDERILKAIQKSNQTLGFECFL  226
+
+Query  241  GPLPADTLFTPKHLEHCDAVLAMYHDQGLPVLKYKGFGAAVNVTLGLPIIRTSVDHGTAL  300
+            GPLPAD+ F P   +     ++M HD GL  LK   F  ++NV+L  PI+RTS DHGTA 
+Sbjct  227  GPLPADSAFAPNKRKITPFYVSMSHDVGLAPLKALYFDESINVSLNAPILRTSTDHGTAF  286
+
+Query  301  DLAGSGRIDSGSLQVALE  318
+            D+A   + ++ S   A++
+Sbjct  287  DIAYQNKANNKSYLNAIK  304
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2394041724
+
+
+Query= g2255.t1
+
+Length=337
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043391(gb|WP_001075036) (pdxA) 4-hydroxythreonine-4-phosphate ...  98.2    2e-23
+
+
+>VFG043391(gb|WP_001075036) (pdxA) 4-hydroxythreonine-4-phosphate 
+dehydrogenase [Flagella (VF0051) - Motility (VFC0204)] [Helicobacter 
+pylori 26695]
+Length=307
+
+ Score = 98.2 bits (243),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 95/322 (30%), Positives = 143/322 (44%), Gaps = 42/322 (13%)
+
+Query  8    RLAMVLGDPAGIGPELIARLLADTEVREKAHIVLIADEAEMRRGMRIAGCEFPYRRIDAL  67
+            ++A+  GD  G+G ELI +  +  EV      + + D   + R  ++    +  + ++AL
+Sbjct  5    KIAISCGDIQGVGLELILK--SHKEVSALCEPLYLTDGELLERANQLLHNAYETKVLNAL  62
+
+Query  68   ETLDFADATPLLHPWLSQGGDEFPRSEASAVGGRYSLETLALALELTRSGRTDAILFGPL  127
+                 A   PL  P L+         + SA  G YS E+   A EL  S   D I   P+
+Sbjct  63   -----AIDAPL--PLLNSS----TIGKVSAQSGAYSFESFKKACELADSKEVDGICTLPI  111
+
+Query  128  NKTSLHMAGMD---HSDEL------HWFAERLGFGGPFCEFNVLDDLWTSRVTSHVALAE  178
+            NK +   A +    H+D L      H     LG             L+    + HV L  
+Sbjct  112  NKLAWQQAQIPFVGHTDFLKQRYKDHQIIMMLG----------CSKLFVGLFSDHVPLGA  161
+
+Query  179  VPGLLSQERVGEAIRLIDDALRRSGLARPRIGVCGLNPHNGDNGSFGREELDIIAPAVQK  238
+            V  L+   +VG  ++ +  A ++S  A+  + VCG NPH G+ G FG E+ + I  A+QK
+Sbjct  162  VSQLI---QVGALVKFLL-AFQKSTQAK-IVQVCGFNPHAGEEGLFGEED-ERILKAIQK  215
+
+Query  239  AREQ-GIAAD-GPYPADTIFLKVQGDARAFDAVVTMYHDQGQIAIKLMGFSRGVTVQGGL  296
+            + +  G     GP PAD+ F   +     F   V+M HD G   +K + F   + V    
+Sbjct  216  SNQTLGFECFLGPLPADSAFAPNKRKITPF--YVSMSHDVGLAPLKALYFDESINVSLNA  273
+
+Query  297  PIPIATPAHGTAFDIAGQGRAD  318
+            PI   +  HGTAFDIA Q +A+
+Sbjct  274  PILRTSTDHGTAFDIAYQNKAN  295
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2471439436
+
+
+Query= g88.t1
+
+Length=329
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043391(gb|WP_001075036) (pdxA) 4-hydroxythreonine-4-phosphate ...  142     5e-40
+
+
+>VFG043391(gb|WP_001075036) (pdxA) 4-hydroxythreonine-4-phosphate 
+dehydrogenase [Flagella (VF0051) - Motility (VFC0204)] [Helicobacter 
+pylori 26695]
+Length=307
+
+ Score = 142 bits (358),  Expect = 5e-40, Method: Compositional matrix adjust.
+ Identities = 97/319 (30%), Positives = 157/319 (49%), Gaps = 18/319 (6%)
+
+Query  3    SAQRVVITPGEPAGSGPDLVVQLAQRAWPI-ELVVCADGALLTERAAMLGLPLSLLPYSP  61
+            + +++ I+ G+  G G +L+++  +    + E +   DG LL ERA  L        Y  
+Sbjct  2    AKKKIAISCGDIQGVGLELILKSHKEVSALCEPLYLTDGELL-ERANQLLHN----AYET  56
+
+Query  62   DVPAAPQPAGTLTLLPVSLRAPAISGQLTVENGPYVVETLARACDGCLNGEFAALITGPV  121
+             V  A      L LL  S       G+++ ++G Y  E+  +AC+   + E   + T P+
+Sbjct  57   KVLNALAIDAPLPLLNSS-----TIGKVSAQSGAYSFESFKKACELADSKEVDGICTLPI  111
+
+Query  122  HKGVINDAGISFTGHTEFFEERSQAKKVVMMLATEELRVALATTHLPLRAIADAITPALL  181
+            +K     A I F GHT+F ++R +  +++MML   +L V L + H+PL A++  I    L
+Sbjct  112  NKLAWQQAQIPFVGHTDFLKQRYKDHQIIMMLGCSKLFVGLFSDHVPLGAVSQLIQVGAL  171
+
+Query  182  HEVIAILHHDLRTKFGIAEPRILVCGLNPHAGEGGHMGTEEIDTIIPVLDELRAQGMK-L  240
+             + +       + K       + VCG NPHAGE G  G E+   +  +    +  G +  
+Sbjct  172  VKFLLAFQKSTQAKI------VQVCGFNPHAGEEGLFGEEDERILKAIQKSNQTLGFECF  225
+
+Query  241  NGPLPADTLFQPKYLDNADAVLAMYHDQGLPVLKYQGFGRGVNITLGLPFIRTSVDHGTA  300
+             GPLPAD+ F P         ++M HD GL  LK   F   +N++L  P +RTS DHGTA
+Sbjct  226  LGPLPADSAFAPNKRKITPFYVSMSHDVGLAPLKALYFDESINVSLNAPILRTSTDHGTA  285
+
+Query  301  LELAGRGKADVGSFITALN  319
+             ++A + KA+  S++ A+ 
+Sbjct  286  FDIAYQNKANNKSYLNAIK  304
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2404541907
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

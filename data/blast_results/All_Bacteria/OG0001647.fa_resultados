@@ -1,0 +1,739 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g996.t1
+
+Length=498
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043980(gb|WP_001283355) (HS453_RS00480) colicin-like pore-form...  172     5e-47
+VFG044067(gb|WP_001283335) (ECS88_RS00560) colicin-like pore-form...  164     5e-44
+VFG044066(gb|WP_000447001) (ECSMS35_RS25765) colicin-like pore-fo...  125     7e-31
+VFG043982(gb|CAA61099) (cka) colicin K [Colicin K (VF1186) - Exot...  121     1e-29
+VFG043986(gb|CAA61102) (cfa) colicin 5 [Col5 (VF1189) - Exotoxin ...  119     4e-29
+VFG043987(gb|CAA57998) (cta) colicin 10 [Col10 (VF1190) - Exotoxi...  112     2e-26
+VFG043978(gb|WP_008323639) (caa) pore-forming bacteriocin colicin...  77.0    8e-15
+VFG043983(gb|CAB46008) (csa) colicin S4 [Colicin S4 (VF1187) - Ex...  69.3    2e-12
+VFG043979(gb|AAA98063) (cba) colicin B [Colicin B (VF1181) - Exot...  63.2    2e-10
+VFG043984(gb|CAA72509) (cua) colicin U [Colicin U (VF0989) - Exot...  63.5    2e-10
+VFG043981(gb|CAA68592) (CAA68592) unknown protein [Colicin N (VF1...  57.4    9e-09
+VFG043985(gb|AAF82683) (colY) colicin Y [Colicin Y (VF1188) - Exo...  57.8    1e-08
+
+
+>VFG043980(gb|WP_001283355) (HS453_RS00480) colicin-like pore-forming 
+protein [Colicin Ib (VF1184) - Exotoxin (VFC0235)] [Escherichia 
+coli O113:H21 str. EH41]
+Length=626
+
+ Score = 172 bits (436),  Expect = 5e-47, Method: Compositional matrix adjust.
+ Identities = 83/211 (39%), Positives = 143/211 (68%), Gaps = 4/211 (2%)
+
+Query  285  LVDEIASLQARLVKLNAETTRRRTEAERKAAEEQALQDAIKFTADFYKEVTEKFGARTSE  344
+            L+ E  +++++L  +N    ++  E +RK  E   ++DAIK T+DFY+ + ++FG + SE
+Sbjct  418  LLKEKENIRSQLADIN----QKIAEEKRKRDEINMIKDAIKLTSDFYRTIYDEFGKQASE  473
+
+Query  345  MARQLAEGARGKNIRSSAEAIKSFEKHKDALNKKLSLKDRQAIAKAFDSLDKQMMAKSLE  404
+            +A++LA  ++GK I+S  +A+ +F+K ++ LNKK S++DR AI+KA +++++  MA++ +
+Sbjct  474  LAKELASVSQGKQIKSVDDALNAFDKFRNNLNKKYSIQDRMAISKALEAINQVHMAETFK  533
+
+Query  405  KFSKGFGVVGKAIDAASLYQEFKISTETGDWKPFFVKIETLAAGAAASWLVGIAFATATA  464
+             FSK FG  GK ID   +  E + + +T +W+PFFVK+E+LAAG AAS +    F+    
+Sbjct  534  LFSKAFGFTGKVIDRYDVAVELQKAVKTDNWRPFFVKLESLAAGRAASAVTAWTFSVMLG  593
+
+Query  465  TPIGILGFALVMAVTGAMIDEDLLEKANNLV  495
+            TP+GILGFA++MA   A +++  +E+ N L+
+Sbjct  594  TPVGILGFAIIMAAVSAFVNDKFIEQVNKLI  624
+
+
+>VFG044067(gb|WP_001283335) (ECS88_RS00560) colicin-like pore-forming 
+protein [Colicin Ia (VF1183) - Exotoxin (VFC0235)] [Escherichia 
+coli O45:K1:H7 str. S88]
+Length=626
+
+ Score = 164 bits (414),  Expect = 5e-44, Method: Compositional matrix adjust.
+ Identities = 84/184 (46%), Positives = 125/184 (68%), Gaps = 0/184 (0%)
+
+Query  309  EAERKAAEEQALQDAIKFTADFYKEVTEKFGARTSEMARQLAEGARGKNIRSSAEAIKSF  368
+            E +RK  E +A +DAI FT +F K V+EK+GA+  ++AR++A  A+GK IR+  EA+K++
+Sbjct  438  EEKRKQDELKATKDAINFTTEFLKSVSEKYGAKAEQLAREMAGQAKGKKIRNVEEALKTY  497
+
+Query  369  EKHKDALNKKLSLKDRQAIAKAFDSLDKQMMAKSLEKFSKGFGVVGKAIDAASLYQEFKI  428
+            EK++  +NKK++ KDR AIA A +S+    ++ +L +FS+G G  GK    A    EF  
+Sbjct  498  EKYRADINKKINAKDRAAIAAALESVKLSDISSNLNRFSRGLGYAGKFTSLADWITEFGK  557
+
+Query  429  STETGDWKPFFVKIETLAAGAAASWLVGIAFATATATPIGILGFALVMAVTGAMIDEDLL  488
+               T +W+P FVK E + AG AA+ LV + F+  T + +GI+G+ L+MAVTGA+IDE L+
+Sbjct  558  GVRTENWRPLFVKTEAIIAGNAATALVALVFSILTGSALGIIGYGLLMAVTGALIDESLV  617
+
+Query  489  EKAN  492
+            EKAN
+Sbjct  618  EKAN  621
+
+
+>VFG044066(gb|WP_000447001) (ECSMS35_RS25765) colicin-like pore-forming 
+protein [Colicin E1 (VF1182) - Exotoxin (VFC0235)] 
+[Escherichia coli SMS-3-5]
+Length=521
+
+ Score = 125 bits (314),  Expect = 7e-31, Method: Compositional matrix adjust.
+ Identities = 63/176 (36%), Positives = 105/176 (60%), Gaps = 0/176 (0%)
+
+Query  320  LQDAIKFTADFYKEVTEKFGARTSEMARQLAEGARGKNIRSSAEAIKSFEKHKDALNKKL  379
+            ++DA+  T  FY+ ++EK+G + S+MA++LA+ ++GK I +  EA+ +FEK+KD LNKK 
+Sbjct  344  IKDAVDATVSFYQTLSEKYGEKYSKMAQELADKSKGKKISNVNEALAAFEKYKDVLNKKF  403
+
+Query  380  SLKDRQAIAKAFDSLDKQMMAKSLEKFSKGFGVVGKAIDAASLYQEFKISTETGDWKPFF  439
+            S  DR AI  A +S+  +  AK L++F+K   + G       +  +     +TGDWKP F
+Sbjct  404  SKADRDAIFNALESVKYEDWAKHLDQFAKYLKITGHVSFGYDVVSDILKIKDTGDWKPLF  463
+
+Query  440  VKIETLAAGAAASWLVGIAFATATATPIGILGFALVMAVTGAMIDEDLLEKANNLV  495
+            + +E     A  S++V + F+    T +GI G A+V  +  A ID++ L   N+++
+Sbjct  464  LTLEKKTVDAGVSYIVVLLFSVLAGTTLGIWGIAIVTGILCAFIDKNKLNTINDVL  519
+
+
+>VFG043982(gb|CAA61099) (cka) colicin K [Colicin K (VF1186) - 
+Exotoxin (VFC0235)] [Escherichia coli str. K49]
+Length=548
+
+ Score = 121 bits (304),  Expect = 1e-29, Method: Compositional matrix adjust.
+ Identities = 65/193 (34%), Positives = 111/193 (58%), Gaps = 6/193 (3%)
+
+Query  309  EAERK------AAEEQALQDAIKFTADFYKEVTEKFGARTSEMARQLAEGARGKNIRSSA  362
+            EAE+K      A E+  ++DA+     FY+ +TE++G + +++A+ LAE ++GK I+   
+Sbjct  354  EAEQKLKEAQDALEKSQIKDAVDTMVGFYQYITEQYGEKYAKIAQDLAEKSKGKKIQGVD  413
+
+Query  363  EAIKSFEKHKDALNKKLSLKDRQAIAKAFDSLDKQMMAKSLEKFSKGFGVVGKAIDAASL  422
+            EA+ +FEK+K+ L+KK S  DR AI  A +S++   ++K+L K SK   +  +      +
+Sbjct  414  EALAAFEKYKNVLDKKFSKVDRDAIFNALESVNYDELSKNLTKISKSLKITSRVSFLYDV  473
+
+Query  423  YQEFKISTETGDWKPFFVKIETLAAGAAASWLVGIAFATATATPIGILGFALVMAVTGAM  482
+              +FK + ETG+W+P FV +E  A     + +V + F+     P+G  G A+V  +  + 
+Sbjct  474  GSDFKNAIETGNWRPLFVTLEKSAVDVGVAKIVALMFSFIVGVPLGFWGIAIVTGIVSSY  533
+
+Query  483  IDEDLLEKANNLV  495
+            I +D L K N L+
+Sbjct  534  IGDDELSKLNELL  546
+
+
+>VFG043986(gb|CAA61102) (cfa) colicin 5 [Col5 (VF1189) - Exotoxin 
+(VFC0235)] [Escherichia coli str. ECOR5]
+Length=490
+
+ Score = 119 bits (299),  Expect = 4e-29, Method: Compositional matrix adjust.
+ Identities = 61/184 (33%), Positives = 105/184 (57%), Gaps = 0/184 (0%)
+
+Query  312  RKAAEEQALQDAIKFTADFYKEVTEKFGARTSEMARQLAEGARGKNIRSSAEAIKSFEKH  371
+            + A E+  ++D++     FY+ +TE++G + S +A+ LAE A+G    S  EA+ +FEK+
+Sbjct  305  KDALEKSQVKDSVDTMVGFYQYITEQYGEKYSRIAQDLAEKAKGSKFSSVDEALAAFEKY  364
+
+Query  372  KDALNKKLSLKDRQAIAKAFDSLDKQMMAKSLEKFSKGFGVVGKAIDAASLYQEFKISTE  431
+            K+ L+KK+S  DR AI  A +S++   ++K+L K SK   +  +      +  +FK + E
+Sbjct  365  KNVLDKKISKVDRDAIFNALESVNYDELSKNLTKISKSLKITSRVSFLYDVGSDFKNAIE  424
+
+Query  432  TGDWKPFFVKIETLAAGAAASWLVGIAFATATATPIGILGFALVMAVTGAMIDEDLLEKA  491
+            TG+W+P FV +E  A     + +V + F+     P+G  G A+V  +  + I +D L K 
+Sbjct  425  TGNWRPLFVTLEKSAVDVGVAKIVALMFSFIVGVPLGFWGIAIVTGIVSSYIGDDELNKL  484
+
+Query  492  NNLV  495
+            N L+
+Sbjct  485  NELL  488
+
+
+>VFG043987(gb|CAA57998) (cta) colicin 10 [Col10 (VF1190) - Exotoxin 
+(VFC0235)] [Escherichia coli str. PTE10]
+Length=490
+
+ Score = 112 bits (279),  Expect = 2e-26, Method: Compositional matrix adjust.
+ Identities = 61/184 (33%), Positives = 98/184 (53%), Gaps = 0/184 (0%)
+
+Query  312  RKAAEEQALQDAIKFTADFYKEVTEKFGARTSEMARQLAEGARGKNIRSSAEAIKSFEKH  371
+            + A E+  ++D++     FY+ +TE++G + S +A+ LAE A+G    S  EA+ +FEK+
+Sbjct  305  KDALEKSQVKDSVDTMVGFYQYITEQYGEKYSRIAQDLAEKAKGSKFNSVDEALAAFEKY  364
+
+Query  372  KDALNKKLSLKDRQAIAKAFDSLDKQMMAKSLEKFSKGFGVVGKAIDAASLYQEFKISTE  431
+            K+ L+KK S  DR  I  A +S+     AK LEK S+   V G       ++       +
+Sbjct  365  KNVLDKKFSKVDRDDIFNALESITYDEWAKHLEKISRALKVTGYLSFGYDVWDGTLKGLK  424
+
+Query  432  TGDWKPFFVKIETLAAGAAASWLVGIAFATATATPIGILGFALVMAVTGAMIDEDLLEKA  491
+            TGDWKP FV +E  A     + +V + F+     P+G  G A++  +  + I +D L K 
+Sbjct  425  TGDWKPLFVTLEKSAVDFGVAKIVALMFSFIVGAPLGFWGIAIITGIVSSYIGDDELNKL  484
+
+Query  492  NNLV  495
+            N L+
+Sbjct  485  NELL  488
+
+
+>VFG043978(gb|WP_008323639) (caa) pore-forming bacteriocin colicin 
+A [Colicin A (VF1180) - Exotoxin (VFC0235)] [Escherichia 
+coli]
+Length=592
+
+ Score = 77.0 bits (188),  Expect = 8e-15, Method: Compositional matrix adjust.
+ Identities = 62/210 (30%), Positives = 103/210 (49%), Gaps = 15/210 (7%)
+
+Query  301  AETTRRRTEAERKAAEE-QALQDAIKFTADFYKEVTEKFGARTSEMARQLAEGAR---GK  356
+            AE  R+  E   KA +E + L+   +  A    ++ E  G +   +A+ +A+  +   GK
+Sbjct  380  AERQRQAMEVAEKAKDERELLEKTSELIAGMGDKIGEHLGDKYKAIAKDIADNIKNFQGK  439
+
+Query  357  NIRSSAEAIKSFEKHKDALNKKLSLKDRQAIAKAFDSLDKQMMAKSLEKFSKGFGVVGKA  416
+             IRS  +A+ S  K       K++  DR A+  A+  +D Q MA  L   SK F V    
+Sbjct  440  TIRSFDDAMASLNKITANPAMKINKADRDALVNAWKHVDAQDMANKLGNLSKAFKVADVV  499
+
+Query  417  IDAASLYQEFKISTETGDWKPFFVKIET-LAAGAAASWLVGI------AFATATATP---  466
+            +    + ++     ETG+W P  +++E+ + +G A+S  +GI      A+A +   P   
+Sbjct  500  MKVEKVREKSIEGYETGNWGPLMLEVESWVLSGIASSVALGIFSATLGAYALSLGVPAIA  559
+
+Query  467  IGILGFALVMAVTGAMIDEDLLEKANNLVI  496
+            +GI G  L+ AV GA+ID+   +  NN +I
+Sbjct  560  VGIAGI-LLAAVVGALIDDKFADALNNEII  588
+
+
+>VFG043983(gb|CAB46008) (csa) colicin S4 [Colicin S4 (VF1187) 
+- Exotoxin (VFC0235)] [Escherichia coli]
+Length=499
+
+ Score = 69.3 bits (168),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 54/198 (27%), Positives = 93/198 (47%), Gaps = 14/198 (7%)
+
+Query  312  RKAAEEQALQDAIKFTADFYKEVTEKFGARTSEMARQLAEGAR---GKNIRSSAEAIKSF  368
+            R   +   L  A +  +D   +V +  G     +AR++A+  +   GK IRS  +A+ S 
+Sbjct  299  RDRIQSDVLNKAAEVISDIGNKVGDYLGDAYKSLAREIADDVKNFQGKTIRSYDDAMASL  358
+
+Query  369  EKHKDALNKKLSLKDRQAIAKAFDSLDKQMMAKSLEKFSKGFGVVGKAIDAASLYQEFKI  428
+             K       K +  D  A+A  + S+D Q MA  L   SK F      +    + ++   
+Sbjct  359  NKVLSNPGFKFNRADSDALANVWRSIDAQDMANKLGNISKAFKFADVVMKVEKVREKSIE  418
+
+Query  429  STETGDWKPFFVKIET-LAAGAAASWLVGIAFAT---------ATATPIGILGFALVMAV  478
+              ETG+W P  +++E+ + +G A++  +G+  AT         A A  +GI+G  L+ AV
+Sbjct  419  GYETGNWGPLMLEVESWVLSGIASAVALGVFSATLGAYALSLGAPAIAVGIVGI-LLAAV  477
+
+Query  479  TGAMIDEDLLEKANNLVI  496
+             GA++D+   +  N  +I
+Sbjct  478  VGALLDDKFADALNKEII  495
+
+
+>VFG043979(gb|AAA98063) (cba) colicin B [Colicin B (VF1181) - 
+Exotoxin (VFC0235)] [Escherichia coli]
+Length=511
+
+ Score = 63.2 bits (152),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 50/203 (25%), Positives = 96/203 (47%), Gaps = 14/203 (7%)
+
+Query  307  RTEAERKAAEEQALQDAIKFTADFYKEVTEKFGARTSEMARQLAEGA---RGKNIRSSAE  363
+            R + E++  E+  L    +       +V E  G +   ++R++AE     +GK IRS  +
+Sbjct  309  RVKKEQENDEKTVLTKTSEVIISVGDKVGEYLGDKYKALSREIAENINNFQGKTIRSYDD  368
+
+Query  364  AIKSFEKHKDALNKKLSLKDRQAIAKAFDSLDKQMMAKSLEKFSKGFGVVGKAIDAASLY  423
+            A+ S  K     + K++  D++AI  A+ + + + M        K F     AI A ++ 
+Sbjct  369  AMSSINKLMANPSLKINATDKEAIVNAWKAFNAEDMGNKFAALGKTFKAADYAIKANNIR  428
+
+Query  424  QEFKISTETGDWKPFFVKIETLA----AGAAASWLVGIAFATA------TATPIGILGFA  473
+            ++     +TG+W P  +++E+      A A A  L  +   +A      +AT +G +G  
+Sbjct  429  EKSIEGYQTGNWGPLMLEVESWVISGMASAVALSLFSLTLGSALIAFGLSATVVGFVGVV  488
+
+Query  474  LVMAVTGAMIDEDLLEKANNLVI  496
+            +  A+ GA ID+  +++ N+ +I
+Sbjct  489  IAGAI-GAFIDDKFVDELNHKII  510
+
+
+>VFG043984(gb|CAA72509) (cua) colicin U [Colicin U (VF0989) - 
+Exotoxin (VFC0235)] [Shigella boydii str. M592]
+Length=619
+
+ Score = 63.5 bits (153),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 47/174 (27%), Positives = 85/174 (49%), Gaps = 14/174 (8%)
+
+Query  336  EKFGARTSEMARQLAEGAR---GKNIRSSAEAIKSFEKHKDALNKKLSLKDRQAIAKAFD  392
+            E  G +   ++R++A+  +   GK IRS  EA+ S  K     + K++  DR AI  A+ 
+Sbjct  443  EYLGDKYKVLSREIADNIKNFQGKTIRSYDEAMASVNKLMANPDLKINAADRDAIVNAWK  502
+
+Query  393  SLDKQMMAKSLEKFSKGFGVVGKAIDAASLYQEFKISTETGDWKPFFVKIETLAAGAAAS  452
+            + D + M        K F      + A ++ ++     +TG+W P  ++IE+      AS
+Sbjct  503  AFDAEDMGNKFAALGKTFKAADYVMKANNVREKSIEGYQTGNWGPLMLEIESWVLSGIAS  562
+
+Query  453  WLVGIAFATATATPIGILG---------FALVMA-VTGAMIDEDLLEKANNLVI  496
+              V ++F +A      +LG          A+++A + GA+ID++ ++K NN +I
+Sbjct  563  -AVALSFFSAIFGTFAMLGVFSTSLAGILAVILAGLVGALIDDNFVDKLNNEII  615
+
+
+>VFG043981(gb|CAA68592) (CAA68592) unknown protein [Colicin N 
+(VF1185) - Exotoxin (VFC0235)] [Escherichia coli]
+Length=387
+
+ Score = 57.4 bits (137),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 48/192 (25%), Positives = 90/192 (47%), Gaps = 13/192 (7%)
+
+Query  319  ALQDAIKFTADFYKEVTEKFGARTSEMARQLAEGAR---GKNIRSSAEAIKSFEKHKDAL  375
+            AL  A +  +    ++ E  G +   +A+++A   +   G+NIRS  EA+ S  K     
+Sbjct  195  ALLKASELVSGMGDKLGEYLGVKYKNVAKEVANDIKNFHGRNIRSYNEAMASLNKVLANP  254
+
+Query  376  NKKLSLKDRQAIAKAFDSLDKQMMAKSLEKFSKGFGVVGKAIDAASLYQEFKISTETGDW  435
+              K++  D+ AI  A+  ++ + MA  +    K F V   AI    + ++      TG+W
+Sbjct  255  KMKVNKSDKDAIVNAWKQVNAKDMANKIGNLGKAFKVADLAIKVEKIREKSIEGYNTGNW  314
+
+Query  436  KPFFVKIET-----LAAGAAASWLVG--IAFATATATPIGILGFALVMAVT--GAMIDED  486
+             P  +++E+     + AG A S L G  ++F   +   +  LG   +M ++   + ID +
+Sbjct  315  GPLLLEVESWIIGGVVAGVAIS-LFGAVLSFLPISGLAVTALGVIGIMTISYLSSFIDAN  373
+
+Query  487  LLEKANNLVISI  498
+             +   NN++ S+
+Sbjct  374  RVSNINNIISSV  385
+
+
+>VFG043985(gb|AAF82683) (colY) colicin Y [Colicin Y (VF1188) - 
+Exotoxin (VFC0235)] [Escherichia coli]
+Length=629
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 54/202 (27%), Positives = 87/202 (43%), Gaps = 30/202 (15%)
+
+Query  316  EEQALQDAIKFTADFYKEVTEKFGARTSEMARQLAEGAR---GKNIRSSAEAIKSFEKHK  372
+            E+  L  A +       +V E  G +   ++R++A   +   GK IRS  EAI S  K  
+Sbjct  433  EKAVLTKASEIIISVGDKVGEYLGDKYKALSREIAGNIKNFQGKTIRSYDEAIASVNKLM  492
+
+Query  373  DALNKKLSLKDRQAIAKAFDSLDKQMMAKSLEKFSKGFGVVGKAIDAASLYQEFKISTET  432
+               + K++  DR  I  A+ + D + M        K F      + A ++ ++     +T
+Sbjct  493  ANPDLKINAADRDVIVNAWKAFDAEDMGNKFAALGKTFKAADYVMKANNVREKSIEGYQT  552
+
+Query  433  GDWKPFFVKIETLAAGAAASWLV-GIAFATATATPIGILGFALVMAV-------------  478
+            G+W P   ++E        SW+V GIA A A A     LG A ++AV             
+Sbjct  553  GNWGPLMREVE--------SWVVSGIASAVALAIFSATLG-AYLLAVGASAAVVGIIGII  603
+
+Query  479  ----TGAMIDEDLLEKANNLVI  496
+                 GA+ID+  +++ NN +I
+Sbjct  604  IASFIGALIDDKFIDRLNNEII  625
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.128    0.348    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4092972470
+
+
+Query= g1167.t1
+
+Length=689
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG036074(gb|WP_000502504) (usp) type VI secretion system tube pr...  146     6e-37
+VFG036073(gb|WP_000502509) (usp) type VI secretion system tube pr...  144     2e-36
+VFG036079(gb|WP_000502505) (usp) type VI secretion system tube pr...  144     2e-36
+VFG036078(gb|WP_000502513) (usp) type VI secretion system tube pr...  144     3e-36
+VFG036082(gb|WP_000502511) (usp) type VI secretion system tube pr...  142     1e-35
+VFG036076(gb|WP_000502506) (usp) type VI secretion system tube pr...  139     2e-34
+
+
+>VFG036074(gb|WP_000502504) (usp) type VI secretion system tube 
+protein Hcp [Colicin-like Usp (VF1135) - Exotoxin (VFC0235)] 
+[Escherichia coli APEC O1]
+Length=593
+
+ Score = 146 bits (368),  Expect = 6e-37, Method: Compositional matrix adjust.
+ Identities = 124/388 (32%), Positives = 176/388 (45%), Gaps = 54/388 (14%)
+
+Query  319  ANTYAMPANGSVVATAAGRGLIQVAQGAASLAQAISDAIAVLGRVLASAPSVMAVGFASL  378
+            AN    PA    +    G  L     G  SL+  +S         LASA  + + G  S 
+Sbjct  236  ANDVGQPAEAQTMLLFPGSVLAAQIWGKWSLSGILSATCGSYIGALASALYIPSAGEGSA  295
+
+Query  379  TYSSRTAEQWQDQTPDSVRYALGMDAAKLGLPPSVNLNAVAKASGTVDLPMRLTNEARGN  438
+                R  E W ++                     +   A+A ++ T  +      +  G 
+Sbjct  296  RVPGRD-EFWYEE--------------------ELRQKALAGSTATTRVRFFWGTDIHGK  334
+
+Query  439  TTTLSVVSTDGVSVPKAVPVRMAAYNATTGLYEVTVPSTTAEAPPLILTWTPASPPGNQN  498
+                 V + +G    + V V    +N  T  YE T P+   + P  ++TWTP +P     
+Sbjct  335  PQVYGVHTGEGTPY-ENVRVANMQWNEQTQRYEFT-PAHDVDGP--LITWTPENPEHGYV  390
+
+Query  499  PSST---TPVVPKPVPVYEGATLTPVKATPETY---PGVITLPE---DLIIGFPADSGIK  549
+            P  T    P + +P        +TP+    +TY   P  +  P+   D I+ FPA SGIK
+Sbjct  391  PGHTGNDRPPLEQPT-----ILVTPIPDGTDTYTTPPFPVPDPKEFNDYILVFPAGSGIK  445
+
+Query  550  PIYVMFR-DPRDVPGAATGKGQPVS--GNWL--GAASQGEGAPIPSQIADKLRGKTFKNW  604
+            PIYV  + DPR +PG  TG+G P+S    WL    ++ G GAPIP+ IADKLRG+ FK +
+Sbjct  446  PIYVYLKEDPRKLPGVVTGRGVPLSPGTRWLDMSVSNNGNGAPIPAHIADKLRGREFKTF  505
+
+Query  605  RDFREQFWIAVANDPELSKQFNPGSLAVMRDG---GAP----YVRESEQAGGRIKIEIHH  657
+             +FRE  W+ V+ DPEL  QF+ G+   ++ G    AP    Y    E      K +IHH
+Sbjct  506  DEFREALWLEVSQDPELIAQFSSGNQTRIKQGLTAKAPIDGWYYGPKEIVK---KFQIHH  562
+
+Query  658  KVRIADGGGVYNMGNLVAVTPKRHIEIH  685
+            +V +  GG VY++ NL  VTP+ H EIH
+Sbjct  563  RVAVEYGGSVYDIDNLRIVTPRLHDEIH  590
+
+
+>VFG036073(gb|WP_000502509) (usp) type VI secretion system tube 
+protein Hcp [Colicin-like Usp (VF1135) - Exotoxin (VFC0235)] 
+[Escherichia coli 536]
+Length=593
+
+ Score = 144 bits (364),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 103/262 (39%), Positives = 141/262 (54%), Gaps = 35/262 (13%)
+
+Query  449  GVSVPKAVP---VRMA--AYNATTGLYEVTVPSTTAEAPPLILTWTPASPPGNQNPSST-  502
+            GV   +  P   VR+A   +N  T  YE T P+   + P  ++TWTP +P     P  T 
+Sbjct  339  GVHTGEGTPYENVRVANMQWNEQTQRYEFT-PAHDVDGP--LITWTPENPEHGNVPGHTG  395
+
+Query  503  --TPVVPKPVPVYEGATLTPVKATPETY---PGVITLPE---DLIIGFPADSGIKPIYVM  554
+               P + +P        +TP+    +TY   P  +  P+   D I+ FPA SGIKPIYV 
+Sbjct  396  NDRPPLDQPT-----ILVTPIPDGTDTYTTPPFPVPDPKEFNDYILVFPAGSGIKPIYVY  450
+
+Query  555  FR-DPRDVPGAATGKGQPVS--GNWL--GAASQGEGAPIPSQIADKLRGKTFKNWRDFRE  609
+             + DPR +PG  TG G P+S    WL    ++ G GAPIP+ IADKLRG+ FK + +FRE
+Sbjct  451  LKEDPRKLPGVVTGHGVPLSPGTRWLDMSVSNNGNGAPIPAHIADKLRGREFKTFDEFRE  510
+
+Query  610  QFWIAVANDPELSKQFNPGSLAVMRDG---GAPYVRESEQAGGR---IKIEIHHKVRIAD  663
+              W+ V+ DPEL  QF+ G+   ++ G    AP   +    G +    K +IHH+V I  
+Sbjct  511  ALWLEVSQDPELIAQFSSGNQTRIKQGLTAKAPI--DGWHYGPKDIVKKFQIHHRVAIEY  568
+
+Query  664  GGGVYNMGNLVAVTPKRHIEIH  685
+            GG VY++ NL  VTP+ H EIH
+Sbjct  569  GGSVYDIDNLRIVTPRLHDEIH  590
+
+
+>VFG036079(gb|WP_000502505) (usp) type VI secretion system tube 
+protein Hcp [Colicin-like Usp (VF1135) - Exotoxin (VFC0235)] 
+[Escherichia coli O45:K1:H7 str. S88]
+Length=593
+
+ Score = 144 bits (364),  Expect = 2e-36, Method: Compositional matrix adjust.
+ Identities = 123/388 (32%), Positives = 175/388 (45%), Gaps = 54/388 (14%)
+
+Query  319  ANTYAMPANGSVVATAAGRGLIQVAQGAASLAQAISDAIAVLGRVLASAPSVMAVGFASL  378
+            AN    PA    +    G  L     G  SL+  +S         LASA  + + G  S 
+Sbjct  236  ANDVGQPAEAQTMLLFPGSVLAAQIWGKWSLSGILSATCGSYIGALASALYIPSAGEGSA  295
+
+Query  379  TYSSRTAEQWQDQTPDSVRYALGMDAAKLGLPPSVNLNAVAKASGTVDLPMRLTNEARGN  438
+                R  E W ++                     +   A+A ++ T  +      +  G 
+Sbjct  296  RVPGRD-EFWYEE--------------------ELRQKALAGSTATTRVRFFWGTDIHGK  334
+
+Query  439  TTTLSVVSTDGVSVPKAVPVRMAAYNATTGLYEVTVPSTTAEAPPLILTWTPASPPGNQN  498
+                 V + +G    + V V    +N  T  YE T P+   + P  ++TWTP +P     
+Sbjct  335  PQVYGVHTGEGTPY-ENVRVANMQWNEQTQRYEFT-PAHDVDGP--LITWTPENPEHGYV  390
+
+Query  499  PSST---TPVVPKPVPVYEGATLTPVKATPETY---PGVITLPE---DLIIGFPADSGIK  549
+            P  T    P + +P        +TP+    +TY   P  +  P+   D I+ FPA SGIK
+Sbjct  391  PGHTGNDRPPLEQPT-----ILVTPIPDGTDTYTTPPFPVPDPKEFNDYILVFPAGSGIK  445
+
+Query  550  PIYVMFR-DPRDVPGAATGKGQPVS--GNWL--GAASQGEGAPIPSQIADKLRGKTFKNW  604
+            PIYV  + DPR +PG  TG+G P+S    WL    ++ G G PIP+ IADKLRG+ FK +
+Sbjct  446  PIYVYLKEDPRKLPGVVTGRGVPLSPGTRWLDMSVSNNGNGTPIPAHIADKLRGREFKTF  505
+
+Query  605  RDFREQFWIAVANDPELSKQFNPGSLAVMRDG---GAP----YVRESEQAGGRIKIEIHH  657
+             +FRE  W+ V+ DPEL  QF+ G+   ++ G    AP    Y    E      K +IHH
+Sbjct  506  DEFREALWLEVSQDPELIAQFSSGNQTRIKQGLTAKAPIDGWYYGPKEIVK---KFQIHH  562
+
+Query  658  KVRIADGGGVYNMGNLVAVTPKRHIEIH  685
+            +V +  GG VY++ NL  VTP+ H EIH
+Sbjct  563  RVAVEYGGSVYDIDNLRIVTPRLHDEIH  590
+
+
+>VFG036078(gb|WP_000502513) (usp) type VI secretion system tube 
+protein Hcp [Colicin-like Usp (VF1135) - Exotoxin (VFC0235)] 
+[Escherichia coli NA114]
+Length=593
+
+ Score = 144 bits (363),  Expect = 3e-36, Method: Compositional matrix adjust.
+ Identities = 101/287 (35%), Positives = 145/287 (51%), Gaps = 27/287 (9%)
+
+Query  417  AVAKASGTVDLPMRLTNEARGNTTTLSVVSTDGVSVPKAVPVRMAAYNATTGLYEVTVPS  476
+            A+A ++ T  +      +  G      V + +G    + V V    +N  T  YE T P+
+Sbjct  313  ALAGSTATTRVRFFWGTDIHGKPQVYGVHTGEGTPY-ENVRVANMQWNEQTQRYEFT-PA  370
+
+Query  477  TTAEAPPLILTWTPASPPGNQNPSST---TPVVPKPVPVYEGATLTPVKATPETY---PG  530
+               + P  ++TWTP +P     P  T    P + +P        +TP+    +TY   P 
+Sbjct  371  HDVDGP--LITWTPENPEHGNVPGHTGNDRPPLEQPT-----ILVTPIPDGTDTYTTPPF  423
+
+Query  531  VITLPE---DLIIGFPADSGIKPIYVMFR-DPRDVPGAATGKGQPVS--GNWL--GAASQ  582
+             +  P+   D I+ FPA SGIKPIYV  + DPR +PG  TG G P+S    WL    ++ 
+Sbjct  424  PVPDPKEFNDYILVFPAGSGIKPIYVYLKEDPRKLPGVVTGHGVPLSPGTRWLDMSVSNN  483
+
+Query  583  GEGAPIPSQIADKLRGKTFKNWRDFREQFWIAVANDPELSKQFNPGSLAVMRDGGAPYVR  642
+            G GAPIP+ I DKLRG+ FK + +FRE  W+ V+ +PEL  QF+  +   +  G  P+  
+Sbjct  484  GNGAPIPAHIVDKLRGREFKTFDEFREALWLEVSQEPELIAQFSEINQLRISQGFTPFAP  543
+
+Query  643  ESEQAGG----RIKIEIHHKVRIADGGGVYNMGNLVAVTPKRHIEIH  685
+            +     G      K +IHH + I  GGGVY++ NL  VTP+ H EIH
+Sbjct  544  DEGHYIGPKETLKKFQIHHFIAIEYGGGVYDIDNLRIVTPRLHDEIH  590
+
+
+>VFG036082(gb|WP_000502511) (usp) type VI secretion system tube 
+protein Hcp [Colicin-like Usp (VF1135) - Exotoxin (VFC0235)] 
+[Escherichia coli O83:H1 str. LF82]
+Length=593
+
+ Score = 142 bits (358),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 98/248 (40%), Positives = 131/248 (53%), Gaps = 28/248 (11%)
+
+Query  458  VRMA--AYNATTGLYEVTVPSTTAEAPPLILTWTPASPPGNQNPSST---TPVVPKPVPV  512
+            VR+A   +N     YE T P+   + P  ++TWTP +P     P  T    P + +P   
+Sbjct  351  VRVANMLWNEERQRYEFT-PAHDVDGP--LITWTPENPEHGNVPGHTGNDRPPLDQPT--  405
+
+Query  513  YEGATLTPVKATPETY---PGVITLPE---DLIIGFPADSGIKPIYVMFR-DPRDVPGAA  565
+                 +TP+    +TY   P  +  P+   D I+ FPA SGIKPIYV  + DPR +PG  
+Sbjct  406  ---ILVTPIPDGTDTYTTPPFPVPDPKEFNDYILVFPAGSGIKPIYVYLKEDPRKLPGVV  462
+
+Query  566  TGKGQPVS--GNWL--GAASQGEGAPIPSQIADKLRGKTFKNWRDFREQFWIAVANDPEL  621
+            TG G P+S    WL    ++ G GAPIP+ IADKLRG+ FK + +FRE  W+ V+ D  L
+Sbjct  463  TGHGVPLSPGTRWLDMSVSNNGNGAPIPAHIADKLRGREFKTFDEFREALWLEVSKDSVL  522
+
+Query  622  SKQFNPGSLAVMRDGGAPYVRESEQAGG----RIKIEIHHKVRIADGGGVYNMGNLVAVT  677
+              QF   +   +  G +PYV E     G      K +IHH V I  GGGVY++ N   VT
+Sbjct  523  LAQFIKSNQNNVSQGYSPYVPEEGYYYGPNEIVKKFQIHHVVAIEHGGGVYDIDNFRIVT  582
+
+Query  678  PKRHIEIH  685
+            P+ H EIH
+Sbjct  583  PRLHDEIH  590
+
+
+>VFG036076(gb|WP_000502506) (usp) type VI secretion system tube 
+protein Hcp [Colicin-like Usp (VF1135) - Exotoxin (VFC0235)] 
+[Escherichia coli ABU 83972]
+Length=593
+
+ Score = 139 bits (349),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 97/248 (39%), Positives = 131/248 (53%), Gaps = 28/248 (11%)
+
+Query  458  VRMA--AYNATTGLYEVTVPSTTAEAPPLILTWTPASPPGNQNPSST---TPVVPKPVPV  512
+            VR+A   +N     YE T P+   + P  ++TWTP +P     P  T    P + +P   
+Sbjct  351  VRVANMLWNEERQRYEFT-PAHDVDGP--LITWTPENPEHGNVPGHTGNDRPPLDQPT--  405
+
+Query  513  YEGATLTPVKATPETY---PGVITLPE---DLIIGFPADSGIKPIYVMFR-DPRDVPGAA  565
+                 +TP+    +TY   P  +  P+   D I+ FPA SGIKPIYV  + DPR +PG  
+Sbjct  406  ---ILVTPIPDGTDTYTTPPFPVPDPKEFNDYILVFPAGSGIKPIYVYLKEDPRKLPGVV  462
+
+Query  566  TGKGQPVS--GNWL--GAASQGEGAPIPSQIADKLRGKTFKNWRDFREQFWIAVANDPEL  621
+            TG+G  +S    WL    ++ G GAPIP+ IADKLRG+ FK + +FRE  W+ V+ D  L
+Sbjct  463  TGRGVLLSPGTRWLDMSVSNNGNGAPIPAHIADKLRGREFKTFDEFREALWLEVSKDSVL  522
+
+Query  622  SKQFNPGSLAVMRDGGAPYVRESEQAGG----RIKIEIHHKVRIADGGGVYNMGNLVAVT  677
+              QF   +   +  G +PYV E     G      K +IHH V I  GGGVY++ N   VT
+Sbjct  523  LAQFIKSNQNNVSQGYSPYVPEEGYYYGPNEIVKKFQIHHVVAIEHGGGVYDIDNFKIVT  582
+
+Query  678  PKRHIEIH  685
+            P+ H EIH
+Sbjct  583  PRLHDEIH  590
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.128    0.359    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5997107838
+
+
+Query= g3940.t1
+
+Length=675
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG036078(gb|WP_000502513) (usp) type VI secretion system tube pr...  65.1    8e-11
+VFG036074(gb|WP_000502504) (usp) type VI secretion system tube pr...  65.1    8e-11
+VFG036079(gb|WP_000502505) (usp) type VI secretion system tube pr...  65.1    9e-11
+VFG036073(gb|WP_000502509) (usp) type VI secretion system tube pr...  62.8    5e-10
+VFG036082(gb|WP_000502511) (usp) type VI secretion system tube pr...  60.5    2e-09
+VFG036076(gb|WP_000502506) (usp) type VI secretion system tube pr...  60.5    2e-09
+
+
+>VFG036078(gb|WP_000502513) (usp) type VI secretion system tube 
+protein Hcp [Colicin-like Usp (VF1135) - Exotoxin (VFC0235)] 
+[Escherichia coli NA114]
+Length=593
+
+ Score = 65.1 bits (157),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 64/205 (31%), Positives = 88/205 (43%), Gaps = 33/205 (16%)
+
+Query  384  GAYVATFAVLSLYSDQAGKDSDKVPAGVRNALALEASALGLPGTADLQSVAKAGGTVDMP  443
+            G+Y+   A  +LY   AG+ S +VP   R+    E          +L+  A AG T    
+Sbjct  275  GSYIGALAS-ALYIPSAGEGSARVPG--RDEFWYEE---------ELRQKALAGSTATTR  322
+
+Query  444  VRLTSAAQESPSGKSQIAAMLTNGATVPKGVPVRAATLNAATGRYEVTVPAKSTVPNTPP  503
+            VR          GK Q+  + T   T  + V V     N  T RYE T PA        P
+Sbjct  323  VRFFWGTDIH--GKPQVYGVHTGEGTPYENVRVANMQWNEQTQRYEFT-PAHDV---DGP  376
+
+Query  504  LILTWTPATPPGSQNPSST---TPVVPQPVPVYEGATITPVQAEPESY--PGVPL----D  554
+            LI TWTP  P     P  T    P + QP        +TP+    ++Y  P  P+    +
+Sbjct  377  LI-TWTPENPEHGNVPGHTGNDRPPLEQPT-----ILVTPIPDGTDTYTTPPFPVPDPKE  430
+
+Query  555  LDDLIVIFPVGSGVKPIYIMFNHNP  579
+             +D I++FP GSG+KPIY+    +P
+Sbjct  431  FNDYILVFPAGSGIKPIYVYLKEDP  455
+
+
+>VFG036074(gb|WP_000502504) (usp) type VI secretion system tube 
+protein Hcp [Colicin-like Usp (VF1135) - Exotoxin (VFC0235)] 
+[Escherichia coli APEC O1]
+Length=593
+
+ Score = 65.1 bits (157),  Expect = 8e-11, Method: Compositional matrix adjust.
+ Identities = 64/205 (31%), Positives = 88/205 (43%), Gaps = 33/205 (16%)
+
+Query  384  GAYVATFAVLSLYSDQAGKDSDKVPAGVRNALALEASALGLPGTADLQSVAKAGGTVDMP  443
+            G+Y+   A  +LY   AG+ S +VP   R+    E          +L+  A AG T    
+Sbjct  275  GSYIGALAS-ALYIPSAGEGSARVPG--RDEFWYEE---------ELRQKALAGSTATTR  322
+
+Query  444  VRLTSAAQESPSGKSQIAAMLTNGATVPKGVPVRAATLNAATGRYEVTVPAKSTVPNTPP  503
+            VR          GK Q+  + T   T  + V V     N  T RYE T PA        P
+Sbjct  323  VRFFWGTDIH--GKPQVYGVHTGEGTPYENVRVANMQWNEQTQRYEFT-PAHDV---DGP  376
+
+Query  504  LILTWTPATPPGSQNPSST---TPVVPQPVPVYEGATITPVQAEPESY--PGVPL----D  554
+            LI TWTP  P     P  T    P + QP        +TP+    ++Y  P  P+    +
+Sbjct  377  LI-TWTPENPEHGYVPGHTGNDRPPLEQPT-----ILVTPIPDGTDTYTTPPFPVPDPKE  430
+
+Query  555  LDDLIVIFPVGSGVKPIYIMFNHNP  579
+             +D I++FP GSG+KPIY+    +P
+Sbjct  431  FNDYILVFPAGSGIKPIYVYLKEDP  455
+
+
+>VFG036079(gb|WP_000502505) (usp) type VI secretion system tube 
+protein Hcp [Colicin-like Usp (VF1135) - Exotoxin (VFC0235)] 
+[Escherichia coli O45:K1:H7 str. S88]
+Length=593
+
+ Score = 65.1 bits (157),  Expect = 9e-11, Method: Compositional matrix adjust.
+ Identities = 64/205 (31%), Positives = 88/205 (43%), Gaps = 33/205 (16%)
+
+Query  384  GAYVATFAVLSLYSDQAGKDSDKVPAGVRNALALEASALGLPGTADLQSVAKAGGTVDMP  443
+            G+Y+   A  +LY   AG+ S +VP   R+    E          +L+  A AG T    
+Sbjct  275  GSYIGALAS-ALYIPSAGEGSARVPG--RDEFWYEE---------ELRQKALAGSTATTR  322
+
+Query  444  VRLTSAAQESPSGKSQIAAMLTNGATVPKGVPVRAATLNAATGRYEVTVPAKSTVPNTPP  503
+            VR          GK Q+  + T   T  + V V     N  T RYE T PA        P
+Sbjct  323  VRFFWGTDIH--GKPQVYGVHTGEGTPYENVRVANMQWNEQTQRYEFT-PAHDV---DGP  376
+
+Query  504  LILTWTPATPPGSQNPSST---TPVVPQPVPVYEGATITPVQAEPESY--PGVPL----D  554
+            LI TWTP  P     P  T    P + QP        +TP+    ++Y  P  P+    +
+Sbjct  377  LI-TWTPENPEHGYVPGHTGNDRPPLEQPT-----ILVTPIPDGTDTYTTPPFPVPDPKE  430
+
+Query  555  LDDLIVIFPVGSGVKPIYIMFNHNP  579
+             +D I++FP GSG+KPIY+    +P
+Sbjct  431  FNDYILVFPAGSGIKPIYVYLKEDP  455
+
+
+>VFG036073(gb|WP_000502509) (usp) type VI secretion system tube 
+protein Hcp [Colicin-like Usp (VF1135) - Exotoxin (VFC0235)] 
+[Escherichia coli 536]
+Length=593
+
+ Score = 62.8 bits (151),  Expect = 5e-10, Method: Compositional matrix adjust.
+ Identities = 63/205 (31%), Positives = 87/205 (42%), Gaps = 33/205 (16%)
+
+Query  384  GAYVATFAVLSLYSDQAGKDSDKVPAGVRNALALEASALGLPGTADLQSVAKAGGTVDMP  443
+            G+Y+   A  +LY   AG+ S +VP   R+    E          +L+  A AG T    
+Sbjct  275  GSYIGALAS-ALYIPSAGEGSARVPG--RDEFWYEE---------ELRQKALAGSTATTR  322
+
+Query  444  VRLTSAAQESPSGKSQIAAMLTNGATVPKGVPVRAATLNAATGRYEVTVPAKSTVPNTPP  503
+            VR           K Q+  + T   T  + V V     N  T RYE T PA        P
+Sbjct  323  VRFFWGTDIH--SKPQVYGVHTGEGTPYENVRVANMQWNEQTQRYEFT-PAHDV---DGP  376
+
+Query  504  LILTWTPATPPGSQNPSST---TPVVPQPVPVYEGATITPVQAEPESY--PGVPL----D  554
+            LI TWTP  P     P  T    P + QP        +TP+    ++Y  P  P+    +
+Sbjct  377  LI-TWTPENPEHGNVPGHTGNDRPPLDQPT-----ILVTPIPDGTDTYTTPPFPVPDPKE  430
+
+Query  555  LDDLIVIFPVGSGVKPIYIMFNHNP  579
+             +D I++FP GSG+KPIY+    +P
+Sbjct  431  FNDYILVFPAGSGIKPIYVYLKEDP  455
+
+
+>VFG036082(gb|WP_000502511) (usp) type VI secretion system tube 
+protein Hcp [Colicin-like Usp (VF1135) - Exotoxin (VFC0235)] 
+[Escherichia coli O83:H1 str. LF82]
+Length=593
+
+ Score = 60.5 bits (145),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 62/205 (30%), Positives = 86/205 (42%), Gaps = 33/205 (16%)
+
+Query  384  GAYVATFAVLSLYSDQAGKDSDKVPAGVRNALALEASALGLPGTADLQSVAKAGGTVDMP  443
+            G+Y+   A  +LY   AG+ S +VP   R+    E          +L+  A AG T    
+Sbjct  275  GSYIGALAS-ALYIPSAGEGSARVPG--RDEFWYEE---------ELRQKALAGSTATTR  322
+
+Query  444  VRLTSAAQESPSGKSQIAAMLTNGATVPKGVPVRAATLNAATGRYEVTVPAKSTVPNTPP  503
+            VR           K Q+  + T   T  + V V     N    RYE T PA        P
+Sbjct  323  VRFFWGTDIH--SKPQVYGVHTGEGTPYENVRVANMLWNEERQRYEFT-PAHDV---DGP  376
+
+Query  504  LILTWTPATPPGSQNPSST---TPVVPQPVPVYEGATITPVQAEPESY--PGVPL----D  554
+            LI TWTP  P     P  T    P + QP        +TP+    ++Y  P  P+    +
+Sbjct  377  LI-TWTPENPEHGNVPGHTGNDRPPLDQPT-----ILVTPIPDGTDTYTTPPFPVPDPKE  430
+
+Query  555  LDDLIVIFPVGSGVKPIYIMFNHNP  579
+             +D I++FP GSG+KPIY+    +P
+Sbjct  431  FNDYILVFPAGSGIKPIYVYLKEDP  455
+
+
+>VFG036076(gb|WP_000502506) (usp) type VI secretion system tube 
+protein Hcp [Colicin-like Usp (VF1135) - Exotoxin (VFC0235)] 
+[Escherichia coli ABU 83972]
+Length=593
+
+ Score = 60.5 bits (145),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 62/205 (30%), Positives = 86/205 (42%), Gaps = 33/205 (16%)
+
+Query  384  GAYVATFAVLSLYSDQAGKDSDKVPAGVRNALALEASALGLPGTADLQSVAKAGGTVDMP  443
+            G+Y+   A  +LY   AG+ S +VP   R+    E          +L+  A AG T    
+Sbjct  275  GSYIGALAS-ALYIPSAGEGSARVPG--RDEFWYEE---------ELRQKALAGSTATTR  322
+
+Query  444  VRLTSAAQESPSGKSQIAAMLTNGATVPKGVPVRAATLNAATGRYEVTVPAKSTVPNTPP  503
+            VR           K Q+  + T   T  + V V     N    RYE T PA        P
+Sbjct  323  VRFFWGTDIH--SKPQVYGVHTGEGTPYENVRVANMLWNEERQRYEFT-PAHDV---DGP  376
+
+Query  504  LILTWTPATPPGSQNPSST---TPVVPQPVPVYEGATITPVQAEPESY--PGVPL----D  554
+            LI TWTP  P     P  T    P + QP        +TP+    ++Y  P  P+    +
+Sbjct  377  LI-TWTPENPEHGNVPGHTGNDRPPLDQPT-----ILVTPIPDGTDTYTTPPFPVPDPKE  430
+
+Query  555  LDDLIVIFPVGSGVKPIYIMFNHNP  579
+             +D I++FP GSG+KPIY+    +P
+Sbjct  431  FNDYILVFPAGSGIKPIYVYLKEDP  455
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.123    0.330    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5852847512
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

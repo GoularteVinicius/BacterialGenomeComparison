@@ -1,0 +1,979 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1680.t1
+
+Length=135
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG041017(gb|NP_250350) (tssE) type VI secretion system baseplate...  273     2e-96
+VFG051530(gb|WP_003140089.1) (tssE) type VI secretion system base...  271     7e-96
+VFG051527(gb|WP_003120359.1) (tssE) type VI secretion system base...  270     4e-95
+VFG051533(gb|WP_011105491.1) (tssE) type VI secretion system base...  248     2e-86
+VFG051528(gb|WP_003154521.1) (tssE) type VI secretion system base...  241     1e-83
+VFG051532(gb|WP_007954373.1) (tssE) type VI secretion system base...  236     7e-82
+VFG051531(gb|WP_011531907.1) (tssE) type VI secretion system base...  223     1e-76
+VFG051534(gb|WP_011104073.1) (tssE) type VI secretion system base...  118     3e-35
+VFG002094(gb|WP_000221000) (VCA0109) type VI secretion system pro...  60.1    3e-12
+VFG038381(gb|WP_011705714) (atsG) Type VI secretion system protei...  58.9    6e-12
+VFG035737(gb|WP_001189667) (aec19) type VI secretion system basep...  58.5    9e-12
+VFG035738(gb|WP_000946068) (aec19) type VI secretion system basep...  57.8    2e-11
+VFG035755(gb|WP_000946067) (aec19) type VI secretion system basep...  57.4    2e-11
+VFG038382(gb|WP_011898822) (atsG) Type VI secretion system protei...  57.0    3e-11
+VFG025267(gb|WP_009896194) (tssE-5) Type VI secretion system prot...  56.6    6e-11
+VFG051959(gb|WP_010953542.1) (tssE3) type VI secretion system bas...  55.1    2e-10
+VFG035751(gb|WP_001189669) (aec19) type VI secretion system basep...  54.3    3e-10
+VFG025261(gb|WP_011857826) (tssE-5) Type VI secretion system prot...  53.5    8e-10
+VFG051957(gb|WP_012052036.1) (tssE3) type VI secretion system bas...  53.1    8e-10
+VFG025259(gb|WP_004184744) (tssE-5) Type VI secretion system prot...  51.6    5e-09
+VFG002477(gb|WP_004530572) (tssE-5) Type VI secretion system prot...  51.2    7e-09
+VFG025265(gb|WP_004525343) (tssE-5) Type VI secretion system prot...  51.2    7e-09
+VFG025264(gb|WP_004528791) (tssE-5) Type VI secretion system prot...  51.2    7e-09
+VFG051926(gb|WP_010954867.1) (tssE2) type VI secretion system bas...  49.7    2e-08
+VFG041182(gb|WP_015461951) (tssE) type VI secretion system basepl...  49.7    3e-08
+VFG051958(gb|WP_012272847.1) (tssE3) type VI secretion system bas...  48.5    6e-08
+VFG035317(gb|WP_001137932) (tssE) type VI secretion system basepl...  47.8    1e-07
+VFG049295(gb|WP_004152261) (impF) type VI secretion system basepl...  46.6    3e-07
+VFG035321(gb|WP_000106968) (ECNA114_RS14850) type VI secretion sy...  46.6    3e-07
+VFG049300(gb|WP_004145445) (impF) type VI secretion system basepl...  46.6    3e-07
+VFG035312(gb|WP_000106967) (tssE) type VI secretion system basepl...  46.2    3e-07
+VFG049293(gb|WP_014229088) (impF) type VI secretion system basepl...  46.6    3e-07
+VFG049294(gb|WP_004175538) (impF) type VI secretion system basepl...  46.2    4e-07
+VFG049292(gb|WP_014838282) (impF) type VI secretion system basepl...  46.6    4e-07
+VFG035316(gb|WP_000106970) (tssE) type VI secretion system basepl...  45.8    5e-07
+VFG035313(gb|WP_000235155) (tssE) type VI secretion system basepl...  45.8    5e-07
+VFG049165(gb|WP_012540695) (impF) type VI secretion system basepl...  45.4    7e-07
+VFG049166(gb|WP_004181152) (impF) type VI secretion system basepl...  45.1    1e-06
+VFG035747(gb|WP_000611748) (aec19) type VI secretion system basep...  42.7    8e-06
+
+
+>VFG041017(gb|NP_250350) (tssE) type VI secretion system baseplate 
+subunit TssE [HSI-2 (VF0943) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa PAO1]
+Length=135
+
+ Score = 273 bits (697),  Expect = 2e-96, Method: Compositional matrix adjust.
+ Identities = 135/135 (100%), Positives = 135/135 (100%), Gaps = 0/135 (0%)
+
+Query  1    MTGYGSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDM  60
+            MTGYGSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDM
+Sbjct  1    MTGYGSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDM  60
+
+Query  61   RLSLHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQV  120
+            RLSLHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQV
+Sbjct  61   RLSLHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQV  120
+
+Query  121  SFSACLDGSGQVKVS  135
+            SFSACLDGSGQVKVS
+Sbjct  121  SFSACLDGSGQVKVS  135
+
+
+>VFG051530(gb|WP_003140089.1) (tssE) type VI secretion system 
+baseplate subunit TssE [HSI-2 (VF0943) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=135
+
+ Score = 271 bits (694),  Expect = 7e-96, Method: Compositional matrix adjust.
+ Identities = 134/135 (99%), Positives = 135/135 (100%), Gaps = 0/135 (0%)
+
+Query  1    MTGYGSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDM  60
+            MTGYGSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDM
+Sbjct  1    MTGYGSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDM  60
+
+Query  61   RLSLHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQV  120
+            RLSLHDSLSQARSAIEGFIEAYEPRLS+VRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQV
+Sbjct  61   RLSLHDSLSQARSAIEGFIEAYEPRLSNVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQV  120
+
+Query  121  SFSACLDGSGQVKVS  135
+            SFSACLDGSGQVKVS
+Sbjct  121  SFSACLDGSGQVKVS  135
+
+
+>VFG051527(gb|WP_003120359.1) (tssE) type VI secretion system 
+baseplate subunit TssE [HSI-2 (VF0943) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa LESB58]
+Length=135
+
+ Score = 270 bits (689),  Expect = 4e-95, Method: Compositional matrix adjust.
+ Identities = 134/135 (99%), Positives = 134/135 (99%), Gaps = 0/135 (0%)
+
+Query  1    MTGYGSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDM  60
+            MTGYGSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDM
+Sbjct  1    MTGYGSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDM  60
+
+Query  61   RLSLHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQV  120
+            RLSLHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEV GFKRQV
+Sbjct  61   RLSLHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVGGFKRQV  120
+
+Query  121  SFSACLDGSGQVKVS  135
+            SFSACLDGSGQVKVS
+Sbjct  121  SFSACLDGSGQVKVS  135
+
+
+>VFG051533(gb|WP_011105491.1) (tssE) type VI secretion system 
+baseplate subunit TssE [HSI-2 (VF0943) - Effector delivery system 
+(VFC0086)] [Pseudomonas syringae pv. tomato str. DC3000]
+Length=135
+
+ Score = 248 bits (632),  Expect = 2e-86, Method: Compositional matrix adjust.
+ Identities = 121/135 (90%), Positives = 129/135 (96%), Gaps = 0/135 (0%)
+
+Query  1    MTGYGSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDM  60
+            MTGYGSLFERLNGDA+KRV WSREVSA ASVAAHL KMLSTRAGSVQTLSDYGLPDLNDM
+Sbjct  1    MTGYGSLFERLNGDAEKRVSWSREVSATASVAAHLAKMLSTRAGSVQTLSDYGLPDLNDM  60
+
+Query  61   RLSLHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQV  120
+            RLSLHDSL+QAR AIE FIEAYEPRLS+VRV+SLPRD+DQLRL+FSIEGLLEVEGFKRQV
+Sbjct  61   RLSLHDSLTQARLAIESFIEAYEPRLSNVRVISLPRDHDQLRLSFSIEGLLEVEGFKRQV  120
+
+Query  121  SFSACLDGSGQVKVS  135
+            SF+A LDGSGQVKV+
+Sbjct  121  SFAARLDGSGQVKVN  135
+
+
+>VFG051528(gb|WP_003154521.1) (tssE) type VI secretion system 
+baseplate subunit TssE [HSI-2 (VF0943) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa PA7]
+Length=135
+
+ Score = 241 bits (614),  Expect = 1e-83, Method: Compositional matrix adjust.
+ Identities = 118/135 (87%), Positives = 122/135 (90%), Gaps = 0/135 (0%)
+
+Query  1    MTGYGSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDM  60
+            MTGYGSLFERL G+ DKR GWS EVSAMASVAAHL KMLSTRAGSVQTLSDYGLPDLNDM
+Sbjct  1    MTGYGSLFERLTGETDKRAGWSSEVSAMASVAAHLAKMLSTRAGSVQTLSDYGLPDLNDM  60
+
+Query  61   RLSLHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQV  120
+            RLSLHD+LSQAR+AIE FIEAYEPRL +V VV LP DNDQLRLAFSIEGLLEVEG KRQV
+Sbjct  61   RLSLHDALSQARAAIESFIEAYEPRLGEVHVVPLPPDNDQLRLAFSIEGLLEVEGVKRQV  120
+
+Query  121  SFSACLDGSGQVKVS  135
+            SFSACLDG GQV VS
+Sbjct  121  SFSACLDGRGQVTVS  135
+
+
+>VFG051532(gb|WP_007954373.1) (tssE) type VI secretion system 
+baseplate subunit TssE [HSI-2 (VF0943) - Effector delivery system 
+(VFC0086)] [Pseudomonas fluorescens Pf0-1]
+Length=135
+
+ Score = 236 bits (602),  Expect = 7e-82, Method: Compositional matrix adjust.
+ Identities = 119/135 (88%), Positives = 125/135 (93%), Gaps = 0/135 (0%)
+
+Query  1    MTGYGSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDM  60
+            M GYGSLFERLNGDA+ R G S E SAMASVAAHL KMLSTRAGSVQTLSDYGLPDLNDM
+Sbjct  1    MDGYGSLFERLNGDAELRKGRSLEASAMASVAAHLAKMLSTRAGSVQTLSDYGLPDLNDM  60
+
+Query  61   RLSLHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQV  120
+            RLSLHDSLSQAR AIE FIEAYEPRLS+VRV+SLPRD+DQLRLAFSIEGLLEVEGFKRQV
+Sbjct  61   RLSLHDSLSQARLAIESFIEAYEPRLSNVRVISLPRDHDQLRLAFSIEGLLEVEGFKRQV  120
+
+Query  121  SFSACLDGSGQVKVS  135
+            SF+A LDGSGQVKV+
+Sbjct  121  SFAARLDGSGQVKVN  135
+
+
+>VFG051531(gb|WP_011531907.1) (tssE) type VI secretion system 
+baseplate subunit TssE [HSI-2 (VF0943) - Effector delivery system 
+(VFC0086)] [Pseudomonas entomophila L48]
+Length=138
+
+ Score = 223 bits (568),  Expect = 1e-76, Method: Compositional matrix adjust.
+ Identities = 109/135 (81%), Positives = 121/135 (90%), Gaps = 0/135 (0%)
+
+Query  1    MTGYGSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDM  60
+            M GYGSLFERL+G++D+R  W RE +AMASVAAHL KMLSTRAGSVQTL+DYGLPDLNDM
+Sbjct  1    MNGYGSLFERLSGESDQRANWRREDAAMASVAAHLAKMLSTRAGSVQTLADYGLPDLNDM  60
+
+Query  61   RLSLHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQV  120
+            RLSLHD+LSQAR AIE FIEAYEPRLSDVRV+S PRD+DQL+LAFSIEG LEV+G KR V
+Sbjct  61   RLSLHDALSQARRAIEHFIEAYEPRLSDVRVISRPRDHDQLKLAFSIEGQLEVDGIKRSV  120
+
+Query  121  SFSACLDGSGQVKVS  135
+            SF+A LDGSGQV VS
+Sbjct  121  SFAARLDGSGQVSVS  135
+
+
+>VFG051534(gb|WP_011104073.1) (tssE) type VI secretion system 
+baseplate subunit TssE [HSI-2 (VF0943) - Effector delivery system 
+(VFC0086)] [Pseudomonas syringae pv. tomato str. DC3000]
+Length=135
+
+ Score = 118 bits (296),  Expect = 3e-35, Method: Compositional matrix adjust.
+ Identities = 64/132 (48%), Positives = 81/132 (61%), Gaps = 0/132 (0%)
+
+Query  1    MTGYGSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDM  60
+            M   GSLFERL     K+   + E    AS+A HL K+L TRAGSV TL DYGLP+LN+ 
+Sbjct  1    MNFNGSLFERLADKTQKKTDLNEEERITASIATHLAKLLGTRAGSVNTLPDYGLPELNNA  60
+
+Query  61   RLSLHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQV  120
+             LS HD++ Q+R AIE  I  YEPRLS+V V+S       L+  FSI+  L++ G K+ V
+Sbjct  61   SLSAHDTVRQSRLAIEKAIRDYEPRLSEVHVMSDESSWCVLKRTFSIDASLDMNGVKKTV  120
+
+Query  121  SFSACLDGSGQV  132
+             FS  + G G V
+Sbjct  121  VFSIAVAGDGHV  132
+
+
+>VFG002094(gb|WP_000221000) (VCA0109) type VI secretion system 
+protein [VAS T6SS (VF0335) - Effector delivery system (VFC0086)] 
+[Vibrio cholerae O1 biovar El Tor str. N16961]
+Length=145
+
+ Score = 60.1 bits (144),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 43/131 (33%), Positives = 64/131 (49%), Gaps = 4/131 (3%)
+
+Query  7    LFERLNGDADKRVGWSREVSA---MASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLS  63
+             FERL  +A K +  +R   A   + S+  ++  +L+TR G  Q+    GL D ND  L 
+Sbjct  15   FFERLEANA-KPMSLTRGPDAWDVLESIKRNVSNILNTRIGGAQSAPHLGLVDFNDATLE  73
+
+Query  64   LHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQVSFS  123
+              D   + + AI+  +E YEPRL+ V V +     + L L F I   +  E    +V FS
+Sbjct  74   TLDLSVRIKLAIQQCLERYEPRLTRVLVRADQDSFNPLTLRFHITATINSEALHEKVQFS  133
+
+Query  124  ACLDGSGQVKV  134
+              LD S + +V
+Sbjct  134  LLLDQSRKYRV  144
+
+
+>VFG038381(gb|WP_011705714) (atsG) Type VI secretion system protein 
+[T6SS (VF0480) - Effector delivery system (VFC0086)] [Aeromonas 
+hydrophila subsp. hydrophila ATCC 7966]
+Length=143
+
+ Score = 58.9 bits (141),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 38/130 (29%), Positives = 62/130 (48%), Gaps = 0/130 (0%)
+
+Query  5    GSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSL  64
+             SLF+R+ G+       S     +ASV   L ++L+TR G+ ++  D G+ DLND     
+Sbjct  13   ASLFDRIRGEGLGSSPRSESEELIASVKRQLEQVLNTRPGNCRSAPDLGVIDLNDATQGS  72
+
+Query  65   HDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQVSFSA  124
+             D   + R AI   I  YEPR+  V V S       L ++F +   + +E  ++  SF+ 
+Sbjct  73   ADIKGRIREAIRQCIRRYEPRIVHVDVRSPDYQASPLEMSFQVTAHVRLEHIEQVTSFNV  132
+
+Query  125  CLDGSGQVKV  134
+             +D     ++
+Sbjct  133  HMDSHRHYRM  142
+
+
+>VFG035737(gb|WP_001189667) (aec19) type VI secretion system baseplate 
+subunit TssE [ACE T6SS (VF1122) - Effector delivery 
+system (VFC0086)] [Escherichia coli 536]
+Length=141
+
+ Score = 58.5 bits (140),  Expect = 9e-12, Method: Compositional matrix adjust.
+ Identities = 40/125 (32%), Positives = 64/125 (51%), Gaps = 1/125 (1%)
+
+Query  5    GSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSL  64
+            GSLFER+   A+     + + + + S+  +L ++L+TR+GS     + G+ DLND  L+ 
+Sbjct  10   GSLFERIREAANPPSYQNPKEALIRSIRRNLRQVLNTRSGSCYGSPELGITDLNDESLAS  69
+
+Query  65   HDSLSQARSAIEGFIEAYEPRLSDVRVV-SLPRDNDQLRLAFSIEGLLEVEGFKRQVSFS  123
+             D   + R +I   I  YEPR++DV V  + P +   + L F I   ++V   K    F 
+Sbjct  70   SDFRREIRKSISQCILHYEPRITDVVVTAAAPDEYAPVELRFHIVATIDVSKTKGVFEFD  129
+
+Query  124  ACLDG  128
+              LD 
+Sbjct  130  ILLDN  134
+
+
+>VFG035738(gb|WP_000946068) (aec19) type VI secretion system baseplate 
+subunit TssE [ACE T6SS (VF1122) - Effector delivery 
+system (VFC0086)] [Escherichia coli APEC O1]
+Length=141
+
+ Score = 57.8 bits (138),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 40/131 (31%), Positives = 66/131 (50%), Gaps = 1/131 (1%)
+
+Query  5    GSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSL  64
+            GSLFER+   A+     + + + + S+  +L ++L+TR+GS     + G+ DLND  L+ 
+Sbjct  10   GSLFERIREAANPPSYQNPKEALIRSIRRNLRQVLNTRSGSCYGSPELGITDLNDESLAS  69
+
+Query  65   HDSLSQARSAIEGFIEAYEPRLSDVRVV-SLPRDNDQLRLAFSIEGLLEVEGFKRQVSFS  123
+             D   + R +I   I  YEPR++DV V  + P +   + L F I   ++V   +    F 
+Sbjct  70   SDFRREIRKSISQCILHYEPRITDVVVTAAAPDEYAPVELCFHIVATVDVSETRGVFEFD  129
+
+Query  124  ACLDGSGQVKV  134
+              LD   +  V
+Sbjct  130  ILLDNHQRYCV  140
+
+
+>VFG035755(gb|WP_000946067) (aec19) type VI secretion system baseplate 
+subunit TssE [ACE T6SS (VF1122) - Effector delivery 
+system (VFC0086)] [Escherichia coli O45:K1:H7 str. S88]
+Length=141
+
+ Score = 57.4 bits (137),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 40/131 (31%), Positives = 66/131 (50%), Gaps = 1/131 (1%)
+
+Query  5    GSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSL  64
+            GSLFER+   A+     + + + + S+  +L ++L+TR+GS     + G+ DLND  L+ 
+Sbjct  10   GSLFERIREAANPPSYQNPKEALIRSIRRNLRQVLNTRSGSCYGSPELGITDLNDESLAS  69
+
+Query  65   HDSLSQARSAIEGFIEAYEPRLSDVRVV-SLPRDNDQLRLAFSIEGLLEVEGFKRQVSFS  123
+             D   + R +I   I  YEPR++DV V  + P +   + L F I   ++V   +    F 
+Sbjct  70   SDFRREIRKSISQCILHYEPRITDVVVTAAAPDEYAPVELCFHIVATVDVSETRGVFEFD  129
+
+Query  124  ACLDGSGQVKV  134
+              LD   +  V
+Sbjct  130  IFLDNHQRYCV  140
+
+
+>VFG038382(gb|WP_011898822) (atsG) Type VI secretion system protein 
+[T6SS (VF0480) - Effector delivery system (VFC0086)] [Aeromonas 
+salmonicida subsp. salmonicida A449]
+Length=143
+
+ Score = 57.0 bits (136),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 37/130 (28%), Positives = 61/130 (47%), Gaps = 0/130 (0%)
+
+Query  5    GSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSL  64
+             SLF+R+ G+       S     + SV   L ++L+TR G+ ++  D G+ DLND     
+Sbjct  13   ASLFDRIRGEGLSSSPCSEVDELVDSVKRQLDQILNTRPGNCRSAPDLGVIDLNDATQGS  72
+
+Query  65   HDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQVSFSA  124
+             D   + R AI   I  YEPR+  V V S       L ++F +   + +E  ++  SF+ 
+Sbjct  73   ADIKGRIREAIRQCIRRYEPRIIHVDVPSPDYQASPLEMSFQVTAHVRLEHIEQVTSFNV  132
+
+Query  125  CLDGSGQVKV  134
+             +D     ++
+Sbjct  133  HMDSHRHYRM  142
+
+
+>VFG025267(gb|WP_009896194) (tssE-5) Type VI secretion system 
+protein TssE [T6SS-1 (VF0429) - Effector delivery system (VFC0086)] 
+[Burkholderia thailandensis E264]
+Length=158
+
+ Score = 56.6 bits (135),  Expect = 6e-11, Method: Compositional matrix adjust.
+ Identities = 42/137 (31%), Positives = 65/137 (47%), Gaps = 7/137 (5%)
+
+Query  2    TGYGSLFERLNGDADKRVGWSREVSAMA---SVAAHLGKMLSTRAGSVQTLSDYGLPDLN  58
+            +G   L ER+   AD+  G  R  SA A   S+  HL ++L+TR G V     +G+PD  
+Sbjct  21   SGERRLLERI---ADREAGGERSPSADALARSIIDHLRRILNTRQGHVPIDPAFGVPDFT  77
+
+Query  59   DMRLSL-HDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFK  117
+            ++       S  +  + IE  I  YEPRL   RV    R  D   L FS++  L ++  +
+Sbjct  78   NLAGGFAQGSAREIEAQIERVIACYEPRLKSPRVTLAERALDAATLHFSLDARLVLDARE  137
+
+Query  118  RQVSFSACLDGSGQVKV  134
+                F   + G+G++ +
+Sbjct  138  VPARFLTTVSGNGKIDI  154
+
+
+>VFG051959(gb|WP_010953542.1) (tssE3) type VI secretion system 
+baseplate subunit TssE [Putida K3-T6SS (VF1353) - Effector 
+delivery system (VFC0086)] [Pseudomonas putida KT2440]
+Length=136
+
+ Score = 55.1 bits (131),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 38/128 (30%), Positives = 62/128 (48%), Gaps = 3/128 (2%)
+
+Query  7    LFERLNGDADKRVGWSREVSA---MASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLS  63
+            LF+RL  D   R   SR  SA    A++  HL  +L+ R G  Q+  + GL D N   +S
+Sbjct  4    LFDRLMVDQCTRREASRRESASHKFAAIKRHLETLLNARQGCSQSSPELGLRDFNGHDVS  63
+
+Query  64   LHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQVSFS  123
+              D L Q  + I   ++ +EPR+    + ++P  +  L L F ++ L++V     Q+   
+Sbjct  64   NGDLLVQVSADIRRTLQRFEPRIQVRTLNAVPDTHAPLELHFRLDCLVQVNNHAEQLQLE  123
+
+Query  124  ACLDGSGQ  131
+              +DG  +
+Sbjct  124  LLVDGHNR  131
+
+
+>VFG035751(gb|WP_001189669) (aec19) type VI secretion system baseplate 
+subunit TssE [ACE T6SS (VF1122) - Effector delivery 
+system (VFC0086)] [Escherichia coli O44:H18 042]
+Length=141
+
+ Score = 54.3 bits (129),  Expect = 3e-10, Method: Compositional matrix adjust.
+ Identities = 39/131 (30%), Positives = 65/131 (50%), Gaps = 1/131 (1%)
+
+Query  5    GSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSL  64
+             SLFER+   A+     + + + + S+  +L ++L+TR+GS     + G+ DLND  L+ 
+Sbjct  10   SSLFERIREAANPPSYQNTKEALIRSIRRNLRQVLNTRSGSCYGSPELGITDLNDESLAS  69
+
+Query  65   HDSLSQARSAIEGFIEAYEPRLSDVRVV-SLPRDNDQLRLAFSIEGLLEVEGFKRQVSFS  123
+             D   + R +I   I  YEPR++DV V  + P +   + L F I   ++V   +    F 
+Sbjct  70   SDFRREIRKSISQCILHYEPRITDVVVTAAAPDEYAPVELRFHIVATVDVSETRGVFEFD  129
+
+Query  124  ACLDGSGQVKV  134
+              LD   +  V
+Sbjct  130  ILLDNHQRYCV  140
+
+
+>VFG025261(gb|WP_011857826) (tssE-5) Type VI secretion system 
+protein TssE [T6SS-1 (VF0429) - Effector delivery system (VFC0086)] 
+[Burkholderia mallei NCTC 10247]
+Length=153
+
+ Score = 53.5 bits (127),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 39/134 (29%), Positives = 61/134 (46%), Gaps = 9/134 (7%)
+
+Query  7    LFERLNGDADKRVGWSREVSAMASVAAH-----LGKMLSTRAGSVQTLSDYGLPDLNDMR  61
+            L ER+   A++  G  R+    A V AH     L ++L+TR G V     +G+PD  ++ 
+Sbjct  19   LLERI---ANREAGGERDRPPPADVLAHSIIDHLRRILNTRQGHVPIDPAFGVPDFTNLA  75
+
+Query  62   LSL-HDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQV  120
+                  S  +  + IE  I  YEPRL   RV    R  D   L FS++  L ++      
+Sbjct  76   GGFAQGSAREIEAQIERVITCYEPRLKAPRVSLAERGPDAATLRFSLDARLVIDAHDVPA  135
+
+Query  121  SFSACLDGSGQVKV  134
+             F   + G+G++ +
+Sbjct  136  RFLTTVTGNGKIDI  149
+
+
+>VFG051957(gb|WP_012052036.1) (tssE3) type VI secretion system 
+baseplate subunit TssE [Putida K3-T6SS (VF1353) - Effector 
+delivery system (VFC0086)] [Pseudomonas putida F1]
+Length=136
+
+ Score = 53.1 bits (126),  Expect = 8e-10, Method: Compositional matrix adjust.
+ Identities = 38/128 (30%), Positives = 61/128 (48%), Gaps = 3/128 (2%)
+
+Query  7    LFERLNGDADKRVGWSREVSA---MASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLS  63
+            LF+RL  D   R   SR  SA    A++  HL  +L+ R G  Q+  + GL D N   +S
+Sbjct  4    LFDRLMVDQCTRREASRRESASHKFAAIKRHLETLLNARQGCSQSSPELGLRDFNGHDVS  63
+
+Query  64   LHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQVSFS  123
+              D L Q  + I   ++ +EPR+    + ++P     L L F ++ L++V     Q+   
+Sbjct  64   NGDLLVQVSADIRRTLQRFEPRIQVRTLNAVPDTLAPLELHFRLDCLVQVNNHAEQLQLE  123
+
+Query  124  ACLDGSGQ  131
+              +DG  +
+Sbjct  124  LLVDGHNR  131
+
+
+>VFG025259(gb|WP_004184744) (tssE-5) Type VI secretion system 
+protein TssE [T6SS-1 (VF0429) - Effector delivery system (VFC0086)] 
+[Burkholderia mallei ATCC 23344]
+Length=153
+
+ Score = 51.6 bits (122),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 38/134 (28%), Positives = 60/134 (45%), Gaps = 9/134 (7%)
+
+Query  7    LFERLNGDADKRVGWSREVSAMASVAAH-----LGKMLSTRAGSVQTLSDYGLPDLNDMR  61
+            L ER+   A++  G   +    A V AH     L ++L+TR G V     +G+PD  ++ 
+Sbjct  19   LLERI---ANREAGGEHDRPPPADVLAHSIIDHLRRILNTRQGHVPIDPAFGVPDFTNLA  75
+
+Query  62   LSL-HDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQV  120
+                  S  +  + IE  I  YEPRL   RV    R  D   L FS++  L ++      
+Sbjct  76   GGFAQGSAREIEAQIERVITCYEPRLKAPRVSLAERGPDAATLRFSLDARLVIDAHDVPA  135
+
+Query  121  SFSACLDGSGQVKV  134
+             F   + G+G++ +
+Sbjct  136  RFLTTVTGNGKIDI  149
+
+
+>VFG002477(gb|WP_004530572) (tssE-5) Type VI secretion system 
+protein TssE [T6SS-1 (VF0429) - Effector delivery system (VFC0086)] 
+[Burkholderia pseudomallei K96243]
+Length=153
+
+ Score = 51.2 bits (121),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 31/106 (29%), Positives = 50/106 (47%), Gaps = 1/106 (1%)
+
+Query  30   SVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSL-HDSLSQARSAIEGFIEAYEPRLSD  88
+            S+  HL ++L+TR G V     +G+PD  ++       S  +  + IE  I  YEPRL  
+Sbjct  44   SIIDHLRRILNTRQGHVPIDPAFGVPDFTNLAGGFAQGSAREIEAQIERVITCYEPRLKA  103
+
+Query  89   VRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQVSFSACLDGSGQVKV  134
+             RV    R  D   L FS++  L ++       F   + G+G++ +
+Sbjct  104  PRVSLAERGPDAATLRFSLDARLVIDAHDVPARFLTTVTGNGKIDI  149
+
+
+>VFG025265(gb|WP_004525343) (tssE-5) Type VI secretion system 
+protein TssE [T6SS-1 (VF0429) - Effector delivery system (VFC0086)] 
+[Burkholderia pseudomallei 668]
+Length=153
+
+ Score = 51.2 bits (121),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 31/106 (29%), Positives = 50/106 (47%), Gaps = 1/106 (1%)
+
+Query  30   SVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSL-HDSLSQARSAIEGFIEAYEPRLSD  88
+            S+  HL ++L+TR G V     +G+PD  ++       S  +  + IE  I  YEPRL  
+Sbjct  44   SIIDHLRRILNTRQGHVPIDPAFGVPDFTNLAGGFAQGSAREIEAQIERVITCYEPRLKA  103
+
+Query  89   VRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQVSFSACLDGSGQVKV  134
+             RV    R  D   L FS++  L ++       F   + G+G++ +
+Sbjct  104  PRVSLAERGPDAATLRFSLDARLVIDAHDVPARFLTTVTGNGKIDI  149
+
+
+>VFG025264(gb|WP_004528791) (tssE-5) Type VI secretion system 
+protein TssE [T6SS-1 (VF0429) - Effector delivery system (VFC0086)] 
+[Burkholderia pseudomallei 1710b]
+Length=153
+
+ Score = 51.2 bits (121),  Expect = 7e-09, Method: Compositional matrix adjust.
+ Identities = 31/106 (29%), Positives = 50/106 (47%), Gaps = 1/106 (1%)
+
+Query  30   SVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSL-HDSLSQARSAIEGFIEAYEPRLSD  88
+            S+  HL ++L+TR G V     +G+PD  ++       S  +  + IE  I  YEPRL  
+Sbjct  44   SIIDHLRRILNTRQGHVPIDPAFGVPDFTNLAGGFAQGSAREIEAQIERVITCYEPRLKA  103
+
+Query  89   VRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQVSFSACLDGSGQVKV  134
+             RV    R  D   L FS++  L ++       F   + G+G++ +
+Sbjct  104  PRVSLAERGPDAATLRFSLDARLVIDAHDVPARFLTTVTGNGKIDI  149
+
+
+>VFG051926(gb|WP_010954867.1) (tssE2) type VI secretion system 
+baseplate subunit TssE [Putida K2-T6SS (VF1352) - Effector 
+delivery system (VFC0086)] [Pseudomonas putida KT2440]
+Length=136
+
+ Score = 49.7 bits (117),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 36/134 (27%), Positives = 64/134 (48%), Gaps = 6/134 (4%)
+
+Query  1    MTGYGSLFERLNGDADKRVGWSREVSA---MASVAAHLGKMLSTRAGSVQTLSDYGLPDL  57
+            M+G+   F+RL  D       SR+ SA    A++  HL  +L+ R G  Q+  + GL D 
+Sbjct  1    MSGF---FDRLMADPSAIREASRQESASHKFAAIKCHLETLLNARQGCSQSSPELGLRDF  57
+
+Query  58   NDMRLSLHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFK  117
+            N   +S  D L Q  + I   ++ +EPR+    + ++P  +  L L F ++  ++V    
+Sbjct  58   NGHDVSSGDLLQQVSADIRRTLQRFEPRIHVRALKAVPDCHAPLELHFRLDCQVQVNNQA  117
+
+Query  118  RQVSFSACLDGSGQ  131
+             Q+     ++G  +
+Sbjct  118  EQLQLELLVNGHNR  131
+
+
+>VFG041182(gb|WP_015461951) (tssE) type VI secretion system baseplate 
+subunit TssE [EVP (E. tarda virulent protein) (VF1268) 
+- Effector delivery system (VFC0086)] [Edwardsiella tarda 
+EIB202]
+Length=158
+
+ Score = 49.7 bits (117),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 32/83 (39%), Positives = 45/83 (54%), Gaps = 1/83 (1%)
+
+Query  51   DYGLPDLNDMRLSLHDSLSQARSAIEGFIEAYEPRLSDVRV-VSLPRDNDQLRLAFSIEG  109
+            +YGLPD +++  +  +     R  IE  I+ +EPRLS VRV + L       +L F IE 
+Sbjct  71   NYGLPDCSNLSAANAEDREWIRQHIERAIDLFEPRLSQVRVHIHLDEKTGISQLIFRIEA  130
+
+Query  110  LLEVEGFKRQVSFSACLDGSGQV  132
+            LL+V+     V F A LD S Q+
+Sbjct  131  LLDVDPSPEPVMFDAVLDVSTQL  153
+
+
+>VFG051958(gb|WP_012272847.1) (tssE3) type VI secretion system 
+baseplate subunit TssE [Putida K3-T6SS (VF1353) - Effector 
+delivery system (VFC0086)] [Pseudomonas putida GB-1]
+Length=136
+
+ Score = 48.5 bits (114),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 35/128 (27%), Positives = 59/128 (46%), Gaps = 3/128 (2%)
+
+Query  7    LFERLNGDADKRVGWSREVSA---MASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLS  63
+            LF+RL  D       SR  SA    A++  HL  +L+ R G  Q+  + GL D N    +
+Sbjct  4    LFDRLKLDQCISRKASRRESASHKFAAIKRHLETLLNARQGCSQSSPELGLRDFNGHDAN  63
+
+Query  64   LHDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQVSFS  123
+              D L Q  + I   ++ +EPR+    + ++P  +  L L F ++ L+ V     Q+   
+Sbjct  64   NGDLLVQVSADIRRTLQRFEPRIRVRTLKAVPDAHTPLELHFKLDCLVRVNNHTEQLQLE  123
+
+Query  124  ACLDGSGQ  131
+              ++G  +
+Sbjct  124  LLVNGHNR  131
+
+
+>VFG035317(gb|WP_001137932) (tssE) type VI secretion system baseplate 
+subunit TssE [SCI-I T6SS (VF1120) - Effector delivery 
+system (VFC0086)] [Escherichia coli 55989]
+Length=143
+
+ Score = 47.8 bits (112),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 30/91 (33%), Positives = 49/91 (54%), Gaps = 7/91 (8%)
+
+Query  6   SLFERLNGDAD-----KRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDM  60
+           SL+E L G+        +VG   +V  + SV  ++ ++L+TRAGS++ L DYGLPD+  +
+Sbjct  5   SLYEILYGNFTGGLELNQVGEEEQV--ILSVLDNMQRILNTRAGSLKHLPDYGLPDITTI  62
+
+Query  61  RLSLHDSLSQARSAIEGFIEAYEPRLSDVRV  91
+              +  +  Q    +   +  YEPR+  V V
+Sbjct  63  LQGMPGTAHQLMRVLSDVLLKYEPRIKRVDV  93
+
+
+>VFG049295(gb|WP_004152261) (impF) type VI secretion system baseplate 
+subunit TssE [T6SS-III (VF0784) - Effector delivery 
+system (VFC0086)] [Klebsiella pneumoniae 342]
+Length=147
+
+ Score = 46.6 bits (109),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 24/65 (37%), Positives = 37/65 (57%), Gaps = 0/65 (0%)
+
+Query  30  SVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSLHDSLSQARSAIEGFIEAYEPRLSDV  89
+           SV  ++ ++L+ RAG++  L DYGLPD+  +   +  S  Q  S +   +  YEPRL  +
+Sbjct  32  SVLDNMQRILNCRAGTLAHLPDYGLPDMTAILQGMPASAHQLMSTLSAVLLKYEPRLQRI  91
+
+Query  90  RVVSL  94
+            VV L
+Sbjct  92  AVVML  96
+
+
+>VFG035321(gb|WP_000106968) (ECNA114_RS14850) type VI secretion 
+system baseplate subunit TssE [SCI-I T6SS (VF1120) - Effector 
+delivery system (VFC0086)] [Escherichia coli NA114]
+Length=142
+
+ Score = 46.6 bits (109),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 31/105 (30%), Positives = 52/105 (50%), Gaps = 4/105 (4%)
+
+Query  28   MASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSLHDSLSQARSAIEGFIEAYEPRLS  87
+            + SV  ++ ++++ RAG++  L DYGLPDL+ +   +   +      IE  +  YEPRLS
+Sbjct  30   ILSVMDNMQRIINCRAGTLAHLPDYGLPDLSLIHQGMAAGIHGLMRQIEETLLRYEPRLS  89
+
+Query  88   DVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQVSFSACLDGSGQV  132
+             ++V  LP+      L + I   L   G+ R   F       G++
+Sbjct  90   QIQVELLPQPRPG-HLNYLIHAQLPDTGWIR---FDGVFSPEGRI  130
+
+
+>VFG049300(gb|WP_004145445) (impF) type VI secretion system baseplate 
+subunit TssE [T6SS-III (VF0784) - Effector delivery 
+system (VFC0086)] [Klebsiella pneumoniae subsp. rhinoscleromatis 
+SB3432]
+Length=147
+
+ Score = 46.6 bits (109),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 24/65 (37%), Positives = 37/65 (57%), Gaps = 0/65 (0%)
+
+Query  30  SVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSLHDSLSQARSAIEGFIEAYEPRLSDV  89
+           SV  ++ ++L+ RAG++  L DYGLPD+  +   +  S  Q  S +   +  YEPRL  +
+Sbjct  32  SVLDNMQRILNCRAGTLAHLPDYGLPDMTAVLQGMPASAHQLMSTLSAVLLKYEPRLQRI  91
+
+Query  90  RVVSL  94
+            VV L
+Sbjct  92  AVVML  96
+
+
+>VFG035312(gb|WP_000106967) (tssE) type VI secretion system baseplate 
+subunit TssE [SCI-I T6SS (VF1120) - Effector delivery 
+system (VFC0086)] [Escherichia coli CFT073]
+Length=142
+
+ Score = 46.2 bits (108),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 31/105 (30%), Positives = 52/105 (50%), Gaps = 4/105 (4%)
+
+Query  28   MASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSLHDSLSQARSAIEGFIEAYEPRLS  87
+            + SV  ++ ++++ RAG++  L DYGLPDL+ +   +   +      IE  +  YEPRLS
+Sbjct  30   ILSVMDNMQRIINCRAGTLAHLPDYGLPDLSLIHQGMAAGIHGLMRQIEETLLRYEPRLS  89
+
+Query  88   DVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQVSFSACLDGSGQV  132
+             ++V  LP+      L + I   L   G+ R   F       G++
+Sbjct  90   QIQVELLPQPRPG-HLNYLIHAQLPDTGWIR---FDGVFSPEGRI  130
+
+
+>VFG049293(gb|WP_014229088) (impF) type VI secretion system baseplate 
+subunit TssE [T6SS-III (VF0784) - Effector delivery 
+system (VFC0086)] [Klebsiella oxytoca KCTC 1686]
+Length=151
+
+ Score = 46.6 bits (109),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 28/92 (30%), Positives = 47/92 (51%), Gaps = 3/92 (3%)
+
+Query  6   SLFERLNGDADKRVGW---SREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRL  62
+           SL+E L G+    +     S E   + SV  ++ ++L+ RAG++  L DYGLPD+  +  
+Sbjct  9   SLYEMLYGNFTGGLDLHQVSEENQVILSVLDNMQRVLNCRAGTLAHLPDYGLPDMTKILQ  68
+
+Query  63  SLHDSLSQARSAIEGFIEAYEPRLSDVRVVSL  94
+            +  +  +    +   +  YEPRL  + VV L
+Sbjct  69  GMPGTAHELMGILSAVLLKYEPRLKKIDVVLL  100
+
+
+>VFG049294(gb|WP_004175538) (impF) type VI secretion system baseplate 
+subunit TssE [T6SS-III (VF0784) - Effector delivery 
+system (VFC0086)] [Klebsiella pneumoniae subsp. pneumoniae 1084]
+Length=147
+
+ Score = 46.2 bits (108),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 24/65 (37%), Positives = 37/65 (57%), Gaps = 0/65 (0%)
+
+Query  30  SVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSLHDSLSQARSAIEGFIEAYEPRLSDV  89
+           SV  ++ ++L+ RAG++  L DYGLPD+  +   +  S  Q  S +   +  YEPRL  +
+Sbjct  32  SVLDNMQRILNCRAGTLAHLPDYGLPDMTAVLQGMPASAHQLMSTLSAVLLKYEPRLQRI  91
+
+Query  90  RVVSL  94
+            VV L
+Sbjct  92  AVVML  96
+
+
+>VFG049292(gb|WP_014838282) (impF) type VI secretion system baseplate 
+subunit TssE [T6SS-III (VF0784) - Effector delivery 
+system (VFC0086)] [Klebsiella oxytoca E718]
+Length=151
+
+ Score = 46.6 bits (109),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 28/92 (30%), Positives = 47/92 (51%), Gaps = 3/92 (3%)
+
+Query  6   SLFERLNGDADKRVGW---SREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRL  62
+           SL+E L G+    +     S E   + SV  ++ ++L+ RAG++  L DYGLPD+  +  
+Sbjct  9   SLYEMLYGNFTGGLDLHQVSEENQVILSVLDNMQRVLNCRAGTLAHLPDYGLPDMTKILQ  68
+
+Query  63  SLHDSLSQARSAIEGFIEAYEPRLSDVRVVSL  94
+            +  +  +    +   +  YEPRL  + VV L
+Sbjct  69  GMPGTAHELMGILSAVLLKYEPRLKKIDVVLL  100
+
+
+>VFG035316(gb|WP_000106970) (tssE) type VI secretion system baseplate 
+subunit TssE [SCI-I T6SS (VF1120) - Effector delivery 
+system (VFC0086)] [Escherichia coli O103:H2 str. 12009]
+Length=142
+
+ Score = 45.8 bits (107),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 24/69 (35%), Positives = 41/69 (59%), Gaps = 0/69 (0%)
+
+Query  28  MASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSLHDSLSQARSAIEGFIEAYEPRLS  87
+           + SV  ++ ++++ RAG++  L DYGLPDL+ +   +   +      IE  +  YEPRLS
+Sbjct  30  ILSVMDNMQRIINCRAGTLAHLPDYGLPDLSLIHQGMVAGIHGLMRQIEETLLRYEPRLS  89
+
+Query  88  DVRVVSLPR  96
+            ++V  LP+
+Sbjct  90  QIQVELLPQ  98
+
+
+>VFG035313(gb|WP_000235155) (tssE) type VI secretion system baseplate 
+subunit TssE [SCI-I T6SS (VF1120) - Effector delivery 
+system (VFC0086)] [Escherichia coli 536]
+Length=142
+
+ Score = 45.8 bits (107),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 30/105 (29%), Positives = 52/105 (50%), Gaps = 4/105 (4%)
+
+Query  28   MASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSLHDSLSQARSAIEGFIEAYEPRLS  87
+            + SV  ++ ++++ RAG++  L DYGLPDL+ +   +   +      IE  +  YEPRL+
+Sbjct  30   ILSVMDNMQRIINCRAGTLAHLPDYGLPDLSLIHQGMAAGIHSLMRQIEETLLRYEPRLN  89
+
+Query  88   DVRVVSLPRDNDQLRLAFSIEGLLEVEGFKRQVSFSACLDGSGQV  132
+             ++V  LP+      L + I   L   G+ R   F       G++
+Sbjct  90   QIQVELLPQPRPG-HLNYLIHAQLPDTGWIR---FDGVFSPEGRI  130
+
+
+>VFG049165(gb|WP_012540695) (impF) type VI secretion system baseplate 
+subunit TssE [T6SS-II (VF0783) - Effector delivery system 
+(VFC0086)] [Klebsiella pneumoniae 342]
+Length=141
+
+ Score = 45.4 bits (106),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 24/69 (35%), Positives = 40/69 (58%), Gaps = 0/69 (0%)
+
+Query  28  MASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSLHDSLSQARSAIEGFIEAYEPRLS  87
+           + SV  ++ ++++ RAG++  L DYGLPDL+ +   +   +      IE  +  YEPRLS
+Sbjct  30  ILSVMDNMQRIINCRAGTLAHLPDYGLPDLSMIHQGMTAGIHGLIHQIEKTLLRYEPRLS  89
+
+Query  88  DVRVVSLPR  96
+            +RV   P+
+Sbjct  90  QLRVELQPQ  98
+
+
+>VFG049166(gb|WP_004181152) (impF) type VI secretion system baseplate 
+subunit TssE [T6SS-II (VF0783) - Effector delivery system 
+(VFC0086)] [Klebsiella pneumoniae subsp. pneumoniae MGH 
+78578]
+Length=141
+
+ Score = 45.1 bits (105),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 24/69 (35%), Positives = 40/69 (58%), Gaps = 0/69 (0%)
+
+Query  28  MASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSLHDSLSQARSAIEGFIEAYEPRLS  87
+           + SV  ++ ++++ RAG++  L DYGLPDL+ +   +   +      IE  +  YEPRLS
+Sbjct  30  ILSVMDNMQRIINCRAGTLAHLPDYGLPDLSMIHQGMTAGIHGLIHQIEETLLRYEPRLS  89
+
+Query  88  DVRVVSLPR  96
+            +RV   P+
+Sbjct  90  QLRVELQPQ  98
+
+
+>VFG035747(gb|WP_000611748) (aec19) type VI secretion system baseplate 
+subunit TssE [ACE T6SS (VF1122) - Effector delivery 
+system (VFC0086)] [Escherichia coli O104:H4 str. 2009EL-2050]
+Length=137
+
+ Score = 42.7 bits (99),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 36/131 (27%), Positives = 61/131 (47%), Gaps = 5/131 (4%)
+
+Query  5    GSLFERLNGDADKRVGWSREVSAMASVAAHLGKMLSTRAGSVQTLSDYGLPDLNDMRLSL  64
+            GSLFER+   + +        S   S+  +L  +L+TR+GS +   + G+ D  +   + 
+Sbjct  10   GSLFERMEASSARNRQGGSIYSLRQSIRQNLRNILNTRSGSCRGAPELGI-DEPEGAENF  68
+
+Query  65   HDSLSQARSAIEGFIEAYEPRLSDVRVVSLPRD-NDQLRLAFSIEGLLEVEGFKRQVSFS  123
+             +S+S+   AIE  IE YEPR+S   V ++    +  L + F I   +        + F 
+Sbjct  69   RESMSR---AIEQCIERYEPRISHAEVQAVVSSASSPLDMTFHITAWVTFNETHEVLEFD  125
+
+Query  124  ACLDGSGQVKV  134
+               +GS   +V
+Sbjct  126  MAPNGSQHYRV  136
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.133    0.369    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 497167310
+
+
+Query= g2408.t1
+
+Length=141
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG041040(gb|NP_251058) (tssE) type VI secretion system baseplate...  275     3e-97
+VFG051636(gb|WP_012614150.1) (tssE) type VI secretion system base...  271     2e-95
+VFG051637(gb|WP_012075688.1) (tssE) type VI secretion system base...  271     2e-95
+VFG051639(gb|WP_003089496.1) (tssE) type VI secretion system base...  265     5e-93
+VFG051640(gb|WP_011334779.1) (tssE) type VI secretion system base...  145     2e-45
+
+
+>VFG041040(gb|NP_251058) (tssE) type VI secretion system baseplate 
+subunit TssE [HSI-3 (VF0944) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa PAO1]
+Length=141
+
+ Score = 275 bits (704),  Expect = 3e-97, Method: Compositional matrix adjust.
+ Identities = 141/141 (100%), Positives = 141/141 (100%), Gaps = 0/141 (0%)
+
+Query  1    MSGALPPLFERLSAEADERPAFDDRALAESVRGELLRLLNTRRPANARSGILAYGLADWT  60
+            MSGALPPLFERLSAEADERPAFDDRALAESVRGELLRLLNTRRPANARSGILAYGLADWT
+Sbjct  1    MSGALPPLFERLSAEADERPAFDDRALAESVRGELLRLLNTRRPANARSGILAYGLADWT  60
+
+Query  61   AVQRLRAEDRRQLAREVRAAVEHFEPRLQLAEVEVEPDPGNPQRLRIQLGGSLRSGSRLT  120
+            AVQRLRAEDRRQLAREVRAAVEHFEPRLQLAEVEVEPDPGNPQRLRIQLGGSLRSGSRLT
+Sbjct  61   AVQRLRAEDRRQLAREVRAAVEHFEPRLQLAEVEVEPDPGNPQRLRIQLGGSLRSGSRLT  120
+
+Query  121  PALFVIEQGCDGLEVRHERFD  141
+            PALFVIEQGCDGLEVRHERFD
+Sbjct  121  PALFVIEQGCDGLEVRHERFD  141
+
+
+>VFG051636(gb|WP_012614150.1) (tssE) type VI secretion system 
+baseplate subunit TssE [HSI-3 (VF0944) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa LESB58]
+Length=141
+
+ Score = 271 bits (693),  Expect = 2e-95, Method: Compositional matrix adjust.
+ Identities = 139/141 (99%), Positives = 140/141 (99%), Gaps = 0/141 (0%)
+
+Query  1    MSGALPPLFERLSAEADERPAFDDRALAESVRGELLRLLNTRRPANARSGILAYGLADWT  60
+            MSGALPPLFERLSAEADERPAFDD+ALAESVRGELLRLLNTRRPANARSGILAYGLADWT
+Sbjct  1    MSGALPPLFERLSAEADERPAFDDQALAESVRGELLRLLNTRRPANARSGILAYGLADWT  60
+
+Query  61   AVQRLRAEDRRQLAREVRAAVEHFEPRLQLAEVEVEPDPGNPQRLRIQLGGSLRSGSRLT  120
+            AVQRLRAEDRRQLAREVRAAVEHFEPRLQLAEVEVEPDPGNPQRLRIQLGGSLRSGSRLT
+Sbjct  61   AVQRLRAEDRRQLAREVRAAVEHFEPRLQLAEVEVEPDPGNPQRLRIQLGGSLRSGSRLT  120
+
+Query  121  PALFVIEQGCDGLEVRHERFD  141
+            PALFVIEQG DGLEVRHERFD
+Sbjct  121  PALFVIEQGSDGLEVRHERFD  141
+
+
+>VFG051637(gb|WP_012075688.1) (tssE) type VI secretion system 
+baseplate subunit TssE [HSI-3 (VF0944) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa PA7]
+Length=141
+
+ Score = 271 bits (692),  Expect = 2e-95, Method: Compositional matrix adjust.
+ Identities = 139/141 (99%), Positives = 139/141 (99%), Gaps = 0/141 (0%)
+
+Query  1    MSGALPPLFERLSAEADERPAFDDRALAESVRGELLRLLNTRRPANARSGILAYGLADWT  60
+            MSGALPPLFERLSAEADERPAFDDRALAESVRGELLRLLNTRRPANARSGILAYGLADWT
+Sbjct  1    MSGALPPLFERLSAEADERPAFDDRALAESVRGELLRLLNTRRPANARSGILAYGLADWT  60
+
+Query  61   AVQRLRAEDRRQLAREVRAAVEHFEPRLQLAEVEVEPDPGNPQRLRIQLGGSLRSGSRLT  120
+            AVQRLRAEDRRQLAREVR AVEHFEPRLQLAEVEVEPDPGNPQRLRIQLGGSLRSGSRLT
+Sbjct  61   AVQRLRAEDRRQLAREVRVAVEHFEPRLQLAEVEVEPDPGNPQRLRIQLGGSLRSGSRLT  120
+
+Query  121  PALFVIEQGCDGLEVRHERFD  141
+            PALFVIEQG DGLEVRHERFD
+Sbjct  121  PALFVIEQGSDGLEVRHERFD  141
+
+
+>VFG051639(gb|WP_003089496.1) (tssE) type VI secretion system 
+baseplate subunit TssE [HSI-3 (VF0944) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa UCBPP-PA14]
+Length=141
+
+ Score = 265 bits (677),  Expect = 5e-93, Method: Compositional matrix adjust.
+ Identities = 137/141 (97%), Positives = 138/141 (98%), Gaps = 0/141 (0%)
+
+Query  1    MSGALPPLFERLSAEADERPAFDDRALAESVRGELLRLLNTRRPANARSGILAYGLADWT  60
+            MSGALPPLFERLSAEADERPAFDDRALAESVRGELLRLLNTRRPA+ARSGILAYGLADWT
+Sbjct  1    MSGALPPLFERLSAEADERPAFDDRALAESVRGELLRLLNTRRPAHARSGILAYGLADWT  60
+
+Query  61   AVQRLRAEDRRQLAREVRAAVEHFEPRLQLAEVEVEPDPGNPQRLRIQLGGSLRSGSRLT  120
+            AVQRLRAEDRRQLAREVRAAVEHFEPRLQLAEVEVEPDPGNPQRLRIQLGG LRSGSRL 
+Sbjct  61   AVQRLRAEDRRQLAREVRAAVEHFEPRLQLAEVEVEPDPGNPQRLRIQLGGRLRSGSRLM  120
+
+Query  121  PALFVIEQGCDGLEVRHERFD  141
+            PALFVIEQG DGLEVRHERFD
+Sbjct  121  PALFVIEQGNDGLEVRHERFD  141
+
+
+>VFG051640(gb|WP_011334779.1) (tssE) type VI secretion system 
+baseplate subunit TssE [HSI-3 (VF0944) - Effector delivery system 
+(VFC0086)] [Pseudomonas fluorescens Pf0-1]
+Length=147
+
+ Score = 145 bits (365),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 82/144 (57%), Positives = 103/144 (72%), Gaps = 4/144 (3%)
+
+Query  2    SGALPPLFERL-SAEADERPAFDDRALAESVRGELLRLLNTRR-PANARS--GILAYGLA  57
+            +G LPPLFERL S+E D    FD + L +SV  EL RL NTRR P    S   ++ YG+A
+Sbjct  4    TGLLPPLFERLASSEGDGAREFDRQDLLDSVHTELGRLFNTRRGPRTLTSPPSVIDYGIA  63
+
+Query  58   DWTAVQRLRAEDRRQLAREVRAAVEHFEPRLQLAEVEVEPDPGNPQRLRIQLGGSLRSGS  117
+            DW+A+Q+ R++DRR+LAR++R A+ HFEPRL L EV+V P P +PQRL I+L G LRSGS
+Sbjct  64   DWSALQQQRSDDRRRLARDIREAITHFEPRLLLGEVQVNPLPEHPQRLSIRLLGELRSGS  123
+
+Query  118  RLTPALFVIEQGCDGLEVRHERFD  141
+            +  P  FVIE G +GLEVRHER D
+Sbjct  124  QHWPVAFVIEPGNEGLEVRHERLD  147
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.395    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 549780153
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

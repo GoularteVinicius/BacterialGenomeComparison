@@ -1,0 +1,160 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3474.t1
+
+Length=205
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044092(gb|NP_252097) (hasAp) heme acquisition protein HasA [Ha...  405     2e-146
+VFG044154(gb|WP_011063600) (PFL_RS27285) heme acquisition protein...  305     9e-107
+VFG044404(gb|CAA57068) (hasA) unknown protein [HasA (VF1254) - Nu...  174     1e-55 
+VFG044144(gb|WP_002209484) (YPO_RS20740) heme acquisition protein...  89.0    5e-22 
+
+
+>VFG044092(gb|NP_252097) (hasAp) heme acquisition protein HasA 
+[HasA-type hemophore-mediated heme uptake system (VF0939) - 
+Nutritional/Metabolic factor (VFC0272)] [Pseudomonas aeruginosa 
+PAO1]
+Length=205
+
+ Score = 405 bits (1041),  Expect = 2e-146, Method: Compositional matrix adjust.
+ Identities = 205/205 (100%), Positives = 205/205 (100%), Gaps = 0/205 (0%)
+
+Query  1    MSISISYSTTYSGWTVADYLADWSAYFGDVNHRPGQVVDGSNTGGFNPGPFDGSQYALKS  60
+            MSISISYSTTYSGWTVADYLADWSAYFGDVNHRPGQVVDGSNTGGFNPGPFDGSQYALKS
+Sbjct  1    MSISISYSTTYSGWTVADYLADWSAYFGDVNHRPGQVVDGSNTGGFNPGPFDGSQYALKS  60
+
+Query  61   TASDAAFIAGGDLHYTLFSNPSHTLWGKLDSIALGDTLTGGASSGGYALDSQEVSFSNLG  120
+            TASDAAFIAGGDLHYTLFSNPSHTLWGKLDSIALGDTLTGGASSGGYALDSQEVSFSNLG
+Sbjct  61   TASDAAFIAGGDLHYTLFSNPSHTLWGKLDSIALGDTLTGGASSGGYALDSQEVSFSNLG  120
+
+Query  121  LDSPIAQGRDGTVHKVVYGLMSGDSSALQGQIDALLKAVDPSLSINSTFDQLAAAGVAHA  180
+            LDSPIAQGRDGTVHKVVYGLMSGDSSALQGQIDALLKAVDPSLSINSTFDQLAAAGVAHA
+Sbjct  121  LDSPIAQGRDGTVHKVVYGLMSGDSSALQGQIDALLKAVDPSLSINSTFDQLAAAGVAHA  180
+
+Query  181  TPAAAAAEVGVVGVQELPHDLALAA  205
+            TPAAAAAEVGVVGVQELPHDLALAA
+Sbjct  181  TPAAAAAEVGVVGVQELPHDLALAA  205
+
+
+>VFG044154(gb|WP_011063600) (PFL_RS27285) heme acquisition protein 
+HasA [HasA-type hemophore-mediated heme uptake system (VF0940) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas 
+fluorescens Pf-5]
+Length=205
+
+ Score = 305 bits (780),  Expect = 9e-107, Method: Compositional matrix adjust.
+ Identities = 160/206 (78%), Positives = 180/206 (87%), Gaps = 2/206 (1%)
+
+Query  1    MSISISYSTTYSGWTVADYLADWSAYFGDVNHRPGQVVDGSNTGGFNPGPFDGSQYALKS  60
+            MSISISYS TY G TVA YL DWSAYFGDVNHRPG+VVDG+NTGGFNPGPFDG+QYA+KS
+Sbjct  1    MSISISYSATYGGNTVAQYLTDWSAYFGDVNHRPGEVVDGTNTGGFNPGPFDGTQYAIKS  60
+
+Query  61   TASDAAFIAGGDLHYTLFSNPSHTLWGKLDSIALGDTLTGGASSGGYALDSQEVSFSNLG  120
+            TASDAAF+A G+LHYTLFSNPSHTLWG +D+I+LGDTL GG+ S  Y L SQEVSF+NLG
+Sbjct  61   TASDAAFVADGNLHYTLFSNPSHTLWGSVDTISLGDTLAGGSGS-NYNLVSQEVSFTNLG  119
+
+Query  121  LDSPIAQGRDGTVHKVVYGLMSGDSSALQGQIDALLKAVDPSLSINSTFDQLAAAGVAHA  180
+            L+S   +GR G VHKVVYGLMSGDSSAL G+IDALLKA+DPSLS+NSTFD LAAAGVAH 
+Sbjct  120  LNSLKEEGRAGEVHKVVYGLMSGDSSALAGEIDALLKAIDPSLSVNSTFDDLAAAGVAHV  179
+
+Query  181  TP-AAAAAEVGVVGVQELPHDLALAA  205
+             P AAAAA+VG+VGVQ++  D ALAA
+Sbjct  180  NPAAAAAADVGLVGVQDVAQDWALAA  205
+
+
+>VFG044404(gb|CAA57068) (hasA) unknown protein [HasA (VF1254) 
+- Nutritional/Metabolic factor (VFC0272)] [Serratia marcescens 
+str. SM365]
+Length=188
+
+ Score = 174 bits (442),  Expect = 1e-55, Method: Compositional matrix adjust.
+ Identities = 99/192 (52%), Positives = 136/192 (71%), Gaps = 9/192 (5%)
+
+Query  1    MSISISYSTTYSGWTVADYLADWSAYFGDVNHRPGQVVDGSNTGGFNPGPFDGSQYALKS  60
+            M+ S++Y +++ G+++ DYL  W++ FGDVNH  G V D +N+GGF  G   GSQYA+ S
+Sbjct  1    MAFSVNYDSSFGGYSIHDYLGQWASTFGDVNHTNGNVTD-ANSGGFYGGSLSGSQYAISS  59
+
+Query  61   TASDA-AFIAGGDLHYTLFSNPSHTLWGKLDSIALGDTLTGGASSGGYALDSQEVSFSNL  119
+            TA+   AF+AGG+L YTLF+ P+HTL+G+LDS++ GD L+GG +S  Y++   +VSF  L
+Sbjct  60   TANQVTAFVAGGNLTYTLFNEPAHTLYGQLDSLSFGDGLSGGDTSP-YSIQVPDVSFGGL  118
+
+Query  120  GLDSPIAQGRDGTVHKVVYGLMSGDSSALQGQIDALLKAVDPSLSINSTFDQLAAA---G  176
+             L S  AQG DG VH+VVYGLMSGD+ AL+  ++ +L   D  LS+NSTFDQ+AAA   G
+Sbjct  119  NLSSLQAQGHDGVVHQVVYGLMSGDTGALETALNGILD--DYGLSVNSTFDQVAAATAVG  176
+
+Query  177  VAHA-TPAAAAA  187
+            V HA +P   AA
+Sbjct  177  VQHADSPELLAA  188
+
+
+>VFG044144(gb|WP_002209484) (YPO_RS20740) heme acquisition protein 
+HasA [HasA-type hemophore-mediated heme uptake system (VF1029) 
+- Nutritional/Metabolic factor (VFC0272)] [Yersinia 
+pestis CO92]
+Length=205
+
+ Score = 89.0 bits (219),  Expect = 5e-22, Method: Compositional matrix adjust.
+ Identities = 66/214 (31%), Positives = 104/214 (49%), Gaps = 18/214 (8%)
+
+Query  1    MSISISYSTTYSGWTVADYLADWSAYFGDVNHRPGQVVDGSNTGGFNPGPFDGSQYALKS  60
+            MS +I Y++ Y+ ++++ YL +W+  FGD++  P +  D  +  G +   F G+QYA+ S
+Sbjct  1    MSTTIQYNSNYADYSISSYLREWANNFGDIDQAPAETKDRGSFSG-SSTLFSGTQYAIGS  59
+
+Query  61   TASD-AAFIAGGDLHYTLFSNPSHTLWGKLDSIALGDTL--TGGASSGGYALDSQEVSFS  117
+            + S+    IA GDL Y+    P HT  G++D++  G  L    G  S G  L+  +++F+
+Sbjct  60   SHSNPEGMIAEGDLKYSFM--PQHTFHGQIDTLQFGKDLATNAGGPSAGKHLEKIDITFN  117
+
+Query  118  NLGLDSPIAQGR------DGTVHKVVYGLMSGDSSALQGQIDALLKAVDPSLSINSTFDQ  171
+             L L      G+       G +HK V GLM G+   +   + A    VD +    S   Q
+Sbjct  118  ELDLSGEFDSGKSMTENHQGDMHKSVRGLMKGNPDPMLEVMKAKGINVDTAFKDLSIASQ  177
+
+Query  172  LAAAGVAHATPAAAAAEVGVVGVQELPHDLALAA  205
+               +G     P      V  VGV +  HD+ LAA
+Sbjct  178  YPDSGYMSDAPM-----VDTVGVVDC-HDMLLAA  205
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.130    0.382    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1170410230
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,271 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1608.t1
+
+Length=100
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.143    0.451    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 328038169
+
+
+Query= g125.t1
+
+Length=604
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.141    0.454    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5145480918
+
+
+Query= g126.t1
+
+Length=455
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3666515424
+
+
+Query= g2438.t1
+
+Length=537
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG050222(gb|NP_219545) (glgX) glycogen hydrolase [TTSS secreted ...  50.4    2e-06
+
+
+>VFG050222(gb|NP_219545) (glgX) glycogen hydrolase [TTSS secreted 
+effectors (VF0711) - Effector delivery system (VFC0086)] 
+[Chlamydia trachomatis D/UW-3/CX]
+Length=666
+
+ Score = 50.4 bits (119),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 67/236 (28%), Positives = 91/236 (39%), Gaps = 68/236 (29%)
+
+Query  29   YQVYPRSFADSNGDGV---GDLDGLASRLDHLQQLGVDAIWINPV-----TVSPMADH--  78
+            Y+++ RSF       V   G   G+  ++DHL+QLGV A+ + P+     TV P  +   
+Sbjct  147  YEMHVRSFTRDPSSQVSHPGTFLGIIEKIDHLKQLGVHAVELLPIFEFDETVHPFKNQDF  206
+
+Query  79   -------GYDVAD----PRDIDPLFGGMPA-----FERLVAAAHRQGIKVTMDVVPNHTS  122
+                   GY   +     R     +G  P      F+ LV A HR GI+V +DVV NHT 
+Sbjct  207  PHLCNYWGYSSVNFFCPSRRYT--YGADPCAPAREFKTLVKALHRAGIEVILDVVFNHTG  264
+
+Query  123  SAHPWFQAALADLPGSPARDRYFFRDGRGPDGSLPPNNWESVFGGPAWTRVREPDGNPGQ  182
+                 F+     LP       Y   D     G L        F G   T           
+Sbjct  265  -----FEGTSCPLPWIDLESYYMVND----HGDLMN------FSGCGNTVNT--------  301
+
+Query  183  WYLHLFDTEQPDLNWDNPEILDDFEKTLRFWL-DRGVDGFRIDVAHGMAK-PPGLP  236
+                        L W    ILD     LR+W+ +  VDGFR D+A   ++ P G+P
+Sbjct  302  -------NTPTTLKW----ILD----ALRYWVQEMHVDGFRFDLASVFSRDPQGVP  342
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.139    0.458    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4475637936
+
+
+Query= g2192.t1
+
+Length=1100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG050222(gb|NP_219545) (glgX) glycogen hydrolase [TTSS secreted ...  50.8    4e-06
+
+
+>VFG050222(gb|NP_219545) (glgX) glycogen hydrolase [TTSS secreted 
+effectors (VF0711) - Effector delivery system (VFC0086)] 
+[Chlamydia trachomatis D/UW-3/CX]
+Length=666
+
+ Score = 50.8 bits (120),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 38/122 (31%), Positives = 61/122 (50%), Gaps = 24/122 (20%)
+
+Query  17   KDAVIYQVHVKSFYDANNDGI---GDFAGLIEKLDYIADLGVNTLWLLPFYP-----SPR  68
+            ++  IY++HV+SF    +  +   G F G+IEK+D++  LGV+ + LLP +       P 
+Sbjct  142  ENYFIYEMHVRSFTRDPSSQVSHPGTFLGIIEKIDHLKQLGVHAVELLPIFEFDETVHPF  201
+
+Query  69   RDDGY-DIAQYRGVHS----------DYGS--LADARRF---IAEAHRRGLRVITELVIN  112
+            ++  +  +  Y G  S           YG+   A AR F   +   HR G+ VI ++V N
+Sbjct  202  KNQDFPHLCNYWGYSSVNFFCPSRRYTYGADPCAPAREFKTLVKALHRAGIEVILDVVFN  261
+
+Query  113  HT  114
+            HT
+Sbjct  262  HT  263
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.138    0.422    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 10080264809
+
+
+Query= g2235.t1
+
+Length=88
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.140    0.487    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 325344964
+
+
+Query= g370.t1
+
+Length=605
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.454    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5155813209
+
+
+Query= g1834.t1
+
+Length=494
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.139    0.444    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4051419450
+
+
+Query= g3423.t1
+
+Length=675
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG050222(gb|NP_219545) (glgX) glycogen hydrolase [TTSS secreted ...  51.6    1e-06
+
+
+>VFG050222(gb|NP_219545) (glgX) glycogen hydrolase [TTSS secreted 
+effectors (VF0711) - Effector delivery system (VFC0086)] 
+[Chlamydia trachomatis D/UW-3/CX]
+Length=666
+
+ Score = 51.6 bits (122),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 33/103 (32%), Positives = 49/103 (48%), Gaps = 9/103 (9%)
+
+Query  223  HGGDLRGLTSQLDYLQQLGVNALWISSPFEQIHGWVGGGTKGDFPHYA-YHGYYTQDWTT  281
+            H G   G+  ++D+L+QLGV+A+ +   FE     V      DFPH   Y GY + ++  
+Sbjct  164  HPGTFLGIIEKIDHLKQLGVHAVELLPIFE-FDETVHPFKNQDFPHLCNYWGYSSVNFFC  222
+
+Query  282  LDANMGSEAD-------LRALVDGAHQRGIRILFDVVMNHAGY  317
+                    AD        + LV   H+ GI ++ DVV NH G+
+Sbjct  223  PSRRYTYGADPCAPAREFKTLVKALHRAGIEVILDVVFNHTGF  265
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.433    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5852847512
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

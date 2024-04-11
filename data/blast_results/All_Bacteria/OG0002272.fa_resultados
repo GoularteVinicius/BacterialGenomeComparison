@@ -1,0 +1,558 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g138.t1
+
+Length=340
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG013372(gb|WP_010944658) (rffG) dTDP-glucose 46-dehydratase [LO...  56.2    9e-09
+VFG049107(gb|WP_015958694) (rfbB) dTDP-glucose 4,6-dehydratase [L...  55.1    2e-08
+VFG048840(gb|WP_015958698) (rfbB) dTDP-glucose 4,6-dehydratase [C...  54.7    3e-08
+VFG048837(gb|YP_005227858) (KPHS_35580) dTDP-D-glucose 4,6-dehydr...  54.7    3e-08
+VFG013373(gb|WP_011608862) (rffG) dTDP-glucose 46-dehydratase [LO...  53.9    5e-08
+VFG037923(gb|WP_000699387) (rfbB) dTDP-glucose 4,6-dehydratase [C...  53.5    7e-08
+VFG048986(gb|WP_004144150) (KPR_RS09045) NAD-dependent epimerase ...  52.8    1e-07
+VFG013164(gb|WP_012340298) (rffG) dTDP-glucose 46-dehydratase [LO...  52.8    1e-07
+VFG016542(gb|NP_975952) (galE) UDP-glucose 4-epimerase [Capsule (...  50.1    4e-07
+VFG049098(gb|WP_014838941) (A225_RS19005) NAD-dependent epimerase...  50.8    4e-07
+VFG049099(gb|WP_014230054) (KOX_RS24955) NAD-dependent epimerase ...  50.8    5e-07
+VFG016528(gb|NP_975938) (galE) UDP-glucose 4-epimerase [Capsule (...  50.8    5e-07
+VFG048981(gb|WP_004144152) (KPR_RS09030) NAD-dependent epimerase ...  50.8    5e-07
+VFG016535(gb|NP_975945) (galE) UDP-glucose 4-epimerase [Capsule (...  50.8    5e-07
+VFG014119(gb|WP_012075025) (PSPA7_RS30415) NAD-dependent 4,6-dehy...  49.3    1e-06
+VFG007645(gb|WP_011078841) (wbfT) NAD-dependent epimerase/dehydra...  47.4    6e-06
+VFG007658(gb|WP_011149273) (rmlB) dTDP-glucose 4,6-dehydratase [C...  47.0    7e-06
+
+
+>VFG013372(gb|WP_010944658) (rffG) dTDP-glucose 46-dehydratase 
+[LOS (VF0044) - Immune modulation (VFC0258)] [Haemophilus ducreyi 
+35000HP]
+Length=346
+
+ Score = 56.2 bits (134),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 76/333 (23%), Positives = 135/333 (41%), Gaps = 44/333 (13%)
+
+Query  6    LVIGANGFLGSHVTRQLVADCAPQKGEVRAMVRPAANTRSIDDLPLTRFHG----DVFDT  61
+            L+ G  GF+GS V R ++     +   V  +   A N  S+  +   + +     D+ D+
+Sbjct  4    LITGGAGFIGSAVIRYIINHTDDEVINVDKLTY-AGNLASLSSVSQHKRYTFEQVDINDS  62
+
+Query  62   ATVAEAMAGC--DDVYYCVVDTRA--WLRDPSPLFRTNVAGLRNVLDVATDA-----SLR  112
+              +AE       D V +   ++     +   +P  +TN+ G   +L+ A          +
+Sbjct  63   GRIAEIFYHYQPDKVMHLAAESHVDRSIEGSAPFIQTNIIGTYTLLETARSYWQSLDQQK  122
+
+Query  113  RFVFTSSYATVGRRRGHVATEEDRVDTRKV----TPYVRSRVAAEDLVLQYAHDAGLPAV  168
+            +  F   + +     G +A +  R   +      +PY  S+ A++ LV  +    GLP V
+Sbjct  123  KAQFLFHHISTDEVFGDLAHQPQRFTEQSAYMPSSPYSASKAASDHLVQAWYRTYGLPTV  182
+
+Query  169  AMCVSTTYGGGDWGRTPHGAFIAGAVFGR-LPFTMRGIRL-EAVGVDDAARALILAAERG  226
+                S  YG   +        I  A+ G+ LP    G+++ + + V+D ARAL    ++G
+Sbjct  183  ISHCSNNYGPYHFPEKLIPLTILNALSGKPLPVYGDGLQVRDWLFVEDHARALYKVIKQG  242
+
+Query  227  RNGERYLI---SER--MMPLQEVVRIAADEAGVPPPRWSISVPVLYALGALGSLRARLTG  281
+            R GE Y I   +ER  +  +Q + ++  +   V P         +    AL +  A   G
+Sbjct  243  RVGESYNIGASNERTNIEVVQAICQLLDELVPVKPNG-------IKTYQALITHVADRPG  295
+
+Query  282  KDTELSLASVRMMRSEADVDHGKAVRELGWQPR  314
+             D   +            +D  K  ++LGWQP+
+Sbjct  296  HDLRYA------------IDASKITQQLGWQPQ  316
+
+
+>VFG049107(gb|WP_015958694) (rfbB) dTDP-glucose 4,6-dehydratase 
+[LPS (VF0561) - Immune modulation (VFC0258)] [Klebsiella pneumoniae 
+subsp. pneumoniae MGH 78578]
+Length=354
+
+ Score = 55.1 bits (131),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 87/351 (25%), Positives = 129/351 (37%), Gaps = 54/351 (15%)
+
+Query  6    LVIGANGFLGSHVTRQL---------VADCAPQKGEVRAMVRPAANTRSIDDLPLTRFHG  56
+            LV G  GF+GS V R +         V DC    G + ++   A + R       +    
+Sbjct  4    LVTGGAGFIGSAVVRHIIENTRDEVRVMDCLTYAGNLESLAPVAGSER------YSFSQT  57
+
+Query  57   DVFDTATVAEAMAGC--DDVYYCVVDTRA--WLRDPSPLFRTNVAGLRNVLDVA------  106
+            D+ D A VA   +    D V +   ++     +  P+   +TNV G   +L+ A      
+Sbjct  58   DITDAAAVAAQFSEFRPDIVMHLAAESHVDRSIDGPAAFIQTNVIGTFTMLEAARHYWSG  117
+
+Query  107  ---TDASLRRFVFTSSYATVGRRRGHVATEEDRVDTRKVTPYVRSRVAAEDLVLQYAHDA  163
+                     RF   S+    G   G      +       +PY  S+  ++ LV  +    
+Sbjct  118  LGDVQKQAFRFHHISTDEVYGDLHGTDDLFTEETPYAPSSPYSASKAGSDHLVRAWNRTY  177
+
+Query  164  GLPAVAMCVSTTYGGGDWGRTPHGAFIAGAVFGR-LPFTMRGIRL-EAVGVDDAARALIL  221
+            GLP V    S  YG   +        I  A+ G+ LP    G ++ + + V+D ARAL  
+Sbjct  178  GLPVVVTNCSNNYGPYHFPEKLIPLTILNALAGKPLPVYGNGEQIRDWLYVEDHARALYK  237
+
+Query  222  AAERGRNGERYLISERMMPLQEVVRIAADEAGVPPPRWSISVPVLYALGALGSLRARLTG  281
+             A  G++GE Y I                  G    R +I V V      L  + A+  G
+Sbjct  238  VATEGKSGETYNI------------------GGHNERKNIDV-VRTICAILDKVVAQKPG  278
+
+Query  282  KDTELS-LASVRMMRSEAD----VDHGKAVRELGWQPRPVEESIREAARFW  327
+              T  + L +    R   D    +D  K  R+LGW P+   ES  E    W
+Sbjct  279  NITHFADLITFVTDRPGHDLRYAIDAAKIQRDLGWVPQETFESGIEKTVHW  329
+
+
+>VFG048840(gb|WP_015958698) (rfbB) dTDP-glucose 4,6-dehydratase 
+[Capsule (VF0560) - Immune modulation (VFC0258)] [Klebsiella 
+pneumoniae subsp. pneumoniae MGH 78578]
+Length=354
+
+ Score = 54.7 bits (130),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 87/348 (25%), Positives = 136/348 (39%), Gaps = 48/348 (14%)
+
+Query  6    LVIGANGFLGSHVTRQLVADCAPQKGEVRAM--VRPAANTRSI----DDLPLTRFHGDVF  59
+            LV G  GF+GS V R ++ +    + EVR M  +  A N  S+    D    +    D+ 
+Sbjct  4    LVTGGAGFIGSAVVRHIIENT---QDEVRVMDCLTYAGNLESLATVADSERYSFTQTDIT  60
+
+Query  60   DTATVAEAMAGC--DDVYYCVVDTRA--WLRDPSPLFRTNVAGLRNVLDVA------TDA  109
+            D  +V+E  +    D V +   ++     +  P+   +TN+ G   +L+ A       DA
+Sbjct  61   DAKSVSEQFSDFRPDIVMHLAAESHVDRSIDGPAAFIQTNLIGTFTLLEAARHYYSTLDA  120
+
+Query  110  SLR---RFVFTSSYATVGRRRGHVATEEDRVDTRKVTPYVRSRVAAEDLVLQYAHDAGLP  166
+            + +   RF   S+    G   G      +       +PY  S+  ++ LV  +    GLP
+Sbjct  121  AQKQAFRFHHISTDEVYGDLHGTDDLFTEETPYAPSSPYSASKAGSDHLVRAWNRTYGLP  180
+
+Query  167  AVAMCVSTTYGGGDWGRTPHGAFIAGAVFGR-LPFTMRGIRL-EAVGVDDAARALILAAE  224
+             V    S  YG   +        I  A+ G+ LP    G ++ + + V+D ARAL   A 
+Sbjct  181  VVVTNCSNNYGPYHFPEKLIPLTILNALAGKPLPVYGNGEQIRDWLYVEDHARALYKVAT  240
+
+Query  225  RGRNGERYLISERMMPLQEVVRIAADEAGVPPPRWSISVPVLYALGALGSLRARLTGKDT  284
+             G +GE Y I                  G    R +I V V      L  +  +  G  +
+Sbjct  241  EGESGETYNI------------------GGHNERKNIDV-VRTICAILDKVVEQKPGNIS  281
+
+Query  285  ELS-LASVRMMRSEAD----VDHGKAVRELGWQPRPVEESIREAARFW  327
+            + + L +    R   D    +D  K  R+LGW P+   ES  E    W
+Sbjct  282  QFADLITFVKDRPGHDLRYAIDAAKIQRDLGWVPQETFESGIEKTVHW  329
+
+
+>VFG048837(gb|YP_005227858) (KPHS_35580) dTDP-D-glucose 4,6-dehydratase 
+[Capsule (VF0560) - Immune modulation (VFC0258)] [Klebsiella 
+pneumoniae subsp. pneumoniae HS11286]
+Length=354
+
+ Score = 54.7 bits (130),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 87/351 (25%), Positives = 129/351 (37%), Gaps = 54/351 (15%)
+
+Query  6    LVIGANGFLGSHVTRQL---------VADCAPQKGEVRAMVRPAANTRSIDDLPLTRFHG  56
+            LV G  GF+GS V R +         V DC    G + ++   A + R       +    
+Sbjct  4    LVTGGAGFIGSAVVRHIIENTRDEVRVMDCLTYAGNLESLAPVAGSER------YSFSQT  57
+
+Query  57   DVFDTATVAEAMAGC--DDVYYCVVDTRA--WLRDPSPLFRTNVAGLRNVLDVA------  106
+            D+ D A VA   +    D V +   ++     +  P+   +TNV G   +L+ A      
+Sbjct  58   DITDAAAVAAQFSEFRPDIVMHLAAESHVDRSIDGPAAFIQTNVIGTFTLLEAARHYWSG  117
+
+Query  107  ---TDASLRRFVFTSSYATVGRRRGHVATEEDRVDTRKVTPYVRSRVAAEDLVLQYAHDA  163
+                     RF   S+    G   G      +       +PY  S+  ++ LV  +    
+Sbjct  118  LGEEQKQAFRFHHISTDEVYGDLHGTDDLFTEETPYAPSSPYSASKAGSDHLVRAWNRTY  177
+
+Query  164  GLPAVAMCVSTTYGGGDWGRTPHGAFIAGAVFGR-LPFTMRGIRL-EAVGVDDAARALIL  221
+            GLP V    S  YG   +        I  A+ G+ LP    G ++ + + V+D ARAL  
+Sbjct  178  GLPVVVTNCSNNYGPYHFPEKLIPLTILNALAGKPLPVYGNGEQIRDWLYVEDHARALYK  237
+
+Query  222  AAERGRNGERYLISERMMPLQEVVRIAADEAGVPPPRWSISVPVLYALGALGSLRARLTG  281
+             A  G++GE Y I                  G    R +I V V      L  + A+  G
+Sbjct  238  VATEGKSGETYNI------------------GGHNERKNIDV-VRTICAILDKVVAQKPG  278
+
+Query  282  KDTELS-LASVRMMRSEAD----VDHGKAVRELGWQPRPVEESIREAARFW  327
+              T  + L +    R   D    +D  K  R+LGW P+   ES  E    W
+Sbjct  279  NITHFADLITFVTDRPGHDLRYAIDAAKIQRDLGWVPQETFESGIEKTVHW  329
+
+
+>VFG013373(gb|WP_011608862) (rffG) dTDP-glucose 46-dehydratase 
+[LOS (VF0044) - Immune modulation (VFC0258)] [Haemophilus somnus 
+129PT]
+Length=339
+
+ Score = 53.9 bits (128),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 70/283 (25%), Positives = 116/283 (41%), Gaps = 45/283 (16%)
+
+Query  6    LVIGANGFLGSHVTRQLVADCAPQKGEVRAMVRPAANTRSIDDLPLT-RF---HGDVFDT  61
+            L+ G  GF+GS + R L+ +       V  +   AAN  S+  + L  R+     D+ D 
+Sbjct  4    LITGGAGFIGSALIRYLLTETEHTIINVDKLTY-AANLDSLQSVVLNPRYFFEQADIVDQ  62
+
+Query  62   ATVAEAMAGC--DDVYYCVVDTRA--WLRDPSPLFRTNVAGLRNVLDVATDASLR-----  112
+              + +       D V +   ++     +   +   +TN+ G   +L+V     L+     
+Sbjct  63   PVITQIFEQYQPDAVIHLAAESHVDRSIAASTEFIQTNIVGTFALLEVTRHYWLKLPANK  122
+
+Query  113  --RFVFTSSYATVGRRRGHVATEE---DRVDTRKVT----------PYVRSRVAAEDLVL  157
+              RFVF            H++T+E   D +D+ + +          PY  S+ A++ LV 
+Sbjct  123  KERFVFQ-----------HISTDEVYGDLIDSEQASTESSPYQPSSPYSASKAASDHLVR  171
+
+Query  158  QYAHDAGLPAVAMCVSTTYGGGDWGRTPHGAFIAGAVFGR-LPFTMRGIRL-EAVGVDDA  215
+             +    GLP +    +  YG            I  AV G+ LP    G+++ + + V+D 
+Sbjct  172  AWYRTYGLPILITHCANNYGPFQHSEKLIPRMILNAVQGKPLPIYGDGLQIRDWLFVEDH  231
+
+Query  216  ARALILAAERGRNGERYLISERMMPLQ-EVVRIAAD--EAGVP  255
+             RAL    ++G+ GE Y IS        EVV+   D  E  VP
+Sbjct  232  VRALYKVLQKGKIGESYNISANCAKTNLEVVQTICDLLEQLVP  274
+
+
+>VFG037923(gb|WP_000699387) (rfbB) dTDP-glucose 4,6-dehydratase 
+[Capsule (VF0465) - Immune modulation (VFC0258)] [Acinetobacter 
+baumannii TYTH-1]
+Length=352
+
+ Score = 53.5 bits (127),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 61/248 (25%), Positives = 102/248 (41%), Gaps = 20/248 (8%)
+
+Query  6    LVIGANGFLGSHVTRQLVADCAPQKGEVRAMVRPAANTRS---IDDLPLTRF-HGDVFDT  61
+            LV G  GF+GS V R ++ +   +   +  +   A N  S   ID  P  +F   D+ D+
+Sbjct  4    LVTGGAGFIGSAVIRNIIKNTQDEVLNIDKLTY-AGNLESLSEIDTDPRYQFAQVDICDS  62
+
+Query  62   ATVAE--AMAGCDDVYYCVVDTRA--WLRDPSPLFRTNVAGLRNVLDVATDASLR-----  112
+              + E   +   D V +   ++     +  P+    TN+ G   +L+VA    L+     
+Sbjct  63   ERLTEFFKIFQPDAVMHLAAESHVDRSIDGPAEFITTNIVGTYTLLEVARKYWLQLNEEK  122
+
+Query  113  ----RFVFTSSYATVGRRRGHVATEEDRVDTRKVTPYVRSRVAAEDLVLQYAHDAGLPAV  168
+                +F   S+    G   G      +       +PY  S+ +++ LV  +    GLP V
+Sbjct  123  KASFKFHHISTDEVYGDLEGTTDLFTETTSYAPSSPYSASKASSDHLVRAWHRTYGLPTV  182
+
+Query  169  AMCVSTTYGGGDWGRTPHGAFIAGAVFGR-LPFTMRGIRL-EAVGVDDAARALILAAERG  226
+                S  YG   +        I  A+ G+ LP   +G ++ + + V+D A+AL      G
+Sbjct  183  VTNCSNNYGPYHFPEKLIPLVILNALDGKALPIYGKGDQIRDWLYVEDHAKALYKVVTEG  242
+
+Query  227  RNGERYLI  234
+            + GE Y I
+Sbjct  243  KVGETYNI  250
+
+
+>VFG048986(gb|WP_004144150) (KPR_RS09045) NAD-dependent epimerase 
+[Capsule (VF0560) - Immune modulation (VFC0258)] [Klebsiella 
+pneumoniae subsp. rhinoscleromatis SB3432]
+Length=334
+
+ Score = 52.8 bits (125),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 48/197 (24%), Positives = 79/197 (40%), Gaps = 32/197 (16%)
+
+Query  6    LVIGANGFLGSHVTRQLVA---------------DCAPQKGEVRAMVRPAANTRSID---  47
+            LV GA GF+G H+ ++L+                D + ++  +  +  PA + + +D   
+Sbjct  4    LVTGAAGFIGYHIAQRLLNEGHDVVGIDNMNDYYDVSLKQARLDRLASPAFHFQQLDLAD  63
+
+Query  48   -DLPLTRFHGDVFDTATVAEAMAGCDDVYYCVVDTRAWLRDPSPLFRTNVAGLRNVLDVA  106
+             +     F  + FD      A AG           R  L +P      N+ G  N+L+  
+Sbjct  64   REGMAKLFATEQFDRVIHLAAQAGV----------RYSLENPYAYADANMMGYLNILEGC  113
+
+Query  107  TDASLRRFVFTSSYATVGRRRGHVATEEDRVDTRKVTPYVRSRVAAEDLVLQYAHDAGLP  166
+                ++  V+ SS +  G  R    + +D VD   V+ Y  ++ A E     Y+H  G+P
+Sbjct  114  RHTKVKHLVYASSSSVYGLNRKMPFSTQDSVD-HPVSLYAATKKANELTAHTYSHLYGIP  172
+
+Query  167  AVAMCVSTTYGGGDWGR  183
+               +   T Y  G WGR
+Sbjct  173  TTGLRFFTVY--GPWGR  187
+
+
+>VFG013164(gb|WP_012340298) (rffG) dTDP-glucose 46-dehydratase 
+[LOS (VF0044) - Immune modulation (VFC0258)] [Haemophilus somnus 
+2336]
+Length=339
+
+ Score = 52.8 bits (125),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 70/283 (25%), Positives = 115/283 (41%), Gaps = 45/283 (16%)
+
+Query  6    LVIGANGFLGSHVTRQLVADCAPQKGEVRAMVRPAANTRSIDDLPLT-RF---HGDVFDT  61
+            L+ G  GF+GS + R L+ +       V  +   AAN  S+    L  R+     D+ D 
+Sbjct  4    LITGGAGFIGSALIRYLLTETEHTIINVDKLTY-AANLDSLQSAVLNPRYFFEQADIVDQ  62
+
+Query  62   ATVAEAMAGC--DDVYYCVVDTRA--WLRDPSPLFRTNVAGLRNVLDVATDASLR-----  112
+              + +       D V +   ++     +   +   +TN+ G   +L+V     L+     
+Sbjct  63   PVITQIFEQYQPDAVIHLAAESHVDRSIAASTEFIQTNIVGTFALLEVTRHYWLKLPANK  122
+
+Query  113  --RFVFTSSYATVGRRRGHVATEE---DRVDTRKVT----------PYVRSRVAAEDLVL  157
+              RFVF            H++T+E   D +D+ + +          PY  S+ A++ LV 
+Sbjct  123  KERFVFQ-----------HISTDEVYGDLIDSEQASTESSPYQPSSPYSASKAASDHLVR  171
+
+Query  158  QYAHDAGLPAVAMCVSTTYGGGDWGRTPHGAFIAGAVFGR-LPFTMRGIRL-EAVGVDDA  215
+             +    GLP +    +  YG            I  AV G+ LP    G+++ + + V+D 
+Sbjct  172  AWYRTYGLPILITHCANNYGPFQHSEKLIPRMILNAVKGKPLPIYGDGLQIRDWLFVEDH  231
+
+Query  216  ARALILAAERGRNGERYLISERMMPLQ-EVVRIAAD--EAGVP  255
+             RAL    ++G+ GE Y IS        EVV+   D  E  VP
+Sbjct  232  VRALYKVLQKGKIGESYNISANCAKTNLEVVQTICDLLEQLVP  274
+
+
+>VFG016542(gb|NP_975952) (galE) UDP-glucose 4-epimerase [Capsule 
+(VF0881) - Immune modulation (VFC0258)] [Mycoplasma mycoides 
+subsp. mycoides SC str. PG1]
+Length=210
+
+ Score = 50.1 bits (118),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 38/159 (24%), Positives = 68/159 (43%), Gaps = 7/159 (4%)
+
+Query  6    LVIGANGFLGSHVTRQLVADCAPQKGEVRAMVRPAANTRSIDDLPLTRFHGDVFDTATVA  65
+            L+IG  G++GSHV  +++      K  +   +    N     +   T   GD+ D   + 
+Sbjct  4    LLIGGAGYIGSHVA-EIINKTDNNKVIIYDNLSSGLN--DFIEQKSTFIQGDILDFNKLN  60
+
+Query  66   EAMAG--CDDVYYC--VVDTRAWLRDPSPLFRTNVAGLRNVLDVATDASLRRFVFTSSYA  121
+            E  +    D V Y   ++     ++ P   ++TN+ GL N L +    ++  FVF SS A
+Sbjct  61   EVFSSNKIDVVIYLAGLIKVGESVQKPLDYYQTNILGLINTLKIMQAHNVNYFVFFSSAA  120
+
+Query  122  TVGRRRGHVATEEDRVDTRKVTPYVRSRVAAEDLVLQYA  160
+              G    H     +       +PY R++   E+++  +A
+Sbjct  121  VYGNNSRHNGYFYEDDPKEPCSPYGRTKYFGEEIIKDFA  159
+
+
+>VFG049098(gb|WP_014838941) (A225_RS19005) NAD-dependent epimerase 
+[LPS (VF0561) - Immune modulation (VFC0258)] [Klebsiella 
+oxytoca E718]
+Length=334
+
+ Score = 50.8 bits (120),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 51/187 (27%), Positives = 78/187 (42%), Gaps = 12/187 (6%)
+
+Query  6    LVIGANGFLGSHVTRQLVADCAPQKGEVRAMVRPAANTRS--IDDLP--LTRFHG-DVFD  60
+            LV GA GF+G H  ++L+       G          N +   +D LP  L  FH  D+ D
+Sbjct  4    LVTGAAGFIGFHTCKRLLEAGHEVVGLDNMNDYYDVNLKQARLDLLPSPLFSFHKIDLAD  63
+
+Query  61   TATVAEAMAG--CDDVYYCVVD--TRAWLRDPSPLFRTNVAGLRNVLDVATDASLRRFVF  116
+               +A   A    + V +       R  L +P      N+ G  N+L+     ++   ++
+Sbjct  64   REGIARLFANEKFNRVIHLAAQAGVRYSLENPFAYADANLIGYLNILEGCRHNNVEHLLY  123
+
+Query  117  TSSYATVGRRRGHVATEEDRVDTRKVTPYVRSRVAAEDLVLQYAHDAGLPAVAMCVSTTY  176
+             SS +  G  R    + ED VD   V+ Y  ++ A E +   Y+H  G+P   +   T Y
+Sbjct  124  ASSSSVYGLNRKMPFSTEDSVD-HPVSLYAATKKANELMAHTYSHLYGIPTTGLRFFTVY  182
+
+Query  177  GGGDWGR  183
+              G WGR
+Sbjct  183  --GPWGR  187
+
+
+>VFG049099(gb|WP_014230054) (KOX_RS24955) NAD-dependent epimerase 
+[LPS (VF0561) - Immune modulation (VFC0258)] [Klebsiella 
+oxytoca KCTC 1686]
+Length=334
+
+ Score = 50.8 bits (120),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 51/187 (27%), Positives = 78/187 (42%), Gaps = 12/187 (6%)
+
+Query  6    LVIGANGFLGSHVTRQLVADCAPQKGEVRAMVRPAANTRS--IDDL--PLTRFHG-DVFD  60
+            LV GA GF+G H  ++L+       G          N +   +D L  PL  FH  D+ D
+Sbjct  4    LVTGAAGFIGFHTCKRLLEAGHEVVGLDNMNDYYDVNLKQARLDLLQSPLFSFHKIDLAD  63
+
+Query  61   TATVAEAMAG--CDDVYYCVVD--TRAWLRDPSPLFRTNVAGLRNVLDVATDASLRRFVF  116
+               +A   A    + V +       R  L +P      N+ G  N+L+     ++   ++
+Sbjct  64   REGIARLFANEKFNRVIHLAAQAGVRYSLENPFAYADANLIGYLNILEGCRHNNVEHLLY  123
+
+Query  117  TSSYATVGRRRGHVATEEDRVDTRKVTPYVRSRVAAEDLVLQYAHDAGLPAVAMCVSTTY  176
+             SS +  G  R    + ED VD   V+ Y  ++ A E +   Y+H  G+P   +   T Y
+Sbjct  124  ASSSSVYGLNRKMPFSTEDSVD-HPVSLYAATKKANELMAHTYSHLYGIPTTGLRFFTVY  182
+
+Query  177  GGGDWGR  183
+              G WGR
+Sbjct  183  --GPWGR  187
+
+
+>VFG016528(gb|NP_975938) (galE) UDP-glucose 4-epimerase [Capsule 
+(VF0881) - Immune modulation (VFC0258)] [Mycoplasma mycoides 
+subsp. mycoides SC str. PG1]
+Length=334
+
+ Score = 50.8 bits (120),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 38/159 (24%), Positives = 69/159 (43%), Gaps = 7/159 (4%)
+
+Query  6    LVIGANGFLGSHVTRQLVADCAPQKGEVRAMVRPAANTRSIDDLPLTRFHGDVFDTATVA  65
+            L+IG  G++GSHV  +++      K  +   +    N     +   T   GD+ D   + 
+Sbjct  4    LLIGGAGYIGSHVA-EIINKTDNNKVIIYDNLSSGLN--DFIEQKSTFIQGDILDFNKLN  60
+
+Query  66   EAMAG--CDDVYYC--VVDTRAWLRDPSPLFRTNVAGLRNVLDVATDASLRRFVFTSSYA  121
+            E  +    D V Y   ++     ++ P   ++TN+ GL N L +    ++  FVF+SS A
+Sbjct  61   EVFSSNKIDVVIYLAGLIKVGESVQKPLDYYQTNILGLINTLKIMQAHNVNYFVFSSSAA  120
+
+Query  122  TVGRRRGHVATEEDRVDTRKVTPYVRSRVAAEDLVLQYA  160
+              G    H     +       +PY R++   E+++  +A
+Sbjct  121  VYGNNSRHNGYFYEDDPKEPCSPYGRTKYFGEEIIKDFA  159
+
+
+>VFG048981(gb|WP_004144152) (KPR_RS09030) NAD-dependent epimerase 
+[Capsule (VF0560) - Immune modulation (VFC0258)] [Klebsiella 
+pneumoniae subsp. rhinoscleromatis SB3432]
+Length=335
+
+ Score = 50.8 bits (120),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 46/197 (23%), Positives = 78/197 (40%), Gaps = 32/197 (16%)
+
+Query  6    LVIGANGFLGSHVTRQLVAD---------------CAPQKGEVRAMVRPAANTRSID---  47
+            LV GA GF+G HV+++L+ D                  ++  +  +  P+     +D   
+Sbjct  4    LVTGAAGFIGFHVSKRLLNDGHQVVGIDNINDYYDVKLKESRLEQLESPSFTFYKLDLAD  63
+
+Query  48   -DLPLTRFHGDVFDTATVAEAMAGCDDVYYCVVDTRAWLRDPSPLFRTNVAGLRNVLDVA  106
+             D     F  + F+      A AG           R  L +P     +N+ G  N+L+  
+Sbjct  64   RDGMSKLFETEQFERVIHLAAQAGV----------RYSLENPYAYADSNLTGYLNILEGC  113
+
+Query  107  TDASLRRFVFTSSYATVGRRRGHVATEEDRVDTRKVTPYVRSRVAAEDLVLQYAHDAGLP  166
+                ++  ++ SS +  G  R    + +D VD   V+ Y  ++ A E +   Y+H   +P
+Sbjct  114  RHNKVQHLLYASSSSVYGLNRKMPFSTDDSVD-HPVSLYAATKKANELMAHTYSHLYSIP  172
+
+Query  167  AVAMCVSTTYGGGDWGR  183
+               +   T Y  G WGR
+Sbjct  173  TTGLRFFTVY--GPWGR  187
+
+
+>VFG016535(gb|NP_975945) (galE) UDP-glucose 4-epimerase [Capsule 
+(VF0881) - Immune modulation (VFC0258)] [Mycoplasma mycoides 
+subsp. mycoides SC str. PG1]
+Length=334
+
+ Score = 50.8 bits (120),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 38/159 (24%), Positives = 69/159 (43%), Gaps = 7/159 (4%)
+
+Query  6    LVIGANGFLGSHVTRQLVADCAPQKGEVRAMVRPAANTRSIDDLPLTRFHGDVFDTATVA  65
+            L+IG  G++GSHV  +++      K  +   +    N     +   T   GD+ D   + 
+Sbjct  4    LLIGGAGYIGSHVA-EIINKTDNNKVIIYDNLSSGLN--DFIEQKSTFIQGDILDFNKLN  60
+
+Query  66   EAMAG--CDDVYYC--VVDTRAWLRDPSPLFRTNVAGLRNVLDVATDASLRRFVFTSSYA  121
+            E  +    D V Y   ++     ++ P   ++TN+ GL N L +    ++  FVF+SS A
+Sbjct  61   EVFSSNKIDVVIYLAGLIKVGESVQKPLDYYQTNILGLINTLKIMQAHNVNYFVFSSSAA  120
+
+Query  122  TVGRRRGHVATEEDRVDTRKVTPYVRSRVAAEDLVLQYA  160
+              G    H     +       +PY R++   E+++  +A
+Sbjct  121  VYGNNSRHNGYFYEDDPKEPCSPYGRTKYFGEEIIKDFA  159
+
+
+>VFG014119(gb|WP_012075025) (PSPA7_RS30415) NAD-dependent 4,6-dehydratase 
+LegB [LPS (VF0085) - Immune modulation (VFC0258)] 
+[Pseudomonas aeruginosa PA7]
+Length=326
+
+ Score = 49.3 bits (116),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 46/180 (26%), Positives = 82/180 (46%), Gaps = 14/180 (8%)
+
+Query  6    LVIGANGFLGSHVTRQLVADCAPQKGEVRAMVRPAANTR--SIDDLPLTR----FHGDVF  59
+            LV GA+GF+GSH+T  LV     +  EV+A+ +  +      ++D+   +     +GDV 
+Sbjct  5    LVTGADGFIGSHLTELLVG----EGYEVKALSQYNSFNYWGWLEDVACLKEIEVLNGDVR  60
+
+Query  60   DTATVAEAMAGCDDVYY--CVVDTRAWLRDPSPLFRTNVAGLRNVLDVATDASLRRFVFT  117
+            D     +     D V++   ++        P     TNV G+ N+   A +  ++R V T
+Sbjct  61   DPHYCKKITKDVDVVFHLAALIAIPYSYVAPDSYLETNVKGVINICQAALENGVQRVVHT  120
+
+Query  118  SSYATVGRRRGHVATEEDRVDTRKVTPYVRSRVAAEDLVLQYAHDAGLPAVAMCVSTTYG  177
+            S+    G  + +V  +E     +  +PY  S++AA+ + + + +   LP        TYG
+Sbjct  121  STSEVYGTAQ-YVPIDEKH-PLQPQSPYSASKIAADAMAMSFFNAFDLPVTIARPFNTYG  178
+
+
+>VFG007645(gb|WP_011078841) (wbfT) NAD-dependent epimerase/dehydratase 
+family protein [Capsular polysaccharide (VF0624) - 
+Immune modulation (VFC0258)] [Vibrio vulnificus CMCP6]
+Length=303
+
+ Score = 47.4 bits (111),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 81/323 (25%), Positives = 129/323 (40%), Gaps = 53/323 (16%)
+
+Query  6    LVIGANGFLGSHVTRQLVADCAPQKGEVRAMVRPAANTRSIDDLPLTRFHGDVFDTATVA  65
+            LV GA+GF+GS +        A  +G+++A+ R A +  +  D  L     D  D  TV 
+Sbjct  3    LVTGASGFVGSTL-------FALGRGDLKAVFR-ATDEVTFSDGYLV----DSIDGKTVW  50
+
+Query  66   E-AMAGCDDVYYCVVDTRAWLRDPSPLFRTNVAGLRNVLDVATDASLRRFVFTSSYATVG  124
+            + A    + + +      +         R NVAG   +   A +A +RRFVF SS   +G
+Sbjct  51   DGAFDNVNTIIHLAGLAHSHSFSSKDYNRVNVAGTLRLATKAAEAGVRRFVFVSS---IG  107
+
+Query  125  RRRGHVATEEDRVDTRKV--TPYVRSRVAAEDLVLQYAHDAGLPAVAMCVSTTYG---GG  179
+                    E   +D+       Y +S+  AE  + + A + GL  V +  +  YG    G
+Sbjct  108  VNGTSTQAEPFALDSEPSPHNDYAQSKYDAEIGLKKIAKETGLEVVIVRPTLVYGPDAPG  167
+
+Query  180  DWG-------RTPHGAFIAGAVFGRLPFTMRGIRLEAVGVDDAARALILAAER-GRNGER  231
+            ++G       R P            LPF +   R + + V + A  L+  A      G  
+Sbjct  168  NFGMLTKLIKRLP-----------VLPFGLATNRRDFISVQNLADLLVTCATHPNAAGHT  216
+
+Query  232  YLISE-RMMPLQEVVRIAADEAGVPPPRWSISVPVLYALGALGSLRARLTGKDTELSLAS  290
+            +L S+   + ++E     A   G+    + + VPV    G +G    +LTGK      A 
+Sbjct  217  FLASDGETVSIKEFTNAIAK--GLGKKVFQLPVPV----GLMG-FAGKLTGKS-----AM  264
+
+Query  291  VRMMRSEADVDHGKAVRELGWQP  313
+            +  +    +VD       LGW P
+Sbjct  265  IEQLYGNLEVDSCNIKEVLGWTP  287
+
+
+>VFG007658(gb|WP_011149273) (rmlB) dTDP-glucose 4,6-dehydratase 
+[Capsular polysaccharide (VF0624) - Immune modulation (VFC0258)] 
+[Vibrio vulnificus YJ016]
+Length=353
+
+ Score = 47.0 bits (110),  Expect = 7e-06, Method: Compositional matrix adjust.
+ Identities = 86/351 (25%), Positives = 136/351 (39%), Gaps = 49/351 (14%)
+
+Query  6    LVIGANGFLGSHVTRQLVADCAPQKGEVRAMVRPAANTRSIDDLPLTRFHGDVFDTATVA  65
+            LV G  GF+GS V R ++ D       +  +   A N  S+ ++  +  +  VF+   + 
+Sbjct  4    LVTGGAGFIGSAVIRHIINDTRDSVINLDKLTY-AGNLESLHEVSSSERY--VFEQVDIC  60
+
+Query  66   E--------AMAGCDDVYYCVVDTRA--WLRDPSPLFRTNVAGLRNVLDVA---------  106
+            +        A+   D V +   ++     +  P+   +TN+ G  N+L+ +         
+Sbjct  61   DRTELDRVFAVYKPDAVMHLAAESHVDRSIDGPATFIQTNIVGTYNLLEASRAYWSNLEE  120
+
+Query  107  TDASLRRFVFTSSYATVGRRRGHVATEEDRVDTRKVTPYVRSRVAAEDLVLQYAHDAGLP  166
+             + +  RF   S+    G   G      +       +PY  S+ +++ LV  +    GLP
+Sbjct  121  NEKARFRFHHISTDEVYGDLEGTEDLFTESTSYSPSSPYSASKASSDHLVRAWQRTYGLP  180
+
+Query  167  AVAMCVSTTYGGGDWGRTPHGAFIAGAVFGR-LPFTMRGIRL-EAVGVDDAARALILAAE  224
+             +    S  YG   +        I  A+ G+ LP    G+++ + + V+D ARAL  A  
+Sbjct  181  TLVTNCSNNYGPYHFPEKLIPLMILNALEGKPLPVYGDGMQIRDWLFVEDHARALYKAVT  240
+
+Query  225  RGRNGERYLISERMMPLQEVVRIAADEAGVPPPRWSISVPVLYALGALGSLR-ARLTGKD  283
+             G  GE Y I        E   I               V  L AL  L   R  +  G D
+Sbjct  241  EGGVGETYNIGGH----NEKANIEV-------------VKTLCAL--LEEYRPNKPAGID  281
+
+Query  284  TELSLASVRMMRSEADV----DHGKAVRELGWQPRPVEES-IREAARFWAA  329
+               SL +    R   DV    D  K  RELGW+P    ES IR+   ++ A
+Sbjct  282  AYESLITYVKDRPGHDVRYAIDASKIERELGWKPEETFESGIRKTVEWYLA  332
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2502856039
+
+
+Query= g4718.t1
+
+Length=329
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2404541907
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

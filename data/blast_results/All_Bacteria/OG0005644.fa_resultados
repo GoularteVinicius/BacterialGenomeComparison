@@ -1,0 +1,67 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g4881.t1
+
+Length=101
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044400(gb|AAF33141) (pdtorfQ) PdtorfQ [Pyridine-2,6-dithiocarb...  42.4    1e-06
+
+
+>VFG044400(gb|AAF33141) (pdtorfQ) PdtorfQ [Pyridine-2,6-dithiocarboxylic 
+acid (PDTC) (VF0938) - Nutritional/Metabolic factor 
+(VFC0272)] [Pseudomonas stutzeri KC]
+Length=53
+
+ Score = 42.4 bits (98),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 20/42 (48%), Positives = 26/42 (62%), Gaps = 0/42 (0%)
+
+Query  1   MDLHELTARLHAIRDRNDWRQFHSPKNLAMAASVEMAELVEI  42
+           +D+  L   L    +  +W QFHSPKNLAMA + E  EL+EI
+Sbjct  12  VDVAPLAEALEQFAEARNWAQFHSPKNLAMALAGETGELLEI  53
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.404    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 327226691
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

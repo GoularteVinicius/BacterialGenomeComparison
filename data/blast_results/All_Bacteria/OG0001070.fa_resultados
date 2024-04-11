@@ -1,0 +1,362 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g562.t1
+
+Length=340
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044372(gb|AAL65279) (qbsL) QbsL [Thioquinolobactin (VF0937) - ...  72.8    6e-14
+VFG000172(gb|NP_252898) (phzM) phenazine-specific methyltransfera...  67.0    2e-12
+VFG044399(gb|AAF33140) (pdtorfP) putative methyltransferase [Pyri...  65.9    5e-12
+VFG015546(gb|WP_012074250) (phzM) phenazine-specific methyltransf...  65.9    6e-12
+VFG044374(gb|AAL65281) (qbsJ) QbsJ [Thioquinolobactin (VF0937) - ...  48.5    3e-06
+
+
+>VFG044372(gb|AAL65279) (qbsL) QbsL [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=905
+
+ Score = 72.8 bits (177),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 81/341 (24%), Positives = 147/341 (43%), Gaps = 26/341 (8%)
+
+Query  2    VELSPDRIMAIGGGYGPSKVLLTAVGLGLFTELGDEAMTAEAIADRLGLLKRPAIDFLDA  61
+            V LS   I+ +  G   + VL  A+ L +F  L +   +A  +A +LG  +R  +  L +
+Sbjct  568  VTLSAAPILDLLTGVERAGVLRAAIELKVFDGLAEHPASAATLARQLGTSER-GMRILLS  626
+
+Query  62   LVSLDLLARDGDGPGSHYRNTPETAHFLDEARPTYAGGLLKIWN-ERNYRFWADLTEALK  120
+             ++   L   GD  G +  N     + L +++  Y GGL  +++ +  +  + D   A+ 
+Sbjct  627  ALAGLGLLHIGDN-GCYGLNDLSRRYLLSQSQ-QYVGGLAHVYSADLMWETFRDFKSAVI  684
+
+Query  121  TGKAQ--SEVKQTGRPFFEALYADPRRLEAFMAAMDAASR----RNIELLAKRFPFERYR  174
+             GK+     ++    P+++           F A +++ SR    R ++LL      +   
+Sbjct  685  AGKSTLAQNIEADDHPYWQE----------FAAGIESTSRTTARRLVKLLDDWTARQTPL  734
+
+Query  175  RLCDVGCADGLLSRIVAAAHPHLQCVSFDLPAVTEIARRKLTAEGLGERVQACAGDFLAD  234
+            R+ DV C +G+     A  +P  Q    D P+V  +        G+ ER +   GD  + 
+Sbjct  735  RILDVACGNGIYGFTFAQQYPQAQVTGLDWPSVASVTEGFARQFGVAERARVIGGDIFSV  794
+
+Query  235  PLPAA-DVITMGQILHDWNLDRKQQLVAKAYEALSKEGAFIV---IETLIDDARRENTTG  290
+             +P   +++ M QILH ++ +R +QL+A+A   L+  G  ++   + T  D A       
+Sbjct  795  QIPGQYELVIMSQILHHFDPERCRQLIARARGVLAPGGKLLISDFMTTGFDPALDPLPRL  854
+
+Query  291  LMMSLNMLIEFGDAFDYSAADFRGWCGEAGFRSFEVIPLAG  331
+                +  L + GD   Y+ +  +    E GF      PL G
+Sbjct  855  FAAQMLGLTDCGDT--YAVSFIQSLLLEQGFTEVTAQPLKG  893
+
+
+>VFG000172(gb|NP_252898) (phzM) phenazine-specific methyltransferase 
+PhzM (adenosylmethionine dependent methyltransferase) 
+[Pyocyanin (VF0100) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=334
+
+ Score = 67.0 bits (162),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 57/202 (28%), Positives = 90/202 (45%), Gaps = 5/202 (2%)
+
+Query  79   YRNTPETAHFLDEARPTYAGGLLKIWNERNYRFWADLTEALKTGKAQSEVKQTGRPFFEA  138
+            Y NTP T+H L +   ++   +L  + E  +  W    EAL +G    E+   G  F+  
+Sbjct  79   YANTP-TSHLLRDVEGSFRDMVL-FYGEEFHAAWTPACEALLSGTPGFELA-FGEDFYSY  135
+
+Query  139  LYADPRRLEAFMAAMDAASRRNIELLAKRFPFERYRRLCDVGCADGLLSRIVAAAHPHLQ  198
+            L   P     F+ AM A++    E+   R    R R   DVG   G L++ +  A P  +
+Sbjct  136  LKRCPDAGRRFLLAMKASNLAFHEI--PRLLDFRGRSFVDVGGGSGELTKAILQAEPSAR  193
+
+Query  199  CVSFDLPAVTEIARRKLTAEGLGERVQACAGDFLADPLPAADVITMGQILHDWNLDRKQQ  258
+             V  D      +AR  L++   GERV    GD L +     D+  + +I+ D +     +
+Sbjct  194  GVMLDREGSLGVARDNLSSLLAGERVSLVGGDMLQEVPSNGDIYLLSRIIGDLDEAASLR  253
+
+Query  259  LVAKAYEALSKEGAFIVIETLI  280
+            L+    EA++ +G  +VIE  I
+Sbjct  254  LLGNCREAMAGDGRVVVIERTI  275
+
+
+>VFG044399(gb|AAF33140) (pdtorfP) putative methyltransferase [Pyridine-2,6-dithiocarboxylic 
+acid (PDTC) (VF0938) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas stutzeri KC]
+Length=351
+
+ Score = 65.9 bits (159),  Expect = 5e-12, Method: Compositional matrix adjust.
+ Identities = 72/283 (25%), Positives = 115/283 (41%), Gaps = 13/283 (5%)
+
+Query  22   LLTAVGLGLFTELGDEAMTAEAIADRLGLLKRPAIDFLDALVSLDLLAR----DGDGPGS  77
+            L TA+  GLF  L ++A  A  IA++L L        L+ L S+DLL R    D  G   
+Sbjct  35   LATALDSGLFDVLTEQA-GAGKIAEQLELDPNRLEPVLELLWSMDLLERFQLHDSTGSTP  93
+
+Query  78   HYRNTPETAHFLDEARPTYAGGLLKIWNERNYRFWADLTEALKTGKAQSEVKQTGRPFFE  137
+            HYR++ +   F  +    Y G            F   L E L+    +     T     +
+Sbjct  94   HYRSSDKAKRFFAKQSSDYCGDAWAFRLRSLRDFGTRLPEYLQVRAIEEAPVPT-----D  148
+
+Query  138  ALYADPRRLEAFMAAMDAASRRNIELLAKRFPFERYRRLCDVGCADGLLSRIVAAAHPHL  197
+              +A   R +             + ++A+    +  RR  D+GC  G+++  +A A P  
+Sbjct  149  QCWATLARTKIVQEQSAVTVEAALAIVARLPELKGIRRFLDLGCGPGMVAIALARALPGC  208
+
+Query  198  QCVSFDLPAVTEIARRKLTAEGLGERVQACAGDFLADPLPAA-DVITMGQILHDWNLDRK  256
+               +F+LP    +AR+ +    LG R+    GD   D + +  D+I    +LH   +   
+Sbjct  209  HGTAFELPPTAAVARQNVEMAQLGTRLSVLGGDLTRDEIGSGYDLIWCASVLH--FVPDL  266
+
+Query  257  QQLVAKAYEALSKEGAFIVIETLIDDARRENTTGLMMSLNMLI  299
+             Q + K   AL+  G F+ I   I     +  T L   L +L+
+Sbjct  267  AQTLRKIRAALAPGGVFVSIHAEIPLTAAQTATVLAYYLPLLM  309
+
+
+>VFG015546(gb|WP_012074250) (phzM) phenazine-specific methyltransferase 
+PhzM (adenosylmethionine dependent methyltransferase) 
+[Pyocyanin (VF0100) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PA7]
+Length=334
+
+ Score = 65.9 bits (159),  Expect = 6e-12, Method: Compositional matrix adjust.
+ Identities = 82/331 (25%), Positives = 133/331 (40%), Gaps = 27/331 (8%)
+
+Query  7    DRIMAIGGGYGPSKVLLTAVGLGLFTELGDEAMTAEAIADRLGLLKRPAIDFLDALVSLD  66
+            D I  + G +  S+ +  A  LGL   +     T EA+A  +G         +  LV  +
+Sbjct  11   DLIQVVTGEW-KSRCVYAATRLGLADLIESGVDTDEALAAAVGSDAERIHRLMRLLVGFE  69
+
+Query  67   LLARDGDGPGSHYRNTPETAHFLDEARPTYAGGLLKIWNERNYRFWADLTEALKTGKAQS  126
+            +   D  G    Y NTP T+  L EA  ++   +L  + E  +  W    EAL  G    
+Sbjct  70   IFQGDARGG---YTNTP-TSQLLREAPGSFRDMVL-FYGEEFHAAWTHAYEALLGGTPGF  124
+
+Query  127  EVKQTGRPFFEALYADPRRLEAFMAAMDAASRRNIELLAKRFPFER------YRRLC--D  178
+            E+      F E+ YA  RR        DA  R  + + A    F +      +R  C  D
+Sbjct  125  ELA-----FGESFYAYLRRCP------DAGRRFLLAMKASNLAFHQIPDLLDFRECCFVD  173
+
+Query  179  VGCADGLLSRIVAAAHPHLQCVSFDLPAVTEIARRKLTAEGLGERVQACAGDFLADPLPA  238
+            VG   G L++++  A P  + V  D      +AR  L     GERV    GD L +    
+Sbjct  174  VGGGSGELTKVILEAEPSARGVMLDREGSLAVARDNLAGLLAGERVSLVGGDMLREVPAN  233
+
+Query  239  ADVITMGQILHDWNLDRKQQLVAKAYEALSKEGAFIVIETLIDDARRENTTGLMMSLNML  298
+             D   + +I+ D +      L+    +A++++G  +VIE  I  A   +   ++  +++ 
+Sbjct  234  GDFYLLSRIIGDLDEAASLVLLGNCRQAMAEDGRVVVIERTI-SASEPSPMSVLWDVHLF  292
+
+Query  299  IEFGDAFDYSAADFRGWCGEAGFRSFEVIPL  329
+            +   D    +  +  G  G  GF    ++ L
+Sbjct  293  MAC-DGRHRTTEEVVGLLGRGGFAVERIVDL  322
+
+
+>VFG044374(gb|AAL65281) (qbsJ) QbsJ [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=345
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 80/320 (25%), Positives = 127/320 (40%), Gaps = 34/320 (11%)
+
+Query  19   SKVLLTAVGLGLFTELGDEAMTAEAIADRLGLLKRPAIDFLDALVSLDLLARDGDGPGSH  78
+            ++ L  A+ L LF+ L  + +    +A RL L       +L+ L S+ LL R  DGP   
+Sbjct  25   AEALTLALELDLFSVLA-QPLDVPTVAARLQLAPGNTGHWLELLWSMALLQRI-DGPNGS  82
+
+Query  79   YRNTPETAHFLDEARPTYAGGLLKIWNERNYRFWADLTEALKTGKAQSEVKQTGRPFFEA  138
+                 ET+       P    G +  W+ R         +AL+  +A + ++Q  R F E 
+Sbjct  83   RYGLSETSRRYWLPGPQ---GCVDAWHYR--------VKALR--QAGAGLRQ--RVFGEP  127
+
+Query  139  LYADPRRLEA------FMAAMDAASRRNIEL-----LAKRFP-FERYRRLCDVGCADGLL  186
+            + A  + +          A   A  +R I +     L +  P  +   R+ D+G   GL+
+Sbjct  128  VTAPAKPVSGGQDWAAAAATHIAQEQRAISVPAVLGLLQMLPEVQHAERVLDLGGGPGLV  187
+
+Query  187  SRIVAAAHPHLQCVSFDLPAVTEIARRKLTAEGLGERVQACAGDFLADPL-PAADVITMG  245
+            ++ +A  +P L    FD P    +A +     GL ERV    GD   D      DVI   
+Sbjct  188  AQALAQRYPGLHATVFDWPPTAAVAGQLAAEAGLQERVAIIGGDLAKDGFGEGYDVIWCS  247
+
+Query  246  QILHDWNLDRKQQLVAKAYEALSKEGAFIVIETLIDDARRENTTGLMMSLNMLIEFGDAF  305
+             +LH   +     L+ + + AL   G F+       +    N   +   L ML+     F
+Sbjct  248  SVLH--FVPDCLGLLRRVHGALRPGGVFVCAHAERSEQPAMNARVMPYYLPMLM--AGRF  303
+
+Query  306  DYSAADFRGWCGEAGFRSFE  325
+               A +  G   +AGF + E
+Sbjct  304  VPRAGELVGLLTQAGFATVE  323
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2502856039
+
+
+Query= g787.t1
+
+Length=252
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.138    0.398    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1625646638
+
+
+Query= g4291.t1
+
+Length=334
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000172(gb|NP_252898) (phzM) phenazine-specific methyltransfera...  672     0.0  
+VFG015546(gb|WP_012074250) (phzM) phenazine-specific methyltransf...  594     0.0  
+VFG044399(gb|AAF33140) (pdtorfP) putative methyltransferase [Pyri...  50.4    7e-07
+
+
+>VFG000172(gb|NP_252898) (phzM) phenazine-specific methyltransferase 
+PhzM (adenosylmethionine dependent methyltransferase) 
+[Pyocyanin (VF0100) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=334
+
+ Score = 672 bits (1734),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 334/334 (100%), Positives = 334/334 (100%), Gaps = 0/334 (0%)
+
+Query  1    MNNSNLAAARNLIQVVTGEWKSRCVYVATRLGLADLIESGIDSDETLAAAVGSDAERIHR  60
+            MNNSNLAAARNLIQVVTGEWKSRCVYVATRLGLADLIESGIDSDETLAAAVGSDAERIHR
+Sbjct  1    MNNSNLAAARNLIQVVTGEWKSRCVYVATRLGLADLIESGIDSDETLAAAVGSDAERIHR  60
+
+Query  61   LMRLLVAFEIFQGDTRDGYANTPTSHLLRDVEGSFRDMVLFYGEEFHAAWTPACEALLSG  120
+            LMRLLVAFEIFQGDTRDGYANTPTSHLLRDVEGSFRDMVLFYGEEFHAAWTPACEALLSG
+Sbjct  61   LMRLLVAFEIFQGDTRDGYANTPTSHLLRDVEGSFRDMVLFYGEEFHAAWTPACEALLSG  120
+
+Query  121  TPGFELAFGEDFYSYLKRCPDAGRRFLLAMKASNLAFHEIPRLLDFRGRSFVDVGGGSGE  180
+            TPGFELAFGEDFYSYLKRCPDAGRRFLLAMKASNLAFHEIPRLLDFRGRSFVDVGGGSGE
+Sbjct  121  TPGFELAFGEDFYSYLKRCPDAGRRFLLAMKASNLAFHEIPRLLDFRGRSFVDVGGGSGE  180
+
+Query  181  LTKAILQAEPSARGVMLDREGSLGVARDNLSSLLAGERVSLVGGDMLQEVPSNGDIYLLS  240
+            LTKAILQAEPSARGVMLDREGSLGVARDNLSSLLAGERVSLVGGDMLQEVPSNGDIYLLS
+Sbjct  181  LTKAILQAEPSARGVMLDREGSLGVARDNLSSLLAGERVSLVGGDMLQEVPSNGDIYLLS  240
+
+Query  241  RIIGDLDEAASLRLLGNCREAMAGDGRVVVIERTISASEPSPMSVLWDVHLFMACAGRHR  300
+            RIIGDLDEAASLRLLGNCREAMAGDGRVVVIERTISASEPSPMSVLWDVHLFMACAGRHR
+Sbjct  241  RIIGDLDEAASLRLLGNCREAMAGDGRVVVIERTISASEPSPMSVLWDVHLFMACAGRHR  300
+
+Query  301  TTEEVVDLLGRGGFAVERIVDLPMETRMIVAARA  334
+            TTEEVVDLLGRGGFAVERIVDLPMETRMIVAARA
+Sbjct  301  TTEEVVDLLGRGGFAVERIVDLPMETRMIVAARA  334
+
+
+>VFG015546(gb|WP_012074250) (phzM) phenazine-specific methyltransferase 
+PhzM (adenosylmethionine dependent methyltransferase) 
+[Pyocyanin (VF0100) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PA7]
+Length=334
+
+ Score = 594 bits (1532),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 296/334 (89%), Positives = 309/334 (93%), Gaps = 0/334 (0%)
+
+Query  1    MNNSNLAAARNLIQVVTGEWKSRCVYVATRLGLADLIESGIDSDETLAAAVGSDAERIHR  60
+            MNN+NLAAAR+LIQVVTGEWKSRCVY ATRLGLADLIESG+D+DE LAAAVGSDAERIHR
+Sbjct  1    MNNTNLAAARDLIQVVTGEWKSRCVYAATRLGLADLIESGVDTDEALAAAVGSDAERIHR  60
+
+Query  61   LMRLLVAFEIFQGDTRDGYANTPTSHLLRDVEGSFRDMVLFYGEEFHAAWTPACEALLSG  120
+            LMRLLV FEIFQGD R GY NTPTS LLR+  GSFRDMVLFYGEEFHAAWT A EALL G
+Sbjct  61   LMRLLVGFEIFQGDARGGYTNTPTSQLLREAPGSFRDMVLFYGEEFHAAWTHAYEALLGG  120
+
+Query  121  TPGFELAFGEDFYSYLKRCPDAGRRFLLAMKASNLAFHEIPRLLDFRGRSFVDVGGGSGE  180
+            TPGFELAFGE FY+YL+RCPDAGRRFLLAMKASNLAFH+IP LLDFR   FVDVGGGSGE
+Sbjct  121  TPGFELAFGESFYAYLRRCPDAGRRFLLAMKASNLAFHQIPDLLDFRECCFVDVGGGSGE  180
+
+Query  181  LTKAILQAEPSARGVMLDREGSLGVARDNLSSLLAGERVSLVGGDMLQEVPSNGDIYLLS  240
+            LTK IL+AEPSARGVMLDREGSL VARDNL+ LLAGERVSLVGGDML+EVP+NGD YLLS
+Sbjct  181  LTKVILEAEPSARGVMLDREGSLAVARDNLAGLLAGERVSLVGGDMLREVPANGDFYLLS  240
+
+Query  241  RIIGDLDEAASLRLLGNCREAMAGDGRVVVIERTISASEPSPMSVLWDVHLFMACAGRHR  300
+            RIIGDLDEAASL LLGNCR+AMA DGRVVVIERTISASEPSPMSVLWDVHLFMAC GRHR
+Sbjct  241  RIIGDLDEAASLVLLGNCRQAMAEDGRVVVIERTISASEPSPMSVLWDVHLFMACDGRHR  300
+
+Query  301  TTEEVVDLLGRGGFAVERIVDLPMETRMIVAARA  334
+            TTEEVV LLGRGGFAVERIVDLPMETRMIVAARA
+Sbjct  301  TTEEVVGLLGRGGFAVERIVDLPMETRMIVAARA  334
+
+
+>VFG044399(gb|AAF33140) (pdtorfP) putative methyltransferase [Pyridine-2,6-dithiocarboxylic 
+acid (PDTC) (VF0938) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas stutzeri KC]
+Length=351
+
+ Score = 50.4 bits (119),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 47/160 (29%), Positives = 78/160 (49%), Gaps = 8/160 (5%)
+
+Query  160  IPRLLDFRG-RSFVDVGGGSGELTKAILQAEPSARGVMLDREGSLGVARDNLSSLLAGER  218
+            + RL + +G R F+D+G G G +  A+ +A P   G   +   +  VAR N+     G R
+Sbjct  175  VARLPELKGIRRFLDLGCGPGMVAIALARALPGCHGTAFELPPTAAVARQNVEMAQLGTR  234
+
+Query  219  VSLVGGDMLQ-EVPSNGDIYLLSRIIGDL-DEAASLRLLGNCREAMAGDGRVVVIERTIS  276
+            +S++GGD+ + E+ S  D+   + ++  + D A +LR     R A+A  G  V I   I 
+Sbjct  235  LSVLGGDLTRDEIGSGYDLIWCASVLHFVPDLAQTLR---KIRAALAPGGVFVSIHAEIP  291
+
+Query  277  ASEPSPMSVLWDVHLFMACAGRHRTTE-EVVDLLGRGGFA  315
+             +     +VL   +L +   G H   + E+ + L   GFA
+Sbjct  292  LTAAQTATVL-AYYLPLLMRGHHVWHQGELPEALFAAGFA  330
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.402    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2440022833
+
+
+Query= g1784.t1
+
+Length=247
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.136    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1587619350
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

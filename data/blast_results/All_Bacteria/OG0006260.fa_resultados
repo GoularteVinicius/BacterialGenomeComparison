@@ -1,0 +1,121 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2214.t1
+
+Length=333
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG043069(gb|NP_461313) (flk) flagella biosynthesis regulator [Pe...  662     0.0   
+VFG043120(gb|WP_000615801) (flk) flagella biosynthesis regulator ...  372     2e-129
+
+
+>VFG043069(gb|NP_461313) (flk) flagella biosynthesis regulator 
+[Peritrichous flagella (VF0967) - Motility (VFC0204)] [Salmonella 
+enterica subsp. enterica serovar Typhimurium str. LT2]
+Length=333
+
+ Score = 662 bits (1709),  Expect = 0.0, Method: Compositional matrix adjust.
+ Identities = 333/333 (100%), Positives = 333/333 (100%), Gaps = 0/333 (0%)
+
+Query  1    MHPISGAPAQPPGEGRNPLSAASEQPLSMQQRTVLERLITRLISLTQQQSAEVWAGMKHD  60
+            MHPISGAPAQPPGEGRNPLSAASEQPLSMQQRTVLERLITRLISLTQQQSAEVWAGMKHD
+Sbjct  1    MHPISGAPAQPPGEGRNPLSAASEQPLSMQQRTVLERLITRLISLTQQQSAEVWAGMKHD  60
+
+Query  61   LGIKNDAPLLSRHFPAAEQNLTQRLGVAQQNHANRQVLSQLTELLGVGNNRQAVSDFIRQ  120
+            LGIKNDAPLLSRHFPAAEQNLTQRLGVAQQNHANRQVLSQLTELLGVGNNRQAVSDFIRQ
+Sbjct  61   LGIKNDAPLLSRHFPAAEQNLTQRLGVAQQNHANRQVLSQLTELLGVGNNRQAVSDFIRQ  120
+
+Query  121  QYGQTALSQLTPDQLKNVLTLLQQGQLSIPQPQQRPATDRPLLPAEHNTLNQLVTKLAAA  180
+            QYGQTALSQLTPDQLKNVLTLLQQGQLSIPQPQQRPATDRPLLPAEHNTLNQLVTKLAAA
+Sbjct  121  QYGQTALSQLTPDQLKNVLTLLQQGQLSIPQPQQRPATDRPLLPAEHNTLNQLVTKLAAA  180
+
+Query  181  TGESNKLIWQSMLELSGVKSGELIPAKQFTHLATWLQARQTLSLQHAPTLHTLQAALKQP  240
+            TGESNKLIWQSMLELSGVKSGELIPAKQFTHLATWLQARQTLSLQHAPTLHTLQAALKQP
+Sbjct  181  TGESNKLIWQSMLELSGVKSGELIPAKQFTHLATWLQARQTLSLQHAPTLHTLQAALKQP  240
+
+Query  241  LEPDELTAIKEYAQHTYQIQPQTVLTTAQVQDLLNHIFLRRVEREADELEPLSIQPIYRP  300
+            LEPDELTAIKEYAQHTYQIQPQTVLTTAQVQDLLNHIFLRRVEREADELEPLSIQPIYRP
+Sbjct  241  LEPDELTAIKEYAQHTYQIQPQTVLTTAQVQDLLNHIFLRRVEREADELEPLSIQPIYRP  300
+
+Query  301  FAPMIETVKNLSARPGLLFIALIIVLALFWLVS  333
+            FAPMIETVKNLSARPGLLFIALIIVLALFWLVS
+Sbjct  301  FAPMIETVKNLSARPGLLFIALIIVLALFWLVS  333
+
+
+>VFG043120(gb|WP_000615801) (flk) flagella biosynthesis regulator 
+Flk [Peritrichous flagella (VF1154) - Motility (VFC0204)] 
+[Escherichia coli O157:H7 str. EDL933]
+Length=331
+
+ Score = 372 bits (956),  Expect = 2e-129, Method: Compositional matrix adjust.
+ Identities = 190/313 (61%), Positives = 242/313 (77%), Gaps = 4/313 (1%)
+
+Query  20   SAASEQPLSMQQRTVLERLITRLISLTQQQSAEVWAGMKHDLGIKNDAPLLSRHFPAAEQ  79
+            S A  QPLS QQRT LE L+T++ SLTQQQ AE+WAG++HD+G+  D+PLLSRH PAAE 
+Sbjct  22   SGAGNQPLSSQQRTSLESLMTKVTSLTQQQRAELWAGIRHDIGLSGDSPLLSRHCPAAEH  81
+
+Query  80   NLTQRLGVAQQNHANRQVLSQLTELLGVGNNRQAVSDFIRQQYGQTALSQLTPDQLKNVL  139
+            NL QRL  AQ++H+ RQ+L+QL E L +GNNRQAV+D+IR  +GQT L+QL+P+QLK +L
+Sbjct  82   NLAQRLLAAQKSHSARQLLAQLGEYLRLGNNRQAVTDYIRHNFGQTPLNQLSPEQLKTIL  141
+
+Query  140  TLLQQGQLSIPQPQQRPATDRPLLPAEHNTLNQLVTKLAAATGESNKLIWQSMLELSGVK  199
+            TLLQ+G++ IPQPQQR ATDRPLLPAEHN L QLVTKLAAATGE +K IWQSMLELSGVK
+Sbjct  142  TLLQEGKMVIPQPQQREATDRPLLPAEHNALKQLVTKLAAATGEPSKQIWQSMLELSGVK  201
+
+Query  200  SGELIPAKQFTHLATWLQARQTLSLQHAPTLHTLQAALKQPLEPDELTAIKEYAQHTYQI  259
+             GELIPAK F HL TWLQARQTLS Q+ PTL +LQ  LKQPL+  EL A+  Y Q  Y +
+Sbjct  202  DGELIPAKLFNHLVTWLQARQTLSQQNTPTLESLQMTLKQPLDASELAALSAYIQQKYGL  261
+
+Query  260  QPQTVLTTAQVQDLLNHIFLRRVEREADELEPLSIQPIYRPFAPMIETVKNLSARPGLLF  319
+              Q+ L++AQ +D+LN ++ RRV+     ++P  +QP+  PF PM++T++N++ RP L  
+Sbjct  262  SAQSSLSSAQAEDILNQLYQRRVK----GIDPRDMQPLLNPFPPMMDTLQNMATRPALWI  317
+
+Query  320  IALIIVLALFWLV  332
+            + + I+L L WLV
+Sbjct  318  LLVAIILMLVWLV  330
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.131    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2429550632
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

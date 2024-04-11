@@ -1,0 +1,113 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1393.t1
+
+Length=242
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.134    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1534698705
+
+
+Query= g1395.t1
+
+Length=709
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.136    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6203194018
+
+
+Query= g1343.t1
+
+Length=715
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044389(gb|AAF33130) (pdtorfF) putative sulfurylase [Pyridine-2...  49.3    5e-06
+
+
+>VFG044389(gb|AAF33130) (pdtorfF) putative sulfurylase [Pyridine-2,6-dithiocarboxylic 
+acid (PDTC) (VF0938) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas stutzeri KC]
+Length=391
+
+ Score = 49.3 bits (116),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 40/142 (28%), Positives = 68/142 (48%), Gaps = 7/142 (5%)
+
+Query  92   NRHLITAE----EQRALHALRVGVVGLSA-GHAIAYTLAAEGACGTLRLADFDKIELSNL  146
+            +RHL+  +     QR L   +V V+G    G      LAA G  GT+ + DFD+++ SNL
+Sbjct  22   SRHLLIPDVGMIGQRRLKNAKVLVIGAGGLGSPTLLYLAAAGV-GTIGIIDFDRVDDSNL  80
+
+Query  147  NRVPV-GVFDIGLNKAMIAARRIAELDPYLAVDLVTSGLSPESVDEFLDGLDVVIEECDS  205
+             R  + GV  +G  K   A + IA L+P++ V+  T  L  +   E     D++++  D+
+Sbjct  81   QRQVIHGVDTVGELKVDSAKKAIARLNPFVQVETYTDRLERDMAIELFSRYDLIMDGTDN  140
+
+Query  206  LDIKVILRQAACARGVPVLMAT  227
+               + ++  A      P +  +
+Sbjct  141  FATRYLVNDACVLANKPYVWGS  162
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.410    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 6265019872
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

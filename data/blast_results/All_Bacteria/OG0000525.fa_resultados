@@ -1,0 +1,1087 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g353.t1
+
+Length=320
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG021856(gb|WP_029104465) (fxbA) methionyl-tRNA formyltransferas...  101     1e-24
+VFG011182(gb|WP_003807064) (wbmR) formyl transferase [LPS (VF0033...  87.0    2e-19
+VFG011183(gb|WP_010925716) (wbmR) formyl transferase [LPS (VF0033...  82.0    1e-17
+VFG011184(gb|WP_003807066) (wbmQ) formyl transferase [LPS (VF0033...  72.4    2e-14
+VFG011503(gb|WP_006189959) (wbkC) GDP-mannose 4,6-dehydratase / G...  70.9    4e-14
+VFG019226(gb|WP_006072301) (wbkC) GDP-mannose 4,6-dehydratase / G...  70.9    5e-14
+VFG002230(gb|WP_002963675) (wbkC) GDP-mannose 4,6-dehydratase / G...  70.9    5e-14
+VFG011178(gb|WP_003807059) (wbmU) methionyl-tRNA formyltransferas...  67.4    1e-12
+
+
+>VFG021856(gb|WP_029104465) (fxbA) methionyl-tRNA formyltransferase 
+[Exochelin (smegmatis) (VF0819) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium smegmatis str. MC2 155]
+Length=319
+
+ Score = 101 bits (251),  Expect = 1e-24, Method: Compositional matrix adjust.
+ Identities = 85/291 (29%), Positives = 135/291 (46%), Gaps = 17/291 (6%)
+
+Query  1    MKIIFAGTPEFAATALAALLKTSHEIIAVYTQPDRKAGRGQKLTPSPVKQLALEHNIPVY  60
+            M+++  G   +    L ALLK+ HE+  V T P       + +    V+ LA    I V 
+Sbjct  1    MRVVMFGYQTWGHRTLQALLKSRHEVCLVVTHPTSDHAY-ESIWADSVEDLARGAGIEV-  58
+
+Query  61   QPLHFKASTEEGLAAQQELAALGADVMVVAAYGLILPQAVLDTPKYGCLNIHGSLLPRWR  120
+              L  K  T E +   +ELA    DV V   +   LP+ +   PKYG +N+H SLLP++ 
+Sbjct  59   --LLAKRPTPELVERVRELAP---DVGVANNWRTRLPRELFSIPKYGTVNLHDSLLPKFT  113
+
+Query  121  GAAPIQRAIATGDDETGITIMQMAAGLDTGDMMYKTYCPITSEDTSATL-HDKLAAQGAT  179
+            G +P+  ++ +G  +TG+T   M   LDTGD++ +    IT   T  +L +D L      
+Sbjct  114  GFSPVIWSLISGAGQTGLTAHFMDDELDTGDILLQRSVEITPTSTGTSLVYDTL-----D  168
+
+Query  180  AICAVLESE-ETLQKYLAEREVQDESLTVYAHKLVKSEARIDWSMNAVQVDRNIRAF-NP  237
+             I  VLE   + ++   A    QD S   + HK    ++ +DWS  A  ++R IRA  +P
+Sbjct  169  LIPDVLEDALDAIENGTATPVPQDLSQRTFFHKRSDRDSLVDWSWPAADIERFIRALSDP  228
+
+Query  238  WPVAFIQLDENNALRVWYSTISNQNKADAKAGEIIAIDKQGVHVACGENTF  288
+            +P A+        LR+  + +S         G +   +  G+ +  G + F
+Sbjct  229  YPNAYTYF-RGERLRLISAHVSRCTYG-GTPGRVFIEENGGMVIVAGADAF  277
+
+
+>VFG011182(gb|WP_003807064) (wbmR) formyl transferase [LPS (VF0033) 
+- Immune modulation (VFC0258)] [Bordetella parapertussis 
+12822]
+Length=309
+
+ Score = 87.0 bits (214),  Expect = 2e-19, Method: Compositional matrix adjust.
+ Identities = 80/300 (27%), Positives = 124/300 (41%), Gaps = 19/300 (6%)
+
+Query  1    MKIIFAGTPEFAATALAALLKTSHEIIAVYTQ---PDRKAGRGQKLTPSPVKQLALEHNI  57
+            MK +  G  E     +  L+   HE+  V T    P+ +A           + LA    +
+Sbjct  1    MKFVAIGRHEILLRTIEMLVDAGHELAGVLTAAPAPEYRA------DVDDFRSLAARKGV  54
+
+Query  58   PVYQPLHFKASTEEGLAAQQELAALGADVMVVAAYGLILPQAVLDTPKYGCLNIHGSLLP  117
+            P +       S   G      LA LGA++ V   +  ++  A +D+   G LN HG  LP
+Sbjct  55   PCH------VSNRYGPEMVAALAGLGAEIAVSYNFPTVIGHAAIDSFPRGILNAHGGDLP  108
+
+Query  118  RWRGAAPIQRAIATGDDETGITIMQMAAG-LDTGDMMYKTYCPITSEDTSATLHDKLAAQ  176
+            R+RG A    A+  G+   G+ +  M A  LD+GD++ K    +    T  T+   +   
+Sbjct  109  RYRGNACQAWALIQGEPAIGLCVHYMVADELDSGDVIAKAMLDVDHHTTIGTVAQWMEQA  168
+
+Query  177  GATAICAVLESEETLQKYLAEREVQDESLTVYAHKLVKSEARIDWSMNAVQVDRNIRAF-  235
+                  A LE       Y+  R+  D    +  +    S+ RIDW+  A+ V R+I A  
+Sbjct  169  TPPLFVAALERLRHDPSYVLYRQCDDGRPALRCYPRQPSDGRIDWTKPAIDVVRHINASG  228
+
+Query  236  NPWPVAFIQLDENNALRVWYSTISNQNKADAKAGEIIAIDKQG-VHVACGENTFICLTSV  294
+            +P+  AF    E+NA RV  +   +     A  G++   +  G V VACG      L  +
+Sbjct  229  HPYAGAFFYF-ESNAYRVDEAQWIDGGAYLAVPGQVAGRNPDGSVDVACGGGGLCRLARI  287
+
+
+>VFG011183(gb|WP_010925716) (wbmR) formyl transferase [LPS (VF0033) 
+- Immune modulation (VFC0258)] [Bordetella bronchiseptica 
+RB50]
+Length=309
+
+ Score = 82.0 bits (201),  Expect = 1e-17, Method: Compositional matrix adjust.
+ Identities = 57/213 (27%), Positives = 99/213 (46%), Gaps = 4/213 (2%)
+
+Query  85   DVMVVAAYGLILPQAVLDTPKYGCLNIHGSLLPRWRGAAPIQRAIATGDDETGITIMQMA  144
+            D+ V   +  ++ +  +    +G LN HG  LPR+RG A    A+   + E G+ + +M 
+Sbjct  76   DIAVSLNFPTVIERDAIGVFPFGILNAHGGDLPRYRGNACQAWALINAEPEIGLCVHKMV  135
+
+Query  145  AG-LDTGDMMYKTYCPITSEDTSATLHDKLAAQGATAICAVLESEETLQKYLAEREVQDE  203
+             G LD+GD++ K   P+       T+   +  Q     CA LE      +Y+  R+  D 
+Sbjct  136  GGELDSGDVIAKDMLPVDHHTRIRTVAQWIEEQTPKLFCAALEQLARDPQYVLYRQTDDP  195
+
+Query  204  SLTVYAHKLVKSEARIDWSMNAVQVDRNIRAFN-PWPVAFIQLDENNALRVWYSTISNQN  262
+               +        + RIDWS  A  V R+I A   P+  AF + +    L V+ +      
+Sbjct  196  RPPLRCFPRRPEDGRIDWSRTAKDVVRHINASGPPYAGAFFEYEAQRYL-VYEADWVAGG  254
+
+Query  263  KADAKAGEIIAIDKQG-VHVACGENTFICLTSV  294
+            +  A  G+++A ++ G + +ACG + +  L+S+
+Sbjct  255  EYLAIPGQVVARNQDGSIEIACGGDGYCRLSSI  287
+
+
+>VFG011184(gb|WP_003807066) (wbmQ) formyl transferase [LPS (VF0033) 
+- Immune modulation (VFC0258)] [Bordetella parapertussis 
+12822]
+Length=274
+
+ Score = 72.4 bits (176),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 45/113 (40%), Positives = 62/113 (55%), Gaps = 3/113 (3%)
+
+Query  61   QPLHFKASTEEGLAAQQELAALGADVMVVAAYGLILPQAVLDTPKYGCLNIHGSLLPRWR  120
+            QP H  A T  G    Q+LA      ++V +Y +IL   VL    Y  LNIH +LLPR R
+Sbjct  62   QPRH-DAPTYAGFV--QQLAQTAPTRILVHSYSMILRPDVLSLVDYDALNIHAALLPRNR  118
+
+Query  121  GAAPIQRAIATGDDETGITIMQMAAGLDTGDMMYKTYCPITSEDTSATLHDKL  173
+            G  P+Q A+   + ETG+T+  +  GLDTGD++ +    I+  DT  TL  +L
+Sbjct  119  GPNPVQWALIHDEAETGVTLHYLDDGLDTGDIVAQERIGISDADTWVTLSKRL  171
+
+
+>VFG011503(gb|WP_006189959) (wbkC) GDP-mannose 4,6-dehydratase 
+/ GDP-4-amino-4,6-dideoxy-D-mannose formyltransferase [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella suis 1330]
+Length=259
+
+ Score = 70.9 bits (172),  Expect = 4e-14, Method: Compositional matrix adjust.
+ Identities = 55/182 (30%), Positives = 88/182 (48%), Gaps = 17/182 (9%)
+
+Query  74   AAQQELAALGA----DVMVVAAYGLILPQAVLDTPKYGCLNIHGSLLPRWRGAAPIQRAI  129
+            A  +E    GA    D+++   Y  ++P   L   K G +N+H SLLP +RG   +   I
+Sbjct  65   ANSEEFYEFGANFDPDMIISMHYRSLIPGRFLKLAKKGSVNLHPSLLPAYRGTNSVAWVI  124
+
+Query  130  ATGDDETGITIMQMAAGLDTGDMMYKTYCPITSEDTSATLHDKLAAQGATAICAVLESEE  189
+              G+ ETG +  +M    DTG ++ +    +   DT+ +L  +  A+      A+L  EE
+Sbjct  125  INGESETGFSYHRMDENFDTGAILLQERISVEETDTAFSLFHRQIAR------AMLRLEE  178
+
+Query  190  TLQKYLAERE---VQDESLTVYAHKLVKSEARIDWSMNAVQVDRNIRA--FNPWPVAFIQ  244
+             + K L + +    Q    + YA +L      ID   + VQ+DR IRA  F P+P A ++
+Sbjct  179  VILK-LDQGDPGFAQLGEASYYARELPFGGV-IDPRWSEVQIDRFIRAMFFPPFPPAVLK  236
+
+Query  245  LD  246
+            +D
+Sbjct  237  ID  238
+
+
+>VFG019226(gb|WP_006072301) (wbkC) GDP-mannose 4,6-dehydratase 
+/ GDP-4-amino-4,6-dideoxy-D-mannose formyltransferase [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella suis ATCC 
+23445]
+Length=259
+
+ Score = 70.9 bits (172),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 55/182 (30%), Positives = 88/182 (48%), Gaps = 17/182 (9%)
+
+Query  74   AAQQELAALGA----DVMVVAAYGLILPQAVLDTPKYGCLNIHGSLLPRWRGAAPIQRAI  129
+            A  +E    GA    D+++   Y  ++P   L   K G +N+H SLLP +RG   +   I
+Sbjct  65   ANSEEFYEFGANFDPDMIISMHYRSLIPGRFLKLAKKGSVNLHPSLLPAYRGTNSVAWVI  124
+
+Query  130  ATGDDETGITIMQMAAGLDTGDMMYKTYCPITSEDTSATLHDKLAAQGATAICAVLESEE  189
+              G+ ETG +  +M    DTG ++ +    +   DT+ +L  +  A+      A+L  EE
+Sbjct  125  INGESETGFSYHRMDENFDTGAILLQERISVEETDTAFSLFHRQIAR------AMLRLEE  178
+
+Query  190  TLQKYLAERE---VQDESLTVYAHKLVKSEARIDWSMNAVQVDRNIRA--FNPWPVAFIQ  244
+             + K L + +    Q    + YA +L      ID   + VQ+DR IRA  F P+P A ++
+Sbjct  179  VILK-LDQGDPGFAQLGEASYYARELPFGGV-IDPRWSEVQIDRFIRAMFFPPFPPAVLK  236
+
+Query  245  LD  246
+            +D
+Sbjct  237  ID  238
+
+
+>VFG002230(gb|WP_002963675) (wbkC) GDP-mannose 4,6-dehydratase 
+/ GDP-4-amino-4,6-dideoxy-D-mannose formyltransferase [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella melitensis 
+bv. 1 str. 16M]
+Length=259
+
+ Score = 70.9 bits (172),  Expect = 5e-14, Method: Compositional matrix adjust.
+ Identities = 55/182 (30%), Positives = 88/182 (48%), Gaps = 17/182 (9%)
+
+Query  74   AAQQELAALGA----DVMVVAAYGLILPQAVLDTPKYGCLNIHGSLLPRWRGAAPIQRAI  129
+            A  +E    GA    D+++   Y  ++P   L   K G +N+H SLLP +RG   +   I
+Sbjct  65   ANSEEFYEFGANFDPDMIISMHYRSLIPGRFLKLAKKGSVNLHPSLLPAYRGTNSVAWVI  124
+
+Query  130  ATGDDETGITIMQMAAGLDTGDMMYKTYCPITSEDTSATLHDKLAAQGATAICAVLESEE  189
+              G+ ETG +  +M    DTG ++ +    +   DT+ +L  +  A+      A+L  EE
+Sbjct  125  INGESETGFSYHRMDENFDTGAILLQERISVEETDTAFSLFHRQIAR------AMLRLEE  178
+
+Query  190  TLQKYLAERE---VQDESLTVYAHKLVKSEARIDWSMNAVQVDRNIRA--FNPWPVAFIQ  244
+             + K L + +    Q    + YA +L      ID   + VQ+DR IRA  F P+P A ++
+Sbjct  179  VILK-LDQGDPGFAQLGEASYYARELPFGGV-IDPRWSEVQIDRFIRAMFFPPFPPAVLK  236
+
+Query  245  LD  246
+            +D
+Sbjct  237  ID  238
+
+
+>VFG011178(gb|WP_003807059) (wbmU) methionyl-tRNA formyltransferase 
+[LPS (VF0033) - Immune modulation (VFC0258)] [Bordetella 
+parapertussis 12822]
+Length=312
+
+ Score = 67.4 bits (163),  Expect = 1e-12, Method: Compositional matrix adjust.
+ Identities = 69/296 (23%), Positives = 117/296 (40%), Gaps = 24/296 (8%)
+
+Query  2    KIIFAGTPEFAATALAALLKTSHEIIAVYTQP--------DRKAGRGQKLTPSPVKQLAL  53
+            +I   G+ +       A+L+  H I ++   P        D+     ++   + V Q  +
+Sbjct  3    RIALFGSTDITVAVAEAILRAGHAIASITHVPRPFEISYSDKPVAISRQ---ADVAQWCV  59
+
+Query  54   EHNIPVYQPLHFKASTEEGLAAQQELAALGADVMVVAAYGLILPQAVLDTPKYGCLNIHG  113
+             H IP  +      S E             AD+ VVA +  +LP  + D  + G + +H 
+Sbjct  60   AHAIPAIEYAGVDKSVEH-------FRNNPADLCVVAGWYHMLPSRLRDLFRLGAVGLHA  112
+
+Query  114  SLLPRWRGAAPIQRAIATGDDETGITIMQMAAGLDTGDMMYKTYCPITSEDTSATLHDKL  173
+            S LP  RG AP+  AI  G + T +T+  +  G+D G +  +    +   D    L   +
+Sbjct  113  SRLPELRGGAPLNWAILAGFERTAVTLFALGDGVDDGPVYGQEAIDVGPNDYIGEL---V  169
+
+Query  174  AAQGATAICAVLESEETLQKYLAEREVQDESLTVYAHKLVKSEARIDWSMNAVQVDRNIR  233
+            A   A ++  V      +        VQD  +  Y  +    +  IDW+  A  + R +R
+Sbjct  170  ARCNAASVVLVERCISGILDGSLVPAVQD-GVASYGAQRSPEDGVIDWAAPAAGIARLVR  228
+
+Query  234  AFN-PWPVAFIQLDENNALRVWYSTISNQNKADAKAGEIIAIDKQGVHVACGENTF  288
+            A + P+P A   LD    +R+W +            G+I+ +    V VA G+   
+Sbjct  229  AVSRPYPGASTWLD-GRLVRIWRAGEYRAAAVYGAPGQILCLPGGQVVVATGKGAI  283
+
+
+
+Lambda      K        H        a         alpha
+   0.317    0.131    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2310040260
+
+
+Query= g402.t1
+
+Length=318
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG021856(gb|WP_029104465) (fxbA) methionyl-tRNA formyltransferas...  89.4    3e-20
+VFG011178(gb|WP_003807059) (wbmU) methionyl-tRNA formyltransferas...  84.0    2e-18
+VFG019226(gb|WP_006072301) (wbkC) GDP-mannose 4,6-dehydratase / G...  60.5    1e-10
+VFG011503(gb|WP_006189959) (wbkC) GDP-mannose 4,6-dehydratase / G...  60.5    1e-10
+VFG002230(gb|WP_002963675) (wbkC) GDP-mannose 4,6-dehydratase / G...  60.5    1e-10
+VFG011184(gb|WP_003807066) (wbmQ) formyl transferase [LPS (VF0033...  56.2    5e-09
+
+
+>VFG021856(gb|WP_029104465) (fxbA) methionyl-tRNA formyltransferase 
+[Exochelin (smegmatis) (VF0819) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium smegmatis str. MC2 155]
+Length=319
+
+ Score = 89.4 bits (220),  Expect = 3e-20, Method: Compositional matrix adjust.
+ Identities = 79/248 (32%), Positives = 115/248 (46%), Gaps = 8/248 (3%)
+
+Query  3    VRLVFAGTPESALPALCRLIDSPRHDVIAVLTRP--DAASGRRGKPEPSPVAREALDRGI  60
+            +R+V  G        L  L+ S RH+V  V+T P  D A           +AR A   GI
+Sbjct  1    MRVVMFGYQTWGHRTLQALLKS-RHEVCLVVTHPTSDHAYESIWADSVEDLARGA---GI  56
+
+Query  61   PLLRPARPNSPVFVSELSEWAPECCVVVAYGALLGSPLLAVPPRGWVNLHFSLLPAWRGA  120
+             +L   RP +P  V  + E AP+  V   +   L   L ++P  G VNLH SLLP + G 
+Sbjct  57   EVLLAKRP-TPELVERVRELAPDVGVANNWRTRLPRELFSIPKYGTVNLHDSLLPKFTGF  115
+
+Query  121  APVQAAIAAGDTITGATTFQIEPSLDSGPVYGVVTETIQPTDTAGDLLERLAVSGATLLS  180
+            +PV  ++ +G   TG T   ++  LD+G +    +  I PT T   L+         +L 
+Sbjct  116  SPVIWSLISGAGQTGLTAHFMDDELDTGDILLQRSVEITPTSTGTSLVYDTLDLIPDVLE  175
+
+Query  181  STLDGIADAILTPRQQPVDGVSFAPKITVEQARVCWDLPAPVVERRIRAVT-PNPGAWTL  239
+              LD I +   TP  Q +   +F  K +   + V W  PA  +ER IRA++ P P A+T 
+Sbjct  176  DALDAIENGTATPVPQDLSQRTFFHKRSDRDSLVDWSWPAADIERFIRALSDPYPNAYTY  235
+
+Query  240  VGKLRVKL  247
+                R++L
+Sbjct  236  FRGERLRL  243
+
+
+>VFG011178(gb|WP_003807059) (wbmU) methionyl-tRNA formyltransferase 
+[LPS (VF0033) - Immune modulation (VFC0258)] [Bordetella 
+parapertussis 12822]
+Length=312
+
+ Score = 84.0 bits (206),  Expect = 2e-18, Method: Compositional matrix adjust.
+ Identities = 72/219 (33%), Positives = 101/219 (46%), Gaps = 11/219 (5%)
+
+Query  83   ECCVVVAYGALLGSPLLAVPPRGWVNLHFSLLPAWRGAAPVQAAIAAGDTITGATTFQIE  142
+            + CVV  +  +L S L  +   G V LH S LP  RG AP+  AI AG   T  T F + 
+Sbjct  84   DLCVVAGWYHMLPSRLRDLFRLGAVGLHASRLPELRGGAPLNWAILAGFERTAVTLFALG  143
+
+Query  143  PSLDSGPVYGVVTETIQPTDTAGDLLERLAVSGATLLSSTLDGIADAILTPRQQPVDGV-  201
+              +D GPVYG     + P D  G+L+ R   +   L+   + GI D  L P  Q  DGV 
+Sbjct  144  DGVDDGPVYGQEAIDVGPNDYIGELVARCNAASVVLVERCISGILDGSLVPAVQ--DGVA  201
+
+Query  202  SFAPKITVEQARVCWDLPAPVVERRIRAVT-PNPGAWT-LVGKLRVKLGPVRFDSGAVEV  259
+            S+  + + E   + W  PA  + R +RAV+ P PGA T L G+L        + + AV  
+Sbjct  202  SYGAQRSPEDGVIDWAAPAAGIARLVRAVSRPYPGASTWLDGRLVRIWRAGEYRAAAVYG  261
+
+Query  260  PRLLKPLLPGGIHVDHKSVWIGTGSDPVRLSKVQPQGKK  298
+                   LPGG       V + TG   + + + +  G +
+Sbjct  262  APGQILCLPGG------QVVVATGKGAIEIEEAEDDGGQ  294
+
+
+>VFG019226(gb|WP_006072301) (wbkC) GDP-mannose 4,6-dehydratase 
+/ GDP-4-amino-4,6-dideoxy-D-mannose formyltransferase [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella suis ATCC 
+23445]
+Length=259
+
+ Score = 60.5 bits (145),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 33/105 (31%), Positives = 55/105 (52%), Gaps = 0/105 (0%)
+
+Query  66   ARPNSPVFVSELSEWAPECCVVVAYGALLGSPLLAVPPRGWVNLHFSLLPAWRGAAPVQA  125
+            A  NS  F    + + P+  + + Y +L+    L +  +G VNLH SLLPA+RG   V  
+Sbjct  63   AAANSEEFYEFGANFDPDMIISMHYRSLIPGRFLKLAKKGSVNLHPSLLPAYRGTNSVAW  122
+
+Query  126  AIAAGDTITGATTFQIEPSLDSGPVYGVVTETIQPTDTAGDLLER  170
+             I  G++ TG +  +++ + D+G +      +++ TDTA  L  R
+Sbjct  123  VIINGESETGFSYHRMDENFDTGAILLQERISVEETDTAFSLFHR  167
+
+
+>VFG011503(gb|WP_006189959) (wbkC) GDP-mannose 4,6-dehydratase 
+/ GDP-4-amino-4,6-dideoxy-D-mannose formyltransferase [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella suis 1330]
+Length=259
+
+ Score = 60.5 bits (145),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 33/105 (31%), Positives = 55/105 (52%), Gaps = 0/105 (0%)
+
+Query  66   ARPNSPVFVSELSEWAPECCVVVAYGALLGSPLLAVPPRGWVNLHFSLLPAWRGAAPVQA  125
+            A  NS  F    + + P+  + + Y +L+    L +  +G VNLH SLLPA+RG   V  
+Sbjct  63   AAANSEEFYEFGANFDPDMIISMHYRSLIPGRFLKLAKKGSVNLHPSLLPAYRGTNSVAW  122
+
+Query  126  AIAAGDTITGATTFQIEPSLDSGPVYGVVTETIQPTDTAGDLLER  170
+             I  G++ TG +  +++ + D+G +      +++ TDTA  L  R
+Sbjct  123  VIINGESETGFSYHRMDENFDTGAILLQERISVEETDTAFSLFHR  167
+
+
+>VFG002230(gb|WP_002963675) (wbkC) GDP-mannose 4,6-dehydratase 
+/ GDP-4-amino-4,6-dideoxy-D-mannose formyltransferase [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella melitensis 
+bv. 1 str. 16M]
+Length=259
+
+ Score = 60.5 bits (145),  Expect = 1e-10, Method: Compositional matrix adjust.
+ Identities = 33/105 (31%), Positives = 55/105 (52%), Gaps = 0/105 (0%)
+
+Query  66   ARPNSPVFVSELSEWAPECCVVVAYGALLGSPLLAVPPRGWVNLHFSLLPAWRGAAPVQA  125
+            A  NS  F    + + P+  + + Y +L+    L +  +G VNLH SLLPA+RG   V  
+Sbjct  63   AAANSEEFYEFGANFDPDMIISMHYRSLIPGRFLKLAKKGSVNLHPSLLPAYRGTNSVAW  122
+
+Query  126  AIAAGDTITGATTFQIEPSLDSGPVYGVVTETIQPTDTAGDLLER  170
+             I  G++ TG +  +++ + D+G +      +++ TDTA  L  R
+Sbjct  123  VIINGESETGFSYHRMDENFDTGAILLQERISVEETDTAFSLFHR  167
+
+
+>VFG011184(gb|WP_003807066) (wbmQ) formyl transferase [LPS (VF0033) 
+- Immune modulation (VFC0258)] [Bordetella parapertussis 
+12822]
+Length=274
+
+ Score = 56.2 bits (134),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 44/161 (27%), Positives = 74/161 (46%), Gaps = 3/161 (2%)
+
+Query  57   DRGIPLLRPARPNSPV---FVSELSEWAPECCVVVAYGALLGSPLLAVPPRGWVNLHFSL  113
+            + G  LL   R ++P    FV +L++ AP   +V +Y  +L   +L++     +N+H +L
+Sbjct  54   EMGCSLLIQPRHDAPTYAGFVQQLAQTAPTRILVHSYSMILRPDVLSLVDYDALNIHAAL  113
+
+Query  114  LPAWRGAAPVQAAIAAGDTITGATTFQIEPSLDSGPVYGVVTETIQPTDTAGDLLERLAV  173
+            LP  RG  PVQ A+   +  TG T   ++  LD+G +       I   DT   L +RL  
+Sbjct  114  LPRNRGPNPVQWALIHDEAETGVTLHYLDDGLDTGDIVAQERIGISDADTWVTLSKRLRQ  173
+
+Query  174  SGATLLSSTLDGIADAILTPRQQPVDGVSFAPKITVEQARV  214
+            +   L+   +  + D  L    Q     +   ++T E  R+
+Sbjct  174  ATGRLIERNMAALLDGRLPRTPQAQREATKNSRLTAESPRL  214
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2289039894
+
+
+Query= g1396.t1
+
+Length=312
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG021856(gb|WP_029104465) (fxbA) methionyl-tRNA formyltransferas...  95.5    2e-22
+VFG011178(gb|WP_003807059) (wbmU) methionyl-tRNA formyltransferas...  75.9    1e-15
+VFG011184(gb|WP_003807066) (wbmQ) formyl transferase [LPS (VF0033...  63.2    2e-11
+VFG011503(gb|WP_006189959) (wbkC) GDP-mannose 4,6-dehydratase / G...  62.0    5e-11
+VFG002230(gb|WP_002963675) (wbkC) GDP-mannose 4,6-dehydratase / G...  62.0    5e-11
+VFG019226(gb|WP_006072301) (wbkC) GDP-mannose 4,6-dehydratase / G...  62.0    5e-11
+
+
+>VFG021856(gb|WP_029104465) (fxbA) methionyl-tRNA formyltransferase 
+[Exochelin (smegmatis) (VF0819) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium smegmatis str. MC2 155]
+Length=319
+
+ Score = 95.5 bits (236),  Expect = 2e-22, Method: Compositional matrix adjust.
+ Identities = 86/273 (32%), Positives = 128/273 (47%), Gaps = 11/273 (4%)
+
+Query  1    MRLVFAGTPEPALASLRRLIESPSHDVIAVLTRP--DAASGRRGKPQPSPVAREAAERGI  58
+            MR+V  G       +L+ L++S  H+V  V+T P  D A           +AR A   GI
+Sbjct  1    MRVVMFGYQTWGHRTLQALLKS-RHEVCLVVTHPTSDHAYESIWADSVEDLARGA---GI  56
+
+Query  59   PVLRPSRPNSAEFVAELSDLAPECCAVVAYGALLGGPLLAVPPHGWVNLHFSLLPAWRGA  118
+             VL   RP + E V  + +LAP+      +   L   L ++P +G VNLH SLLP + G 
+Sbjct  57   EVLLAKRP-TPELVERVRELAPDVGVANNWRTRLPRELFSIPKYGTVNLHDSLLPKFTGF  115
+
+Query  119  APVQAAIAAGDTITGATTFQIEPSLDSGPIYGVVTEVIQPTDTAGDLLKRLAVSGAALLS  178
+            +PV  ++ +G   TG T   ++  LD+G I    +  I PT T   L+         +L 
+Sbjct  116  SPVIWSLISGAGQTGLTAHFMDDELDTGDILLQRSVEITPTSTGTSLVYDTLDLIPDVLE  175
+
+Query  179  TTLDGIADQRLTPRPQPADGVSVAPKITVANARVRWDLPAAVVERRIRAVT-PNPGAWTL  237
+              LD I +   TP PQ     +   K +  ++ V W  PAA +ER IRA++ P P A+T 
+Sbjct  176  DALDAIENGTATPVPQDLSQRTFFHKRSDRDSLVDWSWPAADIERFIRALSDPYPNAYTY  235
+
+Query  238  IGDLRVKLGPVHLDAAHRPSKPLPPGGIHVERT  270
+                R++L   H+    R +    PG + +E  
+Sbjct  236  FRGERLRLISAHVS---RCTYGGTPGRVFIEEN  265
+
+
+>VFG011178(gb|WP_003807059) (wbmU) methionyl-tRNA formyltransferase 
+[LPS (VF0033) - Immune modulation (VFC0258)] [Bordetella 
+parapertussis 12822]
+Length=312
+
+ Score = 75.9 bits (185),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 57/167 (34%), Positives = 81/167 (49%), Gaps = 4/167 (2%)
+
+Query  81   ECCAVVAYGALLGGPLLAVPPHGWVNLHFSLLPAWRGAAPVQAAIAAGDTITGATTFQIE  140
+            + C V  +  +L   L  +   G V LH S LP  RG AP+  AI AG   T  T F + 
+Sbjct  84   DLCVVAGWYHMLPSRLRDLFRLGAVGLHASRLPELRGGAPLNWAILAGFERTAVTLFALG  143
+
+Query  141  PSLDSGPIYGVVTEVIQPTDTAGDLLKRLAVSGAALLSTTLDGIADQRLTPRPQPADGV-  199
+              +D GP+YG     + P D  G+L+ R   +   L+   + GI D  L P  Q  DGV 
+Sbjct  144  DGVDDGPVYGQEAIDVGPNDYIGELVARCNAASVVLVERCISGILDGSLVPAVQ--DGVA  201
+
+Query  200  SVAPKITVANARVRWDLPAAVVERRIRAVT-PNPGAWTLIGDLRVKL  245
+            S   + +  +  + W  PAA + R +RAV+ P PGA T +    V++
+Sbjct  202  SYGAQRSPEDGVIDWAAPAAGIARLVRAVSRPYPGASTWLDGRLVRI  248
+
+
+>VFG011184(gb|WP_003807066) (wbmQ) formyl transferase [LPS (VF0033) 
+- Immune modulation (VFC0258)] [Bordetella parapertussis 
+12822]
+Length=274
+
+ Score = 63.2 bits (152),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 49/163 (30%), Positives = 75/163 (46%), Gaps = 3/163 (2%)
+
+Query  53   AAERGIPVL---RPSRPNSAEFVAELSDLAPECCAVVAYGALLGGPLLAVPPHGWVNLHF  109
+            A E G  +L   R   P  A FV +L+  AP    V +Y  +L   +L++  +  +N+H 
+Sbjct  52   ADEMGCSLLIQPRHDAPTYAGFVQQLAQTAPTRILVHSYSMILRPDVLSLVDYDALNIHA  111
+
+Query  110  SLLPAWRGAAPVQAAIAAGDTITGATTFQIEPSLDSGPIYGVVTEVIQPTDTAGDLLKRL  169
+            +LLP  RG  PVQ A+   +  TG T   ++  LD+G I       I   DT   L KRL
+Sbjct  112  ALLPRNRGPNPVQWALIHDEAETGVTLHYLDDGLDTGDIVAQERIGISDADTWVTLSKRL  171
+
+Query  170  AVSGAALLSTTLDGIADQRLTPRPQPADGVSVAPKITVANARV  212
+              +   L+   +  + D RL   PQ     +   ++T  + R+
+Sbjct  172  RQATGRLIERNMAALLDGRLPRTPQAQREATKNSRLTAESPRL  214
+
+
+>VFG011503(gb|WP_006189959) (wbkC) GDP-mannose 4,6-dehydratase 
+/ GDP-4-amino-4,6-dideoxy-D-mannose formyltransferase [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella suis 1330]
+Length=259
+
+ Score = 62.0 bits (149),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 35/102 (34%), Positives = 53/102 (52%), Gaps = 0/102 (0%)
+
+Query  67   NSAEFVAELSDLAPECCAVVAYGALLGGPLLAVPPHGWVNLHFSLLPAWRGAAPVQAAIA  126
+            NS EF    ++  P+    + Y +L+ G  L +   G VNLH SLLPA+RG   V   I 
+Sbjct  66   NSEEFYEFGANFDPDMIISMHYRSLIPGRFLKLAKKGSVNLHPSLLPAYRGTNSVAWVII  125
+
+Query  127  AGDTITGATTFQIEPSLDSGPIYGVVTEVIQPTDTAGDLLKR  168
+             G++ TG +  +++ + D+G I       ++ TDTA  L  R
+Sbjct  126  NGESETGFSYHRMDENFDTGAILLQERISVEETDTAFSLFHR  167
+
+
+>VFG002230(gb|WP_002963675) (wbkC) GDP-mannose 4,6-dehydratase 
+/ GDP-4-amino-4,6-dideoxy-D-mannose formyltransferase [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella melitensis 
+bv. 1 str. 16M]
+Length=259
+
+ Score = 62.0 bits (149),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 35/102 (34%), Positives = 53/102 (52%), Gaps = 0/102 (0%)
+
+Query  67   NSAEFVAELSDLAPECCAVVAYGALLGGPLLAVPPHGWVNLHFSLLPAWRGAAPVQAAIA  126
+            NS EF    ++  P+    + Y +L+ G  L +   G VNLH SLLPA+RG   V   I 
+Sbjct  66   NSEEFYEFGANFDPDMIISMHYRSLIPGRFLKLAKKGSVNLHPSLLPAYRGTNSVAWVII  125
+
+Query  127  AGDTITGATTFQIEPSLDSGPIYGVVTEVIQPTDTAGDLLKR  168
+             G++ TG +  +++ + D+G I       ++ TDTA  L  R
+Sbjct  126  NGESETGFSYHRMDENFDTGAILLQERISVEETDTAFSLFHR  167
+
+
+>VFG019226(gb|WP_006072301) (wbkC) GDP-mannose 4,6-dehydratase 
+/ GDP-4-amino-4,6-dideoxy-D-mannose formyltransferase [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella suis ATCC 
+23445]
+Length=259
+
+ Score = 62.0 bits (149),  Expect = 5e-11, Method: Compositional matrix adjust.
+ Identities = 35/102 (34%), Positives = 53/102 (52%), Gaps = 0/102 (0%)
+
+Query  67   NSAEFVAELSDLAPECCAVVAYGALLGGPLLAVPPHGWVNLHFSLLPAWRGAAPVQAAIA  126
+            NS EF    ++  P+    + Y +L+ G  L +   G VNLH SLLPA+RG   V   I 
+Sbjct  66   NSEEFYEFGANFDPDMIISMHYRSLIPGRFLKLAKKGSVNLHPSLLPAYRGTNSVAWVII  125
+
+Query  127  AGDTITGATTFQIEPSLDSGPIYGVVTEVIQPTDTAGDLLKR  168
+             G++ TG +  +++ + D+G I       ++ TDTA  L  R
+Sbjct  126  NGESETGFSYHRMDENFDTGAILLQERISVEETDTAFSLFHR  167
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.135    0.412    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2226038796
+
+
+Query= g18.t1
+
+Length=314
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG021856(gb|WP_029104465) (fxbA) methionyl-tRNA formyltransferas...  119     4e-31
+VFG011178(gb|WP_003807059) (wbmU) methionyl-tRNA formyltransferas...  97.8    2e-23
+VFG011184(gb|WP_003807066) (wbmQ) formyl transferase [LPS (VF0033...  70.5    6e-14
+VFG011182(gb|WP_003807064) (wbmR) formyl transferase [LPS (VF0033...  70.9    7e-14
+VFG019226(gb|WP_006072301) (wbkC) GDP-mannose 4,6-dehydratase / G...  65.9    2e-12
+VFG002230(gb|WP_002963675) (wbkC) GDP-mannose 4,6-dehydratase / G...  65.9    2e-12
+VFG011503(gb|WP_006189959) (wbkC) GDP-mannose 4,6-dehydratase / G...  65.9    3e-12
+VFG018006(gb|WP_002866154) (C8J_RS05600) hypothetical protein [LO...  63.5    2e-11
+VFG011183(gb|WP_010925716) (wbmR) formyl transferase [LPS (VF0033...  54.7    2e-08
+
+
+>VFG021856(gb|WP_029104465) (fxbA) methionyl-tRNA formyltransferase 
+[Exochelin (smegmatis) (VF0819) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium smegmatis str. MC2 155]
+Length=319
+
+ Score = 119 bits (297),  Expect = 4e-31, Method: Compositional matrix adjust.
+ Identities = 80/280 (29%), Positives = 140/280 (50%), Gaps = 5/280 (2%)
+
+Query  5    LRIVFAGTPEFAAEHLKALLDTPHRIVAVYTQPDRPAGRGQKLMPSAVKSLALEHGLPVM  64
+            +R+V  G   +    L+ALL + H +  V T P       + +   +V+ LA   G+ V+
+Sbjct  1    MRVVMFGYQTWGHRTLQALLKSRHEVCLVVTHPTSDHAY-ESIWADSVEDLARGAGIEVL  59
+
+Query  65   QPQSLRNAEAQAELAALRADLMVVVAYGLILPQAVLDIPRLGCINSHASLLPRWRGAAPI  124
+              +     E    +  L  D+ V   +   LP+ +  IP+ G +N H SLLP++ G +P+
+Sbjct  60   LAKR-PTPELVERVRELAPDVGVANNWRTRLPRELFSIPKYGTVNLHDSLLPKFTGFSPV  118
+
+Query  125  QRAVEAGDAESGVTVMQMEAGLDTGPMLLKVSTPISAADTGGSLHDRLAALGPKAVIEAI  184
+              ++ +G  ++G+T   M+  LDTG +LL+ S  I+   TG SL      L P  + +A+
+Sbjct  119  IWSLISGAGQTGLTAHFMDDELDTGDILLQRSVEITPTSTGTSLVYDTLDLIPDVLEDAL  178
+
+Query  185  AGLAAGTLHGEIQDDALATYAHKLNKDEARLDWSRPAVELERQVRAFT-PWPVCHTSLAD  243
+              +  GT     QD +  T+ HK +  ++ +DWS PA ++ER +RA + P+P  +T    
+Sbjct  179  DAIENGTATPVPQDLSQRTFFHKRSDRDSLVDWSWPAADIERFIRALSDPYPNAYTYFRG  238
+
+Query  244  APLKVLGASLGQGS--GAPGTILEASRDGLLVACGEGALR  281
+              L+++ A + + +  G PG +      G+++  G  A R
+Sbjct  239  ERLRLISAHVSRCTYGGTPGRVFIEENGGMVIVAGADAFR  278
+
+
+>VFG011178(gb|WP_003807059) (wbmU) methionyl-tRNA formyltransferase 
+[LPS (VF0033) - Immune modulation (VFC0258)] [Bordetella 
+parapertussis 12822]
+Length=312
+
+ Score = 97.8 bits (242),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 85/301 (28%), Positives = 142/301 (47%), Gaps = 14/301 (5%)
+
+Query  6    RIVFAGTPEFAAEHLKALLDTPHRIVAVYTQPDRPAGRGQKLMPSAVKSLA------LEH  59
+            RI   G+ +      +A+L   H I ++   P RP        P A+   A      + H
+Sbjct  3    RIALFGSTDITVAVAEAILRAGHAIASITHVP-RPFEISYSDKPVAISRQADVAQWCVAH  61
+
+Query  60   GLPVMQPQSLRNAEAQAELAALRADLMVVVAYGLILPQAVLDIPRLGCINSHASLLPRWR  119
+             +P ++   +   ++        ADL VV  +  +LP  + D+ RLG +  HAS LP  R
+Sbjct  62   AIPAIEYAGVD--KSVEHFRNNPADLCVVAGWYHMLPSRLRDLFRLGAVGLHASRLPELR  119
+
+Query  120  GAAPIQRAVEAGDAESGVTVMQMEAGLDTGPMLLKVSTPISAADTGGSLHDRLAALGPKA  179
+            G AP+  A+ AG   + VT+  +  G+D GP+  + +  +   D  G L  R  A     
+Sbjct  120  GGAPLNWAILAGFERTAVTLFALGDGVDDGPVYGQEAIDVGPNDYIGELVARCNAASVVL  179
+
+Query  180  VIEAIAGLAAGTLHGEIQDDALATYAHKLNKDEARLDWSRPAVELERQVRAFT-PWPVCH  238
+            V   I+G+  G+L   +Q D +A+Y  + + ++  +DW+ PA  + R VRA + P+P   
+Sbjct  180  VERCISGILDGSLVPAVQ-DGVASYGAQRSPEDGVIDWAAPAAGIARLVRAVSRPYPGAS  238
+
+Query  239  TSLADAPLKVLGASLGQGS---GAPGTILEASRDGLLVACGEGALRLTRLQLPGGKPLAF  295
+            T L    +++  A   + +   GAPG IL      ++VA G+GA+ +   +  GG+ +  
+Sbjct  239  TWLDGRLVRIWRAGEYRAAAVYGAPGQILCLPGGQVVVATGKGAIEIEEAEDDGGQSVMV  298
+
+Query  296  A  296
+            A
+Sbjct  299  A  299
+
+
+>VFG011184(gb|WP_003807066) (wbmQ) formyl transferase [LPS (VF0033) 
+- Immune modulation (VFC0258)] [Bordetella parapertussis 
+12822]
+Length=274
+
+ Score = 70.5 bits (171),  Expect = 6e-14, Method: Compositional matrix adjust.
+ Identities = 52/146 (36%), Positives = 76/146 (52%), Gaps = 1/146 (1%)
+
+Query  86   MVVVAYGLILPQAVLDIPRLGCINSHASLLPRWRGAAPIQRAVEAGDAESGVTVMQMEAG  145
+            ++V +Y +IL   VL +     +N HA+LLPR RG  P+Q A+   +AE+GVT+  ++ G
+Sbjct  85   ILVHSYSMILRPDVLSLVDYDALNIHAALLPRNRGPNPVQWALIHDEAETGVTLHYLDDG  144
+
+Query  146  LDTGPMLLKVSTPISAADTGGSLHDRLAALGPKAVIEAIAGLAAGTLHGEIQDDALATYA  205
+            LDTG ++ +    IS ADT  +L  RL     + +   +A L  G L    Q    AT  
+Sbjct  145  LDTGDIVAQERIGISDADTWVTLSKRLRQATGRLIERNMAALLDGRLPRTPQAQREATKN  204
+
+Query  206  HKLNKDEARLD-WSRPAVELERQVRA  230
+             +L  +  RLD +     EL   VRA
+Sbjct  205  SRLTAESPRLDPYGMSDRELFNWVRA  230
+
+
+>VFG011182(gb|WP_003807064) (wbmR) formyl transferase [LPS (VF0033) 
+- Immune modulation (VFC0258)] [Bordetella parapertussis 
+12822]
+Length=309
+
+ Score = 70.9 bits (172),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 75/291 (26%), Positives = 123/291 (42%), Gaps = 14/291 (5%)
+
+Query  5    LRIVFAGTPEFAAEHLKALLDTPHRIVAVYTQPDRPAGRGQKLMPSAVKSLALEHGLPVM  64
+            ++ V  G  E     ++ L+D  H +  V T    P  R         +SLA   G+P  
+Sbjct  1    MKFVAIGRHEILLRTIEMLVDAGHELAGVLTAAPAPEYRADV---DDFRSLAARKGVPC-  56
+
+Query  65   QPQSLRNAEAQAELAALRADLMVVVAYGLILPQAVLDIPRLGCINSHASLLPRWRGAAPI  124
+               +    E  A LA L A++ V   +  ++  A +D    G +N+H   LPR+RG A  
+Sbjct  57   HVSNRYGPEMVAALAGLGAEIAVSYNFPTVIGHAAIDSFPRGILNAHGGDLPRYRGNACQ  116
+
+Query  125  QRAVEAGDAESGVTVMQMEAG-LDTGPMLLKVSTPISAADTGGSLHDRLAALGPKAVIEA  183
+              A+  G+   G+ V  M A  LD+G ++ K    +    T G++   +    P   + A
+Sbjct  117  AWALIQGEPAIGLCVHYMVADELDSGDVIAKAMLDVDHHTTIGTVAQWMEQATPPLFVAA  176
+
+Query  184  IAGL---AAGTLHGEIQDDALATYAHKLNKDEARLDWSRPAVELERQVRAF-TPWPVCHT  239
+            +  L    +  L+ +  D   A   +     + R+DW++PA+++ R + A   P+     
+Sbjct  177  LERLRHDPSYVLYRQCDDGRPALRCYPRQPSDGRIDWTKPAIDVVRHINASGHPYAGAFF  236
+
+Query  240  SLADAPLKVLGASLGQGS---GAPGTILEASRDGLL-VACGEGAL-RLTRL  285
+                   +V  A    G      PG +   + DG + VACG G L RL R+
+Sbjct  237  YFESNAYRVDEAQWIDGGAYLAVPGQVAGRNPDGSVDVACGGGGLCRLARI  287
+
+
+>VFG019226(gb|WP_006072301) (wbkC) GDP-mannose 4,6-dehydratase 
+/ GDP-4-amino-4,6-dideoxy-D-mannose formyltransferase [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella suis ATCC 
+23445]
+Length=259
+
+ Score = 65.9 bits (159),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 51/170 (30%), Positives = 82/170 (48%), Gaps = 9/170 (5%)
+
+Query  71   NAEAQAELAA-LRADLMVVVAYGLILPQAVLDIPRLGCINSHASLLPRWRGAAPIQRAVE  129
+            N+E   E  A    D+++ + Y  ++P   L + + G +N H SLLP +RG   +   + 
+Sbjct  66   NSEEFYEFGANFDPDMIISMHYRSLIPGRFLKLAKKGSVNLHPSLLPAYRGTNSVAWVII  125
+
+Query  130  AGDAESGVTVMQMEAGLDTGPMLLKVSTPISAADTGGSLHDRLAALGPKAVIEAIAGLAA  189
+             G++E+G +  +M+   DTG +LL+    +   DT  SL  R  A     + E I  L  
+Sbjct  126  NGESETGFSYHRMDENFDTGAILLQERISVEETDTAFSLFHRQIARAMLRLEEVILKLDQ  185
+
+Query  190  GTLHGEIQDDALATYAHKLNKDEARLD--WSRPAVELERQVRA--FTPWP  235
+            G   G  Q    + YA +L      +D  WS   V+++R +RA  F P+P
+Sbjct  186  GD-PGFAQLGEASYYARELPFGGV-IDPRWSE--VQIDRFIRAMFFPPFP  231
+
+
+>VFG002230(gb|WP_002963675) (wbkC) GDP-mannose 4,6-dehydratase 
+/ GDP-4-amino-4,6-dideoxy-D-mannose formyltransferase [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella melitensis 
+bv. 1 str. 16M]
+Length=259
+
+ Score = 65.9 bits (159),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 49/168 (29%), Positives = 80/168 (48%), Gaps = 5/168 (3%)
+
+Query  71   NAEAQAELAA-LRADLMVVVAYGLILPQAVLDIPRLGCINSHASLLPRWRGAAPIQRAVE  129
+            N+E   E  A    D+++ + Y  ++P   L + + G +N H SLLP +RG   +   + 
+Sbjct  66   NSEEFYEFGANFDPDMIISMHYRSLIPGRFLKLAKKGSVNLHPSLLPAYRGTNSVAWVII  125
+
+Query  130  AGDAESGVTVMQMEAGLDTGPMLLKVSTPISAADTGGSLHDRLAALGPKAVIEAIAGLAA  189
+             G++E+G +  +M+   DTG +LL+    +   DT  SL  R  A     + E I  L  
+Sbjct  126  NGESETGFSYHRMDENFDTGAILLQERISVEETDTAFSLFHRQIARAMLRLEEVILKLDQ  185
+
+Query  190  GTLHGEIQDDALATYAHKLNKDEARLDWSRPAVELERQVRA--FTPWP  235
+            G   G  Q    + YA +L      +D     V+++R +RA  F P+P
+Sbjct  186  GD-PGFAQLGEASYYARELPFGGV-IDPRWSEVQIDRFIRAMFFPPFP  231
+
+
+>VFG011503(gb|WP_006189959) (wbkC) GDP-mannose 4,6-dehydratase 
+/ GDP-4-amino-4,6-dideoxy-D-mannose formyltransferase [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella suis 1330]
+Length=259
+
+ Score = 65.9 bits (159),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 49/168 (29%), Positives = 80/168 (48%), Gaps = 5/168 (3%)
+
+Query  71   NAEAQAELAA-LRADLMVVVAYGLILPQAVLDIPRLGCINSHASLLPRWRGAAPIQRAVE  129
+            N+E   E  A    D+++ + Y  ++P   L + + G +N H SLLP +RG   +   + 
+Sbjct  66   NSEEFYEFGANFDPDMIISMHYRSLIPGRFLKLAKKGSVNLHPSLLPAYRGTNSVAWVII  125
+
+Query  130  AGDAESGVTVMQMEAGLDTGPMLLKVSTPISAADTGGSLHDRLAALGPKAVIEAIAGLAA  189
+             G++E+G +  +M+   DTG +LL+    +   DT  SL  R  A     + E I  L  
+Sbjct  126  NGESETGFSYHRMDENFDTGAILLQERISVEETDTAFSLFHRQIARAMLRLEEVILKLDQ  185
+
+Query  190  GTLHGEIQDDALATYAHKLNKDEARLDWSRPAVELERQVRA--FTPWP  235
+            G   G  Q    + YA +L      +D     V+++R +RA  F P+P
+Sbjct  186  GD-PGFAQLGEASYYARELPFGGV-IDPRWSEVQIDRFIRAMFFPPFP  231
+
+
+>VFG018006(gb|WP_002866154) (C8J_RS05600) hypothetical protein 
+[LOS (VF0326) - Immune modulation (VFC0258)] [Campylobacter 
+jejuni subsp. jejuni 81116]
+Length=272
+
+ Score = 63.5 bits (153),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 49/233 (21%), Positives = 99/233 (42%), Gaps = 23/233 (10%)
+
+Query  5    LRIVFAGTPEFAAEHLKALLDTPH---RIVAVYTQPDRPAGRGQKLMPSAVKSLALEHGL  61
+            ++I  AG    A   L+ +L       +IV +  + D+     QK    ++   AL++ +
+Sbjct  2    IKICIAGKNNIAVNSLQFILKNYFEADQIVVIPNKNDKGIDSWQK----SLLKFALDNNI  57
+
+Query  62   PVMQPQSLRNAEAQAELAALRADLMVVVAYGLILPQAVLDIPRLGCINSHASLLPRWRGA  121
+             ++    + N E Q    +L  D ++ +           +       N H S LP+++G 
+Sbjct  58   KIVTLDEIYNIE-QIIFFSLEFDQIIKIE----------NFKSDRLFNIHFSALPKYKGV  106
+
+Query  122  APIQRAVEAGDAESGVTVMQMEAGLDTGPMLLKVSTPISAADTGGSLHDRLAALGPKAVI  181
+                  +   + ESGVT+ +++ G+DTG ++ +   PI   DT   L+      G     
+Sbjct  107  FTSITPILNNELESGVTLHRIDNGIDTGNIIDQHCFPIDINDTARDLYFNYLKYGESIFK  166
+
+Query  182  EAIAGLAAGTLHGEIQDDALATYAHKLNKDEA---RLDWSRPAVELERQVRAF  231
+            + I  +   +     Q +  ++Y  +  KD     ++++ + + E+  Q+RAF
+Sbjct  167  KNIQTIINNSYKDLKQTNINSSYFSR--KDINLVHKINFKKTSFEIHNQIRAF  217
+
+
+>VFG011183(gb|WP_010925716) (wbmR) formyl transferase [LPS (VF0033) 
+- Immune modulation (VFC0258)] [Bordetella bronchiseptica 
+RB50]
+Length=309
+
+ Score = 54.7 bits (130),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 51/213 (24%), Positives = 94/213 (44%), Gaps = 12/213 (6%)
+
+Query  84   DLMVVVAYGLILPQAVLDIPRLGCINSHASLLPRWRGAAPIQRAVEAGDAESGVTVMQME  143
+            D+ V + +  ++ +  + +   G +N+H   LPR+RG A    A+   + E G+ V +M 
+Sbjct  76   DIAVSLNFPTVIERDAIGVFPFGILNAHGGDLPRYRGNACQAWALINAEPEIGLCVHKMV  135
+
+Query  144  AG-LDTGPMLLKVSTPISAADTGGSLHDRLAALGPKAVIEAIAGLAAG---TLHGEIQDD  199
+             G LD+G ++ K   P+       ++   +    PK    A+  LA      L+ +  D 
+Sbjct  136  GGELDSGDVIAKDMLPVDHHTRIRTVAQWIEEQTPKLFCAALEQLARDPQYVLYRQTDDP  195
+
+Query  200  ALATYAHKLNKDEARLDWSRPAVELERQVRAFTPWPVCHTSLADAPLKVL-----GASLG  254
+                       ++ R+DWSR A ++ R + A  P P           + L       + G
+Sbjct  196  RPPLRCFPRRPEDGRIDWSRTAKDVVRHINASGP-PYAGAFFEYEAQRYLVYEADWVAGG  254
+
+Query  255  QGSGAPGTILEASRDGLL-VAC-GEGALRLTRL  285
+            +    PG ++  ++DG + +AC G+G  RL+ +
+Sbjct  255  EYLAIPGQVVARNQDGSIEIACGGDGYCRLSSI  287
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.390    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2247039162
+
+
+Query= g3174.t1
+
+Length=315
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG021856(gb|WP_029104465) (fxbA) methionyl-tRNA formyltransferas...  127     2e-34
+VFG011178(gb|WP_003807059) (wbmU) methionyl-tRNA formyltransferas...  98.2    2e-23
+VFG011184(gb|WP_003807066) (wbmQ) formyl transferase [LPS (VF0033...  79.3    5e-17
+VFG019226(gb|WP_006072301) (wbkC) GDP-mannose 4,6-dehydratase / G...  75.5    1e-15
+VFG011503(gb|WP_006189959) (wbkC) GDP-mannose 4,6-dehydratase / G...  75.1    1e-15
+VFG002230(gb|WP_002963675) (wbkC) GDP-mannose 4,6-dehydratase / G...  75.1    2e-15
+VFG011183(gb|WP_010925716) (wbmR) formyl transferase [LPS (VF0033...  73.2    1e-14
+VFG011182(gb|WP_003807064) (wbmR) formyl transferase [LPS (VF0033...  70.9    7e-14
+VFG018006(gb|WP_002866154) (C8J_RS05600) hypothetical protein [LO...  55.5    9e-09
+
+
+>VFG021856(gb|WP_029104465) (fxbA) methionyl-tRNA formyltransferase 
+[Exochelin (smegmatis) (VF0819) - Nutritional/Metabolic 
+factor (VFC0272)] [Mycobacterium smegmatis str. MC2 155]
+Length=319
+
+ Score = 127 bits (319),  Expect = 2e-34, Method: Compositional matrix adjust.
+ Identities = 89/276 (32%), Positives = 137/276 (50%), Gaps = 5/276 (2%)
+
+Query  5    LRIIFAGTPDFAARHLDALLTSGHNVVGVFTQPDRPAGRGKKLMPSPVKVLAEEKGLPVF  64
+            +R++  G   +  R L ALL S H V  V T P       + +    V+ LA   G+ V 
+Sbjct  1    MRVVMFGYQTWGHRTLQALLKSRHEVCLVVTHPTSDHAY-ESIWADSVEDLARGAGIEVL  59
+
+Query  65   QPVSLRPQ-ENQHLVADLHADVMVVVAYGLILPKAVLDMPRLGCINVHGSLLPRWRGAAP  123
+              ++ RP  E    V +L  DV V   +   LP+ +  +P+ G +N+H SLLP++ G +P
+Sbjct  60   --LAKRPTPELVERVRELAPDVGVANNWRTRLPRELFSIPKYGTVNLHDSLLPKFTGFSP  117
+
+Query  124  IQRSLWAGDAETGVTIMQMDVGLDTGDMLYKLACPITAEDTSGSLYNKLAELGPQGLITT  183
+            +  SL +G  +TG+T   MD  LDTGD+L + +  IT   T  SL     +L P  L   
+Sbjct  118  VIWSLISGAGQTGLTAHFMDDELDTGDILLQRSVEITPTSTGTSLVYDTLDLIPDVLEDA  177
+
+Query  184  LKQLADGTATPEAQNEALVTHAEKLSKEEARIDWSLSAAQLERCIRAF-NPWPMSWLEID  242
+            L  + +GTATP  Q+ +  T   K S  ++ +DWS  AA +ER IRA  +P+P ++    
+Sbjct  178  LDAIENGTATPVPQDLSQRTFFHKRSDRDSLVDWSWPAADIERFIRALSDPYPNAYTYFR  237
+
+Query  243  GQPVKVWQASVIEDATQSLPGTILAATKQGIQVATG  278
+            G+ +++  A V        PG +      G+ +  G
+Sbjct  238  GERLRLISAHVSRCTYGGTPGRVFIEENGGMVIVAG  273
+
+
+>VFG011178(gb|WP_003807059) (wbmU) methionyl-tRNA formyltransferase 
+[LPS (VF0033) - Immune modulation (VFC0258)] [Bordetella 
+parapertussis 12822]
+Length=312
+
+ Score = 98.2 bits (243),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 77/300 (26%), Positives = 138/300 (46%), Gaps = 16/300 (5%)
+
+Query  6    RIIFAGTPDFAARHLDALLTSGHNVVGVFTQP--------DRPAGRGKKLMPSPVKVLAE  57
+            RI   G+ D      +A+L +GH +  +   P        D+P    ++   + V     
+Sbjct  3    RIALFGSTDITVAVAEAILRAGHAIASITHVPRPFEISYSDKPVAISRQ---ADVAQWCV  59
+
+Query  58   EKGLPVFQPVSLRPQENQHLVADLHADVMVVVAYGLILPKAVLDMPRLGCINVHGSLLPR  117
+               +P  +   +  +  +H   +  AD+ VV  +  +LP  + D+ RLG + +H S LP 
+Sbjct  60   AHAIPAIEYAGVD-KSVEHFRNN-PADLCVVAGWYHMLPSRLRDLFRLGAVGLHASRLPE  117
+
+Query  118  WRGAAPIQRSLWAGDAETGVTIMQMDVGLDTGDMLYKLACPITAEDTSGSLYNKLAELGP  177
+             RG AP+  ++ AG   T VT+  +  G+D G +  + A  +   D  G L  +      
+Sbjct  118  LRGGAPLNWAILAGFERTAVTLFALGDGVDDGPVYGQEAIDVGPNDYIGELVARCNAASV  177
+
+Query  178  QGLITTLKQLADGTATPEAQNEALVTHAEKLSKEEARIDWSLSAAQLERCIRAFN-PWPM  236
+              +   +  + DG+  P  Q+  + ++  + S E+  IDW+  AA + R +RA + P+P 
+Sbjct  178  VLVERCISGILDGSLVPAVQD-GVASYGAQRSPEDGVIDWAAPAAGIARLVRAVSRPYPG  236
+
+Query  237  SWLEIDGQPVKVWQASVIE-DATQSLPGTILAATKQGIQVATGKGILNLLSLQPAGKKAM  295
+            +   +DG+ V++W+A      A    PG IL      + VATGKG + +   +  G +++
+Sbjct  237  ASTWLDGRLVRIWRAGEYRAAAVYGAPGQILCLPGGQVVVATGKGAIEIEEAEDDGGQSV  296
+
+
+>VFG011184(gb|WP_003807066) (wbmQ) formyl transferase [LPS (VF0033) 
+- Immune modulation (VFC0258)] [Bordetella parapertussis 
+12822]
+Length=274
+
+ Score = 79.3 bits (194),  Expect = 5e-17, Method: Compositional matrix adjust.
+ Identities = 53/148 (36%), Positives = 84/148 (57%), Gaps = 5/148 (3%)
+
+Query  86   MVVVAYGLILPKAVLDMPRLGCINVHGSLLPRWRGAAPIQRSLWAGDAETGVTIMQMDVG  145
+            ++V +Y +IL   VL +     +N+H +LLPR RG  P+Q +L   +AETGVT+  +D G
+Sbjct  85   ILVHSYSMILRPDVLSLVDYDALNIHAALLPRNRGPNPVQWALIHDEAETGVTLHYLDDG  144
+
+Query  146  LDTGDMLYKLACPITAEDTSGSLYNKLAELGPQGLITTLKQLADGT--ATPEAQNEALVT  203
+            LDTGD++ +    I+  DT  +L  +L +   + +   +  L DG    TP+AQ EA  T
+Sbjct  145  LDTGDIVAQERIGISDADTWVTLSKRLRQATGRLIERNMAALLDGRLPRTPQAQREA--T  202
+
+Query  204  HAEKLSKEEARID-WSLSAAQLERCIRA  230
+               +L+ E  R+D + +S  +L   +RA
+Sbjct  203  KNSRLTAESPRLDPYGMSDRELFNWVRA  230
+
+
+>VFG019226(gb|WP_006072301) (wbkC) GDP-mannose 4,6-dehydratase 
+/ GDP-4-amino-4,6-dideoxy-D-mannose formyltransferase [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella suis ATCC 
+23445]
+Length=259
+
+ Score = 75.5 bits (184),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 56/207 (27%), Positives = 98/207 (47%), Gaps = 16/207 (8%)
+
+Query  64   FQPVSLRPQENQHLVADLHADVMVVVAYGLILPKAVLDMPRLGCINVHGSLLPRWRGAAP  123
+            F   +   +E     A+   D+++ + Y  ++P   L + + G +N+H SLLP +RG   
+Sbjct  60   FTTAAANSEEFYEFGANFDPDMIISMHYRSLIPGRFLKLAKKGSVNLHPSLLPAYRGTNS  119
+
+Query  124  IQRSLWAGDAETGVTIMQMDVGLDTGDMLYKLACPITAEDTSGSLYNK---LAELGPQGL  180
+            +   +  G++ETG +  +MD   DTG +L +    +   DT+ SL+++    A L  + +
+Sbjct  120  VAWVIINGESETGFSYHRMDENFDTGAILLQERISVEETDTAFSLFHRQIARAMLRLEEV  179
+
+Query  181  ITTLKQLADGTATPEAQNEALVTHAEKLSKE---EARIDWSLSAAQLERCIRA--FNPWP  235
+            I  L Q   G A         +  A   ++E      ID   S  Q++R IRA  F P+P
+Sbjct  180  ILKLDQGDPGFAQ--------LGEASYYARELPFGGVIDPRWSEVQIDRFIRAMFFPPFP  231
+
+Query  236  MSWLEIDGQPVKVWQASVIEDATQSLP  262
+             + L+IDG+   V    +     +++P
+Sbjct  232  PAVLKIDGKVYYVPSIDIYRSLMRAIP  258
+
+
+>VFG011503(gb|WP_006189959) (wbkC) GDP-mannose 4,6-dehydratase 
+/ GDP-4-amino-4,6-dideoxy-D-mannose formyltransferase [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella suis 1330]
+Length=259
+
+ Score = 75.1 bits (183),  Expect = 1e-15, Method: Compositional matrix adjust.
+ Identities = 56/207 (27%), Positives = 97/207 (47%), Gaps = 16/207 (8%)
+
+Query  64   FQPVSLRPQENQHLVADLHADVMVVVAYGLILPKAVLDMPRLGCINVHGSLLPRWRGAAP  123
+            F   +   +E     A+   D+++ + Y  ++P   L + + G +N+H SLLP +RG   
+Sbjct  60   FTTAAANSEEFYEFGANFDPDMIISMHYRSLIPGRFLKLAKKGSVNLHPSLLPAYRGTNS  119
+
+Query  124  IQRSLWAGDAETGVTIMQMDVGLDTGDMLYKLACPITAEDTSGSLYNK---LAELGPQGL  180
+            +   +  G++ETG +  +MD   DTG +L +    +   DT+ SL+++    A L  + +
+Sbjct  120  VAWVIINGESETGFSYHRMDENFDTGAILLQERISVEETDTAFSLFHRQIARAMLRLEEV  179
+
+Query  181  ITTLKQLADGTATPEAQNEALVTHAEKLSKE---EARIDWSLSAAQLERCIRA--FNPWP  235
+            I  L Q   G A         +  A   ++E      ID   S  Q++R IRA  F P+P
+Sbjct  180  ILKLDQGDPGFAQ--------LGEASYYARELPFGGVIDPRWSEVQIDRFIRAMFFPPFP  231
+
+Query  236  MSWLEIDGQPVKVWQASVIEDATQSLP  262
+             + L+IDG+   V    +     + +P
+Sbjct  232  PAVLKIDGKVYYVPSIDIYRSLIRGIP  258
+
+
+>VFG002230(gb|WP_002963675) (wbkC) GDP-mannose 4,6-dehydratase 
+/ GDP-4-amino-4,6-dideoxy-D-mannose formyltransferase [LPS 
+(VF0367) - Immune modulation (VFC0258)] [Brucella melitensis 
+bv. 1 str. 16M]
+Length=259
+
+ Score = 75.1 bits (183),  Expect = 2e-15, Method: Compositional matrix adjust.
+ Identities = 56/207 (27%), Positives = 97/207 (47%), Gaps = 16/207 (8%)
+
+Query  64   FQPVSLRPQENQHLVADLHADVMVVVAYGLILPKAVLDMPRLGCINVHGSLLPRWRGAAP  123
+            F   +   +E     A+   D+++ + Y  ++P   L + + G +N+H SLLP +RG   
+Sbjct  60   FTTAAANSEEFYEFGANFDPDMIISMHYRSLIPGRFLKLAKKGSVNLHPSLLPAYRGTNS  119
+
+Query  124  IQRSLWAGDAETGVTIMQMDVGLDTGDMLYKLACPITAEDTSGSLYNK---LAELGPQGL  180
+            +   +  G++ETG +  +MD   DTG +L +    +   DT+ SL+++    A L  + +
+Sbjct  120  VAWVIINGESETGFSYHRMDENFDTGAILLQERISVEETDTAFSLFHRQIARAMLRLEEV  179
+
+Query  181  ITTLKQLADGTATPEAQNEALVTHAEKLSKE---EARIDWSLSAAQLERCIRA--FNPWP  235
+            I  L Q   G A         +  A   ++E      ID   S  Q++R IRA  F P+P
+Sbjct  180  ILKLDQGDPGFAQ--------LGEASYYARELPFGGVIDPRWSEVQIDRFIRAMFFPPFP  231
+
+Query  236  MSWLEIDGQPVKVWQASVIEDATQSLP  262
+             + L+IDG+   V    +     + +P
+Sbjct  232  PAVLKIDGKVYYVPSIDIYRSLMRGIP  258
+
+
+>VFG011183(gb|WP_010925716) (wbmR) formyl transferase [LPS (VF0033) 
+- Immune modulation (VFC0258)] [Bordetella bronchiseptica 
+RB50]
+Length=309
+
+ Score = 73.2 bits (178),  Expect = 1e-14, Method: Compositional matrix adjust.
+ Identities = 77/298 (26%), Positives = 133/298 (45%), Gaps = 18/298 (6%)
+
+Query  20   LDALLTSGHNVVGVFTQPDRPAGRGKKLMPSPVKVLAEEKGLPVFQPVSLRPQENQHLVA  79
+            +D L+ +GH +  + T  + P         S   V  E KG     PV + P+     V 
+Sbjct  16   IDMLVEAGHQLSYILTAKEAPEY-------SAGVVDFERKGRQFGVPVYVTPRLTPEWVD  68
+
+Query  80   DL--HA-DVMVVVAYGLILPKAVLDMPRLGCINVHGSLLPRWRGAAPIQRSLWAGDAETG  136
+             +  HA D+ V + +  ++ +  + +   G +N HG  LPR+RG A    +L   + E G
+Sbjct  69   KMRQHAVDIAVSLNFPTVIERDAIGVFPFGILNAHGGDLPRYRGNACQAWALINAEPEIG  128
+
+Query  137  VTIMQMDVG-LDTGDMLYKLACPITAEDTSGSLYNKLAELGPQGLITTLKQLA-DGTATP  194
+            + + +M  G LD+GD++ K   P+       ++   + E  P+     L+QLA D     
+Sbjct  129  LCVHKMVGGELDSGDVIAKDMLPVDHHTRIRTVAQWIEEQTPKLFCAALEQLARDPQYVL  188
+
+Query  195  EAQNEALVTHAEKLSK--EEARIDWSLSAAQLERCIRAFN-PWPMSWLEIDGQPVKVWQA  251
+              Q +          +  E+ RIDWS +A  + R I A   P+  ++ E + Q   V++A
+Sbjct  189  YRQTDDPRPPLRCFPRRPEDGRIDWSRTAKDVVRHINASGPPYAGAFFEYEAQRYLVYEA  248
+
+Query  252  SVIEDATQ-SLPGTILAATKQG-IQVAT-GKGILNLLSLQPAGKKAMSAQDLLNSRRE  306
+              +      ++PG ++A  + G I++A  G G   L S+     + +    L+ S RE
+Sbjct  249  DWVAGGEYLAIPGQVVARNQDGSIEIACGGDGYCRLSSISRVDDEWVLPGFLIKSVRE  306
+
+
+>VFG011182(gb|WP_003807064) (wbmR) formyl transferase [LPS (VF0033) 
+- Immune modulation (VFC0258)] [Bordetella parapertussis 
+12822]
+Length=309
+
+ Score = 70.9 bits (172),  Expect = 7e-14, Method: Compositional matrix adjust.
+ Identities = 74/291 (25%), Positives = 129/291 (44%), Gaps = 15/291 (5%)
+
+Query  5    LRIIFAGTPDFAARHLDALLTSGHNVVGVFTQPDRPAGRGKKLMPSPVKVLAEEKGLPVF  64
+            ++ +  G  +   R ++ L+ +GH + GV T    P  R         + LA  KG+P  
+Sbjct  1    MKFVAIGRHEILLRTIEMLVDAGHELAGVLTAAPAPEYRADV---DDFRSLAARKGVPCH  57
+
+Query  65   QPVSLRPQENQHLVADLHADVMVVVAYGLILPKAVLDMPRLGCINVHGSLLPRWRGAAPI  124
+                  P+    L A L A++ V   +  ++  A +D    G +N HG  LPR+RG A  
+Sbjct  58   VSNRYGPEMVAAL-AGLGAEIAVSYNFPTVIGHAAIDSFPRGILNAHGGDLPRYRGNACQ  116
+
+Query  125  QRSLWAGDAETGVTIMQMDVG-LDTGDMLYKLACPITAEDTSGSLYNKLAELGPQGLITT  183
+              +L  G+   G+ +  M    LD+GD++ K    +    T G++   + +  P   +  
+Sbjct  117  AWALIQGEPAIGLCVHYMVADELDSGDVIAKAMLDVDHHTTIGTVAQWMEQATPPLFVAA  176
+
+Query  184  LKQL-ADGTATPEAQNE----ALVTHAEKLSKEEARIDWSLSAAQLERCIRAF-NPWPMS  237
+            L++L  D +     Q +    AL  +  + S  + RIDW+  A  + R I A  +P+  +
+Sbjct  177  LERLRHDPSYVLYRQCDDGRPALRCYPRQPS--DGRIDWTKPAIDVVRHINASGHPYAGA  234
+
+Query  238  WLEIDGQPVKVWQASVIE-DATQSLPGTILAATKQG-IQVATGKGILNLLS  286
+            +   +    +V +A  I+  A  ++PG +      G + VA G G L  L+
+Sbjct  235  FFYFESNAYRVDEAQWIDGGAYLAVPGQVAGRNPDGSVDVACGGGGLCRLA  285
+
+
+>VFG018006(gb|WP_002866154) (C8J_RS05600) hypothetical protein 
+[LOS (VF0326) - Immune modulation (VFC0258)] [Campylobacter 
+jejuni subsp. jejuni 81116]
+Length=272
+
+ Score = 55.5 bits (132),  Expect = 9e-09, Method: Compositional matrix adjust.
+ Identities = 29/127 (23%), Positives = 63/127 (50%), Gaps = 7/127 (6%)
+
+Query  109  NVHGSLLPRWRGAAPIQRSLWAGDAETGVTIMQMDVGLDTGDMLYKLACPITAEDTSGSL  168
+            N+H S LP+++G       +   + E+GVT+ ++D G+DTG+++ +   PI   DT+  L
+Sbjct  94   NIHFSALPKYKGVFTSITPILNNELESGVTLHRIDNGIDTGNIIDQHCFPIDINDTARDL  153
+
+Query  169  YNKLAELGPQGLITTLKQLADGTATPEAQNEALVTHAEKLSKEEA----RIDWSLSAAQL  224
+            Y    + G       ++ + + +     Q      ++   S+++     +I++  ++ ++
+Sbjct  154  YFNYLKYGESIFKKNIQTIINNSYKDLKQTN---INSSYFSRKDINLVHKINFKKTSFEI  210
+
+Query  225  ERCIRAF  231
+               IRAF
+Sbjct  211  HNQIRAF  217
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.134    0.401    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2257539345
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

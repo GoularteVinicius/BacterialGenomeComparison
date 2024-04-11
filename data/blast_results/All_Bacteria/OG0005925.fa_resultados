@@ -1,0 +1,114 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g871.t1
+
+Length=477
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG014133(gb|WP_012075037) (PSPA7_RS09485) SDR family oxidoreduct...  64.3    3e-11
+VFG045309(gb|WP_010946498) (LPG_RS03775) NAD-dependent epimerase/...  53.9    7e-08
+
+
+>VFG014133(gb|WP_012075037) (PSPA7_RS09485) SDR family oxidoreductase 
+[LPS (VF0085) - Immune modulation (VFC0258)] [Pseudomonas 
+aeruginosa PA7]
+Length=318
+
+ Score = 64.3 bits (155),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 68/265 (26%), Positives = 118/265 (45%), Gaps = 37/265 (14%)
+
+Query  3    QRILVLGASGYIGQHLVFALSQQGHQVRAAARRI--ERLEKQRLANVSCHKVDLHWPENL  60
+             ++L+ GASG++G+ L   L +QG+ +  A RRI  + LE      V   + D  W + L
+Sbjct  2    NKVLLTGASGFVGKALAGELLRQGYALNMAFRRIPSKVLEGAVAIPVGNIEGDTLWSDAL  61
+
+Query  61   PALLRDIDTVYYL---VHGMGEGG-DFIAHER----QAALNVRDALRQTPVKQLIFLSSL  112
+                  +DTV +    VH M +   D +A  R    +  LN+        VK+ +F+SS+
+Sbjct  62   AG----VDTVIHSAARVHVMNDHALDPLAEFRKVNVEGTLNLARQAAAAGVKRFVFVSSI  117
+
+Query  113  QAPAHEQ--------------SDHLRARQLTAD-----TLRDAGVPVTELRAGIIVGAGS  153
+            +                    SD     +L A+        +AG+    +R  ++ G G 
+Sbjct  118  KVNGESTTADSPFKPDDVPAPSDPYGISKLEAEIGLRQVCEEAGMEYAIVRPVLVYGPGV  177
+
+Query  154  AA--FEVMRDMVYNLPILTPPRWVRSRTTPIALENLLYYLVGLLDHPAREHRILEAAGPQ  211
+             A    +M+ +   +P+  P   +++R + ++L NL+  L+ +  HPA  +++   +  +
+Sbjct  178  KANFLNMMKWLDKGIPL--PLGAIKNRRSLVSLTNLMDMLITVASHPAAANQVFLVSDGE  235
+
+Query  212  VLSYQQQFERFMAVSGKRRPLIPVP  236
+             LS      R  A  GKR  L+PVP
+Sbjct  236  DLSTTGLLRRMAAAMGKRANLLPVP  260
+
+
+>VFG045309(gb|WP_010946498) (LPG_RS03775) NAD-dependent epimerase/dehydratase 
+family protein [LPS (VF0171) - Immune modulation 
+(VFC0258)] [Legionella pneumophila subsp. pneumophila str. 
+Philadelphia 1]
+Length=318
+
+ Score = 53.9 bits (128),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 59/262 (23%), Positives = 111/262 (42%), Gaps = 35/262 (13%)
+
+Query  4    RILVLGASGYIGQHLVFALSQQGHQVRAAARRIERLEKQRLANVSCHKVDLHWPENLPAL  63
+            +IL+ GA+G+IG+ LV AL  +GH VR A  +++   +     ++  +V   W +     
+Sbjct  3    KILITGATGFIGRSLVPALLSEGHDVRCAVLQLDSTLQAEQIVINNLEVHTDWTD----A  58
+
+Query  64   LRDIDTVYYL---VHGMGEGG-----DFIAHERQAALNVRDALRQTPVKQLIFLSSLQA-  114
+            LR+++ V +L   VH M E       ++      A  N  +   Q  VK+ IFLS+++  
+Sbjct  59   LRNVEIVIHLAARVHIMKEYATSSLDEYCKINSIATKNFVEQAVQNNVKRFIFLSTIKVH  118
+
+Query  115  --------PAHEQS----------DHLRARQLTADTLRDAGVPVTELRAGIIVGAGSAA-  155
+                    P  E              L A Q   +  ++A +    LR  ++ G    A 
+Sbjct  119  GEFSQNNLPFSEDCRTQPEDPYAKSKLYAEQFIQEICQNARMEFVILRPPLVYGPYVKAN  178
+
+Query  156  -FEVMRDMVYNLPILTPPRWVRSRTTPIALENLLYYLVGLLDHPAREHRILEAAGPQVLS  214
+               +++ +    P+  P   + ++ T I ++NL+  +  ++  P+  +++   A     S
+Sbjct  179  FLRILQLVDKKWPL--PFGSIYNKRTFIYIDNLVSAISAVVSEPSAANQVYLVADDCSWS  236
+
+Query  215  YQQQFERFMAVSGKRRPLIPVP  236
+              Q  +        +  LIP+P
+Sbjct  237  LTQLVQTLSRKMNTKLFLIPIP  258
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.139    0.430    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3874819115
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

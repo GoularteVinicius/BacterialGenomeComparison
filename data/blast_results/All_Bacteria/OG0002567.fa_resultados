@@ -1,0 +1,128 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1018.t1
+
+Length=357
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044071(gb|NP_214719) (Rv0205) transmembrane protein [Heme upta...  57.0    6e-09
+
+
+>VFG044071(gb|NP_214719) (Rv0205) transmembrane protein [Heme 
+uptake (VF0859) - Nutritional/Metabolic factor (VFC0272)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=367
+
+ Score = 57.0 bits (136),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 66/276 (24%), Positives = 112/276 (41%), Gaps = 6/276 (2%)
+
+Query  59   LERFRVPHLFAVWLVYSLFLGLLALFLVVLLPLLWQQLFTLFNELPRMLGEWQSVLLMLP  118
+            L+   +PH  AV LV      +L   L  ++      L  L  E+ R +   +  L+  P
+Sbjct  65   LDSRGLPHAVAVTLVLLSGFAVLGGILTFVVSQFIAGLPHLVTEVERSIDSARRWLIEGP  124
+
+Query  119  ERYPSLISEEQVLKAIETARGEFGQIGQWALTSSLASLPVVVNVMIYLVLVPILVFFFLK  178
+                    +     AIE  R    ++   AL+++      +  ++   VLV   + FFL 
+Sbjct  125  AHLRGEQIDNAGNAAIEALRNNQAKLTSGALSTA----ATITELVTAAVLVLFTLIFFLY  180
+
+Query  179  DKKRFHTWFHRYLPRE-RGLMKQVWAEMNQQIANYIRGKVIEIVITGAVTYIAFAYLGLN  237
+              +    +  +  P   R  ++         +  Y R   +  +   A      A +G+ 
+Sbjct  181  GGRSIWQYVTKAFPASVRDRVRAAGRAGYASLIGYARATFLVALTDAAGVGAGLAVMGVP  240
+
+Query  238  YAALLALLVGLSVVVPYIGAVVVSVPVAMIAFFQWGWSDQFIYLMVAHAIIQALDGNVLV  297
+             A  LA LV     +P IGAVV      ++A    G     I + +  A+ Q L+ ++L 
+Sbjct  241  LALPLASLVFFGAFIPLIGAVVAGFLAVVVALLAKGIGYALITVGLLIAVNQ-LEAHLLQ  299
+
+Query  298  PLLFSEAVNLHPVAIICAVLLFGGLWGFWGVFFAIP  333
+            PL+   AV++HP+A++ A+   G L G  G   A+P
+Sbjct  300  PLVMGRAVSIHPLAVVLAIAAGGVLAGVVGALLAVP  335
+
+
+
+Lambda      K        H        a         alpha
+   0.332    0.145    0.454    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2680883456
+
+
+Query= g2327.t1
+
+Length=355
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044071(gb|NP_214719) (Rv0205) transmembrane protein [Heme upta...  57.4    4e-09
+
+
+>VFG044071(gb|NP_214719) (Rv0205) transmembrane protein [Heme 
+uptake (VF0859) - Nutritional/Metabolic factor (VFC0272)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=367
+
+ Score = 57.4 bits (137),  Expect = 4e-09, Method: Compositional matrix adjust.
+ Identities = 62/235 (26%), Positives = 97/235 (41%), Gaps = 20/235 (9%)
+
+Query  131  DAMAENMRTRMLNMGDSVVKYSLASLVGLLTLAVYLVLVPLMVFFLVKDKE------QML  184
+            +A  E +R     +    +  + A++  L+T AV ++    ++FFL   +       +  
+Sbjct  137  NAAIEALRNNQAKLTSGALSTA-ATITELVTAAVLVLFT--LIFFLYGGRSIWQYVTKAF  193
+
+Query  185  NAVRRVLPRNRGLAGQVWNEMNQQITNYIRGKVLEMVVVGVATWLGFLLFGLNYSLLLAV  244
+             A  R   R  G AG         +  Y R   L  +        G  + G+  +L LA 
+Sbjct  194  PASVRDRVRAAGRAGY------ASLIGYARATFLVALTDAAGVGAGLAVMGVPLALPLAS  247
+
+Query  245  LVGFSVLIPYIGAFVVTIPVVGVALFQFGLGTEFWSCFAVYLIIQALDGNLLVPVLFSEA  304
+            LV F   IP IGA V     V VAL   G+G    +   + + +  L+ +LL P++   A
+Sbjct  248  LVFFGAFIPLIGAVVAGFLAVVVALLAKGIGYALITV-GLLIAVNQLEAHLLQPLVMGRA  306
+
+Query  305  VNLHPLVIILSVVIFGGLWGFWGVFFAIPLATLIKAVVH----AWPDGQVTDASS  355
+            V++HPL ++L++   G L G  G   A+P        V       P   V D SS
+Sbjct  307  VSIHPLAVVLAIAAGGVLAGVVGALLAVPTVAFFNNAVQVLLGGNPFADVADVSS  361
+
+
+
+Lambda      K        H        a         alpha
+   0.332    0.145    0.449    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2659939054
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

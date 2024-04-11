@@ -1,0 +1,864 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g310.t1
+
+Length=102
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.415    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 326415213
+
+
+Query= g1592.t1
+
+Length=154
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG026890(gb|WP_015303486) (ahpC) peroxiredoxin AhpC [AhpC (VF030...  49.7    6e-08
+VFG001404(gb|NP_216944) (ahpC) alkyl hydroperoxide reductase subu...  49.7    7e-08
+VFG024105(gb|WP_008256883) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  49.7    7e-08
+VFG022828(gb|WP_012394463) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  48.9    1e-07
+VFG026892(gb|WP_015293685) (ahpC) peroxiredoxin AhpC [AhpC (VF030...  48.9    1e-07
+VFG009678(gb|WP_010908685) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  48.9    1e-07
+VFG009679(gb|WP_011740864) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  48.5    2e-07
+VFG009677(gb|WP_009976955) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  48.1    2e-07
+VFG009676(gb|WP_003876555) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  47.8    3e-07
+VFG022829(gb|YP_001705132) (ahpC) Putative alkylhydroperoxidase C...  47.0    5e-07
+VFG009680(gb|WP_011730169) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  47.0    5e-07
+VFG022835(gb|WP_013828895) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  46.6    9e-07
+
+
+>VFG026890(gb|WP_015303486) (ahpC) peroxiredoxin AhpC [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium canettii 
+CIPT 140070008]
+Length=195
+
+ Score = 49.7 bits (117),  Expect = 6e-08, Method: Compositional matrix adjust.
+ Identities = 33/126 (26%), Positives = 61/126 (48%), Gaps = 8/126 (6%)
+
+Query  32   VLFFYPAAMTPGCTKEACHFRDLAKEFAEVRASRVGISTDP----VRKQAKFAEVRRFDY  87
+            V+FF+P   T  C  E   F  L  EF +  A  +G+S D      + +A+  +++   +
+Sbjct  49   VVFFWPKDFTFVCPTEIAAFSKLNDEFEDRDAQILGVSIDSEFAHFQWRAQHNDLKTLPF  108
+
+Query  88   PLLSDAQGTVAAQFGVKRGLLGKLMPVKRTTFVIDTDRKVLDVISSEFSMDAHADKALAT  147
+            P+LSD    +  +     G+L       R TF++D + ++  V ++  S+  + D+ L  
+Sbjct  109  PMLSD----IKRELSQAAGVLNADGVADRVTFIVDPNNEIQFVSATAGSVGRNVDEVLRV  164
+
+Query  148  LRAIRS  153
+            L A++S
+Sbjct  165  LDALQS  170
+
+
+>VFG001404(gb|NP_216944) (ahpC) alkyl hydroperoxide reductase 
+subunit AhpC [AhpC (VF0306) - Stress survival (VFC0282)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=195
+
+ Score = 49.7 bits (117),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 33/126 (26%), Positives = 61/126 (48%), Gaps = 8/126 (6%)
+
+Query  32   VLFFYPAAMTPGCTKEACHFRDLAKEFAEVRASRVGISTDP----VRKQAKFAEVRRFDY  87
+            V+FF+P   T  C  E   F  L  EF +  A  +G+S D      + +A+  +++   +
+Sbjct  49   VVFFWPKDFTFVCPTEIAAFSKLNDEFEDRDAQILGVSIDSEFAHFQWRAQHNDLKTLPF  108
+
+Query  88   PLLSDAQGTVAAQFGVKRGLLGKLMPVKRTTFVIDTDRKVLDVISSEFSMDAHADKALAT  147
+            P+LSD    +  +     G+L       R TF++D + ++  V ++  S+  + D+ L  
+Sbjct  109  PMLSD----IKRELSQAAGVLNADGVADRVTFIVDPNNEIQFVSATAGSVGRNVDEVLRV  164
+
+Query  148  LRAIRS  153
+            L A++S
+Sbjct  165  LDALQS  170
+
+
+>VFG024105(gb|WP_008256883) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium indicus pranii 
+MTCC 9506]
+Length=195
+
+ Score = 49.7 bits (117),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 33/126 (26%), Positives = 62/126 (49%), Gaps = 8/126 (6%)
+
+Query  32   VLFFYPAAMTPGCTKEACHFRDLAKEFAEVRASRVGISTDP----VRKQAKFAEVRRFDY  87
+            V+FF+P   T  C  E   F  L  EFA+  A  +G+S D        +A+  ++++  +
+Sbjct  49   VVFFWPKDFTFVCPTEIAAFGKLNDEFADRDAQVLGVSIDSEFVHFNWRAQHEDLKKLPF  108
+
+Query  88   PLLSDAQGTVAAQFGVKRGLLGKLMPVKRTTFVIDTDRKVLDVISSEFSMDAHADKALAT  147
+            P+LSD    +  +  +  G+L       R TF++D + ++  V  +  S+  + ++ L  
+Sbjct  109  PMLSD----IKRELSLATGVLNADGVADRATFLVDPNNEIQFVSVTAGSVGRNVEEVLRV  164
+
+Query  148  LRAIRS  153
+            L A++S
+Sbjct  165  LDALQS  170
+
+
+>VFG022828(gb|WP_012394463) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium marinum M]
+Length=195
+
+ Score = 48.9 bits (115),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 34/126 (27%), Positives = 62/126 (49%), Gaps = 8/126 (6%)
+
+Query  32   VLFFYPAAMTPGCTKEACHFRDLAKEFAEVRASRVGISTDP----VRKQAKFAEVRRFDY  87
+            V+FF+P   T  C  E   F  L  EF +  A  +G+S D      + +A+  +++   +
+Sbjct  49   VVFFWPKDFTFVCPTEIAAFGKLNDEFEDRDAQVLGVSIDSEFVHFQWRAQHDDLKNLPF  108
+
+Query  88   PLLSDAQGTVAAQFGVKRGLLGKLMPVKRTTFVIDTDRKVLDVISSEFSMDAHADKALAT  147
+            P+L+D +  + A  GV    L       R TF++D + ++  V ++  S+  + D+ L  
+Sbjct  109  PMLADIKRELVAATGV----LNADGVADRVTFIVDPNNEIQFVSATAGSVGRNVDEVLRV  164
+
+Query  148  LRAIRS  153
+            L A++S
+Sbjct  165  LDALQS  170
+
+
+>VFG026892(gb|WP_015293685) (ahpC) peroxiredoxin AhpC [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium canettii 
+CIPT 140070017]
+Length=195
+
+ Score = 48.9 bits (115),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 33/126 (26%), Positives = 61/126 (48%), Gaps = 8/126 (6%)
+
+Query  32   VLFFYPAAMTPGCTKEACHFRDLAKEFAEVRASRVGISTDP----VRKQAKFAEVRRFDY  87
+            V+FF+P   T  C  E   F  L  EF +  A  +G+S D      + +A+  +++   +
+Sbjct  49   VVFFWPKDFTFVCPTEIAAFGKLNDEFEDRDAQILGVSIDSEFAHFQWRAQHNDLKTLPF  108
+
+Query  88   PLLSDAQGTVAAQFGVKRGLLGKLMPVKRTTFVIDTDRKVLDVISSEFSMDAHADKALAT  147
+            P+LSD    +  +     G+L       R TF++D + ++  V ++  S+  + D+ L  
+Sbjct  109  PMLSD----IKRELSQAAGVLNADGVADRVTFIVDPNNEIQFVSATAGSVGRNVDEVLRV  164
+
+Query  148  LRAIRS  153
+            L A++S
+Sbjct  165  LDALQS  170
+
+
+>VFG009678(gb|WP_010908685) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium leprae TN]
+Length=195
+
+ Score = 48.9 bits (115),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 35/126 (28%), Positives = 61/126 (48%), Gaps = 8/126 (6%)
+
+Query  32   VLFFYPAAMTPGCTKEACHFRDLAKEFAEVRASRVGISTDP----VRKQAKFAEVRRFDY  87
+            V+FF+P   T  C  E   F  L +EF    A  +G+S D      + +A+  +++R  +
+Sbjct  49   VVFFWPKDFTFICPTEIAAFGKLNEEFEGRGAQILGVSIDSEFVHFQWRAQHEDLKRLPF  108
+
+Query  88   PLLSDAQGTVAAQFGVKRGLLGKLMPVKRTTFVIDTDRKVLDVISSEFSMDAHADKALAT  147
+            P+LSD +  ++A      G L       R TF++D D  +  V  +  S+  + ++ L  
+Sbjct  109  PMLSDIKRELSA----ASGALNADGVADRVTFIVDPDNDIQFVSVTAGSVGRNVEEVLRV  164
+
+Query  148  LRAIRS  153
+            L A++S
+Sbjct  165  LDALQS  170
+
+
+>VFG009679(gb|WP_011740864) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium ulcerans Agy99]
+Length=195
+
+ Score = 48.5 bits (114),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 34/126 (27%), Positives = 62/126 (49%), Gaps = 8/126 (6%)
+
+Query  32   VLFFYPAAMTPGCTKEACHFRDLAKEFAEVRASRVGISTDP----VRKQAKFAEVRRFDY  87
+            V+FF+P   T  C  E   F  L  EF +  A  +G+S D      + +A+  +++   +
+Sbjct  49   VVFFWPKDFTFVCPTEIAAFGKLNDEFDDRDAQVLGVSIDSEFVHFQWRAQHDDLKNLPF  108
+
+Query  88   PLLSDAQGTVAAQFGVKRGLLGKLMPVKRTTFVIDTDRKVLDVISSEFSMDAHADKALAT  147
+            P+L+D +  + A  GV    L       R TF++D + ++  V ++  S+  + D+ L  
+Sbjct  109  PMLADIKRELVAAAGV----LNADGVADRVTFIVDPNNEIQFVSATAGSVGRNVDEVLRV  164
+
+Query  148  LRAIRS  153
+            L A++S
+Sbjct  165  LDALQS  170
+
+
+>VFG009677(gb|WP_009976955) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium avium 104]
+Length=195
+
+ Score = 48.1 bits (113),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 32/126 (25%), Positives = 60/126 (48%), Gaps = 8/126 (6%)
+
+Query  32   VLFFYPAAMTPGCTKEACHFRDLAKEFAEVRASRVGISTDP----VRKQAKFAEVRRFDY  87
+            V+FF+P   T  C  E   F  L  EF +  A  +G+S D        +A+  +++   +
+Sbjct  49   VVFFWPKDFTFVCPTEIATFGKLNDEFEDRDAQVLGVSIDSEFVHFNWRAQHEDLKNLPF  108
+
+Query  88   PLLSDAQGTVAAQFGVKRGLLGKLMPVKRTTFVIDTDRKVLDVISSEFSMDAHADKALAT  147
+            P+LSD    +  +  +  G+L       R TF++D + ++  V  +  S+  + ++ L  
+Sbjct  109  PMLSD----IKRELSLATGVLNADGVADRATFIVDPNNEIQFVSVTAGSVGRNVEEVLRV  164
+
+Query  148  LRAIRS  153
+            L A++S
+Sbjct  165  LDALQS  170
+
+
+>VFG009676(gb|WP_003876555) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium avium subsp. paratuberculosis 
+K-10]
+Length=195
+
+ Score = 47.8 bits (112),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 32/126 (25%), Positives = 60/126 (48%), Gaps = 8/126 (6%)
+
+Query  32   VLFFYPAAMTPGCTKEACHFRDLAKEFAEVRASRVGISTDP----VRKQAKFAEVRRFDY  87
+            V+FF+P   T  C  E   F  L  EF +  A  +G+S D        +A+  +++   +
+Sbjct  49   VVFFWPKDFTFVCPTEIATFGKLNDEFEDRDAQVLGVSIDSEFVHFNWRAQHEDLKNLPF  108
+
+Query  88   PLLSDAQGTVAAQFGVKRGLLGKLMPVKRTTFVIDTDRKVLDVISSEFSMDAHADKALAT  147
+            P+LSD    +  +  +  G+L       R TF++D + ++  V  +  S+  + ++ L  
+Sbjct  109  PMLSD----IKRELSLATGVLNADGVADRATFIVDPNNEIQFVSVTAGSVGRNVEEVLRV  164
+
+Query  148  LRAIRS  153
+            L A++S
+Sbjct  165  LDALQS  170
+
+
+>VFG022829(gb|YP_001705132) (ahpC) Putative alkylhydroperoxidase 
+C [AhpC (VF0306) - Stress survival (VFC0282)] [Mycobacterium 
+abscessus ATCC 19977]
+Length=195
+
+ Score = 47.0 bits (110),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 36/126 (29%), Positives = 59/126 (47%), Gaps = 8/126 (6%)
+
+Query  32   VLFFYPAAMTPGCTKEACHFRDLAKEFAEVRASRVGISTDP----VRKQAKFAEVRRFDY  87
+            V+FF+P   T  C  E   F  L  EFA+     +G S D      + +A+  +++   +
+Sbjct  49   VIFFWPKDFTFVCPTEIAAFGRLNDEFADRDTQVLGASVDNEFVHFQWRAQHEDLKTLPF  108
+
+Query  88   PLLSDAQGTVAAQFGVKRGLLGKLMPVKRTTFVIDTDRKVLDVISSEFSMDAHADKALAT  147
+            P+LSD +  +A   GV    L       R TF++D D  +  V  +  S+  + D+ L  
+Sbjct  109  PMLSDLKRELAEAAGV----LNADGVADRATFIVDPDNIIQFVSVTAGSVGRNVDEVLRV  164
+
+Query  148  LRAIRS  153
+            L A++S
+Sbjct  165  LDALQS  170
+
+
+>VFG009680(gb|WP_011730169) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium smegmatis str. 
+MC2 155]
+Length=195
+
+ Score = 47.0 bits (110),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 33/126 (26%), Positives = 62/126 (49%), Gaps = 8/126 (6%)
+
+Query  32   VLFFYPAAMTPGCTKEACHFRDLAKEFAEVRASRVGISTDP----VRKQAKFAEVRRFDY  87
+            ++FF+P   T  C  E   F  L ++F +  A  +G+S D      + +A+  +++   +
+Sbjct  49   IIFFWPKDFTFVCPTEIAAFGKLNEDFEDRDAKVLGVSVDNEFVHFQWRAQHEDLKTLPF  108
+
+Query  88   PLLSDAQGTVAAQFGVKRGLLGKLMPVKRTTFVIDTDRKVLDVISSEFSMDAHADKALAT  147
+            P++SD +  + A  GV    L       R TF++D + +V  V  +  S+  + D+ L  
+Sbjct  109  PMVSDLKRELTAACGV----LNADGVADRATFIVDPNNEVQFVSVTAGSVGRNVDEVLRV  164
+
+Query  148  LRAIRS  153
+            L A++S
+Sbjct  165  LDALQS  170
+
+
+>VFG022835(gb|WP_013828895) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium sp. JDM601]
+Length=195
+
+ Score = 46.6 bits (109),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 33/126 (26%), Positives = 60/126 (48%), Gaps = 8/126 (6%)
+
+Query  32   VLFFYPAAMTPGCTKEACHFRDLAKEFAEVRASRVGISTDP----VRKQAKFAEVRRFDY  87
+            ++FF+P   T  C  E   F  L  +FA+  A  +G+S D        + +  +++   +
+Sbjct  49   IVFFWPKDFTFVCPTEIAAFGKLNDDFADRDAQVLGVSIDNEFVHYNWRLQHEDLKTLPF  108
+
+Query  88   PLLSDAQGTVAAQFGVKRGLLGKLMPVKRTTFVIDTDRKVLDVISSEFSMDAHADKALAT  147
+            P+LSD +  +A   GV    L       R TF++D + ++  V  +  S+  + D+ L  
+Sbjct  109  PMLSDLKRELAEATGV----LNADGVADRATFIVDPNNEIQFVSVTAGSVGRNVDEVLRV  164
+
+Query  148  LRAIRS  153
+            L A++S
+Sbjct  165  LDALQS  170
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.391    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 677377323
+
+
+Query= g2211.t1
+
+Length=153
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG026890(gb|WP_015303486) (ahpC) peroxiredoxin AhpC [AhpC (VF030...  53.1    3e-09
+VFG001404(gb|NP_216944) (ahpC) alkyl hydroperoxide reductase subu...  53.1    3e-09
+VFG009676(gb|WP_003876555) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  52.8    5e-09
+VFG009680(gb|WP_011730169) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  52.4    5e-09
+VFG026892(gb|WP_015293685) (ahpC) peroxiredoxin AhpC [AhpC (VF030...  52.4    6e-09
+VFG009677(gb|WP_009976955) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  52.4    6e-09
+VFG022829(gb|YP_001705132) (ahpC) Putative alkylhydroperoxidase C...  50.4    3e-08
+VFG024105(gb|WP_008256883) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  48.5    1e-07
+VFG022835(gb|WP_013828895) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  48.5    1e-07
+VFG022828(gb|WP_012394463) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  47.8    3e-07
+VFG026903(gb|YP_007958466) (ahpC) alkyl hydroperoxide reductase s...  48.1    3e-07
+VFG009679(gb|WP_011740864) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  46.2    1e-06
+VFG009678(gb|WP_010908685) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  45.1    3e-06
+
+
+>VFG026890(gb|WP_015303486) (ahpC) peroxiredoxin AhpC [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium canettii 
+CIPT 140070008]
+Length=195
+
+ Score = 53.1 bits (126),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 35/101 (35%), Positives = 51/101 (50%), Gaps = 7/101 (7%)
+
+Query  33   LLVFFPLAFTGICQGELDQLRDHLPEFENDDSAALAISVGPPPTHKIWATQSG----FTF  88
+            ++ F+P  FT +C  E+        EFE+ D+  L +S+     H  W  Q        F
+Sbjct  49   VVFFWPKDFTFVCPTEIAAFSKLNDEFEDRDAQILGVSIDSEFAHFQWRAQHNDLKTLPF  108
+
+Query  89   PLLSDFWPHGAVSQAYGVFNEQAGIANRGTFVVDRSGIIRF  129
+            P+LSD      +SQA GV N   G+A+R TF+VD +  I+F
+Sbjct  109  PMLSDI--KRELSQAAGVLNAD-GVADRVTFIVDPNNEIQF  146
+
+
+>VFG001404(gb|NP_216944) (ahpC) alkyl hydroperoxide reductase 
+subunit AhpC [AhpC (VF0306) - Stress survival (VFC0282)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=195
+
+ Score = 53.1 bits (126),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 35/101 (35%), Positives = 51/101 (50%), Gaps = 7/101 (7%)
+
+Query  33   LLVFFPLAFTGICQGELDQLRDHLPEFENDDSAALAISVGPPPTHKIWATQSG----FTF  88
+            ++ F+P  FT +C  E+        EFE+ D+  L +S+     H  W  Q        F
+Sbjct  49   VVFFWPKDFTFVCPTEIAAFSKLNDEFEDRDAQILGVSIDSEFAHFQWRAQHNDLKTLPF  108
+
+Query  89   PLLSDFWPHGAVSQAYGVFNEQAGIANRGTFVVDRSGIIRF  129
+            P+LSD      +SQA GV N   G+A+R TF+VD +  I+F
+Sbjct  109  PMLSDI--KRELSQAAGVLNAD-GVADRVTFIVDPNNEIQF  146
+
+
+>VFG009676(gb|WP_003876555) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium avium subsp. paratuberculosis 
+K-10]
+Length=195
+
+ Score = 52.8 bits (125),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 38/116 (33%), Positives = 55/116 (47%), Gaps = 8/116 (7%)
+
+Query  21   VTLRGYRGAKNVLLVFFPLAFTGICQGELDQLRDHLPEFENDDSAALAISVGPPPTHKIW  80
+            VT   + G   V+  F+P  FT +C  E+        EFE+ D+  L +S+     H  W
+Sbjct  38   VTSEDHAGKWRVVF-FWPKDFTFVCPTEIATFGKLNDEFEDRDAQVLGVSIDSEFVHFNW  96
+
+Query  81   ATQ----SGFTFPLLSDFWPHGAVSQAYGVFNEQAGIANRGTFVVDRSGIIRFAEM  132
+              Q        FP+LSD      +S A GV N   G+A+R TF+VD +  I+F  +
+Sbjct  97   RAQHEDLKNLPFPMLSDI--KRELSLATGVLNAD-GVADRATFIVDPNNEIQFVSV  149
+
+
+>VFG009680(gb|WP_011730169) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium smegmatis str. 
+MC2 155]
+Length=195
+
+ Score = 52.4 bits (124),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 36/116 (31%), Positives = 57/116 (49%), Gaps = 8/116 (7%)
+
+Query  21   VTLRGYRGAKNVLLVFFPLAFTGICQGELDQLRDHLPEFENDDSAALAISVGPPPTHKIW  80
+            VT + Y G K  ++ F+P  FT +C  E+        +FE+ D+  L +SV     H  W
+Sbjct  38   VTSKDYEG-KWRIIFFWPKDFTFVCPTEIAAFGKLNEDFEDRDAKVLGVSVDNEFVHFQW  96
+
+Query  81   ATQ----SGFTFPLLSDFWPHGAVSQAYGVFNEQAGIANRGTFVVDRSGIIRFAEM  132
+              Q        FP++SD      ++ A GV N   G+A+R TF+VD +  ++F  +
+Sbjct  97   RAQHEDLKTLPFPMVSDL--KRELTAACGVLNAD-GVADRATFIVDPNNEVQFVSV  149
+
+
+>VFG026892(gb|WP_015293685) (ahpC) peroxiredoxin AhpC [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium canettii 
+CIPT 140070017]
+Length=195
+
+ Score = 52.4 bits (124),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 35/101 (35%), Positives = 51/101 (50%), Gaps = 7/101 (7%)
+
+Query  33   LLVFFPLAFTGICQGELDQLRDHLPEFENDDSAALAISVGPPPTHKIWATQSG----FTF  88
+            ++ F+P  FT +C  E+        EFE+ D+  L +S+     H  W  Q        F
+Sbjct  49   VVFFWPKDFTFVCPTEIAAFGKLNDEFEDRDAQILGVSIDSEFAHFQWRAQHNDLKTLPF  108
+
+Query  89   PLLSDFWPHGAVSQAYGVFNEQAGIANRGTFVVDRSGIIRF  129
+            P+LSD      +SQA GV N   G+A+R TF+VD +  I+F
+Sbjct  109  PMLSDI--KRELSQAAGVLNAD-GVADRVTFIVDPNNEIQF  146
+
+
+>VFG009677(gb|WP_009976955) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium avium 104]
+Length=195
+
+ Score = 52.4 bits (124),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 34/104 (33%), Positives = 51/104 (49%), Gaps = 7/104 (7%)
+
+Query  33   LLVFFPLAFTGICQGELDQLRDHLPEFENDDSAALAISVGPPPTHKIWATQ----SGFTF  88
+            ++ F+P  FT +C  E+        EFE+ D+  L +S+     H  W  Q        F
+Sbjct  49   VVFFWPKDFTFVCPTEIATFGKLNDEFEDRDAQVLGVSIDSEFVHFNWRAQHEDLKNLPF  108
+
+Query  89   PLLSDFWPHGAVSQAYGVFNEQAGIANRGTFVVDRSGIIRFAEM  132
+            P+LSD      +S A GV N   G+A+R TF+VD +  I+F  +
+Sbjct  109  PMLSDI--KRELSLATGVLNAD-GVADRATFIVDPNNEIQFVSV  149
+
+
+>VFG022829(gb|YP_001705132) (ahpC) Putative alkylhydroperoxidase 
+C [AhpC (VF0306) - Stress survival (VFC0282)] [Mycobacterium 
+abscessus ATCC 19977]
+Length=195
+
+ Score = 50.4 bits (119),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 34/104 (33%), Positives = 50/104 (48%), Gaps = 7/104 (7%)
+
+Query  33   LLVFFPLAFTGICQGELDQLRDHLPEFENDDSAALAISVGPPPTHKIWATQ----SGFTF  88
+            ++ F+P  FT +C  E+        EF + D+  L  SV     H  W  Q        F
+Sbjct  49   VIFFWPKDFTFVCPTEIAAFGRLNDEFADRDTQVLGASVDNEFVHFQWRAQHEDLKTLPF  108
+
+Query  89   PLLSDFWPHGAVSQAYGVFNEQAGIANRGTFVVDRSGIIRFAEM  132
+            P+LSD      +++A GV N   G+A+R TF+VD   II+F  +
+Sbjct  109  PMLSDL--KRELAEAAGVLNAD-GVADRATFIVDPDNIIQFVSV  149
+
+
+>VFG024105(gb|WP_008256883) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium indicus pranii 
+MTCC 9506]
+Length=195
+
+ Score = 48.5 bits (114),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 33/104 (32%), Positives = 50/104 (48%), Gaps = 7/104 (7%)
+
+Query  33   LLVFFPLAFTGICQGELDQLRDHLPEFENDDSAALAISVGPPPTHKIWATQ----SGFTF  88
+            ++ F+P  FT +C  E+        EF + D+  L +S+     H  W  Q        F
+Sbjct  49   VVFFWPKDFTFVCPTEIAAFGKLNDEFADRDAQVLGVSIDSEFVHFNWRAQHEDLKKLPF  108
+
+Query  89   PLLSDFWPHGAVSQAYGVFNEQAGIANRGTFVVDRSGIIRFAEM  132
+            P+LSD      +S A GV N   G+A+R TF+VD +  I+F  +
+Sbjct  109  PMLSDI--KRELSLATGVLNAD-GVADRATFLVDPNNEIQFVSV  149
+
+
+>VFG022835(gb|WP_013828895) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium sp. JDM601]
+Length=195
+
+ Score = 48.5 bits (114),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 31/104 (30%), Positives = 51/104 (49%), Gaps = 7/104 (7%)
+
+Query  33   LLVFFPLAFTGICQGELDQLRDHLPEFENDDSAALAISVGPPPTHKIWATQ----SGFTF  88
+            ++ F+P  FT +C  E+        +F + D+  L +S+     H  W  Q        F
+Sbjct  49   IVFFWPKDFTFVCPTEIAAFGKLNDDFADRDAQVLGVSIDNEFVHYNWRLQHEDLKTLPF  108
+
+Query  89   PLLSDFWPHGAVSQAYGVFNEQAGIANRGTFVVDRSGIIRFAEM  132
+            P+LSD      +++A GV N   G+A+R TF+VD +  I+F  +
+Sbjct  109  PMLSDL--KRELAEATGVLNAD-GVADRATFIVDPNNEIQFVSV  149
+
+
+>VFG022828(gb|WP_012394463) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium marinum M]
+Length=195
+
+ Score = 47.8 bits (112),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 32/101 (32%), Positives = 49/101 (49%), Gaps = 7/101 (7%)
+
+Query  33   LLVFFPLAFTGICQGELDQLRDHLPEFENDDSAALAISVGPPPTHKIWATQ----SGFTF  88
+            ++ F+P  FT +C  E+        EFE+ D+  L +S+     H  W  Q        F
+Sbjct  49   VVFFWPKDFTFVCPTEIAAFGKLNDEFEDRDAQVLGVSIDSEFVHFQWRAQHDDLKNLPF  108
+
+Query  89   PLLSDFWPHGAVSQAYGVFNEQAGIANRGTFVVDRSGIIRF  129
+            P+L+D      +  A GV N   G+A+R TF+VD +  I+F
+Sbjct  109  PMLADI--KRELVAATGVLNAD-GVADRVTFIVDPNNEIQF  146
+
+
+>VFG026903(gb|YP_007958466) (ahpC) alkyl hydroperoxide reductase 
+subunit C [AhpC (VF0306) - Stress survival (VFC0282)] [Mycobacterium 
+tuberculosis str. Haarlem/NITR202]
+Length=323
+
+ Score = 48.1 bits (113),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 34/98 (35%), Positives = 46/98 (47%), Gaps = 7/98 (7%)
+
+Query  36   FFPLAFTGICQGELDQLRDHLPEFENDDSAALAISVGPPPTHKIWATQSG----FTFPLL  91
+            F P  FT +C  E+        EFE+ D+  L +S+     H  W  Q        FP+L
+Sbjct  118  FXPKDFTFVCPTEIAAFSKLNDEFEDRDAQILGVSIDSEFAHFQWRAQHNDLKTLPFPML  177
+
+Query  92   SDFWPHGAVSQAYGVFNEQAGIANRGTFVVDRSGIIRF  129
+            SD       S A GV N   G+A+R TF+VD +  I+F
+Sbjct  178  SDI--KREXSXAAGVLNAD-GVADRVTFIVDPNNEIQF  212
+
+
+>VFG009679(gb|WP_011740864) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium ulcerans Agy99]
+Length=195
+
+ Score = 46.2 bits (108),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 31/101 (31%), Positives = 49/101 (49%), Gaps = 7/101 (7%)
+
+Query  33   LLVFFPLAFTGICQGELDQLRDHLPEFENDDSAALAISVGPPPTHKIWATQ----SGFTF  88
+            ++ F+P  FT +C  E+        EF++ D+  L +S+     H  W  Q        F
+Sbjct  49   VVFFWPKDFTFVCPTEIAAFGKLNDEFDDRDAQVLGVSIDSEFVHFQWRAQHDDLKNLPF  108
+
+Query  89   PLLSDFWPHGAVSQAYGVFNEQAGIANRGTFVVDRSGIIRF  129
+            P+L+D      +  A GV N   G+A+R TF+VD +  I+F
+Sbjct  109  PMLADI--KRELVAAAGVLNAD-GVADRVTFIVDPNNEIQF  146
+
+
+>VFG009678(gb|WP_010908685) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium leprae TN]
+Length=195
+
+ Score = 45.1 bits (105),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 33/104 (32%), Positives = 47/104 (45%), Gaps = 7/104 (7%)
+
+Query  33   LLVFFPLAFTGICQGELDQLRDHLPEFENDDSAALAISVGPPPTHKIWATQ----SGFTF  88
+            ++ F+P  FT IC  E+        EFE   +  L +S+     H  W  Q        F
+Sbjct  49   VVFFWPKDFTFICPTEIAAFGKLNEEFEGRGAQILGVSIDSEFVHFQWRAQHEDLKRLPF  108
+
+Query  89   PLLSDFWPHGAVSQAYGVFNEQAGIANRGTFVVDRSGIIRFAEM  132
+            P+LSD      +S A G  N   G+A+R TF+VD    I+F  +
+Sbjct  109  PMLSDI--KRELSAASGALNAD-GVADRVTFIVDPDNDIQFVSV  149
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.138    0.425    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 666625302
+
+
+Query= g2486.t1
+
+Length=157
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG009680(gb|WP_011730169) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  47.8    3e-07
+VFG022835(gb|WP_013828895) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  45.8    1e-06
+
+
+>VFG009680(gb|WP_011730169) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium smegmatis str. 
+MC2 155]
+Length=195
+
+ Score = 47.8 bits (112),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 42/149 (28%), Positives = 62/149 (42%), Gaps = 28/149 (19%)
+
+Query  7    LTPGDKAPAFTL---------------PDADGNNVSLADYRGRRVIVYFYPAASTPGCTK  51
+            LT GD+ P + L               PD     V+  DY G+  I++F+P   T  C  
+Sbjct  4    LTIGDQFPEYDLTAVVGGDLSKVDAKQPDDYFTRVTSKDYEGKWRIIFFWPKDFTFVCPT  63
+
+Query  52   QACDFRDNLGDFTTAGLNVVGISPDKP----EKLATFRDAQGLTFPLLSDPDREVLTAWG  107
+            +   F     DF      V+G+S D      +  A   D + L FP++SD  RE+  A G
+Sbjct  64   EIAAFGKLNEDFEDRDAKVLGVSVDNEFVHFQWRAQHEDLKTLPFPMVSDLKRELTAACG  123
+
+Query  108  AYGEKQMYGKTVQGVI-RSTFVVDEDGKI  135
+                         GV  R+TF+VD + ++
+Sbjct  124  VL--------NADGVADRATFIVDPNNEV  144
+
+
+>VFG022835(gb|WP_013828895) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium sp. JDM601]
+Length=195
+
+ Score = 45.8 bits (107),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 45/154 (29%), Positives = 64/154 (42%), Gaps = 22/154 (14%)
+
+Query  3    KTTRLTPGDKAPAFTLPDADG-----NNVSLADYRGRRVIVYFYPAASTPGCTKQACDFR  57
+            + T L PGD +      DA G       V+  D+ G+  IV+F+P   T  C  +   F 
+Sbjct  14   RLTALIPGDLSKV----DAKGPEDFFTTVTSDDHPGKWRIVFFWPKDFTFVCPTEIAAFG  69
+
+Query  58   DNLGDFTTAGLNVVGISPDKPEKLATFR----DAQGLTFPLLSDPDREVLTAWGAYGEKQ  113
+                DF      V+G+S D       +R    D + L FP+LSD  RE+  A G      
+Sbjct  70   KLNDDFADRDAQVLGVSIDNEFVHYNWRLQHEDLKTLPFPMLSDLKRELAEATGVLN---  126
+
+Query  114  MYGKTVQGVI-RSTFVVDEDGKIVVAQYNVKATG  146
+                   GV  R+TF+VD + +I        + G
+Sbjct  127  -----ADGVADRATFIVDPNNEIQFVSVTAGSVG  155
+
+
+
+Lambda      K        H        a         alpha
+   0.318    0.136    0.404    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 697062535
+
+
+Query= g1019.t1
+
+Length=157
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG022829(gb|YP_001705132) (ahpC) Putative alkylhydroperoxidase C...  49.7    7e-08
+VFG022835(gb|WP_013828895) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  47.4    4e-07
+VFG024105(gb|WP_008256883) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  47.0    7e-07
+VFG009676(gb|WP_003876555) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  46.6    8e-07
+VFG009677(gb|WP_009976955) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  46.2    1e-06
+VFG009680(gb|WP_011730169) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  45.8    1e-06
+VFG001404(gb|NP_216944) (ahpC) alkyl hydroperoxide reductase subu...  45.4    2e-06
+VFG026890(gb|WP_015303486) (ahpC) peroxiredoxin AhpC [AhpC (VF030...  45.4    2e-06
+VFG026892(gb|WP_015293685) (ahpC) peroxiredoxin AhpC [AhpC (VF030...  45.1    3e-06
+VFG022828(gb|WP_012394463) (ahpC) peroxiredoxin [AhpC (VF0306) - ...  43.5    1e-05
+
+
+>VFG022829(gb|YP_001705132) (ahpC) Putative alkylhydroperoxidase 
+C [AhpC (VF0306) - Stress survival (VFC0282)] [Mycobacterium 
+abscessus ATCC 19977]
+Length=195
+
+ Score = 49.7 bits (117),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 40/138 (29%), Positives = 61/138 (44%), Gaps = 12/138 (9%)
+
+Query  22   VTLSALKGKQVVLYFYPKDSTPGCTTEGQGFRDQYAAFQKANTEVFGISRDGLKSHENFK  81
+            VT     GK  V++F+PKD T  C TE   F      F   +T+V G S D    H  ++
+Sbjct  38   VTSDDHPGKWRVIFFWPKDFTFVCPTEIAAFGRLNDEFADRDTQVLGASVDNEFVHFQWR  97
+
+Query  82   CKQE----FPFELISDKDEAVCQLFDVIKLKKLYGKEYMGVDRSTFLIDRDGVLR-QEWR  136
+             + E     PF ++SD    + +   V+    +        DR+TF++D D +++     
+Sbjct  98   AQHEDLKTLPFPMLSDLKRELAEAAGVLNADGV-------ADRATFIVDPDNIIQFVSVT  150
+
+Query  137  GVKVPGHVDAVLAAAQAL  154
+               V  +VD VL    AL
+Sbjct  151  AGSVGRNVDEVLRVLDAL  168
+
+
+>VFG022835(gb|WP_013828895) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium sp. JDM601]
+Length=195
+
+ Score = 47.4 bits (111),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 38/138 (28%), Positives = 61/138 (44%), Gaps = 12/138 (9%)
+
+Query  22   VTLSALKGKQVVLYFYPKDSTPGCTTEGQGFRDQYAAFQKANTEVFGISRDGLKSHENFK  81
+            VT     GK  +++F+PKD T  C TE   F      F   + +V G+S D    H N++
+Sbjct  38   VTSDDHPGKWRIVFFWPKDFTFVCPTEIAAFGKLNDDFADRDAQVLGVSIDNEFVHYNWR  97
+
+Query  82   CKQE----FPFELISDKDEAVCQLFDVIKLKKLYGKEYMGVDRSTFLIDRDGVLR-QEWR  136
+             + E     PF ++SD    + +   V+    +        DR+TF++D +  ++     
+Sbjct  98   LQHEDLKTLPFPMLSDLKRELAEATGVLNADGV-------ADRATFIVDPNNEIQFVSVT  150
+
+Query  137  GVKVPGHVDAVLAAAQAL  154
+               V  +VD VL    AL
+Sbjct  151  AGSVGRNVDEVLRVLDAL  168
+
+
+>VFG024105(gb|WP_008256883) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium indicus pranii 
+MTCC 9506]
+Length=195
+
+ Score = 47.0 bits (110),  Expect = 7e-07, Method: Compositional matrix adjust.
+ Identities = 31/102 (30%), Positives = 47/102 (46%), Gaps = 11/102 (11%)
+
+Query  29   GKQVVLYFYPKDSTPGCTTEGQGFRDQYAAFQKANTEVFGISRDGLKSHENFKCKQE---  85
+            GK  V++F+PKD T  C TE   F      F   + +V G+S D    H N++ + E   
+Sbjct  45   GKWRVVFFWPKDFTFVCPTEIAAFGKLNDEFADRDAQVLGVSIDSEFVHFNWRAQHEDLK  104
+
+Query  86   -FPFELISDKDEAVCQLFDVIKLKKLYGKEYMGVDRSTFLID  126
+              PF ++SD    +     V+    +        DR+TFL+D
+Sbjct  105  KLPFPMLSDIKRELSLATGVLNADGV-------ADRATFLVD  139
+
+
+>VFG009676(gb|WP_003876555) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium avium subsp. paratuberculosis 
+K-10]
+Length=195
+
+ Score = 46.6 bits (109),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 32/109 (29%), Positives = 50/109 (46%), Gaps = 11/109 (10%)
+
+Query  22   VTLSALKGKQVVLYFYPKDSTPGCTTEGQGFRDQYAAFQKANTEVFGISRDGLKSHENFK  81
+            VT     GK  V++F+PKD T  C TE   F      F+  + +V G+S D    H N++
+Sbjct  38   VTSEDHAGKWRVVFFWPKDFTFVCPTEIATFGKLNDEFEDRDAQVLGVSIDSEFVHFNWR  97
+
+Query  82   CKQE----FPFELISDKDEAVCQLFDVIKLKKLYGKEYMGVDRSTFLID  126
+             + E     PF ++SD    +     V+    +        DR+TF++D
+Sbjct  98   AQHEDLKNLPFPMLSDIKRELSLATGVLNADGV-------ADRATFIVD  139
+
+
+>VFG009677(gb|WP_009976955) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium avium 104]
+Length=195
+
+ Score = 46.2 bits (108),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 30/102 (29%), Positives = 48/102 (47%), Gaps = 11/102 (11%)
+
+Query  29   GKQVVLYFYPKDSTPGCTTEGQGFRDQYAAFQKANTEVFGISRDGLKSHENFKCKQE---  85
+            GK  V++F+PKD T  C TE   F      F+  + +V G+S D    H N++ + E   
+Sbjct  45   GKWRVVFFWPKDFTFVCPTEIATFGKLNDEFEDRDAQVLGVSIDSEFVHFNWRAQHEDLK  104
+
+Query  86   -FPFELISDKDEAVCQLFDVIKLKKLYGKEYMGVDRSTFLID  126
+              PF ++SD    +     V+    +        DR+TF++D
+Sbjct  105  NLPFPMLSDIKRELSLATGVLNADGV-------ADRATFIVD  139
+
+
+>VFG009680(gb|WP_011730169) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium smegmatis str. 
+MC2 155]
+Length=195
+
+ Score = 45.8 bits (107),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 30/109 (28%), Positives = 50/109 (46%), Gaps = 11/109 (10%)
+
+Query  22   VTLSALKGKQVVLYFYPKDSTPGCTTEGQGFRDQYAAFQKANTEVFGISRDGLKSHENFK  81
+            VT    +GK  +++F+PKD T  C TE   F      F+  + +V G+S D    H  ++
+Sbjct  38   VTSKDYEGKWRIIFFWPKDFTFVCPTEIAAFGKLNEDFEDRDAKVLGVSVDNEFVHFQWR  97
+
+Query  82   CKQE----FPFELISDKDEAVCQLFDVIKLKKLYGKEYMGVDRSTFLID  126
+             + E     PF ++SD    +     V+    +        DR+TF++D
+Sbjct  98   AQHEDLKTLPFPMVSDLKRELTAACGVLNADGV-------ADRATFIVD  139
+
+
+>VFG001404(gb|NP_216944) (ahpC) alkyl hydroperoxide reductase 
+subunit AhpC [AhpC (VF0306) - Stress survival (VFC0282)] [Mycobacterium 
+tuberculosis H37Rv]
+Length=195
+
+ Score = 45.4 bits (106),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 29/109 (27%), Positives = 49/109 (45%), Gaps = 11/109 (10%)
+
+Query  22   VTLSALKGKQVVLYFYPKDSTPGCTTEGQGFRDQYAAFQKANTEVFGISRDGLKSHENFK  81
+            +T     GK  V++F+PKD T  C TE   F      F+  + ++ G+S D   +H  ++
+Sbjct  38   ITSDEHPGKWRVVFFWPKDFTFVCPTEIAAFSKLNDEFEDRDAQILGVSIDSEFAHFQWR  97
+
+Query  82   CKQE----FPFELISDKDEAVCQLFDVIKLKKLYGKEYMGVDRSTFLID  126
+             +       PF ++SD    + Q   V+    +        DR TF++D
+Sbjct  98   AQHNDLKTLPFPMLSDIKRELSQAAGVLNADGV-------ADRVTFIVD  139
+
+
+>VFG026890(gb|WP_015303486) (ahpC) peroxiredoxin AhpC [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium canettii 
+CIPT 140070008]
+Length=195
+
+ Score = 45.4 bits (106),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 29/109 (27%), Positives = 49/109 (45%), Gaps = 11/109 (10%)
+
+Query  22   VTLSALKGKQVVLYFYPKDSTPGCTTEGQGFRDQYAAFQKANTEVFGISRDGLKSHENFK  81
+            +T     GK  V++F+PKD T  C TE   F      F+  + ++ G+S D   +H  ++
+Sbjct  38   ITSDEHPGKWRVVFFWPKDFTFVCPTEIAAFSKLNDEFEDRDAQILGVSIDSEFAHFQWR  97
+
+Query  82   CKQE----FPFELISDKDEAVCQLFDVIKLKKLYGKEYMGVDRSTFLID  126
+             +       PF ++SD    + Q   V+    +        DR TF++D
+Sbjct  98   AQHNDLKTLPFPMLSDIKRELSQAAGVLNADGV-------ADRVTFIVD  139
+
+
+>VFG026892(gb|WP_015293685) (ahpC) peroxiredoxin AhpC [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium canettii 
+CIPT 140070017]
+Length=195
+
+ Score = 45.1 bits (105),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 29/109 (27%), Positives = 49/109 (45%), Gaps = 11/109 (10%)
+
+Query  22   VTLSALKGKQVVLYFYPKDSTPGCTTEGQGFRDQYAAFQKANTEVFGISRDGLKSHENFK  81
+            +T     GK  V++F+PKD T  C TE   F      F+  + ++ G+S D   +H  ++
+Sbjct  38   ITSDEHPGKWRVVFFWPKDFTFVCPTEIAAFGKLNDEFEDRDAQILGVSIDSEFAHFQWR  97
+
+Query  82   CKQE----FPFELISDKDEAVCQLFDVIKLKKLYGKEYMGVDRSTFLID  126
+             +       PF ++SD    + Q   V+    +        DR TF++D
+Sbjct  98   AQHNDLKTLPFPMLSDIKRELSQAAGVLNADGV-------ADRVTFIVD  139
+
+
+>VFG022828(gb|WP_012394463) (ahpC) peroxiredoxin [AhpC (VF0306) 
+- Stress survival (VFC0282)] [Mycobacterium marinum M]
+Length=195
+
+ Score = 43.5 bits (101),  Expect = 1e-05, Method: Compositional matrix adjust.
+ Identities = 32/120 (27%), Positives = 51/120 (43%), Gaps = 11/120 (9%)
+
+Query  11   DFTAPATSGKEVTLSALKGKQVVLYFYPKDSTPGCTTEGQGFRDQYAAFQKANTEVFGIS  70
+            D   P    K VT     GK  V++F+PKD T  C TE   F      F+  + +V G+S
+Sbjct  27   DAKQPGDYFKTVTSDDHAGKWRVVFFWPKDFTFVCPTEIAAFGKLNDEFEDRDAQVLGVS  86
+
+Query  71   RDGLKSHENFKCKQE----FPFELISDKDEAVCQLFDVIKLKKLYGKEYMGVDRSTFLID  126
+             D    H  ++ + +     PF +++D    +     V+    +        DR TF++D
+Sbjct  87   IDSEFVHFQWRAQHDDLKNLPFPMLADIKRELVAATGVLNADGV-------ADRVTFIVD  139
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.406    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 697062535
+
+
+Query= g2325.t1
+
+Length=156
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.137    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 686338496
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

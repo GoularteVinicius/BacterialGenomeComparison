@@ -1,0 +1,177 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3526.t1
+
+Length=654
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG015927(gb|WP_012075860) (hcnC) cyanide-forming glycine dehydro...  50.4    2e-06
+VFG015926(gb|NP_250885) (hcnC) hydrogen cyanide synthase subunit ...  48.9    6e-06
+VFG015928(gb|WP_011666673) (hcnC) cyanide-forming glycine dehydro...  48.5    9e-06
+
+
+>VFG015927(gb|WP_012075860) (hcnC) cyanide-forming glycine dehydrogenase 
+subunit HcnC [Hydrogen cyanide production (VF0920) 
+- Antimicrobial activity/Competitive advantage (VFC0325)] 
+[Pseudomonas aeruginosa PA7]
+Length=417
+
+ Score = 50.4 bits (119),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 79/321 (25%), Positives = 128/321 (40%), Gaps = 52/321 (16%)
+
+Query  325  RRLLERLRRGHDWDACGVLQLAFDAKEAQRQAQLAAAFP--ADLLHGLEREQAERLAGVA  382
+            R L+ER      ++  G+  +  D ++ Q    + A  P  AD +  L+R+   R     
+Sbjct  112  RELIERHGMDFKFERTGLKYVIQDDEDRQYAEHIVAQIPHLADQVRWLDRDDLRRAEPAV  171
+
+Query  383  LPA--GGLFYPEAGWVHPPALCQAL---AATPGITLLSGRAVR-LRREGDDWCAYAGDEC  436
+              A  G L +     V P  L  A    A   G+ LL G  V  + R+G        D  
+Sbjct  172  SQAAHGALEFLCDHQVSPFRLADAYLEGARQNGVELLLGSNVTGVLRQGRRISGVRTDNA  231
+
+Query  437  LARAPLAIL----ATAADIRDFPPAAELPLKRIRGQVTRLPATPQ--SRALRTVVCAEGY  490
+                   ++    A AA++ +      +P+K ++GQ+      P+  +  L T  C   Y
+Sbjct  232  GVLHCQTLINAAGAWAAELSEMASGRRIPVKPVKGQIVLTERMPRLLNGCLTTSDC---Y  288
+
+Query  491  VAPPRGDEHTLGASFDFKSEDLAPTLAEHQGNLELLREISPDLLQRLGADDLPLERLEGR  550
+            +A     E  +G++ + K  D+  T  E  G ++      P L       ++ L+R    
+Sbjct  289  MAQKDNGEILIGSTTEDKGFDVGNTFPEIAGLVQGAVRCVPQL------QEVNLKRTW--  340
+
+Query  551  AAFRCTSPDYLPLVGPLAERAAFDEAYAVLARDARQVPERACPWLPGLYLNS-GHGSRGL  609
+            A  R  SPD LP++GP+AE                             YLN+ GH   G+
+Sbjct  341  AGLRPGSPDELPILGPVAEVEG--------------------------YLNACGHFRTGI  374
+
+Query  610  ISAPLSGELLAAWICGEPLPL  630
+            +++ ++G LL   + GE LPL
+Sbjct  375  LTSAITGVLLDRLVHGEQLPL  395
+
+
+>VFG015926(gb|NP_250885) (hcnC) hydrogen cyanide synthase subunit 
+HcnC [Hydrogen cyanide production (VF0920) - Antimicrobial 
+activity/Competitive advantage (VFC0325)] [Pseudomonas aeruginosa 
+PAO1]
+Length=417
+
+ Score = 48.9 bits (115),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 79/321 (25%), Positives = 130/321 (40%), Gaps = 52/321 (16%)
+
+Query  325  RRLLERLRRGHDWDACGVLQLAFDAKEAQRQAQLAAAFP--ADLLHGLEREQAERLAGVA  382
+            R L+ER      ++  G+  +  D ++ Q    + A  P  A+ +  L+RE+  R     
+Sbjct  112  RELIERHGMDFKFERTGLKYVIQDDEDRQYAEHIVAQIPHLAEQVRWLDREELRRAEPAV  171
+
+Query  383  LPA--GGLFYPEAGWVHPPALCQAL---AATPGITLLSGRAVR-LRREGDDWCAYAGDEC  436
+              A  G L +     V P  L  A    A   G+ LL G  V  + R+G        D  
+Sbjct  172  SHAAHGALEFLCDHQVSPFRLADAYLEAARQNGVELLPGTNVTGVLRQGRRISGVRTDNA  231
+
+Query  437  LARAPLAIL----ATAADIRDFPPAAELPLKRIRGQVTRLPATPQ--SRALRTVVCAEGY  490
+                   ++    A AA++ +      +P+K ++GQ+      P+  +  L T  C   Y
+Sbjct  232  GVLHCRTLINAAGAWAAELSEMATGRRIPVKPVKGQIVLTERMPRLLNGCLTTSDC---Y  288
+
+Query  491  VAPPRGDEHTLGASFDFKSEDLAPTLAEHQGNLELLREISPDLLQRLGADDLPLERLEGR  550
+            +A     E  +G++ + K  D++ T  E  G ++      P+L Q      + L+R    
+Sbjct  289  MAQKDNGEILIGSTTEDKGFDVSNTFPEIAGLVQGAVRCVPELQQ------VNLKRT--W  340
+
+Query  551  AAFRCTSPDYLPLVGPLAERAAFDEAYAVLARDARQVPERACPWLPGLYLNS-GHGSRGL  609
+            A  R  SPD LP++GP+AE                             YLN+ GH   G+
+Sbjct  341  AGLRPGSPDELPILGPVAEVEG--------------------------YLNACGHFRTGI  374
+
+Query  610  ISAPLSGELLAAWICGEPLPL  630
+            +++ ++G LL   +  E LPL
+Sbjct  375  LTSAITGVLLDRLVHEETLPL  395
+
+
+>VFG015928(gb|WP_011666673) (hcnC) cyanide-forming glycine dehydrogenase 
+subunit HcnC [Hydrogen cyanide production (VF0920) 
+- Antimicrobial activity/Competitive advantage (VFC0325)] 
+[Pseudomonas aeruginosa UCBPP-PA14]
+Length=417
+
+ Score = 48.5 bits (114),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 79/321 (25%), Positives = 130/321 (40%), Gaps = 52/321 (16%)
+
+Query  325  RRLLERLRRGHDWDACGVLQLAFDAKEAQRQAQLAAAFP--ADLLHGLEREQAERLAGVA  382
+            R L+ER      ++  G+  +  D ++ Q    + A  P  A+ +  L+RE+  R     
+Sbjct  112  RELIERHGMDFKFERTGLKYVIQDDEDRQYAEHIVAQIPHLAEQVRWLDREELRRAEPAV  171
+
+Query  383  LPA--GGLFYPEAGWVHPPALCQAL---AATPGITLLSGRAVR-LRREGDDWCAYAGDEC  436
+              A  G L +     V P  L  A    A   G+ LL G  V  + R+G        D  
+Sbjct  172  SHAAHGALEFLCDHQVSPFRLADAYLEAARQNGVELLLGTNVTGVLRQGRRISGVRTDNA  231
+
+Query  437  LARAPLAIL----ATAADIRDFPPAAELPLKRIRGQVTRLPATPQ--SRALRTVVCAEGY  490
+                   ++    A AA++ +      +P+K ++GQ+      P+  +  L T  C   Y
+Sbjct  232  GVLHCRTLINAAGAWAAELSELATGRRIPVKPVKGQIVLTERMPRLLNGCLTTSDC---Y  288
+
+Query  491  VAPPRGDEHTLGASFDFKSEDLAPTLAEHQGNLELLREISPDLLQRLGADDLPLERLEGR  550
+            +A     E  +G++ + K  D++ T  E  G ++      P+L Q      + L+R    
+Sbjct  289  MAQKDNGEILIGSTTEDKGFDVSNTFPEIAGLVQGAVRCVPELQQ------VNLKRT--W  340
+
+Query  551  AAFRCTSPDYLPLVGPLAERAAFDEAYAVLARDARQVPERACPWLPGLYLNS-GHGSRGL  609
+            A  R  SPD LP++GP+AE                             YLN+ GH   G+
+Sbjct  341  AGLRPGSPDELPILGPVAEVEG--------------------------YLNACGHFRTGI  374
+
+Query  610  ISAPLSGELLAAWICGEPLPL  630
+            +++ ++G LL   +  E LPL
+Sbjct  375  LTSAVTGVLLDRLVHEETLPL  395
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.436    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5636457023
+
+
+Query= g2221.t1
+
+Length=666
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.428    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5760108731
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,82 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1985.t1
+
+Length=244
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG050299(gb|NP_250642) (fapE) chaprone FapE [Fap (VF1191) - Adhe...  483     5e-176
+
+
+>VFG050299(gb|NP_250642) (fapE) chaprone FapE [Fap (VF1191) - 
+Adherence (VFC0001)] [Pseudomonas aeruginosa PAO1]
+Length=250
+
+ Score = 483 bits (1244),  Expect = 5e-176, Method: Compositional matrix adjust.
+ Identities = 244/244 (100%), Positives = 244/244 (100%), Gaps = 0/244 (0%)
+
+Query  1    MYTHHCFVLACCLGAALPAPASDLFAPAELSDQELSQLRGRYVLPGRIVSFGVTMSSTWQ  60
+            MYTHHCFVLACCLGAALPAPASDLFAPAELSDQELSQLRGRYVLPGRIVSFGVTMSSTWQ
+Sbjct  7    MYTHHCFVLACCLGAALPAPASDLFAPAELSDQELSQLRGRYVLPGRIVSFGVTMSSTWQ  66
+
+Query  61   NASGQVLGARVDLQVRQNLARPVLNVTLVDRPGDAPPPVAGNGQVLGGAGLAQTQGVSQS  120
+            NASGQVLGARVDLQVRQNLARPVLNVTLVDRPGDAPPPVAGNGQVLGGAGLAQTQGVSQS
+Sbjct  67   NASGQVLGARVDLQVRQNLARPVLNVTLVDRPGDAPPPVAGNGQVLGGAGLAQTQGVSQS  126
+
+Query  121  IRTAGDHNSASNGVSIEVRHGEAPPPLSGGTPLEGALALSGETGTVKVTPNGGALQLAIQ  180
+            IRTAGDHNSASNGVSIEVRHGEAPPPLSGGTPLEGALALSGETGTVKVTPNGGALQLAIQ
+Sbjct  127  IRTAGDHNSASNGVSIEVRHGEAPPPLSGGTPLEGALALSGETGTVKVTPNGGALQLAIQ  186
+
+Query  181  ASGQGASLQSLGAGGLVQSVALSGNRNLVQNLAALEVMLKDRPGADPALNCAWEQLRALR  240
+            ASGQGASLQSLGAGGLVQSVALSGNRNLVQNLAALEVMLKDRPGADPALNCAWEQLRALR
+Sbjct  187  ASGQGASLQSLGAGGLVQSVALSGNRNLVQNLAALEVMLKDRPGADPALNCAWEQLRALR  246
+
+Query  241  PSGY  244
+            PSGY
+Sbjct  247  PSGY  250
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.132    0.388    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1555866963
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

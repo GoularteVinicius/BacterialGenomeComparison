@@ -1,0 +1,185 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1064.t1
+
+Length=151
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000458(gb|NP_460115) (csgA) curlin major subunit CsgA [Agf (VF...  297     2e-105
+VFG021259(gb|WP_000771413) (csgA) curlin major subunit CsgA [Agf ...  295     9e-105
+VFG018366(gb|WP_000771419) (csgA) curlin major subunit CsgA [Agf ...  265     9e-93 
+VFG046073(gb|WP_000771443) (csgA) curlin major subunit CsgA [Curl...  182     4e-60 
+VFG045793(gb|WP_000771429) (csgA) curlin major subunit CsgA [Curl...  179     1e-58 
+VFG042730(gb|WP_000771428) (csgA) curlin major subunit CsgA [Curl...  178     2e-58 
+
+
+>VFG000458(gb|NP_460115) (csgA) curlin major subunit CsgA [Agf 
+(VF0103) - Adherence (VFC0001)] [Salmonella enterica subsp. 
+enterica serovar Typhimurium str. LT2]
+Length=151
+
+ Score = 297 bits (760),  Expect = 2e-105, Method: Compositional matrix adjust.
+ Identities = 151/151 (100%), Positives = 151/151 (100%), Gaps = 0/151 (0%)
+
+Query  1    MKLLKVAAFAAIVVSGSALAGVVPQWGGGGNHNGGGNSSGPDSTLSIYQYGSANAALALQ  60
+            MKLLKVAAFAAIVVSGSALAGVVPQWGGGGNHNGGGNSSGPDSTLSIYQYGSANAALALQ
+Sbjct  1    MKLLKVAAFAAIVVSGSALAGVVPQWGGGGNHNGGGNSSGPDSTLSIYQYGSANAALALQ  60
+
+Query  61   SDARKSETTITQSGYGNGADVGQGADNSTIELTQNGFRNNATIDQWNAKNSDITVGQYGG  120
+            SDARKSETTITQSGYGNGADVGQGADNSTIELTQNGFRNNATIDQWNAKNSDITVGQYGG
+Sbjct  61   SDARKSETTITQSGYGNGADVGQGADNSTIELTQNGFRNNATIDQWNAKNSDITVGQYGG  120
+
+Query  121  NNAALVNQTASDSSVMVRQVGFGNNATANQY  151
+            NNAALVNQTASDSSVMVRQVGFGNNATANQY
+Sbjct  121  NNAALVNQTASDSSVMVRQVGFGNNATANQY  151
+
+
+>VFG021259(gb|WP_000771413) (csgA) curlin major subunit CsgA [Agf 
+(VF0103) - Adherence (VFC0001)] [Salmonella enterica subsp. 
+enterica serovar Gallinarum str. 287/91]
+Length=151
+
+ Score = 295 bits (756),  Expect = 9e-105, Method: Compositional matrix adjust.
+ Identities = 150/151 (99%), Positives = 150/151 (99%), Gaps = 0/151 (0%)
+
+Query  1    MKLLKVAAFAAIVVSGSALAGVVPQWGGGGNHNGGGNSSGPDSTLSIYQYGSANAALALQ  60
+            MKLLKVAAFAAIVVSGSALAGVVPQWGGGGNHNGGGNSSGPDSTLSIYQYGSANAALALQ
+Sbjct  1    MKLLKVAAFAAIVVSGSALAGVVPQWGGGGNHNGGGNSSGPDSTLSIYQYGSANAALALQ  60
+
+Query  61   SDARKSETTITQSGYGNGADVGQGADNSTIELTQNGFRNNATIDQWNAKNSDITVGQYGG  120
+            SDARKSETTITQSGYGNGADVGQGADN TIELTQNGFRNNATIDQWNAKNSDITVGQYGG
+Sbjct  61   SDARKSETTITQSGYGNGADVGQGADNRTIELTQNGFRNNATIDQWNAKNSDITVGQYGG  120
+
+Query  121  NNAALVNQTASDSSVMVRQVGFGNNATANQY  151
+            NNAALVNQTASDSSVMVRQVGFGNNATANQY
+Sbjct  121  NNAALVNQTASDSSVMVRQVGFGNNATANQY  151
+
+
+>VFG018366(gb|WP_000771419) (csgA) curlin major subunit CsgA [Agf 
+(VF0103) - Adherence (VFC0001)] [Salmonella enterica subsp. 
+arizonae serovar 62:z4,z23:-- str. RSK2980]
+Length=144
+
+ Score = 265 bits (676),  Expect = 9e-93, Method: Compositional matrix adjust.
+ Identities = 137/151 (91%), Positives = 140/151 (93%), Gaps = 7/151 (5%)
+
+Query  1    MKLLKVAAFAAIVVSGSALAGVVPQWGGGGNHNGGGNSSGPDSTLSIYQYGSANAALALQ  60
+            MKLLKVAAFAAIVVSGSALAGVVPQWGGG       NSSGPDSTLSIYQYGSANAALALQ
+Sbjct  1    MKLLKVAAFAAIVVSGSALAGVVPQWGGG-------NSSGPDSTLSIYQYGSANAALALQ  53
+
+Query  61   SDARKSETTITQSGYGNGADVGQGADNSTIELTQNGFRNNATIDQWNAKNSDITVGQYGG  120
+            SD RK ETTI+QSGYGNGADVGQGADNSTIELTQNGFRNNATIDQWNAKNSDITV QYGG
+Sbjct  54   SDVRKFETTISQSGYGNGADVGQGADNSTIELTQNGFRNNATIDQWNAKNSDITVSQYGG  113
+
+Query  121  NNAALVNQTASDSSVMVRQVGFGNNATANQY  151
+            NNAAL+NQTASDS VMVRQVGFGNNATA+QY
+Sbjct  114  NNAALLNQTASDSDVMVRQVGFGNNATAHQY  144
+
+
+>VFG046073(gb|WP_000771443) (csgA) curlin major subunit CsgA [Curli 
+fibers (VF1138) - Adherence (VFC0001)] [Escherichia coli 
+VR50]
+Length=150
+
+ Score = 182 bits (463),  Expect = 4e-60, Method: Compositional matrix adjust.
+ Identities = 112/151 (74%), Positives = 131/151 (87%), Gaps = 1/151 (1%)
+
+Query  1    MKLLKVAAFAAIVVSGSALAGVVPQWGGGGNHNGGGNSSGPDSTLSIYQYGSANAALALQ  60
+            MKLLKVAA AAIV SGSALAGVVPQ+GGG NH GGGN+SGP+S L+IYQYG  N+ALALQ
+Sbjct  1    MKLLKVAAIAAIVFSGSALAGVVPQYGGG-NHGGGGNNSGPNSELNIYQYGGGNSALALQ  59
+
+Query  61   SDARKSETTITQSGYGNGADVGQGADNSTIELTQNGFRNNATIDQWNAKNSDITVGQYGG  120
+            +DAR S+ TITQ G GNGADVGQG+D+S+I+LTQ GF N+AT+DQWN KNS++TV Q+GG
+Sbjct  60   TDARNSDLTITQHGGGNGADVGQGSDDSSIDLTQRGFGNSATLDQWNGKNSEMTVKQFGG  119
+
+Query  121  NNAALVNQTASDSSVMVRQVGFGNNATANQY  151
+             N A V+QTAS+SSV V QVGFGNNATA+QY
+Sbjct  120  GNGAAVDQTASNSSVNVTQVGFGNNATAHQY  150
+
+
+>VFG045793(gb|WP_000771429) (csgA) curlin major subunit CsgA [Curli 
+fibers (VF1138) - Adherence (VFC0001)] [Escherichia coli 
+O25b:H4-ST131]
+Length=152
+
+ Score = 179 bits (453),  Expect = 1e-58, Method: Compositional matrix adjust.
+ Identities = 110/152 (72%), Positives = 130/152 (86%), Gaps = 1/152 (1%)
+
+Query  1    MKLLKVAAFAAIVVSGSALAGVVPQWGGGGNH-NGGGNSSGPDSTLSIYQYGSANAALAL  59
+            MKLLKVAA AAIV SGSALAGVVPQ+GGGG +  GGGN+SGP+S L+IYQYG  N+ALAL
+Sbjct  1    MKLLKVAAIAAIVFSGSALAGVVPQYGGGGGNHGGGGNNSGPNSELNIYQYGGGNSALAL  60
+
+Query  60   QSDARKSETTITQSGYGNGADVGQGADNSTIELTQNGFRNNATIDQWNAKNSDITVGQYG  119
+            Q+DAR S+ TITQ G GNGADVGQG+D+S+I+LTQ GF N+AT+DQWN K+S +TV Q+G
+Sbjct  61   QADARNSDLTITQHGGGNGADVGQGSDDSSIDLTQRGFGNSATLDQWNGKDSTMTVKQFG  120
+
+Query  120  GNNAALVNQTASDSSVMVRQVGFGNNATANQY  151
+            G N A V+QTAS+SSV V QVGFGNNATA+QY
+Sbjct  121  GGNGAAVDQTASNSSVNVTQVGFGNNATAHQY  152
+
+
+>VFG042730(gb|WP_000771428) (csgA) curlin major subunit CsgA [Curli 
+fibers (VF1138) - Adherence (VFC0001)] [Escherichia coli 
+O157:H7 str. EDL933]
+Length=152
+
+ Score = 178 bits (451),  Expect = 2e-58, Method: Compositional matrix adjust.
+ Identities = 109/152 (72%), Positives = 130/152 (86%), Gaps = 1/152 (1%)
+
+Query  1    MKLLKVAAFAAIVVSGSALAGVVPQWGGGGNH-NGGGNSSGPDSTLSIYQYGSANAALAL  59
+            MKLLKVAA AAIV SGSALAGVVPQ+GGGG +  GGGN+SGP+S L+IYQYG  N+ALAL
+Sbjct  1    MKLLKVAAIAAIVFSGSALAGVVPQYGGGGGNHGGGGNNSGPNSELNIYQYGGGNSALAL  60
+
+Query  60   QSDARKSETTITQSGYGNGADVGQGADNSTIELTQNGFRNNATIDQWNAKNSDITVGQYG  119
+            Q+DAR S+ TITQ G GNGADVGQG+D+S+I+LTQ GF N+AT+DQWN K+S +TV Q+G
+Sbjct  61   QADARNSDLTITQHGGGNGADVGQGSDDSSIDLTQRGFGNSATLDQWNGKDSHMTVKQFG  120
+
+Query  120  GNNAALVNQTASDSSVMVRQVGFGNNATANQY  151
+            G N A V+QTAS+S+V V QVGFGNNATA+QY
+Sbjct  121  GGNGAAVDQTASNSTVNVTQVGFGNNATAHQY  152
+
+
+
+Lambda      K        H        a         alpha
+   0.307    0.125    0.351    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 645121260
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,133 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g429.t1
+
+Length=189
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.326    0.141    0.463    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1013467125
+
+
+Query= g2994.t1
+
+Length=193
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.330    0.143    0.473    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1042729114
+
+
+Query= g3648.t1
+
+Length=176
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG041880(gb|WP_043596224) (CV_RS12680) cytochrome b/b6 domain-co...  47.4    5e-07
+
+
+>VFG041880(gb|WP_043596224) (CV_RS12680) cytochrome b/b6 domain-containing 
+protein [Cpi-2 encoded T3SS (SPI-2 like) (VF1260) 
+- Effector delivery system (VFC0086)] [Chromobacterium violaceum 
+ATCC 12472]
+Length=173
+
+ Score = 47.4 bits (111),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 51/162 (31%), Positives = 73/162 (45%), Gaps = 9/162 (6%)
+
+Query  3    IRRYSPSQIALHWLSAVAVLLIIALPYGADFFAGLLGGK--GNVFTLHKSLGVAVLLLTL  60
+            ++RY P  +ALHWL A  +L   AL  G    +G L       V  L+ +L   ++   L
+Sbjct  1    MKRYPPLAMALHWLCAAVMLW--ALLSGFALASGTLPPALAKAVPPLNVALTTLLVPFWL  58
+
+Query  61   TRLALR-RIQGVPDTLEGNPDWQRAAAKAGHFLLYAVLIVMPLSGMLAGKRPLDLF-WLV  118
+             RL  R R +  P        W+   A+ GH  LYA+  +  LSGML  +R +D+F W  
+Sbjct  59   LRLLNRIRFRMPPPASMPARGWK--MARRGHLALYALGSLSLLSGMLMMERAVDVFGWFT  116
+
+Query  119  QIGPFDLPEAVKAFAGGTHVTVQYLLFALILGHAAAAIWHHR  160
+               P       + FA   H     +L   ++ H AA + HHR
+Sbjct  117  LAAPLPPGSLTRGFA-RVHFASNAVLALAVIAHIAAVVLHHR  157
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.142    0.441    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 887772731
+
+
+Query= g1078.t1
+
+Length=190
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.139    0.443    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1024135200
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

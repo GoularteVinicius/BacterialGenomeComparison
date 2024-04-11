@@ -1,0 +1,216 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g949.t1
+
+Length=44
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.135    0.370    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 332662382
+
+
+Query= g1552.t1
+
+Length=580
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG050222(gb|NP_219545) (glgX) glycogen hydrolase [TTSS secreted ...  72.8    3e-13
+
+
+>VFG050222(gb|NP_219545) (glgX) glycogen hydrolase [TTSS secreted 
+effectors (VF0711) - Effector delivery system (VFC0086)] 
+[Chlamydia trachomatis D/UW-3/CX]
+Length=666
+
+ Score = 72.8 bits (177),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 78/304 (26%), Positives = 114/304 (38%), Gaps = 63/304 (21%)
+
+Query  4    FRVWAPKPALVRLDVNGAVHAMTRSAD-----GWWHTTVAAPADARYGYLLDDDPTVLPD  58
+            F   A +  LV LD    +H +  S+        WH  +A    + + Y      T L  
+Sbjct  29   FSSQAQQVTLVLLDPLSEIHEIPLSSTDHRTGAIWHIEIAG-ISSEWSYAYKLRGTDLSS  87
+
+Query  59   PRSARQPDGVHARSQRWEPPGQFGAART------------DTGWPGRS-----VEGAVIY  101
+             + A         S+    P  FG+ +             D  W G +      E   IY
+Sbjct  88   QKFATDSYIADPYSKNIYSPQLFGSPKQEKDYAFSYLKHEDFDWEGDTPLHLPKENYFIY  147
+
+Query  102  ELHIGTFTT--------AGTFDAAIEKLDYLVDLGIDFVELMPVNSFAGT----------  143
+            E+H+ +FT          GTF   IEK+D+L  LG+  VEL+P+  F  T          
+Sbjct  148  EMHVRSFTRDPSSQVSHPGTFLGIIEKIDHLKQLGVHAVELLPIFEFDETVHPFKNQDFP  207
+
+Query  144  ---RGWGYDGVLWYSVHEPYG-GPD------GLVRFIDACHARRLGVLIDAVFNHLGPSG  193
+                 WGY  V ++     Y  G D           + A H   + V++D VFNH G  G
+Sbjct  208  HLCNYWGYSSVNFFCPSRRYTYGADPCAPAREFKTLVKALHRAGIEVILDVVFNHTGFEG  267
+
+Query  194  NYLPRFGPYLSSAS----NPWGDGINIAGADSDEVR------HYIIDCALRWMRDFHADG  243
+               P   P++   S    N  GD +N +G  +           +I+D    W+++ H DG
+Sbjct  268  TSCPL--PWIDLESYYMVNDHGDLMNFSGCGNTVNTNTPTTLKWILDALRYWVQEMHVDG  325
+
+Query  244  LRLD  247
+             R D
+Sbjct  326  FRFD  329
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.137    0.444    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4897505934
+
+
+Query= g2204.t1
+
+Length=583
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG050222(gb|NP_219545) (glgX) glycogen hydrolase [TTSS secreted ...  57.8    1e-08
+
+
+>VFG050222(gb|NP_219545) (glgX) glycogen hydrolase [TTSS secreted 
+effectors (VF0711) - Effector delivery system (VFC0086)] 
+[Chlamydia trachomatis D/UW-3/CX]
+Length=666
+
+ Score = 57.8 bits (138),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 57/210 (27%), Positives = 81/210 (39%), Gaps = 48/210 (23%)
+
+Query  90   LDHGTYAWRVDEWRGRPWHEAVIYELHVGLF-----------GSYAEVERFLPRLVELGV  138
+            L H  + W  D     P     IYE+HV  F           G++  +   +  L +LGV
+Sbjct  124  LKHEDFDWEGDTPLHLPKENYFIYEMHVRSFTRDPSSQVSHPGTFLGIIEKIDHLKQLGV  183
+
+Query  139  TAVELMPLGEF------------PGRRN-WGYDGVLPFAPASAY-------GTPEQLKHL  178
+             AVEL+P+ EF            P   N WGY  V  F P+  Y           + K L
+Sbjct  184  HAVELLPIFEFDETVHPFKNQDFPHLCNYWGYSSVNFFCPSRRYTYGADPCAPAREFKTL  243
+
+Query  179  IDSAHGMGLMVFVDVIYNHFGPDGNYL----AQYAAAFFRDDRQTPWGQAIDFR-RGEVR  233
+            + + H  G+ V +DV++NH G +G           + +  +D     G  ++F   G   
+Sbjct  244  VKALHRAGIEVILDVVFNHTGFEGTSCPLPWIDLESYYMVNDH----GDLMNFSGCGNTV  299
+
+Query  234  EFFYENALMWLLD--------YRVDGLRFD  255
+                   L W+LD          VDG RFD
+Sbjct  300  NTNTPTTLKWILDALRYWVQEMHVDGFRFD  329
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.141    0.456    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4928502807
+
+
+Query= g1455.t1
+
+Length=594
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG050222(gb|NP_219545) (glgX) glycogen hydrolase [TTSS secreted ...  94.0    6e-20
+
+
+>VFG050222(gb|NP_219545) (glgX) glycogen hydrolase [TTSS secreted 
+effectors (VF0711) - Effector delivery system (VFC0086)] 
+[Chlamydia trachomatis D/UW-3/CX]
+Length=666
+
+ Score = 94.0 bits (232),  Expect = 6e-20, Method: Compositional matrix adjust.
+ Identities = 130/531 (24%), Positives = 200/531 (38%), Gaps = 132/531 (25%)
+
+Query  11   GAEYIAADVVRFRLWATGQQKVMLRLAGKDQEMQA---------NGDGWFTLDVAGVTPG  61
+            GA+ ++AD  RF L+++  Q+V L L     E+            G  W  +++AG++  
+Sbjct  15   GAKKLSADRYRFSLFSSQAQQVTLVLLDPLSEIHEIPLSSTDHRTGAIWH-IEIAGISSE  73
+
+Query  62   TEYNFVLSDGMVVPDPASRAQKTDVNGPSYVVDPGS-----------------YTW----  100
+              Y + L       D +S+   TD    SY+ DP S                 Y +    
+Sbjct  74   WSYAYKLRGT----DLSSQKFATD----SYIADPYSKNIYSPQLFGSPKQEKDYAFSYLK  125
+
+Query  101  -RNTGWKGSR-----WEQAVVYEMHTGTFTPE--------GTFRAAIAKLPYLAELGVTV  146
+              +  W+G        E   +YEMH  +FT +        GTF   I K+ +L +LGV  
+Sbjct  126  HEDFDWEGDTPLHLPKENYFIYEMHVRSFTRDPSSQVSHPGTFLGIIEKIDHLKQLGVHA  185
+
+Query  147  IEVMPVAQFGGE-------------RGWGYDGVLLYAPHSAYGTPDD-------FKAFID  186
+            +E++P+ +F                  WGY  V  + P   Y    D       FK  + 
+Sbjct  186  VELLPIFEFDETVHPFKNQDFPHLCNYWGYSSVNFFCPSRRYTYGADPCAPAREFKTLVK  245
+
+Query  187  AAHGYGLSVVLDIVLNHFGPEGNYLPL----LAPAFF---HKERMTPWGNGIAYDVDAVR  239
+            A H  G+ V+LD+V NH G EG   PL    L   +    H + M   G G   + +   
+Sbjct  246  ALHRAGIEVILDVVFNHTGFEGTSCPLPWIDLESYYMVNDHGDLMNFSGCGNTVNTNTPT  305
+
+Query  240  --RYIIEAPLYWLTEYHLDGLRFD--AIDQIEDSSARHVLVEIAQRIREDITDRPIHLTT  295
+              ++I++A  YW+ E H+DG RFD  ++   +       L  I Q I  D       L  
+Sbjct  306  TLKWILDALRYWVQEMHVDGFRFDLASVFSRDPQGVPLPLTPILQAISSDSILSETKLIA  365
+
+Query  296  E--DSRNIISLHPRDQDGNAPLFT---AEWNDDFHNAVHVFATGETQAYYNDFADAPEKH  350
+            E  D+  +  L      G+ P  +   +EWN  + + V  F  G+              H
+Sbjct  366  EPWDAGGLYQL------GHFPSISTRWSEWNGCYRDHVKAFLNGDA-------------H  406
+
+Query  351  LARALAEGFAYQGEISPQTGEPRGVKS--------TGQPPVAFVDFIQNHDQVGNR----  398
+               + A   +   +I P  G+P    +        T    VA+ D     +   NR    
+Sbjct  407  QVSSFASRISGSHDIYPN-GKPTNSINYICSHDGFTLYDTVAYNDKHNEENGEYNRDGTS  465
+
+Query  399  --------AQG---DRLITLAGAERTKVLLATLLLSPHIPLLFMGEEYGES  438
+                     +G   D  I      + K     L LS  IP++  G+EYG +
+Sbjct  466  ANYSYNFGCEGETTDPTICALRERQMKNFFLALFLSQGIPMIQSGDEYGHT  516
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.421    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 5042158008
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

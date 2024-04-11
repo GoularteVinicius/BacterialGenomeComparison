@@ -1,0 +1,500 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3327.t1
+
+Length=253
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG001864(gb|WP_011213317) (mip) macrophage infectivity potentiat...  163     7e-50
+VFG010532(gb|WP_011214989) (mip) macrophage infectivity potentiat...  162     1e-49
+VFG045705(gb|WP_003636663) (mip) macrophage infectivity potentiat...  152     2e-45
+
+
+>VFG001864(gb|WP_011213317) (mip) macrophage infectivity potentiator 
+Mip [Mip (VF0153) - Post-translational modification (VFC0315)] 
+[Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+Length=233
+
+ Score = 163 bits (412),  Expect = 7e-50, Method: Compositional matrix adjust.
+ Identities = 93/236 (39%), Positives = 136/236 (58%), Gaps = 8/236 (3%)
+
+Query  1    MKQHRLAAAIALVGLVLSGCDSQTN-VELKTPAQKASYGIGLNMGKSLSQEGMDDLDSKA  59
+            MK   + AA+  +GL +S   + T+   L T   K SY IG ++GK+   +G+D ++ +A
+Sbjct  1    MKMKLVTAAV--MGLAMSTAMAATDATSLATDKDKLSYSIGADLGKNFKNQGID-VNPEA  57
+
+Query  60   VAKGIEDALGKKKQQLTDEELTEAFAFLQKRAEERMAA----IGDENAKAGKKFLEENGK  115
+            +AKG++DA+   +  LT++++ +     QK    +  A      DEN   G+ FL EN  
+Sbjct  58   MAKGMQDAMSGAQLALTEQQMKDVLNKFQKDLMAKRTAEFNKKADENKVKGEAFLTENKN  117
+
+Query  116  RDGVTTTASGLQYEIVKKADGPQPKATDVVTVHYEGRLTDGTVFDSSIERGSPIDLPVSG  175
+            + GV    SGLQY+++   +G +P  +D VTV Y GRL DGTVFDS+ + G P    VS 
+Sbjct  118  KPGVVVLPSGLQYKVINSGNGVKPGKSDTVTVEYTGRLIDGTVFDSTEKTGKPATFQVSQ  177
+
+Query  176  VIPGWVEALQLMHVGEKIKLYIPSELAYGAQSPSPAIPANSVLVFDMELLGIKDPS  231
+            VIPGW EALQLM  G   ++Y+PS LAYG +S    I  N  L+F + L+ +K  S
+Sbjct  178  VIPGWTEALQLMPAGSTWEIYVPSGLAYGPRSVGGPIGPNETLIFKIHLISVKKSS  233
+
+
+>VFG010532(gb|WP_011214989) (mip) macrophage infectivity potentiator 
+Mip [Mip (VF0153) - Post-translational modification (VFC0315)] 
+[Legionella pneumophila str. Lens]
+Length=233
+
+ Score = 162 bits (411),  Expect = 1e-49, Method: Compositional matrix adjust.
+ Identities = 93/236 (39%), Positives = 136/236 (58%), Gaps = 8/236 (3%)
+
+Query  1    MKQHRLAAAIALVGLVLSGCDSQTN-VELKTPAQKASYGIGLNMGKSLSQEGMDDLDSKA  59
+            MK   + AA+  +GL +S   + T+   L T   K SY IG ++GK+   +G+D ++ +A
+Sbjct  1    MKMKLVTAAV--MGLAMSTAMAATDATSLATDKDKLSYSIGADLGKNFKNQGID-VNPEA  57
+
+Query  60   VAKGIEDALGKKKQQLTDEELTEAFAFLQKRAEERMAA----IGDENAKAGKKFLEENGK  115
+            +AKG++DA+   +  LT++++ +     QK    +  A      DEN   G+ FL EN  
+Sbjct  58   MAKGMQDAMSGAQLALTEQQMKDVLNKFQKDLMAKRTAEFNKKADENKVKGEAFLTENKN  117
+
+Query  116  RDGVTTTASGLQYEIVKKADGPQPKATDVVTVHYEGRLTDGTVFDSSIERGSPIDLPVSG  175
+            + GV    SGLQY+++   +G +P  +D VTV Y GRL DGTVFDS+ + G P    VS 
+Sbjct  118  KPGVVVLPSGLQYKVINAGNGVKPGKSDTVTVEYTGRLIDGTVFDSTEKTGKPATFQVSQ  177
+
+Query  176  VIPGWVEALQLMHVGEKIKLYIPSELAYGAQSPSPAIPANSVLVFDMELLGIKDPS  231
+            VIPGW EALQLM  G   ++Y+PS LAYG +S    I  N  L+F + L+ +K  S
+Sbjct  178  VIPGWTEALQLMPAGSTWEIYVPSGLAYGPRSVGGPIGPNETLIFKIHLISVKKSS  233
+
+
+>VFG045705(gb|WP_003636663) (mip) macrophage infectivity potentiator 
+Mip [Mip (VF0153) - Post-translational modification (VFC0315)] 
+[Legionella longbeachae NSW150]
+Length=233
+
+ Score = 152 bits (383),  Expect = 2e-45, Method: Compositional matrix adjust.
+ Identities = 87/233 (37%), Positives = 131/233 (56%), Gaps = 8/233 (3%)
+
+Query  1    MKQHRLAAAIALVGLVLSGCDSQTN-VELKTPAQKASYGIGLNMGKSLSQEGMDDLDSKA  59
+            MK   + AAI  +GL +S   + T+   L T   K SY IG ++GK+   +G+D ++   
+Sbjct  1    MKMKLVTAAI--MGLAMSTAMAATDATSLTTDKDKLSYSIGADLGKNFKNQGID-INPDV  57
+
+Query  60   VAKGIEDALGKKKQQLTDEELTEAFAFLQKRAEERMAA----IGDENAKAGKKFLEENGK  115
+            +AKG++D +   +  LT+E++ +  +  QK    + +A      +EN   G  FL  N  
+Sbjct  58   LAKGMQDGMSGAQLILTEEQMKDVLSKFQKDLMAKRSAEFNKKAEENKAKGDAFLSANKS  117
+
+Query  116  RDGVTTTASGLQYEIVKKADGPQPKATDVVTVHYEGRLTDGTVFDSSIERGSPIDLPVSG  175
+            + G+    SGLQY+I+    G +P  +D VTV Y G L DGTVFDS+ + G P    VS 
+Sbjct  118  KPGIVVLPSGLQYKIIDAGTGAKPGKSDTVTVEYTGTLIDGTVFDSTEKAGKPATFQVSQ  177
+
+Query  176  VIPGWVEALQLMHVGEKIKLYIPSELAYGAQSPSPAIPANSVLVFDMELLGIK  228
+            VIPGW EALQLM  G   ++++P++LAYG +S    I  N  L+F + L+ +K
+Sbjct  178  VIPGWTEALQLMPAGSTWEVFVPADLAYGPRSVGGPIGPNETLIFKIHLISVK  230
+
+
+
+Lambda      K        H        a         alpha
+   0.310    0.129    0.356    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1636202785
+
+
+Query= g3789.t1
+
+Length=113
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045705(gb|WP_003636663) (mip) macrophage infectivity potentiat...  81.6    4e-20
+VFG010532(gb|WP_011214989) (mip) macrophage infectivity potentiat...  79.0    3e-19
+VFG001864(gb|WP_011213317) (mip) macrophage infectivity potentiat...  78.6    5e-19
+
+
+>VFG045705(gb|WP_003636663) (mip) macrophage infectivity potentiator 
+Mip [Mip (VF0153) - Post-translational modification (VFC0315)] 
+[Legionella longbeachae NSW150]
+Length=233
+
+ Score = 81.6 bits (200),  Expect = 4e-20, Method: Compositional matrix adjust.
+ Identities = 42/104 (40%), Positives = 59/104 (57%), Gaps = 2/104 (2%)
+
+Query  5    LQIEDLLLGDGKEVVKGALITTQYKGTLEDGTLFDSSYERGRPFQCVIGTGRVIKGWDQG  64
+            LQ + +  G G +  K   +T +Y GTL DGT+FDS+ + G+P        +VI GW + 
+Sbjct  128  LQYKIIDAGTGAKPGKSDTVTVEYTGTLIDGTVFDSTEKAGKP--ATFQVSQVIPGWTEA  185
+
+Query  65   LMGMKVGGKRRLFVPSHLAYGERQVGAHIKPHSNLLFEIELLEV  108
+            L  M  G    +FVP+ LAYG R VG  I P+  L+F+I L+ V
+Sbjct  186  LQLMPAGSTWEVFVPADLAYGPRSVGGPIGPNETLIFKIHLISV  229
+
+
+>VFG010532(gb|WP_011214989) (mip) macrophage infectivity potentiator 
+Mip [Mip (VF0153) - Post-translational modification (VFC0315)] 
+[Legionella pneumophila str. Lens]
+Length=233
+
+ Score = 79.0 bits (193),  Expect = 3e-19, Method: Compositional matrix adjust.
+ Identities = 41/104 (39%), Positives = 59/104 (57%), Gaps = 2/104 (2%)
+
+Query  5    LQIEDLLLGDGKEVVKGALITTQYKGTLEDGTLFDSSYERGRPFQCVIGTGRVIKGWDQG  64
+            LQ + +  G+G +  K   +T +Y G L DGT+FDS+ + G+P        +VI GW + 
+Sbjct  128  LQYKVINAGNGVKPGKSDTVTVEYTGRLIDGTVFDSTEKTGKP--ATFQVSQVIPGWTEA  185
+
+Query  65   LMGMKVGGKRRLFVPSHLAYGERQVGAHIKPHSNLLFEIELLEV  108
+            L  M  G    ++VPS LAYG R VG  I P+  L+F+I L+ V
+Sbjct  186  LQLMPAGSTWEIYVPSGLAYGPRSVGGPIGPNETLIFKIHLISV  229
+
+
+>VFG001864(gb|WP_011213317) (mip) macrophage infectivity potentiator 
+Mip [Mip (VF0153) - Post-translational modification (VFC0315)] 
+[Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+Length=233
+
+ Score = 78.6 bits (192),  Expect = 5e-19, Method: Compositional matrix adjust.
+ Identities = 41/104 (39%), Positives = 59/104 (57%), Gaps = 2/104 (2%)
+
+Query  5    LQIEDLLLGDGKEVVKGALITTQYKGTLEDGTLFDSSYERGRPFQCVIGTGRVIKGWDQG  64
+            LQ + +  G+G +  K   +T +Y G L DGT+FDS+ + G+P        +VI GW + 
+Sbjct  128  LQYKVINSGNGVKPGKSDTVTVEYTGRLIDGTVFDSTEKTGKP--ATFQVSQVIPGWTEA  185
+
+Query  65   LMGMKVGGKRRLFVPSHLAYGERQVGAHIKPHSNLLFEIELLEV  108
+            L  M  G    ++VPS LAYG R VG  I P+  L+F+I L+ V
+Sbjct  186  LQLMPAGSTWEIYVPSGLAYGPRSVGGPIGPNETLIFKIHLISV  229
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.143    0.423    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 329276310
+
+
+Query= g4658.t1
+
+Length=205
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG045705(gb|WP_003636663) (mip) macrophage infectivity potentiat...  166     2e-51
+VFG001864(gb|WP_011213317) (mip) macrophage infectivity potentiat...  162     2e-50
+VFG010532(gb|WP_011214989) (mip) macrophage infectivity potentiat...  162     4e-50
+
+
+>VFG045705(gb|WP_003636663) (mip) macrophage infectivity potentiator 
+Mip [Mip (VF0153) - Post-translational modification (VFC0315)] 
+[Legionella longbeachae NSW150]
+Length=233
+
+ Score = 166 bits (419),  Expect = 2e-51, Method: Compositional matrix adjust.
+ Identities = 86/205 (42%), Positives = 125/205 (61%), Gaps = 6/205 (3%)
+
+Query  5    NLTTDEARVSYGIGRQLGDQLRENPVPGMTLDAVLAGLSDAFAGIDSRVSGEALS---AS  61
+            +LTTD+ ++SY IG  LG   +   +  +  D +  G+ D  +G    ++ E +    + 
+Sbjct  26   SLTTDKDKLSYSIGADLGKNFKNQGI-DINPDVLAKGMQDGMSGAQLILTEEQMKDVLSK  84
+
+Query  62   FQV-IRERMQAEAQAKAEAAAGEGRAYLAENAKREGVTVLPSGLQFEVLSTGEGAKPSRE  120
+            FQ  +  +  AE   KAE    +G A+L+ N  + G+ VLPSGLQ++++  G GAKP + 
+Sbjct  85   FQKDLMAKRSAEFNKKAEENKAKGDAFLSANKSKPGIVVLPSGLQYKIIDAGTGAKPGKS  144
+
+Query  121  DTVRTHYHGTLIDGTVFDSSYQRGQPAEFPVGGVIAGWVEALQLMNAGSKWRLHVPSELA  180
+            DTV   Y GTLIDGTVFDS+ + G+PA F V  VI GW EALQLM AGS W + VP++LA
+Sbjct  145  DTVTVEYTGTLIDGTVFDSTEKAGKPATFQVSQVIPGWTEALQLMPAGSTWEVFVPADLA  204
+
+Query  181  YGGQAVGS-IPPHSVLVFDVELLEI  204
+            YG ++VG  I P+  L+F + L+ +
+Sbjct  205  YGPRSVGGPIGPNETLIFKIHLISV  229
+
+
+>VFG001864(gb|WP_011213317) (mip) macrophage infectivity potentiator 
+Mip [Mip (VF0153) - Post-translational modification (VFC0315)] 
+[Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+Length=233
+
+ Score = 162 bits (411),  Expect = 2e-50, Method: Compositional matrix adjust.
+ Identities = 86/205 (42%), Positives = 125/205 (61%), Gaps = 6/205 (3%)
+
+Query  5    NLTTDEARVSYGIGRQLGDQLRENPVPGMTLDAVLAGLSDAFAGIDSRVSGEALS---AS  61
+            +L TD+ ++SY IG  LG   +   +  +  +A+  G+ DA +G    ++ + +      
+Sbjct  26   SLATDKDKLSYSIGADLGKNFKNQGI-DVNPEAMAKGMQDAMSGAQLALTEQQMKDVLNK  84
+
+Query  62   FQV-IRERMQAEAQAKAEAAAGEGRAYLAENAKREGVTVLPSGLQFEVLSTGEGAKPSRE  120
+            FQ  +  +  AE   KA+    +G A+L EN  + GV VLPSGLQ++V+++G G KP + 
+Sbjct  85   FQKDLMAKRTAEFNKKADENKVKGEAFLTENKNKPGVVVLPSGLQYKVINSGNGVKPGKS  144
+
+Query  121  DTVRTHYHGTLIDGTVFDSSYQRGQPAEFPVGGVIAGWVEALQLMNAGSKWRLHVPSELA  180
+            DTV   Y G LIDGTVFDS+ + G+PA F V  VI GW EALQLM AGS W ++VPS LA
+Sbjct  145  DTVTVEYTGRLIDGTVFDSTEKTGKPATFQVSQVIPGWTEALQLMPAGSTWEIYVPSGLA  204
+
+Query  181  YGGQAVGS-IPPHSVLVFDVELLEI  204
+            YG ++VG  I P+  L+F + L+ +
+Sbjct  205  YGPRSVGGPIGPNETLIFKIHLISV  229
+
+
+>VFG010532(gb|WP_011214989) (mip) macrophage infectivity potentiator 
+Mip [Mip (VF0153) - Post-translational modification (VFC0315)] 
+[Legionella pneumophila str. Lens]
+Length=233
+
+ Score = 162 bits (409),  Expect = 4e-50, Method: Compositional matrix adjust.
+ Identities = 86/205 (42%), Positives = 124/205 (60%), Gaps = 6/205 (3%)
+
+Query  5    NLTTDEARVSYGIGRQLGDQLRENPVPGMTLDAVLAGLSDAFAGIDSRVSGEALS---AS  61
+            +L TD+ ++SY IG  LG   +   +  +  +A+  G+ DA +G    ++ + +      
+Sbjct  26   SLATDKDKLSYSIGADLGKNFKNQGI-DVNPEAMAKGMQDAMSGAQLALTEQQMKDVLNK  84
+
+Query  62   FQV-IRERMQAEAQAKAEAAAGEGRAYLAENAKREGVTVLPSGLQFEVLSTGEGAKPSRE  120
+            FQ  +  +  AE   KA+    +G A+L EN  + GV VLPSGLQ++V++ G G KP + 
+Sbjct  85   FQKDLMAKRTAEFNKKADENKVKGEAFLTENKNKPGVVVLPSGLQYKVINAGNGVKPGKS  144
+
+Query  121  DTVRTHYHGTLIDGTVFDSSYQRGQPAEFPVGGVIAGWVEALQLMNAGSKWRLHVPSELA  180
+            DTV   Y G LIDGTVFDS+ + G+PA F V  VI GW EALQLM AGS W ++VPS LA
+Sbjct  145  DTVTVEYTGRLIDGTVFDSTEKTGKPATFQVSQVIPGWTEALQLMPAGSTWEIYVPSGLA  204
+
+Query  181  YGGQAVGS-IPPHSVLVFDVELLEI  204
+            YG ++VG  I P+  L+F + L+ +
+Sbjct  205  YGPRSVGGPIGPNETLIFKIHLISV  229
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.132    0.375    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1170410230
+
+
+Query= g5356.t1
+
+Length=209
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG001864(gb|WP_011213317) (mip) macrophage infectivity potentiat...  94.0    1e-23
+VFG045705(gb|WP_003636663) (mip) macrophage infectivity potentiat...  94.0    1e-23
+VFG010532(gb|WP_011214989) (mip) macrophage infectivity potentiat...  93.6    2e-23
+
+
+>VFG001864(gb|WP_011213317) (mip) macrophage infectivity potentiator 
+Mip [Mip (VF0153) - Post-translational modification (VFC0315)] 
+[Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+Length=233
+
+ Score = 94.0 bits (232),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 60/203 (30%), Positives = 94/203 (46%), Gaps = 12/203 (6%)
+
+Query  19   APPKDELAYAVGARLGMRLQQEMPGLELSELLLGLRQAYRGEALEIPPERIEQLLLQHEN  78
+            A  KD+L+Y++GA LG   + +   +    +  G++ A  G  L +  ++++ +L + + 
+Sbjct  28   ATDKDKLSYSIGADLGKNFKNQGIDVNPEAMAKGMQDAMSGAQLALTEQQMKDVLNKFQK  87
+
+Query  79   A-----TTETPRTTPAEA----RFLANEKARFGVRELTGGVLVSELRRGQGNGIGAATQV  129
+                  T E  +           FL   K + GV  L  G+    +  G G   G +  V
+Sbjct  88   DLMAKRTAEFNKKADENKVKGEAFLTENKNKPGVVVLPSGLQYKVINSGNGVKPGKSDTV  147
+
+Query  130  HVRYRGLLADGQVFDQSESA---EWFALDSVIEGWRTALRAMPVGARWRVVIPSAQAYGH  186
+             V Y G L DG VFD +E       F +  VI GW  AL+ MP G+ W + +PS  AYG 
+Sbjct  148  TVEYTGRLIDGTVFDSTEKTGKPATFQVSQVIPGWTEALQLMPAGSTWEIYVPSGLAYGP  207
+
+Query  187  EGAGDLIPPDAPLVFEIDLLGFR  209
+               G  I P+  L+F+I L+  +
+Sbjct  208  RSVGGPIGPNETLIFKIHLISVK  230
+
+
+>VFG045705(gb|WP_003636663) (mip) macrophage infectivity potentiator 
+Mip [Mip (VF0153) - Post-translational modification (VFC0315)] 
+[Legionella longbeachae NSW150]
+Length=233
+
+ Score = 94.0 bits (232),  Expect = 1e-23, Method: Compositional matrix adjust.
+ Identities = 61/200 (31%), Positives = 95/200 (48%), Gaps = 12/200 (6%)
+
+Query  22   KDELAYAVGARLGMRLQQEMPGLELSELLLGLRQAYRGEALEIPPERIEQLLLQHEN---  78
+            KD+L+Y++GA LG   + +   +    L  G++    G  L +  E+++ +L + +    
+Sbjct  31   KDKLSYSIGADLGKNFKNQGIDINPDVLAKGMQDGMSGAQLILTEEQMKDVLSKFQKDLM  90
+
+Query  79   ATTETPRTTPAEAR------FLANEKARFGVRELTGGVLVSELRRGQGNGIGAATQVHVR  132
+            A         AE        FL+  K++ G+  L  G+    +  G G   G +  V V 
+Sbjct  91   AKRSAEFNKKAEENKAKGDAFLSANKSKPGIVVLPSGLQYKIIDAGTGAKPGKSDTVTVE  150
+
+Query  133  YRGLLADGQVFDQSESA---EWFALDSVIEGWRTALRAMPVGARWRVVIPSAQAYGHEGA  189
+            Y G L DG VFD +E A     F +  VI GW  AL+ MP G+ W V +P+  AYG    
+Sbjct  151  YTGTLIDGTVFDSTEKAGKPATFQVSQVIPGWTEALQLMPAGSTWEVFVPADLAYGPRSV  210
+
+Query  190  GDLIPPDAPLVFEIDLLGFR  209
+            G  I P+  L+F+I L+  +
+Sbjct  211  GGPIGPNETLIFKIHLISVK  230
+
+
+>VFG010532(gb|WP_011214989) (mip) macrophage infectivity potentiator 
+Mip [Mip (VF0153) - Post-translational modification (VFC0315)] 
+[Legionella pneumophila str. Lens]
+Length=233
+
+ Score = 93.6 bits (231),  Expect = 2e-23, Method: Compositional matrix adjust.
+ Identities = 60/203 (30%), Positives = 94/203 (46%), Gaps = 12/203 (6%)
+
+Query  19   APPKDELAYAVGARLGMRLQQEMPGLELSELLLGLRQAYRGEALEIPPERIEQLLLQHEN  78
+            A  KD+L+Y++GA LG   + +   +    +  G++ A  G  L +  ++++ +L + + 
+Sbjct  28   ATDKDKLSYSIGADLGKNFKNQGIDVNPEAMAKGMQDAMSGAQLALTEQQMKDVLNKFQK  87
+
+Query  79   A-----TTETPRTTPAEA----RFLANEKARFGVRELTGGVLVSELRRGQGNGIGAATQV  129
+                  T E  +           FL   K + GV  L  G+    +  G G   G +  V
+Sbjct  88   DLMAKRTAEFNKKADENKVKGEAFLTENKNKPGVVVLPSGLQYKVINAGNGVKPGKSDTV  147
+
+Query  130  HVRYRGLLADGQVFDQSESA---EWFALDSVIEGWRTALRAMPVGARWRVVIPSAQAYGH  186
+             V Y G L DG VFD +E       F +  VI GW  AL+ MP G+ W + +PS  AYG 
+Sbjct  148  TVEYTGRLIDGTVFDSTEKTGKPATFQVSQVIPGWTEALQLMPAGSTWEIYVPSGLAYGP  207
+
+Query  187  EGAGDLIPPDAPLVFEIDLLGFR  209
+               G  I P+  L+F+I L+  +
+Sbjct  208  RSVGGPIGPNETLIFKIHLISVK  230
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.140    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1199168543
+
+
+Query= g4089.t1
+
+Length=206
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG001864(gb|WP_011213317) (mip) macrophage infectivity potentiat...  158     1e-48
+VFG010532(gb|WP_011214989) (mip) macrophage infectivity potentiat...  158     2e-48
+VFG045705(gb|WP_003636663) (mip) macrophage infectivity potentiat...  151     1e-45
+
+
+>VFG001864(gb|WP_011213317) (mip) macrophage infectivity potentiator 
+Mip [Mip (VF0153) - Post-translational modification (VFC0315)] 
+[Legionella pneumophila subsp. pneumophila str. Philadelphia 
+1]
+Length=233
+
+ Score = 158 bits (400),  Expect = 1e-48, Method: Compositional matrix adjust.
+ Identities = 83/202 (41%), Positives = 115/202 (57%), Gaps = 5/202 (2%)
+
+Query  8    TIEAQASYGIGLQVGQQLSESGLEGLLPEALVAGIADALEGKHPAVPVDVVHRALREIHE  67
+            T + + SY IG  +G+     G++ + PEA+  G+ DA+ G   A+    +   L +  +
+Sbjct  29   TDKDKLSYSIGADLGKNFKNQGID-VNPEAMAKGMQDAMSGAQLALTEQQMKDVLNKFQK  87
+
+Query  68   RADAVRRERFKAMAAE----GVKYLEENREKDGVNSTESGLQFRVLTQGEGAIPARTDRV  123
+               A R   F   A E    G  +L EN+ K GV    SGLQ++V+  G G  P ++D V
+Sbjct  88   DLMAKRTAEFNKKADENKVKGEAFLTENKNKPGVVVLPSGLQYKVINSGNGVKPGKSDTV  147
+
+Query  124  RVHYTGKLIDGTVFDSSVARGEPAEFPVNGVIAGWIEALTLMPVGSKWELTIPQELAYGE  183
+             V YTG+LIDGTVFDS+   G+PA F V+ VI GW EAL LMP GS WE+ +P  LAYG 
+Sbjct  148  TVEYTGRLIDGTVFDSTEKTGKPATFQVSQVIPGWTEALQLMPAGSTWEIYVPSGLAYGP  207
+
+Query  184  RGAGASIPPFSTLVFEVELLEI  205
+            R  G  I P  TL+F++ L+ +
+Sbjct  208  RSVGGPIGPNETLIFKIHLISV  229
+
+
+>VFG010532(gb|WP_011214989) (mip) macrophage infectivity potentiator 
+Mip [Mip (VF0153) - Post-translational modification (VFC0315)] 
+[Legionella pneumophila str. Lens]
+Length=233
+
+ Score = 158 bits (399),  Expect = 2e-48, Method: Compositional matrix adjust.
+ Identities = 83/202 (41%), Positives = 115/202 (57%), Gaps = 5/202 (2%)
+
+Query  8    TIEAQASYGIGLQVGQQLSESGLEGLLPEALVAGIADALEGKHPAVPVDVVHRALREIHE  67
+            T + + SY IG  +G+     G++ + PEA+  G+ DA+ G   A+    +   L +  +
+Sbjct  29   TDKDKLSYSIGADLGKNFKNQGID-VNPEAMAKGMQDAMSGAQLALTEQQMKDVLNKFQK  87
+
+Query  68   RADAVRRERFKAMAAE----GVKYLEENREKDGVNSTESGLQFRVLTQGEGAIPARTDRV  123
+               A R   F   A E    G  +L EN+ K GV    SGLQ++V+  G G  P ++D V
+Sbjct  88   DLMAKRTAEFNKKADENKVKGEAFLTENKNKPGVVVLPSGLQYKVINAGNGVKPGKSDTV  147
+
+Query  124  RVHYTGKLIDGTVFDSSVARGEPAEFPVNGVIAGWIEALTLMPVGSKWELTIPQELAYGE  183
+             V YTG+LIDGTVFDS+   G+PA F V+ VI GW EAL LMP GS WE+ +P  LAYG 
+Sbjct  148  TVEYTGRLIDGTVFDSTEKTGKPATFQVSQVIPGWTEALQLMPAGSTWEIYVPSGLAYGP  207
+
+Query  184  RGAGASIPPFSTLVFEVELLEI  205
+            R  G  I P  TL+F++ L+ +
+Sbjct  208  RSVGGPIGPNETLIFKIHLISV  229
+
+
+>VFG045705(gb|WP_003636663) (mip) macrophage infectivity potentiator 
+Mip [Mip (VF0153) - Post-translational modification (VFC0315)] 
+[Legionella longbeachae NSW150]
+Length=233
+
+ Score = 151 bits (381),  Expect = 1e-45, Method: Compositional matrix adjust.
+ Identities = 78/205 (38%), Positives = 115/205 (56%), Gaps = 5/205 (2%)
+
+Query  5    TFDTIEAQASYGIGLQVGQQLSESGLEGLLPEALVAGIADALEGKHPAVPVDVVHRALRE  64
+            +  T + + SY IG  +G+     G++ + P+ L  G+ D + G    +  + +   L +
+Sbjct  26   SLTTDKDKLSYSIGADLGKNFKNQGID-INPDVLAKGMQDGMSGAQLILTEEQMKDVLSK  84
+
+Query  65   IHERADAVRRERFKAMA----AEGVKYLEENREKDGVNSTESGLQFRVLTQGEGAIPART  120
+              +   A R   F   A    A+G  +L  N+ K G+    SGLQ++++  G GA P ++
+Sbjct  85   FQKDLMAKRSAEFNKKAEENKAKGDAFLSANKSKPGIVVLPSGLQYKIIDAGTGAKPGKS  144
+
+Query  121  DRVRVHYTGKLIDGTVFDSSVARGEPAEFPVNGVIAGWIEALTLMPVGSKWELTIPQELA  180
+            D V V YTG LIDGTVFDS+   G+PA F V+ VI GW EAL LMP GS WE+ +P +LA
+Sbjct  145  DTVTVEYTGTLIDGTVFDSTEKAGKPATFQVSQVIPGWTEALQLMPAGSTWEVFVPADLA  204
+
+Query  181  YGERGAGASIPPFSTLVFEVELLEI  205
+            YG R  G  I P  TL+F++ L+ +
+Sbjct  205  YGPRSVGGPIGPNETLIFKIHLISV  229
+
+
+
+Lambda      K        H        a         alpha
+   0.316    0.135    0.384    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1181050323
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

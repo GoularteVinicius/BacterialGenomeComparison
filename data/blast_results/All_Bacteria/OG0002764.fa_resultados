@@ -1,0 +1,124 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g2706.t1
+
+Length=393
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-gl...  52.0    2e-07
+VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-g...  52.0    3e-07
+
+
+>VFG002705(gb|WP_002208598) (YPO_RS16520) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pestis CO92]
+Length=329
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 49/209 (23%), Positives = 91/209 (44%), Gaps = 12/209 (6%)
+
+Query  184  LAFQPGQYIGLRLDIDGEEVRRNYSLSAASNGR-EYRISVKREAGGRVSNYLHDRVAEGD  242
+            + +  GQYI L   I+G+  RR+YS++ A  G     + V++   G  SN + + +    
+Sbjct  128  IQYLAGQYIDLI--INGQ--RRSYSIANAPGGNGNIELHVRKVVNGVFSNIIFNELKLQQ  183
+
+Query  243  ELDLFPPAGDFVLRDSDKPLVLITAGVGITPALAMLQEALPQARPIRFIHCARHGGVHAF  302
+             L +  P G F +R+ + P+V +  G G  P  +M+ EAL      R +H   + G+ A 
+Sbjct  184  LLRIEGPQGTFFVREDNLPIVFLAGGTGFAPVKSMV-EALINKNDQRQVHI--YWGMPAG  240
+
+Query  303  RDWIEDVSAQHEQVEHFFCYSEPRAGDSAD---AEGLLSREKLADWLPQERDLDAYFLGP  359
+             ++  D++ +         Y    +GD +    A G + +  L D +P     + Y  G 
+Sbjct  241  HNFYSDIANEWAIKHPNIHYVPVVSGDDSTWTGATGFVHQAVLED-IPDLSLFNVYACGS  299
+
+Query  360  RPFMAQVKRHLADLGVPSQQCHYEFFGPA  388
+               +   +    + G+   +   + F P+
+Sbjct  300  LAMITAARNDFINHGLAENKFFSDAFVPS  328
+
+
+>VFG003391(gb|WP_011191878) (YPTB_RS05510) CDP-6-deoxy-delta-3,4-glucoseen 
+reductase [O-antigen (VF0392) - Immune modulation 
+(VFC0258)] [Yersinia pseudotuberculosis IP 32953]
+Length=329
+
+ Score = 52.0 bits (123),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 49/209 (23%), Positives = 91/209 (44%), Gaps = 12/209 (6%)
+
+Query  184  LAFQPGQYIGLRLDIDGEEVRRNYSLSAASNGR-EYRISVKREAGGRVSNYLHDRVAEGD  242
+            + +  GQYI L   I+G+  RR+YS++ A  G     + V++   G  SN + + +    
+Sbjct  128  IQYLAGQYIDLI--INGQ--RRSYSIANAPGGNGNIELHVRKVVNGVFSNIIFNELKLQQ  183
+
+Query  243  ELDLFPPAGDFVLRDSDKPLVLITAGVGITPALAMLQEALPQARPIRFIHCARHGGVHAF  302
+             L +  P G F +R+ + P+V +  G G  P  +M+ EAL      R +H   + G+ A 
+Sbjct  184  LLRIEGPQGTFFVREDNLPIVFLAGGTGFAPVKSMV-EALINKNDQRQVHI--YWGMPAG  240
+
+Query  303  RDWIEDVSAQHEQVEHFFCYSEPRAGDSAD---AEGLLSREKLADWLPQERDLDAYFLGP  359
+             ++  D++ +         Y    +GD +    A G + +  L D +P     + Y  G 
+Sbjct  241  HNFYSDIANEWAIKHPNIHYVPVVSGDDSTWTGATGFVHQAVLED-IPDLSLFNVYACGS  299
+
+Query  360  RPFMAQVKRHLADLGVPSQQCHYEFFGPA  388
+               +   +    + G+   +   + F P+
+Sbjct  300  LAMITAARNDFINHGLAENKFFSDAFVPS  328
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3039267729
+
+
+Query= g2386.t1
+
+Length=396
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.134    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3070600386
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,754 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g402.t1
+
+Length=429
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.138    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3395693262
+
+
+Query= g298.t1
+
+Length=529
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG047735(gb|WP_014714142) (carA) carbamoyl phosphate synthase sm...  75.1    2e-14
+VFG047719(gb|WP_003040816) (carA) carbamoyl phosphate synthase sm...  70.5    6e-13
+VFG047720(gb|WP_012280231) (carA) carbamoyl phosphate synthase sm...  70.5    6e-13
+VFG047728(gb|WP_014547361) (carA) carbamoyl phosphate synthase sm...  68.9    2e-12
+VFG047736(gb|WP_013921813) (carA) carbamoyl phosphate synthase sm...  68.6    2e-12
+VFG047724(gb|WP_012429026) (carA) carbamoyl phosphate synthase sm...  66.6    1e-11
+VFG047726(gb|WP_003013939) (carA) carbamoyl phosphate synthase sm...  66.6    1e-11
+
+
+>VFG047735(gb|WP_014714142) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella noatunensis subsp. 
+orientalis str. Toba 04]
+Length=388
+
+ Score = 75.1 bits (183),  Expect = 2e-14, Method: Compositional matrix adjust.
+ Identities = 60/207 (29%), Positives = 91/207 (44%), Gaps = 15/207 (7%)
+
+Query  9    QPEPSPRPVLVVDFGAQYAQLIARRVREARVFSEVIPHTTSIEEITARDPLAIVLSGGPA  68
+            Q E     V+V+D+G +Y   I R + +A     V+P  ++ E+I   +P  + LS GP 
+Sbjct  192  QQESYKYSVVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPNGVFLSNGPG  249
+
+Query  69   SVY--TEGAPQLDPALFDLGLPVFGICYGFQAMAQVLGGTVARTKTSEYGRTELKVLGGD  126
+              +  ++    +   L ++ +P+FGIC G Q +A   G    +      G  +  VL  D
+Sbjct  250  DPFATSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQ-PVLDAD  308
+
+Query  127  LHSGLPGVQPVWMSHGDAVT--AAPDGFDVAASS-SGAPVAAFENRDRRLAGVQYHPEVM  183
+                L   Q    +HG  V     PD F++  SS     V     +DR    VQYHPE  
+Sbjct  309  TKKVLITSQ----NHGFVVCDDVVPDNFEIHMSSLFDGTVEGLRFKDRPAFAVQYHPESS  364
+
+Query  184  HTPHGQQVLSRFLHDFAGLDADWTAAN  210
+              PH  + L    ++FA + AD    N
+Sbjct  365  PGPHDCKYL---FNEFAEIIADSKKGN  388
+
+
+>VFG047719(gb|WP_003040816) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella novicida U112]
+Length=388
+
+ Score = 70.5 bits (171),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 58/207 (28%), Positives = 90/207 (43%), Gaps = 15/207 (7%)
+
+Query  9    QPEPSPRPVLVVDFGAQYAQLIARRVREARVFSEVIPHTTSIEEITARDPLAIVLSGGPA  68
+            Q E     V+V+D+G +Y   I R + +A     V+P  ++ E+I   +P  + LS GP 
+Sbjct  192  QQESYKYSVVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPG  249
+
+Query  69   SVY--TEGAPQLDPALFDLGLPVFGICYGFQAMAQVLGGTVARTKTSEYGRTELKVLGGD  126
+              +  ++    +   L ++ +P+FGIC G Q +A   G    +      G  +  VL  D
+Sbjct  250  DPFATSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQ-PVLDAD  308
+
+Query  127  LHSGLPGVQPVWMSHGDAVT--AAPDGFDVAASS-SGAPVAAFENRDRRLAGVQYHPEVM  183
+                L   Q    +HG  V     PD  ++  SS     V     +DR    VQYHPE  
+Sbjct  309  TKKVLITSQ----NHGFVVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQYHPESS  364
+
+Query  184  HTPHGQQVLSRFLHDFAGLDADWTAAN  210
+              PH  + L    ++FA + A+    N
+Sbjct  365  PGPHDCKYL---FNEFAEMIAESKKGN  388
+
+
+>VFG047720(gb|WP_012280231) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella philomiragia subsp. 
+philomiragia ATCC 25017]
+Length=388
+
+ Score = 70.5 bits (171),  Expect = 6e-13, Method: Compositional matrix adjust.
+ Identities = 58/207 (28%), Positives = 90/207 (43%), Gaps = 15/207 (7%)
+
+Query  9    QPEPSPRPVLVVDFGAQYAQLIARRVREARVFSEVIPHTTSIEEITARDPLAIVLSGGPA  68
+            Q E     V+V+D+G +Y   I R + +A     V+P  ++ E+I   +P  + LS GP 
+Sbjct  192  QQESYKYSVVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPG  249
+
+Query  69   SVY--TEGAPQLDPALFDLGLPVFGICYGFQAMAQVLGGTVARTKTSEYGRTELKVLGGD  126
+              +  ++    +   L ++ +P+FGIC G Q +A   G    +      G  +  VL  D
+Sbjct  250  DPFATSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQ-PVLDAD  308
+
+Query  127  LHSGLPGVQPVWMSHGDAVT--AAPDGFDVAASS-SGAPVAAFENRDRRLAGVQYHPEVM  183
+                L   Q    +HG  V     PD  ++  SS     V     +DR    VQYHPE  
+Sbjct  309  TKKVLITSQ----NHGFVVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQYHPESS  364
+
+Query  184  HTPHGQQVLSRFLHDFAGLDADWTAAN  210
+              PH  + L    ++FA + A+    N
+Sbjct  365  PGPHDCKYL---FNEFAEMIAESKKGN  388
+
+
+>VFG047728(gb|WP_014547361) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella cf. tularensis 
+subsp. novicida 3523]
+Length=388
+
+ Score = 68.9 bits (167),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 57/207 (28%), Positives = 90/207 (43%), Gaps = 15/207 (7%)
+
+Query  9    QPEPSPRPVLVVDFGAQYAQLIARRVREARVFSEVIPHTTSIEEITARDPLAIVLSGGPA  68
+            Q +     V+V+D+G +Y   I R + +A     V+P  ++ E+I   +P  + LS GP 
+Sbjct  192  QQQNYKYNVVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPG  249
+
+Query  69   SVY--TEGAPQLDPALFDLGLPVFGICYGFQAMAQVLGGTVARTKTSEYGRTELKVLGGD  126
+              +  ++    +   L ++ +P+FGIC G Q +A   G    +      G  +  VL  D
+Sbjct  250  DPFATSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQ-PVLDAD  308
+
+Query  127  LHSGLPGVQPVWMSHGDAVT--AAPDGFDVAASS-SGAPVAAFENRDRRLAGVQYHPEVM  183
+                L   Q    +HG  V     PD  ++  SS     V     +DR    VQYHPE  
+Sbjct  309  TKKVLITSQ----NHGFVVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQYHPESS  364
+
+Query  184  HTPHGQQVLSRFLHDFAGLDADWTAAN  210
+              PH  + L    ++FA + A+    N
+Sbjct  365  PGPHDCKYL---FNEFAEMIAESKKGN  388
+
+
+>VFG047736(gb|WP_013921813) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella sp. TX077308]
+Length=388
+
+ Score = 68.6 bits (166),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 56/199 (28%), Positives = 88/199 (44%), Gaps = 15/199 (8%)
+
+Query  17   VLVVDFGAQYAQLIARRVREARVFSEVIPHTTSIEEITARDPLAIVLSGGPASVY--TEG  74
+            V+V+D+G +Y   I R + +A     V+P  ++ E+I   +P  + LS GP   +  ++ 
+Sbjct  200  VVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPGDPFATSDY  257
+
+Query  75   APQLDPALFDLGLPVFGICYGFQAMAQVLGGTVARTKTSEYGRTELKVLGGDLHSGLPGV  134
+               +   L ++ +P+FGIC G Q +A   G    +      G  +  VL  D    L   
+Sbjct  258  TMPVIKKLLEIKMPIFGICLGNQLLALAAGLKTKKMHQGHRGVNQ-PVLDADTKKVLITS  316
+
+Query  135  QPVWMSHGDAVT--AAPDGFDVAASS-SGAPVAAFENRDRRLAGVQYHPEVMHTPHGQQV  191
+            Q    +HG  V     PD  ++  SS     V     +DR    VQYHPE    PH  + 
+Sbjct  317  Q----NHGFVVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQYHPESSPGPHDCKY  372
+
+Query  192  LSRFLHDFAGLDADWTAAN  210
+            L    ++FA + A+    N
+Sbjct  373  L---FNEFAEMIAESKKGN  388
+
+
+>VFG047724(gb|WP_012429026) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella tularensis subsp. 
+mediasiatica FSC147]
+Length=388
+
+ Score = 66.6 bits (161),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 56/207 (27%), Positives = 89/207 (43%), Gaps = 15/207 (7%)
+
+Query  9    QPEPSPRPVLVVDFGAQYAQLIARRVREARVFSEVIPHTTSIEEITARDPLAIVLSGGPA  68
+            Q +     V+V+D+G +Y   I R + +A     V+P  ++ E+I   +P  + LS GP 
+Sbjct  192  QQQSYKYSVVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPG  249
+
+Query  69   SVY--TEGAPQLDPALFDLGLPVFGICYGFQAMAQVLGGTVARTKTSEYGRTELKVLGGD  126
+              +  ++    +   L ++ +P+FGIC G Q +A   G    +      G  +  VL  +
+Sbjct  250  DPFATSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQ-PVLDAN  308
+
+Query  127  LHSGLPGVQPVWMSHGDAVT--AAPDGFDVAASS-SGAPVAAFENRDRRLAGVQYHPEVM  183
+                L   Q    +HG  V     PD   +  SS     V     +DR    VQYHPE  
+Sbjct  309  TKKVLITSQ----NHGFVVCDDNVPDNIQIHMSSLFDGTVEGLRFKDRPAFAVQYHPESS  364
+
+Query  184  HTPHGQQVLSRFLHDFAGLDADWTAAN  210
+              PH  + L    ++FA + A+    N
+Sbjct  365  PGPHDCKYL---FNEFAEMIAESKKGN  388
+
+
+>VFG047726(gb|WP_003013939) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella tularensis subsp. 
+tularensis SCHU S4]
+Length=388
+
+ Score = 66.6 bits (161),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 56/207 (27%), Positives = 89/207 (43%), Gaps = 15/207 (7%)
+
+Query  9    QPEPSPRPVLVVDFGAQYAQLIARRVREARVFSEVIPHTTSIEEITARDPLAIVLSGGPA  68
+            Q +     V+V+D+G +Y   I R + +A     V+P  ++ E+I   +P  + LS GP 
+Sbjct  192  QQQSYKYSVVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPG  249
+
+Query  69   SVY--TEGAPQLDPALFDLGLPVFGICYGFQAMAQVLGGTVARTKTSEYGRTELKVLGGD  126
+              +  ++    +   L ++ +P+FGIC G Q +A   G    +      G  +  VL  +
+Sbjct  250  DPFATSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQ-PVLDAN  308
+
+Query  127  LHSGLPGVQPVWMSHGDAVT--AAPDGFDVAASS-SGAPVAAFENRDRRLAGVQYHPEVM  183
+                L   Q    +HG  V     PD   +  SS     V     +DR    VQYHPE  
+Sbjct  309  TKKVLITSQ----NHGFVVCDDNVPDNIQIHMSSLFDGTVEGLRFKDRPAFAVQYHPESS  364
+
+Query  184  HTPHGQQVLSRFLHDFAGLDADWTAAN  210
+              PH  + L    ++FA + A+    N
+Sbjct  365  PGPHDCKYL---FNEFAEMIAESKKGN  388
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.138    0.409    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4392755752
+
+
+Query= g3352.t1
+
+Length=525
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG047735(gb|WP_014714142) (carA) carbamoyl phosphate synthase sm...  71.2    4e-13
+VFG047719(gb|WP_003040816) (carA) carbamoyl phosphate synthase sm...  68.9    2e-12
+VFG047720(gb|WP_012280231) (carA) carbamoyl phosphate synthase sm...  68.9    2e-12
+VFG047728(gb|WP_014547361) (carA) carbamoyl phosphate synthase sm...  68.2    3e-12
+VFG047736(gb|WP_013921813) (carA) carbamoyl phosphate synthase sm...  67.8    4e-12
+VFG047724(gb|WP_012429026) (carA) carbamoyl phosphate synthase sm...  65.5    2e-11
+VFG047726(gb|WP_003013939) (carA) carbamoyl phosphate synthase sm...  65.5    3e-11
+
+
+>VFG047735(gb|WP_014714142) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella noatunensis subsp. 
+orientalis str. Toba 04]
+Length=388
+
+ Score = 71.2 bits (173),  Expect = 4e-13, Method: Compositional matrix adjust.
+ Identities = 60/205 (29%), Positives = 91/205 (44%), Gaps = 15/205 (7%)
+
+Query  11   ETPARPVLVVDFGAQYAQLIARRVREARVFSEVIPHTASIEEIRARQPVALVLSGGPASV  70
+            E+    V+V+D+G +Y   I R + +A     V+P  ++ E+I    P  + LS GP   
+Sbjct  194  ESYKYSVVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPNGVFLSNGPGDP  251
+
+Query  71   YA--DGAPKLDPALLDLGVPVLGICYGFQAMAQALGGIVAHTGTREYGRTELKVLGGKLH  128
+            +A  D    +   LL++ +P+ GIC G Q +A A G       T++  +    V    L 
+Sbjct  252  FATSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAG-----LKTKKMHKGHRGVNQPVLD  306
+
+Query  129  SDLPEVQPVWMSHGDAVT--AAPDGFDVVASSA-GAPVAAFEAFDRRLAGVQYHPEVMHT  185
+            +D  +V     +HG  V     PD F++  SS     V      DR    VQYHPE    
+Sbjct  307  ADTKKVLITSQNHGFVVCDDVVPDNFEIHMSSLFDGTVEGLRFKDRPAFAVQYHPESSPG  366
+
+Query  186  PHGQQVLSRFLHDFAGLGAQWTPAN  210
+            PH  + L    ++FA + A     N
+Sbjct  367  PHDCKYL---FNEFAEIIADSKKGN  388
+
+
+>VFG047719(gb|WP_003040816) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella novicida U112]
+Length=388
+
+ Score = 68.9 bits (167),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 59/205 (29%), Positives = 91/205 (44%), Gaps = 15/205 (7%)
+
+Query  11   ETPARPVLVVDFGAQYAQLIARRVREARVFSEVIPHTASIEEIRARQPVALVLSGGPASV  70
+            E+    V+V+D+G +Y   I R + +A     V+P  ++ E+I    P  + LS GP   
+Sbjct  194  ESYKYSVVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPGDP  251
+
+Query  71   YA--DGAPKLDPALLDLGVPVLGICYGFQAMAQALGGIVAHTGTREYGRTELKVLGGKLH  128
+            +A  D    +   LL++ +P+ GIC G Q +A A G       T++  +    V    L 
+Sbjct  252  FATSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAG-----LKTKKMHKGHRGVNQPVLD  306
+
+Query  129  SDLPEVQPVWMSHGDAVT--AAPDGFDVVASSA-GAPVAAFEAFDRRLAGVQYHPEVMHT  185
+            +D  +V     +HG  V     PD  ++  SS     V      DR    VQYHPE    
+Sbjct  307  ADTKKVLITSQNHGFVVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQYHPESSPG  366
+
+Query  186  PHGQQVLSRFLHDFAGLGAQWTPAN  210
+            PH  + L    ++FA + A+    N
+Sbjct  367  PHDCKYL---FNEFAEMIAESKKGN  388
+
+
+>VFG047720(gb|WP_012280231) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella philomiragia subsp. 
+philomiragia ATCC 25017]
+Length=388
+
+ Score = 68.9 bits (167),  Expect = 2e-12, Method: Compositional matrix adjust.
+ Identities = 59/205 (29%), Positives = 91/205 (44%), Gaps = 15/205 (7%)
+
+Query  11   ETPARPVLVVDFGAQYAQLIARRVREARVFSEVIPHTASIEEIRARQPVALVLSGGPASV  70
+            E+    V+V+D+G +Y   I R + +A     V+P  ++ E+I    P  + LS GP   
+Sbjct  194  ESYKYSVVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPGDP  251
+
+Query  71   YA--DGAPKLDPALLDLGVPVLGICYGFQAMAQALGGIVAHTGTREYGRTELKVLGGKLH  128
+            +A  D    +   LL++ +P+ GIC G Q +A A G       T++  +    V    L 
+Sbjct  252  FATSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAG-----LKTKKMHKGHRGVNQPVLD  306
+
+Query  129  SDLPEVQPVWMSHGDAVT--AAPDGFDVVASSA-GAPVAAFEAFDRRLAGVQYHPEVMHT  185
+            +D  +V     +HG  V     PD  ++  SS     V      DR    VQYHPE    
+Sbjct  307  ADTKKVLITSQNHGFVVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQYHPESSPG  366
+
+Query  186  PHGQQVLSRFLHDFAGLGAQWTPAN  210
+            PH  + L    ++FA + A+    N
+Sbjct  367  PHDCKYL---FNEFAEMIAESKKGN  388
+
+
+>VFG047728(gb|WP_014547361) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella cf. tularensis 
+subsp. novicida 3523]
+Length=388
+
+ Score = 68.2 bits (165),  Expect = 3e-12, Method: Compositional matrix adjust.
+ Identities = 58/199 (29%), Positives = 89/199 (45%), Gaps = 15/199 (8%)
+
+Query  17   VLVVDFGAQYAQLIARRVREARVFSEVIPHTASIEEIRARQPVALVLSGGPASVYA--DG  74
+            V+V+D+G +Y   I R + +A     V+P  ++ E+I    P  + LS GP   +A  D 
+Sbjct  200  VVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPGDPFATSDY  257
+
+Query  75   APKLDPALLDLGVPVLGICYGFQAMAQALGGIVAHTGTREYGRTELKVLGGKLHSDLPEV  134
+               +   LL++ +P+ GIC G Q +A A G       T++  +    V    L +D  +V
+Sbjct  258  TMPVIKKLLEVKMPIFGICLGNQLLALAAG-----LKTKKMHKGHRGVNQPVLDADTKKV  312
+
+Query  135  QPVWMSHGDAVT--AAPDGFDVVASSA-GAPVAAFEAFDRRLAGVQYHPEVMHTPHGQQV  191
+                 +HG  V     PD  ++  SS     V      DR    VQYHPE    PH  + 
+Sbjct  313  LITSQNHGFVVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQYHPESSPGPHDCKY  372
+
+Query  192  LSRFLHDFAGLGAQWTPAN  210
+            L    ++FA + A+    N
+Sbjct  373  L---FNEFAEMIAESKKGN  388
+
+
+>VFG047736(gb|WP_013921813) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella sp. TX077308]
+Length=388
+
+ Score = 67.8 bits (164),  Expect = 4e-12, Method: Compositional matrix adjust.
+ Identities = 58/199 (29%), Positives = 89/199 (45%), Gaps = 15/199 (8%)
+
+Query  17   VLVVDFGAQYAQLIARRVREARVFSEVIPHTASIEEIRARQPVALVLSGGPASVYA--DG  74
+            V+V+D+G +Y   I R + +A     V+P  ++ E+I    P  + LS GP   +A  D 
+Sbjct  200  VVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPGDPFATSDY  257
+
+Query  75   APKLDPALLDLGVPVLGICYGFQAMAQALGGIVAHTGTREYGRTELKVLGGKLHSDLPEV  134
+               +   LL++ +P+ GIC G Q +A A G       T++  +    V    L +D  +V
+Sbjct  258  TMPVIKKLLEIKMPIFGICLGNQLLALAAG-----LKTKKMHQGHRGVNQPVLDADTKKV  312
+
+Query  135  QPVWMSHGDAVT--AAPDGFDVVASSA-GAPVAAFEAFDRRLAGVQYHPEVMHTPHGQQV  191
+                 +HG  V     PD  ++  SS     V      DR    VQYHPE    PH  + 
+Sbjct  313  LITSQNHGFVVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQYHPESSPGPHDCKY  372
+
+Query  192  LSRFLHDFAGLGAQWTPAN  210
+            L    ++FA + A+    N
+Sbjct  373  L---FNEFAEMIAESKKGN  388
+
+
+>VFG047724(gb|WP_012429026) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella tularensis subsp. 
+mediasiatica FSC147]
+Length=388
+
+ Score = 65.5 bits (158),  Expect = 2e-11, Method: Compositional matrix adjust.
+ Identities = 57/199 (29%), Positives = 88/199 (44%), Gaps = 15/199 (8%)
+
+Query  17   VLVVDFGAQYAQLIARRVREARVFSEVIPHTASIEEIRARQPVALVLSGGPASVYA--DG  74
+            V+V+D+G +Y   I R + +A     V+P  ++ E+I    P  + LS GP   +A  D 
+Sbjct  200  VVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPGDPFATSDY  257
+
+Query  75   APKLDPALLDLGVPVLGICYGFQAMAQALGGIVAHTGTREYGRTELKVLGGKLHSDLPEV  134
+               +   LL++ +P+ GIC G Q +A A G       T++  +    V    L ++  +V
+Sbjct  258  TMPVIKKLLEVKMPIFGICLGNQLLALAAG-----LKTKKMHKGHRGVNQPVLDANTKKV  312
+
+Query  135  QPVWMSHGDAVT--AAPDGFDVVASSA-GAPVAAFEAFDRRLAGVQYHPEVMHTPHGQQV  191
+                 +HG  V     PD   +  SS     V      DR    VQYHPE    PH  + 
+Sbjct  313  LITSQNHGFVVCDDNVPDNIQIHMSSLFDGTVEGLRFKDRPAFAVQYHPESSPGPHDCKY  372
+
+Query  192  LSRFLHDFAGLGAQWTPAN  210
+            L    ++FA + A+    N
+Sbjct  373  L---FNEFAEMIAESKKGN  388
+
+
+>VFG047726(gb|WP_003013939) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella tularensis subsp. 
+tularensis SCHU S4]
+Length=388
+
+ Score = 65.5 bits (158),  Expect = 3e-11, Method: Compositional matrix adjust.
+ Identities = 57/199 (29%), Positives = 88/199 (44%), Gaps = 15/199 (8%)
+
+Query  17   VLVVDFGAQYAQLIARRVREARVFSEVIPHTASIEEIRARQPVALVLSGGPASVYA--DG  74
+            V+V+D+G +Y   I R + +A     V+P  ++ E+I    P  + LS GP   +A  D 
+Sbjct  200  VVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPGDPFATSDY  257
+
+Query  75   APKLDPALLDLGVPVLGICYGFQAMAQALGGIVAHTGTREYGRTELKVLGGKLHSDLPEV  134
+               +   LL++ +P+ GIC G Q +A A G       T++  +    V    L ++  +V
+Sbjct  258  TMPVIKKLLEVKMPIFGICLGNQLLALAAG-----LKTKKMHKGHRGVNQPVLDANTKKV  312
+
+Query  135  QPVWMSHGDAVT--AAPDGFDVVASSA-GAPVAAFEAFDRRLAGVQYHPEVMHTPHGQQV  191
+                 +HG  V     PD   +  SS     V      DR    VQYHPE    PH  + 
+Sbjct  313  LITSQNHGFVVCDDNVPDNIQIHMSSLFDGTVEGLRFKDRPAFAVQYHPESSPGPHDCKY  372
+
+Query  192  LSRFLHDFAGLGAQWTPAN  210
+            L    ++FA + A+    N
+Sbjct  373  L---FNEFAEMIAESKKGN  388
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.137    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4351314660
+
+
+Query= g3841.t1
+
+Length=525
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG047735(gb|WP_014714142) (carA) carbamoyl phosphate synthase sm...  55.1    4e-08
+VFG047720(gb|WP_012280231) (carA) carbamoyl phosphate synthase sm...  53.1    2e-07
+VFG047719(gb|WP_003040816) (carA) carbamoyl phosphate synthase sm...  53.1    2e-07
+
+
+>VFG047735(gb|WP_014714142) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella noatunensis subsp. 
+orientalis str. Toba 04]
+Length=388
+
+ Score = 55.1 bits (131),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 46/186 (25%), Positives = 83/186 (45%), Gaps = 21/186 (11%)
+
+Query  3    QDIHAHRILILDFGSQYTQLIARRVREIGVYCEIHPFDMSNEAIIAFAPRGIILAGGPES  62
+            Q+ + + ++++D+G +Y   I R + + G    + P D + E I+   P G+ L+ GP  
+Sbjct  193  QESYKYSVVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPNGVFLSNGPGD  250
+
+Query  63   VHEADSPRAP--QAVFDLKVPLFGICYGMQTMAEQMGGKVQGSDLREFGYARVDVVGKAR  120
+                     P  + + ++K+P+FGIC G Q +A   G K +       G+  V+      
+Sbjct  251  PFATSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAGLKTKK---MHKGHRGVN------  301
+
+Query  121  LLDGIEDHVDDDGVLGLDVWMSHGDKVTE--MPAGFHI-LASTPSCPIAAMADDARAYYG  177
+                 +  +D D    L    +HG  V +  +P  F I ++S     +  +    R  + 
+Sbjct  302  -----QPVLDADTKKVLITSQNHGFVVCDDVVPDNFEIHMSSLFDGTVEGLRFKDRPAFA  356
+
+Query  178  VQFHPE  183
+            VQ+HPE
+Sbjct  357  VQYHPE  362
+
+
+>VFG047720(gb|WP_012280231) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella philomiragia subsp. 
+philomiragia ATCC 25017]
+Length=388
+
+ Score = 53.1 bits (126),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 28/101 (28%), Positives = 52/101 (51%), Gaps = 4/101 (4%)
+
+Query  3    QDIHAHRILILDFGSQYTQLIARRVREIGVYCEIHPFDMSNEAIIAFAPRGIILAGGPES  62
+            Q+ + + ++++D+G +Y   I R + + G    + P D + E I+   P G+ L+ GP  
+Sbjct  193  QESYKYSVVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPGD  250
+
+Query  63   VHEADSPRAP--QAVFDLKVPLFGICYGMQTMAEQMGGKVQ  101
+                     P  + + ++K+P+FGIC G Q +A   G K +
+Sbjct  251  PFATSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAGLKTK  291
+
+
+>VFG047719(gb|WP_003040816) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella novicida U112]
+Length=388
+
+ Score = 53.1 bits (126),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 28/101 (28%), Positives = 52/101 (51%), Gaps = 4/101 (4%)
+
+Query  3    QDIHAHRILILDFGSQYTQLIARRVREIGVYCEIHPFDMSNEAIIAFAPRGIILAGGPES  62
+            Q+ + + ++++D+G +Y   I R + + G    + P D + E I+   P G+ L+ GP  
+Sbjct  193  QESYKYSVVVIDYGVKYN--ILRNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPGD  250
+
+Query  63   VHEADSPRAP--QAVFDLKVPLFGICYGMQTMAEQMGGKVQ  101
+                     P  + + ++K+P+FGIC G Q +A   G K +
+Sbjct  251  PFATSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAGLKTK  291
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.139    0.418    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4351314660
+
+
+Query= g2340.t1
+
+Length=525
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG047735(gb|WP_014714142) (carA) carbamoyl phosphate synthase sm...  59.3    2e-09
+VFG047728(gb|WP_014547361) (carA) carbamoyl phosphate synthase sm...  56.6    2e-08
+VFG047736(gb|WP_013921813) (carA) carbamoyl phosphate synthase sm...  56.2    2e-08
+VFG047720(gb|WP_012280231) (carA) carbamoyl phosphate synthase sm...  56.2    2e-08
+VFG047719(gb|WP_003040816) (carA) carbamoyl phosphate synthase sm...  56.2    2e-08
+VFG047726(gb|WP_003013939) (carA) carbamoyl phosphate synthase sm...  54.3    9e-08
+VFG047724(gb|WP_012429026) (carA) carbamoyl phosphate synthase sm...  54.3    1e-07
+
+
+>VFG047735(gb|WP_014714142) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella noatunensis subsp. 
+orientalis str. Toba 04]
+Length=388
+
+ Score = 59.3 bits (142),  Expect = 2e-09, Method: Compositional matrix adjust.
+ Identities = 45/183 (25%), Positives = 84/183 (46%), Gaps = 21/183 (11%)
+
+Query  6    HKHRILILDFGSQYTQLVARRVRELGVYCELWAWDVTEAQIRDFNPSGIILSGGPES--T  63
+            +K+ ++++D+G +Y  L  R + + G    +   D T   I   NP+G+ LS GP     
+Sbjct  196  YKYSVVVIDYGVKYNIL--RNLVDAGFKVTVVPADSTYEDIMKHNPNGVFLSNGPGDPFA  253
+
+Query  64   TEENSPRALQYVFEAGVPVFGVCYGMQTMAMQLGGHVEGSNEREFGYAQVEVLTDSALVR  123
+            T + +   ++ + E  +P+FG+C G Q +A+  G   +  ++   G  Q           
+Sbjct  254  TSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQ-----------  302
+
+Query  124  GIEDSLTADGKPLLDVWMSHGDKVT--AIPSDF-VTVASTESCPFAIMANEEKRFYGVQF  180
+                 L AD K +L    +HG  V    +P +F + ++S        +  +++  + VQ+
+Sbjct  303  ---PVLDADTKKVLITSQNHGFVVCDDVVPDNFEIHMSSLFDGTVEGLRFKDRPAFAVQY  359
+
+Query  181  HPE  183
+            HPE
+Sbjct  360  HPE  362
+
+
+>VFG047728(gb|WP_014547361) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella cf. tularensis 
+subsp. novicida 3523]
+Length=388
+
+ Score = 56.6 bits (135),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 44/183 (24%), Positives = 82/183 (45%), Gaps = 21/183 (11%)
+
+Query  6    HKHRILILDFGSQYTQLVARRVRELGVYCELWAWDVTEAQIRDFNPSGIILSGGPES--T  63
+            +K+ ++++D+G +Y  L  R + + G    +   D T   I   NP G+ LS GP     
+Sbjct  196  YKYNVVVIDYGVKYNIL--RNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPGDPFA  253
+
+Query  64   TEENSPRALQYVFEAGVPVFGVCYGMQTMAMQLGGHVEGSNEREFGYAQVEVLTDSALVR  123
+            T + +   ++ + E  +P+FG+C G Q +A+  G   +  ++   G  Q           
+Sbjct  254  TSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQ-----------  302
+
+Query  124  GIEDSLTADGKPLLDVWMSHGDKVT--AIPSDF-VTVASTESCPFAIMANEEKRFYGVQF  180
+                 L AD K +L    +HG  V    +P +  + ++S        +  +++  + VQ+
+Sbjct  303  ---PVLDADTKKVLITSQNHGFVVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQY  359
+
+Query  181  HPE  183
+            HPE
+Sbjct  360  HPE  362
+
+
+>VFG047736(gb|WP_013921813) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella sp. TX077308]
+Length=388
+
+ Score = 56.2 bits (134),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 44/183 (24%), Positives = 82/183 (45%), Gaps = 21/183 (11%)
+
+Query  6    HKHRILILDFGSQYTQLVARRVRELGVYCELWAWDVTEAQIRDFNPSGIILSGGPES--T  63
+            +K+ ++++D+G +Y  L  R + + G    +   D T   I   NP G+ LS GP     
+Sbjct  196  YKYNVVVIDYGVKYNIL--RNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPGDPFA  253
+
+Query  64   TEENSPRALQYVFEAGVPVFGVCYGMQTMAMQLGGHVEGSNEREFGYAQVEVLTDSALVR  123
+            T + +   ++ + E  +P+FG+C G Q +A+  G   +  ++   G  Q           
+Sbjct  254  TSDYTMPVIKKLLEIKMPIFGICLGNQLLALAAGLKTKKMHQGHRGVNQ-----------  302
+
+Query  124  GIEDSLTADGKPLLDVWMSHGDKVT--AIPSDF-VTVASTESCPFAIMANEEKRFYGVQF  180
+                 L AD K +L    +HG  V    +P +  + ++S        +  +++  + VQ+
+Sbjct  303  ---PVLDADTKKVLITSQNHGFVVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQY  359
+
+Query  181  HPE  183
+            HPE
+Sbjct  360  HPE  362
+
+
+>VFG047720(gb|WP_012280231) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella philomiragia subsp. 
+philomiragia ATCC 25017]
+Length=388
+
+ Score = 56.2 bits (134),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 44/183 (24%), Positives = 82/183 (45%), Gaps = 21/183 (11%)
+
+Query  6    HKHRILILDFGSQYTQLVARRVRELGVYCELWAWDVTEAQIRDFNPSGIILSGGPES--T  63
+            +K+ ++++D+G +Y  L  R + + G    +   D T   I   NP G+ LS GP     
+Sbjct  196  YKYSVVVIDYGVKYNIL--RNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPGDPFA  253
+
+Query  64   TEENSPRALQYVFEAGVPVFGVCYGMQTMAMQLGGHVEGSNEREFGYAQVEVLTDSALVR  123
+            T + +   ++ + E  +P+FG+C G Q +A+  G   +  ++   G  Q           
+Sbjct  254  TSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQ-----------  302
+
+Query  124  GIEDSLTADGKPLLDVWMSHGDKVT--AIPSDF-VTVASTESCPFAIMANEEKRFYGVQF  180
+                 L AD K +L    +HG  V    +P +  + ++S        +  +++  + VQ+
+Sbjct  303  ---PVLDADTKKVLITSQNHGFVVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQY  359
+
+Query  181  HPE  183
+            HPE
+Sbjct  360  HPE  362
+
+
+>VFG047719(gb|WP_003040816) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella novicida U112]
+Length=388
+
+ Score = 56.2 bits (134),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 44/183 (24%), Positives = 82/183 (45%), Gaps = 21/183 (11%)
+
+Query  6    HKHRILILDFGSQYTQLVARRVRELGVYCELWAWDVTEAQIRDFNPSGIILSGGPES--T  63
+            +K+ ++++D+G +Y  L  R + + G    +   D T   I   NP G+ LS GP     
+Sbjct  196  YKYSVVVIDYGVKYNIL--RNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPGDPFA  253
+
+Query  64   TEENSPRALQYVFEAGVPVFGVCYGMQTMAMQLGGHVEGSNEREFGYAQVEVLTDSALVR  123
+            T + +   ++ + E  +P+FG+C G Q +A+  G   +  ++   G  Q           
+Sbjct  254  TSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQ-----------  302
+
+Query  124  GIEDSLTADGKPLLDVWMSHGDKVT--AIPSDF-VTVASTESCPFAIMANEEKRFYGVQF  180
+                 L AD K +L    +HG  V    +P +  + ++S        +  +++  + VQ+
+Sbjct  303  ---PVLDADTKKVLITSQNHGFVVCDDVVPDNIEIHMSSLFDGTVEGLRFKDRPAFAVQY  359
+
+Query  181  HPE  183
+            HPE
+Sbjct  360  HPE  362
+
+
+>VFG047726(gb|WP_003013939) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella tularensis subsp. 
+tularensis SCHU S4]
+Length=388
+
+ Score = 54.3 bits (129),  Expect = 9e-08, Method: Compositional matrix adjust.
+ Identities = 43/183 (23%), Positives = 82/183 (45%), Gaps = 21/183 (11%)
+
+Query  6    HKHRILILDFGSQYTQLVARRVRELGVYCELWAWDVTEAQIRDFNPSGIILSGGPES--T  63
+            +K+ ++++D+G +Y  L  R + + G    +   D T   I   NP G+ LS GP     
+Sbjct  196  YKYSVVVIDYGVKYNIL--RNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPGDPFA  253
+
+Query  64   TEENSPRALQYVFEAGVPVFGVCYGMQTMAMQLGGHVEGSNEREFGYAQVEVLTDSALVR  123
+            T + +   ++ + E  +P+FG+C G Q +A+  G   +  ++   G  Q           
+Sbjct  254  TSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQ-----------  302
+
+Query  124  GIEDSLTADGKPLLDVWMSHGDKVT--AIPSDF-VTVASTESCPFAIMANEEKRFYGVQF  180
+                 L A+ K +L    +HG  V    +P +  + ++S        +  +++  + VQ+
+Sbjct  303  ---PVLDANTKKVLITSQNHGFVVCDDNVPDNIQIHMSSLFDGTVEGLRFKDRPAFAVQY  359
+
+Query  181  HPE  183
+            HPE
+Sbjct  360  HPE  362
+
+
+>VFG047724(gb|WP_012429026) (carA) carbamoyl phosphate synthase 
+small subunit [Pyrimidine biosynthesis (VF0558) - Nutritional/Metabolic 
+factor (VFC0272)] [Francisella tularensis subsp. 
+mediasiatica FSC147]
+Length=388
+
+ Score = 54.3 bits (129),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 43/183 (23%), Positives = 82/183 (45%), Gaps = 21/183 (11%)
+
+Query  6    HKHRILILDFGSQYTQLVARRVRELGVYCELWAWDVTEAQIRDFNPSGIILSGGPES--T  63
+            +K+ ++++D+G +Y  L  R + + G    +   D T   I   NP G+ LS GP     
+Sbjct  196  YKYSVVVIDYGVKYNIL--RNLVDAGFKVTVVPADSTYEDIMKHNPDGVFLSNGPGDPFA  253
+
+Query  64   TEENSPRALQYVFEAGVPVFGVCYGMQTMAMQLGGHVEGSNEREFGYAQVEVLTDSALVR  123
+            T + +   ++ + E  +P+FG+C G Q +A+  G   +  ++   G  Q           
+Sbjct  254  TSDYTMPVIKKLLEVKMPIFGICLGNQLLALAAGLKTKKMHKGHRGVNQ-----------  302
+
+Query  124  GIEDSLTADGKPLLDVWMSHGDKVT--AIPSDF-VTVASTESCPFAIMANEEKRFYGVQF  180
+                 L A+ K +L    +HG  V    +P +  + ++S        +  +++  + VQ+
+Sbjct  303  ---PVLDANTKKVLITSQNHGFVVCDDNVPDNIQIHMSSLFDGTVEGLRFKDRPAFAVQY  359
+
+Query  181  HPE  183
+            HPE
+Sbjct  360  HPE  362
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.139    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 4351314660
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

@@ -1,0 +1,117 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g3425.t1
+
+Length=449
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.140    0.426    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3604018002
+
+
+Query= g233.t1
+
+Length=432
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.327    0.139    0.417    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3426941973
+
+
+Query= g2477.t1
+
+Length=433
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) - ...  47.8    8e-06
+
+
+>VFG044370(gb|AAQ21378) (qbsN) QbsN [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=447
+
+ Score = 47.8 bits (112),  Expect = 8e-06, Method: Compositional matrix adjust.
+ Identities = 52/190 (27%), Positives = 86/190 (45%), Gaps = 22/190 (12%)
+
+Query  35   EWFDFYVYSFCSLYFAHIFFPSGNTTTQLLQTAGVFAAGFLMRPIGGWLFGRIADRRGRK  94
+            E FD  + SF +L      +    T   L+  +G F  G L+   G    G +ADR GRK
+Sbjct  37   EAFDLLLISF-TLPLLKQQWQLDPTQVGLIVGSGTF--GMLL---GALCAGALADRVGRK  90
+
+Query  95   ASMLISVCMMCMGSLVIACLPGYDTIGTWAPALLLIARLFQGLSVGGEYGTSATYMSEVA  154
+              +L ++ +  + S +IAC   +          LL+ RL QGL +G E   +A Y+SE+ 
+Sbjct  91   PVLLAAMLLTGLFSALIACASDWQG--------LLVGRLLQGLGIGAEVPIAALYLSEII  142
+
+Query  155  LEGRKGFFASFQYVTLIGGQLLALLVVVILQQVLDDAELRAWGWRIPFALGAVLAVVALW  214
+                +G F     ++   G + A +       V+        GWR  + LG+V  V+A+ 
+Sbjct  143  TSKVRGRFVLLYELSFPCGLMFAGVACTWALPVM--------GWRPLYWLGSVPMVLAVA  194
+
+Query  215  LRRQLDETSK  224
+            +   + E+++
+Sbjct  195  VYLYVPESAR  204
+
+
+
+Lambda      K        H        a         alpha
+   0.328    0.139    0.424    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 3437358210
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

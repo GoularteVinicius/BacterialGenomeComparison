@@ -1,0 +1,1577 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1910.t1
+
+Length=92
+
+
+***** No hits found *****
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.129    0.397    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 334529993
+
+
+Query= g907.t1
+
+Length=329
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG041605(gb|WP_012847726) (ETAE_RS04105) helix-turn-helix domain...  58.5    6e-10
+VFG041884(gb|WP_080509009) (CV_RS12640) AraC family transcription...  57.0    3e-09
+VFG016190(gb|WP_005762820) (ybtA) AraC family transcriptional reg...  56.6    5e-09
+VFG016191(gb|WP_004665553) (ybtA) AraC family transcriptional reg...  56.6    6e-09
+VFG044376(gb|AAL65283) (qbsA) QbsA [Thioquinolobactin (VF0937) - ...  53.9    3e-08
+VFG019776(gb|WP_003117898) (chpD) probable transcriptional regula...  50.1    5e-07
+VFG003096(gb|WP_011171760) (YP_RS02140) AraC family transcription...  49.7    5e-07
+VFG023581(gb|WP_005156676) (YE105_RS01775) AraC family transcript...  49.3    9e-07
+VFG044386(gb|AAF33127) (pdtorfC) putative transcriptional activat...  48.9    1e-06
+VFG038332(gb|WP_192914500) (exsA) Type III secretion system trans...  48.5    2e-06
+VFG016125(gb|WP_003157556) (pchR) transcriptional regulator PchR ...  48.5    2e-06
+VFG041670(gb|WP_012777215) (PAU_RS05110) AraC family transcriptio...  48.5    2e-06
+VFG014092(gb|WP_012074004) (chpD) probable transcriptional regula...  48.1    2e-06
+VFG007177(gb|WP_005464548) (exsA) transcriptional regulator ExsA ...  48.1    3e-06
+VFG001234(gb|NP_249107) (chpD) probable transcriptional regulator...  47.4    4e-06
+VFG014093(gb|WP_003128976) (chpD) probable transcriptional regula...  47.4    5e-06
+VFG042280(gb|AAS91825) (exsA) ExsA [T3SS (VF0479) - Effector deli...  47.4    5e-06
+VFG003476(gb|WP_005176447) (virF/lcrF) virulence regulon transcri...  47.4    5e-06
+VFG000208(gb|NP_250404) (exsA) type III secretion system regulato...  47.0    6e-06
+VFG000399(gb|WP_002212931) (virF/lcrF) virulence regulon transcri...  47.0    6e-06
+VFG023737(gb|WP_013749464) (virF/lcrF) virulence regulon transcri...  47.0    6e-06
+
+
+>VFG041605(gb|WP_012847726) (ETAE_RS04105) helix-turn-helix domain-containing 
+protein [T3SS (VF1266) - Effector delivery system 
+(VFC0086)] [Edwardsiella tarda EIB202]
+Length=230
+
+ Score = 58.5 bits (140),  Expect = 6e-10, Method: Compositional matrix adjust.
+ Identities = 29/85 (34%), Positives = 42/85 (49%), Gaps = 0/85 (0%)
+
+Query  226  EPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQMLMQTSKSIIQIGLS  285
+            EP      A    +S+R+  ++F       P ++ L  RL  ARQ+L  TSK +I + L 
+Sbjct  137  EPWPVARYADLFGLSQRKFNQLFNDKFGMAPKRWLLRQRLGHARQLLETTSKKVIDVALE  196
+
+Query  286  CGFSSGPHFSSAYRNFFGVTPREDR  310
+             GF +  HFS  +R  F  +P E R
+Sbjct  197  SGFCNAAHFSDCFRRHFSQSPSEVR  221
+
+
+>VFG041884(gb|WP_080509009) (CV_RS12640) AraC family transcriptional 
+regulator [Cpi-2 encoded T3SS (SPI-2 like) (VF1260) - 
+Effector delivery system (VFC0086)] [Chromobacterium violaceum 
+ATCC 12472]
+Length=284
+
+ Score = 57.0 bits (136),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 26/97 (27%), Positives = 52/97 (54%), Gaps = 0/97 (0%)
+
+Query  219  LMEANIEEPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQMLMQTSKS  278
+             +E N  +  +   +A    +  R+  ++F++   +   ++ LE RL  A+++L+ TS  
+Sbjct  181  FIEKNALQQWSISTLADRFGMPLRKFNQLFQEAYGKPAKRWILEHRLTHAKKLLLTTSMR  240
+
+Query  279  IIQIGLSCGFSSGPHFSSAYRNFFGVTPREDRNQRRG  315
+            ++ + L CGFS+  HF+ ++R  F   P++ R Q  G
+Sbjct  241  VLDVALECGFSNHAHFTDSFRRHFQCNPKQFRQQALG  277
+
+
+>VFG016190(gb|WP_005762820) (ybtA) AraC family transcriptional 
+regulator [Yersiniabactin (VF0923) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas syringae pv. tomato str. DC3000]
+Length=312
+
+ Score = 56.6 bits (135),  Expect = 5e-09, Method: Compositional matrix adjust.
+ Identities = 29/103 (28%), Positives = 60/103 (58%), Gaps = 1/103 (1%)
+
+Query  204  NRLGSSHPKLTQAVLLMEANIEEPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLEL  263
+            N  G    ++ +A  L+EA+ E+  T + +AQ V ++ ++L++ F+Q  +     Y  ++
+Sbjct  190  NAGGRDLMRVERARKLLEAHPEQDWTIESLAQSVELNTKKLKQGFRQSYDSGVYGYLQKV  249
+
+Query  264  RLNRARQMLMQTSKSIIQIGLSCGFSSGPHFSSAYRNFFGVTP  306
+            R+ RA Q+L Q   ++ ++  + G+SS  HF+  +R ++G+ P
+Sbjct  250  RIERAAQLLKQQG-AVSEVAAAVGYSSASHFAKVFRRYYGINP  291
+
+
+>VFG016191(gb|WP_004665553) (ybtA) AraC family transcriptional 
+regulator [Yersiniabactin (VF0923) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas syringae pv. phaseolicola 1448A]
+Length=315
+
+ Score = 56.6 bits (135),  Expect = 6e-09, Method: Compositional matrix adjust.
+ Identities = 29/103 (28%), Positives = 60/103 (58%), Gaps = 1/103 (1%)
+
+Query  204  NRLGSSHPKLTQAVLLMEANIEEPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLEL  263
+            N  G    ++ +A  L+EA+ E+  T + +AQ V ++ ++L++ F+Q  +     Y  ++
+Sbjct  190  NAGGRDLMRVERARKLLEAHPEQDWTIESLAQSVELNTKKLKQGFRQSYDSGVYGYLQKV  249
+
+Query  264  RLNRARQMLMQTSKSIIQIGLSCGFSSGPHFSSAYRNFFGVTP  306
+            R+ RA Q+L Q   ++ ++  + G+SS  HF+  +R ++G+ P
+Sbjct  250  RIERAAQLLRQQG-AVSEVAAAVGYSSASHFAKVFRRYYGINP  291
+
+
+>VFG044376(gb|AAL65283) (qbsA) QbsA [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=267
+
+ Score = 53.9 bits (128),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 30/96 (31%), Positives = 54/96 (56%), Gaps = 1/96 (1%)
+
+Query  212  KLTQAVLLMEANIEEPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQM  271
+            KL QA  ++   + +PLT   +   V +S  +L+  F++Y    P +  LE R+++A Q+
+Sbjct  166  KLEQARQIIFTQMAQPLTNHYLCSCVGLSESRLKDGFRRYFGVTPRRCLLEARMHKAWQL  225
+
+Query  272  LMQTSKSIIQIGLSCGFSSGPHFSSAYRNFFGVTPR  307
+            L +  + + +   S G+S   +FS+A+  FFG TP+
+Sbjct  226  L-EAGRQVAEAAYSVGYSHPSNFSTAFSQFFGRTPK  260
+
+
+>VFG019776(gb|WP_003117898) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa LESB58]
+Length=264
+
+ Score = 50.1 bits (118),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 38/154 (25%), Positives = 72/154 (47%), Gaps = 14/154 (9%)
+
+Query  175  GAELAGAVSEELVVERI-REGNERQRIPLKNRLGSS------------HPKLTQAVLLME  221
+            G ELA ++   L  +R  RE  E + +    RL ++             P + +   L+ 
+Sbjct  112  GRELAASIEALLASDRFARERGEERLLDFLGRLLAASGTRLPQRADPGRPAVARLQALLA  171
+
+Query  222  ANIEEPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQMLMQTSKSIIQ  281
+              + EP   DE+A+ V +S+  L R FK+     P Q+ ++LR  RA   L++   ++ +
+Sbjct  172  ERLAEPPDLDEMAEQVGLSKYHLLRAFKKATGLSPRQWSMQLRTRRALG-LLRRGLAVGE  230
+
+Query  282  IGLSCGFSSGPHFSSAYRNFFGVTPREDRNQRRG  315
+            +  + GF+   H +  + + +G++P   +   RG
+Sbjct  231  VAHALGFADQSHLTRYFTSAYGISPGRYQRAVRG  264
+
+
+>VFG003096(gb|WP_011171760) (YP_RS02140) AraC family transcriptional 
+regulator [TTSS (chromosomally encoded) (VF1023) - Effector 
+delivery system (VFC0086)] [Yersinia pestis biovar Microtus 
+str. 91001]
+Length=235
+
+ Score = 49.7 bits (117),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 26/93 (28%), Positives = 44/93 (47%), Gaps = 0/93 (0%)
+
+Query  219  LMEANIEEPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQMLMQTSKS  278
+              E N   P +    A  + +S R+L  +F +       Q+ L+ RL +  ++L+ T   
+Sbjct  140  FFEKNRLNPWSVSRYANELGISTRKLNFLFYEKFGMSAKQWLLDQRLKKGCELLLSTRLR  199
+
+Query  279  IIQIGLSCGFSSGPHFSSAYRNFFGVTPREDRN  311
+            +  I + CGFS+  HFS ++R  F   P   R+
+Sbjct  200  VADIAMECGFSNHAHFSDSFRRRFQQCPSHMRS  232
+
+
+>VFG023581(gb|WP_005156676) (YE105_RS01775) AraC family transcriptional 
+regulator [TTSS (chromosomally encoded) (VF1023) - 
+Effector delivery system (VFC0086)] [Yersinia enterocolitica 
+subsp. palearctica 105.5R(r)]
+Length=235
+
+ Score = 49.3 bits (116),  Expect = 9e-07, Method: Compositional matrix adjust.
+ Identities = 26/93 (28%), Positives = 44/93 (47%), Gaps = 0/93 (0%)
+
+Query  219  LMEANIEEPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQMLMQTSKS  278
+              + N   P T    A  + +S R+L  +F +       Q+ L+ RL +  ++L+ T   
+Sbjct  140  FFDKNRLNPWTVSRYADELGISTRKLNFLFYEKFGMSAKQWLLDQRLKKGCELLLSTRLR  199
+
+Query  279  IIQIGLSCGFSSGPHFSSAYRNFFGVTPREDRN  311
+            +  I + CGFS+  HFS ++R  F   P   R+
+Sbjct  200  VADIAMECGFSNHAHFSDSFRRRFQQCPSHMRS  232
+
+
+>VFG044386(gb|AAF33127) (pdtorfC) putative transcriptional activator 
+[Pyridine-2,6-dithiocarboxylic acid (PDTC) (VF0938) - 
+Nutritional/Metabolic factor (VFC0272)] [Pseudomonas stutzeri 
+KC]
+Length=235
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 25/96 (26%), Positives = 54/96 (56%), Gaps = 1/96 (1%)
+
+Query  212  KLTQAVLLMEANIEEPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQM  271
+            ++ QA  +M+ ++++PLT D +A  V +++ +L+       N  P++  LELR+ +A   
+Sbjct  131  RIEQARQMMDEHLDKPLTLDYLATIVGINKNKLKDGMIYLYNATPAELLLELRMTKALA-  189
+
+Query  272  LMQTSKSIIQIGLSCGFSSGPHFSSAYRNFFGVTPR  307
+            L++T   + Q+    G+    +F+ A+  + G +P+
+Sbjct  190  LLETGLRVSQVAWMVGYKYPNNFTVAFTRYHGKSPK  225
+
+
+>VFG038332(gb|WP_192914500) (exsA) Type III secretion system transcriptional 
+regulator [T3SS (VF0479) - Effector delivery 
+system (VFC0086)] [Aeromonas salmonicida subsp. salmonicida 
+A449]
+Length=260
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 38/146 (26%), Positives = 62/146 (42%), Gaps = 2/146 (1%)
+
+Query  166  LLALLSRDHGAELAGAVSEELVVERIREGNERQRIPLKNRLGSSHPKLTQAVLLMEANIE  225
+            LL L   +H   LA   +EEL+          Q + +  +L +   +  Q    ME +  
+Sbjct  114  LLGLTEYEHPPALAQLRTEELLFLLAFGEQGPQLMSILRQLSNRQVERLQQ--FMEKHYL  171
+
+Query  226  EPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQMLMQTSKSIIQIGLS  285
+                  E A+   +     + +F       P  +  E R+  A Q+L+ +  SI+ I + 
+Sbjct  172  MEWKLSEFAKEFGMGLTTFKELFGSIYGVSPRAWISERRILFAHQLLLNSEMSIVDIAME  231
+
+Query  286  CGFSSGPHFSSAYRNFFGVTPREDRN  311
+             GFSS  +F+ +YR  FG TP   R+
+Sbjct  232  AGFSSQSYFTQSYRRRFGCTPSRARH  257
+
+
+>VFG016125(gb|WP_003157556) (pchR) transcriptional regulator PchR 
+[Pyochelin (VF0095) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PA7]
+Length=295
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 27/92 (29%), Positives = 46/92 (50%), Gaps = 1/92 (1%)
+
+Query  219  LMEANIEEPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQMLMQTSKS  278
+            L+   ++EP + D +A  V ++ R+L   F++        Y  E RL  A +ML     +
+Sbjct  205  LLVGELQEPPSLDALASRVGMNPRKLTAGFRKVFGASVFGYLQEYRLREAHRMLCDEEAN  264
+
+Query  279  IIQIGLSCGFSSGPHFSSAYRNFFGVTPREDR  310
+            +  +    G+S   HFS A+R  +G++P E R
+Sbjct  265  VSTVAYRVGYSPA-HFSIAFRKRYGISPSEIR  295
+
+
+>VFG041670(gb|WP_012777215) (PAU_RS05110) AraC family transcriptional 
+regulator [T3SS-1 (VF1286) - Effector delivery system 
+(VFC0086)] [Photorhabdus asymbiotica subsp. asymbiotica ATCC 
+43949]
+Length=272
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 36/145 (25%), Positives = 67/145 (46%), Gaps = 2/145 (1%)
+
+Query  166  LLALLSRDHGAELAGAVSEELVVERIREGNERQRIPLKNRLGSSHPKLTQAVLLMEANIE  225
+            L+ LL+ D+   L    +EELV+  +    E+  + +      S+ ++ +  + ME +  
+Sbjct  126  LVDLLAHDYPTALGQLRTEELVL--LMAFGEQGALLMSVLRQLSNRQVERLQIFMENHYL  183
+
+Query  226  EPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQMLMQTSKSIIQIGLS  285
+            +     E A+   +     + +F+      P  +  E R+  A Q+L+ +  SI+ I + 
+Sbjct  184  KEWKLSEFAKEFGMGLTTFKELFRSVYGISPRAWISERRILYAHQLLLNSEMSIVDISME  243
+
+Query  286  CGFSSGPHFSSAYRNFFGVTPREDR  310
+             GFSS  +F+ +YR  F  TP   R
+Sbjct  244  AGFSSQSYFTQSYRRRFDCTPSRAR  268
+
+
+>VFG014092(gb|WP_012074004) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa PA7]
+Length=264
+
+ Score = 48.1 bits (113),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 37/154 (24%), Positives = 72/154 (47%), Gaps = 14/154 (9%)
+
+Query  175  GAELAGAVSEELVVERI-REGNERQRIPLKNRLGSS------------HPKLTQAVLLME  221
+            G ELA ++   L  +R  RE  E + +    RL ++             P + +   L+ 
+Sbjct  112  GRELAASIEALLASDRFARERGEERLLEFLGRLLAASGTRLPRRADPGRPAVVRLQALLA  171
+
+Query  222  ANIEEPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQMLMQTSKSIIQ  281
+             ++ EP   D +A+ V +S+  L R FK+     P Q+ ++LR  RA   L++   ++ +
+Sbjct  172  EHLAEPPDLDGMAEQVGLSKYHLLRAFKKATGLSPRQWSMQLRTRRALG-LLRRGLAVGE  230
+
+Query  282  IGLSCGFSSGPHFSSAYRNFFGVTPREDRNQRRG  315
+            +  + GF+   H +  + + +G++P   +   RG
+Sbjct  231  VAHALGFADQSHLTRYFSSAYGISPGRYQRAVRG  264
+
+
+>VFG007177(gb|WP_005464548) (exsA) transcriptional regulator ExsA 
+[T3SS1 (VF0408) - Effector delivery system (VFC0086)] [Vibrio 
+parahaemolyticus RIMD 2210633]
+Length=286
+
+ Score = 48.1 bits (113),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 26/93 (28%), Positives = 46/93 (49%), Gaps = 0/93 (0%)
+
+Query  219  LMEANIEEPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQMLMQTSKS  278
+             ME +  +     + AQ    S    + +F ++    P  +  E RL  A ++L+ +  S
+Sbjct  185  FMEQHYLKEWKLTDYAQEFGASLTTFKELFNEHYGISPRAWISERRLLHAHKLLLTSKMS  244
+
+Query  279  IIQIGLSCGFSSGPHFSSAYRNFFGVTPREDRN  311
+            I+ + +  GFSS  +F+ +YR  FG TP + R+
+Sbjct  245  IVDVAMEAGFSSQSYFTQSYRRRFGTTPSKVRS  277
+
+
+>VFG001234(gb|NP_249107) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa PAO1]
+Length=264
+
+ Score = 47.4 bits (111),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 28/114 (25%), Positives = 55/114 (48%), Gaps = 1/114 (1%)
+
+Query  202  LKNRLGSSHPKLTQAVLLMEANIEEPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYL  261
+            L  R     P + +   L+   + EP   D +A+ V +S+  L R FK+     P Q+ +
+Sbjct  152  LPQRADPGRPAVARLQALLAERLAEPPDLDGMAEQVGLSKYHLLRAFKKATGLSPRQWSM  211
+
+Query  262  ELRLNRARQMLMQTSKSIIQIGLSCGFSSGPHFSSAYRNFFGVTPREDRNQRRG  315
+            +LR  RA   L++   ++ ++  + GF+   H +  + + +G++P   +   RG
+Sbjct  212  QLRTRRALG-LLRRGLAVGEVAHALGFADQSHLTRYFTSAYGISPGRYQRAVRG  264
+
+
+>VFG014093(gb|WP_003128976) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa UCBPP-PA14]
+Length=264
+
+ Score = 47.4 bits (111),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 28/114 (25%), Positives = 55/114 (48%), Gaps = 1/114 (1%)
+
+Query  202  LKNRLGSSHPKLTQAVLLMEANIEEPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYL  261
+            L  R     P + +   L+   + EP   D +A+ V +S+  L R FK+     P Q+ +
+Sbjct  152  LPQRADPGRPAVARLQALLAERLAEPPDLDGMAEQVGLSKYHLLRAFKKATGLSPRQWSM  211
+
+Query  262  ELRLNRARQMLMQTSKSIIQIGLSCGFSSGPHFSSAYRNFFGVTPREDRNQRRG  315
+            +LR  RA   L++   ++ ++  + GF+   H +  + + +G++P   +   RG
+Sbjct  212  QLRTRRALG-LLRRGLAVGEVAHALGFADQSHLTRYFTSAYGISPGRYQRAVRG  264
+
+
+>VFG042280(gb|AAS91825) (exsA) ExsA [T3SS (VF0479) - Effector 
+delivery system (VFC0086)] [Aeromonas hydrophila str. AH3]
+Length=271
+
+ Score = 47.4 bits (111),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 36/146 (25%), Positives = 62/146 (42%), Gaps = 2/146 (1%)
+
+Query  166  LLALLSRDHGAELAGAVSEELVVERIREGNERQRIPLKNRLGSSHPKLTQAVLLMEANIE  225
+            L  L+  +H   LA   +EEL+          Q + +  +L +   +  Q    ME +  
+Sbjct  125  LYGLIDHEHPPALAQLRTEELLFLLAFGEQGPQLMSILRQLSNRQVERLQQ--FMEKHYL  182
+
+Query  226  EPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQMLMQTSKSIIQIGLS  285
+                  E ++   +     + +F       P  +  E R+  A Q+L+ +  SI+ I + 
+Sbjct  183  MEWKLSEFSKEFGMGLTTFKELFGSIYGVSPRAWISERRILFAHQLLLNSPSSIVDIAME  242
+
+Query  286  CGFSSGPHFSSAYRNFFGVTPREDRN  311
+             GFSS  +F+ +YR  FG TP   R+
+Sbjct  243  AGFSSQSYFTQSYRRRFGCTPSRARH  268
+
+
+>VFG003476(gb|WP_005176447) (virF/lcrF) virulence regulon transcriptional 
+activator VirF [TTSS (VF0140) - Effector delivery 
+system (VFC0086)] [Yersinia enterocolitica subsp. enterocolitica 
+8081]
+Length=271
+
+ Score = 47.4 bits (111),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 26/92 (28%), Positives = 42/92 (46%), Gaps = 0/92 (0%)
+
+Query  219  LMEANIEEPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQMLMQTSKS  278
+             ME N  +     + A+   +     + +F       P  +  E R+  A Q+L+    S
+Sbjct  172  FMEENYLQGWKLSKFAREFGMGLTTFKELFGTVYGISPRAWISERRILYAHQLLLNCKMS  231
+
+Query  279  IIQIGLSCGFSSGPHFSSAYRNFFGVTPREDR  310
+            I+ I +  GFSS  +F+ +YR  FG TP + R
+Sbjct  232  IVDIAMEAGFSSQSYFTQSYRRRFGCTPSQAR  263
+
+
+>VFG000208(gb|NP_250404) (exsA) type III secretion system regulatory 
+protein ExsA [TTSS (VF0083) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa PAO1]
+Length=278
+
+ Score = 47.0 bits (110),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 37/148 (25%), Positives = 63/148 (43%), Gaps = 2/148 (1%)
+
+Query  166  LLALLSRDHGAELAGAVSEELVVERIREGNERQRIPLKNRLGSSHPKLTQAVLLMEANIE  225
+            L  LL  +H   LA    EEL++           + +  +L + H +  Q  L ME +  
+Sbjct  125  LKELLVHEHPPMLACLKIEELLMLFAFSPQGPLLMSVLRQLSNRHVERLQ--LFMEKHYL  182
+
+Query  226  EPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQMLMQTSKSIIQIGLS  285
+                  + ++   +     + +F       P  +  E R+  A Q+L+ +  SI+ I + 
+Sbjct  183  NEWKLSDFSREFGMGLTTFKELFGSVYGVSPRAWISERRILYAHQLLLNSDMSIVDIAME  242
+
+Query  286  CGFSSGPHFSSAYRNFFGVTPREDRNQR  313
+             GFSS  +F+ +YR  FG TP   R  +
+Sbjct  243  AGFSSQSYFTQSYRRRFGCTPSRSRQGK  270
+
+
+>VFG000399(gb|WP_002212931) (virF/lcrF) virulence regulon transcriptional 
+activator VirF [TTSS (VF0140) - Effector delivery 
+system (VFC0086)] [Yersinia pestis CO92]
+Length=271
+
+ Score = 47.0 bits (110),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 26/92 (28%), Positives = 42/92 (46%), Gaps = 0/92 (0%)
+
+Query  219  LMEANIEEPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQMLMQTSKS  278
+             ME N  +     + A+   +     + +F       P  +  E R+  A Q+L+    S
+Sbjct  172  FMEENYLQGWKLSKFAREFGMGLTTFKELFGTVYGISPRAWISERRILYAHQLLLNGKMS  231
+
+Query  279  IIQIGLSCGFSSGPHFSSAYRNFFGVTPREDR  310
+            I+ I +  GFSS  +F+ +YR  FG TP + R
+Sbjct  232  IVDIAMEAGFSSQSYFTQSYRRRFGCTPSQAR  263
+
+
+>VFG023737(gb|WP_013749464) (virF/lcrF) virulence regulon transcriptional 
+activator VirF [TTSS (VF0140) - Effector delivery 
+system (VFC0086)] [Yersinia enterocolitica subsp. palearctica 
+105.5R(r)]
+Length=271
+
+ Score = 47.0 bits (110),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 26/92 (28%), Positives = 42/92 (46%), Gaps = 0/92 (0%)
+
+Query  219  LMEANIEEPLTTDEIAQHVCVSRRQLERIFKQYLNRVPSQYYLELRLNRARQMLMQTSKS  278
+             ME N  +     + A+   +     + +F       P  +  E R+  A Q+L+    S
+Sbjct  172  FMEENYLQGWKLSKFAREFGMGLTTFKELFGTVYGISPRAWISERRILYAHQLLLNGKMS  231
+
+Query  279  IIQIGLSCGFSSGPHFSSAYRNFFGVTPREDR  310
+            I+ I +  GFSS  +F+ +YR  FG TP + R
+Sbjct  232  IVDIAMEAGFSSQSYFTQSYRRRFGCTPSQAR  263
+
+
+
+Lambda      K        H        a         alpha
+   0.321    0.135    0.407    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2404541907
+
+
+Query= g1878.t1
+
+Length=334
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG016125(gb|WP_003157556) (pchR) transcriptional regulator PchR ...  48.5    2e-06
+VFG042526(gb|AAC28314) (afrR) transcriptional activator AfrR [Adh...  48.5    2e-06
+VFG042570(gb|AAX78184) (AAX78184) LdaA [Locus for diffuse adheren...  48.5    3e-06
+VFG041605(gb|WP_012847726) (ETAE_RS04105) helix-turn-helix domain...  47.0    5e-06
+
+
+>VFG016125(gb|WP_003157556) (pchR) transcriptional regulator PchR 
+[Pyochelin (VF0095) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PA7]
+Length=295
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 30/97 (31%), Positives = 50/97 (52%), Gaps = 1/97 (1%)
+
+Query  229  RLAALLEWIPANLAGDLSLEALADQACMSPRTLSRVFLQELGVAPGRYVERVRLEAARAL  288
+            R+ A  + +   L    SL+ALA +  M+PR L+  F +  G +   Y++  RL  A  +
+Sbjct  198  RIHAARDLLVGELQEPPSLDALASRVGMNPRKLTAGFRKVFGASVFGYLQEYRLREAHRM  257
+
+Query  289  LQDAQASIATVSRLCGFGHPENLRRTFHKHLSVSPQE  325
+            L D +A+++TV+   G+  P +    F K   +SP E
+Sbjct  258  LCDEEANVSTVAYRVGYS-PAHFSIAFRKRYGISPSE  293
+
+
+>VFG042526(gb|AAC28314) (afrR) transcriptional activator AfrR 
+[Adhesive factor/rabbit 1 (AF/R1) pili (VF1146) - Adherence 
+(VFC0001)] [Escherichia coli str. RDEC-1]
+Length=272
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 27/102 (26%), Positives = 49/102 (48%), Gaps = 1/102 (1%)
+
+Query  226  RTPRLAALLEWIPANLAG-DLSLEALADQACMSPRTLSRVFLQELGVAPGRYVERVRLEA  284
+            +T  + A+ ++I  NL    + + AL D +  S R L  +F + +GV  G+Y++  R+  
+Sbjct  3    KTLTINAITQYIDDNLESISIDINALVDYSGYSRRYLQLLFKENIGVTLGKYIQLRRITR  62
+
+Query  285  ARALLQDAQASIATVSRLCGFGHPENLRRTFHKHLSVSPQEY  326
+            A  LL+     I  +S    +   +   R F K+   +P +Y
+Sbjct  63   AAILLRFTNLKIVDISERLFYDSQQTFTREFKKNSGYTPLQY  104
+
+
+>VFG042570(gb|AAX78184) (AAX78184) LdaA [Locus for diffuse adherence 
+(lda), afimbrial adhesin (VF1148) - Adherence (VFC0001)] 
+[Escherichia coli]
+Length=309
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 25/98 (26%), Positives = 49/98 (50%), Gaps = 1/98 (1%)
+
+Query  230  LAALLEWIPANLA-GDLSLEALADQACMSPRTLSRVFLQELGVAPGRYVERVRLEAARAL  288
+            + A+L++I  N+    + + +L + +  S R L  +F   +G+  G+Y++R R+  A  L
+Sbjct  8    INAILDYIEDNIEISPIDINSLVEYSGYSRRYLQLLFFDYIGMPVGKYIQRRRVSRAAVL  67
+
+Query  289  LQDAQASIATVSRLCGFGHPENLRRTFHKHLSVSPQEY  326
+            L+     + T+S    +   +   R F KH   +P +Y
+Sbjct  68   LRLTNLPLVTISEKLCYDSQQTFTREFKKHTGNTPLQY  105
+
+
+>VFG041605(gb|WP_012847726) (ETAE_RS04105) helix-turn-helix domain-containing 
+protein [T3SS (VF1266) - Effector delivery system 
+(VFC0086)] [Edwardsiella tarda EIB202]
+Length=230
+
+ Score = 47.0 bits (110),  Expect = 5e-06, Method: Compositional matrix adjust.
+ Identities = 25/75 (33%), Positives = 39/75 (52%), Gaps = 0/75 (0%)
+
+Query  251  ADQACMSPRTLSRVFLQELGVAPGRYVERVRLEAARALLQDAQASIATVSRLCGFGHPEN  310
+            AD   +S R  +++F  + G+AP R++ R RL  AR LL+     +  V+   GF +  +
+Sbjct  145  ADLFGLSQRKFNQLFNDKFGMAPKRWLLRQRLGHARQLLETTSKKVIDVALESGFCNAAH  204
+
+Query  311  LRRTFHKHLSVSPQE  325
+                F +H S SP E
+Sbjct  205  FSDCFRRHFSQSPSE  219
+
+
+
+Lambda      K        H        a         alpha
+   0.323    0.137    0.419    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2440022833
+
+
+Query= g3855.t1
+
+Length=317
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG000167(gb|NP_252917) (pchR) transcriptional regulator PchR [Py...  50.8    4e-07
+VFG016127(gb|WP_011061777) (pchR) transcriptional regulator PchR ...  50.1    6e-07
+VFG016125(gb|WP_003157556) (pchR) transcriptional regulator PchR ...  48.5    2e-06
+
+
+>VFG000167(gb|NP_252917) (pchR) transcriptional regulator PchR 
+[Pyochelin (VF0095) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=296
+
+ Score = 50.8 bits (120),  Expect = 4e-07, Method: Compositional matrix adjust.
+ Identities = 36/108 (33%), Positives = 54/108 (50%), Gaps = 5/108 (5%)
+
+Query  197  GQAQFIEQPLPDSAQDGRLGELLVWLRQNLDQAHSLDSLAQRVLMSRRTFTRHFRQLTGT  256
+            G+ + +E+P    ++  R+      L   L +  SLD+LA RV M+ R  T  FR++ G 
+Sbjct  182  GEGRPVEEPRITCSEVERIHAARDLLVGALQEPPSLDTLASRVGMNPRKLTAGFRKVFGA  241
+
+Query  257  TVSQWLQAERLALAQRLLETTEHSVQAIAGLAGFGSAVSLRQQFSAAF  304
+            +V  +LQ  RL  A R+L   E +V  +A   G+  A      FS AF
+Sbjct  242  SVFGYLQEYRLREAHRMLCDEEANVSTVAYRVGYSPA-----HFSIAF  284
+
+
+>VFG016127(gb|WP_011061777) (pchR) transcriptional regulator PchR 
+[Pyochelin (VF0095) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas fluorescens Pf-5]
+Length=300
+
+ Score = 50.1 bits (118),  Expect = 6e-07, Method: Compositional matrix adjust.
+ Identities = 41/122 (34%), Positives = 60/122 (49%), Gaps = 5/122 (4%)
+
+Query  195  QGGQAQFIEQPLPDS----AQDGRLGELLVWLRQNLDQAHSLDSLAQRVLMSRRTFTRHF  250
+            +G  AQ   +PL DS    A   R+      L  +L  + SL  L+++V ++ R  T  F
+Sbjct  180  EGILAQAESRPLQDSPCSSADIERIHAARDLLLNSLQDSPSLSELSRQVGLNPRKLTAGF  239
+
+Query  251  RQLTGTTVSQWLQAERLALAQRLLETTEHSVQAIAGLAGFGSAVSLRQQFSAAFGLPPLG  310
+            RQ+ GT+V  +LQ +RL  A RLL + E +V + A   G+ S       F   FG+ P  
+Sbjct  240  RQVFGTSVYAYLQEQRLGEAYRLLASGETNVSSAAYRVGY-SPAHFSTAFRKRFGVSPKS  298
+
+Query  311  YR  312
+             R
+Sbjct  299  LR  300
+
+
+>VFG016125(gb|WP_003157556) (pchR) transcriptional regulator PchR 
+[Pyochelin (VF0095) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PA7]
+Length=295
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 31/80 (39%), Positives = 42/80 (53%), Gaps = 5/80 (6%)
+
+Query  225  NLDQAHSLDSLAQRVLMSRRTFTRHFRQLTGTTVSQWLQAERLALAQRLLETTEHSVQAI  284
+             L +  SLD+LA RV M+ R  T  FR++ G +V  +LQ  RL  A R+L   E +V  +
+Sbjct  209  ELQEPPSLDALASRVGMNPRKLTAGFRKVFGASVFGYLQEYRLREAHRMLCDEEANVSTV  268
+
+Query  285  AGLAGFGSAVSLRQQFSAAF  304
+            A   G+  A      FS AF
+Sbjct  269  AYRVGYSPA-----HFSIAF  283
+
+
+
+Lambda      K        H        a         alpha
+   0.324    0.136    0.416    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2278539711
+
+
+Query= g4266.t1
+
+Length=340
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG041605(gb|WP_012847726) (ETAE_RS04105) helix-turn-helix domain...  54.3    2e-08
+VFG019776(gb|WP_003117898) (chpD) probable transcriptional regula...  51.6    2e-07
+VFG014093(gb|WP_003128976) (chpD) probable transcriptional regula...  50.1    5e-07
+VFG001234(gb|NP_249107) (chpD) probable transcriptional regulator...  50.1    5e-07
+VFG014092(gb|WP_012074004) (chpD) probable transcriptional regula...  49.3    1e-06
+VFG041884(gb|WP_080509009) (CV_RS12640) AraC family transcription...  48.5    2e-06
+VFG044376(gb|AAL65283) (qbsA) QbsA [Thioquinolobactin (VF0937) - ...  47.8    3e-06
+VFG019777(gb|WP_012724142) (chpD) probable transcriptional regula...  47.8    4e-06
+
+
+>VFG041605(gb|WP_012847726) (ETAE_RS04105) helix-turn-helix domain-containing 
+protein [T3SS (VF1266) - Effector delivery system 
+(VFC0086)] [Edwardsiella tarda EIB202]
+Length=230
+
+ Score = 54.3 bits (129),  Expect = 2e-08, Method: Compositional matrix adjust.
+ Identities = 28/90 (31%), Positives = 48/90 (53%), Gaps = 1/90 (1%)
+
+Query  247  EPLSQEQLAHYVGRSRRQIERLFQQQLGTTPVRYYLELRITECRRLLQHSDLTMLEVLVA  306
+            EP    + A   G S+R+  +LF  + G  P R+ L  R+   R+LL+ +   +++V + 
+Sbjct  137  EPWPVARYADLFGLSQRKFNQLFNDKFGMAPKRWLLRQRLGHARQLLETTSKKVIDVALE  196
+
+Query  307  CGFVSPSHFSKCYTAFYGYPPSKEVRYGNV  336
+             GF + +HFS C+   +   PS EVR  ++
+Sbjct  197  SGFCNAAHFSDCFRRHFSQSPS-EVRRASL  225
+
+
+>VFG019776(gb|WP_003117898) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa LESB58]
+Length=264
+
+ Score = 51.6 bits (122),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 28/93 (30%), Positives = 50/93 (54%), Gaps = 1/93 (1%)
+
+Query  240  LMSANIEEPLSQEQLAHYVGRSRRQIERLFQQQLGTTPVRYYLELRITECRRLLQHSDLT  299
+            L++  + EP   +++A  VG S+  + R F++  G +P ++ ++LR      LL+   L 
+Sbjct  169  LLAERLAEPPDLDEMAEQVGLSKYHLLRAFKKATGLSPRQWSMQLRTRRALGLLRRG-LA  227
+
+Query  300  MLEVLVACGFVSPSHFSKCYTAFYGYPPSKEVR  332
+            + EV  A GF   SH ++ +T+ YG  P +  R
+Sbjct  228  VGEVAHALGFADQSHLTRYFTSAYGISPGRYQR  260
+
+
+>VFG014093(gb|WP_003128976) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa UCBPP-PA14]
+Length=264
+
+ Score = 50.1 bits (118),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 28/93 (30%), Positives = 49/93 (53%), Gaps = 1/93 (1%)
+
+Query  240  LMSANIEEPLSQEQLAHYVGRSRRQIERLFQQQLGTTPVRYYLELRITECRRLLQHSDLT  299
+            L++  + EP   + +A  VG S+  + R F++  G +P ++ ++LR      LL+   L 
+Sbjct  169  LLAERLAEPPDLDGMAEQVGLSKYHLLRAFKKATGLSPRQWSMQLRTRRALGLLRRG-LA  227
+
+Query  300  MLEVLVACGFVSPSHFSKCYTAFYGYPPSKEVR  332
+            + EV  A GF   SH ++ +T+ YG  P +  R
+Sbjct  228  VGEVAHALGFADQSHLTRYFTSAYGISPGRYQR  260
+
+
+>VFG001234(gb|NP_249107) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa PAO1]
+Length=264
+
+ Score = 50.1 bits (118),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 28/93 (30%), Positives = 49/93 (53%), Gaps = 1/93 (1%)
+
+Query  240  LMSANIEEPLSQEQLAHYVGRSRRQIERLFQQQLGTTPVRYYLELRITECRRLLQHSDLT  299
+            L++  + EP   + +A  VG S+  + R F++  G +P ++ ++LR      LL+   L 
+Sbjct  169  LLAERLAEPPDLDGMAEQVGLSKYHLLRAFKKATGLSPRQWSMQLRTRRALGLLRRG-LA  227
+
+Query  300  MLEVLVACGFVSPSHFSKCYTAFYGYPPSKEVR  332
+            + EV  A GF   SH ++ +T+ YG  P +  R
+Sbjct  228  VGEVAHALGFADQSHLTRYFTSAYGISPGRYQR  260
+
+
+>VFG014092(gb|WP_012074004) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa PA7]
+Length=264
+
+ Score = 49.3 bits (116),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 27/93 (29%), Positives = 50/93 (54%), Gaps = 1/93 (1%)
+
+Query  240  LMSANIEEPLSQEQLAHYVGRSRRQIERLFQQQLGTTPVRYYLELRITECRRLLQHSDLT  299
+            L++ ++ EP   + +A  VG S+  + R F++  G +P ++ ++LR      LL+   L 
+Sbjct  169  LLAEHLAEPPDLDGMAEQVGLSKYHLLRAFKKATGLSPRQWSMQLRTRRALGLLRRG-LA  227
+
+Query  300  MLEVLVACGFVSPSHFSKCYTAFYGYPPSKEVR  332
+            + EV  A GF   SH ++ +++ YG  P +  R
+Sbjct  228  VGEVAHALGFADQSHLTRYFSSAYGISPGRYQR  260
+
+
+>VFG041884(gb|WP_080509009) (CV_RS12640) AraC family transcriptional 
+regulator [Cpi-2 encoded T3SS (SPI-2 like) (VF1260) - 
+Effector delivery system (VFC0086)] [Chromobacterium violaceum 
+ATCC 12472]
+Length=284
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 25/95 (26%), Positives = 47/95 (49%), Gaps = 0/95 (0%)
+
+Query  235  REVINLMSANIEEPLSQEQLAHYVGRSRRQIERLFQQQLGTTPVRYYLELRITECRRLLQ  294
+            ++    +  N  +  S   LA   G   R+  +LFQ+  G    R+ LE R+T  ++LL 
+Sbjct  176  KDFYEFIEKNALQQWSISTLADRFGMPLRKFNQLFQEAYGKPAKRWILEHRLTHAKKLLL  235
+
+Query  295  HSDLTMLEVLVACGFVSPSHFSKCYTAFYGYPPSK  329
+             + + +L+V + CGF + +HF+  +   +   P +
+Sbjct  236  TTSMRVLDVALECGFSNHAHFTDSFRRHFQCNPKQ  270
+
+
+>VFG044376(gb|AAL65283) (qbsA) QbsA [Thioquinolobactin (VF0937) 
+- Nutritional/Metabolic factor (VFC0272)] [Pseudomonas fluorescens 
+ATCC 17400]
+Length=267
+
+ Score = 47.8 bits (112),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 37/130 (28%), Positives = 64/130 (49%), Gaps = 5/130 (4%)
+
+Query  198  RRHGRDLVEAVVDILAFEESRYRRVRPALHEKMSEPLREVINLMSANIEEPLSQEQLAHY  257
+            R H   L+   + IL    +  RR+     +K+ E  R++I    A   +PL+   L   
+Sbjct  135  RIHALSLLSEQLQILTPATATQRRLSDPEQDKL-EQARQIIFTQMA---QPLTNHYLCSC  190
+
+Query  258  VGRSRRQIERLFQQQLGTTPVRYYLELRITECRRLLQHSDLTMLEVLVACGFVSPSHFSK  317
+            VG S  +++  F++  G TP R  LE R+ +  +LL+ +   + E   + G+  PS+FS 
+Sbjct  191  VGLSESRLKDGFRRYFGVTPRRCLLEARMHKAWQLLE-AGRQVAEAAYSVGYSHPSNFST  249
+
+Query  318  CYTAFYGYPP  327
+             ++ F+G  P
+Sbjct  250  AFSQFFGRTP  259
+
+
+>VFG019777(gb|WP_012724142) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+fluorescens SBW25]
+Length=263
+
+ Score = 47.8 bits (112),  Expect = 4e-06, Method: Compositional matrix adjust.
+ Identities = 23/90 (26%), Positives = 52/90 (58%), Gaps = 1/90 (1%)
+
+Query  240  LMSANIEEPLSQEQLAHYVGRSRRQIERLFQQQLGTTPVRYYLELRITECRRLLQHSDLT  299
+            L++ ++ + L  EQL++ +G ++  + R FQ++ G +P ++ ++LR    + LL+ + + 
+Sbjct  168  LLAEHLHQTLPLEQLSNELGLTKFHLLRTFQKETGLSPRQWAMQLRTRRAKGLLR-AGVA  226
+
+Query  300  MLEVLVACGFVSPSHFSKCYTAFYGYPPSK  329
+            + ++    GF   SH ++ + A YG  P +
+Sbjct  227  VSDIAHDLGFADQSHLNRHFRAAYGITPGR  256
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.136    0.399    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2502856039
+
+
+Query= g4521.t1
+
+Length=332
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG041818(gb|WP_011147916) (PLU_RS18745) AraC family transcriptio...  53.5    4e-08
+VFG041670(gb|WP_012777215) (PAU_RS05110) AraC family transcriptio...  53.5    5e-08
+VFG000208(gb|NP_250404) (exsA) type III secretion system regulato...  52.8    8e-08
+VFG014092(gb|WP_012074004) (chpD) probable transcriptional regula...  52.4    8e-08
+VFG038332(gb|WP_192914500) (exsA) Type III secretion system trans...  51.6    1e-07
+VFG041884(gb|WP_080509009) (CV_RS12640) AraC family transcription...  51.2    3e-07
+VFG042280(gb|AAS91825) (exsA) ExsA [T3SS (VF0479) - Effector deli...  50.4    5e-07
+VFG003476(gb|WP_005176447) (virF/lcrF) virulence regulon transcri...  49.7    8e-07
+VFG000399(gb|WP_002212931) (virF/lcrF) virulence regulon transcri...  49.3    1e-06
+VFG019776(gb|WP_003117898) (chpD) probable transcriptional regula...  49.3    1e-06
+VFG023737(gb|WP_013749464) (virF/lcrF) virulence regulon transcri...  49.3    1e-06
+VFG041605(gb|WP_012847726) (ETAE_RS04105) helix-turn-helix domain...  48.9    1e-06
+VFG001234(gb|NP_249107) (chpD) probable transcriptional regulator...  48.5    2e-06
+VFG014093(gb|WP_003128976) (chpD) probable transcriptional regula...  48.1    2e-06
+VFG016190(gb|WP_005762820) (ybtA) AraC family transcriptional reg...  47.0    6e-06
+
+
+>VFG041818(gb|WP_011147916) (PLU_RS18745) AraC family transcriptional 
+regulator [T3SS (VF1288) - Effector delivery system 
+(VFC0086)] [Photorhabdus luminescens subsp. laumondii TTO1]
+Length=272
+
+ Score = 53.5 bits (127),  Expect = 4e-08, Method: Compositional matrix adjust.
+ Identities = 25/96 (26%), Positives = 51/96 (53%), Gaps = 0/96 (0%)
+
+Query  229  QIQQWLEDHFADKFRFEDVARDHGMSIRNFMRRFQAATGDKPLHYLQRLRIETAKGMLSS  288
+            ++Q ++E+H+  +++  + A++ GM +  F   F++  G  P  ++   RI  A  +L +
+Sbjct  173  RLQSFMENHYLKEWKLSEFAKEFGMGLTTFKELFRSVYGISPRAWISERRILYAHQLLLN  232
+
+Query  289  TRKSIKTISYEVGYDDASFFARLFRQHTELSPHHYR  324
+            +  SI  IS E G+   S+F + +R+    +P   R
+Sbjct  233  SEMSIVDISMEAGFSSQSYFTQSYRRRFNCTPSRAR  268
+
+
+>VFG041670(gb|WP_012777215) (PAU_RS05110) AraC family transcriptional 
+regulator [T3SS-1 (VF1286) - Effector delivery system 
+(VFC0086)] [Photorhabdus asymbiotica subsp. asymbiotica ATCC 
+43949]
+Length=272
+
+ Score = 53.5 bits (127),  Expect = 5e-08, Method: Compositional matrix adjust.
+ Identities = 25/96 (26%), Positives = 52/96 (54%), Gaps = 0/96 (0%)
+
+Query  229  QIQQWLEDHFADKFRFEDVARDHGMSIRNFMRRFQAATGDKPLHYLQRLRIETAKGMLSS  288
+            ++Q ++E+H+  +++  + A++ GM +  F   F++  G  P  ++   RI  A  +L +
+Sbjct  173  RLQIFMENHYLKEWKLSEFAKEFGMGLTTFKELFRSVYGISPRAWISERRILYAHQLLLN  232
+
+Query  289  TRKSIKTISYEVGYDDASFFARLFRQHTELSPHHYR  324
+            +  SI  IS E G+   S+F + +R+  + +P   R
+Sbjct  233  SEMSIVDISMEAGFSSQSYFTQSYRRRFDCTPSRAR  268
+
+
+>VFG000208(gb|NP_250404) (exsA) type III secretion system regulatory 
+protein ExsA [TTSS (VF0083) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa PAO1]
+Length=278
+
+ Score = 52.8 bits (125),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 25/97 (26%), Positives = 51/97 (53%), Gaps = 0/97 (0%)
+
+Query  229  QIQQWLEDHFADKFRFEDVARDHGMSIRNFMRRFQAATGDKPLHYLQRLRIETAKGMLSS  288
+            ++Q ++E H+ ++++  D +R+ GM +  F   F +  G  P  ++   RI  A  +L +
+Sbjct  172  RLQLFMEKHYLNEWKLSDFSREFGMGLTTFKELFGSVYGVSPRAWISERRILYAHQLLLN  231
+
+Query  289  TRKSIKTISYEVGYDDASFFARLFRQHTELSPHHYRR  325
+            +  SI  I+ E G+   S+F + +R+    +P   R+
+Sbjct  232  SDMSIVDIAMEAGFSSQSYFTQSYRRRFGCTPSRSRQ  268
+
+
+>VFG014092(gb|WP_012074004) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa PA7]
+Length=264
+
+ Score = 52.4 bits (124),  Expect = 8e-08, Method: Compositional matrix adjust.
+ Identities = 28/101 (28%), Positives = 52/101 (51%), Gaps = 1/101 (1%)
+
+Query  225  PTILQIQQWLEDHFADKFRFEDVARDHGMSIRNFMRRFQAATGDKPLHYLQRLRIETAKG  284
+            P ++++Q  L +H A+    + +A   G+S  + +R F+ ATG  P  +  +LR   A G
+Sbjct  161  PAVVRLQALLAEHLAEPPDLDGMAEQVGLSKYHLLRAFKKATGLSPRQWSMQLRTRRALG  220
+
+Query  285  MLSSTRKSIKTISYEVGYDDASFFARLFRQHTELSPHHYRR  325
+            +L     ++  +++ +G+ D S   R F     +SP  Y+R
+Sbjct  221  LLRRG-LAVGEVAHALGFADQSHLTRYFSSAYGISPGRYQR  260
+
+
+>VFG038332(gb|WP_192914500) (exsA) Type III secretion system transcriptional 
+regulator [T3SS (VF0479) - Effector delivery 
+system (VFC0086)] [Aeromonas salmonicida subsp. salmonicida 
+A449]
+Length=260
+
+ Score = 51.6 bits (122),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 25/96 (26%), Positives = 50/96 (52%), Gaps = 0/96 (0%)
+
+Query  229  QIQQWLEDHFADKFRFEDVARDHGMSIRNFMRRFQAATGDKPLHYLQRLRIETAKGMLSS  288
+            ++QQ++E H+  +++  + A++ GM +  F   F +  G  P  ++   RI  A  +L +
+Sbjct  161  RLQQFMEKHYLMEWKLSEFAKEFGMGLTTFKELFGSIYGVSPRAWISERRILFAHQLLLN  220
+
+Query  289  TRKSIKTISYEVGYDDASFFARLFRQHTELSPHHYR  324
+            +  SI  I+ E G+   S+F + +R+    +P   R
+Sbjct  221  SEMSIVDIAMEAGFSSQSYFTQSYRRRFGCTPSRAR  256
+
+
+>VFG041884(gb|WP_080509009) (CV_RS12640) AraC family transcriptional 
+regulator [Cpi-2 encoded T3SS (SPI-2 like) (VF1260) - 
+Effector delivery system (VFC0086)] [Chromobacterium violaceum 
+ATCC 12472]
+Length=284
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 29/101 (29%), Positives = 50/101 (50%), Gaps = 9/101 (9%)
+
+Query  230  IQQWLEDHFADKFRFEDVARDHGMSIRNFMRRFQAATGDKPLHYLQRLRIETAKGMLSST  289
+            +QQW     AD+F         GM +R F + FQ A G     ++   R+  AK +L +T
+Sbjct  187  LQQWSISTLADRF---------GMPLRKFNQLFQEAYGKPAKRWILEHRLTHAKKLLLTT  237
+
+Query  290  RKSIKTISYEVGYDDASFFARLFRQHTELSPHHYRRQFMQK  330
+               +  ++ E G+ + + F   FR+H + +P  +R+Q + K
+Sbjct  238  SMRVLDVALECGFSNHAHFTDSFRRHFQCNPKQFRQQALGK  278
+
+
+>VFG042280(gb|AAS91825) (exsA) ExsA [T3SS (VF0479) - Effector 
+delivery system (VFC0086)] [Aeromonas hydrophila str. AH3]
+Length=271
+
+ Score = 50.4 bits (119),  Expect = 5e-07, Method: Compositional matrix adjust.
+ Identities = 24/96 (25%), Positives = 50/96 (52%), Gaps = 0/96 (0%)
+
+Query  229  QIQQWLEDHFADKFRFEDVARDHGMSIRNFMRRFQAATGDKPLHYLQRLRIETAKGMLSS  288
+            ++QQ++E H+  +++  + +++ GM +  F   F +  G  P  ++   RI  A  +L +
+Sbjct  172  RLQQFMEKHYLMEWKLSEFSKEFGMGLTTFKELFGSIYGVSPRAWISERRILFAHQLLLN  231
+
+Query  289  TRKSIKTISYEVGYDDASFFARLFRQHTELSPHHYR  324
+            +  SI  I+ E G+   S+F + +R+    +P   R
+Sbjct  232  SPSSIVDIAMEAGFSSQSYFTQSYRRRFGCTPSRAR  267
+
+
+>VFG003476(gb|WP_005176447) (virF/lcrF) virulence regulon transcriptional 
+activator VirF [TTSS (VF0140) - Effector delivery 
+system (VFC0086)] [Yersinia enterocolitica subsp. enterocolitica 
+8081]
+Length=271
+
+ Score = 49.7 bits (117),  Expect = 8e-07, Method: Compositional matrix adjust.
+ Identities = 24/96 (25%), Positives = 48/96 (50%), Gaps = 0/96 (0%)
+
+Query  229  QIQQWLEDHFADKFRFEDVARDHGMSIRNFMRRFQAATGDKPLHYLQRLRIETAKGMLSS  288
+            ++Q+++E+++   ++    AR+ GM +  F   F    G  P  ++   RI  A  +L +
+Sbjct  168  RLQKFMEENYLQGWKLSKFAREFGMGLTTFKELFGTVYGISPRAWISERRILYAHQLLLN  227
+
+Query  289  TRKSIKTISYEVGYDDASFFARLFRQHTELSPHHYR  324
+             + SI  I+ E G+   S+F + +R+    +P   R
+Sbjct  228  CKMSIVDIAMEAGFSSQSYFTQSYRRRFGCTPSQAR  263
+
+
+>VFG000399(gb|WP_002212931) (virF/lcrF) virulence regulon transcriptional 
+activator VirF [TTSS (VF0140) - Effector delivery 
+system (VFC0086)] [Yersinia pestis CO92]
+Length=271
+
+ Score = 49.3 bits (116),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 24/96 (25%), Positives = 48/96 (50%), Gaps = 0/96 (0%)
+
+Query  229  QIQQWLEDHFADKFRFEDVARDHGMSIRNFMRRFQAATGDKPLHYLQRLRIETAKGMLSS  288
+            ++Q+++E+++   ++    AR+ GM +  F   F    G  P  ++   RI  A  +L +
+Sbjct  168  RLQKFMEENYLQGWKLSKFAREFGMGLTTFKELFGTVYGISPRAWISERRILYAHQLLLN  227
+
+Query  289  TRKSIKTISYEVGYDDASFFARLFRQHTELSPHHYR  324
+             + SI  I+ E G+   S+F + +R+    +P   R
+Sbjct  228  GKMSIVDIAMEAGFSSQSYFTQSYRRRFGCTPSQAR  263
+
+
+>VFG019776(gb|WP_003117898) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa LESB58]
+Length=264
+
+ Score = 49.3 bits (116),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 27/101 (27%), Positives = 51/101 (50%), Gaps = 1/101 (1%)
+
+Query  225  PTILQIQQWLEDHFADKFRFEDVARDHGMSIRNFMRRFQAATGDKPLHYLQRLRIETAKG  284
+            P + ++Q  L +  A+    +++A   G+S  + +R F+ ATG  P  +  +LR   A G
+Sbjct  161  PAVARLQALLAERLAEPPDLDEMAEQVGLSKYHLLRAFKKATGLSPRQWSMQLRTRRALG  220
+
+Query  285  MLSSTRKSIKTISYEVGYDDASFFARLFRQHTELSPHHYRR  325
+            +L     ++  +++ +G+ D S   R F     +SP  Y+R
+Sbjct  221  LLRRG-LAVGEVAHALGFADQSHLTRYFTSAYGISPGRYQR  260
+
+
+>VFG023737(gb|WP_013749464) (virF/lcrF) virulence regulon transcriptional 
+activator VirF [TTSS (VF0140) - Effector delivery 
+system (VFC0086)] [Yersinia enterocolitica subsp. palearctica 
+105.5R(r)]
+Length=271
+
+ Score = 49.3 bits (116),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 24/96 (25%), Positives = 48/96 (50%), Gaps = 0/96 (0%)
+
+Query  229  QIQQWLEDHFADKFRFEDVARDHGMSIRNFMRRFQAATGDKPLHYLQRLRIETAKGMLSS  288
+            ++Q+++E+++   ++    AR+ GM +  F   F    G  P  ++   RI  A  +L +
+Sbjct  168  RLQKFMEENYLQGWKLSKFAREFGMGLTTFKELFGTVYGISPRAWISERRILYAHQLLLN  227
+
+Query  289  TRKSIKTISYEVGYDDASFFARLFRQHTELSPHHYR  324
+             + SI  I+ E G+   S+F + +R+    +P   R
+Sbjct  228  GKMSIVDIAMEAGFSSQSYFTQSYRRRFGCTPSQAR  263
+
+
+>VFG041605(gb|WP_012847726) (ETAE_RS04105) helix-turn-helix domain-containing 
+protein [T3SS (VF1266) - Effector delivery system 
+(VFC0086)] [Edwardsiella tarda EIB202]
+Length=230
+
+ Score = 48.9 bits (115),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 29/97 (30%), Positives = 48/97 (49%), Gaps = 9/97 (9%)
+
+Query  229  QIQQWLEDHFADKFRFEDVARDHGMSIRNFMRRFQAATGDKPLHYLQRLRIETAKGMLSS  288
+            +++ W    +AD F         G+S R F + F    G  P  +L R R+  A+ +L +
+Sbjct  135  RLEPWPVARYADLF---------GLSQRKFNQLFNDKFGMAPKRWLLRQRLGHARQLLET  185
+
+Query  289  TRKSIKTISYEVGYDDASFFARLFRQHTELSPHHYRR  325
+            T K +  ++ E G+ +A+ F+  FR+H   SP   RR
+Sbjct  186  TSKKVIDVALESGFCNAAHFSDCFRRHFSQSPSEVRR  222
+
+
+>VFG001234(gb|NP_249107) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa PAO1]
+Length=264
+
+ Score = 48.5 bits (114),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 27/101 (27%), Positives = 50/101 (50%), Gaps = 1/101 (1%)
+
+Query  225  PTILQIQQWLEDHFADKFRFEDVARDHGMSIRNFMRRFQAATGDKPLHYLQRLRIETAKG  284
+            P + ++Q  L +  A+    + +A   G+S  + +R F+ ATG  P  +  +LR   A G
+Sbjct  161  PAVARLQALLAERLAEPPDLDGMAEQVGLSKYHLLRAFKKATGLSPRQWSMQLRTRRALG  220
+
+Query  285  MLSSTRKSIKTISYEVGYDDASFFARLFRQHTELSPHHYRR  325
+            +L     ++  +++ +G+ D S   R F     +SP  Y+R
+Sbjct  221  LLRRG-LAVGEVAHALGFADQSHLTRYFTSAYGISPGRYQR  260
+
+
+>VFG014093(gb|WP_003128976) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa UCBPP-PA14]
+Length=264
+
+ Score = 48.1 bits (113),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 27/101 (27%), Positives = 50/101 (50%), Gaps = 1/101 (1%)
+
+Query  225  PTILQIQQWLEDHFADKFRFEDVARDHGMSIRNFMRRFQAATGDKPLHYLQRLRIETAKG  284
+            P + ++Q  L +  A+    + +A   G+S  + +R F+ ATG  P  +  +LR   A G
+Sbjct  161  PAVARLQALLAERLAEPPDLDGMAEQVGLSKYHLLRAFKKATGLSPRQWSMQLRTRRALG  220
+
+Query  285  MLSSTRKSIKTISYEVGYDDASFFARLFRQHTELSPHHYRR  325
+            +L     ++  +++ +G+ D S   R F     +SP  Y+R
+Sbjct  221  LLRRG-LAVGEVAHALGFADQSHLTRYFTSAYGISPGRYQR  260
+
+
+>VFG016190(gb|WP_005762820) (ybtA) AraC family transcriptional 
+regulator [Yersiniabactin (VF0923) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas syringae pv. tomato str. DC3000]
+Length=312
+
+ Score = 47.0 bits (110),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 25/90 (28%), Positives = 49/90 (54%), Gaps = 1/90 (1%)
+
+Query  234  LEDHFADKFRFEDVARDHGMSIRNFMRRFQAATGDKPLHYLQRLRIETAKGMLSSTRKSI  293
+            LE H    +  E +A+   ++ +   + F+ +       YLQ++RIE A  +L   + ++
+Sbjct  206  LEAHPEQDWTIESLAQSVELNTKKLKQGFRQSYDSGVYGYLQKVRIERAAQLLKQ-QGAV  264
+
+Query  294  KTISYEVGYDDASFFARLFRQHTELSPHHY  323
+              ++  VGY  AS FA++FR++  ++P H+
+Sbjct  265  SEVAAAVGYSSASHFAKVFRRYYGINPLHF  294
+
+
+
+Lambda      K        H        a         alpha
+   0.325    0.138    0.430    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2419078431
+
+
+Query= g5482.t1
+
+Length=367
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG019776(gb|WP_003117898) (chpD) probable transcriptional regula...  72.0    3e-14
+VFG001234(gb|NP_249107) (chpD) probable transcriptional regulator...  69.3    2e-13
+VFG014093(gb|WP_003128976) (chpD) probable transcriptional regula...  69.3    2e-13
+VFG014092(gb|WP_012074004) (chpD) probable transcriptional regula...  68.9    3e-13
+VFG041605(gb|WP_012847726) (ETAE_RS04105) helix-turn-helix domain...  63.5    1e-11
+VFG016190(gb|WP_005762820) (ybtA) AraC family transcriptional reg...  61.2    2e-10
+VFG016191(gb|WP_004665553) (ybtA) AraC family transcriptional reg...  60.1    4e-10
+VFG041884(gb|WP_080509009) (CV_RS12640) AraC family transcription...  57.4    3e-09
+VFG038332(gb|WP_192914500) (exsA) Type III secretion system trans...  55.5    1e-08
+VFG019777(gb|WP_012724142) (chpD) probable transcriptional regula...  53.9    3e-08
+VFG007177(gb|WP_005464548) (exsA) transcriptional regulator ExsA ...  53.1    7e-08
+VFG042280(gb|AAS91825) (exsA) ExsA [T3SS (VF0479) - Effector deli...  52.8    1e-07
+VFG000399(gb|WP_002212931) (virF/lcrF) virulence regulon transcri...  52.0    1e-07
+VFG023737(gb|WP_013749464) (virF/lcrF) virulence regulon transcri...  52.0    2e-07
+VFG003476(gb|WP_005176447) (virF/lcrF) virulence regulon transcri...  52.0    2e-07
+VFG000208(gb|NP_250404) (exsA) type III secretion system regulato...  51.2    3e-07
+VFG041818(gb|WP_011147916) (PLU_RS18745) AraC family transcriptio...  50.8    3e-07
+VFG003096(gb|WP_011171760) (YP_RS02140) AraC family transcription...  49.3    1e-06
+VFG041670(gb|WP_012777215) (PAU_RS05110) AraC family transcriptio...  49.3    1e-06
+VFG023581(gb|WP_005156676) (YE105_RS01775) AraC family transcript...  48.1    2e-06
+VFG016125(gb|WP_003157556) (pchR) transcriptional regulator PchR ...  48.5    3e-06
+VFG042570(gb|AAX78184) (AAX78184) LdaA [Locus for diffuse adheren...  47.4    6e-06
+VFG000167(gb|NP_252917) (pchR) transcriptional regulator PchR [Py...  46.6    9e-06
+
+
+>VFG019776(gb|WP_003117898) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa LESB58]
+Length=264
+
+ Score = 72.0 bits (175),  Expect = 3e-14, Method: Compositional matrix adjust.
+ Identities = 45/145 (31%), Positives = 75/145 (52%), Gaps = 14/145 (10%)
+
+Query  188  GRELSAAISEMFIYERIRNEQDHQRVP--LKHMLGTN-----------QPKLQEIVALME  234
+            GREL+A+I  +   +R   E+  +R+   L  +L  +           +P +  + AL+ 
+Sbjct  112  GRELAASIEALLASDRFARERGEERLLDFLGRLLAASGTRLPQRADPGRPAVARLQALLA  171
+
+Query  235  ANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYLKLRLIRARQLLKQTSMSIIE  294
+              L EP DLDE+A  V +S+  L R F+K    SP ++ ++LR  RA  LL++  +++ E
+Sbjct  172  ERLAEPPDLDEMAEQVGLSKYHLLRAFKKATGLSPRQWSMQLRTRRALGLLRR-GLAVGE  230
+
+Query  295  VASVCGFVSTPHFSKCYREYFGIPP  319
+            VA   GF    H ++ +   +GI P
+Sbjct  231  VAHALGFADQSHLTRYFTSAYGISP  255
+
+
+>VFG001234(gb|NP_249107) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa PAO1]
+Length=264
+
+ Score = 69.3 bits (168),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 44/145 (30%), Positives = 74/145 (51%), Gaps = 14/145 (10%)
+
+Query  188  GRELSAAISEMFIYERIRNEQDHQRVP--LKHMLGTN-----------QPKLQEIVALME  234
+            GREL+A+I  +   +R   E+  +R+   L  +L  +           +P +  + AL+ 
+Sbjct  112  GRELAASIEALLASDRFARERGEERLLEFLGRLLAASGTRLPQRADPGRPAVARLQALLA  171
+
+Query  235  ANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYLKLRLIRARQLLKQTSMSIIE  294
+              L EP DLD +A  V +S+  L R F+K    SP ++ ++LR  RA  LL++  +++ E
+Sbjct  172  ERLAEPPDLDGMAEQVGLSKYHLLRAFKKATGLSPRQWSMQLRTRRALGLLRR-GLAVGE  230
+
+Query  295  VASVCGFVSTPHFSKCYREYFGIPP  319
+            VA   GF    H ++ +   +GI P
+Sbjct  231  VAHALGFADQSHLTRYFTSAYGISP  255
+
+
+>VFG014093(gb|WP_003128976) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa UCBPP-PA14]
+Length=264
+
+ Score = 69.3 bits (168),  Expect = 2e-13, Method: Compositional matrix adjust.
+ Identities = 44/145 (30%), Positives = 74/145 (51%), Gaps = 14/145 (10%)
+
+Query  188  GRELSAAISEMFIYERIRNEQDHQRVP--LKHMLGTN-----------QPKLQEIVALME  234
+            GREL+A+I  +   +R   E+  +R+   L  +L  +           +P +  + AL+ 
+Sbjct  112  GRELAASIEALLASDRFARERGEERLLEFLGRLLAASGTRLPQRADPGRPAVARLQALLA  171
+
+Query  235  ANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYLKLRLIRARQLLKQTSMSIIE  294
+              L EP DLD +A  V +S+  L R F+K    SP ++ ++LR  RA  LL++  +++ E
+Sbjct  172  ERLAEPPDLDGMAEQVGLSKYHLLRAFKKATGLSPRQWSMQLRTRRALGLLRR-GLAVGE  230
+
+Query  295  VASVCGFVSTPHFSKCYREYFGIPP  319
+            VA   GF    H ++ +   +GI P
+Sbjct  231  VAHALGFADQSHLTRYFTSAYGISP  255
+
+
+>VFG014092(gb|WP_012074004) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+aeruginosa PA7]
+Length=264
+
+ Score = 68.9 bits (167),  Expect = 3e-13, Method: Compositional matrix adjust.
+ Identities = 44/145 (30%), Positives = 75/145 (52%), Gaps = 14/145 (10%)
+
+Query  188  GRELSAAISEMFIYERIRNEQDHQRVP--LKHMLGTN-----------QPKLQEIVALME  234
+            GREL+A+I  +   +R   E+  +R+   L  +L  +           +P +  + AL+ 
+Sbjct  112  GRELAASIEALLASDRFARERGEERLLEFLGRLLAASGTRLPRRADPGRPAVVRLQALLA  171
+
+Query  235  ANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYLKLRLIRARQLLKQTSMSIIE  294
+             +L EP DLD +A  V +S+  L R F+K    SP ++ ++LR  RA  LL++  +++ E
+Sbjct  172  EHLAEPPDLDGMAEQVGLSKYHLLRAFKKATGLSPRQWSMQLRTRRALGLLRR-GLAVGE  230
+
+Query  295  VASVCGFVSTPHFSKCYREYFGIPP  319
+            VA   GF    H ++ +   +GI P
+Sbjct  231  VAHALGFADQSHLTRYFSSAYGISP  255
+
+
+>VFG041605(gb|WP_012847726) (ETAE_RS04105) helix-turn-helix domain-containing 
+protein [T3SS (VF1266) - Effector delivery system 
+(VFC0086)] [Edwardsiella tarda EIB202]
+Length=230
+
+ Score = 63.5 bits (153),  Expect = 1e-11, Method: Compositional matrix adjust.
+ Identities = 32/87 (37%), Positives = 48/87 (55%), Gaps = 0/87 (0%)
+
+Query  239  EPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYLKLRLIRARQLLKQTSMSIIEVASV  298
+            EP  +   A    +S+R+  +LF      +P R+ L+ RL  ARQLL+ TS  +I+VA  
+Sbjct  137  EPWPVARYADLFGLSQRKFNQLFNDKFGMAPKRWLLRQRLGHARQLLETTSKKVIDVALE  196
+
+Query  299  CGFVSTPHFSKCYREYFGIPPRDERQG  325
+             GF +  HFS C+R +F   P + R+ 
+Sbjct  197  SGFCNAAHFSDCFRRHFSQSPSEVRRA  223
+
+
+>VFG016190(gb|WP_005762820) (ybtA) AraC family transcriptional 
+regulator [Yersiniabactin (VF0923) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas syringae pv. tomato str. DC3000]
+Length=312
+
+ Score = 61.2 bits (147),  Expect = 2e-10, Method: Compositional matrix adjust.
+ Identities = 36/110 (33%), Positives = 61/110 (55%), Gaps = 6/110 (5%)
+
+Query  215  LKHMLGTNQP-----KLQEIVALMEANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSP  269
+            L H  G N       +++    L+EA+ E+   ++ LA  V ++ ++L++ F++      
+Sbjct  183  LAHFTGLNAGGRDLMRVERARKLLEAHPEQDWTIESLAQSVELNTKKLKQGFRQSYDSGV  242
+
+Query  270  SRYYLKLRLIRARQLLKQTSMSIIEVASVCGFVSTPHFSKCYREYFGIPP  319
+              Y  K+R+ RA QLLKQ   ++ EVA+  G+ S  HF+K +R Y+GI P
+Sbjct  243  YGYLQKVRIERAAQLLKQQG-AVSEVAAAVGYSSASHFAKVFRRYYGINP  291
+
+
+>VFG016191(gb|WP_004665553) (ybtA) AraC family transcriptional 
+regulator [Yersiniabactin (VF0923) - Nutritional/Metabolic 
+factor (VFC0272)] [Pseudomonas syringae pv. phaseolicola 1448A]
+Length=315
+
+ Score = 60.1 bits (144),  Expect = 4e-10, Method: Compositional matrix adjust.
+ Identities = 35/110 (32%), Positives = 61/110 (55%), Gaps = 6/110 (5%)
+
+Query  215  LKHMLGTNQP-----KLQEIVALMEANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSP  269
+            L H  G N       +++    L+EA+ E+   ++ LA  V ++ ++L++ F++      
+Sbjct  183  LAHFTGLNAGGRDLMRVERARKLLEAHPEQDWTIESLAQSVELNTKKLKQGFRQSYDSGV  242
+
+Query  270  SRYYLKLRLIRARQLLKQTSMSIIEVASVCGFVSTPHFSKCYREYFGIPP  319
+              Y  K+R+ RA QLL+Q   ++ EVA+  G+ S  HF+K +R Y+GI P
+Sbjct  243  YGYLQKVRIERAAQLLRQQG-AVSEVAAAVGYSSASHFAKVFRRYYGINP  291
+
+
+>VFG041884(gb|WP_080509009) (CV_RS12640) AraC family transcriptional 
+regulator [Cpi-2 encoded T3SS (SPI-2 like) (VF1260) - 
+Effector delivery system (VFC0086)] [Chromobacterium violaceum 
+ATCC 12472]
+Length=284
+
+ Score = 57.4 bits (137),  Expect = 3e-09, Method: Compositional matrix adjust.
+ Identities = 33/104 (32%), Positives = 55/104 (53%), Gaps = 1/104 (1%)
+
+Query  227  QEIVALMEANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYLKLRLIRARQLLK  286
+            ++    +E N  +   +  LA    +  R+  +LFQ+       R+ L+ RL  A++LL 
+Sbjct  176  KDFYEFIEKNALQQWSISTLADRFGMPLRKFNQLFQEAYGKPAKRWILEHRLTHAKKLLL  235
+
+Query  287  QTSMSIIEVASVCGFVSTPHFSKCYREYFGIPPRDERQGQPLGQ  330
+             TSM +++VA  CGF +  HF+  +R +F   P+  RQ Q LG+
+Sbjct  236  TTSMRVLDVALECGFSNHAHFTDSFRRHFQCNPKQFRQ-QALGK  278
+
+
+>VFG038332(gb|WP_192914500) (exsA) Type III secretion system transcriptional 
+regulator [T3SS (VF0479) - Effector delivery 
+system (VFC0086)] [Aeromonas salmonicida subsp. salmonicida 
+A449]
+Length=260
+
+ Score = 55.5 bits (132),  Expect = 1e-08, Method: Compositional matrix adjust.
+ Identities = 40/147 (27%), Positives = 64/147 (44%), Gaps = 2/147 (1%)
+
+Query  179  MLHLIGREHGRELSAAISEMFIYERIRNEQDHQRVPLKHMLGTNQPKLQEIVALMEANLE  238
+            +L L   EH   L+   +E  ++     EQ  Q + +   L   Q  ++ +   ME +  
+Sbjct  114  LLGLTEYEHPPALAQLRTEELLFLLAFGEQGPQLMSILRQLSNRQ--VERLQQFMEKHYL  171
+
+Query  239  EPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYLKLRLIRARQLLKQTSMSIIEVASV  298
+                L E A    +     + LF      SP  +  + R++ A QLL  + MSI+++A  
+Sbjct  172  MEWKLSEFAKEFGMGLTTFKELFGSIYGVSPRAWISERRILFAHQLLLNSEMSIVDIAME  231
+
+Query  299  CGFVSTPHFSKCYREYFGIPPRDERQG  325
+             GF S  +F++ YR  FG  P   R G
+Sbjct  232  AGFSSQSYFTQSYRRRFGCTPSRARHG  258
+
+
+>VFG019777(gb|WP_012724142) (chpD) probable transcriptional regulator 
+[Type IV pili (VF0082) - Adherence (VFC0001)] [Pseudomonas 
+fluorescens SBW25]
+Length=263
+
+ Score = 53.9 bits (128),  Expect = 3e-08, Method: Compositional matrix adjust.
+ Identities = 30/106 (28%), Positives = 58/106 (55%), Gaps = 8/106 (8%)
+
+Query  214  PLKHMLGTNQPKLQEIVALMEANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYY  273
+            P KH++   Q       AL+  +L + + L++L+  + +++  L R FQK    SP ++ 
+Sbjct  157  PGKHLISRAQ-------ALLAEHLHQTLPLEQLSNELGLTKFHLLRTFQKETGLSPRQWA  209
+
+Query  274  LKLRLIRARQLLKQTSMSIIEVASVCGFVSTPHFSKCYREYFGIPP  319
+            ++LR  RA+ LL+   +++ ++A   GF    H ++ +R  +GI P
+Sbjct  210  MQLRTRRAKGLLR-AGVAVSDIAHDLGFADQSHLNRHFRAAYGITP  254
+
+
+>VFG007177(gb|WP_005464548) (exsA) transcriptional regulator ExsA 
+[T3SS1 (VF0408) - Effector delivery system (VFC0086)] [Vibrio 
+parahaemolyticus RIMD 2210633]
+Length=286
+
+ Score = 53.1 bits (126),  Expect = 7e-08, Method: Compositional matrix adjust.
+ Identities = 30/94 (32%), Positives = 46/94 (49%), Gaps = 0/94 (0%)
+
+Query  232  LMEANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYLKLRLIRARQLLKQTSMS  291
+             ME +  +   L + A     S    + LF ++   SP  +  + RL+ A +LL  + MS
+Sbjct  185  FMEQHYLKEWKLTDYAQEFGASLTTFKELFNEHYGISPRAWISERRLLHAHKLLLTSKMS  244
+
+Query  292  IIEVASVCGFVSTPHFSKCYREYFGIPPRDERQG  325
+            I++VA   GF S  +F++ YR  FG  P   R G
+Sbjct  245  IVDVAMEAGFSSQSYFTQSYRRRFGTTPSKVRSG  278
+
+
+>VFG042280(gb|AAS91825) (exsA) ExsA [T3SS (VF0479) - Effector 
+delivery system (VFC0086)] [Aeromonas hydrophila str. AH3]
+Length=271
+
+ Score = 52.8 bits (125),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 38/144 (26%), Positives = 62/144 (43%), Gaps = 2/144 (1%)
+
+Query  182  LIGREHGRELSAAISEMFIYERIRNEQDHQRVPLKHMLGTNQPKLQEIVALMEANLEEPI  241
+            LI  EH   L+   +E  ++     EQ  Q + +   L   Q  ++ +   ME +     
+Sbjct  128  LIDHEHPPALAQLRTEELLFLLAFGEQGPQLMSILRQLSNRQ--VERLQQFMEKHYLMEW  185
+
+Query  242  DLDELAVYVNVSRRQLERLFQKYLHCSPSRYYLKLRLIRARQLLKQTSMSIIEVASVCGF  301
+             L E +    +     + LF      SP  +  + R++ A QLL  +  SI+++A   GF
+Sbjct  186  KLSEFSKEFGMGLTTFKELFGSIYGVSPRAWISERRILFAHQLLLNSPSSIVDIAMEAGF  245
+
+Query  302  VSTPHFSKCYREYFGIPPRDERQG  325
+             S  +F++ YR  FG  P   R G
+Sbjct  246  SSQSYFTQSYRRRFGCTPSRARHG  269
+
+
+>VFG000399(gb|WP_002212931) (virF/lcrF) virulence regulon transcriptional 
+activator VirF [TTSS (VF0140) - Effector delivery 
+system (VFC0086)] [Yersinia pestis CO92]
+Length=271
+
+ Score = 52.0 bits (123),  Expect = 1e-07, Method: Compositional matrix adjust.
+ Identities = 32/109 (29%), Positives = 51/109 (47%), Gaps = 3/109 (3%)
+
+Query  215  LKHMLGTNQPKLQEIVALMEANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYL  274
+            L+H+    + +LQ+    ME N  +   L + A    +     + LF      SP  +  
+Sbjct  158  LRHLGNRPEERLQK---FMEENYLQGWKLSKFAREFGMGLTTFKELFGTVYGISPRAWIS  214
+
+Query  275  KLRLIRARQLLKQTSMSIIEVASVCGFVSTPHFSKCYREYFGIPPRDER  323
+            + R++ A QLL    MSI+++A   GF S  +F++ YR  FG  P   R
+Sbjct  215  ERRILYAHQLLLNGKMSIVDIAMEAGFSSQSYFTQSYRRRFGCTPSQAR  263
+
+
+>VFG023737(gb|WP_013749464) (virF/lcrF) virulence regulon transcriptional 
+activator VirF [TTSS (VF0140) - Effector delivery 
+system (VFC0086)] [Yersinia enterocolitica subsp. palearctica 
+105.5R(r)]
+Length=271
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 32/109 (29%), Positives = 51/109 (47%), Gaps = 3/109 (3%)
+
+Query  215  LKHMLGTNQPKLQEIVALMEANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYL  274
+            L+H+    + +LQ+    ME N  +   L + A    +     + LF      SP  +  
+Sbjct  158  LRHLGNRPEERLQK---FMEENYLQGWKLSKFAREFGMGLTTFKELFGTVYGISPRAWIS  214
+
+Query  275  KLRLIRARQLLKQTSMSIIEVASVCGFVSTPHFSKCYREYFGIPPRDER  323
+            + R++ A QLL    MSI+++A   GF S  +F++ YR  FG  P   R
+Sbjct  215  ERRILYAHQLLLNGKMSIVDIAMEAGFSSQSYFTQSYRRRFGCTPSQAR  263
+
+
+>VFG003476(gb|WP_005176447) (virF/lcrF) virulence regulon transcriptional 
+activator VirF [TTSS (VF0140) - Effector delivery 
+system (VFC0086)] [Yersinia enterocolitica subsp. enterocolitica 
+8081]
+Length=271
+
+ Score = 52.0 bits (123),  Expect = 2e-07, Method: Compositional matrix adjust.
+ Identities = 32/109 (29%), Positives = 51/109 (47%), Gaps = 3/109 (3%)
+
+Query  215  LKHMLGTNQPKLQEIVALMEANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYL  274
+            L+H+    + +LQ+    ME N  +   L + A    +     + LF      SP  +  
+Sbjct  158  LRHLGNRPEERLQK---FMEENYLQGWKLSKFAREFGMGLTTFKELFGTVYGISPRAWIS  214
+
+Query  275  KLRLIRARQLLKQTSMSIIEVASVCGFVSTPHFSKCYREYFGIPPRDER  323
+            + R++ A QLL    MSI+++A   GF S  +F++ YR  FG  P   R
+Sbjct  215  ERRILYAHQLLLNCKMSIVDIAMEAGFSSQSYFTQSYRRRFGCTPSQAR  263
+
+
+>VFG000208(gb|NP_250404) (exsA) type III secretion system regulatory 
+protein ExsA [TTSS (VF0083) - Effector delivery system 
+(VFC0086)] [Pseudomonas aeruginosa PAO1]
+Length=278
+
+ Score = 51.2 bits (121),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 28/95 (29%), Positives = 45/95 (47%), Gaps = 0/95 (0%)
+
+Query  232  LMEANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYLKLRLIRARQLLKQTSMS  291
+             ME +      L + +    +     + LF      SP  +  + R++ A QLL  + MS
+Sbjct  176  FMEKHYLNEWKLSDFSREFGMGLTTFKELFGSVYGVSPRAWISERRILYAHQLLLNSDMS  235
+
+Query  292  IIEVASVCGFVSTPHFSKCYREYFGIPPRDERQGQ  326
+            I+++A   GF S  +F++ YR  FG  P   RQG+
+Sbjct  236  IVDIAMEAGFSSQSYFTQSYRRRFGCTPSRSRQGK  270
+
+
+>VFG041818(gb|WP_011147916) (PLU_RS18745) AraC family transcriptional 
+regulator [T3SS (VF1288) - Effector delivery system 
+(VFC0086)] [Photorhabdus luminescens subsp. laumondii TTO1]
+Length=272
+
+ Score = 50.8 bits (120),  Expect = 3e-07, Method: Compositional matrix adjust.
+ Identities = 27/102 (26%), Positives = 50/102 (49%), Gaps = 0/102 (0%)
+
+Query  225  KLQEIVALMEANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYLKLRLIRARQL  284
+            +++ + + ME +  +   L E A    +     + LF+     SP  +  + R++ A QL
+Sbjct  170  QVERLQSFMENHYLKEWKLSEFAKEFGMGLTTFKELFRSVYGISPRAWISERRILYAHQL  229
+
+Query  285  LKQTSMSIIEVASVCGFVSTPHFSKCYREYFGIPPRDERQGQ  326
+            L  + MSI++++   GF S  +F++ YR  F   P   R G+
+Sbjct  230  LLNSEMSIVDISMEAGFSSQSYFTQSYRRRFNCTPSRARYGK  271
+
+
+>VFG003096(gb|WP_011171760) (YP_RS02140) AraC family transcriptional 
+regulator [TTSS (chromosomally encoded) (VF1023) - Effector 
+delivery system (VFC0086)] [Yersinia pestis biovar Microtus 
+str. 91001]
+Length=235
+
+ Score = 49.3 bits (116),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 32/109 (29%), Positives = 51/109 (47%), Gaps = 4/109 (4%)
+
+Query  215  LKHMLGTNQPKLQEIVALMEANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYL  274
+            L  ++GTN     E++   E N   P  +   A  + +S R+L  LF +    S  ++ L
+Sbjct  127  LDSIVGTNN----ELLEFFEKNRLNPWSVSRYANELGISTRKLNFLFYEKFGMSAKQWLL  182
+
+Query  275  KLRLIRARQLLKQTSMSIIEVASVCGFVSTPHFSKCYREYFGIPPRDER  323
+              RL +  +LL  T + + ++A  CGF +  HFS  +R  F   P   R
+Sbjct  183  DQRLKKGCELLLSTRLRVADIAMECGFSNHAHFSDSFRRRFQQCPSHMR  231
+
+
+>VFG041670(gb|WP_012777215) (PAU_RS05110) AraC family transcriptional 
+regulator [T3SS-1 (VF1286) - Effector delivery system 
+(VFC0086)] [Photorhabdus asymbiotica subsp. asymbiotica ATCC 
+43949]
+Length=272
+
+ Score = 49.3 bits (116),  Expect = 1e-06, Method: Compositional matrix adjust.
+ Identities = 27/102 (26%), Positives = 49/102 (48%), Gaps = 0/102 (0%)
+
+Query  225  KLQEIVALMEANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYLKLRLIRARQL  284
+            +++ +   ME +  +   L E A    +     + LF+     SP  +  + R++ A QL
+Sbjct  170  QVERLQIFMENHYLKEWKLSEFAKEFGMGLTTFKELFRSVYGISPRAWISERRILYAHQL  229
+
+Query  285  LKQTSMSIIEVASVCGFVSTPHFSKCYREYFGIPPRDERQGQ  326
+            L  + MSI++++   GF S  +F++ YR  F   P   R G+
+Sbjct  230  LLNSEMSIVDISMEAGFSSQSYFTQSYRRRFDCTPSRARYGK  271
+
+
+>VFG023581(gb|WP_005156676) (YE105_RS01775) AraC family transcriptional 
+regulator [TTSS (chromosomally encoded) (VF1023) - 
+Effector delivery system (VFC0086)] [Yersinia enterocolitica 
+subsp. palearctica 105.5R(r)]
+Length=235
+
+ Score = 48.1 bits (113),  Expect = 2e-06, Method: Compositional matrix adjust.
+ Identities = 31/109 (28%), Positives = 52/109 (48%), Gaps = 4/109 (4%)
+
+Query  215  LKHMLGTNQPKLQEIVALMEANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYL  274
+            L+ ++GTN     E++   + N   P  +   A  + +S R+L  LF +    S  ++ L
+Sbjct  127  LESIVGTNN----ELLEFFDKNRLNPWTVSRYADELGISTRKLNFLFYEKFGMSAKQWLL  182
+
+Query  275  KLRLIRARQLLKQTSMSIIEVASVCGFVSTPHFSKCYREYFGIPPRDER  323
+              RL +  +LL  T + + ++A  CGF +  HFS  +R  F   P   R
+Sbjct  183  DQRLKKGCELLLSTRLRVADIAMECGFSNHAHFSDSFRRRFQQCPSHMR  231
+
+
+>VFG016125(gb|WP_003157556) (pchR) transcriptional regulator PchR 
+[Pyochelin (VF0095) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PA7]
+Length=295
+
+ Score = 48.5 bits (114),  Expect = 3e-06, Method: Compositional matrix adjust.
+ Identities = 37/131 (28%), Positives = 61/131 (47%), Gaps = 7/131 (5%)
+
+Query  193  AAISEMFIYERIRNEQDHQRVPLKHMLGTNQPKLQEIVALMEANLEEPIDLDELAVYVNV  252
+            AA+S  F+    R  ++      + +  T   ++     L+   L+EP  LD LA  V +
+Sbjct  172  AALSAQFLSGEARPAEE------RRITCTEVERIHAARDLLVGELQEPPSLDALASRVGM  225
+
+Query  253  SRRQLERLFQKYLHCSPSRYYLKLRLIRARQLLKQTSMSIIEVASVCGFVSTPHFSKCYR  312
+            + R+L   F+K    S   Y  + RL  A ++L     ++  VA   G+ S  HFS  +R
+Sbjct  226  NPRKLTAGFRKVFGASVFGYLQEYRLREAHRMLCDEEANVSTVAYRVGY-SPAHFSIAFR  284
+
+Query  313  EYFGIPPRDER  323
+            + +GI P + R
+Sbjct  285  KRYGISPSEIR  295
+
+
+>VFG042570(gb|AAX78184) (AAX78184) LdaA [Locus for diffuse adherence 
+(lda), afimbrial adhesin (VF1148) - Adherence (VFC0001)] 
+[Escherichia coli]
+Length=309
+
+ Score = 47.4 bits (111),  Expect = 6e-06, Method: Compositional matrix adjust.
+ Identities = 28/102 (27%), Positives = 55/102 (54%), Gaps = 1/102 (1%)
+
+Query  226  LQEIVALMEANLE-EPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYLKLRLIRARQL  284
+            +  I+  +E N+E  PID++ L  Y   SRR L+ LF  Y+     +Y  + R+ RA  L
+Sbjct  8    INAILDYIEDNIEISPIDINSLVEYSGYSRRYLQLLFFDYIGMPVGKYIQRRRVSRAAVL  67
+
+Query  285  LKQTSMSIIEVASVCGFVSTPHFSKCYREYFGIPPRDERQGQ  326
+            L+ T++ ++ ++    + S   F++ ++++ G  P   R+ +
+Sbjct  68   LRLTNLPLVTISEKLCYDSQQTFTREFKKHTGNTPLQYRKDK  109
+
+
+>VFG000167(gb|NP_252917) (pchR) transcriptional regulator PchR 
+[Pyochelin (VF0095) - Nutritional/Metabolic factor (VFC0272)] 
+[Pseudomonas aeruginosa PAO1]
+Length=296
+
+ Score = 46.6 bits (109),  Expect = 9e-06, Method: Compositional matrix adjust.
+ Identities = 31/92 (34%), Positives = 47/92 (51%), Gaps = 1/92 (1%)
+
+Query  232  LMEANLEEPIDLDELAVYVNVSRRQLERLFQKYLHCSPSRYYLKLRLIRARQLLKQTSMS  291
+            L+   L+EP  LD LA  V ++ R+L   F+K    S   Y  + RL  A ++L     +
+Sbjct  206  LLVGALQEPPSLDTLASRVGMNPRKLTAGFRKVFGASVFGYLQEYRLREAHRMLCDEEAN  265
+
+Query  292  IIEVASVCGFVSTPHFSKCYREYFGIPPRDER  323
+            +  VA   G+ S  HFS  +R+ +GI P + R
+Sbjct  266  VSTVAYRVGY-SPAHFSIAFRKRYGISPSEIR  296
+
+
+
+Lambda      K        H        a         alpha
+   0.322    0.135    0.405    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 2785605466
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

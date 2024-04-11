@@ -1,0 +1,284 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g135.t1
+
+Length=249
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG039536(gb|NP_820549) (CBU_1566) Coxiella Dot/Icm type IVB secr...  291     3e-100
+
+
+>VFG039536(gb|NP_820549) (CBU_1566) Coxiella Dot/Icm type IVB 
+secretion system translocated effector  [T4SS secreted effectors 
+(VF0696) - Effector delivery system (VFC0086)] [Coxiella 
+burnetii RSA 493]
+Length=244
+
+ Score = 291 bits (746),  Expect = 3e-100, Method: Compositional matrix adjust.
+ Identities = 149/245 (61%), Positives = 186/245 (76%), Gaps = 2/245 (1%)
+
+Query  1    MAGHSKWANIKHRKAKQDASRGKVFTKYIREIVTAAKLGGADPASNPRLRAVVEKALSVN  60
+            MAGHSKWANIKH KA+QDA RGKVFTK IREI  AA+LGG D  SNPRLRAVV+KA + N
+Sbjct  1    MAGHSKWANIKHAKARQDAKRGKVFTKLIREITVAARLGGEDIDSNPRLRAVVDKAFAAN  60
+
+Query  61   MTRDTINRAIQRGVGGEDNDDLKEVTYEGYGVGGVAVLVETMTDNLNRTVPDVRHCFSKT  120
+            M +DTI RAI+RG G    D+L EV YEGYG  GVAV+V+ +TDN NRTV +VRH FSK 
+Sbjct  61   MPKDTITRAIKRGAGSGAGDNLVEVRYEGYGPSGVAVMVDCLTDNKNRTVAEVRHAFSKC  120
+
+Query  121  NGNLGTAGSVAYLFTKRGEITFDDVSLEDKIMDVALEAGAEDIEVSED-EILVITSPETF  179
+            +GNLGT GSVAYLF +RG ITF   S E+KIM++ALE GAED+  ++D  I V T PE F
+Sbjct  121  DGNLGTEGSVAYLFKQRGLITFPPNSDEEKIMEIALEVGAEDVTTNDDGSIDVTTLPEDF  180
+
+Query  180  GEVQDALAAAGLKSDNAEVVMSPSTKAEITDIDQAKQVMKLIDMLEDLDDVQNVYTNVEF  239
+             ++++A+ AA L   +AEV +  ST+  + D D A+Q+++L +MLEDLDDVQNVY+N ++
+Sbjct  181  EKIRNAMKAADLNPSHAEVTVLASTEVGL-DKDSAEQMLRLTEMLEDLDDVQNVYSNADY  239
+
+Query  240  SDEVL  244
+             +EVL
+Sbjct  240  PEEVL  244
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.130    0.354    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1593978197
+
+
+Query= g344.t1
+
+Length=251
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG039536(gb|NP_820549) (CBU_1566) Coxiella Dot/Icm type IVB secr...  201     1e-64
+
+
+>VFG039536(gb|NP_820549) (CBU_1566) Coxiella Dot/Icm type IVB 
+secretion system translocated effector  [T4SS secreted effectors 
+(VF0696) - Effector delivery system (VFC0086)] [Coxiella 
+burnetii RSA 493]
+Length=244
+
+ Score = 201 bits (511),  Expect = 1e-64, Method: Compositional matrix adjust.
+ Identities = 112/248 (45%), Positives = 156/248 (63%), Gaps = 7/248 (3%)
+
+Query  1    MSGHSKWATTKHKKAVIDARRGKMFARLIKNIEVAARVGGGDPVGNPTLYDAIQKAKKSS  60
+            M+GHSKWA  KH KA  DA+RGK+F +LI+ I VAAR+GG D   NP L   + KA  ++
+Sbjct  1    MAGHSKWANIKHAKARQDAKRGKVFTKLIREITVAARLGGEDIDSNPRLRAVVDKAFAAN  60
+
+Query  61   VPNGNIERARKRGAGEEVGGADWQV-ITYEGYAPNGVAVLIECLTDNRNRAAGEVRVAMT  119
+            +P   I RA KRGAG   G  D  V + YEGY P+GVAV+++CLTDN+NR   EVR A +
+Sbjct  61   MPKDTITRAIKRGAGS--GAGDNLVEVRYEGYGPSGVAVMVDCLTDNKNRTVAEVRHAFS  118
+
+Query  120  RNGGAMADPGSVAYLFSRKGVVTLEKNGLTEDDVLAAVLDAGAEEV--NDLGDSFEVIAE  177
+            +  G +   GSVAYLF ++G++T   N   E+ ++   L+ GAE+V  ND G S +V   
+Sbjct  119  KCDGNLGTEGSVAYLFKQRGLITFPPNS-DEEKIMEIALEVGAEDVTTNDDG-SIDVTTL  176
+
+Query  178  PGDLVAVRTALQDAGIDYESAEASFQPSVSMPVDLDGARKVFKLVDALEDSDDVHNVWTN  237
+            P D   +R A++ A ++   AE +   S  + +D D A ++ +L + LED DDV NV++N
+Sbjct  177  PEDFEKIRNAMKAADLNPSHAEVTVLASTEVGLDKDSAEQMLRLTEMLEDLDDVQNVYSN  236
+
+Query  238  ADVSDEVL  245
+            AD  +EVL
+Sbjct  237  ADYPEEVL  244
+
+
+
+Lambda      K        H        a         alpha
+   0.313    0.132    0.373    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1615090491
+
+
+Query= g2567.t1
+
+Length=251
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG039536(gb|NP_820549) (CBU_1566) Coxiella Dot/Icm type IVB secr...  209     9e-68
+
+
+>VFG039536(gb|NP_820549) (CBU_1566) Coxiella Dot/Icm type IVB 
+secretion system translocated effector  [T4SS secreted effectors 
+(VF0696) - Effector delivery system (VFC0086)] [Coxiella 
+burnetii RSA 493]
+Length=244
+
+ Score = 209 bits (532),  Expect = 9e-68, Method: Compositional matrix adjust.
+ Identities = 112/247 (45%), Positives = 160/247 (65%), Gaps = 5/247 (2%)
+
+Query  1    MSGHSKWATTKHKKAVVDARRGKMFARLIKNIEVAARVGGGDPAGNPTLYDAIQKAKKSS  60
+            M+GHSKWA  KH KA  DA+RGK+F +LI+ I VAAR+GG D   NP L   + KA  ++
+Sbjct  1    MAGHSKWANIKHAKARQDAKRGKVFTKLIREITVAARLGGEDIDSNPRLRAVVDKAFAAN  60
+
+Query  61   VPNENIERARKRGAGEEAGGADWQTIMYEGYAPNGVAVLIECLTDNRNRAASEVRVAMTR  120
+            +P + I RA KRGAG  AG  +   + YEGY P+GVAV+++CLTDN+NR  +EVR A ++
+Sbjct  61   MPKDTITRAIKRGAGSGAGD-NLVEVRYEGYGPSGVAVMVDCLTDNKNRTVAEVRHAFSK  119
+
+Query  121  NGGTMADPGSVSYLFSRKGVVTLEKNGLTEDDVLAAVLEAGAEDV--NDLGDSFEVISEP  178
+              G +   GSV+YLF ++G++T   N   E+ ++   LE GAEDV  ND G S +V + P
+Sbjct  120  CDGNLGTEGSVAYLFKQRGLITFPPNS-DEEKIMEIALEVGAEDVTTNDDG-SIDVTTLP  177
+
+Query  179  AELVAVRSALQDAGIDYESAEASFQPSVSVPVDLDGARKVFKLVDALEDSDDVQNVWTNV  238
+             +   +R+A++ A ++   AE +   S  V +D D A ++ +L + LED DDVQNV++N 
+Sbjct  178  EDFEKIRNAMKAADLNPSHAEVTVLASTEVGLDKDSAEQMLRLTEMLEDLDDVQNVYSNA  237
+
+Query  239  DVSDEVL  245
+            D  +EVL
+Sbjct  238  DYPEEVL  244
+
+
+
+Lambda      K        H        a         alpha
+   0.311    0.129    0.361    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1615090491
+
+
+Query= g979.t1
+
+Length=248
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG039536(gb|NP_820549) (CBU_1566) Coxiella Dot/Icm type IVB secr...  321     5e-112
+
+
+>VFG039536(gb|NP_820549) (CBU_1566) Coxiella Dot/Icm type IVB 
+secretion system translocated effector  [T4SS secreted effectors 
+(VF0696) - Effector delivery system (VFC0086)] [Coxiella 
+burnetii RSA 493]
+Length=244
+
+ Score = 321 bits (823),  Expect = 5e-112, Method: Compositional matrix adjust.
+ Identities = 155/244 (64%), Positives = 189/244 (77%), Gaps = 0/244 (0%)
+
+Query  1    MAGHSKWANIKHRKERQDAKKGKIFTKLIRELTVAARQGGGVPADNPRLRLAVDKALTAN  60
+            MAGHSKWANIKH K RQDAK+GK+FTKLIRE+TVAAR GG     NPRLR  VDKA  AN
+Sbjct  1    MAGHSKWANIKHAKARQDAKRGKVFTKLIREITVAARLGGEDIDSNPRLRAVVDKAFAAN  60
+
+Query  61   MTRDTIDRAIARGVGSNDADNMVELSYEGYAPSGVAIIVEAMTDNRNRTAAEVRHAFSKC  120
+            M +DTI RAI RG GS   DN+VE+ YEGY PSGVA++V+ +TDN+NRT AEVRHAFSKC
+Sbjct  61   MPKDTITRAIKRGAGSGAGDNLVEVRYEGYGPSGVAVMVDCLTDNKNRTVAEVRHAFSKC  120
+
+Query  121  GGNLGTDGSVAYMFERKGQISFAPGVDEEALMDAALEAGADDVVVNDDGSIDVFTTFADF  180
+             GNLGT+GSVAY+F+++G I+F P  DEE +M+ ALE GA+DV  NDDGSIDV T   DF
+Sbjct  121  DGNLGTEGSVAYLFKQRGLITFPPNSDEEKIMEIALEVGAEDVTTNDDGSIDVTTLPEDF  180
+
+Query  181  ISVNEALAAAGFKGDEAEVTMIPSTTATLDLETAQKVLKLIDMLEDLDDVQNVYSNADIP  240
+              +  A+ AA      AEVT++ ST   LD ++A+++L+L +MLEDLDDVQNVYSNAD P
+Sbjct  181  EKIRNAMKAADLNPSHAEVTVLASTEVGLDKDSAEQMLRLTEMLEDLDDVQNVYSNADYP  240
+
+Query  241  DDVM  244
+            ++V+
+Sbjct  241  EEVL  244
+
+
+
+Lambda      K        H        a         alpha
+   0.315    0.131    0.364    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1583422050
+
+
+Query= g1778.t1
+
+Length=246
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG039536(gb|NP_820549) (CBU_1566) Coxiella Dot/Icm type IVB secr...  306     5e-106
+
+
+>VFG039536(gb|NP_820549) (CBU_1566) Coxiella Dot/Icm type IVB 
+secretion system translocated effector  [T4SS secreted effectors 
+(VF0696) - Effector delivery system (VFC0086)] [Coxiella 
+burnetii RSA 493]
+Length=244
+
+ Score = 306 bits (784),  Expect = 5e-106, Method: Compositional matrix adjust.
+ Identities = 147/243 (60%), Positives = 186/243 (77%), Gaps = 1/243 (0%)
+
+Query  1    MAGHSKWANTRHRKAAQDAKRGKIFTKIIRELVTAAKLGGGDPDANPRLRAAVDKALANN  60
+            MAGHSKWAN +H KA QDAKRGK+FTK+IRE+  AA+LGG D D+NPRLRA VDKA A N
+Sbjct  1    MAGHSKWANIKHAKARQDAKRGKVFTKLIREITVAARLGGEDIDSNPRLRAVVDKAFAAN  60
+
+Query  61   MTRDTLNRAIARGVGGDEDSNMETIIYEGYGPGGTAIMIECLSDNRNRTVAEVRHAFSKC  120
+            M +DT+ RAI RG G     N+  + YEGYGP G A+M++CL+DN+NRTVAEVRHAFSKC
+Sbjct  61   MPKDTITRAIKRGAGSGAGDNLVEVRYEGYGPSGVAVMVDCLTDNKNRTVAEVRHAFSKC  120
+
+Query  121  GGNLGTDGSVAYLFSKKGVISF-EKGDEDTIMEAALEAGAEDVVTYDDGAIDVYTAWEEM  179
+             GNLGT+GSVAYLF ++G+I+F    DE+ IME ALE GAEDV T DDG+IDV T  E+ 
+Sbjct  121  DGNLGTEGSVAYLFKQRGLITFPPNSDEEKIMEIALEVGAEDVTTNDDGSIDVTTLPEDF  180
+
+Query  180  GKVRDALEAAGLKADSAEVSMIPSTKADMDAETAPKLLRLIDMLEDCDDVQEVYHNGEIS  239
+             K+R+A++AA L    AEV+++ ST+  +D ++A ++LRL +MLED DDVQ VY N +  
+Sbjct  181  EKIRNAMKAADLNPSHAEVTVLASTEVGLDKDSAEQMLRLTEMLEDLDDVQNVYSNADYP  240
+
+Query  240  DEV  242
+            +EV
+Sbjct  241  EEV  243
+
+
+
+Lambda      K        H        a         alpha
+   0.314    0.131    0.371    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 1577035221
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40

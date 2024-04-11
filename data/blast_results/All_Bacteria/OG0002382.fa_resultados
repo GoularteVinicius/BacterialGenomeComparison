@@ -1,0 +1,288 @@
+BLASTP 2.12.0+
+
+
+Reference: Stephen F. Altschul, Thomas L. Madden, Alejandro A.
+Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J.
+Lipman (1997), "Gapped BLAST and PSI-BLAST: a new generation of
+protein database search programs", Nucleic Acids Res. 25:3389-3402.
+
+
+Reference for composition-based statistics: Alejandro A. Schaffer,
+L. Aravind, Thomas L. Madden, Sergei Shavirin, John L. Spouge, Yuri
+I. Wolf, Eugene V. Koonin, and Stephen F. Altschul (2001),
+"Improving the accuracy of PSI-BLAST protein database searches with
+composition-based statistics and other refinements", Nucleic Acids
+Res. 29:2994-3005.
+
+
+
+Database: VFDB_setB_pro.fas
+           27,982 sequences; 13,298,383 total letters
+
+
+
+Query= g1828.t1
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG006471(gb|WP_011115249) (ureA) urease alpha subunit UreA [Urea...  123     1e-36
+VFG006467(gb|WP_000779233) (ureA) urease alpha subunit UreA [Urea...  121     1e-35
+VFG019519(gb|WP_000779238) (ureA) urease alpha subunit UreA [Urea...  121     1e-35
+VFG000269(gb|WP_000779223) (ureA) urease alpha subunit UreA [Urea...  120     2e-35
+VFG019517(gb|WP_000779224) (ureA) urease alpha subunit UreA [Urea...  120     2e-35
+VFG006470(gb|WP_011578335) (ureA) urease alpha subunit UreA [Urea...  119     6e-35
+
+
+>VFG006471(gb|WP_011115249) (ureA) urease alpha subunit UreA [Urease 
+(VF0050) - Stress survival (VFC0282)] [Helicobacter hepaticus 
+ATCC 51449]
+Length=225
+
+ Score = 123 bits (308),  Expect = 1e-36, Method: Compositional matrix adjust.
+ Identities = 59/100 (59%), Positives = 79/100 (79%), Gaps = 1/100 (1%)
+
+Query  1   MRLTPHEQERLLLSYAAELARRRRARGLRLNHPEAIAVIADHILEGARDG-RTVAELMAS  59
+           MRLTP E ++L+L YA  LA+ R+ RG++LN+ E+IA+I+  I+E AR+G ++VAELM  
+Sbjct  1   MRLTPKELDKLMLHYAGALAKSRKERGIKLNYVESIALISMEIMELAREGNKSVAELMQQ  60
+
+Query  60  GREVLGRDDVMEGVPEMLAEVQVEATFPDGTKLVTVHQPI  99
+           GRE+L  D+VMEGV  M+ EVQVE +FPDGTKLVT+H PI
+Sbjct  61  GREILKADEVMEGVASMVNEVQVEVSFPDGTKLVTIHNPI  100
+
+
+>VFG006467(gb|WP_000779233) (ureA) urease alpha subunit UreA [Urease 
+(VF0050) - Stress survival (VFC0282)] [Helicobacter pylori 
+J99]
+Length=238
+
+ Score = 121 bits (303),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 59/100 (59%), Positives = 78/100 (78%), Gaps = 1/100 (1%)
+
+Query  1   MRLTPHEQERLLLSYAAELARRRRARGLRLNHPEAIAVIADHILEGARDGR-TVAELMAS  59
+           M+LTP E ++L+L YA ELAR+R+ +G++LN+ EA+A+I+ HI+E AR G+ T AELM  
+Sbjct  1   MKLTPKELDKLMLHYAGELARKRKEKGIKLNYVEAVALISAHIMEEARAGKKTAAELMQE  60
+
+Query  60  GREVLGRDDVMEGVPEMLAEVQVEATFPDGTKLVTVHQPI  99
+           GR +L  DDVM+GV  M+ EV +EA FPDGTKLVTVH PI
+Sbjct  61  GRTLLKPDDVMDGVASMIHEVGIEAMFPDGTKLVTVHTPI  100
+
+
+>VFG019519(gb|WP_000779238) (ureA) urease alpha subunit UreA [Urease 
+(VF0050) - Stress survival (VFC0282)] [Helicobacter pylori 
+Shi470]
+Length=238
+
+ Score = 121 bits (303),  Expect = 1e-35, Method: Compositional matrix adjust.
+ Identities = 59/100 (59%), Positives = 78/100 (78%), Gaps = 1/100 (1%)
+
+Query  1   MRLTPHEQERLLLSYAAELARRRRARGLRLNHPEAIAVIADHILEGARDGR-TVAELMAS  59
+           M+LTP E ++L+L YA ELAR+R+ +G++LN+ EA+A+I+ HI+E AR G+ T AELM  
+Sbjct  1   MKLTPKELDKLMLHYAGELARKRKEKGIKLNYVEAVALISAHIMEEARAGKKTAAELMQE  60
+
+Query  60  GREVLGRDDVMEGVPEMLAEVQVEATFPDGTKLVTVHQPI  99
+           GR +L  DDVM+GV  M+ EV +EA FPDGTKLVTVH PI
+Sbjct  61  GRTLLKPDDVMDGVASMIHEVGIEAMFPDGTKLVTVHTPI  100
+
+
+>VFG000269(gb|WP_000779223) (ureA) urease alpha subunit UreA [Urease 
+(VF0050) - Stress survival (VFC0282)] [Helicobacter pylori 
+26695]
+Length=238
+
+ Score = 120 bits (301),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 58/100 (58%), Positives = 78/100 (78%), Gaps = 1/100 (1%)
+
+Query  1   MRLTPHEQERLLLSYAAELARRRRARGLRLNHPEAIAVIADHILEGARDGR-TVAELMAS  59
+           M+LTP E ++L+L YA ELA++R+ +G++LN+ EA+A+I+ HI+E AR G+ T AELM  
+Sbjct  1   MKLTPKELDKLMLHYAGELAKKRKEKGIKLNYVEAVALISAHIMEEARAGKKTAAELMQE  60
+
+Query  60  GREVLGRDDVMEGVPEMLAEVQVEATFPDGTKLVTVHQPI  99
+           GR +L  DDVM+GV  M+ EV +EA FPDGTKLVTVH PI
+Sbjct  61  GRTLLKPDDVMDGVASMIHEVGIEAMFPDGTKLVTVHTPI  100
+
+
+>VFG019517(gb|WP_000779224) (ureA) urease alpha subunit UreA [Urease 
+(VF0050) - Stress survival (VFC0282)] [Helicobacter pylori 
+G27]
+Length=239
+
+ Score = 120 bits (301),  Expect = 2e-35, Method: Compositional matrix adjust.
+ Identities = 58/100 (58%), Positives = 78/100 (78%), Gaps = 1/100 (1%)
+
+Query  1   MRLTPHEQERLLLSYAAELARRRRARGLRLNHPEAIAVIADHILEGARDGR-TVAELMAS  59
+           M+LTP E ++L+L YA ELA++R+ +G++LN+ EA+A+I+ HI+E AR G+ T AELM  
+Sbjct  1   MKLTPKELDKLMLHYAGELAKKRKEKGIKLNYVEAVALISAHIMEEARAGKKTAAELMQE  60
+
+Query  60  GREVLGRDDVMEGVPEMLAEVQVEATFPDGTKLVTVHQPI  99
+           GR +L  DDVM+GV  M+ EV +EA FPDGTKLVTVH PI
+Sbjct  61  GRTLLKPDDVMDGVASMIHEVGIEAMFPDGTKLVTVHTPI  100
+
+
+>VFG006470(gb|WP_011578335) (ureA) urease alpha subunit UreA [Urease 
+(VF0050) - Stress survival (VFC0282)] [Helicobacter acinonychis 
+str. Sheeba]
+Length=238
+
+ Score = 119 bits (298),  Expect = 6e-35, Method: Compositional matrix adjust.
+ Identities = 57/100 (57%), Positives = 78/100 (78%), Gaps = 1/100 (1%)
+
+Query  1   MRLTPHEQERLLLSYAAELARRRRARGLRLNHPEAIAVIADHILEGARDGR-TVAELMAS  59
+           M+LTP E ++L+L YA ELA++R+ RG++LN+ EA+A+I+ H++E AR G+ + AELM  
+Sbjct  1   MKLTPKELDKLMLHYAGELAKKRKERGIKLNYVEAVALISAHVMEEARAGKKSAAELMQE  60
+
+Query  60  GREVLGRDDVMEGVPEMLAEVQVEATFPDGTKLVTVHQPI  99
+           GR +L  DDVM+GV  M+ EV +EA FPDGTKLVTVH PI
+Sbjct  61  GRTLLKPDDVMDGVASMIHEVGIEAMFPDGTKLVTVHTPI  100
+
+
+
+Lambda      K        H        a         alpha
+   0.320    0.135    0.376    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 328038169
+
+
+Query= g4959.t1
+
+Length=100
+                                                                      Score     E
+Sequences producing significant alignments:                          (Bits)  Value
+
+VFG006471(gb|WP_011115249) (ureA) urease alpha subunit UreA [Urea...  115     2e-33
+VFG006470(gb|WP_011578335) (ureA) urease alpha subunit UreA [Urea...  114     6e-33
+VFG019517(gb|WP_000779224) (ureA) urease alpha subunit UreA [Urea...  112     4e-32
+VFG000269(gb|WP_000779223) (ureA) urease alpha subunit UreA [Urea...  112     4e-32
+VFG019519(gb|WP_000779238) (ureA) urease alpha subunit UreA [Urea...  111     6e-32
+VFG006467(gb|WP_000779233) (ureA) urease alpha subunit UreA [Urea...  111     7e-32
+
+
+>VFG006471(gb|WP_011115249) (ureA) urease alpha subunit UreA [Urease 
+(VF0050) - Stress survival (VFC0282)] [Helicobacter hepaticus 
+ATCC 51449]
+Length=225
+
+ Score = 115 bits (287),  Expect = 2e-33, Method: Compositional matrix adjust.
+ Identities = 56/100 (56%), Positives = 76/100 (76%), Gaps = 1/100 (1%)
+
+Query  1   MDLSPREKDKLLIFTAGLLAERRLARGLKLNYPEAVALISAALLEGARDG-RSVAELMHY  59
+           M L+P+E DKL++  AG LA+ R  RG+KLNY E++ALIS  ++E AR+G +SVAELM  
+Sbjct  1   MRLTPKELDKLMLHYAGALAKSRKERGIKLNYVESIALISMEIMELAREGNKSVAELMQQ  60
+
+Query  60  GTTLLNREQVMEGVPEMIPDIQVEATFPDGTKLVTVHQPI  99
+           G  +L  ++VMEGV  M+ ++QVE +FPDGTKLVT+H PI
+Sbjct  61  GREILKADEVMEGVASMVNEVQVEVSFPDGTKLVTIHNPI  100
+
+
+>VFG006470(gb|WP_011578335) (ureA) urease alpha subunit UreA [Urease 
+(VF0050) - Stress survival (VFC0282)] [Helicobacter acinonychis 
+str. Sheeba]
+Length=238
+
+ Score = 114 bits (285),  Expect = 6e-33, Method: Compositional matrix adjust.
+ Identities = 60/100 (60%), Positives = 75/100 (75%), Gaps = 1/100 (1%)
+
+Query  1   MDLSPREKDKLLIFTAGLLAERRLARGLKLNYPEAVALISAALLEGARDGR-SVAELMHY  59
+           M L+P+E DKL++  AG LA++R  RG+KLNY EAVALISA ++E AR G+ S AELM  
+Sbjct  1   MKLTPKELDKLMLHYAGELAKKRKERGIKLNYVEAVALISAHVMEEARAGKKSAAELMQE  60
+
+Query  60  GTTLLNREQVMEGVPEMIPDIQVEATFPDGTKLVTVHQPI  99
+           G TLL  + VM+GV  MI ++ +EA FPDGTKLVTVH PI
+Sbjct  61  GRTLLKPDDVMDGVASMIHEVGIEAMFPDGTKLVTVHTPI  100
+
+
+>VFG019517(gb|WP_000779224) (ureA) urease alpha subunit UreA [Urease 
+(VF0050) - Stress survival (VFC0282)] [Helicobacter pylori 
+G27]
+Length=239
+
+ Score = 112 bits (279),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 58/100 (58%), Positives = 75/100 (75%), Gaps = 1/100 (1%)
+
+Query  1   MDLSPREKDKLLIFTAGLLAERRLARGLKLNYPEAVALISAALLEGARDGR-SVAELMHY  59
+           M L+P+E DKL++  AG LA++R  +G+KLNY EAVALISA ++E AR G+ + AELM  
+Sbjct  1   MKLTPKELDKLMLHYAGELAKKRKEKGIKLNYVEAVALISAHIMEEARAGKKTAAELMQE  60
+
+Query  60  GTTLLNREQVMEGVPEMIPDIQVEATFPDGTKLVTVHQPI  99
+           G TLL  + VM+GV  MI ++ +EA FPDGTKLVTVH PI
+Sbjct  61  GRTLLKPDDVMDGVASMIHEVGIEAMFPDGTKLVTVHTPI  100
+
+
+>VFG000269(gb|WP_000779223) (ureA) urease alpha subunit UreA [Urease 
+(VF0050) - Stress survival (VFC0282)] [Helicobacter pylori 
+26695]
+Length=238
+
+ Score = 112 bits (279),  Expect = 4e-32, Method: Compositional matrix adjust.
+ Identities = 58/100 (58%), Positives = 75/100 (75%), Gaps = 1/100 (1%)
+
+Query  1   MDLSPREKDKLLIFTAGLLAERRLARGLKLNYPEAVALISAALLEGARDGR-SVAELMHY  59
+           M L+P+E DKL++  AG LA++R  +G+KLNY EAVALISA ++E AR G+ + AELM  
+Sbjct  1   MKLTPKELDKLMLHYAGELAKKRKEKGIKLNYVEAVALISAHIMEEARAGKKTAAELMQE  60
+
+Query  60  GTTLLNREQVMEGVPEMIPDIQVEATFPDGTKLVTVHQPI  99
+           G TLL  + VM+GV  MI ++ +EA FPDGTKLVTVH PI
+Sbjct  61  GRTLLKPDDVMDGVASMIHEVGIEAMFPDGTKLVTVHTPI  100
+
+
+>VFG019519(gb|WP_000779238) (ureA) urease alpha subunit UreA [Urease 
+(VF0050) - Stress survival (VFC0282)] [Helicobacter pylori 
+Shi470]
+Length=238
+
+ Score = 111 bits (278),  Expect = 6e-32, Method: Compositional matrix adjust.
+ Identities = 58/100 (58%), Positives = 74/100 (74%), Gaps = 1/100 (1%)
+
+Query  1   MDLSPREKDKLLIFTAGLLAERRLARGLKLNYPEAVALISAALLEGARDGR-SVAELMHY  59
+           M L+P+E DKL++  AG LA +R  +G+KLNY EAVALISA ++E AR G+ + AELM  
+Sbjct  1   MKLTPKELDKLMLHYAGELARKRKEKGIKLNYVEAVALISAHIMEEARAGKKTAAELMQE  60
+
+Query  60  GTTLLNREQVMEGVPEMIPDIQVEATFPDGTKLVTVHQPI  99
+           G TLL  + VM+GV  MI ++ +EA FPDGTKLVTVH PI
+Sbjct  61  GRTLLKPDDVMDGVASMIHEVGIEAMFPDGTKLVTVHTPI  100
+
+
+>VFG006467(gb|WP_000779233) (ureA) urease alpha subunit UreA [Urease 
+(VF0050) - Stress survival (VFC0282)] [Helicobacter pylori 
+J99]
+Length=238
+
+ Score = 111 bits (278),  Expect = 7e-32, Method: Compositional matrix adjust.
+ Identities = 58/100 (58%), Positives = 74/100 (74%), Gaps = 1/100 (1%)
+
+Query  1   MDLSPREKDKLLIFTAGLLAERRLARGLKLNYPEAVALISAALLEGARDGR-SVAELMHY  59
+           M L+P+E DKL++  AG LA +R  +G+KLNY EAVALISA ++E AR G+ + AELM  
+Sbjct  1   MKLTPKELDKLMLHYAGELARKRKEKGIKLNYVEAVALISAHIMEEARAGKKTAAELMQE  60
+
+Query  60  GTTLLNREQVMEGVPEMIPDIQVEATFPDGTKLVTVHQPI  99
+           G TLL  + VM+GV  MI ++ +EA FPDGTKLVTVH PI
+Sbjct  61  GRTLLKPDDVMDGVASMIHEVGIEAMFPDGTKLVTVHTPI  100
+
+
+
+Lambda      K        H        a         alpha
+   0.319    0.136    0.377    0.792     4.96 
+
+Gapped
+Lambda      K        H        a         alpha    sigma
+   0.267   0.0410    0.140     1.90     42.6     43.6 
+
+Effective search space used: 328038169
+
+
+  Database: VFDB_setB_pro.fas
+    Posted date:  Apr 10, 2024  11:56 PM
+  Number of letters in database: 13,298,383
+  Number of sequences in database:  27,982
+
+
+
+Matrix: BLOSUM62
+Gap Penalties: Existence: 11, Extension: 1
+Neighboring words threshold: 11
+Window for multiple hits: 40
