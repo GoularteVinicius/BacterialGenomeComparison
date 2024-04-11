@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# List of bacteria names (modify as needed)
+# Lista de nomes de bactérias (modifique conforme necessário)
 bacteria=(
   "Acinetobacter_baumannii"
   "Mycobacterium_leprae"
@@ -10,19 +10,19 @@ bacteria=(
   "Salmonella_enterica"
 )
 
-# Loop through each bacteria
+# Loop através de cada bactéria
 for ((i=0; i<${#bacteria[@]}; i++)); do
   bacteria1=${bacteria[$i]}
   
-  # Loop through bacteria names after the current one
+  # Loop através dos nomes de bactérias após a atual
   for ((j=i+1; j<${#bacteria[@]}; j++)); do
     bacteria2=${bacteria[$j]}
     
-    # Create directory name with sorted order (lexicographically)
+    # Cria o nome do diretório com ordem classificada (lexicograficamente)
     dir_name=$(printf "%s_%s\n" "${bacteria1}" "${bacteria2}")
     
-    # Create the directory
+    # Cria o diretório
     mkdir -p data/pairwise_orthologs/"$dir_name"
-    echo "Created directory: $dir_name"
+    echo "Diretório criado: $dir_name"
   done
 done
